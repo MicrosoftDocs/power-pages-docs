@@ -47,7 +47,7 @@ conceptualContent:
       summary: Power Pages
       items:
         # Card
-        - title: Overview
+        - title: Getting Started
           summary: Overview of Power Pages and tools
           links:
             - text: What are Power Pages?
@@ -56,43 +56,22 @@ conceptualContent:
             - text: Overview of the Power Page maker Studio
               url: coming-soon.md
               itemType: overview
+            - text: Create your first site with Power Pages
+              url: \get-started
+              itemType: get-started                
           footerLink:
             url: coming-soon.md
             text: See more
         # Card
-        - title: Get Started
-          summary: Get started building sites using Power Pages
+        - title: Training Videos
+          summary: Step by step videos on how to build your first site
           links:
-            - text: Create your first site with Power Pages
-              url: \get-started
-              itemType: get-started               
-            - text: Create and design Power Pages
+            - text: Design your homepage & site navigation 
               url: coming-soon.md
-              itemType: get-started
-            - text: Style your Power Page
-              url: coming-soon.md
-              itemType: get-started                        
-            - text: Connect to Dataverse with Power Pages
-              url: coming-soon.md
-              itemType: get-started
-            - text: Secure your Power Pages
-              url: coming-soon.md
-              itemType: get-started
-            - text: Provide access to external audiences
-              url: coming-soon.md
-              itemType: get-started
-            - text: Power Pages Templates
-              url: coming-soon.md
-              itemType: reference                   
-            - text: Extend your Power Pages for Pro-developers 
-              url: coming-soon.md
-              itemType: reference            
-            - text: Administration of Power Page portals 
-              url: coming-soon.md
-              itemType: reference  
+              itemType: overview 
           footerLink:
             url: coming-soon.md
-            text: See more                                   
+            text: See more                                          
         # Card
         - title: Design and Build
           summary: How to design and build sites using Power Pages        
