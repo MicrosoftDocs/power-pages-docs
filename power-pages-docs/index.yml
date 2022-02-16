@@ -3,7 +3,7 @@
 title: Power Pages documentation - hub mock up
 summary: Use Power Apps portals to create external-facing websites that allow users outside their organizations to sign in with a wide variety of identities, create and view data in Dataverse, or even browse content anonymously. 
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | sql | sql-server | vs | visual-studio | windows | xamarin
-brand: power-platform
+brand: power-apps
 
 metadata:
   title: Power Apps portals documentation
@@ -15,7 +15,7 @@ metadata:
   ms.collection: collection
   author: nickdoelman
   ms.author: ndoelman
-  ms.date: 01/17/2022 
+  ms.date: 02/16/2022 
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -53,22 +53,49 @@ conceptualContent:
             - text: What are Power Pages?
               url: coming-soon.md
               itemType: overview 
-            - text: Overview of the Power Page maker Studio
+            - text: Power Pages Evaluation Guide
               url: coming-soon.md
-              itemType: overview
+              itemType: reference
+            - text: What can you use Power Pages for?
+              url: coming-soon.md
+              itemType: reference                                
             - text: Create your first site with Power Pages
               url: \get-started
-              itemType: get-started                
+              itemType: get-started
+            - text: Style your Power Pages site
+              url: coming-soon.md
+              itemType: tutorial
+            - text: How Power Pages security works
+              url: coming-soon.md
+              itemType: quickstart
+            - text: Getting Started with Templates
+              url: coming-soon.md
+              itemType: overview                                                             
           footerLink:
-            url: coming-soon.md
+            url: \get-started
             text: See more
         # Card
         - title: Training Videos
           summary: Step by step videos on how to build your first site
           links:
-            - text: Design your homepage & site navigation 
+            - text: Create home page 
               url: coming-soon.md
-              itemType: overview 
+              itemType: video
+            - text: Style your site 
+              url: coming-soon.md
+              itemType: video               
+            - text: Create table permissions 
+              url: coming-soon.md
+              itemType: video
+            - text: Create a form 
+              url: coming-soon.md
+              itemType: video
+            - text: Create an Advanced form
+              url: coming-soon.md
+              itemType: video
+            - text: Configure access to your site 
+              url: coming-soon.md
+              itemType: video                                          
           footerLink:
             url: coming-soon.md
             text: See more                                          
@@ -79,36 +106,15 @@ conceptualContent:
           - text: Planning your Power Pages project
             url: coming-soon.md
             itemType: deploy    
-          - text: Create and Design pages
-            url: create-manage-webpages.md
-            itemType: how-to-guide    
-          - text: Navigation
+          - text: Using the new maker Studio
             url: coming-soon.md
-            itemType: how-to-guide
-          - text: Styling
-            url: theme-overview.md
-            itemType: overview
-          - text: Data modeling
-            url: ../data-platform/data-platform-intro.md
-            itemType: concept
-          - text: Dataverse views
-            url: ../model-driven-apps/create-edit-views.md
-            itemType: how-to-guide
-          - text: Add lists to pages
-            url: add-list.md
-            itemType: how-to-guide                                      
-          - text: Dataverse forms
-            url: ../model-driven-apps/create-design-forms.md
-            itemType: how-to-guide               
-          - text: Add forms to pages
-            url: add-form.md
-            itemType: how-to-guide   
-          - text: Table permissions
-            url: configure/assign-entity-permissions.md
-            itemType: how-to-guide
-          - text: Web roles
-            url: configure/create-web-roles.md
-            itemType: how-to-guide                                                                                                                           
+            itemType: deploy 
+          - text: Using the Portal Management app
+            url: coming-soon.md
+            itemType: deploy  
+          - text: Using the VS Code and the PAC cli
+            url: coming-soon.md
+            itemType: deploy                                                                                                                                                   
           footerLink:
             url: coming-soon.md
             text: See more                        
@@ -116,36 +122,18 @@ conceptualContent:
         - title: Customize and Extend
           summary: Use professional developer tools and methods
           links:
-          - text: Coming Soon
-            url: coming-soon.md
-            itemType: reference
-          - text: Web technologies
+          - text: Using Liquid
             url: coming-soon.md
             itemType: reference
           - text: Web templates
             url: liquid/create-custom-template.md
             itemType: how-to-guide  
-          - text: Liquid
-            url: liquid/liquid-overview.md
-            itemType: overview
-          - text: JavaScript
+          - text: Portals Web API
             url: coming-soon.md
             itemType: reference
-          - text: Portals web API
-            url: web-api-overview.md
-            itemType: how-to-guide
-          - text: Code components
-            url: component-framework.md
-            itemType: how-to-guide
-          - text: Site markers
+          - text: Code Components
             url: coming-soon.md
-            itemType: reference
-          - text: Content Snippets
-            url: configure/customize-content-snippets.md
-            itemType: reference
-          - text: Configure advanced forms
-            url: configure/web-form-properties.md
-            itemType: how-to-guide                                                                                                                                                                                            
+            itemType: reference                                                                                                                                                                                                    
           footerLink:
             url: coming-soon.md
             text: See more           
@@ -153,24 +141,18 @@ conceptualContent:
         - title: Security
           summary: Secure your sites and data are protected        
           links:
+          - text: Power Pages security overview
+            url: coming-soon.md
+            itemType: reference           
           - text: Authentication Setup
             url: configure/configure-portal-authentication.md
             itemType: how-to-guide     
-          - text: Dataverse Contacts as portal users
-            url: configure/configure-contacts.md
-            itemType: how-to-guide  
           - text: Web roles
             url: configure/create-web-roles.md
             itemType: how-to-guide    
-          - text: Page Permissions
-            url: configure/webpage-access-control.md
-            itemType: how-to-guide 
           - text: Table Permissions
             url: configure/entity-permissions-studio.md
-            itemType: how-to-guide 
-          - text: Column Permissions
-            url: coming-soon.md
-            itemType: how-to-guide                                                                                    
+            itemType: how-to-guide                                                                                 
           footerLink:
             url: coming-soon.md
             text: See more
@@ -181,16 +163,10 @@ conceptualContent:
           - text: Go live checklist
             url: coming-soon.md
             itemType: deploy
-          - text: Environment setup
-            url: admin/add-custom-domain.md
-            itemType: how-to-guide
           - text: Assign Licensing
             url: coming-soon.md
             itemType: how-to-guide
-          - text: Portal Checker
-            url: admin/portal-checker.md
-            itemType: reference 
-          - text: Move portal configuration
+          - text: Portals ALM
             url: power-apps-cli.md
             itemType: how-to-guide                                                                
           footerLink:
