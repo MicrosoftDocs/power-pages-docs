@@ -181,7 +181,7 @@ conceptualContent:
           links:
           - text: Portals admin center
             url: admin/power-platform-admin-center.md
-            itemType: 
+            itemType: reference
           - text: Troubleshooting and Diagnostics
             url: admin/view-portal-error-log.md
             itemType: reference   
