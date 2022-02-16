@@ -83,8 +83,11 @@ conceptualContent:
               itemType: video
             - text: Style your site 
               url: coming-soon.md
-              itemType: video               
-            - text: Create table permissions 
+              itemType: video
+            - text: Create a table
+              url: coming-soon.md
+              itemType: video                             
+            - text: Setup table permissions 
               url: coming-soon.md
               itemType: video
             - text: Create a form 
@@ -105,16 +108,16 @@ conceptualContent:
           links:
           - text: Planning your Power Pages project
             url: coming-soon.md
-            itemType: deploy    
+            itemType: reference    
           - text: Using the new maker Studio
             url: coming-soon.md
-            itemType: deploy 
+            itemType: how-to-guide 
           - text: Using the Portal Management app
             url: coming-soon.md
-            itemType: deploy  
+            itemType: reference  
           - text: Using the VS Code and the PAC cli
             url: coming-soon.md
-            itemType: deploy                                                                                                                                                   
+            itemType: how-to-guide                                                                                                                                                   
           footerLink:
             url: coming-soon.md
             text: See more                        
@@ -130,7 +133,7 @@ conceptualContent:
             itemType: how-to-guide  
           - text: Portals Web API
             url: coming-soon.md
-            itemType: reference
+            itemType: how-to-guide
           - text: Code Components
             url: coming-soon.md
             itemType: reference                                                                                                                                                                                                    
@@ -178,16 +181,19 @@ conceptualContent:
           links:
           - text: Portals admin center
             url: admin/power-platform-admin-center.md
-            itemType: reference
+            itemType: 
           - text: Troubleshooting and Diagnostics
             url: admin/view-portal-error-log.md
             itemType: reference   
           - text: Maintenance and Updates
             url: admin/update-portal-solution.md
-            itemType: how-to-guide
+            itemType: reference
           - text: Review consumption
             url: admin/portal-consumption-reports.md
-            itemType: how-to-guide                                                              
+            itemType: how-to-guide
+          footerLink:
+            url: coming-soon.md
+            text: See more                                                                          
         # Card
         - title: Advanced Configuration
           summary: Configuration of advanced features and integrations.          
