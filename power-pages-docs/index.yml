@@ -47,7 +47,7 @@ conceptualContent:
       summary: Power Pages
       items:
         # Card
-        - title: Getting Started
+        - title: Overview of Power Pages
           summary: Overview of Power Pages and tools
           links:
             - text: What are Power Pages?
@@ -59,21 +59,37 @@ conceptualContent:
             - text: What can you use Power Pages for?
               url: coming-soon.md
               itemType: reference                                
-            - text: Create your first site with Power Pages
-              url: \get-started
-              itemType: get-started
-            - text: Style your Power Pages site
+            - text: Customer Stories
               url: coming-soon.md
-              itemType: tutorial
-            - text: How Power Pages security works
+              itemType: reference
+            - text: More to explore
               url: coming-soon.md
-              itemType: quickstart
-            - text: Getting Started with Templates
-              url: coming-soon.md
-              itemType: overview                                                             
+              itemType: reference                                                          
           footerLink:
             url: \get-started
             text: See more
+        # Card
+        - title: Getting Started
+          summary: Overview of Power Pages and tools
+          links:                             
+            - text: Create your first site with Power Pages
+              url: \get-started
+              itemType: get-started
+            - text: Create Pages
+              url: \get-started
+              itemType: get-started              
+            - text: Style your Power Pages site
+              url: coming-soon.md
+              itemType: tutorial
+            - text: Connect to Dataverse
+              url: coming-soon.md
+              itemType: tutorial              
+            - text: How Power Pages security works
+              url: coming-soon.md
+              itemType: quickstart                                                            
+          footerLink:
+            url: \get-started
+            text: See more            
         # Card
         - title: Training Videos
           summary: Step by step videos on how to build your first site
@@ -108,7 +124,10 @@ conceptualContent:
           links:
           - text: Planning your Power Pages project
             url: coming-soon.md
-            itemType: reference    
+            itemType: reference
+          - text: Getting Started with Templates
+            url: coming-soon.md
+            itemType: overview                 
           - text: Using the new maker Studio
             url: coming-soon.md
             itemType: how-to-guide 
@@ -136,7 +155,10 @@ conceptualContent:
             itemType: how-to-guide
           - text: Code Components
             url: coming-soon.md
-            itemType: reference                                                                                                                                                                                                    
+            itemType: reference
+          - text: Advanced Configuration
+            url: coming-soon.md
+            itemType: reference                                                                                                                                                                                                                  
           footerLink:
             url: coming-soon.md
             text: See more           
@@ -194,28 +216,3 @@ conceptualContent:
           footerLink:
             url: coming-soon.md
             text: See more                                                                          
-        # Card
-        - title: Advanced Configuration
-          summary: Configuration of advanced features and integrations.          
-          links:
-          - text: Configure Dataverse search
-            url: configure/dataverse-search.md
-            itemType: how-to-guide 
-          - text: Configure Power BI integration
-            url: admin/set-up-power-bi-integration.md
-            itemType: how-to-guide 
-          - text: Configure Power Virtual Agents integration
-            url: add-chatbot.md
-            itemType: how-to-guide 
-          - text: Configure SharePoint integration
-            url: manage-sharepoint-documents.md
-            itemType: how-to-guide            
-          - text: Configure progressive web applications
-            url: progressive-web-apps.md
-            itemType: how-to-guide 
-          - text: Configure multi-language
-            url: configure/enable-multiple-language-support.md
-            itemType: how-to-guide              
-          footerLink:
-            url: coming-soon.md
-            text: See more
