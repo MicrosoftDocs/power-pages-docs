@@ -47,8 +47,8 @@ conceptualContent:
       summary: Power Pages
       items:
         # Card
-        - title: Overview of Power Pages
-          summary: Overview of Power Pages and tools
+        - title: Overview
+          summary: Overview of Power Pages
           links:
             - text: What are Power Pages?
               url: coming-soon.md
@@ -70,7 +70,7 @@ conceptualContent:
             text: See more
         # Card
         - title: Getting Started
-          summary: Overview of Power Pages and tools
+          summary: Start building sites using Power Pages
           links:                             
             - text: Create your first site with Power Pages
               url: \get-started
