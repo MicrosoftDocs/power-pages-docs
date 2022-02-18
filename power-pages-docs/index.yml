@@ -73,19 +73,19 @@ conceptualContent:
           summary: Start building sites using Power Pages
           links:                             
             - text: Create your first site with Power Pages
-              url: \getting-started
+              url: getting-started\placeholder.md
               itemType: get-started
             - text: Create Pages
-              url: \getting-started
+              url: getting-started\placeholder.md
               itemType: get-started              
             - text: Style your Power Pages site
-              url: placeholder.md
+              url: getting-started\placeholder.md
               itemType: tutorial
             - text: Connect to Dataverse
-              url: placeholder.md
+              url: getting-started\placeholder.md
               itemType: tutorial              
             - text: How Power Pages security works
-              url: placeholder.md
+              url: getting-started\placeholder.md
               itemType: quickstart                                                            
           footerLink:
             url: getting-started\
@@ -95,124 +95,124 @@ conceptualContent:
           summary: Step by step videos on how to build your first site
           links:
             - text: Create home page 
-              url: placeholder.md
+              url: training-videos\placeholder.md
               itemType: video
             - text: Style your site 
-              url: placeholder.md
+              url: training-videos\placeholder.md
               itemType: video
             - text: Create a table
-              url: placeholder.md
+              url: training-videos\placeholder.md
               itemType: video                             
             - text: Setup table permissions 
-              url: placeholder.md
+              url: training-videos\placeholder.md
               itemType: video
             - text: Create a form 
-              url: placeholder.md
+              url: training-videos\placeholder.md
               itemType: video
             - text: Create an Advanced form
-              url: placeholder.md
+              url: training-videos\placeholder.md
               itemType: video
             - text: Configure access to your site 
-              url: placeholder.md
+              url: training-videos\placeholder.md
               itemType: video                                          
           footerLink:
-            url: \training-videos
+            url: training-videos/
             text: See more                                          
         # Card
         - title: Design and Build
           summary: How to design and build sites using Power Pages        
           links:
           - text: Planning your Power Pages project
-            url: placeholder.md
+            url: design-and-build\placeholder.md
             itemType: reference
           - text: Getting Started with Templates
-            url: placeholder.md
+            url: design-and-build\placeholder.md
             itemType: overview                 
           - text: Using the new maker Studio
-            url: placeholder.md
+            url: design-and-build\placeholder.md
             itemType: how-to-guide 
           - text: Using the Portal Management app
-            url: placeholder.md
+            url: design-and-build\placeholder.md
             itemType: reference  
           - text: Using the VS Code and the PAC cli
-            url: placeholder.md
+            url: design-and-build\placeholder.md
             itemType: how-to-guide                                                                                                                                                   
           footerLink:
-            url: \design-and-build
+            url: design-and-build/
             text: See more                        
         # Card
         - title: Customize and Extend
           summary: Use professional developer tools and methods
           links:
           - text: Using Liquid
-            url: placeholder.md
+            url: customize-and-extend\placeholder.md
             itemType: reference
           - text: Web templates
-            url: liquid/create-custom-template.md
+            url: customize-and-extend\placeholder.md
             itemType: how-to-guide  
           - text: Portals Web API
-            url: placeholder.md
+            url: customize-and-extend\placeholder.md
             itemType: how-to-guide
           - text: Code Components
-            url: placeholder.md
+            url: customize-and-extend\placeholder.md
             itemType: reference
           - text: Advanced Configuration
-            url: placeholder.md
+            url: customize-and-extend\placeholder.md
             itemType: reference                                                                                                                                                                                                                  
           footerLink:
-            url: \customize-and-extend
+            url: customize-and-extend/
             text: See more           
         # Card
         - title: Security
           summary: Secure your sites and data are protected        
           links:
           - text: Power Pages security overview
-            url: placeholder.md
+            url: security\placeholder.md
             itemType: reference           
           - text: Authentication Setup
-            url: placeholder.md
+            url: security\placeholder.md
             itemType: how-to-guide     
           - text: Web roles
-            url: placeholder.md
+            url: security\placeholder.md
             itemType: how-to-guide    
           - text: Table Permissions
-            url: placeholder.md
+            url: security\placeholder.md
             itemType: how-to-guide                                                                                 
           footerLink:
-            url: \security
+            url: security/
             text: See more
         # Card    
         - title: Go Live
           summary: Launch your site        
           links:
           - text: Go live checklist
-            url: placeholder.md
+            url: go-live\placeholder.md
             itemType: deploy
           - text: Assign Licensing
-            url: placeholder.md
+            url: go-live\placeholder.md
             itemType: how-to-guide
           - text: Portals ALM
-            url: placeholder.md
+            url: go-live\placeholder.md
             itemType: how-to-guide                                                                
           footerLink:
-            url: \go-live
+            url: go-live/
             text: See more
         # Card
         - title: Administer and Monitor
           summary: Administer and monitor your Power Pages sites           
           links:
           - text: Portals admin center
-            url: placeholder.md
+            url: administer-and-monitor\placeholder.md
             itemType: reference
           - text: Troubleshooting and Diagnostics
-            url: placeholder.md
+            url: administer-and-monitor\placeholder.md
             itemType: reference   
           - text: Maintenance and Updates
-            url: placeholder.md
+            url: administer-and-monitor\placeholder.md
             itemType: reference
           - text: Review consumption
-            url: placeholder.md
+            url: administer-and-monitor\placeholder.md
             itemType: how-to-guide
           footerLink:
-            url: \administer-and-monitor
+            url: administer-and-monitor/
             text: See more                                                                          
