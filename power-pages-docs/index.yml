@@ -51,22 +51,22 @@ conceptualContent:
           summary: Overview of Power Pages
           links:
             - text: What are Power Pages?
-              url: placeholder.md
+              url: overview\placeholder.md
               itemType: overview 
             - text: Power Pages Evaluation Guide
-              url: placeholder.md
+              url: overview\placeholder.md
               itemType: reference
             - text: What can you use Power Pages for?
-              url: placeholder.md
+              url: overview\placeholder.md
               itemType: reference                                
             - text: Customer Stories
-              url: placeholder.md
+              url: overview\placeholder.md
               itemType: reference
             - text: More to explore
-              url: placeholder.md
+              url: overview\placeholder.md
               itemType: reference                                                          
           footerLink:
-            url: \overview
+            url: overview/
             text: See more
         # Card
         - title: Getting Started
