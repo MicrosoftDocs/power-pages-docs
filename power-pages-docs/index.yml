@@ -1,0 +1,218 @@
+### YamlMime:Hub
+
+title: Power Pages documentation - hub mock up
+summary: Use Power Apps portals to create external-facing websites that allow users outside their organizations to sign in with a wide variety of identities, create and view data in Dataverse, or even browse content anonymously. 
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: power-apps
+
+metadata:
+  title: Power Apps portals documentation
+  description: Provides access to highlighted areas within the Power Apps portals documentation
+  services: service
+  ms.service: powerapps 
+  ms.subservice: subservice
+  ms.topic: hub-page 
+  ms.collection: collection
+  author: nickdoelman
+  ms.author: ndoelman
+  ms.date: 02/16/2022 
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+  # Card
+    - title: Overview
+      itemType: overview
+      url: placeholder.md
+  # Card
+    - title: Get started
+      itemType: get-started
+      url: placeholder.md
+  # Card
+    - title: What's new
+      itemType: whats-new
+      url: placeholder.md
+  # Card
+    - title: Learn
+      itemType: learn
+      url: placeholder.md      
+
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+  sections:
+    - title: Power Pages
+      summary: Power Pages
+      items:
+        # Card
+        - title: Overview
+          summary: Overview of Power Pages
+          links:
+            - text: What are Power Pages?
+              url: overview\placeholder.md
+              itemType: overview 
+            - text: Power Pages Evaluation Guide
+              url: overview\placeholder.md
+              itemType: reference
+            - text: What can you use Power Pages for?
+              url: overview\placeholder.md
+              itemType: reference                                
+            - text: Customer Stories
+              url: overview\placeholder.md
+              itemType: reference
+            - text: More to explore
+              url: overview\placeholder.md
+              itemType: reference                                                          
+          footerLink:
+            url: overview/
+            text: See more
+        # Card
+        - title: Getting Started
+          summary: Start building sites using Power Pages
+          links:                             
+            - text: Create your first site with Power Pages
+              url: getting-started\placeholder.md
+              itemType: get-started
+            - text: Create Pages
+              url: getting-started\placeholder.md
+              itemType: get-started              
+            - text: Style your Power Pages site
+              url: getting-started\placeholder.md
+              itemType: tutorial
+            - text: Connect to Dataverse
+              url: getting-started\placeholder.md
+              itemType: tutorial              
+            - text: How Power Pages security works
+              url: getting-started\placeholder.md
+              itemType: quickstart                                                            
+          footerLink:
+            url: getting-started\
+            text: See more            
+        # Card
+        - title: Training Videos
+          summary: Step by step videos on how to build your first site
+          links:
+            - text: Create home page 
+              url: training-videos\placeholder.md
+              itemType: video
+            - text: Style your site 
+              url: training-videos\placeholder.md
+              itemType: video
+            - text: Create a table
+              url: training-videos\placeholder.md
+              itemType: video                             
+            - text: Setup table permissions 
+              url: training-videos\placeholder.md
+              itemType: video
+            - text: Create a form 
+              url: training-videos\placeholder.md
+              itemType: video
+            - text: Create an Advanced form
+              url: training-videos\placeholder.md
+              itemType: video
+            - text: Configure access to your site 
+              url: training-videos\placeholder.md
+              itemType: video                                          
+          footerLink:
+            url: training-videos/
+            text: See more                                          
+        # Card
+        - title: Design and Build
+          summary: How to design and build sites using Power Pages        
+          links:
+          - text: Planning your Power Pages project
+            url: design-and-build\placeholder.md
+            itemType: reference
+          - text: Getting Started with Templates
+            url: design-and-build\placeholder.md
+            itemType: overview                 
+          - text: Using the new maker Studio
+            url: design-and-build\placeholder.md
+            itemType: how-to-guide 
+          - text: Using the Portal Management app
+            url: design-and-build\placeholder.md
+            itemType: reference  
+          - text: Using the VS Code and the PAC cli
+            url: design-and-build\placeholder.md
+            itemType: how-to-guide                                                                                                                                                   
+          footerLink:
+            url: design-and-build/
+            text: See more                        
+        # Card
+        - title: Customize and Extend
+          summary: Use professional developer tools and methods
+          links:
+          - text: Using Liquid
+            url: customize-and-extend\placeholder.md
+            itemType: reference
+          - text: Web templates
+            url: customize-and-extend\placeholder.md
+            itemType: how-to-guide  
+          - text: Portals Web API
+            url: customize-and-extend\placeholder.md
+            itemType: how-to-guide
+          - text: Code Components
+            url: customize-and-extend\placeholder.md
+            itemType: reference
+          - text: Advanced Configuration
+            url: customize-and-extend\placeholder.md
+            itemType: reference                                                                                                                                                                                                                  
+          footerLink:
+            url: customize-and-extend/
+            text: See more           
+        # Card
+        - title: Security
+          summary: Secure your sites and data are protected        
+          links:
+          - text: Power Pages security overview
+            url: security\placeholder.md
+            itemType: reference           
+          - text: Authentication Setup
+            url: security\placeholder.md
+            itemType: how-to-guide     
+          - text: Web roles
+            url: security\placeholder.md
+            itemType: how-to-guide    
+          - text: Table Permissions
+            url: security\placeholder.md
+            itemType: how-to-guide                                                                                 
+          footerLink:
+            url: security/
+            text: See more
+        # Card    
+        - title: Go Live
+          summary: Launch your site        
+          links:
+          - text: Go live checklist
+            url: go-live\placeholder.md
+            itemType: deploy
+          - text: Assign Licensing
+            url: go-live\placeholder.md
+            itemType: how-to-guide
+          - text: Portals ALM
+            url: go-live\placeholder.md
+            itemType: how-to-guide                                                                
+          footerLink:
+            url: go-live/
+            text: See more
+        # Card
+        - title: Administer and Monitor
+          summary: Administer and monitor your Power Pages sites           
+          links:
+          - text: Portals admin center
+            url: administer-and-monitor\placeholder.md
+            itemType: reference
+          - text: Troubleshooting and Diagnostics
+            url: administer-and-monitor\placeholder.md
+            itemType: reference   
+          - text: Maintenance and Updates
+            url: administer-and-monitor\placeholder.md
+            itemType: reference
+          - text: Review consumption
+            url: administer-and-monitor\placeholder.md
+            itemType: how-to-guide
+          footerLink:
+            url: administer-and-monitor/
+            text: See more                                                                          
