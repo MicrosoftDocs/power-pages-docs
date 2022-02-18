@@ -25,19 +25,19 @@ highlightedContent:
   # Card
     - title: Overview
       itemType: overview
-      url: coming-soon.md
+      url: placeholder.md
   # Card
     - title: Get started
       itemType: get-started
-      url: coming-soon.md
+      url: placeholder.md
   # Card
     - title: What's new
       itemType: whats-new
-      url: coming-soon.md
+      url: placeholder.md
   # Card
     - title: Learn
       itemType: learn
-      url: coming-soon.md      
+      url: placeholder.md      
 
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -51,168 +51,168 @@ conceptualContent:
           summary: Overview of Power Pages
           links:
             - text: What are Power Pages?
-              url: coming-soon.md
+              url: placeholder.md
               itemType: overview 
             - text: Power Pages Evaluation Guide
-              url: coming-soon.md
+              url: placeholder.md
               itemType: reference
             - text: What can you use Power Pages for?
-              url: coming-soon.md
+              url: placeholder.md
               itemType: reference                                
             - text: Customer Stories
-              url: coming-soon.md
+              url: placeholder.md
               itemType: reference
             - text: More to explore
-              url: coming-soon.md
+              url: placeholder.md
               itemType: reference                                                          
           footerLink:
-            url: \get-started
+            url: \overview
             text: See more
         # Card
         - title: Getting Started
           summary: Start building sites using Power Pages
           links:                             
             - text: Create your first site with Power Pages
-              url: \get-started
+              url: \getting-started
               itemType: get-started
             - text: Create Pages
-              url: \get-started
+              url: \getting-started
               itemType: get-started              
             - text: Style your Power Pages site
-              url: coming-soon.md
+              url: placeholder.md
               itemType: tutorial
             - text: Connect to Dataverse
-              url: coming-soon.md
+              url: placeholder.md
               itemType: tutorial              
             - text: How Power Pages security works
-              url: coming-soon.md
+              url: placeholder.md
               itemType: quickstart                                                            
           footerLink:
-            url: \get-started
+            url: \getting-started
             text: See more            
         # Card
         - title: Training Videos
           summary: Step by step videos on how to build your first site
           links:
             - text: Create home page 
-              url: coming-soon.md
+              url: placeholder.md
               itemType: video
             - text: Style your site 
-              url: coming-soon.md
+              url: placeholder.md
               itemType: video
             - text: Create a table
-              url: coming-soon.md
+              url: placeholder.md
               itemType: video                             
             - text: Setup table permissions 
-              url: coming-soon.md
+              url: placeholder.md
               itemType: video
             - text: Create a form 
-              url: coming-soon.md
+              url: placeholder.md
               itemType: video
             - text: Create an Advanced form
-              url: coming-soon.md
+              url: placeholder.md
               itemType: video
             - text: Configure access to your site 
-              url: coming-soon.md
+              url: placeholder.md
               itemType: video                                          
           footerLink:
-            url: coming-soon.md
+            url: \training-videos
             text: See more                                          
         # Card
         - title: Design and Build
           summary: How to design and build sites using Power Pages        
           links:
           - text: Planning your Power Pages project
-            url: coming-soon.md
+            url: placeholder.md
             itemType: reference
           - text: Getting Started with Templates
-            url: coming-soon.md
+            url: placeholder.md
             itemType: overview                 
           - text: Using the new maker Studio
-            url: coming-soon.md
+            url: placeholder.md
             itemType: how-to-guide 
           - text: Using the Portal Management app
-            url: coming-soon.md
+            url: placeholder.md
             itemType: reference  
           - text: Using the VS Code and the PAC cli
-            url: coming-soon.md
+            url: placeholder.md
             itemType: how-to-guide                                                                                                                                                   
           footerLink:
-            url: coming-soon.md
+            url: \design-and-build
             text: See more                        
         # Card
         - title: Customize and Extend
           summary: Use professional developer tools and methods
           links:
           - text: Using Liquid
-            url: coming-soon.md
+            url: placeholder.md
             itemType: reference
           - text: Web templates
             url: liquid/create-custom-template.md
             itemType: how-to-guide  
           - text: Portals Web API
-            url: coming-soon.md
+            url: placeholder.md
             itemType: how-to-guide
           - text: Code Components
-            url: coming-soon.md
+            url: placeholder.md
             itemType: reference
           - text: Advanced Configuration
-            url: coming-soon.md
+            url: placeholder.md
             itemType: reference                                                                                                                                                                                                                  
           footerLink:
-            url: coming-soon.md
+            url: \customize-and-extend
             text: See more           
         # Card
         - title: Security
           summary: Secure your sites and data are protected        
           links:
           - text: Power Pages security overview
-            url: coming-soon.md
+            url: placeholder.md
             itemType: reference           
           - text: Authentication Setup
-            url: configure/configure-portal-authentication.md
+            url: placeholder.md
             itemType: how-to-guide     
           - text: Web roles
-            url: configure/create-web-roles.md
+            url: placeholder.md
             itemType: how-to-guide    
           - text: Table Permissions
-            url: configure/entity-permissions-studio.md
+            url: placeholder.md
             itemType: how-to-guide                                                                                 
           footerLink:
-            url: coming-soon.md
+            url: \security
             text: See more
         # Card    
         - title: Go Live
           summary: Launch your site        
           links:
           - text: Go live checklist
-            url: coming-soon.md
+            url: placeholder.md
             itemType: deploy
           - text: Assign Licensing
-            url: coming-soon.md
+            url: placeholder.md
             itemType: how-to-guide
           - text: Portals ALM
-            url: power-apps-cli.md
+            url: placeholder.md
             itemType: how-to-guide                                                                
           footerLink:
-            url: coming-soon.md
+            url: \go-live
             text: See more
         # Card
         - title: Administer and Monitor
           summary: Administer and monitor your Power Pages sites           
           links:
           - text: Portals admin center
-            url: admin/power-platform-admin-center.md
+            url: placeholder.md
             itemType: reference
           - text: Troubleshooting and Diagnostics
-            url: admin/view-portal-error-log.md
+            url: placeholder.md
             itemType: reference   
           - text: Maintenance and Updates
-            url: admin/update-portal-solution.md
+            url: placeholder.md
             itemType: reference
           - text: Review consumption
-            url: admin/portal-consumption-reports.md
+            url: placeholder.md
             itemType: how-to-guide
           footerLink:
-            url: coming-soon.md
+            url: \administer-and-monitor
             text: See more                                                                          
