@@ -17,4 +17,3 @@ contributors:
 
 This is a placeholder topic.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
