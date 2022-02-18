@@ -88,7 +88,7 @@ conceptualContent:
               url: placeholder.md
               itemType: quickstart                                                            
           footerLink:
-            url: getting-started
+            url: getting-started\
             text: See more            
         # Card
         - title: Training Videos
