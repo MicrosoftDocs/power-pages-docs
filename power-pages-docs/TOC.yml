@@ -1,2 +1,6 @@
-- name: Index
-  href: index.md
+- name: What is Power Pages?
+  href: overview/introduction.md
+- name: Get started
+  items:
+  - name: Create your first site
+    href: create-first-site.md

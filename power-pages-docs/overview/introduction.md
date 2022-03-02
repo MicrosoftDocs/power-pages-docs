@@ -1,0 +1,19 @@
+---
+title: What is Power Pages?
+description: Placeholder topic.
+author: nickdoelman
+ms.topic: conceptual
+ms.custom: 
+ms.date: 02/18/2022
+ms.subservice: portals
+ms.author: ndoelman
+ms.reviewer: ndoelman
+contributors:
+    - nickdoelman
+---
+
+# What is Power Pages?
+
+This is a placeholder topic.
+
+:::image type="content" source="media/placeholder/placeholder-sample.png" alt-text="This is a sample.":::
