@@ -44,11 +44,16 @@
       "breadcrumb_path": "/power-pages/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",
-      "ms.service": "powerapps",
-      "ms.author": "ndoelman",
-      "author": "nickdoelman"
+      "ms.service": "powerapps"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.author": {
+        "**.*": "ndoelman"
+      },
+      "author": {
+        "**.*": "nickdoelman"
+      }  
+    },
     "template": [],
     "dest": "power-pages-docs"
   }
