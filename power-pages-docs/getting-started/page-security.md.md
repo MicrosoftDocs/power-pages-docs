@@ -1,6 +1,6 @@
 ---
 title: How Power Pages security works
-description: 
+description: Learn about Power Pages security.
 author: 
 
 ms.topic: conceptual
