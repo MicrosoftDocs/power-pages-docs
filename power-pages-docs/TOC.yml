@@ -12,7 +12,7 @@
     href: more-to-explore.md
 - name: Get started
   items:
-  - name: Create your first Power Page site
+  - name: Create your first Power Pages site
     href: first-page.md
   - name: Style your page
     href: style-site.md
@@ -20,5 +20,5 @@
     href: use-data-workspace.md
   - name: How Power Pages security works
     href: page-security.md
-  - name: Getting started with template
-    href: template.md
+  - name: Getting started with templates
+    href: templates.md
