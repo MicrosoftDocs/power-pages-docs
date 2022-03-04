@@ -1,7 +1,7 @@
 ---
 title: How to use Data Workspace?
 description: 
-author: nickndoelman
+author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/04/2022

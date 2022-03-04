@@ -1,7 +1,7 @@
 ---
 title: Create your first Power Pages site
 description: Learn how to create Power Pages sites.
-author: nickndoelman
+author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/04/2022
