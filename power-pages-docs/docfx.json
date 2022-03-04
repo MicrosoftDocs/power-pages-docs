@@ -24,7 +24,9 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -41,9 +43,17 @@
     "globalMetadata": {
       "breadcrumb_path": "/power-pages/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "ms.service": "powerapps"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.author": {
+        "**.*": "ndoelman"
+      },
+      "author": {
+        "**.*": "nickdoelman"
+      }  
+    },
     "template": [],
     "dest": "power-pages-docs"
   }
