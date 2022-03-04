@@ -1,8 +1,7 @@
 ---
-title: How Power Pages security works
+title: How Power Pages security works?
 description: Learn about Power Pages security.
 author: 
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/04/2022
@@ -14,6 +13,9 @@ contributors:
     - ProfessorKendrick
 ---
 
+# How Power Pages security works?
+
+TO DO: Add content
 
 
 

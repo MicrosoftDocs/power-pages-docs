@@ -1,8 +1,7 @@
 ---
 title: Getting started with templates
 description: Learn how to get started with templates.
-author: 
-
+author:
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/04/2022
@@ -14,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
+# Getting started with templates
 
-
-
+TO DO: Add content
 

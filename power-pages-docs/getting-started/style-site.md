@@ -2,7 +2,6 @@
 title: Style your Power Pages site
 description: 
 author: 
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/04/2022
@@ -14,7 +13,10 @@ contributors:
     - ProfessorKendrick
 ---
 
+# Style your pages site
 
+
+TO DO: Add content
 
 
 
