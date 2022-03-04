@@ -1,15 +1,3 @@
-- name: Get started
-  items:
-  - name: Create your first Power Page site
-    href: first-page.md
-  - name: Style your Page
-    href: style-site.md
-  - name: How to use Data Workspace
-    href: use-data-workspace.md
-  - name: How Power Pages Security Works
-    href: page-security.md
-  - name: Getting Started with Template
-    href: template.md
 - name: Overview
   items: 
   - name: What is Power Pages + Landing page overview
@@ -22,3 +10,15 @@
     href: customer-stories.md 
   - name: More to explore (community) 
     href: more-to-explore.md
+- name: Get started
+  items:
+  - name: Create your first Power Page site
+    href: first-page.md
+  - name: Style your Page
+    href: style-site.md
+  - name: How to use Data Workspace
+    href: use-data-workspace.md
+  - name: How Power Pages Security Works
+    href: page-security.md
+  - name: Getting Started with Template
+    href: template.md
