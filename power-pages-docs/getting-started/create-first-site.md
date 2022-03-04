@@ -18,3 +18,6 @@ contributors:
 This is a placeholder topic.
 
 :::image type="content" source="media/placeholder/placeholder-sample.png" alt-text="This is a sample.":::
+
+> [!NOTE]
+> This is a note!
