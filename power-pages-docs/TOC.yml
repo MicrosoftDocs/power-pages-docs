@@ -14,7 +14,7 @@
   items:
   - name: Create your first Power Page site
     href: first-page.md
-  - name: Style your Page
+  - name: Style your page
     href: style-site.md
   - name: How to use Data Workspace
     href: use-data-workspace.md
