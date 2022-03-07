@@ -13,7 +13,7 @@
 - name: Get started
   items:
   - name: Create your first Power Pages site
-    href: first-page.md
+    href: getting-started/first-page.md
   - name: Style your page
     href: style-site.md
   - name: How to use Data Workspace
