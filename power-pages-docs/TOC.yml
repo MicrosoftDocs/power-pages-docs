@@ -1,7 +1,7 @@
 - name: Overview
   items: 
   - name: What is Power Pages
-    href: overview/what-is.md
+    href: overview/introduction.md
   - name: Power Pages platform capabilities
     href: overview/platform-capabilities.md
   - name: Power Pages uses
