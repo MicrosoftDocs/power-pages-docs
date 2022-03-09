@@ -23,25 +23,25 @@ In Power Pages you will find a robust set of themes and tools to use to style yo
 
     ![Graphical user interface  application Description automatically generated](media/style-site/image1.png)
 
-    Note the list of choices in the Themes Workspace. Further customization can be done with the Styling Menu.
+    - Note the list of choices in the Themes Workspace. Further customization can be done with the Styling Menu.
 
 1. Select one of the preset themes to see how the style is reflected on the canvas workspace to the right.
 
-    Note the requisite changes in the color palate that occur with each theme change. Each theme has its own palette.
+    - Note the requisite changes in the color palate that occur with each theme change. Each theme has its own palette.
 
-    Users can adjust the styling menu to make fine-tuned adjustments to each theme. Text options include Font, Weight, Size, and Color.
+    - Users can adjust the styling menu to make fine-tuned adjustments to each theme. Text options include Font, Weight, Size, and Color.
 
 1. Choose between **Save Changes** or **Discard Changes** after theme edits are made.
 
-A modified theme will be noted next to the theme name if and until the theme is reset to preserve changes.
+    - A modified theme will be noted next to the theme name if and until the theme is reset to preserve changes.
 
-### Resetting a Theme
+## Resetting a Theme
 
 To **reset a theme** to it's original state, choose the ellipses to open the **Reset to default option**
 
     ![Graphical user interface  application Description automatically generated](media/style-site/image7.png)
 
-### Viewing Your Page
+## Viewing Your Page
 
 To see the full page in the studio, select the two arrows to hide the styling options.
 
@@ -59,7 +59,7 @@ To see the site in the 1.0 Version of Power Pages...
 
 Note that each color on the palate maps to a specific element on the page.  There will always be nine colors for any preset theme and three slots for user selected colors.  If the elements are customized at any point the mapping will no longer hold true unless the theme is reset.
 
-1. To add a new color or to change an existing color click the "+" sign below and select your color from the options.  This can be done with the color picker, the Hex value, and the RGB values.
+To add a new color or to change an existing color click the "+" sign below and select your color from the options.  This can be done with the color picker, the Hex value, and the RGB values.
 
     ![Graphical user interface  application Description automatically generated](media/style-site/image13.png)
 
