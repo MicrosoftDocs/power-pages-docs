@@ -87,7 +87,7 @@ This is the prebuilt home page of your site. You can easily change the logo, hea
 
 ### Pages
 
-Pages is another page on your site. You can leverage this page to drive users to the subpages. These pages are built with basic components such as text, button, and images, all of which is customizable.
+Pages is another page on your site. You can leverage this page to drive users to the subpages. These pages are built with basic, customizable components such as text, button, and images.
 
 Select the &lt;...&gt; option to position these pages as needed on your site.
 
