@@ -1,24 +1,24 @@
 - name: Overview
   items: 
   - name: What is Power Pages
-    href: what-is.md
+    href: overview/introduction.md
   - name: Power Pages platform capabilities
-    href: platform-capabilities.md
+    href: overview/platform-capabilities.md
   - name: Power Pages uses
-    href: uses.md 
+    href: overview/uses.md 
   - name: Customer stories 
-    href: customer-stories.md 
+    href: overview/customer-stories.md 
   - name: More to explore (community) 
-    href: more-to-explore.md
+    href: overview/more-to-explore.md
 - name: Get started
   items:
   - name: Create your first Power Pages site
     href: getting-started/first-page.md
   - name: Style your page
-    href: style-site.md
+    href: getting-started/style-site.md
   - name: How to use Data Workspace
-    href: use-data-workspace.md
+    href: getting-started/use-data-workspace.md
   - name: How Power Pages security works
-    href: page-security.md
+    href: getting-started/page-security.md
   - name: Getting started with templates
-    href: templates.md
+    href: getting-started/default-template.md
