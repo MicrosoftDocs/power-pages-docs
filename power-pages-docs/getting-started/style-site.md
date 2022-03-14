@@ -49,7 +49,7 @@ To see the full page in the studio, select the two arrows to hide the styling op
 
 To see the site as it would appear in production select the Preview icon.
 
-    ![Graphical user interface  text  application Description automatically generated](media/style-site/image9.png)
+:::image type="content" source="media/style-site/preview-icon.png" alt-text="GUI displaying the icon option to preview the page.":::
 
 You can also use the viewport selector to choose from Web, tablet, and mobile views of the workspace.  
 
@@ -61,7 +61,7 @@ Note that each color on the palate maps to a specific element on the page.  Ther
 
 To add a new color or to change an existing color click the "+" sign below and select your color from the options.  This can be done with the color picker, the Hex value, and the RGB values.
 
-    ![Graphical user interface  application Description automatically generated](media/style-site/image13.png)
+:::image="content" source="media/style-site/color-picker.png" alt-text="GUI displaying options to select a color.":::
 
 Once a new color is added to the color palate it can then be used to color components in the context menu
 
