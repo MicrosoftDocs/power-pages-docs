@@ -45,6 +45,8 @@ To **reset a theme** to it's original state, choose the ellipses to open the **R
 
 To see the full page in the studio, select the two arrows to hide the styling options.
 
+:::image type="content" source="media/style-site/full-page-icon" alt-text="GUI displaying the icon option to make the screen display full-page."
+
     ![Graphical user interface Description automatically generated](media/style-site/image8.png)
 
 To see the site as it would appear in production select the Preview icon.
