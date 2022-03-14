@@ -4,7 +4,7 @@ description: Learn about Power Pages Maker Studio.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/07/2022
+ms.date: 03/14/2022
 ms.subservice: portals
 ms.author: ndoelman
 ms.reviewer:
@@ -29,17 +29,17 @@ The Power Page maker studio is an intuitive click and drag interface that enable
 
 When you are done building, preview your site with the "Preview" option. You can preview on desktop or mobile. Selecting "Desktop" opens the site in a new web browser tab. Scanning the QR code with your mobile device opens the site on the mobile web browser.
 
-:::image style="content" source="media/tour-maker-studio/preview-site.png" alt-text="The maker studio GUI with preview menu options selected.":::
+:::image type="content" source="media/tour-maker-studio/preview-site.png" alt-text="The maker studio GUI with preview menu options selected.":::
 
 ## Accessing Portals Management app and sync
 
 For advanced configurations that are not available in the Power Page maker studio, the Portals Management app is accessible from the overflow menu.
 
-:::image style="content" source="media/tour-maker-studio/portals-management-app.png" alt-text="The maker studio GUI with preview menu options selected.":::
+:::image type="content" source="media/tour-maker-studio/portals-management-app.png" alt-text="The maker studio GUI with preview menu options selected.":::
 
 For changes made to the site from the Portals Management app to be reflected in Power Page maker studio, click on the "Sync" button in the top right of the screen.
 
-:::image style="content" source="media/tour-maker-studio/sync.png" alt-text="The maker studio GUI with preview menu options selected.":::
+:::image type="content" source="media/tour-maker-studio/sync.png" alt-text="The maker studio GUI with preview menu options selected.":::
 
 ## Returning to the PowerApps portal studio
 
@@ -51,13 +51,8 @@ Note that there are known backwards compatibility issues related to global styli
 
 In addition to the toggle from PowerApps portal Studio, the Power Page maker studio can be launched from these following entry points:
 
--  Power Page creation experience.
+- Power Page creation experience.
 
--  Edit an existing site from the Power Page homepage.
+- Edit an existing site from the Power Page homepage.
 
--  Direct URL to the maker studio of an existing site.
-
-
-
-
-
+- Direct URL to the maker studio of an existing site.
