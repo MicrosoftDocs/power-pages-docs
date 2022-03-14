@@ -19,7 +19,7 @@ contributors:
 
 The default design template is a versatile template that provides basic building blocks for you to customize your portal. 
 
-Follow the steps below to create a site with default design template.
+### Creating a site using the default design template
 
 1. Select + Create a site from the Home page.
 
