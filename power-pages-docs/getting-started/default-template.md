@@ -26,10 +26,12 @@ The default design template is a versatile template that provides basic building
 1. Select the Default design template from the available options and choose Next.
 
 1. Validate the default site name and web address created. 
-Note: you can edit these as needed.
+
+    Note: you can edit these as needed.
 
 1. Select Done. 
-Note: It may take a few moments for your new portal to be provisioned.
+
+    Note: It may take a few moments for your new portal to be provisioned.
 
 ## Default template core elements
 
