@@ -32,11 +32,11 @@ Follow the steps below to successfully create a site with default design templat
 The Default design template consists of basic components that are essential building blocks of a website design. 
 These components include:
 
-- Home page: serves as a landing page for users to learn more about the site. This pages uses some of the building block components like text, image, and buttons.
-
--  Subpages: allows users to navigate to different sections of the site.
-
-- Contact us: consists of a form component and an iframe component that allows users to submit feedback via form and locate the physical location of the enterprise.
+| Component | Description |
+| ----------- | ----------- |
+| Homepage | serves as a landing page for users to learn more about the site.  This page uses some of the building block components, like text, image, and buttons. |
+| Subpages | allows users to navigate to different sections of the site. |
+| Contact us | consists of a form component and an iFrame component that allows users to submit feedback via forms and look up information about the enterprise, such as the location. |
 
 ### Text component
 
@@ -58,9 +58,9 @@ The form component in this template allows users to provide feedback. Data colle
 
 If you would like to change the table or form (simple contact us form) to something else, you can make changes here and save them.
 
-### Iframe component
+### iFrame component
 
-Iframe component allows you to embed webpage of another website. In this template, by default the ifram URL is set to Bing maps.
+iFrame component allows you to embed webpage of another website. In this template, by default the ifram URL is set to Bing maps.
 
 ### Video component
 
@@ -72,9 +72,10 @@ The default design template comes with predefined pages for your site. Navigate 
 
 There are two sections for page navigation.
 
-- Main navigation: this section covers pages that are part of your main navigation on the site.
-
-- Other pages: this section covers pages that you land on from any of the main navigation pages.
+| Section | Description |
+| ----------- | ----------- |
+| Main navigation | this section covers pages that are part of the main navigation for your site. | 
+| Other pages | this section covers pages that you are directed to from any of the main navigation pages. | 
 
 ## Change page components
 
@@ -110,7 +111,7 @@ Navigate to the **Set up** workspace on the Toolbelt to configure settings that 
 
 By default, local sign in and Azure Active directory identity providers are enabled. You can enable other identity providers like Facebook, LinkedIn by selectin Configure option. Click the + New provider to add a new identity provide if you like to configure a new one.
 
-Here is a screenshot of the signIn page presented to all the visitors. Based on the authentication supported a user can sign in or register to gain access to the site.
+Here is a screenshot of the signIn page presented to all the visitors. Based on the authentication supported, a user can sign in or register to gain access to the site.
 
 The Set up workspace also includes table permissions. These allow a maker to define the access type, privileges and assign roles. By default, this template has table permissions set to Global access, create privilege and roles set to Anonymous users, authenticated users, and administrators. Meaning all these three roles can create a record in Feedback table which is performed upon Contact us form submission.
 
