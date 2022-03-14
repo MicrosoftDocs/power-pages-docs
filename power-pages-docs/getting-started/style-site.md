@@ -39,7 +39,7 @@ In Power Pages you will find a robust set of themes and tools to use to style yo
 
 To **reset a theme** to it's original state, choose the ellipses to open the **Reset to default option**
 
-    ![Graphical user interface  application Description automatically generated](media/style-site/image7.png)
+    :::image type="content" source="media/style-site/reset-default.png" alt-text="text":::
 
 ## Viewing Your Page
 
