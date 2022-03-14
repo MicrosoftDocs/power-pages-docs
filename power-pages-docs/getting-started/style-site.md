@@ -19,9 +19,9 @@ In Power Pages you will find a robust set of themes and tools to use to style yo
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 
-1. Select the **Styling** tab from the left navigation pane
+1. Select the **Styling** tab from the left navigation pane.
 
-    ![Graphical user interface  application Description automatically generated](media/style-site/image1.png)
+    :::image type="content" source="media/style-site/styling-workspace.png" alt-text="GUI for the styling workspace within Maker Studio.":::
 
     - Note the list of choices in the Themes Workspace. Further customization can be done with the Styling Menu.
 
