@@ -61,7 +61,7 @@ Note that each color on the palate maps to a specific element on the page.  Ther
 
 To add a new color or to change an existing color click the "+" sign below and select your color from the options.  This can be done with the color picker, the Hex value, and the RGB values.
 
-:::image="content" source="media/style-site/color-picker.png" alt-text="GUI displaying options to select a color.":::
+:::image type="content" source="media/style-site/color-picker.png" alt-text="GUI displaying options to select a color.":::
 
 Once a new color is added to the color palate it can then be used to color components in the context menu
 
@@ -92,8 +92,6 @@ Once a new color is added to the color palate it can then be used to color compo
 ## Work in progress
 
 [CSS Workflows Old.pptx](https://microsoft-my.sharepoint.com/:p:/p/robmoyer/ERC0givKHZpMnXTzajEyHwMBTwq8DuMFyQv9iECYaLQvwA?e=rhI7TT)
-
-![Diagram Description automatically generated](media/image15.png)
 
 
 
