@@ -47,8 +47,6 @@ To see the full page in the studio, select the two arrows to hide the styling op
 
 :::image type="content" source="media/style-site/full-page-icon" alt-text="GUI displaying the icon option to make the screen display full-page."
 
-    ![Graphical user interface Description automatically generated](media/style-site/image8.png)
-
 To see the site as it would appear in production select the Preview icon.
 
     ![Graphical user interface  text  application Description automatically generated](media/style-site/image9.png)
