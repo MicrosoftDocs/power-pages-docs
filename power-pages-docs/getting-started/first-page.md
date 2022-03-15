@@ -13,13 +13,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Create your first Power Pages site
-
-## Create and Design Pages 
+# Create and design pages 
 
 A page in Power Pages is a webpage, a document that is identified by a unique URL in a website. It is one of the core objects of the website and builds a hierarchy of the website through parent and child relationships to other webpages.
 
-### Create a Page
+## Create a page
 
 1. Open the [Power Apps Portals Studio](https://docs.microsoft.com/en-us/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
 
@@ -37,7 +35,7 @@ A page in Power Pages is a webpage, a document that is identified by a unique UR
 
     ![Graphical user interface  application Description automatically generated](media/image4.png)
 
-### Manage Page
+## Manage page
 
 1. When you have created a few pages, the page hierarchy will display in a nested strcuture on the Main navigation menu.
 
