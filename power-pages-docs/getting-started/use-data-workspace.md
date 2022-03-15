@@ -82,6 +82,6 @@ The following column types are not available to add to tables in Data workspace:
 
 - image
 
-- Table relationship
+- table relationship
 
 To access these functionalities, you can open a Table in Power Apps using **Edit in Power Apps** feature.
