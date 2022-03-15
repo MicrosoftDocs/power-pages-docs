@@ -73,22 +73,22 @@ conceptualContent:
           summary: Start building sites using Power Pages
           links:                             
             - text: Create your first site with Power Pages
-              url: getting-started\placeholder.md
+              url: getting-started/first-page.md
               itemType: get-started
             - text: Create Pages
-              url: getting-started\placeholder.md
+              url: getting-started/customize-pages.md
               itemType: get-started              
             - text: Style your Power Pages site
-              url: getting-started\placeholder.md
+              url: getting-started/style-site.md
               itemType: tutorial
             - text: Connect to Dataverse
-              url: getting-started\placeholder.md
+              url: getting-started/what-is-dataverse.md
               itemType: tutorial              
             - text: How Power Pages security works
-              url: getting-started\placeholder.md
+              url: getting-started/page-security.md
               itemType: quickstart                                                            
           footerLink:
-            url: getting-started\
+            url: getting-started/
             text: See more            
         # Card
         - title: Training Videos
