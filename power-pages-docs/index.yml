@@ -6,8 +6,8 @@ summary: Use Power Apps portals to create external-facing websites that allow us
 brand: power-apps
 
 metadata:
-  title: Power Apps portals documentation
-  description: Provides access to highlighted areas within the Power Apps portals documentation
+  title: Power Pages documentation
+  description: Provides access to highlighted areas within the Power Pages documentation
   services: service
   ms.service: powerapps 
   ms.subservice: subservice
@@ -50,8 +50,8 @@ conceptualContent:
         - title: Overview
           summary: Overview of Power Pages
           links:
-            - text: What are Power Pages?
-              url: overview\placeholder.md
+            - text: What is Power Pages?
+              url: overview\introduction.md
               itemType: overview 
             - text: Power Pages Platform Capabilities
               url: overview\placeholder.md
