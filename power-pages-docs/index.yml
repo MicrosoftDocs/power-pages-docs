@@ -79,7 +79,7 @@ conceptualContent:
               url: getting-started/customize-pages.md
               itemType: get-started              
             - text: Style your Power Pages site
-              url: getting-started/style.md
+              url: getting-started/style-site.md
               itemType: tutorial
             - text: Connect to Dataverse
               url: getting-started/what-is-dataverse.md
