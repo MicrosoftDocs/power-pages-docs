@@ -14,11 +14,11 @@ contributors:
 ---
 # How to use data workspace
 
-**Data workspace** lets you easily model, visualize and manage business data for the site with tables, forms, and lists. All the data and changes are stored in Dataverse. You can create and edit tables for the site and create new or edit existing model-driven forms and views. 
+**Data workspace** lets you easily model, visualize, and manage business data for the site with tables, forms, and lists. All the data and changes are stored in Dataverse. You can create and edit tables for the site and create new or edit existing model-driven forms and views. 
 
 ## Learn more about data workspace
 
-In Data workspace left pane, you can see all Dataverse tables in the environment & those that are used in basic forms, lists created in the site. You can also create a new table or open an existing one in the table designer to add new columns and rows in Table data tab.
+In Data workspace left pane, you can see all Dataverse tables in the environment & those that are used in basic forms created in the site. You can also create a new table or open an existing one in the table designer to add new columns and rows in Table data tab.
 
 To find details regarding supported column types, please refer to appendix section.
 
