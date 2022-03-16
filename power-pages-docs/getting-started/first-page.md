@@ -1,5 +1,5 @@
 ---
-title: Create your first Power Pages site
+title: Create and design pages
 description: Learn how to create Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
