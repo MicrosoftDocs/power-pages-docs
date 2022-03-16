@@ -21,7 +21,7 @@ After adding the required webpages and managing their hierarchy in the sitemap, 
 
 The WYSIWYG editor allows you to add and edit the required components within the canvas.
 
-## Using the WYSIWYG editor
+### Using the WYSIWYG editor
 
 To use the WYSIWYG editor:
 
