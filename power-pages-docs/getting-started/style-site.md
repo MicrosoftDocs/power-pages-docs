@@ -65,22 +65,6 @@ To add a new color or to change an existing color, select the + option below and
 
 Once a new color is added to the color palatte it can be used to color components in the context menu.
 
-## Areas to be added
-
-## Design and build
-
-- Overview
-
-- Styling (fonts, colors, themes, etc)
-
-- Work with themes
-
-- Basic themes
-
-- Edit CSS
-
-- Next steps
-
 [Edit theme CSS](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/portals/edit-css.md)
 
 ## See also
