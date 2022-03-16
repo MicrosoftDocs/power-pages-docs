@@ -38,7 +38,7 @@ The default design template is a versatile template that provides basic building
 
 ## Default template core elements
 
-The Default design template consists of basic components that are essential building blocks of a website design.  The components include a homepage, subpages, and a Contact us page.
+The Default design template consists of basic components that are essential building blocks of a website design.  The components include a Homepage, Subpages, and a Contact us page.
 
 | Component | Description |
 | ----------- | ----------- |
@@ -56,7 +56,7 @@ Button component allows maker to define a call to action when a button is clicke
 
 ### Image component
 
-Image is one of the components that you can add within a section. In default design template you will find several image components used to make the site more aesthetic and pleasing to users. These images are customizable within Maker Studio.
+Image is one of the components that you can add within a section. In default design template, you will find several image components used to make the site more aesthetic and pleasing to users. These images are customizable within Maker Studio.
 
 Changes are saved automatically.  You can view these changes at runtime by selecting Preview.
 
