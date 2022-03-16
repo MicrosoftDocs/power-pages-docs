@@ -29,6 +29,8 @@
         href: getting-started/add-power-bi.md
       - name: Add spacer 
         href: getting-started/add-spacer.md
+      - name: Add sections
+        href: getting-started/add-sections.md
       - name: Add text
         href: getting-started/add-text.md
       - name: Add video
