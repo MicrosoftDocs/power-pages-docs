@@ -35,7 +35,7 @@ When you are done building, preview your site with the "Preview" option. You can
 
 For advanced configurations that are not available in the Power Page maker studio, the Portals Management app is accessible from the overflow menu.
 
-:::image type="content" source="media/tour-maker-studio/portals-management-app.png" alt-text="The maker studio GUI with the overflow menu selected.":::
+:::image type="content" source="media/tour-maker-studio/portal-management-app.png" alt-text="The maker studio GUI with the overflow menu selected.":::
 
 For changes made to the site from the Portals Management app to be reflected in Power Page maker studio, click on the **Sync** button in the top right of the screen.
 
