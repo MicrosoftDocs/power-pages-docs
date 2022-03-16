@@ -17,7 +17,7 @@ contributors:
 
 The default design template comes with a rich set of sample tables and data you can edit from within the maker studio. Select the **Data** workspace on the toolbelt to look at the tables within the solution.
 
-::: image="content" source="media/default-template/data.png" alt-text="The data workspace within maker studio." :::
+::: image type="content" source="media/default-template/data.png" alt-text="The data workspace within maker studio." :::
 
 This template uses the feedback table to store any feedback that has been received by a user that visits the site. The feedback form is located under the **Contact us** page. From here, you can add new records or edit existing records in the Feedback table or create new tables (or views or forms).
 
