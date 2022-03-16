@@ -14,7 +14,9 @@
   items:
   - name: Create your first Power Pages site
     href: getting-started/first-page.md
-    items: 
+    items:
+      - name: Customize your Power Pages site
+        href: customize-pages.md 
       - name: Add button
         href: getting-started/add-button.md
       - name: Add form
