@@ -65,18 +65,8 @@ To add a new color or to change an existing color, select the + option below and
 
 Once a new color is added to the color palatte it can be used to color components in the context menu.
 
-[Edit theme CSS](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/portals/edit-css.md)
-
 ## See also
 
 [Power Apps portals Studio](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/portals/portal-designer-anatomy.md)  
 [Create and manage webpages](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/portals/create-manage-webpages.md)  
 [WYSIWYG editor](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/portals/compose-page.md)
-
-## Work in progress
-
-[CSS Workflows Old.pptx](https://microsoft-my.sharepoint.com/:p:/p/robmoyer/ERC0givKHZpMnXTzajEyHwMBTwq8DuMFyQv9iECYaLQvwA?e=rhI7TT)
-
-
-
-
