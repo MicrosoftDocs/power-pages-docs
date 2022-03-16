@@ -17,39 +17,11 @@ contributors:
 
 ## WYSIWYG editor
 
-After adding the required webpages and managing their hierarchy in the sitemap, you can add various components. The WYSIWYG (What You See Is What You Get) editor is part of the Pages Workspace.
+After adding the required webpages and managing their hierarchy in the sitemap, you can add various components. The WYSIWYG (What You See Is What You Get) editor is part of the Pages workspace.
 
-It allows you to add and edit the required components on the canvas easily. You can add and edit the following components on the canvas:
+The WYSIWYG editor allows you to add and edit the required components within the canvas.
 
-### Sections
-
-    - One column section
-
-    - Two columns section
-
-    - Three columns section
-
-### Components
-
-    - Text
-
-    - Button
-
-    - Image
-
-    - Video
-
-    - Spacer
-
-    - Power BI
-
-    - List
-
-    - Frame
-
-    - iFrame
-
-## Using the WYSIWYG Editor
+## Using the WYSIWYG editor
 
 To use the WYSIWYG editor:
 
