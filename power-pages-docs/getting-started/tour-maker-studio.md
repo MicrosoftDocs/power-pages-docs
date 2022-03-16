@@ -15,7 +15,7 @@ contributors:
 
 # Tour maker studio
 
-The Power Page maker studio is an intuitive click and drag interface that enables low-code makers to build and configure rich business web apps. It has 4 marquee experiences called workspaces that focus on specific user jobs:
+The Power Page maker studio is an intuitive click and drag interface that enables low-code makers to build and configure rich business web apps. It has four marquee experiences called workspaces that focus on specific user jobs:
 
 - **Pages workspace** enables you to design and build webpages with in-context editing and add content with no- and low-code widgets such as text, image, video, PowerBI reports, lists, forms and others. Learn more about Pages workspace.
 
@@ -27,7 +27,7 @@ The Power Page maker studio is an intuitive click and drag interface that enable
 
 ## Preview your site
 
-When you are done building, preview your site with the "Preview" option. You can preview on desktop or mobile. Selecting "Desktop" opens the site in a new web browser tab. Scanning the QR code with your mobile device opens the site on the mobile web browser.
+When you are done building, preview your site with the "Preview" option. You can preview on desktop or mobile. Selecting **Desktop** opens the site in a new web browser tab. Scanning the QR code with your mobile device opens the site on the mobile web browser.
 
 :::image type="content" source="media/tour-maker-studio/preview-site.png" alt-text="The maker studio GUI with preview menu options selected.":::
 
@@ -37,22 +37,22 @@ For advanced configurations that are not available in the Power Page maker studi
 
 :::image type="content" source="media/tour-maker-studio/portals-management-app.png" alt-text="The maker studio GUI with the overflow menu selected.":::
 
-For changes made to the site from the Portals Management app to be reflected in Power Page maker studio, click on the "Sync" button in the top right of the screen.
+For changes made to the site from the Portals Management app to be reflected in Power Page maker studio, click on the **Sync** button in the top right of the screen.
 
 :::image type="content" source="media/tour-maker-studio/sync.png" alt-text="The maker studio GUI with the sync button emphasized.":::
 
 ## Returning to the PowerApps portal studio
 
-Because Power Page maker studio is in preview, it is not intended for production sites and only for trial sites. If you would like to switch between Power Page maker studio and the PowerApps portals Studio, use the toggle on the top-left side of the screen.
+Because Power Page maker studio is in preview, it is not intended for production sites. If you would like to switch between Power Page maker studio and the PowerApps portals Studio, use the toggle on the top-left side of the screen.
 
-Note that there are known backwards compatibility issues related to global styling and theme. 
+Note that there are known backwards compatibility issues related to global styling and theme.
 
 ## Other entry points to Power Page maker studio
 
 In addition to the toggle from PowerApps portal Studio, the Power Page maker studio can be launched from these following entry points:
 
-- Power Page creation experience.
+- Power Page creation experience
 
-- Edit an existing site from the Power Page homepage.
+- Edit an existing site from the Power Page homepage
 
-- Direct URL to the maker studio of an existing site.
+- Direct URL to the maker studio of an existing site
