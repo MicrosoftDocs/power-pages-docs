@@ -31,11 +31,11 @@ To use the WYSIWYG editor:
 
 1. Select the page where you'd like to add the component or section.
 
-1. To add a section, hover to any editable section area and click the + icon. You can then select between the following 6 section layout options.
+1. To add a section, hover to any editable section area and choose the + icon. You can then select between the following 6 section layout options.
 
 1. To add a component, hover on the intended section where you would like the component to be and select the + icon. You can then choose between the available components.  
 
-1. To delete a component, select the component on the canvas and then select delete.
+1. To delete a component, choose the component on the canvas and then select delete.
 
 For a more immersive editing experience, maker can utilize full screen editing mode by clicking the double arrow icon on the top right-hand corner of the WYSISYG editor.
 
