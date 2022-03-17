@@ -44,49 +44,49 @@ conceptualContent:
 
   items:
     # Card
-    - title: Overview
+    - title: Getting Started
       summary: Overview of Power Pages
       links:
         - text: What is Power Pages?
           url: overview\introduction.md
           itemType: overview 
-        - text: Power Pages Platform Capabilities
+        - text: Power Pages platform capabilities
           url: overview\placeholder.md
           itemType: reference
-        - text: What can you use Power Pages for?
-          url: overview\placeholder.md
-          itemType: reference                                
-        - text: Customer Stories
+        - text: Create and manage Power Pages sites
           url: overview\placeholder.md
           itemType: reference
-        - text: More to explore (Community)
-          url: overview\placeholder.md
-          itemType: reference                                                          
-      footerLink:
-        url: overview/
-        text: See more
-    # Card
-    - title: Getting Started
-      summary: Start building sites using Power Pages
-      links:                             
-        - text: Create your first site with Power Pages
-          url: getting-started/first-page.md
-          itemType: get-started
         - text: Create Pages
-          url: getting-started/customize-pages.md
-          itemType: get-started              
-        - text: Style your Power Pages site
-          url: getting-started/style-site.md
-          itemType: tutorial
-        - text: Connect to Dataverse
-          url: getting-started/what-is-dataverse.md
-          itemType: tutorial              
+          url: getting-started/first-page.md
+          itemType: get-started           
         - text: How Power Pages security works
           url: getting-started/page-security.md
-          itemType: quickstart                                                            
-      footerLink:
-        url: getting-started/
-        text: See more            
+          itemType: quickstart
+        - text: Power Pages community
+          url: overview\placeholder.md
+          itemType: reference                                                                                 
+    # Card
+    - title: Dataverse
+      summary: Extend Dataverse capabilities with Power Pages
+      links:                             
+        - text: Power Pages and Dataverse
+          url: getting-started/what-is-dataverse.md
+          itemType: tutorial
+        - text: Data workspace
+          url: overview/placeholder.md
+          itemType: tutorial
+        - text: Lists on pages
+          url: overview/placeholder.md
+          itemType: tutorial
+        - text: Basic forms on pages
+          url: overview/placeholder.md
+          itemType: tutorial
+        - text: Advanced forms on pages
+          url: overview/placeholder.md
+          itemType: tutorial
+        - text: Secure your data with table permissions
+          url: overview/placeholder.md
+          itemType: tutorial                                                                                                                                
     # Card
     - title: Training Videos
       summary: Step by step videos on how to build your first site
