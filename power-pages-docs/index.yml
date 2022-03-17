@@ -56,7 +56,7 @@ conceptualContent:
         - text: Create and manage Power Pages sites
           url: overview\placeholder.md
           itemType: reference
-        - text: Create Pages
+        - text: Create pages
           url: getting-started/first-page.md
           itemType: get-started           
         - text: How Power Pages security works
@@ -84,14 +84,14 @@ conceptualContent:
         - text: Create a form 
           url: training-videos\placeholder.md
           itemType: video
-        - text: Create an Advanced form
+        - text: Create an advanced form
           url: training-videos\placeholder.md
           itemType: video
         - text: Configure access to your site 
           url: training-videos\placeholder.md
           itemType: video                                          
       footerLink:
-        url: training-videos/
+        url: training-videos\
         text: See more                                          
     # Card
     - title: Design and Build
@@ -113,22 +113,22 @@ conceptualContent:
         url: design-and-build\placeholder.md
         itemType: how-to-guide                                                                                                                                                                        
     # Card
-    - title: Dataverse
+    - title: Extend Dataverse with Power Pages
       summary: Extend Dataverse capabilities with Power Pages
       links:                             
-        - text: Power Pages and Dataverse
+        - text: Overview of Power Pages and Dataverse
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
-        - text: Data workspace
+        - text: Using the Data workspace
           url: overview/placeholder.md
           itemType: tutorial
-        - text: Lists on pages
+        - text: Add Lists to pages
           url: overview/placeholder.md
           itemType: tutorial
-        - text: Basic forms on pages
+        - text: Add Basic forms to pages
           url: overview/placeholder.md
           itemType: tutorial
-        - text: Advanced forms on pages
+        - text: Add Advanced forms on pages
           url: overview/placeholder.md
           itemType: tutorial
         - text: Secure your data with table permissions
