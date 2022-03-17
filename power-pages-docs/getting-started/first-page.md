@@ -4,12 +4,12 @@ description: Learn how to create Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/04/2022
+ms.date: 03/17/2022
 ms.subservice: portals
 ms.author: ndoelman 
 ms.reviewer: 
 contributors:
-    - nickdoelman
+    - ndoelman
     - ProfessorKendrick
 ---
 
@@ -23,25 +23,23 @@ A page in Power Pages is a webpage, a document that is identified by a unique UR
 
 1. Ensure that the toggle for New Design Studio is on and then navigate to the pages workspace.  
 
-    ![Graphical user interface  text  application  chat or text message Description automatically generated](media/image1.png)
-
 1. From the left command bar, select Pages and choose any of the **"+"** signs.
 
     - Clicking the components icon in the Main Navigation section will add a new page which will come up on the header of home page.
+
+        ::: image type="content" source="getting-started/media/first-page/add-component.png alt-text="The add a component menu within maker studio." :::
 
     - Clicking the components icon on the Other Pages will add a new page outside of the header
 
 1. Choose a page from Standard layouts, or create a Custom layout.
 
-    ![Graphical user interface  application Description automatically generated](media/image4.png)
+    ::: image type="content" source="getting-started/media/first-age/add-page.png" alt-text="The add a page menu within maker studio." :::
 
 ## Manage page
 
-1. When you have created a few pages, the page hierarchy will display in a nested strcuture on the Main navigation menu.
+1. When you have created a few pages, the page hierarchy will display in a nested structure on the Main navigation menu.
 
 1. To change page hierarchy, select the ellipses icon on the page you would like to move, and a dialog box will appear.  
-
-    ![Graphical user interface  application Description automatically generated](media/image6.png)
 
 1. Select the required action from the context menu:
 
