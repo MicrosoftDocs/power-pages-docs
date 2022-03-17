@@ -55,10 +55,7 @@ conceptualContent:
           itemType: reference
         - text: Create and manage Power Pages sites
           url: overview\placeholder.md
-          itemType: reference
-        - text: Create pages
-          url: getting-started/first-page.md
-          itemType: get-started           
+          itemType: reference        
         - text: How Power Pages security works
           url: getting-started/page-security.md
           itemType: quickstart
@@ -97,23 +94,26 @@ conceptualContent:
     - title: Design and Build
       summary: How to design and build sites using Power Pages        
       links:
-      - text: Planning your Power Pages project
-        url: design-and-build\placeholder.md
-        itemType: reference
-      - text: Getting Started with Templates
-        url: design-and-build\placeholder.md
-        itemType: overview                 
       - text: Using the new maker Studio
         url: design-and-build\placeholder.md
         itemType: how-to-guide 
+      - text: "Pages workspace: Create and design pages"
+        url: getting-started/first-page.md
+        itemType: get-started 
+      - text: "Styling workspace: Theme and style your site"
+        url: getting-started/first-page.md
+        itemType: get-started         
       - text: Using the Portal Management app
         url: design-and-build\portal-management-app.md
         itemType: reference  
       - text: Using the VS Code and the PAC cli
         url: design-and-build\placeholder.md
-        itemType: how-to-guide                                                                                                                                                                        
+        itemType: how-to-guide  
+      - text: Planning your Power Pages project
+        url: design-and-build\placeholder.md
+        itemType: reference                                                                                                                                                                              
     # Card
-    - title: Extend Dataverse with Power Pages
+    - title: Connect to your data in Dataverse
       summary: Extend Dataverse capabilities with Power Pages
       links:                             
         - text: Overview of Power Pages and Dataverse
