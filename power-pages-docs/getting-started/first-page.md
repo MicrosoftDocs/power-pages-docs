@@ -19,7 +19,7 @@ A page in Power Pages is a webpage, a document that is identified by a unique UR
 
 ## Create a page
 
-1. Open the [Power Apps Portals Studio](https://docs.microsoft.com/en-us/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
+1. Open the [Power Apps Portals Studio](https://docs.microsoft.com/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
 
 1. Ensure that the toggle for New Design Studio is on and then navigate to the pages workspace.  
 
