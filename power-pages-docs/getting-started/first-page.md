@@ -27,13 +27,13 @@ A page in Power Pages is a webpage, a document that is identified by a unique UR
 
     - Clicking the components icon in the Main Navigation section will add a new page which will come up on the header of home page.
 
-        ::: image type="content" source="getting-started/media/first-page/add-component.png alt-text="The add a component menu within maker studio." :::
+        ::: image type="content" source="media/first-page/add-component.png alt-text="The add a component menu within maker studio." :::
 
     - Clicking the components icon on the Other Pages will add a new page outside of the header
 
 1. Choose a page from Standard layouts, or create a Custom layout.
 
-    ::: image type="content" source="getting-started/media/first-age/add-page.png" alt-text="The add a page menu within maker studio." :::
+    ::: image type="content" source="media/first-age/add-page.png" alt-text="The add a page menu within maker studio." :::
 
 ## Manage page
 
