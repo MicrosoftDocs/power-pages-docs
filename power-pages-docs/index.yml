@@ -15,7 +15,7 @@ metadata:
   ms.collection: collection
   author: nickdoelman
   ms.author: ndoelman
-  ms.date: 02/28/2022 
+  ms.date: 03/17/2022 
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -64,29 +64,7 @@ conceptualContent:
           itemType: quickstart
         - text: Power Pages community
           url: overview\placeholder.md
-          itemType: reference                                                                                 
-    # Card
-    - title: Dataverse
-      summary: Extend Dataverse capabilities with Power Pages
-      links:                             
-        - text: Power Pages and Dataverse
-          url: getting-started/what-is-dataverse.md
-          itemType: tutorial
-        - text: Data workspace
-          url: overview/placeholder.md
-          itemType: tutorial
-        - text: Lists on pages
-          url: overview/placeholder.md
-          itemType: tutorial
-        - text: Basic forms on pages
-          url: overview/placeholder.md
-          itemType: tutorial
-        - text: Advanced forms on pages
-          url: overview/placeholder.md
-          itemType: tutorial
-        - text: Secure your data with table permissions
-          url: overview/placeholder.md
-          itemType: tutorial                                                                                                                                
+          itemType: reference                                                                                                                                                                                                               
     # Card
     - title: Training Videos
       summary: Step by step videos on how to build your first site
@@ -133,11 +111,30 @@ conceptualContent:
         itemType: reference  
       - text: Using the VS Code and the PAC cli
         url: design-and-build\placeholder.md
-        itemType: how-to-guide                                                                                                                                                   
-      footerLink:
-        url: design-and-build/
-        text: See more                        
+        itemType: how-to-guide                                                                                                                                                                        
     # Card
+    - title: Dataverse
+      summary: Extend Dataverse capabilities with Power Pages
+      links:                             
+        - text: Power Pages and Dataverse
+          url: getting-started/what-is-dataverse.md
+          itemType: tutorial
+        - text: Data workspace
+          url: overview/placeholder.md
+          itemType: tutorial
+        - text: Lists on pages
+          url: overview/placeholder.md
+          itemType: tutorial
+        - text: Basic forms on pages
+          url: overview/placeholder.md
+          itemType: tutorial
+        - text: Advanced forms on pages
+          url: overview/placeholder.md
+          itemType: tutorial
+        - text: Secure your data with table permissions
+          url: overview/placeholder.md
+          itemType: tutorial 
+    # Card              
     - title: Customize and Extend
       summary: Use professional developer tools and methods
       links:
@@ -155,10 +152,7 @@ conceptualContent:
         itemType: reference
       - text: Advanced Configuration
         url: customize-and-extend\placeholder.md
-        itemType: reference                                                                                                                                                                                                                  
-      footerLink:
-        url: customize-and-extend/
-        text: See more           
+        itemType: reference                                                                                                                                                                                                                          
     # Card
     - title: Security
       summary: Secure your sites and data are protected        
@@ -175,9 +169,6 @@ conceptualContent:
       - text: Table Permissions
         url: security\placeholder.md
         itemType: how-to-guide                                                                                 
-      footerLink:
-        url: security/
-        text: See more
     # Card    
     - title: Go Live
       summary: Launch your site        
@@ -191,9 +182,6 @@ conceptualContent:
       - text: Portals ALM
         url: go-live\placeholder.md
         itemType: how-to-guide                                                                
-      footerLink:
-        url: go-live/
-        text: See more
     # Card
     - title: Administer and Monitor
       summary: Administer and monitor your Power Pages sites           
@@ -209,10 +197,7 @@ conceptualContent:
         itemType: reference
       - text: Review consumption
         url: administer-and-monitor\placeholder.md
-        itemType: how-to-guide
-      footerLink:
-        url: administer-and-monitor/
-        text: See more                                                                          
+        itemType: how-to-guide                                                                       
 
 # additionalContent section (optional)
 # Card with summary style
