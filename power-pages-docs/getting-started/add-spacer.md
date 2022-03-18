@@ -27,16 +27,15 @@ To add button:
 
 1. Select the Section which you would like to add Component into
 
-1. Hover to any editable canvas area and click ![components icon ](media/image3.png)
+1. Hover to any editable canvas area and select the + icon.
 
 1. Select **Spacer** and spacer object will be inserted
 
-1. To format **Spacer**, click the spacer object and the following bar will appear
+1. To format **Spacer**, click the spacer object and a menu bar will appear.
 
-![](media/image29.png)
+    | Option | Description |
+    | ----------- | ----------- |
+    | Background | Changes the color of the background according to the color palette for the selected styling template. |
+    | Gear | Modifies the spacer height.  By default, spacer width is set to the column width of the section. |
+    | + | Provides options for the user to duplicate the spacer, move it up/down within the section, or deletes the spacer. |
 
-1. Select Background to change the color of the background according to the color palette for the selected styling template.
-
-1. Select the gear icon to modify spacer height. Spacer width will be defaulted to the column width of the Section.
-
-1. Select the + icon to duplicate the **Spacer**, move it up/down within the section, or delete
