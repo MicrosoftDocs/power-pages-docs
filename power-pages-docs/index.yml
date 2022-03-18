@@ -27,17 +27,13 @@ highlightedContent:
       itemType: overview
       url: placeholder.md
   # Card
-    - title: Get started
-      itemType: get-started
-      url: placeholder.md
-  # Card
-    - title: What's new
-      itemType: whats-new
-      url: placeholder.md
-  # Card
     - title: Learn
       itemType: learn
-      url: placeholder.md      
+      url: placeholder.md  
+  # Card
+    - title: Getting started videos
+      itemType: video
+      url: training-videos/training-videos.md           
 
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -60,41 +56,38 @@ conceptualContent:
           url: getting-started/page-security.md
           itemType: quickstart
         - text: Power Pages community
-          url: overview\placeholder.md
+          url: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
           itemType: reference                                                                                                                                                                                                               
     # Card
     - title: Training Videos
       summary: Step by step videos on how to build your first site
       links:
         - text: Create home page 
-          url: training-videos\placeholder.md
+          url: training-videos/training-videos.md#create-home-page
           itemType: video
         - text: Style your site 
-          url: training-videos\placeholder.md
+          url: training-videos/training-videos.md
           itemType: video
         - text: Create a table
-          url: training-videos\placeholder.md
+          url: training-videos/training-videos.md
           itemType: video                             
         - text: Setup table permissions 
-          url: training-videos\placeholder.md
+          url: training-videos/training-videos.md
           itemType: video
         - text: Create a form 
-          url: training-videos\placeholder.md
+          url: training-videos/training-videos.md
           itemType: video
         - text: Create an advanced form
-          url: training-videos\placeholder.md
+          url: training-videos/training-videos.md
           itemType: video
         - text: Configure access to your site 
-          url: training-videos\placeholder.md
-          itemType: video                                          
-      footerLink:
-        url: training-videos\
-        text: See more                                          
+          url: training-videos/training-videos.md
+          itemType: video                                                                                 
     # Card
     - title: Design and Build
       summary: How to design and build sites using Power Pages        
       links:
-      - text: Using the new maker Studio
+      - text: Using the new design studio
         url: design-and-build\placeholder.md
         itemType: how-to-guide 
       - text: "Pages workspace: Create and design pages"
@@ -116,19 +109,19 @@ conceptualContent:
     - title: Connect to your data in Dataverse
       summary: Extend Dataverse capabilities with Power Pages
       links:                             
-        - text: Overview of Power Pages and Dataverse
+        - text: Dataverse in Power Pages Overview
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
-        - text: Using the Data workspace
+        - text: Using the data workspace
           url: overview/placeholder.md
           itemType: tutorial
-        - text: Add Lists to pages
+        - text: Add lists to pages
           url: overview/placeholder.md
           itemType: tutorial
-        - text: Add Basic forms to pages
+        - text: Add basic forms to pages
           url: overview/placeholder.md
           itemType: tutorial
-        - text: Add Advanced forms on pages
+        - text: Add advanced forms on pages
           url: overview/placeholder.md
           itemType: tutorial
         - text: Secure your data with table permissions
@@ -144,13 +137,13 @@ conceptualContent:
       - text: Web templates
         url: customize-and-extend\placeholder.md
         itemType: how-to-guide  
-      - text: Portals Web API
+      - text: Portals web API
         url: customize-and-extend\placeholder.md
         itemType: how-to-guide
-      - text: Code Components
+      - text: Code components
         url: customize-and-extend\placeholder.md
         itemType: reference
-      - text: Advanced Configuration
+      - text: Advanced configuration
         url: customize-and-extend\placeholder.md
         itemType: reference                                                                                                                                                                                                                          
     # Card
@@ -160,13 +153,13 @@ conceptualContent:
       - text: Power Pages security overview
         url: security\placeholder.md
         itemType: reference           
-      - text: Authentication Setup
+      - text: Authentication setup
         url: security\placeholder.md
         itemType: how-to-guide     
-      - text: Web roles
+      - text: Configure Web roles
         url: security\placeholder.md
         itemType: how-to-guide    
-      - text: Table Permissions
+      - text: Configure table permissions
         url: security\placeholder.md
         itemType: how-to-guide                                                                                 
     # Card    
@@ -176,23 +169,23 @@ conceptualContent:
       - text: Go live checklist
         url: go-live\placeholder.md
         itemType: deploy
-      - text: Assign Licensing
+      - text: Assign licensing
         url: go-live\placeholder.md
         itemType: how-to-guide
-      - text: Portals ALM
+      - text: Overview of portals ALM
         url: go-live\placeholder.md
         itemType: how-to-guide                                                                
     # Card
     - title: Administer and Monitor
       summary: Administer and monitor your Power Pages sites           
       links:
-      - text: Portals admin center
+      - text: Using the portals admin center
         url: administer-and-monitor\placeholder.md
         itemType: reference
-      - text: Troubleshooting and Diagnostics
+      - text: Troubleshooting and diagnostics
         url: administer-and-monitor\placeholder.md
         itemType: reference   
-      - text: Maintenance and Updates
+      - text: Maintaining and updating Power Pages
         url: administer-and-monitor\placeholder.md
         itemType: reference
       - text: Review consumption
