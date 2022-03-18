@@ -4,11 +4,7 @@
     href: overview/introduction.md
   - name: Power Pages platform capabilities
     href: overview/platform-capabilities.md
-  - name: Power Pages uses
-    href: overview/uses.md 
-  - name: Customer stories 
-    href: overview/customer-stories.md 
-  - name: More to explore (community) 
+  - name: Power Pages community
     href: overview/more-to-explore.md
 - name: Get started
   items:
@@ -45,3 +41,5 @@
     href: getting-started/page-security.md
   - name: Getting started with templates
     href: getting-started/default-template.md
+- name: Training Videos
+  href: training-videos/training-videos.md
