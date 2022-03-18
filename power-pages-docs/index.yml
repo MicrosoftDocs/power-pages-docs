@@ -89,7 +89,7 @@ conceptualContent:
         text: See more            
     # Card
     - title: Training Videos
-      summary: Step by step videos on how to build your first site
+      summary: Watch step-by-step tutorials to learn about Power Pages
       links:
         - text: Create home page 
           url: training-videos\placeholder.md
@@ -117,7 +117,7 @@ conceptualContent:
         text: See more                                          
     # Card
     - title: Design and Build
-      summary: How to design and build sites using Power Pages        
+      summary: Create sites using Power Portals        
       links:
       - text: Planning your Power Pages project
         url: design-and-build\placeholder.md
@@ -161,7 +161,7 @@ conceptualContent:
         text: See more           
     # Card
     - title: Security
-      summary: Secure your sites and data are protected        
+      summary: Protect your sites and data     
       links:
       - text: Power Pages security overview
         url: security\placeholder.md
