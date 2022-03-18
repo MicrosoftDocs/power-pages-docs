@@ -1,5 +1,5 @@
 ---
-title: What is Power Pages?
+title: What is Power Pages (preview)
 description: Placeholder topic.
 author: nickdoelman
 ms.topic: conceptual
@@ -12,8 +12,15 @@ contributors:
     - nickdoelman
 ---
 
-# What is Power Pages?
+# What is Power Pages (preview)
 
-This is a placeholder topic.
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-:::image type="content" source="media/placeholder/placeholder-sample.png" alt-text="This is a sample.":::
+Power Pages is an enterprise-grade low-code SaaS platform for creating, hosting, and administering rich external business web applications to allow organizations to better serve their customers, partners, and citizen audiences.
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - This feature is being gradually rolled out across regions and might not be available yet in your region.
+
+TO DO: Add more content and graphics
