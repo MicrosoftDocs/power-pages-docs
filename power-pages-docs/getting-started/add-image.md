@@ -27,7 +27,7 @@ To add an image:
 
 1. Select the Section which you would like to add the Component to.
 
-1. Hover to any editable canvas area and click the component's icon.
+1. Hover to any editable canvas area and click the components icon.
 
     :::image type="content" source="media/first-page/add-component.png" alt-text="The add component menu.":::
 

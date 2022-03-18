@@ -4,7 +4,7 @@ description: Learn how to add lists to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/15/2022
+ms.date: 03/17/2022
 ms.subservice: portals
 ms.author: ndoelman 
 ms.reviewer: 
@@ -27,17 +27,17 @@ To add a list:
 
 1. Select the Section which you would like to add Component into.
 
-1. Hover to any editable canvas area and click ![components icon ](media/image3.png).
+1. Hover to any editable canvas area and click the components icon.
 
-1. Select **List.** You can select either to create a new list or use an existing list (if maker has created one previously)
+1. Select **List**. You can select either to create a new list or use an existing list (if maker has created one previously)
 
-1. If maker creates a new list, then the following box will appear  
-    ![Graphical user interface  text  application  email Description automatically generated](media/image30.png)
+1. If you decide to create a new list, a new window will appear.
+    :::image type="content" source="media/first-page/add-list.png" alt-text="The add a list menu.":::
 
     | List | Description |
     | ----------- | ----------- |
     | Choose a table | The name of the table the views are loaded from. |
-    | Select Dataverse views | The view of the target table that will be rendered. To modify the columns within the view, you'll need to accss Data Workspace |
+    | Select Dataverse views | The view of the target table that will be rendered. To modify the columns within the view, you'll need to access Data Workspace |
     | Name your copy of the selected list | The name of the list. |
 
     | Data | Description |
@@ -48,6 +48,6 @@ To add a list:
 
 ## Settings
 
-Maker can define the number of records to be displayed on each page and if user is allowed to perform a search.
+You can define the number of records to be displayed on each page and if user is allowed to perform a search.
 
 Select the ellipse icon to duplicate the List, move it up/down within the section, or delete the list.
