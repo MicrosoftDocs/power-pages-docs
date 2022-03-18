@@ -37,7 +37,7 @@ To add a button:
 
 1. Click the button and editing options will appear.
 
-    :::img type="content" source="media/first-page/edit-button.png" alt-text="The button editing options menu."::: 
+    :::image type="content" source="media/first-page/edit-button.png" alt-text="The button editing options menu."::: 
 
     - Select Edit to edit the button.
 
