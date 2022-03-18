@@ -25,16 +25,15 @@ To add a button:
 
 1. Select the page you would like to edit.
 
-1. Select the Section which you would like to add Component into
+1. Select the Section which you would like to add the Component to.
 
-1. Hover to any editable canvas area and click ![components icon ](media/image3.png)
+1. Hover to any editable canvas area and select {words instead of picture}.
 
-1. Select **Button**
+1. Select **Button**.
 
 1. Specify the button label. This label will show up on the button component itself.
 
-1. Select if the button will redirect user into a specified URL or into a Page within Power Pages  
-    ![Graphical user interface  text  application Description automatically generated](media/image23.png)
+1. Select if the button will redirect user into a specified URL or into a page within Power Pages.
 
 1. Click the button and editing options will appear.
 
