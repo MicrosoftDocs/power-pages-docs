@@ -117,7 +117,7 @@ conceptualContent:
         text: See more                                          
     # Card
     - title: Design and Build
-      summary: Create sites using Power Portals        
+      summary: Create sites using Power Pages       
       links:
       - text: Planning your Power Pages project
         url: design-and-build\placeholder.md
