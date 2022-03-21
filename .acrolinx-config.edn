@@ -1,4 +1,4 @@
-{:allowed-branchname-matches ["^main$"]
+{:allowed-branchname-matches ["^main$" "^preview-docs$"]
  :allowed-filename-matches ["power-pages-docs"]
  :use-skip-label true
  :targets
