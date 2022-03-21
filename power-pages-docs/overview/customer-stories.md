@@ -1,23 +1,20 @@
 ---
-title: Placeholder
-description: Placeholder topic.
+title: Customer stories
+description: Hear what our customers have to say about Power Pages.
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/18/2022
+ms.date: 03/08/2022
 ms.subservice: portals
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
-# Placeholder
+# Customer stories
 
 This is a placeholder topic.
 
 :::image type="content" source="media/placeholder/placeholder-sample.png" alt-text="This is a sample.":::
-
-> [!NOTE]
-> This is a note!
