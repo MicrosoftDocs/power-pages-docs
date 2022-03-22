@@ -132,7 +132,7 @@ conceptualContent:
         url: design-and-build\placeholder.md
         itemType: reference  
       - text: Using the VS Code and the PAC cli
-        url: design-and-build\placeholder.md
+        url: powerapps/maker/portals/power-apps-cli-tutorial.md
         itemType: how-to-guide                                                                                                                                                   
       footerLink:
         url: design-and-build/
