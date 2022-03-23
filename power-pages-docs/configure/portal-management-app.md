@@ -11,6 +11,7 @@ ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Portal Management app overview
