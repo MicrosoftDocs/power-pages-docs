@@ -25,11 +25,7 @@ highlightedContent:
   # Card
     - title: Overview
       itemType: overview
-      url: 
-  # Card
-    - title: Learn
-      itemType: learn
-      url:   
+      url: introduction.md 
   # Card
     - title: Getting started videos
       itemType: video
@@ -113,7 +109,7 @@ conceptualContent:
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
         - text: Using the data workspace
-          url: 
+          url: getting-started/use-data-workspace.md
           itemType: tutorial
         - text: Add lists to pages
           url: getting-started/add-list.md
@@ -122,7 +118,7 @@ conceptualContent:
           url: getting-started/add-form.md
           itemType: tutorial
         - text: Add advanced forms on pages
-          url: 
+          url: powerapps/maker/portals/configure/web-form-properties.md
           itemType: tutorial
         - text: Secure your data with table permissions
           url: getting-started/table-permissions.md
@@ -144,7 +140,7 @@ conceptualContent:
         url: powerapps/maker/portals/component-framework.md
         itemType: reference
       - text: Advanced configuration
-        url: 
+        url: configure/advanced-config.md
         itemType: reference                                                                                                                                                                                                                          
     # Card
     - title: Security
@@ -173,7 +169,7 @@ conceptualContent:
         url: powerapps/maker/portals/manage-existing-portals.md#licensing
         itemType: how-to-guide
       - text: Overview of portals ALM
-        url: 
+        url: configure/portals-alm.md
         itemType: how-to-guide                                                                
     # Card
     - title: Administer and Monitor
