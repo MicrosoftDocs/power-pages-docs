@@ -5,7 +5,7 @@ author: nickdoelman
 ms.author: ndoelman
 ms.date: 03/23/2022
 ms.topic: get-started
-ms.service: powerapps
+ms.service: power-pages
 ms.custom: template-trial-setup 
 ms.reviewer: 
 ms.subservice: portals

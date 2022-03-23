@@ -9,7 +9,7 @@ metadata:
   title: Power Pages documentation
   description: Provides access to highlighted areas within the Power Pages documentation
   services: service
-  ms.service: powerapps 
+  ms.service: power-pages 
   ms.subservice: subservice
   ms.topic: hub-page 
   ms.collection: collection
@@ -23,9 +23,13 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
   # Card
-    - title: Overview
+    - title: Introducing Power Pages
       itemType: overview
       url: introduction.md 
+    # Card
+    - title: Start a Power Pages trial
+      itemType: get-started
+      url: getting-started/trial-signup.md 
   # Card
     - title: Getting started videos
       itemType: video
@@ -42,7 +46,7 @@ conceptualContent:
         - text: What is Power Pages?
           url: introduction.md
           itemType: overview 
-        - text: Power Pages platform capabilities
+        - text: Power Pages capabilities
           url: getting-started/platform-capabilities.md
           itemType: reference
         - text: Create and manage Power Pages sites
