@@ -14,7 +14,7 @@ contributors:
 
 # What is Power Pages (preview)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 Power Pages is an enterprise-grade low-code SaaS platform for creating, hosting, and administering rich external business web applications to allow organizations to better serve their customers, partners, and citizen audiences.
 
