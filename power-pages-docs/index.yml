@@ -99,7 +99,7 @@ conceptualContent:
         url: powerapps/maker/portals/power-apps/cli-tutorial.md
         itemType: how-to-guide  
       - text: Planning your Power Pages project
-        url: 
+        url: configure/planning-power-pages-project.md
         itemType: reference                                                                                                                                                                              
     # Card
     - title: Connect to your data in Dataverse
