@@ -44,16 +44,16 @@ conceptualContent:
       summary: Overview of Power Pages
       links:
         - text: What is Power Pages?
-          url: overview\introduction.md
+          url: introduction.md
           itemType: overview 
         - text: Power Pages platform capabilities
-          url: overview\placeholder.md
+          url: 
           itemType: reference
         - text: Create and manage Power Pages sites
-          url: overview\placeholder.md
+          url: 
           itemType: reference        
         - text: How Power Pages security works
-          url: getting-started/page-security.md
+          url: security/page-security.md
           itemType: quickstart
         - text: Power Pages community
           url: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
@@ -88,7 +88,7 @@ conceptualContent:
       summary: Create sites using Power Pages       
       links:
       - text: Using the new design studio
-        url: design-and-build\placeholder.md
+        url: 
         itemType: how-to-guide 
       - text: "Pages workspace: Create and design pages"
         url: getting-started/first-page.md
@@ -100,10 +100,10 @@ conceptualContent:
         url: design-and-build\portal-management-app.md
         itemType: reference  
       - text: Using the VS Code and the PAC cli
-        url: design-and-build\placeholder.md
+        url: powerapps/maker/portals/power-apps/cli-tutorial.md
         itemType: how-to-guide  
       - text: Planning your Power Pages project
-        url: design-and-build\placeholder.md
+        url: 
         itemType: reference                                                                                                                                                                              
     # Card
     - title: Connect to your data in Dataverse
@@ -113,83 +113,83 @@ conceptualContent:
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
         - text: Using the data workspace
-          url: overview/placeholder.md
+          url: 
           itemType: tutorial
         - text: Add lists to pages
-          url: overview/placeholder.md
+          url: 
           itemType: tutorial
         - text: Add basic forms to pages
-          url: overview/placeholder.md
+          url: 
           itemType: tutorial
         - text: Add advanced forms on pages
-          url: overview/placeholder.md
+          url: 
           itemType: tutorial
         - text: Secure your data with table permissions
-          url: overview/placeholder.md
+          url: 
           itemType: tutorial 
     # Card              
     - title: Customize and Extend
       summary: Use professional developer tools and methods
       links:
       - text: Using Liquid
-        url: customize-and-extend\placeholder.md
+        url: powerapps/maker/portals/liquid/liquid-overview.md
         itemType: reference
       - text: Web templates
-        url: customize-and-extend\placeholder.md
+        url: powerapps/maker/portals/liquid/store-content-web-templates.md
         itemType: how-to-guide  
       - text: Portals web API
-        url: customize-and-extend\placeholder.md
+        url: powerapps/maker/portals/web-api-overview.md
         itemType: how-to-guide
       - text: Code components
-        url: customize-and-extend\placeholder.md
+        url: powerapps/maker/portals/component-framework.md
         itemType: reference
       - text: Advanced configuration
-        url: customize-and-extend\placeholder.md
+        url: 
         itemType: reference                                                                                                                                                                                                                          
     # Card
     - title: Security
       summary: Protect your sites and data     
       links:
       - text: Power Pages security overview
-        url: security\placeholder.md
+        url: 
         itemType: reference           
       - text: Authentication setup
-        url: security\placeholder.md
+        url: powerapps/maker/portals/configure/configure-portal-authentication.md
         itemType: how-to-guide     
       - text: Configure web roles
-        url: security\placeholder.md
+        url: powerapps/maker/portals/configure/create-web-roles.md
         itemType: how-to-guide    
       - text: Configure table permissions
-        url: security\placeholder.md
+        url: 
         itemType: how-to-guide                                                                                 
     # Card    
     - title: Go Live
       summary: Launch your site        
       links:
       - text: Go live checklist
-        url: go-live\placeholder.md
+        url: 
         itemType: deploy
       - text: Assign licensing
-        url: go-live\placeholder.md
+        url: powerapps/maker/portals/manage-existing-portals.md#licensing
         itemType: how-to-guide
       - text: Overview of portals ALM
-        url: go-live\placeholder.md
+        url: 
         itemType: how-to-guide                                                                
     # Card
     - title: Administer and Monitor
       summary: Administer and monitor your Power Pages sites           
       links:
       - text: Using the portals admin center
-        url: administer-and-monitor\placeholder.md
+        url: powerapps/maker/portals/admin/admin-overview.md
         itemType: reference
       - text: Troubleshooting and diagnostics
-        url: administer-and-monitor\placeholder.md
+        url: powerapps/maker/portals/admin/view-portal-error-log.md
         itemType: reference   
       - text: Maintaining and updating Power Pages
-        url: administer-and-monitor\placeholder.md
+        url: powerapps/maker/portals/admin/update-portal-solution.md
         itemType: reference
       - text: Review consumption
-        url: administer-and-monitor\placeholder.md
+        url: powerapps/maker/portals/admin/portal-consumption-reports.md
         itemType: how-to-guide                                                                       
 
 # additionalContent section (optional)
