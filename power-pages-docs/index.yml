@@ -96,7 +96,7 @@ conceptualContent:
         url: design-and-build/portal-management-app.md
         itemType: reference  
       - text: Using the VS Code and the PAC cli
-        url: powerapps/maker/portals/power-apps/cli-tutorial.md
+        url: /powerapps/maker/portals/power-apps/cli-tutorial.md
         itemType: how-to-guide  
       - text: Planning your Power Pages project
         url: configure/planning-power-pages-project.md
