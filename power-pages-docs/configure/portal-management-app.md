@@ -21,4 +21,4 @@ contributors:
 
 For managing your Power Pages, you will use the Portal Management app. For detailed information, go to [Portal Management app overview](/powerapps/maker/portals/configure/configure-portal.md) in the Power Apps documentation.
 
-[!INCLUDE[faq](../includes/faq.yml)]
+[!INCLUDE[faq](../includes/cc-faqs.md)]
