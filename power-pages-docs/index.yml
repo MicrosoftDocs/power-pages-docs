@@ -50,7 +50,7 @@ conceptualContent:
           url: getting-started/platform-capabilities.md
           itemType: reference
         - text: Create and manage Power Pages sites
-          url: 
+          url: getting-started/create-manage.md
           itemType: reference        
         - text: How Power Pages security works
           url: security/page-security.md
