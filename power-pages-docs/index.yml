@@ -27,7 +27,7 @@ highlightedContent:
       itemType: overview
       url: introduction.md 
     # Card
-    - title: Start a Power Pages trial
+    - title: Try Power Pages
       itemType: get-started
       url: getting-started/trial-signup.md 
   # Card
@@ -109,7 +109,7 @@ conceptualContent:
     - title: Connect to your data in Dataverse
       summary: Extend Dataverse capabilities with Power Pages
       links:                             
-        - text: Dataverse in Power Pages Overview
+        - text: Dataverse and Power Pages
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
         - text: Using the data workspace
