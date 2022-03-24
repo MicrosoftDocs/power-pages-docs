@@ -167,7 +167,7 @@ conceptualContent:
       summary: Launch your site        
       links:
       - text: Go live checklist
-        url: config/go-live.md
+        url: go-live/checklist.md
         itemType: deploy
       - text: Assign licensing
         url: go-live/assign-licensing.md
