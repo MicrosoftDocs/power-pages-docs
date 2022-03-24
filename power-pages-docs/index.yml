@@ -128,7 +128,7 @@ conceptualContent:
       summary: Use professional developer tools and methods
       links:
       - text: Using Liquid
-        url: powerapps/maker/portals/liquid/liquid-overview.md
+        url: configure/liquid-overview.md
         itemType: reference
       - text: Web templates
         url: powerapps/maker/portals/liquid/store-content-web-templates.md
