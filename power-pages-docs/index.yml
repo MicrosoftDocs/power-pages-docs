@@ -154,7 +154,7 @@ conceptualContent:
         url: getting-started/page-security.md
         itemType: reference           
       - text: Authentication setup
-        url: configure/configure-portal-authentication.md
+        url: security/configure-portal-authentication.md
         itemType: how-to-guide     
       - text: Configure web roles
         url: powerapps/maker/portals/configure/create-web-roles.md
