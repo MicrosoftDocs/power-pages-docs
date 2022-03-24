@@ -100,7 +100,7 @@ conceptualContent:
         url: design-and-build/portal-management-app.md
         itemType: reference  
       - text: Using the VS Code and the PAC cli
-        url: /powerapps/maker/portals/power-apps-cli-tutorial
+        url: configure/cli-tutorial.md
         itemType: how-to-guide  
       - text: Planning your Power Pages project
         url: configure/planning-power-pages-project.md
@@ -132,13 +132,13 @@ conceptualContent:
       summary: Use professional developer tools and methods
       links:
       - text: Using Liquid
-        url: powerapps/maker/portals/liquid/liquid-overview.md
+        url: configure/liquid-overview.md
         itemType: reference
       - text: Web templates
-        url: powerapps/maker/portals/liquid/store-content-web-templates.md
+        url: configure/store-content-web-templates.md
         itemType: how-to-guide  
       - text: Portals web API
-        url: powerapps/maker/portals/web-api-overview.md
+        url: configure/web-api-overview.md
         itemType: how-to-guide
       - text: Code components
         url: powerapps/maker/portals/component-framework.md
