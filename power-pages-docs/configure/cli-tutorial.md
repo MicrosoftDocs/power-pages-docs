@@ -18,6 +18,6 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For managing your Power Pages, you will use the Portal Management app. For detailed information, go to [Use Microsoft Power Platforms CLI with Portals](/powerapps/maker/portals/power-apps/cli-tutorial) in the Power Apps documentation.
+For detailed information on how to use VS Code ad PAC cli, go to [Use Microsoft Power Platforms CLI with Portals](/powerapps/maker/portals/power-apps/cli-tutorial) in the Power Apps documentation.
 
 [!INCLUDE[cc-faqs](../includes/cc-faqs.md)]
