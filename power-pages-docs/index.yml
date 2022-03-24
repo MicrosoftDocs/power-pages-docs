@@ -25,11 +25,7 @@ highlightedContent:
   # Card
     - title: Overview
       itemType: overview
-      url: placeholder.md
-  # Card
-    - title: Learn
-      itemType: learn
-      url: placeholder.md  
+      url: introduction.md 
   # Card
     - title: Getting started videos
       itemType: video
@@ -42,25 +38,25 @@ conceptualContent:
     # Card
     - title: Getting Started
       summary: Overview of Power Pages
-      links:
+      links: 
         - text: What is Power Pages?
-          url: overview\introduction.md
+          url: introduction.md
           itemType: overview 
         - text: Power Pages platform capabilities
-          url: overview\placeholder.md
+          url: getting-started/platform-capabilities.md
           itemType: reference
         - text: Create and manage Power Pages sites
-          url: overview\placeholder.md
+          url: getting-started/create-manage.md
           itemType: reference        
         - text: How Power Pages security works
-          url: getting-started/page-security.md
+          url: security/page-security.md
           itemType: quickstart
         - text: Power Pages community
           url: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
           itemType: reference                                                                                                                                                                                                               
     # Card
     - title: Training Videos
-      summary: Step by step videos on how to build your first site
+      summary: Watch step-by-step tutorials to learn about Power Pages
       links:
         - text: Create home page 
           url: training-videos/training-videos.md#create-home-page
@@ -85,10 +81,10 @@ conceptualContent:
           itemType: video                                                                                 
     # Card
     - title: Design and Build
-      summary: How to design and build sites using Power Pages        
+      summary: Create sites using Power Pages       
       links:
       - text: Using the new design studio
-        url: design-and-build\placeholder.md
+        url: getting-started/tour-maker-studio.md
         itemType: how-to-guide 
       - text: "Pages workspace: Create and design pages"
         url: getting-started/first-page.md
@@ -97,13 +93,13 @@ conceptualContent:
         url: getting-started/first-page.md
         itemType: get-started         
       - text: Using the Portal Management app
-        url: design-and-build\portal-management-app.md
+        url: design-and-build/portal-management-app.md
         itemType: reference  
       - text: Using the VS Code and the PAC cli
-        url: design-and-build\placeholder.md
+        url: configure/cli-tutorial.md
         itemType: how-to-guide  
       - text: Planning your Power Pages project
-        url: design-and-build\placeholder.md
+        url: configure/planning-power-pages-project.md
         itemType: reference                                                                                                                                                                              
     # Card
     - title: Connect to your data in Dataverse
@@ -113,83 +109,83 @@ conceptualContent:
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
         - text: Using the data workspace
-          url: overview/placeholder.md
+          url: getting-started/use-data-workspace.md
           itemType: tutorial
         - text: Add lists to pages
-          url: overview/placeholder.md
+          url: getting-started/add-list.md
           itemType: tutorial
         - text: Add basic forms to pages
-          url: overview/placeholder.md
+          url: getting-started/add-form.md
           itemType: tutorial
         - text: Add advanced forms on pages
-          url: overview/placeholder.md
+          url: powerapps/maker/portals/configure/web-form-properties.md
           itemType: tutorial
         - text: Secure your data with table permissions
-          url: overview/placeholder.md
+          url: getting-started/table-permissions.md
           itemType: tutorial 
     # Card              
     - title: Customize and Extend
       summary: Use professional developer tools and methods
       links:
       - text: Using Liquid
-        url: customize-and-extend\placeholder.md
+        url: configure/liquid-overview.md
         itemType: reference
       - text: Web templates
-        url: customize-and-extend\placeholder.md
+        url: configure/store-content-web-templates.md
         itemType: how-to-guide  
       - text: Portals web API
-        url: customize-and-extend\placeholder.md
+        url: configure/web-api-overview.md
         itemType: how-to-guide
       - text: Code components
-        url: customize-and-extend\placeholder.md
+        url: powerapps/maker/portals/component-framework.md
         itemType: reference
       - text: Advanced configuration
-        url: customize-and-extend\placeholder.md
+        url: configure/advanced-config.md
         itemType: reference                                                                                                                                                                                                                          
     # Card
     - title: Security
-      summary: Secure your sites and data are protected        
+      summary: Protect your sites and data     
       links:
       - text: Power Pages security overview
-        url: security\placeholder.md
+        url: getting-started/page-security.md
         itemType: reference           
       - text: Authentication setup
-        url: security\placeholder.md
+        url: powerapps/maker/portals/configure/configure-portal-authentication.md
         itemType: how-to-guide     
       - text: Configure web roles
-        url: security\placeholder.md
+        url: powerapps/maker/portals/configure/create-web-roles.md
         itemType: how-to-guide    
       - text: Configure table permissions
-        url: security\placeholder.md
+        url: getting-started/table-permissions.md
         itemType: how-to-guide                                                                                 
     # Card    
     - title: Go Live
       summary: Launch your site        
       links:
       - text: Go live checklist
-        url: go-live\placeholder.md
+        url: config/go-live.md
         itemType: deploy
       - text: Assign licensing
-        url: go-live\placeholder.md
+        url: powerapps/maker/portals/manage-existing-portals.md#licensing
         itemType: how-to-guide
       - text: Overview of portals ALM
-        url: go-live\placeholder.md
+        url: configure/portals-alm.md
         itemType: how-to-guide                                                                
     # Card
     - title: Administer and Monitor
       summary: Administer and monitor your Power Pages sites           
       links:
       - text: Using the portals admin center
-        url: administer-and-monitor\placeholder.md
+        url: powerapps/maker/portals/admin/admin-overview.md
         itemType: reference
       - text: Troubleshooting and diagnostics
-        url: administer-and-monitor\placeholder.md
+        url: powerapps/maker/portals/admin/view-portal-error-log.md
         itemType: reference   
       - text: Maintaining and updating Power Pages
-        url: administer-and-monitor\placeholder.md
+        url: powerapps/maker/portals/admin/update-portal-solution.md
         itemType: reference
       - text: Review consumption
-        url: administer-and-monitor\placeholder.md
+        url: powerapps/maker/portals/admin/portal-consumption-reports.md
         itemType: how-to-guide                                                                       
 
 # additionalContent section (optional)

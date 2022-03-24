@@ -19,7 +19,7 @@ Form is a data-driven configuration that collects data in the portal without the
 
 To add a form:
 
-1. Open the [Power Apps portals Studio](https://docs.microsoft.com/en-us/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
+1. Open the [Power Apps portals Studio](/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
 
 1. Ensure that the toggle for New Design Studio is on and then navigate to the Pages Workspace.
 
@@ -27,32 +27,20 @@ To add a form:
 
 1. Select the Section which you would like to add Component into.
 
-1. Hover to any editable canvas area and click ![components icon ](media/image3.png).
+1. Hover to any editable canvas area and choose the {add words instead of icon photo}.
 
 1. Select **Form.** You can select either to create a new form or use an existing form (if maker has created one previously)
 
 1. If maker creates a new form, then the following box will appear  
-    ![Graphical user interface  text  application  email Description automatically generated](media/image31.png)
+    :::img type="content" source="media/first-page/add-form" alt-text="Menu options for editing buttons.":::
 
-**Form**
-
-1. **Choose a table**: The name of the table in which data will be stored.
-
-2. **Select a form**: select one of the Dataverse forms available for the selected table. To modify the fields or tabs within the Dataverse forms, maker need to access Data Workspace
-
-3. **Name your copy of the selected form**: Name of the form.
-
-**Data**
-Maker could select if data entered by the user into the form should create a new record, update an existing one or if data is just read-only.
-
-**On submit** Select one of the following options:
-
--   Show success message: Requires a message to be displayed to the user on successful submission of the form. You can also select Hide form on success to hide the form upon successful submission.
-
-- Redirect to webpage: Redirects the user to the selected webpage in the portal. This field is required.
-
-- Redirect to URL: Redirects the user to the specified URL. This field is required.
-
-**Captcha** Maker can decide if they would like to show captcha to anonymous users or authenticated users or both.
+| Option | Description |
+| ----------- | ----------- |
+| Choose a table | Allows you to choose a table where data will be stored. |
+| Select a form | Selects one of the dataverse forms available for the selected table. |
+| Name your copy of the selected form| Allows you to name a copy of the form. |
+| Data | You can choose to have data entered by a user create a new record, update existing records, or make the data read-only. |
+| On submit | You can choose optionally choose to show a success message.  You must enter options to redirect to a webpage and redirect to a URL. |
+| Captcha | You can choose to show a captcha to anonymous users, authenticated users, or both.
 
 Select the ellipse icon to duplicate the form, move it up/down within the section, or delete.

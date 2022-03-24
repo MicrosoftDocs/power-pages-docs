@@ -19,6 +19,6 @@ Power Pages is built on the foundation of Power Apps portals. Many of the tools 
 
 For managing your Power Pages, you will use the Portal Management app. For detailed information, go to [Portal Management app overview](/powerapps/maker/portals/configure/configure-portal) in the Power Apps documentation.
 
-Visit the [Frequently Asked Questions](placeholder.md) for more information on Power Pages and Power Apps portals.
+
 
 
