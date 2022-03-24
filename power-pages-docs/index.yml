@@ -183,7 +183,7 @@ conceptualContent:
         url: admin/admin-overview.md
         itemType: reference
       - text: Troubleshooting and diagnostics
-        url: powerapps/maker/portals/admin/view-portal-error-log.md
+        url: admin/view-portal-error-log.md
         itemType: reference   
       - text: Maintaining and updating Power Pages
         url: powerapps/maker/portals/admin/update-portal-solution.md
