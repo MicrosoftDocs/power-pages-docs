@@ -189,7 +189,7 @@ conceptualContent:
         url: admin/update-portal-solution.md
         itemType: reference
       - text: Review consumption
-        url: powerapps/maker/portals/admin/portal-consumption-reports.md
+        url: admin/portal-consumption-reports.md
         itemType: how-to-guide                                                                       
 
 # additionalContent section (optional)
