@@ -134,7 +134,7 @@ conceptualContent:
         url: configure/store-content-web-templates.md
         itemType: how-to-guide  
       - text: Portals web API
-        url: powerapps/maker/portals/web-api-overview.md
+        url: configure/web-api-overview.md
         itemType: how-to-guide
       - text: Code components
         url: powerapps/maker/portals/component-framework.md
