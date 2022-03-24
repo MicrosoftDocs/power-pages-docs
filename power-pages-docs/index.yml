@@ -97,7 +97,7 @@ conceptualContent:
         url: getting-started/first-page.md
         itemType: get-started         
       - text: Using the Portal Management app
-        url: design-and-build/portal-management-app.md
+        url: configure/portal-management-app.md
         itemType: reference  
       - text: Using the VS Code and the PAC cli
         url: configure/cli-tutorial.md
