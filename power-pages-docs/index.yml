@@ -122,7 +122,7 @@ conceptualContent:
           url: getting-started/add-form.md
           itemType: tutorial
         - text: Add advanced forms on pages
-          url: powerapps/maker/portals/configure/web-form-properties.md
+          url: getting-started/advanced-forms.md
           itemType: tutorial
         - text: Secure your data with table permissions
           url: getting-started/table-permissions.md
