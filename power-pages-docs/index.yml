@@ -40,7 +40,7 @@ conceptualContent:
 
   items:
     # Card
-    - title: Getting Started
+    - title: Getting started
       summary: Overview of Power Pages
       links: 
         - text: What is Power Pages?
@@ -59,7 +59,7 @@ conceptualContent:
           url: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
           itemType: reference                                                                                                                                                                                                               
     # Card
-    - title: Training Videos
+    - title: Training videos
       summary: Watch step-by-step tutorials to learn about Power Pages
       links:
         - text: Create home page 
@@ -84,7 +84,7 @@ conceptualContent:
           url: training-videos/training-videos.md#configure-access-to-your-site
           itemType: video                                                                                 
     # Card
-    - title: Design and Build
+    - title: Design and build
       summary: Create sites using Power Pages       
       links:
       - text: Using the new design studio
@@ -128,7 +128,7 @@ conceptualContent:
           url: getting-started/table-permissions.md
           itemType: tutorial 
     # Card              
-    - title: Customize and Extend
+    - title: Customize and extend
       summary: Use professional developer tools and methods
       links:
       - text: Using Liquid
@@ -163,7 +163,7 @@ conceptualContent:
         url: getting-started/table-permissions.md
         itemType: how-to-guide                                                                                 
     # Card    
-    - title: Go Live
+    - title: Go live
       summary: Launch your site        
       links:
       - text: Go live checklist
@@ -176,7 +176,7 @@ conceptualContent:
         url: configure/portals-alm.md
         itemType: how-to-guide                                                                
     # Card
-    - title: Administer and Monitor
+    - title: Administer and monitor
       summary: Administer and monitor your Power Pages sites           
       links:
       - text: Using the portals admin center
