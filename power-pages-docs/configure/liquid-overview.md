@@ -1,5 +1,5 @@
 ---
-title: Portal Management app overview
+title: Liquid overview
 description: Learn how to use the Portal Management app.
 author: nickdoelman
 
@@ -15,11 +15,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Portal Management app overview
+# Using Liquid
 
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For managing your Power Pages, you will use the Portal Management app. For detailed information, go to [Portal Management app overview](/powerapps/maker/portals/configure/configure-portal) in the Power Apps documentation.
+For detailed information on how to use Liquid on your site, go to Liquid overview](/powerapps/maker/portals/liquid/liquid-overview) in the Power Apps documentation.
 
 [!INCLUDE[faq](../includes/cc-faqs.md)]
