@@ -180,7 +180,7 @@ conceptualContent:
       summary: Administer and monitor your Power Pages sites           
       links:
       - text: Using the portals admin center
-        url: powerapps/maker/portals/admin/admin-overview.md
+        url: admin/admin-overview.md
         itemType: reference
       - text: Troubleshooting and diagnostics
         url: powerapps/maker/portals/admin/view-portal-error-log.md
