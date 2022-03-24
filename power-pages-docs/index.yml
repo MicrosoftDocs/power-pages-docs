@@ -157,7 +157,7 @@ conceptualContent:
         url: security/configure-portal-authentication.md
         itemType: how-to-guide     
       - text: Configure web roles
-        url: powerapps/maker/portals/configure/create-web-roles.md
+        url: security/create-web-roles.md
         itemType: how-to-guide    
       - text: Configure table permissions
         url: getting-started/table-permissions.md
