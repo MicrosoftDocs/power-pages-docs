@@ -1,6 +1,6 @@
 ---
-title: Liquid overview
-description: Learn how to use Liquid.
+title: Web templates
+description: Learn how to use web templates.
 author: nickdoelman
 
 ms.topic: conceptual
@@ -15,11 +15,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Using Liquid
+# Web templates
 
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on how to use Liquid on your site, go to [Liquid overview](/powerapps/maker/portals/liquid/liquid-overview) in the Power Apps documentation.
+For detailed information on how to use web templates on your site, go to [Store source content by using web templates](/powerapps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
 
 [!INCLUDE[faq](../includes/cc-faqs.md)]

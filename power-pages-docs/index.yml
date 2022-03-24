@@ -131,7 +131,7 @@ conceptualContent:
         url: configure/liquid-overview.md
         itemType: reference
       - text: Web templates
-        url: powerapps/maker/portals/liquid/store-content-web-templates.md
+        url: configure/store-content-web-templates.md
         itemType: how-to-guide  
       - text: Portals web API
         url: powerapps/maker/portals/web-api-overview.md
