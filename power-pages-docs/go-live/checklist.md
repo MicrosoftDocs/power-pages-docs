@@ -1,12 +1,13 @@
 ---
 title: Go live checklist
-description: Ensure your go live goes smoothly
+description: Learn how to go live.
 author: nickdoelman
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/22/2022
-ms.subservice: portals
+ms.date: 03/17/2022
+ms.service: power-pages
+ms.subservice: 
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -15,7 +16,3 @@ contributors:
 ---
 
 # Go live checklist
-
-
-
-
