@@ -20,6 +20,6 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on how to configure web roles, go to [Manage existing portals | Licensing](powerapps/maker/portals/manage-existing-portals#licensing) in the Power Apps documentation.
+For detailed information on how to configure web roles, go to [Manage existing portals | Licensing](powerapps/maker/portals/manage-existing-portals) in the Power Apps documentation.
 
 [!INCLUDE[faq](../includes/cc-faqs.md)]
