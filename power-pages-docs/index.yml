@@ -170,7 +170,7 @@ conceptualContent:
         url: config/go-live.md
         itemType: deploy
       - text: Assign licensing
-        url: powerapps/maker/portals/manage-existing-portals.md#licensing
+        url: go-live/assign-licensing.md
         itemType: how-to-guide
       - text: Overview of portals ALM
         url: configure/portals-alm.md
