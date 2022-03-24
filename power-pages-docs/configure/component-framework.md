@@ -15,7 +15,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Using Liquid
+# Using code components
 
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
