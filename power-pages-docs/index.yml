@@ -141,7 +141,7 @@ conceptualContent:
         url: configure/web-api-overview.md
         itemType: how-to-guide
       - text: Code components
-        url: powerapps/maker/portals/component-framework.md
+        url: configure/component-framework.md
         itemType: reference
       - text: Advanced configuration
         url: configure/advanced-config.md
