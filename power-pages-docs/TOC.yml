@@ -37,9 +37,11 @@
     href: getting-started/style-site.md
   - name: How to use Data Workspace
     href: getting-started/use-data-workspace.md
-  - name: How Power Pages security works
-    href: security/page-security.md
   - name: Getting started with templates
     href: getting-started/default-template.md
 - name: Training Videos
   href: training-videos/training-videos.md
+- name: Security
+  items: 
+  - name: How Power Pages security works
+  href: security/page-security.md
