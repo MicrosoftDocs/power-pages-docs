@@ -5,7 +5,7 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/22/2022
-ms.subservice: portals
+ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
 contributors:
@@ -14,6 +14,8 @@ contributors:
 ---
 
 # Create and manage Power Pages sites
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Provisioning
 

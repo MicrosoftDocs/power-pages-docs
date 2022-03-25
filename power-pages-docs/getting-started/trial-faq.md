@@ -5,10 +5,8 @@ author: nickdoelman
 ms.author: ndoelman
 ms.date: 03/23/2022
 ms.topic: get-started
-ms.service: power-pages
 ms.custom: template-trial-faq
 ms.reviewer: ndoelman
-ms.subservice: 
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -25,6 +23,8 @@ For Project Beethoven, we are focusing on the following core principles:
 To provide feedback on this template, contact [Alex Ferguson](mailto:alex.ferguson@microsoft.com).-->
 
 # Power Pages trial FAQ
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[trial-faq-platform](../includes/trial-faq-platform.md)]
 

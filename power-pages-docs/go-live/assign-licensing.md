@@ -6,8 +6,6 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/17/2022
-ms.service: power-pages
-ms.subservice: 
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -17,6 +15,7 @@ contributors:
 
 # Assign licensing
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 

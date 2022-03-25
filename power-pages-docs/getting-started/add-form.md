@@ -5,7 +5,7 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/15/2022
-ms.subservice: portals
+ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
 contributors:
@@ -14,6 +14,8 @@ contributors:
 ---
 
 # Add Form
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Form is a data-driven configuration that collects data in the portal without the need for a developer to surface the form in the portal. Forms are created in Microsoft Dataverse. You can use them on webpages in the portal or in conjunction with lists to build out complete web applications.
 

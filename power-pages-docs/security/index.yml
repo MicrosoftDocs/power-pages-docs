@@ -6,8 +6,7 @@ summary: Security Landing page.
 metadata:
   title: Power Pages documentation
   description: Provides access to highlighted areas within the Power Pages documentation
-  services: service
-  
+  services: service  
   ms.subservice: subservice
   ms.topic: landing-page 
   ms.collection: collection

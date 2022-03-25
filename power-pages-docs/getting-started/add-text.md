@@ -5,7 +5,7 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/15/2022
-ms.subservice: portals
+ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
 contributors:
@@ -15,11 +15,13 @@ contributors:
 
 # Add text
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 A text box component allows you to add text inside your portal page.
 
 To add a text box:
 
-1. Open the [Power Apps portals Studio](https://docs.microsoft.com/en-us/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
+1. Open the [Power Apps portals Studio](/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
 
 1. Ensure that the toggle for New Design Studio is on and then navigate to the Pages Workspace.
 

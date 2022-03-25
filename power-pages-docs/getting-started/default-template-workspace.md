@@ -5,7 +5,7 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/16/2022
-ms.subservice: portals
+ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
 contributors:
@@ -14,6 +14,8 @@ contributors:
 ---
 
 # Data workspace for default template
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The default design template comes with a rich set of sample tables and data you can edit from within the maker studio. Select the **Data** workspace on the toolbelt to look at the tables within the solution.
 

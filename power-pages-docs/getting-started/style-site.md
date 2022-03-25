@@ -5,7 +5,7 @@ author: Rob
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/08/2022
-ms.subservice: portals
+ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
 contributors:
@@ -14,6 +14,8 @@ contributors:
 ---
 
 # Style your pages site
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 In Power Pages you will find a robust set of themes and tools to use to style your site. There are several preset themes that may be applied to your portal.  You can use these themes as a starting point and apply further customization with the styling menu.
 
