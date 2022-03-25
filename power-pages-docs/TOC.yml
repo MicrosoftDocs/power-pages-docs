@@ -9,8 +9,9 @@
 - name: Get started
   items:
   - name: Create your first Power Pages site
-    href: getting-started/first-page.md
     items:
+      - name: Create and design pages
+        href: getting-started/first-page.md
       - name: Customize your Power Pages site
         href: getting-started/customize-pages.md 
       - name: Add components
@@ -48,4 +49,4 @@
 - name: Security
   items: 
   - name: How Power Pages security works
-  href: security/page-security.md
+    href: security/page-security.md
