@@ -54,6 +54,8 @@
     href: getting-started/use-data-workspace.md
   - name: Getting started with templates
     href: getting-started/default-template.md
+  - name: Default template Workspace
+    href: default-template-workspace.md
   - name:  Tour maker studio
     href: getting-started/tour-maker-studio.md
   - name: What is Dataverse?
