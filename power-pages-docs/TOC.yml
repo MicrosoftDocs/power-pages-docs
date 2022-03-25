@@ -55,13 +55,15 @@
   - name: Getting started with templates
     href: getting-started/default-template.md
   - name: Default template Workspace
-    href: default-template-workspace.md
+    href: getting-started/default-template-workspace.md
   - name:  Tour maker studio
     href: getting-started/tour-maker-studio.md
   - name: What is Dataverse?
     href: getting-started/what-is-dataverse.md
   - name: Platform capabilities
     href: getting-started/platform-capabilities.md
+  - name: Feedback page
+    href: getting-started/feedback-page.md
 - name: Training Videos
   href: training-videos/training-videos.md
 - name: Security
