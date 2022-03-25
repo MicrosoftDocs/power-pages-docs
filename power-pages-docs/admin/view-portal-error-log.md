@@ -2,7 +2,6 @@
 title: View portals error logs
 description: Learn about error logs.
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/17/2022
