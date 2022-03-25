@@ -56,6 +56,10 @@
     href: getting-started/default-template.md
   - name:  Tour maker studio
     href: getting-started/tour-maker-studio.md
+  - name: What is Dataverse?
+    href: getting-started/what-is-dataverse.md
+  - name: Platform capabilities
+    href: getting-started/platform-capabilities.md
 - name: Training Videos
   href: training-videos/training-videos.md
 - name: Security
