@@ -48,5 +48,5 @@
   href: training-videos/training-videos.md
 - name: Security
   items: 
-  - name: How Power Pages security works
-    href: security/page-security.md
+    - name: How Power Pages security works
+      href: security/page-security.md
