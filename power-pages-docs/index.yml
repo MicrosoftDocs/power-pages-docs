@@ -56,7 +56,7 @@ conceptualContent:
           url: security/page-security.md
           itemType: quickstart
         - text: Power Pages community
-          url: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
+          url: getting-started/community.md
           itemType: reference                                                                                                                                                                                                               
     # Card
     - title: Training videos
