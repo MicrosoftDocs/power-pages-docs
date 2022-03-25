@@ -108,6 +108,16 @@
       href: go-live/checklist.md
     - name: Licensing
       href: go-live/assign-licensing.md
+- name: Security
+  items:
+    - name: Configure authentication
+      href: security/configure-portal-authentication.md
+    - name: Configure web roles 
+      href: security/create-web-roles.md
+    - name: Page security
+      href: security/page-security.md
+    - name: Setting and managing table permissions
+      href: security/table-permissions.md
 - name: Training Videos
   href: training-videos/training-videos.md
 
