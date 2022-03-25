@@ -68,6 +68,16 @@
     href: getting-started/feedback-page.md
   - name: Known issues
     href: getting-started/known-issues.md
+- name: Administer pages
+  items: 
+    - name: Using the portals admin center
+      href: admin/admin-overview.md
+    - name: Capacity consumption reports
+      href: admin/portal-consumption-reports.md
+    - name: Update solution 
+      href: admin/update-portal-solution.md
+    - name: View error log 
+      href: admin/view-portal-error-log.md
 - name: Training Videos
   href: training-videos/training-videos.md
 
