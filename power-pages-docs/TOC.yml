@@ -62,11 +62,12 @@
     href: getting-started/what-is-dataverse.md
   - name: Platform capabilities
     href: getting-started/platform-capabilities.md
+  - name: Providing external access
+    href: getting-started/external-access.md
   - name: Feedback page
     href: getting-started/feedback-page.md
+  - name: Known issues
+    href: getting-started/known-issues.md
 - name: Training Videos
   href: training-videos/training-videos.md
-- name: Security
-  items: 
-    - name: How Power Pages security works
-      href: security/page-security.md
+
