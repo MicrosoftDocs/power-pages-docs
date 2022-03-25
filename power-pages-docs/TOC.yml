@@ -102,6 +102,12 @@
   items: 
     - name: Javascript
       href: customize-and-extend/javascript-overview.md
+- name: Go live 
+  items: 
+    - name: Go live checklist
+      href: go-live/checklist.md
+    - name: Licensing
+      href: go-live/assign-licensing.md
 - name: Training Videos
   href: training-videos/training-videos.md
 
