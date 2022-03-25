@@ -33,6 +33,12 @@
         href: getting-started/add-text.md
       - name: Add video
         href: getting-started/add-video.md
+  - name: Customize pages
+    items:
+      - name: Create custom pages
+        href: getting-started/customize-pages.md
+      - name: Create custom forms
+        href: getting-started/advanced-forms.md
   - name: Style your page
     href: getting-started/style-site.md
   - name: How to use Data Workspace
