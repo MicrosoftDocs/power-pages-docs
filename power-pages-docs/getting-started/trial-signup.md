@@ -5,10 +5,8 @@ author: nickdoelman
 ms.author: ndoelman
 ms.date: 03/23/2022
 ms.topic: get-started
-ms.service: power-pages
 ms.custom: template-trial-setup 
 ms.reviewer: 
-ms.subservice: portals
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -24,6 +22,8 @@ For Project Beethoven, we are focusing on the following core principles:
 To provide feedback on this template, contact [Alex Ferguson](mailto:alex.ferguson@microsoft.com).-->
 
 # Sign up for a free Power Pages trial
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Power Pages offers a free 30-day trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Power Pages features](<!--Link to the Overview page-->)
 

@@ -2,12 +2,9 @@
 title: Web templates
 description: Learn how to use web templates.
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/17/2022
-ms.service: power-pages
-ms.subservice: 
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -17,6 +14,7 @@ contributors:
 
 # Web templates
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 

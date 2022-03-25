@@ -10,7 +10,6 @@ metadata:
   description: Provides access to highlighted areas within the Power Pages documentation
   services: service
   ms.service: power-pages 
-  ms.subservice: subservice
   ms.topic: hub-page 
   ms.collection: collection
   author: nickdoelman
@@ -33,7 +32,7 @@ highlightedContent:
   # Card
     - title: Getting started videos
       itemType: video
-      url: training-videos/training-videos.md           
+      url: training-videos/index.md           
 
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -47,7 +46,7 @@ conceptualContent:
           url: introduction.md
           itemType: overview 
         - text: Power Pages capabilities
-          url: getting-started/platform-capabilities.md
+          url: capabilities.md
           itemType: reference
         - text: Create and manage Power Pages sites
           url: getting-started/create-manage.md
@@ -56,32 +55,32 @@ conceptualContent:
           url: security/page-security.md
           itemType: quickstart
         - text: Power Pages community
-          url: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
+          url: getting-started/community.md
           itemType: reference                                                                                                                                                                                                               
     # Card
     - title: Training videos
       summary: Watch step-by-step tutorials to learn about Power Pages
       links:
         - text: Create home page 
-          url: training-videos/training-videos.md#create-home-page
+          url: training-videos/index.md#create-home-page
           itemType: video
         - text: Style your site 
-          url: training-videos/training-videos.md#style-your-site
+          url: training-videos/index.md#style-your-site
           itemType: video
         - text: Create a table
-          url: training-videos/training-videos.md#create-a-table
+          url: training-videos/index.md#create-a-table
           itemType: video                             
         - text: Setup table permissions 
-          url: training-videos/training-videos.md#setup-table-permissions
+          url: training-videos/index.md#setup-table-permissions
           itemType: video
         - text: Create a form 
-          url: training-videos/training-videos.md#create-a-form
+          url: training-videos/index.md#create-a-form
           itemType: video
         - text: Create an advanced form
-          url: training-videos/training-videos.md#create-an-advanced-form
+          url: training-videos/index.md#create-an-advanced-form
           itemType: video
         - text: Configure access to your site 
-          url: training-videos/training-videos.md#configure-access-to-your-site
+          url: training-videos/index.md#configure-access-to-your-site
           itemType: video                                                                                 
     # Card
     - title: Design and build
@@ -125,7 +124,7 @@ conceptualContent:
           url: getting-started/advanced-forms.md
           itemType: tutorial
         - text: Secure your data with table permissions
-          url: getting-started/table-permissions.md
+          url: security/table-permissions.md
           itemType: tutorial 
     # Card              
     - title: Customize and extend
@@ -151,7 +150,7 @@ conceptualContent:
       summary: Protect your sites and data     
       links:
       - text: Power Pages security overview
-        url: getting-started/page-security.md
+        url: security/page-security.md
         itemType: reference           
       - text: Authentication setup
         url: security/configure-portal-authentication.md
@@ -160,7 +159,7 @@ conceptualContent:
         url: security/create-web-roles.md
         itemType: how-to-guide    
       - text: Configure table permissions
-        url: getting-started/table-permissions.md
+        url: security/table-permissions.md
         itemType: how-to-guide                                                                                 
     # Card    
     - title: Go live

@@ -6,7 +6,7 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/23/2022
-ms.subservice: portals
+ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -15,6 +15,8 @@ contributors:
 ---
 
 # Using the VS Code and the PAC cli
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 

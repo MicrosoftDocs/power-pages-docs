@@ -5,7 +5,6 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/14/2022
-ms.subservice: portals
 ms.author: ndoelman
 ms.reviewer:
 contributors:
@@ -14,6 +13,8 @@ contributors:
 ---
 
 # Tour maker studio
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Power Page maker studio is an intuitive click and drag interface that enables low-code makers to build and configure rich business web apps. It has four marquee experiences called workspaces that focus on specific user jobs:
 

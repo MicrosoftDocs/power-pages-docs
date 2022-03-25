@@ -1,45 +1,121 @@
 - name: Overview
   items: 
   - name: What is Power Pages
-    href: overview/introduction.md
-  - name: Power Pages platform capabilities
-    href: overview/platform-capabilities.md
+    href: introduction.md
+  - name: Power Pages capabilities
+    href: capabilities.md
   - name: Power Pages community
-    href: overview/more-to-explore.md
+    href: getting-started/community.md
+- name:  Try Power Pages
+  items: 
+    - name: Sign up for a trial
+      href: getting-started/trial-signup.md
+    - name: Trial FAQs
+      href: getting-started/trial-faq.md
 - name: Get started
   items:
   - name: Create your first Power Pages site
-    href: getting-started/first-page.md
     items:
+      - name: Create and design pages
+        href: getting-started/first-page.md
+      - name: Create and manage pages
+        href: getting-started/create-manage.md
       - name: Customize your Power Pages site
         href: getting-started/customize-pages.md 
-      - name: Add button
-        href: getting-started/add-button.md
-      - name: Add form
-        href: getting-started/add-form.md
-      - name: Add iFrame
-        href: getting-started/add-iframe.md
-      - name: Add image
-        href: getting-started/add-image.md
-      - name: Add list
-        href: getting-started/add-list.md
-      - name: Add Power BI
-        href: getting-started/add-power-bi.md
-      - name: Add spacer 
-        href: getting-started/add-spacer.md
-      - name: Add sections
-        href: getting-started/add-sections.md
-      - name: Add text
-        href: getting-started/add-text.md
-      - name: Add video
-        href: getting-started/add-video.md
+      - name: Add components
+        items: 
+          - name: Add button
+            href: getting-started/add-button.md
+          - name: Add form
+            href: getting-started/add-form.md
+          - name: Create custom forms
+            href: getting-started/advanced-forms.md
+          - name: Add iFrame
+            href: getting-started/add-iframe.md
+          - name: Add image
+            href: getting-started/add-image.md
+          - name: Add list
+            href: getting-started/add-list.md
+          - name: Add Power BI
+            href: getting-started/add-power-bi.md
+          - name: Add spacer 
+            href: getting-started/add-spacer.md
+          - name: Add sections
+            href: getting-started/add-sections.md
+          - name: Add text
+            href: getting-started/add-text.md
+          - name: Add video
+            href: getting-started/add-video.md
   - name: Style your page
     href: getting-started/style-site.md
+  - name: Structure your page
+    href: getting-started/structure-site.md
   - name: How to use Data Workspace
     href: getting-started/use-data-workspace.md
-  - name: How Power Pages security works
-    href: getting-started/page-security.md
   - name: Getting started with templates
     href: getting-started/default-template.md
+  - name: Default template workspace
+    href: getting-started/default-template-workspace.md
+  - name:  Tour maker studio
+    href: getting-started/tour-maker-studio.md
+  - name: What is Dataverse?
+    href: getting-started/what-is-dataverse.md
+  - name: Providing external access
+    href: getting-started/external-access.md
+  - name: Feedback page
+    href: getting-started/feedback-page.md
+  - name: Known issues
+    href: getting-started/known-issues.md
+- name: Administer Power Pages
+  items: 
+    - name: Using the portals admin center
+      href: admin/admin-overview.md
+    - name: Capacity consumption reports
+      href: admin/portal-consumption-reports.md
+    - name: Update solution 
+      href: admin/update-portal-solution.md
+    - name: View error log 
+      href: admin/view-portal-error-log.md
+- name: Configure Power Pages
+  items:  
+    - name:  Advanced configuration
+      href: configure/advanced-config.md
+    - name: Using the VS Code and the PAC cli
+      href: configure/cli-tutorial.md
+    - name: Component framework
+      href: configure/component-framework.md
+    - name: Liquid overview
+      href: configure/liquid-overview.md
+    - name: Planning your Power Pages project
+      href: configure/planning-power-pages-project.md
+    - name: Portal Management app overview
+      href: configure/portal-management-app.md
+    - name: Overview of portals ALM
+      href: configure/portals-alm.md
+    - name: Web templates
+      href: configure/store-content-web-templates.md
+    - name: Portals Web API overview
+      href: configure/web-api-overview.md
+- name: Customize and extend Power Pages
+  items: 
+    - name: Javascript
+      href: customize-and-extend/javascript-overview.md
+- name: Go live 
+  items: 
+    - name: Go live checklist
+      href: go-live/checklist.md
+    - name: Licensing
+      href: go-live/assign-licensing.md
+- name: Secure Power Pages
+  items:
+    - name: Configure authentication
+      href: security/configure-portal-authentication.md
+    - name: Configure web roles 
+      href: security/create-web-roles.md
+    - name: Page security
+      href: security/page-security.md
+    - name: Setting and managing table permissions
+      href: security/table-permissions.md
 - name: Training Videos
-  href: training-videos/training-videos.md
+  href: training-videos/index.md
+
