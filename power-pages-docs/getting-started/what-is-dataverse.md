@@ -15,6 +15,8 @@ contributors:
 
 # What is Dataverse?
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Link to Dataverse content.
 TO DO: Add content
 

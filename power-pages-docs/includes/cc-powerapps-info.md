@@ -1,1 +1,1 @@
-[Power Pages is built on the foundation of Power Apps portals. Many of the tools and methods used to configure Power Pages utilize the functionality of Power Apps portals.]
+Power Pages is built on the foundation of Power Apps portals. Many of the tools and methods used to configure Power Pages utilize the functionality of Power Apps portals.

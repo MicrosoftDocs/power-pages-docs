@@ -13,3 +13,5 @@ contributors:
 ---
 
 # Go live checklist
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]

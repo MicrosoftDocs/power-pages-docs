@@ -15,6 +15,8 @@ contributors:
 
 # Customize web pages
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 ## WYSIWYG editor
 
 After adding the required webpages and managing their hierarchy in the sitemap, you can add various components. The WYSIWYG (What You See Is What You Get) editor is part of the Pages workspace.

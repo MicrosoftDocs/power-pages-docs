@@ -13,6 +13,6 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Power Pages platform capabilities
+# Power Pages capabilities
 
-
+[!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]

@@ -15,6 +15,8 @@ contributors:
 
 # Adding an image
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Image component allows you to add images to your portal page.
 
 To add an image:

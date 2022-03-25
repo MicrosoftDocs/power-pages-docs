@@ -15,6 +15,8 @@ contributors:
 
 # Sections
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Sections allow you to define a structure for your page and arrange portal components. Once you add sections to your page, you can add portal components inside the sections as per the requirement.
 
 ## Adding a section

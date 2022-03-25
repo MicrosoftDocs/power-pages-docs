@@ -15,6 +15,8 @@ contributors:
 
 # Add spacer
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Allows user to add blank space between components.
 
 To add button:

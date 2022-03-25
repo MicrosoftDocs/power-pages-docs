@@ -15,6 +15,8 @@ contributors:
 
 # Add Power BI
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 You can add a Power BI component on a page to display Power BI dashboards and reports on your portal.
 
 Note:  

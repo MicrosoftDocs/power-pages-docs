@@ -25,6 +25,8 @@ To provide feedback on this template, contact [Alex Ferguson](mailto:alex.fergus
 
 # Power Pages trial FAQ
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[trial-faq-platform](../includes/trial-faq-platform.md)]
 
 ### Can I convert the trial to a paid license?

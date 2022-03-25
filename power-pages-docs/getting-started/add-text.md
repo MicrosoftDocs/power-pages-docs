@@ -15,6 +15,8 @@ contributors:
 
 # Add text
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 A text box component allows you to add text inside your portal page.
 
 To add a text box:

@@ -13,7 +13,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add button 
+# Add button
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)] 
 
 Button allows maker to provide an interactive area to redirect user to.
 

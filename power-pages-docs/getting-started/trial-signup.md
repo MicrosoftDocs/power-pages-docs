@@ -24,6 +24,8 @@ To provide feedback on this template, contact [Alex Ferguson](mailto:alex.fergus
 
 # Sign up for a free Power Pages trial
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Power Pages offers a free 30-day trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Power Pages features](<!--Link to the Overview page-->)
 
 **To sign up for the trial**:

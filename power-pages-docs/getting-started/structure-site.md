@@ -15,6 +15,8 @@ contributors:
 
 # Create site structure
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 TO DO: Add content
 
 

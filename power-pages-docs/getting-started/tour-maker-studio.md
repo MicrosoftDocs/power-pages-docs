@@ -15,6 +15,8 @@ contributors:
 
 # Tour maker studio
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The Power Page maker studio is an intuitive click and drag interface that enables low-code makers to build and configure rich business web apps. It has four marquee experiences called workspaces that focus on specific user jobs:
 
 - **Pages workspace** enables you to design and build webpages with in-context editing and add content with no- and low-code widgets such as text, image, video, PowerBI reports, lists, forms and others. Learn more about Pages workspace.

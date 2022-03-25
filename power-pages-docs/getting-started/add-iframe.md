@@ -15,6 +15,8 @@ contributors:
 
 # Add iFrame
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Add IFrame component to your portal page to embed a webpage from any other website.
 
 To add an iFrame:

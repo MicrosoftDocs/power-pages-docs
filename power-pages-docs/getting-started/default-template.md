@@ -15,6 +15,8 @@ contributors:
 
 # Getting started with templates
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 ## Overview of the default template design
 
 The default design template is a versatile template that provides basic building blocks for you to customize your portal.

@@ -14,6 +14,8 @@ contributors:
 ---
 # How to use data workspace
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 **Data workspace** lets you easily model, visualize, and manage business data for the site with tables, forms, and lists. All the data and changes are stored in Dataverse. You can create and edit tables for the site and create new or edit existing model-driven forms and views. 
 
 ## Learn more about data workspace

@@ -12,6 +12,8 @@ ms.reviewer: nickdoelman
 
 # Power Pages community
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The forums are a great resource where anyone can read and discuss topics with other Power Pages users.
 
 ## Join the discussion

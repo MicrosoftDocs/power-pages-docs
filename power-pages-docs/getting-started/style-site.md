@@ -15,6 +15,8 @@ contributors:
 
 # Style your pages site
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 In Power Pages you will find a robust set of themes and tools to use to style your site. There are several preset themes that may be applied to your portal.  You can use these themes as a starting point and apply further customization with the styling menu.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
