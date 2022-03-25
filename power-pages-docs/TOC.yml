@@ -5,7 +5,7 @@
   - name: Power Pages platform capabilities
     href: platform-capabilities.md
   - name: Power Pages community
-    href: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
+    href: overview/more-to-explore.md
 - name: Get started
   items:
   - name: Create your first Power Pages site
@@ -38,7 +38,7 @@
   - name: How to use Data Workspace
     href: getting-started/use-data-workspace.md
   - name: How Power Pages security works
-    href: getting-started/page-security.md
+    href: security/page-security.md
   - name: Getting started with templates
     href: getting-started/default-template.md
 - name: Training Videos
