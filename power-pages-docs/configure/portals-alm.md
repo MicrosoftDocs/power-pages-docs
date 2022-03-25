@@ -13,5 +13,5 @@ contributors:
 
 # Overview of portals ALM
 
-
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

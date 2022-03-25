@@ -2,7 +2,6 @@
 title: Advanced configuration
 description: Learn how to configure
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/17/2022
@@ -14,6 +13,8 @@ contributors:
 ---
 
 # Advanced configuration
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Power Pages is built on the foundation of Power Apps portals. Many of the tools and methods used to configure Power Pages utilize the functionality of Power Apps portals. 
 

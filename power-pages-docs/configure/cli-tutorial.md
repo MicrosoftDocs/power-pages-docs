@@ -16,6 +16,8 @@ contributors:
 
 # Using the VS Code and the PAC cli
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 For detailed information on how to use VS Code ad PAC cli, go to [Use Microsoft Power Platforms CLI with Portals](/powerapps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.

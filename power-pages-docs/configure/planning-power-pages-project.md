@@ -2,7 +2,6 @@
 title: Planning your Power Pages project
 description: Learn how to use the Portal Management app.
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/17/2022
@@ -14,7 +13,7 @@ contributors:
 
 # Planning Power Pages project
 
-
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 
 
