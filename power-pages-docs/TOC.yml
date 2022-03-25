@@ -1,11 +1,11 @@
 - name: Overview
   items: 
   - name: What is Power Pages
-    href: overview/introduction.md
+    href: introduction.md
   - name: Power Pages platform capabilities
-    href: overview/platform-capabilities.md
+    href: platform-capabilities.md
   - name: Power Pages community
-    href: overview/more-to-explore.md
+    href: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
 - name: Get started
   items:
   - name: Create your first Power Pages site
