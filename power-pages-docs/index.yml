@@ -47,7 +47,7 @@ conceptualContent:
           url: introduction.md
           itemType: overview 
         - text: Power Pages capabilities
-          url: getting-started/platform-capabilities.md
+          url: capabilities.md
           itemType: reference
         - text: Create and manage Power Pages sites
           url: getting-started/create-manage.md

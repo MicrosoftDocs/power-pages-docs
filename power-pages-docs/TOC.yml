@@ -3,7 +3,7 @@
   - name: What is Power Pages
     href: introduction.md
   - name: Power Pages platform capabilities
-    href: platform-capabilities.md
+    href: capabilities.md
   - name: Power Pages community
     href: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
 - name:  Try Power Pages
@@ -60,8 +60,6 @@
     href: getting-started/tour-maker-studio.md
   - name: What is Dataverse?
     href: getting-started/what-is-dataverse.md
-  - name: Platform capabilities
-    href: getting-started/platform-capabilities.md
   - name: Providing external access
     href: getting-started/external-access.md
   - name: Feedback page
