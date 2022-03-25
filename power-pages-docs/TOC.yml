@@ -6,14 +6,14 @@
     href: platform-capabilities.md
   - name: Power Pages community
     href: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
+- name:  Try Power Pages
+  items: 
+    - name: Trial FAQs
+      href: getting-started/trial-faq.md
+    - name: Sign up now
+      href: getting-started/trial-signup.md
 - name: Get started
   items:
-  - name:  Try Power Pages
-    items: 
-      - name: Trial FAQs
-        href: getting-started/trial-faq.md
-      - name: Sign up now
-        href: getting-started/trial-signup.md
   - name: Create your first Power Pages site
     items:
       - name: Create and design pages
