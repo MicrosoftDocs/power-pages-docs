@@ -18,6 +18,8 @@
     items:
       - name: Create and design pages
         href: getting-started/first-page.md
+      - name: Create and manage pages
+        href: getting-started/create-manage.md
       - name: Customize your Power Pages site
         href: getting-started/customize-pages.md 
       - name: Add components
@@ -46,10 +48,14 @@
             href: getting-started/add-video.md
   - name: Style your page
     href: getting-started/style-site.md
+  - name: Structure your page
+    href: getting-started/structure-site.md
   - name: How to use Data Workspace
     href: getting-started/use-data-workspace.md
   - name: Getting started with templates
     href: getting-started/default-template.md
+  - name:  Tour maker studio
+    href: getting-started/tour-maker-studio.md
 - name: Training Videos
   href: training-videos/training-videos.md
 - name: Security
