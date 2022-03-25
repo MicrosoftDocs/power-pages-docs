@@ -117,5 +117,5 @@
     - name: Setting and managing table permissions
       href: security/table-permissions.md
 - name: Training Videos
-  href: training-videos/training-videos.md
+  href: training-videos/index.md
 
