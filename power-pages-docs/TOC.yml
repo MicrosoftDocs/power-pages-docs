@@ -2,10 +2,10 @@
   items: 
   - name: What is Power Pages
     href: introduction.md
-  - name: Power Pages platform capabilities
+  - name: Power Pages capabilities
     href: capabilities.md
   - name: Power Pages community
-    href: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
+    href: getting-started/community.md
 - name:  Try Power Pages
   items: 
     - name: Sign up for a trial
@@ -66,7 +66,7 @@
     href: getting-started/feedback-page.md
   - name: Known issues
     href: getting-started/known-issues.md
-- name: Administer pages
+- name: Administer Power Pages
   items: 
     - name: Using the portals admin center
       href: admin/admin-overview.md
@@ -76,7 +76,7 @@
       href: admin/update-portal-solution.md
     - name: View error log 
       href: admin/view-portal-error-log.md
-- name: Configure pages
+- name: Configure Power Pages
   items:  
     - name:  Advanced configuration
       href: configure/advanced-config.md
@@ -96,7 +96,7 @@
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
       href: configure/web-api-overview.md
-- name: Customize and extend pages
+- name: Customize and extend Power Pages
   items: 
     - name: Javascript
       href: customize-and-extend/javascript-overview.md
@@ -106,7 +106,7 @@
       href: go-live/checklist.md
     - name: Licensing
       href: go-live/assign-licensing.md
-- name: Security
+- name: Secure Power Pages
   items:
     - name: Configure authentication
       href: security/configure-portal-authentication.md
