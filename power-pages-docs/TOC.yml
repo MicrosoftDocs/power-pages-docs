@@ -98,6 +98,10 @@
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
       href: configure/web-api-overview.md
+- name: Customize and extend  
+  items: 
+    - name: Javascript
+      href: customize-and-extend/javascript-overview.md
 - name: Training Videos
   href: training-videos/training-videos.md
 
