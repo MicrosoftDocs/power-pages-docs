@@ -78,6 +78,26 @@
       href: admin/update-portal-solution.md
     - name: View error log 
       href: admin/view-portal-error-log.md
+- name: Configure pages
+  items:  
+    - name:  Advanced configuration
+      href: configure/advanced-config.md
+    - name: Using the VS Code and the PAC cli
+      href: configure/cli-tutorial.md
+    - name: Component framework
+      href: configure/component-framework.md
+    - name: Liquid overview
+      href: configure/liquid-overview.md
+    - name: Planning your Power Pages project
+      href: configure/planning-power-pages-project.md
+    - name: Portal Management app overview
+      href: configure/portal-management-app.md
+    - name: Overview of portals ALM
+      href: configure/portals-alm.md
+    - name: Web templates
+      href: configure/store-content-web-templates.md
+    - name: Portals Web API overview
+      href: configure/web-api-overview.md
 - name: Training Videos
   href: training-videos/training-videos.md
 
