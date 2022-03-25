@@ -21,7 +21,7 @@ Sections allow you to define a structure for your page and arrange portal compon
 
 ## Adding a section
 
-1. Open the [Power Apps portals Studio](https://docs.microsoft.com/en-us/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
+1. Open the [Power Apps portals Studio](/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
 
 1. Ensure that the toggle for New Design Studio is on and then navigate to the Pages Workspace.
 
