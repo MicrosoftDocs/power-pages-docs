@@ -2,11 +2,9 @@
 title: Power Pages Training Videos
 description: Learn how to build Power Pages sites by following these video guides.
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/18/2022
-ms.subservice: portals
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
