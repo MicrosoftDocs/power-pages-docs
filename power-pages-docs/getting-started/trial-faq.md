@@ -7,7 +7,6 @@ ms.date: 03/23/2022
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: ndoelman
-ms.subservice: 
 contributors:
     - nickdoelman
     - ProfessorKendrick

@@ -7,7 +7,6 @@ ms.date: 03/23/2022
 ms.topic: get-started
 ms.custom: template-trial-setup 
 ms.reviewer: 
-ms.subservice: portals
 contributors:
     - nickdoelman
     - ProfessorKendrick
