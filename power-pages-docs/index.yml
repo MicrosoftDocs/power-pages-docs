@@ -125,7 +125,7 @@ conceptualContent:
           url: getting-started/advanced-forms.md
           itemType: tutorial
         - text: Secure your data with table permissions
-          url: getting-started/table-permissions.md
+          url: security/table-permissions.md
           itemType: tutorial 
     # Card              
     - title: Customize and extend
@@ -160,7 +160,7 @@ conceptualContent:
         url: security/create-web-roles.md
         itemType: how-to-guide    
       - text: Configure table permissions
-        url: getting-started/table-permissions.md
+        url: security/table-permissions.md
         itemType: how-to-guide                                                                                 
     # Card    
     - title: Go live
