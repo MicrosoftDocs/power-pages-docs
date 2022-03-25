@@ -151,7 +151,7 @@ conceptualContent:
       summary: Protect your sites and data     
       links:
       - text: Power Pages security overview
-        url: getting-started/page-security.md
+        url: security/page-security.md
         itemType: reference           
       - text: Authentication setup
         url: security/configure-portal-authentication.md
