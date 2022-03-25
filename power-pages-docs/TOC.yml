@@ -13,7 +13,7 @@
     items:
       - name: Customize your Power Pages site
         href: getting-started/customize-pages.md 
-        name: Add components
+        - name: Add components
         items:
         - name: Add button
           href: getting-started/add-button.md
