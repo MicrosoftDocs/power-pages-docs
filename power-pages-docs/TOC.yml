@@ -8,6 +8,12 @@
     href: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
 - name: Get started
   items:
+  - name:  Try Power Pages
+    items: 
+      - name: Trial FAQs
+        href: getting-started/trial-faq.md
+      - name: Sign up now
+        href: getting-started/trial-signup.md
   - name: Create your first Power Pages site
     items:
       - name: Create and design pages
@@ -16,28 +22,28 @@
         href: getting-started/customize-pages.md 
       - name: Add components
         items: 
-        - name: Add button
-          href: getting-started/add-button.md
-        - name: Add form
-          href: getting-started/add-form.md
-        - name: Create custom forms
-          href: getting-started/advanced-forms.md
-        - name: Add iFrame
-          href: getting-started/add-iframe.md
-        - name: Add image
-          href: getting-started/add-image.md
-        - name: Add list
-          href: getting-started/add-list.md
-        - name: Add Power BI
-          href: getting-started/add-power-bi.md
-        - name: Add spacer 
-          href: getting-started/add-spacer.md
-        - name: Add sections
-          href: getting-started/add-sections.md
-        - name: Add text
-          href: getting-started/add-text.md
-        - name: Add video
-          href: getting-started/add-video.md
+          - name: Add button
+            href: getting-started/add-button.md
+          - name: Add form
+            href: getting-started/add-form.md
+          - name: Create custom forms
+            href: getting-started/advanced-forms.md
+          - name: Add iFrame
+            href: getting-started/add-iframe.md
+          - name: Add image
+            href: getting-started/add-image.md
+          - name: Add list
+            href: getting-started/add-list.md
+          - name: Add Power BI
+            href: getting-started/add-power-bi.md
+          - name: Add spacer 
+            href: getting-started/add-spacer.md
+          - name: Add sections
+            href: getting-started/add-sections.md
+          - name: Add text
+            href: getting-started/add-text.md
+          - name: Add video
+            href: getting-started/add-video.md
   - name: Style your page
     href: getting-started/style-site.md
   - name: How to use Data Workspace
