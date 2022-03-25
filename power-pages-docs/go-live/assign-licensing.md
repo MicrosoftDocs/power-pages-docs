@@ -1,6 +1,6 @@
 ---
-title: Portals Web API overview
-description: Learn about the Portals Web API.
+title: Licensing
+description: Learn about licensing.
 author: nickdoelman
 
 ms.topic: conceptual
@@ -15,11 +15,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web templates
+# Assign licensing
 
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on the Portals Web API, go to [Portals Web API overview](/powerapps/maker/portals/web-api-overview) in the Power Apps documentation.
+For detailed information on how to configure web roles, go to [Manage existing portals | Licensing](powerapps/maker/portals/manage-existing-portals) in the Power Apps documentation.
 
 [!INCLUDE[faq](../includes/cc-faqs.md)]

@@ -1,6 +1,6 @@
 ---
-title: Portals Web API overview
-description: Learn about the Portals Web API.
+title: View portals error logs
+description: Learn about error logs.
 author: nickdoelman
 
 ms.topic: conceptual
@@ -15,11 +15,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web templates
+# View portal error logs
 
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on the Portals Web API, go to [Portals Web API overview](/powerapps/maker/portals/web-api-overview) in the Power Apps documentation.
+For detailed information on portals error logs, go to [View portal error logs](/powerapps/maker/portals/admin/view-portal-error-log) in the Power Apps documentation.
 
 [!INCLUDE[faq](../includes/cc-faqs.md)]

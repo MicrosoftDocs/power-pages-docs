@@ -1,6 +1,6 @@
 ---
-title: Portals Web API overview
-description: Learn about the Portals Web API.
+title: Component framework
+description: Learn how to use code components.
 author: nickdoelman
 
 ms.topic: conceptual
@@ -15,11 +15,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web templates
+# Using code components
 
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on the Portals Web API, go to [Portals Web API overview](/powerapps/maker/portals/web-api-overview) in the Power Apps documentation.
+For detailed information on how to use code components, go to [Use code components in portals](/powerapps/maker/portals/component-framework) in the Power Apps documentation.
 
 [!INCLUDE[faq](../includes/cc-faqs.md)]

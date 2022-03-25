@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 
-title: Power Pages documentation - hub mock up
+title: Power Pages documentation 
 summary: Use Power Pages to create external-facing websites that allow users outside their organizations to sign in with a wide variety of identities, create and view data in Dataverse, or even browse content anonymously. 
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: power-apps
@@ -27,7 +27,7 @@ highlightedContent:
       itemType: overview
       url: introduction.md 
     # Card
-    - title: Start a Power Pages trial
+    - title: Try Power Pages
       itemType: get-started
       url: getting-started/trial-signup.md 
   # Card
@@ -40,7 +40,7 @@ conceptualContent:
 
   items:
     # Card
-    - title: Getting Started
+    - title: Getting started
       summary: Overview of Power Pages
       links: 
         - text: What is Power Pages?
@@ -59,7 +59,7 @@ conceptualContent:
           url: https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals
           itemType: reference                                                                                                                                                                                                               
     # Card
-    - title: Training Videos
+    - title: Training videos
       summary: Watch step-by-step tutorials to learn about Power Pages
       links:
         - text: Create home page 
@@ -84,7 +84,7 @@ conceptualContent:
           url: training-videos/training-videos.md#configure-access-to-your-site
           itemType: video                                                                                 
     # Card
-    - title: Design and Build
+    - title: Design and build
       summary: Create sites using Power Pages       
       links:
       - text: Using the new design studio
@@ -97,7 +97,7 @@ conceptualContent:
         url: getting-started/first-page.md
         itemType: get-started         
       - text: Using the Portal Management app
-        url: design-and-build/portal-management-app.md
+        url: configure/portal-management-app.md
         itemType: reference  
       - text: Using the VS Code and the PAC cli
         url: configure/cli-tutorial.md
@@ -109,7 +109,7 @@ conceptualContent:
     - title: Connect to your data in Dataverse
       summary: Extend Dataverse capabilities with Power Pages
       links:                             
-        - text: Dataverse in Power Pages Overview
+        - text: Dataverse and Power Pages
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
         - text: Using the data workspace
@@ -122,13 +122,13 @@ conceptualContent:
           url: getting-started/add-form.md
           itemType: tutorial
         - text: Add advanced forms on pages
-          url: powerapps/maker/portals/configure/web-form-properties.md
+          url: getting-started/advanced-forms.md
           itemType: tutorial
         - text: Secure your data with table permissions
           url: getting-started/table-permissions.md
           itemType: tutorial 
     # Card              
-    - title: Customize and Extend
+    - title: Customize and extend
       summary: Use professional developer tools and methods
       links:
       - text: Using Liquid
@@ -141,7 +141,7 @@ conceptualContent:
         url: configure/web-api-overview.md
         itemType: how-to-guide
       - text: Code components
-        url: powerapps/maker/portals/component-framework.md
+        url: configure/component-framework.md
         itemType: reference
       - text: Advanced configuration
         url: configure/advanced-config.md
@@ -154,42 +154,42 @@ conceptualContent:
         url: getting-started/page-security.md
         itemType: reference           
       - text: Authentication setup
-        url: powerapps/maker/portals/configure/configure-portal-authentication.md
+        url: security/configure-portal-authentication.md
         itemType: how-to-guide     
       - text: Configure web roles
-        url: powerapps/maker/portals/configure/create-web-roles.md
+        url: security/create-web-roles.md
         itemType: how-to-guide    
       - text: Configure table permissions
         url: getting-started/table-permissions.md
         itemType: how-to-guide                                                                                 
     # Card    
-    - title: Go Live
+    - title: Go live
       summary: Launch your site        
       links:
       - text: Go live checklist
-        url: config/go-live.md
+        url: go-live/checklist.md
         itemType: deploy
       - text: Assign licensing
-        url: powerapps/maker/portals/manage-existing-portals.md#licensing
+        url: go-live/assign-licensing.md
         itemType: how-to-guide
       - text: Overview of portals ALM
         url: configure/portals-alm.md
         itemType: how-to-guide                                                                
     # Card
-    - title: Administer and Monitor
+    - title: Administer and monitor
       summary: Administer and monitor your Power Pages sites           
       links:
       - text: Using the portals admin center
-        url: powerapps/maker/portals/admin/admin-overview.md
+        url: admin/admin-overview.md
         itemType: reference
       - text: Troubleshooting and diagnostics
-        url: powerapps/maker/portals/admin/view-portal-error-log.md
+        url: admin/view-portal-error-log.md
         itemType: reference   
       - text: Maintaining and updating Power Pages
-        url: powerapps/maker/portals/admin/update-portal-solution.md
+        url: admin/update-portal-solution.md
         itemType: reference
       - text: Review consumption
-        url: powerapps/maker/portals/admin/portal-consumption-reports.md
+        url: admin/portal-consumption-reports.md
         itemType: how-to-guide                                                                       
 
 # additionalContent section (optional)

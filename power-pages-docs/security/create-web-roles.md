@@ -1,6 +1,6 @@
 ---
-title: Portals Web API overview
-description: Learn about the Portals Web API.
+title: Configure web roles
+description: Learn how to configure web roles.
 author: nickdoelman
 
 ms.topic: conceptual
@@ -15,11 +15,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web templates
+# Configure web roles
 
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on the Portals Web API, go to [Portals Web API overview](/powerapps/maker/portals/web-api-overview) in the Power Apps documentation.
+For detailed information on how to configure web roles, go to [Configure web roles for portals](/powerapps/maker/portals/configure/create-web-roles) in the Power Apps documentation.
 
 [!INCLUDE[faq](../includes/cc-faqs.md)]
