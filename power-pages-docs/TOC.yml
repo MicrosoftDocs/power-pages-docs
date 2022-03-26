@@ -1,3 +1,5 @@
+- name: Power Pages documentation
+  href: index.yml
 - name: Overview
   items: 
   - name: What is Power Pages
@@ -116,6 +118,6 @@
       href: security/page-security.md
     - name: Setting and managing table permissions
       href: security/table-permissions.md
-- name: Training Videos
+- name: Training videos
   href: training-videos/index.md
 
