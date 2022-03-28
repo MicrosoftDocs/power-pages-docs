@@ -29,11 +29,12 @@ To add a list:
 
 1. Select the Section which you would like to add Component into.
 
-1. Hover to any editable canvas area and click the components icon.
+1. Hover over any editable canvas area and choose the components icon.
 
-1. Select **List**. You can select either to create a new list or use an existing list (if maker has created one previously)
+1. Select **List**. You can select either to create a new list or use an existing list.
 
 1. If you decide to create a new list, a new window will appear.
+1. 
     :::image type="content" source="media/first-page/add-list.png" alt-text="The add a list menu.":::
 
     | List | Description |
