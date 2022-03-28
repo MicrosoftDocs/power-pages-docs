@@ -30,7 +30,7 @@ To add Power BI:
 
 1. Select the page you would like to edit.
 
-1. Select the Section which you would like to add Component into.
+1. Select the Section which you would like to add the component to.
 
 1. Hover to any editable canvas area and click ![components icon ](media/image3.png).
 

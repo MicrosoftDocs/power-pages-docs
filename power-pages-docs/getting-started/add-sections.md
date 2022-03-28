@@ -27,35 +27,19 @@ Sections allow you to define a structure for your page and arrange portal compon
 
 1. Select the page on which you want to add the Section to.
 
-1. Hover to any editable canvas area and click ![components icon ](media/image3.png)
+1. Hover to any editable canvas area and select the + icon.
 
 1. You can then select between the following 6 section layout options.
 
-![Graphical user interface  application  Teams Description automatically generated](media/image8.png)
+    :::image type="content" source="media/first-page/section-layout.png" alt-text="The six section layout options.":::
 
 ## Editing a section
 
 Once a Section is added, clicking the Section will open the properties bar:  
-![](media/image14.png)
 
-- Background 
-    Will enable maker to change the color of the background according to the color palette for the selected styling template.  
-    ![Shape Description automatically generated](media/image15.png)  
-    Maker can also upload an image of choice as background  
-    ![Graphical user interface Description automatically generated](media/image16.png)
+| Property | Description |
+| ----------- | ----------- |
+| Background | Enables the user to change the color of the background according to the color palette for the selected styling template. |
+| Layout | Allows  the user to change the layout of the section after it has been added to the page.  Users can manually adjust the width and height of the columns.
+| Others | Options to duplicate the section, move it up/down within the page, or to delete the section entirely. |
 
-- Layout
-
-You can change the layout of the section after it is added.
-
-- Alignment ![](media/image17.png)
-
-You can select the desired vertical and horizontal alignment of content inside the section
-
-- Options ![](media/image18.png)
-
-You more granular editing of the section, maker can manually adjust the section height and columns.  
-![Graphical user interface  application Description automatically generated](media/image19.png)
-
-- Others ![](media/image20.png)  
-    Maker can duplicate the section, move it up/down within the page, or delete the section
