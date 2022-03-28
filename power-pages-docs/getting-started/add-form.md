@@ -34,7 +34,7 @@ To add a form:
 1. Select **Form.** You can select either to create a new form or use an existing form (if maker has created one previously)
 
 1. If maker creates a new form, then the following box will appear  
-    :::img type="content" source="media/first-page/add-form" alt-text="Menu options for editing buttons.":::
+    :::img type="content" source="media/first-page/add-form.png" alt-text="Menu options for editing buttons.":::
 
 | Option | Description |
 | ----------- | ----------- |
