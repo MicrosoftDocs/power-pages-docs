@@ -30,12 +30,12 @@ To add Power BI:
 
 1. Select the page you would like to edit.
 
-1. Select the Section which you would like to add Component into.
+1. Select the Section which you would like to add the component to.
 
-1. Hover to any editable canvas area and click ![components icon ](media/image3.png).
+1. Hover to any editable canvas area and select the components icon.
 
 1. Select **Power BI**
 
     - Ensure that Power BI is enabled: [Set up Power BI integration - Power Apps \| Microsoft Docs](/powerapps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization)
     
-1.  Select ![](media/image22.png) to duplicate the Power BI, move it up/down within the section, or delete.
+1.  Select the appropriate menu option to duplicate the Power BI, move it up/down within the section, or delete.
