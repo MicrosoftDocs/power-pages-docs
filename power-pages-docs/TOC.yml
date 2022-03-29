@@ -68,6 +68,14 @@
     href: getting-started/feedback-page.md
   - name: Known issues
     href: getting-started/known-issues.md
+- name: Templates
+  items:  
+    - name: Default template
+      href: templates/default-template.md
+    - name: After School template
+      href: templates/after-school.md
+    - name: Book a Meeting template
+      href: templates/book-a-meeting.md
 - name: Administer Power Pages
   items: 
     - name: Using the portals admin center
