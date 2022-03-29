@@ -51,11 +51,11 @@
   - name: Templates
     items:  
       - name: Default template
-        href: default-template.md
+        href: templates/default-template.md
       - name: After School template
-        href: after-school.md
+        href: templates/after-school.md
       - name: Book a Meeting template
-        href: book-a-meeting.md
+        href: templates/book-a-meeting.md
   - name: Style your page
     href: getting-started/style-site.md
   - name: Structure your page
