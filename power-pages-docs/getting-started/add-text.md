@@ -29,12 +29,8 @@ To add a text box:
 
 1. Select the Section which you would like to add Component into
 
-1. Hover to any editable canvas area and click ![components icon ](media/image3.png)
+1. Hover to any editable canvas area and select the components icon.
 
 1. Select **Text** and enter the required text in the text box
 
-1. To format the text, click the Text box and the following bar will appear   
-
-![](media/image21.png)
-
-Select ![](media/image22.png) to duplicate the text box, move it up/down within the section, or delete the text box
+1. To format the text, click the Text box and a menu bar will appear with options to duplicate the text box, move it up/down within the section, or delete the text box.
