@@ -27,4 +27,3 @@ Read and post in the [Power Pages forum](https://powerusers.microsoft.com/t5/Pow
 - [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
