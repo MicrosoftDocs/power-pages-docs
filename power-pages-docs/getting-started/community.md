@@ -1,8 +1,7 @@
 ---
-title: Share your experience - Power Pages | Microsoft Docs
+title: Power Pages community - Share your experience | Microsoft Docs
 description: Provides information about Microsoft forums where you can read and contribute to discussions about Power Pages 
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom:
 ms.date: 03/25/2022
