@@ -18,7 +18,7 @@ The forums are a great resource where anyone can read and discuss topics with ot
 
 ## Join the discussion
 
-Read and post in the [Power Pages forum](https://go.microsoft.com/fwlink/?linkid=2092048). Before you post a new question, search the discussion forum to see whether your question already has been answered.
+Read and post in the [Power Pages forum](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals). Before you post a new question, search the discussion forum to see whether your question already has been answered.
 
 ### See also
 - [Power Apps portals community forums](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals)
