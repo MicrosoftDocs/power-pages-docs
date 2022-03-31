@@ -14,7 +14,7 @@ metadata:
   ms.collection: collection
   author: nickdoelman
   ms.author: ndoelman
-  ms.date: 03/17/2022 
+  ms.date: 03/31/2022 
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -61,23 +61,23 @@ conceptualContent:
     - title: Training videos
       summary: Watch step-by-step tutorials to learn about Power Pages
       links:
-        - text: Create home page 
-          url: training-videos/index.md#create-home-page
+        - text: Design your home page and site navigation 
+          url: training-videos/index.md#design-your-home-page-and-site-navigation
           itemType: video
-        - text: Style your site 
-          url: training-videos/index.md#style-your-site
+        - text: Setup your brand kit
+          url: training-videos/index.md#setup-your-brand-kit
           itemType: video
-        - text: Create a table
-          url: training-videos/index.md#create-a-table
+        - text: Create a page with a list
+          url: training-videos/index.md#create-a-page-with-a-list
           itemType: video                             
-        - text: Setup table permissions 
-          url: training-videos/index.md#setup-table-permissions
+        - text: Configure table permissions 
+          url: training-videos/index.md#configure-table-permissions
           itemType: video
-        - text: Create a form 
-          url: training-videos/index.md#create-a-form
+        - text: Create a page with a simple form 
+          url: training-videos/index.md#create-a-page-with-a-simple-form
           itemType: video
-        - text: Create an advanced form
-          url: training-videos/index.md#create-an-advanced-form
+        - text: Create a page with a multi-step form
+          url: training-videos/index.md#create-a-page-with-a-multi-step-form
           itemType: video
         - text: Configure access to your site 
           url: training-videos/index.md#configure-access-to-your-site
@@ -94,7 +94,10 @@ conceptualContent:
         itemType: get-started 
       - text: "Styling workspace: Theme and style your site"
         url: getting-started/first-page.md
-        itemType: get-started         
+        itemType: get-started
+      - text: Create Power Pages sites using templates
+        url: templates/index.md
+        itemType: get-started                 
       - text: Using the Portal Management app
         url: configure/portal-management-app.md
         itemType: reference  
@@ -105,7 +108,7 @@ conceptualContent:
         url: configure/planning-power-pages-project.md
         itemType: reference                                                                                                                                                                              
     # Card
-    - title: Connect to your data in Dataverse
+    - title: Connect to Dataverse
       summary: Extend Dataverse capabilities with Power Pages
       links:                             
         - text: Dataverse and Power Pages
