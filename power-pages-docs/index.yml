@@ -61,8 +61,8 @@ conceptualContent:
     - title: Training videos
       summary: Watch step-by-step tutorials to learn about Power Pages
       links:
-        - text: Design your home page and site navigation 
-          url: training-videos/index.md#design-your-home-page-and-site-navigation
+        - text: Design your home page
+          url: training-videos/index.md#design-your-home-page
           itemType: video
         - text: Setup your brand kit
           url: training-videos/index.md#setup-your-brand-kit

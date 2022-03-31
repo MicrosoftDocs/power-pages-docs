@@ -17,7 +17,7 @@ contributors:
 
 The following video guides will show you how to build and configure a Power Pages site.
 
-## Design your home page and site navigation
+## Design your home page
 
 ### Create page
 
