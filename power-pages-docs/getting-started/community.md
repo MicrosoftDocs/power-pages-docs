@@ -1,8 +1,7 @@
 ---
-title: Share your experience - Power Pages | Microsoft Docs
+title: Power Pages community - Share your experience | Microsoft Docs
 description: Provides information about Microsoft forums where you can read and contribute to discussions about Power Pages 
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom:
 ms.date: 03/25/2022
@@ -18,7 +17,7 @@ The forums are a great resource where anyone can read and discuss topics with ot
 
 ## Join the discussion
 
-Read and post in the [Power Pages forum](https://go.microsoft.com/fwlink/?linkid=2092048). Before you post a new question, search the discussion forum to see whether your question already has been answered.
+Read and post in the [Power Pages forum](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals). Before you post a new question, search the discussion forum to see whether your question already has been answered.
 
 ### See also
 - [Power Apps portals community forums](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals)
@@ -27,4 +26,3 @@ Read and post in the [Power Pages forum](https://go.microsoft.com/fwlink/?linkid
 - [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

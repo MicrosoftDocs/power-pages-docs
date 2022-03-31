@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/18/2022
+ms.date: 03/31/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -17,18 +17,53 @@ contributors:
 
 The following video guides will show you how to build and configure a Power Pages site.
 
-## Create home page
+## Design your home page and site navigation
 
-## Style your site
+### Create page
 
-## Create a table
+### Create site navigation
 
-## Setup table permissions
+## Setup your brand kit
 
-## Create a form
+## Create a page with a list
 
-## Create an advanced form
+### Create a table
+
+### Create a view
+
+### Add a list to page
+
+## Configure table permissions
+
+### Create table permissions
+
+### Set up access type and privileges
+
+### Add web roles
+
+## Create a page with a simple form
+
+### Create a form
+
+### Add a code component
+
+### Add a form to page
+
+### Configure form options
+
+## Create a page with a multi-step form
+
+### Advanced form overview
+
+### Create an advanced form
+
+### Create advanced form options
+
+### Add advanced form to a page
 
 ## Configure access to your site
 
+### Authentication overview
+
+### Configure identity provider
 
