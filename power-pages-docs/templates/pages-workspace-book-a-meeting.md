@@ -1,5 +1,5 @@
 ---
-title: Book a Meeting template
+title: Pages workspace for Book a Meeting
 description: template
 author: nickdoelman
 ms.topic: conceptual
