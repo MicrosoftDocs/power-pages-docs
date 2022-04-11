@@ -4,7 +4,7 @@ description: template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/29/2022
+ms.date: 04/11/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -15,9 +15,9 @@ contributors:
 
 # Edit the custom components for After School Program
 
-After School Program has many custom components and custom code. You can edit these directly using the robust PAC CLI tooling we have enabled for Portals in connection with VS Code.
+After School Program has many custom components and custom code, and you can edit these directly using the robust PAC CLI tooling we've enabled for Portals with VS Code.
 
-For more information, visit [MS Docs](https://docs.microsoft.com/en-us/powerapps/maker/portals/power-apps-cli).
+For more information, visit [MS Docs](https://docs.microsoft.com/powerapps/maker/portals/power-apps-cli).
 
 You can edit the code that comes as part of the solution template or extend the capabilities of the template according to your needs.
 
