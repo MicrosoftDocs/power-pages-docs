@@ -4,7 +4,7 @@ description: template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/29/2022
+ms.date: 04/11/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -36,14 +36,14 @@ With the Data workspace, you can look at the tables that are part of the solutio
 
 ![A graphical user interface displaying the styling options for tables in Portals ](media/image43.png)
 
-To preview the changes, return head back to the Pages workspace, sync the changes, and select the preview button.
+To preview the changes, return head back to the Pages workspace.  Once there, sync the changes and select the preview button.
 
-Styling Workspace for After School Program
+## Styling Workspace for After School Program
 
 After School Program comes with a custom theme that's mapped to one of the themes out of the box. There are many themes to choose from. Select the one that you like the best.
 
 ![A graphical user interface displaying the Portals styling workspace ](media/image44.png)
 
-You are also able to look at what the theme would look like across pages by using the pages drop-down.
+Use the pages drop down to see what the theme would look like across pages.
 
 ![A graphical user interface displaying the styling options available within Portals ](media/image45.png)
