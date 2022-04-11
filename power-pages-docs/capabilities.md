@@ -1,6 +1,6 @@
 ---
-title: Power Pages platform capabilities
-description: Learn about Power Pages platform capabilities.
+title: Power Pages capabilities
+description: Learn about Power Pages capabilities.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
