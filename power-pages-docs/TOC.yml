@@ -90,7 +90,7 @@
   items:  
     - name:  Advanced configuration
       href: configure/advanced-config.md
-    - name: Using the VS Code and the PAC cli
+    - name: Using the VS Code and the Power Platform CLI
       href: configure/cli-tutorial.md
     - name: Component framework
       href: configure/component-framework.md
