@@ -42,7 +42,7 @@ conceptualContent:
     - title: Getting started
       summary: Overview of Power Pages
       links: 
-        - text: What is Power Pages?
+        - text: What is Power Pages
           url: introduction.md
           itemType: overview 
         - text: Power Pages capabilities
@@ -101,7 +101,7 @@ conceptualContent:
       - text: Using the Portal Management app
         url: configure/portal-management-app.md
         itemType: reference  
-      - text: Using the VS Code and the PAC cli
+      - text: Using the VS Code and the Power Platform CLI
         url: configure/cli-tutorial.md
         itemType: how-to-guide  
       - text: Planning your Power Pages project
