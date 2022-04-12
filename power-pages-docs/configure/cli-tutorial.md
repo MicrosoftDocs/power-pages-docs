@@ -1,6 +1,6 @@
 ---
-title: Using the VS Code and the Power Platform CLI
-description: Learn how to use VS Code and the Power Platform CLI
+title: Using VS Code and Power Platform CLI
+description: Learn how to use VS Code and Power Platform CLI
 author: nickdoelman
 
 ms.topic: conceptual
@@ -14,7 +14,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Using the VS Code and the Power Platform CLI
+# Using VS Code and Power Platform CLI
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

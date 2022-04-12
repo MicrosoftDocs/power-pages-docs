@@ -101,7 +101,7 @@ conceptualContent:
       - text: Using the Portal Management app
         url: configure/portal-management-app.md
         itemType: reference  
-      - text: Using the VS Code and the Power Platform CLI
+      - text: Using VS Code and Power Platform CLI
         url: configure/cli-tutorial.md
         itemType: how-to-guide  
       - text: Planning your Power Pages project
