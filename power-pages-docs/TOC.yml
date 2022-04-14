@@ -18,10 +18,10 @@
   items:
   - name: Create your first Power Pages site
     items:
+      - name: Create and manage sites
+        href: getting-started/create-manage.md
       - name: Create and design pages
         href: getting-started/first-page.md
-      - name: Create and manage pages
-        href: getting-started/create-manage.md
       - name: Customize your Power Pages site
         href: getting-started/customize-pages.md 
       - name: Add components
