@@ -16,10 +16,12 @@
       href: getting-started/trial-faq.md
 - name: Get started
   items:
+  - name: Create and manage sites
+    href: getting-started/create-manage.md
+  - name:  Use design studio
+    href: getting-started/use-design-studio.md
   - name: Create your first Power Pages site
     items:
-      - name: Create and manage sites
-        href: getting-started/create-manage.md
       - name: Create and design pages
         href: getting-started/first-page.md
       - name: Customize your Power Pages site
@@ -58,8 +60,6 @@
     href: getting-started/default-template.md
   - name: Default template workspace
     href: getting-started/default-template-workspace.md
-  - name:  Tour maker studio
-    href: getting-started/tour-maker-studio.md
   - name: What is Dataverse?
     href: getting-started/what-is-dataverse.md
   - name: Providing external access

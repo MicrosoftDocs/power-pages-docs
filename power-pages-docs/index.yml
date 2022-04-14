@@ -86,8 +86,8 @@ conceptualContent:
     - title: Design and build
       summary: Create sites using Power Pages       
       links:
-      - text: Using the new design studio
-        url: getting-started/tour-maker-studio.md
+      - text: Use the new design studio
+        url: getting-started/use-design-studio.md
         itemType: how-to-guide 
       - text: "Pages workspace: Create and design pages"
         url: getting-started/first-page.md
