@@ -90,9 +90,11 @@
       href: admin/update-portal-solution.md
     - name: View error log 
       href: admin/view-portal-error-log.md
+    - name: Compliance and privacy 
+      href: admin/compliance-privacy.md      
 - name: Configure Power Pages
   items:  
-    - name:  Advanced configuration
+    - name: Advanced configuration
       href: configure/advanced-config.md
     - name: Using VS Code and Power Platform CLI
       href: configure/cli-tutorial.md
