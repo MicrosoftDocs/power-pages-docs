@@ -16,12 +16,14 @@
       href: getting-started/trial-faq.md
 - name: Get started
   items:
+  - name: Create and manage sites
+    href: getting-started/create-manage.md
+  - name:  Use design studio
+    href: getting-started/use-design-studio.md
   - name: Create your first Power Pages site
     items:
       - name: Create and design pages
         href: getting-started/first-page.md
-      - name: Create and manage pages
-        href: getting-started/create-manage.md
       - name: Customize your Power Pages site
         href: getting-started/customize-pages.md 
       - name: Add components
@@ -30,7 +32,7 @@
             href: getting-started/add-button.md
           - name: Add form
             href: getting-started/add-form.md
-          - name: Create custom forms
+          - name: Create advanced forms
             href: getting-started/advanced-forms.md
           - name: Add iFrame
             href: getting-started/add-iframe.md
@@ -48,9 +50,9 @@
             href: getting-started/add-text.md
           - name: Add video
             href: getting-started/add-video.md
-  - name: Style your page
+  - name: Style your site
     href: getting-started/style-site.md
-  - name: Structure your page
+  - name: Structure your site
     href: getting-started/structure-site.md
   - name: How to use Data Workspace
     href: getting-started/use-data-workspace.md
@@ -58,8 +60,6 @@
     href: getting-started/default-template.md
   - name: Default template workspace
     href: getting-started/default-template-workspace.md
-  - name:  Tour maker studio
-    href: getting-started/tour-maker-studio.md
   - name: What is Dataverse?
     href: getting-started/what-is-dataverse.md
   - name: Providing external access
@@ -118,6 +118,8 @@
       href: go-live/assign-licensing.md
 - name: Secure Power Pages
   items:
+    - name: Power Pages security
+      href: security/power-pages-security.md
     - name: Configure authentication
       href: security/configure-portal-authentication.md
     - name: Configure web roles 
