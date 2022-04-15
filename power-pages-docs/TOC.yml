@@ -97,7 +97,9 @@
     - name: Center of Excellence Toolkit 
       href: admin/coe-portals.md            
 - name: Configure Power Pages
-  items:  
+  items:
+    - name: Configure progressive web apps
+      href: configure/progressive-web-apps.md    
     - name: Advanced configuration
       href: configure/advanced-config.md
     - name: Using VS Code and Power Platform CLI
