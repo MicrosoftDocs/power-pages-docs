@@ -93,7 +93,7 @@ conceptualContent:
         url: getting-started/first-page.md
         itemType: get-started 
       - text: "Styling workspace: Theme and style your site"
-        url: getting-started/first-page.md
+        url: getting-started/style-site.md
         itemType: get-started
       - text: Create Power Pages sites using templates
         url: templates/index.md
