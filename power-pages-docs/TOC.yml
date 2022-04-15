@@ -50,6 +50,8 @@
             href: getting-started/add-text.md
           - name: Add video
             href: getting-started/add-video.md
+      - name: Use code editor
+        href: getting-started/code-editor.md            
   - name: Style your page
     href: getting-started/style-site.md
   - name: Structure your page
