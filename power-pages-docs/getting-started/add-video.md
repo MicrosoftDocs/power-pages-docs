@@ -30,7 +30,7 @@ To add video:
 1. Hover to any editable canvas area and select the + icon.
 
 1. Select **Video**. Maker can select the video origin and enter the URL.  
-    ::image type="content" source="media/first-page/add-video.png" alt-text="The add a video menu with a url pre-filled.":::
+    :::image type="content" source="media/first-page/add-video.png" alt-text="The add a video menu with a url pre-filled.":::
 
 1. To format **Video**, use the following options.
 
