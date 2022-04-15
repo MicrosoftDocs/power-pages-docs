@@ -16,6 +16,8 @@
       href: getting-started/trial-faq.md
 - name: Get started
   items:
+  - name: Learn hub
+    href: getting-started/use-learnhub.md  
   - name: Create your first Power Pages site
     items:
       - name: Create and design pages
