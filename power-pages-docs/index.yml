@@ -86,14 +86,14 @@ conceptualContent:
     - title: Design and build
       summary: Create sites using Power Pages       
       links:
-      - text: Using the new design studio
-        url: getting-started/tour-maker-studio.md
+      - text: Use the new design studio
+        url: getting-started/use-design-studio.md
         itemType: how-to-guide 
       - text: "Pages workspace: Create and design pages"
         url: getting-started/first-page.md
         itemType: get-started 
       - text: "Styling workspace: Theme and style your site"
-        url: getting-started/first-page.md
+        url: getting-started/style-site.md
         itemType: get-started
       - text: Create Power Pages sites using templates
         url: templates/index.md
@@ -153,7 +153,7 @@ conceptualContent:
       summary: Protect your sites and data     
       links:
       - text: Power Pages security overview
-        url: security/page-security.md
+        url: security/power-pages-security.md
         itemType: reference           
       - text: Authentication setup
         url: security/configure-portal-authentication.md
