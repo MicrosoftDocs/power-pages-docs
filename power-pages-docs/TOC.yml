@@ -76,6 +76,8 @@
     href: getting-started/known-issues.md
 - name: Templates
   items:  
+    - name: Create Power Pages sites using templates
+      href: templates/index.md
     - name: Default template
       href: templates/default-template.md
     - name: After School template
