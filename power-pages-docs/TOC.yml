@@ -8,6 +8,8 @@
     href: capabilities.md
   - name: Power Pages community
     href: getting-started/community.md
+  - name: Power Pages and Power Apps portals
+    href: difference-portals.md    
 - name:  Try Power Pages
   items: 
     - name: Sign up for a trial
@@ -16,6 +18,8 @@
       href: getting-started/trial-faq.md
 - name: Get started
   items:
+  - name: Learn hub
+    href: getting-started/use-learnhub.md  
   - name: Create and manage sites
     href: getting-started/create-manage.md
   - name:  Use design studio
@@ -50,7 +54,9 @@
             href: getting-started/add-text.md
           - name: Add video
             href: getting-started/add-video.md
-  - name: Style your site
+      - name: Use code editor
+        href: getting-started/code-editor.md            
+  - name: Style your page
     href: getting-started/style-site.md
   - name: Structure your site
     href: getting-started/structure-site.md
@@ -86,9 +92,13 @@
       href: admin/update-portal-solution.md
     - name: View error log 
       href: admin/view-portal-error-log.md
+    - name: Compliance and privacy 
+      href: admin/compliance-privacy.md
+    - name: Center of Excellence Toolkit 
+      href: admin/coe-portals.md            
 - name: Configure Power Pages
   items:  
-    - name:  Advanced configuration
+    - name: Advanced configuration
       href: configure/advanced-config.md
     - name: Using VS Code and Power Platform CLI
       href: configure/cli-tutorial.md
