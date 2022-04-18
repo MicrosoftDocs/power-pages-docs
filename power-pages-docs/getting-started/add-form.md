@@ -35,7 +35,7 @@ To add a form:
 
 1. If you choose new form, then you will need to enter the following criteria:
   
-    :::image type="content" source="media/first-page/add-form.png" alt-text="Menu options for editing buttons.":::
+    :::image type="content" source="media/first-page/add-form.png" alt-text="Add a form to a page.":::
 
     | Option | Description |
     | ----------- | ----------- |
@@ -46,4 +46,10 @@ To add a form:
     | On submit | You can choose optionally choose to show a success message.  You must enter options to redirect to a webpage and redirect to a URL. |
     | Captcha | You can choose to show a captcha to anonymous users, authenticated users, or both.
 
+    > [!NOTE]
+    > You will need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to interact with the data on the forms.
+
 1. You can select the ellipse icon to duplicate the form, move it up/down within the section, or delete.
+
+## See Also
+
