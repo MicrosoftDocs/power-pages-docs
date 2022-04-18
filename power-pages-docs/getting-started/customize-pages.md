@@ -27,7 +27,7 @@ The WYSIWYG editor allows you to add and edit the required components within the
 
 To use the WYSIWYG editor:
 
-1. Open the [Power Apps portals studio](powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
+1. Open the [Power Apps portals studio](/getting-started/use-design-studio.md) to edit the content and components of the portal.
 
 1. Ensure that the toggle for New Design Studio is on before you navigate to the Pages Workspace.
 
