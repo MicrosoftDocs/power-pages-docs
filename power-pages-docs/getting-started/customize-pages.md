@@ -47,7 +47,7 @@ All sections and components allow for in-context editing.  This allows you to ed
 
 To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the commanding bar or choose 'edit page code' from page menu.
 
-:::img type="content" source="media/first-page/edit-homepage.png" alt-text="The editor icon.":::
+:::image type="content" source="media/first-page/edit-homepage.png" alt-text="The editor icon.":::
 
 The source code is displayed in the Code Editor pane at the bottom of the screen. The changes you made earlier are updated in the source code. To make changes, update the source code and select Save. The changes are reflected on the canvas.
 
