@@ -4,7 +4,7 @@ description: Learn about Power Pages design studio.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/14/2022
+ms.date: 4/19/2022
 ms.author: ndoelman
 ms.reviewer:
 contributors:
@@ -20,11 +20,11 @@ The Power Page design studio is an intuitive click and drag interface that enabl
 
 - **Pages workspace** enables you to design and build webpages with in-context editing and add content with no- and low-code widgets such as text, image, video, PowerBI reports, lists, forms and others. Learn more about Pages workspace.
 
-- **Styling workspace** lets you apply global site styles. You can apply corporate branding updates and review the changes in the preview on the right. Styling offers 13 preset themes. For each theme, you can customize the color palette, background color, font styles, button styles, and section margins. Learn more about Styling workspace.
+- **Styling workspace** lets you apply global site styles. You can apply corporate branding updates and review the changes in the preview on the right. Styling offers 13 preset themes. For each theme, you can customize the color palette, background color, font styles, button styles, and section margins. [Learn more about Styling workspace](style-site.md).
 
-- **Data workspace** lets you easily model, visualize and manage business data for the site with tables, forms, and lists. You can create and edit Dataverse tables for the site and create new or edit existing model-drive forms and views. Changes made in the Data workspace are stored in the Common data store. Learn more about Data workspace.
+- **Data workspace** lets you easily model, visualize and manage business data for the site with tables, forms, and lists. You can create and edit Dataverse tables for the site and create new or edit existing model-drive forms and views. Changes made in the Data workspace are stored in the Common data store. [Learn more about Data workspace](use-data-workspace.md).
 
-- **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. Learn more about Set up workspace.
+- **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. [Learn more about Set up workspace](..\configure\setup-workspace.md).
 
 ## Preview your site
 
@@ -42,15 +42,9 @@ For changes made to the site from the Portals Management app to be reflected in 
 
 :::image type="content" source="media/tour-maker-studio/sync.png" alt-text="The design studio GUI with the sync button emphasized.":::
 
-## Returning to the PowerApps portal studio
-
-Because Power Page design studio is in preview, it is not intended for production sites. If you would like to switch between Power Page maker studio and the PowerApps portals Studio, use the toggle on the top-left side of the screen.
-
-Note that there are known backwards compatibility issues related to global styling and theme.
-
 ## Other entry points to Power Page design studio
 
-In addition to the toggle from PowerApps portal Studio, the Power Page design studio can be launched from these following entry points:
+The Power Page design studio can be launched from these following entry points:
 
 - Power Page creation experience
 

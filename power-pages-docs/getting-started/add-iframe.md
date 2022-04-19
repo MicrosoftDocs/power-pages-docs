@@ -29,6 +29,8 @@ To add an iFrame:
 
 1. Hover to any editable canvas area and select the click the **iFrame** icon.
 
+    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+
 1. Enter the URL target.
 
     :::image type="content" source="media/first-page/iframe.png" alt-text="Adding iFrame to page.":::

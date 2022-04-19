@@ -27,7 +27,9 @@ To add a button:
 
 1. Select the section which you would like to add the button component.
 
-1. Hover to any editable canvas area and select the **Button** icon.
+1. Hover to any editable canvas area and select the click the **Button** icon.
+
+    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
 1. Specify the button label. This label will show up on the button component itself.
 

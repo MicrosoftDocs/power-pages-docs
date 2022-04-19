@@ -29,7 +29,9 @@ To add a form:
 
 1. Select the section which you would like to add the form component.
 
-1. Hover to any editable canvas area and choose the **Form** icon to add the form component.
+1. Hover to any editable canvas area and select the click the **Form** icon.
+
+    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
 1. You can select either to create a new form or use an existing form (if maker has created one previously).
 
