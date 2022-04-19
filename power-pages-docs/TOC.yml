@@ -22,15 +22,15 @@
     href: getting-started/use-learnhub.md  
   - name: Create and manage sites
     href: getting-started/create-manage.md
-  - name:  Use design studio
+  - name: Use design studio
     href: getting-started/use-design-studio.md
-  - name: Create your first Power Pages site
-    items:
-      - name: Create and design pages
+  - name: Use Pages workspace
+    items:  
+      - name: Create and manage pages
         href: getting-started/first-page.md
-      - name: Customize your Power Pages site
-        href: getting-started/customize-pages.md 
-      - name: Add components
+      - name: Customize pages
+        href: getting-started/customize-pages.md
+      - name: Add components to pages
         items: 
           - name: Add button
             href: getting-started/add-button.md
@@ -55,11 +55,11 @@
           - name: Add video
             href: getting-started/add-video.md
       - name: Use code editor
-        href: getting-started/code-editor.md            
+        href: getting-started/code-editor.md
+      - name: Structure your site map
+        href: getting-started/structure-site.md                    
   - name: Style your page
     href: getting-started/style-site.md
-  - name: Structure your site
-    href: getting-started/structure-site.md
   - name: How to use Data Workspace
     href: getting-started/use-data-workspace.md
   - name: Getting started with templates
