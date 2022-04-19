@@ -1,11 +1,11 @@
 ---
-title: Configure progressive web applications (PWAs) in Power Pages
-description: Learn how to create a PWA using Power Pages
+title: Using the setup workspace
+description: Learn how to use the setup workspace.
 author: nickdoelman
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/15/2022
+ms.date: 04/19/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -14,14 +14,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Overview of Power Pages as progressive web apps
+# Overview of Power Pages setup workspace
 
-You can enable your functional site as a progressive web app (PWA), with native app–like look and feel, by using the design studio.
+Setup workspace
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## See also:
 
-[Overview of portals as progressive web apps](/power-apps/maker/portals/progressive-web-apps) in the Power Apps documentation.
-
-[!INCLUDE[cc-faqs](../includes/cc-faqs.md)]
