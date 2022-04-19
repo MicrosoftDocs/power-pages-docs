@@ -4,7 +4,7 @@ description: Learn how to add sections to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/15/2022
+ms.date: 04/19/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -21,25 +21,24 @@ Sections allow you to define a structure for your page and arrange portal compon
 
 ## Adding a section
 
-1. Open the [Power Apps portals Studio](/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
+1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
-1. Ensure that the toggle for New Design Studio is on and then navigate to the Pages Workspace.
-
-1. Select the page on which you want to add the Section to.
+1. Select the page on which you want to add the section to.
 
 1. Hover to any editable canvas area and select the + icon.
 
 1. You can then select between the following 6 section layout options.
 
-    :::image type="content" source="media/first-page/section-layout.png" alt-text="The six section layout options.":::
+    :::image type="content" source="media/first-page/add-section-layout.png" alt-text="The six section layout options.":::
 
 ## Editing a section
 
-Once a Section is added, clicking the Section will open the properties bar:  
+Once a section is added, clicking the section will open the properties bar and allow you to configure the following:  
 
 | Property | Description |
 | ----------- | ----------- |
-| Background | Enables the user to change the color of the background according to the color palette for the selected styling template. |
-| Layout | Allows  the user to change the layout of the section after it has been added to the page.  Users can manually adjust the width and height of the columns.
+| Background | Allows you to change the color of the background according to the color palette for the selected styling template. |
+| Layout | Allows you to change the layout of the section after it has been added to the page.  You can manually adjust the width and height of the columns. |
+| Alignment | Allows you to align the content in the section. |
 | Others | Options to duplicate the section, move it up/down within the page, or to delete the section entirely. |
 

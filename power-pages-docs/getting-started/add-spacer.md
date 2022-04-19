@@ -13,13 +13,13 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add spacer
+# Spacer
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Allows user to add blank space between components.
+A spacer will allow you to add space between sections on your page to allow for different layout and design options. 
 
-To add a spacer:
+## Adding a spacer:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
