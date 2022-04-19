@@ -4,7 +4,7 @@ description: Learn how to add Power BI to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/15/2022
+ms.date: 04/18/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -19,23 +19,21 @@ contributors:
 
 You can add a Power BI component on a page to display Power BI dashboards and reports on your portal.
 
-Note:  
-Before you begin, read Power BI access type considerations and general Power BI considerations to get familiar with important Power BI terms and considerations for Power Apps portals.
+> [!NOTE]  
+> Before you begin, read Power BI access type considerations and general Power BI considerations to get familiar with important Power BI terms and considerations for Power Apps portals.
 
-To add Power BI:
+Before adding Power BI components, ensure that Power BI is enabled: [Set up Power BI integration - Power Apps \| Microsoft Docs](/powerapps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization)
 
-1. Open the [Power Apps portals Studio](/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
+## To add a Power BI component to a page
 
-1. Ensure that the toggle for New Design Studio is on and then navigate to the Pages Workspace.
+1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
 1. Select the page you would like to edit.
 
-1. Select the Section which you would like to add the component to.
+1. Select the section which you would like to add the Power BI component.
 
-1. Hover to any editable canvas area and select the components icon.
+1. Hover to any editable canvas area and select the click the **Power BI** icon.
 
-1. Select **Power BI**
+    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
-    - Ensure that Power BI is enabled: [Set up Power BI integration - Power Apps \| Microsoft Docs](/powerapps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization)
-    
 1.  Select the appropriate menu option to duplicate the Power BI, move it up/down within the section, or delete.

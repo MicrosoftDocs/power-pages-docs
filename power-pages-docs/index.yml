@@ -52,7 +52,7 @@ conceptualContent:
           url: getting-started/create-manage.md
           itemType: reference        
         - text: How Power Pages security works
-          url: security/page-security.md
+          url: security/power-pages-security.md
           itemType: quickstart
         - text: Power Pages community
           url: getting-started/community.md
