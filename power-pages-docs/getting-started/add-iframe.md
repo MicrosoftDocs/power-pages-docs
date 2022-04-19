@@ -4,7 +4,7 @@ description: Learn how to add iFrames to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/17/2022
+ms.date: 04/18/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -17,24 +17,26 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Add IFrame component to your portal page to embed a webpage from any other website.
+Add an IFrame component to your page to embed a page from any other website.
 
 To add an iFrame:
 
-1. Open the [Power Apps portals Studio](/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
-
-1. Ensure that the toggle for New Design Studio is on and then navigate to the Pages Workspace.
+1. Open the [design studio](use-design-studio.md) to edit the content and components of the portal.
 
 1. Select the page you would like to edit.
 
-1. Select the Section which you would like to add Component into.
+1. Select the section which you would like to add the iFrame component.
 
-1. Hover to any editable canvas area and click the + icon.
-
-1. Select **iFrame**.
+1. Hover to any editable canvas area and select the click the **iFrame** icon.
 
 1. Enter the URL target.
 
-1. To format your **iFrame**, click the **iFrame** and a menu will appear.
+    :::image type="content" source="media/first-page/iframe.png" alt-text="Adding iFrame to page.":::
 
-Select the ellipse icon to duplicate the iFrame, move it up/down within the section, or delete the iFrame.
+1. To format your **iFrame**, click the **iFrame** and a menu will appear;
+
+    - Change the iFrame URL
+
+    - Adjust the alignment
+
+    - Duplicate the iFrame, move it up/down within the section, or delete the iFrame.
