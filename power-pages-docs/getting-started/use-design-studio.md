@@ -4,7 +4,7 @@ description: Learn about Power Pages design studio.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/19/2022
+ms.date: 4/20/2022
 ms.author: ndoelman
 ms.reviewer:
 contributors:
@@ -18,7 +18,7 @@ contributors:
 
 The Power Page design studio is an intuitive click and drag interface that enables low-code makers to build and configure rich business web apps. It has four marquee experiences called workspaces that focus on specific user jobs:
 
-- **Pages workspace** enables you to design and build webpages with in-context editing and add content with no- and low-code widgets such as text, image, video, PowerBI reports, lists, forms and others. Learn more about Pages workspace.
+- **Pages workspace** enables you to design and build webpages with in-context editing and add content with no- and low-code widgets such as text, image, video, PowerBI reports, lists, forms and others. Learn more about [Pages workspace](first-page.md).
 
 - **Styling workspace** lets you apply global site styles. You can apply corporate branding updates and review the changes in the preview on the right. Styling offers 13 preset themes. For each theme, you can customize the color palette, background color, font styles, button styles, and section margins. [Learn more about Styling workspace](style-site.md).
 
@@ -34,7 +34,7 @@ When you are done building, preview your site with the "Preview" option. You can
 
 ## Accessing Portals Management app and sync
 
-For advanced configurations that are not available in the Power Page maker studio, the Portals Management app is accessible from the overflow menu.
+For advanced configurations that are not available in the Power Page maker studio, the [Portals Management app](../configure/portal-management-app.md) is accessible from the overflow menu.
 
 :::image type="content" source="media/tour-maker-studio/portal-management-app.png" alt-text="The design studio GUI with the overflow menu selected.":::
 
@@ -51,3 +51,9 @@ The Power Page design studio can be launched from these following entry points:
 - Edit an existing site from the Power Page homepage
 
 - Direct URL to the design studio of an existing site
+
+## Next Steps
+
+[Create and manage pages](first-page.md)<br>
+[Customize pages](customize-pages.md)<br>
+[Style your page](style-site.md)
