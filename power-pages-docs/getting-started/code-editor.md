@@ -1,14 +1,15 @@
 ---
 title: Use the code editor
 description: Learn how to customize pages using the code editor.
-author: nickdoelman
+author: ankitavish
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/15/2022
+ms.date: 04/20/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: avishwakarma 
+ms.reviewer: ndoelman
 contributors:
+    - ankitavish
     - nickdoelman
     - ProfessorKendrick
 ---
@@ -19,9 +20,9 @@ contributors:
 
 ## Using the code editor
 
-To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the commanding bar or choose 'edit page code' from page menu.
+To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the command bar.
 
-:::image type="content" source="media/first-page/edit-homepage.png" alt-text="The editor icon.":::
+:::image type="content" source="media/code-editor/code-edit-homepage.png" alt-text="The code editor icon.":::
 
 The source code is displayed in the Code Editor pane at the bottom of the screen. The changes you made earlier are updated in the source code. To make changes, update the source code and select Save. The changes are reflected on the canvas.
 

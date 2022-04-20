@@ -4,7 +4,7 @@ description: Learn how to create Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2022
+ms.date: 03/20/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -29,7 +29,7 @@ A page is one of the core objects of the website and builds a hierarchy of the w
 
     - Selecting the **Add a page** icon in the **Main navigation** section will add a new page, which will also add a menu item to default navigation of the site.
 
-        :::image type="content" source="media/first-page/add-component.png" alt-text="Adding a component menu within maker studio.":::
+        :::image type="content" source="media/first-page/add-page-navigation.png" alt-text="Adding a page within maker studio.":::
 
     - Selecting the **Add a page** icon on the **Other pages** section will add a new page but won't add a link to the default navigation of the site.
 
