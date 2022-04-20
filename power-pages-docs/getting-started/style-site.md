@@ -1,14 +1,15 @@
 ---
 title: Style your Power Pages site
 description: Learn how to style your Power Pages site.
-author: Rob
+author: rob-moyer
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/08/2022
+ms.date: 04/20/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: robmoyer 
+ms.reviewer: ndoelman
 contributors:
+    - rob-moyer
     - nickdoelman
     - ProfessorKendrick
 ---
@@ -25,7 +26,7 @@ In Power Pages you will find a robust set of themes and tools to use to style yo
 
     :::image type="content" source="media/style-site/styling-workspace.png" alt-text="GUI with the styling workspace menu option selected.":::
 
-    - Note the list of choices in the Themes Workspace. Further customization can be done with the Styling Menu.
+    - Note the list of themes in the Styling workspace. Further customization can be done with the styling menu.
 
 1. Select one of the preset themes to see how the style is reflected on the canvas workspace to the right.
 
@@ -55,20 +56,18 @@ To see the site as it would appear in production, select the preview icon.
 
 You can also use the viewport selector to choose from web, tablet, and mobile views of the workspace.  
 
-To see the site in the 1.0 Version of Power Pages, slide the new design studio toggle to the off position.
-
 ## Theme Mapping
 
-Each color on the palatte maps to a specific element on the page.  The preset theme consists of nine colors and three slots for user-selected colors.  If you customize elements, the mapping will not be correct unless the theme is reset.  
+Each color on the palette maps to a specific element on the page.  The preset theme consists of nine colors and three slots for user-selected colors.  If you customize elements, the mapping will not be correct unless the theme is reset.  
 
-To add a new color or to change an existing color, select the + option below and choose your color using the color picker, Hex value, or RGB values.
+To add a new color or to change an existing color, select the + option in the color palette and choose your color using the color picker, Hex value, or RGB values.
 
 :::image type="content" source="media/style-site/color-picker.png" alt-text="The color picker feature within portals.":::
 
-Once a new color is added to the color palatte it can be used to color components in the context menu.
+Once a new color is added to the color palette it can be used to color components in the context menu.
 
 ## See also
 
-[Power Apps portals Studio](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/portals/portal-designer-anatomy.md)  
-[Create and manage webpages](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/portals/create-manage-webpages.md)  
-[WYSIWYG editor](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/portals/compose-page.md)
+[Use design studio](use-design-studio.md)<br>
+[Create and design pages](first-page.md)<br>  
+[Customize pages](customize-pages.md)
