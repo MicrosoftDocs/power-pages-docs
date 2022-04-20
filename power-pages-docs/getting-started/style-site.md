@@ -69,5 +69,5 @@ Once a new color is added to the color palette it can be used to color component
 ## See also
 
 [Use design studio](use-design-studio.md)<br>
-[Create and design pages](first-page.md)<br>  
+[Create and design pages](first-page.md)  
 [Customize pages](customize-pages.md)
