@@ -13,9 +13,13 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Create and manage Power Pages sites
+# Create your first site using Power Pages
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Power Pages provides you with a list of templates to choose from to quickly build your site and then customize and design it as per your requirements using the new Power Pages Design studio.
+
+1. Sign in to Power Pages.
 
 1. Select + Create a site from the Home page.
 
@@ -39,3 +43,4 @@ contributors:
 ## Next Steps
 
 [Use design studio](use-design-studio.md)<br>
+
