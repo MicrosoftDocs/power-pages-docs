@@ -31,7 +31,7 @@ Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a
 verb.
 -->
 
-# Tutorial: <do something with X> 
+# Tutorial: Add a multi-step form to your page
 
 <!-- 2. Introductory paragraph 
 Required. Lead with a light intro that describes, in customer-friendly language, 
@@ -109,9 +109,9 @@ customer can do.
 
 ## Next steps
 
-Advance to the next article to learn how to create...
+Advance to the next article to learn how to configure site authentication to allow users to login using Azure AD B2C.
 > [!div class="nextstepaction"]
-> [Next steps button](contribute-how-to-mvc-tutorial.md)
+> [Next steps](tutorial-setup-site-authentication.md)
 
 <!--
 Remove all the comments in this template before you sign-off or merge to the 

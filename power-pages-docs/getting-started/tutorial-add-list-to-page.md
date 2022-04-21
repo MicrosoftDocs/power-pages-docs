@@ -31,7 +31,7 @@ Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a
 verb.
 -->
 
-# Tutorial: <do something with X> 
+# Tutorial: Add a list to your page
 
 <!-- 2. Introductory paragraph 
 Required. Lead with a light intro that describes, in customer-friendly language, 
@@ -109,9 +109,9 @@ customer can do.
 
 ## Next steps
 
-Advance to the next article to learn how to create...
+Advance to the next article to learn how to display data securely on your Power Pages site.
 > [!div class="nextstepaction"]
-> [Next steps button](contribute-how-to-mvc-tutorial.md)
+> [Next steps](tutorial-display-data-securely.md)
 
 <!--
 Remove all the comments in this template before you sign-off or merge to the 

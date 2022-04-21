@@ -31,7 +31,7 @@ Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a
 verb.
 -->
 
-# Tutorial: <do something with X> 
+# Tutorial: Style your site 
 
 <!-- 2. Introductory paragraph 
 Required. Lead with a light intro that describes, in customer-friendly language, 
@@ -109,9 +109,9 @@ customer can do.
 
 ## Next steps
 
-Advance to the next article to learn how to create...
+Advance to the next article to learn how to add a grid to a page to display records from Dataverse.
 > [!div class="nextstepaction"]
-> [Next steps button](contribute-how-to-mvc-tutorial.md)
+> [Next steps](tutorial-add-list-to-page.md)
 
 <!--
 Remove all the comments in this template before you sign-off or merge to the 

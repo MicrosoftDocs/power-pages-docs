@@ -31,7 +31,7 @@ Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a
 verb.
 -->
 
-# Tutorial: <do something with X> 
+# Tutorial: Add custom CSS to your site 
 
 <!-- 2. Introductory paragraph 
 Required. Lead with a light intro that describes, in customer-friendly language, 
@@ -109,9 +109,7 @@ customer can do.
 
 ## Next steps
 
-Advance to the next article to learn how to create...
-> [!div class="nextstepaction"]
-> [Next steps button](contribute-how-to-mvc-tutorial.md)
+
 
 <!--
 Remove all the comments in this template before you sign-off or merge to the 
