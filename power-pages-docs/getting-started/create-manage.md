@@ -19,6 +19,9 @@ contributors:
 
 Power Pages provides you with a list of templates to choose from to quickly build your site and then customize and design it as per your requirements using the new Power Pages Design studio.
 
+> [TIP]
+> We have created a series of tutorials and videos for you to learn and use Power Pages where you start with a simple site and progressively add components and features as per your business requirements. Go to: [Power Pages Tutorials](/power-pages/tutorials/)
+
 1. Sign in to Power Pages.
 
 1. Select + Create a site from the Home page.

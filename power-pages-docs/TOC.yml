@@ -16,16 +16,17 @@
       href: getting-started/trial-faq.md
 - name: Get started
   items:
-    - name: Create Power Page sites
+    - name: Create your first site
       href: getting-started/create-manage.md             
+    - name: Get started with design studio
+      href: getting-started/use-design-studio.md
     - name: Learn hub
       href: getting-started/use-learnhub.md 
     - name: Power Pages community
       href: getting-started/community.md 
 - name: Design and build 
   items:
-  - name: Use design studio
-    href: getting-started/use-design-studio.md
+  
   - name: Use Pages workspace
     items:  
       - name: Create and design pages
