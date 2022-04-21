@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Configure authorized access to your site"
-description: Learn how to add lists to your Power Pages.
+description: Learn how to configure Azure AD B2C authentication provider to your Power Pages site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
@@ -72,7 +72,7 @@ Follow the H2 headings with a sentence about how the section contributes to the 
 ## [Section 1 heading]
 <!-- Introduction paragraph -->
 
-1. Sign in to the [<service> portal](url).
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. <!-- Step 2 -->
 1. <!-- Step n -->
 
@@ -96,7 +96,7 @@ state that there are no resources to clean up in this section.
 ## Clean up resources
 
 If you're not going to continue to use this application, delete
-<resources> with the following steps:
+ with the following steps:
 
 1. From the left-hand menu...
 1. ...click Delete, type...and then click Delete
