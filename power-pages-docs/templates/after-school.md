@@ -17,6 +17,8 @@ contributors:
 
 The After School Program template is designed to show you the capabilities of a registration portal application.  We have chosen the example of registering for after school classes; however, this template may be useful for any industry or organization wishing to create a registration portal.
 
+**LANDING PAGE PHOTO GOES HERE**
+
 There are two key users that the template is designed for:
 
 - The parent who is trying to register their children for after school classes.
@@ -35,7 +37,6 @@ As a parent who is looking to register for classes, you can:
 
 - Receive emails with information about the class, which you can use to modify your registration.
 
-![Overview of the end to end experience for a parent using the portal ](media/image1.png)
 
 ## School representatives
 
@@ -44,6 +45,3 @@ As a representative of the school, you can:
 - Maintain the course catalog.
 
 - Add and modify existing classes.
-
-![Graphical user interface  application  table Description automatically generated](media/image2.png)**  
-**
