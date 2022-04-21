@@ -25,8 +25,7 @@
     - name: Power Pages community
       href: getting-started/community.md 
 - name: Design and build 
-  items:
-  
+  items:  
   - name: Use Pages workspace
     items:  
       - name: Create and design pages
