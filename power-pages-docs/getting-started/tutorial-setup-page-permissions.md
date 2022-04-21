@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Display data securely on your site"
+title: "Tutorial: Setup page permissions"
 description: Learn how to add lists to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial

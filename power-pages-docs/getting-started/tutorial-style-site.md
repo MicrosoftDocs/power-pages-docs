@@ -1,10 +1,10 @@
 ---
-title: Add lists
+title: "Tutorial: Style your site"
 description: Learn how to add lists to your Power Pages.
 author: nickdoelman
-ms.topic: conceptual
-ms.custom: 
-ms.date: 04/18/2022
+ms.topic: tutorial
+ms.custom: template-tutorial
+ms.date: 04/21/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,55 +13,107 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add list
+<!--
+Remove all the comments in this template before you sign-off or merge to the 
+main branch.
+-->
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+<!--
+This template provides the basic structure of a tutorial article.
+See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
 
-List is a data-driven configuration to render a list of records without the need for a developer to surface the grid in the portal. Lists use Dataverse views to display records on the portal.
+To provide feedback on this template contact 
+[the templates workgroup](mailto:templateswg@microsoft.com).
+-->
 
-A list is a data-driven configuration that display data in a grid view on Power Pages sites. Lists on pages are created from Dataverse table views. Dataverse table views can be created using the [data workspace](use-data-workspace.md) or from [model-driven Power Apps](/power-apps/maker/model-driven-apps/accessing-view-definitions/). You can use them on pages or in conjunction with [forms](add-form.md) to build a complete web application.
+<!-- 1. H1 
+Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
+verb.
+-->
 
-To add a list:
+# Tutorial: <do something with X> 
 
-1. Open the [design studio](use-design-studio.md) to edit the content and components of the page.
+<!-- 2. Introductory paragraph 
+Required. Lead with a light intro that describes, in customer-friendly language, 
+what the customer will learn, or do, or accomplish. Answer the fundamental “why 
+would I want to do this?” question. Keep it short.
+-->
 
-1. Select the page you would like to edit.
+[Add your introductory paragraph]
 
-1. Select the section which you would like to add the list component.
+<!-- 3. Tutorial outline 
+Required. Use the format provided in the list below.
+-->
 
-1. Hover to any editable canvas area and select the **List** icon.
+In this tutorial, you learn how to:
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+> [!div class="checklist"]
+> * All tutorials include a list summarizing the steps to completion
+> * Each of these bullet points align to a key H2
+> * Use these green checkboxes in a tutorial
 
-1. You can select either to create a new list or use an existing list.
+<!-- 4. Prerequisites 
+Required. First prerequisite is a link to a free trial account if one exists. If there 
+are no prerequisites, state that no prerequisites are needed for this tutorial.
+-->
 
-1. If you choose new list, then you will need to enter the following criteria:
- 
-    :::image type="content" source="media/first-page/add-list.png" alt-text="The add a list to a page.":::
+## Prerequisites
 
-    | List | Description |
-    | ----------- | ----------- |
-    | Choose a table | The name of the table the views are loaded from. |
-    | Select Dataverse views | The view of the target table that will be rendered. To modify the columns within the view, you'll need to access Data Workspace |
-    | Name your copy of the selected list | The name of the list. |
+- <!-- An Azure account with an active subscription. [Create an account for free]
+  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
+- <!-- prerequisite 2 -->
+- <!-- prerequisite n -->
 
-    | Data | Description |
-    | ----------- | ----------- |
-    | Create a new record | Allows the user to create a new record. You'll need to select the target webpage/form/URL containing the new record. |
-    | View details | Allows the user to view details.  You'll need to select the webpage/form/URL containing the details. | 
-    | Delete record | Allows the user to delete the record. | 
+<!-- 5. H2s
+Required. Give each H2 a heading that sets expectations for the content that follows. 
+Follow the H2 headings with a sentence about how the section contributes to the whole.
+-->
 
-    | Settings | Description |
-    | - | - |
-    | Number of records per page | Determines how many records will be displayed per page. Note that if the table contains more records, navigation controls will appear for the end user to view the next or previous set of records. |
-    | Enable search in list | turns on the search feature for the list |
+## [Section 1 heading]
+<!-- Introduction paragraph -->
 
-    > [!NOTE]
-    > You will need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to view the data on the lists.
+1. Sign in to the [<service> portal](url).
+1. <!-- Step 2 -->
+1. <!-- Step n -->
 
-1. You can select the ellipse icon to duplicate the list, move it up/down within the section, or delete.
+## [Section 2 heading]
+<!-- Introduction paragraph -->
+1. <!-- Step 1 -->
+1. <!-- Step 2 -->
+1. <!-- Step n -->
 
-## See also
+## [Section n heading]
+<!-- Introduction paragraph -->
+1. <!-- Step 1 -->
+1. <!-- Step 2 -->
+1. <!-- Step n -->
 
+<!-- 6. Clean up resources
+Required. If resources were created during the tutorial. If no resources were created, 
+state that there are no resources to clean up in this section.
+-->
 
+## Clean up resources
 
+If you're not going to continue to use this application, delete
+<resources> with the following steps:
+
+1. From the left-hand menu...
+1. ...click Delete, type...and then click Delete
+
+<!-- 7. Next steps
+Required: A single link in the blue box format. Point to the next logical tutorial 
+in a series, or, if there are no other tutorials, to some other cool thing the 
+customer can do. 
+-->
+
+## Next steps
+
+Advance to the next article to learn how to create...
+> [!div class="nextstepaction"]
+> [Next steps button](contribute-how-to-mvc-tutorial.md)
+
+<!--
+Remove all the comments in this template before you sign-off or merge to the 
+main branch.
+-->

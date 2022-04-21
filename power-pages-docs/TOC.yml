@@ -18,10 +18,32 @@
       href: getting-started/trial-faq.md
 - name: Get started
   items:
-  - name: Learn hub
-    href: getting-started/use-learnhub.md  
-  - name: Create and manage sites
-    href: getting-started/create-manage.md
+    - name: Create Power Page sites
+      href: getting-started/create-manage.md
+    - name: Tutorials
+      items:
+      - name: "Tutorial: Add and design a page"
+        href: getting-started/tutorial-add-webpage.md
+      - name: "Tutorial: Style your site"  
+        href: getting-started/tutorial-style-site.md
+      - name: "Tutorial: Add a list to a page"
+        href: getting-started/tutorial-add-list-to-page.md
+      - name: "Tutorial: Display data securely on pages"
+        href: getting-started/tutorial-display-data-securely.md
+      - name: "Tutorial: Setup page permissions"
+        href: getting-started/tutorial-setup-page-permissions.md      
+      - name: "Tutorial: Add a form to a page"
+        href: getting-started/tutorial-add-form-to-page.md
+      - name: "Tutorial: Add a multi-step form to a page"
+        href: getting-started/tutorial-add-multi-step-form.md
+      - name: "Tutorial: Configure site authentication"
+        href: getting-started/tutorial-setup-site-authentication.md
+      - name: "Tutorial: Add custom styling to your site"
+        href: getting-started/tutorial-add-custom-style.md                          
+    - name: Learn hub
+      href: getting-started/use-learnhub.md  
+- name: Design and Build Power Pages 
+  items:
   - name: Use design studio
     href: getting-started/use-design-studio.md
   - name: Use Pages workspace
@@ -58,9 +80,9 @@
         href: getting-started/code-editor.md
       - name: Structure your site map
         href: getting-started/structure-site.md                    
-  - name: Style your page
+  - name: Use the Style Workspace
     href: getting-started/style-site.md
-  - name: How to use Data Workspace
+  - name: Use the Data Workspace
     href: getting-started/use-data-workspace.md
   - name: Getting started with templates
     href: getting-started/default-template.md
