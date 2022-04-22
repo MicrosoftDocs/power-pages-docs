@@ -1,22 +1,24 @@
 ---
-title: How to create and modify tables using Data Workspace
+title: Create and modify tables using Data Workspace
 description: Learn how to use Data Workspace to create Dataverse tables.
-author: nickdoelman
+author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2022
+ms.date: 04/22/2022
 ms.subservice:
-ms.author: ndoelman
-ms.reviewer:
+ms.author: prpadalw
+ms.reviewer: ndoelman
 contributors:
+    - pranita225
     - nickdoelman
     - ProfessorKendrick
 ---
+
 # How to create and modify Dataverse tables using data workspace
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**Data workspace** lets you easily model, visualize, and manage business data for the site with tables, forms, and lists. All the data and changes are stored in Dataverse. You can create and edit tables for the site and create new or edit existing model-driven forms and views. 
+In Data workspace left pane, you can see all Dataverse tables in the environment & those that are used in basic forms created in the site. You can also create a new table or open an existing one in the table designer to add new columns and rows in Table data tab.
 
 
 
