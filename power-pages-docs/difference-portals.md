@@ -22,7 +22,7 @@ Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker
 
 Power Pages provides the following new features currently in preview to allow customers to try with their existing and new Power Apps portals projects:
 
-- [New Design studio with productivity workspaces](getting-started/use-design-studio.md)
+- [New design studio with productivity workspaces](getting-started/use-design-studio.md)
 - [Improved trial and site creation experience](getting-started/trial-signup.md)
 - [Templates hub](templates/index.md)
 - [Learn hub](getting-started/use-learnhub.md)
