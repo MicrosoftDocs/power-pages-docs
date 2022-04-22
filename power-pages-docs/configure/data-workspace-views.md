@@ -52,32 +52,32 @@ In the **Data** panel, under the **Tables in this site** section, you will see a
 
 1. The view will appear in the view designer and allow you to configure the view by using the following features:
 
-| Action | Description |
-| - | - |
-| Back | Returns you to the previous screen. |
-| Add column | Displays the list of table columns and allows you to search, select or create a new table column and add it to the view. |
-| Undo | Undo your last update. |
-| Redo | Redo your last undo change. |
-| Validate | Run a checker to see if there would be any performance impacts with the current view configuration. |
-| Save | Save the view configuration. |
-| Save As | Save the view configuration with a different name. This will create a copy of the current view. |
-| Publish view | Published the view to allow it to be used when creating a list on a page. |
+    | Action | Description |
+    | - | - |
+    | Back | Returns you to the previous screen. |
+    | Add column | Displays the list of table columns and allows you to search, select or create a new table column and add it to the view. |
+    | Undo | Undo your last update. |
+    | Redo | Redo your last undo change. |
+    | Validate | Run a checker to see if there would be any performance impacts with the current view configuration. |
+    | Save | Save the view configuration. |
+    | Save As | Save the view configuration with a different name. This will create a copy of the current view. |
+    | Publish view | Published the view to allow it to be used when creating a list on a page. |
 
-You will also be able to select the column header and modify the following:
+1. You will also be able to select the column header and modify the following:
 
-:::image type="content" source="media/data-workspace/column-properties.png" alt-text="Text used by screen readers.":::
+    :::image type="content" source="media/data-workspace/column-properties.png" alt-text="Text used by screen readers.":::
 
-| Action | Description |
-| - | - |
-| Edit properties | Change the column width by entering the width in pixels |
-| Sort options | Depending on the data type, you can configure the sorting alphabetically (sort A to Z, sort Z to A), numerically (ascending or descending) or by date (older to newer, newer to older). |
-| Filter by | Allows you to specify a value to filter the view. |
-| Insert view column | Insert a table column to the view. |
-| Move Left/Move Right | Move the column to the left or right in the view layout. |
-| Edit table column | Edit the table column configuration. |
-| Remove | Remove the column from the view (does not delete the table column). |
+    | Action | Description |
+    | - | - |
+    | Edit properties | Change the column width by entering the width in pixels |
+    | Sort options | Depending on the data type, you can configure the sorting alphabetically (sort A to Z, sort Z to A), numerically (ascending or descending) or by date (older to newer, newer to older). |
+    | Filter by | Allows you to specify a value to filter the view. |
+    | Insert view column | Insert a table column to the view. |
+    | Move Left/Move Right | Move the column to the left or right in the view layout. |
+    | Edit table column | Edit the table column configuration. |
+    | Remove | Remove the column from the view (does not delete the table column). |
 
-## View Properties
+### View Properties
 
 Can you modify some of the view properties on the right panel such as the name and description.
 
@@ -91,7 +91,7 @@ You can also create filters for your view to display specific data. Select the *
 
 :::image type="content" source="media/data-workspace/view-filter-expression-editor.png" alt-text="View filter expression editor.":::
 
-See also [Create or edit filters in model-driven app views](power-apps/maker/model-driven-apps/create-edit-view-filters).
+See also [Create or edit filters in model-driven app views](/power-apps/maker/model-driven-apps/create-edit-view-filters).
 
 ### Download FetchXML
 
@@ -104,5 +104,4 @@ The **Download FetchXML** link will download your view definition as an [FetchXM
 ## See also
 
 [Add a list to a page](../getting-started/add-list.md)
-
 

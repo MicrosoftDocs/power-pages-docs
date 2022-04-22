@@ -63,7 +63,15 @@
   - name: Use the Style Workspace
     href: getting-started/style-site.md
   - name: Use the Data Workspace
-    href: getting-started/use-data-workspace.md
+    items:
+      - name: Data workspace overview
+      - href: getting-started/use-data-workspace.md
+      - name: Create and modify tables using Data Workspace
+      - href: configure/data-workspace-tables.md
+      - name: Create and modify views using Data Workspace
+      - href: configure/data-workspace-views.md
+      - name: Create and modify forms using Data Workspace
+      - href: getting-started/data-workspace-forms.md                  
   - name: Getting started with templates
     href: getting-started/default-template.md
   - name: Default template workspace
