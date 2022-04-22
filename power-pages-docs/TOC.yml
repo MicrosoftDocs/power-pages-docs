@@ -80,11 +80,11 @@
     items:
       - name: Data workspace overview
         href: getting-started/use-data-workspace.md
-      - name: Create and modify tables using Data Workspace
+      - name: Create and modify tables
         href: configure/data-workspace-tables.md
-      - name: Create and modify views using Data Workspace
+      - name: Create and modify views
         href: configure/data-workspace-views.md
-      - name: Create and modify forms using Data Workspace
+      - name: Create and modify forms
         href: configure/data-workspace-forms.md                    
   - name: Known issues
     href: getting-started/known-issues.md

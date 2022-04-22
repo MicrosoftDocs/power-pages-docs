@@ -1,5 +1,5 @@
 ---
-title: How to use Data Workspace
+title: Overview of Data Workspace
 description: Learn how to use Data Worksapce.
 author: pranita225
 ms.topic: conceptual
@@ -13,11 +13,13 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
 ---
-# How to use data workspace
+# Overview of data workspace
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 **Data workspace** lets you easily model, visualize, and manage business data for the site with tables, forms, and lists. All the data and changes are stored in Dataverse. You can create and edit tables for the site and create new or edit existing model-driven forms and views. 
+
+:::image type="content" source="media/data-workspace/table-designer.png" alt-text="Data workspace table designer.":::
 
 ## Tables
 
@@ -37,3 +39,5 @@ Forms tab displays the forms referenced in the basic forms and all other forms i
 
 For more info: [Create and modify forms using Data Workspace](../configure/data-workspace-forms.md)
 
+## Next Steps
+[Create and modify tables using Data Workspace](../configure/data-workspace-tables.md)
