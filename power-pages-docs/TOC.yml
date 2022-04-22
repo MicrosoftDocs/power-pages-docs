@@ -20,12 +20,26 @@
       href: getting-started/create-manage.md             
     - name: Get started with design studio
       href: getting-started/use-design-studio.md
+    - name: Templates
+      items:  
+        - name: Create sites using templates
+          href: templates/index.md
+        - name: Default template
+          href: templates/default-template.md
+        - name: After School template
+          href: templates/after-school.md
+        - name: Book a Meeting template
+          href: templates/book-a-meeting.md      
     - name: Learn hub
       href: getting-started/use-learnhub.md 
     - name: Power Pages community
       href: getting-started/community.md 
 - name: Design and build 
-  items:  
+  items:
+  - name: Dataverse and Power Pages
+    href: getting-started/what-is-dataverse.md
+  - name: Planning your Power Pages project
+    href: configure/planning-power-pages-project.md     
   - name: Use Pages workspace
     items:  
       - name: Create and design pages
@@ -63,29 +77,17 @@
   - name: Use the Style Workspace
     href: getting-started/style-site.md
   - name: Use the Data Workspace
-    href: getting-started/use-data-workspace.md
-  - name: Getting started with templates
-    href: getting-started/default-template.md
-  - name: Default template workspace
-    href: getting-started/default-template-workspace.md
-  - name: What is Dataverse?
-    href: getting-started/what-is-dataverse.md
-  - name: Providing external access
-    href: getting-started/external-access.md
-  - name: Feedback page
-    href: getting-started/feedback-page.md
+    items:
+      - name: Data workspace overview
+        href: getting-started/use-data-workspace.md
+      - name: Create and modify tables
+        href: configure/data-workspace-tables.md
+      - name: Create and modify views
+        href: configure/data-workspace-views.md
+      - name: Create and modify forms
+        href: configure/data-workspace-forms.md                    
   - name: Known issues
     href: getting-started/known-issues.md
-- name: Templates
-  items:  
-    - name: Create Power Pages sites using templates
-      href: templates/index.md
-    - name: Default template
-      href: templates/default-template.md
-    - name: After School template
-      href: templates/after-school.md
-    - name: Book a Meeting template
-      href: templates/book-a-meeting.md
 - name: Administer Power Pages
   items: 
     - name: Using the portals admin center
@@ -102,40 +104,34 @@
       href: admin/coe-portals.md            
 - name: Configure Power Pages
   items:
+    - name: Portal Management app overview
+      href: configure/portal-management-app.md
     - name: Configure progressive web apps
       href: configure/progressive-web-apps.md    
     - name: Advanced configuration
       href: configure/advanced-config.md
+- name: Customize and extend Power Pages
+  items:
     - name: Using VS Code and Power Platform CLI
-      href: configure/cli-tutorial.md
-    - name: Component framework
-      href: configure/component-framework.md
-    - name: Liquid overview
-      href: configure/liquid-overview.md
-    - name: Planning your Power Pages project
-      href: configure/planning-power-pages-project.md
-    - name: Portal Management app overview
-      href: configure/portal-management-app.md
-    - name: Overview of portals ALM
-      href: configure/portals-alm.md
+      href: configure/cli-tutorial.md   
+    - name: Javascript
+      href: customize-and-extend/javascript-overview.md
     - name: Web templates
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
       href: configure/web-api-overview.md
-- name: Customize and extend Power Pages
-  items: 
-    - name: Javascript
-      href: customize-and-extend/javascript-overview.md
-- name: Go live 
-  items: 
-    - name: Go live checklist
-      href: go-live/checklist.md
-    - name: Licensing
-      href: go-live/assign-licensing.md
+    - name: Component framework
+      href: configure/component-framework.md
+    - name: Liquid overview
+      href: configure/liquid-overview.md
+    - name: Overview of portals ALM
+      href: configure/portals-alm.md                  
 - name: Secure Power Pages
   items:
     - name: Power Pages security
       href: security/power-pages-security.md
+    - name: Providing external access
+      href: getting-started/external-access.md      
     - name: Configure authentication
       href: security/configure-portal-authentication.md
     - name: Configure web roles 
@@ -144,6 +140,12 @@
       href: security/page-security.md
     - name: Setting and managing table permissions
       href: security/table-permissions.md
+- name: Go live 
+  items: 
+    - name: Go live checklist
+      href: go-live/checklist.md
+    - name: Licensing
+      href: go-live/assign-licensing.md      
 - name: Tutorials
   items:
   - name: "Tutorial: Add and design a page"
