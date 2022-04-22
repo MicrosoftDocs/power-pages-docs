@@ -18,60 +18,55 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In Data workspace left pane, you can see all Dataverse tables in the environment & those that are used in basic forms created in the site. You can also create a new table or open an existing one in the table designer to add new columns and rows in Table data tab.
+The [Data workspace](..\getting-started\use-data-workspace.md) allows you to create and modify Dataverse tables directly in the Power Pages design studio. Tables to be used to create powerful web applications in Power Pages.
 
+## Use Data workspace
 
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-### Column types
+1. Select a site and choose **Edit**.
 
-You can add the following column types to a table:
+1. On the left toolbelt, select **Data**.
 
-- text
+## Table designer
 
-- number
+In the **Data** panel, under the **Tables in this site** section, you will see a list of tables that are used in basic forms created in the site. The **Other tables** section is a list of all Dataverse tables in the environment.
 
-- email
+:::image type="content" source="media/data-workspace/table-designer.png" alt-text="Data workspace table designer.":::
 
-- URL
+## Create a new table
 
-- choice
+1. Select **+** beside the **Tables in this site** label.
 
-- date
+1. A window will appear, enter in a name for your table. Expanding the **Advanced settings** will allow you to modify the plural name of your table.
 
-- lookup
+    > [!NOTE]
+    > The table will be created as part of the *default* solution.
 
-- phone
+1. Select **Create**.
 
-- decimal
+The table will be created in Dataverse. You can now begin to configure your table.
 
-- formula
+## Configure a table
 
-- yes/no
+1. Select the table you want to edit from either **Tables in this site** or **Other tables**.
 
-The following column types are not available to add to tables in Data workspace:
+1. The table will appear in the designer and allow you to modify any existing data rows. In addition, the following options are available;
 
-- multiline text
+| Action | Description |
+| - | - |
+| New row | Creates a blank row and allows you to enter in a new data row. |
+| New column | Creates a new data column for the table. You will need to specify the name, data type and format along with other column configuration options. |
+| Show/hide columns | Allows you to select which columns are visible or not in the table designer. |
+| Refresh | Reloads the table data. |
+| Edit table properties | Allows you to change the name and other advanced properties of the table. |
 
-- date & time
+## Next steps
 
-- ticket symbol
+[Create and modify Dataverse views using data workspace](data-workspace-views.md)
+[Create and modify forms using Data Workspace](data-workspace-forms.md)
 
-- duration
+## See also
 
-- time-zone
+[Tables in Dataverse](/power-apps/maker/data-platform/entity-overview/)
 
-- language
-
-- currency
-
-- customer
-
-- file
-
-- floating point number
-
-- image
-
-- table relationship
-
-To access these functionalities, you can open a Table in Power Apps using **Edit in Power Apps** feature.
