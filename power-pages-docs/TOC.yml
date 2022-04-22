@@ -20,6 +20,16 @@
       href: getting-started/create-manage.md             
     - name: Get started with design studio
       href: getting-started/use-design-studio.md
+    - name: Templates
+      items:  
+        - name: Create sites using templates
+          href: templates/index.md
+        - name: Default template
+          href: templates/default-template.md
+        - name: After School template
+          href: templates/after-school.md
+        - name: Book a Meeting template
+          href: templates/book-a-meeting.md      
     - name: Learn hub
       href: getting-started/use-learnhub.md 
     - name: Power Pages community
@@ -65,13 +75,13 @@
   - name: Use the Data Workspace
     items:
       - name: Data workspace overview
-      - href: getting-started/use-data-workspace.md
+        href: getting-started/use-data-workspace.md
       - name: Create and modify tables using Data Workspace
-      - href: configure/data-workspace-tables.md
+        href: configure/data-workspace-tables.md
       - name: Create and modify views using Data Workspace
-      - href: configure/data-workspace-views.md
+        href: configure/data-workspace-views.md
       - name: Create and modify forms using Data Workspace
-      - href: getting-started/data-workspace-forms.md                  
+        href: configure/data-workspace-forms.md                  
   - name: Getting started with templates
     href: getting-started/default-template.md
   - name: Default template workspace
@@ -84,16 +94,6 @@
     href: getting-started/feedback-page.md
   - name: Known issues
     href: getting-started/known-issues.md
-- name: Templates
-  items:  
-    - name: Create Power Pages sites using templates
-      href: templates/index.md
-    - name: Default template
-      href: templates/default-template.md
-    - name: After School template
-      href: templates/after-school.md
-    - name: Book a Meeting template
-      href: templates/book-a-meeting.md
 - name: Administer Power Pages
   items: 
     - name: Using the portals admin center
