@@ -56,14 +56,14 @@ The table will be created in Dataverse. You can now begin to configure your tabl
 | Action | Description |
 | - | - |
 | New row | Creates a blank row and allows you to enter in a new data row. |
-| New column | Creates a new data column for the table. You will need to specify the name, data type and format along with other column configuration options. |
+| New column | Creates a new data column for the table. You will need to specify the name, data type and format along with other column configuration options. See [Types of columns](/power-apps/maker/data-platform/types-of-fields) for a complete list of Dataverse column types. |
 | Show/hide columns | Allows you to select which columns are visible or not in the table designer. |
 | Refresh | Reloads the table data. |
 | Edit table properties | Allows you to change the name and other advanced properties of the table. |
 
 ## Next steps
 
-[Create and modify Dataverse views using data workspace](data-workspace-views.md)
+[Create and modify Dataverse views using data workspace](data-workspace-views.md)<br>
 [Create and modify forms using Data Workspace](data-workspace-forms.md)
 
 ## See also
