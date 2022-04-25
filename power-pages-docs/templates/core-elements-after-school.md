@@ -37,27 +37,26 @@ There are two sections for page navigation:
 
 The following tables are available for you to customize:
 
-Parent registering for a course
+#### Parent registering for a course
 
-INSERT TABLE FOR PARENT 
+| **Pages** | **Description** |
+|-----------|-----------------|
+| Home      | |
+| Unregister Attendee | |
+| Add Attendee Profile | | 
+| Attendee Information | |
+| Edit Attendee Information | |
+| My Registrations | |
+| Registration Success | |
+| View Course Details | |
 
-School representative
 
-INSERT TABLE FOR SCHOOL REP
+#### School representative
 
-
-| **User persona**                | **Pages**                 | **Description** |
-|---------------------------------|---------------------------|----------------|
-| **Parent registering for a course** | Home                      |                |
-|                                 | Unregister Attendee       |                |
-|                                 | Add Attendee Profile      |                |
-|                                 | Attendee Information      |                |
-|                                 | Edit Attendee Information |                |
-|                                 | My Registrations          |                |
-|                                 | Registration Success      |                |
-|                                 | View Course Details       |                |
-| **School Representative**          | C1 Courses Home           |                |
-|                                 | Edit Course               |                |
-|                                 | C1 Delete Course          |                |
-|                                 | Create Course             |                |
-|                                 | Duplicate Course          |                |
+| **Pages** | **Description** |
+|-----------|-----------------|
+| C1 Course Home | |
+| Edit Course | |
+| C1 Delete Course | |
+| Create Course | |
+| Duplicate Course | |
