@@ -13,9 +13,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Data workspace for After School Program 
+# Data workspace for After School Program
 
-The solution template comes with a rich set of sample data that you can edit from within the Maker Studio.  
+The solution template comes with a rich set of sample data that you can edit from within the design studio.
 With the Data workspace, you can look at the tables that are part of the solution, edit the records, and add new records.
 
 | Pages                 | Tables                            |
@@ -34,16 +34,14 @@ With the Data workspace, you can look at the tables that are part of the solutio
 | Registration Success  | Contact and Registration          |
 | View Course Details   | Courses and Contact               |
 
-![A graphical user interface displaying the styling options for tables in Portals ](media/image43.png)
-
-To preview the changes, return head back to the Pages workspace.  Once there, sync the changes and select the preview button.
+To preview the changes, return to the Pages workspace.  Once there, sync the changes and select the preview button.
 
 ## Styling Workspace for After School Program
 
 After School Program comes with a custom theme that's mapped to one of the themes out of the box. There are many themes to choose from. Select the one that you like the best.
 
-![A graphical user interface displaying the Portals styling workspace ](media/image44.png)
+** ADD IMAGE HERE **
 
 Use the pages drop down to see what the theme would look like across pages.
 
-![A graphical user interface displaying the styling options available within Portals ](media/image45.png)
+** ADD IMAGE HERE **
