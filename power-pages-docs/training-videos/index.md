@@ -23,7 +23,7 @@ The following video guides will show you how to build and configure a Power Page
 
 ### Create site navigation
 
-## Setup your brand kit
+## Set up your brand kit
 
 ## Create a page with a list
 
