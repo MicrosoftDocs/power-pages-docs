@@ -19,13 +19,15 @@ The After School Program template is designed to show you the capabilities of a 
 
 **LANDING PAGE PHOTO GOES HERE**
 
+## Users and Administrators
+
 There are two key users that the template is designed for:
 
 - The parent who is trying to register their children for after school classes.
 
 - The school representative is looking to maintain a list of courses, edit existing courses, and add new courses to the catalog.
 
-## Parents
+### Parents
 
 As a parent who is looking to register for classes, you can:
 
@@ -37,11 +39,37 @@ As a parent who is looking to register for classes, you can:
 
 - Receive emails with information about the class, which you can use to modify your registration.
 
-
-## School representatives
+### School representatives
 
 As a representative of the school, you can:
 
 - Maintain the course catalog.
 
 - Add and modify existing classes.
+
+## Makers
+
+This template includes basic forms, lists, and code components, as well as the following customizable tables:
+
+| **Parent Pages** | **Description** |
+|-----------|-----------------|
+| Home      | |
+| Unregister Attendee | |
+| Add Attendee Profile | | 
+| Attendee Information | |
+| Edit Attendee Information | |
+| My Registrations | |
+| Registration Success | |
+| View Course Details | |
+
+| **School Representative Pages** | **Description** |
+|-----------|-----------------|
+| C1 Course Home | |
+| Edit Course | |
+| C1 Delete Course | |
+| Create Course | |
+| Duplicate Course | |
+
+## Professional Developers
+
+This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **VS Code** to view and modify the source code.
