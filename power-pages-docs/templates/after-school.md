@@ -1,6 +1,6 @@
 ---
 title: After School template
-description: template
+description: Learn about the after school template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 

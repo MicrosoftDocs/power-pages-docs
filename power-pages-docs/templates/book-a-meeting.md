@@ -1,6 +1,6 @@
 ---
 title: Book a Meeting template
-description: template
+description: Learn about the Book a Meeting template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
