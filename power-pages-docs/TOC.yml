@@ -150,6 +150,8 @@
       href: go-live/assign-licensing.md      
 - name: Tutorials
   items:
+  - name: Tutorial Overview
+    href: getting-started/tutorial-overview.md
   - name: "Tutorial: Add and design a page"
     href: getting-started/tutorial-add-webpage.md
   - name: "Tutorial: Style your site"  
