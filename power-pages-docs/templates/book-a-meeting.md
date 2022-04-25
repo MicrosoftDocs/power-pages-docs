@@ -49,9 +49,20 @@ NEED CONTENT FOR THESE TABLES
 
 | **Bank Customer Pages** | **Description** |
 |-----------|-----------------|
+| Home | |
+| Book an appointment| |
+| Cancel appointment | |
+| Reschedule appointment | |
 
 | **Bank Representatives Pages** | **Description** |
 |-----------|-----------------|
+| Home | |
+| Specialties | |
+| Cancel appointment| |
+| Edit appointment | |
+| Edit unavailability | |
+| Reschedule appointment | |
+| Create unavailability | |
 
 
 ## Professional developers
