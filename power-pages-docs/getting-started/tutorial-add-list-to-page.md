@@ -48,9 +48,9 @@ Required. Use the format provided in the list below.
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
+> * Create a table
+> * Create a view
+> * Add a list to the page
 
 <!-- 4. Prerequisites 
 Required. First prerequisite is a link to a free trial account if one exists. If there 
@@ -59,30 +59,23 @@ are no prerequisites, state that no prerequisites are needed for this tutorial.
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
-
-## [Section 1 heading]
+## Create a table
 <!-- Introduction paragraph -->
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. <!-- Step 2 -->
 1. <!-- Step n -->
 
-## [Section 2 heading]
+## Create a view
 <!-- Introduction paragraph -->
 1. <!-- Step 1 -->
 1. <!-- Step 2 -->
 1. <!-- Step n -->
 
-## [Section n heading]
+## Add a list to the page
 <!-- Introduction paragraph -->
 1. <!-- Step 1 -->
 1. <!-- Step 2 -->
@@ -93,27 +86,6 @@ Required. If resources were created during the tutorial. If no resources were cr
 state that there are no resources to clean up in this section.
 -->
 
-## Clean up resources
-
-If you're not going to continue to use this application, delete
-with the following steps:
-
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
-
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
-
 ## Next steps
 
-Advance to the next article to learn how to display data securely on your Power Pages site.
-> [!div class="nextstepaction"]
-> [Next steps](tutorial-display-data-securely.md)
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+Advance to the next article to learn how to 

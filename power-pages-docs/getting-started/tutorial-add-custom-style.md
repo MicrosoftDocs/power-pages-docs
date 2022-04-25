@@ -33,85 +33,30 @@ verb.
 
 # Tutorial: Add custom CSS to your site 
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
-
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
+The style workspace allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own completely custom CSS themes.  
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> * Add custom CSS
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- A custom theme created using your favorite CSS editor.
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
+> [!NOTE]  
+> Any custom theme you create must be compatible with Bootstrap v3.
 
-## [Section 1 heading]
-<!-- Introduction paragraph -->
+## Add custom CSS to your site
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
-
-## Clean up resources
-
-If you're not going to continue to use this application, delete
-<!--resources--> with the following steps:
-
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
-
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
+1. In the Design Studio, launch the Portal Management app.
+1. Navigate to the Web Files in the Content section.
+1. Create a new Web File.  Make sure that the partial URL has a css extension.
+1. Upload your custom CSS file.
 
 ## Next steps
 
-
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+Advance to the next article to
