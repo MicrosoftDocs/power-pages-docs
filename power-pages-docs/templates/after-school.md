@@ -19,7 +19,7 @@ The After School Program template is designed to show you the capabilities of a 
 
 **LANDING PAGE PHOTO GOES HERE**
 
-## Users and Administrators
+## Users and administrators
 
 There are two key users that the template is designed for:
 
@@ -70,6 +70,6 @@ This template includes basic forms, lists, and code components, as well as the f
 | Create Course | |
 | Duplicate Course | |
 
-## Professional Developers
+## Professional developers
 
 This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **VS Code** to view and modify the source code.
