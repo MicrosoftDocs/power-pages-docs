@@ -86,6 +86,8 @@
         href: configure/data-workspace-views.md
       - name: Create and modify forms
         href: configure/data-workspace-forms.md                    
+  - name: Use Setup Workspace
+    href: configure/setup-workspace.md
   - name: Known issues
     href: getting-started/known-issues.md
 - name: Administer Power Pages
@@ -100,7 +102,7 @@
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy 
       href: admin/compliance-privacy.md
-    - name: Center of Excellence Toolkit 
+    - name: Governance 
       href: admin/coe-portals.md            
 - name: Configure Power Pages
   items:
@@ -148,6 +150,8 @@
       href: go-live/assign-licensing.md      
 - name: Tutorials
   items:
+  - name: Tutorial Overview
+    href: getting-started/tutorial-overview.md
   - name: "Tutorial: Add and design a page"
     href: getting-started/tutorial-add-webpage.md
   - name: "Tutorial: Style your site"  

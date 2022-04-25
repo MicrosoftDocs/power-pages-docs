@@ -5,7 +5,7 @@ author: nickdoelman
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/23/2022
+ms.date: 04/25/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -20,6 +20,8 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on how to use VS Code ad PAC cli, go to [Use Microsoft Power Platforms CLI with Portals](/powerapps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
+For detailed information on how to use VS Code and the Power Platform CLI, go to [Use Microsoft Power Platforms CLI with Portals](/powerapps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
+
+:::image type="content" source="media/cli-tutorial/vs-code-pac-cli.png" alt-text="Using PAC CLI and VS Code.":::
 
 [!INCLUDE[cc-faqs](../includes/cc-faqs.md)]
