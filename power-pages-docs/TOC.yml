@@ -6,8 +6,8 @@
     href: introduction.md
   - name: Power Pages capabilities
     href: capabilities.md
-  - name: Power Pages community
-    href: getting-started/community.md
+  - name: Power Pages and Power Apps portals
+    href: difference-portals.md          
 - name:  Try Power Pages
   items: 
     - name: Sign up for a trial
@@ -16,66 +16,78 @@
       href: getting-started/trial-faq.md
 - name: Get started
   items:
-  - name: Create your first Power Pages site
-    items:
+    - name: Create your first site
+      href: getting-started/create-manage.md             
+    - name: Get started with design studio
+      href: getting-started/use-design-studio.md
+    - name: Templates
+      items:  
+        - name: Create sites using templates
+          href: templates/index.md
+        - name: Default template
+          href: templates/default-template.md
+        - name: After School template
+          href: templates/after-school.md
+        - name: Book a Meeting template
+          href: templates/book-a-meeting.md      
+    - name: Learn hub
+      href: getting-started/use-learnhub.md 
+    - name: Power Pages community
+      href: getting-started/community.md 
+- name: Design and build 
+  items:
+  - name: Dataverse and Power Pages
+    href: getting-started/what-is-dataverse.md
+  - name: Planning your Power Pages project
+    href: configure/planning-power-pages-project.md     
+  - name: Use Pages workspace
+    items:  
       - name: Create and design pages
         href: getting-started/first-page.md
-      - name: Create and manage pages
-        href: getting-started/create-manage.md
-      - name: Customize your Power Pages site
-        href: getting-started/customize-pages.md 
-      - name: Add components
-        items: 
-          - name: Add button
-            href: getting-started/add-button.md
-          - name: Add form
-            href: getting-started/add-form.md
-          - name: Create custom forms
-            href: getting-started/advanced-forms.md
-          - name: Add iFrame
-            href: getting-started/add-iframe.md
-          - name: Add image
-            href: getting-started/add-image.md
-          - name: Add list
-            href: getting-started/add-list.md
-          - name: Add Power BI
-            href: getting-started/add-power-bi.md
-          - name: Add spacer 
-            href: getting-started/add-spacer.md
+      - name: Customize pages
+        href: getting-started/customize-pages.md
+      - name: Add components to pages
+        items:
           - name: Add sections
             href: getting-started/add-sections.md
           - name: Add text
-            href: getting-started/add-text.md
+            href: getting-started/add-text.md         
+          - name: Add button
+            href: getting-started/add-button.md
+          - name: Add image
+            href: getting-started/add-image.md
           - name: Add video
             href: getting-started/add-video.md
-  - name: Style your page
+          - name: Add spacer 
+            href: getting-started/add-spacer.md                                    
+          - name: Add Power BI
+            href: getting-started/add-power-bi.md
+          - name: Add list
+            href: getting-started/add-list.md
+          - name: Add form
+            href: getting-started/add-form.md
+          - name: Add iFrame
+            href: getting-started/add-iframe.md            
+          - name: Add advanced forms
+            href: getting-started/advanced-forms.md
+      - name: Use code editor
+        href: getting-started/code-editor.md
+      - name: Structure your site map
+        href: getting-started/structure-site.md                    
+  - name: Use the Style Workspace
     href: getting-started/style-site.md
-  - name: Structure your page
-    href: getting-started/structure-site.md
-  - name: How to use Data Workspace
-    href: getting-started/use-data-workspace.md
-  - name: Getting started with templates
-    href: getting-started/default-template.md
-  - name: Default template workspace
-    href: getting-started/default-template-workspace.md
-  - name:  Tour maker studio
-    href: getting-started/tour-maker-studio.md
-  - name: What is Dataverse?
-    href: getting-started/what-is-dataverse.md
-  - name: Providing external access
-    href: getting-started/external-access.md
-  - name: Feedback page
-    href: getting-started/feedback-page.md
+  - name: Use the Data Workspace
+    items:
+      - name: Data workspace overview
+        href: getting-started/use-data-workspace.md
+      - name: Create and modify tables
+        href: configure/data-workspace-tables.md
+      - name: Create and modify views
+        href: configure/data-workspace-views.md
+      - name: Create and modify forms
+        href: configure/data-workspace-forms.md                    
   - name: Known issues
     href: getting-started/known-issues.md
-- name: Templates
-  items:  
-    - name: Default template
-      href: templates/default-template.md
-    - name: After School template
-      href: templates/after-school.md
-    - name: Book a Meeting template
-      href: templates/book-a-meeting.md
 - name: Administer Power Pages
   items: 
     - name: Using the portals admin center
@@ -86,38 +98,40 @@
       href: admin/update-portal-solution.md
     - name: View error log 
       href: admin/view-portal-error-log.md
+    - name: Compliance and privacy 
+      href: admin/compliance-privacy.md
+    - name: Center of Excellence Toolkit 
+      href: admin/coe-portals.md            
 - name: Configure Power Pages
-  items:  
-    - name:  Advanced configuration
-      href: configure/advanced-config.md
-    - name: Using the VS Code and the PAC cli
-      href: configure/cli-tutorial.md
-    - name: Component framework
-      href: configure/component-framework.md
-    - name: Liquid overview
-      href: configure/liquid-overview.md
-    - name: Planning your Power Pages project
-      href: configure/planning-power-pages-project.md
+  items:
     - name: Portal Management app overview
       href: configure/portal-management-app.md
-    - name: Overview of portals ALM
-      href: configure/portals-alm.md
+    - name: Configure progressive web apps
+      href: configure/progressive-web-apps.md    
+    - name: Advanced configuration
+      href: configure/advanced-config.md
+- name: Customize and extend Power Pages
+  items:
+    - name: Using VS Code and Power Platform CLI
+      href: configure/cli-tutorial.md   
+    - name: Javascript
+      href: customize-and-extend/javascript-overview.md
     - name: Web templates
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
       href: configure/web-api-overview.md
-- name: Customize and extend Power Pages
-  items: 
-    - name: Javascript
-      href: customize-and-extend/javascript-overview.md
-- name: Go live 
-  items: 
-    - name: Go live checklist
-      href: go-live/checklist.md
-    - name: Licensing
-      href: go-live/assign-licensing.md
+    - name: Component framework
+      href: configure/component-framework.md
+    - name: Liquid overview
+      href: configure/liquid-overview.md
+    - name: Overview of portals ALM
+      href: configure/portals-alm.md                  
 - name: Secure Power Pages
   items:
+    - name: Power Pages security
+      href: security/power-pages-security.md
+    - name: Providing external access
+      href: getting-started/external-access.md      
     - name: Configure authentication
       href: security/configure-portal-authentication.md
     - name: Configure web roles 
@@ -126,6 +140,32 @@
       href: security/page-security.md
     - name: Setting and managing table permissions
       href: security/table-permissions.md
+- name: Go live 
+  items: 
+    - name: Go live checklist
+      href: go-live/checklist.md
+    - name: Licensing
+      href: go-live/assign-licensing.md      
+- name: Tutorials
+  items:
+  - name: "Tutorial: Add and design a page"
+    href: getting-started/tutorial-add-webpage.md
+  - name: "Tutorial: Style your site"  
+    href: getting-started/tutorial-style-site.md
+  - name: "Tutorial: Add a list to a page"
+    href: getting-started/tutorial-add-list-to-page.md
+  - name: "Tutorial: Display data securely on pages"
+    href: getting-started/tutorial-display-data-securely.md
+  - name: "Tutorial: Setup page permissions"
+    href: getting-started/tutorial-setup-page-permissions.md      
+  - name: "Tutorial: Add a form to a page"
+    href: getting-started/tutorial-add-form-to-page.md
+  - name: "Tutorial: Add a multi-step form to a page"
+    href: getting-started/tutorial-add-multi-step-form.md
+  - name: "Tutorial: Configure site authentication"
+    href: getting-started/tutorial-setup-site-authentication.md
+  - name: "Tutorial: Add custom styling to your site"
+    href: getting-started/tutorial-add-custom-style.md
 - name: Training videos
   href: training-videos/index.md
 

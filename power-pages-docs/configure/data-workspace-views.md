@@ -1,0 +1,107 @@
+---
+title: Create and modify views using Data Workspace
+description: Learn how to use Data Workspace to create and modify Dataverse views.
+author: pranita225
+ms.topic: conceptual
+ms.custom: 
+ms.date: 04/22/2022
+ms.subservice:
+ms.author: prpadalw
+ms.reviewer: ndoelman
+contributors:
+    - pranita225
+    - nickdoelman
+    - ProfessorKendrick
+---
+
+# Create and modify Dataverse views using data workspace
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Views are a subset of table data. Create a view to select specific table columns & rows that you would like to display in a site. The Views tab displays views referenced in the lists and all other views in the environment. It only shows view types that are supported in portals. Clicking on an existing view (or creating a new one) launches the **Power Apps view designer** where you can define the view. Views are a foundation of portals lists.
+
+The [Data workspace](..\getting-started\use-data-workspace.md) allows you to create and modify Dataverse table views directly in the Power Pages design studio.
+
+## Use Data workspace
+
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+
+1. Select a site and choose **Edit**.
+
+1. On the left toolbelt, select **Data**.
+
+## Table view designer
+
+In the **Data** panel, under the **Tables in this site** section, you will see a list of tables that are used in basic forms created in the site. The **Other tables** section is a list of all Dataverse tables in the environment.
+
+## Create or modify a view
+
+1. Select the table that you want to either create or modify a view for from **Tables in this site** or **Other tables**.
+
+1. Select the **Views** tab from the table designer.
+
+1. To create a new view, select **New View**.
+
+    1. Enter a name and a description for your view.
+
+    1. Select **Create**.
+
+1. To modify an existing view, select the view from **Views in this site** or **Views available for this table**. 
+
+    :::image type="content" source="media/data-workspace/view-designer.png" alt-text="View designer.":::
+
+1. The view will appear in the view designer and allow you to configure the view by using the following features:
+
+    | Action | Description |
+    | - | - |
+    | Back | Returns you to the previous screen. |
+    | Add column | Displays the list of table columns and allows you to search, select or create a new table column and add it to the view. |
+    | Undo | Undo your last update. |
+    | Redo | Redo your last undo change. |
+    | Validate | Run a checker to see if there would be any performance impacts with the current view configuration. |
+    | Save | Save the view configuration. |
+    | Save As | Save the view configuration with a different name. This will create a copy of the current view. |
+    | Publish view | Published the view to allow it to be used when creating a list on a page. |
+
+1. You will also be able to select the column header and modify the following:
+
+    :::image type="content" source="media/data-workspace/column-properties.png" alt-text="Text used by screen readers.":::
+
+    | Action | Description |
+    | - | - |
+    | Edit properties | Change the column width by entering the width in pixels |
+    | Sort options | Depending on the data type, you can configure the sorting alphabetically (sort A to Z, sort Z to A), numerically (ascending or descending) or by date (older to newer, newer to older). |
+    | Filter by | Allows you to specify a value to filter the view. |
+    | Insert view column | Insert a table column to the view. |
+    | Move Left/Move Right | Move the column to the left or right in the view layout. |
+    | Edit table column | Edit the table column configuration. |
+    | Remove | Remove the column from the view (does not delete the table column). |
+
+### View Properties
+
+Can you modify some of the view properties on the right panel such as the name and description.
+
+### Sort by
+
+You can add a series of columns to be used to sort the view.
+
+### Filter views
+
+You can also create filters for your view to display specific data. Select the **Edit filters** link to open the expression builder and begin to specify columns and column groupings to filter your view data.
+
+:::image type="content" source="media/data-workspace/view-filter-expression-editor.png" alt-text="View filter expression editor.":::
+
+See also [Create or edit filters in model-driven app views](/power-apps/maker/model-driven-apps/create-edit-view-filters).
+
+### Download FetchXML
+
+The **Download FetchXML** link will download your view definition as an [FetchXML](/power-apps/developer/data-platform/use-fetchxml-construct-query) file that can be used by pro-developers when creating [web templates](store-content-web-templates.md) for custom page layouts.
+
+## Next steps
+
+[Create and modify forms using Data Workspace](data-workspace-forms.md)
+
+## See also
+
+[Add a list to a page](../getting-started/add-list.md)
+

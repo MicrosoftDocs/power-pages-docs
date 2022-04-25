@@ -4,7 +4,7 @@ description: Learn how to add spacers to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/15/2022
+ms.date: 04/18/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,31 +13,31 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add spacer
+# Spacer
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Allows user to add blank space between components.
+A spacer will allow you to add space between sections on your page to allow for different layout and design options. 
 
-To add button:
+## Adding a spacer:
 
-1. Open the [Power Apps portals Studio](/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
-
-1. Ensure that the toggle for New Design Studio is on and then navigate to the Pages Workspace.
+1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
 1. Select the page you would like to edit.
 
-1. Select the Section which you would like to add Component into
+1. Select the section which you would like to add the spacer component.
 
-1. Hover to any editable canvas area and select the + icon.
+1. Hover to any editable canvas area and select the click the **Spacer** icon.
 
-1. Select **Spacer** and spacer object will be inserted
+    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
-1. To format **Spacer**, click the spacer object and a menu bar will appear.
+1. To format **Spacer**, select the spacer object.
+
+    :::image type="content" source="media/first-page/add-spacer.png" alt-text="Spacer options.":::
 
     | Option | Description |
     | ----------- | ----------- |
     | Background | Changes the color of the background according to the color palette for the selected styling template. |
-    | Gear | Modifies the spacer height.  By default, spacer width is set to the column width of the section. |
-    | + | Provides options for the user to duplicate the spacer, move it up/down within the section, or deletes the spacer. |
+    | Spacer height | Modifies the spacer height.  By default, spacer width is set to the column width of the section. |
+    | Ellipse | Provides options for the user to duplicate the spacer, move it up/down within the section, or deletes the spacer. |
 
