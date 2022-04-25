@@ -43,8 +43,12 @@ A page is one of the core objects of the website and builds a hierarchy of the w
 
 You can preview your site by selecting **Preview** from the command bar. Select **Desktop** to preview your page in a browser or can the QR code using a mobile app to view the page on a mobile device.
 
-    :::image type="content" source="media/first-page/preview-page.png" alt-text="Preview a page from the design studio.":::
+:::image type="content" source="media/first-page/preview-page.png" alt-text="Preview a page from the design studio.":::
 
 ## Next Steps
 
 [Customize pages](customize-pages.md)
+
+## See Also
+
+[Tutorial: Add and design a page](tutorial-add-webpage.md)
