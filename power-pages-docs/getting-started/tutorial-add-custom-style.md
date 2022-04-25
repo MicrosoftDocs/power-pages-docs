@@ -12,25 +12,6 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
 ---
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Add custom CSS to your site 
 
 The style workspace allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own completely custom CSS themes.  
