@@ -66,8 +66,11 @@ Use the steps below to add a list to a web page in order to view information sto
 1. Choose the table and view you'd like from the dropdown menus.
 1. Select **Preview**.
 
+> [!NOTE]
+> When you first view the page, you will see a message displayed that you do not have permissions to view the data.  Security is very important when building sites.  
+
 See [Add a list](../getting-started/add-list) for more information on how to add lists to your pages.
 
 ## Next steps
 
-Advance to the next article to learn how to 
+Advance to the next tutorial on [Table Permissions](tutorial-setup-page-permissions.md) for information on how to allow users to view data securely.
