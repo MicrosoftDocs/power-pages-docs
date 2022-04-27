@@ -1,6 +1,6 @@
 ---
 title: Overview of portals ALM
-description: Learn how to use the Portal Management app.
+description: Learn how to use ALM in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 

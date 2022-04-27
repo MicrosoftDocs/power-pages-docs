@@ -138,8 +138,10 @@
       href: security/create-web-roles.md
     - name: Page security
       href: security/page-security.md
-    - name: Setting and managing table permissions
+    - name: Configure table permissions
       href: security/table-permissions.md
+    - name: Assign table permissions
+      href: security/assign-table-permissions.md      
 - name: Go live 
   items: 
     - name: Go live checklist
