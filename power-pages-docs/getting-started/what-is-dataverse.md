@@ -37,6 +37,6 @@ Using the Data workspace, a maker can use pre-existing or new Dataverse model-dr
 
 ## See also
 
-[Create and modify tables](data-workspace-tables.md)<br>
-[Create and modify views](data-workspace-views.md)<br>
-[Create and modify forms](data-workspace-forms.md)
+[Create and modify tables](../configure/data-workspace-tables.md)<br>
+[Create and modify views](../configure/data-workspace-views.md)<br>
+[Create and modify forms](../configure/data-workspace-forms.md)
