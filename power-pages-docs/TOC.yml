@@ -89,7 +89,7 @@
   - name: Use Setup Workspace
     href: configure/setup-workspace.md
   - name: Known issues
-    href: getting-started/known-issues.md
+    href: known-issues.md
 - name: Administer Power Pages
   items: 
     - name: Using the portals admin center
