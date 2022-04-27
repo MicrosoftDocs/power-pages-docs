@@ -64,7 +64,7 @@ Default Web Roles Explained
 
 Default Settings / Open Registration
 
-<link to Profile Authentication article>
+<!--link--> to Profile Authentication article>
 	
 ## Data Modeling Considerations
 
