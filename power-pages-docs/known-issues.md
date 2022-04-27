@@ -1,5 +1,5 @@
 ---
-title: Knwon Issues
+title: Known Issues
 description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
