@@ -20,7 +20,7 @@ contributors:
 
 Access to Dataverse records is automatically restricted in Power Pages when using forms, lists, Liquid, the Portals Web API, and other components accessing Dataverse tables.
 
-To allow access to Dataverse records in Power Pages sites, you will need to configure **Table permissions** and associate the table permissions to [web roles](create-web-roles.md). 
+To allow access to Dataverse records in Power Pages sites, you will need to configure **table permissions** and associate the table permissions to [web roles](create-web-roles.md). 
 
 ## How to configure table permissions
 
@@ -55,7 +55,7 @@ You can create table permissions using the following methods:
 
 1. In the Portal Management app, choose **Table Permissions** in the **Security** section.
 
-:::image type="content" source="media/table-permissions/pma-table-permissions.png" alt-text="Access table permissions using the Portals Management app.":::
+    :::image type="content" source="media/table-permissions/pma-table-permissions.png" alt-text="Access table permissions using the Portals Management app.":::
 
 ## Available access types
 
