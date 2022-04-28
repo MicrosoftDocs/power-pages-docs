@@ -58,8 +58,8 @@ The following are the basic forms, lists, code components, and customizable tabl
 |----------|----------------|-----------------|
 | Home |||
 | Book an appointment| Advanced/multi-step form <br>There's a calendar picker within the form. | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
-| Cancel appointment | Basic form | Cancel appointment | Customer cancels an appointment that was booked. |
-| Reschedule appointment | Advanced/multi-step form | C2 Reschedule appointment | Customer reschedules an appointment that was booked. |
+| Cancel appointment | Basic form | Customer cancels an appointment that was booked. |
+| Reschedule appointment | Advanced/multi-step form | Customer reschedules an appointment that was booked. |
 
 #### Bank Representative
 
@@ -67,11 +67,11 @@ The following are the basic forms, lists, code components, and customizable tabl
 |---------|-----------------|-----------------|
 | Home | List styled as a calendar | |
 | Specialties | List styled as subgrids | |
-| Cancel appointment| Basic form | Appointment | Bank representative cancels an appointment that was booked. |
+| Cancel appointment| Basic form | Bank representative cancels an appointment that was booked. |
 | Edit appointment | Basic form | Bank representative edits an appointment that was booked. | 
 | Edit unavailability | Basic form | Bank representative edits availability. | 
 | Reschedule appointment | Advanced/multi-step form | Bank representative schedules an appointment that was booked. |
-| Create unavailability | Basic form | Calendar block | Bank representative creates unavailability. |
+| Create unavailability | Basic form | Bank representative creates unavailability. |
 
 
 ## Professional developers
