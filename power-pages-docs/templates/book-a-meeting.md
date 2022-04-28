@@ -43,20 +43,22 @@ NEED CONTENT FOR THIS SECTION
 
 ## Makers
 
-This template includes basic forms, lists, code components, and the following customizable tables:
+This template includes basic forms, lists, code components, and customizable tables.
 
-### Bank Customer
+### Tables
 
-| **Page** | **Components in page** | **Form description** | 
+#### Bank Customer
+
+| **Page** | **Components** | **Description** | 
 |-------------------------|---------------|----------------------|
-| Home | |||
+| Home |||
 | Book an appointment| Advanced/multi-step form <br>There's a calendar picker within the form. | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
 | Cancel appointment | Basic form | Cancel appointment | Customer cancels an appointment that was booked. |
 | Reschedule appointment | Advanced/multi-step form | C2 Reschedule appointment | Customer reschedules an appointment that was booked. |
 
-### Bank Representative
+#### Bank Representative
 
-| **Page** | **Components in page** | **Form description** | 
+| **Page** | **Components** | **Description** | 
 |-------------------------|---------------|----------------------|
 | Home | List styled as a calendar | |
 | Specialties | List styled as subgrids | |
