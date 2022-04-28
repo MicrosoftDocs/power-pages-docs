@@ -17,7 +17,7 @@ contributors:
 
 Book a meeting is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative.  The scheduling principle will apply to any industry or organization looking to stand up a scheduling portal.
 
-**LANDING PAGE PHOTO GOES HERE**
+:::image type="content" source="media/book-a-meeting/meeting.png alt-text="The Book a Meeting landing page in design studio."::: 
 
 ## Users and administrators
 
