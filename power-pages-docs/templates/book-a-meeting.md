@@ -60,7 +60,7 @@ This template includes basic forms, lists, code components, and the following cu
 |-------------------------|---------------|----------------------|
 | Home | List styled as a calendar | |
 | Specialties | List styled as subgrids | |
-| Cancel appointment| Basic form | Appointment | Bank representative cancels an appointment that was booked. | |
+| Cancel appointment| Basic form | Appointment | Bank representative cancels an appointment that was booked. |
 | Edit appointment | Basic form | Bank representative edits an appointment that was booked. | 
 | Edit unavailability | Basic form | Bank representative edits availability. | 
 | Reschedule appointment | Advanced/multi-step form | Bank representative schedules an appointment that was booked. |
