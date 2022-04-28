@@ -45,24 +45,22 @@ NEED CONTENT FOR THIS SECTION
 
 This template includes basic forms, lists, and code components, as well as the following customizable tables:
 
-NEED CONTENT FOR THESE TABLES
+| **Bank Customer Pages** | **Form Name** | **Form Description** | 
+|-------------------------|---------------|----------------------|
+| Home | |||
+| Book an appointment| Advanced/multi-step form <br>There is a calendar picker within the form. | C2 Book an appointment | Customer inputs services interested in, location (virtual or bankbranch), availability, schedules appointment, etc. |
+| Cancel appointment | Basic form | Cancel appointment | Customer cancels an appointment that was booked. |
+| Reschedule appointment | Advanced/multi-step form | C2 Reschedule appointment | Customer reschedules an appointment that was booked. |
 
-| **Bank Customer Pages** | **Description** |
-|-----------|-----------------|
-| Home | |
-| Book an appointment| |
-| Cancel appointment | |
-| Reschedule appointment | |
-
-| **Bank Representatives Pages** | **Description** |
-|-----------|-----------------|
-| Home | |
-| Specialties | |
-| Cancel appointment| |
-| Edit appointment | |
-| Edit unavailability | |
-| Reschedule appointment | |
-| Create unavailability | |
+| **Bank Representatives Pages** | **Form Name** | **Form Description** | 
+|-------------------------|---------------|----------------------|
+| Home | List styled as a calendar | |
+| Specialties | List styled as subgrids | |
+| Cancel appointment| Basic form | Appointment | Bank representative cancels an appointment that was booked. | |
+| Edit appointment | Basic form | C1 Edit appointment | Bank representative edits an appointment that was booked. | 
+| Edit unavailability | Basic form | C1 Create appointment | Bank representative edits availability. | 
+| Reschedule appointment | Advanced/multi-step form | C1 Reschedule appointment | Bank representative schedules an appointment that was booked. |
+| Create unavailability | Basic form | Calendar block | Bank representative creates unavilability. |
 
 
 ## Professional developers
