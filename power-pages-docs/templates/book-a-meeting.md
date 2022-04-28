@@ -55,7 +55,7 @@ The following are the basic forms, lists, code components, and customizable tabl
 #### Bank Customer
 
 | **Page** | **Components** | **Description** | 
-|-------------------------|---------------|----------------------|
+|----------|----------------|-----------------|
 | Home |||
 | Book an appointment| Advanced/multi-step form <br>There's a calendar picker within the form. | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
 | Cancel appointment | Basic form | Cancel appointment | Customer cancels an appointment that was booked. |
@@ -64,7 +64,7 @@ The following are the basic forms, lists, code components, and customizable tabl
 #### Bank Representative
 
 | **Page** | **Components** | **Description** | 
-|-------------------------|---------------|----------------------|
+|---------|-----------------|-----------------|
 | Home | List styled as a calendar | |
 | Specialties | List styled as subgrids | |
 | Cancel appointment| Basic form | Appointment | Bank representative cancels an appointment that was booked. |
