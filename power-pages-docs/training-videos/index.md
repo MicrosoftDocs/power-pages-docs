@@ -33,21 +33,19 @@ The following series of videos will demonstrate how to create a page displaying 
 
 In this video, you will learn how to create a table using the Data workspace.
 
-:::image type="content" source="media/create-a-table-thumbnail.png" alt-text="Create a table thumbnail.":::
-
-[Create a table](https://www.microsoft.com/videoplayer/embed/RE4VIlD)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
 
 ### Create a view
 
 This video will show you how to create a view for a table using Data workspace.
 
-[Create a view](https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
 
 ### Add a list to page
 
 Now that you have created you table and view, lets now add a list to a page.
 
-[Add list to a page](https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
 
 ### See also
 
@@ -69,7 +67,8 @@ Now that you have created you table and view, lets now add a list to a page.
 
 In this video, we will create a form using the Data workspace.
 
-[Create a form](https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev]
+
 
 ### Add a code component
 
