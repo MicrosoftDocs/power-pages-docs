@@ -67,7 +67,7 @@ Your trial environment includes many of the same features as the paid version. T
 ## Additional resources
 
 - [Explore training on Microsoft Learn](/learn/browse/?terms=power%20apps%20portals)
-- [Watch videos on the product playlist](../training-videos)
+- [Watch videos on the product playlist](../training-videos/index.md)
 - [Power Pages Tutorials](tutorial-overview.md)
 - [Trial FAQ](trial-faq.md)
 
