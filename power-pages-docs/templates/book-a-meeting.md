@@ -46,7 +46,7 @@ As a bank representative, you can do the following seamlessly:
 
 ## Makers
 
-Makers are able to use the [design studio](../getting-started/use-design-studio)  to modify the template for specific needs.
+Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
 
 The following are the basic forms, lists, code components, and customizable tables provided in the template.
 
