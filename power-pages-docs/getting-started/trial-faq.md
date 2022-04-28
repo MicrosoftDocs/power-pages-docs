@@ -59,7 +59,9 @@ After you sign up for the trial, you will arrive on the app's main screen. The m
 
 ### How long does the trial last?
 
-The Power Pages trial lasts 30 days. As [mentioned below](<!--Name of this page-->.md#how-do-i-extend-the-trial), you can extend the trial once.
+The Power Pages trial lasts 30 days. 
+
+<!--As [mentioned below](<!--Name of this page.md#how-do-i-extend-the-trial), you can extend the trial once.-->
 
 ### How do I remove sample data from the trial?
 
