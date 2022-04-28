@@ -27,11 +27,31 @@ The following video guides will show you how to build and configure a Power Page
 
 ## Create a page with a list
 
+The following series of videos will demonstrate how to create a page displaying records from Dataverse.
+
 ### Create a table
+
+In this video, you will learn how to create a table using the Data workspace.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
 
 ### Create a view
 
+This video will show you how to create a view for a table using Data workspace.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
+
 ### Add a list to page
+
+Now that you have created you table and view, lets now add a list to a page.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
+
+### See also
+
+- [Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md)
+- [Use Data workspace](../getting-started/use-data-workspace.md)
+- [Add a list component](../getting-started/add-list.md)
 
 ## Configure table permissions
 
@@ -44,6 +64,11 @@ The following video guides will show you how to build and configure a Power Page
 ## Create a page with a simple form
 
 ### Create a form
+
+In this video, we will create a form using the Data workspace.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev]
+
 
 ### Add a code component
 
