@@ -45,15 +45,15 @@ NEED CONTENT FOR THIS SECTION
 
 This template includes basic forms, lists, and code components, as well as the following customizable tables:
 
-| **Bank Customer Pages** | **Form Name** | **Form Description** | 
-|-------------------------|---------------|----------------------|
+| **Bank customer pages** | **Form name** | **Components in page** | **Form description** | 
+|-------------------------|---------------|----------------------|-----------|
 | Home | |||
 | Book an appointment| Advanced/multi-step form <br>There is a calendar picker within the form. | C2 Book an appointment | Customer inputs services interested in, location (virtual or bankbranch), availability, schedules appointment, etc. |
 | Cancel appointment | Basic form | Cancel appointment | Customer cancels an appointment that was booked. |
 | Reschedule appointment | Advanced/multi-step form | C2 Reschedule appointment | Customer reschedules an appointment that was booked. |
 
-| **Bank Representatives Pages** | **Form Name** | **Form Description** | 
-|-------------------------|---------------|----------------------|
+| **Bank representatives pages** | **Form name** | **Components in page** | **Form description** | 
+|-------------------------|---------------|----------------------|----------|
 | Home | List styled as a calendar | |
 | Specialties | List styled as subgrids | |
 | Cancel appointment| Basic form | Appointment | Bank representative cancels an appointment that was booked. | |
