@@ -31,19 +31,24 @@ There are two key users that the template is designed for:
 
 As a customer of a bank, you can do the following seamlessly:
 
-- Book an appointment with a certain bank representative, in a certain bank branch and the time that best suits the customer.
+- Book an appointment with a specific bank representative at a specific bank branch and select your preferred time.
 
-- The customer can also cancel and reschedule the appointments via links present in the email that they receive upon booking confirmation.
+- Cancel and reschedule your appointments via links provided in the email booking confirmation.
 
 ### Bank representatives
 
 As a bank representative, you can do the following seamlessly:
 
-NEED CONTENT FOR THIS SECTION
+- Manage your schedule.
+- Create, update, and manage appointments.
+- Block your schedule to indicate time away and other commitments.
+- Receive email notifications for appointment changes.
 
 ## Makers
 
-This template includes basic forms, lists, code components, and customizable tables.
+Makers are able to use the [design studio](../getting-started/use-design-studio)  to modify the template for specific needs.
+
+The following are the basic forms, lists, code components, and customizable tables provided in the template.
 
 ### Tables
 
