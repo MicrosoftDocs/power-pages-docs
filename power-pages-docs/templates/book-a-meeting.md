@@ -15,7 +15,7 @@ contributors:
 
 # Book a Meeting template
 
-Book a meeting is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative; however, the scheduling principle will apply to any industry or organization looking to stand up a scheduling portal.
+Book a meeting is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative.  The scheduling principle will apply to any industry or organization looking to stand up a scheduling portal.
 
 **LANDING PAGE PHOTO GOES HERE**
 
@@ -47,23 +47,23 @@ This template includes basic forms, lists, code components, and the following cu
 
 ### Bank Customer
 
-| **Page** | **Form name** | **Components in page** | **Form description** | 
-|-------------------------|---------------|----------------------|-----------|
+| **Page** | **Components in page** | **Form description** | 
+|-------------------------|---------------|----------------------|
 | Home | |||
-| Book an appointment| Advanced/multi-step form <br>There's a calendar picker within the form. | C2 Book an appointment | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
+| Book an appointment| Advanced/multi-step form <br>There's a calendar picker within the form. | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
 | Cancel appointment | Basic form | Cancel appointment | Customer cancels an appointment that was booked. |
 | Reschedule appointment | Advanced/multi-step form | C2 Reschedule appointment | Customer reschedules an appointment that was booked. |
 
 ### Bank Representative
 
-| **Page** | **Form name** | **Components in page** | **Form description** | 
-|-------------------------|---------------|----------------------|----------|
+| **Page** | **Components in page** | **Form description** | 
+|-------------------------|---------------|----------------------|
 | Home | List styled as a calendar | |
 | Specialties | List styled as subgrids | |
 | Cancel appointment| Basic form | Appointment | Bank representative cancels an appointment that was booked. | |
-| Edit appointment | Basic form | C1 Edit appointment | Bank representative edits an appointment that was booked. | 
-| Edit unavailability | Basic form | C1 Create appointment | Bank representative edits availability. | 
-| Reschedule appointment | Advanced/multi-step form | C1 Reschedule appointment | Bank representative schedules an appointment that was booked. |
+| Edit appointment | Basic form | Bank representative edits an appointment that was booked. | 
+| Edit unavailability | Basic form | Bank representative edits availability. | 
+| Reschedule appointment | Advanced/multi-step form | Bank representative schedules an appointment that was booked. |
 | Create unavailability | Basic form | Calendar block | Bank representative creates unavailability. |
 
 
