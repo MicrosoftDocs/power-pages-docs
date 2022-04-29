@@ -71,7 +71,7 @@ This template includes basic forms, lists, and code components, as well as custo
 | **Pages** | **Components** | **Description** |
 |-----------|----------------|-----------------|
 | Courses Home | List view | Displays the courses that are available. |
-| Edit Course | Basic form | Basic form | Ability to modify existing course(s). |
+| Edit Course | Basic form | Ability to modify existing course(s). |
 | Delete Course | Basic form | Ability to delete a course. |
 | Create Course | Basic form | Ability to create a course. |
 | Duplicate Course | Basic form | Ability to duplicate a course. |
