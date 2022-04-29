@@ -4,7 +4,7 @@ description: Learn how to provide access to external audiences.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/07/2022
+ms.date: 04/29/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -17,7 +17,12 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-TO DO: Add content
+[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
+For detailed information, go to the Power Apps documentation:
+
+- [Configure contacts](/power-apps/maker/portals/configure/configure-contacts)
+- [Invite contacts](/power-apps/maker/portals/configure/invite-contacts)
 
 
 

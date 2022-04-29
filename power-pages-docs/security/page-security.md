@@ -1,6 +1,6 @@
 ---
 title: Page permissions
-description: Learn how to secure your Power Pages sites.
+description: Learn how to secure your web pages using page permissions.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 

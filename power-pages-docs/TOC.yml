@@ -131,7 +131,7 @@
     - name: Power Pages security
       href: security/power-pages-security.md
     - name: Providing external access
-      href: getting-started/external-access.md      
+      href: security/external-access.md      
     - name: Configure authentication
       href: security/configure-portal-authentication.md
     - name: Configure web roles 
