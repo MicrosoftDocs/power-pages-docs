@@ -19,9 +19,19 @@ The following video guides will show you how to build and configure a Power Page
 
 ## Design your home page
 
+The following videos will show you how to create a page in your site and arrange your site hierarchy.
+
 ### Create page
 
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
 ### Create site navigation
+
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+### See also
+- [Create and design pages](../getting-started/first-page.md)
+- [Tutorial: Add and design a page](../getting-started/tutorial-add-webpage.md)
 
 ## Set up your brand kit
 
