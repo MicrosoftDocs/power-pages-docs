@@ -129,11 +129,11 @@
 - name: Secure Power Pages
   items:
     - name: Power Pages security
-      href: security/power-pages-security.md
-    - name: Providing external access
-      href: security/external-access.md      
+      href: security/power-pages-security.md  
     - name: Configure authentication
       href: security/configure-portal-authentication.md
+    - name: Providing external access
+      href: security/external-access.md         
     - name: Configure web roles 
       href: security/create-web-roles.md
     - name: Page security
