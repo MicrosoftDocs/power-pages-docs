@@ -51,35 +51,35 @@ As a representative of the school, you can:
 
 Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
 
-The following are the basic forms, lists, code components, and customizable tables provided in the template.
+The following are the customizable tables, basic forms, lists, and code components provided in the template.
 
 ### Customer pages
 
 The following pages are utilized by **Parents**:
 
-| **Pages** | **Components** | **Description** |
-|-----------|----------------|-----------------|
-| Home      | List view | Displays courses and key details about each course. |
-| Unregister Attendee | Basic form | Ability to unregister children who are currently registered. |
-| Add Attendee Profile | Basic form | Ability to add an attendee. | 
-| Attendee Information | List view | View details of children who are registered. |
-| Edit Attendee Profile | Basic form | Edit the information for children in "My Children." |
-| My Registrations | List view | View courses that attendees are registered for. |
-| Registration Success | | |
-| View Course Details | | |
+| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
+|-----------|------------|-----------|-----------|-----------------|
+| Home      | | | List view |Displays courses and key details about each course. |
+| Unregister Attendee | |Basic form | | Ability to unregister children who are currently registered. |
+| Add Attendee Profile |  | Basic form | |Ability to add an attendee. | 
+| Attendee Information | | | List view  | View details of children who are registered. |
+| Edit Attendee Profile | | Basic form | | Edit the information for children in "My Children." |
+| My Registrations |  | | List view | View courses that attendees are registered for. |
+| Registration Success | | | | |
+| View Course Details | | | | |
 
 ### Admin pages
 
 The following pages are utilized by **School Representatives**:
 
-| **Pages** | **Components** | **Description** |
-|-----------|----------------|-----------------|
-| Courses Home | List view | Displays the courses that are available. |
-| Edit Course | Basic form | Ability to modify existing course(s). |
-| Delete Course | Basic form | Ability to delete a course. |
-| Create Course | Basic form | Ability to create a course. |
-| Duplicate Course | Basic form | Ability to duplicate a course. |
-| View Registrations | List view | View registrations for attendees. |
+| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
+|-----------|------------|-----------|-----------|-----------------|
+| Courses Home || | List view | Displays the courses that are available. |
+| Edit Course | | Basic form | | Ability to modify existing course(s). |
+| Delete Course | | Basic form | | Ability to delete a course. |
+| Create Course | | | Basic form | Ability to create a course. |
+| Duplicate Course | | Basic form | | Ability to duplicate a course. |
+| View Registrations | | | List view | View registrations for attendees. |
 
 ## Professional developers
 

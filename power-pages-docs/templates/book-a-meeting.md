@@ -55,26 +55,26 @@ The following are the basic forms, lists, code components, and customizable tabl
 The following pages are utilized by **Bank Customers**:
 
 
-| **Page** | **Components** | **Description** | 
-|----------|----------------|-----------------|
+| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
+|-----------|------------|-----------|-----------|-----------------|
 | Home |||
-| Book an appointment| Advanced/multi-step form <br>There's a calendar picker within the form. | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
-| Cancel appointment | Basic form | Customer cancels an appointment that was booked. |
-| Reschedule appointment | Advanced/multi-step form | Customer reschedules an appointment that was booked. |
+| Book an appointment| | | Advanced/multi-step form <br>There's a calendar picker within the form. | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
+| Cancel appointment | | | Basic form | Customer cancels an appointment that was booked. |
+| Reschedule appointment | | |Advanced/multi-step form | Customer reschedules an appointment that was booked. |
 
 ### Admin pages
 
 The following pages are utilized by **Bank Representatives**:
 
-| **Page** | **Components** | **Description** | 
-|---------|-----------------|-----------------|
-| Home | List styled as a calendar | |
-| Specialties | List styled as subgrids | |
-| Cancel appointment| Basic form | Bank representative cancels an appointment that was booked. |
-| Edit appointment | Basic form | Bank representative edits an appointment that was booked. | 
-| Edit unavailability | Basic form | Bank representative edits availability. | 
-| Reschedule appointment | Advanced/multi-step form | Bank representative schedules an appointment that was booked. |
-| Create unavailability | Basic form | Bank representative creates unavailability. |
+| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
+|-----------|------------|-----------|-----------|-----------------|
+| Home | | | List styled as a calendar | |
+| Specialties | | | List styled as subgrids | |
+| Cancel appointment| | Basic form | | Bank representative cancels an appointment that was booked. |
+| Edit appointment | | Basic form | | Bank representative edits an appointment that was booked. | 
+| Edit unavailability | | Basic form | | Bank representative edits availability. | 
+| Reschedule appointment | |Advanced/multi-step form  | | Bank representative schedules an appointment that was booked. |
+| Create unavailability | | Basic form | | Bank representative creates unavailability. |
 
 
 ## Professional developers
