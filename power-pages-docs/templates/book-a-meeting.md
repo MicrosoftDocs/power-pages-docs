@@ -19,7 +19,7 @@ Book a meeting is designed to show you the capabilities of a scheduling template
 
 :::image type="content" source="media/meeting.png" alt-text="The Book a Meeting landing page in design studio."::: 
 
-## Users and administrators
+## Users
 
 There are two key users that the template is designed for:
 
@@ -50,9 +50,10 @@ Makers are able to use the [design studio](../getting-started/use-design-studio.
 
 The following are the basic forms, lists, code components, and customizable tables provided in the template.
 
-### Tables
+### Customer pages
 
-#### Bank Customer
+The following pages are utilized by **Bank Customers**:
+
 
 | **Page** | **Components** | **Description** | 
 |----------|----------------|-----------------|
@@ -61,7 +62,9 @@ The following are the basic forms, lists, code components, and customizable tabl
 | Cancel appointment | Basic form | Customer cancels an appointment that was booked. |
 | Reschedule appointment | Advanced/multi-step form | Customer reschedules an appointment that was booked. |
 
-#### Bank Representative
+### Admin pages
+
+The following pages are utilized by **Bank Representatives**:
 
 | **Page** | **Components** | **Description** | 
 |---------|-----------------|-----------------|

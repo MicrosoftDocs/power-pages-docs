@@ -19,7 +19,7 @@ The After School Program template is designed to show you the capabilities of a 
 
 :::image type="content" source="media/school.png" alt-text="The After School template landing page.":::
 
-## Users and administrators
+## Users
 
 There are two key users that the template is designed for:
 
@@ -49,11 +49,13 @@ As a representative of the school, you can:
 
 ## Makers
 
-This template includes basic forms, lists, and code components, and customizable tables.
+Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
 
-### Tables
+The following are the basic forms, lists, code components, and customizable tables provided in the template.
 
-#### Parents
+### Customer pages
+
+The following pages are utilized by **Parents**:
 
 | **Pages** | **Components** | **Description** |
 |-----------|----------------|-----------------|
@@ -66,7 +68,9 @@ This template includes basic forms, lists, and code components, and customizable
 | Registration Success | | |
 | View Course Details | | |
 
-#### School Representatives
+### Admin pages
+
+The following pages are utilized by **School Representatives**:
 
 | **Pages** | **Components** | **Description** |
 |-----------|----------------|-----------------|
