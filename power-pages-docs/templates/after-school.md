@@ -4,7 +4,7 @@ description: Learn about the after school template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/28/2022
+ms.date: 04/11/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -15,9 +15,9 @@ contributors:
 
 # After School template
 
-The After School Program template is designed to show you the capabilities of a registration portal application.  We have chosen the example of registering for after school classes.  This template may be useful for any industry or organization wishing to create a registration portal.
+The After School Program template is designed to show you the capabilities of a registration portal application.  We have chosen the example of registering for after school classes; however, this template may be useful for any industry or organization wishing to create a registration portal.
 
-**LANDING PAGE PHOTO GOES HERE**
+
 
 ## Users and administrators
 
@@ -49,30 +49,33 @@ As a representative of the school, you can:
 
 ## Makers
 
-This template includes basic forms, lists, code components, and the following customizable tables:
+This template includes basic forms, lists, and code components, as well as customizable tables.
 
-### Parents
+### Tables
 
-| **Pages** | **Components in page** | **Description** |
-|-------------------------|---------------|----------------------|
-| Home | List View| Displays courses and key details about each course. |
-| Unregister Attendee | Basic form| Ability to unregister children who are currently registered. |
-| Add Attendee Profile | Basic form| Ability to add an attendee. |
-| Attendee Information | List view| View details of children who are registered. |
-| Edit Attendee Information | Basic form|
-| My Registrations | List view|
-| Registration Success | |
-| View Course Details | |
+#### Parents
 
-### School Representatives
+| **Pages** | **Components** | **Description** |
+|-----------|----------------|-----------------|
+| Home      | List view | Displays courses and key details about each course. |
+| Unregister Attendee | Basic form | Ability to unregister children who are currently registered. |
+| Add Attendee Profile | Basic form | Ability to add an attendee. | 
+| Attendee Information | List view | View details of children who are registered. |
+| Edit Attendee Profile | Basic form | Edit the information for children in "My Children." |
+| My Registrations | List view | View courses that attendees are registered for. |
+| Registration Success | | |
+| View Course Details | | |
 
-| **Pages** | **Components in page** | **Description** |
-|-------------------------|---------------|----------------------|
-| C1 Course Home | |
-| Edit Course | |
-| C1 Delete Course | |
-| Create Course | |
-| Duplicate Course | |
+#### School Representatives
+
+| **Pages** | **Components** | **Description** |
+|-----------|----------------|-----------------|
+| Courses Home | List view | Displays the courses that are available. |
+| Edit Course | Basic form | Basic form | Ability to modify existing course(s). |
+| Delete Course | Basic form | Ability to delete a course. |
+| Create Course | Basic form | Ability to create a course. |
+| Duplicate Course | Basic form | Ability to duplicate a course. |
+| View Registrations | List view | View registrations for attendees. |
 
 ## Professional developers
 
