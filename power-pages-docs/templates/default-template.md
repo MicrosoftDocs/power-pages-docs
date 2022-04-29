@@ -17,7 +17,7 @@ contributors:
 
 The Default template provides the basis for customizable pages.  
 
-:::image type="content" source="media/default.png" alt-text="":::
+:::image type="content" source="media/default.png" alt-text="The default template landing page inside design studio.":::
 
 ## Makers
 
