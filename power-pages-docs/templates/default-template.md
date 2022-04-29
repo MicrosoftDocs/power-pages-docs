@@ -15,17 +15,25 @@ contributors:
 
 # Default template
 
-The Default template provides the basis for customizable pages.  
+The Default template provides basic building blocks for you to create custom pages. The simple navigation is an easily updated page and subpage structure, with common pages already created for you to use as-is or modify to meet you specific needs.
 
 :::image type="content" source="media/default.png" alt-text="The default template landing page inside design studio.":::
 
 ## Makers
 
-Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
+Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.  
 
-The following are the basic forms, lists, code components, and customizable tables provided in the template.
+### Existing template content
 
+The following are the customizable tables, basic forms, lists, and code components provided in the template.
 
-## Professional developers
+| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
+|-----------|------------|-----------|-----------|-----------------|
+| Contact Us| Feedback | simple contact us form | | Simple feedback form. |
 
-This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **VS Code** to view and modify the source code.
+Modify the page structure, change text, and add components using the drag-and-drop page builder.  
+
+#### See also 
+
+- [Tutorial: Add a page to your Power Pages site](../getting-started/tutorial-add-webpage.md)
+- [Create and design pages](../getting-started/first-page.md)
