@@ -15,7 +15,7 @@ contributors:
 
 # After School template
 
-The After School Program template is designed to show you the capabilities of a registration portal application.  We have chosen the example of registering for after school classes; however, this template may be useful for any industry or organization wishing to create a registration portal.
+The After School Program template is designed to show you the capabilities of a registration portal application.  We have chosen the example of registering for after school classes.  This template may be useful for any industry or organization wishing to create a registration portal.
 
 :::image type="content" source="media/school.png" alt-text="The After School template landing page.":::
 
@@ -49,7 +49,7 @@ As a representative of the school, you can:
 
 ## Makers
 
-This template includes basic forms, lists, and code components, as well as customizable tables.
+This template includes basic forms, lists, and code components, and customizable tables.
 
 ### Tables
 
