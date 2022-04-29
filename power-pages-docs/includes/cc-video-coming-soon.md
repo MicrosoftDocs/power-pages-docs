@@ -1,1 +1,3 @@
-Video content for this topic coming soon!
+> [!TIP]
+> Video content for this topic coming soon!
+
