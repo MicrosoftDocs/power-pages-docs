@@ -14,7 +14,7 @@ contributors:
 ---
 # Tutorial: Add custom CSS to your site 
 
-The style workspace allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own completely custom CSS themes.  
+The style workspace allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.  
 
 In this tutorial, you learn how to:
 
@@ -33,11 +33,7 @@ In this tutorial, you learn how to:
 ## Add custom CSS to your site
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. In the Design Studio, launch the Portal Management app.
+1. In the design studio, launch the Portal Management app.
 1. Navigate to the Web Files in the Content section.
 1. Create a new Web File.  Make sure that the partial URL has a css extension.
 1. Upload your custom CSS file.
-
-## Next steps
-
-Advance to the next article to
