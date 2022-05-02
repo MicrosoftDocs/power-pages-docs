@@ -58,9 +58,9 @@ The following pages are utilized by **Bank Customers**:
 | **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
 |-----------|------------|-----------|-----------|-----------------|
 | Home |||
-| Book an appointment| | | Advanced/multi-step form <br>There's a calendar picker within the form. | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
-| Cancel appointment | | | Basic form | Customer cancels an appointment that was booked. |
-| Reschedule appointment | | |Advanced/multi-step form | Customer reschedules an appointment that was booked. |
+| Book an appointment| | Book an appointment form | | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
+| Cancel appointment | | Cancel appointment form | | Customer cancels an appointment that was booked. |
+| Reschedule appointment | | Reschedule appointment form | | Customer reschedules an appointment that was booked. |
 
 ### Admin pages
 
@@ -70,11 +70,11 @@ The following pages are utilized by **Bank Representatives**:
 |-----------|------------|-----------|-----------|-----------------|
 | Home | | | List styled as a calendar | |
 | Specialties | | | List styled as subgrids | |
-| Cancel appointment| | Basic form | | Bank representative cancels an appointment that was booked. |
-| Edit appointment | | Basic form | | Bank representative edits an appointment that was booked. | 
-| Edit unavailability | | Basic form | | Bank representative edits availability. | 
-| Reschedule appointment | |Advanced/multi-step form  | | Bank representative schedules an appointment that was booked. |
-| Create unavailability | | Basic form | | Bank representative creates unavailability. |
+| Cancel appointment| | Appointment form | | Bank representative cancels an appointment that was booked. |
+| Edit appointment | | Edit appointment form | | Bank representative edits an appointment that was booked. | 
+| Edit unavailability | | Appointment create form | | Bank representative edits availability. | 
+| Reschedule appointment | | Reschedule appointment form | | Bank representative schedules an appointment that was booked. |
+| Create unavailability | | Calendar block form | | Bank representative creates unavailability. |
 
 
 ## Professional developers
