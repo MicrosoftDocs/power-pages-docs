@@ -38,20 +38,20 @@ In this tutorial, you learn how to:
 >[!NOTE]
 > You can use the tab key to move to the next column and enter additional data.  You can also use the tab key to navigate to the next row and add additional records.
 
- See [How to create and modify Dataverse tables using data workspace](../configure/data-workspace-tables) for more information on how to create tables.
+ For more information, see [How to create and modify Dataverse tables using data workspace](../configure/data-workspace-tables).
 
 ## Create a view
 
 In the previous steps, you created a table in the Data workspace.  The steps below outline how to create a custom view for the table you created.
 
-1. Select the table you just created in the steps above.
+1. Select the table you created in the steps above.
 1. Select **Views** and choose **New view**.
 1. Enter a name for the view.
 1. Add the application data and status reason columns to the view.
 1. Select **Save** and choose **Publish**.
 1. Select **Views** to show the available views for the table.
 
-See [Create and modify Dataverse views using data workspace](../configure/data-workspace-views) for more information on how to create views.
+For more information, see [Create and modify Dataverse views using data workspace](../configure/data-workspace-views).
 
 ## Add a list to the page
 
@@ -69,7 +69,7 @@ Use the steps below to add a list to a web page in order to view information sto
 > [!NOTE]
 > When you first view the page, you will see a message displayed that you do not have permissions to view the data.  Security is very important when building sites.  
 
-See [Add a list](../getting-started/add-list) for more information on how to add lists to your pages.
+For more information, see [Add a list](../getting-started/add-list).
 
 ## Next steps
 
