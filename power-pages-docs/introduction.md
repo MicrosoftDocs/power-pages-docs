@@ -40,7 +40,7 @@ See more: [Create a site](/getting-started/create-manage.md)
 
 ## Design studio
 
-Makers can build powerful and powerful sites without using code.
+Makers can build powerful and engaging sites without writing a single line of code.
 
 :::image type="content" source="media/overview/design-studio.png" alt-text="Design studio.":::
 
