@@ -58,7 +58,7 @@ The following pages are utilized by **Bank Customers**:
 | **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
 |-----------|------------|-----------|-----------|-----------------|
 | Home |||
-| Book an appointment| | Book an apointment form | | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
+| Book an appointment| | Book an appointment form | | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
 | Cancel appointment | | Cancel appointment form | | Customer cancels an appointment that was booked. |
 | Reschedule appointment | | Reschedule appointment form | | Customer reschedules an appointment that was booked. |
 
