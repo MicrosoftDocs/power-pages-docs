@@ -28,7 +28,7 @@ Power Pages can be used to create external-facing sites that allow organizations
 
 Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/) and is the newest pillar of the Power Platform. Power Pages allows you to extend existing Power Platform solutions to the web that are built on [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro).
 
-:::image type="content" source="media/overview/power-platform.png" alt-text="Power Pages site.":::
+:::image type="content" source="media/overview/power-platform.png" alt-text="Power Platform.":::
 
 ## Create sites
 
