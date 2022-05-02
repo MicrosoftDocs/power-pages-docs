@@ -60,10 +60,10 @@ The following pages are utilized by **Parents**:
 | **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
 |-----------|------------|-----------|-----------|-----------------|
 | Home      | | | List view |Displays courses and key details about each course. |
-| Unregister Attendee | |Basic form | | Ability to unregister children who are currently registered. |
-| Add Attendee Profile |  | Basic form | |Ability to add an attendee. | 
+| Unregister Attendee | |Registration unregister form |  | Ability to unregister children who are currently registered. |
+| Add Attendee Profile |  | Add child profile |  |Ability to add an attendee. | 
 | Attendee Information | | | List view  | View details of children who are registered. |
-| Edit Attendee Profile | | Basic form | | Edit the information for children in "My Children." |
+| Edit Attendee Profile | | Edit child profile | | Edit the information for children in "My Children." |
 | My Registrations |  | | List view | View courses that attendees are registered for. |
 | Registration Success | | | | |
 | View Course Details | | | | |
@@ -75,10 +75,10 @@ The following pages are utilized by **School Representatives**:
 | **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
 |-----------|------------|-----------|-----------|-----------------|
 | Courses Home || | List view | Displays the courses that are available. |
-| Edit Course | | Basic form | | Ability to modify existing course(s). |
-| Delete Course | | Basic form | | Ability to delete a course. |
-| Create Course | | | Basic form | Ability to create a course. |
-| Duplicate Course | | Basic form | | Ability to duplicate a course. |
+| Edit Course | | Portal course form|  | Ability to modify existing course(s). |
+| Delete Course | | Delete a course form |  | Ability to delete a course. |
+| Create Course | | Portal course form  | | Ability to create a course. |
+| Duplicate Course | | Portal course form |  | Ability to duplicate a course. |
 | View Registrations | | | List view | View registrations for attendees. |
 
 ## Professional developers
