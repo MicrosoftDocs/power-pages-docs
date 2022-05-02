@@ -38,8 +38,6 @@
   items:
   - name: Dataverse and Power Pages
     href: getting-started/what-is-dataverse.md
-  - name: Planning your Power Pages project
-    href: configure/planning-power-pages-project.md     
   - name: Use Pages workspace
     items:  
       - name: Create and design pages
@@ -89,7 +87,7 @@
   - name: Use Setup Workspace
     href: configure/setup-workspace.md
 - name: Administer Power Pages
-  items: 
+  items:   
     - name: Using the portals admin center
       href: admin/admin-overview.md
     - name: Capacity consumption reports
@@ -100,22 +98,20 @@
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy 
       href: admin/compliance-privacy.md
+    - name: Planning your Power Pages project
+      href: configure/planning-power-pages-project.md           
     - name: Governance 
       href: admin/coe-portals.md            
 - name: Configure Power Pages
   items:
     - name: Portal Management app overview
       href: configure/portal-management-app.md
-    - name: Configure progressive web apps
-      href: configure/progressive-web-apps.md    
     - name: Advanced configuration
       href: configure/advanced-config.md
 - name: Customize and extend Power Pages
   items:
     - name: Using VS Code and Power Platform CLI
       href: configure/cli-tutorial.md   
-    - name: Javascript
-      href: customize-and-extend/javascript-overview.md
     - name: Web templates
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
