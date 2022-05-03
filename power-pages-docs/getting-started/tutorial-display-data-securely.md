@@ -48,9 +48,17 @@ When you create a list on a web page you, you won't be able to see the data. Pow
 
 When you configure a list or a form in Power pages, by default your users won't have access to the information in Dataverse.  To grant your users access, you'll need to configure Table permissions.
 
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+In the steps below, you'll set Global access with Read permissions for an Authenticated user.
+
+1. View a page that includes a view that you do not have permissions to view the data.
+1. From a list, choose on the **Permission** button.
+1. Select to create a new table permission.
+1. Give the table permission a name and choose **Table**.
+1. Select Access type **Global access**.
+1. Set permissions to **Read**.
+1. Assign the Table permission to the **Authenticated user** web role.
+1. Select **Save**.
+1. View the page on the portal. When a user logs in they should see all the data in the table.
 
 ## Add web roles
 <!-- Introduction paragraph -->
