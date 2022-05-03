@@ -70,7 +70,12 @@ Follow the H2 headings with a sentence about how the section contributes to the 
 -->
 
 ## [Section 1 heading]
-<!-- Introduction paragraph -->
+
+In this video, we will create a form using the Data workspace.
+<br>
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. <!-- Step 2 -->
