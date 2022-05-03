@@ -4,7 +4,7 @@ description: Learn how to add videos to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/19/2022
+ms.date: 04/26/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -33,6 +33,9 @@ The video component allows you to embed videos on your page.
 
 1. You can select the video origin and enter the URL.  
     :::image type="content" source="media/first-page/add-video.png" alt-text="The add a video menu with a url pre-filled.":::
+
+> [!NOTE]
+> Some videos may be configured to not allow embedding on external sites. These videos may not display on your page.
 
 ## Editing a video component
 
