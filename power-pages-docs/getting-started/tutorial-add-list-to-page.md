@@ -28,7 +28,7 @@ In this tutorial, you learn how to:
 
 ## Create a table
 
-In this video, you will learn how to create a table using the Data workspace.
+This video will show you how to create a table using the Data workspace.
 <br>
 <br>
 
@@ -69,7 +69,7 @@ For more information, see [Create and modify Dataverse views using data workspac
 
 ## Add a list to the page
 
-Now that you have created your table and view, let's add a list to a page. 
+This video will show you how to add a list to a page. 
 <br>
 <br>
 
