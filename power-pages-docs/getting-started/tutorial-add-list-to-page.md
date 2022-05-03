@@ -28,6 +28,10 @@ In this tutorial, you learn how to:
 
 ## Create a table
 
+Use the steps below outline how to create a table. <br><br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
+
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. Select the **Data** icon on the left navigation.
 1. Select the **New table** button.
@@ -42,7 +46,9 @@ In this tutorial, you learn how to:
 
 ## Create a view
 
-In the previous steps, you created a table in the Data workspace.  The steps below outline how to create a custom view for the table you created.
+Use the steps below to create a custom view for the table you created. <br><br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
 
 1. Select the table you created in the steps above.
 1. Select **Views** and choose **New view**.
@@ -55,7 +61,10 @@ For more information, see [Create and modify Dataverse views using data workspac
 
 ## Add a list to the page
 
-Use the steps below to add a list to a web page in order to view information stored in Dataverse.
+Use the steps below to add a list to a web page so you can view information stored in Dataverse. <br><br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
+
 
 1. Inside the design studio, choose the option to **Create a new page**.
 1. Add a name for the page.
