@@ -30,11 +30,9 @@ Power Pages provides you with rich, customizable templates, a fluid visual exper
 
 You can configure sites to enable anonymous browsing or enable users to sign in to securely create and view data.
 
-## Power Pages and Power Platform
+Power Pages is the newest member of the Microsoft Power Platform family. With Power Pages, you can build sites using the same shared business data stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro) that you use for building apps, workflows, intelligent virtual agents, reports, and analytics by using other components of Power Platform in your organization. 
 
-Power Pages is the newest member of the Microsoft Power Platform family. Using Power Pages, you can build sites using the same shared business data securely stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro) that you use for building apps, workflows, intelligent virtual agents, reports, and analytics by using other components of Power Platform in your organization. 
-
-:::image type="content" source="media/overview/power-platform1.png" alt-text="Power Platform.":::
+:::image type="content" source="media/overview/power-platform1.png" alt-text="Various components of Microsoft Power Platform.":::
 
 ## Power Pages and Power Apps portals 
 
