@@ -33,10 +33,12 @@ Before adding Power BI components, ensure that Power BI is enabled. Please refer
 
     :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
-1. Configure the appropriate properties to display your Power BI dashboard.
+1. Select **Edit** to configure the appropriate properties to display your Power BI dashboard.
 
     :::image type="content" source="media/first-page/power-bi-properties.png" alt-text="Power BI properties.":::
 
+    [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
     For detailed information, go to [Add Power BI](/power-apps/maker/portals/add-powerbi) in the Power Apps documentation.
 
-1.  Select the appropriate menu option to duplicate the Power BI, move it up/down within the section, or delete.
+1. Selecting more options (**...**) will allow you to duplicate, move up/down within the section, or delete the Power BI component.
