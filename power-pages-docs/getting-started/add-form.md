@@ -1,6 +1,6 @@
 ---
 title: Add forms
-description: Learn how to add forms to your Power Pages.
+description: Add forms to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 

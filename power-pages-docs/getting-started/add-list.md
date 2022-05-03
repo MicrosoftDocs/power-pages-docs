@@ -1,6 +1,6 @@
 ---
 title: Add lists
-description: Learn how to add lists to your Power Pages.
+description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
