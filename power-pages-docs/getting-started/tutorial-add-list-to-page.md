@@ -29,8 +29,6 @@ In this tutorial, you learn how to:
 ## Create a table
 
 This video will show you how to create a table using the Data workspace.
-<br>
-<br>
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
 
@@ -51,8 +49,6 @@ Use the steps below to create a table.
 ## Create a view
 
 This video will show you how to create a view for a table using Data workspace.
-<br>
-<br>
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
 
@@ -69,9 +65,7 @@ For more information, see [Create and modify Dataverse views using data workspac
 
 ## Add a list to the page
 
-This video will show you how to add a list to a page. 
-<br>
-<br>
+This video will show you how to add a list to a page.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
 

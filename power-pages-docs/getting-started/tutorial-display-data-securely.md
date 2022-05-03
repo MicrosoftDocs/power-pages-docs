@@ -60,6 +60,12 @@ In the steps below, you'll set Global access with Read permissions for an Authen
 1. Select **Save**.
 1. View the page on the portal. When a user logs in they should see all the data in the table.
 
+> [!NOTE]
+> There are several different access types and privileges in Power Pages.  
+> For more information, see: <br> 
+> [Assign table permissions](../security/assign-table-permissions.md) <br>
+> [Provide access to external audiences](../security/external-access.md)
+
 ## Add web roles
 <!-- Introduction paragraph -->
 1. <!-- Step 1 -->
