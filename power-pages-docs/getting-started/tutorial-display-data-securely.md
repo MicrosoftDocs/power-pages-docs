@@ -50,15 +50,14 @@ When you create a list on a web page you, you won't be able to see the data. Pow
 
 When you configure a list or a form in Power pages, by default your users won't have access to the information in Dataverse.  To grant your users access, you'll need to configure Table permissions.
 
-There are multiple access types within Power Pages.
+The following access types are available in Power Pages:
 
 |Access type  |Description  |
 |---------|---------|
 |Global access |Users will be able to view all records from the Dataverse table. Limit the use of this access type wherever possible as it provides the greatest access to data.|
 |Contact access |         |
 |Account access |         |
-|Self access | Unique to the Contact table.  This access level allows users who are logged in to access their related contact record in Dataverse.  This permission is typically used to update a contact's profile record. |
-
+|Self access |This access level (which is unique to the Contact table) allows users who are logged in to access their related contact record in Dataverse.  This permission is typically used to update a contact's profile record. |
 
 1. <!-- Step 1 -->
 1. <!-- Step 2 -->
