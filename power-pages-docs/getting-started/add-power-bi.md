@@ -4,7 +4,7 @@ description: Learn how to add Power BI to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/18/2022
+ms.date: 05/03/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -19,10 +19,7 @@ contributors:
 
 You can add a Power BI component on a page to display Power BI dashboards and reports on your portal.
 
-> [!NOTE]  
-> Before you begin, read Power BI access type considerations and general Power BI considerations to get familiar with important Power BI terms and considerations for Power Apps portals.
-
-Before adding Power BI components, ensure that Power BI is enabled: [Set up Power BI integration - Power Apps \| Microsoft Docs](/powerapps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization)
+Before adding Power BI components, ensure that Power BI is enabled. Please refer to the following instructions on the Power Apps documentation: [Set up Power BI integration - Power Apps \| Microsoft Docs](/powerapps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization)
 
 ## To add a Power BI component to a page
 
@@ -35,5 +32,11 @@ Before adding Power BI components, ensure that Power BI is enabled: [Set up Powe
 1. Hover to any editable canvas area and select the click the **Power BI** icon.
 
     :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+
+1. Configure the appropriate properties to display your Power BI dashboard.
+
+    :::image type="content" source="media/first-page/power-bi-properties.png" alt-text="Power BI properties.":::
+
+    For detailed information, go to [Add Power BI](/power-apps/maker/portals/add-powerbi) in the Power Apps documentation.
 
 1.  Select the appropriate menu option to duplicate the Power BI, move it up/down within the section, or delete.
