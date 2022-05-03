@@ -13,21 +13,11 @@ contributors:
     - sampatn
 ---
 
-
-<!--Remove all the comments in this template before you merge to the main branch.-->
-
-<!--This template provides the basic structure of a trial frequently asked questions page. The first part of this page contains app-specific questions and answers. The second half of the page contains platform-specific issues that are pulled from a shared include statement to avoid duplicating information.
-For Project Beethoven, we are focusing on the following core principles:
-- Keep the frequently asked questions page minimal and consistent with this template
-- Link out to additional information where possible
-- Reuse content on the FAQ page by using the platform include statement
-To provide feedback on this template, contact [Alex Ferguson](mailto:alex.ferguson@microsoft.com).-->
-
 # Power Pages trial FAQ
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Power Pages trial offers a simple and easy experience for sign-up, login and usage. However, if you are stuck or have questions about the trial, check out this page for answers. 
+The Power Pages trial offers a simple and easy experience for sign-up, sign in and usage. However, if you're stuck or have questions about the trial, check out this page for answers. 
 
 To sign up for the trial, go to the [Power Pages overview page](https://powerapps.microsoft.com/en-us/powerpages/) and select **Start free**
 
@@ -40,14 +30,14 @@ Yes, you can purchase licenses through direct, credit card purchase at https://a
 
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses. 
 
-After you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data installed in your trial environment. However, you have to manually reset the configuration and remove any test data that you have added. We recommend that you create a fresh environment to use for your production environment and add the confifurations you'd like to move forward with. 
+After you've applied for the license to your tenant, you can publish your environment to production. You can remove the sample data installed in your trial environment. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you'd like to move forward with. 
 
 ### What are the trial limits and quotas?
 
 The following limitations apply for the trial:
-- The trial environment is available to your for 30 days. After that, you can request for an extension for another 30 days, buy a paid license or sign up for a new trial environment. 
-- A Power Pages site is always created as a trial. A trial site which expires after 30 days, is useful for tryaing out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it is suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](https://docs.microsoft.com/en-us/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
-- If your trial site is created in a trial environment, your trial site will only be available until your trial environment is available. If your environment expires before the trial site expires, you would loose access to your trial site. 
+- The trial environment is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license or sign up for a new trial environment. 
+- A Power Pages site is always created as a trial. A trial site, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it's suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](https://docs.microsoft.com/en-us/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
+- If your trial site is created in a trial environment, your trial site will only be available until your trial environment is available. If your environment expires before the trial site expires, you would lose access to your trial site. 
 
 ## Power Pages specific questions
 
@@ -57,7 +47,7 @@ You can use a work or school [email associated with your Microsoft account](http
 
 ### How do I start using the trial?
 
-After you sign up for the trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) on the trial set up page.
+After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) on the trial set-up page.
 
 ### What features are available in the trial?
 
@@ -71,19 +61,17 @@ If you already have necessary privileges to create or edit a site in an environm
 
 The Power Pages trial lasts 30 days. You can [convert the trial site](https://docs.microsoft.com/en-us/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production) into a production site.  
 
-### Would I have to use this experience everytime, I come to Power Pages? 
+### Would I have to use this experience every time, I come to Power Pages? 
 
-The sign up experience is a one time experience to get you started with Power Pages. Once you create a site successfully in your first time, in your next visit, you will be re-directed to Power Pages home. You can continue to create a new trial site as needed from the home using **Create a Site**. 
+The sign-up experience is a one time experience to get you started with Power Pages. Once you create a site successfully in your first time, in your next visit, you'll be redirected to Power Pages home. You can continue to create a new trial site as needed from the home using **Create a Site**. 
 
-### Can I edit a existing site using the new Power Pages experience?
+### Can I edit an existing site using the new Power Pages experience?
 
-The sign up experience in the first run would need you to create a trial site, and once the site is succesfully created, you can access an existing trial site, provided you have necessary permissions to access it. 
+The sign-up experience in the first run would need you to create a trial site. Once the site is successfully created, you can access an existing trial site, provided you have necessary permissions. 
 
 ### How long would it take for the trial site to get created? 
 
-When you create a trial site in a new trial environment, it would take a few mins (around 3 to 5 minutes), as the new trial environment created is optimized and pre-installed with the site templates in it. When you create a trial site in an existing environment that does not have the pre-installed site templates, then site creation would take around 15 to 30 minutes as the site template has to be installed before the site itself is created. 
+When you create a trial site in a new trial environment, it would take a few mins (around 3 to 5 minutes), as the new trial environment created is optimized and pre-installed with the site templates in it. When you create a trial site in an existing environment that doesn't have the pre-installed site templates, then site creation would take around 15 to 30 minutes as the site template has to be installed before the site itself is created. 
 
-
-<!--As [mentioned below](<!--Name of this page.md#how-do-i-extend-the-trial), you can extend the trial once.-->
 
 
