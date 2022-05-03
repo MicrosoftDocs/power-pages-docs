@@ -59,7 +59,7 @@ This video will show you how to create a view for a table using Data workspace.
 
 ### Add a list to page
 
-Now that you have created you table and view, lets now add a list to a page.
+Now that you have created your table and view, let's add a list to a page.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
 

@@ -13,107 +13,78 @@ contributors:
     - ProfessorKendrick
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Add a list to your page
-
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
-
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
-
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> * Create a table
+> * Create a view
+> * Add a list to the page
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
+## Create a table
 
-## [Section 1 heading]
-<!-- Introduction paragraph -->
+This video will show you how to create a table using the Data workspace.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
+
+Use the steps below to create a table. 
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. Select the **Data** icon on the left navigation.
+1. Select the **New table** button.
+1. Give the table a name and select **Create**.
+1. Select **New column** and enter a name and a data type.  
+1. Select the space under the name field and enter your data.  
 
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+>[!NOTE]
+> You can use the tab key to move to the next column and enter additional data.  You can also use the tab key to navigate to the next row and add additional records.
 
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+ For more information, see [How to create and modify Dataverse tables using data workspace](../configure/data-workspace-tables.md).
 
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
+## Create a view
 
-## Clean up resources
+This video will show you how to create a view for a table using Data workspace.
 
-If you're not going to continue to use this application, delete
-with the following steps:
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
 
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
+Use the steps below to create a custom view for the table you created. 
 
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
+1. Select the table you created in the steps above.
+1. Select **Views** and choose **New view**.
+1. Enter a name for the view.
+1. Add the application data and status reason columns to the view.
+1. Select **Save** and choose **Publish**.
+1. Select **Views** to show the available views for the table.
+
+For more information, see [Create and modify Dataverse views using data workspace](../configure/data-workspace-views.md).
+
+## Add a list to the page
+
+This video will show you how to add a list to a page.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
+
+Use the steps below to add a list to a web page so you can view information stored in Dataverse.
+
+1. Inside the design studio, choose the option to **Create a new page**.
+1. Add a name for the page.
+1. Choose the **Start from blank** layout.
+1. Select **Add**.
+1. Select **List**.
+1. Select **New list**.
+1. Choose the table and view you'd like from the dropdown menus.
+1. Select **Preview**.
+
+> [!NOTE]
+> When you first view the page, you will see a message displayed that you do not have permissions to view the data.  Security is very important when building sites.  
+
+For more information, see [Add a list](../getting-started/add-list.md).
 
 ## Next steps
 
-Advance to the next article to learn how to display data securely on your Power Pages site.
-> [!div class="nextstepaction"]
-> [Next steps](tutorial-display-data-securely.md)
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+Advance to the next tutorial on [Table Permissions](tutorial-setup-page-permissions.md) for information on how to allow users to view data securely.
