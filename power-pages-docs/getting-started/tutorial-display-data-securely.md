@@ -63,14 +63,22 @@ In the steps below, you'll set Global access with Read permissions for an Authen
 > [!NOTE]
 > There are several different access types and privileges in Power Pages.  
 > For more information, see: <br> 
-> [Assign table permissions](../security/assign-table-permissions.md) <br>
-> [Provide access to external audiences](../security/external-access.md)
+> - [Assign table permissions](../security/assign-table-permissions.md) <br>
+> - [Provide access to external audiences](../security/external-access.md)
 
 ## Add web roles
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+
+When creating table permissions or page access permissions,these need to associate with a web role in order for portal visitors to be able to access the data or view a protected page.
+
+1. From an existing list or form, select the **Permission** button and view a table permission.
+1. Open the Portals Management app and view **Web Roles**.
+1. Create a new web role and give it a descriptive name.  Do not set the Authenticated Users role or the Anonymous Users role.
+1. Save the web role record.  
+1. Select **Related** and choose a few contacts.
+1. Within the studio on a list or a form, choose the permissions button and select a table permission, then assign the custom web role.
+
+> [!NOTE]
+> You'll need to clear the cache by hitting ctrl + F5 to view the new role.
 
 ## Next steps
 

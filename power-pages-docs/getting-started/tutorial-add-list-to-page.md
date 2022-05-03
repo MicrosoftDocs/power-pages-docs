@@ -44,7 +44,7 @@ Use the steps below to create a table.
 >[!NOTE]
 > You can use the tab key to move to the next column and enter additional data.  You can also use the tab key to navigate to the next row and add additional records.
 
- For more information, see [How to create and modify Dataverse tables using data workspace](../configure/data-workspace-tables).
+ For more information, see [How to create and modify Dataverse tables using data workspace](../configure/data-workspace-tables.md).
 
 ## Create a view
 
@@ -61,7 +61,7 @@ Use the steps below to create a custom view for the table you created.
 1. Select **Save** and choose **Publish**.
 1. Select **Views** to show the available views for the table.
 
-For more information, see [Create and modify Dataverse views using data workspace](../configure/data-workspace-views).
+For more information, see [Create and modify Dataverse views using data workspace](../configure/data-workspace-views.md).
 
 ## Add a list to the page
 
@@ -83,7 +83,7 @@ Use the steps below to add a list to a web page so you can view information stor
 > [!NOTE]
 > When you first view the page, you will see a message displayed that you do not have permissions to view the data.  Security is very important when building sites.  
 
-For more information, see [Add a list](../getting-started/add-list).
+For more information, see [Add a list](../getting-started/add-list.md).
 
 ## Next steps
 
