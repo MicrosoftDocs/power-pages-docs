@@ -36,7 +36,7 @@ After you've applied for the license to your tenant, you can publish your enviro
 
 The following limitations apply for the trial:
 - The trial environment is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license or sign up for a new trial environment. 
-- A Power Pages site is always created as a trial. A trial site, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it's suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](https://docs.microsoft.com/en-us/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
+- A Power Pages site is always created as a trial. A trial site, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it's suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
 - If your trial site is created in a trial environment, your trial site will only be available until your trial environment is available. If your environment expires before the trial site expires, you would lose access to your trial site. 
 
 ## Power Pages specific questions
@@ -59,7 +59,7 @@ If you already have necessary privileges to create or edit a site in an environm
 
 ### How long does the trial last?
 
-The Power Pages trial lasts 30 days. You can [convert the trial site](https://docs.microsoft.com/en-us/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production) into a production site.  
+The Power Pages trial lasts 30 days. You can [convert the trial site](/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production) into a production site.  
 
 ### Would I have to use this experience every time, I come to Power Pages? 
 
