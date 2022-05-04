@@ -10,6 +10,7 @@ ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
+    - KumarVivek
 ---
 
 # What is Power Pages (preview)
@@ -23,6 +24,10 @@ Microsoft Power Pages is a secure enterprise-grade low-code SaaS platform for cr
 > [!IMPORTANT]
 > - This is a preview feature. Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - This feature is being gradually rolled out across regions and might not be available yet in your region.
+
+## Introducing Power Pages
+
+<!--REMOVE COMMENT BEFORE PUBLISH hero video of Power pages here-->
 
 Power Pages provides you with rich, customizable templates, a fluid visual experience through a re-imagined design studio, and a new, integrated learn hub to quickly build sites that suit your unique business needs.
 
