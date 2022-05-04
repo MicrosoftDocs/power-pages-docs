@@ -82,4 +82,4 @@ When creating table permissions or page access permissions,these need to associa
 
 ## Next steps
 
-Advance to the next article to learn how to 
+Advance to the next article to learn how to [Setup page permissions](tutorial-setup-page-permissions.md).
