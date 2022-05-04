@@ -16,3 +16,45 @@ contributors:
 # Power Pages capabilities
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
+You can quickly create and design professional and secure sites for your business using Power Pages. This topic provides you an overview of key Power Pages capabilities. 
+
+## Simplified authoring experience for makers
+
+Quickly create new site directly from the Power Pages home page using the default template or choose existing industry-based starter templates.
+
+:::image type="content" source="media/overview/create-a-site.png" alt-text="Create a Power Pages site.":::
+
+See more: [Create a site](/getting-started/create-manage.md)
+
+### Design studio
+
+Makers can build powerful and engaging sites without writing a single line of code.
+
+:::image type="content" source="media/overview/design-studio.png" alt-text="Design studio.":::
+
+The [design studio](/getting-started/use-design-studio.md) provides the following workspaces:
+
+- [Pages workspace](/getting-started/first-page.md) for creating, designing and arranging web pages.
+- [Style workspace](/getting-started/style-site.md) for applying styles and themes to your site.
+- [Data workspace](/getting-started/use-data-workspace.md) for creating and modifying Microsoft Dataverse tables used in data-driven web applications.
+- [Setup workspace](/configure/setup-workspace.md) for administration and site management
+
+## Advanced development capabilities for professional developers 
+
+Makers can work with pro-developers in fusion teams to extend the functionality using Visual Studio Code and the Power Platform CLI to create powerful business application web sites.
+
+:::image type="content" source="media/overview/vs-code-pac-cli.png" alt-text="Visual Studio Code.":::
+
+See more: [Using Visual Studio Code and Power Platform CLI](/configure/cli-tutorial.md)
+
+## Robust security and governance capabilities
+
+TODO: Add content
+
+## Integration with other Power Platform components
+
+Power Pages provides deep integration with other Power Platform components, such as you can:
+- Embed canvas apps in an iframe allowing internal Power Apps users in the same tenant access to the embedded app.
+- Embed Power BI reports in sites configured with row-level security so that authenticated users can only view data that they have access to.
+- Configure intelligent bots created using Power Virtual Agents on your site pages.
