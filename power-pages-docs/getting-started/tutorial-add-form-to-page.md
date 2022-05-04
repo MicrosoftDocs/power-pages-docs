@@ -56,6 +56,21 @@ In this video, we'll create a form using the Data workspace.
 
 ## Add a form to a page
 
+1. Open maker studio.
+1. Create a new page.
+1. Give the page a name.
+1. Choose the **Start from Blank template**.
+1. Select **Add**.
+1. Select **Form** from the component bar.
+1. Select **+ New form**.
+1. Select the **Feedback table**.
+1. Select the form you created previously.
+1. Select the **Permissions** button.
+1. Select **Feedback permissions**.
+1. Ensure the **Create privilege** is checked and that **Anonymous** and Authenticated web roles are linked.
+1. Select **Preview page**.
+1. Add some data, then enter the captcha code.
+1. Select **Submit**.
 
 ## Configure form options
 
