@@ -33,18 +33,6 @@ verb.
 
 # Tutorial: Add a form to your page
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
-
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
-
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
@@ -53,22 +41,10 @@ In this tutorial, you learn how to:
 > * Add a form to a page
 > * Configure code options
 
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
-
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
-
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
 
 ## Create a form
 
