@@ -64,8 +64,8 @@ conceptualContent:
         - text: Design your home page
           url: training-videos/index.md#design-your-home-page
           itemType: video
-        - text: Set up your brand kit
-          url: training-videos/index.md#set-up-your-brand-kit
+        - text: Setup your brand kit
+          url: training-videos/index.md#setup-your-brand-kit
           itemType: video
         - text: Create a page with a list
           url: training-videos/index.md#create-a-page-with-a-list
@@ -75,6 +75,9 @@ conceptualContent:
           itemType: video
         - text: Create a page with a simple form 
           url: training-videos/index.md#create-a-page-with-a-simple-form
+          itemType: video
+        - text: Create a page with a multi-step form
+          url: training-videos/index.md#create-a-page-with-a-multi-step-form
           itemType: video
         - text: Configure access to your site 
           url: training-videos/index.md#configure-access-to-your-site
