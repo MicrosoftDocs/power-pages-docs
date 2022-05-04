@@ -48,9 +48,10 @@ Required. Use the format provided in the list below.
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
+> * Create a form
+> * Add code components
+> * Add a form to a page
+> * Configure code options
 
 <!-- 4. Prerequisites 
 Required. First prerequisite is a link to a free trial account if one exists. If there 
@@ -69,25 +70,32 @@ Required. Give each H2 a heading that sets expectations for the content that fol
 Follow the H2 headings with a sentence about how the section contributes to the whole.
 -->
 
-## [Section 1 heading]
+## Create a form
 
 In this video, we will create a form using the Data workspace.
-<br>
-<br>
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. In the data workspace, select the **Feedback table** and choose the **Forms tab**.
+1. Select **+ New Form** to open the form editor.
+1. Give the form a name. You can also add a description if you'd like one.
+1. Select **Create**.
+1. Add a field, adjust the size of a text field, or move a field to a different spot on the form.
+1. Select **Publish form**.
+1. Select **Back**. The form will appear in the list of forms for that table.
 
-## [Section 2 heading]
+### See also
+- [Add Form](add-form.md)
+- [How to create and modify Dataverse forms using data workspace](../configure/data-workspace-forms.md)
+
+## Add code components
 <!-- Introduction paragraph -->
 1. <!-- Step 1 -->
 1. <!-- Step 2 -->
 1. <!-- Step n -->
 
-## [Section n heading]
+## Add a form to a page
 <!-- Introduction paragraph -->
 1. <!-- Step 1 -->
 1. <!-- Step 2 -->
@@ -98,7 +106,7 @@ Required. If resources were created during the tutorial. If no resources were cr
 state that there are no resources to clean up in this section.
 -->
 
-## Clean up resources
+## Configure form options
 
 If you're not going to continue to use this application, delete
  with the following steps:
