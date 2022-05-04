@@ -13,24 +13,6 @@ contributors:
     - ProfessorKendrick
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Add a form to your page
 
 In this tutorial, you learn how to:
@@ -48,7 +30,7 @@ In this tutorial, you learn how to:
 
 ## Create a form
 
-In this video, we will create a form using the Data workspace.
+In this video, we'll create a form using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev]
 
@@ -66,35 +48,18 @@ In this video, we will create a form using the Data workspace.
 - [How to create and modify Dataverse forms using data workspace](../configure/data-workspace-forms.md)
 
 ## Add code components
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+
+1. Open the maker studio and select the form you created previously.
+1. Select the **Feedback details** field.
+1. In the right-hand section, choose **Components** and select the **Rich Text Editor** control.
+1. The form now has a code component linked to the field.
 
 ## Add a form to a page
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
 
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
 
 ## Configure form options
 
-If you're not going to continue to use this application, delete
- with the following steps:
 
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
-
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
 
 ## Next steps
 
@@ -102,7 +67,3 @@ Advance to the next article to learn how to create a multi-step (advanced) form 
 > [!div class="nextstepaction"]
 > [Next steps](tutorial-add-multi-step-form.md)
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
