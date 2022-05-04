@@ -74,7 +74,17 @@ In this video, we'll create a form using the Data workspace.
 
 ## Configure form options
 
-
+1. In the maker studio, open a page with a form component and choose the Form button.
+1. Specify the table and Dataverse form.
+1. Select the **Data tab** to create a record, update an existing record, or specify as read-only.
+1. Select the **On Submit tab** to enable your page to show a success message or redirect to a webpage or URL.
+1. Select the **Data section**.  Select **Open Portal Management app**.
+1. Select **Basic form metadata**.
+1. Choose **New basic form metadata**.
+1. Choose **Attribute** for the type.
+1. Choose **Comments** for the column.
+1. Choose **Code component** for the control style.
+1. Select **Save**.
 
 ## Next steps
 
