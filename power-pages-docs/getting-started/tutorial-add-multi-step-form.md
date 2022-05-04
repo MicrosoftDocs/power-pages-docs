@@ -34,6 +34,9 @@ In this tutorial, you learn how to:
 
 ## Create an advanced form
 
+> [!NOTE]
+> When creating an advanced from, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
+
 In the steps below, we'll create an advanced form which allows users to authenticate before creating an application.  Users wil also be able to pick up where they left off and apply multiple times.  You'll need to adjust these steps to reflect your own business requirements.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
@@ -44,8 +47,7 @@ In the steps below, we'll create an advanced form which allows users to authenti
 1. Set start new session on load to no.
 1. Set Multiple records per user permitted to yes.
 
-> [!NOTE]
-> When creating an advanced from, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
+
 
 ## Create advanced form options
 <!-- Introduction paragraph -->
