@@ -17,7 +17,9 @@ contributors:
 
 Makers and pro-developers can used the Power Platform CLI to download Power Pages site metadata and use DevOps pipelines to commit the metadata to source control and deploy from development to other environments.
 
-For detailed information on using the Power Platform CLI, please see (Tutorial: Use Microsoft Power Platform CLI with portals)[/power-apps/maker/portals/power-apps-cli-tutorial] in the Power Apps documentation.
+[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
+For detailed information on using the Power Platform CLI, please see [Tutorial: Use Microsoft Power Platform CLI with portals](/power-apps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
 
 The Power Platform CLI also supports [deployment profiles](/power-apps/maker/portals/power-apps-cli-tutorial#upload-the-changes-using-deployment-profile) to allow unique attributes to be applied to specific target environments.
 
