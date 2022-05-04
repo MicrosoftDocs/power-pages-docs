@@ -32,8 +32,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-## Advanced form Overview
-When creating an advanced from, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
+## Create an advanced form
 
 In the steps below, we'll create an advanced form which allows users to authenticate before creating an application.  Users wil also be able to pick up where they left off and apply multiple times.  You'll need to adjust these steps to reflect your own business requirements.
 
@@ -45,11 +44,8 @@ In the steps below, we'll create an advanced form which allows users to authenti
 1. Set start new session on load to no.
 1. Set Multiple records per user permitted to yes.
 
-## Create an advanced form
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+> [!NOTE]
+> When creating an advanced from, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
 
 ## Create advanced form options
 <!-- Introduction paragraph -->
