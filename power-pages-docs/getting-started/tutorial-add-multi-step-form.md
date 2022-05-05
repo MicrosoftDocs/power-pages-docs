@@ -23,10 +23,6 @@ Advanced forms extend basic forms by:
 - Provides interactive conditions to direct a user down different paths of data updates.
 - Session tracking allows a user to pick up where they left off when following a data update process.
 
-An advanced form is composed of an advanced form record and a series of steps.
-
-:::image type="content" source="media/tutorial/advanced-form-diagram.png" alt-text="A diagram of an advanced form.":::
-
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
@@ -44,6 +40,10 @@ In this tutorial, you learn how to:
 
 
 ## Create an advanced form 
+
+An advanced form is composed of an advanced form record and a series of steps.
+
+:::image type="content" source="media/tutorial/advanced-form-diagram.png" alt-text="A diagram of an advanced form.":::
 
 In the steps below, we'll create an advanced form.  This advanced form will allow users to authenticate before creating an application.  Users will also be able to pick up where they left off and apply multiple times.  
 
