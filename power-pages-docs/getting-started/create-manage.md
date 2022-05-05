@@ -4,7 +4,7 @@ description: Learn how to create and manage Power Pages sites
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/20/2022
+ms.date: 05/5/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -22,7 +22,9 @@ Power Pages provides you with a list of templates to choose from to quickly buil
 > [!TIP]
 > We have created a series of tutorials and videos for you to learn and use Power Pages where you start with a simple site and progressively add components and features as per your business requirements. Go to: [Power Pages Tutorials](/power-pages/tutorials/)
 
-1. Sign in to Power Pages.
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+
+    The first time you visit the site, you will be presented with a **Get started** button and be able to [sign up for a free 30 day trial](trial-signup.md). 
 
 1. Select + Create a site from the Home page.
 
