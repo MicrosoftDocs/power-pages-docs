@@ -78,7 +78,7 @@ In the steps below, we'll create an advanced form.  This advanced form will allo
 
 #### Adding conditions to your advanced form
 
-If you need to add conditional logic to your advanced form, you'll need to identify :::image type="content" source="media/tutorial/advanced-form-specify-condition.png" alt-text="":::the condition by adding the Dataverse schema name and the evaluation you want to perform.
+If you need to add conditional logic to your advanced form, you'll need to identify the condition by adding the Dataverse schema name and the evaluation you want to perform.
 
 In the steps below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps.  Other applicants will skip that step.
 
