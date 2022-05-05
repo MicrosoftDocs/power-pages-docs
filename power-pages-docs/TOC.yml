@@ -33,7 +33,9 @@
     - name: Learn hub
       href: getting-started/use-learnhub.md 
     - name: Power Pages community
-      href: getting-started/community.md 
+      href: getting-started/community.md
+    - name: Planning your Power Pages project
+      href: configure/planning-power-pages-project.md       
 - name: Design and build 
   items:
   - name: Dataverse and Power Pages
@@ -97,9 +99,7 @@
     - name: View error log 
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy 
-      href: admin/compliance-privacy.md
-    - name: Planning your Power Pages project
-      href: configure/planning-power-pages-project.md           
+      href: admin/compliance-privacy.md        
     - name: Governance 
       href: admin/coe-portals.md            
 - name: Configure Power Pages
