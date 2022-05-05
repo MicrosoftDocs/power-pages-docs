@@ -94,10 +94,26 @@ In the steps below, we'll check to see if an applicant is pursuing a Masters deg
 Repeat the instructions outlined until you've created the number of steps needed for your business process.
 
 ## Create advanced form options
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+
+> [!NOTE]
+> Before you start, make sure you have created all the appropriate Table Permissions an assigned the Web Roles that will be used in your Advanced form.
+
+1. In the **Portal Management app**, choose **Advanced form**, then select the **Choose Scholarship step**.
+:::image type="content" source="media/tutorial/advanced-form-choose-scholarship.png" alt-text="Select the Choose Scholarship step from the Advanced form menu.":::
+1. In the **Related tab**, choose **Metadata**.
+:::image type="content" source="media/tutorial/advanced-form-metadata.png" alt-text="Advanced form metadata.":::
+1. Choose **New Advanced Form**.
+:::image type="content" source="media/tutorial/advanced-forms-add-new.png" alt-text="Add new advanced form.":::
+1. Set the **Attribute Logical Name** to **Scholarship Name**.
+:::image type="content" source="media/tutorial/advanced-form-scholarship-name.png" alt-text="Attribute Logical Name field set to Scholarship Name.":::
+1. Scroll down to **Control Style** and set the **Style** to **Render Lookup as a Dropdown**.
+:::image type="content" source="media/tutorial/advanced-form-render-dropdown.png" alt-text="The Style set to Render Lookup as Dropdown under New Advanced Form Metadata.":::
+1. Scroll down to the **Set Value on Save**.
+    - Check the box next to the **Set Value On Save** field.
+    - Set the **Type** to **Today's Date**.
+    :::image type="content" source="media/tutorial/advanced-form-set-date.png" alt-text="Set Value On Save enabled with Type set to Today's Date.":::
+    
+1. 
 
 ## Add an advanced form to a page
 <!-- Introduction paragraph -->
