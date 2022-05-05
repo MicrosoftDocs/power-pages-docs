@@ -16,29 +16,51 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+## Summary 
 
-## Who is this article for
+### Who is this article for
 
-We all have various experiences and expertise in building apps or sites. Each project might have unique needs. Purpose of this article is to bring up a few areas to keep in mind as you embark on a new or maybe revisit a previous project.
+We all have various experiences and expertise in building apps or sites. Each project might have unique needs. Purpose of this article is to bring up a few areas to keep in mind as you embark on a new or maybe revisit a previous project. We'll mostly cover subjects that are likely the most new and often missed or rushed on projects.
 
-This article is not about mechanics or detailed how to building sites with Power Pages but what you should consider and think about the overall project.
+This article is not about mechanics or detailed how to building sites with Power Pages but what you should consider and think about the overall project. Think of this material as helpful guidance to make sure you don’t miss an important area.
 
-## What does this article cover
+These subjects are not exclusive to your actual design, styling or content and other creative and fun work we know you will already enjoy working on in the Power Pages Studio. We are focused on those that might be the most new and often missed or not planned for enough in advance.
 
-This article will cover topics like:
+### High-level considerations for a site
+
+At high level you want to think about 
+
+- Who will use my site
+- What will my users do
+- What static content the site will have
+- What do I need to show publicly and what to secure
+- What will users use to login or register
+- How the data will be segmented after users login
+- How will my users find my site
+
+### Set clear goals for your project
+
+Building sites is exciting and could be overwhelming especially your first time, for your first time this article itself could be adding to the anxiety - we are here to help! 
+
+Consider coming up with a few simple goals to keep you focused and on track, the list above should help you. Allow yourself to be iterative and involve others for feedback; even consider a pilot program with a few close real end-users of your site, they will provide the best feedback. Ship in smaller iterations but more often, if applicable. 
+
+### Outline of subjects covered in this article
+
+To help you with more deep drive guidance we will cover the following categories and topics.  
+
+Plan & Design subjects like:
 
 - Audiences of users of my site
-- Options for how users can login to my site
+- Understand how users can login to your site
 - Options you have for securing your pages and data
 - Learn about data modeling considerations for your sites 
+
+Test & Deploy subjects like:
+
 - Why you should test and have separate test and live production site
 - What and why you will need a custom domain URL for your site
 
-## Set clear goals for your project
-
-Building sites is exciting and could be overwhelming especially your first time. Consider coming up with a few simple goals to keep you focused and on track. Allow yourself to be iterative and involve others for feedback; even consider a pilot program with a few close real end-users of your site, they will provide the best feedback. Ship in smaller iterations but more often, if applicable. 
-
-## Anonymous, Authenticated, or both
+## Who is my user audience : anonymous, authenticated, or both
 
 As you might notice when you start to explore your site it's available online to anyone who knows the URL. Our basic starting template has sample web pages to get you inspired, those pages are not secured as they contain sample text and images for inspiration only. As you develop content and data experiences you want to consider if you want those pages secured behind a login - that would mean Authenticated user context. Any pages that do not require a login are referred to as Anonymous or Unauthenticated. 
 
@@ -48,7 +70,7 @@ Remember the default sites out of the box might be setup for easiest but might n
 
 To make a site Authenticated-only you simply set Page Permissions on the Home page properties, this way any page on the site would require the users to register and sign-in. Learn more here: <Do page for Pages workspace>
 
-## Users Identity
+## How will my users login : Identity
 
 Many sites you and your end-users navigate today have a Login or Register experience where users either create a new login profile or use an existing login. That login part itself could be their personal and social accounts, corporate credentials or custom login systems - all of those are various identity providers or IdP for short. Power Pages can use many industry standards based Identity Providers. Yon can view the fill list here: <link>
 
@@ -77,19 +99,27 @@ Consider Azure AD B2C you might qualify for sizable initial set of users (50,000
 ### Why have an external identity provider?
 Having a single external identity provider would help you onboard users consistently across multiple future sites, other web sites or web or mobile apps in the future. This way your external users have one login they can use without creating yet another login and password. It’s a good idea to spearhead that as long as you are careful to name and brand your identity provider more generic. Consider something simple like "Contoso Login" or "Contoso Student Login" over hyper specific ones like "Contoso EDU Student Meal Plan Portal Login"  
 
-## Security
+## What users get to do : Security
 
 Any authenticated user on your site after they register or login get a Contact record that represents them. Remember that how (Authentication) your login to your site does not dictate what you do (Authorization). Think of identity as a key or a digital key card. We'll now talk about the what a user gets to do once they are authenticated. 
 
 Remember you are in control of what is shared. Do be aware that there are default settings that make your site easy to demo and experience as you get started that might not be best for all real projects. 
 
-Default Web Roles Explained
-
-Default Settings / Open Registration
-
-<link to Profile Authentication article>
+Read more: [Power Pages Security](https://review.docs.microsoft.com/power-pages/security/power-pages-security?branch=preview-docs)
 	
-## Data Modeling Considerations
+## How will users interact with data : Data Modeling Considerations
+
+Here we are talking about Data workspace and Tables you build there and what design considerations you should think about. Let’s break it down into two - users are either authenticated and we can get very specific or they are anonymous.
+
+### Anonymous users data design
+
+This one is most simple because you do not have an option to get granular nor you would do anything specific in the data design. 
+
+What if you wanted to allow read so anonymous users can see data? You won’t need anything special in the data model, but consider that you will either show all or no records because if you assign global permission for all anonymous users the entire table you setup that way is shown in a list or form that you will surface on the public page.
+
+What if you wanted to allow creation of records for anonymous users? Same here, any users without login can create a number of records after you enable create and global for a table permission on such table and put a create form on a public page. 
+
+### Contextual authentication users data design
 
 Any authenticated user on your site after they register or login get a Contact record that represents them. 
 
@@ -97,84 +127,39 @@ There is a native built-in relationship to Accounts table in Dataverse that each
 
 Knowing this now if we wanted to segment data for users and their organizations, we have the right tools already waiting for us.
 
-Review Doc for Table Permission to learn more about Contact, Account scope. <link>
+Review documentation Table Permission to learn more about Contact, Account scope as those are the important building blocks if you want contextual data security.  Read more: [Power Pages Security](https://review.docs.microsoft.com/power-pages/security/power-pages-security?branch=preview-docs)
 
-Let's say we have orders we want suppliers to review when they login, we would want to add a Lookup field for Account table. We want to select a few Accounts on each Order record. We then want to setup just the right Contacts to such Accounts. Then when those contacts login to the portal they will only see the orders intended for them. Even if another supplier sends them a link or savvy users tries to use the Portal Web API they will not be able to touch data not linked to them.
+Let's say we have orders we want suppliers to review when they login, we would want to add a Lookup field for Account table. We want to select a few Accounts on each Order record. We then want to setup just the right Contacts to such Accounts. Then when those contacts login to the portal they will only see the orders intended for them. Even if another supplier sends them a link or savvy users tries to use any of our APIs they will not be able to touch data not linked to them, it's protected at platform level no matter how the users ask for the data. 
 
-What if you wanted to allow read so anonymous users can see data?
-
-What if you wanted to allow creation of records for anonymous users?
-
-## Onboard Users via Invitation 
-
-Now that we have started to consider how we will model any data, you know that users are Contact records and we store their idenitty in External Identity rows related to each Contact. If you are migrating from another web experience and you already know all your users - you can do a data job and pre-load all the contacts, their user identity information and they can login seamlessly into your new portal and have an expected experience of you knowing exactly who they are.
-
-So what is Invitation process? If you will have a scenario where you know your customers or customers come in via other systems and you need to invite them to a portal and link them to the Contact record you already have in Dataverse.
-
+VISUAL DIAGRAM HERE
 
 ## Consider separate Dev, Test, Production
 
-You want a working area to create and test new features away from live production site. While Power Pages offers ability to install more than one site in each Environment, it's almost always impractical to actually accomplish the needed proper separation working in just one Environment.
+You want a working area to create and test new features away from live production site. While Power Pages offers ability to install more than one site in each Environment, it's almost always impractical to actually accomplish the needed proper separation working in just one Environment. 
 
-### Development Environment 
+In short you should not go live on the same site you are working on right now. If you invite users to the site you are working on, it's hard to get them to stop coming here and go to your intended final one. 
 
-We encourage you to convert from Trial type to Production type as soon as possible, so you do not lose time resetting up your site host again. Your site is safely kept inside Dataverse
+We will go into this deeper in [Go live checklist](https://review.docs.microsoft.com/power-pages/go-live/checklist?branch=preview-docs)
 
-Rename your Website record to best represent your project and tell it apart when moving up.
+## Case for user testing
 
-"Contoso Student Portal" or "Student Site"  but not "Student Dev"
+You want to have a stable test site for your internal stakeholders and any early external testers. This will allow you to have a stable place where users can test while you work on more features and fine tuning in your Development environment. You want to list out core outcomes and ensure you have full complete test scenarios documented somewhere for yourself and shared with testers. 
 
-### Testing Environment 
+## Why you will eventually want a custom domain
 
-New Environment
+As you start to look towards your own Preview or Go Live you will want want a custom domain like ContosoPartnerRegistration.com or Students.Contoso.edu While Power Pages comes with subdomain URLs for your convenience under the .PowerPages.com domain (Ex: ContosoPartners.PowerPages.com), that is unlikely how you'd want to present your site to your users. Maybe your internal users would not need a flashy URL, but anyone external you really should invest in getting a custom domain. 
 
-Add new Portal
+This is where you need your own internal IT team to help you get one because Power Pages does not own those. As you start to look towards your own Preview or Go Live be sure to reach out and start this discussion internally so everyone has ample time to get ready. Remember your production setup for external identity provider would want the final URLs and your invitations and confirmation emails and anything else user-facing would like to have the final URLs. 
 
-Moving your relevant Dataverse tables in a Solution 
-
-Move your Portal configuration
-
-Update Portal configuration to use your Portal "Student Site" not "Default Template"
-	
-### Production Environment 
-
-This is the environment your live customers will use
-
-Repeat same as Testing
-
-If you have any invitation workflows with emails - here is where you setup final production URLs 
-
-Follow more guidance in setting up in Go Live Check link <link>
-
-Here are some other tips from across the Power Platform about good ALM practices.
-
-## User Testing
-
-You want to have a stable test site for your internal stakeholders and any early external testers. This will allow you to have a stable place where users can test while you work on more features and fine tuning in your Development environment. 
-
-You want to list out core outcomes and ensure you have full complete test scenarios documented somewhere for yourself and shared with testers. 
-
-You want your testers to report and take screenshots or recording of what happened. Doing this in a Test Environment would allow you to re-test this, then Development address the issue, move the fix to Test Environment to confirm it's addressed before moving the change up to Production.
-
-## Load Testing
-
-If you have high scalability needs (think 1000s of users a month or a very critical workload) consider performing load testing to know the type of performance you will get and troubleshoot any problem areas. 
-
-Consider reviewing with your Microsoft Customer Service Account Manager if a Microsoft Customer Engineer can help you, take a look at this post about some ways they can help you: Power Apps portal: How a Customer Engineer can help - Microsoft Dynamics CRM Community
-	
-## Custom Domain
-
-Microsoft offers you the URLs for your convenience under our PowerPages.com domain, but that is unlikely how you'd want to present your site to your users. You want a customer domain like ContosoStudents.com or Students.Contoso.edu - this is where you need your own IT team to help you. Be sure to reach out and start this discussion as you start to look towards your own Preview or Go Live. 
-
-You can read more about setting up Custom Domains here: 
-
-Please send this helpful information to your IT team as they need to know our requirements for the SSL Cert that will be needed to setup a Custom Domain <link> 
+To save time please send this helpful information to your IT team as they need to know our requirements for the SSL Certificate that will be required in order to setup your Custom Domain. You can read more about setting up [Custom Domains](https://docs.microsoft.com/en-us/power-apps/maker/portals/admin/add-custom-domain) 
 
 ## Also consider good strategies from Microsoft Power Apps 
 
-https://docs.microsoft.com/power-apps/guidance/planning/introduction
+Because Power Pages is part of Microsoft Power Platform, specifically Microsoft Dataverse and Microsoft Power Apps - there is very good relevant materials available here : [Introduction: Planning a Power Apps project](https://docs.microsoft.com/power-apps/guidance/planning/introduction)
 
-## See Also Go Live Checklist
-<>
+## Check out our Go Live Checklist
+
+If you want to peak ahead be sure to check out [Go live checklist](https://review.docs.microsoft.com/power-pages/go-live/checklist?branch=preview-docs)
+
 
 
