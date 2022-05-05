@@ -100,6 +100,10 @@ Repeat the instructions outlined until you've created the number of steps needed
 1. <!-- Step n -->
 
 ## Add an advanced form to a page
+<!-- Introduction paragraph -->
+1. <!-- Step 1 -->
+1. <!-- Step 2 -->
+1. <!-- Step n -->
 
 ## Next steps
 
