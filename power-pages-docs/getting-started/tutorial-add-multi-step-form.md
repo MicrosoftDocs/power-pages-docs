@@ -19,7 +19,7 @@ Advanced forms are a powerful way to collect and update information in Dataverse
 
 Advanced forms extend basic forms by:
 
-- Allowsdata collection or update process to be broken up over multiple steps.
+- Allows data collection or update process to be broken up over multiple steps.
 - Provides interactive conditions to direct a user down different paths of data updates.
 - Session tracking allows a user to pick up where they left off when following a data update process.
 
@@ -37,12 +37,12 @@ In this tutorial, you learn how to:
 > [!NOTE]
 > When creating an advanced from, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
 
-In the steps below, we'll create an advanced form which allows users to authenticate before creating an application.  Users wil also be able to pick up where they left off and apply multiple times.  You'll need to adjust these steps to reflect your own business requirements.
+In the steps below, we'll create an advanced form, which allows users to authenticate before creating an application.  Users will also be able to pick up where they left off and apply multiple times.  You'll need to adjust these steps to reflect your own business requirements.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. In the design studio, create/edit an existing form.
 1. From the design studio, go to the Portal Management app.
-1. In the Advanced frorms, create a new Advanced forms record.
+1. In the Advanced forms, create a new Advanced forms record.
 1. Set Authentication required to yes.
 1. Set start new session on load to no.
 1. Set Multiple records per user permitted to yes.
@@ -59,6 +59,6 @@ In the steps below, we'll create an advanced form which allows users to authenti
 
 ## Next steps
 
-Advance to the next article to learn how to configure site authentication to allow users to login using Azure AD B2C.
+Advance to the next article to learn how to configure site authentication to allow users to sign in using Azure AD B2C.
 > [!div class="nextstepaction"]
 > [Next steps](tutorial-setup-site-authentication.md)
