@@ -37,15 +37,24 @@ In this tutorial, you learn how to:
 > [!NOTE]
 > When creating an advanced from, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
 
-In the steps below, we'll create an advanced form, which allows users to authenticate before creating an application.  Users will also be able to pick up where they left off and apply multiple times.  You'll need to adjust these steps to reflect your own business requirements.
+In the steps below, we'll create an advanced form.  Advanced forms users to authenticate before creating an application.  Users will also be able to pick up where they left off and apply multiple times.  You'll need to adjust these steps to reflect your own business requirements.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. In the design studio, create/edit an existing form.
-1. From the design studio, go to the Portal Management app.
-1. In the Advanced forms, create a new Advanced forms record.
-1. Set Authentication required to yes.
-1. Set start new session on load to no.
-1. Set Multiple records per user permitted to yes.
+1. Go to the **Portal Management app**.
+1. In **Advanced forms**, create a new Advanced forms record.
+    :::image type="content" source="media/tutorial/new-advanced-forms-record.png" alt-text="Active Advanced Forms inside the Portal Management App.":::
+1. Specify the configurations.
+    - Set **Authentication required** to yes.
+    - Set **Start new session on load** to no.
+    - Set **Multiple records per user permitted** to yes.
+1. In the Advanced form steps tab, create a new Advanced from step record.
+    - Choose the **Load Form** type.
+    - Select the **table name** and then select the **Form Definition** tab.
+1. In the Form Definition tab, select insert.
+    - Choose the form name.
+    - Select the Associate Current Portal user and choose the Applicant relationship.
+1. 
 
 
 
