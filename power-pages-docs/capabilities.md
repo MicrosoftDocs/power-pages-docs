@@ -41,6 +41,19 @@ The [design studio](/getting-started/use-design-studio.md) provides the followin
 - [Data workspace](/getting-started/use-data-workspace.md) for creating and modifying Microsoft Dataverse tables used in data-driven web applications.
 - [Setup workspace](/configure/setup-workspace.md) for administration and site management
 
+## Responsive Rendering
+
+Power Pages is based on Bootstrap which natively provides support for building websites that are responsive, mobile friendly, and available in various form factors.
+
+<!--image-->
+**CONTENT NOTE:  BETTER IMAGE SHOWING SAME SCREEN DIFFERENT FORM FACTORS**
+
+:::image type="content" source="media/overview/form-factors.png" alt-text="Power Pages form factors.":::
+
+## Fully white-labeled
+
+All of a Power Pages site layout, including menu, headers, footers, pages, and all other components are fully customizable. Several customer organizations have built 100% white-labeled sites with Power Pages, using custom branding, theming, and logos. The Power Pages platform allows organizations to add vanity domains to their sites to create pixel perfect tailored online experiences.
+
 ## Advanced development capabilities for professional developers 
 
 Makers can work with pro-developers in fusion teams to extend the functionality using Visual Studio Code and the Power Platform CLI to create powerful business application web sites.
@@ -52,6 +65,9 @@ See more: [Using Visual Studio Code and Power Platform CLI](/configure/cli-tutor
 ## Robust security and governance capabilities
 
 ### Security
+
+<!--image-->
+**CONTENT NOTE: IMAGE CONVEYING SECURITY HERE**
 
 Power Pages inbuilt security is its core which allows organizations to securely enable access of their business data to their users (internal or external) via Portal’s authorization rules. For more information, go to [Power Pages Security](./security/power-pages-security.md)
 
