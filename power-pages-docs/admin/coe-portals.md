@@ -18,6 +18,22 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
+Power Pages provides some helpful tools for administrators to manage their sites and environments.
+
+The [Power Pages admin center](admin-overview.md) allows administrators various capabilities:
+- Configure vanity domains
+- Manage lifecycle operations:
+    - Create
+    - Delete
+    - Convert to Production
+    - License assignments.
+- Restrict IP addresses
+- Change Dataverse environments
+- Upload and manage custom certificates
+- Enable integrations
+
 The [Power Platform Center of Excellence toolkit](/power-platform/guidance/coe/starter-kit) provides tools and guidance on managing your Power Pages sites.
 
-[!INCLUDE[faq](../includes/cc-faqs.md)]
+<!--TO DO-->
+More info
+

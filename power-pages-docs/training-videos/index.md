@@ -33,7 +33,7 @@ The following videos will show you how to create a page in your site and arrange
 - [Create and design pages](../getting-started/first-page.md)
 - [Tutorial: Add and design a page](../getting-started/tutorial-add-webpage.md)
 
-## Set up your brand kit
+## Setup your brand kit
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
