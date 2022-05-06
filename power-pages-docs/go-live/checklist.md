@@ -4,7 +4,7 @@ description: Learn how to go live.
 author: NikitaPolyakovMSFT
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/17/2022
+ms.date: 05/06/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -26,7 +26,7 @@ Set your browser suffix "Home page - Starter Portal"
 
 Set your Copyright text in the Footer Web Template
 
-Delete or Deactivate any unused pages - just because it's not in the menu does not mean it's gone
+Delete or Deactivate any unused pages - just because it's not in the menu doesn't mean it's gone
 
 Secure any unfinished functionality behind a separate Web Role 
 
@@ -36,7 +36,7 @@ You want a working area to create and test new features away from live productio
 
 ### Development Environment 
 
-We encourage you to convert from Trial type to Production type as soon as possible, so you do not lose time resetting up your site host again. Your site is safely kept inside Dataverse
+We encourage you to convert from Trial type to Production type as soon as possible, so you don't lose time resetting up your site host again. Your site is safely kept inside Dataverse
 
 Rename your Website record to best represent your project and tell it apart when moving up.
 
@@ -59,20 +59,20 @@ This is where your identity options are finalized and unused ones are removed
 
 ## When and why to do performance testing
 
-If you have high scalability needs (think 1000s of users a month or a very critical workload) consider performing load testing to know the type of performance you will get and troubleshoot any problem areas. 
+If you have high scalability needs (think 1000s of users a month or a very critical workload) consider performing load testing to know the type of performance, you'll get and troubleshoot any problem areas. 
 
 Consider reviewing with your Microsoft Customer Service Account Manager if a Microsoft Customer Engineer can help you, take a look at this post about some ways they can help you: [Power Apps portal: How a Customer Engineer can help - Microsoft Dynamics CRM Community] (https://community.dynamics.com/crm/b/crminthefield/posts/power-apps-portal-how-a-customer-engineer-can-help)
 
 
 # Get a Custom Domain 
 	
-Setup custom domain - while we are fine with you using our domain like contosositeprod.powerpages.com - you might really want your users to see your own URL listed like customercenter.contso.com and use that in your invitations
+Setup custom domain - while we're fine with you using our domain like contosositeprod.powerpages.com - you might really want your users to see your own URL listed like customercenter.contso.com and use that in your invitations
 
 You can read more about setting up [Custom Domains](https://docs.microsoft.com/en-us/power-apps/maker/portals/admin/add-custom-domain) 
 
 # Complete Identity Setup
 
-If you are using it, rename "Azure AD" login button to something like "Contoso Employees". To do so by providing a text value this Site Setting "" for your specific Website. Find it in Site Settings area of Portal Management App <link>
+If you're using it, rename "Azure AD" sign in button to something like "Contoso Employees". To do so by providing a text value this Site Setting "" for your specific Website. Find it in Site Settings area of Portal Management App <link>
 
 Setup external identity provider. Set this up in Setting up IDPs <link>
 
@@ -82,11 +82,11 @@ Tip: You would want to finish setup of the custom domain because the redirect UR
 
 # Announce Portal & Invite Users
 
-You want the world to know about your project, or maybe not. But you certainly do If you have passive use-case or self-registration. Consider sending a newsletter and inviting your end-customer user base to the site and let them know what they can expect to do and the value it serves to them.
+You want the world to know about your project, or maybe not. But you certainly do. If you have passive use-case or self-registration. Consider sending a newsletter and inviting your end-customer user base to the site and let them know what they can expect to do and the value it serves to them.
 
 If you know your end-customers already - bring them in and use the invitation process <link>
 
-Format the Email to include final production custom domain URL and be sure to provide guidance on what they should expect in terms of identity provider as they could mean they can use an existing on or they would need to also create a login profile inside of your identity provider during invitation redemption or self-registration process on your site. 
+Format the Email to include final production custom domain URL and be sure to provide guidance on what they should expect in terms of identity provider as they could mean they can use an existing on or they would need to also create a sign in profile inside of your identity provider during invitation redemption or self-registration process on your site. 
 
 # Assign Licensing Capacity
 
@@ -96,11 +96,11 @@ Convert from Trial if not already done so <link>
 
 Assign capacity to Environment the site is in <link>
 
-At the time of writing the Power Pages capacity would be using Power Apps portals constructs of Page View and Portal Login. <link>
+At the time, of writing the Power Pages capacity would be using Power Apps portals constructs of Page View and Portal sign-in. <link>
 
 # Setup Monitoring
 
-In order to understand statistics for your users you want to capture them right at the launch. Remember you can't in future go back to measure something you did not start to track. Microsoft does not provide an out of the box feature as part of Power Pages at this time. 
+In order to understand statistics for your users, you want to capture them right at the launch. Remember you can't in future go back to measure something you didn't start to track. Microsoft doesn't provide an out of the box feature as part of Power Pages at this time. 
 
 You can use any vendor who can do font-end web application telemetry and tracking and monitoring. 
 
