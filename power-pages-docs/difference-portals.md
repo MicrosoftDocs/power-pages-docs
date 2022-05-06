@@ -4,7 +4,7 @@ description: Learn about the difference between Power Pages and Power Apps porta
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/15/2022
+ms.date: 05/06/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -17,6 +17,8 @@ contributors:
 [!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 Power Pages is an enterprise-grade low-code SaaS platform for creating, hosting, and administering rich external business web applications to allow organizations to better serve their customers, partners, and citizen audiences.
+
+:::image type="content" source="media/overview/power-pages-templates.png" alt-text="Use a variety of templates in Power Pages.":::
 
 Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/) and utilizes the same infrastructure, metadata and tools.
 
