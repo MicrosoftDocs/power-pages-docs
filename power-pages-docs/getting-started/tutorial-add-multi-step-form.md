@@ -115,9 +115,12 @@ Repeat the instructions outlined until you've created the number of steps needed
 
 ## Add an advanced form to a page
 <!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. In the design studio, Add a New Page.
+:::image type="content" source="media/tutorial/advanced-form-add-page.png" alt-text="Add a new page pop up.":::
+1. Open code editor.  
+:::image type="content" source="media/tutorial/advanced-form-code-editor.png" alt-text="Code editor icon in design studio.":::
+1. Between the ``<div> </div>`` tags, paste the following (replace 'Scholarship Application') with your equivalent
+
 
 ## Next steps
 
