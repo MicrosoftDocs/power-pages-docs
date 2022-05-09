@@ -1,10 +1,10 @@
 ---
 title: "Tutorial: Style your site"
-description: Learn how to use the styling workspace in your Power Pages site.
+description: Learn how to customize your Portal to match your corporate brand.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 04/21/2022
+ms.date: 05/09/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,107 +13,45 @@ contributors:
     - ProfessorKendrick
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Style your site 
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
-
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
+Power Pages sites can be customized to incorporate your corporate branding styles.
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> * Set your corporate logo.
+> * Define your color palette.
+> * Set up your fonts.
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- A png file of your corporate logo (64 x 64 pixels).
+- A list of the hex codes for your corporate color palette.
+- A list of your corporate font standards.
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
-
-## [Section 1 heading]
-<!-- Introduction paragraph -->
+## Adding your corporate logo to Power Pages
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. Inside the design studio, mouse over the existing logo and select **Image** when the flyover appears.
+1. Select the **Image button**.
+1. Choose an existing image from the media library, or upload a new image.
+1. Select the image you'd like to use (in this instance, use the corporate logo you uploaded).
 
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+## Set your brand color palette
 
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+You can update the color palette to incorporate two or three primary brand colors, and neutral complimentary colors.  These colors can be used consistently across your entire Power Pages site.
 
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
+1. Inside the design studio, go to the styling workspace and select the colors you'd like to use for the background and fonts.
+1. Select **Save changes**.
+ 
+## Set up your corporate brand fonts
 
-## Clean up resources
-
-If you're not going to continue to use this application, delete
- with the following steps:
-
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
-
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
+1. Inside the design studio, go to the styling workspace and define the font types for headers, subheaders, paragraphs, and buttons.
+1. You can also adjust the sizes and colors for each based on your color palette. Any updates you make are immediately reflected on your site.
+1. Select **Save changes** to update your styling.  The theme you updated will have a modified label.
+1. If at any time you wish to start over, select the **ellipses** and select **Reset to default**.
 
 ## Next steps
-
-Advance to the next article to learn how to add a grid to a page to display records from Dataverse.
-> [!div class="nextstepaction"]
-> [Next steps](tutorial-add-list-to-page.md)
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->

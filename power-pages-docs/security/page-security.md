@@ -31,3 +31,7 @@ In design studio, select the ellipses (**...**) from the toolbelt and select **P
 ## Create and manage page permissions
 
 For detailed information, go to [Manage page permissions](/power-apps/maker/portals/configure/webpage-access-control) in the Power Apps documentation.
+
+## See Also
+
+[Tutorial: Setup page permissions](../getting-started/tutorial-setup-page-permissions.md)<br>

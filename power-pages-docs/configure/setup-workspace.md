@@ -5,7 +5,7 @@ author: nickdoelman
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/19/2022
+ms.date: 05/09/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -26,21 +26,18 @@ The Setup workspace allows you to configure key aspects of your Power Pages site
 
 You can configure various authentication providers to allow access to protected pages and data.
 
-See also:
+For more information go to: [Configure Power Pages Authentication](../security/configure-portal-authentication.md)
 
 ## Table permissions
 
 You can configure table permissions on Dataverse tables used in your Power Pages site.
 
-See also:
+For more information go to: [Configure table permissions](../security/table-permissions.md)
 
 ## Mobile
 
-**Coming Soon**. You will have the ability to configure progressive web applications (PWAs) from your Power Page's site.
+You will have the ability to learn more about progressive web applications (PWAs) using Power Pages.
 
 ## Administration
 
-**Coming Soon**. You will be able to access the Power Pages administration center as well as configure site settings.
-
-
-
+You administration section is where you can access the Power Pages administration center.
