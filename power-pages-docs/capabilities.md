@@ -36,7 +36,7 @@ Makers can build powerful and engaging sites without writing a single line of co
 
 The new and enhanced [design studio](getting-started/use-design-studio.md) provides the following workspaces:
 
-- [Pages workspace](getting-started/first-page.md) for creating, designing and arranging web pages.
+- [Pages workspace](getting-started/first-page.md) for creating, designing, and arranging web pages.
 - [Style workspace](getting-started/style-site.md) for applying styles and themes to your site.
 - [Data workspace](getting-started/use-data-workspace.md) for creating and modifying Microsoft Dataverse tables used in data-driven web applications.
 - [Setup workspace](configure/setup-workspace.md) for administration and site management
