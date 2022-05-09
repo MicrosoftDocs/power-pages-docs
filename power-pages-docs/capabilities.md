@@ -4,7 +4,7 @@ description: Learn about Power Pages capabilities.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2022
+ms.date: 05/09/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -50,17 +50,16 @@ Power Pages is based on Bootstrap which natively provides support for building w
 
 :::image type="content" source="media/overview/form-factors.png" alt-text="Power Pages form factors.":::
 
-## Fully white-labeled
-
-All of a Power Pages site layout, including menu, headers, footers, pages, and all other components are fully customizable. Several customer organizations have built 100% white-labeled sites with Power Pages, using custom branding, theming, and logos. The Power Pages platform allows organizations to add vanity domains to their sites to create pixel perfect tailored online experiences.
-
 ## Advanced development capabilities for professional developers 
 
 Makers can work with pro-developers in fusion teams to extend the functionality using Visual Studio Code and the Power Platform CLI to create powerful business application web sites.
 
 :::image type="content" source="media/overview/vs-code-pac-cli.png" alt-text="Visual Studio Code.":::
 
-See more: [Using Visual Studio Code and Power Platform CLI](/configure/cli-tutorial.md)
+See more: 
+- [Using Visual Studio Code and Power Platform CLI](/configure/cli-tutorial.md)
+- [Use the code editor](/getting-started/code-editor.md)
+- [Add code components](/configure/component-framework.md)
 
 ## Robust security and governance capabilities
 
