@@ -34,7 +34,7 @@ Makers can build powerful and engaging sites without writing a single line of co
 
 :::image type="content" source="media/overview/design-studio.png" alt-text="Design studio.":::
 
-The [design studio](getting-started/use-design-studio.md) provides the following workspaces:
+The new and enhanced [design studio](getting-started/use-design-studio.md) provides the following workspaces:
 
 - [Pages workspace](getting-started/first-page.md) for creating, designing and arranging web pages.
 - [Style workspace](getting-started/style-site.md) for applying styles and themes to your site.
