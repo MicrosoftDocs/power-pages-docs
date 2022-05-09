@@ -119,7 +119,12 @@ Repeat the instructions outlined until you've created the number of steps needed
 :::image type="content" source="media/tutorial/advanced-form-add-page.png" alt-text="Add a new page pop-up.":::
 1. Open **code editor**.  
 :::image type="content" source="media/tutorial/advanced-form-code-editor.png" alt-text="Code editor icon in design studio.":::
-1. Between the ``<div> </div>`` tags, paste the following (replace 'Scholarship Application') with your equivalent
+1. Between the ``<div> </div>`` tags, paste the following (replace 'Scholarship Application') with your equivalent.
+1. Select **Save**.
+1. Select **Preview**.
+1. Sign-in to the portal.
+1. Open data workspace in design studio.
+1. Select the Application table to view the data.
 
 
 ## Next steps
