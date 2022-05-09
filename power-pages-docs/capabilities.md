@@ -26,7 +26,7 @@ Quickly create new site directly from the Power Pages home page using the defaul
 
 :::image type="content" source="media/overview/create-a-site.png" alt-text="Create a Power Pages site.":::
 
-See more: [Create a site](/getting-started/create-manage.md)
+See more: [Create a site](getting-started/create-manage.md)
 
 ### Design studio
 
@@ -34,12 +34,12 @@ Makers can build powerful and engaging sites without writing a single line of co
 
 :::image type="content" source="media/overview/design-studio.png" alt-text="Design studio.":::
 
-The [design studio](/getting-started/use-design-studio.md) provides the following workspaces:
+The [design studio](getting-started/use-design-studio.md) provides the following workspaces:
 
-- [Pages workspace](/getting-started/first-page.md) for creating, designing and arranging web pages.
-- [Style workspace](/getting-started/style-site.md) for applying styles and themes to your site.
-- [Data workspace](/getting-started/use-data-workspace.md) for creating and modifying Microsoft Dataverse tables used in data-driven web applications.
-- [Setup workspace](/configure/setup-workspace.md) for administration and site management
+- [Pages workspace](getting-started/first-page.md) for creating, designing and arranging web pages.
+- [Style workspace](getting-started/style-site.md) for applying styles and themes to your site.
+- [Data workspace](getting-started/use-data-workspace.md) for creating and modifying Microsoft Dataverse tables used in data-driven web applications.
+- [Setup workspace](configure/setup-workspace.md) for administration and site management
 
 ## Responsive Rendering
 
@@ -68,9 +68,9 @@ See more:
 <!--image-->
 **CONTENT NOTE: IMAGE CONVEYING SECURITY HERE**
 
-Power Pages inbuilt security is its core which allows organizations to securely enable access of their business data to their users (internal or external) via Portal’s authorization rules. For more information, go to [Power Pages Security](./security/power-pages-security.md)
+Power Pages inbuilt security is its core which allows organizations to securely enable access of their business data to their users (internal or external) via Portal’s authorization rules. For more information, go to [Power Pages Security](security/power-pages-security.md)
 
-Organizations using Power Portal can choose from a variety of authentication providers or allow access to portal content anonymously. For more information, go to [Configure Authentication](/security/configure-portal-authentication.md)
+Organizations using Power Portal can choose from a variety of authentication providers or allow access to portal content anonymously. For more information, go to [Configure Authentication](security/configure-portal-authentication.md)
 
 Power Pages is hosted as Azure App Service, which has International Organization for Standardization (ISO), System and Organization Controls (SOC), and Payment cards Industry Data Security Standards (PCI DSS) compliance. For more information, go to [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview)
 
@@ -82,7 +82,7 @@ You can also configure Power Pages to use edge caching and Web Application Firew
 
 Power Pages and provides some helpful tools for administrators to manage the administration and lifecycle of their sites and environments.
 
-For more information, go to [Power Pages Governance](../admin/coe-portals.md)
+For more information, go to [Power Pages Governance](admin/coe-portals.md)
 
 ## Integration with other Power Platform components
 
