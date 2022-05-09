@@ -1,7 +1,7 @@
 ---
 title: Content coming soon
 description: Placeholder topic for content coming soon Learn how to use the portals admin center
-ms.service: power-pages
+ms.service: power-platform
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
