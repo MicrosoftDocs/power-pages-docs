@@ -50,7 +50,7 @@ When you configure a list or a form in Power pages, by default your users won't 
 
 In the steps below, you'll set Global access with Read permissions for an Authenticated user.
 
-1. View a page that includes a view that you do not have permissions to view the data.
+1. View a page that includes a view that you don't have permissions to view the data.
 1. From a list, choose on the **Permission** button.
 1. Select to create a new table permission.
 1. Give the table permission a name and choose **Table**.
@@ -58,7 +58,7 @@ In the steps below, you'll set Global access with Read permissions for an Authen
 1. Set permissions to **Read**.
 1. Assign the Table permission to the **Authenticated user** web role.
 1. Select **Save**.
-1. View the page on the portal. When a user logs in they should see all the data in the table.
+1. View the page on the portal. When a user logs in, they should see all the data in the table.
 
 > [!NOTE]
 > There are several different access types and privileges in Power Pages.  
@@ -68,11 +68,11 @@ In the steps below, you'll set Global access with Read permissions for an Authen
 
 ## Add web roles
 
-When creating table permissions or page access permissions,these need to associate with a web role in order for portal visitors to be able to access the data or view a protected page.
+When creating table permissions or page access permissions, they need to associate with a web role in order for portal visitors to be able to access the data or view a protected page.
 
 1. From an existing list or form, select the **Permission** button and view a table permission.
 1. Open the Portals Management app and view **Web Roles**.
-1. Create a new web role and give it a descriptive name.  Do not set the Authenticated Users role or the Anonymous Users role.
+1. Create a new web role and give it a descriptive name.  Don't set the Authenticated Users role or the Anonymous Users role.
 1. Save the web role record.  
 1. Select **Related** and choose a few contacts.
 1. Within the studio on a list or a form, choose the permissions button and select a table permission, then assign the custom web role.
@@ -82,4 +82,4 @@ When creating table permissions or page access permissions,these need to associa
 
 ## Next steps
 
-Advance to the next article to learn how to 
+Advance to the next article to learn how to [Setup page permissions](tutorial-setup-page-permissions.md).
