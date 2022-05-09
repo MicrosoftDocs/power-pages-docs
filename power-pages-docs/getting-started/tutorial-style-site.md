@@ -42,7 +42,7 @@ In this tutorial, you learn how to:
 
 ## Set your brand color palette
 
-In this section, we will update the color palette to incorporate two or three primary brand colors, as well as neutral complimentary colors.  These colors can be used consistently across your entire Power Pages site.
+You can update the color palette to incorporate two or three primary brand colors, and neutral complimentary colors.  These colors can be used consistently across your entire Power Pages site.
 
 1. Inside the design studio, go to the styling workspace and select the colors you'd like to use for the background and fonts.
 1. Select **Save changes**.
@@ -50,7 +50,7 @@ In this section, we will update the color palette to incorporate two or three pr
 ## Set up your corporate brand fonts
 
 1. Inside the design studio, go to the styling workspace and define the font types for headers, subheaders, paragraphs, and buttons.
-1. You an also optionally adjust the sizes and colors for each based on your color palette. Any updates you make are immediately reflected on your site.
+1. You can also adjust the sizes and colors for each based on your color palette. Any updates you make are immediately reflected on your site.
 1. Select **Save changes** to update your styling.  The theme you updated will have a modified label.
 1. If at any time you wish to start over, select the **ellipses** and select **Reset to default**.
 
