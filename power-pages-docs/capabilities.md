@@ -68,13 +68,13 @@ See more:
 <!--image-->
 **CONTENT NOTE: IMAGE CONVEYING SECURITY HERE**
 
-Power Pages inbuilt security is its core which allows organizations to securely enable access of their business data to their users (internal or external) via Portal’s authorization rules. For more information, go to [Power Pages Security](security/power-pages-security.md)
+Power Pages inbuilt security is its core which allows organizations to securely enable access of their business data to their users (internal or external) via Power Page’s authorization rules. For more information, go to [Power Pages Security](security/power-pages-security.md)
 
-Organizations using Power Portal can choose from a variety of authentication providers or allow access to portal content anonymously. For more information, go to [Configure Authentication](security/configure-portal-authentication.md)
+Organizations using Power Pages can choose from a variety of authentication providers or allow access to site content anonymously. For more information, go to [Configure Authentication](security/configure-portal-authentication.md)
 
 Power Pages is hosted as Azure App Service, which has International Organization for Standardization (ISO), System and Organization Controls (SOC), and Payment cards Industry Data Security Standards (PCI DSS) compliance. For more information, go to [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview)
 
-Portals support modern TLS crypto standards (TLS 1.2) and has inbuilt DDOS protection. Power Pages supports dynamic IP restriction to rate limit traffic from bad actors and provide secure configuration driven mechanisms for admins to address top web security vulnerabilities such as injection attacks, cross site request forgery, and server-side request forgery.
+Power Pages support modern TLS crypto standards (TLS 1.2) and has inbuilt DDOS protection. Power Pages supports dynamic IP restriction to rate limit traffic from bad actors and provide secure configuration driven mechanisms for admins to address top web security vulnerabilities such as injection attacks, cross site request forgery, and server-side request forgery.
 
 You can also configure Power Pages to use edge caching and Web Application Firewall (WAF) capabilities.  For more information, go to [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door).
 
