@@ -19,7 +19,7 @@ contributors:
 
 The Power Pages trial offers a simple and easy experience for sign-up, sign in and usage. However, if you're stuck or have questions about the trial, check out this page for answers. 
 
-To sign up for the trial, go to the [Power Pages overview page](https://powerapps.microsoft.com/en-us/powerpages/) and select **Start free**
+To sign up for the trial, go to the [Power Pages overview page](https://powerpages.microsoft.com/) and select **Start free**
 
 [!INCLUDE[trial-faq-platform](../includes/trial-faq-platform.md)]
 
