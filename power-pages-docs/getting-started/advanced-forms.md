@@ -4,7 +4,7 @@ description: Learn how to add advanced forms to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/19/2022
+ms.date: 05/09/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -25,7 +25,7 @@ Once you have created your advanced form configuration, you can add it to your p
 
 1. In the design studio, create or edit a page.
 
-1. Select the code editor icon, and in between the `<div></div>` tags, enter in the following Liquid code snippet:
+1. Select the [code editor](code-editor.md) icon, and in between the `<div></div>` tags, enter in the following Liquid code snippet:
 
     ```html
     {% webform name: '<name of advanced form>' %}
@@ -41,3 +41,6 @@ Once you have created your advanced form configuration, you can add it to your p
 
 1. Select **Save** on the code editor window.
 
+## See Also
+
+[Tutorial: Add a multi-step form to your page](tutorial-add-multi-step-form.md)<br>
