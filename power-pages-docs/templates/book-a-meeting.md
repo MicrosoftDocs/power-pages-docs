@@ -48,34 +48,46 @@ As a bank representative, you can do the following seamlessly:
 
 Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
 
-The following are the customizable tables, basic forms, lists, and code components provided in the template.
+The following are the pages, basic forms, and customizable tables provided in the template.
 
 ### Customer pages
 
 The following pages are utilized by **Bank Customers**:
 
 
-| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
-|-----------|------------|-----------|-----------|-----------------|
-| Home |||
-| Book an appointment| | Book an appointment form | | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
-| Cancel appointment | | Cancel appointment form | | Customer cancels an appointment that was booked. |
-| Reschedule appointment | | Reschedule appointment form | | Customer reschedules an appointment that was booked. |
+| **Pages** | **Forms** | **Description** |
+|-----------|-----------|-----------------|
+| Home || | |
+| Book an appointment| Book an appointment form | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
+| Cancel appointment | Cancel appointment form | Customer cancels an appointment that was booked. |
+| Reschedule appointment | Reschedule appointment form | Customer reschedules an appointment that was booked. |
 
 ### Admin pages
 
 The following pages are utilized by **Bank Representatives**:
 
-| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
-|-----------|------------|-----------|-----------|-----------------|
-| Home | | | List styled as a calendar | |
-| Specialties | | | List styled as subgrids | |
-| Cancel appointment| | Appointment form | | Bank representative cancels an appointment that was booked. |
-| Edit appointment | | Edit appointment form | | Bank representative edits an appointment that was booked. | 
-| Edit unavailability | | Appointment create form | | Bank representative edits availability. | 
-| Reschedule appointment | | Reschedule appointment form | | Bank representative schedules an appointment that was booked. |
-| Create unavailability | | Calendar block form | | Bank representative creates unavailability. |
+| **Pages** | **Forms** | **Description** |
+|-----------|-----------|-----------------|
+| Home || |
+| Specialties | ||
+| Cancel appointment|  Appointment form | Bank representative cancels an appointment that was booked. |
+| Edit appointment |  Edit appointment form | Bank representative edits an appointment that was booked. | 
+| Edit unavailability |  Appointment create form | Bank representative edits availability. | 
+| Reschedule appointment | Reschedule appointment form | Bank representative schedules an appointment that was booked. |
+| Create unavailability |  Calendar block form | Bank representative creates unavailability. |
 
+### Tables
+
+All data for this template is stored in these tables:
+
+|**Table**|**Description**|
+|---------|---------|
+|Appointment    |         |
+|AppointmentRequest     |         |
+|Contact     |         |
+|Location    |         |
+|Service     |         |
+|Website     |         |
 
 ## Professional developers
 
