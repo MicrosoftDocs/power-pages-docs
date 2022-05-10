@@ -57,30 +57,22 @@ The following are the pages, basic forms, and customizable tables provided in th
 The following pages are utilized by **Bank Customers**:
 
 
-| **Pages** | **Description** |
------------|-----------------|
-| Home | |
-| Book an appointment|  Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
-| Cancel appointment | Customer cancels an appointment that was booked. |
-| Reschedule appointment | Customer reschedules an appointment that was booked. |
+| **Page** | **Description** |
+|-----------|-----------------|
+|           |                 |
+
 
 #### Admin pages
 
 The following pages are utilized by **Bank Representatives**:
 
-| **Pages** | **Description** |
+| **Page** | **Description** |
 |-----------|-----------------|
-| Home || 
-| Specialties | |
-| Cancel appointment|  Bank representative cancels an appointment that was booked. |
-| Edit appointment |  Bank representative edits an appointment that was booked. | 
-| Edit unavailability |  Bank representative edits availability. | 
-| Reschedule appointment |  Bank representative schedules an appointment that was booked. |
-| Create unavailability |  Bank representative creates unavailability. |
+|           |                 |
 
 ### Forms 
 
-The forms are included in this template:
+The following forms are included in this template:
 
 |**Form**  | **Description**  |
 |---------|---------|

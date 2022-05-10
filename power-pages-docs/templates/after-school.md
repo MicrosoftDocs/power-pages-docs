@@ -59,27 +59,23 @@ The following are the pages, basic forms, and customizable tables provided in th
 
 The following pages are utilized by **Parents**:
 
-| **Pages** | **Forms** |**Description** |
-|-----------|-----------|----------------|
-|           |           |                |
+| **Page** | **Description** |
+|-----------|----------------|
+|           |               |
 
 
 #### Admin pages
 
 The following pages are utilized by **School Representatives**:
 
-| **Pages** |  **Forms** | **Description** |
-|-----------|-----------|-----------------|
-| Courses Home | | Displays the courses that are available. |
-| Edit Course  | Portal course form|Ability to modify existing course(s). |
-| Delete Course  | Delete a course form | Ability to delete a course. |
-| Create Course | Portal course form  | Ability to create a course. |
-| Duplicate Course  | Portal course form |  Ability to duplicate a course. |
-| View Registrations  | |View registrations for attendees. |
+| **Page** | **Description** |
+|-----------|----------------|
+|           |               |
+
 
 ### Forms
 
-The forms are included in this template:
+The following forms are included in this template:
 
 |**Form**  | **Description**  |
 |---------|-------------------|
