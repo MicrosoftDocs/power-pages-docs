@@ -59,8 +59,8 @@ The following pages are utilized by **Parents**:
 
 | **Pages** | **Tables** | **Forms** |**Description** |
 |-----------|------------|-----------|-----------------|
-| Home      | | | List view |Displays courses and key details about each course. |
-| Unregister Attendee | |Registration unregister form |  | Ability to unregister children who are currently registered. |
+| Home      | | | Displays courses and key details about each course. |
+| Unregister Attendee | |Registration unregister form | Ability to unregister children who are currently registered. |
 | Add Attendee Profile |  | Add child profile |  Ability to add an attendee. | 
 | Attendee Information | | |View details of children who are registered. |
 | Edit Attendee Profile | | Edit child profile | Edit the information for children in "My Children." |
