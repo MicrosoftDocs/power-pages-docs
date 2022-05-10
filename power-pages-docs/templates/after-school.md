@@ -53,22 +53,18 @@ Makers are able to use the [design studio](../getting-started/use-design-studio.
 
 The following are the pages, basic forms, and customizable tables provided in the template.
 
-### Customer pages
+### Pages
+
+#### Customer pages
 
 The following pages are utilized by **Parents**:
 
 | **Pages** | **Forms** |**Description** |
-|-----------|-----------|-----------------|
-| Home      || Displays courses and key details about each course. |
-| Unregister Attendee |Registration unregister form | Ability to unregister children who are currently registered. |
-| Add Attendee Profile   | Add child profile |  Ability to add an attendee. | 
-| Attendee Information | |View details of children who are registered. |
-| Edit Attendee Profile  | Edit child profile | Edit the information for children in "My Children." |
-| My Registrations  | |View courses that attendees are registered for. |
-| Registration Success  | ||
-| View Course Details  | |  |
+|-----------|-----------|----------------|
+|           |           |                |
 
-### Admin pages
+
+#### Admin pages
 
 The following pages are utilized by **School Representatives**:
 
@@ -81,16 +77,25 @@ The following pages are utilized by **School Representatives**:
 | Duplicate Course  | Portal course form |  Ability to duplicate a course. |
 | View Registrations  | |View registrations for attendees. |
 
+### Forms
+
+The forms are included in this template:
+
+|**Form**  | **Description**  |
+|---------|-------------------|
+|         |                   |
+
+
 ### Tables
 
 All data for this template is stored in these tables:
 
 
 |**Table** |**Description** |
-|---------|---------|
-|Appointment   |         |
-|Contact     |         |
-|Course    |         |
+|----------|----------------|
+|Appointment   |            |
+|Contact     |              |
+|Course    |                |
 |Registration     |         |
 
 

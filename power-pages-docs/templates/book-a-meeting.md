@@ -80,6 +80,8 @@ The following pages are utilized by **Bank Representatives**:
 
 ### Forms 
 
+The forms are included in this template:
+
 |**Form**  | **Description**  |
 |---------|---------|
 |Row1     |         |
