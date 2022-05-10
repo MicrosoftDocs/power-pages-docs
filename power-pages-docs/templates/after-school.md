@@ -57,29 +57,29 @@ The following are the pages, basic forms, and customizable tables provided in th
 
 The following pages are utilized by **Parents**:
 
-| **Pages** | **Tables** | **Forms** |**Description** |
-|-----------|------------|-----------|-----------------|
-| Home      | | | Displays courses and key details about each course. |
-| Unregister Attendee | |Registration unregister form | Ability to unregister children who are currently registered. |
-| Add Attendee Profile |  | Add child profile |  Ability to add an attendee. | 
-| Attendee Information | | |View details of children who are registered. |
-| Edit Attendee Profile | | Edit child profile | Edit the information for children in "My Children." |
-| My Registrations |  | |View courses that attendees are registered for. |
-| Registration Success | | ||
-| View Course Details | | |  |
+| **Pages** | **Forms** |**Description** |
+|-----------|-----------|-----------------|
+| Home      || Displays courses and key details about each course. |
+| Unregister Attendee |Registration unregister form | Ability to unregister children who are currently registered. |
+| Add Attendee Profile   | Add child profile |  Ability to add an attendee. | 
+| Attendee Information | |View details of children who are registered. |
+| Edit Attendee Profile  | Edit child profile | Edit the information for children in "My Children." |
+| My Registrations  | |View courses that attendees are registered for. |
+| Registration Success  | ||
+| View Course Details  | |  |
 
 ### Admin pages
 
 The following pages are utilized by **School Representatives**:
 
-| **Pages** | **Tables** | **Forms** | **Description** |
-|-----------|------------|-----------|-----------------|
-| Courses Home || | Displays the courses that are available. |
-| Edit Course | | Portal course form|Ability to modify existing course(s). |
-| Delete Course | | Delete a course form | Ability to delete a course. |
-| Create Course | | Portal course form  | Ability to create a course. |
-| Duplicate Course | | Portal course form |  Ability to duplicate a course. |
-| View Registrations | | |View registrations for attendees. |
+| **Pages** |  **Forms** | **Description** |
+|-----------|-----------|-----------------|
+| Courses Home | | Displays the courses that are available. |
+| Edit Course  | Portal course form|Ability to modify existing course(s). |
+| Delete Course  | Delete a course form | Ability to delete a course. |
+| Create Course | Portal course form  | Ability to create a course. |
+| Duplicate Course  | Portal course form |  Ability to duplicate a course. |
+| View Registrations  | |View registrations for attendees. |
 
 ### Tables
 
