@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Getting started Power Pages Tutorials
+# Get started Power Pages tutorials
 
 Each tutorial in this section covers an area where you can learn to build a visually pleasing, secure and functioning Power Pages site. Each tutorial builds on knowledge and skills covered in each tutorial step, so it's beneficial to complete the tutorials in order.
 

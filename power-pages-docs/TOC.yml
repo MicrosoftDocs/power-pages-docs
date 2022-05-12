@@ -30,16 +30,16 @@
           href: templates/after-school.md
         - name: Book a Meeting template
           href: templates/book-a-meeting.md      
-    - name: Learn hub
+    - name: Learning hub
       href: getting-started/use-learnhub.md 
     - name: Power Pages community
-      href: getting-started/community.md 
+      href: getting-started/community.md
+    - name: Planning your Power Pages project
+      href: configure/planning-power-pages-project.md       
 - name: Design and build 
   items:
   - name: Dataverse and Power Pages
     href: getting-started/what-is-dataverse.md
-  - name: Planning your Power Pages project
-    href: configure/planning-power-pages-project.md     
   - name: Use Pages workspace
     items:  
       - name: Create and design pages
@@ -89,7 +89,7 @@
   - name: Use Setup Workspace
     href: configure/setup-workspace.md
 - name: Administer Power Pages
-  items: 
+  items:   
     - name: Using the portals admin center
       href: admin/admin-overview.md
     - name: Capacity consumption reports
@@ -99,23 +99,19 @@
     - name: View error log 
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy 
-      href: admin/compliance-privacy.md
+      href: admin/compliance-privacy.md        
     - name: Governance 
       href: admin/coe-portals.md            
 - name: Configure Power Pages
   items:
     - name: Portal Management app overview
       href: configure/portal-management-app.md
-    - name: Configure progressive web apps
-      href: configure/progressive-web-apps.md    
     - name: Advanced configuration
       href: configure/advanced-config.md
 - name: Customize and extend Power Pages
   items:
     - name: Using VS Code and Power Platform CLI
       href: configure/cli-tutorial.md   
-    - name: Javascript
-      href: customize-and-extend/javascript-overview.md
     - name: Web templates
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
@@ -129,11 +125,11 @@
 - name: Secure Power Pages
   items:
     - name: Power Pages security
-      href: security/power-pages-security.md
-    - name: Providing external access
-      href: getting-started/external-access.md      
+      href: security/power-pages-security.md  
     - name: Configure authentication
       href: security/configure-portal-authentication.md
+    - name: Providing external access
+      href: security/external-access.md         
     - name: Configure web roles 
       href: security/create-web-roles.md
     - name: Page security

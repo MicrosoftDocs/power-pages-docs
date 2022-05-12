@@ -15,7 +15,7 @@ contributors:
 
 # Tutorial: Add a page to your Power Pages site
 
-In this tutorial you will learn how to add a new page to your Power Pages site. You can use this page to display static content to your audience such as text or images or use it to allow your site visitors to interact with information from Dataverse using lists and forms.
+In this tutorial, you'll learn how to add a new page to your Power Pages site. You can use this page to display static content to your audience such as text or images or use it to allow your site visitors to interact with information from Dataverse using lists and forms.
 
 In this tutorial, you learn how to:
 
@@ -31,11 +31,11 @@ In this tutorial, you learn how to:
 
 ## Create a page using a blank layout
 
-In these steps you will create a simple page using a blank layout. As you learn more about Power Pages you can use other layouts or even create your own custom layouts.
+In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own custom layouts.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. Select **Edit** on the site you want to add a page. If you do not have a site, [create a site](create-manage.md) before continuing.
+1. Select **Edit** on the site you want to add a page. If you don't have a site, [create a site](create-manage.md) before continuing.
 
 1. Select **Pages** and then select the *Add a page* icon (+) to the right of the **Main navigation** heading.
 
@@ -49,7 +49,7 @@ In these steps you will create a simple page using a blank layout. As you learn 
 
 1. Select the **Text** icon.
 
-1. Enter a name for your page (e.g. *My Page*).
+1. Enter a name for your page (for example, *My Page*).
     - Change the style to **Heading 1**
     - Select the **B** icon to make the text bold.
     - Adjust the alignment so the text appears centered
@@ -82,7 +82,7 @@ In these steps you will create a simple page using a blank layout. As you learn 
 
 ## Preview your page
 
-At any time you can preview what your page will look like on the site.
+You can preview what your page will look like on the site at any time.
 
 1. Select **Preview** from the main menu in the design studio.
 
@@ -96,15 +96,15 @@ Adding the page to the **Main navigation** will add a menu option. The page can 
 
 1. Under the **Main navigation**, select the ellipse **(...)** icon and choose *Move to other pages*.
 
-1. The page should now appear in the **Other pages** section. If you now [preview](#preview-your-page) the page, notice that there is not menu item for the page.
+1. The page should now appear in the **Other pages** section. If you now [preview](#preview-your-page) the page, notice that there isn't menu item for the page.
 
 1. Under **Other pages**, select your page again and choose to *Move to "Main navigation"*.
 
 1. Select the page and select the ellipse **(...)**, move the page up and down in the hierarchy using the *Move up* and *Move down* options.
 
-1. Move the page up underneath the *Pages* link. Select the *Make this a subpage* option to make it a subpage of the *Pages* page.
+1. Move the page underneath the *Pages* link. Select the *Make this a subpage* option to make it a subpage of the *Pages* page.
 
-1. [Preview](#preview-your-page) the page and note how your page is a sub-link under pages and also how the URL reflect that this is now a sub-page.
+1. [Preview](#preview-your-page) the page and note how your page is a sublink under pages and also how the URL reflects that this page is now a subpage.
 
     :::image type="content" source="media/tutorial/sub-page.png" alt-text="Sub page.":::
 

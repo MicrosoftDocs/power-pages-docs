@@ -13,107 +13,122 @@ contributors:
     - ProfessorKendrick
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Add a multi-step form to your page
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
+Advanced forms are a powerful way to collect and update information in Dataverse from a page.  
 
-[Add your introductory paragraph]
+Advanced forms extend basic forms by:
 
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
+- Allows data collection or update process to be broken up over multiple steps.
+- Provides interactive conditions to direct a user down different paths of data updates.
+- Session tracking allows a user to pick up where they left off when following a data update process.
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> * Create an advanced form
+> * Create Advanced form options
+> * Add an advanced form to a page
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
+> [!NOTE]
+> When creating an advanced from, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
 
-## [Section 1 heading]
-<!-- Introduction paragraph -->
+
+## Create an advanced form 
+
+An advanced form is composed of an advanced form record and a series of steps.
+
+:::image type="content" source="media/tutorial/advanced-form-diagram.png" alt-text="A diagram of an advanced form.":::
+
+In the steps below, we'll create an advanced form.  This advanced form will allow users to authenticate before creating an application.  Users will also be able to pick up where they left off and apply multiple times.  
+
+> [!NOTE]
+> You'll need to adjust these steps to reflect your own business requirements.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. In the design studio, create/edit an existing form.
+1. Go to the **Portal Management app**.
+1. In **Advanced forms**, create a new Advanced forms record.
+    :::image type="content" source="media/tutorial/new-advanced-forms-record.png" alt-text="Active Advanced Forms inside the Portal Management App.":::
+1. Specify the configurations.
+    - Set **Authentication required** to **Yes**.
+    - Set **Start new session on load** to **No**.
+    - Set **Multiple records per user permitted** to **Yes**.
+    :::image type="content" source="media/tutorial/advanced-form-config.png" alt-text="New Advanced Form configurations.":::
 
-## [Section 2 heading]
+### Add advanced form steps
+
+1. In the **Advanced form steps tab**, create a **new Advanced from step record**.
+        :::image type="content" source="media/tutorial/new-advanced-form-steps.png" alt-text="New advanced form steps menu option in Portal Management app.":::
+1. Specify the configurations.
+    - Set **Type** to **Load Form**.
+    - Select the **Target Table name** from the drop-down menu.
+    :::image type="content" source="media/tutorial/advanced-form-step-config.png" alt-text="Configurations for the new advanced form step in Portal Management app.":::
+1. In the **Form Definition** tab, set the **Mode** to **Insert**.
+:::image type="content" source="media/tutorial/new-advanced-form-step-mode.png" alt-text="Form Definition mode configuration set to insert.":::
+1. Scroll down the page and select the **Form Name** from the drop-down menu.
+:::image type="content" source="media/tutorial/advanced-form-definition-form-name.png" alt-text="Specifying the form name in the Form Definition field for the New Advanced Form Step.":::  
+1. Scroll down the page and select the **Portal User Lookup Column** from the drop-down menu.
+:::image type="content" source="media/tutorial/advanced-form-portal-user-lookup-column.png" alt-text="Specifying the Portal user lookup column.":::
+
+#### Adding conditions to your advanced form
+
+If you need to add conditional logic to your advanced form, you'll need to identify the condition by adding the Dataverse schema name and the evaluation you want to perform.
+
+In the steps below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps.  Other applicants will skip that step.
+
+1. In the **Advanced form steps tab**, create a **new Advanced from step record**.
+        :::image type="content" source="media/tutorial/new-advanced-form-steps.png" alt-text="New advanced form steps menu option in Portal Management app.":::
+1. Specify the configurations.
+    - Set **Type** to **Condition**.
+    - Select the **Target Table name** from the drop-down menu.
+    :::image type="content" source="media/tutorial/advanced-form-type-condition.png" alt-text="Set configurations for an advanced form step of type condition.":::
+1. Select the Condition tab and enter the condition.
+:::image type="content" source="media/tutorial/advanced-form-specify-condition.png" alt-text="Text entry field for a condition on an advanced form step.":::
+
+Repeat the instructions outlined until you've created the number of steps needed for your business process.
+
+## Create advanced form options
+
+> [!NOTE]
+> Before you start, make sure you have created all the appropriate Table Permissions an assigned the Web Roles that will be used in your Advanced form.
+
+1. In the **Portal Management app**, choose **Advanced form**, then select the appropriate step.
+:::image type="content" source="media/tutorial/advanced-form-choose-scholarship.png" alt-text="Select the Choose Scholarship step from the Advanced form menu.":::
+1. In the **Related tab**, choose **Metadata**.
+:::image type="content" source="media/tutorial/advanced-form-metadata.png" alt-text="Advanced form metadata.":::
+1. Choose **New Advanced Form**.
+:::image type="content" source="media/tutorial/advanced-forms-add-new.png" alt-text="Add new advanced form.":::
+1. Set the **Attribute Logical Name**.
+:::image type="content" source="media/tutorial/advanced-form-scholarship-name.png" alt-text="Attribute Logical Name field set to Scholarship Name.":::
+1. Scroll down to **Control Style** and set the **Style** to **Render Lookup as a Dropdown**.
+:::image type="content" source="media/tutorial/advanced-form-render-dropdown.png" alt-text="The Style set to Render Lookup as Dropdown under New Advanced Form Metadata.":::
+1. Scroll down to the **Set Value on Save**.
+    - Check the box next to the **Set Value On Save** field.
+    - Set the **Type** to **Today's Date**.
+    :::image type="content" source="media/tutorial/advanced-form-set-date.png" alt-text="Set Value On Save enabled with Type set to Today's Date.":::
+
+## Add an advanced form to a page
 <!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. Open the design studio and **Add a page**.
+:::image type="content" source="media/tutorial/advanced-form-add-page.png" alt-text="Add a new page pop-up.":::
+1. Open **code editor**.  
+:::image type="content" source="media/tutorial/advanced-form-code-editor.png" alt-text="Code editor icon in design studio.":::
+1. Between the ``<div> </div>`` tags, paste the following (replace 'Scholarship Application') with your equivalent.
+1. Select **Save**.
+1. Select **Preview**.
+1. Sign-in to the portal.
+1. Open data workspace in design studio.
+1. Select the Application table to view the data.
 
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
-
-## Clean up resources
-
-If you're not going to continue to use this application, delete
- with the following steps:
-
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
-
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
 
 ## Next steps
 
-Advance to the next article to learn how to configure site authentication to allow users to login using Azure AD B2C.
+Advance to the next article to learn how to configure site authentication to allow users to sign in using Azure AD B2C.
 > [!div class="nextstepaction"]
 > [Next steps](tutorial-setup-site-authentication.md)
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->

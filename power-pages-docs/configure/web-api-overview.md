@@ -1,10 +1,10 @@
 ---
-title: Portals Web API overview
+title: Power Pages web API overview
 description: Learn about the Portals Web API.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/17/2022
+ms.date: 05/09/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -12,13 +12,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web templates
+# Power Pages web API overview
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on the Portals Web API, go to [Portals Web API overview](/powerapps/maker/portals/web-api-overview) in the Power Apps documentation.
+For detailed information on the Portals web API, go to [Portals web API overview](/powerapps/maker/portals/web-api-overview) in the Power Apps documentation.
 
-[!INCLUDE[faq](../includes/cc-faqs.md)]

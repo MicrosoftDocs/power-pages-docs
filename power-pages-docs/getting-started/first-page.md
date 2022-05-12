@@ -4,7 +4,7 @@ description: Learn how to create Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/25/2022
+ms.date: 05/03/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -33,9 +33,13 @@ A page is one of the core objects of the website and builds a hierarchy of the w
 
     - Selecting the **Add a page** icon on the **Other pages** section will add a new page but won't add a link to the default navigation of the site.
 
-1. Choose a page from Standard layouts, or create a Custom layout.
+1. Choose a page from standard layouts, or choose a custom layout.
 
     :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within maker studio.":::
+
+    [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
+    For detailed information on how to create custom page templates, go to [Create and manage page templates](/power-apps/maker/portals/configure/page-templates) and [Store source content by using web templates](/power-apps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
 
 1. Add content and components to your page, see [Customize pages](customize-pages.md).
 
