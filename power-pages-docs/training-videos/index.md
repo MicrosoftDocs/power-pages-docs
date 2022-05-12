@@ -87,7 +87,7 @@ Now that you have created your table and view, let's add a list to a page.
 
 [Configure table permissions](#configure-table-permissions)
 
-### See alsox
+### See also
 
 - [Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md)
 - [Use Data workspace](../getting-started/use-data-workspace.md)
