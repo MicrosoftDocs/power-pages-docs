@@ -1,5 +1,5 @@
 ---
-title: Known Issues
+title: Known issues for Power Pages preview release
 description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
