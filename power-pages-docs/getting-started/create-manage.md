@@ -4,7 +4,7 @@ description: Learn how to create and manage Power Pages sites
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/20/2022
+ms.date: 05/5/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -13,9 +13,18 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Create and manage Power Pages sites
+# Create your first site using Power Pages
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Power Pages provides you with a list of templates to choose from to quickly build your site and then customize and design it as per your requirements using the new Power Pages design studio.
+
+> [!TIP]
+> We have created a series of tutorials and videos for you to learn and use Power Pages where you start with a simple site and progressively add components and features as per your business requirements. Go to: [Power Pages Tutorials](/power-pages/tutorials/)
+
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+
+    The first time you visit the site, you will be presented with a **Get started** button and be able to [sign up for a free 30 day trial](trial-signup.md). 
 
 1. Select + Create a site from the Home page.
 
@@ -29,8 +38,8 @@ contributors:
 
     :::image type="content" source="media/default-template/provision-site.png" alt-text="The maker studio with site provisioning options displayed.":::
 
-> [!NOTE]
-> It may take a few moments for your new portal to be provisioned. You will be able to modify the name and web address later.
+    > [!NOTE]
+    > It may take a few moments for your new portal to be provisioned. You will be able to modify the name and web address later.
 
 1. Once the site is created you can begin to **Edit** or **Preview** your site.
 
@@ -39,3 +48,4 @@ contributors:
 ## Next Steps
 
 [Use design studio](use-design-studio.md)<br>
+

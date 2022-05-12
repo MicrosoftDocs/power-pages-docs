@@ -1,6 +1,6 @@
 ---
-title: Use the Center of Excellence toolkit with Power Pages
-description: Learn how to use the Center of Excellence toolkit with Power Pages.
+title: Power Pages governance
+description: Manage and administer your Power Pages sites.
 author: donovangoode
 ms.topic: conceptual
 ms.custom: 
@@ -13,12 +13,28 @@ contributors:
     - donovangoode
 ---
 
-# Center of Excellence toolkit Power Pages features
+# Power Pages governance
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on the Power Platform Center of Excellence toolkit, go to [Update the Power Apps portals solution](/power-platform/guidance/coe/starter-kit).
+Power Pages provides some helpful tools for administrators to manage their sites and environments.
 
-[!INCLUDE[faq](../includes/cc-faqs.md)]
+The [Power Pages admin center](admin-overview.md) allows administrators various capabilities:
+- Configure vanity domains
+- Manage lifecycle operations:
+    - Create
+    - Delete
+    - Convert to Production
+    - License assignments.
+- Restrict IP addresses
+- Change Dataverse environments
+- Upload and manage custom certificates
+- Enable integrations
+
+The [Power Platform Center of Excellence toolkit](/power-platform/guidance/coe/starter-kit) provides tools and guidance on managing your Power Pages sites.
+
+<!--TO DO-->
+More info
+

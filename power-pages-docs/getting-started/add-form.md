@@ -1,10 +1,10 @@
 ---
 title: Add forms
-description: Learn how to add forms to your Power Pages.
+description: Add forms to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/18/2022
+ms.date: 05/03/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -55,3 +55,5 @@ To add a form:
 
 ## See Also
 
+[Create and modify forms](../configure/data-workspace-forms.md)<br>
+[Tutorial: Add a form to a page](tutorial-add-form-to-page.md)

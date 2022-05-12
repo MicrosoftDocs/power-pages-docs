@@ -7,9 +7,7 @@
   - name: Power Pages capabilities
     href: capabilities.md
   - name: Power Pages and Power Apps portals
-    href: difference-portals.md
-  - name: Power Pages community
-    href: getting-started/community.md        
+    href: difference-portals.md          
 - name:  Try Power Pages
   items: 
     - name: Sign up for a trial
@@ -18,12 +16,30 @@
       href: getting-started/trial-faq.md
 - name: Get started
   items:
-  - name: Learn hub
-    href: getting-started/use-learnhub.md  
-  - name: Create and manage sites
-    href: getting-started/create-manage.md
-  - name: Use design studio
-    href: getting-started/use-design-studio.md
+    - name: Create your first site
+      href: getting-started/create-manage.md             
+    - name: Get started with design studio
+      href: getting-started/use-design-studio.md
+    - name: Templates
+      items:  
+        - name: Create sites using templates
+          href: templates/index.md
+        - name: Default template
+          href: templates/default-template.md
+        - name: After School template
+          href: templates/after-school.md
+        - name: Book a Meeting template
+          href: templates/book-a-meeting.md      
+    - name: Learning hub
+      href: getting-started/use-learnhub.md 
+    - name: Power Pages community
+      href: getting-started/community.md
+    - name: Planning your Power Pages project
+      href: configure/planning-power-pages-project.md       
+- name: Design and build 
+  items:
+  - name: Dataverse and Power Pages
+    href: getting-started/what-is-dataverse.md
   - name: Use Pages workspace
     items:  
       - name: Create and design pages
@@ -58,34 +74,22 @@
         href: getting-started/code-editor.md
       - name: Structure your site map
         href: getting-started/structure-site.md                    
-  - name: Style your page
+  - name: Use the Style Workspace
     href: getting-started/style-site.md
-  - name: How to use Data Workspace
-    href: getting-started/use-data-workspace.md
-  - name: Getting started with templates
-    href: getting-started/default-template.md
-  - name: Default template workspace
-    href: getting-started/default-template-workspace.md
-  - name: What is Dataverse?
-    href: getting-started/what-is-dataverse.md
-  - name: Providing external access
-    href: getting-started/external-access.md
-  - name: Feedback page
-    href: getting-started/feedback-page.md
-  - name: Known issues
-    href: getting-started/known-issues.md
-- name: Templates
-  items:  
-    - name: Create Power Pages sites using templates
-      href: templates/index.md
-    - name: Default template
-      href: templates/default-template.md
-    - name: After School template
-      href: templates/after-school.md
-    - name: Book a Meeting template
-      href: templates/book-a-meeting.md
+  - name: Use the Data Workspace
+    items:
+      - name: Data workspace overview
+        href: getting-started/use-data-workspace.md
+      - name: Create and modify tables
+        href: configure/data-workspace-tables.md
+      - name: Create and modify views
+        href: configure/data-workspace-views.md
+      - name: Create and modify forms
+        href: configure/data-workspace-forms.md                    
+  - name: Use Setup Workspace
+    href: configure/setup-workspace.md
 - name: Administer Power Pages
-  items: 
+  items:   
     - name: Using the portals admin center
       href: admin/admin-overview.md
     - name: Capacity consumption reports
@@ -95,53 +99,75 @@
     - name: View error log 
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy 
-      href: admin/compliance-privacy.md
-    - name: Center of Excellence Toolkit 
+      href: admin/compliance-privacy.md        
+    - name: Governance 
       href: admin/coe-portals.md            
 - name: Configure Power Pages
   items:
-    - name: Configure progressive web apps
-      href: configure/progressive-web-apps.md    
-    - name: Advanced configuration
-      href: configure/advanced-config.md
-    - name: Using VS Code and Power Platform CLI
-      href: configure/cli-tutorial.md
-    - name: Component framework
-      href: configure/component-framework.md
-    - name: Liquid overview
-      href: configure/liquid-overview.md
-    - name: Planning your Power Pages project
-      href: configure/planning-power-pages-project.md
     - name: Portal Management app overview
       href: configure/portal-management-app.md
-    - name: Overview of portals ALM
-      href: configure/portals-alm.md
+    - name: Advanced configuration
+      href: configure/advanced-config.md
+- name: Customize and extend Power Pages
+  items:
+    - name: Using VS Code and Power Platform CLI
+      href: configure/cli-tutorial.md   
     - name: Web templates
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
       href: configure/web-api-overview.md
-- name: Customize and extend Power Pages
-  items: 
-    - name: Javascript
-      href: customize-and-extend/javascript-overview.md
+    - name: Component framework
+      href: configure/component-framework.md
+    - name: Liquid overview
+      href: configure/liquid-overview.md
+    - name: Overview of portals ALM
+      href: configure/portals-alm.md                  
+- name: Secure Power Pages
+  items:
+    - name: Power Pages security
+      href: security/power-pages-security.md  
+    - name: Configure authentication
+      href: security/configure-portal-authentication.md
+    - name: Providing external access
+      href: security/external-access.md         
+    - name: Configure web roles 
+      href: security/create-web-roles.md
+    - name: Page security
+      href: security/page-security.md
+    - name: Configure table permissions
+      href: security/table-permissions.md
+    - name: Assign table permissions
+      href: security/assign-table-permissions.md      
 - name: Go live 
   items: 
     - name: Go live checklist
       href: go-live/checklist.md
     - name: Licensing
-      href: go-live/assign-licensing.md
-- name: Secure Power Pages
+      href: go-live/assign-licensing.md      
+- name: Tutorials
   items:
-    - name: Power Pages security
-      href: security/power-pages-security.md
-    - name: Configure authentication
-      href: security/configure-portal-authentication.md
-    - name: Configure web roles 
-      href: security/create-web-roles.md
-    - name: Page security
-      href: security/page-security.md
-    - name: Setting and managing table permissions
-      href: security/table-permissions.md
+  - name: Tutorial Overview
+    href: getting-started/tutorial-overview.md
+  - name: "Tutorial: Add and design a page"
+    href: getting-started/tutorial-add-webpage.md
+  - name: "Tutorial: Style your site"  
+    href: getting-started/tutorial-style-site.md
+  - name: "Tutorial: Add a list to a page"
+    href: getting-started/tutorial-add-list-to-page.md
+  - name: "Tutorial: Display data securely on pages"
+    href: getting-started/tutorial-display-data-securely.md
+  - name: "Tutorial: Setup page permissions"
+    href: getting-started/tutorial-setup-page-permissions.md      
+  - name: "Tutorial: Add a form to a page"
+    href: getting-started/tutorial-add-form-to-page.md
+  - name: "Tutorial: Add a multi-step form to a page"
+    href: getting-started/tutorial-add-multi-step-form.md
+  - name: "Tutorial: Configure site authentication"
+    href: getting-started/tutorial-setup-site-authentication.md
+  - name: "Tutorial: Add custom styling to your site"
+    href: getting-started/tutorial-add-custom-style.md
 - name: Training videos
   href: training-videos/index.md
+- name: Known issues
+  href: known-issues.md
 

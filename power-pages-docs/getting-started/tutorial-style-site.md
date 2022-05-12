@@ -1,0 +1,57 @@
+---
+title: "Tutorial: Style your site"
+description: Learn how to customize your Portal to match your corporate brand.
+author: nickdoelman
+ms.topic: tutorial
+ms.custom: template-tutorial
+ms.date: 05/09/2022
+ms.subservice:
+ms.author: ndoelman 
+ms.reviewer: 
+contributors:
+    - nickdoelman
+    - ProfessorKendrick
+---
+
+# Tutorial: Style your site 
+
+Power Pages sites can be customized to incorporate your corporate branding styles.
+
+In this tutorial, you learn how to:
+
+> [!div class="checklist"]
+> * Set your corporate logo.
+> * Define your color palette.
+> * Set up your fonts.
+
+## Prerequisites
+
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- A png file of your corporate logo (64 x 64 pixels).
+- A list of the hex codes for your corporate color palette.
+- A list of your corporate font standards.
+
+## Adding your corporate logo to Power Pages
+
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+1. Inside the design studio, mouse over the existing logo and select **Image** when the flyover appears.
+1. Select the **Image button**.
+1. Choose an existing image from the media library, or upload a new image.
+1. Select the image you'd like to use (in this instance, use the corporate logo you uploaded).
+
+## Set your brand color palette
+
+You can update the color palette to incorporate two or three primary brand colors, and neutral complimentary colors.  These colors can be used consistently across your entire Power Pages site.
+
+1. Inside the design studio, go to the styling workspace and select the colors you'd like to use for the background and fonts.
+1. Select **Save changes**.
+ 
+## Set up your corporate brand fonts
+
+1. Inside the design studio, go to the styling workspace and define the font types for headers, subheaders, paragraphs, and buttons.
+1. You can also adjust the sizes and colors for each based on your color palette. Any updates you make are immediately reflected on your site.
+1. Select **Save changes** to update your styling.  The theme you updated will have a modified label.
+1. If at any time you wish to start over, select the **ellipses** and select **Reset to default**.
+
+## Next steps

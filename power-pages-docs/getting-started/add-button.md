@@ -4,7 +4,7 @@ description: Learn how to add buttons to your Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/18/2022
+ms.date: 05/03/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -45,7 +45,7 @@ To add a button:
 
     - Select style between a primary or secondary button style.
 
-    - Select desired vertical and horizontal alignment.
+    - Select desired horizontal alignment.
 
     - Define the min width and height of button.
 
