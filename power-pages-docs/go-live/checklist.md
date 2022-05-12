@@ -16,19 +16,23 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!IMPORTANT]
+> - Power Pages is in preview. 
+> - Products that are in preview aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+
 ## Summary
 
 As you prepare and consider going live with your project on Power Pages there are many items to consider and plan for. 
 
 Here are just a few areas to keep in mind:
-
  - Tidy up your site
  - Environment strategy
+ - Setup monitoring 
  - Performance testing
- - Set up custom domain 
+ - Setup custom domain 
  - Complete authentication setup
  - Assign licensing 
- - Set up telemetry monitoring
+ - Setup telemetry monitoring
  - Announce and invite users
 
 We will go over several of them in this article. We will evolve this article over time as we head towards General Availability of Power Pages.
@@ -79,7 +83,7 @@ If you have high scalability needs (think 1000s of users a month or a very criti
 Consider reviewing with your Microsoft Customer Service Account Manager if a Microsoft Customer Engineer can help you, take a look at this post about some ways they can help you: [Power Apps portal: How a Customer Engineer can help - Microsoft Dynamics CRM Community](https://community.dynamics.com/crm/b/crminthefield/posts/power-apps-portal-how-a-customer-engineer-can-help)
 
 
-# Setup custom domain 
+## Setup custom domain 
 	
 Most users would prefer and have confidence in your site, if it had a custom domain name. While Microsoft is fine with you using our domain like contosositeprod.powerpages.com - you likely want your users to see your own URL listed like customercenter.contso.com 
 
@@ -87,7 +91,7 @@ You can read more about setting up [Custom Domains](https://docs.microsoft.com/e
 
 Remember that this process takes time on your end to find and get approval from your internal team, get the right SSL Certificate, setup this up and test it. All before the real users get the domain name working. You'll want this domain name working for most external identity providers, so it's becoming a dependency to go live.
 
-# Complete authentication setup
+## Complete authentication setup
 
 This is the time to turn off and only provide the final desired ways users can sing in or sing up to your site. 
 
@@ -99,7 +103,7 @@ Setup external identity provider. Turn off Local Authentication.
 
 Read more in [Configure authentication](https://review.docs.microsoft.com/power-pages/security/configure-portal-authentication)
 
-# Assign licensing 
+## Assign licensing 
 
 Power Pages is cloud service and thus automatically scales to global user demands and needs, one signal for our back-end system to use to auto-scale is looking at your assigned licensing capacity. It's critical this is assigned especially if you anticipate a significant load, so be sure to:
 
@@ -109,7 +113,7 @@ Assign capacity to Environment the site is in <link>
 
 At the time of writing the Power Pages capacity would be using Power Apps portals constructs of Page View and Portal Login. <link>
 
-# Set up telemetry monitoring
+## Set up telemetry monitoring
 
 In order to understand statistics for your users you want to capture them right at the launch. Remember you can't in future go back to measure something you did not start to track. Microsoft does not provide an out of the box feature as part of Power Pages at this time. 
 
@@ -119,11 +123,12 @@ You can place the telemetry tracking HTML/JS snippet of code in the "Enable Traf
 
 Consider Azure Monitor - Application Insights. Our Microsoft Customer Engineers team wrong this blog post with some tips and other suggestions <link>
 
-# Announce and invite Users
+## Announce & Invite Users
 
 You want the world to know about your project, or maybe not. But you certainly do If you have passive use-case or self-registration. Consider sending a newsletter and inviting your end-customer user base to the site and let them know what they can expect to do and the value it serves to them.
 
 If you know your end-customers already - bring them in and use the invitation process <link>
 
 Format the Email to include final production custom domain URL and be sure to provide guidance on what they should expect in terms of identity provider as they could mean they can use an existing on or they would need to also create a login profile inside of your identity provider during invitation redemption or self-registration process on your site. 
+
 
