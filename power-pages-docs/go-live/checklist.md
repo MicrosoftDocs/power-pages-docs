@@ -25,10 +25,10 @@ Here are just a few areas to keep in mind:
  - Tidy up your site
  - Environment strategy
  - Performance testing
- - Setup custom domain 
+ - Set up custom domain 
  - Complete authentication setup
  - Assign licensing 
- - Setup telemetry monitoring
+ - Set up telemetry monitoring
  - Announce and invite users
 
 We will go over several of them in this article. We will evolve this article over time as we head towards General Availability of Power Pages.
@@ -109,7 +109,7 @@ Assign capacity to Environment the site is in <link>
 
 At the time of writing the Power Pages capacity would be using Power Apps portals constructs of Page View and Portal Login. <link>
 
-# Setup telemetry monitoring
+# Set up telemetry monitoring
 
 In order to understand statistics for your users you want to capture them right at the launch. Remember you can't in future go back to measure something you did not start to track. Microsoft does not provide an out of the box feature as part of Power Pages at this time. 
 
@@ -119,7 +119,7 @@ You can place the telemetry tracking HTML/JS snippet of code in the "Enable Traf
 
 Consider Azure Monitor - Application Insights. Our Microsoft Customer Engineers team wrong this blog post with some tips and other suggestions <link>
 
-# Announce & Invite Users
+# Announce and invite Users
 
 You want the world to know about your project, or maybe not. But you certainly do If you have passive use-case or self-registration. Consider sending a newsletter and inviting your end-customer user base to the site and let them know what they can expect to do and the value it serves to them.
 

@@ -1,18 +1,19 @@
 ---
-title: Power Pages Governance
+title: Power Pages governance
 description: Manage and administer your Power Pages sites.
-author: nickdoelman
+author: donovangoode
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/15/2022
-ms.author: ndoelman
+ms.author: dgoode
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - donovangoode
 ---
 
-# Power Pages Governance
+# Power Pages governance
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
