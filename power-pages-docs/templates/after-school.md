@@ -49,38 +49,65 @@ As a representative of the school, you can:
 
 ## Makers
 
-Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
+Makers are able to use the [design studio](../getting-started/use-design-studio.md) to modify the template for specific needs.
 
-The following are the customizable tables, basic forms, lists, and code components provided in the template.
+The following are the pages, basic forms, and customizable tables provided in the template.
 
-### Customer pages
+### Pages
+
+#### Customer pages
 
 The following pages are utilized by **Parents**:
 
-| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
-|-----------|------------|-----------|-----------|-----------------|
-| Home      | | | List view |Displays courses and key details about each course. |
-| Unregister Attendee | |Registration unregister form |  | Ability to unregister children who are currently registered. |
-| Add Attendee Profile |  | Add child profile |  |Ability to add an attendee. | 
-| Attendee Information | | | List view  | View details of children who are registered. |
-| Edit Attendee Profile | | Edit child profile | | Edit the information for children in "My Children." |
-| My Registrations |  | | List view | View courses that attendees are registered for. |
-| Registration Success | | | | |
-| View Course Details | | | | |
+| Page | Description |
+|-----------|----------------|
+|Home|Search an event and view courses and course details based on specified criteria.|
+|Unregister Attendee |Unregister a previously registered child.|
+|Add Attendee Profile|Set up a profile for a child.|
+|Attendee Information|Input a child's information for the purposes of setting up an attendee profile.|
+|My Registrations|View registration for an attendee profile.|
+|Registration Success|Confirm a child is successfully registered for a course.|
+|View Course Details|View selected course details.|
 
-### Admin pages
+
+#### Admin pages
 
 The following pages are utilized by **School Representatives**:
 
-| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
-|-----------|------------|-----------|-----------|-----------------|
-| Courses Home || | List view | Displays the courses that are available. |
-| Edit Course | | Portal course form|  | Ability to modify existing course(s). |
-| Delete Course | | Delete a course form |  | Ability to delete a course. |
-| Create Course | | Portal course form  | | Ability to create a course. |
-| Duplicate Course | | Portal course form |  | Ability to duplicate a course. |
-| View Registrations | | | List view | View registrations for attendees. |
+|Page|Description|
+|-----------|----------------|
+|Courses Home|A list view of the courses based on the filters specified.|
+|Create Course|Create a course.|
+|Duplicate Course|Duplicate a course from an existing course.|
+|Delete Course|Delete a course.|
+|Edit Course|Edit a course.|
+
+
+### Forms and tables
+
+The template uses the following forms linked to Dataverse tables:
+
+|Table|Table form name*|Page form name**|
+|---------|---------|---------|
+|contact|Add child profile|Add Attendee|
+|msdynce_course|Portal Course Form|ASP Create Course|
+|msdynce_course|Portal Course Form|ASP Edit Form|
+|msdynce_course|Delete a course form|Delete Course Form|
+|contact|Edit child profile|Edit Attendee|
+|msdynce_registration|Registration unregister form|Unregister Attendee|
+
+**The form name as it appears associated to the table in data workspace.*
+
+***The form name as it appears when added to a page as a component.*
+
+#### Table information
+
+|Table name|Schema name|Description|
+|---------|---------|---------|
+|Contact|contact|Contact details for the child's profile.|
+|Course|msdynce_course|Course details such as course name, description, type, instructor, category, grade level, start date, start time, end date, end time, registration deadline, capacity, % filled, status.|
+|Registration|msdynce_registration|Course registration details.|
 
 ## Professional developers
 
-This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **VS Code** to view and modify the source code.
+This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **Visual Studio Code** to view and modify the source code.

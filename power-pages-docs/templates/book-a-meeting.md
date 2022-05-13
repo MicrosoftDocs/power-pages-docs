@@ -48,35 +48,78 @@ As a bank representative, you can do the following seamlessly:
 
 Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
 
-The following are the customizable tables, basic forms, lists, and code components provided in the template.
+The following are the pages, basic forms, and customizable tables provided in the template.
 
-### Customer pages
+### Pages
+
+#### Customer pages
 
 The following pages are utilized by **Bank Customers**:
 
+|Page|Description|
+|---------|---------|
+|Home|Customer homepage. Provides a link to book a meeting with a financial consultant.|
+|C2 Book an Appointment|Book an appointment with a financial consultant using a multi-step process by inputting service(s) desired, location, and availability.|
+|C2 Cancel Appointment|Cancel appointment with a financial consultant.|
+|C2 Cancel Confirmation|Confirmation page for successfully canceled appointment(s).|
+|C2 Reschedule Appointment|Reschedule a previously booked appointment with a financial consultant.|
+|Search|Keyword-based search.|
 
-| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
-|-----------|------------|-----------|-----------|-----------------|
-| Home |||
-| Book an appointment| | Book an appointment form | | Customer inputs services interested in, location (virtual or bank branch), availability, schedules appointment, etc. |
-| Cancel appointment | | Cancel appointment form | | Customer cancels an appointment that was booked. |
-| Reschedule appointment | | Reschedule appointment form | | Customer reschedules an appointment that was booked. |
-
-### Admin pages
+#### Admin pages
 
 The following pages are utilized by **Bank Representatives**:
 
-| **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
-|-----------|------------|-----------|-----------|-----------------|
-| Home | | | List styled as a calendar | |
-| Specialties | | | List styled as subgrids | |
-| Cancel appointment| | Appointment form | | Bank representative cancels an appointment that was booked. |
-| Edit appointment | | Edit appointment form | | Bank representative edits an appointment that was booked. | 
-| Edit unavailability | | Appointment create form | | Bank representative edits availability. | 
-| Reschedule appointment | | Reschedule appointment form | | Bank representative schedules an appointment that was booked. |
-| Create unavailability | | Calendar block form | | Bank representative creates unavailability. |
 
+|Page|Description|
+|---------|---------|
+|C1 Home|Sign in to view schedule of appointments by day or by week.|
+|C1 Specialties|Select specialties that bank customers can schedule an appointment to discuss.|
+|C1 Cancel Appointment|Cancel an appointment with a customer.|
+|C1 Edit Appointment|Edit appointment with customer.|
+|C1 Edit Unavailability|Edit availability to meet with customers.|
+|C1 Reschedule Appointment|Reschedule a previously booked appointment with a customer.|
+|Create Unavailability|Create unavailability via a calendar block.|
+|Profile|Details about bank representative, such as specialties.|
+|getAllAppointments|Query for a bank representative to retrieve all appointments.|
+|Access Denied|Displays if bank representative doesn't have access.|
+|Page Not Found|Displays if user's search criteria isn't matched.|
+
+
+### Forms and tables
+
+The template uses the following forms linked to Dataverse tables:
+
+| Table                 | Table form name*        | Page form name**        |
+|---------------------------|----------------------------|---------------------------|
+| contact                   | BAM C1 Specialties Subgrid | BAM C1 Select Specialties |
+| appointment               | C1 Appointment Create      | C1 Appointment Create     |
+| appointment               | Appointment                | C1 Cancel Appointment     |
+| appointment               | C1 Appointment Create      | C1 Cancel Calendar Block  |
+| msdyn\_appointmentrequest | Calendar Block             | C1 Create Calendar Block  |
+| appointment               | Appointment                | C1 Edit Appointment       |
+| appointment               | Appointment                | C1 Reschedule             |
+| appointment               | Appointment                | C1 Reschedule Appointment |
+| contact                   | BAM C1 Simple Specialties  | C1 Simple Specialties     |
+| contact                   | BAM C1 Specialties Subgrid | C1 Specialties            |
+| contact                   | BAM C1 Image Upload        | C1 UploadImage            |
+| msdyn\_appointmentrequest | Cancel Appointment         | C2 Cancel Appointment     |
+| feedback                  | simple contact us form     | simple contact us form    |
+| account                   | Account                    | testform                  |
+
+**The form name as it appears associated to the table in data workspace.*
+
+***The form name as it appears when added to a page as a component.*
+
+#### Table information
+
+| **Table display name** | **Schema name**           | **Description**                                                                                 |
+|------------------------|---------------------------|-------------------------------------------------------------------------------------------------|
+| Appointment            | appointment               | Scheduling for bank representatives.                                                            |
+| AppointmentRequest     | msdyn\_appointmentrequest | Capture appointment request and actions (canceling, editing appointment) for customers.         |
+| Contact                | contact                   | Capture contact information of bank representative.                                             |
+| Feedback               | feedback                  | Capture feedback from customer.                                                                 |
+| Account                | Account                   | Capture customer information.                                                                   |
 
 ## Professional developers
 
-This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **VS Code** to view and modify the source code.
+This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **Visual Studio Code** to view and modify the source code.

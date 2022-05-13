@@ -4,7 +4,7 @@ description: Power Pages is a secure enterprise-grade low-code SaaS platform for
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/06/2022
+ms.date: 05/13/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -19,7 +19,7 @@ contributors:
 
 Microsoft Power Pages is a secure enterprise-grade low-code SaaS platform for creating, hosting, and administering rich external business web sites. Whether you are a low-code maker or a professional developer, Power Pages enables you to rapidly design, configure, and publish your web sites that seamlessly work across web browsers and devices.
 
-:::image type="content" source="media/overview/power-pages-site1.png" alt-text="A website built using Power Pages.":::
+:::image type="content" source="media/overview/power-pages-site.png" alt-text="A website built using Power Pages.":::
 
 > [!IMPORTANT]
 > - Power Pages is in preview. 
