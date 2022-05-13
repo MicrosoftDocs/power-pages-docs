@@ -34,11 +34,11 @@ Power Pages provides you with rich, customizable templates, a fluid visual exper
 
 Power Pages is the newest member of the Microsoft Power Platform family. With Power Pages, you can build sites using the same shared business data stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro) that you use for building apps, workflows, intelligent virtual agents, reports, and analytics by using other components of Power Platform in your organization. 
 
-:::image type="content" source="media/overview/power-platform1.png" alt-text="Various components of Microsoft Power Platform.":::
+:::image type="content" source="media/overview/power-platform.png" alt-text="Various components of Microsoft Power Platform.":::
 
 ## Power Pages and Power Apps portals 
 
-Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/), but there are some differences. Read more: [Power Pages and Power Apps portals](difference-portals.md) 
+Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/), providing the same robust capabilities and pro-developer experiences but providing new low code maker experiences and oout-of-the box templates. Read more: [Power Pages and Power Apps portals](difference-portals.md) 
 
 ## Try for free
 

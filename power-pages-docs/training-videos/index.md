@@ -55,25 +55,25 @@ Watch this quick video to learn how to setup your brand kit.
 
 ## Create a page with a list
 
-Power Pages offers a seamless ability to interact with Dataverse with the new [data workspace](../getting-started/use-data-workspace.md).
+Power Pages offers a seamless ability to interact with business data stored in Dataverse with the new [data workspace](../getting-started/use-data-workspace.md).
 
-The following series of videos will demonstrate how to create a page displaying records from Dataverse in three easy steps:
+The following series of videos will demonstrate how to create a page displaying business information in three easy steps:
 
 | Step | Task | Step-by-step video |  
 | - | - | - | 
-| 1 | Create a table in Dataverse | [video](#create-a-table) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 1 | Create a table in data workspace | [video](#create-a-table) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a view | [video](#create-a-view) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 3 | Add a list to the page | [video](#add-a-list-to-page) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 
 ### Create a table
 
-In this video, you will learn how to create a table using the Data workspace.
+In this video, you will learn how to create a table using the data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
 
 ### Create a view
 
-This video will show you how to create a view for a table using Data workspace.
+This video will show you how to create a view for a table using data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
 
@@ -90,7 +90,7 @@ Now that you have created your table and view, let's add a list to a page.
 ### See also
 
 - [Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md)
-- [Use Data workspace](../getting-started/use-data-workspace.md)
+- [Use data workspace](../getting-started/use-data-workspace.md)
 - [Add a list component](../getting-started/add-list.md)
 
 ## Configure table permissions

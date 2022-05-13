@@ -16,13 +16,19 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/) and utilizes the same infrastructure, metadata and tools.
+Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/) and utilizes the same platform capabilities, infrastructure, features and tools.
 
-Power Pages provides the following new features currently in preview to allow customers to try with their existing and new Power Apps portals projects:
+Along with the extensible data model and pro-developer customization experiences of Power Apps portals, Power Pages adds new low code experiences and out-of-the-box solution templates.
+
+:::image type="content" source="media/overview/power-pages-platform.png" alt-text="A website built using Power Pages.":::
+
+The following new features currently in preview to allow customers to try with their existing and new Power Apps portals projects:
 
 - [New design studio with productivity workspaces](getting-started/use-design-studio.md)
 - [Improved trial and site creation experience](getting-started/trial-signup.md)
 - [Templates hub](templates/index.md)
 - [Learn hub](getting-started/use-learnhub.md)
 
-Power Apps portals will continue to be the platform to build enterprise-grade external business applications and all your current configuration and development efforts will be fully compatible with Power Pages when the new features become GA.
+Power Apps portals will continue to be the platform to build enterprise-grade external business applications.
+
+When Power Pages becomes generally available, all your current configuration and development efforts with Power Apps portals will be automatically fully compatible with Power Pages.

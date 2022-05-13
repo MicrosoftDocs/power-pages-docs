@@ -86,6 +86,6 @@ For more information, see [Power Pages Governance](admin/coe-portals.md)
 Power Pages provides deep integration with other Power Platform components, such as you can:
 - Embed Power BI reports in sites configured with row-level security so that authenticated users can only view data that they have access to.
 - Configure intelligent bots created using Power Virtual Agents on your site pages.
-- Trigger Power Automate flows to automate business tasks.
+- Trigger Power Automate flows to automate business tasks and access to over 675 connectors.
 - Build Power Apps to access information collected and transacted from Power Pages.
 - Extend Dynamics 365 business applications using Power Pages.
