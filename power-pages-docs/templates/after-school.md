@@ -49,7 +49,7 @@ As a representative of the school, you can:
 
 ## Makers
 
-Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
+Makers are able to use the [design studio](../getting-started/use-design-studio.md) to modify the template for specific needs.
 
 The following are the pages, basic forms, and customizable tables provided in the template.
 
@@ -87,7 +87,7 @@ The following pages are utilized by **School Representatives**:
 
 The template uses the following forms linked to Dataverse tables:
 
-|Table|Table form name|Page form name**|
+|Table|Table form name*|Page form name**|
 |---------|---------|---------|
 |contact|Add child profile|Add Attendee|
 |msdynce_course|Portal Course Form|ASP Create Course|
@@ -96,7 +96,8 @@ The template uses the following forms linked to Dataverse tables:
 |contact|Edit child profile|Edit Attendee|
 |msdynce_registration|Registration unregister form|Unregister Attendee|
 
-** *The form name as it appears when added to a page.*
+* *The form name as it appears associated to the table in data workspace.*
+** *The form name as it appears when added to a page as a component.*
 
 #### Table information
 
