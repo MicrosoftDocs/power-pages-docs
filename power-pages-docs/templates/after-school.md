@@ -59,7 +59,7 @@ The following are the pages, basic forms, and customizable tables provided in th
 
 The following pages are utilized by **Parents**:
 
-| **Page** | **Description** |
+| Page | Description |
 |-----------|----------------|
 |Home|Search an event and view courses and course details based on specified criteria.|
 |Unregister Attendee |Unregister a previously registered child.|
@@ -83,7 +83,7 @@ The following pages are utilized by **School Representatives**:
 |Edit Course|Edit a course.|
 
 
-### Forms and Tables
+### Forms and tables
 
 The template uses the following forms linked to Dataverse tables:
 
@@ -97,6 +97,8 @@ The template uses the following forms linked to Dataverse tables:
 |contact|Edit child profile|Edit Attendee|
 |msdynce_registration|Registration unregister form|Unregister Attendee|
 
+** *The form name as it appears when added to a page.*
+
 #### Table information
 
 |Table name|Schema name|Description|
@@ -104,8 +106,6 @@ The template uses the following forms linked to Dataverse tables:
 |Contact|contact|Contact details for the child's profile.|
 |Course|msdynce_course|Course details such as course name, description, type, instructor, category, grade level, start date, start time, end date, end time, registration deadline, capacity, % filled, status.|
 |Registration|msdynce_registration|Course registration details.|
-
-
 
 ## Professional developers
 
