@@ -96,8 +96,9 @@ The template uses the following forms linked to Dataverse tables:
 |contact|Edit child profile|Edit Attendee|
 |msdynce_registration|Registration unregister form|Unregister Attendee|
 
-* *The form name as it appears associated to the table in data workspace.*
-** *The form name as it appears when added to a page as a component.*
+**The form name as it appears associated to the table in data workspace.*
+
+***The form name as it appears when added to a page as a component.*
 
 #### Table information
 

@@ -106,8 +106,9 @@ The template uses the following forms linked to Dataverse tables:
 | feedback                  | simple contact us form     | simple contact us form    |
 | account                   | Account                    | testform                  |
 
-* *The form name as it appears associated to the table in data workspace.*
-** *The form name as it appears when added to a page as a component.*
+**The form name as it appears associated to the table in data workspace.*
+
+***The form name as it appears when added to a page as a component.*
 
 #### Table information
 
