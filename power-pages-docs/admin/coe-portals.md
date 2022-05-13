@@ -72,7 +72,7 @@ The sync flows of the CoE Starter Kit syncs your tenant resources to the Dataver
     	- Table Permissions Enabled All Basic Forms
     	- Table Permissions Enabled All Adv Form Steps
 	
-    -System Created and Orphan Details
+    - System Created and Orphan Details
     	- App Owner Display Name
     	- Power Pages is Orphaned
 	
@@ -86,6 +86,7 @@ Use this app to:
 - Set approved capacity for environments, and see capacity and add-on information per environment.
 - Complete [app audits](/power-platform/guidance/coe/example-processes).
 - Manage capacity alerts.
+
 **Permission:** This app is intended to be used only by admins. Power Platform Service Admin or Global Admin permission is required. Share this app with your CoE admins.
 
 
