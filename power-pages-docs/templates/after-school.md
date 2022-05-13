@@ -61,38 +61,50 @@ The following pages are utilized by **Parents**:
 
 | **Page** | **Description** |
 |-----------|----------------|
-|           |               |
+|Home|Search an event and view courses and course details based on specified criteria.|
+|Unregister Attendee |Unregister a previously registered child.|
+|Add Attendee Profile|Set up a profile for a child.|
+|Attendee Information|Input a child's information for the purposes of setting up an attendee profile.|
+|My Registrations|View registration for an attendee profile.|
+|Registration Success|Confirm a child is successfully registered for a course.|
+|View Course Details|View selected course details.|
 
 
 #### Admin pages
 
 The following pages are utilized by **School Representatives**:
 
-| **Page** | **Description** |
+|Page|Description|
 |-----------|----------------|
-|           |               |
+|Courses Home|A list view of the courses based on the filters specified.|
+|Create Course|Create a course.|
+|Duplicate Course|Duplicate a course from an existing course.|
+|Delete Course|Delete a course.|
+|Edit Course|Edit a course.|
 
 
-### Forms
+### Forms and Tables
 
-The following forms are included in this template:
-
-|**Form**  | **Description**  |
-|---------|-------------------|
-|         |                   |
+The template uses the following forms linked to Dataverse tables:
 
 
-### Tables
+|Table|Table form name|Page form name**|
+|---------|---------|---------|
+|contact|Add child profile|Add Attendee|
+|msdynce_course|Portal Course Form|ASP Create Course|
+|msdynce_course|Portal Course Form|ASP Edit Form|
+|msdynce_course|Delete a course form|Delete Course Form|
+|contact|Edit child profile|Edit Attendee|
+|msdynce_registration|Registration unregister form|Unregister Attendee|
 
-All data for this template is stored in these tables:
+#### Table information
 
+|Table name|Schema name|Description|
+|---------|---------|---------|
+|Contact|contact|Contact details for the child's profile.|
+|Course|msdynce_course|Course details such as course name, description, type, instructor, category, grade level, start date, start time, end date, end time, registration deadline, capacity, % filled, status.|
+|Registration|msdynce_registration|Course registration details.|
 
-|**Table** |**Description** |
-|----------|----------------|
-|Appointment   |            |
-|Contact     |              |
-|Course    |                |
-|Registration     |         |
 
 
 ## Professional developers
