@@ -13,99 +13,41 @@ contributors:
     - ProfessorKendrick
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Configure authorized access to your site
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
-
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
+Power Pages provides a way to allow your external stakeholders to get self-service access to information and data from your business systems.
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> * Provide user access to your Power Pages sites using an identity provider.
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
-
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
 
 ## [Section 1 heading]
 <!-- Introduction paragraph -->
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. In design studio, select **Setup**.  
+1. Under **Authentication**, choose **Identity Providers**.
+1. Select **Configure**.
+1. Ensure **Azure Active Directory B2C** is selected and then choose **Next**.
+1. Choose a subscription.
+1. Create a resource group.
+1. Select a country.
+1. Select next.
+1. Confirm the defaults and then select **Next**.
+1. Select defaults (new policy) and then select **Create**.
+1. Select **Close**.
+1. Select the ellipses next to **Local Sign In**.
+1. Choose **Disable**.
 
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+Now your users can sign in, register, or redeem an invitation to your site using the configured identity provider.  
 
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
-
-## Clean up resources
-
-If you're not going to continue to use this application, delete
- with the following steps:
-
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
-
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
+You can preview this functionality by visiting a portal and selecting **Sign In**, then select **Azure AD B2C**.  The default Azure AD B2C sign-in screen will appear.
 
 ## Next steps
 
@@ -113,7 +55,3 @@ Advance to the next article to learn how to upload your own custom CSS file to y
 > [!div class="nextstepaction"]
 > [Next steps](tutorial-add-custom-style.md)
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
