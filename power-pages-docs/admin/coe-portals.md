@@ -33,7 +33,7 @@ The [Power Pages admin center](admin-overview.md) allows administrators various 
 - Upload and manage custom certificates
 - Enable integrations
 
-The [Power Platform Center of Excellence toolkit](/power-platform/guidance/coe/starter-kit) provides tools and guidance on managing your Power Pages sites.
+The [Power Platform Center of Excellence toolkit](power-platform/guidance/coe/starter-kit) provides tools and guidance on managing your Power Pages sites.
 
 <!--TO DO-->
 # Power Pages Inventory Components
@@ -84,7 +84,7 @@ Use this app to:
 - Find out who apps are shared with.
 - Add additional information, such as notes and risk assessments, to your resources.
 - Set approved capacity for environments, and see capacity and add-on information per environment.
-- Complete [app audits](/power-platform/guidance/coe/example-processes).
+- Complete [app audits](power-platform/guidance/coe/example-processes).
 - Manage capacity alerts.
 
 **Permission:** This app is intended to be used only by admins. Power Platform Service Admin or Global Admin permission is required. Share this app with your CoE admins.
@@ -111,6 +111,6 @@ Follow the setup [instructions](power-platform/guidance/coe/setup-powerbi) to se
 
 
 ## Further resources
-- [Power Pages Admin Center](/maker/portals/admin/admin-overview) Allows you to perform advanced administrative actions on portals. The admin center is available when a portal is provisioned successfully.
-- Explore the [Power Apps admin documentation](/power-platform/admin/admin-documentation).As an admin looking after the CoE, you should be familiar with the administration and governance of Microsoft Power Platform. We recommend the following white paper as a resource: [aka.ms/PowerAppsAdminWhitepaper](https://aka.ms/powerappsadminwhitepaper)
+- [Power Pages Admin Center](maker/portals/admin/admin-overview) Allows you to perform advanced administrative actions on portals. The admin center is available when a portal is provisioned successfully.
+- Explore the [Power Apps admin documentation](power-platform/admin/admin-documentation).As an admin looking after the CoE, you should be familiar with the administration and governance of Microsoft Power Platform. We recommend the following white paper as a resource: [aka.ms/PowerAppsAdminWhitepaper](https://aka.ms/powerappsadminwhitepaper)
 - Find training resources, including guided learning and step-by-step guides, at [aka.ms/PowerPlatformLabs](https://aka.ms/powerplatformlabs).
