@@ -55,9 +55,9 @@ Individual pages containing content or other components can also be protected by
 
 More information: [Page permissions](page-security.md)
 
-## Site Security
+## Additional WebSite Security
 
-Power Pages provides features to ensure your sites stay secure: 
+Power Pages can be integrated with any Web Application Firewall infrastrucuture to provide additional protection against common Web application attacks. Following documentation explains how to integrate it with Azure Front door Web Application Firewall: 
 
 - [Azure Front Door](/power-apps/maker/portals/azure-front-door)
 
