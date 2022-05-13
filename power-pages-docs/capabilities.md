@@ -77,9 +77,7 @@ You can also configure Power Pages to use edge caching and Web Application Firew
 
 Power Pages and provides some helpful tools for administrators to manage the administration and lifecycle of their sites and environments.
 
-For more information, see [Power Pages Governance](admin/coe-portals.md)
-
-## 5 x 5 
+For more information, see [Power Pages Governance](admin/coe-portals.md) 
 
 ## Integration with other Power Platform components
 

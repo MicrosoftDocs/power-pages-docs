@@ -20,4 +20,3 @@ contributors:
 
 For detailed information on portals error logs, go to [View portal error logs](/powerapps/maker/portals/admin/view-portal-error-log) in the Power Apps documentation.
 
-[!INCLUDE[faq](../includes/cc-faqs.md)]
