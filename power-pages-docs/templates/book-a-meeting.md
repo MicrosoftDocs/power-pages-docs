@@ -89,7 +89,7 @@ The following pages are utilized by **Bank Representatives**:
 
 The template uses the following forms linked to Dataverse tables:
 
-| **Table**                 | **Table form name**        | **Page form name**        |
+| Table                 | Table form name*        | Page form name**        |
 |---------------------------|----------------------------|---------------------------|
 | contact                   | BAM C1 Specialties Subgrid | BAM C1 Select Specialties |
 | appointment               | C1 Appointment Create      | C1 Appointment Create     |
@@ -106,7 +106,8 @@ The template uses the following forms linked to Dataverse tables:
 | feedback                  | simple contact us form     | simple contact us form    |
 | account                   | Account                    | testform                  |
 
-** *The form name as it appears when added to a page.*
+* *The form name as it appears associated to the table in data workspace.*
+** *The form name as it appears when added to a page as a component.*
 
 #### Table information
 
