@@ -58,9 +58,7 @@ See more:
 - [Use the code editor](getting-started/code-editor.md)
 - [Add code components](configure/component-framework.md)
 
-## Robust security and governance capabilities
-
-### Security
+## Security
 
 <!--image-->
 **CONTENT NOTE: IMAGE CONVEYING SECURITY HERE**
@@ -75,11 +73,13 @@ Power Pages supports modern TLS crypto standards (TLS 1.2) and has inbuilt DDOS 
 
 You can also configure Power Pages to use edge caching and Web Application Firewall (WAF) capabilities.  For more information, see [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door).
 
-### Governance
+## Governance
 
 Power Pages and provides some helpful tools for administrators to manage the administration and lifecycle of their sites and environments.
 
 For more information, see [Power Pages Governance](admin/coe-portals.md)
+
+## 5 x 5 
 
 ## Integration with other Power Platform components
 

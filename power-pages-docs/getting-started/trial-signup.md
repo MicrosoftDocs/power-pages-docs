@@ -23,6 +23,8 @@ Power Pages offers a free 30-day trial. After a quick sign-up, you'll have acces
 
 1. Go to the https://powerpages.microsoft.com, and select **Try free**.
 
+    :::image type="content" source="../media/overview/powerpages-get-started.png" alt-text="Get started using Power Pages.":::
+
 1. Follow the onscreen guidance to enter the work or school email address, backed by Azure Active Directory, to sign up for a trial license. 
 
 1. On the subsequent screens, we have a few questions (three questions) that wouldn't take more than 2 minutes to answer, so we can provide you with the best experience of creating sites.
