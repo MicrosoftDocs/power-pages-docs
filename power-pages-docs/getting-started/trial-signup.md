@@ -23,31 +23,31 @@ Power Pages offers a free 30-day trial. After a quick sign-up, you'll have acces
 
 1. Go to the https://powerpages.microsoft.com, and select **Try free**.
 
-2. Follow the onscreen guidance to enter the work or school email address, backed by Azure Active Directory, to sign up for a trial license. 
+1. Follow the onscreen guidance to enter the work or school email address, backed by Azure Active Directory, to sign up for a trial license. 
 
-3. On the subsequent screens, we have a few questions (3 questions) that would not take more than 2 minutes to answer, so we can provide you with the best experience of creating sites.
+1. On the subsequent screens, we have a few questions (three questions) that wouldn't take more than 2 minutes to answer, so we can provide you with the best experience of creating sites.
 
-4. Choose a template that best aligns to what you want to use your site for. If none of the business need templates match what you are looking for, choose the **Default design template** for cross-industry solutions.
+1. Choose a template that best aligns to what you want to use your site for. If none of the business need templates match what you are looking for, choose the **Default design template** for cross-industry solutions.
 
-5. Review the template description and then select **Choose template**.
+1. Review the template description and then select **Choose template**.
 
-6. You can provide a name for your site and site web address as needed. We make a unique name suggestion, but you can edit the name and URL as needed. To create a site, you could either create a new Microsoft Dataverse environment or select an existing environment where you have the necessary permissions and your data.
+1. You can provide a name for your site and site web address as needed. We make a unique name suggestion, but you can edit the name and URL as needed. To create a site, you could either create a new Microsoft Dataverse environment or select an existing environment where you have the necessary permissions and your data.
 
     :::image type="content" source="media/trial/create-site.png" alt-text="Create a Power Pages site.":::
 
-7. Once you have added all required details, select **Done**.
+1. Once you've added all required details, select **Done**.
 
-8. The process will take a few moments to set up your site and environment. Once the site is created, you will see your new site in the **Design studio**, where you are provided with a short tour of the features of the **Design studio**.
+1. The process will take a few moments to set up your site and environment. Once the site is created, you'll see your new site in the **Design studio**, where you're provided with a short tour of the features of the **Design studio**.
+    <!-- GIF to be added
+    :::image type="content" source="media/trial/powerpages-new-site-tour-designstudio.png" alt-text="Tour the design studio.":::
+    -->
+1. Once your make changes to your site, you can select **Preview** to preview your site using web browser or on a mobile device by scanning a QR code. 
 
-    :::image type="content" source="media/trial/powerpages-new-site-tour-designstudio.png" alt-text="Tour the deisgn studio.":::
-
-9. Once your make changes to your site, you can select **Preview** to preview your site using web browser or on a mobile device by scanning a QR code. 
-
-10. If you re-visit the https://powerpages.microsoft.com and **Sign-in**, you will be re-directed to the [Power Pages home page](https://make.powerpages.microsoft.com). You will see your site listed on the Power Pages home page.
+1. If you revisit the https://powerpages.microsoft.com and **Sign-in**, you'll be redirected to the [Power Pages home page](https://make.powerpages.microsoft.com). You'll see your site listed on the Power Pages home page.
 
     :::image type="content" source="media/trial/site-list.png" alt-text="List of Power Pages sites.":::
 
-11. You can either **Edit** or **Preview** the site right from here. 
+1. You can either **Edit** or **Preview** the site right from here. 
 
 ## What to try
 
