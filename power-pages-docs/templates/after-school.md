@@ -87,7 +87,6 @@ The following pages are utilized by **School Representatives**:
 
 The template uses the following forms linked to Dataverse tables:
 
-
 |Table|Table form name|Page form name**|
 |---------|---------|---------|
 |contact|Add child profile|Add Attendee|

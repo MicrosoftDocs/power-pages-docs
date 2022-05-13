@@ -85,40 +85,38 @@ The following pages are utilized by **Bank Representatives**:
 |Page Not Found|Displays if user's search criteria isn't matched.|
 
 
-### Forms 
+### Forms and tables
 
-The following forms are included in this template:
+The template uses the following forms linked to Dataverse tables:
 
+| **Table**                 | **Table form name**        | **Page form name**        |
+|---------------------------|----------------------------|---------------------------|
+| contact                   | BAM C1 Specialties Subgrid | BAM C1 Select Specialties |
+| appointment               | C1 Appointment Create      | C1 Appointment Create     |
+| appointment               | Appointment                | C1 Cancel Appointment     |
+| appointment               | C1 Appointment Create      | C1 Cancel Calendar Block  |
+| msdyn\_appointmentrequest | Calendar Block             | C1 Create Calendar Block  |
+| appointment               | Appointment                | C1 Edit Appointment       |
+| appointment               | Appointment                | C1 Reschedule             |
+| appointment               | Appointment                | C1 Reschedule Appointment |
+| contact                   | BAM C1 Simple Specialties  | C1 Simple Specialties     |
+| contact                   | BAM C1 Specialties Subgrid | C1 Specialties            |
+| contact                   | BAM C1 Image Upload        | C1 UploadImage            |
+| msdyn\_appointmentrequest | Cancel Appointment         | C2 Cancel Appointment     |
+| feedback                  | simple contact us form     | simple contact us form    |
+| account                   | Account                    | testform                  |
 
-|Column1  |Column2  |Column3  |
-|---------|---------|---------|
-|Row1     |         |         |
-|Row2     |         |         |
-|Row3     |         |         |
-|Row4     |         |         |
-|Row5     |         |         |
-|Row6     |         |         |
-|Row7     |         |         |
-|Row8     |         |         |
-|Row9     |         |         |
-|Row10     |         |         |
-|Row11     |         |         |
-|Row12     |         |         |
-|Row13     |         |         |
-|Row14     |         |         |
+** *The form name as it appears when added to a page.*
 
-### Tables
+#### Table information
 
-All data for this template is stored in these tables:
-
-|**Table**|**Description**|
-|---------|---------|
-|Appointment    |         |
-|AppointmentRequest     |         |
-|Contact     |         |
-|Location    |         |
-|Service     |         |
-|Website     |         |
+| **Table display name** | **Schema name**           | **Description**                                                                                 |
+|------------------------|---------------------------|-------------------------------------------------------------------------------------------------|
+| Appointment            | appointment               | Scheduling for bank representatives.                                                            |
+| AppointmentRequest     | msdyn\_appointmentrequest | Capture appointment request and actions (canceling, editing appointment) for customers.         |
+| Contact                | contact                   | Capture contact information of bank representative.                                             |
+| Feedback               | feedback                  | Capture feedback from customer.                                                                 |
+| Account                | Account                   | Capture customer information.                                                                   |
 
 ## Professional developers
 
