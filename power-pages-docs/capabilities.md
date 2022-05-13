@@ -45,9 +45,6 @@ The new and enhanced [design studio](getting-started/use-design-studio.md) provi
 
 Power Pages is based on Bootstrap, which natively provides support for building websites that are responsive, mobile friendly, and available in various form factors.
 
-<!--image-->
-**CONTENT NOTE:  BETTER IMAGE SHOWING SAME SCREEN DIFFERENT FORM FACTORS**
-
 :::image type="content" source="media/overview/form-factors.png" alt-text="Power Pages form factors.":::
 
 ## Advanced development capabilities for professional developers 
