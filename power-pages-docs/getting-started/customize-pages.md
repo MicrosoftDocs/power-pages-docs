@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/19/2022
+ms.date: 05/13/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -27,7 +27,7 @@ The editor allows you to add and edit the required components within the canvas.
 
 To use the editor:
 
-1. Open the [Power Apps portals studio](/getting-started/use-design-studio.md) to edit the content and components of the portal.
+1. Open the [design studio](/getting-started/use-design-studio.md) to edit the content and components of the portal.
 
 1. Navigate to the **Pages** workspace.
 
