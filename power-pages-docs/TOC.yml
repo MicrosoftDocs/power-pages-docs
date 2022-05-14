@@ -30,6 +30,8 @@
           href: templates/after-school.md
         - name: Book a Meeting template
           href: templates/book-a-meeting.md      
+    - name: Manage sites
+      href: admin/manage-sites.md           
     - name: Learning hub
       href: getting-started/use-learnhub.md 
     - name: Power Pages community
