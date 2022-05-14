@@ -16,22 +16,20 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Summary
-
 As you prepare and consider going live with your project on Power Pages there are many items to consider and plan for. 
 
 Here are just a few areas to keep in mind:
  - Tidy up your site
  - Environment strategy
- - Setup monitoring 
+ - Set up monitoring 
  - Performance testing
- - Setup custom domain 
+ - Set up custom domain 
  - Complete authentication setup
  - Assign licensing 
- - Setup telemetry monitoring
+ - Set up telemetry monitoring
  - Announce and invite users
 
-We'll go over several of them in this article. We'll evolve this article over time as we head towards General Availability of Power Pages.
+We'll go over several of them in this article, and update this article over time as we head towards general availability of Power Pages.
 
 ## Tidy up your site
 
@@ -77,7 +75,7 @@ If you have high scalability needs (think 1000s of users a month or a very criti
 
 Consider reviewing with your Microsoft customer service account manager if a Microsoft customer engineer can help you, take a look at this post about some ways they can help you: [Power Apps portal: How a Customer Engineer can help - Microsoft Dynamics CRM Community](https://community.dynamics.com/crm/b/crminthefield/posts/power-apps-portal-how-a-customer-engineer-can-help).
 
-## Setup custom domain 
+## Set up custom domain 
 	
 Most users would prefer and have confidence in your site, if it had a custom domain name. While Microsoft is fine with you using our domain like contosositeprod.powerpages.com - you likely want your users to see your own URL listed like customercenter.contso.com 
 
@@ -91,11 +89,11 @@ This is the time to turn off and only provide the final desired ways users can s
 
 Setup external identity provider. Turn off Local Authentication. 
 
-> Tip: You would want to finish setup of the custom domain because the redirect URL should be the new fancy one. 
+> [!TIP]
+> - You would want to finish setup of the custom domain because the redirect URL should be the new fancy one. 
+> - If you are using it, rename "Azure AD" login button to something like "Contoso Employees". To do so create Site Setting "Authentication/OpenIdConnect/AzureAD/Caption" for your specific website and set a desired value. Find it in Site Settings area of [Portal Management App](../configure/portal-management-app.md)
 
-> TIP: If you are using it, rename "Azure AD" login button to something like "Contoso Employees". To do so create Site Setting "Authentication/OpenIdConnect/AzureAD/Caption" for your specific website and set a desired value. Find it in Site Settings area of [Portal Management App](../configure/portal-management-app.md)
-
-Read more in [Configure authentication](../security/configure-portal-authentication.md)
+Read more: [Configure authentication](../security/configure-portal-authentication.md)
 
 ## Assign licensing 
 
@@ -117,7 +115,7 @@ You can place the telemetry tracking HTML/JS snippet of code in the "Enable Traf
 
 Consider Azure Monitor - Application Insights. Our Microsoft Customer Engineers team wrong this blog post with some tips and other suggestions. <!--link-->
 
-## Announce & invite users
+## Announce and invite users
 
 You want the world to know about your project, or maybe not. But you certainly do. If you have passive use-case or self-registration. Consider sending a newsletter and inviting your end-customer user base to the site and let them know what they can expect to do and the value it serves to them.
 
