@@ -23,7 +23,7 @@ Microsoft Power Pages is a secure enterprise-grade low-code SaaS platform for cr
 
 > [!IMPORTANT]
 > - Power Pages is in preview. 
-> - Products that are in preview aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - These features are available before an official release so that customers can get early access and provide feedback.
 
 ## Introducing Power Pages
 

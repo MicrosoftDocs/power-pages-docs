@@ -24,11 +24,13 @@ Along with the extensible data model and pro-developer customization experiences
 
 :::image type="content" source="media/overview/power-pages-platform.png" alt-text="A website built using Power Pages.":::
 
-The following new features currently in preview to allow customers to try with their existing and new Power Apps portals projects:
+The following new features currently in preview to allow customers to try and provide feedback:
 
 - [New design studio with productivity workspaces](getting-started/use-design-studio.md)
 - [Improved trial and site creation experience](getting-started/trial-signup.md)
 - [Templates hub](templates/index.md)
 - [Learn hub](getting-started/use-learnhub.md)
+
+The new design studio and new template capabilities of Power Pages are in public preview and are not recommended for production usage. However, all the platform, site admin capabilities and pro-developer capabilities are generally available to be used in production scenarios.
 
 When Power Pages becomes generally available, all your current configuration and development efforts with Power Apps portals will be automatically fully compatible with Power Pages.
