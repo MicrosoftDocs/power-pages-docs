@@ -78,13 +78,22 @@ The form now has a code component linked to the field.
     :::image type="content" source="media/tutorial/add-page.png" alt-text="Add a new page.":::
     
 1. Select **Form** from the component bar.
+    :::image type="content" source="media/tutorial/form-icon.png" alt-text="THe form icon from the component bar.":::
 1. Select **+ New form**.
-1. Select the **Feedback table**.
-1. Select the form you created previously.
+    :::image type="content" source="media/tutorial/add-a-form.png" alt-text="Add a form window.":::
+1. Fill in the details.
+    - Select the **Feedback table**.
+    - Select the form you created previously.
+    - Select **Ok**.
+    :::image type="content" source="media/tutorial/add-form-details.png" alt-text="Details for Add a Form":::
 1. Select the **Permissions** button.
+    :::image type="content" source="media/tutorial/permissions.png" alt-text="The permissions button.":::
 1. Select **Feedback permissions**.
-1. Ensure the **Create privilege** is checked and that **Anonymous** and Authenticated web roles are linked.
+
+1. Ensure the **Create privilege** is checked and that **Anonymous** and **Authenticated** web roles are linked.
+  :::image type="content" source="media/tutorial/web-roles-feedback.png" alt-text="Options for setting feedback permissions.":::  
 1. Select **Preview page**.
+    :::image type="content" source="media/tutorials/preview-icon.png" alt-text="Preview icon.":::
 1. Add some data, then enter the captcha code.
 1. Select **Submit**.
 
