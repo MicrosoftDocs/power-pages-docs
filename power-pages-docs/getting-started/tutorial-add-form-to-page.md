@@ -89,20 +89,25 @@ The form now has a code component linked to the field.
 1. Select the **Permissions** button.
     :::image type="content" source="media/tutorial/permissions.png" alt-text="The permissions button.":::
 1. Select **Feedback permissions**.
-
-1. Ensure the **Create privilege** is checked and that **Anonymous** and **Authenticated** web roles are linked.
-  :::image type="content" source="media/tutorial/web-roles-feedback.png" alt-text="Options for setting feedback permissions.":::  
+    - Ensure the **Create privilege** is checked and that **Anonymous** and **Authenticated** web roles are linked.
+    :::image type="content" source="media/tutorial/web-roles-feedback.png" alt-text="Options for setting feedback permissions.":::  
 1. Select **Preview page**.
-    :::image type="content" source="media/tutorials/preview-icon.png" alt-text="Preview icon.":::
-1. Add some data, then enter the captcha code.
-1. Select **Submit**.
+    :::image type="content" source="media/tutorial/preview-icon.png" alt-text="Preview icon.":::
 
 ## Configure form options
 
 1. In the maker studio, open a page with a form component and choose the Form button.
-1. Specify the table and Dataverse form.
+1. Select **+ New form**.
+    :::image type="content" source="media/tutorial/add-a-form.png" alt-text="Add a form window.":::
+1. Fill in the details.
+    - Select the **Feedback table**.
+    - Select the form you created previously.
+    - Select **Ok**.
+    :::image type="content" source="media/tutorial/add-form-details.png" alt-text="Details for Add a Form":::
 1. Select the **Data tab** to create a record, update an existing record, or specify as read-only.
+
 1. Select the **On Submit tab** to enable your page to show a success message or redirect to a webpage or URL.
+
 1. Select the **Data section**.  Select **Open Portal Management app**.
 1. Select **Basic form metadata**.
 1. Choose **New basic form metadata**.
