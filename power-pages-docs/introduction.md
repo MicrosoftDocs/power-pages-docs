@@ -41,9 +41,9 @@ Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker
 
 ## Try for free
 
-:::image type="content" source="media/overview/powerpages-get-started.png" alt-text="Get started using Power Pages.":::
-
 You can [try Power Pages](getting-started/trial-signup.md) for free to explore the features and capabilities to build your own business web sites.
+
+:::image type="content" source="media/overview/powerpages-get-started.png" alt-text="Get started using Power Pages.":::
 
 ## Read next
 [Power Pages capabilities](capabilities.md)
