@@ -83,7 +83,7 @@ Use this app to:
 - Find out who apps are shared with.
 - Add additional information, such as notes and risk assessments, to your resources.
 - Set approved capacity for environments, and see capacity and add-on information per environment.
-- Complete [app audits](https://docs.microsoft.com/en-us/power-platform/guidance/coe/example-processes).
+- Complete [app audits](/power-platform/guidance/coe/example-processes).
 - Manage capacity alerts.
 
 **Permission:** This app is intended to be used only by admins. Power Platform Service Admin or Global Admin permission is required. Share this app with your CoE admins.
@@ -104,12 +104,12 @@ Admins are able view even more details about a Power Pages Site by selecting  an
 ## CoE Power BI report
 
 Additionally, admins can leverage the CoE Dashboard  Power BI report. This enables admins with a holistic view of inventory items in Dataverse with rich visualizations and insights for Environment and Power Pages sites information. 
-Follow the setup [instructions](https://docs.microsoft.com/en-us/power-platform/guidance/coe/setup-powerbi) to set up the Power BI dashboard. More information: [Gain deep insights into your Microsoft Power Platform adoption with the CoE Power BI dashboard](https://docs.microsoft.com/en-us/power-platform/guidance/coe/power-bi)
+Follow the setup [instructions](/power-platform/guidance/coe/setup-powerbi) to set up the Power BI dashboard. More information: [Gain deep insights into your Microsoft Power Platform adoption with the CoE Power BI dashboard](/power-platform/guidance/coe/power-bi)
 
 :::image type="content" source="media/coe-power-bi-dashboard.png" alt-text="COE Power Pages Inventory Record":::
 
 
 ## Further resources
-- [Power Pages Admin Center](https://docs.microsoft.com/en-us/power-apps/maker/portals/admin/admin-overview) Allows you to perform advanced administrative actions on portals. The admin center is available when a portal is provisioned successfully.
-- Explore the [Power Apps admin documentation](https://docs.microsoft.com/en-us/power-platform/admin/admin-documentation).As an admin looking after the CoE, you should be familiar with the administration and governance of Microsoft Power Platform. We recommend the following white paper as a resource: [aka.ms/PowerAppsAdminWhitepaper](https://aka.ms/powerappsadminwhitepaper)
+- [Power Pages Admin Center](/power-apps/maker/portals/admin/admin-overview) Allows you to perform advanced administrative actions on portals. The admin center is available when a portal is provisioned successfully.
+- Explore the [Power Apps admin documentation](/power-platform/admin/admin-documentation).As an admin looking after the CoE, you should be familiar with the administration and governance of Microsoft Power Platform. We recommend the following white paper as a resource: [aka.ms/PowerAppsAdminWhitepaper](https://aka.ms/powerappsadminwhitepaper)
 - Find training resources, including guided learning and step-by-step guides, at [aka.ms/PowerPlatformLabs](https://aka.ms/powerplatformlabs).
