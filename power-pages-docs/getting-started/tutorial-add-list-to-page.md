@@ -87,7 +87,7 @@ Use the steps below to add a list to a web page so you can view information stor
     :::image type="content" source="media/tutorial/add-list.png" alt-text="Add a list.":::
 1. Fill in the details.
     - Choose the table and view you'd like from the dropdown menus.
-    :::image type="content" source="media/tutorial/add-list-details.png" alt-text="FIelds for the add a list window.":::
+    :::image type="content" source="media/tutorial/add-list-details.png" alt-text="Fields for add a list window.":::
 1. Select **Preview**.
     :::image type="content" source="media/tutorial/preview-icon.png" alt-text="The preview icon.":::
 
