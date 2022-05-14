@@ -4,7 +4,7 @@ description: Learn how to style your Power Pages site.
 author: rob-moyer
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/20/2022
+ms.date: 05/13/2022
 ms.subservice:
 ms.author: robmoyer 
 ms.reviewer: ndoelman
@@ -20,7 +20,7 @@ contributors:
 
 In Power Pages you will find a robust set of themes and tools to use to style your site. There are several preset themes that may be applied to your portal.  You can use these themes as a starting point and apply further customization with the styling menu.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select the **Styling** tab from the left navigation pane.
 

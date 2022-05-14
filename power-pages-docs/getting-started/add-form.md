@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add Form
+# Add form
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

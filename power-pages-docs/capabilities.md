@@ -58,9 +58,7 @@ See more:
 - [Use the code editor](getting-started/code-editor.md)
 - [Add code components](configure/component-framework.md)
 
-## Robust security and governance capabilities
-
-### Security
+## Security
 
 <!--image-->
 **CONTENT NOTE: IMAGE CONVEYING SECURITY HERE**
@@ -75,17 +73,17 @@ Power Pages supports modern TLS crypto standards (TLS 1.2) and has inbuilt DDOS 
 
 You can also configure Power Pages to use edge caching and Web Application Firewall (WAF) capabilities.  For more information, see [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door).
 
-### Governance
+## Governance
 
 Power Pages and provides some helpful tools for administrators to manage the administration and lifecycle of their sites and environments.
 
-For more information, see [Power Pages Governance](admin/coe-portals.md)
+For more information, see [Power Pages Governance](admin/coe-portals.md) 
 
 ## Integration with other Power Platform components
 
 Power Pages provides deep integration with other Power Platform components, such as you can:
 - Embed Power BI reports in sites configured with row-level security so that authenticated users can only view data that they have access to.
 - Configure intelligent bots created using Power Virtual Agents on your site pages.
-- Trigger Power Automate flows to automate business tasks.
+- Trigger Power Automate flows to automate business tasks and access to over 675 connectors.
 - Build Power Apps to access information collected and transacted from Power Pages.
 - Extend Dynamics 365 business applications using Power Pages.

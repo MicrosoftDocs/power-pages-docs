@@ -110,7 +110,7 @@
       href: configure/advanced-config.md
 - name: Customize and extend Power Pages
   items:
-    - name: Using VS Code and Power Platform CLI
+    - name: Use Visual Studio Code and Power Platform CLI
       href: configure/cli-tutorial.md   
     - name: Web templates
       href: configure/store-content-web-templates.md
