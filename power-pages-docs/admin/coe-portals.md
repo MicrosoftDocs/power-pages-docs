@@ -106,7 +106,7 @@ Admins are able view even more details about a Power Pages Site by selecting  an
 Additionally, admins can leverage the CoE Dashboard  Power BI report. This enables admins with a holistic view of inventory items in Dataverse with rich visualizations and insights for Environment and Power Pages sites information. 
 Follow the setup [instructions](/power-platform/guidance/coe/setup-powerbi) to set up the Power BI dashboard. More information: [Gain deep insights into your Microsoft Power Platform adoption with the CoE Power BI dashboard](/power-platform/guidance/coe/power-bi)
 
-:::image type="content" source="media/coe-power-bi-dashboard.png" alt-text="COE Power Pages Inventory Record":::
+:::image type="content" source="media/coe-power-bi-dashboard.png" alt-text="COE Power BI dashboard":::
 
 
 ## Further resources
