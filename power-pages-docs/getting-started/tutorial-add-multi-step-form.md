@@ -119,7 +119,14 @@ Repeat the instructions outlined until you've created the number of steps needed
 :::image type="content" source="media/tutorial/advanced-form-add-page.png" alt-text="Add a new page pop-up.":::
 1. Open **code editor**.  
 :::image type="content" source="media/tutorial/advanced-form-code-editor.png" alt-text="Code editor icon in design studio.":::
-1. Between the ``<div> </div>`` tags, paste the following (replace 'Scholarship Application') with your equivalent.
+1. Select the code editor icon, and in between the <div></div> tags, enter in the following Liquid code snippet:
+
+```{% webform name: '<name of advanced form>' %}```
+
+For example, if your advanced form name was Scholarship Application then the code would be:
+
+```{% webform name: 'Scholarship Application' %}```
+:::image type="content" source="media/first-page/add-advanced-form.png" alt-text="Adding an advanced form.":::
 1. Select **Save**.
 1. Select **Preview**.
 1. Sign-in to the portal.
