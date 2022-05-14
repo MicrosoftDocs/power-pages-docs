@@ -76,7 +76,7 @@ The sign-up experience in the first run would need you to create a trial site. O
 
 ### How long would it take for the trial site to get created? 
 
-When you create a trial site in a new trial environment, it would take a few mins, as the new trial environment created is optimized and pre-installed with the site templates in it. When you create a trial site in an existing environment that doesn't have the pre-installed site templates, then site creation would take around 15 to 30 minutes as the site template has to be installed before the site itself is created. 
+When you create a trial site in a new trial environment, it would take a few minutes, as the new trial environment created is optimized and pre-installed with the site templates in it. When you create a trial site in an existing environment that doesn't have the pre-installed site templates, then site creation would take around 15 to 30 minutes as the site template has to be installed before the site itself is created. 
 
 
 
