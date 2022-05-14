@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Pages is an evolution of [Power Apps portals](/power-apps/maker/portals/). It is built on the Power Apps portals platform used by thousands of customers today. It combines this platform with new no-code/low-code capabilities and experiences to empower more people to create and deliver business-centric, data-powered, modern and secure website.
+Power Pages is an evolution of [Power Apps portals](/power-apps/maker/portals/). It is built on the Power Apps portals platform used by thousands of customers today. It combines this platform with new no-code/low-code capabilities and experiences to empower more people to create and deliver business-centric, data-powered, modern, and secure website.
 
 Power Pages is a super set of Power Apps portals. Current customers of Power Apps portals do not need to upgrade or migrate their running portals. Customers and Partners building solutions on top of Power Apps portals should not stop or cancel their projects.  
 
