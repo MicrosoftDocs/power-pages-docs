@@ -4,7 +4,7 @@ description: Manage and administer your Power Pages sites.
 author: donovangoode
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/15/2022
+ms.date: 05/13/2022
 ms.author: dgoode
 ms.reviewer: ndoelman
 contributors:
@@ -33,15 +33,14 @@ The [Power Pages admin center](admin-overview.md) allows administrators various 
 - Upload and manage custom certificates
 - Enable integrations
 
-The [Power Platform Center of Excellence toolkit](power-platform/guidance/coe/starter-kit) provides tools and guidance on managing your Power Pages sites.
+The [Power Platform Center of Excellence toolkit](/power-platform/guidance/coe/starter-kit) provides tools and guidance on managing your Power Pages sites.
 
-<!--TO DO-->
 ## Power Pages Inventory Components
 
 The inventory components are core to Power Pages governance within the Center of Excellence (COE) Starter Kit. The Power Pages resources are synced to the  respective inventory items tables and can be viewed in the ***'Power Platform Admin View*** app and in the ***'COE Power BI'*** report.
 
 ### Tables
-The [sync flows](https://docs.microsoft.com/en-us/power-platform/guidance/coe/core-components#flows) of the CoE Starter Kit syncs your tenant resources to the Dataverse tables. The 'Admin | Sync Template v3 (Portals)'  is the Power Pages specific cloud flow that handles the Power Pages inventory telemetry. The Power Pages table provides information about created by/on and modified by/on, in addition to resource-specific information.
+The [sync flows](/power-platform/guidance/coe/core-components#flows) of the CoE Starter Kit syncs your tenant resources to the Dataverse tables. The 'Admin | Sync Template v3 (Portals)'  is the Power Pages specific cloud flow that handles the Power Pages inventory telemetry. The Power Pages table provides information about created by/on and modified by/on, in addition to resource-specific information.
 - Power Pages Sites (Portals) represents an portal website. The following information is available for each app:
 	
     - Details
