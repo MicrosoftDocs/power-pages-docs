@@ -30,6 +30,8 @@
           href: templates/after-school.md
         - name: Book a Meeting template
           href: templates/book-a-meeting.md      
+    - name: Manage sites
+      href: admin/manage-sites.md           
     - name: Learning hub
       href: getting-started/use-learnhub.md 
     - name: Power Pages community
@@ -110,7 +112,7 @@
       href: configure/advanced-config.md
 - name: Customize and extend Power Pages
   items:
-    - name: Using VS Code and Power Platform CLI
+    - name: Use Visual Studio Code and Power Platform CLI
       href: configure/cli-tutorial.md   
     - name: Web templates
       href: configure/store-content-web-templates.md

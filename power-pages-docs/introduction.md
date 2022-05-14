@@ -23,7 +23,7 @@ Microsoft Power Pages is a secure enterprise-grade low-code SaaS platform for cr
 
 > [!IMPORTANT]
 > - Power Pages is in preview. 
-> - Products that are in preview aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - These features are available before an official release so that customers can get early access and provide feedback.
 
 ## Introducing Power Pages
 
@@ -34,13 +34,15 @@ Power Pages provides you with rich, customizable templates, a fluid visual exper
 
 Power Pages is the newest member of the Microsoft Power Platform family. With Power Pages, you can build sites using the same shared business data stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro) that you use for building apps, workflows, intelligent virtual agents, reports, and analytics by using other components of Power Platform in your organization. 
 
-:::image type="content" source="media/overview/power-platform1.png" alt-text="Various components of Microsoft Power Platform.":::
+:::image type="content" source="media/overview/power-platform.png" alt-text="Various components of Microsoft Power Platform.":::
 
 ## Power Pages and Power Apps portals 
 
-Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/), but there are some differences. Read more: [Power Pages and Power Apps portals](difference-portals.md) 
+Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/), providing the same robust capabilities and pro-developer experiences but providing a new low code maker experiences and out-of-the box templates. Read more: [Power Pages and Power Apps portals](difference-portals.md) 
 
 ## Try for free
+
+:::image type="content" source="media/overview/powerpages-get-started.png" alt-text="Get started using Power Pages.":::
 
 You can [try Power Pages](getting-started/trial-signup.md) for free to explore the features and capabilities to build your own business web sites.
 
