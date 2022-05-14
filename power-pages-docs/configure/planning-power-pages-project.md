@@ -88,7 +88,7 @@ Having a single external identity provider would help you onboard users consiste
 
 **External users : consider Azure Active Directory B2C**
 
-Consider [Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/overview) - this is external identity provider. You can integrate your custom or corporate identity systems, and enable use of existing social accounts like Microsoft Account, LinkedIn, Google, etc. including an option you set to allow a sign in profile based on email address to be used.
+Consider [Azure Active Directory B2C](/azure/active-directory-b2c/overview) - this is external identity provider. You can integrate your custom or corporate identity systems, and enable use of existing social accounts like Microsoft Account, LinkedIn, Google, etc. including an option you set to allow a sign in profile based on email address to be used.
 
 To look like part of your brand and experience we also support customization of the look and feel to match your needs, see more in: [Customize the Azure AD B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c)
 
@@ -144,7 +144,7 @@ You want a working area to create and test new features away from live productio
 
 In short you shouldn't go live on the same site you're working on right now. If you invite users to the site you're working on, it's hard to get them to stop coming here and go to your intended final one. 
 
-We'll go into this deeper in [Go live checklist](../go-live/checklists.md)
+We'll go into this deeper in [Go live checklist](../go-live/checklist.md)
 
 ## Case for user testing
 
