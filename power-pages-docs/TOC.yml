@@ -78,7 +78,7 @@
         href: getting-started/structure-site.md                    
   - name: Use the Style Workspace
     href: getting-started/style-site.md
-  - name: Use the Data Workspace
+  - name: Use the Data workspace
     items:
       - name: Data workspace overview
         href: getting-started/use-data-workspace.md
@@ -88,7 +88,7 @@
         href: configure/data-workspace-views.md
       - name: Create and modify forms
         href: configure/data-workspace-forms.md                    
-  - name: Use Setup Workspace
+  - name: Use Setup workspace
     href: configure/setup-workspace.md
 - name: Administer Power Pages
   items:   
