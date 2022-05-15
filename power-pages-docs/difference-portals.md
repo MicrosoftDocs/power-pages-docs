@@ -24,7 +24,7 @@ Along with the extensible data model and pro-developer customization experiences
 
 :::image type="content" source="media/overview/power-pages-platform.png" alt-text="A website built using Power Pages.":::
 
-The following new features currently are currently in preview to allow customers to try and provide feedback:
+The following new features are currently in preview to allow customers to try and provide feedback:
 
 - [New design studio with productivity workspaces](getting-started/use-design-studio.md)
 - [Improved trial and site creation experience](getting-started/trial-signup.md)
