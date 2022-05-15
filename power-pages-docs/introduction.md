@@ -27,7 +27,7 @@ Power Pages provides you with rich, customizable templates, a fluid visual exper
 
 > [!IMPORTANT]
 > - Power Pages is an evolution of Power Apps portals, and the new features introduced by Power Pages such as the new design studio and templates are in preview for users to try and provide feedback.
-> - We recommend that you wait until the general availability of Power Pages later this year to use sites created using the new Power Pages design studio in production scenarios.
+> - We recommend that you wait until the general availability of Power Pages later this year to use sites created using the new Power Pages design studio in production scenarios. All the platform, site admin, and pro-developer capabilities are generally available and can be used in production scenarios.
 
 <!--remove this sentence prior to live launch-->
 **POWER PAGES HERO VIDEO HERE**
