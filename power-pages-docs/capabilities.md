@@ -58,26 +58,22 @@ Read more:
 - [Use the code editor](getting-started/code-editor.md)
 - [Add code components](configure/component-framework.md)
 
-## Security
+## Security and governamce
 
 <!--image-->
 **CONTENT NOTE: IMAGE CONVEYING SECURITY HERE**
 
-Power Pages inbuilt security is its core, which allows organizations to securely enable access of their business data to their users (internal or external) via Power Page’s authorization rules. For more information, see [Power Pages security](security/power-pages-security.md)
+Power Pages inbuilt security is its core, which allows organizations to securely enable access of their business data to their users (internal or external) via Power Page’s authorization rules. More information: [Power Pages security](security/power-pages-security.md)
 
-Organizations using Power Pages can choose from various authentication providers or allow access to site content anonymously. For more information, see [Configure Authentication](security/configure-portal-authentication.md)
+- Organizations using Power Pages can choose from various authentication providers or allow access to site content anonymously. More information: [Configure Authentication](security/configure-portal-authentication.md)
 
-Power Pages is hosted as Azure App Service, which has International Organization for Standardization (ISO), System and Organization Controls (SOC), and Payment cards Industry Data Security Standards (PCI DSS) compliance. For more information, see [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview)
+- Power Pages is hosted as Azure App Service, which has International Organization for Standardization (ISO), System and Organization Controls (SOC), and Payment cards Industry Data Security Standards (PCI DSS) compliance. More information: [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview)
 
-Power Pages supports modern TLS crypto standards (TLS 1.2) and has inbuilt DDOS protection. Power Pages supports dynamic IP restriction to limit traffic from bad actors and provides secure, configuration-driven mechanisms for admins to address top web security vulnerabilities such as injection attacks, cross site request forgery, and server-side request forgery.
+ - Power Pages supports modern TLS crypto standards (TLS 1.2) and has inbuilt DDOS protection. It also supports dynamic IP restriction to limit traffic from bad actors and provides secure, configuration-driven mechanisms for admins to address top web security vulnerabilities such as injection attacks, cross site request forgery, and server-side request forgery.
 
-You can also configure Power Pages to use edge caching and Web Application Firewall (WAF) capabilities. More information: [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door).
+- You can also configure Power Pages to use edge caching and Web Application Firewall (WAF) capabilities. More information: [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door).
 
-## Governance
-
-Power Pages and provides some helpful tools for administrators to manage the administration and lifecycle of their sites and environments.
-
-For more information, see [Power Pages Governance](admin/coe-portals.md) 
+Power Pages provides some helpful tools for administrators to manage the administration and lifecycle of their sites and environments. More information: [Power Pages governance](admin/coe-portals.md) 
 
 ## Integration with other Power Platform components
 
