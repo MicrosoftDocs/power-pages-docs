@@ -38,7 +38,7 @@ Power Pages is the newest member of the Microsoft Power Platform family. With Po
 
 ## Power Pages and Power Apps portals 
 
-Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/), providing the same robust capabilities and pro-developer experiences but providing a new low code maker experiences and out-of-the box templates. Read more: [Power Pages and Power Apps portals](difference-portals.md) 
+Power Pages is built on the foundation of [Power Apps portals](/power-apps/maker/portals/) providing the same robust capabilities and pro-developer experiences along with a new low-code maker experience and out-of-the box templates to design modern business sites. Read more: [Power Pages and Power Apps portals](difference-portals.md) 
 
 ## Try for free
 
