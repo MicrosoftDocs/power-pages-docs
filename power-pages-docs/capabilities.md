@@ -58,7 +58,7 @@ Read more:
 - [Use the code editor](getting-started/code-editor.md)
 - [Add code components](configure/component-framework.md)
 
-## Security and governamce
+## Security and governance
 
 <!--image-->
 **CONTENT NOTE: IMAGE CONVEYING SECURITY HERE**
