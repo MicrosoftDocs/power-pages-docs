@@ -20,9 +20,9 @@ Power Pages is an evolution of [Power Apps portals](/power-apps/maker/portals/).
 
 Power Pages is a super set of Power Apps portals. Current customers of Power Apps portals do not need to upgrade or migrate their running portals. Customers and Partners building solutions on top of Power Apps portals should not stop or cancel their projects.  
 
-Along with the extensible data model and pro-developer customization experiences of Power Apps portals, Power Pages adds new low-code experiences and out-of-the-box solution templates.
+Along with the extensible data model and pro-developer customization experiences of Power Apps portals, Power Pages adds new *low-code experiences* and *out-of-the-box solution templates*.
 
-:::image type="content" source="media/overview/power-pages-platform.png" alt-text="A website built using Power Pages.":::
+:::image type="content" source="media/overview/power-pages-platform.png" alt-text="Power Pages adds new low-code experiences and out-of-the-box solution templates to existing Power Apps portals capabilities.":::
 
 The following new features are currently in preview to allow customers to try and provide feedback:
 
