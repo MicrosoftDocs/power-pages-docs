@@ -40,6 +40,7 @@ In this tutorial, you learn how to:
 1. From **Active Web Files** screen, select **New**.
     :::image type="content" source="media/tutorial/new-web-file.png" alt-text="The + New menu option from the Active Web Files page in the Portal Management app.":::
 1.   Fill in the required fields. 
+1. 
 |Field  |Value  |
 |---------|---------|
 |Name     |Type in a name.         |
