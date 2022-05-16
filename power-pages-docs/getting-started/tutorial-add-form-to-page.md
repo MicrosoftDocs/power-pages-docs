@@ -75,7 +75,7 @@ The form now has a code component linked to the field.
     - Give the page a name.
     - Choose the **Start from Blank template**.
     - Select **Add**.
-    :::image type="content" source="media/tutorial/add-page.png" alt-text="Add a new page.":::
+    :::image type="content" source="media/tutorial/add-page.png" alt-text="Add a new page details.":::
     
 1. Select **Form** from the component bar.
     :::image type="content" source="media/tutorial/form-icon.png" alt-text="THe form icon from the component bar.":::
