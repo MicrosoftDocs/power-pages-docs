@@ -27,20 +27,25 @@ In this tutorial, you learn how to:
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
 
-## [Section 1 heading]
+## Configure authorized access to your site
 <!-- Introduction paragraph -->
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. In design studio, select **Setup**.  
-1. Under **Authentication**, choose **Identity Providers**.
+1. In design studio, select **Set up**.  
+    - Under **Authentication**, choose **Identity Providers**.
+    :::image type="content" source="media/tutorial/setup.png" alt-text="Choose an identity provider from the Set up menu.":::
 1. Select **Configure**.
-1. Ensure **Azure Active Directory B2C** is selected and then choose **Next**.
-1. Choose a subscription.
-1. Create a resource group.
-1. Select a country.
-1. Select next.
+    - Ensure **Azure Active Directory B2C** is selected and then choose **Next**.
+    :::image type="content" source="media/tutorial/azure-b2c.png" alt-text="Select a login provider.":::
+1. Fill in the details.
+    - Choose a subscription.
+    - Create a resource group.
+    - Select a country.
+    - Select **Next**.
+    :::image type="content" source="media/tutorial/resource-group.png" alt-text="Enter details to configure identity provider.":::
 1. Confirm the defaults and then select **Next**.
 1. Select defaults (new policy) and then select **Create**.
+    :::image type="content" source="media/tutorial/create-button.png" alt-text="The create button.":::
 1. Select **Close**.
 1. Select the ellipses next to **Local Sign In**.
 1. Choose **Disable**.
