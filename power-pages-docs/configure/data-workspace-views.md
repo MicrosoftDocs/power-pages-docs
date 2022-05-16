@@ -4,7 +4,7 @@ description: Learn how to use Data Workspace to create and modify Dataverse view
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/22/2022
+ms.date: 05/16/2022
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: ndoelman
@@ -18,9 +18,12 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Views are a subset of table data. Create a view to select specific table columns & rows that you would like to display in a site. The Views tab displays views referenced in the lists and all other views in the environment. It only shows view types that are supported in portals. Clicking on an existing view (or creating a new one) launches the **Power Apps view designer** where you can define the view. Views are a foundation of portals lists.
+Views are a subset of table data. Create a view to select specific table columns and rows that you would like to display in a site. The Views tab displays views used in the lists that are embedded in the site and all other views in the environment that are associated with the respective table. It only shows view types that are supported in portals. Clicking on an existing view (or creating a new one) launches the **Power Apps view designer** where you can define the view. Views are a foundation of portals lists.
 
 The [Data workspace](..\getting-started\use-data-workspace.md) allows you to create and modify Dataverse table views directly in the Power Pages design studio.
+
+> [!NOTE]
+> You will need to ensure that your changes to views are published before they can be used to create lists components on pages.
 
 ## Use Data workspace
 
@@ -30,7 +33,7 @@ The [Data workspace](..\getting-started\use-data-workspace.md) allows you to cre
 
 1. On the left toolbelt, select **Data**.
 
-## Table view designer
+## View designer
 
 In the **Data** panel, under the **Tables in this site** section, you will see a list of tables that are used in basic forms created in the site. The **Other tables** section is a list of all Dataverse tables in the environment.
 
