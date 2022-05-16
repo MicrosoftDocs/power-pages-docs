@@ -64,9 +64,13 @@ In this tutorial we are going to learn how to hide or show a page based on the w
 
 1. With no user signed-in, observe that the web page that was protected does not appear in the main menu or navigation.
 
+    :::image type="content" source="media/tutorial/page-permissions-no-view.png" alt-text="No visibility because page is protected.":::
+
 1. Sign-in to the site. (You can use **Azure AD** for purposes of this tutorial)
 
 1. You should now see the page link appear in the main menu you should be able to view the page.
+
+    :::image type="content" source="media/tutorial/page-permissions-view.png" alt-text="Page available because of user has access.":::
 
 ## Next steps
 
