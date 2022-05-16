@@ -4,7 +4,7 @@ description: Learn how to allow or restrict access to your pages in your site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 04/21/2022
+ms.date: 05/16/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,99 +13,60 @@ contributors:
     - ProfessorKendrick
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Setup page permissions 
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
+When we create our sites we may want to protect pages to specific audience or users.
 
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
-
-In this tutorial, you learn how to:
+In this tutorial we are going to learn how to hide or show a page based on the web role assigned to the signed-in user.
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> * Create page permissions
+> * Assign to a web role
+> * Observe how a page and related menu item is hidden or shown based on the signed-in user
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](create-manage.md).
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
-
-## [Section 1 heading]
-<!-- Introduction paragraph -->
+## Create page permission
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
 
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. Choose your site and select **Edit**. 
 
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. In the design studio, select the ellipses **...** from the side menu and select **Portal Management** to open the Portal Management app.
 
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
+1. In the Portals Management app, under the **Security** section, select and view **Web Page Access Permissions**.
 
-## Clean up resources
+1. Select **New** from the command bar.
 
-If you're not going to continue to use this application, delete
- with the following steps:
+1. Create the page permission record with the following values:
 
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
+    | Property | Value |
+    | - | - |
+    | Name | Any descriptive name. |
+    | Website | The web site where the pages exist that are to be protected. |
+    | Web Page | The page you want to protect |
+    | Right | Restrict Read. This means that contacts related to the associated web role will be restricted to reading the page. Other users will have full restrictions and not be able to view the page at all. |
+    | Access Type | All content (Meaning all child pages will be protected as well.) |
+    | Description | A description of the page permission. |
+    
+    :::image type="content" source="media/tutorial/page-permission-setup.png" alt-text="Create web role.":::
 
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
+1. Select the **Web Roles** tab and choose the **Authenticated Users** web role.
+
+1. Close the Portal Management app.
+
+## Observe results
+
+1. From the design studio, select **Preview** to view the site.
+
+1. With no user signed-in, observe that the web page that was protected does not appear in the main menu or navigation.
+
+1. Sign-in to the site. (You can use **Azure AD** for purposes of this tutorial)
+
+1. You should now see the page link appear in the main menu you should be able to view the page.
 
 ## Next steps
 
@@ -113,7 +74,3 @@ Advance to the next article to learn how to add a form to a page to create, read
 > [!div class="nextstepaction"]
 > [Next steps](tutorial-add-form-to-page.md)
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->

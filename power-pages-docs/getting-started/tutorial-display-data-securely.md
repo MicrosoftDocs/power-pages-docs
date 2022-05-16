@@ -139,7 +139,7 @@ We can also create our own custom web roles to further limit access to data and 
     :::image type="content" source="media/tutorial/assign-student-webrole.png" alt-text="Assign the student web role.":::
 
     > [!NOTE]
-    > You'll need to clear the cache by hitting ctrl + F5 to view the new role.
+    > You'll need to restart the design studio or clear the browser cache (ctrl + F5) to see the new web role.
 
 1. Preview the site and note that only users logged in will be able to view the data on a form or list.
 
