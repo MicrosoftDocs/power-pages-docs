@@ -132,18 +132,30 @@ The form now has a code component linked to the field.
 ## Configure form options
 
 1. In the design studio, open a page with a form component and select the form you previously created.
+
 1. Select the **Form** button.
+
     :::image type="content" source="media/tutorial/form-menu-bar.png" alt-text="Form menu bar options.":::
+
 1. Select the **Data section**.  Select **Open Portal Management app**.  You'll be directed to the form metadata record.
+
     :::image type="content" source="media/tutorial/form-data-tab.png" alt-text="The form data tab.":::
+
 1. Select the **Basic form metadata** tab.
+
 1. Choose **New basic form metadata**.
+
     :::image type="content" source="media/tutorial/form metadata.png" alt-text="New Form Metadata tab.":::
+
     - Choose **Attribute** for the Type.
     - Choose **Comments** for the Attribute Logical Name.
     - Choose **Code component** for the control style.
+
     :::image type="content" source="media/tutorial/form-metadata-choices.png" alt-text="Choosing values for form metadata.":::
+
 1. Select **Save**.
+
+
 
 ## Next steps
 
