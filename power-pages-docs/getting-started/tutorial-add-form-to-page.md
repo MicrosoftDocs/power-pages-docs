@@ -96,24 +96,18 @@ The form now has a code component linked to the field.
 
 ## Configure form options
 
-1. In the maker studio, open a page with a form component and choose the Form button.
-1. Select **+ New form**.
-    :::image type="content" source="media/tutorial/add-a-form.png" alt-text="Add a form window.":::
-1. Fill in the details.
-    - Select the **Feedback table**.
-    - Select the form you created previously.
-    - Select **Ok**.
-    :::image type="content" source="media/tutorial/add-form-details.png" alt-text="Details for Add a Form":::
-1. Select the **Data tab** to create a record, update an existing record, or specify as read-only.
-
-1. Select the **On Submit tab** to enable your page to show a success message or redirect to a webpage or URL.
-
-1. Select the **Data section**.  Select **Open Portal Management app**.
-1. Select **Basic form metadata**.
+1. In the design studio, open a page with a form component and select the form you previously created.
+1. Select the **Form** button.
+    :::image type="content" source="media/tutorial/form-menu-bar.png" alt-text="Form menu bar options.":::
+1. Select the **Data section**.  Select **Open Portal Management app**.  You'll be directed to the form metadata record.
+    :::image type="content" source="media/tutorial/form-data-tab.png" alt-text="The form data tab.":::
+1. Select the **Basic form metadata** tab.
 1. Choose **New basic form metadata**.
-1. Choose **Attribute** for the type.
-1. Choose **Comments** for the column.
-1. Choose **Code component** for the control style.
+    :::image type="content" source="media/tutorial/form metadata.png" alt-text="New Form Metadata tab.":::
+    - Choose **Attribute** for the Type.
+    - Choose **Comments** for the Attribute Logical Name.
+    - Choose **Code component** for the control style.
+    :::image type="content" source="media/tutorial/form-metadata-choices.png" alt-text="Choosing values for form metadata.":::
 1. Select **Save**.
 
 ## Next steps
