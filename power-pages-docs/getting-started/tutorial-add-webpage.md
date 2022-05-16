@@ -4,7 +4,7 @@ description: Learn how to add a web page to your Power Pages site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 04/20/2022
+ms.date: 05/16/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -31,15 +31,15 @@ In this tutorial, you learn how to:
 
 ## Create a page using a blank layout
 
-In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own custom layouts.
+In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own [custom layouts](../configure/store-content-web-templates.md).
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select **Edit** on the site you want to add a page. If you don't have a site, [create a site](create-manage.md) before continuing.
 
-1. Select **Pages** and then select the *Add a page* icon (+) to the right of the **Main navigation** heading.
+1. Select **Pages** and then select the **Add a page** icon (+) to the right of the **Main navigation** heading.
 
-1. Provide a name for your page and select the *Start from blank* page layout.
+1. Provide a name for your page and select the **Start from blank** page layout.
 
    :::image type="content" source="media/tutorial/add-a-page.png" alt-text="Add a page to the site.":::
 
@@ -107,6 +107,10 @@ Adding the page to the **Main navigation** will add a menu option. The page can 
 1. [Preview](#preview-your-page) the page and note how your page is a sublink under pages and also how the URL reflects that this page is now a subpage.
 
     :::image type="content" source="media/tutorial/sub-page.png" alt-text="Sub page.":::
+
+## See also
+
+- [Create and design pages](first-page.md)
 
 ## Next steps
 

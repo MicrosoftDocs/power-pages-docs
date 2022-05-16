@@ -17,7 +17,7 @@ contributors:
 
 The tutorials in this section cover an area where you can learn to build a visually pleasing, secure and functioning Power Pages site linked to business information stored in Dataverse.
 
-Each tutorial builds on knowledge and skills covered in each tutorial step, so it's beneficial to complete the tutorials in order.
+Each tutorial builds on knowledge and skills covered in a previous tutorial step, so it's beneficial to complete the tutorials in order.
 
 ## Prerequisites
 
@@ -32,9 +32,8 @@ The following tutorials are available:
 - [Style your site](tutorial-style-site.md)
 - [Add a list to a page](tutorial-add-list-to-page.md)
 - [Display data securely on pages](tutorial-display-data-securely.md)
-- [Setup page permissions](tutorial-setup-page-permissions.md)
 - [Add a form to a page](tutorial-add-form-to-page.md)
 - [Add a multi-step form to a page](tutorial-add-multi-step-form.md)
 - [Configure site authentication](tutorial-setup-site-authentication.md)
 - [Add custom styling to your site](tutorial-add-custom-style.md)
-
+- [Setup page permissions](tutorial-setup-page-permissions.md)
