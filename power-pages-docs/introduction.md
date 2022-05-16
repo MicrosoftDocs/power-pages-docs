@@ -4,7 +4,7 @@ description: Power Pages is a secure enterprise-grade low-code SaaS platform for
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/13/2022
+ms.date: 05/16/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -21,16 +21,11 @@ Microsoft Power Pages is a secure enterprise-grade low-code SaaS platform for cr
 
 :::image type="content" source="media/overview/power-pages-site.png" alt-text="A website built using Power Pages.":::
 
-## Introducing Power Pages
-
 Power Pages provides you with rich, customizable templates, a fluid visual experience through a re-imagined design studio, and a new, integrated learn hub to quickly build sites that suit your unique business needs.
 
 > [!IMPORTANT]
 > - Power Pages is an evolution of Power Apps portals, and the new features introduced by Power Pages such as the new design studio and templates are in preview for users to try and provide feedback. We recommend that you wait until the general availability of Power Pages later this year to use sites created using the new Power Pages design studio in production scenarios.
 > - All the platform, site admin, and pro-developer capabilities inherited by Power Pages from Power Apps portals are generally available and can be used in production scenarios. More information: [Power Pages and Power Apps portals](#power-pages-and-power-apps-portals)
-
-<!--remove this sentence prior to live launch-->
-**POWER PAGES HERO VIDEO HERE**
 
 Power Pages is the newest member of the Microsoft Power Platform family. With Power Pages, you can build sites using the same shared business data stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro) that you use for building apps, workflows, intelligent virtual agents, reports, and analytics by using other components of Power Platform in your organization. 
 

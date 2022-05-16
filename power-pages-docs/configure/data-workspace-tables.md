@@ -4,7 +4,7 @@ description: Learn how to use Data Workspace to create Dataverse tables.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/22/2022
+ms.date: 05/16/2022
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: ndoelman
@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The [Data workspace](..\getting-started\use-data-workspace.md) allows you to create and modify Dataverse tables directly in the Power Pages design studio. Tables to be used to create powerful web applications in Power Pages.
+The [Data workspace](..\getting-started\use-data-workspace.md) allows you to create and modify Dataverse tables directly in the Power Pages design studio. 
 
 ## Use Data workspace
 

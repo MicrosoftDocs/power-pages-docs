@@ -79,7 +79,7 @@ Power Pages provides some helpful tools for administrators to manage the adminis
 
 Power Pages provides deep integration with other Power Platform components.
 
-- *Dataverse* enables users to securely store and manage data that's used by business applications and your Power Pages sites. Use model-driven app constructs like forms, views, charts and dashboards to surface Dataverse data with just a few clicks. 
+- *Dataverse* enables users to securely store and manage data that's used by business applications and your Power Pages sites. Use model-driven app constructs like forms, views, charts and dashboards to easily surface Dataverse data. 
 
 - *Power Apps* enables anyone to create no-code/low-code custom mobile and web apps to share and collect data and streamline business processes. Power Apps using SharePoint to store content is a popular way to quickly build basic intranet sites, while Power Pages is ideal for websites focused on external audiences that require more secure access to your business information.  
 
