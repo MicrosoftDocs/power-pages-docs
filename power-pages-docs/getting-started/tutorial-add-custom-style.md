@@ -49,7 +49,8 @@ In this tutorial, you learn how to:
 |Partial URL|Type in the name you chose for the **Name** field followed by .css.|
 |Publishing State**|Put your cursor in the field and hit enter on your keyboard to display a list of available options to choose from.|  Select **Published**
 
-    :::image type="content" source="media/tutorial/partial-url.png" alt-text="Fillable fields for New Web Files.":::
+:::image type="content" source="media/tutorial/partial-url.png" alt-text="Fillable fields for New Web Files.":::
+
 1. Select **Save**.
 1. Select **Notes**.
     :::image type="content" source="media/tutorial/notes.png" alt-text="The notes menu option for a web file in the Portal Management app.":::
