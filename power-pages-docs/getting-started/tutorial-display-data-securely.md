@@ -89,7 +89,7 @@ In the example below, we have created a table that has a lookup to the contact t
 
 1. View the page on the site. When any user signs in, they should see **all** the data in the table.
 
-    :::image type="content" source="media/tutorial/list-view.png" alt-text="Create a table permission for table with contact lookup.":::
+    :::image type="content" source="media/tutorial/list-view.png" alt-text="Logged in user viewing all data on a page.":::
 
 1. In our example, we would only want to show records that related to the currently signed-in user. Return to the design studio, select the list on the page and select permissions.
 
@@ -100,7 +100,7 @@ In the example below, we have created a table that has a lookup to the contact t
     > [!NOTE]
     > If you don't see a relationship, you will need to define a lookup to the contact table using the [Data workspace](use-data-workspace.md). Create or update some records that are related to the contact record you are using to sign-in to the site.
 
-    :::image type="content" source="media/tutorial/filtered-list.png" alt-text="Create a table permission for table with contact lookup.":::
+    :::image type="content" source="media/tutorial/filtered-list.png" alt-text="View a table that is filtered by the currently signed in user.":::
 
 1. Preview the site and sign-in. You now should only see records that are related to the contact that has signed in to the site.
 
