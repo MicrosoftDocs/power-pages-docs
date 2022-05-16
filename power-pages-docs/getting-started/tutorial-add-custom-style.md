@@ -40,14 +40,13 @@ In this tutorial, you learn how to:
 1. From **Active Web Files** screen, select **New**.
     :::image type="content" source="media/tutorial/new-web-file.png" alt-text="The + New menu option from the Active Web Files page in the Portal Management app.":::
 1.   Fill in the required fields. 
-
-|**Field**|**Value**|
+|Field  |Value  |
 |---------|---------|
-|Name |Type in a name.|
-|Website**|Put your cursor in the field and hit enter on your keyboard to display a list of available options to choose from.|
-|Parent Page**|Put your cursor in the field and hit enter on your keyboard to display a list of available options. Select **Home**.|
-|Partial URL|Type in the name you chose for the **Name** field followed by .css.|
-|Publishing State**|Put your cursor in the field and hit enter on your keyboard to display a list of available options to choose from.|  Select **Published**
+|Name     |Type in a name.         |
+|Website     |Put your cursor in the field and hit enter on your keyboard to display a list of available options.         |
+|Parent Page    |Put your cursor in the field and hit enter on your keyboard to display a list of available options.  Select **Home**.         |
+|Partial URL    |Type in the name you chose for the **Name** field followed by .css.         |
+|Publishing State|Put your cursor in the field and hit enter on your keyboard to display a list of available options.  Select **Published**.|
 
 :::image type="content" source="media/tutorial/partial-url.png" alt-text="Fillable fields for New Web Files.":::
 
