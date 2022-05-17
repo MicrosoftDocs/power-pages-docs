@@ -74,7 +74,7 @@ In this tutorial we are going to learn how to hide or show a page based on the w
 
 ## Next steps
 
-Advance to the next article to learn how to add a form to a page to create, read and edit Dataverse information.
+Advance to the next article to learn how to add advanced styling to your site by uploading a custom CSS file.
 > [!div class="nextstepaction"]
-> [Next steps](tutorial-add-form-to-page.md)
+> [Add custom styling to your site](tutorial-add-custom-style.md)
 
