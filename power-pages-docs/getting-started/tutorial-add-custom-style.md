@@ -19,7 +19,8 @@ The style workspace allows you to edit some of the theme features of your site, 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * Add custom CSS
+> * Create a web file record
+> * Upload a custom CSS file
 
 ## Prerequisites
 
@@ -34,8 +35,8 @@ In this tutorial, you learn how to:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. In the **design studio**, choose **...** and then select **portal management**.
-    
+1. In the **design studio**, choose **...** and then select **Portal Management**. You will need to use the Portal Management app to create a web file record and attach your custom CSS file.
+
     :::image type="content" source="media/tutorial/portal-management-app.png" alt-text="Selecting the ellipse directs you to a menu where you can choose the portal management app.":::
 
 1. In the **portal management app**, scroll to the **Content** section and select **Web Files**.
@@ -46,7 +47,7 @@ In this tutorial, you learn how to:
 
     :::image type="content" source="media/tutorial/new-web-file.png" alt-text="The + New menu option from the Active Web Files page in the Portal Management app.":::
 
-1. Fill in the required fields. 
+1.   Fill in the required fields. 
 
 |Field  |Value  |
 |---------|---------|

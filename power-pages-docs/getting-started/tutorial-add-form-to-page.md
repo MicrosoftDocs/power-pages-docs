@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add a form to your page"
-description: Learn how to add forms to your Power Pages.
+description: Learn how to add forms with code components to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
@@ -163,7 +163,7 @@ The form now has a code component linked to the field.
 
 ## Next steps
 
-Advance to the next article to learn how to create a multi-step (advanced) form to your page.
+Next, learn how to create a multi-step (advanced) form to your page.
 > [!div class="nextstepaction"]
 > [Next steps](tutorial-add-multi-step-form.md)
 
