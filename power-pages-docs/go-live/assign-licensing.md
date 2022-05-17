@@ -1,8 +1,7 @@
 ---
-title: Licensing
-description: Learn about licensing.
+title: Power Pages Licensing
+description: Learn about Power Pages licensing.
 author: dileepsinghmicrosoft
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/16/2022
