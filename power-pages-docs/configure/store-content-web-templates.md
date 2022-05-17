@@ -19,5 +19,3 @@ contributors:
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 For detailed information on how to use web templates on your site, go to [Store source content by using web templates](/powerapps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
-
-[!INCLUDE[faq](../includes/cc-faqs.md)]
