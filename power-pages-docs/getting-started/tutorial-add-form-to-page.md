@@ -155,7 +155,11 @@ The form now has a code component linked to the field.
 
 1. Select **Save**.
 
+1. From the design studio, select **Preview** and navigate to your page.
 
+1. The form should show the rich text editor controls on the field.
+
+    :::image type="content" source="media/tutorial/feedback-form-richtext.png" alt-text="Feedback form with rich text editor control on comments.":::
 
 ## Next steps
 
