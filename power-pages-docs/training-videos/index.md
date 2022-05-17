@@ -59,9 +59,9 @@ Power Pages offers a seamless ability to interact with business data stored in D
 
 The following series of videos will demonstrate how to create a page displaying business information in three easy steps:
 
-| Step | Task | Step-by-step video |  
+| Step | Task | Video and tutorial |  
 | - | - | - | 
-| 1 | Create a table in data workspace | [video](#create-a-table) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 1 | Create a table in data workspace | [video](#create-a-table) <br/> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a view | [video](#create-a-view) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 3 | Add a list to the page | [video](#add-a-list-to-page) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 
@@ -167,11 +167,11 @@ Users can be provided access to your site through authentication. Power Pages us
 
 The following videos will show you provide an overview of authentication and walk you through configuring an identity provider and configuring page permissions.
 
-| Step | Task | Step-by-step video |  
+| Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Authentication overview | [video](#authentication-overview)  [tutorial](../getting-started/tutorial-setup-site-authentication.md) |
-| 2 | Configure identity provider | [video](#configure-identity-provider)  [tutorial](../getting-started/tutorial-setup-site-authentication.md) |
-| 3 | Set Page Permissions | [video](#set-page-permissions)  [tutorial](../getting-started/tutorial-setup-page-permissions.md) |
+| 1 | Authentication overview | [video](#authentication-overview)<br/>[tutorial](../getting-started/tutorial-setup-site-authentication.md) |
+| 2 | Configure identity provider | [video](#configure-identity-provider)<br/>[tutorial](../getting-started/tutorial-setup-site-authentication.md) |
+| 3 | Set Page Permissions | [video](#set-page-permissions)<br/>[tutorial](../getting-started/tutorial-setup-page-permissions.md) |
 
 ### Authentication overview
 
