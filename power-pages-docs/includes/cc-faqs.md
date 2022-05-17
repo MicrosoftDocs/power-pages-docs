@@ -1,1 +1,0 @@
-Visit the [Frequently Asked Questions](../faq.yml) for more information on Power Pages and Power Apps portals.
