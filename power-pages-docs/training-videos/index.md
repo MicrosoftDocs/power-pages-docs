@@ -23,10 +23,10 @@ The new Power Pages design studio provides powerful new features to create and d
 
 The following videos will show you how to create and design a page in your site and configure your site's navigation.
 
-| Step | Task | Step-by-step video |  
+| Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Create and design a page | [video](#create-page) <br> [tutorial](../getting-started/tutorial-add-webpage.md) |
-| 2 | Configure site navigation | [video](#configure-site-navigation) <br> [tutorial](../getting-started/tutorial-add-webpage.md) |
+| 1 | Create and design a page | [video](#create-page)<br/>[tutorial](../getting-started/tutorial-add-webpage.md) |
+| 2 | Configure site navigation | [video](#configure-site-navigation)<br/>[tutorial](../getting-started/tutorial-add-webpage.md) |
 
 ### Create page
 
@@ -61,9 +61,9 @@ The following series of videos will demonstrate how to create a page displaying 
 
 | Step | Task | Video and tutorial |  
 | - | - | - | 
-| 1 | Create a table in data workspace | [video](#create-a-table) <br/> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 2 | Create a view | [video](#create-a-view) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 3 | Add a list to the page | [video](#add-a-list-to-page) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 1 | Create a table in data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 2 | Create a view | [video](#create-a-view)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 3 | Add a list to the page | [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 
 ### Create a table
 
@@ -101,11 +101,11 @@ To allow access to Dataverse records in Power Pages sites, you will need to conf
 
 The following three videos will explain the concepts of table permissions, setting up access, and assigning web roles.
 
-| Step | Task | Overview video |  
+| Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Create table permissions | [video](#create-table-permissions) [tutorial](../getting-started/tutorial-display-data-securely.md) |
-| 2 | Set up access type and privileges | [video](#create-table-permissions)  [tutorial](../getting-started/tutorial-display-data-securely.md) |
-| 3 | Add web roles | [video](#add-web-roles) [tutorial](../getting-started/tutorial-display-data-securely.md) |
+| 1 | Create table permissions | [video](#create-table-permissions)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
+| 2 | Set up access type and privileges | [video](#create-table-permissions)<br/>  [tutorial](../getting-started/tutorial-display-data-securely.md) |
+| 3 | Add web roles | [video](#add-web-roles)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
 
 ### Create table permissions
 
@@ -128,13 +128,13 @@ Forms on pages are created from Dataverse table forms.
 
 The following videos will show you to create and add a form to your page, capture rich information through code components and configure form actions when the information in the form is submitted.
 
-| Step | Task | Step-by-step video |  
+| Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Create a table in Dataverse | [video](#create-a-table)  [tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 2 | Create a form | [video](#create-a-form)  [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)  [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 4 | Add a form to page | [video](#add-a-list-to-page) [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 5 | Configure form options| [video](#add-a-list-to-page)  [tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 1 | Create a table in Dataverse | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 2 | Create a form | [video](#create-a-form)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 4 | Add a form to page | [video](#add-a-list-to-page)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 5 | Configure form options| [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
 
 ### Create a form
 
