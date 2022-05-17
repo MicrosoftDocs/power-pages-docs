@@ -23,5 +23,3 @@ You can enable your functional site as a progressive web app (PWA), with native 
 ## See also:
 
 [Overview of portals as progressive web apps](/power-apps/maker/portals/progressive-web-apps) in the Power Apps documentation.
-
-[!INCLUDE[cc-faqs](../includes/cc-faqs.md)]
