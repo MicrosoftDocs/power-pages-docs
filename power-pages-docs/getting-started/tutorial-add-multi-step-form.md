@@ -36,7 +36,7 @@ In this tutorial, you learn how to:
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
 
 > [!NOTE]
-> When creating an advanced from, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
+> When creating an advanced form, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
 
 
 ## Create an advanced form 
@@ -82,7 +82,7 @@ In the steps below, we'll create an advanced form. This advanced form will requi
 
 ### Add advanced form steps
 
-1. In the **Advanced form steps tab**, create a **new Advanced from step record**.
+1. In the **Advanced form steps tab**, create a **new Advanced form step record**.
         
     :::image type="content" source="media/tutorial/new-advanced-form-steps.png" alt-text="New advanced form steps menu option in Portal Management app.":::
 
@@ -95,7 +95,7 @@ In the steps below, we'll create an advanced form. This advanced form will requi
 
 1. Select the **Form Definition** tab where we will add more configuration.
 
-    :::image type="content" source="media/tutorial/advanced-form-step-details.png" alt-text="Configurations for the new advanced form step in Portal Management app.":::
+    :::image type="content" source="media/tutorial/advanced-form-step-details.png" alt-text="Details for the advanced form step in Portal Management app.":::
 
 1. Set the **Mode** to **Insert**. This means that this step will *create* a new record in the table as part of the process.
 
@@ -110,7 +110,7 @@ In the steps below, we'll create an advanced form. This advanced form will requi
 
 You can edit existing records in advanced forms. These may be a record you created earlier in the process. For example, we created a record in the first step, and now we want to collect some additional information in a subsequent step.
 
-1. In the **Advanced form steps tab**, create a **new Advanced from step record**.
+1. In the **Advanced form steps tab**, create a **new Advanced form step record**.
         
     :::image type="content" source="media/tutorial/new-advanced-form-steps.png" alt-text="New advanced form steps menu option in Portal Management app.":::
 
@@ -136,7 +136,7 @@ If you need to add conditional logic to your advanced form, you'll need to ident
 
 In the steps below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps. Other applicants will skip that step.
 
-1. In the **Advanced form steps tab**, create a **new Advanced from step record**.
+1. In the **Advanced form steps tab**, create a **new Advanced form step record**.
 
     :::image type="content" source="media/tutorial/new-advanced-form-steps.png" alt-text="New advanced form steps menu option in Portal Management app.":::
 
@@ -170,9 +170,9 @@ Once the steps have been created, you will need to first go back and specify the
 
 1. Conditional steps will have two targets, the step if the evaluation has passed and a step if the evaluation has have not passed.
 
-    :::image type="content" source="media/tutorial/advanced-form-condition-passed.png" alt-text="Link the steps.":::
+    :::image type="content" source="media/tutorial/advanced-form-condition-passed.png" alt-text="Condition passed in the step.":::
 
-    :::image type="content" source="media/tutorial/advanced-form-condition-failed.png" alt-text="Link the steps.":::
+    :::image type="content" source="media/tutorial/advanced-form-condition-failed.png" alt-text="Condition failed in the step.":::
 
 ## Table permissions
 
@@ -234,7 +234,7 @@ We will need to use the code editor to add a [Liquid](../configure/liquid-overvi
 
 1. Fill in and test your form.
 
-    :::image type="content" source="media/tutorial/advanced-form-rendering.png" alt-text="Adding an advanced form.":::
+    :::image type="content" source="media/tutorial/advanced-form-rendering.png" alt-text="Viewing advanced form on a web page.":::
 
 ## Next steps
 
