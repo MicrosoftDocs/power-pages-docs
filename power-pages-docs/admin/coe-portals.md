@@ -116,5 +116,5 @@ Follow the setup [instructions](/power-platform/guidance/coe/setup-powerbi) to s
 
 ## Further resources
 - [Power Pages Admin Center](/power-apps/maker/portals/admin/admin-overview) Allows you to perform advanced administrative actions on portals. The admin center is available when a portal is provisioned successfully.
-- Explore the [Power Apps admin documentation](/power-platform/admin/admin-documentation). As an admin looking after the CoE, you should be familiar with the administration and governance of Microsoft Power Platform. We recommend the following white paper as a resource: [aka.ms/PowerAppsAdminWhitepaper](https://aka.ms/powerappsadminwhitepaper)
-- Find training resources, including guided learning and step-by-step guides, at [aka.ms/PowerPlatformLabs](https://aka.ms/powerplatformlabs).
+- Explore the [Power Apps admin documentation](/power-platform/admin/admin-documentation). As an admin looking after the CoE, you should be familiar with the administration and governance of Microsoft Power Platform. We recommend the following white paper as a resource: [PowerApps Admin Whitepaper](https://aka.ms/powerappsadminwhitepaper)
+- Find training resources, including guided learning and step-by-step guides, at [Power Platform Labs](https://aka.ms/powerplatformlabs).
