@@ -19,5 +19,3 @@ contributors:
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 For detailed information on how to update the Power Apps portals solution, go to [Update the Power Apps portals solution](/powerapps/maker/portals/admin/update-portal-solution) in the Power Apps documentation.
-
-[!INCLUDE[faq](../includes/cc-faqs.md)]

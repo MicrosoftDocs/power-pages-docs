@@ -31,5 +31,3 @@ For detailed information on how to configure web roles, go to [Configure web rol
 
 [Configure table permissions](table-permissions.md)<br>
 [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
-
-[!INCLUDE[faq](../includes/cc-faqs.md)]
