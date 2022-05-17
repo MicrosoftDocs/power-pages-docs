@@ -74,7 +74,7 @@ In this tutorial we are going to learn how to hide or show a page based on the w
 
 ## Next steps
 
-Advance to the next article to learn how to add advanced styling to your site by uploading a custom CSS file.
+Advance to the next article to learn how to upload your own custom CSS file to your site.
 > [!div class="nextstepaction"]
-> [Add custom styling to your site](tutorial-add-custom-style.md)
+> [Next steps](tutorial-add-custom-style.md)
 

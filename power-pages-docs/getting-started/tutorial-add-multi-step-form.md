@@ -38,7 +38,6 @@ In this tutorial, you learn how to:
 > [!NOTE]
 > When creating an advanced form, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
 
-
 ## Create an advanced form 
 
 An advanced form is composed of an advanced form record and a series of steps.

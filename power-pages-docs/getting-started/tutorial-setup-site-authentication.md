@@ -73,7 +73,7 @@ You can preview this functionality by visiting a portal and selecting **Sign In*
 
 ## Next steps
 
-Advance to the next article to learn how to upload your own custom CSS file to your site.
+Learn how to protect your pages using page permissions in the next tutorial
 > [!div class="nextstepaction"]
-> [Next steps](tutorial-add-custom-style.md)
+> [Setup page permissions](tutorial-setup-page-permissions.md)
 
