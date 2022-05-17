@@ -35,5 +35,5 @@ The following tutorials are available:
 - [Add a form to a page](tutorial-add-form-to-page.md)
 - [Add a multi-step form to a page](tutorial-add-multi-step-form.md)
 - [Configure site authentication](tutorial-setup-site-authentication.md)
-- [Add custom styling to your site](tutorial-add-custom-style.md)
 - [Setup page permissions](tutorial-setup-page-permissions.md)
+- [Add custom styling to your site](tutorial-add-custom-style.md)

@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add a form to your page"
-description: Learn how to add forms to your Power Pages.
+description: Learn how to add forms with code components to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
@@ -155,11 +155,15 @@ The form now has a code component linked to the field.
 
 1. Select **Save**.
 
+1. From the design studio, select **Preview** and navigate to your page.
 
+1. The form should show the rich text editor controls on the field.
+
+    :::image type="content" source="media/tutorial/feedback-form-richtext.png" alt-text="Feedback form with rich text editor control on comments.":::
 
 ## Next steps
 
-Advance to the next article to learn how to create a multi-step (advanced) form to your page.
+Next, learn how to create a multi-step (advanced) form to your page.
 > [!div class="nextstepaction"]
 > [Next steps](tutorial-add-multi-step-form.md)
 

@@ -20,5 +20,3 @@ contributors:
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 For detailed information on how to update the Power Apps portals solution, go to [Portals capacity consumption reports](/powerapps/maker/portals/admin/portal-consumption-reports) in the Power Apps documentation.
-
-[!INCLUDE[faq](../includes/cc-faqs.md)]

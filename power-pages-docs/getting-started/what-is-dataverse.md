@@ -29,7 +29,7 @@ Makers are able to create and modify Dataverse [tables](/power-apps/maker/data-p
 
 :::image type="content" source="media/data-workspace/table-designer.png" alt-text="Data workspace table designer.":::
 
-A feature of Dataverse is the ability to create [model-driven Power Apps](/power-apps/maker/model-driven-apps/) that allow users to work with data using a [view](/power-apps/maker/model-driven-apps/create-edit-views) of data records in a grid/list type view and a [form](/power-apps/maker/model-driven-apps/create-design-forms) to be able to add, update and view details of each record. 
+A feature of Dataverse is the ability to create [model-driven apps](/power-apps/maker/model-driven-apps/) using Power Apps that allow users to work with data using a [view](/power-apps/maker/model-driven-apps/create-edit-views) of data records in a grid/list type view and a [form](/power-apps/maker/model-driven-apps/create-design-forms) to be able to add, update and view details of each record. 
 
 Power Pages applications are unique but have components that utilize these model-driven app components as a foundation to build interactive data-driven web pages.
 

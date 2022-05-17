@@ -19,7 +19,8 @@ The style workspace allows you to edit some of the theme features of your site, 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * Add custom CSS
+> * Create a web file record
+> * Upload a custom CSS file
 
 ## Prerequisites
 
@@ -33,14 +34,21 @@ In this tutorial, you learn how to:
 ## Add custom CSS to your site
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. In the **design studio**, choose **...** and then select **portal management**.
+
+1. In the **design studio**, choose **...** and then select **Portal Management**. You will need to use the Portal Management app to create a web file record and attach your custom CSS file.
+
     :::image type="content" source="media/tutorial/portal-management-app.png" alt-text="Selecting the ellipse directs you to a menu where you can choose the portal management app.":::
+
 1. In the **portal management app**, scroll to the **Content** section and select **Web Files**.
+
     :::image type="content" source="media/tutorial/web-files.png" alt-text="From the content section you can select the web files option.":::
+
 1. From **Active Web Files** screen, select **New**.
+
     :::image type="content" source="media/tutorial/new-web-file.png" alt-text="The + New menu option from the Active Web Files page in the Portal Management app.":::
+
 1.   Fill in the required fields. 
-1. 
+
 |Field  |Value  |
 |---------|---------|
 |Name     |Type in a name.         |
@@ -52,9 +60,15 @@ In this tutorial, you learn how to:
 :::image type="content" source="media/tutorial/partial-url.png" alt-text="Fillable fields for New Web Files.":::
 
 1. Select **Save**.
+
 1. Select **Notes**.
+
     :::image type="content" source="media/tutorial/notes.png" alt-text="The notes menu option for a web file in the Portal Management app.":::
+
 1. Select the **Paperclip icon**.
+
     :::image type="content" source="media/tutorial/paper-clip-icon.png" alt-text="The paper clip icon allows you to attach files inside the Portal Management app.":::
+
 1. Select **Save**.
+
 1. Go back to the **design studio** to preview the css on your site.
