@@ -22,4 +22,3 @@ contributors:
 
 For detailed information on how to use code components, go to [Use code components in portals](/powerapps/maker/portals/component-framework) in the Power Apps documentation.
 
-[!INCLUDE[faq](../includes/cc-faqs.md)]
