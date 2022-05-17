@@ -4,7 +4,7 @@ description: Learn how to configure Azure AD B2C authentication provider to your
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 04/21/2022
+ms.date: 05/17/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
