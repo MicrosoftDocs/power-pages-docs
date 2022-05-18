@@ -56,13 +56,13 @@ Watch this quick video to learn how to set up your brand kit.
 
 ## Create a page with a list
 
-Power Pages offers a seamless ability to interact with business data stored in Dataverse with the new [data workspace](../getting-started/use-data-workspace.md).
+Power Pages offers a seamless ability to interact with business data stored in Dataverse with the new [Data workspace](../getting-started/use-data-workspace.md).
 
 The following series of videos demonstrate how to create a page displaying business information in three easy steps.
 
 | Step | Task | Video and tutorial |  
 | - | - | - | 
-| 1 | Create a table in data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 1 | Create a table in Data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a view | [video](#create-a-view)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 3 | Add a list to the page | [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 
@@ -74,7 +74,7 @@ In this video, you'll learn how to create a table by using the Data workspace.
 
 ### Create a view
 
-This video shows you how to create a view for a table by using the data workspace.
+This video shows you how to create a view for a table by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
 
@@ -91,7 +91,7 @@ Now that you've created your table and view, let's add a list to the page.
 ### See also
 
 [Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md)  
-[Use data workspace](../getting-started/use-data-workspace.md)  
+[Use Data workspace](../getting-started/use-data-workspace.md)  
 [Add a list component](../getting-started/add-list.md)
 
 ## Configure table permissions
