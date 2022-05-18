@@ -1,5 +1,5 @@
 ---
-title: Migrate portal configuration
+title: Migrate portal configuration in Power Pages
 description: Learn how to migrate your portal configuration from development to testing or production environments.
 author: nickdoelman
 

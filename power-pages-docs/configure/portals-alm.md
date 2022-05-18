@@ -15,13 +15,14 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Makers and pro-developers can use the Power Platform CLI to download Power Pages site metadata and use Azure Pipelines to commit the metadata to source control and deploy from development to other environments.
+Makers and pro developers can use the Microsoft Power Platform CLI to download Power Pages site metadata, and use Azure Pipelines to commit the metadata to source control and deploy from development to other environments.
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on using the Power Platform CLI, see [Tutorial: Use Microsoft Power Platform CLI with portals](/power-apps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
+For detailed information on using the CLI for application lifecycle management (ALM)<!--note from editor: Edit okay? ALM isn't defined anywhere else.-->, go to [Tutorial: Use Microsoft Power Platform CLI with portals](/power-apps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
 
-The Power Platform CLI also supports [deployment profiles](/power-apps/maker/portals/power-apps-cli-tutorial#upload-the-changes-using-deployment-profile) to allow unique attributes to be applied to specific target environments.
+The Microsoft Power Platform CLI also supports [deployment profiles](/power-apps/maker/portals/power-apps-cli-tutorial#upload-the-changes-using-deployment-profile) to allow unique attributes to be applied to specific target environments.
 
-## See Also
+### See also
+
 [Overview of application lifecycle management with Microsoft Power Platform](/power-platform/alm/overview-alm)

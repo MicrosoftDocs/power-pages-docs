@@ -1,5 +1,5 @@
 ---
-title: Web templates
+title: Web templates in Power Pages
 description: Learn how to use web templates.
 author: nickdoelman
 ms.topic: conceptual

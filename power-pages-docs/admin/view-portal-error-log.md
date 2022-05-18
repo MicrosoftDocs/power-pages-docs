@@ -1,5 +1,5 @@
 ---
-title: View portals error logs
+title: View portal error logs
 description: Learn about error logs.
 author: nickdoelman
 ms.topic: conceptual
@@ -18,5 +18,5 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on portals error logs, go to [View portal error logs](/powerapps/maker/portals/admin/view-portal-error-log) in the Power Apps documentation.
+For detailed information on portal error logs, go to [View portal error logs](/powerapps/maker/portals/admin/view-portal-error-log) in the Power Apps documentation.
 

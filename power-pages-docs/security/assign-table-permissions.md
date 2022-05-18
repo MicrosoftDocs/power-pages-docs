@@ -20,9 +20,9 @@ contributors:
 
 Assignment of the table permissions is done through the [Portal Management app](../configure/portal-management-app.md). 
 
-To access the Portal Management app, in design studio, select the ellipses (**...**) from the toolbelt and select **Portal Management**.
+To access the Portal Management app, in design studio, select the ellipsis (**...**) from the toolbelt and select **Portal Management**.
 
-:::image type="content" source="media/table-permissions/launch-portals-management-app.png" alt-text="Launch Portals Management app.":::
+:::image type="content" source="media/table-permissions/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
 
 For detailed information, go to [Assign table permissions](/power-apps/maker/portals/configure/assign-entity-permissions) in the Power Apps documentation.
 

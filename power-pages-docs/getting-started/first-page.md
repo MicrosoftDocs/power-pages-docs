@@ -17,42 +17,40 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A page in Power Pages is a webpage, a document that is identified by a unique URL in a website. 
-
-A page is one of the core objects of the website and builds a hierarchy of the website through parent and child relationships to other pages.
+A page in Power Pages is a webpage, a document<!--note from editor: Not sure this is the right word here. A document has a different meaning. Can it say something like "a container for content"?--> that's identified by a unique URL in a website. A page is one of the core objects of the website; the parent and child relationships among pages build the hierarchy of a website.<!--note from editor: Suggested.-->
 
 ## Create a page
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your Power Pages site.
 
-1. From the left command bar, select Pages and choose any of the **"+"** signs.
+1. On the left pane, select **Pages**, and then select one of the plus signs (**+**).
 
-    - Selecting the **Add a page** icon in the **Main navigation** section will add a new page, which will also add a menu item to default navigation of the site.
+    - Selecting the **Add a page** icon in the **Main navigation** section adds a new page, which will also add a menu item to the default navigation of the site.
 
-        :::image type="content" source="media/first-page/add-page-navigation.png" alt-text="Adding a page within maker studio.":::
+        :::image type="content" source="media/first-page/add-page-navigation.png" alt-text="Adding a page within the design studio.":::<!--note here and line 36 - okay to use "design studio" instead of "maker studio"?-->
 
-    - Selecting the **Add a page** icon on the **Other pages** section will add a new page but won't add a link to the default navigation of the site.
+    - Selecting the **Add a page** icon in the **Other pages** section adds a new page, but won't add a link to the default navigation of the site.
 
 1. Choose a page from standard layouts, or choose a custom layout.
 
-    :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within maker studio.":::
+    :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within the design studio.":::
 
     [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
     For detailed information on how to create custom page templates, go to [Create and manage page templates](/power-apps/maker/portals/configure/page-templates) and [Store source content by using web templates](/power-apps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
 
-1. Add content and components to your page, see [Customize pages](customize-pages.md).
+1. Add content and components to your page. For more information, go to [Customize pages](customize-pages.md).
 
 ## Preview a page
 
-You can preview your site by selecting **Preview** from the command bar. Select **Desktop** to preview your page in a browser or can the QR code using a mobile app to view the page on a mobile device.
+You can preview your site by selecting **Preview** from the command bar. Select **Desktop** to preview your page in a browser, or scan the QR code with a mobile app to view the page on a mobile device.
 
 :::image type="content" source="media/first-page/preview-page.png" alt-text="Preview a page from the design studio.":::
 
-## Next Steps
+## Next steps
 
 [Customize pages](customize-pages.md)
 
-## See Also
+### See also
 
 [Tutorial: Add and design a page](tutorial-add-webpage.md)

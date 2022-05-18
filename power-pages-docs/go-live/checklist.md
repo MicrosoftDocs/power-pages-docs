@@ -16,14 +16,13 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-As you prepare and consider going live with your project on Power Pages there are many items to consider and plan for. 
+As you prepare and consider going live with your project on Power Pages, there are many items to consider and plan for. Here are a few areas to keep in mind:
 
-Here are just a few areas to keep in mind:
  - Tidy up your site
- - Environment strategy
+ - Develop an environment strategy
  - Set up monitoring 
- - Performance testing
- - Set up custom domain 
+ - Do performance testing
+ - Set up a custom domain 
  - Complete authentication setup
  - Assign licensing 
  - Set up telemetry monitoring
@@ -33,25 +32,25 @@ We'll go over several of them in this article, and update this article over time
 
 ## Tidy up your site
 
-Users of your site should find it in neat clean. This is the time to remove any sample web pages, stock text and hide any other unfinished work.
+Users of your site should find it in neat and clean. This is the time to remove any sample webpages or stock text, and hide any other unfinished work.
 
-Delete or Deactivate any unused pages - just because it's not in the menu doesn't mean it's gone
+Delete or deactivate any unused pages. Just because it's not in the menu doesn't mean it's gone.
 
-Set your browser suffix "Home page - Starter Portal" find the Content Snippet "BrowserSuffix" Find it in Content Snippets area of [Portal Management App](../configure/portal-management-app.md)
+Set your browser suffix "Home page - Starter Portal". You can find the content snippet "BrowserSuffix" in the **Content Snippets** area of the [Portal Management app](../configure/portal-management-app.md)
 
-Set your specific copyright text and add any privacy and others links in the "Footer" web template. Find it in web templates area of [Portal Management App](../configure/portal-management-app.md)
+Set your specific copyright text, and add any privacy or other links in the "Footer" web template. Find it in the **Web templates** area of the [Portal Management app](../configure/portal-management-app.md).
 
-Secure any unfinished functionality behind a separate web role. Learn more about [Page permissions](../security/page-security.md)
+Secure any unfinished functionality behind a separate web role. Learn more about [Page permissions](../security/page-security.md).
 
 ## Separate dev, test, production
 
-You want a working area to create and test new features away from live production site. While Power Pages offers ability to install more than one site in each Environment, it's almost always impractical to actually accomplish the needed proper separation working in just one Environment.
+You want a working area to create and test new features away from your live production site. Although Power Pages lets you install more than one site in each environment, it's almost always impractical to actually accomplish the proper separation you need while working in just one environment.
 
 ### Development environment 
 
-We encourage you to convert from trial type to production type as soon as possible, so you don't lose time resetting up your site host again. Your site is safely kept inside Dataverse.
+We encourage you to convert your site from a trial type to a production type as soon as possible, so you don't lose time setting up your site host again. Your site is safely kept inside Dataverse.
 
-Rename your website record to best represent your project and tell it apart when moving up. "Contoso Student Portal" or "Student Site"  but not "Student Dev"
+Rename your website record to best represent your project and distinguish it from others—for example, "Contoso Student Portal" or "Student Site", but not "Student Dev"
 
 ### Testing environment 
 
@@ -63,64 +62,64 @@ This is where you do your user testing.
 
 This is the environment your live customers will use.
 
-This is where any invitation workflows with emails - would have final custom domain URLs. 
+This is where any invitation workflows with emails will have the final, custom domain URLs. 
 
 This is where your identity options are finalized and unused ones are removed.
 
-Consider environment strategy suggestions from Power Platform guidance - [Establishing an Environment Strategy - Microsoft Power Platform](/power-platform/guidance/adoption/environment-strategy)
+Consider environment strategy suggestions from Microsoft Power Platform guidance: [Establishing an environment strategy](/power-platform/guidance/adoption/environment-strategy).
 
 ## When and why to do performance testing
 
-If you have high scalability needs (think 1000s of users a month or a very critical workload) consider performing load testing to know the type of performance, you'll get and troubleshoot any problem areas. 
+If you have high scalability needs (think thousands of users a month or a very critical workload), consider performing load testing to understand the type of performance you'll get and troubleshoot any problem areas. 
 
-Consider reviewing with your Microsoft customer service account manager if a Microsoft customer engineer can help you, take a look at this post about some ways they can help you: [Power Apps portal: How a Customer Engineer can help - Microsoft Dynamics CRM Community](https://community.dynamics.com/crm/b/crminthefield/posts/power-apps-portal-how-a-customer-engineer-can-help).
+Consider reviewing with your Microsoft customer service account manager whether a Microsoft customer engineer can help you. Take a look at this post about some ways they can help: [Power Apps portal: How a Customer Engineer can help - Microsoft Dynamics CRM Community](https://community.dynamics.com/crm/b/crminthefield/posts/power-apps-portal-how-a-customer-engineer-can-help).
 
-## Set up custom domain 
-	
-Most users would prefer and have confidence in your site, if it had a custom domain name. While Microsoft is fine with you using our domain like contosositeprod.powerpages.com - you likely want your users to see your own URL listed like customercenter.contso.com 
+## Set up a custom domain 
 
-You can read more about setting up [Custom Domains](/power-apps/maker/portals/admin/add-custom-domain). 
+Most users would prefer to visit your site and have greater confidence in it if it had a custom domain name. Although Microsoft is fine with your using our domain (so it would look like contosositeprod.powerpages.com, for example), you likely want your users to see your own URL listed, so it would look like customercenter.contso.com.
 
-Remember that this process takes time on your end to find and get approval from your internal team, get the right SSL Certificate, set up this up and test it. All before the real users get the domain name working. You'll want this domain name working for most external identity providers, so it's becoming a dependency to go live.
+You can read more about setting up [custom domains](/power-apps/maker/portals/admin/add-custom-domain). 
+
+Remember that this process takes time on your end to find and get approval from your internal team, get the right SSL certificate, set up this up and test it. You'll want this domain name working for most external identity providers, so it becomes a dependency to go live.
 
 ## Complete authentication setup
 
-This is the time to turn off and only provide the final desired ways users can sing in or sing up to your site. 
+This is the time to turn off local authentication and only provide the ways you want users to be able to sign in or sign up for your site. 
 
-Setup external identity provider. Turn off Local Authentication. 
+Set up an external identity provider. Turn off local authentication. 
 
 > [!TIP]
-> - You would want to finish setup of the custom domain because the redirect URL should be the new fancy one. 
-> - If you are using it, rename "Azure AD" login button to something like "Contoso Employees". To do so create Site Setting "Authentication/OpenIdConnect/AzureAD/Caption" for your specific website and set a desired value. Find it in Site Settings area of [Portal Management App](../configure/portal-management-app.md)
+> - You want to finish setting up your custom domain because the redirect URL should be the new fancy one. 
+> - If you're using the **Azure AD** sign-in button, rename it to something like **Contoso Employees**. To do so, create the site setting "Authentication/OpenIdConnect/AzureAD/Caption" for your specific website and set the name you want. Find it in the **Site Settings** area of the [Portal Management app](../configure/portal-management-app.md).
 
-Read more: [Configure authentication](../security/configure-portal-authentication.md)
+More information: [Configure authentication](../security/configure-portal-authentication.md)
 
 ## Assign licensing 
 
-Power Pages is cloud service and thus automatically scales to global user demands and needs, one signal for our back-end system to use to auto-scale is looking at your assigned licensing capacity. It's critical this is assigned especially if you anticipate a significant load, so be sure to:
+Power Pages is a cloud service, and thus automatically scales to global user demands and needs. One signal for our back-end system to use to auto-scale is looking at your assigned licensing capacity. It's critical that this be assigned, especially if you anticipate a significant load, so be sure to:
 
-Convert from Trial if not already done so <!--link-->
+- Convert from trial if you haven't already done so. <!--link-->
 
-Assign capacity to Environment the site is in <!--link-->
+- Assign capacity to the environment the site is in. <!--link-->
 
 At the time, of writing the Power Pages capacity would be using Power Apps portals constructs of Page View and Portal sign in. <!--link-->
 
 ## Set up telemetry monitoring
 
-In order to understand statistics for your users, you want to capture them right at the launch. Remember you can't in future go back to measure something you didn't start to track. Microsoft doesn't provide an out of the box feature as part of Power Pages at this time. 
+To understand statistics for your users, you want to capture them right at site launch. Remember, in the future you can't go back to measure something you didn't start to track. Microsoft doesn't provide an out-of-the-box feature as part of Power Pages at this time. 
 
-You can use any vendor who can do font-end web application telemetry and tracking and monitoring. 
+You can use any vendor who can do front-end web application telemetry, tracking, and monitoring. 
 
-You can place the telemetry tracking HTML/JS snippet of code in the "Enable Traffic Analytics" area inside of Portal Management App <!--link-->
+You can place the telemetry tracking HTML/JS snippet of code in the **Enable Traffic Analytics** area in the Portal Management app. <!--link-->
 
-Consider Azure Monitor - Application Insights. Our Microsoft Customer Engineers team wrong this blog post with some tips and other suggestions. <!--link-->
+Consider Azure Monitor - Application Insights. Our Microsoft Customer Engineers team wrote this blog post with some tips and other suggestions. <!--link-->
 
 ## Announce and invite users
 
-You want the world to know about your project, or maybe not. But you certainly do. If you have passive use-case or self-registration. Consider sending a newsletter and inviting your end-customer user base to the site and let them know what they can expect to do and the value it serves to them.
+You want the world to know about your project, or maybe not. But you certainly do. If you have passive use-case or self-registration. Consider sending a newsletter inviting your customer user base to the site, and let them know what they can expect to do and the value it serves to them.
 
-If you know your end-customers already - bring them in and use the invitation process <!--link-->
+If you know your customers already, bring them in and use the invitation process. <!--link-->
 
-Format the Email to include final production custom domain URL and be sure to provide guidance on what they should expect in terms of identity provider as they could mean they can use an existing on or they would need to also create a sign in profile inside of your identity provider during invitation redemption or self-registration process on your site. 
+Format the email to include the final production custom domain URL. Be sure to provide guidance on what they should expect in terms of identity providers. They might be able to use an existing one, or perhaps they'd also need to create a sign-in profile inside of your identity provider during the invitation redemption or self-registration process on your site. 
 
 

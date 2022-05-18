@@ -1,5 +1,5 @@
 ---
-title: Component framework
+title: Component framework in Power Pages
 description: Learn how to use code components.
 author: nickdoelman
 

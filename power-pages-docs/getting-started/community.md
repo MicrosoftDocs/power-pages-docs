@@ -12,17 +12,16 @@ ms.reviewer: nickdoelman
 # Power Pages community
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+<!--note from editor: The following edits are all suggested. -->
+Community forums are a great resource where anyone can read and discuss topics with other Power Pages users.
 
-The forums are a great resource where anyone can read and discuss topics with other Power Pages users.
-
-## Join the discussion
-
-Read and post in the [Power Pages forum](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals). Before you post a new question, search the discussion forum to see whether your question already has been answered.
+Join the discussion in the [Power Pages forum](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals). Before you post a new question, save time by searching the discussion forum to see whether your question has already been answered.
 
 ### See also
-- [Power Apps portals community forums](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals)
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
-- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
+
+[Power Apps portals community forums](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals)  
+[Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)  
+[Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)  
+[Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
 
 

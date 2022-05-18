@@ -1,6 +1,6 @@
 ---
 title: Use the code editor
-description: Learn how to customize pages using the code editor.
+description: Learn how to customize pages by using the code editor.
 author: ankitavish
 ms.topic: conceptual
 ms.custom: 
@@ -14,7 +14,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Customize web pages using the code editor
+# Customize webpages by using the code editor
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -24,8 +24,8 @@ To view the source code of the page on the canvas, select the code editor icon &
 
 :::image type="content" source="media/code-editor/code-edit-homepage.png" alt-text="The code editor icon.":::
 
-The source code is displayed in the Code Editor pane at the bottom of the screen. The changes you made earlier are updated in the source code. To make changes, update the source code and select Save. The changes are reflected on the canvas.
+The source code is displayed in the code editor pane at the bottom of the screen. Any changes you made previously will be updated in the source code. To make changes, update the source code and then select **Save**. The changes will be reflected on the canvas.
 
-The code editor supports 3 docking options: docked on bottom, docked on right, or full screen edit mode.
+The code editor supports three docking options: docked on the bottom, docked on the right side, or full-screen edit mode.
 
-Canvas supports editing of html. To edit JavaScript or custom CSS, click on 'Edit CSS & JS.' This will take you to portal management app. From there, choose the **Advanced** tab you can make any desired edits in the JavaScript and CSS sections.
+The code editor canvas supports HTML editing. To edit JavaScript or custom CSS, select **Edit CSS & JS**. This will take you to the Portal Management app. From there, select the **Advanced** tab to make any edits you want in the JavaScript and CSS sections.

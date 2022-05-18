@@ -1,6 +1,6 @@
 ---
-title: Add video
-description: Learn how to add videos to your Power Pages.
+title: Add a video
+description: Learn how to add videos to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -13,48 +13,48 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Video
+# Add a video
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The video component allows you to embed videos on your page.
+Use the video component to embed videos on your page.
 
-## Adding a video:
+## Adding a video
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
-1. Select the page you would like to edit.
+1. Select the page you want to edit.
 
-1. Select the section which you would like to add the video component.
+1. Select the section you want to add the video component to.
 
-1. Hover to any editable canvas area and select the click the **Video** icon.
+1. Hover over any editable canvas area, and then select the **Video** icon.
 
     :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
 1. You can select the video origin and enter the URL.  
-    :::image type="content" source="media/first-page/add-video.png" alt-text="The add a video menu with a url pre-filled.":::
+    :::image type="content" source="media/first-page/add-video.png" alt-text="The Add a video menu with a URL prepopulated.":::
 
 > [!NOTE]
-> Some videos may be configured to not allow embedding on external sites. These videos may not display on your page.
+> Some videos might be configured to disallow being embedded on external sites. These videos might not be displayed on your page.
 
 ## Editing a video component
 
-Once a video component is added, selecting the video component will open the properties bar and allow you to configure the following:
+After a video component is added, selecting the video component will open the properties bar and allow you to configure the following:
 
 - Change video source
 
 - Change the alignment  
 
-- Format the video, use the following options.
+- Format the video by using the following options.
 
     | Option | Description |
     | ----------- | ----------- |
     | Start time | Defines the start time of the video. |
     | Show player controls | Enables a user to see the video player control buttons, including start, stop, and forward controls. |
-    | Autoplay | Allows the video to automatically play when the page renders. |
-    | Loop | Allows the video to run on a continuous loop. |
+    | Autoplay | Allows the video to automatically play when the page is rendered. |
+    | Loop | Allows the video to run in a continuous loop. |
 
-- You can select the video component and drag to re-size height and width.
+- You can select the video component and drag to resize height and width.
 
-- There are additional options for the user to duplicate the video control, move it up/down within the section, or deletes the video.
+- You can choose additional options to duplicate the video control, move it up or down within the section, or delete the video.
 
