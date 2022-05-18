@@ -13,11 +13,6 @@ contributors:
     - ProfessorKendrick
 ---
 
-<!-- General notes about the tutorials:
-- Walk through each step of the tutorials as if you were a brand-new user. Does every step make sense? Is everything the user needs to know included in the instructions?
-- The screenshots aren't really very useful. There's a lot of empty space shown. Some are included just to highlight things that are pretty obvious without them, like commands and icons.
-- Since each tutorial builds on the previous ones by design, maybe don't have prereqs that imply each tutorial stands alone. I don't think you need to remind people to get a Power Pages license and create a site before starting every tutorial. I think it *would* be helpful to refer to previous tutorials.
- -->
 # Get started with Power Pages tutorials
 
 The tutorials in this section help you learn how to build a Microsoft Power Pages site that's linked to business information stored in Dataverse.
