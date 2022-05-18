@@ -1,21 +1,20 @@
 ### YamlMime:Hub
 
-title: Microsoft Power Pages (preview) documentation
-summary: Use Power Pages to create external-facing websites that allow users outside your organization to sign in with a wide variety of identities, create and view data in Dataverse, or browse content anonymously.
+title: Microsoft Power Pages (preview) documentation 
+summary: Use Power Pages to create external-facing websites that allow users outside their organizations to sign in with a wide variety of identities, create and view data in Dataverse, or even browse content anonymously. 
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: power-pages
-# EDITOR COMMENT: If you agree with the suggested titles I provide below, please make the same title changes in the individual files. Also, you might consider using the following as a really clear, user-centered example of a hub page to model the Power Pages one on: https://docs.microsoft.com/en-us/power-automate/ :) I think including "Sign up for free" on the hub page (like the Power Automate hub does) is a great idea.
 
 metadata:
   title: Microsoft Power Pages (preview) documentation
-  description: Provides access to highlighted areas in the Power Pages documentation
+  description: Provides access to highlighted areas within the Power Pages documentation
   services: service
-  ms.service: power-pages
-  ms.topic: hub-page
+  ms.service: power-pages 
+  ms.topic: hub-page 
   ms.collection: collection
   author: nickdoelman
   ms.author: ndoelman
-  ms.date: 03/31/2022
+  ms.date: 03/31/2022 
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -25,15 +24,15 @@ highlightedContent:
   # Card
     - title: Introducing Power Pages
       itemType: overview
-      url: introduction.md
+      url: introduction.md 
     # Card
     - title: Try Power Pages
       itemType: get-started
-      url: getting-started/trial-signup.md
+      url: getting-started/trial-signup.md 
   # Card
     - title: Getting started videos
       itemType: video
-      url: training-videos/index.md
+      url: training-videos/index.md           
 
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -41,27 +40,23 @@ conceptualContent:
   items:
     # Card
     - title: Getting started
-    # EDITOR COMMENT: Change ^^ to "Get started" to match verb tense in other titles on this page.
       summary: Overview of Power Pages
-      # EDITOR COMMENT: Change ^^ to "Get an overview of Power Pages" to match verb tense in other summaries on this page.
-      links:
+      links: 
         - text: What is Power Pages
           url: introduction.md
-          itemType: overview
+          itemType: overview 
         - text: Power Pages capabilities
-        # EDITOR COMMENT: Rename ^^ to "What can Power Pages do." "Power Pages capabilities" is unfriendly to non-technical people. "What can Power Pages do" also parallels "What is Power Pages," which is a nice, friendly intro.
           url: capabilities.md
           itemType: reference
         - text: Create and manage Power Pages sites
           url: getting-started/create-manage.md
-          itemType: reference
+          itemType: reference        
         - text: How Power Pages security works
           url: security/power-pages-security.md
           itemType: quickstart
         - text: Power Pages community
-        # EDITOR COMMENT: Change ^^ to "Connect with the Power Pages community" for friendliness. It sounds more like an invitation to engage.
           url: getting-started/community.md
-          itemType: reference
+          itemType: reference                                                                                                                                                                                                               
     # Card
     - title: Training videos
       summary: Watch step-by-step tutorials to learn about Power Pages
@@ -70,99 +65,78 @@ conceptualContent:
           url: training-videos/index.md#design-your-home-page
           itemType: video
         - text: Setup your brand kit
-        # EDITOR COMMENT: "Setup" is incorrect; please change to "Set up."
           url: training-videos/index.md#setup-your-brand-kit
           itemType: video
         - text: Create a page with a list
           url: training-videos/index.md#create-a-page-with-a-list
-          itemType: video
-        - text: Configure table permissions
-        # EDITOR COMMENT: "Configure" is too technical; please change to "Set." Also, please move this under "Configure access to your site" to keep the two permissions topics together.
+          itemType: video                             
+        - text: Configure table permissions 
           url: training-videos/index.md#configure-table-permissions
           itemType: video
-        - text: Create a page with a simple form
-        # EDITOR COMMENT: Please move this under "Create a page with a list" to keep the two "Create a page with" topics next to each other.
+        - text: Create a page with a simple form 
           url: training-videos/index.md#create-a-page-with-a-simple-form
           itemType: video
-        - text: Configure access to your site
-        # EDITOR COMMENT: Please change ^^ to "Determine who can access your site."
+        - text: Configure access to your site 
           url: training-videos/index.md#configure-access-to-your-site
-          itemType: video
+          itemType: video                                                                                 
     # Card
     - title: Design and build
-      summary: Create sites using Power Pages
+      summary: Create sites using Power Pages       
       links:
-      # EDITOR COMMENT: I would reorder these topics like this: Plan your Power Pages site, Create a Power Pages site from a template, Create a Power Pages site using the design studio, Style your Power Pages site, Create and design pages. I would move the Portal Management app and VS Code topics to the Customize and extend section.
       - text: Use the new design studio
-      # EDITOR COMMENT: Change ^^ to "Create a Power Pages site using the design studio."
         url: getting-started/use-design-studio.md
-        itemType: how-to-guide
+        itemType: how-to-guide 
       - text: "Pages workspace: Create and design pages"
-      # EDITOR COMMENT: Change ^^ to "Create and design pages."
         url: getting-started/first-page.md
-        itemType: get-started
+        itemType: get-started 
       - text: "Styling workspace: Theme and style your site"
-      # EDITOR COMMENT: Change ^^ to "Style your Power Pages site."
         url: getting-started/style-site.md
         itemType: get-started
       - text: Create Power Pages sites using templates
-      # EDITOR COMMENT: Change ^^ to "Create a Power Pages site from a template."
         url: templates/index.md
-        itemType: get-started
+        itemType: get-started                 
       - text: Using the Portal Management app
-      # EDITOR COMMENT: Change ^^ to "Customize your Power Pages site using the Portal Management app" and move it to "Customize and extend."
         url: configure/portal-management-app.md
-        itemType: reference
+        itemType: reference  
       - text: Using VS Code and Power Platform CLI
-      # EDITOR COMMENT: Change ^^ to "Customize your Power Pages site using VS Code" and move it to "Customize and extend."
         url: configure/cli-tutorial.md
-        itemType: how-to-guide
+        itemType: how-to-guide  
       - text: Planning your Power Pages project
-      # EDITOR COMMENT: Change ^^ to "Plan your Power Pages site."
         url: configure/planning-power-pages-project.md
-        itemType: reference
+        itemType: reference                                                                                                                                                                              
     # Card
     - title: Connect to Dataverse
       summary: Extend Dataverse capabilities with Power Pages
-      # EDITOR COMMENT: IAW my earlier note about "capabilities," and since I think the point is that you're extending Power Pages with Dataverse, not the other way around, change ^^ to "Access organizational data in Power Pages sites."
-      links:
+      links:                             
         - text: Dataverse and Power Pages
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
         - text: Using the data workspace
-        # EDITOR COMMENT: Change ^^ to "What is the data workspace."
           url: getting-started/use-data-workspace.md
           itemType: tutorial
         - text: Add lists to pages
-        # EDITOR COMMENT: Change ^^ to "Display data in a list."
           url: getting-started/add-list.md
           itemType: tutorial
         - text: Add basic forms to pages
-        # EDITOR COMMENT: Change ^^ to "Display or collect data in a basic form."
           url: getting-started/add-form.md
           itemType: tutorial
         - text: Add advanced forms on pages
-        # EDITOR COMMENT: Change ^^ to "Display or collect data in an advanced form."
           url: getting-started/advanced-forms.md
           itemType: tutorial
         - text: Secure your data with table permissions
-        # EDITOR COMMENT: Since you include this topic in the "Security" section, I would remove it from this one.
           url: security/table-permissions.md
-          itemType: tutorial
-    # Card
+          itemType: tutorial 
+    # Card              
     - title: Customize and extend
       summary: Use professional developer tools and methods
       links:
       - text: Using Liquid
-      # EDITOR COMMENT: Change ^^ to "Liquid"
         url: configure/liquid-overview.md
         itemType: reference
       - text: Web templates
-      # EDITOR COMMENT: Change ^^ to "Web Templates"
         url: configure/store-content-web-templates.md
-        itemType: how-to-guide
+        itemType: how-to-guide  
       - text: Portals web API
-      # EDITOR COMMENT: Change ^^ to "Portals Web API"
         url: configure/web-api-overview.md
         itemType: how-to-guide
       - text: Code components
@@ -170,29 +144,26 @@ conceptualContent:
         itemType: reference
       - text: Advanced configuration
         url: configure/advanced-config.md
-        itemType: reference
+        itemType: reference                                                                                                                                                                                                                          
     # Card
     - title: Security
-      summary: Protect your sites and data
+      summary: Protect your sites and data     
       links:
       - text: Power Pages security overview
         url: security/power-pages-security.md
-        itemType: reference
+        itemType: reference           
       - text: Authentication setup
-      # EDITOR COMMENT: Change ^^ to "Set up authentication."
         url: security/configure-portal-authentication.md
-        itemType: how-to-guide
+        itemType: how-to-guide     
       - text: Configure web roles
-      # EDITOR COMMENT: Change ^^ to "Create and assign web roles."
         url: security/create-web-roles.md
-        itemType: how-to-guide
+        itemType: how-to-guide    
       - text: Configure table permissions
-      # EDITOR COMMENT: Change ^^ to "Secure your data with table permissions."
         url: security/table-permissions.md
-        itemType: how-to-guide
-    # Card
+        itemType: how-to-guide                                                                                 
+    # Card    
     - title: Go live
-      summary: Launch your site
+      summary: Launch your site        
       links:
       - text: Go live checklist
         url: go-live/checklist.md
@@ -201,29 +172,24 @@ conceptualContent:
         url: go-live/assign-licensing.md
         itemType: how-to-guide
       - text: Overview of portals ALM
-      # EDITOR COMMENT: Non-technical folks won't know what "ALM" means or what it has to do with launching their site. In fact, I don't either. :) Please rephrase the title from the user's perspective.
         url: configure/portals-alm.md
-        itemType: how-to-guide
+        itemType: how-to-guide                                                                
     # Card
     - title: Administer and monitor
-      summary: Administer and monitor your Power Pages sites
+      summary: Administer and monitor your Power Pages sites           
       links:
       - text: Using the portals admin center
-      # EDITOR COMMENT: Change ^^ to "Use the portals admin center."
         url: admin/admin-overview.md
         itemType: reference
       - text: Troubleshooting and diagnostics
-      # EDITOR COMMENT: Change ^^ to "Use error logs to troubleshoot your Power Pages site."
         url: admin/view-portal-error-log.md
-        itemType: reference
+        itemType: reference   
       - text: Maintaining and updating Power Pages
-      # EDITOR COMMENT: Change ^^ to "Update Power Pages solutions."
         url: admin/update-portal-solution.md
         itemType: reference
       - text: Review consumption
-      # EDITOR COMMENT: Change ^^ to "Monitor your site's capacity consumption."
         url: admin/portal-consumption-reports.md
-        itemType: how-to-guide
+        itemType: how-to-guide                                                                       
 
 # additionalContent section (optional)
 # Card with summary style
@@ -247,3 +213,4 @@ additionalContent:
         - title: Power Virtual Agents
           summary: Create powerful bots using a guided, no-code graphical interface without the need for data scientists or developers.
           url: https://docs.microsoft.com/power-virtual-agents
+    
