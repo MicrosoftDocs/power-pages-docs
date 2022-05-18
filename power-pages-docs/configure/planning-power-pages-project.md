@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)] 
 
-In this article, we'll discuss things you should keep in mind as you embark on your project. 
+This article serves as guidance for enterprise teams working on projects that may go beyond the scope of a maker creating a site for a specific business need. Creating a plan with clear outcomes and expectations is always good practice regarding the size of your project.
 
 > [!NOTE]
 > Power Pages is built on a foundation of Power Apps portals. Many of the tools and methods used to configure Power Pages utilize the functionality of Power Apps portals. For more information, see [Introduction: Planning a Power Apps project](/power-apps/guidance/planning/introduction).
