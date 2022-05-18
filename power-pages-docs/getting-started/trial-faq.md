@@ -21,9 +21,6 @@ The Power Pages trial offers a simple and easy experience for sign-up, sign-in, 
 
 To sign up for the trial, go to the [Power Pages overview page](https://powerpages.microsoft.com/), and select **Start free**.
 
-[!INCLUDE[trial-faq-platform](../includes/trial-faq-platform.md)]
-
-
 ### Can I convert the trial to a paid license?
 
 Yes, you can purchase licenses through direct, credit card purchase at https://admin.microsoft.com. Or, you can work with the Microsoft sales team to establish a volume licensing or enterprise agreement. Visit our [pricing page](https://powerapps.microsoft.com/pricing/) for more information on pricing and purchasing. 

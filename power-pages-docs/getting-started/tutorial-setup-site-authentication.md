@@ -4,7 +4,7 @@ description: Learn how to configure Azure AD B2C authentication provider to your
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 04/21/2022
+ms.date: 05/17/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -15,48 +15,65 @@ contributors:
 
 # Tutorial: Configure authorized access to your site
 
-Power Pages provides a way to allow your external stakeholders to get self-service access to information and data from your business systems.
+Power Pages provides integration to multiple authentication providers to allow secure access to external users to your site. In this tutorial, you will see how to use the Setup workspace to configure Azure AD B2C as an authentication provider.
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * Provide user access to your Power Pages sites using an identity provider.
+> * Provide user access to your Power Pages sites using Azure AD B2C as an identity provider.
 
 ## Prerequisites
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- An Azure subscription and administrative rights to configure Azure AD B2C
 
 ## Configure authorized access to your site
-<!-- Introduction paragraph -->
+
+Setting up an external authentication provider will allow you to provide access to your site and provide the mechanism for end users to be able to reset theier passwords and other information without administrator intervention.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+
 1. In design studio, select **Set up**.  
     - Under **Authentication**, choose **Identity Providers**.
     :::image type="content" source="media/tutorial/setup.png" alt-text="Choose an identity provider from the Set up menu.":::
+
 1. Select **Configure**.
+
     - Ensure **Azure Active Directory B2C** is selected and then choose **Next**.
+
     :::image type="content" source="media/tutorial/azure-b2c.png" alt-text="Select a login provider.":::
+
 1. Fill in the details.
+
     - Choose a subscription.
     - Create a resource group.
     - Select a country.
     - Select **Next**.
+
     :::image type="content" source="media/tutorial/resource-group.png" alt-text="Enter details to configure identity provider.":::
+
 1. Confirm the defaults and then select **Next**.
+
 1. Select defaults (new policy) and then select **Create**.
+
     :::image type="content" source="media/tutorial/create-button.png" alt-text="The create button.":::
+
 1. Select **Close**.
+
 1. Select the ellipses next to **Local Sign In**.
+
 1. Choose **Disable**.
 
-Now your users can sign in, register, or redeem an invitation to your site using the configured identity provider.  
+Now your users can sign in, register, or redeem an invitation to your site using Azure AD B2C.  
 
 You can preview this functionality by visiting a portal and selecting **Sign In**, then select **Azure AD B2C**.  The default Azure AD B2C sign-in screen will appear.
 
+:::image type="content" source="media/tutorial/azure-ad-b2c.png" alt-text="Azure AD B2C.":::
+
 ## Next steps
 
-Advance to the next article to learn how to upload your own custom CSS file to your site.
+Learn how to protect your pages using page permissions in the next tutorial
 > [!div class="nextstepaction"]
-> [Next steps](tutorial-add-custom-style.md)
+> [Setup page permissions](tutorial-setup-page-permissions.md)
 

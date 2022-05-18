@@ -23,10 +23,10 @@ The new Power Pages design studio provides powerful new features to create and d
 
 The following videos show you how to create and design a page in your site and configure your site's navigation.
 
-| Step | Task | Step-by-step video |  
+| Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Create and design a page | [video](#create-page) <br> [tutorial](../getting-started/tutorial-add-webpage.md) |
-| 2 | Configure site navigation | [video](#configure-site-navigation) <br> [tutorial](../getting-started/tutorial-add-webpage.md) |
+| 1 | Create and design a page | [video](#create-page)<br/>[tutorial](../getting-started/tutorial-add-webpage.md) |
+| 2 | Configure site navigation | [video](#configure-site-navigation)<br/>[tutorial](../getting-started/tutorial-add-webpage.md) |
 
 ### Create a page
 
@@ -60,11 +60,11 @@ Power Pages offers a seamless ability to interact with business data stored in D
 
 The following series of videos demonstrate how to create a page displaying business information in three easy steps.
 
-| Step | Task | Step-by-step video |  
+| Step | Task | Video and tutorial |  
 | - | - | - | 
-| 1 | Create a table in the Data workspace | [video](#create-a-table) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 2 | Create a view | [video](#create-a-view) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 3 | Add a list to the page | [video](#add-a-list-to-page) <br> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 1 | Create a table in data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 2 | Create a view | [video](#create-a-view)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 3 | Add a list to the page | [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 
 ### Create a table
 
@@ -100,11 +100,11 @@ Business information in Dataverse can't automatically be viewed in Power Pages. 
 
 The following three videos will explain the concepts of table permissions, setting up access, and assigning web roles.
 
-| Step | Task | Overview video |  
+| Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Create table permissions | [video](#create-table-permissions) [tutorial](../getting-started/tutorial-display-data-securely.md) |
-| 2 | Set up access types and privileges | [video](#create-table-permissions)  [tutorial](../getting-started/tutorial-display-data-securely.md) |
-| 3 | Add web roles | [video](#add-web-roles) [tutorial](../getting-started/tutorial-display-data-securely.md) |
+| 1 | Create table permissions | [video](#create-table-permissions)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
+| 2 | Set up access type and privileges | [video](#create-table-permissions)<br/>  [tutorial](../getting-started/tutorial-display-data-securely.md) |
+| 3 | Add web roles | [video](#add-web-roles)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
 
 ### Create table permissions
 
@@ -126,13 +126,13 @@ The following three videos will explain the concepts of table permissions, setti
 
 Forms on pages are created from Dataverse table forms. The following videos show you how to create and add a form to your page, capture rich information through code components, and configure form actions when the information in the form is submitted.
 
-| Step | Task | Step-by-step video |  
+| Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Create a table in Dataverse | [video](#create-a-table)  [tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 2 | Create a form | [video](#create-a-form)  [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)  [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 4 | Add a form to a page | [video](#add-a-list-to-page) [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 5 | Configure form options| [video](#add-a-list-to-page)  [tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 1 | Create a table in Dataverse | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 2 | Create a form | [video](#create-a-form)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 4 | Add a form to page | [video](#add-a-list-to-page)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 5 | Configure form options| [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
 
 ### Create a form
 
@@ -166,11 +166,11 @@ Users can be provided access to your site through authentication. Power Pages us
 
 The following videos provide an overview of authentication and walk you through configuring an identity provider and configuring page permissions.
 
-| Step | Task | Step-by-step video |  
+| Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Authentication overview | [video](#authentication-overview)  [tutorial](../getting-started/tutorial-setup-site-authentication.md) |
-| 2 | Configure identity provider | [video](#configure-identity-provider)  [tutorial](../getting-started/tutorial-setup-site-authentication.md) |
-| 3 | Set page permissions | [video](#set-page-permissions)  [tutorial](../getting-started/tutorial-setup-page-permissions.md) |
+| 1 | Authentication overview | [video](#authentication-overview)<br/>[tutorial](../getting-started/tutorial-setup-site-authentication.md) |
+| 2 | Configure identity provider | [video](#configure-identity-provider)<br/>[tutorial](../getting-started/tutorial-setup-site-authentication.md) |
+| 3 | Set Page Permissions | [video](#set-page-permissions)<br/>[tutorial](../getting-started/tutorial-setup-page-permissions.md) |
 
 ### Authentication overview
 
@@ -186,5 +186,6 @@ The following videos provide an overview of authentication and walk you through 
 
 ### See also
 
-[Configure authentication](../security/configure-portal-authentication.md)  
-[Tutorial: Set up site authentication](../getting-started/tutorial-setup-site-authentication.md)
+[Configure Authentication](../security/configure-portal-authentication.md)  
+[Tutorial: Setup site authentication](../getting-started/tutorial-setup-site-authentication.md)
+

@@ -19,6 +19,6 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on how to customize your content by using content snippets, go to [Customize content by using content snippets](/powerapps/maker/portals/configure/customize-content-snippets) in the Power Apps documentation.
+For detailed information on how to customize your content using content snippets, go to [Customize content by using content snippets](/powerapps/maker/portals/configure/customize-content-snippets) in the Power Apps documentation.
 
 

@@ -26,5 +26,3 @@ For detailed information on how to configure Power Pages site authentication, go
 ### See also
 
 [Get started with configuring your portal authentication](/power-apps/maker/portals/configure/use-simplified-authentication-configuration)
-
-[!INCLUDE[faq](../includes/cc-faqs.md)]
