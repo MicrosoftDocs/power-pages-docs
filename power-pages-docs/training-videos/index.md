@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/31/2022
+ms.date: 05/18/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -28,7 +28,7 @@ The following videos show you how to create and design a page in your site and c
 | 1 | Create and design a page | [video](#create-page)<br/>[tutorial](../getting-started/tutorial-add-webpage.md) |
 | 2 | Configure site navigation | [video](#configure-site-navigation)<br/>[tutorial](../getting-started/tutorial-add-webpage.md) |
 
-### Create a page
+### Create page
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
@@ -36,7 +36,7 @@ The following videos show you how to create and design a page in your site and c
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
-## Set up your brand kit
+## Setup your brand kit
 
 Designing your site to match your company brand has never been easier. The new design studio provides powerful features to create your brand kit that applies to all pages in your entire site.
 
@@ -56,7 +56,7 @@ Watch this quick video to learn how to set up your brand kit.
 
 ## Create a page with a list
 
-Power Pages offers a seamless ability to interact with business data stored in Dataverse with the new [Data workspace](../getting-started/use-data-workspace.md).
+Power Pages offers a seamless ability to interact with business data stored in Dataverse with the new [data workspace](../getting-started/use-data-workspace.md).
 
 The following series of videos demonstrate how to create a page displaying business information in three easy steps.
 
@@ -74,11 +74,11 @@ In this video, you'll learn how to create a table by using the Data workspace.
 
 ### Create a view
 
-This video showS you how to create a view for a table BY using the Data workspace.
+This video shows you how to create a view for a table by using the data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
 
-### Add a list to a page
+### Add a list to page
 
 Now that you've created your table and view, let's add a list to the page.
 
@@ -91,7 +91,7 @@ Now that you've created your table and view, let's add a list to the page.
 ### See also
 
 [Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md)  
-[Use Data workspace](../getting-started/use-data-workspace.md)  
+[Use data workspace](../getting-started/use-data-workspace.md)  
 [Add a list component](../getting-started/add-list.md)
 
 ## Configure table permissions
@@ -110,7 +110,7 @@ The following three videos will explain the concepts of table permissions, setti
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
-### Set up access types and privileges
+### Set up access type and privileges
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
@@ -144,7 +144,7 @@ In this video, we create a form by using the Data workspace.
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
-### Add a form to a page
+### Add a form to page
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
@@ -176,7 +176,7 @@ The following videos provide an overview of authentication and walk you through 
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
-### Configure identity providers
+### Configure identity provider
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
