@@ -32,7 +32,7 @@ As you begin to plan your first Power Pages project, consider the following ques
 - How the data will be segmented after users sign in?
 - How will my users find my site?
 
-Answering these questions will help guide discussions as you embark on your project. Each project has unique needs and not all elements discussed will be required in every use case. 
+Answering these questions will help guide discussions as you embark on your project. 
 
 ## Audience
 
