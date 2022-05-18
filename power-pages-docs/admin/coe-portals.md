@@ -21,7 +21,7 @@ contributors:
 
 Power Pages provides some helpful tools for administrators to manage their sites and environments.
 
-Administrators can use the [Power Pages admin center](admin-overview.md)<!--note from editor: Should this be "portals admin center"?--> to:
+Administrators can use the [Power Apps portals admin center](admin-overview.md) to:
 
 - Configure vanity domains
 - Manage lifecycle operations
@@ -98,7 +98,7 @@ Use the Power Platform admin view to:
 
 :::image type="content" source="media/coe-admin-app.png" alt-text="COE admin app dashboard.":::
 
-View Power Pages sites data by selecting **Power Pages Sites** in the left pane.<!--note from editor: Edit okay?--> This view shows all sites in the organization's tenant, allowing admins to govern data security and authentication across environments.
+View Power Pages sites data by selecting **Power Pages Sites** in the left pane. This view shows all sites in the organization's tenant, allowing admins to govern data security and authentication across environments.
 
 :::image type="content" source="media/coe-admin-app-power-pages-list.png" alt-text="COE admin Power Pages list.":::
 

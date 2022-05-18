@@ -60,16 +60,13 @@ Read more:
 
 ## Security and governance
 
-<!--image-->
-**CONTENT NOTE: IMAGE CONVEYING SECURITY HERE**
-
-Power Pages inbuilt security is its core. It allows organizations to securely enable access of their business data to their users (internal or external) through Power Pages authorization rules.<!--note from editor: No possessive with product names.--> More information: [Power Pages security](security/power-pages-security.md)
+Power Pages inbuilt security is its core. It allows organizations to securely enable access of their business data to their users (internal or external) through Power Pages authorization rules. More information: [Power Pages security](security/power-pages-security.md)
 
 - Organizations using Power Pages can choose from various authentication providers or allow access to site content anonymously. More information: [Configure authentication](security/configure-portal-authentication.md)
 
 - Power Pages is hosted as Azure App Service, which has International Organization for Standardization (ISO), System and Organization Controls (SOC), and Payment Card Industry Data Security Standards (PCI DSS) compliance. More information: [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview)
 
- - Power Pages supports modern TLS crypto standards (TLS 1.2) and has built-in DDoS protection<!--note from editor: Would it be correct to call this "Azure DDoS Protection"?-->. It also supports dynamic IP restriction to limit traffic from bad actors and provides secure, configuration-driven mechanisms for admins to address top web security vulnerabilities such as injection attacks, cross-site request forgery, and server-side request forgery.
+ - Power Pages supports modern TLS crypto standards (TLS 1.2) and has built-in Azure DDoS protection. It also supports dynamic IP restriction to limit traffic from bad actors and provides secure, configuration-driven mechanisms for admins to address top web security vulnerabilities such as injection attacks, cross-site request forgery, and server-side request forgery.
 
 - You can also configure Power Pages to use edge caching and web application firewall (WAF) capabilities. More information: [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door).
 
