@@ -145,4 +145,7 @@ We can also create our own custom web roles to further limit access to data and 
 
 ## Next steps
 
-Advance to the next article to learn how to [Setup page permissions](tutorial-setup-page-permissions.md).
+Showing data in a list view to the correct audience is an important feature of Power Pages. The next tutorial will cover adding a form to a page to allow users to create and edit business data.
+
+> [!div class="nextstepaction"]
+> [Add a form to a page](tutorial-add-form-to-page.md)
