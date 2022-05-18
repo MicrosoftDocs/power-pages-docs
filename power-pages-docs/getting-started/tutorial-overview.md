@@ -1,10 +1,10 @@
 ---
-title: "Tutorial: Getting Started with Power Pages"
-description: Learn how to build powerful sites using Power Pages.
+title: "Power Pages tutorials"
+description: Tutorials to learn how to build powerful sites using Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/16/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Get started Power Pages tutorials
+# Power Pages tutorials
 
 The tutorials in this section cover an area where you can learn to build a visually pleasing, secure and functioning Power Pages site linked to business information stored in Dataverse.
 
