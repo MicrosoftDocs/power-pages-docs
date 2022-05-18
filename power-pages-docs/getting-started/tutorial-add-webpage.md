@@ -1,10 +1,10 @@
 ---
-title: "Tutorial: Add a web page"
-description: Learn how to add a web page to your Power Pages site.
+title: "Tutorial: Add a page"
+description: Learn how to add a page to your Power Pages site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 04/20/2022
+ms.date: 05/25/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -15,7 +15,7 @@ contributors:
 
 # Tutorial: Add a page to your Power Pages site
 
-In this tutorial, you'll learn how to add a new page to your Power Pages site. You can use this page to display static content to your audience such as text or images or use it to allow your site visitors to interact with information from Dataverse using lists and forms.
+In this tutorial, you'll learn how to add a page to your Power Pages site. You can use this page to display static content to your audience such as text or images or use it to allow your site visitors to interact with information from Dataverse using lists and forms.
 
 In this tutorial, you learn how to:
 
@@ -113,4 +113,3 @@ Adding the page to the **Main navigation** will add a menu option. The page can 
 Advance to the next article to learn how to apply styles to your site.
 > [!div class="nextstepaction"]
 > [Style your site](tutorial-style-site.md)
-
