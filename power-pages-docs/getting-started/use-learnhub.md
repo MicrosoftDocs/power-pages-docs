@@ -1,6 +1,6 @@
 ---
-title: How to use the learning Hub
-description: Learn how to use the learning Hub.
+title: How to use the learning hub
+description: Learn how to use the learning hub.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -16,10 +16,10 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Learn** hub lets you explore documents, videos, and other resources that will help make it easier for you to create the website you want.
+With the learning hub, you can explore documents, videos, and other resources that will help make it easier for you to create the website you want.
 
-From the Power Pages home page, choose **Learn** from the navigation to access the learning hub.
+To access the learning hub, go to the Power Pages home page and select **Learn** on the left pane.
 
-:::image type="content" source="media/learn-hub/learn-hub.png" alt-text="Learn hub in Power Pages.":::
+:::image type="content" source="media/learn-hub/learn-hub.png" alt-text="Learning hub in Power Pages.":::
 
 

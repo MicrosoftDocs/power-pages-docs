@@ -1,6 +1,6 @@
 ---
 title: After School template
-description: Learn about the after school template
+description: Learn about the After School template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -15,17 +15,17 @@ contributors:
 
 # After School template
 
-The After School Program template is designed to show you the capabilities of a registration portal application.  We have chosen the example of registering for after school classes.  This template may be useful for any industry or organization wishing to create a registration portal.
+The After School Program template is designed to show you the capabilities of a registration portal application. We've chosen the example of registering for after school classes. This template might be useful for any industry or organization wishing to create a registration portal.
 
 :::image type="content" source="media/school.png" alt-text="The After School template landing page.":::
 
 ## Users
 
-There are two key users that the template is designed for:
+The template is designed for two key users:
 
-- The parent who is trying to register their children for after school classes.
+- The parent who wants to register their children for after-school classes.
 
-- The school representative is looking to maintain a list of courses, edit existing courses, and add new courses to the catalog.
+- The school representative who's looking to maintain a list of courses, edit existing courses, and add new courses to the catalog.
 
 ### Parents
 
@@ -57,22 +57,22 @@ The following are the pages, basic forms, and customizable tables provided in th
 
 #### Customer pages
 
-The following pages are utilized by **Parents**:
+The following pages are used by parents.
 
 | Page | Description |
 |-----------|----------------|
-|Home|Search an event and view courses and course details based on specified criteria.|
+|Home|Search for an event, and view courses and course details based on specified criteria.|
 |Unregister Attendee |Unregister a previously registered child.|
 |Add Attendee Profile|Set up a profile for a child.|
 |Attendee Information|Input a child's information for the purposes of setting up an attendee profile.|
 |My Registrations|View registration for an attendee profile.|
-|Registration Success|Confirm a child is successfully registered for a course.|
+|Registration Success|Confirm that a child is successfully registered for a course.|
 |View Course Details|View selected course details.|
 
 
 #### Admin pages
 
-The following pages are utilized by **School Representatives**:
+The following pages are used by **School Representatives**:
 
 |Page|Description|
 |-----------|----------------|
@@ -85,7 +85,7 @@ The following pages are utilized by **School Representatives**:
 
 ### Forms and tables
 
-The template uses the following forms linked to Dataverse tables:
+The template uses the following forms linked to Dataverse tables.
 
 |Table|Table form name*|Page form name**|
 |---------|---------|---------|
@@ -110,4 +110,4 @@ The template uses the following forms linked to Dataverse tables:
 
 ## Professional developers
 
-This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **Visual Studio Code** to view and modify the source code.
+This template includes custom code and has been styled to follow best-in-class UX patterns. For custom code editing, use the [Microsoft Power Platform CLI](../configure/cli-tutorial.md) to download the site metadata, and use Visual Studio Code to view and modify the source code.

@@ -1,10 +1,10 @@
 ---
-title: Power Pages Training Videos
+title: Power Pages training videos
 description: Learn how to build Power Pages sites by following these video guides.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/31/2022
+ms.date: 05/18/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -15,13 +15,13 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The following video guides will show you how to build and configure a Power Pages site.
+The following video guides show you how to build and configure a Power Pages site.
 
 ## Design your home page
 
-The new Power Pages design studio provides powerful new features to create and design your site using the [pages workspace](../getting-started/first-page.md) and [styling workspace](../getting-started/style-site.md).
+The new Power Pages design studio provides powerful new features to create and design your site by using the [Pages workspace](../getting-started/first-page.md) and [Styling workspace](../getting-started/style-site.md).
 
-The following videos will show you how to create and design a page in your site and configure your site's navigation.
+The following videos show you how to create and design a page in your site and configure your site's navigation.
 
 | Step | Task | Video and tutorial |  
 | - | - | - |
@@ -45,41 +45,42 @@ Designing your site to match your company brand has never been easier. The new d
 > * Define your color palette.
 > * Set up your fonts.
 
-Watch this quick video to learn how to setup your brand kit.
+Watch this quick video to learn how to set up your brand kit.
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### See also
-- [Style your site](../getting-started/style-site.md)
-- [Tutorial: Style your site](../getting-started/tutorial-style-site.md)
+
+[Style your site](../getting-started/style-site.md)  
+[Tutorial: Style your site](../getting-started/tutorial-style-site.md)
 
 ## Create a page with a list
 
-Power Pages offers a seamless ability to interact with business data stored in Dataverse with the new [data workspace](../getting-started/use-data-workspace.md).
+Power Pages offers a seamless ability to interact with business data stored in Dataverse with the new [Data workspace](../getting-started/use-data-workspace.md).
 
-The following series of videos will demonstrate how to create a page displaying business information in three easy steps:
+The following series of videos demonstrate how to create a page displaying business information in three easy steps.
 
 | Step | Task | Video and tutorial |  
 | - | - | - | 
-| 1 | Create a table in data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 1 | Create a table in Data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a view | [video](#create-a-view)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 3 | Add a list to the page | [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
 
 ### Create a table
 
-In this video, you will learn how to create a table using the data workspace.
+In this video, you'll learn how to create a table by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
 
 ### Create a view
 
-This video will show you how to create a view for a table using data workspace.
+This video shows you how to create a view for a table by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
 
 ### Add a list to page
 
-Now that you have created your table and view, let's add a list to a page.
+Now that you've created your table and view, let's add a list to the page.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
 
@@ -89,15 +90,13 @@ Now that you have created your table and view, let's add a list to a page.
 
 ### See also
 
-- [Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md)
-- [Use data workspace](../getting-started/use-data-workspace.md)
-- [Add a list component](../getting-started/add-list.md)
+[Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md)  
+[Use Data workspace](../getting-started/use-data-workspace.md)  
+[Add a list component](../getting-started/add-list.md)
 
 ## Configure table permissions
 
-Business information in Dataverse cannot be viewed on Power Pages automatically.
-
-To allow access to Dataverse records in Power Pages sites, you will need to configure table permissions and associate the table permissions to web roles.
+Business information in Dataverse can't automatically be viewed in Power Pages. To allow access to Dataverse records in Power Pages sites, you'll need to configure table permissions and associate the table permissions to web roles.
 
 The following three videos will explain the concepts of table permissions, setting up access, and assigning web roles.
 
@@ -120,13 +119,12 @@ The following three videos will explain the concepts of table permissions, setti
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### See also
-- [Power Pages Security](../security/power-pages-security.md)
+
+[Power Pages security](../security/power-pages-security.md)
 
 ## Create a page with a simple form
 
-Forms on pages are created from Dataverse table forms.
-
-The following videos will show you to create and add a form to your page, capture rich information through code components and configure form actions when the information in the form is submitted.
+Forms on pages are created from Dataverse table forms. The following videos show you how to create and add a form to your page, capture rich information through code components, and configure form actions when the information in the form is submitted.
 
 | Step | Task | Video and tutorial |  
 | - | - | - |
@@ -138,7 +136,7 @@ The following videos will show you to create and add a form to your page, captur
 
 ### Create a form
 
-In this video, we will create a form using the Data workspace.
+In this video, we create a form by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev]
 
@@ -155,17 +153,18 @@ In this video, we will create a form using the Data workspace.
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### See also
-- [Create forms in Data workspace](../configure/data-workspace-forms.md)
-- [Add form to a page](../getting-started/add-form.md)
-- [Tutorial: Add a form to a page](../getting-started/tutorial-add-form-to-page.md)
+
+[Create forms in Data workspace](../configure/data-workspace-forms.md)  
+[Add form to a page](../getting-started/add-form.md)  
+[Tutorial: Add a form to a page](../getting-started/tutorial-add-form-to-page.md)
 
 ## Configure access to your site
 
-Power Pages has a robust security model to ensure that business information is properly protected.
+Power Pages has a robust security model to ensure that business information is properly protected. 
 
-Users can be provided access to your site through authentication. Power Pages users are represented by Microsoft Dataverse contact records. Power Pages can be integrated with a number of authentication providers such as Azure AD B2C, Microsoft, LinkedIn and others.
+Users can be provided access to your site through authentication. Power Pages users are represented by Dataverse contact records. Power Pages can be integrated with a number of authentication providers such as Azure Active Directory B2C, Microsoft, LinkedIn, and others.
 
-The following videos will show you provide an overview of authentication and walk you through configuring an identity provider and configuring page permissions.
+The following videos provide an overview of authentication and walk you through configuring an identity provider and configuring page permissions.
 
 | Step | Task | Video and tutorial |  
 | - | - | - |
@@ -181,11 +180,12 @@ The following videos will show you provide an overview of authentication and wal
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
-### Set Page Permissions
+### Set page permissions
 
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
-### See Also
+### See also
 
-- [Configure Authentication](../security/configure-portal-authentication.md)
-- [Tutorial: Setup site authentication](../getting-started/tutorial-setup-site-authentication.md)
+[Configure Authentication](../security/configure-portal-authentication.md)  
+[Tutorial: Setup site authentication](../getting-started/tutorial-setup-site-authentication.md)
+

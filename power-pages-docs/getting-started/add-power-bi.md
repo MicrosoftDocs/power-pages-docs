@@ -1,6 +1,6 @@
 ---
-title: Add Power BI
-description: Learn how to add Power BI to your Power Pages.
+title: Add a Power BI component
+description: Learn how to add a Power BI component to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -13,23 +13,23 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add Power BI
+# Add a Power BI component
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can add a Power BI component on a page to display Power BI dashboards and reports on your portal.
 
-Before adding Power BI components, ensure that Power BI is enabled. Please refer to the following instructions on the Power Apps documentation: [Set up Power BI integration - Power Apps \| Microsoft Docs](/powerapps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization)
+Before adding Power BI components, ensure that Power BI is enabled. Refer to the following instructions in the Power Apps documentation: [Set up Power BI integration](/powerapps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization).
 
 ## To add a Power BI component to a page
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
-1. Select the page you would like to edit.
+1. Select the page you want to edit.
 
-1. Select the section which you would like to add the Power BI component.
+1. Select the section you want to add the Power BI component to.
 
-1. Hover to any editable canvas area and select the click the **Power BI** icon.
+1. Hover over any editable canvas area, and then select the **Power BI** icon.
 
     :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
@@ -41,4 +41,4 @@ Before adding Power BI components, ensure that Power BI is enabled. Please refer
 
     For detailed information, go to [Add Power BI](/power-apps/maker/portals/add-powerbi) in the Power Apps documentation.
 
-1. Selecting more options (**...**) will allow you to duplicate, move up/down within the section, or delete the Power BI component.
+1. You can select **More options** (**...**) you to duplicate the component, move it up or down within the section, or delete it.

@@ -28,21 +28,21 @@ For each website in your environment, the site card provides you details about t
 
 - Suggested next steps, as you build and edit your site
 
-- Thumbnail that captures a snapshot of your site. If your website is authenticated, this will show the sign-in page that your users will see.
+- A thumbnail that captures a snapshot of your site. If your website is authenticated, this will show the sign-in page that your users will see.
 
 Each site card also links to actions such as:
 
-- Edit, which redirects you to the [design studio](../getting-started/use-design-studio.md) experience
+- Edit, which redirects you to the [design studio](../getting-started/use-design-studio.md) experience.
 
-- Preview, which gives you a glimpse of how your users will view the website
+- Preview, which gives you a glimpse of how your users will view the website.
 
-- Share, which lets you copy the link to preview the site  
+- Share, which creates a link you can send others to preview the site.
 
     :::image type="content" source="media/manage-sites/share-site.png" alt-text="Share sites.":::
 
-- Manage, which links you to the Portal Admin Center for the site  
+- Manage, which links you to the portal admin center for the site.
 
     :::image type="content" source="media/manage-sites/admin-center.png" alt-text="Admin center.":::
 
-- Delete, which lets you delete the site and removes it from the site list
+- Delete, which deletes the site and removes it from the site list.
 
