@@ -4,7 +4,7 @@ description: Learn about the Book a Meeting template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/28/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -48,7 +48,7 @@ As a bank representative, you can do the following seamlessly:
 
 Makers are able to use the [design studio](../getting-started/use-design-studio.md) to modify the template for specific needs.
 
-The following are the pages, basic forms, and customizable tables provided in the template.
+The following are the pages, basic forms, and customizable tables provided in the template. These can be modified to align with your specific project needs.
 
 ### Pages
 

@@ -4,7 +4,7 @@ description: Learn how to manage Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/13/2022
+ms.date: 05/24/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -40,7 +40,7 @@ Each site card also links to actions such as:
 
     :::image type="content" source="media/manage-sites/share-site.png" alt-text="Share sites.":::
 
-- Manage, which links you to the portal admin center for the site.
+- Manage, which links you to the Power Apps portals admin center for the site.
 
     :::image type="content" source="media/manage-sites/admin-center.png" alt-text="Admin center.":::
 
