@@ -20,7 +20,9 @@ contributors:
 
 In Power Pages, you'll find a robust set of themes and tools to use to style your site. You can choose from several preset themes that you can apply to your portal.  You can use these themes as a starting point and apply further customization with the styling menu.
 
-1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+The **Styling** workspace lets you apply global site styles. You can apply corporate branding updates, and review the changes in the preview on the right side of the app window. Styling offers 13 preset themes. For each theme, you can customize the color palette, background color, font styles, button styles, and section margins.
+
+1. Open the [design studio](use-design-studio.md).
 
 1. On the left pane, select **Styling**.
 
@@ -30,7 +32,7 @@ In Power Pages, you'll find a robust set of themes and tools to use to style you
 
 1. Select one of the preset themes to see how the style is reflected on the canvas workspace to the right. Note the following:
 
-    - Each theme has its own palette.
+    - Each theme has its own color palette.
 
     - You can adjust the styling menu to make adjustments to each theme. Text options include font, weight, size, and color.
 
@@ -48,7 +50,7 @@ To reset a theme to its original state, select the ellipsis (**...**) and then s
 
 To see the full page in the design studio, select the full page icon.
 
-:::image type="content" source="media/style-site/full-page.png" alt-text="GUI with the full page icon highlighted."
+:::image type="content" source="media/style-site/full-page.png" alt-text="GUI with the full page icon highlighted.":::
 
 To see the site as it will appear in production, select the preview icon.
 
