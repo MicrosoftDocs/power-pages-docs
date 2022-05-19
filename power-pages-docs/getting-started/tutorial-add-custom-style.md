@@ -81,4 +81,4 @@ In this tutorial, you learn how to:
 1. Select **Preview** to view the custom theme on your site.
 
 > [!NOTE]
-> To remove the custom theme; delete or de-active the web file record in the Portal Management app.
+> To remove the custom theme; delete or de-activate the web file record in the [Portal Management app](../configure/portal-management-app.md).
