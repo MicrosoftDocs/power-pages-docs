@@ -21,5 +21,5 @@ contributors:
 
 Power Pages is available in public preview and offers a free trial experience. However, in case you need to use a permanent website, existing Power Apps portals licensing can be used with Power Pages sites as well to get a production portal.
 
-For detailed information on licensing, go to [Manage existing portals | Licensing](/powerapps/maker/portals/manage-existing-portals#licensing) in the Power Apps documentation.
+For detailed information on licensing, go to [Licensing](/powerapps/maker/portals/manage-existing-portals#licensing) in the Power Apps portals documentation.
 
