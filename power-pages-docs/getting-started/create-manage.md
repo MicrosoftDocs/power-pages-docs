@@ -34,6 +34,9 @@ Power Pages provides you with a list of templates to choose from to quickly buil
 
     :::image type="content" source="media/default-template/default-template.png" alt-text="The design studio GUI with default template selected.":::
 
+    > [!NOTE]
+    > The default site is generic and can be modified for various business scenarios. You can also choose a [business-need template](../templates/index.md) that best matches your specific scenario.
+
 1. Validate the default site name and web address that have been created, and then select **Done**.
 
     :::image type="content" source="media/default-template/provision-site.png" alt-text="The design studio with site provisioning options displayed.":::
