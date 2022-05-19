@@ -42,7 +42,7 @@ Power Pages provides you with a list of templates to choose from to quickly buil
     :::image type="content" source="media/default-template/provision-site.png" alt-text="The design studio with site provisioning options displayed.":::
 
     > [!NOTE]
-    > It might take a few moments for your new portal to be provisioned. You'll be able to modify the name and web address later.
+    > It might take a few moments for your new site to be provisioned. You'll be able to modify the name and web address later.
 
 1. After the site is created, you can begin to edit or preview your site.
 
