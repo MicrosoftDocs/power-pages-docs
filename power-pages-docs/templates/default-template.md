@@ -4,7 +4,7 @@ description: The Default template provides basic building blocks for you creatin
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/29/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -21,17 +21,15 @@ The Default template provides basic building blocks for you to create custom pag
 
 ## Makers
 
-Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.  
+Makers are able to use the [design studio](../getting-started/use-design-studio.md) to modify the template for specific needs.  
 
 ### Existing template content
 
-The following are the customizable tables, basic forms, lists, and code components provided in the template.
+The following are the customizable tables, basic forms, lists, and code components provided in the template. These can be modified to align with your specific project needs.
 
 | **Pages** | **Tables** | **Forms** | **Lists** | **Description** |
 |-----------|------------|-----------|-----------|-----------------|
 | Contact Us| Feedback | simple contact us form | | Simple feedback form. |
-
-Modify the page structure, change text, and add components using the drag-and-drop page builder.  
 
 ### See also 
 
