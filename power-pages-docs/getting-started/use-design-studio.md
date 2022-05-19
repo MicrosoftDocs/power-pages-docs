@@ -4,7 +4,7 @@ description: Learn about Power Pages design studio.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/20/2022
+ms.date: 05/24/2022
 ms.author: ndoelman
 ms.reviewer:
 contributors:
@@ -16,7 +16,19 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Power Pages design studio is an intuitive click and drag interface that enables low-code makers to build and configure rich business web apps. It has four marquee experiences—called *workspaces*—that focus on specific user jobs:
+The Power Pages design studio is an intuitive interface that enables low-code makers to build and configure rich business web apps. 
+
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+
+    The first time you visit the site, you'll be presented with a **Get started** button and be able to [sign up for a free, 30-day trial](trial-signup.md).
+
+1. Select your site, and select **Edit** to launch the design studio.
+
+    :::image type="content" source="media/tour-maker-studio/launch-design-studio.png" alt-text="Launch the design studio.":::
+
+1. If you don't have a site created, select **Create a site** to create your website.
+
+The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs:
 
 - **Pages workspace** enables you to design and build webpages with in-context editing and add content with no-code and low-code widgets such as text, image, video, Power BI reports, lists, forms, and others. [Learn more about the Pages workspace](first-page.md).
 
@@ -41,16 +53,6 @@ For advanced configurations that aren't available in the Power Pages design stud
 To reflect changes made to the site from the Portal Management app to the Power Pages design studio, select **Sync** in the upper-right corner of the screen.
 
 :::image type="content" source="media/tour-maker-studio/sync.png" alt-text="The design studio GUI with the sync button emphasized.":::
-
-## Other entry points to the Power Pages design studio
-
-The Power Pages design studio can be opened from the following entry points:
-
-- Power Pages creation experience
-
-- Editing an existing site from the Power Pages home page
-
-- Direct URL to the design studio of an existing site
 
 ## Next steps
 
