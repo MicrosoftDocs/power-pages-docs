@@ -34,6 +34,9 @@ In this tutorial, you learn how to:
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- Complete the [Add and design a page](tutorial-add-webpage.md) tutorial.
+- Complete the [Display data securely on pages](tutorial-display-data-securely.md) tutorial.
+- Complete the [Add a form to a page](tutorial-add-form-to-page.md) tutorial.
 
 > [!NOTE]
 > When creating an advanced form, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
@@ -240,4 +243,4 @@ We will need to use the code editor to add a [Liquid](../configure/liquid-overvi
 Advance to the next article to learn how to configure site authentication to allow users to sign in using Azure AD B2C.
 
 > [!div class="nextstepaction"]
-> [Next steps](tutorial-setup-site-authentication.md)
+> [Configure site authentication](tutorial-setup-site-authentication.md)

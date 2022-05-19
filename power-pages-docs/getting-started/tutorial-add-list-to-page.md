@@ -4,7 +4,7 @@ description: Learn how to add lists to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 5/13/2022
+ms.date: 5/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -25,6 +25,7 @@ In this tutorial, you learn how to:
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- Complete the [Add and design a page](tutorial-add-webpage.md) tutorial.
 
 ## Create a table
 

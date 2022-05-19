@@ -26,6 +26,8 @@ In this tutorial, you learn how to:
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- Complete the [Add and design a page](tutorial-add-webpage.md) tutorial.
+- Complete the [Add a list to a page](tutorial-add-list-to-page.md) tutorial.
 
 ## Create table permissions
 
@@ -130,9 +132,12 @@ We can also create our own custom web roles to further limit access to data and 
 
 1. Save the web role record.  
 
-1. Select **Related** and choose a few contacts.
+1. Select **Related** and choose **Contacts**. Select **Add existing contacts** choose a few contacts.
 
     :::image type="content" source="media/tutorial/add-contacts-webrole.png" alt-text="Add contacts to web role.":::
+
+    > ![NOTE]
+    > Site users are stored as Contacts records.
 
 1. Within the design studio on a list or a form, choose the permissions button and select a table permission, then assign the custom web role.
 
