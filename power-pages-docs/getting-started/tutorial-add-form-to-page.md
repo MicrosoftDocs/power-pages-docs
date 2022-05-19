@@ -31,6 +31,8 @@ In this tutorial, you learn how to:
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- Complete the [Add and design a page](tutorial-add-webpage.md) tutorial.
+- Complete the [Display data securely on pages](tutorial-display-data-securely.md) tutorial.
 
 ## Create a form
 
@@ -165,5 +167,5 @@ The form now has a code component linked to the field.
 
 Next, learn how to create a multi-step (advanced) form to your page.
 > [!div class="nextstepaction"]
-> [Next steps](tutorial-add-multi-step-form.md)
+> [Add a multi-step form to a page](tutorial-add-multi-step-form.md)
 

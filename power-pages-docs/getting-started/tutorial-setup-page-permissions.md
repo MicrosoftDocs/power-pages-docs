@@ -28,6 +28,8 @@ In this tutorial we are going to learn how to hide or show a page based on the w
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- Complete the [Add and design a page](tutorial-add-webpage.md) tutorial.
+- Complete the [Display data securely on pages](tutorial-display-data-securely.md) tutorial.
 
 ## Create page permission
 
@@ -76,5 +78,5 @@ In this tutorial we are going to learn how to hide or show a page based on the w
 
 Advance to the next article to learn how to upload your own custom CSS file to your site.
 > [!div class="nextstepaction"]
-> [Next steps](tutorial-add-custom-style.md)
+> [Add custom styling to your site](tutorial-add-custom-style.md)
 

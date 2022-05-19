@@ -4,14 +4,12 @@ description: Provides information about Microsoft forums where you can read and 
 author: nickdoelman
 ms.topic: conceptual
 ms.custom:
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: ndoelman
 ms.reviewer: nickdoelman
 ---
 
 # Power Pages community
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Community forums are a great resource where anyone can read and discuss topics with other Power Pages users.
 
