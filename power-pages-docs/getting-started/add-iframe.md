@@ -14,7 +14,7 @@ contributors:
 ---
 
 # Add an iframe
-<!--note from editor: An "iframe" is an HTML element and doesn't need special capitalization.-->
+
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Add an iframe component to your page to embed a page from any other website.

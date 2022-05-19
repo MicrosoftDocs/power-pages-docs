@@ -14,7 +14,7 @@ contributors:
 ---
 
 # Content snippets 
-<!--note from editor: This article isn't in the TOC.-->
+
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]

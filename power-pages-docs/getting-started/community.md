@@ -12,7 +12,7 @@ ms.reviewer: nickdoelman
 # Power Pages community
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-<!--note from editor: The following edits are all suggested. -->
+
 Community forums are a great resource where anyone can read and discuss topics with other Power Pages users.
 
 Join the discussion in the [Power Pages forum](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals). Before you post a new question, save time by searching the discussion forum to see whether your question has already been answered.

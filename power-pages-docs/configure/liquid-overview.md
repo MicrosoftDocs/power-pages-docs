@@ -17,7 +17,6 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 For detailed information on how to use Liquid on your site, go to [Liquid overview](/powerapps/maker/portals/liquid/liquid-overview) in the Power Apps documentation.

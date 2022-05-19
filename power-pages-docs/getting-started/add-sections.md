@@ -27,9 +27,9 @@ Use sections to define a structure for your page and arrange portal components. 
 
 1. Hover over any editable canvas area, and then select the plus sign (**+**).
 
-   You can then select between the following six section layout options.<!--note from editor: Alt text needs to describe these options.-->
+   You can then select between the following six section layout options.
 
-    :::image type="content" source="media/first-page/add-section-layout.png" alt-text="The six section layout options.":::
+    :::image type="content" source="media/first-page/add-section-layout.png" alt-text="The six section layout options; one column, two column, three column, one third left, one third right, and spacer.":::
 
 ## Editing a section
 

@@ -17,7 +17,6 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 For detailed information on how to use code components, go to [Use code components in portals](/powerapps/maker/portals/component-framework) in the Power Apps documentation.

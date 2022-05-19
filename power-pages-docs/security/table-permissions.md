@@ -60,7 +60,7 @@ In the **Table permissions** panel that appears, you can manage existing permiss
 
 ## Available access types
 
-The design studio<!--note from editor: Edit okay?--> shows four different **Access types**. Depending on the access type you choose, the selected table permission and privileges apply to the users from the selected roles for the following records.
+The design studio shows four different **Access types**. Depending on the access type you choose, the selected table permission and privileges apply to the users from the selected roles for the following records.
 
 - **Global access** - Applies the selected table permission and privileges to the users from the selected roles for *all records*.
 - **Contact access** - Applies the selected table permission and privileges to the users from the selected role *associated to the signed-in user*.
@@ -174,7 +174,7 @@ To add a child permission to an existing table permission:
 
 1. Select **Save**.
 
-To view, edit, deactivate/activate, or delete child permissions using portals Studio<!--note from editor: This should be "the design studio," yes?-->, follow the steps explained in the earlier section to [configure table permissions](#configure-table-permissions).
+To view, edit, deactivate/activate, or delete child permissions using the design studio, follow the steps explained in the earlier section to [configure table permissions](#configure-table-permissions).
 
 ## Additional considerations
 

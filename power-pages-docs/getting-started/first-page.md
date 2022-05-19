@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A page in Power Pages is a webpage, a document<!--note from editor: Not sure this is the right word here. A document has a different meaning. Can it say something like "a container for content"?--> that's identified by a unique URL in a website. A page is one of the core objects of the website; the parent and child relationships among pages build the hierarchy of a website.<!--note from editor: Suggested.-->
+A page in Power Pages is a webpage, a container for content that's identified by a unique URL in a website. A page is one of the core objects of the website; the parent and child relationships among pages build the hierarchy of a website.
 
 ## Create a page
 
@@ -27,7 +27,7 @@ A page in Power Pages is a webpage, a document<!--note from editor: Not sure thi
 
     - Selecting the **Add a page** icon in the **Main navigation** section adds a new page, which will also add a menu item to the default navigation of the site.
 
-        :::image type="content" source="media/first-page/add-page-navigation.png" alt-text="Adding a page within the design studio.":::<!--note here and line 36 - okay to use "design studio" instead of "maker studio"?-->
+        :::image type="content" source="media/first-page/add-page-navigation.png" alt-text="Adding a page within the design studio.":::
 
     - Selecting the **Add a page** icon in the **Other pages** section adds a new page, but won't add a link to the default navigation of the site.
 

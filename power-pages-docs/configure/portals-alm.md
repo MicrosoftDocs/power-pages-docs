@@ -19,7 +19,7 @@ Makers and pro developers can use the Microsoft Power Platform CLI to download P
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on using the CLI for application lifecycle management (ALM)<!--note from editor: Edit okay? ALM isn't defined anywhere else.-->, go to [Tutorial: Use Microsoft Power Platform CLI with portals](/power-apps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
+For detailed information on using the CLI for application lifecycle management (ALM), go to [Tutorial: Use Microsoft Power Platform CLI with portals](/power-apps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
 
 The Microsoft Power Platform CLI also supports [deployment profiles](/power-apps/maker/portals/power-apps-cli-tutorial#upload-the-changes-using-deployment-profile) to allow unique attributes to be applied to specific target environments.
 

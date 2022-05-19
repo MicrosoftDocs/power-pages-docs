@@ -18,9 +18,9 @@ contributors:
 
 ## Pages workspace
 
-- Buttons added in portals built with the CDS starter template can't be resized.
+- Buttons added in portals built with the starter template can't be resized.
 
-- You can't add a deleted header logo or text in the new maker studio<!--note from editor: Should this be "design studio"?-->.  If you need to delete these items, you'll need to do so in Portal 1.0.  Use the toggle in the command bar to return to Portal 1.0 and use the code editor to add the text or logo.
+- You can't add a deleted header logo or text in the new design studio.  If you need to delete these items, you'll need to do so in Portal 1.0.  Use the toggle in the command bar to return to Portal 1.0 and use the code editor to add the text or logo.
 
 - The code editor doesn't support editing header or footer code.
 
@@ -28,7 +28,7 @@ contributors:
 
 - Doesn't support Google Fonts due to privacy concerns.
 
-- The section padding/margin settings feature in the Styling workspace won't work for portals built on CDS starter templates.
+- The section padding/margin settings feature in the Styling workspace won't work for portals built on starter templates.
 
 ## Power Pages trial
 

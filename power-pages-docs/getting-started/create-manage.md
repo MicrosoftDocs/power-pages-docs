@@ -28,15 +28,15 @@ Power Pages provides you with a list of templates to choose from to quickly buil
 
 1. On the home page, select **Create a site**.
 
-    :::image type="content" source="media/default-template/create.png" alt-text="The maker studio GUI with the Create a site button selected.":::
+    :::image type="content" source="media/default-template/create.png" alt-text="The design studio GUI with the Create a site button selected.":::
 
 1. Select **Default design template**, and then select **Select template**.
 
-    :::image type="content" source="media/default-template/default-template.png" alt-text="The maker studio GUI with default template selected.":::
+    :::image type="content" source="media/default-template/default-template.png" alt-text="The design studio GUI with default template selected.":::
 
 1. Validate the default site name and web address that have been created, and then select **Done**.
 
-    :::image type="content" source="media/default-template/provision-site.png" alt-text="The maker studio with site provisioning options displayed.":::
+    :::image type="content" source="media/default-template/provision-site.png" alt-text="The design studio with site provisioning options displayed.":::
 
     > [!NOTE]
     > It might take a few moments for your new portal to be provisioned. You'll be able to modify the name and web address later.

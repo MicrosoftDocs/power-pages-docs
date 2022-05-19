@@ -32,7 +32,7 @@ You can configure table permissions on Dataverse tables used in your Power Pages
 
 ## Mobile
 
-You'll have the ability to learn more about progressive web apps (PWAs) using Power Pages.<!--note from editor: Not sure what "You'll have the ability" means. Could it be "In this section, you'll learn more about..."? Also, "using" is ambiguous here. Should it be "by using Power Pages" or "built by using Power Pages," or "that use Power Pages"? -->
+You'll be able to learn more about progressive web apps (PWAs) using Power Pages.
 
 ## Administration
 
