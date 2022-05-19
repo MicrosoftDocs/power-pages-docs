@@ -28,6 +28,7 @@ In this tutorial, you learn how to:
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- Complete the [Add and design a page](tutorial-add-webpage.md) tutorial.
 - A png file of your corporate logo (64 x 64 pixels).
 - A list of the hex codes for your corporate color palette.
 - A list of your corporate font standards.
@@ -56,8 +57,6 @@ You can update the color palette to incorporate two or three primary brand color
 
 1. Select **Save changes**.
 
-    :::image type="content" source="media/tutorial/save-changes.png" alt-text="Save changes button.":::
- 
 ## Set up your corporate brand fonts
 
 1. Inside the design studio, go to the styling workspace and scroll down to define the font types for headers, subheaders, paragraphs, and buttons.
@@ -67,8 +66,6 @@ You can update the color palette to incorporate two or three primary brand color
 1. You can also adjust the sizes and colors for each based on your color palette. Any updates you make are immediately reflected on your site.
 
 1. Select **Save changes** to update your styling.  
-
-    :::image type="content" source="media/tutorial/save-changes.png" alt-text="The save changes button.":::
 
     - The theme you updated will have a modified label.<br>
 

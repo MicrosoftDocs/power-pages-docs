@@ -4,7 +4,7 @@ description: Assign table permissions to web roles.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/27/2022
+ms.date: 05/19/2022
 ms.author: ndoelman
 ms.reviewer:
 contributors:
@@ -16,15 +16,26 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+Table permissions are assigned to [web roles](create-web-roles.md) to allow members of the web role access to data stored in Dataverse [tables](../configure/data-workspace-tables.md).
 
-Assignment of the table permissions is done through the [Portal Management app](../configure/portal-management-app.md). 
+1. Using the [design studio](../getting-started/use-design-studio.md), select **Setup** workspace.
 
-To access the Portal Management app, in design studio, select the ellipsis (**...**) from the toolbelt and select **Portal Management**.
+1. In the **Security** section, select **Table permissions**.
 
-:::image type="content" source="media/table-permissions/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
+1. Select the table permission you want to assign for a web role.
 
-For detailed information, go to [Assign table permissions](/power-apps/maker/portals/configure/assign-entity-permissions) in the Power Apps documentation.
+1. In the **Roles** section, select **+ Add roles** and choose the roles you wish to assign to the table permission. You can select multiple roles.
+
+    :::image type="content" source="media/table-permissions/assign-web-role.png" alt-text="Adding web roles to the specific table permission.":::
+
+1. Select **Save**.
+
+1. If the web role doesn't appear, select **Manage roles** to open the [Portal Management app](../configure/portal-management-app.md) to create web roles.
+
+    > [!NOTE]
+    > Once you have created the web role, select **Sync** in the design studio and refresh your browser to view your new roles in the table permissions side panel.
+
+More information on creating web roles and assigning site users (contacts), go to: [Create web roles](create-web-roles.md).
 
 ### See also
 

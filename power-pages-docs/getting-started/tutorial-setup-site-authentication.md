@@ -30,7 +30,7 @@ In this tutorial, you learn how to:
 
 ## Configure authorized access to your site
 
-Setting up an external authentication provider will allow you to provide access to your site and provide the mechanism for end users to be able to reset theier passwords and other information without administrator intervention.
+Setting up an external authentication provider will allow you to provide access to your site and provide the mechanism for end users to be able to reset their passwords and other information without administrator intervention.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -41,7 +41,6 @@ Setting up an external authentication provider will allow you to provide access 
 1. Select **Configure**.
 
     - Ensure **Azure Active Directory B2C** is selected and then choose **Next**.
-
     :::image type="content" source="media/tutorial/azure-b2c.png" alt-text="Select a login provider.":::
 
 1. Fill in the details.
@@ -50,7 +49,6 @@ Setting up an external authentication provider will allow you to provide access 
     - Create a resource group.
     - Select a country.
     - Select **Next**.
-
     :::image type="content" source="media/tutorial/resource-group.png" alt-text="Enter details to configure identity provider.":::
 
 1. Confirm the defaults and then select **Next**.

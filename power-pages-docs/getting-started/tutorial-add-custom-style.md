@@ -1,10 +1,10 @@
 ---
 title: "Tutorial: Add custom CSS to your site"
-description: Learn how to add custom CSS to your Power Pages.
+description: Learn how to add custom CSS to your Power Pages sites.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/18/2022
+ms.date: 05/25/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -12,7 +12,7 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
 ---
-# Tutorial: Add custom CSS to your site 
+# Tutorial: Add custom CSS to your site
 
 The [style workspace](tutorial-style-site.md) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.  
 
@@ -81,4 +81,4 @@ In this tutorial, you learn how to:
 1. Select **Preview** to view the custom theme on your site.
 
 > [!NOTE]
-> To remove the custom theme; delete or de-active the web file record in the Portal Management app.
+> To remove the custom theme; delete or de-activate the web file record in the [Portal Management app](../configure/portal-management-app.md).
