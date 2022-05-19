@@ -17,11 +17,13 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-In order for authenticated users to be given access to [table permissions](table-permissions.md) or [restricted pages](page-security.md), they must first be assigned to a web role.
+Before you grant authenticated users access to [table permissions](table-permissions.md) or [restricted pages](page-security.md), they must first be assigned to a web role.
 
-Configuration and assignment of web roles is done through the [Portal Management app](../configure/portal-management-app.md). 
+Configure and assign web roles using the [Portal Management app](../configure/portal-management-app.md). 
 
-1. To access the Portal Management app, in the design studio, select the ellipsis (**...**) from the toolbelt, and then select **Portal Management**.
+1. To access the Portal Management app, navigate to the design studio. 
+
+1. Select the ellipsis (**...**) from the tool belt, and then select **Portal Management**.
 
     :::image type="content" source="media/table-permissions/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
 
@@ -37,21 +39,28 @@ Configuration and assignment of web roles is done through the [Portal Management
 
 ## Attributes and relationships
 
-The table below explains the Web Role attributes used by portals.
+The table below explains the web role attributes used by portals.
 
 | Name                     | Description                                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name                     | The descriptive name of the Web Role                                                                                                                                                                                                            |
+| Name                     | The descriptive name of the web role                                                                                                                                                                                                            |
 | Website                  | The associated website                                                                                                                                                                                                                          |
-| Description              | An explanation of the Web Role's purpose. Optional.                                                                                                                                                                                             |
-| Authenticated Users Role | Boolean. If set to true, this will be the default web role for authenticated users (see below). Only one Web Role with the Authenticated Users Role attribute set to true should exist for a given website. All authenticated user automatically get permissions defined in this role. |
-| Anonymous Users Role     | Boolean. If set to true, this will be the default web role for unauthenticated users (see below). Only one Web Role with the Anonymous Users Role attribute set to true should exist for a given website. This will be the default web role for unauthenticated users. The Anonymous Users Role will only respect table permissions.| 
+| Description              | An optional explanation of the web role's purpose.                                                                                                                                                                                            |
+| Authenticated Users Role | Boolean. If set to true, this web role is the default for authenticated users (see below). Websites should only have one web role with the *Authenticated Users Role* attribute set to true. 
+| Anonymous Users Role     | Boolean. If set to true, this web role is the default for unauthenticated users (see below). Websites should only have one Web Role with the *Anonymous Users Role* attribute set to true. The *Anonymous Users Role* will only respect table permissions.| 
 || 
 
-Now that the Web Role has been created, you will be able to configure it to meet your needs via various permissions, rules, and associations.
+### Optional default web roles
 
-- **Optional default web role for authenticated users**: By enabling the **Authenticated Users Role**, it will become the default web role for all users. This role is commonly used to provide a predetermined access for users that are not associated to any other roles. Keep in mind that users can have multiple web roles, but there can only be one Authenticated Users web role for authenticated users.
-- **Optional default web role for unauthenticated users**: The **Anonymous Users Role** is intended to be used with table permissions. It will not respect any other rules or permissions. By enabling the "Anonymous Users Role" it will become the default web role for all users. There can only be one Anonymous Users web role for unauthenticated users.
+Now that the web role has been created, you can configure it to meet your needs via various permissions, rules, and associations.
+
+#### Authenticated users
+
+Enabling the **Authenticated Users Role** makes it the default web role for all users. This role is commonly used to provide a predetermined access for users that aren't associated to any other roles. Keep in mind that users can have multiple web roles, but there can only be one Authenticated Users web role for authenticated users.
+
+#### Unauthenticated users
+
+The **Anonymous Users Role** is intended to be used with table permissions. It will not respect any other rules or permissions. Enabling the *Anonymous Users Role* makes it the default web role for all users. There can only be one Anonymous Users web role for unauthenticated users.
 
 ## Assign users to web roles
 
@@ -73,7 +82,7 @@ You can assign site users to web roles from either the contact record or the web
 
     :::image type="content" source="media/web-role/assign-users.png" alt-text="Assign users to a web role.":::
 
-1. The users now have access to the resources specified by the web role.
+The users now have access to the resources specified by the web role.
 
 ### From the contact
 
@@ -89,7 +98,7 @@ You can assign site users to web roles from either the contact record or the web
 
 1. From the side panel, search and select the web roles you want to assign to the contact (site user).
 
-1. The site users now have access to the resources specified by the web role.
+The site users now have access to the resources specified by the web role.
 
 ### See also
 
