@@ -4,7 +4,7 @@ description: Learn how to add buttons to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/03/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -21,7 +21,7 @@ Use a button to provide an interactive area to redirect the user to.
 
 To add a button:
 
-1. Open the [design studio](/powerapps/maker/portals/portal-designer-anatomy) to edit the content and components of the portal.
+1. Open the [design studio](use-design-studio.md) to edit the content and components of the portal.
 
 1. Select the page you want to edit.
 

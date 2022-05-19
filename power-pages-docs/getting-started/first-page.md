@@ -4,7 +4,7 @@ description: Learn how to create Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/03/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -20,6 +20,8 @@ contributors:
 A page in Power Pages is a webpage, a container for content that's identified by a unique URL in a website. A page is one of the core objects of the website; the parent and child relationships among pages build the hierarchy of a website.
 
 ## Create a page
+
+The **Pages** workspace enables you to design and build webpages with in-context editing and add content with no-code and low-code widgets such as text, image, video, Power BI reports, lists, forms, and others.
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your Power Pages site.
 
@@ -43,7 +45,7 @@ A page in Power Pages is a webpage, a container for content that's identified by
 
 ## Preview a page
 
-You can preview your site by selecting **Preview** from the command bar. Select **Desktop** to preview your page in a browser, or scan the QR code with a mobile app to view the page on a mobile device.
+You can preview your site by selecting **Preview** from the command bar. Select **Desktop** to preview your page in a browser, or scan the QR code to view the page on a mobile device.
 
 :::image type="content" source="media/first-page/preview-page.png" alt-text="Preview a page from the design studio.":::
 
