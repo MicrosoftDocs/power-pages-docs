@@ -1,6 +1,6 @@
 ---
 title: Default template
-description: template
+description: The Default template provides basic building blocks for you creating custom pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -15,9 +15,9 @@ contributors:
 
 # Default template
 
-The Default template provides basic building blocks for you to create custom pages. The simple navigation is an easily updated page and subpage structure, with common pages already created for you to use as-is or modify to meet you specific needs.
+The Default template provides basic building blocks for you to create custom pages. The simple navigation is an easily updated page and subpage structure, with common pages already created for you to use as-is or modify to meet your specific needs.
 
-:::image type="content" source="media/default.png" alt-text="The default template landing page inside design studio.":::
+:::image type="content" source="media/default.png" alt-text="The default template landing page inside the design studio.":::
 
 ## Makers
 
@@ -33,7 +33,7 @@ The following are the customizable tables, basic forms, lists, and code componen
 
 Modify the page structure, change text, and add components using the drag-and-drop page builder.  
 
-#### See also 
+### See also 
 
-- [Tutorial: Add a page to your Power Pages site](../getting-started/tutorial-add-webpage.md)
-- [Create and design pages](../getting-started/first-page.md)
+[Tutorial: Add a page to your Power Pages site](../getting-started/tutorial-add-webpage.md)  
+[Create and design pages](../getting-started/first-page.md)

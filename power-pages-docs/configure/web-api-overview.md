@@ -18,5 +18,5 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on the Portals web API, go to [Portals web API overview](/powerapps/maker/portals/web-api-overview) in the Power Apps documentation.
+For detailed information on the portals Web API, go to [Portals Web API overview](/powerapps/maker/portals/web-api-overview) in the Power Apps documentation.
 

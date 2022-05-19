@@ -1,5 +1,5 @@
 ---
-title: Customize web pages
+title: Customize webpages
 description: Learn how to customize Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
@@ -13,15 +13,13 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Customize web pages
+# Customize webpages
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Design studio page editor
 
-After adding the required webpages and managing their hierarchy in the sitemap, you can add various components. The WYSIWYG (What You See Is What You Get) editor is part of the Pages workspace.
-
-The editor allows you to add and edit the required components within the canvas.
+After adding the webpages you need and managing their hierarchy in the site map, you can add various components. The WYSIWYG design studio page editor is part of the Pages workspace. You can use the editor to add and edit the components you need within the canvas.
 
 ### Using the editor
 
@@ -29,25 +27,26 @@ To use the editor:
 
 1. Open the [design studio](/getting-started/use-design-studio.md) to edit the content and components of the portal.
 
-1. Navigate to the **Pages** workspace.
+1. Go to the **Pages** workspace.
 
 1. Select the page where you'd like to add the component or section.
 
-1. To add a section, hover to any editable section area and choose the + icon. You can then select between six section layout options.
+1. To add a section, hover over any editable section area, and then select the plus sign (**+**). You can then choose between six section layout options.
 
     :::image type="content" source="media/first-page/add-section-layout.png" alt-text="Add a section layout.":::
 
-1. To add a component, hover on the intended section where you would like the component to be and select the + icon. You can then choose between the available components.  
+1. To add a component, hover over the section where you'd like to place the component, and then select **+**. You can then choose between the available components.  
 
     :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
-1. To delete a component, choose the component on the canvas and then select delete.
+1. To delete a component, choose the component on the canvas and then select **Delete**.
 
-For a more immersive editing experience, maker can utilize full screen editing mode by clicking the double arrow icon on the top right-hand corner of the WYSISYG editor.
+For a more immersive editing experience, you can use the full-screen editing mode by selecting the double arrow icon in the upper-right corner of the editor.
 
-All sections and components allow for in-context editing.  This allows you to edit any section or component directly from the canvas.
+All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 
-## See Also
+### See also
+
 [Add text](add-text.md)<br>
 [Add button](add-button.md)<br>
 [Add image](add-image.md)<br>

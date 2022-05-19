@@ -1,5 +1,5 @@
 ---
-title: Content snippets
+title: Content snippets in Power Pages
 description: Learn how to customize your content using content snippets.
 author: nickdoelman
 ms.topic: conceptual
@@ -20,7 +20,5 @@ contributors:
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 For detailed information on how to customize your content using content snippets, go to [Customize content by using content snippets](/powerapps/maker/portals/configure/customize-content-snippets) in the Power Apps documentation.
-
-
 
 

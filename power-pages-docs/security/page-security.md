@@ -1,6 +1,6 @@
 ---
-title: Page permissions
-description: Learn how to secure your web pages using page permissions.
+title: Page permissions in Power Pages
+description: Learn how to secure your webpages by using page permissions.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -18,20 +18,20 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-Page permissions allow you to restrict access to a web page and related child pages.
+Use page permissions to restrict access to a webpage and related child pages.
 
-For creating and modifying page permissions in Power Pages, you will use the Portal Management app.
+For creating and modifying page permissions in Power Pages, you'll use the Portal Management app.
 
-## Launch the Portal Management app
+## Open the Portal Management app
 
-In design studio, select the ellipses (**...**) from the toolbelt and select **Portal Management**.
+In the design studio, select the ellipsis (**...**) from the toolbelt, and then select **Portal Management**.
 
-:::image type="content" source="../configure/media/portals-management-app/launch-portals-management-app.png" alt-text="Launch Portal Management app.":::
+:::image type="content" source="../configure/media/portals-management-app/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
 
 ## Create and manage page permissions
 
 For detailed information, go to [Manage page permissions](/power-apps/maker/portals/configure/webpage-access-control) in the Power Apps documentation.
 
-## See Also
+### See also
 
-[Tutorial: Setup page permissions](../getting-started/tutorial-setup-page-permissions.md)<br>
+[Tutorial: Set up page permissions](../getting-started/tutorial-setup-page-permissions.md)<br>

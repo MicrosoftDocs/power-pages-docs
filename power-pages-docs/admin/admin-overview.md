@@ -18,11 +18,11 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-The Power Pages admin center provides administrators administrators various capabilities.
+Power Pages uses the Power Apps portals admin center to provide administrators with various capabilities.
 
 1. To access the admin center, from the design studio, select the **Setup** workspace.
 
-1. In the **Administration** section, select either **Site details** or **Admin Settings** and then select **Go to the admin center**.
+1. In the **Administration** section, select either **Site details** or **Admin settings**, and then select **Go to the admin center**.
 
     :::image type="content" source="media/admin-center.png" alt-text="Navigating to the Power Pages admin center.":::
 

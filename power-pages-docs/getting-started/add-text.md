@@ -1,6 +1,6 @@
 ---
 title: Add text
-description: Learn how to add text to your Power Pages.
+description: Learn how to add text to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -13,36 +13,36 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Text
+# Add text
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A text box component allows you to add text to your page.
+Use a text box component to add text to your page.
 
 ## Adding a text component:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
-1. Select the page you would like to edit.
+1. Select the page you want to edit.
 
-1. Select the section which you would like to add the text component.
+1. Select the section you want to add the text component to.
 
-1. Hover to any editable canvas area and select the click the **Text** icon.
+1. Hover over any editable canvas area, and then select the **Text** icon.
 
     :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
 
-1. You can begin to enter in your custom text into the box.
+1. Enter your custom text in the box.
 
     :::image type="content" source="media/first-page/add-text.png" alt-text="Adding text to a page.":::
 
 ## Editing a text control
 
-Once a text control is added, selecting the text control will open the properties bar and allow you to configure the following:  
+After a text control is added, selecting the text control will open the properties bar so you can configure the following. 
 
 | Property | Description |
 | ----------- | ----------- |
-| Style | Allows you to choose the following text styles for the text box:<br><br>Title<br>Heading 1<br>Heading 2<br>Heading 3<br>Subheading 1<br>Subheading 2<br>Paragraph<br>Small text<br> |
-| Format | Allows you style the selected text to **bold**, *italics*, or <u>underlined</u>. |
-| Alignment | Allows you to align the text in the component. |
-| Color | Allows selection of text color based on defined color palette. |
-| Others | Options to duplicate the section, move it up/down within the page, or to delete the text component entirely. |
+| Style | Choose the following text styles for the text box:<br><br>Title<br>Heading 1<br>Heading 2<br>Heading 3<br>Subheading 1<br>Subheading 2<br>Paragraph<br>Small text<br> |
+| Format | Style the selected text as **bold**, *italics*, or <u>underlined</u>. |
+| Alignment | Align the text in the component. |
+| Color | Select the text color based on the defined color palette. |
+| Others | Choose an option to duplicate the section, move it up or down within the page, or delete the text component entirely. |

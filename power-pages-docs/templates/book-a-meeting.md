@@ -15,17 +15,17 @@ contributors:
 
 # Book a Meeting template
 
-Book a meeting is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative.  The scheduling principle will apply to any industry or organization looking to stand up a scheduling portal.
+Book a Meeting is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative. The scheduling principle will apply to any industry or organization looking to stand up a scheduling portal.
 
-:::image type="content" source="media/meeting.png" alt-text="The Book a Meeting landing page in design studio."::: 
+:::image type="content" source="media/meeting.png" alt-text="The Book a Meeting landing page in the design studio."::: 
 
 ## Users
 
-There are two key users that the template is designed for:
+The template is designed for two key users:
 
-- The banking customer is trying to book an appointment with the bank representative.
+- The banking customer who wants to book an appointment with the bank representative.
 
-- The bank representative who is looking at the list of appointments and managing their calendars and appointments.
+- The bank representative who's looking at the list of appointments and managing their calendars and appointments.
 
 ### Bank customers
 
@@ -46,7 +46,7 @@ As a bank representative, you can do the following seamlessly:
 
 ## Makers
 
-Makers are able to use the [design studio](../getting-started/use-design-studio.md)  to modify the template for specific needs.
+Makers are able to use the [design studio](../getting-started/use-design-studio.md) to modify the template for specific needs.
 
 The following are the pages, basic forms, and customizable tables provided in the template.
 
@@ -54,7 +54,7 @@ The following are the pages, basic forms, and customizable tables provided in th
 
 #### Customer pages
 
-The following pages are utilized by **Bank Customers**:
+The following pages are used by bank customers.
 
 |Page|Description|
 |---------|---------|
@@ -67,7 +67,7 @@ The following pages are utilized by **Bank Customers**:
 
 #### Admin pages
 
-The following pages are utilized by **Bank Representatives**:
+The following pages are used by bank representatives.
 
 
 |Page|Description|
@@ -75,19 +75,19 @@ The following pages are utilized by **Bank Representatives**:
 |C1 Home|Sign in to view schedule of appointments by day or by week.|
 |C1 Specialties|Select specialties that bank customers can schedule an appointment to discuss.|
 |C1 Cancel Appointment|Cancel an appointment with a customer.|
-|C1 Edit Appointment|Edit appointment with customer.|
+|C1 Edit Appointment|Edit an appointment with a customer.|
 |C1 Edit Unavailability|Edit availability to meet with customers.|
 |C1 Reschedule Appointment|Reschedule a previously booked appointment with a customer.|
 |Create Unavailability|Create unavailability via a calendar block.|
-|Profile|Details about bank representative, such as specialties.|
+|Profile|Details about a bank representative, such as specialties.|
 |getAllAppointments|Query for a bank representative to retrieve all appointments.|
-|Access Denied|Displays if bank representative doesn't have access.|
-|Page Not Found|Displays if user's search criteria isn't matched.|
+|Access Denied|Displayed when a bank representative doesn't have access.|
+|Page Not Found|Displayed when the user's search criteria isn't matched.|
 
 
 ### Forms and tables
 
-The template uses the following forms linked to Dataverse tables:
+The template uses the following forms linked to Dataverse tables.
 
 | Table                 | Table form name*        | Page form name**        |
 |---------------------------|----------------------------|---------------------------|
@@ -114,7 +114,7 @@ The template uses the following forms linked to Dataverse tables:
 
 | **Table display name** | **Schema name**           | **Description**                                                                                 |
 |------------------------|---------------------------|-------------------------------------------------------------------------------------------------|
-| Appointment            | appointment               | Scheduling for bank representatives.                                                            |
+| Appointment            | Appointment               | Scheduling for bank representatives.                                                            |
 | AppointmentRequest     | msdyn\_appointmentrequest | Capture appointment request and actions (canceling, editing appointment) for customers.         |
 | Contact                | contact                   | Capture contact information of bank representative.                                             |
 | Feedback               | feedback                  | Capture feedback from customer.                                                                 |
@@ -122,4 +122,4 @@ The template uses the following forms linked to Dataverse tables:
 
 ## Professional developers
 
-This template includes custom code and has been styled to follow best-in-class UX patterns.  For custom code editing, use the [**Power Platform CLI**](../configure/cli-tutorial.md) to download the site metadata and **Visual Studio Code** to view and modify the source code.
+This template includes custom code and has been styled to follow best-in-class UX patterns. For custom code editing, use the [Microsoft Power Platform CLI](../configure/cli-tutorial.md) to download the site metadata, and use Visual Studio Code to view and modify the source code.

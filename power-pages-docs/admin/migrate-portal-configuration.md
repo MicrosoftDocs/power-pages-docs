@@ -1,5 +1,5 @@
 ---
-title: Migrate portal configuration
+title: Migrate configuration in Power Pages
 description: Learn how to migrate your portal configuration from development to testing or production environments.
 author: nickdoelman
 
@@ -13,10 +13,10 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Migrate portal configuration
+# Migrate site configuration
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on how to migrate your portal configuration, go to [Migrate portal configuration](/powerapps/maker/portals/admin/migrate-portal-configuration) in the Power Apps documentation.
+For detailed information on how to migrate your site configuration, go to [Migrate portal configuration](/powerapps/maker/portals/admin/migrate-portal-configuration) in the Power Apps documentation.
