@@ -23,7 +23,7 @@ Configuration and assignment of web roles is done through the [Portal Management
 
 1. To access the Portal Management app, in the design studio, select the ellipsis (**...**) from the toolbelt, and then select **Portal Management**.
 
-:::image type="content" source="media/table-permissions/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
+    :::image type="content" source="media/table-permissions/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
 
 1. Select **Web Roles** in the **Security** section.
 
