@@ -4,7 +4,7 @@ description: Learn about the After School template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/28/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -15,7 +15,7 @@ contributors:
 
 # After School template
 
-The After School Program template is designed to show you the capabilities of a registration portal application. We've chosen the example of registering for after school classes. This template might be useful for any industry or organization wishing to create a registration portal.
+The After School Program template is designed to show you the capabilities of a registration site. We've chosen the example of registering for after school classes. This template might be useful for any industry or organization wishing to create a registration portal.
 
 :::image type="content" source="media/school.png" alt-text="The After School template landing page.":::
 
@@ -51,7 +51,7 @@ As a representative of the school, you can:
 
 Makers are able to use the [design studio](../getting-started/use-design-studio.md) to modify the template for specific needs.
 
-The following are the pages, basic forms, and customizable tables provided in the template.
+The following are the pages, basic forms, and customizable tables provided in the template. These can be modified to align with your specific project needs.
 
 ### Pages
 
