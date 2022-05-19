@@ -5,7 +5,7 @@ author: nickdoelman
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/27/2022
+ms.date: 05/24/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -17,11 +17,11 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-As you build your site, you likely want to control access both to pages and data to specific users. Power Pages uses Dataverse contact records to associate to authenticated Power Pages site users.
+As you build your site, you likely want to control access both to pages and data to specific users. Power Pages uses Microsoft Dataverse contact records to associate to authenticated Power Pages site users.
 
 :::image type="content" source="media/configure-authentication/login-page.png" alt-text="A Power Pages sign-in page.":::
 
-For detailed information on how to configure Power Pages site authentication, go to [Overview of authentication in Power Apps portals](/powerapps/maker/portals/configure/configure-portal-authentication) in the Power Apps documentation.
+Power Pages uses Power Apps portals authentication capabilities. For detailed information on how to configure Power Pages site authentication, go to [Overview of authentication in Power Apps portals](/powerapps/maker/portals/configure/configure-portal-authentication) in the Power Apps portals documentation.
 
 ### See also
 
