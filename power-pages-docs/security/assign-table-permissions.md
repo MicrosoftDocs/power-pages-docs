@@ -33,7 +33,7 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
     >[!NOTE]
     >Once you have created the web role, you will need to select **Sync** in the design studio as well as refresh your browser to view your new roles in table permissions side panel.
 
-Assignment of the table permissions is done through the [Portal Management app](../configure/portal-management-app.md). 
+More information on creating web roles and assigning site users (contacts), go to: [Create web roles](create-web-roles.md).
 
 ### See also
 
