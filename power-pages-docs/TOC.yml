@@ -1,32 +1,27 @@
 - name: Power Pages documentation
   href: index.yml
 - name: Overview
-  items:
+  items: 
   - name: What is Power Pages
     href: introduction.md
   - name: Power Pages capabilities
-  # EDITOR COMMENT: Change ^^ to "What can Power Pages do" or "Why use Power Pages."
     href: capabilities.md
   - name: Power Pages and Power Apps portals
-  # EDITOR COMMENT: Change ^^ to "Difference between Power Pages and Power Apps portals."
-    href: difference-portals.md
+    href: difference-portals.md          
 - name:  Try Power Pages
-  items:
+  items: 
     - name: Sign up for a trial
       href: getting-started/trial-signup.md
     - name: Trial FAQs
       href: getting-started/trial-faq.md
 - name: Get started
-# EDITOR COMMENT: Change ^^ to "Get started with Power Pages."
   items:
     - name: Create your first site
-      href: getting-started/create-manage.md
+      href: getting-started/create-manage.md             
     - name: Get started with design studio
-    # EDITOR COMMENT: Change ^^ to "Edit or preview your site."
       href: getting-started/use-design-studio.md
     - name: Templates
-    # EDITOR COMMENT: Change ^^ to "Create Power Pages sites using templates" and move it under "Create your first site."
-      items:
+      items:  
         - name: Create sites using templates
           href: templates/index.md
         - name: Default template
@@ -34,28 +29,21 @@
         - name: After School template
           href: templates/after-school.md
         - name: Book a Meeting template
-          href: templates/book-a-meeting.md
+          href: templates/book-a-meeting.md      
     - name: Manage sites
-    # EDITOR COMMENT: Change ^^ to "Manage your site"
-      href: admin/manage-sites.md
+      href: admin/manage-sites.md           
     - name: Learning hub
-    # EDITOR COMMENT: Change ^^ to "Learn about Power Pages."
-      href: getting-started/use-learnhub.md
+      href: getting-started/use-learnhub.md 
     - name: Power Pages community
-    # EDITOR COMMENT: Change ^^ to "Connect with the Power Pages community."
       href: getting-started/community.md
-    - name: Planning your Power Pages project
-    # EDITOR COMMENT: Change ^^ to "Plan your Power Pages site" and move above "Create your first site."
-      href: configure/planning-power-pages-project.md
-- name: Design and build
-# EDITOR COMMENT: Change ^^ to "Design and build with Power Pages."
+    - name: Plan your Power Pages project
+      href: configure/planning-power-pages-project.md       
+- name: Design and build 
   items:
   - name: Dataverse and Power Pages
-  # EDITOR COMMENT: Move under "Use the Data workspace."
     href: getting-started/what-is-dataverse.md
   - name: Use Pages workspace
-  # EDITOR COMMENT: Change ^^ to "Work with pages."
-    items:
+    items:  
       - name: Create and design pages
         href: getting-started/first-page.md
       - name: Customize pages
@@ -65,44 +53,32 @@
           - name: Add sections
             href: getting-started/add-sections.md
           - name: Add text
-            href: getting-started/add-text.md
+            href: getting-started/add-text.md         
           - name: Add button
-          # EDITOR COMMENT: Change ^^ to "Add a button."
             href: getting-started/add-button.md
           - name: Add image
-          # EDITOR COMMENT: Change ^^ to "Add an image."
             href: getting-started/add-image.md
           - name: Add video
-          # EDITOR COMMENT: Change ^^ to "Add a video."
             href: getting-started/add-video.md
-          - name: Add spacer
-          # EDITOR COMMENT: Change ^^ to "Add a spacer."
-            href: getting-started/add-spacer.md
+          - name: Add spacer 
+            href: getting-started/add-spacer.md                                    
           - name: Add Power BI
-          # EDITOR COMMENT: Change ^^ to "Add a Power BI component."
             href: getting-started/add-power-bi.md
           - name: Add list
-          # EDITOR COMMENT: Change ^^ to "Add a list."
             href: getting-started/add-list.md
           - name: Add form
-          # EDITOR COMMENT: Change ^^ to "Add a form."
             href: getting-started/add-form.md
           - name: Add iFrame
-          # EDITOR COMMENT: Change ^^ to "Add an iFrame."
-            href: getting-started/add-iframe.md
+            href: getting-started/add-iframe.md            
           - name: Add advanced forms
             href: getting-started/advanced-forms.md
       - name: Use code editor
-      # EDITOR COMMENT: Change ^^ to "Use the code editor."
         href: getting-started/code-editor.md
       - name: Structure your site map
-      # EDITOR COMMENT: Change ^^ to "Structure your site."
-        href: getting-started/structure-site.md
+        href: getting-started/structure-site.md                    
   - name: Use the Style Workspace
-  # EDITOR COMMENT: Change ^^ to "Style your pages."
     href: getting-started/style-site.md
   - name: Use the Data workspace
-  # EDITOR COMMENT: Change ^^ to "Access organizational data."
     items:
       - name: Data workspace overview
         href: getting-started/use-data-workspace.md
@@ -111,98 +87,77 @@
       - name: Create and modify views
         href: configure/data-workspace-views.md
       - name: Create and modify forms
-        href: configure/data-workspace-forms.md
+        href: configure/data-workspace-forms.md                    
   - name: Use Setup workspace
-  # EDITOR COMMENT: Change ^^ to "Modify your site settings."
     href: configure/setup-workspace.md
 - name: Administer Power Pages
-  items:
+  items:   
     - name: Using the portals admin center
-    # EDITOR COMMENT: Change ^^ to "Use the admit center."
       href: admin/admin-overview.md
     - name: Capacity consumption reports
-    # EDITOR COMMENT: Change ^^ to "Monitor capacity consumption."
       href: admin/portal-consumption-reports.md
-    - name: Update solution
-    # EDITOR COMMENT: Change ^^ to "Update your site software."
+    - name: Update solution 
       href: admin/update-portal-solution.md
-    - name: View error log
-    # EDITOR COMMENT: Change ^^ to "Troubleshoot with error logs."
+    - name: View error log 
       href: admin/view-portal-error-log.md
-    - name: Compliance and privacy
-      href: admin/compliance-privacy.md
-    - name: Governance
-      href: admin/coe-portals.md
+    - name: Compliance and privacy 
+      href: admin/compliance-privacy.md        
+    - name: Governance 
+      href: admin/coe-portals.md            
 - name: Configure Power Pages
   items:
     - name: Portal Management app overview
-    # EDITOR COMMENT: Change ^^ to "Use the Portal Management app."
       href: configure/portal-management-app.md
     - name: Advanced configuration
-    # EDITOR COMMENT: Change ^^ to "Configure advanced features."
       href: configure/advanced-config.md
 - name: Customize and extend Power Pages
-# EDITOR COMMENT: Change ^^ to "Extend Power Pages with pro tools."
   items:
     - name: Use Visual Studio Code and Power Platform CLI
-    # EDITOR COMMENT: Change ^^ to "Use VS Code and the Power Platform CLI."
-      href: configure/cli-tutorial.md
+      href: configure/cli-tutorial.md   
     - name: Web templates
-    # EDITOR COMMENT: Change ^^ to "Use Web Templates."
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
-    # EDITOR COMMENT: Change ^^ to "Use the portals Web API."
       href: configure/web-api-overview.md
     - name: Component framework
-    # EDITOR COMMENT: Change ^^ to "Use code components."
       href: configure/component-framework.md
     - name: Liquid overview
-    # EDITOR COMMENT: Change ^^ to "Use Liquid."
       href: configure/liquid-overview.md
     - name: Overview of portals ALM
-    # EDITOR COMMENT: Change ^^ to "ALM in Power Pages."
-      href: configure/portals-alm.md
+      href: configure/portals-alm.md                  
 - name: Secure Power Pages
   items:
     - name: Power Pages security
-      href: security/power-pages-security.md
+      href: security/power-pages-security.md  
     - name: Configure authentication
       href: security/configure-portal-authentication.md
     - name: Providing external access
-    # EDITOR COMMENT: Change ^^ to "Allow external access."
-      href: security/external-access.md
-    - name: Configure web roles
+      href: security/external-access.md         
+    - name: Configure web roles 
       href: security/create-web-roles.md
     - name: Page security
-    # EDITOR COMMENT: Change ^^ to "Configure page permissions."
       href: security/page-security.md
     - name: Configure table permissions
       href: security/table-permissions.md
     - name: Assign table permissions
-      href: security/assign-table-permissions.md
-- name: Go live
-# EDITOR COMMENT: Change ^^ to "Launch your site."
-  items:
+      href: security/assign-table-permissions.md      
+- name: Go live 
+  items: 
     - name: Go live checklist
-    # EDITOR COMMENT: Change ^^ to "Pre-launch checklist."
       href: go-live/checklist.md
     - name: Licensing
-    # EDITOR COMMENT: Change ^^ to "Assign licenses."
-      href: go-live/assign-licensing.md
+      href: go-live/assign-licensing.md      
 - name: Tutorials
   items:
   - name: Tutorial Overview
     href: getting-started/tutorial-overview.md
   - name: "Tutorial: Add and design a page"
     href: getting-started/tutorial-add-webpage.md
-  - name: "Tutorial: Style your site"
+  - name: "Tutorial: Style your site"  
     href: getting-started/tutorial-style-site.md
   - name: "Tutorial: Add a list to a page"
     href: getting-started/tutorial-add-list-to-page.md
   - name: "Tutorial: Display data securely on pages"
-    href: getting-started/tutorial-display-data-securely.md
-  - name: "Tutorial: Setup page permissions"
-    href: getting-started/tutorial-setup-page-permissions.md
+    href: getting-started/tutorial-display-data-securely.md  
   - name: "Tutorial: Add a form to a page"
     href: getting-started/tutorial-add-form-to-page.md
   - name: "Tutorial: Add a multi-step form to a page"
@@ -217,3 +172,4 @@
   href: training-videos/index.md
 - name: Known issues
   href: known-issues.md
+
