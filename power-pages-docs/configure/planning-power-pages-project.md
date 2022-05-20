@@ -50,7 +50,7 @@ Any authenticated user on your site is tied to a contact record in Dataverse. Re
 
 Many sites today include a sign- in or register experience where users either create a new sign-in profile or use an existing sign-in to access site pages.  These sign-in credentials could be tied to their social accounts or their corporate credentials.  These credentials are examples of Identity Providers(IdP). Power Pages works with many industry standard Identity Providers. 
 
-Power Pages utilizes the Power Apps portals capabilites for authentication. View the full list here: [Overview of authentication in Power Apps portals](/portals/configure/configure-portal-authentication) in the Power Apps portals documentation.
+Power Pages utilizes the Power Apps portals capabilities for authentication. View the full list here: [Overview of authentication in Power Apps portals](/power-apps/maker/portals/configure/configure-portal-authentication) in the Power Apps portals documentation.
 
 ### Internal users
 
