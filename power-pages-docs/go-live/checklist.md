@@ -55,7 +55,9 @@ See [Power Platform application lifecycle management](/power-platform/alm/basics
 
 ## Test your site performance
 
-Optimize your site's performance by enabling content delivery network (CDN).
+Optimize your site's performance by enabling a content delivery network (CDN).
+
+More information: [Configure CDN](/power-apps/maker/portals/configure/configure-cdn).
 
 If you have high scalability needs (think thousands of users a month or a very critical workload), consider performing load testing to understand the type of performance you'll get and troubleshoot any problem areas. 
 
