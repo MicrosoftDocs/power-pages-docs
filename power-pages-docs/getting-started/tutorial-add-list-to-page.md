@@ -14,6 +14,11 @@ contributors:
 ---
 
 # Tutorial: Add a list to your page
+
+In this tutorial you will learn how to display a list business information to your users from Microsoft Dataverse on a page in your site.  
+
+You will need to create a table in Dataverse to store your business information (or choose an existing table). You will need to configure a view from the table that will define the columns and structure for your list. You will add the list component to a page. Note that for security reasons, your users will not yet be able to view the information until we define table permissions in the following tutorial.
+
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
@@ -29,9 +34,11 @@ In this tutorial, you learn how to:
 
 ## Create a table
 
-This video will show you how to create a table using the Data workspace.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 Use the steps below to create a table. 
 
@@ -66,9 +73,11 @@ Use the steps below to create a table.
 
 ## Create a view
 
-This video will show you how to create a view for a table using Data workspace.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 Use the steps below to create a custom view for the table you created. 
 
@@ -92,9 +101,11 @@ For more information, see [Create and modify Dataverse views using data workspac
 
 ## Add a list to the page
 
-This video will show you how to add a list to a page.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 Use the steps below to add a list to a web page so you can view information stored in Dataverse.
 
@@ -128,7 +139,7 @@ For more information, see [Add a list](../getting-started/add-list.md).
 
 ## Next steps
 
-In order for the site users to see data, we need to create table permissions to allow users to view data security.
+In order for the site users to see data, we need to create table permissions to allow users to view data securely.
 
 > [!div class="nextstepaction"]
 > [Display data securely on pages](tutorial-display-data-securely.md)
