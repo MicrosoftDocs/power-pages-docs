@@ -18,9 +18,9 @@ contributors:
 
 This checklist is guidance to help you plan your Power Pages and Power Apps portals projects.
 
-Note that the new design studio and templates of Power Pages are in public preview and are not yet recommended for production usage. 
+Note that the new design studio and templates of Power Pages are in public preview and aren't yet recommended for production usage. 
 
-All the Power Apps portals capabilities are generally available and supported to be used in production scenarios, and you will be able to utilize the Power Pages capabilities when they become GA.
+All the Power Apps portals capabilities are generally available and supported to be used in production scenarios, and you'll be able to utilize the Power Pages capabilities when they become GA.
 
 As you prepare and consider going live with your project, here are a few areas to keep in mind:
 
@@ -33,11 +33,9 @@ As you prepare and consider going live with your project, here are a few areas t
 > * Set up telemetry monitoring
 > * Provide access to users
 
-We'll go over several of them in this article, and update this article over time as we head towards general availability of Power Pages.
-
 ## Finalize your site
 
-This is the time to remove any sample webpages, sample text, and placeholder images.
+Clean up your site and remove any sample webpages, sample text, and placeholder images.
 
 Delete or deactivate any unused pages. 
 
@@ -49,15 +47,17 @@ Protect any unfinished page by using [Page permissions](../security/page-securit
 
 ## Create separate development, testing, and production sites
 
-To continue to make updates to your site without breaking functionality for existing users of your site, it is recommended three separate environments to manage the application development lifecycle. 
+To continue to make updates to your site without breaking functionality for existing users of your site, it's recommended three separate environments to manage the application development lifecycle. 
 
-See [Power Platform application lifecycle management](/power-platform/alm/basics-alm) for more information. 
+More information: [Power Platform application lifecycle management](/power-platform/alm/basics-alm) for more information. 
 
 ## Test your site performance
 
-Optimize your site's performance by enabling content delivery network (CDN).
+Optimize your site's performance by enabling a content delivery network (CDN).
 
-If you have high scalability needs (think thousands of users a month or a very critical workload), consider performing load testing to understand the type of performance you'll get and troubleshoot any problem areas. 
+More information: [Configure CDN](/power-apps/maker/portals/configure/configure-cdn).
+
+If you have high scalability needs (thousands of users a month or a critical workloads), consider performing load testing to understand the type of performance you'll get and troubleshoot any problem areas. 
 
 Areas to consider:
 - Number of visitors to your site on a daily basis.
@@ -71,13 +71,13 @@ Your site should align with your corporate domain name whenever possible. By def
 
 You can read more about setting up your own [custom domains](/power-apps/maker/portals/admin/add-custom-domain) in the Power Apps documentation.
 
-Consider that you may need to get approval from your internal team, get the right SSL certificate, configure and test it. You'll want this domain name working for most external identity providers, so it becomes a dependency to go live.
+Consider that you may need to get approval from your internal team to get the right SSL certificate, configure, and test it. You'll want this domain name working for most external identity providers, so it becomes a dependency to go live.
 
-## Configure authentication set up
+## Configure authentication set-up
 
 By default Power Pages sets local authentication as your identity provider. We recommend using one of the supported identity providers as your default and disabling local authentication.
 
-For example; [Azure Active Directory B2C](../getting-started/tutorial-setup-site-authentication.md).
+For example, [Azure Active Directory B2C](../getting-started/tutorial-setup-site-authentication.md).
 
 > [!TIP]
 > - You want to finish setting up your custom domain to utilize the redirect URL for the authentication provider. 
@@ -95,4 +95,4 @@ Open the [Portal Management app](../configure/portal-management-app.md) and navi
 
 ## Provide access to users
 
-For information on adding users to your site, please see [Provide access to external audiences](../security/external-access.md)
+For information on adding users to your site, see [Provide access to external audiences](../security/external-access.md)

@@ -4,7 +4,7 @@ description: Learn about advanced configuration options of Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/22/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -49,3 +49,9 @@ More information: [Manage SharePoint documents](/powerapps/maker/portals/manage-
 A site can display content in multiple languages to reach customers around the world. The content of your Power Pages site can be translated into multiple languages while maintaining a single content hierarchy.
 
 More information: [Enable multiple-language portal support](/powerapps/maker/portals/configure/enable-multiple-language-support)
+
+## Configure content delivery network
+
+A content delivery network (CDN) is a distributed network of servers that can efficiently deliver web content to users. CDNs' store cached content on edge servers in point-of-presence (POP) locations that are close to end users, to minimize latency. You can configure Power Pages to use a CDN. 
+
+More information: [Configure CDN](/power-apps/maker/portals/configure/configure-cdn)
