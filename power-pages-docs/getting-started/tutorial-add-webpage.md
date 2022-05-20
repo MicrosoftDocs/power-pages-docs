@@ -4,7 +4,7 @@ description: Learn how to add a page to your Power Pages site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/25/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -32,6 +32,12 @@ In this tutorial, you learn how to:
 ## Create a page using a blank layout
 
 In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own [custom layouts](../configure/store-content-web-templates.md).
+
+This video will provide an overview of the following steps.
+<!--embed create page video
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -92,9 +98,15 @@ You can preview what your page will look like on the site at any time.
 
 Adding the page to the **Main navigation** will add a menu option. The page can be moved to different spots in the overall site hierarchy using the design studio.
 
-:::image type="content" source="media/tutorial/page-hierarchy.png" alt-text="Moving page in hierarchy":::
+This video will provide an overview of the following steps.
+<!--embed create page video
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. Under the **Main navigation**, select the ellipse **(...)** icon and choose *Move to other pages*.
+
+    :::image type="content" source="media/tutorial/page-hierarchy.png" alt-text="Moving page in hierarchy":::
 
 1. The page should now appear in the **Other pages** section. If you now [preview](#preview-your-page) the page, notice that there isn't menu item for the page.
 

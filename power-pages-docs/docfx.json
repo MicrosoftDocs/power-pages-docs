@@ -52,6 +52,9 @@
       "author": {
         "**.*": "nickdoelman"
       },
+      "searchScope": {
+        "**.*": [ "Power Apps", "Power Pages" ]
+      },
       "ms.service": {
         "**.*": "powerapps"
       }  

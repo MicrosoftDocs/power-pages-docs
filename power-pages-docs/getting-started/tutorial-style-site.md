@@ -4,7 +4,7 @@ description: Learn how to customize your Portal to match your corporate brand.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/16/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -34,6 +34,12 @@ In this tutorial, you learn how to:
 - A list of your corporate font standards.
 
 ## Adding your corporate logo to Power Pages
+
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 

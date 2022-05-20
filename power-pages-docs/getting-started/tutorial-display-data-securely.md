@@ -4,7 +4,7 @@ description: Learn how to set up table permissions and link to web roles.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/16/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,7 +13,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Tutorial: Display data securely on your site 
+# Tutorial: Display data securely on your site
+
+In the previous tutorial, you added a list to a page, however, users would not be able to view any data. Power Pages has security enabled by default to protect your business data. This tutorial will walk through the steps to create table permissions and associate them to web roles to allow visitors to your site to be only able to interact with the information that you allow. 
 
 In this tutorial, you learn how to:
 
@@ -31,7 +33,13 @@ In this tutorial, you learn how to:
 
 ## Create table permissions
 
-When you create a list on a web page you, you won't be able to see the data. Power Pages has data security enabled by default. Use the steps below to learn how to configure table permissions to view data.
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+Use the steps below to learn how to configure table permissions to view data.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -65,6 +73,12 @@ When you configure a list or a form in Power Pages, by default your users won't 
 If your table in Dataverse has a relationship with a Contact or Account table, you can filter the records based on that relationship.
 
 In the example below, we have created a table that has a lookup to the contact table.
+
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. Create a page with a list showing records that have a relationship to the contact table.
 
@@ -121,6 +135,12 @@ For more information, see:
 In our examples so far, we have assigned the table permissions to the default **Authenticated Users** and **Anonymous Users** web roles. 
 
 We can also create our own custom web roles to further limit access to data and pages to certain site visitors.
+
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. In the design studio, select the ellipses **...** from the side menu and select **Portal Management** to open the Portal Management app.
 

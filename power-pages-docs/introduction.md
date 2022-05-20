@@ -45,7 +45,3 @@ You can [try Power Pages](getting-started/trial-signup.md) for free to explore t
 ## Read next
 
 [Power Pages capabilities](capabilities.md)
-
-### See also
-
-[Blog: Announcing Power Pages](https://powerapps.microsoft.com/blog/)<!--note from editor: It looks like this link works without en-us - suggest deleting it.-->
