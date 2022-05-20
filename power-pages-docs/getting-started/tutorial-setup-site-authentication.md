@@ -15,7 +15,7 @@ contributors:
 
 # Tutorial: Configure authorized access to your site
 
-Power Pages provides integration to multiple authentication providers to allow secure access to external users to your site. In this tutorial, you will see how to use the Setup workspace to configure Azure AD B2C as an authentication provider.
+Power Pages provides integration to multiple authentication providers to allow secure access to external users to your site. In this tutorial, you will see how to use the Setup workspace to configure Azure Active Directory Business-to-Consumer (Azure AD B2C) as an authentication provider.
 
 In this tutorial, you learn how to:
 
@@ -31,6 +31,12 @@ In this tutorial, you learn how to:
 ## Configure authorized access to your site
 
 Setting up an external authentication provider will allow you to provide access to your site and provide the mechanism for end users to be able to reset their passwords and other information without administrator intervention.
+
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 

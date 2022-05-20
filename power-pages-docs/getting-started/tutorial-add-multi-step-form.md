@@ -4,7 +4,7 @@ description: Learn how to add multi-step forms to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/17/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -15,13 +15,15 @@ contributors:
 
 # Tutorial: Add a multi-step form to your page
 
-Advanced forms are a powerful way to collect and update information in Dataverse from a page.  
+Advanced forms are a powerful way to collect and update information in Microsoft Dataverse from a page.  
 
 Advanced forms extend basic forms by:
 
 - Allows data collection or update process to be broken up over multiple steps.
 - Provides interactive conditions to direct a user down different paths of data updates.
 - Session tracking allows a user to pick up where they left off when following a data update process.
+
+Advanced forms are created using the [Portal Management app](../configure/portal-management-app.md) and added to a page using a [Liquid](../configure/liquid-overview.md) code tag.
 
 In this tutorial, you learn how to:
 
