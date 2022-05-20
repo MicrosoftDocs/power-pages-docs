@@ -120,8 +120,8 @@ The following three videos will explain the concepts of table permissions, setti
 | Step | Task | Video and tutorial |  
 | - | - | - |
 | 1 | Create table permissions | [video](#create-table-permissions)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
-| 2 | Set up access type and privileges | [video](#create-table-permissions)<br/>  [tutorial](../getting-started/tutorial-display-data-securely.md) |
-| 3 | Add web roles | [video](#add-web-roles)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
+| 2 | Set up access type and privileges | [video](#create-table-permissions)<br/>  [tutorial](../getting-started/tutorial-display-data-securely.md#set-access-type-and-privileges) |
+| 3 | Add web roles | [video](#add-web-roles)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md#add-web-roles) |
 
 ### Create table permissions
 
@@ -156,9 +156,9 @@ Forms on pages are created from Dataverse table forms. The following videos show
 | - | - | - |
 | 1 | Create a table in Dataverse | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a form | [video](#create-a-form)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 4 | Add a form to page | [video](#add-a-list-to-page)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 5 | Configure form options| [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#add-code-components) |
+| 4 | Add a form to page | [video](#add-a-list-to-page)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#add-a-form-to-a-page) |
+| 5 | Configure form options| [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md#configure-form-options) |
 
 ### Create a form
 
