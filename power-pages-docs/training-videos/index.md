@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/18/2022
+ms.date: 05/24/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -30,10 +30,16 @@ The following videos show you how to create and design a page in your site and c
 
 ### Create page
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Configure site navigation
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ## Setup your brand kit
@@ -47,6 +53,9 @@ Designing your site to match your company brand has never been easier. The new d
 
 Watch this quick video to learn how to set up your brand kit.
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### See also
@@ -70,19 +79,28 @@ The following series of videos demonstrate how to create a page displaying busin
 
 In this video, you'll learn how to create a table by using the Data workspace.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDeu]
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Create a view
 
 This video shows you how to create a view for a table by using the Data workspace.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VIlD]
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Add a list to page
 
 Now that you've created your table and view, let's add a list to the page.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VQgd]
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Next steps
 
@@ -90,7 +108,6 @@ Now that you've created your table and view, let's add a list to the page.
 
 ### See also
 
-[Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md)  
 [Use Data workspace](../getting-started/use-data-workspace.md)  
 [Add a list component](../getting-started/add-list.md)
 
@@ -108,14 +125,23 @@ The following three videos will explain the concepts of table permissions, setti
 
 ### Create table permissions
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Set up access type and privileges
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Add web roles
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### See also
@@ -138,25 +164,36 @@ Forms on pages are created from Dataverse table forms. The following videos show
 
 In this video, we create a form by using the Data workspace.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev]
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Add a code component
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Add a form to page
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Configure form options
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### See also
 
 [Create forms in Data workspace](../configure/data-workspace-forms.md)  
 [Add form to a page](../getting-started/add-form.md)  
-[Tutorial: Add a form to a page](../getting-started/tutorial-add-form-to-page.md)
 
 ## Configure access to your site
 
@@ -174,18 +211,27 @@ The following videos provide an overview of authentication and walk you through 
 
 ### Authentication overview
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Configure identity provider
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### Set page permissions
 
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 ### See also
 
-[Configure Authentication](../security/configure-portal-authentication.md)  
-[Tutorial: Setup site authentication](../getting-started/tutorial-setup-site-authentication.md)
+[Configure authentication](../security/configure-portal-authentication.md)  
+[Page permissions](../security/page-security.md)
 
