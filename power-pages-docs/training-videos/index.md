@@ -26,7 +26,7 @@ The following videos show you how to create and design a page in your site and c
 | Step | Task | Video and tutorial |  
 | - | - | - |
 | 1 | Create and design a page | [video](#create-page)<br/>[tutorial](../getting-started/tutorial-add-webpage.md) |
-| 2 | Configure site navigation | [video](#configure-site-navigation)<br/>[tutorial](../getting-started/tutorial-add-webpage.md) |
+| 2 | Configure site navigation | [video](#configure-site-navigation)<br/>[tutorial](../getting-started/tutorial-add-webpage.md#move-the-page-in-the-sitemap) |
 
 ### Create page
 
@@ -72,8 +72,8 @@ The following series of videos demonstrate how to create a page displaying busin
 | Step | Task | Video and tutorial |  
 | - | - | - | 
 | 1 | Create a table in Data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 2 | Create a view | [video](#create-a-view)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 3 | Add a list to the page | [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 2 | Create a view | [video](#create-a-view)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md#create-a-view) |
+| 3 | Add a list to the page | [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page) |
 
 ### Create a table
 
