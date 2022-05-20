@@ -26,7 +26,9 @@ A free trial is available for Power Pages which can be used to try out the new f
 
 More information: [Power Pages trial](../getting-started/trial-signup.md)
 
-Power Apps portals licenses are applicable to Power Pages and can be used with permanent sites.
+As you work on projects and need to establish permanent sites which do not expire, Power Apps portals licenses can be used and Power Pages sites can be converted from trial to production.
+
+More information: [Convert a portal](/power-apps/maker/portals/admin/convert-portal) 
 
 For detailed information on licensing, go to [Licensing](/power-platform/admin/powerapps-flow-licensing-faq#portals) in the Power Apps portals documentation.
 
