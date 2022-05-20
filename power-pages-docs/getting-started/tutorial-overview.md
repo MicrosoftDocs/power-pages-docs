@@ -4,7 +4,7 @@ description: Follow step-by-step tutorials to learn how to build powerful sites 
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/25/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -24,7 +24,7 @@ The tutorials in this section help you learn how to build a Microsoft Power Page
 
 ## Tutorials
 
-Each tutorial builds on knowledge and skills developed in preceding tutorials. We recommend that you complete them in the order given.
+Many of the tutorials build on knowledge and skills developed in preceding tutorials. Review the pre-requisites before starting a tutorial. We recommend that you complete them in the order given.
 
 - [Add a page](tutorial-add-webpage.md)
 - [Style your site](tutorial-style-site.md)

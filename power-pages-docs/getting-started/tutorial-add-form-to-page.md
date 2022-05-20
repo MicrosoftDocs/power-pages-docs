@@ -4,7 +4,7 @@ description: Learn how to add forms with code components to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 5/16/2022
+ms.date: 5/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -15,7 +15,9 @@ contributors:
 
 # Tutorial: Add a form to your page
 
-Forms on pages are created from Dataverse table forms.
+Power Pages allows you to add form components to a page to allow your users to be able to create, edit, or view Microsoft Dataverse records.
+
+Forms on pages are created from Microsoft Dataverse table forms.
 
 The following tutorial will show you to create and add a form to your page, capture rich information through code components and configure form actions when the information in the form is submitted.
 
@@ -36,9 +38,11 @@ In this tutorial, you learn how to:
 
 ## Create a form
 
-In this video, we'll create a form using the Data workspace.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VDev]
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -77,7 +81,15 @@ The form will appear in the list of forms for that table.
 
 Code components can be added to forms to allow advanced interaction with specific data fields. For example, we can enable rich text editing capabilities to a multi-line text field on a form.
 
-1. Open the maker studio and select the form you created previously.
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+1. In the **data workspace**, select the **Feedback table** and choose the **Forms tab**.
+
+1. Select the form you created earlier.
 
 1. Select the **Comments** field on the form.
 
@@ -90,6 +102,14 @@ Code components can be added to forms to allow advanced interaction with specifi
 The form now has a code component linked to the field. 
 
 ## Add a form to a page
+
+The following steps will provide details on how to add your form to a page.
+
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. Open a Power Pages site in the design studio.
 
@@ -132,6 +152,14 @@ The form now has a code component linked to the field.
     :::image type="content" source="media/tutorial/preview-icon.png" alt-text="Preview icon.":::
 
 ## Configure form options
+
+Earlier we enabled the rich text editor component on the comments field in our form. In order for the rich text editor to render on the page, we need to add some metadata. 
+
+This video will provide an overview of the following steps.
+<!--embed video
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 1. In the design studio, open a page with a form component and select the form you previously created.
 
