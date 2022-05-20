@@ -33,6 +33,14 @@ In this tutorial, you learn how to:
 
 In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own [custom layouts](../configure/store-content-web-templates.md).
 
+This video will show you how to create a table using the Data workspace.
+
+This video will provide an overview of the following steps.
+<!--embed create page video
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select **Edit** on the site you want to add a page. If you don't have a site, [create a site](create-manage.md) before continuing.
@@ -91,6 +99,12 @@ You can preview what your page will look like on the site at any time.
 ## Move the page in the sitemap
 
 Adding the page to the **Main navigation** will add a menu option. The page can be moved to different spots in the overall site hierarchy using the design studio.
+
+This video will provide an overview of the following steps.
+<!--embed create page video
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/ZZZZZZ]
+-->
+[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
 :::image type="content" source="media/tutorial/page-hierarchy.png" alt-text="Moving page in hierarchy":::
 
