@@ -19,7 +19,13 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-Power Pages is available in preview and offers a free trial experience. However, in case you need to use a permanent website, existing Power Apps portals licensing can be used with Power Pages sites as well to get a production portal.
+Power Pages is an evolution of Power Apps portals and provides several new capabilities in addition to what Power Apps portals offers.
+ 
+A free trial is available for Power Pages which can be used to try out the new features and functionality.
 
-For detailed information on licensing, go to [Licensing](/powerapps/maker/portals/manage-existing-portals#licensing) in the Power Apps portals documentation.
+More information: [Power Pages trial](../getting-started/trial-signup.md)
+
+Power Apps portals licenses are applicable to Power Pages and can be used for production sites at GA.
+
+For detailed information on licensing, go to [Licensing](/power-platform/admin/powerapps-flow-licensing-faq#portals) in the Power Apps portals documentation.
 
