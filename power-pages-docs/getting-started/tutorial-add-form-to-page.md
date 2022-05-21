@@ -19,7 +19,7 @@ Power Pages allows you to add form components to a page to allow your users to b
 
 Forms on pages are created from Microsoft Dataverse table forms.
 
-The following tutorial will show you to create and add a form to your page, capture rich information through code components and configure form actions when the information in the form is submitted.
+This tutorial shows you how to create and add a form to your page, capture rich information through code components, and configure form actions when the information in the form is submitted.
 
 In this tutorial, you learn how to:
 
@@ -103,9 +103,9 @@ The form now has a code component linked to the field.
 
 ## Add a form to a page
 
-The following steps will provide details on how to add your form to a page.
+The following steps provide details on how to add your form to a page.
 
-This video will provide an overview of the following steps.
+This video provides an overview of the steps to add a form to a page.
 <!--embed video
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
 -->

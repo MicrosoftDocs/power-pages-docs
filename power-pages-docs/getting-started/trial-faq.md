@@ -3,7 +3,7 @@ title: "Trial FAQ - Power Pages | Microsoft Docs"
 description: "Solutions to common questions related to Power Pages trial setup and management. Learn how to resolve platform and app-specific issues."
 author: sampatn
 ms.author: sampatn
-ms.date: 04/28/2022
+ms.date: 05/24/2022
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: ndoelman
@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Power Pages trial offers a simple and easy experience for sign-up, sign-in, and usage. However, if you're stuck or have questions about the trial, check out this page for answers. 
+The Power Pages trial offers a simple and easy experience for sign-up, sign-in, and usage. This page contains answers to frequently asked questions.
 
 To sign up for the trial, go to the [Power Pages overview page](https://powerpages.microsoft.com/), and select **Start free**.
 
@@ -34,7 +34,7 @@ After you've applied for the license to your tenant, you can publish your enviro
 The following limitations apply for the trial:
 - The trial environment is available to you for 30 days. After that, you can request an extension for another 30 days.
 - A Power Pages site is always created as a trial. A trial site, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it's suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
-- If your trial site is created in a trial environment, your trial site will only be available until your trial environment is available. If your environment expires before the trial site expires, you will lose access to your trial site. 
+- If your trial site is created in a trial environment, your trial site will only be available until your trial environment is available. If your environment expires before the trial site expires, you'll lose access to your trial site. 
 
 ## Power Pages–specific questions
 
@@ -73,7 +73,7 @@ During the first run of the sign-up experience, you need to create a trial site.
 
 ### How long will it take for the trial site to get created? 
 
-When you create a trial site in a new trial environment, it takes a few minutes, because the new trial environment created is optimized and preinstalled with the site templates in it. When you create a trial site in an existing environment that doesn't have the preinstalled site templates, site creation will take around 15 to 30 minutes because the site template has to be installed before the site itself is created. 
+Creating a trial site in a new trial environment takes a few minutes.  This is because the environment created is optimized and preinstalled with the site templates. Creating a trial site in an existing environment that doesn't have the preinstalled site templates takes 15 to 30 minutes because the site template has to be installed before the site itself is created. 
 
 
 

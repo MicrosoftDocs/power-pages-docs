@@ -4,7 +4,7 @@ description: Learn how to use the learning hub.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/18/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:

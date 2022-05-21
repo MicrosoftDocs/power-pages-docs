@@ -4,7 +4,7 @@ description: Learn how to add spacers to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/18/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -19,7 +19,7 @@ contributors:
 
 Use a spacer to add space between sections on your page to allow for different layout and design options. 
 
-## Adding a spacer:
+## Adding a spacer
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 

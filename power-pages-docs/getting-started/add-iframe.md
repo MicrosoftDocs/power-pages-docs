@@ -4,7 +4,7 @@ description: Learn how to add iframes to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/18/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -35,7 +35,7 @@ To add an iframe:
 
     :::image type="content" source="media/first-page/iframe.png" alt-text="Adding an iframe to a page.":::
 
-1. To format your iframe, select it and a menu will appear with the following:
+1. To format your iframe, select it and a menu will appear where you can:
 
     - Change the iFrame URL
 

@@ -4,7 +4,7 @@ description: Learn how to style your Power Pages site.
 author: rob-moyer
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/13/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: robmoyer 
 ms.reviewer: ndoelman
@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In Power Pages, you'll find a robust set of themes and tools to use to style your site. You can choose from several preset themes that you can apply to your portal.  You can use these themes as a starting point and apply further customization with the styling menu.
+Power Pages contains a robust set of themes and tools to use to style your site. Choose from several preset themes that you can apply to your portal.  Use these themes as a starting point and apply further customization with the styling menu.
 
 The **Styling** workspace lets you apply global site styles. You can apply corporate branding updates, and review the changes in the preview on the right side of the app window. Styling offers 13 preset themes. For each theme, you can customize the color palette, background color, font styles, button styles, and section margins.
 
@@ -30,7 +30,7 @@ The **Styling** workspace lets you apply global site styles. You can apply corpo
 
     - Note the list of themes in the Styling workspace. Further customization can be done with the styling menu.
 
-1. Select one of the preset themes to see how the style is reflected on the canvas workspace to the right. Note the following:
+1. Select one of the preset themes to see how the style is reflected on the canvas workspace to the right. 
 
     - Each theme has its own color palette.
 

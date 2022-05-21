@@ -4,7 +4,7 @@ description: Learn how to configure Azure AD B2C authentication provider to your
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/17/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -15,7 +15,7 @@ contributors:
 
 # Tutorial: Configure authorized access to your site
 
-Power Pages provides integration to multiple authentication providers to allow secure access to external users to your site. In this tutorial, you will see how to use the Setup workspace to configure Azure Active Directory Business-to-Consumer (Azure AD B2C) as an authentication provider.
+Power Pages provides integration to multiple authentication providers to allow secure access to external users to your site. In this tutorial, you'll see how to use the Setup workspace to configure Azure Active Directory Business-to-Consumer (Azure AD B2C) as an authentication provider.
 
 In this tutorial, you learn how to:
 
