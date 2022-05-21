@@ -4,7 +4,7 @@ description: Learn how to secure your webpages by using page permissions.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/29/2022
+ms.date: 05/24/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -24,7 +24,7 @@ For creating and modifying page permissions in Power Pages, you'll use the Porta
 
 ## Open the Portal Management app
 
-In the design studio, select the ellipsis (**...**) from the toolbelt, and then select **Portal Management**.
+In the design studio, select the ellipsis (**...**) from the tool belt, and then select **Portal Management**.
 
 :::image type="content" source="../configure/media/portals-management-app/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
 
@@ -34,4 +34,4 @@ For detailed information, go to [Manage page permissions](/power-apps/maker/port
 
 ### See also
 
-[Tutorial: Set up page permissions](../getting-started/tutorial-setup-page-permissions.md)<br>
+[Tutorial: Set up page permissions](../getting-started/tutorial-setup-page-permissions.md)<br />
