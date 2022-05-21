@@ -75,7 +75,7 @@ The following information is available for each app:
 	- Table Permissions Enabled Across Portal
 	- Table Permissions Enabled All Lists
 	- Table Permissions Enabled All Basic Forms
-	- Table Permissions Enabled All Adv Form Steps
+	- Table Permissions Enabled All Advanced Form Steps
 
 - System Created and Orphan Details
 	- App Owner Display Name
