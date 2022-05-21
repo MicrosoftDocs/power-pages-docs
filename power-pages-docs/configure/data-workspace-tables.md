@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create Dataverse tables.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/16/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: ndoelman
@@ -26,7 +26,7 @@ You use the [Data workspace](..\getting-started\use-data-workspace.md) to create
 
 1. Select a site, and then select **Edit**.
 
-1. On the left toolbelt, select **Data**.
+1. On the left tool belt, select **Data**.
 
 ## Table designer
 
