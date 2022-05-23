@@ -31,13 +31,13 @@ The following videos show you how to create and design a page in your site and c
 ### Create page
 
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
 
 <!--[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]-->
 
 ### Configure site navigation
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gm]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gm]
 
 ## Setup your brand kit
 
@@ -50,7 +50,7 @@ Designing your site to match your company brand has never been easier. The new d
 
 Watch this quick video to learn how to set up your brand kit.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbM]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbM]
 
 ### See also
 
@@ -73,21 +73,19 @@ The following series of videos demonstrate how to create a page displaying busin
 
 In this video, you'll learn how to create a table by using the Data workspace.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeq]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeq]
 
 ### Create a view
 
 This video shows you how to create a view for a table by using the Data workspace.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYer]
-
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYer]
 
 ### Add a list to page
 
 Now that you've created your table and view, let's add a list to the page.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYem]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYem]
 
 ### Next steps
 
@@ -112,15 +110,15 @@ The following three videos will explain the concepts of table permissions, setti
 
 ### Create table permissions
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcK]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcK]
 
 ### Set up access type and privileges
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
 
 ### Add web roles
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
 ### See also
 
@@ -142,19 +140,19 @@ Forms on pages are created from Dataverse table forms. The following videos show
 
 In this video, we create a form by using the Data workspace.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ez]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ez]
 
 ### Add a code component
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ey]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ey]
 
 ### Add a form to page
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5G7]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5G7]
 
 ### Configure form options
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYep]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYep]
 
 ### See also
 
@@ -177,15 +175,15 @@ The following videos provide an overview of authentication and walk you through 
 
 ### Authentication overview
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcI]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcI]
 
 ### Configure identity provider
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeo]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeo]
 
 ### Set page permissions
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcs]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcs]
 
 ### See also
 
@@ -198,4 +196,4 @@ The [style workspace](#setup-your-brand-kit) allows you to edit some of the them
 
 You can create your own theme by defining a custom CSS file and uploading it to your site.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
