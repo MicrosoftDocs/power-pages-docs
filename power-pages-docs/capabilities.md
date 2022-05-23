@@ -74,7 +74,7 @@ Power Pages provides some helpful tools for administrators to manage the adminis
 
 ## Integration with other Microsoft Power Platform components
 
-Power Pages provides deep integration with other Microsoft Power Platform components.
+Power Pages provides deep integration with other [Microsoft Power Platform](/power-platform) components.
 
 - **Dataverse** enables users to securely store and manage data that's used by business applications and your Power Pages sites. Use model-driven app constructs like forms, views, charts, and dashboards to easily surface Dataverse data. 
 
