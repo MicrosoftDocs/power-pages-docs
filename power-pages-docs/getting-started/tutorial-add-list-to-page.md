@@ -71,7 +71,7 @@ Use the steps below to create a table.
 
 ## Create a view
 
-This video will provide an overview of the steps to create a view.
+This video provides an overview of the steps to create a view.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYer]
 
@@ -97,7 +97,7 @@ For more information, see [Create and modify Dataverse views using data workspac
 
 ## Add a list to the page
 
-This video will provide an overview of the steps to add a list to the page.
+This video provides an overview of the steps to add a list to the page.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYem]
 

@@ -36,7 +36,7 @@ This video provides an overview of authentication in Power Pages.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcI]
 
-This video will provide an overview of the steps to configure authentication providers.
+This videoprovides an overview of the steps to configure authentication providers.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeo]
 

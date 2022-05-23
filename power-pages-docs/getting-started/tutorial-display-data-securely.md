@@ -72,7 +72,7 @@ If your table in Dataverse has a relationship with a Contact or Account table, y
 
 In the example below, we've created a table that has a lookup to the contact table.
 
-This video will provide an overview of the following steps.
+This video provides an overview of the steps to set access types and privileges.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
 

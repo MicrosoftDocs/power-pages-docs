@@ -35,7 +35,7 @@ In this tutorial, you learn how to:
 
 ## Add custom CSS to your site
 
-This video will provide an overview of the steps to add custom CSS to your site.
+This video provides an overview of the steps to add custom CSS to your site.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
 
