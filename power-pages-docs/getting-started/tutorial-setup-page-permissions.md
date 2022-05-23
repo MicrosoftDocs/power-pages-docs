@@ -34,10 +34,8 @@ In this tutorial, we're going to learn how to hide or show a page based on the w
 ## Create page permission
 
 This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcs]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 

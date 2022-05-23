@@ -33,11 +33,9 @@ In this tutorial, you learn how to:
 
 In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own [custom layouts](../configure/store-content-web-templates.md).
 
-This video will provide an overview of the following steps.
-<!--embed create page video
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+This video will provide an overview of the steps to create a page using a blank layout.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -98,11 +96,9 @@ You can preview what your page will look like on the site at any time.
 
 Adding the page to the **Main navigation** will add a menu option. The page can be moved to different spots in the overall site hierarchy using the design studio.
 
-This video will provide an overview of the following steps.
-<!--embed create page video
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+This video will provide an overview of the steps to move a page in the site map.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gm]
 
 1. Under the **Main navigation**, select the ellipse **(...)** icon and choose *Move to other pages*.
 

@@ -32,11 +32,13 @@ In this tutorial, you learn how to:
 
 Setting up an external authentication provider will allow you to provide access to your site and provide the mechanism for end users to be able to reset their passwords and other information without administrator intervention.
 
-This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+This video provides an overview of authentication in Power Pages.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcI]
+
+This video will provide an overview of the steps to configure authentication providers.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeo]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 

@@ -34,10 +34,8 @@ In this tutorial, you learn how to:
 ## Create table permissions
 
 This video provides an overview of the steps to create table permissions.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcK]
 
 Use the steps below to learn how to configure table permissions to view data.
 
@@ -75,10 +73,8 @@ If your table in Dataverse has a relationship with a Contact or Account table, y
 In the example below, we've created a table that has a lookup to the contact table.
 
 This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
 
 1. Create a page with a list showing records that have a relationship to the contact table.
 
@@ -137,10 +133,8 @@ In our examples so far, we've assigned the table permissions to the default **Au
 We can also create our own custom web roles to further limit access to data and pages to certain site visitors.
 
 This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
 1. In the design studio, select the ellipses **...** from the side menu and select **Portal Management** to open the Portal Management app.
 

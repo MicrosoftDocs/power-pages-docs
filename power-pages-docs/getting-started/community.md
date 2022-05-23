@@ -11,14 +11,11 @@ ms.reviewer: nickdoelman
 
 # Power Pages community
 
-Community forums are a great resource where anyone can read and discuss topics with other Power Pages users.
-
-Join the discussion in the [Power Pages forum](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals). Before you post a new question, save time by searching the discussion forum to see whether your question has already been answered.
+Join the [Power Pages Community](https://aka.ms/MPPcommunity), where you can interact with other users, the Microsoft Community team, and discover what’s new and next. With blogs, videos, app samples, technical forums, the latest news and announcements, and more, it’s your way to ask questions, get answers, and stay connected.
 
 ### See also
 
-- [Power Platform community](https://aka.ms/MPPcommunity)
-- [Power Platform ideas](https://aka.ms/MPP_Ideas)
+- [Power Pages ideas](https://aka.ms/MPP_Ideas)
 - [Power Apps portals community forums](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals)  
 - [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)  
 - [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)  
