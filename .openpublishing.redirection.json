@@ -2,7 +2,7 @@
   "redirections": [    
     {
     "source_path": "coming-soon.md",
-    "redirect_url": "/",
+    "redirect_url": "https://docs.microsoft.com",
     "redirect_document_id": "false"
     }
   ]
