@@ -150,7 +150,7 @@ In the steps below, we'll check to see if an applicant is pursuing a Masters deg
     - Select the **Target Table name** from the drop-down menu.
     :::image type="content" source="media/tutorial/advanced-form-type-condition.png" alt-text="Set configurations for an advanced form step of type condition.":::
 
-1. Select the Condition tab and enter the condition using the logical column name and a value.
+1. Select the **Condition** tab and enter the condition using the logical column name and a value.
 
     :::image type="content" source="media/tutorial/advanced-form-specify-condition.png" alt-text="Text entry field for a condition on an advanced form step.":::
 
