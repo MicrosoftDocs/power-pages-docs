@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You use the [Data workspace](..\getting-started\use-data-workspace.md) to create and modify Microsoft Dataverse tables directly in the Power Pages design studio. 
+You use the [data workspace](..\getting-started\use-data-workspace.md) to create and modify Microsoft Dataverse tables directly in the Power Pages design studio. 
 
 ## Use the Data workspace
 
