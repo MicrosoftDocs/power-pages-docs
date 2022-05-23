@@ -4,7 +4,7 @@ description: Learn how to structure a site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/07/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -19,7 +19,7 @@ contributors:
 
 When you've created a few pages, the page hierarchy is displayed in a nested structure on the **Main navigation** menu.
 
-To change page hierarchy, do the following:
+To change page hierarchy:
 
 1. Select the ellipsis (**...**) on the page you want to move.
 

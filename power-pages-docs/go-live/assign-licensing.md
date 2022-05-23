@@ -22,11 +22,11 @@ contributors:
 > - All the platform, site admin, and pro 
 developer capabilities inherited by Power Pages from Power Apps portals are generally available and can be used in production scenarios. More information: [Power Pages and Power Apps portals](../difference-portals.md)
  
-A free trial is available for Power Pages which can be used to try out the new features and functionality.
+A free trial is available for Power Pages, which can be used to try out the new features and functionality.
 
 More information: [Power Pages trial](../getting-started/trial-signup.md)
 
-As you work on projects and need to establish permanent sites which do not expire, Power Apps portals licenses can be used and Power Pages sites can be converted from trial to production.
+As you work on projects and need to establish permanent sites that don't expire, Power Apps portals licenses can be used and Power Pages sites can be converted from trial to production.
 
 More information: [Convert a portal](/power-apps/maker/portals/admin/convert-portal) 
 

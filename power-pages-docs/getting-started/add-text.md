@@ -4,7 +4,7 @@ description: Learn how to add text to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/19/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -37,11 +37,11 @@ Use a text box component to add text to your page.
 
 ## Editing a text control
 
-After a text control is added, selecting the text control will open the properties bar so you can configure the following. 
+After a text control is added, selecting the text control will open the properties bar where you can configure its properties.
 
 | Property | Description |
 | ----------- | ----------- |
-| Style | Choose the following text styles for the text box:<br><br>Title<br>Heading 1<br>Heading 2<br>Heading 3<br>Subheading 1<br>Subheading 2<br>Paragraph<br>Small text<br> |
+| Style | Choose the following text styles for the text box:<br /><br />Title<br />Heading 1<br />Heading 2<br />Heading 3<br />Subheading 1<br />Subheading 2<br />Paragraph<br />Small text<br /> |
 | Format | Style the selected text as **bold**, *italics*, or <u>underlined</u>. |
 | Alignment | Align the text in the component. |
 | Color | Select the text color based on the defined color palette. |

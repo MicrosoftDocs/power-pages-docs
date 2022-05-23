@@ -4,7 +4,7 @@ description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/03/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -19,7 +19,7 @@ contributors:
 
 A list is a data-driven configuration used to render a list of records without the need for a developer to surface the grid in the portal. Lists use Dataverse views to display records on the portal.
 
-A list displays data in a grid view on Power Pages sites. Lists on pages are created from Dataverse table views. Dataverse table views can be created by using the [Data workspace](use-data-workspace.md) or from [model-driven apps created in Power Apps](/power-apps/maker/model-driven-apps/accessing-view-definitions/). You can use them on pages or in conjunction with [forms](add-form.md) to build a complete web application.
+A list displays data in a grid view on Power Pages sites. Lists on pages are created from Dataverse table views. Dataverse table views can be created by using the [Data workspace](use-data-workspace.md) or from [model-driven apps created in Power Apps](/power-apps/maker/model-driven-apps/accessing-view-definitions/). You can use them on pages or with [forms](add-form.md) to build a complete web application.
 
 To add a list:
 
@@ -53,7 +53,7 @@ To add a list:
 
     | Settings | Description |
     | - | - |
-    | Number of records per page | Determines how many records will be displayed per page. Note that if the table contains more records, navigation controls will appear for the user to view the next or previous set of records. |
+    | Number of records per page | Determines how many records will be displayed per page. If the table contains more records, navigation controls will appear for the user to view the next or previous set of records. |
     | Enable search in list | Turns on the search feature for the list. |
 
     > [!NOTE]

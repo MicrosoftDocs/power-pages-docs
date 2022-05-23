@@ -4,7 +4,7 @@ description: Learn how to add advanced forms to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/09/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -19,7 +19,7 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-Advanced forms are created by using the [Portal Management app](../configure/portal-management-app.md). For details on how to create advanced forms, go to [Define advanced form properties for portals](/power-apps/maker/portals/configure/web-form-properties) in the Power Apps portals documentation.
+You can create Advanced forms by using the [Portal Management app](../configure/portal-management-app.md). For details on how to create advanced forms, go to [Define advanced form properties for portals](/power-apps/maker/portals/configure/web-form-properties) in the Power Apps portals documentation.
 
 After you've created your advanced form configuration, you can add it to your page in the design studio with the code editor.
 

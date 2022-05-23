@@ -4,7 +4,7 @@ description: Learn how to set and manage table permissions.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/27/2022
+ms.date: 05/24/2022
 ms.author: ndoelman
 ms.reviewer:
 contributors:
@@ -42,7 +42,7 @@ In the **Table permissions** panel that appears, you can manage existing permiss
 
 ### Adding table permissions from the Setup workspace
 
-1. In the design studio on the toolbelt, select **Setup**.
+1. In the design studio on the tool belt, select **Setup**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to add and modify table permissions.
 
@@ -50,7 +50,7 @@ In the **Table permissions** panel that appears, you can manage existing permiss
 
 ### Adding table permissions from the Portal Management app
 
-1. In the design studio, select the ellipsis (**...**) from the toolbelt, and then select **Portal Management**.
+1. In the design studio, select the ellipsis (**...**) from the tool belt, and then select **Portal Management**.
 
     :::image type="content" source="media/table-permissions/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
 
@@ -104,7 +104,7 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 ### View table permissions
 
-1. In the design studio from the toolbelt, select **Setup**.
+1. In the design studio from the tool belt, select **Setup**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
@@ -122,7 +122,7 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 ### Edit table permissions
 
-1. In the design studio from the toolbelt, select **Setup**.
+1. In the design studio from the tool belt, select **Setup**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
@@ -134,13 +134,13 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 ### Deactivate/activate or delete table permissions
 
-A deactivated table permission becomes ineffective. You can activate a deactivated table permission later. When a table permission is deactivated, its child table permissions remain active but are don't remain in effect due to the ineffective parent table permission. You can deactivate child permissions separately.
+A deactivated table permission becomes ineffective. You can activate a deactivated table permission later. When a table permission is deactivated, its child table permissions remain active but don't remain in effect due to the ineffective parent table permission. You can deactivate child permissions separately.
 
 When a table permission is deleted, all associated child permissions are also deleted.
 
 To deactivate/activate or delete table permissions:
 
-1. In the design studio from the toolbelt, select **Setup**.
+1. In the design studio from the tool belt, select **Setup**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
@@ -154,7 +154,7 @@ To deactivate/activate or delete table permissions:
 
 To add a child permission to an existing table permission:
 
-1. In the design studio from the toolbelt, select **Setup**.
+1. In the design studio from the tool belt, select **Setup**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
@@ -170,7 +170,7 @@ To add a child permission to an existing table permission:
     
     1. Privileges for the child permissions
     
-    1. Roles (These are inherited from the parent table permission. To add or remove roles, edit the parent table permission instead.)
+    1. Roles (These roles are inherited from the parent table permission. To add or remove roles, edit the parent table permission instead.)
 
 1. Select **Save**.
 
@@ -178,7 +178,7 @@ To view, edit, deactivate/activate, or delete child permissions using the design
 
 ## Additional considerations
 
-The configuration of table permissions is subject to the following additional considerations and rules.
+The configuration of table permissions is subject to the following extra considerations and rules.
 
 ### Parent table permission missing a web role associated to its child
 

@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/29/2022
+ms.date: 05/242022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -27,7 +27,7 @@ Power Pages has a robust security model to ensure that business information is p
 
 ## Authenticated users
 
-Users can be provided access to your site through authentication. Power Pages users are represented by Microsoft Dataverse contact records. Power Pages can be integrated with a number of authentication providers such as Azure Active Directory B2C, Microsoft, and LinkedIn.
+Users can be provided access to your site through authentication. Power Pages users are represented by Microsoft Dataverse contact records. Power Pages can be integrated with many authentication providers such as Azure Active Directory B2C, Microsoft, and LinkedIn.
 
 Authenticated users can then be assigned to web roles that will provide specific access to information on the site.
 
@@ -57,9 +57,7 @@ More information: [Page permissions](page-security.md)
 
 ## Additional website security
 
-Power Pages can be integrated with any web application firewall infrastructure to provide additional protection against common web application attacks. The following documentation explains how to integrate it with Azure Front Door web application firewall: 
-
-- [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door)
+Power Pages can be integrated with any web application firewall infrastructure to provide extra protection against common web application attacks. For information on how to integrate it with Azure Front Door web application firewall, see [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door)
 
 
 ### See also

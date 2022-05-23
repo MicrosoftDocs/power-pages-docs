@@ -4,7 +4,7 @@ description: Manage and administer your Power Pages sites.
 author: donovangoode
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/17/2022
+ms.date: 05/24/2022
 ms.author: dgoode
 ms.reviewer: ndoelman
 contributors:
@@ -75,7 +75,7 @@ The following information is available for each app:
 	- Table Permissions Enabled Across Portal
 	- Table Permissions Enabled All Lists
 	- Table Permissions Enabled All Basic Forms
-	- Table Permissions Enabled All Adv Form Steps
+	- Table Permissions Enabled All Advanced Form Steps
 
 - System Created and Orphan Details
 	- App Owner Display Name

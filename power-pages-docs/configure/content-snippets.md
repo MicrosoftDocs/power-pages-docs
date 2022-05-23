@@ -4,7 +4,7 @@ description: Learn how to customize your content using content snippets.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/14/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman

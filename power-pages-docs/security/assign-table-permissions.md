@@ -4,7 +4,7 @@ description: Assign table permissions to web roles.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/19/2022
+ms.date: 05/24/2022
 ms.author: ndoelman
 ms.reviewer:
 contributors:

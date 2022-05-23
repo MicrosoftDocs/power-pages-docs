@@ -15,7 +15,7 @@ contributors:
 
 # Tutorial: Display data securely on your site
 
-In the previous tutorial, you added a list to a page, however, users would not be able to view any data. Power Pages has security enabled by default to protect your business data. This tutorial will walk through the steps to create table permissions and associate them to web roles to allow visitors to your site to be only able to interact with the information that you allow. 
+In the previous tutorial, you added a list to a page; however, users wouldn't be able to view any data. Power Pages has security enabled by default to protect your business data. This tutorial will walk through the steps to create table permissions and associate them to web roles to allow visitors to your site to be only able to interact with the information that you allow. 
 
 In this tutorial, you learn how to:
 
@@ -33,7 +33,7 @@ In this tutorial, you learn how to:
 
 ## Create table permissions
 
-This video will provide an overview of the following steps.
+This video provides an overview of the steps to create table permissions.
 <!--embed video
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
 -->
@@ -72,7 +72,7 @@ When you configure a list or a form in Power Pages, by default your users won't 
 
 If your table in Dataverse has a relationship with a Contact or Account table, you can filter the records based on that relationship.
 
-In the example below, we have created a table that has a lookup to the contact table.
+In the example below, we've created a table that has a lookup to the contact table.
 
 This video will provide an overview of the following steps.
 <!--embed video
@@ -111,7 +111,7 @@ This video will provide an overview of the following steps.
 
 1. Modify the existing table permission and change the **Access Type** to **Contact Access**.
 
-1. You will need to specify the relationship between your table and the contact table.
+1. You'll need to specify the relationship between your table and the contact table.
 
     > [!NOTE]
     > If you don't see a relationship, you will need to define a lookup to the contact table using the [Data workspace](use-data-workspace.md). Create or update some records that are related to the contact record you are using to sign-in to the site.
@@ -132,7 +132,7 @@ For more information, see:
 
 ## Add web roles
 
-In our examples so far, we have assigned the table permissions to the default **Authenticated Users** and **Anonymous Users** web roles. 
+In our examples so far, we've assigned the table permissions to the default **Authenticated Users** and **Anonymous Users** web roles. 
 
 We can also create our own custom web roles to further limit access to data and pages to certain site visitors.
 

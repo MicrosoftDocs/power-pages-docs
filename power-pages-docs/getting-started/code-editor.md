@@ -4,7 +4,7 @@ description: Learn how to customize pages by using the code editor.
 author: ankitavish
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/20/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: avishwakarma 
 ms.reviewer: ndoelman
@@ -28,4 +28,4 @@ The source code is displayed in the code editor pane at the bottom of the screen
 
 The code editor supports three docking options: docked on the bottom, docked on the right side, or full-screen edit mode.
 
-The code editor canvas supports HTML editing. To edit JavaScript or custom CSS, select **Edit CSS & JS**. This will take you to the Portal Management app. From there, select the **Advanced** tab to make any edits you want in the JavaScript and CSS sections.
+The code editor canvas supports HTML editing. To edit JavaScript or custom CSS, select **Edit CSS & JS**, which will take you to the Portal Management app. From there, select the **Advanced** tab to make any edits you want in the JavaScript and CSS sections.

@@ -45,7 +45,7 @@ This video will provide an overview of the following steps.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. In the **design studio**, choose **...** and then select **Portal Management**. You will need to use the Portal Management app to create a web file record and attach your custom CSS file.
+1. In the **design studio**, choose **...** and then select **Portal Management**. You'll need to use the Portal Management app to create a web file record and attach your custom CSS file.
 
     :::image type="content" source="media/tutorial/portal-management-app.png" alt-text="Selecting the ellipse directs you to a menu where you can choose the portal management app.":::
 

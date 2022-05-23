@@ -4,7 +4,7 @@ description: Learn how to add videos to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -39,7 +39,7 @@ Use the video component to embed videos on your page.
 
 ## Editing a video component
 
-After a video component is added, selecting the video component will open the properties bar and allow you to configure the following:
+After a video component is added, selecting the video component will open the properties bar, where you can:
 
 - Change video source
 
@@ -56,5 +56,5 @@ After a video component is added, selecting the video component will open the pr
 
 - You can select the video component and drag to resize height and width.
 
-- You can choose additional options to duplicate the video control, move it up or down within the section, or delete the video.
+- You can choose other options to duplicate the video control, move it up or down within the section, or delete the video.
 

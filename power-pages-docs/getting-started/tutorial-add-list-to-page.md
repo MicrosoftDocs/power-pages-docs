@@ -15,9 +15,9 @@ contributors:
 
 # Tutorial: Add a list to your page
 
-In this tutorial you will learn how to display a list business information to your users from Microsoft Dataverse on a page in your site.  
+In this tutorial, you'll learn how to display a list business information to your users from Microsoft Dataverse on a page in your site.  
 
-You will need to create a table in Dataverse to store your business information (or choose an existing table). You will need to configure a view from the table that will define the columns and structure for your list. You will add the list component to a page. Note that for security reasons, your users will not yet be able to view the information until we define table permissions in the following tutorial.
+First, you'll need to create a table (or choose an existing table) in Dataverse to store your business information. You'll also need to configure a view from the table that will define the columns and structure for your list. You'll add the list component to a page. For security reasons, your users won't yet be able to view the information until we define table permissions in the following tutorial.
 
 In this tutorial, you learn how to:
 
@@ -34,7 +34,7 @@ In this tutorial, you learn how to:
 
 ## Create a table
 
-This video will provide an overview of the following steps.
+This video provides an overview of the steps to create a table.
 <!--embed video
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
 -->

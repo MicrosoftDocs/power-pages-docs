@@ -15,7 +15,7 @@ contributors:
 
 # Tutorial: Style your site 
 
-Power Pages sites can be customized to incorporate your corporate branding styles. The Style workspace provides the ability to setup your brand colors, fonts, and design defaults to be used for your entire site or specific pages.
+Power Pages sites can be customized to incorporate your corporate branding styles. The Style workspace allows you to set up your brand colors, fonts, and design defaults for your entire site or specific pages.
 
 In this tutorial, you learn how to:
 
@@ -35,7 +35,7 @@ In this tutorial, you learn how to:
 
 ## Adding your corporate logo to Power Pages
 
-This video will provide an overview of the following steps.
+This video provides an overview of the steps to add your corporate logo to Power Pages.
 <!--embed video
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
 -->
