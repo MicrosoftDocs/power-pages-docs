@@ -1,3 +1,9 @@
 {
-  "redirections": [ ]
+  "redirections": [
+    {
+      "source_path": "coming-soon.md",
+      "redirect_url": "index",
+      "redirect_document_id": "false"
+    }
+   ]
 }
