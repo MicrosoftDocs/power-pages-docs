@@ -31,9 +31,9 @@ In this tutorial, we're going to learn how to hide or show a page based on the w
 - Complete the [Add and design a page](tutorial-add-webpage.md) tutorial.
 - Complete the [Display data securely on pages](tutorial-display-data-securely.md) tutorial.
 
-## Create page permission
+## Create page permissions
 
-This video will provide an overview of the following steps.
+This video provides an overview of the steps to create page permissions.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcs]
 
