@@ -56,7 +56,7 @@
         "**.*": [ "Power Apps", "Power Pages" ]
       },
       "ms.service": {
-        "**.*": "powerapps"
+        "**.*": "power-pages"
       }  
     },
     "template": [],
