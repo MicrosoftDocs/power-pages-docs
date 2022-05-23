@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path": "coming-soon.md",
+      "source_path": "power-pages-docs/coming-soon.md",
       "redirect_url": "index",
       "redirect_document_id": "false"
     }
