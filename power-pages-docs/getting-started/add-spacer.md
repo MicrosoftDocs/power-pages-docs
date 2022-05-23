@@ -19,8 +19,6 @@ contributors:
 
 Use a spacer to add space between sections on your page to allow for different layout and design options. 
 
-## Adding a spacer
-
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
 1. Select the page you want to edit.
