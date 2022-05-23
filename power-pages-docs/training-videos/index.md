@@ -42,7 +42,7 @@ The following videos show you how to create and design a page in your site and c
 -->
 [!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
 
-## Set up your brand kit
+## Setup your brand kit
 
 Designing your site to match your company brand has never been easier. The new design studio provides powerful features to create your brand kit that applies to all pages in your entire site.
 
