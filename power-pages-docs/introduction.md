@@ -1,5 +1,5 @@
 ---
-title: What is Power Pages? (preview)
+title: What is Power Pages (preview)?
 description: Power Pages is a secure, enterprise-grade, low-code SaaS platform for creating, hosting, and administering rich external business websites.
 author: nickdoelman
 ms.topic: conceptual
@@ -13,7 +13,7 @@ contributors:
     - KumarVivek
 ---
 
-# What is Power Pages? (preview)
+# What is Power Pages (preview)?
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 

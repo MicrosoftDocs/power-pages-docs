@@ -16,9 +16,4 @@ Join the [Power Pages Community](https://aka.ms/MPPcommunity), where you can int
 ### See also
 
 - [Power Pages ideas](https://aka.ms/MPP_Ideas)
-- [Power Apps portals community forums](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals)  
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)  
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)  
-- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
-
 

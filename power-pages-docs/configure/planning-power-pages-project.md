@@ -85,7 +85,7 @@ You can allow open registration or use identity providers to validate email addr
 
 ## Data modeling
 
-The [Data workspace](../getting-started/use-data-workspace.md) allows you create tables, views and forms which are used to create pages with list and form components that allow users to interact directly with data stored in Microsoft Dataverse. You will need to configure the appropriate table permissions for users to be able to interact with the data. 
+The [data workspace](../getting-started/use-data-workspace.md) allows you create tables, views and forms which are used to create pages with list and form components that allow users to interact directly with data stored in Microsoft Dataverse. You will need to configure the appropriate table permissions for users to be able to interact with the data. 
 
 ### Anonymous users data design
 

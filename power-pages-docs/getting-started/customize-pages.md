@@ -25,7 +25,7 @@ After adding the webpages you need and managing their hierarchy in the site map,
 
 To use the editor:
 
-1. Open the [design studio](/getting-started/use-design-studio.md) to edit the content and components of the portal.
+1. Open the [design studio](use-design-studio.md) to edit the content and components of the portal.
 
 1. Go to the **Pages** workspace.
 
