@@ -35,11 +35,9 @@ In this tutorial, you learn how to:
 
 ## Adding your corporate logo to Power Pages
 
-This video provides an overview of the steps to add your corporate logo to Power Pages.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+This video provides an overview of the steps to add your corporate logo and brand colors to Power Pages.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbM]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 

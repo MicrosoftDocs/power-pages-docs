@@ -35,10 +35,8 @@ In this tutorial, you learn how to:
 ## Create a table
 
 This video provides an overview of the steps to create a table.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeq]
 
 Use the steps below to create a table. 
 
@@ -74,10 +72,8 @@ Use the steps below to create a table.
 ## Create a view
 
 This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYer]
 
 Use the steps below to create a custom view for the table you created. 
 
@@ -102,10 +98,8 @@ For more information, see [Create and modify Dataverse views using data workspac
 ## Add a list to the page
 
 This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYem]
 
 Use the steps below to add a list to a web page so you can view information stored in Dataverse.
 

@@ -30,7 +30,6 @@ The following videos show you how to create and design a page in your site and c
 
 ### Create page
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
 
 <!--[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]-->
@@ -197,3 +196,7 @@ The [style workspace](#setup-your-brand-kit) allows you to edit some of the them
 You can create your own theme by defining a custom CSS file and uploading it to your site.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
+
+### See also
+
+[Tutorial: Add custom styling](../getting-started/tutorial-style-site.md)
