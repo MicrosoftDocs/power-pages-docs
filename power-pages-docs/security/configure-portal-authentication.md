@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-As you build your site, you likely want to control access both to pages and data to specific users. Power Pages uses Microsoft Dataverse contact records to associate to authenticated Power Pages site users.
+As you build your site, you may wish to control access both to pages and data to specific users. Power Pages uses Microsoft Dataverse contact records to associate to authenticated Power Pages site users.
 
 :::image type="content" source="media/configure-authentication/login-page.png" alt-text="A Power Pages sign-in page.":::
 

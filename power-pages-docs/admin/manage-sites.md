@@ -28,7 +28,7 @@ For each website in your environment, the site card provides you details about t
 
 - Suggested next steps, as you build and edit your site
 
-- A thumbnail that captures a snapshot of your site. If your website is authenticated, this will show the sign-in page that your users will see.
+- A thumbnail that captures a snapshot of your site. If your website is authenticated, this thumbnail will show the sign-in page that your users will see.
 
 Each site card also links to actions such as:
 

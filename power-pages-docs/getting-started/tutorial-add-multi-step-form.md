@@ -71,9 +71,9 @@ In the steps below, we'll create an advanced form. This advanced form will requi
 
 1. Specify the configurations.
 
-    - **Name** can anything descriptive.
+    - **Name** can be anything descriptive.
     - Set the **Website** is your website (press **Enter** to view list of sites).
-    - **Start Step** will be blank for now, we will set the start step later in the tutorial.
+    - **Start Step** will be blank for now, we'll set the start step later in the tutorial.
     - Set **Authentication required** to **Yes**.
     - Set **Start new session on load** to **No**.
     - Set **Multiple records per user permitted** to **Yes**.
@@ -97,7 +97,7 @@ In the steps below, we'll create an advanced form. This advanced form will requi
 
     :::image type="content" source="media/tutorial/advanced-form-step-config.png" alt-text="Configurations for the new advanced form step in Portal Management app.":::
 
-1. Select the **Form Definition** tab where we will add more configuration.
+1. Select the **Form Definition** tab where we'll add more configuration.
 
     :::image type="content" source="media/tutorial/advanced-form-step-details.png" alt-text="Details for the advanced form step in Portal Management app.":::
 
@@ -123,12 +123,12 @@ You can edit existing records in advanced forms. These may be a record you creat
     - Set **Type** to **Load Form**.
     - Select the **Target Table name** from the drop-down menu.
 
-1. Select the **Form Definition** tab where we will add more configuration.
+1. Select the **Form Definition** tab where we'll add more configuration.
 
     :::image type="content" source="media/tutorial/advanced-form-edit-step.png" alt-text="Advanced form steps edit step.":::
 
-    - Set the **Mode** to **Edit** as we are now updating a record.
-    - Choose the form (and if required, the tab) where the user will be editing or adding data to an existing record.
+    - Set the **Mode** to **Edit** as we're now updating a record.
+    - Choose the form (and if necessary, the tab) where the user will be editing or adding data to an existing record.
     - Set the **Source Type** to **Result From Previous Step**. This step will provide the GUID of the record we need to edit as part of the step. There are other options to specify the source record.
     - When the **Source Type** is **Result From Previous Step**, we need to specify the step in the process that will indicate which record is being edited.
 
@@ -136,7 +136,7 @@ You can edit existing records in advanced forms. These may be a record you creat
 
 #### Adding conditions to your advanced form
 
-If you need to add conditional logic to your advanced form, you'll need to identify the condition by adding the Dataverse column logical name and the evaluation you want to perform. The logical name of a column can be found by viewing the column configuration in [Data workspace](../configure/data-workspace-tables.md).
+If you need to add conditional logic to your advanced form, identify the condition by adding the Dataverse column logical name and the evaluation you want to perform. The logical name of a column can be found by viewing the column configuration in [Data workspace](../configure/data-workspace-tables.md).
 
 In the steps below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps. Other applicants will skip that step.
 
@@ -160,7 +160,7 @@ Repeat the instructions outlined until you've created the number of steps needed
 
 ## Link the steps
 
-Once the steps have been created, you will need to first go back and specify the start step and link all the steps you created previously.
+Once the steps have been created, you'll need to first go back and specify the start step and link all the steps you created previously.
 
 1. Open the Advanced Form record.
 
@@ -168,11 +168,11 @@ Once the steps have been created, you will need to first go back and specify the
 
     :::image type="content" source="media/tutorial/advanced-form-set-steps.png" alt-text="Entering in start step.":::
 
-1. For each step, ensure the **Next Step** is populated, with the exception of the last step.
+1. For each step, ensure the **Next Step** is populated, except for the last step.
 
     :::image type="content" source="media/tutorial/advanced-form-link-steps.png" alt-text="Link the steps.":::
 
-1. Conditional steps will have two targets, the step if the evaluation has passed and a step if the evaluation has have not passed.
+1. Conditional steps will have two targets, the step if the evaluation has passed and a step if the evaluation hasn't passed.
 
     :::image type="content" source="media/tutorial/advanced-form-condition-passed.png" alt-text="Condition passed in the step.":::
 
@@ -180,11 +180,11 @@ Once the steps have been created, you will need to first go back and specify the
 
 ## Table permissions
 
-Ensure that you have created all the appropriate [table permissions](../security/table-permissions.md) for the tables where records are being created, modified or associated with (for example, populating a lookup). 
+Ensure that you've created all the appropriate [table permissions](../security/table-permissions.md) for the tables where records are being created, modified or associated with (for example, populating a lookup). 
 
 ## Advanced form options
 
-Advanced forms can be configured for different behaviors, set default values, and specialized user controls. In the following example, we will replace a lookup column with drop-down control as it would provide a better experience for a user.
+Advanced forms can be configured for different behaviors, set default values, and specialized user controls. In the following example, we'll replace a lookup column with drop-down control as it would provide a better experience for a user.
 
 1. In the **Portal Management app**, choose **Advanced form**, then in the **Advanced Form Steps** tab, select the appropriate step.
 
@@ -208,9 +208,9 @@ Advanced forms can be configured for different behaviors, set default values, an
 
 ## Add an advanced form to a page
 
-Now that we have created an advanced form in the Portal Management app, we can now add it to a page in our site.
+Now that we've created an advanced form in the Portal Management app, we can now add it to a page in our site.
 
-We will need to use the code editor to add a [Liquid](../configure/liquid-overview.md) tag to the page to show the advanced form.
+We'll need to use the code editor to add a [Liquid](../configure/liquid-overview.md) tag to the page to show the advanced form.
 
 1. Open the design studio and **Add a page** or edit a page to which you want to add the advanced form.
 
@@ -234,7 +234,7 @@ We will need to use the code editor to add a [Liquid](../configure/liquid-overvi
 
 1. Select **Preview**.
 
-1. Sign-in to the your site.
+1. Sign-in to your site.
 
 1. Fill in and test your form.
 

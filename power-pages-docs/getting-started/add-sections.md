@@ -4,7 +4,7 @@ description: Learn how to add sections to your Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/03/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use sections to define a structure for your page and arrange portal components. After you add sections to the page, you can add portal components inside the sections to meet your requirements.
+Use sections to define a structure for your page and arrange portal components. Add portal components inside the sections you create to meet your requirements.
 
 ## Adding a section
 
@@ -33,7 +33,7 @@ Use sections to define a structure for your page and arrange portal components. 
 
 ## Editing a section
 
-After you've added a section, selecting the section will open the properties bar and allow you to configure the following.  
+After you've added a section, selecting the section will open the properties bar and allow you to configure the section's properties.  
 
 | Property | Description |
 | ----------- | ----------- |

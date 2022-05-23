@@ -199,7 +199,7 @@ In this video, we create a form by using the Data workspace.
 
 Power Pages has a robust security model to ensure that business information is properly protected. 
 
-Users can be provided access to your site through authentication. Power Pages users are represented by Dataverse contact records. Power Pages can be integrated with a number of authentication providers such as Azure Active Directory B2C, Microsoft, LinkedIn, and others.
+Users can be provided access to your site through authentication. Power Pages users are represented by Dataverse contact records. Power Pages can be integrated with many authentication providers such as Azure Active Directory B2C, Microsoft, LinkedIn, and others.
 
 The following videos provide an overview of authentication and walk you through configuring an identity provider and configuring page permissions.
 

@@ -4,7 +4,7 @@ description: Learn about Dataverse in context of Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/27/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -31,7 +31,7 @@ A feature of Dataverse is the ability for makers to use Power Apps to create [mo
 
 Power Pages sites are unique, but they have components that use these model-driven app views and forms as a foundation to build interactive, data-driven webpages.
 
-Using the Data workspace, a maker can use preexisting or new Dataverse model-driven app views to build [list](add-list.md) components, and preexisting or new Dataverse model-driven app forms to create [basic](add-form.md) or [advanced form](advanced-forms.md) components on pages.
+Using the Data workspace, a maker can use pre-existing or new Dataverse model-driven app views to build [list](add-list.md) components, and pre-existing or new Dataverse model-driven app forms to create [basic](add-form.md) or [advanced form](advanced-forms.md) components on pages.
 
 ### See also
 

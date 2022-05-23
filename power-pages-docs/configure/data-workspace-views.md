@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create and modify Dataverse 
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/16/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: ndoelman
@@ -31,7 +31,7 @@ You use the [Data workspace](..\getting-started\use-data-workspace.md) to create
 
 1. Select a site, and then select **Edit**.
 
-1. On the left toolbelt, select **Data**.
+1. On the left tool belt, select **Data**.
 
 ## View designer
 
@@ -43,7 +43,7 @@ On the left pane of the **Data** workspace, the **Tables in this site** section 
 
 1. In the table designer, select the **Views** tab.
 
-1. Do one of the following:
+1. Do one of the following steps:
 
     1. To create a new view, select **New View**.
 
@@ -65,7 +65,7 @@ On the left pane of the **Data** workspace, the **Tables in this site** section 
     | Redo | Redo your last undo change. |
     | Validate | Run a checker to see whether there would be any performance impacts with the current view configuration. |
     | Save | Save the view configuration. |
-    | Save As | Save the view configuration with a different name. This will create a copy of the current view. |
+    | Save As | Save the view configuration with a different name, which creates a copy of the current view. |
     | Publish view | Publish the view so that it can be used when creating a list on a page. |
 
 1. You'll also be able to select the column header and modify the following.

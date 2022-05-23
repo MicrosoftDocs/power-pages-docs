@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/16/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: ndoelman

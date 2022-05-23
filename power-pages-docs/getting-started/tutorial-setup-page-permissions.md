@@ -4,7 +4,7 @@ description: Learn how to allow or restrict access to your pages in your site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/16/2022
+ms.date: 05/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -15,9 +15,9 @@ contributors:
 
 # Tutorial: Setup page permissions 
 
-When we create our sites we may want to protect pages to specific audience or users.
+When we create our sites, we may want to protect pages to specific audience or users.
 
-In this tutorial we are going to learn how to hide or show a page based on the web role assigned to the signed-in user.
+In this tutorial, we're going to learn how to hide or show a page based on the web role assigned to the signed-in user.
 
 > [!div class="checklist"]
 > * Create page permissions
@@ -70,7 +70,7 @@ This video will provide an overview of the following steps.
 
 1. From the design studio, select **Preview** to view the site.
 
-1. With no user signed-in, observe that the web page that was protected does not appear in the main menu or navigation.
+1. With no user signed-in, observe that the web page that was protected doesn't appear in the main menu or navigation.
 
     :::image type="content" source="media/tutorial/page-permissions-no-view.png" alt-text="No visibility because page is protected.":::
 
