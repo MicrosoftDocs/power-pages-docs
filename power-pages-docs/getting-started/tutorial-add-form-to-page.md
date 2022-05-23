@@ -38,11 +38,9 @@ In this tutorial, you learn how to:
 
 ## Create a form
 
-This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+This video provides an overview of the steps to create a form.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ez]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -81,13 +79,11 @@ The form will appear in the list of forms for that table.
 
 Code components can be added to forms to allow advanced interaction with specific data fields. For example, we can enable rich text editing capabilities to a multi-line text field on a form.
 
-This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+This video provides an overview of the steps to add code components.
 
-1. In the **data workspace**, select the **Feedback table** and choose the **Forms tab**.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ey]
+
+1. In the **Data workspace**, select the **Feedback table** and choose the **Forms tab**.
 
 1. Select the form you created earlier.
 
@@ -106,10 +102,8 @@ The form now has a code component linked to the field.
 The following steps provide details on how to add your form to a page.
 
 This video provides an overview of the steps to add a form to a page.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5G7]
 
 1. Open a Power Pages site in the design studio.
 
@@ -155,11 +149,9 @@ This video provides an overview of the steps to add a form to a page.
 
 Earlier we enabled the rich text editor component on the comments field in our form. In order for the rich text editor to render on the page, we need to add some metadata. 
 
-This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+This video provides an overview of the steps to configure form options.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYep]
 
 1. In the design studio, open a page with a form component and select the form you previously created.
 

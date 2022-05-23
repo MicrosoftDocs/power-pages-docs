@@ -35,11 +35,9 @@ In this tutorial, you learn how to:
 
 ## Add custom CSS to your site
 
-This video will provide an overview of the following steps.
-<!--embed video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ZZZZZZ]
--->
-[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]
+This video provides an overview of the steps to add custom CSS to your site.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
 
 1. Create or download a custom theme and save as a .CSS file.
 
