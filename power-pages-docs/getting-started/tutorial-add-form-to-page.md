@@ -38,7 +38,7 @@ In this tutorial, you learn how to:
 
 ## Create a form
 
-This video will provide an overview of the following steps.
+This video will provide an overview of the steps to create a form.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ez]
 
@@ -79,7 +79,7 @@ The form will appear in the list of forms for that table.
 
 Code components can be added to forms to allow advanced interaction with specific data fields. For example, we can enable rich text editing capabilities to a multi-line text field on a form.
 
-This video will provide an overview of the following steps.
+This video provides an overview of the steps to add code components.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ey]
 
@@ -149,7 +149,7 @@ This video provides an overview of the steps to add a form to a page.
 
 Earlier we enabled the rich text editor component on the comments field in our form. In order for the rich text editor to render on the page, we need to add some metadata. 
 
-This video will provide an overview of the following steps.
+This video will provide an overview of the steps to configure form options.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYep]
 
