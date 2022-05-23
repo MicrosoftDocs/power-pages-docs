@@ -20,7 +20,7 @@ contributors:
 
 The **Forms** tab displays the forms used in the basic forms that are embedded in the site, and all other forms in the environment that are associated with the respective table. It only shows the **main** form type that is supported in portals. 
 
-You use the [Data workspace](..\getting-started\use-data-workspace.md) to create and modify Dataverse table forms directly in the Power Pages design studio.
+You use the [data workspace](..\getting-started\use-data-workspace.md) to create and modify Dataverse table forms directly in the Power Pages design studio.
 
 > [!NOTE]
 > You'll need to ensure that the changes you make to forms are published before you create basic and advanced form components on pages.
