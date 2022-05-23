@@ -18,9 +18,10 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-In order to create custom page layouts for Power Pages, you will need to create web templates.
+In order to create custom page layouts for Power Pages, you will need to create a **web template** and a corresponding **page template**. 
 
-> [!NOTE]
-> Custom page layouts are not available during preview.
+For detailed information on how to use **page templates** on your site, go to [Work with templates](/power-apps/maker/portals/work-with-templates) in the Power Apps documentation.
 
-For detailed information on how to use web templates on your site, go to [Store source content by using web templates](/powerapps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
+For detailed information on how to use **web templates** on your site, go to [Store source content by using web templates](/powerapps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
+
+

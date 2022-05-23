@@ -39,9 +39,6 @@ The **Pages** workspace enables you to design and build webpages with in-context
 
     [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-    > [!NOTE]
-    > Custom page layouts are not available during preview.    
-
     For detailed information on how to create custom page templates, go to [Create and manage page templates](/power-apps/maker/portals/configure/page-templates) and [Store source content by using web templates](/power-apps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
 
 1. Add content and components to your page. For more information, go to [Customize pages](customize-pages.md).
