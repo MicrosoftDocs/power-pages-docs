@@ -18,4 +18,8 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For detailed information on how to update the Power Apps portals solution, go to [Update the Power Apps portals solution](/powerapps/maker/portals/admin/update-portal-solution) in the Power Apps documentation.
+When you add a Power Pages site to your environment, a number of solutions are installed. Periodically, new solutions updates are made available.
+
+Updating solutions for Power Pages follows the same process as updating solutions for Power Apps portals.
+
+For detailed information on how to update the Power Apps portals solutions, go to [Update the Power Apps portals solution](/powerapps/maker/portals/admin/update-portal-solution) in the Power Apps documentation.

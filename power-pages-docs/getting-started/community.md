@@ -17,9 +17,11 @@ Join the discussion in the [Power Pages forum](https://powerusers.microsoft.com/
 
 ### See also
 
-[Power Apps portals community forums](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals)  
-[Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)  
-[Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)  
-[Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
+- [Power Platform community](https://aka.ms/MPPcommunity)
+- [Power Platform ideas](https://aka.ms/MPP_Ideas)
+- [Power Apps portals community forums](https://powerusers.microsoft.com/t5/Power-Apps-Portals/bd-p/PowerAppsPortals)  
+- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)  
+- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)  
+- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
 
 
