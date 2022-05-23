@@ -23,7 +23,7 @@ You can build applications&mdash;including Power Pages sites&mdash;that are conn
 
 ## Data workspace
 
-Makers are able to create and modify Dataverse [tables](/power-apps/maker/data-platform/entity-overview) directly in the design studio by using the [Data workspace](use-data-workspace.md).
+Makers are able to create and modify Dataverse [tables](/power-apps/maker/data-platform/entity-overview) directly in the design studio by using the [data workspace](use-data-workspace.md).
 
 :::image type="content" source="media/data-workspace/table-designer.png" alt-text="Data workspace table designer.":::
 
@@ -35,6 +35,6 @@ Using the Data workspace, a maker can use pre-existing or new Dataverse model-dr
 
 ### See also
 
-[Create and modify tables](../configure/data-workspace-tables.md)<br>
-[Create and modify views](../configure/data-workspace-views.md)<br>
+[Create and modify tables](../configure/data-workspace-tables.md)<br />
+[Create and modify views](../configure/data-workspace-views.md)<br />
 [Create and modify forms](../configure/data-workspace-forms.md)
