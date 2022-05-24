@@ -1,9 +1,9 @@
 {
-  "redirections": [    
+  "redirections": [
     {
-    "source_path": "power-pages-docs/coming-soon.md",
-    "redirect_url": "https://docs.microsoft.com",
-    "redirect_document_id": "false"
+      "source_path": "power-pages-docs/coming-soon.md",
+      "redirect_url": "index",
+      "redirect_document_id": "false"
     }
-  ]
+   ]
 }

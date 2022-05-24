@@ -1,0 +1,11 @@
+- name: Docs
+  href: /
+  topicHref: /
+  items:
+  - name: Power Platform
+    href: /power-platform/
+    topicHref: /power-platform/
+    items:
+    - name: Power Pages (preview)
+      tocHref: /power-pages/
+      topicHref: /power-pages/

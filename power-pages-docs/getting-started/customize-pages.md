@@ -1,0 +1,61 @@
+---
+title: Customize webpages
+description: Learn how to customize Power Pages sites.
+author: nickdoelman
+ms.topic: conceptual
+ms.custom: 
+ms.date: 05/24/2022
+ms.subservice:
+ms.author: ndoelman 
+ms.reviewer: 
+contributors:
+    - nickdoelman
+    - ProfessorKendrick
+---
+
+# Customize webpages
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+## Design studio page editor
+
+After adding the webpages you need and managing their hierarchy in the site map, you can add various components. The WYSIWYG design studio page editor is part of the Pages workspace. Use the editor to add and edit the components you need within the canvas.
+
+### Using the editor
+
+To use the editor:
+
+1. Open the [design studio](use-design-studio.md) to edit the content and components of the portal.
+
+1. Go to the **Pages** workspace.
+
+1. Select the page where you'd like to add the component or section.
+
+1. To add a section, hover over any editable section area, and then select the plus sign (**+**). You can then choose between six section layout options.
+
+    :::image type="content" source="media/first-page/add-section-layout.png" alt-text="Add a section layout.":::
+
+1. To add a component, hover over the section where you'd like to place the component, and then select **+**. You can then choose between the available components.  
+
+    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+
+1. To delete a component, choose the component on the canvas and then select **Delete**.
+
+For a more immersive editing experience, you can use the full-screen editing mode by selecting the double arrow icon in the upper-right corner of the editor.
+
+All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
+
+### See also
+
+[Add text](add-text.md)<br>
+[Add button](add-button.md)<br>
+[Add image](add-image.md)<br>
+[Add video](add-video.md)<br>
+[Add spacer](add-spacer.md)<br>
+[Add Power BI](add-power-bi.md)<br>
+[Add list](add-list.md)<br>
+[Add form](add-form.md)<br>
+[Add iframe](add-iframe.md)<br>
+[Add advanced form](advanced-forms.md)<br>
+[Use Code Editor](code-editor.md)<br>
+[Structure site map](structure-site.md)<br>
