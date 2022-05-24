@@ -75,5 +75,9 @@ During the first run of the sign-up experience, you need to create a trial site.
 
 Creating a trial site in a new trial environment takes a few minutes.  This is because the environment created is optimized and preinstalled with the site templates. Creating a trial site in an existing environment that doesn't have the preinstalled site templates takes 15 to 30 minutes because the site template has to be installed before the site itself is created. 
 
+### I signed up for the trial, but I can't see the trial site in the Power Pages home? 
+
+If you don't see your site created when you sign up for a Power Pages trial, the site creation may have failed due to your company's tenant being in a different region than your chosen environment. You can attempt to create another site by selecting the **Create a Site** button on the Power Pages home page.
+
 
 
