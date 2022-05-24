@@ -11,7 +11,7 @@ ms.reviewer: nickdoelman
 
 # Power Pages community
 
-Join the [Power Pages Community](https://powerusers.microsoft.com/t5/Microsoft-Power-Pages-Community/ct-p/MPPCommunity), where you can interact with other users, the Microsoft Community team, and discover what’s new and next. With blogs, videos, app samples, technical forums, the latest news and announcements, and more, it’s your way to ask questions, get answers, and stay connected.
+Join the [Power Pages Community](https://aka.ms/PowerPagesCommunity), where you can interact with other users, the Microsoft Community team, and discover what’s new and next. With blogs, videos, app samples, technical forums, the latest news and announcements, and more, it’s your way to ask questions, get answers, and stay connected.
 
 ### See also
 
