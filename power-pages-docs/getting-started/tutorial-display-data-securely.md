@@ -132,7 +132,7 @@ In our examples so far, we've assigned the table permissions to the default **Au
 
 We can also create our own custom web roles to further limit access to data and pages to certain site visitors.
 
-This video will provide an overview of the following steps.
+This video provides an overview of the steps to add web roles.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
@@ -150,7 +150,7 @@ This video will provide an overview of the following steps.
 
     :::image type="content" source="media/tutorial/add-contacts-webrole.png" alt-text="Add contacts to web role.":::
 
-    > ![NOTE]
+    > [!NOTE]
     > Site users are stored as Contacts records.
 
 1. Within the design studio on a list or a form, choose the permissions button and select a table permission, then assign the custom web role.
