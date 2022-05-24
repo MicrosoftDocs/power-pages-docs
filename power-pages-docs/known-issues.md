@@ -40,5 +40,5 @@ contributors:
 
 - When you create a site for the first time in a new environment, you won't be able to rename the environment; however, the ability to rename the environment when it's created will be available in a future update. 
 
--  If you don't see your site created when you sign up for a Power Pages trial, the site creation may have failed due to your company's tenant being in a different region than your chosen environment. You can attempt to create another site by selecting the **Create a Site** button on the Power Pages home page.
+- If you don't see your site created when you sign up for a Power Pages trial, the site creation may have failed due to your company's tenant being in a different region than your chosen environment. You can attempt to create another site by selecting the **Create a Site** button on the Power Pages home page.
 
