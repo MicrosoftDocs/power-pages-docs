@@ -18,9 +18,7 @@ contributors:
 
 This checklist is guidance to help you plan your Power Pages and Power Apps portals projects.
 
-The new design studio and templates of Power Pages are in public preview and aren't yet recommended for production usage. 
-
-All tPower Apps portals capabilities are generally available and supported for use in production scenarios. You'll be able to utilize the Power Pages capabilities when they become GA.
+The new design studio and templates in Power Pages are in public preview and we recommend that you wait until the general availability of Power Pages later this year to use sites created using the new design studio in production scenarios. All the Power Apps portals capabilities inherited by Power Pages are generally available and supported for use in production scenarios.
 
 As you prepare and consider going live with your project, here are a few areas to keep in mind:
 
