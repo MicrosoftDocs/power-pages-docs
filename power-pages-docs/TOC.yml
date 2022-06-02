@@ -92,7 +92,7 @@
     href: configure/setup-workspace.md
 - name: Administer Power Pages
   items:   
-    - name: Using the portals admin center
+    - name: Use the portals admin center
       href: admin/admin-overview.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
@@ -130,7 +130,7 @@
       href: security/power-pages-security.md  
     - name: Configure authentication
       href: security/configure-portal-authentication.md
-    - name: Providing external access
+    - name: Provide external access
       href: security/external-access.md         
     - name: Configure web roles 
       href: security/create-web-roles.md
@@ -164,7 +164,7 @@
     href: getting-started/tutorial-add-multi-step-form.md
   - name: "Tutorial: Configure site authentication"
     href: getting-started/tutorial-setup-site-authentication.md
-  - name: "Tutorial: Setup page permissions"
+  - name: "Tutorial: Set up page permissions"
     href: getting-started/tutorial-setup-page-permissions.md       
   - name: "Tutorial: Add custom styling to your site"
     href: getting-started/tutorial-add-custom-style.md
