@@ -60,7 +60,7 @@ Your trial environment includes many of the same features as the paid version. T
 - [Style your site](style-site.md)
 - [Create a data driven web application](what-is-dataverse.md)
 
-## More resources
+## Additional resources
 
 - [Explore training on Microsoft Learn](/learn/browse/?terms=power%20apps%20portals)
 - [Watch videos on the product playlist](../training-videos/index.md)
