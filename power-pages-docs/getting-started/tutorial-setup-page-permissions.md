@@ -1,10 +1,10 @@
 ---
-title: "Tutorial: Setup page permissions"
+title: "Tutorial: Set up page permissions"
 description: Learn how to allow or restrict access to your pages in your site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 06/02/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Tutorial: Setup page permissions 
+# Tutorial: Set up page permissions 
 
 When we create our sites, we may want to protect pages to specific audience or users.
 
