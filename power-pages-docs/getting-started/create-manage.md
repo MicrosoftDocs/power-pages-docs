@@ -4,7 +4,7 @@ description: Learn how to create and manage Power Pages sites
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/07/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -24,9 +24,13 @@ Power Pages provides a list of templates to choose from to quickly build your si
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-    The first time you visit the site, you'll be presented with a **Get started** button and be able to [sign up for a free, 30-day trial](trial-signup.md). 
+    The first time you visit the site, you'll be presented with a **Try it for free** button and be able to [sign up for a free, 30-day trial](trial-signup.md). 
 
 1. On the home page, select **Create a site**.
+
+    > [!NOTE]
+    > - You can select different [Microsoft Dataverse environments](/power-platform/admin/environments-overview) in which to create a site. 
+    > - It is not recommended to create a site in the [*default* environment](/power-platform/admin/environments-overview#the-default-environment).
 
     :::image type="content" source="media/default-template/create.png" alt-text="The design studio GUI with the Create a site button selected.":::
 
