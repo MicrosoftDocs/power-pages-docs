@@ -4,7 +4,7 @@ description: Learn how to configure Azure AD B2C authentication provider to your
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 06/02/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -44,7 +44,7 @@ This video provides an overview of the steps to configure authentication provide
 
 1. In design studio, select **Set up**.  
     - Under **Authentication**, choose **Identity Providers**.
-    :::image type="content" source="media/tutorial/setup.png" alt-text="Choose an identity provider from the Set up menu.":::
+    :::image type="content" source="media/tutorial/setup.png" alt-text="Choose an identity provider from the Setup menu.":::
 
 1. Select **Configure**.
 
