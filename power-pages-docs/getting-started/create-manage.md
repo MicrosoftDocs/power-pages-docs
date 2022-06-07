@@ -26,11 +26,14 @@ Power Pages provides a list of templates to choose from to quickly build your si
 
     The first time you visit the site, you'll be presented with a **Try it for free** button and be able to [sign up for a free, 30-day trial](trial-signup.md). 
 
-1. On the home page, select **Create a site**.
+1. Select the [Microsoft Dataverse environment](/power-platform/admin/environments-overview) in which to create a site.
+
+    :::image type="content" source="media/default-template/choose-environment.png" alt-text="Selecting a Microsoft Dataverse environment.":::
 
     > [!NOTE]
-    > - You can select different [Microsoft Dataverse environments](/power-platform/admin/environments-overview) in which to create a site. 
     > - It is not recommended to create a site in the [*default* environment](/power-platform/admin/environments-overview#the-default-environment).
+
+1. On the home page, select **Create a site**.
 
     :::image type="content" source="media/default-template/create.png" alt-text="The design studio GUI with the Create a site button selected.":::
 
