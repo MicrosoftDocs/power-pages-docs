@@ -21,7 +21,7 @@ This checklist is guidance to help you plan your Power Pages and Power Apps port
 > [!IMPORTANT]
 > - Power Pages is an evolution of Power Apps portals, and the new features introduced by Power Pages such as the new design studio and templates are in preview for users to try and provide feedback. We recommend that you wait until the general availability of Power Pages later this year to use sites created using the new Power Pages design studio in production scenarios.
 > - All the platform, site admin, and pro 
-developer capabilities inherited by Power Pages from Power Apps portals are generally available and can be used in production scenarios. More information: [Power Pages and Power Apps portals](#power-pages-and-power-apps-portals)
+developer capabilities inherited by Power Pages from Power Apps portals are generally available and can be used in production scenarios. More information: [Power Pages and Power Apps portals](../difference-portals.md)
 
 As you prepare and consider going live with your project, here are a few areas to keep in mind:
 
