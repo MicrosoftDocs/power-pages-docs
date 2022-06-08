@@ -4,7 +4,7 @@ description: Learn how to create and manage Power Pages sites
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2022
+ms.date: 06/08/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -31,7 +31,7 @@ Power Pages provides a list of templates to choose from to quickly build your si
     :::image type="content" source="media/default-template/choose-environment.png" alt-text="Selecting a Microsoft Dataverse environment.":::
 
     > [!NOTE]
-    > - It is not recommended to create a site in the [*default* environment](/power-platform/admin/environments-overview#the-default-environment).
+    > It is not recommended to create a site in the [*default* environment](/power-platform/admin/environments-overview#the-default-environment) as it is shared across all the users in the tenant, and has a risk of sharing data with unintentional users.
 
 1. On the home page, select **Create a site**.
 
@@ -54,6 +54,12 @@ Power Pages provides a list of templates to choose from to quickly build your si
 1. After the site is created, you can begin to edit or preview your site.
 
     :::image type="content" source="media/default-template/manage-site.png" alt-text="Power Pages home page with site created.":::
+
+## Additional Info
+
+Creating a site will also load the site metadata for the other [templates](../templates/) and will appear as website records in the [Portal Management app](../configure/portal-management-app.md). If you choose to try the other templates, this will speed up the creation process.
+
+    :::image type="content" source="media/default-template/websites.png" alt-text="Website records in Portal Management app.":::
 
 ## Next steps
 
