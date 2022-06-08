@@ -64,7 +64,7 @@ conceptualContent:
         - text: Design your home page
           url: training-videos/index.md#design-your-home-page
           itemType: video
-        - text: Setup your brand kit
+        - text: Set up your brand kit
           url: training-videos/index.md#setup-your-brand-kit
           itemType: video
         - text: Create a page with a list
@@ -98,7 +98,7 @@ conceptualContent:
       - text: Using the Portal Management app
         url: configure/portal-management-app.md
         itemType: reference  
-      - text: Using VS Code and Power Platform CLI
+      - text: Using Visual Studio Code and Power Platform CLI
         url: configure/cli-tutorial.md
         itemType: how-to-guide  
       - text: Planning your Power Pages project
@@ -152,7 +152,7 @@ conceptualContent:
       - text: Power Pages security overview
         url: security/power-pages-security.md
         itemType: reference           
-      - text: Authentication setup
+      - text: Authentication set up
         url: security/configure-portal-authentication.md
         itemType: how-to-guide     
       - text: Configure web roles
