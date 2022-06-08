@@ -25,6 +25,9 @@ You use the [data workspace](..\getting-started\use-data-workspace.md) to create
 > [!NOTE]
 > You'll need to ensure that the changes you make to views are published before you used them to create list components on pages.
 
+> [!TIP]
+> We've created a series of tutorials and videos for you to learn to use Power Pages and how create a view and add a list to a page. For more information, go to [Tutorial: Add a list to a page](../getting-started/tutorial-add-list-to-page.md).
+
 ## Use the Data workspace
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
