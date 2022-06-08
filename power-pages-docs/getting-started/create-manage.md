@@ -55,9 +55,9 @@ Power Pages provides a list of templates to choose from to quickly build your si
 
     :::image type="content" source="media/default-template/manage-site.png" alt-text="Power Pages home page with site created.":::
 
-## Additional Info
+## Additional info
 
-Creating a site will also load the site metadata for the other [templates](../templates/index.md) and will appear as website records in the [Portal Management app](../configure/portal-management-app.md). If you choose to try the other templates, this will speed up the creation process.
+To speed up the process when you create a site with a new trial environment, the site metadata for all the [templates](../templates/index.md) will be preloaded and appear as website records in the [Portal Management app](../configure/portal-management-app.md).
 
 :::image type="content" source="media/default-template/websites.png" alt-text="Website records in Portal Management app.":::
 
