@@ -21,6 +21,9 @@ A list is a data-driven configuration used to render a list of records without t
 
 A list displays data in a grid view on Power Pages sites. Lists on pages are created from Dataverse table views. Dataverse table views can be created by using the [Data workspace](use-data-workspace.md) or from [model-driven apps created in Power Apps](/power-apps/maker/model-driven-apps/accessing-view-definitions/). You can use them on pages or with [forms](add-form.md) to build a complete web application.
 
+> [!TIP]
+> We've created a series of tutorials and videos for you to learn to use Power Pages and how create a view and add a list to a page. For more information, go to [Tutorial: Add a list to a page](tutorial-add-list-to-page.md).
+
 To add a list:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of the page.
@@ -63,6 +66,6 @@ To add a list:
 
 ### See also
 
-[Create and modify views](../configure/data-workspace-views.md)<br>
-[Tutorial: Add a list to a page](tutorial-add-list-to-page.md)
+- [Create and modify views](../configure/data-workspace-views.md)
+- [Tutorial: Add a list to a page](tutorial-add-list-to-page.md)
 
