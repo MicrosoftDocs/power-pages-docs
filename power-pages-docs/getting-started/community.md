@@ -1,12 +1,15 @@
 ---
 title: Power Pages community - Share your experience | Microsoft Docs
 description: Provides information about Microsoft forums where you can read and contribute to discussions about Power Pages 
-author: nickdoelman
+author: prvaidy
 ms.topic: conceptual
 ms.custom:
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.author: ndoelman
 ms.reviewer: nickdoelman
+contributors:
+    - ndoelman
+    - ProfessorKendrick
 ---
 
 # Power Pages community

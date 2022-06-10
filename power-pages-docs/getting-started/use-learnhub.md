@@ -1,10 +1,10 @@
 ---
 title: How to use the learning hub
 description: Learn how to use the learning hub.
-author: nickdoelman
+author: prvaidy
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
