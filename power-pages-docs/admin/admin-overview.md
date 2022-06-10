@@ -1,10 +1,10 @@
 ---
 title: Use the portals admin center
 description: Learn how to use the portals admin center
-author: nickdoelman
+author: nenandw
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/02/2022
+ms.date: 06/10/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:

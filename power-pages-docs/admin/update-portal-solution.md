@@ -1,10 +1,10 @@
 ---
 title: Update the Power Apps portals solution
 description: Learn how to update the Power Apps portal solution
-author: nickdoelman
+author: nenandw
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-When you add a Power Pages site to your environment, a number of solutions are installed. Periodically, new solutions updates are made available.
+When you add a Power Pages site to your environment, many solutions are installed. Periodically, new solutions updates are made available.
 
 Updating solutions for Power Pages follows the same process as updating solutions for Power Apps portals.
 
