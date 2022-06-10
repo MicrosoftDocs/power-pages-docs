@@ -1,10 +1,10 @@
 ---
 title: Power Pages capabilities
 description: Learn about Power Pages capabilities.
-author: nickdoelman
+author: sandhan
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -78,7 +78,7 @@ Power Pages provides deep integration with other [Microsoft Power Platform](/pow
 
 - **Dataverse** enables users to securely store and manage data that's used by business applications and your Power Pages sites. Use model-driven app constructs like forms, views, charts, and dashboards to easily surface Dataverse data. 
 
-- **Power Apps** enables anyone to create no-code/low-code custom mobile and web apps to share and collect data and streamline business processes. Using Power Apps to create an app that uses SharePoint to store content is a popular way to quickly build basic intranet sites, whereas Power Pages is ideal for websites focused on external audiences that require more secure access to your business information.  
+- **Power Apps** enables anyone to create no-code/low-code custom mobile and web apps to share and collect data and streamline business processes. Using Power Apps to create an app that uses SharePoint to store content is a popular way to quickly build basic intranet sites. Power Pages is ideal for websites focused on external audiences that require more secure access to your business information.  
 
 - **Power Automate** simplifies the creation of automated workflows. With Power Pages, use Power Automate for plug-ins, workflows, automated cloud flows, or to extend business logic and interact with data and events coming and going in and out of Dataverse. 
 
