@@ -1,10 +1,10 @@
 ---
 title: Web templates in Power Pages
 description: Learn how to use web templates.
-author: nickdoelman
+author: nenandw
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-In order to create custom page layouts for Power Pages, you will need to create a **web template** and a corresponding **page template**. 
+In order to create custom page layouts for Power Pages, you'll need to create a **web template** and a corresponding **page template**. 
 
 For detailed information on how to use **page templates** on your site, go to [Work with templates](/power-apps/maker/portals/work-with-templates) in the Power Apps documentation.
 

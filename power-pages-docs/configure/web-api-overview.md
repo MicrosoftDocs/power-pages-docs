@@ -1,10 +1,10 @@
 ---
 title: Power Pages Web API overview
 description: Learn about the Portals Web API.
-author: nickdoelman
+author: nenandw
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
