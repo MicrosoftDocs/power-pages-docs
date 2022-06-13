@@ -92,7 +92,7 @@ conceptualContent:
       - text: "Styling workspace: Theme and style your site"
         url: getting-started/style-site.md
         itemType: get-started
-      - text: Create Power Pages sites using templates
+      - text: Create Power Pages sites with templates
         url: templates/index.md
         itemType: get-started                 
       - text: Use the Portal Management app
