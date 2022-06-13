@@ -1,9 +1,9 @@
 ---
 title: "Sign up for a free trial - Power Pages | Microsoft Docs"
-description: "Learn how to quickly sign up for and start a free Power Pages trial. Explore the app with tours and videos, and find additional learning resources."
+description: "Learn how to quickly sign up for and start a free Power Pages trial. Explore the app with tours and videos, and find more learning resources."
 author: sampatn
 ms.author: sampatn
-ms.date: 05/24/2022
+ms.date: 06/08/2022
 ms.topic: get-started
 ms.custom: template-trial-setup 
 ms.reviewer: ndoelman
@@ -21,13 +21,13 @@ Power Pages offers a free 30-day trial. After a quick sign-up, you'll have acces
 
 **To sign up for the trial**
 
-1. Go to https://powerpages.microsoft.com, and then select **Get started**.
+1. Go to https://powerpages.microsoft.com, and then select **Try it for free**.
 
-    :::image type="content" source="../media/overview/powerpages-get-started.png" alt-text="Get started with Power Pages.":::
+    :::image type="content" source="../media/overview/try-it-free.png" alt-text="The home page for Microsoft Power Pages with the Try it for free button emphasized.":::
 
 1. Follow the onscreen guidance to enter the work or school email address, backed by Azure Active Directory, to sign up for a trial license. 
 
-1. On subsequent screens, please answer a few (three) questions that won't take more than two minutes to answer, so we can provide you with the best experience of creating sites.
+1. On subsequent screens, answer a few (three) questions that won't take more than two minutes to answer, so we can provide you with the best experience of creating sites.
 
 1. Choose a template that best aligns to what you want to use your site for. If none of the business need templates match what you're looking for, choose the **Default design template** for cross-industry solutions.
 
@@ -40,9 +40,7 @@ Power Pages offers a free 30-day trial. After a quick sign-up, you'll have acces
 1. After you've added all required details, select **Done**.
 
 1. The process will take a few moments to set up your site and environment. After the site is created, you'll see your new site in the design studio, where you're provided with a short tour of the design studio features.
-    <!-- GIF to be added
-    :::image type="content" source="media/trial/powerpages-new-site-tour-designstudio.png" alt-text="Tour the design studio.":::
-    -->
+
 1. As soon as you make changes to your site, you can select **Preview** to preview your site by using a web browser or by scanning a QR code on a mobile device. 
 
 1. If you revisit https://powerpages.microsoft.com and select **Sign-in**, you'll be redirected to the [Power Pages home page](https://make.powerpages.microsoft.com). You'll see your site listed on the Power Pages home page.
@@ -59,6 +57,12 @@ Your trial environment includes many of the same features as the paid version. T
 - [Create and design pages](first-page.md)
 - [Style your site](style-site.md)
 - [Create a data driven web application](what-is-dataverse.md)
+
+## Additional info
+
+To speed up the process when you create a site with a new trial environment, the site metadata for all the [templates](../templates/index.md) will be preloaded and appear as website records in the [Portal Management app](../configure/portal-management-app.md).
+
+:::image type="content" source="media/default-template/websites.png" alt-text="Website records in Portal Management app.":::
 
 ## Additional resources
 

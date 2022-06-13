@@ -25,6 +25,9 @@ You use the [data workspace](..\getting-started\use-data-workspace.md) to create
 > [!NOTE]
 > You'll need to ensure that the changes you make to forms are published before you create basic and advanced form components on pages.
 
+> [!TIP]
+> We've created a series of tutorials and videos for you to learn to use Power Pages and how create and add a form to a page. For more information, go to [Tutorial: Add a form to a page](../getting-started/tutorial-add-form-to-page.md).
+
 ## Use the Data workspace
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).

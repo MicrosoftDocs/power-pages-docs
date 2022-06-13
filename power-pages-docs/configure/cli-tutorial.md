@@ -1,8 +1,7 @@
 ---
-title: Using Visual Studio Code and the Microsoft Power Platform CLI
+title: Use Visual Studio Code and Microsoft Power Platform CLI
 description: Learn how to use Visual Studio Code and the Microsoft Power Platform CLI
 author: nickdoelman
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/24/2022
@@ -14,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Using Visual Studio Code and the Microsoft Power Platform CLI
+# Use Visual Studio Code and Microsoft Power Platform CLI
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
