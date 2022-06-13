@@ -152,7 +152,7 @@ conceptualContent:
       - text: Power Pages security overview
         url: security/power-pages-security.md
         itemType: reference           
-      - text: Authentication set up
+      - text: Set up authentication
         url: security/configure-portal-authentication.md
         itemType: how-to-guide     
       - text: Configure web roles
