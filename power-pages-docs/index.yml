@@ -95,13 +95,13 @@ conceptualContent:
       - text: Create Power Pages sites using templates
         url: templates/index.md
         itemType: get-started                 
-      - text: Using the Portal Management app
+      - text: Use the Portal Management app
         url: configure/portal-management-app.md
         itemType: reference  
-      - text: Using Visual Studio Code and Power Platform CLI
+      - text: Use Visual Studio Code and Power Platform CLI
         url: configure/cli-tutorial.md
         itemType: how-to-guide  
-      - text: Planning your Power Pages project
+      - text: Plan your Power Pages project
         url: configure/planning-power-pages-project.md
         itemType: reference                                                                                                                                                                              
     # Card
@@ -111,7 +111,7 @@ conceptualContent:
         - text: Dataverse and Power Pages
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
-        - text: Using the data workspace
+        - text: Use the data workspace
           url: getting-started/use-data-workspace.md
           itemType: tutorial
         - text: Add lists to pages
@@ -130,7 +130,7 @@ conceptualContent:
     - title: Customize and extend
       summary: Use professional developer tools and methods
       links:
-      - text: Using Liquid
+      - text: Use Liquid
         url: configure/liquid-overview.md
         itemType: reference
       - text: Web templates
@@ -178,13 +178,13 @@ conceptualContent:
     - title: Administer and monitor
       summary: Administer and monitor your Power Pages sites           
       links:
-      - text: Using the portals admin center
+      - text: Use the portals admin center
         url: admin/admin-overview.md
         itemType: reference
       - text: Troubleshooting and diagnostics
         url: admin/view-portal-error-log.md
         itemType: reference   
-      - text: Maintaining and updating Power Pages
+      - text: Maintain and update Power Pages
         url: admin/update-portal-solution.md
         itemType: reference
       - text: Review consumption
