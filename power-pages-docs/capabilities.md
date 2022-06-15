@@ -39,7 +39,7 @@ The new and enhanced [design studio](getting-started/use-design-studio.md) provi
 - [Pages workspace](getting-started/first-page.md) for creating, designing, and arranging webpages
 - [Style workspace](getting-started/style-site.md) for applying styles and themes to your site
 - [Data workspace](getting-started/use-data-workspace.md) for creating and modifying Microsoft Dataverse tables used in data-driven web applications
-- [Setup workspace](configure/setup-workspace.md) for administration and site management
+- [Set up workspace](configure/setup-workspace.md) for administration and site management
 
 ## Responsive rendering
 

@@ -36,7 +36,7 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 
 - **Data workspace** lets you easily model, visualize, and manage business data for the site with tables, forms, and lists. You can create and edit Dataverse tables for the site and create new or edit existing model-driven forms and views. Changes made in the Data workspace are stored in the Common data store. [Learn more about the Data workspace](use-data-workspace.md).
 
-- **Setup workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. [Learn more about the Setup workspace](..\configure\setup-workspace.md).
+- **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. [Learn more about the Set up workspace](..\configure\setup-workspace.md).
 
 ## Preview your site
 

@@ -1,6 +1,6 @@
 ---
 title: Using the Set up workspace
-description: Learn how to use the Setup workspace.
+description: Learn how to use the Set up workspace.
 author: neerajnandwana-msft
 
 ms.topic: conceptual
