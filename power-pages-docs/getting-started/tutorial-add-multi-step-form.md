@@ -4,7 +4,7 @@ description: Learn how to add multi-step forms to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 06/15/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -49,7 +49,9 @@ An advanced form is composed of an advanced form record and a series of steps.
 
 :::image type="content" source="media/tutorial/advanced-form-diagram.png" alt-text="A diagram of an advanced form.":::
 
-In the steps below, we'll create an advanced form. This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times.  
+In the steps below, we'll create an advanced form. This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times. 
+
+![Animation that shows the working advanced form in action.](media/advanced-form.gif "Animation that shows the working advanced form in action.")
 
 > [!NOTE]
 > You'll need to adjust these steps to reflect your own business requirements.
@@ -74,9 +76,9 @@ In the steps below, we'll create an advanced form. This advanced form will requi
     - **Name** can be anything descriptive.
     - Set the **Website** is your website (press **Enter** to view list of sites).
     - **Start Step** will be blank for now, we'll set the start step later in the tutorial.
-    - Set **Authentication required** to **Yes**.
-    - Set **Start new session on load** to **No**.
-    - Set **Multiple records per user permitted** to **Yes**.
+    - Set **Authentication required** to **Yes** (this will required your users sign in to the site to use the advanced form).
+    - Set **Start new session on load** to **No** (this will allow your users to pick up where they left off in the advanced form steps).
+    - Set **Multiple records per user permitted** to **Yes** (this will allow your users to use the advanced form multiple times to create multiple submissions).
     
     Optionally, you can enable the **Progress Indicator** (scroll down) to show users their progress when filling out a form. 
     
