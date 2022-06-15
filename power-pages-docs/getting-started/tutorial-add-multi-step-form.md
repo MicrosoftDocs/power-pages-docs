@@ -51,7 +51,7 @@ An advanced form is composed of an advanced form record and a series of steps.
 
 In the steps below, we'll create an advanced form. This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times. 
 
-![Animation that shows the working advanced form in action.](media/tutorial/advanced-form.gif "Animation that shows the working advanced form in action.")
+:::image type="content" source="media/tutorial/advanced-form.gif" alt-text="Animation that shows the working advanced form in action.":::
 
 > [!NOTE]
 > You'll need to adjust these steps to reflect your own business requirements.
