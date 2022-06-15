@@ -160,6 +160,16 @@ In the steps below, we'll check to see if an applicant is pursuing a Masters deg
 
 Repeat the instructions outlined until you've created the number of steps needed for your business process.
 
+In the example, we have created the following steps for the scenario of applying for a scholarship.
+
+| Step | Type | Mode | Details | 
+| - | - | - | - | 
+| Choose Scholarship | Load Form | Insert | - Creates an application record</br>- User chooses scholarship |  
+| Application Details | Load Form | Edit | - User adds details to application</br> - User fills in degree type choices that will be used to determine condition in next step. | 
+| Check Degree Type | Condition | | - Evaluates degree type choices using column logical name.</br> - next step is Master degree information if *true* or Consent step if *false*. |
+| Master Degree Information | Load Form | Edit | Allows user to fill in additional information if they selected a degree type of *Master* in a previous step, this step is skipped if degree type selected was *Bachelor*.  |
+| Consent | Load Form | Edit | Allows user to choose consent field and ends process. |
+
 ## Link the steps
 
 Once the steps have been created, you'll need to first go back and specify the start step and link all the steps you created previously.
