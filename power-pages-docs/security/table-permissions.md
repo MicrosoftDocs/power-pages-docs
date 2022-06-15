@@ -27,7 +27,7 @@ To allow access to Dataverse records in Power Pages sites, you'll need to config
 You can create table permissions by using the following methods:
 
 - When configuring a list or a form on a page
-- From the Setup workspace
+- From the Set up workspace
 - With the Portal Management app
 
 ### Adding table permissions from a list or form
@@ -40,13 +40,13 @@ In the **Table permissions** panel that appears, you can manage existing permiss
 
 :::image type="content" source="media/table-permissions/add-table-permission-form.png" alt-text="Adding a table permission from a form in the design studio.":::
 
-### Adding table permissions from the Setup workspace
+### Adding table permissions from the Set up workspace
 
-1. In the design studio on the tool belt, select **Setup**.
+1. In the design studio on the tool belt, select **Set up**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to add and modify table permissions.
 
-    :::image type="content" source="media/table-permissions/table-permission-setup.png" alt-text="Adding a table permission from the Setup workspace.":::
+    :::image type="content" source="media/table-permissions/table-permission-setup.png" alt-text="Adding a table permission from the Set up workspace.":::
 
 ### Adding table permissions from the Portal Management app
 
@@ -104,7 +104,7 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 ### View table permissions
 
-1. In the design studio from the tool belt, select **Setup**.
+1. In the design studio from the tool belt, select **Set up**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
@@ -122,7 +122,7 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 ### Edit table permissions
 
-1. In the design studio from the tool belt, select **Setup**.
+1. In the design studio from the tool belt, select **Set up**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
@@ -140,7 +140,7 @@ When a table permission is deleted, all associated child permissions are also de
 
 To deactivate/activate or delete table permissions:
 
-1. In the design studio from the tool belt, select **Setup**.
+1. In the design studio from the tool belt, select **Set up**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
@@ -154,7 +154,7 @@ To deactivate/activate or delete table permissions:
 
 To add a child permission to an existing table permission:
 
-1. In the design studio from the tool belt, select **Setup**.
+1. In the design studio from the tool belt, select **Set up**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
@@ -202,5 +202,5 @@ The following message is displayed when you try to save a table permission witho
 
 ### See also
 
-[Assign table permissions](assign-table-permissions.md)<br>
+[Assign table permissions](assign-table-permissions.md)<br />
 [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)

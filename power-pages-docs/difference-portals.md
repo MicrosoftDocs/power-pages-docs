@@ -1,15 +1,16 @@
 ---
 title: Difference between Power Pages and Power Apps portals
 description: Learn about the difference between Power Pages and Power Apps portals
-author: nickdoelman
+author: sandhan
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # What's the difference between Power Pages and Power Apps portals?
