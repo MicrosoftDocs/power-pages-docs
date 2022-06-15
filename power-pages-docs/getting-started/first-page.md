@@ -1,10 +1,10 @@
 ---
 title: Create your first Power Pages site
 description: Learn how to create Power Pages sites.
-author: nickdoelman
+author: prvaidy
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A page in Power Pages is a webpage, a container for content that's identified by a unique URL in a website. A page is one of the core objects of the website. The parent and child relationships among pages build the hierarchy of a website.
+A page in Power Pages is a webpage: a container for content that's identified by a unique URL in a website. A page is one of the core objects of the website. The parent and child relationships between pages build the hierarchy of a website.
 
 ## Create a page
 

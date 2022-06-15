@@ -1,12 +1,12 @@
 ---
 title: Compliance and privacy
 description: Learn about compliance and privacy features of Power Pages.
-author: nickdoelman
+author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 06/10/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
@@ -20,7 +20,7 @@ contributors:
 
 Power Pages meets the highest levels of trust, transparency, standards conformance, and regulatory compliance such as the General Data Protection Regulation (GDPR), in addition to modern TLS crypto standards (TLS 1.2). It conforms with global accessibility standards.
 
-## GDPR
+## General Data Protection Regulation
 
 The GDPR is a legal act of the European Union (EU), which protects data for all individuals within the EU. With the GDPR, people can control the use of their personal data in Microsoft Dataverse.
 

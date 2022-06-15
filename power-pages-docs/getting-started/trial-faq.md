@@ -1,6 +1,6 @@
 ---  
 title: "Trial FAQ - Power Pages | Microsoft Docs"
-description: "Solutions to common questions related to Power Pages trial setup and management. Learn how to resolve platform and app-specific issues."
+description: "Solutions to common questions related to Power Pages trial set up and management. Learn how to resolve platform and app-specific issues."
 author: sampatn
 ms.author: sampatn
 ms.date: 06/07/2022
@@ -54,7 +54,7 @@ This message is shown when an administrator of a tenant has blocked users from b
 
 ### How do I start using the trial?
 
-After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) section on the trial setup page.
+After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) section on the trial set up page.
 
 ### What features are available in the trial?
 

@@ -81,5 +81,5 @@ You can preview this functionality by visiting a portal and selecting **Sign In*
 
 Learn how to protect your pages using page permissions in the next tutorial
 > [!div class="nextstepaction"]
-> [Setup page permissions](tutorial-setup-page-permissions.md)
+> [Set up page permissions](tutorial-setup-page-permissions.md)
 
