@@ -1,19 +1,19 @@
 ---
-title: Using Liquid in Power Pages overview
+title: Use Liquid in Power Pages overview
 description: Learn how to use Liquid.
-author: nenandw
+author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/10/2022
-ms.author: ndoelman
+ms.date: 06/15/2022
+ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
 ---
 
-# Using Liquid
+# Use Liquid
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
