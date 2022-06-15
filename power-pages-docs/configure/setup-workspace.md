@@ -1,5 +1,5 @@
 ---
-title: Using the Setup workspace
+title: Using the Set up workspace
 description: Learn how to use the Setup workspace.
 author: neerajnandwana-msft
 
@@ -14,11 +14,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Overview of the Power Pages Setup workspace
+# Overview of the Power Pages Set up workspace
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You use the **Setup** workspace to configure key aspects of your Power Pages site.
+You use the **Set up** workspace to configure key aspects of your Power Pages site.
 
 :::image type="content" source="media/setup-workspace/setup-workspace.png" alt-text="Setup workspace from within design studio.":::
 
