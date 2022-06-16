@@ -4,7 +4,7 @@ description: Learn how to add multi-step forms to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 06/15/2022
+ms.date: 06/16/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -49,12 +49,13 @@ An advanced form is composed of an advanced form record and a series of steps.
 
 :::image type="content" source="media/tutorial/advanced-form-diagram.png" alt-text="A diagram of an advanced form.":::
 
-In the steps below, we'll create an advanced form. This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times. 
+In the steps below, we'll create an advanced form, this example follows a simple process to apply for a scholarship, but the concepts can be applied to other business processes. 
+
+This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times. 
 
 :::image type="content" source="media/tutorial/advanced-form.gif" alt-text="Animation that shows the working advanced form in action.":::
 
-> [!NOTE]
-> You'll need to adjust these steps to reflect your own business requirements.
+Follow the steps to create an advanced form in the Portals Management app and add it to a page in the design studio.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -63,7 +64,8 @@ In the steps below, we'll create an advanced form. This advanced form will requi
     :::image type="content" source="media/tutorial/advanced-forms-create-step-forms.png" alt-text="Active Advanced Forms inside the Portal Management App.":::
 
     > [!TIP]
-    > Create a form for each step that requires data to created or updated. Alternatively, you can create a series of form tabs for each step.
+    > - Create a form for each step that requires data to created or updated. Alternatively, you can create a series of form tabs for each step.
+    > - To display columns in the advanced form but not allow users to update, configure the columns to be read-only when creating the forms.
 
 1. Publish your forms.
 
@@ -190,7 +192,7 @@ Once the steps have been created, you'll need to first go back and specify the s
 
     :::image type="content" source="media/tutorial/advanced-form-condition-failed.png" alt-text="Condition failed in the step.":::
 
-1. With conditions, the multiple steps may lead to a step, some of which may **not** have been surfaced to the user. The **Record Source** should be set to a previous step earlier in the process that the user would have interacted with. 
+1. With conditions, the multiple steps may lead to a step, some of which may **not** have been surfaced to the user. The **Record Source** should be set to a previous step earlier in the process that the user would have interacted with. This is to make sure that the record being updated is identified. 
 
     :::image type="content" source="media/tutorial/advanced-form-previous-step.png" alt-text="Previous step, not last step.":::
 
@@ -255,6 +257,8 @@ We'll need to use the code editor to add a [Liquid](../configure/liquid-overview
 1. Fill in and test your form.
 
     :::image type="content" source="media/tutorial/advanced-form-rendering.png" alt-text="Viewing advanced form on a web page.":::
+
+1. You can view the information collected and updated in your advanced form by going to the [Data workspace](../configure/data-workspace-tables.md?#table-designer) table designer, selecting the table, and viewing the data.
 
 ## Next steps
 
