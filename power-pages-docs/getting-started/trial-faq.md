@@ -1,6 +1,6 @@
 ---  
 title: Trial FAQ - Power Pages | Microsoft Docs
-description: "Solutions to common questions related to Power Pages trial set up and management. Learn how to resolve platform and app-specific issues."
+description: "Solutions to common questions related to Power Pages trial setup and management. Learn how to resolve platform and app-specific issues."
 author: sampatn
 ms.author: sampatn
 ms.date: 06/16/2022
@@ -20,6 +20,22 @@ contributors:
 The Power Pages trial offers a simple and easy experience for sign-up, sign-in, and usage. This page contains answers to frequently asked questions.
 
 To sign up for the trial, go to the [Power Pages overview page](https://powerpages.microsoft.com/), and select **Start free**.
+
+## Is Power Pages available in my location?
+
+Power Pages is available for these geographic locations:
+- Asia Pacific
+- Australia
+- Brazil
+- Canada
+- Europe
+- France
+- Germany
+- India
+- Japan
+- Switzerland
+- United Kingdom
+- United States
 
 ## Can I convert the trial to a paid license?
 
@@ -50,25 +66,9 @@ To use a personal email to start a new trial, you'll need to set up a new work o
 
 This message is shown when an administrator of a tenant has blocked users from being able to start a new trial with their organization account. To sign up for a trial, you'll need to set up a new work or school account. You can set up a new work or school account by signing up for a new Microsoft 365 E3 or Dynamics 365 Sales or Customer Service Trial with your personal email.
 
-## Is Power Pages available in my location?
-
-Power Pages is available in these geographic locations:
-- Asia Pacific
-- Australia
-- Brazil
-- Canada
-- Europe
-- France
-- Germany
-- India
-- Japan
-- Switzerland
-- United Kingdom
-- United States
-
 ## How do I start using the trial?
 
-After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) section on the trial set up page.
+After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) section on the trial setup page.
 
 ## What features are available in the trial?
 
