@@ -50,6 +50,22 @@ To use a personal email to start a new trial, you'll need to set up a new work o
 
 This message is shown when an administrator of a tenant has blocked users from being able to start a new trial with their organization account. To sign up for a trial, you'll need to set up a new work or school account. You can set up a new work or school account by signing up for a new Microsoft 365 E3 or Dynamics 365 Sales or Customer Service Trial with your personal email.
 
+## Is Power Pages available in my location?
+
+Power Pages is available in these geographic locations:
+- Asia Pacific
+- Australia
+- Brazil
+- Canada
+- Europe
+- France
+- Germany
+- India
+- Japan
+- Switzerland
+- United Kingdom
+- United States
+
 ## How do I start using the trial?
 
 After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) section on the trial set up page.
