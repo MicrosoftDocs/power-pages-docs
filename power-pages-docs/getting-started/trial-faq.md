@@ -3,7 +3,7 @@ title: Trial FAQ - Power Pages | Microsoft Docs
 description: "Solutions to common questions related to Power Pages trial setup and management. Learn how to resolve platform and app-specific issues."
 author: sampatn
 ms.author: sampatn
-ms.date: 06/16/2022
+ms.date: 06/17/2022
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: ndoelman
@@ -20,22 +20,6 @@ contributors:
 The Power Pages trial offers a simple and easy experience for sign-up, sign-in, and usage. This page contains answers to frequently asked questions.
 
 To sign up for the trial, go to the [Power Pages overview page](https://powerpages.microsoft.com/), and select **Start free**.
-
-## Is Power Pages available in my location?
-
-Power Pages is available for these geographic locations:
-- Asia Pacific
-- Australia
-- Brazil
-- Canada
-- Europe
-- France
-- Germany
-- India
-- Japan
-- Switzerland
-- United Kingdom
-- United States
 
 ## Can I convert the trial to a paid license?
 
@@ -61,6 +45,23 @@ developer capabilities inherited by Power Pages from Power Apps portals are gene
 
 You can use a work or school [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa).
 To use a personal email to start a new trial, you'll need to set up a new work or school account. You can set up a new work or school account by signing up for a new Microsoft 365 E3 or Dynamics 365 Sales or Customer Service Trial with your personal email.
+
+## Is Power Pages available in my location?
+
+Power Pages is available for these geographic locations:
+- Asia Pacific
+- Australia
+- Brazil
+- Canada
+- Europe
+- France
+- Germany
+- India
+- Japan
+- Switzerland
+- United Kingdom
+- United States
+- United States Government
 
 ## I got a message "Your company doesn't allow team members to sign up with their work email" while signing up for a trial with my work account. Why?
 
