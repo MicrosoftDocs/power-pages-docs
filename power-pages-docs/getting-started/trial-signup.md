@@ -33,7 +33,7 @@ Power Pages offers a free 30-day trial. After a quick sign-up, you'll have acces
 
 1. Review the template description, and then select **Choose template**.
 
-1. You can provide a name for your site and site web address as needed. We make a unique name suggestion, but you can edit the name and URL to suit your needs. To create a site, you can either create a new environment or select an existing environment that includes your data, where you have the necessary permissions.
+1. You can provide a name for your site and site web address as needed. We make a unique name suggestion, but you can edit the name and URL to suit your needs. To create a site, you can either create a new Microsoft Power Platform environment or select an existing environment that includes your data, where you have the necessary permissions.
 
     :::image type="content" source="media/trial/create-site.png" alt-text="Create a Power Pages site.":::
 
