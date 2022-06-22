@@ -1,6 +1,6 @@
 ---
 title: Default template
-description: The Default template provides basic building blocks for you creating custom pages.
+description: The Default template provides basic building blocks for you to create custom pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
