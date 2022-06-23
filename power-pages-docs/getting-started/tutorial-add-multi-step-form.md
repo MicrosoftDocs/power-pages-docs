@@ -4,7 +4,7 @@ description: Learn how to add multi-step forms to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 06/16/2022
+ms.date: 06/23/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -166,11 +166,11 @@ In the example, we have created the following steps for the scenario of applying
 
 | Step | Type | Mode | Details | 
 | - | - | - | - | 
-| Choose Scholarship | Load Form | Insert | - Creates an application record</br>- User chooses scholarship |  
-| Application Details | Load Form | Edit | - User adds details to application</br> - User fills in degree type choices that will be used to determine condition in next step. | 
-| Check Degree Type | Condition | | - Evaluates degree type choices using column logical name.</br> - next step is Master degree information if *true* or Consent step if *false*. |
-| Master Degree Information | Load Form | Edit | Allows user to fill in additional information if they selected a degree type of *Master* in a previous step, this step is skipped if degree type selected was *Bachelor*.  |
-| Consent | Load Form | Edit | Allows user to choose consent field and ends process. |
+| Choose Scholarship | Load Form | Insert | <ul><li>Creates an application record</li><li>User chooses scholarship</li></ul> |  
+| Application Details | Load Form | Edit | <ul><li>User adds details to application</li><li>User fills in degree type choices that will be used to determine condition in next step.</li></ul> | 
+| Check Degree Type | Condition | | <ul><li>Evaluates degree type choices using column logical name.</li><li>Next step is Master degree information if *true* or Consent step if *false*.</li></ul> |
+| Master Degree Information | Load Form | Edit | <ul><li>Allows user to fill in additional information if they selected a degree type of *Master* in a previous step, this step is skipped if degree type selected was *Bachelor*.</li></ul>  |
+| Consent | Load Form | Edit | <ul><li>Allows user to choose consent field and ends process.</li></ul> |
 
 ## Link the steps
 
