@@ -75,6 +75,7 @@ conceptualContent:
           itemType: tutorial
         - text: More tutorials and training videos
           url: training-videos/index.md
+          itemType: tutorial
     # Card
     - title: Design and build
       summary: Create sites using Power Pages       
