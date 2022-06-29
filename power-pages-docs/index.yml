@@ -73,6 +73,8 @@ conceptualContent:
         - text: Set up your brand kit
           url: getting-started/tutorial-style-site.md
           itemType: tutorial
+        - text: More tutorials and training videos
+          url: training-videos/index.md
     # Card
     - title: Design and build
       summary: Create sites using Power Pages       
