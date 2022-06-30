@@ -60,21 +60,21 @@ conceptualContent:
     # Card
     - title: Tutorials
       summary: Follow step-by-step tutorials to learn about Power Pages
-      links:
+      links:        
+        - text: Tutorials and training videos overview
+          url: getting-started/tutorial-overview.md
+          itemType: tutorial
         - text: Design your home page
           url: getting-started/tutorial-add-webpage.md
+          itemType: tutorial        
+        - text: Set up your brand kit
+          url: getting-started/tutorial-style-site.md
           itemType: tutorial
         - text: Create a page with a list
           url: getting-started/tutorial-add-list-to-page.md
           itemType: tutorial                             
         - text: Create a page with a simple form 
           url: getting-started/tutorial-add-form-to-page.md
-          itemType: tutorial
-        - text: Set up your brand kit
-          url: getting-started/tutorial-style-site.md
-          itemType: tutorial
-        - text: More tutorials and training videos
-          url: training-videos/index.md
           itemType: tutorial
     # Card
     - title: Design and build
