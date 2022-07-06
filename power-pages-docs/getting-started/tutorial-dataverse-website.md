@@ -15,7 +15,7 @@ contributors:
 
 # Tutorial: Create, update, and read Dataverse information on pages
 
-The ability to dynamically interact with Dataverse information is one of the key features of Power Pages. Users visiting a site can perform actions such as viewing a list of programs, registering their children, scheduling a meeting or applying for a building permit. All of the information can be tracked in Dataverse, and can then be accessed by other Power Platform services such as Power Apps, Power Automate, or Power BI.
+The ability to dynamically interact with Dataverse information is one of the key features of Power Pages. Users visiting a site can perform actions such as view a list of programs, register their children, schedule a meeting or apply for a building permit. All of the information can be tracked in Dataverse, and can then be accessed by other Power Platform services such as Power Apps, Power Automate, or Power BI.
 
 In this tutorial, you'll build a simple web application in Power Pages that will allow authenticated users the ability to create, read, update and delete records in Dataverse. You can use this as a foundation to build your own Dataverse powered sites.
 
@@ -38,13 +38,13 @@ In this tutorial, you learn how to:
 
 ## Create a Dataverse table
 
-In this section you will use the Data workspace to create a Dataverse table. A table is used to store information about specific objects. A scholarship, an application, or company are some examples of tables. A table is make up of a series of columns. A column is a specific piece of information about the object, like name, description, application date, or color. 
+In this section you will use the Data workspace to create a Dataverse table. A table is used to store information about specific objects. A scholarship, an application, or company are some examples of tables. A table is made up of a series of columns. A column is a specific piece of information about the object, like name, description, application date, or a choice of options, like color. 
 
-Use the steps below to create a table and columns.
+Use the steps below to create a table and columns using the Data workspace.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com).
 
-1. Select the Data icon on the left navigation.
+1. Select the **Data** icon on the left navigation to go into the Data workspace.
 
 1. Select the new table **(+)** button, to the right of the **Tables in this site** heading.
 
@@ -62,7 +62,7 @@ Use the steps below to create a table and columns.
 
 ## Create a Dataverse view
 
-A Dataverse view is essentially a query to display specific rows and columns of data from a Dataverse table. When you create a view, you specify certain criteria such as which columns to show, how the records are sorted, and how the rows are filtered (for example, you can show only records that have certain criteria like a date happening in the future).
+A Dataverse view is essentially a query to display specific rows and columns of data from a Dataverse table. When you create a view, you specify certain criteria such as which columns to show, how the records are sorted, and how the rows are filtered (for example, you may want to only show records that have certain criteria, like events a date happening in the future).
 
 In this section you will use the Data workspace to create a Dataverse view.
 
