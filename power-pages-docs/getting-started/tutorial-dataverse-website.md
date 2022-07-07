@@ -4,7 +4,7 @@ description: Learn how to create a set of pages to create, read, and update Data
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 07/04/2022
+ms.date: 07/07/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
