@@ -15,9 +15,9 @@ contributors:
 
 # Tutorial: Create, update, and read Dataverse information on pages
 
-The ability to dynamically interact with Dataverse information is one of the key features of Power Pages. Users visiting a site can perform actions such as view a list of programs, register their children, schedule a meeting or apply for a building permit. All of the information can be tracked in Dataverse, and can then be accessed by other Power Platform services such as Power Apps, Power Automate, or Power BI.
+The ability to dynamically interact with Dataverse information is one of the key features of Power Pages. Users visiting a site can perform actions such as view a list of programs, register their children, schedule a meeting or apply for a building permit. The information tracked in Dataverse can be accessed by other Power Platform services such as Power Apps, Power Automate, or Power BI.
 
-In this tutorial, you'll build a simple web application in Power Pages that will allow authenticated users the ability to create, read, update and delete records in Dataverse. You can use this as a foundation to build your own Dataverse powered sites.
+In this tutorial, you'll build a web application in Power Pages that will allow authenticated users the ability to create, read, update and delete records in Dataverse. You can use the site as a foundation to build your own Dataverse powered websites.
 
 In this tutorial, you learn how to:
 
@@ -38,7 +38,7 @@ In this tutorial, you learn how to:
 
 ## Create a Dataverse table
 
-In this section you will use the Data workspace to create a Dataverse table. A table is used to store information about specific objects. A scholarship, an application, or company are some examples of tables. A table is made up of a series of columns. A column is a specific piece of information about the object, like name, description, application date, or a choice of options, like color. 
+In this section, you'll use the Data workspace to create a Dataverse table. A table is used to store information about specific objects. A scholarship, an application, or company are some examples of tables. A table is made up of a series of columns. A column is a specific piece of information about the object, like name, description, application date, or a choice of options, like color. 
 
 Use the steps below to create a table and columns using the Data workspace.
 
@@ -58,15 +58,15 @@ Use the steps below to create a table and columns using the Data workspace.
 
     :::image type="content" source="media/tutorial-dataverse/add-columns.png" alt-text="Add new columns to a new table.":::
 
-1. Repeat the previous step until you have created all the columns required for your table.
+1. Repeat the previous step until you've created all the columns required for your table.
 
 ## Create a Dataverse view
 
-A Dataverse view is essentially a query to display specific rows and columns of data from a Dataverse table. When you create a view, you specify certain criteria such as which columns to show, how the records are sorted, and how the rows are filtered (for example, you may want to only show records that have certain criteria, like events a date happening in the future).
+A Dataverse view is essentially a query to display specific rows and columns of data from a Dataverse table. When you create a view, you specify certain criteria such as which columns to show, how the records are sorted, and how the rows are filtered (for example, you may want to only show records that have certain criteria, like events a date happening at a future date).
 
 This view will be used to configure a list on a webpage.
 
-In this section you will use the Data workspace to create a Dataverse view.
+In this section, you'll use the Data workspace to create a Dataverse view.
 
 1. Select the table from the list of tables in **Data** workspace to which you want to create a new view.
 
@@ -86,7 +86,7 @@ In this section you will use the Data workspace to create a Dataverse view.
 
 1. You can also choose to configure specific row filtering options by selecting **Edit filters...** on the **Filter by** section on the right side flyout panel.
 
-1. When you are finished configuring the view, select **Save** and then **Publish view**.
+1. When you're finished configuring the view, select **Save** and then **Publish view**.
 
     :::image type="content" source="media/tutorial-dataverse/configure-view.png" alt-text="Configure the new view to a new table.":::
 
@@ -96,7 +96,7 @@ A Dataverse form provides a surface that shows an arrangement of specific column
 
 The Dataverse form will be used to configure a form on a webpage.
 
-In this section you will use the Data workspace to create a Dataverse form.
+In this section, you'll use the Data workspace to create a Dataverse form.
 
 1. Select the table from the list of tables in **Data** workspace to which you want to create a new form.
 
@@ -119,15 +119,15 @@ In this section you will use the Data workspace to create a Dataverse form.
     > [!NOTE]
     > Certain fields (such as **Owner** will not be visible on a webpage).
 
-1. When you are finished configuring the form, select **Save** and then **Publish form**.
+1. When you're finished configuring the form, select **Save** and then **Publish form**.
 
     :::image type="content" source="media/tutorial-dataverse/configure-form.png" alt-text="Configure Dataverse form.":::
 
 ## Configure table permissions
 
-By default, users of the site will not have access to view, create, or edit records. You will need to configure specific table permissions and assign web roles. To ensure your data remains protected and secure, you should only provide access to specific users of the site.
+By default, users of the site won't have access to view, create, or edit records. You'll need to configure specific table permissions and assign web roles. To ensure your data remains protected and secure, you should only provide access to specific users of the site.
 
-In this section you will use the Set up workspace to create a table permission and assign web roles.
+In this section, you'll use the Set up workspace to create a table permission and assign web roles.
 
 1. Select the **Set up** workspace icon.
 
@@ -137,27 +137,27 @@ In this section you will use the Set up workspace to create a table permission a
 
 1. A fly-out section will appear. Enter a **Name** for the table permission.
 
-1. Select the **Table** for which you want to set up permissions for.
+1. Select the **Table** for which you want to set up permissions.
 
-1. Select an appropriate **Access Type** depending on how you want specify the relationship of the records to the signed-in user. For purposes of this tutorial, we will provide access to all site visitors, so we will select **Global**. Consider other options as you build your sites.
+1. Select an appropriate **Access Type** depending on how you want to specify the relationship of the records to the signed-in user. For purposes of this tutorial, we'll provide access to all site visitors, so we'll select **Global**. Consider other options as you build your sites.
 
-1. Select the **Permission to** options based on how you want users to interact with the data. For purposes of this tutorial, we will choose **Read**, **Write**, **Create**, and **Delete**. Consider limiting these options as you build your own sites.
+1. Select the **Permission to** options based on how you want users to interact with the data. For purposes of this tutorial, we'll choose **Read**, **Write**, **Create**, and **Delete**. Consider limiting these options as you build your own sites.
 
-1. Select **+ Add roles** and choose the web roles that you want to assign to this table permission. For purposes of this tutorial, we will choose the **Anonymous Users** and **Authenticated Users** roles. Consider creating custom web roles and assigning specific users as you build your own sites.
+1. Select **+ Add roles** and choose the web roles that you want to assign to this table permission. For purposes of this tutorial, we'll choose the **Anonymous Users** and **Authenticated Users** roles. Consider creating custom web roles and assigning specific users as you build your own sites.
 
     :::image type="content" source="media/tutorial-dataverse/create-tablepermission.png" alt-text="Create table permissions.":::
 
 1. Select **Save** to save the table permission.
 
-## Add a pages to your site
+## Add pages to your site
 
-You will need to create pages in your site to interact with Dataverse records. In this tutorial we will create three pages; one that will show the list of Dataverse records, a page to create new records, and a page to view and update existing records.
+You'll need to create pages in your site to interact with Dataverse records. In this tutorial, we'll create three pages; one that will show the list of Dataverse records, a page to create new records, and a page to view and update existing records.
 
 ## Add a list to a page
 
 Adding a list component to a web page will allow users to search, browse and select from a list of records stored in Dataverse.
 
-In this section you will use the Pages workspace to create a page with a list component.
+In this section, you'll use the Pages workspace to create a page with a list component.
 
 1. Select the **Pages** workspace icon.
 
@@ -169,7 +169,7 @@ In this section you will use the Pages workspace to create a page with a list co
 
     :::image type="content" source="media/tutorial-dataverse/create-page.png" alt-text="Create a web page.":::
 
-1. When the new page appears, you will be presented with a list of components to add to your new page. Select the **List** component.
+1. When the new page appears, you'll be presented with a list of components to add to your new page. Select the **List** component.
 
     :::image type="content" source="media/tutorial-dataverse/select-list.png" alt-text="Select the list component.":::
 
@@ -188,7 +188,7 @@ In this section you will use the Pages workspace to create a page with a list co
 
 Adding a form component to a page configured to insert data will allow users to create new records in Dataverse. A form component on a page is based on the Dataverse form created in the data workspace.
 
-In this section you will use the Pages workspace to create a page with a form component configured to insert new records.
+In this section, you'll use the Pages workspace to create a page with a form component configured to insert new records.
 
 1. Select the **Pages** workspace icon.
 
@@ -198,17 +198,17 @@ In this section you will use the Pages workspace to create a page with a form co
 
 1. Give the page an appropriate name (for example, *Create record*) and choose the **Start from blank** page layout.
 
-1. When the new page appears, you will be presented with a list of components to add to your new page. Select the **Form** component.
+1. When the new page appears, you'll be presented with a list of components to add to your new page. Select the **Form** component.
 
     :::image type="content" source="media/tutorial-dataverse/add-form.png" alt-text="Add a form component to a page.":::
 
 1. The **Add a form** window will appear. Select **+ New form**.
 
-1. You will then need to configure the form. 
+1. You'll then need to configure the form. 
 
     - Select the Dataverse table for your form.
     - Select the Dataverse form that will be used as layout for your form component on your page.
-    - Leave the default or give the form component a name.
+    - Leave the default or give the form component a name (for example *create record*).
 
     :::image type="content" source="media/tutorial-dataverse/form-properties.png" alt-text="Configure form component properties.":::
 
@@ -216,31 +216,35 @@ In this section you will use the Pages workspace to create a page with a form co
 
 1. Select **Save**.
 
-1. Remove this new page from the main page navigation. We will add a create record option on the page with the list component. Select the **...** and select **Move to "Other pages".
+1. Remove this new page from the main page navigation. We'll add a create record option on the page with the list component. Select the **...** and select **Move to "Other pages".
 
     :::image type="content" source="media/tutorial-dataverse/hide-subpage.png" alt-text="Move subpage to other pages section.":::
 
 ## Add a page with a form to view/edit records
 
-Along with creating new records, we will also want to allow our users to be able to edit existing records. We will again use a form component on a page but instead configured to edit records in Dataverse.
+Along with creating new records, we'll also want to allow our users to be able to edit existing records. We'll again use a form component on a page but instead configured to edit records in Dataverse.
 
-We could add a new web page and add a form component as we did in the previous steps. With the Pages workspace we have the ability to copy web pages to save time.
+Again we'll add a new web page and add a form component as we did in the previous steps. 
 
-In this section you will use the Pages workspace to copy a page with a form component and configure it to edit existing records.
+In this section, you'll use the Pages workspace to create a page with a form component and configure it to edit existing records.
 
 1. Select the **Pages** workspace icon.
 
-1. Select the **...** icon to the right of the web page located in the **Other pages** section that you created earlier to contain the form component, a fly-out menu will appear, select **Add a new subpage**.
+1. Select the **+** icon (add webpage) to the right of the **Other pages** section. Give the page an appropriate name and use the **Start from blank** layout.
 
-    :::image type="content" source="media/tutorial-dataverse/duplicate-page.png" alt-text="Duplicate the web page.":::
+    :::image type="content" source="media/tutorial-dataverse/add-edit-page.png" alt-text="Edit the copied web page.":::
 
-1. Select the **...** icon to the right of the web page you just copied located in the **Other pages** section, a fly-out menu will appear, select **Page settings**.
+1. You'll see the page. Choose the **Form** option that will appear to open the **Add a form** window.
 
-1. Update the page name and the partial URL to reflect that this will be your page to edit records.
+1. Select the **+ New form** option.
 
-    :::image type="content" source="media/tutorial-dataverse/edit-copied-page.png" alt-text="Edit the copied web page.":::
+    :::image type="content" source="media/tutorial-dataverse/add-edit-form.png" alt-text="Add an edit form to the web page.":::
 
-1. You will see the page. Select form component and then choose the **Form** option that will appear to open the **Add a form** window.
+1. You'll then need to configure the form with similar options as the insert form component.
+
+    - Select the Dataverse table for your form.
+    - Select the Dataverse form that will be used as layout for your form component on your page.
+    - Leave the default or give the form component a name (for example *Edit record*).
 
 1. You can configure other form component properties. On the **Data** section, make sure that **Data from this form** option is set to **Updates an existing record**. You can configure other options such as turning off or turning on CAPTCHA or configuring the navigation when the form is submitted.
 
@@ -248,8 +252,45 @@ In this section you will use the Pages workspace to copy a page with a form comp
 
 1. Select **OK**.
 
-## Update the list to allow your to navigate to pages to create records and view/edit records
+## Update the list to allow you to navigate to pages to create records and view/edit records
+
+Now that the pages with form components have been created, we need to configure the page with the list component to be able to navigate to both the create and edit pages.
+
+In this section, you'll use the Pages workspace to configure the list component to have an option to create new records and also configure the list so a user can select on a listed record and navigate to an edit page.
+
+1. Select the **Pages** workspace icon.
+
+1. Select the page with the list component.
+
+1. Select the list component on the page and then select the **List** button to open the **Add a list** window.
+
+1. Select the **Data** tab.
+
+1. Select the **Create a new record** option.
+
+1. In the **Target type**, choose **Webpage**, and select the webpage with the form component configured for creating records.
+
+1. Select the **View details** option.
+
+1. In the **Target type**, choose **Webpage**, and select the webpage with the form component configured for editing and viewing records.
+
+    :::image type="content" source="media/tutorial-dataverse/configure-list-record.png" alt-text="Configure list for adding records.":::
+
+1. Select **Ok**.
+
+## Test the site
+
+In the design studio, select **Preview**, followed by **Desktop** to preview your site.
+
+Create some new records. When you have a list of records, select the first column of the list to open up a page to edit the record.
+
+:::image type="content" source="media/tutorial-dataverse/add-edit-dataverse-record.gif" alt-text="Site that allows creating and updating records.":::
+
+## Extra enhancements
+
+To make your site more usable for end users and reduce navigation, you can configure the form to instead redirect back to the list page instead of a message. Depending on your site, you may want to turn off the CAPTCHA.
+
+:::image type="content" source="media/tutorial-dataverse/edit-redirects.png" alt-text="Configure page to return to list page.":::
 
 
-## Next steps
 
