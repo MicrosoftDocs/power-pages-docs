@@ -17,7 +17,7 @@ contributors:
 
 The ability to dynamically interact with Dataverse information is one of the key features of Power Pages. Users visiting a site can perform actions such as view a list of programs, register their children, schedule a meeting or apply for a building permit. The information tracked in Dataverse can be accessed by other Power Platform services such as Power Apps, Power Automate, or Power BI.
 
-In this tutorial, you'll build a web application in Power Pages that will allow authenticated users the ability to create, read, update and delete records in Dataverse. You can use the site as a foundation to build your own Dataverse powered websites.
+In this tutorial, you'll build a web application in Power Pages that will allow users the ability to create, read, and update in Dataverse. You can use the site as a foundation to build your own Dataverse powered websites.
 
 In this tutorial, you learn how to:
 
