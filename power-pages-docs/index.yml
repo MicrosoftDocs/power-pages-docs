@@ -58,27 +58,27 @@ conceptualContent:
           url: getting-started/community.md
           itemType: reference                                                                                                                                                                                                               
     # Card
-    - title: Training videos
-      summary: Watch step-by-step tutorials to learn about Power Pages
-      links:
+    - title: Tutorials and videos
+      summary: Follow step-by-step tutorials with videos to learn about Power Pages
+      links:        
+        - text: Tutorials and training videos overview
+          url: getting-started/tutorial-overview.md
+          itemType: tutorial
         - text: Design your home page
-          url: training-videos/index.md#design-your-home-page
-          itemType: video
+          url: getting-started/tutorial-add-webpage.md
+          itemType: tutorial        
         - text: Set up your brand kit
-          url: training-videos/index.md#setup-your-brand-kit
-          itemType: video
+          url: getting-started/tutorial-style-site.md
+          itemType: tutorial
         - text: Create a page with a list
-          url: training-videos/index.md#create-a-page-with-a-list
-          itemType: video                             
-        - text: Configure table permissions 
-          url: training-videos/index.md#configure-table-permissions
-          itemType: video
+          url: getting-started/tutorial-add-list-to-page.md
+          itemType: tutorial                             
         - text: Create a page with a simple form 
-          url: training-videos/index.md#create-a-page-with-a-simple-form
-          itemType: video
-        - text: Configure access to your site 
-          url: training-videos/index.md#configure-access-to-your-site
-          itemType: video                                                                                 
+          url: getting-started/tutorial-add-form-to-page.md
+          itemType: tutorial
+        - text: Configure site authentication 
+          url: getting-started/tutorial-setup-site-authentication.md
+          itemType: tutorial          
     # Card
     - title: Design and build
       summary: Create sites using Power Pages       
@@ -126,6 +126,9 @@ conceptualContent:
         - text: Secure your data with table permissions
           url: security/table-permissions.md
           itemType: tutorial 
+        - text: "Create, update, and view Dataverse information"
+          url: getting-started/tutorial-dataverse-website.md
+          itemType: tutorial          
     # Card              
     - title: Customize and extend
       summary: Use professional developer tools and methods
