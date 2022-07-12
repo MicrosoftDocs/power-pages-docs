@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 07/12/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -44,6 +44,9 @@ To use the editor:
 For a more immersive editing experience, you can use the full-screen editing mode by selecting the double arrow icon in the upper-right corner of the editor.
 
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
+
+> [!NOTE]
+> You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/store-content-web-templates.md) for information on creating custom page layouts.
 
 ### See also
 
