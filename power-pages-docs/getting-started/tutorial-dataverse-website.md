@@ -4,7 +4,7 @@ description: Learn how to create a set of pages to create, read, and update Data
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 07/07/2022
+ms.date: 07/12/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -15,9 +15,9 @@ contributors:
 
 # Tutorial: Create, update, and read Dataverse information on pages
 
-The ability to dynamically interact with Dataverse information is one of the key features of Power Pages. Users visiting a site can perform actions such as view a list of programs, register their children, schedule a meeting or apply for a building permit. The information tracked in Dataverse can be accessed by other Power Platform services such as Power Apps, Power Automate, or Power BI.
+The ability to dynamically interact with [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro) is one of the key features of Power Pages. Users visiting a site can perform actions such as view a list of programs, register their children, schedule a meeting or apply for a building permit. The information tracked in Dataverse can be accessed by other Power Platform services such as [Power Apps](/power-apps/), [Power Automate](/power-automate/), or [Power BI](/power-bi/).
 
-In this tutorial, you'll build a web application in Power Pages that will allow users the ability to create, read, and update in Dataverse. You can use the site as a foundation to build your own Dataverse powered websites.
+In this tutorial, you'll build a web application in Power Pages that will allow users the ability to create, read, and update Dataverse records. You can use the site as a foundation to build your own Dataverse powered websites.
 
 In this tutorial, you learn how to:
 
@@ -38,7 +38,7 @@ In this tutorial, you learn how to:
 
 ## Create a Dataverse table
 
-In this section, you'll use the Data workspace to create a Dataverse table. A table is used to store information about specific objects. A scholarship, an application, or company are some examples of tables. A table is made up of a series of columns. A column is a specific piece of information about the object, like name, description, application date, or a choice of options, like color. 
+In this section, you'll use the [Data workspace](use-data-workspace.md) to create a Dataverse table. A table is used to store information about specific objects. A scholarship, an application, or company are some examples of tables. A table is made up of a series of columns. A column is a specific piece of information about the object, like name, description, application date, or a choice of options, like color. 
 
 Use the steps below to create a table and columns using the Data workspace.
 
@@ -54,7 +54,7 @@ Use the steps below to create a table and columns using the Data workspace.
 
     :::image type="content" source="media/tutorial-dataverse/create-table.png" alt-text="Create a new table.":::
 
-1. To add a column to the table, choose **+ New column**. Enter a **Display name** and select the **Data type** as select the other options. Select **Save**.
+1. To add a column to the table, choose **+ New column**. Enter a **Display name** and select the **Data type** and choose any other options. Select **Save**.
 
     :::image type="content" source="media/tutorial-dataverse/add-columns.png" alt-text="Add new columns to a new table.":::
 
@@ -62,7 +62,7 @@ Use the steps below to create a table and columns using the Data workspace.
 
 ## Create a Dataverse view
 
-A Dataverse view is essentially a query to display specific rows and columns of data from a Dataverse table. When you create a view, you specify certain criteria such as which columns to show, how the records are sorted, and how the rows are filtered (for example, you may want to only show records that have certain criteria, like events a date happening at a future date).
+A Dataverse view is a type of query to display specific rows and columns of data from a Dataverse table. When you create a view, you specify certain criteria such as which columns to show, how the records are sorted, and how the rows are filtered (for example, you may want to only show records that have certain criteria, like events where the event date is happening in the future).
 
 This view will be used to configure a list on a webpage.
 
@@ -94,7 +94,7 @@ In this section, you'll use the Data workspace to create a Dataverse view.
 
 A Dataverse form provides a surface that shows an arrangement of specific columns (fields) from a table to be used as a foundation for end users to add, read, or update individual records.
 
-The Dataverse form will be used to configure a form on a webpage.
+The Dataverse form will be used to configure a form component on a webpage.
 
 In this section, you'll use the Data workspace to create a Dataverse form.
 
@@ -151,7 +151,12 @@ In this section, you'll use the Set up workspace to create a table permission an
 
 ## Add pages to your site
 
-You'll need to create pages in your site to interact with Dataverse records. In this tutorial, we'll create three pages; one that will show the list of Dataverse records, a page to create new records, and a page to view and update existing records.
+You'll need to create pages in your site to interact with Dataverse records. 
+
+In this tutorial, we'll create three pages; 
+ - A page that will show a list of Dataverse records.
+ - A page to create new records.
+ - A page to view and update existing records.
 
 ## Add a list to a page
 
@@ -216,7 +221,7 @@ In this section, you'll use the Pages workspace to create a page with a form com
 
 1. Select **Save**.
 
-1. Remove this new page from the main page navigation. We'll add a create record option on the page with the list component. Select the **...** and select **Move to "Other pages".
+1. We will remove this new page from the main page navigation. We'll add a create record option on the page with the list component. Select the **...** and select **Move to "Other pages"**.
 
     :::image type="content" source="media/tutorial-dataverse/hide-subpage.png" alt-text="Move subpage to other pages section.":::
 
