@@ -123,6 +123,9 @@ conceptualContent:
         - text: Secure your data with table permissions
           url: security/table-permissions.md
           itemType: tutorial 
+        - text: "Tutorial: Create, update, and view Dataverse information"
+          url: getting-started/tutorial-dataverse-website.md
+          itemType: tutorial          
     # Card              
     - title: Customize and extend
       summary: Use professional developer tools and methods
