@@ -76,6 +76,9 @@ conceptualContent:
         - text: Create a page with a simple form 
           url: getting-started/tutorial-add-form-to-page.md
           itemType: tutorial
+        - text: Configure site authentication 
+          url: getting-started/tutorial-setup-site-authentication.md
+          itemType: tutorial          
     # Card
     - title: Design and build
       summary: Create sites using Power Pages       
