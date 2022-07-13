@@ -4,7 +4,7 @@ description: Follow step-by-step tutorials to learn how to build powerful sites 
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 07/12/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -35,3 +35,4 @@ Many of the tutorials build on knowledge and skills developed in preceding tutor
 - [Configure site authentication](tutorial-setup-site-authentication.md)
 - [Set up page permissions](tutorial-setup-page-permissions.md)
 - [Add custom styling to your site](tutorial-add-custom-style.md)
+- [Create, update, and view Dataverse information](tutorial-dataverse-website.md)
