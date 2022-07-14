@@ -63,7 +63,7 @@ conceptualContent:
       links:        
         - text: Tutorials and training videos overview
           url: getting-started/tutorial-overview.md
-          itemType: tutorial
+          itemType: overview
         - text: Design your home page
           url: getting-started/tutorial-add-webpage.md
           itemType: tutorial        
