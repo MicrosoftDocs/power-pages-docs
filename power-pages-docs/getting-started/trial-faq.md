@@ -1,9 +1,9 @@
 ---  
-title: "Trial FAQ - Power Pages | Microsoft Docs"
-description: "Solutions to common questions related to Power Pages trial set up and management. Learn how to resolve platform and app-specific issues."
+title: Trial FAQ - Power Pages | Microsoft Docs
+description: "Solutions to common questions related to Power Pages trial setup and management. Learn how to resolve platform and app-specific issues."
 author: sampatn
 ms.author: sampatn
-ms.date: 06/07/2022
+ms.date: 06/17/2022
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: ndoelman
@@ -21,7 +21,7 @@ The Power Pages trial offers a simple and easy experience for sign-up, sign-in, 
 
 To sign up for the trial, go to the [Power Pages overview page](https://powerpages.microsoft.com/), and select **Start free**.
 
-### Can I convert the trial to a paid license?
+## Can I convert the trial to a paid license?
 
 Yes, you can purchase licenses through direct, credit card purchase at https://admin.microsoft.com. Or, you can work with the Microsoft sales team to establish a volume licensing or enterprise agreement. Visit our [pricing page](https://powerapps.microsoft.com/pricing/) for more information on pricing and purchasing. 
 
@@ -29,7 +29,7 @@ To purchase the license using an existing account, work with the administrator o
 
 After you've applied for the license to your tenant, you can publish your environment to production. You can remove the sample data installed in your trial environment. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you'd like to move forward with. 
 
-### What are the trial limits and quotas?
+## What are the trial limits and quotas?
 
 The following limitations apply for the trial:
 - The trial environment is available to you for 30 days. After that, you can request an extension for another 30 days.
@@ -41,46 +41,61 @@ The following limitations apply for the trial:
 > - All the platform, site admin, and pro 
 developer capabilities inherited by Power Pages from Power Apps portals are generally available and can be used in production scenarios. More information: [Power Pages and Power Apps portals](../difference-portals.md)
 
-## Power Pages–specific questions
-
-### What email address can I use?
+## What email address can I use?
 
 You can use a work or school [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa).
 To use a personal email to start a new trial, you'll need to set up a new work or school account. You can set up a new work or school account by signing up for a new Microsoft 365 E3 or Dynamics 365 Sales or Customer Service Trial with your personal email.
 
-### I got a message "Your company doesn't allow team members to sign up with their work email" while signing up for a trial with my work account. Why?
+## Is Power Pages available in my location?
+
+Power Pages is available for these geographic locations:
+- Asia Pacific
+- Australia
+- Brazil
+- Canada
+- Europe
+- France
+- Germany
+- India
+- Japan
+- Switzerland
+- United Kingdom
+- United States
+- United States Government
+
+## I got a message "Your company doesn't allow team members to sign up with their work email" while signing up for a trial with my work account. Why?
 
 This message is shown when an administrator of a tenant has blocked users from being able to start a new trial with their organization account. To sign up for a trial, you'll need to set up a new work or school account. You can set up a new work or school account by signing up for a new Microsoft 365 E3 or Dynamics 365 Sales or Customer Service Trial with your personal email.
 
-### How do I start using the trial?
+## How do I start using the trial?
 
-After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) section on the trial set up page.
+After you sign up for the trial, you'll arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) section on the trial setup page.
 
-### What features are available in the trial?
+## What features are available in the trial?
 
 Your trial includes a trial environment. You can create secure, scalable business websites using low-code and pro developer experiences inside the trial environment. 
 
-### Can I create a trial site inside my existing environments?
+## Can I create a trial site inside my existing environments?
 
-If you already have necessary privileges to create or edit a site in an environment, you can create a trial site inside of the existing environments too. 
+If you already have [necessary privileges](/power-apps/maker/portals/admin/portal-admin-roles) to create or edit a site in an environment, you can create a trial site inside of the existing environments too. 
 
-### How long does the trial last?
+## How long does the trial last?
 
 The Power Pages trial lasts 30 days. You can [convert the trial site](/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production) into a production site.  
 
-### Will I have to use this experience every time I come to Power Pages? 
+## Will I have to use this experience every time I come to Power Pages? 
 
 The sign-up experience is a one-time experience to get you started with Power Pages. After you create a site successfully the first time, in your next visit you'll be redirected to the Power Pages home page. You can continue to create a new trial site as needed from the home page by using **Create a Site**. 
 
-### Can I edit an existing site by using the new Power Pages experience?
+## Can I edit an existing site by using the new Power Pages experience?
 
 During the first run of the sign-up experience, you need to create a trial site. After you've successfully created the site, you can access an existing trial site (provided you have the necessary permissions). 
 
-### How long will it take for the trial site to get created? 
+## How long will it take for the trial site to get created? 
 
 Creating a trial site in a new trial environment takes a few minutes.  This is because the environment created is optimized and preinstalled with the site templates. Creating a trial site in an existing environment that doesn't have the preinstalled site templates takes 15 to 30 minutes because the site template has to be installed before the site itself is created. 
 
-### I signed up for the trial, but I can't see the trial site in the Power Pages home? 
+## I signed up for the trial, but I can't see the trial site in the Power Pages home? 
 
 If you don't see your site created when you sign up for a Power Pages trial, the site creation may have failed due to your company's tenant being in a different region than your chosen environment. You can attempt to create another site by selecting the **Create a Site** button on the Power Pages home page.
 
