@@ -64,7 +64,8 @@ Select the **...** (ellipse) to right of the custom CSS file, where you can move
 
 > [!NOTE]
 > CSS files listed at bottom take higher precedence, meaning that if two files contain an update the same property, the update contained in the file lower in the list will be applied.
-> :::image type="content" source="media/manage-css/css-order.png" alt-text="Order of precedence for CSS files.":::
+
+:::image type="content" source="media/manage-css/css-order.png" alt-text="Order of precedence for CSS files.":::
 
 ## Architecture
 
@@ -74,8 +75,8 @@ Any custom CSS file is at lower priority then the default *portalbasictheme.css*
 > We recommend custom CSS should be used to format only styles which aren't provided out of box in style pane.
 
 > [!WARNING]
-> Do not deactivate, delete or change the display order of any of the default CSS files (bootstrap.min.css, theme.css, or portalbasictheme.css). You will see an error in the design studio.
-> :::image type="content" source="media/manage-css/update-css-pma.png" alt-text="Update CSS files using the Portals Management app.":::
+> Do not deactivate, delete or change the display order of any of the default CSS files (bootstrap.min.css, theme.css, or portalbasictheme.css). You will see an error in the design studio.</br>
+> :::image type="content" source="media/manage-css/update-css-pma.png" alt-text="Update CSS files using the Portals Management app."::: </br>
 > Open the **Portal management app** and to restore the default state and display order of the default CSS files to resolve the issue.
 
 ### To delete a custom CSS file
