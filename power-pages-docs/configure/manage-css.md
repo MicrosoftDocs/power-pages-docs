@@ -76,6 +76,4 @@ Edit the site to open it in Power Pages Studio.
 
 -   Go to Portal management app and reverse the changes done.
 
--   ![Graphical user interface  text Description automatically generated](media/image4.png)
-
 :::image type="content" source="media/manage-css/update-css-pma.png" alt-text="Update CSS files using the Portals Management app.":::
