@@ -79,9 +79,9 @@
   - name: Use the Style workspace
     items:
       - name: Style workspace overview
-      - href: getting-started/style-site.md
+        href: getting-started/style-site.md
       - name: Manage CSS files
-      - href: configure/manage-css.md
+        href: configure/manage-css.md
   - name: Use the Data workspace
     items:
       - name: Data workspace overview

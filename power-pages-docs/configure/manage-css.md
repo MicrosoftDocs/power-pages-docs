@@ -80,7 +80,7 @@ Any custom CSS file is at lower priority then the default *portalbasictheme.css*
 
 ### To delete a custom CSS file
 
-1. The CSS files are stored as [web files](configure/web-files.md). To remove the custom CSS file, go to the [Portal Management app](portal-management-app.md) and select **Web Files**. 
+1. The CSS files are stored as [web files](advanced-config.md#web-files). To remove the custom CSS file, go to the [Portal Management app](portal-management-app.md) and select **Web Files**. 
 
 1. Locate the custom CSS file record. You may need to filter on the **Name** and **Website** values to locate the correct record.
 
