@@ -4,7 +4,7 @@ description: Learn how to add custom CSS to your Power Pages sites.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 07/27/2022
+ms.date: 07/29/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -38,11 +38,20 @@ In this tutorial, you learn how to:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
+1. Open up the **Styling** workspace.
 
+1. Select a theme and select the **...** (ellipses) and select **Manage CSS**.
 
+    :::image type="content" source="media/tutorial/manage-css.png" alt-text="Open the manage CSS panel from Styling workspace.":::
 
+1. In the **Custom CSS** section, select **Upload** and choose your custom CSS file. You can upload multiple CSS files. If multiple CSS files update the same attribute, the attributes in the CSS file at the bottom of the list will apply.
 
 1. Select **Preview** to view the custom theme on your site.
 
+1. You can disable, or move the order of your custom CSS files.
+
+    :::image type="content" source="media/tutorial/css-order.png" alt-text="Disable or move the order of the CSS file.":::
+
 > [!NOTE]
-> To remove the custom theme; delete or de-activate the web file record in the [Portal Management app](../configure/portal-management-app.md).
+>
+> To completely remove the custom theme; delete or de-activate the web file record in the [Portal Management app](../configure/portal-management-app.md).
