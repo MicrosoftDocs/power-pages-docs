@@ -4,7 +4,7 @@ description: Learn how to add multi-step forms to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 06/23/2022
+ms.date: 08/02/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -17,7 +17,7 @@ contributors:
 
 Advanced forms are a powerful way to collect and update information in Microsoft Dataverse from a page.  
 
-Advanced forms extend basic forms by:
+Advanced forms provide additional features as compared to basic forms:
 
 - Allows data collection or update process to be broken up over multiple steps.
 - Provides interactive conditions to direct a user down different paths of data updates.
@@ -29,7 +29,7 @@ In this tutorial, you learn how to:
 
 > [!div class="checklist"]
 > * Create an advanced form
-> * Create Advanced form options
+> * Add configuration options
 > * Add an advanced form to a page
 
 ## Prerequisites
@@ -200,7 +200,7 @@ Once the steps have been created, you'll need to first go back and specify the s
 
 Ensure that you've created all the appropriate [table permissions](../security/table-permissions.md) for the tables where records are being created, modified or associated with (for example, populating a lookup). 
 
-## Advanced form options
+## Add configuration options
 
 Advanced forms can be configured for different behaviors, set default values, and specialized user controls. In the following example, we'll replace a lookup column with drop-down control as it would provide a better experience for a user.
 
