@@ -44,7 +44,7 @@ In this tutorial, you learn how to:
 
     :::image type="content" source="media/tutorial/manage-css.png" alt-text="Open the manage CSS panel from Styling workspace.":::
 
-1. In the **Custom CSS** section, select **Upload** and choose your custom CSS file. You can only upload one CSS at a time, but multiple files can be uploaded. If multiple CSS files update the same attribute, the attributes in the CSS file at the bottom of the list will apply. You can adjust the order of your custom CSS files.
+1. In the **Custom CSS** section, select **Upload** and choose your custom CSS file. You can only upload one CSS file at a time, but multiple files can be uploaded. If multiple CSS files update the same attribute, the attributes in the CSS file at the bottom of the list will apply. You can adjust the order of your custom CSS files.
 
 1. Select **Preview** to view the custom theme on your site.
 
