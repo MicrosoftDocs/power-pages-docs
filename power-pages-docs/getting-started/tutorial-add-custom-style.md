@@ -4,7 +4,7 @@ description: Learn how to add custom CSS to your Power Pages sites.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 07/29/2022
+ms.date: 08/04/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -44,7 +44,7 @@ In this tutorial, you learn how to:
 
     :::image type="content" source="media/tutorial/manage-css.png" alt-text="Open the manage CSS panel from Styling workspace.":::
 
-1. In the **Custom CSS** section, select **Upload** and choose your custom CSS file. You can upload multiple CSS files. If multiple CSS files update the same attribute, the attributes in the CSS file at the bottom of the list will apply.
+1. In the **Custom CSS** section, select **Upload** and choose your custom CSS file. You can only upload one CSS at a time, but multiple files can be uploaded. If multiple CSS files update the same attribute, the attributes in the CSS file at the bottom of the list will apply. You can adjust the order of your custom CSS files.
 
 1. Select **Preview** to view the custom theme on your site.
 
