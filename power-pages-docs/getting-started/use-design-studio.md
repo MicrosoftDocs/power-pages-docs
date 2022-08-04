@@ -4,7 +4,7 @@ description: Learn about Power Pages design studio.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 08/04/2022
 ms.author: ndoelman
 ms.reviewer:
 contributors:
@@ -37,6 +37,12 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 - **Data workspace** lets you easily model, visualize, and manage business data for the site with tables, forms, and lists. You can create and edit Dataverse tables for the site and create new or edit existing model-driven forms and views. Changes made in the Data workspace are stored in the Common data store. [Learn more about the Data workspace](use-data-workspace.md).
 
 - **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. [Learn more about the Set up workspace](..\configure\setup-workspace.md).
+
+## Preview page toolbar
+
+While working on designing and building your page, you can switch to the [code editor](code-editor.md), **zoom in (+)**,  **zoom out (-)**, or **Reset** the page in the design studio.
+
+:::image type="content" source="media/tour-maker-studio/zoom-page.png" alt-text="Toolbar to preview page layout, code editor and zoom options.":::
 
 ## Preview your site
 
