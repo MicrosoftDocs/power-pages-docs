@@ -41,7 +41,9 @@ To use the editor:
 
 1. To delete a component, choose the component on the canvas and then select **Delete**.
 
-For a more immersive editing experience, you can use the full-screen editing mode by selecting the double arrow icon in the upper-right corner of the editor.
+For a more immersive editing experience, you can use the full-screen editing mode by selecting the double arrow icon in the upper-left corner of the editor. You can also switch to the [code editor](code-editor.md), **zoom in (+)**,  **zoom out (-)**, or **Reset** the page design canvas.
+
+:::image type="content" source="media/first-page/page-edit-options.png" alt-text="Page editing options.":::
 
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 

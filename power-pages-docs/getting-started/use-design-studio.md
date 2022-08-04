@@ -38,7 +38,7 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 
 - **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. [Learn more about the Set up workspace](..\configure\setup-workspace.md).
 
-## Preview page toolbar
+## Page editing options
 
 While working on designing and building your page, you can switch to the [code editor](code-editor.md), **zoom in (+)**,  **zoom out (-)**, or **Reset** the page in the design studio.
 
