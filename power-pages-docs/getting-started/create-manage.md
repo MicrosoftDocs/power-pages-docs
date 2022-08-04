@@ -63,7 +63,7 @@ To speed up the process when you create a site with a new trial environment, the
 
 ## Discover Power Pages for website creation
 
-The following video is an overview of using Power Pages to create websites.
+The following video is an overview of using Power Pages to create websites.</br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
 

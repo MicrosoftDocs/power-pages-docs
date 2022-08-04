@@ -32,7 +32,7 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 
 ## Easily edit sites in Power Pages design studio
 
-The following video provides an overview of using the various workspaces to build a powerful website.
+The following video provides an overview of using the various workspaces to build a powerful website.</br>
 <!--to be replaced by video found here https://youtu.be/IjpL2y8Rdj0-->
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]

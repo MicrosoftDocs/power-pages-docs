@@ -69,7 +69,7 @@ To speed up the process when you create a site with a new trial environment, the
 
 ## Getting started with Power Pages
 
-The following video provides an overview of how to get started using Power Pages.
+The following video provides an overview of how to get started using Power Pages.</br>
 
 <!--replace with real video currently found here https://youtu.be/8r1_HMIko94-->
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
