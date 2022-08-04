@@ -4,7 +4,7 @@ description: Learn how to create Power Pages sites.
 author: prvaidy
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/10/2022
+ms.date: 08/05/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -25,15 +25,11 @@ The **Pages** workspace enables you to design and build webpages with in-context
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your Power Pages site.
 
-1. On the left pane, select **Pages**, and then select one of the plus signs (**+**).
+1. On the left pane, select **Pages**, and then select **+ Page**.
 
-    - Selecting the **Add a page** icon in the **Main navigation** section adds a new page, which will also add a menu item to the default navigation of the site.
+    :::image type="content" source="media/first-page/add-new-page.png" alt-text="Add a new page within the design studio.":::
 
-        :::image type="content" source="media/first-page/add-page-navigation.png" alt-text="Adding a page within the design studio.":::
-
-    - Selecting the **Add a page** icon in the **Other pages** section adds a new page, but won't add a link to the default navigation of the site.
-
-1. Choose a page from standard layouts, or choose a custom layout.
+1. Choose a page from standard layouts, or choose a custom layout. By default, the new page will appear in the main navigation, but you can unselect this option.
 
     :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within the design studio.":::
 
