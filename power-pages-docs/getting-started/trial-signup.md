@@ -3,7 +3,7 @@ title: "Sign up for a free trial - Power Pages | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Power Pages trial. Explore the app with tours and videos, and find more learning resources."
 author: sampatn
 ms.author: sampatn
-ms.date: 06/08/2022
+ms.date: 08/05/2022
 ms.topic: get-started
 ms.custom: template-trial-setup 
 ms.reviewer: ndoelman
@@ -66,6 +66,13 @@ Your trial environment includes many of the same features as the paid version. T
 To speed up the process when you create a site with a new trial environment, the site metadata for all the [templates](../templates/index.md) will be preloaded and appear as website records in the [Portal Management app](../configure/portal-management-app.md).
 
 :::image type="content" source="media/default-template/websites.png" alt-text="Website records in Portal Management app.":::
+
+## Getting started with Power Pages
+
+The following video provides an overview of how to get started using Power Pages.
+
+<!--replace with real video currently found here https://youtu.be/8r1_HMIko94-->
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
 
 ## Additional resources
 

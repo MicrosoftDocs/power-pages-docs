@@ -61,6 +61,14 @@ To speed up the process when you create a site with a new trial environment, the
 
 :::image type="content" source="media/default-template/websites.png" alt-text="Website records in Portal Management app.":::
 
+## Discover Power Pages for website creation
+
+The following video is an overview of using Power Pages to create websites.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
+
+<!--To be replaced by video currently found here https://youtu.be/64Ixoswt6vQ -->
+
 ## Next steps
 
 [Use design studio](use-design-studio.md)<br>
