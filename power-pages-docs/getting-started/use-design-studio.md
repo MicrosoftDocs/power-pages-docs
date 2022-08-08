@@ -40,7 +40,7 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 
 ## Page editing options
 
-While working on designing and building your page, you can switch to the [code editor](code-editor.md), **zoom in (+)**,  **zoom out (-)**, or **Reset** the page in the design studio.
+While working on designing and building your page, you can switch to the [code editor](code-editor.md), **zoom in (+)**,  **zoom out (-)**, or **Reset** the zoom to default size of the page in the design studio.
 
 :::image type="content" source="media/tour-maker-studio/zoom-page.png" alt-text="Toolbar to preview page layout, code editor and zoom options.":::
 
