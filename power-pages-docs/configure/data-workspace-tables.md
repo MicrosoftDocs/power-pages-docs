@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create Dataverse tables.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 08/08/2022
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: ndoelman
@@ -36,7 +36,7 @@ On the left pane of the **Data** workspace, the **Tables in this site** section 
 
 ## Create a new table
 
-1. Next to **Tables in this site**, select the plus sign (**+**).
+1. Next to **Data**, select **+ Table**.
 
 1. In the window that appears, enter a name for your table. By expanding **Advanced settings**, you can modify the plural name of your table.
 
