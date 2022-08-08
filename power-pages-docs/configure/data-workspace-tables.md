@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create Dataverse tables.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/04/2022
+ms.date: 08/08/2022
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: ndoelman
