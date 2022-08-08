@@ -4,7 +4,7 @@ description: Learn how to add multi-step forms to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 08/02/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -17,7 +17,7 @@ contributors:
 
 Advanced forms are a powerful way to collect and update information in Microsoft Dataverse from a page.  
 
-Advanced forms extend basic forms by:
+Advanced forms provide additional features as compared to basic forms:
 
 - Allows data collection or update process to be broken up over multiple steps.
 - Provides interactive conditions to direct a user down different paths of data updates.
@@ -29,7 +29,7 @@ In this tutorial, you learn how to:
 
 > [!div class="checklist"]
 > * Create an advanced form
-> * Create Advanced form options
+> * Add configuration options
 > * Add an advanced form to a page
 
 ## Prerequisites
@@ -49,10 +49,13 @@ An advanced form is composed of an advanced form record and a series of steps.
 
 :::image type="content" source="media/tutorial/advanced-form-diagram.png" alt-text="A diagram of an advanced form.":::
 
-In the steps below, we'll create an advanced form. This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times.  
+In the steps below, we'll create an advanced form, this example follows a simple process to apply for a scholarship, but the concepts can be applied to other business processes. 
 
-> [!NOTE]
-> You'll need to adjust these steps to reflect your own business requirements.
+This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times. 
+
+:::image type="content" source="media/tutorial/advanced-form.gif" alt-text="Animation that shows the working advanced form in action.":::
+
+Follow the steps to create an advanced form in the Portals Management app and add it to a page in the design studio.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -61,7 +64,8 @@ In the steps below, we'll create an advanced form. This advanced form will requi
     :::image type="content" source="media/tutorial/advanced-forms-create-step-forms.png" alt-text="Active Advanced Forms inside the Portal Management App.":::
 
     > [!TIP]
-    > Create a form for each step that requires data to created or updated. Alternatively, you can create a series of form tabs for each step.
+    > - Create a form for each step that requires data to created or updated. Alternatively, you can create a series of form tabs for each step.
+    > - To display columns in the advanced form but not allow users to update, configure the columns to be read-only when creating the forms.
 
 1. Publish your forms.
 
@@ -74,9 +78,9 @@ In the steps below, we'll create an advanced form. This advanced form will requi
     - **Name** can be anything descriptive.
     - Set the **Website** is your website (press **Enter** to view list of sites).
     - **Start Step** will be blank for now, we'll set the start step later in the tutorial.
-    - Set **Authentication required** to **Yes**.
-    - Set **Start new session on load** to **No**.
-    - Set **Multiple records per user permitted** to **Yes**.
+    - Set **Authentication required** to **Yes** (this will required your users sign in to the site to use the advanced form).
+    - Set **Start new session on load** to **No** (this will allow your users to pick up where they left off in the advanced form steps).
+    - Set **Multiple records per user permitted** to **Yes** (this will allow your users to use the advanced form multiple times to create multiple submissions).
     
     Optionally, you can enable the **Progress Indicator** (scroll down) to show users their progress when filling out a form. 
     
@@ -158,6 +162,16 @@ In the steps below, we'll check to see if an applicant is pursuing a Masters deg
 
 Repeat the instructions outlined until you've created the number of steps needed for your business process.
 
+In the example, we have created the following steps for the scenario of applying for a scholarship.
+
+| Step | Type | Mode | Details | 
+| - | - | - | - | 
+| Choose Scholarship | Load Form | Insert | <ul><li>Creates an application record</li><li>User chooses scholarship</li></ul> |  
+| Application Details | Load Form | Edit | <ul><li>User adds details to application</li><li>User fills in degree type choices that will be used to determine condition in next step.</li></ul> | 
+| Check Degree Type | Condition | | <ul><li>Evaluates degree type choices using column logical name.</li><li>Next step is Master degree information if *true* or Consent step if *false*.</li></ul> |
+| Master Degree Information | Load Form | Edit | <ul><li>Allows user to fill in additional information if they selected a degree type of *Master* in a previous step, this step is skipped if degree type selected was *Bachelor*.</li></ul>  |
+| Consent | Load Form | Edit | <ul><li>Allows user to choose consent field and ends process.</li></ul> |
+
 ## Link the steps
 
 Once the steps have been created, you'll need to first go back and specify the start step and link all the steps you created previously.
@@ -178,11 +192,15 @@ Once the steps have been created, you'll need to first go back and specify the s
 
     :::image type="content" source="media/tutorial/advanced-form-condition-failed.png" alt-text="Condition failed in the step.":::
 
+1. With conditions, the multiple steps may lead to a step, some of which may **not** have been surfaced to the user. The **Record Source** should be set to a previous step earlier in the process that the user would have interacted with. This is to make sure that the record being updated is identified. 
+
+    :::image type="content" source="media/tutorial/advanced-form-previous-step.png" alt-text="Previous step, not last step.":::
+
 ## Table permissions
 
 Ensure that you've created all the appropriate [table permissions](../security/table-permissions.md) for the tables where records are being created, modified or associated with (for example, populating a lookup). 
 
-## Advanced form options
+## Add configuration options
 
 Advanced forms can be configured for different behaviors, set default values, and specialized user controls. In the following example, we'll replace a lookup column with drop-down control as it would provide a better experience for a user.
 
@@ -239,6 +257,8 @@ We'll need to use the code editor to add a [Liquid](../configure/liquid-overview
 1. Fill in and test your form.
 
     :::image type="content" source="media/tutorial/advanced-form-rendering.png" alt-text="Viewing advanced form on a web page.":::
+
+1. You can view the information collected and updated in your advanced form by going to the [Data workspace](../configure/data-workspace-tables.md?#table-designer) table designer, selecting the table, and viewing the data.
 
 ## Next steps
 
