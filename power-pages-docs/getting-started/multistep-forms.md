@@ -4,7 +4,7 @@ description: Learn how to add multistep forms to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/23/2022
+ms.date: 08/24/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -22,7 +22,8 @@ contributors:
 Multistep forms allows you to create a form with multiple steps.
 
 > [!NOTE]
-> Multistep forms were formerly called advanced forms.
+> - Multistep forms were formerly called advanced forms.
+> - Some features of multistep forms still need to be configured using the Portal Management App. More information: [Define advanced form steps for portals](/power-apps/maker/portals/configure/web-form-steps).
 
 ## Create new multistep form
 
