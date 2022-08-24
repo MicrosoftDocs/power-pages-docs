@@ -63,4 +63,4 @@ Repeat this process for any other steps.
 
 ### See also
 
-[Tutorial: Add a multi-step form to your page](tutorial-add-multi-step-form.md)<br>
+[Tutorial: Add a multistep form to your page](tutorial-add-multi-step-form.md)<br>
