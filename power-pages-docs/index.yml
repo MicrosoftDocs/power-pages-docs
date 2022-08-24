@@ -120,8 +120,8 @@ conceptualContent:
         - text: Add basic forms to pages
           url: getting-started/add-form.md
           itemType: tutorial
-        - text: Add advanced forms on pages
-          url: getting-started/advanced-forms.md
+        - text: Add multistep forms on pages
+          url: getting-started/multistep-forms.md
           itemType: tutorial
         - text: Secure your data with table permissions
           url: security/table-permissions.md
