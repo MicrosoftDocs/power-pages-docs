@@ -1,0 +1,38 @@
+---
+title: Dynamics 365 templates
+description: The Power Pages sites can be created leveraging the Dynamics 365 templates.
+author: sampatn
+ms.topic: conceptual
+ms.custom: 
+ms.date: 08/29/2022
+ms.subservice:
+ms.author: sampatn
+ms.reviewer: ndoelman
+contributors:
+    - nickdoelman
+    - ProfessorKendrick
+    - sampatn
+---
+
+# Dynamics 365 templates
+
+If you select an environment that contains Dynamics 365 applications (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations or Dynamics 365 Supply Chain Management), the Dynamics 365 templates would be available for you to create your Power Pages site leveraging the below templates:
+
+- **Customer self-service**: A customer self-service site enables customers to access self-service knowledge, support resources, view the progress of their cases, and provide feedback.
+- **Partner**: A partner site allows every organization with resellers, distributors, suppliers, or partners to have real-time access to every stage of shared activities.
+
+    > [!NOTE]
+    > Field Service and Project Operations packages must be installed in your Dynamics 365 organization to enable respective options. For more information, see [Integrate Project Service Automation](/dynamics365/portals/integrate-project-service-automation) and [Integrate Field Service](/dynamics365/portals/integrate-field-service).
+
+- **Employee self-service portal**: An employee self-service portal creates an efficient and well-informed workforce by streamlining common tasks and empowering every employee with a definitive source of knowledge.
+- **Community portal**: A community portal leverages peer-to-peer interactions between customers and experts to organically grow the catalog of available knowledge from knowledge base articles, forums, and blogs as well as providing feedback through comments and ratings.
+- **Customer Portal (preview)**: A Supply Chain Management Customer Portal template provisions an externally facing B2B order placing website. This template allows external users to create and view orders to the associated Dynamics 365 for Supply Chain Management environment. Customer Portal template is in *Preview*. For more information about *preview* features, see [Understand preview features in Power Apps](../canvas-apps/working-with-experimental-preview.md).
+- **Modern Community portal**: A community portal leverages peer-to-peer interactions between customers and experts to organically grow the catalog of available knowledge from knowledge base articles, forums, and blogs as well as providing feedback through comments and ratings.
+- **Customer Portal (preview)**: A Supply Chain Management Customer Portal template provisions an externally facing B2B order placing website. This template allows external users to create and view orders to the associated Dynamics 365 for Supply Chain Management environment. Customer Portal template is in *Preview*. For more information about *preview* features, see [Understand preview features in Power Apps](../canvas-apps/working-with-experimental-preview.md).
+
+For creating a portal with any of the above 
+
+### See also 
+
+[Tutorial: Add a page to your Power Pages site](../getting-started/tutorial-add-webpage.md)  
+[Create and design pages](../getting-started/first-page.md)
