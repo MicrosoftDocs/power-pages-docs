@@ -92,17 +92,18 @@ To enable attachments on a form:
 1. In the **Add a form** modal, choose **Attachments** from the left panel. 
 1. Configure the following options:
 
-    - Turn on/off the "Enable attachments" toggle
-    - Make the field required
-    - Multiple files allowed
+    - Turn on/off the **Enable attachments** toggle.
+    - Turn on/off the **Attachment is required** toggle.
+    - Turn on/off the **Allow multiple files** toggle.
     - Max file size allowed
-    -File types allowed:
-        - All
-        - Audio
-        - Document
-        - Image
-        - Video
-        - Specific (comma separated values)
+        >[!NOTE] 
+        > The following file types are allowed:
+        >    - All
+        >    - Audio
+        >    - Document
+        >    - Image
+        >    - Video
+        >    - Specific (comma separated values)
     
     :::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
 
