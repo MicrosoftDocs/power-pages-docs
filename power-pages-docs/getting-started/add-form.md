@@ -56,21 +56,6 @@ To add a form:
 
 1. You can select the ellipsis (**...**) to duplicate the form, move it up or down within the section, or delete it.
 
-## Edit a form field with validation
-
-To edit a form field:
-
-1. Hover over and select the field from the canvas.
-1. Choose **Edit field** in the tool bar.
-    :::image type="content" source="media/add-form/edit-text-field.png" alt-text="The edit text field menu.":::
-1. From the Field Edit modal:
-    1. update the field's label/display name.
-    1. Mark the field as required, then customize the error message to be shown when the field is required.
-    1. Add a description to the field and adjust its position (choices include above the field, below the field, and above the label);
-    1. Set the validation rules for the field.
-        1. use the simple options to configure out-of-the-box validations.
-        1. Use the Regex option to enter custom validation using regular expressions.
-
 ## Edit a text field on the form
 
 You can edit text fields, including email, form title, and title section.
@@ -81,6 +66,21 @@ To edit a text field on the form:
 1. Edit the text field and style it as needed (bold, underline, or italic).
     :::image type="content" source="media/add-form/fill-details.png" alt-text="Styling options for text fields including bold, underline, and italic.  Bold is selected here.":::
 
+## Edit and validate form fields
+
+To edit a form field:
+
+1. Hover over and select the field from the canvas.
+1. Choose **Edit field** in the tool bar.
+    :::image type="content" source="media/add-form/edit-text-field.png" alt-text="The edit text field menu.":::
+1. From the Field Edit modal:
+    - Update the field's label/display name.
+    - Mark the field as required, then customize the error message to be shown when the field is required.
+    - Add a description to the field and adjust its position (choices include above the field, below the field, and above the label);
+    - Set the validation rules for the field.
+        - Use the simple options to configure out-of-the-box validations.
+        - Use the Regex option to enter custom validation using regular expressions.
+
 ## Enable attachments on a form
 
 Users can upload an attachment with form submission.
@@ -90,22 +90,23 @@ To enable attachments on a form:
 1. Add a form or edit an existing form.
 
 1. In the **Add a form** modal, choose **Attachments** from the left panel. 
-1. Configure the following options:
 
-    - Turn on/off the **Enable attachments** toggle.
-    - Turn on/off the **Attachment is required** toggle.
-    - Turn on/off the **Allow multiple files** toggle.
-    - Max file size allowed
-        >[!NOTE] 
-        > The following file types are allowed:
-        >    - All
-        >    - Audio
-        >    - Document
-        >    - Image
-        >    - Video
-        >    - Specific (comma separated values)
+    - Configure the following options:
+
+        - Turn on/off the **Enable attachments** toggle.
+        - Turn on/off the **Attachment is required** toggle.
+        - Turn on/off the **Allow multiple files** toggle.
+        - Max file size allowed
+            >[!NOTE] 
+            > The following file types are allowed:
+            >   - All
+            >   - Audio
+            >   - Document
+            >   - Image
+            >   - Video
+            >   - Specific (comma separated values)
     
-    :::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
+        :::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
 
 Once configured, the file upload placeholder will show in the canvas. 
 
