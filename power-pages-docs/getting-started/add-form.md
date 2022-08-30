@@ -4,7 +4,7 @@ description: Add forms to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 08/30/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -55,6 +55,31 @@ To add a form:
     > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to interact with the data on the forms.
 
 1. You can select the ellipsis (**...**) to duplicate the form, move it up or down within the section, or delete it.
+
+## Edit a form field with validation
+
+To edit a form field:
+
+1. Hover over and select the field from the canvas.
+1. Choose **Edit field** in the tool bar.
+    :::image type="content" source="media/add-form/edit-text-field.png" alt-text="The edit text field menu.":::
+1. From the Field Edit modal:
+    1. update the field's label/display name.
+    1. Mark the field as required, then customize the error message to be shown when the field is required.
+    1. Add a description to the field and adjust its position (choices include above the field, below the field, and above the label);
+    1. Set the validation rules for the field.
+        1. use the simple options to configure out-of-the-box validations.
+        1. Use the Regex option to enter custom validation using regular expressions.
+
+## Edit a text field on the form
+
+You can edit text fields, including email, form title, and title section.
+
+To edit a text field on the form:
+
+1. Hover and select the textfield from the canvas.
+1. Edit the text field and style it as needed (bold, underline, or italic).
+    :::image type="content" source="media/add-form/fill-details.png" alt-text="Styling options for text fields including bold, underline, and italic.  Bold is selected here.":::
 
 ### See also
 
