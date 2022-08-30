@@ -82,6 +82,8 @@ Send current techncian location and arrival times to your customers with Dyunami
 
 Field Service customer portal (https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-portal-homepage)
 
-For creating a portal with any of the above 
 
+When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a default template to build your site or can you can choose scenario-based templates to accelerate creating your site.
+
+:::image type="content" source="media/select-template.png" alt-text="Selection of templates when creating a new site.":::
 
