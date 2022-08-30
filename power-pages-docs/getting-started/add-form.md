@@ -81,6 +81,38 @@ To edit a text field on the form:
 1. Edit the text field and style it as needed (bold, underline, or italic).
     :::image type="content" source="media/add-form/fill-details.png" alt-text="Styling options for text fields including bold, underline, and italic.  Bold is selected here.":::
 
+## Enable attachments on a form
+
+Users can upload an attachment with form submission.
+
+To enable attachments on a form:
+
+1. Add a form or edit an existing form.
+
+1. In the **Add a form** modal, choose **Attachments** from the left panel. 
+1. Configure the following options:
+
+    - Turn on/off the "Enable attachments" toggle
+    - Make the field required
+    - Multiple files allowed
+    - Max file size allowed
+    -File types allowed:
+        - All
+        - Audio
+        - Document
+        - Image
+        - Video
+        - Specific (comma separated values)
+    
+    :::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
+
+Once configured, the file upload placeholder will show in the canvas. 
+
+:::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
+
+If proper permissions are in place for attachments to work, no further action required. Otherwise, follow the prompt to configure permissions.
+
+
 ### See also
 
 - [Create and modify forms](../configure/data-workspace-forms.md)
