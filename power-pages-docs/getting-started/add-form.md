@@ -4,7 +4,7 @@ description: Add forms to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/30/2022
+ms.date: 08/31/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -112,12 +112,15 @@ Once configured, the file upload placeholder will show in the canvas.
 
 :::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
 
-### Enabling table permissions for attachments
+### Enabling table permissions
 
-At a minimum, you'll need to add **append to** privileges for the table on which the form is based. Child permissions are also needed on the related **note (annotations)** table with **create** and **append** privileges in order for users to see the attachments section on the page.  For more information, see [Configuring table permissions](../security/table-permissions.md).
+When you add a new form you will be prompted to set permissions to allow site users to interact with the form. Table permissions will be automatically set based on the form type. This process will also configure the permissions for attachments to be added to the records.
+
+:::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
+
+You can adjust the permissions and assign web roles based on your requirements. At a minimum, you'll need to add **append to** privileges for the table on which the form is based. Child permissions are also needed on the related **note (annotations)** table with **create** and **append** privileges in order for users to see the attachments section on the page.  For more information, see [Configuring table permissions](../security/table-permissions.md).
 
 :::image type="content" source="media/add-form/table-permissions.png" alt-text="Table permissions menu.":::
-
 
 ### See also
 
