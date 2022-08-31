@@ -3,7 +3,7 @@ title: "Sign up for a free trial - Power Pages | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Power Pages trial. Explore the app with tours and videos, and find more learning resources."
 author: sampatn
 ms.author: sampatn
-ms.date: 08/05/2022
+ms.date: 08/31/2022
 ms.topic: get-started
 ms.custom: template-trial-setup 
 ms.reviewer: ndoelman
@@ -71,8 +71,7 @@ To speed up the process when you create a site with a new trial environment, the
 
 The following video provides an overview of how to get started using Power Pages.</br>
 
-<!--replace with real video currently found here https://youtu.be/8r1_HMIko94-->
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE559Pe]
 
 ## Additional resources
 

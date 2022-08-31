@@ -4,7 +4,7 @@ description: Learn how to create and manage Power Pages sites
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/08/2022
+ms.date: 08/31/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -65,9 +65,7 @@ To speed up the process when you create a site with a new trial environment, the
 
 The following video is an overview of using Power Pages to create websites.</br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
-
-<!--To be replaced by video currently found here https://youtu.be/64Ixoswt6vQ -->
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE557dn]
 
 ## Next steps
 
