@@ -20,7 +20,7 @@ contributors:
 
 You can edit site code using **Visual Studio Code for the Web**. This feature allows you to edit a single page's content, custom CSS, and custom JavaScript.
 
-Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running entirely in your browser, allowing you to browse site code and make lightweight code changes quickly and safely. [Click here to learn more about the Visual Studio Code for the Web experience.](https://code.visualstudio.com/docs/editor/vscode-web)
+Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running entirely in your browser, allowing you to browse site code and make lightweight code changes quickly and safely. For more information: [Visual Studio Code for the Web experience.](https://code.visualstudio.com/docs/editor/vscode-web)
 
 ## Tutorial: Edit site code using Visual Studio Code for the Web
 
@@ -36,11 +36,11 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 
 1. Select **Open Visual Studio Code** from the confirmation dialog
 
-1. Login to Visual Studio Code using your environments credentials.
+1. Sign in to Visual Studio Code using your environments credentials.
 
 1. Wait for PowerPlatform web extension initialization and web page code to load in left file navigation.
 
-1. Select the left navigation **Accounts** (i.e., User icon) and then choose **Settings Sync** option to enable it.
+1. Select the left navigation **Accounts** (that is, User icon) and then choose **Settings Sync** option to enable it.
 
     :::image type="content" source="media/visual-studio-code-editor/settings-sync.png" alt-text="Settings Sync option is turned on.":::
 
@@ -53,8 +53,6 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 1. Make changes to the respective files and press ***Ctrl+s*** to save the changes
 
 1. Navigate to Design Studio and select **Sync**" to pull all the update in Design Studio.
-
-![Interface to allow user to select Sync button to synchronize changes made in Visual Studio Code to design studio ](media/image4.png)
 
     :::image type="content" source="media/visual-studio-code-editor/sync-code.png" alt-text="Interface to allow user to select Sync button to synchronize changes made in Visual Studio Code to design studio.":::
 
