@@ -39,7 +39,7 @@ For more information, go to [Create and modify views by using the Data workspace
 
 The **Forms** tab displays the forms being used in the basic forms used in the site and all other forms in the environment associated with the respective table. It only shows the **main** form type that's supported in portals. Selecting an existing form (or creating a new one) opens the Power Apps form designer, where you can add form fields, components, and much more. The form designer only provides features and properties that are supported in portals. To access all form features, go to the Power Apps form designer from the command bar.
 
-Forms created here can be used to [add a form to a page](add-form.md), or to create [advanced forms](advanced-forms.md).
+Forms created here can be used to [add a form to a page](add-form.md), or to create [multistep forms](multistep-forms.md).
 
 For more information, go to [Create and modify forms by using the Data workspace](../configure/data-workspace-forms.md).
 

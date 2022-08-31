@@ -1,14 +1,15 @@
 ---
 title: Customize webpages
 description: Learn how to customize Power Pages sites.
-author: nickdoelman
+author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 08/08/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: clromano 
+ms.reviewer: ndoelman
 contributors:
+    - clromano
     - nickdoelman
     - ProfessorKendrick
 ---
@@ -41,9 +42,14 @@ To use the editor:
 
 1. To delete a component, choose the component on the canvas and then select **Delete**.
 
-For a more immersive editing experience, you can use the full-screen editing mode by selecting the double arrow icon in the upper-right corner of the editor.
+For a more immersive editing experience, you can use the full-screen editing mode by selecting the double arrow icon in the upper-left corner of the editor. You can also switch to the [code editor](code-editor.md), **zoom in (+)**,  **zoom out (-)**, or **Reset** the page design canvas view back to 100%.
+
+:::image type="content" source="media/first-page/page-edit-options.png" alt-text="Page editing options.":::
 
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
+
+> [!NOTE]
+> You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/store-content-web-templates.md) for information on creating custom page layouts.
 
 ### See also
 
@@ -56,6 +62,6 @@ All sections and components allow for in-context editing. You can edit any secti
 [Add list](add-list.md)<br>
 [Add form](add-form.md)<br>
 [Add iframe](add-iframe.md)<br>
-[Add advanced form](advanced-forms.md)<br>
+[Add multistep form](multistep-forms.md)<br>
 [Use Code Editor](code-editor.md)<br>
 [Structure site map](structure-site.md)<br>
