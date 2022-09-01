@@ -58,6 +58,19 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 
 1. Select **Preview** to see changes on the Power Pages site.
 
+## Using Visual Studio Code for Web or Visual Studio Code desktop
+
+Users can edit, debug, and preview changes to page edits using Visual Studio Code for the Web without needing to use external tools. Visual Studio Code for desktop provides additional advanced features for editing all site metadata as well as integrating with GitHub, frameworks, and continuous integration/continuous development (CI/CD) processes.
+
+| Feature | Visual Studio for Web | Visual Studio Code desktop |
+| - | - | - |
+| Direct site editing | yes | |
+| Site metadata editing | limited</br>-content snippets</br>-web files</br>-web pages</br>-web templates</br>-page templates</br>-basic form custom CSS/JavaScript</br>-list custom CSS/JavaScript | all |
+| Site preview | planned | planned |
+| PAC CLI support | | yes |
+| Advanced CPU and storage bound workflow</br>-ReactJS or other framework build tool support | | yes |
+| GitHub integration</br>-code check in/check out/conflict/merge/etc. | limited | yes |
+
 ## See also
 
 - [Use code editor](../getting-started/code-editor.md)
