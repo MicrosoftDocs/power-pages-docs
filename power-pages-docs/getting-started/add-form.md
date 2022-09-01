@@ -114,7 +114,7 @@ Once configured, the file upload placeholder will show in the canvas.
 
 ### Enabling table permissions
 
-When you add a new form, you'll be prompted to set permissions to allow site users to interact with the form. The settings for table permissions will be pre-set, but you'll still need to assign web roles and save the settings. This process will also configure the table permissions for attachments to be added to the records.
+When you add a new form, you'll be prompted to set permissions to allow site users to interact with the form. The settings for table permissions will be pre-populated (**create** and **append to**), but you'll still need to assign web roles and save the settings. The process will automatically create the child table permissions for the **note (annotations)** table which contain the attachments.
 
 :::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
 
