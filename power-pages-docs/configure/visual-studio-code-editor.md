@@ -4,7 +4,7 @@ description: Learn how to customize pages by using the Visual Studio Code for th
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/31/2022
+ms.date: 09/01/2022
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -60,3 +60,5 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 
 ## See also
 
+- [Use code editor](../getting-started/code-editor.md)
+- [Use Visual Studio Code and Microsoft Power Platform CLI](cli-tutorial.md)
