@@ -4,7 +4,7 @@ description: Learn how to create and manage Power Pages sites
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/08/2022
+ms.date: 08/31/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer:
@@ -60,6 +60,12 @@ Power Pages provides a list of templates to choose from to quickly build your si
 To speed up the process when you create a site with a new trial environment, the site metadata for all the [templates](../templates/index.md) will be preloaded and appear as website records in the [Portal Management app](../configure/portal-management-app.md).
 
 :::image type="content" source="media/default-template/websites.png" alt-text="Website records in Portal Management app.":::
+
+## Discover Power Pages for website creation
+
+The following video is an overview of using Power Pages to create websites.</br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE557dn]
 
 ## Next steps
 
