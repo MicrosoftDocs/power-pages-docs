@@ -4,7 +4,7 @@ description: Add forms to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/31/2022
+ms.date: 09/01/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -118,9 +118,11 @@ When you add a new form, you'll be prompted to set permissions to allow site use
 
 :::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
 
-You can adjust the permissions and assign web roles based on your requirements. At a minimum, you'll need to add **append to** privileges for the table on which the form is based. Child permissions are also needed on the related **note (annotations)** table with **create** and **append** privileges in order for users to see the attachments section on the page.  For more information, see [Configuring table permissions](../security/table-permissions.md).
+You can also adjust the permissions and assign web roles based on your requirements in the **Set up** workspace.
 
 :::image type="content" source="media/add-form/table-permissions.png" alt-text="Table permissions menu.":::
+
+For more information, see [Configuring table permissions](../security/table-permissions.md).
 
 ### See also
 
