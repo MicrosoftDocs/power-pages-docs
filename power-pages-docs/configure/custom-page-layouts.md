@@ -22,6 +22,9 @@ When you create a new web page using the design studio, you need to select a pag
 
 You can also create your own custom page layouts using HTML, Liquid, JavaScript and CSS.
 
+> [!TIP]
+> We've created a series of tutorials and videos for you to learn to use Power Pages and how create a custom page layout. For more information, go to [Tutorial: Add a custom page layout](../getting-started/tutorial-add-custom-page-layout.md).
+
 ## Create a custom page layout
 
 To create a custom page, you'll need to follow these steps:

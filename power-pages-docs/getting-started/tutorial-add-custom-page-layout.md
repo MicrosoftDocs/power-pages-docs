@@ -126,8 +126,6 @@ In this step, we'll create a new page template that is based on the web template
 
 1. From **Active Page Templates** screen, select **New**.
 
-    :::image type="content" source="media/tutorial-custom-layouts/new-page-template.png" alt-text="The + New menu option from the Active Page Templates page in the Portal Management app.":::
-
 1. Fill in the fields. 
 
     |Field  |Value  |
