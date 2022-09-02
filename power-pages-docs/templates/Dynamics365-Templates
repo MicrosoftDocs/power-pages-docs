@@ -35,7 +35,7 @@ There is a limit of only one site for this type of template, that can be created
 
 ### See also 
 
-Site limits for Portal type - https://docs.microsoft.com/en-us/power-apps/maker/portals/create-additional-portals
+- [Site limits for site template type](/powerapps/maker/portals/create-additional-portals)
 
 ## Employee self-service: 
 
@@ -55,8 +55,8 @@ There is a limit of only one site for this type of template, that can be created
 
 ### See also
 
-- Customer portal for Dynamics 365 Supply Chain Management application. (https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/customer-portal-overview)
-- Site limits for Portal type. (https://docs.microsoft.com/en-us/power-apps/maker/portals/create-additional-portals)
+- [Customer portal for Dynamics 365 Supply Chain Management application](/dynamics-365-unified-operations-public/articles/supply-chain/sales-marketing/customer-portal-overview).
+- [Site limits for site template type](/powerapps/maker/portals/create-additional-portals)
 
 ## Modern Community: 
 
@@ -64,7 +64,7 @@ Modern Community site offers a suite if capabilities that are designed to help y
 
 ### See also 
 
-Customer Service Community (https://docs.microsoft.com/en-us/dynamics365/customer-service/community-get-started)
+- [Customer Service Community] (dynamics-365-customer-engagement/ce/customer-service/community-get-started)
 
 ## Field Service customer: 
 
@@ -80,8 +80,7 @@ Send current techncian location and arrival times to your customers with Dyunami
 
 ### See also 
 
-Field Service customer portal (https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-portal-homepage)
-
+- Field Service customer portal (https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-portal-homepage)
 
 When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a default template to build your site or can you can choose scenario-based templates to accelerate creating your site.
 
