@@ -79,7 +79,7 @@ Web templates can be used with page templates to create custom page layouts to b
     | Website | Select the web site to which the theme will be applied. Put your cursor in the field and hit enter on your keyboard to display a list of available options. |
     | Type | Choose **Web Template** |
     | Web Template | Select the web template where your custom code is located. Put your cursor in the field and hit enter on your keyboard to display a list of available options. |
-    | Use Website Header and Footer | If this is checked, your web template will control rendering of all page content between the global website header and footer. If this option is unchecked, your web template will be responsible for rendering the entire response in the case that you're rendering HTML, this means everything from the doctype to the root <html> tags, and everything in between. |
+    | Use Website Header and Footer | If this is checked, your web template will control rendering of all page content between the global website header and footer. If this option is unchecked, your web template will be responsible for rendering the entire response in the case that you're rendering HTML, this means everything from the doctype to the root `<html>` tags, and everything in between. |
     | Is Default | Unchecked. |
     | Table Name | None selected. |
     | Description | A description of your page template. |
