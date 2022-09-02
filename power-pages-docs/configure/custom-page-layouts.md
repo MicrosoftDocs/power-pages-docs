@@ -26,12 +26,12 @@ You can also create your own custom page layouts using HTML, Liquid, JavaScript 
 
 To create a custom page, you'll need to follow these steps:
 
-- Create a web template containing the code
-- Create a corresponding page template
+- Create a **web template** containing your custom code.
+- Create and configure a corresponding **page template** that will appear as a **custom page layout** when creating new web pages in the **Pages** workspace.
 
 ### Creating a web template
 
-The web template will contain your code for your layout. This can be a combination of Liquid, HTML, CSS, and JavaScript. 
+The web template will contain your code for your layout. This can be a combination of [Liquid](liquid-overview.md), HTML, CSS, and JavaScript. 
 
 Web templates can be included in other content or combined with other templates to build a modular system of templates when building web applications.
 
@@ -47,7 +47,7 @@ Web templates can be included in other content or combined with other templates 
 
     :::image type="content" source="media/custom-page-layouts/new-web-template.png" alt-text="The + New menu option from the Active Web Templates page in the Portal Management app.":::
 
-1. Fill in the required fields. 
+1. Fill in the fields. 
 
     |Field  |Value  |
     |---------|---------|
@@ -62,15 +62,15 @@ Web templates can be included in other content or combined with other templates 
 
 ### Creating a page template
 
-Web Templates can be used with page templates to create custom page layouts to be used when creating web pages in the design studio.
+Web templates can be used with page templates to create custom page layouts to be used when creating new web pages in the design studio.
 
-1. In the **Portal Management app**, scroll to the **Content** section and select **Web Templates**.
+1. In the **Portal Management app**, scroll to the **Website** section and select **Page Templates**.
 
 1. From **Active Page Templates** screen, select **New**.
 
     :::image type="content" source="media/custom-page-layouts/new-page-template.png" alt-text="The + New menu option from the Active Page Templates page in the Portal Management app.":::
 
-1. Fill in the required fields. 
+1. Fill in the fields. 
 
 
     |Field  |Value  |
