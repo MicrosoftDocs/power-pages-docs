@@ -126,7 +126,7 @@ In this step, we'll create a new page template that is based on the web template
 
 1. From **Active Page Templates** screen, select **New**.
 
-    :::image type="content" source="media/custom-page-layouts/new-page-template.png" alt-text="The + New menu option from the Active Page Templates page in the Portal Management app.":::
+    :::image type="content" source="media/tutorial-custom-layouts/new-page-template.png" alt-text="The + New menu option from the Active Page Templates page in the Portal Management app.":::
 
 1. Fill in the fields. 
 
@@ -141,7 +141,7 @@ In this step, we'll create a new page template that is based on the web template
     | Table Name | None selected. |
     | Description | A description of your page template. |
 
-    :::image type="content" source="../media/tutorial-custom-layouts/page-template.png" alt-text="Page template weblinks left navigation layout." border="true":::
+    :::image type="content" source="media/tutorial-custom-layouts/page-template.png" alt-text="Page template weblinks left navigation layout." border="true":::
 
 1. Select **Save**.
 
@@ -154,7 +154,7 @@ In this step, we'll create a new page template that is based on the web template
     1. From the **Custom layouts**, select your custom page layout.
     1. Select **Add**.
 
-    :::image type="content" source="media/tutorial-custom-layouts/select-custom-layout.png" alt-text="Select custom layout when creating a new web page.":::
+    :::image type="content" source="media/tutorial-custom-layouts/select-custom-layout.png" alt-text="Select custom page layout when creating a new web page.":::
 
 1. Add any additional content to the editable sections of the page.
 
@@ -170,7 +170,7 @@ In this example we will need to link the navigation record to the content page i
 
 1. Go to the localized content web page.
 
-    :::image type="content" source="media/tutorial-custom-layouts/web-page.png" alt-text="Select custom layout when creating a new web page.":::
+    :::image type="content" source="media/tutorial-custom-layouts/web-page.png" alt-text="Select the localized content page.":::
 
 1. Go to the **Miscellaneous** section and select the web link set you want to display in the **Navigation** field.
 
