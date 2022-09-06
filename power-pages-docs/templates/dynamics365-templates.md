@@ -70,7 +70,7 @@ There is a limit of only one site for this type of template, that can be created
 
 Modern Community site offers a suite if capabilities that are designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Customers can use Modern Community to collaborate on a social scale, and rally behind suggestions from others to help shape the future of the products they use. 
 
-:::image type="content" source="media/Modern community thumbnaill.png" alt-text="Modern community template landing page.":::    
+:::image type="content" source="media/Modern community thumbnail.png" alt-text="Modern community template landing page.":::    
 
 ### See also 
 
@@ -92,7 +92,7 @@ Send current techncian location and arrival times to your customers with Dyunami
 
 ### See also 
 
-- [Field Service customer portal](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-portal-homepage)
+- [Field Service customer portal](MicrosoftDocs/dynamics-365-customer-engagement/ce/field-service/field-service-portal-homepage.md)
 
 When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a default template to build your site or can you can choose scenario-based templates to accelerate creating your site.
 
