@@ -62,6 +62,6 @@ All sections and components allow for in-context editing. You can edit any secti
 [Add list](add-list.md)<br>
 [Add form](add-form.md)<br>
 [Add iframe](add-iframe.md)<br>
-[Add advanced form](advanced-forms.md)<br>
+[Add multistep form](multistep-forms.md)<br>
 [Use Code Editor](code-editor.md)<br>
 [Structure site map](structure-site.md)<br>

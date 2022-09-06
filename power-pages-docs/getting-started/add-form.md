@@ -4,7 +4,7 @@ description: Add forms to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 09/01/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -55,6 +55,74 @@ To add a form:
     > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to interact with the data on the forms.
 
 1. You can select the ellipsis (**...**) to duplicate the form, move it up or down within the section, or delete it.
+
+## Edit a text field on the form
+
+You can edit text fields, including email, form title, and title section.
+
+To edit a text field on the form:
+
+1. Hover and select the text field from the canvas.
+1. Edit the text field and style it as needed (bold, underline, or italic).
+    :::image type="content" source="media/add-form/fill-details.png" alt-text="Styling options for text fields including bold, underline, and italic.  Bold is selected here.":::
+
+## Edit and validate form fields
+
+To edit a form field:
+
+1. Hover over and select the field from the canvas.
+1. Choose **Edit field** in the tool bar.
+    :::image type="content" source="media/add-form/edit-text-field.png" alt-text="The edit text field menu.":::
+1. From the Field Edit modal:
+    - Update the field's label/display name.
+    - Mark the field as required, then customize the error message to be shown when the field is required.
+    - Add a description to the field and adjust its position (choices include above the field, below the field, and above the label).
+    - Set the validation rules for the field.
+        - Use the simple options to configure out-of-the-box validations.
+        - Use the Regex option to enter custom validation using regular expressions.
+
+## Enable attachments on a form
+
+Users can upload an attachment with form submission.
+
+To enable attachments on a form:
+
+1. Add a form or edit an existing form.
+
+1. In the **Add a form** modal, choose **Attachments** from the left panel. 
+
+    - Configure the following options:
+
+        - Turn on/off the **Enable attachments** toggle.
+        - Turn on/off the **Attachment is required** toggle.
+        - Turn on/off the **Allow multiple files** toggle.
+        - Max file size allowed
+            >[!NOTE] 
+            > The following file types are allowed:
+            >   - All
+            >   - Audio
+            >   - Document
+            >   - Image
+            >   - Video
+            >   - Specific (comma separated values)
+    
+        :::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
+
+Once configured, the file upload placeholder will show in the canvas. 
+
+:::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
+
+### Enabling table permissions
+
+When you add a new form, you'll be prompted to set permissions to allow site users to interact with the form. The settings for table permissions will be pre-populated (**create** and **append to**), but you'll still need to assign web roles and save the settings. The process will automatically create the child table permissions for the **note (annotations)** table which contain the attachments.
+
+:::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
+
+You can also adjust the permissions and assign web roles based on your requirements in the **Set up** workspace.
+
+:::image type="content" source="media/add-form/table-permissions.png" alt-text="Table permissions menu.":::
+
+For more information, see [Configuring table permissions](../security/table-permissions.md).
 
 ### See also
 
