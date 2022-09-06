@@ -77,7 +77,7 @@ Modern Community site offers a suite if capabilities that are designed to help y
 
 ### See also 
 
-- [Customer Service Community](dynamics-365-customer-engagement/ce/customer-service/community-get-started)
+- [Customer Service Community](/dynamics365/customer-service/community-get-started)
 
 ## Field Service customer: 
 
