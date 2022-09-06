@@ -16,6 +16,8 @@ contributors:
 
 # Dynamics 365 templates
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 If you select an environment that contains Dynamics 365 applications (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations or Dynamics 365 Supply Chain Management), the Dynamics 365 templates would be available for you to create your Power Pages site leveraging the below templates. 
 
 ## Customer self-service: 
@@ -27,8 +29,9 @@ A customer self-service site enables customers to access self-service knowledge,
 
 A partner site allows every organization with resellers, distributors, suppliers, or partners to have real-time access to every stage of shared activities.
 
-    > [!NOTE]
-    > Field Service and Project Operations packages must be installed in your Dynamics 365 environment to enable respective options. For more information, see [Integrate Project Service Automation](/dynamics365/portals/integrate-project-service-automation) and [Integrate Field Service](/dynamics365/portals/integrate-field-service).
+>[!NOTE]
+>Field Service and Project Operations packages must be installed in your Dynamics 365 environment to enable respective options. For more information, see [Integrate Project Service Automation](/dynamics365/portals/integrate-project-service-automation) and [Integrate Field Service](/dynamics365/portals/integrate-field-service).
+
 :::image type="content" source="media/Partner thumbnail.png" alt-text="Partner template landing page.":::    
 
 ### Note
@@ -45,7 +48,7 @@ An employee self-service site creates an efficient and well-informed workforce b
 
 :::image type="content" source="media/Employee self service.png" alt-text="Employee self-service template landing page.":::    
 
-##Community: 
+## Community: 
 
 A community site leverages peer-to-peer interactions between customers and experts to organically grow the catalog of available knowledge from knowledge base articles, forums, and blogs as well as providing feedback through comments and ratings.
 
@@ -74,7 +77,7 @@ Modern Community site offers a suite if capabilities that are designed to help y
 
 ### See also 
 
-- [Customer Service Community] (dynamics-365-customer-engagement/ce/customer-service/community-get-started)
+- [Customer Service Community](dynamics-365-customer-engagement/ce/customer-service/community-get-started)
 
 ## Field Service customer: 
 
@@ -83,12 +86,12 @@ Field Service customer site template provide a one-stop destination for your ser
 :::image type="content" source="media/Field Service thumbnail.png" alt-text="Field Service template landing page.":::    
 
 > [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
+> - This is a preview feature.
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-Field Service self-schedule appointments feature is currently in Preview. 
+Field Service self-schedule appointments feature is currently in preview. 
 
-Send current techncian location and arrival times to your customers with Dyunamics 365 Field Service provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits. 
+Send current technician location and arrival times to your customers with Dynamics 365 Field Service provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits. 
 
 ### See also 
 
