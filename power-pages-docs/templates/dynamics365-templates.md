@@ -92,7 +92,7 @@ Send current techncian location and arrival times to your customers with Dyunami
 
 ### See also 
 
-- [Field Service customer portal](MicrosoftDocs/dynamics-365-customer-engagement/ce/field-service/field-service-portal-homepage.md)
+- [Field Service customer portal](/dynamics365/field-service/field-service-portal-homepage)
 
 When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a default template to build your site or can you can choose scenario-based templates to accelerate creating your site.
 
