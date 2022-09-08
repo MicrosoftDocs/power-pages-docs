@@ -42,6 +42,8 @@
       href: configure/planning-power-pages-project.md       
 - name: Design and build 
   items:
+  - name: Design and build overview
+    href: configure/design-build-overview.md  
   - name: Dataverse and Power Pages
     href: getting-started/what-is-dataverse.md
   - name: Use Pages workspace
@@ -72,8 +74,8 @@
             href: getting-started/add-form.md
           - name: Add iframe
             href: getting-started/add-iframe.md            
-          - name: Add advanced forms
-            href: getting-started/advanced-forms.md
+          - name: Add multistep forms
+            href: getting-started/multistep-forms.md
       - name: Use code editor
         href: getting-started/code-editor.md
       - name: Structure your site map
