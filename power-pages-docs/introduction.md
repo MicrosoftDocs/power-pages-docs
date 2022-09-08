@@ -1,10 +1,10 @@
 ---
-title: What is Power Pages (preview)?
+title: What is Power Pages?
 description: Power Pages is a secure, enterprise-grade, low-code SaaS platform for creating, hosting, and administering rich external business websites.
 author: prvaidy
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/10/2022
+ms.date: 09/08/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -14,9 +14,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# What is Power Pages (preview)?
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+# What is Power Pages?
 
 Microsoft Power Pages is a secure, enterprise-grade, low-code software as a service (SaaS) platform for creating, hosting, and administering modern external-facing business websites. Whether you're a low-code maker or a professional developer, Power Pages enables you to rapidly design, configure, and publish websites that seamlessly work across web browsers and devices.
 
