@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 09/09/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -31,8 +31,6 @@ The following videos show you how to create and design a page in your site and c
 ### Create page
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
-
-<!--[!INCLUDE[cc-video-coming-soon](../includes/cc-video-coming-soon.md)]-->
 
 ### Configure site navigation
 
@@ -170,7 +168,6 @@ The following videos provide an overview of authentication and walk you through 
 | - | - | - |
 | 1 | Authentication overview | [video](#authentication-overview)<br/>[tutorial](../getting-started/tutorial-setup-site-authentication.md) |
 | 2 | Configure identity provider | [video](#configure-identity-provider)<br/>[tutorial](../getting-started/tutorial-setup-site-authentication.md) |
-| 3 | Set Page Permissions | [video](#set-page-permissions)<br/>[tutorial](../getting-started/tutorial-setup-page-permissions.md) |
 
 ### Authentication overview
 
@@ -180,23 +177,8 @@ The following videos provide an overview of authentication and walk you through 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeo]
 
-### Set page permissions
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcs]
-
 ### See also
 
 [Configure authentication](../security/configure-portal-authentication.md)  
 [Page permissions](../security/page-security.md)
 
-## Add custom styling
-
-The [style workspace](#setup-your-brand-kit) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.
-
-You can create your own theme by defining a custom CSS file and uploading it to your site.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
-
-### See also
-
-[Tutorial: Add custom styling](../getting-started/tutorial-style-site.md)

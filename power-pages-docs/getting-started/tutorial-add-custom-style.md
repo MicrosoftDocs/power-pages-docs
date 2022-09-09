@@ -1,16 +1,17 @@
 ---
 title: "Tutorial: Add custom CSS to your site"
 description: Learn how to add custom CSS to your Power Pages sites.
-author: nickdoelman
+author: ankitavish
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 09/09/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: avishwakarma 
+ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - ankitavish
 ---
 # Tutorial: Add custom CSS to your site
 
@@ -34,10 +35,6 @@ In this tutorial, you learn how to:
 > Any custom theme you create must be compatible with Bootstrap v3.
 
 ## Add custom CSS to your site
-
-This video provides an overview of the steps to add custom CSS to your site.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
 
 1. Create or download a custom theme and save as a .CSS file.
 
