@@ -20,19 +20,19 @@ Makers using Power Pages 2.0 may have trouble setting a background color. The th
 
 Makers can update and recompile their Power Pages site and adjust the background color using one of several methods.
 
-### Use the Style workspace to add a new color to the theme's palette
+### Add a new color to the theme's palette
 
 To adjust the background color, makers can add a new color to the theme's palette using the Color Palette in the Style workspace.
 
 IMAGE
 
-### Use the Pages workspace to edit a background on a section of the page
+### Edit a background on a section of the page
 
 To adjust the background color, makers can select the desired color while editing the background on a section in the Pages workspace.
 
 IMAGE 
 
-### Modify the theme in the Style workspace
+### Modify the theme
 
 Makers can adjust the background color by modifying the theme in the Style workspace using the following steps:
 
@@ -44,8 +44,8 @@ Makers can adjust the background color by modifying the theme in the Style works
 
 IMAGE
 
-### Modify a theme setting in the Style workspace
+### Modify a theme setting
 
-Makers can adjust the background color by modifying a theme setting (like the Background color) by choosing the original value and selecting **Save**.
+Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color). To do this, choose the original value and select **Save**.
 
 IMAGE
