@@ -24,11 +24,13 @@ contributors:
 
 - The code editor doesn't support editing header or footer code.
 
-## Styling workspace
+## Style workspace
 
-- Doesn't support Google Fonts due to privacy concerns.
+- Power Pages doesn't support Google Fonts due to privacy concerns.
 
-- The section padding/margin settings feature in the Styling workspace won't work for portals built on starter templates.
+- The section padding/margin settings feature in the Style workspace won't work for portals built on starter templates.
+
+- For Power Pages 2.0, users who haven't recently updated or modified their themes may encounter difficulties setting a background color.  The theme will need to be recompiled to receive the latest changes. See LINK for information on how to address this issue.
 
 ## Power Pages trial
 
