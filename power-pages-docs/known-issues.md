@@ -30,7 +30,7 @@ contributors:
 
 - The section padding/margin settings feature in the Style workspace won't work for portals built on starter templates.
 
-- For Power Pages 2.0, users who haven't recently updated or modified their themes may encounter difficulties setting a background color.  The theme will need to be recompiled to receive the latest changes. See LINK for information on how to address this issue.
+- Users who haven't recently updated or modified their themes may encounter difficulties setting a background color in Power Pages 2.0.  The theme will need to be recompiled to receive the latest changes. See LINK for information on how to address this issue.
 
 ## Power Pages trial
 
