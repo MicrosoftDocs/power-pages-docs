@@ -4,7 +4,7 @@ description: Add forms to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/30/2022
+ms.date: 09/01/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -62,7 +62,7 @@ You can edit text fields, including email, form title, and title section.
 
 To edit a text field on the form:
 
-1. Hover and select the textfield from the canvas.
+1. Hover and select the text field from the canvas.
 1. Edit the text field and style it as needed (bold, underline, or italic).
     :::image type="content" source="media/add-form/fill-details.png" alt-text="Styling options for text fields including bold, underline, and italic.  Bold is selected here.":::
 
@@ -76,7 +76,7 @@ To edit a form field:
 1. From the Field Edit modal:
     - Update the field's label/display name.
     - Mark the field as required, then customize the error message to be shown when the field is required.
-    - Add a description to the field and adjust its position (choices include above the field, below the field, and above the label);
+    - Add a description to the field and adjust its position (choices include above the field, below the field, and above the label).
     - Set the validation rules for the field.
         - Use the simple options to configure out-of-the-box validations.
         - Use the Regex option to enter custom validation using regular expressions.
@@ -112,8 +112,17 @@ Once configured, the file upload placeholder will show in the canvas.
 
 :::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
 
-If proper permissions are in place for attachments to work, no further action required. Otherwise, follow the prompt to configure permissions.
+### Enabling table permissions
 
+When you add a new form, you'll be prompted to set permissions to allow site users to interact with the form. The settings for table permissions will be pre-populated (**create** and **append to**), but you'll still need to assign web roles and save the settings. The process will automatically create the child table permissions for the **note (annotations)** table which contain the attachments.
+
+:::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
+
+You can also adjust the permissions and assign web roles based on your requirements in the **Set up** workspace.
+
+:::image type="content" source="media/add-form/table-permissions.png" alt-text="Table permissions menu.":::
+
+For more information, see [Configuring table permissions](../security/table-permissions.md).
 
 ### See also
 

@@ -40,6 +40,8 @@
       href: configure/planning-power-pages-project.md       
 - name: Design and build 
   items:
+  - name: Design and build overview
+    href: configure/design-build-overview.md  
   - name: Dataverse and Power Pages
     href: getting-started/what-is-dataverse.md
   - name: Use Pages workspace

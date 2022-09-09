@@ -4,7 +4,7 @@ description: Learn the features of Power Pages templates.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 09/08/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -15,7 +15,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a default template to build your site or can you can choose scenario-based templates to accelerate creating your site.
+When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a default template to build your site or you can choose scenario-based templates to accelerate creating your site.
 
 :::image type="content" source="media/select-template.png" alt-text="Selection of templates when creating a new site.":::
 

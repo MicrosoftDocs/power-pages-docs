@@ -7,7 +7,7 @@
     },
     {
       "source_path": "power-pages-docs/getting-started/advanced-forms.md",
-      "redirect_url": "power-pages-docs/getting-started/multistep-forms.md",
+      "redirect_url": "multistep-forms",
       "redirect_document_id": "false"
     }
    ]
