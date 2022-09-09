@@ -59,9 +59,9 @@ More information: [Page permissions](page-security.md)
 
 Power Pages can be integrated with any web application firewall infrastructure to provide extra protection against common web application attacks. For information on how to integrate it with Azure Front Door web application firewall, see [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door)
 
-## White papers for Power Pages
+## Deep dive: Architecture and security
 
-White papers allow you to explore Power Pages at a deeper level. Here you can find a list of available white papers for Power Pages.
+The following white papers allow you to explore Power Pages architecture and security at a deeper level. 
 
 | White paper | Description | Date |
 | - | - | - |
@@ -69,5 +69,5 @@ White papers allow you to explore Power Pages at a deeper level. Here you can fi
 | [Power Pages Security](introduction.md) | This whitepaper describes how Power Pages offers enterprise grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
 
 ### See also
-
+[Power Platform security](/power-platform/admin/security/)
 [Azure security](/azure/security/)

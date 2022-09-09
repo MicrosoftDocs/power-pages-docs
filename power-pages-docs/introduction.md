@@ -43,9 +43,9 @@ You can [try Power Pages](getting-started/trial-signup.md) for free to explore t
 
 :::image type="content" source="media/overview/powerpages-get-started.png" alt-text="Get started using Power Pages.":::
 
-## White papers for Power Pages
+## Deep dive: Architecture and security
 
-White papers allow you to explore Power Pages at a deeper level. Here you can find a list of available white papers for Power Pages.
+The following white papers allow you to explore Power Pages architecture and security at a deeper level. 
 
 | White paper | Description | Date |
 | - | - | - |
