@@ -6,7 +6,7 @@ author: sandhangitmsft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/09/2022
-ms.subservice: portals
+ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
 contributors:
@@ -23,7 +23,7 @@ The announcements for changes and deprecations described in this article apply t
 
 Makers, developers, and IT pros can use this information to prepare for future releases.
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+[!INCLUDE[powerapps-info](includes/cc-powerapps-info.md)]
 
 For more information, go to [Important upcoming changes and deprecations in Power Apps portals](/power-apps/maker/portals/important-changes-deprecations) in the Power Apps documentation.
 
