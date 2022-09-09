@@ -176,3 +176,5 @@
   href: training-videos/index.md
 - name: Known issues
   href: known-issues.md
+- name: Important changes and deprecations
+  href: important-changes-deprecations.md
