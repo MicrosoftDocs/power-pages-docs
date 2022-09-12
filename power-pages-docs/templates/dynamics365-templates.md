@@ -1,10 +1,10 @@
 ---
 title: Dynamics 365 templates
-description: The Power Pages sites can be created using the Dynamics 365 templates.
+description: Learn about the option to create Power Pages sites using Dynamics 365 templates.
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/29/2022
+ms.date: 09/12/2022
 ms.subservice:
 ms.author: sampatn
 ms.reviewer: ndoelman
@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-If you select an environment that contains Dynamics 365 applications (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations or Dynamics 365 Supply Chain Management), the Dynamics 365 templates are available for you to create your Power Pages site.
+If you select an environment that contains Dynamics 365 applications (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations or Dynamics 365 Supply Chain Management), Dynamics 365 templates are available for you to use to create your Power Pages site.
 
 ## Customer self-service
 
@@ -34,7 +34,7 @@ A partner site allows every organization with resellers, distributors, suppliers
 
 :::image type="content" source="media/Partner thumbnail.png" alt-text="Partner template landing page.":::    
 
->[!NOTE]
+>[!IMPORTANT]
 > There's a limit of only one site for this type of template that can be created per Dynamics 365 environment. 
 
 ### See also 
@@ -59,7 +59,7 @@ A Supply Chain Management Customer site template lets you create an externally f
 
 :::image type="content" source="media/SCM Customer.png" alt-text="Customer template landing page.":::    
 
->[!NOTE]
+>[!IMPORTANT]
 > There's a limit of only one site for this type of template that can be created per Dynamics 365 environment. 
 
 ### See also
@@ -84,10 +84,6 @@ Field Service customer site template provides a one-stop destination for your se
 :::image type="content" source="media/Field Service thumbnail.png" alt-text="Field Service template landing page.":::   
 
 Dynamics 365 Field Service provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits.  
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 ### See also 
 
