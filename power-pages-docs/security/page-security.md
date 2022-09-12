@@ -14,11 +14,11 @@ contributors:
 
 # Manage Page Permissions in Power Pages
 
-Page permissions allow you to control user access to site webpages. You can allow pages to be available anonymously for public access, or restrict access to users who have specific roles. Depending on your business requirements, you can manage the inheritance of page permissions from a parent page to a child page. A page can have child [<u>web files</u>](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/web-files)—such as downloadable documents, CSS files, or JS files—and you can also manage the inheritance of page permissions from the page to such child web files.
+Page permissions allow you to control user access to site webpages. You can allow pages to be available anonymously for public access, or restrict access to users who have specific roles. Depending on your business requirements, you can manage the inheritance of page permissions from a parent page to a child page. A page can have child [<u>web files</u>](/power-apps/maker/portals/configure/web-files)—such as downloadable documents, CSS files, or JS files—and you can also manage the inheritance of page permissions from the page to such child web files.
 
 You can manage page permissions in two ways:
 
--   [<u>Power pages design Studio</u>](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portals-studio) *can point to new documentation*
+-   [<u>Power pages design Studio</u>](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portals-studio) *can point to new documentation*
 
 -   [<u>Site Management app</u>](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) (*can point to existing PMA documentation)*
 
