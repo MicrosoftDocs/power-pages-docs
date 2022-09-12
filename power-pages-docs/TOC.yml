@@ -89,9 +89,17 @@
       - name: Create and modify views
         href: configure/data-workspace-views.md
       - name: Create and modify forms
-        href: configure/data-workspace-forms.md                    
+        href: configure/data-workspace-forms.md
   - name: Use Set up workspace
-    href: configure/setup-workspace.md
+    items:                          
+      - name: Set up workspace overview
+        href: configure/setup-workspace.md
+      - name: Progressive web applications
+        items:
+          - name: Overview
+            href: configure/progressive-web-apps.md
+          - name: Build progressive web applications    
+            href: configure/build-progressive-web-apps.md
 - name: Administer Power Pages
   items:   
     - name: Use the portals admin center
