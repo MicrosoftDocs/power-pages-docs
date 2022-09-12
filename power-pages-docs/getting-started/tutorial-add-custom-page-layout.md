@@ -14,12 +14,12 @@ contributors:
 ---
 # Tutorial: Add custom page layout to your site
 
-In this tutorial, you'll learn how to create a custom page layout by using [Liquid](../configure/liquid-overview.md) and a page template that is based on a web template.  Our goal is to build a simple two-column template that the main site menu as left-side navigation, with the page content to the right. 
+In this tutorial, you'll learn how to create a custom page layout using [Liquid](../configure/liquid-overview.md) and a page template based on a web template.  Our goal is to build a simple two-column template that the main site menu as left-side navigation, with the page content to the right. 
 
 > [!div class="checklist"]
 > * Create a common base web template with code to establish basic page layout.
 > * Create a second web template with additional code to demonstrate the modular features of web templates.
-> * Create a page template record referencing the web template and configures how the page layout will be rendered on the site.
+> * Create a page template record referencing the web template which configures how the page layout will be rendered on the site.
 > * Create a web page using the custom page layout.
 
 ## Prerequisites
@@ -30,7 +30,7 @@ In this tutorial, you'll learn how to create a custom page layout by using [Liqu
 
 ## Step 1: Create a web template and write the Liquid template code
 
-First, we'll create our web template and write the Liquid template code. We're likely to reuse some common elements of this template in future templates. So, we'll create a common base template that we'll then extend with our specific template. Our base template will provide breadcrumb links and our page title/header, as well as define our two-column layout.
+First, we'll create our web template and write the Liquid template code. We're likely to reuse some common elements of this template in future templates. So, we'll create a common base template that we'll extend with our specific template. Our base template will provide breadcrumb links, our page title/header, and define our two-column layout.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -78,11 +78,11 @@ First, we'll create our web template and write the Liquid template code. We're l
 
 ## Step 2: Create a new web template that extends our base layout template
 
-We are going to create a web template that will read the navigation record from the associated web page (see below). We will also extend the base template we created in the previous step. Web templates can be used as re-usable components when creating advanced sites.
+We're going to create a web template that will read the navigation record from the associated web page (see below). We'll also extend the base template we created in the previous step. Web templates can be used as reusable components when creating advanced sites.
 
 1. In the **Portal Management app**, scroll to the **Content** section and select **Web Templates**.
 
-1. From **Active Web Templates** screen, select **New**.
+1. From the **Active Web Templates** screen, select **New**.
 
 1. Name the web template to **Weblinks Left Navigation**. 
 
@@ -120,7 +120,7 @@ We are going to create a web template that will read the navigation record from 
 
 ## Step 3: Create a new page template based on the web template
 
-In this step, we'll create a new page template that is based on the web template we created in the previous step. The page template is required for our custom page layout to be a selection when creating a new web page.
+In this step, we'll create a new page template that is based on the web template we created in the previous step. The page template is required for our custom page layout to be an option you can select when creating a new web page.
 
 1. In the **Portal Management app**, scroll to the **Website** section and select **Page Templates**.
 
@@ -145,7 +145,7 @@ In this step, we'll create a new page template that is based on the web template
 
 ## Step 4: Create a web page to display content
 
-1. In the **design studio**, in the **Pages** workspace, select **+ Page**.
+1. From the **design studio**, in the **Pages** workspace, select **+ Page**.
 
 1. In the **Add a page** dialog;
     1. Enter in **Page name** 
@@ -158,9 +158,9 @@ In this step, we'll create a new page template that is based on the web template
 
 ### Additional page configuration
 
-In this example we will need to link the navigation record to the content page in order for our custom code to render the menu on the left navigation.
+In this example, we'll need to link the navigation record to the content page in order for our custom code to render the menu on the left navigation.
 
-1. In the **design studio**, choose **...** and then select **Portal Management**. You'll need to use the Portal Management app to add additional configuration to your page.
+1. In the **design studio**, choose **...** and then select **Portal Management**. You'll use the Portal Management app to add additional configuration to your page.
 
 1. In the **Portal Management app**, scroll to the **Content** section and select **Web Pages**.
 
@@ -174,7 +174,7 @@ In this example we will need to link the navigation record to the content page i
 
     :::image type="content" source="media/tutorial-custom-layouts/navigation-link.png" alt-text="Navigation lookup." border="true"::: 
 
-1. Preview your custom page you should see side navigation.
+1. Preview your custom page to see the side navigation implemented.
  
     :::image type="content" source="media/tutorial-custom-layouts/custom-page.png" alt-text="Web page using custom layout." border="true"::: 
   
