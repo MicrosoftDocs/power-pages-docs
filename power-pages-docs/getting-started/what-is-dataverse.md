@@ -15,8 +15,6 @@ contributors:
 
 # Dataverse and Power Pages
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 When creating a site, you might have to create, update, or read business information. Consider a page that's used for collecting feedback, showing a list of available classes, or rescheduling an appointment. Typically this type of information is stored in a database. Microsoft Power Platform has a powerful cloud-based data service called [Dataverse](/power-apps/maker/data-platform/data-platform-intro). Dataverse not only stores information like a traditional database, but also provides features for security, analytics, automation, and more. 
 
 You can build applications&mdash;including Power Pages sites&mdash;that are connected to Dataverse.

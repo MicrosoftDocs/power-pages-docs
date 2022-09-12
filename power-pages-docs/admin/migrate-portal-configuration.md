@@ -15,8 +15,6 @@ contributors:
 
 # Migrate site configuration
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 For detailed information on how to migrate your site configuration, go to [Migrate portal configuration](/powerapps/maker/portals/admin/migrate-portal-configuration) in the Power Apps documentation.

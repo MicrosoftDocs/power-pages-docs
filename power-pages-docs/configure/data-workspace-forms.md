@@ -16,8 +16,6 @@ contributors:
 
 # How to create and modify Dataverse forms by using the Data workspace
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The **Forms** tab displays the forms used in the basic forms that are embedded in the site, and all other forms in the environment that are associated with the respective table. It only shows the **main** form type that is supported in portals. 
 
 You use the [data workspace](..\getting-started\use-data-workspace.md) to create and modify Dataverse table forms directly in the Power Pages design studio.

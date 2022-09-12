@@ -16,8 +16,6 @@ contributors:
 
 # Create and design pages
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 A page in Power Pages is a webpage: a container for content that's identified by a unique URL in a website. A page is one of the core objects of the website. The parent and child relationships between pages build the hierarchy of a website.
 
 ## Create a page

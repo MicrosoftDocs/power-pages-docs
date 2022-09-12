@@ -18,8 +18,6 @@ contributors:
 
 You can enable your functional site as a progressive web app (PWA), with native app–like look and feel, by using the design studio.
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 ## See also
 
 [Overview of portals as progressive web apps](/power-apps/maker/portals/progressive-web-apps) in the Power Apps documentation.

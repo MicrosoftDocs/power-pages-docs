@@ -16,8 +16,6 @@ contributors:
 
 # Overview of designing and building sites
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The Power Pages design studio allows you to quickly create and edit powerful websites.
 
 The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs:

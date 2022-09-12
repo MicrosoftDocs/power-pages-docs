@@ -13,8 +13,6 @@ contributors:
 
 # Power Pages videos
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The following video guides show you how to build and configure a Power Pages site.
 
 ## Design your home page

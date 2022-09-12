@@ -15,8 +15,6 @@ contributors:
 
 # Use Liquid
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 Power Pages functionality can be extended with pro-code methods. The Liquid markup language provides many methods to extend the functionality of your site.

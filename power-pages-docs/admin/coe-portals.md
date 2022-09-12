@@ -15,8 +15,6 @@ contributors:
 
 # Power Pages governance
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 Power Pages provides some helpful tools for administrators to manage their sites and environments.

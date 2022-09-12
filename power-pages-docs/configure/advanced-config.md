@@ -14,8 +14,6 @@ contributors:
 
 # Advanced configuration
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Power Pages is built on the foundation of Power Apps portals. Many of the tools and methods used to configure sites in Power Pages use the functionality of Power Apps portals. 
 
 The following are advanced features of Power Pages that are configured by using Power Apps portals.

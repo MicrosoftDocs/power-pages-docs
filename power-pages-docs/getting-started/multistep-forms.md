@@ -15,8 +15,6 @@ contributors:
 
 # Add a multistep form
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 Multistep forms allows you to create a form with multiple steps.

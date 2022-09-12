@@ -15,8 +15,6 @@ contributors:
 
 # What's the difference between Power Pages and Power Apps portals?
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 Power Pages is an evolution of [Power Apps portals](/power-apps/maker/portals/). It's built on the Power Apps portals platform used by thousands of customers today. It combines this platform with new no-code/low-code capabilities and experiences to empower more people to create and deliver business-centric, data-powered, modern, and secure websites.
 
 Power Pages is a superset of Power Apps portals. Current customers of Power Apps portals don't need to upgrade or migrate their running portals. Customers and partners who are building solutions on top of Power Apps portals shouldn't stop or cancel their projects.  

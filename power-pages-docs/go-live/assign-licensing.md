@@ -15,8 +15,6 @@ contributors:
 
 # Assign licensing
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 A free trial is available for Power Pages, which can be used to try out the new features and functionality. More information: [Power Pages trial](../getting-started/trial-signup.md)
 
 > [!IMPORTANT]

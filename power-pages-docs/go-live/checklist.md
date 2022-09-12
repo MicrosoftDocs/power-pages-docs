@@ -14,8 +14,6 @@ contributors:
 
 # Go live checklist
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 This checklist is guidance to help you plan your Power Pages and Power Apps portals projects.
 
 > [!IMPORTANT]

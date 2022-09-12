@@ -14,8 +14,6 @@ contributors:
 
 # Use the portals admin center
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 Power Pages uses the Power Apps portals admin center to provide administrators with various capabilities.

@@ -14,8 +14,6 @@ contributors:
 
 # Power Pages security
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 An important consideration when building public-facing websites is to ensure that critical business information is only accessible by the correct stakeholders.
 
 Power Pages has a robust security model to ensure that business information is properly protected. The following key components are used to provide and protect access in Power Pages:

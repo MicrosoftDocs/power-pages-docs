@@ -14,8 +14,6 @@ contributors:
 
 # Configuring table permissions
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 Access to Dataverse records is automatically restricted in Power Pages when using forms, lists, Liquid, the Portals Web API, and other components accessing Dataverse tables.

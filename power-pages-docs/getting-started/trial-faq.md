@@ -15,8 +15,6 @@ contributors:
 
 # Power Pages trial FAQ
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The Power Pages trial offers a simple and easy experience for sign-up, sign-in, and usage. This page contains answers to frequently asked questions.
 
 To sign up for the trial, go to the [Power Pages overview page](https://powerpages.microsoft.com/), and select **Start free**.

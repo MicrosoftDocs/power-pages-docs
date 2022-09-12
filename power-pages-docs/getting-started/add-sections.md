@@ -15,8 +15,6 @@ contributors:
 
 # Sections
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Use sections to define a structure for your page and arrange portal components. Add portal components inside the sections you create to meet your requirements.
 
 ## Adding a section

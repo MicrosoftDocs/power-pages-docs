@@ -15,8 +15,6 @@ contributors:
 
 # Using code components
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 Power Pages functionality can be extended with pro-code methods. Code components can be added to pages to provide advanced user interfaces and features.

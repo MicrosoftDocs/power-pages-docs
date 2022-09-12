@@ -14,8 +14,6 @@ contributors:
 
 # Manage sites
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Your Power Pages home serves as the central hub for managing all your sites. Here you can view a list of all sites in your selected environment and take action for each website.
 
 :::image type="content" source="media/manage-sites/manage-site.png" alt-text="Manage sites.":::

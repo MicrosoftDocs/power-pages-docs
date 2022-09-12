@@ -14,8 +14,6 @@ contributors:
 
 # Page permissions
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 Use page permissions to restrict access to a webpage and related child pages.

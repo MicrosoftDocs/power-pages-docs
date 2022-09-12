@@ -16,8 +16,6 @@ contributors:
 
 # Overview of the Power Pages Set up workspace
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 You use the **Set up** workspace to configure key aspects of your Power Pages site.
 
 :::image type="content" source="media/setup-workspace/setup-workspace.png" alt-text="Setup workspace from within design studio.":::
