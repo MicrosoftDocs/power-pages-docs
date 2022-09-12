@@ -35,11 +35,13 @@ Use design studio to customize your site and manage page permissions quickly and
 
 1. From list of sites, select **Edit** to open design studio
 
-1. Select the 3 dotes next page that you want to manage permissions for and choose 'Page settings'
+1. Select the ellipses next page that you want to manage permissions for and choose **Page Settings**.
 
 1. On the dialogue select **Permissions** tab
 
 The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page.
+
+## Options for page permissions
 
 Let's look at different options for managing permissions for a page.
 
@@ -74,7 +76,7 @@ When **Permissions apply to child files** is set to **On**, the child [<u>we
 When a page is set to **Off** for **Page available to everyone**, a lock icon appears next to it in the list of pages to signify that the page has restrictions.
 
 
-## Child page permissions
+## Options for child page permissions
 
 A child page can inherit permissions from the parent page, or it can be configured with unique permissions.
 
