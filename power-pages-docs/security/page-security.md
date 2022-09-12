@@ -22,7 +22,7 @@ You can manage page permissions in two ways:
 
 -   [<u>Portals Management app</u>](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) (*can point to existing PMA documentation)*
 
-Power Pages design studio simplifies the configuration of webpage access permissions compared to using the Portals Management app, and is the recommended method. Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these webpage access control rules by using design Studio, but you must use the Portals Management app to manage page permissions for other areas that can't be managed using design Studio.
+Power Pages design studio simplifies the configuration of webpage access permissions compared to using the Portals Management app, and is the recommended method. Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these webpage access control rules by using design studio, but you must use the Portals Management app to manage page permissions for other areas that can't be managed using design studio.
 
 >[!NOTE]
 > Managing page permissions with design Studio applies only to [**<u>Restrict Read</u>**](/power-apps/maker/portals/configure/webpage-access-control#restrict-read) permissions, which control access to pages by users. To manage [**<u>Grant Change</u>**](/power-apps/maker/portals/configure/webpage-access-control#grant-change) permissions for managing and publishing content pages with the legacy site content editor, use the [**<u>Portals Management app</u>**](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app).
@@ -54,8 +54,6 @@ When **Page available to everyone** is set to **Off**, the page isn't availab
 Select **roles** from drop-down to choose which roles will be allowed to access the page. Only users from the roles you select here will have access.
 
 ### Anonymous Users role
-
-**Fwd link for this section shared by Nick -** <https://go.microsoft.com/fwlink/?linkid=2207019>
 
 Any role with the [**Anonymous Users**<u> role</u>](/power-apps/maker/portals/configure/create-web-roles#attributes-and-relationships) set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.
 
@@ -91,20 +89,16 @@ A child page can inherit permissions from the parent page, or it can be configur
 
 A page can be promoted to a higher level in the page hierarchy, or made a subpage to a lower level in page hierarchy. The effects these actions have on permissions are as follows:
 
--   If a page is made a subpage, the page inherits permissions from its new parent. &lt;Ankita to update screenshot with new dialogue text changes&gt;
+- If a page is made a subpage, the page inherits permissions from its new parent. 
 
--   If a page is promoted, the original permissions of the page are retained.
+- If a page is promoted, the original permissions of the page are retained.
 
 ### The effect of parent permissions changes on child page permissions
 
-**Fwd link for this section shared by Nick -** <https://go.microsoft.com/fwlink/?linkid=2205442>
-
-When **Permissions of Parent** page is changed so that child permission no longer inherits it from parent. The maker will see the following error. The web roles which aren't valid will be highlighted.
+When **Permissions of Parent** page is changed so that child permission no longer inherits it from parent, the maker will see the following error. The web roles which aren't valid will be highlighted.
 
 ### The effect of multiple page permissions
 
-**Fwd link for this section shared by Nick -** <https://go.microsoft.com/fwlink/?linkid=2206118>
-
-When using Portal management app, there are multiple permissions active for same page. The maker will see the following error. The maker can fix this by deactivate the permissions not required for page and keep only 1 active permissions for 1 webpage.
+When using Portal Management app, there are multiple permissions active for same page. The maker will see the following error. The maker can fix this by deactivate the permissions not required for page and keep only 1 active permissions for 1 webpage.
 
 
