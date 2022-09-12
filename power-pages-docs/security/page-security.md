@@ -20,13 +20,13 @@ You can manage page permissions in two ways:
 
 -   [<u>Power pages design Studio</u>](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portals-studio) *can point to new documentation*
 
--   [<u>Site Management app</u>](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) (*can point to existing PMA documentation)*
+-   [<u>Site Management app</u>](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) (*can point to existing PMA documentation)*
 
 Power pages design studio simplifies the configuration of webpage access permissions compared to using the Site Management app, and is the recommended method. Managing page permissions with the Site Management app is accomplished by setting *webpage access control rules*. You can also set these webpage access control rules by using design Studio, but you must use the Site Management app to manage page permissions for other areas that can't be managed using design Studio.
 
 ** Note**
 
-Managing page permissions with design Studio applies only to [**<u>Restrict Read</u>**](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/webpage-access-control#restrict-read) permissions, which control access to pages by users. To manage [**<u>Grant Change</u>**](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/webpage-access-control#grant-change) permissions for managing and publishing content pages with the legacy site content editor, use the [**<u>Site Management app</u>**](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app).
+Managing page permissions with design Studio applies only to [**<u>Restrict Read</u>**](/power-apps/maker/portals/configure/webpage-access-control#restrict-read) permissions, which control access to pages by users. To manage [**<u>Grant Change</u>**](/power-apps/maker/portals/configure/webpage-access-control#grant-change) permissions for managing and publishing content pages with the legacy site content editor, use the [**<u>Site Management app</u>**](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app).
 
 ## Manage page permissions with Power Pages design studio
 
@@ -60,7 +60,7 @@ Select **roles** from drop-down to choose which roles will be allowed to access
 
 **Fwd link for this section shared by Nick -** <https://go.microsoft.com/fwlink/?linkid=2207019>
 
-Any role with the [**Anonymous Users**<u> role</u>](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/create-web-roles#attributes-and-relationships) set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.
+Any role with the [**Anonymous Users**<u> role</u>](/power-apps/maker/portals/configure/create-web-roles#attributes-and-relationships) set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.
 
 If the Site Management app was used to configure this role for the selected page, an alert is shown for the applicable role when you manage the page permissions.
 
@@ -70,7 +70,7 @@ If this alert appears, change the permissions, because roles with **Anonymous U
 
 ### Permissions apply to child files
 
-When **Permissions apply to child files** is set to **On**, the child [<u>web files</u>](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.
+When **Permissions apply to child files** is set to **On**, the child [<u>web files</u>](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.
 
 
 ** Caution**
@@ -100,7 +100,7 @@ Select specific roles that you want to allow to access this child page and the p
 
 **Child page permissions apply to child files**
 
-When **Permissions apply to child files** is set to **On**, the child [<u>web files</u>](https://docs.microsoft.com/en-us/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.
+When **Permissions apply to child files** is set to **On**, the child [<u>web files</u>](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.
 
 **The effect of subpage changes on permissions**
 
