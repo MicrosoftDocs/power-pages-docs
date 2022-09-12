@@ -58,7 +58,7 @@ Select **roles** from drop-down to choose which roles will be allowed to access
 
 ### Anonymous Users role
 
-Any role with the [**Anonymous Users**<u> role</u>](/power-apps/maker/portals/configure/create-web-roles#attributes-and-relationships) set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.
+Any role with the [Anonymous Users role](/power-apps/maker/portals/configure/create-web-roles#attributes-and-relationships) set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.
 
 If the Portals Management app was used to configure this role for the selected page, an alert is shown for the applicable role when you manage the page permissions.
 
@@ -66,7 +66,7 @@ If this alert appears, change the permissions, because roles with **Anonymous U
 
 ### Permissions apply to child files
 
-When **Permissions apply to child files** is set to **On**, the child [<u>web files</u>](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.
+When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.
 
 
 >[!IMPORTANT]
@@ -86,7 +86,7 @@ A child page can inherit permissions from the parent page, or it can be configur
 |---------|---------|
 |Inherit permissions from a parent page|**Permissions** section shows **Inherit parent from the &lt;parent&gt; page** when a child page is selected that has the parent page with **Page available to everyone** set to **Off**.<br /><br />By default, every child page has **Inherit parent page permissions** set to **On**. This setting makes the child page available to all the users who can access its parent page.|
 |Configure child page with unique permissions|When a child page has **Inherit parent page permissions** set to **Off**, the child page—and the pages that this child page is a parent of—aren't available to the users from the selected roles for the parent page access.<br /><br />Select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.|
-|Child page permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [<u>web files</u>](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.|
+|Child page permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.|
 
 ### The effect of subpage changes on permissions
 
