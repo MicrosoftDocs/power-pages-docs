@@ -12,22 +12,22 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Manage Page Permissions in Power Pages
+# Page Permissions in Power Pages
 
-Page permissions allow makers to control user access to site webpages. You can make webpages available anonymously for public access, or restrict access to users who have specific roles. Depending on your business requirements, you can manage the inheritance of page permissions from a parent page to a child page. A page can have child [<u>web files</u>](/power-apps/maker/portals/configure/web-files)—such as downloadable documents, CSS files, or JS files—and you can also manage the inheritance of page permissions from the page to such child web files.
+Page permissions allow makers to control user access to site webpages. You can make webpages available anonymously for public access, or restrict access to users who have specific roles. Depending on your business requirements, you can manage the inheritance of page permissions from a parent page to a child page. A page can have child [web files](/power-apps/maker/portals/configure/web-files)—such as downloadable documents, CSS files, or JS files—and you can also manage the inheritance of page permissions from the page to such child web files.
 
 You can manage page permissions in two ways:
 
--   [<u>Power pages design studio</u>](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portals-studio) *can point to new documentation*
+- [Power pages design studio](#manage-page-permissions-in-power-pages-design-studio)
 
--   [<u>Portals Management app</u>](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) (*can point to existing PMA documentation)*
+- [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) 
 
-Power Pages design studio simplifies the configuration of webpage access permissions compared to using the Portals Management app, and is the recommended method. Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these webpage access control rules by using design studio, but you must use the Portals Management app to manage page permissions for other areas that can't be managed using design studio.
+Power Pages design studio simplifies the configuration of webpage access permissions compared to using the Portals Management app and is the recommended method. Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these rules using design studio, but you must use the Portals Management app to manage page permissions for other areas.
 
->[!NOTE]
-> Managing page permissions with design Studio applies only to [**<u>Restrict Read</u>**](/power-apps/maker/portals/configure/webpage-access-control#restrict-read) permissions, which control access to pages by users. To manage [**<u>Grant Change</u>**](/power-apps/maker/portals/configure/webpage-access-control#grant-change) permissions for managing and publishing content pages with the legacy site content editor, use the [**<u>Portals Management app</u>**](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app).
+>[!IMPORTANT]
+> Managing page permissions with design studio only applies to [Restrict Read](/power-apps/maker/portals/configure/webpage-access-control#restrict-read) permissions, which control access to pages by users. To manage [Grant Change](/power-apps/maker/portals/configure/webpage-access-control#grant-change) permissions for managing and publishing content pages with the legacy site content editor, use the [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app).
 
-## Manage page permissions in Power Pages
+## Manage page permissions in Power Pages design studio
 
 Use design studio to customize your site and manage page permissions quickly and efficiently.
 
@@ -37,9 +37,10 @@ Use design studio to customize your site and manage page permissions quickly and
 
 1. Select the ellipses next page that you want to manage permissions for and choose **Page Settings**.
 
-1. On the dialogue select **Permissions** tab
+1. Select the **Permissions** tab
 
-The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page.
+>[!NOTE]
+> The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page.
 
 ## Options for page permissions
 
@@ -47,7 +48,7 @@ Let's look at different options for managing permissions for a page.
 
 ### Allow anonymous access to a page
 
-A page with **Anyone can see this page**  is selected is available anonymously. This option is available on the root page of a website, or a child page that has the parent page with this option set to **On**.
+A page with **Anyone can see this page**  selected is available anonymously. This option is available on the root page of a website, or a child page that has the parent page with this option set to **On**.
 
 ### Restrict access to a page
 
@@ -97,10 +98,10 @@ A page can be promoted to a higher level in the page hierarchy, or made a subpag
 
 ### The effect of parent permissions changes on child page permissions
 
-When **Permissions of Parent** page is changed so that child permission no longer inherits it from parent, the maker will see the following error. The web roles which aren't valid will be highlighted.
+When **Permissions of Parent** page is changed so that child permission no longer inherits it from parent, the maker will see the following error. Invalid web roles will be highlighted.
 
 ### The effect of multiple page permissions
 
-When using Portal Management app, there are multiple permissions active for same page. The maker will see the following error. The maker can fix this by deactivate the permissions not required for page and keep only 1 active permissions for 1 webpage.
+When using Portal Management app, there are multiple permissions active for same page. The maker will see the following error. The maker can fix this by deactivate the permissions not required for page and keep only one active permission for one webpage.
 
 
