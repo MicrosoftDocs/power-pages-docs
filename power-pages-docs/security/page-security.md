@@ -86,7 +86,7 @@ A page can be promoted to a higher level in the page hierarchy, or made a subpag
 
 ## Troubleshooting page permissions
 
-Makers may encounter difficulties based on the permissions they select due to unforeseen effects of their choices.  Let's review some of these commonly encountered difficulties.
+Makers may encounter difficulties based on the permissions they select due to the unforeseen effects of their choices.  Let's review some of these commonly encountered difficulties.
 
 ### Alert displayed when selecting anonymous users role
 
