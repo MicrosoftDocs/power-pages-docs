@@ -61,7 +61,7 @@ Let's review the different options for managing permissions for a page.
 |Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.<br /><br />When **Permissions apply to child files** is set to **Off**, everyone can access the child web files of the selected page. Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page.  If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously.<br /><br />More information: [Permissions apply to child files troubleshooting](#permissions-apply-to-child-files-troubleshooting)|
 |Restriction in page hierarchy|| 
 
-## Setting options for child page permissions
+### Child page permissions
 
 A child page can inherit permissions from the parent page, or it can be configured with unique permissions.  Let's review the different options for managing permissions for child pages.
 
@@ -71,7 +71,7 @@ A child page can inherit permissions from the parent page, or it can be configur
 |Configure child page with unique permissions|Use this setting to select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.|
 |Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.<br /><br />When **Permissions apply to child files** is set to **Off**, everyone can access the child web files of the selected page.|
 
-## Page hierarchy changes and inheritance
+### Page hierarchy changes and inheritance
 
 A page can be promoted to a higher level in the page hierarchy, or made a subpage to a lower level in page hierarchy. The effects these actions have on permissions are as follows:
 
