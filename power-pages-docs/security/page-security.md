@@ -30,15 +30,11 @@ Power Pages design studio makes configuration of webpage access permissions simp
 
 Use design studio to customize your site and manage page permissions quickly and efficiently.
 
-1. Go to Power Pages.
+1. From the list of sites in Power Pages, select **Edit** to open [design studio](../getting-started/first-page.md).
 
     IMAGE GOES HERE
 
-1. From list of sites, select **Edit** to open design studio.
-
-    IMAGE GOES HERE
-
-1. Select the ellipses next page that you want to manage permissions for and choose **Page Settings**.
+1. Select the ellipses next to the page you want to manage permissions for and choose **Page Settings**.
 
     IMAGE GOES HERE
 
