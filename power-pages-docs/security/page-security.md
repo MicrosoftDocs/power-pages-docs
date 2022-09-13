@@ -57,36 +57,14 @@ Managing page permissions with the Portals Management app is accomplished by set
 
 Let's review the different options for managing permissions for a page.
 
-### Allow anonymous access to a page
 
-A page with **Anyone can see this page**  selected is available anonymously. This option is available on the root page of a website, or a child page that has the parent page with this option set to **On**.
-
-### Restrict access to a page
-
-When **Page available to everyone** is set to **Off**, the page isn't available to anyone by default. You can select specific roles that you want to allow access to this page.
-
-Select **roles** from drop-down to choose which roles will be allowed to access the page. Only users from the roles you select here will have access.
-
-### Anonymous Users role
-
-Any role with the [Anonymous Users role](/power-apps/maker/portals/configure/create-web-roles#attributes-and-relationships) set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.
-
-If the Portals Management app was used to configure this role for the selected page, an alert is shown for the applicable role when you manage the page permissions.
-
-If this alert appears, change the permissions, because roles with **Anonymous Users Role** set to **Yes** can't be assigned directly to users.
-
-### Permissions apply to child files
-
-When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.
-
-
->[!IMPORTANT]
->**Permissions apply to child files** must be set to **Off** for the home page for the site. Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page. If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously.
-
-### Restriction in page hierarchy
-
-When a page is set to **Off** for **Page available to everyone**, a lock icon appears next to it in the list of pages to signify that the page has restrictions.
-
+|Permissions |Description  |
+|---------|---------|
+|Allow anonymous access to a page|A page with **Anyone can see this page**  selected is available anonymously. This option is available on the root page of a website, or a child page that has the parent page with this option set to **On**.|
+|Restrict access to a page|When **Page available to everyone** is set to **Off**, the page isn't available to anyone by default. You can select specific roles that you want to allow access to this page.<br /><br />|
+|Anonymous Users role|Any role with the [Anonymous Users role](/power-apps/maker/portals/configure/create-web-roles#attributes-and-relationships) set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.<br /><br />If the Portals Management app was used to configure this role for the selected page, an alert is shown for the applicable role when you manage the page permissions.<br /><br />If this alert appears, change the permissions, because roles with **Anonymous Users Role** set to **Yes** can't be assigned directly to users.|
+|Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.<br /><br />When using this setting, **Permissions apply to child files** must be set to **Off** for the home page of the site.  Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page.  If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously.|
+|Restriction in page hierarchy|When a page is set to **Off** for **Page available to everyone**, a lock icon appears next to it in the list of pages to signify that the page has restrictions.| 
 
 ## Setting options for child page permissions
 
