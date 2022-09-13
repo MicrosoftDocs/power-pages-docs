@@ -108,6 +108,8 @@ When **Permissions apply to child file** is changed so that child permission no
 
 IMAGE GOES HERE
 
+You can use this information to adjust your permissions and resolve the error. 
+
 ### Multiple page permissions error message
 
 If multiple permissions are active for same page in the Portal Management app, makers will see the following error. 
