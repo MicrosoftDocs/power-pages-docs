@@ -75,7 +75,7 @@ A child page can inherit permissions from the parent page, or it can be configur
 |Configure child page with unique permissions|Use this setting to select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.|
 |Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.<br /><br />When **Permissions apply to child files** is set to **Off**, everyone can access the child web files of the selected page.|
 
-## Hierarchy changes and inheritance
+## Page hierarchy changes and inheritance
 
 A page can be promoted to a higher level in the page hierarchy, or made a subpage to a lower level in page hierarchy. The effects these actions have on permissions are as follows:
 
