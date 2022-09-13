@@ -113,7 +113,7 @@ You can use this information to adjust your permissions and resolve the error.
 
 #### Styles not applied after adjusting page permissions
 
-When selecting the **Permissions apply to child files** setting, ensure that **Permissions apply to child files** is set to **Off** for the home page of the site so that styles remain intact.
+Ensure that **Permissions apply to child files** is set to **Off** for the home page of the site so that styles remain intact.
 
 IMAGE GOES HERE
 
