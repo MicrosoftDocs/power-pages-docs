@@ -60,11 +60,10 @@ Let's review the different options for managing permissions for a page.
 
 |Option|Description  |
 |---------|---------|
-|Allow anonymous access to a page|A page with **Allow anonymous access to a page**  selected is available anonymously. Anyone can see this page. This option is available on the root page of a website, or a child page that has the parent page with this option set to **On**.|
-|Restrict access to a page|When **Page available to everyone** is set to **Off**, the page isn't available to anyone by default. You can select specific roles that you want to allow access to this page.<br /><br />|
-|Anonymous Users role|Any role with the [Anonymous Users role](/power-apps/maker/portals/configure/create-web-roles#attributes-and-relationships) set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.<br /><br />
-|Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.<br /><br />Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page.  If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously. More information: [Troubleshooting page permissions](#troubleshooting-page-permissions)| 
-|Restriction in page hierarchy|When a page is set to **Off** for **Page available to everyone**, a lock icon appears next to it in the list of pages to signify that the page has restrictions.| 
+|Page available to anyone|A page with **Page available to anyone** selected is public on the web and available to anyone. This option is available on the root page of a website, or a child page that has the parent page with this option set to **On**.<br /><br />When **Page available to everyone** is **Off**, a lock icon appears next to it in the list of pages to signify that the page has restrictions.
+|Anonymous Users role|Any role with the **Anonymous users role** set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.<br /><br />When using this permission setting in the Portals Management app, an alert may appear.<br /><br />More information: [Anonymous users role alert](#anonymous-users-role-alert)|
+|Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.<br /><br />When **Permissions apply to child files** is set to **Off**, everyone can access the child web files of the selected page. Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page.  If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously.<br /><br />More information: [Permissions apply to child files troubleshooting](#permissions-apply-to-child-files-troubleshooting)|
+|Restriction in page hierarchy|| 
 
 ## Setting options for child page permissions
 
@@ -72,11 +71,11 @@ A child page can inherit permissions from the parent page, or it can be configur
 
 |Option|Description|
 |---------|---------|
-|Inherit permissions from a parent page|**Permissions** section shows **Inherit parent from the parent page** when a child page is selected that has the parent page with **Page available to everyone** set to **Off**.<br /><br />By default, every child page has **Inherit parent page permissions** set to **On**. This setting makes the child page available to all the users who can access its parent page.|
-|Configure child page with unique permissions|When a child page has **Inherit parent page permissions** set to **Off**, the child page—and the pages that this child page is a parent of—aren't available to the users from the selected roles for the parent page access.<br /><br />Select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.|
-|Child page permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.|
+|Inherit permissions from a parent page|The **Inherit parent from the parent page** option for a page will display when a child page is selected that has the parent page with **Page available to everyone** set to **Off**.<br /><br />By default, every child page has **Inherit parent page permissions** set to **On**. This setting makes the child page available to all the users who can access its parent page.<br /><br />When a child page has **Inherit parent page permissions** set to **Off**, the child page—and the pages that this child page is a parent of—aren't available to the users from the selected roles for the parent page access|
+|Configure child page with unique permissions|Use this setting to select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.|
+|Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.<br /><br />When **Permissions apply to child files** is set to **Off**, everyone can access the child web files of the selected page.|
 
-### Hierarchy changes and inheritance
+## Hierarchy changes and inheritance
 
 A page can be promoted to a higher level in the page hierarchy, or made a subpage to a lower level in page hierarchy. The effects these actions have on permissions are as follows:
 
@@ -88,27 +87,13 @@ A page can be promoted to a higher level in the page hierarchy, or made a subpag
 
 Makers may encounter difficulties based on the permissions they select due to the unforeseen effects of their choices.  Let's review some of these commonly encountered difficulties.
 
-### Styles not applied after adjusting page permissions
-
-When selecting the **Permissions apply to child files** setting, ensure that **Permissions apply to child files** is set to **Off** for the home page of the site so that styles remain intact.
-
-IMAGE GOES HERE
-
-### Alert displayed when selecting anonymous users role
+### Anonymous users role alert
 
 If the Portals Management app was used to configure this role for the selected page, an alert is shown for the applicable role when you manage the page permissions. 
 
 IMAGE GOES HERE
 
 If this alert appears, change the permissions. Roles with **Anonymous Users Role** set to **Yes** can't be assigned directly to users.
-
-### Permissions apply to child file error message
-
-When **Permissions apply to child file** is changed so that child permission no longer inherits it from parent, makers will see the following error with invalid web roles highlighted. 
-
-IMAGE GOES HERE
-
-You can use this information to adjust your permissions and resolve the error. 
 
 ### Multiple page permissions error message
 
@@ -117,5 +102,25 @@ If multiple permissions are active for same page in the Portal Management app, m
 IMAGE GOES HERE
 
 You can fix this error by deactivating the permissions not required for the page and keeping only one active permission for one webpage.
+
+### Permissions apply to child files troubleshooting
+
+Makers may encounter one of several difficulties when working with the **Permissions apply to child files** setting. Let's review these specific difficulties.
+
+#### Error message
+
+When **Permissions apply to child files** is changed so that child permission no longer inherits it from parent, makers will see the following error with invalid web roles highlighted. 
+
+IMAGE GOES HERE
+
+You can use this information to adjust your permissions and resolve the error. 
+
+#### Styles not applied after adjusting page permissions
+
+When selecting the **Permissions apply to child files** setting, ensure that **Permissions apply to child files** is set to **Off** for the home page of the site so that styles remain intact.
+
+IMAGE GOES HERE
+
+
 
 
