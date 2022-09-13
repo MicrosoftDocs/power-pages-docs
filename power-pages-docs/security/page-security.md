@@ -12,39 +12,50 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Page Permissions in Power Pages
+# Page permissions in Power Pages
 
-Page permissions allow makers to control user access to site webpages. You can make webpages available anonymously for public access, or restrict access to users who have specific roles. Depending on your business requirements, you can manage the inheritance of page permissions from a parent page to a child page. A page can have child [web files](/power-apps/maker/portals/configure/web-files)—such as downloadable documents, CSS files, or JS files—and you can also manage the inheritance of page permissions from the page to such child web files.
+Makers control user access to site webpages using page permissions. Settings can be adjusted to make content available anonymously for public access, or to restrict access to users who have specific roles. Depending on your business requirements, you can manage the inheritance of page permissions from a parent page to a child page. A page can have child [web files](/power-apps/maker/portals/configure/web-files), such as downloadable documents, CSS files, or JS files.  The inheritance of page permissions from the page to these child web files is also variable based on the settings a maker chooses.
 
 You can manage page permissions in two ways:
 
-- [Power pages design studio](#manage-page-permissions-in-power-pages-design-studio)
+- Using Power Pages design studio
+- Using the Portals Management app
 
-- [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) 
+Power Pages design studio makes configuration of webpage access permissions simpler than the Portals Management app. For this reason, it's the recommended method for managing page permissions in Power Pages. 
 
-Power Pages design studio simplifies the configuration of webpage access permissions compared to using the Portals Management app and is the recommended method. Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these rules using design studio, but you must use the Portals Management app to manage page permissions for other areas.
+## Manage page permissions in Power Pages design studio
 
 >[!IMPORTANT]
 > Managing page permissions with design studio only applies to [Restrict Read](/power-apps/maker/portals/configure/webpage-access-control#restrict-read) permissions, which control access to pages by users. To manage [Grant Change](/power-apps/maker/portals/configure/webpage-access-control#grant-change) permissions for managing and publishing content pages with the legacy site content editor, use the [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app).
 
-## Manage page permissions in Power Pages design studio
-
 Use design studio to customize your site and manage page permissions quickly and efficiently.
 
-1. Go to Power Pages
+1. Go to Power Pages.
 
-1. From list of sites, select **Edit** to open design studio
+    IMAGE GOES HERE
+
+1. From list of sites, select **Edit** to open design studio.
+
+    IMAGE GOES HERE
 
 1. Select the ellipses next page that you want to manage permissions for and choose **Page Settings**.
 
-1. Select the **Permissions** tab
+    IMAGE GOES HERE
+
+1. Select the **Permissions** tab.
+
+    IMAGE GOES HERE
 
 >[!NOTE]
-> The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page.
+> The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page. Review the options for page permissions and options for child page permissions.
 
-## Options for page permissions
+## Manage page permissions in the Portals Management app
 
-Let's look at different options for managing permissions for a page.
+Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these rules using design studio, but you must use the Portals Management app to manage page permissions for other areas.  More information: [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) 
+
+## Setting options for page permissions
+
+Let's review the different options for managing permissions for a page.
 
 ### Allow anonymous access to a page
 
@@ -77,14 +88,13 @@ When **Permissions apply to child files** is set to **On**, the child [web f
 When a page is set to **Off** for **Page available to everyone**, a lock icon appears next to it in the list of pages to signify that the page has restrictions.
 
 
-## Options for child page permissions
+## Setting options for child page permissions
 
 A child page can inherit permissions from the parent page, or it can be configured with unique permissions.
 
-
 |Permissions|Description|
 |---------|---------|
-|Inherit permissions from a parent page|**Permissions** section shows **Inherit parent from the &lt;parent&gt; page** when a child page is selected that has the parent page with **Page available to everyone** set to **Off**.<br /><br />By default, every child page has **Inherit parent page permissions** set to **On**. This setting makes the child page available to all the users who can access its parent page.|
+|Inherit permissions from a parent page|**Permissions** section shows **Inherit parent from the parent page** when a child page is selected that has the parent page with **Page available to everyone** set to **Off**.<br /><br />By default, every child page has **Inherit parent page permissions** set to **On**. This setting makes the child page available to all the users who can access its parent page.|
 |Configure child page with unique permissions|When a child page has **Inherit parent page permissions** set to **Off**, the child page—and the pages that this child page is a parent of—aren't available to the users from the selected roles for the parent page access.<br /><br />Select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.|
 |Child page permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When set to **Off**, everyone can access the child web files of the selected page.|
 
@@ -98,10 +108,12 @@ A page can be promoted to a higher level in the page hierarchy, or made a subpag
 
 ### The effect of parent permissions changes on child page permissions
 
-When **Permissions of Parent** page is changed so that child permission no longer inherits it from parent, the maker will see the following error. Invalid web roles will be highlighted.
+When **Permissions of Parent** page is changed so that child permission no longer inherits it from parent, makers will see the following error. Invalid web roles will be highlighted.
 
 ### The effect of multiple page permissions
 
-When using Portal Management app, there are multiple permissions active for same page. The maker will see the following error. The maker can fix this by deactivate the permissions not required for page and keep only one active permission for one webpage.
+If there are multiple permissions active for same page in the Portal Management app, makers will see the following error. 
+
+You can fix this error by deactivating the permissions not required for page and keep only one active permission for one webpage.
 
 
