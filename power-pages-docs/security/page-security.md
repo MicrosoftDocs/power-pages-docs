@@ -51,7 +51,7 @@ Use design studio to customize your site and manage page permissions quickly and
 
 ## Manage page permissions in the Portals Management app
 
-Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these rules using design studio, but you must use the Portals Management app to manage page permissions for other areas.  More information: [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) 
+Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these rules using design studio, the Portals Management app must be used to manage page permissions for other areas.  More information: [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) 
 
 ## Setting options for page permissions
 
