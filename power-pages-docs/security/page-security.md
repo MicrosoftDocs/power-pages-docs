@@ -18,8 +18,8 @@ Makers control user access to site webpages using page permissions. Settings can
 
 You can manage page permissions in two ways:
 
-- Using Power Pages design studio
-- Using the Portals Management app
+- In Power Pages design studio
+- In the Portals Management app
 
 Power Pages design studio makes configuration of webpage access permissions simpler than the Portals Management app. For this reason, it's the recommended method for managing page permissions in Power Pages. 
 
