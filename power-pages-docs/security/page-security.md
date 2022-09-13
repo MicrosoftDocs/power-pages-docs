@@ -58,7 +58,7 @@ Managing page permissions with the Portals Management app is accomplished by set
 Let's review the different options for managing permissions for a page.
 
 
-|Permissions |Description  |
+|Option|Description  |
 |---------|---------|
 |Allow anonymous access to a page|A page with **Anyone can see this page**  selected is available anonymously. This option is available on the root page of a website, or a child page that has the parent page with this option set to **On**.|
 |Restrict access to a page|When **Page available to everyone** is set to **Off**, the page isn't available to anyone by default. You can select specific roles that you want to allow access to this page.<br /><br />|
@@ -68,9 +68,9 @@ Let's review the different options for managing permissions for a page.
 
 ## Setting options for child page permissions
 
-A child page can inherit permissions from the parent page, or it can be configured with unique permissions.
+A child page can inherit permissions from the parent page, or it can be configured with unique permissions.  Let's review the different options for managing permissions for child pages.
 
-|Permissions|Description|
+|Option|Description|
 |---------|---------|
 |Inherit permissions from a parent page|**Permissions** section shows **Inherit parent from the parent page** when a child page is selected that has the parent page with **Page available to everyone** set to **Off**.<br /><br />By default, every child page has **Inherit parent page permissions** set to **On**. This setting makes the child page available to all the users who can access its parent page.|
 |Configure child page with unique permissions|When a child page has **Inherit parent page permissions** set to **Off**, the child page—and the pages that this child page is a parent of—aren't available to the users from the selected roles for the parent page access.<br /><br />Select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.|
@@ -86,11 +86,15 @@ A page can be promoted to a higher level in the page hierarchy, or made a subpag
 
 ### The effect of parent permissions changes on child page permissions
 
-When **Permissions of Parent** page is changed so that child permission no longer inherits it from parent, makers will see the following error. Invalid web roles will be highlighted.
+When **Permissions of Parent** page is changed so that child permission no longer inherits it from parent, makers will see the following error with invalid web roles highlighted. 
+
+IMAGE GOES HERE
 
 ### The effect of multiple page permissions
 
-If there are multiple permissions active for same page in the Portal Management app, makers will see the following error. 
+If multiple permissions are active for same page in the Portal Management app, makers will see the following error. 
+
+IMAGE GOES HERE
 
 You can fix this error by deactivating the permissions not required for page and keep only one active permission for one webpage.
 
