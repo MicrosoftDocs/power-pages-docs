@@ -22,7 +22,7 @@ There are several Azure managed [DRS 2.0](/azure/web-application-firewall/afds/w
 
 | **Rule group**                                           | **Description**                                                             |
 |----------------------------------------------------------|-----------------------------------------------------------------------------|
-|     [General](#general)                                | General group                                                               |
+|     [General rules](#general-rules)                               | General group                                                               |
 | [METHOD-ENFORCEMENT](#method-enforcement)                | Lock-down methods (PUT, PATCH)                                              |
 | [PROTOCOL-ENFORCEMENT](#protocol-enforcement)            | Protect against protocol and encoding issues                                |
 | [PROTOCOL-ATTACK](#protocol-attack)                      | Protect against header injection, request smuggling, and response splitting |
@@ -39,7 +39,7 @@ The following rule groups and rules are available using Web Application Firewall
 
 # [General](#tab/general)
 
-## General
+### General rules
 
 | **RuleId** | **Description**                                 |
 |------------|-------------------------------------------------|
