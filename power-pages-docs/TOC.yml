@@ -92,6 +92,8 @@
         href: configure/data-workspace-forms.md                    
   - name: Use Set up workspace
     href: configure/setup-workspace.md
+  - name: Power Pages design studio and Power Apps portals Studio
+    href: configure/editing-sites.md    
 - name: Administer Power Pages
   items:   
     - name: Use the portals admin center
