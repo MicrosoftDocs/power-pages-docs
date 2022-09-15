@@ -40,7 +40,7 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. Go to **Environments**.  
 
-1. Select the environment where the portal was created.
+1. Choose the environment where the portal was created.
 
 1. On the **Resources** card, select **Portals**.
 
