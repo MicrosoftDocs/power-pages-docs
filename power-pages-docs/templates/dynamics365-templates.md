@@ -25,6 +25,11 @@ If you select an environment that contains Dynamics 365 applications (Dynamics 3
 A customer self-service site enables customers to access self-service knowledge and support resources, view the progress of their cases, and provide feedback.
 :::image type="content" source="media/Customer self service thumbnail.png" alt-text="Customer self-service template landing page.":::
 
+### See also 
+
+- [Manage knowledge catagories](/powerapps/maker/portals/configure-knowledge-categories-articles)
+- 
+
 ## Partner
 
 A partner site allows every organization with resellers, distributors, suppliers, or partners to have real-time access to every stage of shared activities.
@@ -40,6 +45,10 @@ A partner site allows every organization with resellers, distributors, suppliers
 ### See also 
 
 - [Site limits for site template type](/powerapps/maker/portals/create-additional-portals)
+- [Use Opportunity record in Partner site](/powerapps/maker/portals/customer-engagement-apps/create-edit-and-distribute-opportunities-dynamics-365)
+- [Configure web roles for a Partner site](/powerapps/maker/portals/customer-engagement-apps/configure-web-roles-partner-portal)
+- [Field Service integration](/powerapps/maker/portals/customer-engagement-apps/integrate-field-service)
+- [Project Service Automation integration](/powerapps/maker/portals/customer-engagement-apps/integrate-project-service-automation)
 
 ## Employee self-service 
 
@@ -52,6 +61,13 @@ An employee self-service site creates an efficient and well-informed workforce b
 A community site uses peer-to-peer interactions between customers and experts to organically grow the catalog of available knowledge from knowledge base articles, forums, and blogs, as well as providing feedback through comments and ratings.
 
 :::image type="content" source="media/Community thumbnail.png" alt-text="Community template landing page.":::    
+
+### See also 
+
+- [Engage with Community](/powerapps/maker/portals/customer-engagement-apps/engage-with-communities)
+- [Manage forums](/powerapps/maker/portals/customer-engagement-apps/setup-manage-forums)
+- [Manage blogs](/powerapps/maker/portals/customer-engagement-apps/manage-blogs)
+- [Manage ideas](/powerapps/maker/portals/customer-engagement-apps/crowdsource-ideas)
 
 ## Supply Chain Management Customer portal
 
