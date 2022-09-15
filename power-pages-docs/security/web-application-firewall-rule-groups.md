@@ -39,6 +39,8 @@ The following rule groups and rules are available using Web Application Firewall
 
 # [General](#tab/general)
 
+## General
+
 | **RuleId** | **Description**                                 |
 |------------|-------------------------------------------------|
 | 200002     | Failed to parse request body.                   |
