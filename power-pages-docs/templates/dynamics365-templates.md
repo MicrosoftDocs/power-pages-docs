@@ -28,7 +28,6 @@ A customer self-service site enables customers to access self-service knowledge 
 ### See also 
 
 - [Manage knowledge catagories](/powerapps/maker/portals/configure-knowledge-categories-articles)
-- 
 
 ## Partner
 
@@ -65,9 +64,9 @@ A community site uses peer-to-peer interactions between customers and experts to
 ### See also 
 
 - [Engage with Community](/powerapps/maker/portals/customer-engagement-apps/engage-with-communities)
-- [Manage forums](/powerapps/maker/portals/customer-engagement-apps/setup-manage-forums)
-- [Manage blogs](/powerapps/maker/portals/customer-engagement-apps/manage-blogs)
-- [Manage ideas](/powerapps/maker/portals/customer-engagement-apps/crowdsource-ideas)
+- [Manage forums with Community](/powerapps/maker/portals/customer-engagement-apps/setup-manage-forums)
+- [Manage blogs with Community](/powerapps/maker/portals/customer-engagement-apps/manage-blogs)
+- [Manage ideas with Community](/powerapps/maker/portals/customer-engagement-apps/crowdsource-ideas)
 
 ## Supply Chain Management Customer portal
 
