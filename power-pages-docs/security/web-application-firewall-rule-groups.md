@@ -37,20 +37,20 @@ There are several Azure managed [DRS 2.0](/azure/web-application-firewall/afds/w
 
 The following rule groups and rules are available using Web Application Firewall for Power Pages
 
-## General
+### General
 
 | **RuleId** | **Description**                                 |
 |------------|-------------------------------------------------|
 | 200002     | Failed to parse request body.                   |
 | 200003     | Multipart request body failed strict validation |
 
-## METHOD-ENFORCEMENT
+### METHOD-ENFORCEMENT
 
 | **RuleId** | **Description**                 |
 |------------|---------------------------------|
 | 911100     | Method isn't allowed by policy |
 
-## PROTOCOL-ENFORCEMENT
+### PROTOCOL-ENFORCEMENT
 
 | **RuleId** | **Description**                                     |
 |------------|-----------------------------------------------------|
@@ -68,7 +68,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 920240     | URL Encoding Abuse Attack Attempt                   |
 | 920260     | Unicode Full/Half Width Abuse Attack Attempt        |
 
-## PROTOCOL-ATTACK
+### PROTOCOL-ATTACK
 
 | **RuleId** | **Description**                                                           |
 |------------|---------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 921151     | HTTP Header Injection Attack via payload (CR/LF detected)                 |
 | 921160     | HTTP Header Injection Attack via payload (CR/LF and header-name detected) |
 
-## LFI - Local File Inclusion
+### LFI - Local File Inclusion
 
 | **RuleId** | **Description**              |
 |------------|------------------------------|
