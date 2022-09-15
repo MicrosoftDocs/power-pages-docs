@@ -37,18 +37,20 @@ There are several Azure managed [DRS 2.0](/azure/web-application-firewall/afds/w
 
 The following rule groups and rules are available using Web Application Firewall for Power Pages
 
-### General
+# [General](#tab/general)
 
 | **RuleId** | **Description**                                 |
 |------------|-------------------------------------------------|
 | 200002     | Failed to parse request body.                   |
 | 200003     | Multipart request body failed strict validation |
 
-### METHOD-ENFORCEMENT
+# [METHOD-ENFORCEMENT](#tab/method-enforcement)
 
 | **RuleId** | **Description**                 |
 |------------|---------------------------------|
 | 911100     | Method isn't allowed by policy |
+
+---
 
 ### PROTOCOL-ENFORCEMENT
 
