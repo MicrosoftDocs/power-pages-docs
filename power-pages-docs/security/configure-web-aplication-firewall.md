@@ -20,7 +20,7 @@ Web Application Firewall (WAF) is available for production websites.
 > - You must be an administrator to configure Web Application Firewall.
 > - WAF requires Content Delivery Network (CDN) on websites. You must [configure CDN](/power-apps/maker/portals/configure/configure-cdn) before you enable WAF.
 
-## Enable Web Application Firewall
+## Enable Web Application Firewall for PowerPages sites
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments).
 
@@ -34,7 +34,7 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. Under **Performance & protection** card, turn on **Enable Web Application Firewall**
 
-## Disable Web Application Firewall
+## Disable Web Application Firewall for Power Pages sites
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments).
 

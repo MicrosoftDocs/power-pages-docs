@@ -1,6 +1,6 @@
 ﻿---
-title: Web Application Firewall on Power Pages
-description: Learn about Web Application Firewall on Power Pages.
+title: Web Application Firewall for Power Pages
+description: Learn about Web Application Firewall for Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -12,17 +12,20 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web Application Firewall (WAF)
+# Web Application Firewall (WAF) for Power Pages
 
-Web Application Firewall (WAF) for Power Pages provides centralized protection of your website and defends against common exploits and vulnerabilities. By preventing malicious attacks close to the attack sources before they enter the network, your Power Pages sites receive global protection at a scale without sacrificing performance.
+Web Application Firewall (WAF) provides centralized protection Power Pages sites, defending against common exploits and vulnerabilities by preventing malicious attacks before they enter the network.  Power Pages sites receive global protection at a scale without sacrificing performance.
 
-## Policy and Rules
+## WAF Policy
 
-Web Application Firewall for Power Pages is powered by Azure Front Door (AFD). The policy is configured using an AFD profile with **Prevention** mode. In **Prevention** mode, requests matching the rules defined in the managed rule set are blocked.
+Web Application Firewall is powered by Azure Front Door (AFD), and the policy is configured using an AFD profile with **Prevention** mode enabled. 
 
-### Managed rule sets
+>[!NOTE]
+> In **Prevention** mode, requests matching the rules defined in the managed rule set are blocked.
 
-Power Pages managed rule sets are the subset of Azure-managed rule sets, which provide an easy way to deploy protection against common security threats. Since these rule sets are managed by Azure and enabled by Power Pages, the rules are updated as needed to protect against new attack signatures.
+## WAF manged rule sets for Power Pages
+
+Power Pages' WAF managed rule sets are a subset of Azure-managed rule sets and are updated as needed to protect against new attack signatures.
 
 The Azure-managed Default Rule Set includes rules to protect against the following threat categories:
 

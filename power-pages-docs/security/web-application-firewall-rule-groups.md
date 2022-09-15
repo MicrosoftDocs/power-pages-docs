@@ -1,6 +1,10 @@
-﻿## Web Application Firewall DRS rule groups and rules on Power Pages
+﻿# Web Application Firewall DRS rule groups and rules on Power Pages
 
-Below are the Azure managed [DRS 2.0](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20#drs-20) rules set enabled on Power Pages website.
+Power Pages' Web Application Firewall managed rule sets are a subset of Azure-managed rule sets.
+
+## Azure managed rule sets for Power Pages
+
+There are several Azure managed [DRS 2.0](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20#drs-20) rules set enabled for Power Pages.
 
 | **Rule group**                                           | **Description**                                                             |
 |----------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -15,7 +19,9 @@ Below are the Azure managed [DRS 2.0](https://docs.microsoft.com/en-us/azure/web
 | [MS-ThreatIntel-WebShells](#ms-threatintel-webshells)    | Protect against Web shell attacks                                           |
 | [MS-ThreatIntel-AppSec](#ms-threatintel-appsec)          | Protect against AppSec attacks                                              |
 
-The following rule groups and rules are available using Web Application Firewall on Power Pages
+## WAF rule groups and rules for Power Pages
+
+The following rule groups and rules are available using Web Application Firewall for Power Pages
 
 ### General
 
@@ -24,13 +30,13 @@ The following rule groups and rules are available using Web Application Firewall
 | 200002     | Failed to parse request body.                   |
 | 200003     | Multipart request body failed strict validation |
 
-#### METHOD-ENFORCEMENT
+### METHOD-ENFORCEMENT
 
 | **RuleId** | **Description**                 |
 |------------|---------------------------------|
 | 911100     | Method isn't allowed by policy |
 
-#### PROTOCOL-ENFORCEMENT
+### PROTOCOL-ENFORCEMENT
 
 | **RuleId** | **Description**                                     |
 |------------|-----------------------------------------------------|
@@ -48,7 +54,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 920240     | URL Encoding Abuse Attack Attempt                   |
 | 920260     | Unicode Full/Half Width Abuse Attack Attempt        |
 
-#### PROTOCOL-ATTACK
+### PROTOCOL-ATTACK
 
 | **RuleId** | **Description**                                                           |
 |------------|---------------------------------------------------------------------------|
@@ -60,7 +66,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 921151     | HTTP Header Injection Attack via payload (CR/LF detected)                 |
 | 921160     | HTTP Header Injection Attack via payload (CR/LF and header-name detected) |
 
-#### LFI - Local File Inclusion
+### LFI - Local File Inclusion
 
 | **RuleId** | **Description**              |
 |------------|------------------------------|
@@ -68,7 +74,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 930110     | Path Traversal Attack (/../) |
 | 930120     | OS File Access Attempt       |
 
-#### RFI - Remote File Inclusion
+### RFI - Remote File Inclusion
 
 | **RuleId** | **Description**                                                                                      |
 |------------|------------------------------------------------------------------------------------------------------|
@@ -76,7 +82,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 931110     | Possible Remote File Inclusion (RFI) Attack: Common RFI Vulnerable Parameter Name used w/URL Payload |
 | 931120     | Possible Remote File Inclusion (RFI) Attack: URL Payload Used w/Trailing Question Mark Character (?) |
 
-#### XSS - Cross-site Scripting
+### XSS - Cross-site Scripting
 
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
@@ -92,7 +98,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 941220     | XSS using obfuscated VB Script                     |
 | 941230     | XSS using 'embed' tag                              |
 
-#### SESSION-FIXATION
+### SESSION-FIXATION
 
 | **RuleId** | **Description**                                                                     |
 |------------|-------------------------------------------------------------------------------------|
@@ -100,7 +106,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 943110     | Possible Session Fixation Attack: SessionID Parameter Name with Off-Domain Referrer |
 | 943120     | Possible Session Fixation Attack: SessionID Parameter Name with No Referrer         |
 
-#### MS-ThreatIntel-WebShells
+### MS-ThreatIntel-WebShells
 
 | **RuleId** | **Description**                                |
 |------------|------------------------------------------------|
@@ -109,7 +115,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 99005004   | Web Shell Upload Attempt (POST) - CHOPPER ASPX |
 | 99005006   | Spring4Shell Interaction Attempt               |
 
-#### MS-ThreatIntel-AppSec
+### MS-ThreatIntel-AppSec
 
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
