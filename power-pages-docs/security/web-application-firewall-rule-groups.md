@@ -50,15 +50,13 @@ The following rule groups and rules are available using Web Application Firewall
 |------------|---------------------------------|
 | 911100     | Method isn't allowed by policy |
 
----
-
-### PROTOCOL-ENFORCEMENT
+# [PROTOCOL-ENFORCEMENT](#tab/protocol-enforcement)
 
 | **RuleId** | **Description**                                     |
 |------------|-----------------------------------------------------|
 | 920100     | Invalid HTTP Request Line                           |
 | 920121     | Attempted multipart/form-data bypass                |
-| 920160     | Content-Length HTTP header isn't numeric.          |
+| 920160     | Content-Length HTTP header isn't numeric.           |
 | 920170     | GET or HEAD Request with Body Content.              |
 | 920171     | GET or HEAD Request with Transfer-Encoding.         |
 | 920180     | POST request missing Content-Length Header.         |
@@ -70,7 +68,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 920240     | URL Encoding Abuse Attack Attempt                   |
 | 920260     | Unicode Full/Half Width Abuse Attack Attempt        |
 
-### PROTOCOL-ATTACK
+# [PROTOCOL-ATTACK](#tab/protocol-attack)
 
 | **RuleId** | **Description**                                                           |
 |------------|---------------------------------------------------------------------------|
@@ -82,7 +80,7 @@ The following rule groups and rules are available using Web Application Firewall
 | 921151     | HTTP Header Injection Attack via payload (CR/LF detected)                 |
 | 921160     | HTTP Header Injection Attack via payload (CR/LF and header-name detected) |
 
-### LFI - Local File Inclusion
+# [LFI - Local File Inclusion](#tab/local-file-inclusion)
 
 | **RuleId** | **Description**              |
 |------------|------------------------------|
