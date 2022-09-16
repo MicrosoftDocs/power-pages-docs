@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Dynamics 365 templates are available for your Power Pages sites in environments that contain Dynamics 365 applications, including:
+Dynamics 365 templates are available for your Power Pages sites in environments containing Dynamics 365 applications, including:
 
 - Dynamics 365 Sales
 - Dynamics 365 Customer Service
@@ -78,7 +78,7 @@ The community site template uses peer-to-peer interactions between customers and
 
 ## Supply chain management customer portal
 
-The supply chain management customer portal site template is used to create externally facing business-to-business (B2B) websites for sales order processing. External customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. This template has customization capabilities and can be easily modified to represent the company's brand, add more functionality, and change the user experience. All the functionality that the template offers out of the box can be modified to meet your needs.
+The supply chain management customer portal site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. This template can be modified to represent the company's brand, add more functionality, and change the user experience. 
 
 :::image type="content" source="media/SCM Customer.png" alt-text="Customer template landing page.":::    
 
@@ -92,7 +92,7 @@ The supply chain management customer portal site template is used to create exte
 
 ## Modern community 
 
-The modern community site template invites customers to provide suggestions and creates crowd sourced portfolios of outside-in ideas. Customers can use this template to collaborate on a social scale, rallying behind suggestions from others to help shape the future of the products they use. 
+The modern community site template invites customers to provide suggestions and creates crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to help shape the future of the products they use. 
 
 :::image type="content" source="media/Modern community thumbnail.png" alt-text="Modern community template landing page.":::    
 
@@ -112,7 +112,4 @@ This template provides your customers with automated service reminders and notif
 
 - [Field Service customer portal](/dynamics365/field-service/field-service-portal-homepage)
 
-When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a default template to build your site, or can you can choose scenario-based templates to accelerate creating your site.
-
-:::image type="content" source="media/select-template.png" alt-text="Selection of templates when creating a new site.":::
 
