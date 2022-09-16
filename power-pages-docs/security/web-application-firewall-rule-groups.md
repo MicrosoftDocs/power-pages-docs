@@ -14,26 +14,7 @@ contributors:
 
 # Web Application Firewall DRS rule groups and rules on Power Pages
 
-Power Pages' Web Application Firewall managed rule sets are a subset of Azure-managed rule sets.
-
-## Azure managed rule sets for Power Pages
-
-There are several Azure managed [DRS 2.0](/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20#drs-20) rules set enabled for Power Pages.
-
-| **Rule group**                                           | **Description**                                                             |
-|----------------------------------------------------------|-----------------------------------------------------------------------------|
-|     [General rules](#general)                               | General group                                                               |
-| [METHOD-ENFORCEMENT](#method-enforcement)                | Lock-down methods (PUT, PATCH)                                              |
-| [PROTOCOL-ENFORCEMENT](#protocol-enforcement)            | Protect against protocol and encoding issues                                |
-| [PROTOCOL-ATTACK](#protocol-attack)                      | Protect against header injection, request smuggling, and response splitting |
-| [APPLICATION-ATTACK-LFI](#lfi---local-file-inclusion)    | Protect against file and path attacks                                       |
-| [APPLICATION-ATTACK-RFI](#rfi---remote-file-inclusion)   | Protect against remote file inclusion (RFI) attacks                         |
-| [APPLICATION-ATTACK-XSS](#xss---cross-site-scripting)    | Protect against cross-site scripting attacks                                |
-| [APPLICATION-ATTACK-SESSION-FIXATION](#session-fixation) | Protect against session-fixation attacks                                    |
-| [MS-ThreatIntel-WebShells](#ms-threatintel-webshells)    | Protect against Web shell attacks                                           |
-| [MS-ThreatIntel-AppSec](#ms-threatintel-appsec)          | Protect against AppSec attacks                                              |
-
-## WAF rule groups and rules for Power Pages
+Power Pages' Web Application Firewall managed rule sets are a subset of Azure-managed DRS 2.0 rule sets.
 
 The following rule groups and rules are available using Web Application Firewall for Power Pages
 
@@ -46,11 +27,15 @@ The following rule groups and rules are available using Web Application Firewall
 
 ### METHOD-ENFORCEMENT
 
+Lock-down methods (PUT, PATCH)
+
 | **RuleId** | **Description**                 |
 |------------|---------------------------------|
 | 911100     | Method isn't allowed by policy |
 
 ### PROTOCOL-ENFORCEMENT
+
+Protect against protocol and encoding issues
 
 | **RuleId** | **Description**                                     |
 |------------|-----------------------------------------------------|
@@ -70,6 +55,8 @@ The following rule groups and rules are available using Web Application Firewall
 
 ### PROTOCOL-ATTACK
 
+Protection against header injection,request smuggling, and response splitting.
+
 | **RuleId** | **Description**                                                           |
 |------------|---------------------------------------------------------------------------|
 | 921110     | HTTP Request Smuggling Attack                                             |
@@ -82,6 +69,8 @@ The following rule groups and rules are available using Web Application Firewall
 
 ### LFI - Local File Inclusion
 
+Protect against file and path attacks.
+
 | **RuleId** | **Description**              |
 |------------|------------------------------|
 | 930100     | Path Traversal Attack (/../) |
@@ -90,6 +79,8 @@ The following rule groups and rules are available using Web Application Firewall
 
 ### RFI - Remote File Inclusion
 
+Protect against remote file inclusion (RFI) attacks.
+
 | **RuleId** | **Description**                                                                                      |
 |------------|------------------------------------------------------------------------------------------------------|
 | 931100     | Possible Remote File Inclusion (RFI) Attack: URL Parameter using IP Address                          |
@@ -97,6 +88,8 @@ The following rule groups and rules are available using Web Application Firewall
 | 931120     | Possible Remote File Inclusion (RFI) Attack: URL Payload Used w/Trailing Question Mark Character (?) |
 
 ### XSS - Cross-site Scripting
+
+Protect against cross-site scripting attacks.
 
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
@@ -114,6 +107,8 @@ The following rule groups and rules are available using Web Application Firewall
 
 ### SESSION-FIXATION
 
+Protect against session-fixation attacks
+
 | **RuleId** | **Description**                                                                     |
 |------------|-------------------------------------------------------------------------------------|
 | 943100     | Possible Session Fixation Attack: Setting Cookie Values in HTML                     |
@@ -121,6 +116,8 @@ The following rule groups and rules are available using Web Application Firewall
 | 943120     | Possible Session Fixation Attack: SessionID Parameter Name with No Referrer         |
 
 ### MS-ThreatIntel-WebShells
+
+Protect against Web shell attacks.
 
 | **RuleId** | **Description**                                |
 |------------|------------------------------------------------|
@@ -130,6 +127,8 @@ The following rule groups and rules are available using Web Application Firewall
 | 99005006   | Spring4Shell Interaction Attempt               |
 
 ### MS-ThreatIntel-AppSec
+
+Protect against AppSec attacks
 
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
