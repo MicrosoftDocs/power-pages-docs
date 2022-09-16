@@ -30,7 +30,19 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. On the **Resources** card, select **Portals**.
 
+    :::image type="content" source="media/configure-web-application-firewall/resources-card-portals-selected.png" alt-text="The Power PLatform admin center's Environments page with Portals selected on the Resources card.":::
+
 1. Choose the portal from the available list, and then select **Manage**.
+
+# [Enable](#tab/enable)
+
+On the **Performance & Protection**card, turn on **Enable Web Application Firewall**
+
+# [Disable](#tab/disable)
+
+On the **Performance & Protection**card, turn off **Enable Web Application Firewall**
+
+---
 
 1. Under **Performance & protection** card, turn on **Enable Web Application Firewall**
 
@@ -43,6 +55,8 @@ Web Application Firewall (WAF) is available for production websites.
 1. Choose the environment where the portal was created.
 
 1. On the **Resources** card, select **Portals**.
+
+    :::image type="content" source="media/configure-web-application-firewall/resources-card-portals-selected.png" alt-text="The Power PLatform admin center's Environments page with Portals selected on the Resources card.":::
 
 1. Choose the portal from the available list, and then select **Manage**.
 
