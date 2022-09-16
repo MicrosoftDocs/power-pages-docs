@@ -30,21 +30,15 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. On the **Resources** card, select **Portals**.
 
-    :::image type="content" source="media/configure-web-application-firewall/resources-card-portals-selected.png" alt-text="The Power PLatform admin center's Environments page with Portals selected on the Resources card.":::
+    :::image type="content" source="media/configure-web-application-firewall/resources-card-portals-selected.png" alt-text="The Power Platform admin center's Environments page with Portals selected on the Resources card.":::
 
 1. Choose the portal from the available list, and then select **Manage**.
 
-# [Enable](#tab/enable)
-
-On the **Performance & Protection**card, turn on **Enable Web Application Firewall**
-
-# [Disable](#tab/disable)
-
-On the **Performance & Protection**card, turn off **Enable Web Application Firewall**
-
----
+    :::image type="content" source="media/configure-web-application-firewall/manage-portals.png" alt-text="The Power Platform admin center's Environments page with the Manage option emphasized.":::
 
 1. Under **Performance & protection** card, turn on **Enable Web Application Firewall**
+
+    :::image type="content" source="media/configure-web-application-firewall/performance-and-protection.png" alt-text="The Performance and Protection card wiht the Enable Web Application Firewall toggle emphasized.":::
 
 ## Disable Web Application Firewall for Power Pages sites
 
@@ -56,8 +50,12 @@ On the **Performance & Protection**card, turn off **Enable Web Application Firew
 
 1. On the **Resources** card, select **Portals**.
 
-    :::image type="content" source="media/configure-web-application-firewall/resources-card-portals-selected.png" alt-text="The Power PLatform admin center's Environments page with Portals selected on the Resources card.":::
+    :::image type="content" source="media/configure-web-application-firewall/resources-card-portals-selected.png" alt-text="The Power Platform admin center's Environments page with Portals selected on the Resources card.":::
 
 1. Choose the portal from the available list, and then select **Manage**.
 
+    :::image type="content" source="media/configure-web-application-firewall/manage-portals.png" alt-text="The Power Platform admin center's Environments page with the Manage option emphasized.":::
+
 1. On the **Performance & Protection** card, turn off **Enable Web Application Firewall**
+
+    :::image type="content" source="media/configure-web-application-firewall/performance-and-protection.png" alt-text="The Performance and Protection card wiht the Enable Web Application Firewall toggle emphasized.":::
