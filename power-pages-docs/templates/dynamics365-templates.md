@@ -39,7 +39,7 @@ The customer self-service site gives customers access to self-service knowledge 
 
 ## Partner
 
-The partner site template allows every organization with resellers, distributors, suppliers, or partners to have real-time access to every stage of shared activities.
+The partner site template allows organizations with resellers, distributors, suppliers, or partners to have real-time access to every stage of shared activities.
 
 >[!NOTE]
 >Field Service and Project Operations packages must be installed in your Dynamics 365 environment to enable respective options. For more information, see [Integrate Project Service Automation](/dynamics365/portals/integrate-project-service-automation) and [Integrate Field Service](/dynamics365/portals/integrate-field-service).
@@ -59,13 +59,13 @@ The partner site template allows every organization with resellers, distributors
 
 ## Employee self-service 
 
-An employee self-service site creates an efficient and well-informed workforce by streamlining common tasks and empowering every employee with a definitive source of knowledge.
+An employee self-service site creates an efficient and well-informed workforce by streamlining common tasks and empowering employees with a definitive source of knowledge.
 
 :::image type="content" source="media/Employee self service.png" alt-text="Employee self-service template landing page.":::    
 
 ## Community 
 
-The community site uses peer-to-peer interactions between customers and experts to organically grow the catalog of available knowledge from knowledge base articles, forums, and blogs, as well as providing feedback through comments and ratings.
+The community site template uses peer-to-peer interactions between customers and experts.  Use this template to organically grow the catalog of available knowledge via knowledge base articles, forums, and blogs, and the feedback provided through comments and ratings.
 
 :::image type="content" source="media/Community thumbnail.png" alt-text="Community template landing page.":::    
 
@@ -78,7 +78,7 @@ The community site uses peer-to-peer interactions between customers and experts 
 
 ## Supply chain management customer portal
 
-The supply chain management customer portal site template lets you create an externally facing business-to-business (B2B) website related to sales order processing. External customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. This template has customization capabilities and can be easily modified to represent the company's brand, add more functionality, and change the user experience. All the functionality that the template offers out of the box can be modified to meet your needs.
+The supply chain management customer portal site template is used to create externally facing business-to-business (B2B) websites for sales order processing. External customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. This template has customization capabilities and can be easily modified to represent the company's brand, add more functionality, and change the user experience. All the functionality that the template offers out of the box can be modified to meet your needs.
 
 :::image type="content" source="media/SCM Customer.png" alt-text="Customer template landing page.":::    
 
@@ -92,7 +92,7 @@ The supply chain management customer portal site template lets you create an ext
 
 ## Modern community 
 
-The modern community site template offers a suite of capabilities designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Customers can use the Modern Community to collaborate on a social scale, rallying behind suggestions from others to help shape the future of the products they use. 
+The modern community site template invites customers to provide suggestions and creates crowd sourced portfolios of outside-in ideas. Customers can use this template to collaborate on a social scale, rallying behind suggestions from others to help shape the future of the products they use. 
 
 :::image type="content" source="media/Modern community thumbnail.png" alt-text="Modern community template landing page.":::    
 
@@ -102,7 +102,7 @@ The modern community site template offers a suite of capabilities designed to he
 
 ## Field service customer 
 
-The field service customer site template provides a one-stop destination for your service and customers to book new appointments, manage existing appointments, track their technician, and provide feedback. 
+The field service customer site template allows your customers to book new appointments, manage existing appointments, track their technician, and provide feedback. 
 
 :::image type="content" source="media/Field Service thumbnail.png" alt-text="Field Service template landing page.":::   
 
