@@ -18,20 +18,28 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-If you select an environment that contains Dynamics 365 applications (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations or Dynamics 365 Supply Chain Management), Dynamics 365 templates are available for you to use to create your Power Pages site.
+Dynamics 365 templates are available for your Power Pages sites in environments that contain Dynamics 365 applications, including:
+
+- Dynamics 365 Sales
+- Dynamics 365 Customer Service
+- Dynamics 365 Field Service
+- Dynamics 365 Marketing
+- Dynamics 365 Project Operations
+- Dynamics 365 Supply Chain Management
 
 ## Customer self-service
 
-A customer self-service site enables customers to access self-service knowledge and support resources, view the progress of their cases, and provide feedback.
+The customer self-service site gives customers access to self-service knowledge and support resources.  Customers can also view the progress of their cases and provide feedback.
+
 :::image type="content" source="media/Customer self service thumbnail.png" alt-text="Customer self-service template landing page.":::
 
 ### See also 
 
-- [Manage knowledge catagories](/powerapps/maker/portals/configure-knowledge-categories-articles)
+- [Manage knowledge categories](/powerapps/maker/portals/configure-knowledge-categories-articles)
 
 ## Partner
 
-A partner site allows every organization with resellers, distributors, suppliers, or partners to have real-time access to every stage of shared activities.
+The partner site template allows every organization with resellers, distributors, suppliers, or partners to have real-time access to every stage of shared activities.
 
 >[!NOTE]
 >Field Service and Project Operations packages must be installed in your Dynamics 365 environment to enable respective options. For more information, see [Integrate Project Service Automation](/dynamics365/portals/integrate-project-service-automation) and [Integrate Field Service](/dynamics365/portals/integrate-field-service).
@@ -57,7 +65,7 @@ An employee self-service site creates an efficient and well-informed workforce b
 
 ## Community 
 
-A community site uses peer-to-peer interactions between customers and experts to organically grow the catalog of available knowledge from knowledge base articles, forums, and blogs, as well as providing feedback through comments and ratings.
+The community site uses peer-to-peer interactions between customers and experts to organically grow the catalog of available knowledge from knowledge base articles, forums, and blogs, as well as providing feedback through comments and ratings.
 
 :::image type="content" source="media/Community thumbnail.png" alt-text="Community template landing page.":::    
 
@@ -68,9 +76,9 @@ A community site uses peer-to-peer interactions between customers and experts to
 - [Manage blogs with Community](/powerapps/maker/portals/customer-engagement-apps/manage-blogs)
 - [Manage ideas with Community](/powerapps/maker/portals/customer-engagement-apps/crowdsource-ideas)
 
-## Supply Chain Management Customer portal
+## Supply chain management customer portal
 
-A Supply Chain Management Customer site template lets you create an externally facing business-to-business (B2B) website for scenarios that are related to sales order processing. This template allows external users to create and view orders to the associated Dynamics 365 for Supply Chain Management environment. The template has customization capabilities and can be easily modified to represent the company's brand, add more functionality and change the user experience. All the functionality that the template offers out of the box can be modified as desired. 
+The supply chain management customer portal site template lets you create an externally facing business-to-business (B2B) website related to sales order processing. External customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. This template has customization capabilities and can be easily modified to represent the company's brand, add more functionality, and change the user experience. All the functionality that the template offers out of the box can be modified to meet your needs.
 
 :::image type="content" source="media/SCM Customer.png" alt-text="Customer template landing page.":::    
 
@@ -82,9 +90,9 @@ A Supply Chain Management Customer site template lets you create an externally f
 - [Customer portal for Dynamics 365 Supply Chain Management application](/dynamics-365-unified-operations-public/articles/supply-chain/sales-marketing/customer-portal-overview).
 - [Site limits for site template type](/powerapps/maker/portals/create-additional-portals)
 
-## Modern Community 
+## Modern community 
 
-Modern Community site offers a suite of capabilities that are designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Customers can use Modern Community to collaborate on a social scale, and rally behind suggestions from others to help shape the future of the products they use. 
+The modern community site template offers a suite of capabilities designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Customers can use the Modern Community to collaborate on a social scale, rallying behind suggestions from others to help shape the future of the products they use. 
 
 :::image type="content" source="media/Modern community thumbnail.png" alt-text="Modern community template landing page.":::    
 
@@ -92,13 +100,13 @@ Modern Community site offers a suite of capabilities that are designed to help y
 
 - [Customer Service Community](/dynamics365/customer-service/community-get-started)
 
-## Field Service customer 
+## Field service customer 
 
-Field Service customer site template provides a one-stop destination for your service and customers to book new appointments, manage existing appointments, track their technician, and provide feedback. 
+The field service customer site template provides a one-stop destination for your service and customers to book new appointments, manage existing appointments, track their technician, and provide feedback. 
 
 :::image type="content" source="media/Field Service thumbnail.png" alt-text="Field Service template landing page.":::   
 
-Dynamics 365 Field Service provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits.  
+This template provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits.  
 
 ### See also 
 
