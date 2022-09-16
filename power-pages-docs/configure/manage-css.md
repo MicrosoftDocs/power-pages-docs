@@ -4,7 +4,7 @@ description: Learn how to upload CSS files in the design studio
 author: ankitavish
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/04/2022
+ms.date: 09/16/2022
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: ndoelman
