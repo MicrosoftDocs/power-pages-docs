@@ -14,7 +14,7 @@ contributors:
 
 # Web Application Firewall DRS rule groups and rules for Power Pages
 
-Power Pages' Web Application Firewall managed rule sets are a subset of Azure-managed [DRS 2.0 rule sets](/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20). Each group contains multiple rules, and you can disable individual rules as well as entire rule groups.
+Power Pages' Web Application Firewall managed rule sets are a subset of Azure-managed [DRS 2.0 rule sets](/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20). Each group contains multiple rules, and you can disable individual rules or entire rule groups.
 
 The following rule groups and rules are available using Web Application Firewall for Power Pages
 
@@ -55,7 +55,7 @@ The PROTOCOL-ENFORCEMENT rule group protects against protocol and encoding issue
 
 ### PROTOCOL-ATTACK
 
-The PROTOCOL-ATTACK rule group offers protection against header injection,request smuggling, and response splitting.
+The PROTOCOL-ATTACK rule group offers protection against header injection, request smuggling, and response splitting.
 
 | **RuleId** | **Description**                                                           |
 |------------|---------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ The SESSION-FIXATION rule group protects against session-fixation attacks.
 
 ### MS-ThreatIntel-WebShells
 
-The MS-ThreatIntel-WebShells protects against Web shell attacks.
+The MS-ThreatIntel-WebShells rule group protects against Web shell attacks.
 
 | **RuleId** | **Description**                                |
 |------------|------------------------------------------------|
