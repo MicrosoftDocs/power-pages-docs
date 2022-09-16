@@ -14,7 +14,7 @@ contributors:
 
 # Web Application Firewall DRS rule groups and rules on Power Pages
 
-Power Pages' Web Application Firewall managed rule sets are a subset of Azure-managed DRS 2.0 rule sets.
+Power Pages' Web Application Firewall managed rule sets are a subset of Azure-managed DRS 2.0 rule sets as shown in the content below. Each group contains multiple rules, and you can disable individual rules as well as entire rule groups.
 
 The following rule groups and rules are available using Web Application Firewall for Power Pages
 
@@ -35,7 +35,7 @@ Lock-down methods (PUT, PATCH)
 
 ### PROTOCOL-ENFORCEMENT
 
-Protect against protocol and encoding issues
+The PROTOCOL-ENFORCEMENT rule group protects against protocol and encoding issues.
 
 | **RuleId** | **Description**                                     |
 |------------|-----------------------------------------------------|
@@ -55,7 +55,7 @@ Protect against protocol and encoding issues
 
 ### PROTOCOL-ATTACK
 
-Protection against header injection,request smuggling, and response splitting.
+The PROTOCOL-ATTACK rule group offers protection against header injection,request smuggling, and response splitting.
 
 | **RuleId** | **Description**                                                           |
 |------------|---------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Protection against header injection,request smuggling, and response splitting.
 
 ### LFI - Local File Inclusion
 
-Protect against file and path attacks.
+The Local File Inclusion rule group protects against file and path attacks.
 
 | **RuleId** | **Description**              |
 |------------|------------------------------|
@@ -79,7 +79,7 @@ Protect against file and path attacks.
 
 ### RFI - Remote File Inclusion
 
-Protect against remote file inclusion (RFI) attacks.
+The Remote File Inclusion rule group protects against remote file inclusion (RFI) attacks.
 
 | **RuleId** | **Description**                                                                                      |
 |------------|------------------------------------------------------------------------------------------------------|
@@ -89,7 +89,10 @@ Protect against remote file inclusion (RFI) attacks.
 
 ### XSS - Cross-site Scripting
 
-Protect against cross-site scripting attacks.
+The Cross-site Scripting rule group protects against cross-site scripting attacks.
+
+> [!NOTE]
+> This article contains references to the term *blacklist*, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
 
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
@@ -107,7 +110,7 @@ Protect against cross-site scripting attacks.
 
 ### SESSION-FIXATION
 
-Protect against session-fixation attacks
+The SESSION-FIXATION rule group protects against session-fixation attacks.
 
 | **RuleId** | **Description**                                                                     |
 |------------|-------------------------------------------------------------------------------------|
@@ -117,7 +120,7 @@ Protect against session-fixation attacks
 
 ### MS-ThreatIntel-WebShells
 
-Protect against Web shell attacks.
+The MS-ThreatIntel-WebShells protects against Web shell attacks.
 
 | **RuleId** | **Description**                                |
 |------------|------------------------------------------------|
@@ -128,7 +131,7 @@ Protect against Web shell attacks.
 
 ### MS-ThreatIntel-AppSec
 
-Protect against AppSec attacks
+The MS-ThreatIntel-AppSec rule group protects against AppSec attacks.
 
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
