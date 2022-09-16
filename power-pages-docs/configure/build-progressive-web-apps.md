@@ -5,7 +5,7 @@ author: ankitavish
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/12/2022
+ms.date: 09/16/2022
 ms.subservice: 
 ms.author: avishwakarma
 ms.reviewer: ndoelman
@@ -35,7 +35,7 @@ Use Power Pages design studio to configure your progressive web app (PWA). You c
 
 You can create your own branded PWA by using the customization options to change the app name, starting page, color, and more.
 
-> [!Note]
+> [!NOTE]
 > On iOS devices, icons for the PWA will be shown as thumbnails and the customized splash screen won't be displayed.
 
 1. In the design studio, select **Progressive web app**.
@@ -51,7 +51,7 @@ You can create your own branded PWA by using the customization options to change
     | App icon | The icon for the app that will appear on the mobile device and in the app store.<br>**Note:** Supports .jpg, .jpeg, .png formats with a maximum upload size of 5mb. Size of icon must be 512 &times; 512 pixels. |
       
     > [!NOTE]
-    > After customizing the PWA, select **Preview** to clear the cache. This will cause changes to be reflected instantly.
+    > Depending on your browser, it might take few moments for you to see your changes to reflect. After customizing the PWA, select **Preview** to clear the cache of your site.
 
 ## Define offline behavior
 
@@ -86,7 +86,7 @@ When a device is offline, the page you configure as the offline message page app
 > You can't change the **Title** or **Partial URL** ("*/default-offline-page*") fields for the offline page. A default offline page will be shown to users if the offline page is missing.
 
 > [!TIP]
-> After configuring the offline PWA experience, select **Preview** to clear the cache. This will cause changes to be reflected instantly.
+> Depending on your browser, it might take few moments for you to see your changes to reflect. After customizing the offline PWA experience, select **Preview** to clear the cache of your site.
 
 ### Test your site in offline mode
 
