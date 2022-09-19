@@ -32,15 +32,13 @@ Use design studio to customize your site and manage page permissions quickly and
 
 1. From the list of sites in Power Pages, select **Edit** to open [design studio](../getting-started/first-page.md).
 
-    IMAGE GOES HERE
-
 1. Select the ellipses next to the page you want to manage permissions for and choose **Page Settings**.
 
-    IMAGE GOES HERE
+    :::image type="content" source="media/page-security/page-settings.png" alt-text="The Pages workspace with the Page settings menu option emphasized for the Home page.":::
 
 1. Select the **Permissions** tab.
 
-    IMAGE GOES HERE
+    :::image type="content" source="media/page-security/permissions.png" alt-text="The Page settings window with the Permissions option emphasized.":::
 
 >[!NOTE]
 > The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page. Review the options for page permissions and options for child page permissions.
