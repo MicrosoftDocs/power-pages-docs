@@ -75,7 +75,7 @@ The following video provides an overview of how to get started using Power Pages
 
 ## Additional resources
 
-- [Explore training resources for Power Apps portals](/learn/browse/?terms=power%20apps%20portals)
+- [Explore training resources for Power Apps portals](/training/browse/?terms=power%20apps%20portals)
 - [Watch videos on the product playlist](../training-videos/index.md)
 - [Power Pages Tutorials](tutorial-overview.md)
 - [Trial FAQ](trial-faq.md)
