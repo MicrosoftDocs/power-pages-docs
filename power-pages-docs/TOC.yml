@@ -78,9 +78,9 @@
         href: getting-started/code-editor.md
       - name: Structure your site map
         href: getting-started/structure-site.md                    
-  - name: Use the Style workspace
+  - name: Use the Styling workspace
     items:
-      - name: Style workspace overview
+      - name: Styling workspace overview
         href: getting-started/style-site.md
       - name: Manage CSS files
         href: configure/manage-css.md
