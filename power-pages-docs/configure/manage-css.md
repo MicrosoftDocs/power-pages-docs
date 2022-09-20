@@ -79,7 +79,7 @@ Any custom CSS file is at lower priority than the default *portalbasictheme.css*
 > :::image type="content" source="media/manage-css/update-css-pma.png" alt-text="Update CSS files using the Portals Management app."::: </br>
 > Open the **Portal management app** and to restore the default state and display order of the default CSS files to resolve the issue.
 
-### To delete a custom CSS file
+### Delete a custom CSS file
 
 1. The CSS files are stored as [web files](advanced-config.md#web-files). To remove the custom CSS file, go to the [Portal Management app](portal-management-app.md) and select **Web Files**. 
 
@@ -119,5 +119,5 @@ Or, depending on the customizer application used, it might only contain bootstra
 
 ### See also
 
-- [Microsoft Learn: Advanced CSS in Power Apps portals](/learn/modules/extend-power-app-portals/4-portal-css)
-- [Microsoft Learn: Advanced client-side development](/learn/modules/extend-power-app-portals/5-advanced-portal-development)
+- [Microsoft Training: Advanced CSS in Power Apps portals](/learn/modules/extend-power-app-portals/4-portal-css)
+- [Microsoft Training: Advanced client-side development](/learn/modules/extend-power-app-portals/5-advanced-portal-development)
