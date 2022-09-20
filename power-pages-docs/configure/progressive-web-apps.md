@@ -5,7 +5,7 @@ author: ankitavish
 
 ms.topic: overview
 ms.custom: 
-ms.date: 09/15/2022
+ms.date: 09/20/2022
 ms.subservice: 
 ms.author: avishwakarma
 ms.reviewer: ndoelman
@@ -19,7 +19,7 @@ contributors:
 
 You can enable your site as a progressive web app (PWA), with native app–like look and feel, by using the [Set up workspace](setup-workspace.md) in the Power Pages design studio.
 
-We are leveraging progressive web app technology to convert a site to a multi-platform supported app which works all platforms (Android/iOS/Windows/Chrome) as well as all form factors (mobile/desktop/tablet). It will even work on specialized platforms like chrome books.
+We're applying progressive web app technology to convert a site to a multi-platform supported app, which works on all platforms (Android/iOS/Windows/Chrome) and all form factors (mobile/desktop/tablet). It will even work on specialized platforms like chrome books.
 
 PWAs are built for cross-platform interoperability through browser support that provides users a native app–like experience. PWAs bring a seamless experience for users across different web browsers. These apps can be installed from the browser or through app stores. This capability enables external and internal customers to use a portal as an app. They can also pin the app directly to the home screen on their mobile device.
 

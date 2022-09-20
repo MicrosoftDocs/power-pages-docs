@@ -5,7 +5,7 @@ author: ankitavish
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/16/2022
+ms.date: 09/20/2022
 ms.subservice: 
 ms.author: avishwakarma
 ms.reviewer: ndoelman
@@ -48,7 +48,7 @@ You can create your own branded PWA by using the customization options to change
     | Description | The description of the PWA that will appear on the mobile device and in the app store. |
     | Starting page of the app | The start page for the site when it's opened through the PWA. |
     | Splash screen background | The background color for the splash screen when the PWA is loaded. |
-    | App icon | The icon for the app that will appear on the mobile device and in the app store.<br>**Note:** Supports .jpg, .jpeg, .png formats with a maximum upload size of 5mb. Size of icon must be 512 &times; 512 pixels. |
+    | App icon | The icon for the app that will appear on the mobile device and in the app store.<br>**Note:** Supports .jpg, .jpeg, .png formats with a maximum upload size of 5 mb. Size of icon must be 512 &times; 512 pixels. |
       
     > [!NOTE]
     > Depending on your browser, it might take few moments for you to see your changes to reflect. After customizing the PWA, select **Preview** to clear the cache of your site.
@@ -117,7 +117,7 @@ After your portal is enabled as a PWA, your users can pin the Power Pages site a
 
 You can create an app package for your PWA site and publish the package to different app stores such as Microsoft Store and Google Play.
 
-To create an app package, go to the **Set uo** workspace in the design studio. Under **App package**, select **Create app package**.
+To create an app package, go to the **Set up** workspace in the design studio. Under **App package**, select **Create app package**.
 
 :::image type="content" source="media/progressive-web-apps/open-pwa-builder.png" alt-text="Opening PWA Builder to create an app package in portals Studio." border="false":::
 
@@ -129,7 +129,7 @@ You'll be taken to [the PWA Builder website](https://www.pwabuilder.com/) where 
 
 For more details, go to the [PWA resource hub](https://blog.pwabuilder.com/).
 
-#### Additional considerations for Android
+#### Other considerations for Android
 
 For the Android platform, you can also update the Android certificate with the **Update android certificate** option.
 
