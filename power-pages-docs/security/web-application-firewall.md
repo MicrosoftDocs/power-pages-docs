@@ -16,7 +16,7 @@ contributors:
 
 Web Application Firewall (WAF) provides centralized protection for Power Pages sites, defending against common exploits and vulnerabilities by preventing malicious attacks before they enter the network.  By utilizing WAF, Power Pages sites receive global protection at a scale without sacrificing performance.
 
-## WAF mode
+## WAF mode for Power Pages
 
 Web Application Firewall is powered by Azure Front Door (AFD), and the policy is configured using an AFD profile with **Prevention** mode enabled. In **Prevention** mode, requests matching the rules defined in the managed rule set are blocked.
 
