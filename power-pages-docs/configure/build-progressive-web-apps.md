@@ -2,7 +2,6 @@
 title: Build progressive web apps
 description: Configure a site as a progressive web app.
 author: ankitavish
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/20/2022
@@ -16,6 +15,8 @@ contributors:
 ---
 
 # Build a progressive web app
+
+[This topic is pre-release documentation and is subject to change.]
 
 Use Power Pages design studio to configure your progressive web app (PWA). You can enable or disable PWA capability, customize PWA settings, and prepare to create an app package to publish to respective device stores if you choose.
 
@@ -83,10 +84,8 @@ When a device is offline, the page you configure as the offline message page app
 1. Customize the page.
 
 > [!NOTE]
-> You can't change the **Title** or **Partial URL** ("*/default-offline-page*") fields for the offline page. A default offline page will be shown to users if the offline page is missing.
-
-> [!TIP]
-> Depending on your browser, it might take few moments for you to see your changes to reflect. After customizing the offline PWA experience, select **Preview** to clear the cache of your site.
+> - You can't change the **Title** or **Partial URL** ("*/default-offline-page*") fields for the offline page. A default offline page will be shown to users if the offline page is missing.
+> - Depending on your browser, it might take few moments for you to see your changes to reflect. After customizing the offline PWA experience, select **Preview** to clear the cache of your site.
 
 ### Test your site in offline mode
 
@@ -108,6 +107,8 @@ After you've [enabled offline pages](#define-offline-behavior), you can now use 
     :::image type="content" source="media/progressive-web-apps/pwa-offline.png" alt-text="Read-only page in offline mode for a PWA app.":::   :::image type="content" source="media/progressive-web-apps/not-connected.png" alt-text="Not connected to the internet page in PWA app." :::
 
 ## Distribute your app
+
+You can distribute your app either by using a browser or through an app store.
 
 ### Distribute your app by using a browser
 
