@@ -44,7 +44,7 @@
     href: configure/design-build-overview.md  
   - name: Dataverse and Power Pages
     href: getting-started/what-is-dataverse.md
-  - name: Use Pages workspace
+  - name: Use the Pages workspace
     items:  
       - name: Create and design pages
         href: getting-started/first-page.md
@@ -78,9 +78,9 @@
         href: getting-started/code-editor.md
       - name: Structure your site map
         href: getting-started/structure-site.md                    
-  - name: Use the Style workspace
+  - name: Use the Styling workspace
     items:
-      - name: Style workspace overview
+      - name: Styling workspace overview
         href: getting-started/style-site.md
       - name: Manage CSS files
         href: configure/manage-css.md
@@ -94,7 +94,7 @@
         href: configure/data-workspace-views.md
       - name: Create and modify forms
         href: configure/data-workspace-forms.md                    
-  - name: Use Set up workspace
+  - name: Use the Set up workspace
     href: configure/setup-workspace.md
 - name: Administer Power Pages
   items:   
