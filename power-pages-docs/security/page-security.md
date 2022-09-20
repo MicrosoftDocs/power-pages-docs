@@ -4,7 +4,7 @@ description: Learn how to secure your webpages by using page permissions.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/12/2022
+ms.date: 09/20/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
