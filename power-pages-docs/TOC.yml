@@ -141,7 +141,15 @@
     - name: Configure table permissions
       href: security/table-permissions.md
     - name: Assign table permissions
-      href: security/assign-table-permissions.md      
+      href: security/assign-table-permissions.md
+    - name: Web Application Firewall
+      items:
+        - name: Web Application Firewall
+        - href: security/web-application-firewall.md
+        - name: Configure Web Application Firewall
+        - href: security/configure-web-application-firewall.md
+        - name: Web Application Firewall rule groups
+        - href: security/web-application-firewall-rule-groups.md      
 - name: Go live 
   items: 
     - name: Go live checklist
