@@ -18,7 +18,7 @@ The Web Application Firewall managed rule sets for Power Pages are a subset of A
 
 The following rule groups and rules are available using Web Application Firewall for Power Pages
 
-### General
+## General
 
 The General rule group protects against improperly formed requests.
 
@@ -27,7 +27,7 @@ The General rule group protects against improperly formed requests.
 | 200002     | Failed to parse request body                    |
 | 200003     | Multipart request body failed strict validation |
 
-### METHOD-ENFORCEMENT
+## METHOD-ENFORCEMENT
 
 The METHOD-ENFORCEMENT rule group protects against unauthorized method calls using lock-down methods (PUT, PATCH).
 
@@ -35,7 +35,7 @@ The METHOD-ENFORCEMENT rule group protects against unauthorized method calls usi
 |------------|---------------------------------|
 | 911100     | Method isn't allowed by policy  |
 
-### PROTOCOL-ENFORCEMENT
+## PROTOCOL-ENFORCEMENT
 
 The PROTOCOL-ENFORCEMENT rule group protects against protocol and encoding issues.
 
@@ -55,7 +55,7 @@ The PROTOCOL-ENFORCEMENT rule group protects against protocol and encoding issue
 | 920240     | URL Encoding Abuse Attack Attempt                   |
 | 920260     | Unicode Full/Half Width Abuse Attack Attempt        |
 
-### PROTOCOL-ATTACK
+## PROTOCOL-ATTACK
 
 The PROTOCOL-ATTACK rule group offers protection against header injection, request smuggling, and response splitting.
 
@@ -69,7 +69,7 @@ The PROTOCOL-ATTACK rule group offers protection against header injection, reque
 | 921151     | HTTP Header Injection Attack via payload (CR/LF detected)                 |
 | 921160     | HTTP Header Injection Attack via payload (CR/LF and header-name detected) |
 
-### LFI - Local File Inclusion
+## LFI - Local File Inclusion
 
 The Local File Inclusion rule group protects against file and path attacks.
 
@@ -79,7 +79,7 @@ The Local File Inclusion rule group protects against file and path attacks.
 | 930110     | Path Traversal Attack (/../) |
 | 930120     | OS File Access Attempt       |
 
-### RFI - Remote File Inclusion
+## RFI - Remote File Inclusion
 
 The Remote File Inclusion rule group protects against remote file inclusion (RFI) attacks.
 
@@ -89,7 +89,7 @@ The Remote File Inclusion rule group protects against remote file inclusion (RFI
 | 931110     | Possible Remote File Inclusion (RFI) Attack: Common RFI Vulnerable Parameter Name used w/URL Payload |
 | 931120     | Possible Remote File Inclusion (RFI) Attack: URL Payload Used w/Trailing Question Mark Character (?) |
 
-### XSS - Cross-site Scripting
+## XSS - Cross-site Scripting
 
 The Cross-site Scripting rule group protects against cross-site scripting attacks.
 
@@ -110,7 +110,7 @@ The Cross-site Scripting rule group protects against cross-site scripting attack
 | 941220     | XSS using obfuscated VB Script                     |
 | 941230     | XSS using 'embed' tag                              |
 
-### SESSION-FIXATION
+## SESSION-FIXATION
 
 The SESSION-FIXATION rule group protects against session-fixation attacks.
 
@@ -120,7 +120,7 @@ The SESSION-FIXATION rule group protects against session-fixation attacks.
 | 943110     | Possible Session Fixation Attack: SessionID Parameter Name with Off-Domain Referrer |
 | 943120     | Possible Session Fixation Attack: SessionID Parameter Name with No Referrer         |
 
-### MS-ThreatIntel-WebShells
+## MS-ThreatIntel-WebShells
 
 The MS-ThreatIntel-WebShells rule group protects against Web shell attacks.
 
@@ -131,7 +131,7 @@ The MS-ThreatIntel-WebShells rule group protects against Web shell attacks.
 | 99005004   | Web Shell Upload Attempt (POST) - CHOPPER ASPX |
 | 99005006   | Spring4Shell Interaction Attempt               |
 
-### MS-ThreatIntel-AppSec
+## MS-ThreatIntel-AppSec
 
 The MS-ThreatIntel-AppSec rule group protects against AppSec attacks.
 
