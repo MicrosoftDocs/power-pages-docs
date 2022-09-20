@@ -32,7 +32,7 @@ You can configure table permissions on Dataverse tables used in your Power Pages
 
 ## Mobile
 
-You'll be able to configure progressive web apps (PWAs) using Power Pages. For more information, go [Progressive Web Applications](progressive-web-apps.md)
+You'll be able to configure progressive web apps (PWAs) using Power Pages. For more information, go to [Progressive Web Applications](progressive-web-apps.md)
 
 ## Administration
 
