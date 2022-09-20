@@ -4,6 +4,11 @@
       "source_path": "power-pages-docs/coming-soon.md",
       "redirect_url": "index",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/advanced-forms.md",
+      "redirect_url": "multistep-forms",
+      "redirect_document_id": "false"
     }
    ]
 }

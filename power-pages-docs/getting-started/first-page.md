@@ -1,16 +1,17 @@
 ---
 title: Create your first Power Pages site
 description: Learn how to create Power Pages sites.
-author: prvaidy
+author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/10/2022
+ms.date: 08/08/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: clromano 
+ms.reviewer: ndoelman
 contributors:
     - ndoelman
     - ProfessorKendrick
+    - clromano
 ---
 
 # Create and design pages
@@ -25,15 +26,13 @@ The **Pages** workspace enables you to design and build webpages with in-context
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your Power Pages site.
 
-1. On the left pane, select **Pages**, and then select one of the plus signs (**+**).
+1. On the left pane, select **Pages**, and then select **+ Page**.
 
-    - Selecting the **Add a page** icon in the **Main navigation** section adds a new page, which will also add a menu item to the default navigation of the site.
+    :::image type="content" source="media/first-page/add-new-page.png" alt-text="Add a new page within the design studio.":::
 
-        :::image type="content" source="media/first-page/add-page-navigation.png" alt-text="Adding a page within the design studio.":::
+1. Choose a page from standard layouts, or choose a custom layout. 
 
-    - Selecting the **Add a page** icon in the **Other pages** section adds a new page, but won't add a link to the default navigation of the site.
-
-1. Choose a page from standard layouts, or choose a custom layout.
+1. By default, the new page will appear in the **Main navigation** section and there will be a link on the default navigation of the site. If you unselect the **add page to main navigation** option, the page will appear the **Other pages** section. The page will be accessible from a URL but will not have a link on the default navigation.
 
     :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within the design studio.":::
 
