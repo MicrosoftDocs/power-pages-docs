@@ -4,7 +4,7 @@ description: Learn about Web Application Firewall DRS rule groups and rules for 
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/14/2022
+ms.date: 09/20/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -14,7 +14,7 @@ contributors:
 
 # Web Application Firewall DRS rule groups and rules for Power Pages
 
-Power Pages' Web Application Firewall managed rule sets are a subset of Azure-managed [DRS 2.0 rule sets](/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20). Each group contains multiple rules, and you can disable individual rules or entire rule groups.
+The Web Application Firewall managed rule sets for Power Pages are a subset of Azure-managed [DRS 2.0 rule sets](/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20#drs-20). Each group contains multiple rules, and you can disable individual rules or entire rule groups.
 
 The following rule groups and rules are available using Web Application Firewall for Power Pages
 
@@ -24,7 +24,7 @@ The General rule group protects against improperly formed requests.
 
 | **RuleId** | **Description**                                 |
 |------------|-------------------------------------------------|
-| 200002     | Failed to parse request body.                   |
+| 200002     | Failed to parse request body                    |
 | 200003     | Multipart request body failed strict validation |
 
 ### METHOD-ENFORCEMENT
@@ -33,7 +33,7 @@ The METHOD-ENFORCEMENT rule group protects against unauthorized method calls usi
 
 | **RuleId** | **Description**                 |
 |------------|---------------------------------|
-| 911100     | Method isn't allowed by policy |
+| 911100     | Method isn't allowed by policy  |
 
 ### PROTOCOL-ENFORCEMENT
 
@@ -43,14 +43,14 @@ The PROTOCOL-ENFORCEMENT rule group protects against protocol and encoding issue
 |------------|-----------------------------------------------------|
 | 920100     | Invalid HTTP Request Line                           |
 | 920121     | Attempted multipart/form-data bypass                |
-| 920160     | Content-Length HTTP header isn't numeric           |
-| 920170     | GET or HEAD Request with Body Content             |
-| 920171     | GET or HEAD Request with Transfer-Encoding         |
-| 920180     | POST request missing Content-Length Header        |
-| 920190     | Range: Invalid Last Byte Value                     |
+| 920160     | Content-Length HTTP header isn't numeric            |
+| 920170     | GET or HEAD Request with Body Content               |
+| 920171     | GET or HEAD Request with Transfer-Encoding          |
+| 920180     | POST request missing Content-Length Header          |
+| 920190     | Range: Invalid Last Byte Value                      |
 | 920200     | Range: Too many fields (6 or more)                  |
 | 920201     | Range: Too many fields for pdf request (35 or more) |
-| 920210     | Multiple/Conflicting Connection Header Data Found  |
+| 920210     | Multiple/Conflicting Connection Header Data Found   |
 | 920220     | URL Encoding Abuse Attack Attempt                   |
 | 920240     | URL Encoding Abuse Attack Attempt                   |
 | 920260     | Unicode Full/Half Width Abuse Attack Attempt        |
