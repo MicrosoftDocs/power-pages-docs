@@ -20,6 +20,8 @@ The following rule groups and rules are available using Web Application Firewall
 
 ### General
 
+The General rule group protects against improperly formed requests.
+
 | **RuleId** | **Description**                                 |
 |------------|-------------------------------------------------|
 | 200002     | Failed to parse request body.                   |
@@ -27,7 +29,7 @@ The following rule groups and rules are available using Web Application Firewall
 
 ### METHOD-ENFORCEMENT
 
-Lock-down methods (PUT, PATCH)
+The METHOD-ENFORCEMENT rule group protects against unauthorized method calls using lock-down methods (PUT, PATCH).
 
 | **RuleId** | **Description**                 |
 |------------|---------------------------------|
@@ -41,14 +43,14 @@ The PROTOCOL-ENFORCEMENT rule group protects against protocol and encoding issue
 |------------|-----------------------------------------------------|
 | 920100     | Invalid HTTP Request Line                           |
 | 920121     | Attempted multipart/form-data bypass                |
-| 920160     | Content-Length HTTP header isn't numeric.           |
-| 920170     | GET or HEAD Request with Body Content.              |
-| 920171     | GET or HEAD Request with Transfer-Encoding.         |
-| 920180     | POST request missing Content-Length Header.         |
-| 920190     | Range: Invalid Last Byte Value.                     |
+| 920160     | Content-Length HTTP header isn't numeric           |
+| 920170     | GET or HEAD Request with Body Content             |
+| 920171     | GET or HEAD Request with Transfer-Encoding         |
+| 920180     | POST request missing Content-Length Header        |
+| 920190     | Range: Invalid Last Byte Value                     |
 | 920200     | Range: Too many fields (6 or more)                  |
 | 920201     | Range: Too many fields for pdf request (35 or more) |
-| 920210     | Multiple/Conflicting Connection Header Data Found.  |
+| 920210     | Multiple/Conflicting Connection Header Data Found  |
 | 920220     | URL Encoding Abuse Attack Attempt                   |
 | 920240     | URL Encoding Abuse Attack Attempt                   |
 | 920260     | Unicode Full/Half Width Abuse Attack Attempt        |
@@ -96,7 +98,7 @@ The Cross-site Scripting rule group protects against cross-site scripting attack
 
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
-| 941101     | XSS Attack Detected via libinjection.              |
+| 941101     | XSS Attack Detected via libinjection              |
 | 941110     | XSS Filter - Category 1: Script Tag Vector         |
 | 941120     | XSS Filter - Category 2: Event Handler Vector      |
 | 941140     | XSS Filter - Category 4: JavaScript URI Vector     |
