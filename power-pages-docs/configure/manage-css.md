@@ -4,7 +4,7 @@ description: Learn how to upload CSS files in the design studio
 author: ankitavish
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/16/2022
+ms.date: 09/20/2022
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: ndoelman
@@ -60,7 +60,7 @@ To upload your custom CSS file, select **Upload** and choose your custom CSS fil
 
 ## More options
 
-Select the **...** (ellipse) to right of the custom CSS file, where you can move the file higher or lower in precedence as well as disable the custom CSS file.
+Select the **...** (ellipse) to right of the custom CSS file, where you can move the file higher or lower in precedence and disable the custom CSS file.
 
 > [!NOTE]
 > CSS files listed at bottom take higher precedence, meaning that if two files contain an update the same property, the update contained in the file lower in the list will be applied.
@@ -69,7 +69,7 @@ Select the **...** (ellipse) to right of the custom CSS file, where you can move
 
 ## Architecture
 
-Any custom CSS file is at lower priority then the default *portalbasictheme.css* and higher than *theme.css*. This is to encourage customizing styles using style panel for out of box styling options.
+Any custom CSS file is at lower priority than the default *portalbasictheme.css* and higher than *theme.css*. This prioritization is to encourage customizing styles using style panel for out of box styling options.
 
 > [!NOTE]
 > We recommend custom CSS should be used to format only styles which aren't provided out of box in style pane.
