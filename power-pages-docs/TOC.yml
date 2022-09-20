@@ -142,7 +142,7 @@
       href: security/table-permissions.md
     - name: Assign table permissions
       href: security/assign-table-permissions.md
-    - name: Web Application Firewall for Power Pages
+    - name: Web Application Firewall
       items:
         - name: Web Application Firewall
           href: security/web-application-firewall.md
