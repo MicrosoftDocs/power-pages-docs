@@ -29,7 +29,7 @@ When you upload a new custom CSS file, it will be available as a web file in the
 > [!NOTE]
 > Power Pages sites use Bootstrap 3.3.x. Site developers should not replace Bootstrap 3 with other CSS libraries as some of the scenarios in Power Pages are dependent on Bootstrap 3.3.x. For more information, see [Understanding Bootstrap framework](#understanding-bootstrap-framework) and [Customize Bootstrap](#customize-bootstrap) sections in this article.
 
-## Manage custom CSS files in the Styling workspace:
+## Manage custom CSS files in the Styling workspace
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
