@@ -145,11 +145,11 @@
     - name: Web Application Firewall for Power Pages
       items:
         - name: Web Application Firewall
-        - href: security/web-application-firewall.md
+          href: security/web-application-firewall.md
         - name: Configure Web Application Firewall
-        - href: security/configure-web-application-firewall.md
+          href: security/configure-web-application-firewall.md
         - name: Web Application Firewall rule groups
-        - href: security/web-application-firewall-rule-groups.md      
+          href: security/web-application-firewall-rule-groups.md      
 - name: Go live 
   items: 
     - name: Go live checklist
