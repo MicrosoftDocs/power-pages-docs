@@ -51,23 +51,49 @@ Managing page permissions with the Portals Management app is accomplished by set
 
 Let's review the different options for managing permissions for a page.
 
+### Anyone can see this page
 
-|Option|Description  |
-|---------|---------|
-|Page available to anyone|A page with **Page available to anyone** selected is public on the web and available to anyone. This option is available on the root page of a website, or a child page that has the parent page with this option set to **On**.<br /><br />When **Page available to everyone** is **Off**, a lock icon appears next to it in the list of pages to signify that the page has restrictions.
-|Anonymous Users role|Any role with the **Anonymous users role** set to **Yes** is excluded from the list of roles that you can select for restricting access to a page.<br /><br />When using this permission setting in the Portals Management app, an alert may appear.<br /><br />More information: [Anonymous users role alert](#anonymous-users-role-alert)|
-|Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.<br /><br />Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page.  If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously.<br /><br />When **Permissions apply to child files** is set to **Off**, everyone can access the child web files of the selected page.<br /><br />More information: [Permissions apply to child files troubleshooting](#permissions-apply-to-child-files-troubleshooting)|
-|Restriction in page hierarchy|| 
+When this setting is selected, the page is public on the web and available to anyone.
 
-### Child page permissions
+This option is available on the root page of a website, or a child page that has the parent page with this setting selected.
+
+You must disable this setting to make the page available for only specific roles.<br /><br />When this option is not selected, a lock icon appears next to it in the list of pages to signify that the page has restrictions.
+
+### I want to choose who can see this page
+
+When this option is selected, you can choose who has access the page by selecting the roles from the dropdown menu.
+
+When you select the Anonymous Users role in the Portals Management app, an alert may appear.
+
+More information: [Anonymous users role alert](#anonymous-users-role-alert)
+
+### Apply these permissions to all files inherited by this page
+
+When this setting is selected, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.
+
+> [!CAUTION]
+> This setting cannot be selected for the home page of a site. Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page.  If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously.<br />More information: [Permissions apply to child files troubleshooting](#permissions-apply-to-child-files-troubleshooting)
+
+## Child page permissions
 
 A child page can inherit permissions from the parent page, or it can be configured with unique permissions.  Let's review the different options for managing permissions for child pages.
 
-|Option|Description|
-|---------|---------|
-|Inherit permissions from a parent page|The **Inherit parent from the parent page** option for a page will display when a child page is selected that has the parent page with **Page available to everyone** set to **Off**.<br /><br />By default, every child page has **Inherit parent page permissions** set to **On**. This setting makes the child page available to all the users who can access its parent page.<br /><br />When a child page has **Inherit parent page permissions** set to **Off**, the child page—and the pages that this child page is a parent of—aren't available to the users from the selected roles for the parent page access|
-|Configure child page with unique permissions|Use this setting to select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.|
-|Permissions apply to child files|When **Permissions apply to child files** is set to **On**, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.<br /><br />When **Permissions apply to child files** is set to **Off**, everyone can access the child web files of the selected page.|
+### Inherit permissions from a parent page
+
+The **Inherit permissions from the parent page** option for a page will display when a child page is selected that has the parent page with **Anyone can see this page** is not selected. When this setting is enabled, the child page is available to all the users who can access its parent page. 
+
+> [!NOTE]
+> By default, every child page has this option selected.
+
+When this setting is not selected, the child page—and the pages that this child page is a parent of—aren't available to the users from the selected roles for the parent page.
+
+### Configure child page with unique permissions
+
+Use this setting to select specific roles that you want to allow to access this child page and the pages that this child page is a parent of.
+
+### Permissions apply to child files
+
+When this setting is selected, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When it is not selected, anyone can access the child web files of the selected page.
 
 ### Page hierarchy changes and inheritance
 
