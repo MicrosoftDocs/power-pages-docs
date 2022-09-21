@@ -4,7 +4,7 @@ description: Learn about Power Pages capabilities.
 author: sandhan
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/21/2022
+ms.date: 06/10/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
