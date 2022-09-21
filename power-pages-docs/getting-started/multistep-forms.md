@@ -4,7 +4,7 @@ description: Learn how to add multistep forms to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/24/2022
+ms.date: 09/20/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -59,9 +59,29 @@ Multistep forms allows you to create a form with multiple steps.
 
 1.  Choose **Ok**.
 
-Repeat this process for any other steps.
+1. Select **+ Add step** and repeat the process for additional steps.
 
+    > [!NOTE]
+    > By default, the first step is added in create mode and additional steps are added in edit mode.  You can change the mode for a step when adding it, or from the Step settings option in the toolbar once the step is created.  You can also enable note attachment for any step.
+
+## Preview steps
+
+You can preview all your steps in the maker studio.  To preview a step, select the step from the dropdown in the toolbar.  
+
+> [!NOTE]
+> Conditions and redirect steps are not supported in maker studio. To create or see conditions, or to redirect steps, use the Portal Management app. 
+
+## Edit progress indicator
+
+You can edit the progress indicator or form fields in-context.
+
+## Enable table permissions
+
+When you add a new form, you'll be prompted to set permission to allow users to interact with the form. 
+
+> [!NOTE]
+> Table permissions settings default to **create** and **append to**, but you'll need to assign web roles and save the settings.Child table permission for the **note (annotations)** table, which contains the attachments, will be created automatically.  
 
 ### See also
 
-[Tutorial: Add a multistep form to your page](tutorial-add-multi-step-form.md)<br>
+[Tutorial: Add a multistep form to your page](tutorial-add-multi-step-form.md)
