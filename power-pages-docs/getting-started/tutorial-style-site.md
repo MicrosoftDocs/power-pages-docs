@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Style your site
+title: "Tutorial: Style your site"
 description: Learn how to customize your Portal to match your corporate brand.
 author: nickdoelman
 ms.topic: tutorial
