@@ -1,10 +1,10 @@
 ---
-title: "Tutorial: Style your site"
+title: Tutorial: Style your site
 description: Learn how to customize your Portal to match your corporate brand.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 09/20/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -15,7 +15,7 @@ contributors:
 
 # Tutorial: Style your site 
 
-Power Pages sites can be customized to incorporate your corporate branding styles. The Style workspace allows you to set up your brand colors, fonts, and design defaults for your entire site or specific pages.
+Power Pages sites can be customized to incorporate your corporate branding styles. The Styling workspace allows you to set up your brand colors, fonts, and design defaults for your entire site or specific pages.
 
 In this tutorial, you learn how to:
 
