@@ -78,8 +78,12 @@
         href: getting-started/code-editor.md
       - name: Structure your site map
         href: getting-started/structure-site.md                    
-  - name: Use the Style Workspace
-    href: getting-started/style-site.md
+  - name: Use the Styling workspace
+    items:
+      - name: Styling workspace overview
+        href: getting-started/style-site.md
+      - name: Manage CSS files
+        href: configure/manage-css.md
   - name: Use the Data workspace
     items:
       - name: Data workspace overview
@@ -89,9 +93,17 @@
       - name: Create and modify views
         href: configure/data-workspace-views.md
       - name: Create and modify forms
-        href: configure/data-workspace-forms.md                    
+        href: configure/data-workspace-forms.md
   - name: Use Set up workspace
-    href: configure/setup-workspace.md
+    items:                          
+      - name: Set up workspace overview
+        href: configure/setup-workspace.md
+      - name: Progressive web applications
+        items:
+          - name: Overview
+            href: configure/progressive-web-apps.md
+          - name: Build progressive web applications    
+            href: configure/build-progressive-web-apps.md
 - name: Administer Power Pages
   items:   
     - name: Use the portals admin center
