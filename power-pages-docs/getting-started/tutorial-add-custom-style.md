@@ -4,7 +4,7 @@ description: Learn how to add custom CSS to your Power Pages sites.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 08/04/2022
+ms.date: 09/20/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -14,7 +14,7 @@ contributors:
 ---
 # Tutorial: Add custom CSS to your site
 
-The [style workspace](tutorial-style-site.md) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.
+The [Styling workspace](tutorial-style-site.md) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.
 
 You can create your own theme by defining a custom CSS file and uploading it to your site.  
 
