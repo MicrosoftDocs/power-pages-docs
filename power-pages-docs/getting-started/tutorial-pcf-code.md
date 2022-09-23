@@ -60,8 +60,6 @@ In this step, you'll create a new basic form in portals and then add the compone
 
 1. Select **Use a configured code component** as **Yes** 
 
-![](media/image1.png)
-
 ## Add the code component to views on list
 
 Follow these steps to enable control on entity view in Dataverse. 
@@ -109,4 +107,4 @@ The values of the properties that the code component expects need to be passed i
 {% codecomponent name: &lt;ID or name&gt; &lt;property1:value&gt; &lt;property2:value&gt; %} 
 ``
 
-More Info: [Liquid template tag for code components](https://learn.microsoft.com/en-us/power-apps/maker/portals/component-framework-liquid) 
+More Info: [Liquid template tag for code components](/power-apps/maker/portals/component-framework-liquid) 
