@@ -16,6 +16,18 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
+## Power Pages trial
+
+- If your administrator disabled the self-service sign-up, you won't be able to sign up for a trial of Power Pages. 
+
+- If your administrator disables portal creation for non-administrator–type users in your company, you won't be able to create a portal. You'll be redirected to the Power Pages home page in the default environment. You'll have to reach out to your administrator to provide you with an environment that has enough privileges for you to edit an existing site in the environment. 
+
+- If your administrator disables the creation of a trial environment for non-administrator–type users in your company, you won't be able to create an environment. However, you can still create a portal inside an existing environment in the tenant, where you have necessary minimum privileges. 
+
+- When you create a site for the first time in a new environment, you won't be able to rename the environment; however, the ability to rename the environment when it's created will be available in a future update. 
+
+- If you don't see your site created when you sign up for a Power Pages trial, the site creation may have failed due to your company's tenant being in a different region than your chosen environment. You can attempt to create another site by selecting the **Create a Site** button on the Power Pages home page.
+
 ## Pages workspace
 
 - Buttons added in portals built with the starter template can't be resized.
@@ -32,15 +44,43 @@ contributors:
 
 - Users who haven't recently updated or modified their themes may encounter difficulties setting a background color in Power Pages 2.0.  The theme will need to be recompiled to receive the latest changes. See LINK for information on how to address this issue.
 
-## Power Pages trial
+## Adjusting the background color for your Power Pages site
 
-- If your administrator disabled the self-service sign-up, you won't be able to sign up for a trial of Power Pages. 
+This known issue applies only to sites created in Power Pages prior to September 23, 2022.
 
-- If your administrator disables portal creation for non-administrator–type users in your company, you won't be able to create a portal. You'll be redirected to the Power Pages home page in the default environment. You'll have to reach out to your administrator to provide you with an environment that has enough privileges for you to edit an existing site in the environment. 
+Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings by recompiling the site.
 
-- If your administrator disables the creation of a trial environment for non-administrator–type users in your company, you won't be able to create an environment. However, you can still create a portal inside an existing environment in the tenant, where you have necessary minimum privileges. 
+### How to recompile your Power Pages site
 
-- When you create a site for the first time in a new environment, you won't be able to rename the environment; however, the ability to rename the environment when it's created will be available in a future update. 
+Makers can update and recompile their Power Pages site and adjust the background color using one of several methods.
 
-- If you don't see your site created when you sign up for a Power Pages trial, the site creation may have failed due to your company's tenant being in a different region than your chosen environment. You can attempt to create another site by selecting the **Create a Site** button on the Power Pages home page.
+#### Add a new color to the theme's palette
+
+To adjust the background color, makers can add a new color to the theme's palette using the Color Palette in the Style workspace.
+
+:::image type="content" source="media/known-issues/styling-more-colors.png" alt-text="Add a new color to the theme's palette using the Color Palette in the Style workspace.":::
+
+#### Edit a background on a section of the page
+
+To adjust the background color, makers can select the desired color while editing the background on a section in the Pages workspace.
+
+:::image type="content" source="media/known-issues/styling-fonts-title.png" alt-text="Select the desired color while editing the background on a section in the Pages workspace.":::
+
+#### Modify the theme
+
+Makers can adjust the background color by modifying the theme in the Style workspace using the following steps:
+
+1. From the Style workspace, select a different theme.
+
+2. Choose your original theme.
+
+3. Select **Save**.
+
+### Modify a theme setting
+
+Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color). To do this, choose the original value and select **Save**.
+
+
+
+
 
