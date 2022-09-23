@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/09/2022
+ms.date: 09/22/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -46,7 +46,7 @@ contributors:
 
 ## Adjusting the background color for your Power Pages site
 
-This known issue applies only to sites created in Power Pages prior to September 23, 2022.
+This known issue applies only to sites created using Power Pages prior to September 23, 2022.
 
 Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings by recompiling the site.
 
