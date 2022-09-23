@@ -4,7 +4,7 @@ description: Learn how to configure Web Application Firewall on Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/20/2022
+ms.date: 09/23/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -38,7 +38,7 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. Under **Performance & protection** card, turn on **Enable Web Application Firewall**
 
-    :::image type="content" source="media/configure-web-application-firewall/performance-and-protection.png" alt-text="The Performance and Protection card wiht the Enable Web Application Firewall toggle emphasized.":::
+:::image type="content" source="media/configure-web-application-firewall/waf-enabled.gif" alt-text="The Performance and Protection card inside design studio with the Enable Web Application Firewall toggle emphasized.":::
 
 ## Disable Web Application Firewall for Power Pages sites
 
@@ -58,3 +58,4 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. On the **Performance & Protection** card, turn off **Enable Web Application Firewall**
 
+:::image type="content" source="media/configure-web-application-firewall/waf-disabled.gif" alt-text="The Performance and Protection card inside design studio with the Enable Web Application Firewall toggle emphasized.":::
