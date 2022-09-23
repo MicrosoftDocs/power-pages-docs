@@ -12,27 +12,27 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
 ---
-# Adjusting the background color for your Power Pages site
+## Adjusting the background color for your Power Pages site
 
-Makers using Power Pages may have trouble setting a background color. The theme will need to be recompiled to address this known issue.
+Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites adhere to these standards, you'll need to update your theme settings by recompiling the site.
 
-## How to recompile your Power Pages site
+### How to recompile your Power Pages site
 
 Makers can update and recompile their Power Pages site and adjust the background color using one of several methods.
 
-### Add a new color to the theme's palette
+#### Add a new color to the theme's palette
 
 To adjust the background color, makers can add a new color to the theme's palette using the Color Palette in the Style workspace.
 
 :::image type="content" source="media/adjusting-background-color/styling-more-colors.png" alt-text="Add a new color to the theme's palette using the Color Palette in the Style workspace.":::
 
-### Edit a background on a section of the page
+#### Edit a background on a section of the page
 
 To adjust the background color, makers can select the desired color while editing the background on a section in the Pages workspace.
 
 :::image type="content" source="media/adjusting-background-color/styling-fonts-title.png" alt-text="Select the desired color while editing the background on a section in the Pages workspace.":::
 
-### Modify the theme
+#### Modify the theme
 
 Makers can adjust the background color by modifying the theme in the Style workspace using the following steps:
 
@@ -42,6 +42,6 @@ Makers can adjust the background color by modifying the theme in the Style works
 
 3. Select **Save**.
 
-### Modify a theme setting
+#### Modify a theme setting
 
 Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color). To do this, choose the original value and select **Save**.
