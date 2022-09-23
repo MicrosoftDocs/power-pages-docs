@@ -156,7 +156,7 @@
       href: security/assign-table-permissions.md
     - name: Web Application Firewall
       items:
-        - name: Web Application Firewall
+        - name: Web Application Firewall overview
           href: security/web-application-firewall.md
         - name: Configure Web Application Firewall
           href: security/configure-web-application-firewall.md
