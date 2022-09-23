@@ -65,7 +65,7 @@ Multistep forms allow you to create a form with multiple steps.
     :::image type="content" source="media/multistep-forms/preview-steps.png" alt-text="The step dropdown option in the maker studio with the Course Details step selected.":::
 
     > [!NOTE]
-    > Conditions and redirect steps are not supported in maker studio.  Go to the [Portal Management app](/power-apps/maker/poertals/configure/configure-portal) to create or view conditions and redirect steps.
+    > Conditions and redirect steps are not supported in maker studio.  Go to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal) to create or view conditions and redirect steps.
 
 
 ## Preview steps
