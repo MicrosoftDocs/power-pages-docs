@@ -4,7 +4,7 @@ description: Learn how to style your Power Pages site.
 author: rob-moyer
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/20/2022
+ms.date: 09/22/2022
 ms.subservice:
 ms.author: robmoyer 
 ms.reviewer: ndoelman
@@ -67,6 +67,9 @@ To add a new color or to change an existing color, select the plus sign (**+**) 
 :::image type="content" source="media/style-site/color-picker.png" alt-text="The color picker feature within portals.":::
 
 After a new color is added to the color palette, it can be used to color components in the context menu.
+
+> [!NOTE]
+> For sites created using Power Pages prior to September 23, 2022 there is a known issue. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
 
 ### See also
 
