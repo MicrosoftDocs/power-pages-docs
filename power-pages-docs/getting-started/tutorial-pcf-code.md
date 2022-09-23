@@ -18,9 +18,9 @@ In this tutorial, you'll learn how to:
 
 > [!div class ="checklist"] 
 > * Create a sample component using Power Apps component framework.
-> Package the component to a Dataverse environment.
-> Configure Power Pages to add the component to a web page.
-> Visit your Power Pages web page to interact with the component.
+> * Package the component to a Dataverse environment.
+> * Configure Power Pages to add the component to a web page.
+> * Visit your Power Pages web page to interact with the component.
 
 > [!NOTE] 
 > This tutorial is based on the existing Power Apps component framework tutorial that walks you through [Power Apps grid control (preview)](/power-apps/maker/model-driven-apps/the-power-apps-grid-control) component on list and sub gird on blank page. You can also use any existing or new component, add it to any other web page for this tutorial. In this case, be sure to your component and web page when following the steps in this tutorial. 
@@ -76,8 +76,6 @@ Follow these steps to enable control on entity view in Dataverse. 
 
 1. Add views under advance setting grid. 
 
-![Graphical user interface  application Description automatically generated](media/image2.png)
-
 1. Select **Use a configured code component** as **Yes** 
 
 
@@ -99,11 +97,7 @@ Follow these steps to enable control on entity view in Dataverse. 
 
 1. Select **Subgrid Name**. 
 
-    ![Graphical user interface  application Description automatically generated](media/image3.png)
-
 1. For **Control Style**, select **Code component**. 
-
-    ![Table Description automatically generated with medium confidence](media/image4.png)Page Break 
 
 ## Add dataset-based code component using liquid tag
 
