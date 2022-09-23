@@ -33,7 +33,8 @@ The customer self-service site gives customers access to self-service knowledge 
 
 :::image type="content" source="media/dynamics365-templates/customer-self-service.png" alt-text="Customer self-service template landing page.":::
 
-More information: [Manage knowledge categories](/powerapps/maker/portals/configure-knowledge-categories-articles)
+More information: 
+- [Manage knowledge categories](/powerapps/maker/portals/configure-knowledge-categories-articles)
 
 ## Partner
 
