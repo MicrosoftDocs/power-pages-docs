@@ -69,7 +69,7 @@ To add a new color or to change an existing color, select the plus sign (**+**) 
 After a new color is added to the color palette, it can be used to color components in the context menu.
 
 > [!NOTE]
-> For sites created in Power Pages prior to September 23, 2022 there is a known issue. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
+> For sites created using Power Pages prior to September 23, 2022 there is a known issue. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
 
 ### See also
 
