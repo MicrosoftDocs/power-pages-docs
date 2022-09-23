@@ -4,7 +4,7 @@ description: Learn how to secure your webpages by using page permissions.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/20/2022
+ms.date: 09/23/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -14,7 +14,7 @@ contributors:
 
 # Page permissions in Power Pages
 
-Makers control user access to site webpages using page permissions. Settings can be adjusted to make content available anonymously for public access, or to restrict access to users who have specific roles. Depending on your business requirements, you can manage the inheritance of page permissions from a parent page to a child page. A page can have child [web files](/power-apps/maker/portals/configure/web-files), such as downloadable documents, CSS files, or JS files.  The inheritance of page permissions from the page to these child web files is also variable based on the settings a maker chooses.
+Makers control user access to site webpages using page permissions. Settings can be adjusted to make content available anonymously for public access, or to restrict access to users who have specific roles. Depending on your business requirements, you can manage the inheritance of page permissions from a parent page to a child page. A page can have child [web files](../configure/advanced-config.md#web-files), such as downloadable documents, CSS files, or JS files.  The inheritance of page permissions from the page to these child web files is also variable based on the settings a maker chooses.
 
 You can manage page permissions in two ways:
 
@@ -26,7 +26,7 @@ Power Pages design studio makes configuration of webpage access permissions simp
 ## Manage page permissions in Power Pages design studio
 
 >[!IMPORTANT]
-> Managing page permissions with design studio only applies to [Restrict Read](/power-apps/maker/portals/configure/webpage-access-control#restrict-read) permissions, which control access to pages by users. To manage [Grant Change](/power-apps/maker/portals/configure/webpage-access-control#grant-change) permissions for managing and publishing content pages with the legacy site content editor, use the [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app).
+> Managing page permissions with design studio only applies to [Restrict Read](/power-apps/maker/portals/configure/webpage-access-control#restrict-read) permissions, which control access to pages by users. To manage [Grant Change](/power-apps/maker/portals/configure/webpage-access-control#grant-change) permissions for managing and publishing content pages with the legacy site content editor, use the [Portal Management app](../configure/portal-management-app.md).
 
 Use design studio to customize your site and manage page permissions quickly and efficiently.
 
@@ -45,7 +45,7 @@ Use design studio to customize your site and manage page permissions quickly and
 
 ## Manage page permissions in the Portals Management app
 
-Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these rules using design studio, the Portals Management app must be used to manage page permissions for other areas.  More information: [Portals Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-using-portal-management-app) 
+Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these rules using design studio, the Portals Management app must be used to manage page permissions for other areas.  More information: [Portal Management app](../configure/portal-management-app.md) 
 
 ## Setting options for page permissions
 
@@ -69,7 +69,7 @@ More information: [Anonymous users role alert](#anonymous-users-role-alert)
 
 ### Apply these permissions to all files inherited by this page
 
-When this setting is selected, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage.
+When this setting is selected, the child [web files](../configure/advanced-config.md#web-files) of that page are only available to the users who can access this webpage.
 
 > [!CAUTION]
 > This setting cannot be selected for the home page of a site. Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page.  If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously.<br />More information: [Permissions apply to child files troubleshooting](#permissions-apply-to-child-files-troubleshooting)
@@ -93,7 +93,7 @@ Use this setting to select specific roles that you want to allow to access this 
 
 ### Permissions apply to child files
 
-When this setting is selected, the child [web files](/power-apps/maker/portals/configure/web-files) of that page are only available to the users who can access this webpage. When it is not selected, anyone can access the child web files of the selected page.
+When this setting is selected, the child [web files](../configure/advanced-config.md#web-files) of that page are only available to the users who can access this webpage. When it is not selected, anyone can access the child web files of the selected page.
 
 ### Page hierarchy changes and inheritance
 
