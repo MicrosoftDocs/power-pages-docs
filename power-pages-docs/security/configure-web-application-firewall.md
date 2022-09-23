@@ -58,4 +58,4 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. On the **Performance & Protection** card, turn off **Enable Web Application Firewall**
 
-:::image type="content" source="media/configure-web-application-firewall/waf-disabled.gif" alt-text="The Performance and Protection card inside design studio with the Enable Web Application Firewall toggle disabled.":::
+:::image type="content" source="media/configure-web-application-firewall/waf-disabled.gif" alt-text="The Enable Web Application Firewall toggle disabled inside design studio.":::
