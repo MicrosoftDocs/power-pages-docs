@@ -48,8 +48,8 @@ The new Power Pages design studio has new capabilities that aren't available in 
 - [Buttons](../getting-started/add-button.md)
 - [Spacers](../getting-started/add-spacer.md)
 - [Text](../getting-started/add-text.md)
-- [Images](../getting-started/add-image)
-- [Basic forms](../getting-started/add-form)
+- [Images](../getting-started/add-image.md)
+- [Basic forms](../getting-started/add-form.md)
 - [Multistep forms](../getting-started/multistep-forms.md)
 
 New themes and styling options introduced in the [Styling workspace](../getting-started/style-site.md) of the Power Pages design studio can't be customized using the [themes editor](/power-apps/maker/portals/theme-overview) in the Power Apps portals Studio. 
