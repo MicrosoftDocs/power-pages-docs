@@ -19,7 +19,7 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-Multistep forms allows you to create a form with multiple steps.
+Multistep forms allow you to create a form with multiple steps.
 
 > [!NOTE]
 > - Multistep forms were formerly called advanced forms.
@@ -59,28 +59,44 @@ Multistep forms allows you to create a form with multiple steps.
 
 1.  Choose **Ok**.
 
-1. Select **+ Add step** and repeat the process for additional steps.
+1. Add more steps by selecting **+ Add step** from the toolbar. 
+
+    :::image type="content" source="media/multistep-forms/preview-steps.png" alt-text="The step dropdown option in the maker studio with the Course Details step selected.":::
 
     > [!NOTE]
-    > By default, the first step is added in create mode and additional steps are added in edit mode.  You can change the mode for a step when adding it, or from the Step settings option in the toolbar once the step is created.  You can also enable note attachment for any step.
+    > Conditions and redirect steps are not supported in maker studio.  Go to the [Portal Management app](/maker/poertals/configure/configure-portal) to create or view conditions and redirect steps.
+
 
 ## Preview steps
 
-You can preview all your steps in the maker studio.  To preview a step, select the step from the dropdown in the toolbar.  
+You can preview all steps inside the maker studio by selecting the step from the step dropdown in the toolbar.
 
-> [!NOTE]
-> Conditions and redirect steps are not supported in maker studio. To create or see conditions, or to redirect steps, use the Portal Management app. 
+## Step mode
+
+You can change the mode for a step when adding it, or from the Step settings option in the toolbar once the step is created.
+
+> [!NOTE] 
+> By default, the first step is added in create mode and additional steps are added in edit mode.
+
+## Enable note attachment
+
+You can enable note attachment for any step.  From **Step settings** choose **Attachments** and activate the **Enable attachments** toggle.
+
+:::image type="content" source="media/multistep-forms/enable-attachments.png" alt-text="The Add step menu options with Enable attachments selected from the Attachments options.":::
 
 ## Edit progress indicator
 
-You can edit the progress indicator or form fields in-context.
+Select Edit indicator to modify the progress indicator.
+
+:::image type="content" source="media/multistep-forms/progress-indicator.png" alt-text="The Edit progress indicator window inside the maker studio.":::
 
 ## Enable table permissions
 
 When you add a new form, you'll be prompted to set permission to allow users to interact with the form. 
 
-> [!NOTE]
-> Table permissions settings default to **create** and **append to**, but you'll need to assign web roles and save the settings.Child table permission for the **note (annotations)** table, which contains the attachments, will be created automatically.  
+:::image type="content" source="media/multistep-forms/table-permissions.png" alt-text="The new table permissions options inside the maker studio.":::
+
+Table permissions settings default to **create** and **append to**, but you'll need to assign web roles and save the settings. Child table permission for the **note (annotations)** table, which contains the attachments, will be created automatically.  
 
 ### See also
 
