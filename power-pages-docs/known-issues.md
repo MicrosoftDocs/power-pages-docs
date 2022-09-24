@@ -32,7 +32,7 @@ contributors:
 
 - Buttons added in portals built with the starter template can't be resized.
 
-- You can't add a deleted header logo or text in the new design studio.  If you need to delete these items, you'll need to do so in Portal 1.0.  Use the toggle in the command bar to return to Portal 1.0 and use the code editor to add the text or logo.
+- You can't add a deleted header logo or text in the new design studio.  If you need to delete these items, you'll need to do so using Power Apps portals Studio.  Use the toggle in the command bar to return to Power Apps portals Studio, and use the code editor to add the text or logo.
 
 - The code editor doesn't support editing header or footer code.
 
@@ -41,8 +41,6 @@ contributors:
 - Power Pages doesn't support Google Fonts due to privacy concerns.
 
 - The section padding/margin settings feature in the Style workspace won't work for portals built on starter templates.
-
-- Users who haven't recently updated or modified their themes may encounter difficulties setting a background color in Power Pages 2.0.  The theme will need to be recompiled to receive the latest changes. See LINK for information on how to address this issue.
 
 ## Adjusting the background color for your Power Pages site
 
