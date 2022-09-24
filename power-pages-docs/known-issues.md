@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/22/2022
+ms.date: 09/23/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -32,7 +32,7 @@ contributors:
 
 - Buttons added in portals built with the starter template can't be resized.
 
-- You can't add a deleted header logo or text in the new design studio.  If you need to delete these items, you'll need to do so using Power Apps portals Studio.  Use the toggle in the command bar to return to Power Apps portals Studio, and use the code editor to add the text or logo.
+- You can't add a deleted header logo or text in the new design studio.  If you need to delete these items, you'll need to do so using Power Apps portals Studio. Use the toggle in the command bar to return to Power Apps portals Studio, and use the code editor to add the text or logo.
 
 - The code editor doesn't support editing header or footer code.
 
