@@ -5,7 +5,7 @@ author: ankitavish
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/22/2022
+ms.date: 09/26/2022
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: ndoelman
@@ -26,7 +26,7 @@ There are two experiences for editing Power Pages and Power Apps portals sites.
 - The new [Power Pages design studio](../getting-started/create-manage.md).
 - The legacy [Power Apps portals Studio](/power-apps/maker/portals/portal-designer-anatomy). 
 
-From the Power Pages home page, you can open sites in design studio [created using Power Pages](../getting-started/create-manage.md) and sites [created using Power Apps](/power-apps/maker/portals/create-portal.md). 
+From the Power Pages home page, you can open sites in design studio [created using Power Pages](../getting-started/create-manage.md) and sites [created using Power Apps](/power-apps/maker/portals/create-portal). 
 
 In Power Apps, you'll only be able to open sites created using Power Apps in the portals Studio. Any sites created in Power Pages will open in the new Power Pages design studio.
 
@@ -38,7 +38,7 @@ The Power Apps portals Studio has the following features that aren't part of the
 - [Power Virtual Agent chat bot configuration](/power-apps/maker/portals/add-chatbot) 
 - [Breadcrumbs](/power-apps/maker/portals/add-breadcrumb)
 - [Custom menus](/power-apps/maker/portals/add-custom-menu)
-- [Content snippet editing](/power-apps/maker/portals/customize-component-snippets)
+- [Content snippet editing](/power-apps/maker/portals/configure/customize-content-snippets)
 
 ## Components added in design studio
 
