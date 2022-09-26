@@ -42,9 +42,11 @@ Multistep forms allow you to create a form with multiple steps.
 
     :::image type="content" source="media/multistep-forms/add-multistep-form.png" alt-text="Add a multistep form.":::
 
-    - Continue with prepopulated name or give it a name of your choice
+    - Continue with pre-populated name or give it a name of your choice
     
     :::image type="content" source="media/multistep-forms/multistep-form-setup.png" alt-text="Setup menu for multistep form.":::
+
+    
 
 1. Select **+ Add the first step** or **+ Add step**.
 
@@ -62,15 +64,17 @@ Multistep forms allow you to create a form with multiple steps.
 
 1. Add more steps by selecting **+ Add step** from the toolbar. 
 
-    :::image type="content" source="media/multistep-forms/preview-steps.png" alt-text="The step dropdown option in the maker studio with the Course Details step selected.":::
+    :::image type="content" source="media/multistep-forms/add-more-steps.png" alt-text="Add more steps to the multistep-form..":::
 
     > [!NOTE]
-    > Conditions and redirect steps are not supported in maker studio.  Go to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal) to create or view conditions and redirect steps.
+    > Conditions and redirect steps are not supported in maker studio. Go to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal) to create or view conditions and redirect steps.
 
 
 ## Preview steps
 
 You can preview all steps inside the maker studio by selecting the step from the step dropdown in the toolbar.
+
+:::image type="content" source="media/multistep-forms/preview-steps.png" alt-text="The step dropdown option in the maker studio with the Course Details step selected.":::
 
 ## Step mode
 
@@ -79,13 +83,17 @@ You can change the mode for a step when adding it, or from the Step settings opt
 > [!NOTE] 
 > By default, the first step is added in create mode and additional steps are added in edit mode.
 
-## Enable note attachment
+## Enable notes attachment
 
-You can enable note attachment for any step.  From **Step settings** choose **Attachments** and activate the **Enable attachments** toggle.
+You can enable notes attachment for any step. To enable notes attachment, go to **Step settings** > **Attachments** > select **Enable attachments**.
 
 :::image type="content" source="media/multistep-forms/enable-attachments.png" alt-text="The Add step menu options with Enable attachments selected from the Attachments options.":::
 
-## Edit progress indicator
+## Progress indicator
+
+A progress indicator shows you the step that you're currently on within a multistep form. You can change the progress indicator type and position.
+
+
 
 Select Edit indicator to modify the progress indicator.
 
