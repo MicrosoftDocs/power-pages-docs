@@ -28,7 +28,7 @@ There are two experiences for editing Power Pages and Power Apps portals sites.
 
 From the Power Pages home page, you can open sites in design studio [created using Power Pages](../getting-started/create-manage.md) and sites [created using Power Apps](/power-apps/maker/portals/create-portal). 
 
-In Power Apps, you'll only be able to open sites created using Power Apps in the portals Studio. Any sites created in Power Pages will open in the new Power Pages design studio.
+You can only open sites created using Power Apps using portals Studio. Sites created using Power Pages by default open in Power Pages design studio.
 
 ## Features not available in the Power Pages design studio
 
@@ -42,7 +42,7 @@ The Power Apps portals Studio has the following features that aren't part of the
 
 ## Components added in design studio
 
-The new Power Pages design studio has new capabilities that aren't available in the Power Apps portal Studio. If you customize a site in the Power Pages design studio and open the site in Power Apps portal Studio, the following components won't be configurable:  
+Power Pages design studio has new capabilities that aren't available in the Power Apps portals Studio. If you customize a site in the Power Pages design studio and open the site in Power Apps portals Studio, the following components won't be configurable:  
 
 - [Videos](../getting-started/add-video.md) 
 - [Buttons](../getting-started/add-button.md)
@@ -52,4 +52,7 @@ The new Power Pages design studio has new capabilities that aren't available in 
 - [Basic forms](../getting-started/add-form.md)
 - [Multistep forms](../getting-started/multistep-forms.md)
 
-New themes and styling options introduced in the [Styling workspace](../getting-started/style-site.md) of the Power Pages design studio can't be customized using the [themes editor](/power-apps/maker/portals/theme-overview) in the Power Apps portals Studio. 
+> [!TIP]
+> When customizing sites created through Power Pages, we recommend that you use Power Pages design studio instead of Power Apps portals Studio.
+
+New themes and styling options introduced in the [Styling workspace](../getting-started/style-site.md) of the Power Pages design studio can't be customized using the [themes editor](/power-apps/maker/portals/theme-overview) in the Power Apps portals Studio.
