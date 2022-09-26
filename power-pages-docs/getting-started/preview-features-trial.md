@@ -18,11 +18,11 @@ contributors:
 
 This article lists the upcoming preview features that will be enabled by default in your Power Pages trial. Review the information in this page to understand what's coming up.
 
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
 The following preview feature will be automatically enabled in your trial app when they become available:
+
+> [!IMPORTANT]
+> - Features listed in this article are preview features.
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 ## Visual Studio Code for Web to edit Power Pages websites
 
