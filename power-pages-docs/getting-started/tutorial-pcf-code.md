@@ -114,7 +114,7 @@ Data set based code components can be added using the `codecomponent` Liquid
 The values of the properties that the code component expects need to be passed in as a key/value pair separated by "**:**" (colon sign), where the key is the property name and the value is the JSON string value. 
 
 ```json
-{% codecomponent name: &lt;ID or name&gt; &lt;property1:value&gt; &lt;property2:value&gt; %}
+{% codecomponent name: <ID or name> <property1:value> <property2:value> %}
 ```
 
 For more information, see [Liquid template tag for code components](/power-apps/maker/portals/component-framework-liquid).
