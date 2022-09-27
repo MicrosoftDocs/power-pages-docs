@@ -71,7 +71,7 @@ As a Government permit administrator, you can:
 
 ## Makers
 
-Makers are able to use the design studio to modify the template for specific needs.
+Makers are able to use the [design studio](../getting-started/use-design-studio.md) to modify the template for specific needs.
 
 The following are the pages, basic forms, and customizable tables provided in the template. These components can be modified to align with your specific project needs.
 
