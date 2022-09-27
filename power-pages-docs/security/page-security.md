@@ -19,9 +19,9 @@ Makers control user access to site webpages using page permissions. Settings can
 You can manage page permissions in two ways:
 
 - In Power Pages design studio
-- In the Portals Management app
+- In the Portal Management app
 
-Power Pages design studio makes configuration of webpage access permissions simpler than the Portals Management app. For this reason, it's the recommended method for managing page permissions in Power Pages. 
+Power Pages design studio makes configuration of webpage access permissions simpler than the Portal Management app. For this reason, we recommended this method for managing page permissions in Power Pages.
 
 ## Manage page permissions in Power Pages design studio
 
@@ -43,49 +43,48 @@ Use design studio to customize your site and manage page permissions quickly and
 >[!NOTE]
 > The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page. Review the options for page permissions and options for child page permissions.
 
-## Manage page permissions in the Portals Management app
+## Manage page permissions in the Portal Management app
 
-Managing page permissions with the Portals Management app is accomplished by setting *webpage access control rules*. You can also set these rules using design studio, the Portals Management app must be used to manage page permissions for other areas.  More information: [Portal Management app](../configure/portal-management-app.md) 
+Managing page permissions with the Portal Management app is accomplished by setting webpage access control rules. You can also set these rules using design studio, the Portal Management app must be used to manage page permissions for other areas.  More information: [Manage page permissions with the Portal Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-with-the-portal-management-app) 
 
 ## Setting options for page permissions
 
-Let's review the different options for managing permissions for a page.
+In this section, you'll learn about the different options for managing permissions for a page.
 
 ### Anyone can see this page
 
-When this setting is selected, the page is public on the web and available to anyone.
+This option is available on the root page of a website, or a child page that has the parent page with this setting selected. You must disable this setting to make the page available for only specific roles.
 
-This option is available on the root page of a website, or a child page that has the parent page with this setting selected.
+When this option is selected, the page is public on the web and available to anyone.  
 
-You must disable this setting to make the page available for only specific roles.<br /><br />When this option is not selected, a lock icon appears next to it in the list of pages to signify that the page has restrictions.
+When this option is not selected, a lock icon appears next to it in the list of pages to signify that the page has restrictions.
 
 ### I want to choose who can see this page
 
 When this option is selected, you can choose who has access the page by selecting the roles from the dropdown menu.
 
-When you select the Anonymous Users role in the Portals Management app, an alert may appear.
-
-More information: [Anonymous users role alert](#anonymous-users-role-alert)
+> [!NOTE]
+> Selecting **Anonymous Users** role using the Portal Management app will result in an alert. More information: [Anonymous users role alert](#anonymous-users-role-alert)
 
 ### Apply these permissions to all files inherited by this page
 
-When this setting is selected, the child [web files](../configure/advanced-config.md#web-files) of that page are only available to the users who can access this webpage.
+When this option is selected, the child [web files](../configure/advanced-config.md#web-files) of that page are only available to the users who can access this webpage.
 
 > [!CAUTION]
-> This setting cannot be selected for the home page of a site. Web files such as Bootstrap.min.css and Theme.css used by themes are under the home page.  If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously.<br />More information: [Permissions apply to child files troubleshooting](#permissions-apply-to-child-files-troubleshooting)
+> This setting can't be selected for the home page of a site. Web files such as `Bootstrap.min.css` and `Theme.css` used by themes are under the home page. If you restrict these files to only authenticated users, styles won't be applied to any pages, including the sign-in pages that are available anonymously. More information: [Permissions apply to child files troubleshooting](#permissions-apply-to-child-files-troubleshooting)
 
 ## Child page permissions
 
-A child page can inherit permissions from the parent page, or it can be configured with unique permissions.  Let's review the different options for managing permissions for child pages.
+A child page can inherit permissions from the parent page, or it can be configured with unique permissions. In this section, you'll learn about the different options for managing permissions for child pages.
 
 ### Inherit permissions from a parent page
 
-The **Inherit permissions from the parent page** option for a page will display when a child page is selected that has the parent page with **Anyone can see this page** is not selected. When this setting is enabled, the child page is available to all the users who can access its parent page. 
+The **Inherit permissions from the parent page** option for a page will display when a child page is selected that has the parent page with **Anyone can see this page** is not selected. When this setting is enabled, the child page is available to all the users who can access its parent page.
 
 > [!NOTE]
 > By default, every child page has this option selected.
 
-When this setting is not selected, the child page—and the pages that this child page is a parent of—aren't available to the users from the selected roles for the parent page.
+When this option is not selected, the child page (including the pages that this child page is a parent of) aren't available to the users from the selected roles for the parent page.
 
 ### Configure child page with unique permissions
 
@@ -93,54 +92,54 @@ Use this setting to select specific roles that you want to allow to access this 
 
 ### Permissions apply to child files
 
-When this setting is selected, the child [web files](../configure/advanced-config.md#web-files) of that page are only available to the users who can access this webpage. When it is not selected, anyone can access the child web files of the selected page.
+When this option is selected, the child [web files](../configure/advanced-config.md#web-files) of that page are only available to the users who can access this webpage.
+
+When this option is not selected, anyone can access the child web files of the selected page.
 
 ### Page hierarchy changes and inheritance
 
 A page can be promoted to a higher level in the page hierarchy, or made a subpage to a lower level in page hierarchy. The effects these actions have on permissions are as follows:
 
 - If a page is made a subpage, the page inherits permissions from its new parent. 
-
 - If a page is promoted, the original permissions of the page are retained.
 
 ## Troubleshooting page permissions
 
-Makers may encounter difficulties based on the permissions they select due to the unforeseen effects of their choices.  Let's review some of these commonly encountered difficulties.
+Makers may encounter difficulties based on the permissions they select due to the unforeseen effects of their choices.  In this section, you'll learn about these commonly encountered difficulties.
 
 ### Anonymous users role alert
 
-If the Portals Management app was used to configure this role for the selected page, an alert is shown for the applicable role when you manage the page permissions. 
+If you use the Portal Management app to configure **Anonymous users** role for the selected page, you'll see the following alert:
 
-IMAGE GOES HERE
+"Anonymous user role should not be assigned directly to web pages."
 
-If this alert appears, change the permissions. Roles with **Anonymous Users Role** set to **Yes** can't be assigned directly to users.
+To fix this problem, change the permissions.
+
+> [!NOTE]
+> Roles with **Anonymous Users Role** set to **Yes** can't be assigned directly to users.
 
 ### Multiple page permissions error message
 
-If multiple permissions are active for same page in the Portal Management app, makers will see the following error. 
+If you have multiple active permissions for the same page in the Portal Management app, you'll see the following error:
 
-IMAGE GOES HERE
+"There are multiple, conflicting access control rules applied to this page. Deactivate the extra rules so there is only one with restricted read-write access."
 
-You can fix this error by deactivating the permissions not required for the page and keeping only one active permission for one webpage.
+To fix this error, deactivate the permissions not required for the page so that only one permission is active for one webpage.
 
 ### Permissions apply to child files troubleshooting
 
-Makers may encounter one of several difficulties when working with the **Permissions apply to child files** setting. Let's review these specific difficulties.
+In this section, you'll learn about common problems related to using the **Permissions apply to child files** setting.
 
-#### Error message
+#### Child page not inheriting permissions from parent page
 
-When **Permissions apply to child files** is changed so that child permission no longer inherits it from parent, makers will see the following error with invalid web roles highlighted. 
+If you change **Permissions apply to child files** so that the child permissions no longer inherit from their parents, you'll see the following error with invalid web roles highlighted:
 
-IMAGE GOES HERE
+"One or more roles applied to this page are not used for the parent page. This page and its subpages won't be available to those roles. Either add those roles to the parent page or delete them from this page."
 
-You can use this information to adjust your permissions and resolve the error. 
+To fix this problem, verify and reconfigure your permissions as required.
 
 #### Styles not applied after adjusting page permissions
 
 Ensure that **Permissions apply to child files** is set to **Off** for the home page of the site so that styles remain intact.
 
-IMAGE GOES HERE
-
-
-
-
+:::image type="content" source="media/page-security/inherit-permissions.png" alt-text="Inherit permissions to webfiles.":::
