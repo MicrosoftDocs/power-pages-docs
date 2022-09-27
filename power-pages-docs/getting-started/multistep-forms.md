@@ -17,9 +17,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
-
-Multistep forms allow you to create a form with multiple steps. Use multistep form when you want to collect user input through multiple forms that use different components.
+While you can use a [form](add-form.md) to collect data in Power Pages sites, a **multistep form** allows you to create a form with multiple steps. Use multistep form when you want to collect user input through multiple forms that use different components.
 
 > [!NOTE]
 > - Multistep forms were called advanced forms earlier.
