@@ -29,7 +29,7 @@ In this tutorial, you'll learn how to:
 
 ## Prerequisites
 
-- Portal version 9.4.9.xx or higher. 
+- Portal version [9.4.9.xx](/power-platform/released-versions/portals/portalupdate949x) or higher. 
 - Dataverse Base Portal package 9.3.2209.x or higher. 
 
 ## Step 1 - Create your first component
