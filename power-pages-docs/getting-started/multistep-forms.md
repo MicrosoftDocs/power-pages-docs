@@ -70,9 +70,9 @@ Multistep forms allow you to create a form with multiple steps. Use multistep fo
     |     Attachments       |     Configure attachments for the step. More   information: [Enable attachments](#enable-attachments)                             |
     |     More options      |     Allows you to [change step mode](#change-step-mode), enable or disable back button, and launch the Portal Management app from here for more settings. More information: [Configure more options](#configure-more-options)                  |
     
-        > [!TIP]
-        > If you want to create a new table or a new form, use [Data workspace](use-data-workspace.md).
-
+    > [!TIP]
+    > If you want to create a new table or a new form, use [Data workspace](use-data-workspace.md).
+    
 1. Select **Ok**.
 
 1. Add more steps by selecting **+ Add step** from the toolbar. 
