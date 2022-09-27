@@ -1,10 +1,10 @@
 ﻿---
-title: "Tutorial: Add dataset-based code components"
+title: "Tutorial: Use dataset code components for sub grid and list"
 description: Learn how to add dataset-based code components to your Power Pages site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 09/23/2022
+ms.date: 09/26/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -14,43 +14,40 @@ contributors:
 ---
 # Tutorial: Use dataset code components for sub grid and list
 
-In this tutorial, you'll create a sample component using Power Apps component framework.  Power Apps component framework empowers professional developers and app makers to crate code components for model-driven and canvas aps.  These code components can provide an enhanced experience for users working with data on forms, views,and dashboards. 
-More information: [Use code components in portals](/power-apps/maker/portals/component-framework)
+In this tutorial, you'll create a sample component using Power Apps component framework.  Power Apps component framework empowers professional developers and app makers to crate code components for model-driven and canvas aps.  These code components can provide an enhanced experience for users working with data on forms, views, and dashboards. More information: [Use code components in portals](/power-apps/maker/portals/component-framework)
 
-> [!NOTE] 
+> [!NOTE]
 > This tutorial is based on the existing Power Apps component framework tutorial that walks you through [Power Apps grid control (preview)](/power-apps/maker/model-driven-apps/the-power-apps-grid-control) component on list and sub gird on blank page. You can also use any existing or new component, add it to any other web page for this tutorial. In this case, be sure to your component and web page when following the steps in this tutorial. To learn which code components are supported in portals, see [Use code components in portals](/powerapps/maker/portals/component-framework). 
 
 In this tutorial, you'll learn how to:
 
 > [!div class ="checklist"] 
-> * Create a sample component using Power Apps component framework.
-> * Package the component to a Dataverse environment.
-> * Configure Power Pages to add the component to a web page.
-> * Visit your Power Pages web page to interact with the component.
-
+> * Create a sample component using Power Apps component framework
+> * Package the component to a Microsoft Dataverse environment
+> * Configure Power Pages to add the component to a web page
+> * Visit your Power Pages web page to interact with the component
 
 ## Prerequisites
 
 - Portal version 9.4.9.xx or higher. 
 - Dataverse Base Portal package 9.3.2209.x or higher. 
 
-
-## Create your first component
+## Step 1 - Create your first component
 
 Complete the [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript) tutorial.
 
 > [!NOTE] 
 > At the end of the [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript), you'll have a component named TSLinearInputComponent packaged and uploaded to your Dataverse environment.
 
-## Add the code component to views or subgrids in a model-driven app
+## Step 2 - Add the code component to views or subgrids in a model-driven app
 
 To add your component to the **Account** table, views and subgrids, follow the steps here [Convert views and subgrids into editable grids (preview)](/power-apps/maker/model-driven-apps/the-power-apps-grid-control) 
 
-## Add code component to a list and subgrid in portal
+## Step 3 - Add code component to a list and subgrid in portal
 
 In this step, you'll create a new basic form in portals and then add the component to the created basic form. You can also use an existing basic form instead. 
 
-### Add the code component to lists
+### Step 3.1 - Add the code component to lists
 
 1. Open the [Portal Management app](../configure/portal-management-app.md).
 
@@ -66,7 +63,9 @@ In this step, you'll create a new basic form in portals and then add the compone
 
 1. Select **Use a configured code component** as **Yes** 
 
-## Add the code component to views on list
+    :::image type="content" source="media/tutorial-pcf-code/configured-code-component.png" alt-text="Use a configured code component.":::
+
+### Step 3.2 - Add the code component to views on list
 
 Follow these steps to enable control on entity view in Dataverse. 
 
@@ -80,10 +79,11 @@ Follow these steps to enable control on entity view in Dataverse. 
 
 1. Add views under advance setting grid. 
 
+    :::image type="content" source="media/tutorial-pcf-code/add-views.png" alt-text="Add views in advanced settings grid.":::
+
 1. Select **Use a configured code component** as **Yes** 
 
-
-## Add the code component to sub grid 
+### Step 3.3 - Add the code component to sub grid 
 
 1. Open the [Portal Management app](../configure/portal-management-app.md).
 
@@ -101,16 +101,24 @@ Follow these steps to enable control on entity view in Dataverse. 
 
 1. Select **Subgrid Name**. 
 
+    :::image type="content" source="media/tutorial-pcf-code/add-component-subgrid.png" alt-text="Add code component to subgrid.":::
+
 1. For **Control Style**, select **Code component**. 
+
+    :::image type="content" source="media/tutorial-pcf-code/control-style.png" alt-text="Select Control style.":::
 
 ## Add dataset-based code component using liquid tag
 
-Data set based code components can be added using the codecomponent Liquid template tag. The key for denoting the code component that needs to be loaded is passed in using the name attribute. The key can be the GUID (which is the code component ID) or the name of the code component imported into Microsoft Dataverse. 
+Data set based code components can be added using the `codecomponent` Liquid template tag. The key for denoting the code component that needs to be loaded is passed in using the name attribute. The key can be the GUID (which is the code component ID) or the name of the code component imported into Microsoft Dataverse. 
 
 The values of the properties that the code component expects need to be passed in as a key/value pair separated by "**:**" (colon sign), where the key is the property name and the value is the JSON string value. 
 
- ``
-{% codecomponent name: &lt;ID or name&gt; &lt;property1:value&gt; &lt;property2:value&gt; %} 
-``
+```json
+{% codecomponent name: &lt;ID or name&gt; &lt;property1:value&gt; &lt;property2:value&gt; %}
+```
 
-More Info: [Liquid template tag for code components](/power-apps/maker/portals/component-framework-liquid) 
+For more information, see [Liquid template tag for code components](/power-apps/maker/portals/component-framework-liquid).
+
+### See also
+
+[Use code components in Power Pages](/power-apps/maker/portals/component-framework)
