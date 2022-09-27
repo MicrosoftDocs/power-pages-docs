@@ -119,7 +119,7 @@ You can change the mode for a step when adding it, or from the **Step settings**
 
 > [!NOTE]
 > - By default, the first step is added in create mode and additional steps are added in edit mode.
-> - Multiple steps within a single multistep form can have different step modes.
+> - Different steps within a single multistep form can have different step modes.
 
 ### Display back button
 
