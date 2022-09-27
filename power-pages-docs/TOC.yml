@@ -26,12 +26,14 @@
       items:  
         - name: Create sites using templates
           href: templates/index.md
-        - name: Default template
-          href: templates/default-template.md
+        - name: Site design templates
+          href: templates/site-design.md
         - name: After School template
           href: templates/after-school.md
         - name: Book a Meeting template
-          href: templates/book-a-meeting.md      
+          href: templates/book-a-meeting.md 
+        - name: Blank template
+          href: templates/blank.md     
     - name: Manage sites
       href: admin/manage-sites.md           
     - name: Learning hub

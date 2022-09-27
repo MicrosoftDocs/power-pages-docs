@@ -4,7 +4,7 @@ description: Learn the features of Power Pages templates.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/08/2022
+ms.date: 09/28/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -15,24 +15,30 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a default template to build your site or you can choose scenario-based templates to accelerate creating your site.
+When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a site design template to build your site, or you can choose scenario-based templates to accelerate creating your site.
 
 :::image type="content" source="media/select-template.png" alt-text="Selection of templates when creating a new site.":::
 
-## Default template
+## Site design templates
 
-The default template provides basic building blocks for you to create custom pages. The simple navigation is an easily updated page and subpage structure, with common pages already created for you to use as-is or modify to meet your specific needs.
+The **site design** templates provide basic building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
 
-More information: [Default template](default-template.md)
+More information: [Site design templates](site-design.md)
 
 ## After school program registration
 
-The **after school program** template is designed to show you the capabilities of a registration site to create events and allow stakeholders to register.
+The **after school program registration** template is designed to show you the capabilities of a registration site to create events and allow stakeholders to register.
 
-More information: [After School Program template](after-school.md)
+More information: [After school program registration template](after-school.md)
 
 ## Schedule meetings with a financial institution
 
-The **book a meeting** template is designed to show you the capabilities of a scheduling template. View availability and schedule a meeting online. 
+The **schedule meetings with a financial institution** template is designed to show you the capabilities of a scheduling template. View availability and schedule a meeting online.
 
-More information: [Book A Meeting template](book-a-meeting.md)
+More information: [Schedule meetings with a financial institution template](book-a-meeting.md)
+
+## Blank template
+
+The **blank template** is designed so you can start with a complete blank site that can be customized using the design studio.
+
+More information: [Blank template](blank.md)
