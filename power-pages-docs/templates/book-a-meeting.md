@@ -123,3 +123,8 @@ The template uses the following forms linked to Dataverse tables.
 ## Professional developers
 
 This template includes custom code and has been styled to follow best-in-class UX patterns. For custom code editing, use the [Microsoft Power Platform CLI](../configure/cli-tutorial.md) to download the site metadata, and use Visual Studio Code to view and modify the source code.
+
+### See also 
+
+[Tutorial: Add a page to your Power Pages site](../getting-started/tutorial-add-webpage.md)  
+[Create and design pages](../getting-started/first-page.md)
