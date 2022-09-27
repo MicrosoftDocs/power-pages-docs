@@ -109,10 +109,6 @@ You can configure form mode, back button and open the step in Portal Management 
 
 :::image type="content" source="media/add-multistep-form/more-options.png" alt-text="Configure more options.":::
 
-### Display back button
-
-Enables or disables the back button when moving through different multistep form steps.
-
 ### Change step mode
 
 Form can be added to a step in **create**, **update** or **read-only** mode. Step mode defines if the user can give inputs to submit a form, or edit an existing form, or open a form in read-only mode.
@@ -124,6 +120,10 @@ You can change the mode for a step when adding it, or from the **Step settings**
 > [!NOTE]
 > - By default, the first step is added in create mode and additional steps are added in edit mode.
 > - Multiple steps within a single multistep form can have different step modes.
+
+### Display back button
+
+Enables or disables the back button when moving through different multistep form steps.
 
 ### Open Portal Management app
 
