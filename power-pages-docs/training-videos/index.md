@@ -182,3 +182,14 @@ The following videos provide an overview of authentication and walk you through 
 [Configure authentication](../security/configure-portal-authentication.md)  
 [Page permissions](../security/page-security.md)
 
+## Add custom styling
+
+The [Styling workspace](#setup-your-brand-kit) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.
+
+You can create your own theme by defining a custom CSS file and uploading it to your site.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
+
+### See also
+
+[Tutorial: Add custom styling](../getting-started/tutorial-style-site.md)
