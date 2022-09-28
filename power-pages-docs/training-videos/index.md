@@ -191,7 +191,7 @@ The following videos provide an overview of authentication and walk you through 
 
 ## Add custom styling
 
-The [style workspace](#setup-your-brand-kit) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.
+The [Styling workspace](#setup-your-brand-kit) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.
 
 You can create your own theme by defining a custom CSS file and uploading it to your site.
 
