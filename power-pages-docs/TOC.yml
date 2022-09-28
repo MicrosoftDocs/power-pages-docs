@@ -14,6 +14,8 @@
       href: getting-started/trial-signup.md
     - name: Trial FAQs
       href: getting-started/trial-faq.md
+    - name: Preview features in trial
+      href: getting-started/preview-features-trial.md
 - name: Get started
   items:
     - name: Create your first site
@@ -72,10 +74,10 @@
             href: getting-started/add-list.md
           - name: Add form
             href: getting-started/add-form.md
+          - name: Add multistep form
+            href: getting-started/multistep-forms.md
           - name: Add iframe
             href: getting-started/add-iframe.md            
-          - name: Add multistep forms
-            href: getting-started/multistep-forms.md
       - name: Use code editor
         href: getting-started/code-editor.md
       - name: Structure your site map
@@ -185,7 +187,9 @@
   - name: "Tutorial: Add custom styling to your site"
     href: getting-started/tutorial-add-custom-style.md
   - name: "Tutorial: Create, update, and view Dataverse information"
-    href: getting-started/tutorial-dataverse-website.md    
+    href: getting-started/tutorial-dataverse-website.md
+  - name: "Tutorial: Use dataset code components for sub grid and list"
+    href: getting-started/tutorial-pcf-code.md    
 - name: Training videos
   href: training-videos/index.md
 - name: Known issues
