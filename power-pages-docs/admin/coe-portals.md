@@ -34,11 +34,6 @@ Administrators can use the [Power Apps portals admin center](admin-overview.md) 
 
 The [Power Platform Center of Excellence toolkit](/power-platform/guidance/coe/starter-kit) provides tools and guidance to help you manage your Power Pages sites.
 
-> [!IMPORTANT]
-> - Power Pages is an evolution of Power Apps portals, and the new features introduced by Power Pages such as the new design studio and templates are in preview for users to try and provide feedback. We recommend that you wait until the general availability of Power Pages later this year to use sites created using the new Power Pages design studio in production scenarios.
-> - All the platform, site admin, and pro 
-developer capabilities inherited by Power Pages from Power Apps portals are generally available and can be used in production scenarios. More information: [Power Pages and Power Apps portals](../difference-portals.md)
-
 ## Power Pages inventory components
 
 The inventory components are core to Power Pages governance within the Center of Excellence (COE) Starter Kit. The Power Pages resources are synced to the  respective inventory items tables and can be viewed in the ***Power Platform Admin View*** app and in the ***COE Power BI*** report.

@@ -34,11 +34,6 @@ The following limitations apply for the trial:
 - A Power Pages site is always created as a trial. A trial site, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it's suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
 - If your trial site is created in a trial environment, your trial site will only be available until your trial environment is available. If your environment expires before the trial site expires, you'll lose access to your trial site. 
 
-> [!IMPORTANT]
-> - Power Pages is an evolution of Power Apps portals, and the new features introduced by Power Pages such as the new design studio and templates are in preview for users to try and provide feedback. We recommend that you wait until the general availability of Power Pages later this year to use sites created using the new Power Pages design studio in production scenarios.
-> - All the platform, site admin, and pro 
-developer capabilities inherited by Power Pages from Power Apps portals are generally available and can be used in production scenarios. More information: [Power Pages and Power Apps portals](../difference-portals.md)
-
 ## What email address can I use?
 
 You can use a work or school [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa).
