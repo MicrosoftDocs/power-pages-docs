@@ -43,7 +43,7 @@ The **Site details** section shows the following site details:
 
 ### Go-live checklist
 
-PLACEHOLDER
+Go-live checklist includes interactive tasks that guide you to review and complete the recommended actions. This interactive experience includes running the site checker, and configuring several other settings for the site that help you prepare the site before the general roll out. For more information, go to [Go-live checklist](../go-live/checklist.md)
 
 ## Authentication
 
