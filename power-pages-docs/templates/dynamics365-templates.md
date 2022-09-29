@@ -34,7 +34,7 @@ The customer self-service site gives customers access to self-service knowledge 
 :::image type="content" source="media/dynamics365-templates/customer-self-service.png" alt-text="Customer self-service template landing page.":::
 
 More information: 
-- [Manage knowledge categories](/powerapps/maker/portals/configure-knowledge-categories-articles)
+- [Manage knowledge categories](/power-apps/maker/portals/customer-engagement-apps/configure-knowledge-categories-articles)
 
 ## Partner
 
@@ -50,11 +50,11 @@ The partner site template allows organizations with resellers, distributors, sup
 
 More information:
 
-- [Site limits for site template type](/powerapps/maker/portals/create-additional-portals)
-- [Use Opportunity record in Partner site](/powerapps/maker/portals/customer-engagement-apps/create-edit-and-distribute-opportunities-dynamics-365)
-- [Configure web roles for a Partner site](/powerapps/maker/portals/customer-engagement-apps/configure-web-roles-partner-portal)
-- [Field Service integration](/powerapps/maker/portals/customer-engagement-apps/integrate-field-service)
-- [Project Service Automation integration](/powerapps/maker/portals/customer-engagement-apps/integrate-project-service-automation)
+- [Site limits for site template type](/power-apps/maker/portals/create-additional-portals)
+- [Use Opportunity record in Partner site](/power-apps/maker/portals/customer-engagement-apps/create-edit-and-distribute-opportunities-dynamics-365)
+- [Configure web roles for a Partner site](/power-apps/maker/portals/customer-engagement-apps/configure-web-roles-partner-portal)
+- [Field Service integration](/power-apps/maker/portals/customer-engagement-apps/integrate-field-service)
+- [Project Service Automation integration](/power-apps/maker/portals/customer-engagement-apps/integrate-project-service-automation)
 
 ## Employee self-service 
 
@@ -70,10 +70,10 @@ The community site template uses peer-to-peer interactions between customers and
 
 More information:
 
-- [Engage with Community](/powerapps/maker/portals/customer-engagement-apps/engage-with-communities)
-- [Manage forums with Community](/powerapps/maker/portals/customer-engagement-apps/setup-manage-forums)
-- [Manage blogs with Community](/powerapps/maker/portals/customer-engagement-apps/manage-blogs)
-- [Manage ideas with Community](/powerapps/maker/portals/customer-engagement-apps/crowdsource-ideas)
+- [Engage with Community](/power-apps/maker/portals/customer-engagement-apps/engage-with-communities)
+- [Manage forums with Community](/power-apps/maker/portals/customer-engagement-apps/setup-manage-forums)
+- [Manage blogs with Community](/power-apps/maker/portals/customer-engagement-apps/manage-blogs)
+- [Manage ideas with Community](/power-apps/maker/portals/customer-engagement-apps/crowdsource-ideas)
 
 ## Supply chain management customer portal
 
@@ -87,7 +87,7 @@ The supply chain management customer portal site template lets you build externa
 More information:
 
 - [Customer portal for Dynamics 365 Supply Chain Management application](/dynamics-365-unified-operations-public/articles/supply-chain/sales-marketing/customer-portal-overview).
-- [Site limits for site template type](/powerapps/maker/portals/create-additional-portals)
+- [Site limits for site template type](/power-apps/maker/portals/create-additional-portals)
 
 ## Modern community 
 
