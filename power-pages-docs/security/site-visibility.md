@@ -18,13 +18,13 @@ contributors:
 
 The Power Pages site visibility feature enables you to manage who has access to your website. You can make your site **Private** to restrict access to specific people in your organization, or **Public** so that anyone with the link has access.
 
+:::image type="content" source="media/site-visibility/site-visibility-preview.gif" alt-text="Animation that shows site visibility setting change from private to public.":::
+
 > [!IMPORTANT]
 > - All new sites created in Power Pages are **Private** by default. When the website is ready to go live, you can change the site visibility to **Public**.
 > - Site visibility feature is only available for websites with version [9.4.9.x](/power-platform/released-versions/portals/portalupdate949x) or later.
 > - All websites created before October 12, 2022 are **Public** by default. To change the site to **Private**, go to Set up workspace in design studio and change the site visibility. More information: [Set up workspace](../configure/setup-workspace.md)
 > - Be cautious when editing a public site because the changes are visible to external users immediately.
-
-:::image type="content" source="media/site-visibility/site-visibility-preview.gif" alt-text="Animation that shows site visibility setting change from private to public.":::
 
 ## Difference between a private site and a public site
 
