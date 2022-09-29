@@ -84,7 +84,7 @@ If the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to
 
 The tenant level setting can be updated using a PowerShell script.
 
-To get the current value for the tenant setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings?view=pa-ps-latest) command.
+To get the current value for the tenant setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command.
 
 For example:
 
@@ -93,7 +93,7 @@ $myTenantSettings = Get-TenantSettings
 $ myTenantSettings.powerPlatform.powerPages
 ```
 
-To set a value for the tenant setting (`true` or `false`), use [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings?view=pa-ps-latest) command.
+To set a value for the tenant setting (`true` or `false`), use [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command.
 
 For example:
 
