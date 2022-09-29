@@ -108,7 +108,7 @@ $requestBody = @{
 Set-TenantSettings -RequestBody $requestBody
 ```
 
-### Delegate site visibility
+### Delegate site visibility control
 
 When you don't want all system administrators to be able to change site visibility, then set the tenant-level setting of `enableSystemAdminsToChangeSiteVisibility` to `false`.
 
