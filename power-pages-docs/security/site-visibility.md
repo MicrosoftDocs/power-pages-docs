@@ -117,7 +117,7 @@ Now, you can delegate site visibility controls to a select set of users by addin
 To delegate site visibility to specific system administrators:
 
 1. Go to [Power Platform admin center](https://admin.powerplatform.com).
-1. Select **Websites**.
+1. Select **Portals**.
 1. Select your website, and then select **Manage**.
 1. In the **Security** section, select **Manage site visibility permissions**.
 
