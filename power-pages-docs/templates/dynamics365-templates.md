@@ -51,7 +51,7 @@ The partner site template allows organizations with resellers, distributors, sup
 More information:
 
 - [Site limits for site template type](/power-apps/maker/portals/create-additional-portals)
-- [Use Opportunity record in Partner site](/power-apps/maker/portals/customer-engagement-apps/create-edit-and-distribute-opportunities-dynamics-365)
+- [Use Opportunity record in Partner site](/power-apps/maker/portals/customer-engagement-apps/create-edit-and-distribute-opportunities-in-dynamics-365)
 - [Configure web roles for a Partner site](/power-apps/maker/portals/customer-engagement-apps/configure-web-roles-partner-portal)
 - [Field Service integration](/power-apps/maker/portals/customer-engagement-apps/integrate-field-service)
 - [Project Service Automation integration](/power-apps/maker/portals/customer-engagement-apps/integrate-project-service-automation)
@@ -86,7 +86,7 @@ The supply chain management customer portal site template lets you build externa
 
 More information:
 
-- [Customer portal for Dynamics 365 Supply Chain Management application](/dynamics-365-unified-operations-public/articles/supply-chain/sales-marketing/customer-portal-overview).
+- [Customer portal for Dynamics 365 Supply Chain Management application](/dynamics365/supply-chain/sales-marketing/customer-portal-overview).
 - [Site limits for site template type](/power-apps/maker/portals/create-additional-portals)
 
 ## Modern community 
