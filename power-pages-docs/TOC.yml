@@ -193,9 +193,7 @@
   - name: "Tutorial: Add custom styling to your site"
     href: getting-started/tutorial-add-custom-style.md
   - name: "Tutorial: Create, update, and view Dataverse information"
-    href: getting-started/tutorial-dataverse-website.md
-  - name: "Tutorial: Use dataset code components for sub grid and list"
-    href: getting-started/tutorial-pcf-code.md    
+    href: getting-started/tutorial-dataverse-website.md 
 - name: Training videos
   href: training-videos/index.md
 - name: Known issues
