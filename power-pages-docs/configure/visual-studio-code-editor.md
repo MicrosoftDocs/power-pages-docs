@@ -22,6 +22,8 @@ From the design studio, you can edit site code using **Visual Studio Code for th
 
 Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running entirely in your browser, allowing you to browse site code and make lightweight code changes quickly and safely. More information: [Visual Studio Code for the Web experience.](https://code.visualstudio.com/docs/editor/vscode-web)
 
+:::image type="content" source="media/visual-studio-code-editor/vs-code-demo.gif" alt-text="Demo of using Visual Studio Code for Web to edit Power Pages site.":::
+
 > [!NOTE]
 > - First time **Visual Studio Code for the Web** load may take some time as it will be installing required extensions for this feature. 
 > - This feature utilizes **Power Platform Tools** web extension. Web extensions are restricted by the browser sandbox and therefore have limitations compared to normal extensions.
@@ -82,7 +84,7 @@ In this tutorial, you'll walk through editing the site code using Visual Studio 
 
 1. Make changes to the respective files and press ***Ctrl+S*** to save the changes.
 
-1. Go to design studio and select **Sync**" to pull all the updates in your current design studio session.
+1. Go to design studio and select **Sync** to pull all the updates in your current design studio session.
 
     :::image type="content" source="media/visual-studio-code-editor/sync-code.png" alt-text="Interface to allow user to select Sync button to synchronize changes made in Visual Studio Code to design studio.":::
 
