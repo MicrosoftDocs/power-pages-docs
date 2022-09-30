@@ -41,13 +41,11 @@ Here's the steps included in the go-live checklist:
 | Number | Task | Success criteria |
 |-------------------------|-------------------------|-------------------------|
 | 1 | Run the site checker | 0 Errors in the [portal checker](../admin/portal-checker.md) last run results |
-| 2 | Configure user authentication | Configure the [authentication providers](../security/configure-portal-authentication.md) for your site <br> Additional guidance: [Configure authentication set up](#configure-authentication-set-up), [Provide access to external audiences](../security/external-access.md) |
-| 3 | Pick and allocate licenses | [Licenses](assign-licensing.md) are allocated, and acknowledgment in the form of marked as completed |
-| 4 | Convert site to production | Site is converted to [production](/power-apps/maker/portals/admin/convert-portal) |
-| 5 | Enable CDN to load site faster | [Content Delivery Network (CDN)](/power-apps/maker/portals/configure/configure-cdn) is enabled |
-| 6 | Enable WAF to secure your site | [Web application firewall (WAF)](/power-apps/maker/portals/azure-front-door) is enabled |
-| 7 | Connect custom domain | [Custom domain](/power-apps/maker/portals/admin/add-custom-domain) configured, is up and working (to check if the URL is accessible) |
-| 8 | Set the site to public | [Site visibility](../security/site-visibility.md) is configured for public access  |
+| 2 | Pick and allocate licenses | [Licenses](assign-licensing.md) are allocated, and acknowledgment in the form of marked as completed |
+| 3 | Convert site to production | Site is converted to [production](/power-apps/maker/portals/admin/convert-portal) |
+| 4 | Enable CDN to load site faster | [Content Delivery Network (CDN)](/power-apps/maker/portals/configure/configure-cdn) is enabled |
+| 5 | Enable WAF to secure your site | [Web application firewall (WAF)](/power-apps/maker/portals/azure-front-door) is enabled |
+| 6 | Connect custom domain | [Custom domain](/power-apps/maker/portals/admin/add-custom-domain) configured, is up and working (to check if the URL is accessible) |
 
 Here's an example of how the checklist looks like as the steps progress:
 
@@ -108,3 +106,6 @@ Set your specific copyright text, and add any privacy or other links in the "Foo
 
 Protect any unfinished page by using [Page permissions](../security/page-security.md).
 
+### Manage site visibility
+
+Configure site visibility after verifying the site is ready to be up and running. More information: [Site visibility](../security/site-visibility.md)
