@@ -25,8 +25,8 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 > [!NOTE]
 > - First time **Visual Studio Code for the Web** load may take some time as it will be installing required extensions for this feature. 
 > - This feature utilizes **Power Platform Tools** web extension. Web extensions are restricted by the browser sandbox and therefore have limitations compared to normal extensions.
-> - Power Platform CLI is not supported.
-> - Power Platform Tools web extension features are limited to Power Pages code editing experience.
+>   - Power Platform CLI is not supported.
+>   - Power Platform Tools web extension features are limited to Power Pages code editing experience.
 
 ## Edit code available in design studio
 
@@ -95,7 +95,7 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 | Feature | Visual Studio for Web | Visual Studio Code desktop |
 | - | - | - |
 | Direct site editing | Yes | No |
-| Site metadata editing | Limited to design studio | Sll |
+| Site metadata editing | Limited to Custom CSS all Web pages | All power pages configuration entities |
 | Site preview | Planned | Planned |
 | PAC CLI support | No | Yes |
 | Advanced CPU and storage bound workflow - ReactJS or other framework build tool support | No | Yes |
