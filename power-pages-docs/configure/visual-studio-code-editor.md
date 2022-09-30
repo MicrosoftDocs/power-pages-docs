@@ -22,15 +22,34 @@ From the design studio, you can edit site code using **Visual Studio Code for th
 
 Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running entirely in your browser, allowing you to browse site code and make lightweight code changes quickly and safely. For more information: [Visual Studio Code for the Web experience.](https://code.visualstudio.com/docs/editor/vscode-web)
 
+    > [!NOTE]
+    > - First time **Visual Studio Code for the Web** load may take some time as it will be installing required extensions for this feature. 
+    > - This feature utilizes “Power Platform Tools” as web extension. Web extensions are restricted by the browser sandbox and therefore have limitations compared to normal extensions. 
+        - Power Platform CLI is not supported. 
+        - “Power Platform Tools” web extension features are limited to Power Pages code editing experience. 
+
+## Edit code available in design studio
+Edit code feature will allow users to edit code in following areas
+- Edit web page code from **Pages workspace**
+- Header template code from **Pages workspace**
+- Edit custom CSS code from **Styling workspace**
+
+### Edit web page code from Pages workspace
+When you open Power Pages design studio, you will see **Edit code** option in Pages menu^1^ and upper right conner of the screen^2^. 
+
+### Header template code from Pages workspace
+Select site header and click **Edit code** to open code editor
+
+### Edit custom CSS code from Styling workspace
+Navigate to **Styling workspace** and select available custom CSS **Edit code** menu item to open code editor 
+
 ## Tutorial: Edit site code using Visual Studio Code for the Web
 
 ### Step 1: Edit site code using Visual Studio Code
 
 1. Open your site in [Power Pages design studio](../getting-started/use-design-studio.md)
 
-1. On the top right corner, select **Code**
-
-1. Select **Open in Visual Studio Code (Preview)**
+1. On the top right corner, select **Edit code**
 
     :::image type="content" source="media/visual-studio-code-editor/launch-code-editor.png" alt-text="Opening in Visual Studio Code from the design studio.":::
 
@@ -38,11 +57,7 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 
 1. Sign in to Visual Studio Code using your environments credentials.
 
-1. Wait for PowerPlatform web extension initialization and web page code to load in left file navigation.
-
-1. Select the left navigation **Accounts** (that is, User icon) and then choose **Settings Sync** option to enable it.
-
-    :::image type="content" source="media/visual-studio-code-editor/settings-sync.png" alt-text="Settings Sync option is turned on.":::
+1. Wait for PowerPlatform web extension initialization and web page code to load in left file navigation. 
 
 ### Step 2: Update web page code
 
