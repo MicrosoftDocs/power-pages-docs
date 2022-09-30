@@ -80,7 +80,7 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 | Feature | Visual Studio for Web | Visual Studio Code desktop |
 | - | - | - |
 | Direct site editing | yes | |
-| Site metadata editing | limited</br>-content snippets</br>-web files</br>-web pages</br>-web templates</br>-page templates</br>-basic form custom CSS/JavaScript</br>-list custom CSS/JavaScript | all |
+| Site metadata editing | limited to design studio | all |
 | Site preview | planned | planned |
 | PAC CLI support | | yes |
 | Advanced CPU and storage bound workflow</br>-ReactJS or other framework build tool support | | yes |
