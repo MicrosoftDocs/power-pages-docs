@@ -1,12 +1,12 @@
 ---
-title: Create and manage Power Pages sites
-description: Learn how to create and manage Power Pages sites
+title: Create a site with Power Pages
+description: Learn how to create a site with Power Pages
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/31/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: tbhagwat
 ms.reviewer:
 contributors:
     - nickdoelman

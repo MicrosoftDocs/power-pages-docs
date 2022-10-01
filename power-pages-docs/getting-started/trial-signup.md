@@ -1,8 +1,8 @@
 ---
 title: "Sign up for a free trial - Power Pages | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Power Pages trial. Explore the app with tours and videos, and find more learning resources."
-author: tbhagwat
-ms.author: sampatn
+author: sampatn
+ms.author: tbhagwat
 ms.date: 10/01/2022
 ms.topic: get-started
 ms.custom: template-trial-setup 
