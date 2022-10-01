@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Create your first site with Power Pages
+# Create a site with Power Pages
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -24,7 +24,7 @@ Power Pages provides a list of templates to choose from to quickly build your si
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-    The first time you visit the site, you'll be presented with a **Try it for free** button and be able to [sign up for a free, 30-day trial](trial-signup.md). 
+    The first time you visit the site, you'll be presented with a **Try it for free** button and be able to [sign up for a free, 30-day trial](trial-signup.md).
 
 1. Select the [Microsoft Dataverse environment](/power-platform/admin/environments-overview) in which to create a site.
 
@@ -33,16 +33,16 @@ Power Pages provides a list of templates to choose from to quickly build your si
     > [!NOTE]
     > It is not recommended to create a site in the [*default* environment](/power-platform/admin/environments-overview#the-default-environment) as it is shared across all the users in the tenant, and has a risk of sharing data with unintentional users.
 
-1. On the home page, select **Create a site**.
+1. On the home page, select **+ Create a site**.
 
-    :::image type="content" source="media/default-template/create.png" alt-text="The design studio GUI with the Create a site button selected.":::
-
-1. Select **Default design template**, and then select **Select template**.
+1. Review the available templates. For more details about each template, you can also hover over the template, and choose **Preview template**. And then, follow different views across devices to preview the template experience.
 
     :::image type="content" source="media/default-template/default-template.png" alt-text="The design studio GUI with default template selected.":::
 
-    > [!NOTE]
-    > The default site is generic and can be modified for various business scenarios. You can also choose a [business-need template](../templates/index.md) that best matches your specific scenario.
+    > [!TIP]
+    > Prefer a template that best aligns to what you want to use your site for. If none of the business need templates match what you're looking for, choose one of the **Site design** templates with cross-industry solutions, or choose **Blank page** to customize the website from scratch. More information: [Power Pages templates](../templates/index.md)
+
+1. After you finalize the template of your choice, select **Choose this template**.
 
 1. Validate the default site name and web address that have been created, and then select **Done**.
 
