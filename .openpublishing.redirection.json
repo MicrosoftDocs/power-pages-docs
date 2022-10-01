@@ -14,6 +14,11 @@
       "source_path": "power-pages-docs/difference-portals.md",
       "redirect_url": "introduction",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/tutorial-pcf-code.md",
+      "redirect_url": "/power-apps/maker/portals/tutorial-pcf-code",
+      "redirect_document_id": "false"
     }
    ]
 }

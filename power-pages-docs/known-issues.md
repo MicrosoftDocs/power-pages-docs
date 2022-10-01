@@ -76,7 +76,3 @@ Makers can adjust the background color by modifying the theme in the Style works
 
 Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color). To do this, choose the original value and select **Save**.
 
-
-
-
-
