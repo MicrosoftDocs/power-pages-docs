@@ -101,7 +101,7 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 | Site preview | Planned | Planned |
 | PAC CLI support | No | Yes |
 | Advanced CPU and storage bound workflow - ReactJS or other framework build tool support | No | Yes |
-| GitHub integration with capabilities such as code check-in, check-out, managing conflicts, and merge. | Limited | Yes |
+| GitHub integration with capabilities such as code check-in, check-out, managing conflicts, and merge. | No | Yes |
 
 ## See also
 
