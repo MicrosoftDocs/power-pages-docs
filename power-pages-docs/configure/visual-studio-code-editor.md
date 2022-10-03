@@ -100,7 +100,7 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 | Direct site editing | Yes | No |
 | Site metadata editing | Limited to Custom CSS and Web pages | All power pages configuration entities |
 | Site preview | Planned | Planned |
-| [Power Platform CLI](https://learn.microsoft.com/power-platform/developer/cli/introduction) support | No | Yes |
+| [Power Platform CLI](/power-platform/developer/cli/introduction) support | No | Yes |
 | Advanced CPU and storage bound workflow - ReactJS or other framework build tool support | No | Yes |
 | GitHub integration with capabilities such as code check-in, check-out, managing conflicts, and merge. | No | Yes |
 
