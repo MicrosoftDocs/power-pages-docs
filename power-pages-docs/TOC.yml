@@ -76,6 +76,12 @@
             href: getting-started/multistep-forms.md
           - name: Add iframe
             href: getting-started/add-iframe.md            
+      - name: Edit page code
+        items:
+          - name: Use code editor
+            href: getting-started/code-editor.md
+          - name: Use Visual Code editor
+            href: configure/visual-studio-code-editor.md            
       - name: Use code editor
         href: getting-started/code-editor.md
       - name: Structure your site map
