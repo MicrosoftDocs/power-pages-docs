@@ -143,7 +143,9 @@
 - name: Secure Power Pages
   items:
     - name: Power Pages security
-      href: security/power-pages-security.md  
+      href: security/power-pages-security.md
+    - name: Site visibility
+      href: security/site-visibility.md  
     - name: Configure authentication
       href: security/configure-portal-authentication.md
     - name: Provide external access
