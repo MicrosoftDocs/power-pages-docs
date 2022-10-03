@@ -26,6 +26,7 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 
 > [!NOTE]
 > - First time **Visual Studio Code for the Web** load may take some time as it will be installing required extensions for this feature. 
+> - File Create, Delete and Rename operations are not supported. 
 > - This feature utilizes **Power Platform Tools** web extension. Web extensions are restricted by the browser sandbox and therefore have limitations compared to normal extensions.
 >   - Power Platform CLI is not supported.
 >   - Power Platform Tools web extension features are limited to Power Pages code editing experience.
