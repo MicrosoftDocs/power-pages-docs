@@ -29,7 +29,7 @@ Use sections to define a structure for your page and arrange portal components. 
 
    You can then select between the following six section layout options.
 
-    :::image type="content" source="media/common/add-section-layout.png" alt-text="The six section layout options; one column, two column, three column, one third left, one third right, and spacer.":::
+    :::image type="content" source="media/common/add-section-layout.png" alt-text="The six section layout options.":::
 
 ## Editing a section
 
