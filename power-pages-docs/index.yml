@@ -174,7 +174,7 @@ conceptualContent:
       - text: Assign licensing
         url: go-live/assign-licensing.md
         itemType: how-to-guide
-      - text: Overview of portals ALM
+      - text: Overview of Power Pages ALM
         url: configure/portals-alm.md
         itemType: how-to-guide                                                                
     # Card
