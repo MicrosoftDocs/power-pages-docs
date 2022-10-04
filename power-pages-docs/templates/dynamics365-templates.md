@@ -4,7 +4,7 @@ description: Learn about the option to create Power Pages sites using Dynamics 3
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/12/2022
+ms.date: 10/04/2022
 ms.subservice:
 ms.author: sampatn
 ms.reviewer: ndoelman
