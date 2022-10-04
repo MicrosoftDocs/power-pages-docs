@@ -79,8 +79,8 @@ This video shows you how to create a view for a table by using the Data workspac
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYer]
 
 ### Next steps
-[Add a list to the page](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page)
-[Configure table permissions](#configure-table-permissions)
+- [Add a list to the page](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page)
+- [Configure table permissions](#configure-table-permissions)
 
 ### See also
 
