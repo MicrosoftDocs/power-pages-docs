@@ -108,7 +108,7 @@
             href: configure/build-progressive-web-apps.md
 - name: Administer Power Pages
   items:   
-    - name: Use the portals admin center
+    - name: Use the admin center
       href: admin/admin-overview.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
