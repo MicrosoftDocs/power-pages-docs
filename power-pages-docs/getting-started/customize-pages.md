@@ -34,7 +34,7 @@ To use the editor:
 
 1. To add a section, hover over any editable section area, and then select the plus sign (**+**). You can then choose between six section layout options.
 
-    :::image type="content" source="media/common/add-section-layout.png" alt-text="Add section layout options.":::
+    :::image type="content" source="media/common/add-section-layout.png" alt-text="The six section layout options; one column, two column, three column, one third left, one third right, and spacer.":::
 
 1. To add a component, hover over the section where you'd like to place the component, and then select **+**. You can then choose between the available components.  
 
