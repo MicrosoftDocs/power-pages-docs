@@ -1,73 +1,65 @@
 ---
-title: Go live checklist for Power Pages
+title: Go-live checklist for Power Pages
 description: Learn how to go live.
 author: NikitaPolyakovMSFT
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2022
+ms.date: 10/03/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - neerajnandwana-msft
 ---
 
-# Go live checklist
+# Go-live checklist
 
-This checklist is guidance to help you plan your Power Pages and Power Apps portals projects.
+This checklist is guidance to help you plan your Power Pages projects.
 
-As you prepare and consider going live with your project, here are a few areas to keep in mind:
+The [Set up workspace](../configure/setup-workspace.md) inside the design studio includes a built-in go-live checklist that includes various interactive tasks that help you prepare your site to go live. These tasks include guided experiences to view and complete recommended actions.
 
-> [!div class="checklist"]
-> * Finalize your site
-> * Create separate development, testing, and production sites
-> * Test your site performance
-> * Set up a custom domain
-> * Configure authentication set up
-> * Set up telemetry monitoring
-> * Provide access to users
+Use the **Go-live checklist** guide to ensure you don't miss anything before your site is up and running. You can also go through additional recommendations in this article to help you extend your go-live preparations and improve the overall site experience when the site goes live.
 
-## Finalize your site
+> [!NOTE]
+> The go-live checklist and the additional go-live guidance in this article are recommended actions. The checklist and actions explained in this article aren't mandatory for the site to be up and running.
 
-Clean up your site and remove any sample webpages, sample text, and placeholder images.
+## Go-live checklist in the Set up workspace
 
-Delete or deactivate any unused pages. 
+Making site live for production use is critical step, and the **Go-live checklist** section from **Set up workspace** integrates this process seamlessly with your site building activities.
 
-Change your browser suffix from "Home page - Starter Portal" to a meaningful name. You can find the content snippet "BrowserSuffix" in the **Content Snippets** area of the [Portal Management app](../configure/portal-management-app.md)
+The checklist includes various actions that you can follow up through a step-by-step exercise with a built-in experience that shows the step completion as you progress.
 
-Set your specific copyright text, and add any privacy or other links in the "Footer" web template. Find it in the **Web templates** area of the [Portal Management app](../configure/portal-management-app.md).
+:::image type="content" source="media/go-live-checker.png" alt-text="Go-live checklist option in Set up workspace.":::
 
-Protect any unfinished page by using [Page permissions](../security/page-security.md).
+Here's the steps included in the go-live checklist:
 
-## Create separate development, testing, and production sites
+| Number | Task | Success criteria |
+|-------------------------|-------------------------|-------------------------|
+| 1 | Run the site checker | 0 Errors in the [portal checker](../admin/portal-checker.md) last run results |
+| 2 | Pick and allocate licenses | [Licenses](assign-licensing.md) are allocated, and acknowledgment in the form of marked as completed |
+| 3 | Convert site to production | Site is converted to [production](/power-apps/maker/portals/admin/convert-portal) |
+| 4 | Enable CDN to load site faster | [Content Delivery Network (CDN)](/power-apps/maker/portals/configure/configure-cdn) is enabled |
+| 5 | Enable WAF to secure your site | [Web application firewall (WAF)](/power-apps/maker/portals/azure-front-door) is enabled |
+| 6 | Connect custom domain | [Custom domain](/power-apps/maker/portals/admin/add-custom-domain) configured, is up and working (to check if the URL is accessible) |
+
+Here's an example of how the checklist looks like as the steps progress:
+
+:::image type="content" source="media/verified-checklist.png" alt-text="Go-live checklist once completed.":::
+
+While completing the go-live checklist helps you better prepare and avoid any misses for considerations before the site is up and running, also consider the additional go-live guidance.
+
+## Additional go-live guidance
+
+Apart from the benefits of Go-live checklist, use the following additional guidance to help you plan your Power Pages projects.
+
+### Create separate development, testing, and production sites
 
 To continue to make updates to your site without breaking functionality for existing users of your site, we recommend three separate environments to manage the application development lifecycle. 
 
 More information: [Power Platform application lifecycle management](/power-platform/alm/basics-alm) for more information. 
 
-## Test your site performance
-
-Optimize your site's performance by enabling a content delivery network (CDN).
-
-More information: [Configure CDN](/power-apps/maker/portals/configure/configure-cdn).
-
-If you have high scalability needs (thousands of users a month or a critical workload), consider performing load testing to understand the type of performance you'll get and troubleshoot any problem areas. 
-
-Areas to consider:
-- Number of visitors to your site on a daily basis.
-- Traffic volumes at different times.
-- High traffic pages linked to Dataverse.
-- Volume of data stored in Dataverse.
-
-## Set up a custom domain 
-
-Your site should align with your corporate domain name whenever possible. By default, Power Pages create a URL using the powerappsportals.com domain.
-
-You can read more about setting up your own [custom domains](/power-apps/maker/portals/admin/add-custom-domain) in the Power Apps documentation.
-
-You may need to get approval from your internal team to get the right SSL certificate, configure, and test it. You'll want this domain name working for most external identity providers, so it becomes a dependency to go live.
-
-## Configure authentication set-up
+### Configure authentication set up
 
 By default Power Pages sets local authentication as your identity provider. We recommend using one of the supported identity providers as your default and disabling local authentication.
 
@@ -79,7 +71,18 @@ For example, [Azure Active Directory B2C](../getting-started/tutorial-setup-site
 
 More information: [Configure authentication](../security/configure-portal-authentication.md)
 
-## Set up telemetry monitoring
+### Test your site performance
+
+Optimize your site's performance by enabling a content delivery network (CDN) through the Go-live checker explained earlier. Additionally, for high scalability needs (thousands of users a month or a critical workload), consider performing load testing to understand the type of performance you'll get and troubleshoot any problem areas.
+
+Areas to consider:
+
+- Number of visitors to your site on a daily basis.
+- Traffic volumes at different times.
+- High traffic pages linked to Microsoft Dataverse.
+- Volume of data stored in Dataverse.
+
+### Set up telemetry monitoring
 
 You can place the telemetry tracking HTML/JS snippet of code in the **Enable Traffic Analytics** area in the Portal Management app. 
 
@@ -87,6 +90,18 @@ Open the [Portal Management app](../configure/portal-management-app.md) and navi
 
 :::image type="content" source="media/portal-analytics.png" alt-text="Portal analytics.":::
 
-## Provide access to users
+### Finalize your site
 
-For information on adding users to your site, see [Provide access to external audiences](../security/external-access.md)
+Clean up your site and remove any sample webpages, sample text, and placeholder images.
+
+Delete or deactivate any unused pages. 
+
+Change your browser suffix from "Home page - Starter Portal" to a meaningful name. You can find the content snippet "BrowserSuffix" in the **Content Snippets** area of the [Portal Management app](../configure/portal-management-app.md)
+
+Set your specific copyright text, and add any privacy or other links in the "Footer" web template. Find it in the **Web templates** area of the [Portal Management app](../configure/portal-management-app.md).
+
+Protect any unfinished page by using [Page permissions](../security/page-security.md).
+
+### Manage site visibility
+
+Configure site visibility after verifying the site is ready to be up and running. More information: [Site visibility](../security/site-visibility.md)

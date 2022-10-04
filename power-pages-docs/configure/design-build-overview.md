@@ -5,7 +5,7 @@ author: nickdoelman
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/31/2022
+ms.date: 10/04/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -27,6 +27,10 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 - **Data workspace** lets you easily model, visualize, and manage business data for the site with tables, forms, and lists. You can create and edit Dataverse tables for the site and create new or edit existing model-driven forms and views. Changes made in the Data workspace are stored in the Common data store. [Learn more about the Data workspace](../getting-started/use-data-workspace.md).
 
 - **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. [Learn more about the Set up workspace](setup-workspace.md).
+
+## Sites created using Power Apps
+
+Sites that were created using Power Apps can be edited using the design studio. More information: [Power Pages design studio and Power Apps portals Studio](editing-sites.md).
 
 ## Easily edit sites in Power Pages design studio
 
