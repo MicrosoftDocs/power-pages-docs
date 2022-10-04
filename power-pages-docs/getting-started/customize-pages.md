@@ -64,5 +64,5 @@ All sections and components allow for in-context editing. You can edit any secti
 [Add form](add-form.md)<br />
 [Add IFrame](add-iframe.md)<br />
 [Add multistep form](multistep-forms.md)<br />
-[Use Code Editor](code-editor.md)<br />
+[Edit code with Visual Studio Code for the Web](../configure/visual-studio-code-editor.md)<br />
 [Structure site map](structure-site.md)<br />
