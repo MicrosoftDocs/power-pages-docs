@@ -1,15 +1,15 @@
 - name: Power Pages (preview) documentation
   href: index.yml
 - name: Overview
-  items: 
-  - name: What is Power Pages
-    href: introduction.md
-  - name: Power Pages capabilities
-    href: capabilities.md
-  - name: Power Pages and Power Apps portals
-    href: difference-portals.md          
-- name:  Try Power Pages
-  items: 
+  items:
+    - name: What is Power Pages
+      href: introduction.md
+    - name: Power Pages capabilities
+      href: capabilities.md
+    - name: Power Pages and Power Apps portals
+      href: difference-portals.md
+- name: Try Power Pages
+  items:
     - name: Sign up for a trial
       href: getting-started/trial-signup.md
     - name: Trial FAQs
@@ -19,11 +19,11 @@
 - name: Get started
   items:
     - name: Create your first site
-      href: getting-started/create-manage.md             
+      href: getting-started/create-manage.md
     - name: Get started with design studio
       href: getting-started/use-design-studio.md
     - name: Templates
-      items:  
+      items:
         - name: Create sites using templates
           href: templates/index.md
         - name: Default template
@@ -31,16 +31,16 @@
         - name: After School template
           href: templates/after-school.md
         - name: Book a Meeting template
-          href: templates/book-a-meeting.md      
+          href: templates/book-a-meeting.md
     - name: Manage sites
-      href: admin/manage-sites.md           
+      href: admin/manage-sites.md
     - name: Learning hub
-      href: getting-started/use-learnhub.md 
+      href: getting-started/use-learnhub.md
     - name: Power Pages community
       href: getting-started/community.md
     - name: Plan your Power Pages project
-      href: configure/planning-power-pages-project.md       
-- name: Design and build 
+      href: configure/planning-power-pages-project.md
+- name: Design and build
   items:
   - name: Design and build overview
     href: configure/design-build-overview.md  
@@ -76,6 +76,12 @@
             href: getting-started/multistep-forms.md
           - name: Add iframe
             href: getting-started/add-iframe.md            
+      - name: Edit page code
+        items:
+          - name: Use code editor
+            href: getting-started/code-editor.md
+          - name: Use Visual Code editor
+            href: configure/visual-studio-code-editor.md            
       - name: Use code editor
         href: getting-started/code-editor.md
       - name: Structure your site map
@@ -106,20 +112,22 @@
             href: configure/progressive-web-apps.md
           - name: Build progressive web applications    
             href: configure/build-progressive-web-apps.md
+  - name: Power Pages design studio and Power Apps portals Studio
+    href: configure/editing-sites.md
 - name: Administer Power Pages
-  items:   
+  items:
     - name: Use the portals admin center
       href: admin/admin-overview.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
-    - name: Update solution 
+    - name: Update solution
       href: admin/update-portal-solution.md
-    - name: View error log 
+    - name: View error log
       href: admin/view-portal-error-log.md
-    - name: Compliance and privacy 
-      href: admin/compliance-privacy.md        
-    - name: Governance 
-      href: admin/coe-portals.md            
+    - name: Compliance and privacy
+      href: admin/compliance-privacy.md
+    - name: Governance
+      href: admin/coe-portals.md
 - name: Configure Power Pages
   items:
     - name: Portal Management app overview
@@ -129,7 +137,7 @@
 - name: Customize and extend Power Pages
   items:
     - name: Use Visual Studio Code and Power Platform CLI
-      href: configure/cli-tutorial.md   
+      href: configure/cli-tutorial.md
     - name: Web templates
       href: configure/store-content-web-templates.md
     - name: Portals Web API overview
@@ -139,29 +147,31 @@
     - name: Liquid overview
       href: configure/liquid-overview.md
     - name: Overview of portals ALM
-      href: configure/portals-alm.md                  
+      href: configure/portals-alm.md
 - name: Secure Power Pages
   items:
     - name: Power Pages security
-      href: security/power-pages-security.md  
+      href: security/power-pages-security.md
+    - name: Site visibility
+      href: security/site-visibility.md  
     - name: Configure authentication
       href: security/configure-portal-authentication.md
     - name: Provide external access
-      href: security/external-access.md         
-    - name: Configure web roles 
+      href: security/external-access.md
+    - name: Configure web roles
       href: security/create-web-roles.md
     - name: Page security
       href: security/page-security.md
     - name: Configure table permissions
       href: security/table-permissions.md
     - name: Assign table permissions
-      href: security/assign-table-permissions.md      
-- name: Go live 
-  items: 
+      href: security/assign-table-permissions.md
+- name: Go live
+  items:
     - name: Go live checklist
       href: go-live/checklist.md
     - name: Licensing
-      href: go-live/assign-licensing.md      
+      href: go-live/assign-licensing.md
 - name: Tutorials
   items:
   - name: Tutorial overview
