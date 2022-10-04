@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/09/2022
+ms.date: 10/04/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -58,13 +58,13 @@ Watch this quick video to learn how to set up your brand kit.
 
 Power Pages offers a seamless ability to interact with business data stored in Dataverse with the new [Data workspace](../getting-started/use-data-workspace.md).
 
-The following series of videos demonstrate how to create a page displaying business information in three easy steps.
+The following demonstrate how to create a page displaying business information in three easy steps.
 
 | Step | Task | Video and tutorial |  
 | - | - | - | 
 | 1 | Create a table in Data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a view | [video](#create-a-view)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md#create-a-view) |
-| 3 | Add a list to the page | [video](#add-a-list-to-page)<br/> [tutorial](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page) |
+| 3 | Add a list to the page | [tutorial](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page) |
 
 ### Create a table
 
@@ -77,12 +77,6 @@ In this video, you'll learn how to create a table by using the Data workspace.
 This video shows you how to create a view for a table by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYer]
-
-### Add a list to page
-
-Now that you've created your table and view, let's add a list to the page.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYem]
 
 ### Next steps
 
@@ -97,13 +91,13 @@ Now that you've created your table and view, let's add a list to the page.
 
 Business information in Dataverse can't automatically be viewed in Power Pages. To allow access to Dataverse records in Power Pages sites, you'll need to configure table permissions and associate the table permissions to web roles.
 
-The following three videos will explain the concepts of table permissions, setting up access, and assigning web roles.
+The following will explain the concepts of table permissions, setting up access, and assigning web roles.
 
 | Step | Task | Video and tutorial |  
 | - | - | - |
 | 1 | Create table permissions | [video](#create-table-permissions)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
 | 2 | Set up access type and privileges | [video](#create-table-permissions)<br/>  [tutorial](../getting-started/tutorial-display-data-securely.md#set-access-type-and-privileges) |
-| 3 | Add web roles | [video](#add-web-roles)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md#add-web-roles) |
+| 3 | Add web roles | [tutorial](../getting-started/tutorial-display-data-securely.md#add-web-roles) |
 
 ### Create table permissions
 
@@ -112,10 +106,6 @@ The following three videos will explain the concepts of table permissions, setti
 ### Set up access type and privileges
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
-
-### Add web roles
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
 ### See also
 
@@ -162,7 +152,7 @@ Power Pages has a robust security model to ensure that business information is p
 
 Users can be provided access to your site through authentication. Power Pages users are represented by Dataverse contact records. Power Pages can be integrated with many authentication providers such as Azure Active Directory B2C, Microsoft, LinkedIn, and others.
 
-The following videos provide an overview of authentication and walk you through configuring an identity provider and configuring page permissions.
+The following videos provide an overview of authentication and walk you through configuring an identity provider.
 
 | Step | Task | Video and tutorial |  
 | - | - | - |
@@ -182,14 +172,3 @@ The following videos provide an overview of authentication and walk you through 
 [Configure authentication](../security/configure-portal-authentication.md)  
 [Page permissions](../security/page-security.md)
 
-## Add custom styling
-
-The [Styling workspace](#setup-your-brand-kit) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.
-
-You can create your own theme by defining a custom CSS file and uploading it to your site.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
-
-### See also
-
-[Tutorial: Add custom styling](../getting-started/tutorial-style-site.md)

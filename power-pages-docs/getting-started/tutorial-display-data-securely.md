@@ -4,7 +4,7 @@ description: Learn how to set up table permissions and link to web roles.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 10/04/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -131,10 +131,6 @@ For more information, see:
 In our examples so far, we've assigned the table permissions to the default **Authenticated Users** and **Anonymous Users** web roles. 
 
 We can also create our own custom web roles to further limit access to data and pages to certain site visitors.
-
-This video provides an overview of the steps to add web roles.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
 1. In the design studio, select the ellipses **...** from the side menu and select **Portal Management** to open the Portal Management app.
 
