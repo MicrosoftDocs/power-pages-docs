@@ -16,6 +16,9 @@ contributors:
 
 # Tutorial: Set up page permissions 
 
+> [!IMPORTANT]
+> We are in the process of updating our tutorials. The steps below do not reflect the latest features available to configure page permissions. Please go to our [feature documentation](../security/page-security.md) to see the latest information.
+
 When we create our sites, we may want to protect pages to specific audience or users.
 
 In this tutorial, we're going to learn how to hide or show a page based on the web role assigned to the signed-in user.
