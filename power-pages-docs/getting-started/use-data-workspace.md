@@ -23,7 +23,7 @@ For their portals, makers can create basic forms, advanced forms, and lists by u
 
 ## Tables
 
-On the Data workspace left pane, **Tables in this site** contextually displays all tables being used in the site. **Other tables** displays all Dataverse tables in the environment and those that are used in basic forms created in the site. You can also create a new table or open an existing one in the table designer to add new columns and rows on the **Table data** tab.
+On the Data workspace left pane, **Tables in this site** contextually displays all tables being used in the site. **Other tables** displays Dataverse tables in the environment and the tables used in basic forms created in the site. You can also create a new table or open an existing one in the table designer to add new columns and rows on the **Table data** tab.
 
 For more information, go to [Create and modify tables using Data Workspace](../configure/data-workspace-tables.md).
 
