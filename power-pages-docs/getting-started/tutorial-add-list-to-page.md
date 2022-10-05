@@ -4,7 +4,7 @@ description: Learn how to add lists to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/04/2022
+ms.date: 10/05/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 

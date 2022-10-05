@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 10/05/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:

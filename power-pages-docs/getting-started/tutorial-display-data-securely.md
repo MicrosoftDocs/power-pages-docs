@@ -4,7 +4,7 @@ description: Learn how to set up table permissions and link to web roles.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/04/2022
+ms.date: 10/05/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
