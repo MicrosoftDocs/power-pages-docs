@@ -34,7 +34,7 @@ To add a form:
 
 1. Hover over any editable canvas area, and then select the **Form** icon.
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
 1. You can choose either to create a new form or use an existing form (if a maker has created one previously).
 
@@ -78,7 +78,7 @@ To edit a form field:
     - Mark the field as required, then customize the error message to be shown when the field is required.
     - Add a description to the field and adjust its position (choices include above the field, below the field, and above the label).
     - Set the validation rules for the field.
-        - Use the simple options to configure out-of-the-box validations.
+        - Use the options to configure out-of-the-box validations.
         - Use the Regex option to enter custom validation using regular expressions.
 
 ## Enable attachments on a form
