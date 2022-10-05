@@ -19,6 +19,8 @@ contributors:
 
 With the **Data** workspace, you can easily visualize and manage business data for the site with tables, forms, and lists. All the data and changes are stored in Microsoft Dataverse. You can create and edit tables for the site, and create new (or edit existing) model-driven forms and views.
 
+:::image type="content" source="media/data-workspace/table-designer.png" alt-text="Data workspace table designer.":::
+
 For their portals, makers can create basic forms, advanced forms, and lists by using forms and views created in the Data workspace.
 
 ## Tables
