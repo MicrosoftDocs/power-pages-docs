@@ -1,10 +1,10 @@
 ---
-title: Add an iframe
+title: Add an IFrame
 description: Learn how to add iframes to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/05/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,32 +13,32 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add an iframe
+# Add an IFrame
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Add an iframe component to your page to embed a page from any other website.
+Add an IFrame component to your page to embed a page from any other website.
 
-To add an iframe:
+To add an IFrame:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of the portal.
 
 1. Select the page you want to edit.
 
-1. Select the section you want to add the iframe component to.
+1. Select the section you want to add the IFrame component to.
 
-1. Hover over any editable canvas area, and then select the **iFrame** icon.
+1. Hover over any editable canvas area. Select ***...***, then select the **IFrame** icon.
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
 1. Enter the URL target.
 
-    :::image type="content" source="media/first-page/iframe.png" alt-text="Adding an iframe to a page.":::
+    :::image type="content" source="media/first-page/iframe.png" alt-text="Adding an IFrame to a page.":::
 
-1. To format your iframe, select it and a menu will appear where you can:
+1. To format your IFrame, select it and a menu will appear where you can:
 
-    - Change the iFrame URL
+    - Change the IFrame URL
 
     - Adjust the alignment
 
-    - Duplicate the iFrame, move it up/down within the section, or delete the iFrame.
+    - Duplicate the IFrame, move it up/down within the section, or delete the IFrame.
