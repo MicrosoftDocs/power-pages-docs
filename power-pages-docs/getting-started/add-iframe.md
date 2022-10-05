@@ -27,9 +27,7 @@ To add an IFrame:
 
 1. Select the section you want to add the IFrame component to.
 
-1. Hover over any editable canvas area. Select ***...***, then select the **IFrame** icon.
-
-    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
+1. Hover over any editable canvas area. Select ***...*** to display additional component options, then select the **IFrame** icon.
 
 1. Enter the URL target.
 
