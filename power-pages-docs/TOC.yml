@@ -31,7 +31,9 @@
         - name: After School template
           href: templates/after-school.md
         - name: Book a Meeting template
-          href: templates/book-a-meeting.md
+          href: templates/book-a-meeting.md 
+        - name: Dynamics 365 templates
+          href: templates/dynamics-365-templates.md     
     - name: Manage sites
       href: admin/manage-sites.md
     - name: Learning hub
