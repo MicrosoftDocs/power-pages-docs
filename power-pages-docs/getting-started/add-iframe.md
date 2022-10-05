@@ -27,7 +27,7 @@ To add an IFrame:
 
 1. Select the section you want to add the IFrame component to.
 
-1. Hover over any editable canvas area. Select ***...*** to display additional component options, then select the **IFrame** icon.
+1. Hover over any editable canvas area. Select ***...*** to display other component options, then select the **IFrame** icon.
 
 1. Enter the URL target.
 
