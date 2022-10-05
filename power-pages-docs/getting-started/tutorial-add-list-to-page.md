@@ -4,7 +4,7 @@ description: Learn how to add lists to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 5/24/2022
+ms.date: 10/05/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -96,10 +96,6 @@ Use the steps below to create a custom view for the table you created.
 For more information, see [Create and modify Dataverse views using data workspace](../configure/data-workspace-views.md).
 
 ## Add a list to the page
-
-This video provides an overview of the steps to add a list to the page.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYem]
 
 Use the steps below to add a list to a web page so you can view information stored in Dataverse.
 
