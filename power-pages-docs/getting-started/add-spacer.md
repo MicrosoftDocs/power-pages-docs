@@ -4,7 +4,7 @@ description: Learn how to add spacers to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/05/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -25,9 +25,9 @@ Use a spacer to add space between sections on your page to allow for different l
 
 1. Select the section you want to add the spacer component to.
 
-1. Hover over any editable canvas area, and then select the **Spacer** icon.
+1. Hover over any editable canvas area.  Select the ***...*** option, then select the **Spacer** icon.
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
 1. To format the spacer, select the spacer object.
 
