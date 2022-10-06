@@ -31,7 +31,9 @@
         - name: After School template
           href: templates/after-school.md
         - name: Book a Meeting template
-          href: templates/book-a-meeting.md
+          href: templates/book-a-meeting.md 
+        - name: Dynamics 365 templates
+          href: templates/dynamics-365-templates.md     
     - name: Manage sites
       href: admin/manage-sites.md
     - name: Learning hub
@@ -115,8 +117,8 @@
   - name: Power Pages design studio and Power Apps portals Studio
     href: configure/editing-sites.md
 - name: Administer Power Pages
-  items:
-    - name: Use the portals admin center
+  items:   
+    - name: Use the admin center
       href: admin/admin-overview.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
