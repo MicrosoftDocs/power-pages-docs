@@ -93,16 +93,13 @@ The Remote File Inclusion rule group protects against remote file inclusion (RFI
 
 The Cross-site Scripting rule group protects against cross-site scripting attacks.
 
-> [!NOTE]
-> This article contains references to the term *blacklist*, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
-
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
 | 941101     | XSS Attack Detected via libinjection               |
 | 941110     | XSS Filter - Category 1: Script Tag Vector         |
 | 941140     | XSS Filter - Category 4: JavaScript URI Vector     |
 | 941170     | NoScript XSS InjectionChecker: Attribute Injection |
-| 941180     | Node-Validator Blacklist Keywords                  |
+| 941180     | Node-Validator Allowlist Keywords                  |
 | 941190     | XSS Using style sheets                             |
 | 941200     | XSS using VML frames                               |
 | 941210     | XSS using obfuscated JavaScript                    |
