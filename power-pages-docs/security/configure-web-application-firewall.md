@@ -14,6 +14,8 @@ contributors:
 
 # Configure Web Application Firewall for Power Pages
 
+[!INCLUDE [preview-tags](../includes/preview-tags.md)]
+
 Web Application Firewall (WAF) is available for production websites.
 
 >[!IMPORTANT]
