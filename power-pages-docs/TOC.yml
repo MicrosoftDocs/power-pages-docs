@@ -117,8 +117,8 @@
   - name: Power Pages design studio and Power Apps portals Studio
     href: configure/editing-sites.md
 - name: Administer Power Pages
-  items:
-    - name: Use the portals admin center
+  items:   
+    - name: Use the admin center
       href: admin/admin-overview.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
