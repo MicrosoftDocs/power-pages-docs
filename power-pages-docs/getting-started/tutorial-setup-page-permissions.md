@@ -1,14 +1,15 @@
 ---
 title: "Tutorial: Set up page permissions"
 description: Learn how to allow or restrict access to your pages in your site.
-author: nickdoelman
+author: ankitavish
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 06/02/2022
+ms.date: 10/05/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: avishwakarma
+ms.reviewer: ndoelman
 contributors:
+    - ankitavish
     - nickdoelman
     - ProfessorKendrick
 ---
@@ -32,10 +33,6 @@ In this tutorial, we're going to learn how to hide or show a page based on the w
 - Complete the [Display data securely on pages](tutorial-display-data-securely.md) tutorial.
 
 ## Create page permissions
-
-This video provides an overview of the steps to create page permissions.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcs]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
