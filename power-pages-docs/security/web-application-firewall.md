@@ -1,5 +1,5 @@
 ﻿---
-title: Web Application Firewall overview
+title: Web Application Firewall overview (preview)
 description: Learn about Web Application Firewall for Power Pages.
 author: nickdoelman
 ms.topic: conceptual
@@ -12,7 +12,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web Application Firewall (WAF) for Power Pages
+# Web Application Firewall (WAF) for Power Pages (preview)
 
 [!INCLUDEcc-beta-prerelease-disclaimer]
 
@@ -44,3 +44,10 @@ The rule sets protect against the following threat categories:
 
 - Protocol enforcement
 
+### Next steps
+
+[Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
+
+### See also
+
+[Web Application Firewall DRS rule groups and rules for Power Pages (preview)](web-application-firewall-rule-groups.md)

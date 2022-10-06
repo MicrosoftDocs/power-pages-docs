@@ -61,3 +61,11 @@ Web Application Firewall (WAF) is available for production websites.
 1. On the **Performance & Protection** card, turn off **Enable Web Application Firewall**
 
 :::image type="content" source="media/configure-web-application-firewall/waf-disabled.gif" alt-text="The Enable Web Application Firewall toggle disabled inside design studio.":::
+
+### Next steps
+
+[Web Application Firewall DRS rule groups and rules for Power Pages (preview)](web-application-firewall-rule-groups.md)
+
+### See also
+
+[Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)

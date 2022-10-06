@@ -1,5 +1,5 @@
 ﻿---
-title: Web Application Firewall DRS rule groups and rules for Power Pages
+title: Web Application Firewall DRS rule groups and rules for Power Pages (preview)
 description: Learn about Web Application Firewall DRS rule groups and rules for Power Pages.
 author: nickdoelman
 ms.topic: conceptual
@@ -12,9 +12,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web Application Firewall DRS rule groups and rules for Power Pages
+# Web Application Firewall DRS rule groups and rules for Power Pages (preview)
 
-[!INCLUDE [preview-tags](../includes/preview-tags.md)]
+[!INCLUDEcc-beta-prerelease-disclaimer]
 
 The Web Application Firewall managed rule sets for Power Pages are a subset of Azure-managed [DRS 2.0 rule sets](/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20#drs-20). Each group contains multiple rules, and you can disable individual rules or entire rule groups.
 
@@ -137,3 +137,8 @@ The MS-ThreatIntel-AppSec rule group protects against AppSec attacks.
 |------------|----------------------------------------------------|
 | 99030001   | Path Traversal Evasion in Headers (/.././../)      |
 | 99030002   | Path Traversal Evasion in Request Body (/.././../) |
+
+### See also
+
+- [Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
+- [Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
