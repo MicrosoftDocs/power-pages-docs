@@ -4,7 +4,7 @@ description: Learn about Power Pages design studio.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/08/2022
+ms.date: 09/13/2022
 ms.author: clromano
 ms.reviewer: ndoelman
 contributors:
@@ -15,7 +15,10 @@ contributors:
 
 # Use design studio
 
-The Power Pages design studio is an intuitive interface that enables low-code makers to build and configure rich business web apps. 
+The Power Pages design studio is an intuitive interface that enables low-code makers to build and configure rich business web apps.
+
+> [!NOTE]
+> To use the design studio, you will need to be assigned the [system administrator role](/power-platform/admin/assign-security-roles) in the same Microsoft Dataverse environment as your site. 
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
