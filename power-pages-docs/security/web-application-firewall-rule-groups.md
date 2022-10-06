@@ -28,7 +28,6 @@ The General rule group protects against improperly formed requests.
 | **RuleId** | **Description**                                 |
 |------------|-------------------------------------------------|
 | 200002     | Failed to parse request body                    |
-| 200003     | Multipart request body failed strict validation |
 
 ## METHOD-ENFORCEMENT
 
@@ -49,10 +48,8 @@ The PROTOCOL-ENFORCEMENT rule group protects against protocol and encoding issue
 | 920160     | Content-Length HTTP header isn't numeric            |
 | 920170     | GET or HEAD Request with Body Content               |
 | 920171     | GET or HEAD Request with Transfer-Encoding          |
-| 920180     | POST request missing Content-Length Header          |
 | 920190     | Range: Invalid Last Byte Value                      |
 | 920200     | Range: Too many fields (6 or more)                  |
-| 920201     | Range: Too many fields for pdf request (35 or more) |
 | 920210     | Multiple/Conflicting Connection Header Data Found   |
 | 920220     | URL Encoding Abuse Attack Attempt                   |
 | 920240     | URL Encoding Abuse Attack Attempt                   |
@@ -78,9 +75,7 @@ The Local File Inclusion rule group protects against file and path attacks.
 
 | **RuleId** | **Description**              |
 |------------|------------------------------|
-| 930100     | Path Traversal Attack (/../) |
 | 930110     | Path Traversal Attack (/../) |
-| 930120     | OS File Access Attempt       |
 
 ## RFI - Remote File Inclusion
 
@@ -101,9 +96,8 @@ The Cross-site Scripting rule group protects against cross-site scripting attack
 
 | **RuleId** | **Description**                                    |
 |------------|----------------------------------------------------|
-| 941101     | XSS Attack Detected via libinjection              |
+| 941101     | XSS Attack Detected via libinjection               |
 | 941110     | XSS Filter - Category 1: Script Tag Vector         |
-| 941120     | XSS Filter - Category 2: Event Handler Vector      |
 | 941140     | XSS Filter - Category 4: JavaScript URI Vector     |
 | 941170     | NoScript XSS InjectionChecker: Attribute Injection |
 | 941180     | Node-Validator Blacklist Keywords                  |
@@ -132,7 +126,6 @@ The MS-ThreatIntel-WebShells rule group protects against Web shell attacks.
 | 99005002   | Web Shell Interaction Attempt (POST)           |
 | 99005003   | Web Shell Upload Attempt (POST) - CHOPPER PHP  |
 | 99005004   | Web Shell Upload Attempt (POST) - CHOPPER ASPX |
-| 99005006   | Spring4Shell Interaction Attempt               |
 
 ## MS-ThreatIntel-AppSec
 
