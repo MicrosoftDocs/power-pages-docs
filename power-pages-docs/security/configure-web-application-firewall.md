@@ -14,7 +14,7 @@ contributors:
 
 # Configure Web Application Firewall for Power Pages (preview)
 
-[!INCLUDEcc-beta-prerelease-disclaimer]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Web Application Firewall (WAF) is available for production websites.
 
