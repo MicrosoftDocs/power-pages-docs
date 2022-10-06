@@ -14,6 +14,8 @@ contributors:
 
 # Web Application Firewall DRS rule groups and rules for Power Pages
 
+[!INCLUDE [preview-tags](../includes/preview-tags.md)]
+
 The Web Application Firewall managed rule sets for Power Pages are a subset of Azure-managed [DRS 2.0 rule sets](/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20#drs-20). Each group contains multiple rules, and you can disable individual rules or entire rule groups.
 
 The following rule groups and rules are available using Web Application Firewall for Power Pages.
