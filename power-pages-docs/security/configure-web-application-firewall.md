@@ -16,13 +16,16 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Web Application Firewall (WAF) is available for production websites.
+Web Application Firewall (WAF) is available for production sites created using Power Pages. In this article, you'll learn about how to enable or disable Web Application Firewall for Power Pages sites.
 
->[!IMPORTANT]
-> - You must be an administrator to configure Web Application Firewall.
-> - WAF requires Content Delivery Network (CDN) on websites. You must [configure CDN](/power-apps/maker/portals/configure/configure-cdn) before you enable WAF.
+## Prerequisites
 
-## Enable Web Application Firewall for PowerPages sites
+You'll need the following before configuring WAF for your Power Pages website.
+
+- You must be an administrator to configure Web Application Firewall.
+- WAF requires Content Delivery Network (CDN) on sites. You must [configure CDN](/power-apps/maker/portals/configure/configure-cdn) before you enable WAF.
+
+## Enable Web Application Firewall for Power Pages sites
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments).
 
@@ -40,7 +43,7 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. Under **Performance & protection** card, turn on **Enable Web Application Firewall**
 
-:::image type="content" source="media/configure-web-application-firewall/waf-enabled.gif" alt-text="The Performance and Protection card inside design studio with the Enable Web Application Firewall toggle enabled.":::
+    :::image type="content" source="media/configure-web-application-firewall/waf-enabled.gif" alt-text="The Performance and Protection card inside design studio with the Enable Web Application Firewall toggle enabled.":::
 
 ## Disable Web Application Firewall for Power Pages sites
 
@@ -60,7 +63,7 @@ Web Application Firewall (WAF) is available for production websites.
 
 1. On the **Performance & Protection** card, turn off **Enable Web Application Firewall**
 
-:::image type="content" source="media/configure-web-application-firewall/waf-disabled.gif" alt-text="The Enable Web Application Firewall toggle disabled inside design studio.":::
+    :::image type="content" source="media/configure-web-application-firewall/waf-disabled.gif" alt-text="The Enable Web Application Firewall toggle disabled inside design studio.":::
 
 ### Next steps
 

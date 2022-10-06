@@ -21,7 +21,8 @@ Web Application Firewall (WAF) provides centralized protection for Power Pages s
 :::image type="content" source="media/web-application-firewall/waf-overview.png" alt-text="Diagram of the Web Application Firewall applied to Power Pages.":::
 
 > [!IMPORTANT]
-> [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## WAF mode for Power Pages
 
