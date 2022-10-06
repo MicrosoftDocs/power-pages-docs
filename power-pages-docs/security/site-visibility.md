@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/03/2022
+ms.date: 10/05/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -23,7 +23,7 @@ The Power Pages site visibility feature enables you to manage who has access to 
 > [!IMPORTANT]
 > - All new sites created in Power Pages are **Private** by default. When the website is ready to go live, you can change the site visibility to **Public**.
 > - Site visibility feature is only available for websites with version [9.4.9.x](/power-platform/released-versions/portals/portalupdate949x) or later.
-> - All websites created before October 12, 2022 are **Public** by default. To change the site to **Private**, go to Set up workspace in design studio and change the site visibility. More information: [Set up workspace](../configure/setup-workspace.md)
+> - All websites created during the preview period are **Public** by default. To change the site to **Private**, go to Set up workspace in design studio and change the site visibility. More information: [Set up workspace](../configure/setup-workspace.md)
 > - Be cautious when editing a public site because the changes are visible to external users immediately.
 
 ## Difference between a private site and a public site
