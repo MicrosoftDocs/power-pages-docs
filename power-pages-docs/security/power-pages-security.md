@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/03/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -20,10 +20,17 @@ An important consideration when building public-facing websites is to ensure tha
 
 Power Pages has a robust security model to ensure that business information is properly protected. The following key components are used to provide and protect access in Power Pages:
 
-- Authenticated user
+- Site visibility
+- Authenticated users
 - Web roles
 - Table permissions
 - Page permissions
+
+## Site visibility
+
+By default, all sites created in Power Pages are only available to users internal to your organization through the site visibility setting. This way, you can benefit from an additional layer of security using Azure Active Directory authentication to prevent accidental leaks of partially developed website data and design. When your website is ready to go live, change the site visibility to public making it accessible to everyone over the internet anonymously or secured with identity providers.
+
+More information: [Site visibility](site-visibility.md)
 
 ## Authenticated users
 
@@ -59,8 +66,15 @@ More information: [Page permissions](page-security.md)
 
 Power Pages can be integrated with any web application firewall infrastructure to provide extra protection against common web application attacks. For information on how to integrate it with Azure Front Door web application firewall, see [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door)
 
+## Deep dive: Architecture and security
+
+The following white papers allow you to explore Power Pages architecture and security at a deeper level. 
+
+| White paper | Description | Date |
+| - | - | - |
+| [Power Pages Architecture Whitepaper](https://aka.ms/PowerPagesArchitecture) | This white paper provides a comprehensive view of the capabilities of the Power Pages platform. It describes the architectural elements that enable Power Pages to scale, offer high reliability and availability, and protect business data to offer enterprise grade compliance and security.  | October 2022 |
+| [Power Pages Security](https://aka.ms/PowerPagesSecurity) | This white paper describes how Power Pages offers enterprise grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
 
 ### See also
-
-
+[Power Platform security](/power-platform/admin/security/)
 [Azure security](/azure/security/)
