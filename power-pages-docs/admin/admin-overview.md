@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin center
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 10/06/2022
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -34,6 +34,10 @@ The following capabilities are accessible from the admin center. More informatio
 
 ## Site Actions
 
+Select **Site Actions** to perform the following actions on your site.
+
+:::image type="content" source="media/site-actions.png" alt-text="Select site actions.":::
+
 | Action | More Information |
 | - | - |
 | Restart site | Restart the site. |
@@ -41,13 +45,26 @@ The following capabilities are accessible from the admin center. More informatio
 | Delete this site | See [Delete a portal](/power-apps/maker/portals/admin/reset-portal#delete-a-portal) |
 | Disable custom errors | See [Disable custom errors](/power-apps/maker/portals/admin/view-portal-error-log#disable-custom-error) |
 | Enable diagnostic logs | See [Enable diagnostic logging](/power-apps/maker/portals/admin/view-portal-error-log#enable-diagnostic-logging)
-| Enable maintenance mode | See [Maintenance mode for a portal](/power-apps/maker/portals/admin/enable-maintenance-mode)
+| Enable maintenance mode | See [Maintenance mode for a portal](/power-apps/maker/portals/admin/enable-maintenance-mode) |
+
+## Site Actions (...)
+
+Select **...** for additional site actions.
+
+:::image type="content" source="media/more-site-actions.png" alt-text="Selecting additional site actions.":::
+
+| Action | More Information |
+| - | - |
 | Manage Dynamics 365 Instance | See [Update the Dynamics 365 instance for your portal](/power-apps/maker/portals/admin/update-dynamics365-instance) |
 | Update Dynamics 365 URL | |
 | Metadata translations | See [Import metadata translation](/power-apps/maker/portals/admin/import-metadata-translation)
 | Install Field Service Extension | See [Integrate Field Service](/power-apps/maker/portals/customer-engagement-apps/integrate-field-service) |
 | Install Project Service Extension | See [Integrate Project Service Automation](/power-apps/maker/portals/customer-engagement-apps/integrate-project-service-automation) |
-| Switch to classic | Switch the to classic [portals admin center](/powerapps/maker/portals/admin/admin-overview) |
+
+## Switch to Classic
+| Action | More Information |
+| - | - |
+| Switch to classic | Switch the to classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview) |
 
 ## Site Details
 
