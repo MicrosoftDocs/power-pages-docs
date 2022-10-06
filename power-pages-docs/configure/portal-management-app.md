@@ -4,7 +4,7 @@ description: Learn how to use the Portal Management app.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 09/13/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -18,7 +18,10 @@ contributors:
 
 [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
-For managing your Power Pages sites, you'll use the Portal Management app. 
+For managing your Power Pages sites, you'll use the Portal Management app.
+
+> [!NOTE]
+> To use the Portal Management app, you will need to be assigned the [system administrator role](/power-platform/admin/assign-security-roles) in the same Microsoft Dataverse environment as your site.  
 
 ## Open the Portal Management app
 
