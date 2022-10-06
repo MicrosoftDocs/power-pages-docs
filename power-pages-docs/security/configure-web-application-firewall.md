@@ -1,5 +1,5 @@
 ﻿---
-title: Configure Web Application Firewall for Power Pages
+title: Configure Web Application Firewall for Power Pages (preview)
 description: Learn how to configure Web Application Firewall on Power Pages.
 author: nickdoelman
 ms.topic: conceptual
@@ -12,9 +12,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Configure Web Application Firewall for Power Pages
+# Configure Web Application Firewall for Power Pages (preview)
 
-[!INCLUDE [preview-tags](../includes/preview-tags.md)]
+[!INCLUDEcc-beta-prerelease-disclaimer]
 
 Web Application Firewall (WAF) is available for production websites.
 
