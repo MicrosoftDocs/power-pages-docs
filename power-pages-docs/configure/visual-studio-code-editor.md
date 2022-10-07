@@ -97,7 +97,7 @@ In this tutorial, you'll walk through editing the site code using Visual Studio 
 
 ## Using Visual Studio Code for Web or Visual Studio Code desktop
 
-Users can edit, debug, and preview changes to page edits using Visual Studio Code for the Web without needing to use external tools. Visual Studio Code for desktop provides additional advanced features for editing all site metadata and integrating with GitHub, frameworks, and continuous integration/continuous development (CI/CD) processes.
+Users can edit, debug, and preview changes to page edits using Visual Studio Code for the Web without needing to use external tools. Visual Studio Code for desktop provides other advanced features for editing all site metadata and integrating with GitHub, frameworks, and continuous integration/continuous development (CI/CD) processes.
 
 | Feature | Visual Studio for Web | Visual Studio Code desktop |
 | - | - | - |
