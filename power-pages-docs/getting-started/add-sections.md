@@ -4,7 +4,7 @@ description: Learn how to add sections to your Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/08/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -29,7 +29,7 @@ Use sections to define a structure for your page and arrange portal components. 
 
    You can then select between the following six section layout options.
 
-    :::image type="content" source="media/first-page/add-section-layout.png" alt-text="The six section layout options; one column, two column, three column, one third left, one third right, and spacer.":::
+    :::image type="content" source="media/common/add-section-layout.png" alt-text="The six section layout options.":::
 
 ## Editing a section
 
