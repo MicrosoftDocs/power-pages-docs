@@ -112,7 +112,7 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 ## Using the code editor
 
 > [!NOTE]
-> - Using Visual Studio Code for the Web to edit websites is not supported in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), and UAE region.  Users in these regions can use the code editor in design studio to make their changes.
+> - Using Visual Studio Code for the Web to edit websites is not supported in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD).  Users in these regions can use the code editor in design studio to make their changes.
 > - Regions that support the Visual Studio Code editor will not see the design studio code editor.
 
 To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the command bar.
