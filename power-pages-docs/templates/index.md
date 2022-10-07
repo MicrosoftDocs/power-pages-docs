@@ -43,8 +43,8 @@ The **building permit application** template is designed to show you the capabil
 
 More information: [Building permit application template](building-permit.md)
 
-## Blank template
+## Blank page template
 
-The **blank template** is designed so you can start with a complete blank site that can be customized using the design studio.
+The **blank page template** is designed so you can start with a complete blank site that can be customized using the design studio.
 
 More information: [Blank template](blank.md)
