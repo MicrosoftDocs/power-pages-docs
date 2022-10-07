@@ -1,5 +1,5 @@
 ---
-title: Edit code with Visual Studio Code for the Web
+title: Edit code with Visual Studio Code for the Web (preview)
 description: Learn how to customize pages by using the Visual Studio Code for the Web editor.
 author: neerajnandwana-msft
 ms.topic: conceptual
@@ -14,7 +14,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Edit code with Visual Studio Code for the Web
+# Edit code with Visual Studio Code for the Web (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -110,5 +110,4 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 
 ## See also
 
-- [Use code editor](../getting-started/code-editor.md)
 - [Use Visual Studio Code and Microsoft Power Platform CLI](cli-tutorial.md)
