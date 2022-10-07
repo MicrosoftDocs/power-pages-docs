@@ -26,8 +26,8 @@
       items:
         - name: Create sites using templates
           href: templates/index.md
-        - name: Default template
-          href: templates/default-template.md
+        - name: Site design templates
+          href: templates/site-design.md
         - name: After School template
           href: templates/after-school.md
         - name: Book a Meeting template
@@ -168,8 +168,16 @@
       href: security/table-permissions.md
     - name: Assign table permissions
       href: security/assign-table-permissions.md
-- name: Go live
-  items:
+    - name: Web Application Firewall (preview)
+      items:
+        - name: Web Application Firewall overview
+          href: security/web-application-firewall.md
+        - name: Configure Web Application Firewall
+          href: security/configure-web-application-firewall.md
+        - name: Web Application Firewall rule groups
+          href: security/web-application-firewall-rule-groups.md      
+- name: Go live 
+  items: 
     - name: Go live checklist
       href: go-live/checklist.md
     - name: Licensing
