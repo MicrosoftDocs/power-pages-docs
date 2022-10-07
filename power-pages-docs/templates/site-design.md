@@ -1,12 +1,12 @@
 ---
 title: Site design templates
 description: The site design templates provide basic building blocks for you to create custom sites.
-author: nickdoelman
+author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/28/2022
+ms.date: 10/07/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: deepabansal 
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
@@ -15,7 +15,7 @@ contributors:
 
 # Site design templates
 
-The site design templates provide basic building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
+The site design templates provide building blocks for you to create custom sites. Each site design template has different layout, images, and colors that can be used as-is or customized to meet your needs.
 
 :::image type="content" source="media/site-design.png" alt-text="Site design templates.":::
 
@@ -23,7 +23,7 @@ The site design templates provide basic building blocks for you to create custom
 
 Makers are able to use the design studio to modify the templates for their specific needs.
 
-The following are the pages, basic forms, and customizable tables provided in each site design template. These components can be modified to align with your specific project needs.
+The following are the pages, forms, and customizable tables provided in each site design template. These components can be modified to align with your specific project needs.
 
 ### Pages
 
