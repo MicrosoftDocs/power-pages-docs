@@ -1,14 +1,15 @@
 ---
 title: Add forms
 description: Add forms to your page in Power Pages.
-author: nickdoelman
+author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/13/2022
+ms.date: 10/07/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: clromano
+ms.reviewer: ndoelman
 contributors:
+    - clromano
     - nickdoelman
     - ProfessorKendrick
 ---
