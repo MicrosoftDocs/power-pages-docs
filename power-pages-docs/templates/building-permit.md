@@ -4,7 +4,7 @@ description: Learn about the building permit application template.
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/30/2022
+ms.date: 10/07/2022
 ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: ndoelman

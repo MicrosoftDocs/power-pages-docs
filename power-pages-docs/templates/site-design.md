@@ -4,7 +4,7 @@ description: The site design templates provide basic building blocks for you to 
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/28/2022
+ms.date: 10/07/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman

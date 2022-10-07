@@ -4,7 +4,7 @@ description: Learn the features of Power Pages templates.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/28/2022
+ms.date: 10/07/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -36,6 +36,12 @@ More information: [After school program registration template](after-school.md)
 The **schedule meetings with a financial institution** template is designed to show you the capabilities of a scheduling template. View availability and schedule a meeting online.
 
 More information: [Schedule meetings with a financial institution template](book-a-meeting.md)
+
+## Building permit application template
+
+The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their application.
+
+More information: [Building permit application template](building-permit.md)
 
 ## Blank template
 
