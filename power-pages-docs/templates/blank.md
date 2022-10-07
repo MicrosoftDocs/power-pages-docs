@@ -1,10 +1,10 @@
 ---
-title: Blank template
-description: The blank template provides a customizable site that you can start building from scratch.
+title: Blank Page template
+description: The Blank Page template provides a customizable site that you can start building from scratch.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/28/2022
+ms.date: 10/07/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Blank template
+# Blank Page template
 
 The **blank template** allows you to create a customized site from scratch. This blank template includes a single home page with a header, footer, and single section. Use this template to start from scratch and build something to your exact specifications.
 
