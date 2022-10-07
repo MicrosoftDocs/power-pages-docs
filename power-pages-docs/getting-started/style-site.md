@@ -4,7 +4,7 @@ description: Learn how to style your Power Pages site.
 author: rob-moyer
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/22/2022
+ms.date: 10/05/2022
 ms.subservice:
 ms.author: robmoyer 
 ms.reviewer: ndoelman
@@ -73,6 +73,6 @@ After a new color is added to the color palette, it can be used to color compone
 
 ### See also
 
-[Use design studio](use-design-studio.md)<br>
+[Use design studio](use-design-studio.md)<br />
 [Create and design pages](first-page.md)  
 [Customize pages](customize-pages.md)
