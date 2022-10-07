@@ -21,7 +21,7 @@ When you [create a new Power Pages site](../getting-started/create-manage.md), 
 
 ## Site design templates
 
-The **site design** templates provide basic building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
+The **site design** templates provide building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
 
 More information: [Site design templates](site-design.md)
 
@@ -45,6 +45,6 @@ More information: [Building permit application template](building-permit.md)
 
 ## Blank page template
 
-The **blank page template** is designed so you can start with a complete blank site that can be customized using the design studio.
+The **blank page template** allows you to create a custom website. This template includes a home page with a header, footer, and a single section. Use this template to build a site to your exact specifications.
 
 More information: [Blank page template](blank.md)

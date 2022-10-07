@@ -15,7 +15,7 @@ contributors:
 
 # Blank page template
 
-The **blank page template** allows you to create a customized site from scratch. This blank template includes a single home page with a header, footer, and single section. Use this template to start from scratch and build something to your exact specifications.
+The **blank page template** allows you to create a custom website. This template includes a home page with a header, footer, and a single section. Use this template to build a site to your exact specifications.
 
 :::image type="content" source="media/blank.png" alt-text="Blank template.":::
 
