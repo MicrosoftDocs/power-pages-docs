@@ -34,6 +34,7 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 > - This feature utilizes **Power Platform Tools** web extension. Web extensions are restricted by the browser sandbox and therefore have limitations compared to normal extensions.
 >   - Power Platform CLI is not supported.
 >   - Power Platform Tools web extension features are limited to Power Pages code editing experience.
+>   - This feature is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), and UAE region.  Users in these regions will use the code editor in design workspace to make their changes.  More information: [Using the code editor](#using-the-code-editor)
 
 ## Edit code available in design studio
 
@@ -107,6 +108,23 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 | [Power Platform CLI](/power-platform/developer/cli/introduction) support | No | Yes |
 | Advanced CPU and storage bound workflow - ReactJS or other framework build tool support | No | Yes |
 | GitHub integration with capabilities such as code check-in, check-out, managing conflicts, and merge. | No | Yes |
+
+## Using the code editor
+
+> [!NOTE]
+> - Using Visual Studio Code for the Web to edit websites is not supported in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), and UAE region.  Users in these regions can use the code editor in design studio to make their changes.
+> - Regions that support the Visual Studio Code editor will not see the design studio code editor.
+
+To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the command bar.
+
+:::image type="content" source="../getting-started/media/code-editor/code-edit-homepage.png" alt-text="The code editor icon.":::
+
+The source code is displayed in the code editor pane at the bottom of the screen. Any changes you made previously will be updated in the source code. To make changes, update the source code and then select **Save**. The changes will be reflected on the canvas.
+
+The code editor supports three docking options: docked on the bottom, docked on the right side, or full-screen edit mode.
+
+The code editor canvas supports HTML editing. To edit JavaScript or custom CSS, select **Edit CSS & JS**, which will take you to the Portal Management app. From there, select the **Advanced** tab to make any edits you want in the JavaScript and CSS sections.
+
 
 ## See also
 
