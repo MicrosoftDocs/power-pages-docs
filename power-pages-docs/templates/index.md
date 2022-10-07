@@ -25,19 +25,19 @@ The **site design** templates provide basic building blocks for you to create 
 
 More information: [Site design templates](site-design.md)
 
-## After school program registration
+## After school program registration template
 
 The **after school program registration** template is designed to show you the capabilities of a registration site to create events and allow stakeholders to register.
 
 More information: [After school program registration template](after-school.md)
 
-## Schedule meetings with a financial institution
+## Schedule meetings with a financial institution template
 
 The **schedule meetings with a financial institution** template is designed to show you the capabilities of a scheduling template. View availability and schedule a meeting online.
 
 More information: [Schedule meetings with a financial institution template](book-a-meeting.md)
 
-## Building permit application
+## Building permit application template
 
 The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their application.
 
@@ -47,4 +47,4 @@ More information: [Building permit application template](building-permit.md)
 
 The **blank page template** is designed so you can start with a complete blank site that can be customized using the design studio.
 
-More information: [Blank template](blank.md)
+More information: [Blank page template](blank.md)
