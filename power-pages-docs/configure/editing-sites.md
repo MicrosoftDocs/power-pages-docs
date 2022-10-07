@@ -61,7 +61,7 @@ New themes and styling options introduced in the [Styling workspace](../getting-
 
 ### Editing themes created in Power Apps portals Studio
 
-If you're using the Styling workspace with a site that had a theme applied using Power Apps portals Studio, you encounter the following behaviors;
+If you're using the Styling workspace with a site that had a theme applied using Power Apps portals Studio, you'll encounter the following behaviors;
 
 - The Styling workspace will show the theme as a **Custom theme**.
 - All the existing preset themes are available.
@@ -77,7 +77,7 @@ If you're using the Styling workspace with a site that had a theme applied using
 
 ### Editing custom themes
 
-A common method of styling a site is to upload a custom CSS file using the Portals Management App.
+A common method of styling a site is to upload a custom CSS file using the [Portals Management app](portal-management-app.md).
 
 There are also three CSS files added to all sites by default;
 - bootstrapmin.css
@@ -86,7 +86,7 @@ There are also three CSS files added to all sites by default;
 
 The display order of the custom CSS file should be higher than the default files and their display order shouldn't be modified.
 
-If the display order has been changed, you'll encounter the following behaviors;
+If the display order has been modified, you'll encounter the following behaviors;
 
 - The Styling workspace will show the theme as a **Custom theme**.
 - The existing preset themes won't be available.
@@ -117,9 +117,9 @@ In order to restore the display order of the default CSS files, follow these ste
     | theme.css | 9 |
     | portalbasictheme.css | 10 |
 
-1. Select **Save** to update the web file record.
+    :::image type="content" source="media/editing-sites/display-order.png" alt-text="Create a Power Pages site.":::
 
-:::image type="content" source="media/editing-sites/display-order.png" alt-text="Create a Power Pages site.":::
+1. Select **Save** to update the web file record.
 
 Any custom CSS files should have a display order higher than the default CSS files.
 
