@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create Dataverse forms.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 09/13/2022
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: ndoelman
@@ -93,6 +93,7 @@ The form designer interface has the following areas.
 | Show hidden | Displays hidden columns in the form preview area. By default, this option is turned off, and hidden columns don't appear on the form preview and are visible only from the tree view pane. When enabled, columns that are hidden are indicated in the form preview area. |
 | Zoom slider | Zooms in or out of the form preview, helping you take a closer look. |
 | Fit to width | Fits the form preview to the available width. |
+| Component | Bind a [custom code component](/power-apps/developer/component-framework/custom-controls-overview) to the field on the form. The code component can be [enabled on a form](../getting-started/add-form.md#enable-code-components-on-form-fields) using the Pages workspace. |
 
 ## See also
 
