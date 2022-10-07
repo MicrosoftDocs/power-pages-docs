@@ -1,12 +1,12 @@
 ---
 title: Site design templates
 description: The site design templates provide basic building blocks for you to create custom sites.
-author: nickdoelman
+author: deepa88 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/07/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: deepabansal 
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman

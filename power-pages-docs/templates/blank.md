@@ -1,12 +1,12 @@
 ---
 title: Blank page template
 description: The blank page template provides a customizable site that you can start building from scratch.
-author: nickdoelman
+author: deepa88 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/07/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: deepabansal 
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
