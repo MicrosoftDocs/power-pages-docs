@@ -33,7 +33,7 @@ To add a form:
 
 1. Select the section you want to add the form component to.
 
-1. Hover over any editable canvas area, and then select the **Form** icon.
+1. Hover over any editable canvas area, then select the **Form** icon from the component panel.
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 

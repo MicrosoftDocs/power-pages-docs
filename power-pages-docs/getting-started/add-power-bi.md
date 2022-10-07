@@ -29,7 +29,7 @@ Power BI must be enabled before you begin adding Power BI components. For more i
 
 1. Select the section you want to add the Power BI component to.
 
-1. Hover over any editable canvas area, and then select the **Power BI** icon.
+1. Hover over any editable canvas area, then select the **Power BI** icon from the component panel.
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 

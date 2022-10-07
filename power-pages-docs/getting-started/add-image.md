@@ -27,7 +27,7 @@ To add an image:
 
 1. Select the section you want to add the image component to.
 
-1. Hover over any editable canvas area, and then select the **Image** icon.
+1. Hover over any editable canvas area, then select the **Image** icon from the component panel.
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
