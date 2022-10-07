@@ -1,14 +1,15 @@
 ---
 title: Add forms
 description: Add forms to your page in Power Pages.
-author: nickdoelman
+author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/01/2022
+ms.date: 10/07/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: clromano
+ms.reviewer: ndoelman
 contributors:
+    - clromano
     - nickdoelman
     - ProfessorKendrick
 ---
@@ -49,7 +50,8 @@ To add a form:
     | Name your copy of the selected form| Give your copy of the form a name. |
     | Data | You can choose to have the data that's entered by a user create a new record, update existing records, or make the data read-only. |
     | On submit | You can choose optionally to show a success message. You must enter the options to redirect to a webpage and redirect to a URL. |
-    | Captcha | You can choose to show a captcha to anonymous users, authenticated users, or both.
+    | CAPTCHA | You can choose to show a captcha to anonymous users, authenticated users, or both. |
+    | Attachments | Allows you to [enable and configure attachments](#enable-attachments-on-a-form) for the form. |
 
     > [!NOTE]
     > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to interact with the data on the forms.
@@ -123,6 +125,22 @@ You can also adjust the permissions and assign web roles based on your requireme
 :::image type="content" source="media/add-form/table-permissions.png" alt-text="Table permissions menu.":::
 
 For more information, see [Configuring table permissions](../security/table-permissions.md).
+
+## Enable code components on form fields
+
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage.
+
+To enable the code component:
+
+1. Select the field and choose **Edit field**.
+
+1. Select **Enable Power Apps Component Framework field**.
+
+1. Select **OK**.
+
+    :::image type="content" source="media/add-form/enable-code-component.png" alt-text="Enabling code component on webpage form.":::
+
+The code component will now be available on the form.
 
 ### See also
 
