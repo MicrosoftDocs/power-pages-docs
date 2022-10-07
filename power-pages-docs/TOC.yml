@@ -28,12 +28,16 @@
           href: templates/index.md
         - name: Site design templates
           href: templates/site-design.md
-        - name: After School template
+        - name: After school template
           href: templates/after-school.md
-        - name: Book a Meeting template
+        - name: Book a meeting template
           href: templates/book-a-meeting.md 
+        - name: Building permit template
+          href: templates/building-permit.md
         - name: Dynamics 365 templates
-          href: templates/dynamics-365-templates.md     
+          href: templates/dynamics-365-templates.md   
+        - name: Blank page template
+          href: templates/blank.md  
     - name: Manage sites
       href: admin/manage-sites.md
     - name: Learning hub
@@ -76,16 +80,10 @@
             href: getting-started/add-form.md
           - name: Add multistep form
             href: getting-started/multistep-forms.md
-          - name: Add iframe
+          - name: Add IFrame
             href: getting-started/add-iframe.md            
-      - name: Edit page code
-        items:
-          - name: Use code editor
-            href: getting-started/code-editor.md
-          - name: Use Visual Code editor
+          - name: Use Visual Studio Code editor (preview)
             href: configure/visual-studio-code-editor.md            
-      - name: Use code editor
-        href: getting-started/code-editor.md
       - name: Structure your site map
         href: getting-started/structure-site.md                    
   - name: Use the Styling workspace

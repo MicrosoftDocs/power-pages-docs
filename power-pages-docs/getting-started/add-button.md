@@ -4,7 +4,7 @@ description: Learn how to add buttons to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/08/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -27,9 +27,9 @@ To add a button:
 
 1. Select the section you want to add the button component to.
 
-1. Hover over any editable canvas area, and then select the **Button** icon.
+1. Hover over any editable canvas area, then select the **Button** icon from the component panel.
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
 1. Specify the button label. This label will show up on the button component itself.
 

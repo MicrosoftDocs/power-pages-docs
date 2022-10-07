@@ -4,7 +4,7 @@ description: Learn about the Book a Meeting template
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/07/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -48,7 +48,7 @@ As a bank representative, you can do the following seamlessly:
 
 Makers are able to use the [design studio](../getting-started/use-design-studio.md) to modify the template for specific needs.
 
-The following are the pages, basic forms, and customizable tables provided in the template. These can be modified to align with your specific project needs.
+The following are the pages, basic forms, and customizable tables provided in the template. These components can be modified to align with your specific project needs.
 
 ### Pages
 
@@ -123,3 +123,8 @@ The template uses the following forms linked to Dataverse tables.
 ## Professional developers
 
 This template includes custom code and has been styled to follow best-in-class UX patterns. For custom code editing, use the [Microsoft Power Platform CLI](../configure/cli-tutorial.md) to download the site metadata, and use Visual Studio Code to view and modify the source code.
+
+### See also 
+
+[Tutorial: Add a page to your Power Pages site](../getting-started/tutorial-add-webpage.md)  
+[Create and design pages](../getting-started/first-page.md)
