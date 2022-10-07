@@ -4,7 +4,7 @@ description: Learn how to add text to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/08/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -19,7 +19,7 @@ contributors:
 
 Use a text box component to add text to your page.
 
-## Adding a text component:
+## Add a text component
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
@@ -27,15 +27,15 @@ Use a text box component to add text to your page.
 
 1. Select the section you want to add the text component to.
 
-1. Hover over any editable canvas area, and then select the **Text** icon.
+1. Hover over any editable canvas area, then select the **Text** icon from the component panel.
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
 1. Enter your custom text in the box.
 
     :::image type="content" source="media/first-page/add-text.png" alt-text="Adding text to a page.":::
 
-## Editing a text control
+## Edit a text control
 
 After a text control is added, selecting the text control will open the properties bar where you can configure its properties.
 

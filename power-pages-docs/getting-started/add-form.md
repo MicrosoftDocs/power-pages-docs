@@ -4,7 +4,7 @@ description: Add forms to your page in Power Pages.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
+ms.date: 10/08/2022
 ms.subservice:
 ms.author: clromano
 ms.reviewer: ndoelman
@@ -33,9 +33,9 @@ To add a form:
 
 1. Select the section you want to add the form component to.
 
-1. Hover over any editable canvas area, and then select the **Form** icon.
+1. Hover over any editable canvas area, then select the **Form** icon from the component panel.
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
 1. You can choose either to create a new form or use an existing form (if a maker has created one previously).
 
@@ -80,7 +80,7 @@ To edit a form field:
     - Mark the field as required, then customize the error message to be shown when the field is required.
     - Add a description to the field and adjust its position (choices include above the field, below the field, and above the label).
     - Set the validation rules for the field.
-        - Use the simple options to configure out-of-the-box validations.
+        - Use the options to configure out-of-the-box validations.
         - Use the Regex option to enter custom validation using regular expressions.
 
 ## Enable attachments on a form
@@ -116,7 +116,7 @@ Once configured, the file upload placeholder will show in the canvas.
 
 ### Enabling table permissions
 
-When you add a new form, you'll be prompted to set permissions to allow site users to interact with the form. The settings for table permissions will be pre-populated (**create** and **append to**), but you'll still need to assign web roles and save the settings. The process will automatically create the child table permissions for the **note (annotations)** table which contain the attachments.
+When you add a new form, you'll be prompted to set permissions to allow site users to interact with the form. The settings for table permissions will be pre-populated (**create** and **append to**), but you'll still need to assign web roles and save the settings. The process will automatically create the child table permissions for the **note (annotations)** table, which contain the attachments.
 
 :::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
 
