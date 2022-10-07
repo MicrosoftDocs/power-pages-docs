@@ -34,7 +34,7 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 > - This feature utilizes **Power Platform Tools** web extension. Web extensions are restricted by the browser sandbox and therefore have limitations compared to normal extensions.
 >   - Power Platform CLI is not supported.
 >   - Power Platform Tools web extension features are limited to Power Pages code editing experience.
->   - This feature is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), and UAE region.  Users in these regions will use the code editor in design workspace to make their changes.  More information: [Using the code editor](#using-the-code-editor)
+>   - This feature is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD).  Users in these regions will use the code editor in design workspace to make their changes.  More information: [Using the code editor](#using-the-code-editor)
 
 ## Edit code available in design studio
 
