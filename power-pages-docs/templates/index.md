@@ -37,7 +37,7 @@ The **schedule meetings with a financial institution** template is designed to
 
 More information: [Schedule meetings with a financial institution template](book-a-meeting.md)
 
-## Building permit application template
+## Building permit application
 
 The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their application.
 
