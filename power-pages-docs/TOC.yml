@@ -28,10 +28,12 @@
           href: templates/index.md
         - name: Site design templates
           href: templates/site-design.md
-        - name: After School template
+        - name: After school template
           href: templates/after-school.md
-        - name: Book a Meeting template
+        - name: Book a meeting template
           href: templates/book-a-meeting.md 
+        - name: Building permit template
+          href: templates/building-permit.md
         - name: Dynamics 365 templates
           href: templates/dynamics-365-templates.md   
         - name: Blank page template
