@@ -50,7 +50,8 @@ To add a form:
     | Name your copy of the selected form| Give your copy of the form a name. |
     | Data | You can choose to have the data that's entered by a user create a new record, update existing records, or make the data read-only. |
     | On submit | You can choose optionally to show a success message. You must enter the options to redirect to a webpage and redirect to a URL. |
-    | Captcha | You can choose to show a captcha to anonymous users, authenticated users, or both.
+    | CAPTCHA | You can choose to show a captcha to anonymous users, authenticated users, or both. |
+    | Attachments | Allows you to [enable and configure attachments](#enable-attachments-on-a-form) for the form. |
 
     > [!NOTE]
     > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to interact with the data on the forms.
