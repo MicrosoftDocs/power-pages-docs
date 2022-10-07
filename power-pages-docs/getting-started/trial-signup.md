@@ -3,7 +3,7 @@ title: "Sign up for a free trial - Power Pages | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Power Pages trial. Explore the app with tours and videos, and find more learning resources."
 author: sampatn
 ms.author: tbhagwat
-ms.date: 10/01/2022
+ms.date: 10/07/2022
 ms.topic: get-started
 ms.custom: template-trial-setup 
 ms.reviewer: ndoelman
@@ -29,9 +29,6 @@ Power Pages offers a free 30-day trial. After a quick sign-up, you'll have acces
     :::image type="content" source="media/trial/try-it-free.png" alt-text="The home page for Microsoft Power Pages with the Try it for free button emphasized.":::
 
 1. Follow the onscreen guidance to enter the work or school email address, backed by Azure Active Directory. And then, enter your country/region and phone number. A new [Microsoft Power Platform trial environment](/en-us/power-platform/admin/environments-overview) will be created for you.
-
-    > [!NOTE]
-    > If you cancel before moving with the next steps to create your first site in this new trial environment, go to [Create a site with Power Pages](create-manage.md) to create your first site later.
 
 1. (Optional) Choose an option that best matches your experience creating websites for a personalized learning experience.
 
