@@ -4,7 +4,7 @@ description: Learn how to customize pages by using the Visual Studio Code for th
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/03/2022
+ms.date: 10/08/2022
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -21,6 +21,10 @@ contributors:
 From the design studio, you can edit site code using **Visual Studio Code for the Web**. This feature allows you to edit a single page's content, custom CSS, and custom JavaScript.
 
 Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running entirely in your browser, allowing you to browse site code and make lightweight code changes quickly and safely. More information: [Visual Studio Code for the Web experience.](https://code.visualstudio.com/docs/editor/vscode-web)
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 :::image type="content" source="media/visual-studio-code-editor/vs-code-demo.gif" alt-text="Demo of using Visual Studio Code for Web to edit Power Pages site.":::
 
