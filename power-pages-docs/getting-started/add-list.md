@@ -4,7 +4,7 @@ description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/08/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -30,15 +30,15 @@ To add a list:
 
 1. Select the section you want to add the list component to.
 
-1. Hover over any editable canvas area, and then select the **List** icon.
+1. Hover over any editable canvas area, then select the **List** icon from the component panel.
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
 1. You can choose either to create a new list or use an existing list.
 
    If you choose to create a new list, you'll need to enter the following criteria.
  
-    :::image type="content" source="media/first-page/add-list.png" alt-text="The add a list to a page.":::
+    :::image type="content" source="media/first-page/add-list.png" alt-text="Add a list to a page.":::
 
     | List | Description |
     | ----------- | ----------- |

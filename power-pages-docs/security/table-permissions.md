@@ -198,7 +198,13 @@ The following message is displayed when you try to save a table permission witho
 
 :::image type="content" source="media/table-permissions/table-permission-without-webrole.png" alt-text="Saving a table permission without any associated web role.":::
 
+### Next Steps
+
+[Web Application Firewall DRS rule groups and rules for Power Pages (preview)](web-application-firewall-rule-groups.md)
+
 ### See also
 
+[Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
+[Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
 [Assign table permissions](assign-table-permissions.md)<br />
 [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)

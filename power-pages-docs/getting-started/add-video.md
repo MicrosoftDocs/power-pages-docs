@@ -4,7 +4,7 @@ description: Learn how to add videos to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 10/08/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -25,9 +25,9 @@ Use the video component to embed videos on your page.
 
 1. Select the section you want to add the video component to.
 
-1. Hover over any editable canvas area, and then select the **Video** icon.
+1. Hover over any editable canvas area, then select the **Video** icon from the component panel.
 
-    :::image type="content" source="media/first-page/add-component-to-section.png" alt-text="The add component menu.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
 1. You can select the video origin and enter the URL.  
     :::image type="content" source="media/first-page/add-video.png" alt-text="The Add a video menu with a URL prepopulated.":::
