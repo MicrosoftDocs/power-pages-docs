@@ -72,8 +72,8 @@ The following white papers allow you to explore Power Pages architecture and sec
 
 | White paper | Description | Date |
 | - | - | - |
-| [Power Pages Architecture Whitepaper](https://aka.ms/PowerPagesArchitecture) | This white paper provides a comprehensive view of the capabilities of the Power Pages platform. It describes the architectural elements that enable Power Pages to scale, offer high reliability and availability, and protect business data to offer enterprise grade compliance and security.  | October 2022 |
-| [Power Pages Security](https://aka.ms/PowerPagesSecurity) | This white paper describes how Power Pages offers enterprise grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
+| [Power Pages Architecture white paper](https://aka.ms/PowerPagesArchitecture) | This white paper provides a comprehensive view of the capabilities of the Power Pages platform. It describes the architectural elements that enable Power Pages to scale, offer high reliability and availability, and protect business data to offer enterprise grade compliance and security.  | October 2022 |
+| [Power Pages Security white paper](https://aka.ms/PowerPagesSecurity) | This white paper describes how Power Pages offers enterprise grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
 
 ### See also
 [Power Platform security](/power-platform/admin/security/)
