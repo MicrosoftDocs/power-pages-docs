@@ -5,7 +5,7 @@ author: ankitavish
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
+ms.date: 10/10/2022
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: ndoelman
@@ -84,9 +84,11 @@ There are also three CSS files added to all sites by default;
 - theme.css
 - portalbasictheme.css
 
-The display order of the custom CSS file should be higher than the default files and their display order shouldn't be modified.
+The display order of the custom CSS file should be higher than the **theme.css** and **bootstrapmin.css** files and lower than the **portalbasictheme.css** and the default display order shouldn't be modified.
 
-If the display order has been modified, you'll encounter the following behaviors;
+**portalbasictheme.css** > *custom.css* > **theme.css** > **bootstrapmin.css**
+
+If the display order has been modified, or the default CSS files have been disabled, you'll encounter the following behaviors;
 
 - The Styling workspace will show the theme as a **Custom theme**.
 - The existing preset themes won't be available.
@@ -109,19 +111,18 @@ In order to restore the display order of the default CSS files, follow these ste
 
 1. Open the **Portal management app** and in the **Content** section, locate **Web Files**.
 
-1. Locate the following web files and update the **display** order appropriately. 
+1. Locate the following web files and update the **display** order appropriately. You can use any values as long as the display order values are **portalbasictheme.css** > *custom.css* > **theme.css** > **bootstrapmin.css**. 
 
     | File | Display order |
     | - | - |
-    | bootstrap.min.css | 9 |
+    | bootstrap.min.css | 8 |
     | theme.css | 9 |
-    | portalbasictheme.css | 10 |
+    | *custom.css* | 10, 11, etc |
+    | portalbasictheme.css | 15 |
 
     :::image type="content" source="media/editing-sites/display-order.png" alt-text="Create a Power Pages site.":::
 
 1. Select **Save** to update the web file record.
-
-Any custom CSS files should have a display order higher than the default CSS files.
 
 For information on how to upload a custom CSS file, see [upload CSS files](manage-css.md#upload-css-files).
 
