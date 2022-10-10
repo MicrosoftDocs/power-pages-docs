@@ -4,7 +4,7 @@ description: Learn how to add multi-step forms to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/05/2022
+ms.date: 10/10/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -16,7 +16,7 @@ contributors:
 # Tutorial: Add a multi-step form to your page
 
 > [!IMPORTANT]
-> We are in the process of updating our tutorials. The steps below do not reflect the latest features available to create multi-step forms in Power Pages. Please go to our [feature documentation](multistep-forms.md) to see the latest information.
+> We are in the process of updating our tutorials. The steps below do not reflect the latest features available to create multi-step forms in Power Pages. Please refer to our [feature documentation](multistep-forms.md) to see the latest information.
 
 Advanced forms are a powerful way to collect and update information in Microsoft Dataverse from a page.  
 
