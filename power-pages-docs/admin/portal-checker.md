@@ -15,6 +15,6 @@ contributors:
 
 # Portal Checker
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 For detailed information on how to run Portal Checker, go to [Run Portal Checker](/powerapps/maker/portals/admin/portal-checker) in the Power Apps documentation.

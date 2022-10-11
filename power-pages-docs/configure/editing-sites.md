@@ -19,7 +19,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 There are two experiences for editing Power Pages and Power Apps portals sites.
 

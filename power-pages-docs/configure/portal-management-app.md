@@ -14,7 +14,7 @@ contributors:
 
 # Portal Management app overview
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 For managing your Power Pages sites, you'll use the Portal Management app.
 

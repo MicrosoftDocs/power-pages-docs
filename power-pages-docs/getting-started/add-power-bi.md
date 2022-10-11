@@ -35,7 +35,7 @@ Power BI must be enabled before you begin adding Power BI components. For more i
 
     :::image type="content" source="media/first-page/power-bi-properties.png" alt-text="Power BI properties.":::
 
-    [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+    
 
     For detailed information, go to [Add Power BI](/power-apps/maker/portals/add-powerbi) in the Power Apps documentation.
 

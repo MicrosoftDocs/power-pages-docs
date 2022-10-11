@@ -15,7 +15,7 @@ contributors:
 
 # Site capacity consumption reports
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 For detailed information on your Power Page's site capacity consumption, go to [Portals capacity consumption reports](/powerapps/maker/portals/admin/portal-consumption-reports) in the Power Apps documentation.
 

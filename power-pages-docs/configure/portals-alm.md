@@ -16,7 +16,7 @@ contributors:
 
 Makers and pro developers can use the Microsoft Power Platform CLI to download Power Pages site metadata, and use Azure Pipelines to commit the metadata to source control and deploy from development to other environments.
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 For detailed information on using the CLI for application lifecycle management (ALM), go to [Tutorial: Use Microsoft Power Platform CLI with portals](/power-apps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
 

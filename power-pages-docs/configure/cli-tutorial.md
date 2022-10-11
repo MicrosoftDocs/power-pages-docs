@@ -15,7 +15,7 @@ contributors:
 
 # Use Visual Studio Code and Microsoft Power Platform CLI
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 For detailed information on how to use Visual Studio Code and the Microsoft Power Platform CLI, go to [Use Microsoft Power Platform CLI with portals](/powerapps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
 

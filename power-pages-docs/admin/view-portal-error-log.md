@@ -14,7 +14,7 @@ contributors:
 
 # View site error logs
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 For detailed information on viewing error logs for your Power Pages site, go to [View portal error logs](/powerapps/maker/portals/admin/view-portal-error-log) in the Power Apps documentation.
 

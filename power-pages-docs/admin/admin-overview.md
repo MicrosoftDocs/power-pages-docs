@@ -14,8 +14,6 @@ contributors:
 
 # Use the admin center
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
-
 Power Pages uses the Power Platform admin center to provide administrators with various site configuration capabilities.
 
 1. To access the admin center, from the design studio, select the **Set up** workspace.

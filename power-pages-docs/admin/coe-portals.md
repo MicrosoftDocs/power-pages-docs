@@ -15,7 +15,7 @@ contributors:
 
 # Power Pages governance
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 Power Pages provides some helpful tools for administrators to manage their sites and environments.
 

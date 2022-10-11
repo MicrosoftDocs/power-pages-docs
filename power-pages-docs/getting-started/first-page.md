@@ -34,7 +34,7 @@ The **Pages** workspace enables you to design and build webpages with in-context
 
     :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within the design studio.":::
 
-    [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+    
 
     For detailed information on how to create custom page templates, go to [Create and manage page templates](/power-apps/maker/portals/configure/page-templates) and [Store source content by using web templates](/power-apps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
 

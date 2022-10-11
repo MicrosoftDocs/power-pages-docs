@@ -14,7 +14,7 @@ contributors:
 
 # Power Pages Web API overview
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 Power Pages functionality can be extended with pro-code methods. The Power Apps portals Web API provides site developers with methods to interact with Microsoft Dataverse information and functionality.
 
