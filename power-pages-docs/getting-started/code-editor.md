@@ -16,8 +16,6 @@ contributors:
 
 # Customize webpages by using the code editor
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 ## Using the code editor
 
 To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the command bar.

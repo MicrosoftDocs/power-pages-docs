@@ -11,6 +11,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "power-pages-docs/difference-portals.md",
+      "redirect_url": "introduction",
+      "redirect_document_id": "false"
+    },
+    {      
       "source_path": "power-pages-docs/templates/default-template.md",
       "redirect_url": "site-design",
       "redirect_document_id": "false"

@@ -15,8 +15,6 @@ contributors:
 
 # Add a Power BI component
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 You can add a Power BI component on a page to display Power BI dashboards and reports on your portal.
 
 Power BI must be enabled before you begin adding Power BI components. For more information, see: [Set up Power BI integration](/powerapps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization).
@@ -37,7 +35,7 @@ Power BI must be enabled before you begin adding Power BI components. For more i
 
     :::image type="content" source="media/first-page/power-bi-properties.png" alt-text="Power BI properties.":::
 
-    [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+    
 
     For detailed information, go to [Add Power BI](/power-apps/maker/portals/add-powerbi) in the Power Apps documentation.
 

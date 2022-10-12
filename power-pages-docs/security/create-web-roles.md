@@ -15,7 +15,7 @@ contributors:
 
 # Configure web roles
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 Before you grant authenticated users access to [table permissions](table-permissions.md) or [restricted pages](page-security.md), they must first be assigned to a web role.
 

@@ -15,11 +15,7 @@ contributors:
 
 # Go-live checklist
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - Power Pages is an evolution of Power Apps portals, and the new features introduced by Power Pages such as the new design studio and templates are in preview for users to try and provide feedback. We recommend that you wait until the general availability of Power Pages later this year to use sites created using the new Power Pages design studio in production scenarios.
-> - All the platform, site admin, and pro-developer capabilities inherited by Power Pages from Power Apps portals are generally available and can be used in production scenarios. More information: [Power Pages and Power Apps portals](../difference-portals.md)
+This checklist is guidance to help you plan your Power Pages projects.
 
 The [Set up workspace](../configure/setup-workspace.md) inside the design studio includes a built-in go-live checklist that includes various interactive tasks that help you prepare your site to go live. These tasks include guided experiences to view and complete recommended actions.
 

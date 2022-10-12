@@ -16,8 +16,6 @@ contributors:
 
 # Create and modify Dataverse views by using the Data workspace
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Views are a subset of table data. Create a view to select specific table columns and rows that you want to display in a site. The **Views** tab displays views used in the lists that are embedded in the site and all other views in the environment that are associated with the respective table. It only shows view types that are supported in portals. Selecting an existing view (or creating a new one) opens the Power Apps view designer, where you can define the view. Views are a foundation of portals lists.
 
 You use the [data workspace](..\getting-started\use-data-workspace.md) to create and modify Dataverse table views directly in the Power Pages design studio.

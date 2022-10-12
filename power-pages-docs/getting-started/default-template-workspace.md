@@ -15,8 +15,6 @@ contributors:
 
 # Data workspace for default template
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The default design template comes with a rich set of sample tables and data you can edit from within the maker studio. Select the **Data** workspace on the tool belt to look at the tables within the solution.
 
 :::image type="content" source="media/default-template/data.png" alt-text="The data workspace within maker studio.":::

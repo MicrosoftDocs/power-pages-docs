@@ -17,10 +17,6 @@ contributors:
 
 # Power Pages design studio and Power Apps portals Studio
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
-
 There are two experiences for editing Power Pages and Power Apps portals sites.
 
 - The new [Power Pages design studio](../getting-started/create-manage.md).

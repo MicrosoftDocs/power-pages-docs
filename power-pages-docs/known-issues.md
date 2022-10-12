@@ -1,5 +1,5 @@
 ---
-title: Known issues for Power Pages preview release
+title: Known issues for Power Pages release
 description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
@@ -13,8 +13,6 @@ contributors:
     - ProfessorKendrick
 ---
 # Known issues
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Power Pages trial
 

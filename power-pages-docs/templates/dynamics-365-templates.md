@@ -16,8 +16,6 @@ contributors:
 
 # Dynamics 365 templates
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Dynamics 365 templates are available for your Power Pages sites in environments containing Dynamics 365 applications, including:
 
 - Dynamics 365 Sales
