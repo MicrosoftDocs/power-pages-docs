@@ -21,5 +21,5 @@ As you work on projects and need to establish permanent sites that don't expire,
 
 For detailed information on licensing, go to [Power Pages licensing](/power-platform/admin/powerapps-flow-licensing-faq#power-pages) in the Power Platform admin documentation.
 
-## See also
+### See also
 [Power Pages pricing](https://powerpages.microsoft.com/pricing)
