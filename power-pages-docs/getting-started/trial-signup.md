@@ -15,12 +15,7 @@ contributors:
 
 # Sign up for a free Power Pages trial
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Power Pages offers a free 30-day trial. After a quick sign-up, you'll have access to many of the key features of Power Pages. You can use the trial to create trial sites and test them by using sample data, and even try out your own customer data. [Learn more about Power Pages](../introduction.md).
-
-> [!NOTE]
-> Trials created during the preview release will be automatically extended until general availability for Power Pages.
 
 **To sign up for the trial**
 

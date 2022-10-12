@@ -16,8 +16,6 @@ contributors:
 
 # Manage CSS files
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Cascading Style Sheets (CSS) allows you to control the formatting and styling of your site. 
 
 By default, new Power Pages sites will have *bootstrap.min.css*, *theme.css* and *portalbasictheme.css* files installed as part of the site templates. 

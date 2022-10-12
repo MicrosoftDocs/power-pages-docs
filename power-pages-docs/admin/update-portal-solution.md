@@ -14,9 +14,7 @@ contributors:
 
 # Update the Power Apps portals solution
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 When you add a Power Pages site to your environment, many solutions are installed. Periodically, new solutions updates are made available.
 

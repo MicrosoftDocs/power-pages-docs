@@ -15,8 +15,6 @@ contributors:
 
 # Create a site with Power Pages
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Power Pages provides a list of templates to choose from to quickly build your site. Customize and design your site using the new Power Pages design studio. Choose a default template to build your site or use scenario-based templates to accelerate creating your site.
 
 > [!TIP]

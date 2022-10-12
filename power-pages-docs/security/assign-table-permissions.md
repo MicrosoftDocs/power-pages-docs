@@ -14,8 +14,6 @@ contributors:
 
 # Assign table permissions
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Table permissions are assigned to [web roles](create-web-roles.md) to allow members of the web role access to data stored in Dataverse [tables](../configure/data-workspace-tables.md).
 
 1. Using the [design studio](../getting-started/use-design-studio.md), select **Set up** workspace.

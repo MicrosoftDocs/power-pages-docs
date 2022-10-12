@@ -15,9 +15,7 @@ contributors:
 
 # Provide access to external audiences
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 User information in Power Pages is stored as contact records in Dataverse. To configure contacts and invite them as users to your site, use the Portal Management app.
 

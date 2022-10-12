@@ -16,8 +16,6 @@ contributors:
 
 # Create and design pages
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 A page in Power Pages is a webpage: a container for content that's identified by a unique URL in a website. A page is one of the core objects of the website. The parent and child relationships between pages build the hierarchy of a website.
 
 ## Create a page
@@ -36,7 +34,7 @@ The **Pages** workspace enables you to design and build webpages with in-context
 
     :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within the design studio.":::
 
-    [!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+    
 
     For detailed information on how to create custom page templates, go to [Create and manage page templates](/power-apps/maker/portals/configure/page-templates) and [Store source content by using web templates](/power-apps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
 

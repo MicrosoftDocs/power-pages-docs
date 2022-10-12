@@ -14,9 +14,7 @@ contributors:
 
 # Compliance and privacy
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 Power Pages meets the highest levels of trust, transparency, standards conformance, and regulatory compliance such as the General Data Protection Regulation (GDPR), in addition to modern TLS crypto standards (TLS 1.2). It conforms with global accessibility standards.
 

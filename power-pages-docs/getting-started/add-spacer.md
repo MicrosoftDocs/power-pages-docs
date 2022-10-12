@@ -15,8 +15,6 @@ contributors:
 
 # Add a spacer
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Use a spacer to add space between sections on your page to allow for different layout and design options. 
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.

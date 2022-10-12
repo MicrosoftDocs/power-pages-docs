@@ -39,4 +39,3 @@ Makers can also install the site PWA from their device's app store, if you creat
 ## Next step
 
 [Build progressive web apps](build-progressive-web-apps.md)
-

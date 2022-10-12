@@ -14,8 +14,6 @@ contributors:
 
 # Preview features in Power Pages trial
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 This article lists the upcoming preview features that will be enabled by default in your Power Pages trial. Review the information in this page to understand what's coming up.
 
 The following preview feature will be automatically enabled in your trial app when they become available:

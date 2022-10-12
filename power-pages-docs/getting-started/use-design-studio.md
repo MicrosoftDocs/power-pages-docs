@@ -15,8 +15,6 @@ contributors:
 
 # Use design studio
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The Power Pages design studio is an intuitive interface that enables low-code makers to build and configure rich business web apps.
 
 > [!NOTE]
