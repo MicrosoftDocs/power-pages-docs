@@ -74,5 +74,5 @@ The following white papers allow you to explore Power Pages architecture and sec
 | [Power Pages Security white paper](https://aka.ms/PowerPagesSecurity) | This white paper describes how Power Pages offers enterprise grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
 
 ### See also
-[Power Platform security](/power-platform/admin/security/)
+[Power Platform security](/power-platform/admin/security/)<br/>
 [Azure security](/azure/security/)
