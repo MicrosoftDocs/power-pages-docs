@@ -15,8 +15,6 @@ contributors:
 
 # Add text
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Use a text box component to add text to your page.
 
 ## Add a text component

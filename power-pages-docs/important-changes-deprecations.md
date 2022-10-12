@@ -19,13 +19,7 @@ contributors:
 
 # Important upcoming changes and deprecations in Power Pages
 
-The announcements for changes and deprecations described in this article apply to Power Pages.
-
-Makers, developers, and IT pros can use this information to prepare for future releases.
-
-[!INCLUDE[powerapps-info](includes/cc-powerapps-info.md)]
-
-For more information, go to [Important upcoming changes and deprecations in Power Apps portals](/power-apps/maker/portals/important-changes-deprecations) in the Power Apps documentation.
+The announcements for changes and deprecations described in this article apply to Power Pages. Makers, developers, and IT pros can use this information to prepare for future releases.
 
 > [!IMPORTANT]
 > *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.

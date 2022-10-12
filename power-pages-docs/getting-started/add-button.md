@@ -15,8 +15,6 @@ contributors:
 
 # Add a button
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)] 
-
 Use a button to provide an interactive area to redirect the user to.
 
 To add a button:

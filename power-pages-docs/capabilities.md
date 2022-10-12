@@ -16,8 +16,6 @@ contributors:
 
 # Power Pages capabilities
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 You can quickly create and design professional and secure sites for your business with Power Pages. This article provides an overview of key Power Pages capabilities. 
 
 ## Simplified authoring experience for makers

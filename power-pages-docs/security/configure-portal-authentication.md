@@ -15,7 +15,7 @@ contributors:
 
 # Configure authentication
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
+
 
 As you build your site, you may wish to control access both to pages and data to specific users. Power Pages uses Microsoft Dataverse contact records to associate to authenticated Power Pages site users.
 

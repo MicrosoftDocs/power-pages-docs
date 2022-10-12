@@ -14,8 +14,6 @@ contributors:
 ---
 # How to use the learning hub
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 With the learning hub, you can explore documents, videos, and other resources that will help make it easier for you to create the website you want.
 
 To access the learning hub, go to the Power Pages home page and select **Learn** on the left pane.

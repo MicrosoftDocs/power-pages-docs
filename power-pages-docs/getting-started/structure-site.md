@@ -15,8 +15,6 @@ contributors:
 
 # Create site structure
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 When you've created a few pages, the page hierarchy is displayed in a nested structure on the **Main navigation** menu.
 
 To change page hierarchy:

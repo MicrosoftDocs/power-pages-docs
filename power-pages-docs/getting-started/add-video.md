@@ -15,8 +15,6 @@ contributors:
 
 # Add a video
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Use the video component to embed videos on your page.
 
 ## Adding a video

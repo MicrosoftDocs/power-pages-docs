@@ -15,8 +15,6 @@ contributors:
 
 # Plan your Power Pages project
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)] 
-
 This article serves as guidance for enterprise teams working on projects and may go beyond the scope of a maker creating a site for a specific business need. Creating a plan with clear outcomes and expectations is always good practice regardless of the size of your project.
 
 > [!NOTE]
