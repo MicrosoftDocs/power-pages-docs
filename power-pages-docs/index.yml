@@ -32,7 +32,11 @@ highlightedContent:
   # Card
     - title: Getting started videos
       itemType: video
-      url: training-videos/index.md           
+      url: training-videos/index.md
+  # Card
+    - title: Get started with Power Pages
+      itemType: learn
+      url: /training/paths/power-pages-get-started
 
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
