@@ -34,7 +34,7 @@ highlightedContent:
       itemType: video
       url: training-videos/index.md
   # Card
-    - title: Get started with Power Pages
+    - title: Power Pages training
       itemType: learn
       url: /training/paths/power-pages-get-started
 
