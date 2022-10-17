@@ -4,7 +4,7 @@ description: Learn how to allow or restrict access to your pages in your site.
 author: ankitavish
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/10/2022
+ms.date: 10/17/2022
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: ndoelman
