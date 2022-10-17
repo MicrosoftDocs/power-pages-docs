@@ -60,13 +60,13 @@ In this tutorial, we're going to learn how to hide or show a page based on the a
 
 1. With no user signed-in, observe that the web page that was protected doesn't appear in the main menu or navigation.
 
-    :::image type="content" source="media/tutorial/page-permissions-no-view.png" alt-text="No visibility because page is protected.":::
+    :::image type="content" source="media/tutorial-page-permissions/page-permissions-no-view.png" alt-text="No visibility because page is protected.":::
 
 1. Sign-in to the site. (You can use **Azure AD** for purposes of this tutorial)
 
 1. You should now see the page link appear in the main menu you should be able to view the page.
 
-    :::image type="content" source="media/tutorial/page-permissions-view.png" alt-text="Page available because of user has access.":::
+    :::image type="content" source="media/tutorial-page-permissions/page-permissions-view.png" alt-text="Page available because of user has access.":::
 
 Page permissions will allow you to specify which users or which roles have access to a specific webpage. Use [table permissions](../security/assign-table-permissions.md) to configure access to Microsoft Dataverse data.
 
