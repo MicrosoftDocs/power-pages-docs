@@ -66,7 +66,7 @@ In this example, we are going to add some custom CSS files that will allow us to
 
     :::image type="content" source="media/tutorial/css-order.png" alt-text="Disable or move the order of the CSS file.":::
 
-1. You can directly edit a CSS file by selecting the ellipse (**...**) and selecting Edit Code. This will open the Visual Code for the Web editor. Select **CTRL-S** to save your changes. 
+1. You can directly edit a CSS file by selecting the ellipse (**...**) and selecting **Edit code**. This will open the [Visual Code for the Web](../configure/visual-studio-code-editor.md) editor. Select **CTRL-S** to save your changes. 
 
     :::image type="content" source="media/tutorial/edit-css-vscode.png" alt-text="Edit the CSS file in Visual Studio Code for the Web.":::
 
@@ -76,4 +76,4 @@ In this example, we are going to add some custom CSS files that will allow us to
 
 > [!NOTE]
 >
-> To completely remove the custom theme; delete or de-activate the web file record in the [Portal Management app](../configure/portal-management-app.md).
+> To completely remove the custom theme; delete  the web file record in the [Portal Management app](../configure/portal-management-app.md).
