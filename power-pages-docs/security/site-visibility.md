@@ -1,13 +1,14 @@
 ---
 title: Site visibility in Power Pages
 description: Learn how to secure your Power Pages site by using site visibility and easily switch site visibility between private and public options.
-author: nickdoelman
+author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/05/2022
-ms.author: ndoelman
+ms.date: 10/17/2022
+ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
+    - nageshbhat-msft
     - nickdoelman
     - ProfessorKendrick
 ---
@@ -127,6 +128,10 @@ To delegate site visibility to specific system administrators:
 
 After you add the security group, all system administrators that are part of the added security group can manage site visibility. System administrators that aren't part of this security group will have the site visibility section disabled.
 
-### See also
+## Known issues
+
+A Power Pages website in private mode will not work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the site visibility state to **public** before disabling Azure Active Directory authentication.
+
+## See also
 
 [Configure authentication](configure-portal-authentication.md)
