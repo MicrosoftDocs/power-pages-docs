@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/17/2022
+ms.date: 10/18/2022
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -91,6 +91,9 @@ For example:
 $myTenantSettings = Get-TenantSettings
 $ myTenantSettings.powerPlatform.powerPages
 ```
+
+>[!NOTE]
+>Tenant settings whose value is null do not show up in the list. As the default value for the tenant setting **enableSystemAdminsToChangeSiteVisibility** is null, it will not show for the first time. Once the value is set to true or false, you will be able to see the setting in the list.
 
 To set a value for the tenant setting (`true` or `false`), use [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command.
 
