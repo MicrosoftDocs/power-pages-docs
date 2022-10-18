@@ -133,7 +133,7 @@ After you add the security group, all system administrators that are part of the
 
 ## Known issues
 
-A Power Pages website in private mode will not work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the site visibility state to **public** before disabling Azure Active Directory authentication.
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the site visibility state to **public** before disabling Azure Active Directory authentication.
 
 ## See also
 
