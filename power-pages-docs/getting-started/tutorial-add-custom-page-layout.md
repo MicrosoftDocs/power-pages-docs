@@ -4,7 +4,7 @@ description: Learn how to add a custom page layout your Power Pages sites.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 09/02/2022
+ms.date: 10/18/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -14,13 +14,19 @@ contributors:
 ---
 # Tutorial: Add custom page layout to your site
 
-In this tutorial, you'll learn how to create a custom page layout using [Liquid](../configure/liquid-overview.md) and a page template based on a web template.  Our goal is to build a simple two-column template that the main site menu as left-side navigation, with the page content to the right. 
+When you create new webpages using the Pages workspace you have a choice of provided page layouts. In some cases you may want to create a custom page layout to display information in a certain format or to provide a specialized user interface.
+
+In this tutorial, you'll learn how to create a custom page layout using [Liquid](../configure/liquid-overview.md).
+
+Our example scenario is to build a simple two-column template that the main site menu as left-side navigation, with the page content to the right.
+
+Here are the following steps and assets that will be created to provide a custom page layout:
 
 > [!div class="checklist"]
-> * Create a common base web template with code to establish basic page layout.
-> * Create a second web template with additional code to demonstrate the modular features of web templates.
-> * Create a page template record referencing the web template which configures how the page layout will be rendered on the site.
-> * Create a web page using the custom page layout.
+> * We'll create a common base web template with custom code to establish basic page layout.
+> * We'll create a second web template with additional code to demonstrate the modular features of web templates.
+> * We'll also create a page template record referencing the web template that will configures how the page layout will be rendered on the site.
+> * Finally, we will create a web page using the custom page layout.
 
 ## Prerequisites
 
