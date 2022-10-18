@@ -1,20 +1,19 @@
 ---
 title: Site visibility in Power Pages
 description: Learn how to secure your Power Pages site by using site visibility and easily switch site visibility between private and public options.
-author: nickdoelman
+author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/05/2022
-ms.author: ndoelman
+ms.date: 10/18/2022
+ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
+    - nageshbhat-msft
     - nickdoelman
     - ProfessorKendrick
 ---
 
 # Site visibility in Power Pages
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Power Pages site visibility feature enables you to manage who has access to your website. You can make your site **Private** to restrict access to specific people in your organization, or **Public** so that anyone with the link has access.
 
@@ -93,6 +92,9 @@ $myTenantSettings = Get-TenantSettings
 $ myTenantSettings.powerPlatform.powerPages
 ```
 
+>[!NOTE]
+>Tenant settings whose value is null do not show up in the list. As the default value for the tenant setting **enableSystemAdminsToChangeSiteVisibility** is null, it will not show for the first time. Once the value is set to true or false, you will be able to see the setting in the list.
+
 To set a value for the tenant setting (`true` or `false`), use [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command.
 
 For example:
@@ -129,6 +131,10 @@ To delegate site visibility to specific system administrators:
 
 After you add the security group, all system administrators that are part of the added security group can manage site visibility. System administrators that aren't part of this security group will have the site visibility section disabled.
 
-### See also
+## Known issues
+
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the site visibility state to **public** before disabling Azure Active Directory authentication.
+
+## See also
 
 [Configure authentication](configure-portal-authentication.md)

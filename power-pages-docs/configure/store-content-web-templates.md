@@ -14,9 +14,7 @@ contributors:
 
 # Web templates
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[powerapps-info](../includes/cc-powerapps-info.md)]
 
 In order to create custom page layouts for Power Pages, you'll need to create a **web template** and a corresponding **page template**. 
 

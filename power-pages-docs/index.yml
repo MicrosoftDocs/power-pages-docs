@@ -1,12 +1,12 @@
 ### YamlMime:Hub
 
-title: Microsoft Power Pages (preview) documentation 
+title: Microsoft Power Pages documentation 
 summary: Use Power Pages to create external-facing websites that allow users outside their organizations to sign in with a wide variety of identities, create and view data in Dataverse, or even browse content anonymously. 
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: power-pages
 
 metadata:
-  title: Microsoft Power Pages (preview) documentation
+  title: Microsoft Power Pages documentation
   description: Provides access to highlighted areas within the Power Pages documentation
   services: service
   ms.service: power-pages 
@@ -32,7 +32,11 @@ highlightedContent:
   # Card
     - title: Getting started videos
       itemType: video
-      url: training-videos/index.md           
+      url: training-videos/index.md
+  # Card
+    - title: Power Pages training
+      itemType: learn
+      url: /training/paths/power-pages-get-started
 
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -61,7 +65,7 @@ conceptualContent:
           url: getting-started/community.md
           itemType: reference                                                                                                                                                                                                               
     # Card
-    - title: Tutorials and videos
+    - title: Tutorials
       summary: Follow step-by-step tutorials with videos to learn about Power Pages
       links:        
         - text: Tutorials and training videos overview
@@ -166,7 +170,10 @@ conceptualContent:
         itemType: how-to-guide    
       - text: Configure table permissions
         url: security/table-permissions.md
-        itemType: how-to-guide                                                                                 
+        itemType: how-to-guide
+      - text: Architecture and security white papers
+        url: security/power-pages-security.md#deep-dive-architecture-and-security
+        itemType: download                                                                                         
     # Card    
     - title: Go live
       summary: Launch your site        

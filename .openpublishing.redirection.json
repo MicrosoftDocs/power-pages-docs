@@ -11,6 +11,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "power-pages-docs/difference-portals.md",
+      "redirect_url": "introduction",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "power-pages-docs/templates/default-template.md",
       "redirect_url": "site-design",
       "redirect_document_id": "false"
@@ -19,6 +24,11 @@
       "source_path": "power-pages-docs/getting-started/tutorial-pcf-code.md",
       "redirect_url": "/power-apps/maker/portals/tutorial-pcf-code",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/code-editor.md",
+      "redirect_url": "/power-pages/configure/visual-studio-code-editor",
+      "redirect_document_id": "false"
     }
-   ]
+  ]
 }

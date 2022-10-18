@@ -15,9 +15,7 @@ contributors:
 
 # Add an IFrame
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-Add an IFrame component to your page to embed a page from any other website.
+Add an iFrame component to your page to embed a page from any other website.
 
 To add an IFrame:
 

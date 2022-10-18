@@ -1,10 +1,10 @@
 ---
-title: Known issues for Power Pages preview release
+title: Known issues for Power Pages release
 description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/23/2022
+ms.date: 10/17/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -13,8 +13,6 @@ contributors:
     - ProfessorKendrick
 ---
 # Known issues
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Power Pages trial
 
@@ -78,3 +76,6 @@ Makers can adjust the background color by modifying the theme in the Style works
 
 Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color). To do this, choose the original value and select **Save**.
 
+## Site visibility
+
+A Power Pages website in private mode will not work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
