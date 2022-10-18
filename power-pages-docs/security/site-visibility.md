@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/17/2022
+ms.date: 10/18/2022
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -92,6 +92,9 @@ $myTenantSettings = Get-TenantSettings
 $ myTenantSettings.powerPlatform.powerPages
 ```
 
+>[!NOTE]
+>Tenant settings whose value is null do not show up in the list. As the default value for the tenant setting **enableSystemAdminsToChangeSiteVisibility** is null, it will not show for the first time. Once the value is set to true or false, you will be able to see the setting in the list.
+
 To set a value for the tenant setting (`true` or `false`), use [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command.
 
 For example:
@@ -130,7 +133,7 @@ After you add the security group, all system administrators that are part of the
 
 ## Known issues
 
-A Power Pages website in private mode will not work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the site visibility state to **public** before disabling Azure Active Directory authentication.
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the site visibility state to **public** before disabling Azure Active Directory authentication.
 
 ## See also
 
