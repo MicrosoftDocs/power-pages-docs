@@ -18,7 +18,7 @@ Makers and pro developers can use the Microsoft Power Platform CLI to download P
 
 ## Power Platform CLI
 
-Microsoft Power Platform CLI is a simple command line interface (CLI) that empowers developers and ISVs to perform various operations in Microsoft Power Platform.
+Microsoft Power Platform CLI is a simple command line interface (CLI) that empowers developers and ISVs to perform various operations in the Microsoft Power Platform.
 
 Power Pages supports Microsoft Power Platform CLI to enable CI/CD (Continuous Integration/Continuous Deployment) of website configuration. You can now check in the website configuration to source control and move website configuration to any environment using Microsoft Power Platform CLI.
  
