@@ -52,6 +52,8 @@ First, we'll create our web template and write the Liquid template code. We're l
 
     :::image type="content" source="media/tutorial-custom-layouts/two-column-layout.png" alt-text="Custom web template for the two column layout.":::
 
+1. Paste the following code into the **Source** field.
+
     ### Two Column Layout (Web Template)
 
     ```html
