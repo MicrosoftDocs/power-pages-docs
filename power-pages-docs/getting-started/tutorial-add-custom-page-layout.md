@@ -4,7 +4,7 @@ description: Learn how to add a custom page layout your Power Pages sites.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/18/2022
+ms.date: 10/20/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -153,7 +153,9 @@ In this step, we'll create a new page template that is based on the web template
 
 ## Step 4: Create a web page to display content
 
-1. From the **design studio**, in the **Pages** workspace, select **+ Page**.
+1. In the **design studio**, select **Sync**. This is bring updates made in the Portal Management app to the design studio.
+
+1. In the **Pages** workspace, select **+ Page**.
 
 1. In the **Add a page** dialog;
     1. Enter in **Page name** 
@@ -172,20 +174,25 @@ In this example, we'll need to link the navigation record to the content page in
 
 1. In the **Portal Management app**, scroll to the **Content** section and select **Web Pages**.
 
-1. Locate and open the page you created previously in the **Pages** workspace.
+1. Locate and open the page you created previously in the **Pages** workspace. This will open the root webpage. We will need to make our changes in the related localized content page.
 
-1. Go to the localized content web page.
+1. Scroll down and in the **Localized Content** section , select the localized content web page.
 
     :::image type="content" source="media/tutorial-custom-layouts/web-page.png" alt-text="Select the localized content page.":::
+
+    > [!NOTE]
+    > If you have multiple languages provisioned, you will need to update each localized page.
 
 1. Go to the **Miscellaneous** section and select the web link set you want to display in the **Navigation** field.
 
     :::image type="content" source="media/tutorial-custom-layouts/navigation-link.png" alt-text="Navigation lookup." border="true"::: 
 
-1. Preview your custom page to see the side navigation implemented.
+1. Save your changes, and return to the **design studio**.
+
+1. Select **Preview** and then **Desktop** to view your custom page with the side navigation implemented.
  
     :::image type="content" source="media/tutorial-custom-layouts/custom-page.png" alt-text="Web page using custom layout." border="true"::: 
-  
+
 ### See also
 
 - [Create a custom page layout](../configure/custom-page-layouts.md)  
