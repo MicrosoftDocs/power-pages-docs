@@ -14,7 +14,7 @@ contributors:
 
 # Security guidance overview
 
-Power Pages offers enhanced control, protection, and security for administrators, website makers, and website visitors. It empowers makers to extend business data and processes to external users securely and helps ensure compliance. As a platform, it offers comprehensive compliance coverage across global, regional, government, and industry-specific compliance standards, making it a trusted Low code application platform. Business data which website users interact with is securely stored in [Microsoft Dataverse](https://docs.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro). Power Pages tightly integrates with products and capabilities such as Power Apps, Power Automate, Power Virtual Agents, Power BI, and Microsoft SharePoint.
+Power Pages offers enhanced control, protection, and security for administrators, website makers, and website visitors. It empowers makers to extend business data and processes to external users securely and helps ensure compliance. As a platform, it offers comprehensive compliance coverage across global, regional, government, and industry-specific compliance standards, making it a trusted Low code application platform. Business data which website users interact with is securely stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro). Power Pages tightly integrates with products and capabilities such as Power Apps, Power Automate, Power Virtual Agents, Power BI, and Microsoft SharePoint.
 
 > [!NOTE]
 > Security is enabled by fundamental architectural building blocks that offer layers of protection. It is important to review the architecture of the Power Pages platform. The [Power Pages architecture white paper](https://aka.ms/PowerPagesArchitecture) describes the platform's capabilities, building blocks, and architecture.
@@ -67,7 +67,7 @@ Many national security agencies, community services, financial institutions, and
 
 The Power Pages service is governed by the [Commercial Licensing Terms (microsoft.com)](https://www.microsoft.com/licensing/terms/) and the [Microsoft Enterprise Privacy Statement](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). 
 
-For compliance information, the [Microsoft Trust Center](https://www.microsoft.com/trustcenter) is the primary resource for Power Pages. Learn more about compliance in the [Microsoft compliance offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home).
+For compliance information, the [Microsoft Trust Center](https://www.microsoft.com/trustcenter) is the primary resource for Power Pages. Learn more about compliance in the [Microsoft compliance offerings](/compliance/regulatory/offering-home).
 
 ### Zero Trust approach
 
