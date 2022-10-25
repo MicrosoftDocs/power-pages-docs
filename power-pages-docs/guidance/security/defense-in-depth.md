@@ -16,10 +16,6 @@ contributors:
 
 Azure as a hosting platform enables Power Pages to use capabilities like elastic scaling, high availability, platform layer security, automatic infrastructure and operating systems security patching and upgrades, and advanced threat protections. Power Pages is available in many [datacenters](https://dynamics.microsoft.com/en-us/availability-reports/georeport/) around the world.
 
-The following section describes how Power Pages offers enterprise grade Defense-in-Depth security as a platform.
-
-## Defense-in-Depth
-
 The objective of defense-in-depth is to protect information and prevent it from being accessed or stolen by those that aren't authorized to access it. A defense-in-depth strategy uses a series of mechanisms to slow the advance of an attack that aims to acquire unauthorized access to data.
 
 Power Pages offers Defense-in-Depth by using the best of Microsoft's and Power Platform's security stack, which enables it to offer multi-layered protection from a wide variety of security threats. This multi-layered security stack improves overall security of Power Pages applications by reducing the probability of security breaches. The Power Pages platform provides makers and administrators the necessary controls to harden security and governance for their sites and data. This section describes the seven layers of protection that enable Power Pages to offer defense-in-depth as a platform.
