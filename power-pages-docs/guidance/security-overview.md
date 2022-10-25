@@ -1,4 +1,18 @@
-﻿# Security overview
+﻿---
+title: Security guidance overview
+description: Learn about Power Pages' security capabilities.
+author: kkendrick
+ms.topic: guidance
+ms.custom: 
+ms.date: 10/25/2022
+ms.author: kkendrick
+ms.reviewer: ndoelman
+contributors:
+    - nickdoelman
+    - ProfessorKendrick
+---
+
+# Security guidance overview
 
 Power Pages offers enhanced control, protection, and security for administrators, website makers, and website visitors. It empowers makers to extend business data and processes to external users securely and helps ensure compliance. As a platform, it offers comprehensive compliance coverage across global, regional, government, and industry-specific compliance standards, making it a trusted Low code application platform. Business data which website users interact with is securely stored in [Microsoft Dataverse](https://docs.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro). Power Pages tightly integrates with products and capabilities such as Power Apps, Power Automate, Power Virtual Agents, Power BI, and Microsoft SharePoint.
 

@@ -1,3 +1,17 @@
+---
+title: Mitigations for OWASP's top ten risks
+description: Learn how Power Pages mitigates OWASP's top ten risks.
+author: kkendrick
+ms.topic: guidance
+ms.custom: 
+ms.date: 10/25/2022
+ms.author: kkendrick
+ms.reviewer: ndoelman
+contributors:
+    - nickdoelman
+    - ProfessorKendrick
+---
+
 # Mitigations for the Open Web Application Security Project's top ten risks in Power Pages
 
 This article describes how Power Pages helps mitigate OWASP Top 10 security risks by providing core security capabilities and controls by default and the configurations and tools that are available to administrators and makers to tighten and harden security for their Power Pages sites.
