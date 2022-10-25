@@ -56,7 +56,7 @@ New Power Pages site's visibility is Private by Default upon creation, providing
 
 #### Secure access via authentication
 
-Authentication Provider configuration complexity increases the probability of Authentication issues, which result in vulnerability in applications from threats due to Broken Access control. Power Pages offers an intuitive Low Code [Authentication Provider configuration](../security/configure-portal-authentication) experience for Makers to securely configure a wide variety of authentication providers. Power Pages provides Out of the box integration [with Azure Active Directory (Azure AD)](/azure/active-directory/develop/v2-overview) for authentication and can be easily integrated with [other industry standard Identity providers](/power-apps/maker/portals/configure/configure-portal-authentication). 
+Authentication Provider configuration complexity increases the probability of Authentication issues, which result in vulnerability in applications from threats due to Broken Access control. Power Pages offers an intuitive Low Code [Authentication Provider configuration](../security/configure-portal-authentication.md) experience for Makers to securely configure a wide variety of authentication providers. Power Pages provides Out of the box integration [with Azure Active Directory (Azure AD)](/azure/active-directory/develop/v2-overview) for authentication and can be easily integrated with [other industry standard Identity providers](/power-apps/maker/portals/configure/configure-portal-authentication). 
 
 > [!IMPORTANT]
 > - While configuring Authentication providers on Power Pages makers must review their organizational security policies (Requiring Multi-Factor Auth, Session Logout, Single Log Out, etc.) and validate authentication provider configurations through testing.
@@ -76,7 +76,7 @@ Vertical access control mechanisms restrict access to sensitive application func
 
 Horizontal Access Control mechanisms restrict access to application resources to users who are allowed to access them. Authentication for Power Pages admin and maker experiences applies Azure Active Directory for security and protection of identities. Power Pages offer a robust security model, which is based on industry standard authentication and a role-based access control mechanism for Authorization. Requests to Power Pages sites go through the Access control layer and are denied when not authorized. Makers can utilize Web Roles, Page Permissions and Table Permissions to configure access for the website and business data for external users.
 
-Power Pages makers must review that the site's access is enabled only for authorized users by reviewing and validating website users' [Web Role association, Table permissions, and Page permissions](../security/power-pages-security). [Portal Checker](/power-apps/maker/portals/admin/portal-checker-analysis) detects common security misconfiguration on sites, which can be run before launching a website for external access.
+Power Pages makers must review that the site's access is enabled only for authorized users by reviewing and validating website users' [Web Role association, Table permissions, and Page permissions](../security/power-pages-security.md). [Portal Checker](/power-apps/maker/portals/admin/portal-checker-analysis) detects common security misconfiguration on sites, which can be run before launching a website for external access.
 
 ##### Context dependent access control
 
@@ -202,7 +202,7 @@ Logging and monitoring are critical ways to detect, escalate, and respond to act
 
 Microsoft implements a Standardized Security Incident Response Process (SSIRP) which is [Microsoft's incident response process](https://msrc-blog.microsoft.com/2019/06/27/inside-the-msrc-anatomy-of-a-ssirp-incident/#:~:text=SSIRP%20is%20our%20incident%20response,that%20could%20be%20used%20to) for responding to major threats to our customers, including exploits in the wild that are being used to attack customers, threats to the security of Microsoft's services like Azure, Dynamics, Power Platform and O365, and the public disclosure of unpatched vulnerabilities that could be used to attack customers. Microsoft's SSIRP enables Microsoft to respond to active security breaches.
 
-[Application insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) is widely used within the enterprise landscape for monitoring and diagnostics. Makers can [integrate](/azure/azure-monitor/app/javascript?tabs=snippet#snippet-based-setup) Power Pages sites with Azure Application Insights for advanced monitoring, diagnostics, and performance insights.
+[Application insights](/azure/azure-monitor/app/app-insights-overview) is widely used within the enterprise landscape for monitoring and diagnostics. Makers can [integrate](/azure/azure-monitor/app/javascript?tabs=snippet#snippet-based-setup) Power Pages sites with Azure Application Insights for advanced monitoring, diagnostics, and performance insights.
 
 ### A10:2021 Server Side Request Forgery (SSRF)
 
