@@ -1,5 +1,5 @@
 ---
-title: Defense-in-Depth security
+title: Defense-in-Depth
 description: Learn about Power Pages' enterprise grade, Defense-in-Depth security as a platform.
 author: kkendrick
 ms.topic: guidance
@@ -12,7 +12,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Defense-in-Depth security
+# Defense-in-Depth
 
 Azure as a hosting platform enables Power Pages to use capabilities like elastic scaling, high availability, platform layer security, automatic infrastructure and operating systems security patching and upgrades, and advanced threat protections. Power Pages is available in many [datacenters](https://dynamics.microsoft.com/en-us/availability-reports/georeport/) around the world.
 
