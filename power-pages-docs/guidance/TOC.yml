@@ -3,7 +3,7 @@
 - name: Security
   items: 
   - name: Security overview
-    href: index.md
+    href: ../index.md
   - name: Defense-in-Depth
     href: defense-in-depth.md
   - name: OWASP risk mitigation
