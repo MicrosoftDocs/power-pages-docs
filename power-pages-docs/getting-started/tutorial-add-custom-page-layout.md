@@ -15,7 +15,7 @@ contributors:
 ---
 # Tutorial: Add custom page layout to your site
 
-When you create new webpages using the Pages workspace you have a choice of provided page layouts. In some cases you may want to create a custom page layout to display information in a certain format or to provide a specialized user interface.
+When you create new webpages using the Pages workspace, you have a choice of provided page layouts. In some cases you may want to create a custom page layout to display information in a certain format or to provide a specialized user interface.
 
 In this tutorial, you'll learn how to create a custom page layout using [Liquid](../configure/liquid-overview.md).
 
@@ -154,7 +154,7 @@ In this step, we'll create a new page template that is based on the web template
 
 ## Step 4: Create a web page to display content
 
-1. In the **design studio**, select **Sync**. This is bring updates made in the Portal Management app to the design studio.
+1. In the **design studio**, select **Sync**. This will bring updates made in the Portal Management app to the design studio.
 
 1. In the **Pages** workspace, select **+ Page**.
 
@@ -165,7 +165,7 @@ In this step, we'll create a new page template that is based on the web template
 
     :::image type="content" source="media/tutorial-custom-layouts/select-custom-layout.png" alt-text="Select custom page layout when creating a new web page.":::
 
-1. Add any additional content to the editable sections of the page.
+1. Add any more content to the editable sections of the page.
 
 ### Additional page configuration
 
@@ -175,9 +175,9 @@ In this example, we'll need to link the navigation record to the content page in
 
 1. In the **Portal Management app**, scroll to the **Content** section and select **Web Pages**.
 
-1. Locate and open the page you created previously in the **Pages** workspace. This will open the root webpage. We will need to make our changes in the related localized content page.
+1. Locate and open the page you created previously in the **Pages** workspace. This will open the root webpage. We'll need to make our changes in the related localized content page.
 
-1. Scroll down and in the **Localized Content** section , select the localized content web page.
+1. Scroll down and in the **Localized Content** section, select the localized content web page.
 
     :::image type="content" source="media/tutorial-custom-layouts/web-page.png" alt-text="Select the localized content page.":::
 

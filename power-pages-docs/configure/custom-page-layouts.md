@@ -56,7 +56,7 @@ Web templates can be included in other content or combined with other templates 
     | Name | Type in a name. |
     | Website | Select the web site to which the theme will be applied. Put your cursor in the field and hit enter on your keyboard to display a list of available options. |
     |Source  | The source code content of your web template, the code is typically a combination of Liquid, HTML, CSS, and JavaScript. You'll create the code based on your requirements. |
-    | MIME Type | (Scroll down to view this field)</br>The field optionally provides a MIME type for the content of the template. A type of text/html is assumed if none is provided. This value will only be used in cases where the template is associated with a page template and controls the rendering of all content for that template.  |
+    | MIME Type | (Scroll down to view this field) The field optionally provides a MIME type for the content of the template. A type of text/html is assumed if none is provided. This value will only be used in cases where the template is associated with a page template and controls the rendering of all content for that template.  |
 
     :::image type="content" source="media/custom-page-layouts/custom-web-template.png" alt-text="Fillable fields for New Web Files.":::
 
