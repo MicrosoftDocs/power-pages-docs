@@ -1,20 +1,19 @@
 ---
 title: Custom page layouts in Power Pages
 description: Learn how to create custom page layouts in Power Pages.
-author: nickdoelman
+author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/01/2022
+ms.date: 10/26/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
+    - gitanjalisingh33msft
 ---
 
 # Custom page layouts in Power Pages
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 When you create a new web page using the design studio, you need to select a page layout. The Pages workspace provides a set of pre-configured page layouts.
 
