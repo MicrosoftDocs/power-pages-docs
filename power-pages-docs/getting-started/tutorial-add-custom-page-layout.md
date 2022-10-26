@@ -1,14 +1,15 @@
 ---
 title: "Tutorial: Add custom page layout to your site"
 description: Learn how to add a custom page layout your Power Pages sites.
-author: nickdoelman
+author: gitanjalisingh33msft
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/20/2022
+ms.date: 10/26/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: gisingh
+ms.reviewer: ndoelman 
 contributors:
+    - gitanjalisingh33msft
     - nickdoelman
     - ProfessorKendrick
 ---
@@ -25,14 +26,14 @@ Here are the following steps and assets that will be created to provide a custom
 > [!div class="checklist"]
 > * We'll create a common base web template with custom code to establish basic page layout.
 > * We'll create a second web template with additional code to demonstrate the modular features of web templates.
-> * We'll also create a page template record referencing the web template that will configures how the page layout will be rendered on the site.
+> * We'll also create a page template record referencing the web template that will configure how the page layout will be rendered on the site.
 > * Finally, we will create a web page using the custom page layout.
 
 ## Prerequisites
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
-- Some basic knowledge on HTML and [Liquid](../configure/liquid-overview.md) is helpful to understand the concepts.
+- Basic knowledge of HTML and [Liquid](../configure/liquid-overview.md).
 
 ## Step 1: Create a web template and write the Liquid template code
 
