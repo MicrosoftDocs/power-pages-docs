@@ -1,7 +1,5 @@
-- name: Guidance
-  items:
-  - name: Power Pages guidance
-    href: index.yml
+- name: Power Pages guidance
+  href: index.yml
 - name: Security
   items: 
   - name: Security overview
