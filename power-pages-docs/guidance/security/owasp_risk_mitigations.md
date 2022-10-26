@@ -38,19 +38,19 @@ Broken Access Control in any web application leaves the application susceptible 
 
 Power Pages security model is built on Least Privileged Access (LPA). LPA enables customers to build applications with more granular access control where Power Pages makers can choose to specify levels of access for end users accessing the website. Makers must ensure that the principle of LPA is honored when assigning Web Roles, Table Permissions and Page Permissions to website users. The Power Pages [out of the box Administrative and Maker roles](/power-apps/maker/portals/admin/portal-admin-roles) honor LPA. Makers and admins must follow the principles of least privileged access when extending maker or administrative privileges to other users.
 
-#### Governance Controls on Site Administration and Customization
+#### Governance controls on site administration and customization
 
 Only entrusted makers in an organization have access to creating and authoring Power Pages Sites. Site administration and authoring aren't enabled for external users and are enforced via Microsoft Azure Active Directory Identity protection and specific security roles. Power Pages offers the following governance controls to admins:
 
-##### Website Visibility
+##### Website visibility
 
 New Power Pages sites are Private by Default on creation to prevent unintended broader exposure of business data. When a site's visibility is set as "Private" only entrusted makers can browse the site. When a site is Private, a maker can share the site with organizational users or other makers for preview via an explicit share action. After a maker has carefully reviewed and validated business data and content on the site, they can choose to make the website visibility "Public", which makes the site available for authorized website visitors. Admins can exercise governance controls to control makers who can make sites "Public". Portal Checker detects common security misconfiguration on sites, which can be run to find and fix issues before launching a website for broader external access.
 
-##### Website Creation
+##### Website creation
 
 Website creation requires makers to have certain privileges and roles as documented [here](/power-apps/maker/portals/admin/portal-admin-roles). Admins can exercise [additional governance controls](/power-apps/maker/portals/control-portal-creation) if they wish to disable portal creation in a tenant by non-administrators.
 
-#### Secure By Default
+#### Secure by default
 
 New Power Pages site's visibility is Private by Default upon creation, providing makers with flexibility and control to publish the site only when they have completed website building and fully validated website configurations. The platform also offers tools like [maintenance mode](/power-apps/maker/portals/admin/enable-maintenance-mode) to take down the site for deployments or internal maintenance operations. Out of the Box website templates, maker and admin experiences offer Secure Default configurations for features to prevent unauthorized access of any website data or configuration. Makers must confirm and test the website's configuration and review data visibility in their dev and test environments for all business use cases before they change Website Visibility as "Public". Portal Checker can be run to detect common security misconfiguration on sites. Makers can use cookie security and HTTP Security headers capabilities to prevent against common security threats like XSS, clickjacking and session thefts.
 
