@@ -72,7 +72,9 @@ Each Power Pages site uses a managed Azure Active Directory (AAD) identity, whic
 
 [HTTP Security headers](https://owasp.org/www-project-secure-headers/#div-headers) are directives used by web applications to configure security defenses in web browsers. Power Pages offers advanced web security tightening capabilities for makers via configuration of [HTTP Security headers](/power-apps/maker/portals/configure/cors-support). The HTTP Security Headers that Power Pages honor are described below as Default and Configurable. The default headers are set by the platform for responses. Makers can configure more HTTP security headers for added security based on specific needs.
 
-|Default Header |Description  |
+#### Default headers
+
+|Header |Description  |
 |---------|---------|
 |HTTP Strict Transport Security (HSTS)     |HTTP Strict Transport Security is a web security policy mechanism that helps protect websites against protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections. Power Pages use HSTS and HTTPS is enforced, which means that requests over HTTP get automatically redirected to HTTPS.         |
 |Referrer-Policy    |The Referrer-Policy HTTP header governs which referrer information, sent in the Referrer header, should be included with requests made. Power Pages sets the Referrer-Policy response header for responses.         |
@@ -80,7 +82,9 @@ Each Power Pages site uses a managed Azure Active Directory (AAD) identity, whic
 |X-Content-Type-Options    |Setting this header prevents the browser from interpreting files as a different MIME type to what is specified in the Content-Type HTTP header (for example, treating text/plain as text/CSS). Power Pages sets this header for responses.         |
 |X-Frame-Options Header (XFO)   |The X-Frame-Options response header improves the protection of web applications against [clickjacking](https://portswigger.net/web-security/clickjacking). It instructs the browser whether the content can be displayed within frames. Power Pages sets this header for responses.         |
 
-|Configurable Header  |Description  |
+#### Configurable headers
+
+|Header  |Description  |
 |---------|---------|
 |X-Frame-Options Header (XFO)     |         |
 |X-Content-Type-Options    |         |
