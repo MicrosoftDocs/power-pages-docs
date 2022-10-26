@@ -1,11 +1,11 @@
 - name: Power Pages guidance
-  href: guidance/security/index.yml
+  href: ../index.yml
 - name: Security
   items: 
   - name: Security overview
     href: /security/index.md
   - name: Defense-in-Depth
-    href: defense-in-depth.md
+    href: /security/defense-in-depth.md
   - name: OWASP risk mitigation
-    href: owasp-risk-mitigation.md      
+    href: /security/owasp-risk-mitigation.md      
 
