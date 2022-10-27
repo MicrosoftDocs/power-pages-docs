@@ -81,10 +81,10 @@ If the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to
 
 ### Change tenant-level setting
 
-The tenant level setting can be updated using a PowerShell script.
+The tenant-level setting can be updated using a PowerShell script.
 
 > [!IMPORTANT]
-> - After February 1, 2023 system administrators will not be able to change site visibility when the tenant level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE.
+> - After February 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE.
 
 To get the current value for the tenant setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command.
 
@@ -96,9 +96,9 @@ $ myTenantSettings.powerPlatform.powerPages
 ```
 
 >[!NOTE]
-> - Tenant settings whose value is null do not show up in the list. The default value for the tenant setting **enableSystemAdminsToChangeSiteVisibility** is null, so it will not show for the first time. Once the value is set to true or false, you will be able to see the setting in the list.
+> - Tenant settings whose value is null do not show up in the list. The default value for the tenant-level setting **enableSystemAdminsToChangeSiteVisibility** is null, so it will not show for the first time. Once the value is set to true or false, you will be able to see the setting in the list.
 
-To set a value for the tenant setting (`true` or `false`), use [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command.
+To set a value for the tenant-level setting (`true` or `false`), use [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command.
 
 For example:
 
@@ -115,7 +115,7 @@ Set-TenantSettings -RequestBody $requestBody
 
 ### Delegate site visibility control
 
-When you don't want all system administrators to be able to change site visibility, then set the tenant-level setting of `enableSystemAdminsToChangeSiteVisibility` to `false`.
+When you don't want all system administrators to be able to change site visibility, then set the tenant-level setting for `enableSystemAdminsToChangeSiteVisibility` to `false`.
 
 Now, you can delegate site visibility controls to a select set of users by adding them to a [security group in Azure AD](/azure/active-directory/fundamentals/how-to-manage-groups), and giving site visibility permissions to that security group.
 
