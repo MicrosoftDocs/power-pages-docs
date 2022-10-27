@@ -134,6 +134,8 @@
       href: configure/advanced-config.md
 - name: Customize and extend Power Pages
   items:
+    - name: Custom page layouts
+      href: configure/custom-page-layouts.md   
     - name: Use Visual Studio Code and Power Platform CLI
       href: configure/cli-tutorial.md
     - name: Web templates
@@ -201,7 +203,9 @@
   - name: "Tutorial: Add custom styling to your site"
     href: getting-started/tutorial-add-custom-style.md
   - name: "Tutorial: Create, update, and view Dataverse information"
-    href: getting-started/tutorial-dataverse-website.md 
+    href: getting-started/tutorial-dataverse-website.md   
+  - name: "Tutorial: Add a custom page layout"
+    href: getting-started/tutorial-add-custom-page-layout.md
 - name: Training videos
   href: training-videos/index.md
 - name: Known issues
