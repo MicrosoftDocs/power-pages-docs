@@ -96,6 +96,6 @@ Power Pages does not support running with a proxy enabled. This can cause unpred
 
 ## Data types size limits
 
-For Microsoft Dataverse data type size limits, you can find information on column types, such as text and image columns, in [Types of columns](maker/data-platform/types-of-fields.md).
+For Microsoft Dataverse data type size limits, you can find information on column types, such as text and image columns, in [Types of columns](/power-apps/maker/data-platform/types-of-fields).
 
 
