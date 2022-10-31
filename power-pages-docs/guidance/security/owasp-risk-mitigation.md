@@ -116,6 +116,8 @@ Microsoft provides an extra ability to [encrypt data](/power-platform/admin/data
 
 Power Pages uses industry-standard best practices to prevent injection attacks. Power Pages product development follows [Microsoft's standard](https://www.microsoft.com/en-us/securityengineering/sdl/practices) SDLC patterns, which involve a full Software Development Cycle review every six months spanning the entire product.
 
+:::image type="content" source="media/microsoft-sdlc.png" alt-text="Graphic detailing Microsoft's standard SDLC patterns.":::
+
 In addition, the following security strategies enable Power Pages to mitigate risks from Injection flaws:
 
 - Server-side sanitization and validation of input data and user data, the output data is also sanitized with server-side validations before it's rendered

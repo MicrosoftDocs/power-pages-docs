@@ -40,6 +40,8 @@ Power Pages uses Azure's Distributed denial of service (DDoS) basic protection, 
 
 Admins can [configure Web Application Firewall](/power-apps/maker/portals/azure-front-door) (WAF) with their Power Pages sites. WAF sits on the edge of the network and provides centralized protection of the site from common exploits and vulnerabilities, including protection from OWASP Top 10 security vulnerabilities. Power Pages can be integrated with several WAF providers. WAF integration with Power Pages enables administrators to control access to Power Pages sites from a geography, VPN, or a specific network. Power Pages also provides turn-key configurations to enable Azure WAF. With Azure WAF enabled, each Power Pages site is intelligently secured against known and new threats with security protection mechanisms that embrace a Zero Trust framework.
 
+:::image type="content" source="media/web-application-firewall.png" alt-text="Diagram depicting Web Application Firewall providing protection from vulnerabilities for Power Pages sites.":::
+
 Site Admins can also use [IP (Internet Protocol) Address Restriction capability](/power-apps/maker/portals/admin/ip-address-restrict) in Power Pages to filter network traffic to their site, which enables admins to limit access to a list of IP addresses. When a request to the website is generated, the user's IP address is evaluated against the "allow" list. If the IP address isn't on the list, the website displays a webpage with an HTTP 403 status code. This capability can be used when website traffic originates from known networks. (for example, a corporate network)
 
 ## Compute
