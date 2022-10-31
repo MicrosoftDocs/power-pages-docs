@@ -114,7 +114,7 @@ Microsoft provides an extra ability to [encrypt data](/power-platform/admin/data
 
 [Injection](https://owasp.org/Top10/A03_2021-Injection/) is an attacker's attempt to send data to an application in a way that changes the meaning of commands being sent to an interpreter. For example, the most common example is SQL injection, a SQL injection attack consists of insertion or "injection" of a SQL query via the input data from the client to the application.
 
-Power Pages uses industry-standard best practices to prevent injection attacks. Power Pages product development follows [Microsoft's standard](https://www.microsoft.com/en-us/securityengineering/sdl/practices) SDLC patterns, which involve a full Software Development Cycle review every six months spanning the entire product.
+Power Pages uses industry-standard best practices to prevent injection attacks. Power Pages product development follows [Microsoft's standard SDLC patterns](https://www.microsoft.com/en-us/securityengineering/sdl/practices), which involve a full Software Development Cycle review every six months spanning the entire product.
 
 :::image type="content" source="media/microsoft-sdlc.png" alt-text="Graphic detailing Microsoft's standard SDLC patterns.":::
 
