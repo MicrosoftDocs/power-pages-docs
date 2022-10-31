@@ -9,10 +9,9 @@ ms.date: 10/31/2022
 ms.subservice: 
 ms.author: nenandw
 contributors:
-  - tapanm-msft
-  - lancedmicrosoft
-  - alaug
-  - amchern
+  - nickdoelman
+  - neerajnandwana-msft
+
 ---
 # System requirements, limits, and configuration values for Power Pages
 
@@ -23,22 +22,22 @@ This article contains information on supported device platforms, web browser req
 | **Browser** | **Supported versions** |  **App type** |
 | --- | --- | --- |
 | Google Chrome|Latest three major releases| Power Pages sites, and component designers<sup>1</sup>.  |
-| Microsoft Edge|Latest three major releases| Power Pages sites, app and component designers<sup>1</sup>.  |
+| Microsoft Edge|Latest three major releases| Power Pages sites, and component designers<sup>1</sup>.  |
 | Mozilla Firefox |Latest three major releases| Power Pages sites  |
 | Apple Safari|13 and later| Power Pages sites  |
 
-<sup>1</sup>App and component designers include Power Pages home page, Power Pages design studio, and Visual Studio Code for the Web.
+<sup>1</sup>Site and component designers include Power Pages home page, Power Pages design studio, and Visual Studio Code for the Web.
 
 ## Supported operating systems for browsers running Power Pages
 
 | **Operating system** | **Supported versions** |  **App type**  |
 | --- | --- | ---|
-| Windows |Windows 10 or later| Power Pages sites, app and component designers<sup>1</sup>.   |
-| macOS|10.13 or later| Power Pages sites, app and component designers<sup>1</sup>.   |
+| Windows |Windows 10 or later| Power Pages sites, and component designers<sup>1</sup>.   |
+| macOS|10.13 or later| Power Pages sites, and component designers<sup>1</sup>.   |
 | iOS |iOS 13 or later| Power Pages sites.  |
 | Android |10 or later | Power Pages sites.  |
 
-<sup>1</sup>App and component designers include Power Pages home page, Power Pages design studio, and Visual Studio Code for the Web.
+<sup>1</sup>Site and component designers include Power Pages home page, Power Pages design studio, and Visual Studio Code for the Web.
 
 ## Request limits
 
