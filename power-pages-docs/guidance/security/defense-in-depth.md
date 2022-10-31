@@ -88,6 +88,8 @@ Each Power Pages site uses a managed Azure Active Directory (AAD) identity, whic
 
 |Header  |Description  |
 |---------|---------|
+|X-Frame-Options Header (XFO) | |
+|X-Content-Type-Options | |
 |Content Security policy (CSP)     |Content Security Policy is an extra layer of security that helps detect and mitigate certain types of web attacks such as data theft, XSS, site defacement, or the distribution of malware. CSP provides an extensive set of policy directives that help control the resources that a site page is allowed to load. Each directive defines the restrictions for a specific type of resource.<br />When CSP is turned on for a Power Pages website, it blocks connections, scripts, fonts, and other types of resources that originate from unknown or malicious sources. CSP is turned off by default in Power Pages; however, many websites might [require CSP](/power-apps/maker/portals/configure/manage-content-security-policy#configure-csp) to enhance security.         |
 |Number Only Once (Nonce)    |[Enabling nonce ](/power-apps/maker/portals/configure/manage-content-security-policy#enable-nonce)(Number used once) in Power Pages blocks execution of all inline scripts except those specified within the inline script. A unique cryptographic nonce is generated and added to each script specified in the CSP header.         |
 |Cross Origin Resource Sharing (CORS)     |This protocol consists of a set of headers that indicates whether a HTTP response can be shared with another domain. CORS is blocked by default on Power Pages for security. When a Power Pages site is embedded into another application, makers can [configure CORS](/power-apps/maker/portals/configure/cors-support).         |
