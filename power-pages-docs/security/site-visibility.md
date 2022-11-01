@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/27/2022
+ms.date: 11/01/2022
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
