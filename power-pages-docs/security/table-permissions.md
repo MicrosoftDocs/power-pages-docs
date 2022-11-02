@@ -1,20 +1,19 @@
 ---
 title: Configuring table permissions in Power Pages
 description: Learn how to set and manage table permissions.
-author: nickdoelman
+author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
-ms.author: ndoelman
-ms.reviewer:
+ms.date: 11/02/2022
+ms.author: gisingh
+ms.reviewer: ndoelman
 contributors:
+    - gitanjalisingh33msft
     - nickdoelman
     - ProfessorKendrick
 ---
 
 # Configuring table permissions
-
-
 
 Access to Dataverse records is automatically restricted in Power Pages when using forms, lists, Liquid, the Portals Web API, and other components accessing Dataverse tables.
 
@@ -87,7 +86,9 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
     :::image type="content" source="media/table-permissions/contact-account-access-type.png" alt-text="Contact or Account access type.":::
 
     > [!NOTE]
-    > If you don't have any relationships available for the selected table, you can select **New relationship** to create a new relationship.
+    > - If you don't have any relationships available for the selected table, you can select **New relationship** to create a new relationship.
+    > - Once you create a table relationship in Power Apps, you need to make sure the configuration is published and also select the **Sync** button in the designs studio. 
+    > - In some cases, you may also need to restart the design studio to see the new table relationship in the table permissions panel.
 
 1. Select the privileges that you want to grant.
 
