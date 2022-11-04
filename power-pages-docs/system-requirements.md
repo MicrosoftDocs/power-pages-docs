@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
 ms.reviewer: ndoelman
-ms.date: 10/31/2022
+ms.date: 11/04/2022
 ms.subservice: 
 ms.author: nenandw
 contributors:
@@ -17,27 +17,33 @@ contributors:
 
 This article contains information on supported device platforms, web browser requirements, limits, and configuration values for Power Pages. 
 
-## Supported browsers for running Power Pages
+## Supported browsers for running Power Pages sites
 
-| **Browser** | **Supported versions** |  **App type** |
-| --- | --- | --- |
-| Google Chrome|Latest three major releases| Power Pages sites, and component designers<sup>1</sup>.  |
-| Microsoft Edge|Latest three major releases| Power Pages sites, and component designers<sup>1</sup>.  |
-| Mozilla Firefox |Latest three major releases| Power Pages sites  |
-| Apple Safari|13 and later| Power Pages sites  |
+| **Browser** | **Supported versions** |  
+| --- | --- | 
+| Google Chrome|Latest three major releases| 
+| Microsoft Edge|Latest three major releases| 
+| Mozilla Firefox |Latest three major releases| 
+| Apple Safari|13 and later| 
 
-<sup>1</sup>Site and component designers include Power Pages home page, Power Pages design studio, and Visual Studio Code for the Web.
+## Supported operating systems for browsers running Power Pages sites
 
-## Supported operating systems for browsers running Power Pages
+| **Operating system** | **Supported versions** | 
+| --- | --- | 
+| Windows |Windows 10 or later| 
+| macOS|10.13 or later| 
+| iOS |iOS 13 or later|
+| Android |10 or later |
 
-| **Operating system** | **Supported versions** |  **App type**  |
-| --- | --- | ---|
-| Windows |Windows 10 or later| Power Pages sites, and component designers<sup>1</sup>.   |
-| macOS|10.13 or later| Power Pages sites, and component designers<sup>1</sup>.   |
-| iOS |iOS 13 or later| Power Pages sites.  |
-| Android |10 or later | Power Pages sites.  |
+## Supported web browsers and operating systems for Power Pages design studio
 
-<sup>1</sup>Site and component designers include Power Pages home page, Power Pages design studio, and Visual Studio Code for the Web.
+The supported browsers for Power Pages design studio are listed below.
+
+| **Browser**                     | **Operating system**           |
+|---------------------------------|--------------------------------|
+| Google Chrome (latest version)<br>(recommended)                    | <ul><li>Windows 7 SP1, 8.1, 10, and 11</li><li>macOS</li></ul>      |
+| Microsoft Edge (latest version)<br> (recommended)                    | Windows 10, and 11 |
+| Apple Safari (latest version) | macOS |
 
 ## Request limits
 
@@ -91,7 +97,6 @@ This list identifies all services to which Power Pages communicates and their us
 Power Pages does not support running with a proxy enabled. This can cause unpredictable behavior. If you encounter issues, disable the proxy and then try again.
 
 - Some proxies (such as Zscaler, Blue Coat) modify Power Pages requests by removing headers (CORS or authentication headers). Power Pages relies on these headers to load the app.
-- Some proxies (such as Microsoft Defender for Cloud Apps, McAfee) may intercept and change the URL of an app or embedded app. For example, if there is a Dynamics 365 app that is running under domain **org.crm.dynamics.com** or a canvas app that is running under domain **apps.powerapps.com**, the platform will not support a proxy that change these domains to a custom domain such as **mycustomdomain.com**. This can cause unpredictable behavior when the platform tries to retrieve tokens that are necessary to run the app.
 
 ## Data types size limits
 

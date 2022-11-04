@@ -45,7 +45,7 @@
     - name: Plan your Power Pages project
       href: configure/planning-power-pages-project.md
     - name: System requirements, limits, and configuration
-      href: limits-and-config.md  
+      href: system-requirements.md  
 - name: Design and build
   items:
   - name: Design and build overview
