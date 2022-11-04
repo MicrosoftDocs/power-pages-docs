@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power Pages security white paper
 description: Learn about Power Pages' security capabilities.
 author: kkendrick
@@ -14,7 +14,7 @@ contributors:
 
 # Power Pages security white paper
 
-Power Pages offers enhanced control, protection, and security for administrators, website makers, and website visitors. It empowers makers to extend business data and processes to external users securely and helps ensure compliance. As a platform, it offers comprehensive compliance coverage across global, regional, government, and industry-specific compliance standards, making it a trusted Low code application platform.
+Power Pages offers enhanced control, protection, and security for administrators, website makers, and website visitors. It empowers makers to extend business data and processes to external users securely and helps ensure compliance. As a platform, it offers comprehensive compliance coverage across global, regional, government, and industry-specific compliance standards, making it a trusted low code application platform.
 
 ## About the white paper
 
