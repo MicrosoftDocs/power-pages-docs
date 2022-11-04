@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/03/2022
+ms.date: 11/04/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -101,7 +101,7 @@ The following will explain the concepts of table permissions, setting up access,
 | - | - | - |
 | 1 | Create table permissions | [video](#create-table-permissions)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
 | 2 | Set up access type and privileges | [video](#create-table-permissions)<br/>  [tutorial](../getting-started/tutorial-display-data-securely.md#set-access-type-and-privileges) |
-| 3 | Add web roles | [tutorial](../getting-started/tutorial-display-data-securely.md#add-web-roles) |
+| 3 | Add web roles | [video](#add-web-roles)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md#add-web-roles) |
 
 ### Create table permissions
 
@@ -110,6 +110,10 @@ The following will explain the concepts of table permissions, setting up access,
 ### Set up access type and privileges
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
+
+### Add web roles
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
 ### See also
 
