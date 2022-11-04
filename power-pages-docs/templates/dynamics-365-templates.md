@@ -106,6 +106,9 @@ The field service customer site template allows your customers to book new appoi
 
 This template provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits.  
 
+>[!IMPORTANT]
+> There's a limit of only one site for this type of template that can be created per Dynamics 365 environment. 
+
 More information: 
 
 - [Field Service customer portal](/dynamics365/field-service/field-service-portal-homepage)
