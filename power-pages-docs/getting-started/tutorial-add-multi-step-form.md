@@ -64,25 +64,48 @@ We will create two tables for our process, *Scholarships* and *Applications*. Fo
 
 Create two tables with the following properties:
 
+>[!NOTE] 
+> The following tables are just examples, feel free to create tables to match your own business processes:
+
 #### Scholarship
 
 | Column name | Column data type |
 | - | - |
 | Scholarship Name | Text (rename *name* column) |
 | Description | Multiple lines of text |
-| 
+| Application Opens | Date and time |
+| Application Deadline | Date and time |
 
-Select **Data** workspace.
-Select **+ Table** to create a new Dataverse table.
-Name the table *Scholarships*.
-Select **Create**.
-When the table appears, select the **Name** column and choose **edit column**.
-Rename the **name** to **Scholarship Name**.
-Select **New column** and in the **Display name** enter in **Description**.
-Continue add additional columns to the table 
+#### Application
+
+| Column name | Column data type |
+| - | - |
+| Applicant name | Text (rename *name* column) |
+| Scholarship | Lookup (related table - scholarship table created earlier) |
+| Class Level | Choice (choices: Junior, Senior) |
+| Consent | Yes/No |
+| Cost of Tuition | Currency |
+| Degree Type | Choice (choices: Masters, Bachelor )
+| Fulltime | Yes/No |
+| Major | Text |
+| Other Scholarships | Multiple lines of text |
+
+Once you have created the tables, you will need to create forms for each step of your process. A good practice is to name your forms to correspond to each step of your multistep process.
+
+See [How to create and modify Dataverse forms by using the Data workspace](../configure/data-workspace-forms.md) on how to create Dataverse forms.
+
+Create the following four forms;
+
+| Form name | Columns on form |
+| - | - |
+| Application Step 1 | Scholarship, Applicant name |
+| Application Step 2 | Scholarship (read-only), Applicant name (read-only), |
+| Application Step 3 ||
+| Application Step 4 ||
 
 
-This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times. 
+
+
 
 :::image type="content" source="media/tutorial/advanced-form.gif" alt-text="Animation that shows the working advanced form in action.":::
 
