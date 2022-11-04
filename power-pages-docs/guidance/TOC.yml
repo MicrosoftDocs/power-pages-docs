@@ -1,11 +1,10 @@
 - name: Power Pages guidance
   href: index.yml
-- name: Security
-  items: 
-  - name: Security overview
-    href: security/index.md
-  - name: Defense-in-Depth
-    href: security/defense-in-depth.md
-  - name: OWASP risk mitigation
-    href: security/owasp-risk-mitigation.md      
-
+- name: White papers
+  items:
+    - name: Power Pages white papers
+      href: white-papers/index.md
+    - name: Architecture white paper
+      href: white-papers/architecture.md
+    - name: Security white paper
+      href: white-papers/security.md
