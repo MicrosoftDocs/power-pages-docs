@@ -24,6 +24,7 @@ Dynamics 365 templates are available for your Power Pages sites in environments 
 - Dynamics 365 Marketing
 - Dynamics 365 Project Operations
 - Dynamics 365 Supply Chain Management
+- Dynamics 365 Intelligent Order Management
 
 ## Customer self-service
 
@@ -108,5 +109,17 @@ This template provides your customers with automated service reminders and notif
 More information: 
 
 - [Field Service customer portal](/dynamics365/field-service/field-service-portal-homepage)
+
+## Order returns
+
+The order returns site template allows your business to enable your customers to return their orders, view the status of their return request, view the history of their returns, and also monitor their refund status via integrations with the Dynamics 365 Intelligent Order Management application. Businesses can easily embed this order returns experience into their existing customer websites. 
+
+:::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template landing page.":::
+
+This site template is currently a Preview offering. 
+
+More information: 
+
+- [Dynamics 365 Intelligent Order Management](/dynamics365/intelligent-order-management/overview)
 
 
