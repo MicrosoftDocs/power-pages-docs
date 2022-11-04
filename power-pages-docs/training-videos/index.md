@@ -105,13 +105,19 @@ The following will explain the concepts of table permissions, setting up access,
 
 ### Create table permissions
 
+This video provides an overview of the steps to create table permissions.
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcK]
 
 ### Set up access type and privileges
 
+This video provides an overview of the steps to set access types and privileges.
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
 
 ### Add web roles
+
+This video provides an overview of using web roles.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
