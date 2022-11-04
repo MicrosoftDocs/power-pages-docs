@@ -1,39 +1,36 @@
 ---
-title: "Tutorial: Add a multi-step form to your page"
-description: Learn how to add multi-step forms to your Power Pages.
-author: nickdoelman
+title: "Tutorial: Add a multistep form to your page"
+description: Learn how to add multistep forms to your Power Pages.
+author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/10/2022
+ms.date: 11/04/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: prpadalw 
+ms.reviewer: ndoelman
 contributors:
+    - pranita225
     - nickdoelman
     - ProfessorKendrick
 ---
 
-# Tutorial: Add a multi-step form to your page
+# Tutorial: Add a multistep form to your page
 
-> [!IMPORTANT]
-> We are in the process of updating our tutorials. The steps below do not reflect the latest features available to create multi-step forms in Power Pages. Please refer to our [feature documentation](multistep-forms.md) to see the latest information.
+Multistep forms are a powerful way to collect and update information in Microsoft Dataverse from a page.  
 
-Advanced forms are a powerful way to collect and update information in Microsoft Dataverse from a page.  
-
-Advanced forms provide additional features as compared to basic forms:
+Multistep forms provide additional features as compared to regular forms:
 
 - Allows data collection or update process to be broken up over multiple steps.
 - Provides interactive conditions to direct a user down different paths of data updates.
 - Session tracking allows a user to pick up where they left off when following a data update process.
 
-Advanced forms are created using the [Portal Management app](../configure/portal-management-app.md) and added to a page using a [Liquid](../configure/liquid-overview.md) code tag.
-
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * Create an advanced form
-> * Add configuration options
-> * Add an advanced form to a page
+> * Create Dataverse tables, views, and forms to use in your multistep form
+> * Add a multistep form to a web page
+> * Configure table permissions for multistep forms
+> * Add a condition and redirect step to a multistep form
 
 ## Prerequisites
 
@@ -44,15 +41,46 @@ In this tutorial, you learn how to:
 - Complete the [Add a form to a page](tutorial-add-form-to-page.md) tutorial.
 
 > [!NOTE]
-> When creating an advanced form, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multi-step process.
+> When creating a multistep form, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multistep process.
 
-## Create an advanced form 
+## Create an multistep form 
 
-An advanced form is composed of an advanced form record and a series of steps.
+In the steps below, we'll create an multistep form, this example follows a simple process to apply for a scholarship, but the concepts can be applied to other business processes. 
 
-:::image type="content" source="media/tutorial/advanced-form-diagram.png" alt-text="A diagram of an advanced form.":::
+Here is an outline of the sample steps:
 
-In the steps below, we'll create an advanced form, this example follows a simple process to apply for a scholarship, but the concepts can be applied to other business processes. 
+| Step | Description |
+| - | - |
+| 1 | Select the scholarship to apply for and enter the applicants name. |
+| 2 | Fill in details about the applicant. |
+| 3 | Gather some additional details. Later in the tutorial, we will make this step conditional on information from step 2. |
+| 4 | Collect final sign-off consent from the user. |
+
+### Create Dataverse tables and forms to use in the multistep form
+
+We will need to store our information of our process in Dataverse tables. For each step of the process that requires a user to create or update columns on a Dataverse record, you will need to have a corresponding Dataverse form.
+
+We will create two tables for our process, *Scholarships* and *Applications*. For more information on how to create Dataverse tables, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
+
+Create two tables with the following properties:
+
+#### Scholarship
+
+| Column name | Column data type |
+| - | - |
+| Scholarship Name | Text (rename *name* column) |
+| Description | Multiple lines of text |
+| 
+
+Select **Data** workspace.
+Select **+ Table** to create a new Dataverse table.
+Name the table *Scholarships*.
+Select **Create**.
+When the table appears, select the **Name** column and choose **edit column**.
+Rename the **name** to **Scholarship Name**.
+Select **New column** and in the **Display name** enter in **Description**.
+Continue add additional columns to the table 
+
 
 This advanced form will require users to authenticate before filling in the various steps. Users will also be able to pick up where they left off and apply multiple times. 
 
