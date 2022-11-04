@@ -1,10 +1,11 @@
 - name: Power Pages guidance
   href: index.yml
-- name: White papers
   items:
-    - name: Power Pages white papers
-      href: white-papers/index.md
-    - name: Architecture white paper
-      href: white-papers/architecture.md
-    - name: Security white paper
-      href: white-papers/security.md
+    - name: White papers
+      items:
+        - name: Power Pages white papers
+          href: white-papers/index.md
+        - name: Architecture white paper
+          href: white-papers/architecture.md
+        - name: Security white paper
+          href: white-papers/security.md
