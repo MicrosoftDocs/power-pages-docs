@@ -4,7 +4,7 @@ description: Learn how to set up table permissions and link to web roles.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/05/2022
+ms.date: 11/04/2022
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -129,6 +129,10 @@ For more information, see:
 ## Add web roles
 
 In our examples so far, we've assigned the table permissions to the default **Authenticated Users** and **Anonymous Users** web roles. 
+
+This video provides an overview of using web roles.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
 We can also create our own custom web roles to further limit access to data and pages to certain site visitors.
 
