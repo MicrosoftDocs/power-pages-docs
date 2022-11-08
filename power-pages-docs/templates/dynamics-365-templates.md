@@ -120,7 +120,7 @@ More information:
 
 This template integrates with the Dynamics 365 Intelligent Order Management application. Customers can return their orders, view the status of their return request, view return history, and monitor their refund status. This template can be embedded into existing customer websites.
 
-:::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template template landing page.":::
+:::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template landing page.":::
 
 More information: 
 
