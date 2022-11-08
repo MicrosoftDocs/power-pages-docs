@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin center
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/19/2022
+ms.date: 11/08/2022
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -102,7 +102,7 @@ Select **...** for additional site actions.
 
 ## Power Pages admin API
 
-The Power Pages admin APIs are available through the [Microsoft Power Platform API](/rest/api/power-platform).
+The Power Pages admin APIs are available through the [Microsoft Power Platform API](/rest/api/power-platform/powerpages).
 
 ### Call a REST API method for Power Pages admin APIs
 
@@ -115,6 +115,8 @@ Microsoft Power Platform API allow users to invoke using REST API methods in fol
 Read [here](/rest/api/power-platform/#call-a-rest-api-method) to learn more about the request format and request components.
 
 ### Power Pages operations
+
+See [Websites](/rest/api/power-platform/powerpages/websites) for detailed information.
 
 | Operation | Details |
 | - | - |
