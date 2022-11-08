@@ -1,13 +1,13 @@
 ---
 title: Dynamics 365 templates
-description: Learn about the option to create Power Pages sites using Dynamics 365 templates.
+description: Learn how to use Dynamics 365 templates to create or enhance your Power Pages sites.
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 11/08/2022
 ms.subservice:
 ms.author: sampatn
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -115,11 +115,13 @@ More information:
 
 ## Order returns
 
-The order returns site template allows your business to enable your customers to return their orders, view the status of their return request, view the history of their returns, and also monitor their refund status via integrations with the Dynamics 365 Intelligent Order Management application. Businesses can easily embed this order returns experience into their existing customer websites. 
+> [!NOTE]
+> This template is a preview offering.
 
-:::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template landing page.":::
+This template integrates with the Dynamics 365 Intelligent Order Management application and enables your customers to return their orders, view the status of their return request, view return history, and monitor their refund status. This template can be embedded into existing customer websites.
 
-This site template is currently a Preview offering. 
+ADD IMAGE
+ALT TEXT "Order returns template landing page."::: 
 
 More information: 
 
