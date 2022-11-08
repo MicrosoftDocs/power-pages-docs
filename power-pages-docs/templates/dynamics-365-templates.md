@@ -90,7 +90,7 @@ More information:
 
 ## Modern community 
 
-The modern community site template invites customers to provide suggestions and creates crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to help shape the future of the products they use. 
+The modern community site template invites customers to provide suggestions, creating crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to shape the future of the products they use. 
 
 :::image type="content" source="media/dynamics365-templates/modern-community.png" alt-text="Modern community template landing page.":::
 
@@ -118,10 +118,9 @@ More information:
 > [!NOTE]
 > This template is a preview offering.
 
-This template integrates with the Dynamics 365 Intelligent Order Management application and enables your customers to return their orders, view the status of their return request, view return history, and monitor their refund status. This template can be embedded into existing customer websites.
+This template integrates with the Dynamics 365 Intelligent Order Management application. Customers can return their orders, view the status of their return request, view return history, and monitor their refund status. This template can be embedded into existing customer websites.
 
-ADD IMAGE
-ALT TEXT "Order returns template landing page."::: 
+:::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template template landing page.":::
 
 More information: 
 
