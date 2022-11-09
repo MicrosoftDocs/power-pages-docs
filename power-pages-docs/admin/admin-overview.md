@@ -45,7 +45,7 @@ Select **Site Actions** to perform the following actions on your site.
 
 ## Site Actions (...)
 
-Select **...** for additional site actions.
+Select **...** for more site actions.
 
 :::image type="content" source="media/more-site-actions.png" alt-text="Selecting additional site actions.":::
 
@@ -60,7 +60,7 @@ Select **...** for additional site actions.
 ## Switch to Classic
 | Action | More Information |
 | - | - |
-| Switch to classic | Switch the to classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview) |
+| Switch to classic | Switch to the classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview) |
 
 ## Site Details
 

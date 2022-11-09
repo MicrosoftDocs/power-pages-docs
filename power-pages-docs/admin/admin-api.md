@@ -23,7 +23,7 @@ The Power Pages admin APIs are available through the [Microsoft Power Platform A
 
 ## Call a REST API method for Power Pages admin APIs
 
-Microsoft Power Platform API allow users to invoke using REST API methods in following format. The **namespace** for Power Pages APIs is **powerpages**.
+Microsoft Power Platform APIs allow users to invoke using REST API methods in following format. The **namespace** for Power Pages APIs is **powerpages**.
 
 ```http
 {HTTP method} https://api.powerplatform.com/powerpages/{resource}?api-version={version}
@@ -39,6 +39,6 @@ See [Websites](/rest/api/power-platform/powerpages/websites) for detailed inform
 | - | - |
 | List websites | Get a list of all the Power Pages websites in your environment. |
 | Create a website | Trigger the creation of a new Power Pages website. |
-| Get the website by the ID | Get Website details from Website id. |
-| Delete a website | Trigger the deletion of a Power Pages site from the given website id. |
-| Restart a website | Restart the Power Pages website for the given site id. |
+| Get the website by the ID | Get Website details from Website ID. |
+| Delete a website | Trigger the deletion of a Power Pages site from the given website ID. |
+| Restart a website | Restart the Power Pages website for the given site ID. |
