@@ -41,7 +41,7 @@ In this tutorial, you learn how to:
 - Complete the [Add a form to a page](tutorial-add-form-to-page.md) tutorial.
 
 > [!NOTE]
-> When creating a multistep form, it is important to plan the steps first.  This will make the configuration process easier.  Establish the individual steps and any conditional branches to the multistep process.
+> When creating a multistep form, it is important to plan the steps first.  This will make the configuration process easier. Establish the individual steps and any conditional branches to the multistep process.
 
 ## Create an multistep form 
 
@@ -58,54 +58,73 @@ Here is an outline of the sample steps:
 
 ### Create Dataverse tables and forms to use in the multistep form
 
-We will need to store our information of our process in Dataverse tables. For each step of the process that requires a user to create or update columns on a Dataverse record, you will need to have a corresponding Dataverse form.
+We will need to store our information of our process in Dataverse tables. For each step of the process that requires a user to create or update columns on a Dataverse record, you will need to have a corresponding Dataverse form for each step.
 
-We will create two tables for our process, *Scholarships* and *Applications*. For more information on how to create Dataverse tables, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
+We will create a Dataverse table called *Applications* for our process. For more information on how to create Dataverse tables, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
 
-Create two tables with the following properties:
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
->[!NOTE] 
-> The following tables are just examples, feel free to create tables to match your own business processes:
+1. Select a site where you want to add a multistep form and select **Edit**. 
 
-#### Scholarship
+1. In the design studio, select the **Data** workspace.
 
-| Column name | Column data type |
-| - | - |
-| Scholarship Name | Text (rename *name* column) |
-| Description | Multiple lines of text |
-| Application Opens | Date and time |
-| Application Deadline | Date and time |
+1. Create a Dataverse table called *Applications* with the following properties:
 
-#### Application
+    > [!TIP] 
+    > - For more information on how to create Dataverse tables, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
+    > - The following table is just an example, feel free to create tables to match your own business processes.
 
-| Column name | Column data type |
-| - | - |
-| Applicant name | Text (rename *name* column) |
-| Scholarship | Lookup (related table - scholarship table created earlier) |
-| Class Level | Choice (choices: Junior, Senior) |
-| Consent | Yes/No |
-| Cost of Tuition | Currency |
-| Degree Type | Choice (choices: Masters, Bachelor )
-| Fulltime | Yes/No |
-| Major | Text |
-| Other Scholarships | Multiple lines of text |
+    | Column name | Column data type |
+    | - | - |
+    | Applicant name | Text (rename *name* column) |
+    | Scholarship | Choice (example choices: *American Architect Scholarship*,*Foreign Language Scholarship*,*Women in STEM Scholarship*,*Future Design Leaders Scholarship*) |
+    | Class Level | Choice (choices: *Junior*, *Senior*) |
+    | Consent | Yes/No |
+    | Cost of Tuition | Currency |
+    | Degree Type | Choice (choices: *Masters*, *Bachelor* )
+    | Fulltime | Yes/No |
+    | Major | Text |
+    | Other Scholarships | Multiple lines of text |
 
-Once you have created the tables, you will need to create forms for each step of your process. A good practice is to name your forms to correspond to each step of your multistep process.
+1. Once you have created the tables, you will need to create forms for each step of your process. 
 
-See [How to create and modify Dataverse forms by using the Data workspace](../configure/data-workspace-forms.md) on how to create Dataverse forms.
+    > [!TIP]
+    > - See [How to create and modify Dataverse forms by using the Data workspace](../configure/data-workspace-forms.md) on how to create Dataverse forms.
+    > - A good practice is to name your forms to correspond to each step of your multistep process.
+    > - To display columns in the form but not allow users to update, configure the columns to be read-only when creating the forms.
 
-Create the following four forms;
+    Create the following four forms and arrange the columns on the form. As each form is created, select **Publish form**.
 
-| Form name | Columns on form |
-| - | - |
-| Application Step 1 | Scholarship, Applicant name |
-| Application Step 2 | Scholarship (read-only), Applicant name (read-only), |
-| Application Step 3 ||
-| Application Step 4 ||
+    | Form name | Columns on form |
+    | - | - |
+    | Application Step 1 | Scholarship, Applicant name |
+    | Application Step 2 | Scholarship (read-only), Applicant name (read-only), Degree Type, Major, Fulltime, Class Level, Stem |
+    | Application Step 3 | Scholarship (read-only), Applicant name (read-only), Cost of Tuition, Other Scholarships |
+    | Application Step 4 | Scholarship (read-only), Applicant name (read-only), Consent |
 
+1. You should now have a series of forms to use in your multistep process.
 
+<!--Add image here-->
 
+### Add a multistep form component to a page
 
+Now that we have our table and forms, we can create a multistep form on a webpage.
+
+1. Go to the **Pages** workspace and add a new page or edit an existing page. For more information on creating webpages, see [Create and design pages](first-page.md).
+
+1. Select the **Multistep form** from the selection of components.
+
+1. If other multistep forms exist on your site, you will be given the option to add them to your page. We will create a new multistep form for our tutorial, Select **+ New multistep form** from the dialog. Otherwise, proceed to the next step.
+
+1. You will see the **Add a multistep** form window. Enter in **Application** (or other name) for the **Form name**. Select **OK**.
+
+1. There will be no steps in the form. Select **+ Add the first step** to add the first step.
+
+1. In the **Add step** window, enter in **Application Step 1** as the **Step name**, select **Application** (or whatever you named your table) in the **Choose a table** field, and select **Application Step 1** in the **Select a form** field.
+
+1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Create a new record**. In our example for the first step we will be creating a new Dataverse record. Note that in subsequent steps we will be modifying a record. 
+
+1. 
 
 :::image type="content" source="media/tutorial/advanced-form.gif" alt-text="Animation that shows the working advanced form in action.":::
 
