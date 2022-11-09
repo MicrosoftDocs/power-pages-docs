@@ -101,4 +101,4 @@ Select **...** for more site actions.
 | SharePoint Integration | See [Manage SharePoint documents](/power-apps/maker/portals/manage-sharepoint-documents) |
 
 ## See also
-- [Power Pages Admin APIs](admin-api.md)
+- [Power Pages admin APIs](admin-api.md)

@@ -33,12 +33,10 @@ Read [here](/rest/api/power-platform/#call-a-rest-api-method) to learn more abou
 
 ## Power Pages operations
 
-See [Websites](/rest/api/power-platform/powerpages/websites) for detailed information.
-
 | Operation | Details |
 | - | - |
-| List websites | Get a list of all the Power Pages websites in your environment. |
-| Create a website | Trigger the creation of a new Power Pages website. |
-| Get the website by the ID | Get Website details from Website ID. |
-| Delete a website | Trigger the deletion of a Power Pages site from the given website ID. |
-| Restart a website | Restart the Power Pages website for the given site ID. |
+| [Create Website](/rest/api/power-platform/powerpages/websites/create-website) | Trigger the creation of a new Power Pages website. |
+| [Delete Website](/rest/api/power-platform/powerpages/websites/delete-website) | Trigger the deletion of a Power Pages site from the given website ID. |
+| [Get Website by Id](/rest/api/power-platform/powerpages/websites/get-website-by-id) | Get Website details from Website ID. |
+| [Get Websites](/rest/api/power-platform/powerpages/websites/get-websites) | Get a list of all the Power Pages websites in your environment. |
+| [Restart Website](/rest/api/power-platform/powerpages/websites/restart-website) | Restart the Power Pages website for the given site ID. |
