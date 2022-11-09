@@ -100,28 +100,5 @@ Select **...** for additional site actions.
 | Power BI Embedded Service | See [Enable Power BI Embedded service](/power-apps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-embedded-service) |
 | SharePoint Integration | See [Manage SharePoint documents](/power-apps/maker/portals/manage-sharepoint-documents) |
 
-## Power Pages admin API
-
-The Power Pages admin APIs are available through the [Microsoft Power Platform API](/rest/api/power-platform/powerpages).
-
-### Call a REST API method for Power Pages admin APIs
-
-Microsoft Power Platform API allow users to invoke using REST API methods in following format. The **namespace** for Power Pages APIs is **powerpages**.
-
-```http
-{HTTP method} https://api.powerplatform.com/powerpages/{resource}?api-version={version}
-```
-
-Read [here](/rest/api/power-platform/#call-a-rest-api-method) to learn more about the request format and request components.
-
-### Power Pages operations
-
-See [Websites](/rest/api/power-platform/powerpages/websites) for detailed information.
-
-| Operation | Details |
-| - | - |
-| List websites | Get a list of all the Power Pages websites in your environment. |
-| Create a website | Trigger the creation of a new Power Pages website. |
-| Get the website by the ID | Get Website details from Website id. |
-| Delete a website | Trigger the deletion of a Power Pages site from the given website id. |
-| Restart a website | Restart the Power Pages website for the given site id. |
+## See also
+- [Power Pages Admin APIs](admin-api.md)
