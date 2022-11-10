@@ -100,7 +100,7 @@ Follow the steps to create an advanced form in the Portals Management app and ad
 1. Specify the configurations.
 
     - Set **Type** to **Load Form**.
-    - Select the **Target Table name** from the drop-down menu.
+    - Select the **Target Table name** from the dropdown menu.
 
     :::image type="content" source="media/tutorial/advanced-form-step-config.png" alt-text="Configurations for the new advanced form step in Portal Management app.":::
 
@@ -110,12 +110,12 @@ Follow the steps to create an advanced form in the Portals Management app and ad
 
 1. Set the **Mode** to **Insert**. This means that this step will *create* a new record in the table as part of the process.
 
-1. Scroll down the page and select the **Form Name** from the drop-down menu.
+1. Scroll down the page and select the **Form Name** from the dropdown menu.
     
     > [!NOTE]
     > If you created a form with a set of tabs for each step, select the appropriate **Tab Name** for the step.
 
-1. Scroll down the page and select the **Portal User Lookup Column** from the drop-down menu. This will associate the currently signed-in user with the record being created. The table will need to have a lookup field to the contact table.
+1. Scroll down the page and select the **Portal User Lookup Column** from the dropdown menu. This will associate the currently signed-in user with the record being created. The table will need to have a lookup field to the contact table.
 
 #### Adding edit steps to your advanced form
 
@@ -128,7 +128,7 @@ You can edit existing records in advanced forms. These may be a record you creat
 1. Specify the configurations.
 
     - Set **Type** to **Load Form**.
-    - Select the **Target Table name** from the drop-down menu.
+    - Select the **Target Table name** from the dropdown menu.
 
 1. Select the **Form Definition** tab where we'll add more configuration.
 
@@ -154,7 +154,7 @@ In the steps below, we'll check to see if an applicant is pursuing a Masters deg
 1. Specify the configurations.
 
     - Set **Type** to **Condition**.
-    - Select the **Target Table name** from the drop-down menu.
+    - Select the **Target Table name** from the dropdown menu.
     :::image type="content" source="media/tutorial/advanced-form-type-condition.png" alt-text="Set configurations for an advanced form step of type condition.":::
 
 1. Select the **Condition** tab and enter the condition using the logical column name and a value.
@@ -205,7 +205,7 @@ Ensure that you've created all the appropriate [table permissions](../security/t
 
 ## Add configuration options
 
-Advanced forms can be configured for different behaviors, set default values, and specialized user controls. In the following example, we'll replace a lookup column with drop-down control as it would provide a better experience for a user.
+Advanced forms can be configured for different behaviors, set default values, and specialized user controls. In the following example, we'll replace a lookup column with dropdown control as it would provide a better experience for a user.
 
 1. In the **Portal Management app**, choose **Advanced form**, then in the **Advanced Form Steps** tab, select the appropriate step.
 
