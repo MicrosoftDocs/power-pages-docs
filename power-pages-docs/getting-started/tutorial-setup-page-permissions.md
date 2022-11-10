@@ -48,7 +48,7 @@ In this tutorial, we're going to learn how to hide or show a page based on the a
     - Anyone can see this page. (default)
     - I want to see who can view this page.
 
-1. Select **I want to see who can view this page**. From the drop-down, select the **Authenticated User** [web role](../security/create-web-roles.md).
+1. Select **I want to see who can view this page**. From the dropdown, select the **Authenticated User** [web role](../security/create-web-roles.md).
 
     :::image type="content" source="media/tutorial-page-permissions/page-settings.png" alt-text="Page settings.":::
 
