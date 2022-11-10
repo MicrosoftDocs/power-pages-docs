@@ -4,7 +4,7 @@ description: Learn how to add multistep forms to your Power Pages.
 author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 11/04/2022
+ms.date: 11/10/2022
 ms.subservice:
 ms.author: prpadalw 
 ms.reviewer: ndoelman
@@ -122,9 +122,51 @@ Now that we have our table and forms, we can create a multistep form on a webpag
 
 1. In the **Add step** window, enter in **Application Step 1** as the **Step name**, select **Application** (or whatever you named your table) in the **Choose a table** field, and select **Application Step 1** in the **Select a form** field.
 
-1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Create a new record**. In our example for the first step we will be creating a new Dataverse record. Note that in subsequent steps we will be modifying a record. 
+1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Create a new record**. In our example for the first step we will be creating a new Dataverse record. Note that in subsequent steps we will be modifying a record and this option will be different. 
 
-1. 
+1. Select **OK**.
+
+1. Select **+ Add step**.
+
+1. In the **Add step** window, enter in **Application Step 2** as the **Step name**, the **Application** table (or whatever table you choose earlier) should be already selected in the **Choose a table** field, and select **Application Step 2** in the **Select a form** field.
+
+1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Update an existing record**. In our example for the second step will continue to add details to the Dataverse record created in the first step.
+
+    > [!NOTE]
+    > Depending on your unique processes, you may be creating or updating Dataverse records at different steps in the process.
+
+1. Select **OK**
+
+1. Continue to add the remaining two steps, **Application Step 3** and **Application Step 4** following the instructions above.
+
+### Edit field properties
+
+You can modify some of the field properties on your multistep form in the design studio. Let's make a field required, update the label and add a description.
+
+1. Select a field on the multistep form component on the page.
+
+1. Select **Edit field**.
+
+1. In the **Edit field** window, change the **Field label** to another value. Select **Make this field required** and select **Show a description**. Enter some instructions in the **Description** field.
+
+1. Select **OK**.
+
+### Add table permission
+
+By default visitors to the site will not be able to access the multistep form. In our example, we would only want to allow authenticated users to fill in the multistep form.
+
+For new forms, a banner will appear prompting you to add permissions. If you have already configured permissions for the table used in your multistep form, you can select the ellispe (**...**)
+
+1. Select **+ New permission**.
+
+1. The table permission is provided a name, the table selected and the **Access type** set to **Global access** by default. The **Write** and **Create** permissions will be selected so site visitors can use the form.
+
+1. Select **+ Add roles** and select **Authenticated Users** as the default role. 
+
+1. Select **Save**.
+
+
+
 
 :::image type="content" source="media/tutorial/advanced-form.gif" alt-text="Animation that shows the working advanced form in action.":::
 
