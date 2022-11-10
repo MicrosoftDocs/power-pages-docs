@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin APIs
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/09/2022
+ms.date: 11/10/2022
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -20,6 +20,7 @@ The Power Pages admin APIs are available through the [Microsoft Power Platform A
 > Please note the following limitation when configuring the [steps to get the authentication token](/power-platform/admin/programmability-authentication-v2) when using the admin APIs for Power Pages;
 > - [Username and password flow](/power-platform/admin/programmability-authentication-v2#username-and-password-flow) is supported.
 > - [Service Principal flow](/power-platform/admin/programmability-authentication-v2#service-principal-flow) support is not currently available.
+> - Ensure the `username` used to request the token has the appropriate [roles required for portal administration](/power-apps/maker/portals/admin/portal-admin-roles) assigned.
 
 ## Call a REST API method for Power Pages admin APIs
 
