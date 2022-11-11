@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/05/2022
+ms.date: 11/04/2022
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -62,7 +62,7 @@ The following demonstrate how to create a page displaying business information i
 | - | - | - | 
 | 1 | Create a table in Data workspace | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a view | [video](#create-a-view)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md#create-a-view) |
-| 3 | Add a list to the page | [tutorial](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page) |
+| 3 | Add a list to the page | [video](#add-a-list)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page) |
 
 ### Create a table
 
@@ -75,6 +75,12 @@ In this video, you'll learn how to create a table by using the Data workspace.
 This video shows you how to create a view for a table by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYer]
+
+### Add a list
+
+This video provides an overview of the steps to add a list to a page.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYem]
 
 ### Next steps
 - [Add a list to the page](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page)
@@ -95,15 +101,25 @@ The following will explain the concepts of table permissions, setting up access,
 | - | - | - |
 | 1 | Create table permissions | [video](#create-table-permissions)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md) |
 | 2 | Set up access type and privileges | [video](#create-table-permissions)<br/>  [tutorial](../getting-started/tutorial-display-data-securely.md#set-access-type-and-privileges) |
-| 3 | Add web roles | [tutorial](../getting-started/tutorial-display-data-securely.md#add-web-roles) |
+| 3 | Add web roles | [video](#add-web-roles)<br/> [tutorial](../getting-started/tutorial-display-data-securely.md#add-web-roles) |
 
 ### Create table permissions
+
+This video provides an overview of the steps to create table permissions.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcK]
 
 ### Set up access type and privileges
 
+This video provides an overview of the steps to set access types and privileges.
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
+
+### Add web roles
+
+This video provides an overview of using web roles.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
 
 ### See also
 
