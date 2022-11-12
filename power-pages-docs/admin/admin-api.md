@@ -14,7 +14,7 @@ contributors:
 
 # Use Power Pages admin APIs
 
-The Power Pages admin APIs are available through the [Microsoft Power Platform API]([/rest/api/power-platform/powerpages/websites).
+The Power Pages admin APIs are available through the [Microsoft Power Platform API](/rest/api/power-platform/powerpages/websites).
 
 > [!NOTE]
 > Please note the following limitation when configuring the [steps to get the authentication token](/power-platform/admin/programmability-authentication-v2) when using the admin APIs for Power Pages;
