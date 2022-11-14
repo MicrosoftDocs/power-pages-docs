@@ -28,7 +28,7 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
 
     > [!IMPORTANT]
     > When Anonymous users are granted access to a table, any user who visits the site can access data.  
-    > More information: 
+    > More information:[Notifications for Anonymous users web role](#notifications-for-anonymous-users-web-role)
 
 1. Select **Save**.
 
@@ -43,9 +43,9 @@ When the Anonymous users web role is selected, your site's data is visible to an
 
 Notifications appear in the design studio and flags are displayed in the Table Permissions workspace.
 
-ADD IMAGE HERE
+:::image type="content" source="media/table-permissions/permissions-flag.png" alt-text="Tables with flag notifications indicating anonymous users can access site data.":::
 
-To restrict access to your site's data, follow the steps to assign table permissions and remove the checkmark next to the Anonymous users web role.
+To restrict access to your site's data, follow the steps to assign table permissions and remove the checkmark next to the Anonymous users web role. 
 
 ### See also
 
