@@ -39,7 +39,7 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
 
 ## Anonymous Users notifications
 
-If Anonymous users is selected, notifications will display in the design studio and in the table permissions workspace.
+If the Anonymous users web role is selected, notifications will display in the design studio and in the table permissions workspace.
 
 Your data is visible to anyone.  If you don't want that, change the table permissions so they aren't anonymous.
 
