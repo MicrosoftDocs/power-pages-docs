@@ -28,7 +28,7 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
 
     > [!IMPORTANT]
     > When Anonymous users are granted access to a table, any user who visits the site can access data.  
-    > More information:[Notifications for Anonymous users web role](#notifications-for-anonymous-users-web-role)
+    > More information: [Notifications for Anonymous users web role](#notifications-for-anonymous-users-web-role)
 
 1. Select **Save**.
 
