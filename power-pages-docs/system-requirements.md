@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
 ms.reviewer: ndoelman
-ms.date: 11/04/2022
+ms.date: 11/14/2022
 ms.subservice: 
 ms.author: nenandw
 contributors:
@@ -43,19 +43,6 @@ The supported browsers for Power Pages design studio are listed below.
 |---------------------------------|--------------------------------|
 | Google Chrome (latest version)<br>(recommended)                    | <ul><li>Windows 7 SP1, 8.1, 10, and 11</li><li>macOS</li></ul>      |
 | Microsoft Edge (latest version)<br> (recommended)                    | Windows 10, and 11 |
-| Apple Safari (latest version) | macOS |
-
-## Request limits
-
-These limits apply to each single outgoing request:
-
-| Name | Limit |
-| --- | --- |
-| Timeout |180 Seconds |
-| Retry attempts |4 |
-
-> [!NOTE]
-> The retry value may vary. For certain error conditions, it's not necessary to retry.
 
 ## IP addresses
 
