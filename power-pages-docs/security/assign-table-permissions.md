@@ -47,7 +47,7 @@ Additionally, flags are displayed in the Table Permissions workspace for all tab
 
 ADD IMAGE HERE
 
-To revoke the Anonymous users access, follow the steps to assign table permissions and remove the checkmark next to the Anonymous users web role.
+To revoke access for Anonymous users, follow the steps to assign table permissions and remove the checkmark next to the Anonymous users web role.
 
 ### See also
 
