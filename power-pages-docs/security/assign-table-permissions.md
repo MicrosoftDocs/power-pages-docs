@@ -39,15 +39,13 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
 
 ## Notifications for Anonymous users web role
 
-If the Anonymous users web role is selected, notifications will display in the design studio and in the table permissions workspace.
+When the Anonymous users web role is selected, your site's data is visible to anyone.  
 
-Your data is visible to anyone.  If you don't want that, change the table permissions so they aren't anonymous.
-
-Additionally, flags are displayed in the Table Permissions workspace for all tables with Anonymous Users enabled.
+Notifications appear in the design studio and flags are displayed in the Table Permissions workspace.
 
 ADD IMAGE HERE
 
-To revoke access for Anonymous users, follow the steps to assign table permissions and remove the checkmark next to the Anonymous users web role.
+To restrict access to your site's data, follow the steps to assign table permissions and remove the checkmark next to the Anonymous users web role.
 
 ### See also
 
