@@ -1,6 +1,6 @@
 ---
 title: Power Pages architecture white paper
-description: Learn about Power Pages' security capabilities.
+description: Learn about Power Pages' architecture.
 author: kkendrick
 ms.topic: guidance
 ms.custom: 
