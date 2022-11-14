@@ -37,7 +37,7 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
     > [!NOTE]
     > Once you have created the web role, select **Sync** in the design studio and refresh your browser to view your new roles in the table permissions side panel.
 
-## Notifications for the Anonymous users web role
+## Notifications for Anonymous users web role
 
 If the Anonymous users web role is selected, notifications will display in the design studio and in the table permissions workspace.
 
