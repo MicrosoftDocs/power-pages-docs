@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/01/2022
+ms.date: 11/11/2022
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -39,6 +39,18 @@ To change site visibility:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/)
 1. Edit the site that you want to change site visibility for.
+1. Select **Set up** from the list of workspaces on the left-side of the screen.
+1. Select **Site visibility** tab under **Security** section.
+1. Select **Public** to make the site public, or **Private** to make the site private.
+
+If you have [created your site using Power Apps](/power-apps/maker/portals/create-portal), follow these steps:
+
+1. Go to [Power Apps](https://make.powerapps.com)
+1. Select **Apps**.
+1. Select your site from the list of apps that you want to change site visibility for.
+1. Select the ellipse (**...**).
+1. Select **Edit**.
+1. Select **Open in Power Pages**.
 1. Select **Set up** from the list of workspaces on the left-side of the screen.
 1. Select **Site visibility** tab under **Security** section.
 1. Select **Public** to make the site public, or **Private** to make the site private.
