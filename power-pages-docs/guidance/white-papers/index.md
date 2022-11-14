@@ -1,10 +1,10 @@
 ﻿---
 title: Power Pages white papers
 description: Power Pages white papers
-author: kkendrick
+author: nickdoelman
 ms.topic: guidance
 ms.custom: 
-ms.date: 10/25/2022
+ms.date: 11/14/2022
 ms.author: kkendrick
 ms.reviewer: ndoelman
 contributors:

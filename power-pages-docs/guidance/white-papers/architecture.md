@@ -1,11 +1,11 @@
 ---
 title: Power Pages architecture white paper
 description: Learn about Power Pages' architecture.
-author: kkendrick
+author: nickdoelman
 ms.topic: guidance
 ms.custom: 
-ms.date: 10/25/2022
-ms.author: kkendrick
+ms.date: 11/14/2022
+ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman

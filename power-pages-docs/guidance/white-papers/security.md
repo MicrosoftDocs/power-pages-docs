@@ -1,12 +1,12 @@
 ---
 title: Power Pages security white paper
 description: Learn about Power Pages' security capabilities.
-author: kkendrick
+author: ProfessorKendrick
 ms.topic: guidance
 ms.custom: 
-ms.date: 10/25/2022
+ms.date: 11/14/2022
 ms.author: kkendrick
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
