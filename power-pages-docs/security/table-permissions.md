@@ -88,7 +88,7 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
     > [!NOTE]
     > - If you don't have any relationships available for the selected table, you can select **New relationship** to create a new relationship.
     > - Once you create a table relationship in Power Apps, you need to make sure the configuration is published and also select the **Sync** button in the design studio. 
-    > - In some cases, you may also need to restart the design studio to see the new table relationship in the table permissions panel.
+    > - In some cases, you may also need to reload the design studio to see the new table relationship in the table permissions panel.
 
 1. Select the privileges that you want to grant.
 
