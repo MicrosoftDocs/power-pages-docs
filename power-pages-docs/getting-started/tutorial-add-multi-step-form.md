@@ -4,7 +4,7 @@ description: Learn how to add multistep forms to your Power Pages.
 author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 11/10/2022
+ms.date: 11/14/2022
 ms.subservice:
 ms.author: prpadalw 
 ms.reviewer: ndoelman
@@ -16,13 +16,13 @@ contributors:
 
 # Tutorial: Add a multistep form to your page
 
-Multistep forms are a powerful way to collect and update information in Microsoft Dataverse from a page.  
-
-Multistep forms provide additional features as compared to regular forms:
+Multistep forms are a powerful way to collect and update information in Microsoft Dataverse from a page and provide additional features as compared to regular forms:
 
 - Allows data collection or update process to be broken up over multiple steps.
 - Provides interactive conditions to direct a user down different paths of data updates.
 - Session tracking allows a user to pick up where they left off when following a data update process.
+
+:::image type="content" source="media/tutorial-multistep-forms/multistep-form.gif" alt-text="Animation that shows the working multistep form in action.":::
 
 In this tutorial, you learn how to:
 
@@ -41,7 +41,7 @@ In this tutorial, you learn how to:
 - Complete the [Add a form to a page](tutorial-add-form-to-page.md) tutorial.
 
 > [!NOTE]
-> When creating a multistep form, it is important to plan the steps first.  This will make the configuration process easier. Establish the individual steps and any conditional branches to the multistep process.
+> When creating a multistep form, it is important to plan the steps first. This will make the configuration process easier. Establish the individual steps and any conditional branches to the multistep process.
 
 ## Create an multistep form 
 
@@ -86,6 +86,9 @@ We will create a Dataverse table called *Applications* for our process. For more
     | Major | Text |
     | Other Scholarships | Multiple lines of text |
 
+    :::image type="content" source="media/tutorial-multistep-forms/create-table.png" alt-text="Creating a table to use with multistep forms in Data workspace.":::
+
+
 1. Once you have created the tables, you will need to create forms for each step of your process. 
 
     > [!TIP]
@@ -102,9 +105,11 @@ We will create a Dataverse table called *Applications* for our process. For more
     | Application Step 3 | Scholarship (read-only), Applicant name (read-only), Cost of Tuition, Other Scholarships |
     | Application Step 4 | Scholarship (read-only), Applicant name (read-only), Consent |
 
+    :::image type="content" source="media/tutorial-multistep-forms/create-forms.png" alt-text="Creating forms to use with multistep forms in Data workspace.":::
+
 1. You should now have a series of forms to use in your multistep process.
 
-<!--Add image here-->
+    :::image type="content" source="media/tutorial-multistep-forms/dataverse-forms.png" alt-text="A list of forms in the Data workspace.":::
 
 ### Add a multistep form component to a page
 
@@ -119,6 +124,8 @@ Now that we have our table and forms, we can create a multistep form on a webpag
 1. You will see the **Add a multistep** form window. Enter in **Application** (or other name) for the **Form name**. Select **OK**.
 
 1. There will be no steps in the form. Select **+ Add the first step** to add the first step.
+
+    :::image type="content" source="media/tutorial-multistep-forms/add-multistep-form.png" alt-text="A blank multistep form added to a webpage.":::
 
 1. In the **Add step** window, enter in **Application Step 1** as the **Step name**, select **Application** (or whatever you named your table) in the **Choose a table** field, and select **Application Step 1** in the **Select a form** field.
 
@@ -139,6 +146,9 @@ Now that we have our table and forms, we can create a multistep form on a webpag
 
 1. Continue to add the remaining two steps, **Application Step 3** and **Application Step 4** following the instructions above.
 
+    :::image type="content" source="media/tutorial-multistep-forms/add-steps.png" alt-text="Adding steps to the multistep form.":::
+
+
 ### Edit field properties
 
 You can modify some of the field properties on your multistep form in the design studio. Let's make a field required, update the label and add a description.
@@ -149,13 +159,15 @@ You can modify some of the field properties on your multistep form in the design
 
 1. In the **Edit field** window, change the **Field label** to another value. Select **Make this field required** and select **Show a description**. Enter some instructions in the **Description** field.
 
+    :::image type="content" source="media/tutorial-multistep-forms/edit-field.png" alt-text="Editing field properties.":::
+
 1. Select **OK**.
 
 ### Add table permission
 
 By default visitors to the site will not be able to access the multistep form. In our example, we would only want to allow authenticated users to fill in the multistep form.
 
-For new forms, a banner will appear prompting you to add permissions. If you have already configured permissions for the table used in your multistep form, you can select the ellispe (**...**)
+For new forms, a banner will appear prompting you to add permissions. If you have already configured permissions for the table used in your multistep form, you can select the ellipse (**...**)
 
 1. Select **+ New permission**.
 
@@ -163,101 +175,47 @@ For new forms, a banner will appear prompting you to add permissions. If you hav
 
 1. Select **+ Add roles** and select **Authenticated Users** as the default role. 
 
-1. Select **Save**.
-
-
-
-
-:::image type="content" source="media/tutorial/advanced-form.gif" alt-text="Animation that shows the working advanced form in action.":::
-
-Follow the steps to create an advanced form in the Portals Management app and add it to a page in the design studio.
-
-1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-
-1. In the design studio, use the Data workspace to create/edit forms to use in each step of your process.
-
-    :::image type="content" source="media/tutorial/advanced-forms-create-step-forms.png" alt-text="Active Advanced Forms inside the Portal Management App.":::
-
-    > [!TIP]
-    > - Create a form for each step that requires data to created or updated. Alternatively, you can create a series of form tabs for each step.
-    > - To display columns in the advanced form but not allow users to update, configure the columns to be read-only when creating the forms.
-
-1. Publish your forms.
-
-1. Advanced form configuration is done in the **Portal Management app**. Select the ellipses **...** from the left toolbar, and select **Portal Management**.
-
-1. In the Portal Management app, locate **Advanced forms** in the **Content** section. Create a new Advanced forms record.
-
-1. Specify the configurations.
-
-    - **Name** can be anything descriptive.
-    - Set the **Website** is your website (press **Enter** to view list of sites).
-    - **Start Step** will be blank for now, we'll set the start step later in the tutorial.
-    - Set **Authentication required** to **Yes** (this will required your users sign in to the site to use the advanced form).
-    - Set **Start new session on load** to **No** (this will allow your users to pick up where they left off in the advanced form steps).
-    - Set **Multiple records per user permitted** to **Yes** (this will allow your users to use the advanced form multiple times to create multiple submissions).
-    
-    Optionally, you can enable the **Progress Indicator** (scroll down) to show users their progress when filling out a form. 
-    
-    :::image type="content" source="media/tutorial/advanced-form-config.png" alt-text="New Advanced Form configurations.":::
+    :::image type="content" source="media/tutorial-multistep-forms/add-table-permissions.png" alt-text="Adding table permissions to the application table.":::
 
 1. Select **Save**.
 
-### Add advanced form steps
+## Testing your multistep form
 
-1. In the **Advanced form steps tab**, create a **new Advanced form step record**.
-        
-    :::image type="content" source="media/tutorial/new-advanced-form-steps.png" alt-text="New advanced form steps menu option in Portal Management app.":::
+At this point you can try out your multistep form.
 
-1. Specify the configurations.
+1. Select **Preview**, followed by **Desktop**.
 
-    - Set **Type** to **Load Form**.
-    - Select the **Target Table name** from the drop-down menu.
+1. When the home page appears, select **Sign in** and sign in with a site user. See [Provide access to external audiences](../security/external-access.md) for more information.
 
-    :::image type="content" source="media/tutorial/advanced-form-step-config.png" alt-text="Configurations for the new advanced form step in Portal Management app.":::
+1. Select the page where you placed your multistep form component.
 
-1. Select the **Form Definition** tab where we'll add more configuration.
+1. If you encounter any issues, review the configuration in design studio and review each step.
 
-    :::image type="content" source="media/tutorial/advanced-form-step-details.png" alt-text="Details for the advanced form step in Portal Management app.":::
+1. Once you have successfully submitted the form, return to the design studio.
 
-1. Set the **Mode** to **Insert**. This means that this step will *create* a new record in the table as part of the process.
+1. Select **Data**, then select the **Application** table (or whatever you had named your table) and confirm that you can see that records were created using the multistep form process.
 
-1. Scroll down the page and select the **Form Name** from the drop-down menu.
-    
-    > [!NOTE]
-    > If you created a form with a set of tabs for each step, select the appropriate **Tab Name** for the step.
+## Add conditional and redirect steps to your multistep form
 
-1. Scroll down the page and select the **Portal User Lookup Column** from the drop-down menu. This will associate the currently signed-in user with the record being created. The table will need to have a lookup field to the contact table.
-
-#### Adding edit steps to your advanced form
-
-You can edit existing records in advanced forms. These may be a record you created earlier in the process. For example, we created a record in the first step, and now we want to collect some additional information in a subsequent step.
-
-1. In the **Advanced form steps tab**, create a **new Advanced form step record**.
-        
-    :::image type="content" source="media/tutorial/new-advanced-form-steps.png" alt-text="New advanced form steps menu option in Portal Management app.":::
-
-1. Specify the configurations.
-
-    - Set **Type** to **Load Form**.
-    - Select the **Target Table name** from the drop-down menu.
-
-1. Select the **Form Definition** tab where we'll add more configuration.
-
-    :::image type="content" source="media/tutorial/advanced-form-edit-step.png" alt-text="Advanced form steps edit step.":::
-
-    - Set the **Mode** to **Edit** as we're now updating a record.
-    - Choose the form (and if necessary, the tab) where the user will be editing or adding data to an existing record.
-    - Set the **Source Type** to **Result From Previous Step**. This step will provide the GUID of the record we need to edit as part of the step. There are other options to specify the source record.
-    - When the **Source Type** is **Result From Previous Step**, we need to specify the step in the process that will indicate which record is being edited.
-
-1. Select **Save**
-
-#### Adding conditions to your advanced form
-
-If you need to add conditional logic to your advanced form, identify the condition by adding the Dataverse column logical name and the evaluation you want to perform. The logical name of a column can be found by viewing the column configuration in [Data workspace](../configure/data-workspace-tables.md).
+If you need to add conditional logic to your multistep form, you first need to identify the condition by adding the Dataverse column logical name and the evaluation you want to perform. The logical name of a column can be found by viewing the column configuration in [Data workspace](../configure/data-workspace-tables.md).
 
 In the steps below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps. Other applicants will skip that step.
+
+Conditional and redirect steps are configured in the **Portal Management app**.
+
+1. In the design studio select the ellipses **...** from the left toolbar, and select **Portal Management**.
+
+1. In the design studio, on the multistep form, select the dropdown listing all the steps of the multistep form, choose the **Portal Management App** link.
+
+    :::image type="content" source="media/tutorial-multistep-forms/portal-management-app.png" alt-text="Launch Portal Management app.":::
+
+1. You should be in the Portal Management app in the metadata record for your multistep form. Select the **Form Steps** tab.
+
+1. Select **+ New Form Step**.
+
+1. Give the step a name (e.g. *Check degree type*).
+
+1. Change **Type** to Condition. Select the **Application** table as the **Target Table name**
 
 1. In the **Advanced form steps tab**, create a **new Advanced form step record**.
 
@@ -311,73 +269,12 @@ Once the steps have been created, you'll need to first go back and specify the s
 
     :::image type="content" source="media/tutorial/advanced-form-previous-step.png" alt-text="Previous step, not last step.":::
 
-## Table permissions
 
-Ensure that you've created all the appropriate [table permissions](../security/table-permissions.md) for the tables where records are being created, modified or associated with (for example, populating a lookup). 
 
-## Add configuration options
 
-Advanced forms can be configured for different behaviors, set default values, and specialized user controls. In the following example, we'll replace a lookup column with drop-down control as it would provide a better experience for a user.
 
-1. In the **Portal Management app**, choose **Advanced form**, then in the **Advanced Form Steps** tab, select the appropriate step.
 
-    :::image type="content" source="media/tutorial/advanced-form-choose-scholarship.png" alt-text="Select the Choose Scholarship step from the Advanced form menu.":::
-
-1. In the **Related tab**, choose **Metadata**.
-
-    :::image type="content" source="media/tutorial/advanced-form-metadata.png" alt-text="Advanced form metadata.":::
-
-1. Choose **New Advanced Form Metadata**.
-
-:::image type="content" source="media/tutorial/advanced-forms-add-new.png" alt-text="Add new advanced form metadata.":::
-
-1. Set the **Attribute Logical Name**.
-
-    :::image type="content" source="media/tutorial/advanced-form-scholarship-name.png" alt-text="Attribute Logical Name field set to Scholarship Name.":::
-
-1. Scroll down to **Control Style** and set the **Style** to **Render Lookup as a Dropdown**.
-
-    :::image type="content" source="media/tutorial/advanced-form-render-dropdown.png" alt-text="The Style set to Render Lookup as Dropdown under New Advanced Form Metadata.":::
-
-## Add an advanced form to a page
-
-Now that we've created an advanced form in the Portal Management app, we can now add it to a page in our site.
-
-We'll need to use the code editor to add a [Liquid](../configure/liquid-overview.md) tag to the page to show the advanced form.
-
-1. Open the design studio and **Add a page** or edit a page to which you want to add the advanced form.
-
-    :::image type="content" source="media/tutorial/advanced-form-add-page.png" alt-text="Add a new page pop-up.":::
-
-1. Open the **code editor** by selecting the **</>** at the top of canvas.  
-
-    :::image type="content" source="media/tutorial/advanced-form-code-editor.png" alt-text="Code editor icon in design studio.":::
-
-1. Select the code editor icon, and in between the ```<div></div>``` tags, enter in the following Liquid code snippet:
-
-    ```{% webform name: '<name of advanced form>' %}```
-
-    For example, if your advanced form name was *Scholarship Application* then the code would be:
-
-    ```{% webform name: 'Scholarship Application' %}```
-
-    :::image type="content" source="media/tutorial/advanced-form-code.png" alt-text="Adding an advanced form.":::
-
-1. Select **Save**.
-
-1. Select **Preview**.
-
-1. Sign-in to your site.
-
-1. Fill in and test your form.
-
-    :::image type="content" source="media/tutorial/advanced-form-rendering.png" alt-text="Viewing advanced form on a web page.":::
 
 1. You can view the information collected and updated in your advanced form by going to the [Data workspace](../configure/data-workspace-tables.md?#table-designer) table designer, selecting the table, and viewing the data.
 
-## Next steps
 
-Advance to the next article to learn how to configure site authentication to allow users to sign in using Azure AD B2C.
-
-> [!div class="nextstepaction"]
-> [Configure site authentication](tutorial-setup-site-authentication.md)
