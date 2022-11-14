@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin center
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/06/2022
+ms.date: 11/08/2022
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -45,7 +45,7 @@ Select **Site Actions** to perform the following actions on your site.
 
 ## Site Actions (...)
 
-Select **...** for additional site actions.
+Select **...** for more site actions.
 
 :::image type="content" source="media/more-site-actions.png" alt-text="Selecting additional site actions.":::
 
@@ -60,7 +60,7 @@ Select **...** for additional site actions.
 ## Switch to Classic
 | Action | More Information |
 | - | - |
-| Switch to classic | Switch the to classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview) |
+| Switch to classic | Switch to the classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview) |
 
 ## Site Details
 
@@ -100,3 +100,5 @@ Select **...** for additional site actions.
 | Power BI Embedded Service | See [Enable Power BI Embedded service](/power-apps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-embedded-service) |
 | SharePoint Integration | See [Manage SharePoint documents](/power-apps/maker/portals/manage-sharepoint-documents) |
 
+## See also
+- [Power Pages admin APIs](admin-api.md)
