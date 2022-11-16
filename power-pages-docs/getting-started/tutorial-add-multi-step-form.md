@@ -188,21 +188,21 @@ At this point you can try out your multistep form.
 
 1. Select the page where you placed your multistep form component.
 
+1. Try the process as a user and go through the steps.
+
 1. If you encounter any issues, review the configuration in design studio and review each step.
 
 1. Once you have successfully submitted the form, return to the design studio.
 
 1. Select **Data**, then select the **Application** table (or whatever you had named your table) and confirm that you can see that records were created using the multistep form process.
 
-## Add conditional and redirect steps to your multistep form
+## Add a conditional step to your multistep form
 
 If you need to add conditional logic to your multistep form, you first need to identify the condition by adding the Dataverse column logical name and the evaluation you want to perform. The logical name of a column can be found by viewing the column configuration in [Data workspace](../configure/data-workspace-tables.md).
 
 In our example below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps. Other applicants will skip that step. Feel free to add a condition based on your own business processes.
 
-We will add a redirect step at the end of the process to navigate the user back to the home page.
-
-Conditional and redirect steps are configured in the [Portal Management app](../configure/portal-management-app.md).
+Conditional steps are configured in the [Portal Management app](../configure/portal-management-app.md).
 
 1. In the design studio, on the multistep form, select the dropdown listing all the steps of the multistep form, choose the **Portal Management App** link.
 
@@ -217,57 +217,68 @@ Conditional and redirect steps are configured in the [Portal Management app](../
 1. Specify the configurations.
 
     - Set **Type** to **Condition**.
-    - Select the **Target Table name** from the drop-down menu.
-    :::image type="content" source="media/tutorial/advanced-form-type-condition.png" alt-text="Set configurations for an advanced form step of type condition.":::
+    - Select the *application* table from the **Target Table name** drop-down menu.
+    :::image type="content" source="media/tutorial-multistep-forms/form-type-condition.png" alt-text="Set configurations for an multistep form step of type condition.":::
 
-1. Select the **Condition** tab and enter the condition using the logical column name and a value.
+1. Select the **Condition** tab and enter the condition using the logical column name and a value. In our example, we would something similar to `craxx_degreetype == 124860001` (You need to specify your logical name and value from your own environment.)
 
-    :::image type="content" source="media/tutorial/advanced-form-specify-condition.png" alt-text="Text entry field for a condition on an advanced form step.":::
+    :::image type="content" source="media/tutorial-multistep-forms/form-specify-condition.png" alt-text="Text entry field for a condition on a multiform step.":::
 
-1. Select **Save**
+1. We need set up the process to go to a step if the condition is not met. Select **Application Step 4** in the **Next Step If Condition Fails** field.
 
-Repeat the instructions outlined until you've created the number of steps needed for your business process.
+1. Now we need to set up the process to go a specific step if the condition is met. Select the **General** tab.
 
-In the example, we have created the following steps for the scenario of applying for a scholarship.
+1. In the **Next Step** field, select **Application Step 3**.
 
-| Step | Type | Mode | Details | 
-| - | - | - | - | 
-| Choose Scholarship | Load Form | Insert | <ul><li>Creates an application record</li><li>User chooses scholarship</li></ul> |  
-| Application Details | Load Form | Edit | <ul><li>User adds details to application</li><li>User fills in degree type choices that will be used to determine condition in next step.</li></ul> | 
-| Check Degree Type | Condition | | <ul><li>Evaluates degree type choices using column logical name.</li><li>Next step is Master degree information if *true* or Consent step if *false*.</li></ul> |
-| Master Degree Information | Load Form | Edit | <ul><li>Allows user to fill in additional information if they selected a degree type of *Master* in a previous step, this step is skipped if degree type selected was *Bachelor*.</li></ul>  |
-| Consent | Load Form | Edit | <ul><li>Allows user to choose consent field and ends process.</li></ul> |
+1. Select **Save & Close**
 
-## Link the steps
+1. You should now see your conditional step in the list of steps. We need to make sure our user will reach the conditional step after completing the second step. Select **Application Step 2** and select **Edit**.
 
-Once the steps have been created, you'll need to first go back and specify the start step and link all the steps you created previously.
+1. In the **Next Step** field, change the value from **Application Step 3** to **Check degree type**.
 
-1. Open the Advanced Form record.
+1. Select the **Form Definition** tab and in the **Source Type** field select **Result From Previous Step** and in the **Entity Source Step** field select **Application Step 1**.
 
-1. Choose the appropriate Advanced form step for **Start Step**
+1. Select **Save & Close**.
 
-    :::image type="content" source="media/tutorial/advanced-form-set-steps.png" alt-text="Entering in start step.":::
+## Add a redirect step to your multistep form
 
-1. For each step, ensure the **Next Step** is populated, except for the last step.
+We will also add a redirect step at the end of the process to navigate the user back to the home page.
 
-    :::image type="content" source="media/tutorial/advanced-form-link-steps.png" alt-text="Link the steps.":::
+1. Select **+ New Form Step** and fill in the following configuration:
+    - Set the **Name** to *Go to home page**
+    - Set the **Type** to **Redirect**
 
-1. Conditional steps will have two targets, the step if the evaluation has passed and a step if the evaluation hasn't passed.
+1. Select the **Redirect** tab.
 
-    :::image type="content" source="media/tutorial/advanced-form-condition-passed.png" alt-text="Condition passed in the step.":::
+1. In the **or Web Page** field, select the **Home** page.
 
-    :::image type="content" source="media/tutorial/advanced-form-condition-failed.png" alt-text="Condition failed in the step.":::
+1. Select **Save & Close**.
 
-1. With conditions, the multiple steps may lead to a step, some of which may **not** have been surfaced to the user. The **Record Source** should be set to a previous step earlier in the process that the user would have interacted with. This is to make sure that the record being updated is identified. 
+1. You should now see your redirect step in the list of steps. We need to make sure our user will reach the redirect step after completing the last step in the process. Select **Application Step 4** and select **Edit**.
 
-    :::image type="content" source="media/tutorial/advanced-form-previous-step.png" alt-text="Previous step, not last step.":::
+1. In the **Next Step** field, select **Go to home page**.
 
+1. Select the **Form Definition** tab and in the **Source Type** field select **Result From Previous Step** and in the **Entity Source Step** field select **Application Step 2**.
 
+> [!TIP]
+> We choose an earlier step in the process (Application Step 2) as users will arrive at this step from either the second step or the third step depending on the condition, we want to choose a common step that all users will have interacted with.
 
+1. Select **Save & Close**.
 
+1. Return the **design studio** and select the **Sync** button.
 
+1. You should have a complete multistep form with steps, conditions, and a redirect.
 
+    :::image type="content" source="media/tutorial-multistep-forms/multistep-form-with-steps.png" alt-text="Completed multiform step.":::
 
-1. You can view the information collected and updated in your advanced form by going to the [Data workspace](../configure/data-workspace-tables.md?#table-designer) table designer, selecting the table, and viewing the data.
+1. Select **Preview**, followed by **Desktop**.
 
+1. When the home page appears, select **Sign in** and sign in with a site user. 
 
+1. Select the page where you placed your multistep form component.
+
+1. Try various combinations of the process to see how the multistep form works.
+
+## See Also
+
+- [Add a multistep form](multistep-forms.md)
