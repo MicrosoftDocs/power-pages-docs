@@ -4,7 +4,7 @@ description: Learn how to add multistep forms to your Power Pages.
 author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 11/14/2022
+ms.date: 11/16/2022
 ms.subservice:
 ms.author: prpadalw 
 ms.reviewer: ndoelman
@@ -148,7 +148,6 @@ Now that we have our table and forms, we can create a multistep form on a webpag
 
     :::image type="content" source="media/tutorial-multistep-forms/add-steps.png" alt-text="Adding steps to the multistep form.":::
 
-
 ### Edit field properties
 
 You can modify some of the field properties on your multistep form in the design studio. Let's make a field required, update the label and add a description.
@@ -199,11 +198,11 @@ At this point you can try out your multistep form.
 
 If you need to add conditional logic to your multistep form, you first need to identify the condition by adding the Dataverse column logical name and the evaluation you want to perform. The logical name of a column can be found by viewing the column configuration in [Data workspace](../configure/data-workspace-tables.md).
 
-In the steps below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps. Other applicants will skip that step.
+In our example below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps. Other applicants will skip that step. Feel free to add a condition based on your own business processes.
 
-Conditional and redirect steps are configured in the **Portal Management app**.
+We will add a redirect step at the end of the process to navigate the user back to the home page.
 
-1. In the design studio select the ellipses **...** from the left toolbar, and select **Portal Management**.
+Conditional and redirect steps are configured in the [Portal Management app](../configure/portal-management-app.md).
 
 1. In the design studio, on the multistep form, select the dropdown listing all the steps of the multistep form, choose the **Portal Management App** link.
 
@@ -214,12 +213,6 @@ Conditional and redirect steps are configured in the **Portal Management app**.
 1. Select **+ New Form Step**.
 
 1. Give the step a name (e.g. *Check degree type*).
-
-1. Change **Type** to Condition. Select the **Application** table as the **Target Table name**
-
-1. In the **Advanced form steps tab**, create a **new Advanced form step record**.
-
-    :::image type="content" source="media/tutorial/new-advanced-form-steps.png" alt-text="New advanced form steps menu option in Portal Management app.":::
 
 1. Specify the configurations.
 
