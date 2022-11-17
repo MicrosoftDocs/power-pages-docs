@@ -17,7 +17,7 @@ contributors:
 Power Pages uses the Power Platform admin center to provide administrators with various site configuration capabilities.
 
 > [!NOTE]
-> You will need to be assigned certain roles and priveleges to perform administrative tasks. See [Roles required for portal administration](/power-apps/maker/portals/admin/portal-admin-roles) for more information.
+> You will need to be assigned certain roles to perform administrative tasks. See [Roles required for portal administration](/power-apps/maker/portals/admin/portal-admin-roles) for more information.
 
 1. To access the admin center, from the design studio, select the **Set up** workspace.
 
