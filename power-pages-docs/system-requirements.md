@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
 ms.reviewer: ndoelman
-ms.date: 11/14/2022
+ms.date: 11/17/2022
 ms.subservice: 
 ms.author: nenandw
 contributors:
@@ -54,34 +54,14 @@ This list identifies all services to which Power Pages communicates and their us
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
-| api.bap.microsoft.com<br/>api.businessappdiscovery.microsoft.com | https | Environment permissions management|
-| management.azure.com |https |Power Apps Management Service |
-| msmanaged-na.azure-apim.net |https |Runtime of Connectors/Apis |
 | login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |https |Microsoft Authentication Library |
 | graph.microsoft.com<br>graph.windows.net |https |Azure Graph - For getting user info (for example, profile photo) |
-| gallery.azure.com |https |Sample and Template apps |
-| \*.azure-apim.net |https |Api Hubs - Different subdomains for each locale |
 | \*.powerapps.com |https | create.powerapps.com, content.powerapps.com, apps.powerapps.com, make.powerapps.com, \*gateway.prod.island.powerapps.com, and \*gateway.prod.cm.powerapps.com |
-| \*.azureedge.net |https | create.powerapps.com, content.powerapps.com, and make.powerapps.com |
 | \*.blob.core.windows.net |https | Blob storage |
-| \*.flow.microsoft.com | https | create.powerapps.com, content.powerapps.com, and make.powerapps.com |
 | \*.dynamics.com | https | Microsoft Dataverse |
-| vortex.data.microsoft.com |https |Telemetry |
-| localhost | https | Power Apps Mobile|
-| 127.0.0.1 | http | Power Apps Mobile|
-| ecs.office.com | https | Retrieve feature flags for Power Apps |
-| config.edge.skype.com | https | Retrieve feature flags for Power Apps (backup)|
-| \*.api.powerplatform.com | https | Required for Power Platform API connectivity used internally by Microsoft products, and Power Platform [programmability and extensibility](/power-platform/admin/programmability-extensibility-overview).|
-| *.powerapps.us | https | Required for Power Pages for Government Community Cloud (GCC).<sup>1</sup>  |
-| *.powerapps.us | https | Required for Power Pages for Government Community Cloud (GCC High).<sup>2</sup> |
-| *.appsplatform.us | https | Required for Power Pages for Power Apps Department of Defense (DoD).<sup>3</sup> |
-
-<sup>1</sup> Replaces domain name `gov.content.powerapps.us` used prior to July 2022. <br>
-<sup>2</sup> Replaces domain name `high.content.powerapps.us` used prior to July 2022. <br>
-<sup>3</sup> Replaces domain name `content.appsplatform.us` used prior to July 2022.
 
 ## Proxies
-Power Pages does not support running with a proxy enabled. This can cause unpredictable behavior. If you encounter issues, disable the proxy and then try again.
+Power Pages doesn't support running with a proxy enabled. This can cause unpredictable behavior. If you encounter issues, disable the proxy, and then try again.
 
 - Some proxies (such as Zscaler, Blue Coat) modify Power Pages requests by removing headers (CORS or authentication headers). Power Pages relies on these headers to load the app.
 
