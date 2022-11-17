@@ -1,13 +1,13 @@
 ---
 title: Dynamics 365 templates
-description: Learn about the option to create Power Pages sites using Dynamics 365 templates.
+description: Learn how to use Dynamics 365 templates to create or enhance your Power Pages sites.
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 11/08/2022
 ms.subservice:
 ms.author: sampatn
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -24,6 +24,7 @@ Dynamics 365 templates are available for your Power Pages sites in environments 
 - Dynamics 365 Marketing
 - Dynamics 365 Project Operations
 - Dynamics 365 Supply Chain Management
+- Dynamics 365 Intelligent Order Management
 
 ## Customer self-service
 
@@ -89,7 +90,7 @@ More information:
 
 ## Modern community 
 
-The modern community site template invites customers to provide suggestions and creates crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to help shape the future of the products they use. 
+The modern community site template invites customers to provide suggestions, creating crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to shape the future of the products they use. 
 
 :::image type="content" source="media/dynamics365-templates/modern-community.png" alt-text="Modern community template landing page.":::
 
@@ -105,8 +106,24 @@ The field service customer site template allows your customers to book new appoi
 
 This template provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits.  
 
+>[!IMPORTANT]
+> There's a limit of only one site for this type of template that can be created per Dynamics 365 environment. 
+
 More information: 
 
 - [Field Service customer portal](/dynamics365/field-service/field-service-portal-homepage)
+
+## Order returns
+
+> [!NOTE]
+> This template is a preview offering.
+
+This template integrates with the Dynamics 365 Intelligent Order Management application and can be added to existing customer websites or used to create a new site. Customers can return their orders, view the status of their return request, view return history, and monitor their refund status. 
+
+:::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template landing page.":::
+
+More information: 
+
+- [Dynamics 365 Intelligent Order Management](/dynamics365/intelligent-order-management/overview)
 
 
