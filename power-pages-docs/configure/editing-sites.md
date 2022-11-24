@@ -26,6 +26,10 @@ From the Power Pages home page, you can open sites in design studio [created usi
 
 You can only open sites created using Power Apps using portals Studio. Sites created using Power Pages by default open in Power Pages design studio.
 
+When you select a site in the Power Apps maker portal created using Power Apps, you will be given the option to open the site using the portal Studio or to open in Power Pages design studio.
+
+:::image type="content" source="media/editing-sites/select-editor.png" alt-text="Editing site from Power Apps maker portal.":::
+
 ## Features not available in the Power Pages design studio
 
 The Power Apps portals Studio has the following features that aren't part of the Power Pages design studio:
