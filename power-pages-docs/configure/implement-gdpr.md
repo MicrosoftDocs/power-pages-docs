@@ -19,9 +19,7 @@ contributors:
 
 The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, people can control the use of their personal data in the Microsoft Dataverse.
 
-As an administrator, you can configure your page to meet GDPR standards. For example, minors must have parental consent to use the Power Pages site. You can also establish terms and conditions that users must agree to in order to who use your website.
-
-GDPR allows you to obtain consent from users about the use of their personal data, identify minor users, and get parental consent for minors.
+As an administrator, you can configure your Power Pages site to meet GDPR standards. GDPR allows you to obtain consent from users about the use of their personal data, identify minor users, and get parental consent for minors.
 
 ## Audit logging
 
