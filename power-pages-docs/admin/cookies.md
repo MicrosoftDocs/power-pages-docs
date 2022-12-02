@@ -6,7 +6,7 @@ author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/02/2022
-ms.subservice: power-pages
+ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
 contributors:
@@ -60,5 +60,5 @@ No.
 
 ### Do cookies in Power Pages store my IP address?
 
-No. However, check the terms of your analytics provider if you've configured traffic analysis on your website. Traffic analysis can be configured through [Portal Management app](../configure/configure-portal.md) > **Administration** > **Enable Traffic Analysis**.
+No. However, check the terms of your analytics provider if you've configured traffic analysis on your website. Traffic analysis can be configured through [Portal Management app](../configure/portal-management-app.md) > **Administration** > **Enable Traffic Analysis**.
 

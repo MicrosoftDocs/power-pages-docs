@@ -6,7 +6,7 @@ author: sandhangitmsft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/02/2022
-ms.subservice: power-pages
+ms.subservice: 
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:

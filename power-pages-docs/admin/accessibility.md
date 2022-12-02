@@ -6,7 +6,7 @@ author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/02/2022
-ms.subservice: power-pages
+ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
 contributors:
@@ -48,7 +48,7 @@ Power Pages conforms to ETSI EN 301 549.
 
 To create an accessible website, follow the [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices/) authoring practices.
 
-### Customizing your portal and accessibility
+### Customizing your Power Pages site and accessibility
 
 When you customize your Power Pages site, you're responsible for meeting accessibility standards.
 
@@ -71,19 +71,19 @@ More information: [Add a form](../getting-started/add-form.md)
 
 ### Liquid templates and content snippets
 
-When custom HTML and [Liquid](../liquid/liquid-overview.md) content are added to the portal, accessibility must be taken into consideration. The person making the changes to the Liquid templates and [content snippets](../configure/customize-content-snippets.md) is responsible for ensuring that the content they add is accessible. It's important to make sure that customizations adhere to the required policies, such as WCAG 2.1, US Section 508, or ETSI EN 301 549.
+When custom HTML and [Use Liquid](../configure/liquid-overview.md) content are added to your Power Pages site, accessibility must be taken into consideration. The person making the changes to the Liquid templates and [Content snippets](../configure/content-snippets.md) is responsible for ensuring that the content they add is accessible. It's important to make sure that customizations adhere to the required policies, such as WCAG 2.1, US Section 508, or ETSI EN 301 549.
 
 The [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) provides a list of the WCAG requirements with links to the full descriptions.
 
 ### Power BI
 
-Portal allows you to bring your Power BI reports/dashboard as a [first party component](../getting-started/add-power-bi.md); however, as a Power BI report and dashboard author, you should make sure your Power BI reports and dashboards are accessible.  For more information, see [Power BI accessibility guide](/power-bi/create-reports/desktop-accessibility-creating-reports).
+Power Pages allows you to bring your Power BI reports/dashboard as a [first party component](../getting-started/add-power-bi.md); however, as a Power BI report and dashboard author, you should make sure your Power BI reports and dashboards are accessible.  For more information, see [Power BI accessibility guide](/power-bi/create-reports/desktop-accessibility-creating-reports).
 
 ### Quick tips for accessible content
 
 - Make sure a non-sighted or visually impaired person can do everything a sighted user can do.
 
-- Test your portal by zooming in to 400 percent. Make sure the text is readable, and pages and controls function as expected. For more information, go to [WCAG 1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow).
+- Test your Power Pages site by zooming in to 400 percent. Make sure the text is readable, and pages and controls function as expected. For more information, go to [WCAG 1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow).
 
 - Color contrast matters. Use a color contrast tool to help you see the contrast ratio. For more information, go to [WCAG 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
 
@@ -103,7 +103,7 @@ Portal allows you to bring your Power BI reports/dashboard as a [first party com
 
     - Use a screen reader, such as [Windows Narrator](https://support.microsoft.com/windows/chapter-1-introducing-narrator-7fe8fd72-541f-4536-7658-bfc37ddaf9c6#WindowsVersion=Windows_11).
 
-    - Use [Immersive Reader](https://education.microsoft.com/resource/9b010288) in Microsoft Edge to make sure your portal is rendered and readable, making adjustments to the portal as needed.
+    - Use [Immersive Reader](https://education.microsoft.com/resource/9b010288) in Microsoft Edge to make sure your Power Pages site is rendered and readable, making adjustments to the website as needed.
 
 ## Microsoft accessibility features
 
