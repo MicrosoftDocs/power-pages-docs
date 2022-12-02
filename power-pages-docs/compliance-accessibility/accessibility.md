@@ -109,8 +109,3 @@ Portal allows you to bring your Power BI reports/dashboard as a [first party com
 
 Microsoft accessibility features help various agencies address accessibility requirements and conform to the standards laid out. More information: [Accessibility features of Microsoft products](https://sway.office.com/vAdiAMXOJEQGVbqX)
 
-### See also
-
-[Accessibility in Dynamics 365](/dynamics365/get-started/accessibility/)
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

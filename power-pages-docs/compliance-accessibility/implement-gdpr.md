@@ -88,4 +88,3 @@ The following field is added in the contact record to store the date and time a 
 - **Terms Agreement Date**: Indicates the date and time the user agreed to the terms and conditions.
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

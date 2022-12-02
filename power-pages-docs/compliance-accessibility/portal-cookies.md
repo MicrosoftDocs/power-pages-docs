@@ -62,8 +62,3 @@ No.
 
 No. However, check the terms of your analytics provider if you've configured traffic analysis on your website. Traffic analysis can be configured through [Portal Management app](../configure/configure-portal.md) > **Administration** > **Enable Traffic Analysis**.
 
-### See also
-
-[Cookie authentication site settings](../configure/set-authentication-identity.md#cookie-authentication-site-settings)
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
