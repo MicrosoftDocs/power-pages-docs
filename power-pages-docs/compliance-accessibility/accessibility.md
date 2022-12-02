@@ -5,8 +5,8 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/01/2022
-ms.subservice: portals
+ms.date: 12/02/2022
+ms.subservice: power-pages
 ms.author: nenandw
 ms.reviewer: kkendrick
 contributors:
