@@ -4,7 +4,7 @@ description: Learn how to add multistep forms to your Power Pages.
 author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 11/16/2022
+ms.date: 12/06/2022
 ms.subservice:
 ms.author: prpadalw 
 ms.reviewer: ndoelman
@@ -16,10 +16,10 @@ contributors:
 
 # Tutorial: Add a multistep form to your page
 
-Multistep forms are a powerful way to collect and update information in Microsoft Dataverse from a page and provide additional features as compared to regular forms:
+Multistep forms are a powerful way to collect inputs from users over multiple steps. The collected information is stored or updated in Microsoft Dataverse. Here are features available in multistep form as compared to regular forms: 
 
 - Allows data collection or update process to be broken up over multiple steps.
-- Provides interactive conditions to direct a user down different paths of data updates.
+- Provides conditions that dynamically change the flow of the steps based on user inputs.  
 - Session tracking allows a user to pick up where they left off when following a data update process.
 
 :::image type="content" source="media/tutorial-multistep-forms/multistep-form.gif" alt-text="Animation that shows the working multistep form in action.":::
@@ -43,9 +43,9 @@ In this tutorial, you learn how to:
 > [!NOTE]
 > When creating a multistep form, it is important to plan the steps first. This will make the configuration process easier. Establish the individual steps and any conditional branches to the multistep process.
 
-## Create an multistep form 
+## Create a multistep form 
 
-In the steps below, we'll create an multistep form, this example follows a simple process to apply for a scholarship, but the concepts can be applied to other business processes. 
+In the steps below, we'll create a multistep form, this example follows a simple process to apply for a scholarship, but the concepts can be applied to other business processes. 
 
 Here is an outline of the sample steps:
 
@@ -118,9 +118,9 @@ Now that we have our table and forms, we can create a multistep form on a webpag
 
 1. Go to the **Pages** workspace and add a new page or edit an existing page. For more information on creating webpages, see [Create and design pages](first-page.md).
 
-1. Select the **Multistep form** from the selection of components.
+1. Add a new section and select the **Multistep form** component. 
 
-1. If other multistep forms exist on your site, you will be given the option to add them to your page. In our example, we will create a new multistep form for our tutorial, Select **+ New multistep form** from the dialog. Otherwise, proceed to the next step.
+    If other multistep forms exist on your site, you will be given the option to add them to your page. In our example, we will create a new multistep form for our tutorial, Select **+ New multistep form** from the dialog.
 
 1. You will see the **Add a multistep** form window. Enter in **Application** (or other name) for the **Form name**. Select **OK**.
 
@@ -134,7 +134,7 @@ Now that we have our table and forms, we can create a multistep form on a webpag
     - In the **Choose a table** field select **Application** (or whatever you named your table).
     - In the **Select a form** field select **Application Step 1** .
 
-1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Create a new record**. In our example for the first step we will be creating a new Dataverse record. Note that in subsequent steps we will be modifying a record and this option will be different. 
+1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Create a new record**. In our example for the first step we will be creating a new record in the Dataverse table. Note that in subsequent steps we will be modifying the record created in the first step and this option will be different. 
 
 1. Select **OK**.
 
@@ -173,9 +173,11 @@ You can modify some of the field properties on your multistep form in the design
 
 ### Add table permission
 
-By default visitors to the site will not be able to access the multistep form. In our example, we would only want to allow authenticated users to fill in the multistep form. You can use a combination of web roles and table permissions to configure create, read, and update data actions for your own multistep process.
+By default, visitors to the site will not be able to access the multistep form. In our example, we would only want to allow authenticated users to fill in the multistep form. You can use a combination of web roles and table permissions to configure create, read, and update data actions for your own multistep process.
 
-For new forms, a banner will appear prompting you to add permissions. If you have already configured permissions for the table used in your multistep form, you can select the ellipse (**...**)
+For new forms, a banner will appear prompting you to add permissions. 
+
+If you have already configured permissions for the table used in your multistep form, you can select the ellipse (**...**) and choose **Permissions**.
 
 1. Select **+ New permission**.
 
