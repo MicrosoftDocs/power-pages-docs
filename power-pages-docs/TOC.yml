@@ -210,6 +210,14 @@
       href: getting-started/tutorial-add-custom-page-layout.md
 - name: Training videos
   href: training-videos/index.md
+- name: Compliance and accessibility
+  items:
+    - name: Implement GDPR in portals
+      href: configure/implement-gdpr.md
+    - name: Cookies used by portal
+      href: admin/cookies.md
+    - name: Accessibility in portals
+      href: admin/accessibility.md
 - name: Known issues
   href: known-issues.md
 - name: Important changes and deprecations
