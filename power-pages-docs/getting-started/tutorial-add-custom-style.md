@@ -19,7 +19,7 @@ The [Styling workspace](tutorial-style-site.md) allows you to edit some of the t
 
 You can create your own theme by defining a custom CSS file and uploading it to your site.  
 
-In this tutorial, you will learn how to:
+In this tutorial, you'll learn how to:
 
 > [!div class="checklist"]
 > * Upload a custom CSS file
@@ -36,7 +36,7 @@ In this tutorial, you will learn how to:
 
 ## Add custom CSS to your site
 
-In this example, we will add some custom CSS files that will allow us to add shadow effects to buttons on our website. You can use your own custom CSS file or use the sample provided.
+In this example, we'll add some custom CSS files that will allow us to add shadow effects to buttons on our website. You can use your own custom CSS file or use the sample provided.
 
 1. To create a sample, in your favorite CSS editor, create the **button_shadow.css** custom theme file and save.
 
