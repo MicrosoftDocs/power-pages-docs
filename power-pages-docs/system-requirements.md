@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
 ms.reviewer: ndoelman
-ms.date: 11/17/2022
+ms.date: 12/12/2022
 ms.subservice: 
 ms.author: nenandw
 contributors:
@@ -54,11 +54,14 @@ This list identifies all services to which Power Pages communicates and their us
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
+| api.bap.microsoft.com<br>api.businessappdiscovery.microsoft.com | https | Environment permissions management |
+| management.azure.com | https | Power Apps Management Service |
 | login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |https |Microsoft Authentication Library |
 | graph.microsoft.com<br>graph.windows.net |https |Azure Graph - For getting user info (for example, profile photo) |
 | \*.powerapps.com |https | create.powerapps.com, content.powerapps.com, apps.powerapps.com, make.powerapps.com, \*gateway.prod.island.powerapps.com, and \*gateway.prod.cm.powerapps.com |
 | \*.blob.core.windows.net |https | Blob storage |
 | \*.dynamics.com | https | Microsoft Dataverse |
+| *.api.powerplatform.com | https | Required for Power Platform API connectivity used internally by Microsoft products, and Power Platform [programmability and extensibility](/power-platform/admin/programmability-extensibility-overview).
 
 ## Proxies
 Power Pages doesn't support running with a proxy enabled. This can cause unpredictable behavior. If you encounter issues, disable the proxy, and then try again.
