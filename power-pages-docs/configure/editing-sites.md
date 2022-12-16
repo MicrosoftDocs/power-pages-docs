@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 10/11/2022
 ms.subservice:
 ms.author: avishwakarma
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - ankitavish
     - nickdoelman
