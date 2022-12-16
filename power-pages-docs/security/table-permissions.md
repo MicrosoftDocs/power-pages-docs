@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 11/02/2022
 ms.author: gisingh
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - gitanjalisingh33msft
     - nickdoelman
