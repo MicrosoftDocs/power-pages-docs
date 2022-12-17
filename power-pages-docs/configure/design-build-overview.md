@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 10/04/2022
 ms.subservice:
 ms.author: ndoelman
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
