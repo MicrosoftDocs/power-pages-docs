@@ -24,9 +24,9 @@ The announcements for changes and deprecations described in this article apply t
 > [!IMPORTANT]
 > *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
-## Power Apps portal admin center
+## Power Apps portals admin center
 
-The Power Apps portal admin center is now deprecated and no longer available as of June 2023. Use the new [Power Pages admin hub](/power-pages/admin/admin-overview) in the Power Platform admin center. 
+The Power Apps portals admin center is now deprecated and no longer available as of June 2023. Use the new [Power Pages admin hub](/power-pages/admin/admin-overview) in the Power Platform admin center. 
 
 ## Controlling site visibility changes in Power Pages
 
