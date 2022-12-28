@@ -6,7 +6,6 @@ author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/26/2022
-ms.subservice: power-pages
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
