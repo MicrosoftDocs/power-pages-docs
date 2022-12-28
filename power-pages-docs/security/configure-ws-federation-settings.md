@@ -1,11 +1,11 @@
 ---
-title: Configure a WS-Federation provider for portals with AD FS
-description: Learn how to configure WS-Federation provider for a portal with AD FS.
+title: Configure a WS-Federation provider for Power Pages with AD FS
+description: Learn how to configure WS-Federation provider for a Power Pages with AD FS.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Configure a WS-Federation provider for portals with AD FS
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 > [!IMPORTANT]
 > The steps for the configuration of Active Directory Federation Services (AD FS) might vary depending on the version of your AD FS server.
@@ -64,6 +61,3 @@ After setting up the AD FS relying party trust, you can follow the steps in [Con
 ### See also
 
 [Configure a WS-Federation provider for portals with Azure AD](configure-ws-federation-settings-azure-ad.md)  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,11 +1,11 @@
 ---
-title: Invite contacts to your portals
-description: Learn how to create and configure invitations in a portal.
+title: Invite contacts to your Power Pages site
+description: Learn how to create and configure invitations in a Power Pages site.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/24/2022
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -14,10 +14,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Invite contacts to your portals
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
+# Invite contacts to your Power Pages site
 
 Use the invitation feature of portals to invite contacts to your portal through automated email(s) created in your Microsoft Dataverse. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature, you have the ability to:
 
@@ -60,13 +57,7 @@ To edit the **Send Invitation** workflow email template, locate it and deactivat
 
 7.	On the command bar, select **Flow** > **Send Invitation**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Send invitation workflow.](../media/send-invitation-portal-app.png "Send invitation workflow")
-
 8.	In the confirmation window, select **OK**. The invitation will be sent to the selected contact.
-
-    > [!div class="mx-imgBorder"]
-    > ![Confirmation to send an invitation.](../media/confirm-invitation-portal-app.png "Confirmation to send an invitation")
 
 ### Send multiple invitations
 
@@ -78,13 +69,7 @@ You can create invitations for your contacts and then send all invitations at on
 
 3.	On the command bar, select **Flow** > **Send Invitation**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Send invitation workflow.](../media/send-invitation-portal-app.png "Send invitation workflow")
-
 4.	In the confirmation window, select **OK**. The invitations will be sent to the selected contacts.
-
-    > [!div class="mx-imgBorder"]
-    > ![Confirmation to send multiple invitations.](../media/confirm-multiple-invites-portal-app.png "Confirmation to send multiple invitations")
 
 ## Invitation attributes
 
@@ -111,6 +96,3 @@ The table below explains the attributes of the **Invitation** page:
 
 [Configure a contact for use on a portal](configure-contacts.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

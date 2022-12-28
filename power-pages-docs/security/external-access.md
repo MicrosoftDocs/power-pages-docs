@@ -15,8 +15,6 @@ contributors:
 
 # Provide access to external audiences
 
-
-
 User information in Power Pages is stored as contact records in Dataverse. To configure contacts and invite them as users to your site, use the Portal Management app.
 
 ## Open the Portal Management app
