@@ -40,25 +40,15 @@ Follow these steps to configure Azure AD B2C as the OpenID Connect provider.
 
 1. On the left pane, select **Apps**.
 
-    ![Select Apps.](media/use-simplified-authentication-configuration/select-apps.png "Select Apps")
-
 1. Select your portal from the list of available apps.
 
-1. On the command bar, select **Settings**.<br>or<br>Select **More Commands** (**...**), and then select **Settings**.
-
-    ![Select Settings.](media/use-simplified-authentication-configuration/select-settings.png "Select Settings")
+1. On the command bar, select **Settings**.<br />or<br />Select **More Commands** (**...**), and then select **Settings**.
 
 1. In **Portal settings** on the right side of your workspace, select **Authentication Settings**.
 
-    ![Authentication Settings.](media/use-simplified-authentication-configuration/portal-settings-right-pane.png "Authentication Settings")
-
 1. For **Azure Active Directory B2C**, select **Configure**.
 
-    ![Configure Azure AD B2C.](media/authentication/configure-adb2c.png "Configure Azure AD B2C")
-
 1. If necessary, update the **Provider name**.
-
-    ![Azure AD B2C provider name.](media/authentication/azure-ad-b2c-name.png "Azure AD B2C provider name")
 
 1. Select **Next**.
 
@@ -66,16 +56,12 @@ Follow these steps to configure Azure AD B2C as the OpenID Connect provider.
 
 In this step, you select an existing Azure AD B2C tenant or create a new one.
 
-![Select or create an Azure AD B2C tenant.](media/authentication/azure-adb2c-select-tenant.png "Select or create an Azure AD B2C tenant")
-
 ### Option 1. Existing Azure AD B2C tenant
 
 Select this option if you already have an existing Azure AD B2C tenant. Other details such as the initial domain name, country/region, and location will be automatically updated.
 
 > [!NOTE]
 > Ensure that the account you use to sign in to Power Apps has access to the Azure AD tenant that you want to use for configuring Azure AD B2C authentication. For information about adding different types of user accounts to an Azure AD B2C tenant, go to [Overview of user accounts in Azure Active Directory B2C](/azure/active-directory-b2c/user-overview).
-
-![Select an existing Azure AD B2C tenant.](media/authentication/b2c-tenant-select.png "Select an existing Azure AD B2C tenant")
 
 Select **Next** to continue.
 
@@ -108,15 +94,11 @@ Select this option to create a new Azure AD B2C tenant.
     > - It's important that you select the correct country/region, because your choice determines the **Datacenter location** for your directory.
     > - Microsoft doesn't control the location from which you or your users can access or move directory data through apps or services. To see Microsoft's data location commitments for its services, see the [Online Service Terms](https://go.microsoft.com/fwlink?linkid=2009014).
 
-    ![New Azure AD B2C tenant details.](media/authentication/create-new-b2c-tenant.png "New Azure AD B2C tenant details")
-
 1. Select **Next**.
 
 ## Step 3. Register the application
 
 In this step, you register your portal as an application with Azure AD. You can create a new application or select an existing application from Azure AD.
-
-![Register the application.](media/authentication/register-app-b2c.png "Register the application")
 
 > [!NOTE]
 > If you're using a custom domain name for the portal, enter the custom URL as the **Reply URL**.
@@ -127,25 +109,19 @@ In this step, you register your portal as an application with Azure AD. You can 
 
 1. Enter a **Reply URL**.
 
-    ![New application.](media/authentication/new-application-b2c.png "New application")
-
 1. Select **Next**.
 
 ### Option 2. Select an existing application
 
 1. Select an existing application from the list.
 
-1. Select the **Reply URL**.<br>or<br>Select **Create new** to create a new **Reply URL**.
-
-    ![Existing application.](media/authentication/existing-application-b2c.png "Existing application")
+1. Select the **Reply URL**.<br />or<br />Select **Create new** to create a new **Reply URL**.
 
 1. Select **Next**.
 
 ## Step 4. Configure user flows
 
 In this step, you configure the **Sign up and sign in** and **Password reset** user flows. The **Sign up and sign in** user flow enables a user to create an account or sign in to their account. The **Password reset** flow enables a user to choose a new password after email verification. More information: [User flow and policy in Azure AD B2C](/azure/active-directory-b2c/user-flow-overview#user-flow-versions)
-
-![Configure user flows.](media/authentication/b2c-user-flows.png "Configure user flows")
 
 - **New policy**: Select this option if you want to create a new policy. You can also change the default name of the policy. This option creates the flow by using the *local account* identity provider with the email address.
 - **Existing policy**: Select this option if you want to select an existing policy from the Azure AD B2C tenant.
@@ -159,8 +135,6 @@ Select **Create** to create the identity provider configuration.
 ## Step 5. Summary
 
 The Azure AD B2C provider configuration is complete. You can view the summary of the configuration, and then select **Close** to exit.
-
-![View summary and close.](media/authentication/b2c-summary.png "View summary and close")
 
 ## Edit the configuration
 
