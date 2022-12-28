@@ -75,7 +75,7 @@ This article describes how to configure Azure Active Directory B2C (Azure AD B2C
     1. In the **Configure site settings** section, enter the following values:
 
         - **Authority**: Enter the issuer URL defined in the metadata of the sign-up and sign-in policy user flow.​
-        <br>**To get the issuer URL**
+        <br />**To get the issuer URL**
 
            1. Open the sign-up and sign-in user flow you created earlier. For this step, you need to go to the Azure AD B2C tenant on the [Azure portal](https://portal.azure.com).
 

@@ -412,7 +412,7 @@ For a complete list of other CORS settings, see [CORS protocol support](../add-w
 
 1. Sign in to Azure portal.
 
-1. From the top-left corner of the Azure portal, select ![Show portal menu.](media/authentication/show-portal-menu.png "Show portal menu").
+1. From the top-left corner of the Azure portal, select Show portal menu.
 
 1. Select **All resources**.
 
@@ -430,7 +430,7 @@ For a complete list of other CORS settings, see [CORS protocol support](../add-w
 
 1. Under **Unified sign up or sign in page**, select **Yes** for **Use custom page content**.
 
-1. For **Custom page URI**, enter the complete URL of your portal's custom webpage that you created in [step 3](#step-3-create-a-webpage). <br> For example, for the page named `azure-ad-b2c-sign-in` in portal `https://contoso.powerappsportals.com`, use the custom page URI as `https://contoso.powerappsportals.com/azure-ad-b2c-sign-in`.
+1. For **Custom page URI**, enter the complete URL of your portal's custom webpage that you created in [step 3](#step-3-create-a-webpage). <br /> For example, for the page named `azure-ad-b2c-sign-in` in portal `https://contoso.powerappsportals.com`, use the custom page URI as `https://contoso.powerappsportals.com/azure-ad-b2c-sign-in`.
 
 Your Azure AD B2C tenant is now configured to use the custom page for sign-up and sign-in experience.
 
