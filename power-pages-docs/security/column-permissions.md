@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/23/2022
+ms.date: 12/28/2022
 ms.author: nenandw
 ms.reviewer: kkendrick
 contributors:
@@ -15,10 +15,7 @@ contributors:
 
 # Configure column permissions
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-In portals, [table permissions](assign-entity-permissions.md) are used to apply security to individual Dataverse table records. You can add column permissions to individual table columns. Column permissions are an optional configuration that you associate with [web roles](create-web-roles.md).
+In Power Pages, [table permissions](assign-entity-permissions.md) are used to apply security to individual Dataverse table records. You can add column permissions to individual table columns. Column permissions are an optional configuration that you associate with [web roles](create-web-roles.md).
 
 > [!NOTE]
 > Column permissions are currently only applicable for [portal Web API](../web-api-overview.md) features.
@@ -69,7 +66,7 @@ The following table explains the table permission attributes.
 
 In this example, we have a contact table with the columns **JobTitle** and **Salary**.
 
-The following table shows the result of applying different column and table permissions to the contact table and the additional columns.
+The following table shows the result of applying different column and table permissions to the contact table and the other columns.
 
 | **Scenario** | **Table permission** | **Site  setting**<br><em>**Webapi/contact/enabled**</em> | **Site setting**<br><em>**Webapi/contact/fields**</em> | **Column permission** | 
 |-|-|-|-|-|
