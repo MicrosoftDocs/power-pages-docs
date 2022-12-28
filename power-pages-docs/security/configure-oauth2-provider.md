@@ -1,11 +1,11 @@
 ---
-title: Configure an OAuth 2.0 provider for portals
-description: Learn how to configure OAuth 2.0 identity providers in Power Apps portals - such as Microsoft, LinkedIn, Facebook, Google, and Twitter.
+title: Configure an OAuth 2.0 provider for Power Pages
+description: Learn how to configure OAuth 2.0 identity providers such as Microsoft, LinkedIn, Facebook, Google, and Twitter in Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -14,10 +14,7 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure an OAuth 2.0 provider for portals
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
+# Configure an OAuth 2.0 provider for Power Pages
 
 To use OAuth 2.0&ndash;based external identity providers, you register an application with a third-party service to obtain a *client ID* and *client secret* pair. Often this application requires that you specify a redirect URL to allow the identity provider to send users back to the portal (the *relying party*). The client ID and client secret are configured as portal site settings to establish a secure connection from the relying party to the identity provider. The settings are based on the properties of the [[!INCLUDE[cc-microsoft](../../../includes/cc-microsoft.md)]AccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](/previous-versions/aspnet/dn450335(v=vs.113)), [FacebookAuthenticationOptions](/previous-versions/aspnet/dn253793(v=vs.113)), and [GoogleOAuth2AuthenticationOptions](/previous-versions/aspnet/dn800251(v=vs.113)) classes.  
 
@@ -35,5 +32,3 @@ To learn about individual OAuth 2.0 providers, select the name of the provider t
 
 For general settings applicable to all OAuth 2.0 providers, go to [Configure additional settings for OAuth 2.0 providers](configure-oauth2-settings.md).
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
