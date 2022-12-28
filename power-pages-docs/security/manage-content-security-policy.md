@@ -6,7 +6,7 @@ author: nabha
 ms.topic: conceptual
 ms.custom: 
 ms.date: 07/04/2022
-ms.subservice: portals
+ms.subservice: power-pages
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:

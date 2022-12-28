@@ -6,7 +6,7 @@ author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/29/2021
-ms.subservice: portals
+ms.subservice: power-pages
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
