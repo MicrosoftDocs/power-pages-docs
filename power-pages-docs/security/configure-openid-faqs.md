@@ -1,11 +1,11 @@
 ---
-title: FAQs for using OpenID Connect in portals
-description: Learn about frequently asked questions when using OpenID Connect providers for authentication in Power Apps portals.
+title: FAQs for using OpenID Connect in Power Pages
+description: Learn about frequently asked questions when using OpenID Connect providers for authentication in Power Pages.
 author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/29/2021
+ms.date: 12/28/2022
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # FAQs for using OpenID Connect in portals
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 This article includes information about common Power Apps portals scenarios and frequently asked questions for using an authentication provider that conforms to the [OpenID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
 
@@ -83,6 +80,3 @@ Yes. Portals supports any OpenID Connect provider that supports the standard [Op
 ### See also
 
 [Configure an OpenID Connect provider for portals](configure-openid-provider.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
