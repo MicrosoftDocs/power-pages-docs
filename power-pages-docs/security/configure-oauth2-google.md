@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -16,12 +16,7 @@ contributors:
 
 # Configure the Google provider for portals
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
 As explained in [Configure an OAuth 2.0 provider for portals](configure-oauth2-provider.md), Google is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring Google as the identity provider, select **Configure** from the [provider settings](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) page.
-
-![Configure the Google app.](media/use-simplified-authentication-configuration/configure-google.png "Configure the Google app")
 
 ## Step 1. Create a Google app
 
@@ -74,5 +69,3 @@ After you've created the app in Google, configure the site settings for the prov
 
 To configure **Additional settings** for the Google provider, see [Configure additional settings for OAuth 2.0 providers](configure-oauth2-settings.md).
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
