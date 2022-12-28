@@ -1,11 +1,11 @@
 ---
-title: Configure the Twitter provider for portals
-description: Learn how to configure Twitter as the identity provider for Power Apps portals.
+title: Configure the Twitter provider for Power Pages
+description: Learn how to configure Twitter as the identity provider for Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/26/2021
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -16,15 +16,10 @@ contributors:
 
 # Configure the Twitter provider for portals
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
 As explained in [Configure an OAuth 2.0 provider for portals](configure-oauth2-provider.md), Twitter is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring Twitter as the identity provider, select **Configure** from the [provider settings](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) page.
 
 > [!IMPORTANT]
 > Twitter authentication for portals is temporarily unavailable because of the compatibility issues.
-
-![Configure the Twitter app.](media/use-simplified-authentication-configuration/configure-twitter.png "Configure the Twitter app")
 
 ## Step 1. Create a Twitter app
 
@@ -55,5 +50,3 @@ After you've created the app in Twitter, configure the site settings for the pro
 
 To configure **Additional settings** for the Twitter provider, see [Configure additional settings for OAuth 2.0 providers](configure-oauth2-settings.md).
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
