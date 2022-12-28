@@ -1,11 +1,11 @@
 ---
-title: FAQs for using SAML 2.0 in portals
-description: Learn about Frequently Asked Questions when using SAML 2.0 providers for authentication in Power Apps portals.
+title: FAQs for using SAML 2.0 in Power Pages
+description: Learn about Frequently Asked Questions when using SAML 2.0 providers for authentication in Power Pages.
 author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/26/2022
+ms.date: 12/28/2022
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
@@ -16,9 +16,6 @@ contributors:
 ---
 
 # FAQs for using SAML 2.0 in portals
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 This article includes information about common Power Apps portals scenarios and frequently asked questions for using an authentication provider that conforms to the Security Assertion Markup Language (SAML) 2.0 standard.
 
@@ -55,6 +52,3 @@ Yes.  Use the [Power Platform admin center](../admin/manage-custom-certificates.
 [Configure a SAML 2.0 provider for portals with Azure AD](configure-saml2-settings-azure-ad.md)  
 [Configure a SAML 2.0 provider for portals with AD FS](configure-saml2-settings.md)  
 [Configure a SAML 2.0 provider for portals](configure-saml2-provider.md)  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -5,7 +5,7 @@ author: nickdoelman
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 12/28/2022
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
@@ -14,8 +14,6 @@ contributors:
 ---
 
 # Configure authentication
-
-
 
 As you build your site, you may wish to control access both to pages and data to specific users. Power Pages uses Microsoft Dataverse contact records to associate to authenticated Power Pages site users.
 
