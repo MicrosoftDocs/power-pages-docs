@@ -1,12 +1,11 @@
 ---
-title: Configure a WS-Federation provider for portals with Azure AD
-description: Learn how to configure WS-Federation for portals with Azure Active Directory.
+title: Configure a WS-Federation provider for Power Pages with Azure AD
+description: Learn how to configure WS-Federation for Power Pages with Azure Active Directory.
 author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/07/2022
-ms.subservice: power-pages
+ms.date: 12/28/2022
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -16,10 +15,7 @@ contributors:
     - nageshbhat-msft
 ---
 
-# Configure a WS-Federation provider for portals with Azure AD
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
+# Configure a WS-Federation provider for Power Pages with Azure AD
 
 In this article, you'll learn about configuring a WS-Federation provider for portals by using Azure Active Directory (Azure AD).
 
@@ -37,13 +33,9 @@ In this article, you'll learn about configuring a WS-Federation provider for por
 
 1. Enter a provider name.
 
-    ![Provider name.](media/authentication/configure-ws-fed-name.png "Provider name")
-
 1. Select **Next**.
 
 1. In this step, you create the application and configure the settings with your identity provider.
-
-    ![Create application.](media/authentication/step-1-wsfed.png "Create application")
 
     > [!NOTE]
     > - The Reply URL is used by the app to redirect users to the portal after the authentication succeeds. If your portal uses a custom domain name, you might have a different URL than the one provided here.
@@ -57,8 +49,6 @@ In this article, you'll learn about configuring a WS-Federation provider for por
 
     1. Select **New registration**.
 
-        ![New app registration.](media/authentication/app-registration-new.png "New app registration")
-
     1. Enter a name.
 
     1. If necessary, select a different **Supported account type**. More information: [Supported account types](/azure/active-directory/develop/quickstart-register-app)
@@ -70,15 +60,11 @@ In this article, you'll learn about configuring a WS-Federation provider for por
         > [!NOTE]
         > If you're using the default portal URL, copy and paste the **Reply URL** as shown in the **Create and configure WS-Federation provider settings** section on the **Configure identity provider** screen (step 6 above). If you're using a custom domain name for the portal, enter the custom URL. Be sure to use this value when you configure the **Assertion consumer service URL** in your portal settings while configuring the WS-Federation provider. <br> For example, if you enter the **Reply URL** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-wsfederation_1`, you must use it as-is for the WS-Federation configuration in portals.
 
-        ![Register application.](media/authentication/register-application-wsfed.png "Register application")
-
     1. Select **Register**.
 
     1. Select **Expose an API**.
 
     1. For **Application ID URI**, select **Set**.
-
-        ![Application ID URI.](media/authentication/wsfed-applicationid-uri.png "Application ID URI")
 
     > [!IMPORTANT]
     > Due to a recent update, the APP ID URI must be the auto-generated URI or a verified custom domain name.
@@ -87,15 +73,11 @@ In this article, you'll learn about configuring a WS-Federation provider for por
        
     1. If you're using a custom domain name, enter the portal URL as the **App ID URI**.
 
-        :::image type="content" source="media/authentication/custom-portal-url-for-appidURI.png" alt-text="Custom Portal URL as the application ID URI.":::
-
     1. Select **Save**.
 
     1. Keep the Azure portal open, and switch to the WS-Federation configuration for Power Apps portals for the next steps.
 
 1. In this step, you enter the site settings for the portal configuration.
-
-    :::image type="content" source="media/authentication/configure-wsfed-site-settings-custom.png" alt-text="Configure WS-Federation site settings.":::
 
     > [!TIP]
     > If you closed the browser window after configuring the app registration in the earlier step, sign in to the Azure portal again and go to the app that you registered.
@@ -106,11 +88,7 @@ In this article, you'll learn about configuring a WS-Federation provider for por
 
         1. Select **Endpoints**.
 
-          ![Endpoints.](media/authentication/endpoints-wsfed.png "Endpoints")
-
         1. Copy the URL for **Federation metadata document**.
-
-           ![Federation metadata document.](media/authentication/federation-metadata-wsfed.png "Federation metadata document")
 
         1. Paste the copied document URL as the **Metadata address** for portals.
 
@@ -120,25 +98,19 @@ In this article, you'll learn about configuring a WS-Federation provider for por
 
         1. Copy the value of `entityID` tag from the URL document.
 
-            ![Federation metadata entityID.](media/authentication/entity-id-metadata-document-wsfed.png "Federation metadata entityID")
+        1. Paste the copied value of `entityID` as the **Authentication type**. <br /> Example: `https://sts.windows.net/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/`
 
-        1. Paste the copied value of `entityID` as the **Authentication type**. <br> Example: `https://sts.windows.net/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/`
-
-    1. **Service provider realm**: Enter the custom portal URL as the service provider realm. <br> Example: `https://portal.contoso.com`
+    1. **Service provider realm**: Enter the custom portal URL as the service provider realm. <br /> Example: `https://portal.contoso.com`
     
         > [!NOTE]
         > If you selected to use the auto-generated App ID URI, leave the default value and you will need to manually update this value using the [Portal Management app](#update-app-id-uri-in-site-settings) after you save the values on this window.
         
-    1. **Assertion consumer service URL**: Enter the **Reply URL** for your portal in the **Assertion consumer service URL** text box. <br> Example: `https://contoso-portal.powerappsportals.com/signin-saml_1`
-
-        ![Assertion consumer service URL.](media/authentication/redirect-uri-azure-power-apps-wsfed.png "Assertion consumer service URL")
+    1. **Assertion consumer service URL**: Enter the **Reply URL** for your portal in the **Assertion consumer service URL** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-saml_1`
 
         > [!NOTE]
         > If you're using the default portal URL, you can copy and paste the **Reply URL** as shown in the **Create and configure WS-Federation provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the value you entered as the **Redirect URI** in the Azure portal earlier.
 
 1. Select **Confirm**.
-
-    ![Confirm configuration.](media/authentication/confirm-wsfed-config.png "Confirm configuration")
 
 1. Select **Close**.
 
@@ -149,9 +121,6 @@ In this article, you'll learn about configuring a WS-Federation provider for por
     1. Open the Portal Management app.
     1. Navigate to **Site Settings**.
     1. Update the site setting **Authentication/WsFederation/WSFederation_1/Wtrealm** with the auto-generated **APP ID URI**
-    
-        :::image type="content" source="media/authentication/site-setting-wtrealm.png" alt-text="Configure site setting for the auto-generated URI.":::
-
     1. Select **Save**
 
 ### See also

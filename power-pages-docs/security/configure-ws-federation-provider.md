@@ -1,11 +1,11 @@
 ---
-title: Configure a WS-Federation provider for portals
-description: Learn how to configure WS-Federation provider for Power Apps portals.
+title: Configure a WS-Federation provider for Power Pages
+description: Learn how to configure WS-Federation provider for Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -14,10 +14,7 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure a WS-Federation provider for portals
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
+# Configure a WS-Federation provider for Power Pages
 
 You can add a WS-Federation&ndash;compliant security token service provider&mdash;for example, Azure Active Directory (Azure AD) or a single Active Directory Federation Services (AD FS) server&mdash;as an identity provider.
 
@@ -34,17 +31,11 @@ To configure a WS-Federation provider
 
 1. Enter a provider name.
 
-    ![Provider name.](media/authentication/wsfed-provider-name.png "Provider name")
-
 1. Select **Next**.
 
 1. Create the application and configure the settings with your identity provider.
 
-    ![Create the WS-Federation application.](media/authentication/step-1-wsfed.png "Create the WS-Federation application")
-
 1. Enter the following site settings for portal configuration.
-
-    ![Configure WS-Federation site settings.](media/authentication/configure-wsfed-site-settings.png "Configure WS-Federation site settings")
 
     > [!NOTE]
     > Ensure that you review&mdash;and if required, change&mdash;the default values.
@@ -59,8 +50,6 @@ To configure a WS-Federation provider
 1. Select **Next**.
 
 1. (Optional) Configure additional settings.
-
-    ![Additional settings.](media/authentication/wsfed-site-settings-additional.png "Additional settings")
 
     | Name | Description
     | - | - |
@@ -80,6 +69,3 @@ See [Edit a provider](use-simplified-authentication-configuration.md#edit-a-prov
 
 [Configure a WS-Federation provider for portals with Azure AD](configure-ws-federation-settings-azure-ad.md)  
 [Configure a WS-Federation provider for portals with AD FS](configure-ws-federation-settings.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
