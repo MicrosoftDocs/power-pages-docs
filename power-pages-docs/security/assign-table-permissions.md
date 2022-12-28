@@ -37,5 +37,5 @@ More information on creating web roles and assigning site users (contacts), go t
 
 ### See also
 
-[Configure table permissions](table-permissions.md)<br>
+[Configure table permissions](table-permissions.md)<br />
 [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
