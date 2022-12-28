@@ -1,6 +1,6 @@
 ---
-title: Configure the Google provider for portals
-description: Learn how to configure Google as the identity provider for Power Apps portals.
+title: Configure the Google provider for Power Pages
+description: Learn how to configure Google as the identity provider for Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual

@@ -1,11 +1,11 @@
 ---
-title: Configure the Microsoft provider for portals
-description: Learn how to configure Microsoft as the identity provider for Power Apps portals.
+title: Configure the Microsoft provider for Power Pages
+description: Learn how to configure Microsoft as the identity provider for Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -14,14 +14,9 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure the Microsoft provider for portals
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
+# Configure the Microsoft provider for Power Pages
 
 As explained in [Configure an OAuth 2.0 provider for portals](configure-oauth2-provider.md), Microsoft is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring Microsoft as the identity provider, select **Configure** from the [provider settings](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) page.
-
-![Configure the Microsoft app.](media/use-simplified-authentication-configuration/configure-microsoft.png "Configure the Microsoft app")
 
 ## Step 1. Create the Microsoft app
 
@@ -41,5 +36,3 @@ After you've created the app on the Azure portal, configure the site settings fo
 
 To configure **Additional settings** for the Microsoft provider, see [Configure additional settings for OAuth 2.0 providers](configure-oauth2-settings.md).
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
