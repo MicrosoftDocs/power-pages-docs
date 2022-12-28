@@ -1,11 +1,11 @@
 ---
 title: Configure the Azure Active Directory B2C provider (using interface in preview)
-description: "Learn how to configure the Azure Active Directory B2C identity provider for Power Apps portals."
+description: Learn how to configure the Azure Active Directory B2C identity provider for Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -16,14 +16,11 @@ contributors:
 
 # Configure the Azure Active Directory B2C provider (using interface in preview)
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
 [This article is pre-release documentation and is subject to change.]
 
 [!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory (Azure AD) powers Microsoft 365 and Dynamics 365 services for employee or internal authentication. [!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory B2C (Azure AD B2C) is an extension to this authentication model that enables external customers to sign in through local credentials and federation with various common social identity providers.
 
-A portal owner can configure the portal [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C as an identity provider. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C supports Open ID Connect for federation.
+A site owner can configure the portal [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C as an identity provider. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C supports Open ID Connect for federation.
 
 > [!IMPORTANT]
 > This article describes how to configure Azure AD B2C as the identity provider automatically by using a feature in preview. Using these steps, you can create a new Azure AD B2C tenant, register applications, and configure user flows from within Power Apps portals. If you want to configure the Azure AD B2C provider manually using the generally available interface, go to [Configure the Azure AD B2C provider manually](configure-azure-ad-b2c-provider-manual.md).
@@ -176,6 +173,3 @@ To delete the configuration, select **Delete** for the **Azure Active Directory 
 ### See also
 
 [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
