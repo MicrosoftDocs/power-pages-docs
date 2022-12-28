@@ -1,11 +1,11 @@
 ---
-title: Configure a contact for use on a portal
-description: Learn how to add and configure a contact to be used in a portal.
+title: Configure a contact for use on a Power Pages site
+description: Learn how to add and configure a contact to be used in a Power Pages site.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/24/2022
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -15,17 +15,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Configure a contact for use on a portal
+# Configure a contact for use on a Power Pages site
 
+Fill out the basic information for a contact (or having a user fill out the sign-up form in a Power Pages site), then go to the web authentication tab on the contact form to configure a contact by using local authentication. For more information about federated authentication options, see [Set authentication identity for a portal](set-authentication-identity.md). 
 
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-Fill out the basic information for a contact (or having a user fill out the sign-up form in a portal), then go to the web authentication tab on the portal contact form to configure a contact by using local authentication. For more information about federated authentication options, see [Set authentication identity for a portal](set-authentication-identity.md). 
-
-> [!NOTE] 
-> You can also configure a contact in Power Pages. More information: [What is Power Pages](/power-pages/introduction)
-
-To configure a contact for portals by using local authentication, follow these instructions:  
+To configure a contact for Power Pages by using local authentication, follow these instructions:  
 
 > [!IMPORTANT]
 > - We recommend that you use the [Azure Active Directory B2C (Azure AD B2C)](configure-azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your portal. More information: [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
@@ -41,8 +35,6 @@ Complete the change password workflow, and the necessary fields will be automati
 1. Select the **Web Authentication** tab.
 
 1. Enter a **Username**.
-
-    :::image type="content" source="media/configure-contacts/contact-form.png" alt-text="Configure contact to provide access to portal.":::
 
 1. Select **Save**.
 
@@ -65,19 +57,11 @@ In order to perform the following steps, you'll need to be assigned the **System
 
 1. Select **Change Password** from the command bar the contact form.
 
-    :::image type="content" source="media/configure-contacts/change-password.png" alt-text="Change password from the command bar.":::
-
 1. In the **New password** field, enter a new password, and then select **Next**.
-
-    :::image type="content" source="media/configure-contacts/change-password-new-password.png" alt-text="Enter new password for the contact.":::
 
     If you don't enter a password and select **Next**, you'll be asked whether you want to remove password for the selected contact.
 
-    :::image type="content" source="media/configure-contacts/change-password-remove-password.png" alt-text="Remove password for the contact.":::
-
 1. After making the changes, select **Done**.
-
-    :::image type="content" source="media/configure-contacts/change-password-done.png" alt-text="Password changed for the contact.":::
 
 ### Deprecation of business process flow
 
