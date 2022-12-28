@@ -1,11 +1,11 @@
 ---
 title: Local authentication, registration, and other settings
-description: Learn about different site settings for portals, local authentication, and registration process in Power Apps portals.
+description: Learn about different site settings in Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/07/2022
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -17,9 +17,6 @@ contributors:
 ---
 
 # Local authentication, registration, and other settings
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 > [!IMPORTANT]
 > - We recommend that you use the [Azure Active Directory B2C (Azure AD B2C)](configure-azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your portal. More information: [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
@@ -63,19 +60,13 @@ Returning portal visitors can authenticate by using local user credentials or ex
 
 The following image shows a sign in option with using a local account, or by selecting an external identity provider.
 
-![Sign in by using a local account.](../media/sign-in-local-account.png "Sign in by using a local account")  
-
 ### Sign up by using a local identity or external identity
 
 The following image shows a sign-up screen to register with using a local account, or by selecting an external identity provider.
 
-![Register for a new local account.](../media/register-new-local-account.png "Register for a new local account")  
-
 ### Redeem an invitation code manually
 
 The following image shows the option to redeem an invitation using the invitation code.
-
-![Sign up by using an invitation code.](../media/sign-up-invitation-code.png "Sign up by using an invitation code")  
 
 ## Forgot password or password reset 
 
@@ -88,12 +79,12 @@ Returning visitors who require a password reset (and have previously specified a
 
 **Related process:** Send a password reset to a contact
 
-1.  Customize the email in the workflow as necessary.
-2.  Submit the email to invoke the process.
-3.  The visitor is prompted to check email.
-4.  The visitor receives the password reset email with instructions.
-5.  The visitor returns to the reset form.
-6.  The password reset is complete.
+1. Customize the email in the workflow as necessary.
+1. Submit the email to invoke the process.
+1. The visitor is prompted to check email.
+1. The visitor receives the password reset email with instructions.
+1. The visitor returns to the reset form.
+1. The password reset is complete.
 
 ## Redeem an invitation
 
@@ -108,19 +99,11 @@ Redeeming an invitation code allows a registering visitor to be associated with 
 The email sent by this workflow must be customized by using the URL to the redeem invitation page on the portal: https://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation Code(Invitation)}
 
 1. Create an invitation for a new contact.
-
-    ![Create an invitation for a new contact.](../media/create-invitation.png "Create an invitation for a new contact")  
-
-2. Customize and save the new invitation.
-
-    ![Customize a new invitation.](../media/customize-new-invitation.png "Customize a new invitation")  
-
-3. Customize the invitation email.
-4. Process the [Send invitation](invite-contacts.md) workflow.
+1. Customize and save the new invitation.
+1. Customize the invitation email.
+1. Process the [Send invitation](invite-contacts.md) workflow.
 1. The invitation email opens the redemption page.
 1. The user signs up by using the submitted invitation code.
-
-    ![Sign up by using an invitation code.](../media/sign-up-invitation-code.png "Sign up by using an invitation code")  
 
 ### Disabled registration
 
@@ -201,11 +184,8 @@ An authenticated user can connect (register) multiple external identities to the
 
 **External identity provider site settings**
 
-1.  Select a provider to connect to your user account.
-
-    ![Manage external accounts.](../media/manage-external-accounts.png "Manage external accounts")  
-
-2.  Sign in by using the provider you want to connect.
+1.  Select a provider to connect to your user account. 
+1. Sign in by using the provider you want to connect.
 
 The provider is now connected. The provider can also be disconnected.
 
@@ -226,7 +206,7 @@ The following table describes the settings for enabling and disabling various au
 | Authentication/Registration/ResetPasswordRequiresConfirmedEmail |   Enables or disables password reset for confirmed email addresses only. If enabled, unconfirmed email addresses can't be used to send password reset instructions. Default: false   |
 |   Authentication/Registration/TriggerLockoutOnFailedPassword    |    Enables or disables recording of failed password attempts. If disabled, user accounts won't be locked out. Default: true    |
 |   Authentication/Registration/IsDemoMode              |     Enables or disables a demo mode flag to be used in development or demonstration environments only. Don't enable this setting on production environments. Demo mode also requires the web browser to be running locally to the web application server. When demo mode is enabled, the password reset code and second-factor code are displayed to the user for quick access. Default: false   |
-|    Authentication/Registration/LoginButtonAuthenticationType    | If a portal only requires a single external identity provider (to handle all authentication), this allows the **Sign-In** button of the header nav bar to link directly to the sign-in page of that external identity provider (instead linking to the intermediate local sign-in form and identity provider selection page). Only a single identity provider can be selected for this action. Specify the *AuthenticationType* value of the provider.<br>For a single sign-on configuration that uses OpenID Connect, such as Azure AD B2C, the user needs to provide the Authority. <br>For OAuth 2.0&ndash;based providers, the accepted values are: `Facebook`, `Google`, `Yahoo`, `Microsoft`, `LinkedIn`, or `Twitter` <br>For WS-Federation&ndash;based providers, use the value specified for the `Authentication/WsFederation/ADFS/AuthenticationType` and `Authentication/WsFederation/Azure/[provider]/AuthenticationType` site settings. <br> Examples: `https://adfs.contoso.com/adfs/services/trust`, `Facebook-0123456789`, `Google`, `Yahoo!`, `uri:WindowsLiveID`. |
+|    Authentication/Registration/LoginButtonAuthenticationType    | If a portal only requires a single external identity provider (to handle all authentication), this allows the **Sign-In** button of the header nav bar to link directly to the sign-in page of that external identity provider (instead linking to the intermediate local sign-in form and identity provider selection page). Only a single identity provider can be selected for this action. Specify the *AuthenticationType* value of the provider.<br />For a single sign-on configuration that uses OpenID Connect, such as Azure AD B2C, the user needs to provide the Authority. <br />For OAuth 2.0&ndash;based providers, the accepted values are: `Facebook`, `Google`, `Yahoo`, `Microsoft`, `LinkedIn`, or `Twitter` <br />For WS-Federation&ndash;based providers, use the value specified for the `Authentication/WsFederation/ADFS/AuthenticationType` and `Authentication/WsFederation/Azure/[provider]/AuthenticationType` site settings. <br /> Examples: `https://adfs.contoso.com/adfs/services/trust`, `Facebook-0123456789`, `Google`, `Yahoo!`, `uri:WindowsLiveID`. |
 
 ## Enable or disable user registration
 
@@ -237,7 +217,7 @@ The following describes the settings for enabling and disabling user registratio
 | Authentication/Registration/Enabled                 | Enables or disables all forms of user registration. Registration must be enabled for the other settings in this section to take effect. Default: true                                   |
 | Authentication/Registration/OpenRegistrationEnabled | Enables or disables the sign-up registration form for creating all forms of users. The sign-up form allows any anonymous visitor to the portal to create a new user account. Default: true |
 | Authentication/Registration/InvitationEnabled       | Enables or disables the invitation code redemption form for registering users who have invitation codes. Default: true                                                               |
-|Authentication/Registration/CaptchaEnabled|Enables or disables captcha on the user registration page. Default: false <br> **NOTE**: <br> - This site setting might not be available by default. To enable captcha, you must create the site setting and set its value to true. |
+|Authentication/Registration/CaptchaEnabled|Enables or disables captcha on the user registration page. Default: false <br /> **NOTE**: <br /> - This site setting might not be available by default. To enable captcha, you must create the site setting and set its value to true. |
 
 > [!NOTE]
 > Ensure that the primary email is specified for the user, because registration is done by using the primary email (emailaddress1) of the user. The user can't be registered by using the secondary email (emailaddress2) or alternate email (emailaddress3) of the contact record.
@@ -248,14 +228,14 @@ The following describes the settings for adjusting username and password validat
 
 | Site setting name      | Description                             |
 |------------------------|-----------------------------------------|
-| Authentication/UserManager/PasswordValidator/EnforcePasswordPolicy      | Determines whether the password contains characters from three of the following categories:<br><ul><li>Uppercase letters of European languages (A through Z, with diacritic marks, Greek and Cyrillic characters)</li><li>Lowercase letters of European languages (a through z, sharp-s, with diacritic marks, Greek and Cyrillic characters)</li><li>Base 10 digits (0 through 9)</li><li>Nonalphanumeric characters (special characters) (for example, !, $, \#, %)</li></ul>Default: true. More information: [Password policy](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh994562(v=ws.10)).   |  
-| Authentication/UserManager/UserValidator/AllowOnlyAlphanumericUserNames | Determines whether to allow only alphanumeric characters for the username. <br> Default: false |  
-| Authentication/UserManager/UserValidator/RequireUniqueEmail             | Determines whether a unique email address is needed for validating the user. <br> Default: true |  
-| Authentication/UserManager/PasswordValidator/RequiredLength             | The minimum required password length. <br> Default: `8` |  
-| Authentication/UserManager/PasswordValidator/RequireNonLetterOrDigit    | Determines whether the password requires a non-letter or digit character. <br> Default: false |  
-| Authentication/UserManager/PasswordValidator/RequireDigit               | Determines whether the password requires a numeric digit (from 0 through 9). <br> Default: false |  
-| Authentication/UserManager/PasswordValidator/RequireLowercase           | Determines whether the password requires a lowercase letter (from a through z). <br> Default: false |  
-| Authentication/UserManager/PasswordValidator/RequireUppercase           | Determines whether the password requires an uppercase letter (from A through Z). <br>  Default: false | 
+| Authentication/UserManager/PasswordValidator/EnforcePasswordPolicy      | Determines whether the password contains characters from three of the following categories:<br /><ul><li>Uppercase letters of European languages (A through Z, with diacritic marks, Greek and Cyrillic characters)</li><li>Lowercase letters of European languages (a through z, sharp-s, with diacritic marks, Greek and Cyrillic characters)</li><li>Base 10 digits (0 through 9)</li><li>Nonalphanumeric characters (special characters) (for example, !, $, \#, %)</li></ul>Default: true. More information: [Password policy](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh994562(v=ws.10)).   |  
+| Authentication/UserManager/UserValidator/AllowOnlyAlphanumericUserNames | Determines whether to allow only alphanumeric characters for the username. <br /> Default: false |  
+| Authentication/UserManager/UserValidator/RequireUniqueEmail             | Determines whether a unique email address is needed for validating the user. <br /> Default: true |  
+| Authentication/UserManager/PasswordValidator/RequiredLength             | The minimum required password length. <br /> Default: `8` |  
+| Authentication/UserManager/PasswordValidator/RequireNonLetterOrDigit    | Determines whether the password requires a non-letter or digit character. <br /> Default: false |  
+| Authentication/UserManager/PasswordValidator/RequireDigit               | Determines whether the password requires a numeric digit (from 0 through 9). <br /> Default: false |  
+| Authentication/UserManager/PasswordValidator/RequireLowercase           | Determines whether the password requires a lowercase letter (from a through z). <br /> Default: false |  
+| Authentication/UserManager/PasswordValidator/RequireUppercase           | Determines whether the password requires an uppercase letter (from A through Z). <br />  Default: false | 
 
 ## User account lockout settings
 
@@ -263,9 +243,9 @@ The following describes the settings that define how and when an account becomes
 
 | Site setting name         | Description            |
 |----------------------------|--------------------------------------|
-| Authentication/UserManager/UserLockoutEnabledByDefault          | Indicates whether the user lockout is enabled when users are created. <br> Default: `true` |  
-| Authentication/UserManager/DefaultAccountLockoutTimeSpan        | The default amount of time that a user is locked out for after Authentication/UserManager/MaxFailedAccessAttemptsBeforeLockout is reached. <br> Default: `24:00:00` (1 day) |  
-| Authentication/UserManager/MaxFailedAccessAttemptsBeforeLockout | The maximum number of access attempts allowed before a user is locked out (if lockout is enabled). <br> Default: `5` |  
+| Authentication/UserManager/UserLockoutEnabledByDefault          | Indicates whether the user lockout is enabled when users are created. <br /> Default: `true` |  
+| Authentication/UserManager/DefaultAccountLockoutTimeSpan        | The default amount of time that a user is locked out for after Authentication/UserManager/MaxFailedAccessAttemptsBeforeLockout is reached. <br /> Default: `24:00:00` (1 day) |  
+| Authentication/UserManager/MaxFailedAccessAttemptsBeforeLockout | The maximum number of access attempts allowed before a user is locked out (if lockout is enabled). <br /> Default: `5` |  
 
 
 ## Cookie authentication site settings
@@ -274,20 +254,20 @@ The following describes settings for modifying default authentication cookie beh
 
 | Site setting name   | Description       |
 |----------------------|------------------------------------------------|
-| Authentication/ApplicationCookie/AuthenticationType                      | The type of the application authentication cookie. <br> Default: `ApplicationCookie` |
-| Authentication/ApplicationCookie/CookieName                              | Determines the cookie name used to persist the identity. <br> Default: `.AspNet.Cookies` |
+| Authentication/ApplicationCookie/AuthenticationType                      | The type of the application authentication cookie. <br /> Default: `ApplicationCookie` |
+| Authentication/ApplicationCookie/CookieName                              | Determines the cookie name used to persist the identity. <br /> Default: `.AspNet.Cookies` |
 | Authentication/ApplicationCookie/CookieDomain                            | Determines the domain used to create the cookie. |
-| Authentication/ApplicationCookie/CookiePath                              | Determines the path used to create the cookie. <br> Default: `/` |
-| Authentication/ApplicationCookie/CookieHttpOnly                          | Determines whether the browser should allow the cookie to be accessed by client-side JavaScript. <br> Default: true |
-| Authentication/ApplicationCookie/CookieSecure                            | Determines whether the cookie should only be transmitted on HTTPS request. <br> Default: `SameAsRequest` |
-| Authentication/ApplicationCookie/ExpireTimeSpan                          | Controls how much time the application cookie will remain valid from the moment it was created. <br> Default: `24:00:00` (1 day) |
+| Authentication/ApplicationCookie/CookiePath                              | Determines the path used to create the cookie. <br /> Default: `/` |
+| Authentication/ApplicationCookie/CookieHttpOnly                          | Determines whether the browser should allow the cookie to be accessed by client-side JavaScript. <br /> Default: true |
+| Authentication/ApplicationCookie/CookieSecure                            | Determines whether the cookie should only be transmitted on HTTPS request. <br /> Default: `SameAsRequest` |
+| Authentication/ApplicationCookie/ExpireTimeSpan                          | Controls how much time the application cookie will remain valid from the moment it was created. <br /> Default: `24:00:00` (1 day) |
 | Authentication/ApplicationCookie/SlidingExpiration                       | The SlidingExpiration is set to true to instruct the middleware to reissue a new cookie with a new expiration time whenever it processes a request that's more than halfway through the expiration window. <br> Default: true |
-| Authentication/ApplicationCookie/LoginPath                               | The LoginPath property informs the middleware that it should change an outgoing 401 Unauthorized status code into a 302 redirection onto the given sign-in path. <br> Default: `/signin` |
+| Authentication/ApplicationCookie/LoginPath                               | The LoginPath property informs the middleware that it should change an outgoing 401 Unauthorized status code into a 302 redirection onto the given sign-in path. <br /> Default: `/signin` |
 | Authentication/ApplicationCookie/LogoutPath                              | If the sign-out path is provided by the middleware, a request to that path will be redirected based on the ReturnUrlParameter. |
 | Authentication/ApplicationCookie/ReturnUrlParameter                      | The ReturnUrlParameter determines the name of the query string parameter that's appended by the middleware when a 401 Unauthorized status code is changed to a 302 redirect onto the sign-in path. |
-| Authentication/ApplicationCookie/SecurityStampValidator/ValidateInterval | The period of time between security stamp validations. <br> Default: `30` minutes |
-| Authentication/TwoFactorCookie/AuthenticationType                        | The type of two-factor authentication cookie. <br> Default: `TwoFactorCookie` |
-| Authentication/TwoFactorCookie/ExpireTimeSpan                            | Controls how much time a two-factor cookie will remain valid from the moment it was created. Value shouldn't exceed `6` minutes. <br> Default: `5` minutes |
+| Authentication/ApplicationCookie/SecurityStampValidator/ValidateInterval | The period of time between security stamp validations. <br /> Default: `30` minutes |
+| Authentication/TwoFactorCookie/AuthenticationType                        | The type of two-factor authentication cookie. <br /> Default: `TwoFactorCookie` |
+| Authentication/TwoFactorCookie/ExpireTimeSpan                            | Controls how much time a two-factor cookie will remain valid from the moment it was created. Value shouldn't exceed `6` minutes. <br /> Default: `5` minutes |
 
 ## Next steps
 
@@ -301,6 +281,3 @@ The following describes settings for modifying default authentication cookie beh
 [Configure a SAML 2.0 provider for portals](configure-saml2-provider.md)  
 [Configure a WS-Federation provider for portals](configure-ws-federation-provider.md)  
 [Power Apps portals authentication settings](/training/modules/authentication-user-management/2-authentication-settings)  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
