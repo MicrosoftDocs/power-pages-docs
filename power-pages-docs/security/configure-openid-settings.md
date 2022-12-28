@@ -1,11 +1,11 @@
 ---
-title: Configure an OpenID Connect provider for portals with Azure AD
-description: Learn how to configure the OpenID Connect provider for portals with Azure Active Directory using Implicit Grant flow.
+title: Configure an OpenID Connect provider for Power Pages with Azure AD
+description: Learn how to configure the OpenID Connect provider for Power Pages with Azure Active Directory using Implicit Grant flow.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
+ms.date: 12/28/2022
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -14,10 +14,7 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure an OpenID Connect provider for portals with Azure AD
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
+# Configure an OpenID Connect provider for Power Pages with Azure AD
 
 In this article, you'll learn about configuring an OpenID Connect provider for portals with Azure Active Directory (Azure AD) and multitenant Azure AD.
 
@@ -35,13 +32,9 @@ In this article, you'll learn about configuring an OpenID Connect provider for p
 
 1. Enter a provider name.
 
-    ![Provider name.](media/authentication/select-other-openid.png "Provider name")
-
 1. Select **Next**.
 
 1. In this step, you create the application and configure the settings with your identity provider.
-
-    ![Create application.](media/authentication/step-1-openid.png "Create application")
 
     > [!NOTE]
     > - The Reply URL is used by the app to redirect users to the portal after the authentication succeeds. If your portal uses a custom domain name, you might have a different URL than the one provided here.
@@ -55,8 +48,6 @@ In this article, you'll learn about configuring an OpenID Connect provider for p
 
     1. Select **New registration**.
 
-        ![New app registration.](media/authentication/app-registration-new.png "New app registration")
-
     1. Enter a name.
 
     1. If necessary, select a different **Supported account type**. More information: [Supported account types](/azure/active-directory/develop/quickstart-register-app)
@@ -68,21 +59,15 @@ In this article, you'll learn about configuring an OpenID Connect provider for p
         > [!NOTE]
         > If you're using the default portal URL, copy and paste the **Reply URL** as shown in the **Create and configure OpenID Connect provider settings** section on the **Configure identity provider** screen (step 6 above). If you're using a custom domain name for the portal, enter the custom URL. Be sure to use this value when you configure the **Redirect URL** in your portal settings while configuring the OpenID Connect provider. <br> For example, if you enter the **Reply URL** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-openid_1`, you must use it as-is for the OpenID Connect configuration in portals.
 
-        ![Register application.](media/authentication/register-application.png "Register application")
-
     1. Select **Register**.
 
     1. On the left pane, under **Manage**, select **Authentication**.
-
-        ![Enable the Implicit Grant flow with ID tokens.](media/authentication/id-tokens-openid.png "Enable the Implicit Grant flow with ID tokens")
 
     1. Under **Implicit grant**, select the **ID tokens** check box.
 
     1. Select **Save**.
 
 1. In this step, you enter the site settings for the portal configuration.
-
-    ![Configure OpenID Connect site settings.](media/authentication/openid-site-settings-1.png "Configure OpenID Connect site settings")
 
     > [!TIP]
     > If you closed the browser window after configuring the app registration in the earlier step, sign in to the Azure portal again and go to the app that you registered.
@@ -110,11 +95,7 @@ In this article, you'll learn about configuring an OpenID Connect provider for p
 
         1. Select **Endpoints**.
 
-           ![Endpoints in the Azure portal.](media/authentication/endpoints.png "Endpoints in the Azure portal")
-
         1. Copy the URL in **OpenID Connect metadata document**.
-
-            ![OpenID Connect metadata document.](media/authentication/openid-connect-metadata-document.png "OpenID Connect metadata document")
 
         1. Paste the copied document URL as the **Metadata address** for portals.
 
@@ -131,8 +112,6 @@ In this article, you'll learn about configuring an OpenID Connect provider for p
 
 1. Select **Confirm**.
 
-    ![Confirm the configuration.](media/authentication/confirm-config.png "Confirm the configuration")
-
 1. Select **Close**.
 
 ## Configure additional claims
@@ -140,26 +119,23 @@ In this article, you'll learn about configuring an OpenID Connect provider for p
 1. Enable [optional claims in Azure AD](/azure/active-directory/develop/active-directory-optional-claims#configuring-directory-extension-optional-claims).
 
 1. Set **Scope** to include the additional claims.
-    <br> Example: `openid email profile`
+    <br /> Example: `openid email profile`
 
 1. Set the **Registration claims mapping** additional site setting.
-    <br> Example: `firstname=given_name,lastname=family_name`
+    <br /> Example: `firstname=given_name,lastname=family_name`
 
 1. Set the **Login claims mapping** additional site setting.
-    <br> Example: `firstname=given_name,lastname=family_name`
+    <br /> Example: `firstname=given_name,lastname=family_name`
 
 For example, the first name, last name, and email addresses supplied with the additional claims become the default values in the profile page in the portal.
 
-![Profile page example.](media/authentication/profile-page.png "Profile page example")
-
 <a name="enable-authentication-using-a-multi-tenant-azure-active-directory-application"></a>
+
 ## Enable authentication by using a multitenant Azure AD application
 
 You can configure your portal to accept Azure AD users from any tenant in Azure, and not just from a specific tenant, by using the multitenant application registered in Azure AD. To enable multitenancy, [update the application registration](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant) in the Azure AD application.
 
 To support authentication against Azure AD by using a multitenant application, you have to create or configure the additional **Issuer Filter** site setting.
-
-![Issuer filter for multitenancy.](media/authentication/issuer-filter-multi-tenant.png "Issuer filter for multitenancy")
 
 This site setting is a wildcard-based filter that matches on all issuers across all tenants. Example: `https://sts.windows.net/*/`
 
@@ -167,5 +143,3 @@ This site setting is a wildcard-based filter that matches on all issuers across 
 
 [FAQ for using OpenID Connect in portals](configure-openid-faqs.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
