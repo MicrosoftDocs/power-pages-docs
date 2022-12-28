@@ -1,6 +1,6 @@
 ---
-title: Configure column permissions for portals
-description: Configure column permissions for use with the portals Web API. 
+title: Configure column permissions for Power Pages
+description: Configure column permissions for use with the Power Pages Web API. 
 author: neerajnandwana-msft
 
 ms.topic: conceptual
