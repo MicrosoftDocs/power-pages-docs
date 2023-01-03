@@ -17,7 +17,7 @@ contributors:
 Power Pages uses the Power Platform admin center to provide administrators with various site configuration capabilities.
 
 > [!NOTE]
-> You will need to be assigned certain roles to perform administrative tasks. See [Roles required for portal administration](/power-apps/maker/portals/admin/portal-admin-roles) for more information.
+> You will need to be assigned certain roles to perform administrative tasks. For more information, see [Roles required for portal administration](/power-apps/maker/portals/admin/portal-admin-roles).
 
 1. To access the admin center, from the design studio, select the **Set up** workspace.
 
@@ -25,7 +25,7 @@ Power Pages uses the Power Platform admin center to provide administrators with 
 
     :::image type="content" source="media/admin-center.png" alt-text="Navigating to the Power Platform admin center.":::
 
-1. This will open up the **Power Platform admin center** and allow you to configure your site.
+1. The **Power Platform admin center** will open and allow you to configure your site.
 
     :::image type="content" source="media/power-platform-admin-center.png" alt-text="Power Platform admin center.":::
 
@@ -70,7 +70,7 @@ Select **...** for more site actions.
 | Action | More Information |
 | - | - |
 | See All | Opens a side panel displaying all the attributes of the current site. |
-| Edit | **Edit site details.**</br> This will open a side panel allowing you to make the following updates to a site:<ul><li>Change the **Site Name**.</li><li>Change the **Website Record**, which associates the site to the corresponding site metadata stored in Microsoft Dataverse and accessed using the [Portals Management app](../configure/portal-management-app.md). This is the recommended method to update the **Website Bindings** records.</li><li>Selecting the **Enable Portal for Early Upgrade** allows you to specify that the site can be updated to the latest code. This is only recommended for development and testing sites.</li><li>You call also update the **Site URL** to a new unique URL using the **powerappsportals.com** domain.</li></ul>|
+| Edit | **Edit site details.**</br> A side panel will open allowing you to make the following updates to a site:<ul><li>Change the **Site Name**.</li><li>Change the **Website Record**, which associates the site to the corresponding site metadata stored in Microsoft Dataverse and accessed using the [Portals Management app](../configure/portal-management-app.md). This is the recommended method to update the **Website Bindings** records.</li><li>Selecting the **Enable Portal for Early Upgrade** allows you to specify that the site can be updated to the latest code. This is only recommended for development and testing sites.</li><li>You call also update the **Site URL** to a new unique URL using the **powerappsportals.com** domain.</li></ul>|
 | Convert to Production | See [Convert a portal](/power-apps/maker/portals/admin/convert-portal) |
 | Connect Custom Domain | See [Add a custom domain name](/power-apps/maker/portals/admin/add-custom-domain) |
 | Application Type | Indicates the application status of the site (Trial or Production) |
