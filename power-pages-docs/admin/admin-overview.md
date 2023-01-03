@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin center
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/17/2022
+ms.date: 01/03/2023
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -69,9 +69,16 @@ Select **...** for more site actions.
 
 | Action | More Information |
 | - | - |
-| Edit | Edit site details. |
-| Connect Custom Domain | See [Add a custom domain name](/power-apps/maker/portals/admin/add-custom-domain) |
+| See All | Opens a side panel displaying all the attributes of the current site. |
+| Edit | **Edit site details.**</br> This will open a side panel allowing you to make the following updates to a site:<ul><li>Change the **Site Name**.</li><li>Change the **Website Record**, which associates the site to the corresponding site metadata stored in Microsoft Dataverse and accessed using the [Portals Management app](../configure/portal-management-app.md). This is the recommended method to update the **Website Bindings** records.</li><li>Selecting the **Enable Portal for Early Upgrade** allows you to specify that the site can be updated to the latest code. This is only recommended for development and testing sites.</li><li>You call also update the **Site URL** to a new unique URL using the **powerappsportals.com** domain.</li></ul>|
 | Convert to Production | See [Convert a portal](/power-apps/maker/portals/admin/convert-portal) |
+| Connect Custom Domain | See [Add a custom domain name](/power-apps/maker/portals/admin/add-custom-domain) |
+| Application Type | Indicates the application status of the site (Trial or Production) |
+| Early Upgrade | Indicates if site has been enabled for an early upgrade. |
+| Site Visibility | Indicates the visibility of the site. See [Site Visibility](../security/site-visibility.md). |
+| Site State | Indicates the site's running state. |
+| Application Id | The site's application id. |
+| Org URL | The organization URL of the Microsoft Dataverse instance the site is associated with. |
 
 ## Security
 
