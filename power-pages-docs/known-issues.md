@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/17/2022
+ms.date: 01/04/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -18,9 +18,9 @@ contributors:
 
 - If your administrator disabled the self-service sign-up, you won't be able to sign up for a trial of Power Pages. 
 
-- If your administrator disables portal creation for non-administrator–type users in your company, you won't be able to create a portal. You'll be redirected to the Power Pages home page in the default environment. You'll have to reach out to your administrator to provide you with an environment that has enough privileges for you to edit an existing site in the environment. 
+- If your administrator disables site creation for non-administrator–type users in your company, you won't be able to create a website. You'll be redirected to the Power Pages home page in the default environment. You'll have to reach out to your administrator to provide you with an environment that has enough privileges for you to edit an existing site in the environment. 
 
-- If your administrator disables the creation of a trial environment for non-administrator–type users in your company, you won't be able to create an environment. However, you can still create a portal inside an existing environment in the tenant, where you have necessary minimum privileges. 
+- If your administrator disables the creation of a trial environment for non-administrator–type users in your company, you won't be able to create an environment. However, you can still create a site inside an existing environment in the tenant, where you have necessary minimum privileges. 
 
 - When you create a site for the first time in a new environment, you won't be able to rename the environment; however, the ability to rename the environment when it's created will be available in a future update. 
 
@@ -28,9 +28,10 @@ contributors:
 
 ## Pages workspace
 
-- Buttons added in portals built with the starter template can't be resized.
+- Buttons added in websites built with the starter template can't be resized.
 
-- You can't add a deleted header logo or text in the new design studio.  If you need to delete these items, you'll need to do so using Power Apps portals Studio. Use the toggle in the command bar to return to Power Apps portals Studio, and use the code editor to add the text or logo.
+<!--what is this?-->
+- You can't add a deleted header logo or text in the design studio. If you need to delete these items, you'll need to do so using Power Apps portals Studio. Use the toggle in the command bar to return to Power Apps portals Studio, and use the code editor to add the text or logo.
 
 - The code editor doesn't support editing header or footer code.
 
@@ -38,7 +39,7 @@ contributors:
 
 - Power Pages doesn't support Google Fonts due to privacy concerns.
 
-- The section padding/margin settings feature in the Style workspace won't work for portals built on starter templates.
+- The section padding/margin settings feature in the Style workspace won't work for sites built using the starter templates.
 
 ## Adjusting the background color for your Power Pages site
 
@@ -79,3 +80,123 @@ Makers can adjust the background color in the Style workspace by modifying a the
 ## Site visibility
 
 A Power Pages website in private mode will not work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+
+## General issues
+
+- You receive the following error message when configuring or using table fields:
+
+    ***Field Name**: You have exceeded the maximum number of X characters in this field.*
+
+    This can happen if the referenced field for the table exceeds characters limit mentioned in the error. To increase this limit, go to the Data workspace, select the table, select the field, choose **Edit column**. In the Advanced options, increase the **Maximum character count** field value to a higher value. Allowed values: 1 through 1,048,576. 
+
+    Fields where limit may need to be increased:
+
+    | Table | Field Display Name |
+    | - | - |
+    | Basic Form | Settings (adx_settings) |
+    | List | View (adx_views) |
+    | Basic Form Metadata | Subgrid Setting (adx_subgrid_settings) |
+    | Web Page | Copy (adx_copy) |
+
+<!--ND this needs to be updated -->
+- Rich-text for notes in timeline isn't fully supported by Power Apps portals because there's no rich-text editor equivalent control available in portals. For more information, go to [notes created with rich-text editor](configure-notes.md?#notes-created-with-rich-text-editor). If you want to disable the rich text editor for notes in the timeline of the Microsoft Dataverse model-driven app, see [Rich text editor control configurations](/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
+
+- The **Modified Date** for the app might be incorrect because these apps are pre-provisioned apps and could have been provisioned earlier.
+
+- When you create an environment along with the starter portal, the owner of the site isn't displayed correctly. It's displayed as System.
+
+- If you're reusing the URL of a recently deleted site to create a new site, it will have some delay for runtime to setup. This experience happens because the purge of previous resources would still be in progress and may take from 30 minutes to 1 hour for the new site to setup on Azure. The site will also not be available for editing during this time and may show errors when launched in studio for editing.
+
+<!--legacy-->
+- When switching an environment in Power Apps, the sites within an environment may not show up immediately in **Apps** or **Recent Apps** list. This experience happens particularly on environments that are created in a different region than their tenant. The workaround is to use browser refresh or wait for some time for the site to show up in the apps list.
+
+<!--legacy-->
+- If you keep the portal settings pane open in Power Apps home page while resetting the site from the Power Pages hub in the Power Platform admin center, a user will see the "Something went wrong" error message in the portal settings pane, as the site is no longer available.
+
+- In certain cases, when you create a new site, the styles aren't applied properly to the site, and the website is displayed without the styles when opened through **Browse website**. This behavior rarely happens and styles can be recovered by restarting the site from the Power Pages hub in the Power Platform admin center.
+
+- When configuring a [basic form](configure/entity-forms.md) using the Portals Management app, the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form.
+
+- By default, Power Pages sites uses the **Azure Active Directory Graph API** for the portal's [Azure app registration](admin/connectivity.md) which is currently deprecated. Power Pages will use the [Microsoft Graph API](/graph/use-the-api/) in a future update, so no administrator intervention is required. If the existing Azure Active Directory Graph API permission is replaced manually using the Microsoft Graph API, it will revert back to the Azure Active Directory Graph API when you [Enable or Disable SharePoint integration](manage-sharepoint-documents.md#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center) from the Power Pages hub in the Power Platform admin center.
+
+    :::image type="content" source="media/known-issues/azure-ad-graph-api.png" alt-text="Azure AD Graph API configuration.":::
+
+- When configuring the *Open in New Window* setting on the **Profile** [web link](./configure/manage-web-links.md), the profile page will not open in a new window. To resolve this issue, update the **Header** [web template](liquid/store-content-web-templates.md) by updating the [Liquid](liquid/liquid-overview.md) code in the `{% if profile_nav %}` section.
+
+    :::image type="content" source="media/known-issues/profile-weblink.png" alt-text="Showing line of code to update in the header web template.":::
+
+    > [!NOTE]
+    > Make a backup of the **Header** web template before performing these steps.
+
+    Replace this line of code:
+
+    ```html
+    <a aria-label="{{ link.name | escape }}" href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
+    ```
+    with this line:
+    ```html
+    <a aria-label="{{ link.name | escape }}" {% if link.Open_In_New_Window %} target="_blank" {% endif %} href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
+    ```
+
+## Power Apps portals Studio issues
+
+> [!NOTE]
+> You can edit and design Power Apps portals sites using the new Power Pages design studio. More information: [Power Pages design studio and Power Apps portals Studio](/power-pages/configure/editing-sites).
+
+- If a site has page hierarchy of more than three levels, the pages from fourth level onwards aren't displayed in Power Apps portals Studio.
+
+- The selected text font size will only be displayed if there's a font size defined specifically for that text. If it's part of the standard HTML tags such as p, H1, H2, H3, and so on, Power Apps portals Studio won't display the font size.
+
+- Webpage using the **Page with side navigation** template displays only the link of the pages that existed during the webpage creation. You can update the links on the left side of the page by changing the page template to another template and then back to **Page with side navigation**.
+
+- When you delete a webpage, canvas doesn't reflect the updated menu until the next refresh of canvas.
+
+- Color picker and its related strings are supported only in English.
+
+- A few template pages on the Employee Self Service portal aren't able to render correct breadcrumb.
+
+- A few Power Apps portals templates, especially bound to customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service), don't have default menu items as per their hierarchy of pages. The reason is that there isn't page order available in all or few of the webpages. Any portal without the display order of webpages will have this issue.
+
+- An error message is displayed when the page content (page copy) exceeds its limit of 65536 characters and page summary exceed its default limit of 2000 characters.
+
+- Navigation menu is only visible on the canvas with a resolution of minimum width of 1600 px.
+
+- An image uploaded on a page becomes the child of the page. If you delete the page, and use the image on another page, the image won't render on Power Apps portals Studio and website.
+
+- Form rendering isn't currently supported in Power Apps portals Studio. When you add a form, you must select **Browse website** to open the website and verify the form.
+
+- On a text or a section background, if you change the color to **No color**, Power Apps portals Studio doesn't remove the related attributes such as background color or font color, instead make the values null.
+
+- In the following scenarios Power Apps portals Studio stops to load and shows the "Sorry, there's a disconnect" error:
+    - If the Home page is deleted or disabled for a portal.
+    - If a page template related to the Home page or any page is disabled or deleted.
+
+- Power Apps portals Studio will be unable to load source code of those content snippets that don't have a language assigned in Dataverse.
+
+- In some instances, the changes for header and footer, either through WYSIWYG experience of Power Apps portals Studio or through the code editor, won't be reflected immediately.
+
+- If a webpage is assigned the Search template in Power Apps portals Studio, it will show a page with the loader. For this scenario to work, you'll have to create an appropriate site marker for that page.
+
+- The Default studio template also shows up as an option in page template while creating a new page once it's used in Power Apps portals Studio. Also, this template is only inserted in English language and it doesn't support localization based on default Dataverse or portal language.
+
+- A list rendered as a calendar control or map isn't configurable through Power Apps portals Studio.
+
+- The Partial URL field in page properties doesn't accept special characters and it breaks the rendering in the canvas for some time.
+
+- Upload CSS might fail in scenarios where CSS file name contains special characters or space in the file name.
+
+- Unpublished webpages don't render in canvas of Power Apps portals Studio.
+
+- While using Power Apps portals Studio, if your portal base language is different than the browser's language, the new webpages created using the Default studio template will have dummy content inserted in browser's language instead of portal language.
+
+- Only CSS applied at the root page is displayed in the **Theme** pane. Although if you try uploading a CSS file with a same name as any other CSS file available in the portal, Power Apps portals Studio asks you to replace that file.
+
+- Power Apps portals Studio is currently not supported on Safari in Mac operating system and has the following issues:
+    - The selection of component isn't correct and hovering on a component provides incorrect target indication.
+    - Two or three column sections don't render properly in Power Apps portals Studio but works fine on the website.
+
+### See also
+
+[Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
+
+
