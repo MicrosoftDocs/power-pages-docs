@@ -134,6 +134,10 @@
       href: configure/portal-management-app.md
     - name: Advanced configuration
       href: configure/advanced-config.md
+    - name: Embed a Power Pages site in another website
+      href: configure/embed-website.md
+    - name: Set up Azure Front Door with Power Pages
+      href: configure/azure-front-door.md            
 - name: Customize and extend Power Pages
   items:
     - name: Custom page layouts
