@@ -62,7 +62,7 @@ conceptualContent:
           url: security/power-pages-security.md#deep-dive-architecture-and-security
           itemType: download
         - text: Power Pages community
-          url: getting-started/community.md
+          url: https://aka.ms/PowerPagesCommunity
           itemType: reference                                                                                                                                                                                                               
     # Card
     - title: Tutorials
