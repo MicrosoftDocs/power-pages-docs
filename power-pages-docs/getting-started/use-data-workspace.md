@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/05/2022
+ms.date: 1/05/2023
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: kkendrick
@@ -20,6 +20,10 @@ With the **Data** workspace, you can easily visualize and manage business data f
 :::image type="content" source="media/data-workspace/table-designer.png" alt-text="Data workspace table designer.":::
 
 For their portals, makers can create basic forms, advanced forms, and lists by using forms and views created in the Data workspace.
+
+## Solutions
+
+Data workspace left pane settings feature allows you to select any unmanaged solution where changes made in Data workspace get added.  Newly created table, column, forms, and views will get added to the selected solution.  By default, all changes are saved in the Common Data Services Default Solution.  To change this setting, choose the dropdown and select any unmanaged solution in the environment.  More information: 
 
 ## Tables
 
