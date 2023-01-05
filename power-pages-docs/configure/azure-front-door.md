@@ -211,7 +211,7 @@ To set up the rule set correctly, it's important that you understand the type of
 
 1. Enter a rule set name, and then save it.
 
-    :::image type="content" source="media/illustration.png" alt-text="Create a new rule set.":::
+    :::image type="content" source="media/azure-front-door/create-rule-set.png" alt-text="Create a new rule set.":::
 
 Now, lets configure the rule set based on the business requirement, with the following configuration to meet the requirements for the scenario mentioned earlier.
 
@@ -341,7 +341,7 @@ We recommend that you perform thorough testing in Prevention mode to verify that
 
 ## Set up Power Pages to accept traffic only from Azure Front Door
 
-The last step in this setup is to ensure that your Power Pages site accepts traffic only from Azure Front Door. For this verification, we'll need to enable [IP address restrictions](admin/ip-address-restrict.md) on the site.
+The last step in this setup is to ensure that your Power Pages site accepts traffic only from Azure Front Door. For this verification, we'll need to enable [IP address restrictions](/power-apps/maker/portals/admin/ip-address-restrict) on the site.
 
 To find the IP address range on which Azure Front Door operates, go to [How do I lock down the access to my back end to only Azure Front Door?](/azure/frontdoor/front-door-faq#how-do-i-lock-down-the-access-to-my-backend-to-only-azure-front-door-).
 

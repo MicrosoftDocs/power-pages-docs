@@ -30,7 +30,7 @@ Iframes are disabled on new Power Pages sites by default, to ensure that no one 
     >[!NOTE]
     > Content-Security-Policy frame-ancestors has superseded X-Frame-Options, and is the method described in this article.
 
-    1. Set the site setting to enable the HTTP header **HTTP/Content-Security-Policy**. More information: [Set up HTTP headers in portals](configure/cors-support.md)
+    1. Set the site setting to enable the HTTP header **HTTP/Content-Security-Policy**. More information: [Set up HTTP headers in portals](/power-apps/maker/portals/configure/cors-support)
 
     1. Follow the syntax described in [CSP: frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors) to set the value.
 
@@ -49,7 +49,7 @@ Iframes are disabled on new Power Pages sites by default, to ensure that no one 
 
     The [SameSite attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite) for cookies is useful for securing the site against cross-site request forgery (CSRF) attacks. However, this also means that the site can't be embedded in an iframe in scenarios like when the site requires user authentication or contains dynamic components like forms or lists.
 
-    Therefore, to embed the Power Pages site in an iframe, you must change the SameSite cookie attribute for your Power Pages site to **None** by default. More information: [SameSite mode changes](important-changes-deprecations.md#samesite-mode-changes)
+    Therefore, to embed the Power Pages site in an iframe, you must change the SameSite cookie attribute for your Power Pages site to **None** by default. More information: [SameSite mode changes](/power-apps/maker/portals/important-changes-deprecations#samesite-mode-changes)
 
     > [!NOTE]
     > Marking SameSite cookies as **None** doesn't make your Power Pages site vulnerable to CSRF attacks, because the Power Pages uses anti-CSRF tokens to prevent these attacks.
@@ -81,7 +81,7 @@ Header and footer web templates support full liquid customizations, so you can a
 For example, the following code displays a search bar in the header if the page is anything other than the search page.
 
 > [!IMPORTANT]
-> Because the header is an element common to all pages, `page.id` will get cached by default for the first page that's opened by a user. Hence, this code uses the [substitution tag](liquid/template-tags.md#substitution) to ensure that these elements won't be cached and will always be evaluated based on the current page.
+> Because the header is an element common to all pages, `page.id` will get cached by default for the first page that's opened by a user. Hence, this code uses the [substitution tag](/power-apps/maker/portals/liquid/template-tags#substitution) to ensure that these elements won't be cached and will always be evaluated based on the current page.
 
 ```
 {% substitution %}
