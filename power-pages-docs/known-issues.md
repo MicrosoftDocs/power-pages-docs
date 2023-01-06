@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/04/2023
+ms.date: 01/06/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -29,11 +29,6 @@ contributors:
 ## Pages workspace
 
 - Buttons added in websites built with the starter template can't be resized.
-
-<!--what is this?-->
-- You can't add a deleted header logo or text in the design studio. If you need to delete these items, you'll need to do so using Power Apps portals Studio. Use the toggle in the command bar to return to Power Apps portals Studio, and use the code editor to add the text or logo.
-
-- The code editor doesn't support editing header or footer code.
 
 ## Style workspace
 
@@ -98,30 +93,25 @@ A Power Pages website in private mode will not work when you disable Azure Activ
     | Basic Form Metadata | Subgrid Setting (adx_subgrid_settings) |
     | Web Page | Copy (adx_copy) |
 
-<!--ND this needs to be updated -->
-- Rich-text for notes in timeline isn't fully supported by Power Apps portals because there's no rich-text editor equivalent control available in portals. For more information, go to [notes created with rich-text editor](configure-notes.md?#notes-created-with-rich-text-editor). If you want to disable the rich text editor for notes in the timeline of the Microsoft Dataverse model-driven app, see [Rich text editor control configurations](/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
-
 - The **Modified Date** for the app might be incorrect because these apps are pre-provisioned apps and could have been provisioned earlier.
 
 - When you create an environment along with the starter portal, the owner of the site isn't displayed correctly. It's displayed as System.
 
 - If you're reusing the URL of a recently deleted site to create a new site, it will have some delay for runtime to setup. This experience happens because the purge of previous resources would still be in progress and may take from 30 minutes to 1 hour for the new site to setup on Azure. The site will also not be available for editing during this time and may show errors when launched in studio for editing.
 
-<!--legacy-->
-- When switching an environment in Power Apps, the sites within an environment may not show up immediately in **Apps** or **Recent Apps** list. This experience happens particularly on environments that are created in a different region than their tenant. The workaround is to use browser refresh or wait for some time for the site to show up in the apps list.
+- When switching an environment in Power Apps, the sites within an environment may not show up immediately in **Apps** or **Recent Apps** list. This experience happens particularly on environments that are created in a different region than their tenant. The workaround is to use browser refresh or wait for some time for the site to show up in the apps list. You will be able to view all sites in an environment from the [Power Pages home page](https://aka.ms/mpp).
 
-<!--legacy-->
-- If you keep the portal settings pane open in Power Apps home page while resetting the site from the Power Pages hub in the Power Platform admin center, a user will see the "Something went wrong" error message in the portal settings pane, as the site is no longer available.
+- If you keep the portal settings pane open in Power Apps home page while resetting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center, a user will see the "Something went wrong" error message in the portal settings pane, as the site is no longer available.
 
-- In certain cases, when you create a new site, the styles aren't applied properly to the site, and the website is displayed without the styles when opened through **Browse website**. This behavior rarely happens and styles can be recovered by restarting the site from the Power Pages hub in the Power Platform admin center.
+- In certain cases, when you create a new site, the styles aren't applied properly to the site, and the website is displayed without the styles when opened through **Browse website**. This behavior rarely happens and styles can be recovered by restarting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center.
 
-- When configuring a [basic form](configure/entity-forms.md) using the Portals Management app, the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form.
+- When configuring a [basic form](configure/entity-forms.md) using the [Portals Management app](configure/portal-management-app.md), the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form. When creating a form in [Data workspace](getting-started/use-data-workspace.md), you will only be presented with the **Main** form.
 
 - By default, Power Pages sites uses the **Azure Active Directory Graph API** for the portal's [Azure app registration](admin/connectivity.md) which is currently deprecated. Power Pages will use the [Microsoft Graph API](/graph/use-the-api/) in a future update, so no administrator intervention is required. If the existing Azure Active Directory Graph API permission is replaced manually using the Microsoft Graph API, it will revert back to the Azure Active Directory Graph API when you [Enable or Disable SharePoint integration](manage-sharepoint-documents.md#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center) from the Power Pages hub in the Power Platform admin center.
 
     :::image type="content" source="media/known-issues/azure-ad-graph-api.png" alt-text="Azure AD Graph API configuration.":::
 
-- When configuring the *Open in New Window* setting on the **Profile** [web link](./configure/manage-web-links.md), the profile page will not open in a new window. To resolve this issue, update the **Header** [web template](liquid/store-content-web-templates.md) by updating the [Liquid](liquid/liquid-overview.md) code in the `{% if profile_nav %}` section.
+- When configuring the *Open in New Window* setting on the **Profile** [web link](configure/manage-web-links.md), the profile page will not open in a new window. To resolve this issue, update the **Header** [web template](liquid/store-content-web-templates.md) by updating the [Liquid](liquid/liquid-overview.md) code in the `{% if profile_nav %}` section.
 
     :::image type="content" source="media/known-issues/profile-weblink.png" alt-text="Showing line of code to update in the header web template.":::
 
