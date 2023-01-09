@@ -1,12 +1,12 @@
 ---
 title: Render up to three levels of page hierarchy by using hybrid navigation
-description: Learn how to use hybrid navigation to render page hierarchy for a portal.
+description: Learn how to use hybrid navigation to render page hierarchy for a site.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -16,10 +16,7 @@ contributors:
 
 # Render up to three levels of page hierarchy by using hybrid navigation
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-This example renders a type of hybrid navigation, based on the portal site map, that renders up to three levels of page hierarchy. The rules for this component are:
+This example renders a type of hybrid navigation, based on the site map, that renders up to three levels of page hierarchy. The rules for this component are:
 
 * The ancestor pages of the current page are shown back to the Home page (or to the maximum depth specified by the optional depth\_offset parameter). 
 * If the current page has children, those child pages are shown.
@@ -254,10 +251,9 @@ This example renders a type of hybrid navigation, based on the portal site map, 
 ```
 ### See also
 
-[Create a custom page template by using Liquid and a web template page template](create-custom-template.md)  
+[Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
 [Create a custom page template to render an RSS feed](render-rss-custom-page-template.md)  
 [Render the list associated with the current page](render-entity-list-current-page.md)  
 [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

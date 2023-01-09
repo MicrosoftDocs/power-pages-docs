@@ -1,12 +1,12 @@
 ---
 title: Available Liquid conditional operators
-description: Learn about the available liquid conditional operators in a portal.
+description: Learn about the available Liquid conditional operators in a Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Available Liquid conditional operators
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 When used in conditional statements (**if**,**unless**), some Liquid values will be treated as true, and some will be treated as false.
 
@@ -73,4 +70,3 @@ You can also test the size of [Liquid types](liquid-types.md), [Liquid types](li
 [Liquid Filters](liquid-filters.md)  
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

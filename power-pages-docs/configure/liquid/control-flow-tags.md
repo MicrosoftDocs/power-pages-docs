@@ -1,12 +1,12 @@
 ---
 title: Control flow tags
-description: Learn about control flow tags available in portal.
+description: Learn about control flow tags available in liquid.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Control flow tags
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 Control Flow tags determine which block of code should be executed and what content should be rendered based on given conditions. Conditions are built using the available [Liquid operators](liquid-operators.md), or just based on [the truth or falsehood of a given value](liquid-conditional-operators.md).  
 
@@ -95,4 +92,3 @@ Hello, stranger.
 [Dataverse table tags](portals-entity-tags.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,12 @@
 ---
 title: Available Liquid filters
-description: Learn about the available liquid filters in a portal.
+description: Learn about the available liquid filters in Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/11/2022
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Available Liquid filters
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 Liquid filters are used to modify the output of strings, numbers, variables, and objects. They are separated from the value to which they are being applied by a |.
 
@@ -1620,7 +1617,7 @@ User is an administrator.
 Renders a string as Liquid code. This code will have access to the current Liquid execution context (variables, etc.).
 
 > [!Note] 
-> This filter should be used with caution and should generally only be applied to values that are under the exclusive control of portal content authors, or other users that can be trusted to write Liquid code.
+> This filter should be used with caution and should generally only be applied to values that are under the exclusive control of site content authors, or other users that can be trusted to write Liquid code.
 
 **Code**
 
@@ -1638,4 +1635,4 @@ Renders a string as Liquid code. This code will have access to the current Liqui
 [Liquid Filters](liquid-filters.md)  
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

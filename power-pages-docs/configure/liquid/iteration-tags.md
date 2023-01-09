@@ -1,12 +1,12 @@
 ---
 title: Iteration tags
-description: Learn about iteration tags available in portal.
+description: Learn about iteration tags available in liquid.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Iteration tags
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 Iteration tags are used to run/render a block of code repeatedly.
 
@@ -402,7 +399,6 @@ Defines a range of numbers to loop through.
 [Control flow tags](control-flow-tags.md)
 [Variable tags](variable-tags.md)
 [Template tags](template-tags.md)
-[Dataverse entity tags](portals-entity-tags.md)
+[Dataverse table tags](portals-entity-tags.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
