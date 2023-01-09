@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/06/2023
+ms.date: 01/09/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -105,13 +105,13 @@ A Power Pages website in private mode will not work when you disable Azure Activ
 
 - In certain cases, when you create a new site, the styles aren't applied properly to the site, and the website is displayed without the styles when opened through **Browse website**. This behavior rarely happens and styles can be recovered by restarting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center.
 
-- When configuring a [basic form](configure/entity-forms.md) using the [Portals Management app](configure/portal-management-app.md), the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form. When creating a form in [Data workspace](getting-started/use-data-workspace.md), you will only be presented with the **Main** form.
+- When configuring a [basic form](/power-apps/maker/portals/configure/entity-forms) using the [Portals Management app](configure/portal-management-app.md), the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form. When creating a form in [Data workspace](getting-started/use-data-workspace.md), you will only be presented with the **Main** form.
 
-- By default, Power Pages sites uses the **Azure Active Directory Graph API** for the portal's [Azure app registration](admin/connectivity.md) which is currently deprecated. Power Pages will use the [Microsoft Graph API](/graph/use-the-api/) in a future update, so no administrator intervention is required. If the existing Azure Active Directory Graph API permission is replaced manually using the Microsoft Graph API, it will revert back to the Azure Active Directory Graph API when you [Enable or Disable SharePoint integration](manage-sharepoint-documents.md#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center) from the Power Pages hub in the Power Platform admin center.
+- By default, Power Pages sites uses the **Azure Active Directory Graph API** for the portal's [Azure app registration](/power-apps/maker/portals/admin/connectivity) which is currently deprecated. Power Pages will use the [Microsoft Graph API](/graph/use-the-api/) in a future update, so no administrator intervention is required. If the existing Azure Active Directory Graph API permission is replaced manually using the Microsoft Graph API, it will revert back to the Azure Active Directory Graph API when you [Enable or Disable SharePoint integration](/power-apps/maker/portals/manage-sharepoint-documents#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center) from the Power Pages hub in the Power Platform admin center.
 
     :::image type="content" source="media/known-issues/azure-ad-graph-api.png" alt-text="Azure AD Graph API configuration.":::
 
-- When configuring the *Open in New Window* setting on the **Profile** [web link](configure/manage-web-links.md), the profile page will not open in a new window. To resolve this issue, update the **Header** [web template](liquid/store-content-web-templates.md) by updating the [Liquid](liquid/liquid-overview.md) code in the `{% if profile_nav %}` section.
+- When configuring the *Open in New Window* setting on the **Profile** [web link](/power-apps/maker/portals/configure/manage-web-links), the profile page will not open in a new window. To resolve this issue, update the **Header** [web template](/power-apps/maker/portals/liquid/store-content-web-templates) by updating the [Liquid](/power-apps/maker/portals/liquid/liquid-overview) code in the `{% if profile_nav %}` section.
 
     :::image type="content" source="media/known-issues/profile-weblink.png" alt-text="Showing line of code to update in the header web template.":::
 
