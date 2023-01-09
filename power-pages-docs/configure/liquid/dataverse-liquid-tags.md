@@ -6,7 +6,7 @@ author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/09/2023
-ms.subservice: power-pages
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -21,7 +21,7 @@ Microsoft Dataverse Liquid tags are used to load and display Dataverse data, or 
 
 ## chart
 
-Adds a Power Apps model-driven app chart to a web page. The chart tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power Apps model-driven app chart to a web page, see [Add a chart to a web page in Power Pages](../configure/add-chart.md).
+Adds a Power Apps model-driven app chart to a web page. The chart tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power Apps model-driven app chart to a web page, see [Add a chart to a web page in Power Pages](/power-apps/maker/portals/configure/add-chart).
 
 ```
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
@@ -41,7 +41,7 @@ ID of the table when opened in view editor.
 
 ## powerbi
 
-Adds the Power BI dashboards and reports within pages. The tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power BI report or dashboard to a webpage in Power Pages, see [Add a Power BI report or dashboard to a webpage in Power Pages](../admin/add-powerbi-report.md).
+Adds the Power BI dashboards and reports within pages. The tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power BI report or dashboard to a webpage in Power Pages, see [Add a Power BI report or dashboard to a webpage in Power Pages](/power-apps/maker/portals/admin/add-powerbi-report).
 
 > [!NOTE]
 > For the tag to work, you must [enable Power BI integration](/power-apps/maker/portals/admin/set-up-power-bi-integration) from Power Pages hub in the Power Platform admin center. If the Power BI integration is not enabled, dashboard or report will not be displayed.
@@ -66,7 +66,7 @@ Type of authentication required for the Power BI report or dashboard. Valid valu
 
 - **AAD**: Allows you to share secure Power BI reports or dashboards to Power BI Azure Active Directory authenticated users.
 
-- **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who don't have Power BI license or Azure Active Directory authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](../admin/set-up-power-bi-integration.md#enable-power-bi-embedded-service). 
+- **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who don't have Power BI license or Azure Active Directory authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](/power-apps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-embedded-service). 
 
 While adding the secure Power BI report or dashboard, ensure that it's shared with portal Azure Active Directory or Power BI Embedded services. 
 

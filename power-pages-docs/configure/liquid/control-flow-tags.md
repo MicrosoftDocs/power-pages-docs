@@ -6,7 +6,7 @@ author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/09/2023
-ms.subservice: power-pages
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -86,9 +86,9 @@ Hello, stranger.
 
 ### See also
 
-[Iteration tags](iteration-tags.md)<br>
-[Variable tags](variable-tags.md)<br>
-[Template tags](template-tags.md)<br>
-[Dataverse table tags](portals-entity-tags.md)
+- [Iteration tags](iteration-tags.md)
+- [Variable tags](variable-tags.md)
+- [Template tags](template-tags.md)
+- [Dataverse table tags](dataverse-liquid-tags.md)
 
 

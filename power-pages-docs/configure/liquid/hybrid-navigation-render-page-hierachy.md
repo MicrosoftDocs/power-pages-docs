@@ -6,7 +6,7 @@ author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/09/2023
-ms.subservice: power-pages
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -253,7 +253,7 @@ This example renders a type of hybrid navigation, based on the site map, that re
 
 [Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
 [Create a custom page template to render an RSS feed](render-rss-custom-page-template.md)  
-[Render the list associated with the current page](render-entity-list-current-page.md)  
+[Render the list associated with the current page](render-list-current-page.md)  
 [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 
 

@@ -6,7 +6,7 @@ author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/09/2023
-ms.subservice: power-pages
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -396,9 +396,9 @@ Defines a range of numbers to loop through.
 
 ### See also
 
-[Control flow tags](control-flow-tags.md)
-[Variable tags](variable-tags.md)
-[Template tags](template-tags.md)
-[Dataverse table tags](portals-entity-tags.md)
+- [Control flow tags](control-flow-tags.md)
+- [Variable tags](variable-tags.md)
+- [Template tags](template-tags.md)
+- [Dataverse table tags](dataverse-liquid-tags.md)
 
 
