@@ -1,12 +1,12 @@
 ---
 title: Understand Liquid operators
-description: Learn about the available liquid operators in a portal.
+description: Learn about the available liquid operators in Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Understand Liquid operators
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 Liquid has access to all common logical and comparison operators. These can be used in tags such as **if** and **unless**.
 
@@ -80,4 +77,3 @@ This is a forum page.
 [Liquid Tags](liquid-tags.md)  
 [Liquid Filters](liquid-filters.md) 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

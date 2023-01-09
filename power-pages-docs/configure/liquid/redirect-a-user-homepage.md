@@ -5,8 +5,8 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/23/2022
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -16,10 +16,7 @@ contributors:
 
 # Redirect a user to a default page on sign-in
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-You can configure a portal to redirect a user to a default page after the user signs in. 
+You can configure a Power Pages site to redirect a user to a default page after the user signs in. 
 
 To achieve this, you replace the default studio template that's used as the page layout for the home page. You replace this default template with a custom template that includes JavaScript code to redirect the user to the page of your choosing. The steps are:
 
@@ -30,7 +27,7 @@ To achieve this, you replace the default studio template that's used as the page
 
 ## Make a copy of the default studio template
 
-1. Open the Portal Management app, go to **Web Templates**, and open the **Default studio template**.
+1. Open the [Portal Management app](../portal-management-app.md), go to **Web Templates**, and open the **Default studio template**.
 
 1. Copy all of the content that follows the `<!-- Default studio template. Please do not modify -->` line.
 

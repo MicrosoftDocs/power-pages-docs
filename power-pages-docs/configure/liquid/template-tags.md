@@ -1,12 +1,12 @@
 ---
 title: Template tags
-description: Learn about template tags available in portal.
+description: Learn about Liquid template tags available in Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/26/2021
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -17,9 +17,6 @@ contributors:
 
 # Template tags
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
 Template tags control the output of a template in various ways, and allow the combination of multiple templates into a single output.
 
 ## fetchxml
@@ -27,7 +24,7 @@ Template tags control the output of a template in various ways, and allow the co
 Allows user to query data from Microsoft Dataverse, and render the results in a page.
 
 > [!NOTE]
-> You can learn more about querying the data using fetchxml at [use FetchXML to query data](../../../developer/data-platform/use-fetchxml-construct-query.md).
+> You can learn more about querying the data using fetchxml at [use FetchXML to query data](/power-apps/developer/data-platform/use-fetchxml-construct-query).
 
 ```
 {% fetchxml resultVariable %}
@@ -165,7 +162,6 @@ See [Understand codecomponent Dataverse entity tag](portals-entity-tags.md#codec
 [Control flow tags](control-flow-tags.md)<br>
 [Iteration tags](iteration-tags.md)<br>
 [Variable tags](variable-tags.md)<br>
-[Power Apps Dataverse entity tags](portals-entity-tags.md)<br>
+[Dataverse Liquid tags](dataverse-liquid-tags.md)<br>
 [Use code components Liquid template tag](../component-framework-liquid.md)
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

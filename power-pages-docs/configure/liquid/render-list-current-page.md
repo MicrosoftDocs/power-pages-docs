@@ -1,12 +1,12 @@
 ---
 title: Render the list associated with the current page
-description: Sample code to render the list associated with the current page in a portal.
+description: Sample code to render the list associated with the current page in Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/18/2022
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -16,9 +16,7 @@ contributors:
 
 # Render the list associated with the current page
 
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-Render the List associated with the current page as a paginated sortable table. Uses [entitylist](liquid-objects.md#entitylist), [entityview](liquid-objects.md#entityview), [Dataverse entity tags](portals-entity-tags.md), [page](liquid-objects.md#page), and [request](liquid-objects.md#request) parameters, and includes search and multiple view selections.  
+Render the list associated with the current page as a paginated sortable table. Uses [entitylist](liquid-objects.md#entitylist), [entityview](liquid-objects.md#entityview), [Dataverse Liquid tags](dataverse-liquid-tags.md), [page](liquid-objects.md#page), and [request](liquid-objects.md#request) parameters, and includes search and multiple view selections.  
 
 ```xml
 {% entitylist id:page.adx_entitylist.id %}
@@ -246,9 +244,7 @@ Render the List associated with the current page as a paginated sortable table. 
 
 ### See also
 
-[Create a custom page template by using Liquid and a web template page template](create-custom-template.md)  
+[Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
 [Create a custom page template to render an RSS feed](render-rss-custom-page-template.md)  
 [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 [Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierachy.md)
-
-

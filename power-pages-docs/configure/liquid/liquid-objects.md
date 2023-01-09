@@ -1,12 +1,12 @@
 ---
 title: Available Liquid objects
-description: Learn about the available liquid objects in a portal.
+description: Learn about the available liquid objects in Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/01/2022
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -16,9 +16,6 @@ contributors:
 ---
 
 # Available Liquid objects
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 Liquid objects contain attributes to output dynamic content to the page. For example, the page object has an attribute called title that can be used to output the title of the current page.
 
@@ -45,21 +42,20 @@ The following objects can be used and accessed anywhere, in any template.
 
 |   Object    |                                                                                                                                                                                          Description                                                                                                                                                                                           |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  entities   |                                                                                                 Allows you to load any Power Apps table by ID. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [entities](#entities)                                                                                                 |
-|     now     |                                          A date/time object that refers to the current UTC time at the time the template is rendered.<br>**Note**: This value is cached by the portal web app and isn't refreshed every time. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [Date filters](liquid-filters.md#date-filters)                                          |
-|    page     | Refers to the current portal request page. The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Power Apps record. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [page](#page) |
-|   params    |                                                                                                                             A convenient shortcut for request.params. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [request](#request)                                                                                                                              |
-|   request   |                                                                                                                        Contains information about the current HTTP request. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [request](#request)                                                                                                                        |
-|  settings   |                                                                                                            Allows you to load any [Site Setting](../configure/configure-site-settings.md) by name. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [settings](#settings)                                                                                                            |
-|   sitemap   |                                                                                                                               Allows access to the portal site map. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [sitemap](#sitemap)                                                                                                                                |
-| sitemarkers |                                                                                                                        Allows you to load any Site Markers by name. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [sitemarkers](#sitemarkers)                                                                                                                        |
-|  snippets   |                                                                                                         Allows you to load any [Content Snippet](../configure/customize-content-snippets.md) by name. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [snippets](#snippets)                                                                                                         |
-|    user     |                             Refers to the current portal user, allowing access to all attributes of the underlying Power Apps contact record. If no user is signed in, this variable will be [null](liquid-types.md#null). [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [user](#user)                              |
-|  weblinks   |                                                                                                                        Allows you to load any Web Link Set by name or ID. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [weblinks](#weblinks)                                                                                                                        |
-|   website   |                                                      Refers to the portal Website record, allowing access to all attributes of the Power Apps Website (adx\_website) record for the portal. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [website](#website)                                                       |
+|  entities   |                                                                                                 Allows you to load any Microsoft Dataverse table by ID. More information: [entities](#entities)                                                                                                 |
+|     now     |                                          A date/time object that refers to the current UTC time at the time the template is rendered.<br>**Note**: This value is cached by the portal web app and isn't refreshed every time. More information: [Date filters](liquid-filters.md#date-filters)                                          |
+|    page     | Refers to the current portal request page. The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Power Apps record. More information: [page](#page) |
+|   params    |                                                                                                                             A convenient shortcut for request.params. More information: [request](#request)                                                                                                                              |
+|   request   |                                                                                                                        Contains information about the current HTTP request. More information: [request](#request)                                                                                                                        |
+|  settings   |                                                                                                            Allows you to load any [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) by name. More information: [settings](#settings)                                                                                                            |
+|   sitemap   |                                                                                                                               Allows access to the portal site map. More information: [sitemap](#sitemap)                                                                                                                                |
+| sitemarkers |                                                                                                                        Allows you to load any Site Markers by name. More information: [sitemarkers](#sitemarkers)                                                                                                                        |
+|  snippets   |                                                                                                         Allows you to load any [Content Snippet](/power-apps/maker/portals/configure/customize-content-snippets) by name. More information: [snippets](#snippets)                                                                                                         |
+|    user     |                             Refers to the current portal user, allowing access to all attributes of the underlying Power Apps contact record. If no user is signed in, this variable will be [null](liquid-types.md#null). More information: [user](#user)                              |
+|  weblinks   |                                                                                                                        Allows you to load any Web Link Set by name or ID. More information: [weblinks](#weblinks)                                                                                                                        |
+|   website   |                                                      Refers to the portal Website record, allowing access to all attributes of the Power Apps Website (adx\_website) record for the portal. More information: [website](#website)                                                       |
 
 ## ads
-
 
 Provides the ability to access and render an ad.
 
@@ -274,9 +270,9 @@ The following table explains various attributes associated with blogpost Object.
 > To avoid potential cross-site scripting (XSS) issues, always use [escape filter](liquid-filters.md#escape) to HTML encode string data whenever using **entities** Liquid object to read data provided by the user that can't be trusted.
 
 > [!NOTE]
-> Some of the naming conventions of Dataverse have changed, for example, Dataverse entities are now called [tables](../../data-platform/data-platform-intro.md#terminology-updates). The name changes do not apply to Liquid objects. The Liquid entities object will continue to be referred to as **entities**.
+> Some of the naming conventions of Dataverse have changed, for example, Dataverse entities are now called [tables](/power-apps/maker/data-platform/data-platform-intro.md#terminology-updates). The name changes do not apply to Liquid objects. The Liquid entities object will continue to be referred to as **entities**.
 
-Allows you to load any Power Apps table by ID. If the table exists, a table object will be returned. If a table with the given ID isn't found, [null](liquid-types.md#null) will be returned.  
+Allows you to load any Dataverse table by ID. If the table exists, a table object will be returned. If a table with the given ID isn't found, [null](liquid-types.md#null) will be returned.  
 
 ```
 {% assign account = entities.account['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'] %}
@@ -846,7 +842,7 @@ category is an [entity](#entity) object, with all of the same attributes, in add
 
 ## language
 
-Provides the current language name, and language code if  [multiple-language support](../configure/enable-multiple-language-support.md) is enabled.
+Provides the current language name, and language code if  [multiple-language support](/power-apps/maker/portals/configure/enable-multiple-language-support) is enabled.
 
 ### Attributes
 
@@ -1018,8 +1014,8 @@ Contains information about the current HTTP request.
 
 > [!NOTE]
 > - You can build URLs dynamically in Liquid by using URL Filters.
-> - The URL used in request.url can be any requested value, and gets [cached](../configure/enable-header-footer-output-caching.md) for subsequent requests. To ensure correct value in request.url, consider using [substitution tag](../liquid/template-tags.md#substitution), partial URL such as ~\{WebFile path} or storing the portal URL in [Site Settings](../configure/configure-site-settings.md).
-> - Power Apps portals release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](../liquid/liquid-filters.md#escape) Liquid filter enforced for [user](../liquid/liquid-objects.md#user) and [request](../liquid/liquid-objects.md#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, see [portal site settings - Site/EnableDefaultHtmlEncoding](../configure/configure-site-settings.md#portal-site-settings).
+> - The URL used in request.url can be any requested value, and gets [cached](/power-apps/maker/portals/configure/enable-header-footer-output-caching) for subsequent requests. To ensure correct value in request.url, consider using [substitution tag](template-tags.md#substitution), partial URL such as ~\{WebFile path} or storing the portal URL in [Site Settings](/power-apps/maker/portals/configure/configure-site-settings).
+> - Power Apps portals release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](liquid-filters.md#escape) Liquid filter enforced for [user](liquid-objects.md#user) and [request](liquid-objects.md#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, see [portal site settings - Site/EnableDefaultHtmlEncoding](/power-apps/maker/portals/configure/configure-site-settings.md#portal-site-settings).
 
 ### Attributes
 
@@ -1278,7 +1274,7 @@ Hello, anonymous user!
 ```
 
 > [!NOTE]
-> Power Apps portals release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](../liquid/liquid-filters.md#escape) Liquid filter enforced for [user](../liquid/liquid-objects.md#user) and [request](../liquid/liquid-objects.md#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, see [portal site settings - Site/EnableDefaultHtmlEncoding](../configure/configure-site-settings.md#portal-site-settings).
+> Power Apps portals release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](liquid-filters.md#escape) Liquid filter enforced for [user](liquid-objects.md#user) and [request](liquid-objects.md#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, see [portal site settings - Site/EnableDefaultHtmlEncoding](/power-apps/maker/portals/configure/configure-site-settings#portal-site-settings).
 
 ### Attributes
 
@@ -1418,6 +1414,3 @@ The following table lists the attributes for this tag that can be used replacing
 [Liquid types](liquid-types.md)  
 [Liquid Tags](liquid-tags.md)  
 [Liquid Filters](liquid-filters.md)  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,12 @@
 ---
 title: Available Liquid types
-description: Learn about the available liquid types in a portal.
+description: Learn about the available liquid types in a Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Available Liquid types
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 Liquid objects can return one of seven basic types: **String**, **Number**, **Boolean**, **Array**, **Dictionary**, **DateTime**, or **Null**. Liquid variables can be initialized by using the **assign** or **capture** tags.
 
@@ -130,5 +127,3 @@ This will render if the ID request parameter is NOT null.
 [Liquid Tags](liquid-tags.md)  
 [Liquid Filters](liquid-filters.md)  
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

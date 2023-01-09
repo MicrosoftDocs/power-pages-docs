@@ -1,12 +1,12 @@
 ---
 title: Render a website header and primary navigation bar
-description: Learn about and sample code to render a website header and primary navigation bar on a portal.
+description: Learn about and sample code to render a website header and primary navigation bar on a Power Pages site.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -16,13 +16,10 @@ contributors:
 
 # Render a website header and primary navigation bar
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-Render a website header and primary navigation bar, using portals settings, snippets, weblinks, and sitemarkers. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [Store source content by using web templates](store-content-web-templates.md)  
+Render a website header and primary navigation bar, using portals settings, snippets, weblinks, and sitemarkers. More information: [Store source content by using web templates](store-content-web-templates.md)  
 
 > [!Note]
-> The example in this topic will only function correctly if cross-request header caching is disabled for your application. It is enabled by default in version 7.0.0019 and later. It can be disabled by creating a Site Setting named Header/OutputCache/Enabled, and setting its value to false.
+> The example in this topic will only function correctly if cross-request header caching is disabled for your application. It is enabled by default in version 7.0.0019 and later. It can be disabled by creating a [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) named **Header/OutputCache/Enabled**, and setting its value to **false**.
 
 
 ```xml
@@ -196,11 +193,8 @@ Render a website header and primary navigation bar, using portals settings, snip
 
 ### See also
 
-[Create a custom page template by using Liquid and a web template page template](create-custom-template.md)  
+[Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
 [Create a custom page template to render an RSS feed](render-rss-custom-page-template.md)  
 [Render the list associated with the current page](render-entity-list-current-page.md)  
 [Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierachy.md)  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,12 @@
 ---
-title: Dataverse entity tags
-description: Learn about Power Apps entity tags available in portal.
+title: Dataverse Liquid tags
+description: Learn about Power Pages Dataverse Liquid tags available when building sites.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,16 +15,13 @@ contributors:
     - nickdoelman
 ---
 
-# Dataverse entity tags
+# Dataverse Liquid tags
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-Microsoft Dataverse entity tags are used to load and display Dataverse data, or use other Power Apps portals framework services. These tags are Dataverse-specific extensions to the Liquid language.
+Microsoft Dataverse Liquid tags are used to load and display Dataverse data, or use other Power Apps portals framework services. These tags are Dataverse-specific extensions to the Liquid language.
 
 ## chart
 
-Adds a Power Apps chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a Power Apps chart to a web page, see [Add a chart to a web page in portal](../configure/add-chart.md).
+Adds a Power Apps model-driven app chart to a web page. The chart tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power Apps model-driven app chart to a web page, see [Add a chart to a web page in Power Pages](../configure/add-chart.md).
 
 ```
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
@@ -44,10 +41,10 @@ ID of the table when opened in view editor.
 
 ## powerbi
 
-Adds the Power BI dashboards and reports within pages. The tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power BI report or dashboard to a webpage in portal, see [Add a Power BI report or dashboard to a webpage in portal](../admin/add-powerbi-report.md).
+Adds the Power BI dashboards and reports within pages. The tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power BI report or dashboard to a webpage in Power Pages, see [Add a Power BI report or dashboard to a webpage in Power Pages](../admin/add-powerbi-report.md).
 
 > [!NOTE]
-> For the tag to work, you must [enable Power BI integration](../admin/set-up-power-bi-integration.md) from Power Apps portals admin center. If the Power BI integration is not enabled, dashboard or report will not be displayed.
+> For the tag to work, you must [enable Power BI integration](/power-apps/maker/portals/admin/set-up-power-bi-integration) from Power Pages hub in the Power Platform admin center. If the Power BI integration is not enabled, dashboard or report will not be displayed.
 
 ### Parameters
 
@@ -676,7 +673,7 @@ The size of the result page to be returned. If not provided, a default size of 1
 
 ## entityform
 
-Fully renders a Power Apps-configured basic forms, by name or ID.  
+Fully renders a [form](../../getting-started/add-form.md), by name or ID.  
 
 > [!Note]
 > The entityform tag is only available for use in content rendered inside a <em>[web template](store-content-web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
@@ -693,7 +690,7 @@ The name of the Basic Form you wish to load.
 
 ## webform
 
-Fully renders a Power Apps-configured multistep form, by name or ID. The webform tag is only available for use in content rendered inside a [web template](store-content-web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template won't render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first won't be rendered.
+Fully renders a [multistep form](../../getting-started/multistep-forms.md), by name or ID. The webform tag is only available for use in content rendered inside a [web template](store-content-web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template won't render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first won't be rendered.
 
 `{% webform name: 'My Multistep Form' %}`
 
@@ -708,11 +705,6 @@ The name of the Multistep Form you wish to load.
 ## codecomponent
 
 Allows you to embed code components using a Liquid tag. For example, adding a map display custom control to a web page.
-
-> [!important]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. 
-These features are available before an official release so that customers can get early access and provide feedback.
 
 ### Parameters
 
@@ -733,10 +725,9 @@ See [Use code components Liquid template tag](../component-framework-liquid.md).
 
 ### See also
 
-[Control flow tags](control-flow-tags.md)<br>
-[Iteration tags](iteration-tags.md)<br>
-[Variable tags](variable-tags.md)<br>
-[Template tags](template-tags.md)
+- [Control flow tags](control-flow-tags.md)
+- [Iteration tags](iteration-tags.md)
+- [Variable tags](variable-tags.md)
+- [Template tags](template-tags.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

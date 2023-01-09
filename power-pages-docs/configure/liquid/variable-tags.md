@@ -1,12 +1,12 @@
 ---
 title: Variable tags
-description: Learn about variable tags available in portal.
+description: Learn about variable tags available in Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 01/09/2023
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Variable tags
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 Variable tags are used to create new Liquid variables.
 
@@ -73,10 +70,9 @@ Hello, DAVE BOWMAN.
 
 ### See also
 
-[Control flow tags](control-flow-tags.md)<br>
-[Iteration tags](iteration-tags.md)<br>
-[Template tags](template-tags.md)<br>
-[Dataverse entity tags](portals-entity-tags.md)
+- [Control flow tags](control-flow-tags.md)
+- [Iteration tags](iteration-tags.md)
+- [Template tags](template-tags.md)
+- [Dataverse Liquid tags](dataverse-liquid-tags.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
