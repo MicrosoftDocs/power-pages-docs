@@ -17,7 +17,7 @@ contributors:
 
 With the **Data** workspace, you can easily visualize and manage business data for the site with tables, forms, and lists. All the data and changes are stored in Microsoft Dataverse. You can create and edit tables for the site, and create new (or edit existing) model-driven forms and views.
 
-:::image type="content" source="media/data-workspace/left_data_pane.png" alt-text="Data workspace table designer.":::
+:::image type="content" source="media/data-workspace/left-data-pane.png" alt-text="Data workspace table designer.":::
 
 Makers can create basic forms, advanced forms, and lists by using forms and views created in the Data workspace.
 
@@ -25,7 +25,7 @@ Makers can create basic forms, advanced forms, and lists by using forms and view
 
 Data workspace left pane settings feature allows you to select any unmanaged solution where changes made in Data workspace get added.  Newly created table, column, forms, and views will get added to the selected solution.  Newly created tables and columns will get the prefix of the selected solution's publisher. By default, all changes are saved in the Common Data Services Default Solution.  To change this setting, choose the dropdown and select any unmanaged solution in the environment.  
 
-:::image type="content" source="media/data-workspace/set_solution.png" alt-text="The set a solution view allows makers to choose a solution from a dropdown menu of options.":::
+:::image type="content" source="media/data-workspace/set-solution.png" alt-text="The set a solution view allows makers to choose a solution from a dropdown menu of options.":::
 
 For more information, go to [Solution concepts](/power-platform/alm/solution-concepts-alm).
 
