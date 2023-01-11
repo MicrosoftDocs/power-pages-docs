@@ -23,7 +23,7 @@ You can build applications&mdash;including Power Pages sites&mdash;that are conn
 
 Makers are able to create and modify Dataverse [tables](/power-apps/maker/data-platform/entity-overview) directly in the design studio by using the [data workspace](use-data-workspace.md).
 
-:::image type="content" source="media/data-workspace/left_data_pane.png" alt-text="Data workspace table designer.":::
+:::image type="content" source="media/data-workspace/left-data-pane.png" alt-text="Data workspace table designer.":::
 
 Dataverse gives makers the ability to use Power Apps to create [model-driven apps](/power-apps/maker/model-driven-apps/) and to work with data using a [view](/power-apps/maker/model-driven-apps/create-edit-views) of data records in a grid or list. Makers can then use a [form](/power-apps/maker/model-driven-apps/create-design-forms) to add, update, and view each record. 
 
