@@ -24,7 +24,7 @@ Users must be assigned to web roles to gain permissions beyond unauthenticated
 > [!NOTE]
 > Users must have a unique email address. If two or more contact records (including deactivated contact records) have the same email address, the contacts won't be able to authenticate on the portal.
 
-## Common identity providers in Power Pages
+## Common identity providers
 
 The following table lists common identity providers, the protocol that can be used with the provider, and the relevant documentation.
 
@@ -33,17 +33,17 @@ The following table lists common identity providers, the protocol that can be us
 
 | **Provider** | **Protocol** | **Documentation** |
 |-------------------------|-------------------------|-------------------------|
-| Azure Active Directory (Azure AD) | OpenID Connect | Azure AD with OpenID Connect |
-| Azure AD | SAML 2.0 | Azure AD with SAML 2.0 |
-| Azure AD | WS-Federation | Azure AD with WS-Federation |
-| Azure AD B2C | OpenID Connect | Azure AD B2C with OpenID Connect<br />Azure AD B2C with OpenID Connect (manual configuration)|
-| Azure Directory Federation Services (AD FS) | SAML 2.0 | AD FS with SAML 2.0 |
-| AD FS | WS-Federation | AD FS with WS-Federation |
-| Microsoft | OAuth 2.0 | Microsoft |
-| LinkedIn | OAuth 2.0 | LinkedIn |
-| Facebook | OAuth 2.0 | Facebook |
-| Google | OAuth 2.0 | Google |
-| Twitter | OAuth 2.0 | Twitter <br />**Note**: Twitter authentication for portals is temporarily unavailable because of the compatibility issues. |
+| Azure Active Directory (Azure AD) | OpenID Connect | [Azure AD with OpenID Connect](configure-openid-settings.md) |
+| Azure AD | SAML 2.0 | [Azure AD with SAML 2.0](configure-ws-federation-settings-azure-ad.md)|
+| Azure AD | WS-Federation | [Azure AD with WS-Federation](configure-ws-federation-settings-azure-ad.md)|
+| Azure AD B2C | OpenID Connect | [Azure AD B2C with OpenID Connect](configure-azure-ad-b2c-provider.md)<br />[Azure AD B2C with OpenID Connect (manual configuration)](configure-azure-ad-b2c-provider-manual.md)|
+| Azure Directory Federation Services (AD FS) | SAML 2.0 | [AD FS with SAML 2.0](configure-saml2-settings.md) |
+| AD FS | WS-Federation | [AD FS with WS-Federation](configure-ws-federation-settings.md) |
+| Microsoft | OAuth 2.0 | [Microsoft](configure-oauth2-microsoft.md) |
+| LinkedIn | OAuth 2.0 | [LinkedIn](configure-oauth2-linkedin.md) |
+| Facebook | OAuth 2.0 | [Facebook](configure-oauth2-facebook.md)|
+| Google | OAuth 2.0 | [Google](configure-oauth2-google.md)|
+| Twitter | OAuth 2.0 | [Twitter](configure-oauth2-twitter.md)|
 | Local authentication<br />(not recommended) | Not applicable | Local authentication |
 
 
