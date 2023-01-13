@@ -15,7 +15,7 @@ contributors:
 
 # Configure authentication
 
-As you build your site, you may wish to control access both to pages and data to specific users. Power Pages uses Microsoft Dataverse contact records to associate to authenticated Power Pages site users.
+As you build your site, you may wish to control access both to pages and data to specific users. Power Pages uses [Microsoft Dataverse contact records](/power-apps/developer/data-platform/customer-entities-account-contact) to associate to authenticated Power Pages site users.
 
 :::image type="content" source="media/configure-authentication/login-page.png" alt-text="A Power Pages sign-in page.":::
 
@@ -71,5 +71,4 @@ Configure an OpenID Connect provider for portals
 Configure a SAML 2.0 provider for portals
 Configure a WS-Federation provider for portals 
 Authentication and user management in Power Apps portals
-[Get started with configuring your portal authentication](/power-apps/maker/portals/configure/use-simplified-authentication-configuration)
-
+Get started with configuring your portal authentication
