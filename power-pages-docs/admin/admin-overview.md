@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin center
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/17/2022
+ms.date: 01/11/2023
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -17,7 +17,7 @@ contributors:
 Power Pages uses the Power Platform admin center to provide administrators with various site configuration capabilities.
 
 > [!NOTE]
-> You will need to be assigned certain roles to perform administrative tasks. See [Roles required for portal administration](/power-apps/maker/portals/admin/portal-admin-roles) for more information.
+> You will need to be assigned certain roles to perform administrative tasks. For more information, see [Roles required for portal administration](/power-apps/maker/portals/admin/portal-admin-roles).
 
 1. To access the admin center, from the design studio, select the **Set up** workspace.
 
@@ -25,7 +25,7 @@ Power Pages uses the Power Platform admin center to provide administrators with 
 
     :::image type="content" source="media/admin-center.png" alt-text="Navigating to the Power Platform admin center.":::
 
-1. This will open up the **Power Platform admin center** and allow you to configure your site.
+1. The **Power Platform admin center** will open and allow you to configure your site.
 
     :::image type="content" source="media/power-platform-admin-center.png" alt-text="Power Platform admin center.":::
 
@@ -63,15 +63,22 @@ Select **...** for more site actions.
 ## Switch to Classic
 | Action | More Information |
 | - | - |
-| Switch to classic | Switch to the classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview) |
+| Switch to classic | Switch to the classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview). The Power Apps portals admin center is now deprecated and no longer available as of June 2023. |
 
 ## Site Details
 
 | Action | More Information |
 | - | - |
-| Edit | Edit site details. |
-| Connect Custom Domain | See [Add a custom domain name](/power-apps/maker/portals/admin/add-custom-domain) |
+| See All | Opens a side panel displaying all the attributes of the current site. |
+| Edit | **Edit site details.**</br> A side panel will open allowing you to make the following updates to a site:<ul><li>Change the **Site Name**.</li><li>Change the **Website Record**, which associates the site to the corresponding site metadata stored in Microsoft Dataverse. This action will update the corresponding [website bindings](/power-apps/maker/portals/configure/website-bindings) record.</li><li>Selecting the **Enable Portal for Early Upgrade** allows you to specify that the site can be updated to the latest code. This setting is only recommended for development and testing sites.</li><li>You call also update the **Site URL** to a new unique URL using the **powerappsportals.com** domain.</li></ul>|
 | Convert to Production | See [Convert a portal](/power-apps/maker/portals/admin/convert-portal) |
+| Connect Custom Domain | See [Add a custom domain name](/power-apps/maker/portals/admin/add-custom-domain) |
+| Application Type | Indicates the application status of the site (Trial or Production) |
+| Early Upgrade | Indicates if site has been enabled for an early upgrade. |
+| Site Visibility | Indicates the visibility of the site. See [Site Visibility](../security/site-visibility.md). |
+| Site State | Indicates the site's running state. |
+| Application Id | The site's application id. |
+| Org URL | The organization URL of the Microsoft Dataverse instance the site is associated with. |
 
 ## Security
 
