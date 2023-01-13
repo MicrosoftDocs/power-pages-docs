@@ -19,7 +19,7 @@ As you build your site, you may wish to control access both to pages and data to
 
 :::image type="content" source="media/configure-authentication/login-page.png" alt-text="A Power Pages sign-in page.":::
 
-Users must be assigned to web roles to gain permissions beyond unauthenticated users. To configure permissions for a web role, configure its webpage access and website access control rules. Power Pages allows users to sign in with their choice of an external account based on [ASP.NET Identity](https://www.asp.net/identity). Though not recommended, Power Pages also allows a local contact membership provider-based account for users to sign in.
+Users must be assigned to web roles to gain permissions beyond unauthenticated users. To configure permissions for [web roles](create-web-roles.md), configure [webpage access and website access control rules](page-security.md). Power Pages allows users to sign in with their choice of an external account based on [ASP.NET Identity](https://www.asp.net/identity). Though not recommended, Power Pages also allows a local contact membership provider-based account for users to sign in.
 
 > [!NOTE]
 > Users must have a unique email address. If two or more contact records (including deactivated contact records) have the same email address, the contacts won't be able to authenticate on the portal.
