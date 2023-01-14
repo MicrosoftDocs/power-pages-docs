@@ -49,7 +49,7 @@ The following table lists common identity providers, the protocol that can be us
 
 ## Migrate your website to a new identity provider
 
-If you're already using an existing identity provider, you may wish to migrate your website to use another identity provider. More information: Migrate identity providers.
+If you're already using an existing identity provider, you may wish to migrate your website to use another identity provider. More information: [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
 
 ## Open registration
 
@@ -59,16 +59,6 @@ Users can select an external identity from a list of identity providers during s
 
 With open registration enabled, users aren't required to provide an invitation code to complete the sign-up process.
 
-### Next steps
-
-Get started with configuring the authentication for your portal
-
 ### See also
 
-Configure the Azure AD B2C provider for portals 
-Configure an OAuth 2.0 provider for portals
-Configure an OpenID Connect provider for portals
-Configure a SAML 2.0 provider for portals
-Configure a WS-Federation provider for portals 
-Authentication and user management in Power Apps portals
-Get started with configuring your portal authentication
+
