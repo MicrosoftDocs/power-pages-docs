@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 05/24/2022
 ms.author: ndoelman
-ms.reviewer:
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
