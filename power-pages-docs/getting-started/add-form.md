@@ -132,7 +132,7 @@ To enable the code component:
 
 1. Select the field and choose **Edit field**.
 
-1. Select **Enable Power Apps Component Framework field**.
+1. Select **Enable custom component field**.
 
 1. Select **OK**.
 
