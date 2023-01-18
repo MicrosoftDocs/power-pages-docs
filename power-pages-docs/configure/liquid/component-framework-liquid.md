@@ -1,12 +1,12 @@
 ---
 title: Use Liquid template tag for code components
-description: Learn how to use the Liquid template tag for code components, and walk through a tutorial to configure Power Apps portals to add the component to a webpage.
+description: Learn how to use the Liquid template tag for code components, and walk through a tutorial to configure Power Pages to add the component to a webpage.
 author: GitanjaliSingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/02/2022
-ms.subservice: portals
+ms.date: 01/17/2023
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -16,17 +16,12 @@ contributors:
 
 # Liquid template tag for code components
 
-
-[!INCLUDE[cc-pages-ga-banner](../../includes/cc-pages-ga-banner.md)]
-
-[This article is pre-release documentation and is subject to change.]
-
-Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps. These code components can provide an enhanced experience for users working with data on forms, views, and dashboards. More information: [Use code components in portals](component-framework.md)
+Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps. These code components can provide an enhanced experience for users working with data on forms, views, and dashboards. More information: [Use code components in Power Pages](../component-framework.md)
 
 > [!IMPORTANT]
 > The Liquid template tag for code components requires portals version [9.3.10.x or later](/power-platform/released-versions/portals/portalupdate9310x).
 
-With this release, we've introduced the ability to add code components using a [Liquid template tag](liquid/template-tags.md#codecomponent) on webpages, and enabled components using Web API that are enabled for field-level components on forms in portals.
+With this release, we've introduced the ability to add code components using a [Liquid template tag](liquid/template-tags.md#codecomponent) on webpages, and enabled components using Web API that are enabled for field-level components on forms in Power Pages.
 
 Code components can be added using the `codecomponent` Liquid template tag. The key for denoting the code component that needs to be loaded is passed in using the `name` attribute. The key can be the GUID (which is the code component ID) or the name of the code component imported into Microsoft Dataverse.
 
@@ -45,25 +40,25 @@ For example, to add a code component expecting an input parameter named *control
 > [!TIP]
 > This example uses parameters called *controlvalue* and *controlApiKey*, however the component you use may require different parameter names.
 
-You can use the [sample map control](../../developer/component-framework/sample-controls/map-control.md) and [package the code component as a solution](../../developer/component-framework/implementing-controls-using-typescript.md#packaging-your-code-components) for use with portals.
+You can use the [sample map control](/power-apps/developer/component-framework/sample-controls/map-control) and [package the code component as a solution](/power-apps/developer/component-framework/implementing-controls-using-typescript#packaging-your-code-components) for use with Power Pages.
 
 > [!NOTE]
 > Resources created by the community are not supported by Microsoft. If you have questions or issues with community resources, contact the publisher of the resource. Before using these resources, you must ensure that they meet the Power Apps component framework guidelines and should only be used for reference purpose.
 
 ## Tutorial: Use code components on pages with Liquid template tag
 
-In this tutorial, you'll configure Power Apps portals to add the component to a webpage. You'll then visit the portals webpage and interact with the component.
+In this tutorial, you'll configure Power Pages to add the component to a webpage. You'll then visit the site webpage and interact with the component.
 
 ### Before you begin
 
-If you're using the sample code component used in this tutorial, ensure that you first import the sample solutions to the environment before you begin. To learn about solution import, go to [Import solutions](../data-platform/import-update-export-solutions.md).
+If you're using the sample code component used in this tutorial, ensure that you first import the sample solutions to the environment before you begin. To learn about solution import, go to [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions).
 
 ### Prerequisites
 
-For prerequisites, and to learn about supported/unsupported code components in portals, go to [Use code components in portals](component-framework.md).
+For prerequisites, and to learn about supported/unsupported code components in portals, go to [Use code components in Power Pages](../component-framework.md).
 
 > [!NOTE]
-> This tutorial uses a sample code component created using Power Apps component framework to demonstrate a map control on a webpage. You can also use any existing or new component of your own, and any other webpage for this tutorial. In this case, be sure to use your component and webpage when following the steps in this tutorial. For more information about how to create code components, go to [Create your first component](../../developer/component-framework/implementing-controls-using-typescript.md).
+> This tutorial uses a sample code component created using Power Apps component framework to demonstrate a map control on a webpage. You can also use any existing or new component of your own, and any other webpage for this tutorial. In this case, be sure to use your component and webpage when following the steps in this tutorial. For more information about how to create code components, go to [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript).
 
 ### Step 1. Add the code component to a webpage from Studio
 
