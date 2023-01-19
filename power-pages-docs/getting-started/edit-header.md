@@ -17,23 +17,23 @@ contributors:
 
 Makers can establish their site’s brand using the header. Using the **Edit Site Header** button, makers can update the following elements: 
 
-- Title + logo 
-- Site title  
-- Site logo and the corresponding alt text 
+- Site title 
+- Site logo
+- Site navigation
+
+## Edit the site title
+
+## Edit the site logo
+
+## Update site navigation
 
 Makers can choose to use the out of the box header or customize their header following the steps outlined here.  More information: [Considerations for editing the header](#considerations-for-editing-the-header)
 
-## Select a color palette
-
 ## Establish styling options for the header
 
+### Select a color palette
+
 ### Select a background color
-
-### Edit the site title
-
-### Edit the site logo
-
-### Update site navigation
 
 ## Considerations for editing the header
 
