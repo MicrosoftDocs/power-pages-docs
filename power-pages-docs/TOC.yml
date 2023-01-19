@@ -54,10 +54,12 @@
       items:
         - name: Create and design pages
           href: getting-started/first-page.md
-        - name: Edit header
-          href: getting-started/edit-header.md
         - name: Customize pages
-          href: getting-started/customize-pages.md
+          items: 
+          - name: Using the page editor
+            href: getting-started/customize-pages.md
+          - name: Edit header
+            href: getting-started/edit-header.md
         - name: Add components to pages
           items:
             - name: Add sections
