@@ -38,9 +38,9 @@ The Edit site header contains three underlying content snippets. For more inform
 
 |Content snippet         |Liquid syntax                        |
 |------------------------|-------------------------------------|
-|Site name               |`{{ snippets['Site name'] }}`        |
-|Logo URL                |`{{ snippets['Logo URL'] }}`         |
-|Logo alt text           |`{{ snippets['Logo alt text'] }}`    |
+|Site name               |```{{ snippets['Site name'] }}```        |
+|Logo URL                |```{{ snippets['Logo URL'] }}```         |
+|Logo alt text           |```{{ snippets['Logo alt text'] }}```   |
 
 When customizing the header, makers must also update the Liquid code in the content snippets so that changes are reflected in Pages studio. Changes will not reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:
 
