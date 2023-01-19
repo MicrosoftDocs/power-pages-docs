@@ -52,16 +52,14 @@
       href: getting-started/what-is-dataverse.md
     - name: Use Pages workspace
       items:
-        - name: Create and design pages
+        - name: Edit header
+          href: getting-started/edit-header.md
+        - name: Create a web page
           href: getting-started/first-page.md
-        - name: Customize pages
+        - name: Design web pages
           items: 
-          - name: Customize pages with page editor
+          - name: Edit web pages
             href: getting-started/customize-pages.md
-          - name: Modify page components
-            items: 
-            - name: Edit header
-              href: getting-started/edit-header.md
           - name: Add components to pages
             items:
               - name: Add sections
