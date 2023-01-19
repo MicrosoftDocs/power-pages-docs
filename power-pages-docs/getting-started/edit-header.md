@@ -19,7 +19,7 @@ Makers can establish their site’s brand using the header. By using the “Edit
 
 - Title + logo 
 - Site title  
-- Site logo and it’s corresponding alt text 
+- Site logo and its corresponding alt text 
 
 Out of the box structure vs. Customized header [same style that we used in Semantic slots] 
 
