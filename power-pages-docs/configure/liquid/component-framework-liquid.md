@@ -5,7 +5,7 @@ author: GitanjaliSingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/17/2023
+ms.date: 01/19/2023
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -55,38 +55,29 @@ If you're using the sample code component used in this tutorial, ensure that you
 
 ### Prerequisites
 
-For prerequisites, and to learn about supported/unsupported code components in portals, go to [Use code components in Power Pages](../component-framework.md).
+For prerequisites, and to learn about supported/unsupported code components in Power Pages, go to [Use code components in Power Pages](../component-framework.md).
 
 > [!NOTE]
 > This tutorial uses a sample code component created using Power Apps component framework to demonstrate a map control on a webpage. You can also use any existing or new component of your own, and any other webpage for this tutorial. In this case, be sure to use your component and webpage when following the steps in this tutorial. For more information about how to create code components, go to [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript).
 
 ### Step 1. Add the code component to a webpage from Studio
 
-1. Open your portal in [Power Apps portals Studio](portal-designer-anatomy.md).
+1. Open your site in the [Power Pages design studio](../../getting-started/first-page.md).
 
-1. On the top-left corner, select **New page**.
+1. Select the **Pages** workspace and select **+ Page**.
 
-1. Select **Blank**.
+1. Give the page a name. For example, *Map viewer*.
 
-1. On the right-side property pane, update the webpage name. For example, "Map Viewer."
+1. Select the **Start from blank** page layout.
 
-1. Update partial URL. For example, "mapviewer."
+1. Select the **Edit code** button to open Visual Studio Code for the Web.
 
-1. Expand **Permissions**.
-
-1. Disable **Page available to everyone.**
-
-1. Select the web roles that should be allowed access to this page.
-
-1. Select the editable area on page to edit the Liquid source code.
-
-1. Open studio **code editor**.
-
-1. Add control with Liquid template tag using the following syntax:
+1. Add control between the `<div></div>` with Liquid template tag using the following syntax:
 
     ```
-    {% codecomponent name:abc\_SampleNamespace.MapControl controlValue:'Space Needle' controlApiKey:<API Key Value> %}
+    {% codecomponent name:abc\_SampleNamespace.MapControl controlValue:'Space Needle' controlApiKey:'<API Key Value>' %}
     ```
+    :::image type="content" source="media\component-framework-liquid\vscode-liquid.png" alt-text="Added Liquid tag in VS Code.":::
 
     > [!TIP]
     > To retrieve the details of all imported components, and to search for a component name, refer to [CustomControl](../../developer/data-platform/reference/entities/customcontrol.md) Web API.
@@ -101,9 +92,11 @@ For prerequisites, and to learn about supported/unsupported code components in p
 
         `https://contoso.api.crm10.dynamics.com/api/data/v9.2/customcontrols?$filter=name eq 'ContosoCustomControlName' &$select=manifest`
 
-1. Save and close the code editor.
+1. Select **CTRL-S** on the keyboard to save the update code.
 
-1. On the top-right corner, select **Browse website**.
+1. Navigate back to the design studio and select **Sync** to update the webpage with the edits from Visual Studio Code.
+
+1. On the top-right corner, select **Preview** and **Desktop** to preview the site.
 
 1. The webpage will now show the control added on it.
 
@@ -113,11 +106,11 @@ For prerequisites, and to learn about supported/unsupported code components in p
 
 ### See also
 
-[Codecomponent Dataverse entity tag](liquid/portals-entity-tags.md#codecomponent) <br>
-[Codecomponent Template tag](liquid/template-tags.md#codecomponent) <br>
-[Power Apps component framework overview](../../developer/component-framework/overview.md) <br>
-[Create your first component](../../developer/component-framework/implementing-controls-using-typescript.md) <br>
-[Add code components to a column or table in model-driven apps](../../developer/component-framework/add-custom-controls-to-a-field-or-entity.md)<br>
-[Implement a sample portal Web API component](implement-webapi-component.md)
+- [Codecomponent Dataverse entity tag](dataverse-liquid-tags.md#codecomponent) 
+- [Codecomponent Template tag](template-tags.md#codecomponent) 
+- [Power Apps component framework overview](/power-apps/developer/component-framework/overview) 
+- [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript) 
+- [Add code components to a column or table in model-driven apps](/power-apps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
+- [Implement a sample portal Web API component](implement-webapi-component.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
