@@ -56,7 +56,7 @@
           href: getting-started/first-page.md
         - name: Customize pages
           items: 
-          - name: Using the page editor
+          - name: Customize pages with page editor
             href: getting-started/customize-pages.md
           - name: Modify page components
             items: 
