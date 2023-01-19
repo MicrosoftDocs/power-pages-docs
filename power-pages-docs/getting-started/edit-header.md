@@ -23,14 +23,17 @@ Makers can establish their site’s brand using the header. Using the **Edit Sit
 
 Makers can choose to use the out of the box header or customize their header following the steps outlined here.  More information: [Considerations for editing the header](#considerations-for-editing-the-header)
 
-## Styling the header
-<!-- steps or instructions?-->
+## Select a color palette
 
-1. Set the color palette for the site
-1. Establish styling options for the header  
-1. Background color 
-1. Title 
-1. Site navigation 
+## Establish styling options for the header
+
+### Select a background color
+
+### Edit the site title
+
+### Edit the site logo
+
+### Update site navigation
 
 ## Considerations for editing the header
 
@@ -42,11 +45,11 @@ The Edit site header contains three underlying content snippets. For more inform
 |Logo URL                |```{{ snippets['Logo URL'] }}```         |
 |Logo alt text           |```{{ snippets['Logo alt text'] }}```   |
 
-When customizing the header, makers must also update the Liquid code in the content snippets so that changes are reflected in Pages studio. Changes will not reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:
+When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:
 
 INSERT MESSAGE TEXT HERE
 
-For information on how to resolve this, see INSERT LINK HERE.
+For information on how to update the Liquid code and resolve this message, see INSERT LINK HERE.
 
 FOR KNOWN ISSUES:
 Sample solution to resolve the issue: 
