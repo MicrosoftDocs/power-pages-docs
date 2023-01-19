@@ -56,9 +56,9 @@
           href: getting-started/edit-header.md
         - name: Create a web page
           href: getting-started/first-page.md
-        - name: Design web pages
+        - name: Design pages
           items: 
-          - name: Edit web pages
+          - name: Edit pages
             href: getting-started/customize-pages.md
           - name: Add components to pages
             items:
