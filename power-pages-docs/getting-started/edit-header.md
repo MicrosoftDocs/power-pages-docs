@@ -15,80 +15,56 @@ contributors:
 
 # Edit header
 
-Makers can establish their site’s brand using the header. By using the “Edit site header” button, makers can modify/update the following elements: 
+Makers can establish their site’s brand using the header. Using the **Edit Site Header** button, makers can update the following elements: 
 
 - Title + logo 
 - Site title  
-- Site logo and its corresponding alt text 
+- Site logo and the corresponding alt text 
 
-Out of the box structure vs. Customized header [same style that we used in Semantic slots] 
+Makers can choose to use the out of the box header or customize their header following the steps outlined here.  More information: [Considerations for editing the header](#considerations-for-editing-the-header)
 
-Refer to the section “Considerations for editing the header” 
+## Styling the header
+<!-- steps or instructions?-->
 
-Styling 
+1. Set the color palette for the site
+1. Establish styling options for the header  
+1. Background color 
+1. Title 
+1. Site navigation 
 
-Set the color palette for the site [screenshot needs to be updated] 
+## Considerations for editing the header
 
-Establish styling options for the header  
+The Edit site header contains three underlying content snippets. For more information on content snippets, see INSERT LINK HERE.
 
-Background color 
+|Content snippet         |Liquid syntax                        |
+|------------------------|-------------------------------------|
+|Site name               |`{{ snippets['Site name'] }}`        |
+|Logo URL                |`{{ snippets['Logo URL'] }}`         |
+|Logo alt text           |`{{ snippets['Logo alt text'] }}`    |
 
-Title 
+When customizing the header, makers must also update the Liquid code in the content snippets so that changes are reflected in Pages studio. Changes will not reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:
 
-Site navigation 
+INSERT MESSAGE TEXT HERE
 
- 
+For information on how to resolve this, see INSERT LINK HERE.
 
-Layout (placeholder) 
-
-Note: [in the future more controls coming here – remove the screenshot] 
-
- 
-
- 
- 
-
-Considerations for editing the header (to be anchored) 
-
-Needs to be linked to from the CSS troubleshooting guide 
-
-The “Edit site header” feature works by setting up 3 underlying content snippets and plugging them into the “Mobile Header” content snippet. To verify functionality, look for the following content snippets: 
-
-Site name 
-
-Logo URL 
-
-Logo alt text 
-
-Out of the box structure vs. Customized header (anchor) 
-
- 
-
-If the header web template has been customized and Studio is not able to recognize the out of the box structure, a message is presented with instructions on how to resolve potential issues. Please note that changes made through the “Edit site header” modal will not reflect in the underlying canvas in real-time until the fix is applied. 
-
-[Note vs screenshot – to be removed] 
-
- 
-
+FOR KNOWN ISSUES:
 Sample solution to resolve the issue: 
 
 Open the Mobile Header in PMA (Portal Management App) (or the corresponding content snippet being used for the header) 
 
-Replace the HTML with 
+Update the source code with values for each 
 
-`
-<a href="~/">{% if snippets['Logo URL'] %}<img src="{{ snippets['Logo URL'] }}" alt="{{ snippets['Logo alt text'] }}" style="width: auto; height: 32px; margin: 0 10px;">{% endif %} 
-
-{% if snippets['Site name'] %}<h1 class="siteTitle">{{ snippets['Site name'] }}</h1>{% endif %}</a> 
-`
-
-The critical part is to leverage the 3 content snippets so that the “Edit site header” functionality is coordinated with the underlying structure 
-
-{{ snippets['Site name'] }} 
-
-{{ snippets['Logo URL'] }} 
-
-{{ snippets['Logo alt text'] }} 
+```html
+<a href="~/">
+    {% if snippets['Logo URL'] %}
+        <img src="{{ snippets['Logo URL'] }}" alt="{{ snippets['Logo alt text'] }}" style="width: auto; height: 32px; margin: 0 10px;">
+    {% endif %} 
+    {% if snippets['Site name'] %}
+        <h1 class="siteTitle">{{ snippets['Site name'] }}</h1>
+    {% endif %}
+</a> 
+```
 
 ### See also
 
