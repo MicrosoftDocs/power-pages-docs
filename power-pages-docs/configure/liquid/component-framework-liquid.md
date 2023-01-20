@@ -100,6 +100,9 @@ For prerequisites, and to learn about supported/unsupported code components in P
 
 1. The webpage will now show the control added on it.
 
+    :::image type="content" source="media/component-framework-liquid/component-on-webpage.png" alt-text="Map component on the webpage.":::
+
+
 ## Next steps
 
 [Overview: Use code components in portals](component-framework.md)
