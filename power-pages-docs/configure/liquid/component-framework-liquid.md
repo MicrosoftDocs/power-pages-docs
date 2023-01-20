@@ -5,7 +5,7 @@ author: GitanjaliSingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/19/2023
+ms.date: 01/20/2023
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -21,7 +21,7 @@ Power Apps component framework empowers professional developers and app makers t
 > [!IMPORTANT]
 > The Liquid template tag for code components requires portals version [9.3.10.x or later](/power-platform/released-versions/portals/portalupdate9310x).
 
-With this release, we've introduced the ability to add code components using a [Liquid template tag](liquid/template-tags.md#codecomponent) on webpages, and enabled components using Web API that are enabled for field-level components on forms in Power Pages.
+With this release, we've introduced the ability to add code components using a [Liquid template tag](template-tags.md#codecomponent) on webpages, and enabled components using Web API that are enabled for field-level components on forms in Power Pages.
 
 Code components can be added using the `codecomponent` Liquid template tag. The key for denoting the code component that needs to be loaded is passed in using the `name` attribute. The key can be the GUID (which is the code component ID) or the name of the code component imported into Microsoft Dataverse.
 
@@ -80,7 +80,7 @@ For prerequisites, and to learn about supported/unsupported code components in P
     :::image type="content" source="media\component-framework-liquid\vscode-liquid.png" alt-text="Added Liquid tag in VS Code.":::
 
     > [!TIP]
-    > To retrieve the details of all imported components, and to search for a component name, refer to [CustomControl](../../developer/data-platform/reference/entities/customcontrol.md) Web API.
+    > To retrieve the details of all imported components, and to search for a component name, refer to [CustomControl](/power-apps/developer/data-platform/reference/entities/customcontrol) Web API.
 
     For example:
 
@@ -105,7 +105,7 @@ For prerequisites, and to learn about supported/unsupported code components in P
 
 ## Next steps
 
-[Overview: Use code components in portals](component-framework.md)
+[Overview: Use code components in portals](../component-framework.md)
 
 ### See also
 
@@ -114,6 +114,6 @@ For prerequisites, and to learn about supported/unsupported code components in P
 - [Power Apps component framework overview](/power-apps/developer/component-framework/overview) 
 - [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript) 
 - [Add code components to a column or table in model-driven apps](/power-apps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
-- [Implement a sample portal Web API component](implement-webapi-component.md)
+- [Implement a sample portal Web API component](../implement-webapi-component.md)
 
 
