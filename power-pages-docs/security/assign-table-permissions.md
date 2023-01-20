@@ -4,7 +4,7 @@ description: Assign table permissions to web roles.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/24/2022
+ms.date: 1/20/2023
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
@@ -41,9 +41,8 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
 
 When the anonymous users web role is selected, your site's data is visible to anyone.  
 
-If your [site visibility](site-visibility.md) is set to **Public**, notifications will appear in the design studio and flags are displayed in the table permissions.
-
-:::image type="content" source="media/table-permissions/permissions-flag.png" alt-text="Tables with flag notifications indicating anonymous users can access site data.":::
+>[!TIP]
+> If your [site visibility](site-visibility.md) is set to Public, an icon will appear next to the name field in design studio and the following message will display: *The data displayed in your site can be seen by anyone.  If that's not what you want, change or eliminate the "Anonymous" role in your table permissions.*  
 
 To restrict access to your site's data, follow the steps to assign table permissions and remove the checkmark next to the **Anonymous users** web role. 
 
