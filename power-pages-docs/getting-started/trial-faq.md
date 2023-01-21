@@ -29,7 +29,7 @@ After you've applied for the license to your tenant, you can publish your enviro
 
 ## What are the trial limits and quotas?
 
-The following limitations apply for the trial:
+The following limitations apply to the trial:
 - The trial environment is available to you for 30 days. After that, you can request an extension for another 30 days.
 - A Power Pages site is always created as a trial. A trial site, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it's suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
 - If your trial site is created in a trial environment, your trial site will only be available until your trial environment is available. If your environment expires before the trial site expires, you'll lose access to your trial site. 
@@ -70,7 +70,7 @@ Your trial includes a trial environment. You can create secure, scalable busines
 
 ## Can I create a trial site inside my existing environments?
 
-If you already have [necessary privileges](/power-apps/maker/portals/admin/portal-admin-roles) to create or edit a site in an environment, you can create a trial site inside of the existing environments too. 
+If you already have [the necessary privileges](/power-apps/maker/portals/admin/portal-admin-roles) to create or edit a site in an environment, you can create a trial site inside of the existing environments too. 
 
 ## How long does the trial last?
 
@@ -78,7 +78,7 @@ The Power Pages trial lasts 30 days. You can [convert the trial site](/power-app
 
 ## Will I have to use this experience every time I come to Power Pages? 
 
-The sign-up experience is a one-time experience to get you started with Power Pages. After you create a site successfully the first time, in your next visit you'll be redirected to the Power Pages home page. You can continue to create a new trial site as needed from the home page by using **Create a Site**. 
+The sign-up experience is a one-time experience to get you started with Power Pages. After you create a site successfully the first time, on your next visit, you'll be redirected to the Power Pages home page. You can continue to create a new trial site as needed from the home page by using **Create a Site**. 
 
 ## Can I edit an existing site by using the new Power Pages experience?
 
