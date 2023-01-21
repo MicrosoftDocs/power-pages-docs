@@ -58,7 +58,7 @@ Read more:
 
 ## Security and governance
 
-Power Pages inbuilt security is its core. It allows organizations to securely enable access of their business data to their users (internal or external) through Power Pages authorization rules. More information: [Power Pages security](security/power-pages-security.md)
+Power Pages' inbuilt security is its core. It allows organizations to securely enable access of their business data to their users (internal or external) through Power Pages authorization rules. More information: [Power Pages security](security/power-pages-security.md)
 
 - Organizations using Power Pages can choose from various authentication providers or allow access to site content anonymously. More information: [Configure authentication](security/configure-portal-authentication.md)
 
