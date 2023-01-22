@@ -15,7 +15,7 @@ contributors:
 
 # Plan your Power Pages project
 
-This article serves as guidance for enterprise teams working on projects and may go beyond the scope of a maker creating a site for a specific business need. Creating a plan with clear outcomes and expectations is always good practice regardless of the size of your project.
+This article serves as guidance for enterprise teams working on projects and may go beyond the scope of a maker creating a site for a specific business need. Creating a plan with clear outcomes and expectations is always good practice, regardless of the size of your project.
 
 > [!NOTE]
 > Power Pages is built on a foundation of Power Apps portals. Many of the tools and methods used to configure Power Pages utilize the functionality of Power Apps portals. For more information, see [Introduction: Planning a Power Apps project](/power-apps/guidance/planning/introduction).
@@ -46,13 +46,13 @@ Any authenticated user on your site is tied to a contact record in Dataverse. Re
 
 ## Access 
 
-Many sites today include a sign- in or register experience where users either create a new sign-in profile or use an existing sign-in to access site pages.  These sign-in credentials could be tied to their social accounts or their corporate credentials.  These credentials are examples of Identity Providers(IdP). Power Pages works with many industry standard Identity Providers. 
+Many sites today include a sign-in or register experience where users either create a new sign-in profile or use an existing sign-in to access site pages.  These sign-in credentials could be tied to their social accounts or their corporate credentials.  These credentials are examples of Identity Providers(IdP). Power Pages works with many industry standard Identity Providers. 
 
 Power Pages utilizes the Power Apps portals capabilities for authentication. View the full list here: [Overview of authentication in Power Apps portals](/power-apps/maker/portals/configure/configure-portal-authentication) in the Power Apps portals documentation.
 
 ### Internal users
 
-Users within your organization should use **Azure Active Directory (Azure AD)**. Using Azure AD provides a seamless sign-in experience via use of an active session.  Using Azure AD also aids in site security.  When a user leaves the organization, their Azure AD account is disabled and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Azure AD pre-configured.
+Users within your organization should use **Azure Active Directory (Azure AD)**. Using Azure AD provides a seamless sign-in experience via the use of an active session.  Using Azure AD also aids in site security.  When a user leaves the organization, their Azure AD account is disabled, and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Azure AD pre-configured.
 
 > [!TIP] 
 > Rename the login button from Azure AD to something more friendly like "Contoso Employees" or "Contoso Work Account". Create a Site Setting named "Authentication/OpenIdConnect/AzureAD/Caption" and specify the value you wish to display. Use the [Portal Management app](portal-management-app.md) to create and modify **Site Settings**.
@@ -77,13 +77,13 @@ You can protect any page and data on your site. For more information, see [Power
 You can set table permissions to configure web roles for authenticated and unauthenticated audiences. For more information, see [Assign table permissions](../security/assign-table-permissions.md).
 
 > [!NOTE]
-> Consider other scope types before using global scope for table permissions.
+> Consider other scope types before using the global scope for table permissions.
 
 You can allow open registration or use identity providers to validate email addresses. For more information, see [Provide access to external audiences](../security/external-access.md).
 
 ## Data modeling
 
-The [data workspace](../getting-started/use-data-workspace.md) allows you create tables, views and forms which are used to create pages with list and form components that allow users to interact directly with data stored in Microsoft Dataverse. You will need to configure the appropriate table permissions for users to be able to interact with the data. 
+The [data workspace](../getting-started/use-data-workspace.md) allows you to create tables, views and forms, which are used to create pages with list and form components that allow users to interact directly with data stored in Microsoft Dataverse. You will need to configure the appropriate table permissions for users to be able to interact with the data. 
 
 ### Anonymous users data design
 
@@ -97,11 +97,11 @@ Authenticated users on your site are represented by a corresponding contact reco
 
 ### Separate development from production
 
-While Power Pages offers the ability to install more than one site in each environment, we recommend creating a separate environment from production to create and test new features. For more information, see [Go live checklist](../go-live/checklist.md).
+While Power Pages offers the ability to install more than one site in each environment, we recommend creating a separate environment from production to create and test new features. For more information, see the [Go live checklist](../go-live/checklist.md).
 
 ### Conduct user testing
 
-We strongly recommend creating a stable test site for internal stakeholders and early external testers.  A test site will allow you to fine tune your development efforts.  
+We strongly recommend creating a stable test site for internal stakeholders and early external testers.  A test site will allow you to fine-tune your development efforts.  
 
 ### Secure a custom domain
 
