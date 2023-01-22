@@ -19,7 +19,7 @@ When you [create a new Power Pages site](../getting-started/create-manage.md), 
 
 ## Site design templates
 
-The **site design** templates provide building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
+The **site design** templates provide building blocks for you to create custom sites. There are multiple variations of this template, each with a different layout, images, and colors that can be used as-is or customized to meet your needs.
 
 More information: [Site design templates](site-design.md)
 
@@ -37,7 +37,7 @@ More information: [Schedule meetings with a financial institution template](boo
 
 ## Building permit application template
 
-The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their application.
+The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their applications.
 
 More information: [Building permit application template](building-permit.md)
 
