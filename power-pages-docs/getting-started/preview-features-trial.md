@@ -24,4 +24,4 @@ The following preview feature will be automatically enabled in your trial app wh
 
 ## Visual Studio Code for Web to edit Power Pages websites
 
-We’ll remove the current inline code editing experience and replace it with [Visual Studio Code for Web](https://code.visualstudio.com/docs/editor/vscode-web). Developers will be able to open code in Visual Studio Code for the Web and make changes with zero footprint experience for editing page code. This feature will also enable paging&mdash;making changes to pages, custom CSS, inline content snippet, header and footer template through a code editing experience.
+We’ll remove the current inline code editing experience and replace it with [Visual Studio Code for Web](https://code.visualstudio.com/docs/editor/vscode-web). Developers will be able to open code in Visual Studio Code for the Web and make changes with zero footprint experience for editing page code. This feature will also enable paging&mdash;making changes to pages, custom CSS, inline content snippets, header and footer templates through a code editing experience.
