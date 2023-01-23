@@ -50,13 +50,14 @@ After a text control is added, selecting the text control will open the properti
 
 1. Select the text you'd like to link.
 1. Choose the link button from the Text Component toolbar.
+    :::image type="content" source="media/add-text/link-icon.png" alt-text="The add text menu options with the Link icon emphasized.":::
 1. Fill out the fields.
 
     |Field    |Description  |
     |---------|---------|
-    |Display name    |The text to display. The selected text is populated by default.         |
-    |Destination    |Link to URL - provide a URL.< br/>Link to a page - select a page within the site.         |
-    |Link style    |Override the global link styles (set in the Styling workspace) for a specific link.  By default, the link style matches the styles of the surrounding Text Component.         |
+    |Display Text    |The text to display. The selected text is populated by default.         |
+    |Destination    |Link to a URL - provide a URL. <br /> Link to a page - select a page within the site.         |
+    |Link Style    |Overrides the global link styles (set in the Styling workspace) for a specific link.  By default, the link style matches the styles of the surrounding Text Component.         |
 
 To edit an existing link, select the link and choose **Edit Link**.
 
