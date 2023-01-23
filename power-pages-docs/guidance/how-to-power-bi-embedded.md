@@ -1,15 +1,15 @@
 ﻿---
 title: "How to: Embed Power BI in Power Pages"
 description: Learn how to embed a Power BI report in Power Pages.
-author: nickdoelman
+author: skyshon
 ms.topic: guidance
 ms.custom: 
 ms.date: 01/23/2023
-ms.author: ndoelman
+ms.author: skylar.shonblom
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
-    - ProfessorKendrick
+    - skyshon
 ---
 
 # Embed a Power BI report in Power Pages
@@ -180,6 +180,8 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
     :::image type="content" source="media/powerbiembedded/class_report.png" alt-text="Class report on webpage.":::
 
+## Summary
+
 You've embedded a Power BI report or dashboard that uses row-level security into your Power Pages website!
 
-The filter pane will appear by default. Hiding this requires JavaScript. Steps to do this are documented here: 
+The filter pane will appear by default. Hiding this requires JavaScript. Steps to do this are documented here: [Add a Power BI report or dashboard to a webpage in a portal](/power-apps/maker/portals/admin/add-powerbi-report).
