@@ -44,8 +44,6 @@
       href: getting-started/community.md
     - name: Plan your Power Pages project
       href: configure/planning-power-pages-project.md
-    - name: System requirements, limits, and configuration
-      href: system-requirements.md  
 - name: Design and build
   items:
     - name: Design and build overview
@@ -212,6 +210,8 @@
       href: getting-started/tutorial-add-custom-page-layout.md
 - name: Training videos
   href: training-videos/index.md
+- name: System requirements, limits, and configuration
+  href: system-requirements.md  
 - name: Known issues
   href: known-issues.md
 - name: Important changes and deprecations
