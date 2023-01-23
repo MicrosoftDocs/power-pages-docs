@@ -4,7 +4,7 @@ description: Learn how to add text to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 1/23/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: kkendrick
@@ -42,5 +42,21 @@ After a text control is added, selecting the text control will open the properti
 | Style | Choose the following text styles for the text box:<br /><br />Title<br />Heading 1<br />Heading 2<br />Heading 3<br />Subheading 1<br />Subheading 2<br />Paragraph<br />Small text<br /> |
 | Format | Style the selected text as **bold**, *italics*, or <u>underlined</u>. |
 | Alignment | Align the text in the component. |
+| Hyperlink | Link selected text to a URL or a page within the same site. |
 | Color | Select the text color based on the defined color palette. |
 | Others | Choose an option to duplicate the section, move it up or down within the page, or delete the text component entirely. |
+
+## Create a link within a Text Component
+
+1. Select the text you'd like to link.
+1. Choose the link button from the Text Component toolbar.
+1. Fill out the fields.
+    |Field    |Description  |
+    |---------|---------|
+    |Display name    |The text to display. The selected text is populated by default.         |
+    |Destination    |Link to URL - provide a URL.< br/>Link to a page - select a page within the site.         |
+    |Link style    |Override the global link styles (set in the Styling workspace) for a specific link.  By default, the link style matches the styles of the surrounding Text Component.         |
+
+To edit an existing link, select the link and choose **Edit Link**.
+
+To remove an existing link, select the link and choose **Remove Link**.
