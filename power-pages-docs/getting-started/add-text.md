@@ -51,6 +51,7 @@ After a text control is added, selecting the text control will open the properti
 1. Select the text you'd like to link.
 1. Choose the link button from the Text Component toolbar.
 1. Fill out the fields.
+
     |Field    |Description  |
     |---------|---------|
     |Display name    |The text to display. The selected text is populated by default.         |
