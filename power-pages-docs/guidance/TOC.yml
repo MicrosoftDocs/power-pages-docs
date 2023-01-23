@@ -9,3 +9,7 @@
           href: white-papers/architecture.md
         - name: Security white paper
           href: white-papers/security.md
+    - name: Power BI
+      items: 
+        - name: "How to: Row level security in Power BI on Power Pages"
+          href: how-to-power-bi-embedded.md       
