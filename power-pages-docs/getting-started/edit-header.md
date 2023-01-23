@@ -4,7 +4,7 @@ description: Learn how to customize the header for your Power Pages site.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/19/2023
+ms.date: 1/23/2023
 ms.subservice:
 ms.author: clromano 
 ms.reviewer: kkendrick
@@ -45,29 +45,8 @@ The Edit site header contains three underlying content snippets. For more inform
 |Logo URL                |```{{ snippets['Logo URL'] }}```         |
 |Logo alt text           |```{{ snippets['Logo alt text'] }}```   |
 
-When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:
-
-INSERT MESSAGE TEXT HERE
-
-For information on how to update the Liquid code and resolve this message, see INSERT LINK HERE.
-
-FOR KNOWN ISSUES:
-Sample solution to resolve the issue: 
-
-Open the Mobile Header in PMA (Portal Management App) (or the corresponding content snippet being used for the header) 
-
-Update the source code with values for each 
-
-```html
-<a href="~/">
-    {% if snippets['Logo URL'] %}
-        <img src="{{ snippets['Logo URL'] }}" alt="{{ snippets['Logo alt text'] }}" style="width: auto; height: 32px; margin: 0 10px;">
-    {% endif %} 
-    {% if snippets['Site name'] %}
-        <h1 class="siteTitle">{{ snippets['Site name'] }}</h1>
-    {% endif %}
-</a> 
-```
+>[!NOTE]
+>When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:<br />INSERT MESSAGE TEXT HERE<br />For information on how to update the Liquid code and resolve this issue, see [Modifying the header in Portal Management App](../known-issues.md#modifying-the-header-in-portal-management-app).
 
 ### See also
 

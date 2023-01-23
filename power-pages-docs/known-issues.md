@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/17/2022
+ms.date: 1/23/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -33,6 +33,21 @@ contributors:
 - You can't add a deleted header logo or text in the new design studio.  If you need to delete these items, you'll need to do so using Power Apps portals Studio. Use the toggle in the command bar to return to Power Apps portals Studio, and use the code editor to add the text or logo.
 
 - The code editor doesn't support editing header or footer code.
+
+### Modifying the header in Portal Management App
+
+When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. To resolve this issue, open the Mobile Header in the [Portal Management app overview](configure/portal-management-app.md) and update the source code with the correct attribute values for each snippet as in the example below.
+
+```html
+<a href="~/">
+    {% if snippets['Logo URL'] %}
+        <img src="{{ snippets['Logo URL'] }}" alt="{{ snippets['Logo alt text'] }}" style="width: auto; height: 32px; margin: 0 10px;">
+    {% endif %} 
+    {% if snippets['Site name'] %}
+        <h1 class="siteTitle">{{ snippets['Site name'] }}</h1>
+    {% endif %}
+</a> 
+```
 
 ## Style workspace
 
@@ -78,4 +93,4 @@ Makers can adjust the background color in the Style workspace by modifying a the
 
 ## Site visibility
 
-A Power Pages website in private mode will not work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
