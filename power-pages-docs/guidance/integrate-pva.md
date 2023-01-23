@@ -48,7 +48,7 @@ The following steps will show you how to embed the chatbot code on a webpage.
 
 1. Go to [Power Pages](https://aka.ms/mpp).
 
-1. Select Edit on the site you want to add a page. If you don't have a site, [create a site](../getting-started/create-manage.md) before continuing.
+1. Select **Edit** on the site you want to add a page. If you don't have a site, [create a site](../getting-started/create-manage.md) before continuing.
 
 1. Locate or create a webpage where you want to host the chatbot.
 
