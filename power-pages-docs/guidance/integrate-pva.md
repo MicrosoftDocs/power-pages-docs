@@ -21,8 +21,8 @@ The following steps provide an alternative method to embed a Power Virtual Agent
 
 ## Prerequisites
 
-- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
-- A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- A Power Pages subscription or trial. [Get a Power Pages trial here](../getting-started/trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](../getting-started/create-manage.md).
 - A Power Virtual Agents subscription or trial. [Sign up for a Power Virtual Agents trial](/power-virtual-agents/sign-up-individual).
 - A Power Virtual Agents chatbot. [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot).
 
