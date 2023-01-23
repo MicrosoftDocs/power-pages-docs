@@ -37,7 +37,7 @@ Makers can choose to use the out of the box header or customize their header fol
 
 ## Considerations for editing the header
 
-The Edit site header contains three underlying content snippets. For more information on content snippets, see INSERT LINK HERE.
+The Edit site header contains three underlying content snippets which leverage [Liquid](../configure/liquid-overview.md). For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
 
 |Content snippet         |Liquid syntax                        |
 |------------------------|-------------------------------------|
