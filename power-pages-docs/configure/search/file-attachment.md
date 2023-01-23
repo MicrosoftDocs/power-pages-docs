@@ -1,12 +1,12 @@
 ---
 title: Search within file attachment content
-description: Learn how to configure your portal to search within file attachment content in a portal.
+description: Learn how to configure your Power Pages site to search within file attachment content.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2022
-ms.subservice: portals
+ms.date: 1/23/2023
+ms.subservice:
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -16,11 +16,9 @@ contributors:
 
 # Search within file attachment content
 
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
 You can use the notes attachment to include downloadable files in knowledge base articles. You can also use web files to create an FAQ page with downloadable content.
 
-You can configure your portal to allow portal users to search within the attachment content of  knowledge base articles. This helps users to find the information that they're looking for.
+You can configure your Power Pages site to allow portal users to search within the attachment content of  knowledge base articles. This helps users to find the information that they're looking for.
 
 In knowledge base articles, any notes attachment with the defined prefix is indexed. In web files, the latest notes attachment is indexed.
 
@@ -37,26 +35,24 @@ To index the attachments, you must create the following site settings and set th
 
 When you search for a term, the search results also include attachments. If the search term matches a notes attachment, the link to the corresponding knowledge base article is also provided. To see downloadable attachments, select **Downloads** under **Record Type** in the left pane. To modify the **Downloads** label, edit the Search/Facet/Downloads content snippet. By default, the value is set to **Downloads**.
 
-![Download attachment.](../media/search-attachment-content.png "Download attachment") 
-
 > [!NOTE]
 > [Dataverse search](/power-platform/admin/configure-relevance-search-organization) must be enabled in your environment to use this functionality.
 
-### Search through knowledge article attachments on the portal
+### Search through knowledge article attachments
 
-If your site uses Lucene .NET [search](search.md), you can enable the portal to search through knowledge article attachments by setting the **Sync knowledge article attachments to portal** option to **Yes** in the Dynamics 365 Customer Service admin center or Customer Service Hub app. You don't need to configure this option if your site is using Dataverse search, you'll be able to search through knowledge article attachments by default.
+If your site uses Lucene .NET [search](overview.md), you can enable the portal to search through knowledge article attachments by setting the **Sync knowledge article attachments to site** option to **Yes** in the Dynamics 365 Customer Service admin center or Customer Service Hub app. You don't need to configure this option if your site is using Dataverse search, you'll be able to search through knowledge article attachments by default.
 
-This allows search to look through knowledge article attachments and make information easily accessible to knowledge consumers. With this attachment capability, you won’t need to use the notes attachments for the portal. Knowledge article attachments will automatically be synced to the notes attachment. More information: [Update knowledge article attachments for portal](/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article?tabs=customerserviceadmincenter#update-knowledge-article-attachments-for-portal)
+This allows search to look through knowledge article attachments and make information easily accessible to knowledge consumers. With this attachment capability, you won’t need to use the notes attachments for the site. Knowledge article attachments will automatically be synced to the notes attachment. More information: [Update knowledge article attachments for portal](/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article?tabs=customerserviceadmincenter#update-knowledge-article-attachments-for-portal)
 
-## Update portal configurations
+## Update site configurations
 
-If you already have a portal before April 2018 and you've upgraded your portal to the latest version, you must use the following configurations to have the same user experience as a new portal installation.
+If you already have a portal before April 2018 and you've upgraded your site to the latest version, you must use the following configurations to have the same user experience as a new installation.
 
-**Content Snippets**
+### Content Snippets
 
 To modify the label displayed in the search results for annotation and web file downloads, create a content snippet Search/Facet/Downloads, and then set its value as required. The default value is **Downloads**.
 
-**Web Files**
+### Web Files
 
 The content of file attachments associated with web files can now be indexed. You can update existing web files for CSS files and image files (for example, bootstrap.min.css, theme.css, and homehero.jpg) to be excluded from search. 
 
