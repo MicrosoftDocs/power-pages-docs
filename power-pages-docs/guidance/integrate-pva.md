@@ -15,9 +15,9 @@ contributors:
 
 # How to: Embed a chatbot on a webpage
 
-The Power Pages design studio does not have the ability to directly add a chatbot component to a webpage. You can [add a chatbot](/power-apps/maker/portals/add-chatbot) using the legacy portal Studio for websites created in Power Apps. 
+The Power Pages design studio does not have the ability to directly add a chatbot component to a webpage. 
 
-The following steps provide an alternative method to embed a Power Virtual Agent chatbot on a Power Pages webpage.
+While you can [add a chatbot](/power-apps/maker/portals/add-chatbot) using the legacy portal Studio for websites created in Power Apps, the following steps provide an alternative method to embed a Power Virtual Agent chatbot on a Power Pages webpage.
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ In the following steps we will get the chatbot embed code that we will use to em
 
 1. In the **Channels** section, select **Custom website**.
 
-1. In the slide-out panel in the **Default embed code** section, select and copy the code in the `<iframe></iframe>' HTML tags.
+1. In the slide-out panel in the **Default embed code** section, select and copy the code in the `<iframe></iframe>` HTML tags.
 
     :::image type="content" source="media/pva/embedcode.png" alt-text="Copying the embed code.":::
 
