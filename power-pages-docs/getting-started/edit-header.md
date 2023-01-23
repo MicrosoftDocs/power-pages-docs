@@ -15,29 +15,13 @@ contributors:
 
 # Edit header
 
-Makers can establish their site’s brand using the header. Using the **Edit Site Header** button, makers can update the following elements: 
+Makers can establish their site’s brand using the out of the box header or modifying the site's header as they prefer. Using the **Edit Site Header** button, makers can update the following elements: 
 
-- Site title 
-- Site logo
-- Site navigation
+- [Site title](#edit-the-site-title) 
+- [Site logo](#edit-the-site-logo)
+- [Site navigation](#update-site-navigation)
 
-## Edit the site title
-
-## Edit the site logo
-
-## Update site navigation
-
-Makers can choose to use the out of the box header or customize their header following the steps outlined here.  More information: [Considerations for editing the header](#considerations-for-editing-the-header)
-
-## Establish styling options for the header
-
-### Select a color palette
-
-### Select a background color
-
-## Considerations for editing the header
-
-The Edit site header contains three underlying content snippets which leverage [Liquid](../configure/liquid-overview.md). For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
+The header contains three underlying content snippets, which use [Liquid](../configure/liquid-overview.md). 
 
 |Content snippet         |Liquid syntax                        |
 |------------------------|-------------------------------------|
@@ -45,8 +29,22 @@ The Edit site header contains three underlying content snippets which leverage [
 |Logo URL                |```{{ snippets['Logo URL'] }}```         |
 |Logo alt text           |```{{ snippets['Logo alt text'] }}```   |
 
+For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
+
 >[!NOTE]
 >When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:<br />INSERT MESSAGE TEXT HERE<br />For information on how to update the Liquid code and resolve this issue, see [Modifying the header in Portal Management App](../known-issues.md#modifying-the-header-in-portal-management-app).
+
+## Edit the site title
+
+## Edit the site logo
+
+## Update site navigation
+
+## Style the header
+
+### Select a color palette
+
+### Select a background color
 
 ### See also
 
