@@ -6,6 +6,7 @@ author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/09/2023
+ms.service: power-platform
 ms.subservice: power-pages
 ms.author: nabha
 ms.reviewer: ndoelman
@@ -80,7 +81,7 @@ Now, when a user signs in, they'll be redirected to the page you specified in th
 ### See also
 
 [Create a custom page template to render an RSS feed](render-rss-custom-page-template.md)  
-[Render the list associated with the current page](render-entity-list-current-page.md)  
+[Render the list associated with the current page](render-list-current-page.md)  
 [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 [Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierachy.md)  
 

@@ -6,7 +6,8 @@ author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/09/2023
-ms.subservice: 
+ms.service: power-platform
+ms.subservice: power-pages
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -721,7 +722,7 @@ The values of the properties that the code component expects needs to be passed 
 > [!NOTE]
 > The properties required might be different depending on the component you choose.
 
-See [Use code components Liquid template tag](../component-framework-liquid.md).
+See [Use code components Liquid template tag](component-framework-liquid.md).
 
 ### See also
 
