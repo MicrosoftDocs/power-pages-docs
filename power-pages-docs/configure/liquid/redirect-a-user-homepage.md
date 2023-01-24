@@ -6,7 +6,6 @@ author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/09/2023
-ms.service:
 ms.subservice:
 ms.author: nabha
 ms.reviewer: ndoelman
