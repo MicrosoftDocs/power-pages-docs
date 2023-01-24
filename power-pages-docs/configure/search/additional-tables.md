@@ -48,13 +48,13 @@ The site setting **Search/EnableAdditionalEntities** is required when configurin
 > [!IMPORTANT]
 > **Search/EnableAdditionalEntities** is explicitly for enabling search for additional tables. The main search site setting **Search/Enabled** must be set to **true** when using search functionality.
 
-You can also configure other related site settings similar to the search configuration for default tables. For example, you can use the **Search/Filters** setting to configure additional tables and add a drop-down filter option to the global search. More information: [Site setting](search.md#related-site-settings).
+You can also configure other related site settings similar to the search configuration for default tables. For example, you can use the **Search/Filters** setting to configure additional tables and add a drop-down filter option to the global search. More information: [Related site settings](overview.md#related-site-settings)
 
 ### Site marker for record details page
 
 The record details page is configured using a **Site Marker** named `<entitylogicalname>_SearchResultPage`.
 
-For example, if your table logical name is *nwind_products*, the site marker will be `nwind_products_SearchResultPage`. The value of the site marker is the record details page that you want to open when that search result is selected. By default, a record ID is passed in the *id* querystring parameter to the record details page. For more information about adding forms on a page, go to [Compose a page](../add-form.md).
+For example, if your table logical name is *nwind_products*, the site marker will be `nwind_products_SearchResultPage`. The value of the site marker is the record details page that you want to open when that search result is selected. By default, a record ID is passed in the *id* querystring parameter to the record details page. For more information about adding forms on a page, go to [Add a form](../../getting-started/add-form.md).
 
 > [!IMPORTANT]
 > Ensure that your record details page has a basic form, or has logic written to show the search result details. For example, [Step 4 - Add record details page](#step-4-add-record-details-webpage) in the following walkthrough.
@@ -154,8 +154,6 @@ The following walkthrough explains each step in detail with a sample database an
 
     - **Name:** **nwind_products_SearchResultPage**
     - **Page:** **Order Products**
-    
-    ![New site marker.](media/search-additional-entities/new-site-marker.png "New site marker")
 
 ## Step 6: Rebuild the search index
 
@@ -163,11 +161,9 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Append the URL in the address bar with **/_services/about**, and then select **Enter**.
 
-   ![_services_about page.](media/search-additional-entities/services-about.png "_services_about page")
-
 1. Select [Clear cache](../admin/clear-server-side-cache.md).
 
-1. After clearing the cache, select [Rebuild search index](search.md#rebuild-full-search-index).
+1. After clearing the cache, select [Update search index](overview.md#update-search-index)
 
 ## Step 7: Verify that global search works with the custom table
 
