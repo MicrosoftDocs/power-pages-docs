@@ -163,7 +163,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Select [Clear cache](../admin/clear-server-side-cache.md).
 
-1. After clearing the cache, select [Update search index](overview.md#update-search-index)
+1. After clearing the cache, select [Rebuild search index](search.md#rebuild-full-search-index).
 
 ## Step 7: Verify that global search works with the custom table
 

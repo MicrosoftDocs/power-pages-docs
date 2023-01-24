@@ -65,8 +65,5 @@ Selecting another page, such as page 2, shows the count updated to the total num
 
 ### See also
 
-[Use faceted search](improve-portal-search-faceted-search.md) <br />
-[Configure search for additional tables](search-additional-entities.md)
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-
+[Faceted Search](faceted.md) <br />
+[Configuring additional tables for global search](additional-tables.md)
