@@ -1,6 +1,6 @@
 ---
 title: Search
-description: "Learn how global search works in a portal."
+description: Learn how search works in Power Pages
 author: sandhangitmsft
 
 ms.topic: conceptual
@@ -17,14 +17,9 @@ contributors:
 
 # Search
 
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-In Power Apps portals, you can search for records across multiple tables by using portal's global search functionality. You can also search within records of lists using list search functionality.
+In Power Pages, you can search for records across multiple tables by using Power Pages' global search functionality. You can also search within records of lists using list search functionality.
 
 List search functionality in the portal uses FetchXML in the backend to search the columns defined in the list and then display the results.
-
-> [!NOTE] 
-> You can also search in Power Pages. More information: [What is Power Pages](/power-pages/introduction)
 
 >[!IMPORTANT]
 > Starting with website version 9.4.4.xx, portal search uses Dataverse search to deliver results from multiple tables and fields for new portals. Lucene .NET search is deprecated; however, existing portals use Lucene .NET search will not be affected. We recommend that users migrate to Dataverse search. Enable Dataverse search for existing portal by using site setting Search/EnableDataverseSearch to true.
@@ -33,7 +28,7 @@ List search functionality in the portal uses FetchXML in the backend to search t
 
 ## Pre-requisite
 
-Portal search needs Dataverse search feature to be enabled at Dataverse environment
+Power Pages search needs Dataverse search feature to be enabled at Dataverse environment
 
 To enable Dataverse search:
 
@@ -77,7 +72,7 @@ Provides intelligent search by applying AI technology to interpret natural langu
 
 By default, the following tables can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Search view, which can be customized.  Each table in the list has its default set of attributes indexed as listed here:
 - Knowledge Article
-    - Notes and attachment of a knowledge article are searchable as well. More information: [Search within file attachment content](search-file-attachment.md)
+    - Notes and attachment of a knowledge article are searchable as well. More information: [Search within file attachment content](file-attachment.md)
     - Articles are searchable only if they're published and their Internal Only field is set to false.
 - Blog 
 - Blog Post 
@@ -89,13 +84,12 @@ By default, the following tables can be searched within a portal website provide
 - Idea Comment 
 - Idea Forum 
 - Web File 
-    - Attachment content of web files is searchable as well. More information: [Search within file attachment content](search-file-attachment.md)
+    - Attachment content of web files is searchable as well. More information: [Search within file attachment content](file-attachment.md)
 - Web Page 
 - Incident 
 
 > [!NOTE]
-> You can configure additional tables for search. For more information, read [configuring additional tables for search](search-additional-entities.md). <br />
-> To get better search performance enable “Portal Search” view for only required tables and columns.
+> You can configure additional tables for search. For more information, read [Walk-through: Configuring additional tables for global search](additional-tables.md) <br />
 
 ## Columns searchable in global search
 
@@ -108,7 +102,7 @@ The first column in the "Portal Search" view will show as the title of search re
 If the view isn't available for any table, it's not indexed, and the results aren't displayed in global search.
 
 > [!NOTE]
-> If you change the value of the Search/IndexQueryName site setting, you need to trigger a manual re-index of the build using steps defined in the [Rebuild full search index](#rebuild-full-search-index) section.
+> If you change the value of the Search/IndexQueryName site setting, you need to trigger a manual re-index of the build using steps defined in the  [Rebuild the search index](additional-tables.md#step-6-rebuild-the-search-index)section.
 
 ## Related site settings
 
@@ -233,7 +227,7 @@ Search index updates in Power Apps portals happen automatically like the cache i
 
 - Any change can take up to 30 minutes to be reflected in a portal search. However, 95 percent of the changes will be updated within 15 minutes. If attachments are involved, it can take longer depending on the size of the attachment.
 
-- it's advisable to rebuild the full index manually after performing a bulk data migration or bulk updates to records within a short span of time. For details, see [Rebuild full search index](#rebuild-full-search-index).
+- it's advisable to rebuild the full index manually after performing a bulk data migration or bulk updates to records within a short span of time. For details, see [Rebuild the search index](additional-tables.md#step-6-rebuild-the-search-index).
 
 ## Rebuild full search index
 
@@ -249,7 +243,7 @@ You can also rebuild a full search index from a portal.
 3.    Select **Rebuild search index**.
 
 > [!IMPORTANT]
-> - A full index rebuild is a very expensive operation and should not be done during peak hours of usage, as this can bring your portal down.
+> - A full index rebuild is a very expensive operation and should not be done during peak hours of usage, as this can bring your site down.
 > - Time taken to rebuild index is proportional to the size of the data eligible for indexing as per your search query configuration, and can range from a few minutes to an hour.
 
 ## Remove a table from global search
@@ -266,11 +260,7 @@ To block the Case table from getting indexed, you must rename the view of the Ca
 
 1. Select Solutions.
 
-    ![Solutions.](../media/solutions-page.png "Solutions")
-
 1. Search for **Default Solution** and select Edit to open.
-
-    ![Edit solution.](../media/edit-solution.png "Edit solution")
 
 1. Search and edit **Case** table to see its components.
 
@@ -280,7 +270,7 @@ To block the Case table from getting indexed, you must rename the view of the Ca
 
 1. Save and publish the changes and close the view editor.
 
-1. Rebuild the full index as described in the [Rebuild full search index](#rebuild-full-search-index) section.
+1. Rebuild the full index as described in the [Rebuild the search index](additional-tables.md#step-6-rebuild-the-search-index)
 
 > [!NOTE]
 > In this example, we are making changes in an unmanaged layer by directly editing the view. You can also do this via a managed solution.
@@ -300,19 +290,13 @@ The modified value will be:
 
 Once this site setting is changed, the Case table will be removed from filters on the search page and in the header.
 
-![Search on page.](../media/search-on-page.png "Search on page")
-
-![Search in header.](../media/search-in-header.png "Search in header")
-
 ## Next steps
 
-[Configure global search for additional tables](search-additional-entities.md)
+[Walk-through: Configuring additional tables for global search](additional-tables.md)
 
 ### See also
 
-- [Use faceted search](improve-portal-search-faceted-search.md)
-- [File attachment search](search-file-attachment.md)
+- [Use faceted search to improve portal search](faceted.md)
+- [Search within file attachment content](file-attachment.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 
