@@ -16,13 +16,13 @@ contributors:
 
 # Understand Liquid operators
 
-Liquid has access to all common logical and comparison operators. These can be used in tags such as **if** and **unless**.
+Liquid has access to all common logical and comparison operators. These operators can be used in tags such as **if** and **unless**.
 
 ## Basic operators
 
 | ==    | Equals                          |
 |-------|---------------------------------|
-| !=    | Does not equal                  |
+| !=    | Doesn't equal                  |
 | &gt;  | Greater than                    |
 | &lt;  | Less than                       |
 | &gt;= | Greater than or equal to        |

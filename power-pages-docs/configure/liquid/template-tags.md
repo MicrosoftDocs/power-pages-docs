@@ -41,7 +41,7 @@ Results attribute in provided variable (such as 'resultVariable' in above sample
 
 - *Entities*
 
-    This attribute contains the result of fetchxml query. You can iterate the result and use it in your webtemplate.
+    This attribute contains the result of fetchxml query. You can iterate the result and use it in your web template.
 
     ```
     <table> 
@@ -81,11 +81,11 @@ Results attribute in provided variable (such as 'resultVariable' in above sample
 
 - *TotalRecordCountLimitExceeded*
 
-    Gets whether the results of the query exceeds the total record count.
+    Gets whether the results of the query exceed the total record count.
 
 ### XML attribute
 
-XML attribute in provided variable (such as 'resultVariable' in above sample) holds the resultant query which can be used to get data from Microsoft Dataverse. This attribute is useful for debugging purpose when you want to understand how table permission is getting applied on this *fetchxml* tag.  
+XML attribute in provided variable (such as 'resultVariable' in above sample) holds the resultant query that can be used to get data from Microsoft Dataverse. This attribute is useful for debugging purpose when you want to understand how table permission is getting applied on this *fetchxml* tag.  
 
 ### Other supported elements and attributes
 
@@ -102,33 +102,33 @@ fetchxml liquid tag supports the following attributes, and child elements.
 
 ## include
 
-Includes the contents of one template in another, by name. In Power Apps portals, the source of this other template will generally be a [web template](store-content-web-templates.md). This allows for the reuse of common template fragments in multiple places.  
+Includes the contents of one template in another, by name. In Power Pages, the source of this other template will generally be a [web template](store-content-web-templates.md). This operator allows for the reuse of common template fragments in multiple places.  
 
 When a template is included in another, the included template will have access to any variables defined in the parent template.
 
 `{% include 'My Template' %}`
 
-It's also possible to pass any number of named parameters to the include tag. These will then be defined as variables in the included template.
+It's also possible to pass any number of named parameters to the include tag. These parameters will then be defined as variables in the included template.
 
 `{% include 'My Template' a:x, b:y %}`
 
 ## block
 
-Used in conjunction with extends to provide template inheritance. See extends for usage.
+Used with extends to provide template inheritance. See extends for usage.
 
 ## extends
 
-Used in conjunction with the block tag, provides template inheritance. This allows multiple templates to use a shared layout, while overriding specific areas of the parent layout.
+Used with the block tag, provides template inheritance. This operator allows multiple templates to use a shared layout, while overriding specific areas of the parent layout.
 
 In Power Apps portals, the parent template name provided to the tag will generally refer to the name of a [web template](store-content-web-templates.md).  
 
 When extends is used, it must be the first content in the template, and can only be followed by one or more block tags.
 
-If a block defined in the parent template is not overridden, its contents in the parent template (if any) will be rendered.
+If a block defined in the parent template isn't overridden, its contents in the parent template (if any) will be rendered.
 
 ## comment
 
-Allows you to leave un-rendered code inside a Liquid template. Any content within the block will not be rendered, and any Liquid code within will not be executed.
+Allows you to leave unrendered code inside a Liquid template. Any content within the block won't be rendered, and any Liquid code within won't be executed.
 
 **Code**
 
@@ -148,7 +148,7 @@ Allows output of Liquid code on a page without having it parsed and executed.
 
 ## substitution
 
-When you enable the header and footer caching, and want to avoid caching of certain section output, you can use this tag. This tag provides the content block in header or footer where output of the wrapped content block doesn't get cached. This is helpful in the scenarios where user is using an object which can frequently get updated, such as request, page, language, and date. For example, refer to the header and footer web template source code update scenarios when [header and footer caching is enabled](../configure/enable-header-footer-output-caching.md).
+When you enable the header and footer caching, and want to avoid caching of certain section output, you can use this tag. This tag provides the content block in header or footer where output of the wrapped content block doesn't get cached. This operator is helpful in the scenarios where user is using an object that can frequently get updated, such as request, page, language, and date. For example, refer to the header and footer web template source code update scenarios when [header and footer caching is enabled](/power-apps/maker/portals/configure/enable-header-footer-output-caching).
 
 > [!TIP]
 > The URL used in [request.url](liquid-objects.md#request) can be any requested value, and gets [cached](/power-apps/maker/portals/configure/enable-header-footer-output-caching) for subsequent requests. To ensure correct value in request.url, consider using substitution tag, partial URL such as ~\{WebFile path} or storing the portal URL in [Site Settings](/power-apps/maker/portals/configure/configure-site-settings).
