@@ -4,9 +4,9 @@ description: Learn how search works in Power Pages
 author: sandhangitmsft
 
 ms.topic: conceptual
-ms.custom: intro-internal
-ms.date: 12/02/2022
-ms.subservice: portals
+ms.custom: 
+ms.date: 1/24/2023
+ms.subservice: 
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -157,7 +157,7 @@ The following content snippets are related to global search:
 
         - **Product facet**: This facet allows you to filter search results based on the product associated to the knowledge articles.
 
-    - **Attachment search**: This functionality allows you to search within the attachments or notes associated to a knowledge article. Search within note description, title, attachment file name, and attachment content of notes or attachments that are exposed on the portal. More information: [Search within file attachment content](search-file-attachment.md)
+    - **Attachment search**: This functionality allows you to search within the attachments or notes associated to a knowledge article. Search within note description, title, attachment file name, and attachment content of notes or attachments that are exposed on the portal. More information: [Search within file attachment content](file-attachment.md)
 
 ## Special characters and syntax supported by search
 
@@ -292,7 +292,7 @@ Once this site setting is changed, the Case table will be removed from filters o
 
 ## Next steps
 
-[Walk-through: Configuring additional tables for global search](additional-tables.md)
+[Configuring additional tables for global search](additional-tables.md)
 
 ### See also
 
