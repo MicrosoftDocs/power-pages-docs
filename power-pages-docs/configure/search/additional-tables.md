@@ -73,8 +73,6 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Select **Apps** in the left navigation pane, and locate the **Portal Management** model-driven app.  
 
-    ![Portal Management.](media/search-additional-entities/portal-management.png "Portal Management")
-
     >[!NOTE]
     > The Portal Management app might be named **Dynamics 365 Portals** if you're in an environment where Dynamics 365 applications are installed.
 
@@ -82,11 +80,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Create a new setting, **Search/EnableAdditionalEntities**, and set its value to **true**.
 
-    ![Site setting for EnableAdditionalEntities.](media/search-additional-entities/enableadditionalentitiessearch-sitesetting.png "Site setting for EnableAdditionalEntities")
-
 1. Create or update the **search/filters** setting, and add the value **Products:nwind_products**.
-
-    ![Search/filters site setting.](media/search-additional-entities/search-filters.png "Search/filters site setting")
 
 ## Step 2: Create or verify the Portal Search view
 
@@ -97,33 +91,17 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Select **Northwind Traders**.
 
-    ![Select solution.](media/search-additional-entities/select-solution.png "Select solution")
-
 1. Search for the **Order Product** table.
-
-    ![Order Product table.](media/search-additional-entities/order-product.png "Order Product table")
 
 1. Select the **Order Product** table, and then select **Views**.
 
-    ![Order Product - Views.](media/search-additional-entities/views.png "Order Product - Views")
-
 1. Ensure that you see **Portal Search** in the views list.
-
-    ![Portal Search view.](media/search-additional-entities/portal-search.png "Portal Search view")
 
     If the Portal Search view doesn't already exist, select **Add view**, enter the name as **Portal Search**, and then select **Create**.
 
-    ![Add a view.](media/search-additional-entities/add-view.png "Add a view")
-
-    ![Add the Portal Search view.](media/search-additional-entities/portal-search-view.png "Add the Portal Search view")
-
 1. Ensure appropriate columns are added to the view for search.
 
-    ![Add columns.](media/search-additional-entities/add-columns.png "Add columns")
-
 1. If you edited the view, be sure to select **Save**, and then **Publish** before you continue.
-
-    ![Save and publish.](media/search-additional-entities/save-publish.png "Save and publish the view")
 
 ## Step 3: Create table permissions
 
@@ -135,13 +113,9 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Select **New**.
 
-    ![New Table Permission record.](media/search-additional-entities/new-entity-permission.png "[New Table Permission record")
-
 1. Enter the name as **Northwind Products Read All**, and then select the appropriate **Access Type** and the **Read** privilege.
 
     For this example, the **Global** access type is provided to the **nwind_products** table.
-
-    ![Access Type and Read permissions.](media/search-additional-entities/scope-read.png "Access Type and Read permissions")
 
 1. Select **Save & Close**.
 
@@ -149,21 +123,15 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Scroll down to the **Web Roles** section, and then select **Add Existing Web Role**.
 
-    ![Add an existing web role.](media/search-additional-entities/add-existing-web-role.png "Add an existing web role")
-
 1. Search for **Authenticated Users**, and then select **Add**:
-
-    ![Add authenticated users.](media/search-additional-entities/add-authenticated-users.png "Add authenticated users")
 
 ## Step 4: Add record details webpage
 
 1. Go to [Power Apps](https://make.powerapps.com), and select **Apps** in the left navigation pane.
 
-1. Select **More Commands** (…) for the portal, and then select **Edit** to open the portal in Power Apps Studio.
+1. Select **More Commands** (…), and then select **Edit** to open the site in design studio.
 
 1. Select **New Page** from the menu in the upper-left corner, and then select the **Blank** layout for the page.
-
-    ![New page.](media/search-additional-entities/new-page.png "New page")
 
 1. Enter the webpage name as **Order Products**. 
 
@@ -172,11 +140,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Select **Components** in the left navigation pane, and then add a **Form** component to this webpage.
 
-    ![Add a form component.](media/search-additional-entities/form-component.png "Add a form component")
-
 1. Select the **Use existing** option on the right side of your workspace, choose the **View Products** form for the **nwind_products** table, and then set **Mode** to **ReadOnly**.
-
-    ![Set the mode.](media/search-additional-entities/mode.png "Set the mode")
 
 ## Step 5: Add a site marker for record details webpage
 
@@ -213,16 +177,12 @@ The following walkthrough explains each step in detail with a sample database an
 
    For example, use the search keyword **Northwind Clam Chowder** to get the results associated with the **nwind_products** table.
 
-   ![Search results.](media/search-additional-entities/search-results.png "Search results")
-
 ## Next steps
 
-[Remove a table from global search](search.md#remove-a-table-from-global-search)
+[Remove a table from global search](overview.md#remove-a-table-from-global-search)
 
 ### See also
 
-[Search related site settings](search.md#related-site-settings) <br>
-[Progressive search](progressive-search.md)
+[Related site settings](overview.md#related-site-settings) <br />
+[Progressive search](progressive.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
