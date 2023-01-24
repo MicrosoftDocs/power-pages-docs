@@ -1,12 +1,12 @@
 ---
 title: Configuring additional tables for global search
-description: Learn how global search works for additional tables in a portal.
+description: Learn how global search works for additional tables in a Power Pages site.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
-ms.subservice: portals
+ms.date: 1/24/2023
+ms.subservice: 
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Walk-through: Configuring additional tables for global search  
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 ## Overview
 
