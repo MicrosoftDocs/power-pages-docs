@@ -6,8 +6,8 @@ author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/09/2023
-ms.service: power-platform
-ms.subservice: power-pages
+ms.service:
+ms.subservice:
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
