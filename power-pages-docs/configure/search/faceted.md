@@ -22,7 +22,7 @@ Users can search site content using filters based on selected characteristics. T
 
 Out-of-the-box faceted search is enabled in your Power Pages site. To control or enable it, follow these steps:
 
-1. Open the [Portal Management app](configure-portal.md) and go to **Portals** &gt; **Website** &gt; **Site Settings**.
+1. Open the [Portal Management app](../portal-management-app.md) and go to **Portals** &gt; **Website** &gt; **Site Settings**.
 1. Select the **Search/FacetedView** site setting. 
 1. Change the **Value** to **True** to enable or **False** to disable faceted search.
 
@@ -30,7 +30,7 @@ Out-of-the-box faceted search is enabled in your Power Pages site. To control or
 
 To disable a single piece of the faceted view:
 
-1. Open the [Portal Management app](configure-portal.md) and go to **Portals** &gt; **Web Templates**.
+1. Open the [Portal Management app](../portal-management-app.md) and go to **Portals** &gt; **Web Templates**.
 1. Select the view to disable (that is, Knowledge Management – Top Rated Articles)
 1. Select **Deactivate** at the top of the page.
 
