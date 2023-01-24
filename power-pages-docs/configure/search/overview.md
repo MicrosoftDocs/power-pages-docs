@@ -44,7 +44,7 @@ Once the index is provisioned, it may take anywhere between an hour or more to c
 
 ## What is Dataverse Search
 
-[Dataverse search](../../../user/relevance-search-benefits.md) delivers fast and comprehensive search results sorted by relevance in portals. Dataverse search is the same search service used in model-driven apps and other Microsoft Power Platform services built on Microsoft Dataverse.  
+[Dataverse search](/power-apps/user/relevance-search-benefits) delivers fast and comprehensive search results sorted by relevance in portals. Dataverse search is the same search service used in model-driven apps and other Microsoft Power Platform services built on Microsoft Dataverse.  
 
 ## Global search
 
@@ -118,7 +118,7 @@ The following site settings are related to global search:
 | Search/Query  | +(@Query) _title:(@Query) _logicalname:adx_webpage\~0.9^0.2<br /> -_logicalname:adx_webfile\~0.9 adx_partialurl:<br />(@Query) _logicalname:adx_blogpost\~0.9^0.1 -_logicalname:<br />adx_communityforumthread\~0.9   | This setting adds other weights and filters to the query that a user enters in the default search box that is displayed on the portal. In the default value, @Query is the query text entered by a user.<br />For information on how to modify this value, follow [Lucene query syntax](https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html).<br>**Important**: This weighting and filtering only apply to the search box that comes in the default search page of the portal. If you're using a liquid search tag to create your own search page, then this setting doesn't apply. |
 | Search/Stemmer  | English    | The language used by the portal search's stemming algorithm.   |
 | Search/FacetedView  | True   | Enables facets in the search results. When set to True, facets will be shown along with results on the search page.  |
-| Search/IndexNotesAttachments   | False    | Indicates whether the content of notes attachments in knowledge base articles and web files should be indexed. By default, it's set to False. More information: [Search within file attachment content](search-file-attachment.md)    |
+| Search/IndexNotesAttachments   | False    | Indicates whether the content of notes attachments in knowledge base articles and web files should be indexed. By default, it's set to False. More information: [Search within file attachment content](file-attachment.md)    |
 | Search/RecordTypeFacetsEntities  | Blogs:adx_blog,adx_blogpost;Forums:adx_communityforum,<br>adx_communityforumthread,adx_communityforumpost;<br />Ideas:adx_ideaforum,adx_idea;Downloads:annotation,adx_webfile    | Determines how the tables are grouped in Record Type facet on the Search page. This setting is in the format <br />"DisplayNameinRecordTypeFacet1:logicalnameoftable1,logicalnameoftable2; DisplayNameinRecordTypeFacet2:logicalnameoftable3,logicalnameoftable4" <br />Display Name in Record Type facet will appear on the UI. This facet group will combine the result of the tables defined in the configuration.   |
 | KnowledgeManagement/DisplayNotes | True   | Indicates whether to index attachments of knowledge base articles. By default, it's set to False. |
 
@@ -214,7 +214,7 @@ As part of portal global search, various special characters and syntaxes are sup
 
 ## Liquid search tag
 
-You can invoke portal global search from liquid templates by using the *searchindex* tag. More information: [searchindex](../liquid/portals-entity-tags.md#searchindex)
+You can invoke portal global search from liquid templates by using the *searchindex* tag. More information: [Use Liquid](../liquid-overview.md)
 
 > [!IMPORTANT]
 > When you use the searchindex tag, facets are not returned as part of results, nor can they be applied as a filter.
