@@ -16,7 +16,7 @@ contributors:
 
 # Faceted Search
 
-Site ontent may be searched by using filters based on characteristics of the content. The filters implemented by faceted search allow customers to find the content they want more quickly than a traditional search.
+Users can search site content using filters based on selected characteristics. These filters allow customers to find the content they want more quickly than traditional search.
 
 ## Enable faceted search
 
@@ -40,11 +40,11 @@ The site setting **Search/RecordTypeFacetsEntities** allows you to group similar
 
 Go to **Portals** &gt; **Websites** &gt; **Site Settings** and open the **Search/RecordTypeFacetsEntities** site setting. 
 
-Notice that the different tables are preceded by the word **Forums:**. This is because the first value is the name with they are grouped as. This word will be translated based on the language that is being used on the site.
+The different tables are preceded by the word **Forums:** because the first value is the name with they're grouped as. This word will be translated based on the language that is being used on the site.
 
 ## Use faceted search to improve knowledge search results
 
-Faceted search enables Power Pages sites to have search filters on the leftmost side allowing you to choose between items like forums, blogs, and knowledge articles. More filters are added for specific search types. For example, knowledge articles can be filtered by Record Type, Modified Date, Rating, and Products to help customers find the content they need. The rightmost side also has a drop-down box that sorts results based on the customer’s choice of Relevance or View Count (specific to knowledge articles). Below is a screen capture with an example of some of the available filters.
+Faceted search enables Power Pages sites to have search filters on the leftmost side.  These filters allow you to choose between items like forums, blogs, and knowledge articles. More filters are added for specific search types. For example, knowledge articles can be filtered by Record Type, Modified Date, Rating, and Products to help customers find the content they need. The rightmost side also has a drop-down box that sorts results based on the customer’s choice of Relevance or View Count (specific to knowledge articles). Below is a screen capture with an example of some of the available filters.
 
 ### See also
 
