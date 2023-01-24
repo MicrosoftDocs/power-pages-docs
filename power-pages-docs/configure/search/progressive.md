@@ -43,7 +43,7 @@ To disable progressive search, set the value of **Search/EnableProgressiveSearch
 
 ## Progressive search with sample data
 
-As an example, consider a site in an environment with [Northwind Traders sample data](../../canvas-apps/northwind-install.md), with search enabled for [Order Products](search-additional-entities.md).
+As an example, consider a site in an environment with [Northwind Traders sample data](../../canvas-apps/northwind-install.md), with search enabled for [Order Products](additional-tables.md).
 
 When the user searches for products, only 10 results show up, even though the search facet shows the total number of products as 68, including the configured filters.
 
