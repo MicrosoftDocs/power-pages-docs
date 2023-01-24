@@ -151,11 +151,11 @@ Allows output of Liquid code on a page without having it parsed and executed.
 When you enable the header and footer caching, and want to avoid caching of certain section output, you can use this tag. This tag provides the content block in header or footer where output of the wrapped content block doesn't get cached. This is helpful in the scenarios where user is using an object which can frequently get updated, such as request, page, language, and date. For example, refer to the header and footer web template source code update scenarios when [header and footer caching is enabled](../configure/enable-header-footer-output-caching.md).
 
 > [!TIP]
-> The URL used in [request.url](liquid-objects.md#request) can be any requested value, and gets [cached](../configure/enable-header-footer-output-caching.md) for subsequent requests. To ensure correct value in request.url, consider using substitution tag, partial URL such as ~\{WebFile path} or storing the portal URL in [Site Settings](../configure/configure-site-settings.md).
+> The URL used in [request.url](liquid-objects.md#request) can be any requested value, and gets [cached](/power-apps/maker/portals/configure/enable-header-footer-output-caching) for subsequent requests. To ensure correct value in request.url, consider using substitution tag, partial URL such as ~\{WebFile path} or storing the portal URL in [Site Settings](/power-apps/maker/portals/configure/configure-site-settings).
 
 ## codecomponent
 
-See [Understand codecomponent Dataverse entity tag](portals-entity-tags.md#codecomponent), [Use code components Liquid template tag](../component-framework-liquid.md).
+See [Understand codecomponent Dataverse entity tag](dataverse-liquid-tags.md#codecomponent), [Use code components Liquid template tag](component-framework-liquid.md).
 
 ### See also
 
@@ -163,5 +163,5 @@ See [Understand codecomponent Dataverse entity tag](portals-entity-tags.md#codec
 [Iteration tags](iteration-tags.md)<br>
 [Variable tags](variable-tags.md)<br>
 [Dataverse Liquid tags](dataverse-liquid-tags.md)<br>
-[Use code components Liquid template tag](../component-framework-liquid.md)
+[Use code components Liquid template tag](component-framework-liquid.md)
 

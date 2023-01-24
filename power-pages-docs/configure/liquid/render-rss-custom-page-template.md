@@ -64,14 +64,14 @@ Now, we'll create a new page template, allowing us to assign our RSS feed templa
 
 Now all that's left is to [create a new web page](../../getting-started/first-page.md) using the **RSS Feed** page layout to host our feed. When we request this new web page, we'll receive our RSS feed XML:
 
-:::image type="content" source="../media/rss-feed-example.png" alt-text="Example of an RSS feed.":::
+:::image type="content" source="media/render-rss/rss-feed-example.png" alt-text="Example of an RSS feed.":::
 
 In this example, we've seen how we can combine Liquid, web templates, Dataverse views, and site content management features to create a custom RSS feed. The combination of these features adds powerful customization capabilities to any Power Pages application.
 
 ### See also
 
 [Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
-[Render the list associated with the current page](render-entity-list-current-page.md)  
+[Render the list associated with the current page](render-list-current-page.md)  
 [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 [Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierachy.md)  
 
