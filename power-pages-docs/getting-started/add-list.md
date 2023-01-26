@@ -62,6 +62,33 @@ To add a list:
 
 1. You can select the ellipsis (**...**) to duplicate the list, move it up or down within the section, or delete it.
 
+## List filters
+
+Makers can add list filters from the studio. Makers can configure (add/edit/delete) all the 7 types of metadata filters supported in Portal Management App. The 7 metadata filters supported via PMA are – (1) Text (2) FetchXML (3) Attribute Filter Set (4) Lookup Set (5) Range Filter Set (6) Dynamic Lookup Set (7) Dynamic Picklist Set. Each in design studio has a simplified name which matches its visualization.
+
+Different types of filters -
+
+Text is same as text filter in PMA, no change.
+
+Checkbox, Dropdown, Radio button: For these three options, studio shows a combined list of all columns that are applicable. For example, if the maker chooses a Choice data type column this will allow them to create a Dynamic Picklist filter. Depending on which column the maker chooses, the studio will show dynamic UI with appropriate options and create a corresponding metadata filter in PMA.
+
+Custom – same as FetchXML filter option in PMA, no change.
+
+Studio also allows maker to configure filter settings like orientation with in-context editing experience. With that, makers can also edit/delete the filters in-context when working with list component in the studio.
+
+Default mock data in list - Instead of showing an empty list – studio will now show some placeholder text that matched the view datatype format to give makers a sense that the list won't be empty and show some data on preview
+
+Link to all strings: [SampleDataStrings.docx](https://microsoft.sharepoint.com/:w:/t/PortalsTeam/EQTyK8DXcupFsr0Urun5BigBZt3z9gtIwi2xn4xk001u1w?e=gAEtKW)
+
+
+### Add a list filter
+
+To add a filter to your list:
+
+1. Add a list component from the component library and configure your list. 
+
+2. Choose +Add filter from the list toolbar and add filters.
+
 ### See also
 
 - [Create and modify views](../configure/data-workspace-views.md)
