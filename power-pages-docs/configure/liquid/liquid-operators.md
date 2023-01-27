@@ -70,10 +70,10 @@ This is a forum page.
 
 ### See also
 
-[Store source content by using web templates](store-content-web-templates.md)  
-[Liquid types](liquid-types.md)  
-[Conditional](liquid-conditional-operators.md)  
-[Liquid Objects](liquid-objects.md)  
-[Liquid Tags](liquid-tags.md)  
-[Liquid Filters](liquid-filters.md) 
+- [Web templates](../web-templates.md)  
+- [Liquid types](liquid-types.md)  
+- [Conditional](liquid-conditional-operators.md)  
+- [Liquid Objects](liquid-objects.md)  
+- [Liquid Tags](liquid-tags.md)  
+- [Liquid Filters](liquid-filters.md) 
 

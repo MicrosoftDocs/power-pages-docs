@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 01/27/2023
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -120,10 +120,10 @@ This will render if the ID request parameter is NOT null.
 
 ### See also
 
-[Store source content by using web templates](store-content-web-templates.md)  
-[Understand Liquid operators](liquid-operators.md)  
-[Conditional](liquid-conditional-operators.md)  
-[Liquid Objects](liquid-objects.md)  
-[Liquid Tags](liquid-tags.md)  
-[Liquid Filters](liquid-filters.md)  
+- [Web templates](store-content-web-templates.md)  
+- [Understand Liquid operators](liquid-operators.md)  
+- [Conditional](liquid-conditional-operators.md)  
+- [Liquid Objects](liquid-objects.md)  
+- [Liquid Tags](liquid-tags.md)  
+- [Liquid Filters](liquid-filters.md)  
 

@@ -102,7 +102,7 @@ fetchxml liquid tag supports the following attributes, and child elements.
 
 ## include
 
-Includes the contents of one template in another, by name. In Power Pages, the source of this other template will generally be a [web template](store-content-web-templates.md). This operator allows for the reuse of common template fragments in multiple places.  
+Includes the contents of one template in another, by name. In Power Pages, the source of this other template will generally be a [web template](../web-templates.md). This operator allows for the reuse of common template fragments in multiple places.  
 
 When a template is included in another, the included template will have access to any variables defined in the parent template.
 
@@ -120,7 +120,7 @@ Used with extends to provide template inheritance. See extends for usage.
 
 Used with the block tag, provides template inheritance. This operator allows multiple templates to use a shared layout, while overriding specific areas of the parent layout.
 
-In Power Apps portals, the parent template name provided to the tag will generally refer to the name of a [web template](store-content-web-templates.md).  
+In Power Pages, the parent template name provided to the tag will generally refer to the name of a [web template](../web-templates.md).  
 
 When extends is used, it must be the first content in the template, and can only be followed by one or more block tags.
 

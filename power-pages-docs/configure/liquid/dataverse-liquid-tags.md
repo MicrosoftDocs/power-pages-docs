@@ -676,7 +676,7 @@ The size of the result page to be returned. If not provided, a default size of 1
 Fully renders a [form](../../getting-started/add-form.md), by name or ID.  
 
 > [!Note]
-> The entityform tag is only available for use in content rendered inside a <em>[web template](store-content-web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
+> The entityform tag is only available for use in content rendered inside a <em>[web template](../web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
 
 `{% entityform name: 'My Basic Form' %}`
 
@@ -690,7 +690,7 @@ The name of the Basic Form you wish to load.
 
 ## webform
 
-Fully renders a [multistep form](../../getting-started/multistep-forms.md), by name or ID. The webform tag is only available for use in content rendered inside a [web template](store-content-web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template won't render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first won't be rendered.
+Fully renders a [multistep form](../../getting-started/multistep-forms.md), by name or ID. The webform tag is only available for use in content rendered inside a [web template](web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template won't render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first won't be rendered.
 
 `{% webform name: 'My Multistep Form' %}`
 

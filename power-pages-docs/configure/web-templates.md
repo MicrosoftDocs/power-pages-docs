@@ -72,11 +72,11 @@ There's a set of pre-made Liquid templates available within Power Apps portals. 
 
 ### See also
 
-[Create a custom page layout](../getting-started/tutorial-add-custom-page-layout)
-[Understand Liquid operators](liquid-operators.md)  
-[Liquid types](liquid-types.md)  
-[Conditional](liquid-conditional-operators.md)  
-[Liquid Objects](liquid-objects.md)  
-[Liquid Tags](liquid-tags.md)  
-[Liquid Filters](liquid-filters.md)  
+- [Create a custom page layout](../getting-started/tutorial-add-custom-page-layout.md)
+- [Understand Liquid operators](liquid/liquid-operators.md)  
+- [Liquid types](liquid/liquid-types.md)  
+- [Conditional](liquid/liquid-conditional-operators.md)  
+- [Liquid Objects](liquid/liquid-objects.md)  
+- [Liquid Tags](liquid/liquid-tags.md)  
+- [Liquid Filters](liquid/liquid-filters.md)  
 

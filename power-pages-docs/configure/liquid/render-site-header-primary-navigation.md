@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 01/27/2023
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -16,7 +16,7 @@ contributors:
 
 # Render a website header and primary navigation bar
 
-Render a website header and primary navigation bar, using portals settings, snippets, weblinks, and sitemarkers. More information: [Store source content by using web templates](store-content-web-templates.md)  
+Render a website header and primary navigation bar, using portals settings, snippets, weblinks, and sitemarkers. More information: [Web templates](../web-templates.md).  
 
 > [!Note]
 > The example in this topic will only function correctly if cross-request header caching is disabled for your application. It is enabled by default in version 7.0.0019 and later. It can be disabled by creating a [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) named **Header/OutputCache/Enabled**, and setting its value to **false**.

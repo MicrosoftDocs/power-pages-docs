@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 01/27/2023
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -62,11 +62,11 @@ You can also test the size of [Liquid types](liquid-types.md), [Liquid types](li
 
 ### See also
 
-[Store source content by using web templates](store-content-web-templates.md)  
-[Understand Liquid operators](liquid-operators.md)  
-[Liquid types](liquid-types.md)  
-[Liquid Objects](liquid-objects.md)  
-[Liquid Tags](liquid-tags.md)  
-[Liquid Filters](liquid-filters.md)  
+- [Store source content by using web templates](../web-templates.md)  
+- [Understand Liquid operators](liquid-operators.md)  
+- [Liquid types](liquid-types.md)  
+- [Liquid Objects](liquid-objects.md)  
+- [Liquid Tags](liquid-tags.md)  
+- [Liquid Filters](liquid-filters.md)  
 
 
