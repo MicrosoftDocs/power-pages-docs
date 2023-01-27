@@ -134,6 +134,12 @@
       href: configure/portal-management-app.md
     - name: Advanced configuration
       href: configure/advanced-config.md
+- name: Integrate Power Pages
+  items:
+    - name: Embed a Power Pages site in another website
+      href: configure/embed-website.md
+    - name: Set up Azure Front Door with Power Pages
+      href: configure/azure-front-door.md                       
 - name: Customize and extend Power Pages
   items:
     - name: Custom page layouts
@@ -210,6 +216,8 @@
       href: getting-started/tutorial-add-custom-page-layout.md
 - name: Training videos
   href: training-videos/index.md
+- name: System requirements, limits, and configuration
+  href: system-requirements.md  
 - name: Known issues
   href: known-issues.md
 - name: Important changes and deprecations
