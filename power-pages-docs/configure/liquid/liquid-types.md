@@ -120,7 +120,7 @@ This will render if the ID request parameter is NOT null.
 
 ### See also
 
-- [Web templates](store-content-web-templates.md)  
+- [Web templates](../web-templates.md)  
 - [Understand Liquid operators](liquid-operators.md)  
 - [Conditional](liquid-conditional-operators.md)  
 - [Liquid Objects](liquid-objects.md)  

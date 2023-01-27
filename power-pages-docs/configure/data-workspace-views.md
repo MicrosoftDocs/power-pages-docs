@@ -101,7 +101,7 @@ More information: [Create or edit filters in model-driven app views](/power-apps
 
 ### Download FetchXML
 
-The **Download FetchXML** link will download your view definition as an [FetchXML](/power-apps/developer/data-platform/use-fetchxml-construct-query) file that can be used by pro-developers when creating [web templates](store-content-web-templates.md) for custom page layouts.
+The **Download FetchXML** link will download your view definition as an [FetchXML](/power-apps/developer/data-platform/use-fetchxml-construct-query) file that can be used by pro-developers when creating [web templates](web-templates.md) for custom page layouts.
 
 ## Next steps
 
