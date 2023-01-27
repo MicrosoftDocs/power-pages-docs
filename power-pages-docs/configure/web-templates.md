@@ -1,11 +1,11 @@
 ---
-title: Store source content by using web templates
-description: Learn how to store content by using web templates in Power Pages.
+title: Web templates
+description: Learn how to create and manage web templates in Power Pages.
 author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 01/27/2023
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -15,7 +15,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Store source content by using web templates
+# Web templates
 
 A web template is a Power Pages site metadata record that is used to store template source content. A web template will generally contain Liquid for dynamic content rendering and is the central table used to integrate Liquid templates with the rest of Power Pages.
 
@@ -30,7 +30,7 @@ Web Templates can be included in other content or combined with other templates 
 | MIME Type | Optionally provides a MIME type for the content of the template. A type of text/html is assumed if none is provided. This value will only be used in cases where the template is associated with a Page Template and controls the rendering of all content for that template. |
 |           |                                                                                                                                                                                                                                                                                 |
 
-## Web templates as page templates
+## Web templates as custom page layouts
 
 Web templates can be used with page templates to create new custom page layouts for the Power Pages sites.
 
@@ -72,6 +72,7 @@ There's a set of pre-made Liquid templates available within Power Apps portals. 
 
 ### See also
 
+[Create a custom page layout](../getting-started/tutorial-add-custom-page-layout)
 [Understand Liquid operators](liquid-operators.md)  
 [Liquid types](liquid-types.md)  
 [Conditional](liquid-conditional-operators.md)  

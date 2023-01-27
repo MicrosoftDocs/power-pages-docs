@@ -147,13 +147,15 @@
     - name: Use Visual Studio Code and Power Platform CLI
       href: configure/cli-tutorial.md
     - name: Web templates
-      href: configure/store-content-web-templates.md
+      href: configure/web-templates.md
     - name: Portals Web API overview
       href: configure/web-api-overview.md
     - name: Component framework
       href: configure/component-framework.md
-    - name: Liquid overview
-      href: configure/liquid-overview.md
+    - name: Liquid
+      items:   
+        - name: Liquid overview
+          href: configure/liquid/liquid-overview.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
 - name: Secure Power Pages
