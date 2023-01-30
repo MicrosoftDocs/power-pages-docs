@@ -4,7 +4,7 @@ description: Learn how to customize the header for your Power Pages site.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/23/2023
+ms.date: 1/30/2023
 ms.subservice:
 ms.author: clromano 
 ms.reviewer: kkendrick
@@ -15,11 +15,46 @@ contributors:
 
 # Edit header
 
-Makers can establish their site’s brand using the out of the box header or modifying the site's header as they prefer. Using the **Edit Site Header** button, makers can update the following elements: 
+Makers can establish their site’s brand using the out of the box header or modifying the site's header as they prefer. 
 
-- [Site title](#edit-the-site-title) 
-- [Site logo](#edit-the-site-logo)
-- [Site navigation](#update-site-navigation)
+From the Pages workspace, hover over the header and select the **Edit Site Header** button.
+
+:::image type="content" source="media/edit-header/edit-site-header-button.png" alt-text="The Edit Site Header button, which appears when you hover over the header inside Pages workspace.":::
+
+Editing options will appear within a pop-up window inside the Pages workspace.
+
+## Title and logo
+
+To edit the site's title, enter your text in the text box under the **Site title label**.
+
+Select the **Upload image** button under the **Site logo** label and follow the prompts to add the image of your choice.  Use the text box under the **Alt text label** to provide alternative text for your site logo.
+
+:::image type="content" source="media/edit-header/edit-site-header.png" alt-text="Title and logo options inside the Edit site header pop-up window.":::
+
+> [!TIP]
+> You can also use the toggle switch to remove the logo from the header altogether.  
+
+## Styling
+
+To style your header, select the styling menu option from the side navigation links inside the Edit site header pop-up window.
+
+:::image type="content" source="media/edit-header/edit-site-header-styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
+
+### Brand colors
+
+Under the **Brand colors** label, choose up to four colors by selecting each of the circles and choosing the color of your choice.
+
+Select the colored square next to the **Header background** label to select a color for your header's background.
+
+Below the **Fonts** label, choose the **>** symbol next to **Title** and **Site Navigation** to expand the section and choose a weight, font, color, and size for each element.
+
+## Layout
+
+To preview your site's responsive layout, select the Layout menu option from the side navigation links inside the Edit site header pop-up window and use the **+** and **-** controls to modify the display size.
+
+:::image type="content" source="media/edit-header/edit-site-header-layout.png" alt-text="Layout options in the Edit site header pop-up window.":::
+
+## Customizing the header
 
 The header contains three underlying content snippets, which use [Liquid](../configure/liquid-overview.md). 
 
@@ -29,22 +64,10 @@ The header contains three underlying content snippets, which use [Liquid](../con
 |Logo URL                |```{{ snippets['Logo URL'] }}```         |
 |Logo alt text           |```{{ snippets['Logo alt text'] }}```   |
 
-For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
-
 >[!NOTE]
 >When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:<br />INSERT MESSAGE TEXT HERE<br />For information on how to update the Liquid code and resolve this issue, see [Modifying the header in Portal Management App](../known-issues.md#modifying-the-header-in-portal-management-app).
 
-## Edit the site title
-
-## Edit the site logo
-
-## Update site navigation
-
-## Style the header
-
-### Select a color palette
-
-### Select a background color
+For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
 
 ### See also
 
