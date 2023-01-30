@@ -58,7 +58,7 @@ To preview your site's responsive layout, select the **Layout menu option** from
 
 :::image type="content" source="media/edit-header/edit-site-header-layout.png" alt-text="Layout options in the Edit site header pop-up window.":::
 
-Use the **+** and **-** controls to modify the display size.
+- Use the **+** and **-** controls to modify the display size.
 
 ## Customize the site header
 
