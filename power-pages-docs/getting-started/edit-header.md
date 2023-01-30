@@ -30,7 +30,7 @@ Editing options will appear within a pop-up window inside the Pages workspace.
 
 ## Title and logo
 
-Makers can modify their site's title and update or remove the site logo.  If a logo is selected for use, makers can provide alternative text to make their site more accessible to users.
+In the **Title + logo** section of the Edit site header pop-up window, makers can modify their site's title and update or remove the site logo.  If a logo is selected for use, makers can provide alternative text to make the site more accessible to users.
 
 :::image type="content" source="media/edit-header/edit-site-header.png" alt-text="Title and logo options inside the Edit site header pop-up window.":::
 
@@ -47,7 +47,7 @@ To style your header, select the **Styling menu option** from the side navigatio
 
 ### Update brand colors
 
-Makers can choose from a variety of options to add brand colors to their site's header.
+Makers can choose from various options to add brand colors to their site's header.
 
 :::image type="content" source="media/edit-header/edit-site-header-styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
 
