@@ -82,5 +82,5 @@ Now, when a user signs in, they'll be redirected to the page you specified in th
 - [Create a custom page template to render an RSS feed](render-rss-custom-web-template.md)  
 - [Render the list associated with the current page](render-list-current-page.md)  
 - [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
-- [Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierachy.md)  
+- [Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierarchy.md)  
 

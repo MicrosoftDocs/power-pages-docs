@@ -73,5 +73,5 @@ In this example, we've seen how we can combine Liquid, web templates, Dataverse 
 [Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
 [Render the list associated with the current page](render-list-current-page.md)  
 [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
-[Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierachy.md)  
+[Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierarchy.md)  
 

@@ -6,7 +6,7 @@ author: neerajnandwana-msft
 ms.topic: overview
 ms.custom: 
 ms.date: 01/30/2023
-ms.subservice: portals
+ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -23,7 +23,7 @@ The portals Web API enables a richer user experience inside Power Pages sites. Y
 > - **Your Power Pages site version must be 9.3.3.x or later for this feature to work**.
 > - The portals Web API is built for creating a rich user experience inside portal pages. It isn't optimized for third-party services or application integration. Using the portals Web API to integrate with other Power Apps portals sites is also not supported.
 > - Portals Web API operations are limited to tables related to data&mdash;for example, accounts, contacts, or your custom tables. Configuring table metadata or portal configuration table data&mdash;for example, configuring portals tables such as adx_contentsnippet, adx_entityform, or adx_entitylist&mdash;isn't supported with the portals Web API. For a complete list, go to [unsupported configuration tables](#unsupported-configuration-tables) later in this topic.
-> - The portals Web API benefits from [server-side caching](admin/clear-server-side-cache.md), so subsequent calls to the Web API are faster than the initial calls. Note that clearing the portal server-side cache causes temporary performance degradation.
+> - The portals Web API benefits from [server-side caching](/power-apps/maker/portals/admin/clear-server-side-cache), so subsequent calls to the Web API are faster than the initial calls. Note that clearing the portal server-side cache causes temporary performance degradation.
 > - Portals Web API operations require a Power Pages license. For example, Web API calls made by anonymous users are counted towards the anonymous user capacity. Web API calls made by authenticated users (internal or external) are not counted towards page views, but require applicable authenticated user capacity licenses. More information: [Power Apps portals licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-power-apps-portals-licensing)
 
 ## Web API operations
@@ -41,14 +41,14 @@ The portals Web API offers a subset of capabilities for Dataverse operations tha
 - [Associate and disassociate tables](write-update-delete-operations.md#associate-and-disassociate-tables-by-using-the-web-api)
 
 > [!NOTE]
-> Calling [actions](../../developer/data-platform/webapi/use-web-api-actions.md) and [functions](../../developer/data-platform/webapi/use-web-api-functions.md) using the portals Web API is not supported.
+> Calling [actions](/power-apps/developer/data-platform/webapi/use-web-api-actions) and [functions](/power-apps/developer/data-platform/webapi/use-web-api-functions) using the portals Web API is not supported.
 
 ## Site settings for the Web API
 
 You must enable the site setting to enable the portals Web API for your portal. You can also configure the field-level Web API that determines the table fields that can or can't be modified with the portals Web API.
 
 > [!NOTE]
-> Use the table [logical name](../../developer/data-platform/entity-metadata.md) for these settings (for example **account**).
+> Use the table [logical name](/power-apps/developer/data-platform/entity-metadata.md) for these settings (for example **account**).
 
 | Site setting name | Description|
 | - |- |
@@ -81,7 +81,7 @@ You don't need to include an authentication code, because authentication and aut
 
 ## Using EntitySetName
 
-When referring to Dataverse tables using the portals Web API in your code, you need to use the [EntitySetName](../../developer/data-platform/entity-metadata.md#table-names), for example, to access the **account** table, the code syntax will use the EntitySetName of **accounts**; `/_api/accounts()`.
+When referring to Dataverse tables using the portals Web API in your code, you need to use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the **account** table, the code syntax will use the EntitySetName of **accounts**; `/_api/accounts()`.
 
 > [!NOTE]
 > Use the table logical name for [site settings](#site-settings-for-the-web-api) (for example, **account**).

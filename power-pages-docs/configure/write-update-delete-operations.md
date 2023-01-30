@@ -26,7 +26,7 @@ You can perform [available Web API operations](web-api-overview.md#web-api-opera
 
 - Enable table and field for Web API operations. More information: [Site settings for the Web API](web-api-overview.md#site-settings-for-the-web-api)
 
-- The portals Web API accesses table records and follows the table permissions given to users through the associated web roles. Ensure you configure the correct table permissions. More information: [Create web roles](security/create-web-roles.md)
+- The portals Web API accesses table records and follows the table permissions given to users through the associated web roles. Ensure you configure the correct table permissions. More information: [Create web roles](../security/create-web-roles.md)
 
 ## Create a record in a table
 

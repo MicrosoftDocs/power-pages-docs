@@ -243,9 +243,9 @@ In the following example, we can determine the associated navigation property of
 }
 ```
 
-We see from the response that the associated navigation property is **primarycontactid**. The associated navigation property can be either the lookup column's [logical name or schema name](../../developer/data-platform/entity-metadata.md) depending how the table was created.
+We see from the response that the associated navigation property is **primarycontactid**. The associated navigation property can be either the lookup column's [logical name or schema name](/power-apps/developer/data-platform/entity-metadata) depending how the table was created.
 
-For more information see [Retrieve data about lookup properties](../../developer/data-platform/webapi/query-data-web-api.md#retrieve-data-about-lookup-properties).
+For more information see [Retrieve data about lookup properties](/power-apps/developer/data-platform/webapi/query-data-web-api#retrieve-data-about-lookup-properties).
 
 ### Retrieve related table records by expanding single-valued navigation properties
 
@@ -292,7 +292,7 @@ If you expand on collection-valued navigation parameters to retrieve related tab
 
 ### Retrieve related tables by expanding both single-valued and collection-valued navigation properties
 
-The following example demonstrates how you can expand related entities for entity sets using both single and collection-valued navigation properties. You will need to specify the [table relationship name](../data-platform/relationships-overview.md) in the syntax of your code.
+The following example demonstrates how you can expand related entities for entity sets using both single and collection-valued navigation properties. You will need to specify the [table relationship name](/power-apps/data-platform/relationships-overview) in the syntax of your code.
 
 | **Method** | **URI** |
 |-------------------------|-------------------------|
