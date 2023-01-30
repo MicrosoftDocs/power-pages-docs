@@ -142,20 +142,46 @@
       href: configure/azure-front-door.md                       
 - name: Customize and extend Power Pages
   items:
-    - name: Custom page layouts
-      href: configure/custom-page-layouts.md
-    - name: Use Visual Studio Code and Power Platform CLI
-      href: configure/cli-tutorial.md
-    - name: Web templates
-      href: configure/web-templates.md
-    - name: Portals Web API overview
-      href: configure/web-api-overview.md
-    - name: Component framework
-      href: configure/component-framework.md
     - name: Liquid
       items:   
         - name: Liquid overview
           href: configure/liquid/liquid-overview.md
+        - name: Understand Liquid operators
+          href: configure/liquid/liquid-operators.md
+        - name: Understand Liquid types
+          href: configure/liquid/liquid-types.md
+        - name: Understand Liquid conditional operators
+          href: configure/liquid/liquid-conditional-operators.md
+        - name: Understand Liquid objects
+          href: configure/liquid/liquid-objects.md
+        - name: Understand available Liquid tags
+          items:
+            - name: Liquid tags overview
+              href: configure/liquid/liquid-tags.md
+            - name: Understand control flow tags
+              href: configure/liquid/control-flow-tags.md
+            - name: Understand iteration tags
+              href: configure/liquid/iteration-tags.md
+            - name: Understand variable tags
+              href: configure/liquid/variable-tags.md
+            - name: Understand template tags
+              href: configure/liquid/template-tags.md
+            - name: Understand Dataverse Liquid tags
+              href: configure/liquid/dataverse-liquid-tags.md
+        - name: Understand Liquid filters
+          href: configure/liquid/liquid-filters.md                                
+    - name: Web templates
+      href: configure/web-templates.md
+    - name: Create custom web templates
+      items:
+        - name: Custom page layouts
+          href: configure/custom-page-layouts.md
+    - name: Use Visual Studio Code and Power Platform CLI
+      href: configure/cli-tutorial.md
+    - name: Portals Web API overview
+      href: configure/web-api-overview.md
+    - name: Component framework
+      href: configure/component-framework.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
 - name: Secure Power Pages
