@@ -49,8 +49,8 @@ Makers can choose from various options to add brand colors to their site's heade
 
 :::image type="content" source="media/edit-header/edit-site-header-styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
 
-- Choose up to four colors for your site's header by selecting each of the circles under the **Brand colors label**.
-- Select the colored square next to the **Header background label** to select a color for your header's background.
+- Choose the colors for your site's header by selecting each of the circles under the **Brand colors label**.
+- Select the colored square next to the **Header background label** to choose which brand color will serve as your header's background.
 - Choose the **>** symbol next to **Title** and **Site Navigation** below the **Fonts label** to expand the section and choose a weight, font, color, and size for each element.
 
 ## Layout
@@ -73,7 +73,7 @@ The header contains three underlying content snippets, which use [Liquid](../con
 
 For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
 
-When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. 
+When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in studio until the attribute values are updated appropriately. 
 
 >[!NOTE]
 > If the values for any of these snippets aren't modified, makers will see the following message in the studio:<br />```Your updates may not show on the site because of customizations to the code made by someone in your org.```<br />For information on how to update the Liquid code and resolve this issue, see [Modifying the header in Portal Management App](../known-issues.md#modifying-the-header-in-portal-management-app).
