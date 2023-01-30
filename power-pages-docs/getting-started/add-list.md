@@ -74,7 +74,7 @@ All types of metadata filters supported in Portal Management App are configurabl
 |---------|---------|
 |Text    | Filters the list by using a text box to search for matching text in a selected attribute of the given table.        |
 |Checkbox, Dropdown, and Radio Button    | Filters the list by using a FetchXML filter condition. When a maker selects custom, a text box appears.  Makers will enter their XML statement in this field.       |
-|Custom   | Makers can choose between checkboxes, dropdowns, and radio buttons as visualizations for their filter type.  The studio will display the different options for users to filter their data based on the type of data their column holds.  The Portal Management App will create the metadata filter based on the column the maker selects.          |
+|Custom   | Makers can choose between checkboxes, dropdowns, and radio buttons as visualizations for their filter type. The Portal Management App will create the metadata filter based on the column the maker selects.          |
 
 ### Add a list filter
 
@@ -92,7 +92,7 @@ To add a list filter, select the list component you previously added and configu
 
 1. Choose the column you'd like to filter from the drop-down selector under the **Column label**.
 
-Add fun sentence here.
+    The studio will display the different options for makers to filter their data based on the filter type and column they choose.
 
 1. Select the **OK button** to save your selections.  The studio displays placeholder text, which matches the datatype format the user selected.
 
