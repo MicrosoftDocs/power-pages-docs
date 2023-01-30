@@ -64,10 +64,12 @@ The header contains three underlying content snippets, which use [Liquid](../con
 |Logo URL                |```{{ snippets['Logo URL'] }}```         |
 |Logo alt text           |```{{ snippets['Logo alt text'] }}```   |
 
->[!NOTE]
->When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. If the values aren't modified, makers will see the following message in the studio:<br />INSERT MESSAGE TEXT HERE<br />For information on how to update the Liquid code and resolve this issue, see [Modifying the header in Portal Management App](../known-issues.md#modifying-the-header-in-portal-management-app).
-
 For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
+
+When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. 
+
+>[!NOTE]
+> If the values for any of these snippets aren't modified, makers will see the following message in the studio:<br />INSERT MESSAGE TEXT HERE<br />For information on how to update the Liquid code and resolve this issue, see [Modifying the header in Portal Management App](../known-issues.md#modifying-the-header-in-portal-management-app).
 
 ### See also
 
