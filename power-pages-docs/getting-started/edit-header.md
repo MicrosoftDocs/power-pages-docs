@@ -42,11 +42,13 @@ To style your header, select the **Styling menu option** from the side navigatio
 
 ### Brand colors
 
-Under the **Brand colors label**, choose up to four colors by selecting each of the circles and choosing the color of your choice.
+Makers can choose from a variety of options to add their brand's colors to their site's header.
 
-Select the colored square next to the **Header background label** to select a color for your header's background.
+- Under the **Brand colors label**, choose up to four colors by selecting each of the circles and choosing the color of your choice.
 
-Below the **Fonts label**, choose the **>** symbol next to **Title** and **Site Navigation** to expand the section and choose a weight, font, color, and size for each element.
+- Select the colored square next to the **Header background label** to select a color for your header's background.
+
+- Below the **Fonts label**, choose the **>** symbol next to **Title** and **Site Navigation** to expand the section and choose a weight, font, color, and size for each element.
 
 ## Layout
 
