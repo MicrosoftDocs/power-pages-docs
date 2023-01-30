@@ -44,7 +44,7 @@ To style your header, select the **Styling menu option** from the side navigatio
 
 ### Brand colors
 
-Makers can choose from a variety of options to add their brand's colors to their site's header.
+Makers can choose from a variety of options to add brand colors to their site's header.
 
 - Under the **Brand colors label**, choose up to four colors by selecting each of the circles and choosing the color of your choice.
 
