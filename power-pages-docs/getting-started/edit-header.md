@@ -17,7 +17,7 @@ contributors:
 
 Makers can establish their site’s brand using the default header provided or by modifying the site's header.
 
-From the Pages workspace, hover over the header and select the **Edit Site Header** button.
+From the Pages workspace, hover over the header component and select the **Edit Site Header** button.
 
 :::image type="content" source="media/edit-header/edit-site-header-button.png" alt-text="The Edit Site Header button, which appears when you hover over the header inside Pages workspace.":::
 
