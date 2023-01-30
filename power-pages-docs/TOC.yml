@@ -174,8 +174,18 @@
       href: configure/web-templates.md
     - name: Create custom web templates
       items:
-        - name: Custom page layouts
+        - name: Create custom page layouts
           href: configure/custom-page-layouts.md
+        - name: Use hybrid navigation to render page hierarchy
+          href: configure/liquid/hybrid-navigation-render-page-hierarchy.md
+        - name: Redirect a user to a default page on sign-in
+          href: configure/liquid/redirect-a-user-homepage.md
+        - name: Render a list for a webpage
+          href: configure/liquid/render-list-current-page.md
+        - name: Render an RSS feed 
+          href: configure/liquid/render-rss-custom-web-template.md
+        - name: Render a site header and primary navigation bar
+          href: configure/liquid/render-site-header-primary-navigation.md
     - name: Use Visual Studio Code and Power Platform CLI
       href: configure/cli-tutorial.md
     - name: Portals Web API overview
