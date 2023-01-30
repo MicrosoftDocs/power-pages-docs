@@ -30,7 +30,7 @@ Makers can modify their site's title and update or remove the site logo.  If a l
 :::image type="content" source="media/edit-header/edit-site-header.png" alt-text="Title and logo options inside the Edit site header pop-up window.":::
 
 - To edit the site's title, enter your text in the text box under the **Site title label**.
-- Select the **Upload image** button under the **Site logo label** and follow the prompts to add the image of your choice.  
+- Select the **Upload image button** under the **Site logo label** and follow the prompts to add the image of your choice.  
 - Use the text box under the **Alt text label** to provide alternative text for your site logo.
 
 > [!TIP]
