@@ -62,19 +62,19 @@ To add a list:
 
 1. You can select the ellipsis (**...**) to duplicate the list, move it up or down within the section, or delete it.
 
-## List filters
+## Add list filters
 
-Makers can add list filters to their Power Pages site from the design studio.  All types of metadata filters supported in Portal Management App are configurable within Power Pages studio and each one has a simplified name, which matches its visualization.  Makers can also edit/delete the filters when working with list component inside the design studio.
+Makers can add list filters to their Power Pages site from the design studio.  
 
-|**Filter Type**       |**Name in Studio** | **Description**   |
-|----------------------|------------------------------|-------------------|
-| Text Filter          | Text | Filter the list by using a text box to search for matching text in a selected attribute of the given table. |
-| FetchXML Filter      | Custom | Filter the list by using a FetchXML filter condition. |
-| Attribute Filter Set | | Filter the list by using a series of check boxes, each of which tries to match its condition against a particular attribute of the given table. |
-| Lookup Set           | | Filter the list by using a series of check boxes, each of which represents a relationship between a record for the given table and a record for a related table. |
-| Range Filter Set     | | Similar to the Attribute Filter Set, except that each check box can represent two conditions rather than one (for example, greater than or equal to 0 AND less than 100). |
-| Dynamic Lookup Set   | | Similar to the Lookup Set. The Dynamic Lookup Set doesn't require that you specify the lookup options to filter by.  Instead, it generates the full list of options when the list is loaded. |
-| Dynamic Picklist Set | | Similar to choosing a picklist value on an Attribute Filter Set. The Dynamic Picklist Set doesn't require that you specify the picklist options to filter by; instead, it generates the full list of options when the list is loaded. |
+### Filter types
+
+All types of metadata filters supported in Portal Management App are configurable within Power Pages studio and each one has a simplified name, which matches its visualization.  Makers can also edit/delete the filters when working with list component inside the design studio.
+
+| Filter Visualization | Description  |
+|---------|---------|
+|Text    | Filters the list by using a text box to search for matching text in a selected attribute of the given table.        |
+|Checkbox, Dropdown, and Radio Button    | Filters the list by using a FetchXML filter condition. When a maker selects custom, a text box appears.  Makers will enter their XML statement in this field.       |
+|Custom   | Makers can choose between checkboxes, dropdowns, and radio buttons as visualizations for their filter type.  The studio will display the different options for users to configure their filter based on the type of data their column holds.  The Portal Management App will create the metadata filter based on the column the maker selects.          |
 
 ### Add a list filter
 
@@ -90,10 +90,9 @@ To add a list filter, select the list component you previously added and configu
 
 1. Select the type of filter you'd like to use from the drop-down selector under the **Type label**.
 
-    - The checkbox, dropdown, and radio button selections will display a combined list of all applicable columns.  The studio shows the appropriate options and creates the corresponding metadata filter inside the Portal Management App based on the column the maker selects.
-    - When a maker selects custom, a text box appears.  Makers will enter their XML statement in this field.
-
 1. Choose the column you'd like to filter from the drop-down selector under the **Column label**.
+
+Add fun sentence here.
 
 1. Select the **OK button** to save your selections.  The studio displays placeholder text, which matches the datatype format the user selected.
 
