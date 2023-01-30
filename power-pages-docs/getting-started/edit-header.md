@@ -34,7 +34,7 @@ In the **Title + logo** section of the Edit site header pop-up window, makers ca
 
 :::image type="content" source="media/edit-header/edit-site-header.png" alt-text="Title and logo options inside the Edit site header pop-up window.":::
 
-- To edit the site's title, enter your text in the text box under the **Site title label**.
+- Enter your text in the text box under the **Site title label** to edit the site's title.
 - Use the **toggle switch** next to the **Site logo label** to remove the logo from the header completely.
 - Select the **Upload image button** under the **Site logo label** and follow the prompts to add the image of your choice.  
 - Use the text box under the **Alt text label** to provide alternative text for your site logo.  
@@ -49,11 +49,9 @@ Makers can choose from various options to add brand colors to their site's heade
 
 :::image type="content" source="media/edit-header/edit-site-header-styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
 
-- Under the **Brand colors label**, choose up to four colors by selecting each of the circles and choosing the color of your choice.
-
+- Choose up to four colors for your site's header by selecting each of the circles under the **Brand colors label**.
 - Select the colored square next to the **Header background label** to select a color for your header's background.
-
-- Below the **Fonts label**, choose the **>** symbol next to **Title** and **Site Navigation** to expand the section and choose a weight, font, color, and size for each element.
+- Choose the **>** symbol next to **Title** and **Site Navigation** below the **Fonts label** to expand the section and choose a weight, font, color, and size for each element.
 
 ## Layout
 
