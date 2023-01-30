@@ -54,7 +54,7 @@ To preview your site's responsive layout, select the Layout menu option from the
 
 :::image type="content" source="media/edit-header/edit-site-header-layout.png" alt-text="Layout options in the Edit site header pop-up window.":::
 
-## Customizing the header
+## Customize the site header
 
 The header contains three underlying content snippets, which use [Liquid](../configure/liquid-overview.md). 
 
