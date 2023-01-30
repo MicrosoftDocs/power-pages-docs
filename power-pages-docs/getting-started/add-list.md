@@ -94,7 +94,9 @@ To add a list filter, select the list component you previously added and configu
 
     The studio will display the different options for makers to filter their data based on the filter type and column they choose.
 
-1. Select the **OK button** to save your selections.  The studio displays placeholder text, which matches the datatype format the user selected.
+1. Select the **OK button** to save your selections.  
+
+    The studio displays placeholder text, which matches the datatype format the user selected.
 
 ### See also
 
