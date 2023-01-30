@@ -25,7 +25,7 @@ Editing options will appear within a pop-up window inside the Pages workspace.
 
 ## Title and logo
 
-To edit the site's title, enter your text in the text box under the **Site title label**.
+To edit the site's title, enter your text in the text box under the **Site title** label.
 
 Select the **Upload image** button under the **Site logo** label and follow the prompts to add the image of your choice.  Use the text box under the **Alt text label** to provide alternative text for your site logo.
 
