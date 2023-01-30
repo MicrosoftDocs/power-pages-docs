@@ -25,9 +25,11 @@ Editing options will appear within a pop-up window inside the Pages workspace.
 
 ## Title and logo
 
-To edit the site's title, enter your text in the text box under the **Site title label**.
+Makers can modify their site's title and update or remove the site logo.  If a logo is selected for use, makers can provide alternative text to make their site more accessible to users.
 
-Select the **Upload image** button under the **Site logo label** and follow the prompts to add the image of your choice.  Use the text box under the **Alt text label** to provide alternative text for your site logo.
+- To edit the site's title, enter your text in the text box under the **Site title label**.
+- Select the **Upload image** button under the **Site logo label** and follow the prompts to add the image of your choice.  
+- Use the text box under the **Alt text label** to provide alternative text for your site logo.
 
 :::image type="content" source="media/edit-header/edit-site-header.png" alt-text="Title and logo options inside the Edit site header pop-up window.":::
 
