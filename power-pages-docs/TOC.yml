@@ -186,10 +186,20 @@
           href: configure/liquid/render-rss-custom-web-template.md
         - name: Render a site header and primary navigation bar
           href: configure/liquid/render-site-header-primary-navigation.md
+    - name: Use Web API
+      items:
+        - name: Portals Web API overview
+          href: configure/web-api-overview.md
+        - name: Perform read operations
+          href: configure/read-operations.md
+        - name: Perform write, update, and delete operations
+          href: configure/write-update-delete-operations.md
+        - name: Compose HTTP requests and handle errors
+          href: configure/web-api-http-requests-handle-errors.md
+        - name: "How to: use the portals Web API"
+          href: configure/webapi-how-to.md
     - name: Use Visual Studio Code and Power Platform CLI
       href: configure/cli-tutorial.md
-    - name: Portals Web API overview
-      href: configure/web-api-overview.md
     - name: Component framework
       href: configure/component-framework.md
     - name: Power Pages ALM

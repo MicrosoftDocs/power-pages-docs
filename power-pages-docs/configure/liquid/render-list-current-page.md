@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 01/30/2023
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -247,6 +247,6 @@ Render the list associated with the current page as a paginated sortable table. 
 ### See also
 
 - [Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
-- [Create a custom page template to render an RSS feed](render-rss-custom-page-template.md)  
+- [Create a custom page template to render an RSS feed](render-rss-custom-web-template.md)  
 - [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 - [Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierachy.md)
