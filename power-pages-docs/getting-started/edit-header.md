@@ -40,11 +40,11 @@ Makers can modify their site's title and update or remove the site logo.  If a l
 
 To style your header, select the **Styling menu option** from the side navigation links inside the Edit site header pop-up window.
 
-:::image type="content" source="media/edit-header/edit-site-header-styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
-
 ### Brand colors
 
 Makers can choose from a variety of options to add brand colors to their site's header.
+
+:::image type="content" source="media/edit-header/edit-site-header-styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
 
 - Under the **Brand colors label**, choose up to four colors by selecting each of the circles and choosing the color of your choice.
 
