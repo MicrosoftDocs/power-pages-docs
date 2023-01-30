@@ -4,7 +4,7 @@ description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 1/30/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: kkendrick
@@ -64,30 +64,38 @@ To add a list:
 
 ## List filters
 
-Makers can add list filters from the studio. Makers can configure (add/edit/delete) all the 7 types of metadata filters supported in Portal Management App. The 7 metadata filters supported via PMA are – (1) Text (2) FetchXML (3) Attribute Filter Set (4) Lookup Set (5) Range Filter Set (6) Dynamic Lookup Set (7) Dynamic Picklist Set. Each in design studio has a simplified name which matches its visualization.
+Makers can add list filters to their Power Pages site from the design studio.  All types of metadata filters supported in Portal Management App are configurable within Power Pages studio and each one has a simplified name, which matches its visualization.  Makers can also edit/delete the filters when working with list component inside the design studio.
 
-Different types of filters -
-
-Text is same as text filter in PMA, no change.
-
-Checkbox, Dropdown, Radio button: For these three options, studio shows a combined list of all columns that are applicable. For example, if the maker chooses a Choice data type column this will allow them to create a Dynamic Picklist filter. Depending on which column the maker chooses, the studio will show dynamic UI with appropriate options and create a corresponding metadata filter in PMA.
-
-Custom – same as FetchXML filter option in PMA, no change.
-
-Studio also allows maker to configure filter settings like orientation with in-context editing experience. With that, makers can also edit/delete the filters in-context when working with list component in the studio.
-
-Default mock data in list - Instead of showing an empty list – studio will now show some placeholder text that matched the view datatype format to give makers a sense that the list won't be empty and show some data on preview
-
-Link to all strings: [SampleDataStrings.docx](https://microsoft.sharepoint.com/:w:/t/PortalsTeam/EQTyK8DXcupFsr0Urun5BigBZt3z9gtIwi2xn4xk001u1w?e=gAEtKW)
-
+|**Filter Type**       |**Name in Studio** | **Description**   |
+|----------------------|------------------------------|-------------------|
+| Text Filter          | Text | Filter the list by using a text box to search for matching text in a selected attribute of the given table. |
+| FetchXML Filter      | Custom | Filter the list by using a FetchXML filter condition. |
+| Attribute Filter Set | | Filter the list by using a series of check boxes, each of which tries to match its condition against a particular attribute of the given table. |
+| Lookup Set           | | Filter the list by using a series of check boxes, each of which represents a relationship between a record for the given table and a record for a related table. |
+| Range Filter Set     | | Similar to the Attribute Filter Set, except that each check box can represent two conditions rather than one (for example, greater than or equal to 0 AND less than 100). |
+| Dynamic Lookup Set   | | Similar to the Lookup Set. The Dynamic Lookup Set doesn't require that you specify the lookup options to filter by.  Instead, it generates the full list of options when the list is loaded. |
+| Dynamic Picklist Set | | Similar to choosing a picklist value on an Attribute Filter Set. The Dynamic Picklist Set doesn't require that you specify the picklist options to filter by; instead, it generates the full list of options when the list is loaded. |
 
 ### Add a list filter
 
-To add a filter to your list:
+To add a list filter, select the list component you previously added and configured.  
 
-1. Add a list component from the component library and configure your list. 
+1. choose the **Add filter** menu item from the toolbar.
 
-2. Choose +Add filter from the list toolbar and add filters.
+    :::image type="content" source="media/add-list/add-filter.png" alt-text="The list toolbar inside the Pages workspace with the Add filter menu item emphasized.":::
+
+    A pop-up window will display in the Pages workspace with list filter options.  
+
+    :::image type="content" source="media/add-list/add-filter-pop-up.png" alt-text="The Add filter pop-up window inside Pages workspace.":::
+
+1. Select the type of filter you'd like to use from the drop-down selector under the **Type label**.
+
+    - The checkbox, dropdown, and radio button selections will display a combined list of all applicable columns.  The studio shows the appropriate options and creates the corresponding metadata filter inside the Portal Management App based on the column the maker selects.
+    - When a maker selects custom, a text box appears.  Makers will enter their XML statement in this field.
+
+1. Choose the column you'd like to filter from the drop-down selector under the **Column label**.
+
+1. Select the **OK button** to save your selections.  The studio displays placeholder text, which matches the datatype format the user selected.
 
 ### See also
 
