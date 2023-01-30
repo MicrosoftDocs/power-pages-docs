@@ -92,7 +92,8 @@ To add a list filter, select the list component you previously added and configu
 
 1. Choose the column you'd like to filter from the drop-down selector under the **Column label**.
 
-    The studio will display the different options for makers to filter their data based on the filter type and column they choose.
+    >[!NOTE]
+    > The studio will display the different options for makers to filter their data based on the filter type and column they choose.
 
 1. Select the **OK button** to save your selections.  
 
