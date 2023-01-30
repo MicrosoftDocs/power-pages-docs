@@ -198,10 +198,10 @@
           href: configure/web-api-http-requests-handle-errors.md
         - name: "How to: use the portals Web API"
           href: configure/webapi-how-to.md
-    - name: Use Visual Studio Code and Power Platform CLI
-      href: configure/cli-tutorial.md
     - name: Component framework
       href: configure/component-framework.md
+    - name: Use Visual Studio Code and Power Platform CLI
+      href: configure/cli-tutorial.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
 - name: Secure Power Pages
