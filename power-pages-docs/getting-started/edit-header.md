@@ -1,6 +1,6 @@
 ---
-title: Edit header
-description: Learn how to customize the header for your Power Pages site.
+title: Edit site header
+description: Learn how to make changes to the header of your Power Pages site.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
@@ -13,9 +13,14 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Edit header
+# Edit site header
 
-Makers can establish their site’s brand using the default header provided or by modifying the site's header.
+Makers can establish their Power Pages site's brand by modifying their site's header using the Edit site header feature. Using this feature, makers can:
+
+- Update the site's title and logo.
+- Provide accessible alt text for logo images.
+- Change colors and fonts to reflect their organization's branding.
+- Preview their site's responsive layout.
 
 From the Pages workspace, hover over the header component and select the **Edit Site Header** button.
 
