@@ -5,8 +5,8 @@ author: GitanjaliSingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/30/2023
-ms.subservice: portals
+ms.date: 01/31/2023
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -16,9 +16,9 @@ contributors:
   - ProfessorKendrick
 ---
 
-# Use code components in portals
+# Use code components in Power Pages
 
-Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps. These code components can provide an enhanced experience for users working with data on forms, views, and dashboards. More information: [Power Apps component framework overview](../../developer/component-framework/overview.md)
+Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps. These code components can provide an enhanced experience for users working with data on forms, views, and dashboards. More information: [Power Apps component framework overview](/power-apps/developer/component-framework/overview.md)
 
 Power Pages now supports controls built for model-driven apps created using Power Apps component framework. To use code components in Power Pages site webpages, follow these steps:
 
@@ -29,8 +29,8 @@ After following these steps, your users can now interact with the code component
 ## Prerequisites
 
 - You must have System Administrator privileges to enable the code component feature in the environment.
-- Your Power Pages site version must be [9.3.3.x](versions/version-9.3.3.x.md) or higher.
-- Your starter site package must be [9.2.2103.x](versions/package-version-9.2.2103.md) or higher.
+- Your Power Pages site version must be [9.3.3.x](/power-apps/maker/portals/versions/version-9.3.3.x) or higher.
+- Your starter site package must be [9.2.2103.x](/power-apps/maker/portals/versions/package-version-9.2.2103) or higher.
 
 ## Create and package code component
 
@@ -143,7 +143,7 @@ Open the Power Pages design studio
 
 To add a code component to a basic form using the Portal Management app:
 
-1. Open [Portal Management](configure/configure-portal.md) app.
+1. Open the [Portals Management](portal-management-app.md) app.
 
 1. On the left pane, select **Basic Forms**.
 
@@ -175,8 +175,8 @@ A code component can be built and added to a webpage that can use the [portal We
 
 ### See also
 
-[Power Apps component framework overview](../../developer/component-framework/overview.md) <br>
-[Create your first component](../../developer/component-framework/implementing-controls-using-typescript.md) <br>
-[Add code components to a column or table in model-driven apps](../../developer/component-framework/add-custom-controls-to-a-field-or-entity.md)
+- [Power Apps component framework overview](/power-apps/developer/component-framework/overview) 
+- [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript) 
+- [Add code components to a column or table in model-driven apps](/power-apps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
