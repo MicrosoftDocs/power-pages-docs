@@ -49,7 +49,7 @@ When the user searches for products, only 10 results show up, even though the se
 
 This behavior is more prevalent when search results span across multiple pages. But with progressive search, you can get more accurate results by changing the behavior of the search for enabled facets and filters.
 
-After a user enables progressive search on this portal, the search results for the same user, permissions, and keyword show the total number of results as 10 instead.
+After a user enables progressive search on this site, the search results for the same user, permissions, and keyword show the total number of results as 10 instead.
 
 If a user enables progressive search for a keyword that returns more than 50 results, the count shows as **50+** instead, with 10 results listed on the first page.
 
