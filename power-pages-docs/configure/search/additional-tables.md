@@ -82,7 +82,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Create or update the **search/filters** setting, and add the value **Products:nwind_products**.
 
-## Step 2: Create or verify the Search view
+## Step 2: Create or verify the Portal Search view
 
 > [!NOTE]
 > The following steps require the [Northwind Traders solution](/power-apps/maker/canvas-apps/northwind-install) to be installed. If you want to use another table, use the appropriate solution or use the Default solution.
