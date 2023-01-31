@@ -100,7 +100,7 @@ In this step, you’ll create a new basic form in portals and then add the compo
 
 ## Step 5. Create a webpage in portals with the basic form
 
-1. Open your portal in [Power Apps portals Studio](portal-designer-anatomy.md).
+1. Open your portal in Power Apps portals Studio.
 
 1. On the top-left corner, select **New page**.
 

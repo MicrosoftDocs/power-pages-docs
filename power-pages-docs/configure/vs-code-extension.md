@@ -30,12 +30,7 @@ portals.
 
 ### VS Code extension for portals
 
-The **Power Platform Tools** adds the capability to configure portals using
-VS Code, and use the built-in Liquid language
-[IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) enabling
-help with code completion, assistance, and hinting while customizing portals
-interface using VS Code. Using the VS Code extension, you can also configure portals through the [portals
-support for Microsoft Power Platform CLI](power-apps-cli.md).
+The **Power Platform Tools** adds the capability to configure portals using VS Code, and use the built-in Liquid language [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) enabling help with code completion, assistance, and hinting while customizing portals interface using VS Code. Using the VS Code extension, you can also configure portals through the [Microsoft Power Platform CLI](power-platform-cli.md).
 
 :::image type="content" source="media/vs-code-extension/install-pp-tools.gif" alt-text="Animation that explains how to install and set Power Platform Tools.":::
 
@@ -45,12 +40,11 @@ Before using the VS Code extension for Power Apps portals, you must:
 
 - Download, install, and configure Visual Studio Code. More information: [Download Visual Studio Code](https://code.visualstudio.com/Download)
 
-- Configure your environment and system for Power Apps portals CI/CD support using CLI. More information: [Portals support for Microsoft Power Platform CLI (preview)](power-apps-cli.md)
+- Configure your environment and system for Power Pages CI/CD support using CLI. More information: [Microsoft Power Platform CLI (preview)](power-platform-cli.md)
 
 ## Install VS Code extension
 
-After you install Visual Studio Code, you need to install the extension for the
-Power Apps portals plug-in for VS Code. 
+After you install Visual Studio Code, you need to install the extension for the Power Apps portals plug-in for VS Code. 
 
 To install the VS Code extension:
 
@@ -73,16 +67,14 @@ To install the VS Code extension:
 ## Download portals content
 
 To authenticate against a Microsoft Dataverse environment, and to download
-portals content, refer to the tutorial [Use Microsoft Power Platform CLI with Power Pages - download website content](power-platform-cli-tutorial.md#step-3-download-portals-content).
+portals content, refer to the tutorial [Use Microsoft Power Platform CLI with Power Pages - download website content](power-platform-cli-tutorial.md#step-3-download-website-content).
 
 > [!TIP]
 > The Power Platform Tools Extension automatically enables using Microsoft Power Platform CLI commands from within VS Code through [Visual Studio Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
 ## Snippet support
 
-When customizing downloaded content using VS Code, you can now use IntelliSense
-for Power Apps portals
-[Liquid tags](liquid/liquid-tags.md).
+When customizing downloaded content using VS Code, you can now use IntelliSense for Power Apps portals [Liquid tags](liquid/liquid-tags.md).
 
 :::image type="content" source="media/vs-code-extension/liquid-tag-completion.png" alt-text="Snippet with an example of entity Liquid tag completion.":::
 
