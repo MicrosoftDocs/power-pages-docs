@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: How to add a rich text component to a basic form"
-description: Walk-through example steps for adding a rich text component to a basic form in Power Apps portals.
+description: Walk-through example steps for adding a rich text component to a basic form in Power Pages.
 author: GitanjaliSingh33msft
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/09/2022
-ms.subservice: portals
+ms.date: 01/31/2023
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,12 +15,9 @@ contributors:
 
 ---
 
-# Tutorial: Configure the rich text editor control on portals 
+# Tutorial: Configure the rich text editor control on Power Pages 
 
-
-[!INCLUDE[cc-pages-ga-banner](../../includes/cc-pages-ga-banner.md)]
-
-In this tutorial, you'll configure Power Apps portals to add the [rich text editor control](../model-driven-apps/rich-text-editor-control.md) to a basic form and then add the basic form to a webpage. Portal users will be able interact with the rich text editor control to format text on the form.
+In this tutorial, you'll configure Power Apps portals to add the [rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#add-or-replace-a-text-column-for-rich-text-editing) to a basic form and then add the basic form to a webpage. Portal users will be able interact with the rich text editor control to format text on the form.
 
 ## Prerequisites
 
@@ -28,14 +25,14 @@ Your portal version must be [9.4.3.x](/power-platform/released-versions/portals)
 
 ## Step 1. Add the rich text editor control to a column in a model-driven app
 
-Follow the steps in the tutorial [Add or replace a text column for rich text editing](../model-driven-apps/rich-text-editor-control.md#add-or-replace-a-text-column-for-rich-text-editing) to add the component to a column on a model-driven form.
+Follow the steps in the tutorial [Add or replace a text column for rich text editing](/power-apps/maker/model-driven-apps/rich-text-editor-control#add-or-replace-a-text-column-for-rich-text-editing) to add the component to a column on a model-driven form.
 
 > [!NOTE]
 > To display the data as rich text, you might have to increase the character size of the text columns to accommodate the extra information.
 
 ## Step 2. Verify that the model-driven app uses the new control
 
-You can [update an existing model-driven app](../model-driven-apps/design-custom-business-apps-using-app-designer.md) or [create a new app](../model-driven-apps/build-first-model-driven-app.md) with the form to which you added the component. For example, the following image shows the feedback table **simple contact us form** using the rich text editor control in a model-driven app.
+You can [update an existing model-driven app](/power-apps/maker/model-driven-apps/design-custom-business-apps-using-app-designer) or [create a new app](/power-apps/maker/model-driven-apps/build-first-model-driven-app) with the form to which you added the component. For example, the following image shows the feedback table **simple contact us form** using the rich text editor control in a model-driven app.
 
 :::image type="content" source="media/component-rte-tutorial/rich-text-editor-mda.png" alt-text="Rich text editor for a feedback table.":::
 
@@ -45,7 +42,7 @@ In this step, you'll create a new basic form in portals and then add the control
 
 ### Step 3.1. Create a new basic form
 
-1. Open the [Portal Management app](configure/configure-portal.md).
+1. Open the [Portals Management app](portal-management-app.md).
 
 1. On the left pane under **Content**, select **Basic Forms**.
 
@@ -65,7 +62,7 @@ In this step, you'll create a new basic form in portals and then add the control
 
 ### Step 3.2. Add the rich text editor control to the basic form
 
-1. Open the [Portal Management app](configure/configure-portal.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 1. On the left pane under **Content**, select **Basic Forms**.
 
@@ -91,9 +88,9 @@ In this step, you'll create a new basic form in portals and then add the control
 
 ### Step 3.3. Add table permissions for the rich text attachment table
 
-For using and storing images in the rich text editor on the portal, you'll need to add [table permissions](configure/entity-permissions-studio.md) to the rich text attachment table (msdyn_richtextfile).
+For using and storing images in the rich text editor on the portal, you'll need to add [table permissions](../security/table-permissions.md) to the rich text attachment table (msdyn_richtextfile).
 
-1. Open your portal in [portals Studio](portal-designer-anatomy.md).
+1. Open your portal in portals Studio.
 
 1. On the left pane, choose **Settings** (gear icon) and select **Table Permissions**
 
@@ -108,16 +105,16 @@ For using and storing images in the rich text editor on the portal, you'll need 
 
 1. Under **Permission to**, select the **Read**, **Write**, **Create**, and **Delete** checkboxes.
  
-1. Assign an appropriate [web role](configure/create-web-roles.md) to the table permission.
+1. Assign an appropriate [web role](../security/create-web-roles.md) to the table permission.
 
     :::image type="content" source="media/component-rte-tutorial/rich-text-table-permission.png" alt-text="Configuration of the rich text table permissions.":::
 
 > [!IMPORTANT]
-> If you want to store images as base 64 strings directly in the column that you've configured to use the rich text editor control, you need to configure the control by using a [JSON configuration file](../model-driven-apps/rich-text-editor-control.md#create-and-use-advanced-configuration-for-the-rich-text-editor-control). Set **disableImages** and **disableDefaultImageProcessing** to **true** to allow images to be rendered consistently across all clients. Using this method doesn't require the global table permission on the rich text attachment (msdyn_richtextfile) table.
+> If you want to store images as base 64 strings directly in the column that you've configured to use the rich text editor control, you need to configure the control by using a [JSON configuration file](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control). Set **disableImages** and **disableDefaultImageProcessing** to **true** to allow images to be rendered consistently across all clients. Using this method doesn't require the global table permission on the rich text attachment (msdyn_richtextfile) table.
 
 ### Step 3.4. Add web API site setting
 
-1. Open the [Portal Management app](configure/configure-portal.md). 
+1. Open the [Portals Management app](portal-management-app.md). 
 
 1. Go to **Site Settings**.
 
@@ -130,7 +127,7 @@ For using and storing images in the rich text editor on the portal, you'll need 
 
 ## Step 4. Create a webpage in portals that uses the basic form
 
-1. Open your portal in the [Power Apps portals Studio](portal-designer-anatomy.md).
+1. Open your portal in the Power Apps portals Studio.
 
 1. In the upper-left corner, select **New page**.
 
@@ -153,10 +150,10 @@ For using and storing images in the rich text editor on the portal, you'll need 
     > [!TIP]
     > If you don't see the form, select **Sync Configuration** to synchronize changes from Dataverse.
 
-1. Under **Permissions**, select **Manage table permissions** and make sure that you have the appropriate [table permissions](configure/assign-entity-permissions.md) and [web roles](configure/create-web-roles.md) configured for the Dataverse table associated to the form.
+1. Under **Permissions**, select **Manage table permissions** and make sure that you have the appropriate [table permissions](../security/table-permissions.md) and [web roles](../security/create-web-roles.md) configured for the Dataverse table associated to the form.
     
     > [!NOTE]
-    > By default, the **feedback** table has **create** permissions configured for the default web roles. For more information, go to [Contact us sample](contact-us-sample.md).
+    > By default, the **feedback** table has **create** permissions configured for the default web roles.
 
 1. In the upper-right corner, select **Browse website**.
 
@@ -170,7 +167,7 @@ On a read-only form, the rich text editor displays the content with formatting a
 
 ### See also
 
-[Power Apps component framework overview](../../developer/component-framework/overview.md) <br>
-[Create your first component](../../developer/component-framework/implementing-controls-using-typescript.md) <br>
-[Add code components to a field or table in model-driven apps](../../developer/component-framework/add-custom-controls-to-a-field-or-entity.md)
+- [Power Apps component framework overview](/power-apps/developer/component-framework/overview) 
+- [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript) 
+- [Add code components to a field or table in model-driven apps](/power-apps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 

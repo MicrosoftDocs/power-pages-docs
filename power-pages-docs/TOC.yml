@@ -198,10 +198,28 @@
           href: configure/web-api-http-requests-handle-errors.md
         - name: "How to: use the portals Web API"
           href: configure/webapi-how-to.md
-    - name: Component framework
-      href: configure/component-framework.md
-    - name: Use Visual Studio Code and Power Platform CLI
-      href: configure/cli-tutorial.md
+    - name: Use code components
+      items:
+        - name: Code component overview
+          href: configure/component-framework.md
+        - name: "Tutorial: Use code components in Power Pages"
+          href: configure/component-framework-tutorial.md
+        - name: "Tutorial: Use dataset code components in Power Pages"
+          href: configure/tutorial-pcf-code.md          
+        - name: "Tutorial: Configure rich text editor control"
+          href: configure/component-rte-tutorial.md
+        - name: Use code components Liquid template tag
+          href: configure/liquid/component-framework-liquid.md
+        - name: Implement a sample portal Web API component
+          href: configure/implement-webapi-component.md
+    - name: Use Microsoft Power Platform CLI
+      items:                          
+        - name: Overview of Power Platform CLI
+          href: configure/power-platform-cli.md
+        - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
+          href: configure/power-platform-cli-tutorial.md
+        - name: Use Visual Studio Code for Power Pages
+          href: configure/vs-code-extension.md      
     - name: Power Pages ALM
       href: configure/portals-alm.md
 - name: Secure Power Pages
