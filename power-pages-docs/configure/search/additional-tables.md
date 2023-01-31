@@ -161,7 +161,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 1. Append the URL in the address bar with **/_services/about**, and then select **Enter**.
 
-1. Select [Clear cache](../admin/clear-server-side-cache.md).
+1. Select [Clear cache](/power-apps/maker/portals/admin/clear-server-side-cache).
 
 1. After clearing the cache, select [Rebuild full search index](overview.md#rebuild-full-search-index).
 
