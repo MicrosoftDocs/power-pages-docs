@@ -4,7 +4,7 @@ description: Learn how to get started with templates.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 1/30/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: kkendrick
@@ -24,8 +24,6 @@ The default design template is a versatile template that provides basic building
     :::image type="content" source="media/default-template/create.png" alt-text="The maker studio GUI with the Create a site button selected.":::
 
 1. Select the Default design template from the available options and choose Select Template.
-
-    :::image type="content" source="media/default-template/default-template.png" alt-text="The maker studio GUI with default template selected.":::
 
 1. Validate the default site name and web address created and select Done.
 

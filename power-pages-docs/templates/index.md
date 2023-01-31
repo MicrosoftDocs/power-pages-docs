@@ -4,7 +4,7 @@ description: Learn the features of Power Pages templates.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
+ms.date: 1/30/2023
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
@@ -13,15 +13,15 @@ contributors:
 
 # Power Pages templates
 
-When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a site design template to build your site, or you can choose scenario-based templates to accelerate creating your site.
+When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a starter layout template to build your site, or you can choose scenario-based templates to accelerate creating your site.
 
 :::image type="content" source="media/select-template.png" alt-text="Selection of templates when creating a new site.":::
 
-## Site design templates
+## Starter layout templates
 
-The **site design** templates provide building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
+The **starter layout** templates provide building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
 
-More information: [Site design templates](site-design.md)
+More information: [Starter layout templates](starter-layout.md)
 
 ## After school program registration template
 

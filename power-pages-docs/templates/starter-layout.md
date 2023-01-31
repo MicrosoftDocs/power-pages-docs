@@ -1,10 +1,10 @@
 ---
-title: Site design templates
-description: The site design templates provide basic building blocks for you to create custom sites.
+title: Starter layout templates
+description: The starter layout templates provide basic building blocks for you to create custom sites.
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
+ms.date: 1/30/2023
 ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: kkendrick
@@ -13,21 +13,19 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Site design templates
+# Starter layout templates
 
-The site design templates provide building blocks for you to create custom sites. Each site design template has different layout, images, and colors that can be used as-is or customized to meet your needs.
-
-:::image type="content" source="media/site-design.png" alt-text="Site design templates.":::
+The starter layout templates provide building blocks for you to create custom sites. Each template has different layout, images, and colors that can be used as-is or customized to meet your needs.
 
 ## Makers
 
 Makers are able to use the design studio to modify the templates for their specific needs.
 
-The following are the pages, forms, and customizable tables provided in each site design template. These components can be modified to align with your specific project needs.
+The following are the pages, forms, and customizable tables provided in each starter layout template. These components can be modified to align with your specific project needs.
 
 ### Pages
 
-All site design templates contain the following pages.
+All starter layout templates contain the following pages.
 
 | **Page**       | **Description**                         |
 |----------------|-----------------------------------------|
