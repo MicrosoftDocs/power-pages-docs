@@ -85,7 +85,7 @@ The following walkthrough explains each step in detail with a sample database an
 ## Step 2: Create or verify the Portal Search view
 
 > [!NOTE]
-> The following steps require the [Northwind Traders solution](../../canvas-apps/northwind-install.md) to be installed. If you want to use another table, use the appropriate solution or use the Default solution.
+> The following steps require the [Northwind Traders solution](/power-apps/maker/canvas-apps/northwind-install) to be installed. If you want to use another table, use the appropriate solution or use the Default solution.
 
 1. Go to [Power Apps](https://make.powerapps.com), and select **Solutions** from the left navigation pane.
 
