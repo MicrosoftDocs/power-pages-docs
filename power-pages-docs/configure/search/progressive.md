@@ -30,7 +30,7 @@ A site configured with progressive search processes five pages for a permissions
 
 To configure progressive search:
 
-1. Open the [Portal Management app](configure-portal.md) app.
+1. Open the [Portal Management app](../portal-management-app.md).
 1. On the left pane, select **Site Settings** under **Website**.
 1. Select **New**.
 1. Enter **Name** as "Search/EnableProgressiveSearchCounts".
