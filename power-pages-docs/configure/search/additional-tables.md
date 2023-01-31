@@ -62,7 +62,7 @@ For example, if your table logical name is *nwind_products*, the site marker wil
 The following walkthrough explains each step in detail with a sample database and solution to configure search for additional tables.
 
 > [!NOTE]
-> - This walkthrough explains how to enable search for the **Order Products** table in the sample database **Northwind**, available with Microsoft Dataverse. For more information about sample databases, see [Install Northwind Traders database and apps](../../canvas-apps/northwind-install.md).
+> - This walkthrough explains how to enable search for the **Order Products** table in the sample database **Northwind**, available with Microsoft Dataverse. For more information about sample databases, see [Install Northwind Traders database and apps](/power-apps/maker/canvas-apps/northwind-install).
 > - You can follow the walkthrough with a table of your choice by replacing the *nwind_products* table name with your table's logical name.
 
 ## Step 1: Add or update search site settings
