@@ -134,7 +134,7 @@
       href: configure/portal-management-app.md
     - name: Search Configuration
       items:
-      - name: Overview
+      - name: Search overview
         href: configure/search/overview.md
       - name: Search additional tables
         href: configure/search/additional-tables.md
