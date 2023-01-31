@@ -1,11 +1,11 @@
 ---
-title: Tutorial on how to use Power Platform CLI with portals
-description: This page provides a walk-through with examples for how to use Power Platform CLI with Power Apps portals for CI/CD (Continuous Integration/Continuous Deployment).
+title: Tutorial on how to use Power Platform CLI with Power Pages
+description: This page provides a walk-through with examples for how to use Power Platform CLI with Power Pages for CI/CD (Continuous Integration/Continuous Deployment).
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/16/2022
-ms.subservice: portals
+ms.date: 01/31/2023
+ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -14,17 +14,13 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Tutorial: Use Microsoft Power Platform CLI with portals
+# Tutorial: Use Microsoft Power Platform CLI with Power Pages
 
-
-[!INCLUDE[cc-pages-ga-banner](../../includes/cc-pages-ga-banner.md)]
-
-In this tutorial example, you'll see how to get started with Microsoft Power Platform CLI to update sample portals configuration.
+In this tutorial example, you'll see how to get started with Microsoft Power Platform CLI to update sample website configuration.
 
 > [!NOTE] 
-> - You can also use Power Platform CLI with Power Pages. More information: [What is Power Pages](/power-pages/introduction)
-> - This tutorial focuses on the required Microsoft Power Platform CLI commands for
-Power Apps portals use. For more information about commands used in Power Platform
+> This tutorial focuses on the required Microsoft Power Platform CLI commands for
+Power Pages use. For more information about commands used in Power Platform
 CLI, read [Common
 commands](/power-platform/developer/cli/introduction#common-commands).
 
@@ -54,20 +50,20 @@ your Dataverse environment URL:
 
 Follow the prompts of authentication to sign in to the environment.
 
-![Example of how to authenticate to a Dataverse environment using Microsoft Power Platform CLI.](media/power-apps-cli/auth-create.png "Example of how to authenticate to a Dataverse environment using Microsoft Power Platform CLI")
+:::image type="content" source="media/power-apps-cli/auth-create.png" alt-text="Example of how to authenticate to a Dataverse environment using Microsoft Power Platform CLI":::
 
-## Step 2. List available portals
+## Step 2. List available websites
 
 Use the [pac paportal list](/power-platform/developer/cli/reference/paportal) command to list the available Power Apps portals in the
 Dataverse environment you connected to in the previous step.
 
 `pac paportal list`
 
-![Example list of portals.](media/power-apps-cli/paportal-list.png "Example list of portals")
+:::image type="content" source="media/power-apps-cli/paportal-list.png" alt-text="Example list of websites.":::
 
-## Step 3. Download portals content
+## Step 3. Download website content
 
-Download portal website content from the connected Dataverse environment using the [pac paportal download](/power-platform/developer/cli/reference/paportal) command.
+Download website content from the connected Dataverse environment using the [pac paportal download](/power-platform/developer/cli/reference/paportal) command.
 
 `pac paportal download --path [PATH] -id [WebSiteId-GUID]`
 
@@ -79,15 +75,15 @@ d44574f9-acc3-4ccc-8d8d-85cf5b7ad141`
 For the **id** parameter, use the **WebSiteId** returned from the output of the
 previous step.
 
-![Example of downloading portals content.](media/power-apps-cli/paportal-download.png "Example of downloading portals content")
+:::image type="content" source="media/power-apps-cli/paportal-download.png" alt-text="Text used by screen readers.":::
 
-## Step 4. Change portals content
+## Step 4. Change website content
 
 Change the configuration using Visual Studio Code and save your changes.
 
 > [!NOTE]
 > Ensure you update only the supported tables for use with Power Platform 
-CLI. For more information, see [Supported tables](power-apps-cli.md#supported-tables).
+CLI. For more information, see [Supported tables](power-platform-cli.md#supported-tables).
 
 For example, the default portal page shows text such as this:
 
@@ -95,11 +91,11 @@ For example, the default portal page shows text such as this:
 
 This text is visible from the webpage html:
 
-![Visual Studio Code with text highlighted for change.](media/power-apps-cli/vs-code-page.png "Visual Studio Code with text highlighted for change")
+:::image type="content" source="media/power-apps-cli/vs-code-page.png" alt-text="Visual Studio Code with text highlighted for change.":::
 
 You can alter this text and save the changes:
 
-![Updated text using Visual Studio Code.](media/power-apps-cli/page-updated.png "Updated text using Visual Studio Code")
+:::image type="content" source="media/power-apps-cli/page-updated.png" alt-text="Updated text using Visual Studio Code.":::
 
 > [!TIP]
 > You can change the location of the folder path in PowerShell/integrated
@@ -121,7 +117,7 @@ After making the required changes, upload them using the [pac paportal upload](/
 
 `pac paportal upload --path C:\pac-portals\downloads\custom-portal\`
 
-![Starting upload.](media/power-apps-cli/upload.png "Starting upload")
+:::image type="content" source="media/power-apps-cli/upload.png" alt-text="Starting upload.":::
 
 > [!NOTE]
 > Ensure the path for the portals content you entered is correct. By
@@ -134,7 +130,7 @@ The upload only happens for content that's been changed. In this example, since 
 change is made to a webpage, content is uploaded only for the adx_webpage
 table.
 
-![Upload completed only for changed content.](media/power-apps-cli/upload-completed.png "Upload completed only for changed content")
+:::image type="content" source="media/power-apps-cli/upload-completed.png" alt-text="Upload completed only for changed content.":::
 
 ### Upload the changes using deployment profile
 
@@ -177,11 +173,11 @@ When working with multiple different environments, you may consider using deploy
 
 ## Step 6. Confirm the changes
 
-To confirm the changes made to the portal webpage:
+To confirm the changes made to the webpage:
 
-1. Clear the [server-side cache](admin/clear-server-side-cache.md), or use [Sync Configuration](portal-designer-anatomy.md) by using Power Apps portals Studio.
+1. Select **Sync** in the Power Pages design studio.
 
-1. Browse to the portal webpage to see the change.
+1. Browse to the webpage to see the change.
 
     :::image type="content" source="media/power-apps-cli/changed-section.png" alt-text="View updated page content.":::
 
@@ -194,7 +190,7 @@ To confirm the changes made to the portal webpage:
     :::image type="content" source="media/power-apps-cli-tutorial/browser-change.png" alt-text="Browser change ":::
 
 This concludes the tutorial. You can repeat the above steps and change the
-portals content for other [supported tables](power-apps-cli.md#supported-tables).
+portals content for other [supported tables](power-platform-cli.md#supported-tables).
 
 ## Next steps
 
@@ -202,6 +198,6 @@ portals content for other [supported tables](power-apps-cli.md#supported-tables)
 
 ### See also
 
-- [Microsoft Power Platform CLI](../../developer/data-platform/powerapps-cli.md)
+- [Microsoft Power Platform CLI](/power-pages/developer/data-platform/powerapps-cli)
 - [Use the Visual Studio Code extension (preview)](vs-code-extension.md)
 
