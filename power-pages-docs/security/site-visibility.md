@@ -96,7 +96,7 @@ If the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to
 The tenant-level setting can be updated using a PowerShell script.
 
 > [!IMPORTANT]
-> - After February 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE.
+> - After October 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE.
 
 To get the current value for the tenant setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command.
 
