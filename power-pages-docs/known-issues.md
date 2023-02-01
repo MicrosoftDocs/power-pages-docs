@@ -36,7 +36,7 @@ contributors:
 
 ### Modifying the header in Portal Management App
 
-When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. To resolve this issue, open the Mobile Header in the [Portal Management app overview](configure/portal-management-app.md) and update the source code with the correct attribute values for each snippet as in the example below.
+When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. To resolve this issue, open the Mobile Header content snippet in the [Portal Management app](configure/portal-management-app.md) and update the source code with the correct attribute values for each snippet as in the example below.
 
 ```html
 <a href="~/">
