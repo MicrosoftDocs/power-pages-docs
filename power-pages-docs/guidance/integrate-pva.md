@@ -15,7 +15,7 @@ contributors:
 
 # How to: Embed a chatbot on a webpage
 
-The Power Pages design studio does not have the ability to add a chatbot component to a webpage using the components panel. 
+The Power Pages design studio doesn't have the ability to add a chatbot component to a webpage using the components panel. 
 
 > [!NOTE]
 > You can [add a chatbot](/power-apps/maker/portals/add-chatbot) using the legacy portal Studio for websites created in Power Apps.
@@ -29,25 +29,25 @@ The following steps provide an alternative method to embed a Power Virtual Agent
 - A Power Virtual Agents subscription or trial. [Sign up for a Power Virtual Agents trial](/power-virtual-agents/sign-up-individual).
 - A Power Virtual Agents chatbot. [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot).
 
-## Locate chatbot id
+## Locate chatbot ID
 
-In the following steps we will get the chatbot id that we will use to embed into Power Pages.
+In the following steps, we'll get the chatbot ID that we'll use to embed into Power Pages.
 
 1. The Power Virtual Agents home page, select **Publish** from the side menu.
 
 1. In the **Optimize your bot** section, choose **Go to Channels**.
 
-    :::image type="content" source="media/pva/pva-channels.png" alt-text="Select PVA channels.":::
+    :::image type="content" source="media/pva/pva-channels.png" alt-text="Select Power Virtual Agents channels.":::
 
 1. In the **Channels** section, select **Custom website**.
 
-1. In the slide-out panel in the **Default embed code** section, select and copy the code following the `/bots/` path (this is the **chatbot id**).
+1. In the slide-out panel in the **Default embed code** section, select and copy the code following the `/bots/` path (this code is the **chatbot id**).
 
     :::image type="content" source="media/pva/embedcode.png" alt-text="Copying the embed code.":::
 
 ## Update the chatbot record in Data workspace
 
-In the following step we will update the **Bot Consumer** table with our chatbot information.
+In the following step, we'll update the **Bot Consumer** table with our chatbot information.
 
 1. Go to [Power Pages](https://aka.ms/mpp).
 
@@ -64,7 +64,7 @@ In the following step we will update the **Bot Consumer** table with our chatbot
     | Field | Data |
     | - | - |
     | Name | Any name you choose, for example *TestBot* |
-    | Bot Schema Name | The chatbot id you copied from the Power Virtual agent page. For example: `new_bot_df0a07025507434b9ebb085434ac755f`. |
+    | Bot Schema Name | The chatbot ID you copied from the Power Virtual Agent page. For example: `new_bot_df0a07025507434b9ebb085434ac755f`. |
     | Website | Select the lookup to the website where you want to host the chatbot. |
     | Config Json | {} |
     
