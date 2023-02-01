@@ -57,6 +57,8 @@ In the following step, we'll update the **Bot Consumer** table with our chatbot 
 
 1. Locate the **Bot Consumer** table.
 
+1. Select the blank row.
+
 1. Select **Edit row using form**
 
 1. Enter in the following values into the table:
