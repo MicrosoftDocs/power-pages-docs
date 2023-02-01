@@ -68,7 +68,7 @@ Makers can add list filters to their Power Pages site from the design studio.
 
 ### Filter types
 
-All types of metadata filters supported in Portal Management App are configurable within Power Pages studio and each one has a simplified name, which matches its visualization.  Makers can also edit/delete the filters when working with list component inside the design studio.
+All types of metadata filters supported in [Portal Management app](../configure/portal-management-app.md) are configurable within Power Pages studio and each one has a simplified name, which matches its visualization.  Makers can also edit/delete the filters when working with list component inside the design studio.
 
 | Filter Visualization | Description  |
 |---------|---------|
