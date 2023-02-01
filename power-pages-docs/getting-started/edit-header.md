@@ -4,7 +4,7 @@ description: Learn how to make changes to the header of your Power Pages site.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/30/2023
+ms.date: 2/1/2023
 ms.subservice:
 ms.author: clromano 
 ms.reviewer: kkendrick
@@ -24,7 +24,7 @@ Makers can establish their Power Pages site's brand by modifying their site's he
 
 From the Pages workspace, hover over the header component and select the **Edit Site Header button**.
 
-:::image type="content" source="media/edit-header/edit-site-header-button.png" alt-text="The Edit Site Header button, which appears when you hover over the header inside Pages workspace.":::
+:::image type="content" source="media/edit-header/edit-header-button.png" alt-text="The Edit Site Header button, which appears when you hover over the header inside Pages workspace.":::
 
 Editing options will appear within a pop-up window inside the Pages workspace.
 
@@ -32,7 +32,7 @@ Editing options will appear within a pop-up window inside the Pages workspace.
 
 In the **Title + logo** section of the Edit site header pop-up window, makers can modify their site's title and update or remove the site logo.  
 
-:::image type="content" source="media/edit-header/edit-site-header.png" alt-text="Title and logo options inside the Edit site header pop-up window.":::
+:::image type="content" source="media/edit-header/title-logo.png" alt-text="Title and logo options inside the Edit site header pop-up window.":::
 
 - Enter your text in the text box under the **Site title label** to edit the site's title.
 - Use the **toggle switch** next to the **Site logo label** to remove the logo from the header completely.
@@ -47,7 +47,7 @@ To style your header, select the **Styling menu option** from the side navigatio
 
 Makers can choose from various options to add brand colors to their site's header.
 
-:::image type="content" source="media/edit-header/edit-site-header-styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
+:::image type="content" source="media/edit-header/styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
 
 - Choose the colors for your site's header by selecting each of the circles under the **Brand colors label**.
 - Select the colored square next to the **Header background label** to choose which brand color will serve as your header's background.
@@ -57,7 +57,7 @@ Makers can choose from various options to add brand colors to their site's heade
 
 To preview your site's responsive layout, select the **Layout menu option** from the side navigation links inside the Edit site header pop-up window.
 
-:::image type="content" source="media/edit-header/edit-site-header-layout.png" alt-text="Layout options in the Edit site header pop-up window.":::
+:::image type="content" source="media/edit-header/layout.png" alt-text="Layout options in the Edit site header pop-up window.":::
 
 - Use the **+** and **-** controls to modify the display size.
 
