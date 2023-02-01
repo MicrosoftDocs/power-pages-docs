@@ -68,7 +68,7 @@ In the following step, we'll update the **Bot Consumer** table with our chatbot 
     | Name | Any name you choose, for example *TestBot* |
     | Bot Schema Name | The chatbot ID you copied from the Power Virtual Agent page. For example: `new_bot_df0a07025507434b9ebb085434ac755f`. |
     | Website | Select the lookup to the website where you want to host the chatbot. |
-    | Config Json | {} |
+    | Config Json | Key in parentheses characters. `{}` |
     
     :::image type="content" source="media/pva/chatbot-record.png" alt-text="Updating chatbot record.":::
 
