@@ -76,6 +76,9 @@ In the following step, we'll update the **Bot Consumer** table with our chatbot 
 
 The following steps will specify if the chatbot will be visible on all pages of the site or only on specific pages. If both a website and webpages are specified, visibility on the website will take precedence.
 
+> [!NOTE]
+> Once you specify relationships to either the website or the webpage records, you will be unable to remove the association and will need delete and recreate the **bot consumer** record and re-establish the relationships.
+
 ### Add chatbot to website
 
 1. Select the **Related** tab, select **Websites**.
