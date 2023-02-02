@@ -17,7 +17,7 @@ contributors:
 
 # Dataverse Liquid tags
 
-Microsoft Dataverse Liquid tags are used to load and display Dataverse data, or use other Power Apps portals framework services. These tags are Dataverse-specific extensions to the Liquid language.
+Microsoft Dataverse Liquid tags are used to load and display Dataverse data, or use other Power Pages framework services. These tags are Dataverse-specific extensions to the Liquid language.
 
 ## chart
 
@@ -68,7 +68,7 @@ Type of authentication required for the Power BI report or dashboard. Valid valu
 
 - **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who don't have Power BI license or Azure Active Directory authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](/power-apps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-embedded-service). 
 
-While adding the secure Power BI report or dashboard, ensure that it's shared with portal Azure Active Directory or Power BI Embedded services. 
+While adding the secure Power BI report or dashboard, ensure that it's shared with the Power Pages Azure Active Directory or Power BI Embedded services. 
 
 > [!NOTE]
 > The values for the `authentication_type` parameter are case insensitive.
@@ -126,9 +126,9 @@ If you have defined roles in Power BI and assigned them to reports, you must spe
 If you've assigned a role to a Power BI report, and didn't specify the **roles** parameter in the Liquid tag or didn't specify a role in the parameter, an error is displayed.
 
 > [!TIP]
-> If you want to use the web roles defined in your portal as the Power BI roles, you can define a variable and assign web roles to it. You can then use the defined variable in the Liquid tag.
+> If you want to use the web roles defined in your site as the Power BI roles, you can define a variable and assign web roles to it. You can then use the defined variable in the Liquid tag.
 >
-> Let's say you have defined two web roles as Region_East and Region_West in your portal. You can join them by using the code: `{% assign webroles = user.roles | join: ", " %}`
+> Let's say you have defined two web roles as Region_East and Region_West in your site. You can join them by using the code: `{% assign webroles = user.roles | join: ", " %}`
 >
 > In the above code snippet, `webroles` is a variable and the Region_East and Region_West web roles will be stored in it.
 >
@@ -138,7 +138,7 @@ If you've assigned a role to a Power BI report, and didn't specify the **roles**
 
 ## editable
 
-Renders a given Power Apps portals CMS object as editable on the portal, for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
+Renders a given Power Pages CMS object as editable on the site, for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
 
 ```
 {% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}
@@ -283,7 +283,7 @@ Loaded list {{ entitylist.adx_name }}.
 
 **language\_code**
 
-A Power Apps integer language code to select the list localized labels to be loaded. If no language\_code is provided, the default language of the portal application Power Apps connection will be used.
+A Dataverse integer language code to select the list localized labels to be loaded. If no language\_code is provided, the default language of the site application Dataverse connection will be used.
 
 ```
 {% entitylist name:"My List", language_code:1033 %}
@@ -295,7 +295,7 @@ Loaded list {{ entitylist.adx_name }}.
 
 ## entityview
 
-Loads a given Power Apps view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that will be available within the tag block.  
+Loads a given Dataverse view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that will be available within the tag block.  
 
 If the view is loaded successfully, the content within the block will be rendered. If the view isn't found, the block content won't be rendered.
 
@@ -333,7 +333,7 @@ Loaded default view of the list associated with the current page, with {{ entity
 
 ### Parameters
 
-Provide **either** id **or** logical\_name with name to select the Power Apps view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
+Provide **either** id **or** logical\_name with name to select the Dataverse view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
 
 **id**
 
@@ -359,7 +359,7 @@ Loaded entity view {{ entityview.name }} using view query string request paramet
 
 **logical\_name**
 
-The Power Apps entity logical name of the view to be loaded. Must be used in combination with name.
+The Dataverse entity logical name of the view to be loaded. Must be used in combination with name.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -371,7 +371,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 **name**
 
-The Power Apps name of the view to be loaded. Must be used in combination with logical\_name.
+The Dataverse name of the view to be loaded. Must be used in combination with logical\_name.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -512,7 +512,7 @@ Loaded entity view with {{ entityview.total_records }} total matching records.
 
 **language\_code**
 
-A Power Apps integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the portal application Power Apps connection will be used.
+A Dataverse integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the website application Dataverse connection will be used.
 
 If entityview is used within an entitylist block, entityview will inherit its language code configuration from entitylist.
 
@@ -526,7 +526,7 @@ Loaded entity view {{ entityview.name }}.
 
 ## searchindex
 
-Performs a query against the portal search index. The matching results can then be accessed using a [searchindex](liquid-objects.md#searchindex) that will be available within the tag block.  
+Performs a query against the website search index. The matching results can then be accessed using a [searchindex](liquid-objects.md#searchindex) that will be available within the tag block.  
 
 ```
 {% searchindex query: 'support', page: params.page, page_size: 10 %}
@@ -628,7 +628,7 @@ This parameter supports [the Lucene Query Parser syntax](https://lucene.apache.o
 
 **logical\_names**
 
-The Power Apps entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
+The Dataverse entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
 
 ```
 {% searchindex query: request.params.query, logical_names: 'kbarticle,incident' %}

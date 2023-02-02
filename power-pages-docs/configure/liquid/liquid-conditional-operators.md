@@ -33,7 +33,7 @@ You can test for empty strings and arrays using the special value empty if neces
 <h1>{{ page.title }}</h1>
 {% endunless %}
 ```
-You can also test the size of [Liquid types](liquid-types.md), [Liquid types](liquid-types.md), or [Liquid types](liquid-types.md) using the special size property.
+You can also test the size of [Liquid types](liquid-types.md) using the special size property.
 
 ```
 {% if page.children.size > 0 %}
