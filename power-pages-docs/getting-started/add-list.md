@@ -4,9 +4,9 @@ description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/30/2023
+ms.date: 2/02/2023
 ms.subservice:
-ms.author: ndoelman 
+ms.author: shrutiphanse 
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
