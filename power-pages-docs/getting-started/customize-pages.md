@@ -1,6 +1,6 @@
 ---
-title: Customize webpages
-description: Learn how to customize Power Pages sites.
+title: Customize webpages with design studio page editor
+description: Learn how to customize Power Pages sites with the design studio page editor.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
@@ -14,7 +14,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Customize webpages using the design studio page editor
+# Customize webpages with design studio page editor
 
 After adding the webpages you need and managing their hierarchy in the site map, you can add various components. The WYSIWYG design studio page editor is part of the Pages workspace. Use the editor to add and edit the components you need within the canvas.
 
