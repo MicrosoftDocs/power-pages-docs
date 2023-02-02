@@ -4,7 +4,7 @@ description: Learn how to embed a Power Virtual Agent chatbot on a webpage in Po
 author: neerajnandwana-msft
 ms.topic: guidance
 ms.custom: 
-ms.date: 02/01/2023
+ms.date: 02/02/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -45,7 +45,7 @@ In the following steps, we'll get the chatbot ID that we'll use to embed into Po
 
     :::image type="content" source="media/pva/embedcode.png" alt-text="Copying the embed code.":::
 
-## Update the chatbot record in Data workspace
+## Add chatbot to the site
 
 In the following step, we'll update the **Bot Consumer** table with our chatbot information.
 
@@ -72,6 +72,12 @@ In the following step, we'll update the **Bot Consumer** table with our chatbot 
     
     :::image type="content" source="media/pva/chatbot-record.png" alt-text="Updating chatbot record.":::
 
+## Add chatbot to website or to specific webpages
+
+The following steps will specify if the chatbot will be visible on all pages of the site or only on specific pages. If both a website and webpages are specified, visibility on the website will take precedence.
+
+### Add chatbot to website
+
 1. Select the **Related** tab, select **Websites**.
 
 1. Select **Add Existing Website**
@@ -79,6 +85,22 @@ In the following step, we'll update the **Bot Consumer** table with our chatbot 
 1. Choose the website where you want to host the chatbot. 
 
     :::image type="content" source="media/pva/select-website.png" alt-text="Select website.":::
+
+1. Select **Add**.
+
+1. Select **Save & Close**
+
+1. Select **Done** on the **Currently editing a row** pop-up window.
+
+### Add chatbot to specific webpages
+
+1. Select the **Related** tab, select **Websites**.
+
+1. Select **Add Existing Website**
+
+1. Choose the website where you want to host the chatbot. 
+
+    :::image type="content" source="media/pva/select-webpage.png" alt-text="Select webpage.":::
 
 1. Select **Add**.
 
