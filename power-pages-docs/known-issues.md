@@ -36,7 +36,7 @@ contributors:
 
 ### Modifying the header in Portal Management App
 
-When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in Studio until the attribute values are updated appropriately. To resolve this issue, open the Mobile Header content snippet in the [Portal Management app](configure/portal-management-app.md) and update the source code with the correct attribute values for each snippet as in the example below.
+When customizing the header, if someone has modified the Liquid code, these changes must be synchronized. Changes won't reflect in studio until the attribute values in the underlying content snippets are updated to reflect these changes. To resolve this issue, open the Mobile Header content snippet in the [Portal Management app](configure/portal-management-app.md) and update the source code with the correct attribute values for each snippet as in the example below.
 
 ```html
 <a href="~/">
@@ -89,7 +89,7 @@ Makers can adjust the background color by modifying the theme in the Style works
 
 ### Modify a theme setting
 
-Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color). To do this, choose the original value and select **Save**.
+Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color) by choosing the original value and selecting **Save**.
 
 ## Site visibility
 

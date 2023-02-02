@@ -73,7 +73,7 @@ The header contains three underlying content snippets, which use [Liquid](../con
 
 For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
 
-When customizing the header, makers must also update the Liquid code in the content snippets. Changes won't reflect in studio until the attribute values are updated appropriately. 
+When customizing the header, if someone has modified the Liquid code, these changes must be synchronized. Changes won't reflect in studio until the attribute values in the underlying content snippets are updated to reflect these changes. 
 
 >[!NOTE]
 > If the values for any of these snippets aren't modified, makers will see the following message in the studio:<br />```Your updates may not show on the site because of customizations to the code made by someone in your org.```<br />For information on how to update the Liquid code and resolve this issue, see [Modifying the header in Portal Management App](../known-issues.md#modifying-the-header-in-portal-management-app).
