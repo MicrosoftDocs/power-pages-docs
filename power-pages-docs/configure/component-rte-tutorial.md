@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: How to add a rich text component to a basic form"
-description: Walk-through example steps for adding a rich text component to a basic form in Power Pages.
+title: "Tutorial: How to add a rich text component to a form"
+description: Walk-through example steps for adding a rich text component to a form in Power Pages.
 author: GitanjaliSingh33msft
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/31/2023
+ms.date: 02/03/2023
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -17,86 +17,63 @@ contributors:
 
 # Tutorial: Configure the rich text editor control on Power Pages 
 
-In this tutorial, you'll configure Power Apps portals to add the [rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#add-or-replace-a-text-column-for-rich-text-editing) to a basic form and then add the basic form to a webpage. Portal users will be able interact with the rich text editor control to format text on the form.
+In the tutorial, you'll configure the rich text editor component on a Microsoft Dataverse form, and enable the rich text editor to be visible on a webpage.
+
+This tutorial will use the **Feedback** table and the **Contact us** webpage that is available in the **Starter layout** templates.
 
 ## Prerequisites
 
-Your portal version must be [9.4.3.x](/power-platform/released-versions/portals) or later.
+- Your portal version must be [9.4.3.x](/power-platform/released-versions/portals) or later.
+- A site using one of the **Starter layout** [templates](../templates/site-design.md).
 
-## Step 1. Add the rich text editor control to a column in a model-driven app
+## Step 1. Add the code component to a field in a form
 
-Follow the steps in the tutorial [Add or replace a text column for rich text editing](/power-apps/maker/model-driven-apps/rich-text-editor-control#add-or-replace-a-text-column-for-rich-text-editing) to add the component to a column on a model-driven form.
+1. In the design studio, select the [Data workspace](../getting-started/use-data-workspace.md).
+
+1. Select the **Feedback** table.
+
+1. Select **Forms** and then choose to edit the **simple contact us form**.
+
+1. Select the **Message** field.
+
+1. Choose **+ Component** and select the **Number input** component.
+
+    :::image type="content" source="media/component-rte-tutorial/add-rte-component.png" alt-text="Add RTE component to form.":::
+
+1. Select **Done**.
+
+1. Select **Save** and **Publish form**.
+
+## Step 2. Configure the rich text editor component on webpage
+
+In the following steps we will configure the existing feedback page, you can also [create your own page](../getting-started/first-page.md) and add your own [form](../getting-started/add-form.md) component.
+
+1. In the **Pages** workspace, select the **Contact us** page.
+
+1. The **Message** field should appear on the form with the message **Enable custom component to see this field in preview**.
+
+1. Select the field and choose **Edit field**.
+
+1. Select the **Enable custom component** field.
+
+    :::image type="content" source="media/component-rte-tutorial/enable-rte-on-form.png" alt-text="Enable RTE component in design studio.":::
+
+1. Select **OK**.
+
+1. Select **Sync**.
 
 > [!NOTE]
 > To display the data as rich text, you might have to increase the character size of the text columns to accommodate the extra information.
 
-## Step 2. Verify that the model-driven app uses the new control
-
-You can [update an existing model-driven app](/power-apps/maker/model-driven-apps/design-custom-business-apps-using-app-designer) or [create a new app](/power-apps/maker/model-driven-apps/build-first-model-driven-app) with the form to which you added the component. For example, the following image shows the feedback table **simple contact us form** using the rich text editor control in a model-driven app.
-
-:::image type="content" source="media/component-rte-tutorial/rich-text-editor-mda.png" alt-text="Rich text editor for a feedback table.":::
-
-## Step 3. Add a rich text editor control to a basic form in portals
-
-In this step, you'll create a new basic form in portals and then add the control to the basic form. You can also use an existing basic form.
-
-### Step 3.1. Create a new basic form
-
-1. Open the [Portals Management app](portal-management-app.md).
-
-1. On the left pane under **Content**, select **Basic Forms**.
-
-1. Select **New**.
-
-1. Enter a **Name** for the form. In this example, we use **Feedback basic form with RTE**.
-
-1. For **Table Name**, select **Feedback (feedback)**.
-
-1. Select the name of the model-driven app form to which you added the rich text control. In this example, **simple contact us form**.
-
-1. Select your portal website.
-
-    :::image type="content" source="media/component-rte-tutorial/basic-form.png" alt-text="Basic form configuration.":::
-
-1. Select **Save & Close**.
-
-### Step 3.2. Add the rich text editor control to the basic form
-
-1. Open the [Portal Management app](portal-management-app.md).
-
-1. On the left pane under **Content**, select **Basic Forms**.
-
-1. Select the basic form you created in step 3.1.
-
-1. Select the **Basic Form Metadata** tab.
-
-1. Select **New Basic Form Metadata**.
-
-1. For **Type**, select **Attribute**.
-
-1. For the **Attribute Logical Name**, select the name of the column for which the rich text control is enabled. In this example, **Comments (comments)**.
-
-    :::image type="content" source="media/component-rte-tutorial/basic-form-metadata.png" alt-text="Basic form metadata configuration.":::
-
-1. Enter a value for **Label**. In this example, **Comments**.
-
-1. For **Control Style**, select **Code component**.
-
-    :::image type="content" source="media/component-rte-tutorial/basic-form-metadata-controlstyle.png" alt-text="Basic form metadata configuration setting the control style to 'code component'.":::
-
-1. Select **Save & Close**.
-
-### Step 3.3. Add table permissions for the rich text attachment table
+## Step 3.1 Add table permissions for the rich text attachment table
 
 For using and storing images in the rich text editor on the portal, you'll need to add [table permissions](../security/table-permissions.md) to the rich text attachment table (msdyn_richtextfile).
 
-1. Open your portal in portals Studio.
+1. Open the design studio and select **Set up** workspace.
 
-1. On the left pane, choose **Settings** (gear icon) and select **Table Permissions**
+1. Select **Table permissions**.
 
-    :::image type="content" source="media/component-rte-tutorial/table-permissions.png" alt-text="Selecting table permissions.":::
-
-1. Create a new table permission for the rich text attachment table. The name can be anything you choose; in this example, we use **RTE Attachment**.
+1. Select **+ New permission** to create a new table permission for the rich text attachment table. The name can be anything you choose; in this example, we use **RTE Attachment**.
 
 1. For **Access type**, select **Global access**.
 
@@ -112,7 +89,9 @@ For using and storing images in the rich text editor on the portal, you'll need 
 > [!IMPORTANT]
 > If you want to store images as base 64 strings directly in the column that you've configured to use the rich text editor control, you need to configure the control by using a [JSON configuration file](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control). Set **disableImages** and **disableDefaultImageProcessing** to **true** to allow images to be rendered consistently across all clients. Using this method doesn't require the global table permission on the rich text attachment (msdyn_richtextfile) table.
 
-### Step 3.4. Add web API site setting
+## Step 3.2. Add web API site setting
+
+In order to save images in the rich text editor control, you will need to add a couple of site settings.
 
 1. Open the [Portals Management app](portal-management-app.md). 
 
@@ -125,41 +104,14 @@ For using and storing images in the rich text editor on the portal, you'll need 
     | Webapi/msdyn_richtextfile/enabled | true |
     | Webapi/msdyn_richtextfile/fields | * |
 
-## Step 4. Create a webpage in portals that uses the basic form
 
-1. Open your portal in the Power Apps portals Studio.
+## Step 4. Preview the site.
 
-1. In the upper-left corner, select **New page**.
+1. In the design studio, select **Sync**.
 
-1. Select the **Blank** layout.
+1. Select **Preview** and then select **Desktop**, go to the **Contact us** page, you should see the custom component enabled.
 
-1. On the right-side property pane, update the webpage name. For example, **Feedback**.
-
-1. Update the **Partial URL**. For example, **feedback**.
-
-1. Inside the page editor, below the **Header** section, select the **Column** section.
-
-1. On the left pane, select Components (**+**).
-
-1. Under **Portal components**, select **Form**.
-
-1. On the right-side property pane, select **Use existing**.
-
-1. Under **Name**, select the basic form that you created earlier in this tutorial. In this example, **Feedback basic form with RTE**.
-
-    > [!TIP]
-    > If you don't see the form, select **Sync Configuration** to synchronize changes from Dataverse.
-
-1. Under **Permissions**, select **Manage table permissions** and make sure that you have the appropriate [table permissions](../security/table-permissions.md) and [web roles](../security/create-web-roles.md) configured for the Dataverse table associated to the form.
-    
-    > [!NOTE]
-    > By default, the **feedback** table has **create** permissions configured for the default web roles.
-
-1. In the upper-right corner, select **Browse website**.
-
-    The webpage will now show the basic form for the feedback table with the rich text editor control, similar to how the form appears while the model-driven app is being used.
-
-    :::image type="content" source="media/component-rte-tutorial/basic-form-portal.png" alt-text="Basic form showing rich text component on a webpage.":::
+    :::image type="content" source="media/component-rte-tutorial/rich-text-editor-on-form.png" alt-text="RTE component on a form.":::
 
 ## Rich text editor on a read-only form
 
