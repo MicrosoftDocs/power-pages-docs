@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 1/23/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -29,6 +29,21 @@ contributors:
 ## Pages workspace
 
 - Buttons added in websites built with the starter template can't be resized.
+
+### Modifying the header in Portal Management App
+
+When customizing the header, if someone has modified the Liquid code, these changes must be synchronized. Changes won't reflect in studio until the attribute values in the underlying content snippets are updated to reflect these changes. To resolve this issue, open the Mobile Header content snippet in the [Portal Management app](configure/portal-management-app.md) and update the source code with the correct attribute values for each snippet as in the example below.
+
+```html
+<a href="~/">
+    {% if snippets['Logo URL'] %}
+        <img src="{{ snippets['Logo URL'] }}" alt="{{ snippets['Logo alt text'] }}" style="width: auto; height: 32px; margin: 0 10px;">
+    {% endif %} 
+    {% if snippets['Site name'] %}
+        <h1 class="siteTitle">{{ snippets['Site name'] }}</h1>
+    {% endif %}
+</a> 
+```
 
 ## Style workspace
 
@@ -70,7 +85,7 @@ Makers can adjust the background color by modifying the theme in the Style works
 
 ### Modify a theme setting
 
-Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color). To do this, choose the original value and select **Save**.
+Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color) by choosing the original value and selecting **Save**.
 
 ## Site visibility
 
