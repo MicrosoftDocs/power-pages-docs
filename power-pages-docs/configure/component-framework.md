@@ -5,7 +5,7 @@ author: GitanjaliSingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/31/2023
+ms.date: 02/03/2023
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -129,6 +129,16 @@ To learn how to add a code component to a field in model-driven app, go to [Add 
 > [!IMPORTANT]
 > Code components for Power Pages are available for web browsers using the client option of **Web**.
 
+You can also add a code component to a form using [Data workspace](data-workspace-forms.md).
+
+1. When editing a Dataverse form in the Data workspace form designer, select a field.
+
+1. Choose **+ Component** and select an appropriate component for the field.
+
+    :::image type="content" source="media/component-framework/add-component-to-form.png" alt-text="Add component to form.":::
+
+1. Select **Save** and **Publish form**.
+
 ## Configure Power Pages site for code component
 
 After the code component is added to a field in a model-driven app, you can configure Power Pages to use the code component on a form.
@@ -137,11 +147,19 @@ There are two methods to enable the code component.
 
 ### Enable code component in design studio
 
-Open the Power Pages design studio
+To enable a code component on a form using the design studio.
+
+1. After the [form has been added to a page](../getting-started/add-form.md), select the field where the code component has been added and select **Edit field**.
+
+1. Select the **Enable custom component** field.
+
+    :::image type="content" source="media/component-framework/enable-code-component.png" alt-text="Enable custom component in design studio.":::
+
+1. When you preview the site, you should see the custom component enabled.
 
 ### Enable code component in Portals Management app
 
-To add a code component to a basic form using the Portal Management app:
+To add a code component to a basic form using the Portals Management app:
 
 1. Open the [Portals Management](portal-management-app.md) app.
 

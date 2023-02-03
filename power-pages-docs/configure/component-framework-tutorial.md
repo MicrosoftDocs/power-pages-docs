@@ -17,123 +17,61 @@ contributors:
 
 # Tutorial: Use code components in portals
 
-In this tutorial, you'll create a sample component using Power Apps component framework. You'll package this component to a Dataverse environment and add the component to a model-driven app. You'll then configure Power Apps portals to add the component to a basic form and add the basic form to a webpage. Finally, you'll visit the portals webpage and interact with the component.
+In the tutorial, you'll add a custom component to a Microsoft Dataverse form, and enable the custom control to be visible on a webpage.
+
+This tutorial will use the **Feedback** table and the **Contact us** webpage that is available in the **Starter layout** templates. 
 
 ## Prerequisites
 
 - Your portal version must be [9.3.3.x](/power-apps/maker/portals/versions/version-9.3.3.x) or higher.
 - Your starter portal package must be [9.2.2103.x](/power-apps/maker/portals/versions/version-9.3.3.x) or higher.
+- A site using one of the **Starter layout** [templates](../templates/site-design.md).
 
-> [!NOTE]
-> This tutorial is based on the existing Power Apps component framework tutorial that walks you through creating the [TSLinearInputComponent](/power-apps/developer/component-framework/implementing-controls-using-typescript) for the **Opportunity** table on the **Main** form. You can also use any existing or new component, and any other table for this tutorial. In this case, be sure to use your component and form when following the steps in this tutorial.
+To create a sample component, follow the steps in the tutorial [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript). At the end of that tutorial, you'll have the component named TSLinearInputComponent packaged and uploaded to your Dataverse environment which you can use in Power Pages.
 
-## Step 1. Create your first component
+You can also use some of the out of the box controls that are available. In our example we will use the number input control.
 
-To create a sample component, follow the steps in the tutorial [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript).
-At the end of this tutorial, you'll have the component named TSLinearInputComponent packaged and uploaded to your Dataverse environment.
+## Step 1. Add the code component to a field in a form
 
-## Step 2. Add the code component to a field in a model-driven app
+1. In the design studio, select the [Data workspace](../getting-started/use-data-workspace.md).
 
-Now that you have the TSLinearInputComponent uploaded to your Dataverse environment, follow the steps in the tutorial [Add a code component to a field in model-driven apps](/power-apps/developer/component-framework/add-custom-controls-to-a-field-or-entity) to add the component to the **Opportunity** table on the **Main** form.
+1. Select the **Feedback** table.
 
-## Step 3. Verify the model-driven app with the new component
+1. Select **Forms** and then choose to edit the **simple contact us form**.
 
-You can [update an existing model-driven app](/power-apps/maker/model-driven-apps/design-custom-business-apps-using-app-designer) or [create a new app](/power-apps/maker/model-driven-apps/build-first-model-driven-app) with the form to which you added the component. For example, the following image shows how the **Opportunity** table **Main** form looks when using the code component in this tutorial.
+1. Select **+ Add field** and choose the **Rating** field.
 
-:::image type="content" source="media/component-framework/model-driven-app.png" alt-text="Slider control added to the Budget Amount field in model-driven app form.":::
+1. Position the **Rating** field on the form.
 
-## Step 4. Add code component to a basic form in portals
+1. With the **Rating** field selected, choose **+ Component** and select the **Number input** component.
 
-In this step, you’ll create a new basic form in portals and then add the component to the created basic form. You can also use an existing basic form instead.
+    :::image type="content" source="media/component-framework/add-component-to-form.png" alt-text="Add component to form.":::
 
-### Step 4.1. Create a new basic form
+1. Configure the control to have a **Type** of **Whole Number** and a **Static value** of **1**.
 
-1. Open the [Portals Management](portal-management-app.md) app.
+1. Select **Done**.
 
-1. On the left pane, under **Content**, select **Basic Forms.**
+1. Select **Save** and **Publish form**.
 
-1. Select **New**.
+## Step 2. Configure form component on webpage
 
-1. Enter **Name**. For example, *Opportunities basic form with code
-    component*.
+In the following steps we will configure the existing feedback page, you can also [create your own page](../getting-started/first-page.md) and add your own [form](../getting-started/add-form.md) component.
 
-1. Select **Basic Name** as *Opportunity*.
+1. In the **Pages** workspace, select the **Contact us** page.
 
-1. For **Form Name**, select the model-driven app form that you added the code
-    component to earlier in this tutorial.
+1. The ratings field should appear on the form with the message **Enable custom component to see this field in preview**.
 
-1. Select the **Tab Name**.
+1. Select the field and choose **Edit field**.
 
-1. Select your portal **Website**.
+1. Select the **Enable custom component** field.
 
-    :::image type="content" source="media/component-framework/new-entity-form.png" alt-text="Configure basic form using Portal Management app.":::
+    :::image type="content" source="media/component-framework/enable-code-component.png" alt-text="Enable custom component in design studio.":::
 
-1. Select **Save & Close**.
+1. Select **OK**.
 
-### Step 4.2. Add code component to the basic form
+1. When you preview the site, you should see the custom component enabled.
 
-1. Open the [Portals Management](portal-management-app.md) app.
-
-1. On the left pane, under **Content**, select **Basic Forms.**
-
-1. Select the basic form you created in the previous step.
-
-1. Select **Related**.
-
-1. Select **Basic Form Metadata**.
-
-1. Select **New Basic Form Metadata**.
-
-1. Select **Type** as **Attribute**.
-
-1. Select **Attribute Logical Name** as *Budget Amount (budgetamount)*.
-
-    :::image type="content" source="media/component-framework/attribute-logical-name.png" alt-text="Budget Amount attribute logical name.":::
-
-1. Enter **Label**. For example, *Budget Amount*.
-
-1. For **Control Style**, select **Code component**.
-
-    :::image type="content" source="media/component-framework/control-style.png" alt-text="Text used by screen readers.":::
-
-1. Select **Save & Close**.
-
-## Step 5. Create a webpage in portals with the basic form
-
-1. Open your portal in Power Apps portals Studio.
-
-1. On the top-left corner, select **New page**.
-
-1.  Select **Blank**.
-
-1.  On the right-side property pane, update the webpage name. For example, *Opportunities.*
-
-1.  Update partial URL. For example, *opportunities.*
-
-1.  Expand **Permissions**.
-
-1.  Disable **Page available to everyone**.
-
-1.  Select the web roles that should be allowed access to this page.
-
-1.  Inside the page editor, below the Header section, select the **Column** section.
-
-1. On the left pane, select **Components**.
-
-1. Under **Portal components**, select **Form**.
-
-1. On the right-side property pane, select **Use existing**.
-
-1. Under **Name**, select the basic form that you created earlier in this tutorial.
-
-    > [!TIP]
-    > If you don’t see the form available, try **Sync Configuration** to synchronize changes from Dataverse.
-
-1. On the top-right corner, select **Browse website**.
-
-The webpage will now show the basic form for the **Opportunities** table with the code component as the slider, similar to how it appears using the model-driven app for the same form.
-
-:::image type="content" source="media/component-framework/example-preview.png" alt-text="Example preview of the Budget Amount slider control on portals page.":::
+    :::image type="content" source="media/component-framework/custom-component-on-form.png" alt-text="Custom component on a form.":::
 
 ## Next steps
 
