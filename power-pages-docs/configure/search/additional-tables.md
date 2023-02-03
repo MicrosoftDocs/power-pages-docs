@@ -67,11 +67,9 @@ The following walkthrough explains each step in detail with a sample database an
 
 ## Step 1: Add or update search site settings
 
-1. Sign in to [Power Apps](https://make.powerapps.com).
-
 1. Ensure that you're in the appropriate environment where your Power Pages site exists.
-
-1. Select **Apps** in the left navigation pane, and locate the **Portal Management** model-driven app.  
+ 
+1. Go to the [Portal Management app](../portal-management-app.md).
 
     >[!NOTE]
     > The Portal Management app might be named **Dynamics 365 Portals** if you're in an environment where Dynamics 365 applications are installed.
@@ -105,9 +103,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 ## Step 3: Create table permissions
 
-1. Sign in to [Power Apps](https://make.powerapps.com).
-
-1. Select **Apps** in the left navigation pane, and then select to open the **Portal Management** model-driven app.  
+1. Go to the [Portal Management app](../portal-management-app.md).
 
 1. Select **Table Permissions** in the left navigation pane.
 
@@ -144,9 +140,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 ## Step 5: Add a site marker for record details webpage
 
-1. Sign in to [Power Apps](https://make.powerapps.com).
-
-1. Select **Apps** in the left navigation pane, and select to open the **Portal Management** model-driven app.  
+1. Go to the [Portal Management app](../portal-management-app.md). 
 
 1. Select **Site Marker** from the left navigation pane.
 

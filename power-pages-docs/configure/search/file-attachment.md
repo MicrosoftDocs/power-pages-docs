@@ -56,7 +56,7 @@ To modify the label displayed in the search results for annotation and web file 
 
 The content of file attachments associated with web files can now be indexed. You can update existing web files for CSS files and image files (for example, bootstrap.min.css, theme.css, and homehero.jpg) to be excluded from search. 
 
-1. Open the [Portal Management app overview](../portal-management-app.md) and go to **Portals** > **Web Files**.
+1. Open the [Portal Management app](../portal-management-app.md).
 2. Open the file to be excluded from search.
 3. Under **Miscellaneous**, select **Yes** in the **Exclude From Search** field.
 
