@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "power-pages-docs/templates/site-design.md",
+      "redirect_url": "starter-layout",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "power-pages-docs/coming-soon.md",
       "redirect_url": "index",
       "redirect_document_id": "false"
