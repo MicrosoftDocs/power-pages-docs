@@ -132,6 +132,18 @@
       href: admin/compliance-privacy.md
     - name: Governance
       href: admin/coe-portals.md
+    - name: Update, upgrade, migrate and convert websites
+      items:
+        - name: Convert a website
+          href: admin/convert-site.md
+        - name: Upgrade a website
+          href: admin/upgrade-site.md
+        - name: Update Power Pages solution
+          href: admin/update-solution.md
+        - name: Update Dynamics 365 instance
+          href: admin/update-dynamics365-instance.md
+        - name: Migrate website configuration
+          href: admin/migrate-site-configuration.md
 - name: Configure Power Pages
   items:
     - name: Portal Management app overview
