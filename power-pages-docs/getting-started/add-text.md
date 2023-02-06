@@ -59,6 +59,10 @@ After a text control is added, selecting the text control will open the properti
     |Destination    |Link to a URL - provide a URL. <br /> Link to a page - select a page within the site.         |
     |Link Style    |Overrides the global link styles (set in the Styling workspace) for a specific link.  By default, the link style matches the styles of the surrounding Text Component.         |
 
+### Edit or remove a link
+
 To edit an existing link, select the link and choose **Edit Link**.
 
 To remove an existing link, select the link and choose **Remove Link**.
+
+:::image type="content" source="media/add-text/edit-link.png" alt-text="A link inside the design studio.  Buttons with options to Edit Link and Remove Link are displayed directly above the selected link.":::
