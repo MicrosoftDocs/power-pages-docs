@@ -17,6 +17,8 @@ contributors:
 
 The starter layout templates provide building blocks for you to create custom sites. Each template has different layout, images, and colors that can be used as-is or customized to meet your needs.
 
+:::image type="content" source="media/starter-layout.png" alt-text="One of the starter template layouts available in Power Pages.  This starter layout template is a rich blue and displays a header with white text. The body of the page is in 2 column layout.  The left column includes white starter text and an orange button.  The right column includes an image of colorful skyscrapers and a bright, cloudy sky.":::
+
 ## Makers
 
 Makers are able to use the design studio to modify the templates for their specific needs.
