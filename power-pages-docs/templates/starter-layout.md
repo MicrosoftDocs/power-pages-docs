@@ -4,7 +4,7 @@ description: The starter layout templates provide basic building blocks for you 
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/30/2023
+ms.date: 2/06/2023
 ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: kkendrick
