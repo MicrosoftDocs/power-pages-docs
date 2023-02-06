@@ -4,7 +4,7 @@ description: Assign table permissions to web roles.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 1/20/2023
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
@@ -26,6 +26,10 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
 
     :::image type="content" source="media/table-permissions/assign-web-role.png" alt-text="Adding web roles to the specific table permission.":::
 
+    > [!IMPORTANT]
+    > When Anonymous users are granted access to a table, any user who visits the site can access data.  
+    > More information: [Notifications for Anonymous users web role](#notifications-for-anonymous-users-web-role)
+
 1. Select **Save**.
 
 1. If the web role doesn't appear, select **Manage roles** to open the [Portal Management app](../configure/portal-management-app.md) to create web roles.
@@ -33,9 +37,17 @@ Table permissions are assigned to [web roles](create-web-roles.md) to allow memb
     > [!NOTE]
     > Once you have created the web role, select **Sync** in the design studio and refresh your browser to view your new roles in the table permissions side panel.
 
-More information on creating web roles and assigning site users (contacts), go to: [Create web roles](create-web-roles.md).
+## Notifications for Anonymous users web role
+
+When the anonymous users web role is selected, your site's data is visible to anyone.  
+
+>[!TIP]
+> If your [site visibility](site-visibility.md) is set to Public, an icon will appear next to the name field in design studio and the following message will display: *The data displayed in your site can be seen by anyone.  If that's not what you want, change or eliminate the "Anonymous" role in your table permissions.*  
+
+To restrict access to your site's data, follow the steps to assign table permissions and remove the checkmark next to the **Anonymous users** web role. 
 
 ### See also
 
-[Configure table permissions](table-permissions.md)<br>
+[Configure table permissions](table-permissions.md)<br />
+[Create web roles](create-web-roles.md) <br />
 [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
