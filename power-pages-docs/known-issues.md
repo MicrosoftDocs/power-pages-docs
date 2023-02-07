@@ -59,33 +59,25 @@ When customizing the header, if someone has modified the Liquid code, these chan
 
 This known issue applies only to sites created using Power Pages prior to September 23, 2022.
 
-Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings to adjust the background.  There are two ways to do this:
+Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings to adjust the background using one of the following options.
 
 ### Option 1: add a new color to the theme's palette
 
-To adjust the background color, makers can add a new color to the theme's palette using the Color Palette in the Style workspace.
-
-:::image type="content" source="media/known-issues/styling-more-colors.png" alt-text="Add a new color to the theme's palette using the Color Palette in the Style workspace.":::
+Add a new color to the theme's palette using the Color Palette in the **Style workspace**.
 
 ### Option 2: edit a background on a section of the page
 
-To adjust the background color, makers can select the desired color while editing the background on a section in the Pages workspace.
+Select the desired color while editing the background on a section in the **Pages workspace**.
 
-:::image type="content" source="media/known-issues/styling-fonts-title.png" alt-text="Select the desired color while editing the background on a section in the Pages workspace.":::
+### Option 3: modify your theme
 
-#### Modify the theme
+Modify the theme in the **Style workspace** using the following steps:
 
-Makers can adjust the background color by modifying the theme in the Style workspace using the following steps:
-
-1. From the Style workspace, select a different theme.
+1. Select a different theme.
 
 2. Choose your original theme.
 
 3. Select **Save**.
-
-### Modify a theme setting
-
-Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color) by choosing the original value and selecting **Save**.
 
 ## Site visibility
 
