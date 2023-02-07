@@ -59,19 +59,15 @@ When customizing the header, if someone has modified the Liquid code, these chan
 
 This known issue applies only to sites created using Power Pages prior to September 23, 2022.
 
-Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings by recompiling the site.
+Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings to adjust the background.  There are two ways to do this:
 
-### How to recompile your Power Pages site
-
-Makers can update and recompile their Power Pages site and adjust the background color using one of several methods.
-
-#### Add a new color to the theme's palette
+### Option 1: add a new color to the theme's palette
 
 To adjust the background color, makers can add a new color to the theme's palette using the Color Palette in the Style workspace.
 
 :::image type="content" source="media/known-issues/styling-more-colors.png" alt-text="Add a new color to the theme's palette using the Color Palette in the Style workspace.":::
 
-#### Edit a background on a section of the page
+### Option 2: edit a background on a section of the page
 
 To adjust the background color, makers can select the desired color while editing the background on a section in the Pages workspace.
 
