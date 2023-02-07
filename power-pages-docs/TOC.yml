@@ -52,38 +52,42 @@
       href: getting-started/what-is-dataverse.md
     - name: Use Pages workspace
       items:
-        - name: Create and design pages
+        - name: Create a web page
           href: getting-started/first-page.md
-        - name: Customize pages
-          href: getting-started/customize-pages.md
-        - name: Add components to pages
-          items:
-            - name: Add sections
-              href: getting-started/add-sections.md
-            - name: Add text
-              href: getting-started/add-text.md
-            - name: Add button
-              href: getting-started/add-button.md
-            - name: Add image
-              href: getting-started/add-image.md
-            - name: Add video
-              href: getting-started/add-video.md
-            - name: Add spacer
-              href: getting-started/add-spacer.md
-            - name: Add Power BI
-              href: getting-started/add-power-bi.md
-            - name: Add list
-              href: getting-started/add-list.md
-            - name: Add form
-              href: getting-started/add-form.md
-            - name: Add multistep form
-              href: getting-started/multistep-forms.md
-            - name: Add IFrame
-              href: getting-started/add-iframe.md
-            - name: Use Visual Studio Code editor (preview)
-              href: configure/visual-studio-code-editor.md
-        - name: Structure your site map
-          href: getting-started/structure-site.md
+        - name: Design pages
+          items: 
+          - name: Edit pages
+            href: getting-started/customize-pages.md
+          - name: Edit header
+            href: getting-started/edit-header.md
+          - name: Add components to pages
+            items:
+              - name: Add sections
+                href: getting-started/add-sections.md
+              - name: Add text
+                href: getting-started/add-text.md
+              - name: Add button
+                href: getting-started/add-button.md
+              - name: Add image
+                href: getting-started/add-image.md
+              - name: Add video
+                href: getting-started/add-video.md
+              - name: Add spacer
+                href: getting-started/add-spacer.md
+              - name: Add Power BI
+                href: getting-started/add-power-bi.md
+              - name: Add list
+                href: getting-started/add-list.md
+              - name: Add form
+                href: getting-started/add-form.md
+              - name: Add multistep form
+                href: getting-started/multistep-forms.md
+              - name: Add IFrame
+                href: getting-started/add-iframe.md
+              - name: Use Visual Studio Code editor (preview)
+                href: configure/visual-studio-code-editor.md
+          - name: Structure your site map
+            href: getting-started/structure-site.md
     - name: Use the Styling workspace
       items:
         - name: Styling workspace overview
@@ -134,6 +138,12 @@
       href: configure/portal-management-app.md
     - name: Advanced configuration
       href: configure/advanced-config.md
+- name: Integrate Power Pages
+  items:
+    - name: Embed a Power Pages site in another website
+      href: configure/embed-website.md
+    - name: Set up Azure Front Door with Power Pages
+      href: configure/azure-front-door.md                       
 - name: Customize and extend Power Pages
   items:
     - name: Custom page layouts
@@ -212,12 +222,14 @@
   href: training-videos/index.md
 - name: Compliance and accessibility
   items:
-    - name: Implement GDPR in portals
-      href: configure/implement-gdpr.md
-    - name: Cookies used by portal
-      href: admin/cookies.md
-    - name: Accessibility in portals
+    - name: Accessibility in Power Pages
       href: admin/accessibility.md
+    - name: Implement GDPR
+      href: configure/implement-gdpr.md
+    - name: Cookies used by Power Pages
+      href: admin/cookies.md
+- name: System requirements, limits, and configuration
+  href: system-requirements.md  
 - name: Known issues
   href: known-issues.md
 - name: Important changes and deprecations
