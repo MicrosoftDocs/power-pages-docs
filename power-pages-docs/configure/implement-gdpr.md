@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/02/2022
+ms.date: 2/07/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -38,7 +38,7 @@ The following site settings control the use of Power Pages by minors and minors 
 
 | Name  | Description   |
 |-----------------------|------------------------------------------|
-| Authentication/Registration/DenyMinors  | Denies use of the site by minors. By default, this is set to false.                          |
+| Authentication/Registration/DenyMinors  | Denies use of the site by minors. By default, this value is set to false.                          |
 | Authentication/Registration/DenyMinorsWithoutParentalConsent | Denies use of the site by minors without parental consent. By default, this is set to false. |
 |||
 

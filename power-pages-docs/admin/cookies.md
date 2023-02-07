@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/02/2022
+ms.date: 2/07/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -42,7 +42,7 @@ Power Pages also use cookies to store information for various purposes. The foll
 
 No. If necessary, consider adding a consent dialog for website users through external scripts.
 
-### Why can't I use my Power Page site without cookies?
+### Why can't I use my Power Pages site without cookies?
 
 Cookies are required to maintain a website functional, with the purpose as described in the table above.
 
