@@ -24,8 +24,8 @@
       items:
         - name: Create sites using templates
           href: templates/index.md
-        - name: Site design templates
-          href: templates/site-design.md
+        - name: Starter layout templates
+          href: templates/starter-layout.md
         - name: After school template
           href: templates/after-school.md
         - name: Book a meeting template
