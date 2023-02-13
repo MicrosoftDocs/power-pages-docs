@@ -21,8 +21,8 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "power-pages-docs/templates/default-template.md",
-      "redirect_url": "site-design",
+      "source_path": "power-pages-docs/getting-started/default-template.md",
+      "redirect_url": "/power-pages/templates/blank",
       "redirect_document_id": "false"
     },
     {
