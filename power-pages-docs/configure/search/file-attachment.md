@@ -18,7 +18,7 @@ contributors:
 
 You can use the notes attachment to include downloadable files in knowledge base articles. You can also use web files to create an FAQ page with downloadable content.
 
-You can configure your Power Pages site to allow portal users to search within the attachment content of  knowledge base articles. This helps users to find the information that they're looking for.
+You can configure your Power Pages site to allow users to search within the attachment content of  knowledge base articles. This helps users to find the information that they're looking for.
 
 In knowledge base articles, any notes attachment with the defined prefix is indexed. In web files, the latest notes attachment is indexed.
 
@@ -40,13 +40,13 @@ When you search for a term, the search results also include attachments. If the 
 
 ### Search through knowledge article attachments
 
-If your site uses Lucene .NET [search](overview.md), you can enable the portal to search through knowledge article attachments by setting the **Sync knowledge article attachments to site** option to **Yes** in the Dynamics 365 Customer Service admin center or Customer Service Hub app. You don't need to configure this option if your site is using Dataverse search, you'll be able to search through knowledge article attachments by default.
+If your site uses Lucene .NET [search](overview.md), you can enable the website to search through knowledge article attachments by setting the **Sync knowledge article attachments to site** option to **Yes** in the Dynamics 365 Customer Service admin center or Customer Service Hub app. You don't need to configure this option if your site is using Dataverse search, you'll be able to search through knowledge article attachments by default.
 
 This allows search to look through knowledge article attachments and make information easily accessible to knowledge consumers. With this attachment capability, you won’t need to use the notes attachments for the site. Knowledge article attachments will automatically be synced to the notes attachment. More information: [Update knowledge article attachments for portal](/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article?tabs=customerserviceadmincenter#update-knowledge-article-attachments-for-portal)
 
 ## Update site configurations
 
-If you already have a portal before April 2018 and you've upgraded your site to the latest version, you must use the following configurations to have the same user experience as a new installation.
+If you already have a website before April 2018 and you've upgraded your site to the latest version, you must use the following configurations to have the same user experience as a new installation.
 
 ### Content Snippets
 
@@ -123,7 +123,7 @@ You must add `\_logicalname:annotation~0.9^0.25` value to the Search/Query site 
 
 To configure the facets to group annotations associated with knowledge base articles and web files in a single facet, edit the Search/RecordTypeFacetsEntities site setting name and append `;Downloads:annotation,adx_webfile` to its value.
 
-To allow attachments associated with knowledge articles to appear in the portal and search results, edit the **KnowledgeManagement/DisplayNotes** site setting and set its value to **True**. The site setting **KnowledgeManagement/NotesFilter** contains a prefix value that must be prefixed to the note text field on notes; only notes with the specified prefix value will appear on the portal. By default, the value is \*WEB\*, but you can change it through the site setting.
+To allow attachments associated with knowledge articles to appear in the website and search results, edit the **KnowledgeManagement/DisplayNotes** site setting and set its value to **True**. The site setting **KnowledgeManagement/NotesFilter** contains a prefix value that must be prefixed to the note text field on notes; only notes with the specified prefix value will appear on the webpage. By default, the value is \*WEB\*, but you can change it through the site setting.
 
 To enable the indexing of file attachments associated with notes, create the **Search/IndexNotesAttachments** site setting and set its value to **True**.
 
