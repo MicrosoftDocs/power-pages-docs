@@ -22,7 +22,7 @@ In Power Pages, you can search for records across multiple tables by using Power
 List search functionality in the Power Pages uses FetchXML in the backend to search the columns defined in the list and then display the results.
 
 >[!IMPORTANT]
-> Starting with website version 9.4.4.xx, search uses Dataverse search to deliver results from multiple tables and fields for new sites. Lucene .NET search is deprecated; however, existing portals use Lucene .NET search will not be affected. We recommend that users migrate to Dataverse search. Enable Dataverse search for existing portals by using site setting Search/EnableDataverseSearch to true.
+> Starting with website version 9.4.4.xx, search uses Dataverse search to deliver results from multiple tables and fields for new sites. Lucene .NET search is deprecated; however, existing websites use Lucene .NET search will not be affected. We recommend that users migrate to Dataverse search. Enable Dataverse search for existing websites by using site setting Search/EnableDataverseSearch to true.
 >
 > **All the existing customers who are using Lucene .Net search need to migrate to Dataverse search by October 2023.**
 
