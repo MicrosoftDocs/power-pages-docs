@@ -12,6 +12,7 @@ ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
+    - ProfessorKendrick
 ---
 
 # Walk-through: Configuring additional tables for global search  
@@ -151,7 +152,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 ## Step 6: Rebuild the search index
 
-1. Browse your portal by using a user account that has the Administrator web role assigned.
+1. Browse your website by using a user account that has the Administrator web role assigned.
 
 1. Append the URL in the address bar with **/_services/about**, and then select **Enter**.
 
@@ -161,7 +162,7 @@ The following walkthrough explains each step in detail with a sample database an
 
 ## Step 7: Verify that global search works with the custom table
 
-1. Browse to the portal with a user that has *Authenticated* **Web Role** assigned.
+1. Browse to the website with a user that has *Authenticated* **Web Role** assigned.
 
 1. Go to the search toolbar or the search page, and search for a known record.
 
