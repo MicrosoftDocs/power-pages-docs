@@ -27,7 +27,7 @@ To configure search for additional tables:
 
 1. [Enable additional tables search](#step-1-add-or-update-search-site-settings) for the first time by adding a new setting [Search/EnableAdditionalEntities](#site-setting-for-additional-tables) and set it to *true*. This is a one-time step that enables search for all additional out-of-the-box and custom tables.
 
-1. [Create Portal Search view](#step-2-create-or-verify-the-portal-search-view) for each additional table with the required filters and columns that needs to be searchable.
+1. [Create Portal Search view](#step-2-create-or-verify-the-portal-search-view) for each additional table with the required filters and columns that need to be searchable.
 
 1. [Configure table permissions](#step-3-create-table-permissions) for each additional table with a Web Role to have at least read privilege. Skip this step if you already have the read permissions configured for each table.
 
