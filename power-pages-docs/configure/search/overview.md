@@ -66,7 +66,7 @@ In global search, the better the match, the higher it appears in the results. A 
 
 The following sections detail how global search works in Power Pages and describe the various configuration options available.
 
-## Tables searchable in Power Pages global search
+## Tables searchable in global search
 
 Provides intelligent search by applying AI technology to interpret natural language such as misspellings, common abbreviations, and synonyms to deliver quality results.
 
