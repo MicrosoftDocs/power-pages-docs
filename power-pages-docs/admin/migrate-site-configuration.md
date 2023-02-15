@@ -29,7 +29,7 @@ Migration involves exporting the existing configuration from the source Microsof
 > - Ensure that the target environment's maximum attachment size is set to the same or greater size as your source environment.
 > - The maximum size of files is determined by the **Maximum file size** setting in the [system settings email tab](/power-platform/admin/system-settings-dialog-box-email-tab) in the environment system settings dialog box.
 
-1. [Provision a new website](../getting-started/create-manage.md) in your target environment. Use the same [website template](../templates/) as you provisioned on your source environment. For example, if you provisioned a site using the **Dynamics 365 Customer Self-Service** template on your source environment, provision the site using the **Dynamics 365 Customer Self-Service** template on your target environment.
+1. [Provision a new website](../getting-started/create-manage.md) in your target environment. Use the same [website template](../templates/index.md) as you provisioned on your source environment. For example, if you provisioned a site using the **Dynamics 365 Customer Self-Service** template on your source environment, provision the site using the **Dynamics 365 Customer Self-Service** template on your target environment.
 
 1. On the *target* environment, using the [Portal Management app](../configure/portal-management-app.md), delete the newly created website record. This will remove the default website configuration data from the target environment.
 
