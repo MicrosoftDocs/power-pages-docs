@@ -16,27 +16,27 @@ contributors:
  
 # Upgrade a Power Pages site
 
-This section helps you understand the Power Pages release process to prepare for any new release properly and to reduce any impact on your customers. It also talks about various components which are part of your website.
+This section helps you understand the Power Pages release process to prepare for any new release properly and to reduce any affect on your customers. It also talks about various components that are part of your website.
 
-A Power Pags site consists of the following components:
+A Power Pages site consists of the following components:
 
 |Component|Description|Update process|
 |---------|-----------|--------------|
-|[Power Pages solutions](#solution-update)|Solutions which are installed in Microsoft Dataverse environment and contains the metadata tables for any website.|Updated by customers themselves from the Power Platform admin center.|
-|[Power Pages website host](#website-host-update)|The Power Pages website host is the Azure web application which forms the actual website.|The Power Pages website host is updated automatically for all sites.<br>**Note**: A new version of Power Pages website host is backwards compatible with all supported versions of Power Pages solutions. However, once a solution version becomes unsupported, it is not certified to run with the new version of Power Pages website host.|
+|[Power Pages solutions](#solution-update)|Solutions that are installed in Microsoft Dataverse environment and contains the metadata tables for any website.|Updated by customers themselves from the Power Platform admin center.|
+|[Power Pages website host](#website-host-update)|The Power Pages website host is the Azure web application that forms the actual website.|The Power Pages website host updates automatically for all sites.<br>**Note**: A new version of Power Pages website host is backwards compatible with all supported versions of Power Pages solutions. However, once a solution version becomes unsupported, the solution isn't certified to run with the new version of Power Pages website host.|
 |||
 
-## Impact of new releases on a Power Pages solution
+## Affect of new releases on a Power Pages solution
 
-As part of any Power Pages release, Power Pages website hosts are updated automatically to the latest versions while Power Pages solutions are updated by customers. It is important to understand the impact of each component update on your live website, so you can plan accordingly.
+As part of any Power Pages release, Power Pages website hosts updates automatically to the latest versions while Power Pages solutions need to be updated by customers. It's important to understand the affects of each component update on your live website, so you can plan accordingly.
 
 ### Website host update
 
-If you are running a production version of a Power Pages site (you can see it on Power Pages sites area of the Power Platform admin center), there will not be any downtime to your live website when being updated. However, if you are running a trial version of Power Pages, there will be around 6-10 minutes of downtime and you will not be able to access your website.
+If you're running a production version of a Power Pages site (you can see it on Power Pages sites area of the Power Platform admin center), there won't be any downtime to your live website when being updated. However, if you're running a trial version of Power Pages, there will be around 6-10 minutes of downtime and you won't be able to access your website.
 
 ### Solution update
 
-While installing or updating any solution in your instance, you can see some instability in your instance. The Power Pages solution update process updates solutions available in your instance and will impact your instance which will in turn have an impact of your website as well. Hence, it is always advised to do solution updates in your instance during dark hours.
+While installing or updating any solution in your instance, you can see some instability in your instance. The Power Pages solution update process updates solutions available in your instance and will affect your instance that will in turn have an effect of your website as well. Hence, it's always advised doing solution updates in your instance during dark hours.
 
 More details: [Update Power Pages solution](update-solution.md)
 
