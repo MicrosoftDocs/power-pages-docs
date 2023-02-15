@@ -43,9 +43,96 @@ Use design studio to customize your site and manage page permissions quickly and
 >[!NOTE]
 > The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page. Review the options for page permissions and options for child page permissions.
 
-## Manage page permissions in the Portal Management app
+## Manage page permissions with the Portal Management app
 
-Managing page permissions with the Portal Management app is accomplished by setting webpage access control rules. You can also set these rules using design studio, the Portal Management app must be used to manage page permissions for other areas.  More information: [Manage page permissions with the Portal Management app](/power-apps/maker/portals/configure/webpage-access-control#manage-page-permissions-with-the-portal-management-app) 
+Using the Portal Management app, you can manage page permissions through webpage access control rules. These rules allow you to control the publishing actions that a web role can perform across the pages of your website. Also, you can control which pages are visible to which web roles.
+
+### Webpage access control rules
+
+**To manage webpage access control rules with the Portal Management app**
+
+1. Go to [Power Apps](https://make.powerapps.com).
+
+1. On the left pane, select **Apps**.
+
+1. Select **Portal Management**.
+
+1. On the left pane, under **Security**, select **Web Page Access Control Rules**.
+
+1. Select a webpage access control rule to edit, or select **New** to create a new rule.
+
+    Set the following attributes for the webpage access control rule.
+
+
+    |    Name     |                                                                                                                                                                  Description                                                                                                                                                                   |
+    |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    |    Name     |                                                                                                                                                        A descriptive name for the rule.                                                                                                                                                        |
+    |   Website   |                                                                                                           The website that this rule applies to; this must match the website of the page to which this rule is applied.                                                                                                        |
+    |  Web Page   |                            The webpage that this rule applies to. The rule will affect not only this page but all of its child pages, making this attribute select the branch of the website to which the rule will apply. If the rule is applied to the home page, it will apply to the entire portal.                            |
+    |    Right    |                                                                                                                                    [Grant change](#grant-change) or [Restrict read](#restrict-read)                                                                                                                                      |
+    |    Scope    | <ul><li><strong>All content</strong>: All descendant content is included in security validation.</li><li><strong>Exclude direct child web files</strong>: All child web files directly related to this webpage are excluded from security validation. This option doesn't exclude the descendants of the child web file.</li></ul>By default, **All content** is selected. |
+    | Description |                                                                                                                                                     (Optional) A description of the rule.                                                                                                                                                      |
+
+1. Select **Save & Close**.
+
+### View access control rules for a page
+
+After you create a new access control rule, it gets associated with the selected page. This association causes it to affect both the page you assign the rule to and all child pages&mdash;in other words, the entire branch of the website.
+
+**To view the associated webpage access control rules for a page**
+
+1. In the Portal Management app, on the left pane under **Content**, select **Web Pages**.
+
+1. Select the webpage that you want to associate the access control rule with.
+
+1. Select **Access Control Rules**.
+
+1. View all the webpage access control rules for the page.
+
+
+There are two types of access control rules: **Grant Change** and **Restrict Read**.
+
+#### Grant Change
+
+Use a **Grant Change** rule to allow a user who has the web role associated with the rule to publish content changes for this page, and all child pages of this page. **Grant Change** rules take precedence over **Restrict Read** rules.
+
+For example, you have a news branch in your site, which you want to be editable by users who have the news editor web role. These users might not have access to the entire site, and certainly can't edit the entire site, but within this branch you want them to have full content publishing authority. You'd create a webpage access control rule called "grant news publishing to news editors."
+
+Next, you set **Right** to **Grant Change** and **Web Page** to the parent page of the entire news branch of your site. You then assign this web role to any users you want to designate as news editors. (One user can have many web roles.)
+
+A **Grant Change** rule should always be present in any portal that you want to enable front-side editing for. This rule will apply to the home page of the site, making it the default rule for the entire site. This rule will be associated with a web role that is to represent the administrative role for the site. Users who are to be given front-side content publishing rights will be assigned to this role.
+
+#### Restrict Read
+
+Use a **Restrict Read** rule to limit the viewing of the contents of a page (and its child pages) to specific users. In comparison, **Grant Change** is a *permissive* rule (it grants users the ability to do something), whereas **Restrict Read** is a *restrictive* rule in that it restricts an action to a limited set of users. For example, you might have a branch of the site meant to be used by employees only. You want to restrict the ability to read this section to people who have the employee web role. In this scenario, you create a new rule called "restrict read to employees only."
+
+You then set **Right** to **Restrict Read** and **Web Page** to the page at the top of the branch that you want to be read only by employees. You then associate this rule with the employee web role, and then assign users to this role.
+
+> [!NOTE]
+> If you apply the **Restrict Read** right to the root (home) page of a website and select **Exclude direct child web files** as the **Scope**, the home page's direct child web files will be accessible to all users.
+
+<!--leave this section alone-->
+## Manage page permissions with legacy Power Apps portals Studio
+
+Not only can you use portals Studio to customize your portal, you can manage page permissions quickly and efficiently.
+
+To get started with managing page permissions using portals Studio:
+
+1. Go to [Power Apps](https://make.powerapps.com).
+
+1. On the left pane, select **Apps**.
+
+1. Select your portal.
+
+1. Select **Edit** to open the portal in portals Studio.
+
+    More information: [Edit the portal](../manage-existing-portals.md#edit) and [Studio anatomy](../portal-designer-anatomy.md)
+
+1. Select the page that you want to manage permissions for.
+
+1. On the **Component** pane (on the right side of the screen), expand **Permissions**.
+
+The options under **Permissions** vary depending on the page you've selected. For example, the options for a parent page will be different from the options for the child page that inherited permissions from the parent page.
 
 ## Setting options for page permissions
 
