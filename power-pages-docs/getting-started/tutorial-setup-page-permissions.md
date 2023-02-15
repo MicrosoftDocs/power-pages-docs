@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Set up page permissions
+title: "Tutorial: Set up page permissions"
 description: Learn how to allow or restrict access to pages in your site in Microsoft Power Pages.
 author: ankitavish
 ms.topic: tutorial
