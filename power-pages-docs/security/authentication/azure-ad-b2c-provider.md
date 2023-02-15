@@ -18,21 +18,20 @@ contributors:
 
 [This article is pre-release documentation and is subject to change.]
 
-[!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory (Azure AD) powers Microsoft 365 and Dynamics 365 services for employee or internal authentication. [!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory B2C (Azure AD B2C) is an extension to this authentication model that enables external customers to sign in through local credentials and federation with various common social identity providers.
+Azure Active Directory (Azure AD) powers Microsoft 365 and Dynamics 365 services for employee or internal authentication. Azure Active Directory B2C (Azure AD B2C) is an extension to this authentication model that enables external customers to sign in through local credentials and federation with various common social identity providers.
 
-A site owner can configure the portal [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C as an identity provider. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C supports Open ID Connect for federation.
+A site owner can configure Azure AD B2C as an identity provider. Azure AD B2C supports Open ID Connect for federation.
 
 > [!IMPORTANT]
 > This article describes how to configure Azure AD B2C as the identity provider automatically by using a feature in preview. Using these steps, you can create a new Azure AD B2C tenant, register applications, and configure user flows from within Power Apps portals. If you want to configure the Azure AD B2C provider manually using the generally available interface, go to [Configure the Azure AD B2C provider manually](azure-ad-b2c-provider-manual.md).
 
 > [!NOTE]
-> Changes to the authentication settings [might take a few minutes](../admin/clear-server-side-cache.md#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. If you want the changes to be reflected immediately, restart the portal by using [portal actions](../admin/admin-overview.md).
+> Changes to the authentication settings might take a few minutes to be reflected on the website. If you want the changes to be reflected immediately, [restart the website](../../admin/admin-overview.md).
 
 Follow these steps to configure Azure AD B2C as the OpenID Connect provider.
 
 > [!IMPORTANT]
 > - This is a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](../../../includes/cc-preview-features-definition.md)]
 
 ## Step 1. Select the provider
 
@@ -125,7 +124,7 @@ In this step, you configure the **Sign up and sign in** and **Password reset** u
 
 > [!NOTE]
 > - Only the email claim is configured in these user flows. You can enable more claims&mdash;like *first name* and *last name*&mdash;in the flow's **User attributes** and **Application claims** configuration by using the Azure portal. 
-> - If you enable more claims in addition to *first name* and *last name*, ensure that you [edit the authentication provider](#edit-the-configuration) and add them to the *Registration claims mapping* and *Login claims mapping* in **Additional settings** (this isn't required for *first name* and *last name*). More information: [Step 6 - additional settings for Azure AD B2C provider configuration](configure-azure-ad-b2c-provider-manual.md)
+> - If you enable more claims in addition to *first name* and *last name*, ensure that you [edit the authentication provider](#edit-the-configuration) and add them to the *Registration claims mapping* and *Login claims mapping* in **Additional settings** (this isn't required for *first name* and *last name*). More information: [Configure the Azure Active Directory B2C provider manually](azure-ad-b2c-provider-manual.md#configure-the-azure-active-directory-b2c-provider-manually).
 
 Select **Create** to create the identity provider configuration.
 
