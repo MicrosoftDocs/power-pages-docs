@@ -19,21 +19,19 @@ contributors:
 This article describes how to configure Azure Active Directory B2C (Azure AD B2C) as the identity provider manually. Use these steps to manually create a new Azure AD B2C tenant, register the application, and configure user flows.
 
 > [!NOTE]
-> - If you want to configure the Azure AD B2C provider automatically by using Power Apps portals, go to [Configure Azure AD B2C provider](configure-azure-ad-b2c-provider.md).
-> - Changes to the authentication settings [might take a few minutes](../admin/clear-server-side-cache.md#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. If you want the changes to be reflected immediately, restart the portal by using [portal actions](../admin/admin-overview.md).
-<!--markdownlint-disable MD036-->
+> - If you want to configure the Azure AD B2C provider automatically by using Power Apps portals, go to [Configure Azure AD B2C provider](azure-ad-b2c-provider.md).
+> - Changes to the authentication settings might take a few minutes to be reflected on the website. If you want the changes to be reflected immediately, [restart the portal](../../admin/admin-overview.md).
+
 **To configure Azure AD B2C as the OpenID Connect provider manually**
 
-1. Select **Configure** for **Azure Active Directory B2C**. More information: [Configure a provider](use-simplified-authentication-configuration.md#add-or-configure-a-provider)
-
-    ![Azure AD B2C provider name.](media/authentication/azure-ad-b2c-name.png "Azure AD B2C provider name")
+1. Select **Configure** for **Azure Active Directory B2C**. More information: 
 
 1. If necessary, update the name.
 
 1. Select **Skip to manual configuration**.
 
     > [!NOTE]
-    > Selecting **Next** instead of **Skip to manual configuration** takes you to configure the [Azure AD B2C authentication by using the Power Apps portals interface](configure-azure-ad-b2c-provider.md).
+    > Selecting **Next** instead of **Skip to manual configuration** takes you to configure the [Azure AD B2C authentication by using the Power Apps portals interface](azure-ad-b2c-provider.md).
 
 1. In this step, you create the application and configure the settings with your identity provider.
 
@@ -119,7 +117,7 @@ This article describes how to configure Azure Active Directory B2C (Azure AD B2C
 
     - **Contact mapping with email**: Specify whether contacts are mapped to a corresponding email. Turn on this toggle to associate a unique contact record with a matching email address and then automatically assign the external identity provider to the contact after the user successfully signs in.
 
-    - **Registration enabled**:- Turn [open registration](configure-portal-authentication.md#open-registration) for your portal on or off. Turning off this toggle disables and hides external account registration.
+    - **Registration enabled**:- Turn open registration for your portal on or off. Turning off this toggle disables and hides external account registration.
 
 1. Select **Confirm** to view a summary of your settings and complete the identity provider configuration.
 
