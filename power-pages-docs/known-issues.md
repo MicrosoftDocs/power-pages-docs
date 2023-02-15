@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/17/2022
+ms.date: 1/23/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -34,6 +34,21 @@ contributors:
 
 - The code editor doesn't support editing header or footer code.
 
+### Modifying the header in Portal Management App
+
+When customizing the header, if someone has modified the Liquid code, these changes must be synchronized. Changes won't reflect in studio until the attribute values in the underlying content snippets are updated to reflect these changes. To resolve this issue, open the Mobile Header content snippet in the [Portal Management app](configure/portal-management-app.md) and update the source code with the correct attribute values for each snippet as in the example below.
+
+```html
+<a href="~/">
+    {% if snippets['Logo URL'] %}
+        <img src="{{ snippets['Logo URL'] }}" alt="{{ snippets['Logo alt text'] }}" style="width: auto; height: 32px; margin: 0 10px;">
+    {% endif %} 
+    {% if snippets['Site name'] %}
+        <h1 class="siteTitle">{{ snippets['Site name'] }}</h1>
+    {% endif %}
+</a> 
+```
+
 ## Style workspace
 
 - Power Pages doesn't support Google Fonts due to privacy concerns.
@@ -44,38 +59,26 @@ contributors:
 
 This known issue applies only to sites created using Power Pages prior to September 23, 2022.
 
-Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings by recompiling the site.
+Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings to adjust the background using one of the following options.
 
-### How to recompile your Power Pages site
+### Option 1: add a new color to the theme's palette
 
-Makers can update and recompile their Power Pages site and adjust the background color using one of several methods.
+Add a new color to the theme's palette using the Color Palette in the **Style workspace**.
 
-#### Add a new color to the theme's palette
+### Option 2: edit a background on a section of the page
 
-To adjust the background color, makers can add a new color to the theme's palette using the Color Palette in the Style workspace.
+Select the desired color while editing the background on a section in the **Pages workspace**.
 
-:::image type="content" source="media/known-issues/styling-more-colors.png" alt-text="Add a new color to the theme's palette using the Color Palette in the Style workspace.":::
+### Option 3: modify your theme
 
-#### Edit a background on a section of the page
+Modify the theme in the **Style workspace** using the following steps:
 
-To adjust the background color, makers can select the desired color while editing the background on a section in the Pages workspace.
-
-:::image type="content" source="media/known-issues/styling-fonts-title.png" alt-text="Select the desired color while editing the background on a section in the Pages workspace.":::
-
-#### Modify the theme
-
-Makers can adjust the background color by modifying the theme in the Style workspace using the following steps:
-
-1. From the Style workspace, select a different theme.
+1. Select a different theme.
 
 2. Choose your original theme.
 
 3. Select **Save**.
 
-### Modify a theme setting
-
-Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color). To do this, choose the original value and select **Save**.
-
 ## Site visibility
 
-A Power Pages website in private mode will not work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.

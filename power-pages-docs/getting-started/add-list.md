@@ -4,9 +4,9 @@ description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 2/02/2023
 ms.subservice:
-ms.author: ndoelman 
+ms.author: shrutiphanse 
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
@@ -61,6 +61,41 @@ To add a list:
     > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to view the data on the lists.
 
 1. You can select the ellipsis (**...**) to duplicate the list, move it up or down within the section, or delete it.
+
+## Add list filters
+
+Makers can add list filters to their Power Pages site from the design studio.  
+
+### Filter types
+
+All types of metadata filters supported in [Portal Management app](../configure/portal-management-app.md) are configurable within Power Pages studio and each one has a simplified name, which matches its visualization.  Makers can also edit/delete the filters when working with list component inside the design studio.
+
+| Filter Visualization | Description  |
+|---------|---------|
+|Text    | Filters the list by using a text box to search for matching text in a selected attribute of the given table.        |
+|Checkbox, Dropdown, and Radio Button    | Makers can choose between checkboxes, dropdowns, and radio buttons as visualizations for their filter type. More options to configure the filter will appear once makers pick the column.  These options vary based on the column's data type.       |
+|Custom   | Filters the list by using a FetchXML filter condition. When a maker selects custom, a text box appears.  Makers will enter their XML statement in this field.        |
+
+### Add a list filter
+
+To add a list filter, select the list component you previously added and configured.  
+
+1. choose the **Add filter** menu item from the toolbar.
+
+    :::image type="content" source="media/add-list/add-filter.png" alt-text="The list toolbar inside the Pages workspace with the Add filter menu item emphasized.":::
+
+    A pop-up window will display in the Pages workspace with list filter options.  
+
+    :::image type="content" source="media/add-list/add-filter-pop-up.png" alt-text="The Add filter pop-up window inside Pages workspace.":::
+
+1. Select the type of filter you'd like to use from the drop-down selector under the **Type label**.
+
+1. Choose the column you'd like to filter from the drop-down selector under the **Column label**.
+
+    >[!NOTE]
+    > The studio will display the different options for makers to filter their data based on the filter type and column they choose.
+
+1. Select the **OK button** to save your selections.  
 
 ### See also
 
