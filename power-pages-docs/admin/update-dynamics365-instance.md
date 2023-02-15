@@ -50,10 +50,10 @@ You can use the Power Platform admin center to update the Dynamics 365 instance 
 
     You'll see a confirmation that the update request is in progress.
 
-The update might take a while after you select **Submit**. More information: [Upgrade a portal](upgrade-portal.md)
+The update might take a while after you select **Submit**. More information: [Upgrade site](upgrade-site.md)
 
 > [!NOTE]
-> You may be required to [reload SSL certificates](manage-ssl-certificates.md) after you have updated the Dynamics 365 instance. Go to **Manage SSL certificates** in the [Power Apps portals admin center](admin-overview.md) to verify if custom SSL certificates need to be reloaded.
+> You may be required to [reload SSL certificates](/power-apps/maker/portals/admin/manage-ssl-certificates) after you have updated the Dynamics 365 instance. 
 
 ### See also
 

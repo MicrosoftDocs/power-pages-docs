@@ -125,7 +125,7 @@
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
     - name: Update solution
-      href: admin/update-portal-solution.md
+      href: admin/update-solution.md
     - name: View error log
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy

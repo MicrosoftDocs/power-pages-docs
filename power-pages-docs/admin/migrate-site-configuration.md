@@ -29,7 +29,7 @@ Migration involves exporting the existing configuration from the source Microsof
 > - Ensure that the target environment's maximum attachment size is set to the same or greater size as your source environment.
 > - The maximum size of files is determined by the **Maximum file size** setting in the [system settings email tab](/power-platform/admin/system-settings-dialog-box-email-tab) in the environment system settings dialog box.
 
-1. [Provision a new website](../getting-started/create-manage.md) in your target environment. Use the same [website template](../templates) as you provisioned on your source environment. For example, if you provisioned a site using the **Dynamics 365 Customer Self-Service** template on your source environment, provision the site using the **Dynamics 365 Customer Self-Service** template on your target environment.
+1. [Provision a new website](../getting-started/create-manage.md) in your target environment. Use the same [website template](../templates/) as you provisioned on your source environment. For example, if you provisioned a site using the **Dynamics 365 Customer Self-Service** template on your source environment, provision the site using the **Dynamics 365 Customer Self-Service** template on your target environment.
 
 1. On the *target* environment, using the [Portal Management app](../configure/portal-management-app.md), delete the newly created website record. This will remove the default website configuration data from the target environment.
 
@@ -56,7 +56,7 @@ Migration involves exporting the existing configuration from the source Microsof
 
 ### Transfer portal configuration using Power Platform CLI
 
-The Microsoft Power Platform CLI provides many features specifically for [portals](../power-apps-cli.md). These commands allow you to download portal configuration from a source environment and transfer it to a target environment. These commands can also be incorporated into your ALM processes.
+The Microsoft Power Platform CLI provides many features specifically for [Power Pages](/power-apps/maker/portals/power-apps-cli). These commands allow you to download site configuration from a source environment and transfer it to a target environment. These commands can also be incorporated into your ALM processes.
 
 1. Create Power Platform CLI authentication profiles to connect to both your source and target environments. You can give them a name to easily identify the target and source environments.
 
@@ -156,13 +156,13 @@ Schema files are available for the following portal types:
 
 - **Portals created in an environment with Dataverse**
     - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/p/?linkid=2110477)
-    - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/p/?linkid=2162831) (for version [9.2.2103.x](../versions/package-version-9.2.2103.md))
-    - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/?linkid=2186536) (for version [9.3.2201.x](../versions/package-version-9.3.2201.md) or higher)
+    - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/p/?linkid=2162831) (for version [9.2.2103.x](/power-apps/maker/portals/versions/package-version-9.2.2103))
+    - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/?linkid=2186536) (for version [9.3.2201.x](/power-apps/maker/portals/versions/package-version-9.2.2103) or higher)
 
 - **Portals created in an environment containing customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service)**
     - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/p/?linkid=2019804)
-    - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/p/?linkid=2162733) (for version [9.2.2103.x](../versions/package-version-9.2.2103.md))
-    - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/?linkid=2186261) (for version [9.3.2201.x](../versions/package-version-9.3.2201.md) or higher)
+    - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/p/?linkid=2162733) (for version [9.2.2103.x](/power-apps/maker/portals/versions/package-version-9.2.2103))
+    - [Custom portal (Blank portal)](https://go.microsoft.com/fwlink/?linkid=2186261) (for version [9.3.2201.x](/power-apps/maker/portals/versions/package-version-9.3.2201) or higher)
     - [Community portal](https://go.microsoft.com/fwlink/p/?linkid=2019704)
     - [Customer Self-Service portal](https://go.microsoft.com/fwlink/p/?linkid=2019705)
     - [Partner portal](https://go.microsoft.com/fwlink/p/?linkid=2019803)
@@ -246,22 +246,23 @@ You can export portal configuration data from a source system by using portal-sp
 
 ### Create new portal using migrated data
 
-If the migration process is updating an existing portal, the updates should now be visible in the target environment. If the migration is for a new portal, you can now create the new portal for the imported website record by using the option **Use data from existing website record**. More information: [Create portal](../create-portal.md)
+If the migration process is updating an existing website, the updates should now be visible in the target environment. If the migration is for a new website, you can now create the new website using Power Apps for the imported website record by using the option **Use data from existing website record**. More information: [Create portal](/power-apps/maker/portals/create-portal)
+
+<!--add note about creating sites in Power Apps -->
 
 ## Tenant-to-tenant migration
 
-Power Apps portals doesn't support tenant-to-tenant migration. To migrate a portal from one tenant to another, you must follow these steps:
+PowerPages doesn't support tenant-to-tenant migration. To website a portal from one tenant to another, you must follow these steps:
 
-1. [Reset](reset-portal.md) your portal in the source tenant.
+1. [Reset](/power-apps/maker/portals/admin/reset-portal) your website in the source tenant.
 
-1. Provision a new portal in an environment [with Dataverse](../create-portal.md) or [containing customer engagement apps](../create-dynamics-portal.md).
+1. Provision a [new website](../getting-started/create-manage.md) in an environment.
 
 1. Migrate portal configurations and customizations using the [steps](#transfer-portal-metadata) explained in this article earlier.
 
 ### See also
 
-- [Track changes to Power Apps portals configuration](../faq.yml#how-do-i-track-changes-to-power-apps-portals-configuration-).
-- [Portals support for Microsoft Power Platform CLI](../power-apps-cli.md).
+- [Power Pages support for Microsoft Power Platform CLI](/power-apps/maker/portals/power-apps-cli).
 - Tenant-to-tenant migration of a [Power Platform environment](/power-platform/admin/move-environment-tenant).
 - Tenant-to-tenant migration of [model-driven apps](/dynamics365/admin/move-instance-tenant) in Dynamics 365 such as Sales, Customer Service, Marketing, Field Service, and Project Service Automation.
 
