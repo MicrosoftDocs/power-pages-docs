@@ -1,11 +1,11 @@
 ---
 title: Configure the Azure Active Directory B2C provider manually
-description: Learn how to configure the Azure Active Directory B2C identity provider manually for Power Pages.
+description: Learn how to configure the Azure Active Directory B2C identity provider for Power Pages manually.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 2/15/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
