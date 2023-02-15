@@ -134,11 +134,11 @@ The Azure AD B2C provider configuration is complete. You can view the summary of
 
 ## Edit the configuration
 
-To edit the configuration, select **Edit configuration** for the **Azure Active Directory B2C** identity provider from the providers list. More information: [Edit a provider](use-simplified-authentication-configuration.md#edit-a-provider)
+To edit the configuration, select **Edit configuration** for the **Azure Active Directory B2C** identity provider from the providers list. More information: 
 
 ## Delete configuration
 
-To delete the configuration, select **Delete** for the **Azure Active Directory B2C** identity provider from the providers list. More information: [Delete a provider](use-simplified-authentication-configuration.md#delete-a-provider)
+To delete the configuration, select **Delete** for the **Azure Active Directory B2C** identity provider from the providers list. More information: 
 
 ### See also
 
