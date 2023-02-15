@@ -1,10 +1,10 @@
 ---
-title: Site design templates
-description: The site design templates provide basic building blocks for you to create custom sites.
+title: Starter layout templates
+description: The starter layout templates provide basic building blocks for you to create custom sites.
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
+ms.date: 2/06/2023
 ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: kkendrick
@@ -13,21 +13,21 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Site design templates
+# Starter layout templates
 
-The site design templates provide building blocks for you to create custom sites. Each site design template has different layout, images, and colors that can be used as-is or customized to meet your needs.
+The starter layout templates provide building blocks for you to create custom sites. Each template has different layout, images, and colors that can be used as-is or customized to meet your needs.
 
-:::image type="content" source="media/site-design.png" alt-text="Site design templates.":::
+:::image type="content" source="media/starter-layout.png" alt-text="One of the starter template layouts available in Power Pages.  This starter layout template is a rich blue and displays a header with white text. The body of the page is in 2 column layout.  The left column includes white starter text and an orange button.  The right column includes an image of colorful skyscrapers and a bright, cloudy sky.":::
 
 ## Makers
 
 Makers are able to use the design studio to modify the templates for their specific needs.
 
-The following are the pages, forms, and customizable tables provided in each site design template. These components can be modified to align with your specific project needs.
+The following are the pages, forms, and customizable tables provided in each starter layout template. These components can be modified to align with your specific project needs.
 
 ### Pages
 
-All site design templates contain the following pages.
+All starter layout templates contain the following pages.
 
 | **Page**       | **Description**                         |
 |----------------|-----------------------------------------|

@@ -24,8 +24,8 @@
       items:
         - name: Create sites using templates
           href: templates/index.md
-        - name: Site design templates
-          href: templates/site-design.md
+        - name: Starter layout templates
+          href: templates/starter-layout.md
         - name: After school template
           href: templates/after-school.md
         - name: Book a meeting template
@@ -148,6 +148,18 @@
   items:
     - name: Portal Management app overview
       href: configure/portal-management-app.md
+    - name: Search Configuration
+      items:
+      - name: Search overview
+        href: configure/search/overview.md
+      - name: Search additional tables
+        href: configure/search/additional-tables.md
+      - name: Faceted search
+        href: configure/search/faceted.md
+      - name: Search file attachments
+        href: configure/search/file-attachment.md
+      - name: Progressive search
+        href: configure/search/progressive.md
     - name: Advanced configuration
       href: configure/advanced-config.md
 - name: Integrate Power Pages
