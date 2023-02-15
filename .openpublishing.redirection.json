@@ -39,6 +39,11 @@
       "source_path": "power-pages-docs/admin/update-portal-solution.md",
       "redirect_url": "/power-pages/admin/update-solution",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/code-editor.md",
+      "redirect_url": "/power-pages/configure/visual-studio-code-editor",
+      "redirect_document_id": "false"
     }
   ]
 }
