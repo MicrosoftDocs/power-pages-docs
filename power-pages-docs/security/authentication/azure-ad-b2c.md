@@ -23,11 +23,11 @@ Azure Active Directory B2C (Azure AD B2C) supports user interface customization 
 
 ## Prerequisites
 
-Before you begin, ensure you've configured Azure AD B2C authentication for your Power Pages site with [automatic](configure-azure-ad-b2c-provider.md), or [manual](configure-azure-ad-b2c-provider-manual.md) steps. You'll need to use this Azure AD B2C configuration to customize the user interface for Power Pages while following below steps.
+Before you begin, ensure you've configured Azure AD B2C authentication for your Power Pages site with [automatic](azure-ad-b2c-provider.md) or [manual](azure-ad-b2c-provider-manual.md) steps. You'll need to use this Azure AD B2C configuration to customize the user interface for Power Pages while following below steps.
 
 ## Step 1: Create a web template
 
-1. Open [Portal Management](configure-portal.md) app.
+1. Open [Portal Management app](../../configure/portal-management-app.md).
 
 1. From the left pane, under **Content**, select **Web Templates**.
 
@@ -385,12 +385,12 @@ Before you begin, ensure you've configured Azure AD B2C authentication for your 
 
 ## Step 4: Create site settings
 
-Site settings are required to configure cross-origin resource sharing (CORS) to allow [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Create the following site settings.
+Site settings are required to configure cross-origin resource sharing (CORS) to allow Azure AD B2C to request the custom page and inject the sign-in or sign-up user interface. Create the following site settings.
 
 | Name                              | Value                             |
 |-----------------------------------|-----------------------------------|
 | HTTP/Access-Control-Allow-Methods | `GET, OPTIONS`                      |
-| HTTP/Access-Control-Allow-Origin  | `https://tenant-name.b2clogin.com` <br> For example, if tenant name is ContosoOrg, enter `https://contosoorg.b2clogin.com`. <br> **Note**: You can get this value by copying the domain name part of the [Issuer URL](configure-azure-ad-b2c-provider-manual.md). Ensure you exclude the non-domain part of the Issuer URL value&mdash;for example, exclude&mdash;`/tfp/799f7b50-f7b9-49ec-ba78-67eb67210998/b2c_1_contoso/v2.0`. |
+| HTTP/Access-Control-Allow-Origin  | `https://tenant-name.b2clogin.com` <br /> For example, if tenant name is ContosoOrg, enter `https://contosoorg.b2clogin.com`. <br /> **Note**: You can get this value by copying the domain name part of the [Issuer URL](azure-ad-b2c-provider-manual.md). Ensure you exclude the non-domain part of the Issuer URL value&mdash;for example, exclude&mdash;`/tfp/799f7b50-f7b9-49ec-ba78-67eb67210998/b2c_1_contoso/v2.0`. |
 
 To create site settings:
 
@@ -406,7 +406,7 @@ To create site settings:
 
 1. Select **Save & Close**.
 
-For a complete list of other CORS settings, see [CORS protocol support](../add-web-resource.md#cors-protocol-support).
+For a complete list of other CORS settings, see CORS protocol support.
 
 ## Step 5: Azure configuration
 
@@ -436,7 +436,7 @@ Your Azure AD B2C tenant is now configured to use the custom page for sign-up an
 
 ### See also
 
-[Configure the Azure Active Directory B2C provider (preview)](configure-azure-ad-b2c-provider.md) <br />
-[Configure the Azure Active Directory B2C provider manually](configure-azure-ad-b2c-provider-manual.md) <br />
-[Customize the user interface with HTML templates in Azure Active Directory B2C](/azure/active-directory-b2c/customize-ui-with-html)
+[Configure the Azure Active Directory B2C provider (using interface in preview)](azure-ad-b2c-provider.md) <br />
+[Configure the Azure Active Directory B2C provider manually](azure-ad-b2c-provider-manual.md)
+
 
