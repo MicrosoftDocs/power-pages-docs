@@ -42,16 +42,16 @@ Migration involves exporting the existing configuration from the source Microsof
 
     :::image type="content" source="media/migrate-portal-config/delete-portal.png" alt-text="Delete portal app.":::
 
-1. [Transfer](#transfer-portal-metadata) the site metadata from the source environment using the Power Platform CLI or the Configuration Migration Tool.
+1. [Transfer](#transfer-website-metadata) the site metadata from the source environment using the Power Platform CLI or the Configuration Migration Tool.
 
-1. On the target environment, using Power Apps, provision a new website using the existing portal website option. This process will configure a website using the site configuration you transferred from the source environment.
+1. On the target environment, using Power Apps, provision a new website using the existing website option. This process will configure a website using the site configuration you transferred from the source environment.
 
     :::image type="content" source="media/migrate-portal-config/provision-portal.png" alt-text="Provision new portal.":::
 
     > [!NOTE]
     > The ability to create a site using the existing website option is only currently available in Power Apps.
 
-1. The portal updates from the source environment should be reflected in this new target environment. Going forward, you should be able to transfer configuration from your source to target environments by transferring the portal configuration data.
+1. The website updates from the source environment should be reflected in this new target environment. Going forward, you should be able to transfer configuration from your source to target environments by transferring the website configuration data.
 
 ## Transfer website metadata
 
@@ -146,7 +146,7 @@ The Microsoft Power Platform CLI provides many features specifically for [Power 
 ### Transfer website configuration using the Configuration Migration Tool
 
 >[!NOTE]
-> The preferred method is to use the [Power Platform CLI](#transfer-portal-configuration-using-power-platform-cli) to transfer website metadata.
+> The preferred method is to use the [Power Platform CLI](#transfer-website-configuration-using-power-platform-cli) to transfer website metadata.
 
 To export configuration data, you would need to use the Configuration Migration tool and a website-specific configuration schema file. For more information about this tool, see [Manage configuration data](/power-platform/admin/manage-configuration-data).
 
