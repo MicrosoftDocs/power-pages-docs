@@ -1,11 +1,11 @@
 ---
-title: Convert a portal
-description: Learn how to convert a portal to different lifecycle stages.
+title: Convert a website
+description: Learn how to convert a website to different lifecycle stages.
 author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/03/2023
+ms.date: 02/15/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -14,7 +14,7 @@ contributors:
     - nickdoelman
 ---
 
-# Convert a portal
+# Convert a website
 
 As explained in the [portal lifecycle](/power-apps/maker/portals/admin/portal-lifecycle) topic in the Power Apps documentation, a Power Pages website goes through different stages. You can convert a website from one stage to another, depending on what conversion is allowed, and whether the environment has the required license, or capacity.
 
