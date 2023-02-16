@@ -82,3 +82,7 @@ Modify the theme in the **Style workspace** using the following steps:
 ## Site visibility
 
 A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+
+## Dynamics 365 templates 
+
+Many of the components (Forms, lists, Header, Footer, etc) of the Dynamics 365 templates like Modern community, Customer self-service, Employee self-service, Field service customer, etc are not compatible in the new Power Pages studio. These components cannot be edited using the Power Pages studio experience, however, pro-develeloper experiences like VSCode for web, Visual Studio, PMA app can be used to edit these components. 
