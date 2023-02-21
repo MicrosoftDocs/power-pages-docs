@@ -150,20 +150,16 @@ Forms on pages are created from Dataverse table forms. The following videos show
 | - | - | - |
 | 1 | Create a table in Dataverse | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a form | [video](#create-a-form)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#add-code-components) |
-| 4 | Add a form to page | [video](#add-a-form-to-page)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#add-a-form-to-a-page) |
-| 5 | Configure form options| [video](#configure-form-options)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md#configure-form-options) |
-| 6 | Enable attachments | [video](#enable-attachments-on-forms)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md#enable-attachments-on-forms) |
+| 3 | Add a form to page | [video](#add-a-form-to-page)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#add-a-form-to-a-page) |
+| 4 | Configure form options| [video](#configure-form-options)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md#configure-form-options) |
+| 5 | Enable attachments | [video](#enable-attachments-on-forms)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md#enable-attachments-on-forms) |
+| 6 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#enable-code-components-on-form-fields) |
 
 ### Create a form
 
 In this video, we create a form by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ez]
-
-### Add a code component
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ey]
 
 ### Add a form to page
 
@@ -177,10 +173,38 @@ In this video, we create a form by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eLpl]
 
+### Add a code component
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fE0q]
+
 ### See also
 
 [Create forms in Data workspace](../configure/data-workspace-forms.md)  
 [Add form to a page](../getting-started/add-form.md)  
+
+## Create a multi-step form
+
+Multistep forms are a powerful way to collect inputs from users over multiple steps. The collected information is stored or updated in Microsoft Dataverse.
+
+In the following videos, you will learn how to create a series of Microsoft Dataverse forms to build a multi-step process, add a multi-step form component to a web page and configure table permissions.
+
+| Step | Task | Video and tutorial |  
+| - | - | - |
+| 1 | Create a table in Dataverse | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
+| 2 | Create a form | [video](#create-a-form)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
+| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#add-code-components) |
+
+### Create Dataverse forms for a multi-step form component
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPf]
+
+### Add a multi-step form component to a webpage
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPg]
+
+### Configure multi-step form table permissions
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fOuI]
 
 ## Configure access to your site
 

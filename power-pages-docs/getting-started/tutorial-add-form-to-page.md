@@ -145,37 +145,23 @@ This video provides an overview of the steps to add a form to a page.
 
     :::image type="content" source="media/tutorial/preview-icon.png" alt-text="Preview icon.":::
 
-## Configure form options
+## Enable code components on form fields
 
-Earlier we enabled the rich text editor component on the comments field in our form. In order for the rich text editor to render on the page, we need to add some metadata. 
+This video provides an overview of the steps to configure the rich text editor control on a form.
 
-This video provides an overview of the steps to configure form options.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fE0q]
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYep]
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage.
 
-1. In the design studio, open a page with a form component and select the form you previously created.
+To enable the code component:
 
-1. Select the **Form** button.
+1. Select the field and choose **Edit field**.
 
-    :::image type="content" source="media/tutorial/form-menu-bar.png" alt-text="Form menu bar options.":::
+1. Select **Enable custom component field**.
 
-1. Select the **Data section**.  Select **Open Portal Management app**.  You'll be directed to the form metadata record.
+1. Select **OK**.
 
-    :::image type="content" source="media/tutorial/form-data-tab.png" alt-text="The form data tab.":::
-
-1. Select the **Basic form metadata** tab.
-
-1. Choose **New basic form metadata**.
-
-    :::image type="content" source="media/tutorial/form metadata.png" alt-text="New Form Metadata tab.":::
-
-    - Choose **Attribute** for the Type.
-    - Choose **Comments** for the Attribute Logical Name.
-    - Choose **Code component** for the control style.
-
-    :::image type="content" source="media/tutorial/form-metadata-choices.png" alt-text="Choosing values for form metadata.":::
-
-1. Select **Save**.
+    :::image type="content" source="media/add-form/enable-code-component.png" alt-text="Enabling code component on webpage form.":::
 
 1. From the design studio, select **Preview** and navigate to your page.
 

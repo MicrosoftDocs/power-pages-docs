@@ -58,6 +58,10 @@ Here is an outline of the sample steps:
 
 ### Create Dataverse tables and forms to use in the multistep form
 
+The following video shows how to create forms to use in the multistep form process.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPf]
+
 We will need to store our information of our process in Microsoft Dataverse tables. 
 
 For each step of the process that requires a user to create or update columns on a Dataverse record, you will need to have a corresponding Dataverse form.
@@ -115,6 +119,10 @@ In our example, we will create a Dataverse table called *Applications* for our p
 ### Add a multistep form component to a page
 
 Now that we have our table and forms, we can create a multistep form on a webpage.
+
+This video shows how to create a multistep form on a page.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPg]
 
 1. Go to the **Pages** workspace and add a new page or edit an existing page. For more information on creating webpages, see [Create and design pages](first-page.md).
 
@@ -174,6 +182,10 @@ You can modify some of the field properties on your multistep form in the design
 ### Add table permission
 
 By default, visitors to the site will not be able to access the multistep form. In our example, we would only want to allow authenticated users to fill in the multistep form. You can use a combination of web roles and table permissions to configure create, read, and update data actions for your own multistep process.
+
+This video shows how to configure table permissions for multistep forms.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fOuI]
 
 For new forms, a banner will appear prompting you to add permissions. 
 
