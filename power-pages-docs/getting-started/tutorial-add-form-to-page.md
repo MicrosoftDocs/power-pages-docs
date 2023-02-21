@@ -183,6 +183,41 @@ This video provides an overview of the steps to configure form options.
 
     :::image type="content" source="media/tutorial/feedback-form-richtext.png" alt-text="Feedback form with rich text editor control on comments.":::
 
+## Enable attachments on forms
+
+This video shows how you can enable attachments on forms.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eLpl]
+
+Users can upload an attachment with form submission.
+
+To enable attachments on a form:
+
+1. Add a form or edit an existing form.
+
+1. In the **Add a form** modal, choose **Attachments** from the left panel. 
+
+    - Configure the following options:
+        - Turn on/off the **Enable attachments** toggle.
+        - Turn on/off the **Attachment is required** toggle.
+        - Turn on/off the **Allow multiple files** toggle.
+        - Max file size allowed
+
+> [!NOTE] 
+> The following file types are allowed:
+>   - All
+>   - Audio
+>   - Document
+>   - Image
+>   - Video
+>    - Specific (comma separated values)
+    
+:::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
+
+Once configured, the file upload placeholder will show in the canvas. 
+
+:::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
+
 ## Next steps
 
 Next, learn how to create a multi-step (advanced) form to your page.
