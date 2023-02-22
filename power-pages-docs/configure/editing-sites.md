@@ -40,6 +40,9 @@ The Power Apps portals Studio has the following features that aren't part of the
 - [Custom menus](/power-apps/maker/portals/add-custom-menu)
 - [Content snippet editing](/power-apps/maker/portals/configure/customize-content-snippets)
 
+> [!NOTE]
+> Please see [How to: Embed a chatbot on a webpage](../guidance/integrate-pva.md) on how to embed a chatbot on a Power Pages site.
+
 ## Components added in design studio
 
 Power Pages design studio has new capabilities that aren't available in the Power Apps portals Studio. If you customize a site in the Power Pages design studio and open the site in Power Apps portals Studio, the following components won't be configurable:  
