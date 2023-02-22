@@ -26,6 +26,10 @@ Dynamics 365 templates are available for your Power Pages sites in environments 
 - Dynamics 365 Supply Chain Management
 - Dynamics 365 Intelligent Order Management
 
+> [!NOTE]
+> - Editing capabilities in Power Pages design studio are not available for Dynamics 365 templates.
+> - See [known issues](../known-issues.md#dynamics-365-templates) for alternatives.
+
 ## Customer self-service
 
 The customer self-service site gives customers access to self-service knowledge and support resources.  Customers can also view the progress of their cases and provide feedback.
