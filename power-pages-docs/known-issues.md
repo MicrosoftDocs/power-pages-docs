@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/23/2023
+ms.date: 2/22/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -85,4 +85,10 @@ A Power Pages website in private mode won't work when you disable Azure Active D
 
 ## Dynamics 365 templates 
 
-Many of the components (Forms, lists, Header, Footer, etc) of the Dynamics 365 templates like Modern community, Customer self-service, Employee self-service, Field service customer, etc are not compatible in the new Power Pages studio. These components cannot be edited using the Power Pages studio experience, however, pro-develeloper experiences like VSCode for web, Visual Studio, PMA app can be used to edit these components. 
+Editing capabilities in Power Pages design studio are not available for [Microsoft Dynamics 365 templates](templates/dynamics-365-templates.md).
+
+You can preview the webpages using design studio, but you can't add or modify sections, components, or text. 
+
+Instead, use tools such as [Portals Management app](configure/portal-management-app.md) or [Visual Studio Code](configure/cli-tutorial.md) to edit the underlying [web templates](configure/store-content-web-templates.md) and configure them for your unique needs.
+
+
