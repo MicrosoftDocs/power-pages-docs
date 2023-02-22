@@ -28,6 +28,14 @@ landingContent:
             url: white-papers/security.md
 
   # Card
+  - title: Power Pages integration
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: "How to: Embed a chatbot on a webpage"
+            url: integrate-pva.md
+
+  # Card
   - title: Related content
     linkLists:
       - linkListType: reference
