@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/23/2023
+ms.date: 2/22/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -82,3 +82,13 @@ Modify the theme in the **Style workspace** using the following steps:
 ## Site visibility
 
 A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+
+## Dynamics 365 templates 
+
+Editing capabilities in Power Pages design studio are not available for [Microsoft Dynamics 365 templates](templates/dynamics-365-templates.md).
+
+You can preview the webpages using design studio, but you can't add or modify sections, components, or text. 
+
+Instead, use tools such as [Portals Management app](configure/portal-management-app.md) or [Visual Studio Code](configure/cli-tutorial.md) to edit the underlying [web templates](configure/store-content-web-templates.md) and configure them for your unique needs.
+
+
