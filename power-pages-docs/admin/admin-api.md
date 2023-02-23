@@ -36,7 +36,7 @@ To learn more about the request format and request components, go to [Call a RES
 
 | Operation | Details |
 | - | - |
-| [Create Website](/rest/api/power-platform/powerpages/websites/create-website) | Trigger the creation of a new Power Pages website.</br></br>**Note:** It is not recommended to create a site in the default environment as it is shared across all the users in the tenant, and has a risk of sharing data with unintentional users. |
+| [Create Website](/rest/api/power-platform/powerpages/websites/create-website) | Trigger the creation of a new Power Pages website.</br></br>**Note:** It isn't recommended to create a site in the default environment as it is shared across all the users in the tenant, and has a risk of sharing data with unintentional users. |
 | [Delete Website](/rest/api/power-platform/powerpages/websites/delete-website) | Trigger the deletion of a Power Pages site from the given website ID. |
 | [Get Website by Id](/rest/api/power-platform/powerpages/websites/get-website-by-id) | Get website details from Website ID. |
 | [Get Websites](/rest/api/power-platform/powerpages/websites/get-websites) | Get a list of all the Power Pages websites in your environment. |
