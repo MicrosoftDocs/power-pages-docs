@@ -46,7 +46,7 @@ This video provides an overview of the steps to create a form.
 
 1. In the **data workspace**, select the **Feedback table** and choose the **Forms tab**.
 
-    :::image type="content" source="media/tutorial/feedback-table.png" alt-text="Theforms menu option for the feedback table in the data workspace.":::
+    :::image type="content" source="media/tutorial/feedback-table.png" alt-text="The forms menu option for the feedback table in the data workspace.":::
 
 1. Select **+ New form** to open the form editor.
 

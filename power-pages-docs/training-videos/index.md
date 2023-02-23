@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/21/2023
+ms.date: 2/23/2023
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -151,9 +151,8 @@ Forms on pages are created from Dataverse table forms. The following videos show
 | 1 | Create a table in Dataverse | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
 | 2 | Create a form | [video](#create-a-form)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
 | 3 | Add a form to page | [video](#add-a-form-to-page)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#add-a-form-to-a-page) |
-| 4 | Configure form options| [video](#configure-form-options)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md#configure-form-options) |
-| 5 | Enable attachments | [video](#enable-attachments-on-forms)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md#enable-attachments-on-forms) |
-| 6 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#enable-code-components-on-form-fields) |
+| 4 | Enable attachments | [video](#enable-attachments-on-forms)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md#enable-attachments-on-forms) |
+| 5 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#enable-code-components-on-form-fields) |
 
 ### Create a form
 
@@ -165,10 +164,11 @@ In this video, we create a form by using the Data workspace.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5G7]
 
+<!-- may retire this one
 ### Configure form options
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYep]
-
+-->
 ### Enable attachments on forms
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eLpl]
