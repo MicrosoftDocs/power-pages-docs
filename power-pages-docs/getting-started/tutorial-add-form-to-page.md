@@ -77,11 +77,7 @@ The form will appear in the list of forms for that table.
 
 ## Add code components
 
-Code components can be added to forms to allow advanced interaction with specific data fields. For example, we can enable rich text editing capabilities to a multi-line text field on a form.
-
-This video provides an overview of the steps to add code components.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ey]
+Code components can be added to Dataverse forms to allow advanced interaction with specific data fields. For example, we can enable rich text editing capabilities to a multi-line text field on a form.
 
 1. In the **Data workspace**, select the **Feedback table** and choose the **Forms tab**.
 
