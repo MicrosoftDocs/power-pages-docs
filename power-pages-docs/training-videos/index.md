@@ -182,7 +182,7 @@ In this video, we create a form by using the Data workspace.
 [Create forms in Data workspace](../configure/data-workspace-forms.md)  
 [Add form to a page](../getting-started/add-form.md)  
 
-## Create a multi-step form
+## Create a multistep form
 
 Multistep forms are a powerful way to collect inputs from users over multiple steps. The collected information is stored or updated in Microsoft Dataverse.
 
@@ -190,19 +190,19 @@ In the following videos, you will learn how to create a series of Microsoft Data
 
 | Step | Task | Video and tutorial |  
 | - | - | - |
-| 1 | Create a table in Dataverse | [video](#create-a-table)<br/>[tutorial](../getting-started/tutorial-add-list-to-page.md) |
-| 2 | Create a form | [video](#create-a-form)<br/> [tutorial](../getting-started/tutorial-add-form-to-page.md) |
-| 3 | Add a code component (example: Add a rich text control to your form) | [video](#add-a-code-component)<br/>[tutorial](../getting-started/tutorial-add-form-to-page.md#add-code-components) |
+| 1 | Create Dataverse forms | [video](#create-dataverse-forms-for-a-multistep-form-component)<br/>[tutorial](../getting-started/tutorial-add-multi-step-form.md#create-dataverse-tables-and-forms-to-use-in-the-multistep-form) |
+| 2 | Add multi-step form to a webpage | [video](#add-a-multistep-form-component-to-a-webpage)<br/> [tutorial](../getting-started/tutorial-add-multi-step-form.md#add-a-multistep-form-component-to-a-page) |
+| 3 | Configure multi-step form table permissions | [video](#configure-multistep-form-table-permissions)<br/>[tutorial](../getting-started/tutorial-add-multi-step-form.md#add-table-permission) |
 
-### Create Dataverse forms for a multi-step form component
+### Create Dataverse forms for a multistep form component
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPf]
 
-### Add a multi-step form component to a webpage
+### Add a multistep form component to a webpage
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPg]
 
-### Configure multi-step form table permissions
+### Configure multistep form table permissions
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fOuI]
 
