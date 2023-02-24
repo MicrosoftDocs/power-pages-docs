@@ -228,6 +228,12 @@
               href: security/authentication/saml2-faqs.md
         - name: WS Federation
           items: 
+            - name: Configuration
+              href: security/authentication/ws-federation-provider.md
+            - name: Configure with Azure AD 
+              href: security/authentication/ws-federation-settings-azure-ad.md
+            - name: Configure with AD FS 
+              href: security/authentication/ws-federation-settings.md
     - name: User Management
       items:  
         - name: Configure contacts 
