@@ -134,8 +134,10 @@
       href: admin/coe-portals.md
 - name: Configure Power Pages
   items:
-    - name: Portal Management app overview
-      href: configure/portal-management-app.md
+    - name: Portal Management app
+      items:
+      - name: Portal Management app overview
+        href: configure/portal-management-app.md
     - name: Search Configuration
       items:
       - name: Search overview
