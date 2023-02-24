@@ -144,12 +144,16 @@
         items:
         - name: Configure lists
           items:
-          - name: List overview   
+          - name: Lists overview   
             href: configure/lists.md
           - name: List attributes and relationships
             href: configure/list-attributes-relationships.md  
           - name: Sort list
-            href: configure/sort-lists.md  
+            href: configure/sort-lists.md
+          - name: Add custom JavaScript to a list
+            href: configure/add-custom-javascript-list.md
+          - name: List configuration
+            href: configure/list-configuration.md      
     - name: Search Configuration
       items:
       - name: Search overview
