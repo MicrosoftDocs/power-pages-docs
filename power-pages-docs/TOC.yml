@@ -138,6 +138,8 @@
       items:
       - name: Portal Management app overview
         href: configure/portal-management-app.md
+      - name: Configure site settings
+        href: configure/configure-site-settings.md  
     - name: Search Configuration
       items:
       - name: Search overview

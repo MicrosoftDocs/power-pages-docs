@@ -21,7 +21,9 @@ The Portal Management app lets you do advanced configuration actions on your sit
 
 ## Open the Portal Management app from the Power Pages home page
 
+On the Power Pages home page, select the ellipsis (**...**) from the site section, and select **Portal management**.
 
+:::image type="content" source="media/portals-management-app/home-page.png" alt-text="Launch Portal Management app from home page.":::
 
 ## Open the Portal Management app from the Power Pages design studio
 
