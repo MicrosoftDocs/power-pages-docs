@@ -139,7 +139,15 @@
       - name: Portal Management app overview
         href: configure/portal-management-app.md
       - name: Configure site settings
-        href: configure/configure-site-settings.md  
+        href: configure/configure-site-settings.md
+      - name: Configure form and list metadata
+        items:
+        - name: Configure lists
+          items:
+          - name: List overview   
+            href: configure/lists.md
+          - name: List attributes and relationships
+            href: configure/list-attributes-relationships.md  
     - name: Search Configuration
       items:
       - name: Search overview
