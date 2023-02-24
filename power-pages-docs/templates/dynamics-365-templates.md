@@ -4,7 +4,7 @@ description: Learn how to use Dynamics 365 templates to create or enhance your P
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/08/2022
+ms.date: 02/22/2023
 ms.subservice:
 ms.author: sampatn
 ms.reviewer: kkendrick
@@ -25,6 +25,9 @@ Dynamics 365 templates are available for your Power Pages sites in environments 
 - Dynamics 365 Project Operations
 - Dynamics 365 Supply Chain Management
 - Dynamics 365 Intelligent Order Management
+
+> [!NOTE]
+> - Editing capabilities in Power Pages design studio are not available for Dynamics 365 templates, see [known issues](../known-issues.md#dynamics-365-templates) for alternatives.
 
 ## Customer self-service
 
@@ -76,7 +79,7 @@ More information:
 
 ## Supply chain management customer portal
 
-The supply chain management customer portal site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. This template can be modified to represent the company's brand, add more functionality, and change the user experience. 
+The supply chain management customer portal site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. You can modify this template to represent the company's brand, add more functionality, and change the user experience. 
 
 :::image type="content" source="media/dynamics365-templates/scm.png" alt-text="Supply chain management template landing page.":::  
 
@@ -118,7 +121,7 @@ More information:
 > [!NOTE]
 > This template is a preview offering.
 
-This template integrates with the Dynamics 365 Intelligent Order Management application and can be added to existing customer websites or used to create a new site. Customers can return their orders, view the status of their return request, view return history, and monitor their refund status. 
+This template integrates with the Dynamics 365 Intelligent Order Management application. Add this template to an existing customer website or use it to create a new site. Customers can return their orders, view the status of their return request, view return history, and monitor their refund status. 
 
 :::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template landing page.":::
 
