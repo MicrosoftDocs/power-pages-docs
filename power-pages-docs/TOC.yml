@@ -186,12 +186,12 @@
           href: security/configure-portal-authentication.md
         - name: Azure AD B2C
           items:
-            - name: 
-              href:
-            - name: 
-              href:
-            - name: 
-              href:
+            - name: Configure
+              href: security/authentication/azure-ad-b2c-provider.md
+            - name: Configure manually
+              href: security/authentication/azure-ad-b2c-provider-manual.md
+            - name: Customize user interface
+              href: security/authentication/azure-ad-b2c.md
         - name: OAuth 2.0
           items:
             - name: Overview
@@ -210,8 +210,22 @@
               href: security/authentication/oauth2-settings.md
         - name: OpenID Connect  
           items:
+            - name: Configure
+              href: security/authentication/openid-provider.md
+            - name: Configure for Azure AD
+              href: security/authentication/openid-settings.md
+            - name: Configure for OpenID Connect
+              href: security/authentication/openid-faqs.md
         - name: SAML 2.0
           items:
+            - name: Configure
+              href: security/authentication/saml2-provider.md
+            - name: Configure Azure AD for SAML 2.0
+              href: security/authentication/saml2-settings-azure-ad.md
+            - name: Configure AD FS with SAML 2.0
+              href: security/authentication/saml2-settings.md
+            - name: FAQs when using SAML 2.0
+              href: security/authentication/saml2-faqs.md
         - name: WS Federation
           items: 
     - name: User Management
