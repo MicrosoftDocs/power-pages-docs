@@ -251,7 +251,7 @@
           href: security/create-web-roles.md
         - name: Configure web roles
           href: security/create-web-roles.md
-        - name: Page permisions
+        - name: Page permissions
           href: security/page-security.md
         - name: Configure table permissions
           href: security/table-permissions.md
