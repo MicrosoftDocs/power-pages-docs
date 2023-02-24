@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/23/2023
+ms.date: 2/22/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -51,37 +51,25 @@ When customizing the header, if someone has modified the Liquid code, these chan
 
 This known issue applies only to sites created using Power Pages prior to September 23, 2022.
 
-Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings by recompiling the site.
+Power Pages themes have been updated to meet the highest visual accessibility standards.  To ensure that your existing Power Pages sites created prior to September 23, 2022 adhere to these standards, you'll need to update your theme settings to adjust the background using one of the following options.
 
-### How to recompile your Power Pages site
+### Option 1: add a new color to the theme's palette
 
-Makers can update and recompile their Power Pages site and adjust the background color using one of several methods.
+Add a new color to the theme's palette using the Color Palette in the **Style workspace**.
 
-#### Add a new color to the theme's palette
+### Option 2: edit a background on a section of the page
 
-To adjust the background color, makers can add a new color to the theme's palette using the Color Palette in the Style workspace.
+Select the desired color while editing the background on a section in the **Pages workspace**.
 
-:::image type="content" source="media/known-issues/styling-more-colors.png" alt-text="Add a new color to the theme's palette using the Color Palette in the Style workspace.":::
+### Option 3: modify your theme
 
-#### Edit a background on a section of the page
+Modify the theme in the **Style workspace** using the following steps:
 
-To adjust the background color, makers can select the desired color while editing the background on a section in the Pages workspace.
-
-:::image type="content" source="media/known-issues/styling-fonts-title.png" alt-text="Select the desired color while editing the background on a section in the Pages workspace.":::
-
-#### Modify the theme
-
-Makers can adjust the background color by modifying the theme in the Style workspace using the following steps:
-
-1. From the Style workspace, select a different theme.
+1. Select a different theme.
 
 2. Choose your original theme.
 
 3. Select **Save**.
-
-### Modify a theme setting
-
-Makers can adjust the background color in the Style workspace by modifying a theme setting (like the Background color) by choosing the original value and selecting **Save**.
 
 ## Site visibility
 
@@ -196,8 +184,15 @@ A Power Pages website in private mode will not work when you disable Azure Activ
     - The selection of component isn't correct and hovering on a component provides incorrect target indication.
     - Two or three column sections don't render properly in Power Apps portals Studio but works fine on the website.
 
+## Dynamics 365 templates 
+
+Editing capabilities in Power Pages design studio are not available for [Microsoft Dynamics 365 templates](templates/dynamics-365-templates.md).
+
+You can preview the webpages using design studio, but you can't add or modify sections, components, or text. 
+
+Instead, use tools such as [Portals Management app](configure/portal-management-app.md) or [Visual Studio Code](configure/cli-tutorial.md) to edit the underlying [web templates](configure/store-content-web-templates.md) and configure them for your unique needs.
+
 ### See also
 
 [Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
-
-
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.

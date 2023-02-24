@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin APIs
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/10/2022
+ms.date: 02/23/2023
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -36,7 +36,7 @@ To learn more about the request format and request components, go to [Call a RES
 
 | Operation | Details |
 | - | - |
-| [Create Website](/rest/api/power-platform/powerpages/websites/create-website) | Trigger the creation of a new Power Pages website. |
+| [Create Website](/rest/api/power-platform/powerpages/websites/create-website) | Trigger the creation of a new Power Pages website.</br></br>**Note:** It isn't recommended to create a site in the default environment as it is shared across all the users in the tenant, and has a risk of sharing data with unintentional users. |
 | [Delete Website](/rest/api/power-platform/powerpages/websites/delete-website) | Trigger the deletion of a Power Pages site from the given website ID. |
 | [Get Website by Id](/rest/api/power-platform/powerpages/websites/get-website-by-id) | Get website details from Website ID. |
 | [Get Websites](/rest/api/power-platform/powerpages/websites/get-websites) | Get a list of all the Power Pages websites in your environment. |
