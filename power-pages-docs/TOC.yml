@@ -174,15 +174,15 @@
       href: configure/portals-alm.md
 - name: Secure Power Pages
   items:
-    - name: Power Pages security
+    - name: Overview
       href: security/power-pages-security.md
     - name: Site visibility
       href: security/site-visibility.md
     - name: Authentication
       items: 
-        - name: Authentication overview
+        - name: Overview
           href: security/authentication/overview.md
-        - name: Configure authentication
+        - name: Configure
           href: security/configure-portal-authentication.md
         - name: Azure AD B2C
           items:
@@ -220,46 +220,47 @@
           items:
             - name: Configure
               href: security/authentication/saml2-provider.md
-            - name: Configure Azure AD for SAML 2.0
+            - name: Configure Azure AD
               href: security/authentication/saml2-settings-azure-ad.md
-            - name: Configure AD FS with SAML 2.0
+            - name: Configure AD FS
               href: security/authentication/saml2-settings.md
-            - name: FAQs when using SAML 2.0
+            - name: FAQs
               href: security/authentication/saml2-faqs.md
         - name: WS Federation
           items: 
-            - name: Configuration
+            - name: Configure
               href: security/authentication/ws-federation-provider.md
             - name: Configure with Azure AD 
               href: security/authentication/ws-federation-settings-azure-ad.md
             - name: Configure with AD FS 
               href: security/authentication/ws-federation-settings.md
+            - name: Local authentication, registration, and settings
+              href: 
+            - name: Migrate to Azure AD B2C
+              href:
+            - name: OAuth 2.0 implicit grant flow
     - name: User Management
       items:  
-        - name: Configure contacts 
-          href: security/configure-contacts.md
-        - name: Invite contacts
-          href: security/invite-contacts.md
         - name: Provide external access
           href: security/external-access.md
+        - name: Invite contacts
+          href: security/invite-contacts.md
     - name: Roles and permissions
       items:
         - name: Create web roles
           href: security/create-web-roles.md
         - name: Configure web roles
           href: security/create-web-roles.md
-        - name: Page security
+        - name: Page permisions
           href: security/page-security.md
         - name: Configure table permissions
           href: security/table-permissions.md
         - name: Assign table permissions
           href: security/assign-table-permissions.md
-        - name: Configure table permissions using portals Studio
+        - name: Configure table permissions
           href:
         - name: Configure column permissions
           href: security/column-permissions.md
-        - name: Manage page permissions
-          href: security/page-permissions.md
         - name: Create website access permissions
           href: security/website-access-permission.md
     - name: Web Application Firewall (preview)
