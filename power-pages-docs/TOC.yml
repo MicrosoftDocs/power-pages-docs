@@ -186,8 +186,28 @@
           href: security/configure-portal-authentication.md
         - name: Azure AD B2C
           items:
+            - name: 
+              href:
+            - name: 
+              href:
+            - name: 
+              href:
         - name: OAuth 2.0
           items:
+            - name: Overview
+              href: security/authentication/oauth2-provider.md
+            - name: Microsoft  
+              href: security/authentication/oauth2-microsoft.md
+            - name: LinkedIn
+              href: security/authentication/oauth2-linkedin.md
+            - name: Facebook
+              href: security/authentication/oauth2-facebook.md
+            - name: Google 
+              href: security/authentication/oauth2-google.md
+            - name: Twitter
+              href: security/authentication/oauth2-twitter.md
+            - name: Additional settings
+              href: security/authentication/oauth2-settings.md
         - name: OpenID Connect  
           items:
         - name: SAML 2.0
