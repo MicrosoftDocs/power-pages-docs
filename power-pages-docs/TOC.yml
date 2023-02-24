@@ -148,6 +148,8 @@
             href: configure/lists.md
           - name: List attributes and relationships
             href: configure/list-attributes-relationships.md  
+          - name: Sort list
+            href: configure/sort-lists.md  
     - name: Search Configuration
       items:
       - name: Search overview
