@@ -105,7 +105,7 @@ Enabling a **Create Action** renders a button above the list that, when selected
 
 **Download action settings**
 
-Enabling a **Download Action** renders a button above the list that, when selected, downloads the data from the list to an [!INCLUDE[pn-excel-short](../../../includes/pn-excel-short.md)] (.xlsx) file.
+Enabling a **Download Action** renders a button above the list that, when selected, downloads the data from the list to an Excel (.xlsx) file.
 
 | Name              | Description                                                                                        |
 |-------------------|----------------------------------------------------------------------------------------------------|
