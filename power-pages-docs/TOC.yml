@@ -177,7 +177,7 @@
     - name: Power Pages security
       href: security/power-pages-security.md
     - name: Site visibility
-      href: security/site-visibility.m
+      href: security/site-visibility.md
     - name: Authentication
       items: 
         - name: Authentication overview
