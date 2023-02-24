@@ -159,7 +159,17 @@
           - name: Add a view details page          
             href: configure/list-view-details.md
           - name: List filter configuration
-            href: configure/list-filter-configuration.md  
+            href: configure/list-filter-configuration.md
+          - name: List map view
+            href: configure/list-map-view.md
+          - name: List calendar view      
+            href: configure/list-calendar-view.md
+          - name: Enhanced view filter for lists
+            href: configure/list-enhanced-view-filter.md
+        - name: Configure basic forms
+          items:
+          - name: Basic forms overview
+            href:       
     - name: Search Configuration
       items:
       - name: Search overview

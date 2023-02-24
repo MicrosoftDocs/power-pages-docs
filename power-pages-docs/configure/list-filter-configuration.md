@@ -24,7 +24,7 @@ In the **Metadata Filter** section, select the **Enabled** check box. This will 
 
 You can define how the Filter area on the list will be rendered by using the Orientation setting. The default, Horizontal, renders the Filter area above the list. Vertical orientation renders the Filter area as a box to the left of the list.
 
-:::image type="content" source="media/list/metadata-filter-settings.png" alt-text="Metadata filter settings.":::
+:::image type="content" source="media/lists/metadata-filter-settings.png" alt-text="Metadata filter settings.":::
 
 **Filter types**
 
