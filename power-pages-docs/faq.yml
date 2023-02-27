@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.custom: 
   ms.subservice: 
-  ms.date: 02/24/2023
+  ms.date: 02/27/2023
   ms.author: sandhan
   ms.reviewer: ndoelman
   contributors:
@@ -36,7 +36,7 @@ sections:
       - question: |
           Which TLS 1.2 cipher suites are supported by Power Pages?
         answer: |
-          Power Pages supports the following TLS 1.2 cipher suites as per [Microsoft Security Policy](/compliance/assurance/assurance-governance#how-do-microsoft-online-services-implement-the-microsoft-security-policy-msp) to account for multiple clients support. Strongest cipher suites are at the top of the list. This ensures the clients always use the strongest cipher suite that they support from this list while connecting to portals.
+          Power Pages supports the following TLS 1.2 cipher suites as per [Microsoft Security Policy](/compliance/assurance/assurance-governance#how-do-microsoft-online-services-implement-the-microsoft-security-policy-msp) to account for multiple clients support. Strongest cipher suites are at the top of the list. This ensures the clients always use the strongest cipher suite that they support from this list while connecting to websites.
 
           - TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
           - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
@@ -57,130 +57,130 @@ sections:
       - question: |
           How do I redirect a user to a default page after signing in?
         answer: |
-          You can configure a portal to redirect a user to a default page after signing in. For detailed steps, go to [Redirect a user to a default page on sign-in](liquid/redirect-a-user-homepage.md).
+          You can configure a website to redirect a user to a default page after signing in. For detailed steps, go to [Redirect a user to a default page on sign-in](/power-apps/maker/portals/liquid/redirect-a-user-homepage).
           
-          For more information on working with Liquid templates, see [Work with Liquid templates](liquid/liquid-overview.md).
+          For more information on working with Liquid templates, see [Work with Liquid templates](/power-apps/maker/portals/liquid/liquid-overview).
           
   - name: Licensing and provisioning
     questions:
       - question: |
-          How do I get a portal subscription?
+          How do I get a Power Pages subscription?
         answer: |
-          [Power Pages](overview.md) are now available as standalone in Power Apps. You no longer need to acquire license to provision a portal. User access to the portal requires license depending on persona type. Read more details at [Power Apps portals licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-power-apps-portals-licensing).
+          [Power Pages](overview.md) is now available as a standalone product. Details at [Assign licensing](go-live/assign-licensing.md).
           
       - question: |
-          How do I change the base URL of a portal after it's provisioned?
+          How do I change the base URL of a website after it's provisioned?
         answer: |
-          You can change the base URL of a portal after it's provisioned by following the steps in [Change the base URL of a portal](admin/change-base-url.md).
+          You can change the base URL of a website after it's provisioned by following the steps in [Change the base URL of a website](/power-apps/maker/portals/admin/change-base-url).
           
       - question: |
           I'm getting an error that I don't have appropriate license to access this website.
         answer: |
-          Internal users with Azure Active Directory credentials trying to sign-in without a valid license assigned will see this message on the sign-in page: *You don't have a valid license to access this website. Please contact your system administrator*.
+          Internal users with Azure Active Directory credentials trying to sign-in without a valid license assigned will see this message on the sign-in page: *You don't have a valid license to access this website. Contact your system administrator*.
           
-          Users could also see this error if [Pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) has not been enabled for this environment. 
+          Users could also see this error if [Pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) hasn't been enabled for this environment. 
 
-          ![Portal login error](media/portal-login-error.png "Portal login error")
+          :::image type="content" source="media/website-login-error.png" alt-text="Website sign in error.":::
           
-          Depending on the purchased SKU type - such as different *Dynamics 365 SKUs*, *Power Apps per app plan* or *Power Apps per user plan*, an administrator will need to either provide an appropriate license to the users, or have appropriate number of app passes available to the environment. For more information about app passes, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment). Once app passes are allocated to the environment, the portal will have to be restarted for changes to take effect.
+          Depending on the purchased SKU type - such as different *Dynamics 365 SKUs*, *Power Apps per app plan* or *Power Apps per user plan*, an administrator will need to either provide an appropriate license to the users, or have appropriate number of app passes available to the environment. For more information about app passes, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment). Once app passes are allocated to the environment, the website will have to be restarted for changes to take effect.
 
-          For details about licensing of internal users, go to [Portal Licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-power-apps-portals-licensing). 
+          For details about licensing of internal users, go to [Power Pages Licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#what-are-the-power-pages-use-rights-included-with-power-apps-and-dynamics-365-enterprise-licenses). 
 
           For details about licensing of internal users using Pay-as-you-go, go to [Power Apps per app meter](/power-platform/admin/pay-as-you-go-meters#power-apps-per-app-meter).
           
-          For details about use rights to portals for internal users, go to FAQ [use rights to portals for internal users](/power-platform/admin/powerapps-flow-licensing-faq#can-you-clarify-the-use-rights-to-portals-for-internal-users) and [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) section **Power Pages – Use rights for Internal users**.
+          For details about use rights to Power Pages for internal users, go to FAQ [use rights to Power Pages for internal users](/power-platform/admin/powerapps-flow-licensing-faq#what-are-the-power-pages-use-rights-included-with-power-apps-and-dynamics-365-enterprise-licenses) and [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) section **Power Pages use rights included with Power Apps and Dynamics 365 licenses**.
 
       - question: |
           Are the guest users treated as internal users for licensing?
         answer: |  
-          No. Guest users added for [B2B collaboration](/azure/active-directory/b2b/add-users-administrator) in the Azure Active Directory won't be considered as internal users, and will require logins. For more information about portal login licensing model, go to the [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) section **Per login model**.
+          No. Guest users added for [B2B collaboration](/azure/active-directory/b2b/add-users-administrator) in the Azure Active Directory won't be considered as internal users, and will require logins. For more information about Power Pages licensing model, go to the [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) section **Per login model**.
 
   - name: Dataverse environment lifecycle
     questions:
       - question: |
-          We recently moved our Dataverse environment from one geolocation or tenant to another. How do we handle portals connected to our organization?
+          We recently moved our Dataverse environment from one geolocation or tenant to another. How do we handle websites connected to our organization?
         answer: |
-          When you move your Dataverse environment from one geolocation or tenant to another, associated portals to that organization won't move automatically. Also, since your organization has moved, any portal associated with that organization won't work and will throw an error on startup.
+          When you move your Dataverse environment from one geolocation or tenant to another, associated websites to that organization won't move automatically. Also, since your organization has moved, any website associated with that organization won't work and will throw an error on startup.
           
-          To associate your portal again to relevant organizations:
+          To associate your website again to relevant organizations:
           
-          1. Reset your existing portal host from the existing geolocation or tenant by following the steps in [Reset a portal](admin/reset-portal.md). This will delete your associated portal resources and the portal URL won't be accessible after the operation completes.
+          1. Reset your existing website host from the existing geolocation or tenant by following the steps in [Reset a portal](/power-apps/maker/portals/admin/reset-portal). This will delete your associated website resources and the website URL won't be accessible after the operation completes.
           
-          2. Once your existing portal is reset, go to the new tenant (or to the new geolocation of the existing tenant) and provision a portal available there.
+          2. Once your existing website is reset, go to the new tenant (or to the new geolocation of the existing tenant) and provision a website available there.
           
       - question: |
-          After restoring a Dataverse environment from an old backup, the portal connected to the organization isn't working. How do we fix it?
+          After restoring a Dataverse environment from an old backup, the website connected to the organization isn't working. How do we fix it?
         answer: |
-          When a Dataverse environment is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
+          When a Dataverse environment is restored from a backup, various changes are done in your organization that can break your website's connection with the organization. To fix this issue:
           
-          - If the organization ID is the same after the restore operation, and portal solutions are also available:
+          - If the organization ID is the same after the restore operation, and Power Pages solutions are also available:
           
-              1. Open [Power Apps portals admin center](admin/admin-overview.md).
+              1. Open [Power Apps portals admin center](/power-apps/maker/portals/admin/admin-overview).
               2. Go to the **Portal Details** tab.
               3. In the **Portal State** drop-down list, choose **Off**.
               4. Select **Update**. 
               5. Once the update operation is complete, set the **Portal State** drop-down list to **On** and then select **Update**.
           
-            Your portal will be restarted and a connection will be created with the organization again.
+            Your website will be restarted and a connection will be created with the organization again.
           
-          - If the organization ID is different after the restore operation, or portal solutions are deleted from your organization:
+          - If the organization ID is different after the restore operation, or Power Pages solutions are deleted from your organization:
           
-            - In this case, it's better to reset the portal by following the steps in [Reset a portal](admin/reset-portal.md) and then reprovision it.
+            - In this case, it's better to reset the websites by following the steps in [Reset a portal](/power-apps/maker/portals/admin/reset-portal) and then reprovision it.
           
       - question: |
-          We recently changed the URL of our Dataverse environment and our portal stopped working. How do we fix it?
+          We recently changed the URL of our Dataverse environment and our website stopped working. How do we fix it?
         answer: |
-          When you change the URL of your Dataverse environment, your portal will stop working because it can't identify the Dataverse environment URL anymore. To fix this issue:
+          When you change the URL of your Dataverse environment, your website will stop working because it can't identify the Dataverse environment URL anymore. To fix this issue:
           
-          1. Open [Power Apps portals admin center](admin/admin-overview.md).
+          1. Open [Power Apps portals admin center](/power-apps/maker/portals/admin/admin-overview).
           2. Go to **Portal Actions** > **Update Dynamics 365 URL**.
           3. Follow the instructions in the wizard.
           
-          Your portal will be restarted and start working again.
+          Your website will be restarted and start working again.
           
   - name: Debugging and fixing problems
     questions:
       - question: |
-          Performance of basic forms: Actions such as create/update/delete on basic forms take a lot of time to complete or timeout.
+          Performance of basic forms: Actions such as create/update/delete on basic forms take many time to complete or time out.
         answer: |
-          This can happen because of multiple reasons - such as depending on your data and customizations done on that table in Dataverse. When troubleshooting such performance related issue on record actions from portals, ensure that there are no synchronous plugins registered on those events that may possibly cause these delays. Wherever possible, try to implement them asynchronously so that they don't hold or delay the transaction.
+          This can happen because of multiple reasons - such as depending on your data and customizations done on that table in Dataverse. When troubleshooting such performance related issue on record actions from websites, ensure that there are no synchronous plugins registered on those events that may possibly cause these delays. Wherever possible, try to implement them asynchronously so that they don't hold or delay the transaction.
 
       - question: |
-          When accessing my portal, I see a generic error page. How can I see the actual error?
+          When accessing my website, I see a generic error page. How can I see the actual error?
         answer: |
-          Whenever a server error occurs while trying to render a portal, a generic error page is displayed to end users along with the timestamp and activity ID of the error. Portal administrators can configure their portal to get the actual error details, which are helpful in debugging and fixing issues. To see the actual error:
+          Whenever a server error occurs while trying to render a website, a generic error page is displayed to end users along with the timestamp and activity ID of the error. Administrators can configure their website to get the actual error details, which are helpful in debugging and fixing issues. To see the actual error:
           
-          - **Disable the custom error page on the portal**: This will turn off the custom error page and will allow you to see the complete stack trace of any error when browsing to that page. You can disable the custom error by following the steps in [Disable custom error](admin/view-portal-error-log.md#disable-custom-error).
+          - **Disable the custom error page on the portal**: This will turn off the custom error page and will allow you to see the complete stack trace of any error when browsing to that page. You can disable the custom error by following the steps in [Disable custom error](/power-apps/maker/portals/admin/view-portal-error-log#disable-custom-error).
           
-          It's advisable to use this only when you're developing a portal. Once your portal is live for your users, you should enable custom errors again. More information: [View portal error logs](admin/view-portal-error-log.md)
+          It's advisable to use this only when you're developing a website. Once your website is live for your users, you should enable custom errors again. More information: [View portal error logs](/power-apps/maker/portals/admin/view-portal-error-log)
           
-          - **Enable diagnostic logging**: This will allow you to get all the portal errors in an Azure Blob storage account. You can enable diagnostic logging by following the steps in [Access portal error logs](admin/view-portal-error-log.md#access-portal-error-logs).
+          - **Enable diagnostic logging**: This will allow you to get all the website errors in an Azure Blob storage account. You can enable diagnostic logging by following the steps in [Access portal error logs](/power-apps/maker/portals/admin/view-portal-error-log#access-portal-error-logs).
           
           When you enable diagnostic logging, you can search for particular errors that users report by using the Activity ID shown on the generic error page. The Activity ID is logged along with the error details and is useful to find the actual issue.
           
-  - name: Portal administration and management
+  - name: Power Pages administration and management
     questions:
       - question: |
-          Do portals use any static content from CDNs (Content Delivery Network) that I need to allow-list?
+          Do Power Pages use any static content from CDNs (Content Delivery Network) that I need to allowlist?
         answer: |
-          Yes. Power Pages uses out of the box portal's static assets from Azure CDN that includes default JavaScript and CSS files for presentation that earlier rendered as part of the portal app. You must allow-list the following CDN URL to render portals successfully:
+          Yes. Power Pages uses out of the box Power Pages static assets from Azure CDN that includes default JavaScript and CSS files for presentation that earlier rendered as part of the website. You must allowlist the following CDN URL to render Power Pages websites successfully:
           
           `https://content.powerapps.com/resource/powerappsportal`
           
       - question: |
-          How do I use a custom login provider on my portal?
+          How do I use a custom sign in provider on my website?
         answer: |
-          Portals supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure portal authentication](configure/configure-portal-authentication.md).
+          Power Pages supports any custom sign in provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure authentication](security/configure-portal-authentication.md).
           
       - question: |
-          How do I get new portal releases in my sandbox portal first before it gets applied to production?
+          How do I get new Power Pages releases in my sandbox website first before it gets applied to production?
         answer: |
-          Any portal release is done in two phases: early upgrade and general availability (GA). During the early upgrade phase, we only upgrade portals that are marked for early upgrade. To get a new portal release in your sandbox (development or test) environment, you can enable your portal for early upgrade. For information on how to enable a portal for early upgrade, see [Upgrade a portal](/dynamics365/customer-engagement/portals/upgrade-portal).
+          Any Power Pages release is done in two phases: early upgrade and general availability (GA). During the early upgrade phase, we only upgrade websites that are marked for early upgrade. To get a new Power Pages release in your sandbox (development or test) environment, you can enable your website for early upgrade. For information on how to enable a website for early upgrade, see [Upgrade a portal](/power-apps/maker/portals/admin/upgrade-portal).
           
       - question: |
-          How do I use a custom domain name for my portal?
+          How do I use a custom domain name for my website?
         answer: |
-          You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your portal to a custom domain](admin/add-custom-domain.md)
+          You can enable your website to use a custom domain name in place of the standard `powerappsportals.com` domain name. More information: [Link your portal to a custom domain](/power-apps/maker/portals/admin/add-custom-domain)
           
       - question: |
           See also
