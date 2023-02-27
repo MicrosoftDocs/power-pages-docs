@@ -242,6 +242,8 @@
       href: admin/cookies.md
 - name: System requirements, limits, and configuration
   href: system-requirements.md  
+- name: Power Pages FAQs
+  href: faq.yml
 - name: Known issues
   href: known-issues.md
 - name: Important changes and deprecations
