@@ -6,7 +6,7 @@ author: GitanjaliSingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 02/28/2023
-ms.subservice: portals
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:

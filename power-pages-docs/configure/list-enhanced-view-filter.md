@@ -6,7 +6,7 @@ author: sandhangitmsft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 02/24/2023
-ms.subservice: portals
+ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
 contributors:

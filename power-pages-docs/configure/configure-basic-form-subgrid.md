@@ -6,7 +6,7 @@ author: GitanjaliSingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 02/28/2023
-ms.subservice: portals
+ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -76,7 +76,7 @@ Enabling a **Create action** renders a button above the subgrid that, when selec
 | Name                  | Description                                                                                                                                                                                                                                                 |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Basic Settings**    |                                                                                                                                                                                                                                                             |
-| Basic Form           | Specifies the [basic forms and custom logic](entity-forms.md) that will be used to create the new record. The drop-down list includes all basic forms that are configured for the subgrid's table type.<br>**Note**: If the subgrid's table type has no basic forms, the drop-down list will appear empty. If no basic form is supplied for the Create action, it will be ignored and the button won't be rendered on the subgrid's basic form.                                |
+| Basic Form           | Specifies the [basic forms and custom logic](basic-forms.md) that will be used to create the new record. The drop-down list includes all basic forms that are configured for the subgrid's table type.<br>**Note**: If the subgrid's table type has no basic forms, the drop-down list will appear empty. If no basic form is supplied for the Create action, it will be ignored and the button won't be rendered on the subgrid's basic form.                                |
 | **Advanced Settings** |                                                                                                                                                                                                                                                             |
 | Button Label          | Overrides the HTML label displayed in the Create action button above the subgrid.                                                                                                                                                                           |
 | Button Tooltip        | Overrides the tooltip text that appears when the user points to the Create action button.                                                                                                                                                            |
@@ -155,7 +155,7 @@ Enabling an **Associate action** displays a button above the subgrid that, when 
 
 ## Details action
 
-Enabling a **Details action** allows a user to view a read-only [basic form](entity-forms.md) that is data-bound to the record of the subgrid's selected row.  
+Enabling a **Details action** allows a user to view a read-only [basic form](basic-forms.md) that is data-bound to the record of the subgrid's selected row.  
 
 ### Details Action settings
 
@@ -275,4 +275,4 @@ Enabling a **Disassociate action** allows a user to remove the link between the 
 [Portal Management app](portal-management-app.md)  
 [Define basic forms](basic-forms.md)  
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

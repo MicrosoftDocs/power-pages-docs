@@ -169,7 +169,11 @@
         - name: Configure basic forms
           items:
           - name: Basic forms overview
-            href:       
+            href: configure/basic-forms.md
+          - name: Configure basic form metadata
+            href: configure/configure-basic-form-metadata.md
+          - name: Configure basic form subgrids
+            href: configure/configure-basic-form-metadata.md         
     - name: Search Configuration
       items:
       - name: Search overview
