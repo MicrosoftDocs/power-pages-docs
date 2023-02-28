@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/24/2023
+ms.date: 02/27/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -39,19 +39,19 @@ At launch, users with the system administrator role along with [service admins](
 
 ## OAuth 2.0 implicit grant flow within your portal 
 
-The [authorize endpoint](oauth-implicit-grant-flow.md#authorize-endpoint-details), [token endpoint](oauth-implicit-grant-flow.md#token-endpoint-details) using GET request, and using the default certificate for OAuth 2.0 implicit grant flow is deprecated. No action is needed for newly created portals or for existing portals that don't use this feature. If you're already using this feature, you need to use the token endpoint POST request to get a secure access token to authorize the external APIs.
+The [authorize endpoint](/power-apps/maker/portals/oauth-implicit-grant-flow#authorize-endpoint-details), [token endpoint](/power-apps/maker/portals/oauth-implicit-grant-flow#authorize-endpoint-details) using GET request, and using the default certificate for OAuth 2.0 implicit grant flow is deprecated. No action is needed for newly created portals or for existing portals that don't use this feature. If you're already using this feature, you need to use the token endpoint POST request to get a secure access token to authorize the external APIs.
 
 > [!NOTE]
 > - All existing customers who are using this deprecated feature need to migrate to the supported method by October 2022.
-> - For more information on using a custom certificate, go to [Using a custom certificate](oauth-implicit-grant-flow.md#custom-certificates).
-> - For sample code on using POST calls on the Token endpoint, go to [Token endpoint sample](oauth-implicit-grant-flow.md#token-endpoint-sample).
+> - For more information on using a custom certificate, go to [Using a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates).
+> - For sample code on using POST calls on the Token endpoint, go to [Token endpoint sample](/power-apps/maker/portals/oauth-implicit-grant-flow#token-endpoint-sample).
 
 ## List OData feed 
 
-Starting June 2022, using [OData feeds](configure/list-odata-feeds.md) to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the portal [Web API](web-api-overview.md) by April 2023. 
+Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the Power Pages [Web API](configure/web-api-overview.md) by April 2023. 
 
 > [!NOTE] 
-> Starting October 2022, newly provisioned portals won't able to use list OData features. 
+> Starting October 2022, newly provisioned websites won't able to use list OData features. 
 
 ## Portal content editor
 
@@ -69,28 +69,28 @@ Starting with website version 9.4.4.xx, portal search uses Dataverse search as a
 
 ## Content Delivery Network for US Government
 
-Starting January 2022, Power Apps portals for US Government will begin using [Azure Content Delivery Network](/azure/cdn/cdn-overview) for [default JavaScript and CSS files](faq.yml#do-portals-use-any-static-content-from-cdns--content-delivery-network--that-i-need-to-allow-list-). Depending on the US Government deployment, configure the allowlist for the following Content Delivery Network URLs as follows.
+Starting January 2022, Power Apps portals for US Government will begin using [Azure Content Delivery Network](/azure/cdn/cdn-overview) for default JavaScript and CSS files. Depending on the US Government deployment, configure the allowlist for the following Content Delivery Network URLs as follows.
 
-| Power Apps portals version | Content Delivery Network URL |
+| Power Pages version | Content Delivery Network URL |
 | - | - |
 | Government Community Cloud (GCC) | `https://gov.content.powerapps.us` |
 | GCC High | `https://high.content.powerapps.us` |
 | Power Apps Department of Defense | `https://content.appsplatform.us` |
 
-## Table permission changes for forms and lists on new portals
+## Table permission changes for forms and lists on new websites
 
-Starting with release [9.3.7.x](/power-platform/released-versions/portals/portalupdate1), newly created portals will have table permissions enforced for all [forms](configure/entity-forms.md#secure-your-forms) and [lists](configure/securing-lists.md), irrespective of the **Enable Table Permissions** setting.
+Starting with release [9.3.7.x](/power-platform/released-versions/portals/portalupdate1), newly created websites will have table permissions enforced for all [forms](configure/entity-forms.md#secure-your-forms) and [lists](configure/securing-lists.md), irrespective of the **Enable Table Permissions** setting.
 
-Also, with the same release, lists on all portals (new or existing) that have [list OData feeds](configure/list-odata-feeds.md) enabled will require that the appropriate [table permissions](configure/entity-permissions-studio.md) be set up for the feed on these lists to work.
+Also, with the same release, lists on all websites (new or existing) that have [list OData feeds](configure/list-odata-feeds.md) enabled will require that the appropriate [table permissions](configure/entity-permissions-studio.md) be set up for the feed on these lists to work.
 
 > [!NOTE]
-> The changes described above also apply to portals [converted](admin/convert-portal.md) from trial to production.
+> The changes described above also apply to websites [converted](/power-apps/maker/portals/admin/convert-portal) from trial to production.
 
-To configure anonymous access explicitly, use proper [table permissions](configure/entity-permissions-studio.md) and web role set up instead.
+To configure anonymous access explicitly, use proper [table permissions](./security/table-permissions.md) and web role set up instead.
 
 ## SameSite mode changes
 
-Starting with portals version [9.3.6.x](versions/version-9.3.6.x.md), makers can mark **SameSite** mode as **Strict** for all portal cookies where applicable.  
+Starting with Power Pages version [9.3.6.x](/power-apps/maker/portals/versions/version-9.3.6.x), makers can mark **SameSite** mode as **Strict** for all portal cookies where applicable.  
 
 With this change, we're adding a new website setting to control the **SameSite** mode for all cookies, configurable to the level of specific cookies.
 
@@ -99,17 +99,16 @@ With this change, we're adding a new website setting to control the **SameSite**
 | HTTP/SameSite/Default | Global, for all cookies. | None <br /> Lax <br /> Strict |
 | HTTP/SameSite/{CookieName} | Specific cookie. | None <br /> Lax <br /> Strict |
 
-The default value for all existing and newly provisioned portals is **None**.
+The default value for all existing and newly provisioned websites is **None**.
 
-To learn how to configure site settings for portals, go to [Configure site settings for portals](configure/configure-site-settings.md).
+To learn how to configure site settings for websites, go to [Configure site settings for portals](/power-apps/maker/portals/configure/configure-site-settings).
 
-## Tracking for webpage, web file, and login
+## Tracking for webpage, and web file
 
 Starting with portals version [9.3.4.x](versions/version-9.3.4.x.md), the following functionality has been retired:
 
-- [Webpage tracking](admin/portal-checker-analysis.md#web-page-tracking-enabled)
-- [Web file tracking](admin/portal-checker-analysis.md#web-file-tracking-enabled)
-- [Login tracking](admin/portal-checker-analysis.md#login-tracking-enabled)
+- [Webpage tracking](/power-apps/maker/portals/admin/portal-checker-performance#webpage-tracking-enabled)
+- [Web file tracking](/power-apps/maker/portals/admin/portal-checker-performance#web-file-tracking-enabled)
 
 ### See also
 
