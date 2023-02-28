@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/24/2023
+ms.date: 02/28/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -20,7 +20,7 @@ Basic forms can be configured in the Power Pages design studio. See [Add a form]
 
 ## Basic form metadata configuration
 
-A data-driven configuration to allow end users to add a form to collect data in the website without the need for a developer to surface the form on the site, Dataverse forms are created in [Data workspace](data-workspace-forms.md) and then used to create basic form components that can be placed into webpages on the website or used in conjunction with subgrids and lists to build out complete web applications. More information: [About lists](lists.md) 
+A data-driven configuration to allow end users to add a form to collect data in the website without the need for a developer to surface the form on the site, Dataverse forms are created in [Data workspace](data-workspace-forms.md) and then used to create basic form components that can be placed into webpages on the website or used in conjunction with subgrids and lists to build out complete web applications. More information: [About lists](lists.md). 
 
 :::image type="content" source="media/forms/contact-us-form.png" alt-text="Contact us form.":::
   
@@ -52,7 +52,7 @@ To secure your forms, you must create table permissions that determine access an
 
 "Table permissions should be enabled for this record or anyone on the internet can view the data."
 
-To enable permissions for a basic form, select the checkbox to **Enable Table Permissions**. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md).  
+To enable permissions for a basic form, select the checkbox to **Enable Table Permissions**. For more information see [Create web roles](../security/create-web-roles.md).  
 
 ## Basic form attributes and relationships
 
@@ -67,7 +67,7 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |Record ID Parameter Name|    A parameter name provided in the query string of the URL to the Web Page containing this Basic Form.|
 |Relationship Name|    Required when Record Source Type is Record Associated to Current Portal User. The logical name of the relationship between the current portal user record and the target record. This must return the same table type specified by the Table Name field.|
 |Allow Create If Null|    An optional boolean value available when Record Source Type is Record Associated to Current Portal User. Indicates that if the related record does not exist, allow the user to create it the first time, otherwise an exception will be thrown if the record does not already exist as the form needs a record to data bind to.|
-|Enable Table Permissions|    Will Cause the form to respect Table Permissions. The default is false for backwards compatibility reasons. If set to true, explicit permissions are REQUIRED for any user wanting to access the form. <br> **NOTE**: This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](entity-permissions-studio.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-portals) |
+|Enable Table Permissions| Will cause the form to respect table permissions. The default is false for backwards compatibility reasons. If set to true, explicit permissions are REQUIRED for any user wanting to access the form. <br> **NOTE**: This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-portals) |
 |||
 
 ### Form Options
@@ -158,7 +158,7 @@ By default a Basic Form will allow for reading or updating of an existing record
 
 These settings are found in the **Additional Settings** section of the basic form. By default, only **Basic Settings** are shown. You can select **Advanced Settings** to show additional settings.
 
-You can add action buttons for the actions that are applicable for an individual record and will appear for each row in the grid provided the appropriate privilege has been granted by [table permissions](assign-entity-permissions.md). The following actions are available:
+You can add action buttons for the actions that are applicable for an individual record and will appear for each row in the grid provided the appropriate privilege has been granted by [table permissions](../security/table-permissions.md). The following actions are available:
 
 - Delete
 - Workflow
@@ -188,7 +188,7 @@ A form can be configured to display a map control to either display an existing 
 
 The form's map control requires additional configuration to tell it what the IDs of the various location fields are, to assign values to them or retrieve values from them. The basic form record has a configuration section that defines these field mappings that you must specify. The field names will vary depending on the schema you have created.
 
-![Geolocation data in basic form.](../media/geolocation-managed-form.png "Geolocation data in basic form") 
+:::image type="content" source="media/forms/geolocation-managed-form.png" alt-text="Geolocation data in basic form.":::
 
 > [!Note]
 > - The address field in a read-only basic form is replaced with the map when geolocation is enabled.
@@ -205,7 +205,9 @@ By default, request validation is enabled on portal resulting in following gener
 
 To disable request validation, follow these steps:
 
-1. Go to [portal settings](../manage-existing-portals.md#settings) and select **Site Settings**.
+1. Open the [Portal Management app](portal-management-app.md)
+
+1. Go to **Site Settings**.
 
 1. Select **New**.
 
@@ -225,23 +227,22 @@ To disable request validation, follow these steps:
 ## Considerations
 
 - A **Basic Form** must be associated with a webpage for a given website for the form to be viewable within the site.
-- The Connection table subgrids aren't supported in basic forms. If you add a Connection table subgrid to the form using Form designer, error messages are displayed when you render the form on the portal and use the Connection table.
+- The connection table subgrids aren't supported in basic forms. If you add a connection table subgrid to the form using Form designer, error messages are displayed when you render the form on the portal and use the Connection table.
 - Duplicate fields, Party List fields, and business rules aren't supported in basic forms.
-- Field level code components are in public preview, and can be added to forms. More information: [Add a code component to a field in a model-driven app](../component-framework.md#add-a-code-component-to-a-field-in-a-model-driven-app) 
-- [Image attributes](../../../developer/data-platform/image-attributes.md), [file attributes](../../../developer/data-platform/file-attributes.md) and [table images](/dynamics365/customerengagement/on-premises/developer/sample-set-retrieve-entity-images) aren't supported in [basic forms](entity-forms.md), [multistep forms](web-form-properties.md) or when using liquid template tags, such as [fetchxl](../liquid/template-tags.md).
+- Field level code components can be added to forms. More information: [Use code components](/power-apps/maker/portals/component-framework) 
 - Business rules and client API can enable locked fields on a read-only form.
-- If you create a basic form in the Insert mode, you can't change a button's alignment or place an action button above the basic form.
+- If you create a basic form in the **Insert** mode, you can't change a button's alignment or place an action button above the basic form.
 - If you render a lookup control as a dropdown list on the form, the related records filter does not work.
-- Rollup columns on portal forms may sometimes show up as editable although they're intended to be read-only. To ensure that these columns remain read-only, mark the column as **Read-only**  on the model-driven app form.
+- Rollup columns on forms may sometimes show up as editable although they're intended to be read-only. To ensure that these columns remain read-only, mark the column as **Read-only** on the Dataverse form.
 
 ### See also
 
-- [Configure a portal](configure-portal.md)  
+- [Portal Management app](portal-management-app.md)  
 - [Multistep Form properties for portals](web-form-properties.md)  
 - [Multistep Form steps for portals](web-form-steps.md)  
 - [Multistep Forms metadata for portals](configure-web-form-metadata.md)  
 - [Multistep Form subgrid configuration for portals](configure-web-form-subgrid.md)  
-- [Notes configuration for basic forms and Multistep Forms for portals](../configure-notes.md)
+- [Notes configuration for basic forms and Multistep Forms for portals](configure-notes.md)
 - [Interact with Dataverse data using basic forms](/training/modules/portals-access-data-platform/3-entity-forms)
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
