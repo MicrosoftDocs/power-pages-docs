@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/27/2023
+ms.date: 02/28/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -79,14 +79,14 @@ Starting January 2022, Power Apps portals for US Government will begin using [Az
 
 ## Table permission changes for forms and lists on new websites
 
-Starting with release [9.3.7.x](/power-platform/released-versions/portals/portalupdate1), newly created websites will have table permissions enforced for all [forms](configure/entity-forms.md#secure-your-forms) and [lists](configure/securing-lists.md), irrespective of the **Enable Table Permissions** setting.
+Starting with release [9.3.7.x](/power-platform/released-versions/portals/portalupdate1), newly created websites will have table permissions enforced for all [forms](/power-apps/maker/portals/configure/entity-forms#secure-your-forms) and [lists](/power-apps/maker/portals/configure/securing-lists), irrespective of the **Enable Table Permissions** setting.
 
-Also, with the same release, lists on all websites (new or existing) that have [list OData feeds](configure/list-odata-feeds.md) enabled will require that the appropriate [table permissions](configure/entity-permissions-studio.md) be set up for the feed on these lists to work.
+Also, with the same release, lists on all websites (new or existing) that have [list OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) enabled will require that the appropriate [table permissions](security/table-permissions.md) be set up for the feed on these lists to work.
 
 > [!NOTE]
 > The changes described above also apply to websites [converted](/power-apps/maker/portals/admin/convert-portal) from trial to production.
 
-To configure anonymous access explicitly, use proper [table permissions](./security/table-permissions.md) and web role set up instead.
+To configure anonymous access explicitly, use proper [table permissions](security/table-permissions.md) and web role set up instead.
 
 ## SameSite mode changes
 
@@ -105,7 +105,7 @@ To learn how to configure site settings for websites, go to [Configure site sett
 
 ## Tracking for webpage, and web file
 
-Starting with portals version [9.3.4.x](versions/version-9.3.4.x.md), the following functionality has been retired:
+Starting with portals version [9.3.4.x](/power-apps/maker/portals/versions/version-9.3.4.x), the following functionality has been retired:
 
 - [Webpage tracking](/power-apps/maker/portals/admin/portal-checker-performance#webpage-tracking-enabled)
 - [Web file tracking](/power-apps/maker/portals/admin/portal-checker-performance#web-file-tracking-enabled)
