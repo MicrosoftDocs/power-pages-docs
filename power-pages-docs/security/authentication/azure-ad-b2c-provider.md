@@ -30,19 +30,17 @@ Follow these steps to configure Azure AD B2C as the OpenID Connect provider.
 
 ## Step 1. Select the provider
 
-1. Go to [Power Apps preview](https://make.preview.powerapps.com).
+1. Go to [Power Pages](https://make.powerpages.microsoft.com).
 
-1. On the left pane, select **Apps**.
+1. Create a site or edit an existing site created in that environment.
 
-1. Select your site from the list of available apps.
+1. Go to **Set up** in the left navigation menu.
 
-1. On the command bar, select **Settings**.<br />or<br />Select **More Commands** (**...**), and then select **Settings**.
+1. Tap on Identity Providers under Authentication.
 
-1. In **Portal settings** on the right side of your workspace, select **Authentication Settings**.
+1. For Azure Active Directory B2C, select **Configure**.
 
-1. For **Azure Active Directory B2C**, select **Configure**.
-
-1. If necessary, update the **Provider name**.
+1. If necessary, update the provider name.
 
 1. Select **Next**.
 
