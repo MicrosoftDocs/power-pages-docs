@@ -46,14 +46,14 @@ To use **Google** as an identity provider, you need to [create an app in Google]
 1. Select an appropriate **Support email**.
 1. Enter `powerappsportals.com` as the top-level domain in **Authorized domains**. 
     > [!TIP]
-    > Use `microsoftcrmportals.com` if you haven't [updated your Power Apps portal domain name](/power-apps/maker/portals/admin/update-portal-domain). You can also enter a [custom domain name](/power-apps/maker/portals/admin/add-custom-domain) if you have one configured.
+    > Use `microsoftcrmportals.com` if you haven't [updated your domain name](/power-apps/maker/portals/admin/update-portal-domain). You can also enter a [custom domain name](/power-apps/maker/portals/admin/add-custom-domain) if you have one configured.
 1. Provide links for home page, privacy policy, and terms of service as required. 
 1. Select **Save**.
 1. Select **Credentials** from the left pane.
 1. Select **OAuth client ID** from the **Create credentials** drop-down menu.
 1. Select the application type as **Web application**.
 1. Enter a **Name** for the OAuth Client ID.
-1. Enter your Power Apps portal URL in the **Authorized JavaScript Origins** list.
+1. Enter your Power PagesURL in the **Authorized JavaScript Origins** list.
 1. Enter **Authorized redirect URIs** as the Power Pages URL followed by `/signin-google`. For example, if the URL is `https://contoso.powerappsportals.com`, the **Authorized redirect URIs** field should be `https://contoso.powerappsportals.com/signin-google`.
 1. Select **Create**.
 1. Copy **Client ID** and **Client secret** from the **OAuth client** dialog box.
