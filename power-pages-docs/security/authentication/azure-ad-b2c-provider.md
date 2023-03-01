@@ -1,5 +1,5 @@
 ---
-title: Configure the Azure Active Directory B2C provider (using interface in preview)
+title: Configure the Azure Active Directory B2C provider
 description: Learn how to configure the Azure Active Directory B2C identity provider for Power Pages.
 author: sandhangitmsft
 
@@ -14,7 +14,7 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure the Azure Active Directory B2C provider (using interface in preview)
+# Configure the Azure Active Directory B2C provider 
 
 [This article is pre-release documentation and is subject to change.]
 
@@ -23,15 +23,12 @@ Azure Active Directory (Azure AD) powers Microsoft 365 and Dynamics 365 services
 A site owner can configure Azure AD B2C as an identity provider. Azure AD B2C supports Open ID Connect for federation.
 
 > [!IMPORTANT]
-> This article describes how to configure Azure AD B2C as the identity provider automatically by using a feature in preview. Using these steps, you can create a new Azure AD B2C tenant, register applications, and configure user flows from within Power Apps portals. If you want to configure the Azure AD B2C provider manually using the generally available interface, go to [Configure the Azure AD B2C provider manually](azure-ad-b2c-provider-manual.md).
+> This article describes how to configure Azure AD B2C as the identity provider automatically by using a feature in preview. Using these steps, you can create a new Azure AD B2C tenant, register applications, and configure user flows from within Power Apps portals. If you want to configure the Azure AD B2C provider manually using the generally available interface, go to [Configure the Azure AD B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual).
 
 > [!NOTE]
-> Changes to the authentication settings might take a few minutes to be reflected on the website. If you want the changes to be reflected immediately, [restart the website](../../admin/admin-overview.md).
+> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache) to be reflected on the website. If you want the changes to be reflected immediately, restart the webpage by using [portal actions](/power-apps/maker/portals/admin/admin-overview).
 
 Follow these steps to configure Azure AD B2C as the OpenID Connect provider.
-
-> [!IMPORTANT]
-> - This is a preview feature.
 
 ## Step 1. Select the provider
 
@@ -60,7 +57,7 @@ In this step, you select an existing Azure AD B2C tenant or create a new one.
 Select this option if you already have an existing Azure AD B2C tenant. Other details such as the initial domain name, country/region, and location will be automatically updated.
 
 > [!NOTE]
-> Ensure that the account you use to sign in to Power Apps has access to the Azure AD tenant that you want to use for configuring Azure AD B2C authentication. For information about adding different types of user accounts to an Azure AD B2C tenant, go to [Overview of user accounts in Azure Active Directory B2C](/azure/active-directory-b2c/user-overview).
+> Ensure that the account you use to sign in to Power Apps has access to the Azure AD tenant that you want to use for configuring Azure AD B2C authentication. For information about adding different types of user accounts to an Azure AD B2C tenant, go to [Overview of user accounts in Azure Active DIrectory B2C](/azure/active-directory-b2c/user-overview).
 
 Select **Next** to continue.
 
@@ -69,9 +66,9 @@ Select **Next** to continue.
 Select this option to create a new Azure AD B2C tenant.
 
 > [!NOTE]
-> - Ensure that the account you use to sign in to Power Apps has been assigned at least the [Contributor role](/azure/role-based-access-control/built-in-roles) for the subscription or for a resource group within the subscription.
+> - Ensure that the account you use to sign in to Power Apps has been assigned at least the link [Contributor role](/azure/role-based-access-control/built-in-roles) for the subscription or for a resource group within the subscription.
 > - Ensure the Azure subscription has the **Microsoft.AzureActiveDirectory** resource provider registered. Otherwise, creating the new Azure AD B2C tenant will fail with this error:
-> <br> `Error occurred while creating Azure AD B2C tenant. The subscription is not registered to use namespace 'Microsoft.AzureActiveDirectory'. See https://aka.ms/rps-not-found for how to register subscriptions.` More information: [Resolve errors for resource provider registration in Azure](/azure/azure-resource-manager/templates/error-register-resource-provider)
+> <br /> `Error occurred while creating Azure AD B2C tenant. The subscription is not registered to use namespace 'Microsoft.AzureActiveDirectory'. See https://aka.ms/rps-not-found for how to register subscriptions.` More information: [Resolve errors for resource provider registration in Azure](/azure/azure-resource-manager/templates/error-register-resource-provider) 
 
 To create a new Azure AD B2C tenant:
 
@@ -134,11 +131,11 @@ The Azure AD B2C provider configuration is complete. You can view the summary of
 
 ## Edit the configuration
 
-To edit the configuration, select **Edit configuration** for the **Azure Active Directory B2C** identity provider from the providers list. More information: 
+To edit the configuration, select **Edit configuration** for the **Azure Active Directory B2C** identity provider from the providers list. More information: [Edit a provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration)
 
 ## Delete configuration
 
-To delete the configuration, select **Delete** for the **Azure Active Directory B2C** identity provider from the providers list. More information: 
+To delete the configuration, select **Delete** for the **Azure Active Directory B2C** identity provider from the providers list. More information: [Delete a provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration)
 
 ### See also
 
