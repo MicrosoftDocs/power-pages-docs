@@ -16,7 +16,7 @@ contributors:
  
 # Upgrade a Power Pages site
 
-This section helps you understand the Power Pages release process to prepare for any new release properly and to reduce any affect on your customers. It also talks about various components that are part of your website.
+This section helps you understand the Power Pages release process to prepare for any new release properly and to reduce any effect on your customers. It also talks about various components that are part of your website.
 
 A Power Pages site consists of the following components:
 
@@ -26,9 +26,9 @@ A Power Pages site consists of the following components:
 |[Power Pages website host](#website-host-update)|The Power Pages website host is the Azure web application that forms the actual website.|The Power Pages website host updates automatically for all sites.<br>**Note**: A new version of Power Pages website host is backwards compatible with all supported versions of Power Pages solutions. However, once a solution version becomes unsupported, the solution isn't certified to run with the new version of Power Pages website host.|
 |||
 
-## Affect of new releases on a Power Pages solution
+## Effect of new releases on a Power Pages solution
 
-As part of any Power Pages release, Power Pages website hosts updates automatically to the latest versions while Power Pages solutions need to be updated by customers. It's important to understand the affects of each component update on your live website, so you can plan accordingly.
+As part of any Power Pages release, Power Pages website hosts updates automatically to the latest versions while Power Pages solutions need to be updated by customers. It's important to understand the effects of each component update on your live website, so you can plan accordingly.
 
 ### Website host update
 
@@ -36,7 +36,7 @@ If you're running a production version of a Power Pages site (you can see it on 
 
 ### Solution update
 
-While installing or updating any solution in your instance, you can see some instability in your instance. The Power Pages solution update process updates solutions available in your instance and will affect your instance that will in turn have an effect of your website as well. Hence, it's always advised doing solution updates in your instance during dark hours.
+While installing or updating any solution in your instance, you can see some instability in your instance. The Power Pages solution update process updates solutions available in your instance and will effect your instance that will in turn have an effect of your website as well. Hence, it's always advised doing solution updates in your instance during dark hours.
 
 More details: [Update Power Pages solution](update-solution.md)
 
