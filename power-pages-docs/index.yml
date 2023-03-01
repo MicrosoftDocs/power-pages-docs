@@ -198,7 +198,7 @@ conceptualContent:
         url: admin/view-portal-error-log.md
         itemType: reference   
       - text: Maintain and update Power Pages
-        url: admin/update-portal-solution.md
+        url: admin/update-solution.md
         itemType: reference
       - text: Review consumption
         url: admin/portal-consumption-reports.md
