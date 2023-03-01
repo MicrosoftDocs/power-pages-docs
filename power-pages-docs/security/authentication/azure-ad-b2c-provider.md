@@ -16,14 +16,12 @@ contributors:
 
 # Configure the Azure Active Directory B2C provider 
 
-[This article is pre-release documentation and is subject to change.]
-
 Azure Active Directory (Azure AD) powers Microsoft 365 and Dynamics 365 services for employee or internal authentication. Azure Active Directory B2C (Azure AD B2C) is an extension to this authentication model that enables external customers to sign in through local credentials and federation with various common social identity providers.
 
 A site owner can configure Azure AD B2C as an identity provider. Azure AD B2C supports Open ID Connect for federation.
 
 > [!IMPORTANT]
-> This article describes how to configure Azure AD B2C as the identity provider automatically by using a feature in preview. Using these steps, you can create a new Azure AD B2C tenant, register applications, and configure user flows from within Power Apps portals. If you want to configure the Azure AD B2C provider manually using the generally available interface, go to [Configure the Azure AD B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual).
+> This article describes how to configure Azure AD B2C as the identity provider automatically. Using these steps, you can create a new Azure AD B2C tenant, register applications, and configure user flows from within Power Apps portals. If you want to configure the Azure AD B2C provider manually using the generally available interface, go to [Configure the Azure AD B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual).
 
 > [!NOTE]
 > Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache) to be reflected on the website. If you want the changes to be reflected immediately, restart the webpage by using [portal actions](/power-apps/maker/portals/admin/admin-overview).
