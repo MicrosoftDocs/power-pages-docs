@@ -120,8 +120,6 @@
   items:
     - name: Use the admin center
       href: admin/admin-overview.md
-    - name: Use admin APIs
-      href: admin/admin-api.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
     - name: Update solution
@@ -248,6 +246,8 @@
           href: configure/power-platform-cli-tutorial.md
         - name: Use Visual Studio Code for Power Pages
           href: configure/vs-code-extension.md      
+    - name: Use admin APIs
+      href: admin/admin-api.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
 - name: Secure Power Pages
