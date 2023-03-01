@@ -14,14 +14,14 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure the Azure Active Directory B2C provider 
+# Configure the Azure Active Directory B2C provider in Power Pages
 
 Azure Active Directory (Azure AD) powers Microsoft 365 and Dynamics 365 services for employee or internal authentication. Azure Active Directory B2C (Azure AD B2C) is an extension to this authentication model that enables external customers to sign in through local credentials and federation with various common social identity providers.
 
 A site owner can configure Azure AD B2C as an identity provider. Azure AD B2C supports Open ID Connect for federation.
 
 > [!IMPORTANT]
-> This article describes how to configure Azure AD B2C as the identity provider automatically. Using these steps, you can create a new Azure AD B2C tenant, register applications, and configure user flows from within Power Apps portals. If you want to configure the Azure AD B2C provider manually using the generally available interface, go to [Configure the Azure AD B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual).
+> This article describes how to configure Azure AD B2C as the identity provider automatically. Using these steps, you can create a new Azure AD B2C tenant, register applications, and configure user flows from within Power Pages. If you want to configure the Azure AD B2C provider manually using the generally available interface, go to [Configure the Azure AD B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual).
 
 > [!NOTE]
 > Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache) to be reflected on the website. If you want the changes to be reflected immediately, restart the webpage by using [portal actions](/power-apps/maker/portals/admin/admin-overview).
@@ -89,10 +89,10 @@ To create a new Azure AD B2C tenant:
 
 ## Step 3. Register the application
 
-In this step, you register your portal as an application with Azure AD. You can create a new application or select an existing application from Azure AD.
+In this step, you register your website as an application with Azure AD. You can create a new application or select an existing application from Azure AD.
 
 > [!NOTE]
-> If you're using a custom domain name for the portal, enter the custom URL as the **Reply URL**.
+> If you're using a custom domain name for the website, enter the custom URL as the **Reply URL**.
 
 ### Option 1. Create a new application
 
@@ -112,14 +112,14 @@ In this step, you register your portal as an application with Azure AD. You can 
 
 ## Step 4. Configure user flows
 
-In this step, you configure the **Sign up and sign in** and **Password reset** user flows. The **Sign up and sign in** user flow enables a user to create an account or sign in to their account. The **Password reset** flow enables a user to choose a new password after email verification. More information: [User flow and policy in Azure AD B2C](/azure/active-directory-b2c/user-flow-overview#user-flow-versions)
+In this step, you configure the **Sign up and sign in** and **Password reset** user flows. The **Sign up and sign in** user flow enables a user to create an account or sign in to their account. The **Password reset** flow enables a user to choose a new password after email verification. More information: [User flow and policy in Azure AD B2C](/azure/active-directory-b2c/user-flow-overview#user-flow-versions) 
 
 - **New policy**: Select this option if you want to create a new policy. You can also change the default name of the policy. This option creates the flow by using the *local account* identity provider with the email address.
 - **Existing policy**: Select this option if you want to select an existing policy from the Azure AD B2C tenant.
 
 > [!NOTE]
 > - Only the email claim is configured in these user flows. You can enable more claims&mdash;like *first name* and *last name*&mdash;in the flow's **User attributes** and **Application claims** configuration by using the Azure portal. 
-> - If you enable more claims in addition to *first name* and *last name*, ensure that you [edit the authentication provider](#edit-the-configuration) and add them to the *Registration claims mapping* and *Login claims mapping* in **Additional settings** (this isn't required for *first name* and *last name*). More information: [Configure the Azure Active Directory B2C provider manually](azure-ad-b2c-provider-manual.md#configure-the-azure-active-directory-b2c-provider-manually).
+> - If you enable more claims in addition to *first name* and *last name*, ensure that you [edit the authentication provider](#edit-the-configuration) and add them to the *Registration claims mapping* and *Login claims mapping* in **Additional settings** (this isn't required for *first name* and *last name*). More information: [Configure the Azure Active Directory B2C provider manually](azure-ad-b2c-provider-manual.md#configure-the-azure-active-directory-b2c-provider-manually) 
 
 Select **Create** to create the identity provider configuration.
 
