@@ -34,7 +34,7 @@ Follow these steps to configure Azure AD B2C as the OpenID Connect provider.
 
 1. On the left pane, select **Apps**.
 
-1. Select your portal from the list of available apps.
+1. Select your site from the list of available apps.
 
 1. On the command bar, select **Settings**.<br />or<br />Select **More Commands** (**...**), and then select **Settings**.
 
@@ -72,7 +72,7 @@ To create a new Azure AD B2C tenant:
 
 1. Select the Azure AD tenant or directory.
 
-1. Select a subscription for the tenant, or&mdash;if you want to create a new subscription from the Azure portal&mdash;select **Add subscription**.
+1. Select a subscription for the tenant, or&mdash;if you want to create a new subscription from the Azure website&mdash;select **Add subscription**.
 
 1. Select the resource group for the Azure AD B2C tenant.
 
@@ -118,8 +118,8 @@ In this step, you configure the **Sign up and sign in** and **Password reset** u
 - **Existing policy**: Select this option if you want to select an existing policy from the Azure AD B2C tenant.
 
 > [!NOTE]
-> - Only the email claim is configured in these user flows. You can enable more claims&mdash;like *first name* and *last name*&mdash;in the flow's **User attributes** and **Application claims** configuration by using the Azure portal. 
-> - If you enable more claims in addition to *first name* and *last name*, ensure that you [edit the authentication provider](#edit-the-configuration) and add them to the *Registration claims mapping* and *Login claims mapping* in **Additional settings** (this isn't required for *first name* and *last name*). More information: [Configure the Azure Active Directory B2C provider manually](azure-ad-b2c-provider-manual.md#configure-the-azure-active-directory-b2c-provider-manually) 
+> - Only the email claim is configured in these user flows. You can enable more claims&mdash;like *first name* and *last name*&mdash;in the flow's **User attributes** and **Application claims** configuration by using the Azure website. 
+> - If you enable more claims in addition to *first name* and *last name*, ensure that you [edit the authentication provider](#edit-the-configuration) and add them to the *Registration claims mapping* and *Login claims mapping* in **Additional settings** (this isn't required for *first name* and *last name*). More information: [Configure the Azure Active Directory B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual)
 
 Select **Create** to create the identity provider configuration.
 
@@ -137,4 +137,4 @@ To delete the configuration, select **Delete** for the **Azure Active Directory 
 
 ### See also
 
-[Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
+[Migrate identify providers to Azure AD B2C](/power-apps/maker/portals/configure/migrate-identity-providers)
