@@ -120,6 +120,8 @@
   items:
     - name: Use the admin center
       href: admin/admin-overview.md
+    - name: Add custom domain  
+      href: admin/add-custom-domain.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
     - name: Update solution
