@@ -144,7 +144,7 @@ conceptualContent:
         url: configure/liquid-overview.md
         itemType: reference
       - text: Web templates
-        url: configure/store-content-web-templates.md
+        url: configure/web-templates.md
         itemType: how-to-guide  
       - text: Portals web API
         url: configure/web-api-overview.md
