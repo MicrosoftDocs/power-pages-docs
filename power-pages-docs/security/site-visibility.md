@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/11/2022
+ms.date: 03/01/2023
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -76,6 +76,7 @@ To grant website access:
 > [!NOTE]
 > - Granting website access is limited to 50 users.
 > - Organization users that are part of [System administrator](/power-platform/admin/security-roles-privileges) role in the Power Platform environment where the website is created have permissions to view the website by default.
+> - Users granted access to a private site aren't automatically authenticated to the site itself. Please see [Provide access to external audiences](external-access.md) for more information.
 
 ## Permissions required to change site visibility
 
