@@ -17,13 +17,12 @@ contributors:
 
 # Add a custom domain name
 
-A custom domain can enhance your brand and help your customers more easily find your support resources. Once you provision your portal and acquire your domain name, you'll need an SSL certificate to set up a custom host name. After the SSL certificate is purchased, you can use a wizard to link your portal to a custom domain.  Only one custom domain name can be added to a portal.
+A custom domain can enhance your brand and help your customers more easily find your support resources. Once you provision your website and acquire your domain name, you'll need an SSL certificate to set up a custom host name. After the SSL certificate is purchased, you can use a wizard to link your website to a custom domain. Only one custom domain name can be added to a website.
 
 > [!IMPORTANT]
 > - You can add a custom domain name to a website only when the website is in production state. For more information about website stages, go to [portal lifecycle](/power-apps/maker/portals/admin/portal-lifecycle).
 
 To learn about the roles required to perform this task, read [Admin roles required for portal administrative tasks](/power-apps/maker/portals/admin/portal-admin-roles).
-
 
 
 1. Open [Power Apps portals admin center](admin-overview.md).
