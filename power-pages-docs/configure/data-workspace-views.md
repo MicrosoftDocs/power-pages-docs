@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create and modify Dataverse 
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 03/02/2023
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: kkendrick

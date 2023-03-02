@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/20/2023
+ms.date: 03/02/2023
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -25,9 +25,7 @@ The following is an example of implementing a code component that uses the porta
 
 - Your portal version must be [9.3.10.x](/power-platform/released-versions/portals/portalupdate9310x) or higher.
 - Your starter portal package must be [9.2.2103.x](/power-apps/maker/portals/versions/package-version-9.2.2103) or higher.
-<!-- update link ND
 - You need to enable the site setting to enable the portals Web API for your portal. [Site settings for the Web API](web-api-overview.md#site-settings-for-the-web-api)
---> 
 - Configure table security using table permissions. [Table permissions](../security/assign-table-permissions.md)
 
 ## Code
@@ -68,7 +66,5 @@ On successful retrieve of the records, the code component has logic to count how
 - [Create your first component](/powerapps/developer/component-framework/implementing-controls-using-typescript)
 - [Add code components to a field or table in model-driven apps](/powerpps/developer/component-framework/add-custom-controls-to-a-field-or-entity.md)
 - [Liquid template tag for code components](liquid/component-framework-liquid.md)
-<!--
 - [Portals Web API](web-api-overview.md)
--->
 
