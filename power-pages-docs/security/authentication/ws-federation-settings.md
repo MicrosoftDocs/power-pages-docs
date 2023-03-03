@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/3/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -48,7 +48,7 @@ contributors:
 
 2. Add the **Name ID** claim to the relying party trust:
 
-    **Transform [!INCLUDE[pn-ms-windows-short](../../../includes/pn-ms-windows-short.md)] account name** to **Name ID** claim (Transform an Incoming Claim):
+    **Transform Windows account name** to **Name ID** claim (Transform an Incoming Claim):
     - Incoming claim type: Windows account name
     - Outgoing claim type: Name ID
     - Outgoing name ID format: Unspecified
@@ -56,8 +56,8 @@ contributors:
 
 ## Configure the WS-Federation provider
 
-After setting up the AD FS relying party trust, you can follow the steps in [Configure a WS-Federation provider for portals](configure-ws-federation-provider.md).
+After setting up the AD FS relying party trust, you can follow the steps in [Configure a WS-Federation provider for Power Pages](ws-federation-provider.md).
 
 ### See also
 
-[Configure a WS-Federation provider for portals with Azure AD](configure-ws-federation-settings-azure-ad.md)  
+[Configure a WS-Federation provider for Power Pages with Azure AD](ws-federation-settings-azure-ad.md) 
