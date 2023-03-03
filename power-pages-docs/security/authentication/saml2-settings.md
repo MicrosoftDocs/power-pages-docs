@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
+ms.date: 3/3/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -15,9 +15,6 @@ contributors:
 ---
 
 # Configure a SAML 2.0 provider for portals with AD FS
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 > [!IMPORTANT]
 > The steps for the configuration of Active Directory Federation Services (AD FS) might vary depending on the version of your AD FS server.
@@ -69,9 +66,9 @@ contributors:
 
 3. Add the **Name ID** claim to the relying party trust:
 
-    **Transform[!INCLUDE[pn-ms-windows-short](../../../includes/pn-ms-windows-short.md)] account name** to **Name ID** claim (Transform an Incoming Claim):
+    **Transform Windows account name** to **Name ID** claim (Transform an Incoming Claim):
     
-    - Incoming claim type: **[!INCLUDE[pn-ms-windows-short](../../../includes/pn-ms-windows-short.md)] account name**
+    - Incoming claim type: **Windows account name**
     
     - Outgoing claim type: **Name ID**
     
@@ -81,7 +78,7 @@ contributors:
 
 ### Configure the SAML 2.0 provider
 
-After setting up the AD FS relying party trust, you can follow the steps in [Configure a SAML 2.0 provider for portals](configure-saml2-provider.md).
+After setting up the AD FS relying party trust, you can follow the steps in [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md).
 
 ### Identity provider&ndash;initiated sign-in
 
@@ -269,13 +266,11 @@ Add-CrmRelyingPartyTrust $domain
 
 ### Configure a SAML 2.0 provider
 
-After setting up the AD FS relying party trust, you can follow the steps in [Configure a SAML 2.0 provider for portals](configure-saml2-provider.md).
+After setting up the AD FS relying party trust, you can follow the steps in [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md).
 
 ### See also
 
-[Configure a SAML 2.0 provider for portals with Azure AD](configure-saml2-settings-azure-ad.md)  
-[FAQ for using SAML 2.0 in portals](configure-saml2-faqs.md)  
-[Configure a SAML 2.0 provider for portals](configure-saml2-provider.md)
+[Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
+[FAQs for using SAML 2.0 in Power Pages](saml2-faqs.md) 
+[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
