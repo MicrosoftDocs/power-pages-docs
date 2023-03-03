@@ -19,8 +19,8 @@ contributors:
 # Local authentication, registration, and other settings
 
 > [!IMPORTANT]
-> - We recommend that you use the [Azure Active Directory B2C (Azure AD B2C)](configure-azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your portal. More information: [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
-> - Configuring local authentication requires that you use the [Portal Management app](configure-portal.md) to configure the required site settings manually.
+> - We recommend that you use the [Configure the Azure Active Directory B2C provider in Power Pages](azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your website. More information: [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
+> - Configuring local authentication requires that you use the [Portal Management app](../../configure/portal-management-app.md)to configure the required site settings manually.
 
 The portals feature provides authentication functionality built on the [ASP.NET Identity](https://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](https://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:
 
@@ -39,8 +39,8 @@ The portals feature provides authentication functionality built on the [ASP.NET 
 Portals requires:
 
 - Portals Base
-- [!INCLUDE[cc-microsoft](../../../includes/cc-microsoft.md)] Identity
-- [!INCLUDE[cc-microsoft](../../../includes/cc-microsoft.md)] Identity Workflows solution packages
+- Microsoft Identity
+- Microsoft Identity Workflows solution packages
 
 ## Authentication overview
 
@@ -101,7 +101,7 @@ The email sent by this workflow must be customized by using the URL to the redee
 1. Create an invitation for a new contact.
 1. Customize and save the new invitation.
 1. Customize the invitation email.
-1. Process the [Send invitation](invite-contacts.md) workflow.
+1. Process the [Send invitation](../invite-contacts.md) workflow.
 1. The invitation email opens the redemption page.
 1. The user signs up by using the submitted invitation code.
 
