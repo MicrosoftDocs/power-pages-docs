@@ -40,7 +40,7 @@ More information on custom error: [Displaying a Custom Error Page](/aspnet/web-f
 
 You can disable custom errors on Power Pages websites to display the detailed exception message if any server-side exception occurs in your website.
 
-1. Open the [Power Platform admin center](aka.ms/ppac).
+1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
 1. Under the **Resources** section select **Power Pages sites**.
 
@@ -54,7 +54,7 @@ You can disable custom errors on Power Pages websites to display the detailed ex
 
 You can enable custom errors on websites to display a professional-looking page instead of YSOD. This page provides meaningful information if any exception occurs in the application.
 
-1. Open the [Power Platform admin center](aka.ms/ppac).
+1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
 1. Under the **Resources** section select **Power Pages sites**.
 
@@ -102,7 +102,7 @@ After developing and publishing the website, you still need to be able to access
 
 ### Enable diagnostic logging
 
-1. Open the [Power Platform admin center](aka.ms/ppac).
+1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
 1. Under the **Resources** section select **Power Pages sites**.
 
@@ -139,7 +139,7 @@ When diagnostic logging is enabled successfully, the following actions become av
  
 ### Update diagnostic logging
 
-1. Open the [Power Platform admin center](aka.ms/ppac).
+1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
 1. Under the **Resources** section select **Power Pages sites**.
 
@@ -164,7 +164,7 @@ When diagnostic logging is enabled successfully, the following actions become av
    
 ### Disable diagnostic logging
 
-1. Open the [Power Platform admin center](aka.ms/ppac).
+1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
 1. Under the **Resources** section select **Power Pages sites**.
 
