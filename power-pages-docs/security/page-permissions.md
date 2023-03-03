@@ -4,7 +4,7 @@ description: Learn how to secure your webpages by using page permissions.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 3/3/2023
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
@@ -51,11 +51,7 @@ Using the Portal Management app, you can manage page permissions through webpage
 
 **To manage webpage access control rules with the Portal Management app**
 
-1. Go to [Power Apps](https://make.powerapps.com).
-
-1. On the left pane, select **Apps**.
-
-1. Select **Portal Management**.
+1. Go to the [Portal Management app](../configure/portal-management-app.md).
 
 1. On the left pane, under **Security**, select **Web Page Access Control Rules**.
 
@@ -111,7 +107,6 @@ You then set **Right** to **Restrict Read** and **Web Page** to the page at the 
 > [!NOTE]
 > If you apply the **Restrict Read** right to the root (home) page of a website and select **Exclude direct child web files** as the **Scope**, the home page's direct child web files will be accessible to all users.
 
-<!--leave this section alone-->
 ## Manage page permissions with legacy Power Apps portals Studio
 
 Not only can you use portals Studio to customize your portal, you can manage page permissions quickly and efficiently.
@@ -126,7 +121,7 @@ To get started with managing page permissions using portals Studio:
 
 1. Select **Edit** to open the portal in portals Studio.
 
-    More information: [Edit the portal](../manage-existing-portals.md#edit) and [Studio anatomy](../portal-designer-anatomy.md)
+    More information: [Edit the portal](/power-apps/maker/portals/manage-existing-portals#edit) and [Studio anatomy](/power-apps/maker/portals/portal-designer-anatomy.md)
 
 1. Select the page that you want to manage permissions for.
 
