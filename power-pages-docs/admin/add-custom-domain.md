@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 03/03/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -24,12 +24,15 @@ A custom domain can enhance your brand and help your customers more easily find 
 
 To learn about the roles required to perform this task, read [Admin roles required for portal administrative tasks](/power-apps/maker/portals/admin/portal-admin-roles).
 
+1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
-1. Open [Power Apps portals admin center](admin-overview.md).
+1. Under **Resources**, select **Power Pages sites**.
 
-1. Go to **Portal Actions** > **Add a Custom Domain Name**. A wizard opens to choose the SSL certificate.
+1. Select the site to which you want to add a custom domain. A page will open with details about your site.
 
-1. On the **Choose a SSL certificate** page, select one of these options:
+1. In the **Site Details** section, select **Connect Custom Domain**.
+
+1. A side panel will appear, on the **Choose a SSL certificate** section, select one of these options:
    - **Upload a new certificate**: Select this option to upload the .pfx file if you haven't yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
    - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
 
@@ -45,33 +48,53 @@ To learn about the roles required to perform this task, read [Admin roles requir
      > 
      > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites. 
 
+    :::image type="content" source="media/add-custom-domain/add-ssl-certificate.png" alt-text="Upload an SSL certificate.":::
+
 1. Select **Next**.
 
-1. On the **Choose a host name** page, select one of the following options:
-    - **Add a new host name**: Select this option to create a new custom domain. Enter the CNAME you want in the **Domain Name** field.
-    - **Use an existing host name**: Select this option to choose a host name from the drop-down list. 
+1. On the **Choose hostname** section, enter the CNAME you want in the **Domain Name** field (for example `www.contoso.com`).
    
    > [!NOTE]
-   > - You can only have one custom domain name for a portal. 
-   > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: "Please add a CNAME record to this domain name. Retry after some time passes."
+   > - You can only have one custom domain name for a website. 
+   > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your website.
+   > - If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: "Please add a CNAME record to this domain name. Retry after some time passes."
 
-6. Review the information you've entered, and then select **Next** to begin creating the SSL Binding. You should see the message Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal. {Custom Domain Name} will be a hyperlink to the Custom Portal URL that you configured.
+1. Select **Next**
 
-7. Select **Finish** to close the wizard.
+1. On the **Validate the domain** section, copy the **Record type**, **Record name**, and the **Record value** and create a **TXT** record with your domain provider.
+
+1. If you have just added the TXT entry with your domain provider, it will take some time to propagate to all DNS servers. Select **Refresh** to validate the custom domain. When information has been validated, the **Next** button will be activated.
+
+1. Select **Next**
+
+1. Review the information comparing the **Custom host name** and the **SSL certificate**, and then select **Next** to begin creating the SSL Binding. 
+
+1. You should see the message **Custom Domain name has been successfully configured**.  You can now go to {Custom Domain Name} to access this website. 
+
+1. Select **Close**.
 
 ## Change current custom domain name
 
 To change your existing custom domain name:
 
-1. From the admin center, select Set up custom domains and SSL.
-1. Manually delete the current SSL binding.
-1. Manually delete the current assigned hostname.
-1. Rerun the wizard and follow the instructions outlined in **Add a custom domain name**.
+1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
-## Validate the custom domain
+1. Under **Resources**, select **Power Pages sites**.
 
-The domain should be validated before associating to the endpoint and routes for content delivery network (CDN) enabled websites.  You should add TXT record to the domain DNS for the validation.  The TXT record is in the form of _dnsauth.<your_subdomain>.  In your DNS provider, manually create a new TXT record of name_dnsauth.<your_subdomain> with the record value.
-    
+1. Select the site to which you want to change the a custom domain. A page will open with details about your site.
+
+1. In the **Site Details** section, select the pencil icon to the right of your custom URL.
+
+1. A side panel will appear.
+
+    1. Select and delete the current assigned hostname.
+    1. Select and delete the current SSL certificate.
+    1. Select and delete the current SSL binding.
+
+    :::image type="content" source="media/add-custom-domain/change-ssl.png" alt-text="Change SSL certificate.":::
+
+1. Follow the instructions outlined in [**Add a custom domain name**](#add-a-custom-domain-name) to configure you new domain.
+
 ### See also
 
 [Configure SSL certificates and custom domain names](/training/modules/portals-administration/2-custom-domain)
