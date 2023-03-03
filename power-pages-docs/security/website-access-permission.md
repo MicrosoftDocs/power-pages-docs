@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/3/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -21,13 +21,13 @@ Website Access Permissions is a permission set, associated with a [web role](cre
 |------------------------------|--------------------------------------------------------------------------------------------------|
 | Manage Content Snippets      | Allows the editing of Snippet controls.                                                          |
 | Manage Site Markers          | Allows the editing of hyperlinks that use Site Markers                                           |
-| Manage Web Link Sets         | Allows the editing of [web link sets](manage-web-links.md), including adding an removing web links from a web link set. |
+| Manage Web Link Sets         | Allows the editing of [web link sets](/power-apps/maker/portals/configure/manage-web-links), including adding an removing web links from a web link set. |
 | Preview Unpublished Entities | Allows the viewing of portal-exposed tables that have a publishing state of Draft.             |
 |||
 
 To create a website access permission and add it to a web role:
 
-1. Open the [Portal Management app](configure-portal.md).
+1. Open the [Portal Management app](../configure/portal-management-app.md).
 
 2. Go to **Portals** > **Website Access Permissions**.
 
