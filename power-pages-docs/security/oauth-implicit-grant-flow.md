@@ -17,9 +17,6 @@ contributors:
 
 # Use OAuth 2.0 implicit grant flow within your portal
 
-
-[!INCLUDE[cc-pages-ga-banner](../../includes/cc-pages-ga-banner.md)]
-
 This feature allows a customer to make client-side calls to external APIs and secure them using OAuth implicit grant flow. It provides an endpoint to obtain secure access tokens. These tokens will contain user identity information to be used by external APIs for authorization following OAuth 2.0 implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls, which helps developers to pass authentication context and will also help users secure their APIs.
 
 OAuth 2.0 implicit grant flow supports [token](#token-endpoint-details) endpoints that a client can call to get an ID token.
@@ -161,5 +158,3 @@ This sample is an ASP.NET based project and is used to validate the ID token iss
 
 This sample shows how you can use the getAuthenticationToken function to fetch an ID token using the Token endpoint in Power Apps portals. The sample can be found here: [Token Endpoint sample](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js).
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
