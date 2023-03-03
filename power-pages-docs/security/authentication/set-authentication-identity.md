@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/3/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -275,9 +275,9 @@ The following describes settings for modifying default authentication cookie beh
 
 ### See also
 
-[Overview of authentication in Power Apps portals](configure-portal-authentication.md)  
-[Configure an OAuth 2.0 provider for portals](configure-oauth2-provider.md)  
-[Configure an OpenID Connect provider for portals](configure-openid-provider.md)  
-[Configure a SAML 2.0 provider for portals](configure-saml2-provider.md)  
-[Configure a WS-Federation provider for portals](configure-ws-federation-provider.md)  
+[Overview of authentication in Power Apps portals](configure-portal-authentication.md)   
+[Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md) 
+[Configure an OpenID Connect provider for Power Pages](openid-provider.md) 
+[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
+[Configure a WS-Federation provider for Power Pages](ws-federation-provider.md) 
 [Power Apps portals authentication settings](/training/modules/authentication-user-management/2-authentication-settings)  
