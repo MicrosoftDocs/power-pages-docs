@@ -30,8 +30,8 @@ contributors:
         <br> Example: `https://portal.contoso.com/`
     5.  Choose Profile: Select **AD FS 2.0 profile**, and then select **Next**.
     6.  Configure Certificate: Select **Next**.
-    7.  Configure URL: Select the **Enable support for the WS-Federation Passive protocol** check box.<br>
-    Relying party WS-Federation Passive protocol URL: Enter `https://portal.contoso.com/signin-federation`<br> Note that AD FS requires that the portal run on HTTPS.
+    7.  Configure URL: Select the **Enable support for the WS-Federation Passive protocol** check box.<br />
+    Relying party WS-Federation Passive protocol URL: Enter `https://portal.contoso.com/signin-federation`<br /> Note that AD FS requires that the website run on HTTPS.
     
     > [!NOTE]
     > The resulting endpoint has the following settings:
@@ -41,7 +41,7 @@ contributors:
     > - URL: `https://portal.contoso.com/signin-federation`
     
     8.  Configure Identities: Enter `https://portal.contoso.com/`, select **Add**, and then select **Next**.
-        If applicable, you can add more identities for each additional relying party portal. Users can authenticate across any or all available identities.
+        If applicable, you can add more identities for each additional relying party website. Users can authenticate across any or all available identities.
     9.  Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, and then select **Next**.
     10.  Ready to Add Trust: Select **Next**.
     11.  Select **Close**.
