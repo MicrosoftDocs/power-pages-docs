@@ -42,13 +42,13 @@ Select **Site Actions** to perform the following actions on your site.
 | Restart site | Restart the site. |
 | Shut down this site | Turn off the site. |
 | Delete this site | See [Delete a portal](/power-apps/maker/portals/admin/reset-portal#delete-a-portal) |
-| Disable custom errors | See [Disable custom errors](/power-apps/maker/portals/admin/view-portal-error-log#disable-custom-error) |
-| Enable diagnostic logs | See [Enable diagnostic logging](/power-apps/maker/portals/admin/view-portal-error-log#enable-diagnostic-logging)
+| Disable custom errors | See [Disable custom errors](view-portal-error-log.md#disable-custom-error) |
+| Enable diagnostic logs | See [Enable diagnostic logging](view-portal-error-log.md#enable-diagnostic-logging)
 | Enable maintenance mode | See [Maintenance mode for a portal](/power-apps/maker/portals/admin/enable-maintenance-mode) |
 
 ## Site Actions (...)
 
-Select **...** for more site actions.
+Select **...** to the left of **Site Actions** for more site actions.
 
 :::image type="content" source="media/more-site-actions.png" alt-text="Selecting additional site actions.":::
 
