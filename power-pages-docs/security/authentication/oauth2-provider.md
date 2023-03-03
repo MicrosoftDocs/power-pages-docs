@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/3/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -20,15 +20,15 @@ To use OAuth 2.0&ndash;based external identity providers, you register an applic
 
 To learn about individual OAuth 2.0 providers, select the name of the provider that you want to configure:
 
-- [Microsoft](configure-oauth2-microsoft.md)
-- [LinkedIn](configure-oauth2-linkedin.md)
-- [Facebook](configure-oauth2-facebook.md)
-- [Google](configure-oauth2-google.md)
-- [Twitter](configure-oauth2-twitter.md)
+- [Microsoft](oauth2-microsoft.md)
+- [LinkedIn](oauth2-linkedin.md)
+- [Facebook](oauth2-facebook.md)
+- [Google](oauth2-google.md)
+- [Twitter](oauth2-twitter.md)
 
 > [!NOTE]
 > - Custom OAuth providers aren't supported. For custom OAuth providers, use [OpenID Connect](configure-openid-provider.md) instead.
 > Changes to the authentication settings [might take a few minutes](../admin/clear-server-side-cache.md#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [portal actions](../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
-For general settings applicable to all OAuth 2.0 providers, go to [Configure additional settings for OAuth 2.0 providers](configure-oauth2-settings.md).
+For general settings applicable to all OAuth 2.0 providers, go to [Configure additional settings for OAuth 2.0 providers](oauth2-settings.md).
 
