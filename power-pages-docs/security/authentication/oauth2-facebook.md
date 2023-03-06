@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/6/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -16,7 +16,7 @@ contributors:
 
 # Configure the Facebook provider for portals
 
-As explained in [Configure an OAuth 2.0 provider for portals](configure-oauth2-provider.md), Facebook is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring Facebook as the identity provider, select **Configure** from the [provider settings](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) page.
+As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md), Facebook is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring Facebook as the identity provider, select **Configure** from the [provider settings](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) page.
 
 ## Step 1. Create a Facebook app
 
@@ -64,4 +64,4 @@ After you've created the app in Facebook, configure the site settings for the pr
 
 ## Step 3. Additional settings (optional)
 
-To configure **Additional settings** for the Facebook provider, see [Configure additional settings for OAuth 2.0 providers](configure-oauth2-settings.md).
+To configure **Additional settings** for the Facebook provider, see [Configure additional settings for OAuth 2.0 providers](oauth2-settings.md).
