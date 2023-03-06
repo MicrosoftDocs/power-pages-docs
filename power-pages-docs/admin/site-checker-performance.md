@@ -62,7 +62,7 @@ You also can go to each file listed in the Site Checker results and set the valu
 Enabling portal sign-in tracking can lead to performance issues in your website. 
 
 > [!IMPORTANT]
-> This functionality has been retired for portals with version [9.3.4.x](../versions/version-9.3.4.x.md) or later. For more information, see the deprecation announcement published earlier: [Dynamics 365 Portals - Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/).
+> This functionality has been retired for portals with version [9.3.4.x](/power-apps/maker/portals/versions/version-9.3.4.x) or later. For more information, see the deprecation announcement published earlier: [Dynamics 365 Portals - Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/).
 
 The Site Checker tool will check to see if sign-in tracking is enabled for your portal and show a failed check if it's enabled. Sign-in tracking should be disabled by following these steps:
 

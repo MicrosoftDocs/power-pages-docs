@@ -147,7 +147,7 @@
             - name: Website start-up issues
               href: admin/site-checker-startup-issue.md
             - name: Provisioning issues
-              href: site-checker-provisioning-issues.md       
+              href: admin/site-checker-provisioning-issues.md       
     - name: Update, upgrade, migrate and convert websites
       items:
         - name: Convert a website

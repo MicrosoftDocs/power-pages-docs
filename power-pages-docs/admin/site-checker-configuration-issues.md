@@ -26,13 +26,13 @@ The following issues relate to configuration of [table permissions](../security/
 
 ### Anonymous access to basic/multistep forms and lists
 
-Basic forms, Multistep forms, and lists on Power Pages websites can be excluded from enforcing table permissions by not selecting the **Enable Table Permission** checkbox while creating or modifying these controls as explained in [Securing lists](../configure/securing-lists.md) and [Secure your forms](../configure/entity-forms.md#secure-your-forms).
+Basic forms, Multistep forms, and lists on Power Pages websites can be excluded from enforcing table permissions by not selecting the **Enable Table Permission** checkbox while creating or modifying these controls as explained in [securing lists](/power-apps/maker/portals/configure/securing-lists) and [secure your forms](/power-apps/maker/portals/configure/entity-forms#secure-your-forms).
 
 This method is useful for quickly testing your configurations during development of a portal, but not securing Lists and Forms on a portal can have unintended consequences including unauthorized access to data. We don't advise this method to be used outside a secure dev or test environment.
 
 To fix this issue for List/Basic forms:
 
-1. Open the [Portal Management app](../configure/configure-portal.md).
+1. Open the [Portal Management app](../configure/portal-management-app.md).
 
 1. On the left pane, select **List** or **Basic forms** as appropriate.
 

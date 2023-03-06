@@ -60,7 +60,7 @@ This *Page Not Found* error appears if:
 
 To resolve this error, ensure that you have the default site marker named **Page Not Found** present and configured correctly. If the site marker is present and correctly configured, check if the **Page Not Found** webpage is selected for the site marker or whether the **Page Not Found** webpage is present or not.
 
-For steps to create a site marker for **Page Not Found**, go to [An active Page Not Found site marker isn't available for this website](site-checker-configuration-issues.md#an-active-page-not-found-site-marker-isnt-available-for-this-portal).
+For steps to create a site marker for **Page Not Found**, go to [An active Page Not Found site marker isn't available for this website](site-checker-configuration-issues.md#an-active-page-not-found-site-marker-isnt-available-for-this-website).
 
 For steps to check site marker configuration and ensure it points to the correct webpage, go to [The Page Not Found site marker isn't pointing to any webpage](site-checker-configuration-issues.md#the-page-not-found-site-marker-isnt-pointing-to-any-webpage).
 
