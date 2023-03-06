@@ -39,7 +39,7 @@ The Site Checker tool will list all the webpages (both root and content page) th
 
 You also can go to each page listed in the Site Checker results and set the value of the **Enable Tracking (Deprecated)** field to **No** instead.
 
-It's important to understand that if you're on Dynamics 365 Portals solution version 9.x, this field won't be displayed on the form and you might need to add it to the form first. 
+It's important to understand that if you're on portals solution version 9.x, this field won't be displayed on the form and you might need to add it to the form first. 
 
 ## Web file tracking enabled
 
@@ -50,57 +50,57 @@ Enabling a web file for page tracking can lead to performance issues in your web
 
 The Site Checker tool will list all the web files that are enabled for page tracking. These files should be disabled by following these steps:
 
-1. Open the [Portal Management app](../configure/configure-portal.md).
+1. Open the [Portal Management app](../configure/portal-management-app.md).
 1. Go to **Advanced find**.
 1. Search for all the web files where the **Enable Tracking (Deprecated)** field is enabled (value is set to Yes).
 1. Bulk edit all the records and set this field to **No**.
 
-You also can go to each file listed in the Portal Checker results and set the value of the **Enable Tracking (Deprecated)** field to **No**. If you're on portal solution version 9.x, this field won't be displayed on the form and you might need to add it to the form first. 
+You also can go to each file listed in the Site Checker results and set the value of the **Enable Tracking (Deprecated)** field to **No**. If you're on portal solution version 9.x, this field won't be displayed on the form and you might need to add it to the form first. 
 
 ## Sign-in tracking enabled
 
-Enabling portal sign-in tracking can lead to performance issues in your portal. 
+Enabling portal sign-in tracking can lead to performance issues in your website. 
 
 > [!IMPORTANT]
 > This functionality has been retired for portals with version [9.3.4.x](../versions/version-9.3.4.x.md) or later. For more information, see the deprecation announcement published earlier: [Dynamics 365 Portals - Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/).
 
-The Portal Checker tool will check to see if sign-in tracking is enabled for your portal and show a failed check if it's enabled. Sign-in tracking should be disabled by following these steps:
+The Site Checker tool will check to see if sign-in tracking is enabled for your portal and show a failed check if it's enabled. Sign-in tracking should be disabled by following these steps:
 
-1. Open the [Portal Management app](../configure/configure-portal.md).
-1. Go to **Portals** > **Site Settings**.
+1. Open the [Portal Management app](../configure/portal-management-app.md).
+1. Go to **Website** > **Site Settings**.
 1. Search for the site setting `Authentication/LoginTrackingEnabled`.
 1. Change the value of this site setting to **False** or delete the site setting.
-1. Restart the portal. 
+1. Restart the website. 
 
 ## Header output cache is disabled
 
-Disabling header output cache on your portal can lead to performance issues in your portal during high load. More details about this functionality can be found at [Enable header and footer output caching on a portal](../configure/enable-header-footer-output-caching.md).
+Disabling header output cache on your website can lead to performance issues in your website during high load. More details about this functionality can be found at [Enable header and footer output caching on a website](/power-apps/maker/portals/configure/enable-header-footer-output-caching).
 
-The Portal Checker tool will check to see if header output cache is disabled on your portal and show a failed check if it's disabled. To enable it:
+The Site Checker tool will check to see if header output cache is disabled on your website and show a failed check if it's disabled. To enable it:
 
-1. Open the [Portal Management app](../configure/configure-portal.md).
-1. Go to **Portals** > **Site Settings**.
+1. Open the [Portal Management app](../configure/portal-management-app.md).
+1. Go to **Website** > **Site Settings**.
 1. Search for the site setting `Header/OutputCache/Enabled`.
 1. If the site setting is available, change the value to **True**. If the site setting isn't available, create a new site setting with this name and set its value to **True**.
-1. Restart the portal. 
+1. Restart the website. 
 
 ## Footer output cache is disabled
 
-Disabling footer output cache on your portal can lead to performance issues in your portal during high load. More details about this functionality can be found at [Enable header and footer output caching on a portal](../configure/enable-header-footer-output-caching.md).
+Disabling footer output cache on your website can lead to performance issues in your website during high load. More details about this functionality can be found at [Enable header and footer output caching on a portal](/power-apps/maker/portals/configure/enable-header-footer-output-caching).
 
-The Portal Checker tool will check to see if footer output cache is disabled on your portal and show a failed check if it's disabled. To enable it:
+The Site Checker tool will check to see if footer output cache is disabled on your website and show a failed check if it's disabled. To enable it:
 
-1. Open the [Portal Management app](../configure/configure-portal.md).
-1. Go to **Portals** > **Site Settings**.
+1. Open the [Portal Management app](../configure/portal-management-app.md).
+1. Go to **Website** > **Site Settings**.
 1. Search for the site setting `Footer/OutputCache/Enabled`.
 1. If the site setting is available, change the value to **True**. If the site setting isn't available, create a new site setting with this name and set its value to **True**.
-1. Restart the portal. 
+1. Restart the website. 
 
 ## Large number of web file records
 
-The web file table is used by a portal to store any static files you want to use on your portal. The main use case of this table is to store static content of your website such as CSS, JavaScript, image files, and so on. However, having a large number of these files can cause slowness during the startup of your portal.
+The web file table is used by a Power Pages site to store any static files you want to use on your website. The main use case of this table is to store static content of your website such as CSS, JavaScript, image files, and so on. However, having a large number of these files can cause slowness during the startup of your website.
 
-The Portal Checker tool will check for this scenario and provide you an indication if you have more than 500 active web files in your portal. If all of these files represent static content, you can take the following actions to mitigate this issue:
+The Site Checker tool will check for this scenario and provide you an indication if you have more than 500 active web files in your website. If all of these files represent static content, you can take the following actions to mitigate this issue:
 
 - Use an external file server like Azure Blob Storage or Azure Content Delivery Network to store these files and then reference these files on the appropriate pages either within the page or in an underlying template.
 
@@ -118,7 +118,7 @@ When this option is enabled for lookups that can have a large number of records,
 
 ## Number of web roles
 
-Web roles are used in portals to enable role-based access control. Typically, the number of web roles in a portal are limited as the number of different combinations of permissions would be limited as well. If the number of web roles exceeds 100 in your portal, it can cause performance issues that affect all pages of your portal. 
+Web roles are used in portals to enable role-based access control. Typically, the number of web roles in a website are limited as the number of different combinations of permissions would be limited as well. If the number of web roles exceeds 100 in your website, it can cause performance issues that affect all web pages. 
 
 ### See also
 
