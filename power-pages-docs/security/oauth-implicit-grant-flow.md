@@ -4,7 +4,7 @@ description: Learn how to make client-side calls to external APIs and secure the
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/21/2022
+ms.date: 3/6/2023
 ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
@@ -23,9 +23,9 @@ OAuth 2.0 implicit grant flow supports [token](#token-endpoint-details) endpoint
 
 ## Custom certificates 
 
-Using the default certificate for OAuth 2.0 implicit grant flow is [deprecated](important-changes-deprecations.md#oauth-20-implicit-grant-flow-within-your-portal). You will need to use a custom certificate while using the OAuth 2.0 endpoint. Use the [Power Platform admin center](/admin/manage-custom-certificates) to upload the custom certificate. After uploading the custom certificate, you need to update site settings as below: 
+Using the default certificate for OAuth 2.0 implicit grant flow is [deprecated](/power-pages/important-changes-deprecations#oauth-20-implicit-grant-flow-within-your-portal). You will need to use a custom certificate while using the OAuth 2.0 endpoint. Use the [Power Platform admin center](/admin/manage-custom-certificates) to upload the custom certificate. After uploading the custom certificate, you need to update site settings as below: 
 
-1. Go to [portal settings](manage-existing-portals.md#settings) and select **Site Settings**. 
+1. Go to [portal settings](/power-apps/maker/portals/manage-existing-portals#settings) and select **Site Settings**. 
 
 1. To create a new setting, select **New**. 
 
@@ -36,7 +36,6 @@ Using the default certificate for OAuth 2.0 implicit grant flow is [deprecated](
     - **Website:** The associated website 
     - **Value:** Copy the thumbprint of the uploaded custom certificate from the Manage custom certificate screen and paste it here. The value will indicate which certificate will be used for implicit grant flow. 
 1. Select **Save & Close**.
-    :::image type="content" source="media/new-site-setting.png" alt-text="General menu for New Site Settings with values specified.":::
 
 ## Token endpoint details
 
@@ -128,7 +127,7 @@ Just getting an ID token isn't sufficient to authenticate the user; you must als
 
 By default, implicit grant flow is enabled. If you want to turn off implicit grant flow, set the value of the **Connector/ImplicitGrantFlowEnabled** site setting to **False**.
 
-If this site setting isn't available in your portal, you must [create a new site setting](configure/configure-site-settings.md#manage-portal-site-settings) with the appropriate value.
+If this site setting isn't available in your portal, you must [create a new site setting](/power-apps/maker/portals/configure/configure-site-settings) with the appropriate value.
 
 ## Configure token validity
 
