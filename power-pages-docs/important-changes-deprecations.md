@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/09/2022
+ms.date: 02/28/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -37,7 +37,82 @@ At launch, users with the system administrator role along with [service admins](
 > [!NOTE]
 > After October 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE. More information: [Change tenant-level setting](security/site-visibility.md#change-tenant-level-setting)
 
+## OAuth 2.0 implicit grant flow within your portal 
+
+The [authorize endpoint](/power-apps/maker/portals/oauth-implicit-grant-flow#authorize-endpoint-details), [token endpoint](/power-apps/maker/portals/oauth-implicit-grant-flow#authorize-endpoint-details) using GET request, and using the default certificate for OAuth 2.0 implicit grant flow is deprecated. No action is needed for newly created portals or for existing portals that don't use this feature. If you're already using this feature, you need to use the token endpoint POST request to get a secure access token to authorize the external APIs.
+
+> [!NOTE]
+> - All existing customers who are using this deprecated feature need to migrate to the supported method by October 2022.
+> - For more information on using a custom certificate, go to [Using a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates).
+> - For sample code on using POST calls on the Token endpoint, go to [Token endpoint sample](/power-apps/maker/portals/oauth-implicit-grant-flow#token-endpoint-sample).
+
+## List OData feed 
+
+Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the Power Pages [Web API](configure/web-api-overview.md). 
+
+> [!NOTE] 
+> - Starting October 2022, newly provisioned websites won't able to use list OData features. 
+> - The OData feeds list feature will be removed October 1, 2023.
+
+## Portal content editor
+
+Starting June 2022, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
+
+> [!NOTE]
+> This feature will be removed by October 1, 2023.
+
+## Portals search using Lucene.NET search 
+
+Starting with website version 9.4.4.xx, portal search uses Dataverse search as a default search provider for all new portals. Lucene.NET search is deprecated; however, existing portals that use Lucene.NET search won't be affected. We recommend that users migrate to Dataverse search. Enable Dataverse search for existing portal by setting the Search/EnableDataverseSearch site setting to true.
+
+> [!NOTE]
+> All existing customers who use Lucene.NET search must migrate to Dataverse search by October 1, 2023.
+
+## Content Delivery Network for US Government
+
+Starting January 2022, Power Apps portals for US Government will begin using [Azure Content Delivery Network](/azure/cdn/cdn-overview) for default JavaScript and CSS files. Depending on the US Government deployment, configure the allowlist for the following Content Delivery Network URLs as follows.
+
+| Power Pages version | Content Delivery Network URL |
+| - | - |
+| Government Community Cloud (GCC) | `https://gov.content.powerapps.us` |
+| GCC High | `https://high.content.powerapps.us` |
+| Power Apps Department of Defense | `https://content.appsplatform.us` |
+
+## Table permission changes for forms and lists on new websites
+
+Starting with release [9.3.7.x](/power-platform/released-versions/portals/portalupdate1), newly created websites will have table permissions enforced for all [forms](/power-apps/maker/portals/configure/entity-forms#secure-your-forms) and [lists](/power-apps/maker/portals/configure/securing-lists), irrespective of the **Enable Table Permissions** setting.
+
+Also, with the same release, lists on all websites (new or existing) that have [list OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) enabled will require that the appropriate [table permissions](security/table-permissions.md) be set up for the feed on these lists to work.
+
+> [!NOTE]
+> The changes described above also apply to websites [converted](/power-apps/maker/portals/admin/convert-portal) from trial to production.
+
+To configure anonymous access explicitly, use proper [table permissions](security/table-permissions.md) and web role set up instead.
+
+## SameSite mode changes
+
+Starting with Power Pages version [9.3.6.x](/power-apps/maker/portals/versions/version-9.3.6.x), makers can mark **SameSite** mode as **Strict** for all portal cookies where applicable.  
+
+With this change, we're adding a new website setting to control the **SameSite** mode for all cookies, configurable to the level of specific cookies.
+
+| Site setting name | Scope | Possible value |
+| - | - | - |
+| HTTP/SameSite/Default | Global, for all cookies. | None <br /> Lax <br /> Strict |
+| HTTP/SameSite/{CookieName} | Specific cookie. | None <br /> Lax <br /> Strict |
+
+The default value for all existing and newly provisioned websites is **None**.
+
+To learn how to configure site settings for websites, go to [Configure site settings for portals](/power-apps/maker/portals/configure/configure-site-settings).
+
+## Tracking for webpage, and web file
+
+Starting with portals version [9.3.4.x](/power-apps/maker/portals/versions/version-9.3.4.x), the following functionality has been retired:
+
+- [Webpage tracking](/power-apps/maker/portals/admin/portal-checker-performance#webpage-tracking-enabled)
+- [Web file tracking](/power-apps/maker/portals/admin/portal-checker-performance#web-file-tracking-enabled)
+
 ### See also
 
 [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming)
+
 
