@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Configure authentication
+# Overview of authentication in Power Pages
 
 As you build your site, you may wish to control access both to pages and data to specific users. Power Pages uses [Microsoft Dataverse contact records](/power-apps/developer/data-platform/customer-entities-account-contact) to associate to authenticated Power Pages site users.
 

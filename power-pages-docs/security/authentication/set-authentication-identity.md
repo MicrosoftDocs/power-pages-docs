@@ -275,7 +275,7 @@ The following describes settings for modifying default authentication cookie beh
 
 ### See also
 
-[Overview of authentication in Power Apps portals](configure-portal-authentication.md)   
+[Overview of authentication in Power Pages](overview.md)
 [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md) 
 [Configure an OpenID Connect provider for Power Pages](openid-provider.md) 
 [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
