@@ -213,7 +213,7 @@ Here's how to enable cookies if your browser is blocking them:
 
 # [Internet Explorer](#tab/IE)
 
-1. In Internet Explorer, in the menu bar, selectTools Tools button in Internet Explorer, upper right corner > Internet options > Privacy > Advanced.
+1. In Internet Explorer, in the menu bar, select the Tools icon > Internet options > Privacy > Advanced.
 
 1. Select Accept or Prompt under First-party Cookies, and Accept or Prompt under Third-party Cookies.
 
