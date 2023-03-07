@@ -125,7 +125,7 @@
     - name: Content Delivery Network  
       href: configure/configure-cdn.md      
     - name: Capacity consumption reports
-      href: admin/portal-consumption-reports.md
+      href: admin/website-consumption-reports.md
     - name: Update solution
       href: admin/update-solution.md
     - name: Restrict IP addresses
