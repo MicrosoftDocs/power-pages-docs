@@ -89,13 +89,13 @@ If third party cookies are disabled in your browser, images will not display in 
 
 Here's how to enable cookies if your browser is blocking them:
 
-# [Edge (Windows 10)] (#tab/Edge (Windows 10))
+# [Edge (Windows 10)](#tab/Edge (Windows 10))
 
 1. In the Edge window, select More (...) > Settings > View advanced settings.
 
 1. Scroll down to Cookies, and select Don't block cookies
 
-# [Internet Explorer] (#tab/Internet Explorer)
+# [Internet Explorer](#tab/IE)
 
 1. In Internet Explorer, in the menu bar, selectTools Tools button in Internet Explorer, upper right corner > Internet options > Privacy > Advanced.
 
@@ -103,7 +103,7 @@ Here's how to enable cookies if your browser is blocking them:
 
 1. Select OK.
 
-# [Chrome] (#tab/Chrome)
+# [Chrome](#tab/Chrome)
 
 1. In a Chrome window, do one of the following:
 
@@ -117,7 +117,7 @@ Here's how to enable cookies if your browser is blocking them:
 
 1. Select Done and refresh the browser.
 
-# [Mozilla Firefox] (#tab/Firefox)
+# [Mozilla Firefox](#tab/Firefox)
 
 1. If you’re using Windows, in the Firefox window, select Open menu Firefox browser options menu > Options.
 
@@ -130,15 +130,13 @@ Here's how to enable cookies if your browser is blocking them:
 
 1. Make sure Accept cookies from sites is checked and Accept third party cookies is set to Always, and then select OK.
 
-# [Safari] (#tab/Safari)
+# [Safari](#tab/Safari)
 
 1. On your Mac, go to Safari > Preferences > Privacy.
 
 1. Under Cookies and website data, select Always allow.
 
 1. Select Close and refresh the browser. 
-
-
 
 ## General issues
 
