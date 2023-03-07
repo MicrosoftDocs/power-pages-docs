@@ -19,7 +19,7 @@ contributors:
 
 [OpenID Connect](https://openid.net/connect/) external identity providers are services that conform to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html). OpenID Connect introduces the concept of an *ID token*, which is a security token that allows the client to verify the identity of the user. The ID token also gets basic profile information about users&mdash;also known as *claims*.
 
-This article explains how an identity provider that supports OpenID Connect can be integrated with Power Apps portals. Some of the examples of OpenID Connect providers for portals: [Azure Active Directory (Azure AD) B2C](configure-azure-ad-b2c-provider.md), [Azure AD](configure-openid-settings.md), [Azure AD with multiple tenants](configure-openid-settings.md#enable-authentication-using-a-multi-tenant-azure-active-directory-application).
+This article explains how an identity provider that supports OpenID Connect can be integrated with Power Apps portals. Some of the examples of OpenID Connect providers for portals: [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md), [Azure AD](openid-settings.md), [Azure AD with multiple tenants](openid-settings.md#enable-authentication-by-using-a-multitenant-azure-ad-application).
 
 ## Supported and unsupported authentication flows in portals
 
@@ -66,14 +66,12 @@ Similar to all other providers, you have to sign in to [Power Apps](https://make
     | Client ID | The ID of the application created with the identity provider that's to be used with the portal. |
     | Redirect URL | The location where the identity provider will send the authentication response. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-openid_1` <br> **Note**: If you're using the default portal URL, you can copy and paste the **Reply URL** as shown in the **Create and configure OpenID Connect provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the **Redirect URI** value for the application in the identity provider configuration (such as Azure portal). |
     | Metadata address | The discovery endpoint for obtaining metadata. Common format: [Authority URL]/.well-known/openid-configuration. <br> Example (Azure AD) : `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/v2.0/.well-known/openid-configuration` |
-    | Scope | A space-separated list of scopes to request via the OpenID Connect scope parameter. <br /> Default value: `openid` <br> Example (Azure AD) : `openid profile email` <br /> More information: [Configure additional claims when using OpenID Connect for portals with Azure AD](configure-openid-settings.md#configure-additional-claims) |
+    | Scope | A space-separated list of scopes to request via the OpenID Connect scope parameter. <br /> Default value: `openid` <br> Example (Azure AD) : `openid profile email` <br /> More information: [Configure additional claims](openid-settings.md#configure-additional-claims)|
     | Response type | The value for the OpenID Connect *response_type* parameter. <br /> Possible values include: <ul> <li> `code` </li> <li> `code id_token` </li><li> `id_token` </li><li> `id_token token` </li><li> `code id_token token` </li> </ul> <br /> Default value: `code id_token` |
     | Client secret | The client secret value from the provider application. This might also be referred to as an *app secret* or *consumer secret*. This setting is required if the selected response type is `code`. |
     | Response mode | The value for the OpenID Connect *response_mode* parameter. The value should be `query` if the selected response type is `code`. Default value: `form_post`. |
 
 1. Configure settings for signing users out.
-
-    ![Logout settings.](media/authentication/openid-logout-settings.png "Logout settings")
 
     | Name | Description |
     | - | - |
@@ -105,6 +103,5 @@ To edit a configured OpenID Connect provider, see [Edit a provider](use-simplifi
 
 ### See also
 
-[Configure an OpenID Connect provider for portals with Azure AD](configure-openid-settings.md)  
-[FAQ for using OpenID Connect in portals](configure-openid-faqs.md)
-
+[Configure an OpenID Connect provider for Power Pages with Azure AD](openid-settings.md)
+[FAQs for using OpenID Connect in portals](openid-faqs.md)
