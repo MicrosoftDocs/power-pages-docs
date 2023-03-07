@@ -197,7 +197,7 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
 [Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
 A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
 
-## Power Pages Design Studio issues
+## Power Pages design studio issues
 
 ### Images not displaying in Power Pages Design Studio
 
@@ -210,14 +210,6 @@ Here's how to enable cookies if your browser is blocking them:
 1. In the Edge window, select More (...) > Settings > View advanced settings.
 
 1. Scroll down to Cookies, and select Don't block cookies
-
-# [Internet Explorer](#tab/IE)
-
-1. In Internet Explorer, in the menu bar, select the Tools icon > Internet options > Privacy > Advanced.
-
-1. Select Accept or Prompt under First-party Cookies, and Accept or Prompt under Third-party Cookies.
-
-1. Select OK.
 
 # [Chrome](#tab/Chrome)
 
@@ -232,26 +224,5 @@ Here's how to enable cookies if your browser is blocking them:
 1. In the Content settings dialog box, under Cookies, make sure Allow local data to be set (recommended) is selected.
 
 1. Select Done and refresh the browser.
-
-# [Mozilla Firefox](#tab/Firefox)
-
-1. If you’re using Windows, in the Firefox window, select Open menu Firefox browser options menu > Options.
-
-    > [!TIP]  
-    > If you’re using a Mac, go to Firefox > Preferences.
-
-1. Select the Privacy tab.
-
-1. In the History section under Firefox will, select Use custom settings for history.
-
-1. Make sure Accept cookies from sites is checked and Accept third party cookies is set to Always, and then select OK.
-
-# [Safari](#tab/Safari)
-
-1. On your Mac, go to Safari > Preferences > Privacy.
-
-1. Under Cookies and website data, select Always allow.
-
-1. Select Close and refresh the browser. 
 
 ---
