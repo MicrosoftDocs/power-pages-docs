@@ -89,7 +89,7 @@ If third party cookies are disabled in your browser, images will not display in 
 
 Here's how to enable cookies if your browser is blocking them:
 
-# [Edge (Windows 10)](#tab/Edge (Windows 10))
+# [Edge (Windows 10)](#tab/Edge)
 
 1. In the Edge window, select More (...) > Settings > View advanced settings.
 
