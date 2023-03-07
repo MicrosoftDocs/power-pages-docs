@@ -36,7 +36,7 @@ Users can be provided access to your site through authentication. Power Pages us
 
 Authenticated users can then be assigned to web roles that will provide specific access to information on the site.
 
-More information: [Configure Authentication](configure-portal-authentication.md) 
+More information: [Configure Authentication](authentication/overview.md)
 
 ## Web roles
 
