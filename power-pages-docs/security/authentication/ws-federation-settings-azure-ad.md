@@ -125,6 +125,7 @@ In this article, you'll learn about configuring a WS-Federation provider for por
 
 ### See also
 
-[Configure a WS-Federation provider for portals](configure-ws-federation-provider.md)  
-[Configure a WS-Federation provider for portals with AD FS](configure-ws-federation-settings.md)
+[Configure a WS-Federation provider for Power Pages](ws-federation-provider.md)
+[Configure a WS-Federation provider for portals with AD FS](ws-federation-settings.md)
+
 
