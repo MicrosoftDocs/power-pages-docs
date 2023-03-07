@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/7/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -54,10 +54,10 @@ In this article, you'll learn about configuring a SAML 2.0 provider for portals 
 
     1. Under **Redirect URI**, select **Web** (if it isn't already selected).
 
-    1. Enter the **Reply URL** for your portal in the **Redirect URI** text box. <br> Example: `https://contoso-portal.powerappsportals.com/signin-saml_1`
+    1. Enter the **Reply URL** for your portal in the **Redirect URI** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-saml_1`
 
         > [!NOTE]
-        > If you're using the default portal URL, copy and paste the **Reply URL** as shown in the **Create and configure SAML 2.0 provider settings** section on the **Configure identity provider** screen (step 6 above). If you're using a custom domain name for the portal, enter the custom URL. Be sure to use this value when you configure the **Assertion consumer service URL** in your portal settings while configuring the SAML 2.0 provider. <br> For example, if you enter the **Redirect URI** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-saml_1`, you must use it as-is for the SAML 2.0 configuration in portals.
+        > If you're using the default portal URL, copy and paste the **Reply URL** as shown in the **Create and configure SAML 2.0 provider settings** section on the **Configure identity provider** screen (step 6 above). If you're using a custom domain name for the portal, enter the custom URL. Be sure to use this value when you configure the **Assertion consumer service URL** in your portal settings while configuring the SAML 2.0 provider. <br /> For example, if you enter the **Redirect URI** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-saml_1`, you must use it as-is for the SAML 2.0 configuration in portals.
 
     1. Select **Register**.
 
@@ -113,6 +113,6 @@ In this article, you'll learn about configuring a SAML 2.0 provider for portals 
 
 ### See also
 
-[Configure a SAML 2.0 provider for portals with AD FS](configure-saml2-settings.md)  
-[FAQ for using SAML 2.0 in portals](configure-saml2-faqs.md)  
-[Configure a SAML 2.0 provider for portals](configure-saml2-provider.md)  
+[Configure a SAML 2.0 provider for portals with AD FS](saml2-settings.md)
+[FAQs for using SAML 2.0 in portals](saml2-faqs.md)
+[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
