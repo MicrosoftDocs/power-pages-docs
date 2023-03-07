@@ -138,6 +138,7 @@ Here's how to enable cookies if your browser is blocking them:
 
 1. Select Close and refresh the browser. 
 
+
 ## General issues
 
 - You receive the following error message when configuring or using table fields:
