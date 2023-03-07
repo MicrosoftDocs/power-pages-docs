@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/24/2023
+ms.date: 3/7/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
