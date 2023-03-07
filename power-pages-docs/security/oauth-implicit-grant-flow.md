@@ -1,6 +1,6 @@
 ---
-title: Use OAuth 2.0 implicit grant flow within your portal
-description: Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in your portal.
+title: Use OAuth 2.0 implicit grant flow within your Power Pages site
+description: Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in your Power Pages site.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
@@ -15,7 +15,7 @@ contributors:
     - ProfessorKendrick   
 ---
 
-# Use OAuth 2.0 implicit grant flow within your portal
+# Use OAuth 2.0 implicit grant flow within your Power Pages site
 
 This feature allows a customer to make client-side calls to external APIs and secure them using OAuth implicit grant flow. It provides an endpoint to obtain secure access tokens. These tokens will contain user identity information to be used by external APIs for authorization following OAuth 2.0 implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls, which helps developers to pass authentication context and will also help users secure their APIs.
 
@@ -43,9 +43,9 @@ You can also get a token by making a post request to the `/token` endpoint. The 
 
 | Parameter   | Required? | Description                             |
 |---------------|-----------|---------------------------------------|
-| client_id      | No       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered with the portal](#register-client-id-for-implicit-grant-flow). Otherwise, an error is displayed. Client ID is added in claims in the token as `aud` and `appid` parameter and can be used by clients to validate that the token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
-| redirect_uri      | No       | URL of the portal where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
-| state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used to prevent cross-site-request forgery attacks.<br>The maximum length is 20 characters.              |
+| client_id      | No       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered](#register-client-id-for-implicit-grant-flow). Otherwise, an error is displayed. Client ID is added in claims in the token as `aud` and `appid` parameter and can be used by clients to validate that the token returned is for their app.<br />The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
+| redirect_uri      | No       | URL of the website where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
+| state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used to prevent cross-site-request forgery attacks.<br />The maximum length is 20 characters.              |
 | nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
 | response_type         | No        | This parameter supports only `token` as a value, allowing your app to immediately receive an access token from the authorize endpoint without making a second request to the authorize endpoint.                               |
 |||
@@ -82,8 +82,8 @@ The URL for authorize endpoint is: `<portal_url>/_services/auth/authorize`. The 
 
 | Parameter   | Required? | Description                             |
 |---------------|-----------|---------------------------------------|
-| client_id      | Yes       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered with the portal](#register-client-id-for-implicit-grant-flow). Otherwise, an error is displayed. Client ID is added in claims in the token as `aud` and `appid` parameter and can be used by clients to validate that the token returned is for their app.<br />The maximum length is 36 characters. Only alphanumeric characters and hyphens are supported. |
-| redirect_uri      | Yes       | URL of the portal where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
+| client_id      | Yes       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered](#register-client-id-for-implicit-grant-flow). Otherwise, an error is displayed. Client ID is added in claims in the token as `aud` and `appid` parameter and can be used by clients to validate that the token returned is for their app.<br />The maximum length is 36 characters. Only alphanumeric characters and hyphens are supported. |
+| redirect_uri      | Yes       | URL of the website where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
 | state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used to prevent cross-site-request forgery attacks.<br />The maximum length is 20 characters.              |
 | nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
 | response_type         | No        | This parameter supports only `token` as a value, which allows your app to immediately receive an access token from the authorize endpoint without making a second request to the authorize endpoint.                               |
@@ -93,7 +93,7 @@ The URL for authorize endpoint is: `<portal_url>/_services/auth/authorize`. The 
 
 The authorize endpoint returns the following values in the response URL as a fragment:
 
-- **token**: Token is returned as a JSON Web Token (JWT) digitally signed by the portal’s private key.
+- **token**: Token is returned as a JSON Web Token (JWT) digitally signed by the site’s private key.
 - **state**: If a state parameter is included in the request, the same value should appear in the response. The app should verify that the state values in the request and response are identical.
 - **expires_in**: The length of time that the access token is valid (in seconds).
 
@@ -121,13 +121,13 @@ For example, an error response looks as follows:
 
 ## Validate ID token
 
-Just getting an ID token isn't sufficient to authenticate the user; you must also validate the token's signature and verify the claims in the token based on your app's requirements. The public token endpoint provides the public key of the portal, which can be used to validate the signature of the token provided by the portal. The URL for public token endpoint is: `<portal_url>/_services/auth/publickey`.
+Just getting an ID token isn't sufficient to authenticate the user; you must also validate the token's signature and verify the claims in the token based on your app's requirements. The public token endpoint provides the public key of the site, which can be used to validate the signature of the token provided by the website. The URL for public token endpoint is: `<portal_url>/_services/auth/publickey`.
 
 ## Turn implicit grant flow on or off
 
 By default, implicit grant flow is enabled. If you want to turn off implicit grant flow, set the value of the **Connector/ImplicitGrantFlowEnabled** site setting to **False**.
 
-If this site setting isn't available in your portal, you must [create a new site setting](/power-apps/maker/portals/configure/configure-site-settings) with the appropriate value.
+If this site setting isn't available in your website you must [create a new site setting](/power-apps/maker/portals/configure/configure-site-settings) with the appropriate value.
 
 ## Configure token validity
 
@@ -137,23 +137,23 @@ For example, to set the token validity to 30 minutes, set the value of the **Imp
 
 ## Register client ID for implicit grant flow
 
-You must register the client ID with the portal for which this flow is allowed. To register a client ID, you must create the following site settings:
+You must register the client ID with the website for which this flow is allowed. To register a client ID, you must create the following site settings:
 
 |Site setting|Value|
 |------|------|
-|ImplicitGrantFlow/RegisteredClientId|The valid client ID values that are allowed for this portal. The values must be separated by a semicolon and can contain alphanumeric characters and hyphens. The maximum length is 36 characters.|
-|ImplicitGrantFlow/{ClientId}/RedirectUri|The valid redirect URIs that are allowed for a specific client ID. The values must be separated by a semicolon. The URL provided must be of a valid web page of the portal.|
+|ImplicitGrantFlow/RegisteredClientId|The valid client ID values that are allowed for this site. The values must be separated by a semicolon and can contain alphanumeric characters and hyphens. The maximum length is 36 characters.|
+|ImplicitGrantFlow/{ClientId}/RedirectUri|The valid redirect URIs that are allowed for a specific client ID. The values must be separated by a semicolon. The URL provided must be of a valid web page of the website.|
 |||
 
 ## Sample code
 
-You can use the following sample code to get started with using OAuth 2.0 Implicit Grant with Power Apps portals APIs.
+You can use the following sample code to get started with using OAuth 2.0 Implicit Grant with Power Pages APIs.
 
-### Use Portal OAuth token with an external Web API
+### Use Power Pages OAuth token with an external Web API
 
-This sample is an ASP.NET based project and is used to validate the ID token issued by Power Apps portals. The complete sample can be found here: [Use Portal OAuth token with an external Web API](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/ExternalWebApiConsumingPortalOAuthTokenSample).
+This sample is an ASP.NET based project and is used to validate the ID token issued by Power Pages. The complete sample can be found here: [Use Power Pages OAuth token with an external Web API](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/ExternalWebApiConsumingPortalOAuthTokenSample).
 
 ### Token Endpoint sample
 
-This sample shows how you can use the getAuthenticationToken function to fetch an ID token using the Token endpoint in Power Apps portals. The sample can be found here: [Token Endpoint sample](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js).
+This sample shows how you can use the getAuthenticationToken function to fetch an ID token using the Token endpoint in Power Pages. The sample can be found here: [Token Endpoint sample](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js).
 
