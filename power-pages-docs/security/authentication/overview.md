@@ -1,5 +1,5 @@
 ---
-title: Configure authentication in Power Pages
+title: Overview of authentication in Power Pages
 description: Learn how to configure authentication in Power Pages and review common identity providers.
 author: nickdoelman
 
