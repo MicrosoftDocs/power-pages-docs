@@ -5,7 +5,7 @@ author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/7/2023
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
@@ -78,5 +78,5 @@ For example, Azure AD provides [Microsoft Authentication Library](/azure/active-
 Yes. Portals supports any OpenID Connect provider that supports the standard [OpenID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
 
 ### See also
-
-[Configure an OpenID Connect provider for portals](configure-openid-provider.md)
+ 
+[Configure an OpenID Connect provider for Power Pages](openid-provider.md)
