@@ -24,7 +24,7 @@ A *content delivery network* is a distributed network of servers that can effici
 When you enable Content Delivery Network on your portal, static content&mdash;like images, scripts, and style sheet files used to design your portal website&mdash;will be stored and served from the Content Delivery Network server closest to your location.  
 
 > [!NOTE] 
-> - You need to be a [portal administrator](/power-apps/maker/portals/admin/portal-admin-roles#required-roles-and-permissions) to enable Content Delivery Network. This feature is available for Power Pages. If you're using the legacy Add-on license, you can't enable Content Delivery Network. Trial websites aren't supported for Content Delivery Network. 
+> - You need to be a [website administrator](/power-apps/maker/portals/admin/portal-admin-roles#required-roles-and-permissions) to enable Content Delivery Network. This feature is available for Power Pages. If you're using the legacy Add-on license, you can't enable Content Delivery Network. Trial websites aren't supported for Content Delivery Network. 
 > - [Restricting website access by IP address](../admin/ip-address-restrict.md) on a site is currently not supported with using Content Delivery Network.
 > - This service is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), and UAE region.
 
