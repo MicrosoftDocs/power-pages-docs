@@ -16,7 +16,7 @@ contributors:
 
 # Configure the Google provider for Power Pages
 
-As explained in [Configure an OAuth 2.0 provider](/power-apps/maker/portals/configure/configure-oauth2-provider), Google is one of several identity providers that use the OAuth 2.0 protocol. To configure Google as the identity provider, begin by selecting **Configure** from the [provider settings](/power-apps/maker/portals/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider)  page.
+As explained in [Configure an OAuth 2.0 provider](/power-apps/maker/portals/configure/configure-oauth2-provider), Google is one of several identity providers that use the OAuth 2.0 protocol. To configure Google as the identity provider, begin by selecting **Configure** from the [provider settings](/power-apps/maker/portals/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) page.
 
 ## Step 1. Create a Google app
 
