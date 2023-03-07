@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/7/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -42,9 +42,9 @@ To provide external authentication, you can add one or more [SAML 2.0](https://d
 
     | Name | Description |
     | - | - |
-    | Metadata address | The SAML 2.0 identity provider metadata file location. <br> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/federationmetadata/2007-06/federationmetadata.xml` |
-    | Authentication type | The Entity Id value that specifies a globally unique name for the SAML 2.0 identity provider. <br> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/` |
-    | Service provider realm | The portal URL that specifies the service provider realm for the SAML 2.0 identity provider. <br> Example: `https://contoso-portal.powerappsportals.com/` |
+    | Metadata address | The SAML 2.0 identity provider metadata file location. <br /> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/federationmetadata/2007-06/federationmetadata.xml` |
+    | Authentication type | The Entity Id value that specifies a globally unique name for the SAML 2.0 identity provider. <br /> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/` |
+    | Service provider realm | The portal URL that specifies the service provider realm for the SAML 2.0 identity provider. <br /> Example: `https://contoso-portal.powerappsportals.com/` |
     | Assertion consumer service URL | The portal URL that corresponds to the service provider's endpoint (URL). This URL is responsible for receiving and parsing a SAML assertion. <br> Example: `https://contoso-portal.powerappsportals.com/signin-saml_1`  <br> **Note**: If you're using the default portal URL, you can copy and paste the **Reply URL** as shown in the **Create and configure SAML 2.0 provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the **Redirect URI** value for the application in the identity provider configuration (such as Azure portal). |
 
 1. Select **Next**.
@@ -65,7 +65,8 @@ See [Edit a provider](use-simplified-authentication-configuration.md#edit-a-prov
 
 ### See also
 
-[Configure a SAML 2.0 provider for portals with Azure AD](configure-saml2-settings-azure-ad.md)  
-[Configure a SAML 2.0 provider for portals with AD FS](configure-saml2-settings.md)  
-[FAQ for using SAML 2.0 in portals](configure-saml2-faqs.md)  
+[Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
+[Configure a SAML 2.0 provider for portals with AD FS](saml2-settings.md)
+[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
+
 
