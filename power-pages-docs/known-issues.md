@@ -191,6 +191,7 @@ Here's how to enable cookies if your browser is blocking them:
 1. Under Cookies and website data, select Always allow.
 
 1. Select Close and refresh the browser. 
+
 ---
 
 ## Power Apps portals Studio issues
