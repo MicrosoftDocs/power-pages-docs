@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/7/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -80,11 +80,7 @@ In this article, you'll learn about configuring an OpenID Connect provider for p
 
     1. **Client ID**: Copy the **Application (client) ID** from the Azure portal as the client ID.
 
-        ![Authority and Client ID.](media/authentication/authority-client-id.png "Authority and Client ID")
-
     1. **Redirect URL**: Confirm that the **Redirect URL** site setting value is the same as the **Redirect URI** that you set in the Azure portal earlier.
-
-        ![Confirm redirect URL.](media/authentication/redirect-uri-azure-power-apps.png "Confirm redirect URL")
 
         > [!NOTE]
         > If you're using the default portal URL, you can copy and paste the **Reply URL** as shown in the **Create and configure OpenID Connect provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the value you entered as the **Redirect URI** in the Azure portal earlier.
@@ -141,5 +137,5 @@ This site setting is a wildcard-based filter that matches on all issuers across 
 
 ### See also
 
-[FAQ for using OpenID Connect in portals](configure-openid-faqs.md)
+[FAQs for using OpenID Connect in portals](openid-faqs.md)
 
