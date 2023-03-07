@@ -199,7 +199,7 @@ A Power Pages website in private mode won't work when you disable Azure Active D
 
 ## Power Pages design studio issues
 
-### Images not displaying in Power Pages Design Studio
+### Images not displaying in Power Pages design studio
 
 If third party cookies are disabled in your browser, images will not display in Power Pages design studio. To correct this known issue, you need to enable cookies in your browser. 
 
