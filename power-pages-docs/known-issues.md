@@ -135,65 +135,6 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
     <a aria-label="{{ link.name | escape }}" {% if link.Open_In_New_Window %} target="_blank" {% endif %} href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
     ```
 
-## Power Pages Design Studio issues
-
-### Images not displaying in design studio
-
-If third party cookies are disabled in your browser, images will not display in Power Pages design studio. To correct this known issue, you need to enable cookies in your browser. 
-
-Here's how to enable cookies if your browser is blocking them:
-
-# [Edge (Windows 10)](#tab/Edge)
-
-1. In the Edge window, select More (...) > Settings > View advanced settings.
-
-1. Scroll down to Cookies, and select Don't block cookies
-
-# [Internet Explorer](#tab/IE)
-
-1. In Internet Explorer, in the menu bar, selectTools Tools button in Internet Explorer, upper right corner > Internet options > Privacy > Advanced.
-
-1. Select Accept or Prompt under First-party Cookies, and Accept or Prompt under Third-party Cookies.
-
-1. Select OK.
-
-# [Chrome](#tab/Chrome)
-
-1. In a Chrome window, do one of the following:
-
-    - In the browser address box, enter chrome://settings/content.
-
-        OR
-
-    - On the Chrome menu, select Settings > Show advanced settings, and then under Privacy, select Content settings.
-
-1. In the Content settings dialog box, under Cookies, make sure Allow local data to be set (recommended) is selected.
-
-1. Select Done and refresh the browser.
-
-# [Mozilla Firefox](#tab/Firefox)
-
-1. If you’re using Windows, in the Firefox window, select Open menu Firefox browser options menu > Options.
-
-    > [!TIP]  
-    > If you’re using a Mac, go to Firefox > Preferences.
-
-1. Select the Privacy tab.
-
-1. In the History section under Firefox will, select Use custom settings for history.
-
-1. Make sure Accept cookies from sites is checked and Accept third party cookies is set to Always, and then select OK.
-
-# [Safari](#tab/Safari)
-
-1. On your Mac, go to Safari > Preferences > Privacy.
-
-1. Under Cookies and website data, select Always allow.
-
-1. Select Close and refresh the browser. 
-
----
-
 ## Power Apps portals Studio issues
 
 > [!NOTE]
@@ -250,6 +191,65 @@ Here's how to enable cookies if your browser is blocking them:
 - Power Apps portals Studio is currently not supported on Safari in Mac operating system and has the following issues:
     - The selection of component isn't correct and hovering on a component provides incorrect target indication.
     - Two or three column sections don't render properly in Power Apps portals Studio but works fine on the website.
+
+## Power Pages Design Studio issues
+
+### Images not displaying in Power Pages Design Studio
+
+If third party cookies are disabled in your browser, images will not display in Power Pages design studio. To correct this known issue, you need to enable cookies in your browser. 
+
+Here's how to enable cookies if your browser is blocking them:
+
+# [Edge (Windows 10)](#tab/Edge)
+
+1. In the Edge window, select More (...) > Settings > View advanced settings.
+
+1. Scroll down to Cookies, and select Don't block cookies
+
+# [Internet Explorer](#tab/IE)
+
+1. In Internet Explorer, in the menu bar, selectTools Tools button in Internet Explorer, upper right corner > Internet options > Privacy > Advanced.
+
+1. Select Accept or Prompt under First-party Cookies, and Accept or Prompt under Third-party Cookies.
+
+1. Select OK.
+
+# [Chrome](#tab/Chrome)
+
+1. In a Chrome window, do one of the following:
+
+    - In the browser address box, enter chrome://settings/content.
+
+        OR
+
+    - On the Chrome menu, select Settings > Show advanced settings, and then under Privacy, select Content settings.
+
+1. In the Content settings dialog box, under Cookies, make sure Allow local data to be set (recommended) is selected.
+
+1. Select Done and refresh the browser.
+
+# [Mozilla Firefox](#tab/Firefox)
+
+1. If you’re using Windows, in the Firefox window, select Open menu Firefox browser options menu > Options.
+
+    > [!TIP]  
+    > If you’re using a Mac, go to Firefox > Preferences.
+
+1. Select the Privacy tab.
+
+1. In the History section under Firefox will, select Use custom settings for history.
+
+1. Make sure Accept cookies from sites is checked and Accept third party cookies is set to Always, and then select OK.
+
+# [Safari](#tab/Safari)
+
+1. On your Mac, go to Safari > Preferences > Privacy.
+
+1. Under Cookies and website data, select Always allow.
+
+1. Select Close and refresh the browser. 
+
+---
 
 ### See also
 
