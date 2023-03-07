@@ -99,7 +99,7 @@ Select **...** to the left of **Site Actions** for more site actions.
 
 | Action | More Information |
 | - | - |
-| Content Delivery Network | See [Content Delivery Network](/power-apps/maker/portals/configure/configure-cdn) |
+| Content Delivery Network | See [Content Delivery Network](../configure/configure-cdn.md) |
 | Web Application Firewall | |
 
 ## Services
