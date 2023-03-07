@@ -83,7 +83,61 @@ You can preview the webpages using design studio, but you can't add or modify se
 
 Instead, use tools such as [Portals Management app](configure/portal-management-app.md) or [Visual Studio Code](configure/cli-tutorial.md) to edit the underlying [web templates](configure/store-content-web-templates.md) and configure them for your unique needs.
 
-## Images not displaying in design studio
+## General issues
+
+- You receive the following error message when configuring or using table fields:
+
+    ***Field Name**: You have exceeded the maximum number of X characters in this field.*
+
+    This can happen if the referenced field for the table exceeds characters limit mentioned in the error. To increase this limit, go to the Data workspace, select the table, select the field, choose **Edit column**. In the Advanced options, increase the **Maximum character count** field value to a higher value. Allowed values: 1 through 1,048,576. 
+
+    Fields where limit may need to be increased:
+
+    | Table | Field Display Name |
+    | - | - |
+    | Basic Form | Settings (adx_settings) |
+    | List | View (adx_views) |
+    | Basic Form Metadata | Subgrid Setting (adx_subgrid_settings) |
+    | Web Page | Copy (adx_copy) |
+
+- The **Modified Date** for the app might be incorrect because these apps are pre-provisioned apps and could have been provisioned earlier.
+
+- When you create an environment along with the starter portal, the owner of the site isn't displayed correctly. It's displayed as System.
+
+- If you're reusing the URL of a recently deleted site to create a new site, it will have some delay for runtime to setup. This experience happens because the purge of previous resources would still be in progress and may take from 30 minutes to 1 hour for the new site to setup on Azure. The site will also not be available for editing during this time and may show errors when launched in studio for editing.
+
+- When switching an environment in Power Apps, the sites within an environment may not show up immediately in **Apps** or **Recent Apps** list. This experience happens particularly on environments that are created in a different region than their tenant. The workaround is to use browser refresh or wait for some time for the site to show up in the apps list. You will be able to view all sites in an environment from the [Power Pages home page](https://aka.ms/mpp).
+
+- If you keep the portal settings pane open in Power Apps home page while resetting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center, a user will see the "Something went wrong" error message in the portal settings pane, as the site is no longer available.
+
+- In certain cases, when you create a new site, the styles aren't applied properly to the site, and the website is displayed without the styles when opened through **Browse website**. This behavior rarely happens and styles can be recovered by restarting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center.
+
+- When configuring a [basic form](/power-apps/maker/portals/configure/entity-forms) using the [Portals Management app](configure/portal-management-app.md), the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form. When creating a form in [Data workspace](getting-started/use-data-workspace.md), you will only be presented with the **Main** form.
+
+- By default, Power Pages sites uses the **Azure Active Directory Graph API** for the portal's [Azure app registration](/power-apps/maker/portals/admin/connectivity) which is currently deprecated. Power Pages will use the [Microsoft Graph API](/graph/use-the-api/) in a future update, so no administrator intervention is required. If the existing Azure Active Directory Graph API permission is replaced manually using the Microsoft Graph API, it will revert back to the Azure Active Directory Graph API when you [Enable or Disable SharePoint integration](/power-apps/maker/portals/manage-sharepoint-documents#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center) from the Power Pages hub in the Power Platform admin center.
+
+    :::image type="content" source="media/known-issues/azure-ad-graph-api.png" alt-text="Azure AD Graph API configuration.":::
+
+- When configuring the *Open in New Window* setting on the **Profile** [web link](/power-apps/maker/portals/configure/manage-web-links), the profile page will not open in a new window. To resolve this issue, update the **Header** [web template](/power-apps/maker/portals/liquid/store-content-web-templates) by updating the [Liquid](/power-apps/maker/portals/liquid/liquid-overview) code in the `{% if profile_nav %}` section.
+
+    :::image type="content" source="media/known-issues/profile-weblink.png" alt-text="Showing line of code to update in the header web template.":::
+
+    > [!NOTE]
+    > Make a backup of the **Header** web template before performing these steps.
+
+    Replace this line of code:
+
+    ```html
+    <a aria-label="{{ link.name | escape }}" href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
+    ```
+    with this line:
+    ```html
+    <a aria-label="{{ link.name | escape }}" {% if link.Open_In_New_Window %} target="_blank" {% endif %} href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
+    ```
+
+## Power Pages Design Studio issues
+
+### Images not displaying in design studio
 
 If third party cookies are disabled in your browser, images will not display in Power Pages design studio. To correct this known issue, you need to enable cookies in your browser. 
 
@@ -137,59 +191,6 @@ Here's how to enable cookies if your browser is blocking them:
 1. Under Cookies and website data, select Always allow.
 
 1. Select Close and refresh the browser. 
-
-
-## General issues
-
-- You receive the following error message when configuring or using table fields:
-
-    ***Field Name**: You have exceeded the maximum number of X characters in this field.*
-
-    This can happen if the referenced field for the table exceeds characters limit mentioned in the error. To increase this limit, go to the Data workspace, select the table, select the field, choose **Edit column**. In the Advanced options, increase the **Maximum character count** field value to a higher value. Allowed values: 1 through 1,048,576. 
-
-    Fields where limit may need to be increased:
-
-    | Table | Field Display Name |
-    | - | - |
-    | Basic Form | Settings (adx_settings) |
-    | List | View (adx_views) |
-    | Basic Form Metadata | Subgrid Setting (adx_subgrid_settings) |
-    | Web Page | Copy (adx_copy) |
-
-- The **Modified Date** for the app might be incorrect because these apps are pre-provisioned apps and could have been provisioned earlier.
-
-- When you create an environment along with the starter portal, the owner of the site isn't displayed correctly. It's displayed as System.
-
-- If you're reusing the URL of a recently deleted site to create a new site, it will have some delay for runtime to setup. This experience happens because the purge of previous resources would still be in progress and may take from 30 minutes to 1 hour for the new site to setup on Azure. The site will also not be available for editing during this time and may show errors when launched in studio for editing.
-
-- When switching an environment in Power Apps, the sites within an environment may not show up immediately in **Apps** or **Recent Apps** list. This experience happens particularly on environments that are created in a different region than their tenant. The workaround is to use browser refresh or wait for some time for the site to show up in the apps list. You will be able to view all sites in an environment from the [Power Pages home page](https://aka.ms/mpp).
-
-- If you keep the portal settings pane open in Power Apps home page while resetting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center, a user will see the "Something went wrong" error message in the portal settings pane, as the site is no longer available.
-
-- In certain cases, when you create a new site, the styles aren't applied properly to the site, and the website is displayed without the styles when opened through **Browse website**. This behavior rarely happens and styles can be recovered by restarting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center.
-
-- When configuring a [basic form](/power-apps/maker/portals/configure/entity-forms) using the [Portals Management app](configure/portal-management-app.md), the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form. When creating a form in [Data workspace](getting-started/use-data-workspace.md), you will only be presented with the **Main** form.
-
-- By default, Power Pages sites uses the **Azure Active Directory Graph API** for the portal's [Azure app registration](/power-apps/maker/portals/admin/connectivity) which is currently deprecated. Power Pages will use the [Microsoft Graph API](/graph/use-the-api/) in a future update, so no administrator intervention is required. If the existing Azure Active Directory Graph API permission is replaced manually using the Microsoft Graph API, it will revert back to the Azure Active Directory Graph API when you [Enable or Disable SharePoint integration](/power-apps/maker/portals/manage-sharepoint-documents#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center) from the Power Pages hub in the Power Platform admin center.
-
-    :::image type="content" source="media/known-issues/azure-ad-graph-api.png" alt-text="Azure AD Graph API configuration.":::
-
-- When configuring the *Open in New Window* setting on the **Profile** [web link](/power-apps/maker/portals/configure/manage-web-links), the profile page will not open in a new window. To resolve this issue, update the **Header** [web template](/power-apps/maker/portals/liquid/store-content-web-templates) by updating the [Liquid](/power-apps/maker/portals/liquid/liquid-overview) code in the `{% if profile_nav %}` section.
-
-    :::image type="content" source="media/known-issues/profile-weblink.png" alt-text="Showing line of code to update in the header web template.":::
-
-    > [!NOTE]
-    > Make a backup of the **Header** web template before performing these steps.
-
-    Replace this line of code:
-
-    ```html
-    <a aria-label="{{ link.name | escape }}" href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
-    ```
-    with this line:
-    ```html
-    <a aria-label="{{ link.name | escape }}" {% if link.Open_In_New_Window %} target="_blank" {% endif %} href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
-    ```
 
 ## Power Apps portals Studio issues
 
