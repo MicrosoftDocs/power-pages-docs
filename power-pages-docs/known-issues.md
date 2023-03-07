@@ -83,6 +83,63 @@ You can preview the webpages using design studio, but you can't add or modify se
 
 Instead, use tools such as [Portals Management app](configure/portal-management-app.md) or [Visual Studio Code](configure/cli-tutorial.md) to edit the underlying [web templates](configure/store-content-web-templates.md) and configure them for your unique needs.
 
+## Images not displaying in design studio
+
+If third party cookies are disabled in your browser, images will not display in Power Pages design studio. To correct this known issue, you need to enable cookies in your browser. 
+
+Here's how to enable cookies if your browser is blocking them:
+
+### Edge (Windows 10)
+
+1. In the Edge window, select More (...) > Settings > View advanced settings.
+
+1. Scroll down to Cookies, and select Don't block cookies
+
+### Internet Explorer
+
+1. In Internet Explorer, in the menu bar, selectTools Tools button in Internet Explorer, upper right corner > Internet options > Privacy > Advanced.
+
+1. Select Accept or Prompt under First-party Cookies, and Accept or Prompt under Third-party Cookies.
+
+1. Select OK.
+
+### Chrome
+
+1. In a Chrome window, do one of the following:
+
+    - In the browser address box, enter chrome://settings/content.
+
+        OR
+
+    - On the Chrome menu, select Settings > Show advanced settings, and then under Privacy, select Content settings.
+
+1. In the Content settings dialog box, under Cookies, make sure Allow local data to be set (recommended) is selected.
+
+1. Select Done and refresh the browser.
+
+### Mozilla Firefox
+
+1. If you’re using Windows, in the Firefox window, select Open menu Firefox browser options menu > Options.
+
+    > [!TIP]  
+    > If you’re using a Mac, go to Firefox > Preferences.
+
+1. Select the Privacy tab.
+
+1. In the History section under Firefox will, select Use custom settings for history.
+
+1. Make sure Accept cookies from sites is checked and Accept third party cookies is set to Always, and then select OK.
+
+### Safari
+
+1. On your Mac, go to Safari > Preferences > Privacy.
+
+1. Under Cookies and website data, select Always allow.
+
+1. Select Close and refresh the browser. 
+
+
+
 ## General issues
 
 - You receive the following error message when configuring or using table fields:
