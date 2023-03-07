@@ -41,7 +41,7 @@ The details of an authentication key are displayed on Power Platform admin cente
 
 1. Sign in to the website with a user that is assigned the administrator [webrole](../security/create-web-roles.md).
 
-1. Navigate to the URL <website_path>/_services/about. The authentication key expiration date is displayed. 
+1. Navigate to the URL `<website_path>/_services/about`. The authentication key expiration date is displayed. 
 
     :::image type="content" source="media/auth-key/services-page.png" alt-text="Website services page.":::
 
@@ -84,7 +84,7 @@ A message about key expiration is displayed at the top of the page.
 
 ### Website
 
-When you navigate to the URL <website_path>/_services/about, a notification about key expiration is displayed at the bottom of the page.
+When you navigate to the URL `<website_path>/_services/about`, a notification about key expiration is displayed at the bottom of the page.
 
 > [!NOTE]
 > You must sign in to your website in the same browser session, and you must be assigned all website access permission.

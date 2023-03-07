@@ -150,6 +150,8 @@
               href: admin/site-checker-startup-issue.md
             - name: Provisioning issues
               href: admin/site-checker-provisioning-issues.md       
+    - name: Manage website authentication key
+      href: admin/manage-auth-key.md
     - name: Update, upgrade, migrate and convert websites
       items:
         - name: Convert a website
