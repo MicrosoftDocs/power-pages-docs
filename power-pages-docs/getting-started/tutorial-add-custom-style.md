@@ -23,7 +23,7 @@ In this tutorial, you'll learn how to:
 
 > [!div class="checklist"]
 > * Upload a custom CSS file
-> * Edit CSS is Visual Studio Code for the Web
+> * Edit CSS in Visual Studio Code for the Web
 
 ## Prerequisites
 
