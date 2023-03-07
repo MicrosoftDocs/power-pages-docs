@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/7/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -67,5 +67,5 @@ See [Edit a provider](use-simplified-authentication-configuration.md#edit-a-prov
 
 ### See also
 
-[Configure a WS-Federation provider for portals with Azure AD](configure-ws-federation-settings-azure-ad.md)  
-[Configure a WS-Federation provider for portals with AD FS](configure-ws-federation-settings.md)
+[Configure a WS-Federation provider for Power Pages with Azure AD](ws-federation-settings-azure-ad.md)
+[Configure a WS-Federation provider for portals with AD FS](ws-federation-settings.md)
