@@ -6,7 +6,7 @@ author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/07/2023
-ms.subservice: portals
+ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
