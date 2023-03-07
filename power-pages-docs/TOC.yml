@@ -126,6 +126,8 @@
       href: admin/portal-consumption-reports.md
     - name: Update solution
       href: admin/update-solution.md
+    - name: Restrict IP addresses
+      href: admin/ip-address-restrict.md      
     - name: Diagnostics and error handling  
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy
