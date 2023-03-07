@@ -5,7 +5,7 @@ author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/7/2023
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
@@ -49,6 +49,7 @@ Yes.  Use the [Power Platform admin center](../admin/manage-custom-certificates.
 
 ### See also
 
-[Configure a SAML 2.0 provider for portals with Azure AD](configure-saml2-settings-azure-ad.md)  
-[Configure a SAML 2.0 provider for portals with AD FS](configure-saml2-settings.md)  
-[Configure a SAML 2.0 provider for portals](configure-saml2-provider.md)  
+[Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
+[Configure a SAML 2.0 provider for portals with AD FS](saml2-settings.md)
+[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
+
