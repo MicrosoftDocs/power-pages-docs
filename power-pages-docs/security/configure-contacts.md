@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/8/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -22,7 +22,7 @@ Fill out the basic information for a contact (or having a user fill out the sign
 To configure a contact for Power Pages by using local authentication, follow these instructions:  
 
 > [!IMPORTANT]
-> - We recommend that you use the [Azure Active Directory B2C (Azure AD B2C)](configure-azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your portal. More information: [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
+> - We recommend that you use the [Azure Active Directory B2C (Azure AD B2C)](authentication/azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your portal. More information: [Migrate identity providers to Azure AD B2C](authentication/migrate-identity-providers.md)
 
 Complete the change password workflow, and the necessary fields will be automatically configured. When you've taken these steps, your contact will be configured for your portals.
 
