@@ -45,24 +45,28 @@ In this tutorial, you learn how to:
 
 ## Create a multistep form 
 
-In the steps below, we'll create a multistep form, this example follows a simple process to apply for a scholarship, but the concepts can be applied to other business processes. 
+In the steps below, we'll create a multistep form, this example follows a simple process to apply for a scholarship, but you can apply the concepts to other business processes. 
 
-Here is an outline of the sample steps:
+Here's an outline of the sample steps:
 
 | Step | Description |
 | - | - |
 | 1 | Select the scholarship to apply for and enter the applicants name. |
-| 2 | Fill in details about the applicant. |
-| 3 | Gather some additional details. Later in the tutorial, we will make this step conditional based on information from step 2. |
-| 4 | Collect final sign-off consent from the user. |
+| 2 | Fill-in details about the applicant. |
+| 3 | Gather some more details. Later in the tutorial, we'll make this step conditional based on information from step 2. |
+| 4 | Collect final sign out consent from the user. |
 
 ### Create Dataverse tables and forms to use in the multistep form
 
-We will need to store our information of our process in Microsoft Dataverse tables. 
+The following video shows how to create forms to use in the multistep form process.
 
-For each step of the process that requires a user to create or update columns on a Dataverse record, you will need to have a corresponding Dataverse form.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPf]
 
-In our example, we will create a Dataverse table called *Applications* for our process. For more information on how to create Dataverse tables, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
+We'll need to store our information of our process in Microsoft Dataverse tables. 
+
+For each step of the process that requires a user to create or update columns on a Dataverse record, you'll need to have a corresponding Dataverse form.
+
+In our example, we'll create a Dataverse table called *Applications* for our process. For more information on how to create Dataverse tables, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -78,11 +82,11 @@ In our example, we will create a Dataverse table called *Applications* for our p
     | Column name | Column data type |
     | - | - |
     | Applicant name | Text (rename *name* column) |
-    | Scholarship | Choice (example choices: *American Architect Scholarship*,*Foreign Language Scholarship*,*Women in STEM Scholarship*,*Future Design Leaders Scholarship*) |
+    | Scholarship | Choice (example choices: *American Architect Scholarship*, *Foreign Language Scholarship*,*Women in STEM Scholarship*, *Future Design Leaders Scholarship*) |
     | Class Level | Choice (choices: *Junior*, *Senior*) |
     | Consent | Yes/No |
     | Cost of Tuition | Currency |
-    | Degree Type | Choice (choices: *Masters*, *Bachelor* )
+    | Degree Type | Choice (choices: *Masters*, *Bachelor*)
     | Fulltime | Yes/No |
     | Major | Text |
     | Other Scholarships | Multiple lines of text |
@@ -90,7 +94,7 @@ In our example, we will create a Dataverse table called *Applications* for our p
     :::image type="content" source="media/tutorial-multistep-forms/create-table.png" alt-text="Creating a table to use with multistep forms in Data workspace.":::
 
 
-1. Once you have created the tables, you will need to create forms for each step of your process. 
+1. Once you've created the tables, you'll need to create forms for each step of your process. 
 
     > [!TIP]
     > - See [How to create and modify Dataverse forms by using the Data workspace](../configure/data-workspace-forms.md) on how to create Dataverse forms.
@@ -102,7 +106,7 @@ In our example, we will create a Dataverse table called *Applications* for our p
     | Form name | Columns on form |
     | - | - |
     | Application Step 1 | Scholarship, Applicant name |
-    | Application Step 2 | Scholarship (read-only), Applicant name (read-only), Degree Type, Major, Fulltime, Class Level, Stem |
+    | Application Step 2 | Scholarship (read-only), Applicant name (read-only), Degree Type, Major, Full-time, Class Level, Stem |
     | Application Step 3 | Scholarship (read-only), Applicant name (read-only), Cost of Tuition, Other Scholarships |
     | Application Step 4 | Scholarship (read-only), Applicant name (read-only), Consent |
 
@@ -116,13 +120,17 @@ In our example, we will create a Dataverse table called *Applications* for our p
 
 Now that we have our table and forms, we can create a multistep form on a webpage.
 
+This video shows how to create a multistep form on a page.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPg]
+
 1. Go to the **Pages** workspace and add a new page or edit an existing page. For more information on creating webpages, see [Create and design pages](first-page.md).
 
 1. Add a new section and select the **Multistep form** component. 
 
-    If other multistep forms exist on your site, you will be given the option to add them to your page. In our example, we will create a new multistep form for our tutorial, Select **+ New multistep form** from the dialog.
+    If other multistep forms exist on your site, you'll be given the option to add them to your page. In our example, we'll create a new multistep form for our tutorial, Select **+ New multistep form** from the dialog.
 
-1. You will see the **Add a multistep** form window. Enter in **Application** (or other name) for the **Form name**. Select **OK**.
+1. You'll see the **Add a multistep** form window. Enter in **Application** (or other name) for the **Form name**. Select **OK**.
 
 1. There will be no steps in the form. Select **+ Add the first step** to add the first step.
 
@@ -132,21 +140,21 @@ Now that we have our table and forms, we can create a multistep form on a webpag
 
     - In the **Step name** field, enter **Application Step 1**.
     - In the **Choose a table** field select **Application** (or whatever you named your table).
-    - In the **Select a form** field select **Application Step 1** .
+    - In the Select a form field, select **Application Step 1** .
 
-1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Create a new record**. In our example for the first step we will be creating a new record in the Dataverse table. Note that in subsequent steps we will be modifying the record created in the first step and this option will be different. 
+1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Create a new record**. In our example for the first step we'll be creating a new record in the Dataverse table. Note that in subsequent steps we'll be modifying the record created in the first step and this option will be different. 
 
 1. Select **OK**.
 
-1. We will begin to add additional steps. From the menu, select **+ Add step**.
+1. We'll begin to add more steps. From the menu, select **+ Add step**.
 
 1. In the **Add step** window, enter the following values for the second step:
 
     - In the **Step name** field, enter **Application Step 2**.
     - In the **Choose a table** field the **Application** table (or whatever you named your table) should already be selected.
-    - In the **Select a form** field select **Application Step 2** .
+    - In the Select a form field, select **Application Step 2** .
 
-1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Update an existing record**. In our example for the second step will continue to add details to the Dataverse record created in the first step.
+1. Choose the **More options** side tab and note that the **Data from this form:** option is automatically set to **Update an existing record**. In our example for, the second step will continue to add details to the Dataverse record created in the first step.
 
     > [!NOTE]
     > Depending on your unique processes, you may be creating or updating different Dataverse records at different steps in the process.
@@ -173,7 +181,11 @@ You can modify some of the field properties on your multistep form in the design
 
 ### Add table permission
 
-By default, visitors to the site will not be able to access the multistep form. In our example, we would only want to allow authenticated users to fill in the multistep form. You can use a combination of web roles and table permissions to configure create, read, and update data actions for your own multistep process.
+By default, visitors to the site won't be able to access the multistep form. In our example, we would only want to allow authenticated users to fill in the multistep form. You can use a combination of web roles and table permissions to configure create, read, and update data actions for your own multistep process.
+
+This video shows how to configure table permissions for multistep forms.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fOuI]
 
 For new forms, a banner will appear prompting you to add permissions. 
 
@@ -181,7 +193,7 @@ If you have already configured permissions for the table used in your multistep 
 
 1. Select **+ New permission**.
 
-1. The table permission is provided a name, the table selected and the **Access type** set to **Global access** by default. The **Write** and **Create** permissions will be selected so site visitors can use the form.
+1. The table permission provides a name, the table selected and the **Access type** set to **Global access** by default. The **Write** and **Create** permissions will be selected so site visitors can use the form.
 
 1. Select **+ Add roles** and select **Authenticated Users** as the default role. 
 
@@ -203,7 +215,7 @@ At this point you can try out your multistep form.
 
 1. If you encounter any issues, review the configuration in design studio and review each step.
 
-1. Once you have successfully submitted the form, return to the design studio.
+1. Once you've successfully submitted the form, return to the design studio.
 
 1. Select **Data**, then select the **Application** table (or whatever you had named your table) and confirm that you can see that records were created using the multistep form process.
 
@@ -213,7 +225,7 @@ If you need to add conditional logic to your multistep form, you first need to i
 
 In our example below, we'll check to see if an applicant is pursuing a Masters degree. If a user is pursuing an advanced degree, they'll be directed to extra steps. Other applicants will skip that step. Feel free to add a condition based on your own business processes.
 
-We will evaluate whether the **Degree Type** field has a value of **Bachelor** or **Master**, represented by the logical name of the field `craxx_degreetype` and the choice values (Master = '124860001').
+We'll evaluate whether the **Degree Type** field has a value of **Bachelor** or **Master**, represented by the logical name of the field `craxx_degreetype` and the choice values (Master = '124860001').
 
 Conditional steps are configured in the [Portal Management app](../configure/portal-management-app.md).
 
@@ -225,19 +237,19 @@ Conditional steps are configured in the [Portal Management app](../configure/por
 
 1. Select **+ New Form Step**.
 
-1. Give the step a name (e.g. *Check degree type*).
+1. Give the step a name (for example, *Check degree type*).
 
 1. Specify the configurations.
 
     - Set **Type** to **Condition**.
     - Select the *application* table from the **Target Table name** drop-down menu.
-    :::image type="content" source="media/tutorial-multistep-forms/form-type-condition.png" alt-text="Set configurations for an multistep form step of type condition.":::
+    :::image type="content" source="media/tutorial-multistep-forms/form-type-condition.png" alt-text="Set configurations for a multistep form step of type condition.":::
 
-1. Select the **Condition** tab and enter the condition using the logical column name and a value. In our example, we would something similar to `craxx_degreetype == 124860001` (You need to specify your logical name and value from your own environment.)
+1. Select the **Condition** tab and enter the condition using the logical column name and a value. In our example, we would have something similar to `craxx_degreetype == 124860001` (You need to specify your logical name and value from your own environment.)
 
     :::image type="content" source="media/tutorial-multistep-forms/form-specify-condition.png" alt-text="Text entry field for a condition on a multiform step.":::
 
-1. We need set up the process to go to a step if the condition is not met. Select **Application Step 4** in the **Next Step If Condition Fails** field.
+1. We need set up the process to go to a step if the condition isn't met. Select **Application Step 4** in the **Next Step If Condition Fails** field.
 
 1. Now we need to set up the process to go a specific step if the condition is met. Select the **General** tab.
 
@@ -255,7 +267,7 @@ Conditional steps are configured in the [Portal Management app](../configure/por
 
 ## Add a redirect step to your multistep form
 
-We will also add a redirect step at the end of the process to navigate the user back to the home page.
+We'll also add a redirect step at the end of the process to navigate the user back to the home page.
 
 1. Select **+ New Form Step** and fill in the following configuration:
     - Set the **Name** to *Go to home page**
