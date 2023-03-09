@@ -147,6 +147,10 @@ Two table permission records are required to establish the necessary access to v
 > [!NOTE]
 > A corresponding child table permission on the **Document Location** table needs to be created for each instance of the parent table permission record that exists on the table of the table or multistep form where documents need to be shown.
 
+The form on the webpage will show a listing of files and folders. Depending on table permissions, there will the ability to **Add files**, **New folder**, and **Delete**.
+
+:::image type="content" source="media/sharepoint/sharepoint-documents-webpage.png" alt-text="SharePoint document storage on a page.":::
+
 ## Configure file upload size
 
 By default, the file size is set to 10 MB. However, you can configure the file size to a maximum of 50 MB by using the site setting `SharePoint/MaxUploadSize`.
