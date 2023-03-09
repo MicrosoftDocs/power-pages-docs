@@ -42,7 +42,7 @@ The following table lists common identity providers, the protocol that can be us
 | Facebook | OAuth 2.0 | [Configure the Facebook provider for portals](oauth2-facebook.md)|
 | Google | OAuth 2.0 | [Configure the Google provider for portals](oauth2-google.md)|
 | Twitter | OAuth 2.0 | [Configure the Twitter provider for portals](oauth2-twitter.md)|
-| Local authentication<br />(not recommended) | Not applicable | Local authentication |
+| Local authentication<br />(not recommended) | Not applicable | [Local authentication](set-authentication-identity.md) |
 
 
 ## Migrate your website to a new identity provider
