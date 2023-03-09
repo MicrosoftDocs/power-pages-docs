@@ -45,11 +45,8 @@ When no column permissions are defined, the corresponding table permissions will
 
    1. To create a new column permission profile record, select **New Column Permission Profiles**.
 
-    :::image type="content" source="media/column-permissions/column-permission-profiles.png" alt-text="Adding column permission profiles.":::
 
 ## Attributes and relationships
-
-:::image type="content" source="media/column-permissions/manage-column-permission.png" alt-text="Managing column permissions.":::
 
 The following table explains the table permission attributes.
 
