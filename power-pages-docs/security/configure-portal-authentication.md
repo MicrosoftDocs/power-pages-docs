@@ -81,29 +81,14 @@ To add an identity provider, select **Add provider** from **Authentication Setti
 > [!TIP]
 > You can also select **Add provider** from the [portal details page](#authentication-settings-from-the-portal-details-page).
 
-Select from the available list of providers, enter a name, and then select **Next** to configure the provider settings.
-
-> [!NOTE]
-> The **Provider name** you enter here is displayed on the sign-in page for users as the text on the button they use when selecting this provider.
+Select from the available list of providers, enter a name, and then select **Next** to configure the provider settings. The provider name you enter here is displayed on the sign-in page for users as the text on the button they use when selecting this provider.
 
 To configure a provider, select **Configure** (or select **More Commands** (**...**), and then select **Configure**).
 
 > [!NOTE]
 > You can use **Add provider** or **Configure** to add or configure a provider for the first time. After you configure a provider, you can edit it. You can also select the provider name hyperlink to open the configuration options quickly.
 
-The configuration steps after you select **Next** depend on the type of identity provider you select. For example, how you set up Azure AD B2C is different from how you set up LinkedIn. The following table lists the providers and protocols that you can select from.
-
-| Available providers | Available protocols | Description |
-| - | - | - |
-| Azure AD B2C | OpenID Connect | Allows configuration of Azure AD B2C for authentication using OpenID Connect protocol. <br /> More information: [Configure the Azure AD B2C provider](authentication/azure-ad-b2c-provider.md), [Configure the Azure AD B2C provider manually](authentication/azure-ad-b2c-provider-manual.md) |
-| Facebook | OAuth 2.0 | Allows configuration of Facebook as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure Facebook provider](authentication/oauth2-facebook.md) |
-| LinkedIn | OAuth 2.0 | Allows configuration of LinkedIn as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure LinkedIn provider](authentication/oauth2-linkedin.md) |
-| Google | OAuth 2.0 | Allows configuration of Google as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure Google provider](authentication/oauth2-google.md)|
-| Twitter | OAuth 2.0 | Allows configuration of Twitter as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure Twitter provider](authentication/oauth2-twitter.md) |
-| Microsoft | OAuth 2.0 | Allows configuration of Microsoft as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure Microsoft provider](authentication/oauth2-microsoft.md) |
-| Other | OpenID Connect | Allows configuration of any provider that conforms to the [OpenID Connect](https://openid.net/specs/openid-connect-core-1_0.html) protocol specification. <br /> Examples: <br /> - [Configure Azure AD as the OpenID Connect provider](authentication/azure-ad-b2c-provider.md)|
-| Other | SAML 2.0 | Allows configuration of any provider that conforms to the SAML 2.0 protocol specifications. <br /> Examples: <br /> - [Configure Azure AD as the SAML 2.0 provider](authentication/saml2-settings-azure-ad.md) <br /> -  [Configure AD FS as the SAML 2.0 provider](authentication/saml2-settings.md)|
-| Other | WS-Federation | Allows configuration of any provider that conforms to the WS-Federation protocol specifications. <br /> Examples: <br /> - [Configure Azure AD as the WS-Federation provider](authentication/ws-federation-settings-azure-ad.md) <br /> -  [Configure AD FS as the WS-Federation provider](authentication/ws-federation-settings.md) |
+The configuration steps after you select **Next** depend on the type of identity provider you select. More information: [Common identity providers](authentication/overview.md#common-identity-providers)
 
 ### Edit a provider
 
