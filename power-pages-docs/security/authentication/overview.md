@@ -37,11 +37,11 @@ The following table lists common identity providers, the protocol that can be us
 | Azure AD B2C | OpenID Connect |[Configure the Azure Active Directory B2C provider (using interface in preview)](azure-ad-b2c-provider.md)<br />[Configure the Azure Active Directory B2C provider manually](azure-ad-b2c-provider-manual.md)|
 | Azure Directory Federation Services (AD FS) | SAML 2.0 | [Configure a SAML 2.0 provider with AD FS](saml2-settings.md)|
 | AD FS | WS-Federation | [AD FS with WS-Federation](ws-federation-settings.md)|
-| Microsoft | OAuth 2.0 | [Configure the Microsoft provider for Power Pages](oauth2-microsoft.md)|
-| LinkedIn | OAuth 2.0 | [Configure the LinkedIn provider for Power Pages](oauth2-linkedin.md)|
-| Facebook | OAuth 2.0 | [Configure the Facebook provider for portals](oauth2-facebook.md)|
-| Google | OAuth 2.0 | [Configure the Google provider for portals](oauth2-google.md)|
-| Twitter | OAuth 2.0 | [Configure the Twitter provider for portals](oauth2-twitter.md)|
+| Microsoft | OAuth 2.0 | [Configure the Microsoft provider](oauth2-microsoft.md)|
+| LinkedIn | OAuth 2.0 | [Configure the LinkedIn provider](oauth2-linkedin.md)|
+| Facebook | OAuth 2.0 | [Configure the Facebook provider](oauth2-facebook.md)|
+| Google | OAuth 2.0 | [Configure the Google provider](oauth2-google.md)|
+| Twitter | OAuth 2.0 | [Configure the Twitter provider](oauth2-twitter.md)|
 | Local authentication<br />(not recommended) | Not applicable | [Local authentication](set-authentication-identity.md) |
 
 
