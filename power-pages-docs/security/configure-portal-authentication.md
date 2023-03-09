@@ -38,11 +38,11 @@ To configure an identity provider for your website:
 
 You can configure the following general authentication settings by selecting **Authentication Settings** on the **Identity providers** page.
 
-- **External login**: External authentication is provided by the ASP.NET Identity API. Account credentials and password management are handled by third-party identity providers, for example Facebook, LinkedIn, Google, Twitter, and Microsoft. 
-  - When set to **On**, users sign up for access by selecting an external identity to register with the website. After it's registered, an external identity has access to the same features as a local account. See [Manage external accounts](set-authentication-identity.md#manage-external-accounts) for related site settings. 
+- **External login**: External authentication is provided by the ASP.NET Identity API. Account credentials and password management are handled by third-party identity providers.
+  - When set to **On**, users sign up for access by selecting an external identity to register with the website. After it's registered, an external identity has access to the same features as a local account. See [Manage external accounts](authentication/set-authentication-identity.md#manage-external-accounts)for related site settings. 
   -  When set to **Off**, external account registration and sign-in are disabled and hidden.
 
-- **[Open registration](configure-portal-authentication.md#open-registration)**: Enables or disables the sign-up registration form for creating new local users.
+- **Open registration**: Enables or disables the sign-up registration form for creating new local users.
   - When set to **On**, the sign-up form allows any anonymous user to visit the website and create a new user account.
   - When set to **Off**, new user account registration is disabled and hidden.
 
