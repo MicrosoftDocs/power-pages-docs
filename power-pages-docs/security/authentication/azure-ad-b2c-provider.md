@@ -59,58 +59,34 @@ Select **Next** to continue.
 
 ### Option 2. New Azure AD B2C tenant
 
-Select this option to create a new Azure AD B2C tenant.
+Select this option to [create a new Azure AD B2C tenant](/azure/active-directory-b2c/tutorial-create-tenant).
 
 > [!NOTE]
 > - Ensure that the account you use to sign in to Power Apps has been assigned at least the link [Contributor role](/azure/role-based-access-control/built-in-roles) for the subscription or for a resource group within the subscription.
 > - Ensure the Azure subscription has the **Microsoft.AzureActiveDirectory** resource provider registered. Otherwise, creating the new Azure AD B2C tenant will fail with this error:
 > <br /> `Error occurred while creating Azure AD B2C tenant. The subscription is not registered to use namespace 'Microsoft.AzureActiveDirectory'. See https://aka.ms/rps-not-found for how to register subscriptions.` More information: [Resolve errors for resource provider registration in Azure](/azure/azure-resource-manager/templates/error-register-resource-provider) 
-
-To create a new Azure AD B2C tenant:
-
-1. Select the Azure AD tenant or directory.
-
-1. Select a subscription for the tenant, or&mdash;if you want to create a new subscription from the Azure website&mdash;select **Add subscription**.
-
-1. Select the resource group for the Azure AD B2C tenant.
-
-1. Enter the initial domain name.
-
-1. Select **Country/Region** for the tenant.
-
-    > [!NOTE]
-    > - You can't change the country/region after you create your directory.
+> - You can't change the country/region after you create your directory.
     > - It's important that you select the correct country/region, because your choice determines the **Datacenter location** for your directory.
     > - Microsoft doesn't control the location from which you or your users can access or move directory data through apps or services. To see Microsoft's data location commitments for its services, see the [Online Service Terms](https://go.microsoft.com/fwlink?linkid=2009014).
 
-1. Select **Next**.
+Select **Next** to continue.
 
 ## Step 3. Register the application
 
-In this step, you register your website as an application with Azure AD. You can create a new application or select an existing application from Azure AD.
+In this step, you [register your website as an application with Azure AD](/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga). You can create a new application or select an existing application from Azure AD.
 
 > [!NOTE]
 > If you're using a custom domain name for the website, enter the custom URL as the **Reply URL**.
 
-### Option 1. Create a new application
-
-1. Enter the application name.
-
-1. Enter a **Reply URL**.
-
-1. Select **Next**.
-
-### Option 2. Select an existing application
-
-1. Select an existing application from the list.
-
-1. Select the **Reply URL**.<br />or<br />Select **Create new** to create a new **Reply URL**.
-
-1. Select **Next**.
+Select **Next** to continue.
 
 ## Step 4. Configure user flows
 
-In this step, you configure the **Sign up and sign in** and **Password reset** user flows. The **Sign up and sign in** user flow enables a user to create an account or sign in to their account. The **Password reset** flow enables a user to choose a new password after email verification. More information: [User flow and policy in Azure AD B2C](/azure/active-directory-b2c/user-flow-overview#user-flow-versions) 
+In this step, you configure the [sign up and sign in](/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow)and [password reset](/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow) user flows. 
+
+The **Sign up and sign in** user flow enables a user to create an account or sign in to their account. 
+The **Password reset** flow enables a user to choose a new password after email verification. 
+More information: [User flow and policy in Azure AD B2C](/azure/active-directory-b2c/user-flow-overview#user-flow-versions) 
 
 - **New policy**: Select this option if you want to create a new policy. You can also change the default name of the policy. This option creates the flow by using the *local account* identity provider with the email address.
 - **Existing policy**: Select this option if you want to select an existing policy from the Azure AD B2C tenant.
