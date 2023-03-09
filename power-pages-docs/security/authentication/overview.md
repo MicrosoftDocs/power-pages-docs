@@ -57,9 +57,6 @@ Users can select an external identity from a list of identity providers during s
 
 With open registration enabled, users aren't required to provide an invitation code to complete the sign-up process.
 
-## Next Steps
-
-
 ### See also
 
 [Customize the Azure AD B2C user interface for portals](azure-ad-b2c.md)
