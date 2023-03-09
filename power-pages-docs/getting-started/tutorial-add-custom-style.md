@@ -4,7 +4,7 @@ description: Learn how to add custom CSS to your Power Pages sites.
 author: ankitavish
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/17/2022
+ms.date: 02/21/2023
 ms.subservice:
 ms.author: avishwakarma 
 ms.reviewer: ndoelman
@@ -23,7 +23,7 @@ In this tutorial, you'll learn how to:
 
 > [!div class="checklist"]
 > * Upload a custom CSS file
-> * Edit CSS is Visual Studio Code for the Web
+> * Edit CSS in Visual Studio Code for the Web
 
 ## Prerequisites
 
@@ -35,6 +35,10 @@ In this tutorial, you'll learn how to:
 > Any custom theme you create must be compatible with Bootstrap v3.
 
 ## Add custom CSS to your site
+
+The following video shows you how to apply custom CSS code to your site.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
 
 In this example, we'll add some custom CSS files that will allow us to add shadow effects to buttons on our website. You can use your own custom CSS file or use the sample provided.
 

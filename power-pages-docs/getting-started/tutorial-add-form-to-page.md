@@ -46,7 +46,7 @@ This video provides an overview of the steps to create a form.
 
 1. In the **data workspace**, select the **Feedback table** and choose the **Forms tab**.
 
-    :::image type="content" source="media/tutorial/feedback-table.png" alt-text="Theforms menu option for the feedback table in the data workspace.":::
+    :::image type="content" source="media/tutorial/feedback-table.png" alt-text="The forms menu option for the feedback table in the data workspace.":::
 
 1. Select **+ New form** to open the form editor.
 
@@ -77,11 +77,7 @@ The form will appear in the list of forms for that table.
 
 ## Add code components
 
-Code components can be added to forms to allow advanced interaction with specific data fields. For example, we can enable rich text editing capabilities to a multi-line text field on a form.
-
-This video provides an overview of the steps to add code components.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ey]
+Code components can be added to Dataverse forms to allow advanced interaction with specific data fields. For example, we can enable rich text editing capabilities to a multi-line text field on a form.
 
 1. In the **Data workspace**, select the **Feedback table** and choose the **Forms tab**.
 
@@ -145,43 +141,64 @@ This video provides an overview of the steps to add a form to a page.
 
     :::image type="content" source="media/tutorial/preview-icon.png" alt-text="Preview icon.":::
 
-## Configure form options
+## Enable code components on form fields
 
-Earlier we enabled the rich text editor component on the comments field in our form. In order for the rich text editor to render on the page, we need to add some metadata. 
+This video provides an overview of the steps to configure the rich text editor control on a form.
 
-This video provides an overview of the steps to configure form options.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fE0q]
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYep]
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage.
 
-1. In the design studio, open a page with a form component and select the form you previously created.
+To enable the code component:
 
-1. Select the **Form** button.
+1. Select the field and choose **Edit field**.
 
-    :::image type="content" source="media/tutorial/form-menu-bar.png" alt-text="Form menu bar options.":::
+1. Select **Enable custom component field**.
 
-1. Select the **Data section**.  Select **Open Portal Management app**.  You'll be directed to the form metadata record.
+1. Select **OK**.
 
-    :::image type="content" source="media/tutorial/form-data-tab.png" alt-text="The form data tab.":::
-
-1. Select the **Basic form metadata** tab.
-
-1. Choose **New basic form metadata**.
-
-    :::image type="content" source="media/tutorial/form metadata.png" alt-text="New Form Metadata tab.":::
-
-    - Choose **Attribute** for the Type.
-    - Choose **Comments** for the Attribute Logical Name.
-    - Choose **Code component** for the control style.
-
-    :::image type="content" source="media/tutorial/form-metadata-choices.png" alt-text="Choosing values for form metadata.":::
-
-1. Select **Save**.
+    :::image type="content" source="media/add-form/enable-code-component.png" alt-text="Enabling code component on webpage form.":::
 
 1. From the design studio, select **Preview** and navigate to your page.
 
 1. The form should show the rich text editor controls on the field.
 
     :::image type="content" source="media/tutorial/feedback-form-richtext.png" alt-text="Feedback form with rich text editor control on comments.":::
+
+## Enable attachments on forms
+
+This video shows how you can enable attachments on forms.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eLpl]
+
+Users can upload an attachment with form submission.
+
+To enable attachments on a form:
+
+1. Add a form or edit an existing form.
+
+1. In the **Add a form** modal, choose **Attachments** from the left panel. 
+
+    - Configure the following options:
+        - Turn on/off the **Enable attachments** toggle.
+        - Turn on/off the **Attachment is required** toggle.
+        - Turn on/off the **Allow multiple files** toggle.
+        - Max file size allowed
+
+> [!NOTE] 
+> The following file types are allowed:
+>   - All
+>   - Audio
+>   - Document
+>   - Image
+>   - Video
+>    - Specific (comma separated values)
+    
+:::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
+
+Once configured, the file upload placeholder will show in the canvas. 
+
+:::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
 
 ## Next steps
 
