@@ -59,4 +59,9 @@ With open registration enabled, users aren't required to provide an invitation c
 
 ### See also
 
+[Customize the Azure AD B2C user interface for portals](azure-ad-b2c.md)
+[Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md)
+[Configure an OpenID Connect provider for Power Pages](openid-provider.md)
+[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
+[Configure a WS-Federation provider for Power Pages](ws-federation-provider.md)
 
