@@ -16,21 +16,20 @@ contributors:
 ---
 
 
-# Get started with configuring your portal authentication
+# Configure Power Pages site authentication
 
-Setting up authentication is a core customization in any portal. Simplified identity provider configuration in Power Pages provides in-app guidance for identity provider setup and abstracts setup complexities. Makers and administrators can easily configure the website for supported identity providers.
+Setting up authentication is a core customization in any Power Pages site. Simplified identity provider configuration in Power Pages provides in-app guidance for identity provider setup and abstracts setup complexities. Makers and administrators can easily configure the website for supported identity providers.
 
 ## Overview
 
-You can enable, disable, and configure identity providers from [Power Pages](https://make.powerpages.microsoft.com/) by using simplified portal authentication configuration. After you select an identity provider, you can then follow prompts to easily enter the provider settings.
+You can enable, disable, and configure identity providers from [Power Pages](https://make.powerpages.microsoft.com/) by using simplified authentication configuration. After you select an identity provider, you can then follow prompts to easily enter the provider settings.
 
 > [!NOTE]
-> Changes to the authentication settings [might take a few minutes](../admin/clear-server-side-cache.md#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the website by using [portal actions](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to the authentication settings [might take a few minutes](../admin/clear-server-side-cache.md#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [portal actions](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
-**To begin configuring an identity provider for your portal**
+To configure an identity provider for your website:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-
 1. Create a site or edit an existing site created in that environment.
 1. Go to Set up in the left navigation menu.
 1. Select Identity Providers under Authentication to see a complete list of identity providers.
@@ -40,27 +39,27 @@ You can enable, disable, and configure identity providers from [Power Pages](htt
 You can configure the following general authentication settings by selecting **Authentication Settings** on the **Identity providers** page.
 
 - **External login**: External authentication is provided by the ASP.NET Identity API. Account credentials and password management are handled by third-party identity providers, for example Facebook, LinkedIn, Google, Twitter, and Microsoft. 
-  - When set to **On**, users sign up for access to the portal by selecting an external identity to register with the portal. After it's registered, an external identity has access to the same features as a local account. See [Manage external accounts](set-authentication-identity.md#manage-external-accounts) for related site settings. 
+  - When set to **On**, users sign up for access by selecting an external identity to register with the website. After it's registered, an external identity has access to the same features as a local account. See [Manage external accounts](set-authentication-identity.md#manage-external-accounts) for related site settings. 
   -  When set to **Off**, external account registration and sign-in are disabled and hidden.
 
 - **[Open registration](configure-portal-authentication.md#open-registration)**: Enables or disables the sign-up registration form for creating new local users.
-  - When set to **On**, the sign-up form allows any anonymous user to visit the portal and create a new user account.
+  - When set to **On**, the sign-up form allows any anonymous user to visit the website and create a new user account.
   - When set to **Off**, new user account registration is disabled and hidden.
 
 - **Require unique email**: Specifies whether a unique email address is needed for validating a new user during sign-up.
   -  When set to **On**, a sign-up attempt might fail if a user provides an email address that's already present in a contact record.
   -  When set to **Off**, a contact that uses a duplicate email address can be created.
 
-You can also go to general authentication settings from the portal details page by selecting **Settings** in the upper-right corner of the **Identity providers** section.
+You can also go to general authentication settings from the details page by selecting **Settings** in the upper-right corner of the **Identity providers** section.
 
 ## Configure a default identity provider
 
-You can set any identity provider as the default. When an identity provider is set as the default, users signing in to the portal aren't redirected to the portal sign-in page. Instead, the sign-in experience always defaults to signing in by using the selected provider.
+You can set any identity provider as the default. When an identity provider is set as the default, users signing in to the website aren't redirected to the sign-in page. Instead, the sign-in experience always defaults to signing in by using the selected provider.
 
 > [!IMPORTANT]
 > If you set an identity provider as the default, users won't have the option to choose any other identity provider.
 
-After you set an identity provider as the default, you can select **Remove as default** to remove it. After you remove an identity provider from being the default, users will be redirected to the portal sign-in page and can choose from the identity providers you've enabled.
+After you set an identity provider as the default, you can select **Remove as default** to remove it. After you remove an identity provider from being the default, users will be redirected to the sign-in page and can choose from the identity providers you've enabled.
 
 > [!NOTE]
 > You can only set a configured identity provider as the default. The **Set as default** option becomes available after you configure an identity provider.
@@ -72,7 +71,7 @@ Several identity providers that you can configure are added by default. You can 
 > [!NOTE]
 > - You can't change the configuration of the **Local sign in** and **Azure Active Directory** providers when using this interface.
 > - You can have only one instance of each identity provider type for OAuth 2.0, such as **Facebook**, **LinkedIn**, **Google**, **Twitter**, and **Microsoft**.
-> - Updates to identity provider configuration might take a few minutes to be reflected on the portal. To apply your changes immediately, you can [restart the portal](../admin/admin-overview.md#open-power-apps-portals-admin-center).
+> - Updates to identity provider configuration might take a few minutes to be reflected on the website. To apply your changes immediately, you can [restart the portal](../admin/admin-overview.md#open-power-apps-portals-admin-center).
 > - If you [add a custom domain name](../admin/add-custom-domain.md) or [change the base URL of your portal](../admin/change-base-url.md), you must re-create the provider configuration by using the correct URL.
 
 ### Add or configure a provider
@@ -96,19 +95,19 @@ The configuration steps after you select **Next** depend on the type of identity
 
 | Available providers | Available protocols | Description |
 | - | - | - |
-| Azure AD B2C | OpenID Connect | Allows configuration of Azure AD B2C for authentication in portals using OpenID Connect protocol. <br /> More information: [Configure the Azure AD B2C provider](authentication/azure-ad-b2c-provider.md), [Configure the Azure AD B2C provider manually](authentication/azure-ad-b2c-provider-manual.md) |
-| Facebook | OAuth 2.0 | Allows configuration of Facebook as the authentication provider in portals using OAuth 2.0 protocol. <br /> More information: [Configure Facebook provider](authentication/oauth2-facebook.md) |
-| LinkedIn | OAuth 2.0 | Allows configuration of LinkedIn as the authentication provider in portals using OAuth 2.0 protocol. <br /> More information: [Configure LinkedIn provider](authentication/oauth2-linkedin.md) |
-| Google | OAuth 2.0 | Allows configuration of Google as the authentication provider in portals using OAuth 2.0 protocol. <br /> More information: [Configure Google provider(authentication/oauth2-google.md)|
-| Twitter | OAuth 2.0 | Allows configuration of Twitter as the authentication provider in portals using OAuth 2.0 protocol. <br /> More information: [Configure Twitter provider](authentication/oauth2-twitter.md) |
-| Microsoft | OAuth 2.0 | Allows configuration of Microsoft as the authentication provider in portals using OAuth 2.0 protocol. <br /> More information: [Configure Microsoft provider](authentication/oauth2-microsoft.md) |
+| Azure AD B2C | OpenID Connect | Allows configuration of Azure AD B2C for authentication using OpenID Connect protocol. <br /> More information: [Configure the Azure AD B2C provider](authentication/azure-ad-b2c-provider.md), [Configure the Azure AD B2C provider manually](authentication/azure-ad-b2c-provider-manual.md) |
+| Facebook | OAuth 2.0 | Allows configuration of Facebook as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure Facebook provider](authentication/oauth2-facebook.md) |
+| LinkedIn | OAuth 2.0 | Allows configuration of LinkedIn as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure LinkedIn provider](authentication/oauth2-linkedin.md) |
+| Google | OAuth 2.0 | Allows configuration of Google as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure Google provider](authentication/oauth2-google.md)|
+| Twitter | OAuth 2.0 | Allows configuration of Twitter as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure Twitter provider](authentication/oauth2-twitter.md) |
+| Microsoft | OAuth 2.0 | Allows configuration of Microsoft as the authentication provider using OAuth 2.0 protocol. <br /> More information: [Configure Microsoft provider](authentication/oauth2-microsoft.md) |
 | Other | OpenID Connect | Allows configuration of any provider that conforms to the [OpenID Connect](https://openid.net/specs/openid-connect-core-1_0.html) protocol specification. <br /> Examples: <br /> - [Configure Azure AD as the OpenID Connect provider](configure-openid-settings.md) <br /> - [Configure Azure AD B2C as the OpenID Connect provider](authentication/azure-ad-b2c-provider.md)|
 | Other | SAML 2.0 | Allows configuration of any provider that conforms to the SAML 2.0 protocol specifications. <br /> Examples: <br /> - [Configure Azure AD as the SAML 2.0 provider](authentication/saml2-settings-azure-ad.md) <br /> -  [Configure AD FS as the SAML 2.0 provider](authentication/saml2-settings.md)|
 | Other | WS-Federation | Allows configuration of any provider that conforms to the WS-Federation protocol specifications. <br /> Examples: <br /> - [Configure Azure AD as the WS-Federation provider](authentication/ws-federation-settings-azure-ad.md) <br /> -  [Configure AD FS as the WS-Federation provider](authentication/ws-federation-settings.md) |
 
 ### Edit a provider
 
-After you add and configure a provider, you can see the provider in the **Enabled** state on portal settings or details pages.
+After you add and configure a provider, you can see the provider in the **Enabled** state on settings or details pages.
 
 To edit a provider you've configured, select it, select **More Commands** (**...**), and then select **Edit configuration**.
 
@@ -121,11 +120,11 @@ To delete an identity provider, select **More Commands** (**...**), and then sel
 Deleting a provider deletes your provider configuration for the selected provider type, and the provider becomes available again for configuration.
 
 > [!NOTE]
-> When you delete a provider, only the portal configuration for the provider is deleted. For example, if you delete the LinkedIn provider, your LinkedIn app and app configuration remain intact. Similarly, if you delete an Azure AD B2C provider, only the portal configuration is deleted; the Azure tenant configuration for this provider won't change.
+> When you delete a provider, only the configuration for the provider is deleted. For example, if you delete the LinkedIn provider, your LinkedIn app and app configuration remain intact. Similarly, if you delete an Azure AD B2C provider, only the configuration is deleted; the Azure tenant configuration for this provider won't change.
 
-### Error caused by deleting and re-creating a portal
+### Error caused by deleting and re-creating a website
 
-If you delete and re-create your portal, users might receive the following error when signing in. When this issue happens, update the portal's identity provider configuration correctly.
+If you delete and re-create your Power Pages site, users might receive the following error when signing in. When this issue happens, update the website's identity provider configuration correctly.
 
 `Sorry, but we're having trouble signing you in.`
 
