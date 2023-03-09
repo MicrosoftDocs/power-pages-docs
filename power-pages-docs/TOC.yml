@@ -182,8 +182,12 @@
         href: configure/search/file-attachment.md
       - name: Progressive search
         href: configure/search/progressive.md
+    - name: Configure document storage
+      items:
+        - name: Manage SharePoint documents
+          href: configure/manage-sharepoint-documents.md
     - name: Advanced configuration
-      href: configure/advanced-config.md
+      href: configure/advanced-config.md  
 - name: Integrate Power Pages
   items:
     - name: Embed a Power Pages site in another website
