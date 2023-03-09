@@ -16,7 +16,7 @@ contributors:
 
 # Manage SharePoint documents
 
-Microsoft Dataverse supports integration with SharePoint Online that enables you to use the document management capabilities of SharePoint from within Dataverse. Power Pages supports uploading and displaying documents to and from SharePoint directly on a basic form or multistep form on a website. This allows website users to view, download, add, and delete documents from a webpage. Website users can also create subfolders to organize their documents.
+Microsoft Dataverse supports integration with SharePoint Online that enables you to use the document management capabilities of SharePoint from within Dataverse. Power Pages supports uploading and displaying documents to and from SharePoint directly on a basic form or multistep form on a website. This feature allows website users to view, download, add, and delete documents from a webpage. Website users can also create subfolders to organize their documents.
 
 > [!NOTE]
 > - Document management works only with SharePoint Online.
@@ -48,7 +48,7 @@ To use the document management capabilities of SharePoint, you must enable Share
 ### Enable SharePoint integration
 
 > [!NOTE]
-> You must be a global administrator to perform this action.
+> You must be a global administrator to perform to enable SharePoint integration.
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
@@ -58,22 +58,22 @@ To use the document management capabilities of SharePoint, you must enable Share
 
 1. In the **Services** section, select the **SharePoint Integration** control to the **Yes** position.
 
-1. Select **Enable** in the confirmation window. This will enable the website to communicate with SharePoint. While the SharePoint integration is being enabled, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is enabled.
+1. Select **Enable** in the confirmation window. This setting will enable the website to communicate with SharePoint. While the SharePoint integration is being enabled, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is enabled.
 
 ### Disable SharePoint integration
 
 > [!NOTE]
-> You must be a global administrator to perform this action.
+> You must be a global administrator to perform to disable SharePoint integration.
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
 1. Under **Resources** choose **Power Pages sites**.
 
-1. Select the site where you want to enable SharePoint integration.
+1. Select the site where you want to disable the SharePoint integration.
 
 1. In the **Services** section, select the **SharePoint Integration** control to the **No** position.
 
-1. Select **Disable** in the confirmation window. This will disable communication with SharePoint. During the process, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is disabled.
+1. Select **Disable** in the confirmation window. Turning off this setting will disable communication with SharePoint. During the process, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is disabled.
 
 Enabling or disabling the SharePoint integration will update the Azure Active Directory (Azure AD) application for the website and add or remove the required SharePoint permissions, respectively. You'll also be redirected to provide your consent for the changes to be made in the Azure AD application. 
 
@@ -83,7 +83,7 @@ If you don't provide your consent:
 
 - Enabling or disabling the SharePoint integration won't be complete and an error message will display.
 
-- Your out-of-the-box Azure AD login on the website won't work.
+- Your out-of-the-box Azure AD sign-in on the website won't work.
 
 
 ## Step 3: Enable document management for tables
@@ -93,9 +93,9 @@ You must enable document management for tables to store documents related to tab
 
 ### Dataverse forms configuration
 
-You will need to configure the Dataverse form by adding a subgrid component which will allow you to work with related documents on a webpage.
+You'll need to configure the Dataverse form by adding a subgrid component that will allow you to work with related documents on a webpage.
 
-Identify the the table and the corresponding form where you want to use document management capabilities. 
+Identify the table and the corresponding form where you want to use document management capabilities. 
 
 Open the [Data workspace form designer](data-workspace-forms.md) for the table you want to use for document management capabilities.
 
@@ -153,7 +153,7 @@ By default, the file size is set to 10 MB. However, you can configure the file s
 
 ## Maximum file download size
 
-We recommend limiting the size of the individual files available for download to 250 MB or less. If you use portals to download larger files from SharePoint, the operation may timeout after a couple of minutes.
+We recommend limiting the size of the individual files available for download to 250 MB or less. If you use portals to download larger files from SharePoint, the operation may time out after a couple of minutes.
 
 ### See also
 
