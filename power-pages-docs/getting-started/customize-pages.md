@@ -45,7 +45,7 @@ For a more immersive editing experience, you can use the full-screen editing mod
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 
 > [!NOTE]
-> - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/store-content-web-templates.md) for information on creating custom page layouts.
+> - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
 > - For sites created using Power Pages prior to September 23, 2022 there is a known issue related to themes. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
 
 ### See also
