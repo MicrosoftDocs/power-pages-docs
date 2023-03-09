@@ -4,7 +4,7 @@ description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/02/2023
+ms.date: 3/9/2023
 ms.subservice:
 ms.author: shrutiphanse 
 ms.reviewer: kkendrick
@@ -49,13 +49,15 @@ To add a list:
     | Data | Description |
     | ----------- | ----------- |
     | Create a new record | Allows the user to create a new record. You'll need to select the target webpage, form, or URL that contains the new record. |
+    | Download list contents | Allows the user to download list contents into an *.xlsx file. Change the default button label by editing hte display label. |
     | View details | Allows the user to view details.  You'll need to select the webpage, form, or URL that contains the details. | 
+    | Edit record | Allows the user to edit the record. You'll need to select the webpage, form, or URL that contains the record details to edit. Change the default button label by editing the display label. |
     | Delete record | Allows the user to delete the record. | 
 
     | Settings | Description |
     | - | - |
     | Number of records per page | Determines how many records will be displayed per page. If the table contains more records, navigation controls will appear for the user to view the next or previous set of records. |
-    | Enable search in list | Turns on the search feature for the list. |
+    | Enable search in list | Turns on the search feature for the list. Add a placeholder text for the search bar |
 
     > [!NOTE]
     > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to view the data on the lists.
