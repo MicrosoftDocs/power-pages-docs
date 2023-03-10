@@ -116,7 +116,7 @@ Use the steps below to add a list to a web page so you can view information stor
 
     - Choose the table and view you'd like from the dropdown menus.
     
-        :::image type="content" source="media/first-page/add-list.png" alt-text="Add list.":::
+        :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
 
 1. Select **Preview**.
 

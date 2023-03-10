@@ -37,8 +37,8 @@ To add a list:
 1. You can choose either to create a new list or use an existing list.
 
    If you choose to create a new list, you'll need to enter the following criteria.
- 
-    :::image type="content" source="media/first-page/add-list.png" alt-text="Add a list to a page.":::
+
+    :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
 
     | List | Description |
     | ----------- | ----------- |
