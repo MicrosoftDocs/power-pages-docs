@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/09/2023
+ms.date: 03/10/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -56,7 +56,9 @@ To use the document management capabilities of SharePoint, you must enable Share
 
 1. Select the site where you want to enable SharePoint integration.
 
-1. In the **Services** section, select the **SharePoint Integration** control to the **Yes** position.
+<!--1. In the **Services** section, select the **SharePoint Integration** control to the **Yes** position.-->
+
+1. In the **Services** section, select the **SharePoint Integration** link that will open the legacy admin center. Select **Enable SharePoint integration**.
 
 1. Select **Enable** in the confirmation window. This setting will enable the website to communicate with SharePoint. While the SharePoint integration is being enabled, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is enabled.
 
@@ -71,7 +73,9 @@ To use the document management capabilities of SharePoint, you must enable Share
 
 1. Select the site where you want to disable the SharePoint integration.
 
-1. In the **Services** section, select the **SharePoint Integration** control to the **No** position.
+<!-- 1. In the **Services** section, select the **SharePoint Integration** control to the **No** position.-->
+
+1. In the **Services** section, select the **SharePoint Integration** link that will open the legacy admin center. Select **Disable SharePoint integration**.
 
 1. Select **Disable** in the confirmation window. Turning off this setting will disable communication with SharePoint. During the process, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is disabled.
 
