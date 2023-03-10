@@ -49,7 +49,7 @@ To add a list:
     | Data | Description |
     | ----------- | ----------- |
     | Create a new record | Allows the user to create a new record. You'll need to select the target webpage, form, or URL that contains the new record. |
-    | Download list contents | Allows the user to download list contents into an *.xlsx file. Change the default button label by editing hte display label. |
+    | Download list contents | Allows the user to download list contents into an *.xlsx file. Change the default button label by editing the display label. |
     | View details | Allows the user to view details.  You'll need to select the webpage, form, or URL that contains the details. | 
     | Edit record | Allows the user to edit the record. You'll need to select the webpage, form, or URL that contains the record details to edit. Change the default button label by editing the display label. |
     | Delete record | Allows the user to delete the record. | 
