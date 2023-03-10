@@ -4,7 +4,7 @@ description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/9/2023
+ms.date: 3/10/2023
 ms.subservice:
 ms.author: shrutiphanse 
 ms.reviewer: kkendrick
@@ -98,6 +98,16 @@ To add a list filter, select the list component you previously added and configu
     > The studio will display the different options for makers to filter their data based on the filter type and column they choose.
 
 1. Select the **OK button** to save your selections.  
+
+1. One the filter is applied, you can edit the filter configuration by selecting the Edit filter button in the design studio.
+    
+    :::image type="content" source="media/add-list/edit-filter.png" alt-text="The edit filter menu options inside design studio."::: 
+
+### Filter settings
+
+You can edit filter settings by selecting the filter settings option on the component in design studio.
+
+:::image type="content" source="media/add-list/filter-settings.png" alt-text="The filter settings menu options inside Design Studio with the vertical filter orientation button selected.":::
 
 ### See also
 
