@@ -189,7 +189,7 @@
         - name: Azure storage
           items:
           - name: Enable Azure storage
-            href: configure/enable-azure.md
+            href: configure/enable-azure-storage.md
           - name: Add Azure storage web resource
             href: configure/add-web-resource.md     
         - name: Manage SharePoint documents
