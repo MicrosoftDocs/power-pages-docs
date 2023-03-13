@@ -1,11 +1,11 @@
 ---
-title: Configure the Azure Active Directory B2C provider manually
-description: Learn how to configure the Azure Active Directory B2C identity provider for Power Pages manually.
+title: Configure the Azure Active Directory B2C provider 
+description: Learn how to configure the Azure Active Directory B2C identity provider for Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/15/2023
+ms.date: 3/13/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -14,27 +14,32 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure the Azure Active Directory B2C provider manually
+# Configure the Azure Active Directory B2C provider
 
-This article describes how to configure Azure Active Directory B2C (Azure AD B2C) as the identity provider manually. Use these steps to manually create a new Azure AD B2C tenant, register the application, and configure user flows.
+This article describes how to configure Azure Active Directory B2C (Azure AD B2C) as the identity provider for your Power Pages site. Use these steps to manually create a new Azure AD B2C tenant, register the application, and configure user flows.
 
 > [!NOTE]
-> - If you want to configure the Azure AD B2C provider automatically by using Power Pages, go to [Configure the Azure Active Directory B2C provider](azure-ad-b2c-provider.md)
-> - Changes to the authentication settings might take a few minutes to be reflected on the website. If you want the changes to be reflected immediately, [restart the website](../../admin/admin-overview.md).
+> Changes to the authentication settings might take a few minutes to be reflected on the website. If you want the changes to be reflected immediately, [restart the website](../../admin/admin-overview.md).
 
-To configure Azure AD B2C as the OpenID Connect provider manually:
+To configure Azure AD B2C as the OpenID Connect provider:
+
+1. In the Power Pages design studio, go to the **Set up** workspace and in the **Authentication** section select **Identity providers**.
+
+    > [!NOTE]
+    > If no identity providers appear, select **Authentication settings** from command bar at the top of the section, on the slide out panel, ensure that the **External login** is set to **On**.
 
 1. Select **Configure** for **Azure Active Directory B2C**.
 
+1. Select **Azure Active Directory B2C** as the login provider.
+
 1. If necessary, update the name.
 
-1. Select **Skip to manual configuration**.
+1. Select **Next**.
 
-    > [!NOTE]
-    > Selecting **Next** instead of **Skip to manual configuration** takes you to configure the [Azure AD B2C authentication](azure-ad-b2c-provider.md).
+1. You will see a series of steps.
 
-1. In this step, you create the application and configure the settings with your identity provider.
-
+1. In the **Configure B2C tenant in Azure** step, you create the application and configure the settings with your identity provider.
+    
     1. Sign in to your [Azure portal](https://portal.azure.com/).
 
     1. [Create an Azure AD B2C tenant](/azure/active-directory-b2c/tutorial-create-tenant).
@@ -48,13 +53,15 @@ To configure Azure AD B2C as the OpenID Connect provider manually:
         1. Select **New registration**.
 
         1. Enter a name.
+        
+        1. Select one of the **Supported account types** that best reflects your organization requirements.
 
         1. Under **Redirect URI**, select **Web** (if it isn't selected already).
 
         1. In the **Redirect URI** text box, enter the **Reply URL** for your portal. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`
 
             > [!NOTE]
-            > If you're using the default URL, copy and paste the **Reply URL** as shown in the **Create and configure B2C tenant in Azure** section on the **Configure identity provider** screen (step 4 above). If you're using a custom domain name, enter the custom URL. Be sure to use this value when you configure the **Redirect URL** in your settings while configuring the Azure AD B2C provider. <br /> For example, if you enter the **Reply URL** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`, you must use it as-is for the Azure AD B2C configuration in Power Pages.
+            > If you're using the default URL, copy and paste the **Reply URL** as shown in the **Create and configure B2C tenant in Azure** section on the **Configure identity provider** screen (see above). If you're using a custom domain name, enter the custom URL. Be sure to use this value when you configure the **Redirect URL** in your settings while configuring the Azure AD B2C provider. <br /> For example, if you enter the **Reply URL** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`, you must use it as-is for the Azure AD B2C configuration in Power Pages.
 
         1. Select **Register**.
 
@@ -70,7 +77,7 @@ To configure Azure AD B2C as the OpenID Connect provider manually:
 
 1. Enter site settings and password reset settings for the website configuration.
 
-    1. In the **Configure site settings** section, enter the following values:
+    1. In the **Site settings** section, enter the following values:
 
         - **Authority**: Enter the issuer URL defined in the metadata of the sign-up and sign-in policy user flow.​
         <br />**To get the issuer URL**
@@ -94,7 +101,7 @@ To configure Azure AD B2C as the OpenID Connect provider manually:
 
         - **Redirect URI**: Enter the URL. <br /> You only need to change the redirect URI if you're using a custom domain name.
 
-    1. In the **Password reset settings**section, enter the following values:
+    1. In the **Password reset settings** section, enter the following values:
 
         - **Default policy ID**: Enter the name of the sign-up and sign-in user flow you created earlier. The name is prefixed with *B2C_1*.
 
@@ -103,7 +110,7 @@ To configure Azure AD B2C as the OpenID Connect provider manually:
         - **Valid issuers**: Enter a comma-delimited list of issuer URLs for the sign-up and sign-in user flow, and password reset user flow, you created earlier. 
         <br /> To get the issuer URLs for the sign-up and sign-in user flow, and the password reset user flow, open each flow and then follow the steps under **Authority**, in step 5a earlier in this article.
 
-1. In this step, you have the option of configuring other settings for the Azure AD B2C identity provider.
+1. In the **Additional settings**, you have the option of configuring other settings for the Azure AD B2C identity provider.
 
     - **Registration claims mapping​**: Not required if using *email*, *first name*, or *last name* attributes. For other attributes, enter a list of logical name/claim pairs to be used to map claim values returned from Azure AD B2C (created during sign-up) to attributes in the contact record. <br /> Format: `field_logical_name=jwt_attribute_name`, where `field_logical_name` is the logical name of the field in Power Pages and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> 
      For example, if you've enabled **Job Title (jobTitle)** and **Postal Code (postalCode)** as **User Attributes** in your user flow, and you want to update the corresponding Contact table fields **Job Title (jobtitle)** and **Address 1: ZIP / Postal Code (address1_postalcode)**, enter the claims mapping as ```jobtitle=jobTitle,address1_postalcode=postalCode```.
@@ -119,7 +126,9 @@ To configure Azure AD B2C as the OpenID Connect provider manually:
 
     - **Registration enabled**:- Turn open registration for your website on or off. Turning off this toggle disables and hides external account registration.
 
-1. Select **Confirm** to view a summary of your settings and complete the identity provider configuration.
+    :::image type="content" source="media/azure-ad-b2c.png" alt-text="Azure AD B2C configuration.":::
+
+1. Select **Save** to complete the identity provider configuration.
 
 ### See also
 
