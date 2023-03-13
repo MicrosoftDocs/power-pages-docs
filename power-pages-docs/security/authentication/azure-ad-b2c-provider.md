@@ -16,7 +16,7 @@ contributors:
 
 # Configure the Azure Active Directory B2C provider
 
-This article describes how to configure Azure Active Directory B2C (Azure AD B2C) as the identity provider for your Power Pages site. Use these steps to manually create a new Azure AD B2C tenant, register the application, and configure user flows.
+This article describes how to configure Azure Active Directory B2C (Azure AD B2C) as the identity provider for your Power Pages site. Use these steps to create a new Azure AD B2C tenant, register the application, and configure user flows.
 
 > [!NOTE]
 > Changes to the authentication settings might take a few minutes to be reflected on the website. If you want the changes to be reflected immediately, [restart the website](../../admin/admin-overview.md).
@@ -34,9 +34,7 @@ To configure Azure AD B2C as the OpenID Connect provider:
 
 1. If necessary, update the name.
 
-1. Select **Next**.
-
-1. You will see a series of steps.
+1. Select **Next** for the next set of steps.
 
 1. In the **Configure B2C tenant in Azure** step, you create the application and configure the settings with your identity provider.
     
