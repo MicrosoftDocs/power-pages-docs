@@ -184,6 +184,14 @@
         href: configure/search/progressive.md
     - name: Configure document storage
       items:
+        - name: Configure notes
+          href: configure/configure-notes.md
+        - name: Azure storage
+          items:
+          - name: Enable Azure storage
+            href: configure/enable-azure.md
+          - name: Add Azure storage web resource
+            href: configure/add-web-resource.md     
         - name: Manage SharePoint documents
           href: configure/manage-sharepoint-documents.md
     - name: Advanced configuration
