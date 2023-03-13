@@ -305,7 +305,9 @@
         - name: OAuth 2.0
           items:
             - name: Google
-              href: security/authentication/oauth2-google.md     
+              href: security/authentication/oauth2-google.md
+        - name: OAuth 2.0 implicit grant flow
+          href: security/oauth-implicit-grant-flow.md           
     - name: Configure web roles
       href: security/create-web-roles.md
     - name: Page permissions

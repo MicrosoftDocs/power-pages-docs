@@ -123,5 +123,5 @@ To configure Azure AD B2C as the OpenID Connect provider manually:
 
 ### See also
 
-[Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
+[Migrate identity providers to Azure AD B2C](/power-apps/maker/portals/configure/migrate-identity-providers)
 
