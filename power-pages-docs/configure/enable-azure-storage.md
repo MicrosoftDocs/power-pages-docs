@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/27/2023
+ms.date: 3/13/2023
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: kkendrick
@@ -34,17 +34,21 @@ To locate the value for FileStorage/CloudStorageAccount, you must get a connecti
 
 1. Sign in to your Azure portal.
 
-2. Navigate to your storage account.
+1. Navigate to your storage account.
 
-3. Select **Access Keys**.
+1. Select **Access Keys**.
 
-4. In the resulting panel, locate the field labeled **Connection String**. Select the **Copy** icon next to the field for which you need to copy the value, and then paste that value into your new setting:
+1. In the resulting panel, locate the field labeled **Connection String**. Select the **Copy** icon next to the field for which you need to copy the value, and then paste that value into your new setting:
+
+    :::image type="content" source="media/enable-azure-storage/primary-connection-string-azure-storage.png" alt-text="Primary connection string value.":::
+    
+    :::image type="content" source="media/enable-azure-storage/portal-site-setting-cloud-storage-account.png" alt-text="Portal setting for your cloud storage account.":::
 
 ## Specify the storage container
 
 If you do not already have an Azure Blob container in your storage account, you must add one by using your Azure portal.
 
-In the [Portal Management app overview](../portal-management-app.md), go to **Settings** > **New**, and add a new setting named **FileStorage/CloudStorageContainerName**, using the name of your container as the value.
+In the [Portal Management app](portal-management-app.md), in the **Website** section go to **Settings** > **New**, and add a new setting named **FileStorage/CloudStorageContainerName**, using the name of your container as the value.
 
 ## Add CORS rule
 
@@ -57,6 +61,8 @@ You must add cross-origin resource sharing (CORS) rule on your Azure Storage acc
 - **Maximum age (seconds)**: Specify the maximum amount time that a browser should cache the preflight OPTIONS request. For example, 200.
 
 CORS rule example:
+
+:::image type="content" source="media/enable-azure-storage/portals-cors-azure.png" alt-text="Text used by screen readers.":::
 
 More information: [CORS support for the Azure Storage Services](/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
 
@@ -72,7 +78,7 @@ Add the following site settings from **Portals** > **Site Settings**. More infor
 
 ## Configure basic or multistep forms 
 
-To view and add attachments stored in Azure on basic and multistep forms on your site, you will need to [configure notes as attachments](notes.md) as well as add [basic form](notes.md#notes-configuration-for-basic-forms) or [multistep form](notes.md#notes-configuration-for-multistep-forms) metadata with the **File Attachment Location** set to **Azure Blob Storage**.
+To view and add attachments stored in Azure on basic and multistep forms on your site, you will need to [configure notes as attachments](configure-notes.md) as well as add [basic form](configure-notes.md#notes-configuration-for-basic-forms) or [multistep form](configure-notes.md#notes-configuration-for-multistep-forms) metadata with the **File Attachment Location** set to **Azure Blob Storage**.
 
 You can then add attachments to records on web pages.
 
@@ -83,5 +89,5 @@ To view and access the attachments in a model-driven app (including Dynamics 365
 ### See also
 
 [Add web resource](add-web-resource.md)
-[Configure notes](notes.md)
+[Configure notes](configure-notes.md)
 

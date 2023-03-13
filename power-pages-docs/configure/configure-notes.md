@@ -52,7 +52,7 @@ You can further configure the timeline control to allow site users to add, updat
 
 1. Select **New Basic Form Metadata**.
 
-    :::image type="content" source="media/configure-notes/new-form-metadata" alt-text="Text used by screen readers.":::
+    :::image type="content" source="media/configure-notes/new-form-metadata.png" alt-text="Add new basic form metadata.":::
 
 1. Select **Type** as **Note**.
 
@@ -94,8 +94,7 @@ After adding the configuration, the note control will be rendered by using the a
 | Error Message         | Overrides the message shown when an error occurs while trying to load the list of notes.                                                                     |
 | Access Denied Message | Overrides the message shown when the user doesn't have sufficient permissions to view the list of notes.                                                    |
 | Empty Message         | Overrides the message shown when the current table doesn't have any notes that can be viewed.                                                              |
-| List Orders           | Allows you to set the order in which notes will be displayed. The List Orders setting allows you to set the following options: <ul><li>Attribute: The logical name of the column by which you wish to sort</li><li>Alias: The alias for the attribute in the query</li><li>Direction: Ascending (smallest to largest, or first to last), or Descending (largest to smallest, or last to first).</li></ul> 
-:::image type="content" source="media/configure-notes/set-attributes-list-orders.png" alt-text="Set attributes for list orders.":::<br/>  To add a sorting rule, select "Column" (4) and fill in the details. List Orders will be processed in order from the top of the list having highest priority.|
+| List Orders           | Allows you to set the order in which notes will be displayed. The List Orders setting allows you to set the following options: <ul><li>Attribute: The logical name of the column by which you wish to sort</li><li>Alias: The alias for the attribute in the query</li><li>Direction: Ascending (smallest to largest, or first to last), or Descending (largest to smallest, or last to first).</li></ul>:::image type="content" source="media/configure-notes/set-attributes-list-orders.png" alt-text="Set attributes for list orders.":::<br/>  To add a sorting rule, select "Column" (4) and fill in the details. List Orders will be processed in order from the top of the list having highest priority.|
 ||
 
 #### Create dialog options
@@ -191,7 +190,7 @@ Notes, and the **Add**, **Edit**, and **Delete** buttons for the note control wi
 
     For example, add the table permission created in the previous step to a web role.
 
-1. Create a [child table permission](../security/table-permissions#configure-child-permissions) for the **Annotation** table from the table permission created in step 2 with the required privileges as explained in the table below. 
+1. Create a [child table permission](../security/table-permissions.md#configure-child-permissions) for the **Annotation** table from the table permission created in step 2 with the required privileges as explained in the table below. 
 
     | Note action | Required permissions |
     | - | - |
@@ -202,7 +201,7 @@ Notes, and the **Add**, **Edit**, and **Delete** buttons for the note control wi
 
     For example, create a child table permission for the Annotation table, with the  table permission created in the previous steps set as the parent table.
 
-    :::image type="content" source="media/configure-notes/child-permissions.png" alt-text="Text used by screen readers.":::
+    :::image type="content" source="media/configure-notes/child-permissions.png" alt-text="Configure child permissions.":::
 
 ### Enable rich text editor
 
@@ -241,7 +240,7 @@ The portal webpage shows the note in rich-text format.
 However, when editing the note from the portal webpage, you see the note in HTML markup format.
 
 > [!IMPORTANT]
-> If you try to save a note with HTML markup using the portal, you'll receive this error: *We're sorry, but something went wrong. Please try again, and if this persists, contact the website administrator.* To save the notes with HTML markup using the portal, you'll have to disable the request validation. However, disabling request validation applies to the entire website. For the steps to disable the request validation, and to understand its impact, go to [request validation](configure/entity-forms.md#request-validation).
+> If you try to save a note with HTML markup using the portal, you'll receive this error: *We're sorry, but something went wrong. Please try again, and if this persists, contact the website administrator.* To save the notes with HTML markup using the portal, you'll have to disable the request validation. However, disabling request validation applies to the entire website. For the steps to disable the request validation, and to understand its impact, go to [request validation](/power-apps/maker/portals/configure/entity-forms#request-validation).
 
 ## Notes configuration for multistep forms
 
@@ -253,7 +252,7 @@ Enable **Attach File** option for the **Basic Form** to show the attachment opti
 
 To enable attachment on a basic form:
 
-1. Open the [Portal Management app](../portal-management-app.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 1. Select **Basic Forms** under **Content** on the left pane.
 
