@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add a list
+# Lists
 
 A list is a data-driven configuration used to render a list of records without the need for a developer to surface the grid in the portal. Lists use Dataverse views to display records on the portal.
 
@@ -22,7 +22,9 @@ A list displays data in a grid view on Power Pages sites. Lists on pages are cre
 > [!TIP]
 > We've created a series of tutorials and videos for you to learn to use Power Pages and how create a view and add a list to a page. For more information, go to [Tutorial: Add a list to a page](tutorial-add-list-to-page.md).
 
-To add a list:
+## Add a list
+
+To add a list to a page:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of the page.
 
@@ -34,37 +36,50 @@ To add a list:
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
-1. You can choose either to create a new list or use an existing list.
-
-   If you choose to create a new list, you'll need to enter the following criteria.
+    The **Add a list** window will open.
 
     :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
 
-    | List | Description |
-    | ----------- | ----------- |
-    | Choose a table | The name of the table the views are loaded from. |
-    | Select Dataverse views | The view of the target table that will be rendered. To modify the columns within the view, you'll need to access the Data workspace. |
-    | Name your copy of the selected list | The name of the list. |
+### Set up your list
 
-    | Data | Description |
-    | ----------- | ----------- |
-    | Create a new record | Allows the user to create a new record. You'll need to select the target webpage, form, or URL that contains the new record. |
-    | Download list contents | Allows the user to download list contents into an *.xlsx file. Change the default button label by editing the display label. |
-    | View details | Allows the user to view details.  You'll need to select the webpage, form, or URL that contains the details. | 
-    | Edit record | Allows the user to edit the record. You'll need to select the webpage, form, or URL that contains the record details to edit. Change the default button label by editing the display label. |
-    | Delete record | Allows the user to delete the record. | 
+You need to specify values for each of the Set up fields. Select the **Set up** menu tab in the **Add a list** window to complete this step.
 
-    | Settings | Description |
-    | - | - |
-    | Number of records per page | Determines how many records will be displayed per page. If the table contains more records, navigation controls will appear for the user to view the next or previous set of records. |
-    | Enable search in list | Turns on the search feature for the list. Add a placeholder text for the search bar |
 
-    > [!NOTE]
-    > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to view the data on the lists.
+| List | Description |
+| ----------- | ----------- |
+| Choose a table | The name of the table the views are loaded from. |
+| Select Dataverse views | The view of the target table that will be rendered. To modify the columns within the view, you'll need to access the Data workspace. |
+| Name your list | The name of the list. |
 
-1. You can select the ellipsis (**...**) to duplicate the list, move it up or down within the section, or delete it.
+ ### Choose list actions
 
-## Add list filters
+Specify what actions you'd like to take for your list by configuring list actions. The actions are listed under the **Actions** menu tab in the **Add a list** window. For each of these options, you can also change the default button label by editing the **Display label** field. 
+
+| Data | Description |
+| ----------- | ----------- |
+| Create a new record | Allows the user to create a new record. You'll need to select the target webpage, form, or URL that contains the new record. |
+| Download list contents | Allows the user to download list contents into an *.xlsx file.  |
+| View details | Allows the user to view details.  You'll need to select the webpage, form, or URL that contains the details.| 
+| Edit record | Allows the user to edit the record. You'll need to select the webpage, form, or URL that contains the record details to edit.  |
+| Delete record | Allows the user to delete the record.  | 
+
+### Specify more options
+
+You may find that you want to customize your list options even further.  Visit the **More options** menu tab from the **Add a list** window to configure more options for your list.
+
+| Settings | Description |
+| - | - |
+| Number of records per page | Determines how many records will be displayed per page. If the table contains more records, navigation controls will appear for the user to view the next or previous set of records. |
+| Enable search in list | Turns on the search feature for the list. Add a placeholder text for the search bar |
+
+> [!NOTE]
+> You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to view the data on the lists.
+
+### Duplicate a list
+
+You can select the ellipsis (**...**) to duplicate a list, move it up or down within the section, or delete it from the Pages workspace inside design studio.
+
+## List filters
 
 Makers can add list filters to their Power Pages site from the design studio.  
 
