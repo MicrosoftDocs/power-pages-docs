@@ -29,6 +29,14 @@ Power Pages uses the Power Platform admin center to provide administrators with 
 
     :::image type="content" source="media/power-platform-admin-center.png" alt-text="Power Platform admin center.":::
 
+Alternatively, you can also access your site details directly from the Power Platform admin center.
+
+1. Go to the [Power Platform admin center](https://aka.ms/ppac).
+
+1. Under **Resources**, select **Power Pages sites**.
+
+1. Select site to which you view details or perform admin actions. 
+
 The following capabilities are accessible from the admin center. More information on these features may be linked to the Power Apps documentation.
 
 ## Site Actions
@@ -112,13 +120,9 @@ Select **...** for more site actions.
 
 ## Add yourself as an owner of the Azure AD application
 
-If you aren't a global administrator and you try to manage a website that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your portal.
+If you aren't a global administrator and you try to manage a website that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your website.
 
-1. Go to the [Power Platform admin center](https://aka.ms/ppac).
-
-1. Under **Resources**, select **Power Pages sites**.
-
-1. Select site to which you want to be the associated as the Azure AD application owner. 
+1. Go to the Power Platform admin center following the steps above.
 
 1. From the **Site Details** section, copy the value of the **Application Id** field.    
 
