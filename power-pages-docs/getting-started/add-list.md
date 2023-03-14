@@ -75,6 +75,8 @@ You may find that you want to customize your list options even further.  Visit t
 > [!NOTE]
 > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to view the data on the lists.
 
+You can also specify more options using the [Portal Management app](../configure/portal-management-app.md).
+
 ### Duplicate a list
 
 You can select the ellipsis (**...**) to duplicate a list, move it up or down within the section, or delete it from the Pages workspace inside design studio.
