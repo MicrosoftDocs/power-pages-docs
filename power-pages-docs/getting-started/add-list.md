@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Lists
+# Add list
 
 A list is a data-driven configuration used to render a list of records without the need for a developer to surface the grid in the portal. Lists use Dataverse views to display records on the portal.
 
@@ -22,9 +22,7 @@ A list displays data in a grid view on Power Pages sites. Lists on pages are cre
 > [!TIP]
 > We've created a series of tutorials and videos for you to learn to use Power Pages and how create a view and add a list to a page. For more information, go to [Tutorial: Add a list to a page](tutorial-add-list-to-page.md).
 
-## Add a list
-
-To add a list to a page:
+To add a list:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of the page.
 
@@ -79,7 +77,7 @@ You can also specify more options using the [Portal Management app](../configure
 
 ### Duplicate a list
 
-You can select the ellipsis (**...**) to duplicate a list, move it up or down within the section, or delete it from the Pages workspace inside design studio.
+From the Pages workspace inside design studio, you can select the ellipsis (**...**) on the list component to duplicate a list, move it up or down within the section, or delete it .
 
 ## List filters
 
