@@ -34,9 +34,14 @@ To add a list:
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
-    The **Add a list** window will open.
+    - The **Add a list** window will open.
+    - Choose to create a new list or choose an existing list, then select **Ok**.
+
+    If you choose to create a new list, the Add a list window will open to the Set up tab.
 
     :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
+
+    If you use an existing list, you'll be redirected to the pages workspace.  Choose the list and select the **Edit list** button just above the component to access menu options to configure your list.
 
 ### Set up your list
 
@@ -77,7 +82,7 @@ You can also specify more options using the [Portal Management app](../configure
 
 ### Duplicate a list
 
-From the Pages workspace inside design studio, you can select the ellipsis (**...**) on the list component to duplicate a list, move it up or down within the section, or delete it .
+From the Pages workspace inside design studio, you can select the ellipsis (**...**) on the list component to duplicate a list, move it up or down within the section, or delete it.
 
 ## List filters
 
