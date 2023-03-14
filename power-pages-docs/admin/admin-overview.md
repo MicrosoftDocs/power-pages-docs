@@ -110,5 +110,28 @@ Select **...** for more site actions.
 | Power BI Embedded Service | See [Enable Power BI Embedded service](/power-apps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-embedded-service) |
 | SharePoint Integration | See [Manage SharePoint documents](/power-apps/maker/portals/manage-sharepoint-documents) |
 
+## Add yourself as an owner of the Azure AD application
+
+If you aren't a global administrator and you try to manage a website that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your portal.
+
+1. Go to the [Power Platform admin center](https://aka.ms/ppac).
+
+1. Under **Resources**, select **Power Pages sites**.
+
+1. Select site to which you want to be the associated as the Azure AD application owner. 
+
+1. From the **Site Details** section, copy the value of the **Application Id** field.    
+
+1. Go to Azure AD associated with your tenant. More information: [Take over an unmanaged directory as administrator in Azure Active Directory](/azure/active-directory/active-directory-manage-o365-subscription).
+
+1. In Azure AD, search for the app registration by using the application ID you copied. You might need to switch from **My apps** to **All apps**.
+
+1. Add users or groups as owners of this app registration. More information: [Managing access to apps](/azure/active-directory/active-directory-managing-access-to-apps)
+
+    > [!Note]
+    > This task can be performed either by a global administrator of your organization or the existing owner of this application.
+
+1. After you've added yourself as an owner, reopen the site details page from the Power Platform admin center.
+
 ## See also
 - [Power Pages admin APIs](admin-api.md)
