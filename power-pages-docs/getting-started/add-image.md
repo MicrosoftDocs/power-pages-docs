@@ -65,8 +65,15 @@ Once the link is created, you can click the **link icon** to edit or remove the 
 Options to adjust the size of your image are located under **More options**. To access these options:
 
 1. Select the **gear icon** from the editing options above the image to access the **More options** window.
-1. Modify the data in the height and width fields.
+1. Update the height and width fields.
 1. Select the **OK** button.
+
+### Add alt text to an image
+
+1. Select the **gear icon** from the editing options above the image to access the **More options** window.
+1. Update the alt text field.
+1. Select the **OK** button.
+
 
 
 
