@@ -41,11 +41,11 @@ To add an image:
 
 To format your image, select it and a menu with editing options will appear:
 
-    - Select a new image
-    - Configure the alignment
-    - Add a link to the image
-    - Access more options
-    - Duplicate the image, move it up, move it down, or delete it
+- Select a new image
+- Configure the alignment
+- Add a link to the image
+- Access more options
+- Duplicate the image, move it up, move it down, or delete it
 
 :::image type="content" source="media/add-image/edit-image.png" alt-text="Editing options for images in the design studio.":::
 
