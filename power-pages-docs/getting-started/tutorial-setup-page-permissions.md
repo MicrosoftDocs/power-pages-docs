@@ -33,6 +33,12 @@ When you create your site, you may want to protect one or more pages so that onl
 
 ## Create page permissions
 
+This video shows you how to restrict access to a specific webpage.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5daPh]
+
+The following steps outline how to configure page permissions to restrict access to a specific page.
+
 1. Sign in to [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select your site, and then select **Edit**.
