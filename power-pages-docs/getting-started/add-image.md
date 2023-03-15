@@ -55,7 +55,8 @@ To add a link to your image:
 
 1. Choose the **link icon** from the editing options above the image.
 1. Select a radio button to **Link to a URL** or **Link to a page**.
-1. Fill in the text field.
+    * If you are linking to a URL, fill in the text field.
+    * If you are linking to a page, select the page from the drop down.
 1. Select the **OK** button.
 
 Once the link is created, you can click the **link icon** to edit or remove the link.
