@@ -18,9 +18,6 @@ contributors:
 
 Azure Active Directory B2C (Azure AD B2C) supports user interface customization for sign-up and sign-in experience. With this feature, you can configure Azure AD B2C tenant with a custom sign-up and sign-in page created inside your Power Pages site. In this article, you'll learn about how to create, and configure a custom sign-up/sign-in web page with sample HTML in Power Pages for use with Azure AD B2C authentication.
 
-> [!NOTE]
-> These instructions also let you configure the Azure AD B2C user interface for Power Pages sites. More information: [What is Power Pages](/power-pages/introduction)
-
 ## Prerequisites
 
 Before you begin, ensure you've configured Azure AD B2C authentication for your Power Pages site with [automatic](azure-ad-b2c-provider.md) or [manual](azure-ad-b2c-provider-manual.md) steps. You'll need to use this Azure AD B2C configuration to customize the user interface for Power Pages while following below steps.
