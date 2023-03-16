@@ -192,10 +192,7 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
     - The selection of component isn't correct and hovering on a component provides incorrect target indication.
     - Two or three column sections don't render properly in Power Apps portals Studio but works fine on the website.
 
-### See also
-
-[Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
-A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](security/site-visibility.md)state to **public** before disabling Azure Active Directory authentication.
+More information: [Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
 
 ## Power Pages design studio issues
 
