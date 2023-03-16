@@ -2,7 +2,7 @@
 title: Power Pages white papers
 description: Power Pages white papers
 author: nickdoelman
-ms.topic: article
+ms.topic: overview
 ms.custom: 
 ms.date: 11/14/2022
 ms.author: kkendrick
