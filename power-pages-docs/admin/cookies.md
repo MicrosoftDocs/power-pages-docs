@@ -24,7 +24,7 @@ Power Pages also use cookies to store information for various purposes. The foll
 | Cookie name | Description | Lifetime |
 | - | - | - |
 | __RequestVerificationToken | Used by the [antiforgery](/dotnet/api/system.web.helpers.antiforgeryconfig.cookiename) system. | Session |
-| .AspNet.ApplicationCookie | Used to identify user sessions. A user session starts when a user browses website for the first time. And ends when the session is closed. [Configure authentication](../security/configure-portal-authentication.md) can be used to change session expiry time span. | Session |
+| .AspNet.ApplicationCookie | Used to identify user sessions. A user session starts when a user browses website for the first time. And ends when the session is closed. [Configure authentication](../security/authentication/configure-portal-authentication.md) can be used to change session expiry time span. | Session |
 | adxPreviewUnpublishedEntities | Stores preview **ON/OFF** mode used in classic CMS system for website administrators. | Session |
 | adx-notification | Used in basic form actions to store alert message to be shown on redirection. | Session |
 | ARRAffinity | Added automatically by Azure websites and ensures that requests are load balanced between different sites. Doesn't store any of user information. | Session |

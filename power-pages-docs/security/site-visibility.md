@@ -152,4 +152,4 @@ A Power Pages website in private mode won't work when you disable Azure Active D
 
 ## See also
 
-[Configure authentication](configure-portal-authentication.md)
+[Configure Power Pages site authentication](authentication/configure-portal-authentication.md)

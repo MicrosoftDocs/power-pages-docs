@@ -78,9 +78,6 @@ Several identity providers that you can configure are added by default. You can 
 
 To add an identity provider, select **Add provider** from **Authentication Settings**.
 
-> [!TIP]
-> You can also select **Add provider** from the [portal details page](#authentication-settings-from-the-portal-details-page).
-
 Select from the available list of providers, enter a name, and then select **Next** to configure the provider settings. The provider name you enter here is displayed on the sign-in page for users as the text on the button they use when selecting this provider.
 
 To configure a provider, select **Configure** (or select **More Commands** (**...**), and then select **Configure**).

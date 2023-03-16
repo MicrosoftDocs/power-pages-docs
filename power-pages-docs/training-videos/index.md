@@ -229,6 +229,6 @@ The following videos provide an overview of authentication and walk you through 
 
 ### See also
 
-[Configure authentication](../security/configure-portal-authentication.md)  
+[Configure Power Pages site authentication](../security/authentication/configure-portal-authentication.md)
 [Page permissions](../security/page-security.md)
 
