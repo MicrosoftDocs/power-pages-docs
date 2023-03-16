@@ -23,7 +23,7 @@ You can add a WS-Federation&ndash;compliant security token service provider&mdas
 
 To configure a WS-Federation provider
 
-1. Select [Add provider](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) for your portal.
+1. Select [Add provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) for your portal.
 
 1. For **Login provider**, select **Other**.
 
@@ -63,7 +63,7 @@ To configure a WS-Federation provider
 
 **To edit a WS-Federation provider**
 
-See [Edit a provider](use-simplified-authentication-configuration.md#edit-a-provider).
+See [Edit a provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#edit-a-provider).
 
 ### See also
 
