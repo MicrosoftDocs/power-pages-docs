@@ -123,7 +123,11 @@
     - name: Manage websites from the admin center
       href: admin/power-platform-admin-center.md
     - name: Roles required for administration
-      href: admin/admin-roles.md       
+      href: admin/admin-roles.md
+    - name: Configure website actions     
+      items:
+        - name: Download public key
+          href: /admin/get-public-key.md       
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
     - name: Update solution
