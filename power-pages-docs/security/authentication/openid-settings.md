@@ -24,7 +24,7 @@ In this article, you'll learn about configuring an OpenID Connect provider for p
 
 **To configure Azure AD as the OpenID Connect provider by using the Implicit Grant flow**
 
-1. Select [Add provider](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) for your portal.
+1. Select [Add provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-or-configure-a-provider) for your portal.
 
 1. For **Login provider**, select **Other**.
 
