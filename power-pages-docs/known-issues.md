@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/24/2023
+ms.date: 3/7/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -73,11 +73,11 @@ Modify the theme in the **Style workspace** using the following steps:
 
 ## Site visibility
 
-A Power Pages website in private mode will not work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
 
 ## Dynamics 365 templates 
 
-Editing capabilities in Power Pages design studio are not available for [Microsoft Dynamics 365 templates](templates/dynamics-365-templates.md).
+Editing capabilities in Power Pages design studio aren't available for [Microsoft Dynamics 365 templates](templates/dynamics-365-templates.md).
 
 You can preview the webpages using design studio, but you can't add or modify sections, components, or text. 
 
@@ -87,7 +87,7 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
 
 - You receive the following error message when configuring or using table fields:
 
-    ***Field Name**: You have exceeded the maximum number of X characters in this field.*
+    ***Field Name**: You've exceeded the maximum number of X characters in this field.*
 
     This can happen if the referenced field for the table exceeds characters limit mentioned in the error. To increase this limit, go to the Data workspace, select the table, select the field, choose **Edit column**. In the Advanced options, increase the **Maximum character count** field value to a higher value. Allowed values: 1 through 1,048,576. 
 
@@ -106,19 +106,19 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
 
 - If you're reusing the URL of a recently deleted site to create a new site, it will have some delay for runtime to setup. This experience happens because the purge of previous resources would still be in progress and may take from 30 minutes to 1 hour for the new site to setup on Azure. The site will also not be available for editing during this time and may show errors when launched in studio for editing.
 
-- When switching an environment in Power Apps, the sites within an environment may not show up immediately in **Apps** or **Recent Apps** list. This experience happens particularly on environments that are created in a different region than their tenant. The workaround is to use browser refresh or wait for some time for the site to show up in the apps list. You will be able to view all sites in an environment from the [Power Pages home page](https://aka.ms/mpp).
+- When switching an environment in Power Apps, the sites within an environment may not show up immediately in **Apps** or **Recent Apps** list. This experience happens particularly on environments that are created in a different region than their tenant. The workaround is to use browser refresh or wait for some time for the site to show up in the apps list. You'll be able to view all sites in an environment from the [Power Pages home page](https://aka.ms/mpp).
 
 - If you keep the portal settings pane open in Power Apps home page while resetting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center, a user will see the "Something went wrong" error message in the portal settings pane, as the site is no longer available.
 
 - In certain cases, when you create a new site, the styles aren't applied properly to the site, and the website is displayed without the styles when opened through **Browse website**. This behavior rarely happens and styles can be recovered by restarting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center.
 
-- When configuring a [basic form](/power-apps/maker/portals/configure/entity-forms) using the [Portals Management app](configure/portal-management-app.md), the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form. When creating a form in [Data workspace](getting-started/use-data-workspace.md), you will only be presented with the **Main** form.
+- When configuring a [basic form](/power-apps/maker/portals/configure/entity-forms) using the [Portals Management app](configure/portal-management-app.md), the incorrect model-driven form is displayed when rendered as a basic form on a page. This may happen when a model-driven form name is duplicated across different form types (**Main**, **Card**, and **QuickViewform**). Only one form name appears when configuring or creating a basic form for the portal. To resolve the issue, rename or create a copy (with a unique name) of the model-driven form to use when configuring the basic form. When creating a form in [Data workspace](getting-started/use-data-workspace.md), you'll only be presented with the **Main** form.
 
-- By default, Power Pages sites uses the **Azure Active Directory Graph API** for the portal's [Azure app registration](/power-apps/maker/portals/admin/connectivity) which is currently deprecated. Power Pages will use the [Microsoft Graph API](/graph/use-the-api/) in a future update, so no administrator intervention is required. If the existing Azure Active Directory Graph API permission is replaced manually using the Microsoft Graph API, it will revert back to the Azure Active Directory Graph API when you [Enable or Disable SharePoint integration](/power-apps/maker/portals/manage-sharepoint-documents#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center) from the Power Pages hub in the Power Platform admin center.
+- By default, Power Pages sites use the **Azure Active Directory Graph API** for the portal's [Azure app registration](/power-apps/maker/portals/admin/connectivity) which is currently deprecated. Power Pages will use the [Microsoft Graph API](/graph/use-the-api/) in a future update, so no administrator intervention is required. If the existing Azure Active Directory Graph API permission is replaced manually using the Microsoft Graph API, it will revert back to the Azure Active Directory Graph API when you [Enable or Disable SharePoint integration](/power-apps/maker/portals/manage-sharepoint-documents#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center) from the Power Pages hub in the Power Platform admin center.
 
     :::image type="content" source="media/known-issues/azure-ad-graph-api.png" alt-text="Azure AD Graph API configuration.":::
 
-- When configuring the *Open in New Window* setting on the **Profile** [web link](/power-apps/maker/portals/configure/manage-web-links), the profile page will not open in a new window. To resolve this issue, update the **Header** [web template](/power-apps/maker/portals/liquid/store-content-web-templates) by updating the [Liquid](/power-apps/maker/portals/liquid/liquid-overview) code in the `{% if profile_nav %}` section.
+- When configuring the *Open in New Window* setting on the **Profile** [web link](/power-apps/maker/portals/configure/manage-web-links), the profile page won't open in a new window. To resolve this issue, update the **Header** [web template](/power-apps/maker/portals/liquid/store-content-web-templates) by updating the [Liquid](/power-apps/maker/portals/liquid/liquid-overview) code in the `{% if profile_nav %}` section.
 
     :::image type="content" source="media/known-issues/profile-weblink.png" alt-text="Showing line of code to update in the header web template.":::
 
@@ -192,7 +192,34 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
     - The selection of component isn't correct and hovering on a component provides incorrect target indication.
     - Two or three column sections don't render properly in Power Apps portals Studio but works fine on the website.
 
-### See also
+More information: [Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
 
-[Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
-A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+## Power Pages design studio issues
+
+### Images not displaying in Power Pages design studio
+
+If third party cookies are disabled in your browser, images won't display in Power Pages design studio. To correct this known issue, you need to enable cookies in your browser. 
+
+Here's how to enable cookies if your browser is blocking them:
+
+# [Microsoft Edge](#tab/Edge)
+
+1. In the Edge window, select More (...) > Settings > View advanced settings.
+
+1. Scroll down to Cookies, and select Don't block cookies
+
+# [Google Chrome](#tab/Chrome)
+
+1. In a Chrome window, do one of the following:
+
+    - In the browser address box, enter chrome://settings/content.
+
+        OR
+
+    - On the Chrome menu, select Settings > Show advanced settings, and then under Privacy, select Content settings.
+
+1. In the Content settings dialog box, under Cookies, make sure Allow local data to be set (recommended) is selected.
+
+1. Select Done and refresh the browser.
+
+---
