@@ -18,7 +18,7 @@ contributors:
 
 As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md), you can configure several identity providers that use the OAuth 2.0 protocol. The additional authentication settings in this section apply to the [Microsoft](oauth2-microsoft.md), [LinkedIn](oauth2-linkedin.md), [Facebook](oauth2-facebook.md), [Google](oauth2-google.md), and [Twitter](oauth2-twitter.md) providers.
 
-To configure the additional settings for any OAuth 2.0 identity provider, select **Configure** from the [provider settings](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) page, and expand **Additional settings**.
+To configure the additional settings for any OAuth 2.0 identity provider, select **Configure** from the [provider settings](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) page, and expand **Additional settings**.
 
 - **Authentication type**: The OWIN authentication middleware type. <br /> Example: `https://sts.windows.net/contoso.onmicrosoft.com/`
 - **Authentication mode**: The OWIN authentication middleware mode.

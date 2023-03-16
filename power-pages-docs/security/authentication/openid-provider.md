@@ -40,7 +40,7 @@ This article explains how an identity provider that supports OpenID Connect can 
 
 Similar to all other providers, you have to sign in to [Power Apps](https://make.powerapps.com) to configure the OpenID Connect provider.
 
-1. Select [Add provider](use-simplified-authentication-configuration.md#add-configure-or-delete-an-identity-provider) for your portal.
+1. Select [Add provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) for your portal.
 
 1. For **Login provider**, select **Other**.
 
@@ -99,7 +99,7 @@ Similar to all other providers, you have to sign in to [Power Apps](https://make
 
 ## Edit an OpenID Connect provider
 
-To edit a configured OpenID Connect provider, see [Edit a provider](use-simplified-authentication-configuration.md#edit-a-provider).
+To edit a configured OpenID Connect provider, see [Edit a provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#edit-a-provider).
 
 ### See also
 
