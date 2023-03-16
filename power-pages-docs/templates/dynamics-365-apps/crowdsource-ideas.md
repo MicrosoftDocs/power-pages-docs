@@ -5,16 +5,13 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/21/2020
-ms.subservice: portals
+ms.subservice: 
 ms.author: kkendrick
 contributors:
     - nickdoelman
 ---
 
 # Crowdsource ideas
-
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
 
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
