@@ -2,7 +2,7 @@
 title: "How to: Embed a chatbot on a webpage"
 description: Learn how to embed a Power Virtual Agent chatbot on a webpage in Power Pages.
 author: neerajnandwana-msft
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
 ms.date: 02/21/2023
 ms.author: nenandw 
