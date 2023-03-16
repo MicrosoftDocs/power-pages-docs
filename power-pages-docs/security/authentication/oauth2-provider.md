@@ -23,7 +23,7 @@ To learn about individual OAuth 2.0 providers, select the name of the provider t
 - [Microsoft](oauth2-microsoft.md)
 - [LinkedIn](oauth2-linkedin.md)
 - [Facebook](oauth2-facebook.md)
-- [Google](oauth2-google.md)
+- [Google](/power-apps/maker/portals/configure/configure-oauth2-google)
 - [Twitter](oauth2-twitter.md)
 
 > [!NOTE]
