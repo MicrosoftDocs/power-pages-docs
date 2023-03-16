@@ -77,7 +77,7 @@ A Power Pages website in private mode won't work when you disable Azure Active D
 
 ## Dynamics 365 templates 
 
-Editing capabilities in Power Pages design studio aren't available for [Microsoft Dynamics 365 templates](templates/dynamics-365-templates.md).
+Editing capabilities in Power Pages design studio aren't available for [Microsoft Dynamics 365 templates](templates/dynamics-365-apps/dynamics-365-templates.md).
 
 You can preview the webpages using design studio, but you can't add or modify sections, components, or text. 
 
