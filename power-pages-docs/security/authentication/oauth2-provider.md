@@ -28,7 +28,7 @@ To learn about individual OAuth 2.0 providers, select the name of the provider t
 
 > [!NOTE]
 > - Custom OAuth providers aren't supported. For custom OAuth providers, use [OpenID Connect](openid-provider.md) instead.
-> Changes to the authentication settings [might take a few minutes](../admin/clear-server-side-cache.md#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the site by using [portal actions](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the site by using [portal actions](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
 For general settings applicable to all OAuth 2.0 providers, go to [Configure additional settings for OAuth 2.0 providers](oauth2-settings.md).
 
