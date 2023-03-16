@@ -127,7 +127,9 @@
     - name: Configure website actions     
       items:
         - name: Download public key
-          href: /admin/get-public-key.md       
+          href: admin/get-public-key.md 
+        - name: Change base URL
+          href: admin/change-base-url.md        
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
     - name: Update solution

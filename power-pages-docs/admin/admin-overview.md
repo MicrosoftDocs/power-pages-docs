@@ -101,7 +101,7 @@ Select **...** for more site actions.
 
 | Action | More Information |
 | - | - |
-| Site Checker | See [Run Portal Checker](/power-apps/maker/portals/admin/portal-checker) |
+| Site Checker | See [Run site checker](/power-apps/maker/portals/admin/portal-checker) |
 
 ## Performance & Protection
 
