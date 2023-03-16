@@ -73,7 +73,7 @@ Modify the theme in the **Style workspace** using the following steps:
 
 ## Site visibility
 
-A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
 
 ## Dynamics 365 templates 
 
@@ -195,7 +195,7 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
 ### See also
 
 [Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
-A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](/security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](security/site-visibility.md)state to **public** before disabling Azure Active Directory authentication.
 
 ## Power Pages design studio issues
 
