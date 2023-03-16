@@ -20,15 +20,15 @@ contributors:
 A custom domain can enhance your brand and help your customers more easily find your support resources. Once you provision your website and acquire your domain name, you'll need an SSL certificate to set up a custom host name. After the SSL certificate is purchased, you can use a wizard to link your website to a custom domain. Only one custom domain name can be added to a website.
 
 > [!IMPORTANT]
-> - You can add a custom domain name to a website only when the website is in production state. For more information about website stages, go to [portal lifecycle](/power-apps/maker/portals/admin/portal-lifecycle).
+> - You can add a custom domain name to a website only when the website is in production state. For more information about website stages, go to [Power Pages lifecycle](/power-apps/maker/portals/admin/portal-lifecycle).
 
-To learn about the roles required to perform this task, read [Admin roles required for portal administrative tasks](/power-apps/maker/portals/admin/portal-admin-roles).
+To learn about the roles required to perform this task, read [Admin roles required for website administrative tasks](/power-apps/maker/portals/admin/portal-admin-roles).
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
 1. Under **Resources**, select **Power Pages sites**.
 
-1. Select the site to which you want to add a custom domain. A page will open with details about your site.
+1. Select the site to which you want to add a custom domain. Select **Manage** from the main menu. A page will open with details about your site.
 
 1. In the **Site Details** section, select **Connect Custom Domain**.
 
@@ -81,7 +81,7 @@ To change your existing custom domain name:
 
 1. Under **Resources**, select **Power Pages sites**.
 
-1. Select the site to which you want to change the a custom domain. A page will open with details about your site.
+1. Select the site to which you want to change the a custom domain. Select **Manage** from the main menu. A page will open with details about your site.
 
 1. In the **Site Details** section, select the pencil icon to the right of your custom URL.
 
