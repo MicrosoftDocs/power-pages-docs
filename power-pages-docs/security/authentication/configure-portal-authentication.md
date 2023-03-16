@@ -25,7 +25,7 @@ Setting up authentication is a core customization in any Power Pages site. Simpl
 You can enable, disable, and configure identity providers from [Power Pages](https://make.powerpages.microsoft.com/) by using simplified authentication configuration. After you select an identity provider, you can then follow prompts to easily enter the provider settings.
 
 > [!NOTE]
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [portal actions](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
 To configure an identity provider for your website:
 

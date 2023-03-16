@@ -34,7 +34,7 @@ This article explains how an identity provider that supports OpenID Connect can 
 - Portals doesn't support Proof Key for Code Exchange (PKCE)&ndash;based techniques to authenticate users.
 
 > [!NOTE]
-> Changes to authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [portal actions](../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
 ## Configure the OpenID Connect provider
 

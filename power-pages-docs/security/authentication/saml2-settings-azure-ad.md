@@ -20,7 +20,7 @@ In this article, you'll learn about configuring a SAML 2.0 provider for portals 
 
 > [!NOTE]
 > - Portals can be configured with identity providers that conform to the Security Assertion Markup Language (SAML) 2.0 standard. In this article, you'll learn about using Azure AD as an example of identity providers that use SAML 2.0.
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [portal actions](../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
 **To configure Azure AD as the SAML 2.0 provider**
 

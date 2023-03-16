@@ -21,7 +21,7 @@ In this article, you'll learn about configuring a WS-Federation provider for por
 
 > [!NOTE]
 > - The portals feature isn't limited to only Azure AD, multitenant Azure AD, or Azure AD B2C as the WS-Federation providers. You can use any other provider that conforms to the WS-Federation specification.
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [portal actions](../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
 **To configure Azure AD as the WS-Federation provider**
 

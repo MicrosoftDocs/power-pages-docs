@@ -19,7 +19,7 @@ contributors:
 To provide external authentication, you can add one or more [SAML 2.0](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)&ndash;compliant identity providers. This article describes how to set up various identity providers to integrate with a portal that acts as a service provider.  
 
 > [!NOTE]
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [portal actions](../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
 **To configure a SAML 2.0 provider**
 
