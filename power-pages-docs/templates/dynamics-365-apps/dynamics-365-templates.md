@@ -27,7 +27,7 @@ Dynamics 365 templates are available for your Power Pages sites in environments 
 - Dynamics 365 Intelligent Order Management
 
 > [!NOTE]
-> - Editing capabilities in Power Pages design studio are not available for Dynamics 365 templates, see [known issues](../known-issues.md#dynamics-365-templates) for alternatives.
+> - Editing capabilities in Power Pages design studio are not available for Dynamics 365 templates, see [known issues](../../known-issues.md#dynamics-365-templates) for alternatives.
 
 ## Customer self-service
 
