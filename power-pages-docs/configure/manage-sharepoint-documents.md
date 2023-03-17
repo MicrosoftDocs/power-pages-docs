@@ -50,15 +50,15 @@ To use the document management capabilities of SharePoint, you must enable Share
 > [!NOTE]
 > You must be a global administrator to perform to enable SharePoint integration.
 
-1. Open the [Power Platform admin center](https://aka.ms/ppac).
+1. Open the [Power Platform admin center](https://aka.ms/ppac){:target="_blank"}.
 
 1. Under **Resources** choose **Power Pages sites**.
 
-1. Select the site where you want to enable SharePoint integration.
+1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
 
-<!--1. In the **Services** section, select the **SharePoint Integration** control to the **Yes** position.-->
+1. In the **Services** section, select the **SharePoint Integration** control to the **Yes** position.
 
-1. In the **Services** section, select the **SharePoint Integration** link that will open the legacy admin center. Select **Enable SharePoint integration**.
+    :::image type="content" source="media/sharepoint/power-platform-admin-center.png" alt-text="Enable SharePoint.":::
 
 1. Select **Enable** in the confirmation window. This setting will enable the website to communicate with SharePoint. While the SharePoint integration is being enabled, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is enabled.
 
@@ -67,13 +67,13 @@ To use the document management capabilities of SharePoint, you must enable Share
 > [!NOTE]
 > You must be a global administrator to perform to disable SharePoint integration.
 
-1. Open the [Power Platform admin center](https://aka.ms/ppac).
+1. Open the [Power Platform admin center](https://aka.ms/ppac){:target="_blank"}.
 
 1. Under **Resources** choose **Power Pages sites**.
 
-1. Select the site where you want to disable the SharePoint integration.
+1. Select the site where you want to disable the SharePoint integration. Select **Manage** from the main menu.
 
-<!-- 1. In the **Services** section, select the **SharePoint Integration** control to the **No** position.-->
+1. In the **Services** section, select the **SharePoint Integration** control to the **No** position.
 
 1. In the **Services** section, select the **SharePoint Integration** link that will open the legacy admin center. Select **Disable SharePoint integration**.
 
