@@ -127,11 +127,13 @@
     - name: Configure website actions     
       items:
         - name: Download public key
-          href: admin/get-public-key.md 
+          href: admin/get-public-key.md
+        - name: Delete a website
+          href: admin/delete-website.md             
         - name: Change base URL
           href: admin/change-base-url.md
         - name: Enable maintenance mode
-          href: admin/enable-maintenance-mode.md          
+          href: admin/enable-maintenance-mode.md               
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
     - name: Update solution
