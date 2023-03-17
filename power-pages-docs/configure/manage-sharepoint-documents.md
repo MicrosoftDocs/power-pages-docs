@@ -50,7 +50,7 @@ To use the document management capabilities of SharePoint, you must enable Share
 > [!NOTE]
 > You must be a global administrator to perform to enable SharePoint integration.
 
-1. Open the [Power Platform admin center](admin-overview.md).
+1. Open the [Power Platform admin center](../admin/admin-overview.md).
 
 1. Under **Resources** choose **Power Pages sites**.
 
@@ -67,7 +67,7 @@ To use the document management capabilities of SharePoint, you must enable Share
 > [!NOTE]
 > You must be a global administrator to perform to disable SharePoint integration.
 
-1. Open the [Power Platform admin center](admin-overview.md).
+1. Open the [Power Platform admin center](../admin/admin-overview.md).
 
 1. Under **Resources** choose **Power Pages sites**.
 
