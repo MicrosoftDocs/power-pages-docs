@@ -2,10 +2,9 @@
 title: "How to: Embed a chatbot on a webpage"
 description: Learn how to embed a Power Virtual Agent chatbot on a webpage in Power Pages.
 author: neerajnandwana-msft
-ms.topic: guidance
+ms.topic: how-to
 ms.custom: 
 ms.date: 02/21/2023
-ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
 contributors:
@@ -15,7 +14,7 @@ contributors:
 
 # How to: Embed a chatbot on a webpage
 
-The Power Pages design studio doesn't have the ability to add a chatbot component to a webpage using the components panel. 
+The Power Pages design studio doesn't have the ability to add a chatbot component to a webpage using the components panel.
 
 > [!NOTE]
 > You can [add a chatbot](/power-apps/maker/portals/add-chatbot) using the legacy portal Studio for websites created in Power Apps.
@@ -69,12 +68,13 @@ In the following step, we'll update the **Bot Consumer** table with our chatbot 
     | Bot Schema Name | The chatbot ID you copied from the Power Virtual Agent page. For example: `new_bot_df0a07025507434b9ebb085434ac755f`. |
     | Website | Select the lookup to the website where you want to host the chatbot. |
     | Config Json | Key-in parentheses characters. `{}` |
-    
+
     :::image type="content" source="media/pva/chatbot-record.png" alt-text="Updating chatbot record.":::
 
 ## Add chatbot to website or to specific webpages
 
-The following steps will specify if the chatbot will be visible on all pages of the site or only on specific pages. 
+The following steps will specify if the chatbot will be visible on all pages of the site or only on specific pages.
+
 - If a chatbot is only linked to one or more webpages, and no chatbot linked to a website, then the chatbot will only appear on those pages.
 - If a chatbot is linked to a website, it will appear on all webpages.
 - If both a website and webpages are linked to chatbots, the chatbot linked to the specific webpage will take precedence, and the chatbot linked to the site will appear on all other pages.
@@ -88,7 +88,7 @@ The following steps will specify if the chatbot will be visible on all pages of 
 
 1. Select **Add Existing Website**
 
-1. Choose the website where you want to host the chatbot. 
+1. Choose the website where you want to host the chatbot.
 
     :::image type="content" source="media/pva/select-website.png" alt-text="Select website.":::
 
@@ -104,7 +104,7 @@ The following steps will specify if the chatbot will be visible on all pages of 
 
 1. Select **Add Existing Website**
 
-1. Choose the website where you want to host the chatbot. 
+1. Choose the website where you want to host the chatbot.
 
     :::image type="content" source="media/pva/select-webpage.png" alt-text="Select webpage.":::
 
@@ -125,4 +125,3 @@ The following steps will specify if the chatbot will be visible on all pages of 
 ## See Also
 
 - [Power Virtual Agents](/power-virtual-agents/)
-
