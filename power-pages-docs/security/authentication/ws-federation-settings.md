@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/3/2023
+ms.date: 3/20/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -14,7 +14,7 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure a WS-Federation provider for portals with AD FS
+# Configure a WS-Federation provider for Power Pages with AD FS
 
 > [!IMPORTANT]
 > The steps for the configuration of Active Directory Federation Services (AD FS) might vary depending on the version of your AD FS server.
@@ -27,7 +27,7 @@ contributors:
     2.  Welcome: Select **Start**.
     3.  Select Data Source: select **Enter data about the relying party manually**, and then select **Next**.
     4.  Specify Display Name: Enter a name, and then select **Next**.
-        <br> Example: `https://portal.contoso.com/`
+        <br /> Example: `https://portal.contoso.com/`
     5.  Choose Profile: Select **AD FS 2.0 profile**, and then select **Next**.
     6.  Configure Certificate: Select **Next**.
     7.  Configure URL: Select the **Enable support for the WS-Federation Passive protocol** check box.<br />
