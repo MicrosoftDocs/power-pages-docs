@@ -17,8 +17,8 @@ contributors:
 The Frequently Asked Questions template provides your target audience with answers to commonly asked questions. The FAQ template organizes information with a topic, subtopic and article framework. There's a no-code administrator experience for updating and organizing content. 
 
 > [!NOTE]
-> [!INCLUDE [cc-beta-prerelease-disclaimer](../../../../../../GitHub/power-pages-docs-pr/power-pages-docs/includes/cc-beta-prerelease-disclaimer.md)]
-> [!INCLUDE [cc-preview-features-definition](../../../../../../GitHub/power-pages-docs-pr/power-pages-docs/includes/cc-preview-features-definition.md)]
+> [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Users
 
