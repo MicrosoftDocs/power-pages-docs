@@ -30,7 +30,7 @@ In the Pages workspace, hover over the header component and select **Edit site h
 
 Change your site's title and change or remove the logo in the **Title + logo** section of the header editing window. You can also [customize them using Liquid code](#customize-the-title-and-logo-using-liquid).
 
-:::image type="content" source="media/edit-header/title-logo.png" alt-text="Screenshot of the title and logo options in the header editing window.":::<!-- EDITOR'S NOTE: Please redo the screenshot and show an example of a site title and logo alt text; for example, "Contoso company logo." -->
+:::image type="content" source="media/edit-header/title-logo.png" alt-text="Screenshot of the title and logo options in the header editing window.":::
 
 - Enter the title of the site in the box under **Site title**.
 - To use a different logo, select **Upload image** and follow the prompts to select an image file.  
