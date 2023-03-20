@@ -4,7 +4,7 @@ description: Learn how to make client-side calls to external APIs and secure the
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/6/2023
+ms.date: 3/20/2023
 ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
@@ -23,7 +23,7 @@ OAuth 2.0 implicit grant flow supports [token](#token-endpoint-details) endpoint
 
 ## Custom certificates 
 
-Using the default certificate for OAuth 2.0 implicit grant flow is [deprecated](/power-pages/important-changes-deprecations#oauth-20-implicit-grant-flow-within-your-portal). You will need to use a custom certificate while using the OAuth 2.0 endpoint. Use the [Power Platform admin center](/power-apps/maker/portals/admin/manage-custom-certificates) to upload the custom certificate. After uploading the custom certificate, you need to update site settings as below: 
+Use the [Power Platform admin center](/power-apps/maker/portals/admin/manage-custom-certificates) to upload the custom certificate. After uploading the custom certificate, you need to update site settings as below: 
 
 1. Go to the [Portal Management app](../configure/portal-management-app.md) and in the **Website** section, select **Site Settings**. 
 
@@ -67,52 +67,6 @@ The error in a token endpoint is returned as a JSON document with the following 
 - **Timestamp**: Date and time when the error is generated.
 
 The error message is displayed in the default language of the signed-in user. If the user isn't signed in, a sign-in page is displayed for the user to sign in. 
-For example, an error response looks as follows:
-
-```
-{"ErrorId": "PortalSTS0001", "ErrorMessage": "Client Id provided in the request is not a valid client Id registered for this portal. Please check the parameter and try again.", "Timestamp": "4/5/2019 10:02:11 AM", "CorrelationId": "7464eb01-71ab-44bc-93a1-f221479be847" }
-```
-
-## Authorize endpoint details 
-
-> [!NOTE]
-> Authorize endpoint is deprecated. Use Token endpoint POST request to get ID token.
-
-The URL for authorize endpoint is: `<portal_url>/_services/auth/authorize`. The authorize endpoint supports the following parameters:
-
-| Parameter   | Required? | Description                             |
-|---------------|-----------|---------------------------------------|
-| client_id      | Yes       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered](#register-client-id-for-implicit-grant-flow). Otherwise, an error is displayed. Client ID is added in claims in the token as `aud` and `appid` parameter and can be used by clients to validate that the token returned is for their app.<br />The maximum length is 36 characters. Only alphanumeric characters and hyphens are supported. |
-| redirect_uri      | Yes       | URL of the website where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
-| state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used to prevent cross-site-request forgery attacks.<br />The maximum length is 20 characters.              |
-| nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
-| response_type         | No        | This parameter supports only `token` as a value, which allows your app to immediately receive an access token from the authorize endpoint without making a second request to the authorize endpoint.                               |
-|||
-
-### Successful response
-
-The authorize endpoint returns the following values in the response URL as a fragment:
-
-- **token**: Token is returned as a JSON Web Token (JWT) digitally signed by the site’s private key.
-- **state**: If a state parameter is included in the request, the same value should appear in the response. The app should verify that the state values in the request and response are identical.
-- **expires_in**: The length of time that the access token is valid (in seconds).
-
-For example, a successful response looks as follows:
-
-```
-GET https://aadb2cplayground.azurewebsites.net/#token=eyJ0eXAiOiJKV1QiLCJhbGciOI1NisIng1dCI6Ik5HVEZ2ZEstZnl0aEV1Q&expires_in=3599&state=arbitrary_data_you_sent_earlier
-```
-
-### Error response
-
-The error in authorize endpoint is returned as a JSON document with the following values:
-
-- **Error ID**: Unique identifier of the error.
-- **Error message**: A specific error message that can help you identify the root cause of an authentication error.
-- **Correlation ID**: A GUID that is used for debugging purposes. If you have enabled diagnostic logging, correlation ID would be present in server error logs.
-- **Timestamp**: Date and time when the error is generated.
-
-The error message is displayed in the default language of the signed-in user. If the user isn't signed in, the sign-in page is displayed for the user to sign in. 
 For example, an error response looks as follows:
 
 ```
