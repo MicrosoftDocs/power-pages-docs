@@ -120,22 +120,44 @@
   items:
     - name: Use the admin center
       href: admin/admin-overview.md
-    - name: Use admin APIs
-      href: admin/admin-api.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
     - name: Update solution
-      href: admin/update-portal-solution.md
+      href: admin/update-solution.md
     - name: View error log
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
     - name: Governance
       href: admin/coe-portals.md
+    - name: Update, upgrade, migrate and convert websites
+      items:
+        - name: Convert a website
+          href: admin/convert-site.md
+        - name: Upgrade a website
+          href: admin/upgrade-site.md
+        - name: Update Power Pages solution
+          href: admin/update-solution.md
+        - name: Update Dynamics 365 instance
+          href: admin/update-dynamics365-instance.md
+        - name: Migrate website configuration
+          href: admin/migrate-site-configuration.md
 - name: Configure Power Pages
   items:
     - name: Portal Management app overview
       href: configure/portal-management-app.md
+    - name: Search Configuration
+      items:
+      - name: Search overview
+        href: configure/search/overview.md
+      - name: Search additional tables
+        href: configure/search/additional-tables.md
+      - name: Faceted search
+        href: configure/search/faceted.md
+      - name: Search file attachments
+        href: configure/search/file-attachment.md
+      - name: Progressive search
+        href: configure/search/progressive.md
     - name: Advanced configuration
       href: configure/advanced-config.md
 - name: Integrate Power Pages
@@ -146,18 +168,86 @@
       href: configure/azure-front-door.md                       
 - name: Customize and extend Power Pages
   items:
-    - name: Custom page layouts
-      href: configure/custom-page-layouts.md
-    - name: Use Visual Studio Code and Power Platform CLI
-      href: configure/cli-tutorial.md
+    - name: Liquid
+      items:   
+        - name: Liquid overview
+          href: configure/liquid/liquid-overview.md
+        - name: Understand Liquid operators
+          href: configure/liquid/liquid-operators.md
+        - name: Understand Liquid types
+          href: configure/liquid/liquid-types.md
+        - name: Understand Liquid conditional operators
+          href: configure/liquid/liquid-conditional-operators.md
+        - name: Understand Liquid objects
+          href: configure/liquid/liquid-objects.md
+        - name: Understand available Liquid tags
+          items:
+            - name: Liquid tags overview
+              href: configure/liquid/liquid-tags.md
+            - name: Understand control flow tags
+              href: configure/liquid/control-flow-tags.md
+            - name: Understand iteration tags
+              href: configure/liquid/iteration-tags.md
+            - name: Understand variable tags
+              href: configure/liquid/variable-tags.md
+            - name: Understand template tags
+              href: configure/liquid/template-tags.md
+            - name: Understand Dataverse Liquid tags
+              href: configure/liquid/dataverse-liquid-tags.md
+        - name: Understand Liquid filters
+          href: configure/liquid/liquid-filters.md                                
     - name: Web templates
-      href: configure/store-content-web-templates.md
-    - name: Portals Web API overview
-      href: configure/web-api-overview.md
-    - name: Component framework
-      href: configure/component-framework.md
-    - name: Liquid overview
-      href: configure/liquid-overview.md
+      href: configure/web-templates.md
+    - name: Create custom web templates
+      items:
+        - name: Create custom page layouts
+          href: configure/custom-page-layouts.md
+        - name: Use hybrid navigation to render page hierarchy
+          href: configure/liquid/hybrid-navigation-render-page-hierarchy.md
+        - name: Redirect a user to a default page on sign-in
+          href: configure/liquid/redirect-a-user-homepage.md
+        - name: Render a list for a webpage
+          href: configure/liquid/render-list-current-page.md
+        - name: Render an RSS feed 
+          href: configure/liquid/render-rss-custom-web-template.md
+        - name: Render a site header and primary navigation bar
+          href: configure/liquid/render-site-header-primary-navigation.md
+    - name: Use Web API
+      items:
+        - name: Portals Web API overview
+          href: configure/web-api-overview.md
+        - name: Perform read operations
+          href: configure/read-operations.md
+        - name: Perform write, update, and delete operations
+          href: configure/write-update-delete-operations.md
+        - name: Compose HTTP requests and handle errors
+          href: configure/web-api-http-requests-handle-errors.md
+        - name: "How to: use the portals Web API"
+          href: configure/webapi-how-to.md
+    - name: Use code components
+      items:
+        - name: Code component overview
+          href: configure/component-framework.md
+        - name: "Tutorial: Use code components in Power Pages"
+          href: configure/component-framework-tutorial.md
+        - name: "Tutorial: Use dataset code components in Power Pages"
+          href: configure/tutorial-pcf-code.md          
+        - name: "Tutorial: Configure rich text editor control"
+          href: configure/component-rte-tutorial.md
+        - name: Use code components Liquid template tag
+          href: configure/liquid/component-framework-liquid.md
+        - name: Implement a sample portal Web API component
+          href: configure/implement-webapi-component.md
+    - name: Use Microsoft Power Platform CLI
+      items:                          
+        - name: Overview of Power Platform CLI
+          href: configure/power-platform-cli.md
+        - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
+          href: configure/power-platform-cli-tutorial.md
+        - name: Use Visual Studio Code for Power Pages
+          href: configure/vs-code-extension.md      
+    - name: Use admin APIs
+      href: admin/admin-api.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
 - name: Secure Power Pages
@@ -220,8 +310,18 @@
       href: getting-started/tutorial-add-custom-page-layout.md
 - name: Training videos
   href: training-videos/index.md
+- name: Compliance and accessibility
+  items:
+    - name: Accessibility
+      href: admin/accessibility.md
+    - name: Implement GDPR
+      href: configure/implement-gdpr.md
+    - name: Cookies
+      href: admin/cookies.md
 - name: System requirements, limits, and configuration
   href: system-requirements.md  
+- name: Power Pages FAQs
+  href: faq.yml
 - name: Known issues
   href: known-issues.md
 - name: Important changes and deprecations

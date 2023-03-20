@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/11/2022
+ms.date: 03/01/2023
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -22,7 +22,6 @@ The Power Pages site visibility feature allows you to manage who has access to y
 > [!IMPORTANT]
 > - All new sites created in Power Pages are private by default. When the website is ready to go live, you can change the site visibility to public.
 > - Site visibility feature is only available for websites with version [9.4.9.x](/power-platform/released-versions/portals/portalupdate949x) or later.
-> - All websites created during the preview period are public by default. To change the site to private, go to Set up workspace in design studio and change the site visibility. More information: [Set up workspace](../configure/setup-workspace.md)
 > - Be cautious when editing a public site because the changes are visible to external users immediately.
 
 ## Difference between a private site and a public site
@@ -76,6 +75,7 @@ To grant website access:
 > [!NOTE]
 > - Granting website access is limited to 50 users.
 > - Organization users that are part of [System administrator](/power-platform/admin/security-roles-privileges) role in the Power Platform environment where the website is created have permissions to view the website by default.
+> - Users granted access to a private site aren't automatically authenticated to the site itself. Please see [Provide access to external audiences](external-access.md) for more information.
 
 ## Permissions required to change site visibility
 
@@ -134,7 +134,7 @@ Now, you can delegate site visibility controls to a select set of users by addin
 To delegate site visibility to specific system administrators:
 
 1. Go to [Power Platform admin center](https://admin.powerplatform.com).
-1. Select **Portals**.
+1. Select **Power Pages sites**.
 1. Select your website, and then select **Manage**.
 1. In the **Security** section, select **Manage site visibility permissions**.
 
