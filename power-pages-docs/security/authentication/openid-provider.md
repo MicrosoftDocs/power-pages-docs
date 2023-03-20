@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/28/2022
+ms.date: 3/20/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -19,19 +19,19 @@ contributors:
 
 [OpenID Connect](https://openid.net/connect/) external identity providers are services that conform to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html). OpenID Connect introduces the concept of an *ID token*, which is a security token that allows the client to verify the identity of the user. The ID token also gets basic profile information about users&mdash;also known as *claims*.
 
-This article explains how an identity provider that supports OpenID Connect can be integrated with Power Apps portals. Some of the examples of OpenID Connect providers for portals: [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md), [Azure AD](openid-settings.md), [Azure AD with multiple tenants](openid-settings.md#enable-authentication-by-using-a-multitenant-azure-ad-application).
+This article explains how an identity provider that supports OpenID Connect can be integrated with Power Pages. Some of the examples of OpenID Connect providers for Power Pages: [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md), [Azure AD](openid-settings.md), [Azure AD with multiple tenants](openid-settings.md#enable-authentication-by-using-a-multitenant-azure-ad-application).
 
-## Supported and unsupported authentication flows in portals
+## Supported and unsupported authentication flows in Power Pages
 
 - Implicit Grant
-    - This flow is the default authentication method used by portals.
+    - This flow is the default authentication method used by Power Pages.
 - Authorization Code
-    - Portals uses the *client_secret_post* method to communicate with the token endpoint of the identity server.
+    - Power Pages uses the *client_secret_post* method to communicate with the token endpoint of the identity server.
     - Using the *private_key_jwt* method to authenticate with the token endpoint isn't supported.
 - Hybrid (restricted support)
-    - Portals requires *id_token* to be present in the response, so having the *response_type* value as *code token* isn't supported.
-    - The Hybrid flow in portals follows the same flow as Implicit Grant, and uses *id_token* to directly sign in the users.
-- Portals doesn't support Proof Key for Code Exchange (PKCE)&ndash;based techniques to authenticate users.
+    - Power Pages requires *id_token* to be present in the response, so having the *response_type* value as *code token* isn't supported.
+    - The Hybrid flow in Power Pages follows the same flow as Implicit Grant, and uses *id_token* to directly sign in the users.
+- Power Pages doesn't support Proof Key for Code Exchange (PKCE)&ndash;based techniques to authenticate users.
 
 > [!NOTE]
 > Changes to authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
@@ -88,8 +88,8 @@ Similar to all other providers, you have to sign in to [Power Apps](https://make
     | Valid audiences | Comma-separated list of audience URLs.  |
     | Validate issuers | If enabled, the issuer is validated during token validation. |
     | Valid issuers | Comma-separated list of issuer URLs. |
-    | Registration claims mapping | List of logical name-claim pairs to map claim values returned from the provider during sign-up to the attributes of the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in portals, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> Example: `firstname=given_name,lastname=family_name` when using *Scope* as `profile` for Azure AD. In this example, `firstname` and `lastname` are the logical names for the profile fields in portals, whereas `given_name` and `family_name` are the attributes with the values returned by the identity provider for the respective fields. |
-    | Login claims mapping | List of logical name-claim pairs to map claim values returned from the provider during every sign-in to the attributes of the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in portals, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> Example: `firstname=given_name,lastname=family_name` when using *Scope* as `profile` for Azure AD. In this example, `firstname` and `lastname` are the logical names for the profile fields in portals, whereas `given_name` and `family_name` are the attributes with the values returned by the identity provider for the respective fields. |
+    | Registration claims mapping | List of logical name-claim pairs to map claim values returned from the provider during sign-up to the attributes of the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in Power Pages, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> Example: `firstname=given_name,lastname=family_name` when using *Scope* as `profile` for Azure AD. In this example, `firstname` and `lastname` are the logical names for the profile fields in Power Pages, whereas `given_name` and `family_name` are the attributes with the values returned by the identity provider for the respective fields. |
+    | Login claims mapping | List of logical name-claim pairs to map claim values returned from the provider during every sign-in to the attributes of the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in Power Pages, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> Example: `firstname=given_name,lastname=family_name` when using *Scope* as `profile` for Azure AD. In this example, `firstname` and `lastname` are the logical names for the profile fields in Power Pages, whereas `given_name` and `family_name` are the attributes with the values returned by the identity provider for the respective fields. |
     | Nonce lifetime | Lifetime of the nonce value, in minutes. Default: 10 minutes. |
     | Use token lifetime | Indicates that the authentication session lifetime (such as cookies) should match that of the authentication token. If specified, this value will override the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting. |
     | Contact mapping with email | Specify whether the contacts are mapped to a corresponding email. <br /> When set to **On**, a unique contact record is associated with a matching email address, assigning the external identity provider to the contact after a successful user sign-in. |
@@ -104,4 +104,4 @@ To edit a configured OpenID Connect provider, see [Edit a provider](/power-apps/
 ### See also
 
 [Configure an OpenID Connect provider for Power Pages with Azure AD](openid-settings.md)
-[FAQs for using OpenID Connect in portals](openid-faqs.md)
+[FAQs for using OpenID Connect in Power Pages](openid-faqs.md)
