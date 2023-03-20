@@ -22,9 +22,6 @@ As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provide
 
 To use **Facebook** as an identity provider, you need to [create an app in Facebook](https://developers.facebook.com) with a redirect URL. For detailed steps about creating an app in Facebook, refer to [Facebook for Developers: Create an app](https://developers.facebook.com/docs/development/create-an-app).
 
-> [!NOTE]
-> The Reply URL is used by the Facebook app to redirect users to the portal after the authentication succeeds. If your website uses a custom domain name, you might have a different URL than the one provided here.​
-
 To create an app in Facebook:
 
 1. Open [Facebook Developers App Dashboard](https://developers.facebook.com/apps).
@@ -45,6 +42,8 @@ To create an app in Facebook:
 1. Select **Save**.
 1. Select **Settings** under **Facebook Login**.
 1. In **Valid OAuth redirect URIs**, enter website URL in this format: `https://contoso.powerappsportals.com/signin-facebook`
+    > [!NOTE]
+    > The Reply URL is used by the Facebook app to redirect users to the portal after the authentication succeeds. If your website uses a custom domain name, you might have a different URL than the one provided here.​
 1. Select **Save Changes** at the bottom of the page.
 1. Select **Settings** on the left-pane.
 1. Select **Get Advanced Access** in the notification that states "Your app has Standard Access to public_profile. To use Facebook Login, switch public_profile to Advanced Access.". You can also select **App Review** from the left-pane, and then select **Permissions and Features** instead.
