@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/10/2023
+ms.date: 03/20/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -52,11 +52,19 @@ To use the document management capabilities of SharePoint, you must enable Share
 
 1. Open the [Power Platform admin center](../admin/admin-overview.md).
 
-1. Under **Resources** choose **Power Pages sites**.
+    1. Under **Resources** choose **Power Pages sites**.
 
-1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
+    1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
 
-1. In the **Services** section, select the **SharePoint Integration** control to the **Yes** position.
+    **Or**
+
+    1. In the **Environments** section, select the environment that contains the site you want to enable SharePoint integration.
+    
+    1. In the **Resources** area, choose **Power Pages sites**.
+
+    1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
+
+1. On the site information page, in the **Services** section, select the **SharePoint Integration** control to the **Yes** position.
 
     :::image type="content" source="media/sharepoint/power-platform-admin-center.png" alt-text="Enable SharePoint.":::
 
@@ -69,13 +77,19 @@ To use the document management capabilities of SharePoint, you must enable Share
 
 1. Open the [Power Platform admin center](../admin/admin-overview.md).
 
-1. Under **Resources** choose **Power Pages sites**.
+    1. Under **Resources** choose **Power Pages sites**.
 
-1. Select the site where you want to disable the SharePoint integration. Select **Manage** from the main menu.
+    1. Select the site where you want to disable SharePoint integration. Select **Manage** from the main menu.
 
-1. In the **Services** section, select the **SharePoint Integration** control to the **No** position.
+    **Or**
 
-1. In the **Services** section, select the **SharePoint Integration** link that will open the legacy admin center. Select **Disable SharePoint integration**.
+    1. In the **Environments** section, select the environment that contains the site you want to disable SharePoint integration.
+    
+    1. In the **Resources** area, choose **Power Pages sites**.
+
+    1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
+
+1. On the site information page, in the **Services** section, select the **SharePoint Integration** control to the **No** position.
 
 1. Select **Disable** in the confirmation window. Turning off this setting will disable communication with SharePoint. During the process, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is disabled.
 
