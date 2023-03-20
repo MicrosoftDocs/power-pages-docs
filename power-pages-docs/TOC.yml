@@ -138,6 +138,8 @@
           href: admin/import-metadata-translation.md
         - name: Set up Power BI integration
           href: admin/set-up-power-bi-integration.md                                 
+    - name: Manage custom certificate
+      href: admin/manage-custom-certificates.md
     - name: Capacity consumption reports
       href: admin/portal-consumption-reports.md
     - name: Update solution
