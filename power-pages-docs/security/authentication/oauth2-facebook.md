@@ -14,7 +14,7 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure the Facebook provider for portals
+# Configure the Facebook provider for Power Pages
 
 As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md), Facebook is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring Facebook as the identity provider, select **Configure** from the [provider settings](configure-portal-authentication.md#add-configure-or-delete-an-identity-provider) page.
 
@@ -23,7 +23,7 @@ As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provide
 To use **Facebook** as an identity provider, you need to [create an app in Facebook](https://developers.facebook.com) with a redirect URL. For detailed steps about creating an app in Facebook, refer to [Facebook for Developers: Create an app](https://developers.facebook.com/docs/development/create-an-app).
 
 > [!NOTE]
-> The Reply URL is used by the Facebook app to redirect users to the portal after the authentication succeeds. If your portal uses a custom domain name, you might have a different URL than the one provided here.​
+> The Reply URL is used by the Facebook app to redirect users to the portal after the authentication succeeds. If your website uses a custom domain name, you might have a different URL than the one provided here.​
 
 To create an app in Facebook:
 
@@ -44,7 +44,7 @@ To create an app in Facebook:
 1. Select **Web**, and the URL for the platform entered earlier is shown.
 1. Select **Save**.
 1. Select **Settings** under **Facebook Login**.
-1. In **Valid OAuth redirect URIs**, enter portal URL in this format: `https://contoso.powerappsportals.com/signin-facebook`
+1. In **Valid OAuth redirect URIs**, enter website URL in this format: `https://contoso.powerappsportals.com/signin-facebook`
 1. Select **Save Changes** at the bottom of the page.
 1. Select **Settings** on the left-pane.
 1. Select **Get Advanced Access** in the notification that states "Your app has Standard Access to public_profile. To use Facebook Login, switch public_profile to Advanced Access.". You can also select **App Review** from the left-pane, and then select **Permissions and Features** instead.
@@ -53,7 +53,7 @@ To create an app in Facebook:
 1. At the top-center of the screen, for the **App Mode**, select **Live**. You'll be asked to do a checkup, so select **Start checkup**.
 1. Review and confirm the data use certification, certify the compliance policies, and then select **Submit**.
 1. After verifying the data use checkup, at the top-center of the screen, for the **App Mode**, select **Live**.
-1. Select **Settings** > **Basic**, and note the **App ID** and **App Secret** that will be used in the next step to configure Power Apps portals.
+1. Select **Settings** > **Basic**, and note the **App ID** and **App Secret** that will be used in the next step to configure Power Pages.
 
 ## Step 2. Configure site settings
 
