@@ -49,7 +49,7 @@ contributors:
     5. Choose Profile: Select **AD FS 2.0 profile**, and then select **Next**.
     6. Configure Certificate: Select **Next**.
     7. Configure URL: Select the **Enable support for the SAML 2.0 WebSSO protocol** check box.
-       Relying party SAML 2.0 SSO service URL: Enter https://website.contoso.com/signin-saml2<br>Note that AD FS requires that the portal run on HTTPS.
+       Relying party SAML 2.0 SSO service URL: Enter https://website.contoso.com/signin-saml2<br />Note that AD FS requires that the website run on HTTPS.
     
        > [!NOTE] 
        > The resulting endpoint has the following settings: 
