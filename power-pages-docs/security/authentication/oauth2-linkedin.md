@@ -20,10 +20,10 @@ As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provide
 
 ## Step 1. Create the LinkedIn app
 
-On the identity provider configuration steps, you'll see a **Reply URL** for your portal in step 1. You need to [create an app in LinkedIn](https://www.linkedin.com/developers/apps) with this reply URL.
+On the identity provider configuration steps, you'll see a **Reply URL** for your website in step 1. You need to [create an app in LinkedIn](https://www.linkedin.com/developers/apps) with this reply URL.
 
 > [!NOTE]
-> The Reply URL is used by the LinkedIn app to redirect users to the portal after the authentication succeeds. If your portal uses a custom domain name, you might have a different URL than the one provided here.​
+> The Reply URL is used by the LinkedIn app to redirect users to the website after the authentication succeeds. If your website uses a custom domain name, you might have a different URL than the one provided here.​
 
 **To create an app in LinkedIn**
 
@@ -31,7 +31,7 @@ On the identity provider configuration steps, you'll see a **Reply URL** for you
 2. Select **Add New Application**.
 
     - Enter the app details, such as **Application Name** and **Description**.
-    - Enter the portal URL, such as `https://contoso.powerappsportals.com`.
+    - Enter the website URL, such as `https://contoso.powerappsportals.com`.
     - Set OAuth User Agreement/Default Scope: `r\_basicprofie` and `r\_emailaddress`.
     - Enter the OAuth 2.0 Reply URL from the identity provider configuration step 1. For example, `https://portal.contoso.com/signin-linkedin`.
 
