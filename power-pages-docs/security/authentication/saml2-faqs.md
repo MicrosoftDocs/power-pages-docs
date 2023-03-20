@@ -5,7 +5,7 @@ author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/7/2023
+ms.date: 3/20/2023
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
@@ -15,41 +15,41 @@ contributors:
     - ProfessorKendrick
 ---
 
-# FAQs for using SAML 2.0 in portals
+# FAQs for using SAML 2.0 in Power Pages
 
-This article includes information about common Power Apps portals scenarios and frequently asked questions for using an authentication provider that conforms to the Security Assertion Markup Language (SAML) 2.0 standard.
+This article includes information about common Power Pages scenarios and frequently asked questions for using an authentication provider that conforms to the Security Assertion Markup Language (SAML) 2.0 standard.
 
-## Does portals support SAML 1.0&ndash;based providers?
+## Does Power Pages support SAML 1.0&ndash;based providers?
 
-No. Portals only supports SAML 2.0&ndash;based providers.
+No. Power Pages only supports SAML 2.0&ndash;based providers.
 
-## Does portals support Signed Assertion?
+## Does Power Pages support Signed Assertion?
 
-No. Portals doesn't support signed assertion requests. If you're using signed assertion, we suggest that you use OpenID Connect. If your identity provider doesn't support OpenID Connect, use an intermediary identity provider (preferably Azure AD B2C) that supports federation with SAML and can federate with portals by using OpenID Connect.
+No. Power Pages doesn't support signed assertion requests. If you're using signed assertion, we suggest that you use OpenID Connect. If your identity provider doesn't support OpenID Connect, use an intermediary identity provider (preferably Azure AD B2C) that supports federation with SAML and can federate with Power Pages by using OpenID Connect.
 
-## Does portals support signed SAML responses?
+## Does Power Pages support signed SAML responses?
 
-Yes. Portals requires all SAML responses to be signed by the identity provider.
+Yes. Power Pages requires all SAML responses to be signed by the identity provider.
 
-## Does portals support encrypted assertion and response?
+## Does Power Pages support encrypted assertion and response?
 
-No. Portals doesn't support encrypted SAML assertion or response.
+No. Power Pages doesn't support encrypted SAML assertion or response.
 
 ## What type of name identifiers are supported?
 
-Portals requires *persistent* identifiers that ensure that the user can always be uniquely identified across sessions. Portals doesn't support *transient* identifiers.
+Power Pages requires *persistent* identifiers that ensure that the user can always be uniquely identified across sessions. Power Pages doesn't support *transient* identifiers.
 
-## Does portals require any specific AuthNContextClass in SAML assertion requests?
+## Does Power Pages require any specific AuthNContextClass in SAML assertion requests?
 
-Yes. Portals will specify *PasswordProtectedTransport* in authentication requests, and requires that the identity provider support it.
+Yes. Power Pages will specify *PasswordProtectedTransport* in authentication requests, and requires that the identity provider support it.
 
-## Does portals support SAML logout request?
+## Does Power Pages support SAML logout request?
 
 Yes.  Use the [Power Platform admin center](../admin/manage-custom-certificates.md) to upload the custom certificate.  After uploading the custom certificate, copy the thumbprint of the uploaded custom certificate from the Manage custom certificate screen and paste it to site settings *Authentication/SAML2/[ProviderName]/ExternalLogoutCertThumbprint*.
 
 ### See also
 
 [Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
-[Configure a SAML 2.0 provider for portals with AD FS](saml2-settings.md)
+[Configure a SAML 2.0 provider for Power Pages with AD FS](saml2-settings.md)
 [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
 

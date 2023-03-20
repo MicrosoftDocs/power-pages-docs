@@ -1,11 +1,11 @@
 ---
-title: Configure a SAML 2.0 provider for portals with AD FS
-description: Learn how to configure SAML 2.0 provider for portals with AD FS.
+title: Configure a SAML 2.0 provider for Power Pages with AD FS
+description: Learn how to configure SAML 2.0 provider for Power Pages with AD FS.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/3/2023
+ms.date: 3/20/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -14,7 +14,7 @@ contributors:
     - dileepsinghmicrosoft
 ---
 
-# Configure a SAML 2.0 provider for portals with AD FS
+# Configure a SAML 2.0 provider for Power Pages with AD FS
 
 > [!IMPORTANT]
 > The steps for the configuration of Active Directory Federation Services (AD FS) might vary depending on the version of your AD FS server.
@@ -49,7 +49,7 @@ contributors:
     5. Choose Profile: Select **AD FS 2.0 profile**, and then select **Next**.
     6. Configure Certificate: Select **Next**.
     7. Configure URL: Select the **Enable support for the SAML 2.0 WebSSO protocol** check box.
-       Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-saml2<br>Note that AD FS requires that the portal run on HTTPS.
+       Relying party SAML 2.0 SSO service URL: Enter https://website.contoso.com/signin-saml2<br>Note that AD FS requires that the portal run on HTTPS.
     
        > [!NOTE] 
        > The resulting endpoint has the following settings: 
@@ -59,7 +59,7 @@ contributors:
        > - URL: **https://portal.contoso.com/signin-saml2**
 
     8. Configure Identities: Enter `https://portal.contoso.com/`, select **Add**, and then select **Next**.
-       If applicable, you can add more identities for each additional relying party portal. Users can authenticate across any or all available identities.
+       If applicable, you can add more identities for each additional relying party website. Users can authenticate across any or all available identities.
     9. Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, and then select **Next**.
     10. Ready to Add Trust: Select **Next**.
     11. Select **Close**.
@@ -82,9 +82,9 @@ After setting up the AD FS relying party trust, you can follow the steps in [Con
 
 ### Identity provider&ndash;initiated sign-in
 
-AD FS supports the [identity provider&ndash;initiated single sign-on (SSO)](/azure/active-directory/manage-apps/configure-saml-single-sign-on) profile of the SAML 2.0 [specification](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated%20SSO:%20POST%20Binding|outline). In order for the portal (service provider) to respond properly to the SAML request started by the identity provider, the [RelayState](/archive/blogs/askds/ad-fs-2-0-relaystate) parameter must be encoded properly.  
+AD FS supports the [identity provider&ndash;initiated single sign-on (SSO)](/azure/active-directory/manage-apps/configure-saml-single-sign-on) profile of the SAML 2.0 [specification](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated%20SSO:%20POST%20Binding|outline). In order for the website (service provider) to respond properly to the SAML request started by the identity provider, the [RelayState](/archive/blogs/askds/ad-fs-2-0-relaystate) parameter must be encoded properly.  
 
-The basic string value to be encoded into the SAML RelayState parameter must be in the format `ReturnUrl=/content/sub-content/`, where `/content/sub-content/` is the path to the webpage you want to go to on the portal (service provider). The path can be replaced by any valid webpage on the portal. The string value is encoded and placed into a container string of the format `RPID=&lt;URL encoded RPID&gt;&RelayState=&lt;URL encoded RelayState&gt;`. This entire string is once again encoded and added to another container of the format `<https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=&lt;URL> encoded RPID/RelayState&gt;`.
+The basic string value to be encoded into the SAML RelayState parameter must be in the format `ReturnUrl=/content/sub-content/`, where `/content/sub-content/` is the path to the webpage you want to go to on the website (service provider). The path can be replaced by any valid webpage on the website. The string value is encoded and placed into a container string of the format `RPID=&lt;URL encoded RPID&gt;&RelayState=&lt;URL encoded RelayState&gt;`. This entire string is once again encoded and added to another container of the format `<https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=&lt;URL> encoded RPID/RelayState&gt;`.
 
 For example, given the service provider path `/content/sub-content/` and the relying party ID `https://portal.contoso.com/`, construct the URL with the following steps:
 
@@ -103,11 +103,11 @@ You can use the following PowerShell script to construct the URL. Save the scrip
 
 .SYNOPSIS 
 
-Constructs an IdP-initiated SSO URL to access a portal page on the service provider.
+Constructs an IdP-initiated SSO URL to access a website page on the service provider.
 
 .PARAMETER path
 
-The path to the portal page.
+The path to the website page.
 
 .PARAMETER rpid
 
@@ -156,7 +156,7 @@ Write-Output $idpInitiatedUrl
 
 ## Configure AD FS by using PowerShell
 
-The process of adding a relying party trust in AD FS can also be performed by running the following PowerShell script on the AD FS server. Save the script to a file named Add-AdxPortalRelyingPartyTrustForSaml.ps1. After running the script, continue with configuring the portal site settings.
+The process of adding a relying party trust in AD FS can also be performed by running the following PowerShell script on the AD FS server. Save the script to a file named Add-AdxPortalRelyingPartyTrustForSaml.ps1. After running the script, continue with configuring the website's site settings.
 
 ```
 <# 
@@ -167,7 +167,7 @@ Adds a SAML 2.0 relying party trust entry for a website.
 
 .PARAMETER domain
 
-The domain name of the portal.
+The domain name of the website.
 
 .EXAMPLE
 
@@ -256,7 +256,7 @@ Add-ADFSClaimDescription -name "Persistent Identifier" -ClaimType "urn:oasis:nam
 
 }
 
-# add the portal relying party trust
+# add the website relying party trust
 
 
 [!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
