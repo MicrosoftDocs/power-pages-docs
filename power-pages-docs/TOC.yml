@@ -261,7 +261,7 @@
         - name: Overview
           href: security/authentication/overview.md
         - name: Configure
-          href: security/configure-portal-authentication.md
+          href: security/authentication/configure-portal-authentication.md
         - name: OAuth 2.0
           items:
             - name: Overview
