@@ -223,3 +223,6 @@ Here's how to enable cookies if your browser is blocking them:
 1. Select Done and refresh the browser.
 
 ---
+
+>[!NOTE]
+> You may not wish to enable all third party cookies. If this is the case, you can allow cookies for ``[*.]powerpages.microsoft.com`` only by adjusting your browser settings. 
