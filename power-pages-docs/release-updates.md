@@ -28,7 +28,7 @@ For information about the roadmap and new features releasing over the next few m
 
 ### Privacy notice
 
-[!INCLUDE[cc-privacy-crm-portals-data-exposed](/includes/cc-privacy-crm-portals-data-exposed.md)]
+[!INCLUDE[cc-privacy-crm-portals-data-exposed](includes/cc-privacy-crm-portals-data-exposed.md)]
 
-For more information about additional [!INCLUDE[pn-azure-shortest](/includes/pn-azure-shortest.md)] service offerings, see the [[!INCLUDE[cc_privacy_note_azure_trust_center](/includes/cc_privacy_note_azure_trust_center.md)]](https://azure.microsoft.com/support/trust-center/).  
+For more information about additional [!INCLUDE[pn-azure-shortest](includes/pn-azure-shortest.md)] service offerings, see the [[!INCLUDE[cc_privacy_note_azure_trust_center](includes/cc_privacy_note_azure_trust_center.md)]](https://azure.microsoft.com/support/trust-center/).  
 
