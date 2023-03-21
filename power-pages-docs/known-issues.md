@@ -154,7 +154,7 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
 
 - A few Power Apps portals templates, especially bound to customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service), don't have default menu items as per their hierarchy of pages. The reason is that there isn't page order available in all or few of the webpages. Any portal without the display order of webpages will have this issue.
 
-- An error message is displayed when the page content (page copy) exceeds its limit of 65536 characters and page summary exceed its default limit of 2000 characters.
+- An error message is displayed when the page content (page copy) exceeds its limit of 65,536 characters and page summary exceed its default limit of 2000 characters.
 
 - Navigation menu is only visible on the canvas with a resolution of minimum width of 1600 px.
 
@@ -204,7 +204,7 @@ Here's how to enable cookies if your browser is blocking them:
 
 # [Microsoft Edge](#tab/Edge)
 
-1. In the Edge window, select More (...) > Settings > View advanced settings.
+1. In the Microsoft Edge window, select More (...) > Settings > View advanced settings.
 
 1. Scroll down to Cookies, and select Don't block cookies
 
