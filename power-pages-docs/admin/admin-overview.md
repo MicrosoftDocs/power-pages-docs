@@ -62,8 +62,8 @@ Select **...** for more site actions.
 
 | Action | More Information |
 | - | - |
-| Manage Dynamics 365 Instance | See [Update the Dynamics 365 instance for your portal](/power-apps/maker/portals/admin/update-dynamics365-instance) |
-| Update Dynamics 365 URL | |
+| Manage Dynamics 365 Instance | See [Update the Dynamics 365 instance for your portal](update-dynamics365-instance.md) |
+| Update Dynamics 365 URL | Update the Dataverse environment URL if it has changed. |
 | Metadata translations | See [Import metadata translation](/power-apps/maker/portals/admin/import-metadata-translation)
 | Install Field Service Extension | See [Integrate Field Service](/power-apps/maker/portals/customer-engagement-apps/integrate-field-service) |
 | Install Project Service Extension | See [Integrate Project Service Automation](/power-apps/maker/portals/customer-engagement-apps/integrate-project-service-automation) |
@@ -85,7 +85,7 @@ Select **...** for more site actions.
 | Early Upgrade | Indicates if site has been enabled for an early upgrade. |
 | Site Visibility | Indicates the visibility of the site. See [Site Visibility](../security/site-visibility.md). |
 | Site State | Indicates the site's running state. |
-| Application Id | The site's application id. |
+| Application Id | The site's application Id. |
 | Org URL | The organization URL of the Microsoft Dataverse instance the site is associated with. |
 
 ## Security

@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/14/2023
+ms.date: 03/22/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -33,11 +33,11 @@ You can manage websites in the Power Platform admin center in two ways:
 
 1. Select a website.
 
-1. Select the ellipse **...**, and then select **Manage**.<br>or<br>Select the portal, and then select **Manage** at the top of the page.
+1. Select the ellipse **...**, and then select **Manage**.<br>or<br>Select the website, and then select **Manage** at the top of the page.
 
 From here you can configure website details, for more information go to [site details](admin-overview.md#site-details).
 
-## Manage all portals for an environment
+## Manage all websites for an environment
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
@@ -49,7 +49,7 @@ From here you can configure website details, for more information go to [site de
 
     :::image type="content" source="media/power-platform-admin-center/environment-info.png" alt-text="Power Platform environment details.":::
 
-1. You'll see a list of portals installed in the selected environment.
+1. You'll see a list of websites installed in the selected environment.
 
 1. Select the ellipse (**...**), and then select **Manage**.<br>or<br>Select the site, and then select **Manage** from the top of the page.
 
@@ -68,7 +68,7 @@ The following table describes the different types of websites that are listed in
 
 ## Website status in the admin center
 
-A portal can have the following status: *Configured*, *Suspended*, or *Not configured*. The following table describes each state.
+A website can have the following status: *Configured*, *Suspended*, or *Not configured*. The following table describes each state.
 
 | Status         |  Description    |
 |----------------|-----------------|
