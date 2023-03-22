@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/15/2023
+ms.date: 03/22/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -16,7 +16,7 @@ contributors:
  
 # Website capacity consumption reports
 
-Power Pages is licensed by using **authenticated user capacity** and **anonymous user monthly capacity** capacity add-ons for external users. This capacity must be allocated to a Microsoft Power Platform environment by an administrator. More information: [Licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq?branch=main#power-pages)
+Power Pages is licensed by using **authenticated user monthly capacity** and **anonymous user monthly capacity** add-ons for external users. This capacity must be allocated to a Microsoft Power Platform environment by an administrator. More information: [Licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq?branch=main#power-pages)
 
 Administrators can download **Power Pages authenticated** and **Power Pages anonymous** view reports (as well as legacy **Portal logins** and **Portal page views** reports) from the [Power Platform admin center](https://admin.powerplatform.com). These reports show the number of authenticated sign-ins and anonymous user site accesses for Power Pages websites across all environments for a tenant. 
 
