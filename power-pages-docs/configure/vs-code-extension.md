@@ -146,8 +146,6 @@ From within Visual Studio Code, you're able to create, delete, and rename the fo
 
 ### Create operations
 
-Pro-developers can use context menu options or Command Palette (Ctrl + Shift + P) for create operations.
-
 You can use the context menu options to create new website components, right-select one of the supported objects, choose **Power Pages** and select the website object type you wish to create.
 
 Alternatively, you can use the Visual Studio Code command palette by selecting `Ctrl + Shift + P`.
