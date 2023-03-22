@@ -101,7 +101,7 @@ The preview pane opens on the right side of the page being edited.
 
 :::image type="content" source="media/vs-code-extension/preview-studio.png" alt-text="A screen with file list, open file in Visual Studio Code editor, and a preview on the right-side.":::
 
-The preview feature requires that the other files are also open in the same Visual Studio Code session that make up the HTML markup for the preview to show. For example, if only the HTML file is opened without the folder structure opened using Visual Studio Code, you’ll see the following message.
+The preview feature requires that the other files are also open in the same Visual Studio Code session that makes up the HTML markup for the preview to show. For example, if only the HTML file is opened without the folder structure opened using Visual Studio Code, you’ll see the following message.
 
 :::image type="content" source="media/vs-code-extension/preview-failed.png" alt-text="Running the contributed command: 'microsoft-powerapps-portals.preview-show' failed.":::
 
@@ -117,26 +117,26 @@ The autocomplete capability in the Visual Studio Code extension shows the curren
 
 When customizing downloaded content using Visual Studio Code, you can now use IntelliSense for Power Pages [Liquid tags](liquid/liquid-tags.md).
 
-Start by typing and a list of Liquid tags will appear, once you select the tag, it will be correctly formatted and ready for additional input.
+Start by typing and a list of Liquid tags will appear, once you select the tag, it will be correctly formatted and ready for more input.
 
 :::image type="content" source="media/vs-code-extension/liquid-tag-completion.png" alt-text="Snippet with an example of Liquid tag completion.":::
 
 ### Liquid objects
 
-You can see Liquid object code completions by entering `{{ }}`. With the cursor placed between the brackets, select `<CTRL + space>` to display a list of Liquid objects that you can select. If the object has additional properties, you can enter a **.** and then select `<CTRL + space>` again to see specific properties of the Liquid object.
+You can see [Liquid object](/liquid/liquid-objects.md) code completions by entering `{{ }}`. With the cursor placed between the brackets, select `<CTRL + space>` to display a list of Liquid objects that you can select. If the object has more properties, you can enter a **.** and then select `<CTRL + space>` again to see specific properties of the Liquid object.
 
 :::image type="content" source="media/vs-code-extension/liquid-object.png" alt-text="Entering a Liquid object.":::
 
 
 ### Template tags
 
-You can see Power Pages web template suggestions using the `{include <CTRL + space>}` statement while writing Liquid code. A list of existing web templates will appear for you to select.
+You can see Power Pages web template suggestions by place your cursor in the `{include ' '}` statement and select `<CTRL> - space`. A list of existing web templates will appear for you to select.
 
 :::image type="content" source="media/vs-code-extension/template-tags.png" alt-text="Template tags.":::
 
 ## Create, delete, and rename website objects
 
-From within Visual Studio code, you are able to create, delete, and rename the following website components:
+From within Visual Studio Code, you're able to create, delete, and rename the following website components:
 
 - Web pages
 - Page templates
@@ -154,7 +154,7 @@ Alternatively, you can use the Visual Studio Code command palette by selecting `
 
 :::image type="content" source="media/vs-code-extension/create-object.png" alt-text="Create a new object.":::
 
-You will need to specify additional parameters to create the object.
+You'll need to specify more parameters to create the object.
 
 | Object    | Parameters |
 |-|-|
