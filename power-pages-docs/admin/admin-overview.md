@@ -63,7 +63,7 @@ Select **...** for more site actions.
 | Action | More Information |
 | - | - |
 | Manage Dynamics 365 Instance | See [Update the Dynamics 365 instance for your portal](update-dynamics365-instance.md) |
-| Update Dynamics 365 URL | Update the Dataverse environment URL if it has changed. |
+| Update Dynamics 365 URL | If you updated your [environment URL](/power-platform/admin/edit-properties-environment#edit-an-environment), the **Update Dynamics 365 URL** action will update your site to point to the updated environment URL. |
 | Metadata translations | See [Import metadata translation](/power-apps/maker/portals/admin/import-metadata-translation)
 | Install Field Service Extension | See [Integrate Field Service](/power-apps/maker/portals/customer-engagement-apps/integrate-field-service) |
 | Install Project Service Extension | See [Integrate Project Service Automation](/power-apps/maker/portals/customer-engagement-apps/integrate-project-service-automation) |
