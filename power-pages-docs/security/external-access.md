@@ -4,7 +4,7 @@ description: Learn how to provide access to external audiences.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 3/23/2023
 ms.subservice:
 ms.author: kkendrick
 ms.reviewer:
