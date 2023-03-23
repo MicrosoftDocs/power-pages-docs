@@ -17,7 +17,7 @@ contributors:
 
 As you build your site, you may wish to control access both to pages and data to specific users. Power Pages uses [Microsoft Dataverse contact records](/power-apps/developer/data-platform/customer-entities-account-contact) to associate to authenticated Power Pages site users.
 
-Users must be assigned to web roles to gain permissions beyond unauthenticated users. To configure permissions for [web roles](../create-web-roles.md), configure [page permissions](../page-permissions.md). Power Pages allows users to sign in with their choice of an external account based on [ASP.NET Identity](https://www.asp.net/identity). Though not recommended, Power Pages also allows a local contact membership provider-based account for users to sign in.
+Users must be assigned to web roles to gain permissions beyond unauthenticated users. To configure permissions for [web roles](../create-web-roles.md), configure [page permissions](../page-security.md). Power Pages allows users to sign in with their choice of an external account based on [ASP.NET Identity](https://www.asp.net/identity). Though not recommended, Power Pages also allows a local contact membership provider-based account for users to sign in.
 
 > [!NOTE]
 > Users must have a unique email address. If two or more contact records (including deactivated contact records) have the same email address, the contacts won't be able to authenticate on the website.
@@ -34,7 +34,7 @@ The following table lists common identity providers, the protocol that can be us
 | Azure Active Directory (Azure AD) | OpenID Connect | [Configure an OpenID Connect provider with Azure AD](openid-settings.md)|
 | Azure AD | SAML 2.0 | [Configure a SAML 2.0 provider with Azure AD](saml2-settings-azure-ad.md)|
 | Azure AD | WS-Federation | [Configure a WS-Federation provider with Azure AD](ws-federation-settings-azure-ad.md)|
-| Azure AD B2C | OpenID Connect |[Configure the Azure Active Directory B2C provider (using interface in preview)](azure-ad-b2c-provider.md)<br />[Configure the Azure Active Directory B2C provider manually](azure-ad-b2c-provider-manual.md)|
+| Azure AD B2C | OpenID Connect |[Configure the Azure Active Directory B2C provider (using interface in preview)](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider)<br />[Configure the Azure Active Directory B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual)|
 | Azure Directory Federation Services (AD FS) | SAML 2.0 | [Configure a SAML 2.0 provider with AD FS](saml2-settings.md)|
 | AD FS | WS-Federation | [AD FS with WS-Federation](ws-federation-settings.md)|
 | Microsoft | OAuth 2.0 | [Configure the Microsoft provider](oauth2-microsoft.md)|
@@ -59,7 +59,7 @@ With open registration enabled, users aren't required to provide an invitation c
 
 ### See also
 
-[Customize the Azure AD B2C user interface](azure-ad-b2c.md)
+[Customize the Azure AD B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c)
 [Configure an OAuth 2.0 provider](oauth2-provider.md)
 [Configure an OpenID Connect provider](openid-provider.md)
 [Configure a SAML 2.0 provider](saml2-provider.md)
