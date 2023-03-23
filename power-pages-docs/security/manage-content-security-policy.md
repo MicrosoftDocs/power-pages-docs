@@ -5,7 +5,7 @@ author: nabha
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/04/2022
+ms.date: 3/23/2023
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -28,9 +28,7 @@ For more information about CSP, go to [Content Security Policy Reference](https:
 
 1. Ensure that you're in the environment where your portal exists.
 
-1. On the left pane, select **Apps**, and then select the [**Portal Management** app](configure-portal.md).
-
-    :::image type="content" source="media/manage-content-security-policy/portal-management-app.png" alt-text="The Apps menu option for Power Apps, with the Portal Management app selected.":::
+1. On the left pane, select **Apps**, and then select the [**Portal Management** app](../configure/portal-management-app.md).
 
 1. On the left pane, select **Site Settings**.
 
@@ -62,5 +60,5 @@ script-src https: 'nonce'
 
 > [!NOTE]
 > - When nonce is enabled, **unsafe-eval** will be automatically injected to support the automatic evaluation of unsafe code. To disable the automatic injection of **unsafe-eval**, update the site setting **HTTP/Content-Security-Policy/Inject-unsafe-eval** to **false**.
-> - If **unsafe-eval** injection is disabled, the validation of automatically generated fields on [basic](../configure/entity-forms.md)  or [advanced](../configure/web-form-properties.md) forms might no longer function correctly.
+> - If **unsafe-eval** injection is disabled, the validation of automatically generated fields on [basic](../getting-started/add-form.md)  or [multistep](../getting-started/multistep-forms.md) forms might no longer function correctly.
 
