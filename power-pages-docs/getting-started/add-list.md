@@ -4,7 +4,7 @@ description: Create and add a list from views to your page in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/02/2023
+ms.date: 3/10/2023
 ms.subservice:
 ms.author: shrutiphanse 
 ms.reviewer: kkendrick
@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Add a list
+# Add list
 
 A list is a data-driven configuration used to render a list of records without the need for a developer to surface the grid in the portal. Lists use Dataverse views to display records on the portal.
 
@@ -34,35 +34,57 @@ To add a list:
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
-1. You can choose either to create a new list or use an existing list.
+    The **Add a list** window will open.
 
-   If you choose to create a new list, you'll need to enter the following criteria.
- 
-    :::image type="content" source="media/first-page/add-list.png" alt-text="Add a list to a page.":::
+1. Choose to create a new list or choose an existing list, then select **Ok**.
 
-    | List | Description |
-    | ----------- | ----------- |
-    | Choose a table | The name of the table the views are loaded from. |
-    | Select Dataverse views | The view of the target table that will be rendered. To modify the columns within the view, you'll need to access the Data workspace. |
-    | Name your copy of the selected list | The name of the list. |
+    - If you choose to create a new list, the **Add a list** window will open to the **Set up** tab.
+    - If you use an existing list, you'll be redirected to the list displayed in the Pages workspace.  Choose the list and select the **Edit list** button just above the component to access configuration options in the **Add a list** window.
+     
+    :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
 
-    | Data | Description |
-    | ----------- | ----------- |
-    | Create a new record | Allows the user to create a new record. You'll need to select the target webpage, form, or URL that contains the new record. |
-    | View details | Allows the user to view details.  You'll need to select the webpage, form, or URL that contains the details. | 
-    | Delete record | Allows the user to delete the record. | 
+### Set up your list
 
-    | Settings | Description |
-    | - | - |
-    | Number of records per page | Determines how many records will be displayed per page. If the table contains more records, navigation controls will appear for the user to view the next or previous set of records. |
-    | Enable search in list | Turns on the search feature for the list. |
+You need to specify values for each of the Set up fields. Select the **Set up** menu tab in the **Add a list** window to complete this step.
 
-    > [!NOTE]
-    > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to view the data on the lists.
 
-1. You can select the ellipsis (**...**) to duplicate the list, move it up or down within the section, or delete it.
+| List | Description |
+| ----------- | ----------- |
+| Choose a table | The name of the table the views are loaded from. |
+| Select Dataverse views | The view of the target table that will be rendered. To modify the columns within the view, you'll need to access the Data workspace. |
+| Name your list | The name of the list. |
 
-## Add list filters
+ ### Choose list actions
+
+Specify what actions you'd like to take for your list by configuring list actions. The actions are listed under the **Actions** menu tab in the **Add a list** window. For each of these options, you can also change the default button label by editing the **Display label** field. 
+
+| Data | Description |
+| ----------- | ----------- |
+| Create a new record | Allows the user to create a new record. You'll need to select the target webpage, form, or URL that contains the new record. |
+| Download list contents | Allows the user to download list contents into an *.xlsx file.  |
+| View details | Allows the user to view details.  You'll need to select the webpage, form, or URL that contains the details.| 
+| Edit record | Allows the user to edit the record. You'll need to select the webpage, form, or URL that contains the record details to edit.  |
+| Delete record | Allows the user to delete the record.  | 
+
+### Specify more options
+
+You may find that you want to customize your list options even further.  Visit the **More options** menu tab from the **Add a list** window to configure more options for your list.
+
+| Settings | Description |
+| - | - |
+| Number of records per page | Determines how many records will be displayed per page. If the table contains more records, navigation controls will appear for the user to view the next or previous set of records. |
+| Enable search in list | Turns on the search feature for the list. Add a placeholder text for the search bar |
+
+> [!NOTE]
+> You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to view the data on the lists.
+
+You can also specify more options using the [Portal Management app](../configure/portal-management-app.md).
+
+### Duplicate a list
+
+From the Pages workspace inside design studio, you can select the ellipsis (**...**) on the list component to duplicate a list, move it up or down within the section, or delete it.
+
+## List filters
 
 Makers can add list filters to their Power Pages site from the design studio.  
 
@@ -96,6 +118,16 @@ To add a list filter, select the list component you previously added and configu
     > The studio will display the different options for makers to filter their data based on the filter type and column they choose.
 
 1. Select the **OK button** to save your selections.  
+
+1. One the filter is applied, you can edit the filter configuration by selecting the Edit filter button in the design studio.
+    
+    :::image type="content" source="media/add-list/edit-filter.png" alt-text="The edit filter menu options inside design studio."::: 
+
+### Filter settings
+
+You can edit filter settings by selecting the filter settings option on the component in design studio.
+
+:::image type="content" source="media/add-list/filter-settings.png" alt-text="The filter settings menu options inside Design Studio with the vertical filter orientation button selected.":::
 
 ### See also
 
