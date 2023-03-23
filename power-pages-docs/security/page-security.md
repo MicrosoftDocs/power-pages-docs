@@ -4,7 +4,7 @@ description: Learn how to secure your webpages by using page permissions.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/3/2023
+ms.date: 3/23/2023
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
@@ -121,7 +121,7 @@ To get started with managing page permissions using portals Studio:
 
 1. Select **Edit** to open the portal in portals Studio.
 
-    More information: [Edit the portal](/power-apps/maker/portals/manage-existing-portals#edit) and [Studio anatomy](/power-apps/maker/portals/portal-designer-anatomy.md)
+    More information: [Edit the portal](/power-apps/maker/portals/manage-existing-portals#edit) and [Studio anatomy](/power-apps/maker/portals/portal-designer-anatomy)
 
 1. Select the page that you want to manage permissions for.
 
