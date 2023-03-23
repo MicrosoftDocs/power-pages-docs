@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/22/2023
+ms.date: 03/23/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -156,15 +156,18 @@ You'll need to specify more parameters to create the object.
 
 | Object    | Parameters |
 |-|-|
-| Web pages | Name, page template |
+| Web pages | Name, page template, parent page |
 | Page templates | Name, web template |
 | Web templates | Name |
 | Content snippets | Name, and if the snippet will be HTML or text. |
-|New assets (Web files) | Name, and select file to upload. |
+|New assets (Web files) | Name, parent page, and select file to upload. |
 
 ### Rename and delete operations
 
 From the file navigation, you can use the context menu to rename or delete Power Pages components.
+
+> [!NOTE]
+> Deleted objects can be restored from the desktop recycle bin.
 
 ## Limitations
 
