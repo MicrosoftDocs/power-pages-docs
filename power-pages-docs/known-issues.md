@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/7/2023
+ms.date: 3/24/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -225,4 +225,4 @@ Here's how to enable cookies if your browser is blocking them:
 ---
 
 >[!NOTE]
-> You may not wish to enable all third party cookies. If this is the case, you can allow cookies for ``[*.]powerpages.microsoft.com`` only by adjusting your browser settings. 
+> If you don't want to enable all third party cookies, you can also adjust your browser settings to allow cookies for only ``[*.]powerpages.microsoft.com`` instead.
