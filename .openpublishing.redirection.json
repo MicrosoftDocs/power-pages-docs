@@ -49,6 +49,16 @@
       "source_path": "power-pages-docs/configure/store-content-web-templates.md",
       "redirect_url": "/power-pages/configure/web-templates",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/admin/portal-checker.md",
+      "redirect_url": "/power-pages/admin/site-checker",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/admin/portal-consumption-reports.md",
+      "redirect_url": "/power-pages/admin/website-consumption-reports",
+      "redirect_document_id": "false"
     }
   ]
 }

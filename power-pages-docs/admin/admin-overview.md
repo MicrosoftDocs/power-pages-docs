@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin center
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/11/2023
+ms.date: 03/07/2023
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -42,13 +42,13 @@ Select **Site Actions** to perform the following actions on your site.
 | Restart site | Restart the site. |
 | Shut down this site | Turn off the site. |
 | Delete this site | See [Delete a portal](/power-apps/maker/portals/admin/reset-portal#delete-a-portal) |
-| Disable custom errors | See [Disable custom errors](/power-apps/maker/portals/admin/view-portal-error-log#disable-custom-error) |
-| Enable diagnostic logs | See [Enable diagnostic logging](/power-apps/maker/portals/admin/view-portal-error-log#enable-diagnostic-logging)
+| Disable custom errors | See [Disable custom errors](view-portal-error-log.md#disable-custom-error) |
+| Enable diagnostic logs | See [Enable diagnostic logging](view-portal-error-log.md#enable-diagnostic-logging)
 | Enable maintenance mode | See [Maintenance mode for a portal](/power-apps/maker/portals/admin/enable-maintenance-mode) |
 
 ## Site Actions (...)
 
-Select **...** for more site actions.
+Select **...** to the left of **Site Actions** for more site actions.
 
 :::image type="content" source="media/more-site-actions.png" alt-text="Selecting additional site actions.":::
 
@@ -71,8 +71,8 @@ Select **...** for more site actions.
 | - | - |
 | See All | Opens a side panel displaying all the attributes of the current site. |
 | Edit | **Edit site details.**</br> A side panel will open allowing you to make the following updates to a site:<ul><li>Change the **Site Name**.</li><li>Change the **Website Record**, which associates the site to the corresponding site metadata stored in Microsoft Dataverse. This action will update the corresponding [website bindings](/power-apps/maker/portals/configure/website-bindings) record.</li><li>Selecting the **Enable Portal for Early Upgrade** allows you to specify that the site can be updated to the latest code. This setting is only recommended for development and testing sites.</li><li>You call also update the **Site URL** to a new unique URL using the **powerappsportals.com** domain.</li></ul>|
-| Convert to Production | See [Convert a portal](/power-apps/maker/portals/admin/convert-portal) |
-| Connect Custom Domain | See [Add a custom domain name](/power-apps/maker/portals/admin/add-custom-domain) |
+| Convert to Production | See [Convert a site](convert-site.md) |
+| Connect Custom Domain | See [Add a custom domain name](add-custom-domain.md) |
 | Application Type | Indicates the application status of the site (Trial or Production) |
 | Early Upgrade | Indicates if site has been enabled for an early upgrade. |
 | Site Visibility | Indicates the visibility of the site. See [Site Visibility](../security/site-visibility.md). |
@@ -84,22 +84,22 @@ Select **...** for more site actions.
 
 | Action | More Information |
 | - | - |
-| IP Restrictions | See [Restrict portal access by IP address](/power-apps/maker/portals/admin/ip-address-restrict) |
+| IP Restrictions | See [Restrict website access by IP address](ip-address-restrict.md) |
 | Custom Certificates | See [Manage custom certificates](/power-apps/maker/portals/admin/manage-custom-certificates) |
-| Website Authentication Key | See [Manage portal authentication key](/power-apps/maker/portals/admin/manage-auth-key) |
+| Website Authentication Key | See [Manage website authentication key](manage-auth-key.md) |
 | Manage Site Visibility Permissions | See [Site visibility in Power Pages](../security/site-visibility.md) |
 
 ## Site Health
 
 | Action | More Information |
 | - | - |
-| Site Checker | See [Run Portal Checker](/power-apps/maker/portals/admin/portal-checker) |
+| Site Checker | See [Run Site Checker](site-checker.md) |
 
 ## Performance & Protection
 
 | Action | More Information |
 | - | - |
-| Content Delivery Network | See [Content Delivery Network](/power-apps/maker/portals/configure/configure-cdn) |
+| Content Delivery Network | See [Content Delivery Network](../configure/configure-cdn.md) |
 | Web Application Firewall | |
 
 ## Services
