@@ -39,7 +39,7 @@ To configure an identity provider for your website:
 You can configure the following general authentication settings by selecting **Authentication Settings** on the **Identity providers** page.
 
 - **External login**: External authentication is provided by the ASP.NET Identity API. Account credentials and password management are handled by third-party identity providers.
-  - When set to **On**, users sign up for access by selecting an external identity to register with the website. After it's registered, an external identity has access to the same features as a local account. See [Manage external accounts](authentication/set-authentication-identity.md#manage-external-accounts)for related site settings. 
+  - When set to **On**, users sign up for access by selecting an external identity to register with the website. After it's registered, an external identity has access to the same features as a local account. See [manage external accounts](set-authentication-identity.md#manage-external-accounts) for related site settings. 
   -  When set to **Off**, external account registration and sign-in are disabled and hidden.
 
 - **Open registration**: Enables or disables the sign-up registration form for creating new local users.
@@ -71,8 +71,8 @@ Several identity providers that you can configure are added by default. You can 
 > [!NOTE]
 > - You can't change the configuration of the **Local sign in** and **Azure Active Directory** providers when using this interface.
 > - You can have only one instance of each identity provider type for OAuth 2.0, such as **Facebook**, **LinkedIn**, **Google**, **Twitter**, and **Microsoft**.
-> - Updates to identity provider configuration might take a few minutes to be reflected on the website. To apply your changes immediately, you can [restart the portal](../../admin/admin-overview.md).
-> - If you [add a custom domain name](../admin/add-custom-domain.md) or [change the base URL of your portal](../admin/change-base-url.md), you must re-create the provider configuration by using the correct URL.
+> - Updates to identity provider configuration might take a few minutes to be reflected on the website. To apply your changes immediately, you can [restart the website](../../admin/admin-overview.md).
+> - If you [add a custom domain name](../../admin/add-custom-domain.md) or [change the base URL](../admin/change-base-url.md), you must re-create the provider configuration by using the correct URL.
 
 ### Add or configure a provider
 
@@ -85,7 +85,7 @@ To configure a provider, select **Configure** (or select **More Commands** (**..
 > [!NOTE]
 > You can use **Add provider** or **Configure** to add or configure a provider for the first time. After you configure a provider, you can edit it. You can also select the provider name hyperlink to open the configuration options quickly.
 
-The configuration steps after you select **Next** depend on the type of identity provider you select. More information: [Common identity providers](authentication/overview.md#common-identity-providers)
+The configuration steps after you select **Next** depend on the type of identity provider you select. More information: [Common identity providers](overview.md#common-identity-providers)
 
 ### Edit a provider
 
@@ -114,8 +114,8 @@ If you delete and re-create your Power Pages site, users might receive the follo
 
 ### See also
 
-- [Configure the Azure Active Directory B2C provider in Power Pages](authentication/azure-ad-b2c-provider.md)
-- [Configure an OAuth 2.0 provider for Power Pages](authentication/oauth2-provider.md)- 
-- [Configure an OpenID Connect provider for Power Pages](authentication/openid-provider.md)
-- [Configure a SAML 2.0 provider for Power Pages](authentication/saml2-provider.md)
-- [Configure a WS-Federation provider for Power Pages](authentication/ws-federation-provider.md)
+- [Configure the Azure Active Directory B2C provider](azure-ad-b2c-provider.md)
+- [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md)- 
+- [Configure an OpenID Connect provider for Power Pages](openid-provider.md)
+- [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
+- [Configure a WS-Federation provider for Power Pages](ws-federation-provider.md)
