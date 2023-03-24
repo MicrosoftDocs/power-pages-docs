@@ -114,8 +114,8 @@ If you delete and re-create your Power Pages site, users might receive the follo
 
 ### See also
 
-[Configure the Azure Active Directory B2C provider in Power Pages](authentication/azure-ad-b2c-provider.md)
-[Configure an OAuth 2.0 provider for Power Pages](authentication/oauth2-provider.md)
-[Configure an OpenID Connect provider for Power Pages](authentication/openid-provider.md)
-[Configure a SAML 2.0 provider for Power Pages](authentication/saml2-provider.md)
-[Configure a WS-Federation provider for Power Pages](authentication/ws-federation-provider.md)
+- [Configure the Azure Active Directory B2C provider in Power Pages](authentication/azure-ad-b2c-provider.md)
+- [Configure an OAuth 2.0 provider for Power Pages](authentication/oauth2-provider.md)- 
+- [Configure an OpenID Connect provider for Power Pages](authentication/openid-provider.md)
+- [Configure a SAML 2.0 provider for Power Pages](authentication/saml2-provider.md)
+- [Configure a WS-Federation provider for Power Pages](authentication/ws-federation-provider.md)
