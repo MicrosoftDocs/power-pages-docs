@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/7/2023
+ms.date: 3/24/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -82,6 +82,10 @@ Editing capabilities in Power Pages design studio aren't available for [Microsof
 You can preview the webpages using design studio, but you can't add or modify sections, components, or text. 
 
 Instead, use tools such as [Portals Management app](configure/portal-management-app.md) or [Visual Studio Code](configure/cli-tutorial.md) to edit the underlying [web templates](configure/store-content-web-templates.md) and configure them for your unique needs.
+
+## Visual Studio Code extension for Power Pages
+
+You man get an error when updating the Power Platform Tools for Visual Studio Code with the error message `Cannot install Power Pages generator: spawnSync npm.cmd ENOENT`. To resolve the issue, install [node.js](https://nodejs.org/en/download) and restart Visual Studio Code.
 
 ## General issues
 
