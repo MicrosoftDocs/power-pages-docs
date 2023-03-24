@@ -126,8 +126,6 @@
       href: configure/configure-cdn.md      
     - name: Capacity consumption reports
       href: admin/website-consumption-reports.md
-    - name: Update solution
-      href: admin/update-solution.md
     - name: Restrict IP addresses
       href: admin/ip-address-restrict.md      
     - name: Diagnostics and error handling  
