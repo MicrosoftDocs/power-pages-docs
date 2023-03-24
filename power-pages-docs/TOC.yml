@@ -356,8 +356,6 @@
       items:
         - name: Create web roles
           href: security/create-web-roles.md
-        - name: Configure web roles
-          href: security/configure-web-roles.md
         - name: Page permissions
           href: security/page-security.md
         - name: Configure table permissions
