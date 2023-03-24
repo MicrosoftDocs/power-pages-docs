@@ -123,7 +123,7 @@ Start by typing and a list of Liquid tags will appear, once you select the tag, 
 
 ### Liquid objects
 
-You can see [Liquid object](/liquid/liquid-objects.md) code completions by entering `{{ }}`. With the cursor placed between the brackets, select `<CTRL + space>` to display a list of Liquid objects that you can select. If the object has more properties, you can enter a **.** and then select `<CTRL + space>` again to see specific properties of the Liquid object.
+You can see [Liquid object](liquid/liquid-objects.md) code completions by entering `{{ }}`. With the cursor placed between the brackets, select `<CTRL + space>` to display a list of Liquid objects that you can select. If the object has more properties, you can enter a **.** and then select `<CTRL + space>` again to see specific properties of the Liquid object.
 
 :::image type="content" source="media/vs-code-extension/liquid-object.png" alt-text="Entering a Liquid object.":::
 
