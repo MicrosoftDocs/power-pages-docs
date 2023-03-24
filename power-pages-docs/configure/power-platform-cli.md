@@ -288,12 +288,17 @@ When you run the [pac paportal upload](/power-platform/developer/cli/reference/p
 
 The environment manifest file will be readonly when it connects to the same environment (environment URL matches with file name), to avoid accidental changes. 
 
+The environment manifest file is not designed to track the changes when deploying the website in different environments
+The environment manifest file is mainly for developers deploying locally in their single DEV instance and should be added to git ignore list
+
 ### Delete tracking manifest file (manifest.yml)
 
 This file is used for tracking the deleted records from the environment.
 
 When website content is downloaded with [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command, this will add the deleted records from [environment manifest file (org-url-manifest.yml)](#environment-manifest-file-org-url-manifestyml) to manifest.yml file. So, when you upload the website content using the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command it will delete the files from the environment (even to a different environment).
 This file is not deleted, and it gets used regardless which environment you are connected.
+This file needs to be considered when pushing changes to the source control in order to consider deleting items in the target environment
+
 
 > [!NOTE]
 > In order to delete the site content records in one environment and also delete the same content records in another environment using the PAC CLI, you will need to run the [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command *before* and *after* the deleting the website record content. The manifest.yml will track these changes and remove the corresponding records in the target environment when the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command is run.
