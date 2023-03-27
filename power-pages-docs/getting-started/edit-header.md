@@ -2,9 +2,9 @@
 title: Edit site header
 description: Learn how to make changes to the header of your Power Pages site.
 author: clromano
-ms.topic: conceptual
-ms.custom: 
-ms.date: 2/1/2023
+ms.topic: how-to
+ms.custom: bap-template
+ms.date: 03/20/2023
 ms.subservice:
 ms.author: clromano 
 ms.reviewer: kkendrick
@@ -15,55 +15,31 @@ contributors:
 
 # Edit site header
 
-Makers can establish their Power Pages site's brand by modifying their site's header using the Edit site header feature. Using this feature, makers can:
+Edit your site's header to apply your brand to your Power Pages site. You can:
 
-- Update the site's title and logo.
-- Provide accessible alt text for logo images.
-- Change colors and fonts to reflect their organization's branding.
-- Preview their site's responsive layout.
+- Update the site title and add your organization's logo.
+- Provide alt text for logo images.
+- Change colors and fonts.
+- Preview the site's responsive layout.
 
-From the Pages workspace, hover over the header component and select the **Edit Site Header button**.
+In the Pages workspace, hover over the header component and select **Edit site header**. Editing options appear in a window in the Pages workspace.
 
-:::image type="content" source="media/edit-header/edit-header-button.png" alt-text="The Edit Site Header button, which appears when you hover over the header inside Pages workspace.":::
-
-Editing options will appear within a pop-up window inside the Pages workspace.
+:::image type="content" source="media/edit-header/edit-header-button.png" alt-text="Screenshot of the Edit site header button, which appears when you hover over the header in the Pages workspace.":::
 
 ## Title and logo
 
-In the **Title + logo** section of the Edit site header pop-up window, makers can modify their site's title and update or remove the site logo.  
+Change your site's title and change or remove the logo in the **Title + logo** section of the header editing window. You can also [customize them using Liquid code](#customize-the-title-and-logo-using-liquid).
 
-:::image type="content" source="media/edit-header/title-logo.png" alt-text="Title and logo options inside the Edit site header pop-up window.":::
+:::image type="content" source="media/edit-header/title-logo.png" alt-text="Screenshot of the title and logo options in the header editing window.":::
 
-- Enter your text in the text box under the **Site title label** to edit the site's title.
-- Use the **toggle switch** next to the **Site logo label** to remove the logo from the header completely.
-- Select the **Upload image button** under the **Site logo label** and follow the prompts to add the image of your choice.  
-- Use the text box under the **Alt text label** to provide alternative text for your site logo.  
+- Enter the title of the site in the box under **Site title**.
+- To use a different logo, select **Upload image** and follow the prompts to select an image file.  
+- Enter alt text for the logo image in the box under **Alt text**.  
+- To remove the logo from the header completely, turn off the **Site logo** toggle.
 
-## Styling
+### Customize the title and logo using Liquid
 
-To style your header, select the **Styling menu option** from the side navigation links inside the Edit site header pop-up window.
-
-### Update brand colors
-
-Makers can choose from various options to add brand colors to their site's header.
-
-:::image type="content" source="media/edit-header/styling.png" alt-text="Styling options in the Edit site header pop-up window.":::
-
-- Choose the colors for your site's header by selecting each of the circles under the **Brand colors label**.
-- Select the colored square next to the **Header background label** to choose which brand color will serve as your header's background.
-- Choose the **>** symbol next to **Title** and **Site Navigation** below the **Fonts label** to expand the section and choose a weight, font, color, and size for each element.
-
-## Layout
-
-To preview your site's responsive layout, select the **Layout menu option** from the side navigation links inside the Edit site header pop-up window.
-
-:::image type="content" source="media/edit-header/layout.png" alt-text="Layout options in the Edit site header pop-up window.":::
-
-- Use the **+** and **-** controls to modify the display size.
-
-## Customize the site header
-
-The header contains three underlying content snippets, which use [Liquid](../configure/liquid-overview.md). 
+The header consists of three [content snippets](../configure/content-snippets.md), which use the [Liquid](../configure/liquid-overview.md) markup language.
 
 |Content snippet         |Liquid syntax                        |
 |------------------------|-------------------------------------|
@@ -71,24 +47,41 @@ The header contains three underlying content snippets, which use [Liquid](../con
 |Logo URL                |```{{ snippets['Logo URL'] }}```         |
 |Logo alt text           |```{{ snippets['Logo alt text'] }}```   |
 
-For more information on content snippets, see [Content snippets](../configure/content-snippets.md).
+If the title and logo are changed in the code, those changes override any changes you make in the header editing window. You'll know this is the case if you see the following message: `Your updates may not show on the site because of customizations to the code made by someone in your org.`
 
-When customizing the header, if someone has modified the Liquid code, these changes must be synchronized. Changes won't reflect in studio until the attribute values in the underlying content snippets are updated to reflect these changes. 
+[Modify the header in the Portal Management app](../known-issues.md#modifying-the-header-in-portal-management-app) to make the header code match your changes in the header editing window.
 
->[!NOTE]
-> If the values for any of these snippets aren't modified, makers will see the following message in the studio:<br />```Your updates may not show on the site because of customizations to the code made by someone in your org.```<br />For information on how to update the Liquid code and resolve this issue, see [Modifying the header in Portal Management App](../known-issues.md#modifying-the-header-in-portal-management-app).
+## Styling
+
+Change your header's style in the **Styling** section of the header editing window.
+
+### Brand colors
+
+:::image type="content" source="media/edit-header/styling.png" alt-text="Screenshot of styling options in the header editing window.":::
+
+- Select the circles under **Brand colors** to change the colors your site's header uses.
+- Select the square to the right of **Header background** to change the background color of the header.
+- Select **>** to the right of **Title** and **Site Navigation** to change the type characteristics of the site title and navigational elements.
+
+## Layout
+
+Preview your site's responsive layout in the **Layout** section of the header editing window.
+
+:::image type="content" source="media/edit-header/layout.png" alt-text="Screenshot of layout options in the header editing window.":::
+
+- Use the **+** and **-** controls to change the display size.
 
 ### See also
 
-[Add text](add-text.md)<br />
-[Add button](add-button.md)<br />
-[Add image](add-image.md)<br />
-[Add video](add-video.md)<br />
-[Add spacer](add-spacer.md)<br />
-[Add Power BI](add-power-bi.md)<br />
-[Add list](add-list.md)<br />
-[Add form](add-form.md)<br />
-[Add IFrame](add-iframe.md)<br />
-[Add multistep form](multistep-forms.md)<br />
-[Edit code with Visual Studio Code for the Web](../configure/visual-studio-code-editor.md)<br />
-[Structure site map](structure-site.md)<br />
+[Add text](add-text.md)  
+[Add button](add-button.md)  
+[Add image](add-image.md)  
+[Add video](add-video.md)  
+[Add spacer](add-spacer.md)  
+[Add Power BI](add-power-bi.md)  
+[Add list](add-list.md)  
+[Add form](add-form.md)  
+[Add IFrame](add-iframe.md)  
+[Add multistep form](multistep-forms.md)  
+[Edit code with Visual Studio Code for the Web](../configure/visual-studio-code-editor.md)  
+[Structure site map](structure-site.md)  

@@ -4,7 +4,7 @@ description: Learn how to add images to your Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 3/15/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: kkendrick
@@ -36,17 +36,45 @@ To add an image:
     | Upload image | Select this option if you want to select an existing image or upload a new one. If you want to select a previously uploaded image, choose it from the **Select image** list. To upload a new image, select **Upload image**. All the uploaded images are included in the image library, which you can select again through the **Select image** list. |
     | External URL | Select this option if you want to upload an image from an external URL. Enter the URL in the **External URL** field. Only secured links are accepted—that is, **https://** is mandatory. If you have images stored in your content delivery network, you can provide the link in this field. |
 
-1. To format your image, select it and a menu with editing options will appear:
 
-    - Select a new image
+## Format an image
 
-    - Configure the alignment
+To format your image, select it and a menu with editing options will appear:
 
-    - Add alt text
+- Select a new image
+- Configure the alignment
+- Add a link to the image
+- Access more options
+- Duplicate the image, move it up, move it down, or delete it
 
-    - Duplicate the image, move it up, move it down, or delete it
+:::image type="content" source="media/add-image/edit-image.png" alt-text="Editing options for images in the design studio.":::
 
-1. You can also adjust the size of the image by selecting it and adjusting the height and width.
+### Add a link to an image
 
-    :::image type="content" source="media/first-page/image-size.png" alt-text="Adjusting image size.":::
+To add a link to your image:
+
+1. Choose the **link icon** from the editing options above the image.
+1. Select a radio button to **Link to a URL** or **Link to a page**.
+    * If you are linking to a URL, fill in the text field.
+    * If you are linking to a page, select the page from the drop down.
+1. Select the **OK** button.
+
+Once the link is created, you can click the **link icon** to edit or remove the link.
+
+### Adjust image size
+
+Options to adjust the size of your image are located under **More options**. To access these options:
+
+1. Select the **gear icon** from the editing options above the image to access the **More options** window.
+1. Update the height and width fields.
+1. Select the **OK** button.
+
+### Add alt text to an image
+
+1. Select the **gear icon** from the editing options above the image to access the **More options** window.
+1. Update the alt text field.
+1. Select the **OK** button.
+
+
+
 
