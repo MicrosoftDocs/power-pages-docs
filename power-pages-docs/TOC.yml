@@ -205,7 +205,11 @@
           - name: Configure basic form metadata
             href: configure/configure-basic-form-metadata.md
           - name: Configure basic form subgrids
-            href: configure/configure-basic-form-metadata.md         
+            href: configure/configure-basic-form-metadata.md
+        - name: Configure multistep forms
+          items:
+          - name: Define multistep form properties
+            href: configure/multistep-form-properties.md             
     - name: Search Configuration
       items:
       - name: Search overview
