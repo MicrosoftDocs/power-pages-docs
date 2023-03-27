@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/16/2023
+ms.date: 3/27/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -20,7 +20,7 @@ Power Pages supports a configurable security system that lets you support multip
 
 > [!IMPORTANT]
 > - We recommend that you use this path to migrate from [local authentication](set-authentication-identity.md).
-> - Configuring local authentication requires that you use the [Portal Management app](../../configure/portal-management-app.md)to configure the required site settings manually.
+> - Configuring local authentication requires that you use the [Portal Management app](../../configure/portal-management-app.md) to configure the required site settings manually.
 
 ## Marking an identity provider as deprecated
 
