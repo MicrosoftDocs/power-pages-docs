@@ -141,15 +141,33 @@
     - name: Manage custom certificate
       href: admin/manage-custom-certificates.md
     - name: Capacity consumption reports
-      href: admin/portal-consumption-reports.md
-    - name: Update solution
-      href: admin/update-solution.md
-    - name: View error log
+      href: admin/website-consumption-reports.md
+    - name: Restrict IP addresses
+      href: admin/ip-address-restrict.md      
+    - name: Diagnostics and error handling  
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
     - name: Governance
       href: admin/coe-portals.md
+    - name: Use site checker
+      items:
+        - name: Run site checker
+          href: admin/site-checker.md
+        - name: Analyze and resolve results
+          items:
+            - name: Cache invalidation issues
+              href: admin/site-checker-cache-invalidation.md
+            - name: Configuration issues
+              href: admin/site-checker-configuration-issues.md
+            - name: Performance issues
+              href: admin/site-checker-performance.md
+            - name: Website start-up issues
+              href: admin/site-checker-startup-issue.md
+            - name: Provisioning issues
+              href: admin/site-checker-provisioning-issues.md       
+    - name: Manage website authentication key
+      href: admin/manage-auth-key.md
     - name: Update, upgrade, migrate and convert websites
       items:
         - name: Convert a website
@@ -178,8 +196,20 @@
         href: configure/search/file-attachment.md
       - name: Progressive search
         href: configure/search/progressive.md
+    - name: Configure document storage
+      items:
+        - name: Configure notes
+          href: configure/configure-notes.md
+        - name: Azure storage
+          items:
+          - name: Enable Azure storage
+            href: configure/enable-azure-storage.md
+          - name: Add Azure storage web resource
+            href: configure/add-web-resource.md     
+        - name: Manage SharePoint documents
+          href: configure/manage-sharepoint-documents.md
     - name: Advanced configuration
-      href: configure/advanced-config.md
+      href: configure/advanced-config.md  
 - name: Integrate Power Pages
   items:
     - name: Embed a Power Pages site in another website
@@ -276,13 +306,25 @@
       href: security/power-pages-security.md
     - name: Site visibility
       href: security/site-visibility.md
-    - name: Configure authentication
-      href: security/configure-portal-authentication.md
-    - name: Provide external access
-      href: security/external-access.md
+    - name: Authentication  
+      items:
+        - name: Configure authentication
+          href: security/configure-portal-authentication.md
+        - name: Provide external access
+          href: security/external-access.md
+        - name: Azure AD B2C
+          items:
+            - name: Configure Azure AD B2C
+              href: security/authentication/azure-ad-b2c-provider.md
+        - name: OAuth 2.0
+          items:
+            - name: Google
+              href: security/authentication/oauth2-google.md
+        - name: OAuth 2.0 implicit grant flow
+          href: security/oauth-implicit-grant-flow.md           
     - name: Configure web roles
       href: security/create-web-roles.md
-    - name: Page security
+    - name: Page permissions
       href: security/page-security.md
     - name: Configure table permissions
       href: security/table-permissions.md
