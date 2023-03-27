@@ -50,7 +50,7 @@ For more information about federated authentication options, see [Local authenti
 
 In order to perform the following steps, you'll need to be assigned the **System Administrator** [security role](/power-platform/admin/database-security). 
 
-1. Open the [Portal Management app](configure-portal.md).
+1. Open the [Portal Management app](../configure/portal-management-app.md).
 
 1. Go to **Portals** > **Contacts**, and open the contact for which you want to change the password.
     Alternately, you can also open the **Contacts** page from the [Share](/power-apps/maker/portals/manage-existing-portals#share) pane. 
