@@ -24,7 +24,8 @@ Fill out the basic information for a contact (or having a user fill out the sign
 To configure a contact for Power Pages using local authentication, follow these instructions:  
 
 > [!IMPORTANT]
-> - We recommend that you use the [Azure Active Directory B2C (Azure AD B2C)](configure-azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your website. More information: [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
+> We recommend that you use the [Configure the Azure Active Directory B2C provider](authentication/azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your website. 
+> More information:[Migrate identity providers to Azure AD B2C](authentication/migrate-identity-providers.md)
 
 Complete the change password workflow, and the necessary fields will be automatically configured. When you've taken these steps, your contact will be configured for your website.
 
@@ -44,7 +45,7 @@ Complete the change password workflow, and the necessary fields will be automati
 
 1. Complete the [change password steps](#change-password-for-a-contact-from-the-portal-management-app), and the necessary fields will be automatically configured. The contact will then be configured to access the website.
 
-A user can also [register directly](set-authentication-identity.md#sign-up-by-using-a-local-identity-or-external-identity) on the website, or be sent an [invitation](invite-contacts.md) to register. 
+A user can also [register directly](authentication/set-authentication-identity.md#sign-in-by-using-a-local-identity-or-external-identity) on the website, or be sent an [invitation](invite-contacts.md) to register. 
 
 For more information about federated authentication options, see [Local authentication, registration, and other settings](authentication/set-authentication-identity.md). 
 
@@ -52,10 +53,10 @@ For more information about federated authentication options, see [Local authenti
 
 In order to perform the following steps, you'll need to be assigned the **System Administrator** [security role](/power-platform/admin/database-security). 
 
-1. Open the [Portal Management app](configure-portal.md).
+1. Open the [Portal Management app](../configure/portal-management-app.md).
 
 1. Go to **Portals** > **Contacts**, and open the contact for which you want to change the password.
-    Alternately, you can also open the **Contacts** page from the [Share](../manage-existing-portals.md#share) pane. 
+    Alternately, you can also open the **Contacts** page from the [share](/power-apps/maker/portals/manage-existing-portals) pane. 
 
 1. Select **Change Password** from the command bar the contact form.
 

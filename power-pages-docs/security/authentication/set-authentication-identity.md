@@ -58,15 +58,11 @@ Returning portal visitors can authenticate by using local user credentials or ex
 
 ### Sign in by using a local identity or external identity
 
-The following image shows a sign in option with using a local account, or by selecting an external identity provider.
-
-### Sign up by using a local identity or external identity
-
-The following image shows a sign-up screen to register with using a local account, or by selecting an external identity provider.
+Users can sign in with using a local account, or by selecting an external identity provider.
 
 ### Redeem an invitation code manually
 
-The following image shows the option to redeem an invitation using the invitation code.
+You can also choose to have users redeem an invitation using the invitation code.
 
 ## Forgot password or password reset 
 
