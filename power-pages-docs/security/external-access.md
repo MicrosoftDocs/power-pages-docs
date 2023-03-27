@@ -15,15 +15,7 @@ contributors:
 
 # Provide access to external audiences
 
-
-
-User information in Power Pages is stored as contact records in Dataverse. To configure contacts and invite them as users to your site, use the Portal Management app.
-
-## Open the Portal Management app
-
-In the design studio, select the ellipsis (**...**) from the tool belt, and then select **Portal Management**.
-
-:::image type="content" source="../configure/media/portals-management-app/launch-portals-management-app.png" alt-text="Open the Portal Management app.":::
+User information in Power Pages is stored as contact records in Dataverse. To configure contacts and invite them as users to your site, use the [Portal Management app](../configure/portal-management-app.md).
 
 ## Configure contacts as site users
 
