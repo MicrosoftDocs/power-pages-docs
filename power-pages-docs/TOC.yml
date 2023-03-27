@@ -119,19 +119,51 @@
 - name: Administer Power Pages
   items:
     - name: Use the admin center
-      href: admin/admin-overview.md
-    - name: Use admin APIs
-      href: admin/admin-api.md
+      href: admin/admin-overview.md   
+    - name: Add custom domain  
+      href: admin/add-custom-domain.md
+    - name: Content Delivery Network  
+      href: configure/configure-cdn.md      
     - name: Capacity consumption reports
-      href: admin/portal-consumption-reports.md
-    - name: Update solution
-      href: admin/update-portal-solution.md
-    - name: View error log
+      href: admin/website-consumption-reports.md
+    - name: Restrict IP addresses
+      href: admin/ip-address-restrict.md      
+    - name: Diagnostics and error handling  
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
     - name: Governance
       href: admin/coe-portals.md
+    - name: Use site checker
+      items:
+        - name: Run site checker
+          href: admin/site-checker.md
+        - name: Analyze and resolve results
+          items:
+            - name: Cache invalidation issues
+              href: admin/site-checker-cache-invalidation.md
+            - name: Configuration issues
+              href: admin/site-checker-configuration-issues.md
+            - name: Performance issues
+              href: admin/site-checker-performance.md
+            - name: Website start-up issues
+              href: admin/site-checker-startup-issue.md
+            - name: Provisioning issues
+              href: admin/site-checker-provisioning-issues.md       
+    - name: Manage website authentication key
+      href: admin/manage-auth-key.md
+    - name: Update, upgrade, migrate and convert websites
+      items:
+        - name: Convert a website
+          href: admin/convert-site.md
+        - name: Upgrade a website
+          href: admin/upgrade-site.md
+        - name: Update Power Pages solution
+          href: admin/update-solution.md
+        - name: Update Dynamics 365 instance
+          href: admin/update-dynamics365-instance.md
+        - name: Migrate website configuration
+          href: admin/migrate-site-configuration.md
 - name: Configure Power Pages
   items:
     - name: Portal Management app
@@ -186,8 +218,20 @@
         href: configure/search/file-attachment.md
       - name: Progressive search
         href: configure/search/progressive.md
+    - name: Configure document storage
+      items:
+        - name: Configure notes
+          href: configure/configure-notes.md
+        - name: Azure storage
+          items:
+          - name: Enable Azure storage
+            href: configure/enable-azure-storage.md
+          - name: Add Azure storage web resource
+            href: configure/add-web-resource.md     
+        - name: Manage SharePoint documents
+          href: configure/manage-sharepoint-documents.md
     - name: Advanced configuration
-      href: configure/advanced-config.md
+      href: configure/advanced-config.md  
 - name: Integrate Power Pages
   items:
     - name: Embed a Power Pages site in another website
@@ -196,18 +240,86 @@
       href: configure/azure-front-door.md                       
 - name: Customize and extend Power Pages
   items:
-    - name: Custom page layouts
-      href: configure/custom-page-layouts.md
-    - name: Use Visual Studio Code and Power Platform CLI
-      href: configure/cli-tutorial.md
+    - name: Liquid
+      items:   
+        - name: Liquid overview
+          href: configure/liquid/liquid-overview.md
+        - name: Understand Liquid operators
+          href: configure/liquid/liquid-operators.md
+        - name: Understand Liquid types
+          href: configure/liquid/liquid-types.md
+        - name: Understand Liquid conditional operators
+          href: configure/liquid/liquid-conditional-operators.md
+        - name: Understand Liquid objects
+          href: configure/liquid/liquid-objects.md
+        - name: Understand available Liquid tags
+          items:
+            - name: Liquid tags overview
+              href: configure/liquid/liquid-tags.md
+            - name: Understand control flow tags
+              href: configure/liquid/control-flow-tags.md
+            - name: Understand iteration tags
+              href: configure/liquid/iteration-tags.md
+            - name: Understand variable tags
+              href: configure/liquid/variable-tags.md
+            - name: Understand template tags
+              href: configure/liquid/template-tags.md
+            - name: Understand Dataverse Liquid tags
+              href: configure/liquid/dataverse-liquid-tags.md
+        - name: Understand Liquid filters
+          href: configure/liquid/liquid-filters.md                                
     - name: Web templates
-      href: configure/store-content-web-templates.md
-    - name: Portals Web API overview
-      href: configure/web-api-overview.md
-    - name: Component framework
-      href: configure/component-framework.md
-    - name: Liquid overview
-      href: configure/liquid-overview.md
+      href: configure/web-templates.md
+    - name: Create custom web templates
+      items:
+        - name: Create custom page layouts
+          href: configure/custom-page-layouts.md
+        - name: Use hybrid navigation to render page hierarchy
+          href: configure/liquid/hybrid-navigation-render-page-hierarchy.md
+        - name: Redirect a user to a default page on sign-in
+          href: configure/liquid/redirect-a-user-homepage.md
+        - name: Render a list for a webpage
+          href: configure/liquid/render-list-current-page.md
+        - name: Render an RSS feed 
+          href: configure/liquid/render-rss-custom-web-template.md
+        - name: Render a site header and primary navigation bar
+          href: configure/liquid/render-site-header-primary-navigation.md
+    - name: Use Web API
+      items:
+        - name: Portals Web API overview
+          href: configure/web-api-overview.md
+        - name: Perform read operations
+          href: configure/read-operations.md
+        - name: Perform write, update, and delete operations
+          href: configure/write-update-delete-operations.md
+        - name: Compose HTTP requests and handle errors
+          href: configure/web-api-http-requests-handle-errors.md
+        - name: "How to: use the portals Web API"
+          href: configure/webapi-how-to.md
+    - name: Use code components
+      items:
+        - name: Code component overview
+          href: configure/component-framework.md
+        - name: "Tutorial: Use code components in Power Pages"
+          href: configure/component-framework-tutorial.md
+        - name: "Tutorial: Use dataset code components in Power Pages"
+          href: configure/tutorial-pcf-code.md          
+        - name: "Tutorial: Configure rich text editor control"
+          href: configure/component-rte-tutorial.md
+        - name: Use code components Liquid template tag
+          href: configure/liquid/component-framework-liquid.md
+        - name: Implement a sample portal Web API component
+          href: configure/implement-webapi-component.md
+    - name: Use Microsoft Power Platform CLI
+      items:                          
+        - name: Overview of Power Platform CLI
+          href: configure/power-platform-cli.md
+        - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
+          href: configure/power-platform-cli-tutorial.md
+        - name: Use Visual Studio Code for Power Pages
+          href: configure/vs-code-extension.md      
+    - name: Use admin APIs
+      href: admin/admin-api.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
 - name: Secure Power Pages
@@ -216,13 +328,25 @@
       href: security/power-pages-security.md
     - name: Site visibility
       href: security/site-visibility.md
-    - name: Configure authentication
-      href: security/configure-portal-authentication.md
-    - name: Provide external access
-      href: security/external-access.md
+    - name: Authentication  
+      items:
+        - name: Configure authentication
+          href: security/configure-portal-authentication.md
+        - name: Provide external access
+          href: security/external-access.md
+        - name: Azure AD B2C
+          items:
+            - name: Configure Azure AD B2C
+              href: security/authentication/azure-ad-b2c-provider.md
+        - name: OAuth 2.0
+          items:
+            - name: Google
+              href: security/authentication/oauth2-google.md
+        - name: OAuth 2.0 implicit grant flow
+          href: security/oauth-implicit-grant-flow.md           
     - name: Configure web roles
       href: security/create-web-roles.md
-    - name: Page security
+    - name: Page permissions
       href: security/page-security.md
     - name: Configure table permissions
       href: security/table-permissions.md
@@ -280,7 +404,17 @@
       href: admin/cookies.md
 - name: System requirements, limits, and configuration
   href: system-requirements.md  
+- name: Power Pages FAQs
+  href: faq.yml
 - name: Known issues
   href: known-issues.md
 - name: Important changes and deprecations
   href: important-changes-deprecations.md
+- name: Version releases and updates  
+  items:
+    - name: Release updates
+      href: release-updates.md
+    - name: Website host
+      href: /power-platform/released-versions/portals
+    - name: Power Pages solutions 
+      href: /power-platform/released-versions/pagessolutions  

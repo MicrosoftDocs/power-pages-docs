@@ -29,10 +29,35 @@
       "source_path": "power-pages-docs/getting-started/tutorial-pcf-code.md",
       "redirect_url": "/power-apps/maker/portals/tutorial-pcf-code",
       "redirect_document_id": "false"
+    },    
+    {
+      "source_path": "power-pages-docs/admin/migrate-portal-configuration.md",
+      "redirect_url": "/power-pages/admin/migrate-site-configuration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/admin/update-portal-solution.md",
+      "redirect_url": "/power-pages/admin/update-solution",
+      "redirect_document_id": "false"
     },
     {
       "source_path": "power-pages-docs/getting-started/code-editor.md",
       "redirect_url": "/power-pages/configure/visual-studio-code-editor",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/configure/store-content-web-templates.md",
+      "redirect_url": "/power-pages/configure/web-templates",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/admin/portal-checker.md",
+      "redirect_url": "/power-pages/admin/site-checker",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/admin/portal-consumption-reports.md",
+      "redirect_url": "/power-pages/admin/website-consumption-reports",
       "redirect_document_id": "false"
     }
   ]
