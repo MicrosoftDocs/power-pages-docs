@@ -1,10 +1,10 @@
 ---
 title: Moderate forums
-description: Learn how to moderate forums in a portal.
+description: Learn how to moderate forums in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
+ms.date: 3/28/2023
 ms.subservice: 
 ms.author: kkendrick
 contributors:
@@ -17,11 +17,11 @@ The moderators are users of the forum who are granted access to the forum's thre
 
 ## Assign moderators to forums
 
-To specify moderators for a forum, the contact record of the portal user must be assigned to a web role that is associated with a Forum Access Permission record that has the Right set to Grant Change. For more information, see [Create web roles for portals](../configure/create-web-roles.md).  
+To specify moderators for a forum, the contact record of the user must be assigned to a web role that is associated with a Forum Access Permission record that has the Right set to Grant Change. For more information, see [Provide access to external audiences](../../security/external-access.md).  
 
-## Forum moderation within the portal
+## Forum moderation within the website
 
-For portal users with moderation permission, moderation controls will automatically be displayed in the portal once signed in. Depending on the page template implemented by your developer, the functionality providing users the ability to moderate may or may not be present and the images displayed within this document may be different than your actual portal.
+For users with moderation permission, moderation controls will automatically be displayed in the website once signed in. Depending on the page template implemented by your developer, the functionality providing users the ability to moderate may or may not be present and the images displayed within this document may be different than your actual website.
 
 ### Delete an entire forum thread
 
@@ -65,9 +65,9 @@ For portal users with moderation permission, moderation controls will automatica
 
 ### See also
 
-[Setup and manage forums](setup-manage-forums.md)  
-[Manage forum threads](manage-forum-threads.md)  
-[Create forum posts on the portal](create-forum-posts.md)  
-[Subscribe to alerts](subscribe-alerts.md)<br>
-[Manage forum access permissions](forum-access-permission.md)
+- [Set up and manage forums](setup-manage-forums.md)
+- [Manage forum threads](manage-forum-threads.md)  
+- [Create forum posts](create-forum-posts.md)  
+- [Subscribe to alerts](subscribe-alerts.md)
+- [Manage forum access permissions](forum-access-permission.md)
 
