@@ -5,7 +5,7 @@ author: GitanjaliSingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 03/28/2023
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -18,7 +18,7 @@ contributors:
 
 # Use code components in Power Pages
 
-Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps. These code components can provide an enhanced experience for users working with data on forms, views, and dashboards. More information: [Power Apps component framework overview](/power-apps/developer/component-framework/overview.md)
+Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps. These code components can provide an enhanced experience for users working with data on forms, views, and dashboards. More information: [Power Apps component framework overview](/power-apps/developer/component-framework/overview)
 
 Power Pages now supports controls built for model-driven apps created using Power Apps component framework. To use code components in Power Pages site webpages, follow these steps:
 
@@ -103,23 +103,23 @@ More information: [Attributes list and descriptions](/power-apps/developer/compo
 
 -   The following code component APIs aren’t supported:
 
-    -   [Device.captureAudio](/power-apps/developer/component-framework/reference/device/captureaudio.md)
+    -   [Device.captureAudio](/power-apps/developer/component-framework/reference/device/captureaudio)
 
-    -   [Device.captureImage](/power-apps/developer/component-framework/reference/device/captureimage.md)
+    -   [Device.captureImage](/power-apps/developer/component-framework/reference/device/captureimage)
 
-    -   [Device.captureVideo](/power-apps/developer/component-framework/reference/device/capturevideo.md)
+    -   [Device.captureVideo](/power-apps/developer/component-framework/reference/device/capturevideo)
 
-    -   [Device.getBarcodeValue](/power-apps/developer/component-framework/reference/device/getbarcodevalue.md)
+    -   [Device.getBarcodeValue](/power-apps/developer/component-framework/reference/device/getbarcodevalue)
 
-    -   [Device.getCurrentPosition](/power-apps/developer/component-framework/reference/device/getcurrentposition.md)
+    -   [Device.getCurrentPosition](/power-apps/developer/component-framework/reference/device/getcurrentposition)
 
-    -   [Device.pickFile](/power-apps/developer/component-framework/reference/device/pickfile.md)
+    -   [Device.pickFile](/power-apps/developer/component-framework/reference/device/pickfile)
 
-    -   [Utility](/power-apps/developer/component-framework/reference/utility.md)
+    -   [Utility](/power-apps/developer/component-framework/reference/utility)
 
--   The [uses-feature](/power-apps/developer/component-framework/manifest-schema-reference/uses-feature.md) element must not be set to **true**.
+-   The [uses-feature](/power-apps/developer/component-framework/manifest-schema-reference/uses-feature) element must not be set to **true**.
 
--   [Value elements not supported](/power-apps/developer/component-framework/manifest-schema-reference/property.md#value-elements-that-are-not-supported)
+-   [Value elements not supported](/power-apps/developer/component-framework/manifest-schema-reference/property#value-elements-that-are-not-supported)
     by Power Apps component framework.
 
 ## Add a code component to a field in a model-driven app

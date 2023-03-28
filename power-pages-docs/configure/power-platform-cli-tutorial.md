@@ -4,7 +4,7 @@ description: This page provides a walk-through with examples for how to use Powe
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 03/28/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -198,6 +198,6 @@ portals content for other [supported tables](power-platform-cli.md#supported-tab
 
 ### See also
 
-- [Microsoft Power Platform CLI](/power-pages/developer/data-platform/powerapps-cli)
-- [Use the Visual Studio Code extension (preview)](vs-code-extension.md)
+- [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
+- [Use the Visual Studio Code extension](vs-code-extension.md)
 

@@ -64,7 +64,7 @@ On successful retrieve of the records, the code component has logic to count how
 - [Download sample components](https://github.com/microsoft/PowerApps-Samples/tree/master/component-framework) 
 - [How to use the sample components](/powerapps/developer/component-framework/use-sample-components)
 - [Create your first component](/powerapps/developer/component-framework/implementing-controls-using-typescript)
-- [Add code components to a field or table in model-driven apps](/powerpps/developer/component-framework/add-custom-controls-to-a-field-or-entity.md)
+- [Add code components to a field or table in model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 - [Liquid template tag for code components](liquid/component-framework-liquid.md)
 - [Portals Web API](web-api-overview.md)
 
