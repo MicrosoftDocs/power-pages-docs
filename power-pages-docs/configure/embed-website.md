@@ -5,7 +5,7 @@ author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 01/04/2023
+ms.date: 03/28/2023
 
 ms.author: dileeps
 ms.reviewer: ndoelman
@@ -81,7 +81,7 @@ Header and footer web templates support full liquid customizations, so you can a
 For example, the following code displays a search bar in the header if the page is anything other than the search page.
 
 > [!IMPORTANT]
-> Because the header is an element common to all pages, `page.id` will get cached by default for the first page that's opened by a user. Hence, this code uses the [substitution tag](/power-apps/maker/portals/liquid/template-tags#substitution) to ensure that these elements won't be cached and will always be evaluated based on the current page.
+> Because the header is an element common to all pages, `page.id` will get cached by default for the first page that's opened by a user. Hence, this code uses the [substitution tag](liquid/template-tags.md#substitution) to ensure that these elements won't be cached and will always be evaluated based on the current page.
 
 ```
 {% substitution %}
