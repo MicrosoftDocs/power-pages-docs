@@ -107,5 +107,5 @@ Power Pages allows you to bring your Power BI reports/dashboard as a [first part
 
 ## Microsoft accessibility features
 
-Microsoft accessibility features help various agencies address accessibility requirements and conform to the standards laid out. More information: [Accessibility features of Microsoft products](https://sway.office.com/vAdiAMXOJEQGVbqX)
+Microsoft accessibility features help various agencies address accessibility requirements and conform to the standards laid out. More information: [Accessibility features of Microsoft products](https://www.microsoft.com/en-us/accessibility)
 

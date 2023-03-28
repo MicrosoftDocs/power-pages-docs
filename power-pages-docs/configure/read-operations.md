@@ -292,7 +292,7 @@ If you expand on collection-valued navigation parameters to retrieve related tab
 
 ### Retrieve related tables by expanding both single-valued and collection-valued navigation properties
 
-The following example demonstrates how you can expand related entities for entity sets using both single and collection-valued navigation properties. You will need to specify the [table relationship name](/power-apps/data-platform/relationships-overview) in the syntax of your code.
+The following example demonstrates how you can expand related entities for entity sets using both single and collection-valued navigation properties. You will need to specify the [table relationship name](/power-apps/maker/data-platform/relationships-overview) in the syntax of your code.
 
 | **Method** | **URI** |
 |-------------------------|-------------------------|
