@@ -25,7 +25,7 @@ To enable content access level based filtering of knowledge articles on your web
 
 ## Create content access levels
 
-1. Sign in to Power Pages and go to **Portals** &gt; **Security** &gt; **Content Access Levels**.
+1. Sign in to Power Pages and go to **Security** &gt; **Content Access Levels**.
 1. In the ribbon, select **New**.
 1. Fill in the **Name** and **Description**.
 1. Change **Default Access Level** from **No** to **Yes** if it should be the default.
