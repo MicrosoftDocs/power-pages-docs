@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: overview
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 03/28/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -48,7 +48,7 @@ The portals Web API offers a subset of capabilities for Dataverse operations tha
 You must enable the site setting to enable the portals Web API for your portal. You can also configure the field-level Web API that determines the table fields that can or can't be modified with the portals Web API.
 
 > [!NOTE]
-> Use the table [logical name](/power-apps/developer/data-platform/entity-metadata.md) for these settings (for example **account**).
+> Use the table [logical name](/power-apps/developer/data-platform/entity-metadata) for these settings (for example **account**).
 
 | Site setting name | Description|
 | - |- |
@@ -276,7 +276,7 @@ Portals Web API can't be used for the following configuration tables:
 
 Users will get a CDS error if they invoke a `GET` Web API request for tables that have multiple levels of *1 to many* or *many to many* [table permissions](../security/table-permissions.md) with **parent** scope defined.
 
-To resolve this issue, the recommended solution is to use [FetchXML](/developer/data-platform/use-fetchxml-construct-query) in the OData query.
+To resolve this issue, the recommended solution is to use [FetchXML](/power-apps/developer/data-platform/use-fetchxml-construct-query) in the OData query.
 
 Alternatively, set the site setting *Webapi/\<table name\>/disableodatafilter* to `True`. 
 

@@ -270,7 +270,7 @@ The following table explains various attributes associated with blogpost Object.
 > To avoid potential cross-site scripting (XSS) issues, always use [escape filter](liquid-filters.md#escape) to HTML encode string data whenever using **entities** Liquid object to read data provided by the user that can't be trusted.
 
 > [!NOTE]
-> Some of the naming conventions of Dataverse have changed, for example, Dataverse entities are now called [tables](/power-apps/maker/data-platform/data-platform-intro.md#terminology-updates). The name changes do not apply to Liquid objects. The Liquid entities object will continue to be referred to as **entities**.
+> Some of the naming conventions of Dataverse have changed, for example, Dataverse entities are now called [tables](/power-apps/maker/data-platform/data-platform-intro#terminology-updates). The name changes do not apply to Liquid objects. The Liquid entities object will continue to be referred to as **entities**.
 
 Allows you to load any Dataverse table by ID. If the table exists, a table object will be returned. If a table with the given ID isn't found, [null](liquid-types.md#null) will be returned.  
 
@@ -1015,17 +1015,17 @@ Contains information about the current HTTP request.
 > [!NOTE]
 > - You can build URLs dynamically in Liquid by using URL Filters.
 > - The URL used in request.url can be any requested value, and gets [cached](/power-apps/maker/portals/configure/enable-header-footer-output-caching) for subsequent requests. To ensure correct value in request.url, consider using [substitution tag](template-tags.md#substitution), partial URL such as ~\{WebFile path} or storing the portal URL in [Site Settings](/power-apps/maker/portals/configure/configure-site-settings).
-> - Power Pages release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](liquid-filters.md#escape) Liquid filter enforced for [user](liquid-objects.md#user) and [request](liquid-objects.md#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, see [portal site settings - Site/EnableDefaultHtmlEncoding](/power-apps/maker/portals/configure/configure-site-settings.md#portal-site-settings).
+> - Power Pages release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](liquid-filters.md#escape) Liquid filter enforced for [user](liquid-objects.md#user) and [request](liquid-objects.md#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, see [portal site settings - Site/EnableDefaultHtmlEncoding](/power-apps/maker/portals/configure/configure-site-settings#portal-site-settings).
 
 ### Attributes
 
 |Attribute   |Description   |
 |---|---|
 | params           | Named parameter values for the current request. params is a combination of URL query string parameters, form post parameters, and cookies.  |
-| Path             | The path of the current request URL. <br> /profile/|
-| path\_and\_query | The path and query of the current request URL.<br> /profile/?foo=1&bar=something|
-| query            | The query part of the current request URL. <br> ?foo=1&bar=something |
-| url              | The full URL of the current request.<br>  https://www.example.com/profile/?foo=1&bar=something  |
+| Path             | The path of the current request URL. <br> `/profile/`|
+| path\_and\_query | The path and query of the current request URL.<br> `/profile/?foo=1&bar=something`|
+| query            | The query part of the current request URL. <br> `?foo=1&bar=something` |
+| url              | The full URL of the current request.<br>  `https://www.example.com/profile/?foo=1&bar=something`  |
 
 
 ## searchindex
