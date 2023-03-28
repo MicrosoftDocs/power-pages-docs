@@ -27,41 +27,41 @@ For users with moderation permission, moderation controls will automatically be 
 
 1. Select **Delete** on the admin toolbar.
 
-2. In the **Delete this thread?** pop-up window, select **Yes**.
+1. In the **Delete this thread?** pop-up window, select **Yes**.
 
-    ![Delete a forum thread.](media/delete-forum-thread.png "Delete a forum thread")  
+    :::image type="content" source="media/delete-forum-thread.png" alt-text="Delete a forum thread":::  
 
 ### Edit the forum thread
 
 1. Select **Edit** on the admin toolbar.
 
-2. Make the changes you want in the **Edit Thread** pop-up window.
+1. Make the changes you want in the **Edit Thread** pop-up window.
 
-3. Select **Save**.
+1. Select **Save**.
 
-    ![Edit a forum thread.](media/edit-forum-thread.png "Edit a forum thread")
+    :::image type="content" source="media/edit-forum-thread.png" alt-text="Edit a forum thread":::
 
 ### Delete a forum post
 
 1. Select the down arrow next to the post you want to delete.
 
-2. Select **Delete**.
+1. Select **Delete**.
 
-3. In the **Delete this thread?** pop-up window, select **Yes**.
+1. In the **Delete this thread?** pop-up window, select **Yes**.
 
-    ![Delete a forum post.](media/delete-forum-post.png "Delete a forum post")  
+    :::image type="content" source="media/delete-forum-post.png" alt-text="Delete a forum post":::
 
 ### Edit a forum post
 
 1. Select the down arrow next to the post you want to edit.
 
-2. Select **Edit**
+1. Select **Edit**
 
-3. Change the information you want to change in the **Edit this content** pop-up window.
+1. Change the information you want to change in the **Edit this content** pop-up window.
 
-4. Select **Save**.
+1. Select **Save**.
 
-    ![Edit a forum post.](media/edit-forum-post.png "Edit a forum post")
+    :::image type="content" source="media/edit-forum-post.png" alt-text="Edit a forum post":::
 
 ### See also
 
