@@ -1,10 +1,10 @@
 ---
 title: Manage forum threads
-description: Learn how to manage forum threads in a portal.
+description: Learn how to manage forum threads in Power Pages
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
+ms.date: 3/28/2023
 ms.subservice: 
 ms.author: ndoelman
 ms.reviewer: kkendrick
@@ -16,16 +16,16 @@ contributors:
 
 A forum thread (sometimes called a topic) is a collection of posts, usually displayed from oldest to newest. A thread can contain any number of posts, including multiple posts from the same members, even if they were added to the thread one after the other. A thread is contained in a [forum](setup-manage-forums.md) and may have an associated date that is taken as the date of the last post. The content or purpose of the thread is identified by the first post, also known as the original post (OP). When a member posts in a thread, the thread jumps to the top because it is the latest updated thread. Similarly, other threads will jump to the top when they receive posts. Sometimes, a member posts in a thread for no reason but to “bump” that thread (cause it to be displayed as the top thread).. Threads that are important but rarely receive posts are made “sticky” (or, as it is sometimes called, pinned). A sticky thread will always appear in front of normal threads, often in its own section. A thread's popularity is measured on forums in reply (total posts minus one, the opening post, in most default forum settings) counts. Some forums also track page views.  
 
-## Manage forum threads in Dynamics 365 Portals
+## Manage forum threads in Power Pages
 
-You can create, edit, and delete forum threads in Dynamics 365 Portals.
+You can create, edit, and delete forum threads in Power Pages.
 
 > [!Note]
-> Although you can create forum threads in Dynamics 365 Portals, we recommend you do this from the portal content editor, where the process is less involved and ensures the thread is correctly associated with the original forum post.
+> Although you can create forum threads in Power Pages, we recommend you do this from the content editor, where the process is less involved and ensures the thread is correctly associated with the original forum post.
 
 ### Create or edit forum threads
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Power Pages.
 
 2. Go to **Community** > **Forum Threads**.
 
@@ -40,13 +40,13 @@ You can create, edit, and delete forum threads in Dynamics 365 Portals.
 
 6. Select **Save**.
 
-## Create forum threads from the portal content editor
+## Create forum threads from the content editor
 
-The forum thread editor will appear automatically when a user has successfully signed in to the portal and navigated to a forum page, provided the developer has implemented the functionality in the forum's page template.
+The forum thread editor will appear automatically when a user has successfully signed in to the website and navigated to a forum page, provided the developer has implemented the functionality in the forum's page template.
 
-1. Sign in to the portal.
+1. Sign in to the website.
 
-2. Navigate to the forum page within the portal that you would like to post a new thread in.
+2. Navigate to the forum page within the website that you would like to post a new thread in.
 
 2. In the **Thread Title** field, enter title of the thread.
 
@@ -58,9 +58,9 @@ The forum thread editor will appear automatically when a user has successfully s
 
     ![Create a new forum thread.](media/create-new-forum-thread.png "Create a new forum thread")  
 
-### Forum thread attributes used by portals
+### Forum thread attributes used by Power Pages
 
-The table below explains many of the Forum Thread attributes used by portals. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
+The table below explains many of the Forum Thread attributes used by Power Pages. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
 
 |Name           |Description                                                                                                                 |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -73,14 +73,14 @@ The table below explains many of the Forum Thread attributes used by portals. It
 | First Post     | The first [forum posts](create-forum-posts.md) created on the thread.                                           |  
 | Last Post      | The last [forum posts](create-forum-posts.md) created on the thread.                                            |  
 | Post Count     | The number of posts that have been created on the thread.                                                                   |
-| View Count     | The number of times the thread has been viewed in the portal.                                                               |
+| View Count     | The number of times the thread has been viewed in the website.                                                               |
 ||
 
-## Manage forum thread types in Dynamics 365 Portals
+## Manage forum thread types in Power Pages
 
 ### Create, edit, and delete forum thread types
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Power Pages.
 2. Navigate to **Community**. 
 3. Select **Forum Thread Types**.
 4. To create a new thread type, select **New**.
@@ -88,7 +88,7 @@ The table below explains many of the Forum Thread attributes used by portals. It
 
 ## Forum thread type attributes
 
-The table below explains many of the Forum Thread Type attributes used by portals. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
+The table below explains many of the Forum Thread Type attributes used by Power Pages. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
 
 |Name            |Description                                                                                                                             |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ The table below explains many of the Forum Thread Type attributes used by portal
 
 ### See also
 
-[Setup and manage forums](setup-manage-forums.md)  
-[Create forum posts on the portal](create-forum-posts.md)  
-[Moderate forums](moderate-forums.md)  
-[Subscribe to alerts](subscribe-alerts.md)  
+- [Setup and manage forums](setup-manage-forums.md)  
+- [Create forum posts](create-forum-posts.md)  
+- [Moderate forums](moderate-forums.md)  
+- [Subscribe to alerts](subscribe-alerts.md)  
