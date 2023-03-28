@@ -113,7 +113,7 @@ As an alternative to adding conditional code in header and footers, you can also
 ### See also
 
 - [Configure site settings for portals](/power-apps/maker/portals/configure/configure-site-settings) 
-- [Substitution template tag](/maker/portals/liquid/template-tags#substitution) 
+- [Substitution template tag](liquid/template-tags.md#substitution) 
 - [Enable header and footer output caching on a portal](/power-apps/maker/portals/configure/enable-header-footer-output-caching) 
 - [SameSite mode](/power-apps/maker/portals/important-changes-deprecations#samesite-mode-changes)
 - [Set up HTTP headers in portals](/power-apps/maker/portals/configure/cors-support)

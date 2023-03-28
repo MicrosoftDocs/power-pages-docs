@@ -26,7 +26,7 @@ For more information, go to [Implementing General Data Protection Regulations](.
 
 A cookie is a small file sent from the website to a visitor's device by the browser. A single web session might use multiple cookies. Power Pages also uses cookies to store information for various purposes.
 
-For more information, go to [Cookies in Power Pages](portal-cookies.md).
+For more information, go to [Cookies in Power Pages](cookies.md).
 
 ## Accessibility
 
