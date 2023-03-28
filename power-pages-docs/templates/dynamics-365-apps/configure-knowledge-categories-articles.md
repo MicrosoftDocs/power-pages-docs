@@ -101,7 +101,7 @@ Following considerations apply when using collapsible sections:
 
 You can customize the default CSS and JS files and create additional customization. The default CSS file name is `collapsible.css` and JavaScript file name is `collapsible.js`.
 
-The following example shows a [web template](../liquid/store-content-web-templates.md) using default JavaScript and CSS files. Update the file name and location for the web template to your customized JavaScript and CSS files:
+The following example shows a [web template](/power-pages/configure/web-templates) using default JavaScript and CSS files. Update the file name and location for the web template to your customized JavaScript and CSS files:
 
 :::image type="content" source="media/web-template.png" alt-text="Web template":::
 
