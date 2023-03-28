@@ -1,6 +1,6 @@
 ---
 title: Configure and manage category for knowledge articles
-description: Learn how to create and manage a category for knowledge article.
+description: Learn how to create and manage a category for knowledge articles.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -18,7 +18,7 @@ This section helps you understand how to create a new category for knowledge art
 
 ## Create a new category for knowledge articles
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Power Pages.
 
 2. Go to **Settings** > **Service Management**. 
 
@@ -40,7 +40,7 @@ This section helps you understand how to create a new category for knowledge art
 
 4. In the **Select Category to Associate with** field, select the category you want to associate to the article. And then, select **Associate**.
 
-   ![Associate a category to a knowledge article.](media/kb-associate-category.png "Associate a category to a knowledge article")
+    :::image type="content" source="media/kb-associate-category.png" alt-text="Associate a category to a knowledge article":::
 
 > [!NOTE]
 > You can also add related articles, related products, and keywords to a knowledge article. For more information on managing knowledge articles, see [Create and manage knowledge articles](/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).
@@ -51,17 +51,17 @@ This section helps you understand how to create a new category for knowledge art
 
 2. On the **Summary** tab, under **Related information**, select **Related Categories**.
 
-    ![View associated categories to a knowledge article.](media/kb-related-categories.png "View associate categories to a knowledge article")
+    :::image type="content" source="media/kb-related-categories.png" alt-text="View associate categories to a knowledge article":::
 
 3. Select the category you want to remove.
 
 4. From **More Commands**, select **Remove**.
 
-    ![Delete an associated category from a knowledge article.](media/kb-remove-category.png "Delete an associated category from a knowledge article")
+    :::image type="content" source="media/kb-remove-category.png" alt-text="Delete an associated category from a knowledge article":::
 
 ## Delete a knowledge category
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Power Pages.
 
 2. Go to **Settings** > **Service Management**. 
 
@@ -74,7 +74,7 @@ This section helps you understand how to create a new category for knowledge art
 
 ## Enable ratings for a knowledge article
 
-1. Sign in to the portal and go to knowledge article.
+1. Sign in to the website and go to knowledge article.
 
 2. Edit the article from the inline editor.
 
@@ -84,11 +84,11 @@ This section helps you understand how to create a new category for knowledge art
 
 You can add sections that can be expanded and collapsed by adding a **collapsible section** using the *collapsible command button*:
 
-![Collapsible button control.](media/collapsible-button.png)
+:::image type="content" source="media/collapsible-button.png" alt-text="Collapsible button control":::
 
 You can see the following example with one section expanded and the rest in collapsed positions:
 
-![Example expandable and collapsible sections.](media/collapsible-example.png)
+:::image type="content" source="media/collapsible-example.png" alt-text="Example of expandable and collapsible sections":::
 
 Following considerations apply when using collapsible sections:
 
@@ -103,7 +103,7 @@ You can customize the default CSS and JS files and create additional customizati
 
 The following example shows a [web template](../liquid/store-content-web-templates.md) using default JavaScript and CSS files. Update the file name and location for the web template to your customized JavaScript and CSS files:
 
-![Web template.](media/web-template.png)
+:::image type="content" source="media/web-template.png" alt-text="Web template":::
 
 ### See also
-[Get started with the portal content editor](../portal-content-editor.md)
+- [Get started with the content editor](/power-apps/maker/portals/portal-content-editor)
