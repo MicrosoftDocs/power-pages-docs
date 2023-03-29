@@ -33,7 +33,7 @@
         - name: Building permit template
           href: templates/building-permit.md
         - name: Dynamics 365 templates
-          href: templates/dynamics-365-apps/dynamics-365-templates.md
+          href: templates/dynamics-365-apps/overview.md
         - name: Blank page template
           href: templates/blank.md
     - name: Manage sites
