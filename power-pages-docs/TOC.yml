@@ -217,7 +217,15 @@
     - name: Embed a Power Pages site in another website
       href: configure/embed-website.md
     - name: Set up Azure Front Door with Power Pages
-      href: configure/azure-front-door.md                       
+      href: configure/azure-front-door.md 
+    - name: Integrate Power BI
+      items:
+        - name: Set up Power BI integration
+          href: admin/set-up-power-bi-integration.md
+        - name: Configure Power BI component on a webpage
+          href: getting-started/add-power-bi.md
+        - name: Add Power BI using powerbi Liquid tag
+          href: configure/add-powerbi-report.md                            
 - name: Customize and extend Power Pages
   items:
     - name: Liquid
