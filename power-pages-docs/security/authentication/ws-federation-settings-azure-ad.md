@@ -23,9 +23,9 @@ In this article, you'll learn about configuring a WS-Federation provider for Pow
 > - The Power Pages feature isn't limited to only Azure AD, multitenant Azure AD, or Azure AD B2C as the WS-Federation providers. You can use any other provider that conforms to the WS-Federation specification.
 > Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
-**To configure Azure AD as the WS-Federation provider**
+To configure Azure AD as the WS-Federation provider, sign in to [Power Pages](https://make.powerpages.microsoft.com) and navigate to the [Set up workspace](../../configure/setup-workspace.md).
 
-1. Select [Add provider](configure-site.md) for your website.
+1. Select [New provider](configure-site.md) for your website.
 
 1. For **Login provider**, select **Other**.
 
@@ -125,7 +125,7 @@ In this article, you'll learn about configuring a WS-Federation provider for Pow
 
 ### See also
 
-[Configure a WS-Federation provider for Power Pages](ws-federation-provider.md)
-[Configure a WS-Federation provider for Power Pages with AD FS](ws-federation-settings.md)
+- [Configure a WS-Federation provider for Power Pages](ws-federation-provider.md)
+- [Configure a WS-Federation provider for Power Pages with AD FS](ws-federation-settings.md)
 
 
