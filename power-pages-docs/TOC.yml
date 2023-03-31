@@ -340,8 +340,6 @@
               href: security/authentication/oauth2-twitter.md
             - name: Additional settings
               href: security/authentication/oauth2-settings.md
-            - name: Migrate to Azure AD B2C
-              href: security/authentication/migrate-identity-providers.md
             - name: OAuth 2.0 implicit grant flow
               href: security/oauth-implicit-grant-flow.md
         - name: OpenID Connect
@@ -370,6 +368,8 @@
               href: security/authentication/ws-federation-settings-azure-ad.md
             - name: Configure WS Federation with AD FS
               href: security/authentication/ws-federation-settings.md
+        - name: Migrate to Azure AD B2C
+          href: security/authentication/migrate-identity-providers.md
         - name: Local authentication, registration, and other settings
           href: security/authentication/set-authentication-identity.md
     - name: User management
