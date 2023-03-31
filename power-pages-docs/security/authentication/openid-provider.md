@@ -38,7 +38,7 @@ This article explains how an identity provider that supports OpenID Connect can 
 
 ## Configure the OpenID Connect provider
 
-Similar to all other providers, you have to sign in to [Power Apps](https://make.powerapps.com) to configure the OpenID Connect provider.
+Similar to all other providers, you have to sign in to [Power Pages](https://make.powerpages.microsoft.com) to configure the OpenID Connect provider.
 
 1. Select [Add provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) for your portal.
 
