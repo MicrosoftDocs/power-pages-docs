@@ -59,6 +59,11 @@
       "source_path": "power-pages-docs/admin/portal-consumption-reports.md",
       "redirect_url": "/power-pages/admin/website-consumption-reports",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/security/configure-portal-authentication.md",
+      "redirect_url": "/power-pages/security/authentication/configure-site",
+      "redirect_document_id": "false"
     }
   ]
 }
