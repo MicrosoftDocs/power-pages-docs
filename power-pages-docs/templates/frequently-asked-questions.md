@@ -1,10 +1,10 @@
 ﻿---
-title: Frequently Asked Questions application template
+title: Frequently Asked Questions template
 description: Learn about the Frequently Asked Questions template.
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/20/2023
+ms.date: 3/31/2023
 ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: kkendrick
@@ -14,7 +14,9 @@ contributors:
 
 # Frequently Asked Questions template
 
-The Frequently Asked Questions template provides your target audience with answers to commonly asked questions. The FAQ template organizes information with a topic, subtopic and article framework. There's a no-code administrator experience for updating and organizing content. 
+The Frequently Asked Questions template provides your target audience with answers to commonly asked questions. The FAQ template organizes information with a topic, subtopic and article framework. There's a no-code administrator experience for updating and organizing content.
+
+:::image type="content" source="media/faq.png" alt-text="The FAQ template user interface. The page header contains a search box and the body of the page contains six topic tiles, each displaying a title and icon.":::
 
 > [!NOTE]
 > [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
