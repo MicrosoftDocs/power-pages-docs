@@ -313,7 +313,7 @@
         - name: Overview
           href: security/authentication/overview.md
         - name: Configure
-          href: security/authentication/configure-portal-authentication.md
+          href: security/authentication/configure-site.md
         - name: Azure AD B2C
           items:
             - name: Configure Azure AD B2C

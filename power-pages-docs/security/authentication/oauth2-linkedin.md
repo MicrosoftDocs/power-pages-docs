@@ -16,7 +16,7 @@ contributors:
 
 # Configure the LinkedIn provider for Power Pages
 
-As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md), LinkedIn is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring LinkedIn as the identity provider, select **Configure** from the [provider settings](configure-portal-authentication.md#add-configure-or-delete-an-identity-provider) page.
+As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md), LinkedIn is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring LinkedIn as the identity provider, select **Configure** from the [provider settings](configure-site.md#add-configure-or-delete-an-identity-provider) page.
 
 ## Step 1. Create the LinkedIn app
 

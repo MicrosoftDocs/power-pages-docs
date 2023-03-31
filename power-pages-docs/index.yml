@@ -163,7 +163,7 @@ conceptualContent:
         url: security/power-pages-security.md
         itemType: reference           
       - text: Set up authentication
-        url: security/authentication/configure-portal-authentication.md
+        url: security/authentication/configure-site.md
         itemType: how-to-guide     
       - text: Configure web roles
         url: security/create-web-roles.md
