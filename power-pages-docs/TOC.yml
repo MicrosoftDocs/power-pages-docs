@@ -311,7 +311,7 @@
     - name: Authentication
       items: 
         - name: Overview
-          href: security/authentication/overview.md
+          href: security/authentication/index.md
         - name: Configure
           href: security/authentication/configure-site.md
         - name: Azure AD B2C
