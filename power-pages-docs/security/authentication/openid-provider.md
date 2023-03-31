@@ -103,5 +103,5 @@ To edit a configured OpenID Connect provider, see [Edit a provider](/power-apps/
 
 ### See also
 
-[Configure an OpenID Connect provider for Power Pages with Azure AD](openid-settings.md)
-[FAQs for using OpenID Connect in Power Pages](openid-faqs.md)
+- [Configure an OpenID Connect provider for Power Pages with Azure AD](openid-settings.md)
+- [FAQs for using OpenID Connect in Power Pages](openid-faqs.md)

@@ -100,6 +100,6 @@ The site users now have access to the resources specified by the web role.
 
 ### See also
 
-[Configure table permissions](table-permissions.md)</br>
-[Assign table permissions](assign-table-permissions.md)</br>
-[Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
+- [Configure table permissions](table-permissions.md)
+- [Assign table permissions](assign-table-permissions.md)
+- [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
