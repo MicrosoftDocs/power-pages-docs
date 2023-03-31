@@ -21,9 +21,9 @@ To provide external authentication, you can add one or more [SAML 2.0](https://d
 > [!NOTE]
 > Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
-**To configure a SAML 2.0 provider**
+To configure a SAML 2.0 provider, go to the Setup workspace in design studio.
 
-1. Select [Add provider](configure-site.md) for your website.
+1. Select [New provider](configure-site.md) for your website.
 
 1. For **Login provider**, select **Other**.
 
