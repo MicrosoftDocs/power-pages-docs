@@ -45,7 +45,7 @@ Power BI must be enabled before you begin adding Power BI components. For more i
 
         1. **Embed for your customers** - Allows you to securely share the Power BI dashboards or reports to external users without a Power BI license or Azure Active Directory authentication setup. This option uses Power BI Embedded services to integrate Power BI dashboards or reports into your portal.
             > [!NOTE]
-            > Ensure [Power BI Embedded service is enabled](../portals/admin/set-up-power-bi-integration.md#enable-power-bi-embedded-service) and respective Power BI workspaces are selected and shared with the maker or the logged-in user.
+            > Ensure [Power BI Embedded service is enabled](../admin/set-up-power-bi-integration.md#enable-power-bi-embedded-service) and respective Power BI workspaces are selected and shared with the maker or the logged-in user.
 
         1. **Embed for your organization** - Allows you to securely share the Power BI dashboards or reports with Azure Active Directory authenticated users.
 
@@ -84,11 +84,11 @@ Power BI must be enabled before you begin adding Power BI components. For more i
 The following list explains Power BI access types in brief and lists access type considerations for Power Pages. For more information about Power BI access types, go to [The difference between Power BI service and Power BI Embedded](/power-bi/developer/embedded/embedded-faq#how-is-power-bi-embedded-different-from-power-bi-the-service).
 
 - **Embed for your customers**:
-    - Shows the list of workspaces shared to a user currently logged in and enabled for [Power BI Embedded service](../portals/admin/set-up-power-bi-integration.md#enable-power-bi-embedded-service).
+    - Shows the list of workspaces shared to a user currently logged in and enabled for [Power BI Embedded service](../admin/set-up-power-bi-integration.md#enable-power-bi-embedded-service).
     - Uses Power BI Embedded service.
     - If you've used Power BI Embedded service with Power Pages before, you'll get a warning message indicating that you need to disable the Power BI visualization from the admin center and enable again when you select **Embed for your customers**:
    
-        When this message appears, ensure you [disable](..admin/set-up-power-bi-integration.md#disable-power-bi-visualization) and then [enable](../admin/set-up-power-bi-integration.md#enable-power-bi-visualization) Power BI visualization again.
+        When this message appears, ensure you [disable](../admin/set-up-power-bi-integration.md#disable-power-bi-visualization) and then [enable](../admin/set-up-power-bi-integration.md#enable-power-bi-visualization) Power BI visualization again.
 
     - If you add Power BI with **Embed for your customers** on a webpage that's available **anonymously**, anyone can view the dashboard. To secure this page, read [Page permissions in Power Pages](../security/page-security.md).
 
@@ -105,12 +105,12 @@ The following list explains Power BI access types in brief and lists access type
     - A high number of workspaces shared with a logged-in user.
     - Power BI workspaces are shared with many users.
 - [The capture Liquid variable](../configure/liquid/dataverse-liquid-tags.md#powerbi) isn't supported in the design studio while working with a Power BI component.
-- If you [delete a website](../admin/delete-website.md) and provision a new website, you must add the website application ID of the new website to the **Portal Power BI Embedded service** Azure AD security group. For more information, go to [Set up Power BI integration](../admin/admin/set-up-power-bi-integration.md#create-security-group-and-add-to-power-bi-account).
+- If you [delete a website](../admin/delete-website.md) and provision a new website, you must add the website application ID of the new website to the **Portal Power BI Embedded service** Azure AD security group. For more information, go to [Set up Power BI integration](../admin/set-up-power-bi-integration.md#create-security-group-and-add-to-power-bi-account).
 - If you make a change in the Power Pages section of the Power Platform admin center, you must reload the design studio if you already have it open.
 - Adding users to Power BI dashboards and reports may take a while to reflect in the design studio.
 - Power BI dashboards and reports connected to a shared dataset present on a different workspace aren't supported.
 - Paginated Power BI reports aren't supported.
-- If you're using Power BI **Embed for your customers** access type to provide reports and dashboards for your customers, refer to the [powerbi-client JavaScript library](../configure/add-powerbi-report.md#how-to-use-powerbi-client-javascript-library-in-portals) for advanced customizations. 
+- If you're using Power BI **Embed for your customers** access type to provide reports and dashboards for your customers, refer to the [powerbi-client JavaScript library](../configure/add-powerbi-report.md#how-to-use-powerbi-client-javascript-library-in-power-pages) for advanced customizations. 
 - If you're using the Power BI **Embed for your organization** access type and want to hide the filter pane, refer to [hide filter pane in reading mode](/power-bi/create-reports/power-bi-report-filter?tabs=powerbi-desktop#hide-the-filters-pane-in-reading-mode) in the Power BI documentation.  
 
 ### Power BI performance and optimization considerations
