@@ -170,7 +170,7 @@ sections:
       - question: |
           How do I use a custom sign in provider on my website?
         answer: |
-          Power Pages supports any custom sign in provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure authentication](security/configure-portal-authentication.md).
+          Power Pages supports any custom sign in provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure authentication](security/authentication/configure-site.md).
           
       - question: |
           How do I get new Power Pages releases in my sandbox website first before it gets applied to production?

@@ -1,6 +1,6 @@
 ---
-title: Configure web roles in Power Pages
-description: Learn how to configure web roles.
+title: Create web roles in Power Pages
+description: Learn how to create web roles.
 author: nickdoelman
 
 ms.topic: conceptual
@@ -14,8 +14,6 @@ contributors:
 ---
 
 # Configure web roles
-
-
 
 Before you grant authenticated users access to [table permissions](table-permissions.md) or [restricted pages](page-security.md), they must first be assigned to a web role.
 
@@ -39,7 +37,7 @@ Configure and assign web roles using the [Portal Management app](../configure/po
 
 ## Attributes and relationships
 
-The table below explains the web role attributes used by portals.
+The table below explains the web role attributes used by Power Pages.
 
 | Name                     | Description                                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
