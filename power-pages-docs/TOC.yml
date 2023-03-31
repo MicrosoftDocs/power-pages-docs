@@ -365,7 +365,7 @@
             - name: Configure with AD FS 
               href: security/authentication/ws-federation-settings.md
             - name: Migrate to Azure AD B2C
-              href:
+              href: security/authentication/migrate-identity-providers.md
         - name: Local authentication, registration, and other settings
           href: security/authentication/set-authentication-identity.md
     - name: User Management
