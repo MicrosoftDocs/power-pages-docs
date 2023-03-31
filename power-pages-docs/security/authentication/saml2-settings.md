@@ -270,7 +270,7 @@ After setting up the AD FS relying party trust, you can follow the steps in [Con
 
 ### See also
 
-[Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
-[FAQs for using SAML 2.0 in Power Pages](saml2-faqs.md) 
-[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
+- [Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
+- [FAQs for using SAML 2.0 in Power Pages](saml2-faqs.md) 
+- [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
 

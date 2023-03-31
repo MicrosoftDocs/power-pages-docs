@@ -67,5 +67,5 @@ See [Edit a provider](/power-apps/maker/portals/configure/use-simplified-authent
 
 ### See also
 
-[Configure a WS-Federation provider for Power Pages with Azure AD](ws-federation-settings-azure-ad.md)
-[Configure a WS-Federation provider for Power Pages with AD FS](ws-federation-settings.md)
+- [Configure a WS-Federation provider for Power Pages with Azure AD](ws-federation-settings-azure-ad.md)
+- [Configure a WS-Federation provider for Power Pages with AD FS](ws-federation-settings.md)
