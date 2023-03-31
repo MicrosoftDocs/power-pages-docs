@@ -344,7 +344,7 @@
               href: security/authentication/openid-provider.md
             - name: Configure for Azure AD
               href: security/authentication/openid-settings.md
-            - name: Configure for OpenID Connect
+            - name: FAQs
               href: security/authentication/openid-faqs.md
         - name: SAML 2.0
           items:
