@@ -24,7 +24,7 @@ In this article, you'll learn about configuring a SAML 2.0 provider for Power Pa
 
 **To configure Azure AD as the SAML 2.0 provider**
 
-1. Select [Add provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) for your website.
+1. Select [Add provider](configure-site.md) for your website.
 
 1. For **Login provider**, select **Other**.
 

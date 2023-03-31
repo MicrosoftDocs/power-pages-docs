@@ -23,7 +23,7 @@ To provide external authentication, you can add one or more [SAML 2.0](https://d
 
 **To configure a SAML 2.0 provider**
 
-1. Select [Add provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) for your website.
+1. Select [Add provider](configure-site.md) for your website.
 
 1. For **Login provider**, select **Other**.
 
@@ -59,9 +59,7 @@ To provide external authentication, you can add one or more [SAML 2.0](https://d
 
 1. Select **Confirm**.
 
-**To edit a SAML 2.0 provider**
-
-See [Edit a provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#edit-a-provider).
+To edit a SAML 2.0 provider, see [Configure Power Pages site authentication](configure-site.md).
 
 ### See also
 

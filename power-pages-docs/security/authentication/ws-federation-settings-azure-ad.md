@@ -25,7 +25,7 @@ In this article, you'll learn about configuring a WS-Federation provider for Pow
 
 **To configure Azure AD as the WS-Federation provider**
 
-1. Select [Add provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) for your website.
+1. Select [Add provider](configure-site.md) for your website.
 
 1. For **Login provider**, select **Other**.
 
