@@ -208,7 +208,7 @@ The following message is displayed when you try to save a table permission witho
 
 ### See also
 
-[Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
-[Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
-[Assign table permissions](assign-table-permissions.md)<br />
-[Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
+- [Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
+- [Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
+- [Assign table permissions](assign-table-permissions.md)<br />
+- [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
