@@ -56,7 +56,6 @@ In order to perform the following steps, you'll need to be assigned the **System
 1. Open the [Portal Management app](../configure/portal-management-app.md).
 
 1. Go to **Portals** > **Contacts**, and open the contact for which you want to change the password.
-    Alternately, you can also open the **Contacts** page from the [share](/power-apps/maker/portals/manage-existing-portals) pane. 
 
 1. Select **Change Password** from the command bar the contact form.
 
