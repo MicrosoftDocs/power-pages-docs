@@ -21,9 +21,9 @@ You can add a WS-Federation&ndash;compliant security token service provider&mdas
 > [!NOTE]
 > Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
 
-To configure a WS-Federation provider
+To configure a WS-Federation provider, sign in to [Power Pages](https://make.powerpages.microsoft.com) and navigate to the [Set up workspace](../../configure/setup-workspace.md).
 
-1. Select [Add provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) for your website.
+1. Select [New provider](configure-site.md) for your website.
 
 1. For **Login provider**, select **Other**.
 

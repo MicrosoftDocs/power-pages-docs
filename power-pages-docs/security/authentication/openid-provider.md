@@ -38,9 +38,9 @@ This article explains how an identity provider that supports OpenID Connect can 
 
 ## Configure the OpenID Connect provider
 
-Similar to all other providers, you have to sign in to [Power Pages](https://make.powerpages.microsoft.com) to configure the OpenID Connect provider.
+To configure the OpenID Connect provider, sign in to [Power Pages](https://make.powerpages.microsoft.com) and navigate to the [Set up workspace](../../configure/setup-workspace.md).
 
-1. Select [Add provider](configure-site.md) for your portal.
+1. Select [New provider](configure-site.md) for your website.
 
 1. For **Login provider**, select **Other**.
 
