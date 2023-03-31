@@ -82,7 +82,7 @@ The following table shows the result of applying different column and table perm
 
 ### See also
 
-[Assign table permissions](assign-table-permissions.md)<br />
-[Create web roles for Power Pages](create-web-roles.md)<br />
-[Portal Web API overview](../configure/web-api-overview.md)
+- [Assign table permissions](assign-table-permissions.md)
+- [Create web roles for Power Pages](create-web-roles.md)
+- [Portal Web API overview](../configure/web-api-overview.md)
 
