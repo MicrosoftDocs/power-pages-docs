@@ -49,7 +49,7 @@ Yes.  Use the [Power Platform admin center](../../admin/admin-overview.md) to up
 
 ### See also
 
-[Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
-[Configure a SAML 2.0 provider for Power Pages with AD FS](saml2-settings.md)
-[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
+- [Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
+- [Configure a SAML 2.0 provider for Power Pages with AD FS](saml2-settings.md)
+- [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
 
