@@ -45,7 +45,6 @@ To edit the **Send Invitation** workflow email template, locate it and deactivat
 1.  Open the [Portal Management app overview](../configure/portal-management-app.md).
 
 2.	Go to **Portals** > **Contacts**.
-    Alternately, you can also open the **Contacts** page from the [Share](/power-apps/maker/portals/manage-existing-portals#share) pane. 
 
 3.	Select a contact or open the contact record to be invited.
 
