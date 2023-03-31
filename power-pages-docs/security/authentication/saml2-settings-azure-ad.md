@@ -113,6 +113,6 @@ In this article, you'll learn about configuring a SAML 2.0 provider for Power Pa
 
 ### See also
 
-[Configure a SAML 2.0 provider for Power Pages with AD FS](saml2-settings.md)
-[FAQs for using SAML 2.0 in Power Pages](saml2-faqs.md)
-[Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
+- [Configure a SAML 2.0 provider for Power Pages with AD FS](saml2-settings.md)
+- [FAQs for using SAML 2.0 in Power Pages](saml2-faqs.md)
+- [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
