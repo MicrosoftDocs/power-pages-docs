@@ -134,8 +134,10 @@
           href: admin/change-base-url.md
         - name: Enable maintenance mode
           href: admin/enable-maintenance-mode.md  
+        - name: Add custom domain name        
+          href: admin/add-custom-domain.md
         - name: Import metadata translation
-          href: admin/import-metadata-translation.md
+          href: admin/enable-maintenance-mode.md           
         - name: Set up Power BI integration
           href: admin/set-up-power-bi-integration.md                                 
     - name: Manage custom certificate
