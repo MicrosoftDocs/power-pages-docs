@@ -4,7 +4,7 @@ description: Learn how to set and manage table permissions.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/02/2022
+ms.date: 3/30/2023
 ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
@@ -150,6 +150,9 @@ To deactivate/activate or delete table permissions:
 1. Confirm when prompted.
 
 ## Configure child permissions
+
+> [!NOTE]
+> Polymorphic lookups are not supported when configuring parent-child table permissions.
 
 To add a child permission to an existing table permission:
 
