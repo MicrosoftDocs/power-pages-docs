@@ -85,7 +85,7 @@ To configure a provider, select **Configure** (or select **More Commands** (**..
 > [!NOTE]
 > You can use **Add provider** or **Configure** to add or configure a provider for the first time. After you configure a provider, you can edit it. You can also select the provider name hyperlink to open the configuration options quickly.
 
-The configuration steps after you select **Next** depend on the type of identity provider you select. More information: [Common identity providers](overview.md#common-identity-providers)
+The configuration steps after you select **Next** depend on the type of identity provider you select. More information: [Common identity providers](index.md#common-identity-providers)
 
 ### Edit a provider
 
