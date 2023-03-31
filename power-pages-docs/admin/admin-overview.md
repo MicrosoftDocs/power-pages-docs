@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin center
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/07/2023
+ms.date: 03/29/2023
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -17,7 +17,7 @@ contributors:
 Power Pages uses the Power Platform admin center to provide administrators with various site configuration capabilities.
 
 > [!NOTE]
-> You will need to be assigned certain roles to perform administrative tasks. For more information, see [Roles required for portal administration](/power-apps/maker/portals/admin/portal-admin-roles).
+> You will need to be assigned certain roles to perform administrative tasks. For more information, see [Roles required for website administration](admin-roles.md).
 
 1. To access the admin center, from the design studio, select the **Set up** workspace.
 
@@ -28,6 +28,14 @@ Power Pages uses the Power Platform admin center to provide administrators with 
 1. The **Power Platform admin center** will open and allow you to configure your site.
 
     :::image type="content" source="media/power-platform-admin-center.png" alt-text="Power Platform admin center.":::
+
+Alternatively, you can also access your site details directly from the Power Platform admin center.
+
+1. Go to the [Power Platform admin center](https://aka.ms/ppac).
+
+1. Under **Resources**, select **Power Pages sites**.
+
+1. Select site to which you view details or perform admin actions. 
 
 The following capabilities are accessible from the admin center. More information on these features may be linked to the Power Apps documentation.
 
@@ -41,10 +49,10 @@ Select **Site Actions** to perform the following actions on your site.
 | - | - |
 | Restart site | Restart the site. |
 | Shut down this site | Turn off the site. |
-| Delete this site | See [Delete a portal](/power-apps/maker/portals/admin/reset-portal#delete-a-portal) |
+| Delete this site | See [Delete a portal](delete-website.md) |
 | Disable custom errors | See [Disable custom errors](view-portal-error-log.md#disable-custom-error) |
 | Enable diagnostic logs | See [Enable diagnostic logging](view-portal-error-log.md#enable-diagnostic-logging)
-| Enable maintenance mode | See [Maintenance mode for a portal](/power-apps/maker/portals/admin/enable-maintenance-mode) |
+| Enable maintenance mode | See [Maintenance mode for a portal](enable-maintenance-mode.md) |
 
 ## Site Actions (...)
 
@@ -54,9 +62,9 @@ Select **...** to the left of **Site Actions** for more site actions.
 
 | Action | More Information |
 | - | - |
-| Manage Dynamics 365 Instance | See [Update the Dynamics 365 instance for your portal](/power-apps/maker/portals/admin/update-dynamics365-instance) |
-| Update Dynamics 365 URL | |
-| Metadata translations | See [Import metadata translation](/power-apps/maker/portals/admin/import-metadata-translation)
+| Manage Dynamics 365 Instance | See [Update the Dynamics 365 instance for your portal](update-dynamics365-instance.md) |
+| Update Dynamics 365 URL | If you updated your [environment URL](/power-platform/admin/edit-properties-environment#edit-an-environment), the **Update Dynamics 365 URL** action will update your site to point to the updated environment URL. |
+| Metadata translations | See [Import metadata translation](import-metadata-translation.md)
 | Install Field Service Extension | See [Integrate Field Service](/power-apps/maker/portals/customer-engagement-apps/integrate-field-service) |
 | Install Project Service Extension | See [Integrate Project Service Automation](/power-apps/maker/portals/customer-engagement-apps/integrate-project-service-automation) |
 
@@ -77,7 +85,7 @@ Select **...** to the left of **Site Actions** for more site actions.
 | Early Upgrade | Indicates if site has been enabled for an early upgrade. |
 | Site Visibility | Indicates the visibility of the site. See [Site Visibility](../security/site-visibility.md). |
 | Site State | Indicates the site's running state. |
-| Application Id | The site's application id. |
+| Application Id | The site's application Id. |
 | Org URL | The organization URL of the Microsoft Dataverse instance the site is associated with. |
 
 ## Security
@@ -85,7 +93,7 @@ Select **...** to the left of **Site Actions** for more site actions.
 | Action | More Information |
 | - | - |
 | IP Restrictions | See [Restrict website access by IP address](ip-address-restrict.md) |
-| Custom Certificates | See [Manage custom certificates](/power-apps/maker/portals/admin/manage-custom-certificates) |
+| Custom Certificates | See [Manage custom certificates](manage-custom-certificates.md) |
 | Website Authentication Key | See [Manage website authentication key](manage-auth-key.md) |
 | Manage Site Visibility Permissions | See [Site visibility in Power Pages](../security/site-visibility.md) |
 
@@ -106,9 +114,28 @@ Select **...** to the left of **Site Actions** for more site actions.
 
 | Action | More Information |
 | - | - |
-| Power BI Visualization | See [Enable Power BI visualization](/power-apps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-visualization) |
-| Power BI Embedded Service | See [Enable Power BI Embedded service](/power-apps/maker/portals/admin/set-up-power-bi-integration#enable-power-bi-embedded-service) |
-| SharePoint Integration | See [Manage SharePoint documents](/power-apps/maker/portals/manage-sharepoint-documents) |
+| Power BI Visualization | See [Enable Power BI visualization](set-up-power-bi-integration.md#enable-power-bi-visualization) |
+| Power BI Embedded Service | See [Enable Power BI Embedded service](set-up-power-bi-integration.md#enable-power-bi-embedded-service) |
+| SharePoint Integration | See [Manage SharePoint documents](../configure/manage-sharepoint-documents.md) |
+
+## Add yourself as an owner of the Azure AD application
+
+If you aren't a global administrator and you try to manage a website that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your website.
+
+1. Go to the Power Platform admin center following the steps above.
+
+1. From the **Site Details** section, copy the value of the **Application Id** field.    
+
+1. Go to Azure AD associated with your tenant. More information: [Take over an unmanaged directory as administrator in Azure Active Directory](/azure/active-directory/active-directory-manage-o365-subscription).
+
+1. In Azure AD, search for the app registration by using the application ID you copied. You might need to switch from **My apps** to **All apps**.
+
+1. Add users or groups as owners of this app registration. More information: [Managing access to apps](/azure/active-directory/active-directory-managing-access-to-apps)
+
+    > [!Note]
+    > This task can be performed either by a global administrator of your organization or the existing owner of this application.
+
+1. After you've added yourself as an owner, reopen the site details page from the Power Platform admin center.
 
 ## See also
 - [Power Pages admin APIs](admin-api.md)
