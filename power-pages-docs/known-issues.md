@@ -85,7 +85,11 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
 
 ## Visual Studio Code extension for Power Pages
 
-You man get an error when updating the Power Platform Tools for Visual Studio Code with the error message `Cannot install Power Pages generator: spawnSync npm.cmd ENOENT`. To resolve the issue, install [node.js](https://nodejs.org/en/download) and restart Visual Studio Code.
+- You man get an error when updating the Power Platform Tools for Visual Studio Code with the error message `Cannot install Power Pages generator: spawnSync npm.cmd ENOENT`. To resolve the issue, install [node.js](https://nodejs.org/en/download) and restart Visual Studio Code.
+
+- Two sets of the Power Pages create commands may appear in the menu and will not work if you have both the stable version of **Power Platform Tools** as well as the **Power Platform Tools [PREVIEW]** installed on Visual Studio Code.
+
+    Uninstall the **Power Platform Tools [PREVIEW]** version to resolve the issue.
 
 ## General issues
 
