@@ -59,9 +59,9 @@ With open registration enabled, users aren't required to provide an invitation c
 
 ### See also
 
-[Customize the Azure AD B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c)
-[Configure an OAuth 2.0 provider](oauth2-provider.md)
-[Configure an OpenID Connect provider](openid-provider.md)
-[Configure a SAML 2.0 provider](saml2-provider.md)
-[Configure a WS-Federation provider](ws-federation-provider.md)
+- [Customize the Azure AD B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c)
+- [Configure an OAuth 2.0 provider](oauth2-provider.md)
+- [Configure an OpenID Connect provider](openid-provider.md)
+- [Configure a SAML 2.0 provider](saml2-provider.md)
+- [Configure a WS-Federation provider](ws-federation-provider.md)
 

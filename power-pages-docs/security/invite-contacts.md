@@ -93,5 +93,5 @@ The table below explains the attributes of the **Invitation** page:
 
 ### See also
 
-[Configure contacts as site users](external-access.md#configure-contacts-as-site-users)  
-[Local authentication, registration, and other settings](authentication/set-authentication-identity.md)
+- [Configure contacts as site users](external-access.md#configure-contacts-as-site-users)  
+- [Local authentication, registration, and other settings](authentication/set-authentication-identity.md)
