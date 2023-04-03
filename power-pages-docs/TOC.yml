@@ -142,6 +142,8 @@
           href: admin/set-up-power-bi-integration.md
     - name: Manage custom certificate
       href: admin/manage-custom-certificates.md
+    - name: Content Delivery Network
+      href: configure/configure-cdn.md
     - name: Capacity consumption reports
       href: admin/website-consumption-reports.md
     - name: Restrict IP addresses
