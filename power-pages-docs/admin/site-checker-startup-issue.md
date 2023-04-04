@@ -102,7 +102,7 @@ There are situations in which the website won't be able to re-create website bin
 
 ### An unexpected error has occurred while trying to connect to your Microsoft Dataverse environment
 
-This situation can arise because of some unexpected issue. To mitigate this situation, try reprovisioning the website. First, delete the website, see [Delete a website](delete-website.md) and then re-create the website using [existing website data](migrate-site-configuration.md?#prepare-the-target-environment). 
+This situation can arise because of some unexpected issue. To mitigate this situation, try reprovisioning the website. First, delete the website, see [Delete a website](delete-website.md) which will delete the website host and not the site metadata. Re-create the website using existing website data. 
 
 If a reprovision doesn't solves the issue, contact Microsoft Support for help.
 
