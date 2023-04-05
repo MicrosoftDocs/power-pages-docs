@@ -1,252 +1,134 @@
 ---
-title: Server-side cache in portals
-description: Learn how to force the portal to refresh its cache immediately.
-author: neerajnandwana-msft
+title: Understand server-side caching in Power Pages
+description: Learn server-side caching in works Power Pages
+author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/03/2021
-ms.subservice: portals
-ms.author: nenandw
+ms.date: 04/05/2023
+ms.subservice: 
+ms.author: dileeps
 ms.reviewer: ndoelman
 contributors:
-    - neerajnandwana-msft
+    - dileepsinghmicrosoft
     - nickdoelman
 ---
 
-# Server-side cache in portals
+# Understand server-side caching in Power Pages
+
+In order to improve scalability and performance, Power Pages websites cache the data which is queried from Microsoft Dataverse. This caching is done on the application server for all business data as well as website metadata and is different from browser based or content delivery network caching of static resources.
+
+Server side caching is done for two types of tables described below:
+
+## Metadata/configuration tables
+
+Metadata/configuration tables represents all the tables which store website configuration information like web pages, web templates, content snippets, and others.
+
+The following tables are considered as **configuration** tables. This list is fixed and cannot be modified through any configuration.
+
+```html
+adx_contentaccesslevel
+adx_contentsnippet
+adx_entityform
+adx_entityformmetadata
+adx_entitylist
+adx_entitypermission
+adx_entitypermission_webrole
+adx_externalidentity
+adx_pagealert
+adx_pagenotification
+adx_pagetag
+adx_pagetag_webpage
+adx_pagetemplate
+adx_portallanguage
+adx_publishingstate
+adx_publishingstatetransitionrule
+adx_publishingstatetransitionrule_webrole
+adx_redirect
+adx_setting
+adx_shortcut
+adx_sitemarker
+adx_sitesetting
+adx_urlhistory
+adx_webfile
+adx_webfilelog
+adx_webform
+adx_webformmetadata
+adx_webformsession
+adx_webformstep
+adx_weblink
+adx_weblinkset
+adx_webnotificationentity
+adx_webnotificationurl
+adx_webpage
+adx_webpage_tag
+adx_webpageaccesscontrolrule
+adx_webpageaccesscontrolrule_webrole
+adx_webpagehistory
+adx_webpagelog
+adx_webrole_systemuser
+adx_website
+adx_website_list
+adx_website_sponsor
+adx_websiteaccess
+adx_websiteaccess_webrole
+adx_websitebinding
+adx_websitelanguage
+adx_webtemplate
+```
+
+All configuration table data is same for all users and is cached automatically. This configuration data cache for any table is updated automatically when any record is changed. Automatic cache update has a service level agreement of 15 minutes. Any change done for a configuration record would be automatically available on the website within 15 minutes.
+
+However, in case the record changes are needed immediately, this can be done by explicitly clearing the cache using following options;
 
 
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
+| | |
+|---------|---------|
+| Design studio     | Selecting the [Preview](../getting-started/first-page.md#preview-a-page) option on the design studio will clear the cache.        |
+|`/_services/about` page on the website    |  Utilize the **clear config** or **clear cache** option by navigating to the website with '/_services/about' appended to the URL of the website. In order to view these options, user should have a webrole with all [website access permissions](../security/website-access-permission.md) assigned.       |
 
-As a portal administrator, you can clear the server-side cache for the entire portal so that updated data from Microsoft Dataverse is immediately reflected on the portal. Updates from Dataverse  are communicated to the portal in asynchronous mode, so there might be a lag between the time data is updated in Dataverse and the time that updated data appears on the portal. To eliminate this delay&mdash;for example, when it interferes with portal configuration&mdash;you can force the portal to refresh its cache immediately.
+:::image type="content" source="media/clear-cache/clear-cache.png" alt-text="Clear cache.":::
 
-> [!IMPORTANT]
-> - Clearing the [portal server-side cache](#steps-to-clear-portal-server-side-cache) or the [configuration tables cache](#configuration-entity-caching-portals-with-capacity-based-licenses) causes temporary performance degradation of the portal while data gets reloaded from Dataverse.
-> - Changes to the [configuration tables](#list-of-configuration-tables-refreshed-when-you-clear-config), or [publish changes](../../data-platform/create-solution.md#publish-changes) actions should be performed during non-peak hours. Frequent or too many table changes may adversely affect portal performance.
-> - The SLA for cache refresh (data transfer between Dataverse and portal) is 15 minutes.
-> - Power Apps portals with version 9.2.6.x or later have improved caching. For more information, go to [Caching changes for portals with version 9.2.6.x or later](#caching-changes-for-portals-with-version-926x-or-later).
+> [!NOTE]
+> Updates to the data in [configuration tables](#list-of-configuration-tables-refreshed-when-you-clear-config) or invoking the clear cache or config actions should be performed during non-peak hours. Frequent or too many table changes may adversely affect website performance.
 
-## Steps to clear portal server-side cache
+All configuration tables must be enabled for change notification in the organization. This is set correctly by default and shouldn't be modified.
 
-To clear the server-side cache:
+## Data tables
 
-1. Sign in to the portal as an administrator.
+Data tables represents all the Dataverse tables which store business data displayed on the website. This data is typically cached per user except in certain cases like anonymous users or tables with [global permission](../security/table-permissions.md#available-access-types). Also only the data accessed by user on the website is cached and not the data for whole table.  
 
-1. Navigate to the URL as follows: `<portal_path>/_services/about`.
+This cache is updated through several mechanisms described below:
 
-1. Select **Clear Cache**.
+- Any record for a table (or a related table) is created, updated, or deleted on the website by any website user. This will instantaneously clear the cache for all the website users for that specific table.
 
-The server-side cache is deleted, and data is reloaded from Dataverse. 
+- Cache is cleared automatically within 15 minutes even if no changes are made.
 
-![Clear the portal cache.](media/clear-server-side-cache/clear-portal-cache.png)
+- Cache is cleared manually through following options:
 
-## Configuration table caching in portals with capacity-based licenses<a name = "configuration-entity-caching-portals-with-capacity-based-licenses"></a>
+    | | |
+    |---------|---------|
+    | Design studio     | Selecting the [Preview](../getting-started/first-page.md#preview-a-page) option on the design studio will clear the cache.        |
+    |`/_services/about` page on the website    |  Utilize the **clear config** or **clear cache** option by navigating to the website with '/_services/about' appended to the URL of the website. In order to view these options, user should have a webrole with all [website access permissions](../security/website-access-permission.md) assigned.       |
 
-[Capacity based](/power-platform/admin/powerapps-flow-licensing-faq#portals) portals have more options on `<portal_path>/_services/about`:
+> [!NOTE]
+> The clear cache option should be seldom used as it clears cache for all data tables as well as [configuration tables](#list-of-configuration-tables-refreshed-when-you-clear-config) and can cause temporary slowness. For live site with heavy usage, this can lead to users facing performance issues.
 
-![Clear portal cache with capacity-based license.](media/clear-server-side-cache/clear-config-capacity-license.png)
-
-Portal metadata is stored in tables called *configuration tables*. If you change configuration tables using the *Unified Interface application*, you **must** select **Clear config** to clear the configuration cache for changes to reflect in your Portal.  
-
-### List of configuration tables refreshed when you clear config
-
-Clearing the server-side configuration cache for a portal includes refreshing the data from the following *configuration tables*:
-
-:::row:::
-:::column:::
-	adx_contentaccesslevel
-:::column-end:::
-:::column:::
-	adx_contentsnippet
-:::column-end:::
-:::column:::
-	adx_entityform
-:::row-end:::
-:::row:::
-:::column:::
-	adx_entityformmetadata
-:::column-end:::
-:::column:::
-	adx_entitylist
-:::column-end:::
-:::column:::
-	adx_entitypermission
-:::row-end:::
-:::row:::
-:::column:::
-	adx_entitypermission_webrole
-:::column-end:::
-:::column:::
-	adx_externalidentity
-:::column-end:::
-:::column:::
-	adx_pagealert
-:::row-end:::
-:::row:::
-:::column:::
-	adx_pagenotification
-:::column-end:::
-:::column:::
-	adx_pagetag
-:::column-end:::
-:::column:::
-	adx_pagetag_webpage
-:::row-end:::
-:::row:::
-:::column:::
-	adx_pagetemplate
-:::column-end:::
-:::column:::
-	adx_portallanguage
-:::column-end:::
-:::column:::
-	adx_publishingstate
-:::row-end:::
-:::row:::
-:::column:::
-	adx_publishingstatetransitionrule
-:::column-end:::
-:::column:::
-	adx_publishingstatetransitionrule_webrole
-:::column-end:::
-:::column:::
-	adx_redirect
-:::row-end:::
-:::row:::
-:::column:::
-	adx_setting
-:::column-end:::
-:::column:::
-	adx_shortcut
-:::column-end:::
-:::column:::
-	adx_sitemarker
-:::row-end:::
-:::row:::
-:::column:::
-	adx_sitesetting
-:::column-end:::
-:::column:::
-	adx_urlhistory
-:::column-end:::
-:::column:::
-	adx_webfile
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webfilelog
-:::column-end:::
-:::column:::
-	adx_webform
-:::column-end:::
-:::column:::
-	adx_webformmetadata
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webformsession
-:::column-end:::
-:::column:::
-	adx_webformstep
-:::column-end:::
-:::column:::
-	adx_weblink
-:::row-end:::
-:::row:::
-:::column:::
-	adx_weblinkset
-:::column-end:::
-:::column:::
-	adx_webnotificationentity
-:::column-end:::
-:::column:::
-	adx_webnotificationurl
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webpage
-:::column-end:::
-:::column:::
-	adx_webpage_tag
-:::column-end:::
-:::column:::
-	adx_webpageaccesscontrolrule
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webpageaccesscontrolrule_webrole
-:::column-end:::
-:::column:::
-	adx_webpagehistory
-:::column-end:::
-:::column:::
-	adx_webpagelog
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webrole_systemuser
-:::column-end:::
-:::column:::
-	adx_website
-:::column-end:::
-:::column:::
-	adx_website_list
-:::row-end:::
-:::row:::
-:::column:::
-	adx_website_sponsor
-:::column-end:::
-:::column:::
-	adx_websiteaccess
-:::column-end:::
-:::column:::
-	adx_websiteaccess_webrole
-:::row-end:::
-:::row:::
-:::column:::
-	adx_websitebinding
-:::column-end:::
-:::column:::
-	adx_websitelanguage
-:::column-end:::
-:::column:::
-	adx_webtemplate
-:::row-end:::
-
-## Caching changes for portals with version 9.2.6.x or later
-
-Power Apps portals with version 9.2.6.x or later benefit from improved caching functionality to increase consistency and reliability as follows.
-
-- Capacity-based portals and add-on portals will use the same caching functionality.
-- Add-on portals with high load will have improved performance and a reliable data cache refresh.
-
-> [!IMPORTANT]
-> - No change to SLA for cache refresh (data transfer between Dataverse and portal) mentioned earlier in this article.
-> - Data changes done using portals will reflect immediately in Dataverse and portals.
-> - No change to [clear server-side cache functionality](#steps-to-clear-portal-server-side-cache). You can continue to use this functionality to clear server cache immediately.
- 
 ### FAQs
- 
-**1. Can I change the cache refresh duration from 15 minutes to a lesser duration?** <br>
-No. SLA for cache refresh remains 15 minutes. Any changes from Dataverse will reflect on portals within 15 minutes.
 
-**2. I'm using plugins or workflows to update data in other tables and need these data changes to reflect immediately on my portal.** <br>
-This design approach isn't recommended. Except the primary record where the create or update action is triggered, data reflection from Dataverse to portals is never guaranteed to be immediate.
+1. Can I change the cache refresh duration from 15 minutes to a lesser duration ?
 
-**3. Is there any difference in caching between capacity-based portals and add-on portals?** <br>
-No.
+    No. SLA for cache refresh remains 15 minutes. Any changes from Dataverse will reflect on the website within 15 minutes for both data tables as well as configuration tables.
 
-**4. How long does it take for changes to reflect from portals to Dataverse?** <br>
-Immediately, as long as the update changes a primary record and isn't based on indirect changes to data using plugins or workflows.
+1. I'm using plugins or workflows to update data in other tables and need these data changes to reflect immediately on my website.  
 
-## Next steps
+    This design approach isn't recommended. Except the primary record where the create or update action is triggered, data reflection from Dataverse to websites is never guaranteed to be immediate.
 
-[Understand how portals connects to Microsoft Dataverse environment](connectivity.md)
+1. Is there any difference in caching between capacity-based websites and add-on portals?
 
-## See also
+    No.
 
-[Build a portal using portals Studio](../portal-designer-anatomy.md)
+1. How long does it take for changes to reflect from a website to Dataverse?
 
+    Immediately, as long as the update changes a primary record and isn't based on indirect changes to data using post operation plugins or workflows.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

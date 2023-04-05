@@ -20,7 +20,7 @@ Microsoft Dataverse is a key component for any Power Pages website. It acts as b
 
 To start with one of the core principles to remember is that an end user of Power Pages website is not a Dataverse user and Dataverse role based access control (RBAC) concepts doesn't apply to the end user on the Power Pages Website. All the users of Power Pages are stored in the Dataverse **contact** table and the data access of these users is controlled through [web roles](../security/create-web-roles.md) which is the role based access control layer for Power Pages users.
 
-**Server to Server Connection**
+## Server to Server Connection
 
 Power Pages connects to Dataverse utilizing a server to server (S2S) connection. This S2S connection is established utilizing an Azure Active Directory application which is created in the customer's Azure Active Directory when a website is created.  
 Each website has its own application which follows following naming convention (Portals – {{portalid}}). Different naming conventions have been used previously and may still be reflected in your Azure Active Directory. The Id of this application can also be found in the [Set up workspace](../configure/setup-workspace.md) for that website and can be used to find this application in Azure Active directory (in the application registration tab).  
@@ -38,35 +38,42 @@ Following diagram describes how the end to end connection happens between the we
 
 :::image type="content" source="media/connectivity/website-dataverse-connectivity.png" alt-text="Dataverse to website connectivity.":::
 
-**Integration with Dataverse User**
+## Integration with Dataverse
 
 In order to establish the S2S connection, the Azure AD application created during site creation is also integrated with the Dataverse organization.
 
-This integration is done utilizing the Dataverse **SYSTEM** user. For more information on the **SYSTEM** user, see [System and application users](/power-platform/admin/system-application-users). All the records created, updated, and deleted by a website user appears as being done by the **SYSTEM** user in Dataverse.
+Depending on when the site was created, the connection is established using the Dataverse **SYSTEM** user or a **Dataverse application user**.
+
+For more information on the **SYSTEM** user, see [System and application users](/power-platform/admin/system-application-users). All the records created, updated, and deleted by a website user appears as being done by the **SYSTEM** user in Dataverse.
+
+Going forward, sites will be utilizing the [Dataverse Application user](/power-platform/admin/manage-application-users) to connect to Dataverse. You will be able to view the application user by going to the Power Platform admin center, selecting the environment, and in the **Access** section, selecting the **S2S apps**. The application user will be in the format `# Portals-<<site name>>`.
+
+:::image type="content" source="media/connectivity/application-user.png" alt-text="Application user.":::
+ 
+The application user would be created during creation of the website and will have following permissions:
+
+- Dataverse security roles
+    - Portal Application User
+    - Service Deleter
+    - Service Writer
+
+- Column Security profile
+    - System Administrator
+
+> [!WARNING]
+> Security roles and column security profiles should not be modified as that can lead to functional issues in your website.
+
+## Migration to application user
+
+Migration from **SYSTEM** user to **application user** for existing websites is ongoing and will continue in 2023. Customers will be notified through the [Microsoft 365 message center](/microsoft-365/admin/manage/message-center?view=o365-worldwide) and emails to the system admin of an organization about the specific migration window for their existing website.  
+
+In order to prepare for this migration, customers should review their customizations and ensure that no dependency on **SYSTEM** user is taken. 
+
+While there are several type of these customizations which can exist, following are most common:
+
+- Using the [fetchxml Liquid tag](../configure/liquid//template-tags.md#fetchxml) in website where a specific filter is added to filter record owned by **SYSTEM** user.  
+    - This type of fetchxml should rewritten to remove filter by the **SYSTEM** user and rather proper [table permissions](../security/table-permissions.md) and [webroles](../security/create-web-roles.md) should be used to secure the records.
+
+- Dataverse processes such as [Dataverse real-time workflows](/power-apps/maker/data-platform/overview-realtime-workflows.md) which are owned by the **SYSTEM** user. This should be modified to be owned by the application user.
 
 
-However, as part of recently announced changes , in the future sites will be utilizing [Dataverse Application user](https://learn.microsoft.com/en-us/power-platform/admin/manage-application-users) to connect to dataverse. This Application user would be created during creation of the website and will have following permissions
-
-9.  OOB Security roles
-
-<!-- -->
-
-1.  Portal Application User
-
-2.  Service Reader
-
-3.  Service Writer
-
-ii\) OOB Column Security profile
-
-1.  System Administrator
-
-/\*{Note} – OOB security roles and column security profiles should not be modified as that can lead to functional issues in your website\*/
-
-Migration from "SYSTEM" user to "Application user" for existing websites is ongoing and will continue in CY 2023. Customers would be notified through M365 message center and emails to System admin of organization about the specific migration window for their existing website.  
-In order to prepare for this migration, customers should review their customizations and ensure that no dependency on "SYSTEM" user is taken. While there are several type of these customizations which can exist, following are most common
-
-1.  Using fetchxml (liquid tag) in website where a specific filter is added to filter record owned by "SYSTEM" user.  
-    This type of fetchxml should rewritten to remove filter by "SYSTEM" user and rather proper table permissions/webroles should be used to secure the records.
-
-2.  Dataverse processes (sync/async workflows) which are owned by "SYSTEM" user. This should be modified to be owned by application user.

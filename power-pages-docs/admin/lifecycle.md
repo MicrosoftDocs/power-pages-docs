@@ -31,7 +31,7 @@ As an administrator, you can convert a trial or suspended website to a productio
 
 The following diagram explains various stages that a Power Pages website goes through, from creation until deletion.
 
-:::image type="content" source="media/lifecycle/portal-lifecycle.png" alt-text="Power Pages lifecycle stages.":::
+:::image type="content" source="media/lifecycle/lifecycle.png" alt-text="Power Pages lifecycle stages.":::
 
 Let's understand each website lifecycle stage.
 
@@ -56,8 +56,8 @@ If you don't convert your website to production within the seven-day suspension 
 
 ## Next steps
 
-- [Power Pages templates](../templates/)
-- [Create a site](/getting-started/create-manage.md)
+- [Power Pages templates](../templates/index.md)
+- [Create a site](../getting-started/create-manage.md)
 
 ### See also
 

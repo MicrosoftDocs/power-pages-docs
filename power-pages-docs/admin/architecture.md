@@ -51,4 +51,4 @@ Each Power Pages Production website consists of at least two application server 
 Microsoft Dataverse is a key component for any Power Pages website. It acts as both Metadata store for the website storing all website configuration like webpages, content snippets, site settings, user metadata etc as well as the data store for business data.  
 Power Pages website connects to Dataverse instance utilizing a Server to Server connection. More details about this can be read here
 
-More details about the Power Pages website architecture can be read in the [Architecture whitepaper](/power-pages/guidance/white-papers/architecture.md).
+More details about the Power Pages website architecture can be read in the [Architecture whitepaper](../guidance/white-papers/architecture.md).
