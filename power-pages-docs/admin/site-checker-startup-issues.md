@@ -80,7 +80,7 @@ If restarting the website doesn't work and the issue continues for a long period
 
 ### Website binding not found
 
-This issue occurs when the website binding records for the website are deleted from the underlying Dataverse environment and the webiste isn't able to create binding automatically. To fix this issue:
+This issue occurs when the website binding records for the website are deleted from the underlying Dataverse environment and the website isn't able to create binding automatically. To fix this issue:
 
 1. Open the [Portal Management app](../configure/portal-management-app.md).
 1. Go to **Website** > **Website Bindings**.
