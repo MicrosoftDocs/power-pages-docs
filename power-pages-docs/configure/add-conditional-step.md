@@ -1,11 +1,11 @@
 ---
 title: Add a conditional step type
-description: Learn how to add and configure a conditional step type for a portal.
+description: Learn how to add and configure a conditional step type for multistep form in Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2023
+ms.date: 04/06/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -45,33 +45,29 @@ The available operands are as follows:
 
 The format of the expression is as follows:
 
-\[entity attribute logical name\] \[operand\] \[value\]
+`[entity attribute logical name] [operand] [value]`
 
 Example:
 
-new\_categorycode = 750101
+`new_categorycode = 750101`
 
 A condition can have multiple expressions. You can use parentheses to group nested expressions, for example:
 
-new\_categorycode = 750101 & gendercode = 2
+- `new_categorycode = 750101 & gendercode = 2`
 
--   new\_categorycode = 750101 & (gendercode = 2 | gendercode = 3)
+- `new_categorycode = 750101 & (gendercode = 2 | gendercode = 3)`
 
--   new\_name = Jane Doe
+- `new_name = Jane Doe`
 
--   new\_twooptionfield = true
+- `new_twooptionfield = true`
 
--   new\_twooptionfield = false
+- `new_twooptionfield = false`
 
 ### See also
 
-[Configure a portal](configure-portal.md)  
-[Define basic forms](entity-forms.md)  
-[Multistep Form steps for portals](web-form-steps.md)  
-[Load Form/Load Tab step type](load-form-step.md)  
-[Redirect step type](add-redirect-step.md)  
-[Add custom JavaScript](add-custom-javascript.md)  
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [Portal Management app](portal-management-app.md)  
+- [Define basic forms](basic-forms.md)  
+- [Multistep form steps](web-form-steps.md)  
+- [Load Form/Load Tab step type](load-form-step.md)  
+- [Redirect step type](add-redirect-step.md)  
+- [Add custom JavaScript](add-custom-javascript.md)  
