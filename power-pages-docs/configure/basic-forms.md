@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/28/2023
+ms.date: 04/06/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -46,7 +46,7 @@ Add basic form can also be added to a website by adding the Liquid tag `{% entit
 ## Secure your forms
 
 >[!NOTE]
-> This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](entity-permissions-studio.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-portals)
+> This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-websites)
 
 To secure your forms, you must create table permissions that determine access and ownership of the records according to web roles. If a user lands on a basic form and does not have permissions, they will receive an error message. In addition, you'll also see a warning when a form is configured with table permissions not enabled:
 
@@ -67,7 +67,7 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |Record ID Parameter Name|    A parameter name provided in the query string of the URL to the Web Page containing this Basic Form.|
 |Relationship Name|    Required when Record Source Type is Record Associated to Current Portal User. The logical name of the relationship between the current portal user record and the target record. This must return the same table type specified by the Table Name field.|
 |Allow Create If Null|    An optional boolean value available when Record Source Type is Record Associated to Current Portal User. Indicates that if the related record does not exist, allow the user to create it the first time, otherwise an exception will be thrown if the record does not already exist as the form needs a record to data bind to.|
-|Enable Table Permissions| Will cause the form to respect table permissions. The default is false for backwards compatibility reasons. If set to true, explicit permissions are REQUIRED for any user wanting to access the form. <br> **NOTE**: This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-portals) |
+|Enable Table Permissions| Will cause the form to respect table permissions. The default is false for backwards compatibility reasons. If set to true, explicit permissions are REQUIRED for any user wanting to access the form. <br> **NOTE**: This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-websites) |
 |||
 
 ### Form Options
@@ -238,9 +238,9 @@ To disable request validation, follow these steps:
 ### See also
 
 - [Portal Management app](portal-management-app.md)  
-- [Multistep Form properties for portals](web-form-properties.md)  
-- [Multistep Form steps for portals](web-form-steps.md)  
-- [Multistep Forms metadata for portals](configure-web-form-metadata.md)  
+- [Multistep form properties](./multistep-form-properties.md)  
+- [Multistep form steps](multistep-form-steps.md)  
+- [Multistep forms metadata](configure-web-form-metadata.md)  
 - [Multistep Form subgrid configuration for portals](configure-web-form-subgrid.md)  
 - [Notes configuration for basic forms and Multistep Forms for portals](configure-notes.md)
 - [Interact with Dataverse data using basic forms](/training/modules/portals-access-data-platform/3-entity-forms)
