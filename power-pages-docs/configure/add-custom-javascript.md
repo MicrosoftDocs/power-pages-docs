@@ -1,12 +1,12 @@
 ---
 title: Add custom JavaScript to a form
-description: Learn how to add custom JavaScript to a form in a portal.
+description: Learn how to add custom JavaScript to a form in Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/15/2022
-ms.subservice: portals
+ms.date: 04/06/2023
+ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
 contributors:
@@ -17,10 +17,7 @@ contributors:
 
 # Add custom JavaScript to a form
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-Both the [basic form](entity-forms.md) and [multistep form](web-form-properties.md) step records contain a field named **Custom JavaScript** that can be used to store JavaScript code to allow you to extend or modify the form's visual display or function.
+Both [basic forms](basic-forms.md) and [multistep forms](multistep-form-properties.md) step records contain a field named **Custom JavaScript** that can be used to store JavaScript code to allow you to extend or modify the form's visual display or function.
 
 The custom block of JavaScript will be added to the bottom of the page just before the closing form tag element.
 
@@ -35,10 +32,10 @@ $(document).ready(function() {
 ```
 
 > [!Important]
-> Adding a choice column to model-driven form to be used in an multistep form step or a basic form will appear on the portal page as a drop-down server control. Using custom JavaScript to add additional values to the control will result in an “Invalid postback or callback argument” message on the page submission.
+> Adding a choice column to model-driven form to be used in an multistep form step or a basic form will appear on the webpage as a drop-down server control. Using custom JavaScript to add additional values to the control will result in an “Invalid postback or callback argument” message on the page submission.
 
 ## Additional client-side field validation
-Sometimes you might need to customize the validation of fields on the form. This example forces the user to specify an email only if the other field for preferred method of contact is set to Email.
+Sometimes you might need to customize the validation of fields on the form. This example forces the user to specify an email only if the other field for preferred method of contact is set to **Email**.
 
 > [!NOTE]
 > The client-side field validation is not supported in a subgrid.
@@ -101,11 +98,10 @@ if (window.jQuery) {
 
 ### See also
 
-- [Configure a portal](configure-portal.md)  
-- [Define basic forms](entity-forms.md)  
-- [Multistep Form steps for portals](web-form-steps.md)  
+- [Portals Management app](portal-management-app.md)  
+- [Define basic forms](basic-forms.md)  
+- [Multistep form steps](multistep-form-steps.md)  
 - [Load Form/Load Tab step type](load-form-step.md)  
 - [Redirect step type](add-redirect-step.md)  
 - [Conditional step type](add-conditional-step.md)
-- [Extend Power Apps portals with scripts](/training/modules/extend-power-app-portals/3-portal-javascript)
-- [Advanced client-side development](/training/modules/extend-power-app-portals/5-advanced-portal-development)
+

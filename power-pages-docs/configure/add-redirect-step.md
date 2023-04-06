@@ -1,22 +1,19 @@
 ---
 title: Add a redirect step type
-description: Learn how add and configure a redirect step for a portal.
+description: Learn how add and configure a redirect step for multistep forms in Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2021
-ms.subservice: portals
+ms.date: 04/06/2023
+ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
 ---
 
 # Add a redirect step type
 
-
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-The Redirect Step Type allow for a redirect of the User's browser session to another page in the portal or to an external URL. This is useful for seamlessly directing flow.
+The **Redirect** step type allows for a redirect of the user's browser session to another webpage in the website or to an external URL. This is useful for seamlessly directing flow.
 
 | Name                                                            | Description                                                                                                                                                                                  |
 |-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -31,13 +28,11 @@ The Redirect Step Type allow for a redirect of the User's browser session to ano
 
 ### See also
 
-[Configure a portal](configure-portal.md)  
-[Define basic forms](entity-forms.md)  
-[Multistep Form steps for portals](web-form-steps.md)  
-[Load Form/Load Tab step type](load-form-step.md)  
-[Conditional step type](add-conditional-step.md)  
-[Add custom JavaScript](add-custom-javascript.md)  
+- [Portals Management app](portal-management-app.md)  
+- [Define basic forms](basic-forms.md)  
+- [Multistep form steps](multistep-form-steps.md)  
+- [Load form/load tab step type](load-form-step.md)  
+- [Conditional step type](add-conditional-step.md)  
+- [Add custom JavaScript](add-custom-javascript.md)  
 
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

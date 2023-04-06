@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 31/03/2023
+ms.date: 04/06/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -16,7 +16,11 @@ contributors:
 
 # Define a load form and load tab step type
 
-This step type allows the multistep form step to act as a basic form within the overall multistep form process. It loads a form with a similar set of options available as a basic Form.
+The multiform step type can be configured in the [Power Pages design studio](../getting-started/multistep-forms.md#change-step-mode). 
+
+The following instructions detail how to configure the load form and tab step in the [Portals Management app](portal-management-app.md).
+
+This step type allows the multistep form step to act as a basic form within the overall multistep form process. It loads a form with a similar set of options available as a basic form.
 
 ## Settings
 
@@ -44,7 +48,7 @@ To secure your forms, you must create table permissions that determine access an
 
 "Table permissions should be enabled for this record or anyone on the internet can view the data."
 
-To enable permissions for a multistep form, select the checkbox to **Enable Table Permissions**. More information: [Create web roles for portals](create-web-roles.md).  
+To enable permissions for a multistep form, select the checkbox to **Enable Table Permissions**. More information: [Create web roles ](../security/create-web-roles.md).  
 
 ## Other settings
 
@@ -119,17 +123,15 @@ This provides a way to associate the current record being created or updated by 
 |                             Label                              |                                                                                          The text displayed next to the file upload control. For each language pack installed and enabled for the Microsoft Dataverse environment a field will be available to enter the message in the associated language.                                                                                           |
 |                          Is Required                           |                                                                                                                                                                                           Checked makes the attachment of a file required to proceed.                                                                                                                                                                                           |
 |                     Required Error Message                     |                                                               The message displayed during form validation if Is Required is true and the user hasn't attached a file. For each language pack installed and enabled for the Dataverse environment a field will be available to enter the message in the associated language.                                                                |
-| Custom [!INCLUDE[pn-javascript](../../../includes/pn-javascript.md)] | A custom block of [!INCLUDE[pn-javascript](../../../includes/pn-javascript.md)] that will added to the bottom of the page just before the closing form tag element. The HTML input id of a table field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with jQuery. ``` $(document).ready(function() { $(#address1_stateorprovince).val(Saskatchewan); });``` |
+| Custom JavaScript | A custom block of JavaScript that will added to the bottom of the page just before the closing form tag element. The HTML input id of a table field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with jQuery. ``` $(document).ready(function() { $(#address1_stateorprovince).val(Saskatchewan); });``` |
 
 ### See also
 
-[Configure a portal](configure-portal.md)  
-[Define basic forms](entity-forms.md)  
-[Multistep Form steps for portals](web-form-steps.md)  
-[Redirect step type](add-redirect-step.md)  
-[Conditional step type](add-conditional-step.md)  
-[Add custom JavaScript](add-custom-javascript.md)  
+- [Portal Management app](portal-management-app.md)  
+- [Define basic forms](basic-forms.md)  
+- [Multistep form steps](web-form-steps.md)  
+- [Conditional step type](add-conditional-step.md)  
+- [Redirect step type](add-redirect-step.md)  
+- [Add custom JavaScript](add-custom-javascript.md)  
 
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
