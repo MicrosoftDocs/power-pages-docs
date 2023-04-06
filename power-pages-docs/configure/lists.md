@@ -57,5 +57,4 @@ Add list can also be added to a website by adding the Liquid tag `{% include 'en
 - [List filter configuration](list-filter-configuration.md)
 - [List map view](list-map-view.md)
 - [List calendar view](list-calendar-view.md)
-- [List OData feeds](list-odata-feeds.md)
 - [Enhanced view filter for lists](list-enhanced-view-filter.md)

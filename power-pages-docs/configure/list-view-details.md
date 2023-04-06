@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/24/2023
+ms.date: 04/06/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -58,7 +58,6 @@ If you assign a webpage to the **Web Page for Create** lookup on the list and do
 
 ### See also
 
-- [Work with lists](entity-lists.md)
-- [Display multiple Dataverse records using lists](/training/modules/portals-access-data-platform/2-entity-lists)
-- [Configure a portal](configure-portal.md)  
+- [Work with lists](lists.md)
+- [Portal Management app](portal-management-app.md)  
 - [Redirect to a new URL on a portal](add-redirect-url.md)

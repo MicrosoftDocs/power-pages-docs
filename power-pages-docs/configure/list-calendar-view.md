@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/24/2023
+ms.date: 04/06/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -22,7 +22,7 @@ On the **Calendar View** tab, you can enable the list to render as a calendar vi
 The following field mappings can be configured to display list records as dated events on the calendar. The records need to include at minimum a date field.
 
 > [!Tip]
-> See [date and time](behavior-format-date-time-field.md#date-and-time) field behaviors for information on formatting date and time fields on portals.
+> See [date and time](behavior-format-date-time-field.md#date-and-time) field behaviors for information on formatting date and time fields on webpages.
 
 | Entity Field Mappings | Details |
 | - | - |
@@ -49,7 +49,6 @@ Once the specific fields are configured, a list calendar view will appear on the
 ### See also
 
 - [Lists overview](lists.md)
-- [Display multiple Dataverse records using lists](/training/modules/portals-access-data-platform/2-entity-lists)
 - [Portal Management app](portal-management-app.md)  
 - [Redirect to a new URL](add-redirect-url.md)
 

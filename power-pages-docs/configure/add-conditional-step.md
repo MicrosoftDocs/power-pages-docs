@@ -67,7 +67,7 @@ A condition can have multiple expressions. You can use parentheses to group nest
 
 - [Portal Management app](portal-management-app.md)  
 - [Define basic forms](basic-forms.md)  
-- [Multistep form steps](web-form-steps.md)  
+- [Multistep form steps](multistep-form-steps.md)  
 - [Load Form/Load Tab step type](load-form-step.md)  
 - [Redirect step type](add-redirect-step.md)  
 - [Add custom JavaScript](add-custom-javascript.md)  

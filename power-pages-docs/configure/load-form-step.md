@@ -129,7 +129,7 @@ This provides a way to associate the current record being created or updated by 
 
 - [Portal Management app](portal-management-app.md)  
 - [Define basic forms](basic-forms.md)  
-- [Multistep form steps](web-form-steps.md)  
+- [Multistep form steps](multistep-form-steps.md)  
 - [Conditional step type](add-conditional-step.md)  
 - [Redirect step type](add-redirect-step.md)  
 - [Add custom JavaScript](add-custom-javascript.md)  

@@ -4,7 +4,7 @@ description: Learn how to use the Portal Management app.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/16/2023
+ms.date: 04/06/2023
 ms.author: ndoelman
 ms.reviewer: ndoelman
 contributors:
@@ -51,4 +51,4 @@ If your web browser has any extensions such as ad-blockers, you may see a script
 
 :::image type="content" source="media/portals-management-app/script-error.png" alt-text="Script error":::
 
-This error occurs for forms such as [Web pages](web-page.md), [Basic Forms](entity-forms.md), [Lists](entity-lists.md), or [Multistep Form Steps](web-form-steps.md). To resolve this error, disable extensions such as ad-blockers in your browser. You may also use a different browser instead that doesn't have such extensions enabled.
+This error occurs for forms such as [Web pages](web-page.md), [Basic Forms](basic-forms.md), [Lists](lists.md), or [Multistep Form Steps](multistep-form-steps.md). To resolve this error, disable extensions such as ad-blockers in your browser. You may also use a different browser instead that doesn't have such extensions enabled.

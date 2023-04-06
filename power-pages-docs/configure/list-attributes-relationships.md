@@ -42,6 +42,5 @@ The following are attributes when configuring a **list** component using the [Po
 ### See also
 
 - [Lists overview](lists.md)
-- [Display multiple Dataverse records using lists](/training/modules/portals-access-data-platform/2-entity-lists)
 - [Portal Management app](portal-management-app.md)  
 - [Redirect to a new URL](add-redirect-url.md)

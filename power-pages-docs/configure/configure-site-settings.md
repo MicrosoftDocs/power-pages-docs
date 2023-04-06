@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/24/2023
+ms.date: 04/06/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -63,7 +63,7 @@ You can manage the following types of site settings:
 |search/query|+(@Query) _title:(@Query) _logicalname:adx_webpage~0.9^0.2<br> -_logicalname:adx_webfile~0.9 adx_partialurl:(@Query)<br> _logicalname:adx_blogpost~0.9^0.1 -_logicalname:adx_communityforumthread~0.9|Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: [https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html](https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html)| 
 |Search/Stemmer|English|The language used by the website search's stemming algorithm. Default: English|
 |CustomerSupport/DisplayAllUserActivitiesOnTimeline|FALSE| |
-|Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail| |Allow auto-association to a contact record based on email. </br> More information: [Allow contact mapping with email and require unique email general options](/portals/configure/use-simplified-authentication-configuration#general-authentication-settings).</br> *Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail* is not applicable for multi-tenant endpoints. Use [invitations](/power-apps/maker/portals/configure/invite-contacts) to allow users to authenticate to your website.|
+|Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail| |Allow auto-association to a contact record based on email. </br> More information: [Allow contact mapping with email and require unique email general options](/security/authentication/configure-site.md#configure-general-authentication-settings).</br> *Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail* is not applicable for multi-tenant endpoints. Use [invitations](/power-apps/maker/portals/configure/invite-contacts) to allow users to authenticate to your website.|
 | Site/EnableDefaultHtmlEncoding | True/False | Power Pages release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](/power-apps/maker/portals/liquid/liquid-filters#escape) Liquid filter enforced for [user](/power-apps/maker/portals/liquid/liquid-objects#user) and [request](/power-apps/maker/portals/liquid/liquid-objects#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, add this setting and set its value to **False**. |
 
 > [!NOTE]

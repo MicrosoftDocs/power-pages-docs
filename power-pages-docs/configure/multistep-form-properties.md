@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/27/2023
+ms.date: 04/06/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -31,7 +31,7 @@ To view existing multistep forms configuration or to create new multistep forms,
 > [!NOTE]
 > Before you continue, ensure you review [considerations](#considerations) for multistep forms.
 
-When creating or editing a webpage from the [Portal Management app](configure-portal.md), an **Multistep Form** can be specified in the lookup field provided on the **New Web Page** form.
+When creating or editing a webpage from the [Portal Management app](portal-management-app.md), an **Multistep Form** can be specified in the lookup field provided on the **New Web Page** form.
 
 A multistep form can also be added to a web page, web template or content snippet using the Liquid tag ``.
 
