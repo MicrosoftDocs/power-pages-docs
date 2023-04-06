@@ -1,12 +1,12 @@
 ---
-title: Configure multistep form subgrids for portals
-description: Learn how to add and configure multistep form subgrids for a portal.
+title: Configure multistep form subgrids for Power Pages
+description: Learn how to add and configure multistep form subgrids for Power Pages.
 author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/01/2022
-ms.subservice: portals
+ms.date: 04/06/2023
+ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
 contributors:
@@ -15,20 +15,17 @@ contributors:
     - ProfesorKendrick
 ---
 
-# Configure multistep form subgrids for portals
+# Configure multistep form subgrids for Power Pages
 
+If the Microsoft Dataverse form used for a multistep form has an embedded subgrid, a read-only subgrid will appear on the page and display the corresponding records in a read-only list. A user must have the appropriate [table permissions](../security/table-permissions.md) in order to see the list of related records.
 
-[!INCLUDE[cc-pages-ga-banner](../../../includes/cc-pages-ga-banner.md)]
-
-Multistep form subgrids are configured in an identical fashion to basic form subgrids: first, create a metadata record for the multistep form step that has a subgrid, and then add configuration metadata.
-
-Adding subgrids to your managed forms on the portal is easy—just add the subgrid to the form that you are managing by using the out-of-the-box form designer, and you’re done. The grid will use the view that is specified in Microsoft Dataverse form designer, show only related records if that option was chosen, optionally show a search bar, and even respect [table permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configuration.
+To configure [list](lists.md)) capabilities such as create, update, delete, and other features on the subgrid on the form, you'll need to create a [multistep form step metadata record](configure-multistep-form-metadata.md).
 
 ## Add subgrid metadata to your form
 
-To add subgrid metadata to a basic form, go to **Basic Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. More information: [Define basic forms](entity-forms.md).
+To add subgrid metadata to a multistep form step, go to the **Metadata** by using either the top drop-down list or the subgrid on the multistep form step record that you're working with. More information: [Define multistep forms](multistep-form-steps.md).
 
-To add a new record, select **Add New Basic Form Metadata**.
+To add a new record, select **Add New Multistep Form Metadata**.
 
 To edit an existing record, select the record in the grid. Selecting **Subgrid** as the **Type** value displays another attribute, **Subgrid Name**.
 
@@ -38,11 +35,11 @@ To edit an existing record, select the record in the grid. Selecting **Subgrid**
 | Subgrid Name | The unique name of the subgrid on the table's related form. |
 |              |                                                                                                                          |
 
-Selecting the subgrid in the form editor will display a properties window. This contains a **Name** field that should be used to assign to the **Subgrid Name** field on the Basic Form Metadata record.
+Selecting the subgrid in the form editor will display a properties window. This contains a **Name** field that should be used to assign to the **Subgrid Name** field on the Multistep form step metadata record.
 
-![Add subgrid metadata.](../media/add-subgrid-metadata.png "Add subgrid metadata")  
+:::image type="content" source="media/forms/add-subgrid-metadata.png" alt-text="Add subgrid metadata.":::  
 
-Specifying a valid subgrid name will display the subgrid configuration settings. By default, only **Basic Settings** are shown. Select **Advanced Settings** to show additional settings.
+Specifying a valid subgrid name will display the subgrid configuration settings. By default, only **Basic Settings** are shown. Select **Advanced Settings** to show more settings.
 
 By default, most settings are shown collapsed to save space. Select **** to expand a section and see additional options. Select **** to collapse the section.
 
@@ -52,12 +49,12 @@ By default, most settings are shown collapsed to save space. Select **** to expa
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Basic Settings**         |                                                                                                                                                                                                                                                                                                                                                                           |
 | View Actions               | Use to add action buttons for actions that are applicable for the table set and will appear above the subgrid. The available actions are: <ul><li>Create</li><li>Download</li><li>Associate</li></ul> Selecting one of these options displays a configuration area for that action. See below for details about each action.                                                                                                                                                                                                                                                   |
-| Item Actions               | Use to add action buttons for actions that are applicable for an individual record and will appear in each row in the subgrid, provided the associated privilege has been granted by [Table Permissions](assign-entity-permissions.md). The available actions are: <ul><li>Details</li><li>Edit</li><li>Delete</li><li>Workflow</li><li>Disassociate</li></ul> Selecting on one of these options displays a configuration area for that action. See below for details about each action.                                                                                                                                                                                                                                                   |
+| Item Actions               | Use to add action buttons for actions that are applicable for an individual record and will appear in each row in the subgrid, provided the associated privilege has been granted by [table permissions](../security/table-permissions.md). The available actions are: <ul><li>Details</li><li>Edit</li><li>Delete</li><li>Workflow</li><li>Disassociate</li></ul> Selecting on one of these options displays a configuration area for that action. See below for details about each action.                                                                                                                                                                                                                                                   |
 | Override Column Attributes | Use to override display settings for individual columns in the grid. <ul><li>Attribute: Logical name of the column you want to override.</li><li>Display Name: New column title to override the default</li><li>Width: Width (in either percent or pixels) of the column to override the default. See also Grid Column Width Style. To override settings on a column, select **Column** and fill in the details.                                                                                                                                                                                                                                                                                             |
 | **Advanced Settings**      |                                                                                                                                                                                                                                                                                                                                                                           |
 | Loading Message            | Overrides the default HTML message that appears while the subgrid is loading.                                                                                                                                                                                                                                                                                             |
 | Error Message              | Overrides the default HTML message that appears when an error occurs while the subgrid is loading.                                                                                                                                                                                                                                                                           |
-| Access Denied Message      | Overrides the default HTML message that appears when a user does not have sufficient [permissions](assign-entity-permissions.md) to read the table type associated with the subgrid.                       |
+| Access Denied Message      | Overrides the default HTML message that appears when a user doesn't have sufficient [permissions](../security/table-permissions.md) to read the table type associated with the subgrid.                       |
 | Empty Message              | Overrides the HTML message that appears when the associated subgrid contains no data.                                                                                                                                                                                                                                                                                     |
 | Lookup Dialog              | Controls the settings for the dialog box that appears when a user activates the Associate action.                                                                                                                                                                                                                                                                             |
 | Details Form Dialog        | Controls the settings for the dialog box that appears when a user activates the Details action.                                                                                                                                                                                                                                                                                |
@@ -72,14 +69,14 @@ By default, most settings are shown collapsed to save space. Select **** to expa
 
 ## Create action
 
-Enabling a **Create action** renders a button above the subgrid that, when selected, opens a dialog box with an [basic form](entity-forms.md) that allows a user to create a new record.  
+Enabling a **Create action** renders a button above the subgrid that, when selected, opens a dialog box with an [basic form](basic-forms.md) that allows a user to create a new record.  
 
 ### Create action settings
 
 | Name                  | Description                                                                                                                                                                                                                                                 |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Basic Settings**    |                                                                                                                                                                                                                                                             |
-| Basic Form           | Specifies the [basic forms and custom logic](entity-forms.md) that will be used to create the new record. The drop-down list includes all basic forms that are configured for the subgrid's table type.<br>**Note**: If the subgrid's table type has no basic forms, the drop-down list will appear empty. If no basic form is supplied for the Create action, it will be ignored and the button will not be rendered on the subgrid's basic form.                                |
+| Basic Form           | Specifies the [basic forms and custom logic](basic-forms.md) that will be used to create the new record. The drop-down list includes all basic forms that are configured for the subgrid's table type.<br>**Note**: If the subgrid's table type has no basic forms, the drop-down list will appear empty. If no basic form is supplied for the Create action, it will be ignored and the button won't be rendered on the subgrid's basic form.                                |
 | **Advanced Settings** |                                                                                                                                                                                                                                                             |
 | Button Label          | Overrides the HTML label displayed in the Create action button above the subgrid.                                                                                                                                                                           |
 | Button Tooltip        | Overrides the tooltip text that appears when the user points to the Create action button.                                                                                                                                                            |
@@ -98,7 +95,7 @@ Enabling a **Create action** renders a button above the subgrid that, when selec
 
 ## Download action
 
-Enabling a **Download action** renders a button above the subgrid that, when selected, downloads the data from the subgrid to an [!INCLUDE[pn-excel-short](../../../includes/pn-excel-short.md)] (.xlsx) file.
+Enabling a **Download action** renders a button above the subgrid that, when selected, downloads the data from the subgrid to an Excel (.xlsx) file.
 
 ### Download action settings
 
@@ -113,14 +110,14 @@ Enabling a **Download action** renders a button above the subgrid that, when sel
 
 ## Associate action
 
-Enabling an **Associate action** displays a button above the subgrid that, when selected, opens a list of tables that the user can choose to associate to the table record currently being displayed by the [basic form](entity-forms.md), provided the Append and AppendTo privileges have been granted by [Table Permissions](assign-entity-permissions.md) for the applicable table types.  
+Enabling an **Associate action** displays a button above the subgrid that, when selected, opens a list of tables that the user can choose to associate to the table record currently being displayed by the [basic form](basic-forms.md), provided the **Append** and **AppendTo** privileges have been granted by [table permissions](../security/table-permissions.md) for the applicable table types.  
 
 ### Associate action settings
 
 | Name                  | Description                                                                                                                                                                                                                |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Basic Settings**    |                                                                                                                                                                                                                            |
-| View                  | Specifies the view (Saved Query) that will be used to find and display the list of eligible tables.<br>**Note**: If the subgrid's table type has no saved queries, the drop-down list will appear empty. If no view is supplied for the Associate action, it will be ignored and the button will not be rendered on the subgrid's basic form.  |
+| View                  | Specifies the view (Saved Query) that will be used to find and display the list of eligible tables.<br>**Note**: If the subgrid's table type has no saved queries, the drop-down list will appear empty. If no view is supplied for the Associate action, it will be ignored and the button won't be rendered on the subgrid's basic form.  |
 | **Advanced Settings** |                                                                                                                                                                                                                            |
 | Button Label          | Overrides the HTML label displayed in the Associate action button above the subgrid.                                                                                                                                       |
 | Button Tooltip        | Overrides the tooltip text that appears when the user points to the Associate action button.                                                                                                                        |
@@ -150,7 +147,7 @@ Enabling an **Associate action** displays a button above the subgrid that, when 
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Loading Message       | Overrides the message that appears while the grid of tables is loading.                                                |
 | Error Message         | Overrides the message that appears when an error occurs while loading the grid of tables.                               |
-| Access Denied Message | Overrides the message that appears when a user does not have sufficient table permissions to view the grid of tables. |
+| Access Denied Message | Overrides the message that appears when a user doesn't have sufficient table permissions to view the grid of tables. |
 | Empty Message         | Overrides the message that appears when there are no tables that can be associated with the current basic form.       |
 | CSS Class             | Specify a CSS class or classes that will be applied to the associate grid area.                                          |
 | Grid CSS Class        | Specify a CSS class or classes that will be applied to the associate grid's &lt;table&gt; element.                       |
@@ -158,14 +155,14 @@ Enabling an **Associate action** displays a button above the subgrid that, when 
 
 ## Details action
 
-Enabling a **Details action** allows a user to view a read-only [basic form](entity-forms.md) that is data-bound to the record of the subgrid's selected row.  
+Enabling a **Details action** allows a user to view a read-only [basic form](basic-forms.md) that is data-bound to the record of the subgrid's selected row.  
 
 ### Details Action settings
 
 |                 Name                  |                                                                                                                                                                                                                        Description                                                                                                                                                                                                                        |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |          **Basic Settings**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|              Basic Form              | Specifies the [basic form](entity-forms.md) that will be used to view the details of the selected record. The drop-down list will include all basic forms that are configured for the subgrid's table type. <br>**Note**: If the subgrid's table type has no basic forms, the drop-down will appear empty. If no basic form is supplied for the Details action, it will be ignored and the button will not be rendered in the subgrid. |
+|              Basic Form              | Specifies the [basic form](basic-forms.md) that will be used to view the details of the selected record. The drop-down list will include all basic forms that are configured for the subgrid's table type. <br>**Note**: If the subgrid's table type has no basic forms, the drop-down will appear empty. If no basic form is supplied for the Details action, it will be ignored and the button won't be rendered in the subgrid. |
 |         **Advanced Settings**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Record ID Parameter Name |                                                                      Specifies the name of the query string parameter that will be used to select the table to view in the selected basic form. This should match the value in that basic form's Record ID Parameter Name. The default value for this field, both here and in Basic Form configuration, is **id**.                                                                       |
 |             Button Label              |                                                                                                                                                                                          Overrides the HTML label for this action displayed in the subgrid row.                                                                                                                                                                                           |
@@ -186,14 +183,14 @@ Enabling a **Details action** allows a user to view a read-only [basic form](ent
 
 ## Edit action
 
-Enabling an **Edit action** allows a user to view an editable [basic form](entity-forms.md) that is data-bound to the record of the subgrid's selected row, if the Write privilege has been granted by [Table Permissions](assign-entity-permissions.md).  
+Enabling an **Edit action** allows a user to view an editable [basic form](basic-forms.md) that is data-bound to the record of the subgrid's selected row, if the Write privilege has been granted by [table permissions](../security/table-permissions.md).  
 
 ### Edit action settings
 
 | Name                                  | Description                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Basic Settings**                    |                                                                                                                                                                                                                                                                                                              |
-| Basic Form                           | Specifies the [basic form](entity-forms.md) that will be used to edit the selected record. The drop-down list will include all basic forms that are configured for the subgrid's table type.<br>**Note**: If the subgrid's table type has no basic forms, the drop-down list will appear empty. If no basic form is supplied for the Edit action, it will be ignored and the button will not be rendered in the subgrid.                                                                                                 |
+| Basic Form                           | Specifies the [basic form](basic-forms.md) that will be used to edit the selected record. The drop-down list will include all basic forms that are configured for the subgrid's table type.<br>**Note**: If the subgrid's table type has no basic forms, the drop-down list will appear empty. If no basic form is supplied for the Edit action, it will be ignored and the button won't be rendered in the subgrid.                                                                                                 |
 | **Advanced Settings**                 |                                                                                                                                                                                                                                                                                                              |
 | Record ID Parameter Name | Specifies the name of the query string parameter that will be used to select the table to edit in the selected basic form. This should match the value in that basic form's Record ID Parameter Name. The default value for this field, both here and in basic form configuration, is **id**. |
 | Button Label                          | Overrides the HTML label for this action displayed in the subgrid row.                                                                                                                                                                                                                                       |
@@ -214,7 +211,7 @@ Enabling an **Edit action** allows a user to view an editable [basic form](entit
 
 ## Delete action
 
-Enabling a **Delete action** allows a user to permanently delete the table represented by a row in the subgrid, if the Delete privilege has been granted by [Table Permissions](assign-entity-permissions.md).  
+Enabling a **Delete action** allows a user to permanently delete the table represented by a row in the subgrid, if the Delete privilege has been granted by [table permissions](../security/table-permissions.md).  
 
 ### Delete action settings
 
@@ -252,7 +249,7 @@ Enabling a **Workflow action** allows a user to run an on-demand workflow agains
 | Name                  | Description                                                                                                                                                                                                     |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Basic Settings**    |                                                                                                                                                                                                                 |
-| Workflow              | Specifies the on-demand workflow that will run when the user activates this action.<br>**Note**: If the subgrid's table type has no workflows, the drop-down list will appear empty. If no workflow is supplied for the Workflow action, it will be ignored and the button will not be rendered in the subgrid.  |
+| Workflow              | Specifies the on-demand workflow that will run when the user activates this action.<br>**Note**: If the subgrid's table type has no workflows, the drop-down list will appear empty. If no workflow is supplied for the Workflow action, it will be ignored and the button won't be rendered in the subgrid.  |
 | Button Label          | Sets the HTML label for this action displayed in the subgrid row. This setting is required.                                                                                                                     |
 | **Advanced Settings** |                                                                                                                                                                                                                 |
 | Button Tooltip        | Overrides the tooltip text that appears when the user points to the button for this action displayed in the subgrid row.                                                                                 |
@@ -260,7 +257,7 @@ Enabling a **Workflow action** allows a user to run an on-demand workflow agains
 
 ## Disassociate action
 
-Enabling a **Disassociate action** allows a user to remove the link between the record represented by the currently viewed [basic form](entity-forms.md) and the record represented by the selected row in the subgrid, as long as the Append and AppendTo privileges have been granted by [Table Permissions](assign-entity-permissions.md) for the applicable table types.
+Enabling a **Disassociate action** allows a user to remove the link between the record represented by the currently viewed [basic form](basic-forms.md) and the record represented by the selected row in the subgrid, as long as the Append and AppendTo privileges have been granted by [table permissions](../security/table-permissions.md) for the applicable table types.
 
 ### Disassociate action settings
 
@@ -275,13 +272,11 @@ Enabling a **Disassociate action** allows a user to remove the link between the 
 
 ### See also
 
-[Configure a portal](configure-portal.md)  
-[Define basic forms](entity-forms.md)  
-[Multistep Form properties for portals](web-form-properties.md)  
-[Multistep Form steps for portals](web-form-steps.md)  
-[Multistep Forms metadata for portals](configure-web-form-metadata.md)  
-[Notes configuration for multistep Forms for portals](../configure-notes.md)  
+- [Portal Management app](portal-management-app.md)  
+- [Define basic forms](basic-forms.md)  
 
+- [Multistep Form properties for portals](multistep-form-properties.md)  
+- [Multistep Form steps for portals](mutlistep-form-steps.md)  
+- [Multistep Forms metadata for portals](configure-multistep-form-metadata.md)  
+- [Notes configuration for multistep Forms for portals](configure-notes.md)  
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
