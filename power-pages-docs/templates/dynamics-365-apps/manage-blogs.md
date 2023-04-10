@@ -22,8 +22,8 @@ Learn how to manage blog comments and blog posts both within Power Pages and fro
 Users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your site contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the site. Note that although a blog can be edited or deleted through the site content editing interface, it must be created and initially configured in Power Pages.
 
 To edit a blog, go to the blog's home page, and then select **Edit** on the edit toolbar.
-
-![Edit a blog.](media/edit-blog.png "Edit a blog")  
+ 
+:::image type="content" source="media/edit-blog.png" alt-text="Edit a blog.":::
 
 To delete the blog, select **Delete**, and then select **Yes** in the confirmation dialog box.
 
@@ -77,7 +77,7 @@ For users with blog author permissions, blog posts can be managed using the inli
 
 Go to the blog home page, and then select **New** &gt; **Blog post** on the edit toolbar. The blog post editor dialog will appear.
 
-![Create a blog post.](media/create-blog-post.png "Create a blog post")  
+:::image type="content" source="media/create-blog-post.png" alt-text="Create a blog post."::: 
 
 Make any edits that you want, and then select **Save**.
 
@@ -89,7 +89,7 @@ When creating or editing a blog post, if the **Partial URL** field is left blank
 
 The **Tags** field of the post editor provides auto-complete of tag names, to associated posts with existing tags. It is also possible to simply type the name of a new tag. To end a tag name and start a new one, type Tab, Enter, or ,. To remove a tag, select the x beside the tag name, or select the Backspace key.
 
-![Edit a blog post.](media/edit-blog-post.png "Edit a blog post") 
+:::image type="content" source="media/edit-blog-post.png" alt-text="Edit a blog post.":::
 
 **To delete the blog post**
 

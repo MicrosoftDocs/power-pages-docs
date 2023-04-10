@@ -30,7 +30,7 @@ Customers can view active and expired agreements that are connected to their acc
 
 Now a customer can sign in to the site, go to **Field Service** &gt; **Agreements**, and change the filter to **All Agreements** to view the created agreements. The page will show basic information, and the customer can select an agreement to view further details about it.
 
-![View agreements in a partner site.](media/view-agreements-partner-portal.png "View agreements in a partner site")  
+:::image type="content" source="media/view-agreements-partner-portal.png" alt-text="View agreements in a partner site."::: 
 
 ## View assets on the partner site
 
@@ -44,7 +44,7 @@ Customers can view existing assets that are connected to their account on the pa
 
 Now the customer can sign in to the site and go to **Field Service** &gt; **Assets** to see the created assets. The customer will be able to see each asset connected to their account, along with the parent or master assets the asset is connected to.
 
-![View assets in a partner site.](media/view-assets-partner-portal.png "View assets in a partner site")
+:::image type="content" source="media/view-assets-partner-portal.png" alt-text="View assets in a partner site.":::
 
 ## View work orders for Field Service on the partner site
 
@@ -61,7 +61,7 @@ Customers can view active and inactive work orders that are connected to their a
 
 After signing in to the site, the customer can go to **Field Service** &gt; **Work Orders** and see the work orders that are connected to their account.
 
-![View workorders in a partner site.](media/view-workorder-partner-portal.png "View work orders in a partner site")
+:::image type="content" source="media/view-workorder-partner-portal.png" alt-text="View work orders in a partner site.":::
 
 ## View invoices for Field Service on the partner site
 
@@ -78,7 +78,7 @@ Customers can view active and inactive invoices that are connected to their acco
 
 After signing in to the site, the customer can go to **Field Service** &gt; **Invoices** to view invoices.
 
-![View field service invoices in a partner site.](media/view-fieldservice-invoices-partner-portal.png "View Field Service invoices in a partner site")
+:::image type="content" source="media/view-fieldservice-invoices-partner-portal.png" alt-text="View field service invoices in a partner site.":::
 
 ## Automatically distribute opportunities to preferred partners
 
