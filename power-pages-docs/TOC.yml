@@ -52,13 +52,13 @@
                 href: templates/dynamics-365-apps/engage-with-communities.md
               - name: Forums
                 items:
-                - name: Set up and manage Forums
+                - name: Set up and manage forums
                   href: templates/dynamics-365-apps/setup-manage-forums.md
                 - name: Manage forum threads
                   href: templates/dynamics-365-apps/manage-forum-threads.md
                 - name: Create forum posts 
                   href: templates/dynamics-365-apps/create-forum-posts.md
-                - name: Moderate Forums
+                - name: Moderate forums
                   href: templates/dynamics-365-apps/moderate-forums.md
                 - name: Manage forum access permissions
                   href: templates/dynamics-365-apps/forum-access-permission.md
