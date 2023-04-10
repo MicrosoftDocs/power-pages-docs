@@ -1,19 +1,20 @@
 ---
 title: Enable content moderation on ideas
-description: Learn how to enable content moderation for ideas on a portal.
+description: Learn how to enable content moderation for ideas on a Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
+ms.date: 04/10/2023
 ms.subservice: 
 ms.author: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Enable content moderation on ideas
 
-A content moderation policy allows you to moderate the ideas that are submitted on your portal. After you create a moderation policy, you add it to an idea forum. The moderation policy will be applicable to all ideas in the idea forum. A portal user can flag an idea by selecting an appropriate reason and adding any additional details, if required. 
+A content moderation policy allows you to moderate the ideas that are submitted on your site. After you create a moderation policy, you add it to an idea forum. The moderation policy will be applicable to all ideas in the idea forum. A site user can flag an idea by selecting an appropriate reason and adding any additional details, if required. 
 
 To enable content moderation on ideas:
 
@@ -23,7 +24,7 @@ To enable content moderation on ideas:
 
 ## Create a content moderation policy
 
-1.	Open the Dynamics 365 Dynamics 365 Portals app.
+1.	Open Power Pages.
 
 2.	Go to **Portals** > **Content moderation policies**.
 
@@ -35,9 +36,9 @@ To enable content moderation on ideas:
 
     - **Website**: Website to which the content moderation policy applies.
 
-    - **Enable comment**: Select **Yes** or **No** if a portal user needs to enter additional details after flagging an idea.
+    - **Enable comment**: Select **Yes** or **No** if a user needs to enter additional details after flagging an idea.
 
-5.	Select **Add new content moderation policy allowed reason** to add reasons a portal user can select while flagging an idea. You can add **Abusive**, **Inappropriate**, and **Spam** as the reasons.
+5.	Select **Add new content moderation policy allowed reason** to add reasons a user can select while flagging an idea. You can add **Abusive**, **Inappropriate**, and **Spam** as the reasons.
 
     > [!div class=mx-imgBorder]
     > ![Create a content moderation policy.](media/idea-policy.png "Create a content moderation policy")
@@ -57,14 +58,14 @@ To enable content moderation on ideas:
 
 ## Moderate an idea
 
-After you have created a moderation policy and assigned it to an idea forum, the associated ideas will be governed by the moderation policy. The selected moderation reasons are displayed with the idea on the portal. A portal user can flag the idea by selecting a reason. 
+After you have created a moderation policy and assigned it to an idea forum, the associated ideas will be governed by the moderation policy. The selected moderation reasons are displayed with the idea on the site. A user can flag the idea by selecting a reason. 
 
 > [!div class=mx-imgBorder]
 > ![Moderate an idea.](media/moderate-idea.png "Moderate an idea")
 
-When a portal user flags an idea on the portal by using a reason, the idea is hidden from the portal and moved to the **Flagged Ideas** view in the Dynamics 365 Portals. As an administrator, you can open the Dynamics 365 Dynamics 365 Portals app and decide whether to accept or reject the flagged idea. You can further decide whether to deactivate the idea or keep it active.
+When a user flags an idea on the site by using a reason, the idea is hidden from the site and moved to the **Flagged Ideas** view in the Power Pages. As an administrator, you can open Power Pages and decide whether to accept or reject the flagged idea. You can further decide whether to deactivate the idea or keep it active.
 
-1.	Open the Dynamics 365 Dynamics 365 Portals app.
+1.	Open Power Pages.
 
 2.	Go to **Community** > **Ideas**.
 
@@ -76,5 +77,5 @@ When a portal user flags an idea on the portal by using a reason, the idea is hi
 
 ### See also
 
-[Manage idea forums](crowdsource-ideas.md#manage-idea-forums)<br>
-[Manage ideas](crowdsource-ideas.md#manage-ideas-in-a-portal)
+- [Manage idea forums](crowdsource-ideas.md#manage-idea-forums)
+- [Manage ideas](crowdsource-ideas.md#manage-ideas-in-a-portal)

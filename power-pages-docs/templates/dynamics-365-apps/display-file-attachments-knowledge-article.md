@@ -4,11 +4,12 @@ description: Learn how to display file attachments with knowledge articles on Po
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/28/2023
+ms.date: 4/10/2023
 ms.subservice: 
 ms.author: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Display file attachments with knowledge articles

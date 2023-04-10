@@ -1,83 +1,84 @@
 ---
 title: Integrate Field Service
-description: Learn how to integrate Field Service with a portal.
+description: Learn how to integrate Field Service with a Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
+ms.date: 04/10/2023
 ms.subservice: 
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Integrate Field Service
 
-The Partner Field Service solution can now be installed on a Partner Portal (Field Service and Partner Portal solutions must be installed first). With this solution installed, customers and partners can view various parts of the Field Service section on the partner portal. Some of the available tables that can be viewed are assets, work orders, and invoices.
+The Partner Field Service solution can now be installed on a Partner site (Field Service and Partner site solutions must be installed first). With this solution installed, customers and partners can view various parts of the Field Service section on the partner site. Some of the available tables that can be viewed are assets, work orders, and invoices.
 
-## View agreements on the partner portal
+## View agreements on the partner site
 
-Customers can view active and expired agreements that are connected to their account on the partner portal if they have the correct web role and the agreement was created properly. They must have the FS Customer Approver or FS Customer Reviewer web role. 
+Customers can view active and expired agreements that are connected to their account on the partner site if they have the correct web role and the agreement was created properly. They must have the FS Customer Approver or FS Customer Reviewer web role. 
 
-### To create or edit an agreement to be visible on the portal
+### To create or edit an agreement to be visible on the site
 
 1. Go to **Dynamics 365 Field Service** &gt; **Service Delivery** &gt; **Agreements**. 
 2. Select an agreement, or select **+ New** at the top of the page to create a new one. 
 3. In the **Service Account** field on the **General** tab, enter the account the customer is connected to. 
 4. Select the **Expose to Customer** check box. 
 
-Now a customer can sign in to the portal, go to **Field Service** &gt; **Agreements**, and change the filter to **All Agreements** to view the created agreements. The page will show basic information, and the customer can select an agreement to view further details about it.
+Now a customer can sign in to the site, go to **Field Service** &gt; **Agreements**, and change the filter to **All Agreements** to view the created agreements. The page will show basic information, and the customer can select an agreement to view further details about it.
 
-![View agreements in a partner portal.](media/view-agreements-partner-portal.png "View agreements in a partner portal")  
+![View agreements in a partner site.](media/view-agreements-partner-portal.png "View agreements in a partner site")  
 
-## View assets on the partner portal
+## View assets on the partner site
 
-Customers can view existing assets that are connected to their account on the partner portal if they have the correct web role and the asset was created properly. They must have the FS Customer Approver or FS Customer Reviewer web role. 
+Customers can view existing assets that are connected to their account on the partner site if they have the correct web role and the asset was created properly. They must have the FS Customer Approver or FS Customer Reviewer web role. 
 
-### To create or edit an asset to be visible on the portal
+### To create or edit an asset to be visible on the site
 
 1. Go to **Dynamics 365 Field Service** &gt; **Service Delivery** &gt; **Customer Assets**. 
 2. Select an asset, or select **+ New** at the top of the page to create a new one. 
 3. Set **Account** to the account the customer is connected to, and then select the **Expose to Customer** check box. 
 
-Now the customer can sign in to the portal and go to **Field Service** &gt; **Assets** to see the created assets. The customer will be able to see each asset connected to their account, along with the parent or master assets the asset is connected to.
+Now the customer can sign in to the site and go to **Field Service** &gt; **Assets** to see the created assets. The customer will be able to see each asset connected to their account, along with the parent or master assets the asset is connected to.
 
-![View assets in a partner portal.](media/view-assets-partner-portal.png "View assets in a partner portal")
+![View assets in a partner site.](media/view-assets-partner-portal.png "View assets in a partner site")
 
-## View work orders for Field Service on the partner portal
+## View work orders for Field Service on the partner site
 
-Customers can view active and inactive work orders that are connected to their account on the partner portal if they have the correct web role and the work order was created properly. They must have the FS Customer Approver or FS Customer Review web role. 
+Customers can view active and inactive work orders that are connected to their account on the partner site if they have the correct web role and the work order was created properly. They must have the FS Customer Approver or FS Customer Review web role. 
 
 > [!Note]
-> A work order must be defined as viewable before it can be viewed in a portal.
+> A work order must be defined as viewable before it can be viewed in a site.
 
-### To make a work order viewable in a portal
+### To make a work order viewable in a site
 
 1. Go to **Dynamics 365 Field Service** &gt; **Work Order & Schedule** &gt; **Work Orders**. 
 2. Select the work order you want to edit, or select **+ New** to create a new one. 
-3. In **Service Account**, enter the account the customer is connected to, and then select the **Expose to Customer** check box to allow a customer to view it on the portal. 
+3. In **Service Account**, enter the account the customer is connected to, and then select the **Expose to Customer** check box to allow a customer to view it on the site. 
 
-After signing in to the portal, the customer can go to **Field Service** &gt; **Work Orders** and see the work orders that are connected to their account.
+After signing in to the site, the customer can go to **Field Service** &gt; **Work Orders** and see the work orders that are connected to their account.
 
-![View workorders in a partner portal.](media/view-workorder-partner-portal.png "View work orders in a partner portal")
+![View workorders in a partner site.](media/view-workorder-partner-portal.png "View work orders in a partner site")
 
-## View invoices for Field Service on the partner portal
+## View invoices for Field Service on the partner site
 
-Customers can view active and inactive invoices that are connected to their account on the partner portal if they have the correct web role and the work order was created properly. They must have the FS Customer Approver or FS Customer Review web role. 
+Customers can view active and inactive invoices that are connected to their account on the partner site if they have the correct web role and the work order was created properly. They must have the FS Customer Approver or FS Customer Review web role. 
 
 > [!Note]
-> An invoice must be defined as viewable before it can be viewed in a portal.
+> An invoice must be defined as viewable before it can be viewed in a site.
 
-### To make an invoice viewable in a portal
+### To make an invoice viewable in a site
 
 1. Go to **Dynamics 365 Field Service** &gt; **Service Delivery** &gt; **Invoices**. 
 2. Select the invoice to edit it, or select **+ New** to create a new one. Be sure that the invoice is on the **Invoice** section of the drop-down menu on the upper-left side of the page. 
 3. Enter the necessary details for the invoice, and then select the **Expose to Customer** check box. 
 
-After signing in to the portal, the customer can go to **Field Service** &gt; **Invoices** to view invoices.
+After signing in to the site, the customer can go to **Field Service** &gt; **Invoices** to view invoices.
 
-![View field service invoices in a partner portal.](media/view-fieldservice-invoices-partner-portal.png "View Field Service invoices in a partner portal")
+![View field service invoices in a partner site.](media/view-fieldservice-invoices-partner-portal.png "View Field Service invoices in a partner site")
 
 ## Automatically distribute opportunities to preferred partners
 
@@ -128,4 +129,4 @@ The range of accepted values for each metric's site setting is as follows.
 | Average time to close | distribution/weights/avgtimetoclose | Negative, 0 to &ndash;0.5  |
 
 ### See also
-[Create a partner account on a PRM portal](configure-web-roles-partner-portal.md#create-a-partner-account-on-a-prm-portal)
+[Create a partner account on a PRM site](configure-web-roles-partner-portal.md#create-a-partner-account-on-a-prm-portal)

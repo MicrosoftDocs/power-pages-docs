@@ -1,14 +1,15 @@
 ---
 title: Manage forum access permissions
-description: Learn about managing forum access permissions in portals.
+description: Learn about managing forum access permissions in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/28/2023
+ms.date: 4/10/2023
 ms.subservice: 
 ms.author: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Manage forum access permissions
@@ -48,5 +49,5 @@ The table below explains the forum access permission attributes used by Power Pa
 
 - [Setup and manage forums](setup-manage-forums.md)  
 - [Manage forum threads](manage-forum-threads.md)  
-- [Create forum posts on the portal](create-forum-posts.md)  
+- [Create forum posts](create-forum-posts.md)  
 - [Subscribe to alerts](subscribe-alerts.md)  
