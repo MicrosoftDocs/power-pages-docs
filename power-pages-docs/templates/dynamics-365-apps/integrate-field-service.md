@@ -129,4 +129,4 @@ The range of accepted values for each metric's site setting is as follows.
 | Average time to close | distribution/weights/avgtimetoclose | Negative, 0 to &ndash;0.5  |
 
 ### See also
-[Create a partner account on a PRM site](configure-web-roles-partner-portal.md#create-a-partner-account-on-a-prm-portal)
+[Create a partner account on a PRM site](configure-web-roles-partner-portal.md)

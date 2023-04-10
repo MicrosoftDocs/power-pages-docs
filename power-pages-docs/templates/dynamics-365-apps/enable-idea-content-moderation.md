@@ -77,5 +77,5 @@ When a user flags an idea on the site by using a reason, the idea is hidden from
 
 ### See also
 
-- [Manage idea forums](crowdsource-ideas.md#manage-idea-forums)
+- [Manage idea forums](crowdsource-ideas.md)
 - [Manage ideas](crowdsource-ideas.md#manage-ideas-in-a-portal)
