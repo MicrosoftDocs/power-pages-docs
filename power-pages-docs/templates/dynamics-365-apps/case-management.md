@@ -4,12 +4,13 @@ description: Learn how to manage cases in a portal.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
+ms.date: 4/10/2023
 ms.subservice: 
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Manage cases in portals
@@ -38,7 +39,7 @@ By default, following error appears if you choose a contact that doesn't belong 
  
 *The specified contact doesn't belong to the account selected as the customer. Specify a contact that belongs to the selected account, and then try again.*
  
-You can customize this default error by adding a [Content Snippet](../configure/customize-content-snippets.md#edit-snippets) with the *Name* as **cases/unrelatedcontact** and *Value* as your custom error message text.
+You can customize this default error by adding a [Content Snippet](../../configure/content-snippets.md)  with the *Name* as **cases/unrelatedcontact** and *Value* as your custom error message text.
 
 ## Add case notes
 
@@ -67,4 +68,4 @@ This list includes (can be configured): blog posts, web content (web pages), for
 
 ### Turn off case deflection
 
-To turn off case deflection, you must [create a site setting](../configure/configure-site-settings.md) named HelpDesk/CaseDeflection/Enabled and set its value to false.
+To turn off case deflection, you must [create a site setting](/power-apps/maker/portals/configure/configure-site-settings) named HelpDesk/CaseDeflection/Enabled and set its value to false.
