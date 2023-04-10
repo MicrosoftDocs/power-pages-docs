@@ -60,7 +60,7 @@ Read more:
 
 Power Pages inbuilt security is its core. It allows organizations to securely enable access of their business data to their users (internal or external) through Power Pages authorization rules. More information: [Power Pages security](security/power-pages-security.md)
 
-- Organizations using Power Pages can choose from various authentication providers or allow access to site content anonymously. More information: [Configure authentication](security/configure-portal-authentication.md)
+- Organizations using Power Pages can choose from various authentication providers or allow access to site content anonymously. More information: [Configure Power Pages site authentication](security/authentication/configure-site.md)
 
 - Power Pages is hosted as Azure App Service, which has International Organization for Standardization (ISO), System and Organization Controls (SOC), and Payment Card Industry Data Security Standards (PCI DSS) compliance. More information: [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview)
 
