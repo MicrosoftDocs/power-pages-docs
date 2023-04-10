@@ -4,12 +4,13 @@ description: Learn how to manage blogs on a portal."
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
+ms.date: 04/10/2023
 ms.subservice: 
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Manage blogs
@@ -35,9 +36,13 @@ To delete the blog, select **Delete**, and then select **Yes** in the confirmati
 
 ### Security
 
-**Read** access to a blog is inherited from read permissions on the blog's Parent Page. If a user can read the parent webpage, they can read the blog and all of its published posts. See [Control webpage access for portals](../configure/webpage-access-control.md).  
+**Read** access to a blog is inherited from read permissions on the blog's Parent Page. If a user can read the parent webpage, they can read the blog and all of its published posts. 
 
-**Change/Write** access to a blog is controlled through the Author Roles relationship. This relationship specifies the web roles that grant authorship permission on the blog. Any portal users associated with any of these roles will be granted the permission to create new posts, edit and delete their own posts, and edit the attributes and settings of the blog itself. See [Create web roles for portals](../configure/create-web-roles.md).  
+**Change/Write** access to a blog is controlled through the Author Roles relationship. This relationship specifies the web roles that grant authorship permission on the blog. Any portal users associated with any of these roles will be granted the permission to create new posts, edit and delete their own posts, and edit the attributes and settings of the blog itself. 
+
+#### More information
+
+- [Configure web roles](../../security/create-web-roles.md).  
 
 > [!Note]
 > Only the specific author of a blog post can edit or delete that post, through the front-side portal editing interface. The author of a post can also see their own unpublished posts, but not those of other authors.
@@ -146,7 +151,5 @@ It is important to note that the way in which many of the content/display-orient
 | Approved      | Determines whether a comment will be visible on a portal. If checked, the comment is visible to all users that have read access to the blog post. If not checked, only the author of the post will be able to preview the comment on the portal. |
 ||
 
-### See also
 
-[Get started with the portal content editor](../portal-content-editor.md) 
 
