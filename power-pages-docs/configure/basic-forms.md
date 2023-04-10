@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/06/2023
+ms.date: 04/10/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -240,9 +240,9 @@ To disable request validation, follow these steps:
 - [Portal Management app](portal-management-app.md)  
 - [Multistep form properties](./multistep-form-properties.md)  
 - [Multistep form steps](multistep-form-steps.md)  
-- [Multistep forms metadata](configure-web-form-metadata.md)  
-- [Multistep Form subgrid configuration for portals](configure-web-form-subgrid.md)  
-- [Notes configuration for basic forms and Multistep Forms for portals](configure-notes.md)
-- [Interact with Dataverse data using basic forms](/training/modules/portals-access-data-platform/3-entity-forms)
+- [Multistep forms metadata](configure-multistep-form-metadata.md)  
+- [Multistep Form subgrid configuration](configure-multistep-form-subgrid.md)  
+- [Notes configuration for basic forms and multistep forms](configure-notes.md)
+
 
 
