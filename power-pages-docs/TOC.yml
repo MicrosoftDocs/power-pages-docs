@@ -142,6 +142,8 @@
           href: admin/set-up-power-bi-integration.md
     - name: Manage custom certificate
       href: admin/manage-custom-certificates.md
+    - name: Content Delivery Network
+      href: configure/configure-cdn.md
     - name: Capacity consumption reports
       href: admin/website-consumption-reports.md
     - name: Restrict IP addresses
@@ -340,8 +342,6 @@
               href: security/authentication/oauth2-twitter.md
             - name: Additional settings
               href: security/authentication/oauth2-settings.md
-            - name: Migrate to Azure AD B2C
-              href: security/authentication/migrate-identity-providers.md
             - name: OAuth 2.0 implicit grant flow
               href: security/oauth-implicit-grant-flow.md
         - name: OpenID Connect
