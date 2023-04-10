@@ -38,42 +38,42 @@
               href: templates/dynamics-365-apps/overview.md
             - name: Knowledge article
               items:
-              - name: Configure knowledge categories and articles
-                href: templates/dynamics-365-apps/configure-knowledge-categories-articles.md
-              - name: Manage knowledge articles by using content level access
-                href: templates/dynamics-365-apps/manage-knowledge-articles-content-levels.md
-              - name: Display file attachments
-                href: templates/dynamics-365-apps/display-file-attachments-knowledge-article.md
+                - name: Configure knowledge categories and articles
+                  href: templates/dynamics-365-apps/configure-knowledge-categories-articles.md
+                - name: Manage knowledge articles by using content level access
+                  href: templates/dynamics-365-apps/manage-knowledge-articles-content-levels.md
+                - name: Display file attachments
+                  href: templates/dynamics-365-apps/display-file-attachments-knowledge-article.md
             - name: Create an opportunity
               href: templates/dynamics-365-apps/create-edit-and-distribute-opportunities-in-dynamics-365.md
             - name: Work with communities
               items: 
-              - name: Engage with communities
-                href: templates/dynamics-365-apps/engage-with-communities.md
-              - name: Forums
-                items:
-                - name: Set up and manage forums
-                  href: templates/dynamics-365-apps/setup-manage-forums.md
-                - name: Manage forum threads
-                  href: templates/dynamics-365-apps/manage-forum-threads.md
-                - name: Create forum posts 
-                  href: templates/dynamics-365-apps/create-forum-posts.md
-                - name: Moderate forums
-                  href: templates/dynamics-365-apps/moderate-forums.md
-                - name: Manage forum access permissions
-                  href: templates/dynamics-365-apps/forum-access-permission.md
-                - name: Subscribe to alerts 
-                  href: templates/dynamics-365-apps/subscribe-alerts.md
-              - name: Manage blogs 
-                href: templates/dynamics-365-apps/manage-blogs.md
-              - name: Ideas
-                items:
-                - name: Manage ideas
-                  href: templates/dynamics-365-apps/crowdsource-ideas.md
-                - name: Enable content moderation on ideas
-                  href: templates/dynamics-365-apps/enable-idea-content-moderation.md
-              - name: Manage cases in Power Pages
-                href: templates/dynamics-365-apps/case-management.md
+                - name: Engage with communities
+                  href: templates/dynamics-365-apps/engage-with-communities.md
+                - name: Forums
+                  items:
+                    - name: Set up and manage forums
+                      href: templates/dynamics-365-apps/setup-manage-forums.md
+                    - name: Manage forum threads
+                      href: templates/dynamics-365-apps/manage-forum-threads.md
+                    - name: Create forum posts 
+                      href: templates/dynamics-365-apps/create-forum-posts.md
+                    - name: Moderate forums
+                      href: templates/dynamics-365-apps/moderate-forums.md
+                    - name: Manage forum access permissions
+                      href: templates/dynamics-365-apps/forum-access-permission.md
+                    - name: Subscribe to alerts 
+                      href: templates/dynamics-365-apps/subscribe-alerts.md
+                - name: Manage blogs 
+                  href: templates/dynamics-365-apps/manage-blogs.md
+                - name: Ideas
+                  items:
+                    - name: Manage ideas
+                      href: templates/dynamics-365-apps/crowdsource-ideas.md
+                    - name: Enable content moderation on ideas
+                      href: templates/dynamics-365-apps/enable-idea-content-moderation.md
+                - name: Manage cases in Power Pages
+                  href: templates/dynamics-365-apps/case-management.md
         - name: Blank page template
           href: templates/blank.md
     - name: Manage sites
