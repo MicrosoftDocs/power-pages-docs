@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/06/2023
+ms.date: 04/10/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -274,9 +274,8 @@ Enabling a **Disassociate action** allows a user to remove the link between the 
 
 - [Portal Management app](portal-management-app.md)  
 - [Define basic forms](basic-forms.md)  
-
-- [Multistep Form properties for portals](multistep-form-properties.md)  
-- [Multistep Form steps for portals](mutlistep-form-steps.md)  
-- [Multistep Forms metadata for portals](configure-multistep-form-metadata.md)  
-- [Notes configuration for multistep Forms for portals](configure-notes.md)  
+- [Multistep Form properties](multistep-form-properties.md)  
+- [Multistep Form steps](multistep-form-steps.md)  
+- [Multistep Forms metadata](configure-multistep-form-metadata.md)  
+- [Notes configuration for multistep forms](configure-notes.md)  
 
