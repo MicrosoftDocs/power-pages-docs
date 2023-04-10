@@ -4,12 +4,13 @@ description: Learn how to create and manage a category for knowledge articles.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
+ms.date: 04/10/2023
 ms.subservice: 
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Configure and manage category for knowledge articles

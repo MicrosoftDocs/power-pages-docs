@@ -1,6 +1,6 @@
 ---
-title: Manage cases in portals
-description: Learn how to manage cases in a portal.
+title: Manage cases in Power Pages
+description: Learn how to manage cases in a Power Pages site.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -13,15 +13,15 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Manage cases in portals
+# Manage cases in Power Pages
 
-The use of cases will vary depending on your type of organization. Typically, cases are used to track and resolve different types of customer issues. When cases are surfaced via a portal, users can create or even comment on cases themselves, bypassing the need to speak directly with people in your organization. Users can also review and update any of the information originally provided in the case record, whether the case is open or closed. 
+The use of cases will vary depending on your type of organization. Typically, cases are used to track and resolve different types of customer issues. When cases are surfaced via a site, users can create or even comment on cases themselves, bypassing the need to speak directly with people in your organization. Users can also review and update any of the information originally provided in the case record, whether the case is open or closed. 
 
-The forms that are displayed on the portal for creating and updating cases can be customized allowing you to control what fields are visible to the user.
+The forms that are displayed on the Power Pages site for creating and updating cases can be customized allowing you to control what fields are visible to the user.
 
 ## Create cases
 
-1. Sign in to the portal and select **Support**.
+1. Sign in to the Power Pages site and select **Support**.
 
 2. A list of cases logged by you is displayed.
 
@@ -43,20 +43,20 @@ You can customize this default error by adding a [Content Snippet](../../configu
 
 ## Add case notes
 
-Case notes are brief items of information added to a case record. A case note can be viewed by all users who have access to the case record. Web portal customers can use notes to submit comments or ideas, or to share information with the support team that is working on their case. 
+Case notes are brief items of information added to a case record. A case note can be viewed by all users who have access to the case record. Power Pages site customers can use notes to submit comments or ideas, or to share information with the support team that is working on their case. 
 
-Web portal customers can easily add case notes, and then select **Update** to include that information in the case record. These notes can optionally include attachments - useful info for resolving the case at hand.
+Customers can easily add case notes, and then select **Update** to include that information in the case record. These notes can optionally include attachments - useful info for resolving the case at hand.
 
 > [!NOTE]
-> Any case notes that are entered by a Microsoft Dynamics CRM user directly through the Microsoft Dynamics CRM record will only be displayed to a web portal customer if the \*WEB\* keyword is somewhere in the case note body.
+> Any case notes that are entered by a Microsoft Dynamics CRM user directly through the Microsoft Dynamics CRM record will only be displayed to a customer if the \*WEB\* keyword is somewhere in the case note body.
 
 ## Close or cancel a case 
 
-A web portal customer can close a case directly from the portal. When editing a case, the customer can select the **Close Case** or **Cancel Case** buttons. The system will ask the customer for confirming the action for the selected operation. The customer can then select **Yes** to confirm the case closure or cancellation. This action will automatically close any open activities that are linked to the case record.
+A customer can close a case directly from the website. When editing a case, the customer can select the **Close Case** or **Cancel Case** buttons. The system will ask the customer for confirming the action for the selected operation. The customer can then select **Yes** to confirm the case closure or cancellation. This action will automatically close any open activities that are linked to the case record.
 
 ![Close or cancel a case.](media/case-actions.png "Close or cancel a case") 
 
-A web portal customer also has the ability to re-open a closed case if they feel that his or her issue has not been dealt with properly.
+A customer also has the ability to re-open a closed case if they feel that his or her issue has not been dealt with properly.
 
 ## Case deflection
 
