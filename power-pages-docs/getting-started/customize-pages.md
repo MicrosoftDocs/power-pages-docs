@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites with the design studio pag
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 4/10/2023
 ms.subservice:
 ms.author: clromano 
 ms.reviewer: kkendrick
@@ -35,6 +35,10 @@ To use the editor:
 1. To add a component, hover over the section where you'd like to place the component, and then select **+**. You can then choose between the available components.  
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
+    
+    You can drag and drop sections, columns, and components to re-arrange them on a page.
+
+    To drag an object, left-click and hold down the mouse button, or press the space bar while it is focused. Next, drag the object to the target area using the mouse or keyboard arrows. Drop zones will appear to indicate where the object can be placed. Once you reach the drop zone, release the left mouse button or press the space bar to drop the object.
 
 1. To delete a component, choose the component on the canvas and then select **Delete**.
 
