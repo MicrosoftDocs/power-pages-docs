@@ -39,6 +39,10 @@ To use the editor:
     You can drag and drop sections, columns, and components to re-arrange them on a page.
 
     To drag an object, left-click and hold down the mouse button, or press the space bar while it is focused. Next, drag the object to the target area using the mouse or keyboard arrows. Drop zones will appear to indicate where the object can be placed. Once you reach the drop zone, release the left mouse button or press the space bar to drop the object.
+    
+    >[!NOTE]
+    > - Some components are not draggable, including the header, footer, and some nested components (links within a text component, for example). 
+    > - Drag and drop functionality is not supported for sections that have the ```flex-direction``` CSS property set to ```row-reverse```.
 
 1. To delete a component, choose the component on the canvas and then select **Delete**.
 
