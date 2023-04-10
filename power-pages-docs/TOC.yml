@@ -66,6 +66,14 @@
                   href: templates/dynamics-365-apps/subscribe-alerts.md
               - name: Manage blogs 
                 href: templates/dynamics-365-apps/manage-blogs.md
+              - name: Ideas
+                items:
+                - name: Manage ideas
+                  href: templates/dynamics-365-apps/crowdsource-ideas.md
+                - name: Enable content moderation on ideas
+                  href: templates/dynamics-365-apps/enable-idea-content-moderation.md
+              - name: Manage cases in Power Pages
+                href: templates/dynamics-365-apps/case-management.md
         - name: Blank page template
           href: templates/blank.md
     - name: Manage sites
