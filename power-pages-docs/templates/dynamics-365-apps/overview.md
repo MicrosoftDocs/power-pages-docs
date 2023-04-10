@@ -4,7 +4,7 @@ description: Learn how to use Dynamics 365 templates to create or enhance your P
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/22/2023
+ms.date: 04/10/2023
 ms.subservice:
 ms.author: sampatn
 ms.reviewer: kkendrick
@@ -77,9 +77,9 @@ More information:
 - [Manage blogs with Community](/power-apps/maker/portals/customer-engagement-apps/manage-blogs)
 - [Manage ideas with Community](/power-apps/maker/portals/customer-engagement-apps/crowdsource-ideas)
 
-## Supply chain management customer portal
+## Supply chain management customer site
 
-The supply chain management customer portal site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. You can modify this template to represent the company's brand, add more functionality, and change the user experience. 
+The supply chain management customer site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. You can modify this template to represent the company's brand, add more functionality, and change the user experience. 
 
 :::image type="content" source="media/dynamics365-templates/scm.png" alt-text="Supply chain management template landing page.":::  
 
@@ -88,7 +88,7 @@ The supply chain management customer portal site template lets you build externa
 
 More information:
 
-- [Customer portal for Dynamics 365 Supply Chain Management application](/dynamics365/supply-chain/sales-marketing/customer-portal-overview).
+- [Customer site for Dynamics 365 Supply Chain Management application](/dynamics365/supply-chain/sales-marketing/customer-portal-overview).
 - [Site limits for site template type](/power-apps/maker/portals/create-additional-portals)
 
 ## Modern community 
@@ -114,7 +114,7 @@ This template provides your customers with automated service reminders and notif
 
 More information: 
 
-- [Field Service customer portal](/dynamics365/field-service/field-service-portal-homepage)
+- [Field Service customer site](/dynamics365/field-service/field-service-portal-homepage)
 
 ## Order returns
 

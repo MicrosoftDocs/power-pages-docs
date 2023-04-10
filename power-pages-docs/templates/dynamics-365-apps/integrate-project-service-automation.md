@@ -15,7 +15,7 @@ contributors:
 
 # Integrate Project Service Automation
 
-The Project Service Automation solution for Dynamics 365 can now be installed on a partner site (Project Service Automation for Dynamics 365 and Partner Portal solutions must be installed first). With this solution installed, customers and partners will be able to view projects and confirmed, bookable resources. Customers will also be able to approve quotes, view invoices, and view contract and order forms.
+The Project Service Automation solution for Dynamics 365 can now be installed on a partner site (Project Service Automation for Dynamics 365 and Partner site solutions must be installed first). With this solution installed, customers and partners will be able to view projects and confirmed, bookable resources. Customers will also be able to approve quotes, view invoices, and view contract and order forms.
 
 ## View projects on the partner site
 

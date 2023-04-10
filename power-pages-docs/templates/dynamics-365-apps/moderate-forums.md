@@ -4,7 +4,7 @@ description: Learn how to moderate forums in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/28/2023
+ms.date: 4/10/2023
 ms.subservice: 
 ms.author: kkendrick
 contributors:

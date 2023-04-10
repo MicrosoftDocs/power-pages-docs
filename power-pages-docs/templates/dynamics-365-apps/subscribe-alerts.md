@@ -4,11 +4,12 @@ description: Learn how to create and manage alerts in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2020
+ms.date: 04/10/2023
 ms.subservice: 
 ms.author: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Subscribe to alerts
@@ -21,7 +22,7 @@ Depending on the page template implemented by your developer, the functionality 
 
 Users can indicate they wish to receive notification when new posts are created by navigating to a forum thread and selecting the **Alert Me** link.
 
-1. Sign in to the **Portal**.
+1. Sign in to the **site**.
 2. Navigate to a **Forum Thread**.
 3. Select **Subscribe**.
 
@@ -31,7 +32,7 @@ Users can indicate they wish to receive notification when new posts are created 
 
 Users can indicate that they do not wish to receive notification when new posts are created for a given thread by navigating to the forum thread and selecting the **RemoveAlert** link.
 
-1. Sign in to the **Portal**.
+1. Sign in to the **site**.
 2. Navigate to a **Forum Thread**.
 3. Select **Unsubscribe**.
     

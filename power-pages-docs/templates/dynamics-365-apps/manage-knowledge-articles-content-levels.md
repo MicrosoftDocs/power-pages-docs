@@ -4,11 +4,12 @@ description: Learn how to manage knowledge articles by using content access leve
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/28/2023
+ms.date: 4/10/2023
 ms.subservice: 
 ms.author: kkendrick
 contributors:
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Manage knowledge articles by using content access levels
@@ -68,9 +69,9 @@ If you want to add content access level in a knowledge article from the Customer
 1. Select **Add**.
 
 
-**Power Pages app**
+**Power Pages**
 
-In Power Pages app, you can access a knowledge article and add content access level to it by going to **Portals** > **Knowledge Article**.
+In Power Pages, you can access a knowledge article and add content access level to it by going to **Portals** > **Knowledge Article**.
 
 1. Open the Power Pages app.
 
