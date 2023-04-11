@@ -74,6 +74,12 @@
                       href: templates/dynamics-365-apps/enable-idea-content-moderation.md
                 - name: Manage cases in Power Pages
                   href: templates/dynamics-365-apps/case-management.md
+            - name: Configure web roles for a partner site
+              href: templates/dynamics-365-apps/configure-web-roles-partner-portal.md
+            - name: Integrate Project Service Automation
+              href: templates/dynamics-365-apps/integrate-project-service-automation.md
+            - name: Integrate Field Service
+              href: templates/dynamics-365-apps/integrate-field-service.md
         - name: Blank page template
           href: templates/blank.md
     - name: Manage sites
