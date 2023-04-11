@@ -4,7 +4,7 @@ description: Learn the features of Power Pages templates.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/06/2023
+ms.date: 3/21/2023
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
@@ -40,6 +40,16 @@ More information: [Schedule meetings with a financial institution template](boo
 The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their application.
 
 More information: [Building permit application template](building-permit.md)
+
+## Frequently asked questions template
+
+>[!NOTE]
+> [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+The **frequently asked questions (FAQ)** template provides your target audience with answers to commonly asked questions.Information is organized with a topic, subtopic, and article framework. There is a no-code administrator experience for updating and organizing content.
+
+More information: [Frequently Asked Questions template](frequently-asked-questions.md)
 
 ## Blank page template
 
