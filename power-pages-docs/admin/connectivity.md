@@ -1,11 +1,11 @@
 ---
-title: Power Pages connectivity to a Microsoft Dataverse environment
-description: Learn how Power Pages connects to a Microsoft Dataverse environment, connectivity architecture, and the authentication key used for connectivity.
+title: Power Pages connectivity to a Microsoft Dataverse
+description: Learn how Power Pages connects to a Power Platform environment with Dataverse, connectivity architecture, and the authentication key used for connectivity.
 author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/03/2023
+ms.date: 04/11/2023
 ms.subservice: 
 ms.author: dileeps
 ms.reviewer: ndoelman
@@ -14,11 +14,11 @@ contributors:
     - nickdoelman
 ---
 
-# Power Pages connectivity to a Microsoft Dataverse Environment
+# Power Pages connectivity to a Microsoft Dataverse
 
-Microsoft Dataverse is a key component for any Power Pages website. It acts as both metadata store for the website storing all website configuration like webpages, content snippets, site settings, user metadata and the data store for business data. This document describes how the application server hosting the website connects to a Dataverse organization.
+Microsoft Dataverse is a key component for any Power Pages website. It acts as both metadata store for the website storing all website configuration like webpages, content snippets, site settings, user metadata and the data store for business data. This document describes how the application server hosting the website connects to a Power Platform environment with Dataverse.
 
-To start with one of the core principles to remember is that an end user of Power Pages website isn't a Dataverse user, and Dataverse role based access control concepts doesn't apply to the end user on the Power Pages Website. All the users of Power Pages are stored in the Dataverse **contact** table and the data access of these users is controlled through [web roles](../security/create-web-roles.md) whichthat is the role based access control layer for Power Pages users.
+To start with one of the core principles to remember is that an end user of Power Pages website isn't a Dataverse user, and Dataverse role based access control concepts doesn't apply to the end user on the Power Pages website. All the users of Power Pages are stored in the Dataverse **contact** table and the data access of these users is controlled through [web roles](../security/create-web-roles.md) whichthat is the role based access control layer for Power Pages users.
 
 ## Server to Server Connection
 
@@ -76,4 +76,6 @@ While there are several types of these customizations that can exist, following 
 
 - Dataverse processes such as [Dataverse real-time workflows](/power-apps/maker/data-platform/overview-realtime-workflows) which are owned by the **SYSTEM** user. The workflows should be modified to be owned by the application user.
 
-
+## See Also
+- [Power Pages lifecycle](lifecycle.md)
+- [Power Pages architecture](architecture.md)

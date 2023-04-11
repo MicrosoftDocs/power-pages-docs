@@ -1,11 +1,11 @@
 ---
-title: Understand server-side caching in Power Pages
-description: Learn server-side caching in works Power Pages
+title: How server-side caching works in Power Pages
+description: Learn how server-side caching in works Power Pages
 author: dileepsinghmicrosoft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2023
+ms.date: 04/11/2023
 ms.subservice: 
 ms.author: dileeps
 ms.reviewer: ndoelman
@@ -14,7 +14,7 @@ contributors:
     - nickdoelman
 ---
 
-# Understand server-side caching in Power Pages
+# How server-side caching works in Power Pages
 
 In order to improve scalability and performance, Power Pages websites cache the data that is queried from Microsoft Dataverse. This caching is done on the application server for all business data and website metadata and is different from browser based or content delivery network caching of static resources.
 

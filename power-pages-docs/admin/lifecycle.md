@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/03/2023
+ms.date: 04/11/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -18,14 +18,7 @@ contributors:
 
 A Power Pages website is always created as a trial. A trial website, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the website is suspended and shut down. Seven days after it's suspended, the trial website host is deleted. You'll be notified at every stage of the website lifecycle; nearing suspension, suspended, deleted, and converted from trial to production; through toast notifications and email.
 
-As an administrator, you can convert a trial or suspended website to a production website. When converting a website from trial to production, you must ensure that the Dataverse environment is also a production or a sandbox environment. You can't convert a trial website to production in a trial Dataverse environment. If you delete the Dataverse environment in which a trial website is created, the website is also deleted.
-
-| Dataverse Environment Type  | Convert website to production |
-|---------|---------|
-| Trial | No |
-| Developer | No |
-| Sandbox | Yes |
-| Production | Yes |
+As an administrator, you can convert a trial or suspended website to a production website. When converting a website from trial to production, you must ensure that the Power Platform environment is also a production or a sandbox environment. You can't convert a trial website to production in a trial Power Platform environment. If you delete the Power Platform environment in which a trial website is created, the website is also deleted.
 
 ### Understanding website lifecycle stages
 
@@ -63,3 +56,5 @@ If you don't convert your website to production within the seven-day suspension 
 
 - [Convert a website from trial to production](convert-site.md#convert-a-website-from-trial-to-production)
 - [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model)
+- [Power Pages connectivity to a Microsoft Dataverse](connectivity.md)
+- [Power Pages architecture](architecture.md)
