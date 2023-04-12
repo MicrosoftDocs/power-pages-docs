@@ -1,10 +1,10 @@
 ﻿---
-title: Frequently Asked Questions template
+title: Frequently Asked Questions template (preview)
 description: Learn about the Frequently Asked Questions template.
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/11/2023
+ms.date: 4/12/2023
 ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: kkendrick
@@ -12,16 +12,18 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Frequently Asked Questions template
+# Frequently Asked Questions template (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Frequently Asked Questions template provides your target audience with answers to commonly asked questions. The FAQ template organizes information with a topic, subtopic and article framework. There's a no-code administrator experience for updating and organizing content.
 
 :::image type="content" source="media/faq.png" alt-text="The FAQ template user interface. The page header contains a search box and the body of the page contains six topic tiles, each displaying a title and icon.":::
 
 > [!NOTE]
-> This template is being rolled out across regions, and may not be available in your region yet.<br />
-> [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - This template is being rolled out across regions, and may not be available in your region yet.<br />
+> - This is a preview feature.
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 ## Users
 
