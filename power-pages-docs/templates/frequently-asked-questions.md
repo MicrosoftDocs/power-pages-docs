@@ -20,7 +20,7 @@ The Frequently Asked Questions template provides your target audience with answe
 
 :::image type="content" source="media/faq.png" alt-text="The FAQ template user interface. The page header contains a search box and the body of the page contains six topic tiles, each displaying a title and icon.":::
 
-> [!NOTE]
+> [!IMPORTANT]
 > - This template is being rolled out across regions, and may not be available in your region yet.<br />
 > - This is a preview feature.
 > - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
