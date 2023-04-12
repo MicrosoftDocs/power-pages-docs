@@ -1,4 +1,4 @@
-﻿---
+---
 title: Frequently Asked Questions template (preview)
 description: Learn about the Frequently Asked Questions template.
 author: deepa88 
