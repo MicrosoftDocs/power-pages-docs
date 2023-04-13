@@ -52,7 +52,7 @@ Power Pages utilizes the Power Apps portals capabilities for authentication. Vie
 
 ### Internal users
 
-Users within your organization should use **Azure Active Directory (Azure AD)**. Using Azure AD provides a seamless sign-in experience via the use of an active session.  Using Azure AD also aids in site security.  When a user leaves the organization, their Azure AD account is disabled, and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Azure AD pre-configured.
+Users within your organization should use **Azure Active Directory (Azure AD)**. Using Azure AD provides a seamless sign-in experience via an active session.  Using Azure AD also aids in site security.  When a user leaves the organization, their Azure AD account is disabled, and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Azure AD pre-configured.
 
 > [!TIP] 
 > Rename the login button from Azure AD to something more friendly like "Contoso Employees" or "Contoso Work Account". Create a Site Setting named "Authentication/OpenIdConnect/AzureAD/Caption" and specify the value you wish to display. Use the [Portal Management app](portal-management-app.md) to create and modify **Site Settings**.
@@ -77,7 +77,7 @@ You can protect any page and data on your site. For more information, see [Power
 You can set table permissions to configure web roles for authenticated and unauthenticated audiences. For more information, see [Assign table permissions](../security/assign-table-permissions.md).
 
 > [!NOTE]
-> Consider other scope types before using the global scope for table permissions.
+> Consider other scope types before using global scope for table permissions.
 
 You can allow open registration or use identity providers to validate email addresses. For more information, see [Provide access to external audiences](../security/external-access.md).
 
