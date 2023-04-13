@@ -1,13 +1,13 @@
 ---
 title: Dynamics 365 templates
-description: Learn about the option to create Power Pages sites using Dynamics 365 templates.
+description: Learn how to use Dynamics 365 templates to create or enhance your Power Pages sites.
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 02/22/2023
 ms.subservice:
 ms.author: sampatn
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -24,6 +24,10 @@ Dynamics 365 templates are available for your Power Pages sites in environments 
 - Dynamics 365 Marketing
 - Dynamics 365 Project Operations
 - Dynamics 365 Supply Chain Management
+- Dynamics 365 Intelligent Order Management
+
+> [!NOTE]
+> - Editing capabilities in Power Pages design studio are not available for Dynamics 365 templates, see [known issues](../known-issues.md#dynamics-365-templates) for alternatives.
 
 ## Customer self-service
 
@@ -75,7 +79,7 @@ More information:
 
 ## Supply chain management customer portal
 
-The supply chain management customer portal site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. This template can be modified to represent the company's brand, add more functionality, and change the user experience. 
+The supply chain management customer portal site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. You can modify this template to represent the company's brand, add more functionality, and change the user experience. 
 
 :::image type="content" source="media/dynamics365-templates/scm.png" alt-text="Supply chain management template landing page.":::  
 
@@ -89,7 +93,7 @@ More information:
 
 ## Modern community 
 
-The modern community site template invites customers to provide suggestions and creates crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to help shape the future of the products they use. 
+The modern community site template invites customers to provide suggestions, creating crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to shape the future of the products they use. 
 
 :::image type="content" source="media/dynamics365-templates/modern-community.png" alt-text="Modern community template landing page.":::
 
@@ -105,8 +109,24 @@ The field service customer site template allows your customers to book new appoi
 
 This template provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits.  
 
+>[!IMPORTANT]
+> There's a limit of only one site for this type of template that can be created per Dynamics 365 environment. 
+
 More information: 
 
 - [Field Service customer portal](/dynamics365/field-service/field-service-portal-homepage)
+
+## Order returns
+
+> [!NOTE]
+> This template is a preview offering.
+
+This template integrates with the Dynamics 365 Intelligent Order Management application. Add this template to an existing customer website or use it to create a new site. Customers can return their orders, view the status of their return request, view return history, and monitor their refund status. 
+
+:::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template landing page.":::
+
+More information: 
+
+- [Dynamics 365 Intelligent Order Management](/dynamics365/intelligent-order-management/overview)
 
 

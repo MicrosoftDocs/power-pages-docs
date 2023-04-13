@@ -31,7 +31,7 @@ In this tutorial, you learn how to:
 
 ## Create a page using a blank layout
 
-In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own [custom layouts](../configure/store-content-web-templates.md).
+In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own [custom layouts](../configure/web-templates.md).
 
 This video provides an overview of the steps to create a page using a blank layout.
 

@@ -1,13 +1,13 @@
 - name: Power Pages documentation
   href: index.yml
 - name: Overview
-  items: 
-  - name: What is Power Pages
-    href: introduction.md
-  - name: Power Pages capabilities
-    href: capabilities.md       
-- name:  Try Power Pages
-  items: 
+  items:
+    - name: What is Power Pages
+      href: introduction.md
+    - name: Power Pages capabilities
+      href: capabilities.md
+- name: Try Power Pages
+  items:
     - name: Sign up for a trial
       href: getting-started/trial-signup.md
     - name: Trial FAQs
@@ -17,25 +17,27 @@
 - name: Get started
   items:
     - name: Create a site
-      href: getting-started/create-manage.md             
+      href: getting-started/create-manage.md
     - name: Get started with design studio
       href: getting-started/use-design-studio.md
     - name: Templates
       items:
         - name: Create sites using templates
           href: templates/index.md
-        - name: Site design templates
-          href: templates/site-design.md
+        - name: Starter layout templates
+          href: templates/starter-layout.md
         - name: After school template
           href: templates/after-school.md
         - name: Book a meeting template
-          href: templates/book-a-meeting.md 
+          href: templates/book-a-meeting.md
         - name: Building permit template
           href: templates/building-permit.md
+        - name: FAQ template (preview)
+          href: templates/frequently-asked-questions.md
         - name: Dynamics 365 templates
-          href: templates/dynamics-365-templates.md   
+          href: templates/dynamics-365-templates.md
         - name: Blank page template
-          href: templates/blank.md  
+          href: templates/blank.md
     - name: Manage sites
       href: admin/manage-sites.md
     - name: Learning hub
@@ -46,128 +48,356 @@
       href: configure/planning-power-pages-project.md
 - name: Design and build
   items:
-  - name: Design and build overview
-    href: configure/design-build-overview.md  
-  - name: Dataverse and Power Pages
-    href: getting-started/what-is-dataverse.md
-  - name: Use Pages workspace
-    items:  
-      - name: Create and design pages
-        href: getting-started/first-page.md
-      - name: Customize pages
-        href: getting-started/customize-pages.md
-      - name: Add components to pages
-        items:
-          - name: Add sections
-            href: getting-started/add-sections.md
-          - name: Add text
-            href: getting-started/add-text.md         
-          - name: Add button
-            href: getting-started/add-button.md
-          - name: Add image
-            href: getting-started/add-image.md
-          - name: Add video
-            href: getting-started/add-video.md
-          - name: Add spacer 
-            href: getting-started/add-spacer.md                                    
-          - name: Add Power BI
-            href: getting-started/add-power-bi.md
-          - name: Add list
-            href: getting-started/add-list.md
-          - name: Add form
-            href: getting-started/add-form.md
-          - name: Add multistep form
-            href: getting-started/multistep-forms.md
-          - name: Add IFrame
-            href: getting-started/add-iframe.md            
-          - name: Use Visual Studio Code editor (preview)
-            href: configure/visual-studio-code-editor.md            
-      - name: Structure your site map
-        href: getting-started/structure-site.md                    
-  - name: Use the Styling workspace
-    items:
-      - name: Styling workspace overview
-        href: getting-started/style-site.md
-      - name: Manage CSS files
-        href: configure/manage-css.md
-  - name: Use the Data workspace
-    items:
-      - name: Data workspace overview
-        href: getting-started/use-data-workspace.md
-      - name: Create and modify tables
-        href: configure/data-workspace-tables.md
-      - name: Create and modify views
-        href: configure/data-workspace-views.md
-      - name: Create and modify forms
-        href: configure/data-workspace-forms.md
-  - name: Use Set up workspace
-    items:                          
-      - name: Set up workspace overview
-        href: configure/setup-workspace.md
-      - name: Progressive web applications
-        items:
-          - name: Overview
-            href: configure/progressive-web-apps.md
-          - name: Build progressive web applications    
-            href: configure/build-progressive-web-apps.md
-  - name: Power Pages design studio and Power Apps portals Studio
-    href: configure/editing-sites.md
+    - name: Design and build overview
+      href: configure/design-build-overview.md
+    - name: Dataverse and Power Pages
+      href: getting-started/what-is-dataverse.md
+    - name: Use Pages workspace
+      items:
+        - name: Create a web page
+          href: getting-started/first-page.md
+        - name: Design pages
+          items:
+            - name: Edit pages
+              href: getting-started/customize-pages.md
+            - name: Edit header
+              href: getting-started/edit-header.md
+            - name: Add components to pages
+              items:
+                - name: Add sections
+                  href: getting-started/add-sections.md
+                - name: Add text
+                  href: getting-started/add-text.md
+                - name: Add button
+                  href: getting-started/add-button.md
+                - name: Add image
+                  href: getting-started/add-image.md
+                - name: Add video
+                  href: getting-started/add-video.md
+                - name: Add spacer
+                  href: getting-started/add-spacer.md
+                - name: Add Power BI
+                  href: getting-started/add-power-bi.md
+                - name: Add list
+                  href: getting-started/add-list.md
+                - name: Add form
+                  href: getting-started/add-form.md
+                - name: Add multistep form
+                  href: getting-started/multistep-forms.md
+                - name: Add IFrame
+                  href: getting-started/add-iframe.md
+                - name: Use Visual Studio Code editor (preview)
+                  href: configure/visual-studio-code-editor.md
+            - name: Structure your site map
+              href: getting-started/structure-site.md
+    - name: Use the Styling workspace
+      items:
+        - name: Styling workspace overview
+          href: getting-started/style-site.md
+        - name: Manage CSS files
+          href: configure/manage-css.md
+    - name: Use the Data workspace
+      items:
+        - name: Data workspace overview
+          href: getting-started/use-data-workspace.md
+        - name: Create and modify tables
+          href: configure/data-workspace-tables.md
+        - name: Create and modify views
+          href: configure/data-workspace-views.md
+        - name: Create and modify forms
+          href: configure/data-workspace-forms.md
+    - name: Use Set up workspace
+      items:
+        - name: Set up workspace overview
+          href: configure/setup-workspace.md
+        - name: Progressive web applications
+          items:
+            - name: Overview
+              href: configure/progressive-web-apps.md
+            - name: Build progressive web applications
+              href: configure/build-progressive-web-apps.md
+    - name: Power Pages design studio and Power Apps portals Studio
+      href: configure/editing-sites.md
 - name: Administer Power Pages
   items:
     - name: Use the admin center
       href: admin/admin-overview.md
-    - name: Use admin APIs
-      href: admin/admin-api.md
+    - name: Manage websites from the admin center
+      href: admin/power-platform-admin-center.md
+    - name: Roles required for administration
+      href: admin/admin-roles.md
+    - name: Configure website actions
+      items:
+        - name: Download public key
+          href: admin/get-public-key.md
+        - name: Delete a website
+          href: admin/delete-website.md
+        - name: Change base URL
+          href: admin/change-base-url.md
+        - name: Enable maintenance mode
+          href: admin/enable-maintenance-mode.md
+        - name: Add custom domain name
+          href: admin/add-custom-domain.md
+        - name: Import metadata translation
+          href: admin/enable-maintenance-mode.md
+        - name: Set up Power BI integration
+          href: admin/set-up-power-bi-integration.md
+    - name: Manage custom certificate
+      href: admin/manage-custom-certificates.md
+    - name: Content Delivery Network
+      href: configure/configure-cdn.md
     - name: Capacity consumption reports
-      href: admin/portal-consumption-reports.md
-    - name: Update solution
-      href: admin/update-portal-solution.md
-    - name: View error log
+      href: admin/website-consumption-reports.md
+    - name: Restrict IP addresses
+      href: admin/ip-address-restrict.md
+    - name: Diagnostics and error handling
       href: admin/view-portal-error-log.md
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
     - name: Governance
       href: admin/coe-portals.md
+    - name: Use site checker
+      items:
+        - name: Run site checker
+          href: admin/site-checker.md
+        - name: Analyze and resolve results
+          items:
+            - name: Cache invalidation issues
+              href: admin/site-checker-cache-invalidation.md
+            - name: Configuration issues
+              href: admin/site-checker-configuration-issues.md
+            - name: Performance issues
+              href: admin/site-checker-performance.md
+            - name: Website start-up issues
+              href: admin/site-checker-startup-issue.md
+            - name: Provisioning issues
+              href: admin/site-checker-provisioning-issues.md
+    - name: Manage website authentication key
+      href: admin/manage-auth-key.md
+    - name: Update, upgrade, migrate and convert websites
+      items:
+        - name: Convert a website
+          href: admin/convert-site.md
+        - name: Upgrade a website
+          href: admin/upgrade-site.md
+        - name: Update Power Pages solution
+          href: admin/update-solution.md
+        - name: Update Dynamics 365 instance
+          href: admin/update-dynamics365-instance.md
+        - name: Migrate website configuration
+          href: admin/migrate-site-configuration.md
 - name: Configure Power Pages
   items:
     - name: Portal Management app overview
       href: configure/portal-management-app.md
+    - name: Search Configuration
+      items:
+        - name: Search overview
+          href: configure/search/overview.md
+        - name: Search additional tables
+          href: configure/search/additional-tables.md
+        - name: Faceted search
+          href: configure/search/faceted.md
+        - name: Search file attachments
+          href: configure/search/file-attachment.md
+        - name: Progressive search
+          href: configure/search/progressive.md
+    - name: Configure document storage
+      items:
+        - name: Configure notes
+          href: configure/configure-notes.md
+        - name: Azure storage
+          items:
+            - name: Enable Azure storage
+              href: configure/enable-azure-storage.md
+            - name: Add Azure storage web resource
+              href: configure/add-web-resource.md
+        - name: Manage SharePoint documents
+          href: configure/manage-sharepoint-documents.md
     - name: Advanced configuration
       href: configure/advanced-config.md
+- name: Integrate Power Pages
+  items:
+    - name: Embed a Power Pages site in another website
+      href: configure/embed-website.md
+    - name: Set up Azure Front Door with Power Pages
+      href: configure/azure-front-door.md
+    - name: Integrate Power BI
+      items:
+        - name: Set up Power BI integration
+          href: admin/set-up-power-bi-integration.md
+        - name: Configure Power BI component on a webpage
+          href: getting-started/add-power-bi.md
+        - name: Add Power BI using powerbi Liquid tag
+          href: configure/add-powerbi-report.md
 - name: Customize and extend Power Pages
   items:
-    - name: Custom page layouts
-      href: configure/custom-page-layouts.md   
-    - name: Use Visual Studio Code and Power Platform CLI
-      href: configure/cli-tutorial.md
+    - name: Liquid
+      items:
+        - name: Liquid overview
+          href: configure/liquid/liquid-overview.md
+        - name: Understand Liquid operators
+          href: configure/liquid/liquid-operators.md
+        - name: Understand Liquid types
+          href: configure/liquid/liquid-types.md
+        - name: Understand Liquid conditional operators
+          href: configure/liquid/liquid-conditional-operators.md
+        - name: Understand Liquid objects
+          href: configure/liquid/liquid-objects.md
+        - name: Understand available Liquid tags
+          items:
+            - name: Liquid tags overview
+              href: configure/liquid/liquid-tags.md
+            - name: Understand control flow tags
+              href: configure/liquid/control-flow-tags.md
+            - name: Understand iteration tags
+              href: configure/liquid/iteration-tags.md
+            - name: Understand variable tags
+              href: configure/liquid/variable-tags.md
+            - name: Understand template tags
+              href: configure/liquid/template-tags.md
+            - name: Understand Dataverse Liquid tags
+              href: configure/liquid/dataverse-liquid-tags.md
+        - name: Understand Liquid filters
+          href: configure/liquid/liquid-filters.md
     - name: Web templates
-      href: configure/store-content-web-templates.md
-    - name: Portals Web API overview
-      href: configure/web-api-overview.md
-    - name: Component framework
-      href: configure/component-framework.md
-    - name: Liquid overview
-      href: configure/liquid-overview.md
-    - name: Overview of portals ALM
+      href: configure/web-templates.md
+    - name: Create custom web templates
+      items:
+        - name: Create custom page layouts
+          href: configure/custom-page-layouts.md
+        - name: Use hybrid navigation to render page hierarchy
+          href: configure/liquid/hybrid-navigation-render-page-hierarchy.md
+        - name: Redirect a user to a default page on sign-in
+          href: configure/liquid/redirect-a-user-homepage.md
+        - name: Render a list for a webpage
+          href: configure/liquid/render-list-current-page.md
+        - name: Render an RSS feed
+          href: configure/liquid/render-rss-custom-web-template.md
+        - name: Render a site header and primary navigation bar
+          href: configure/liquid/render-site-header-primary-navigation.md
+    - name: Use Web API
+      items:
+        - name: Portals Web API overview
+          href: configure/web-api-overview.md
+        - name: Perform read operations
+          href: configure/read-operations.md
+        - name: Perform write, update, and delete operations
+          href: configure/write-update-delete-operations.md
+        - name: Compose HTTP requests and handle errors
+          href: configure/web-api-http-requests-handle-errors.md
+        - name: "How to: use the portals Web API"
+          href: configure/webapi-how-to.md
+    - name: Use code components
+      items:
+        - name: Code component overview
+          href: configure/component-framework.md
+        - name: "Tutorial: Use code components in Power Pages"
+          href: configure/component-framework-tutorial.md
+        - name: "Tutorial: Use dataset code components in Power Pages"
+          href: configure/tutorial-pcf-code.md
+        - name: "Tutorial: Configure rich text editor control"
+          href: configure/component-rte-tutorial.md
+        - name: Use code components Liquid template tag
+          href: configure/liquid/component-framework-liquid.md
+        - name: Implement a sample portal Web API component
+          href: configure/implement-webapi-component.md
+    - name: Use Microsoft Power Platform CLI
+      items:
+        - name: Overview of Power Platform CLI
+          href: configure/power-platform-cli.md
+        - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
+          href: configure/power-platform-cli-tutorial.md
+        - name: Use Visual Studio Code for Power Pages
+          href: configure/vs-code-extension.md
+    - name: Use admin APIs
+      href: admin/admin-api.md
+    - name: Power Pages ALM
       href: configure/portals-alm.md
 - name: Secure Power Pages
   items:
-    - name: Power Pages security
+    - name: Overview
       href: security/power-pages-security.md
     - name: Site visibility
-      href: security/site-visibility.md  
-    - name: Configure authentication
-      href: security/configure-portal-authentication.md
-    - name: Provide external access
-      href: security/external-access.md
-    - name: Configure web roles
-      href: security/create-web-roles.md
-    - name: Page security
-      href: security/page-security.md
-    - name: Configure table permissions
-      href: security/table-permissions.md
-    - name: Assign table permissions
-      href: security/assign-table-permissions.md
+      href: security/site-visibility.md
+    - name: Authentication
+      items:
+        - name: Overview
+          href: security/authentication/index.md
+        - name: Configure
+          href: security/authentication/configure-site.md
+        - name: Configure Azure AD B2C
+          href: security/authentication/azure-ad-b2c-provider.md
+        - name: OAuth 2.0
+          items:
+            - name: Configure OAuth 2.0
+              href: security/authentication/oauth2-provider.md
+            - name: Microsoft
+              href: security/authentication/oauth2-microsoft.md
+            - name: LinkedIn
+              href: security/authentication/oauth2-linkedin.md
+            - name: Facebook
+              href: security/authentication/oauth2-facebook.md
+            - name: Google
+              href: security/authentication/oauth2-google.md
+            - name: Twitter
+              href: security/authentication/oauth2-twitter.md
+            - name: Additional settings
+              href: security/authentication/oauth2-settings.md
+            - name: OAuth 2.0 implicit grant flow
+              href: security/oauth-implicit-grant-flow.md
+        - name: OpenID Connect
+          items:
+            - name: Configure OpenID Connect
+              href: security/authentication/openid-provider.md
+            - name: Configure OpenID Connect for Azure AD
+              href: security/authentication/openid-settings.md
+            - name: FAQs
+              href: security/authentication/openid-faqs.md
+        - name: SAML 2.0
+          items:
+            - name: Configure SAML 2.0
+              href: security/authentication/saml2-provider.md
+            - name: Configure SAML 2.0 for Azure AD
+              href: security/authentication/saml2-settings-azure-ad.md
+            - name: Configure SAML 2.0 for AD FS
+              href: security/authentication/saml2-settings.md
+            - name: FAQs
+              href: security/authentication/saml2-faqs.md
+        - name: WS Federation
+          items:
+            - name: Configure WS Federation
+              href: security/authentication/ws-federation-provider.md
+            - name: Configure WS Federation with Azure AD
+              href: security/authentication/ws-federation-settings-azure-ad.md
+            - name: Configure WS Federation with AD FS
+              href: security/authentication/ws-federation-settings.md
+        - name: Migrate to Azure AD B2C
+          href: security/authentication/migrate-identity-providers.md
+        - name: Local authentication, registration, and other settings
+          href: security/authentication/set-authentication-identity.md
+    - name: User management
+      items:
+        - name: Provide external access
+          href: security/external-access.md
+        - name: Invite contacts
+          href: security/invite-contacts.md
+    - name: Roles and permissions
+      items:
+        - name: Create web roles
+          href: security/create-web-roles.md
+        - name: Page permissions
+          href: security/page-security.md
+        - name: Configure table permissions
+          href: security/table-permissions.md
+        - name: Assign table permissions
+          href: security/assign-table-permissions.md
+        - name: Configure table permissions
+          href: security/table-permissions.md
+        - name: Configure column permissions
+          href: security/column-permissions.md
+        - name: Create website access permissions
+          href: security/website-access-permission.md
     - name: Web Application Firewall (preview)
       items:
         - name: Web Application Firewall overview
@@ -175,42 +405,62 @@
         - name: Configure Web Application Firewall
           href: security/configure-web-application-firewall.md
         - name: Web Application Firewall rule groups
-          href: security/web-application-firewall-rule-groups.md      
-- name: Go live 
-  items: 
+          href: security/web-application-firewall-rule-groups.md
+- name: Go live
+  items:
     - name: Go live checklist
       href: go-live/checklist.md
     - name: Licensing
       href: go-live/assign-licensing.md
 - name: Tutorials
   items:
-  - name: Tutorial overview
-    href: getting-started/tutorial-overview.md
-  - name: "Tutorial: Add and design a page"
-    href: getting-started/tutorial-add-webpage.md
-  - name: "Tutorial: Style your site"  
-    href: getting-started/tutorial-style-site.md
-  - name: "Tutorial: Add a list to a page"
-    href: getting-started/tutorial-add-list-to-page.md
-  - name: "Tutorial: Display data securely on pages"
-    href: getting-started/tutorial-display-data-securely.md  
-  - name: "Tutorial: Add a form to a page"
-    href: getting-started/tutorial-add-form-to-page.md
-  - name: "Tutorial: Add a multi-step form to a page"
-    href: getting-started/tutorial-add-multi-step-form.md
-  - name: "Tutorial: Configure site authentication"
-    href: getting-started/tutorial-setup-site-authentication.md
-  - name: "Tutorial: Set up page permissions"
-    href: getting-started/tutorial-setup-page-permissions.md       
-  - name: "Tutorial: Add custom styling to your site"
-    href: getting-started/tutorial-add-custom-style.md
-  - name: "Tutorial: Create, update, and view Dataverse information"
-    href: getting-started/tutorial-dataverse-website.md   
-  - name: "Tutorial: Add a custom page layout"
-    href: getting-started/tutorial-add-custom-page-layout.md
+    - name: Tutorial overview
+      href: getting-started/tutorial-overview.md
+    - name: "Tutorial: Add and design a page"
+      href: getting-started/tutorial-add-webpage.md
+    - name: "Tutorial: Style your site"
+      href: getting-started/tutorial-style-site.md
+    - name: "Tutorial: Add a list to a page"
+      href: getting-started/tutorial-add-list-to-page.md
+    - name: "Tutorial: Display data securely on pages"
+      href: getting-started/tutorial-display-data-securely.md
+    - name: "Tutorial: Add a form to a page"
+      href: getting-started/tutorial-add-form-to-page.md
+    - name: "Tutorial: Add a multi-step form to a page"
+      href: getting-started/tutorial-add-multi-step-form.md
+    - name: "Tutorial: Configure site authentication"
+      href: getting-started/tutorial-setup-site-authentication.md
+    - name: "Tutorial: Set up page permissions"
+      href: getting-started/tutorial-setup-page-permissions.md
+    - name: "Tutorial: Add custom styling to your site"
+      href: getting-started/tutorial-add-custom-style.md
+    - name: "Tutorial: Create, update, and view Dataverse information"
+      href: getting-started/tutorial-dataverse-website.md
+    - name: "Tutorial: Add a custom page layout"
+      href: getting-started/tutorial-add-custom-page-layout.md
 - name: Training videos
   href: training-videos/index.md
+- name: Compliance and accessibility
+  items:
+    - name: Accessibility
+      href: admin/accessibility.md
+    - name: Implement GDPR
+      href: configure/implement-gdpr.md
+    - name: Cookies
+      href: admin/cookies.md
+- name: System requirements, limits, and configuration
+  href: system-requirements.md
+- name: Power Pages FAQs
+  href: faq.yml
 - name: Known issues
   href: known-issues.md
 - name: Important changes and deprecations
   href: important-changes-deprecations.md
+- name: Version releases and updates
+  items:
+    - name: Release updates
+      href: release-updates.md
+    - name: Website host
+      href: /power-platform/released-versions/portals
+    - name: Power Pages solutions
+      href: /power-platform/released-versions/pagessolutions

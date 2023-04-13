@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 08/31/2022
 ms.subservice:
 ms.author: tbhagwat
-ms.reviewer:
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -38,7 +38,7 @@ Power Pages provides a list of templates to choose from to quickly build your si
     :::image type="content" source="media/default-template/default-template.png" alt-text="The design studio GUI with default template selected.":::
 
     > [!TIP]
-    > Prefer a template that best aligns to what you want to use your site for. If none of the business need templates match what you're looking for, choose one of the **Site design** templates with cross-industry solutions, or choose **Blank page** to customize the website from scratch. More information: [Power Pages templates](../templates/index.md)
+    > Prefer a template that best aligns to what you want to use your site for. If none of the business need templates match what you're looking for, choose one of the **Starter layout** templates with cross-industry solutions, or choose **Blank page** to customize the website from scratch. More information: [Power Pages templates](../templates/index.md)
 
 1. After you finalize the template of your choice, select **Choose this template**.
 

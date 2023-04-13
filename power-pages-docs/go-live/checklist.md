@@ -36,7 +36,7 @@ Here's the steps included in the go-live checklist:
 
 | Number | Task | Success criteria |
 |-------------------------|-------------------------|-------------------------|
-| 1 | Run the site checker | 0 Errors in the [portal checker](../admin/portal-checker.md) last run results |
+| 1 | Run the site checker | 0 Errors in the [site checker](../admin/site-checker.md) last run results |
 | 2 | Pick and allocate licenses | [Licenses](assign-licensing.md) are allocated, and acknowledgment in the form of marked as completed |
 | 3 | Convert site to production | Site is converted to [production](/power-apps/maker/portals/admin/convert-portal) |
 | 4 | Enable CDN to load site faster | [Content Delivery Network (CDN)](/power-apps/maker/portals/configure/configure-cdn) is enabled |
@@ -69,7 +69,7 @@ For example, [Azure Active Directory B2C](../getting-started/tutorial-setup-site
 > - Finish setting up your custom domain to utilize the redirect URL for the authentication provider. 
 > - If you're using the **Azure AD** sign-in button, you can rename it to reflect meaningful label. Using the [Portal Management app](../configure/portal-management-app.md), create the site setting **Authentication/OpenIdConnect/AzureAD/Caption** for your specific website and set the name you want.  
 
-More information: [Configure authentication](../security/configure-portal-authentication.md)
+More information: [Configure Power Pages site authentication](../security/authentication/configure-site.md)
 
 ### Test your site performance
 

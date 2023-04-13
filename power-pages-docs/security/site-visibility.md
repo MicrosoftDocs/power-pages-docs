@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/01/2022
+ms.date: 03/01/2023
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -22,7 +22,6 @@ The Power Pages site visibility feature allows you to manage who has access to y
 > [!IMPORTANT]
 > - All new sites created in Power Pages are private by default. When the website is ready to go live, you can change the site visibility to public.
 > - Site visibility feature is only available for websites with version [9.4.9.x](/power-platform/released-versions/portals/portalupdate949x) or later.
-> - All websites created during the preview period are public by default. To change the site to private, go to Set up workspace in design studio and change the site visibility. More information: [Set up workspace](../configure/setup-workspace.md)
 > - Be cautious when editing a public site because the changes are visible to external users immediately.
 
 ## Difference between a private site and a public site
@@ -39,6 +38,18 @@ To change site visibility:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/)
 1. Edit the site that you want to change site visibility for.
+1. Select **Set up** from the list of workspaces on the left-side of the screen.
+1. Select **Site visibility** tab under **Security** section.
+1. Select **Public** to make the site public, or **Private** to make the site private.
+
+If you have [created your site using Power Apps](/power-apps/maker/portals/create-portal), follow these steps:
+
+1. Go to [Power Apps](https://make.powerapps.com)
+1. Select **Apps**.
+1. Select your site from the list of apps that you want to change site visibility for.
+1. Select the ellipse (**...**).
+1. Select **Edit**.
+1. Select **Open in Power Pages**.
 1. Select **Set up** from the list of workspaces on the left-side of the screen.
 1. Select **Site visibility** tab under **Security** section.
 1. Select **Public** to make the site public, or **Private** to make the site private.
@@ -64,6 +75,7 @@ To grant website access:
 > [!NOTE]
 > - Granting website access is limited to 50 users.
 > - Organization users that are part of [System administrator](/power-platform/admin/security-roles-privileges) role in the Power Platform environment where the website is created have permissions to view the website by default.
+> - Users granted access to a private site aren't automatically authenticated to the site itself. Please see [Provide access to external audiences](external-access.md) for more information.
 
 ## Permissions required to change site visibility
 
@@ -84,7 +96,7 @@ If the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to
 The tenant-level setting can be updated using a PowerShell script.
 
 > [!IMPORTANT]
-> - After February 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE.
+> - After October 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE.
 
 To get the current value for the tenant setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command.
 
@@ -122,7 +134,7 @@ Now, you can delegate site visibility controls to a select set of users by addin
 To delegate site visibility to specific system administrators:
 
 1. Go to [Power Platform admin center](https://admin.powerplatform.com).
-1. Select **Portals**.
+1. Select **Power Pages sites**.
 1. Select your website, and then select **Manage**.
 1. In the **Security** section, select **Manage site visibility permissions**.
 
@@ -140,4 +152,4 @@ A Power Pages website in private mode won't work when you disable Azure Active D
 
 ## See also
 
-[Configure authentication](configure-portal-authentication.md)
+[Configure Power Pages site authentication](authentication/configure-site.md)

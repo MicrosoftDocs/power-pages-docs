@@ -1,0 +1,48 @@
+### YamlMime:Landing
+
+title: Power Pages guidance documentation
+summary: Power Pages guidance documentation provides best practice information from the team that works with our enterprise customers. We'll regularly add and update the guidance content.
+
+metadata:
+  title: Power Pages guidance documentation
+  description: Provides best practice guidance information for Power Pages.
+  services: service
+  ms.subservice: guidance
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KumarVivek
+  ms.author: kvivek
+  ms.date: 07/26/2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+  # Card
+  - title: Power Pages white papers
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Architecture white paper
+            url: white-papers/architecture.md
+          - text: Security white paper
+            url: white-papers/security.md
+
+  # Card
+  - title: Power Pages integration
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: "How to: Embed a chatbot on a webpage"
+            url: integrate-pva.md
+
+  # Card
+  - title: Related content
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Power Platform guidance
+            url: /power-platform/guidance/
+          - text: Power Apps guidance
+            url: /power-apps/guidance
+          - text: Power Automate guidance
+            url: /power-automate/guidance/

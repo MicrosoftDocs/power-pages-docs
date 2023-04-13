@@ -4,10 +4,10 @@ description: Add forms to your page in Power Pages.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 01/18/2023
 ms.subservice:
 ms.author: clromano
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - clromano
     - nickdoelman
@@ -132,7 +132,7 @@ To enable the code component:
 
 1. Select the field and choose **Edit field**.
 
-1. Select **Enable Power Apps Component Framework field**.
+1. Select **Enable custom component field**.
 
 1. Select **OK**.
 

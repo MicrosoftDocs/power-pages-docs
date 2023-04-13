@@ -1,0 +1,15 @@
+- name: Power Pages guidance
+  href: index.yml
+  items:
+    - name: White papers
+      items:
+        - name: Power Pages white papers
+          href: white-papers/index.md
+        - name: Architecture white paper
+          href: white-papers/architecture.md
+        - name: Security white paper
+          href: white-papers/security.md
+    - name: Integration
+      items:
+        - name: "How to: Embed a chatbot on a webpage"
+          href: integrate-pva.md                 

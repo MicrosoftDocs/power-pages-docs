@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/13/2022
 ms.author: clromano
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - clromano
     - nickdoelman
@@ -42,13 +42,13 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 
 ## Page editing options
 
-While working on designing and building your page, you can switch to the [code editor](code-editor.md), **zoom in (+)**,  **zoom out (-)**, or **Reset** the zoom to default size of the page in the design studio.
+While working on designing and building your page, you can switch to the [code editor](code-editor.md), **zoom in (+)**,  **zoom out (-)**, or **Reset** the zoom to the default size of the page in the design studio.
 
 :::image type="content" source="media/tour-maker-studio/zoom-page.png" alt-text="Toolbar to preview page layout, code editor and zoom options.":::
 
 ## Preview your site
 
-When you're done building, preview your site by using the **Preview** option. You can preview on desktop or mobile. Selecting **Desktop** opens the site in a new web browser tab. Scanning the QR code with your mobile device opens the site on the mobile web browser.
+When you're done building, preview your site on desktop or mobile by using the **Preview** option. Selecting **Desktop** opens the site in a new web browser tab. Scanning the QR code with your mobile device opens the site on the mobile web browser.
 
 :::image type="content" source="media/tour-maker-studio/preview-site.png" alt-text="The design studio GUI with preview menu options selected.":::
 

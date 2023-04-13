@@ -4,7 +4,7 @@ description: Learn how to add custom CSS to your Power Pages sites.
 author: ankitavish
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 10/17/2022
+ms.date: 02/21/2023
 ms.subservice:
 ms.author: avishwakarma 
 ms.reviewer: ndoelman
@@ -15,15 +15,15 @@ contributors:
 ---
 # Tutorial: Add custom CSS to your site
 
-The [Styling workspace](tutorial-style-site.md) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may wish to apply your own custom CSS themes.
+The [Styling workspace](tutorial-style-site.md) allows you to edit some of the theme features of your site, such as fonts and colors; however, you may apply your own custom CSS themes.
 
 You can create your own theme by defining a custom CSS file and uploading it to your site.  
 
-In this tutorial, you learn how to:
+In this tutorial, you'll learn how to:
 
 > [!div class="checklist"]
 > * Upload a custom CSS file
-> * Edit CSS is Visual Studio Code for the Web
+> * Edit CSS in Visual Studio Code for the Web
 
 ## Prerequisites
 
@@ -36,7 +36,11 @@ In this tutorial, you learn how to:
 
 ## Add custom CSS to your site
 
-In this example, we are going to add some custom CSS files that will allow us to add shadow effects to buttons on our website. You can use your own custom CSS file or use the sample provided.
+The following video shows you how to apply custom CSS code to your site.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
+
+In this example, we'll add some custom CSS files that will allow us to add shadow effects to buttons on our website. You can use your own custom CSS file or use the sample provided.
 
 1. To create a sample, in your favorite CSS editor, create the **button_shadow.css** custom theme file and save.
 
@@ -52,7 +56,7 @@ In this example, we are going to add some custom CSS files that will allow us to
 
 1. Open up the **Styling** workspace.
 
-1. Select a theme and select the **...** (ellipses) and select **Manage CSS**.
+1. Select a theme and select the **...** (ellipses), and then select **Manage CSS**.
 
     :::image type="content" source="media/tutorial/manage-css.png" alt-text="Open the manage CSS panel from Styling workspace.":::
 
@@ -62,11 +66,11 @@ In this example, we are going to add some custom CSS files that will allow us to
 
     :::image type="content" source="media/tutorial/button-shadow.png" alt-text="Button shadow effect from uploaded CSS file.":::
 
-1. You can disable, or move the order of your custom CSS files. The file listed last will take precedence over the others.
+1. You can disable or move the order of your custom CSS files. The file listed last will take precedence over the others.
 
     :::image type="content" source="media/tutorial/css-order.png" alt-text="Disable or move the order of the CSS file.":::
 
-1. You can directly edit a CSS file by selecting the ellipse (**...**) and selecting **Edit code**. This will open the [Visual Code for the Web](../configure/visual-studio-code-editor.md) editor. Select **CTRL-S** to save your changes. 
+1. You can edit a CSS file directly by selecting the ellipses (**...**) and  then selecting **Edit code**. This step will open the [Visual Code for the Web](../configure/visual-studio-code-editor.md) editor. Select **CTRL-S** to save your changes. 
 
     :::image type="content" source="media/tutorial/edit-css-vscode.png" alt-text="Edit the CSS file in Visual Studio Code for the Web.":::
 
@@ -76,4 +80,4 @@ In this example, we are going to add some custom CSS files that will allow us to
 
 > [!NOTE]
 >
-> To completely remove the custom theme; delete  the web file record in the [Portal Management app](../configure/portal-management-app.md).
+> To completely remove the custom theme delete  the web file record in the [Portal Management app](../configure/portal-management-app.md).

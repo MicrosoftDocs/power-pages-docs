@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 10/03/2022
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -45,7 +45,7 @@ Go-live checklist includes interactive tasks that guide you to review and comple
 
 ## Authentication
 
-Use **Identity providers** section to configure various authentication providers to allow access to protected pages and data. For more information, go to [Configure Power Pages authentication](../security/configure-portal-authentication.md).
+Use **Identity providers** section to configure various authentication providers to allow access to protected pages and data. For more information, go to [Configure Power Pages site authentication](../security/authentication/configure-site.md).
 
 ## Security
 

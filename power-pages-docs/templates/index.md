@@ -4,24 +4,24 @@ description: Learn the features of Power Pages templates.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
+ms.date: 3/21/2023
 ms.author: ndoelman
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
 ---
 
 # Power Pages templates
 
-When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a site design template to build your site, or you can choose scenario-based templates to accelerate creating your site.
+When you [create a new Power Pages site](../getting-started/create-manage.md), you can choose a starter layout template to build your site, or you can choose scenario-based templates to accelerate creating your site.
 
 :::image type="content" source="media/select-template.png" alt-text="Selection of templates when creating a new site.":::
 
-## Site design templates
+## Starter layout templates
 
-The **site design** templates provide building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
+The **starter layout** templates provide building blocks for you to create custom sites. There are multiple variations of this template, each with different layout, images, and colors that can be used as-is or customized to meet your needs.
 
-More information: [Site design templates](site-design.md)
+More information: [Starter layout templates](starter-layout.md)
 
 ## After school program registration template
 
@@ -37,9 +37,19 @@ More information: [Schedule meetings with a financial institution template](boo
 
 ## Building permit application template
 
-The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their application.
+The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their applications.
 
 More information: [Building permit application template](building-permit.md)
+
+## Frequently asked questions template
+
+>[!NOTE]
+> [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+The **frequently asked questions (FAQ)** template provides your target audience with answers to commonly asked questions. Information is organized with a topic, subtopic, and article framework. There is a no-code administrator experience for updating and organizing content.
+
+More information: [Frequently Asked Questions template](frequently-asked-questions.md)
 
 ## Blank page template
 

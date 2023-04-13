@@ -4,7 +4,7 @@ description: Learn how to use ALM in Power Pages.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/19/2022
+ms.date: 03/02/2023
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
@@ -22,9 +22,9 @@ Microsoft Power Platform CLI is a simple command line interface (CLI) that empow
 
 Power Pages supports Microsoft Power Platform CLI to enable CI/CD (Continuous Integration/Continuous Deployment) of website configuration. You can now check in the website configuration to source control and move website configuration to any environment using Microsoft Power Platform CLI.
  
-For detailed information on using the Microsoft Power Platform CLI for Power Pages website configuration, go to [Tutorial: Use Microsoft Power Platform CLI with portals](/power-apps/maker/portals/power-apps-cli-tutorial) in the Power Apps documentation.
+For detailed information on using the Microsoft Power Platform CLI for Power Pages website configuration, go to [Tutorial: Use Microsoft Power Platform CLI with Power Pages](power-platform-cli-tutorial.md).
 
-The Microsoft Power Platform CLI also supports [deployment profiles](/power-apps/maker/portals/power-apps-cli-tutorial#upload-the-changes-using-deployment-profile) to allow unique attributes to be applied to specific target environments.
+The Microsoft Power Platform CLI also supports [deployment profiles](power-platform-cli-tutorial.md#upload-the-changes-using-deployment-profile) to allow unique attributes to be applied to specific target environments.
 
 ## Microsoft Power Platform Build Tools for Azure DevOps
 

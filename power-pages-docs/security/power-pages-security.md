@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/03/2022
 ms.author: ndoelman
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -36,7 +36,7 @@ Users can be provided access to your site through authentication. Power Pages us
 
 Authenticated users can then be assigned to web roles that will provide specific access to information on the site.
 
-More information: [Configure Authentication](configure-portal-authentication.md)
+More information: [Configure Authentication](authentication/index.md)
 
 ## Web roles
 
@@ -70,8 +70,8 @@ The following white papers allow you to explore Power Pages architecture and sec
 
 | White paper | Description | Date |
 | - | - | - |
-| [Power Pages Architecture white paper](https://aka.ms/PowerPagesArchitecture) | This white paper provides a comprehensive view of the capabilities of the Power Pages platform. It describes the architectural elements that enable Power Pages to scale, offer high reliability and availability, and protect business data to offer enterprise grade compliance and security.  | October 2022 |
-| [Power Pages Security white paper](https://aka.ms/PowerPagesSecurity) | This white paper describes how Power Pages offers enterprise grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
+| [Power Pages Architecture white paper](/power-pages/guidance/white-papers/architecture) | This white paper provides a comprehensive view of the capabilities of the Power Pages platform. It describes the architectural elements that enable Power Pages to scale, offer high reliability and availability, and protect business data to offer enterprise grade compliance and security.  | October 2022 |
+| [Power Pages Security white paper](/power-pages/guidance/white-papers/security) | This white paper describes how Power Pages offers enterprise grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
 
 ### See also
 [Power Platform security](/power-platform/admin/security/)<br/>
