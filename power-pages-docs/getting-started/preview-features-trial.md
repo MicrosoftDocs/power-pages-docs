@@ -28,5 +28,5 @@ We’ll remove the current inline code editing experience and replace it with [V
 
 ## Frequently asked questions template
 
-The frequently asked questions (FAQ) template provides your target audience with answers to commonly asked questions.Information is organized with a topic, subtopic, and article framework. There is a no-code administrator experience for updating and organizing content.
+The frequently asked questions (FAQ) template provides your target audience with answers to commonly asked questions. Information is organized with a topic, subtopic, and article framework. There is a no-code administrator experience for updating and organizing content.
 
