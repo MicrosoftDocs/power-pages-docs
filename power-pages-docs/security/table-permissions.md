@@ -4,7 +4,7 @@ description: Learn how to set and manage table permissions.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/02/2022
+ms.date: 3/30/2023
 ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
@@ -151,6 +151,9 @@ To deactivate/activate or delete table permissions:
 
 ## Configure child permissions
 
+> [!NOTE]
+> Polymorphic lookups are not supported when configuring parent-child table permissions.
+
 To add a child permission to an existing table permission:
 
 1. In the design studio from the side menu, select **Set up**.
@@ -205,7 +208,7 @@ The following message is displayed when you try to save a table permission witho
 
 ### See also
 
-[Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
-[Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
-[Assign table permissions](assign-table-permissions.md)<br />
-[Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
+- [Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
+- [Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
+- [Assign table permissions](assign-table-permissions.md)<br />
+- [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)

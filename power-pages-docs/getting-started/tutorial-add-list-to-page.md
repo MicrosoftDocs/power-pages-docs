@@ -4,10 +4,10 @@ description: Learn how to add lists to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 11/03/2022
+ms.date: 3/10/2023
 ms.subservice:
 ms.author: ndoelman 
-ms.reviewer: 
+ms.reviewer:
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -112,13 +112,11 @@ Use the steps below to add a list to a web page so you can view information stor
     - Select **Add**.
     - Select **List**.
 
-    :::image type="content" source="media/tutorial/add-list.png" alt-text="Add a list.":::
-
 1. Fill in the details.
 
     - Choose the table and view you'd like from the dropdown menus.
     
-    :::image type="content" source="media/tutorial/add-list-details.png" alt-text="Fields for add a list window.":::
+        :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
 
 1. Select **Preview**.
 

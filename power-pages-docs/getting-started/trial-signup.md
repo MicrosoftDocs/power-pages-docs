@@ -3,7 +3,7 @@ title: "Sign up for a free trial - Power Pages | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Power Pages trial. Explore the app with tours and videos, and find more learning resources."
 author: sampatn
 ms.author: tbhagwat
-ms.date: 10/07/2022
+ms.date: 1/30/2023
 ms.topic: get-started
 ms.custom: template-trial-setup 
 ms.reviewer: ndoelman
@@ -30,7 +30,7 @@ Power Pages offers a free 30-day trial. After a quick sign-up, you'll have acces
 1. Review the available templates. For more details about each template, you can also hover over the template, and choose **Preview template**. And then, follow different views across devices to preview the template experience.
 
     > [!TIP]
-    > Prefer a template that best aligns to what you want to use your site for. If none of the business need templates match what you're looking for, choose one of the **Site design** templates with cross-industry solutions, or choose **Blank page** to customize the website from scratch.
+    > Prefer a template that best aligns to what you want to use your site for. If none of the business need templates match what you're looking for, choose one of the **Starter layout** templates with cross-industry solutions, or choose **Blank page** to customize the website from scratch.
 
 1. After you finalize the template of your choice, select **Choose this template**.
 
