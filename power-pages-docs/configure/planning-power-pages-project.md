@@ -97,7 +97,7 @@ Authenticated users on your site are represented by a corresponding contact reco
 
 ### Separate development from production
 
-While Power Pages offers the ability to install more than one site in each environment, we recommend creating a separate environment from production to create and test new features. For more information, see the [Go live checklist](../go-live/checklist.md).
+While Power Pages offers the ability to install more than one site in each environment, we recommend creating a separate environment from production to create and test new features. More information: [Go live checklist](../go-live/checklist.md)
 
 ### Conduct user testing
 
