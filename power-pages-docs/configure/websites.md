@@ -50,7 +50,7 @@ The websites record is created when you create a new Power Pages website. Advanc
 | Owner | The owner contact record for the selected Websites record.
 |Primary Domain Name|The primary domain name of the website to which this website record will be added.|
 |Parent Website\*|The parent website of the website. This field can generally be ignored, except in certain advanced website configurations in which a single website application is bound to one master website at the application root path, with one or more child websites available at specific sub-paths. <br>\* Only for backward compatibility, not to be used for new or existing websites. |
-| Header and Footer Templates | The [Web templates for headers and footers](liquid/store-content-web-templates.md#web-templates-as-page-templates) overriding global headers and footers.
+| Header and Footer Templates | The [Web templates for headers and footers](web-templates.md#web-templates-as-custom-page-layouts) overriding global headers and footers.
 | Supported Languages | The [supported languages](enable-multiple-language-support.md) for the selected websites record.
 
 ### See also

@@ -118,7 +118,7 @@ The details of the poll voting results are stored in Dataverse as **Poll Submiss
 
 ### See also
 
-- [Portals Management app](portals-management-app.md)  
+- [Portal Management app](portal-management-app.md)  
 - [About lists](lists.md)  
 - [Create and run advertisements](create-run-advertisement.md)  
 - [Rate or vote on a webpage](rate-webpage.md)  

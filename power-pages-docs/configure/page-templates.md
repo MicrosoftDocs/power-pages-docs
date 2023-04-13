@@ -26,7 +26,7 @@ A page template will determine whether the webpage will use an .aspx page or a w
 
 Creating a new page template is necessary to point to a new or existing web template that has been developed as a custom page layout. See [Tutorial: Add custom page layout to your site](../getting-started/tutorial-add-custom-page-layout.md) for a complete tutorial on creating custom page layouts.
 
-1. Open the [Portal Management app](configure-portal.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 2. Go to **Websites** > **Page Templates**.
 

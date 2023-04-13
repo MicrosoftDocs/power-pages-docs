@@ -22,7 +22,7 @@ Use shortcuts to place child nodes throughout your website's sitemap that simply
 
 Creating, editing, and deleting shortcuts can be done within Power Pages.
 
-1. Open the [Portals Management app](portals-management-app.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 2. Go to **Content** &gt; **Shortcuts**. 
 

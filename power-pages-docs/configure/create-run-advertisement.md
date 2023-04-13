@@ -91,7 +91,7 @@ The Ad Table has the following attributes:
 |   Image Alt Text   |                                                                                                                                                                                  Alt Text for the image. This field is not required but is recommended to ensure that the rendered ad is valid and accessible HTML.                                                                                                                                                                                  |
 
 > [!IMPORTANT]
-> Image file attachments to ad records are not downloaded using the [Power Platform CLI](../power-apps-cli.md). As a workaround, use the **Image URL** field, or by adding an HTML reference in the **Copy** field to a [web file](web-files.md) record containing an image file.
+> Image file attachments to ad records are not downloaded using the [Power Platform CLI](power-platform-cli.md). As a workaround, use the **Image URL** field, or by adding an HTML reference in the **Copy** field to a [web file](web-files.md) record containing an image file.
 
 ### See also
 

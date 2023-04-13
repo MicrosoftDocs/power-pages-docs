@@ -151,7 +151,7 @@ For a user who upgraded to a newer version of Power Pages, output caching is dis
 
 **Step 3: Update the Languages Dropdown web template**
 
-1. Open the [Portal Management app](configure-portal.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 1. Go to **Website** > **Web Templates**.
 

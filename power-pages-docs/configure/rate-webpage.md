@@ -18,11 +18,14 @@ contributors:
 
 Ratings provide users with the ability to rate or vote on a webpage. Ratings can also be enabled for comments on pages. By default, this feature is disabled, but it can be enabled on a page-by-page basis.
 
+> [!NOTE]
+> The feature is only available using the **TBD** page templates in the [Dynamics 365 templates](../templates/dynamics-365-templates.md)
+
 Ratings are custom activities, and can be used in the same way as any other activity such as emails, phone calls, and so on. Because ratings are activities, by using customization you can have ratings appear for any table you choose that appears and is rendered on the website, including custom tables.
 
 ## Enable ratings for pages
 
-1. Open the [Portals Management app](portals-management-app.md).
+1. Open the [Portals Management app](portal-management-app.md).
 
 2. Go to **Content** > **Web Pages**.
 
@@ -42,7 +45,7 @@ For webpages that have page ratings enabled, users can rate the page by using th
 
 The ratings for webpages can be viewed, modified, or deleted within Power Pages.
 
-1. Open the [Portal Management app](portals-management-app.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 1. Navigate to the **Web page** that you're interested in seeing the ratings for.
 

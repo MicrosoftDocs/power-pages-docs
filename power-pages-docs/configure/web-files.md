@@ -25,7 +25,7 @@ To store the actual contents of a given file, Power Pages uses the attachment fe
 
 Web files can be created, edited, and deleted within Power Pages.
 
-1. Open the [Portal Management app](portals-management.md).
+1. Open the [Portal Management app](./portal-management-app.md).
 
 1. Go to **Content** > **Web Files**.
 
@@ -60,7 +60,7 @@ The table below explains many of the standard web file attributes used by Power 
 | Display Order       | An integer value indicating the order in which the file will be placed, relative to other tables with the same Parent Page. This controls the ordering of files and other site map tables when, for example, a list of links to the child tables of a given page are rendered on the website.      |
 | Cloud Blob Address  | A text value in the format `<container>/<filename>`, indicating that the content for this file is stored in Azure Blob Storage.        |
 | Content-Disposition | Options are inline or attachment. If inline is specified, the browser should attempt to render it within the browser window and if it can't, it will prompt the user to download or open the file. If attachment is specified, it will immediately prompt the user to download or open the file, and not try to load it in the browser, whether it can or not.                                                                                        |
-| Enable Tracking (Deprecated)     | If enabled, every request for this web file will be logged. A Web File Log record will be created with the date & time, IP Address, and the contact record if the user is authenticated. Web file tracking is deprecated. For more information, go to [Web file tracking FAQ](../admin/site-checker-analysis.md#web-file-tracking-enabled).     |
+| Enable Tracking (Deprecated)     | This feature is deprecated and no longer functional. |
 |||
 
 ## Add a download link

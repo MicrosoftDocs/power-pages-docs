@@ -26,7 +26,7 @@ By default, two publishing states are available: **Draft** and **Published**. Dr
 
 Publishing states can be created, edited, and deleted within Power Pages.
 
-1. Open the [Portal Management app](portals-management-app.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 1. Go to **Website** > **Websites**.
 
@@ -80,7 +80,7 @@ To be precise, publishing state transition rules govern the transitions between 
 
 If the logged-in user who is attempting the change is in any of the roles you assign to the rule, the transition will be successful. If a user doesn't have permissions to make a change from one rule to another, then the front-side editing won't allow them to make that change. Instead, you can create the rule; then as you create web roles add the rule to the web roles. One rule can be associated with any number of web roles and the other way around.
 
-1. Open the [Portal Management app](portals-management-app.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 1. Go to **Websites** > **Publishing State Transition Rules**.
 
@@ -100,7 +100,7 @@ If the logged-in user who is attempting the change is in any of the roles you as
 
 ## State-based control rules
 
-[Web page access control rules](webpage-access-control.md) can be linked with publishing states to allow or deny the right to view or modify content based on the branch of the website and the publishing state of content within that branch. To accomplish this task, associate a web page access control rule with a publishing state. Once it's associated with a publishing state, the rule will only be applied to web pages when that publishing state is active.
+[Webpage security](../security/page-security.md) can be linked with publishing states to allow or deny the right to view or modify content based on the branch of the website and the publishing state of content within that branch. To accomplish this task, associate a web page access control rule with a publishing state. Once it's associated with a publishing state, the rule will only be applied to web pages when that publishing state is active.
 
 For example, say you wanted someone in the content publishing role who can modify a page's content, but only when that page is in Draft mode. This scenario would ensure that changes to the page aren't done while the page is 'live' and would allow for an approval process to be undertaken on pending changes.
 

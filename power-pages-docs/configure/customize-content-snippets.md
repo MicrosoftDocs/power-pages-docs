@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/11/2023
+ms.date: 04/13/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -45,7 +45,7 @@ Enter values for the following fields:
 
 ## Use snippet
 
-You can use snippets to show text or HTML. The content snippets can also use [liquid objects](../liquid/liquid-objects.md), and reference other content such as [entities](liquid/liquid-objects.md#entities).
+You can use snippets to show text or HTML. The content snippets can also use [liquid objects](liquid/liquid-objects.md), and reference other content such as [entities](liquid/liquid-objects.md#entities).
 
 For example, you can use the steps explained earlier in this article to create/edit a content snippet. While editing the snippet, you can include sample code to [a record](liquid/liquid-objects.md#entities). Ensure you replace the ID of the **Account** table record with the correct ID from your environment. You can also use another table instead of **Account**.
 

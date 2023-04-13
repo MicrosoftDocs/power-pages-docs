@@ -24,7 +24,7 @@ The website site navigation can also be managed using the Power Pages [design st
 
 The following document outlines how web links sets can be managed using the Portals Management app.
 
-1. Open the [Portals Management app](portals-management-app.md).
+1. Open the [Portal Management app](portal-management-app.md).
 
 1. Go to **Content** > **Web Link Sets**.
 
@@ -60,7 +60,7 @@ You can also create a custom menu to display on the website by creating custom [
 
 See [Create site structure](../getting-started/structure-site.md) for more information on managing the default menu in the Power Pages design studio.
 
-If you change the web link set using the [Portal Management app](configure-portal.md), but before you make any changes to the site structure, you should select **Sync Configuration** to see the changes to the navigation menu.
+If you change the web link set using the [Portal Management app](portal-management-app.md), but before you make any changes to the site structure, you should select **Sync Configuration** to see the changes to the navigation menu.
 
 > [!IMPORTANT]
 > Direct changes to the **Default** web link set using the Portal Management app is not supported. To customize your website's navigation menu using the Portal Management app, create a new web link set or customize a different web link set. 
