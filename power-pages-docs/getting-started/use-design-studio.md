@@ -48,7 +48,7 @@ While working on designing and building your page, you can switch to the [code e
 
 ## Preview your site
 
-When you're done building, preview your site by using the **Preview** option. You can preview it on desktop or mobile. Selecting **Desktop** opens the site in a new web browser tab. Scanning the QR code with your mobile device opens the site on the mobile web browser.
+When you're done building, preview your site on desktop or mobile by using the **Preview** option. Selecting **Desktop** opens the site in a new web browser tab. Scanning the QR code with your mobile device opens the site on the mobile web browser.
 
 :::image type="content" source="media/tour-maker-studio/preview-site.png" alt-text="The design studio GUI with preview menu options selected.":::
 
