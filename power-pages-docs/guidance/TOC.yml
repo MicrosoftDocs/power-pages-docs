@@ -9,3 +9,7 @@
           href: white-papers/architecture.md
         - name: Security white paper
           href: white-papers/security.md
+    - name: Integration
+      items:
+        - name: "How to: Embed a chatbot on a webpage"
+          href: integrate-pva.md                 
