@@ -70,7 +70,7 @@ Your trial includes a trial environment. You can create secure, scalable busines
 
 ## Can I create a trial site inside my existing environments?
 
-If you already have [the necessary privileges](/power-apps/maker/portals/admin/portal-admin-roles) to create or edit a site in an environment, you can create a trial site inside of the existing environments too. 
+If you already have the [necessary privileges](/power-apps/maker/portals/admin/portal-admin-roles) to create or edit a site in an environment, you can create a trial site inside of the existing environments too. 
 
 ## How long does the trial last?
 
