@@ -93,7 +93,6 @@ In our example, we'll create a Dataverse table called *Applications* for our pro
 
     :::image type="content" source="media/tutorial-multistep-forms/create-table.png" alt-text="Creating a table to use with multistep forms in Data workspace.":::
 
-
 1. Once you've created the tables, you'll need to create forms for each step of your process. 
 
     > [!TIP]
@@ -131,7 +130,6 @@ This video shows how to create a multistep form on a page.
     If other multistep forms exist on your site, you'll be given the option to add them to your page. In our example, we'll create a new multistep form for our tutorial, Select **+ New multistep form** from the dialog.
 
 1. You'll see the **Add a multistep** form window. Enter in **Application** (or other name) for the **Form name**. Select **OK**.
-
 
 1. There will be no steps in the form. Select **+ Add the first step** to add the first step.
 
