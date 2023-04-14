@@ -25,7 +25,11 @@
         - name: Create sites using templates
           href: templates/index.md
         - name: Starter layout templates
-          href: templates/starter-layout.md
+          items:
+            - name: Overview
+              href: templates/starter-layout.md
+            - name: Blank page template
+              href: templates/blank.md
         - name: Industry pattern templates
           items:
             - name: Application processing
@@ -38,8 +42,6 @@
               href: templates/book-a-meeting.md
         - name: Dynamics 365 templates
           href: templates/dynamics-365-templates.md
-        - name: Blank page template
-          href: templates/blank.md
     - name: Manage sites
       href: admin/manage-sites.md
     - name: Learning hub
