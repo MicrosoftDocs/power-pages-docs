@@ -93,7 +93,7 @@ Users can select **Edit** option from the Power Pages home page site card to ope
 > [!NOTE]
 > Editing new data model site using design studio will work same as existing data model site without any functionality gaps.  
 
-## Edit site using the Power Page Management app
+## Edit site using the Power Pages Management app
 
 Users can select the **Portals management app** option from the Power Pages home site card to open the **Power Pages management** application.  Select **…** followed by **Portal management**.
 
