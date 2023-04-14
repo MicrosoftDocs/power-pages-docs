@@ -329,7 +329,7 @@
     - name: Power Pages ALM
       href: configure/portals-alm.md
     - name: Using solutions with Power Pages  
-    - name: configure/power-pages-solutions.md  
+      href: configure/power-pages-solutions.md  
 - name: Secure Power Pages
   items:
     - name: Overview
