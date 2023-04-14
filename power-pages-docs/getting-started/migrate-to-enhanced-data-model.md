@@ -63,35 +63,19 @@ If you get the message `Some data are not uploading properly` then try re-runnin
 
 ## Migrate standard data model site's non-configuration data to enhanced data model 
 
-1.  Navigate to Power apps home [<u>https://make.powerapps.com/</u>](https://make.powerapps.com/))  
+1. Navigate to the [Power apps](https://make.powerapps.com) home page.  
 
-<!-- -->
+1. In the **Apps** section, open the **Power Pages Management app** 
 
-2.  Open "Power Pages management App" application 
+1. Under **Website**, select **Websites** and open the website record for which the non-configuration data need to be migrated.  
 
-![Graphical user interface Description automatically generated](media/image29.png)
+1. Select the **Migrate relationships** option from the command bar. 
 
+1. You'll see **App level migration in-progress** notification.  
 
+1. You will see **App level notification** once the migration is successfully completed. 
 
-
-
-3.  Open website record for which the non-configuration data need to be migrated.  
-
-<!-- -->
-
-4.  Click on the button "Migrate relationships" from the command bar. 
-
-![Graphical user interface  application  email Description automatically generated](media/image30.png)
-
-5.  You will see App level migration in- progress notification.  
-
-![A screenshot of a computer Description automatically generated](media/image31.png)
-
-6.  You will see App level notification once the migration is successfully completed. 
-
-![A screenshot of a computer Description automatically generated](media/image32.png)
-
-7.  In case failures click on command again, still doesn't resolve raise issue [<u>here</u>](https://forms.office.com/r/brVdDU8sfd). 
+1. In case failures select the command again. 
 
 ## What consists of configuration data for a website? 
 
