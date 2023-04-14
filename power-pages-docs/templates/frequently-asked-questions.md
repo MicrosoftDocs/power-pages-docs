@@ -4,7 +4,7 @@ description: Learn about the Frequently Asked Questions template.
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/12/2023
+ms.date: 4/14/2023
 ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: kkendrick
@@ -23,7 +23,6 @@ The Frequently Asked Questions template provides your target audience with answe
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - This template is being rolled out across regions, and may not be available in your region yet.
 
 ## Users
 
