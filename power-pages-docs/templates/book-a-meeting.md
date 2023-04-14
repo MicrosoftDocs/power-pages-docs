@@ -1,6 +1,6 @@
 ---
 title: Schedule and manage meetings template
-description: Learn about the Schedule and manage meetings template
+description: Learn about the schedule and manage meetings template.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -15,7 +15,7 @@ contributors:
 
 # Schedule and manage meetings template
 
-Schedule and manage meetings is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative. The scheduling principle will apply to any industry or organization looking to stand up a scheduling portal.
+Schedule and manage meetings is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative. The scheduling principle will apply to any industry or organization looking to stand up a scheduling website.
 
 :::image type="content" source="media/meeting.png" alt-text="The Schedule and manage meetings landing page in the design studio."::: 
 

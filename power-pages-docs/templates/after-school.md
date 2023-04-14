@@ -1,6 +1,6 @@
 ---
 title: Program registration template
-description: Learn about the Program registration template
+description: Learn about the program registration template.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
@@ -15,9 +15,9 @@ contributors:
 
 # Program registration template
 
-The Program registration template is designed to show you the capabilities of a registration site. We've chosen the example of registering for Program registration classes. This template might be useful for any industry or organization wishing to create a registration portal.
+The program registration template is designed to show you the capabilities of a registration site. We've chosen the example of registering for registering for after school classes. This template might be useful for any industry or organization wishing to create a registration portal.
 
-:::image type="content" source="media/school.png" alt-text="The Program registration template landing page.":::
+:::image type="content" source="media/school.png" alt-text="The program registration template landing page.":::
 
 ## Users
 

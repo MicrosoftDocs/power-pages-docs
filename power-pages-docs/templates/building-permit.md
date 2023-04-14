@@ -1,6 +1,6 @@
 ---
 title: Application processing template
-description: Learn about the Application processing template.
+description: Learn about the application processing template.
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
@@ -15,9 +15,9 @@ contributors:
 
 # Application processing template
 
-The Application processing template is designed to show you the capabilities of an application submission site. We've chosen the example of a Application processing site. This template might be useful for any industry or organization wishing to create an application submission portal.
+The application processing template is designed to show you the capabilities of an application submission site. We've chosen the example of a building permit application site. This template might be useful for any industry or organization wishing to create an application submission portal.
 
-:::image type="content" source="media/permit.png" alt-text="The Application processing template landing page in the design studio.":::
+:::image type="content" source="media/permit.png" alt-text="The application processing template landing page in the design studio.":::
 
 ## Users
 
