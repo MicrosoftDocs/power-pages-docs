@@ -30,12 +30,12 @@
           items:
             - name: Application processing
               href: templates/building-permit.md
-            - name: FAQ (preview)
-              href: templates/frequently-asked-questions.md
             - name: Program registration
               href: templates/after-school.md
             - name: Schedule and manage meetings
               href: templates/book-a-meeting.md
+        - name: FAQ template (preview)
+          href: templates/frequently-asked-questions.md
         - name: Dynamics 365 templates
           href: templates/dynamics-365-templates.md
         - name: Blank page template
