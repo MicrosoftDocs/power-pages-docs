@@ -6,6 +6,16 @@
       href: introduction.md
     - name: Power Pages capabilities
       href: capabilities.md
+    - name: Understand Power Pages architecture
+      items:
+        - name: Power Pages architecture
+          href: admin/architecture.md
+        - name: Power Pages lifecycle
+          href: admin/lifecycle.md
+        - name: Understand how Power Pages connects to Dataverse
+          href: admin/connectivity.md
+        - name: Understand and clear server-side cache
+          href: admin/clear-server-side-cache.md       
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
