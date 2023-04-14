@@ -63,7 +63,7 @@ Once the solution is imported, it will appear under solutions list.
 
 ## Binding enhanced data model website record to a site
 
-1. Navigate to the [Power Platform admin center](hhtps://aka.ms/ppac)
+1. Navigate to the [Power Platform admin center](https://aka.ms/ppac)
 
 1. Select the destination environment
 

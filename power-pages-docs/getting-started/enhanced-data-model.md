@@ -51,7 +51,7 @@ When new data model packages (**Power Pages Core**) updates are available, you'l
 
 Select the package and then select **Update** to install the latest packages. 
 
-The **Update** option will be enabled once the new package is available. See [Update the Power Pages solution](../admin/update-solution.md#view-portals-package-details). 
+The **Update** option will be enabled once the new package is available. See [Update the Power Pages solution](../admin/update-solution.md#view-package-details). 
 
 ## Create a website with an enhanced data model 
 
@@ -82,7 +82,7 @@ The new data model sites are at functional parity, so there are no UI indicators
 
 You can view a list of the available sites in the Power Pages home page **Active sites** section. This list shows sites that are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
 
-# Editing newly created site on new data model  
+## Editing newly created site on new data model  
 
 Site that is created on new data model will have functional parity with classic data model and users can use [Power Pages design studio](use-design-studio.md) or [Power Pages management application](../configure/portal-management-app.md) for customization.  
 
