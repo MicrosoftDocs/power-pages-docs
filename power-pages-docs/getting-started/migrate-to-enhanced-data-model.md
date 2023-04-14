@@ -1,6 +1,6 @@
 ---
 title: Migrate to new enhanced data model
-description: Learn how to migrate existing websites to teh new enhanced data model
+description: Learn how to migrate existing websites to the new enhanced data model
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
@@ -46,7 +46,7 @@ Install the Power Platform CLI tools on your workstation. See [Microsoft Power P
     > [!NOTE]
     > Make sure to upload data in the correct org.
 
-If the data is not uploaded, there are two possible scenarios:
+If the data isn't uploaded, there are two possible scenarios:
 
 If you get the message `0 entities modified since download`, follow the below steps:  
 
@@ -63,7 +63,7 @@ If you get the message `Some data are not uploading properly` then try re-runnin
 
 ## Migrate standard data model site's non-configuration data to enhanced data model 
 
-1. Navigate to the [Power apps](https://make.powerapps.com) home page.  
+1. Navigate to the [Power Apps](https://make.powerapps.com) home page.  
 
 1. In the **Apps** section, open the **Power Pages Management app** 
 
@@ -73,7 +73,7 @@ If you get the message `Some data are not uploading properly` then try re-runnin
 
 1. You'll see **App level migration in-progress** notification.  
 
-1. You will see **App level notification** once the migration is successfully completed. 
+1. You'll see **App level notification** once the migration is successfully completed. 
 
 1. In case failures select the command again. 
 
@@ -87,7 +87,7 @@ Configuration data represents site data and is stored in the following tables. 
 
 ## What consist of non-configuration data for a website? 
 
-Records which are part of non-configuration tables. 
+Records that are part of non-configuration tables. 
 
 | Non-configuration tables |  |
 |-------------------------|-------------------------|
@@ -113,17 +113,17 @@ Data stored as part of relationships between non metadata and metadata tables.
 
 You should use solutions.
 
-### What is best practice when you are migrating a Power Pages website using solutions? 
+### What is best practice when you're migrating a Power Pages website using solutions? 
 
 Refer to [Overview of application lifecycle management with Microsoft Power Platform](/power-platform/alm/overview-alm) for best practices.
 
 ### After importing site configuration data in a managed solution I edited my website in the target environment. I don't see any new changes when I import managed solutions from my source environment.
 
-Editing the site configuration data in the target environment is discouraged as it will result in the creation of an unmanaged layer and changes from the source will not reflect in the target. To fix it in the target environment user needs to remove the unmanaged solution layer. See [Solution layers](/power-platform/alm/solution-layers-alm) for more information.
+Editing the site configuration data in the target environment is discouraged as it will result in the creation of an unmanaged layer and changes from the source won't reflect in the target. To fix it in the target environment user needs to remove the unmanaged solution layer. See [Solution layers](/power-platform/alm/solution-layers-alm) for more information.
 
 ### When we upgrade to the new data model, do we physically delete the tables at the end of the migration? 
 
-The process migrates the data from the standard data model tables to the new enhanced model tables. Data is not deleted from the existing standard data model tables.  
+The process migrates the data from the standard data model tables to the new enhanced model tables. Data isn't deleted from the existing standard data model tables.  
 
 Once the migration is completed and stable, you can remove legacy portal solutions manually after making a backup of your Power Platform environment. 
 
@@ -133,13 +133,13 @@ New websites created using the enhanced data model can be edited using the new P
 
 ## Known issues
 
-1. Editing of company logo and header from the design studio is not supported on new data model.
+1. Editing of company logo and header from the design studio isn't supported on new data model.
 
-1. Dataverse dependency addition to solution is not available.
+1. Dataverse dependency addition to solution isn't available.
 
-1. Enable traffic analysis is not available for websites using the enhanced data model.
+1. Enable traffic analysis isn't available for websites using the enhanced data model.
 
-1. You cannot configure canvas and model driven Power Apps on the Power Pages solution explorer.
+1. You can't configure canvas and model driven Power Apps on the Power Pages solution explorer.
 
 1. The preview capabilities of the design studio may have some missing styling and images.
 

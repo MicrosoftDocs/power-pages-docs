@@ -19,7 +19,7 @@ Using solutions with Power Pages allows to contain and transport all website con
 
 ## Prerequisites
 
-To try this feature, you will require two Power Platform environments that have the enhanced data model enabled, one designated as the source and the other as the target. See [Power Pages enhanced data model](../getting-started/enhanced-data-model.md) to enable the enhanced data model for an environment.
+To try this feature, you'll require two Power Platform environments that have the enhanced data model enabled, one designated as the source and the other as the target. See [Power Pages enhanced data model](../getting-started/enhanced-data-model.md) to enable the enhanced data model for an environment.
 
 Each environment will required a site that is created using the new data model. See [create a website with an enhanced data model](../getting-started/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
 
@@ -29,7 +29,7 @@ Each environment will required a site that is created using the new data model. 
 
 :::image type="content" source="media/solutions/power-pages-home-solutions.png" alt-text="Solutions on Power Pages home page.":::
 
-1. Create a new solution using the new solution command on the command bar. Fill in the solution details and click **Create** to create the new solution. 
+1. Create a new solution using the new solution command on the command bar. Fill in the solution details and select **Create** to create the new solution. 
 
 1. Navigate to the solution.
 

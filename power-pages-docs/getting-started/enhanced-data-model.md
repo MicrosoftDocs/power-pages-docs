@@ -31,7 +31,7 @@ Follow these steps to enable the new data model for a specific environment.  
 
 1. Select **Environments**
 
-1. Select the environment which you want to enable the new data model. 
+1. Select the environment that you want to enable the new data model. 
 
 1. Select **Power Pages sites** under the **Resources** tile. 
 
@@ -39,15 +39,15 @@ Follow these steps to enable the new data model for a specific environment.  
 
 :::image type="content" source="media/enhanced-data-model/switch-to-enhanced-data-model.png" alt-text="Switch to enhanced data model.":::
 
-This will start installation of the **Power Pages Core** package. You will see a message once completed.
+This will start installation of the **Power Pages Core** package. You'll see a message once completed.
 
 :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Updated packages installed.":::
 
-You can opt-out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. 
+You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. 
 
 ## Update enhanced data model packages 
 
-When new data model packages (**Power Pages Core**) updates are available, you will see a message in the Power Platform admin center.
+When new data model packages (**Power Pages Core**) updates are available, you'll see a message in the Power Platform admin center.
 
 Select the package and then select **Update** to install the latest packages. 
 
@@ -55,7 +55,7 @@ The **Update** option will be enabled once the new package is available. See [Up
 
 ## Create a website with an enhanced data model 
 
-You can create a new site using Power Pages home page with the new data model once it is enabled for an environment.
+You can create a new site using Power Pages home page with the new data model once it's enabled for an environment.
 
 > [!NOTE]
 > The new site will be created using the new data model only if it is supported by the selected template. Currently, only the [Blank template](../templates/blank.md) supports the new data model.
@@ -70,7 +70,7 @@ Create site using **Blank template** using the new data model:
 
 1. Fill in the required information and select **Done**.  
 
-You will be redirected to the Power pages home page, and the new site will appear in the **My sites** list. You can edit the site using Power Pages design studio when the site is ready.
+You'll be redirected to the Power pages home page, and the new site will appear in the **My sites** list. You can edit the site using Power Pages design studio when the site is ready.
 
 ## See list of new data model sites 
 
@@ -80,11 +80,11 @@ The new data model sites are at functional parity, so there are no UI indicators
 
 :::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::
 
-You can view a list of the available sites in the Power Pages home page **Active sites** section. This list shows sites which are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
+You can view a list of the available sites in the Power Pages home page **Active sites** section. This list shows sites that are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
 
 # Editing newly created site on new data model  
 
-Site which is created on new data model will have functional parity with classic data model and users can use [Power Pages design studio](use-design-studio.md) or [Power Pages management application](../configure/portal-management-app.md) for customization.  
+Site that is created on new data model will have functional parity with classic data model and users can use [Power Pages design studio](use-design-studio.md) or [Power Pages management application](../configure/portal-management-app.md) for customization.  
 
 ## Edit site using the Power Pages design studio
 
