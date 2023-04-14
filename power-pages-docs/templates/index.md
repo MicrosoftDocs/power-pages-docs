@@ -41,11 +41,7 @@ The **building permit application** template is designed to show you the capabil
 
 More information: [Building permit application template](building-permit.md)
 
-## Frequently asked questions template
-
->[!NOTE]
-> [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+## Frequently asked questions template (preview)
 
 The **frequently asked questions (FAQ)** template provides your target audience with answers to commonly asked questions. Information is organized with a topic, subtopic, and article framework. There is a no-code administrator experience for updating and organizing content.
 
