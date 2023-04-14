@@ -44,7 +44,9 @@ Each Power Pages production website comes configured with an Azure traffic manag
 
 ### Application Servers
 
-Each Power Pages production websites consists of at least two application server nodes hosted in different Azure Data center regions to provide high availability and disaster recovery. Azure Traffic manager constantly monitors these nodes and direct traffic to the node that is available. Location of Azure Data center region determines the location of the Power Platform environment to which the site belongs. For example: If the environment location is Europe, then application servers would be in North Europe and West Europe data centers. Primary region of a site is determined by the primary region of the Power Platform organization to keep minimal latency between Dataverse and the website. Scaling of these application servers is done automatically based on the Power Pages licensing capacity assigned to the environment.
+Each Power Pages production websites consists of at least two application server nodes hosted in different Azure Data center regions to provide high availability and disaster recovery. Azure Traffic manager constantly monitors these nodes and direct traffic to the node that is available. Location of Azure Data center region determines the location of the Power Platform environment to which the site belongs. 
+
+For example: If the environment location is Europe, then application servers would be in North Europe and West Europe data centers. Primary region of a site is determined by the primary region of the Power Platform organization to keep minimal latency between Dataverse and the website. Scaling of these application servers is done automatically based on the Power Pages licensing capacity assigned to the environment.
 
 ### Dataverse
 
