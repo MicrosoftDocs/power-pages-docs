@@ -260,52 +260,52 @@
               href: configure/configure-multistep-form-subgrid.md
             - name: Add geolocation
               href: configure/add-geolocation.md
-          - name: Add chart on a web page in portal
-            href: configure/add-chart.md    
-          - name: Enable multiple languages
-            items:
-            - name: Enable multiple-language support
-              href: configure/enable-multiple-language-support.md
-            - name: Behavior and format of the Duration, Date and Time fields
-              href: configure/behavior-format-date-time-field.md
-          - name: Setup HTTP headers
-            href: configure/cors-support.md
-          - name: Configure advertisements
-            href: configure/create-run-advertisement.md
-          - name: Configure choices column 
-            href: configure/choices-column.md          
-          - name: Configure content snippets
-            href: configure/customize-content-snippets.md
-          - name: Configure file column
-            href: configure/file-column.md
-          - name: Configure header and footer output caching
-            href: configure/enable-header-footer-output-caching.md
-          - name: Configure image column
-            href: configure/image-column.md         
-          - name: Configure page templates
-            href: configure/page-templates.md
-          - name: Configure polls
-            href: configure/gather-feedback-poll.md
-          - name: Configure publishing states
-            href: configure/publishing-states.md
-          - name: Configure shortcuts
-            href: configure/place-child-nodes.md
-          - name: Configure website redirects
-            href: configure/add-redirect-url.md
-          - name: Configure webpage ratings
-            href: configure/rate-webpage.md
-          - name: Configure web files
-            href: configure/web-files.md
-          - name: Configure web links
-            href: configure/manage-web-links.md
-          - name: Configure webpages
-            href: configure/web-page.md
-          - name: Configure websites
-            href: configure/websites.md
-          - name: Configure website bindings
-            href: configure/website-bindings.md
-          - name: View activities in a form timeline
-            href: configure/view-all-activities-in-portal-timeline.md
+      - name: Add chart on a web page in portal
+        href: configure/add-chart.md    
+      - name: Enable multiple languages
+        items:
+        - name: Enable multiple-language support
+          href: configure/enable-multiple-language-support.md
+        - name: Behavior and format of the Duration, Date and Time fields
+          href: configure/behavior-format-date-time-field.md
+      - name: Setup HTTP headers
+        href: configure/cors-support.md
+      - name: Configure advertisements
+        href: configure/create-run-advertisement.md
+      - name: Configure choices column 
+        href: configure/choices-column.md          
+      - name: Configure content snippets
+        href: configure/customize-content-snippets.md
+      - name: Configure file column
+        href: configure/file-column.md
+      - name: Configure header and footer output caching
+        href: configure/enable-header-footer-output-caching.md
+      - name: Configure image column
+        href: configure/image-column.md         
+      - name: Configure page templates
+        href: configure/page-templates.md
+      - name: Configure polls
+        href: configure/gather-feedback-poll.md
+      - name: Configure publishing states
+        href: configure/publishing-states.md
+      - name: Configure shortcuts
+        href: configure/place-child-nodes.md
+      - name: Configure website redirects
+        href: configure/add-redirect-url.md
+      - name: Configure webpage ratings
+        href: configure/rate-webpage.md
+      - name: Configure web files
+        href: configure/web-files.md
+      - name: Configure web links
+        href: configure/manage-web-links.md
+      - name: Configure webpages
+        href: configure/web-page.md
+      - name: Configure websites
+        href: configure/websites.md
+      - name: Configure website bindings
+        href: configure/website-bindings.md
+      - name: View activities in a form timeline
+        href: configure/view-all-activities-in-portal-timeline.md
     - name: Search Configuration
       items:
         - name: Search overview
