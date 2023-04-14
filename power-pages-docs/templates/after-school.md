@@ -15,7 +15,7 @@ contributors:
 
 # Program registration template
 
-The program registration template is designed to show you the capabilities of a registration site. We've chosen the example of registering for after school classes. This template might be useful for any industry or organization wishing to create a registration portal.
+The program registration template is designed to show you the capabilities of a registration site. We've chosen the example of registering for after school classes. This template might be useful for any industry or organization wishing to create a registration website.
 
 :::image type="content" source="media/school.png" alt-text="The program registration template landing page.":::
 
