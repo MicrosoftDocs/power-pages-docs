@@ -26,14 +26,16 @@
           href: templates/index.md
         - name: Starter layout templates
           href: templates/starter-layout.md
-        - name: After school template
-          href: templates/after-school.md
-        - name: Book a meeting template
-          href: templates/book-a-meeting.md
-        - name: Building permit template
-          href: templates/building-permit.md
-        - name: FAQ template (preview)
-          href: templates/frequently-asked-questions.md
+        - name: Industry solutions templates
+          items:
+            - name: Application processing template
+              href: templates/building-permit.md
+            - name: FAQ template (preview)
+              href: templates/frequently-asked-questions.md
+            - name: Program registration template
+              href: templates/after-school.md
+            - name: Schedule and manage meetings template
+              href: templates/book-a-meeting.md
         - name: Dynamics 365 templates
           href: templates/dynamics-365-templates.md
         - name: Blank page template

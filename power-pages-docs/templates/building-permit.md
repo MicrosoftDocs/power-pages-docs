@@ -1,10 +1,10 @@
 ---
-title: Building permit application template
-description: Learn about the building permit application template.
+title: Application processing template
+description: Learn about the Application processing template.
 author: deepa88 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
+ms.date: 04/14/2023
 ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: kkendrick
@@ -13,11 +13,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Building permit application template
+# Application processing template
 
-The Building Permit Application template is designed to show you the capabilities of an application submission site. We've chosen the example of a building permit application site. This template might be useful for any industry or organization wishing to create an application submission portal.
+The Application processing template is designed to show you the capabilities of an application submission site. We've chosen the example of a Application processing site. This template might be useful for any industry or organization wishing to create an application submission portal.
 
-:::image type="content" source="media/permit.png" alt-text="The Building Permit Application template landing page in the design studio.":::
+:::image type="content" source="media/permit.png" alt-text="The Application processing template landing page in the design studio.":::
 
 ## Users
 
