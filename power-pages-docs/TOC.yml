@@ -28,13 +28,13 @@
           href: templates/starter-layout.md
         - name: Industry solutions templates
           items:
-            - name: Application processing template
+            - name: Application processing
               href: templates/building-permit.md
-            - name: FAQ template (preview)
+            - name: FAQ (preview)
               href: templates/frequently-asked-questions.md
-            - name: Program registration template
+            - name: Program registration
               href: templates/after-school.md
-            - name: Schedule and manage meetings template
+            - name: Schedule and manage meetings
               href: templates/book-a-meeting.md
         - name: Dynamics 365 templates
           href: templates/dynamics-365-templates.md
