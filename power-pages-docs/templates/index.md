@@ -37,7 +37,7 @@ More information: [Schedule meetings with a financial institution template](boo
 
 ## Building permit application template
 
-The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their application.
+The **building permit application** template is designed to show you the capabilities of an application submission site to allow customers to submit applications and receive email notifications on the status of their applications.
 
 More information: [Building permit application template](building-permit.md)
 
@@ -47,7 +47,7 @@ More information: [Building permit application template](building-permit.md)
 > [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 > [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-The **frequently asked questions (FAQ)** template provides your target audience with answers to commonly asked questions.Information is organized with a topic, subtopic, and article framework. There is a no-code administrator experience for updating and organizing content.
+The **frequently asked questions (FAQ)** template provides your target audience with answers to commonly asked questions. Information is organized with a topic, subtopic, and article framework. There is a no-code administrator experience for updating and organizing content.
 
 More information: [Frequently Asked Questions template](frequently-asked-questions.md)
 

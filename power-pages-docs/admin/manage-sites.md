@@ -18,7 +18,7 @@ Your Power Pages home serves as the central hub for managing all your sites. Her
 
 :::image type="content" source="media/manage-sites/manage-site.png" alt-text="Manage sites.":::
 
-For each website in your environment, the site card provides you details about the site such as:
+For each website in your environment, the site card provides details about the site, such as:
 
 - Site name and web address
 
