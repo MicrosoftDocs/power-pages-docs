@@ -15,7 +15,7 @@ contributors:
 
 # Plan your Power Pages project
 
-This article serves as guidance for enterprise teams working on projects and may go beyond the scope of a maker creating a site for a specific business need. Creating a plan with clear outcomes and expectations is always good practice regardless of the size of your project.
+This article serves as guidance for enterprise teams working on projects and may go beyond the scope of a maker creating a site for a specific business need. Creating a plan with clear outcomes and expectations is always good practice, regardless of the size of your project.
 
 > [!NOTE]
 > Power Pages is built on a foundation of Power Apps portals. Many of the tools and methods used to configure Power Pages utilize the functionality of Power Apps portals. For more information, see [Introduction: Planning a Power Apps project](/power-apps/guidance/planning/introduction).
@@ -46,13 +46,13 @@ Any authenticated user on your site is tied to a contact record in Dataverse. Re
 
 ## Access 
 
-Many sites today include a sign- in or register experience where users either create a new sign-in profile or use an existing sign-in to access site pages.  These sign-in credentials could be tied to their social accounts or their corporate credentials.  These credentials are examples of Identity Providers(IdP). Power Pages works with many industry standard Identity Providers. 
+Many sites today include a sign-in or register experience where users either create a new sign-in profile or use an existing sign-in to access site pages.  These sign-in credentials could be tied to their social accounts or their corporate credentials.  These credentials are examples of Identity Providers(IdP). Power Pages works with many industry standard Identity Providers. 
 
 More information: [Overview of authentication in Power Pages)](../security/authentication/configure-site.md)
 
 ### Internal users
 
-Users within your organization should use **Azure Active Directory (Azure AD)**. Using Azure AD provides a seamless sign-in experience via use of an active session.  Using Azure AD also aids in site security.  When a user leaves the organization, their Azure AD account is disabled and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Azure AD pre-configured.
+Users within your organization should use **Azure Active Directory (Azure AD)**. Using Azure AD provides a seamless sign-in experience via an active session.  Using Azure AD also aids in site security.  When a user leaves the organization, their Azure AD account is disabled, and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Azure AD pre-configured.
 
 > [!TIP] 
 > Rename the login button from Azure AD to something more friendly like "Contoso Employees" or "Contoso Work Account". Create a Site Setting named "Authentication/OpenIdConnect/AzureAD/Caption" and specify the value you wish to display. Use the [Portal Management app](portal-management-app.md) to create and modify **Site Settings**.
@@ -97,11 +97,11 @@ Authenticated users on your site are represented by a corresponding contact reco
 
 ### Separate development from production
 
-While Power Pages offers the ability to install more than one site in each environment, we recommend creating a separate environment from production to create and test new features. For more information, see [Go live checklist](../go-live/checklist.md).
+While Power Pages offers the ability to install more than one site in each environment, we recommend creating a separate environment from production to create and test new features. More information: [Go live checklist](../go-live/checklist.md)
 
 ### Conduct user testing
 
-We strongly recommend creating a stable test site for internal stakeholders and early external testers.  A test site will allow you to fine tune your development efforts.  
+We strongly recommend creating a stable test site for internal stakeholders and early external testers.  A test site will allow you to fine-tune your development efforts.  
 
 ### Secure a custom domain
 
