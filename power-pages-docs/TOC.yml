@@ -30,7 +30,7 @@
               href: templates/starter-layout.md
             - name: Blank page template
               href: templates/blank.md
-        - name: Industry pattern templates
+        - name: Solution templates
           items:
             - name: Application processing
               href: templates/building-permit.md
