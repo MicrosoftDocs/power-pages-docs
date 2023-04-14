@@ -23,6 +23,8 @@ The **starter layout** templates provide building blocks for you to create cus
 
 More information: [Starter layout templates](starter-layout.md)
 
+### Blank page template
+
 You can also create a completely custom website using our **blank page template**. This template includes a home page with a header, footer, and a single section. Use this template to build a site to your exact specifications.
 
 More information: [Blank page template](blank.md)
@@ -36,4 +38,16 @@ More information: [Blank page template](blank.md)
 |[Schedule and manage meetings](book-a-meeting.md)|Designed to show you the capabilities of a scheduling template. The scheduling principle will apply to any industry or organization looking to stand up a scheduling website.|
 |[Application processing template](building-permit.md)|Designed to show you the capabilities of an application submission site. This template might be useful for any industry or organization wishing to create an application submission website.|
 
+## Dynamics 365 templates
 
+Dynamics 365 templates are available for your Power Pages sites in environments containing Dynamics 365 applications, including:
+
+- Dynamics 365 Sales
+- Dynamics 365 Customer Service
+- Dynamics 365 Field Service
+- Dynamics 365 Marketing
+- Dynamics 365 Project Operations
+- Dynamics 365 Supply Chain Management
+- Dynamics 365 Intelligent Order Management
+
+More information: [Dynamics 365 templates](dynamics-365-templates.md)
