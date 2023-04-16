@@ -57,9 +57,7 @@
     - name: Plan your Power Pages project
       href: configure/planning-power-pages-project.md
     - name: Use enhanced data model (preview)
-      href: getting-started/enhanced-data-model.md
-    - name: Migrate to enhanced data model (preview)
-      href: getting-started/migrate-to-enhanced-data-model.md          
+      href: getting-started/enhanced-data-model.md         
 - name: Design and build
   items:
     - name: Design and build overview
