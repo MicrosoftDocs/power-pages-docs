@@ -4,7 +4,7 @@ description: Learn how to solutions in Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/14/2023
+ms.date: 04/16/2023
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -15,7 +15,7 @@ contributors:
 
 # Using solutions with Power Pages
 
-Using solutions with Power Pages allows to contain and transport all website configuration using standard Power Platform solutions.
+Using solutions with Power Pages allows to contain and transport all website configuration using standard Power Platform [solutions](/power-platform/alm/solution-concepts-alm).
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ To try this feature, you'll require two Power Platform environments that have th
 
 Each environment will required a site that is created using the new data model. See [create a website with an enhanced data model](../getting-started/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
 
-## Add Power Pages site and its component to a solution
+## Add Power Pages site and components to a solution
 
 1. From the Power Pages home page, select the **Solutions** tab.
 
@@ -41,6 +41,26 @@ Each environment will required a site that is created using the new data model. 
 
 > [!NOTE]
 > The process will add all of the site components to the solution.
+
+## Add website components
+
+As you create and add new components to your website, you can add them to your solution containing the website.
+
+1. From the Power Pages home page, go to the **Solutions** area.
+
+1. Select the solution to which you want to add components.
+
+1. Select **Add existing** > **More** > **Other** > **Site Component**.
+ 
+1. From the **Add existing Site component** panel, select the site components and select **Add** to add them to the solution.
+
+Alternatively, you can add the required components to your site.
+
+1. In the solution, select the **Site**.
+
+1. From the main menu, choose **Advanced** and then select **Add required objects**.
+
+1. A panel will appear, select **OK** to continue. After a few moments you will see a message that the required objects have been successfully added to the solution.
 
 ## Export solution from source environment
 
