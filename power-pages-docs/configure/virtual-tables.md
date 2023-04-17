@@ -14,11 +14,11 @@ contributors:
 
 # Configure virtual tables in Power Pages
 
-A [virtual table](/power-apps/developer/data-platform/virtual-entities/get-started-ve) is a special type of table that does not have a physical representation in the Microsoft Dataverse but rather represents a query or view of the external data source. They enable the integration of external data source by seamlessly representing data as a table without data replication.
+A [virtual table](/power-apps/developer/data-platform/virtual-entities/get-started-ve) is a special type of table that doesn't have a physical representation in the Microsoft Dataverse but rather represents a query or view of the external data source. They enable the integration of external data source by seamlessly representing data as a table without data replication.
 
 ## Steps to integrate virtual tables in Power Pages 
 
-Using a virtual table in Power Pages is very similar process to creating tables in Data workspace and using Dataverse views and forms to create web page list and form components.
+Using a virtual table in Power Pages follows a similar process to creating tables in Data workspace and using Dataverse views and forms to create web page list and form components.
 
 1. Create a virtual table in Dataverse
 
@@ -42,7 +42,7 @@ To learn how to create virtual table in Dataverse, go to [create a virtual table
 
 ## Setup virtual table relationship
 
-This is an optional step if you are configuring virtual table permission for **Global** type access. **Account** and **contact** access types provides limited access to table records for the website user. Learn more about securing the data using [table permissions](../security/table-permissions.md).
+Setting up a table relationship to a contact or account table is an optional step if you're configuring virtual table permission for **Global** type access. **Account** and **contact** access types provides limited access to table records for the website user. Learn more about securing the data using [table permissions](../security/table-permissions.md).
 
 To configure the account and contact scope, you need to create a many-to-one relationship with virtual table to account and contact table respectively. To learn more about virtual table relationships, go to [Setting up a virtual table relationship](/power-apps/maker/data-platform/setup-virtual-table-relationships).
 
