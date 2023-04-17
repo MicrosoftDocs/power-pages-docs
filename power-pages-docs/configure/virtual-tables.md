@@ -22,9 +22,9 @@ Using a virtual table in Power Pages is very similar process to creating tables 
 
 1. Create a virtual table in Dataverse
 
-1. Setup virtual table relationship
+1. Setup virtual table relationships
 
-1. Configure web page using virtual table
+1. Configure a web page with components using a virtual table
 
 ## Create a virtual table in Dataverse
 
@@ -42,7 +42,7 @@ To learn how to create virtual table in Dataverse, go to [create a virtual table
 
 ## Setup virtual table relationship
 
-This is an optional step if you are configuring virtual table permission for **Global** type access. Account and contact access types provides limited access to table records for the website user. Learn more about securing the data using [table permissions](../security/table-permissions.md).
+This is an optional step if you are configuring virtual table permission for **Global** type access. **Account** and **contact** access types provides limited access to table records for the website user. Learn more about securing the data using [table permissions](../security/table-permissions.md).
 
 To configure the account and contact scope, you need to create a many-to-one relationship with virtual table to account and contact table respectively. To learn more about virtual table relationships, go to [Setting up a virtual table relationship](/power-apps/maker/data-platform/setup-virtual-table-relationships).
 
