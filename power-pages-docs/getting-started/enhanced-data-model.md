@@ -78,6 +78,8 @@ You can see the newly created site from the Power Pages home.
 
 The new data model sites are at functional parity, you can see which data model your site is using by going to the [Power Platform admin center](https://aka.ms/ppac), go to **Resources** > **Power Pages sites**, select your site, select **Manage** and the **Data Model** value in the **Site Details** will indicate what data model the site is using.
 
+:::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Site details.":::
+
 You can also identify the data model used by opening the **Portals Management app** application as the new data model application name will be **Power Pages Management** instead of **Portals Management** application. 
 
 :::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::

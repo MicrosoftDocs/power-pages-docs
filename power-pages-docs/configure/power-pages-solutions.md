@@ -99,6 +99,26 @@ Once the solution is imported, it will appear under solutions list.
 
 Now your destination site is updated with data from source environment site.
 
+## Frequently asked questions: 
+
+### With Power Pages solution awareness, when should I use solutions and when should I use the Power Platform CLI for migration?
+
+You should use solutions.
+
+### What is best practice when you're migrating a Power Pages website using solutions? 
+
+Refer to [Overview of application lifecycle management with Microsoft Power Platform](/power-platform/alm/overview-alm) for best practices.
+
+### After importing site configuration data in a managed solution I edited my website in the target environment. I don't see any new changes when I import managed solutions from my source environment.
+
+Editing the site configuration data in the target environment is discouraged as it will result in the creation of an unmanaged layer and changes from the source won't reflect in the target. To fix it in the target environment user needs to remove the unmanaged solution layer. See [Solution layers](/power-platform/alm/solution-layers-alm) for more information.
+
+## Known issues
+
+1. Dataverse dependency addition to solution isn't available.
+
+1. You can't configure canvas and model driven Power Apps on the Power Pages solution explorer.
+
 ## See Also
 - [Power Pages enhanced data model](../getting-started/enhanced-data-model.md)
 
