@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/23/2023
+ms.date: 03/24/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -30,6 +30,10 @@ this feature, you can now use the Visual Studio Code extension to work with Powe
 ### Visual Studio Code extension for Power Pages
 
 The **Power Platform Tools** adds the capability to configure websites using Visual Studio Code, and use the built-in Liquid language [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) enabling help with code completion, assistance, and hinting while customizing websites interface using Visual Studio Code. Using the Visual Studio Code extension, you can also configure portals through the [Microsoft Power Platform CLI](power-platform-cli.md).
+
+> [!NOTE]
+> - You will need to ensure that [node.js](https://nodejs.org/en/download) is downloaded and installed on the same workstation as Visual Studio Code for the Power Pages features to work.
+> - Make sure that only **Power Platform Tools** are installed and not both **Power Platform Tools** and **Power Platform Tools [PREVIEW]**. See [known issues](../known-issues.md#visual-studio-code-extension-for-power-pages) for details.
 
 :::image type="content" source="media/vs-code-extension/install-pp-tools.gif" alt-text="Animation that explains how to install and set Power Platform Tools.":::
 

@@ -4,7 +4,7 @@ description: A list of known issues in Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/7/2023
+ms.date: 3/24/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -83,6 +83,14 @@ You can preview the webpages using design studio, but you can't add or modify se
 
 Instead, use tools such as [Portals Management app](configure/portal-management-app.md) or [Visual Studio Code](configure/cli-tutorial.md) to edit the underlying [web templates](configure/store-content-web-templates.md) and configure them for your unique needs.
 
+## Visual Studio Code extension for Power Pages
+
+- You man get an error when updating the Power Platform Tools for Visual Studio Code with the error message `Cannot install Power Pages generator: spawnSync npm.cmd ENOENT`. To resolve the issue, install [node.js](https://nodejs.org/en/download) and restart Visual Studio Code.
+
+- Two sets of the Power Pages create commands may appear in the menu and will not work if you have both the stable version of **Power Platform Tools** as well as the **Power Platform Tools [PREVIEW]** installed on Visual Studio Code.
+
+    Uninstall the **Power Platform Tools [PREVIEW]** version to resolve the issue.
+
 ## General issues
 
 - You receive the following error message when configuring or using table fields:
@@ -154,7 +162,7 @@ Instead, use tools such as [Portals Management app](configure/portal-management-
 
 - A few Power Apps portals templates, especially bound to customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service), don't have default menu items as per their hierarchy of pages. The reason is that there isn't page order available in all or few of the webpages. Any portal without the display order of webpages will have this issue.
 
-- An error message is displayed when the page content (page copy) exceeds its limit of 65536 characters and page summary exceed its default limit of 2000 characters.
+- An error message is displayed when the page content (page copy) exceeds its limit of 65,536 characters and page summary exceed its default limit of 2000 characters.
 
 - Navigation menu is only visible on the canvas with a resolution of minimum width of 1600 px.
 
@@ -204,7 +212,7 @@ Here's how to enable cookies if your browser is blocking them:
 
 # [Microsoft Edge](#tab/Edge)
 
-1. In the Edge window, select More (...) > Settings > View advanced settings.
+1. In the Microsoft Edge window, select More (...) > Settings > View advanced settings.
 
 1. Scroll down to Cookies, and select Don't block cookies
 
@@ -223,3 +231,6 @@ Here's how to enable cookies if your browser is blocking them:
 1. Select Done and refresh the browser.
 
 ---
+
+>[!NOTE]
+> If you don't want to enable all third party cookies, you can also adjust your browser settings to allow cookies for only ``[*.]powerpages.microsoft.com`` instead.

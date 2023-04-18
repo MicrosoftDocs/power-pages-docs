@@ -93,7 +93,6 @@ In our example, we'll create a Dataverse table called *Applications* for our pro
 
     :::image type="content" source="media/tutorial-multistep-forms/create-table.png" alt-text="Creating a table to use with multistep forms in Data workspace.":::
 
-
 1. Once you've created the tables, you'll need to create forms for each step of your process. 
 
     > [!TIP]

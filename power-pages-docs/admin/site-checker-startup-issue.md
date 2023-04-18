@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/06/2023
+ms.date: 04/05/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -80,7 +80,7 @@ If restarting the website doesn't work and the issue continues for a long period
 
 ### Website binding not found
 
-This issue occurs when the website binding records for the website are deleted from the underlying Dataverse environment and the webiste isn't able to create binding automatically. To fix this issue:
+This issue occurs when the website binding records for the website are deleted from the underlying Dataverse environment and the website isn't able to create binding automatically. To fix this issue:
 
 1. Open the [Portal Management app](../configure/portal-management-app.md).
 1. Go to **Website** > **Website Bindings**.
@@ -102,9 +102,9 @@ There are situations in which the website won't be able to re-create website bin
 
 ### An unexpected error has occurred while trying to connect to your Microsoft Dataverse environment
 
-This situation can arise because of some unexpected issue. To mitigate this situation, try resetting or reprovisioning the website. For information on how to reset a website, see [Reset a website](/power-apps/maker/portals/admin/reset-portal).
+This situation can arise because of some unexpected issue. To mitigate this situation, try reprovisioning the website. First, delete the website host, see [Delete a website](delete-website.md). Do not delete the website configuration. Re-create the website using the existing website data. You will need to reconfigure items such as custom domain names and other integrations.
 
-If neither a website reset nor reprovision solves the issue, contact Microsoft Support for help.
+If a reprovision doesn't solves the issue, contact Microsoft Support for help.
 
 #### See also
 
