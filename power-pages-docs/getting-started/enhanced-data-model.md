@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/12/2023
+ms.date: 04/18/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -16,12 +16,77 @@ contributors:
 
 # Enhanced data model
 
+The standard data model was built with custom tables and was optimized for configuration of each website component stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the various solutions, tables, and metadata while provisioning a new site. Updates to website tables on the standard model requires manual and time consuming application of package updates. 
+
 The enhanced data model for Power Pages provides the following benefits:
 
 - improved site performance
 - faster provisioning of websites
-- allow website configuration to be contained in solutions to provide smoother ALM experiences.
-- automatic updates of Power Pages enhancements, bug fixes, and updates
+- faster design studio experiences
+- allow website configuration to be contained in solutions to provide smoother ALM experiences
+- improved updates of Power Pages enhancements and bug fixes
+
+The enhanced data model is combination of system tables, a collection of non-configuration tables, and a set of virtual tables.
+
+### System tables
+
+The system tables are Power Pages specific solution aware tables present in all Dataverse environments. These system tables cannot be modified.
+
+### Non-configuration tables
+
+Non-configuration tables are feature specific tables that contain transactional business data. Data in these tables do not participate in ALM processes.
+
+`Ad`
+`Poll`
+`Poll Option`
+`Poll Submission`
+`External Identity`
+`Portal comment`
+`Invitation`
+`Invitation Redemption`
+`Setting`
+`WebFormSession`
+
+### Virtual tables
+
+The Power Pages virtual tables represent and contain the metadata of the specific website components. The virtual tables point to the system tables that contain the website metadata in JSON format. The content in the virtual tables can be updated and configured through the [Power Pages management app](#edit-site-using-the-power-pages-management-app) which has the identical look and feel of the legacy [Portal Management app](../configure/portal-management-app.md).
+
+### Developer considerations
+
+If you have developed any custom code that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
+
+| Enhanced data data model table name | Standard data model table name |
+| - | - |
+|mspp_adplacement|adx_adplacement|
+|mspp_columnpermission|adx_columnpermission|
+|mspp_columnpermissionprofile|adx_columnpermissionprofile|
+|mspp_contentsnippet|adx_contentsnippet|
+|mspp_entityform|adx_entityform|
+|mspp_entityformmetadata|adx_entityformmetadata|
+|mspp_entitylist|adx_entitylist|
+|mspp_entitypermission|adx_entitypermission|
+|mspp_pagetemplate|adx_pagetemplate|
+|mspp_pollplacement|adx_pollplacement|
+|mspp_publishingstate|adx_publishingstate|
+|mspp_publishingstatetransitionrule|adx_publishingstatetransitionrule|
+|mspp_redirect|adx_redirect|
+|mspp_shortcut|adx_shortcut|
+|mspp_sitemarker|adx_sitemarker|
+|mspp_sitesetting|adx_sitesetting|
+|mspp_webfile|adx_webfile|
+|mspp_webform|adx_webform|
+|mspp_webformmetadata|adx_webformmetadata|
+|mspp_webformstep|adx_webformstep|
+|mspp_weblink|adx_weblink|
+|mspp_weblinkset|adx_weblinkset|
+|mspp_webpage|adx_webpage|
+|mspp_webpageaccesscontrolrule|adx_webpageaccesscontrolrule|
+|mspp_webrole|adx_webrole|
+|mspp_website|adx_website|
+|mspp_websiteaccess|adx_websiteaccess|
+|mspp_websitelanguage|adx_websitelanguage|
+|mspp_webtemplate|adx_webtemplate|
+|mspp_columnpermissionvalues|adx_columnpermissionvalues|
 
 ## ​​Enable environment for enhanced data model  
 

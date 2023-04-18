@@ -15,7 +15,7 @@ contributors:
 
 # Using solutions with Power Pages
 
-Using solutions with Power Pages allows to contain and transport all website configuration using standard Power Platform [solutions](/power-platform/alm/solution-concepts-alm).
+Using solutions with Power Pages allows you to contain and transport all website configuration using standard Power Platform [solutions](/power-platform/alm/solution-concepts-alm). You can combine all website and Dataverse components into a single solution artifact and participate in advanced ALM capabilities to deploy websites to destination environments using managed solutions. 
 
 ## Prerequisites
 
@@ -45,6 +45,9 @@ Each environment will required a site that is created using the new data model. 
 ## Add website components
 
 As you create and add new components to your website, you can add them to your solution containing the website.
+
+> [!NOTE]
+> New website components are not automatically added to a solution containing a site. You will need to add any new website components to a solution following the steps below.
 
 1. From the Power Pages home page, go to the **Solutions** area.
 
