@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites with the design studio pag
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 4/13/2023
 ms.subservice:
 ms.author: clromano 
 ms.reviewer: kkendrick
@@ -43,6 +43,8 @@ For a more immersive editing experience, you can use the full-screen editing mod
 :::image type="content" source="media/common/page-edit-options.png" alt-text="Controls for immersive editing options, including zoom in, zoom out, and reset.":::
 
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
+
+Click the paintbrush icon to adjust the styles of a section or component. Different styles are available based on the component's type. Currently, sections, text, images, and video are supported.
 
 > [!NOTE]
 > - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
