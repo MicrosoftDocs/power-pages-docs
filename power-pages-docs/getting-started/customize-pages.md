@@ -44,7 +44,7 @@ For a more immersive editing experience, you can use the full-screen editing mod
 
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 
-Click the paintbrush icon to adjust the styles of a section or component. Different styles are available based on the component's type. Currently, sections, text, images, and video are supported.
+Select the paintbrush icon to adjust the styles of a section or component. Different styles are available based on the component's type. Currently, sections, text, images, and video are supported.
 
 > [!NOTE]
 > - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
