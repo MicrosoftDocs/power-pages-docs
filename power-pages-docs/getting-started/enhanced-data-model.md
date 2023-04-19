@@ -14,13 +14,14 @@ contributors:
     - gitanjalisingh33msft
 ---
 
-# Enhanced data model
+# Enhanced data model (preview)
+
+<!--preview msg-->
 
 The standard data model was built with custom tables and was optimized for configuration of each website component stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the various solutions, tables, and metadata while provisioning a new site. Updates to website tables on the standard model requires manual and time consuming application of package updates. 
 
 The enhanced data model for Power Pages provides the following benefits:
 
-- improved site performance
 - faster provisioning of websites
 - faster design studio experiences
 - allow website configuration to be contained in solutions to provide smoother ALM experiences
@@ -32,10 +33,13 @@ The enhanced data model is combination of system tables, a collection of non-con
 
 The system tables are Power Pages specific solution aware tables present in all Dataverse environments. These system tables cannot be modified.
 
+<!--name system tables -->
+
 ### Non-configuration tables
 
 Non-configuration tables are feature specific tables that contain transactional business data. Data in these tables do not participate in ALM processes.
 
+<!--ad br-->
 `Ad`
 `Poll`
 `Poll Option`
@@ -54,6 +58,10 @@ The Power Pages virtual tables represent and contain the metadata of the specifi
 ### Developer considerations
 
 If you have developed any custom code that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
+
+<!--example -->
+
+<!--system tables -->
 
 | Enhanced data data model table name | Standard data model table name |
 | - | - |
@@ -92,6 +100,10 @@ If you have developed any custom code that utilizes any of the standard data mod
 
 Follow these steps to enable the new data model for a specific environment.  
 
+<!--note that this will add solution packages -->
+
+<!--only if template is enable, provide list, all but schedule meeting, after school, no dynamics 365, no FAQ -->
+
 1. Open the [Power Platform admin center](https://aka.ms/ppac)
 
 1. Select **Environments**
@@ -108,7 +120,7 @@ This will start installation of the **Power Pages Core** package. You'll see a m
 
 :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Updated packages installed.":::
 
-You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. 
+You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. <!--this will not delete packages, won't delete sites, will still work, will create standard instead, toggle will just turn off process -->
 
 ## Update enhanced data model packages 
 
@@ -123,7 +135,7 @@ The **Update** option will be enabled once the new package is available. See [Up
 You can create a new site using Power Pages home page with the new data model once it's enabled for an environment.
 
 > [!NOTE]
-> The new site will be created using the new data model only if it is supported by the selected template. 
+> The new site will be created using the new enhanced data model only if it is supported by the selected template. 
 
 Create site using a template of your choice using the new data model:
 
@@ -144,6 +156,8 @@ You can see the newly created site from the Power Pages home.
 The new data model sites are at functional parity, you can see which data model your site is using by going to the [Power Platform admin center](https://aka.ms/ppac), go to **Resources** > **Power Pages sites**, select your site, select **Manage** and the **Data Model** value in the **Site Details** will indicate what data model the site is using.
 
 :::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Site details.":::
+
+<!--visible in setup workspace -->
 
 You can also identify the data model used by opening the **Portals Management app** application as the new data model application name will be **Power Pages Management** instead of **Portals Management** application. 
 
@@ -175,7 +189,15 @@ The **Power Pages Management** application allows you to make advance customizat
 
 :::image type="content" source="media/enhanced-data-model/edit-site-power-pages-management.png" alt-text="Edit website using Power Pages Management app.":::
 
+## Update from standard to enchanced
+
+?
+
 ## Frequently asked questions: 
+
+### How can I update from standard data models?
+
+Currently on new, but guidace and tools are comign soon.
 
 ### Can I edit new sites based on enhanced data model configurations in the Portal management app? 
 
@@ -183,12 +205,16 @@ New websites created using the enhanced data model can be edited using the new P
 
 ## Known issues
 
+<!-- more known issues -->
+
 1. Editing of company logo and header from the design studio isn't supported on new data model.
 
 1. Enable traffic analysis isn't available for websites using the enhanced data model.
 
 1. The preview capabilities of the design studio may have some missing styling and images.
  
+
+
 ## See also
 
 [Using solutions with Power Pages](../configure/power-pages-solutions.md)
