@@ -122,9 +122,9 @@ You can also adjust the permissions and assign web roles based on your requireme
 
 For more information, see [Configuring table permissions](../security/table-permissions.md).
 
-## Edit form fields
+## Enable code components on form fields
 
-If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. You can also edit the properties of a component from the Pages workspace.
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. 
 
 To enable the code component:
 
@@ -142,12 +142,15 @@ To enable the code component:
 
 The code component will now be available on the form.
 
-### Enable code components on form fields (preview)
-You can edit the properties of a component from pages workspace.
+### Enable code component properties on form fields (preview)
+
+You can edit the properties of a component from Pages workspace.
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+
+1. [Enable the code component](#edit-form-fields).
 
 1. Select the **Edit code component** button from the menu.
 
