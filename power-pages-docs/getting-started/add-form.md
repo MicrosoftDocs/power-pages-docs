@@ -81,6 +81,28 @@ To edit a form field:
         - Use the options to configure out-of-the-box validations.
         - Use the Regex option to enter custom validation using regular expressions.
 
+## Supporting Power Apps component framework on a form field (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+You can configure properties of a [code component](../configure/component-framework.md) added on a form field in pages workspace. Once a component is enabled on a from field, it will be rendered in the design studio. You can also edit the properties of a component from pages workspace.
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+
+To enable the code component:
+
+1. Select the field and choose **Enable code component**.
+
+1. Select **Enable custom component field** and turn on the toggle switch.
+
+1. Set the properties of the component.
+
+1. Select **OK**.
+
+A preview of the component will be rendered in the studio.
+
 ## Enable attachments on a form
 
 Users can upload an attachment with form submission.
