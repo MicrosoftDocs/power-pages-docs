@@ -142,7 +142,7 @@ The code component will now be available on the form.
 
 ### Setting custom component properties for a form field (preview)
 
-You can also edit the properties of a component from pages workspace.
+You can edit the properties of a component from pages workspace.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -155,8 +155,6 @@ You can also edit the properties of a component from pages workspace.
 1. Set the properties of the component.
 
 1. Select **OK**.
-
-A preview of the component will be rendered in the studio.
 
 ### See also
 
