@@ -124,6 +124,8 @@ For more information, see [Configuring table permissions](../security/table-perm
 
 ## Edit form fields
 
+Form fields are editable inside of the Pages workspace.
+
 To edit a form field:
 
 1. Select the field and choose **Edit field**.
@@ -142,7 +144,7 @@ To edit a form field:
 
 ## Enable code components on form fields
 
-If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. 
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used on a webpage form. 
 
 To enable a code component: 
 
