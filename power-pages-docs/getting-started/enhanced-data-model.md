@@ -16,9 +16,13 @@ contributors:
 
 # Enhanced data model (preview)
 
-<!--preview msg-->
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The standard data model was built with custom tables and was optimized for configuration of each website component stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the various solutions, tables, and metadata while provisioning a new site. Updates to website tables on the standard model requires manual and time consuming application of package updates. 
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 The enhanced data model for Power Pages provides the following benefits:
 
@@ -33,76 +37,66 @@ The enhanced data model is combination of system tables, a collection of non-con
 
 The system tables are Power Pages specific solution aware tables present in all Dataverse environments. These system tables cannot be modified.
 
-<!--name system tables -->
+- `Site`
+- `Site Component`
+- `Site Language`
 
 ### Non-configuration tables
 
 Non-configuration tables are feature specific tables that contain transactional business data. Data in these tables do not participate in ALM processes.
 
-<!--ad br-->
-`Ad`
-`Poll`
-`Poll Option`
-`Poll Submission`
-`External Identity`
-`Portal comment`
-`Invitation`
-`Invitation Redemption`
-`Setting`
-`WebFormSession`
+- `Ad`
+- `Poll`
+- `Poll Option`
+- `Poll Submission`
+- `External Identity`
+- `Portal comment`
+- `Invitation`
+- `Invitation Redemption`
+- `Setting`
+- `WebFormSession`
 
 ### Virtual tables
 
 The Power Pages virtual tables represent and contain the metadata of the specific website components. The virtual tables point to the system tables that contain the website metadata in JSON format. The content in the virtual tables can be updated and configured through the [Power Pages management app](#edit-site-using-the-power-pages-management-app) which has the identical look and feel of the legacy [Portal Management app](../configure/portal-management-app.md).
 
-### Developer considerations
+> [!NOTE]
+> If you have developed any custom code that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
 
-If you have developed any custom code that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
-
-<!--example -->
-
-<!--system tables -->
-
-| Enhanced data data model table name | Standard data model table name |
-| - | - |
-|mspp_adplacement|adx_adplacement|
-|mspp_columnpermission|adx_columnpermission|
-|mspp_columnpermissionprofile|adx_columnpermissionprofile|
-|mspp_contentsnippet|adx_contentsnippet|
-|mspp_entityform|adx_entityform|
-|mspp_entityformmetadata|adx_entityformmetadata|
-|mspp_entitylist|adx_entitylist|
-|mspp_entitypermission|adx_entitypermission|
-|mspp_pagetemplate|adx_pagetemplate|
-|mspp_pollplacement|adx_pollplacement|
-|mspp_publishingstate|adx_publishingstate|
-|mspp_publishingstatetransitionrule|adx_publishingstatetransitionrule|
-|mspp_redirect|adx_redirect|
-|mspp_shortcut|adx_shortcut|
-|mspp_sitemarker|adx_sitemarker|
-|mspp_sitesetting|adx_sitesetting|
-|mspp_webfile|adx_webfile|
-|mspp_webform|adx_webform|
-|mspp_webformmetadata|adx_webformmetadata|
-|mspp_webformstep|adx_webformstep|
-|mspp_weblink|adx_weblink|
-|mspp_weblinkset|adx_weblinkset|
-|mspp_webpage|adx_webpage|
-|mspp_webpageaccesscontrolrule|adx_webpageaccesscontrolrule|
-|mspp_webrole|adx_webrole|
-|mspp_website|adx_website|
-|mspp_websiteaccess|adx_websiteaccess|
-|mspp_websitelanguage|adx_websitelanguage|
-|mspp_webtemplate|adx_webtemplate|
-|mspp_columnpermissionvalues|adx_columnpermissionvalues|
+| System table | Enhanced data model virtual table | Standard data model table |
+| - | - | - |
+|powerpagesite|mspp_website|adx_website|
+|powerpagesitelanguage|mspp_websitelanguage|adx_websitelanguage|
+| powerpagecomponent | mspp_columnpermission</br>mspp_columnpermissionprofile</br>mspp_contentsnippet</br>mspp_entityform</br>mspp_entityformmetadata</br>mspp_entitylist</br>mspp_entitypermission</br>mspp_pagetemplate</br>mspp_pollplacement</br>mspp_publishingstate</br>mspp_publishingstatetransitionrule</br>mspp_redirect</br>mspp_shortcut</br>mspp_sitemarker</br>mspp_sitesetting</br>mspp_webfile</br>mspp_webform</br>mspp_webformmetadata</br>mspp_webformstep</br>mspp_weblink</br>mspp_weblinkset</br>mspp_webpage</br>mspp_webpageaccesscontrolrule</r>mspp_webrole</br>mspp_websiteaccess</br>mspp_websitelanguage</br>mspp_webtemplate</br>mspp_columnpermissionvalues</br>|adx_columnpermission</br>adx_columnpermissionprofile</br>adx_contentsnippet</br>adx_entityform</br>adx_entityformmetadata</br>adx_entitylist</br>adx_entitypermission</br>adx_pagetemplate</br>adx_pollplacement</br>adx_publishingstate</br>adx_publishingstatetransitionrule</br>adx_redirect</br>adx_shortcut</br>adx_sitemarker</br>adx_sitesetting</br>adx_webfile</br>adx_webform</br>adx_webformmetadata</br>adx_webformstep</br>adx_weblink</br>adx_weblinkset</br>adx_webpage</br>adx_webpageaccesscontrolrule</br>adx_webrole</br>adx_websiteaccess</br>adx_webtemplate</br>adx_columnpermissionvalues</br>|
 
 ## ​​Enable environment for enhanced data model  
 
-Follow these steps to enable the new data model for a specific environment.  
+You will first need to enable the enhanced data model on your Power Platform environment before being able to provision a website utilizing the enhanced data model.
 
-<!--note that this will add solution packages -->
+> [!NOTE]
+> This will add solutions packages to support the enhanced data model on your Power Platform environment.  
 
-<!--only if template is enable, provide list, all but schedule meeting, after school, no dynamics 365, no FAQ -->
+Once the enhanced data model is enabled, when you provision a new website using one of the following templates, they will utilize the enhanced data model;
+
+- Starter layout 1-5
+- Program registration
+- Application processing
+- Blank page
+
+The following templates will use the standard data model even if the enhanced data model is enabled on the environment:
+
+- Schedule meetings
+- FAQ (preview)
+- Community (Dynamics 365)
+- Customer Portal (Dynamics 365)
+- Customer Self Service Portal (Dynamics 365)
+- Employee Self Service Portal (Dynamics 365)
+- Field Service (Dynamics 365)
+- Modern Community (Dynamics 365)
+- Order Returns (Dynamics 365)
+- Partner Portal (Dynamics 365)
+
+Follow these steps to enable the new data model for a specific environment.
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac)
 
@@ -120,7 +114,9 @@ This will start installation of the **Power Pages Core** package. You'll see a m
 
 :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Updated packages installed.":::
 
-You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. <!--this will not delete packages, won't delete sites, will still work, will create standard instead, toggle will just turn off process -->
+You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. Disabiling the enhanced data model will not remove the solution packages or delete any websites. 
+
+Existing websites created using the enhanced data model will continue to operate. Any new website created will use the standard data model.
 
 ## Update enhanced data model packages 
 
@@ -157,13 +153,17 @@ The new data model sites are at functional parity, you can see which data model 
 
 :::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Site details.":::
 
-<!--visible in setup workspace -->
+You will also be able to view the data model being used from with the **Setup** workspace in the design studio.
 
 You can also identify the data model used by opening the **Portals Management app** application as the new data model application name will be **Power Pages Management** instead of **Portals Management** application. 
 
 :::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::
 
-You can view a list of the available sites in the Power Pages home page **Active sites** section. This list shows sites that are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
+When using the [Power Platform CLI](../configure/power-platform-cli.md), you will be able to view which data model is being used by site with the following command:
+
+`pac paportal list -v`
+
+All of the available sites in the Power Pages home page **Active sites** section. This list shows sites that are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
 
 ## Editing newly created site on new data model  
 
@@ -189,15 +189,11 @@ The **Power Pages Management** application allows you to make advance customizat
 
 :::image type="content" source="media/enhanced-data-model/edit-site-power-pages-management.png" alt-text="Edit website using Power Pages Management app.":::
 
-## Update from standard to enchanced
-
-?
-
 ## Frequently asked questions: 
 
-### How can I update from standard data models?
+### How can I update a website from the standard data model to the enhanced data model?
 
-Currently on new, but guidace and tools are comign soon.
+Guidance to update from the standard data model to enhanced data model will be delivered in a later update.
 
 ### Can I edit new sites based on enhanced data model configurations in the Portal management app? 
 
@@ -205,15 +201,15 @@ New websites created using the enhanced data model can be edited using the new P
 
 ## Known issues
 
-<!-- more known issues -->
+1. A logged website user will see a list of all supported languages instead of just the website enabled languages on the language selection on the user profile page.
 
-1. Editing of company logo and header from the design studio isn't supported on new data model.
+1. The default search feature will not return any results.
+
+1. Editing of the company logo and header from the design studio isn't supported on new data model.
 
 1. Enable traffic analysis isn't available for websites using the enhanced data model.
 
 1. The preview capabilities of the design studio may have some missing styling and images.
- 
-
 
 ## See also
 
