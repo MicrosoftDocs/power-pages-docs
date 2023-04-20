@@ -3,9 +3,7 @@ title: Add forms
 description: Add forms to your page in Power Pages.
 author: clromano
 ms.topic: conceptual
-ms.custom: 
 ms.date: 01/18/2023
-ms.subservice:
 ms.author: clromano
 ms.reviewer: kkendrick
 contributors:
@@ -124,24 +122,27 @@ You can also adjust the permissions and assign web roles based on your requireme
 
 For more information, see [Configuring table permissions](../security/table-permissions.md).
 
-## Enable code components on form fields
+## Edit form fields
 
-If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage.
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. You can also edit the properties of a component from the Pages workspace.
 
 To enable the code component:
 
 1. Select the field and choose **Edit field**.
 
-1. Select **Enable custom component field**.
+1. Set properties for your field.
+    - Field label
+    - Make this field required
+    - Show a description
+    
+    > [!NOTE]
+    > Depending on your data type, other properties may be displayed.
 
-1. Select **OK**.
-
-    :::image type="content" source="media/add-form/enable-code-component.png" alt-text="Enabling code component on webpage form.":::
+1. Select **Done**.
 
 The code component will now be available on the form.
 
-### Setting custom component properties for a form field (preview)
-
+### Enable code components on form fields (preview)
 You can edit the properties of a component from pages workspace.
 
 > [!IMPORTANT]
@@ -154,7 +155,7 @@ You can edit the properties of a component from pages workspace.
 
 1. Set the properties of the component.
 
-1. Select **OK**.
+1. Select **Done**.
 
 ### See also
 
