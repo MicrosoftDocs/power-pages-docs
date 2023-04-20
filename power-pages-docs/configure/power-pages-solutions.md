@@ -69,7 +69,7 @@ Alternatively, you can add the required components to your site.
 
 1. From the main menu, choose **Advanced** and then select **Add required objects**.
 
-1. A panel will appear, select **OK** to continue. After a few moments you will see a message that the required objects have been successfully added to the solution.
+1. A panel will appear, select **OK** to continue. After a few moments, you'll see a message that the required objects have been successfully added to the solution.
 
 ## Export solution from source environment
 

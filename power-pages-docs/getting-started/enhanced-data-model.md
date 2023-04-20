@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The standard data model was built with custom tables and was optimized for configuration of each website component stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the various solutions, tables, and metadata while provisioning a new site. Updates to website tables on the standard model requires manual and time consuming application of package updates. 
+The standard data model was built with custom tables and was optimized for configuration of each website component stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires other time to load the various solutions, tables, and metadata while provisioning a new site. Updates to website tables on the standard model require manual and time consuming application of package updates. 
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -35,33 +35,33 @@ The enhanced data model is combination of system tables, a collection of non-con
 
 ### System tables
 
-The system tables are Power Pages specific solution aware tables present in all Dataverse environments. These system tables cannot be modified.
+The system tables are Power Pages specific solution aware tables present in all Dataverse environments. These system tables can't be modified.
 
-- `Site`
-- `Site Component`
-- `Site Language`
+- Site
+- Site Component
+- Site Language
 
 ### Non-configuration tables
 
-Non-configuration tables are feature specific tables that contain transactional business data. Data in these tables do not participate in ALM processes.
+Non-configuration tables are feature specific tables that contain transactional business data. Data in these tables don't participate in ALM processes.
 
-- `Ad`
-- `Poll`
-- `Poll Option`
-- `Poll Submission`
-- `External Identity`
-- `Portal comment`
-- `Invitation`
-- `Invitation Redemption`
-- `Setting`
-- `WebFormSession`
+- Ad
+- Poll
+- Poll Option
+- Poll Submission
+- External Identity
+- Portal comment
+- Invitation
+- Invitation Redemption
+- Setting
+- WebFormSession
 
 ### Virtual tables
 
 The Power Pages virtual tables represent and contain the metadata of the specific website components. The virtual tables point to the system tables that contain the website metadata in JSON format. The content in the virtual tables can be updated and configured through the [Power Pages management app](#edit-site-using-the-power-pages-management-app) which has the identical look and feel of the legacy [Portal Management app](../configure/portal-management-app.md).
 
 > [!NOTE]
-> If you have developed any custom code that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
+> If you have developed any custom code or tools that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
 
 | System table | Enhanced data model virtual table | Standard data model table |
 | - | - | - |
@@ -71,12 +71,12 @@ The Power Pages virtual tables represent and contain the metadata of the specifi
 
 ## ​​Enable environment for enhanced data model  
 
-You will first need to enable the enhanced data model on your Power Platform environment before being able to provision a website utilizing the enhanced data model.
+You'll first need to enable the enhanced data model on your Power Platform environment before being able to provision a website utilizing the enhanced data model.
 
 > [!NOTE]
 > This will add solutions packages to support the enhanced data model on your Power Platform environment.  
 
-Once the enhanced data model is enabled, when you provision a new website using one of the following templates, they will utilize the enhanced data model;
+Once the enhanced data model is enabled, when you provision a new website using one of the following templates, they'll utilize the enhanced data model;
 
 - Starter layout 1-5
 - Program registration
@@ -108,13 +108,13 @@ Follow these steps to enable the new data model for a specific environment.
 
 1. Select the **Upgrade to modern data model for new sites** switch from the tool bar.  
 
-:::image type="content" source="media/enhanced-data-model/switch-to-enhanced-data-model.png" alt-text="Switch to enhanced data model.":::
+    :::image type="content" source="media/enhanced-data-model/switch-to-enhanced-data-model.png" alt-text="Switch to enhanced data model.":::
 
-This will start installation of the **Power Pages Core** package. You'll see a message once completed.
+    This will start installation of the **Power Pages Core** package. You'll see a message once completed.
 
-:::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Updated packages installed.":::
+    :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Updated packages installed.":::
 
-You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. Disabiling the enhanced data model will not remove the solution packages or delete any websites. 
+You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. Disabling the enhanced data model won't remove the solution packages or delete any websites. 
 
 Existing websites created using the enhanced data model will continue to operate. Any new website created will use the standard data model.
 
@@ -153,13 +153,13 @@ The new data model sites are at functional parity, you can see which data model 
 
 :::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Site details.":::
 
-You will also be able to view the data model being used from with the **Setup** workspace in the design studio.
+You'll also be able to view the data model being used from with the **Setup** workspace in the design studio.
 
 You can also identify the data model used by opening the **Portals Management app** application as the new data model application name will be **Power Pages Management** instead of **Portals Management** application. 
 
 :::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::
 
-When using the [Power Platform CLI](../configure/power-platform-cli.md), you will be able to view which data model is being used by site with the following command:
+When using the [Power Platform CLI](../configure/power-platform-cli.md), you'll be able to view which data model is being used by site with the following command:
 
 `pac paportal list -v`
 
@@ -203,7 +203,7 @@ New websites created using the enhanced data model can be edited using the new P
 
 1. A logged website user will see a list of all supported languages instead of just the website enabled languages on the language selection on the user profile page.
 
-1. The default search feature will not return any results.
+1. The default search feature won't return any results.
 
 1. Editing of the company logo and header from the design studio isn't supported on new data model.
 
