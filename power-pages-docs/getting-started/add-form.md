@@ -148,7 +148,7 @@ You can also edit the properties of a component from pages workspace.
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-After you [enable the code component](#enable-code-components-on-form-fields), select the **Edit code component** button from the menu.
+1. Select the **Edit code component** button from the menu.
 
 1. Switch the **Enable custom component field** toggle switch to the on position.
 
