@@ -122,17 +122,21 @@ You can also adjust the permissions and assign web roles based on your requireme
 
 For more information, see [Configuring table permissions](../security/table-permissions.md).
 
-## Edit fields
+## Edit form fields
+
+To edit a form field:
 
 1. Select the field and choose **Edit field**.
 
 1. Set properties for your field.
+
+    Common field properties include:
+
     - Field label
     - Make this field required
     - Show a description
     
-    > [!NOTE]
-    > Depending on your data type, other properties may be displayed.
+    Depending on your data type, other properties may be displayed.
 
 1. Select **Done**.
 
@@ -140,7 +144,7 @@ For more information, see [Configuring table permissions](../security/table-perm
 
 If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. 
 
-To enable a code component, 
+To enable a code component: 
 
 1. Select the **Edit code component** button from the menu.
 
@@ -156,7 +160,7 @@ You can also edit the properties of a component from inside the Pages workspace.
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the Enable custom component field toggle switch. Set the values for these properties and select **Done**.
+After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
 
 ### See also
 
