@@ -122,11 +122,7 @@ You can also adjust the permissions and assign web roles based on your requireme
 
 For more information, see [Configuring table permissions](../security/table-permissions.md).
 
-## Enable code components on form fields
-
-If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. 
-
-To enable the code component:
+## Edit fields
 
 1. Select the field and choose **Edit field**.
 
@@ -140,25 +136,27 @@ To enable the code component:
 
 1. Select **Done**.
 
-The code component will now be available on the form.
+## Enable code components on form fields
 
-### Enable code component properties on form fields (preview)
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. 
 
-You can edit the properties of a component from Pages workspace.
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-
-1. [Enable the code component](#edit-form-fields).
+To enable a code component, 
 
 1. Select the **Edit code component** button from the menu.
 
 1. Switch the **Enable custom component field** toggle switch to the on position.
 
-1. Set the properties of the component.
+Custom components are now enabled for that field.
 
-1. Select **Done**.
+### Enable code component properties on form fields (preview)
+
+You can also edit the properties of a component from inside the Pages workspace.
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+
+After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the Enable custom component field toggle switch. Set the values for these properties and select **Done**.
 
 ### See also
 
