@@ -4,7 +4,7 @@ description: Learn how to configure virtual tables in Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/17/2023
+ms.date: 04/20/2023
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -28,9 +28,13 @@ Using a virtual table in Power Pages follows a similar process to creating table
 
 ## Create a virtual table in Dataverse
 
-There are various ways to create a virtual table in Dataverse. Currently, Power Pages support virtual tables created using a virtual connector provider.
+There are various ways to create a virtual table in Dataverse. Currently, Power Pages support virtual tables created using the providers listed below.
 
-### Virtual connector provider
+## Finance and operations virtual tables 
+
+[Dynamics 365 Finance and Operations](/dynamics365/fin-ops-core/fin-ops/) is a business application that is designed to help organizations manage their financial, operations, and supply chain. Finance and operations apps are a virtual data source in Dataverse, and enable full create, read, update, and delete (CRUD) operations from Dataverse.  Learn how to [surface finance and operations virtual table](/dynamics365/fin-ops-core/dev-itpro/power-platform/power-portal-reference) in Power Pages. 
+
+### Virtual connector provider (preview)
 
 Virtual connectors are built using Power Platform Connectors, which are pre-built connectors that provide a way to interact with external systems. Virtual connectors streamline creation experience by automating some of the creation and removing the need to use code to create the virtual tables.
 
@@ -52,4 +56,4 @@ Once the virtual table is created in Dataverse, you can use to create a [list](.
 
 ## Limitations
 
-Dataverse virtual tables have a set of limitations that also apply when using in Power Pages, For more details go to [Limitations and troubleshooting virtual tables for](/power-apps/maker/data-platform/limits-tshoot-virtual-tables?tabs=sql) more details.
+Dataverse virtual tables have a set of limitations that also apply when using in Power Pages, For more details go to [Limitations and troubleshooting virtual tables for](/power-apps/maker/data-platform/limits-tshoot-virtual-tables?tabs=sql).
