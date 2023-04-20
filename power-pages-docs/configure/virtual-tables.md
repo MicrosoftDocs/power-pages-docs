@@ -30,9 +30,9 @@ Using a virtual table in Power Pages follows a similar process to creating table
 
 There are various ways to create a virtual table in Dataverse. Currently, Power Pages support virtual tables created using the providers listed below.
 
-## Finance and operations virtual tables 
+### Finance and operations virtual tables 
 
-[Dynamics 365 Finance and Operations](/dynamics365/fin-ops-core/fin-ops/) is a business application that is designed to help organizations manage their financial, operations, and supply chain. Finance and operations apps are a virtual data source in Dataverse, and enable full create, read, update, and delete (CRUD) operations from Dataverse.  Learn how to [surface finance and operations virtual table](/dynamics365/fin-ops-core/dev-itpro/power-platform/power-portal-reference) in Power Pages. 
+[Dynamics 365 Finance and Operations](/dynamics365/fin-ops-core/fin-ops/) is a business application that is designed to help organizations manage their financial, operations, and supply chain. Finance and operations apps are a virtual data source in Dataverse, and enable full create, read, update, and delete (CRUD) operations from Dataverse.  Learn how to [surface finance and operations virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/power-portal-reference) in Power Pages. 
 
 ### Virtual connector provider (preview)
 
@@ -56,4 +56,4 @@ Once the virtual table is created in Dataverse, you can use to create a [list](.
 
 ## Limitations
 
-Dataverse virtual tables have a set of limitations that also apply when using in Power Pages, For more details go to [Limitations and troubleshooting virtual tables for](/power-apps/maker/data-platform/limits-tshoot-virtual-tables?tabs=sql).
+Dataverse virtual tables have a set of limitations that also apply when using in Power Pages, For more details go to [Limitations and troubleshooting virtual tables](/power-apps/maker/data-platform/limits-tshoot-virtual-tables?tabs=sql).
