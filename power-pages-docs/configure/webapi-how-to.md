@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 04/11/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -75,9 +75,12 @@ Before you can use the portals Web API, you have to enable the required site set
 
 You'll have to configure permissions so that users are able to use the Web API feature. In this example, you'll need to setup or create a new web role that will use the Web API, next you'll add the table permissions for the **Contact** table and associate the table permission to the web role, and finally assign the web role to users in order to allow them to use the Web API.
 
+> [!NOTE]
+> The Web API follows [table permissions](../security/table-permissions.md) coming from the [web role](../security/create-web-roles.md) context of the authenticated user or the anonymous web role. Consider if your users already have a web role that has access to the specific tables in your website needed by the Web API. You don't need to create additional web roles just to use the Web API.
+
 ### Create a web role
 
-You can use an existing web role in your website or create a new web role.
+If you currently do not have a web role with permissions to the table you are accessing through the Web API or require different context of accessing the data, the following steps so you how to create a new web role and assign table permissions.
 
 1. Start the [Portal Management app](portal-management-app.md).
 
