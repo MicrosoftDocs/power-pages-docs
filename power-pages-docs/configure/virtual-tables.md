@@ -4,7 +4,7 @@ description: Learn how to configure virtual tables in Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/20/2023
+ms.date: 04/21/2023
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -53,6 +53,15 @@ To configure the account and contact scope, you need to create a many-to-one rel
 ## Configure web page using virtual table
 
 Once the virtual table is created in Dataverse, you can use to create a [list](../getting-started/add-list.md), [form](../getting-started/add-form.md), and [multistep form](../getting-started/multistep-forms.md) components using the same process as using a standard Dataverse table.
+
+## Unsupported virtual tables and providers
+
+The following virtual tables and providers are not supported for use with Power Pages;
+
+- The [Azure Active Directory user virtual table](/power-apps/developer/data-platform/aaduser-entity).
+- [Dynamics 365 Business Central virtual tables](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-faq)
+- the [OData v4 Data Provider](/power-apps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
+- [Custom virtual table data providers](/power-apps/developer/data-platform/virtual-entities/custom-ve-data-providers)
 
 ## Limitations
 
