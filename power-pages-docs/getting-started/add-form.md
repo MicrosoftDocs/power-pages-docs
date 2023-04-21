@@ -66,18 +66,24 @@ To edit a text field on the form:
 
 ## Edit and validate form fields
 
+Form fields are editable inside of the Pages workspace.
+
 To edit a form field:
 
-1. Hover over and select the field from the canvas.
-1. Choose **Edit field** in the tool bar.
-    :::image type="content" source="media/add-form/edit-text-field.png" alt-text="The edit text field menu.":::
-1. From the Field Edit modal:
+1. Select the field and choose **Edit field**.
+
+1. Set properties for your field.
+
     - Update the field's label/display name.
     - Mark the field as required, then customize the error message to be shown when the field is required.
     - Add a description to the field and adjust its position (choices include above the field, below the field, and above the label).
     - Set the validation rules for the field.
         - Use the options to configure out-of-the-box validations.
         - Use the Regex option to enter custom validation using regular expressions.
+    
+    Depending on your data type, other properties may be displayed.
+
+1. Select **Done**.
 
 ## Enable attachments on a form
 
@@ -121,26 +127,6 @@ You can also adjust the permissions and assign web roles based on your requireme
 :::image type="content" source="media/add-form/table-permissions.png" alt-text="Table permissions menu.":::
 
 For more information, see [Configuring table permissions](../security/table-permissions.md).
-
-## Edit form fields
-
-Form fields are editable inside of the Pages workspace.
-
-To edit a form field:
-
-1. Select the field and choose **Edit field**.
-
-1. Set properties for your field.
-
-    Common field properties include:
-
-    - Field label
-    - Make this field required
-    - Show a description
-    
-    Depending on your data type, other properties may be displayed.
-
-1. Select **Done**.
 
 ## Enable code components on form fields
 
