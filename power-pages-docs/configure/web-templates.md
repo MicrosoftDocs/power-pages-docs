@@ -46,7 +46,7 @@ Web templates can also be used to override the global header and footer used by 
 
 ## Built-in web templates
 
-There's a set of pre-made Liquid templates available within Power Apps portals. To use them, you must include them by name, using the list below as a reference.
+There's a set of pre-made Liquid templates available within Power Pages. To use them, you must include them by name, using the list below as a reference.
 
 | Name                        | Description                                                                                                                                                                                                                             | Code                                                                                   |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
