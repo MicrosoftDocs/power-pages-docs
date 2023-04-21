@@ -288,12 +288,17 @@ When you run the [pac paportal upload](/power-platform/developer/cli/reference/p
 
 The environment manifest file will be readonly when it connects to the same environment (environment URL matches with file name), to avoid accidental changes. 
 
+> [!NOTE]
+> - The environment manifest file is not designed to track the changes when deploying the website to different environments.
+> - The environment manifest file is designed to be used by developers for deploying locally in their developer environment and should be added to git ignore list.
+
 ### Delete tracking manifest file (manifest.yml)
 
 This file is used for tracking the deleted records from the environment.
 
 When website content is downloaded with [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command, this will add the deleted records from [environment manifest file (org-url-manifest.yml)](#environment-manifest-file-org-url-manifestyml) to manifest.yml file. So, when you upload the website content using the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command it will delete the files from the environment (even to a different environment).
-This file is not deleted, and it gets used regardless which environment you are connected.
+This file isn't deleted, and it gets used regardless which environment you're connected.
+This file needs to be considered when pushing changes to the source control in order to consider deleting items in the target environment.
 
 > [!NOTE]
 > In order to delete the site content records in one environment and also delete the same content records in another environment using the PAC CLI, you will need to run the [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command *before* and *after* the deleting the website record content. The manifest.yml will track these changes and remove the corresponding records in the target environment when the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command is run.
@@ -302,7 +307,7 @@ This file is not deleted, and it gets used regardless which environment you are 
 
 You can also use VS Code extension **Power Platform VS Code Extension** to benefit built-in Liquid language from IntelliSense, code completion assistance, hinting, and interact with the Microsoft Power Platform CLI using the VS Code Integrated Terminal. More information: [Use the Visual Studio Code extension (preview)](vs-code-extension.md)
 
-## Additional considerations
+## More considerations
 
 - An error is reported if your file path exceeds the maximum path length limitation. More information: [Maximum path length limitation in Windows](/windows/win32/fileio/maximum-file-path-limitation)
 - For duplicate records such as a duplicate web page name, Microsoft Power Platform CLI creates two different folders&mdash;one with the name of the web page, and the other with the same name prefixed with a hash code. For example, "My-page" and "My-page-**hash-code**".
