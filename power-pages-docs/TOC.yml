@@ -15,7 +15,9 @@
         - name: Understand how Power Pages connects to Dataverse
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
-          href: admin/clear-server-side-cache.md       
+          href: admin/clear-server-side-cache.md
+        - name: Use enhanced data model (preview)
+          href: getting-started/enhanced-data-model.md                   
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
@@ -55,9 +57,7 @@
     - name: Power Pages community
       href: getting-started/community.md
     - name: Plan your Power Pages project
-      href: configure/planning-power-pages-project.md
-    - name: Use enhanced data model (preview)
-      href: getting-started/enhanced-data-model.md         
+      href: configure/planning-power-pages-project.md       
 - name: Design and build
   items:
     - name: Design and build overview

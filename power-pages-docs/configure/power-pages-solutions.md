@@ -25,9 +25,9 @@ Using solutions with Power Pages allows you to contain and transport all website
 
 ## Prerequisites
 
-To try this feature, you'll require two Power Platform environments that have the enhanced data model enabled, one designated as the source and the other as the target. See [Power Pages enhanced data model](../getting-started/enhanced-data-model.md) to enable the enhanced data model for an environment.
+To try this feature, you'll require two Power Platform environments that have the enhanced data model enabled, one designated as the source and the other as the target. See [Power Pages enhanced data model](../admin/enhanced-data-model.md) to enable the enhanced data model for an environment.
 
-Each environment will required a site that is created using the new data model. See [create a website with an enhanced data model](../getting-started/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
+Each environment will required a site that is created using the new data model. See [create a website with an enhanced data model](../admin/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
 
 ## Add Power Pages site and components to a solution
 
@@ -119,5 +119,5 @@ Refer to [Overview of application lifecycle management with Microsoft Power Plat
 Editing the site configuration data in the target environment is discouraged as it will result in the creation of an unmanaged layer and changes from the source won't reflect in the target. To fix it in the target environment user needs to remove the unmanaged solution layer. See [Solution layers](/power-platform/alm/solution-layers-alm) for more information.
 
 ## See Also
-- [Power Pages enhanced data model](../getting-started/enhanced-data-model.md)
+- [Power Pages enhanced data model](../admin/enhanced-data-model.md)
 
