@@ -346,6 +346,8 @@
           href: getting-started/add-power-bi.md
         - name: Add Power BI using powerbi Liquid tag
           href: configure/add-powerbi-report.md
+    - name: Use virtual tables with Power Pages
+      href: configure/virtual-tables.md      
 - name: Customize and extend Power Pages
   items:
     - name: Liquid
