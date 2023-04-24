@@ -17,7 +17,7 @@
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
         - name: Use enhanced data model (preview)
-          href: getting-started/enhanced-data-model.md                   
+          href: admin/enhanced-data-model.md                   
 - name: Try Power Pages
   items:
     - name: Sign up for a trial

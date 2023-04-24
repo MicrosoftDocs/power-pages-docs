@@ -167,7 +167,7 @@ All of the available sites in the Power Pages home page **Active sites** section
 
 ## Editing newly created site on new data model  
 
-Site that is created on new data model will have functional parity with classic data model and users can use [Power Pages design studio](use-design-studio.md) or [Power Pages management application](../configure/portal-management-app.md) for customization.  
+Site that is created on new data model will have functional parity with classic data model and users can use [Power Pages design studio](../getting-started/use-design-studio.md) or [Power Pages management application](../configure/portal-management-app.md) for customization.  
 
 ## Edit site using the Power Pages design studio
 
