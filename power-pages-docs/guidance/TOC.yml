@@ -13,3 +13,7 @@
       items: 
         - name: "How to: Row level security in Power BI on Power Pages"
           href: how-to-power-bi-embedded.md       
+    - name: Integration
+      items:
+        - name: "How to: Embed a chatbot on a webpage"
+          href: integrate-pva.md                 
