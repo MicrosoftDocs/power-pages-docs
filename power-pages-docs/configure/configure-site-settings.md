@@ -71,18 +71,18 @@ You can manage the following types of site settings:
 
 For site settings related to various website features, see:
 
-- [Authentication identity](/power-apps/maker/portals/configure/set-authentication-identity)
-- [Azure AD B2C provider](/power-apps/maker/portals/configure/azure-ad-b2c)
-- [OAuth 2.0](/power-apps/maker/portals/configure/configure-oauth2-settings)
-- [OpenID Connect](/power-apps/maker/portals/configure/configure-openid-settings)
-- [WS-Federation](/power-apps/maker/portals/configure/configure-ws-federation-settings)
-- [SAML 2.0](/power-apps/maker/portals/configure/configure-saml2-settings)
-- [Migrate identity providers to Azure AD B2C](/power-apps/maker/portals/configure/migrate-identity-providers)
-- [Search within file attachment content](/power-apps/maker/portals/configure/search-file-attachment)
-- [Behavior and format of the date and time field](/power-apps/maker/portals/configure/behavior-format-date-time-field)
-- [Add geolocation](/power-apps/maker/portals/configure/add-geolocation)
+- [Authentication identity](../security/authentication/set-authentication-identity.md)
+- [Azure AD B2C provider](../security/authentication/azure-ad-b2c-provider.md)
+- [OAuth 2.0](../security/authentication/oauth2-settings.md)
+- [OpenID Connect](../security/authentication/openid-settings.md) 
+- [WS-Federation](../security/authentication/ws-federation-provider.md) 
+- [SAML 2.0](../security/authentication/saml2-settings.md)
+- [Migrate identity providers to Azure AD B2C](../security/authentication/migrate-identity-providers.md)
+- [Search within file attachment content](search/file-attachment.md)
+- [Behavior and format of the date and time field](./behavior-format-date-time-field.md)
+- [Add geolocation](add-geolocation.md)
 - [Implementing General Data Protection Regulations](implement-gdpr.md)
-- [Enable header and footer output caching](/power-apps/maker/portals/configure/enable-header-footer-output-caching)
+- [Enable header and footer output caching](enable-header-footer-output-caching.md)
 
 ## Manage global settings
 

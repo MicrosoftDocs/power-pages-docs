@@ -16,7 +16,7 @@ contributors:
 
 # Enhanced view filter for lists
 
-You can use table Permissions if you want to secure records.  If you want to filter records based on the current portal user’s context, you can configure a filter on the underlying model-driven view definition used by the List using the [Data workspace](data-workspace-views.md). This feature supports filtering of the current user, user's parent account, or website at any depth. Build the view filter to match any single contact record and the code will replace its value with the actual value at runtime&mdash;no need to assign values to fields in the Filter Conditions section.
+You can use table permissions if you want to secure records.  If you want to filter records based on the current portal user’s context, you can configure a filter on the underlying model-driven view definition used by the list using the [Data workspace](data-workspace-views.md). This feature supports filtering of the current user, user's parent account, or website at any depth. Build the view filter to match any single contact record and the code will replace its value with the actual value at runtime&mdash;no need to assign values to fields in the Filter Conditions section.
 
 - The control will find all condition elements where uitype="contact" and set the value to the actual value of the current website user's contact ID.
 - The control will find all condition elements where uitype="account" and set the value to the actual value of the current website user's parent account ID.

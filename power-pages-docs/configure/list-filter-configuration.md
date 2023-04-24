@@ -18,6 +18,8 @@ contributors:
 
 Adding the ability to filter records on a list is easy: enable the filtering option and then choose one or more filter types to display to users. It's possible to filter by an attribute that matches text provided by the user, or to select from a series of options. You can even design virtually any type of filter you can imagine by using Advanced Find.
 
+You can also [configure list filters](../getting-started/add-list.md#list-filters) using the Power Pages design studio.
+
 **Enable the list filter**
 
 In the **Metadata Filter** section, select the **Enabled** check box. This will add the Filter area to the list when it's displayed. Until you've defined at least one filter type, the box will appear empty.
