@@ -16,6 +16,8 @@ contributors:
 
 # Implement privacy
 
+As an administrator, you can configure your Power Pages sites to meet the requirements of privacy laws and regulations for your country/region.
+
 [!INCLUDE [gdpr-intro](~/../shared-content/shared/privacy-includes/gdpr-intro.md)]
 
 ## Audit logging
@@ -57,7 +59,7 @@ When someone registers using an external provider and the webpage is configured 
 
 ## Agreeing to terms and conditions
 
-Certain privacy laws and regulations may require users to agree to the terms and conditions to allow marketing, profiling, or access to private information. As an administrator, you can publish your own terms and conditions to get consent of the user before they're authenticated to the site.
+Privacy laws and regulations may require users to agree to the terms and conditions to allow marketing, profiling, or access to private information. As an administrator, you can publish your own terms and conditions to get consent of the user before they're authenticated to the site.
 
 The following content snippets control the display of terms and conditions on the screen. You can change the text according to your requirements.
 
