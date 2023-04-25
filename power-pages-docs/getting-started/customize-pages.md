@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites with the design studio pag
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/10/2023
+ms.date: 4/25/2023
 ms.subservice:
 ms.author: clromano 
 ms.reviewer: kkendrick
@@ -50,11 +50,25 @@ For a more immersive editing experience, you can use the full-screen editing mod
 
 :::image type="content" source="media/common/page-edit-options.png" alt-text="Controls for immersive editing options, including zoom in, zoom out, and reset.":::
 
+## Edit components
+
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 
 > [!NOTE]
 > - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
 > - For sites created using Power Pages prior to September 23, 2022 there is a known issue related to themes. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
+
+### Edit code components (preview)
+
+Code component properties are editable inside of the Pages workspace.
+
+To edit a code component:
+
+1. Select the component and choose **Edit code component** from the toolbar.
+
+1. Set properties for your code component.
+
+1. Select **Done**.
 
 ### See also
 
