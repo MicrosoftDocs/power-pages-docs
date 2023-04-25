@@ -16,7 +16,7 @@ contributors:
 
 # Implement privacy
 
-As an administrator, you can configure your Power Pages sites to comply with privacy laws and regulations for your country/region.
+As an administrator, you can configure your Power Pages sites to implement privacy protections.
 
 [!INCLUDE [gdpr-intro](~/../shared-content/shared/privacy-includes/gdpr-intro.md)]
 
