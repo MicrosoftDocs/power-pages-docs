@@ -140,7 +140,7 @@ To enable a code component:
 
 Custom components are now enabled for that field.
 
-### Enable code component properties on form fields (preview)
+### Edit code component properties on form fields (preview)
 
 You can also edit the properties of a component from inside the Pages workspace.
 
