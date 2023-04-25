@@ -16,9 +16,9 @@ contributors:
 
 # Configure site markers for websites
 
-A site marker is a configurable, named value that points to a page on your website that is accessed in code in place of a hard coded URL.
+A site marker is a configurable, named value that points to a page on your website that is accessed in code in place of a hard-coded URL.
 
-Using a site marker instead of hard-coded URL means that page can be moved in the website hierarchy and the link will continue to work without and other modification.
+Using a site marker instead of hard-coded URL means that page can be moved in the website hierarchy and the link will continue to work without any other modification.
 
 ## Manage site markers
 
