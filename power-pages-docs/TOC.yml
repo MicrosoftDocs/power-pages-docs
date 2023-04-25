@@ -292,6 +292,8 @@
         href: configure/place-child-nodes.md
       - name: Configure website redirects
         href: configure/add-redirect-url.md
+      - name: Configure site markers
+        href: configure/configure-site-markers.md        
       - name: Configure webpage ratings
         href: configure/rate-webpage.md
       - name: Configure web files
