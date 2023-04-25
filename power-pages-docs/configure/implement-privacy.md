@@ -4,7 +4,7 @@ description: Learn how to implement privacy protectionsw in Power Pages. Identif
 author: sandhangitmsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/07/2023
+ms.date: 4/25/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -16,9 +16,7 @@ contributors:
 
 # Implement privacy
 
-The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, people can control the use of their personal data in the Microsoft Dataverse.
-
-As an administrator, you can configure your Power Pages site to meet GDPR standards. GDPR allows you to obtain consent from users about the use of their personal data, identify minor users, and get parental consent for minors.
+[!INCLUDE [gdpr-intro](~/../shared-content/shared/privacy-includes/gdpr-intro.md)]
 
 ## Audit logging
 
@@ -59,7 +57,7 @@ When someone registers using an external provider and the webpage is configured 
 
 ## Agreeing to terms and conditions
 
-According to the GDPR, users must agree to the terms and conditions to allow marketing, profiling, or access to private information. As an administrator, you can publish your own terms and conditions to get consent of the user before they're authenticated to the site.
+Certain privacy laws and regulations may require users to agree to the terms and conditions to allow marketing, profiling, or access to private information. As an administrator, you can publish your own terms and conditions to get consent of the user before they're authenticated to the site.
 
 The following content snippets control the display of terms and conditions on the screen. You can change the text according to your requirements.
 
