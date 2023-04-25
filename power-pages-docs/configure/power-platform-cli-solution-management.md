@@ -39,7 +39,7 @@ Example:
 
 ## Add existing website to a solution
 
-You will need to determine the **component type** and **component id** in order to add a website to a solution using the PAC CLI.
+You'll need to determine the **component type** and **component id** in order to add a website to a solution using the PAC CLI.
 
 ### Determining component types
 
@@ -49,7 +49,7 @@ You can get the `componentType` by sending a **GET** request using the Web API O
 
 :::image type="content" source="media/cli-solutions/component_types.png" alt-text="List of component types.":::
 
-### Determining component id
+### Determining component ID
 
 You can get the `componentId` by sending a **GET** request using the Web API OData call.
 
@@ -62,9 +62,9 @@ The example shown below is using the `powerpagesite` endpoint.
 
 `{OrgURL}/api/data/v9.1/powerpagesites?$select=name`
 
-:::image type="content" source="media/cli-solutions/component_ids.png" alt-text="List of component ids.":::
+:::image type="content" source="media/cli-solutions/component_ids.png" alt-text="List of component IDs.":::
 
-Once you have determined the component type and id, use the following command to add an existing website to a solution using the PAC CLI;
+Once you have determined the component type and ID, use the following command to add an existing website to a solution using the PAC CLI;
 
 `pac solution add-solution-component`
 
@@ -73,13 +73,13 @@ Example:
 `pac solution add-solution-component -sn SampleSolution -c c6f2aec0-ddd2-ed11-a7c6-6045bdf05d59 -ct 10319`
 
 In this example; 
-- **SampleSolution** represents solution unique name.
-- **c6f2aec0-ddd2-ed11-a7c6-6045bdf05d59** is Power Pages Site record ID.
-- **10319** is Power Pages site solution `CompomponentType` from the above Web API response.
+- `SampleSolution` represents solution unique name.
+- `c6f2aec0-ddd2-ed11-a7c6-6045bdf05d59` is Power Pages Site record ID.
+- `10319` is Power Pages site solution `CompomponentType` from the above Web API response.
 
 Use `pac solution sync` or `pac solution export` to export the solution using the PAC CLI.
 
-Power Pages website configuration can then moved using Power Platform ALM processes.
+Power Pages website configuration can then be moved using Power Platform ALM processes.
 
 ### See also
 
