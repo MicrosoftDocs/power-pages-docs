@@ -120,4 +120,4 @@ Editing the site configuration data in the target environment is discouraged as 
 
 ## See Also
 - [Power Pages enhanced data model](../admin/enhanced-data-model.md)
-
+- [Power Platform CLI solution management](../configure/power-platform-cli-solution-management.md)

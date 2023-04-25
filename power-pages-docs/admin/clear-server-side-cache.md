@@ -27,8 +27,8 @@ Metadata/configuration tables represent all the tables that store website config
 The following tables are considered as **configuration** tables. This list is fixed and can't be modified through any configuration.
 
 > [!NOTE]
-> The tables used for site configuration will depend if the site has been configured using the standard or enhanced data model. See [Enhanced data model](enhanced-data-model.md) for more information.
-
+> - The tables used for site configuration will depend if the site has been configured using the standard or enhanced data model. See [Enhanced data model](enhanced-data-model.md) for more information.
+> - These tables cannot be modified.
 
 | System table | Enhanced data model virtual table | Standard data model table |
 | - | - | - |

@@ -61,7 +61,8 @@ Non-configuration tables are feature specific tables that contain transactional 
 The Power Pages virtual tables represent and contain the metadata of the specific website components. The virtual tables point to the system tables that contain the website metadata in JSON format. The content in the virtual tables can be updated and configured through the [Power Pages management app](#edit-site-using-the-power-pages-management-app) which has the identical look and feel of the legacy [Portal Management app](../configure/portal-management-app.md).
 
 > [!NOTE]
-> If you have developed any custom code or tools that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
+> - If you have developed any custom code or tools that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
+> - These tables cannot be modified.
 
 | System table | Enhanced data model virtual table | Standard data model table |
 | - | - | - |
@@ -213,4 +214,5 @@ New websites created using the enhanced data model can be edited using the new P
 
 ## See also
 
-[Using solutions with Power Pages](../configure/power-pages-solutions.md)
+- [Using solutions with Power Pages](../configure/power-pages-solutions.md)
+- [Power Platform CLI solution management](../configure/power-platform-cli-solution-management.md)
