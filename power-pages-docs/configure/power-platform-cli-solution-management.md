@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/25/2023
+ms.date: 04/26/2023
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -43,7 +43,7 @@ You'll need to determine the **component type** and **component id** in order to
 
 ### Determining component types
 
-You can get the `componentType` by sending a **GET** request using the Web API OData call.
+You can get the specific Power Pages `componentType` names and values by sending a **GET** request using the Dataverse Web API OData call. 
 
 `{OrgURL}/api/data/v9.1/solutioncomponentdefinitions?filter=startswith(name,'powerpage')&select=name,solutioncomponenttype`
 

@@ -190,11 +190,23 @@ The **Power Pages Management** application allows you to make advance customizat
 
 :::image type="content" source="media/enhanced-data-model/edit-site-power-pages-management.png" alt-text="Edit website using Power Pages Management app.":::
 
+## Data model Power Platform CLI parameters
+
+You can use an optional `dataModel` parameter when uploading or downloading website configuration data using the Power Platform CLI. 
+
+Download
+`pac paportal download --path <path> --webSiteId <siteId> --dataModel <enhanced/standard>`
+
+Upload
+`pac paportal upload --path <path> --dataModel <enhanced/standard>`
+
+See [Power Platform CLI parameters](../configure/power-platform-cli.md#parameters) for more information.
+
 ## Frequently asked questions: 
 
 ### How can I update a website from the standard data model to the enhanced data model?
 
-Guidance to update from the standard data model to enhanced data model will be delivered in a later update.
+Guidance and tooling support to update from the standard data model to enhanced data model will be delivered in a later update.
 
 ### Can I edit new sites based on enhanced data model configurations in the Portal management app? 
 
@@ -204,13 +216,9 @@ New websites created using the enhanced data model can be edited using the new P
 
 1. A logged website user will see a list of all supported languages instead of just the website enabled languages on the language selection on the user profile page.
 
-1. The default search feature won't return any results.
-
-1. Editing of the company logo and header from the design studio isn't supported on new data model.
+1. The search feature won't return any web page results.
 
 1. Enable traffic analysis isn't available for websites using the enhanced data model.
-
-1. The preview capabilities of the design studio may have some missing styling and images.
 
 ## See also
 
