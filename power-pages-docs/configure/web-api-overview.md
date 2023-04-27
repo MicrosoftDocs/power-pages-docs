@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: overview
 ms.custom: 
-ms.date: 03/28/2023
+ms.date: 4/25/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -96,7 +96,7 @@ You can determine the **EntitySetName** of specific tables by following these st
 
     :::image type="content" source="media/web-api/entitysetname.png" alt-text="How to locate EntitySetName of a Dataverse table.":::
 
-## General Data Protection Regulation (GDPR)
+## Privacy laws and regulations
 
 All request headers will have a contact ID passed for auditing purposes. For an anonymous user, this will be passed as `null`.
 
@@ -104,7 +104,7 @@ If audit logging is enabled, a user can see all the audit events in the [Office 
 
 :::image type="content" source="media/web-api/office365-security-compliance-audit-log.png" alt-text="Office 365 audit log..":::
 
-More information:<br>[Enable and use activity logging](/power-platform/admin/enable-use-comprehensive-auditing)<br>[Export, configure, and view audit log records](/microsoft-365/compliance/export-view-audit-log-records)
+More information:<br />[Enable and use activity logging](/power-platform/admin/enable-use-comprehensive-auditing)<br />[Export, configure, and view audit log records](/microsoft-365/compliance/export-view-audit-log-records)
 
 ## Unsupported configuration tables
 
