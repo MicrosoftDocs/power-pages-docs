@@ -198,8 +198,116 @@
           href: admin/migrate-site-configuration.md
 - name: Configure Power Pages
   items:
-    - name: Portal Management app overview
-      href: configure/portal-management-app.md
+    - name: Portal Management app
+      items:
+      - name: Portal Management app overview
+        href: configure/portal-management-app.md
+      - name: Configure site settings
+        href: configure/configure-site-settings.md
+      - name: Configure form and list metadata
+        items:
+        - name: Configure lists
+          items:
+          - name: Lists overview   
+            href: configure/lists.md
+          - name: List attributes and relationships
+            href: configure/list-attributes-relationships.md  
+          - name: Sort list
+            href: configure/sort-lists.md
+          - name: Add custom JavaScript to a list
+            href: configure/add-custom-javascript-list.md
+          - name: List configuration
+            href: configure/list-configuration.md
+          - name: Securing lists
+            href: configure/securing-lists.md
+          - name: Add a view details page          
+            href: configure/list-view-details.md
+          - name: List filter configuration
+            href: configure/list-filter-configuration.md
+          - name: List map view
+            href: configure/list-map-view.md
+          - name: List calendar view      
+            href: configure/list-calendar-view.md
+          - name: Enhanced view filter for lists
+            href: configure/list-enhanced-view-filter.md
+        - name: Configure basic forms
+          items:
+          - name: Basic forms overview
+            href: configure/basic-forms.md
+          - name: Configure basic form metadata
+            href: configure/configure-basic-form-metadata.md
+          - name: Configure basic form subgrids
+            href: configure/configure-basic-form-metadata.md
+        - name: Configure multistep forms
+          items:
+          - name: Define multistep form properties
+            href: configure/multistep-form-properties.md             
+          - name: Multistep form steps
+            items:
+            - name: Define multistep form steps
+              href: configure/multistep-form-steps.md
+            - name: Define a load form and load tab step type
+              href: configure/load-form-step.md
+            - name: Add a redirect step type
+              href: configure/add-redirect-step.md
+            - name: Add a conditional step type
+              href: configure/add-conditional-step.md
+            - name: Add custom JavaScript
+              href: configure/add-custom-javascript.md
+            - name: Configure multistep form metadata
+              href: configure/configure-multistep-form-metadata.md
+            - name: Configure a multistep form subgrid
+              href: configure/configure-multistep-form-subgrid.md
+            - name: Add geolocation
+              href: configure/add-geolocation.md
+      - name: Add chart on a web page in portal
+        href: configure/add-chart.md    
+      - name: Enable multiple languages
+        items:
+        - name: Enable multiple-language support
+          href: configure/enable-multiple-language-support.md
+        - name: Behavior and format of the Duration, Date and Time fields
+          href: configure/behavior-format-date-time-field.md
+      - name: Setup HTTP headers
+        href: configure/cors-support.md
+      - name: Configure advertisements
+        href: configure/create-run-advertisement.md
+      - name: Configure choices column 
+        href: configure/choices-column.md          
+      - name: Configure content snippets
+        href: configure/customize-content-snippets.md
+      - name: Configure file column
+        href: configure/file-column.md
+      - name: Configure header and footer output caching
+        href: configure/enable-header-footer-output-caching.md
+      - name: Configure image column
+        href: configure/image-column.md         
+      - name: Configure page templates
+        href: configure/page-templates.md
+      - name: Configure polls
+        href: configure/gather-feedback-poll.md
+      - name: Configure publishing states
+        href: configure/publishing-states.md
+      - name: Configure shortcuts
+        href: configure/place-child-nodes.md
+      - name: Configure website redirects
+        href: configure/add-redirect-url.md
+      - name: Configure site markers
+        href: configure/configure-site-markers.md        
+      - name: Configure webpage ratings
+        href: configure/rate-webpage.md
+      - name: Configure web files
+        href: configure/web-files.md
+      - name: Configure web links
+        href: configure/manage-web-links.md
+      - name: Configure webpages
+        href: configure/web-page.md
+      - name: Configure websites
+        href: configure/websites.md
+      - name: Configure website bindings
+        href: configure/website-bindings.md
+      - name: View activities in a form timeline
+        href: configure/view-all-activities-in-portal-timeline.md
     - name: Search Configuration
       items:
         - name: Search overview
