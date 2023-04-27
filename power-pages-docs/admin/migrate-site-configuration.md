@@ -45,12 +45,15 @@ Migration involves exporting the existing configuration from the source Microsof
 
 1. [Transfer](#transfer-website-metadata) the site metadata from the source environment using the Power Platform CLI or the Configuration Migration Tool.
 
-1. On the target environment, using Power Apps, provision a new website using the existing website option. This process will configure a website using the site configuration you transferred from the source environment.
+1. On the target environment, on the Power Pages home screen, select **Inactive sites**, you should see the website you migrated to the environment.
 
-    :::image type="content" source="media/migrate-portal-config/provision-portal.png" alt-text="Provision new portal.":::
+1. Select **Reactivate**.
 
-    > [!NOTE]
-    > The ability to create a site using the existing website option is only currently available in Power Apps.
+    :::image type="content" source="media/migrate-portal-config/reactivate-website.png" alt-text="Reactivate website.":::
+
+1. You can specify the **Reactivated website** name and **Create a web address** or leave default values.
+
+1. Select **Done**.
 
 1. The website updates from the source environment should be reflected in this new target environment. Going forward, you should be able to transfer configuration from your source to target environments by transferring the website configuration data.
 
