@@ -45,7 +45,7 @@ You'll need to determine the **component type** and **component id** in order to
 
 You can get the specific Power Pages `componentType` names and values by sending a **GET** request using the Dataverse Web API OData call. 
 
-`{OrgURL}/api/data/v9.1/solutioncomponentdefinitions?filter=startswith(name,'powerpage')&select=name,solutioncomponenttype`
+`{OrgURL}/api/data/v9.1/solutioncomponentdefinitions?filter=startswith(name,'powerpage')$&select=name,solutioncomponenttype`
 
 :::image type="content" source="media/cli-solutions/component_types.png" alt-text="List of component types.":::
 
