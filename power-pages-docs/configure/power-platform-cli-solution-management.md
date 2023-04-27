@@ -15,7 +15,7 @@ contributors:
     - nickdoelman
 ---
 
-# Microsoft Power Platform CLI solution support for Power Pages
+# Microsoft Power Platform CLI solution support for Power Pages (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
