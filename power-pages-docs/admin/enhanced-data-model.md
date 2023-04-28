@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/18/2023
+ms.date: 04/28/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -68,7 +68,7 @@ The Power Pages virtual tables represent and contain the metadata of the specifi
 | - | - | - |
 |powerpagesite|mspp_website|adx_website|
 |powerpagesitelanguage|mspp_websitelanguage|adx_websitelanguage|
-| powerpagecomponent | mspp_columnpermission</br>mspp_columnpermissionprofile</br>mspp_contentsnippet</br>mspp_entityform</br>mspp_entityformmetadata</br>mspp_entitylist</br>mspp_entitypermission</br>mspp_pagetemplate</br>mspp_pollplacement</br>mspp_publishingstate</br>mspp_publishingstatetransitionrule</br>mspp_redirect</br>mspp_shortcut</br>mspp_sitemarker</br>mspp_sitesetting</br>mspp_webfile</br>mspp_webform</br>mspp_webformmetadata</br>mspp_webformstep</br>mspp_weblink</br>mspp_weblinkset</br>mspp_webpage</br>mspp_webpageaccesscontrolrule</r>mspp_webrole</br>mspp_websiteaccess</br>mspp_websitelanguage</br>mspp_webtemplate</br>mspp_columnpermissionvalues</br>|adx_columnpermission</br>adx_columnpermissionprofile</br>adx_contentsnippet</br>adx_entityform</br>adx_entityformmetadata</br>adx_entitylist</br>adx_entitypermission</br>adx_pagetemplate</br>adx_pollplacement</br>adx_publishingstate</br>adx_publishingstatetransitionrule</br>adx_redirect</br>adx_shortcut</br>adx_sitemarker</br>adx_sitesetting</br>adx_webfile</br>adx_webform</br>adx_webformmetadata</br>adx_webformstep</br>adx_weblink</br>adx_weblinkset</br>adx_webpage</br>adx_webpageaccesscontrolrule</br>adx_webrole</br>adx_websiteaccess</br>adx_webtemplate</br>adx_columnpermissionvalues</br>|
+| powerpagecomponent | mspp_columnpermission</br>mspp_columnpermissionprofile</br>mspp_contentsnippet</br>mspp_entityform</br>mspp_entityformmetadata</br>mspp_entitylist</br>mspp_entitypermission</br>mspp_pagetemplate</br>mspp_pollplacement</br>mspp_publishingstate</br>mspp_publishingstatetransitionrule</br>mspp_redirect</br>mspp_shortcut</br>mspp_sitemarker</br>mspp_sitesetting</br>mspp_webfile</br>mspp_webform</br>mspp_webformmetadata</br>mspp_webformstep</br>mspp_weblink</br>mspp_weblinkset</br>mspp_webpage</br>mspp_webpageaccesscontrolrule</br>mspp_webrole</br>mspp_websiteaccess</br>mspp_websitelanguage</br>mspp_webtemplate</br>|adx_columnpermission</br>adx_columnpermissionprofile</br>adx_contentsnippet</br>adx_entityform</br>adx_entityformmetadata</br>adx_entitylist</br>adx_entitypermission</br>adx_pagetemplate</br>adx_pollplacement</br>adx_publishingstate</br>adx_publishingstatetransitionrule</br>adx_redirect</br>adx_shortcut</br>adx_sitemarker</br>adx_sitesetting</br>adx_webfile</br>adx_webform</br>adx_webformmetadata</br>adx_webformstep</br>adx_weblink</br>adx_weblinkset</br>adx_webpage</br>adx_webpageaccesscontrolrule</br>adx_webrole</br>adx_websiteaccess</br>adx_websitelanguage</br>adx_webtemplate</br>|
 
 ## ​​Enable environment for enhanced data model  
 
@@ -80,12 +80,12 @@ You'll first need to enable the enhanced data model on your Power Platform envir
 Once the enhanced data model is enabled, when you provision a new website using one of the following templates, they'll utilize the enhanced data model;
 
 - Starter layout 1-5
-- Program registration
 - Application processing
 - Blank page
 
 The following templates will use the standard data model even if the enhanced data model is enabled on the environment:
 
+- Program registration
 - Schedule meetings
 - FAQ (preview)
 - Community (Dynamics 365)
@@ -118,14 +118,6 @@ Follow these steps to enable the new data model for a specific environment.
 You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. Disabling the enhanced data model won't remove the solution packages or delete any websites. 
 
 Existing websites created using the enhanced data model will continue to operate. Any new website created will use the standard data model.
-
-## Update enhanced data model packages 
-
-When new data model packages (**Power Pages Core**) updates are available, you'll see a message in the Power Platform admin center.
-
-Select the package and then select **Update** to install the latest packages. 
-
-The **Update** option will be enabled once the new package is available. See [Update the Power Pages solution](../admin/update-solution.md#view-package-details). 
 
 ## Create a website with an enhanced data model 
 
