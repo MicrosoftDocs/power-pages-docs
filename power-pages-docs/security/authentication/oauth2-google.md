@@ -69,5 +69,4 @@ After you've created the app in Google, configure the site settings for the prov
 
 ## (Optional) Step 3. Additional settings
 
-To configure **Additional settings** for the Google provider, see [Configure additional settings for OAuth 2.0 providers](/power-apps/maker/portals/configure/configure-oauth2-settings).
-
+[!INCLUDE [cc-optional-settings-identity-provider](../../includes/cc-optional-settings-identity-provider.md)]
