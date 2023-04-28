@@ -568,6 +568,10 @@
       href: getting-started/tutorial-add-custom-page-layout.md
 - name: Training videos
   href: training-videos/index.md
+- name: Responsible AI transparency notes
+  items:
+    - name: Overview
+      href: transparency-note-overview.md  
 - name: Compliance and accessibility
   items:
     - name: Accessibility
