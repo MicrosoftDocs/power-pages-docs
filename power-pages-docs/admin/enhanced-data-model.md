@@ -156,6 +156,9 @@ When using the [Power Platform CLI](../configure/power-platform-cli.md), you'll 
 
 `pac paportal list -v`
 
+> [!NOTE]
+> This parameter is supported from Power Platform CLI version 1.22.4 onwards.
+
 All of the available sites in the Power Pages home page **Active sites** section. This list shows sites that are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
 
 ## Editing newly created site on new data model  
