@@ -33,7 +33,7 @@ Each environment will required a site that is created using the new data model. 
 
 1. From the Power Pages home page, select the **Solutions** tab.
 
-:::image type="content" source="media/solutions/power-pages-home-solutions.png" alt-text="Solutions on Power Pages home page.":::
+    :::image type="content" source="media/solutions/power-pages-home-solutions.png" alt-text="Solutions on Power Pages home page.":::
 
 1. Create a new solution using the new solution command on the command bar. Fill in the solution details and select **Create** to create the new solution. 
 
@@ -102,7 +102,7 @@ Once the solution is imported, it will appear under solutions list.
 
 1. Choose the **Edit** button from the **Site Details** section and select the imported site record in the **Website Record** dropdown, then choose Save.
 
-:::image type="content" source="media/solutions/link-site.png" alt-text="Text used by screen readers.":::
+    :::image type="content" source="media/solutions/link-site.png" alt-text="Text used by screen readers.":::
 
 1. Choose **Site Actions**, and then **Restart site**.
 
