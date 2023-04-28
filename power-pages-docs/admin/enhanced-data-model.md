@@ -184,7 +184,7 @@ The **Power Pages Management** application allows you to make advance customizat
 
 ## Data model Power Platform CLI parameters
 
-You need to the `modelVersion` parameter when uploading or downloading enhanced data model website configuration data using the Power Platform CLI. The value of `2` indicates to use the enhanced data model. 
+You need to use the `modelVersion` parameter when uploading or downloading enhanced data model website configuration data using the Power Platform CLI. The value of `2` indicates to use the enhanced data model. 
 
 Download
 `pac paportal download --path <path> --webSiteId <siteId> --modelVersion 2`
