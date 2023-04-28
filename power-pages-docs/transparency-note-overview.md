@@ -18,5 +18,5 @@ contributors:
 
 [!INCLUDE[transparency-note-features](includes/transparency-note-features.md)]
 
-- [Natural language to text](transparency-note/text-content-ideas.md)
-- [Natural language to form](transparency-note/generate-form.md)  
+- [Natural language to text](transparency-note-generate-text.md)
+- [Natural language to form](transparency-note-generate-form.md)  
