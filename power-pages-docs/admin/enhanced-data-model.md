@@ -176,7 +176,7 @@ Users can select the **Portal management app** option from the Power Pages home 
 > [!NOTE]
 > The new data model comes with new UCI model-driven Power App application with name **Power Pages management.** You will need to use this application for advanced customizations which are not available using the Power Pages design studio.  
 
-You can also open the **Power Pages Management** application from Power Pages design studio. Select **…** followed by **Portal management**. 
+You can also open the **Power Pages Management** application from Power Pages design studio. Select the ellipse **…** followed by **Portal management**. 
 
 The **Power Pages Management** application allows you to make advance customizations unavailable in the design studio.
 
