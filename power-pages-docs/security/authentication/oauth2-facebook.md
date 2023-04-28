@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/6/2023
+ms.date: 04/28/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -17,6 +17,8 @@ contributors:
 # Configure the Facebook provider for Power Pages
 
 As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md), Facebook is one of several identity providers that use the OAuth 2.0 protocol. To get started with configuring Facebook as the identity provider, select **Configure** from the [provider settings](configure-site.md#add-configure-or-delete-an-identity-provider) page.
+
+:::image type="content" source="../media/authentication/facebook.jpg" alt-text="Configuration options for the Facebook identity provider.":::
 
 ## Step 1. Create a Facebook app
 
