@@ -192,6 +192,9 @@ Download
 Upload
 `pac paportal upload --path <path> --modelVersion 2`
 
+> [!NOTE]
+> This parameter is supported from Power Platform CLI version 1.22.4 onwards.
+
 See [Power Platform CLI parameters](../configure/power-platform-cli.md#parameters) for more information.
 
 ## Frequently asked questions: 
