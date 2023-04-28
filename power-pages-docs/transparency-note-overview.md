@@ -1,7 +1,7 @@
 ---
 title: Transparency notes for Power Pages
 description: Transparency notes discusses AI technology in Power Pages and the key considerations for making use of this technology responsibly.
-author: ndoelman
+author: nickdoelman
 ms.topic: article
 ms.custom: transparency-note
 ms.date: 04/28/2023
@@ -17,3 +17,6 @@ contributors:
 [!INCLUDE[transparency-note-intro](includes/transparency-note-intro.md)]
 
 [!INCLUDE[transparency-note-features](includes/transparency-note-features.md)]
+
+- [Natural language to text](transparency-note/text-content-ideas.md)
+- [Natural language to form](transparency-note/generate-form.md)  

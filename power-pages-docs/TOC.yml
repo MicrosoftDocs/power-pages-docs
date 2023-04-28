@@ -571,7 +571,11 @@
 - name: Responsible AI transparency notes
   items:
     - name: Overview
-      href: transparency-note-overview.md  
+      href: transparency-note-overview.md
+    - name: Natural language to text
+      href: transparency-note/text-content-ideas.md
+    - name: Natural language to form
+      href: transparency-note/generate-form.md             
 - name: Compliance and accessibility
   items:
     - name: Accessibility
