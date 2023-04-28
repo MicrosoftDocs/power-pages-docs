@@ -148,7 +148,7 @@ The new data model sites are at functional parity, you can see which data model 
 
 You'll also be able to view the data model being used from with the **Setup** workspace in the design studio.
 
-You can also identify the data model used by opening the **Portals Management app** application as the new data model application name will be **Power Pages Management** instead of **Portals Management** application. 
+You can also identify the data model used by opening the **Portal Management app** application as the new data model application name will be **Power Pages Management** instead of **Portal Management** application. 
 
 :::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::
 
@@ -171,7 +171,7 @@ Users can select **Edit** option from the Power Pages home page site card to ope
 
 ## Edit site using the Power Pages Management app
 
-Users can select the **Portals management app** option from the Power Pages home site card to open the **Power Pages management** application.  Select **…** followed by **Portal management**.
+Users can select the **Portal management app** option from the Power Pages home site card to open the **Power Pages management** application.  Select the ellipse **…** followed by **Portal management**.
 
 > [!NOTE]
 > The new data model comes with new UCI model-driven Power App application with name **Power Pages management.** You will need to use this application for advanced customizations which are not available using the Power Pages design studio.  
