@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 04/28/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -213,9 +213,7 @@ Portals support for Microsoft Power Platform CLI is limited to the tables listed
 :::row-end:::
 
 > [!IMPORTANT]
-> - Custom tables and portal template-specific tables (such as
-blog, community, or ideas portal) are not supported for customization using
-Microsoft Power Platform CLI.
+> - Custom tables and portal template-specific tables (such as blog, community, or ideas portal) are not supported for customization using Microsoft Power Platform CLI.
 > - Image file attachments to ad (adx_ad) records are not downloaded using the Power Platform CLI. As a workaround, use the **Image URL** field, or by adding an HTML reference in the **Copy** field to a [web file](/power-apps/maker/portals/configure/web-files) record containing an image file.
 
 ## Install and verify Microsoft Power Platform CLI for portals
@@ -233,15 +231,15 @@ Microsoft Power Platform CLI command for portals is "*paportal"*.
 
 The following sections provide more details about different properties of the "*paportal"* command.
 
-#### Parameters
+### Parameters
 
 |Property Name|Description|Example|
 |-------------|-----------|-------|
-|[list](/power-platform/developer/cli/reference/paportal#pac-paportal-list)|Lists all portal websites from the current Dataverse environment. |`pac paportal list`|
-|[download](/power-platform/developer/cli/reference/paportal#pac-paportal-download)|Download portal website content from the current Dataverse environment. It has the following parameters: <br/> - *path*: Path where the website content will be downloaded (alias: -p)<br/> - *webSiteId*: Portal website ID to download (alias: -id)<br/> - *overwrite*: (Optional) true - to overwrite existing content; false - to fail if the folder already has website content (alias: -o)|`pac paportal download --path "C:\portals" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902`|
-|[upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload)|Upload portal website content to the current Dataverse environment. It has the following parameter: <br/> - *path*: Path where the website content is stored (alias: -p) <br/> -*deploymentProfile*: Upload portal data with environment details defined through [profile variables](#use-deployment-profile) in *deployment-profiles/[profile-name].deployment.yaml* file  |`pac paportal upload --path "C:\portals\starter-portal" --deploymentProfile "profile-name"`|
+|[list](/power-platform/developer/cli/reference/paportal#pac-paportal-list)|Lists all portal websites from the current Dataverse environment.<br/><br/>**Preview**<br/> You can add the *-v* parameter to indicate if the site is using the standard or [enhanced data model](../admin/enhanced-data-model.md) |`pac paportal list`|
+|[download](/power-platform/developer/cli/reference/paportal#pac-paportal-download)|Download portal website content from the current Dataverse environment. It has the following parameters: <br/> - *path*: Path where the website content will be downloaded (alias: -p)<br/> - *webSiteId*: Portal website ID to download (alias: -id)<br/> - *overwrite*: (Optional) true - to overwrite existing content; false - to fail if the folder already has website content (alias: -o)<br/><br/>**Preview**</br> - *modelVersion*: `1` or `2` to indicate if the site data to be downloaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac paportal download --path "C:\portals" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902`|
+|[upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload)|Upload portal website content to the current Dataverse environment. It has the following parameter: <br/> - *path*: Path where the website content is stored (alias: -p) <br/> -*deploymentProfile*: Upload portal data with environment details defined through [profile variables](#use-deployment-profile) in *deployment-profiles/[profile-name].deployment.yaml* file<br/><br/>**Preview**</br> - *modelVersion*: `1` or `2` to indicate if the site data to be uploaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac paportal upload --path "C:\portals\starter-portal" --deploymentProfile "profile-name"`|
 
-##### Use deployment profile
+#### Use deployment profile
 
 The **deploymentProfile** switch allows you to define a set of variables for the environment in YAML format. For example, you can have different deployment profiles (such as dev, test, prod) that have different schema details defined in the profile.
 
