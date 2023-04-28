@@ -1,7 +1,7 @@
 ---
 title: Transparency note for natural language to text
 description: The transparency note discusses natural language to text and the key considerations for making use of this technology responsibly.
-ms.date: 28/04/2023
+ms.date: 04/18/2023
 ms.custom: transparency-note
 ms.topic: article
 author: vashr

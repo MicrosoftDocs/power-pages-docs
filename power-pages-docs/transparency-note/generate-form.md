@@ -11,7 +11,7 @@ ms.reviewer: ndoelman
 
 # Transparency note for natural language to form
 
-This transparency note describes the AI impact of Power Pages's natural language to form feature.
+This transparency note describes the AI impact of Power Pages' natural language to form feature.
 
 ## What is natural language to form?
 

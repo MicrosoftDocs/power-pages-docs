@@ -62,8 +62,6 @@
   items:
     - name: Design and build overview
       href: configure/design-build-overview.md
-    - name: AI transparency
-      href: configure/ai-transparency.md   
     - name: Dataverse and Power Pages
       href: getting-started/what-is-dataverse.md
     - name: Use Pages workspace
