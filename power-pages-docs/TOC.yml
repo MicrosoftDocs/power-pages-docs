@@ -16,6 +16,8 @@
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
+        - name: Use enhanced data model (preview)
+          href: admin/enhanced-data-model.md                   
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
@@ -55,7 +57,7 @@
     - name: Power Pages community
       href: getting-started/community.md
     - name: Plan your Power Pages project
-      href: configure/planning-power-pages-project.md
+      href: configure/planning-power-pages-project.md       
 - name: Design and build
   items:
     - name: Design and build overview
@@ -434,10 +436,14 @@
           href: configure/power-platform-cli-tutorial.md
         - name: Use Visual Studio Code for Power Pages
           href: configure/vs-code-extension.md
+        - name: Power Platform CLI solution management (preview)
+          href: configure/power-platform-cli-solution-management.md         
     - name: Use admin APIs
       href: admin/admin-api.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
+    - name: Using solutions with Power Pages (preview) 
+      href: configure/power-pages-solutions.md  
 - name: Secure Power Pages
   items:
     - name: Overview
