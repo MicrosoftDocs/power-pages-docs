@@ -124,4 +124,4 @@ More information: [Dynamics 365 Intelligent Order Management](/dynamics365/intel
 While using [Power Pages design studio](../../configure/design-build-overview.md) to customize Dynamics 365 templates, consider the following limitations.
 
 - Existing Dynamics 365 templates are not completely editable inside [Pages workspace](../../getting-started/first-page.md). Use [Portal Management app](../../configure/portal-management-app.md) or [Visual Studio Code](../../configure/power-platform-cli-tutorial.md) instead.
-- Styling workspace is not available for Dynamics 365 templates. Instead, use out of the box CSS files or custom CSS files as webfiles for styling. More information: [Create and manage web files](../../configure/web-files.md)
+- [Styling workspace](../../getting-started/style-site.md) is not available for Dynamics 365 templates. Instead, use out of the box CSS files or custom CSS files as webfiles for styling. More information: [Create and manage web files](../../configure/web-files.md)
