@@ -312,7 +312,7 @@ You can also use VS Code extension **Power Platform VS Code Extension** to benef
 
 ## Next steps
 
-[Tutorial: Use Microsoft Power Platform CLI with portals](power-platform-cli-tutorial.md)
+[Tutorial: Use Microsoft Power Platform CLI with portals](power-platform-power-platform-cli-tutorial.md)
 
 ### See also
 

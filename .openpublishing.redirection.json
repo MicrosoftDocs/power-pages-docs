@@ -66,6 +66,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "power-pages-docs/templates/dynamics-365-templates.md",
+      "redirect_url": "/power-pages/templates/dynamics-365-apps/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/configure/cli-tutorial",
+      "redirect_url": "/power-pages/configure/power-platform-cli-tutorial",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "power-pages-docs/security/configure-portal-authentication.md",
       "redirect_url": "/power-pages/security/authentication/configure-site",
       "redirect_document_id": "false"

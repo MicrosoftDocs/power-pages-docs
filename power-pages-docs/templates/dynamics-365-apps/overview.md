@@ -26,24 +26,20 @@ Dynamics 365 templates are available for your Power Pages sites in environments 
 - Dynamics 365 Supply Chain Management
 - Dynamics 365 Intelligent Order Management
 
-> [!NOTE]
-> - Editing capabilities in Power Pages design studio are not available for Dynamics 365 templates, see [known issues](../../known-issues.md#dynamics-365-templates) for alternatives.
-
 ## Customer self-service
 
 The customer self-service site gives customers access to self-service knowledge and support resources.  Customers can also view the progress of their cases and provide feedback.
 
 :::image type="content" source="media/dynamics365-templates/customer-self-service.png" alt-text="Customer self-service template landing page.":::
 
-More information: 
-- [Manage knowledge categories](/power-apps/maker/portals/customer-engagement-apps/configure-knowledge-categories-articles)
+More information: [Manage knowledge categories](configure-knowledge-categories-articles.md)
 
 ## Partner
 
 The partner site template allows organizations with resellers, distributors, suppliers, or partners to have real-time access to every stage of shared activities.
 
 >[!NOTE]
->Field Service and Project Operations packages must be installed in your Dynamics 365 environment to enable respective options. For more information, see [Integrate Project Service Automation](/dynamics365/portals/integrate-project-service-automation) and [Integrate Field Service](/dynamics365/portals/integrate-field-service).
+>Field Service and Project Operations packages must be installed in your Dynamics 365 environment to enable respective options. For more information, see [Integrate Project Service Automation](integrate-project-service-automation.md) and [Integrate Field Service](integrate-field-service.md).
 
 :::image type="content" source="media/dynamics365-templates/partner.png" alt-text="Partner template landing page.":::
 
@@ -53,10 +49,10 @@ The partner site template allows organizations with resellers, distributors, sup
 More information:
 
 - [Site limits for site template type](/power-apps/maker/portals/create-additional-portals)
-- [Use Opportunity record in Partner site](/power-apps/maker/portals/customer-engagement-apps/create-edit-and-distribute-opportunities-in-dynamics-365)
-- [Configure web roles for a Partner site](/power-apps/maker/portals/customer-engagement-apps/configure-web-roles-partner-portal)
-- [Field Service integration](/power-apps/maker/portals/customer-engagement-apps/integrate-field-service)
-- [Project Service Automation integration](/power-apps/maker/portals/customer-engagement-apps/integrate-project-service-automation)
+- [Use Opportunity record in Partner site](create-edit-and-distribute-opportunities-in-dynamics-365.md)
+- [Configure web roles for a Partner site](configure-web-roles-partner-portal.md)
+- [Field Service integration](integrate-field-service.md)
+- [Project Service Automation integration](integrate-project-service-automation.md)
 
 ## Employee self-service 
 
@@ -72,10 +68,10 @@ The community site template uses peer-to-peer interactions between customers and
 
 More information:
 
-- [Engage with Community](/power-apps/maker/portals/customer-engagement-apps/engage-with-communities)
-- [Manage forums with Community](/power-apps/maker/portals/customer-engagement-apps/setup-manage-forums)
-- [Manage blogs with Community](/power-apps/maker/portals/customer-engagement-apps/manage-blogs)
-- [Manage ideas with Community](/power-apps/maker/portals/customer-engagement-apps/crowdsource-ideas)
+- [Engage with Community](engage-with-communities.md)
+- [Manage forums with Community](setup-manage-forums.md)
+- [Manage blogs with Community](manage-blogs.md)
+- [Manage ideas with Community](crowdsource-ideas.md)
 
 ## Supply chain management customer site
 
@@ -97,9 +93,7 @@ The modern community site template invites customers to provide suggestions, cre
 
 :::image type="content" source="media/dynamics365-templates/modern-community.png" alt-text="Modern community template landing page.":::
 
-More information:
-
-- [Customer Service Community](/dynamics365/customer-service/community-get-started)
+More information: [Customer Service Community](/dynamics365/customer-service/community-get-started)
 
 ## Field service customer 
 
@@ -112,9 +106,7 @@ This template provides your customers with automated service reminders and notif
 >[!IMPORTANT]
 > There's a limit of only one site for this type of template that can be created per Dynamics 365 environment. 
 
-More information: 
-
-- [Field Service customer site](/dynamics365/field-service/field-service-portal-homepage)
+More information: [Field Service customer site](/dynamics365/field-service/field-service-portal-homepage)
 
 ## Order returns
 
@@ -125,8 +117,11 @@ This template integrates with the Dynamics 365 Intelligent Order Management appl
 
 :::image type="content" source="media/dynamics365-templates/order-returns.png" alt-text="Order returns template landing page.":::
 
-More information: 
+More information: [Dynamics 365 Intelligent Order Management](/dynamics365/intelligent-order-management/overview)
 
-- [Dynamics 365 Intelligent Order Management](/dynamics365/intelligent-order-management/overview)
+## Limitations
 
+While using [Power Pages design studio](../../configure/design-build-overview.md) to customize Dynamics 365 templates, consider the following limitations.
 
+- Existing Dynamics 365 templates are not completely editable inside [Pages workspace](../../getting-started/first-page.md). Use [Portal Management app](../../configure/portal-management-app.md) or [Visual Studio Code](../../configure/power-platform-cli-tutorial.md) instead.
+- Styling workspace is not available for Dynamics 365 templates. Instead, use out of the box CSS files or custom CSS files as webfiles for styling. More information: [Create and manage web files](../../configure/web-files.md)

@@ -475,7 +475,7 @@
         - name: Overview of Power Platform CLI
           href: configure/power-platform-cli.md
         - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
-          href: configure/power-platform-cli-tutorial.md
+          href: configure/power-platform-power-platform-cli-tutorial.md
         - name: Use Visual Studio Code for Power Pages
           href: configure/vs-code-extension.md
         - name: Power Platform CLI solution management (preview)
