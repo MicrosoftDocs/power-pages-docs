@@ -82,7 +82,7 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 
 Enabling the Power BI Embedded service allows you to embed dashboards and reports created in the new workspace of Power BI. The dashboards and reports are embedded on webpages in a portal by using the *powerbi* [Liquid](../configure/liquid-overview.md) tag.
 
-**Prerequisites**: Before enabling the Power BI Embedded service, ensure that you've created your dashboards and reports in the new workspace in Power BI. After creating the workspace, provide admin access to the global administrator so the workspaces are displayed in the Power Platform admin center. For more information on creating new workspaces and adding access to them, see [Create the new workspaces in Power BI](/power-bi/service-create-the-new-workspaces).
+**Prerequisites**: Before enabling the Power BI Embedded service, ensure that you've created your dashboards and reports in the new workspace in Power BI. After creating the workspace, provide admin access to the global administrator (by directly adding global administrator user to the workspace instead of via group membership) so the workspaces are displayed in the Power Platform admin center. For more information on creating new workspaces and adding access to them, see [Create the new workspaces in Power BI](/power-bi/service-create-the-new-workspaces).
 
 > [!NOTE]
 > Ensure that Power BI visualization is enabled for the *powerbi* Liquid tag to work.
