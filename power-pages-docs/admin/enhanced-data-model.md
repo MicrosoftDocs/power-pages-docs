@@ -156,6 +156,9 @@ When using the [Power Platform CLI](../configure/power-platform-cli.md), you'll 
 
 `pac paportal list -v`
 
+> [!NOTE]
+> This parameter is supported from Power Platform CLI version 1.22.4 onwards.
+
 All of the available sites in the Power Pages home page **Active sites** section. This list shows sites that are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
 
 ## Editing newly created site on new data model  
@@ -184,13 +187,16 @@ The **Power Pages Management** application allows you to make advance customizat
 
 ## Data model Power Platform CLI parameters
 
-You can use an optional `dataModel` parameter when uploading or downloading website configuration data using the Power Platform CLI. 
+You need to use the `modelVersion` parameter when uploading or downloading enhanced data model website configuration data using the Power Platform CLI. The value of `2` indicates to use the enhanced data model. 
 
 Download
-`pac paportal download --path <path> --webSiteId <siteId> --dataModel <enhanced/standard>`
+`pac paportal download --path <path> --webSiteId <siteId> --modelVersion 2`
 
 Upload
-`pac paportal upload --path <path> --dataModel <enhanced/standard>`
+`pac paportal upload --path <path> --modelVersion 2`
+
+> [!NOTE]
+> This parameter is supported from Power Platform CLI version 1.22.4 onwards.
 
 See [Power Platform CLI parameters](../configure/power-platform-cli.md#parameters) for more information.
 
