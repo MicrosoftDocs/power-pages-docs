@@ -4,7 +4,7 @@ description: Learn how to add sections to your Power Pages sites.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 04/13/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: kkendrick
@@ -35,7 +35,7 @@ After you've added a section, selecting the section will open the properties bar
 
 | Property | Description |
 | ----------- | ----------- |
-| Background | Change the color of the background according to the color palette for the selected styling template. |
+| Background | Change the color of the background according to the color palette for the selected styling template. You can also add a background image and adjust the size and position. |
 | Layout | Change the layout of the section after you add it to the page. You can select a new layout pattern from a predefined set of columns and widths. |
 | Alignment | Align the content in the section. |
 | Others | Choose an option to duplicate the section, move it up or down within the page, or delete the section entirely. |
