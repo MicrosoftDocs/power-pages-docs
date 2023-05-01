@@ -5,7 +5,7 @@ author: clromano
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/28/2023
+ms.date: 05/01/2023
 ms.subservice:
 ms.author: clromano
 ms.reviewer: ndoelman
@@ -20,6 +20,12 @@ contributors:
 Web templates can be created and used as components in web pages to allow makers to use these reusable components and provide parameters to meet requirements.
 
 As a developer, you can create a web template to provide specific functionality that can be configured by makers designing web pages.
+
+For example, you can create the following components (and others) as web template components that can be configurable in the design studio:
+
+- Location listing with maps
+- Carousel display
+- Gallery of images or videos
 
 To add a component to a web page, you can edit the page using the [Visual Studio Code for the Web](visual-studio-code-editor.md) and adding a Liquid include object to the page copy:
 
