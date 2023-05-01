@@ -35,6 +35,14 @@ To use the editor:
 1. To add a component, hover over the section where you'd like to place the component, and then select **+**. You can then choose between the available components.  
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
+    
+    You can drag and drop sections, columns, and components to re-arrange them on a page.
+
+    To drag an object, left-click and hold down the mouse button, or press the space bar while it's focused. Next, drag the object to the target area using the mouse or keyboard arrows. Drop zones will appear to indicate where the object can be placed. Once you reach the drop zone, release the left mouse button or press the space bar to drop the object.
+    
+    >[!NOTE]
+    > - Some components are not draggable, including the header, footer, and some nested components (links within a text component, for example). 
+    > - Drag and drop functionality is not supported for sections that have the ```flex-direction``` CSS property set to ```row-reverse```.
 
 1. To delete a component, choose the component on the canvas and then select **Delete**.
 
@@ -52,15 +60,15 @@ Select the paintbrush icon to adjust the styles of a section or component. Diffe
 
 ### See also
 
-[Add text](add-text.md)<br />
-[Add button](add-button.md)<br />
-[Add image](add-image.md)<br />
-[Add video](add-video.md)<br />
-[Add spacer](add-spacer.md)<br />
-[Add Power BI](add-power-bi.md)<br />
-[Add list](add-list.md)<br />
-[Add form](add-form.md)<br />
-[Add IFrame](add-iframe.md)<br />
-[Add multistep form](multistep-forms.md)<br />
-[Edit code with Visual Studio Code for the Web](../configure/visual-studio-code-editor.md)<br />
-[Structure site map](structure-site.md)<br />
+- [Add text](add-text.md)
+- [Add button](add-button.md)
+- [Add image](add-image.md)
+- [Add video](add-video.md)
+- [Add spacer](add-spacer.md)
+- [Add Power BI](add-power-bi.md)
+- [Add list](add-list.md)
+- [Add form](add-form.md)
+- [Add IFrame](add-iframe.md)
+- [Add multistep form](multistep-forms.md)
+- [Edit code with Visual Studio Code for the Web](../configure/visual-studio-code-editor.md)
+- [Structure site map](structure-site.md)
