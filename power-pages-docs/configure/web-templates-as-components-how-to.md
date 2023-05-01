@@ -71,78 +71,78 @@ In our example, we'll create a Dataverse table called *Review* for our process. 
 
 1. Copy and paste the following code into the **Source** field of the web template record, replace values prefixed with `cr54f` with the prefix used in your own environment.
 
-```html
-{% fetchxml postsQuery %}
-<fetch mapping='logical'>   
-   <entity name='cr54f_review'>  
-        <attribute name='cr54f_name'/>   
-        <attribute name='cr54f_content'/>   
-        <attribute name='cr54f_rating'/>   
-        <attribute name='createdon'/>  
-        <order attribute='createdon' descending='false'/>   
-   </entity>   
-</fetch>
-{% endfetchxml %}
-{% assign posts_count = count | times: 1 %}
-<h2>({{postsQuery.results.entities.size}}) {{name | default:"Feedback entries (default)"}} </h2>
-{% if postsQuery.results.entities.size > 0 %}
-    <div class="col-sm-12">
-      <ul style="list-style: none;">
-          {% for post in postsQuery.results.entities limit:count %}
-              <li class="col-md-{{ 12 | divided_by: columns }}">
-                  <div class="panel panel-{% if post.cr54f_rating < cutoff %}danger{% else %}default{% endif %}">
-                      <div class="panel-heading">{{post.cr54f_name}} <span class="badge" style="float:right">{{post.cr54f_rating}}</span></div>
-                      <div class="panel-body">
-                          <p>{{post.cr54f_content}}</p>
+    ```html
+    {% fetchxml postsQuery %}
+    <fetch mapping='logical'>   
+       <entity name='cr54f_review'>  
+            <attribute name='cr54f_name'/>   
+            <attribute name='cr54f_content'/>   
+            <attribute name='cr54f_rating'/>   
+            <attribute name='createdon'/>  
+            <order attribute='createdon' descending='false'/>   
+       </entity>   
+    </fetch>
+    {% endfetchxml %}
+    {% assign posts_count = count | times: 1 %}
+    <h2>({{postsQuery.results.entities.size}}) {{name | default:"Feedback entries (default)"}} </h2>
+    {% if postsQuery.results.entities.size > 0 %}
+        <div class="col-sm-12">
+          <ul style="list-style: none;">
+              {% for post in postsQuery.results.entities limit:count %}
+                  <li class="col-md-{{ 12 | divided_by: columns }}">
+                      <div class="panel panel-{% if post.cr54f_rating < cutoff %}danger{% else %}default{% endif %}">
+                          <div class="panel-heading">{{post.cr54f_name}} <span class="badge" style="float:right">{{post.cr54f_rating}}</span></div>
+                          <div class="panel-body">
+                              <p>{{post.cr54f_content}}</p>
+                          </div>
+                          <div class="panel-footer">{{post.createdon}}</div>
                       </div>
-                      <div class="panel-footer">{{post.createdon}}</div>
-                  </div>
-            </li>
-          {% endfor %}
-      </ul>
-    </div>
-    {% if postsQuery.results.entities.size > count %}
-      <hr/>
-      <button onclick="alert('Not yet implemented :)')" class="button1" style="margin: 0 auto; display:block">{{load_more_label | default: "Load More"}}</button>
+                </li>
+              {% endfor %}
+          </ul>
+        </div>
+        {% if postsQuery.results.entities.size > count %}
+          <hr/>
+          <button onclick="alert('Not yet implemented :)')" class="button1" style="margin: 0 auto; display:block">{{load_more_label | default: "Load More"}}</button>
+        {% endif %}
     {% endif %}
-{% endif %}
-
-{% manifest %} 
-{
-  "type": "Functional",
-  "displayName": "Posts",
-  "description": "Shows all posts",
-  "tables": ["cr54f_review"],
-  "params": [
+    
+    {% manifest %} 
     {
-      "id": "name",
-      "displayName": "Title",
-      "description": "Let's give it a title"
-    },
-    {
-      "id": "count",
-      "displayName": "Count",
-      "description": "No. of items"
-    },
-    {
-      "id": "columns",
-      "displayName": "# of Columns",
-      "description": "< 12"
-    },
-    {
-      "id": "cutoff",
-      "displayName": "Limit for review",
-      "description": "Number between 1 and 5"
-    },
-    {
-      "id": "load_more_label",
-      "displayName": "Load more label",
-      "description": ""
+      "type": "Functional",
+      "displayName": "Posts",
+      "description": "Shows all posts",
+      "tables": ["cr54f_review"],
+      "params": [
+        {
+          "id": "name",
+          "displayName": "Title",
+          "description": "Let's give it a title"
+        },
+        {
+          "id": "count",
+          "displayName": "Count",
+          "description": "No. of items"
+        },
+        {
+          "id": "columns",
+          "displayName": "# of Columns",
+          "description": "< 12"
+        },
+        {
+          "id": "cutoff",
+          "displayName": "Limit for review",
+          "description": "Number between 1 and 5"
+        },
+        {
+          "id": "load_more_label",
+          "displayName": "Load more label",
+          "description": ""
+        }
+      ]
     }
-  ]
-}
-{% endmanifest %} 
-```
+    {% endmanifest %} 
+    ```
 
 ### Add web template component to web page
 
@@ -154,7 +154,7 @@ Once you have created the web template component, you can add it to a web page.
 
 1. Enter the following include statement that will reference the web template you created earlier, you can replace the name with the name of your own web template:
 
-`{% include "reviews" %}` 
+    `{% include "reviews" %}` 
 
 1. Select **CTRL-S** to save the code. Return to design studio and select **Sync**.
 
