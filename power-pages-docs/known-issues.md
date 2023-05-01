@@ -75,6 +75,10 @@ Modify the theme in the **Style workspace** using the following steps:
 
 A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
 
+## Dynamics 365 templates
+
+For limitations related to editing Dynamics 365 templates using Power Pages design studio, see [Limitations](templates/dynamics-365-apps/overview.md#limitations).
+
 ## Visual Studio Code extension for Power Pages
 
 - You man get an error when updating the Power Platform Tools for Visual Studio Code with the error message `Cannot install Power Pages generator: spawnSync npm.cmd ENOENT`. To resolve the issue, install [node.js](https://nodejs.org/en/download) and restart Visual Studio Code.
