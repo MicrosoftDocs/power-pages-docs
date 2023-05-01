@@ -70,7 +70,7 @@ To install the Visual Studio Code extension:
 ## Download website content
 
 To authenticate against a Microsoft Dataverse environment, and to download
-website content, refer to the tutorial [Use Microsoft Power Platform CLI with Power Pages - download website content](power-platform-power-platform-cli-tutorial.md#step-3-download-website-content).
+website content, refer to the tutorial [Use Microsoft Power Platform CLI with Power Pages - download website content](power-platform-cli-tutorial.md#step-3-download-website-content).
 
 > [!TIP]
 > The Power Platform Tools Extension automatically enables using Microsoft Power Platform CLI commands from within Visual Studio Code through [Visual Studio Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
