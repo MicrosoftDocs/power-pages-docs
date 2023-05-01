@@ -29,8 +29,8 @@ In this how-to, you learn how to:
 
 ## Prerequisites
 
-- A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
-- A Power Pages site created. [Create a Power Pages site](create-manage.md).
+- A Power Pages subscription or trial. [Get a Power Pages trial here](../getting-started/trial-signup.md).
+- A Power Pages site created. [Create a Power Pages site](../getting-started/create-manage.md).
 
 ## Create a web template component
 
