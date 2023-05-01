@@ -54,6 +54,20 @@ All sections and components allow for in-context editing. You can edit any secti
 
 Select the paintbrush icon to adjust the styles of a section or component. Different styles are available based on the component's type. Currently, sections, text, images, and video are supported.
 
+## Undo/Redo
+
+In the Pages workspace, you'll see undo/redo buttons in the top left of the canvas. The undo button is enabled when you make a change. The redo button is enabled when you undo an action.
+
+To reverse an action, click the Undo button.
+
+To reverse an undo, click the Redo button.
+
+Undo and redo only support changes that you make in the Pages workspace.  Your action history clears when you refresh the browser page or navigate to another workspace inside the design studio.
+
+### Limitations
+
+Syncing, saving, previewing, zooming , expanding/reducing the workspace, navigating between workspaces and pages, and uploading media and CSS files are not supported.
+
 > [!NOTE]
 > - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
 > - For sites created using Power Pages prior to September 23, 2022 there is a known issue related to themes. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
