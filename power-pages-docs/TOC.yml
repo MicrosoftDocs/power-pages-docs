@@ -388,6 +388,8 @@
           href: configure/web-templates.md
         - name: Web templates as components
           href: configure/web-templates-as-components.md  
+        - name: "How to: Create a web template component"
+          href: configure/web-templates-as-components-how-to.md            
         - name: Create custom web templates
           items:
             - name: Create custom page layouts
