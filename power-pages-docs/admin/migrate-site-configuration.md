@@ -65,6 +65,9 @@ Once the website has been transferred to the target environment, you will need t
 
 1. The website updates from the source environment should be reflected in this new target environment. Going forward, you should be able to transfer configuration from your source to target environments by transferring the website configuration data.
 
+> [!NOTE]
+> A website appearing in the **Inactive sites** list on the Power Pages home page will appear in the list of **Active Websites** in the [Portal Management app](../configure/portal-management-app.md).
+
 ## Transfer website metadata
 
 # [Solutions](#tab/sol)
@@ -162,7 +165,7 @@ The Microsoft Power Platform CLI provides many features specifically for [Power 
 ### Transfer website configuration using the Configuration Migration Tool
 
 >[!NOTE]
-> The preferred method is to use the [Power Platform CLI](#transfer-website-configuration-using-power-platform-cli) to transfer website metadata.
+> The preferred method is to use [solutions](../configure/power-pages-solutions.md) or the [Power Platform CLI](#transfer-website-configuration-using-power-platform-cli) to transfer website metadata.
 
 To export configuration data, you would need to use the Configuration Migration tool and a website-specific configuration schema file. For more information about this tool, see [Manage configuration data](/power-platform/admin/manage-configuration-data).
 
