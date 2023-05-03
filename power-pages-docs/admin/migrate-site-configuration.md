@@ -47,7 +47,7 @@ You will need to prepare the target environment if you are using the standard da
 
 ## Transfer the website configuration to target environment
 
-[Transfer](#transfer-website-metadata) the site metadata from the source environment using the Power Platform CLI,the Configuration Migration Tool, or using [solutions](../configure/power-pages-solutions.md).
+[Transfer](#transfer-website-metadata) the site metadata from the source environment using the Power Platform CLI, the Configuration Migration Tool, or using [solutions](../configure/power-pages-solutions.md).
 
 ## Reactivating site on target environment
 
