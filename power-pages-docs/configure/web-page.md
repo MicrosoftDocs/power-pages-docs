@@ -65,7 +65,7 @@ The table below explains many of the standard web page attributes used by Power 
 Page comments provide users with the ability to view and post comments on a web page. By default this feature is disabled and can be enabled on a page by page basis.
 
 > [!NOTE]
-> Comments are available when pages use **Full page** or **Page** page templates that are provided with the [Dynamics 365 website templates](../templates/dynamics-365-templates.md).
+> Comments are available when pages use **Full page** or **Page** page templates that are provided with the [Dynamics 365 website templates](../templates/dynamics-365-apps/overview.md).
 
 1. Open the [Portal Management app](portal-management-app.md).
 
