@@ -54,7 +54,10 @@ All sections and components allow for in-context editing. You can edit any secti
 
 Select the paintbrush icon to adjust the styles of a section or component. Different styles are available based on the component's type. Currently, sections, text, images, and video are supported.
 
-## Undo/Redo
+## Undo/Redo (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 
 In the Pages workspace, you'll see undo/redo buttons in the top left of the canvas. The undo button is enabled when you make a change. The redo button is enabled when you undo an action.
 
