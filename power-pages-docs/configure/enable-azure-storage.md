@@ -76,6 +76,9 @@ Add the following site settings from **Portals** > **Site Settings**. More infor
 |WebFiles/StorageLocation|AzureBlobStorage|
 |||
 
+> [!NOTE]
+> - If you are using source control to store your Power Pages website content, make sure to add the `sitesettings.yml` file to your `.gitignore` file, as it will contain these settings and is therefore sensitive information.
+
 ## Configure basic or multistep forms 
 
 To view and add attachments stored in Azure on basic and multistep forms on your site, you will need to [configure notes as attachments](configure-notes.md) as well as add [basic form](configure-notes.md#notes-configuration-for-basic-forms) or [multistep form](configure-notes.md#notes-configuration-for-multistep-forms) metadata with the **File Attachment Location** set to **Azure Blob Storage**.
