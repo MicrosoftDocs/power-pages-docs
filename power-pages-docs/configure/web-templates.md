@@ -75,6 +75,7 @@ There's a set of pre-made Liquid templates available within Power Pages. To use 
 Web templates can be created and used as components in web pages to allow makers to use these reusable components and provide parameters to meet requirements.
 
 More information: [Web templates as components](web-templates-as-components.md)
+
 ### See also
 
 - [Create a custom page layout](../getting-started/tutorial-add-custom-page-layout.md)
