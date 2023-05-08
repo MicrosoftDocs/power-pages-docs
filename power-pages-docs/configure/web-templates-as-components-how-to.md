@@ -5,7 +5,7 @@ author: clromano
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 05/01/2023
+ms.date: 05/08/2023
 ms.subservice:
 ms.author: clromano
 ms.reviewer: ndoelman
@@ -17,7 +17,7 @@ contributors:
 
 # How to: Create a web template component
 
-Creating a web template component will allow you to build a configurable, repeatable component that can be customized for each specific instance used.
+Creating a web template component allows you to build a configurable, repeatable component that can be customized for each specific instance used.
 
 In this how-to, you learn how to:
 
@@ -34,11 +34,11 @@ In this how-to, you learn how to:
 
 ## Create a web template component
 
-In the steps below, we'll create a web template component that will display feedback records from a Microsoft Dataverse table in a card layout format, with a button to provide a review. You will be able to define the number of cards can configuration.
+In the steps below, we create a web template component that displays feedback records from a Microsoft Dataverse table in a card layout format, with a button to provide a review. You are able to define the number of cards can configuration.
 
 ### Create a Dataverse table to use in the web template component
 
-In our example, we'll create a Dataverse table called *Review* for our process. For more information on how to create Dataverse tables, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md). You can modify these steps to reflect your own business processes.
+In our example, we create a Dataverse table called *Review* for our process. For more information on how to create Dataverse tables, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md). You can modify these steps to reflect your own business processes.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -150,15 +150,15 @@ Once you have created the web template component, you can add it to a web page.
 
 1. In the Power Pages [design studio](../getting-started/use-design-studio.md), select the page that you want to add the web template component to.
 
-1. Select **Edit Code** which will open the [Visual Studio Code for the Web](visual-studio-code-editor.md) for the webpage.
+1. Select **Edit Code** which opens the [Visual Studio Code for the Web](visual-studio-code-editor.md) for the webpage.
 
-1. Enter the following include statement that will reference the web template you created earlier, you can replace the name with the name of your own web template:
+1. Enter the following include statement that references the web template you created earlier, you can replace the name with the name of your own web template:
 
     `{% include "reviews" %}` 
 
-1. Select **CTRL-S** to save the code. Return to design studio and select **Sync**.
+1. Select **CTRL-S** to save the code. Return to design studio and select **Sync**. A preview of the component on your webpage will display. 
 
-1. You will see a preview of the component on your webpage. Select **Edit custom component** and you can configure the parameters that are defined in the manifest of the web template component you created above.
+1. Select **Edit custom component** and you can configure the parameters that are defined in the manifest of the web template component you created above.
 
     :::image type="content" source="media/web-template-components/howto-configure-parameters.png" alt-text="How to add parameters to custom component.":::
 
