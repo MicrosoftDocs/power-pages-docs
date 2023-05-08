@@ -127,7 +127,7 @@ In our example, we'll create a Dataverse table called *Review* for our process. 
         {
           "id": "columns",
           "displayName": "# of Columns",
-          "description": "< 12"
+          "description": "less than 12"
         },
         {
           "id": "cutoff",
