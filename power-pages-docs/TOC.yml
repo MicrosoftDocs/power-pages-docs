@@ -15,7 +15,9 @@
         - name: Understand how Power Pages connects to Dataverse
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
-          href: admin/clear-server-side-cache.md       
+          href: admin/clear-server-side-cache.md
+        - name: Use enhanced data model (preview)
+          href: admin/enhanced-data-model.md                   
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
@@ -51,7 +53,55 @@
             - name: Schedule and manage meetings
               href: templates/book-a-meeting.md
         - name: Dynamics 365 templates
-          href: templates/dynamics-365-templates.md
+          items:
+            - name: Dynamics 365 templates overview
+              href: templates/dynamics-365-apps/overview.md
+            - name: Knowledge article
+              items:
+                - name: Configure knowledge categories and articles
+                  href: templates/dynamics-365-apps/configure-knowledge-categories-articles.md
+                - name: Manage knowledge articles by using content level access
+                  href: templates/dynamics-365-apps/manage-knowledge-articles-content-levels.md
+                - name: Display file attachments
+                  href: templates/dynamics-365-apps/display-file-attachments-knowledge-article.md
+            - name: Create an opportunity
+              href: templates/dynamics-365-apps/create-edit-and-distribute-opportunities-in-dynamics-365.md
+            - name: Work with communities
+              items: 
+                - name: Engage with communities
+                  href: templates/dynamics-365-apps/engage-with-communities.md
+                - name: Forums
+                  items:
+                    - name: Set up and manage forums
+                      href: templates/dynamics-365-apps/setup-manage-forums.md
+                    - name: Manage forum threads
+                      href: templates/dynamics-365-apps/manage-forum-threads.md
+                    - name: Create forum posts 
+                      href: templates/dynamics-365-apps/create-forum-posts.md
+                    - name: Moderate forums
+                      href: templates/dynamics-365-apps/moderate-forums.md
+                    - name: Manage forum access permissions
+                      href: templates/dynamics-365-apps/forum-access-permission.md
+                    - name: Subscribe to alerts 
+                      href: templates/dynamics-365-apps/subscribe-alerts.md
+                - name: Manage blogs 
+                  href: templates/dynamics-365-apps/manage-blogs.md
+                - name: Ideas
+                  items:
+                    - name: Manage ideas
+                      href: templates/dynamics-365-apps/crowdsource-ideas.md
+                    - name: Enable content moderation on ideas
+                      href: templates/dynamics-365-apps/enable-idea-content-moderation.md
+                - name: Manage cases in Power Pages
+                  href: templates/dynamics-365-apps/case-management.md
+            - name: Configure web roles for a partner site
+              href: templates/dynamics-365-apps/configure-web-roles-partner-portal.md
+            - name: Integrate Project Service Automation
+              href: templates/dynamics-365-apps/integrate-project-service-automation.md
+            - name: Integrate Field Service
+              href: templates/dynamics-365-apps/integrate-field-service.md
+        - name: Blank page template
+          href: templates/blank.md
     - name: Manage sites
       href: admin/manage-sites.md
     - name: Learning hub
@@ -59,7 +109,7 @@
     - name: Power Pages community
       href: getting-started/community.md
     - name: Plan your Power Pages project
-      href: configure/planning-power-pages-project.md
+      href: configure/planning-power-pages-project.md       
 - name: Design and build
   items:
     - name: Design and build overview
@@ -202,8 +252,116 @@
           href: admin/migrate-site-configuration.md
 - name: Configure Power Pages
   items:
-    - name: Portal Management app overview
-      href: configure/portal-management-app.md
+    - name: Portal Management app
+      items:
+      - name: Portal Management app overview
+        href: configure/portal-management-app.md
+      - name: Configure site settings
+        href: configure/configure-site-settings.md
+      - name: Configure form and list metadata
+        items:
+        - name: Configure lists
+          items:
+          - name: Lists overview   
+            href: configure/lists.md
+          - name: List attributes and relationships
+            href: configure/list-attributes-relationships.md  
+          - name: Sort list
+            href: configure/sort-lists.md
+          - name: Add custom JavaScript to a list
+            href: configure/add-custom-javascript-list.md
+          - name: List configuration
+            href: configure/list-configuration.md
+          - name: Securing lists
+            href: configure/securing-lists.md
+          - name: Add a view details page          
+            href: configure/list-view-details.md
+          - name: List filter configuration
+            href: configure/list-filter-configuration.md
+          - name: List map view
+            href: configure/list-map-view.md
+          - name: List calendar view      
+            href: configure/list-calendar-view.md
+          - name: Enhanced view filter for lists
+            href: configure/list-enhanced-view-filter.md
+        - name: Configure basic forms
+          items:
+          - name: Basic forms overview
+            href: configure/basic-forms.md
+          - name: Configure basic form metadata
+            href: configure/configure-basic-form-metadata.md
+          - name: Configure basic form subgrids
+            href: configure/configure-basic-form-subgrid.md
+        - name: Configure multistep forms
+          items:
+          - name: Define multistep form properties
+            href: configure/multistep-form-properties.md             
+          - name: Multistep form steps
+            items:
+            - name: Define multistep form steps
+              href: configure/multistep-form-steps.md
+            - name: Define a load form and load tab step type
+              href: configure/load-form-step.md
+            - name: Add a redirect step type
+              href: configure/add-redirect-step.md
+            - name: Add a conditional step type
+              href: configure/add-conditional-step.md
+            - name: Add custom JavaScript
+              href: configure/add-custom-javascript.md
+            - name: Configure multistep form metadata
+              href: configure/configure-multistep-form-metadata.md
+            - name: Configure a multistep form subgrid
+              href: configure/configure-multistep-form-subgrid.md
+            - name: Add geolocation
+              href: configure/add-geolocation.md
+      - name: Add chart on a web page in portal
+        href: configure/add-chart.md    
+      - name: Enable multiple languages
+        items:
+        - name: Enable multiple-language support
+          href: configure/enable-multiple-language-support.md
+        - name: Behavior and format of the Duration, Date and Time fields
+          href: configure/behavior-format-date-time-field.md
+      - name: Setup HTTP headers
+        href: configure/cors-support.md
+      - name: Configure advertisements
+        href: configure/create-run-advertisement.md
+      - name: Configure choices column 
+        href: configure/choices-column.md          
+      - name: Configure content snippets
+        href: configure/customize-content-snippets.md
+      - name: Configure file column
+        href: configure/file-column.md
+      - name: Configure header and footer output caching
+        href: configure/enable-header-footer-output-caching.md
+      - name: Configure image column
+        href: configure/image-column.md         
+      - name: Configure page templates
+        href: configure/page-templates.md
+      - name: Configure polls
+        href: configure/gather-feedback-poll.md
+      - name: Configure publishing states
+        href: configure/publishing-states.md
+      - name: Configure shortcuts
+        href: configure/place-child-nodes.md
+      - name: Configure website redirects
+        href: configure/add-redirect-url.md
+      - name: Configure site markers
+        href: configure/configure-site-markers.md        
+      - name: Configure webpage ratings
+        href: configure/rate-webpage.md
+      - name: Configure web files
+        href: configure/web-files.md
+      - name: Configure web links
+        href: configure/manage-web-links.md
+      - name: Configure webpages
+        href: configure/web-page.md
+      - name: Configure websites
+        href: configure/websites.md
+      - name: Configure website bindings
+        href: configure/website-bindings.md
+      - name: View activities in a form timeline
+        href: configure/view-all-activities-in-portal-timeline.md
     - name: Search Configuration
       items:
         - name: Search overview
@@ -245,7 +403,7 @@
         - name: Add Power BI using powerbi Liquid tag
           href: configure/add-powerbi-report.md
     - name: Use virtual tables with Power Pages
-      href: configure/virtual-tables.md      
+      href: configure/virtual-tables.md
 - name: Customize and extend Power Pages
   items:
     - name: Liquid
@@ -326,10 +484,14 @@
           href: configure/power-platform-cli-tutorial.md
         - name: Use Visual Studio Code for Power Pages
           href: configure/vs-code-extension.md
+        - name: Power Platform CLI solution management (preview)
+          href: configure/power-platform-cli-solution-management.md         
     - name: Use admin APIs
       href: admin/admin-api.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
+    - name: Using solutions with Power Pages (preview) 
+      href: configure/power-pages-solutions.md  
 - name: Secure Power Pages
   items:
     - name: Overview
@@ -460,8 +622,8 @@
   items:
     - name: Accessibility
       href: admin/accessibility.md
-    - name: Implement GDPR
-      href: configure/implement-gdpr.md
+    - name: Implement privacy
+      href: configure/implement-privacy.md
     - name: Cookies
       href: admin/cookies.md
 - name: System requirements, limits, and configuration

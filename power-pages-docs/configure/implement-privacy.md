@@ -1,8 +1,7 @@
 ---
-title: Implement General Data Protection Regulations in Power Pages
-description: Learn how to implement General Data Protection Regulation in Power Pages. Identify minor users, get parental consent, and have site users agree to terms and conditions.
+title: Implement privacy
+description: Learn how to implement privacy protectionsw in Power Pages. Identify minor users, get parental consent, and have site users agree to terms and conditions.
 author: sandhangitmsft
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 2/07/2023
@@ -15,7 +14,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Implementing General Data Protection Regulations in Power Pages
+# Implement privacy
 
 The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, people can control the use of their personal data in the Microsoft Dataverse.
 
@@ -84,5 +83,3 @@ The following site settings control the terms publication date and whether the t
 
 The following field is added in the contact record to store the date and time a user agreed to the terms and conditions:
 - **Terms Agreement Date**: Indicates the date and time the user agreed to the terms and conditions.
-
-

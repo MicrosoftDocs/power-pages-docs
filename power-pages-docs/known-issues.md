@@ -75,13 +75,9 @@ Modify the theme in the **Style workspace** using the following steps:
 
 A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
 
-## Dynamics 365 templates 
+## Dynamics 365 templates
 
-Editing capabilities in Power Pages design studio aren't available for [Microsoft Dynamics 365 templates](templates/dynamics-365-templates.md).
-
-You can preview the webpages using design studio, but you can't add or modify sections, components, or text. 
-
-Instead, use tools such as [Portals Management app](configure/portal-management-app.md) or [Visual Studio Code](configure/cli-tutorial.md) to edit the underlying [web templates](configure/store-content-web-templates.md) and configure them for your unique needs.
+For limitations related to editing Dynamics 365 templates using Power Pages design studio, see [Limitations](templates/dynamics-365-apps/overview.md#limitations).
 
 ## Visual Studio Code extension for Power Pages
 
