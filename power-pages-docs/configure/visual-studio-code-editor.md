@@ -128,4 +128,4 @@ The code editor canvas supports HTML editing. To edit JavaScript or custom CSS, 
 
 ## See also
 
-- [Use Visual Studio Code and Microsoft Power Platform CLI](cli-tutorial.md)
+- [Use Visual Studio Code and Microsoft Power Platform CLI](power-platform-cli-tutorial.md)

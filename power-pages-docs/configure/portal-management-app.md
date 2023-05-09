@@ -17,7 +17,7 @@ contributors:
 You can use the Portal Management app, a model-driven Power App, for advanced configuration of your Power Pages sites.
 
 > [!NOTE]
-> To use the Portal Management app, you will need to be assigned the [system administrator](/power-platform/admin/assign-security-roles) role in the same Microsoft Dataverse environment as your site. Users in the [system customizer](/power-platform/admin/assign-security-roles) role also have access to use the Portal Management app however they may have limited privileges on certain tables (e.g. Notes / Attachments related to [Web Files](/power-apps/maker/portals/configure/web-files)) that do not allow them to view or update records created by other users. 
+> To use the Portal Management app, you will need to be assigned the [system administrator](/power-platform/admin/assign-security-roles) role in the same Microsoft Dataverse environment as your site. Users in the [system customizer](/power-platform/admin/assign-security-roles) role also have access to use the Portal Management app however they may have limited privileges on certain tables (for example,  Notes / Attachments related to [Web Files](/power-apps/maker/portals/configure/web-files)) that do not allow them to view or update records created by other users. 
 
 ## Open the Portal Management app from the Power Pages home page
 
