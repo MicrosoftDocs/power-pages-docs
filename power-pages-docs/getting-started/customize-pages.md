@@ -61,6 +61,8 @@ Select the paintbrush icon to adjust the styles of a section or component. Diffe
 
 In the Pages workspace, you'll see undo/redo buttons in the top left of the canvas. The undo button is enabled when you make a change. The redo button is enabled when you undo an action.
 
+:::image type="content" source="media/common/undo-redo.png" alt-text="The Pages workspace with the undo/redo buttons displayed.":::
+
 To reverse an action, click the Undo button.
 
 To reverse an undo, click the Redo button.
