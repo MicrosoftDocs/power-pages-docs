@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites with the design studio pag
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/13/2023
+ms.date: 05/09/2023
 ms.subservice:
 ms.author: clromano 
 ms.reviewer: kkendrick
@@ -63,9 +63,9 @@ In the Pages workspace, you'll see undo/redo buttons in the top left of the canv
 
 :::image type="content" source="media/common/undo-redo.png" alt-text="The Pages workspace with the undo/redo buttons displayed.":::
 
-To reverse an action, click the Undo button.
+To reverse an action, select the Undo button.
 
-To reverse an undo, click the Redo button.
+To reverse an undo, select the Redo button.
 
 Undo and redo only support changes that you make in the Pages workspace.  Your action history clears when you refresh the browser page or navigate to another workspace inside the design studio.
 
