@@ -28,7 +28,7 @@ The Power Pages site visibility feature allows you to manage who has access to y
 
 Only site makers and organization users whom the maker granted access can view private sites. Website visitors need to authenticate using the organization's [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) identity provider to open the site. Setting visibility to private is useful if your site is in development and you wish to limit access during the design phase.
 
-Public sites are accessible over internet to everyone anonymously or authenticated with configured identity. The website is now a production site, fully operational for the customer to use. You'll see a notification when you're editing a public site using [design studio](../getting-started/use-design-studio.md), [Portal Management app](../configure/portal-management-app.md), [Visual Studio code editor](../configure/cli-tutorial.md) and [Microsoft Power Platform CLI](../configure/cli-tutorial.md).
+Public sites are accessible over internet to everyone anonymously or authenticated with configured identity. The website is now a production site, fully operational for the customer to use. You'll see a notification when you're editing a public site using [design studio](../getting-started/use-design-studio.md), [Portal Management app](../configure/portal-management-app.md), [Visual Studio code editor](../configure/power-platform-cli-tutorial.md) and [Microsoft Power Platform CLI](../configure/power-platform-cli-tutorial.md).
 
 ## Change site visibility
 
