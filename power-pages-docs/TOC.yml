@@ -616,6 +616,8 @@
   items:
     - name: Overview
       href: transparency-note.md
+    - name: Copilot
+      href: transparency-note-copilot.md
     - name: Natural language to text
       href: transparency-note-generate-text.md
     - name: Natural language to form
