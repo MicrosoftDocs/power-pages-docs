@@ -56,7 +56,7 @@ The templates use the following forms linked to Dataverse tables.
 
 ## Professional developers
 
-This template includes custom code and has been styled to follow best-in-class UX patterns. For custom code editing, use the [Microsoft Power Platform CLI](../configure/cli-tutorial.md) to download the site metadata, and use Visual Studio Code to view and modify the source code.
+This template includes custom code and has been styled to follow best-in-class UX patterns. For custom code editing, use the [Microsoft Power Platform CLI](../configure/power-platform-cli-tutorial.md) to download the site metadata, and use Visual Studio Code to view and modify the source code.
 
 ### See also
 

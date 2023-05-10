@@ -47,7 +47,53 @@
         - name: FAQ template (preview)
           href: templates/frequently-asked-questions.md
         - name: Dynamics 365 templates
-          href: templates/dynamics-365-templates.md
+          items:
+            - name: Dynamics 365 templates overview
+              href: templates/dynamics-365-apps/overview.md
+            - name: Knowledge article
+              items:
+                - name: Configure knowledge categories and articles
+                  href: templates/dynamics-365-apps/configure-knowledge-categories-articles.md
+                - name: Manage knowledge articles by using content level access
+                  href: templates/dynamics-365-apps/manage-knowledge-articles-content-levels.md
+                - name: Display file attachments
+                  href: templates/dynamics-365-apps/display-file-attachments-knowledge-article.md
+            - name: Create an opportunity
+              href: templates/dynamics-365-apps/create-edit-and-distribute-opportunities-in-dynamics-365.md
+            - name: Work with communities
+              items: 
+                - name: Engage with communities
+                  href: templates/dynamics-365-apps/engage-with-communities.md
+                - name: Forums
+                  items:
+                    - name: Set up and manage forums
+                      href: templates/dynamics-365-apps/setup-manage-forums.md
+                    - name: Manage forum threads
+                      href: templates/dynamics-365-apps/manage-forum-threads.md
+                    - name: Create forum posts 
+                      href: templates/dynamics-365-apps/create-forum-posts.md
+                    - name: Moderate forums
+                      href: templates/dynamics-365-apps/moderate-forums.md
+                    - name: Manage forum access permissions
+                      href: templates/dynamics-365-apps/forum-access-permission.md
+                    - name: Subscribe to alerts 
+                      href: templates/dynamics-365-apps/subscribe-alerts.md
+                - name: Manage blogs 
+                  href: templates/dynamics-365-apps/manage-blogs.md
+                - name: Ideas
+                  items:
+                    - name: Manage ideas
+                      href: templates/dynamics-365-apps/crowdsource-ideas.md
+                    - name: Enable content moderation on ideas
+                      href: templates/dynamics-365-apps/enable-idea-content-moderation.md
+                - name: Manage cases in Power Pages
+                  href: templates/dynamics-365-apps/case-management.md
+            - name: Configure web roles for a partner site
+              href: templates/dynamics-365-apps/configure-web-roles-partner-portal.md
+            - name: Integrate Project Service Automation
+              href: templates/dynamics-365-apps/integrate-project-service-automation.md
+            - name: Integrate Field Service
+              href: templates/dynamics-365-apps/integrate-field-service.md
         - name: Blank page template
           href: templates/blank.md
     - name: Manage sites
@@ -239,7 +285,7 @@
           - name: Configure basic form metadata
             href: configure/configure-basic-form-metadata.md
           - name: Configure basic form subgrids
-            href: configure/configure-basic-form-metadata.md
+            href: configure/configure-basic-form-subgrid.md
         - name: Configure multistep forms
           items:
           - name: Define multistep form properties
