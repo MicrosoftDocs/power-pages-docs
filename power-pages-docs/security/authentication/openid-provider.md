@@ -55,10 +55,14 @@ To configure the OpenID Connect provider, sign in to [Power Pages](https://make.
     > [!NOTE]
     > The Reply URL is used by the app to redirect users to the portal after the authentication succeeds. If your portal uses a custom domain name, you might have a different URL than the one provided here.
 
+    :::image type="content" source="../media/authentication/openid-connect-provider-settings.jpg" alt-text="OpenID connect provider settings.":::
+
 1. Enter the following site settings for portal configuration.
 
     > [!NOTE]
     > Be sure to review&mdash;and if required, change&mdash;the default values.
+
+    :::image type="content" source="../media/authentication/openid-connect.jpg" alt-text="OpenID connect site settings.":::
 
     | Name | Description |
     | - | - |

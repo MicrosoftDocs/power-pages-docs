@@ -4,7 +4,7 @@ description: Learn how to solutions in Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/19/2023
+ms.date: 05/03/2023
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -107,6 +107,9 @@ Once the solution is imported, it will appear under solutions list.
 1. Choose **Site Actions**, and then **Restart site**.
 
 Now your destination site is updated with data from source environment site.
+
+> [!NOTE]
+> You can't delete website configuration from the [Power Pages management app](portal-management-app.md) that is part of a managed solution. To remove the website, delete the managed solution.
 
 ## Frequently asked questions: 
 

@@ -47,19 +47,21 @@ To configure Azure AD as the OpenID Connect provider by using the Implicit Grant
     1. Under **Manage**, select **App registrations**.
 
     1. Select **New registration**.
+    
+        :::image type="content" source="../media/authentication/register-application.jpg" alt-text="Register an application settings inside the Azure portal.":::
 
-    1. Enter a name.
+        - Enter a name.
 
-    1. If necessary, select a different **Supported account type**. More information: [Supported account types](/azure/active-directory/develop/quickstart-register-app)
+        - If necessary, select a different **Supported account type**. More information: [Supported account types](/azure/active-directory/develop/quickstart-register-app)
 
-    1. Under **Redirect URI**, select **Web** (if it isn't already selected).
+        - Under **Redirect URI**, select **Web** (if it isn't already selected).
 
-    1. Enter the **Reply URL** for your website in the **Redirect URI** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-openid_1`
+        - Enter the **Reply URL** for your website in the **Redirect URI** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-openid_1`
 
         > [!NOTE]
         > If you're using the default website URL, copy and paste the **Reply URL** as shown in the **Create and configure OpenID Connect provider settings** section on the **Configure identity provider** screen (step 6 above). If you're using a custom domain name for the website, enter the custom URL. Be sure to use this value when you configure the **Redirect URL** in your website settings while configuring the OpenID Connect provider. <br> For example, if you enter the **Reply URL** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-openid_1`, you must use it as-is for the OpenID Connect configuration in Power Pages.
 
-    1. Select **Register**.
+        - Select **Register**.
 
     1. On the left pane, under **Manage**, select **Authentication**.
 
@@ -71,6 +73,8 @@ To configure Azure AD as the OpenID Connect provider by using the Implicit Grant
 
     > [!TIP]
     > If you closed the browser window after configuring the app registration in the earlier step, sign in to the Azure portal again and go to the app that you registered.
+
+    :::image type="content" source="../media/authentication/openid-connect.jpg" alt-text="OpenID connect site settings.":::
 
     1. **Authority**: To configure the authority URL, use the following format:
 

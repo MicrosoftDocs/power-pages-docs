@@ -105,7 +105,7 @@ To configure Azure AD as the WS-Federation provider, sign in to [Power Pages](ht
         > [!NOTE]
         > If you selected to use the auto-generated App ID URI, leave the default value and you will need to manually update this value using the [Portal Management app](#update-app-id-uri-in-site-settings) after you save the values on this window.
         
-    1. **Assertion consumer service URL**: Enter the **Reply URL** for your website in the **Assertion consumer service URL** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-saml_1`
+    1. **Assertion consumer service URL**: Enter the **Reply URL** for your website in the **Assertion consumer service URL** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-wsfederation_1`
 
         > [!NOTE]
         > If you're using the default website URL, you can copy and paste the **Reply URL** as shown in the **Create and configure WS-Federation provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the value you entered as the **Redirect URI** in the Azure portal earlier.
