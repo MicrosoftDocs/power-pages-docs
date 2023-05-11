@@ -36,6 +36,9 @@ To use the editor:
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
     
+    > [!NOTE]
+    > You can also create and use web templates as components in web pages. <br /> More information: [How to: Create a web template component](../configure/web-templates-as-components-how-to.md)
+
     You can drag and drop sections, columns, and components to re-arrange them on a page.
 
     To drag an object, left-click and hold down the mouse button, or press the space bar while it's focused. Next, drag the object to the target area using the mouse or keyboard arrows. Drop zones will appear to indicate where the object can be placed. Once you reach the drop zone, release the left mouse button or press the space bar to drop the object.
