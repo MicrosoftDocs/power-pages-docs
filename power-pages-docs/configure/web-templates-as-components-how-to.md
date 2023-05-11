@@ -5,7 +5,7 @@ author: clromano
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 05/08/2023
+ms.date: 05/11/2023
 ms.subservice:
 ms.author: clromano
 ms.reviewer: ndoelman
@@ -84,12 +84,13 @@ In our example, we create a Dataverse table called *Review* for our process. For
     </fetch>
     {% endfetchxml %}
     {% assign posts_count = count | times: 1 %}
+    {% assign col_div = columns | integer %}
     <h2>({{postsQuery.results.entities.size}}) {{name | default:"Feedback entries (default)"}} </h2>
     {% if postsQuery.results.entities.size > 0 %}
         <div class="col-sm-12">
           <ul style="list-style: none;">
               {% for post in postsQuery.results.entities limit:count %}
-                  <li class="col-md-{{ 12 | divided_by: columns }}">
+                  <li class="col-md-{{ 12 | divided_by: col_div }}">
                       <div class="panel panel-{% if post.cr54f_rating < cutoff %}danger{% else %}default{% endif %}">
                           <div class="panel-heading">{{post.cr54f_name}} <span class="badge" style="float:right">{{post.cr54f_rating}}</span></div>
                           <div class="panel-body">
