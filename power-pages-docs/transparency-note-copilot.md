@@ -1,6 +1,6 @@
 ---
 title: Transparency note for Copilot
-description: The transparency note discusses natural language to form and the key considerations for making use of this technology responsibly.
+description: The transparency note to add chatbot and the key considerations for making use of this technology responsibly.
 ms.date: 4/28/2023
 ms.custom: transparency-note
 ms.topic: article
