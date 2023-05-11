@@ -1,10 +1,10 @@
 ---
-title: Implement privacy
+title: Implement privacy protections
 description: Learn how to implement privacy protections in Power Pages. Identify minor users, get parental consent, and have site users agree to terms and conditions.
 author: sandhangitmsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/25/2023
+ms.date: 5/11/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -14,11 +14,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Implement privacy
+# Implement privacy protections
 
 As an administrator, you can configure your Power Pages sites to implement privacy protections.
 
-[!INCLUDE [gdpr-intro](~/../shared-content/shared/privacy-includes/gdpr-intro.md)]
+The settings described in the documentation are general capabilities to support user privacy on Power Pages websites and can be useful when planning for compliance with the applicable standard regulations.
 
 ## Audit logging
 
@@ -30,6 +30,7 @@ The **Last Successful Sign-in** field in the contact record shows when a user ha
 ## Identifying minor users and obtaining parental consent
 
 Regulations for identifying minor users vary by country/region. Because a minor can only access the page with parental consent, you can configure the page to identify minors using these fields in the contact record:
+
 - **Is Minor**: Indicates that the contact is considered a minor in their jurisdiction. By default, **No** is selected.
 - **Is Minor with Parental Consent**: Indicates that the contact is considered a minor in their jurisdiction and has parental consent. By default, **No** is selected.
 
@@ -38,7 +39,7 @@ The following site settings control the use of Power Pages by minors and minors 
 | Name  | Description   |
 |-----------------------|------------------------------------------|
 | Authentication/Registration/DenyMinors  | Denies use of the site by minors. By default, this value is set to false.                          |
-| Authentication/Registration/DenyMinorsWithoutParentalConsent | Denies use of the site by minors without parental consent. By default, this is set to false. |
+| Authentication/Registration/DenyMinorsWithoutParentalConsent | Denies use of the site by minors without parental consent. By default, this setting is set to false. |
 |||
 
 If a site user is determined to be a minor and the site is configured to block minors, an appropriate message appears and content isn't shown.
@@ -77,8 +78,8 @@ The following site settings control the terms publication date and whether the t
 
 | Name  | Description |
 |------------|---------------|
-| Authentication/Registration/TermsPublicationDate  | A date/time value (GMT) to represent the effective date of the current published terms and conditions. If the terms agreement is enabled, users that haven't accepted the terms after this date will be asked to accept them the next time they sign in. If the date isn't provided, and the terms agreement is enabled, the terms will be presented every time users sign in. <br /> **Note**: If you want a user to agree to the terms and conditions every time they sign in, don't provide a value for this site setting.|
-| Authentication/Registration/TermsAgreementEnabled | A true or false value. If set to true, the page will display the terms and conditions of the site. Users must agree to the terms and conditions before they're considered authenticated and can use the site. By default, this value is set to false.        |
+| Authentication/Registration/TermsPublicationDate  | A date/time value (GMT) to represent the effective date of the current published terms and conditions. If the terms agreement is enabled, users that haven't accepted the terms after this date will be asked to accept them the next time they sign in. If the date isn't provided, and the terms agreement is enabled, the terms are presented every time users sign in. <br /> **Note**: If you want a user to agree to the terms and conditions every time they sign in, don't provide a value for this site setting.|
+| Authentication/Registration/TermsAgreementEnabled | A true or false value. If set to true, the page displays the terms and conditions of the site. Users must agree to the terms and conditions before they're considered authenticated and can use the site. By default, this value is set to false.        |
 |||
 
 The following field is added in the contact record to store the date and time a user agreed to the terms and conditions:
