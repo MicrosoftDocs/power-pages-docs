@@ -109,7 +109,7 @@
     - name: Design and build overview
       href: configure/design-build-overview.md
     - name: Use AI-powered and Copilot features (preview)
-      href: getting-started/ai-copilot-overview.md
+      href: configure/ai-copilot-overview.md
     - name: Dataverse and Power Pages
       href: getting-started/what-is-dataverse.md
     - name: Use Pages workspace
@@ -179,9 +179,9 @@
             - name: Overview
               href: configure/progressive-web-apps.md
             - name: Enable chatbot (preview)
-              href: configure/enable-chatbot.md
+              href: getting-started/enable-chatbot.md
             - name: Force Bing webmaster to index your site (preview)
-              href: configure/force-bing-index.md
+              href: getting-started/force-bing-index.md
             - name: Build progressive web applications
               href: configure/build-progressive-web-apps.md
     - name: Power Pages design studio and Power Apps portals Studio
