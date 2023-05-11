@@ -40,6 +40,8 @@ To configure a WS-Federation provider, sign in to [Power Pages](https://make.pow
     > [!NOTE]
     > Ensure that you review&mdash;and if required, change&mdash;the default values.
 
+    :::image type="content" source="../media/authentication/ws-federation.jpg" alt-text="Configuration settings for WS Federation provider.":::
+
     | Name | Description |
     | - | - |
     | Metadata address | The WS-Federation identity provider metadata file location. <br /> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/federationmetadata/2007-06/federationmetadata.xml` |
