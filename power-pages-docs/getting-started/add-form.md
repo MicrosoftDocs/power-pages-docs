@@ -64,7 +64,7 @@ To edit a text field on the form:
 1. Edit the text field and style it as needed (bold, underline, or italic).
     :::image type="content" source="media/add-form/fill-details.png" alt-text="Styling options for text fields including bold, underline, and italic.  Bold is selected here.":::
 
-## Edit and validate form fields
+## Edit, validate, and delete form fields
 
 Form fields are editable inside of the Pages workspace.
 
@@ -84,6 +84,15 @@ To edit a form field:
     Depending on your data type, other properties may be displayed.
 
 1. Select **Done**.
+
+To delete a form field:
+
+1. Hover over and select the field from the canvas.
+1. Choose the ellipse **...** in the tool bar.
+1. Select **Delete**.
+
+> [!WARNING]
+> This will also delete the field from the corresponding Dataverse form.
 
 ## Enable attachments on a form
 

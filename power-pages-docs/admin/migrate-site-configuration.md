@@ -5,13 +5,14 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/03/2023
+ms.date: 05/11/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
     - neerajnandwana-msft
     - nickdoelman
+    - vashr
 ---
 
 # Migrate website configuration
@@ -23,6 +24,8 @@ After you have completed development or configuration of your website instance, 
 Migration involves exporting the existing configuration from the source Microsoft Dataverse environment, and then importing it into the target Dataverse environment.
 
 ## Prepare the target environment
+
+You will need to prepare the target environment if you are using the standard data model. An environment using the [enhanced data model](../admin/enhanced-data-model.md) will not require these steps and you can proceed to [transferring the website configuration](#transfer-the-website-configuration-to-target-environment).
 
 > [!NOTE]
 > - Preparing the target environment is a one-time process. You will need to provision a new website in order to install the managed Power Pages solutions on Dataverse as well as configure the Power Pages web application. The process also installs default website metadata which will be replaced with the website metadata from your source environment.
@@ -42,18 +45,38 @@ Migration involves exporting the existing configuration from the source Microsof
 
     :::image type="content" source="media/migrate-portal-config/delete-portal.png" alt-text="Delete portal app.":::
 
-1. [Transfer](#transfer-website-metadata) the site metadata from the source environment using the Power Platform CLI or the Configuration Migration Tool.
+## Transfer the website configuration to target environment
 
-1. On the target environment, using Power Apps, provision a new website using the existing website option. This process will configure a website using the site configuration you transferred from the source environment.
+[Transfer](#transfer-website-metadata) the site metadata from the source environment using the Power Platform CLI, the Configuration Migration Tool, or using [solutions](../configure/power-pages-solutions.md).
 
-    :::image type="content" source="media/migrate-portal-config/provision-portal.png" alt-text="Provision new portal.":::
+## Reactivating site on target environment
 
-    > [!NOTE]
-    > The ability to create a site using the existing website option is only currently available in Power Apps.
+Once the website has been transferred to the target environment, you will need to reactivate the website.
+
+> [!NOTE]
+> - Currently, you can only re-activate sites using the standard data model. 
+> - If you have a site with the [enhanced data model](enhanced-data-model.md) you will need to create a new site using the enhanced data model on the target environment and connect the site to your migrated site using the [Power Platform admin center](../configure/power-pages-solutions.md#binding-enhanced-data-model-website-record-to-a-site). 
+
+1. On the target environment, on the Power Pages home screen, select **Inactive sites**, you should see the website you migrated to the environment.
+
+1. Select **Reactivate**.
+
+    :::image type="content" source="media/migrate-portal-config/reactivate-website.png" alt-text="Reactivate website.":::
+
+1. You can specify the **Reactivated website** name and **Create a web address** or leave default values.
+
+1. Select **Done**.
 
 1. The website updates from the source environment should be reflected in this new target environment. Going forward, you should be able to transfer configuration from your source to target environments by transferring the website configuration data.
 
+> [!NOTE]
+> A website appearing in the **Inactive sites** list on the Power Pages home page will appear in the list of **Active Websites** in the [Portal Management app](../configure/portal-management-app.md).
+
 ## Transfer website metadata
+
+# [Solutions](#tab/sol)
+
+If your website is configured using the [enhanced data model](../admin/enhanced-data-model.md) you can transfer the website configuration using Power Platform solutions. For more information, go to [Using solutions with Power Pages](../configure/power-pages-solutions.md).
 
 # [Power Platform CLI](#tab/CLI)
 
@@ -146,7 +169,7 @@ The Microsoft Power Platform CLI provides many features specifically for [Power 
 ### Transfer website configuration using the Configuration Migration Tool
 
 >[!NOTE]
-> The preferred method is to use the [Power Platform CLI](#transfer-website-configuration-using-power-platform-cli) to transfer website metadata.
+> The preferred method is to use [solutions](../configure/power-pages-solutions.md) or the [Power Platform CLI](#transfer-website-configuration-using-power-platform-cli) to transfer website metadata.
 
 To export configuration data, you would need to use the Configuration Migration tool and a website-specific configuration schema file. For more information about this tool, see [Manage configuration data](/power-platform/admin/manage-configuration-data).
 
@@ -176,12 +199,9 @@ The default schema files contain information about website tables, relationships
 After exporting the configuration data, you must import it into the target environment. More information: [Import website configuration data](#import-website-configuration-data)
 
 > [!NOTE]
-> The Configuration Migration tool uses schema to export and import configuration data. The tool does not migrate Dataverse tables or table schema. Migration may fail with missing elements such as tables and fields when configuration data has mismatch with selected schema.
->
-> During export, ensure the source environment contains website tables as specified in Configuration Migration tool schema file. You can still alter the schema files to add, remove, and modify tables, attributes, and so on to migrate subset of configuration data.
->
-> During import, ensure the destination environment contains the same website type already installed with any additional customizations such as tables, fields, forms or views imported separately as solutions.
-
+> - The Configuration Migration tool uses schema to export and import configuration data. The tool does not migrate Dataverse tables or table schema. Migration may fail with missing elements such as tables and fields when configuration data has mismatch with selected schema.
+> - During export, ensure the source environment contains website tables as specified in Configuration Migration tool schema file. You can still alter the schema files to add, remove, and modify tables, attributes, and so on to migrate subset of configuration data.
+> - During import, ensure the destination environment contains the same website type already installed with any additional customizations such as tables, fields, forms or views imported separately as solutions.
 
 ## Export website configuration data
 
@@ -249,10 +269,19 @@ You can export website configuration data from a source system by using website-
 
 ### Create new website using migrated data
 
-If the migration process is updating an existing website, the updates should now be visible in the target environment. If the migration is for a new website, you can now create the new website using Power Apps for the imported website record by using the option **Use data from existing website record**. More information: [Create portal](/power-apps/maker/portals/create-portal)
+If the migration process is updating an existing website, the updates should now be visible in the target environment. 
 
-> [!NOTE]
-> You currently can only create websites using existing website records from within Power Apps.
+If the migration is for a new website, the migrated website will be listed in the **Inactive sites** tab on the Power Pages home page.
+
+1. On the target environment, on the Power Pages home screen, select **Inactive sites**, you should see the website you migrated to the environment.
+
+1. Select **Reactivate**.
+
+    :::image type="content" source="media/migrate-portal-config/reactivate-website.png" alt-text="Reactivate website.":::
+
+1. You can specify the **Reactivated website** name and **Create a web address** or leave default values.
+
+1. Select **Done**.
 
 ## Tenant-to-tenant migration
 
