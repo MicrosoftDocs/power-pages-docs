@@ -57,7 +57,7 @@ Follow guidelines from [Webmaster tools help](https://www.bing.com/webmasters/he
 
 1. Under **Notes** tab, upload the file. In this example, "BingSiteAuth.xml".
 
-    :::image type="content" source="media/force-bing-index/uploaded-file.png" alt-text="A screenshot showing the uploaded XML file." border="false":::
+    :::image type="content" source="media/force-bing-index/uploaded-file.png" alt-text="A screenshot showing the uploaded XML file." border="true":::
 
 ### Method 2. Meta tag authentication
 
@@ -124,7 +124,7 @@ Follow guidelines from [Webmaster tools help](https://www.bing.com/webmasters/he
 
 1. Update the **Description** field for both **Information form** and **Content Page form**.
 
-    :::image type="content" source="media/force-bing-index/description.png" alt-text="A screenshot showing description tag." border="false":::
+    :::image type="content" source="media/force-bing-index/description.png" alt-text="A screenshot showing description tag." border="true":::
 
 1. Save the record.
 
@@ -136,7 +136,7 @@ Follow guidelines from [Webmaster tools help](https://www.bing.com/webmasters/he
 
 1. Select **Site Scan** under **SEO**.
 
-    :::image type="content" source="media/force-bing-index/site-scan.png" alt-text="A screenshot showing site scan." border="false":::
+    :::image type="content" source="media/force-bing-index/site-scan.png" alt-text="A screenshot showing site scan." border="true":::
 
 1. Select **Start New Scan**.
 

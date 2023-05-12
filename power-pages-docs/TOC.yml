@@ -632,12 +632,12 @@
   items:
     - name: Overview
       href: transparency-note.md
-    - name: Copilot
-      href: transparency-note-copilot.md
-    - name: Natural language to text
+    - name: Transparency note for chatbot
+      href: transparency-note-chatbot.md
+    - name: Transparency note for generating text
       href: transparency-note-generate-text.md
-    - name: Natural language to form
-      href: transparency-note-generate-form.md             
+    - name: Transparency note for creating form
+      href: transparency-note-create-form.md             
 - name: Compliance and accessibility
   items:
     - name: Accessibility

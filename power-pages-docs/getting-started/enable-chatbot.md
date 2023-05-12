@@ -43,7 +43,7 @@ A chatbot with AI can provide quick and efficient customer support to end users.
 
 1. Under **Integrations,** select on **Chatbot (preview)**
 
-    :::image type="content" source="media/enable-chatbot/select-chatbot.png" alt-text="A screenshot of Chatbot (preview) under Integrations." border="false":::
+    :::image type="content" source="media/enable-chatbot/select-chatbot.png" alt-text="A screenshot of Chatbot (preview) under Integrations." border="true":::
 
 1. Toggle **Create and test chatbot** to create a bot for this site.
 
@@ -68,7 +68,7 @@ The chatbot component is rendered using a web template called Power Virtual Agen
 
 You can change the values for the following parameters inside the **window.PvaEmbeddedWebChat.renderWebChat()** function.
 
-:::image type="content" source="media/enable-chatbot/chatbot-parameters.png" alt-text="A screenshot of Chatbot Widget with each part numbered for reference." border="false":::
+:::image type="content" source="media/enable-chatbot/chatbot-parameters.png" alt-text="A screenshot of Chatbot Widget with each part numbered for reference." border="true":::
 
 | Number | Parameter | Value |
 |-------------------------|-------------------------|-------------------------|

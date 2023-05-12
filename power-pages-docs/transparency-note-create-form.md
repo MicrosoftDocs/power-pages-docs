@@ -1,6 +1,6 @@
 ---
-title: Transparency note for Copilot
-description: The transparency note to add chatbot and the key considerations for making use of this technology responsibly.
+title: Transparency note for creating form
+description: The transparency note discusses natural language to form and the key considerations for making use of this technology responsibly.
 ms.date: 4/28/2023
 ms.custom: transparency-note
 ms.topic: article
@@ -9,11 +9,11 @@ ms.author: prpadalw
 ms.reviewer: ndoelman
 ---
 
-# Transparency note for Copilot
+# Transparency note for creating form
 
 This transparency note describes the AI impact of Power Pages' natural language to form feature.
 
-## What is Copilot?
+## What is natural language to form?
 
 [Describe the system in plain English. What type of system is this? What does it do? At a high level, what does the system take as input? What kind of outputs does the system produce?]
 
