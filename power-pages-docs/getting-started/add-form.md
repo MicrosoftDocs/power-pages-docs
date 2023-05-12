@@ -3,9 +3,7 @@ title: Add forms
 description: Add forms to your page in Power Pages.
 author: clromano
 ms.topic: conceptual
-ms.custom: 
 ms.date: 01/18/2023
-ms.subservice:
 ms.author: clromano
 ms.reviewer: kkendrick
 contributors:
@@ -68,18 +66,24 @@ To edit a text field on the form:
 
 ## Edit, validate, and delete form fields
 
+Form fields are editable inside of the Pages workspace.
+
 To edit a form field:
 
-1. Hover over and select the field from the canvas.
-1. Choose **Edit field** in the tool bar.
-    :::image type="content" source="media/add-form/edit-text-field.png" alt-text="The edit text field menu.":::
-1. From the Field Edit modal:
+1. Select the field and choose **Edit field**.
+
+1. Set properties for your field.
+
     - Update the field's label/display name.
     - Mark the field as required, then customize the error message to be shown when the field is required.
     - Add a description to the field and adjust its position (choices include above the field, below the field, and above the label).
     - Set the validation rules for the field.
         - Use the options to configure out-of-the-box validations.
         - Use the Regex option to enter custom validation using regular expressions.
+    
+    Depending on your data type, other properties may be displayed.
+
+1. Select **Done**.
 
 To delete a form field:
 
@@ -135,19 +139,25 @@ For more information, see [Configuring table permissions](../security/table-perm
 
 ## Enable code components on form fields
 
-If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage.
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used on a webpage form. 
 
-To enable the code component:
+To enable a code component: 
 
-1. Select the field and choose **Edit field**.
+1. Select the **Edit code component** button from the menu.
 
-1. Select **Enable custom component field**.
+1. Switch the **Enable custom component field** toggle switch to the on position.
 
-1. Select **OK**.
+Custom components are now enabled for that field.
 
-    :::image type="content" source="media/add-form/enable-code-component.png" alt-text="Enabling code component on webpage form.":::
+### Edit code component properties on form fields (preview)
 
-The code component will now be available on the form.
+You can also edit the properties of a component from inside the Pages workspace.
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+
+After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
 
 ### See also
 
