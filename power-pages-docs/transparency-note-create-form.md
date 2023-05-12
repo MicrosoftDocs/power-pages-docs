@@ -39,6 +39,4 @@ This transparency note describes the AI impact of Power Pages' natural language 
 
 ## See also
 
-<!-- when updated
-- [Feature page]([Link])
--->
+[Create AI-generated form using Copilot](getting-started/add-form-copilot.md)

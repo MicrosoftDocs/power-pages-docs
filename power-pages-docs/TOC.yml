@@ -174,14 +174,14 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
+        - name: Enable chatbot (preview)
+          href: getting-started/enable-chatbot.md
+        - name: Force Bing webmaster to index your site (preview)
+          href: getting-started/force-bing-index.md
         - name: Progressive web applications
           items:
             - name: Overview
               href: configure/progressive-web-apps.md
-            - name: Enable chatbot (preview)
-              href: getting-started/enable-chatbot.md
-            - name: Force Bing webmaster to index your site (preview)
-              href: getting-started/force-bing-index.md
             - name: Build progressive web applications
               href: configure/build-progressive-web-apps.md
     - name: Power Pages design studio and Power Apps portals Studio

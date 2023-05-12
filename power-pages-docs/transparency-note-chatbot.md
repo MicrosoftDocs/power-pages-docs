@@ -1,5 +1,5 @@
 ---
-title: ransparency note for chatbot
+title: Transparency note for chatbot
 description: The transparency note to add chatbot and the key considerations for making use of this technology responsibly.
 ms.date: 4/28/2023
 ms.custom: transparency-note
@@ -9,7 +9,7 @@ ms.author: prpadalw
 ms.reviewer: ndoelman
 ---
 
-# ransparency note for chatbot
+# Transparency note for chatbot
 
 This transparency note describes the AI impact of Power Pages' natural language to form feature.
 
@@ -27,18 +27,16 @@ This transparency note describes the AI impact of Power Pages' natural language 
 
 ## How was natural language to form evaluated? What metrics are used to measure performance?
 
-[Provide evidence of system accuracy and performance as well as a description of the extent to which these results are generalizable across use cases that were not part of the evaluation.]
+[Provide evidence of system accuracy and performance and a description of the extent to which these results are generalizable across use cases that weren't part of the evaluation.]
 
 ## What are the limitations of natural language to form? How can users minimize the impact of the natural language to form limitations when using the system?
 
-[See Impact Assessment. Describe the known limitations of the system including uses for which the system was not designed or evaluated. Discuss steps that the user can take to minimize errors and the impact of trade-offs for the user.]
+[See Impact Assessment. Describe the known limitations of the system including uses for which the system wasn't designed or evaluated. Discuss steps that the user can take to minimize errors and the impact of trade-offs for the user.]
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 
-[Describe the operational factors and ranges within which the system is expected to perform reliably and safely. List the choices that end users can make (e.g., customization, settings, etc.), with a description of how those choices may impact system behavior in the real world.]
+[Describe the operational factors and ranges within which the system is expected to perform reliably and safely. List the choices that end users can make (for example, customization, settings, etc.), with a description of how those choices may impact system behavior in the real world.]
 
 ## See also
 
-<!-- when updated
-- [Feature page]([Link])
--->
+[Enable chatbot in a Power Pages site](getting-started/enable-chatbot.md)
