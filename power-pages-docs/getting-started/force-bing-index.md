@@ -22,7 +22,7 @@ The Power Pages chatbot is powered by Bing. When a chatbot is enabled for a site
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Responsible AI transparency notes for Power Pages](../transparency-note.md).
+> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
 
 ## Add and verify site
 

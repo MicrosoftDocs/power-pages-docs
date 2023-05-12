@@ -24,7 +24,7 @@ A chatbot with AI can provide quick and efficient customer support to end users.
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Responsible AI transparency notes for Power Pages](../transparency-note.md).
+> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
 > - Chatbot uses Power Virtual Agents boosted conversations capability and Bing Search to retrieve information from publicly available URLs. Your use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## Prerequisites

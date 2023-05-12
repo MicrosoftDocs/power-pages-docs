@@ -24,7 +24,7 @@ Copilot for text allows you to create website copy within the context of design 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Responsible AI transparency notes for Power Pages](../transparency-note.md).
+> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
 
 To use Copilot for text:
 
