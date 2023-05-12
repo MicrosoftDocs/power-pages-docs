@@ -18,6 +18,6 @@ contributors:
 
 [!INCLUDE[transparency-note-features](includes/transparency-note-features.md)]
 
-- [Copilot](transparency-note-copilot.md)
-- [Natural language to text](transparency-note-generate-text.md)
-- [Natural language to form](transparency-note-generate-form.md)  
+- [Transparency note for chatbot](transparency-note-chatbot.md)
+- [Transparency note for generating text](transparency-note-generate-text.md)
+- [Transparency note for creating form](transparency-note-create-form.md)  
