@@ -53,6 +53,8 @@ For a more immersive editing experience, you can use the full-screen editing mod
 
 :::image type="content" source="media/common/page-edit-options.png" alt-text="Controls for immersive editing options, including zoom in, zoom out, and reset.":::
 
+## Edit components
+
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 
 Select the paintbrush icon to adjust the styles of a section or component. Different styles are available based on the component's type. Currently, sections, text, images, and video are supported.
@@ -79,6 +81,18 @@ Syncing, saving, previewing, zooming , expanding/reducing the workspace, navigat
 > [!NOTE]
 > - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
 > - For sites created using Power Pages prior to September 23, 2022 there is a known issue related to themes. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
+
+### Edit code components (preview)
+
+Code component properties are editable inside of the Pages workspace.
+
+To edit a code component:
+
+1. Select the component and choose **Edit code component** from the toolbar.
+
+1. Set properties for your code component.
+
+1. Select **Done**.
 
 ### See also
 

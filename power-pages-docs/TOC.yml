@@ -622,7 +622,7 @@
   items:
     - name: Accessibility
       href: admin/accessibility.md
-    - name: Implement privacy
+    - name: Implement privacy protections
       href: configure/implement-privacy.md
     - name: Cookies
       href: admin/cookies.md
