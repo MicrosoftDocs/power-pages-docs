@@ -34,7 +34,7 @@ To use Copilot for text:
 1. [Add a text component](add-text.md).
 1. Select the **Copilot** icon.
 
-    :::image type="content" source="media/add-text-copilot/copilot-icon.png" alt-text="A screenshot of the Copilot icon in text component." border="true":::
+    :::image type="content" source="media/add-text-copilot/copilot-icon.png" alt-text="A screenshot of copilot icon." border="true":::
 
 1. Describe the text that you want to generate using AI. For example, "I want to describe the benefits of student loan options at Contoso university."
 
