@@ -4,7 +4,7 @@ description: Learn how to add forms with code components to your Power Pages.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 5/24/2022
+ms.date: 04/20/2023
 ms.subservice:
 ms.author: ndoelman 
 ms.reviewer: 
@@ -147,17 +147,15 @@ This video provides an overview of the steps to configure the rich text editor c
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fE0q]
 
-If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage.
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. 
 
-To enable the code component:
+To enable a code component: 
 
-1. Select the field and choose **Edit field**.
+1. Select the **Edit code component** button from the menu.
 
-1. Select **Enable custom component field**.
+1. Switch the **Enable custom component field** toggle switch to the on position.
 
-1. Select **OK**.
-
-    :::image type="content" source="media/add-form/enable-code-component.png" alt-text="Enabling code component on webpage form.":::
+Custom components are now enabled for that field.
 
 1. From the design studio, select **Preview** and navigate to your page.
 
