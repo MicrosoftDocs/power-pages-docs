@@ -17,12 +17,40 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+You can start the form creation process by describing the type of form you're looking to create. Copilot suggests a form based on the description and offers a preview of the AI-generated form derived from your descriptions. You can refine and edit this form or completely start over with a different description.
+
+:::image type="content" source="media/add-form-copilot/describe-form.png" alt-text="A screenshot of preview screen where you can describe the form." border="true":::
+
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Responsible AI transparency notes for Power Pages](../transparency-note.md).
 
+To use Copilot for forms:
 
+1. Go to [Pages workspace](first-page.md).
+1. [Add a form](add-form.md).
+1. Start typing the description of your form inside the text box under **Describe a form to create it**.
+
+As the preview gets generated for the form, you can perform quick actions by selecting the AI-generated actions. The history shows you the descriptions you've used in the current attempt, and you can also start over.
+
+After reviewing the AI-generated form, you can add it to the page. In the background, Power Pages creates the following for you:
+
+- A [table](../configure/data-workspace-tables.md) in Microsoft Dataverse.
+- A [Dataverse form](../configure/data-workspace-forms.md).
+- A [basic form](../configure/basic-forms.md) in Power Pages.
+
+The Dataverse table is created with the solution publisher's prefix selected in the Data workspace. The names of tables and forms created by Power Pages for Copilot start with `Copilot [Table name]` format to simplify and streamline your form creation process.
+
+Once the form is added to the page, you can continue to edit the form with the in-context [editing experiences](customize-pages.md).
+
+For example, here's how the preview might look like when describing the form as "Scholarship application form".
+
+:::image type="content" source="media/add-form-copilot/scholarship-application-form.png" alt-text="A screenshot of generated preview for a scholarship form." border="false":::
+
+Likewise, here's an example of an AI-generated preview of a "Product customer support form".
+
+:::image type="content" source="media/add-form-copilot/customer-support-form.png" alt-text="A screenshot of generated preview for a customer support form." border="false":::
 
 ### See also
 
