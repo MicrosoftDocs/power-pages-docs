@@ -26,8 +26,6 @@ Copilot for text allows you to create website copy within the context of design 
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Responsible AI transparency notes for Power Pages](../transparency-note.md).
 
-The text that you enter as description uses [Azure OpenAI](/azure/cognitive-services/openai/overview) to generate text and show a preview.
-
 To use Copilot for text:
 
 1. Go to [Pages workspace](first-page.md).
@@ -52,7 +50,7 @@ To use Copilot for text:
 
 1. Select **Add to page** to add the AI-generated text.
 
-Once the text is added to the page, you can continue to edit the page with the in-context [editing experiences](customize-pages.md)
+Once the text is added to the page, you can continue to edit the page with the in-context [editing experiences](customize-pages.md).
 
 ### See also
 
