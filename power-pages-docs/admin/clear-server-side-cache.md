@@ -26,56 +26,15 @@ Metadata/configuration tables represent all the tables that store website config
 
 The following tables are considered as **configuration** tables. This list is fixed and can't be modified through any configuration.
 
-```html
-adx_contentaccesslevel
-adx_contentsnippet
-adx_entityform
-adx_entityformmetadata
-adx_entitylist
-adx_entitypermission
-adx_entitypermission_webrole
-adx_externalidentity
-adx_pagealert
-adx_pagenotification
-adx_pagetag
-adx_pagetag_webpage
-adx_pagetemplate
-adx_portallanguage
-adx_publishingstate
-adx_publishingstatetransitionrule
-adx_publishingstatetransitionrule_webrole
-adx_redirect
-adx_setting
-adx_shortcut
-adx_sitemarker
-adx_sitesetting
-adx_urlhistory
-adx_webfile
-adx_webfilelog
-adx_webform
-adx_webformmetadata
-adx_webformsession
-adx_webformstep
-adx_weblink
-adx_weblinkset
-adx_webnotificationentity
-adx_webnotificationurl
-adx_webpage
-adx_webpage_tag
-adx_webpageaccesscontrolrule
-adx_webpageaccesscontrolrule_webrole
-adx_webpagehistory
-adx_webpagelog
-adx_webrole_systemuser
-adx_website
-adx_website_list
-adx_website_sponsor
-adx_websiteaccess
-adx_websiteaccess_webrole
-adx_websitebinding
-adx_websitelanguage
-adx_webtemplate
-```
+> [!NOTE]
+> - The tables used for site configuration will depend if the site has been configured using the standard or enhanced data model. See [Enhanced data model](enhanced-data-model.md) for more information.
+> - These tables cannot be modified.
+
+| System table | Enhanced data model virtual table | Standard data model table |
+| - | - | - |
+|powerpagesite|mspp_website|adx_website|
+|powerpagesitelanguage|mspp_websitelanguage|adx_websitelanguage|
+| powerpagecomponent | mspp_columnpermission</br>mspp_columnpermissionprofile</br>mspp_contentsnippet</br>mspp_entityform</br>mspp_entityformmetadata</br>mspp_entitylist</br>mspp_entitypermission</br>mspp_pagetemplate</br>mspp_pollplacement</br>mspp_publishingstate</br>mspp_publishingstatetransitionrule</br>mspp_redirect</br>mspp_shortcut</br>mspp_sitemarker</br>mspp_sitesetting</br>mspp_webfile</br>mspp_webform</br>mspp_webformmetadata</br>mspp_webformstep</br>mspp_weblink</br>mspp_weblinkset</br>mspp_webpage</br>mspp_webpageaccesscontrolrule</br>mspp_webrole</br>mspp_websiteaccess</br>mspp_websitelanguage</br>mspp_webtemplate</br>|adx_columnpermission</br>adx_columnpermissionprofile</br>adx_contentsnippet</br>adx_entityform</br>adx_entityformmetadata</br>adx_entitylist</br>adx_entitypermission</br>adx_pagetemplate</br>adx_pollplacement</br>adx_publishingstate</br>adx_publishingstatetransitionrule</br>adx_redirect</br>adx_shortcut</br>adx_sitemarker</br>adx_sitesetting</br>adx_webfile</br>adx_webform</br>adx_webformmetadata</br>adx_webformstep</br>adx_weblink</br>adx_weblinkset</br>adx_webpage</br>adx_webpageaccesscontrolrule</br>adx_webrole</br>adx_websiteaccess</br>adx_websitelanguage</br>adx_webtemplate</br>|
 
 All configuration table data is same for all users and is cached automatically. This configuration data cache for any table is updated automatically when any record is changed. Automatic cache update has a service level agreement of 15 minutes. Any change done for a configuration record would be automatically available on the website within 15 minutes.
 

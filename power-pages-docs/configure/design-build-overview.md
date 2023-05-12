@@ -5,7 +5,7 @@ author: nickdoelman
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2022
+ms.date: 05/12/2023
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: kkendrick
@@ -16,7 +16,10 @@ contributors:
 
 # Overview of designing and building sites
 
-The Power Pages design studio allows you to quickly create and edit powerful websites.
+The Power Pages [design studio](../getting-started/use-design-studio.md) allows you to quickly create and edit powerful websites.
+
+> [!NOTE]
+> To use the design studio, you will need to be assigned the [system administrator role](/power-platform/admin/assign-security-roles) in the same Microsoft Dataverse environment as your site. 
 
 The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs:
 
