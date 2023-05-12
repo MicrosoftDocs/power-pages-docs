@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 05/08/2023
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -69,6 +69,12 @@ There's a set of pre-made Liquid templates available within Power Pages. To use 
 | Top Navigation              | This template renders an editable nav bar with drop-down menus for the Primary Navigation web link set.                                                                                                                                 | `{% include 'top_navigation' %}`                                         |
 | Weblink List Group          | This template renders a list group of links for a web link set.                                                                                                                                                                         | `{% include 'weblink_list_group' weblink_set_name:'Name' %}`                     |
 ||
+
+## Web templates as components
+
+Web templates can be created and used as components in web pages to allow makers to use these reusable components and provide parameters to meet requirements.
+
+More information: [Web templates as components](web-templates-as-components.md)
 
 ### See also
 
