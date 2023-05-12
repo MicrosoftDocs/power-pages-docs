@@ -6,6 +6,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "power-pages-docs/configure/implement-gdpr.md",
+      "redirect_url": "implement-privacy",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "power-pages-docs/coming-soon.md",
       "redirect_url": "index",
       "redirect_document_id": "false"
@@ -29,7 +34,7 @@
       "source_path": "power-pages-docs/getting-started/tutorial-pcf-code.md",
       "redirect_url": "/power-apps/maker/portals/tutorial-pcf-code",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "power-pages-docs/admin/migrate-portal-configuration.md",
       "redirect_url": "/power-pages/admin/migrate-site-configuration",
@@ -58,6 +63,16 @@
     {
       "source_path": "power-pages-docs/admin/portal-consumption-reports.md",
       "redirect_url": "/power-pages/admin/website-consumption-reports",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/templates/dynamics-365-templates.md",
+      "redirect_url": "/power-pages/templates/dynamics-365-apps/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/configure/cli-tutorial.md",
+      "redirect_url": "/power-pages/configure/power-platform-cli-tutorial",
       "redirect_document_id": "false"
     },
     {
