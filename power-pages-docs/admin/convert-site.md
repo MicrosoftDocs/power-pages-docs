@@ -16,7 +16,7 @@ contributors:
 
 # Convert a website
 
-As explained in the [portal lifecycle](portal-lifecycle.md) topic, a Power Pages website goes through different stages. You can convert a website from one stage to another, depending on what conversion is allowed, and whether the environment has the required license, or capacity.
+As explained in the [POwer Pages lifecycle](lifecycle.md) topic, a Power Pages website goes through different stages. You can convert a website from one stage to another, depending on what conversion is allowed, and whether the environment has the required license, or capacity.
 
 ## Convert a website from trial to production
 
