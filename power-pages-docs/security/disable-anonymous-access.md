@@ -31,26 +31,26 @@ You can disable and enable anonymous access to your websites using the Power Pla
 
 1. Choose **Disable anonymous access** from the list.  
 
-1. A slide-out panel will appear on the right. You have the option to disable anonymous access for the following:
+1. A slide-out panel appears on the right. You can disable anonymous access for the following:
 
     - None of the sites
     - Specific sites
     - All sites except specific sites
     - All sites
 
-1. Selecting **Specific sites** or **All sites except specific sites** a list of websites will appear that you can select to be disabled or enabled. Select the sites and choose **OK**.
+1. Selecting **Specific sites** or **All sites except specific sites** a list of websites appear that you can select to be disabled or enabled. Select the sites and choose **OK**.
 
-1. Select **Save**. A message confirming success will appear in green below the Governance Controls ribbon menu.  
+1. Select **Save**. A message confirming success appears in green below the Governance Controls ribbon menu.  
 
 ## Maker experience
 
-Once an admin completes the steps in the previous section, anonymous users will be disabled for new table permissions.
+Once an admin completes the steps in the previous section, anonymous users are disabled for new table permissions.
 
 :::image type="content" source="media/disable-anonymous-access/anonymous-access-disabled.png" alt-text="Disable anonymous access.":::
 
-For existing sites where anonymous access is given, an banner error message will be displayed indicating a **Data protection policy update** has been applied.
+For existing sites where anonymous access is given, a banner error message is displayed indicating a **Data protection policy update** has been applied.
 
 ## End user experience
 
-End users will see a message explaining that they do not have permission to view records and prompting them to sign in.
+End users see a message explaining that they don't have permission to view records and prompting them to sign in.
 
