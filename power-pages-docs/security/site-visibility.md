@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/01/2023
+ms.date: 05/15/2023
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -86,6 +86,9 @@ The ability to change site visibility is determined by the following factors:
 - [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
 - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
+
+> [!NOTE]
+> Websites on Developer environments can only be made public by Service admins. 
 
 Members of [System administrator](/power-platform/admin/database-security#environments-with-a-dataverse-database) security role can also change the site visibility when the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to `true`.
 
