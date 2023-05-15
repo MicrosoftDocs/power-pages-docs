@@ -3,9 +3,9 @@ title: "How to: Integrate Power Automate cloud flow with Power Pages site"
 description: Learn how to add and configure a Dataverse choices column on Power Pages lists, forms, and templates.
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
-ms.date: 05/12/2023
+ms.date: 05/15/2023
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: ndoelman
@@ -27,47 +27,39 @@ This article explains how to create Power Pages and use Power Automate cloud flo
 
 ## Prerequisite
 
-To complete this course, you need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](https://learn.microsoft.com/en-us/power-pages/getting-started/trial-signup) and [Power Automate](https://learn.microsoft.com/en-us/power-automate/sign-up-sign-in) trial
+To complete these steps, you'll need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](../getting-started/trial-signup.md) and [Power Automate](/power-automate/sign-up-sign-in) trials.
 
 ## Step 1: Create cloud flow
 
-Create a flow using the Power Pages trigger and use the MSN weather action to fetch weather data.
+Create a flow using the Power Pages trigger and use the **MSN weather** action to fetch weather data.
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/)
 
-1. On the left pane, click on **Solutions**
+1. On the left pane, click on **Solutions**.
 
-1. Either [create a new solution](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-solution) or select an existing solution
+1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution.
 
-![](media/image1.gif)
+1. Select **+New** **Automation** **Cloud flow** **Instant**
 
-1.  Select **+New** **Automation** **Cloud flow** **Instant**
+1. Select **Skip**
 
-![](media/image2.gif)
+1. Search for **Power Pages** Select **When Power Pages calls a flow** trigger
 
-1.  Click **Skip**
+    :::image type="content" source="media/cloud-flow/power-automate-power-pages.png" alt-text="Selecting Power Pages options in Power Automate.":::
 
-1.  Search for **Power Pages** Select **When Power Pages calls a flow** trigger
+1. Select **+ Add an input**
 
-![](media/image3.gif)
+1. Choose **Text**
 
-1.  Click on **+ Add an input**
+1. Add a name as **Location**
 
-1.  Choose **Text**
-
-1.  Add a name as **Location**
-
-![](media/image4.gif)
-
-1. Click on **+New step**
+1. Select **+New step**
 
 1. Search for **MSN Weather** select **Get current weather** action
 
-![A screenshot of a computer Description automatically generated](media/image5.gif)
-
 1. Focus cursor on **Location** input text Select **Location** parameter under **When Power Pages calls a flow** from dynamic content
 
-![](media/image6.gif)
+    :::image type="content" source="media/cloud-flow/build-cloud-flow.png" alt-text="Build cloud flow.":::
 
 You can either keep the Imperial units or change to metric
 
@@ -83,35 +75,21 @@ You can either keep the Imperial units or change to metric
 
 1. Choose dynamic content **Pressure** under **Get current weather**
 
-1. Add below output variable with **text** type
+1. Repeat to create the following output steps using **text** type
 
     1. Humidity
-
     1. Temperature
-
     1. UV index
-
     1. Wind speed
-
     1. Dew point
-
     1. Visible distance
-
     1. Latitude
-
     1. Longitude
-
     1. Temperature Units
-
     1. Pressure Units
-
     1. Speed Units
-
     1. Distance Units
-
     1. Wind direction
-
-![](media/image7.gif)
 
 1. Click on **Save**
 
@@ -123,13 +101,11 @@ After saving the flow, you need to add it to the site and assign a proper webrol
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/)
 
-1. Create a site with [default template](https://learn.microsoft.com/en-us/power-pages/getting-started/create-manage)
+1. Create a site with on of the [starter layouts](../getting-started/create-manage.md)
 
 1. Select the site click on **Edit**
 
-1. Navigate to **Set up** **Cloud flows (preview)** under **App integrations**
-
-![](media/image8.gif)
+1. Navigate to the **Set up** workspace, select **Cloud flows (preview)** under **App integrations**
 
 1. Select **+ Add cloud flow**
 
@@ -139,39 +115,32 @@ After saving the flow, you need to add it to the site and assign a proper webrol
 
 1. Select **Anonymous Users** role
 
-![](media/image9.gif)
-
 1. Click **Add**
 
 1. Copy the URL
 
-![](media/image10.gif)
+    :::image type="content" source="media/cloud-flow/add-to-website.png" alt-text="Add cloud flow to website.":::
 
 This is the unique URL used to connect to the associated cloud flow. You will use this URL later to call the current weather flow.
 
-# Step 3: Create a page to display MSN weather data
+## Step 3: Create a page to display MSN weather data
 
 After creating the flow and attaching it to the Power Pages site, you can now call it from a control event using JavaScript.
 
 1. Click on **Pages** workspace
 
-![](media/image11.gif)
-
 1. Click on **+ Page**
 
 1. Provide the Page Name as "*Todays weather report"*
 
-![](media/image12.png)
-
 1. Click on **Edit code** to open visual studio code
-
-![A screenshot of a computer Description automatically generated](media/image13.png)
 
 1. Paste below code
 
-|                         |
-|-------------------------|
-| Code will be added here |
+    ```javascript
+    alert("hello world");
+
+    ```
 
 1. Replace URL with the one copied above
 
@@ -179,12 +148,12 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
 
 1. Click on **Sync** on design studio
 
-# Step 4: Test the flow integration
+## Step 4: Test the flow integration
 
 To test the flow integration functionality
 
-1.  Click on **Preview** to open the site
+1. Select **Preview** to open the site
 
-1.  Enter Postal code or City in **Location** text box
+1. Enter a postal code or city in **Location** text box
 
-1.  Click **Submit** button
+1. Select **Submit** button

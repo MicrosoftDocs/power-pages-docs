@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/12/2023
+ms.date: 05/15/2023
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: ndoelman
@@ -25,8 +25,6 @@ Power Automate cloud flow allows users to create automated workflows between dif
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 Now, you can securely invoke Power Automate cloud flow from Power Pages to interact with 900+ external data sources and integrate it into your business site.
-
-![A screenshot of a computer Description automatically generated](media/image1.gif)
 
 > [!NOTE]
 > Your Power Pages site version must be 9.5.4.xx or later for this feature to work.
@@ -49,20 +47,20 @@ You will need a Power Automate per flow license to integrate it with Power Pages
 
 1. On the left pane, click on **Solutions**
 
-1. Either [create a new solution](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-solution) or select an existing solution
+1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution
 
 1. Select **+New** **Automation** **Cloud flow** **Instant**
 
-1. Click **Skip**
+1. Select **Skip**
 
-![A screenshot of a computer Description automatically generated](media/image2.gif)
+1. Search for **Power Pages** Select **When Power Pages calls a flow** trigger.
 
-1. Search for **Power Pages** Select **When Power Pages calls a flow** trigger
+    :::image type="content" source="media/cloud-flow/power-automate-power-pages.png" alt-text="Selecting Power Pages options in Power Automate.":::
 
-1. Define your flow Save
+1. Define your flow steps and return values and select **Save**.
 
 > [!NOTE]
-> Only [solution-aware](https://learn.microsoft.com/en-us/power-automate/overview-solution-flows) flows can be attached to the Power Pages site.
+> Only [solution-aware](/power-automate/overview-solution-flows) flows can be attached to the Power Pages site.
 
 ## Add a flow to your Site
 
@@ -80,11 +78,11 @@ After creating an instant cloud flow, it needs to be associated with the Power P
 
 1. Select **+ Add roles** under Roles
 
-![A screenshot of a computer Description automatically generated](media/image3.png)
-
 1. Select roles
 
 1. Click **Save**
+
+    :::image type="content" source="media/cloud-flow/add-to-website.png" alt-text="Add cloud flow to website.":::
 
 > [!NOTE]
 > When you add a flow to your site, a unique URL is generated that allows you to invoke the cloud from your site.
@@ -97,19 +95,39 @@ Use Power Pages cloud flow API to interact with Power Automate to perform extern
 |-------------------|--------|--------------------------------------------------------|
 | Invoke cloud flow | POST   | \[Site URI\]\_/api/cloudflow/v1.0/trigger/&lt;guid&gt; |
 
-Ex:
+Example:
 
 Request
 
-| POST https://contoso.powerappsportals.com/_api/cloudflow/v1.0/trigger/ 4d22a1a2-8a67-e681-9985-3f36acfb8ed4</br>{</br>"text":"abc@contoso.com"</br>} |
-|-------------------------|
-
+```html
+POST https://contoso.powerappsportals.com/_api/cloudflow/v1.0/trigger/4d22a1a2-8a67-e681-9985-3f36acfb8ed4
+{
+    "text":"abc@contoso.com"
+}
+``` 
 
 Response
 
-| Cloud flow without response action</br>HTTP/1.1 Accepted</br>Content-Type: application/json</br>Cloud flow with response action</br>HTTP/1.1 200 OK</br>Content-Type: application/json</br>Body</br>{</br>"name":"Sample Account",</br>"credit_on_hold":false,</br>"description":"This is a sample account",</br>"revenue":50000000</br>} |
-|-------------------------|
+Cloud flow without response action
 
+```html
+HTTP/1.1 Accepted
+Content-Type: application/json
+```
+
+Cloud flow with response action
+
+```html
+HTTP/1.1 200 OK
+Content-Type: application/json
+Body
+{
+    "name":"Sample Account",
+    "credit_on_hold":false,
+    "description":"This is a sample account",
+    "revenue":50000000
+}
+```
 
 ## Authenticating cloud flow API requests
 
@@ -117,7 +135,7 @@ You don't need to include an authentication code, because authentication and aut
 
 ## Passing parameter to cloud flow
 
-In a cloud flow, you can define input parameters of type Text, Boolean, and Number. For Text type parameters, you can name them as 'text', 'text\_1', 'text\_2', etc. For Boolean type parameters, you can use names such as 'boolean', 'boolean\_1', 'boolean\_2', and for Number type parameters, 'number', 'number\_1', 'number\_2', and so on.
+In a cloud flow, you can define input parameters of type **Text**, **Boolean**, and **Number**. For **Text** type parameters, you can name them as 'text', 'text\_1', 'text\_2', etc. For Boolean type parameters, you can use names such as 'boolean', 'boolean\_1', 'boolean\_2', and for Number type parameters, 'number', 'number\_1', 'number\_2', and so on.
 
 ## Next Steps
 
