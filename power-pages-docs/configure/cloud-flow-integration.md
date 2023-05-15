@@ -18,40 +18,40 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Automate cloud flow allows users to create automated workflows between different applications and services. You can use Power Automate cloud flow to create logic that performs one or more tasks when an event occurs. For example, configure a button so that when a user selects it, send an email or meeting request, update a record, collect data, synchronize files, etc.
+Power Automate cloud flow allows users to create automated workflows between different applications and services. You can use a Power Automate cloud flow to create logic that performs one or more tasks when an event occurs. For example, configure a button so that when a user selects it, send an email or meeting request, update a record, collect data, synchronize files, and other tasks.
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-Now, you can securely invoke Power Automate cloud flow from Power Pages to interact with 900+ external data sources and integrate it into your business site.
+Now, you can securely invoke Power Automate cloud flows from Power Pages to interact with 900+ external data sources and integrate it into your business site.
 
 > [!NOTE]
 > Your Power Pages site version must be 9.5.4.xx or later for this feature to work.
 
 ## Prerequisites
 
-You will need a Power Automate per flow license to integrate it with Power Pages.
+You will need a Power Automate per flow license to integrate with Power Pages.
 
 ## Steps to integrate cloud flow
 
-1. Create a cloud flow
+1. Create a cloud flow.
 
-1. Add a flow to your site
+1. Add the flow to your site.
 
-1. Invoke a flow from your website
+1. Invoke a flow from your website.
 
 ## Create a flow
 
-1. Sign into [Power Pages](https://make.powerpages.microsoft.com/)
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. On the left pane, click on **Solutions**
+1. On the left pane, click on **Solutions**.
 
-1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution
+1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution.
 
-1. Select **+New** **Automation** **Cloud flow** **Instant**
+1. Select **+New**, **Automation**, **Cloud flow**, and then **Instant**.
 
-1. Select **Skip**
+1. Select **Skip**.
 
 1. Search for **Power Pages** Select **When Power Pages calls a flow** trigger.
 
@@ -66,21 +66,21 @@ You will need a Power Automate per flow license to integrate it with Power Pages
 
 After creating an instant cloud flow, it needs to be associated with the Power Pages site and secured with a web role.
 
-1. Sign into [Power Pages](https://make.powerpages.microsoft.com/)
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. Select site **+ Edit**
+1. Select site **+ Edit**.
 
-1. Navigate to **Set up** **Cloud flows (preview)** under **App integrations**
+1. Navigate to the **Set up** workspace, then select **Cloud flows (preview)** under **App integrations**.
 
-1. Select **+ Add cloud flow**
+1. Select **+ Add cloud flow**.
 
-1. Search for recently created flow
+1. Search for the recently created flow.
 
-1. Select **+ Add roles** under Roles
+1. Select **+ Add roles** under **Roles**.
 
-1. Select roles
+1. Select roles that will have access to the flow.
 
-1. Click **Save**
+1. Select **Save**.
 
     :::image type="content" source="media/cloud-flow/add-to-website.png" alt-text="Add cloud flow to website.":::
 

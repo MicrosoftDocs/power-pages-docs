@@ -1,6 +1,6 @@
 ﻿---
-title: "How to: Integrate Power Automate cloud flow with Power Pages site"
-description: Learn how to add and configure a Dataverse choices column on Power Pages lists, forms, and templates.
+title: "How to: Integrate Power Automate cloud flow with a Power Pages site"
+description: Learn how to add and configure a Power Automate cloud flow to retrieve the weather in Power Pages.
 author: nageshbhat-msft
 
 ms.topic: how-to
@@ -15,7 +15,7 @@ contributors:
 
 ---
 
-# How to: Integrate Power Automate cloud flow with Power Pages site
+# How to: Integrate Power Automate cloud flow with a Power Pages site
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -138,6 +138,7 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
 1. Paste below code
 
     ```javascript
+    //code to be added
     alert("hello world");
 
     ```
