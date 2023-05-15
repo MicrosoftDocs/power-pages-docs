@@ -88,7 +88,7 @@ The ability to change site visibility is determined by the following factors:
 - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
 
 > [!NOTE]
-> Websites on Developer environments can only be made public by Service admins. 
+> Websites on Developer environments can only be made public by service admins. 
 
 Members of [System administrator](/power-platform/admin/database-security#environments-with-a-dataverse-database) security role can also change the site visibility when the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to `true`.
 
