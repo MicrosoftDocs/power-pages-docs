@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Bringing the power of AI Copilot to both app makers and their end-users in Power Pages. With Copilot you can build forms, add text, and integrate chatbot in your Power Pages site just by describing what you need through multiple steps of conversation. Your site will have copilot-powered experiences built in from the first screen&mdash;so your users can discover insights in conversation instead of mouse-clicks.
+Bringing the power of AI in Power Pages, you can build forms, add text, and integrate chatbot in your Power Pages site just by describing what you need through a conversation-like experience. Through the AI-powered and Copilot features, your site can have copilot-powered experiences built in from the first screen&mdash;so your users can discover insights in conversation instead of mouse-clicks.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -33,14 +33,14 @@ To learn how to use the new AI features in Power Pages, see:
 
 ## Prerequisites
 
-To use AI-powered and Copilot features in Power Pages, you must have the following.
+To use AI-powered and Copilot features in Power Pages, you need:
 
 - Your environment must be in United States region.
-- Your account must have **en-us** browser language.
+- Your browser must be set to US-English language.
 
 ## Disable Copilot
 
-For this preview, Copilot will be turn on by default. To disable it, you need to have administrator access.
+For this preview, Copilot is turn on by default. To disable it, you need to have administrator access.
 
 Follow these steps to disable **Copilot** for your tenant.
 
