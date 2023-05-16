@@ -50,6 +50,9 @@ To use Copilot for text:
 
 1. Select **Add to page** to add the AI-generated text.
 
+    > [!IMPORTANT]
+    > To avoid unintended publishing of generated text, ensure you review, edit, and verify the generated text that fits your requirements before changing the [site's visibility](../security/site-visibility.md) to **Public**.
+
 Once the text is added to the page, you can continue to edit the page with the in-context [editing experiences](customize-pages.md).
 
 ### See also
