@@ -4,7 +4,7 @@ description: Learn how you can disable anonymous access at the site level.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/15/2023
+ms.date: 05/17/2023
 ms.author: vamseedilli
 ms.reviewer: kkendrick
 contributors:
@@ -31,14 +31,17 @@ You can disable and enable anonymous access to your websites using the Power Pla
 
 1. Choose **Disable anonymous access** from the list.  
 
-1. A slide-out panel appears on the right. You can disable anonymous access for the following:
+1. A slide-out panel appears. You can configure anonymous access for the following options:
 
-    - None of the sites
-    - Specific sites
-    - All sites except specific sites
-    - All sites
 
-1. Selecting **Specific sites** or **All sites except specific sites** a list of websites appear that you can select to be disabled or enabled. Select the sites and choose **OK**.
+| Option | Description |
+|---------|---------|
+| None of the sites | Selecting **None of the sites** disables anonymous access in none of the sites, meaning anonymous access is allowed to view data when corresponding table permissions are configured for anonymous users. This configuration is the default behavior. |
+| Specific sites | Selecting **Specific sites** allows you to block anonymous access in specific sites that you choose in the tenant. Select the option overrides any maker configurations and prevents end users from accessing Dataverse data anonymously even if corresponding table permissions are configured for anonymous users. |
+| All sites except specific sites | Selecting **All sites except specific sites** blocks anonymous access in all the websites in the tenant EXCEPT the sites that you choose. This also overrides any maker configurations and prevents end users from accessing Dataverse data anonymously even if corresponding table permissions are configured for anonymous users. |
+| All sites | Selecting **All sites** blocks anonymous access in all the websites in the tenant, overriding any maker configurations that provide access to anonymous users. |
+
+1. Select the sites and choose **OK**.
 
 1. Select **Save**. A message confirming success appears in green below the Governance Controls ribbon menu.  
 
