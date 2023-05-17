@@ -38,22 +38,9 @@ To use AI-powered and Copilot features in Power Pages, you need:
 - Your environment must be in United States region.
 - Your browser must be set to US-English language.
 
-## Disable Copilot
+## Disable Copilot in Power Pages
 
-For this preview, Copilot is turn on by default. To disable it, you need to have administrator access.
-
-Follow these steps to disable **Copilot** for your tenant.
-
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-2. Select **Settings** > **Tenant settings** in the left-side navigation pane. 
-3. Select **Copilot (preview)** > set the toggle to **Off** > **Save**.
-
-Follow these steps to disable **Copilot** for your environment.
-
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-2. In the left-side navigation pane **Environment**.
-3. Select the environment and on the command bar, select **Settings**.
-4. Set the toggle to **Off** for **Copilot**.
+Admins can disable Copilot for their organization by starting a support request with Microsoft.
 
 ### See also
 
