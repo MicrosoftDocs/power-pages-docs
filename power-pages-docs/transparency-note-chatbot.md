@@ -18,7 +18,7 @@ This transparency note describes the AI impact of chatbot feature in Power Pages
 
 ## What is chatbot in Power Pages?
 
-The chatbot feature in Power Pages provides you with an easy way to configure a GPT-powered Power Virtual Agents chatbot for your public website. The bot enhances the interaction experience for the website users by enabling them to ask natural language (NL) questions and receive summarized responses with relevant links. This experience allows site users to get the necessary information available on the website - fr example, through FAQs or knowledge articles easily using the bot without the need to search and locate the information manually.
+The chatbot feature in Power Pages provides you with an easy way to configure a GPT-powered Power Virtual Agents chatbot for your public website. The bot enhances the interaction experience for the website users by enabling them to ask natural language (NL) questions and receive summarized responses with relevant links. This experience allows site users to get the necessary information available on the website - for example, through FAQs or knowledge articles easily using the bot without the need to search and locate the information manually.
 
 ## What are the system’s capabilities?
 
