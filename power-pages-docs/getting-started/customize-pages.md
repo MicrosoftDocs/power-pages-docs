@@ -94,6 +94,8 @@ To edit a code component:
 
 1. Select **Done**.
 
+See [Use code components in Power Pages](../configure/component-framework#add-a-code-component-to-a-field-in-a-model-driven-app.md) for more information.
+
 ### See also
 
 - [Add text](add-text.md)
