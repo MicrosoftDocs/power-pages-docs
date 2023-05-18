@@ -52,7 +52,7 @@ Makers can work with pro developers in fusion teams to extend the functionality 
 :::image type="content" source="media/overview/vs-code-pac-cli.png" alt-text="Visual Studio Code.":::
 
 Read more: 
-- [Using Visual Studio Code and Power Platform CLI](configure/cli-tutorial.md)
+- [Using Visual Studio Code and Power Platform CLI](configure/power-platform-cli-tutorial.md)
 - [Use the code editor](getting-started/code-editor.md)
 - [Add code components](configure/component-framework.md)
 
