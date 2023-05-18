@@ -82,7 +82,7 @@ Syncing, saving, previewing, zooming , expanding/reducing the workspace, navigat
 > - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
 > - For sites created using Power Pages prior to September 23, 2022 there is a known issue related to themes. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
 
-### Edit code components (preview)
+## Edit code components (preview)
 
 Code component properties are editable inside of the Pages workspace.
 
@@ -96,7 +96,7 @@ To edit a code component:
 
 See [Use code components in Power Pages](../configure/component-framework.md#add-a-code-component-to-a-field-in-a-model-driven-app) for more information.
 
-### See also
+## See also
 
 - [Add text](add-text.md)
 - [Add button](add-button.md)
