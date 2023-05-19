@@ -22,19 +22,19 @@ The chatbot feature in Power Pages provides you with an easy way to configure a 
 
 ## What are the system’s capabilities?
 
-A chatbot for a public site in Power Pages sends the site URL to Bing, allowing the search engine to index the site's content. This indexing enables web users to ask natural language questions and receive summarized responses. You can test the bot before publishing it to ensure that it provides appropriate summaries. Service administrators can also turn off the publishing of the bot at the tenant level to prevent accidental or unintended exposure of AI capabilities on the public site. Additionally, you can navigate to the associated Power Virtual Agents chatbot for advanced configuration and customization.
+A chatbot for public sites created in Power Pages for providing generative answers to customer queries. The public site needs to be indexed by Bing as a pre-requisite for enabling the chatbot on the site as it allows the search engine to index the site's content. This indexing enables web users to ask natural language questions and receive summarized responses. You can test the bot before publishing it to ensure that it provides appropriate summaries. Service administrators can also turn off the publishing of the bot at the tenant level to prevent accidental or unintended exposure of AI capabilities on the public site. Additionally, you can navigate to the associated Power Virtual Agents chatbot for advanced configuration and customization.
 
 ## What is the system’s intended use?
 
 Chatbot on Power Pages site enhances the conversational capabilities by enabling site users to ask queries in natural language and receive summarized responses. Bot has the ability to add more complex conversational features, such as contextual understanding, entity recognition, and sentiment analysis. These capabilities allow the bot to better understand user inputs and provide more accurate and helpful responses.
 
-## How was natural language to form evaluated? What metrics are used to measure performance?
+## How was chatbot feature evaluated? What metrics are used to measure performance?
 
 The capability was evaluated on a collection of manually curated question-and-answer datasets, covering multiple industries.
 
 More evaluation was performed over custom datasets for offensive and malicious prompts and responses.
 
-## What are the limitations of natural language to form? How can users minimize the impact of the natural language to form limitations when using the system?
+## What are the limitations of this feature? How can users minimize the impact of the chatbot limitations when using the system?
 
 - This feature can't take the content from a private or an authenticated site for summarizing the search results.
 - This feature doesn't include a mitigation for checking for correctness of responses returned by the bot. Nonfactual responses might be generated if the URL from the information is gathered (and what the maker provided) contains incorrect information.
