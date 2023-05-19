@@ -508,6 +508,8 @@
       href: security/power-pages-security.md
     - name: Site visibility
       href: security/site-visibility.md
+    - name: Governance control to disable anonymous access
+      href: security/disable-anonymous-access.md  
     - name: Authentication
       items:
         - name: Overview
@@ -626,6 +628,8 @@
       href: getting-started/tutorial-dataverse-website.md
     - name: "Tutorial: Add a custom page layout"
       href: getting-started/tutorial-add-custom-page-layout.md
+    - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
+      href: configure/power-platform-cli-tutorial.md      
 - name: Training videos
   href: training-videos/index.md
 - name: Responsible AI
