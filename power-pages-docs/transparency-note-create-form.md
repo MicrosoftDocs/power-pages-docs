@@ -50,4 +50,5 @@ You can revise the form suggestion as needed. You can also review the form previ
 
 ## See also
 
-[Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
+- [Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
+- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)

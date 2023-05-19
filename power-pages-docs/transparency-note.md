@@ -21,3 +21,4 @@ contributors:
 - [Transparency note for chatbot (preview)](transparency-note-chatbot.md)
 - [Transparency note for generating text (preview)](transparency-note-generate-text.md)
 - [Transparency note for creating form (preview)](transparency-note-create-form.md)  
+- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)

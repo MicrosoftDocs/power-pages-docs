@@ -53,3 +53,4 @@ When a feature is enabled, the bot is created with a content moderation set to *
 
 - [Enable chatbot in a Power Pages site (preview)](getting-started/enable-chatbot.md)
 - [Force Bing webmaster to index your site (preview)](getting-started/force-bing-index.md)
+- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)

@@ -50,4 +50,5 @@ You can describe the text you need for your website, and Power Pages uses LLMs t
 
 ## See also
 
-[Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
+- [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
+- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)
