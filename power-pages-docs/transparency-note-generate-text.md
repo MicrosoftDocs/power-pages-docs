@@ -28,6 +28,10 @@ The system allows you to start the text content generation by describing the tex
 
 The goal of Copilot for text is to provide you with assistance in creating text type content on a page in Power Pages. To ensure new or less experienced developers can create text content better and faster to build a page of quality and in less time.
 
+## How was the feature evaluated? What metrics are used to measure performance?
+
+[Provide evidence of system accuracy and performance as well as a description of the extent to which these results are generalizable across use cases that were not part of the evaluation.]
+
 ## What are the limitations of natural language to text? How can users minimize the impact of the natural language to text limitations when using the system?
 
 - This feature doesn’t support non-English language input.  
