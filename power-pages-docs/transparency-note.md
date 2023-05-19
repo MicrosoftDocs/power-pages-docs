@@ -18,6 +18,6 @@ contributors:
 
 [!INCLUDE[transparency-note-features](includes/transparency-note-features.md)]
 
-- [Transparency note for chatbot](transparency-note-chatbot.md)
-- [Transparency note for generating text](transparency-note-generate-text.md)
-- [Transparency note for creating form](transparency-note-create-form.md)  
+- [Transparency note for chatbot (preview)](transparency-note-chatbot.md)
+- [Transparency note for generating text (preview)](transparency-note-generate-text.md)
+- [Transparency note for creating form (preview)](transparency-note-create-form.md)  

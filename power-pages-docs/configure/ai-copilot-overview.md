@@ -26,10 +26,10 @@ Bringing the power of AI in Power Pages, you can build forms, add text, and inte
 
 To learn how to use the new AI features in Power Pages, see:
 
-- [Enable chatbot in Power Pages site](../getting-started/enable-chatbot.md)
-- [Force Bing webmaster to index your site](../getting-started/force-bing-index.md)
-- [Create a form in a webpage using a Copilot](../getting-started/add-form-copilot.md)
-- [Use Copilot to generate text and it to a webpage](../getting-started/add-text-copilot.md)
+- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
+- [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
+- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ Admins can disable Copilot for their organization by starting a support request 
 
 ### See also
 
-- [Enable chatbot in Power Pages site](../getting-started/enable-chatbot.md)
-- [Force Bing webmaster to index your site](../getting-started/force-bing-index.md)
-- [Create a form in a webpage using a Copilot](../getting-started/add-form-copilot.md)
-- [Use Copilot to generate text and it to a webpage](../getting-started/add-text-copilot.md)
+- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
+- [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
+- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)

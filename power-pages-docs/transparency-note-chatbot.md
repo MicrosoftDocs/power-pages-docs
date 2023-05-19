@@ -51,4 +51,5 @@ When a feature is enabled, the bot is created with a content moderation set to *
 
 ## See also
 
-[Enable chatbot in a Power Pages site](getting-started/enable-chatbot.md)
+- [Enable chatbot in a Power Pages site (preview)](getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](getting-started/force-bing-index.md)

@@ -50,4 +50,4 @@ You can revise the form suggestion as needed. You can also review the form previ
 
 ## See also
 
-[Create AI-generated form using Copilot](getting-started/add-form-copilot.md)
+[Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)

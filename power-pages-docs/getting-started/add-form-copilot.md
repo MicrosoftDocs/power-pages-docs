@@ -54,7 +54,7 @@ Likewise, here's an example of an AI-generated preview of a "Product customer su
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
-- [Enable chatbot in Power Pages site](enable-chatbot.md)
-- [Force Bing webmaster to index your site](force-bing-index.md)
-- [Use Copilot to generate text and it to a webpage](add-text-copilot.md)
+- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
+- [Enable chatbot in Power Pages site (preview)](enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](force-bing-index.md)
+- [Use Copilot to generate text and it to a webpage (preview)](add-text-copilot.md)

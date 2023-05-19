@@ -57,7 +57,7 @@ Once the text is added to the page, you can continue to edit the page with the i
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
-- [Enable chatbot in Power Pages site](enable-chatbot.md)
-- [Force Bing webmaster to index your site](force-bing-index.md)
-- [Create a form in a webpage using a Copilot](add-form-copilot.md)
+- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
+- [Enable chatbot in Power Pages site (preview)](enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](force-bing-index.md)
+- [Create a form in a webpage using a Copilot (preview)](add-form-copilot.md)
