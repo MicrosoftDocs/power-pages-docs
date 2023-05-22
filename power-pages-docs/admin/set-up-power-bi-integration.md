@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/25/2023
+ms.date: 05/22/2023
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -173,12 +173,10 @@ After enabling the Power BI Embedded service integration, you must create a secu
 
 1. Select **Tenant settings**.
 
-1. Under the **Developer settings** section
+1. Under the **Developer settings** section:
     - Enable **Embed content in apps**.
     - Enable **Allow service principals to use Power BI APIs**.
-    - In the **Specific security groups** field, search for and select the **Portal Power BI Embedded service** group.
-
-        :::image type="content" source="media/enable-power-bi/add-sg-powerbi.png" alt-text="Add security group in Power BI Admin portal.":::
+        - In the **Specific security groups** field, search for and select the **Portal Power BI Embedded service** group.
 
 1. Select **Apply**.
 
