@@ -18,7 +18,7 @@ This transparency note describes the AI impact of Power Pages' natural language 
 
 ## What is natural language to form?
 
-As you start design studio and add a form to the page, you're able to describe the form you want to create for your site. Once you describe the type of form you want to create, Power Pages uses [Azure OpenAI's](/azure/cognitive-services/openai/overview) large language models (LLMs) to create a preview of the form with the questions and form fields for inputs.
+As you start design studio and add a form to the page, you're able to describe the form you want to create for your site. Once you describe the type of form you want to create, Power Pages Copilot will create a preview of the form with the questions and form fields for inputs.
 
 You can continue to use natural language (NL) to make further revisions to the form, such as adding or removing questions, changing the type of response for a question. After you choose to create the form, a Microsoft Dataverse table is created to store the form data, and a Dataverse form is created with all required experiences to show the new form in your Power Pages site. After the form is created, you can see it on the page where the form is added. Set the permissions on the form as the next step to make it visible to the viewers of your website.
 
