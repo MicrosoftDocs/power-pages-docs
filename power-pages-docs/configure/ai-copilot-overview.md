@@ -17,7 +17,9 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Bringing the power of AI in Power Pages, you can build forms, add text, and integrate chatbot in your Power Pages site just by describing what you need through a conversation-like experience. Through the AI-powered and Copilot features, your site can have copilot-powered experiences built in from the first screen&mdash;so your users can discover insights in conversation instead of mouse-clicks.
+Next-generation AI enhancements using Copilot in Power Pages is revolutionizing how to build and launch data-centric business websites. As a maker, your tasks are simplified using Copilot. These enhancements enable you to construct forms, incorporate text, and embed chatbots into your Power Pages sites, all  through a user-friendly, dialogue-like interface, bypassing the need for complex coding proficiency.
+
+Copilot also offers an enhanced user experience on your websites. It shifts away from traditional click-based navigation, allowing users to uncover information and insights through an interactive conversational interface, promoting a higher level of user engagement. It's designed to expedite the web creation process, supporting makers in crafting robust and secure websites more efficiently. It's tailored to empower you to better respond to your customers' needs and requirements.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -26,10 +28,10 @@ Bringing the power of AI in Power Pages, you can build forms, add text, and inte
 
 To learn how to use the new AI features in Power Pages, see:
 
-- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
 - [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
+- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
 
 ## Prerequisites
 
@@ -44,7 +46,7 @@ Admins can disable Copilot for their organization by starting a support request 
 
 ### See also
 
-- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
 - [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
+- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)

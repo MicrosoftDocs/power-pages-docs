@@ -30,7 +30,7 @@ The goal of Copilot for text is to provide you with assistance in creating text 
 
 ## How was the feature evaluated? What metrics are used to measure performance?
 
-[Provide evidence of system accuracy and performance as well as a description of the extent to which these results are generalizable across use cases that were not part of the evaluation.]
+This feature underwent substantial testing before the feature was released. Copilot for text relies on user feedback to report if the AI-generated text content is not relevant or inappropriate. If you encounter irrelevant or inappropriate responses, report it to Microsoft using the thumbs down gesture and include feedback in the form. We track the telemetry of thumbs up and thumbs down gestures present in the Copilot experiences for each AI-generated output. Your feedback helps improve the functionality moving forward. In addition to this, we also track Copilot's SLA to make sure it's always available to you.
 
 ## What are the limitations of natural language to text? How can users minimize the impact of the natural language to text limitations when using the system?
 
