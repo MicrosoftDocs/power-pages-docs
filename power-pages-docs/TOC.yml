@@ -494,7 +494,7 @@
           href: configure/implement-webapi-component.md
     - name: Use Power Automate (preview)
       items:
-        - name: Integrate with Power Automate cloud flows (preview)
+        - name: Integrate with Power Automate cloud flows
           href: configure/cloud-flow-integration.md
         - name: "How to: Use Power Automate with Power Pages"
           href: configure/power-automate-how-to.md
