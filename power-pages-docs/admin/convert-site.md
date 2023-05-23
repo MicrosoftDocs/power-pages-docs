@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/15/2023
+ms.date: 05/15/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -16,7 +16,7 @@ contributors:
 
 # Convert a website
 
-As explained in the [portal lifecycle](/power-apps/maker/portals/admin/portal-lifecycle) topic in the Power Apps documentation, a Power Pages website goes through different stages. You can convert a website from one stage to another, depending on what conversion is allowed, and whether the environment has the required license, or capacity.
+As explained in the [POwer Pages lifecycle](lifecycle.md) topic, a Power Pages website goes through different stages. You can convert a website from one stage to another, depending on what conversion is allowed, and whether the environment has the required license, or capacity.
 
 ## Convert a website from trial to production
 
@@ -31,7 +31,7 @@ You can convert a trial website to a production website from the notifications d
 
 When you open the **Power Pages sites** section for your website in the [Power Platform admin center](admin-overview.md) you'll see the notification about the trial expiration.
 
-:::image type="content" source="media/power-platform-admin-center/admin-center-convert-notif.png" alt-text="Text used by screen readers.":::
+:::image type="content" source="media/power-platform-admin-center/admin-center-convert-notif.png" alt-text="Convert notification.":::
 
 To convert your website from trial to production:
 
@@ -40,8 +40,8 @@ To convert your website from trial to production:
     :::image type="content" source="media/power-platform-admin-center/trial-to-prod-confirm.png" alt-text="Trial to production confirmation.":::
 
     > [!NOTE]
-    > You will also have the option to turn on the [content delivery network](/power-apps/maker/portals/configure/configure-cdn) option for your website.
-
+    > - You will also have the option to turn on the [content delivery network](/power-apps/maker/portals/configure/configure-cdn) option for your website.
+    > - You cannot convert a website on a developer environment to a production website.
 
 1. Select **Confirm**.
 

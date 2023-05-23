@@ -37,15 +37,21 @@
         - name: Create sites using templates
           href: templates/index.md
         - name: Starter layout templates
-          href: templates/starter-layout.md
-        - name: After school template
-          href: templates/after-school.md
-        - name: Book a meeting template
-          href: templates/book-a-meeting.md
-        - name: Building permit template
-          href: templates/building-permit.md
-        - name: FAQ template (preview)
-          href: templates/frequently-asked-questions.md
+          items:
+            - name: Starter layout overview
+              href: templates/starter-layout.md
+            - name: Blank page template
+              href: templates/blank.md
+        - name: Solution templates
+          items:
+            - name: Application processing
+              href: templates/building-permit.md
+            - name: Frequently asked questions (preview)
+              href: templates/frequently-asked-questions.md
+            - name: Program registration
+              href: templates/after-school.md
+            - name: Schedule and manage meetings
+              href: templates/book-a-meeting.md
         - name: Dynamics 365 templates
           items:
             - name: Dynamics 365 templates overview
@@ -504,6 +510,8 @@
       href: security/power-pages-security.md
     - name: Site visibility
       href: security/site-visibility.md
+    - name: Governance control to disable anonymous access
+      href: security/disable-anonymous-access.md  
     - name: Authentication
       items:
         - name: Overview
@@ -622,6 +630,8 @@
       href: getting-started/tutorial-dataverse-website.md
     - name: "Tutorial: Add a custom page layout"
       href: getting-started/tutorial-add-custom-page-layout.md
+    - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
+      href: configure/power-platform-cli-tutorial.md      
 - name: Training videos
   href: training-videos/index.md
 - name: Compliance and accessibility
