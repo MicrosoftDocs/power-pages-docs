@@ -46,7 +46,7 @@ You need a Power Automate per flow license to integrate with Power Pages.
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. On the left pane, click on **Solutions**.
+1. On the left pane, select **Solutions**.
 
 1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution.
 
@@ -65,7 +65,7 @@ You need a Power Automate per flow license to integrate with Power Pages.
 
 ## Add a flow to your Site
 
-After creating an instant cloud flow, it needs to be associated with the Power Pages site and secured with a web role.
+After you create an instant cloud flow, it needs to be associated with the Power Pages site and secured with a web role.
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -132,7 +132,7 @@ Body
 
 ## Authenticating cloud flow API requests
 
-You don't need to include an authentication code, because authentication and authorization are managed by the application session. All API calls must include a Cross-Site Request Forgery (CSRF) token.
+You don't need to include an authentication code, because the application session manages authentication and authorization. All API calls must include a Cross-Site Request Forgery (CSRF) token.
 
 ## Passing parameter to cloud flow
 
