@@ -12,6 +12,7 @@ ms.reviewer: ndoelman
 contributors:
     - nageshbhat-msft
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Configure Power Automate cloud flows in Power Pages (preview)
@@ -135,4 +136,7 @@ You don't need to include an authentication code, because authentication and aut
 
 ## Passing parameter to cloud flow
 
-In a cloud flow, you can define input parameters of type **Text**, **Boolean**, and **Number**. For **Text** type parameters, you can name them as 'text', 'text\_1', 'text\_2'. For Boolean type parameters, you can use names such as 'boolean', 'boolean\_1', 'boolean\_2', and for Number type parameters, 'number', 'number\_1', 'number\_2', and so on.
+In a cloud flow, you can define input parameters of type **Text**, **Boolean**, and **Number**. The parameter name you define in the request body should match the parameter name defined in the cloud flow trigger.
+
+>[!IMPORTANT]
+> You must pass the request parameters in the same order they are defined in the cloud flow.
