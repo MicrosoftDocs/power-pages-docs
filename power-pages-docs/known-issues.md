@@ -138,7 +138,8 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
     ```html
     <a aria-label="{{ link.name | escape }}" {% if link.Open_In_New_Window %} target="_blank" {% endif %} href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
     ```
-
+- Adding a cloud flow immediately after creating a site will result in a failure. To prevent this, wait approximately 30 minutes to 1 hour after you create your site before adding a cloud flow.
+- 
 ## Power Apps portals Studio issues
 
 > [!NOTE]
