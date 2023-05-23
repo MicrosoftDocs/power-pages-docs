@@ -1,5 +1,5 @@
 ﻿---
-title: "How to: Integrate Power Automate cloud flow with a Power Pages site"
+title: "How to: Integrate Power Automate cloud flow with a Power Pages site (preview)"
 description: Learn how to add and configure a Power Automate cloud flow to retrieve the weather in Power Pages.
 author: nageshbhat-msft
 
@@ -15,7 +15,7 @@ contributors:
 
 ---
 
-# How to: Integrate Power Automate cloud flow with a Power Pages site
+# How to: Integrate Power Automate cloud flow with a Power Pages site (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

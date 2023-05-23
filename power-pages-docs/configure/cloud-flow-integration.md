@@ -1,5 +1,5 @@
 ﻿---
-title: Configure Power Automate cloud flows in Power Pages
+title: Configure Power Automate cloud flows in Power Pages (preview)
 description: Learn how to add and configure Power Automate cloud flows on Power Pages.
 author: nageshbhat-msft
 
