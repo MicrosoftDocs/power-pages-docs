@@ -12,6 +12,7 @@ ms.reviewer: ndoelman
 contributors:
     - nageshbhat-msft
     - nickdoelman
+    - ProfessorKendrick
 
 ---
 
@@ -27,55 +28,59 @@ This article explains how to create Power Pages and use Power Automate cloud flo
 
 ## Prerequisite
 
-To complete these steps, you'll need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](../getting-started/trial-signup.md) and [Power Automate](/power-automate/sign-up-sign-in) trials.
+To complete these steps, you need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](../getting-started/trial-signup.md) and [Power Automate](/power-automate/sign-up-sign-in) trials.
 
 ## Step 1: Create cloud flow
 
 Create a flow using the Power Pages trigger and use the **MSN weather** action to fetch weather data.
 
-1. Sign into [Power Pages](https://make.powerpages.microsoft.com/)
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. On the left pane, click on **Solutions**.
+1. On the left pane, select **Solutions**.
 
 1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution.
 
-1. Select **+New** **Automation** **Cloud flow** **Instant**
+1. Select **+New** **Automation** **Cloud flow** **Instant**.
 
-1. Select **Skip**
+1. Select **Skip**.
 
-1. Search for **Power Pages** Select **When Power Pages calls a flow** trigger
+1. Search for **Power Pages** Select **When Power Pages calls a flow** trigger.
 
     :::image type="content" source="media/cloud-flow/power-automate-power-pages.png" alt-text="Selecting Power Pages options in Power Automate.":::
 
-1. Select **+ Add an input**
+1. Select **+ Add an input**.
 
-1. Choose **Text**
+1. Choose **Text**.
 
-1. Add a name as **Location**
+1. Add a name as **Location**.
 
-1. Select **+New step**
+1. Select **+New step**.
 
-1. Search for **MSN Weather** select **Get current weather** action
+1. Search for **MSN Weather**.
 
-1. Focus cursor on **Location** input text Select **Location** parameter under **When Power Pages calls a flow** from dynamic content
+1. Select the **Get current weather** action.
+
+1. Focus cursor on **Location** input text Select **Location** parameter under **When Power Pages calls a flow** from dynamic content.
 
     :::image type="content" source="media/cloud-flow/build-cloud-flow.png" alt-text="Build cloud flow.":::
 
-You can either keep the Imperial units or change to metric
+You can either keep the Imperial units or change to metric.
 
-1. Click on **+ New step**
+1. Select **+ New step**.
 
-1. Search for **Power Pages** Select **Return value(s) to Power Pages** action
+1. Search for **Power Pages**. 
+1. 
+1. Select **Return value(s) to Power Pages** action.
 
-1. Click on **+ Add and output**
+1. Select **+ Add and output**.
 
-1. Select **Text**
+1. Select **Text**.
 
-1. Enter title a **Pressure**
+1. Enter **Pressure** as the title.
 
-1. Choose dynamic content **Pressure** under **Get current weather**
+1. Under **Get current weather**, choose dynamic content **Pressure**.
 
-1. Repeat to create the following output steps using **text** type
+1. Repeat to create the following output steps using **text** type:
 
     1. Humidity
     1. Temperature
@@ -91,51 +96,53 @@ You can either keep the Imperial units or change to metric
     1. Distance Units
     1. Wind direction
 
-1. Click on **Save**
+1. Select **Save**
 
-1. Name the flow as **Get current weather**
+1. Name the flow **Get current weather**.
 
 ## Step 2: Add flow to site
 
-After saving the flow, you need to add it to the site and assign a proper webrole.
+After saving the flow, you need to add it to the site and assign a proper web role.
 
-1. Sign into [Power Pages](https://make.powerpages.microsoft.com/)
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. Create a site with on of the [starter layouts](../getting-started/create-manage.md)
+1. Create a site with one of the [starter layouts](../getting-started/create-manage.md).
 
-1. Select the site click on **Edit**
+1. Choose the site and select **Edit**.
 
-1. Navigate to the **Set up** workspace, select **Cloud flows (preview)** under **App integrations**
+1. Navigate to the **Set up** workspace.
+1. Under **App integrations**, select **Cloud flows (preview)**.
 
-1. Select **+ Add cloud flow**
+1. Select **+ Add cloud flow**.
 
-1. Search for **Get current weather flow**
+1. Search for **Get current weather flow**.
 
-1. Click **+ Add roles** under Roles
+1. Select **+ Add roles** under Roles.
 
-1. Select **Anonymous Users** role
+1. Select **Anonymous Users** role.
 
-1. Click **Add**
+1. Select **Add**.
 
-1. Copy the URL
+1. Copy the URL.
 
     :::image type="content" source="media/cloud-flow/add-to-website.png" alt-text="Add cloud flow to website.":::
 
-This is the unique URL used to connect to the associated cloud flow. You will use this URL later to call the current weather flow.
+    >[!NOTE] 
+    > This is the unique URL used to connect to the associated cloud flow. You'll use this URL later to call the current weather flow.
 
 ## Step 3: Create a page to display MSN weather data
 
 After creating the flow and attaching it to the Power Pages site, you can now call it from a control event using JavaScript.
 
-1. Click on **Pages** workspace
+1. Select **Pages** workspace.
 
-1. Click on **+ Page**
+1. Select **+ Page**.
 
-1. Provide the Page Name as "*Todays weather report"*
+1. Name the Page "*Today's weather report*".
 
-1. Click on **Edit code** to open visual studio code
+1. Select **Edit code** to open Visual Studio Code.
 
-1. Paste below code
+1. Paste this code:
 
     ```javascript
     //code to be added
@@ -143,18 +150,18 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
 
     ```
 
-1. Replace URL with the one copied above
+1. Replace the URL with the one you copied in the previous step.
 
-1. Save the code by selecting **CTRL + S**
+1. Save the code by selecting **CTRL + S**.
 
-1. Click on **Sync** on design studio
+1. Select **Sync** on design studio.
 
 ## Step 4: Test the flow integration
 
-To test the flow integration functionality
+To test the flow integration functionality:
 
-1. Select **Preview** to open the site
+1. Select **Preview** to open the site.
 
-1. Enter a postal code or city in **Location** text box
+1. Enter a postal code or city in **Location** text box.
 
-1. Select **Submit** button
+1. Select the **Submit** button.
