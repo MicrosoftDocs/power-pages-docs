@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
-title: Microsoft Power Pages documentation 
-summary: Use Power Pages to create external-facing websites that allow users outside their organizations to sign in with a wide variety of identities, create and view data in Dataverse, or even browse content anonymously. 
+title: Microsoft Power Pages documentation
+summary: Use Power Pages to create external-facing websites that allow users outside their organizations to sign in with a wide variety of identities, create and view data in Dataverse, or even browse content anonymously.
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: power-pages
 
@@ -9,52 +9,52 @@ metadata:
   title: Microsoft Power Pages documentation
   description: Provides access to highlighted areas within the Power Pages documentation
   services: service
-  ms.service: power-pages 
-  ms.topic: hub-page 
+  ms.service: power-pages
+  ms.topic: hub-page
   ms.collection: collection
   author: nickdoelman
   ms.author: ndoelman
-  ms.date: 03/31/2022 
+  ms.date: 05/22/2023
 
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
-  # Card
+    # Card
     - title: Introducing Power Pages
       itemType: overview
-      url: introduction.md 
+      url: introduction.md
     # Card
     - title: Try Power Pages
       itemType: get-started
-      url: getting-started/trial-signup.md 
-  # Card
+      url: getting-started/trial-signup.md
+    # Card
     - title: Getting started videos
       itemType: video
       url: training-videos/index.md
-  # Card
+    # Card
     - title: Power Pages training
       itemType: learn
       url: /training/paths/power-pages-get-started
 
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
   items:
     # Card
     - title: Getting started
       summary: Overview of Power Pages
-      links: 
+      links:
         - text: What is Power Pages
           url: introduction.md
-          itemType: overview 
+          itemType: overview
         - text: Power Pages capabilities
           url: capabilities.md
           itemType: reference
         - text: Create and manage Power Pages sites
           url: getting-started/create-manage.md
-          itemType: reference        
+          itemType: reference
         - text: How Power Pages security works
           url: security/power-pages-security.md
           itemType: quickstart
@@ -63,58 +63,58 @@ conceptualContent:
           itemType: download
         - text: Power Pages community
           url: https://aka.ms/PowerPagesCommunity
-          itemType: reference                                                                                                                                                                                                               
+          itemType: reference
     # Card
     - title: Tutorials
       summary: Follow step-by-step tutorials with videos to learn about Power Pages
-      links:        
+      links:
         - text: Tutorials and training videos overview
           url: getting-started/tutorial-overview.md
           itemType: overview
         - text: Design your home page
           url: getting-started/tutorial-add-webpage.md
-          itemType: tutorial        
+          itemType: tutorial
         - text: Set up your brand kit
           url: getting-started/tutorial-style-site.md
           itemType: tutorial
         - text: Create a page with a list
           url: getting-started/tutorial-add-list-to-page.md
-          itemType: tutorial                             
-        - text: Create a page with a simple form 
+          itemType: tutorial
+        - text: Create a page with a simple form
           url: getting-started/tutorial-add-form-to-page.md
           itemType: tutorial
-        - text: Configure site authentication 
+        - text: Configure site authentication
           url: getting-started/tutorial-setup-site-authentication.md
-          itemType: tutorial          
+          itemType: tutorial
     # Card
     - title: Design and build
-      summary: Create sites using Power Pages       
+      summary: Create sites using Power Pages
       links:
-      - text: Use the new design studio
-        url: getting-started/use-design-studio.md
-        itemType: how-to-guide 
-      - text: "Pages workspace: Create and design pages"
-        url: getting-started/first-page.md
-        itemType: get-started 
-      - text: "Styling workspace: Theme and style your site"
-        url: getting-started/style-site.md
-        itemType: get-started
-      - text: Create Power Pages sites with templates
-        url: templates/index.md
-        itemType: get-started                 
-      - text: Use the Portal Management app
-        url: configure/portal-management-app.md
-        itemType: reference  
-      - text: Use Visual Studio Code and Power Platform CLI
-        url: configure/power-platform-cli-tutorial.md
-        itemType: how-to-guide  
-      - text: Plan your Power Pages project
-        url: configure/planning-power-pages-project.md
-        itemType: reference                                                                                                                                                                              
+        - text: Use the new design studio
+          url: getting-started/use-design-studio.md
+          itemType: how-to-guide
+        - text: "Pages workspace: Create and design pages"
+          url: getting-started/first-page.md
+          itemType: get-started
+        - text: "Styling workspace: Theme and style your site"
+          url: getting-started/style-site.md
+          itemType: get-started
+        - text: Create Power Pages sites with templates
+          url: templates/index.md
+          itemType: get-started
+        - text: Use the Portal Management app
+          url: configure/portal-management-app.md
+          itemType: reference
+        - text: Use Visual Studio Code and Power Platform CLI
+          url: configure/power-platform-cli-tutorial.md
+          itemType: how-to-guide
+        - text: Plan your Power Pages project
+          url: configure/planning-power-pages-project.md
+          itemType: reference
     # Card
     - title: Connect to Dataverse
       summary: Extend Dataverse capabilities with Power Pages
-      links:                             
+      links:
         - text: Dataverse and Power Pages
           url: getting-started/what-is-dataverse.md
           itemType: tutorial
@@ -132,85 +132,89 @@ conceptualContent:
           itemType: tutorial
         - text: Secure your data with table permissions
           url: security/table-permissions.md
-          itemType: tutorial 
+          itemType: tutorial
         - text: "Create, update, and view Dataverse information"
           url: getting-started/tutorial-dataverse-website.md
-          itemType: tutorial          
-    # Card              
+          itemType: tutorial
+    # Card
     - title: Customize and extend
       summary: Use professional developer tools and methods
       links:
-      - text: Use Liquid
-        url: configure/liquid-overview.md
-        itemType: reference
-      - text: Web templates
-        url: configure/web-templates.md
-        itemType: how-to-guide  
-      - text: Portals web API
-        url: configure/web-api-overview.md
-        itemType: how-to-guide
-      - text: Code components
-        url: configure/component-framework.md
-        itemType: reference
-      - text: Advanced configuration
-        url: configure/advanced-config.md
-        itemType: reference                                                                                                                                                                                                                          
+        - text: Use Liquid
+          url: configure/liquid-overview.md
+          itemType: reference
+        - text: Web templates
+          url: configure/web-templates.md
+          itemType: how-to-guide
+        - text: Portals web API
+          url: configure/web-api-overview.md
+          itemType: how-to-guide
+        - text: Code components
+          url: configure/component-framework.md
+          itemType: reference
+        - text: Advanced configuration
+          url: configure/advanced-config.md
+          itemType: reference
     # Card
     - title: Security
-      summary: Protect your sites and data     
+      summary: Protect your sites and data
       links:
-      - text: Power Pages security overview
-        url: security/power-pages-security.md
-        itemType: reference           
-      - text: Set up authentication
-        url: security/authentication/configure-site.md
-        itemType: how-to-guide     
-      - text: Configure web roles
-        url: security/create-web-roles.md
-        itemType: how-to-guide    
-      - text: Configure table permissions
-        url: security/table-permissions.md
-        itemType: how-to-guide
-      - text: Architecture and security white papers
-        url: security/power-pages-security.md#deep-dive-architecture-and-security
-        itemType: download                                                                                         
-    # Card    
+        - text: Power Pages security overview
+          url: security/power-pages-security.md
+          itemType: reference
+        - text: Set up authentication
+          url: security/authentication/configure-site.md
+          itemType: how-to-guide
+        - text: Configure web roles
+          url: security/create-web-roles.md
+          itemType: how-to-guide
+        - text: Configure table permissions
+          url: security/table-permissions.md
+          itemType: how-to-guide
+        - text: Architecture and security white papers
+          url: security/power-pages-security.md#deep-dive-architecture-and-security
+          itemType: download
+    # Card
     - title: Go live
-      summary: Launch your site        
+      summary: Launch your site
       links:
-      - text: Go live checklist
-        url: go-live/checklist.md
-        itemType: deploy
-      - text: Assign licensing
-        url: go-live/assign-licensing.md
-        itemType: how-to-guide
-      - text: Overview of Power Pages ALM
-        url: configure/portals-alm.md
-        itemType: how-to-guide                                                                
+        - text: Go live checklist
+          url: go-live/checklist.md
+          itemType: deploy
+        - text: Assign licensing
+          url: go-live/assign-licensing.md
+          itemType: how-to-guide
+        - text: Overview of Power Pages ALM
+          url: configure/portals-alm.md
+          itemType: how-to-guide
     # Card
     - title: Administer and monitor
-      summary: Administer and monitor your Power Pages sites           
+      summary: Administer and monitor your Power Pages sites
       links:
-      - text: Use the portals admin center
-        url: admin/admin-overview.md
-        itemType: reference
-      - text: Troubleshooting and diagnostics
-        url: admin/view-portal-error-log.md
-        itemType: reference   
-      - text: Maintain and update Power Pages
-        url: admin/update-solution.md
-        itemType: reference
-      - text: Review consumption
-        url: admin/portal-consumption-reports.md
-        itemType: how-to-guide                                                                       
+        - text: Use the portals admin center
+          url: admin/admin-overview.md
+          itemType: reference
+        - text: Troubleshooting and diagnostics
+          url: admin/view-portal-error-log.md
+          itemType: reference
+        - text: Maintain and update Power Pages
+          url: admin/update-solution.md
+          itemType: reference
+        - text: Review consumption
+          url: admin/portal-consumption-reports.md
+          itemType: how-to-guide
 
 # additionalContent section (optional)
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
   sections:
-    - title: Other Microsoft Power Platform products # < 60 chars (optional)
+    - title: Related content # < 60 chars (optional)
     - items:
+        # Card
+        - title: Power Platform
+          summary: One-stop learning resource for Power Platform applications and features including admin, developer, and guidance documentation.
+          url: /power-platform
         # Card
         - title: Power Apps
           summary: Quickly build low-code apps that modernize processes and solve tough business challenges in your organization using Power Apps.
@@ -226,4 +230,3 @@ additionalContent:
         - title: Power Virtual Agents
           summary: Create powerful bots using a guided, no-code graphical interface without the need for data scientists or developers.
           url: /power-virtual-agents
-    
