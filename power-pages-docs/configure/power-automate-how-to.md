@@ -314,3 +314,5 @@ To test the flow integration functionality:
 1. Enter a postal code or city in **Location** text box.
 
 1. Select the **Submit** button.
+
+    :::image type="content" source="media/power-automate-how-to/weather-report.png" alt-text="A rendering of the flow integration displaying Today's weather report.":::
