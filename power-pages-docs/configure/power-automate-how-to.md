@@ -44,7 +44,9 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Select **Skip**.
 
-1. Search for **Power Pages** Select **When Power Pages calls a flow** trigger.
+1. Search for **Power Pages** 
+    
+    - Select **When Power Pages calls a flow** trigger.
 
     :::image type="content" source="media/cloud-flow/power-automate-power-pages.png" alt-text="Selecting Power Pages options in Power Automate.":::
 
