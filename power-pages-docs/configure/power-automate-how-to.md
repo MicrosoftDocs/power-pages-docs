@@ -72,7 +72,7 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 1. Select **+ New step**.
 
 1. Search for **Power Pages**. 
-1. 
+
 1. Select **Return value(s) to Power Pages** action.
 
 1. Select **+ Add and output**.
