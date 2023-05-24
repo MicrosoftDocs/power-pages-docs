@@ -64,7 +64,8 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
     :::image type="content" source="media/cloud-flow/build-cloud-flow.png" alt-text="Build cloud flow.":::
 
-You can either keep the Imperial units or change to metric.
+    > [!NOTE]
+    > You can either keep the Imperial units or change to metric.
 
 1. Select **+ New step**.
 
