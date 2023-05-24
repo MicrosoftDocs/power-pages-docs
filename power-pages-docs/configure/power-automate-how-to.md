@@ -146,29 +146,29 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
 
     ```javascript
         <style>
-           div.weatherdetail {
-            border: 1px solid #F3F2F1;
-            border-radius: 12px;
-            box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
-            padding: 24px;
-           }
-          .weather label {
-            font-family: 'Nunito';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 18px;
-            color: #323130;
-          }
-          .weather button {
-        	  font-family: 'Segoe UI';
-              padding: 8px 16px;
-              font-size: 16px;
-              background-color: #6219D9;
-              color: white;
-              border: none;
-              border-radius: 4px;
-              cursor: pointer;
-              outline: none;
+            div.weatherdetail {
+                border: 1px solid #F3F2F1;
+                border-radius: 12px;
+                box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
+                padding: 24px;
+            }
+            .weather label {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                color: #323130;
+            }
+            .weather button {
+                font-family: 'Segoe UI';
+                padding: 8px 16px;
+                font-size: 16px;
+                background-color: #6219D9;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                outline: none;
             } 
             div.weather {
                 display: flex;
