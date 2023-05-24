@@ -1,6 +1,6 @@
 ﻿---
-title:  Governance control to disable anonymous access
-description: Learn how you can disable anonymous access at the site level.
+title:  Use governance controls to disable anonymous access
+description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
@@ -13,7 +13,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Governance control to disable anonymous access (preview)
+# Use governance controls to disable anonymous access (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -24,7 +24,7 @@ As an administrator, you can disable anonymous access to your websites in your t
 > - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - This feature is being gradually rolled out across regions and may not be available yet in your region.
 
-## Admin Experience
+## Admin experience
 
 You can disable and enable anonymous access to your websites using the Power Platform admin center.
 
