@@ -448,9 +448,9 @@
       items:
         - name: Web templates overview
           href: configure/web-templates.md
-        - name: Web templates as components
+        - name: Web templates as components (preview)
           href: configure/web-templates-as-components.md  
-        - name: "How to: Create a web template component"
+        - name: "How to: Create a web template component (preview)"
           href: configure/web-templates-as-components-how-to.md            
         - name: Create custom web templates
           items:
@@ -520,8 +520,8 @@
       href: security/power-pages-security.md
     - name: Site visibility
       href: security/site-visibility.md
-    - name: Governance control to disable anonymous access
-      href: security/disable-anonymous-access.md  
+    - name: Disable anonymous access (preview)
+      href: security/disable-anonymous-access.md
     - name: Authentication
       items:
         - name: Overview

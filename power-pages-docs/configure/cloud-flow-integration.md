@@ -12,6 +12,7 @@ ms.reviewer: ndoelman
 contributors:
     - nageshbhat-msft
     - nickdoelman
+    - ProfessorKendrick
 ---
 
 # Configure Power Automate cloud flows in Power Pages (preview)
@@ -31,7 +32,7 @@ Now, you can securely invoke Power Automate cloud flows from Power Pages to inte
 
 ## Prerequisites
 
-You will need a Power Automate per flow license to integrate with Power Pages.
+You need a Power Automate per flow license to integrate with Power Pages.
 
 ## Steps to integrate cloud flow
 
@@ -45,7 +46,7 @@ You will need a Power Automate per flow license to integrate with Power Pages.
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. On the left pane, click on **Solutions**.
+1. On the left pane, select **Solutions**.
 
 1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution.
 
@@ -64,7 +65,7 @@ You will need a Power Automate per flow license to integrate with Power Pages.
 
 ## Add a flow to your Site
 
-After creating an instant cloud flow, it needs to be associated with the Power Pages site and secured with a web role.
+After you create an instant cloud flow, it needs to be associated with the Power Pages site and secured with a web role.
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -78,7 +79,7 @@ After creating an instant cloud flow, it needs to be associated with the Power P
 
 1. Select **+ Add roles** under **Roles**.
 
-1. Select roles that will have access to the flow.
+1. Select roles that should have access to the flow.
 
 1. Select **Save**.
 
@@ -131,8 +132,11 @@ Body
 
 ## Authenticating cloud flow API requests
 
-You don't need to include an authentication code, because authentication and authorization are managed by the application session. All API calls must include a Cross-Site Request Forgery (CSRF) token.
+You don't need to include an authentication code, because the application session manages authentication and authorization. All API calls must include a Cross-Site Request Forgery (CSRF) token.
 
 ## Passing parameter to cloud flow
 
-In a cloud flow, you can define input parameters of type **Text**, **Boolean**, and **Number**. For **Text** type parameters, you can name them as 'text', 'text\_1', 'text\_2'. For Boolean type parameters, you can use names such as 'boolean', 'boolean\_1', 'boolean\_2', and for Number type parameters, 'number', 'number\_1', 'number\_2', and so on.
+In a cloud flow, you can define input parameters of type **Text**, **Boolean**, and **Number**. The parameter name you define in the request body should match the parameter name defined in the cloud flow trigger.
+
+>[!IMPORTANT]
+> You must pass the request parameters in the same order they are defined in the cloud flow.
