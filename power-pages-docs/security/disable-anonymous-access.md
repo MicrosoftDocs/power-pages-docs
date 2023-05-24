@@ -61,5 +61,7 @@ For existing sites where anonymous access is given, a banner error message is di
 
 ## End user experience
 
-End users see a message explaining that they don't have permission to view records and prompting them to sign in.
+End users see a message explaining that they don't have permission to view records and prompting them to sign in:
+
+```You don't have permission to view these records. Please sign in to continue.```
 
