@@ -306,7 +306,7 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
 
 1. Save the code by selecting **CTRL + S**.
 
-1. Select **Sync** on design studio.
+1. Select **Sync** in design studio.
 
 ## Step 4: Test the flow integration
 
