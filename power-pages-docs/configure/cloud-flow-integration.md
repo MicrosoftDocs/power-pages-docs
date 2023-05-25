@@ -140,3 +140,26 @@ In a cloud flow, you can define input parameters of type **Text**, **Boolean**, 
 
 >[!IMPORTANT]
 > You must pass the request parameters in the same order they are defined in the cloud flow.
+
+### Sample JavaScript to call a flow
+
+This sample demonstrates how to call a flow using Asynchronous JavaScript and XML (AJAX).
+ 
+```
+    shell.ajaxSafePost({
+        type: "POST",
+        contentType: "application/json",
+        url: _api/cloudflow/v1.0/trigger/44a4b2f2-0d1a-4820-bf93-9376278d49c4,
+        data: JSON.stringify({"eventData":JSON.stringify({"Email": "abc@contoso.com" }),
+        processData: false,
+        global: false
+    })
+    .done(function (response) {
+    
+    })
+    .fail(function(){
+    
+    });
+```
+>[!NOTE] 
+> If no input parameter is defined in the trigger, pass an empty payload in the request.
