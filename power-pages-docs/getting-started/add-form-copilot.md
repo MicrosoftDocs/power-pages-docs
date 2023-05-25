@@ -24,6 +24,8 @@ You can start the form creation process by describing the type of form you're lo
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - This feature doesn't support non-English language input.
+> - This feature will be available for preview in the United States only.
 > - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
 
 To use Copilot for forms:
