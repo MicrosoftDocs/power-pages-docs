@@ -287,7 +287,7 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
                         document.getElementById("windspeed").innerHTML = result["wind_speed"];
                         document.getElementById("visibility").innerHTML = result["visible_distance"];
                         document.getElementById("uv").innerHTML = result["uv_index"];
-                        document.getElementById("location").innerHTML = result["city"];
+                        document.getElementById("location").innerHTML = result["location"];
                         document.getElementById("condition").innerHTML = result["conditions"];
                         document.getElementById("temperature_units").innerHTML = result["temperature_units"];
                         document.getElementById("speed_units").innerHTML = result["speed_units"];
