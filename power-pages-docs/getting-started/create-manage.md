@@ -55,7 +55,7 @@ Customize and design your site using the Power Pages design studio.
 
 ## Additional information
 
-To speed up the process when you create a site with a new trial environment, the site metadata for all the [templates](../templates/index.md) are preloaded and appear as website records in the [Portal Management app](../configure/portal-management-app.md).
+When you create a site with a new trial environment, the site metadata for all the [templates](../templates/index.md) is preloaded. It appears as website records in the [Portal Management app](../configure/portal-management-app.md).
 
 :::image type="content" source="media/default-template/websites.png" alt-text="Website records in Portal Management app.":::
 
