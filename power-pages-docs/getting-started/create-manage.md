@@ -18,7 +18,7 @@ contributors:
 Customize and design your site using the Power Pages design studio. 
 
 > [!TIP]
-> We've created a series of tutorials and videos for you to learn to use Power Pages.  You'll start with a simple site and progressively add components and features as your business requires. For more information, go to [Power Pages tutorials](tutorial-overview.md).
+> We've created a series of tutorials and videos for you to learn to use Power Pages. You'll start with a simple site and progressively add components and features as your business requires. For more information, go to [Power Pages tutorials](tutorial-overview.md).
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
