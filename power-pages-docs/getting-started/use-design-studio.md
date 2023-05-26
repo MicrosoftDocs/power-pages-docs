@@ -24,7 +24,7 @@ The Power Pages design studio is an intuitive interface that enables low-code ma
 
     The first time you visit the site, select the **Try it for free** button to [sign up for a free, 30-day trial](trial-signup.md).
 
-1. Choose your site, and select **Edit** to launch the design studio.
+1. Choose your site, then select **Edit** to launch the design studio.
 
     :::image type="content" source="media/tour-maker-studio/launch-design-studio.png" alt-text="Launch the design studio.":::
 
