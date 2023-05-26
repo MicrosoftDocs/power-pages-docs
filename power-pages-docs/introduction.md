@@ -20,7 +20,7 @@ Microsoft Power Pages is a secure, enterprise-grade, low-code software as a serv
 
 :::image type="content" source="media/overview/power-pages-site.png" alt-text="A website built using Power Pages.":::
 
-Power Pages provides rich, customizable templates, a fluid visual experience through a reimagined design studio, and a new, integrated learning hub to quickly build sites to suit your unique business needs.
+Power Pages provides rich, customizable templates, a fluid visual experience through the design studio, and an integrated learning hub to quickly build sites for your unique business needs.
 
 Power Pages is the newest member of the Microsoft Power Platform family. With Power Pages, you can build sites by using the same shared business data stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro) that you use for building apps, workflows, intelligent virtual agents, reports, and analytics with other Microsoft Power Platform components in your organization. 
 
@@ -32,7 +32,7 @@ You can [try Power Pages](getting-started/trial-signup.md) for free to explore t
 
 ## Power Apps portals and Dynamics 365 portals
 
-Power Apps portals and Dynamics 365 portals are now referred to as Power Pages. There is no migration or upgrade process. You can use the new [Power Pages design studio](getting-started/use-design-studio.md) to edit sites created in Power Apps. Existing tools such as the [Portals Management app](configure/portal-management-app.md) and [Power Platform CLI](configure/power-platform-cli-tutorial.md) will continue to work with Power Pages.<br />
+Power Apps portals and Dynamics 365 portals are now referred to as Power Pages. There's no migration or upgrade process. You can use the new [Power Pages design studio](getting-started/use-design-studio.md) to edit sites created in Power Apps. Existing tools such as the [Portals Management app](configure/portal-management-app.md) and [Power Platform CLI](configure/power-platform-cli-tutorial.md) work with Power Pages.
 
 ## Read next
 
