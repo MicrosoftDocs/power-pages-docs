@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/13/2023
+ms.date: 5/30/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -113,7 +113,7 @@ To configure Azure AD B2C as the OpenID Connect provider:
     - **Registration claims mapping​**: Not required if using *email*, *first name*, or *last name* attributes. For other attributes, enter a list of logical name/claim pairs to be used to map claim values returned from Azure AD B2C (created during sign-up) to attributes in the contact record. <br /> Format: `field_logical_name=jwt_attribute_name`, where `field_logical_name` is the logical name of the field in Power Pages and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> 
      For example, if you've enabled **Job Title (jobTitle)** and **Postal Code (postalCode)** as **User Attributes** in your user flow, and you want to update the corresponding Contact table fields **Job Title (jobtitle)** and **Address 1: ZIP / Postal Code (address1_postalcode)**, enter the claims mapping as ```jobtitle=jobTitle,address1_postalcode=postalCode```.
 
-    - **Login claims mapping**: Not required if using *email*, *first name*, or *last name* attributes. For more attributes, enter a list of logical name/claim pairs to be used to map claim values returned from Azure AD B2C after sign-in to the attributes in the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in Power Pages, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> 
+    - **Login claims mapping**: Enter a list of logical name/claim pairs to be used to map claim values returned from Azure AD B2C after sign-in to the attributes in the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in Power Pages, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> 
      For example, if you've enabled **Job Title (jobTitle)** and **Postal Code (postalCode)** as **Application Claims** in your user flow, and you want to update the corresponding Contact table fields **Job Title (jobtitle)** and **Address 1: ZIP / Postal Code (address1_postalcode)**, enter the claims mapping as ```jobtitle=jobTitle,address1_postalcode=postalCode```.
 
     - **External logout**: Choose whether to enable or disable federated sign out:
