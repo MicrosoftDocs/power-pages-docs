@@ -22,7 +22,7 @@ Using a virtual table in Power Pages follows a similar process to creating table
 
 1. Create a virtual table in Dataverse
 
-1. Setup virtual table relationships
+1. Set up virtual table relationships
 
 1. Configure a web page with components using a virtual table
 
