@@ -4,7 +4,7 @@ description: Learn how to configure your Power Pages site authentication using d
 author: sandhangitmsft
 
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 3/9/2022
 ms.subservice:
 ms.author: sandhan
