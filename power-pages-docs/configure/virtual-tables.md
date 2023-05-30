@@ -44,7 +44,7 @@ Virtual connectors are built using Power Platform Connectors, which are pre-buil
 
 To learn how to create virtual table in Dataverse, go to [create a virtual table using virtual connector](/power-apps/maker/data-platform/create-virtual-tables-using-connectors?tabs=sql#steps-to-create-a-virtual-table-in-power-apps-for-sql-or-sharepoint).
 
-## Setup virtual table relationship
+## Set up virtual table relationship
 
 Setting up a table relationship to a contact or account table is an optional step if you're configuring virtual table permission for **Global** type access. **Account** and **contact** access types provides limited access to table records for the website user. Learn more about securing the data using [table permissions](../security/table-permissions.md).
 
