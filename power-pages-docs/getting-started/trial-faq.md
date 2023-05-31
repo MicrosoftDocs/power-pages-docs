@@ -3,7 +3,7 @@ title: Trial FAQ - Power Pages | Microsoft Docs
 description: "Solutions to common questions related to Power Pages trial setup and management. Learn how to resolve platform and app-specific issues."
 author: sampatn
 ms.author: sampatn
-ms.date: 06/17/2022
+ms.date: 05/31/2023
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: ndoelman
@@ -36,8 +36,7 @@ The following limitations apply to the trial:
 
 ## What email address can I use?
 
-You can use a work or school [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa).
-To use a personal email to start a new trial, you'll need to set up a new work or school account. You can set up a new work or school account by signing up for a new Microsoft 365 E3 or Dynamics 365 Sales or Customer Service Trial with your personal email.
+You need to use a work or school email account connected to a Microsoft 365 service to use Power Pages. You can set up a new work or school account by signing up for a new [Microsoft 365 E3](/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide) or Dynamics 365 Sales or Customer Service [Trial](https://dynamics.microsoft.com/dynamics-365-free-trial/) with your personal email.
 
 ## Is Power Pages available in my location?
 
