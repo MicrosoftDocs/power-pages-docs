@@ -5,7 +5,7 @@ author: clromano
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/08/2023
+ms.date: 05/23/2023
 ms.subservice:
 ms.author: clromano
 ms.reviewer: ndoelman
@@ -15,7 +15,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Web templates as components
+# Web templates as components (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Web templates can be created and used as components in web pages to allow makers to use these reusable components and provide parameters to meet requirements.
 
@@ -26,6 +28,10 @@ For example, you can create the following components (and others) as web templat
 - Location listing with maps
 - Carousel display
 - Gallery of images or videos
+
+>[!IMPORTANT]
+> - *This is a preview feature.*
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 To add a component to a web page, you can edit the page using the [Visual Studio Code for the Web](visual-studio-code-editor.md) and adding a Liquid include object to the page copy:
 

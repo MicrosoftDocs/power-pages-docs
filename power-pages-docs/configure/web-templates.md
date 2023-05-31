@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/08/2023
+ms.date: 05/23/2023
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: ndoelman
@@ -70,7 +70,7 @@ There's a set of pre-made Liquid templates available within Power Pages. To use 
 | Weblink List Group          | This template renders a list group of links for a web link set.                                                                                                                                                                         | `{% include 'weblink_list_group' weblink_set_name:'Name' %}`                     |
 ||
 
-## Web templates as components
+## Web templates as components (preview)
 
 Web templates can be created and used as components in web pages to allow makers to use these reusable components and provide parameters to meet requirements.
 

@@ -4,7 +4,7 @@ description: Learn how to secure your Power Pages site by using site visibility 
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/01/2023
+ms.date: 05/23/2023
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -15,7 +15,7 @@ contributors:
 
 # Site visibility in Power Pages
 
-The Power Pages site visibility feature allows you to manage who has access to your website. You can restrict access to specific people in your organization by making the site private. If you choose to make the site public, anyone with the link will have access.
+The Power Pages site visibility feature allows you to manage who has access to your website. You can restrict access to specific people in your organization by making the site private. If you choose to make the site public, anyone with the link has access.
 
 :::image type="content" source="media/site-visibility/site-visibility.gif" alt-text="Animation that shows site visibility setting change from private to public.":::
 
@@ -28,7 +28,7 @@ The Power Pages site visibility feature allows you to manage who has access to y
 
 Only site makers and organization users whom the maker granted access can view private sites. Website visitors need to authenticate using the organization's [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) identity provider to open the site. Setting visibility to private is useful if your site is in development and you wish to limit access during the design phase.
 
-Public sites are accessible over internet to everyone anonymously or authenticated with configured identity. The website is now a production site, fully operational for the customer to use. You'll see a notification when you're editing a public site using [design studio](../getting-started/use-design-studio.md), [Portal Management app](../configure/portal-management-app.md), [Visual Studio code editor](../configure/power-platform-cli-tutorial.md) and [Microsoft Power Platform CLI](../configure/power-platform-cli-tutorial.md).
+Public sites are accessible over internet to everyone anonymously or authenticated with configured identity. The website is now a production site, fully operational for the customer to use. You'll see a notification when you're editing a public site using [design studio](../getting-started/use-design-studio.md), [Portal Management app](../configure/portal-management-app.md), [Visual Studio Code editor](../configure/power-platform-cli-tutorial.md) and [Microsoft Power Platform CLI](../configure/power-platform-cli-tutorial.md).
 
 ## Change site visibility
 
@@ -86,6 +86,9 @@ The ability to change site visibility is determined by the following factors:
 - [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
 - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
+
+> [!NOTE]
+> Websites in developer environments cannot be made public. 
 
 Members of [System administrator](/power-platform/admin/database-security#environments-with-a-dataverse-database) security role can also change the site visibility when the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to `true`.
 

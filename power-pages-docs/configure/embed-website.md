@@ -4,7 +4,7 @@ description: Learn about how to embed a Power Pages site in another website.
 author: dileepsinghmicrosoft
 
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 03/28/2023
 
 ms.author: dileeps

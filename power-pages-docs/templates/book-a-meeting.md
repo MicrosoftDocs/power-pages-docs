@@ -1,10 +1,10 @@
 ---
-title: Book a Meeting template
-description: Learn about the Book a Meeting template
+title: Schedule and manage meetings template
+description: Learn about the schedule and manage meetings template.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/07/2022
+ms.date: 04/14/2023
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: kkendrick
@@ -13,11 +13,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Book a Meeting template
+# Schedule and manage meetings template
 
-Book a Meeting is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative. The scheduling principle will apply to any industry or organization looking to stand up a scheduling portal.
+Schedule and manage meetings is designed to show you the capabilities of a scheduling template. We've chosen the example of scheduling with a bank representative. The scheduling principle will apply to any industry or organization looking to stand up a scheduling website.
 
-:::image type="content" source="media/meeting.png" alt-text="The Book a Meeting landing page in the design studio."::: 
+:::image type="content" source="media/meeting.png" alt-text="The Schedule and manage meetings landing page in the design studio."::: 
 
 ## Users
 
@@ -58,7 +58,7 @@ The following pages are used by bank customers.
 
 |Page|Description|
 |---------|---------|
-|Home|Customer homepage. Provides a link to book a meeting with a financial consultant.|
+|Home|Customer homepage. Provides a link to Schedule and manage meetings with a financial consultant.|
 |C2 Book an Appointment|Book an appointment with a financial consultant using a multi-step process by inputting service(s) desired, location, and availability.|
 |C2 Cancel Appointment|Cancel appointment with a financial consultant.|
 |C2 Cancel Confirmation|Confirmation page for successfully canceled appointment(s).|
