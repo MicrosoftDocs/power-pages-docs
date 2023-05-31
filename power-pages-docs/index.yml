@@ -112,6 +112,25 @@ conceptualContent:
           url: configure/planning-power-pages-project.md
           itemType: reference
     # Card
+    - title: AI and Copilot
+      summary: Use AI-powered and Copilot features in Power Pages
+      links:
+        - text: AI-powered and Copilot features overview
+          url: configure/ai-copilot-overview.md
+          itemType: overview
+        - text: Create AI-generated form using Copilot
+          url: getting-started/add-form-copilot.md
+          itemType: concept
+        - text: Add AI-generated text using Copilot
+          url: getting-started/add-text-copilot.md
+          itemType: concept
+        - text: Enable chatbot in your site
+          url: getting-started/enable-chatbot.md
+          itemType: concept
+        - text: Force Bing webmaster to index your site
+          url: getting-started/force-bing-index.md
+          itemType: concept
+    # Card
     - title: Connect to Dataverse
       summary: Extend Dataverse capabilities with Power Pages
       links:
@@ -152,6 +171,9 @@ conceptualContent:
         - text: Code components
           url: configure/component-framework.md
           itemType: reference
+        - text: Configure Power Automate cloud flows in your site
+          url: configure/cloud-flow-integration.md
+          itemType: concept
         - text: Advanced configuration
           url: configure/advanced-config.md
           itemType: reference
