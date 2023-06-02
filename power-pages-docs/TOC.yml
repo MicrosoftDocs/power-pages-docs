@@ -416,6 +416,8 @@
       href: configure/virtual-tables.md
 - name: Customize and extend Power Pages
   items:
+    - name: Developer overview
+      href: configure/developer-overview.md
     - name: Liquid
       items:
         - name: Liquid overview
