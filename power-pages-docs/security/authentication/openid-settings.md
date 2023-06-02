@@ -137,7 +137,8 @@ You can configure your website to accept Azure AD users from any tenant in Azure
 
 To support authentication against Azure AD by using a multitenant application, you have to create or configure the additional **Issuer Filter** site setting.
 
-This site setting is a wildcard-based filter that matches on all issuers across all tenants. Example: `https://sts.windows.net/*/`
+This site setting is a wildcard-based filter that matches on all issuers across all tenants. Examples: `https://sts.windows.net/*/` or `https://login.microsoftonline.com/*/v2.0`.
+The right value can be read from issuer property of the ["well-known/openid-configuration" endpoint](https://login.microsoftonline.com/organizations/v2.0/.well-known/openid-configuration) for the open id provider - in this case Azure AD.
 
 ### See also
 
