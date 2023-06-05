@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 3/9/2022
+ms.date: 06/22/2023
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -69,7 +69,8 @@ After you set an identity provider as the default, you can select **Remove as de
 Several identity providers that you can configure are added by default. You can add additional Azure Active Directory (Azure AD) B2C providers, or configure the available OAuth 2.0 providers such as LinkedIn or Microsoft.
 
 > [!NOTE]
-> - You can't change the configuration of the **Local sign in** and **Azure Active Directory** providers when using this interface.
+> - Use [site settings](../../configure/configure-site-settings.md#site-settings) to update any configuration changes.
+You can't change the configuration of the **Local sign in** and **Azure Active Directory** providers when using this interface.
 > - You can have only one instance of each identity provider type for OAuth 2.0, such as **Facebook**, **LinkedIn**, **Google**, **Twitter**, and **Microsoft**.
 > - Updates to identity provider configuration might take a few minutes to be reflected on the website. To apply your changes immediately, you can [restart the website](../../admin/admin-overview.md).
 > - If you [add a custom domain name](../../admin/add-custom-domain.md) or [change the base URL](/power-apps/maker/portals/admin/change-base-url), you must re-create the provider configuration by using the correct URL.
