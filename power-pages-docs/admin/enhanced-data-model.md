@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/28/2023
+ms.date: 06/06/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -217,6 +217,10 @@ New websites created using the enhanced data model can be edited using the new P
 1. The search feature won't return any web page results.
 
 1. Enable traffic analysis isn't available for websites using the enhanced data model.
+
+1. The **Account** table is not part of the Power Pages management app. This will limit adding a parent account record to a contact. As a workaround, [manually add the account table](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-table) to Power Pages management app.
+
+1. Configuring [list acions](../getting-started/add-list.md#choose-list-actions) on websites with the enhanced data model currently doesn't save the configuration. As a workaround, configure the list using the [Power Pages management app](../configure/list-configuration.md).  
 
 ## See also
 
