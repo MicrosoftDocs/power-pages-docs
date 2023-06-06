@@ -220,7 +220,7 @@ New websites created using the enhanced data model can be edited using the new P
 
 1. The **Account** table isn't part of the Power Pages management app. This limits adding a parent account record to a contact. As a workaround, [manually add the account table](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-table) to Power Pages management app.
 
-1. Configuring [list acions](../getting-started/add-list.md#choose-list-actions) on websites with the enhanced data model currently doesn't save the configuration. As a workaround, configure the list using the [Power Pages management app](../configure/list-configuration.md).  
+1. Configuring [list actions](../getting-started/add-list.md#choose-list-actions) on websites with the enhanced data model currently doesn't save the configuration. As a workaround, configure the list using the [Power Pages management app](../configure/list-configuration.md).  
 
 ## See also
 
