@@ -4,7 +4,7 @@ description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2023
+ms.date: 06/07/2023
 ms.author: vamseedilli
 ms.reviewer: kkendrick
 contributors:
@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-As an administrator, you can disable anonymous access to your websites in your tenant, preventing accidental exposure of sensitive data.
+As an administrator, you can disable anonymous access. This setting prohibits unauthenticated users from accessing Dataverse data displayed on websites in your tenant, preventing accidental exposure of sensitive data.
 
 >[!IMPORTANT]
 > - This is a preview feature.
@@ -50,6 +50,9 @@ You can disable and enable anonymous access to your websites using the Power Pla
 1. Select the sites and choose **OK**.
 
 1. Select **Save**. A message confirming success appears in green below the Governance Controls ribbon menu.  
+
+> [!NOTE]
+> - While unauthenticated users will be prevented from viewing Dataverse data when this setting is enabled, these users can still write data to Dataverse. This is helpful in uses cases where users wish to submit anonymous feedback.  
 
 ## Maker experience
 
