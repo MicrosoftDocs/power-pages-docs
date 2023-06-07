@@ -4,7 +4,7 @@ description: Learn how to solutions in Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/03/2023
+ms.date: 06/01/2023
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -46,7 +46,8 @@ Each environment will required a site that is created using the new data model. 
 1. From the Add existing sites panel, select site(s) and choose Add.
 
 > [!NOTE]
-> The process will add all of the site components to the solution.
+> - If the **Site** option doesn't appear, then your environment does not have any websites created using the [enhanced data model](../admin/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
+> - The process will add all of the site components to the solution.
 
 ## Add website components
 
