@@ -4,8 +4,8 @@ description: Learn how to embed a Power BI report in Power Pages.
 author: skyshon
 ms.topic: guidance
 ms.custom: 
-ms.date: 01/23/2023
-ms.author: skylar.shonblom
+ms.date: 06/08/2023
+ms.author: skyshon
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
@@ -66,8 +66,6 @@ To get RLS to work for Power Pages users (Contacts), there needs to be that dire
 
 1. As we're implementing Row Level Security (**RLS**), we need to create our role. In the top **Home** ribbon, select on **Manage roles**.
 
-    :::image type="content" source="media/powerbiembedded/manage-roles.png" alt-text="Manage roles in Power BI.":::
-
 1. Under **Roles**, select **Create**. Name the role. The sample scenario used **pagesuser**.
 
 1. From the **Tables** column, select **contact**.
@@ -79,11 +77,11 @@ To get RLS to work for Power Pages users (Contacts), there needs to be that dire
     > [!NOTE] 
     > The `[Username]` field resides on the contact table and is not an actual username. This references the **adx\_externalidentity** table used by Power Pages. This has the GUID that is sent to Power BI in the username() function.
 
+    :::image type="content" source="media/powerbiembedded/manage-roles.png" alt-text="Manage roles in Power BI.":::
+
 1. Select **Save** and then save your file.
 
 1. From the Home ribbon, select **Publish**.
-
-    :::image type="content" source="media/powerbiembedded/publish.png" alt-text="Publishing the Power BI report.":::
 
 1. Select an organization workspace that you're an owner and that will be used by the Power Pages integration. Choose **Select**.
 
@@ -99,15 +97,11 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
 1. Add a section to the body of the webpage.
 
-    :::image type="content" source="media/powerbiembedded/add-section.png" alt-text="Add a section to a webpage.":::
-
 1. Choose the **Power BI** icon when prompted to choose which component you're adding within the section.
 
-    :::image type="content" source="media/powerbiembedded/powerbi-component.png" alt-text="Add a Power BI component.":::
+    :::image type="content" source="media/powerbiembedded/add-section.png" alt-text="Add a section to a webpage.":::
 
 1. When the component populates the section, select on the top left corner; **Edit Power BI**.
-
-    :::image type="content" source="media/powerbiembedded/edit-powerbi.png" alt-text="Edit Power BI.":::
 
 1. Select **Access type**. The options are:
 
@@ -141,7 +135,7 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 1. The full line of liquid code that you'll see will resemble:
 
     ```html
-    {% powerbi authentication\_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
+    {% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection" %}
     ```
 
 1. Close the **Visual Studio Code for the Web** tab.
@@ -159,7 +153,7 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 1. The full line of liquid code that you'll see will now resemble:
 
     ```html
-    {% powerbi authentication\_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" **roles:"portaluser"** %}
+    {% powerbi authentication\_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection" **roles:"portaluser"** %}
     ```
 
 1. Close the Visual Studio Code tab to return to the design studio.
