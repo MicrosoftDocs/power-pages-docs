@@ -15,9 +15,15 @@ contributors:
     - ProfessorKendrick
 ---
 
-# How to: Create a web template component
+# How to: Create a web template component (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Creating a web template component allows you to build a configurable, repeatable component that can be customized for each specific instance used.
+
+>[!IMPORTANT]
+> - *This is a preview feature.*
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 In this how-to, you learn how to:
 

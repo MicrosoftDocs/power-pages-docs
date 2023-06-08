@@ -83,7 +83,7 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
 
 - You man get an error when updating the Power Platform Tools for Visual Studio Code with the error message `Cannot install Power Pages generator: spawnSync npm.cmd ENOENT`. To resolve the issue, install [node.js](https://nodejs.org/en/download) and restart Visual Studio Code.
 
-- Two sets of the Power Pages create commands may appear in the menu and will not work if you have both the stable version of **Power Platform Tools** as well as the **Power Platform Tools [PREVIEW]** installed on Visual Studio Code.
+- Two sets of the Power Pages create commands may appear in the menu and won't work if you have both the stable version of **Power Platform Tools** and the **Power Platform Tools [PREVIEW]** installed on Visual Studio Code.
 
     Uninstall the **Power Platform Tools [PREVIEW]** version to resolve the issue.
 
@@ -108,11 +108,11 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
 
 - When you create an environment along with the starter portal, the owner of the site isn't displayed correctly. It's displayed as System.
 
-- If you're reusing the URL of a recently deleted site to create a new site, it will have some delay for runtime to setup. This experience happens because the purge of previous resources would still be in progress and may take from 30 minutes to 1 hour for the new site to setup on Azure. The site will also not be available for editing during this time and may show errors when launched in studio for editing.
+- If you're reusing the URL of a recently deleted site to create a new site, it has some delay for runtime to set up. This experience happens because the purge of previous resources would still be in progress and may take from 30 minutes to 1 hour for the new site to set up on Azure. The site will also not be available for editing during this time and may show errors when launched in studio for editing.
 
 - When switching an environment in Power Apps, the sites within an environment may not show up immediately in **Apps** or **Recent Apps** list. This experience happens particularly on environments that are created in a different region than their tenant. The workaround is to use browser refresh or wait for some time for the site to show up in the apps list. You'll be able to view all sites in an environment from the [Power Pages home page](https://aka.ms/mpp).
 
-- If you keep the portal settings pane open in Power Apps home page while resetting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center, a user will see the "Something went wrong" error message in the portal settings pane, as the site is no longer available.
+- If you keep the portal settings pane open in Power Apps home page while resetting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center, a user sees the "Something went wrong" error message in the portal settings pane, as the site is no longer available.
 
 - In certain cases, when you create a new site, the styles aren't applied properly to the site, and the website is displayed without the styles when opened through **Browse website**. This behavior rarely happens and styles can be recovered by restarting the site from the [Power Pages hub](admin/admin-overview.md) in the Power Platform admin center.
 
@@ -138,6 +138,7 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
     ```html
     <a aria-label="{{ link.name | escape }}" {% if link.Open_In_New_Window %} target="_blank" {% endif %} href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
     ```
+- Adding a cloud flow immediately after creating a site results in a failure. To prevent this, wait approximately 30 minutes to 1 hour after you create your site before adding a cloud flow.
 
 ## Power Apps portals Studio issues
 
