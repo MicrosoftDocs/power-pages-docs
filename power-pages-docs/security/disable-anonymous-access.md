@@ -52,7 +52,7 @@ You can disable and enable anonymous access to your websites using the Power Pla
 1. Select **Save**. A message confirming success appears in green below the Governance Controls ribbon menu.  
 
 > [!NOTE]
-> - While unauthenticated users will be prevented from viewing Dataverse data when this setting is enabled, these users can still write data to Dataverse. This is helpful in uses cases where users wish to submit anonymous feedback.  
+> - While unauthenticated users will be prevented from viewing Dataverse data when this setting is enabled, these users can still write data to Dataverse. This is helpful in use cases where users wish to submit anonymous feedback.  
 
 ## Maker experience
 
