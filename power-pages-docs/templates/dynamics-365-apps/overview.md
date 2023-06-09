@@ -125,3 +125,4 @@ While using [Power Pages design studio](../../configure/design-build-overview.md
 
 - Existing Dynamics 365 templates are not completely editable inside [Pages workspace](../../getting-started/first-page.md). Use [Portal Management app](../../configure/portal-management-app.md) or [Visual Studio Code](../../configure/power-platform-cli-tutorial.md) instead.
 - [Styling workspace](../../getting-started/style-site.md) is not available for Dynamics 365 templates. Instead, use out of the box CSS files or custom CSS files as webfiles for styling. More information: [Create and manage web files](../../configure/web-files.md)
+- Dynamics 365 templates are not available during the first run experience for site creation. For subsequent site creation, Dynamics 365 templates are available.
