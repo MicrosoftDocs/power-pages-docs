@@ -115,26 +115,26 @@ sections:
           
           - If the organization ID is the same after the restore operation, and Power Pages solutions are also available:
           
-              1. Open [Power Apps portals admin center](/power-apps/maker/portals/admin/admin-overview).
-              2. Go to the **Portal Details** tab.
-              3. In the **Portal State** drop-down list, choose **Off**.
-              4. Select **Update**. 
-              5. Once the update operation is complete, set the **Portal State** drop-down list to **On** and then select **Update**.
+              1. Open [Power Platform admin center](admin/admin-overview.md).
+              2. Select the ellipse (**...**) to the right of the **Site Actions** menu item.
+              3. Select **Update Dynamics 365 URL**.
+              4. In the pop up window, select the **Update URL** button.
           
             Your website will be restarted and a connection will be created with the organization again.
           
           - If the organization ID is different after the restore operation, or Power Pages solutions are deleted from your organization:
           
-            - In this case, it's better to reset the websites by following the steps in [Reset a portal](/power-apps/maker/portals/admin/reset-portal) and then reprovision it.
+            - In this case, it's better to delete the websites by following the steps in [delete website](admin/delete-website.md) and then reprovision it.
           
       - question: |
           We recently changed the URL of our Dataverse environment and our website stopped working. How do we fix it?
         answer: |
           When you change the URL of your Dataverse environment, your website will stop working because it can't identify the Dataverse environment URL anymore. To fix this issue:
           
-          1. Open [Power Apps portals admin center](/power-apps/maker/portals/admin/admin-overview).
-          2. Go to **Portal Actions** > **Update Dynamics 365 URL**.
-          3. Follow the instructions in the wizard.
+              1. Open [Power Platform admin center](admin/admin-overview.md).
+              2. Select the ellipse (**...**) to the right of the **Site Actions** menu item.
+              3. Select **Update Dynamics 365 URL**.
+              4. In the pop up window, select the **Update URL** button.
           
           Your website will be restarted and start working again.
           
@@ -182,8 +182,4 @@ sections:
         answer: |
           You can enable your website to use a custom domain name in place of the standard `powerappsportals.com` domain name. More information: [Link your portal to a custom domain](/power-apps/maker/portals/admin/add-custom-domain)
           
-      - question: |
-          See also
-        answer: |
-          [Power Apps portals maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
 
