@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/7/2023
+ms.date: 06/02/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -48,7 +48,7 @@ To configure Azure AD as the OpenID Connect provider by using the Implicit Grant
 
     1. Select **New registration**.
     
-        :::image type="content" source="../media/authentication/register-application.jpg" alt-text="Register an application settings inside the Azure portal.":::
+        :::image type="content" source="../media/authentication/register-application.jpg" alt-text="Register an application's settings inside the Azure portal.":::
 
         - Enter a name.
 
@@ -137,7 +137,7 @@ You can configure your website to accept Azure AD users from any tenant in Azure
 
 To support authentication against Azure AD by using a multitenant application, you have to create or configure the additional **Issuer Filter** site setting.
 
-This site setting is a wildcard-based filter that matches on all issuers across all tenants. Example: `https://sts.windows.net/*/`
+This site setting is a wildcard-based filter that matches on all issuers across all tenants. 
 
 ### See also
 
