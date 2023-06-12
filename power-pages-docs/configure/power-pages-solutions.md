@@ -4,7 +4,7 @@ description: Learn how to solutions in Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/01/2023
+ms.date: 06/09/2023
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -91,7 +91,25 @@ Once the solution is imported, it will appear under solutions list.
 > [!NOTE]
 > If the solution is unmanaged, select **Publish all customizations** in the destination environment.
 
+## Reactivating site on target environment
+
+Once the website has been transferred to the target environment, you will need to reactivate the website.
+
+1. On the target environment, on the Power Pages home screen, select **Inactive sites**, you should see the website you migrated to the environment.
+
+1. Select **Reactivate**.
+
+    :::image type="content" source="../admin/media/migrate-portal-config/reactivate-website.png" alt-text="Reactivate website.":::
+
+1. You can specify the **Reactivated website** name and **Create a web address** or leave default values.
+
+1. Select **Done**.
+
+1. The website updates from the source environment should be reflected in this new target environment. Going forward, you should be able to transfer configuration from your source to target environments by transferring the website configuration data.
+
 ## Binding enhanced data model website record to a site
+
+The following steps show how you can update an existing website using the configuration from the source environment.
 
 1. Navigate to the [Power Platform admin center](https://aka.ms/ppac)
 
