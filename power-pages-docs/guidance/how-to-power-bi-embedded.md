@@ -4,7 +4,7 @@ description: Learn how to embed a Power BI report in Power Pages.
 author: skyshon
 ms.topic: guidance
 ms.custom: 
-ms.date: 06/08/2023
+ms.date: 06/12/2023
 ms.author: skyshon
 ms.reviewer: ndoelman
 contributors:
@@ -14,31 +14,33 @@ contributors:
 
 # Embed a Power BI report in Power Pages
 
-Just as Pages is the tool of choice to quickly extend your Dataverse deployment to the public in the form of a website, Power BI is the tool of choice to render elegant data-driven visualizations. The beauty of the Power Platform lies in its ability to seamlessly blend the two. In the past, to render a Power BI report in the Pages, administrators had to publish said report to the web and embed it into an iFrame. Even if one did apply Pages permissions to lock down the page with the report, if an individual had the link used to embed the report, anyone would still be able to access the report outside of the website. The purpose of **publish to web** is to allow any individual on the web to consume the data and even reshare the report. 
+Just as Power Pages is the tool of choice to quickly extend your Microsoft Dataverse deployment to the public in the form of a website, Power BI is the tool of choice to render elegant data-driven visualizations. The beauty of the Power Platform lies in its ability to seamlessly blend the two. In the past, to render a Power BI report in a webpage, administrators had to publish the report to the web and embed it into an iFrame. Even if one did apply [Pages permissions](../security/page-security.md) to lock down the page with the report, if an individual had the link used to embed the report, anyone would still be able to access the report outside of the website. 
 
-That's where Power BI embedded comes in. With Power BI embedded, one can contextually serve Power BI components to users, pass automatic filters by using a filter parameter, and enable row-level security capabilities to allow an organization to truly secure data visible to users and only display what they're meant to see.
+The purpose of **publish to web** is to allow any individual on the web to consume the data and even reshare the report. 
+
+With **Power BI embedded**, one can contextually serve Power BI components to users, pass automatic filters by using a filter parameter, and enable row-level security capabilities to allow an organization to truly secure data visible to users and only display what they're meant to see.
 
 ## Prerequisites
 
-- Tenant with a Microsoft Dataverse environment and a Power Pages website deployed
-- [A webpage to embed a Power BI report or dashboard](../getting-started/first-page.md)
-- Relevant business data stored in Dataverse
-- [Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop)
-- [Capacity for publishing Power BI embedded content](/power-bi/developer/embedded/embedded-capacity?tabs=gen2) 
-- Tenant global admin rights
-    - Tenant global admin [with Admin role in the Power BI service workspace](/power-bi/collaborate-share/service-roles-new-workspaces)
-    - Organization, **not** personal [Power BI workspace](/power-bi/collaborate-share/service-create-the-new-workspaces)
-- [Registration/authentication turned on in the website](../security/configure-portal-authentication.md)
+- Tenant with a Microsoft Dataverse environment and a Power Pages website deployed.
+- [A webpage to embed a Power BI report or dashboard](../getting-started/first-page.md).
+- Relevant business data stored in Dataverse.
+- [Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
+- [Capacity for publishing Power BI embedded content](/power-bi/developer/embedded/embedded-capacity?tabs=gen2).
+- Tenant global admin rights.
+    - Tenant global admin [with Admin role in the Power BI service workspace](/power-bi/collaborate-share/service-roles-new-workspaces).
+    - Organization, **not** personal [Power BI workspace](/power-bi/collaborate-share/service-create-the-new-workspaces).
+- [Registration/authentication turned on in the website](../security/configure-portal-authentication.md).
 
 ## Scenario
 
-You work for a group fitness studio and use Dataverse to track group fitness classes and their attendance. The group fitness instructors don't reside on your tenant, as each is treated as a contractor. Your website is to be used by these group fitness instructors to log in and see a history of their taught classes, their upcoming schedule, and attendee rates. They should only be able to see the classes that they themselves have taught though, and not everyone's.
+You work for a group fitness studio and use Dataverse to track group fitness classes and their attendance. The group fitness instructors don't reside on your tenant, as each is treated as a contractor. Your website is to be used by these group fitness instructors to sign in and see a history of their taught classes, their upcoming schedule, and attendee rates. They should only be able to see the classes that they themselves have taught though, and not everyone's.
 
-The instructors are represented by **Contact** records in Dataverse. When accessing the Power Pages website, they'll be doing so as their **Contact** record. The data that they need to see in the website comes from our custom **Classes** table. The Classes table has a N\*:1 relationship to a contact, as the classes form has a lookup field named **Instructor**, which is for the contact table.
+The instructors are represented by **Contact** records in Dataverse. When accessing the Power Pages website, they're doing so as their **Contact** record. The data that they need to see in the website comes from our custom **Classes** table. The Classes table has a N\*:1 relationship to a contact, as the classes form has a lookup field named **Instructor**, which is for the contact table.
 
 :::image type="content" source="media/powerbiembedded/class_record.png" alt-text="A record of a class in Dataverse.":::
 
-To get RLS to work for Power Pages users (Contacts), there needs to be that direct relationship between the Contact, and the table you're reporting against. Below is the data model of this scenario:
+To get row level security to work for Power Pages users (Contacts), there needs to be that direct relationship between the **Contact**, and the table you're reporting against. Below is an example data model of this scenario:
 
 :::image type="content" source="media/powerbiembedded/contact-relationship.png" alt-text="Contact relationship to classes table.":::
 
@@ -58,7 +60,7 @@ To get RLS to work for Power Pages users (Contacts), there needs to be that dire
 
 1. In the bottom picklist, select the **contact** table and select the **Contact** column.
 
-1. Cardinality will indicate Many to one (\*:1). Change the **Cross filter direction** to **Both**.
+1. Cardinality indicates Many to one (\*:1). Change the **Cross filter direction** to **Both**.
 
     :::image type="content" source="media/powerbiembedded/edit-link.png" alt-text="Editing link between tables.":::
 
@@ -107,7 +109,7 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
     1. Embed for your customers: Allows you to share the Power BI with external users without a Power BI license or an Azure AD identity.
 
-    1. Embed for your organization: This will use Azure AD authentication to share the report from Power BI so internal users can see this.
+    1. Embed for your organization: This uses Azure AD authentication to share the report from Power BI so internal users can see this.
 
     1. Publish to web: This allows anyone on the internet to access the report and data. 
     
@@ -116,9 +118,9 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
     Additional information: [Publish to web](/power-bi/collaborate-share/service-publish-to-web)
 
-    Choose either **a** or **b**.
+    Choose **Embed for your customers**.
 
-1. Select your workspace that contains the report or dashboard, specify the type as Report or Dashboard, and then choose the report or dashboard from the last dropdown. If this is a report, you'll need to specify which page you're embedding.
+1. Select your workspace that contains the report or dashboard, specify the type as Report or Dashboard, and then choose the report or dashboard from the last dropdown. If this is a report, you need to specify which page you're embedding.
 
     :::image type="content" source="media/powerbiembedded/select-report.png" alt-text="Select report.":::
 
@@ -126,13 +128,13 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
     :::image type="content" source="media/powerbiembedded/edit-code.png" alt-text="Edit code.":::
 
-1. When prompted, select **Open Visual Studio Code**. On the left, under **PowerPages (Workspace)** the name of the Power Pages website will have a drop-down to the web page. Within that section you'll see a .css file, a .js file, and the HTML copy. Ensure that you are on the HTML copy file.
+1. When prompted, select **Open Visual Studio Code**. On the left, under **PowerPages (Workspace)** the name of the Power Pages website has a drop-down to the web page. Within that section you see a .css file, a .js file, and the HTML copy. Ensure that you are on the HTML copy file.
 
     :::image type="content" source="media/powerbiembedded/vscode.png" alt-text="VS Code.":::
 
 1. Select **CTRL + F** and search for `{%` so we can quickly identify the code that contains the reference to our Power BI dashboard or report. `{%` indicates the opening of a tag, which creates logic for the language **Liquid**. Liquid is our bridge between Dataverse and what users interact with on the website. When we use the studio editor to embed components, a piece of liquid code is automatically created in the web page's source code. More information on the Power BI liquid tag can be found here: [Dataverse Liquid tags](/power-apps/maker/portals/liquid/portals-entity-tags#powerbi) and [Add Power BI report](/power-apps/maker/portals/admin/add-powerbi-report).
 
-1. The full line of liquid code that you'll see will resemble:
+1. The full line of liquid code that you see will resemble:
 
     ```html
     {% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection" %}
@@ -150,7 +152,7 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
 1. To see the changes this made to the code that embedded the report or dashboard, again select **Edit code** from the top right corner of the studio.
 
-1. The full line of liquid code that you'll see will now resemble:
+1. The full line of liquid code that you see will now resemble:
 
     ```html
     {% powerbi authentication\_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection" **roles:"portaluser"** %}
@@ -160,17 +162,13 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
 1. Preview the resulting embedded report or dashboard in your browser by selecting **Sync** in the top right corner, then selecting **Preview &gt; Desktop**.
 
-    :::image type="content" source="media/powerbiembedded/preview-site.png" alt-text="Preview site.":::
-
-1. To test this, you can see that the RLS has been applied, as there are no records returned navigating to the Power Pages website:
+1. To test the report, with no user signed in you can see that the RLS has been applied, as there are no records returned navigating to the Power Pages website:
 
     :::image type="content" source="media/powerbiembedded/blank-report.png" alt-text="Blank report.":::
 
-    There's underlying data in this report, as when you view this from Power BI Desktop without the RLS applied, you can see that there are several records overall, but none of them are related to the contact record:
+    There's underlying data in this report, as when you view this from Power BI Desktop without the RLS applied, you can see that there are several records overall, but they're related to a contact record.
 
-    :::image type="content" source="media/powerbiembedded/instructor-report.png" alt-text="Instructor report no relations.":::
-
-1. To test this further, you can go into Dataverse and modify records to change the contact field lookup to your own contact record. Once the dataset has refreshed, you can see the updates when you return to the Power Pages website:
+1. To test this further, if we sign into the website with a user that has a corresponding contact that has related data, you can only see the records related to the signed-user on the webpage:
 
     :::image type="content" source="media/powerbiembedded/class_report.png" alt-text="Class report on webpage.":::
 
@@ -178,4 +176,4 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
 You've embedded a Power BI report or dashboard that uses row-level security into your Power Pages website!
 
-The filter pane will appear by default. Hiding this requires JavaScript. Steps to do this are documented here: [Add a Power BI report or dashboard to a webpage in a portal](/power-apps/maker/portals/admin/add-powerbi-report).
+The filter pane appears by default. Hiding the filter pane requires JavaScript. Steps to do this are documented here: [Add a Power BI report or dashboard to a webpage in a portal](/power-apps/maker/portals/admin/add-powerbi-report).
