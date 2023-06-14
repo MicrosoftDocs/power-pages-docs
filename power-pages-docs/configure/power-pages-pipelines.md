@@ -49,8 +49,7 @@ You also need to set up and configure a pipeline from your development environme
 
 1. Verify the summary, modify the version number and deployment notes and select **Deploy**.
 
-##
-
+Watch this video to see how to deploy a solution using pipelines:
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW15YVG]
 
 ## Activate on the target environment
