@@ -47,9 +47,11 @@ You also need to set up and configure a pipeline from your development environme
 
 1. Select **Next**.
 
-1. Verify the summary, modify the version number and deployment notes and select **Deploy**. 
+1. Verify the summary, modify the version number and deployment notes and select **Deploy**.
 
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
+##
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW15YVG]
 
 ## Activate on the target environment
 
