@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/28/2023
+ms.date: 06/06/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -31,7 +31,7 @@ The enhanced data model for Power Pages provides the following benefits:
 - allow website configuration to be contained in solutions to provide smoother ALM experiences
 - improved updates of Power Pages enhancements and bug fixes
 
-The enhanced data model is combination of system tables, a collection of non-configuration tables, and a set of virtual tables.
+The enhanced data model is combination of system tables, a collection of nonconfiguration tables, and a set of virtual tables.
 
 ### System tables
 
@@ -41,9 +41,9 @@ The system tables are Power Pages specific solution aware tables present in all 
 - Site Component
 - Site Language
 
-### Non-configuration tables
+### Nonconfiguration tables
 
-Non-configuration tables are feature specific tables that contain transactional business data. Data in these tables don't participate in ALM processes.
+Nonconfiguration tables are feature specific tables that contain transactional business data. Data in these tables don't participate in ALM processes.
 
 - Ad
 - Poll
@@ -77,13 +77,13 @@ You'll first need to enable the enhanced data model on your Power Platform envir
 > [!NOTE]
 > This will add solutions packages to support the enhanced data model on your Power Platform environment.  
 
-Once the enhanced data model is enabled, when you provision a new website using one of the following templates, they'll utilize the enhanced data model;
+Once the enhanced data model is enabled, when you provision a new website using one of the following templates, they utilize the enhanced data model;
 
 - Starter layout 1-5
 - Application processing
 - Blank page
 
-The following templates will use the standard data model even if the enhanced data model is enabled on the environment:
+The following templates use the standard data model even if the enhanced data model is enabled on the environment:
 
 - Program registration
 - Schedule meetings
@@ -111,13 +111,13 @@ Follow these steps to enable the new data model for a specific environment.
 
     :::image type="content" source="media/enhanced-data-model/switch-to-enhanced-data-model.png" alt-text="Switch to enhanced data model.":::
 
-    This will start installation of the **Power Pages Core** package. You'll see a message once completed.
+    This starts installation of the **Power Pages Core** package. You see a message once completed.
 
     :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Updated packages installed.":::
 
 You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. Disabling the enhanced data model won't remove the solution packages or delete any websites. 
 
-Existing websites created using the enhanced data model will continue to operate. Any new website created will use the standard data model.
+Existing websites created using the enhanced data model continues to operate. Any new website created will use the standard data model.
 
 ## Create a website with an enhanced data model 
 
@@ -136,13 +136,13 @@ Create site using a template of your choice using the new data model:
 
 1. Fill in the required information and select **Done**.  
 
-You'll be redirected to the Power pages home page, and the new site will appear in the **My sites** list. You can edit the site using Power Pages design studio when the site is ready.
+You're redirected to the Power pages home page, and the new site appears in the **My sites** list. You can edit the site using Power Pages design studio when the site is ready.
 
 ## See list of new data model sites 
 
 You can see the newly created site from the Power Pages home.
 
-The new data model sites are at functional parity, you can see which data model your site is using by going to the [Power Platform admin center](https://aka.ms/ppac), go to **Resources** > **Power Pages sites**, select your site, select **Manage** and the **Data Model** value in the **Site Details** will indicate what data model the site is using.
+The new data model sites are at functional parity, you can see which data model your site is using by going to the [Power Platform admin center](https://aka.ms/ppac), go to **Resources** > **Power Pages sites**, select your site, select **Manage** and the **Data Model** value in the **Site Details** indicate what data model the site is using.
 
 :::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Site details.":::
 
@@ -152,7 +152,7 @@ You can also identify the data model used by opening the **Portal Management app
 
 :::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::
 
-When using the [Power Platform CLI](../configure/power-platform-cli.md), you'll be able to view which data model is being used by site with the following command:
+When using the [Power Platform CLI](../configure/power-platform-cli.md), you're able to view which data model is being used by site with the following command:
 
 `pac paportal list -v`
 
@@ -163,7 +163,7 @@ All of the available sites in the Power Pages home page **Active sites** section
 
 ## Editing newly created site on new data model  
 
-Site that is created on new data model will have functional parity with classic data model and users can use [Power Pages design studio](../getting-started/use-design-studio.md) or [Power Pages management application](../configure/portal-management-app.md) for customization.  
+Site that is created on new data model has functional parity with classic data model and users can use [Power Pages design studio](../getting-started/use-design-studio.md) or [Power Pages management application](../configure/portal-management-app.md) for customization.  
 
 ## Edit site using the Power Pages design studio
 
@@ -212,11 +212,15 @@ New websites created using the enhanced data model can be edited using the new P
 
 ## Known issues
 
-1. A logged website user will see a list of all supported languages instead of just the website enabled languages on the language selection on the user profile page.
+1. A logged website user sees a list of all supported languages instead of just the website enabled languages on the language selection on the user profile page.
 
 1. The search feature won't return any web page results.
 
 1. Enable traffic analysis isn't available for websites using the enhanced data model.
+
+1. The **Account** table isn't part of the Power Pages management app. This limits adding a parent account record to a contact. As a workaround, [manually add the account table](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-table) to Power Pages management app.
+
+1. Configuring [list actions](../getting-started/add-list.md#choose-list-actions) on websites with the enhanced data model currently doesn't save the configuration. As a workaround, configure the list using the [Power Pages management app](../configure/list-configuration.md).  
 
 ## See also
 
