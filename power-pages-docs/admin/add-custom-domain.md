@@ -96,7 +96,7 @@ To change your existing custom domain name:
 1. Follow the instructions outlined in [**Add a custom domain name**](#add-a-custom-domain-name) to configure you new domain.
 
 > [!NOTE]
-> When you add a custom domain name for a [content Delivery Network](../configure/configure-cdn.md) enabled site, Power Pages uses Azure Front Door-managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days prior to the expiry date. 
+> When you add a custom domain name for a [Content Delivery Network](../configure/configure-cdn.md) enabled site, Power Pages uses Azure Front Door-managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days prior to the expiry date. 
 
 ### See also
 
