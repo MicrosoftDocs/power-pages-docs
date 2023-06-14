@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/12/2023
+ms.date: 06/14/2023
 ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
@@ -25,7 +25,9 @@ Using Power Platform pipelines with Power Pages solutions allows you to automate
 
 ## Prerequisites
 
-To try this feature, you require two Power Platform environments that have the enhanced data model enabled, one designated as the source and the other as the target. See [Power Pages enhanced data model](../admin/enhanced-data-model.md) to enable the enhanced data model for an environment.
+To try this feature, you require at minimum two Power Platform environments that have the enhanced data model enabled, one designated as the source and the other as the target. See [Power Pages enhanced data model](../admin/enhanced-data-model.md) to enable the enhanced data model for an environment.
+
+You can have multiple target environments depending on your setup. For example, a testing, staging, and production environments.
 
 Each environment requires a site that is created using the new data model. See [create a website with an enhanced data model](../admin/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
 
@@ -33,7 +35,7 @@ You also need to set up and configure a pipeline from your development environme
 
 ## Deploy solutions using pipelines
 
-1. In your developer environment, create and configure your website and add the website to a solution, see [Use solutions with Power Pages](power-pages-solutions.md) for details on how to add website configuration data to a solution.
+1. In your development environment, create and configure your website and add the website to a solution, see [Use solutions with Power Pages](power-pages-solutions.md) for details on how to add website configuration data to a solution.
 
 1. In the solution, select the **Pipelines** icon on the side toolbar.
 
@@ -47,7 +49,7 @@ You also need to set up and configure a pipeline from your development environme
 
 1. Verify the summary, modify the version number and deployment notes and select **Deploy**. 
 
-    :::image type="content" source="media/pipelines/pipeline.gif" alt-text="Power Platform pipelines process.":::
+    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
 
 ## Activate on the target environment
 
