@@ -58,7 +58,7 @@ A chatbot with AI can provide quick and efficient customer support to end users.
 
 ## Publishing Chatbot
 
-Publishing the chatbot on site is governed at **Power Platform Admin Center**. If you'd like to publish a bot, you need to ask your admin to enable it for your tenant in the **Power Platform admin center**. More information: [Publish chatbot with boosted conversations](/power-virtual-agents/nlu-boost-conversations#publishing)
+Publishing the chatbot on site is governed at **Power Platform Admin Center**. If you'd like to publish a bot, you need to ask your admin to enable it for your tenant in the **Power Platform admin center**. More information: [Publish chatbot with boosted conversations](/power-virtual-agents/nlu-boost-conversations#disable-bot-publishing).
 
 ## Advanced customization
 
