@@ -28,8 +28,8 @@ Power Automate cloud flow allows users to create automated workflows between dif
 Now, you can securely invoke Power Automate cloud flows from Power Pages to interact with 900+ external data sources and integrate it into your business site.
 
 > [!NOTE]
-> Your Power Pages site version must be 9.5.4.xx or later for this feature to work.
-> Your starter site package version must be 9.3.2304.x or higher.
+> - Your Power Pages site version must be 9.5.4.xx or later for this feature to work.
+> - Your starter site package version must be 9.3.2304.x or higher.
 
 ## Prerequisites
 
