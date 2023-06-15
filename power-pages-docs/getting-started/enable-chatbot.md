@@ -32,7 +32,7 @@ A chatbot with AI can provide quick and efficient customer support to end users.
 - Chatbot feature is available only for the site created in US region.
 - You can enable this feature for the site created in English base language.
 - To enable the chatbot, the site should be public. More information: [Site visibility in Power Pages](../security/site-visibility.md)
-- Tenant Administrator can turn off the chatbot feature on Power Pages site by preventing [publishing of the bot](/power-virtual-agents/nlu-boost-conversations#publishing)
+- Tenant Administrator can turn off the chatbot feature on Power Pages site by [disabling bot publishing](/power-virtual-agents/nlu-boost-conversations#disable-bot-publishing)
 - Adding or changing the custom domain for a Power Pages site after the chatbot has been created isn't supported. Instead, disable the chatbot and enable it after making the custom domain changes.
 
 ## Enable chatbot
@@ -58,7 +58,7 @@ A chatbot with AI can provide quick and efficient customer support to end users.
 
 ## Publishing Chatbot
 
-Publishing the chatbot on site is governed at **Power Platform Admin Center**. If you'd like to publish a bot, you need to ask your admin to enable it for your tenant in the **Power Platform admin center**. More information: [Publish chatbot with boosted conversations](/power-virtual-agents/nlu-boost-conversations#publishing)
+Publishing the chatbot on site is governed at **Power Platform Admin Center**. If you'd like to publish a bot, you need to ask your admin to enable it for your tenant in the **Power Platform admin center**. More information: [Publish chatbot with boosted conversations](/power-virtual-agents/nlu-boost-conversations#disable-bot-publishing).
 
 ## Advanced customization
 
