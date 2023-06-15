@@ -5,13 +5,14 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/02/2023
+ms.date: 06/15/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+    - nageshbhat-msft
 ---
 
 # Configure an OpenID Connect provider for Power Pages with Azure AD
