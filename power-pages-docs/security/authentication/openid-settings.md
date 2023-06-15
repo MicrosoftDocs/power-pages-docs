@@ -129,7 +129,7 @@ To configure Azure AD as the OpenID Connect provider by using the Implicit Grant
     <br /> Example: `firstname=given_name,lastname=family_name`
 
 For example, the first name, last name, and email addresses supplied with the additional claims become the default values in the profile page in the website.
-> .[!NOTE].
+> [!NOTE]
 > Claims mapping is supported for **Text** and **Boolean** data type fields
 <a name="enable-authentication-using-a-multi-tenant-azure-active-directory-application"></a>
 
