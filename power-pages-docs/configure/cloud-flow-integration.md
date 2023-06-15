@@ -29,7 +29,7 @@ Now, you can securely invoke Power Automate cloud flows from Power Pages to inte
 
 > [!NOTE]
 > Your Power Pages site version must be 9.5.4.xx or later for this feature to work.
-> Your starter site package version must be 9.3.2304.x or higher
+> Your starter site package version must be 9.3.2304.x or higher.
 
 ## Prerequisites
 
