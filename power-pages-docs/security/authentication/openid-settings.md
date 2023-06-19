@@ -5,13 +5,14 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/02/2023
+ms.date: 06/15/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+    - nageshbhat-msft
 ---
 
 # Configure an OpenID Connect provider for Power Pages with Azure AD
@@ -129,7 +130,8 @@ To configure Azure AD as the OpenID Connect provider by using the Implicit Grant
 
 For example, the first name, last name, and email addresses supplied with the additional claims become the default values in the profile page in the website.
 
-<a name="enable-authentication-using-a-multi-tenant-azure-active-directory-application"></a>
+> [!NOTE]
+> Claims mapping is supported for **Text** and **Boolean** data type fields.
 
 ## Enable authentication by using a multitenant Azure AD application
 
