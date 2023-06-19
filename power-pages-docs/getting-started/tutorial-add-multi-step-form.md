@@ -22,7 +22,7 @@ Multistep forms are a powerful way to collect inputs from users over multiple st
 - Provides conditions that dynamically change the flow of the steps based on user inputs.  
 - Session tracking allows a user to pick up where they left off when following a data update process.
 
-:::image type="content" source="media/tutorial-multistep-forms/multistep-form.gif" alt-text="Animation that shows the working multistep form in action.":::
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW16zai]
 
 In this tutorial, you learn how to:
 
