@@ -21,6 +21,8 @@ Next-generation AI enhancements using Copilot in Power Pages is revolutionizing 
 
 Copilot also offers an enhanced user experience on your websites. It shifts away from traditional click-based navigation, allowing users to uncover information and insights through an interactive conversational interface, promoting a higher level of user engagement. It's designed to expedite the web creation process, supporting makers in crafting robust and secure websites more efficiently. It's tailored to empower you to better respond to your customers' needs and requirements.
 
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW15U45]
+
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
