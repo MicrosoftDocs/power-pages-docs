@@ -30,7 +30,9 @@ You can create a new webpage for your site by describing the type of webpage. Co
 
 To use Copilot to generate a webpage:
 
-1. Go to Pages Workspace
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+
+1. Go to the **Pages** workspace.
 
 1. Select the **Copilot** button in the command bar.
 
