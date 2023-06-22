@@ -12,7 +12,7 @@ contributors:
     - ProfessorKendrick
     - clromano
 ---
-# Create AI-generated webpage using Copilot (preview)
+# Create an AI-generated webpage using Copilot (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
