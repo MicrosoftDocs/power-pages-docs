@@ -19,9 +19,8 @@ contributors:
 You can create a new webpage for your site by describing the type of webpage. Copilot generates the HTML for the page with relevant text copy and images from the description. The page is added to the main navigation of the site, and can be refined and edited using Copilot and the WYSIWYG editor.
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/preview-tags.md)]
-> - To understand the capabilities and limitations of AI-powered and Copilot features in Power Pages,see [Transparency notes for Power Pages](../transparency-note.md).
+> - *This is a preview feature*
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
