@@ -55,12 +55,14 @@ If you don't want to keep the page that Copilot generated, you can:
     
     >[!NOTE] 
     > - Copilot generated pages will reference images that are saved as web files.
-    > - Web files are can only be deleted through the Portals management app. More information: [Create and manage web files](../configure/web-files.md)
+    > - Web files can only be deleted through the Portals management app. More information: [Create and manage web files](../configure/web-files.md)
 
 ## Edit a page with Copilot
 
 Additionally, you can edit a page with Copilot by typing the following commands in the Copilot input field box:
 
-- Add a section … Copilot creates a new section with text copy and images, and appends the section to the end of the page.
+|Command  |Description  |
+|---------|---------|
+|Add a section    | Copilot creates a new section with text copy and images, and appends the section to the end of the page.         |
+|Add form     | To learn how to add a form using Copilot, see [Create AI-generated form using Copilot (preview)](add-form-copilot.md)         |
 
-- Add a form … To learn how to add a form using Copilot, see [Create AI-generated form using Copilot (preview)](add-form-copilot.md)
