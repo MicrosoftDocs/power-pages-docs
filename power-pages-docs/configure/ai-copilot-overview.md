@@ -19,9 +19,9 @@ contributors:
 
 Next-generation AI enhancements using Copilot in Power Pages is revolutionizing how to build and launch data-centric business websites. As a maker, your tasks are simplified using Copilot. These enhancements enable you to construct forms, incorporate text, and embed chatbots into your Power Pages sites, all  through a user-friendly, dialogue-like interface, bypassing the need for complex coding proficiency.
 
-Copilot also offers an enhanced user experience on your websites. It shifts away from traditional click-based navigation, allowing users to uncover information and insights through an interactive conversational interface, promoting a higher level of user engagement. It's designed to expedite the web creation process, supporting makers in crafting robust and secure websites more efficiently. Watch this video to learn how Copilot can empower you to better respond to your customers' needs and requirements.
+Copilot also offers an enhanced user experience on your websites. It shifts away from traditional click-based navigation, allowing users to uncover information and insights through an interactive conversational interface, promoting a higher level of user engagement. It's designed to expedite the web creation process, supporting makers in crafting robust and secure websites more efficiently.
 
-Watch this video to learn about how AI and Copilot capabilities in Power Pages revolutionize how you build websites.
+Watch this video to learn how Copilot can empower you to better respond to your customers' needs and requirements.
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW15U45]
 
 > [!IMPORTANT]
