@@ -4,7 +4,7 @@ description: Learn how design Power Pages sites using AI-powered and Copilot fea
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/23/2022
+ms.date: 06/21/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: kkendrick
@@ -21,6 +21,7 @@ Next-generation AI enhancements using Copilot in Power Pages is revolutionizing 
 
 Copilot also offers an enhanced user experience on your websites. It shifts away from traditional click-based navigation, allowing users to uncover information and insights through an interactive conversational interface, promoting a higher level of user engagement. It's designed to expedite the web creation process, supporting makers in crafting robust and secure websites more efficiently. Watch this video to learn how Copilot can empower you to better respond to your customers' needs and requirements.
 
+Watch this video to learn about how AI and Copilot capabilities in Power Pages revolutionize how you build websites.
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW15U45]
 
 > [!IMPORTANT]
