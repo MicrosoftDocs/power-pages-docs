@@ -33,7 +33,8 @@ To add the ability to view notes and attachments on basic and multistep forms, y
 - Configure [table permissions](../security/table-permissions.md) for the notes (annotations) table.
 
 > [!NOTE]
-> - In order for a note to appear on the web page, the description of each note must be prefixed with **\*WEB\*** (*'WEB' keyword with an asterisk sign (\*) before and after*). You can specify a custom prefix by changing the **KnowledgeManagement/NotesFilter** [site setting](configure-site-settings.md) to a value of your choice. Notes added through a form on a webpage will have the prefix automatically added.
+> - In order for a note to appear on the web page, the description of each note must be prefixed with **\*WEB\*** (*'WEB' keyword with an asterisk sign (\*) before and after*). Notes added through a form on a webpage will have the prefix automatically added.
+> - You can specify a custom prefix by changing the **KnowledgeManagement/NotesFilter** [site setting](configure-site-settings.md) to a value of your choice. 
 > - The ability to show both notes and [activities](/power-apps/maker/portals/configure/view-all-activities-in-portal-timeline) on the same form for a custom table is currently not supported with configuration.
 
 ## Notes configuration for basic forms
