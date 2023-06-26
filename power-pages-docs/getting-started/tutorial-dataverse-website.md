@@ -19,7 +19,9 @@ The ability to dynamically interact with [Microsoft Dataverse](/power-apps/maker
 
 In this tutorial, you'll build a web application in Power Pages that will allow users the ability to create, read, and update Dataverse records. You can use the site as a foundation to build your own Dataverse powered websites.
 
-:::image type="content" source="media/tutorial-dataverse/add-edit-dataverse-record.gif" alt-text="Site that allows creating and updating records.":::
+Watch this video (no audio) to see records created and updated on a page:
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW16enI]
 
 In this tutorial, you learn how to:
 
