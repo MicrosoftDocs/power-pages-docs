@@ -97,13 +97,11 @@ Enabling the Power BI Embedded service allows you to embed dashboards and report
 
     1. Select the site where you want to enable Power BI Embedded. Select **Manage** from the main menu.
 
-1. On the site information page, in the **Services** section, select **Power BI Embedded** link.
+1. On the site information page, in the **Services** section, enable the **Enable Power BI Embedded** toggle.
 
-    :::image type="content" source="media/enable-power-bi/enable-power-bi-embedded.png" alt-text="Enable Power BI Embedded.":::
+    :::image type="content" source="Media/enable-power-bi/services-tile.png" alt-text="The services section of the Power Pages sites management options in Power Platform admin center.":::
 
-1. Enable the **Enable Power BI Embedded** toggle.
-
-1. In the **Enable Power BI Embedded service integration** window, select the available workspaces from which you want dashboards and reports to be displayed in your portal. Move these workspaces to the **Selected Workspaces** list.
+1. Select the **Edit workspaces** link and choose the workspaces you want to display dashboards and reports from in your portal. Move these workspaces to the **Selected Workspaces** list.
 
     :::image type="content" source="media/enable-power-bi/enable-powerbi-embedded-window.png" alt-text="Select Power BI workspaces.":::
     
@@ -192,11 +190,7 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 
     1. Select the site where you want to manage Power BI Embedded. Select **Manage** from the main menu.
 
-1. On the site information page, in the **Services** section, select **Power BI Embedded** link.
-
-    :::image type="content" source="media/enable-power-bi/enable-power-bi-embedded.png" alt-text="Enable Power BI Embedded.":::
-
-1. Enable the **Manage Power BI Embedded** toggle.
+1. On the site information page, in the **Services** section, enable the **Manage Power BI Embedded** toggle.
 
 1. In the **Manage Power BI Embedded service integration** window, select the available workspaces from which you want dashboards and reports to be displayed on your website. Move these workspaces to the **Selected Workspaces** list. You can also remove currently used workspaces by moving them back to **Available Workspaces**.
   
@@ -223,11 +217,7 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 
     1. Select the site where you want to manage Power BI Embedded. Select **Manage** from the main menu.
 
-1. On the site information page, in the **Services** section, select **Power BI Embedded** link.
-
-    :::image type="content" source="media/enable-power-bi/enable-power-bi-embedded.png" alt-text="Enable Power BI Embedded.":::
-
-1. Enable the **Manage Power BI Embedded** toggle.
+1. On the site information page, in the **Services** section, enable the **Manage Power BI Embedded** toggle.
 
 1. In the **Manage Power BI Embedded service integration** window, select **Disable Power BI Embedded service integration**.
 
