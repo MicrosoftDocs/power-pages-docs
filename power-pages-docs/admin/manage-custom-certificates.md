@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/20/2023
+ms.date: 3/20/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -55,7 +55,7 @@ When extending Power Pages functionality using a client-side API call with [OAut
      > - Contains private key at least 2048 bits long
      > - Contains all intermediate certificates in the certificate chain
      > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers
-     > - PFX file must be encrypted with TripleDES encryption; Power Apps portals doesn't support AES-256 encryption
+     > - PFX file must be encrypted with TripleDES encryption; Power Pages doesn't support AES-256 encryption
      > - Contains an [Extended Key Usage](https://en.wikipedia.org/w/index.php?title=X.509&section=4#Extensions_informing_a_specific_usage_of_a_certificate) for server authentication (OID = 1.3.6.1.5.5.7.3.1).
      > 
      > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest using an OpenSSL third-party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites. 
