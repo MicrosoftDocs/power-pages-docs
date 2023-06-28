@@ -4,7 +4,7 @@ description: Learn about advanced configuration options of Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
+ms.date: 5/24/2022
 ms.subservice:
 ms.author: ndoelman
 ms.reviewer: ndoelman
@@ -26,7 +26,7 @@ More information: [Search](/powerapps/maker/portals/configure/search)
 
 ## Power BI
 
-To view dashboards and reports from [Power BI on pages](../getting-started/add-power-bi.md) in a site, you must first enable Power BI visualization from the Power Apps portals admin center.
+To view dashboards and reports from [Power BI on pages](../getting-started/add-power-bi.md) in a site, you must first enable Power BI visualization from the Power Platform admin center.
 
 More information: [Set up Power BI Integration](/powerapps/maker/portals/admin/set-up-power-bi-integration)
 
