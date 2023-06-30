@@ -20,17 +20,17 @@ Basic forms can be configured in the Power Pages design studio. See [Add a form]
 
 ## Basic form metadata configuration
 
-A data-driven configuration to allow end users to add a form to collect data in the website without the need for a developer to surface the form on the site, Dataverse forms are created in [Data workspace](data-workspace-forms.md) and then used to create basic form components that can be placed into webpages on the website or used in conjunction with subgrids and lists to build out complete web applications. More information: [About lists](lists.md). 
+A data-driven configuration to allow end users to add a form to collect data in the website without the need for a developer to surface the form on the site, Dataverse forms are created in [Data workspace](data-workspace-forms.md) and then used to create basic form components that can be placed into webpages on the website or used with subgrids and lists to build out complete web applications. More information: [About lists](lists.md). 
 
 :::image type="content" source="media/forms/contact-us-form.png" alt-text="Contact us form.":::
   
 ## Add a form to your website
 
-The basic form contains relationships to webpages and additional properties to control the initialization of the form within the portal. The relationship to webpages allows dynamic retrieval of the form definition for a given page node within the website. 
+The basic form contains relationships to webpages and other properties to control the initialization of the form within the portal. The relationship to webpages allows dynamic retrieval of the form definition for a given page node within the website. 
 
 To view existing basic forms or to create new basic forms, open the [Portal Management app](./portal-management-app.md) and go to **Content** &gt; **Basic Forms**.
 
-When creating a new basic form, the first step is to decide the **Table** and Dataverse **Form Name** that you will be rendering, in addition to the **mode: Insert, Edit, or Read Only**. The mode selected will determine if you are creating a new record from the portal, editing an existing record, or just displaying information about a record on the portal.
+When creating a new basic form, the first step is to decide the **Table** and Dataverse **Form Name** that you are rendering, in addition to the **mode: Insert, Edit, or Read Only**. The mode selected will determine if you're creating a new record from the portal, editing an existing record, or just displaying information about a record on the portal.
 
 > [!NOTE]
 > Before you continue, ensure you review [considerations](#considerations) for basic forms.
@@ -48,11 +48,11 @@ Add basic form can also be added to a website by adding the Liquid tag `{% entit
 >[!NOTE]
 > This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-websites)
 
-To secure your forms, you must create table permissions that determine access and ownership of the records according to web roles. If a user lands on a basic form and does not have permissions, they will receive an error message. In addition, you'll also see a warning when a form is configured with table permissions not enabled:
+To secure your forms, you must create table permissions that determine access and ownership of the records according to web roles. If a user lands on a basic form and doesn't have permissions, they receive an error message. In addition, you'll also see a warning when a form is configured with table permissions not enabled:
 
 "Table permissions should be enabled for this record or anyone on the internet can view the data."
 
-To enable permissions for a basic form, select the checkbox to **Enable Table Permissions**. For more information see [Create web roles](../security/create-web-roles.md).  
+To enable permissions for a basic form, select the checkbox to **Enable Table Permissions**. For more information, see [Create web roles](../security/create-web-roles.md).  
 
 ## Basic form attributes and relationships
 
@@ -63,10 +63,10 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |Form Name|    The name of the Form on the target table that is to be rendered. This field is required.|
 |Tab Name|    Optional name of a Tab on a Form for a specified table that is to be rendered.|
 |Mode|One of the following values:<ul><li>Insert</li><li>Edit</li><li>ReadOnly</li></ul>Selecting _Insert_ indicates the form should insert a new record upon submission. Specifying _Edit_ indicates the form should edit an existing record. Selecting _ReadOnly_ indicates the form should display an existing record's non editable form. _Edit_ and _ReadOnly_ requires that a source record exist and parameters specified in the 'Record Source Type' and 'Record ID Parameter Name' fields to select the appropriate record when the form is loaded in the portal.|
-|Record Source Type|One of the following values:<ul><li>Query String</li><li>Current Portal User</li><li>Record Associated to Current Portal User</li></ul>Selecting _Query String_ requires a parameter name that must be provided in the query string of the URL to the form. This can be specified in the 'Record ID Parameter Name' field.<br>Selecting _Current Portal User_ will retrieve the portal user record for the current authenticated user.<br>Selecting _Record Associated to Current Portal User_ will retrieve the portal user record for the current authenticated user and then retrieve the record for the given relationship as specified by the 'Relationship Name' field.|
+|Record Source Type|One of the following values:<ul><li>Query String</li><li>Current Portal User</li><li>Record Associated to Current Portal User</li></ul>Selecting _Query String_ requires a parameter name that must be provided in the query string of the URL to the form. This can be specified in the 'Record ID Parameter Name' field.<br>Selecting _Current Portal User_ retrieves the portal user record for the current authenticated user.<br>Selecting _Record Associated to Current Portal User_ retrieves the portal user record for the current authenticated user and then retrieve the record for the given relationship as specified by the 'Relationship Name' field.|
 |Record ID Parameter Name|    A parameter name provided in the query string of the URL to the Web Page containing this Basic Form.|
 |Relationship Name|    Required when Record Source Type is Record Associated to Current Portal User. The logical name of the relationship between the current portal user record and the target record. This must return the same table type specified by the Table Name field.|
-|Allow Create If Null|    An optional boolean value available when Record Source Type is Record Associated to Current Portal User. Indicates that if the related record does not exist, allow the user to create it the first time, otherwise an exception will be thrown if the record does not already exist as the form needs a record to data bind to. <br> **NOTE**: This feature is not available in multistep forms.|
+|Allow Create If Null|    An optional boolean value available when Record Source Type is Record Associated to Current Portal User. Indicates that if the related record doesn't exist, allow the user to create it the first time, otherwise an exception is thrown if the record doesn't already exist as the form needs a record to data bind to. <br> **NOTE**: This feature isn't available in multistep forms.|
 |Enable Table Permissions| Will cause the form to respect table permissions. The default is false for backwards compatibility reasons. If set to true, explicit permissions are REQUIRED for any user wanting to access the form. <br> **NOTE**: This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-websites) |
 |||
 
