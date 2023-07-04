@@ -66,6 +66,9 @@ You can assign site users to web roles from either the contact record or the web
 
 ### From the web role
 
+> [!NOTE]
+> If your site is configured the use the [enhanced data model](../admin/enhanced-data-model.md) then go to [From the contact with site using enhanced data model](#from-the-contact-with-site-using-enhanced-data-model) to assign web roles from the contact record.
+
 1. In the **Security** section, select **Web Roles**.
 
 1. Locate and open the web role record that you want to assign site users to.
@@ -84,6 +87,9 @@ The users now have access to the resources specified by the web role.
 
 ### From the contact
 
+> [!NOTE]
+> If your site is configured the use the [enhanced data model](../admin/enhanced-data-model.md) then go to [From the contact with site using enhanced data model](#from-the-contact-with-site-using-enhanced-data-model).
+
 1. In the **Security** section, select **Contacts**.
 
 1. Locate and open the contact record that you want to assign the web role to.
@@ -97,6 +103,18 @@ The users now have access to the resources specified by the web role.
 1. From the side panel, search and select the web roles you want to assign to the contact (site user).
 
 The site users now have access to the resources specified by the web role.
+
+### From the contact with site using enhanced data model
+
+1. In the **Security** section, select **Contacts**.
+
+1. Locate and open the contact record that you want to assign the web role to.
+
+1. Select the **Portal Contact (Enhanced Form)**
+
+1. In the **General** tab, scroll down to the **Web Roles** section and select **Add Existing Web Role**.
+
+1. From the side panel, search and select the web roles you want to assign to the contact (site user).
 
 ### See also
 
