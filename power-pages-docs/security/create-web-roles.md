@@ -116,6 +116,8 @@ The site users now have access to the resources specified by the web role.
 
 1. From the side panel, search and select the web roles you want to assign to the contact (site user).
 
+The site users now have access to the resources specified by the web role.
+
 ### See also
 
 - [Configure table permissions](table-permissions.md)
