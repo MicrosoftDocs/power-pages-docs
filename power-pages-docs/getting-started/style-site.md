@@ -1,14 +1,15 @@
 ---
 title: Style your Power Pages site
 description: Learn how to style your Power Pages site.
-author: rob-moyer
+author: ankitavish
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/05/2022
+ms.date: 07/04/2023
 ms.subservice:
-ms.author: robmoyer 
+ms.author: avishwakarma 
 ms.reviewer: kkendrick
 contributors:
+    - ankitavish
     - rob-moyer
     - nickdoelman
     - ProfessorKendrick
@@ -69,8 +70,28 @@ After a new color is added to the color palette, it can be used to color compone
 > [!NOTE]
 > For sites created using Power Pages prior to September 23, 2022 there is a known issue related to themes. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
 
-### See also
+## Undo/redo (preview)
 
-[Use design studio](use-design-studio.md)<br />
-[Create and design pages](first-page.md)  
-[Customize pages](customize-pages.md)
+You can select the **Undo** and **Redo** icons in the **Styling** workspace to revert theme updates. This covers all the scenarios around making changes to a current selected theme.
+
+1. You can apply the undo/redo options on any style settings for the selected theme including the **reset to default** theme from the more menu (**...**) options. 
+
+1. When switching to a new theme, you will be prompted with a dialog to save or discard for any unsaved changes. The undo/redo stack is cleared upon choosing either of the actions. 
+
+### What is the expected experience of undo/redo? 
+
+The **Undo** and **Redo** options only support changes that you make in the **Styling** workspace. Your action history is immediately cleared when navigating to a different workspace or switching to a different theme. 
+
+Some general design studio actions are not supported by design, for example;
+
+- Syncing, saving, previewing, zooming, re-sizing the canvas, navigating between workspaces and webpages, and uploading media and CSS files. 
+
+- Switching to a different theme, saving a newly selected theme without any style changes. 
+
+- **Custom CSS** panel actions such as **upload**, **enable/disable**, move file **up/down** in the priority order. 
+
+## See also
+
+- [Use design studio](use-design-studio.md)
+- [Create and design pages](first-page.md)  
+- [Customize pages](customize-pages.md)

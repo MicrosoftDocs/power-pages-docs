@@ -19,7 +19,7 @@ contributors:
 
 Power Pages provides some helpful tools for administrators to manage their sites and environments.
 
-Administrators can use the [Power Apps portals admin center](admin-overview.md) to:
+Administrators can use the [Power Platform admin center](admin-overview.md) to:
 
 - Configure vanity domains
 - Manage lifecycle operations
