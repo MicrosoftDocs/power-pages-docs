@@ -50,6 +50,8 @@ In this step, you'll create a new list in the Portal Management app and then add
 
 ### Step 3.1 - Add the code component to lists
 
+The following steps outline how to add the control to a list component.
+
 1. Open the [Portals Management app](portal-management-app.md).
 
 1. On the left pane, under **Content**, select **list.** 
@@ -70,7 +72,11 @@ In this step, you'll create a new list in the Portal Management app and then add
 
     :::image type="content" source="media/tutorial-pcf-code/configured-code-component.png" alt-text="Use code component.":::
 
-### Step 3.3 - Add the code component to sub grid 
+You can now add the list component to a page. See [Add a list](../getting-started/add-list.md) for details on adding a list to a webpage.
+
+### Step 3.2 - Add the code component to sub grid 
+
+The control can also be enabled on a sub-grid.
 
 1. Open the [Portals Management app](portal-management-app.md).
 
@@ -94,9 +100,13 @@ In this step, you'll create a new list in the Portal Management app and then add
 
     :::image type="content" source="media/tutorial-pcf-code/control-style.png" alt-text="Select Control style.":::
 
+The form will need to be added to a webpage. See [Add form](../getting-started/add-form.md) for details on adding a form component to a webpage.
+
 ## Add dataset-based code component using liquid tag
 
 Data set based code components can be added using the `codecomponent` Liquid template tag. The key for denoting the code component that needs to be loaded is passed in using the name attribute. The key can be the GUID (which is the code component ID) or the name of the code component imported into Microsoft Dataverse. 
+
+See [Liquid overview](../configure/liquid/liquid-overview.md) for details on using Liquid with Power Pages.
 
 The values of the properties that the code component expects need to be passed in as a key/value pair separated by "**:**" (colon sign), where the key is the property name and the value is the JSON string value. 
 
