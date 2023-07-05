@@ -46,7 +46,7 @@ To add your component to the **Account** table, views and subgrids, follow the
 
 ## Step 3 - Add code component to a list and subgrid in portal
 
-In this step, you'll create a new basic form in portals and then add the component to the created basic form. You can also use an existing basic form instead. 
+In this step, you'll create a new list in the Portal Management app and then add the component to the created list. You can also use an existing list instead. 
 
 ### Step 3.1 - Add the code component to lists
 
@@ -55,22 +55,6 @@ In this step, you'll create a new basic form in portals and then add the compone
 1. On the left pane, under **Content**, select **list.** 
 
 1. Select **New**. 
-
-1. Enter **Name**. For example, *Account list with code component*. 
-
-1. For **Table Name**, select the table that you added the code component to earlier in this tutorial. 
-
-1. Select your portal **website**. 
-
-1. Select **Use a configured code component** as **Yes** 
-
-    :::image type="content" source="media/tutorial-pcf-code/configured-code-component.png" alt-text="Use a configured code component.":::
-
-### Step 3.2 - Add the code component to views on list
-
-Follow these steps to enable control on entity view in Dataverse. 
-
-1. Open the [Portals Management app](portal-management-app.md).
 
 1. Enter **Name**. For example, *Account list with code component*. 
 
@@ -116,6 +100,12 @@ The values of the properties that the code component expects need to be passed i
 
 ```json
 {% codecomponent name: <ID or name> <property1:value> <property2:value> %}
+```
+
+For example, to add a code component expecting an input parameter named *controlValue*, use the following Liquid template tag:
+
+```json
+{% codecomponent name:abc_SampleNamespace.MapControl controlValue:'Space Needle' controlApiKey:<API Key Value>%}
 ```
 
 For more information, see [Liquid template tag for code components](liquid/component-framework-liquid.md).
