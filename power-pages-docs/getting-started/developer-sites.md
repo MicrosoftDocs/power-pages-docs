@@ -26,6 +26,6 @@ Power Pages developer websites aren't optimized for production sites and have th
 
 - Developer sites are private by default and can't be made public. More information: [Site visibility in Power Pages](security/site-visibility.md)
 - Developer websites can't be converted to production websites. More information: [Power Pages lifecycle](admin/lifecycle.md)
-- Each user is allowed to create 3 developer websites. Once you've created your developer site, you can migrate it to a test or production site. More information: [Overview of Power Pages ALM](configure/portals-alm.md)
+- Each user is allowed to create three developer websites. Once you've created your developer site, you can migrate it to a test or production site. More information: [Overview of Power Pages ALM](configure/portals-alm.md)
 
     
