@@ -68,6 +68,8 @@ In this step, you'll create a new list in the Portal Management app and then add
 
 1. Select **Use a configured code component** as **Yes** 
 
+    :::image type="content" source="media/tutorial-pcf-code/configured-code-component.png" alt-text="Use code component.":::
+
 ### Step 3.3 - Add the code component to sub grid 
 
 1. Open the [Portals Management app](portal-management-app.md).
