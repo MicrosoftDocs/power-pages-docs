@@ -46,9 +46,11 @@ To add your component to the **Account** table, views and subgrids, follow the
 
 ## Step 3 - Add code component to a list and subgrid in portal
 
-In this step, you'll create a new basic form in portals and then add the component to the created basic form. You can also use an existing basic form instead. 
+In this step, you'll create a new list in the Portal Management app and then add the component to the created list. You can also use an existing list instead. 
 
 ### Step 3.1 - Add the code component to lists
+
+The following steps outline how to add the control to a list component.
 
 1. Open the [Portals Management app](portal-management-app.md).
 
@@ -62,29 +64,19 @@ In this step, you'll create a new basic form in portals and then add the compone
 
 1. Select your portal **website**. 
 
-1. Select **Use a configured code component** as **Yes** 
-
-    :::image type="content" source="media/tutorial-pcf-code/configured-code-component.png" alt-text="Use a configured code component.":::
-
-### Step 3.2 - Add the code component to views on list
-
-Follow these steps to enable control on entity view in Dataverse. 
-
-1. Open the [Portals Management app](portal-management-app.md).
-
-1. Enter **Name**. For example, *Account list with code component*. 
-
-1. For **Table Name**, select the table that you added the code component to earlier in this tutorial. 
-
-1. Select your portal **website**. 
-
 1. Add views under advance setting grid. 
 
     :::image type="content" source="media/tutorial-pcf-code/add-views.png" alt-text="Add views in advanced settings grid.":::
 
 1. Select **Use a configured code component** as **Yes** 
 
-### Step 3.3 - Add the code component to sub grid 
+    :::image type="content" source="media/tutorial-pcf-code/configured-code-component.png" alt-text="Use code component.":::
+
+You can now add the list component to a page. See [Add a list](../getting-started/add-list.md) for details on adding a list to a webpage.
+
+### Step 3.2 - Add the code component to sub grid 
+
+The control can also be enabled on a sub-grid.
 
 1. Open the [Portals Management app](portal-management-app.md).
 
@@ -108,14 +100,24 @@ Follow these steps to enable control on entity view in Dataverse. 
 
     :::image type="content" source="media/tutorial-pcf-code/control-style.png" alt-text="Select Control style.":::
 
+The form will need to be added to a webpage. See [Add form](../getting-started/add-form.md) for details on adding a form component to a webpage.
+
 ## Add dataset-based code component using liquid tag
 
 Data set based code components can be added using the `codecomponent` Liquid template tag. The key for denoting the code component that needs to be loaded is passed in using the name attribute. The key can be the GUID (which is the code component ID) or the name of the code component imported into Microsoft Dataverse. 
+
+See [Liquid overview](../configure/liquid/liquid-overview.md) for details on using Liquid with Power Pages.
 
 The values of the properties that the code component expects need to be passed in as a key/value pair separated by "**:**" (colon sign), where the key is the property name and the value is the JSON string value. 
 
 ```json
 {% codecomponent name: <ID or name> <property1:value> <property2:value> %}
+```
+
+For example, to add a code component expecting an input parameter named *controlValue*, use the following Liquid template tag:
+
+```json
+{% codecomponent name:abc_SampleNamespace.MapControl controlValue:'Space Needle' controlApiKey:<API Key Value>%}
 ```
 
 For more information, see [Liquid template tag for code components](liquid/component-framework-liquid.md).
