@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/11/2023
+ms.date: 07/06/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -17,6 +17,10 @@ contributors:
 # Enable header and footer output caching on a portal
 
 To improve processing performance for **Header** and **Footer** web templates in Power Pages, enable header and footer output caching. Header and Footer web templates are parsed and rendered every time a page is loaded. Caching header and footer output significantly reduces page processing time.
+
+Header and Footer templates are determined by the **Header Template** and **Footer Template** fields in the **Options** section of the [website](websites.md) record. If no header or footer templates are specified, then the default header and footer are displayed. 
+
+You can create custom header and footer web templates that utilize the `{% substitution %}` tag outlined in this article.
 
 For a new user, output caching is enabled by default. The following site settings are available and set to true by default to support this functionality:
 - Header/OutputCache/Enabled: Set the value to true to enable output caching for header.
