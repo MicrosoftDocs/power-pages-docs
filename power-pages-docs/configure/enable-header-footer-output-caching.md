@@ -14,7 +14,7 @@ contributors:
     - sandhangitmsft
 ---
 
-# Enable header and footer output caching on a portal
+# Enable header and footer output caching
 
 To improve processing performance for **Header** and **Footer** web templates in Power Pages, enable header and footer output caching. Header and Footer web templates are parsed and rendered every time a page is loaded. Caching header and footer output significantly reduces page processing time.
 
