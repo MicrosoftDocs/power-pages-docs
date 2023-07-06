@@ -63,6 +63,7 @@ To learn about the roles required to perform this task, read [Admin roles requir
 1. Select **Next**
 
 1. This step is applicable for [Content Delivery Network](../configure/configure-cdn.md) enabled site. On the **Validate the domain** section, copy the **Record type**, **Record name**, and the **Record value** and create a **TXT** record with your domain provider.
+
    If you have just added the TXT entry with your domain provider, it will take some time to propagate to all DNS servers. Select **Refresh** to validate the custom domain. When information has been validated, the **Next** button will be activated. The TXT record must be created within 7 days after enabling the Content Delivery Network; otherwise, you will need to disable and re-enable the Content Delivery Network
 
 1. Select **Next**
