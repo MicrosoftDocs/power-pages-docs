@@ -12,7 +12,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-## Create AI-generated theme using Copilot (preview)
+# Create AI-generated theme using Copilot (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
