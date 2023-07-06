@@ -1,50 +1,40 @@
 ---
-title: Configure Power Pages site authentication
-description: Learn how to configure your Power Pages site authentication using different identity providers.
-author: sandhangitmsft
-
-ms.topic: conceptual
-ms.collection: get-started
+title: Set up site authentication
+description: Learn how to set up your Power Pages site authentication and add, set up, and remove identity providers.
 ms.date: 06/22/2023
-ms.subservice:
+ms.topic: how-to
+ms.collection: get-started
+author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+ms.custom: bap-template
 ---
 
+# Set up site authentication
 
-# Configure Power Pages site authentication
-
-Setting up authentication is a core customization in any Power Pages site. Simplified identity provider configuration in Power Pages provides in-app guidance for identity provider setup and abstracts setup complexities. Makers and administrators can easily configure the website for supported identity providers.
-
-## Overview
-
-You can enable, disable, and configure identity providers from [Power Pages](https://make.powerpages.microsoft.com/) by using simplified authentication configuration. After you select an identity provider, you can then follow prompts to easily enter the provider settings.
+How&mdash;and even whether&mdash;users authenticate is a core customization in any Power Pages site. Power Pages makes it easy for both makers and admins to set up user authentication with the identity provider of your choice. Turn on, turn off, and select identity providers for your site. After you select an identity provider, prompts in the app guide you through the settings you need to enter.
 
 > [!NOTE]
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-To configure an identity provider for your website:
+## General authentication settings
 
-1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-1. Create a site or edit an existing site created in that environment.
-1. Go to Set up in the left navigation menu.
-1. Select Identity Providers under Authentication to see a complete list of identity providers.
+Some authentication settings don't depend on the identity provider you choose. To change these general authentication settings, select **Authentication settings** on your site's **Identity providers** page.
 
-## Configure general authentication settings
+**External login**: External authentication is provided by the ASP.NET Identity API. Account credentials and password management are handled by third-party identity providers.
 
-You can configure the following general authentication settings by selecting **Authentication Settings** on the **Identity providers** page.
+- **On**: To sign up for access, users select an external identity to register with the website. After it's registered, an external identity has access to the same features as a local account does. [Learn how to manage external accounts](set-authentication-identity.md#manage-external-accounts).
 
-- **External login**: External authentication is provided by the ASP.NET Identity API. Account credentials and password management are handled by third-party identity providers.
-  - When set to **On**, users sign up for access by selecting an external identity to register with the website. After it's registered, an external identity has access to the same features as a local account. See [manage external accounts](set-authentication-identity.md#manage-external-accounts) for related site settings. 
-  -  When set to **Off**, external account registration and sign-in are disabled and hidden.
+- **Off**: Users can't register or sign in with an external account.
 
-- **Open registration**: Enables or disables the sign-up registration form for creating new local users.
-  - When set to **On**, the sign-up form allows any anonymous user to visit the website and create a new user account.
-  - When set to **Off**, new user account registration is disabled and hidden.
+**Open registration**: Controls the sign-up registration form for creating a local user.
+
+- **On**: The sign-up form allows any anonymous user to visit the website and create a user account.
+- When set to **Off**, new user account registration is disabled and hidden.
 
 - **Require unique email**: Specifies whether a unique email address is needed for validating a new user during sign-up.
   -  When set to **On**, a sign-up attempt might fail if a user provides an email address that's already present in a contact record.
@@ -77,6 +67,10 @@ You can't change the configuration of the **Local sign in** and **Azure Active D
 
 ### Add or configure a provider
 
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+1. Create a site or edit an existing site created in that environment.
+1. Go to Set up in the left navigation menu.
+1. Select Identity Providers under Authentication to see a complete list of identity providers.
 To add an identity provider, select **Add provider** from **Authentication Settings**.
 
 Select from the available list of providers, enter a name, and then select **Next** to configure the provider settings. The provider name you enter here is displayed on the sign-in page for users as the text on the button they use when selecting this provider.
