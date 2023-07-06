@@ -22,11 +22,11 @@ Header and Footer templates are determined by the **Header Template** and **Foot
 
 You can create custom header and footer web templates that utilize the `{% substitution %}` tag outlined in this article.
 
-For a new user, output caching is enabled by default. The following site settings are available and set to true by default to support this functionality:
+For all new websites, output caching is enabled by default. The following site settings are available and set to true by default to support this functionality:
 - Header/OutputCache/Enabled: Set the value to true to enable output caching for header.
 - Footer/OutputCache/Enabled: Set the value to true to enable output caching for footer.
 
-For a user who upgraded to a newer version of Power Pages, output caching is disabled by default&mdash;that is, the Header and Footer web templates are parsed and rendered on every page load. To enable output caching, you must update the Header, Footer, and Languages Dropdown web templates and create the required site settings.
+If you upgraded to a newer version of Power Pages, output caching is disabled by default&mdash;that is, the **Header** and **Footer** web templates are parsed and rendered on every page load. To enable output caching, you must update the **Header**, **Footer**, and **Languages Dropdown** web templates and create the required site settings.
 
 > [!Note]
 > If you enable output caching only by creating site settings, parts of the header and footer will not render properly and error messages will be displayed.
