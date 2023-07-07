@@ -31,13 +31,17 @@ To use Copilot for theme:
 
 1. Select the **Copilot** icon.
 
+    :::image type="content" source="media/theme-copilot/copilot-icon.png" alt-text="The Copilot icon in the Pages workspace.":::
+
 1. Describe the theme that you want to generate using AI. For example, "Create a theme for Microsoft."
+
+    :::image type="content" source="media/theme-copilot/sidecar.png" alt-text="The Copilot sidecar in design studio with a user's description and responses displayed.":::
 
 To customize the theme, you can choose the following options:
 
 - **Try again** - generates new theme based on the already provided description.
 
-- **Styling Workspace** – The AI theme can be customized in styling workspace manually just like any other theme. 
+- **Styling Workspace** – The AI theme can be customized in [styling workspace](style-site.md) manually just like any other theme. 
 
 To avoid unintended publishing of generated text, ensure you review, edit, and verify the generated text that fits your requirements before changing the [site visibility](../security/site-visibility.md) to **Public**.
 
