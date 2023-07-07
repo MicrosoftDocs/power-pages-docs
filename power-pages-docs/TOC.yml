@@ -166,6 +166,8 @@
       items:
         - name: Styling workspace overview
           href: getting-started/style-site.md
+        - name: Create AI-generated theme using Copilot (preview)
+          href: getting-started/theme-copilot.md
         - name: Manage CSS files
           href: configure/manage-css.md
     - name: Use the Data workspace
