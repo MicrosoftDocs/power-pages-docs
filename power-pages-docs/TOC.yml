@@ -30,6 +30,8 @@
   items:
     - name: Create a site
       href: getting-started/create-manage.md
+    - name: Use developer sites
+      href: getting-started/developer-sites.md
     - name: Get started with design studio
       href: getting-started/use-design-studio.md
     - name: Templates
