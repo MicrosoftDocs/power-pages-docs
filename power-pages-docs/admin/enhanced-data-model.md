@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/06/2023
+ms.date: 06/07/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -82,11 +82,11 @@ Once the enhanced data model is enabled, when you provision a new website using 
 - Starter layout 1-5
 - Application processing
 - Blank page
-
-The following templates use the standard data model even if the enhanced data model is enabled on the environment:
-
 - Program registration
 - Schedule meetings
+ 
+The following templates use the standard data model even if the enhanced data model is enabled on the environment:
+
 - FAQ (preview)
 - Community (Dynamics 365)
 - Customer Portal (Dynamics 365)
