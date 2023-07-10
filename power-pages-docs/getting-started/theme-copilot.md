@@ -43,7 +43,7 @@ To customize the theme, you can choose the following options:
 
 - **Styling Workspace** – The AI theme can be customized in [styling workspace](style-site.md) manually just like any other theme. 
 
-Review, edit, and verify the generated theme to make sure it fits your requirements before changing the [site visibility](../security/site-visibility.md) to **Public**.
+To avoid unintentionally publishing changes to your site, review, edit, and verify the generated theme to make sure it fits your requirements before changing the [site visibility](../security/site-visibility.md) to **Public**.
 
 ## See also
 
