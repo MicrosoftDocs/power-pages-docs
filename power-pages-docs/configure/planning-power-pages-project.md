@@ -63,10 +63,10 @@ External users should be using an external identity provider. Having a single ex
 
 [Azure Active Directory B2C](/azure/active-directory-b2c/overview) (Azure AD B2C) is one option you might consider for an identity provider. Integrate your custom or corporate identity systems.  You can enable the use of existing social accounts like Microsoft Account, LinkedIn, Google, including an option you set to allow a sign-in profile based on an email address.
 
-You can also customize the look and feel to match your needs, see more in: [Customize the Azure AD B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c) in the Power Apps portals documentation.
+You can also customize the look and feel to match your needs, see more in: [Customize the Azure AD B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c).
 
 > [!NOTE] 
-> We recommend that you disable local sign-in providers.  For more information, see [Get started with configuring your authentication](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) in the Power Apps portals documentation.
+> We recommend that you disable local sign-in providers.  For more information, see [Get started with configuring your authentication](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider).
 
 ## Security
 
@@ -107,7 +107,7 @@ We strongly recommend creating a stable test site for internal stakeholders and 
 
 Creating a custom domain for your go live is recommended. Reach out to your internal teams to secure one in advance of your go live date.
 
-SSL certificates are required to set up your custom domain. For more information, see [Custom Domains](/power-apps/maker/portals/admin/add-custom-domain) in the Power Apps portals documentation.
+SSL certificates are required to set up your custom domain. For more information, see [Custom Domains](/power-apps/maker/portals/admin/add-custom-domain).
 
 ### Use our Go Live Checklist
 
