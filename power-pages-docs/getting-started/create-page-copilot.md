@@ -1,6 +1,6 @@
 ﻿---
 title: Create an AI-generated web page using Copilot (preview)
-description: Learn how to create an AI-generated webpage using COpilot in Power Pages.
+description: Learn how to create an AI-generated webpage using Copilot in Power Pages.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
@@ -19,8 +19,11 @@ contributors:
 You can create a new webpage for your site by describing the type of webpage. Copilot generates the HTML for the page with relevant text copy and images from the description. The page is added to the main navigation of the site, and can be refined and edited using Copilot and the WYSIWYG editor.
 
 > [!IMPORTANT]
-> - *This is a preview feature*
-> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - This feature doesn't support non-English language input.
+> - This feature will be available for preview in the United States only.
+> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
 
 ## Prerequisites
 

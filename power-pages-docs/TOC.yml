@@ -124,7 +124,7 @@
       items:
         - name: Create a web page
           href: getting-started/first-page.md
-        - name: Create an AI-generated webpage using Copilot (preview)
+        - name: Create an AI-generated web page using Copilot (preview)
           href: getting-started/create-page-copilot.md
         - name: Design pages
           items:
