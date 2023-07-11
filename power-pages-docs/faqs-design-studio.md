@@ -1,6 +1,6 @@
 ---
 title: FAQ for Copilot for design studio
-description: FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
+description: This FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
 ms.date: 06/26/2023
 ms.custom: responsible-ai-faqs
 ms.topic: article
@@ -12,9 +12,12 @@ contributors:
     - nickdoelman
 ---
 
-# Copilot for design studio Frequently Asked Questions
+# FAQ for Copilot for design studio
+
+These frequently asked questions (FAQ) describe the AI impact of natural language to page feature in Power Pages, and the key considerations for making use of this technology responsibly.
 
 ## What is Copilot for design studio?
+
 Copilot for Power Pages design studio is available via Pages workspace and will help you jumpstart your site making journey by allowing you to add new pages, update existing pages with sections or forms, and apply new site themes by describing them using natural language. 
 
 ## What can Copilot for design studio do? 
