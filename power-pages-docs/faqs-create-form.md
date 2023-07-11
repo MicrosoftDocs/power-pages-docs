@@ -1,8 +1,8 @@
 ---
-title: Transparency note for creating AI-generated form
-description: The transparency note discusses natural language to form and the key considerations for making use of this technology responsibly.
+title: FAQ for creating AI-generated form
+description: This FAQ discusses natural language to form and the key considerations for making use of this technology responsibly.
 ms.date: 5/23/2023
-ms.custom: transparency-note
+ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
 ms.author: prpadalw
@@ -12,9 +12,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Transparency note for creating AI-generated form
+# FAQ for creating AI-generated form
 
-This transparency note describes the AI impact of Power Pages' natural language to form feature.
+These frequently asked questions (FAQ) describe the AI impact of Power Pages' natural language to form feature.
 
 ## What is natural language to form?
 
@@ -50,4 +50,4 @@ You can revise the form suggestion as needed. You can also review the form previ
 ## See also
 
 - [Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
-- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)
+- [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
