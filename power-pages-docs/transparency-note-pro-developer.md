@@ -1,0 +1,50 @@
+---
+title: Transparency note for Copilot for Power Pages pro-developers
+description: The transparency note discusses pro-developer copilot in Power Pages and the key considerations for making use of this technology responsibly.
+ms.date: 07/11/2023
+ms.custom: transparency-note
+ms.topic: article
+author: neerajnandwana-msft
+ms.author: nenandw
+ms.reviewer: ndoelman
+contributors:
+    - nickdoelman
+    - ProfessorKendrick
+---
+
+# Transparency note for Copilot for Power Pages pro-developers
+
+This transparency note describes the impact of the copilot feature for Power Pages pro-developers.
+
+## What is Copilot for Power Pages pro-developers?
+ 
+The Copilot for Power Pages pro-developers is enabled in the Power Platform Tools Visual Studio Code desktop extension, and you can use this while working on Power Pages site code in Visual Studio Code if you require coding assistance to help you in customizing the site. Pro-developers can describe intended code behavior using natural language like the code they want to generate for form validation or Ajax calls using the Power Pages Web API. Pro-developers are provided with code snippets that they can use within their Power Pages site code. You can continue to describe further updates in natural language and iterate over generated code until you achieve the desired outcome. Once you are satisfied with the generated code, you can copy-paste or insert the code to Power Pages site and modify the code further. 
+ 
+## What are the system’s capabilities?
+ 
+The Copilot for Power Pages pro-developers will allow you to take assistance in customizing websites and focusing on creating and extending site functionalities that meet business requirements. Pro-developers often work with website code (that include HTML/JS/CSS Code) to achieve use cases that are not supported via Power Pages low code design studio. The system focuses on providing an experience within Visual Studio Code that allows pro-developers to take help from the Copilot by describing their needs using natural language, and using the Copilot generated code while doing the site customization.
+ 
+The system works on Visual Studio Code desktop with locally downloaded website content, so you can review and accept the system generated code to local files and later it can be published to the website.
+ 
+## What is the system’s intended use?
+ 
+The goal of Copilot for Power Pages pro-developers is to provide your assistance in writing code and extending functionality of Power Pages site. You can ask Copilot to generate code for form field validation, Web APIs coding assistance and other code generation tasks.
+ 
+## How was system evaluated? What metrics are used to measure performance?
+ 
+This feature underwent substantial testing before the feature was released. AI-generated form relies on user feedback to report if the AI-generated code is not relevant or inappropriate. If you encounter irrelevant or inappropriate responses, report it to Microsoft using the thumbs down gesture and include feedback in the form. We track the telemetry of thumbs up and thumbs down gestures present in the Copilot experiences for each AI-generated output. Your feedback helps improve the functionality moving forward. In addition to this, we also track this feature's SLA to make sure it's always available to you.
+ 
+## What are the limitations of system? How can users minimize the impact of the system's limitations?
+ 
+- This feature doesn’t support non-English language input.
+- This feature will be available for Preview in the United States only.
+- There is a limit on the number of tokens allowed in a query and response.
+ 
+## What operational factors and settings allow for effective and responsible use of the system?
+ 
+You can revise the intended code description as needed. You can also review the generated code and decide if you want to use it in Power Pages site code. You can insert the code to your site code and refine it or you can start over if the generated form doesn't fit your business requirements.
+
+## See also
+
+- [Add AI-generated code using Copilot](configure/add-code-copilot.md)
+- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)
