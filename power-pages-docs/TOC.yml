@@ -661,7 +661,7 @@
     - name: FAQ for creating form
       href: faqs-create-form.md
     - name: FAQ for design studio
-      href: faqs-design-studio.md               
+      href: faqs-design-studio.md          
 - name: Compliance and accessibility
   items:
     - name: Accessibility
