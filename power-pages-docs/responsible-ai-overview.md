@@ -21,4 +21,4 @@ contributors:
 - [FAQs for chatbot (preview)](faqs-chatbot.md)
 - [FAQs for generating text (preview)](faqs-generate-text.md)
 - [FAQs for creating form (preview)](faqs-create-form.md)  
-- [FAQs for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)
+- [FAQs for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
