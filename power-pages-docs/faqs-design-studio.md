@@ -50,4 +50,4 @@ Copilot for design studio is available when sites are in private mode so that us
 
 - [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
 - [Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
-- [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)
+- [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
