@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
-- [FAQs for chatbot (preview)](faqs-chatbot.md)
-- [FAQs for generating text (preview)](faqs-generate-text.md)
-- [FAQs for creating form (preview)](faqs-create-form.md)  
-- [FAQs for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
+- [FAQ for chatbot (preview)](faqs-chatbot.md)
+- [FAQ for generating text (preview)](faqs-generate-text.md)
+- [FAQ for creating form (preview)](faqs-create-form.md)  
+- [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
