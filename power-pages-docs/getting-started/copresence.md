@@ -37,7 +37,7 @@ User icons appear in both the toolbar and the left navigation pane showing where
 > [!NOTE]
 > You may need to expand the parent page to see icons for users present on a child page.
 
-If more than three makers are present, a number will appear, such as +1 or +10. Select that number to expand the list of all users active on the site. From the command bar, select a name to display the user's card and to use the **Send email** and **Chat in Teams** options to contact the person.
+If more than three makers are present, a number appears, such as +1 or +10. Select that number to expand the list of all users active on the site. From the command bar, select a name to display the user's card and to use the **Send email** and **Chat in Teams** options to contact the person.
 
 ## Known limitations
 
