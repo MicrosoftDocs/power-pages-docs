@@ -23,7 +23,7 @@ The system allows you to customize pages by describing your requirements in natu
 
 - **Add a page**: The system creates a new page with AI generated layout and content with rich text and images.
 - **Add a section**: The system updates an existing page with a new section where the content is AI generated
-- **Add a form**: The system creates a new AI generated form along with the underlying table and columns in Microsoft Dataverse. More information: 
+- **Add a form**: The system creates a new AI generated form along with the underlying table and columns in Microsoft Dataverse. More information:[Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
 - **Create a theme**: The system creates a new AI generated theme for a brand that you can review and choose to apply to the site
 
 With Copilot you can change AI-generated output by using regenerate, revising the prompt, or by using one of the out-of-box suggestions. You can also use the undo feature to revert the update done by Copilot. At any point users can choose to use the existing standard capabilities of the Studio to change page elements.
@@ -49,4 +49,5 @@ Copilot for design studio is available when sites are in private mode so that us
 ## See also
 
 - [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
+- [Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
 - [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)

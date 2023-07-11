@@ -660,8 +660,8 @@
       href: transparency-note-generate-text.md
     - name: Transparency note for creating form
       href: transparency-note-create-form.md
-    - name: Transparency note for creating a page
-      href: transparency-note-create-page.md               
+    - name: Transparency note for design studio
+      href: transparency-note-design-studio.md               
 - name: Compliance and accessibility
   items:
     - name: Accessibility
