@@ -652,11 +652,11 @@
   items:
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQs for chatbot
+    - name: FAQ for chatbot
       href: faqs-chatbot.md
-    - name: FAQs for generating text
+    - name: FAQ for generating text
       href: faqs-generate-text.md
-    - name: FAQs for creating form
+    - name: FAQ for creating form
       href: faqs-create-form.md             
 - name: Compliance and accessibility
   items:
