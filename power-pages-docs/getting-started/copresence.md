@@ -12,7 +12,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Copresence in Power Pages 
+# Copresence in Power Pages (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)] 
 
 Find who's working on a site at the same time as you with copresence. Copresence provides the following benefits:
 
@@ -23,6 +25,10 @@ Find who's working on a site at the same time as you with copresence. Copresence
 - On the left-hand main navigation pan, see the pages that other users are actively working on.
 
 - Copresence is enabled by default on all Power Platform environments
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 When another user joins your site in design studio, an icon shows up on the command bar and on the home page where the users typically start.
 
