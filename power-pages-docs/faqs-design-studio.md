@@ -1,8 +1,8 @@
 ---
-title: Transparency note for Copilot for design studio
-description: The transparency note discusses natural language to page and the key considerations for making use of this technology responsibly.
+title: FAQ for Copilot for design studio
+description: FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
 ms.date: 06/26/2023
-ms.custom: transparency-note
+ms.custom: responsible-ai-faqs
 ms.topic: article
 author: sandhangitmsft
 ms.author: sandhan
@@ -50,4 +50,4 @@ Copilot for design studio is available when sites are in private mode so that us
 
 - [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
 - [Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
-- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)
+- [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)
