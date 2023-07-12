@@ -27,7 +27,7 @@ Web Template Validation is enabled by default, and prevents malicious scripts fr
 ### HTTP headers
 The cross-origin resource sharing (CORS) protocol consists of a set of headers that indicates whether a response can be shared with another domain. You can configure CORS support in Power Pages using the Portal Management app by adding and configuring the site settings. 
 
-The following site settings are used to configure CORS and their recommended values. 
+The following site settings are used to configure CORS and their recommended values. Review and switch the headers to recommended values unless your use case dictates otherwise. 
 
 |Security Check  |Site Setting  |Recommended Value  |
 |---------|---------|---------|
@@ -37,6 +37,6 @@ The following site settings are used to configure CORS and their recommended val
 |X Frame Options configuration     |HTTP/X-Frame-Options          |SAMEORIGIN or DENY          |
 |HTTP/X-Content-Type-Options configuration      |HTTP/X-Content-Type-Options         |nosniff          |
 
-Review and switch the headers to recommended values unless your use case dictates otherwise. More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md) 
+More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md) 
 
 
