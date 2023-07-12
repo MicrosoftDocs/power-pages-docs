@@ -657,7 +657,9 @@
     - name: FAQ for generating text
       href: faqs-generate-text.md
     - name: FAQ for creating form
-      href: faqs-create-form.md             
+      href: faqs-create-form.md  
+    - name: FAQ for generating code
+      href: faqs-pro-developer.md                   
 - name: Compliance and accessibility
   items:
     - name: Accessibility
