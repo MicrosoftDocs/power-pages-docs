@@ -37,6 +37,6 @@ The following site settings are used to configure CORS and their recommended val
 |X Frame Options configuration     |HTTP/X-Frame-Options          |SAMEORIGIN or DENY          |
 |HTTP/X-Content-Type-Options configuration      |HTTP/X-Content-Type-Options         |nosniff          |
 
-Review and switch the headers to recommended values unless your use case requires a nonrecommended value. More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md) 
+Review and switch the headers to recommended values unless your use case dictates otherwise. More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md) 
 
 
