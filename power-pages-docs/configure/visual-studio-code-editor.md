@@ -4,7 +4,7 @@ description: Learn how to customize pages by using the Visual Studio Code for th
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 7/12/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -18,7 +18,20 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-From the design studio, you can edit site code using **Visual Studio Code for the Web**. This feature allows you to edit a single page's content, custom CSS, and custom JavaScript.
+From the design studio, you can edit site code using **Visual Studio Code for the Web**. This feature allows you to edit content, custom CSS, and custom JavaScript for the following website metadata:
+
+| Metadata | Action |
+| - | - |
+| Advanced forms (multistep forms) | Edit JavaScript, CSS |
+| Basic forms | Edit JavaScript, CSS |
+| Content snippets | Edit content |
+| Lists | Edit JavaScript, CSS |
+| Web files | Upload files, view files |
+| Web pages | Edit content (per language), JavaScript, and CSS |
+| Web templates | Edit content |
+
+> [!NOTE]
+> You will not be able to create metadata records, only edit existing records.
 
 Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running entirely in your browser, allowing you to browse site code and make lightweight code changes quickly and safely. More information: [Visual Studio Code for the Web experience.](https://code.visualstudio.com/docs/editor/vscode-web)
 
@@ -63,6 +76,10 @@ Select site header and then select **Edit code** to open code editor.
 Go to **Styling workspace** and select available custom CSS **Edit code** menu to open code editor.
 
 :::image type="content" source="media/visual-studio-code-editor/edit-code-custom-css.png" alt-text="Edit code from Custom CSS.":::
+
+## Merge conflict notification
+
+If you are collaborating with other developers there may be situations where you will be working on the same source code. In the event you attempt to save changes to an outdated file you will get a notification to **Compare** or **Overwrite** changes. You will be able to review the latest content and either merge or overwrite the code or discard the changes.
 
 ## Tutorial: Edit site code using Visual Studio Code for the Web
 
