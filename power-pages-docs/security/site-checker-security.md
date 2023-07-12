@@ -1,6 +1,6 @@
 ---
-title: Security Checker
-description: Learn about Security Checker in Power Pages.
+title: Security
+description: Learn about Site Checker diagnostics results for security issues.
 author: 
 ms.topic: conceptual
 ms.custom: 
@@ -9,9 +9,9 @@ ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
 ---
-# Security Checker 
+# Security 
 
-In this article, you learn about Site Checker diagnostics results for Security issues. 
+In this article, you learn about Site Checker diagnostics results for security issues. 
 
 ## Diagnostics
 
