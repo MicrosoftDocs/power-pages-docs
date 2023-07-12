@@ -1,6 +1,6 @@
 ---
 title: Add AI-generated code using Copilot
-description: Learn how to customize pages by using the Visual Studio Code for the Web editor.
+description: Add AI-generated code using Copilot.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
@@ -27,4 +27,4 @@ intro
 
 ## See also
 
-- [Transparency note for Copilot for Power Pages pro-developers](../transparency-note-pro-developer.md)
+- [FAQ for AI-generated code using Copilot](../faqs-pro-developer.md)
