@@ -1,22 +1,25 @@
 ---
-title: Configure additional settings for OAuth 2.0 providers
-description: Learn how to configure additional site settings for OAuth 2.0 providers in Power Pages.
-author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
+title: Additional settings for OAuth 2.0 providers
+description: Learn about the additional settings you need to change for specific OAuth 2.0 providers in Power Pages.
 ms.date: 3/6/2023
+ms.topic: how-to
+author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+ms.custom: bap-template
 ---
 
-# Configure additional settings for OAuth 2.0 providers
+# Additional settings for OAuth 2.0 providers
 
-As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md), you can configure several identity providers that use the OAuth 2.0 protocol. The additional authentication settings in this section apply to the [Microsoft](oauth2-microsoft.md), [LinkedIn](oauth2-linkedin.md), [Facebook](oauth2-facebook.md), [Google](/power-apps/maker/portals/configure/configure-oauth2-google), and [Twitter](oauth2-twitter.md) providers.
+[Add an OAuth 2.0 provider](oauth2-provider.md) to your Power Pages site to allow visitors to authenticate using a Microsoft, LinkedIn, Facebook, Google, or Twitter account. 
+
+
+
+ The additional authentication settings in this section apply to the [Microsoft](oauth2-microsoft.md), [LinkedIn](oauth2-linkedin.md), [Facebook](oauth2-facebook.md), [Google](/power-apps/maker/portals/configure/configure-oauth2-google), and [Twitter](oauth2-twitter.md) providers.
 
 To configure the additional settings for any OAuth 2.0 identity provider, select **Configure** from the [provider settings](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) page, and expand **Additional settings**.
 

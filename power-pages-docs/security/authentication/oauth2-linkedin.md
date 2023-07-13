@@ -45,6 +45,9 @@ LinkedIn is one of the [OAuth 2.0 identity providers](oauth2-provider.md) you ca
 
 Register an application in LinkedIn with your site's reply URL as the redirect URL.
 
+> [!NOTE]
+> If you [use or add a custom domain name](../../admin/add-custom-domain.md) or [change your site's base URL](/power-apps/maker/portals/admin/change-base-url), you must set up your identity provider to use the correct reply URL. The LinkedIn app uses the reply URL to redirect users to your website after authentication.
+
 1. In the LinkedIn developer portal, select **My apps**, and then select **Create app**.
 
 1. Enter the name of the app and the URL of your organization's LinkedIn page to associate with the app.

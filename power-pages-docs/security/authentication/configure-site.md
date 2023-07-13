@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 How&mdash;and even whether&mdash;users must authenticate when they visit is a core customization in any Power Pages site. If you choose to enforce authentication, users do so through an identity provider.
 
-Power Pages comes with several OAuth 2.0 identity providers built-in, which means that users can authenticate on your site with their own Microsoft, LinkedIn, Facebook, Google, or Twitter account. Your website can have only one instance of an OAuth 2.0 identity provider at a time.
+Power Pages comes with several OAuth 2.0 identity providers built-in, which means that users can authenticate on your site with a Microsoft, LinkedIn, Facebook, Google, or Twitter account. Your website can have only one instance of an OAuth 2.0 identity provider at a time.
 
 You can add Azure Active Directory (Azure AD) B2C and other providers if you need them.
 
