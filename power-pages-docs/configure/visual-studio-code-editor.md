@@ -20,18 +20,18 @@ contributors:
 
 From the design studio, you can edit site code using **Visual Studio Code for the Web**. This feature allows you to edit static content, HTML, CSS, Liquid, and JavaScript for the following website metadata:
 
-| Metadata | Action |
+| Metadata | Content |
 | - | - |
-| Advanced forms (multistep forms) | JavaScript, CSS |
-| Basic forms | JavaScript, CSS |
-| Content snippets | All supported content snipped content |
-| Lists | Edit JavaScript, CSS |
-| Web files | Upload files, view files |
-| Web pages | All supported content (per language), JavaScript, and CSS |
-| Web templates | All supported content |
+| Advanced forms ([multistep forms](multistep-form-properties.md)) | JavaScript |
+| [Basic forms](basic-forms.md) | JavaScript |
+| [Content snippets](content-snippets.md) | All supported content snippet content |
+| [Lists](lists.md) | JavaScript |
+| [Web files](web-files.md) | View and download files |
+| [Web pages](web-page.md) | All supported content (per language), JavaScript, and CSS |
+| [Web templates](web-templates.md) | All supported content |
 
 > [!NOTE]
-> You will not be able to create metadata records, only add and edit content, code, and files.
+> You will not be able to create metadata records, only add and edit content, code, and view/download file attachments.
 
 Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running entirely in your browser, allowing you to browse site code and make lightweight code changes quickly and safely. More information: [Visual Studio Code for the Web experience.](https://code.visualstudio.com/docs/editor/vscode-web)
 
@@ -56,6 +56,11 @@ Edit code feature will allow users to edit code in following areas:
 - [Edit web page code from Pages workspace](#edit-web-page-code-from-pages-workspace)
 - [Header template code from Pages workspace](#header-template-code-from-pages-workspace)
 - [Edit custom CSS code from Styling workspace](#edit-custom-css-code-from-styling-workspace)
+- Edit custom JavaScript code for multistep forms
+- Edit custom JavaScript code for basic forms
+- Edit custom JavaScript for lists
+- Edit content snippets
+- Edit web templates
 
 Let's take a look how to edit code using these areas.
 
@@ -85,7 +90,7 @@ If you are collaborating with other developers there may be situations where you
 
 In this tutorial, you'll walk through editing the site code using Visual Studio Code for Web.
 
-### Step 1: Edit site code using Visual Studio Code
+### Step 1: Edit site code using Visual Studio Code for the web
 
 1. Open your site in [Power Pages design studio](../getting-started/use-design-studio.md)
 
@@ -99,13 +104,13 @@ In this tutorial, you'll walk through editing the site code using Visual Studio 
 
 1. Wait for **Power Platform Tools** web extension to initialize, and web page code to load in left-pane.
 
-### Step 2: Update web page code
+### Step 2: Update content and code
 
-1. The explorer on the left-side of the screen will load respective customs CSS and custom JS files along with the web page copy content.
+1. The explorer on the left-side of the screen will load respective website configuration metadata that can be edited using Visual Code for the Web.
 
     :::image type="content" source="media/visual-studio-code-editor/vscode-file-explorer.png" alt-text="Explorer menu for an untitled workspace showing web files.":::
 
-1. Make changes to the respective files and press ***Ctrl+S*** to save the changes.
+1. Make changes to the respective metadata files and press ***Ctrl+S*** to save the changes.
 
 1. Go to design studio and select **Sync** to pull all the updates in your current design studio session.
 
@@ -119,8 +124,9 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 
 | Feature | Visual Studio for Web | Visual Studio Code desktop |
 | - | - | - |
+| Create new metadata records | No | Limited to web pages, page templates, web templates, content snippets, and web files. |
 | Direct site editing | Yes | No |
-| Site metadata editing | Limited to Custom CSS and Web pages | All power pages configuration entities |
+| Site metadata editing | Limited to editing web pages, content snippets, basic forms, multi-step forms, lists, and web templates. | All Power Pages metadata configuration |
 | Site preview | Planned | Planned |
 | [Power Platform CLI](/power-platform/developer/cli/introduction) support | No | Yes |
 | Advanced CPU and storage bound workflow - ReactJS or other framework build tool support | No | Yes |
@@ -133,8 +139,6 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 > - Regions that support the Visual Studio Code editor will not see the design studio code editor.
 
 To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the command bar.
-
-:::image type="content" source="../getting-started/media/code-editor/code-edit-homepage.png" alt-text="The code editor icon.":::
 
 The source code is displayed in the code editor pane at the bottom of the screen. Any changes you made previously will be updated in the source code. To make changes, update the source code and then select **Save**. The changes will be reflected on the canvas.
 
