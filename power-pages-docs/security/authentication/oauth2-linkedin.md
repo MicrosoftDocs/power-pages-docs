@@ -1,6 +1,6 @@
 ---
 title: Set up the LinkedIn provider
-description: Learn how to set up Microsoft as the OAuth 2.0 identity provider for use with sites you create with Microsoft Power Pages.
+description: Learn how to set up LinkedIn as the OAuth 2.0 identity provider for use with sites you create with Microsoft Power Pages.
 ms.date: 04/28/2023
 ms.topic: how-to
 author: sandhangitmsft
