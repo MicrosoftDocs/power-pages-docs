@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/12/2023
+ms.date: 07/13/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -36,6 +36,10 @@ You can manage websites in the Power Platform admin center in two ways:
 1. Select the ellipse **...**, and then select **Manage**.<br>or<br>Select the website, and then select **Manage** at the top of the page.
 
 From here you can configure website details, for more information go to [site details](admin-overview.md#site-details).
+
+Selecting on any of the cards in the header will filter the lists to the chosen website type.
+
+You can export a list of website information by selecting the **Export to csv** button.
 
 ## Manage all websites for an environment
 
