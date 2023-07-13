@@ -51,7 +51,7 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 
 ## Edit code available in design studio
 
-Edit code feature will allow users to edit code in following areas:
+Edit code feature allows users to edit code in following areas:
 
 - [Edit web page code from Pages workspace](#edit-web-page-code-from-pages-workspace)
 - [Header template code from Pages workspace](#header-template-code-from-pages-workspace)
@@ -66,7 +66,7 @@ Let's take a look how to edit code using these areas.
 
 ### Edit web page code from Pages workspace
 
-When you open Power Pages design studio, you'll see **Edit code** option in Pages menu<sup>1</sup> and upper-right corner of the screen<sup>2</sup>. 
+When you open Power Pages design studio, you see **Edit code** option in Pages menu<sup>1</sup> and upper-right corner of the screen<sup>2</sup>. 
 
 :::image type="content" source="media/visual-studio-code-editor/edit-code-pages.png" alt-text="Edit code from Pages workspace.":::
 
@@ -84,11 +84,11 @@ Go to **Styling workspace** and select available custom CSS **Edit code** menu t
 
 ## Merge conflict notification
 
-If you are collaborating with other developers there may be situations where you will be working on the same source code. In the event you attempt to save changes to an outdated file you will get a notification to **Compare** or **Overwrite** changes. You will be able to review the latest content and either merge or overwrite the code or discard the changes.
+If you are collaborating with other developers, there may be situations where you'll be working on the same source code. In the event you attempt to save changes to an outdated file you'll get a notification to **Compare** or **Overwrite** changes. You'll be able to review the latest content and either merge or overwrite the code or discard the changes.
 
 ## Tutorial: Edit site code using Visual Studio Code for the Web
 
-In this tutorial, you'll walk through editing the site code using Visual Studio Code for Web.
+In this tutorial, you walk through editing the site code using Visual Studio Code for Web.
 
 ### Step 1: Edit site code using Visual Studio Code for the web
 
@@ -106,7 +106,7 @@ In this tutorial, you'll walk through editing the site code using Visual Studio 
 
 ### Step 2: Update content and code
 
-1. The explorer on the left-side of the screen will load respective website configuration metadata that can be edited using Visual Code for the Web.
+1. The explorer on the left-side of the screen loads respective website configuration metadata that can be edited using Visual Code for the Web.
 
     :::image type="content" source="media/visual-studio-code-editor/vscode-file-explorer.png" alt-text="Explorer menu for an untitled workspace showing web files.":::
 
@@ -140,11 +140,11 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 
 To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the command bar.
 
-The source code is displayed in the code editor pane at the bottom of the screen. Any changes you made previously will be updated in the source code. To make changes, update the source code and then select **Save**. The changes will be reflected on the canvas.
+The source code is displayed in the code editor pane at the bottom of the screen. Any changes you made previously will be updated in the source code. To make changes, update the source code and then select **Save**. The changes are reflected on the canvas.
 
 The code editor supports three docking options: docked on the bottom, docked on the right side, or full-screen edit mode.
 
-The code editor canvas supports HTML editing. To edit JavaScript or custom CSS, select **Edit CSS & JS**, which will take you to the Portal Management app. From there, select the **Advanced** tab to make any edits you want in the JavaScript and CSS sections.
+The code editor canvas supports HTML editing. To edit JavaScript or custom CSS, select **Edit CSS & JS**, which takes you to the Portal Management app. From there, select the **Advanced** tab to make any edits you want in the JavaScript and CSS sections.
 
 
 ## See also
