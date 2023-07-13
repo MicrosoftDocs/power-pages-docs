@@ -124,7 +124,7 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 
 | Feature | Visual Studio for Web | Visual Studio Code desktop |
 | - | - | - |
-| Create new metadata records | No | Limited to web pages, page templates, web templates, content snippets, and web files. |
+| Create new website configuration metadata records | No | Limited to web pages, page templates, web templates, content snippets, and web files. |
 | Direct site editing | Yes | No |
 | Site metadata editing | Limited to editing web pages, content snippets, basic forms, multi-step forms, lists, and web templates. | All Power Pages metadata configuration |
 | Site preview | Planned | Planned |
