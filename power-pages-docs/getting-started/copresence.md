@@ -1,14 +1,15 @@
 ﻿---
 title: Copresence in Power Pages (preview)
 description: Learn about Copresence in Power Pages.
-author: 
+author: sandhangitmsft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 7/10/2023
 ms.subservice:
-ms.author: 
+ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
+    - sandhangitmsft
     - ProfessorKendrick
 ---
 
@@ -22,7 +23,7 @@ Find who's working on a site at the same time as you with copresence. Copresence
 
 - Contact those people working on the site via email or Teams.
 
-- On the left-hand main navigation pan, see the pages that other users are actively working on.
+- On the left-hand main navigation pane, see the pages that other users are actively working on.
 
 - Copresence is enabled by default on all Power Platform environments
 
@@ -33,6 +34,8 @@ Find who's working on a site at the same time as you with copresence. Copresence
 When another user joins your site in design studio, an icon shows up on the command bar and on the home page where the users typically start.
 
 User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site.
+
+:::image type="content" source="media/copresence/copresence.png" alt-text="The Pages workspace with copresence icons displayed in the toolbar and the left navigation pane.":::
 
 > [!NOTE]
 > You may need to expand the parent page to see icons for users present on a child page.
