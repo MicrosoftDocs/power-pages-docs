@@ -651,13 +651,13 @@
 - name: Responsible AI
   items:
     - name: Overview
-      href: transparency-note.md
-    - name: Transparency note for chatbot
-      href: transparency-note-chatbot.md
-    - name: Transparency note for generating text
-      href: transparency-note-generate-text.md
-    - name: Transparency note for creating form
-      href: transparency-note-create-form.md             
+      href: responsible-ai-overview.md
+    - name: FAQ for chatbot
+      href: faqs-chatbot.md
+    - name: FAQ for generating text
+      href: faqs-generate-text.md
+    - name: FAQ for creating form
+      href: faqs-create-form.md             
 - name: Compliance and accessibility
   items:
     - name: Accessibility
