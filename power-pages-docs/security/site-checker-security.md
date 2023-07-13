@@ -16,7 +16,7 @@ In this article, you learn about Site Checker diagnostics results for security i
 ## Web Application firewall enabled 
 Enable Web Application Firewall to secure your site. More information: [Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
 
-## No Anonymous access to Dataverse tables 
+## Anonymous access to Dataverse tables 
 This check fails if there are one or more table permissions that allow anonymous users to access Dataverse data. Review the table permissions and remove anonymous user access unless your use case requires anonymous access. More information: [Configuring table permissions](table-permissions.md)
 
 ## Web Template validation
