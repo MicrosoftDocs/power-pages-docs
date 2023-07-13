@@ -26,7 +26,7 @@ From the design studio, you can edit site code using **Visual Studio Code for th
 | [Basic forms](basic-forms.md) | JavaScript |
 | [Content snippets](content-snippets.md) | All supported content snippet content |
 | [Lists](lists.md) | JavaScript |
-| [Web files](web-files.md) | View and download files |
+| [Web files](web-files.md) | View and download media files. Edit text (code) files. |
 | [Web pages](web-page.md) | All supported content (per language), JavaScript, and CSS |
 | [Web templates](web-templates.md) | All supported content |
 
@@ -61,6 +61,8 @@ Edit code feature allows users to edit code in following areas:
 - Edit custom JavaScript for lists
 - Edit content snippets
 - Edit web templates
+- View and download media web files (images)
+- Edit text based web files (CSS, JavaScript, other)
 
 Let's take a look how to edit code using these areas.
 
