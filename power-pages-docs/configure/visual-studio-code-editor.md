@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-From the design studio, you can edit site code using **Visual Studio Code for the Web**. This feature allows you to edit static content, HTML, CSS, Liquid, and JavaScript for the following website metadata:
+From the design studio, you can edit site code using **Visual Studio Code for the Web**. This feature allows you to edit static content, HTML, CSS, [Liquid](liquid/liquid-overview.md), and [JavaScript](add-custom-javascript.md) for the following website metadata:
 
 | Metadata | Content |
 | - | - |
@@ -74,7 +74,7 @@ When you open Power Pages design studio, you see **Edit code** option in Pages m
 
 ### Header template code from Pages workspace
 
-Select site header and then select **Edit code** to open code editor.
+Select **Edit site header** and then select **Edit code** to open code editor.
 
 :::image type="content" source="media/visual-studio-code-editor/pages-header-edit.png" alt-text="Edit code from Pages header.":::
 
@@ -86,7 +86,13 @@ Go to **Styling workspace** and select available custom CSS **Edit code** menu t
 
 ## Merge conflict notification
 
-If you are collaborating with other developers, there may be situations where you'll be working on the same source code. In the event you attempt to save changes to an outdated file you'll get a notification to **Compare** or **Overwrite** changes. You'll be able to review the latest content and either merge or overwrite the code or discard the changes.
+If you are collaborating with other developers, there may be situations where you'll be working on the same source code. In the event you attempt to save changes to an outdated file you'll get a notification to **Compare** or **Overwrite** changes.
+
+Comparing the code will show current code alongside your code and allow you to revert to the existing changes, accept each change individually or use your changes and overwrite the existing contents.
+
+:::image type="content" source="media/visual-studio-code-editor/merge-conflicts.png" alt-text="Merge conflicts in code.":::
+
+You'll be able to review the latest content and either merge or overwrite the code or discard the changes.
 
 ## Tutorial: Edit site code using Visual Studio Code for the Web
 
