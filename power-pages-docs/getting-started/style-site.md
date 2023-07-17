@@ -59,7 +59,7 @@ You can also use the viewport selector to choose from web, tablet, and mobile vi
 
 ## Theme mapping
 
-Each color on the palette maps to a specific element on the page. The preset theme consists of nine colors and three slots for user-selected colors. If you customize elements, the mapping isn't correct unless the theme is reset.  
+Each color on the palette maps to a specific element on the page. The preset theme consists of nine colors and three slots for user-selected colors. If you customize elements, the mapping isn't correct until the theme is reset.  
 
 To add a new color or to change an existing color, select the plus sign (**+**) in the color palette and choose your color using the color picker, hexadecimal value, or RGB values.
 
