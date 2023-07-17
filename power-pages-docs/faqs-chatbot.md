@@ -1,8 +1,8 @@
 ---
-title: Transparency note for chatbot
-description: The transparency note to add chatbot and the key considerations for making use of this technology responsibly.
+title: FAQ for chatbot
+description: This FAQ to add chatbot and the key considerations for making use of this technology responsibly.
 ms.date: 5/23/2023
-ms.custom: transparency-note
+ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
 ms.author: prpadalw
@@ -12,9 +12,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Transparency note for chatbot
+# FAQ for chatbot
 
-This transparency note describes the AI impact of chatbot feature in Power Pages.
+These frequently asked questions (FAQ) describe the AI impact of chatbot feature in Power Pages.
 
 ## What is chatbot in Power Pages?
 
@@ -53,4 +53,4 @@ When a feature is enabled, the bot is created with a content moderation set to *
 
 - [Enable chatbot in a Power Pages site (preview)](getting-started/enable-chatbot.md)
 - [Force Bing webmaster to index your site (preview)](getting-started/force-bing-index.md)
-- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)
+- [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
