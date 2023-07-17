@@ -1,12 +1,12 @@
 ---
 title: Style your Power Pages site
 description: Learn how to style your Power Pages site.
-author: ankitavish
+author: clromano
 ms.topic: conceptual
 ms.custom: 
 ms.date: 07/04/2023
 ms.subservice:
-ms.author: avishwakarma 
+ms.author: clromano
 ms.reviewer: kkendrick
 contributors:
     - ankitavish
@@ -37,7 +37,7 @@ The **Styling** workspace lets you apply global site styles. You can apply corpo
 
 1. Choose between **Save Changes** or **Discard Changes** after you've made your edits.
 
-    A modified theme will be noted next to the theme name unless or until a theme is reset to preserve changes.
+    A modified theme is noted next to the theme name unless or until a theme is reset to preserve changes.
 
 ## Resetting a theme
 
@@ -51,7 +51,7 @@ To see the full page in the design studio, select the full page icon.
 
 :::image type="content" source="media/style-site/full-page.png" alt-text="GUI with the full page icon highlighted.":::
 
-To see the site as it will appear in production, select the preview icon.
+To see the site as it appears in production, select the preview icon.
 
 :::image type="content" source="media/style-site/preview-icon.png" alt-text="GUI with the preview icon highlighted.":::
 
@@ -59,7 +59,7 @@ You can also use the viewport selector to choose from web, tablet, and mobile vi
 
 ## Theme mapping
 
-Each color on the palette maps to a specific element on the page. The preset theme consists of nine colors and three slots for user-selected colors. If you customize elements, the mapping won't be correct unless the theme is reset.  
+Each color on the palette maps to a specific element on the page. The preset theme consists of nine colors and three slots for user-selected colors. If you customize elements, the mapping isn't correct until the theme is reset.  
 
 To add a new color or to change an existing color, select the plus sign (**+**) in the color palette and choose your color using the color picker, hexadecimal value, or RGB values.
 
@@ -72,19 +72,19 @@ After a new color is added to the color palette, it can be used to color compone
 
 ## Undo/redo (preview)
 
-You can select the **Undo** and **Redo** icons in the **Styling** workspace to revert theme updates. This covers all the scenarios around making changes to a current selected theme.
+You can select the **Undo** and **Redo** icons in the **Styling** workspace to revert theme updates for all the scenarios related to changing a current selected theme.
 
 1. You can apply the undo/redo options on any style settings for the selected theme including the **reset to default** theme from the more menu (**...**) options. 
 
-1. When switching to a new theme, you will be prompted with a dialog to save or discard for any unsaved changes. The undo/redo stack is cleared upon choosing either of the actions. 
+1. When switching to a new theme, you're prompted with a dialog to save or discard for any unsaved changes. The undo/redo stack is cleared upon choosing either of the actions. 
 
 ### What is the expected experience of undo/redo? 
 
 The **Undo** and **Redo** options only support changes that you make in the **Styling** workspace. Your action history is immediately cleared when navigating to a different workspace or switching to a different theme. 
 
-Some general design studio actions are not supported by design, for example;
+By design, some general design studio actions aren't supported, such as:
 
-- Syncing, saving, previewing, zooming, re-sizing the canvas, navigating between workspaces and webpages, and uploading media and CSS files. 
+- Syncing, saving, previewing, zooming, resizing the canvas, navigating between workspaces and webpages, and uploading media and CSS files. 
 
 - Switching to a different theme, saving a newly selected theme without any style changes. 
 
