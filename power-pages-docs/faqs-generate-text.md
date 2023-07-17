@@ -1,8 +1,8 @@
 ---
-title: Transparency note for natural language to text
-description: The transparency note discusses natural language to text and the key considerations for making use of this technology responsibly.
+title: FAQ for natural language to text
+description: This FAQ discusses natural language to text and the key considerations for making use of this technology responsibly.
 ms.date: 05/23/2023
-ms.custom: transparency-note
+ms.custom: responsible-ai-faqs
 ms.topic: article
 author: vashr
 ms.author: vashr
@@ -12,9 +12,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Transparency note for natural language to text
+# FAQ for natural language to text
 
-This transparency note describes the AI impact of Power Pages' natural language to text feature.
+These frequently asked questions (FAQ) describe the AI impact of Power Pages' natural language to text feature.
 
 ## What is natural language to text?
 
@@ -50,4 +50,4 @@ You can describe the text you need for your website, and Power Pages uses LLMs t
 ## See also
 
 - [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
-- [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)
+- [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
