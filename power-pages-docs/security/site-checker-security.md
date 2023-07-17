@@ -11,7 +11,13 @@ contributors:
 ---
 # Security 
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 In this article, you learn about Site Checker diagnostics results for security issues. 
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## Web Application firewall enabled 
 Enable Web Application Firewall to secure your site. More information: [Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
