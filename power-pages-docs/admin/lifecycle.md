@@ -18,7 +18,12 @@ contributors:
 
 A Power Pages website is always created as a trial. A trial website, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the website is suspended and shut down. Seven days after it's suspended, the trial website host is deleted. You'll be notified at every stage of the website lifecycle; nearing suspension, suspended, deleted, and converted from trial to production; through toast notifications and email.
 
-As an administrator, you can convert a trial or suspended website to a production website. When converting a website from trial to production, you must ensure that the Power Platform environment is also a production or a sandbox environment. You can't convert a trial website to production in a trial or developer Power Platform environment. If you delete the Power Platform environment in which a trial website is created, the website is also deleted.
+> [!NOTE]
+> The process of [converting](convert-site.md) is a different process than [migrating](migrate-site-configuration.md) a website.
+
+As an administrator, you can **convert** a trial or suspended website to a production website. When converting a website from trial to production, you must ensure that the Power Platform environment is also a production or a sandbox environment. You can't convert a trial website to production in a trial or developer Power Platform environment. If you delete the Power Platform environment in which a trial website is created, the website is also deleted.
+
+You cannot [convert](convert-site.md) a developer website to a production website, but you can [migrate](migrate-site-configuration.md) a trial, developer, production website to another trial, developer, or production website.
 
 ### Understanding website lifecycle stages
 
@@ -54,6 +59,8 @@ If you don't convert your website to production within the seven-day suspension 
 
 ### See also
 
+- [Use developer websites](../getting-started/developer-sites.md)
+- [Migrate website configuration](migrate-site-configuration.md)
 - [Convert a website from trial to production](convert-site.md#convert-a-website-from-trial-to-production)
 - [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model)
 - [Power Pages connectivity to a Microsoft Dataverse](connectivity.md)
