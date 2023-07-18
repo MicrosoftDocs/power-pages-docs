@@ -79,7 +79,7 @@ Set Microsoft as an identity provider for your site.
     - **Client ID​**: Paste the **Application (client) ID** [you copied](#create-a-microsoft-app-registration-in-azure).
     - **Client secret**: Paste the **Secret ID** you copied.
 
-1. [Change additional settings for OAuth 2.0 identity providers](oauth2-settings.md).
+[Optional additional settings for OAuth 2.0 identity providers](oauth2-settings.md)
 
 ### See also
 

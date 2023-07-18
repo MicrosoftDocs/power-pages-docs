@@ -77,7 +77,7 @@ Twitter is one of the [OAuth 2.0 identity providers](oauth2-provider.md) you can
     - **Client ID​**: Paste the **Consumer Key** [you copied](#create-an-app-registration-in-twitter).
     - **Client secret**: Paste the **Consumer Secret** you copied.
 
-1. [Change additional settings for OAuth 2.0 identity providers](oauth2-settings.md).
+[Optional additional settings for OAuth 2.0 identity providers](oauth2-settings.md)
 
 ### See also
 

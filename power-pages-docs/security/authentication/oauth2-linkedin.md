@@ -73,7 +73,7 @@ Register an application in LinkedIn with your site's reply URL as the redirect U
     - **Client ID​**: Paste the **Client ID** [you copied](#create-an-app-registration-in-linkedin).
     - **Client secret**: Paste the **Client Secret** you copied.
 
-1. [Change additional settings for OAuth 2.0 identity providers](oauth2-settings.md).
+[Optional additional settings for OAuth 2.0 identity providers](oauth2-settings.md)
 
 ### See also
 

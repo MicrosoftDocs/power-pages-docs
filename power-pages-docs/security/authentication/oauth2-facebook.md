@@ -120,7 +120,7 @@ Facebook is one of the [OAuth 2.0 identity providers](oauth2-provider.md) you ca
     - **Client ID​**: Paste the **App ID** [you copied](#publish-the-app).
     - **Client secret**: Paste the **App Secret** you copied.
 
-1. [Change additional settings for OAuth 2.0 identity providers](oauth2-settings.md).
+[Optional additional settings for OAuth 2.0 identity providers](oauth2-settings.md)
 
 ### See also
 

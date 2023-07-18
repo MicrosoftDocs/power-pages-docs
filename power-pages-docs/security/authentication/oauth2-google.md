@@ -129,7 +129,7 @@ If you already have a consent screen for your website's top-level domain, skip t
     - **Client ID​**: Paste the **Client ID** [you copied](#add-credentials).
     - **Client secret**: Paste the **Client secret** you copied.
 
-1. [Change additional settings for OAuth 2.0 identity providers](oauth2-settings.md).
+[Optional additional settings for OAuth 2.0 identity providers](oauth2-settings.md)
 
 ### See also
 

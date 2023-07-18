@@ -29,7 +29,7 @@ For the settings you need to change for specific OAuth 2.0 providers, select the
 - [Google](/power-apps/maker/portals/configure/configure-oauth2-google)
 - [Twitter](oauth2-twitter.md)
 
-Then, change [additional settings that apply to all OAuth 2.0 providers](oauth2-settings.md).
+Then if needed, change [optional additional settings that apply to all OAuth 2.0 providers](oauth2-settings.md).
 
 > [!NOTE]
 > Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
