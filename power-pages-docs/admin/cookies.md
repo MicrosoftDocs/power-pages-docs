@@ -1,15 +1,16 @@
 ---
 title: Cookies in Power Pages
 description: Learn about cookies used by Power Pages.
-author: neerajnandwana-msft
+author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 2/07/2023
 ms.subservice: 
-ms.author: nenandw
+ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
+    - nageshbhat-msft
     - neerajnandwana-msft
     - nickdoelman
     - ProfessorKendrick
