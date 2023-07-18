@@ -28,7 +28,7 @@ The Power Pages site visibility feature allows you to manage who has access to y
 
 Only site makers and organization users whom the maker granted access can view private sites. Website visitors need to authenticate using the organization's [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) identity provider to open the site. Setting visibility to private is useful if your site is in development and you wish to limit access during the design phase.
 
-Public sites are accessible over internet to everyone anonymously or authenticated with configured identity. The website is now a production site, fully operational for the customer to use. You'll see a notification when you're editing a public site using [design studio](../getting-started/use-design-studio.md), [Portal Management app](../configure/portal-management-app.md), [Visual Studio Code editor](../configure/power-platform-cli-tutorial.md) and [Microsoft Power Platform CLI](../configure/power-platform-cli-tutorial.md).
+Public sites are accessible over internet to everyone anonymously or authenticated with configured identity. The website is now a production site, fully operational for the customer to use. A notification appears when you're editing a public site using [design studio](../getting-started/use-design-studio.md), [Portal Management app](../configure/portal-management-app.md), [Visual Studio Code editor](../configure/power-platform-cli-tutorial.md) and [Microsoft Power Platform CLI](../configure/power-platform-cli-tutorial.md).
 
 ## Change site visibility
 
@@ -75,13 +75,13 @@ To grant website access:
 > [!NOTE]
 > - Granting website access is limited to 50 users.
 > - Organization users that are part of [System administrator](/power-platform/admin/security-roles-privileges) role in the Power Platform environment where the website is created have permissions to view the website by default.
-> - Users granted access to a private site aren't automatically authenticated to the site itself. Please see [Provide access to external audiences](external-access.md) for more information.
+> - Users granted access to a private site aren't automatically authenticated to the site itself. More information: [Provide access to external audiences](external-access.md)
 
 ## Permissions required to change site visibility
 
-The ability to change site visibility is determined by the following factors:
+Different roles have different permissions to change site visibility.
 
-[Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Azure Active Directory roles can change the site visibility:
+[Service administrators](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Azure Active Directory roles can change the site visibility:
 
 - [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
@@ -147,11 +147,11 @@ To delegate site visibility to specific system administrators:
 
     :::image type="content" source="media/site-visibility/add-security-group.png" alt-text="Add security group.":::
 
-After you add the security group, all system administrators that are part of the added security group can manage site visibility. System administrators that aren't part of this security group will have the site visibility section disabled.
+After you add the security group, all system administrators that are part of the added security group can manage site visibility. The site visibility section is disabled for System Administrators who aren't part of the security group.
 
 ## Known issues
 
-A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the site visibility state to public before disabling Azure Active Directory authentication.
+Power Pages websites don't work in private mode when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the site visibility state to public before disabling Azure Active Directory authentication.
 
 ## See also
 
