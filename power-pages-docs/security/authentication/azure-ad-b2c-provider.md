@@ -1,5 +1,5 @@
 ---
-title: Set up the Azure Active Directory B2C provider 
+title: Set up the Azure AD B2C provider 
 description: Learn how to set up the Azure Active Directory (Azure AD) B2C identity provider for use with sites you create with Microsoft Power Pages.
 ms.date: 5/30/2023
 ms.topic: how-to
@@ -13,9 +13,11 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Set up the Azure Active Directory B2C provider
+# Set up the Azure AD B2C provider
 
-Azure Active Directory (Azure AD) B2C is one of the identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. This article describes the following steps:
+Azure Active Directory (Azure AD) B2C is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. Along with Azure AD B2C, Azure AD, and multitenant Azure AD, you can use any other provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
+
+This article describes the following steps:
 
 - [Set up Azure AD B2C in Power Pages](#set-up-azure-ad-b2c-in-power-pages)
 - [Create a tenant and app registration in Azure](#create-an-azure-ad-b2c-tenant-and-app-registration-in-azure)
@@ -61,9 +63,9 @@ Create a tenant for Azure AD B2C and [register an application](/azure/active-dir
 
 1. Enter a name.
 
-1. Select one of the **Supported account types** that best reflects your organization requirements.
+1. Select one of the [**Supported account types**](/azure/active-directory/develop/quickstart-register-app) that best reflects your organization requirements.
 
-1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL for your site.
+1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
 
     - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-b2c-in-power-pages).
     - If you're using a custom domain name, enter the custom URL.

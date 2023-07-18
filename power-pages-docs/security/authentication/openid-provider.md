@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 [OpenID Connect](https://openid.net/connect/) identity providers are services that conform to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html). OpenID Connect introduces the concept of an *ID token*. An ID token is a security token that allows a client to verify the identity of a user. It also gets basic profile information about users, known as *claims*.
 
-OpenID Connect providers [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md), [Azure AD](openid-settings.md), and [Azure AD with multiple tenants](openid-settings.md#enable-authentication-by-using-a-multitenant-azure-ad-application) are built into Power Pages. This article explains how to add other OpenID Connect identity providers to your Power Pages site.
+OpenID Connect providers [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md), [Azure AD](openid-settings.md), and [Azure AD with multiple tenants](openid-settings.md#allow-multitenant-azure-ad-authentication) are built into Power Pages. This article explains how to add other OpenID Connect identity providers to your Power Pages site.
 
 ## Supported and unsupported authentication flows in Power Pages
 
@@ -62,29 +62,41 @@ OpenID Connect providers [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-pr
 
 1. Create and register an application with your identity provider using the reply URL [you copied](#set-up-the-openid-connect-provider-in-power-pages).
 
-1. Change the settings your identity provider requires.
+1. Copy the application or client ID and the client secret.
+
+1. Select **Endpoints** at the top of the page.
+
+1. Find the **OpenID Connect metadata document** URL and select the copy icon.
+
+1. Change other settings as needed for your identity provider.
 
 ## Enter site settings in Power Pages
 
-1. Return to the Power Pages **Configure identity provider** page you left earlier.
+Return to the Power Pages **Configure identity provider** page you left earlier and enter the following values. Optionally, change the [**additional settings**](#additional-settings-in-power-pages) as needed. Select **Confirm** when you're finished.
 
-1. Under **Configure site settings**, enter the following values:
+- **Authority**: Enter the authority URL in the following format: `https://login.microsoftonline.com/<Directory (tenant) ID>/`, where *<Directory (tenant) ID>* is the directory (tenant) ID of the application [you created](#create-an-app-registration-in-the-identity-provider). For example, if the directory (tenant) ID in the Azure portal is `7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb`, then the authority URL is `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/​`.
 
-    - **Authority**: Paste the issuer URL that's associated with the identity provider.​
-    - **Client ID​**: Paste the ID of the application [you created](#create-an-app-registration-in-the-identity-provider).
-    - **Redirect URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value. Be sure the value is exactly the same as the redirect URI of the application.
-    - **Metadata address**: Enter the discovery endpoint for obtaining metadata. A common format is `<Authority URL>/.well-known/openid-configuration`.
-    - **Scope**: Enter a space-separated list of scopes to request using the OpenID Connect `scope` parameter. The default value is `openid`. [Set up additional claims](openid-settings.md#set-up-additional-claims).
-    - **Response type**: Enter the value of the OpenID Connect `response_type` parameter. Possible values include `code`, `code id_token`, `id_token`, `id_token token`, and `code id_token token`. The default value is `code id_token`.
-    - **Client secret**: Paste the client secret from the provider application. It might also be referred to as an *app secret* or *consumer secret*. This setting is required if the response type is `code`.
-    - **Response mode**: Enter the value of the OpenID Connect *response_mode* parameter. It should be `query` if the response type is `code`. The default value is `form_post`.
-    - **External logout**: This setting controls whether your site uses federated sign-out. With federated sign-out, when users sign out of an application or site, they're also signed out of all applications and sites that use the same identity provider. Turn it on to redirect users to the federated sign-out experience when they sign out of your website. Turn it off to sign users out of your website only.
-    - **Post logout redirect URL**: Enter the URL where the identity provider should redirect users after they sign out. This location should be set appropriately in the identity provider configuration.
-    - **RP initiated logout**: This setting controls whether the relying party&mdash;the OpenID Connect client application&mdash;can sign out users. To use this setting, turn on **External logout**.
+- **Client ID​**: Paste the application or client ID of the application [you created](#create-an-app-registration-in-the-identity-provider).
 
-1. (Optional) Expand [**Additional settings**](#additional-settings-in-power-pages) and change the settings as needed.
+- **Redirect URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value. Be sure the value is exactly the same as the redirect URI of the application [you created](#create-an-app-registration-in-the-identity-provider).
 
-1. Select **Confirm**.
+- **Metadata address**: Paste the OpenID Connect metadata document URL [you copied](#create-an-app-registration-in-the-identity-provider).
+
+- **Scope**: Enter a space-separated list of scopes to request using the OpenID Connect `scope` parameter. The default value is `openid`.
+
+    The `openid` value is mandatory. [Learn about other claims you can add](openid-settings.md#set-up-additional-claims).
+
+- **Response type**: Enter the value of the OpenID Connect `response_type` parameter. Possible values include `code`, `code id_token`, `id_token`, `id_token token`, and `code id_token token`. The default value is `code id_token`.
+
+- **Client secret**: Paste the client secret from the provider application. It might also be referred to as an *app secret* or *consumer secret*. This setting is required if the response type is `code`.
+
+- **Response mode**: Enter the value of the OpenID Connect *response_mode* parameter. It should be `query` if the response type is `code`. The default value is `form_post`.
+
+- **External logout**: This setting controls whether your site uses federated sign-out. With federated sign-out, when users sign out of an application or site, they're also signed out of all applications and sites that use the same identity provider. Turn it on to redirect users to the federated sign-out experience when they sign out of your website. Turn it off to sign users out of your website only.
+
+- **Post logout redirect URL**: Enter the URL where the identity provider should redirect users after they sign out. This location should be set appropriately in the identity provider configuration.
+
+- **RP initiated logout**: This setting controls whether the relying party&mdash;the OpenID Connect client application&mdash;can sign out users. To use this setting, turn on **External logout**.
 
 ### Additional settings in Power Pages
 
@@ -116,5 +128,6 @@ The additional settings give you finer control over how users authenticate with 
 
 ### See also
 
-- [Set up an OpenID Connect provider with Azure AD](openid-settings.md)
-- [OpenID Connect FAQs](openid-faqs.md)
+[Set up the Azure AD B2C provider](azure-ad-b2c-provider.md)  
+[Set up the Azure AD provider](openid-settings.md)  
+[OpenID Connect FAQs](openid-faqs.md)
