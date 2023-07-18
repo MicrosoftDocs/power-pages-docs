@@ -532,13 +532,11 @@
       items:
         - name: Overview
           href: security/authentication/index.md
-        - name: Configure
+        - name: Set up site authentication
           href: security/authentication/configure-site.md
-        - name: Configure Azure AD B2C
-          href: security/authentication/azure-ad-b2c-provider.md
         - name: OAuth 2.0
           items:
-            - name: Configure OAuth 2.0
+            - name: Set up an OAuth 2.0 provider
               href: security/authentication/oauth2-provider.md
             - name: Microsoft
               href: security/authentication/oauth2-microsoft.md
@@ -556,11 +554,13 @@
               href: security/oauth-implicit-grant-flow.md
         - name: OpenID Connect
           items:
-            - name: Configure OpenID Connect
+            - name: Set up an OpenID Connect provider
               href: security/authentication/openid-provider.md
-            - name: Configure OpenID Connect for Azure AD
+            - name: Azure AD B2C
+              href: security/authentication/azure-ad-b2c-provider.md
+            - name: Azure AD
               href: security/authentication/openid-settings.md
-            - name: FAQs
+            - name: OpenID Connect FAQs
               href: security/authentication/openid-faqs.md
         - name: SAML 2.0
           items:

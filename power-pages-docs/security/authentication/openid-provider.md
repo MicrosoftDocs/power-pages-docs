@@ -1,11 +1,9 @@
 ---
-title: Configure an OpenID Connect provider for Power Pages
-description: Learn how to configure the OpenID Connect provider for Power Pages.
-author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
+title: Set up an OpenID Connect provider
+description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
 ms.date: 3/20/2023
+ms.topic: how-to
+author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
@@ -13,99 +11,110 @@ contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
     - nageshbhat-msft
+ms.custom: bap-template
 ---
 
-# Configure an OpenID Connect provider for Power Pages
+# Set up an OpenID Connect provider
 
-[OpenID Connect](https://openid.net/connect/) external identity providers are services that conform to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html). OpenID Connect introduces the concept of an *ID token*, which is a security token that allows the client to verify the identity of the user. The ID token also gets basic profile information about users&mdash;also known as *claims*.
+[OpenID Connect](https://openid.net/connect/) identity providers are services that conform to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html). OpenID Connect introduces the concept of an *ID token*. An ID token is a security token that allows a client to verify the identity of a user. It also gets basic profile information about users, known as *claims*.
 
-This article explains how an identity provider that supports OpenID Connect can be integrated with Power Pages. Some of the examples of OpenID Connect providers for Power Pages: [Azure Active Directory (Azure AD) B2C](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider), [Azure AD](openid-settings.md), [Azure AD with multiple tenants](openid-settings.md#enable-authentication-by-using-a-multitenant-azure-ad-application).
+OpenID Connect providers [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md), [Azure AD](openid-settings.md), and [Azure AD with multiple tenants](openid-settings.md#enable-authentication-by-using-a-multitenant-azure-ad-application) are built into Power Pages. This article explains how to add other OpenID Connect identity providers to your Power Pages site.
 
 ## Supported and unsupported authentication flows in Power Pages
 
-- Implicit Grant
-    - This flow is the default authentication method used by Power Pages.
-- Authorization Code
-    - Power Pages uses the *client_secret_post* method to communicate with the token endpoint of the identity server.
-    - Using the *private_key_jwt* method to authenticate with the token endpoint isn't supported.
+- Implicit grant
+  - This flow is the default authentication method for Power Pages sites.
+- Authorization code
+  - Power Pages uses the *client_secret_post* method to communicate with the identity server's token endpoint.
+  - The *private_key_jwt* method to authenticate with the token endpoint isn't supported.
 - Hybrid (restricted support)
-    - Power Pages requires *id_token* to be present in the response, so having the *response_type* value as *code token* isn't supported.
-    - The Hybrid flow in Power Pages follows the same flow as Implicit Grant, and uses *id_token* to directly sign in the users.
-- Power Pages doesn't support Proof Key for Code Exchange (PKCE)&ndash;based techniques to authenticate users.
+  - Power Pages requires *id_token* to be present in the response, so *response_type* = *code token* isn't supported.
+  - The hybrid flow in Power Pages follows the same flow as implicit grant, and uses *id_token* to directly sign in users.
+- Proof Key for Code Exchange (PKCE)
+  - PKCE&ndash;based techniques to authenticate users aren't supported.
 
 > [!NOTE]
-> Changes to authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. Restart the portal by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-## Configure the OpenID Connect provider
+## Set up the OpenID Connect provider in Power Pages
 
-To configure the OpenID Connect provider, sign in to [Power Pages](https://make.powerpages.microsoft.com) and navigate to the [Set up workspace](../../configure/setup-workspace.md).
+1. In your Power Pages site, select **Set up** > **Identity providers**.
 
-1. Select [New provider](configure-site.md) for your website.
+    If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
-1. For **Login provider**, select **Other**.
+1. Select **+ New provider**.
 
-1. For **Protocol**, select **OpenID Connect**.
+1. Under **Select login provider**, select **Other**.
 
-1. Enter a provider name.
+1. Under **Protocol**, select **OpenID Connect**.
+
+1. Enter a name for the provider.
+
+  The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
 1. Select **Next**.
 
-1. Create the application, and configure the settings with your identity provider.
+1. Under **Reply URL**, select **Copy**.
 
-    > [!NOTE]
-    > The Reply URL is used by the app to redirect users to the portal after the authentication succeeds. If your portal uses a custom domain name, you might have a different URL than the one provided here.
+    Don't close your Power Pages browser tab. You'll return to it soon.
 
-    :::image type="content" source="../media/authentication/openid-connect-provider-settings.jpg" alt-text="OpenID connect provider settings.":::
+## Create an app registration in the identity provider
 
-1. Enter the following site settings for portal configuration.
+1. Create and register an application with your identity provider using the reply URL [you copied](#set-up-the-openid-connect-provider-in-power-pages).
 
-    > [!NOTE]
-    > Be sure to review&mdash;and if required, change&mdash;the default values.
+1. Change the settings your identity provider requires.
 
-    :::image type="content" source="../media/authentication/openid-connect.jpg" alt-text="OpenID connect site settings.":::
+## Enter site settings in Power Pages
 
-    | Name | Description |
-    | - | - |
-    | Authority | The authority (or issuer) URL associated with the identity provider. <br /> Example (Azure AD) : `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/` |
-    | Client ID | The ID of the application created with the identity provider that's to be used with the portal. |
-    | Redirect URL | The location where the identity provider will send the authentication response. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-openid_1` <br> **Note**: If you're using the default portal URL, you can copy and paste the **Reply URL** as shown in the **Create and configure OpenID Connect provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the **Redirect URI** value for the application in the identity provider configuration (such as Azure portal). |
-    | Metadata address | The discovery endpoint for obtaining metadata. Common format: [Authority URL]/.well-known/openid-configuration. <br> Example (Azure AD) : `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/v2.0/.well-known/openid-configuration` |
-    | Scope | A space-separated list of scopes to request via the OpenID Connect scope parameter. <br /> Default value: `openid` <br /> Example (Azure AD) : `openid profile email` <br /> More information: [Configure additional claims](openid-settings.md#configure-additional-claims)|
-    | Response type | The value for the OpenID Connect *response_type* parameter. <br /> Possible values include: <ul> <li> `code` </li> <li> `code id_token` </li><li> `id_token` </li><li> `id_token token` </li><li> `code id_token token` </li> </ul> <br /> Default value: `code id_token` |
-    | Client secret | The client secret value from the provider application. This might also be referred to as an *app secret* or *consumer secret*. This setting is required if the selected response type is `code`. |
-    | Response mode | The value for the OpenID Connect *response_mode* parameter. The value should be `query` if the selected response type is `code`. Default value: `form_post`. |
+1. Return to the Power Pages **Configure identity provider** page you left earlier.
 
-1. Configure settings for signing users out.
+1. Under **Configure site settings**, enter the following values:
 
-    | Name | Description |
-    | - | - |
-    | External logout | Enables or disables external account sign-out. When enabled, users are redirected to the external sign-out user experience when they sign out from the portal. When disabled, users are only signed out from the portal. |
-    | Post logout redirect URL | The location where the identity provider will redirect a user after external sign-out. This location should be set appropriately in the identity provider configuration. |
-    | RP initiated logout | Enables or disables a sign-out initiated by the relying party. To use this setting, enable **External logout** first. |
+    - **Authority**: Paste the issuer URL that's associated with the identity provider.​
+    - **Client ID​**: Paste the ID of the application [you created](#create-an-app-registration-in-the-identity-provider).
+    - **Redirect URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value. Be sure the value is exactly the same as the redirect URI of the application.
+    - **Metadata address**: Enter the discovery endpoint for obtaining metadata. A common format is `<Authority URL>/.well-known/openid-configuration`.
+    - **Scope**: Enter a space-separated list of scopes to request using the OpenID Connect `scope` parameter. The default value is `openid`. [Set up additional claims](openid-settings.md#set-up-additional-claims).
+    - **Response type**: Enter the value of the OpenID Connect `response_type` parameter. Possible values include `code`, `code id_token`, `id_token`, `id_token token`, and `code id_token token`. The default value is `code id_token`.
+    - **Client secret**: Paste the client secret from the provider application. It might also be referred to as an *app secret* or *consumer secret*. This setting is required if the response type is `code`.
+    - **Response mode**: Enter the value of the OpenID Connect *response_mode* parameter. It should be `query` if the response type is `code`. The default value is `form_post`.
+    - **External logout**: This setting controls whether your site uses federated sign-out. With federated sign-out, when users sign out of an application or site, they're also signed out of all applications and sites that use the same identity provider. Turn it on to redirect users to the federated sign-out experience when they sign out of your website. Turn it off to sign users out of your website only.
+    - **Post logout redirect URL**: Enter the URL where the identity provider should redirect users after they sign out. This location should be set appropriately in the identity provider configuration.
+    - **RP initiated logout**: This setting controls whether the relying party&mdash;the OpenID Connect client application&mdash;can sign out users. To use this setting, turn on **External logout**.
 
-1. Configure additional settings (optional)
+1. (Optional) Expand [**Additional settings**](#additional-settings-in-power-pages) and change the settings as needed.
 
-    | Name | Description
-    | - | - |
-    | Issuer filter | A wildcard-based filter that matches on all issuers across all tenants. <br /> Example: `https://sts.windows.net/*/` |
-    | Validate audience | If enabled, the audience is validated during token validation.  |
-    | Valid audiences | Comma-separated list of audience URLs.  |
-    | Validate issuers | If enabled, the issuer is validated during token validation. |
-    | Valid issuers | Comma-separated list of issuer URLs. |
-    | Registration claims mapping | List of logical name-claim pairs to map claim values returned from the provider during sign-up to the attributes of the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in Power Pages, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> Example: `firstname=given_name,lastname=family_name` when using *Scope* as `profile` for Azure AD. In this example, `firstname` and `lastname` are the logical names for the profile fields in Power Pages, whereas `given_name` and `family_name` are the attributes with the values returned by the identity provider for the respective fields. |
-    | Login claims mapping | List of logical name-claim pairs to map claim values returned from the provider during every sign-in to the attributes of the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in Power Pages, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> Example: `firstname=given_name,lastname=family_name` when using *Scope* as `profile` for Azure AD. In this example, `firstname` and `lastname` are the logical names for the profile fields in Power Pages, whereas `given_name` and `family_name` are the attributes with the values returned by the identity provider for the respective fields. |
-    | Nonce lifetime | Lifetime of the nonce value, in minutes. Default: 10 minutes. |
-    | Use token lifetime | Indicates that the authentication session lifetime (such as cookies) should match that of the authentication token. If specified, this value will override the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting. |
-    | Contact mapping with email | Specify whether the contacts are mapped to a corresponding email. <br /> When set to **On**, a unique contact record is associated with a matching email address, assigning the external identity provider to the contact after a successful user sign-in. |
+1. Select **Confirm**.
 
-    > [!Note]
-    > *UI_Locales* request parameter will now be sent automatically in the authentication request and will be set to the language selected on the portal.
+### Additional settings in Power Pages
 
-## Edit an OpenID Connect provider
+The additional settings give you finer control over how users authenticate with your OpenID Connect identity provider. You don't need to set any of these values. They're entirely optional.
 
-To edit a configured OpenID Connect provider, see [Edit a provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#edit-a-provider).
+- **Issuer filter**: Enter a wildcard-based filter that matches on all issuers across all tenants; for example, `https://sts.windows.net/*/`.
+
+- **Validate audience**: Turn on this setting to validate the audience during token validation.
+
+- **Valid audiences**: Enter a comma-separated list of audience URLs.
+
+- **Validate issuers**: Turn on this setting to validate the issuer during token validation.
+
+- **Valid issuers**: Enter a comma-separated list of issuer URLs.
+
+- **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information that's included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
+
+- **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.<!-- EDITOR'S NOTE: In the UI, the example is "HH:MM:SS" not minutes. Can you please submit a ticket to the engineering team to fix this? -->
+
+- **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication** > **ApplicationCookie** > **ExpireTimeSpan** site setting.
+
+- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
+
+  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
+  - **Off**: <!-- EDITOR'S NOTE: I couldn't find an explanation for this setting that's any clearer than what's here. What happens if this setting is left off? And what does it mean when it's turned on? -->
+
+> [!Note]
+> The *UI_Locales* request parameter is sent automatically in the authentication request and is set to the language selected on the portal.
 
 ### See also
 
-- [Configure an OpenID Connect provider for Power Pages with Azure AD](openid-settings.md)
-- [FAQs for using OpenID Connect in Power Pages](openid-faqs.md)
+- [Set up an OpenID Connect provider with Azure AD](openid-settings.md)
+- [OpenID Connect FAQs](openid-faqs.md)
