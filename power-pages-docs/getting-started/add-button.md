@@ -1,12 +1,12 @@
 ---
 title: Add buttons
 description: Learn how to add buttons to your Power Pages site.
-author: nickdoelman
+author: clromano
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/08/2022
 ms.subservice:
-ms.author: ndoelman 
+ms.author: clromano
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
@@ -29,11 +29,11 @@ To add a button:
 
     :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
 
-1. Specify the button label. This label will show up on the button component itself.
+1. Specify the button label. This label displays on the button component.
 
 1. Select whether the button will redirect a user to a specified URL or to a page within a Power Pages site.
 
-1. Select the button, and editing options will appear.
+1. Select the button, and editing options appear.
 
     :::image type="content" source="media/first-page/edit-button.png" alt-text="The button editing options menu."::: 
 

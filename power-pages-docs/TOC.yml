@@ -248,6 +248,8 @@
               href: admin/site-checker-startup-issue.md
             - name: Provisioning issues
               href: admin/site-checker-provisioning-issues.md
+            - name: Security issues
+              href: security/site-checker-security.md
     - name: Manage website authentication key
       href: admin/manage-auth-key.md
     - name: Update, upgrade, migrate and convert websites
@@ -651,13 +653,13 @@
 - name: Responsible AI
   items:
     - name: Overview
-      href: transparency-note.md
-    - name: Transparency note for chatbot
-      href: transparency-note-chatbot.md
-    - name: Transparency note for generating text
-      href: transparency-note-generate-text.md
-    - name: Transparency note for creating form
-      href: transparency-note-create-form.md             
+      href: responsible-ai-overview.md
+    - name: FAQ for chatbot
+      href: faqs-chatbot.md
+    - name: FAQ for generating text
+      href: faqs-generate-text.md
+    - name: FAQ for creating form
+      href: faqs-create-form.md             
 - name: Compliance and accessibility
   items:
     - name: Accessibility
