@@ -86,6 +86,7 @@ The specific identity provider you plan to use has its own settings that you nee
 
     If the provider you want to use isn't listed, [add it](#add-an-identity-provider).
 
+
 1. Leave the provider name as it is or change it if you like.
 
     The provider name is the text on the button that users see when they select their identity provider on the sign-in page.

@@ -1,15 +1,16 @@
 ---
 title: Cookies in Power Pages
 description: Learn about cookies used by Power Pages.
-author: neerajnandwana-msft
+author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 2/07/2023
 ms.subservice: 
-ms.author: nenandw
+ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
+    - nageshbhat-msft
     - neerajnandwana-msft
     - nickdoelman
     - ProfessorKendrick
@@ -27,7 +28,7 @@ Power Pages also use cookies to store information for various purposes. The foll
 | .AspNet.ApplicationCookie | Used to identify user sessions. A user session starts when a user browses website for the first time. And ends when the session is closed. [Configure authentication](../security/authentication/configure-site.md) can be used to change session expiry time span. | Session |
 | adxPreviewUnpublishedEntities | Stores preview **ON/OFF** mode used in classic CMS system for website administrators. | Session |
 | adx-notification | Used in basic form actions to store alert message to be shown on redirection. | Session |
-| ARRAffinity | Added automatically by Azure websites and ensures that requests are load balanced between different sites. Doesn't store any of user information. | Session |
+| ARRAffinity</br>ARRAffinitySameSite | Added automatically by Azure websites and ensures that requests are load balanced between different sites. Doesn't store any of user information. You may see either the  ARRAffinity or ARRAffinitySameSite cookie depending on your browser.  | Session |
 | ASP.NET_SessionId | Used to maintain the session of a logged in user to avoid repeated sign-in. | Session |
 | ContextLanguageCode | Stores the default language of the user accessing website within a session and across webpages. The cookie is deleted after session closes. | Session |
 | Dynamics365PortalAnalytics | Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose. | 90 days |
