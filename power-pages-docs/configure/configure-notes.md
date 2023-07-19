@@ -39,7 +39,11 @@ To add the ability to view notes and attachments on basic and multistep forms, y
 
 ## Notes configuration for basic forms
 
-You can further configure the timeline control to allow site users to add, update, or delete notes and attachments by configuring the form metadata using the Portal Management app. 
+If you simply want to provide a file upload control, this can be accomplished using form [additional settings](basic-forms.md#additional-settings) or by enabling attachments using the [design studio](../getting-started/add-form.md#enable-attachments-on-a-form).
+
+Adding a timeline control will allow users to view the attachments.
+
+You can further configure the timeline control to allow site users to add, update, or delete notes and attachments by configuring the form metadata using the Portal Management app.
 
 1. Open the [Portal Management app](portal-management-app.md)
 
