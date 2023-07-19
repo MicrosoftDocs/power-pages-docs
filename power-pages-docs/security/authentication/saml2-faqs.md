@@ -1,11 +1,9 @@
 ---
-title: FAQs for using SAML 2.0 in Power Pages
-description: Learn about Frequently Asked Questions when using SAML 2.0 providers for authentication in Power Pages.
-author: dileepsinghmicrosoft
-
-ms.topic: conceptual
-ms.custom: 
+title: FAQs about using SAML 2.0 in Power Pages
+description: Get answers to frequently asked questions about using SAML 2.0 providers for authentication on sites you create with Microsoft Power Pages.
 ms.date: 3/20/2023
+ms.topic: how-to
+author: dileepsinghmicrosoft
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
@@ -13,11 +11,12 @@ contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
     - ProfessorKendrick
+ms.custom: bap-template
 ---
 
-# FAQs for using SAML 2.0 in Power Pages
+# FAQs about using SAML 2.0 in Power Pages
 
-This article includes information about common Power Pages scenarios and frequently asked questions for using an authentication provider that conforms to the Security Assertion Markup Language (SAML) 2.0 standard.
+This article provides information about common Power Pages scenarios and answers to frequently asked questions about using an authentication provider that conforms to the Security Assertion Markup Language (SAML) 2.0 standard.
 
 ## Does Power Pages support SAML 1.0&ndash;based providers?
 

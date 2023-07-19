@@ -564,13 +564,13 @@
               href: security/authentication/openid-faqs.md
         - name: SAML 2.0
           items:
-            - name: Configure SAML 2.0
+            - name: Set up a SAML 2.0 provider
               href: security/authentication/saml2-provider.md
-            - name: Configure SAML 2.0 for Azure AD
+            - name: Azure AD
               href: security/authentication/saml2-settings-azure-ad.md
-            - name: Configure SAML 2.0 for AD FS
+            - name: Active Directory Federation Services (AD FS)
               href: security/authentication/saml2-settings.md
-            - name: FAQs
+            - name: SAML 2.0 FAQs
               href: security/authentication/saml2-faqs.md
         - name: WS Federation
           items:

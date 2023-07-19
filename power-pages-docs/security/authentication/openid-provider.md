@@ -64,9 +64,7 @@ OpenID Connect providers [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-pr
 
 1. Copy the application or client ID and the client secret.
 
-1. Select **Endpoints** at the top of the page.
-
-1. Find the **OpenID Connect metadata document** URL and select the copy icon.
+1. Find the application's endpoints and copy the **OpenID Connect metadata document** URL.
 
 1. Change other settings as needed for your identity provider.
 
@@ -128,6 +126,6 @@ The additional settings give you finer control over how users authenticate with 
 
 ### See also
 
-[Set up the Azure AD B2C provider](azure-ad-b2c-provider.md)  
-[Set up the Azure AD provider](openid-settings.md)  
+[Set up an OpenID Connect provider with Azure AD B2C](azure-ad-b2c-provider.md)  
+[Set up an OpenID Connect provider with Azure AD](openid-settings.md)  
 [OpenID Connect FAQs](openid-faqs.md)

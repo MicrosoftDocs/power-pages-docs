@@ -1,6 +1,6 @@
 ---
-title: Set up the Azure AD provider
-description: Learn how to set up the Azure Active Directory (Azure AD) identity provider for use with sites you create with Microsoft Power Pages.
+title: Set up an OpenID Connect provider with Azure AD
+description: Learn how to set up an OpenID Connect identity provider with Azure Active Directory (Azure AD) for use with sites you create with Microsoft Power Pages.
 ms.date: 06/15/2023
 ms.topic: how-to
 author: sandhangitmsft
@@ -13,9 +13,9 @@ contributors:
     - nageshbhat-msft
 ms.custom: bap-template
 ---
-<!-- EDITOR'S NOTE: For consistency with other auth setup articles, please rename this file to azure-ad-provider.md. -->
+<!-- EDITOR'S NOTE: For consistency with other auth setup articles, please rename this file to openid-azure-ad-provider.md. -->
 
-# Set up the Azure AD provider
+# Set up an OpenID Connect provider with Azure AD
 
 Azure Active Directory (Azure AD) is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. Along with Azure AD, multitenant Azure AD, and Azure AD B2C, you can use any other provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
 
@@ -45,7 +45,7 @@ Set Azure AD as an identity provider for your site.
 
 1. Enter a name for the provider; for example, *Azure AD*.
 
-  The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
+    The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
 1. Select **Next**.
 
