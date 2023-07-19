@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider with Azure AD
 description: Learn how to set up an OpenID Connect identity provider with Azure Active Directory (Azure AD) for use with sites you create with Microsoft Power Pages.
-ms.date: 06/15/2023
+ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -72,8 +72,7 @@ Set Azure AD as an identity provider for your site.
 1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
 
     - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-in-power-pages).
-    - If you're using a custom domain name, enter the custom URL.
-        Be sure to use the same custom URL for the redirect URL in the settings for the Azure AD B2C provider on your site. For example, if you enter the reply URL in the Azure portal as `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`, use the same value for the redirect URL in the Azure AD configuration in Power Pages.
+    - If you're using a custom domain name, enter the custom URL. Be sure to use the same custom URL for the redirect URL in the settings for the identity provider on your site.
 
 1. Select **Register**.
 

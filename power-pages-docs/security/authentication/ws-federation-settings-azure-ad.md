@@ -1,11 +1,9 @@
 ---
-title: Configure a WS-Federation provider for Power Pages with Azure AD
-description: Learn how to configure WS-Federation for Power Pages with Azure Active Directory.
+title: Set up a WS-Federation provider with Azure AD
+description: Learn how to set up a WS-Federation identity provider with Azure Active Directory (Azure AD) for use with sites you create with Microsoft Power Pages.
+ms.date: 07/19/2023
+ms.topic: how-to
 author: nageshbhat-msft
-
-ms.topic: conceptual
-ms.custom: 
-ms.date: 3/20/2023
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -13,119 +11,128 @@ contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
     - nageshbhat-msft
+ms.custom: bap-template
 ---
+<!-- EDITOR'S NOTE: For consistency with other auth setup articles, please rename this file to ws-federation-azure-ad-provider.md. -->
 
-# Configure a WS-Federation provider for Power Pages with Azure AD
+# Set up a WS-Federation provider with Azure AD
 
-In this article, you'll learn about configuring a WS-Federation provider for Power Pages by using Azure Active Directory (Azure AD).
+Azure Active Directory (Azure AD) is one of the WS-Federation identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. You can use any provider that conforms to the WS-Federation specification.
+
+This article describes the following steps:
+
+- [Set up Azure AD in Power Pages](#set-up-azure-ad-in-power-pages)
+- [Create an app registration in Azure](#create-an-app-registration-in-azure)
+- [Enter site settings in Power Pages](#enter-site-settings-in-power-pages)
 
 > [!NOTE]
-> - The Power Pages feature isn't limited to only Azure AD, multitenant Azure AD, or Azure AD B2C as the WS-Federation providers. You can use any other provider that conforms to the WS-Federation specification.
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-To configure Azure AD as the WS-Federation provider, sign in to [Power Pages](https://make.powerpages.microsoft.com) and navigate to the [Set up workspace](../../configure/setup-workspace.md).
+## Set up Azure AD in Power Pages
 
-1. Select [New provider](configure-site.md) for your website.
+Set Azure AD as an identity provider for your site.
 
-1. For **Login provider**, select **Other**.
+1. In your Power Pages site, select **Set up** > **Identity providers**.
 
-1. For **Protocol**, select **WS-Federation**.
+    If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
-1. Enter a provider name.
+1. Select **+ New provider**.
+
+1. Under **Select login provider**, select **Other**.
+
+1. Under **Protocol**, select **WS-Federation**.
+
+1. Enter a name for the provider; for example, *Azure AD*.
+
+    The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
 1. Select **Next**.
 
-1. In this step, you create the application and configure the settings with your identity provider.
+1. Under **Reply URL**, select **Copy**.
 
-    > [!NOTE]
-    > - The Reply URL is used by the app to redirect users to the website after the authentication succeeds. If your website uses a custom domain name, you might have a different URL than the one provided here.
-    > - More details about creating the app registration on the Azure portal are available in [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
+    Don't close your Power Pages browser tab. You'll return to it soon.
 
-    1. Sign in to the [Azure portal](https://portal.azure.com).
+## Create an app registration in Azure
 
-    1. Search for and select **Azure Active Directory**.
+[Create an app registration in the Azure portal](/azure/active-directory/develop/quickstart-register-app) with your site's reply URL as the redirect URI.
 
-    1. Under **Manage**, select **App registrations**.
+1. Sign in to the [Azure portal](https://portal.azure.com).
 
-    1. Select **New registration**.
+1. Search for and select **Azure Active Directory**.
 
-    1. Enter a name.
+1. Under **Manage**, select **App registrations**.
 
-    1. If necessary, select a different **Supported account type**. More information: [Supported account types](/azure/active-directory/develop/quickstart-register-app)
+1. Select **New registration**.
 
-    1. Under **Redirect URI**, select **Web** (if it isn't already selected).
+1. Enter a name.
 
-    1. Enter the **Reply URL** for your website in the **Redirect URI** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-wsfederation_1`
+1. Select one of the [**Supported account types**](/azure/active-directory/develop/quickstart-register-app) that best reflects your organization requirements.
 
-        > [!NOTE]
-        > If you're using the default website URL, copy and paste the **Reply URL** as shown in the **Create and configure WS-Federation provider settings** section on the **Configure identity provider** screen (step 6 above). If you're using a custom domain name for the website, enter the custom URL. Be sure to use this value when you configure the **Assertion consumer service URL** in your website settings while configuring the WS-Federation provider. <br /> For example, if you enter the **Reply URL** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-wsfederation_1`, you must use it as-is for the WS-Federation configuration in Power Pages.
+1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
 
-    1. Select **Register**.
+    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-in-power-pages).
+    - If you're using a custom domain name, enter the custom URL. Be sure to use the same custom URL for the assertion service consumer URL in the settings for the identity provider on your site.
 
-    1. Select **Expose an API**.
+1. Select **Register**.
 
-    1. For **Application ID URI**, select **Set**.
+1. Select **Endpoints** at the top of the page.
 
-    > [!IMPORTANT]
-    > Due to a recent update, the APP ID URI must be the auto-generated URI or a verified custom domain name.
+1. Find the **Federation metadata document** URL and select the copy icon.
 
-    1. To use the auto-generated URI, select **Save**. You'll need to [manually update the value](#update-app-id-uri-in-site-settings) in site settings after you configure settings using the studio.
-       
-    1. If you're using a custom domain name, enter the website URL as the **App ID URI**.
+1. In the left side panel, select **Expose an API**.
 
-    1. Select **Save**.
+1. To the right of **Application ID URI**, select **Add**.
 
-    1. Keep the Azure portal open, and switch to the WS-Federation configuration for Power Pages for the next steps.
+1. If you're using a custom domain name, enter your site URL. Otherwise, leave the auto-generated URI. You'll need to [change the app ID URI](#update-app-id-uri-in-site-settings) in your site settings to match.
 
-1. In this step, you enter the site settings for the website configuration.
+    Due to a recent update, the app ID URI must be the auto-generated URI or a verified custom domain name.
 
-    > [!TIP]
-    > If you closed the browser window after configuring the app registration in the earlier step, sign in to the Azure portal again and go to the app that you registered.
+1. Select **Save**.
 
-    1. **Metadata address**: To configure the metadata address, do the following:
+1. In a new browser tab, paste the federation metadata document URL you copied earlier.
 
-        1. Select **Overview** in the Azure portal.
+1. Copy the value of the `entityID` tag in the document.
 
-        1. Select **Endpoints**.
+## Enter site settings in Power Pages
 
-        1. Copy the URL for **Federation metadata document**.
+Return to the Power Pages **Configure identity provider** page you left earlier and enter the following values. Optionally, change the [**additional settings**](#additional-settings-in-power-pages) as needed. Select **Confirm** when you're finished.
 
-        1. Paste the copied document URL as the **Metadata address** for Power Pages.
+- **Metadata address**: Paste the federation metadata document URL [you copied](#create-an-app-registration-in-azure).
 
-    1. **Authentication type**: To configure the authentication type, do the following:
+- **Authentication type**: Paste the `entityID` value [you copied](#create-an-app-registration-in-azure).
 
-        1. Copy and paste the **Metadata address** configured earlier in a new browser window.
+- **Service provider realm**: Enter your site's URL.
 
-        1. Copy the value of `entityID` tag from the URL document.
+- **Assertion service consumer URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value, which should be your site's reply URL. Be sure the value is exactly the same as the redirect URI of the application [you created](#create-an-app-registration-in-azure).
 
-        1. Paste the copied value of `entityID` as the **Authentication type**. <br /> Example: `https://sts.windows.net/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/`
+### Additional settings in Power Pages
 
-    1. **Service provider realm**: Enter the custom website URL as the service provider realm. <br /> Example: `https://portal.contoso.com`
-    
-        > [!NOTE]
-        > If you selected to use the auto-generated App ID URI, leave the default value and you will need to manually update this value using the [Portal Management app](#update-app-id-uri-in-site-settings) after you save the values on this window.
-        
-    1. **Assertion consumer service URL**: Enter the **Reply URL** for your website in the **Assertion consumer service URL** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-wsfederation_1`
+The additional settings give you finer control over how users authenticate with your SAML 2.0 identity provider. You don't need to set any of these values. They're entirely optional.
 
-        > [!NOTE]
-        > If you're using the default website URL, you can copy and paste the **Reply URL** as shown in the **Create and configure WS-Federation provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the value you entered as the **Redirect URI** in the Azure portal earlier.
+- **Sign-out reply**: Enter the URL to return to after the user signs out.
 
-1. Select **Confirm**.
+- **Validate audience**: Turn on this setting to validate the audience during token validation.
 
-1. Select **Close**.
+- **Valid audiences**: Enter a comma-separated list of audience URLs.
 
-### Update App ID URI in site settings
+- **WHR**: Enter the home realm of the identity provider. This value sets the WS-Federation sign-in request [`whr` parameter](/dotnet/framework/configure-apps/file-schema/windows-identity-foundation/wsfederation). If this setting is empty, the `whr` parameter isn't included in the request.
 
-1. If you're using the auto-generated URI for the App ID URI, you'll need to update the value in site settings.
-    
-    1. Open the Portal Management app.
-    1. Navigate to **Site Settings**.
-    1. Update the site setting **Authentication/WsFederation/WSFederation_1/Wtrealm** with the auto-generated **APP ID URI**
-    1. Select **Save**
+- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
+
+  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
+  - **Off**: <!-- EDITOR'S NOTE: I couldn't find an explanation for this setting that's any clearer than what's here. What happens if this setting is left off? And what does it mean when it's turned on? -->
+
+### Update app ID URI in site settings
+
+If you're using the auto-generated URI for the app ID URI, you'll need to change the value in your site settings.
+
+1. Open the Portal Management app and go to **Site Settings**.
+
+1. Change the value of the site setting **Authentication** > **WsFederation** > **WSFederation_1** > **Wtrealm** to the auto-generated app ID URI.
+
+1. Select **Save**.
 
 ### See also
 
-- [Configure a WS-Federation provider for Power Pages](ws-federation-provider.md)
-- [Configure a WS-Federation provider for Power Pages with AD FS](ws-federation-settings.md)
-
-
+[Set up a WS-Federation provider](ws-federation-provider.md)  
+[Set up a WS-Federation provider with AD FS](ws-federation-settings.md)

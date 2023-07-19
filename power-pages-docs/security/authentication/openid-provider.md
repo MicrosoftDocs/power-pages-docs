@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider
 description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
-ms.date: 3/20/2023
+ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -50,7 +50,7 @@ OpenID Connect providers [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-pr
 
 1. Enter a name for the provider.
 
-  The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
+    The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
 1. Select **Next**.
 

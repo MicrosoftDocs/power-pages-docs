@@ -1,7 +1,7 @@
 ---
 title: Additional settings for OAuth 2.0 providers
 description: Learn about additional settings you can change when you add an OAuth 2.0 provider to sites you create with Microsoft Power Pages.
-ms.date: 3/6/2023
+ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan

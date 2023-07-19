@@ -1,7 +1,7 @@
 ---
 title: Set up a SAML 2.0 provider
 description: Learn how to set up a SAML 2.0 provider for use with sites you create with Microsoft Power Pages.
-ms.date: 3/20/2023
+ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -87,4 +87,4 @@ The additional settings give you finer control over how users authenticate with 
 
 [Set up a SAML 2.0 provider with Azure AD](saml2-settings-azure-ad.md)  
 [Set up a SAML 2.0 provider with AD FS](saml2-settings.md)  
-[SAML 2.0 FAQs](saml2-faqs.md)
+[SAML 2.0 FAQ](saml2-faqs.md)

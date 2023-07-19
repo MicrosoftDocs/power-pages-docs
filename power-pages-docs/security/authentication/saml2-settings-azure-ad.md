@@ -1,7 +1,7 @@
 ---
 title: Set up a SAML 2.0 provider with Azure AD
 description: Learn how to set up a SAML 2.0 identity provider with Azure Active Directory (Azure AD) for use with sites you create with Microsoft Power Pages.
-ms.date: 3/20/2023
+ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
