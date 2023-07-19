@@ -19,11 +19,12 @@ contributors:
 A Power Pages website is always created as a trial. A trial website, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the website is suspended and shut down. Seven days after it's suspended, the trial website host is deleted. You'll be notified at every stage of the website lifecycle; nearing suspension, suspended, deleted, and converted from trial to production; through toast notifications and email.
 
 > [!NOTE]
-> The process of [converting](convert-site.md) a website is a different process than [migrating](migrate-site-configuration.md) a website.
+> - The process of [converting](convert-site.md) a website is a different process than [migrating](migrate-site-configuration.md) a website.
+> - Note the difference between developer, trial, and production **websites** and developer, trial, sandbox, and production **environments**.
 
 As an administrator, you can **convert** a trial or suspended website to a production website. When converting a website from trial to production, you must ensure that the Power Platform environment is also a production or a sandbox environment. You can't convert a trial website to production in a trial or developer Power Platform environment. If you delete the Power Platform environment in which a trial website is created, the website is also deleted.
 
-You cannot [convert](convert-site.md) a developer website to a production website, but you can [migrate](migrate-site-configuration.md) a trial, developer, production website to another trial, developer, or production website.
+You can't [convert](convert-site.md) a developer website to a production website, but you can [migrate](migrate-site-configuration.md) a trial, developer, production website to another trial, developer, or production website on the same or another environment. Note that a production website will need to be provisioned on a sandbox or production environment.
 
 ### Understanding website lifecycle stages
 
