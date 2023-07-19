@@ -5,9 +5,9 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/18/2023
+ms.date: 07/19/2023
 ms.subservice: 
-ms.author: gsingh
+ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
@@ -16,16 +16,20 @@ contributors:
 
 # Set up telemetry monitoring
 
-## Set up telemetry monitoring using the standard data model
+You can use a telemetry tracking code in your Power Pages site to monitor specific traffic analytics and trends.
 
-You can place the telemetry tracking HTML/JS snippet of code in the **Enable Traffic Analytics** area in the Portal Management app. 
+To enable telemetry monitoring on your website:
 
-Open the [Portal Management app](../configure/portal-management-app.md) and navigate to the **Enable Traffic Analysis** section. Enter the snippet from your analytics provider.
+1. Open the [Power Pages Management app](../configure/portal-management-app.md).
+1. Navigate to the **Content Snippets** section.
+1. Create a new **Content Snippet** called **Tracking Code** of **type** = **Text**.
+1. Leave the **Content Snippet Language** value blank.
+1. Place the telemetry tracking HTML/JS snippet of code from the telemetry provider into the **Value** box.
 
-:::image type="content" source="media/portal-analytics.png" alt-text="Portal analytics.":::
+:::image type="content" source="media/traffic-analysis.png" alt-text="Enabling traffic analysis.":::
 
-## Set up telemetry monitoring using the enhanced data model
+Traffic on the website should now be monitored by the telemetry provider.
 
-1. Open the [Power Pages Management app](../configure/portal-management-app.md) and 
-1. Navigate to the **Content Snippets** section. 
-1. Create a new **Content Snippet** called **
+## See also
+
+- [Enable Azure Monitor Application Insights Real User Monitoring](/azure/azure-monitor/app/javascript-sdk)

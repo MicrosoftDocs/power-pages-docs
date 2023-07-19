@@ -618,6 +618,8 @@
   items:
     - name: Go live checklist
       href: go-live/checklist.md
+    - name: Set up telemetry monitoring
+      href: go-live/telemetry-monitoring.md      
     - name: Licensing
       href: go-live/assign-licensing.md
 - name: Tutorials
