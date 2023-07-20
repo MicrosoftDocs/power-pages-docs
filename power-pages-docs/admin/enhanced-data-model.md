@@ -33,6 +33,25 @@ The enhanced data model for Power Pages provides the following benefits:
 
 The enhanced data model is combination of system tables, a collection of nonconfiguration tables, and a set of virtual tables.
 
+### Determine if your site is using standard or enhanced data model
+
+You can see which data model your site is using by going to the [Power Platform admin center](https://aka.ms/ppac), go to **Resources** > **Power Pages sites**, select your site, select **Manage** and the **Data Model** value in the **Site Details** indicate what data model the site is using.
+
+:::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Site details.":::
+
+You'll also be able to view the data model being used from with the **Setup** workspace in the design studio.
+
+You can also identify the data model used by opening the **Portal Management app** application as the new data model application name will be **Power Pages Management** instead of **Portal Management** application. 
+
+:::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::
+
+When using the [Power Platform CLI](../configure/power-platform-cli.md), you're able to view which data model is being used by site with the following command:
+
+`pac paportal list -v`
+
+> [!NOTE]
+> This parameter is supported from Power Platform CLI version 1.22.4 onwards.
+
 ### System tables
 
 The system tables are Power Pages specific solution aware tables present in all Dataverse environments. These system tables can't be modified.
@@ -142,22 +161,7 @@ You're redirected to the Power pages home page, and the new site appears in the 
 
 You can see the newly created site from the Power Pages home.
 
-The new data model sites are at functional parity, you can see which data model your site is using by going to the [Power Platform admin center](https://aka.ms/ppac), go to **Resources** > **Power Pages sites**, select your site, select **Manage** and the **Data Model** value in the **Site Details** indicate what data model the site is using.
-
-:::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Site details.":::
-
-You'll also be able to view the data model being used from with the **Setup** workspace in the design studio.
-
-You can also identify the data model used by opening the **Portal Management app** application as the new data model application name will be **Power Pages Management** instead of **Portal Management** application. 
-
-:::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::
-
-When using the [Power Platform CLI](../configure/power-platform-cli.md), you're able to view which data model is being used by site with the following command:
-
-`pac paportal list -v`
-
-> [!NOTE]
-> This parameter is supported from Power Platform CLI version 1.22.4 onwards.
+The new data model sites are at functional parity, see [Determine if your site is using standard or enhanced data model](#determine-if-your-site-is-using-standard-or-enhanced-data-model) to see which data model your website is using.
 
 All of the available sites in the Power Pages home page **Active sites** section. This list shows sites that are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
 
