@@ -5,8 +5,8 @@ author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/09/2023
-ms.author: ndoelman
-ms.reviewer: ndoelman
+ms.author: tbhagwat
+ms.reviewer: tbhagwat
 contributors:
     - nickdoelman
     - ProfessorKendrick
