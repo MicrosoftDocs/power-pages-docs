@@ -1,97 +1,110 @@
 ---
 title: Invite contacts to your Power Pages site
-description: Learn how to create and configure invitations in a Power Pages site.
+description: Learn how to create and send invitations to users to register on sites you create with Microsoft Power Pages.
+ms.date: 07/20/2023
+ms.topic: how-to
 author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
-ms.date: 3/23/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - ProfessorKendrick
+ms.custom: bap-template
 ---
 
 # Invite contacts to your Power Pages site
 
-Use the invitation feature of Power Pages to invite contacts to your website through automated email(s) created in your Microsoft Dataverse. The people you invite receive an email, fully customizable by you, with a link to your website and an invitation code. This code can be used to gain special access configured by you. With this feature, you have the ability to:
+You can register users on your site directly by [adding a username and password](external-access.md) to their contact record. If you need to add many users to your site, an easier way is to send them an invitation by automated email. The email contains a link to your website and an invitation code that can include granting the user specific roles or privileges. With a Power Pages invitation, you can:
 
-- Send Single or Group Invitations
-- Specify an expiry date if desired
-- Specify a user or website contact as the inviter if desired
-- Automatically assign the invited contact(s) to an account upon invite redemption
-- Automatically execute a workflow upon invite redemption
-- Automatically assign the invited contact(s) to a Web Role(s) upon redemption
+- Send a single invitation or invite a group.
+- Specify an expiration date.
+- Make the invitation appear to be sent by a specific user or site contact.
 
-> [!NOTE] 
-> You can also invite contacts in Power Pages. More information: [What is Power Pages](/power-pages/introduction)
+And when a contact redeems the invitation, Power Pages can:
 
-Invitation redemption can be accomplished using any of our many authentication options. For documentation regarding website authentication, see [Local authentication, registration, and other settings](authentication/set-authentication-identity.md)and choose the model applicable to your version and configuration. The user will adopt any settings provided by the administrator upon redemption. An Invite Redemption Activity will be created for the Invite and Contact.
+- Assign the contact to an account.
+- Assign the contact to one or more roles.
+- Execute a workflow.
 
-Invitations are sent via the **Send Invitation** workflow. By default, the workflow creates an email with a generic message and sends it to the invited Contact's primary email address. The email addresses in the CC and BCC fields are ignored to ensure secure communication. The **Send Invitation** workflow contains an email template that will need to be edited to contain a specific message for your website and the correct hyperlink to your website's **Invite Redemption Page**.
+Contacts can redeem an invitation using any of the [authentication methods](authentication/configure-site.md) that Power Pages supports. [Learn more about local authentication, registration, and other settings](authentication/set-authentication-identity.md). When a contact redeems an invitation, it creates an Invite Redemption activity in both the invitation record and the contact record.
 
-To edit the **Send Invitation** workflow email template, locate it and deactivate it. After it's deactivated, edit the email template to send the message you want and provide a link to the **Invite Redemption Page** of your website.
+Power Pages uses the send invitation workflow to send your invitations. Edit the workflow's email template to customize the message and provide the link to your site's invitation redemption page.<!-- EDITOR'S NOTE: Where is this? I couldn't find it anywhere in my sample site. -->
+
+The workflow sends the email only to the invited contact's primary email address (emailaddress1), not to a secondary (emailaddress2) or alternate (emailaddress3) address.
 
 > [!IMPORTANT]
-> Converting the **Send Invitation** workflow to a [Real-time workflow](/power-apps/maker/data-platform/overview-realtime-workflows) is **not supported** and will cause issues with the invitation process.
+> Don't convert the send invitation workflow to a [real-time workflow](/power-apps/maker/data-platform/overview-realtime-workflows). It is **not supported** and will cause issues with the invitation process.
 
-> [!NOTE]
-> The invitation is sent only to the primary email (emailaddress1) of the contact. The invitation will not be sent to the secondary email (emailaddress2) or alternate email (emailaddress3) of the contact record.
+Use the [Portal Management app](../configure/portal-management-app.md) to create and edit invitations.
 
-## Create invitations from Portal Management app
+## Create and send an invitation from a contact record
 
-1.  Open the [Portal Management app overview](../configure/portal-management-app.md).
+1. Sign in to [Power Pages](https://make.powerpages.microsoft.com) and open your site for editing.
 
-2.	Go to **Portals** > **Contacts**.
+1. In the left side panel, select **More items** (**&hellip;**) > **Portal Management**.
 
-3.	Select a contact or open the contact record to be invited.
+1. In the left side panel of the Portal Management app, scroll down to the **Security** section and select **Contacts**.
 
-4.	On the command bar, select **Create Invitation**.
+1. Select a contact.
 
-5.	On the **Invitation** page, enter appropriate values in the fields. More information: [Invitation attributes](#invitation-attributes)
+1. In the command bar, select **Create Invitation**. It may be hidden in the **More commands** (**&vellip;**) menu.
 
-6.	Select **Save**.
+1. Select or enter the [invitation attributes](#invitation-attributes).
 
-7.	On the command bar, select **Flow** > **Send Invitation**.
+1. Select **Save**.
 
-8.	In the confirmation window, select **OK**. The invitation will be sent to the selected contact.
+1. In the command bar, select **Flow** > **Send Invitation**. It may be hidden in the **More commands** (**&vellip;**) menu.
 
-### Send multiple invitations
+1. Select **OK**.
 
-You can create invitations for your contacts and then send all invitations at once.
+## Create and send an invitation from the Invitations page
 
-1.	Create invitations for the required contacts and then go to **Portals** > **Invitations**.
+The **Invitations** page lists all the invitations you've created. Select a view to list new, open, completed (redeemed), and inactive invitations.
 
-2.	Select the created invitations.
+1. In the Portal Management app, left side panel, select **Security** > **Invitations**.
 
-3.	On the command bar, select **Flow** > **Send Invitation**.
+1. In the command bar, select **+ New**.
 
-4.	In the confirmation window, select **OK**. The invitations will be sent to the selected contacts.
+1. Select or enter the [invitation attributes](#invitation-attributes).
+
+1. Select **Save**.
+
+1. In the command bar, select **Flow** > **Send Invitation**.
+
+### Send multiple invitations at the same time
+
+1. In the Portal Management app, left side panel, select **Security** > **Invitations**.
+
+1. In the list of views, select **New invitations** or **Open invitations**.
+
+1. Select the invitations you want to send as a group.
+
+1. In the command bar, select **Flow** > **Send Invitation**. It may be hidden in the **More commands** (**&vellip;**) menu.
+
+1. Select **OK**.
 
 ## Invitation attributes
 
-The table below explains the attributes of the **Invitation** page:
+The following table describes the invitation attributes you can change.
 
-
-|  Name    |    Description    |
-|-------|------------|
-|                 Name                  |                                                                                                      A descriptive name for helping recognize the invitation.                                                                                                      |
-|                 Type                  |                                             **Single** or **Group**. Single will allow only one contact to be invited and only one redemption. Group allows multiple contacts to be invited and multiple redemptions.                                              |
-|             Owner/Sender              | The user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
-|            Invitation Code            |                                                                 A unique code for the invitation that only the invitee will know. This is automatically generated when creating a new invitation.                                                                  |
-|              Expiry Date              |                                                                                     The date that represents when the invitation will become invalid for redemption. Optional.                                                                                     |
-|                Inviter                |                                                                                               Can be used when a contact is the sender of the invitation. Optional.                                                                                                |
-|          Invited Contact(s)           |                                                                                                             The contact(s) to be invited to a website.                                                                                                              |
-|           Assign to Account           |                                                                        An account record to be associated as the redeeming contact's parent customer when the invite is redeemed. Optional.                                                                        |
-| Execute Workflow on Redeeming Contact |                                                         A workflow process to be executed when the invite is redeemed. The workflow will be passed the redeeming contact as the primary entity. Optional.                                                          |
-|          Assign to Web Roles          |                                                                               A set of web roles to be associated with the redeeming contact when the invite is redeemed. Optional.                                                                                |
-|          Redeemed Contact(s)          |                                                                                                   The contact(s) that have successfully redeemed the invitation.                                                                                                   |
-|      Maximum Redemptions Allowed      |                                                                                   The number of times the invitation can be redeemed. Available for Group type invitations only.                                                                                   |
-|                                       |                                                                                                                                                                                                                                                                    |
+| Name | Description |
+|------|-------------|
+| Name | Enter a descriptive name to help you recognize the invitation. If you create the invitation from a contact record, the contact's name is filled automatically, but you can change it if you like. |
+| Type | Select **Single** to invite one contact, who can redeem the invitation once. Select **Group** to add multiple contacts to the invitation, with multiple redemptions. |
+| Owner/Sender | By default, whoever creates the invitation owns it and is the sender when the invitation is sent. You can select a different owner if the user you select has sufficient privileges. If the **From** field in the invitation email contains someone else, you can override the address in the send invitation workflow. |
+| Invitation Code | A unique code is generated for each invitation. Only the invited contact sees it, in the invitation email. You can change it if you like. |
+| Expiry Date | (Optional) Select a date after which the invitation can no longer be redeemed. |
+| Inviter | (Optional) If a contact should appear as the sender of the invitation, select the contact's name. |
+| Invited Contact(s) | Select a contact, if the invitation type is **Single**, or contacts if it's a **Group** invitation, to invite. If you create the invitation from a contact record, the contact's name is listed automatically. |
+| Assign to Account | (Optional) Select an account record to associate with the contact when the invitation is redeemed. |
+| Execute Workflow on Redeeming Contact | (Optional) Select a workflow process to execute with the contact as the primary entity when the invitation is redeemed. |
+| Assign to Web Roles | Select the web roles to associate with the contact when the invitation is redeemed. |
+| Redeemed Contact(s) | Lists the contacts who have redeemed the invitation. |
+| Maximum Redemptions Allowed | For group invitations only, enter the number of times the invitation can be redeemed. |
+| Number of Successful Redemptions | For group invitations only, displays the number of times the invitation has been redeemed. |
 
 ### See also
 
-- [Configure contacts as site users](external-access.md#configure-contacts-as-site-users)  
-- [Local authentication, registration, and other settings](authentication/set-authentication-identity.md)
+[Add a username to a contact record](external-access.md#add-a-username-to-a-contact-record)  
+[Local authentication, registration, and other settings](authentication/set-authentication-identity.md)

@@ -1,88 +1,88 @@
 ---
-title: Configure column permissions for Power Pages
-description: Configure column permissions for use with the Power Pages Web API. 
+title: Set column permissions
+description: Learn how to use permissions to restrict access to specific table columns when you use the Microsoft Power Pages portals Web API.
+ms.date: 07/20/2023
+ms.topic: how-to
 author: neerajnandwana-msft
-
-ms.topic: conceptual
-ms.custom: 
-ms.date: 12/28/2022
 ms.author: nenandw
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - neerajnandwana-msft
+ms.custom: bap-template
 ---
 
-# Configure column permissions
+# Set column permissions
 
-In Power Pages, [table permissions](table-permissions.md) are used to apply security to individual Dataverse table records. You can add column permissions to individual table columns. Column permissions are an optional configuration that you associate with [web roles](create-web-roles.md).
+In Power Pages, [table permissions](table-permissions.md) apply security to individual Dataverse table records. You can apply column-level permissions to restrict access even further when you use the Power Pages Web API to work with your site's data. Column permissions apply only to the [portals Web API](../configure/web-api-overview.md).<!-- EDITOR'S NOTE: Is there a difference between the "Power Pages Web API" and the "portals Web API"? -->
 
-> [!NOTE]
-> Column permissions are currently only applicable for [portal Web APIWeb API overview](../configure/web-api-overview.md) features.
+ Column permissions are an optional configuration that you associate with [web roles](create-web-roles.md). Web roles can have any number of table permissions and column permissions. If a web role has multiple column permissions, all column permissions are applied to the selected web role.<!-- EDITOR'S NOTE: This last sentence is confusing. Is it saying that if you apply more than one column permission, the web role will get access to all columns anyway? -->
 
-Web roles can have any number of table permissions and column permissions. If a web role has multiple column permissions, all column permissions are applied to the selected web role.
-
-When permissions are evaluated, table permissions are evaluated first. If a user has access to a table, the table's column permissions will be applied. If the user doesn't have access to the table, any configured column permissions will be ignored.
-
-When no column permissions are defined, the corresponding table permissions will apply to all columns.
+Table permissions are evaluated before column permissions. If a user has access to a table, then the table's column permissions are applied. If the user doesn't have access to the table, any column permissions the user has are ignored. When no column permissions are defined, the table permissions apply to all columns.
 
 > [!Important]
-> This feature requires the following versions for starter portal package and portal host:
-> - Portal host version 9.4.1.*x* or later.
-> - Starter portal package version 9.3.2201.*x* or later.
+> The column permissions feature requires portal host version 9.4.1.*x* or later and starter portal package version 9.3.2201.*x* or later.
+
+Use the [Portal Management app](../configure/portal-management-app.md) to manage column permissions.
 
 ## Add column permissions to a web role
 
-1. Open the [Portal Management app](../configure/portal-management-app.md).
+1. Sign in to [Power Pages](https://make.powerpages.microsoft.com) and open your site for editing.
 
-1. Go to **Portals** > **Web Roles** and open the web role that you want to add column permissions.
+1. In the left side panel, select **More items** (**&hellip;**) > **Portal Management**.
+
+1. In the left side panel of the Portal Management app, scroll down to the **Security** section and select **Web Roles**.
+
+1. Select a web role.
 
 1. Under **Related**, select **Column Permission Profiles**.
 
-1. Do one of the following:
+1. Select **Add Existing Column Permission Profile** and then:
 
-   1. To add an existing column permission to the web role, select **Add Existing Column Permission Profiles**, and then browse to the record you want.
+    - To add an existing column permission to the web role, search for or browse to the record you want, and then select **Add**.
 
-   1. To create a new column permission profile record, select **New Column Permission Profiles**.
+    - To add a new column permission profile record, select **+ New Record** > **Column Permission Profiles**. Enter or select the required information. Select **Save & Close**, and then select **Add**.
 
+1. Select **Save**.
 
 ## Attributes and relationships
 
-The following table explains the table permission attributes.
+The following table describes the table permission attributes.
 
-| **Name** | **Description** |
-|-------------------------|-------------------------|
-| Profile Name | The descriptive name of the table record. This field is required. |
-| Table Name | The logical name of the table in which the column is to be secured. This field is required. |
-| Website | The associated website. This field is required. |
-| All Column Permissions | Available permissions:<ul><li>Create</li><li>Read</li><li>Update</li></ul>This setting allows users to limit the scope of table permission access. It's a multiple selection field.<br><br>For example, the table permissions might allow a user Create and Read permissions on all columns. Using this setting, you can further limit users to only Read permissions for all columns.<br /><br />In another example, you might want a specific web role to be able to read all contact fields but you also want to allow the web role to update the first name and last name columns. In this case, you select the **Read** option for the **All Column Permissions** setting, and create column permission profiles for the First Name and Last Name columns with Read and Update permissions. |
-| Column Permissions | The associated column permissions. This allows users to define specific permissions for table columns. Columns that aren't defined here will follow the **All Column Permissions** setting. |
-| Web Roles | The associated web roles. |
+| Name | Description |
+|------|-------------|
+| Profile Name | The descriptive name of the table record; required |
+| Table Name | The logical name of the table that contains the column; required |
+| Website | The website associated with the table; required |
+| All Column Permissions | Available permissions are **Create**, **Read**, and **Update**, in any combination |
+| Column Permissions | The permissions to apply to the column; columns that aren't defined here follow the **All Column Permissions** setting |
+| Web Roles | The web roles associated with the column permission profile |
 
-## Examples
+The **All Column Permissions** setting allows you to limit the access users have to the column. You can select more than one value to "tune" access to particular columns. For example, the table permissions might grant Create and Read permissions on all columns. Use the **All Column Permissions** setting to further limit users to only Read permission on all columns.
 
-In this example, we have a contact table with the columns **JobTitle** and **Salary**.
+In another example, you might want a specific web role to be able to read all contact columns and update the FirstName and LastName columns. In this case, you select Read for the **All Column Permissions** setting, and create column permission profiles for the FirstName and LastName columns with Read and Update permissions.
 
-The following table shows the result of applying different column and table permissions to the contact table and the other columns.
+## Examples of table and column permissions
 
-| **Scenario** | **Table permission** | **Site  setting**<br><em>**Webapi/contact/enabled**</em> | **Site setting**<br><em>**Webapi/contact/fields**</em> | **Column permission** | 
+Let's look at some examples to understand how table and column permissions work together. In these examples, we have a contact table with the columns JobTitle and Salary.
+
+| Scenario | Table permission | Site setting<br>**Webapi/Contact/Enabled** | Site setting<br>**Webapi/Contact/Fields** | Column permission |
 |-|-|-|-|-|
-| The user won't have any permissions to the columns. | Contact (Create, Read, Update) | TRUE |  |  |  
-| The user won't have any permissions to the columns. | Contact (Create, Read, Update) | FALSE |  |  | 
-| The user won't have any permissions to the columns. | Contact (&lt;none&gt;) | TRUE | * | **All Column Permissions:** Create, Read, Update<br />**Column Permissions:** &lt;none&gt; |
-| The user will have Create, Read, and Update permissions on all *contact* table columns. | Contact (Create, Read, Update) | TRUE | * |  |
-| The user won't have any permissions to the columns. | Contact (Create, Read, Update) | TRUE |  | **All Column Permissions:** Create, Read, Update<br />**Column Permissions:** &lt;none&gt; |
-| The user will have Read on *JobTitle* and Create, Read, and Update on all the other columns. | Contact (Create, Read, Update) | TRUE | * | **All Column Permissions:** &lt;none&gt;<br />**Column Permissions:**<br /><ul><br /><li>**JobTitle:** Read</li><br /></ul> | 
-| The user will have Create, Read, and Update on *JobTitle* and only Read on all the other columns.| Contact (Create, Read, Update) | TRUE | * | **All Column Permissions:** Read<br />**Column Permissions:**<br /><ul><br /><li>**JobTitle:** Create, Read, Update</li><br /></ul>  |
-| The user will have Create, Read, and Update on *JobTitle* and *Salary.* | Contact (Create, Read, Update) | TRUE | JobTitle, Salary |  |  
-| The user will have Create, Read, and Update on *JobTitle* and *Salary*, no permission on other columns. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary | **All Column Permissions:** Create, Read, Update<br />**Column Permissions:** &lt;none&gt; |  
-| The user will have Create, Read, and Update on *JobTitle* and *Salary*. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary | **All Column Permissions:** &lt;none&gt;<br />**Column Permissions:**<br /><ul><br /><li>**JobTitle:** Create, Read, Update</li><br /><li>**Salary:** Create, Read, Update</li><br /></ul> |
-| The user will have Create, Read, and Update on *JobTitle* and no permission on *Salary*.| Contact (Create, Read, Update) | TRUE | JobTitle | **All Column Permissions:** &lt;none&gt;<br />**Column Permissions:**<br /><ul><br /><li>**JobTitle:** Create, Read, Update</li><br /><li>**Salary:** Create, Read, Update</li><br /></ul>  |
-| The user will have Create, Read, and Update on *JobTitle* and Read on *Salary*. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary | **All Column Permissions:** &lt;none&gt;<br />**Column Permissions:**<br /><ul><br /><li>**JobTitle:** Create, Read, Update</li><br /><li>**Salary:** Read</li><br /></ul> |
+| The user has no permissions to the columns. | Contact (Create, Read, Update) | TRUE |  |  |
+| The user has no permissions to the columns. | Contact (Create, Read, Update) | FALSE |  |  |
+| The user has no permissions to the columns. | Contact (none) | TRUE | * | **All Column Permissions:** Create, Read, Update<br/>**Column Permissions:** (none) |
+| The user has all permissions to all columns. | Contact (Create, Read, Update) | TRUE | * |  |
+| The user has no permissions to the columns. | Contact (Create, Read, Update) | TRUE |  | **All Column Permissions:** Create, Read, Update<br/>**Column Permissions:** (none) |
+| The user can read JobTitle and create, read, and update all other columns. | Contact (Create, Read, Update) | TRUE | * | **All Column Permissions:** (none)<br/>**Column Permissions:**<br/>JobTitle: Read |
+| The user can create, read, and update JobTitle and read all other columns.| Contact (Create, Read, Update) | TRUE | * | **All Column Permissions:** Read<br/>**Column Permissions:**<br/>JobTitle: Create, Read, Update |
+| The user can create, read, and update JobTitle and Salary. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary |  |
+| The user can create, read, and update JobTitle and Salary and has no permission to other columns. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary | **All Column Permissions:** Create, Read, Update<br/>**Column Permissions:** (none) |
+| The user can create, read, and update JobTitle and Salary. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary | **All Column Permissions:** (none)<br/>**Column Permissions:**<br/>JobTitle: Create, Read, Update<br/>Salary: Create, Read, Update |
+| The user can create, read, and update JobTitle and has no permission to Salary.| Contact (Create, Read, Update) | TRUE | JobTitle | **All Column Permissions:** (none)<br/>**Column Permissions:**<br/>JobTitle: Create, Read, Update<br/>Salary: Create, Read, Update |
+| The user can create, read, and update JobTitle and read Salary. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary | **All Column Permissions:** (none)<br/>**Column Permissions:**<br/>JobTitle: Create, Read, Update<br/>Salary: Read |
 
 ### See also
 
-- [Assign table permissions](assign-table-permissions.md)
-- [Create web roles for Power Pages](create-web-roles.md)
-- [Portal Web API overview](../configure/web-api-overview.md)
-
+[Assign table permissions](assign-table-permissions.md)  
+[Create web roles for Power Pages](create-web-roles.md)  
+[Portals Web API overview](../configure/web-api-overview.md)

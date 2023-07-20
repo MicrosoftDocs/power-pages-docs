@@ -1,73 +1,74 @@
 ---
 title: Provide access to external audiences
-description: Learn how to provide access to external audiences.
-author: nickdoelman
+description: Learn how to allow external audiences to use a local account to access sites you create with Microsoft Power Pages.
+ms.date: 07/20/2023
 ms.topic: conceptual
-ms.custom: 
-ms.date: 05/24/2022
-ms.subservice:
+author: nickdoelman
 ms.author: kkendrick
-ms.reviewer:
 contributors:
     - nickdoelman
     - ProfessorKendrick
+ms.custom: bap-template
 ---
+<!-- EDITOR'S NOTE: This article *SEEMS* to be about allowing external users to authenticate using a local account, so I've edited with that in mind. If that's not the case, please clarify how providing access to external users is different from allowing access to internal users. -->
 
 # Provide access to external audiences
 
-User information in Power Pages is stored as contact records in Dataverse. To configure contacts and invite them as users to your site, use the [Portal Management app](../configure/portal-management-app.md).
+ Power Pages site user information is stored as contact records in Dataverse. Before users can authenticate to your site with a local account, a record must exist for them in your site's Contacts table. You can create the contact yourself, or the user can create a record by submitting a sign-up form if you [turn on user registration](authentication/set-authentication-identity.md#enable-or-disable-user-registration) on your site.
 
-## Configure contacts as site users
+Contact records that you create don't have a username and password. You must [enter a username](#add-a-username-to-a-contact-record), and then use the [change password](#change-a-contacts-password) workflow to set an initial password. Use the [Portal Management app](../configure/portal-management-app.md) to create and edit your site's contact records.
 
-Fill out the basic information for a contact (or having a user fill out the sign-up form in a website), then go to the web authentication tab on the contact form to configure a contact by using local authentication. For more information about federated authentication options, see [Local authentication, registration, and other settings](authentication/set-authentication-identity.md). 
-
-To configure a contact for Power Pages using local authentication, follow these instructions:  
+You can also send a user an [invitation to register locally](invite-contacts.md). [Learn more about local authentication, registration, and other settings](authentication/set-authentication-identity.md).
 
 > [!IMPORTANT]
-> We recommend that you use the [Configure the Azure Active Directory B2C provider](authentication/azure-ad-b2c-provider.md) identity provider for authentication and deprecate the local identity provider for your website. 
-> More information:[Migrate identity providers to Azure AD B2C](authentication/migrate-identity-providers.md)
+> We recommend you use the [Azure AD B2C identity provider](authentication/azure-ad-b2c-provider.md) for authentication and [deprecate the local identity provider](authentication/migrate-identity-providers.md).
 
-Complete the change password workflow, and the necessary fields will be automatically configured. When you've taken these steps, your contact will be configured for your website.
+## Add a username to a contact record
 
-1. In the **Security** section, select **Contacts**.
+1. Sign in to [Power Pages](https://make.powerpages.microsoft.com) and open your site for editing.
 
-1. Create a new contact or select an existing contact.
+1. In the left side panel, select **More items** (**&hellip;**) > **Portal Management**.
 
-1. Choose the **Contact - Portal Contact** form.
+1. In the left side panel of the Portal Management app, scroll down to the **Security** section and select **Contacts**.
+
+1. Create or select a contact.
+
+1. Select the **Contact - Portal Contact** form.
 
 1. Select the **Web Authentication** tab.
 
 1. Enter a **Username**.
 
+    :::image type="content" source="media/user-management/config-contact-record.svg" alt-text="Screenshot of a contact record in the Portal Management app, with the username box on the Web Authentication tab highlighted.":::
+
 1. Select **Save**.
 
-1. On the command bar, choose **Change Password**.
+1. To set an initial password, [change the contact's password](#change-a-contacts-password).
 
-1. Complete the [change password steps](#change-password-for-a-contact-from-the-portal-management-app), and the necessary fields will be automatically configured. The contact will then be configured to access the website.
+## Change a contact's password
 
-A user can also [register directly](authentication/set-authentication-identity.md#sign-in-by-using-a-local-identity-or-external-identity) on the website, or be sent an [invitation](invite-contacts.md) to register. 
+To change a contact's password, you need to have the System Administrator [security role](/power-platform/admin/database-security).
 
-For more information about federated authentication options, see [Local authentication, registration, and other settings](authentication/set-authentication-identity.md). 
+1. Sign in to [Power Pages](https://make.powerpages.microsoft.com) and open your site for editing.
 
-## Change password for a contact from the Portal Management app
+1. In the left side panel, select **More items** (**&hellip;**) > **Portal Management**.
 
-In order to perform the following steps, you'll need to be assigned the **System Administrator** [security role](/power-platform/admin/database-security). 
+1. In the left side panel of the Portal Management app, scroll down to the **Security** section and select **Contacts**.
 
-1. Open the [Portal Management app](../configure/portal-management-app.md).
+1. Select a contact.
 
-1. Go to **Portals** > **Contacts**, and open the contact for which you want to change the password.
+1. In the command bar, select **Change Password**. It may be hidden in the **More commands** (**&vellip;**) menu.
 
-1. Select **Change Password** from the command bar the contact form.
+1. Enter a new password, and then select **Next**.
 
-1. In the **New password** field, enter a new password, and then select **Next**.
+    To remove the password entirely, don't enter a new password. Leave the **New password** box empty and select **Next**. When you're asked whether you want to remove the password for the contact, select **Yes**, and then select **Next** again.
 
-    If you don't enter a password and select **Next**, you'll be asked whether you want to remove password for the selected contact.
-
-1. After making the changes, select **Done**.
+1. Select **Done**.
 
 ### Deprecation of business process flow
 
-Earlier versions of the change password process utilized a task flow, which has been deprecated. In Dataverse security roles, the **Change Password for Portals Contact** privilege under the **Business Process Flows** tab no longer requires any options selected.
+Earlier versions of the change password process used a task flow that's been deprecated. In Dataverse security roles, the **Change Password for Portals Contact** privilege under the **Business Process Flows** tab no longer requires any options to be selected.
 
 ### See also
+
 [Invite contacts to your Power Pages site](invite-contacts.md)
