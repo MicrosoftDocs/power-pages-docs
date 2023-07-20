@@ -141,7 +141,7 @@ The additional settings give you finer control over how users authenticate with 
 - **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
 
   - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
-  - **Off**: <!-- EDITOR'S NOTE: I couldn't find an explanation for this setting that's any clearer than what's here. What happens if this setting is left off? And what does it mean when it's turned on? -->
+  - **Off**: Contact record is not matched with an identity provider. This is the default option for this setting.
 
 - **Registration enabled**: This setting controls whether users can register on your site.
 
