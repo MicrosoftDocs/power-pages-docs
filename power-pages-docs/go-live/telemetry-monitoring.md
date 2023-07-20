@@ -24,7 +24,7 @@ There are two different experiences depending if your website is using the stand
 
 Open the Portal Management app and navigate to the Enable Traffic Analysis section. Enter the snippet from your analytics provider.
 
-:::image type="content" source="media/traffic-analysis.png" alt-text="Enabling traffic analysis.":::
+:::image type="content" source="media/portal-analytics.png" alt-text="Enabling traffic analysis using Portal Management app.":::
 
 ## Set up telemetry monitoring using standard or enhanced data model
 
@@ -36,7 +36,7 @@ To enable telemetry monitoring on your website:
 1. Leave the **Content Snippet Language** value blank.
 1. Place the telemetry tracking HTML/JS snippet of code from the telemetry provider into the **Value** box.
 
-:::image type="content" source="media/portal-analytics.png" alt-text="Enabling traffic analysis using Portal Management app.":::
+:::image type="content" source="media/traffic-analysis.png" alt-text="Enabling traffic analysis.":::
 
 Traffic on the website should now be monitored by the telemetry provider.
 
