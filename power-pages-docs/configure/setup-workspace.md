@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/03/2022
+ms.date: 07/14/2023
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -38,6 +38,8 @@ The **Site details** section shows the following site details:
 - **Application ID** - a unique ID that helps differentiate the current app from all other apps. To copy the Application ID, select the copy icon.
 - **Early Upgrade** - enable or disable early upgrade for this site to access newly launched features earlier.
 - **Admin actions** - takes you to the admin center for site admin actions such as adding a custom domain, enable/disable CDN, or set up IP restrictions.
+
+You can also **Run Site Checker**. More information: [Run Site Checker](../admin/site-checker.md)
 
 ### Go-live checklist
 

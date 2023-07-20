@@ -39,9 +39,9 @@ To use the editor:
     > [!NOTE]
     > You can also create and use web templates as components in web pages. <br /> More information: [How to: Create a web template component](../configure/web-templates-as-components-how-to.md)
 
-    You can drag and drop sections, columns, and components to re-arrange them on a page.
+    You can drag and drop sections, columns, and components to rearrange them on a page.
 
-    To drag an object, left-click and hold down the mouse button, or press the space bar while it's focused. Next, drag the object to the target area using the mouse or keyboard arrows. Drop zones will appear to indicate where the object can be placed. Once you reach the drop zone, release the left mouse button or press the space bar to drop the object.
+    To drag an object, left-click and hold down the mouse button, or press the space bar while it's focused. Next, drag the object to the target area using the mouse or keyboard arrows. Drop zones appear to indicate where the object can be placed. Once you reach the drop zone, release the left mouse button or press the space bar to drop the object.
     
     >[!NOTE]
     > - Some components are not draggable, including the header, footer, and some nested components (links within a text component, for example). 
@@ -57,16 +57,16 @@ For a more immersive editing experience, you can use the full-screen editing mod
 
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 
-Select the paintbrush icon to adjust the styles of a section or component. Different styles are available based on the component's type. Currently, sections, text, images, and video are supported.
+Select the paintbrush icon to adjust the styles of a section or component. Available styles are based on the component's type. Currently, sections, text, images, and video are supported.
 
 ## Undo/Redo (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 
-In the Pages workspace, you'll see undo/redo buttons in the top left of the canvas. The undo button is enabled when you make a change. The redo button is enabled when you undo an action.
+In the Pages workspace, undo/redo buttons display in the top left of the canvas. The undo button is enabled when you make a change. The redo button is enabled when you undo an action.
 
-:::image type="content" source="media/common/undo-redo.png" alt-text="The Pages workspace with the undo/redo buttons displayed.":::
+:::image type="content" source="media/common/undo-redo.png" alt-text="The Pages workspace with the undo and redo buttons displayed.":::
 
 To reverse an action, select the Undo button.
 
@@ -76,7 +76,7 @@ Undo and redo only support changes that you make in the Pages workspace.  Your a
 
 ### Limitations
 
-Syncing, saving, previewing, zooming , expanding/reducing the workspace, navigating between workspaces and pages, and uploading media and CSS files are not supported.
+Syncing, saving, previewing, zooming, expanding/reducing the workspace, navigating between workspaces and pages, and uploading media and CSS files aren't supported.
 
 > [!NOTE]
 > - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
@@ -94,7 +94,7 @@ To edit a code component:
 
 1. Select **Done**.
 
-See [Use code components in Power Pages](../configure/component-framework.md#add-a-code-component-to-a-field-in-a-model-driven-app) for more information on adding code components to forms and pages.
+For more information on adding code components to forms and pages, see [Use code components in Power Pages](../configure/component-framework.md#add-a-code-component-to-a-field-in-a-model-driven-app).
 
 ## See also
 
@@ -106,7 +106,7 @@ See [Use code components in Power Pages](../configure/component-framework.md#add
 - [Add Power BI](add-power-bi.md)
 - [Add list](add-list.md)
 - [Add form](add-form.md)
-- [Add IFrame](add-iframe.md)
+- [Add Iframe](add-iframe.md)
 - [Add multistep form](multistep-forms.md)
 - [Edit code with Visual Studio Code for the Web](../configure/visual-studio-code-editor.md)
 - [Structure site map](structure-site.md)
