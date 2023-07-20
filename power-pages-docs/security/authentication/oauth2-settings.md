@@ -29,7 +29,7 @@ To change the additional settings for an OAuth 2.0 identity provider, [edit the 
 | Callback path | The request path in the application's base path where the user-agent is returned |
 | Sign in As authentication type | The name of another authentication middleware that's responsible for issuing a user claims identity |
 | Scope | A comma-separated list of permissions to request |
-| Registration enabled | Turns on or off the provider's registration requirement. When this setting is off, users are denied registration with an error if no contact record exists for them. When this setting is on, users can register only if the site setting **Authentication** > **Registration** > **Enabled** is set to true. |
+| Registration enabled | Turns on or off the provider's registration requirement. When this setting is off, users are denied registration with an error if no contact record exists for them. When this setting is on, users can register only if the site setting **Authentication/Registration/Enabled** is set to true. |
 | Contact mapping with email | Specifies whether contacts are mapped to a corresponding email. When this setting is on, it associates a unique contact record with a matching email address, and then automatically assigns the external identity provider to the contact after the user successfully signs in. |
 
 ### See also

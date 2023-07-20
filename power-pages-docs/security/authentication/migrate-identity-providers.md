@@ -26,10 +26,10 @@ Power Pages supports multiple authentication systems. Users can authenticate to 
 
 To mark other identity providers as deprecated and allow users to migrate to an Azure AD B2C identity provider, change the following site settings:
 
-- **Authentication** > **Registration** > **LocalLoginDeprecated**: Set this to true.
-- **Authentication** > *\<protocol\>* > *\<provider\>* > **Deprecated**: Set this to true.
+- **Authentication/Registration/LocalLoginDeprecated**: Set this to true.
+- **Authentication/*\<protocol\>*/*\<provider\>*/Deprecated**: Set this to true.
 
-You can change the text that appears on the sign-in page of a legacy authentication provider using the following content snippet: **Account** > **Signin** > **SignInExternalDeprecatedFormHeading**
+You can change the text that appears on the sign-in page of a legacy authentication provider using the following content snippet: **Account/Signin/SignInExternalDeprecatedFormHeading**
 
 Deprecated identity providers aren't shown when a user registers on or redeems an invitation to register on a website.
 
@@ -41,9 +41,9 @@ The following table describes the content snippets you can use to change the mes
 
 | Name | Type | Default value |
 |------|------|-------|
-| **Account** > **Conversion** > **PageTitle** | Text | Account Migration |
-| **Account** > **Conversion** > **PageCopy** | HTML | You've signed in with an account that is no longer supported. To continue using this site, you must migrate to a different account. Select the button to sign in with a new or existing supported account. |
-| **Account** > **Conversion** > **SignInExternalFormHeading** | Text | Sign in with a supported account. |
+| **Account/Conversion/PageTitle** | Text | Account Migration |
+| **Account/Conversion/PageCopy** | HTML | You've signed in with an account that is no longer supported. To continue using this site, you must migrate to a different account. Select the button to sign in with a new or existing supported account. |
+| **Account/Conversion/SignInExternalFormHeading** | Text | Sign in with a supported account. |
 
 A Power Pages site allows multiple identities to be associated with a single contact record. When multiple providers are deprecated, a user must consent to the terms and conditions multiple times. Whenever a user signs in with a deprecated identity provider, the account migration process is started for each deprecated provider and the contact record is associated with the nondeprecated provider after account migration.
 
@@ -53,8 +53,8 @@ When a user selects a new identity provider and the identity is already associat
 
 | Name | Type | Default value |
 |------|------|-------|
-| **Account** > **Signin** > **AccountConversionIdentityUsedErrorHeading** | Text | Account Conversion Error |
-| **Account** > **Signin** > **AccountConversionIdentityUsedErrorText** | HTML | This account already exists. Close your browser, restart the process, and select a different account on the Account Migration page. |
+| **Account/Signin/AccountConversionIdentityUsedErrorHeading** | Text | Account Conversion Error |
+| **Account/Signin/AccountConversionIdentityUsedErrorText** | HTML | This account already exists. Close your browser, restart the process, and select a different account on the Account Migration page. |
 
 ## Turn off local authentication
 

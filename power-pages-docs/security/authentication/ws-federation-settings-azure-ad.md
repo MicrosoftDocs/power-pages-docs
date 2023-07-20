@@ -128,7 +128,7 @@ If you're using the auto-generated URI for the app ID URI, you'll need to change
 
 1. Open the Portal Management app and go to **Site Settings**.
 
-1. Change the value of the site setting **Authentication** > **WsFederation** > **WSFederation_1** > **Wtrealm** to the auto-generated app ID URI.
+1. Change the value of the site setting **Authentication/WsFederation/WSFederation_1/Wtrealm** to the auto-generated app ID URI.
 
 1. Select **Save**.
 

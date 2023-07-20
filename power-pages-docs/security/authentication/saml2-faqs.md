@@ -44,7 +44,7 @@ Power Pages specifies *PasswordProtectedTransport* in authentication requests, a
 
 ## Does Power Pages support SAML logout requests?
 
-Power Pages supports SAML logout requests. Use the [Power Platform admin center](../../admin/admin-overview.md) to upload the custom certificate. Then copy the thumbprint of the uploaded custom certificate on the **Manage custom certificate** screen and paste it in the site setting **Authentication** > **SAML2** > *ProviderName* > **ExternalLogoutCertThumbprint**.
+Power Pages supports SAML logout requests. Use the [Power Platform admin center](../../admin/admin-overview.md) to upload the custom certificate. Then copy the thumbprint of the uploaded custom certificate on the **Manage custom certificate** screen and paste it in the site setting **Authentication/SAML2/*ProviderName*/ExternalLogoutCertThumbprint**.
 
 ### See also
 

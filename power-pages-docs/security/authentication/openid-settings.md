@@ -141,7 +141,7 @@ The additional settings give you finer control over how users authenticate with 
 
 - **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.<!-- EDITOR'S NOTE: In the UI, the example is "HH:MM:SS" not minutes. Can you please submit a ticket to the engineering team to fix this? -->
 
-- **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication** > **ApplicationCookie** > **ExpireTimeSpan** site setting.
+- **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting.
 
 - **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
 
