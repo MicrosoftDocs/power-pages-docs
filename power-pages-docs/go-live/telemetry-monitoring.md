@@ -18,19 +18,23 @@ contributors:
 
 You can use a telemetry tracking code in your Power Pages site to monitor specific traffic analytics and trends.
 
-There are two different experiences depending if your website is using the standard or [enhanced](../admin/enhanced-data-model.md) data model.
+There are two different experiences depending if your website is using the [standard or enhanced](../admin/enhanced-data-model.md#determine-if-your-site-is-using-standard-or-enhanced-data-model) data model.
 
 ## Set up telemetry monitoring using standard data model
 
-Open the Portal Management app and navigate to the Enable Traffic Analysis section. Enter the snippet from your analytics provider.
+Open the Portal Management app and navigate to the **Enable Traffic Analysis** section. Enter the snippet from your analytics provider.
 
 :::image type="content" source="media/portal-analytics.png" alt-text="Enabling traffic analysis using Portal Management app.":::
 
-## Set up telemetry monitoring using standard or enhanced data model
+This process will automatically create a content snippet called **Tracking Code** containing the HTML/JS snippet.
 
-To enable telemetry monitoring on your website:
+## Set up telemetry monitoring using enhanced data model
 
-1. Open the [Power Pages Management app](../configure/portal-management-app.md).
+The **Enable Traffic Analysis** section does not exist in the Power Pages management app.
+
+To enable telemetry monitoring on your website using the enhanced data model:
+
+1. Open the [Power Pages management app](../configure/portal-management-app.md).
 1. Navigate to the **Content Snippets** section.
 1. Create a new **Content Snippet** called **Tracking Code** of **type** = **Text**.
 1. Leave the **Content Snippet Language** value blank.
