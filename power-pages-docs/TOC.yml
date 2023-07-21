@@ -17,7 +17,7 @@
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
         - name: Use enhanced data model (preview)
-          href: admin/enhanced-data-model.md                   
+          href: admin/enhanced-data-model.md
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
@@ -69,7 +69,7 @@
             - name: Create an opportunity
               href: templates/dynamics-365-apps/create-edit-and-distribute-opportunities-in-dynamics-365.md
             - name: Work with communities
-              items: 
+              items:
                 - name: Engage with communities
                   href: templates/dynamics-365-apps/engage-with-communities.md
                 - name: Forums
@@ -78,15 +78,15 @@
                       href: templates/dynamics-365-apps/setup-manage-forums.md
                     - name: Manage forum threads
                       href: templates/dynamics-365-apps/manage-forum-threads.md
-                    - name: Create forum posts 
+                    - name: Create forum posts
                       href: templates/dynamics-365-apps/create-forum-posts.md
                     - name: Moderate forums
                       href: templates/dynamics-365-apps/moderate-forums.md
                     - name: Manage forum access permissions
                       href: templates/dynamics-365-apps/forum-access-permission.md
-                    - name: Subscribe to alerts 
+                    - name: Subscribe to alerts
                       href: templates/dynamics-365-apps/subscribe-alerts.md
-                - name: Manage blogs 
+                - name: Manage blogs
                   href: templates/dynamics-365-apps/manage-blogs.md
                 - name: Ideas
                   items:
@@ -111,7 +111,7 @@
     - name: Power Pages community
       href: getting-started/community.md
     - name: Plan your Power Pages project
-      href: configure/planning-power-pages-project.md       
+      href: configure/planning-power-pages-project.md
 - name: Design and build
   items:
     - name: Design and build overview
@@ -276,10 +276,10 @@
         items:
         - name: Configure lists
           items:
-          - name: Lists overview   
+          - name: Lists overview
             href: configure/lists.md
           - name: List attributes and relationships
-            href: configure/list-attributes-relationships.md  
+            href: configure/list-attributes-relationships.md
           - name: Sort list
             href: configure/sort-lists.md
           - name: Add custom JavaScript to a list
@@ -288,13 +288,13 @@
             href: configure/list-configuration.md
           - name: Securing lists
             href: configure/securing-lists.md
-          - name: Add a view details page          
+          - name: Add a view details page
             href: configure/list-view-details.md
           - name: List filter configuration
             href: configure/list-filter-configuration.md
           - name: List map view
             href: configure/list-map-view.md
-          - name: List calendar view      
+          - name: List calendar view
             href: configure/list-calendar-view.md
           - name: Enhanced view filter for lists
             href: configure/list-enhanced-view-filter.md
@@ -309,7 +309,7 @@
         - name: Configure multistep forms
           items:
           - name: Define multistep form properties
-            href: configure/multistep-form-properties.md             
+            href: configure/multistep-form-properties.md
           - name: Multistep form steps
             items:
             - name: Define multistep form steps
@@ -329,7 +329,7 @@
             - name: Add geolocation
               href: configure/add-geolocation.md
       - name: Add chart on a web page in portal
-        href: configure/add-chart.md    
+        href: configure/add-chart.md
       - name: Enable multiple languages
         items:
         - name: Enable multiple-language support
@@ -340,8 +340,8 @@
         href: configure/cors-support.md
       - name: Configure advertisements
         href: configure/create-run-advertisement.md
-      - name: Configure choices column 
-        href: configure/choices-column.md          
+      - name: Configure choices column
+        href: configure/choices-column.md
       - name: Configure content snippets
         href: configure/customize-content-snippets.md
       - name: Configure file column
@@ -349,7 +349,7 @@
       - name: Configure header and footer output caching
         href: configure/enable-header-footer-output-caching.md
       - name: Configure image column
-        href: configure/image-column.md         
+        href: configure/image-column.md
       - name: Configure page templates
         href: configure/page-templates.md
       - name: Configure polls
@@ -361,7 +361,7 @@
       - name: Configure website redirects
         href: configure/add-redirect-url.md
       - name: Configure site markers
-        href: configure/configure-site-markers.md        
+        href: configure/configure-site-markers.md
       - name: Configure webpage ratings
         href: configure/rate-webpage.md
       - name: Configure web files
@@ -453,9 +453,9 @@
         - name: Web templates overview
           href: configure/web-templates.md
         - name: Web templates as components (preview)
-          href: configure/web-templates-as-components.md  
+          href: configure/web-templates-as-components.md
         - name: "How to: Create a web template component (preview)"
-          href: configure/web-templates-as-components-how-to.md            
+          href: configure/web-templates-as-components-how-to.md
         - name: Create custom web templates
           items:
             - name: Create custom page layouts
@@ -511,15 +511,15 @@
         - name: Use Visual Studio Code for Power Pages
           href: configure/vs-code-extension.md
         - name: Power Platform CLI solution management (preview)
-          href: configure/power-platform-cli-solution-management.md         
+          href: configure/power-platform-cli-solution-management.md
     - name: Use admin APIs
       href: admin/admin-api.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
-    - name: Use solutions with Power Pages (preview) 
+    - name: Use solutions with Power Pages (preview)
       href: configure/power-pages-solutions.md
     - name: Use Power Platform pipelines with Power Pages (preview)
-      href: configure/power-pages-pipelines.md  
+      href: configure/power-pages-pipelines.md
 - name: Secure Power Pages
   items:
     - name: Overview
@@ -548,7 +548,7 @@
               href: security/authentication/oauth2-google.md
             - name: Twitter
               href: security/authentication/oauth2-twitter.md
-            - name: Additional settings
+            - name: Additional settings for OAuth 2.0 providers
               href: security/authentication/oauth2-settings.md
             - name: OAuth 2.0 implicit grant flow
               href: security/oauth-implicit-grant-flow.md
@@ -574,11 +574,11 @@
               href: security/authentication/saml2-faqs.md
         - name: WS Federation
           items:
-            - name: Configure WS Federation
+            - name: Set up a WS-Federation provider
               href: security/authentication/ws-federation-provider.md
-            - name: Configure WS Federation with Azure AD
+            - name: Set up WS-Federation with Azure AD
               href: security/authentication/ws-federation-settings-azure-ad.md
-            - name: Configure WS Federation with AD FS
+            - name: Set up WS-Federation with AD FS
               href: security/authentication/ws-federation-settings.md
         - name: Migrate to Azure AD B2C
           href: security/authentication/migrate-identity-providers.md
@@ -586,25 +586,23 @@
           href: security/authentication/set-authentication-identity.md
     - name: User management
       items:
-        - name: Provide external access
+        - name: Provide access to external audiences
           href: security/external-access.md
-        - name: Invite contacts
+        - name: Invite contacts to your site
           href: security/invite-contacts.md
     - name: Roles and permissions
       items:
-        - name: Create web roles
+        - name: Create and assign web roles
           href: security/create-web-roles.md
-        - name: Page permissions
+        - name: Set page permissions
           href: security/page-security.md
-        - name: Configure table permissions
+        - name: Set table permissions
           href: security/table-permissions.md
         - name: Assign table permissions
           href: security/assign-table-permissions.md
-        - name: Configure table permissions
-          href: security/table-permissions.md
-        - name: Configure column permissions
+        - name: Set column permissions
           href: security/column-permissions.md
-        - name: Create website access permissions
+        - name: Set website access permissions
           href: security/website-access-permission.md
     - name: Web Application Firewall (preview)
       items:
@@ -647,7 +645,7 @@
     - name: "Tutorial: Add a custom page layout"
       href: getting-started/tutorial-add-custom-page-layout.md
     - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
-      href: configure/power-platform-cli-tutorial.md      
+      href: configure/power-platform-cli-tutorial.md
 - name: Training videos
   href: training-videos/index.md
 - name: Responsible AI
@@ -659,7 +657,7 @@
     - name: FAQ for generating text
       href: faqs-generate-text.md
     - name: FAQ for creating form
-      href: faqs-create-form.md             
+      href: faqs-create-form.md
 - name: Compliance and accessibility
   items:
     - name: Accessibility
