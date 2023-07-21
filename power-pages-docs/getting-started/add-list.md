@@ -1,16 +1,17 @@
 ---
 title: Add lists
 description: Create and add a list from views to your page in Power Pages.
-author: nickdoelman
+author: pranita225
 ms.topic: conceptual
 ms.custom: 
 ms.date: 3/10/2023
 ms.subservice:
-ms.author: shrutiphanse 
+ms.author: prpadalw 
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - pranita225
 ---
 
 # Add list
