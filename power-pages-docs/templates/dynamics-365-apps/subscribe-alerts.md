@@ -1,12 +1,12 @@
 ---
 title: Subscribe to alerts
 description: Learn how to create and manage alerts in Power Pages.
-author: sampatn 
+author: meeramahabala
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: sampatn 
+ms.author: meeram 
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
