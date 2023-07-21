@@ -1,12 +1,12 @@
 ---
 title: Create site structure
 description: Learn how to structure a site.
-author: nickdoelman
+author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/24/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: ckwan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
