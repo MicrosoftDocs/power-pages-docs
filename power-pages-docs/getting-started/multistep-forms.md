@@ -1,16 +1,17 @@
 ---
 title: Multistep forms
 description: Learn how to add multistep forms to your Power Pages site.
-author: nickdoelman
+author: pranita225
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/27/2022
 ms.subservice:
-ms.author: ndoelman 
+ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - pranita225
 ---
 
 # Add a multistep form

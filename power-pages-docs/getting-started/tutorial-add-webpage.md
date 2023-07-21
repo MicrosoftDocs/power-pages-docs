@@ -1,16 +1,17 @@
 ---
 title: "Tutorial: Add a page"
 description: Learn how to add a page to your Power Pages site.
-author: nickdoelman
+author: ckwan-ms
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 05/24/2022
 ms.subservice:
-ms.author: ndoelman 
-ms.reviewer: 
+ms.author: ckwan 
+ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - ckwan-ms
 ---
 
 # Tutorial: Add a page to your Power Pages site

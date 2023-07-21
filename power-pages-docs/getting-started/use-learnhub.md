@@ -1,7 +1,7 @@
 ---
 title: How to use the learning hub
 description: Learn how to use the learning hub.
-author: ammaddala
+author: iammaddala
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/10/2022
@@ -11,6 +11,7 @@ ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - iammaddala
 ---
 # How to use the learning hub
 

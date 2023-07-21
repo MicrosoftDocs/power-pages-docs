@@ -1,7 +1,7 @@
 ---
 title: "Get started with Power Pages tutorials"
 description: Follow step-by-step tutorials to learn how to build powerful sites using Power Pages.
-author: ammaddala
+author: iammaddala
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 07/12/2022
@@ -11,6 +11,7 @@ ms.reviewer:
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - iammaddala
 ---
 
 # Get started with Power Pages tutorials

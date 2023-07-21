@@ -1,16 +1,17 @@
 ---
 title: Create web roles in Power Pages
 description: Learn how to create web roles.
-author: nickdoelman
+author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/24/2022
-ms.author: ndoelman
+ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - gitanjalisingh33msft
 ---
 
 # Configure web roles
