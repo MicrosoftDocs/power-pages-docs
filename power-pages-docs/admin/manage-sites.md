@@ -1,12 +1,12 @@
 ---
 title: Manage Power Pages sites
 description: Learn how to manage Power Pages sites.
-author: nickdoelman
+author: tbhagwat
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/09/2023
 ms.author: tbhagwat
-ms.reviewer: tbhagwat
+ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
