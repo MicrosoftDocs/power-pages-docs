@@ -20,9 +20,6 @@ content_well_notification:
 ---
 
 # Use OAuth 2.0 implicit grant flow in your Power Pages site
-<!-- EDITOR'S NOTE: When I looked up information about the OAuth 2.0 implicit grant flow, I found documentation stating the implicit flow shouldn't be used. See https://oauth.net/2/grant-types/implicit/. Should we at least mention this warning in our article? -->
-<!-- EDITOR'S NOTE: Please include in the introduction an explanation of what benefit the implicit grant flow offers a maker and in what scenarios it should be considered. -->
-<!-- EDITOR'S NOTE: Please restructure this article so that it follows a logical sequence of actions and so that the headings give a good overview of the contents when scanned. As it is, the article reads like a random collection of steps and possibly related information. This article is in a section that's meant for makers/citizen devs, not pro devs. I'm fairly knowledgeable, but I'm so lost that I can't even begin to edit this. -->
 
 The OAuth 2.0 implicit grant flow is a way to get tokens from an authorization server without backend servers exchanging credentials. It returns tokens directly from the /authorize endpoint instead of the /token endpoint. It was designed for applications that access APIs only while the user is present.
 

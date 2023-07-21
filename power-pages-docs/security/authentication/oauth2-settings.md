@@ -20,7 +20,7 @@ ms.custom: bap-template
 To change the additional settings for an OAuth 2.0 identity provider, [edit the provider settings](configure-site#edit-an-identity-provider) and expand the **Additional settings** section.
 
 :::image type="content" source="../media/authentication/additional-settings.jpg" alt-text="Screenshot of optional additional settings for OAuth 2.0 providers.":::
-<!-- EDITOR'S NOTE: The descriptions in the following table are taken directly from the tooltips in the UI and aren't helpful at all. I tried to find some documentation to describe them for laypeople, but it was taking me too long. Please describe these settings in a way that makers/citizen devs can understand. Thanks! -->
+
 | Setting | Description |
 |---------|---------|
 | Authentication type | The OWIN authentication middleware type |
