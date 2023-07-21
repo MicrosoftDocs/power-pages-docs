@@ -220,11 +220,13 @@ New websites created using the enhanced data model can be edited using the new P
 
 1. The search feature won't return any web page results.
 
-1. Enable traffic analysis isn't available for websites using the enhanced data model.
+1. Follow the steps in [Set up telemetry monitoring](../go-live/telemetry-monitoring.md) to enable traffic analysis for websites using the enhanced data model.
 
 1. The **Account** table isn't part of the Power Pages management app. This limits adding a parent account record to a contact. As a workaround, [manually add the account table](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-table) to Power Pages management app.
 
 1. Configuring [list actions](../getting-started/add-list.md#choose-list-actions) on websites with the enhanced data model currently doesn't save the configuration. As a workaround, configure the list using the [Power Pages management app](../configure/list-configuration.md).  
+
+1. You will need to assign contacts to web roles using from the **Portal Contact (Enhanced Form)**. See [Configure web roles](../security/create-web-roles.md#from-the-contact-with-site-using-enhanced-data-model) for more information.
 
 ## See also
 
