@@ -15,9 +15,11 @@ ms.custom: bap-template
 
 # Set up an OAuth 2.0 provider
 
-To use OAuth 2.0&ndash;based external identity providers with your Power Pages site, register an application with a third-party service to get a *client ID* and *client secret* pair. Often the application requires that you specify a redirect URL to allow the identity provider to send users back to your website, called the *relying party*. The client ID and client secret establish a secure connection from the relying party to the identity provider. These values are site settings that are based on the properties of the [MicrosoftAccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](/previous-versions/aspnet/dn450335(v=vs.113)), [FacebookAuthenticationOptions](/previous-versions/aspnet/dn253793(v=vs.113)), and [GoogleOAuth2AuthenticationOptions](/previous-versions/aspnet/dn800251(v=vs.113)) classes.
+To allow users to authenticate on your Power Pages site with an external account, add an OAuth 2.0 identity provider. Users can sign in with a Microsoft, LinkedIn, Facebook, Google, or Twitter account. Power Pages doesn't support the use of other OAuth providers. Use [OpenID Connect](openid-provider.md) instead.
 
-[Some general settings apply to all OAuth 2.0 providers](oauth2-settings.md).
+OAuth 2.0&ndash;based external identity providers require that you register an application with a third-party service to get a *client ID* and *client secret* pair. You may also need to specify a redirect or reply URL to allow the identity provider to send users back to your website, called the *replying party*, after it authenticates them. The client ID and client secret establish a secure connection between the replying party and the identity provider. These values are site settings that are based on the properties of the [MicrosoftAccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](/previous-versions/aspnet/dn450335(v=vs.113)), [FacebookAuthenticationOptions](/previous-versions/aspnet/dn253793(v=vs.113)), and [GoogleOAuth2AuthenticationOptions](/previous-versions/aspnet/dn800251(v=vs.113)) classes.
+
+## Provider settings
 
 For the settings you need to change for specific OAuth 2.0 providers, select the name of the provider:
 
@@ -27,7 +29,7 @@ For the settings you need to change for specific OAuth 2.0 providers, select the
 - [Google](/power-apps/maker/portals/configure/configure-oauth2-google)
 - [Twitter](oauth2-twitter.md)
 
-Power Pages doesn't support the use of custom OAuth providers. Use [OpenID Connect](openid-provider.md) instead.
+Then if needed, change [optional additional settings that apply to all OAuth 2.0 providers](oauth2-settings.md).
 
 > [!NOTE]
 > Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
