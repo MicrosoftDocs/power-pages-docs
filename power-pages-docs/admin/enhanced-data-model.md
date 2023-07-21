@@ -126,7 +126,7 @@ Follow these steps to enable the new data model for a specific environment.
 
 1. Select **Power Pages sites** under the **Resources** tile. 
 
-1. Select the **Upgrade to modern data model for new sites** switch from the tool bar.  
+1. Select the **Switch to enhanced data model (preview)** switch from the tool bar.  
 
     :::image type="content" source="media/enhanced-data-model/switch-to-enhanced-data-model.png" alt-text="Switch to enhanced data model.":::
 
@@ -134,7 +134,7 @@ Follow these steps to enable the new data model for a specific environment.
 
     :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Updated packages installed.":::
 
-You can opt out from new data model site creation by disabling the **Upgrade to modern data model for new sites** option from top tool bar. Disabling the enhanced data model won't remove the solution packages or delete any websites. 
+You can opt out from new data model site creation by disabling the **Switch to enhanced data model (preview)** option from top tool bar. Disabling the enhanced data model won't remove the solution packages or delete any websites. 
 
 Existing websites created using the enhanced data model continues to operate. Any new website created will use the standard data model.
 
