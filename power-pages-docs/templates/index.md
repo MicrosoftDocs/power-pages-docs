@@ -1,14 +1,15 @@
 ---
 title: Power Pages Templates
 description: Learn the features of Power Pages templates.
-author: nickdoelman
+author: meeramahabala
 ms.topic: conceptual
 ms.custom: 
 ms.date: 3/21/2023
-ms.author: ndoelman
+ms.author: meeram
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
+    - meeramahabala
 ---
 
 # Power Pages templates

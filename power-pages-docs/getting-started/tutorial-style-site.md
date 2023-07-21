@@ -1,16 +1,17 @@
 ---
 title: "Tutorial: Style your site"
 description: Learn how to customize your Portal to match your corporate brand.
-author: nickdoelman
+author: clromano
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 09/20/2022
 ms.subservice:
-ms.author: ndoelman 
+ms.author: clromano 
 ms.reviewer: 
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - clromano
 ---
 
 # Tutorial: Style your site 

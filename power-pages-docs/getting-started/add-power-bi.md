@@ -1,12 +1,12 @@
 ---
 title: Add a Power BI component
 description: Learn how to add a Power BI component to your Power Pages site.
-author: nickdoelman
+author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/08/2022
 ms.subservice:
-ms.author: ndoelman 
+ms.author: nenandw 
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
