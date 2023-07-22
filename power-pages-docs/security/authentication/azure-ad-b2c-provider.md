@@ -18,7 +18,7 @@ ms.custom: bap-template
 Azure Active Directory (Azure AD) B2C is one of the identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. This article describes the following steps:
 
 - [Set up Azure AD B2C in Power Pages](#set-up-azure-ad-b2c-in-power-pages)
-- [Create a tenant and app registration in Azure](#create-a-b2c-tenant-and-app-registration-in-azure)
+- [Create a tenant and app registration in Azure](#create-an-azure-ad-b2c-tenant-and-app-registration-in-azure)
 - [Create user flows in Azure](#create-user-flows)
 - [Enter site and password settings in Power Pages](#enter-site-settings-and-password-reset-settings-in-power-pages)
 
@@ -29,15 +29,9 @@ Azure Active Directory (Azure AD) B2C is one of the identity providers you can u
 
 Set Azure AD B2C as an identity provider for your site.
 
-1. Sign in to [Power Pages](https://make.powerpages.microsoft.com/).
+1. In your Power Pages site, select **Set up** > **Identity providers**.
 
-1. [Create a site](../../getting-started/create-manage.md) or edit an existing site.
-
-1. In the left side panel, select **Set up**.
-
-1. Under **Authentication**, select **Identity providers**.
-
-    If no identity providers appear, select **Authentication settings** and make sure **External login** is set to **On**. [Change general authentication settings](configure-site.md#general-authentication-settings).
+    If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
 1. To the right of **Azure Active Directory B2C**, select **More Commands** (**&hellip;**) > **Configure** or select the provider name.
 
@@ -47,17 +41,15 @@ Set Azure AD B2C as an identity provider for your site.
 
 1. Select **Next**.
 
-1. Under **Reply URL**, Select **Copy**.
+1. Under **Reply URL**, select **Copy**.
 
 1. Select **Open Azure**.
 
     Don't close your Power Pages browser tab. You'll return to it soon.
 
-## Create a B2C tenant and app registration in Azure
+## Create an Azure AD B2C tenant and app registration in Azure
 
-Create a tenant for Azure AD B2C and [register an application](/azure/active-directory-b2c/tutorial-register-applications?tabs=applications#register-a-web-application) in the tenant.
-
-1. Sign in to your [Azure portal](https://portal.azure.com/).
+Create a tenant for Azure AD B2C and [register an application](/azure/active-directory-b2c/tutorial-register-applications?tabs=applications#register-a-web-application) with your site's reply URL as the redirect URI.
 
 1. [Create an Azure AD B2C tenant](/azure/active-directory-b2c/tutorial-create-tenant).
 
@@ -71,13 +63,11 @@ Create a tenant for Azure AD B2C and [register an application](/azure/active-dir
 
 1. Select one of the **Supported account types** that best reflects your organization requirements.
 
-1. Under **Redirect URI**, select **Web** if it isn't selected already.
+1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL for your site.
 
-1. In the **Redirect URI** box, enter the **Reply URL** for your site.
-
-    - If you're using your site's default URL, paste the **Reply URL** [you copied](#set-up-azure-ad-b2c-in-power-pages).
+    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-b2c-in-power-pages).
     - If you're using a custom domain name, enter the custom URL.
-        Be sure to use the same custom URL for the **Redirect URL** in the settings for the Azure AD B2C provider on your site. For example, if you enter the **Reply URL** in the Azure portal as `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`, use the same value for the **Redirect URL** in the Azure AD B2C configuration in Power Pages.
+        Be sure to use the same custom URL for the redirect URL in the settings for the Azure AD B2C provider on your site. For example, if you enter the reply URL in the Azure portal as `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`, use the same value for the redirect URL in the Azure AD B2C configuration in Power Pages.
 
 1. Select **Register**.
 
@@ -120,7 +110,7 @@ Create a tenant for Azure AD B2C and [register an application](/azure/active-dir
 1. Under **Configure site settings**, enter the following values:
 
     - **Authority**: Paste the issuer URL [you copied](#get-the-issuer-url-from-the-user-flows).​
-    - **Client ID​**: Paste the **Application (client) ID** of the Azure AD B2C application [you created](#create-a-b2c-tenant-and-app-registration-in-azure).
+    - **Client ID​**: Paste the **Application (client) ID** of the Azure AD B2C application [you created](#create-an-azure-ad-b2c-tenant-and-app-registration-in-azure).
     - **Redirect URI**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value.
 
 1. Under **Password reset settings**, enter the following values:
@@ -151,7 +141,7 @@ The additional settings give you finer control over how users authenticate with 
 - **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
 
   - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
-  - **Off**: <!-- EDITOR'S NOTE: I couldn't find an explanation for this setting that's any clearer than what's here. What happens if this setting is left off? And what does it mean when it's turned on? -->
+  - **Off**: Contact record is not matched with an identity provider. This is the default option for this setting.
 
 - **Registration enabled**: This setting controls whether users can register on your site.
 
@@ -160,4 +150,5 @@ The additional settings give you finer control over how users authenticate with 
 
 ### See also
 
+[Set up site authentication](configure-site.md)  
 [Migrate identity providers to Azure AD B2C](/power-apps/maker/portals/configure/migrate-identity-providers)
