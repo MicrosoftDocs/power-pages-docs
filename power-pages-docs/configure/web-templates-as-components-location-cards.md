@@ -1,9 +1,9 @@
 ---
 title: Display locations as cards
-description: Learn how to create and manage web templates as components in Power Pages.
+description: Learn how to create a web templates components to display locations in Power Pages.
 author: clromano
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 07/25/2023
 ms.subservice:
@@ -19,6 +19,8 @@ contributors:
 
 This sample demonstrates how to use the manifest to extend a web template to display locations on a web page in a card format.
 
+:::image type="content" source="media/web-template-components/loc-cards-in-studio.png" alt-text="Web template component as a location card.":::
+
 ## How to create a web template component to display locations
 
 ### Step 1: Preparation
@@ -27,7 +29,7 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 1. Copy the table's logical name.
 1. Create a few sample records on the new table.
 
-## Step 2: Set up the web template
+### Step 2: Set up the web template
 
 1. Copy the following source code into a new web template in your environment.
 
