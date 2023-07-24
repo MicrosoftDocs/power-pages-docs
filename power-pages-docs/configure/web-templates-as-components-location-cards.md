@@ -23,13 +23,13 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 
 ### Step 1: Preparation
 
-    1. Create a table in your environment with the matching columns (name, address, and link). 
-    1. Copy the table's logical name.
-    1. Create a few sample records on the new table.
+1. Create a table in your environment with the matching columns (name, address, and link). 
+1. Copy the table's logical name.
+1. Create a few sample records on the new table.
 
 ## Step 2: Set up the web template
 
-    1. Copy the following source code into a new web template in your environment.
+1. Copy the following source code into a new web template in your environment.
 
     ```html
     
@@ -101,14 +101,14 @@ This sample demonstrates how to use the manifest to extend a web template to dis
     
     ```
 
-    1. Replace all instances of **cr50f** with the new table's schema name. This should take care of the fetchXML properties as well as throughout the HTML and `{% manifest %}`.
+1. Replace all instances of **cr50f** with the new table's schema name. This should take care of the fetchXML properties as well as throughout the HTML and `{% manifest %}`.
     
 ### Step 3: Use the web template
 
-    1. Add the new web template to the page copy of a page, for example, add `{% include 'Cards' %}` using the [Visual Studio Code for the Web](./visual-studio-code-editor.md).
-    1. Edit and configure the web template's properties in design studio.
-    1. Re-use the component across different web pages as needed and repeat the previous step to configure the display based on your requirements.
-    1. Select **edit data** to update records on the newly created table.
+1. Add the new web template to the page copy of a page, for example, add `{% include 'Cards' %}` using the [Visual Studio Code for the Web](./visual-studio-code-editor.md).
+1. Edit and configure the web template's properties in design studio.
+1. Re-use the component across different web pages as needed and repeat the previous step to configure the display based on your requirements.
+1. Select **edit data** to update records on the newly created table.
 
 ## See Also
 
