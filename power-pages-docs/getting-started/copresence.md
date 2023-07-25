@@ -46,4 +46,4 @@ If more than three makers are present, a number appears, such as +1 or +10. Sele
 
 - There may be a delay up to 20 seconds between when new members join the app and when you see their presence and location.
 
-- Copresence can't be disabled at an environment level. If you face problems using copresence or need it disabled in your tenant, contact Microsoft support.
+
