@@ -31,7 +31,7 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 
 ### Step 2: Set up the web template
 
-1. Copy the source code into a new web template in your environment.
+1. Copy the source code into a new web template in your environment. See [How to create a web template component](web-templates-as-components-how-to.md) for more details.
 
     ```http
     
@@ -145,5 +145,6 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 
 ## See Also
 
--[How to create a web template component](web-templates-as-components-how-to.md)
--[Display locations as cards](web-templates-as-components-location-cards.md)
+- [How to create a web template component](web-templates-as-components-how-to.md)
+- [Display locations as cards](web-templates-as-components-location-cards.md)
+- [Display product reviews as cards](web-templates-as-components-product-reviews.md)
