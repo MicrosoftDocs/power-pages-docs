@@ -33,7 +33,7 @@ Find who's working on a site at the same time as you with copresence. Copresence
 
 When another user joins your site in design studio, an icon shows up on the command bar and on the home page where the users typically start.
 
-User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site.
+User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site. You'll see your own icon in the page navigation if you have multiple instances of design studio open, but your icon will not display in the toolbar.
 
 :::image type="content" source="media/copresence/copresence.png" alt-text="The Pages workspace with copresence icons displayed in the toolbar and the left navigation pane.":::
 
