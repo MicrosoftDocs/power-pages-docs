@@ -1,12 +1,12 @@
 ---
 title: Known issues for Power Pages release
 description: A list of known issues in Power Pages.
-author: nickdoelman
+author: sandhangitmsft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 3/24/2023
 ms.subservice:
-ms.author: ndoelman 
+ms.author: sandhan 
 ms.reviewer: 
 contributors:
     - nickdoelman

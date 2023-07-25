@@ -1,27 +1,60 @@
 ---
-title: Use OAuth 2.0 implicit grant flow within your Power Pages site
-description: Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in your Power Pages site.
-author: gitanjalisingh33msft
-ms.topic: conceptual
-ms.custom: 
+title: Use OAuth 2.0 implicit grant flow in your Power Pages site
+description: Learn how to make client-side calls to external APIs and secure them using OAuth 2.0 implicit grant flow in your Power Pages site.
 ms.date: 3/20/2023
+ms.topic: how-to
+author: gitanjalisingh33msft
 ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - GitanjaliSingh33msft
     - dileepsinghmicrosoft
-    - nickdoelman 
-    - ProfessorKendrick   
+    - nickdoelman
+    - ProfessorKendrick
+ms.custom:
+  - bap-template
+  - ai-gen-docs
+content_well_notification: 
+  - AI-contribution
 ---
 
-# Use OAuth 2.0 implicit grant flow within your Power Pages site
+# Use OAuth 2.0 implicit grant flow in your Power Pages site
 
-This feature allows a customer to make client-side calls to external APIs and secure them using OAuth implicit grant flow. It provides an endpoint to obtain secure access tokens. These tokens will contain user identity information to be used by external APIs for authorization following OAuth 2.0 implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls, which helps developers to pass authentication context and will also help users secure their APIs.
+The OAuth 2.0 implicit grant flow is a way to get tokens from an authorization server without backend servers exchanging credentials. It returns tokens directly from the /authorize endpoint instead of the /token endpoint. It was designed for applications that access APIs only while the user is present.
+
+Here's an example of an authentication path with standard OAuth 2.0 and OAuth 2.0 implicit grant:
+
+:::row:::
+    :::column:::
+        OAuth 2.0
+    :::column-end:::
+    :::column:::
+        OAuth 2.0 implicit grant
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
+        1. A user visits a website and clicks on the "Sign in with Google" button.
+        2. The website redirects the user to Google's authorization server.
+        3. The user logs in to their Google account and is asked to grant permission to the website.
+        4. If the user grants permission, Google sends an authorization code back to the website.
+        5. The website sends this authorization code to Google's token server along with its client ID and secret.
+        6. Google verifies the authorization code and sends an access token back to the website.
+        7. The website can now use this access token to make requests on behalf of the user.
+    :::column-end:::
+    :::column:::
+        1. A user visits a website and clicks on the "Sign in with Google" button.
+        2. The website redirects the user to Google's authorization server.
+        3. The user logs in to their Google account and is asked to grant permission to the website.
+        4. If the user grants permission, Google sends an access token back to the website directly from the /authorize endpoint instead of the /token endpoint.
+        5. The website can now use this access token to make requests on behalf of the user.
+    :::column-end:::
+:::row-end:::
 
 OAuth 2.0 implicit grant flow supports [token](#token-endpoint-details) endpoints that a client can call to get an ID token.
 
-## Custom certificates 
+## Custom certificates
 
 Use the [Power Platform admin center](/power-apps/maker/portals/admin/manage-custom-certificates) to upload the custom certificate. After uploading the custom certificate, you need to update site settings as below: 
 

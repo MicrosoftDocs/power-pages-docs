@@ -82,14 +82,6 @@ Areas to consider:
 - High traffic pages linked to Microsoft Dataverse.
 - Volume of data stored in Dataverse.
 
-### Set up telemetry monitoring
-
-You can place the telemetry tracking HTML/JS snippet of code in the **Enable Traffic Analytics** area in the Portal Management app. 
-
-Open the [Portal Management app](../configure/portal-management-app.md) and navigate to the **Enable Traffic Analysis** section. Enter the snippet from your analytics provider.
-
-:::image type="content" source="media/portal-analytics.png" alt-text="Portal analytics.":::
-
 ### Finalize your site
 
 Clean up your site and remove any sample webpages, sample text, and placeholder images.
@@ -105,3 +97,6 @@ Protect any unfinished page by using [Page permissions](../security/page-securit
 ### Manage site visibility
 
 Configure site visibility after verifying the site is ready to be up and running. More information: [Site visibility](../security/site-visibility.md)
+
+## See also
+- [Set up telemetry monitoring](telemetry-monitoring.md)

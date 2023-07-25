@@ -158,10 +158,10 @@
                   href: getting-started/multistep-forms.md
                 - name: Add IFrame
                   href: getting-started/add-iframe.md
-                - name: Use Visual Studio Code editor (preview)
-                  href: configure/visual-studio-code-editor.md
             - name: Structure your site map
               href: getting-started/structure-site.md
+            - name: Use Visual Studio Code editor (preview)
+              href: configure/visual-studio-code-editor.md              
     - name: Use the Styling workspace
       items:
         - name: Styling workspace overview
@@ -250,6 +250,8 @@
               href: admin/site-checker-startup-issue.md
             - name: Provisioning issues
               href: admin/site-checker-provisioning-issues.md
+            - name: Security issues
+              href: security/site-checker-security.md
     - name: Manage website authentication key
       href: admin/manage-auth-key.md
     - name: Update, upgrade, migrate and convert websites
@@ -520,6 +522,8 @@
       href: configure/power-pages-solutions.md
     - name: Use Power Platform pipelines with Power Pages (preview)
       href: configure/power-pages-pipelines.md  
+    - name: Use Visual Studio Code editor (preview)
+      href: configure/visual-studio-code-editor.md      
 - name: Secure Power Pages
   items:
     - name: Overview
@@ -618,6 +622,8 @@
   items:
     - name: Go live checklist
       href: go-live/checklist.md
+    - name: Set up telemetry monitoring
+      href: go-live/telemetry-monitoring.md      
     - name: Licensing
       href: go-live/assign-licensing.md
 - name: Tutorials
@@ -653,13 +659,13 @@
 - name: Responsible AI
   items:
     - name: Overview
-      href: transparency-note.md
-    - name: Transparency note for chatbot
-      href: transparency-note-chatbot.md
-    - name: Transparency note for generating text
-      href: transparency-note-generate-text.md
-    - name: Transparency note for creating form
-      href: transparency-note-create-form.md             
+      href: responsible-ai-overview.md
+    - name: FAQ for chatbot
+      href: faqs-chatbot.md
+    - name: FAQ for generating text
+      href: faqs-generate-text.md
+    - name: FAQ for creating form
+      href: faqs-create-form.md             
 - name: Compliance and accessibility
   items:
     - name: Accessibility
