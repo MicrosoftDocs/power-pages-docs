@@ -99,7 +99,8 @@ This sample demonstrates how to use the manifest to extend a web template to dis
                       "description": "Show the footer of the cards"
                     }
                   ]
-              }{% endmanifest %}
+              }
+    {% endmanifest %}
     
     ```
 
@@ -115,3 +116,4 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 ## See Also
 
 -[How to create a web template component](web-templates-as-components-how-to.md)
+-[Display records as a carousel](web-templates-as-components-carousel.md)
