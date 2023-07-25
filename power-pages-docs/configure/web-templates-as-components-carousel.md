@@ -1,6 +1,6 @@
 ---
 title: Display records as a carousel
-description: Learn how to create and manage web templates as components in Power Pages.
+description: Learn how to create a web templates components to display locations in Power Pages as a carousel.
 author: clromano
 
 ms.topic: how-to
@@ -33,106 +33,107 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 
 1. Copy the source code into a new web template in your environment.
 
-```http
-
-{% fetchxml locationsQuery %}
-  <fetch mapping='logical'>
-    <entity name='cr50f_place'>
-      <attribute name='cr50f_name' />
-      <attribute name='cr50f_address' />
-      <attribute name='cr50f_image' />
-    </entity>
-  </fetch>
-{% endfetchxml %}
-
-<h2>{{ title | default: "Locations" }}</h2>
-
-{% assign interval = interval | integer %}
-{% assign count = count | integer %}
-{% assign height = height | integer %}
-
-<span>Showing {{ count }} out of {{ locationsQuery.results.entities.size }}</span>
-{% if locationsQuery.results.entities.size > 0 %}
-  <div id="carousel-example-generic"
-    class="carousel slide"
-    data-ride="carousel"
-    data-interval="{{interval}}">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      {% for location in locationsQuery.results.entities limit: count %}
-        <li
-          data-target="#carousel-example-generic"
-          data-slide-to="{{forloop.index0}}"
-          class="{% if forloop.first %}active{% endif %}"></li>
-      {% endfor %}
-    </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      {% for loc in locationsQuery.results.entities limit: count %}
-        <div class="item {% if forloop.first %}active{% endif %}" style="background-image:url('{{loc.cr50f_image.Url}}&Full=true'); height: {{height | default:500}}px">
-          <div class="carousel-caption" style="background:white">
-            <h3>{{ loc.cr50f_name }}</h3>
-            <p>{{ loc.cr50f_address }}</p>
-          </div>
+    ```http
+    
+    {% fetchxml locationsQuery %}
+        <fetch mapping='logical'>
+        <entity name='cr50f_place'>
+            <attribute name='cr50f_name' />
+            <attribute name='cr50f_address' />
+            <attribute name='cr50f_image' />
+        </entity>
+        </fetch>
+    {% endfetchxml %}
+    
+    <h2>{{ title | default: "Locations" }}</h2>
+    
+    {% assign interval = interval | integer %}
+    {% assign count = count | integer %}
+    {% assign height = height | integer %}
+    
+    <span>Showing {{ count }} out of {{ locationsQuery.results.entities.size }}</span>
+    {% if locationsQuery.results.entities.size > 0 %}
+        <div id="carousel-example-generic"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="{{interval}}">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            {% for location in locationsQuery.results.entities limit: count %}
+            <li
+                data-target="#carousel-example-generic"
+                data-slide-to="{{forloop.index0}}"
+                class="{% if forloop.first %}active{% endif %}"></li>
+            {% endfor %}
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {% for loc in locationsQuery.results.entities limit: count %}
+            <div class="item {% if forloop.first %}active{% endif %}" style="background-image:url('{{loc.cr50f_image.Url}}&Full=true'); height: {{height | default:500}}px">
+                <div class="carousel-caption" style="background:white">
+                <h3>{{ loc.cr50f_name }}</h3>
+                <p>{{ loc.cr50f_address }}</p>
+                </div>
+            </div>
+            {% endfor %}
         </div>
-      {% endfor %}
-    </div>
-    <!-- Controls -->
-    <a
-      class="left carousel-control"
-      href="#carousel-example-generic"
-      role="button"
-      data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a
-      class="right carousel-control"
-      href="#carousel-example-generic"
-      role="button"
-      data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-{% endif %}
-
-<style>
-  .carousel .item {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-</style>
-
-{% manifest %}
-  {
-  "type": "Functional",
-      "displayName": "Locations Slider",
-      "description": "Locations slider using the table 'Place' as the data source",
-      "tables": ["cr50f_place"],
-      "params": [
-         {
-          "id": "title",
-          "displayName": "Title",
-          "description": ""
-        },{
-          "id": "interval",
-          "displayName": "Interval",
-          "description": "The amount of time to delay between automatically cycling an item. If false, carousel will not automatically cycle. Default: 5000ms"
-        },{
-            "id": "count",
-            "displayName": "Count",
-            "description": "The number of locations to display"
-        },{
-            "id": "height",
-            "displayName": "Slide's height",
-            "description": "In px, default: 500px"
+        <!-- Controls -->
+        <a
+            class="left carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a
+            class="right carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+    {% endif %}
+    
+    <style>
+        .carousel .item {
+        background-size: cover;
+        background-repeat: no-repeat;
         }
-      ]
-    }
-{% endmanifest %}
+    </style>
+    
+    {% manifest %}
+        {
+        "type": "Functional",
+            "displayName": "Locations Slider",
+            "description": "Locations slider using the table 'Place' as the data source",
+            "tables": ["cr50f_place"],
+            "params": [
+                {
+                "id": "title",
+                "displayName": "Title",
+                "description": ""
+            },{
+                "id": "interval",
+                "displayName": "Interval",
+                "description": "The amount of time to delay between automatically cycling an item. If false, carousel will not automatically cycle. Default: 5000ms"
+            },{
+                "id": "count",
+                "displayName": "Count",
+                "description": "The number of locations to display"
+            },{
+                "id": "height",
+                "displayName": "Slide's height",
+                "description": "In px, default: 500px"
+            }
+          ]
+        }
+    {% endmanifest %}
+    
+    ```
 
-```
 1. Replace all instances of 'cr50f' with the new table's schema name. This should take care of the fetchXML properties as well as throughout the HTML and `{% manifest %}`.
 
 ### Step 3: Use the web template
