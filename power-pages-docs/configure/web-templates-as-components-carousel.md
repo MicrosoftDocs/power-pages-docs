@@ -1,6 +1,6 @@
 ---
 title: Display records as a carousel
-description: Learn how to create a web templates components to display locations in Power Pages as a carousel.
+description: Learn how to create a web templates component to display locations in Power Pages as a carousel.
 author: clromano
 
 ms.topic: how-to
@@ -29,7 +29,7 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 2. Copy the table's logical name.
 1. Create a few sample records on the new table.
 
-### Step 2: Setup the web template
+### Step 2: Set up the web template
 
 1. Copy the source code into a new web template in your environment.
 
@@ -134,13 +134,13 @@ This sample demonstrates how to use the manifest to extend a web template to dis
     
     ```
 
-1. Replace all instances of 'cr50f' with the new table's schema name. This should take care of the fetchXML properties as well as throughout the HTML and `{% manifest %}`.
+1. Replace all instances of 'cr50f' with the new table's schema name. This should take care of the fetchXML properties and throughout the HTML and `{% manifest %}`.
 
 ### Step 3: Use the web template
 
 1. Add the new web template to the page copy of a page, for example, add `{% include 'locations-slider' title:'Locations' interval:'6500' count:'4' height:'500' %}` or `{% include 'locations-slider' title:'Locations' interval:'3500' count:'3' height:'750' %}`
 1. Edit and configure the web template's properties in design studio.
-1. Re-use the component across different web pages as needed and repeat the previous step to configure the display based on your requirements.
+1. Reuse the component across different web pages as needed and repeat the previous step to configure the display based on your requirements.
 1. Select **edit data** to update records on the newly created table.
 
 ## See Also
