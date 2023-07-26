@@ -1,17 +1,18 @@
 ---
 title: Power Pages capabilities
 description: Learn about Power Pages capabilities.
-author: sandhan
+author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/26/2023
 ms.subservice:
-ms.author: ndoelman
+ms.author: dileeps
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
     - KumarVivek
+    - dileepsinghmicrosoft
 ---
 
 # Power Pages capabilities

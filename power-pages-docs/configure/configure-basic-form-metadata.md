@@ -130,7 +130,7 @@ The following properties specify the location and content of custom description 
 
 ## Basic form metadata type = Notes
 
-See [Configure notes as attachments for basic and multistep forms](configure-notes.md)
+See [Configure notes as attachments for basic and multistep forms](configure-notes.md). These settings are used to configure the *timeline* control on a form, you can also enable a simple file upload control through [form additional settings](basic-forms.md#additional-settings).
 
 ## Basic form metadata type = Section
 

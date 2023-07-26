@@ -162,4 +162,5 @@ After you [enable a code component](#enable-code-components-on-form-fields), pro
 ### See also
 
 - [Create and modify forms](../configure/data-workspace-forms.md)
+- [About basic forms](../configure/basic-forms.md)
 - [Tutorial: Add a form to a page](tutorial-add-form-to-page.md)

@@ -1,5 +1,5 @@
 ---
-title: Security
+title: Security issues (preview)
 description: Learn about Site Checker diagnostics results for security issues.
 author: vamseedillimsft
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
 ---
-# Security 
+# Security issues (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
