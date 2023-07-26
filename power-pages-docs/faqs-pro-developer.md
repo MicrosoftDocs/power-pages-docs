@@ -33,7 +33,7 @@ The goal of AI-generated code using Copilot for Power Pages pro-developers is to
 
 ## How was AI-generated code using Copilot evaluated? What metrics are used to measure performance?
 
-This feature underwent substantial testing before the feature was released. AI-generated form relies on user feedback to report if the AI-generated code is not relevant or inappropriate. If you encounter irrelevant or inappropriate responses, report it to Microsoft using the thumbs down gesture and include feedback in the form. We track the telemetry of thumbs up and thumbs down gestures present in the Copilot experiences for each AI-generated output. Your feedback helps improve the functionality moving forward. In addition to this, we also track this feature's SLA to make sure it's always available to you.
+This feature underwent substantial testing before the feature was released. AI-generated code relies on user feedback to report if the AI-generated code is not relevant or inappropriate. If you encounter irrelevant or inappropriate responses, report it to Microsoft using the thumbs down gesture and include feedback in the form. We track the telemetry of thumbs up and thumbs down gestures present in the Copilot experiences for each AI-generated output. Your feedback helps improve the functionality moving forward. In addition to this, we also track this feature's SLA to make sure it's always available to you.
 
 ## What are the limitations of AI-generated code using Copilot? How can users minimize the impact of the AI-generated code using Copilot's limitations?
 
@@ -43,7 +43,7 @@ This feature underwent substantial testing before the feature was released. AI-g
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-You can revise the intended code description as needed. You can also review the generated code and decide if you want to use it in Power Pages site code. You can insert the code to your site code and refine it or you can start over if the generated form doesn't fit your business requirements.
+You can revise the intended code description as needed. You can also review the generated code and decide if you want to use it in Power Pages site code. You can insert the code to your site code and refine it or you can start over if the generated code doesn't fit your business requirements.
 
 ## See also
 
