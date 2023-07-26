@@ -276,27 +276,6 @@ You can associate tables on update by using the same message described in [Basic
   </tr>
 </table>
 
-The following is an example of associating an existing contact to be the primary contact (lookup column) of an account, you will need to replace the *GUID* with the appropriate values or variables:
-
-```javascript
-var record = {};
-record[primarycontactid@odata.bind] = "/contacts(e797d473-260a-ee11-8f6d-000d3a8b42b8)"; 
-
-webapi.safeAjax({
-  type: "PATCH",
-  contentType: "application/json",
-  url: "/_api/accounts(d397d473-260a-ee11-8f6d-000d3a8b42b8)",
-  data: JSON.stringify(record),
-    success: function (data, textStatus, xhr) {
-      console.log("Record updated");
-    },
-      error: function (xhr, textStatus, errorThrown) {
-      console.log(xhr);
-    }
-});
-
-```
-
 ## Web API AJAX samples
 
 This sample demonstrates how to create, update, and delete table records by using Asynchronous JavaScript and XML (AJAX).
@@ -378,6 +357,26 @@ This sample demonstrates how to create, update, and delete table records by usin
 			console.log(res);
 		}
   });
+```
+
+### Associate
+
+The following example will assign an existing contact as the primary contact for an existing account.
+
+```javascript
+var record = {};
+record[primarycontactid@odata.bind] = "/contacts(00000000-0000-0000-0000-000000000002)"; 
+
+webapi.safeAjax({
+  type: "PATCH",
+  contentType: "application/json",
+  url: "/_api/accounts(00000000-0000-0000-0000-000000000001)",
+  data: JSON.stringify(record),
+    success: function (data, textStatus, xhr) {
+      console.log("Record updated");
+    }
+});
+
 ```
 
 ## Next step
