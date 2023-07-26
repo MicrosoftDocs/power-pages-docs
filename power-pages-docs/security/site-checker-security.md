@@ -10,7 +10,7 @@ ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
 ---
-# Security (preview)
+# Security issues (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
