@@ -91,7 +91,7 @@ This sample demonstrates how to use the manifest to extend a web template to dis
                     {
                       "id": "columns",
                       "displayName": "# of Columns",
-                      "description": "< 12"
+                      "description": "less than 12"
                     },
                     {
                       "id": "footer",
