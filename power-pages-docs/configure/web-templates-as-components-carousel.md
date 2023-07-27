@@ -33,7 +33,7 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 
 1. Copy the source code into a new web template in your environment. See [How to create a web template component](web-templates-as-components-how-to.md) for more details.
 
-    ```http
+    ```html
     
     {% fetchxml locationsQuery %}
         <fetch mapping='logical'>
