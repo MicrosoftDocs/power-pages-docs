@@ -21,7 +21,7 @@ This sample demonstrates how to use the manifest to extend a web template to dis
 
 :::image type="content" source="media/web-template-components/prod-review-sample-studio-2.png" alt-text="Web template component as a product review.":::
 
-## How to create a web template component to display locations
+## How to create a web template component to display product locations
 
 ### Step 1: Preparation
 
@@ -112,7 +112,7 @@ This sample demonstrates how to use the manifest to extend a web template to dis
           {
             "id": "columns",
             "displayName": "# of Columns",
-            "description": "< 12"
+            "description": "&gt 12"
           },
           {
             "id": "cutoff",
