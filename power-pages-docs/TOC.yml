@@ -518,10 +518,16 @@
           href: configure/power-platform-cli.md
         - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
           href: configure/power-platform-cli-tutorial.md
-        - name: Use Visual Studio Code for Power Pages
-          href: configure/vs-code-extension.md
         - name: Power Platform CLI solution management (preview)
           href: configure/power-platform-cli-solution-management.md         
+    - name: Use Visual Studio Code
+      items:
+        - name: Use Visual Studio Code desktop for Power Pages
+          href: configure/vs-code-extension.md
+        - name: Add AI-generated code using Copilot  
+          href: configure/add-code-copilot.md
+        - name: Use Visual Studio Code for the Web editor (preview)
+          href: configure/visual-studio-code-editor.md 
     - name: Use admin APIs
       href: admin/admin-api.md
     - name: Power Pages ALM
@@ -530,8 +536,7 @@
       href: configure/power-pages-solutions.md
     - name: Use Power Platform pipelines with Power Pages (preview)
       href: configure/power-pages-pipelines.md  
-    - name: Use Visual Studio Code editor (preview)
-      href: configure/visual-studio-code-editor.md      
+     
 - name: Secure Power Pages
   items:
     - name: Overview
