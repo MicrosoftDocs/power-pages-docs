@@ -250,7 +250,7 @@
               href: admin/site-checker-startup-issue.md
             - name: Provisioning issues
               href: admin/site-checker-provisioning-issues.md
-            - name: Security issues
+            - name: Security issues (preview)
               href: security/site-checker-security.md
     - name: Manage website authentication key
       href: admin/manage-auth-key.md
@@ -455,9 +455,17 @@
         - name: Web templates overview
           href: configure/web-templates.md
         - name: Web templates as components (preview)
-          href: configure/web-templates-as-components.md  
-        - name: "How to: Create a web template component (preview)"
-          href: configure/web-templates-as-components-how-to.md            
+          items:
+            - name: Use web templates as components overview
+              href: configure/web-templates-as-components.md  
+            - name: "How to: Create a web template component"
+              href: configure/web-templates-as-components-how-to.md
+            - name: "How to: Display location records as a carousel"
+              href: configure/web-templates-as-components-carousel.md
+            - name: "How to: Display locations as cards"
+              href: configure/web-templates-as-components-location-cards.md
+            - name: "How to: Display product reviews as cards"
+              href: configure/web-templates-as-components-product-reviews.md
         - name: Create custom web templates
           items:
             - name: Create custom page layouts
