@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: overview
 ms.custom: 
-ms.date: 6/02/2023
+ms.date: 8/01/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -18,6 +18,9 @@ contributors:
 # Overview of the developer capabilities
 
 The 
+
+:::image type="content" source="media/developer-overview/homescreen.svg" alt-text="Home screen.":::
+
 
 ### See also
 
