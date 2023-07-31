@@ -1,6 +1,6 @@
 ---
 title: Enhanced data model
-description: Learn how to use the enhanced data model in Power Pages site.
+description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
@@ -18,51 +18,55 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The standard data model was built with custom tables and was optimized for configuration of each website component stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires other time to load the various solutions, tables, and metadata while provisioning a new site. Updates to website tables on the standard model require manual and time consuming application of package updates. 
+The standard data model was built by using custom tables, and it was optimized for the configuration of each website component that is stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the different solutions, tables, and metadata when a new site is provisioned. Updates to website tables in the standard model require manual and time-consuming application of package updates.
 
 > [!IMPORTANT]
-> - This is a preview feature.
+> - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-The enhanced data model for Power Pages provides the following benefits:
+The new enhanced data model for Power Pages provides the following benefits:
 
-- faster provisioning of websites
-- faster design studio experiences
-- allow website configuration to be contained in solutions to provide smoother ALM experiences
-- improved updates of Power Pages enhancements and bug fixes
+- Provisioning of websites is faster.
+- Design studio experiences are faster.
+- Website configurations can be contained in solutions to provide smoother Application Lifecyle Management (ALM) experiences.
+- Updates of Power Pages enhancements and bug fixes are improved.
 
-The enhanced data model is combination of system tables, a collection of nonconfiguration tables, and a set of virtual tables.
+The enhanced data model is a combination of system tables, nonconfiguration tables, and virtual tables.
 
-### Determine if your site is using standard or enhanced data model
+## Determine whether your site is using the standard or enhanced data model
 
-You can see which data model your site is using by going to the [Power Platform admin center](https://aka.ms/ppac), go to **Resources** > **Power Pages sites**, select your site, select **Manage** and the **Data Model** value in the **Site Details** indicate what data model the site is using.
+There are several ways to determine which data model your site is using:
 
-:::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Site details.":::
+- Open [Power Platform admin center](https://aka.ms/ppac), go to **Resources** \> **Power Pages sites**, select your site, and then select **Manage**. The **Data Model** field in the **Site Details** section indicates which data model is being used.
 
-You'll also be able to view the data model being used from with the **Setup** workspace in the design studio.
+    :::image type="content" source="media/enhanced-data-model/site-details.png" alt-text="Screenshot that shows the Data Model field set to Enhanced in the Site Details section for a site.":::
 
-You can also identify the data model used by opening the **Portal Management app** application as the new data model application name will be **Power Pages Management** instead of **Portal Management** application. 
+- The **Setup** workspace in the Power Pages design studio shows which data model is being used.
+- Open the Portal Management app. If the standard data model is being used, the application name is shown as **Portal Management**. If the enhanced data model is being used, the name is shown as **Power Pages Management**.
 
-:::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Power Pages Management app.":::
+    :::image type="content" source="media/enhanced-data-model/power-pages-management.png" alt-text="Screenshot of the Power Pages Management app.":::
 
-When using the [Power Platform CLI](../configure/power-platform-cli.md), you're able to view which data model is being used by site with the following command:
+- If you're using the [Power Platform CLI](../configure/power-platform-cli.md), run the following command to view which data model is being used.
 
-`pac paportal list -v`
+    `pac paportal list -v`
+
+    > [!NOTE]
+    > This parameter is supported in Power Platform CLI version 1.22.4 and later.
+
+## System tables
+
+The system tables are Power Pages–specific solution-aware tables that are present in all Dataverse environments.
 
 > [!NOTE]
-> This parameter is supported from Power Platform CLI version 1.22.4 onwards.
-
-### System tables
-
-The system tables are Power Pages specific solution aware tables present in all Dataverse environments. These system tables can't be modified.
+> These tables can't be modified.
 
 - Site
 - Site Component
 - Site Language
 
-### Nonconfiguration tables
+## Nonconfiguration tables
 
-Nonconfiguration tables are feature specific tables that contain transactional business data. Data in these tables don't participate in ALM processes.
+Nonconfiguration tables are feature-specific tables that contain transactional business data. Data in these tables doesn't participate in ALM processes.
 
 - Ad
 - Poll
@@ -75,36 +79,36 @@ Nonconfiguration tables are feature specific tables that contain transactional b
 - Setting
 - WebFormSession
 
-### Virtual tables
+## Virtual tables
 
-The Power Pages virtual tables represent and contain the metadata of the specific website components. The virtual tables point to the system tables that contain the website metadata in JSON format. The content in the virtual tables can be updated and configured through the [Power Pages management app](#edit-site-using-the-power-pages-management-app) which has the identical look and feel of the legacy [Portal Management app](../configure/portal-management-app.md).
+The Power Pages virtual tables represent and contain the metadata of the specific website components. They point to the system tables that contain the website metadata in JavaScript Object Notation (JSON) format. You can update and configure the content of the virtual tables by using the [Power Pages Management app](#edit-a-site-by-using-the-Power-Pages-Management-app). This app has the same look and feel as the older [Portal Management app](../configure/portal-management-app.md).
 
 > [!NOTE]
-> - If you have developed any custom code or tools that utilizes any of the standard data model tables, you will need to update the code to use the enhanced data model tables.
-> - These tables cannot be modified.
+> - If you've developed any custom code or tools that use any of the standard data model tables, you must update the code so that it uses the enhanced data model tables.
+> - These tables can't be modified.
 
 | System table | Enhanced data model virtual table | Standard data model table |
-| - | - | - |
-|powerpagesite|mspp_website|adx_website|
-|powerpagesitelanguage|mspp_websitelanguage|adx_websitelanguage|
-| powerpagecomponent | mspp_columnpermission</br>mspp_columnpermissionprofile</br>mspp_contentsnippet</br>mspp_entityform</br>mspp_entityformmetadata</br>mspp_entitylist</br>mspp_entitypermission</br>mspp_pagetemplate</br>mspp_pollplacement</br>mspp_publishingstate</br>mspp_publishingstatetransitionrule</br>mspp_redirect</br>mspp_shortcut</br>mspp_sitemarker</br>mspp_sitesetting</br>mspp_webfile</br>mspp_webform</br>mspp_webformmetadata</br>mspp_webformstep</br>mspp_weblink</br>mspp_weblinkset</br>mspp_webpage</br>mspp_webpageaccesscontrolrule</br>mspp_webrole</br>mspp_websiteaccess</br>mspp_websitelanguage</br>mspp_webtemplate</br>|adx_columnpermission</br>adx_columnpermissionprofile</br>adx_contentsnippet</br>adx_entityform</br>adx_entityformmetadata</br>adx_entitylist</br>adx_entitypermission</br>adx_pagetemplate</br>adx_pollplacement</br>adx_publishingstate</br>adx_publishingstatetransitionrule</br>adx_redirect</br>adx_shortcut</br>adx_sitemarker</br>adx_sitesetting</br>adx_webfile</br>adx_webform</br>adx_webformmetadata</br>adx_webformstep</br>adx_weblink</br>adx_weblinkset</br>adx_webpage</br>adx_webpageaccesscontrolrule</br>adx_webrole</br>adx_websiteaccess</br>adx_websitelanguage</br>adx_webtemplate</br>|
+|---|---|---|
+| powerpagesite | mspp\_website | adx\_website |
+| powerpagesitelanguage | mspp\_websitelanguage | adx\_websitelanguage |
+| powerpagecomponent | mspp\_columnpermission<br>mspp\_columnpermissionprofile<br>mspp\_contentsnippet<br>mspp\_entityform<br>mspp\_entityformmetadata<br>mspp\_entitylist<br>mspp\_entitypermission<br>mspp\_pagetemplate<br>mspp\_pollplacement<br>mspp\_publishingstate<br>mspp\_publishingstatetransitionrule<br>mspp\_redirect<br>mspp\_shortcut<br>mspp\_sitemarker<br>mspp\_sitesetting<br>mspp\_webfile<br>mspp\_webform<br>mspp\_webformmetadata<br>mspp\_webformstep<br>mspp\_weblink<br>mspp\_weblinkset<br>mspp\_webpage<br>mspp\_webpageaccesscontrolrule<br>mspp\_webrole<br>mspp\_websiteaccess<br>mspp\_websitelanguage<br>mspp\_webtemplate<br> | adx\_columnpermission<br>adx\_columnpermissionprofile<br>adx\_contentsnippet<br>adx\_entityform<br>adx\_entityformmetadata<br>adx\_entitylist<br>adx\_entitypermission<br>adx\_pagetemplate<br>adx\_pollplacement<br>adx\_publishingstate<br>adx\_publishingstatetransitionrule<br>adx\_redirect<br>adx\_shortcut<br>adx\_sitemarker<br>adx\_sitesetting<br>adx\_webfile<br>adx\_webform<br>adx\_webformmetadata<br>adx\_webformstep<br>adx\_weblink<br>adx\_weblinkset<br>adx\_webpage<br>adx\_webpageaccesscontrolrule<br>adx\_webrole<br>adx\_websiteaccess<br>adx\_websitelanguage<br>adx\_webtemplate<br> |
 
-## ​​Enable environment for enhanced data model  
+## Enable the enhanced data model in an environment
 
-You'll first need to enable the enhanced data model on your Power Platform environment before being able to provision a website utilizing the enhanced data model.
+Before you can provision a website that uses the enhanced data model, you must enable the enhanced data model in your Microsoft Power Platform environment.
 
 > [!NOTE]
-> This will add solutions packages to support the enhanced data model on your Power Platform environment.  
+> This process adds solutions packages to support the enhanced data model in your Microsoft Power Platform environment.
 
-Once the enhanced data model is enabled, when you provision a new website using one of the following templates, they utilize the enhanced data model;
+After you enable the enhanced data model, any new website that you provision by using one of the following templates uses the enhanced data model:
 
 - Starter layout 1-5
 - Application processing
 - Blank page
 - Program registration
 - Schedule meetings
- 
-The following templates use the standard data model even if the enhanced data model is enabled on the environment:
+
+The following templates use the standard data model even if the enhanced data model is enabled in the environment:
 
 - FAQ (preview)
 - Community (Dynamics 365)
@@ -116,119 +120,107 @@ The following templates use the standard data model even if the enhanced data mo
 - Order Returns (Dynamics 365)
 - Partner Portal (Dynamics 365)
 
-Follow these steps to enable the new data model for a specific environment.
+Follow these steps to enable the enhanced data model in a specific environment:
 
-1. Open the [Power Platform admin center](https://aka.ms/ppac)
+1. Open [Power Platform admin center](https://aka.ms/ppac).
+1. Select **Environments**.
+1. Select the environment that you want to enable the new data model in.
+1. On the **Resources** tile, select **Power Pages sites**.
+1. On the toolbar, enable the **Switch to enhanced data model (preview)** option.
 
-1. Select **Environments**
+    :::image type="content" source="media/enhanced-data-model/switch-to-enhanced-data-model.png" alt-text="Screenshot that shows the Switch to enhanced data model option.":::
 
-1. Select the environment that you want to enable the new data model. 
+    Installation of the **Power Pages Core** package begins. After installation is completed, you receive a message.
 
-1. Select **Power Pages sites** under the **Resources** tile. 
+    :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Details of the package that is installed.":::
 
-1. Select the **Switch to enhanced data model (preview)** switch from the tool bar.  
+You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model (preview)** option. If you disable the enhanced data model, you do **not** remove the solution packages or delete any websites. Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
 
-    :::image type="content" source="media/enhanced-data-model/switch-to-enhanced-data-model.png" alt-text="Switch to enhanced data model.":::
+## Create a website by using the enhanced data model
 
-    This starts installation of the **Power Pages Core** package. You see a message once completed.
-
-    :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Updated packages installed.":::
-
-You can opt out from new data model site creation by disabling the **Switch to enhanced data model (preview)** option from top tool bar. Disabling the enhanced data model won't remove the solution packages or delete any websites. 
-
-Existing websites created using the enhanced data model continues to operate. Any new website created will use the standard data model.
-
-## Create a website with an enhanced data model 
-
-You can create a new site using Power Pages home page with the new data model once it's enabled for an environment.
+After the enhanced data model is enabled in an environment, you can create a new site from the Power Pages home page.
 
 > [!NOTE]
-> The new site will be created using the new enhanced data model only if it is supported by the selected template. 
+> The enhanced data model is used to create the new site only if the selected template supports the enhanced data model.
 
-Create site using a template of your choice using the new data model:
+Follow these steps to create a site by using a template that uses the new data model:
 
-1. Navigate to the [Power Pages](https://aka.ms/mpp) home page.
+1. Open the [Power Pages home page](https://aka.ms/mpp).
+1. Select **Create a site**.
+1. Select a template, and then select **Choose this template** to create the site.
+1. Fill in the required information, and then select **Done**.
 
-1. Select the **Create a site** button.  
+You're redirected to the Power Pages home page, where the new site appears in the **My sites** list. When the new site is ready, you can edit it by using the Power Pages design studio.
 
-1. Select the template and select **Choose this template** to create your site.
+## View the list of new data model sites
 
-1. Fill in the required information and select **Done**.  
+You can view newly created sites from the Power Pages home page.
 
-You're redirected to the Power pages home page, and the new site appears in the **My sites** list. You can edit the site using Power Pages design studio when the site is ready.
+Sites that use the enhanced data model have functional parity with sites that use the standard data model. To determine which data model your website is using, go to the [Determine whether your site is using the standard or enhanced data model](#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model) section.
 
-## See list of new data model sites 
+The **Active sites** section of the Power Pages home page lists all the available sites. The list shows both sites that use the standard data model and sites that use the enhanced data model, regardless of whether the enhanced data model has been enabled for the environment.
 
-You can see the newly created site from the Power Pages home.
+## Edit a new site that uses the enhanced data model
 
-The new data model sites are at functional parity, see [Determine if your site is using standard or enhanced data model](#determine-if-your-site-is-using-standard-or-enhanced-data-model) to see which data model your website is using.
+Sites that use the enhanced data model have functional parity with sites that use the standard data model. You can use either the [Power Pages design studio](../getting-started/use-design-studio.md) or the [Power Pages management app](../configure/portal-management-app.md) for customization.
 
-All of the available sites in the Power Pages home page **Active sites** section. This list shows sites that are created on the new data model and the existing data model, whether the environment has been enabled for the new data model or not.
+### Edit a site by using the Power Pages design studio
 
-## Editing newly created site on new data model  
-
-Site that is created on new data model has functional parity with classic data model and users can use [Power Pages design studio](../getting-started/use-design-studio.md) or [Power Pages management application](../configure/portal-management-app.md) for customization.  
-
-## Edit site using the Power Pages design studio
-
-Users can select **Edit** option from the Power Pages home page site card to open the design studio and edit the site.
+On the Power Pages home page, on the site card, select **Edit** to open the Power Pages design studio and edit the site.
 
 > [!NOTE]
-> Editing new data model site using design studio will work same as existing data model site without any functionality gaps.  
+> The editing process in the Power Pages design studio works the same, regardless of whether the site uses the enhanced data model or the standard data model. There are no functionality gaps.
 
-## Edit site using the Power Pages Management app
+### Edit a site by using the Power Pages Management app
 
-Users can select the **Portal management app** option from the Power Pages home site card to open the **Power Pages management** application.  Select the ellipse **…** followed by **Portal management**.
+On the Power Pages home page, on the site card, select the ellipsis (**…**), and then select **Portal management** to open the Power Pages Management app.
 
 > [!NOTE]
-> The new data model comes with new UCI model-driven Power App application with name **Power Pages management.** You will need to use this application for advanced customizations which are not available using the Power Pages design studio.  
+> The enhanced data model includes a new UCI model-driven Power Apps application that is named **Power Pages Management**. You must use this app for advanced customizations that aren't available through the Power Pages design studio.
 
-You can also open the **Power Pages Management** application from Power Pages design studio. Select the ellipse **…** followed by **Portal management**. 
+You can also open the Power Pages Management app from the Power Pages design studio. Select the ellipsis (**…**), and then select **Portal Management**.
 
-The **Power Pages Management** application allows you to make advance customizations unavailable in the design studio.
+You can use the Power Pages Management app to perform advanced customizations that are unavailable in the design studio.
 
-:::image type="content" source="media/enhanced-data-model/edit-site-power-pages-management.png" alt-text="Edit website using Power Pages Management app.":::
+:::image type="content" source="media/enhanced-data-model/edit-site-power-pages-management.png" alt-text="Screenshot that shows a website being edited in the Power Pages Management app.":::
 
 ## Data model Power Platform CLI parameters
 
-You need to use the `modelVersion` parameter when uploading or downloading enhanced data model website configuration data using the Power Platform CLI. The value of `2` indicates to use the enhanced data model. 
+When you use the Power Platform CLI to upload or download configuration data for a website that uses the enhanced data model, you must use the `modelVersion` parameter. A value of *2* indicates that the enhanced data model should be used.
 
-Download
+**Download**
+
 `pac paportal download --path <path> --webSiteId <siteId> --modelVersion 2`
 
-Upload
+**Upload**
+
 `pac paportal upload --path <path> --modelVersion 2`
 
 > [!NOTE]
-> This parameter is supported from Power Platform CLI version 1.22.4 onwards.
+> This parameter is supported in Power Platform CLI version 1.22.4 and later.
 
-See [Power Platform CLI parameters](../configure/power-platform-cli.md#parameters) for more information.
+For more information, go to [Power Platform CLI parameters](../configure/power-platform-cli.md#parameters).
 
-## Frequently asked questions: 
+## Frequently asked questions
 
 ### How can I update a website from the standard data model to the enhanced data model?
 
-Guidance and tooling support to update from the standard data model to enhanced data model will be delivered in a later update.
+Guidance and tooling support to help you update from the standard data model to the enhanced data model will be provided in a later update.
 
-### Can I edit new sites based on enhanced data model configurations in the Portal management app? 
+### Can I edit new sites that are based on enhanced data model configurations in the Portal Management app?
 
-New websites created using the enhanced data model can be edited using the new Power Pages Management app.
+You can use the new Power Pages Management app to edit new websites that are created by using the enhanced data model.
 
 ## Known issues
 
-1. A logged website user sees a list of all supported languages instead of just the website enabled languages on the language selection on the user profile page.
-
-1. The search feature won't return any web page results.
-
-1. Follow the steps in [Set up telemetry monitoring](../go-live/telemetry-monitoring.md) to enable traffic analysis for websites using the enhanced data model.
-
-1. The **Account** table isn't part of the Power Pages management app. This limits adding a parent account record to a contact. As a workaround, [manually add the account table](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-table) to Power Pages management app.
-
-1. Configuring [list actions](../getting-started/add-list.md#choose-list-actions) on websites with the enhanced data model currently doesn't save the configuration. As a workaround, configure the list using the [Power Pages management app](../configure/list-configuration.md).  
-
-1. You will need to assign contacts to web roles using the **Portal Contact (Enhanced Form)** on the contact record using the Power Pages management app. See [Configure web roles](../security/create-web-roles.md#from-the-contact-with-site-using-enhanced-data-model) for more information.
+- In the language selection on the user profile page, a signed-in website user is shown a list of all supported languages, not just the website-enabled languages.
+- The search feature doesn't return any webpage results.
+- To enable traffic analysis for websites that use the enhanced data model, follow the steps in [Set up telemetry monitoring](../go-live/telemetry-monitoring.md).
+- The `Account` table isn't part of the Power Pages Management app. Therefore, the ability to add a parent account record to a contact is limited. As a workaround, [manually add the Account table](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-table) to the Power Pages Management app.
+- If you configure [list actions](../getting-started/add-list.md#choose-list-actions) on websites that use the enhanced data model, the configuration isn't currently saved. As a workaround, configure the list by using the [Power Pages Management app](../configure/list-configuration.md).
+- You must assign contacts to web roles by using **Portal Contact (Enhanced Form)** on the contact record in the Power Pages Management app. For more information, go to [Configure web roles](../security/create-web-roles.md#from-the-contact-with-site-using-enhanced-data-model).
 
 ## See also
 
-- [Using solutions with Power Pages](../configure/power-pages-solutions.md)
-- [Power Platform CLI solution management](../configure/power-platform-cli-solution-management.md)
+- [Use solutions with Power Pages](../configure/power-pages-solutions.md)
+- [Power Platform CLI solution support for Power Pages](../configure/power-platform-cli-solution-management.md)
