@@ -37,7 +37,7 @@ The intended use case for Copilot for Design Studio is to aid users in creating 
 
 ## How was Copilot for design studio evaluated? What metrics are used to measure performance?
 
-We conducted testing before the feature release. Copilot for design studio relies on user feedback to report if the AI-generated text content isn't relevant or inappropriate. If you receive irrelevant or inappropriate responses, report it to Microsoft using the thumbs down gesture and include feedback in the form. We track the telemetry of thumbs up and thumbs down gestures present in the Copilot experiences for each AI-generated output. Your feedback helps improve the functionality moving forward.
+We conducted extensive testing before the feature release. Copilot for design studio relies on user feedback to report if the AI-generated text content isn't relevant or inappropriate. If you receive irrelevant or inappropriate responses, report it to Microsoft using the thumbs down gesture and include feedback in the form. We track the telemetry of thumbs up and thumbs down gestures present in the Copilot experiences for each AI-generated output. Your feedback helps improve the functionality moving forward.
 
 ## What are the limitations of Copilot for design studio? How can users minimize the impact of Copilot for design studio’s limitations when using the system?
 
