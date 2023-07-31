@@ -30,7 +30,7 @@ To try this feature, you require at minimum two Power Platform environments that
 
 You can have multiple target environments depending on your setup. For example, a testing, staging, and production environments.
 
-Each environment requires a site that is created using the new data model. See [create a website with an enhanced data model](../admin/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
+Each environment requires a site that is created using the new data model. See [create a website by using the enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
 
 You also need to set up and configure a pipeline from your development environment to corresponding target environments. See [Power Platform pipelines](/power-platform/alm/pipelines) for details on how to configure pipelines.
 
