@@ -47,7 +47,7 @@ We conducted testing before the feature release. Copilot for design studio relie
 
 ## What operational factors and settings allow for effective and responsible use of Copilot for design studio?
 
-Copilot for design studio is available when sites are in private mode so that users don't automatically publish AI generated content on their public sites When Copilot generates a new page or updates an existing page, you can review the suggested updates and use options like undo to reject that change. Other options such suggested prompts, regenerate, or revising your prompt are options available for more attempts if the generated content isn't correct or appropriate for your requirements.
+Copilot for design studio is available when sites are in private mode so that users don't automatically publish AI generated content on their public sites. When Copilot generates a new page or updates an existing page, you can review the suggested updates and use options like undo to reject that change. Other options such suggested prompts, regenerate, or revising your prompt are options available for more attempts if the generated content isn't correct or appropriate for your requirements.
 
 ## See also
 
