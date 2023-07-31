@@ -1,11 +1,11 @@
 ---
 title: Responsible AI FAQs for Power Pages
 description: Responsible AI FAQs discusses AI technology in Power Pages and the key considerations for making use of this technology responsibly.
-author: nickdoelman
+author: sandhangitmsft
 ms.topic: article
 ms.custom: responsible-ai-faqs
 ms.date: 04/28/2023
-ms.author: ndoelman
+ms.author: sandhan
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman

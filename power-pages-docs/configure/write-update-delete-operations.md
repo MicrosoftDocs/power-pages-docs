@@ -359,6 +359,26 @@ This sample demonstrates how to create, update, and delete table records by usin
   });
 ```
 
+### Associate
+
+The following example will assign an existing contact as the primary contact for an existing account.
+
+```javascript
+var record = {};
+record[primarycontactid@odata.bind] = "/contacts(00000000-0000-0000-0000-000000000002)"; 
+
+webapi.safeAjax({
+  type: "PATCH",
+  contentType: "application/json",
+  url: "/_api/accounts(00000000-0000-0000-0000-000000000001)",
+  data: JSON.stringify(record),
+    success: function (data, textStatus, xhr) {
+      console.log("Record updated");
+    }
+});
+
+```
+
 ## Next step
 [How to: Use portal Web API](webapi-how-to.md)
 
