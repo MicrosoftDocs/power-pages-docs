@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/11/2023
+ms.date: 06/09/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -31,6 +31,8 @@ You will need to prepare the target environment if you are using the standard da
 > - Preparing the target environment is a one-time process. You will need to provision a new website in order to install the managed Power Pages solutions on Dataverse as well as configure the Power Pages web application. The process also installs default website metadata which will be replaced with the website metadata from your source environment.
 > - Ensure that the target environment's maximum attachment size is set to the same or greater size as your source environment.
 > - The maximum size of files is determined by the **Maximum file size** setting in the [system settings email tab](/power-platform/admin/system-settings-dialog-box-email-tab) in the environment system settings dialog box.
+> - Note the difference between developer, trial, and production **websites** and developer, trial, sandbox, and production **environments**.
+> - You can [migrate](migrate-site-configuration.md) a trial, developer, production website to another trial, developer, or production website on the same or another environment. Note that a production **website** will need to be provisioned on a sandbox or production **environment**.
 
 1. [Provision a new website](../getting-started/create-manage.md) in your target environment. Use the same [website template](../templates/index.md) as you provisioned on your source environment. For example, if you provisioned a site using the **Dynamics 365 Customer Self-Service** template on your source environment, provision the site using the **Dynamics 365 Customer Self-Service** template on your target environment.
 
@@ -53,10 +55,6 @@ You will need to prepare the target environment if you are using the standard da
 
 Once the website has been transferred to the target environment, you will need to reactivate the website.
 
-> [!NOTE]
-> - Currently, you can only re-activate sites using the standard data model. 
-> - If you have a site with the [enhanced data model](enhanced-data-model.md) you will need to create a new site using the enhanced data model on the target environment and connect the site to your migrated site using the [Power Platform admin center](../configure/power-pages-solutions.md#binding-enhanced-data-model-website-record-to-a-site). 
-
 1. On the target environment, on the Power Pages home screen, select **Inactive sites**, you should see the website you migrated to the environment.
 
 1. Select **Reactivate**.
@@ -76,7 +74,10 @@ Once the website has been transferred to the target environment, you will need t
 
 # [Solutions](#tab/sol)
 
-If your website is configured using the [enhanced data model](../admin/enhanced-data-model.md) you can transfer the website configuration using Power Platform solutions. For more information, go to [Using solutions with Power Pages](../configure/power-pages-solutions.md).
+If your website is configured using the [enhanced data model](../admin/enhanced-data-model.md) you can transfer the website configuration using Power Platform solutions. For more information, go to [Using solutions with Power Pages](../configure/power-pages-solutions.md). 
+
+> [!NOTE]
+> Make sure the target environment is also has the [enhanced data model](../admin/enhanced-data-model.md) enabled.
 
 # [Power Platform CLI](#tab/CLI)
 

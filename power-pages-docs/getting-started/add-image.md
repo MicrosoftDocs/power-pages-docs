@@ -1,16 +1,17 @@
 ---
 title: Add an image
 description: Learn how to add images to your Power Pages site.
-author: nickdoelman
+author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/15/2023
+ms.date: 4/13/2023
 ms.subservice:
-ms.author: ndoelman 
+ms.author: ckwan 
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - ckwan-ms
 ---
 
 # Add an image
@@ -55,11 +56,11 @@ To add a link to your image:
 
 1. Choose the **link icon** from the editing options above the image.
 1. Select a radio button to **Link to a URL** or **Link to a page**.
-    * If you are linking to a URL, fill in the text field.
-    * If you are linking to a page, select the page from the drop down.
+    - If you're linking to a URL, fill in the text field.
+    - If you're linking to a page, select the page from the drop down.
 1. Select the **OK** button.
 
-Once the link is created, you can click the **link icon** to edit or remove the link.
+Once the link is created, you can select the **link icon** to edit or remove the link.
 
 ### Adjust image size
 
@@ -74,6 +75,31 @@ Options to adjust the size of your image are located under **More options**. To 
 1. Select the **gear icon** from the editing options above the image to access the **More options** window.
 1. Update the alt text field.
 1. Select the **OK** button.
+
+## Storing images in Power Pages design studio
+
+By default, images in Power Pages sites are stored beneath the Home page. 
+
+### Change image storage location
+
+To change the location where your images will be stored
+
+1. Select the image button for any image component.
+1. Choose **Advanced Options** in the bottom-left corner of the **Add an image** dialog.
+1. Select the page to store all newly updated images beneath.
+
+    > [!TIP]
+    > - This only applies to newly updated images. If you want to change the parent page for an existing image, re-upload the image after changing this setting.
+    > -  If you want to prevent, direct access to images, store them beneath a restricted page and set the image files to inherit the page's permissions. More information: [Page permissions in Power Pages](../security/page-security.md)
+
+
+### View image storage location
+
+To see the parent page of your images in design studio
+
+1. Select the Image button for any image component.
+1. Locate the parent age in Grid or List view.
+
 
 
 

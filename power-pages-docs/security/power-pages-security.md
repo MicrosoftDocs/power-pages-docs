@@ -1,78 +1,77 @@
 ---
 title: Power Pages security
-description: Learn how to secure your Power Pages sites.
-author: nickdoelman
-ms.topic: conceptual
-ms.custom: 
+description: Learn how to secure the websites you create with Microsoft Power Pages.
 ms.date: 10/03/2022
+author: nickdoelman
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+ms.topic: conceptual
+ms.custom: bap-template
 ---
 
 # Power Pages security
 
-An important consideration when building public-facing websites is to ensure that critical business information is only accessible by the correct stakeholders.
+An important consideration when you build public-facing websites is how to make sure that only the correct stakeholders can access critical business data. To make sure your business information is properly protected, Power Pages has a robust security model that encompasses the following key components:
 
-Power Pages has a robust security model to ensure that business information is properly protected. The following key components are used to provide and protect access in Power Pages:
-
-- Site visibility
-- Authenticated users
-- Web roles
-- Table permissions
-- Page permissions
+- [Site visibility](#site-visibility)
+- [Authenticated users](#authenticated-users)
+- [Web roles](#web-roles)
+- [Table permissions](#table-permissions)
+- [Page permissions](#page-permissions)
 
 ## Site visibility
 
-By default, all sites created in Power Pages are only available to users internal to your organization through the site visibility setting. This way, you can benefit from an additional layer of security using Azure Active Directory authentication to prevent accidental leaks of partially developed website data and design. When your website is ready to go live, change the site visibility to public making it accessible to everyone over the internet anonymously or secured with identity providers.
+The site visibility setting controls who can access the sites you create in Power Pages. By default, all Power Pages sites are available to users who are internal to your organization. The extra layer of security that Azure Active Directory (Azure AD) authentication provides helps to prevent accidental leaks of partially developed website data and designs.
 
-More information: [Site visibility](site-visibility.md)
+When your website is ready to go live, change the site visibility to public. The public setting makes the site accessible to everyone over the Internet anonymously or to users authenticated through identity providers.
+
+[Learn more about site visibility](site-visibility.md).
 
 ## Authenticated users
 
-Users can be provided access to your site through authentication. Power Pages users are represented by Microsoft Dataverse contact records. Power Pages can be integrated with many authentication providers such as Azure Active Directory B2C, Microsoft, and LinkedIn.
+Microsoft Dataverse contact records represent Power Pages users. Users can get access to your site through authentication. You can integrate Power Pages with authentication providers like Azure AD B2C, Microsoft, and LinkedIn. Authenticated users can be assigned web roles that provide specific access to information on the site.
 
-Authenticated users can then be assigned to web roles that will provide specific access to information on the site.
-
-More information: [Configure Authentication](authentication/index.md)
+[Learn more about authentication](authentication/index.md).
 
 ## Web roles
 
-Web roles can be created to allow users to perform any special actions or access any protected content and data on the site. Web roles link to users, table permissions, and page permissions. Because contacts can be assigned multiple web roles, they can be provided cumulative access to site resources.
+Web roles allow users to perform special actions or access protected content and data on the site. Web roles link to users, table permissions, and page permissions. Because users can be assigned multiple web roles, they can get cumulative access to site resources.
 
-All authenticated users (contacts) are automatically assigned to the Authenticated Users web role.
+All authenticated users, or contacts, are automatically assigned to the Authenticated Users web role. Anonymous, or unauthenticated, users can visit a site and get access to assets through the Anonymous Users web role.
 
-A site can be visited by anonymous users (unauthenticated) and given access to assets through the Anonymous Users web role.
-
-More information: [Configure web roles](create-web-roles.md)
+[Learn how to create web roles](create-web-roles.md).
 
 ## Table permissions
 
-Accessing Dataverse information through [lists](../getting-started/add-list.md), [forms](../getting-started/add-form.md), [Liquid](../configure/liquid-overview.md), and the [Web API](../configure/web-api-overview.md) are by default protected by table permissions. You can configure table permissions to allow different levels of access and privileges to Dataverse records. Table permissions are associated to web roles to provide appropriate access to users.
+Access to Dataverse information through [lists](../getting-started/add-list.md), [forms](../getting-started/add-form.md), [Liquid](../configure/liquid-overview.md), and the [Web API](../configure/web-api-overview.md) is protected by table permissions. You can configure table permissions to allow different levels of access and privileges to Dataverse records. Table permissions are associated with web roles to provide appropriate access to users.
 
-More information: [Configure table permissions](table-permissions.md)
+[Learn more about table permissions](table-permissions.md).
 
 ## Page permissions
 
-Individual pages containing content or other components can also be protected by configuring page permissions that are associated with web roles to allow access.
+Page permissions that are associated with web roles to allow access can protect content and components on individual pages.
 
-More information: [Page permissions](page-security.md)
+[Learn more about page permissions](page-security.md).
 
 ## Additional website security
 
-Power Pages can be integrated with any web application firewall infrastructure to provide extra protection against common web application attacks. For information on how to integrate it with Azure Front Door web application firewall, see [Set up Azure Front Door with portals](/power-apps/maker/portals/azure-front-door)
+You can integrate Power Pages sites with any web application firewall infrastructure, such as Azure Front Door, to provide extra protection against common web application attacks.
+
+[Learn how to integrate Power Pages with Azure Front Door](/power-apps/maker/portals/azure-front-door).
 
 ## Deep dive: Architecture and security
 
-The following white papers allow you to explore Power Pages architecture and security at a deeper level. 
+The following white papers allow you to explore Power Pages architecture and security at a deeper level.
 
 | White paper | Description | Date |
 | - | - | - |
-| [Power Pages Architecture white paper](/power-pages/guidance/white-papers/architecture) | This white paper provides a comprehensive view of the capabilities of the Power Pages platform. It describes the architectural elements that enable Power Pages to scale, offer high reliability and availability, and protect business data to offer enterprise grade compliance and security.  | October 2022 |
-| [Power Pages Security white paper](/power-pages/guidance/white-papers/security) | This white paper describes how Power Pages offers enterprise grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
+| [Power Pages Architecture white paper](/power-pages/guidance/white-papers/architecture) | This white paper provides a comprehensive view of the capabilities of the Power Pages platform. It describes the architectural elements that enable Power Pages to scale, offer high reliability and availability, and protect business data to offer enterprise-grade compliance and security. | October 2022 |
+| [Power Pages Security white paper](/power-pages/guidance/white-papers/security) | This white paper describes how Power Pages offers enterprise-grade security and the tools and capabilities it offers for administrators and makers to harden security for their external applications. | October 2022 |
 
 ### See also
-[Power Platform security](/power-platform/admin/security/)<br/>
+
+[Power Platform security](/power-platform/admin/security/)  
 [Azure security](/azure/security/)

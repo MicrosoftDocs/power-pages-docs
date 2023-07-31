@@ -5,19 +5,20 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/03/2023
+ms.date: 07/06/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
     - neerajnandwana-msft
     - nickdoelman
+    - nageshbhat-msft
 
 ---
 
 # Add a custom domain name
 
-A custom domain can enhance your brand and help your customers more easily find your support resources. Once you provision your website and acquire your domain name, you'll need an SSL certificate to set up a custom host name. After the SSL certificate is purchased, you can use a wizard to link your website to a custom domain. Only one custom domain name can be added to a website.
+A custom domain can enhance your brand and help your customers more easily find your support resources. Once you provision your website and acquire your domain name, you need an SSL certificate to set up a custom host name. After the SSL certificate is purchased, you can use a wizard to link your website to a custom domain. Only one custom domain name can be added to a website.
 
 > [!IMPORTANT]
 > - You can add a custom domain name to a website only when the website is in production state. For more information about website stages, go to [Power Pages lifecycle](/power-apps/maker/portals/admin/portal-lifecycle).
@@ -28,11 +29,11 @@ To learn about the roles required to perform this task, read [Admin roles requir
 
 1. Under **Resources**, select **Power Pages sites**.
 
-1. Select the site to which you want to add a custom domain. Select **Manage** from the main menu. A page will open with details about your site.
+1. Select the site to which you want to add a custom domain. Select **Manage** from the main menu. A page opens with details about your site.
 
 1. In the **Site Details** section, select **Connect Custom Domain**.
 
-1. A side panel will appear, on the **Choose a SSL certificate** section, select one of these options:
+1. A side panel appears, on the **Choose a SSL certificate** section, select one of these options:
    - **Upload a new certificate**: Select this option to upload the .pfx file if you haven't yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
    - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
 
@@ -61,9 +62,9 @@ To learn about the roles required to perform this task, read [Admin roles requir
 
 1. Select **Next**
 
-1. On the **Validate the domain** section, copy the **Record type**, **Record name**, and the **Record value** and create a **TXT** record with your domain provider.
+1. This step is applicable for a [Content Delivery Network](../configure/configure-cdn.md) enabled site. On the **Validate the domain** section, copy the **Record type**, **Record name**, and the **Record value** and create a **TXT** record with your domain provider.
 
-1. If you have just added the TXT entry with your domain provider, it will take some time to propagate to all DNS servers. Select **Refresh** to validate the custom domain. When information has been validated, the **Next** button will be activated.
+   If you have just added the TXT entry with your domain provider, it takes some time to propagate to all DNS servers. Select **Refresh** to validate the custom domain. The TXT record must be created within seven days after enabling the Content Delivery Network; otherwise, you'll need to disable and re-enable the Content Delivery Network. When information has been validated, the **Next** button is activated. 
 
 1. Select **Next**
 
@@ -81,11 +82,11 @@ To change your existing custom domain name:
 
 1. Under **Resources**, select **Power Pages sites**.
 
-1. Select the site to which you want to change the a custom domain. Select **Manage** from the main menu. A page will open with details about your site.
+1. Select the site to which you want to change the custom domain. Select **Manage** from the main menu. A page opens with details about your site.
 
 1. In the **Site Details** section, select the pencil icon to the right of your custom URL.
 
-1. A side panel will appear.
+1. A side panel appears.
 
     1. Select and delete the current assigned hostname.
     1. Select and delete the current SSL certificate.
@@ -94,6 +95,9 @@ To change your existing custom domain name:
     :::image type="content" source="media/add-custom-domain/change-ssl.png" alt-text="Change SSL certificate.":::
 
 1. Follow the instructions outlined in [**Add a custom domain name**](#add-a-custom-domain-name) to configure you new domain.
+
+> [!NOTE]
+> When you add a custom domain name for a [Content Delivery Network](../configure/configure-cdn.md) enabled site, Power Pages uses Azure Front Door-managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days prior to the expiry date. 
 
 ### See also
 

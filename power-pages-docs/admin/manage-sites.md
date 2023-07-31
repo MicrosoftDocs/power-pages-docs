@@ -1,11 +1,11 @@
 ---
 title: Manage Power Pages sites
 description: Learn how to manage Power Pages sites.
-author: nickdoelman
+author: tbhagwat
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/24/2022
-ms.author: ndoelman
+ms.date: 06/09/2023
+ms.author: tbhagwat
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
@@ -36,11 +36,11 @@ Each site card also links to actions such as:
 
 - Share, which creates a link you can send others to preview the site.
 
-    :::image type="content" source="media/manage-sites/share-site.png" alt-text="Share sites.":::
+- Details, which will take you to the Set up workspace.
 
-- Manage, which links you to the Power Apps portals admin center for the site.
+- Portal Management app, which launches the Portal Management app.
 
-    :::image type="content" source="media/manage-sites/admin-center.png" alt-text="Admin center.":::
+- Admin center, which will take you to the Power Platform admin center. 
 
 - Delete, which deletes the site and removes it from the site list.
 

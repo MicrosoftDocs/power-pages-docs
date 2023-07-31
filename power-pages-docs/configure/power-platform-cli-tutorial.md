@@ -4,7 +4,7 @@ description: This page provides a walk-through with examples for how to use Powe
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/28/2023
+ms.date: 3/28/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -54,7 +54,7 @@ Follow the prompts of authentication to sign in to the environment.
 
 ## Step 2. List available websites
 
-Use the [pac paportal list](/power-platform/developer/cli/reference/paportal) command to list the available Power Apps portals in the
+Use the [pac paportal list](/power-platform/developer/cli/reference/paportal) command to list the available Power Pages websites in the
 Dataverse environment you connected to in the previous step.
 
 `pac paportal list`

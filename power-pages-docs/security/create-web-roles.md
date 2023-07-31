@@ -1,16 +1,17 @@
 ---
 title: Create web roles in Power Pages
 description: Learn how to create web roles.
-author: nickdoelman
+author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/24/2022
-ms.author: ndoelman
+ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - gitanjalisingh33msft
 ---
 
 # Configure web roles
@@ -66,6 +67,9 @@ You can assign site users to web roles from either the contact record or the web
 
 ### From the web role
 
+> [!NOTE]
+> If your site is configured the use the [enhanced data model](../admin/enhanced-data-model.md) then go to [From the contact with site using enhanced data model](#from-the-contact-with-site-using-enhanced-data-model) to assign web roles from the contact record.
+
 1. In the **Security** section, select **Web Roles**.
 
 1. Locate and open the web role record that you want to assign site users to.
@@ -84,6 +88,9 @@ The users now have access to the resources specified by the web role.
 
 ### From the contact
 
+> [!NOTE]
+> If your site is configured the use the [enhanced data model](../admin/enhanced-data-model.md) then go to [From the contact with site using enhanced data model](#from-the-contact-with-site-using-enhanced-data-model).
+
 1. In the **Security** section, select **Contacts**.
 
 1. Locate and open the contact record that you want to assign the web role to.
@@ -93,6 +100,22 @@ The users now have access to the resources specified by the web role.
 1. Select **Web Roles**.
 
 1. Select **Add Existing Web Role**.
+
+1. From the side panel, search and select the web roles you want to assign to the contact (site user).
+
+The site users now have access to the resources specified by the web role.
+
+### From the contact with site using enhanced data model
+
+1. In the **Security** section, select **Contacts**.
+
+1. Locate and open the contact record that you want to assign the web role to.
+
+1. Select the **Portal Contact (Enhanced Form)**
+
+1. In the **General** tab, scroll down to the **Web Roles** section and select **Add Existing Web Role**.
+
+    :::image type="content" source="media/web-role/web-role-enhanced.png" alt-text="Web role enhanced.":::
 
 1. From the side panel, search and select the web roles you want to assign to the contact (site user).
 

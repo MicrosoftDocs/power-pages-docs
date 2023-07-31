@@ -1,16 +1,17 @@
 ---
 title: Force Bing webmaster to index your site (preview)
 description: Learn how to force Bing webmaster to index your site.
-author: nickdoelman
+author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/23/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - nageshbhat-msft
 ---
 
 # Force Bing webmaster to index your site (preview)

@@ -16,7 +16,7 @@ contributors:
 
 # Create and design pages
 
-A page in Power Pages is a webpage: a container for content that's identified by a unique URL in a website. A page is one of the core objects of the website. The parent and child relationships between pages build the hierarchy of a website.
+A page in Power Pages is a webpage: a container for content identified by a unique URL in a website. A page is one of the core objects of the website. The parent and child relationships between pages build the hierarchy of a website.
 
 ## Create a page
 
@@ -30,7 +30,7 @@ The **Pages** workspace enables you to design and build webpages with in-context
 
 1. Choose a page from standard layouts, or choose a custom layout. 
 
-1. By default, the new page will appear in the **Main navigation** section and there will be a link on the default navigation of the site. If you unselect the **add page to main navigation** option, the page will appear the **Other pages** section. The page will be accessible from a URL but will not have a link on the default navigation.
+1. By default, the new page appears in the **Main navigation** section and a link appears on the default navigation of the site. If you unselect the **add page to main navigation** option, the page appears the **Other pages** section. The page is accessible from a URL, but a link isn't added to the default navigation.
 
     :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within the design studio.":::
 

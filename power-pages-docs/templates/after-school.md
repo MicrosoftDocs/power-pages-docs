@@ -1,16 +1,17 @@
 ---
 title: Program registration template
 description: Learn about the program registration template.
-author: nickdoelman
+author: meeramahabala
 ms.topic: conceptual
 ms.custom: 
 ms.date: 4/14/2023
 ms.subservice:
-ms.author: ndoelman
+ms.author: meeram
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - meeramahabala
 ---
 
 # Program registration template
