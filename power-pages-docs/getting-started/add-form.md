@@ -1,10 +1,10 @@
 ---
 title: Add forms
 description: Add forms to your page in Power Pages.
-author: clromano
+author: pranita225
 ms.topic: conceptual
 ms.date: 01/18/2023
-ms.author: clromano
+ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
     - clromano
@@ -35,16 +35,16 @@ To add a form:
 
 1. You can choose either to create a new form or use an existing form (if a maker has created one previously).
 
-   If you choose to create a new form, you'll need to enter the following criteria.
+   If you choose to create a new form, you need to enter the following criteria.
   
     :::image type="content" source="media/first-page/add-form.png" alt-text="Add a form to a page.":::
 
     | Option | Description |
     | ----------- | ----------- |
-    | Choose a table | Choose the table where data will be stored. |
+    | Choose a table | Choose the table where you wish to store the data. |
     | Select a form | Select one of the Dataverse forms available for the selected table. |
     | Name your copy of the selected form| Give your copy of the form a name. |
-    | Data | You can choose to have the data that's entered by a user create a new record, update existing records, or make the data read-only. |
+    | Data | You can choose to have the data entered by a user create a new record, update existing records, or make the data read-only. |
     | On submit | You can choose optionally to show a success message. You must enter the options to redirect to a webpage and redirect to a URL. |
     | CAPTCHA | You can choose to show a captcha to anonymous users, authenticated users, or both. |
     | Attachments | Allows you to [enable and configure attachments](#enable-attachments-on-a-form) for the form. |
@@ -121,13 +121,13 @@ To enable attachments on a form:
     
         :::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
 
-Once configured, the file upload placeholder will show in the canvas. 
+Once configured, the file upload placeholder shows in the canvas. 
 
 :::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
 
 ### Enabling table permissions
 
-When you add a new form, you'll be prompted to set permissions to allow site users to interact with the form. The settings for table permissions will be pre-populated (**create** and **append to**), but you'll still need to assign web roles and save the settings. The process will automatically create the child table permissions for the **note (annotations)** table, which contain the attachments.
+When you add a new form, you're prompted to set permissions to allow site users to interact with the form. The settings for table permissions are prepopulated (**create** and **append to**), but you still need to assign web roles and save the settings. The process automatically creates the child table permissions for the **note (annotations)** table, which contain the attachments.
 
 :::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
 
@@ -162,4 +162,5 @@ After you [enable a code component](#enable-code-components-on-form-fields), pro
 ### See also
 
 - [Create and modify forms](../configure/data-workspace-forms.md)
+- [About basic forms](../configure/basic-forms.md)
 - [Tutorial: Add a form to a page](tutorial-add-form-to-page.md)

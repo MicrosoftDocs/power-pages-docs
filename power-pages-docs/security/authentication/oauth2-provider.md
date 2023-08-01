@@ -1,24 +1,27 @@
 ---
-title: Configure an OAuth 2.0 provider for Power Pages
-description: Learn how to configure OAuth 2.0 identity providers such as Microsoft, LinkedIn, Facebook, Google, and Twitter in Power Pages.
-author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
+title: Set up an OAuth 2.0 provider
+description: Learn how to set up OAuth 2.0 identity providers such as Microsoft, LinkedIn, Facebook, Google, and Twitter for use with sites you create with Microsoft Power Pages.
 ms.date: 3/3/2023
+ms.topic: overview
+author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+ms.custom: bap-template
 ---
 
-# Configure an OAuth 2.0 provider for Power Pages
+# Set up an OAuth 2.0 provider
 
-To use OAuth 2.0&ndash;based external identity providers, you register an application with a third-party service to obtain a *client ID* and *client secret* pair. Often this application requires that you specify a redirect URL to allow the identity provider to send users back to the website (the *relying party*). The client ID and client secret are configured as site settings to establish a secure connection from the relying party to the identity provider. The settings are based on the properties of the [MicrosoftAccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](/previous-versions/aspnet/dn450335(v=vs.113)), [FacebookAuthenticationOptions](/previous-versions/aspnet/dn253793(v=vs.113)), and [GoogleOAuth2AuthenticationOptions](/previous-versions/aspnet/dn800251(v=vs.113)) classes.  
+To allow users to authenticate on your Power Pages site with an external account, add an OAuth 2.0 identity provider. Users can sign in with a Microsoft, LinkedIn, Facebook, Google, or Twitter account. Power Pages doesn't support the use of other OAuth providers. Use [OpenID Connect](openid-provider.md) instead.
 
-To learn about individual OAuth 2.0 providers, select the name of the provider that you want to configure:
+OAuth 2.0&ndash;based external identity providers require that you register an application with a third-party service to get a *client ID* and *client secret* pair. You may also need to specify a redirect or reply URL to allow the identity provider to send users back to your website, called the *replying party*, after it authenticates them. The client ID and client secret establish a secure connection between the replying party and the identity provider. These values are site settings that are based on the properties of the [MicrosoftAccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](/previous-versions/aspnet/dn450335(v=vs.113)), [FacebookAuthenticationOptions](/previous-versions/aspnet/dn253793(v=vs.113)), and [GoogleOAuth2AuthenticationOptions](/previous-versions/aspnet/dn800251(v=vs.113)) classes.
+
+## Provider settings
+
+For the settings you need to change for specific OAuth 2.0 providers, select the name of the provider:
 
 - [Microsoft](oauth2-microsoft.md)
 - [LinkedIn](oauth2-linkedin.md)
@@ -26,9 +29,7 @@ To learn about individual OAuth 2.0 providers, select the name of the provider t
 - [Google](/power-apps/maker/portals/configure/configure-oauth2-google)
 - [Twitter](oauth2-twitter.md)
 
+Then if needed, change [optional additional settings that apply to all OAuth 2.0 providers](oauth2-settings.md).
+
 > [!NOTE]
-> - Custom OAuth providers aren't supported. For custom OAuth providers, use [OpenID Connect](openid-provider.md) instead.
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the site by using [portal actions](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
-
-For general settings applicable to all OAuth 2.0 providers, go to [Configure additional settings for OAuth 2.0 providers](oauth2-settings.md).
-
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).

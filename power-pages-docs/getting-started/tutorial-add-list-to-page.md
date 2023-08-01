@@ -1,16 +1,17 @@
 ---
 title: "Tutorial: Add a list to your page"
 description: Learn how to add lists to your Power Pages.
-author: nickdoelman
+author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 3/10/2023
 ms.subservice:
-ms.author: ndoelman 
+ms.author: prpadalw 
 ms.reviewer:
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - pranita225
 ---
 
 # Tutorial: Add a list to your page

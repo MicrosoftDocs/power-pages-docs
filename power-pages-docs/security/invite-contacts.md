@@ -28,7 +28,7 @@ Use the invitation feature of Power Pages to invite contacts to your website thr
 > [!NOTE] 
 > You can also invite contacts in Power Pages. More information: [What is Power Pages](/power-pages/introduction)
 
-Invitation redemption can be accomplished using any of our many authentication options. For documentation regarding website authentication, see [Local authentication, registration, and other settings](authentication/set-authentication-identity.md)and choose the model applicable to your version and configuration. The user will adopt any settings provided by the administrator upon redemption. An Invite Redemption Activity will be created for the Invite and Contact.
+Invitation redemption can be accomplished using any of our many authentication options. For documentation regarding website authentication, see [Local authentication, registration, and other settings](authentication/set-authentication-identity.md) and choose the model applicable to your version and configuration. The user will adopt any settings provided by the administrator upon redemption. An Invite Redemption Activity will be created for the Invite and Contact.
 
 Invitations are sent via the **Send Invitation** workflow. By default, the workflow creates an email with a generic message and sends it to the invited Contact's primary email address. The email addresses in the CC and BCC fields are ignored to ensure secure communication. The **Send Invitation** workflow contains an email template that will need to be edited to contain a specific message for your website and the correct hyperlink to your website's **Invite Redemption Page**.
 
