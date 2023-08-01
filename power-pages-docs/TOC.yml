@@ -124,6 +124,8 @@
       items:
         - name: Create a web page
           href: getting-started/first-page.md
+        - name: Create an AI-generated web page using Copilot (preview)
+          href: getting-started/create-page-copilot.md
         - name: Design pages
           items:
             - name: Edit pages
@@ -166,6 +168,8 @@
       items:
         - name: Styling workspace overview
           href: getting-started/style-site.md
+        - name: Create AI-generated theme using Copilot (preview)
+          href: getting-started/theme-copilot.md
         - name: Manage CSS files
           href: configure/manage-css.md
     - name: Use the Data workspace
@@ -673,7 +677,9 @@
     - name: FAQ for generating text
       href: faqs-generate-text.md
     - name: FAQ for creating form
-      href: faqs-create-form.md             
+      href: faqs-create-form.md
+    - name: FAQ for design studio
+      href: faqs-design-studio.md          
 - name: Compliance and accessibility
   items:
     - name: Accessibility
