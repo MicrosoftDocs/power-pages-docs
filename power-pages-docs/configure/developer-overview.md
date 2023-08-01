@@ -22,6 +22,9 @@ The
 :::image type="content" source="media/developer-overview/homescreen.svg" alt-text="Home screen.":::
 
 
+:::image type="content" source="media/developer-overview/contact-us.svg" alt-text="Contact us.":::
+
+
 ### See also
 
 - [Compose HTTP requests and handle errors](web-api-http-requests-handle-errors.md)
