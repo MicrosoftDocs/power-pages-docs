@@ -161,7 +161,7 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 1. The full line of liquid code that you see will now resemble:
 
     ```html
-    {% powerbi authentication\_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection" **roles:"portaluser"** %}
+    {% powerbi authentication\_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection" roles:"portaluser" %}
     ```
 
 1. Close the Visual Studio Code tab to return to the design studio.
