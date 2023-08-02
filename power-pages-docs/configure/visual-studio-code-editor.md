@@ -151,11 +151,11 @@ Navigate to the corresponding **Web Pages**, **Basic Forms**, **Multistep Forms*
 
 | Type | Code location |
 | - | - |
-| Web Page | Select web page record. </br> Select web page content record from the **Localized Content** section. </br>Page copy can be edited in the **Copy (HTML)** field on the **General** tab.</br>**Custom JavaScript** and **Custom CSS** code can be edited from the **Advanced** tab. |
-| Basic Form | Select the basic form record.</br>Edit **Custom JavaScript** on the **Additional Settings** tab. |
-| Multistep Form | Select the multistep form record.</br>Select the multistep form step from the **Form Steps** tab.</br>Edit **Custom JavaScript** on the **Form Options** tab. |
+| Web page | Select web page record. </br> Select web page content record from the **Localized Content** section. </br>Page copy can be edited in the **Copy (HTML)** field on the **General** tab.</br>**Custom JavaScript** and **Custom CSS** code can be edited from the **Advanced** tab. |
+| Basic form | Select the basic form record.</br>Edit **Custom JavaScript** on the **Additional Settings** tab. |
+| Multistep form | Select the multistep form record.</br>Select the multistep form step from the **Form Steps** tab.</br>Edit **Custom JavaScript** on the **Form Options** tab. |
 | List | Select the list record.</br>Edit **Custom JavaScript** on the **Options** tab. |
-| Web Templates | Select the web template record.</br>Edit **Source** on the **General** tab. |
+| Web template | Select the web template record.</br>Edit **Source** on the **General** tab. |
 
 Save the record, and preview your website to test your code.
 
