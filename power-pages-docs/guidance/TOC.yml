@@ -11,7 +11,7 @@
           href: white-papers/security.md
     - name: Power BI
       items: 
-        - name: "How to: Row level security in Power BI on Power Pages"
+        - name: "How to: Enable row level security in Power BI on Power Pages"
           href: how-to-power-bi-embedded.md       
     - name: Integration
       items:

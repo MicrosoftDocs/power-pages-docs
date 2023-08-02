@@ -4,7 +4,7 @@ description: Learn how to embed a Power BI report in Power Pages.
 author: skyshon
 ms.topic: guidance
 ms.custom: 
-ms.date: 06/12/2023
+ms.date: 08/02/2023
 ms.author: skyshon
 ms.reviewer: ndoelman
 contributors:
@@ -12,13 +12,19 @@ contributors:
     - skyshon
 ---
 
-# Embed a Power BI report in Power Pages
+# How to: Enable row level security in Power BI on Power Pages
 
 Just as Power Pages is the tool of choice to quickly extend your Microsoft Dataverse deployment to the public in the form of a website, Power BI is the tool of choice to render elegant data-driven visualizations. The beauty of the Power Platform lies in its ability to seamlessly blend the two. In the past, to render a Power BI report in a webpage, administrators had to publish the report to the web and embed it into an iFrame. Even if one did apply [Pages permissions](../security/page-security.md) to lock down the page with the report, if an individual had the link used to embed the report, anyone would still be able to access the report outside of the website. 
 
 The purpose of **publish to web** is to allow any individual on the web to consume the data and even reshare the report. 
 
+> [!WARNING]
+> When you use **Publish to web**, anyone on the Internet can view your published report or visual. Viewing requires no authentication. It includes viewing detail-level data that your reports aggregate. Before publishing a report, make sure it's okay for you to share the data and visualizations publicly. Don't publish confidential or proprietary information. If in doubt, check your organization's policies before publishing.
+
 With **Power BI embedded**, one can contextually serve Power BI components to users, pass automatic filters by using a filter parameter, and enable row-level security capabilities to allow an organization to truly secure data visible to users and only display what they're meant to see.
+
+> [!NOTE]
+> Row level security is only supported for **Power BI embedded**.
 
 ## Prerequisites
 
