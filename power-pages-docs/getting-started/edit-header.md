@@ -47,7 +47,7 @@ The header consists of three [content snippets](../configure/content-snippets.md
 |Logo URL                |```{{ snippets['Logo URL'] }}```         |
 |Logo alt text           |```{{ snippets['Logo alt text'] }}```   |
 
-If the title and logo are changed in the code, those changes override any changes you make in the header editing window. You'll know this is the case if you see the following message: `Your updates may not show on the site because of customizations to the code made by someone in your org.`
+If the title and logo are changed in the code, those changes override any changes you make in the header editing window. When these changes prevent your edits, the following message displays: `Your updates may not show on the site because of customizations to the code made by someone in your org.`
 
 [Modify the header in the Portal Management app](../known-issues.md#modifying-the-header-in-portal-management-app) to make the header code match your changes in the header editing window.
 
@@ -81,7 +81,7 @@ Preview your site's responsive layout in the **Layout** section of the header ed
 [Add Power BI](add-power-bi.md)  
 [Add list](add-list.md)  
 [Add form](add-form.md)  
-[Add IFrame](add-iframe.md)  
+[Add Iframe](add-iframe.md)  
 [Add multistep form](multistep-forms.md)  
 [Edit code with Visual Studio Code for the Web](../configure/visual-studio-code-editor.md)  
 [Structure site map](structure-site.md)  

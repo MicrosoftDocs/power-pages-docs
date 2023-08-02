@@ -1,6 +1,6 @@
 ---
-title: Using solutions with Power Pages
-description: Learn how to solutions in Power Pages.
+title: Use solutions with Power Pages
+description: Learn how to use solutions with Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
@@ -13,133 +13,119 @@ contributors:
     - neerajnandwana-msft
 ---
 
-# Using solutions with Power Pages (preview)
+# Use solutions with Power Pages (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Using solutions with Power Pages allows you to contain and transport all website configuration using standard Power Platform [solutions](/power-platform/alm/solution-concepts-alm). You can combine all website and Dataverse components into a single solution artifact and participate in advanced ALM capabilities to deploy websites to destination environments using managed solutions. 
+By using solutions with Power Pages, you can contain and transport all website configurations through standard Microsoft Power Platform [solutions](/power-platform/alm/solution-concepts-alm). Combine all website and Dataverse components into a single solution artifact, and then take advantage of advanced Application Lifecycle Management (ALM) capabilities to deploy websites to destination environments by using managed solutions.
 
 > [!IMPORTANT]
-> - This is a preview feature.
+> - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
-To try this feature, you'll require two Power Platform environments that have the enhanced data model enabled, one designated as the source and the other as the target. See [Power Pages enhanced data model](../admin/enhanced-data-model.md) to enable the enhanced data model for an environment.
+To try this feature, you need two Microsoft Power Platform environments where the new enhanced data model is enabled. One of the environments must be designated as the source and the other as the target. For information about how to enable the enhanced data model in an environment, go to [Enhanced data model](../admin/enhanced-data-model.md).
 
-Each environment will required a site that is created using the new data model. See [create a website with an enhanced data model](../admin/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
+Each environment requires a site that is created by using the enhanced data model. For more information, go to [Create a website by using the enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
 
 ## Add Power Pages site and components to a solution
 
-1. From the Power Pages home page, select the **Solutions** tab.
+1. Open the [Power Pages home page](https://aka.ms/mpp).
+1. Select the **Solutions** tab.
 
-    :::image type="content" source="media/solutions/power-pages-home-solutions.png" alt-text="Solutions on Power Pages home page.":::
+    :::image type="content" source="media/solutions/power-pages-home-solutions.png" alt-text="Screenshot that shows the Solutions tab on the Power Pages home page.":::
 
-1. Create a new solution using the new solution command on the command bar. Fill in the solution details and select **Create** to create the new solution. 
+1. On the toolbar at the top of the page, select **New solution**. Fill in the solution details, and then select **Create** to create the solution.
+1. Go to the new solution.
+1. On the **Add existing** menu, select **Site**.
 
-1. Navigate to the solution.
+    :::image type="content" source="media/solutions/add-to-solution.png" alt-text="Screenshot that shows the Site command on the Add existing menu.":::
 
-1. From the **Add Existing menu**, select **Site**.
-
-    :::image type="content" source="media/solutions/add-to-solution.png" alt-text="Add site to a solution.":::
-
-1. From the Add existing sites panel, select site(s) and choose Add.
+1. In the **Add existing sites** panel, select one or more sites, and then select **Add**.
 
 > [!NOTE]
-> - If the **Site** option doesn't appear, then your environment does not have any websites created using the [enhanced data model](../admin/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
-> - The process will add all of the site components to the solution.
+> - If the **Site** command doesn't appear on the **Add existing** menu, your environment doesn't include any websites that were created by using the [enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
+> - This process adds all the site components to the solution.
 
 ## Add website components
 
-As you create and add new components to your website, you can add them to your solution containing the website.
+As you create new components and add them to your website, you can add them to the solution that contains the website.
 
 > [!NOTE]
-> New website components are not automatically added to a solution containing a site. You will need to add any new website components to a solution following the steps below.
+> New website components aren't automatically added to the solution that contains a site. You must use the following procedure to add them.
 
-1. From the Power Pages home page, go to the **Solutions** area.
-
-1. Select the solution to which you want to add components.
-
-1. Select **Add existing** > **More** > **Other** > **Site Component**.
- 
-1. From the **Add existing Site component** panel, select the site components and select **Add** to add them to the solution.
+1. On the Power Pages home page, select the **Solutions** tab.
+1. Select the solution that you want to add components to.
+1. On the **Add existing** menu, select **More** \> **Other** \> **Site Component**.
+1. In the **Add existing Site component** panel, select the site components, and then select **Add** to add them to the solution.
 
 Alternatively, you can add the required components to your site.
 
-1. In the solution, select the **Site**.
+1. In the solution, select the site.
+1. On the main menu, select **Advanced**, and then select **Add required objects**.
+1. In the panel that appears, select **OK** to continue. After a few moments, you receive a message that states that the required objects have been successfully added to the solution.
 
-1. From the main menu, choose **Advanced** and then select **Add required objects**.
+## Export the solution from the source environment
 
-1. A panel will appear, select **OK** to continue. After a few moments, you'll see a message that the required objects have been successfully added to the solution.
+Select the solution, and then select **Export solution** on the main menu. For more information about how to import and export solutions, go to [Solution Concepts](/power-platform/alm/solution-concepts-alm).
 
-## Export solution from source environment
+## Import the solution into the target environment
 
-Select the solution and choose **Export solution** from the main menu. See [Solution Concepts](/power-platform/alm/solution-concepts-alm) for more information on importing and exporting solutions.
-
-## Import solution to destination environment.
-
-1. Select **Import solution** from the top toolbar.
-
-1. Browse to the location of the exported solution, select the file and choose open.
-
+1. On the toolbar at the top of the page, select **Import solution**.
+1. Browse to the location of the exported solution, select the file, and then select **Open**.
 1. Select **Next**.
-
 1. Select **Import**.
 
-Once the solution is imported, it will appear under solutions list.
+After the solution is imported, it appears in the solution list.
 
 > [!NOTE]
 > If the solution is unmanaged, select **Publish all customizations** in the destination environment.
 
-## Reactivating site on target environment
+## Reactivate the site in the target environment
 
-Once the website has been transferred to the target environment, you will need to reactivate the website.
+After the website has been transferred to the target environment, you must reactivate it.
 
-1. On the target environment, on the Power Pages home screen, select **Inactive sites**, you should see the website you migrated to the environment.
-
+1. In the target environment, on the Power Pages home page, select **Inactive sites**. The website that you transferred to the environment should be listed.
 1. Select **Reactivate**.
 
-    :::image type="content" source="../admin/media/migrate-portal-config/reactivate-website.png" alt-text="Reactivate website.":::
+    :::image type="content" source="../admin/media/migrate-portal-config/reactivate-website.png" alt-text="Screenshot that shows the Reactivate button on the Inactive sites section of the Power Pages home page.":::
 
-1. You can specify the **Reactivated website** name and **Create a web address** or leave default values.
-
+1. You can specify the reactivated website's name and create a web address, or you can leave the default values.
 1. Select **Done**.
 
-1. The website updates from the source environment should be reflected in this new target environment. Going forward, you should be able to transfer configuration from your source to target environments by transferring the website configuration data.
+The target environment should reflect the website updates from the source environment. From now on, you should be able to transfer the configuration from your source environment to the target environment by transferring the website configuration data.
 
-## Binding enhanced data model website record to a site
+## Bind the record for an enhanced data model website to a site
 
-The following steps show how you can update an existing website using the configuration from the source environment.
+The following steps show how you can update an existing website by using the configuration from the source environment.
 
-1. Navigate to the [Power Platform admin center](https://aka.ms/ppac)
+1. Open [Power Platform admin center](https://aka.ms/ppac).
+1. Select the destination environment.
+1. In the **Resources** section, select **Power Pages sites**.
+1. Select the destination site, select the ellipsis (**…**), and then select **Manage** to open the site details page.
+1. In the **Site Details** section, select **Edit**. Select the imported site record in the **Website Record** dropdown list, and then select **Save**.
 
-1. Select the destination environment
+    :::image type="content" source="media/solutions/link-site.png" alt-text="Screenshot of the imported site record selected in the Website Record dropdown list.":::
 
-1. Select **Power Pages sites** from the **Resources** section.
+1. Select **Site Actions**, and then select **Restart site**.
 
-1. Select the destination site, select the ellipse (…) and choose **Manage** to display the site details page.
-
-1. Choose the **Edit** button from the **Site Details** section and select the imported site record in the **Website Record** dropdown, then choose Save.
-
-    :::image type="content" source="media/solutions/link-site.png" alt-text="Text used by screen readers.":::
-
-1. Choose **Site Actions**, and then **Restart site**.
-
-Now your destination site is updated with data from source environment site.
+Your destination environment site is now updated with data from the source environment site.
 
 > [!NOTE]
-> You can't delete website configuration from the [Power Pages management app](portal-management-app.md) that is part of a managed solution. To remove the website, delete the managed solution.
+> You can't use the [Power Pages Management app](portal-management-app.md) to delete a website configuration that is part of a managed solution. To remove the website, delete the managed solution.
 
-## Frequently asked questions: 
+## Frequently asked questions
 
-### What is best practice when you're migrating a Power Pages website using solutions? 
+### What is the best practice for migrating a Power Pages website by using solutions?
 
-Refer to [Overview of application lifecycle management with Microsoft Power Platform](/power-platform/alm/overview-alm) for best practices.
+For best practices, go to [Overview of application lifecycle management with Microsoft Power Platform](/power-platform/alm/overview-alm).
 
-### After importing site configuration data in a managed solution I edited my website in the target environment. I don't see any new changes when I import managed solutions from my source environment.
+### After I imported site configuration data in a managed solution, I edited my website in the target environment. Why don't I see any new changes when I import managed solutions from my source environment?
 
-Editing the site configuration data in the target environment is discouraged as it will result in the creation of an unmanaged layer and changes from the source won't reflect in the target. To fix it in the target environment user needs to remove the unmanaged solution layer. See [Solution layers](/power-platform/alm/solution-layers-alm) for more information.
+We recommend that you don't edit the site configuration data in the target environment. Otherwise, an unmanaged solution layer is created, and the target environment won't reflect changes from the source environment. To fix this issue in the target environment, you must remove the unmanaged solution layer. For more information, go to [Solution layers](/power-platform/alm/solution-layers-alm).
 
-## See Also
-- [Power Pages enhanced data model](../admin/enhanced-data-model.md)
-- [Power Platform CLI solution management](../configure/power-platform-cli-solution-management.md)
+## See also
+
+- [Enhanced data model](../admin/enhanced-data-model.md)
+- [Power Platform CLI solution support for Power Pages](../configure/power-platform-cli-solution-management.md)

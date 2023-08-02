@@ -1,134 +1,154 @@
 ---
-title: Configure the Azure Active Directory B2C provider 
-description: Learn how to configure the Azure Active Directory B2C identity provider for Power Pages.
-author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
+title: Set up the Azure Active Directory B2C provider 
+description: Learn how to set up the Azure Active Directory (Azure AD) B2C identity provider for use with sites you create with Microsoft Power Pages.
 ms.date: 5/30/2023
+ms.topic: how-to
+author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+ms.custom: bap-template
 ---
 
-# Configure the Azure Active Directory B2C provider
+# Set up the Azure Active Directory B2C provider
 
-This article describes how to configure Azure Active Directory B2C (Azure AD B2C) as the identity provider for your Power Pages site. Use these steps to create a new Azure AD B2C tenant, register the application, and configure user flows.
+Azure Active Directory (Azure AD) B2C is one of the identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. This article describes the following steps:
+
+- [Set up Azure AD B2C in Power Pages](#set-up-azure-ad-b2c-in-power-pages)
+- [Create a tenant and app registration in Azure](#create-an-azure-ad-b2c-tenant-and-app-registration-in-azure)
+- [Create user flows in Azure](#create-user-flows)
+- [Enter site and password settings in Power Pages](#enter-site-settings-and-password-reset-settings-in-power-pages)
 
 > [!NOTE]
-> Changes to the authentication settings might take a few minutes to be reflected on the website. If you want the changes to be reflected immediately, [restart the website](../../admin/admin-overview.md).
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-To configure Azure AD B2C as the OpenID Connect provider:
+## Set up Azure AD B2C in Power Pages
 
-1. In the Power Pages design studio, go to the **Set up** workspace and in the **Authentication** section select **Identity providers**.
+Set Azure AD B2C as an identity provider for your site.
 
-    > [!NOTE]
-    > If no identity providers appear, select **Authentication settings** from command bar at the top of the section, on the slide out panel, ensure that the **External login** is set to **On**.
+1. In your Power Pages site, select **Set up** > **Identity providers**.
 
-1. Select **Configure** for **Azure Active Directory B2C**.
+    If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
-1. Select **Azure Active Directory B2C** as the login provider.
+1. To the right of **Azure Active Directory B2C**, select **More Commands** (**&hellip;**) > **Configure** or select the provider name.
 
-1. If necessary, update the name.
+1. Leave the provider name as it is or change it if you like.
 
-1. Select **Next** for the next set of steps.
+    The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
-1. In the **Configure B2C tenant in Azure** step, you create the application and configure the settings with your identity provider.
-    
-    1. Sign in to your [Azure portal](https://portal.azure.com/).
+1. Select **Next**.
 
-    1. [Create an Azure AD B2C tenant](/azure/active-directory-b2c/tutorial-create-tenant).
+1. Under **Reply URL**, select **Copy**.
 
-    1. [Register an application](/azure/active-directory-b2c/tutorial-register-applications?tabs=applications#register-a-web-application) in your tenant.
+1. Select **Open Azure**.
 
-        1. Search for and select **Azure AD B2C**.
+    Don't close your Power Pages browser tab. You'll return to it soon.
 
-        1. Under **Manage**, select **App registrations**.
+## Create an Azure AD B2C tenant and app registration in Azure
 
-        1. Select **New registration**.
+Create a tenant for Azure AD B2C and [register an application](/azure/active-directory-b2c/tutorial-register-applications?tabs=applications#register-a-web-application) with your site's reply URL as the redirect URI.
 
-        1. Enter a name.
-        
-        1. Select one of the **Supported account types** that best reflects your organization requirements.
+1. [Create an Azure AD B2C tenant](/azure/active-directory-b2c/tutorial-create-tenant).
 
-        1. Under **Redirect URI**, select **Web** (if it isn't selected already).
+1. Search for and select **Azure AD B2C**.
 
-        1. In the **Redirect URI** text box, enter the **Reply URL** for your portal. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`
+1. Under **Manage**, select **App registrations**.
 
-            > [!NOTE]
-            > If you're using the default URL, copy and paste the **Reply URL** as shown in the **Create and configure B2C tenant in Azure** section on the **Configure identity provider** screen (see above). If you're using a custom domain name, enter the custom URL. Be sure to use this value when you configure the **Redirect URL** in your settings while configuring the Azure AD B2C provider. <br /> For example, if you enter the **Reply URL** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`, you must use it as-is for the Azure AD B2C configuration in Power Pages.
+1. Select **New registration**.
 
-        1. Select **Register**.
+1. Enter a name.
 
-        1. On the left pane, under **Manage**, select **Authentication**.
+1. Select one of the **Supported account types** that best reflects your organization requirements.
 
-        1. Under **Implicit grant**, select the **Access tokens (used for implicit flows)** check box.
+1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL for your site.
 
-        1. Select **Save**.
+    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-b2c-in-power-pages).
+    - If you're using a custom domain name, enter the custom URL.
+        Be sure to use the same custom URL for the redirect URL in the settings for the Azure AD B2C provider on your site. For example, if you enter the reply URL in the Azure portal as `https://contoso-portal.powerappsportals.com/signin-aad-b2c_1`, use the same value for the redirect URL in the Azure AD B2C configuration in Power Pages.
 
-    1. [Create a sign-up and sign-in user flow](/azure/active-directory-b2c/tutorial-create-user-flows#create-a-sign-up-and-sign-in-user-flow). Optionally, you can [create a password reset user flow](/azure/active-directory-b2c/tutorial-create-user-flows#create-a-password-reset-user-flow).
+1. Select **Register**.
 
-    1. [Configure token compatibility](/azure/active-directory-b2c/configure-tokens#configure-token-compatibility) by using an **Issuer (iss) claim** URL that includes **tfp**. More information: [Token compatibility](/azure/active-directory-b2c/tokens-overview#compatibility)
+1. Copy the **Application (client) ID**.
 
-1. Enter site settings and password reset settings for the website configuration.
+1. In the left side panel, under **Manage**, select **Authentication**.
 
-    1. In the **Site settings** section, enter the following values:
+1. Under **Implicit grant**, select **Access tokens (used for implicit flows)**.
 
-        - **Authority**: Enter the issuer URL defined in the metadata of the sign-up and sign-in policy user flow.​
-        <br />**To get the issuer URL**
+1. Select **Save**.
 
-           1. Open the sign-up and sign-in user flow you created earlier, then go to the Azure AD B2C tenant on the [Azure portal](https://portal.azure.com).
+1. [Configure token compatibility](/azure/active-directory-b2c/configure-tokens#configure-token-compatibility) using an **Issuer (iss) claim** URL that includes **tfp**. [Learn more about token compatibility](/azure/active-directory-b2c/tokens-overview#compatibility).
 
-           1. Select **Run user flow**.
+### Create user flows
 
-           1. Select the OpenID configuration URL to open in a new browser window or tab.
+1. [Create a sign-up and sign-in user flow](/azure/active-directory-b2c/tutorial-create-user-flows#create-a-sign-up-and-sign-in-user-flow).
 
-               The URL refers to the OpenID Connect identity provider configuration document, also known as the *OpenID well-known configuration endpoint*.
+1. (Optional) [Create a password reset user flow](/azure/active-directory-b2c/tutorial-create-user-flows#create-a-password-reset-user-flow).
 
-           1. Copy the URL of the **Issuer** from the new browser window or tab.
+### Get the issuer URL from the user flows
 
-                Ensure that you copy only the URL, without the quotation marks (*""*). <br /> For example, `https://contosoorg.b2clogin.com/tfp/799f7b50-f7b9-49ec-ba78-67eb67210998/b2c_1_contoso/v2.0/`
+1. Open the sign-up and sign-in user flow [you created](#create-user-flows).
 
-                > [!TIP]
-                > Ensure that the **Issuer (iss) claim** URL includes **tfp**.
+1. Go to the Azure AD B2C tenant in the [Azure portal](https://portal.azure.com).
 
-        - **Client ID​**: Enter the **Application ID** of the Azure AD B2C application you created earlier.
+1. Select **Run user flow**.
 
-        - **Redirect URI**: Enter the URL. <br /> You only need to change the redirect URI if you're using a custom domain name.
+1. Open the OpenID Connect configuration URL in a new browser tab.
 
-    1. In the **Password reset settings** section, enter the following values:
+    The URL refers to the OpenID Connect identity provider configuration document, also known as the *OpenID well-known configuration endpoint*.
 
-        - **Default policy ID**: Enter the name of the sign-up and sign-in user flow you created earlier. The name is prefixed with *B2C_1*.
+1. Copy the **Issuer** URL in the address bar. Don't include the quotation marks. Do make sure that the **Issuer (iss) claim** URL includes **tfp**.
 
-        - **Password reset policy ID**: Enter the name of the password reset user flow you created earlier. The name is prefixed with *B2C_1*.
+1. Open the password reset user flow, if you created one, and repeat steps 2&ndash;5.
 
-        - **Valid issuers**: Enter a comma-delimited list of issuer URLs for the sign-up and sign-in user flow, and password reset user flow, you created earlier. 
-        <br /> To get the issuer URLs for the sign-up and sign-in user flow, and the password reset user flow, open each flow and then follow the steps under **Authority**, in step 5a earlier in this article.
+## Enter site settings and password reset settings in Power Pages
 
-1. In the **Additional settings**, you have the option of configuring other settings for the Azure AD B2C identity provider.
+1. Return to the Power Pages **Configure identity provider** page you left earlier.
 
-    - **Registration claims mapping​**: Not required if using *email*, *first name*, or *last name* attributes. For other attributes, enter a list of logical name/claim pairs to be used to map claim values returned from Azure AD B2C (created during sign-up) to attributes in the contact record. <br /> Format: `field_logical_name=jwt_attribute_name`, where `field_logical_name` is the logical name of the field in Power Pages and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> 
-     For example, if you've enabled **Job Title (jobTitle)** and **Postal Code (postalCode)** as **User Attributes** in your user flow, and you want to update the corresponding Contact table fields **Job Title (jobtitle)** and **Address 1: ZIP / Postal Code (address1_postalcode)**, enter the claims mapping as ```jobtitle=jobTitle,address1_postalcode=postalCode```.
+1. Under **Configure site settings**, enter the following values:
 
-    - **Login claims mapping**: Enter a list of logical name/claim pairs to be used to map claim values returned from Azure AD B2C after sign-in to the attributes in the contact record. <br /> Format: `field_logical_name=jwt_attribute_name` where `field_logical_name` is the logical name of the field in Power Pages, and `jwt_attribute_name` is the attribute with the value returned from the identity provider. <br /> 
-     For example, if you've enabled **Job Title (jobTitle)** and **Postal Code (postalCode)** as **Application Claims** in your user flow, and you want to update the corresponding Contact table fields **Job Title (jobtitle)** and **Address 1: ZIP / Postal Code (address1_postalcode)**, enter the claims mapping as ```jobtitle=jobTitle,address1_postalcode=postalCode```.
+    - **Authority**: Paste the issuer URL [you copied](#get-the-issuer-url-from-the-user-flows).​
+    - **Client ID​**: Paste the **Application (client) ID** of the Azure AD B2C application [you created](#create-an-azure-ad-b2c-tenant-and-app-registration-in-azure).
+    - **Redirect URI**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value.
 
-    - **External logout**: Choose whether to enable or disable federated sign out:
-      - Select **On** to redirect users to the federated sign out user experience when they sign out from the website.
-      - Select **Off** to sign users out from the website.
+1. Under **Password reset settings**, enter the following values:
 
-    - **Contact mapping with email**: Specify whether contacts are mapped to a corresponding email. Turn on this toggle to associate a unique contact record with a matching email address and then automatically assign the external identity provider to the contact after the user successfully signs in.
+    - **Default policy ID**: Enter the name of the sign-up and sign-in user flow [you created](#create-user-flows). The name is prefixed with *B2C_1*.
+    - **Password reset policy ID**: If [you created](#create-user-flows) a password reset user flow, enter its name. The name is prefixed with *B2C_1*.
+    - **Valid issuers**: Enter a comma-delimited list of the [issuer URLs](#get-the-issuer-url-from-the-user-flows) for the sign-up, sign-in, and password reset user flows [you created](#create-user-flows).
 
-    - **Registration enabled**:- Turn open registration for your website on or off. Turning off this toggle disables and hides external account registration.
+1. (Optional) Expand [**Additional settings**](#additional-settings-in-power-pages) and change the settings as needed.
 
-    :::image type="content" source="media/azure-ad-b2c.png" alt-text="Azure AD B2C configuration.":::
+1. Select **Confirm**.
 
-1. Select **Save** to complete the identity provider configuration.
+### Additional settings in Power Pages
+
+The additional settings give you finer control over how users authenticate with the Azure AD B2C identity provider. You don't need to set any of these values. They're entirely optional.
+
+- **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information that's included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
+
+  - You don't need to enter values for these settings if you use the *email*, *first name*, or *last name* attributes. For other attributes, enter a list of logical name/value pairs. Enter them in the format `field_logical_name=jwt_attribute_name`, where `field_logical_name` is the logical name of the field in Power Pages and `jwt_attribute_name` is the attribute with the value returned from the identity provider. These pairs are used to map claim values (created during sign-up or sign-in and returned from Azure AD B2C) to attributes in the contact record.
+
+      For example, you use **Job Title (jobTitle)** and **Postal Code (postalCode)** as **User Attributes** in your [user flow](#create-user-flows). You want to update the corresponding `Contact` table fields **Job Title (jobtitle)** and **Address 1: ZIP / Postal Code (address1_postalcode)**. In this case, enter the claims mapping as ```jobtitle=jobTitle,address1_postalcode=postalCode```.
+
+- **External logout**: This setting controls whether your site uses federated sign-out. With federated sign-out, when users sign out of an application or site, they're also signed out of all applications and sites that use the same identity provider. For example, if you sign in to a site using your Microsoft account, and then sign out of your Microsoft account, federated sign-out makes sure that you're signed out of the site, too.
+
+  - **On**: Redirects users to the federated sign-out experience when they sign out of your website.
+  - **Off**: Signs users out of your website only.
+
+- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
+
+  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
+  - **Off**: Contact record is not matched with an identity provider. This is the default option for this setting.
+
+- **Registration enabled**: This setting controls whether users can register on your site.
+
+  - **On**: Displays a sign-up page where users can create an account on your site.
+  - **Off**: Disables and hides the external account registration page.
 
 ### See also
 
+[Set up site authentication](configure-site.md)  
 [Migrate identity providers to Azure AD B2C](/power-apps/maker/portals/configure/migrate-identity-providers)
-

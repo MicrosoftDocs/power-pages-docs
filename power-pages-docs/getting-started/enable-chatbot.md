@@ -1,16 +1,17 @@
 ---
 title: Enable chatbot in a Power Pages site (preview)
 description: Learn how to enable chatbot in your Power Pages site.
-author: nickdoelman
+author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/23/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - nageshbhat-msft
 ---
 
 # Enable chatbot in a Power Pages site (preview)

@@ -18,7 +18,7 @@ This white paper describes how Power Pages provides enterprise grade security an
 
 **Author**: Dipti Jaiswal (Microsoft)
 
-**Download**: Download the white paper from here: [https://aka.ms/PowerPagesSecurity](https://aka.ms/PowerPagesSecurity)
+**Download**: Download the white paper from here: [https://aka.ms/PowerPagesSecurity (US English)](https://aka.ms/PowerPagesSecurity), [https://aka.ms/PowerPagesSecurity jp (Japanese)](https://aka.ms/PowerPagesSecurity_jp)
 
 ### See also
 

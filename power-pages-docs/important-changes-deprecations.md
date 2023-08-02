@@ -35,7 +35,7 @@ Starting October 2022 with website version 9.4.9.xx, any new site created in Pow
 At launch, users with the system administrator role along with [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) will by default have privilege to change site visibility status (private to public or vice versa). 
 
 > [!NOTE]
-> After October 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE. More information: [Change tenant-level setting](security/site-visibility.md#change-tenant-level-setting)
+> After October 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE. More information: [Change tenant-level setting](security/site-visibility.md#change-the-tenant-level-setting)
 
 ## OAuth 2.0 implicit grant flow within your portal 
 

@@ -1,15 +1,16 @@
 ---
 title: Portal Management app overview
 description: Learn how to use the Portal Management app.
-author: nickdoelman
+author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/03/2023
-ms.author: ndoelman
+ms.author: gisingh
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - gitanjalisingh33msft
 ---
 
 # Portal Management app overview
