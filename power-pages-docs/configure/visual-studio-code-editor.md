@@ -4,7 +4,7 @@ description: Learn how to customize pages by using the Visual Studio Code for th
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 7/12/2023
+ms.date: 08/02/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -47,7 +47,7 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 > - This feature utilizes **Power Platform Tools** web extension. Web extensions are restricted by the browser sandbox and therefore have limitations compared to normal extensions.
 >   - Power Platform CLI is not supported.
 >   - Power Platform Tools web extension features are limited to Power Pages code editing experience.
->   - This feature is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD).  Users in these regions will use the code editor in design workspace to make their changes.  More information: [Using the code editor](#using-the-code-editor)
+>   - This feature is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD).  Users in these regions will use the [Portals Management app](portal-management-app.md) for editing code. See [Editing code in the Portals Management app](#editing-code-in-the-portals-management-app) for more information.
 
 ## Edit code available in design studio
 
@@ -140,20 +140,24 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 | Advanced CPU and storage bound workflow - ReactJS or other framework build tool support | No | Yes |
 | GitHub integration with capabilities such as code check-in, check-out, managing conflicts, and merge. | No | Yes |
 
-## Using the code editor
+## Editing code in the Portals Management app
 
 > [!NOTE]
-> - Using Visual Studio Code for the Web to edit websites is not supported in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD).  Users in these regions can use the code editor in design studio to make their changes.
-> - Regions that support the Visual Studio Code editor will not see the design studio code editor.
+> - Using Visual Studio Code for the Web to edit websites is not supported in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD). Users in these regions can use the [Portals Management app](portal-management-app.md) to make their changes.
 
-To view the source code of the page on the canvas, select the code editor icon &lt;/&gt; in the command bar.
+If the region doesn't support the **Visual Studio Code for the Web**, selecting the code editor icon &lt;/&gt; in the command bar will open the **Portals Management app**.
 
-The source code is displayed in the code editor pane at the bottom of the screen. Any changes you made previously will be updated in the source code. To make changes, update the source code and then select **Save**. The changes are reflected on the canvas.
+Navigate to the corresponding **Web Pages**, **Basic Forms**, **Multistep Forms**, **Lists**, or **Web Templates** records to edit code.
 
-The code editor supports three docking options: docked on the bottom, docked on the right side, or full-screen edit mode.
+| Type | Code location |
+| - | - |
+| Web page | Select web page record. </br> Select web page content record from the **Localized Content** section. </br>Page copy can be edited in the **Copy (HTML)** field on the **General** tab.</br>**Custom JavaScript** and **Custom CSS** code can be edited from the **Advanced** tab. |
+| Basic form | Select the basic form record.</br>Edit **Custom JavaScript** on the **Additional Settings** tab. |
+| Multistep form | Select the multistep form record.</br>Select the multistep form step from the **Form Steps** tab.</br>Edit **Custom JavaScript** on the **Form Options** tab. |
+| List | Select the list record.</br>Edit **Custom JavaScript** on the **Options** tab. |
+| Web template | Select the web template record.</br>Edit **Source** on the **General** tab. |
 
-The code editor canvas supports HTML editing. To edit JavaScript or custom CSS, select **Edit CSS & JS**, which takes you to the Portal Management app. From there, select the **Advanced** tab to make any edits you want in the JavaScript and CSS sections.
-
+Save the record, and preview your website to test your code.
 
 ## See also
 
