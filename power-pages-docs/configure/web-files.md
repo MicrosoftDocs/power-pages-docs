@@ -74,4 +74,4 @@ For example, if the partial URL of the web file is *user-manual.pdf*:
 `<a href="/user-manual.pdf">Select here to download the user manual</a>`
 
 > [!NOTE]
-> The permissions to access the file to be downloaded is controlled by the parent page permissions. For more information, see [Manage page permissions](../security/page-security.md#apply-these-permissions-to-all-files-inherited-by-this-page).
+> The permissions to access the file to be downloaded is controlled by the parent page permissions. For more information, see [Manage page permissions](../security/page-security.md#options-for-page-permissions).
