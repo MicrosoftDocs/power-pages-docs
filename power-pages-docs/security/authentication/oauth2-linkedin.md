@@ -37,7 +37,7 @@ LinkedIn is one of the [OAuth 2.0 identity providers](oauth2-provider.md) you ca
 
 1. Under **Reply URL**, select **Copy**.
 
-1. Select **Open LinkedIn**.<!-- EDITOR'S NOTE: There's a discrepancy in the UI. The "Open LinkedIn" link on the "Configure identity provider" page in Power Pages opens https://developer.linkedin.com/. It's an extra click to select "My apps." The article points directly to https://www.linkedin.com/developers/apps. Can you please submit a request to make the "Open LinkedIn" link in the UI go to https://www.linkedin.com/developers/apps? If that happens, the extra click can be removed from step 1 in the following section. -->
+1. Select **Open LinkedIn**.
 
     Don't close your Power Pages browser tab. You'll return to it soon.
 

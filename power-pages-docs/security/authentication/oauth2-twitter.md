@@ -15,8 +15,6 @@ ms.custom: bap-template
 
 # Set up the Twitter provider
 
-<!-- EDITOR'S NOTE: Do we need to make any changes to this article based on Twitter's new API price structure? -->
-
 Twitter is one of the [OAuth 2.0 identity providers](oauth2-provider.md) you can use to [authenticate visitors](configure-site.md) to your Power Pages site. OAuth 2.0&ndash;based identity providers require a *client ID*, *client secret*, and sometimes a *redirect or reply URL*. This article describes the following steps:
 
 - [Set up Twitter in Power Pages](#set-up-twitter-in-power-pages)

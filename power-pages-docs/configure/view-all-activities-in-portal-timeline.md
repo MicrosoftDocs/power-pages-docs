@@ -38,8 +38,15 @@ To view all activities in a website timeline:
     > [!IMPORTANT]
     > Preparing customizations may take some time. If you see a message that the browser page has become unresponsive, wait for the page to become responsive, and don't close it.
 
+1. Make sure the timeline control is enabled to show activities.
+    1. From the Data workspace, select the form where the timeline control is enabled.
+    1. From the main menu, select the ellipses **...** and then select **Switch to classic**.
+    1. On the classic form designer, select the timeline control and choose **Change properties** from the main menu.
+    1. On the **Web Client Properties** tab, ensure that **Activities** are selected in the **Default tab** section.
+        :::image type="content" source="media/timeline/timeline-config.png" alt-text="Classic editor timeline configuration.":::
+    1. Select **OK**, followed by **Publish**, and then **Save and Close**.
+
 1. Since this change is a website metadata change, [clear the server-side cache](../admin/clear-server-side-cache.md) to ensure the updated data is displayed on the website.
 
 > [!NOTE]
 > The website timeline doesn't show inline images in the timeline control. For example, images embedded within emails don't appear on the timeline.
-

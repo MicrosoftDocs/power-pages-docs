@@ -1,10 +1,10 @@
 ---
 title: Assign table permissions
-description: Learn how to assign table permissions to web roles on sites you create with Microsoft Power Pages.
+description: Assign table permissions to web roles.
 ms.date: 07/20/2023
 ms.topic: how-to
-author: nickdoelman
-ms.author: ndoelman
+author: gitanjalisingh33msft
+ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
