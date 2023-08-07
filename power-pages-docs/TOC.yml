@@ -462,7 +462,7 @@
           items:
             - name: Web templates as components overview
               href: configure/web-templates-as-components.md
-            - name: "How to: Create a web template component (preview)"
+            - name: "How to: Create a web template component"
               href: configure/web-templates-as-components-how-to.md
             - name: "How to: Display location records as a carousel"
               href: configure/web-templates-as-components-carousel.md
