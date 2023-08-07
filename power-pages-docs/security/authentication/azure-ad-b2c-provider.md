@@ -12,7 +12,6 @@ contributors:
     - dileepsinghmicrosoft
 ms.custom: bap-template
 ---
-<!-- EDITOR'S NOTE: For consistency with other auth setup articles, please rename this file to openid-azure-ad-b2c-provider.md. -->
 
 # Set up an OpenID Connect provider with Azure AD B2C
 

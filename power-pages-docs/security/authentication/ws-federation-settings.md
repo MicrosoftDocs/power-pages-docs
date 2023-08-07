@@ -12,7 +12,6 @@ contributors:
     - dileepsinghmicrosoft
 ms.custom: bap-template
 ---
-<!-- EDITOR'S NOTE: For consistency with other auth setup articles, please rename this file to ws-federation-azure-ad-fs-provider.md. -->
 
 # Set up a WS-Federation provider with AD FS
 

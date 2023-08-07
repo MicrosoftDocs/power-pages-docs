@@ -14,9 +14,9 @@ ms.custom: bap-template
 
 # Set column permissions
 
-In Power Pages, [table permissions](table-permissions.md) apply security to individual Dataverse table records. You can apply column-level permissions to restrict access even further when you use the Power Pages Web API to work with your site's data. Column permissions apply only to the [portals Web API](../configure/web-api-overview.md).<!-- EDITOR'S NOTE: Is there a difference between the "Power Pages Web API" and the "portals Web API"? -->
+In Power Pages, [table permissions](table-permissions.md) apply security to individual Dataverse table records. You can apply column-level permissions to restrict access even further when you use the Power Pages Web API to work with your site's data. Column permissions apply only to the [portals Web API](../configure/web-api-overview.md).
 
- Column permissions are an optional configuration that you associate with [web roles](create-web-roles.md). Web roles can have any number of table permissions and column permissions. If a web role has multiple column permissions, all column permissions are applied to the selected web role.<!-- EDITOR'S NOTE: This last sentence is confusing. Is it saying that if you apply more than one column permission, the web role will get access to all columns anyway? -->
+ Column permissions are an optional configuration that you associate with [web roles](create-web-roles.md). Web roles can have any number of table permissions and column permissions. If a web role has multiple column permissions, they are all applied to the selected web role.
 
 Table permissions are evaluated before column permissions. If a user has access to a table, then the table's column permissions are applied. If the user doesn't have access to the table, any column permissions the user has are ignored. When no column permissions are defined, the table permissions apply to all columns.
 

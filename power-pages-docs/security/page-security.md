@@ -59,9 +59,9 @@ The following table describes the attributes you can set when you create or edit
 | --- | --- |
 | Name | A descriptive name for the rule |
 | Website | The website the rule applies to; must match the website of the page to which the rule is applied |
-| Web Page | The page the rule applies to<br/>The rule affects not only this page but its child pages, too, making this attribute select the branch of the website to which the rule applies. If the rule is applied to the home page, it applies to the entire site. |<!-- EDITOR'S NOTE: I don't understand the part of the sentence from "making" to the period. Can you please clarify what this means? -->
+| Web Page | The page the rule applies to<br/ >The rule affects not only this page but its child pages, too. If the rule is applied to the home page, it applies to the entire site. |
 | Right | [Grant change](#grant-change) or [Restrict read](#restrict-read) |
-| Scope | **All content**: All descendant content is included in security validation. This value is the default.<br/>**Exclude direct child web files**: All child web files that are directly related to the page are excluded from security validation. This option doesn't exclude the descendants of the child web file, however. |
+| Scope | **All content**: All descendant content is included in security validation. This value is the default.<br/ >**Exclude direct child web files**: All child web files that are directly related to the page are excluded from security validation. This option doesn't exclude the descendants of the child web file, however. |
 | Description | (Optional) A description of the rule |
 
 ### View access control rules for a page

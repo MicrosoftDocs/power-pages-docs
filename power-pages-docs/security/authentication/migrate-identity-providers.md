@@ -58,7 +58,7 @@ When a user selects a new identity provider and the identity is already associat
 
 ## Turn off local authentication
 
-To turn off local authentication on your site, set the `Authentication > Registration > LocalLoginDeprecated` site setting to true. If a user tries to sign in using local credentials, the account migration page appears along with the instruction to sign in using a nondeprecated identity provider. When the account is migrated, the user's local credentials are disabled. The `Local Login Disabled` column in the site's contact record changes to **Yes** to indicate the contact can no longer sign in using the local account. By default, this column is set to **No**.
+To turn off local authentication on your site, set the `Authentication/Registration/LocalLoginDeprecated` site setting to true. If a user tries to sign in using local credentials, the account migration page appears along with the instruction to sign in using a nondeprecated identity provider. When the account is migrated, the user's local credentials are disabled. The `Local Login Disabled` column in the site's contact record changes to **Yes** to indicate the contact can no longer sign in using the local account. By default, this column is set to **No**.
 
 If you deprecate local authentication, users can't register for a new account on your site.
 

@@ -12,7 +12,6 @@ contributors:
     - dileepsinghmicrosoft
 ms.custom: bap-template
 ---
-<!-- EDITOR'S NOTE: For consistency with other auth setup articles, please rename this file to saml2-azure-ad-provider.md. -->
 
 # Set up a SAML 2.0 provider with Azure AD
 
@@ -113,7 +112,7 @@ The additional settings give you finer control over how users authenticate with 
 - **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
 
   - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
-  - **Off**: <!-- EDITOR'S NOTE: I couldn't find an explanation for this setting that's any clearer than what's here. What happens if this setting is left off? And what does it mean when it's turned on? -->
+  - **Off**
 
 ### See also
 

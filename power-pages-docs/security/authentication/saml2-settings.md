@@ -12,7 +12,6 @@ contributors:
     - dileepsinghmicrosoft
 ms.custom: bap-template
 ---
-<!-- EDITOR'S NOTE: For consistency with other auth setup articles, please rename this file to saml2-azure-ad-fs-provider.md. -->
 
 # Set up a SAML 2.0 provider with AD FS
 
