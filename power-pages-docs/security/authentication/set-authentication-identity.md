@@ -33,13 +33,12 @@ Power Pages provides authentication functionality built on the [ASP.NET Identity
 > The `Mobile Phone Confirmed` column in the contact record isn't used except when upgrading from Adxstudio Portals.
 
 ## Requirements
-<!-- EDITOR'S NOTE: Requirements for what? -->
 
 Power Pages requires:
 
-- Portals Base<!-- EDITOR'S NOTE: Is this still required? -->
+- Portals Base
 - Microsoft Identity
-- Microsoft Identity Workflows solution packages<!-- EDITOR'S NOTE: Where can makers get these? -->
+- Microsoft Identity Workflows solution packages
 
 ## Authenticate and register
 

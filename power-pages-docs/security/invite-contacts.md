@@ -29,7 +29,7 @@ And when a contact redeems the invitation, Power Pages can:
 
 Contacts can redeem an invitation using any of the [authentication methods](authentication/configure-site.md) that Power Pages supports. [Learn more about local authentication, registration, and other settings](authentication/set-authentication-identity.md). When a contact redeems an invitation, it creates an Invite Redemption activity in both the invitation record and the contact record.
 
-Power Pages uses the send invitation workflow to send your invitations. Edit the workflow's email template to customize the message and provide the link to your site's invitation redemption page.<!-- EDITOR'S NOTE: Where is this? I couldn't find it anywhere in my sample site. -->
+Power Pages uses the send invitation workflow to send your invitations. Edit the workflow's email template to customize the message and provide the link to your site's invitation redemption page.
 
 The workflow sends the email only to the invited contact's primary email address (emailaddress1), not to a secondary (emailaddress2) or alternate (emailaddress3) address.
 

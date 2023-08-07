@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 The Power Pages site visibility setting allows you to control who has access to your website. You can make the site private to restrict access to specific people in your organization. If you choose to make the site public, anyone with the link can access it.
 
-:::image type="content" source="media/site-visibility/site-visibility.gif" alt-text="Animation that shows site visibility setting change from private to public.":::<!-- EDITOR'S NOTE: Please replace this animated gif with a video IAW our [screenshot guidelines](/bacx/screenshots-for-bap?branch=main). -->
+:::image type="content" source="media/site-visibility/site-visibility.gif" alt-text="Animation that shows site visibility setting change from private to public.":::
 
 > [!IMPORTANT]
 >

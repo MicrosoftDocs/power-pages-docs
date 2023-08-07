@@ -13,8 +13,6 @@ contributors:
     - nageshbhat-msft
 ms.custom: bap-template
 ---
-<!-- EDITOR'S NOTE: For consistency with other auth setup articles, please rename this file to ws-federation-azure-ad-provider.md. -->
-
 # Set up a WS-Federation provider with Azure AD
 
 Azure Active Directory (Azure AD) is one of the WS-Federation identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. You can use any provider that conforms to the WS-Federation specification.
