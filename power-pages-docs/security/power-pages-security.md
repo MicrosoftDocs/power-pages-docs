@@ -1,14 +1,14 @@
 ---
 title: Power Pages security
 description: Learn how to secure the websites you create with Microsoft Power Pages.
-ms.date: 10/03/2022
+ms.date: 07/20/2023
+ms.topic: overview
 author: nickdoelman
 ms.author: ndoelman
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
-ms.topic: conceptual
 ms.custom: bap-template
 ---
 

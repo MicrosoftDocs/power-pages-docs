@@ -1,5 +1,5 @@
 ---
-title: Configuring table permissions in Power Pages
+title: Set table permissions in Power Pages
 description: Learn how to set and manage table permissions.
 author: gitanjalisingh33msft
 ms.topic: conceptual
