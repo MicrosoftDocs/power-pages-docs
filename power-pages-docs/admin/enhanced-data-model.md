@@ -218,7 +218,7 @@ You can use the new Power Pages Management app to edit new websites that are cre
 - To enable traffic analysis for websites that use the enhanced data model, follow the steps in [Set up telemetry monitoring](../go-live/telemetry-monitoring.md).
 - The `Account` table isn't part of the Power Pages Management app. Therefore, the ability to add a parent account record to a contact is limited. As a workaround, [manually add the Account table](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-table) to the Power Pages Management app.
 - If you configure [list actions](../getting-started/add-list.md#choose-list-actions) on websites that use the enhanced data model, the configuration isn't currently saved. As a workaround, configure the list by using the [Power Pages Management app](../configure/list-configuration.md).
-- You must assign contacts to web roles by using **Portal Contact (Enhanced Form)** on the contact record in the Power Pages Management app. For more information, go to [Configure web roles](../security/create-web-roles.md#from-the-contact-with-site-using-enhanced-data-model).
+- You must assign contacts to web roles by using **Portal Contact (Enhanced Form)** on the contact record in the Power Pages Management app. For more information, go to [Configure web roles](../security/create-web-roles.md#from-the-contact-enhanced-data-model).
 
 ## See also
 

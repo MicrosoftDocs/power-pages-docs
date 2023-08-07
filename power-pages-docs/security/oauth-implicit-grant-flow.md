@@ -1,7 +1,7 @@
 ---
 title: Use OAuth 2.0 implicit grant flow in your Power Pages site
 description: Learn how to make client-side calls to external APIs and secure them using OAuth 2.0 implicit grant flow in your Power Pages site.
-ms.date: 3/20/2023
+ms.date: 07/21/2023
 ms.topic: how-to
 author: gitanjalisingh33msft
 ms.author: gisingh
@@ -143,4 +143,3 @@ This sample is an ASP.NET based project and is used to validate the ID token iss
 ### Token Endpoint sample
 
 This sample shows how you can use the getAuthenticationToken function to fetch an ID token using the Token endpoint in Power Pages. The sample can be found here: [Token Endpoint sample](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js).
-

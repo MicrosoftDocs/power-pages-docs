@@ -1,70 +1,90 @@
 ---
-title: Configure a SAML 2.0 provider for Power Pages
-description: Learn how to configure SAML 2.0 provider for Power Pages.
+title: Set up a SAML 2.0 provider
+description: Learn how to set up a SAML 2.0 provider for use with sites you create with Microsoft Power Pages.
+ms.date: 07/19/2023
+ms.topic: how-to
 author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
-ms.date: 3/20/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+ms.custom: bap-template
 ---
 
-# Configure a SAML 2.0 provider for Power Pages
+# Set up a SAML 2.0 provider
 
-To provide external authentication, you can add one or more [SAML 2.0](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)&ndash;compliant identity providers. This article describes how to set up various identity providers to integrate with a website that acts as a service provider.  
+SAML 2.0 identity providers are services that conform to the [SAML 2.0 specification](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html). SAML can be used for single sign-on (SSO) authentication to allow employees to easily access cloud applications without having to maintain multiple credentials.
+
+To allow users to authenticate to your Power Pages site, you can add one or more [SAML 2.0](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)&ndash;compliant identity providers. This article describes the following steps:
+
+- [Set up the SAML 2.0 provider in Power Pages](#set-up-the-saml-20-provider-in-power-pages)
+- [Create an app registration in the identity provider](#create-an-app-registration-in-the-identity-provider)
+- [Enter site settings in Power Pages](#enter-site-settings-in-power-pages)
 
 > [!NOTE]
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-To configure a SAML 2.0 provider, sign in to [Power Pages](https://make.powerpages.microsoft.com) and navigate to the [Set up workspace](../../configure/setup-workspace.md).
+## Set up the SAML 2.0 provider in Power Pages
 
-1. Select [New provider](configure-site.md) for your website.
+1. In your Power Pages site, select **Set up** > **Identity providers**.
 
-1. For **Login provider**, select **Other**.
+    If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
-1. For **Protocol**, select **SAML 2.0**.
+1. Select **+ New provider**.
 
-1. Enter a provider name.
+1. Under **Select login provider**, select **Other**.
 
-1. Select **Next**.
+1. Under **Protocol**, select **SAML 2.0**.
 
-1. Create the application and configure the settings with your identity provider.
+1. Enter a name for the provider; for example, *Azure AD*.
 
-1. Enter the following site settings for website configuration.
-
-    > [!NOTE]
-    > Ensure that you review&mdash;and if required, change&mdash;the default values.
-
-    | Name | Description |
-    | - | - |
-    | Metadata address | The SAML 2.0 identity provider metadata file location. <br /> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/federationmetadata/2007-06/federationmetadata.xml` |
-    | Authentication type | The Entity Id value that specifies a globally unique name for the SAML 2.0 identity provider. <br /> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/` |
-    | Service provider realm | The website URL that specifies the service provider realm for the SAML 2.0 identity provider. <br /> Example: `https://contoso-portal.powerappsportals.com/` |
-    | Assertion consumer service URL | The website URL that corresponds to the service provider's endpoint (URL). This URL is responsible for receiving and parsing a SAML assertion. <br> Example: `https://contoso-portal.powerappsportals.com/signin-saml_1`  <br> **Note**: If you're using the default website URL, you can copy and paste the **Reply URL** as shown in the **Create and configure SAML 2.0 provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the **Redirect URI** value for the application in the identity provider configuration (such as Azure portal). |
+    The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
 1. Select **Next**.
 
-1. (Optional) Configure additional settings.
+1. Under **Reply URL**, select **Copy**.
 
-    | Name | Description
-    | - | - |
-    | Validate audience | If this is enabled, the audience will be validated during token validation. |
-    | Valid audiences | A comma-separated list of audience URLs. |
-    | Contact mapping with email | Specify whether the contacts are mapped to a corresponding email. When this is set to **On**, a unique contact record is associated with a matching email address, assigning the external identity provider to the contact after a successful user sign-in. |
+    Don't close your Power Pages browser tab. You'll return to it soon.
 
-1. Select **Confirm**.
+## Create an app registration in the identity provider
 
-To edit a SAML 2.0 provider, see [Configure Power Pages site authentication](configure-site.md).
+1. Create and register an application with your identity provider using the reply URL [you copied](#set-up-the-saml-20-provider-in-power-pages).
+
+1. Find the application's endpoints and copy the **Federation metadata document** URL.
+
+1. In a new browser tab, paste the federation metadata document URL you copied.
+
+1. Copy the value of the `entityID` tag in the document.
+
+## Enter site settings in Power Pages
+
+Return to the Power Pages **Configure identity provider** page you left earlier and enter the following values. Optionally, change the [**additional settings**](#additional-settings-in-power-pages) as needed. Select **Confirm** when you're finished.
+
+- **Metadata address**: Paste the federation metadata document URL [you copied](#create-an-app-registration-in-the-identity-provider).
+
+- **Authentication type**: Paste the `entityID` value [you copied](#create-an-app-registration-in-the-identity-provider).
+
+- **Service provider realm**: Enter your site's URL.
+
+- **Assertion service consumer URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value, which should be your site's reply URL. Be sure the value is exactly the same as the redirect URI of the application [you created](#create-an-app-registration-in-the-identity-provider).
+
+### Additional settings in Power Pages
+
+The additional settings give you finer control over how users authenticate with your SAML 2.0 identity provider. You don't need to set any of these values. They're entirely optional.
+
+- **Validate audience**: Turn on this setting to validate the audience during token validation.
+
+- **Valid audiences**: Enter a comma-separated list of audience URLs.
+
+- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
+
+  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
+  - **Off**
 
 ### See also
 
-- [Configure a SAML 2.0 provider for Power Pages with Azure AD](saml2-settings-azure-ad.md)
-- [Configure a SAML 2.0 provider for Power Pages with AD FS](saml2-settings.md)
-- [Configure a SAML 2.0 provider for Power Pages](saml2-provider.md)
-
-
+[Set up a SAML 2.0 provider with Azure AD](saml2-settings-azure-ad.md)  
+[Set up a SAML 2.0 provider with AD FS](saml2-settings.md)  
+[SAML 2.0 FAQ](saml2-faqs.md)
