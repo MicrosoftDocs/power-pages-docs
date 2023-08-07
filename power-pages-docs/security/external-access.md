@@ -10,8 +10,6 @@ contributors:
     - ProfessorKendrick
 ms.custom: bap-template
 ---
-<!-- EDITOR'S NOTE: This article *SEEMS* to be about allowing external users to authenticate using a local account, so I've edited with that in mind. If that's not the case, please clarify how providing access to external users is different from allowing access to internal users. -->
-
 # Provide access to external audiences
 
  Power Pages site user information is stored as contact records in Dataverse. Before users can authenticate to your site with a local account, a record must exist for them in your site's Contacts table. You can create the contact yourself, or the user can create a record by submitting a sign-up form if you [turn on user registration](authentication/set-authentication-identity.md#enable-or-disable-user-registration) on your site.
