@@ -1,6 +1,6 @@
 ---
 title: Additional settings for OAuth 2.0 providers
-description: Learn about additional settings you can change when you add an OAuth 2.0 provider to sites you create with Microsoft Power Pages.
+description: Learn about other settings you can change when you add an OAuth 2.0 provider to sites you create with Microsoft Power Pages.
 ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
@@ -15,9 +15,9 @@ ms.custom: bap-template
 
 # Additional settings for OAuth 2.0 providers
 
-[Add an OAuth 2.0 provider](oauth2-provider.md) to your Power Pages site to allow visitors to authenticate using a [Microsoft](oauth2-microsoft.md), [LinkedIn](oauth2-linkedin.md), [Facebook](oauth2-facebook.md), [Google](oauth2-google.md), or [Twitter](oauth2-twitter.md) account. After you enter the specific client ID and client secret for your identity provider, you may need to change additional settings that apply to any OAuth 2.0 provider. These settings are optional and you should change them only if you know what you're doing.
+[Add an OAuth 2.0 provider](oauth2-provider.md) to your Power Pages site to allow visitors to authenticate using a [Microsoft](oauth2-microsoft.md), [LinkedIn](oauth2-linkedin.md), [Facebook](oauth2-facebook.md), [Google](oauth2-google.md), or [Twitter](oauth2-twitter.md) account. After you enter the specific client ID and client secret for your identity provider, you may need to change other settings that apply to any OAuth 2.0 provider. These settings are optional and you should change them only if you know what you're doing.
 
-To change the additional settings for an OAuth 2.0 identity provider, [edit the provider settings](configure-site.md#edit-an-identity-provider) and expand the **Additional settings** section.
+To change the other settings for an OAuth 2.0 identity provider, [edit the provider settings](configure-site.md#edit-an-identity-provider) and expand the **Additional settings** section.
 
 :::image type="content" source="../media/authentication/additional-settings.jpg" alt-text="Screenshot of optional additional settings for OAuth 2.0 providers.":::
 
