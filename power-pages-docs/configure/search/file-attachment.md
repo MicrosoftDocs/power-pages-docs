@@ -24,20 +24,17 @@ You can use the knowledge article attachment to include downloadable files in kn
 
 You can configure your Power Pages site to allow users to search within the attachment content of  knowledge base articles. This helps users to find the information that they're looking for.
 
-In knowledge base articles, any attachment with the defined prefix is indexed. In web files, the latest attachment is indexed.
+In knowledge base articles, any attachment with the defined prefix is indexed.
 
 To index the knowledge article attachments, you must create the following site settings and set their value to **True**:
 
 |Site setting|Description|
 |------------|-----------|
-|Search/IndexNotesAttachments|Indicates whether the content of notes attachments in  knowledge base articles and web files should be indexed. By default, it's set to **False**.|
-|KnowledgeManagement/DisplayNotes|Indicates whether to index attachments of knowledge base articles. By default, it's set to **False**.|
+|Search/IndexNotesAttachments|Indicates whether the content of attachments in knowledge base articles should be indexed. By default, it's set to **False**.|
+|KnowledgeManagement/DisplayNotes|Indicates whether to display attachments of knowledge base articles. By default, it's set to **False**.|
 |||
 
-> [!NOTE]
-> Only the files that are attached to knowledge articles can be searched. The files that are attached to web files are not searchable.
-
-When you search for a term, the search results also include attachments. If the search term matches a notes attachment, the link to the corresponding knowledge base article is also provided. To see downloadable attachments, select **Downloads** under **Record Type** in the left pane. To modify the **Downloads** label, edit the Search/Facet/Downloads content snippet. By default, the value is set to **Downloads**.
+When you search for a term, the search results also include attachments. If the search term matches a knowledgearticle attachment, the link to the corresponding knowledge base article is also provided. To see downloadable attachments, select **Downloads** under **Record Type** in the left pane. To modify the **Downloads** label, edit the Search/Facet/Downloads content snippet. By default, the value is set to **Downloads**.
 
 > [!NOTE]
 > [Dataverse search](/power-platform/admin/configure-relevance-search-organization) must be enabled in your environment to use this functionality.
