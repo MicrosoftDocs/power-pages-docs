@@ -59,11 +59,9 @@ The record details page is configured using a **Site Marker** named `<entitylogi
 For example, if your table logical name is *nwind_products*, the site marker will be `nwind_products_SearchResultPage`. The value of the site marker is the record details page that you want to open when that search result is selected. By default, a record ID is passed in the *id* querystring parameter to the record details page. For more information about adding forms on a page, go to [Add a form](../../getting-started/add-form.md).
 
 > [!IMPORTANT]
-> There are two table logical name exceptions in configuration of the site markers for the record details page. 
-> | Table name | Site marker name |
-> | - | - |
-> | incident | Case |
-> | knowledgearticle | Knowledge Article | 
+> There are two table logical name exceptions in configuration of the site markers for the record details page.
+> - The **incident** table requires the site marker to be named **Case**. 
+> - The **knowledgearticle** table requires the site marker to be named **Knowledge Article**. 
 
 > [!IMPORTANT]
 > Ensure that your record details page has a basic form, or has logic written to show the search result details. For example, [Step 4 - Add record details page](#step-4-add-record-details-webpage) in the following walkthrough.
