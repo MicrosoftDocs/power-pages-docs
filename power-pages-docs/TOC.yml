@@ -390,7 +390,7 @@
           href: configure/search/additional-tables.md
         - name: Faceted search
           href: configure/search/faceted.md
-        - name: Search file attachments
+        - name: Search knowledge article attachments
           href: configure/search/file-attachment.md
         - name: Progressive search
           href: configure/search/progressive.md
