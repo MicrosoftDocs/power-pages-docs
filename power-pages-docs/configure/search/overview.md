@@ -1,18 +1,19 @@
 ---
 title: Search
 description: Learn how search works in Power Pages
-author: sandhangitmsft
+author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 1/24/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - Professor Kendrick
+    - nageshbhat-msft
 ---
 
 # Search
@@ -221,6 +222,9 @@ You can invoke global search from liquid templates by using the *searchindex* ta
 
 ## Update search index
 
+> [!NOTE]
+> **Update search index** is related to Lucene .NET search and is not applicable to Dataverse search.
+
 Search index updates in Power Pages happen automatically like the cache invalidation. Keep these important things in mind, though:
 
 - All search-enabled tables must have the Change Notification metadata flag enabled, otherwise the website won't be notified of the changes and the search index won't be updated.
@@ -230,6 +234,9 @@ Search index updates in Power Pages happen automatically like the cache invalida
 - it's advisable to rebuild the full index manually after performing a bulk data migration or bulk updates to records within a short span of time. For details, see [Rebuild the search index](additional-tables.md#step-6-rebuild-the-search-index).
 
 ## Rebuild full search index
+
+> [!NOTE]
+> **Rebuild full search index** is related to Lucene .NET search and is not applicable to Dataverse search.
 
 Rebuild of full search index is required whenever:
 

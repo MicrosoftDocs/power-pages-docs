@@ -1,18 +1,19 @@
 ---
 title: Configuring additional tables for global search
 description: Learn how global search works for additional tables in a Power Pages site.
-author: sandhangitmsft
+author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 1/24/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - ProfessorKendrick
+    - nageshbhat-msft
 ---
 
 # Walk-through: Configuring additional tables for global search  
@@ -56,6 +57,11 @@ You can also configure other related site settings similar to the search configu
 The record details page is configured using a **Site Marker** named `<entitylogicalname>_SearchResultPage`.
 
 For example, if your table logical name is *nwind_products*, the site marker will be `nwind_products_SearchResultPage`. The value of the site marker is the record details page that you want to open when that search result is selected. By default, a record ID is passed in the *id* querystring parameter to the record details page. For more information about adding forms on a page, go to [Add a form](../../getting-started/add-form.md).
+
+> [!IMPORTANT]
+> There are two table logical name exceptions in configuration of the site markers for the record details page.
+> - The **incident** table requires the site marker to be named **Case**. 
+> - The **knowledgearticle** table requires the site marker to be named **Knowledge Article**. 
 
 > [!IMPORTANT]
 > Ensure that your record details page has a basic form, or has logic written to show the search result details. For example, [Step 4 - Add record details page](#step-4-add-record-details-webpage) in the following walkthrough.
@@ -151,6 +157,9 @@ The following walkthrough explains each step in detail with a sample database an
     - **Page:** **Order Products**
 
 ## Step 6: Rebuild the search index
+
+> [!NOTE]
+> **Rebuild the search index** is related to Lucene .NET search and is not applicable to Dataverse search.
 
 1. Browse your website by using a user account that has the Administrator web role assigned.
 
