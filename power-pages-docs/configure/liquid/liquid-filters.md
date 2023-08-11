@@ -1007,6 +1007,22 @@ HTML-escapes a string.
 &lt;p&gt;test&lt;/p&gt;
 ```
 
+### html_safe_escape
+
+Coverts a given HTML string to a safe HTML fragment.
+
+**Code**
+
+```
+{{ '<img src="images/myimage.jpg" onerror="alert(1);">' | escape }}
+```
+
+**Output**
+
+```
+<img src="images/myimage.jpg">
+```
+
 ### **newline\_to\_br**
 
 Inserts a &lt;br /&gt; line break HTML tag at each line break in a string.
@@ -1594,6 +1610,22 @@ Optionally, a precision parameter can be passed, to control the number of decima
 2 KB
 
 207.14 KB
+```
+
+### **h**
+
+Provides an HTML representation of a FetchXML query [XML attribute](template-tags.md#xml-attribute).
+
+**Code**
+
+```
+{{ samplequery.xml | h }}
+```
+
+**Output**
+
+```
+<fetch mapping="logical" count="5000" page="1" returntotalrecordcount="true"> <entity name="contact"> <attribute name="fullname" /> </entity> </fetch>
 ```
 
 ### **has\_role**
