@@ -16,7 +16,7 @@ contributors:
 
 # Available Liquid filters
 
-Liquid filters are used to modify the output of strings, numbers, variables, and objects. They are separated from the value to which they are being applied by a |.
+Liquid filters are used to modify the output of strings, numbers, variables, and objects. They're separated from the value to which they're being applied by a |.
 
 `{{ 'hal 9000' | upcase }} <!-- Output: HAL 9000 -->`
 
@@ -107,7 +107,7 @@ Group #1 + Group #2: John, Pete, Hannah, Joan, Bill
 
 ### except
 
-Select all the objects in an array where a given attribute does not have a given value. (This is the inverse of**where**.)
+Select all the objects in an array where a given attribute doesn't have a given value. (This is the inverse of **where**.)
 
 **Code**
 
@@ -263,7 +263,7 @@ John Smith, Jake Johnson, Jack Robinson, Dave Thomas
 
 ### random
 
-Returns a single randomly-selected item from the array.
+Returns a single randomly selected item from the array.
 
 **Code**
 
@@ -383,7 +383,7 @@ This, is, a
 
 ### then\_by
 
-Adds additional subsequent ordering to an array already ordered by**order\_by**.
+Adds extra subsequent ordering to an array already ordered by**order\_by**.
 
 Optionally, you can provide desc as a second parameter to sort the elements in descending order, rather than ascending.
 
@@ -1211,7 +1211,7 @@ ABC
 
 ### **text\_to\_html**
 
-Formats a plain text string as simple HTML. All text will be HTML encoded, blocks of text separated by a blank line will be wrapped in paragraph &lt;p&gt; tags, single line breaks will be replaced with &lt;br&gt;, and URLs will be converted to hyperlinks.
+Formats a plain text string as simple HTML. Text is HTML encoded, blocks of text separated by a blank line will be wrapped in paragraph &lt;p&gt; tags, single line breaks are replaced with &lt;br&gt;, and URLs are converted to hyperlinks.
 
 **Code**
 
@@ -1314,7 +1314,7 @@ Type filters allow you to convert values of one type into other types.
 
 ### **boolean**
 
-Attempts to convert a string value into a Boolean. If the value is already a Boolean, it will be returned unchanged. If the value cannot be converted into a Boolean, null will be returned.
+Attempts to convert a string value into a Boolean. If the value is already a Boolean, it is returned unchanged. If the value can't be converted into a Boolean, null will be returned.
 
 This filter will also accept on, enabled, or yes as true, and off, disabled, and no as false.
 
@@ -1344,7 +1344,7 @@ false
 
 ### **decimal**
 
-Attempts to convert a string value into a decimal number. If the value is already a decimal number, it will be returned unchanged. If the value cannot be converted into a decimal number, null will be returned.
+Attempts to convert a string value into a decimal number. If the value is already a decimal number, it is returned unchanged. If the value can't be converted into a decimal number, null will be returned.
 
 **Code**
 
@@ -1368,7 +1368,7 @@ Attempts to convert a string value into a decimal number. If the value is alread
 
 ### **integer**
 
-Attempts to convert a string value into an integer. If the value is already an integer, it will be returned unchanged. If the value cannot be converted into an integer, null will be returned.
+Attempts to convert a string value into an integer. If the value is already an integer, it is returned unchanged. If the value can't be converted into an integer, null will be returned.
 
 **Code**
 
@@ -1395,7 +1395,7 @@ Attempts to convert a string value into an integer. If the value is already an i
 
 ### **string**
 
-Attempts to convert a value into its string representation. If the value is already a string, it will be returned unchanged. If the value is null, null will be returned.
+Attempts to convert a value into its string representation. If the value is already a string, it is returned unchanged. If the value is null, null will be returned.
 
 
 
@@ -1405,9 +1405,9 @@ URL filters allow you to build or extract parts of URLs.
 
 ### **add\_query**
 
-Appends a query string parameter to a URL. If the parameter already exists in the URL, the parameter value will be updated.
+Appends a query string parameter to a URL. If the parameter already exists in the URL, the parameter value is updated.
 
-If this filter is applied to a full absolute URL, an updated absolute URL will be the result. If it is applied to a path, an updated path will be the result.
+If this filter is applied to a full absolute URL, an updated absolute URL is the result. If it's applied to a path, an updated path is the result.
 
 **Code**
 
@@ -1523,9 +1523,9 @@ Gets the port number of a URL.
 
 ### **remove\_query**
 
-Removes a query string parameter from a URL. If the parameter does not exists in the URL, the URL will be returned unchanged.
+Removes a query string parameter from a URL. If the parameter doesn't exists in the URL, the URL is returned unchanged.
 
-If this filter is applied to a full absolute URL, an updated absolute URL will be the result. If it is applied to a path, an updated path will be the result.
+If this filter is applied to a full absolute URL, an updated absolute URL is the result. If it's applied to a path, an updated path is the result.
 
 **Code**
 
@@ -1570,7 +1570,7 @@ These filters provide useful general functionality.
 
 ### **default**
 
-Returns a default value for any variable with no assigned value (i.e. null).
+Returns a default value for any variable with no assigned value (that is, null).
 
 **Code**
 
@@ -1588,7 +1588,7 @@ My Website
 
 ### **file\_size**
 
-Applied to a number value representing a number of bytes, returns a formatted file size with a unit of appropriate scale.
+Applied to a number value representing many bytes, returns a formatted file size with a unit of appropriate scale.
 
 Optionally, a precision parameter can be passed, to control the number of decimal places in the result. The default precision is 1.
 
@@ -1646,7 +1646,7 @@ User is an administrator.
 
 ### **liquid**
 
-Renders a string as Liquid code. This code will have access to the current Liquid execution context (variables, etc.).
+Renders a string as Liquid code. This code has access to the current Liquid execution context (variables, etc.).
 
 > [!Note] 
 > This filter should be used with caution and should generally only be applied to values that are under the exclusive control of site content authors, or other users that can be trusted to write Liquid code.
