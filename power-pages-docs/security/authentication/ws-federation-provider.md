@@ -1,73 +1,91 @@
 ---
-title: Configure a WS-Federation provider for Power Pages
-description: Learn how to configure WS-Federation provider for Power Pages.
+title: Set up a WS-Federation provider
+description: Learn how to set up a WS-Federation provider for use with sites you create with Microsoft Power Pages.
+ms.date: 07/19/2023
+ms.topic: how-to
 author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
-ms.date: 3/7/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+ms.custom: bap-template
 ---
 
-# Configure a WS-Federation provider for Power Pages
+# Set up a WS-Federation provider
 
-You can add a WS-Federation&ndash;compliant security token service provider&mdash;for example, Azure Active Directory (Azure AD) or a single Active Directory Federation Services (AD FS) server&mdash;as an identity provider.
+To allow users to authenticate to your Power Pages site, you can add a WS-Federation&ndash;compliant security token service provider such as Azure Active Directory (Azure AD) or a single Active Directory Federation Services (AD FS) server. This article describes the following steps:
+
+- [Set up the WS-Federation provider in Power Pages](#set-up-the-ws-federation-provider-in-power-pages)
+- [Create an app registration in the identity provider](#create-an-app-registration-in-the-identity-provider)
+- [Enter site settings in Power Pages](#enter-site-settings-in-power-pages)
 
 > [!NOTE]
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-To configure a WS-Federation provider, sign in to [Power Pages](https://make.powerpages.microsoft.com) and navigate to the [Set up workspace](../../configure/setup-workspace.md).
+## Set up the WS-Federation provider in Power Pages
 
-1. Select [New provider](configure-site.md) for your website.
+1. In your Power Pages site, select **Set up** > **Identity providers**.
 
-1. For **Login provider**, select **Other**.
+    If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
-1. For **Protocol**, select **WS-Federation**.
+1. Select **+ New provider**.
 
-1. Enter a provider name.
+1. Under **Select login provider**, select **Other**.
 
-1. Select **Next**.
+1. Under **Protocol**, select **WS-Federation**.
 
-1. Create the application and configure the settings with your identity provider.
+1. Enter a name for the provider.
 
-1. Enter the following site settings for website configuration.
-
-    > [!NOTE]
-    > Ensure that you review&mdash;and if required, change&mdash;the default values.
-
-    :::image type="content" source="../media/authentication/ws-federation.jpg" alt-text="Configuration settings for WS Federation provider.":::
-
-    | Name | Description |
-    | - | - |
-    | Metadata address | The WS-Federation identity provider metadata file location. <br /> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/federationmetadata/2007-06/federationmetadata.xml` |
-    | Authentication type | The Entity Id value that specifies a globally unique name for the WS-Federation identity provider. <br /> Example (Azure AD): `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/` |
-    | Service provider realm | The website URL that specifies the service provider realm for the WS-Federation identity provider. <br /> Example: `https://contoso-portal.powerappsportals.com/` |
-    | Assertion consumer service URL | The website URL that corresponds to the service provider's endpoint (URL). <br /> Example: `https://contoso-website.powerappsportals.com/signin-wsfederation_1` <br /> **Note**: If you're using the default website URL, you can copy and paste the **Reply URL** as shown in the **Create and configure WS-Federation provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the **Redirect URI** value for the application in the identity provider configuration (such as Azure portal). |
+    The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
 1. Select **Next**.
 
-1. (Optional) Configure additional settings.
+1. Under **Reply URL**, select **Copy**.
 
-    | Name | Description
-    | - | - |
-    | Sign-out reply | The URL to return to (sign-out reply) after sign-out is complete. |
-    | Valid audiences | Comma-separated list of audience URLs. |
-    | Validate audiences | If this setting is enabled, the audience will be validated during token validation. |
-    | WHR | The home realm of the identity provider to use for authentication. Sets the WS-Federation sign-in request *whr* parameter. If this setting is empty, the *whr* parameter isn't included in the request. <br /> More information: [wsFederation](/dotnet/framework/configure-apps/file-schema/windows-identity-foundation/wsfederation) |
-    | Contact mapping with email | Specify whether contacts are mapped to a corresponding email. When this setting is **On**, a unique contact record is associated with a matching email address, assigning the external identity provider to the contact after a successful user sign-in. |
+    Don't close your Power Pages browser tab. You'll return to it soon.
 
-1. Select **Confirm**.
+## Create an app registration in the identity provider
 
-**To edit a WS-Federation provider**
+1. Create and register an application with your identity provider using the reply URL [you copied](#set-up-the-ws-federation-provider-in-power-pages).
 
-See [Edit a provider](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#edit-a-provider).
+1. Find the application's endpoints and copy the **Federation metadata document** URL.
+
+1. In a new browser tab, paste the federation metadata document URL you copied.
+
+1. Copy the value of the `entityID` tag in the document.
+
+## Enter site settings in Power Pages
+
+Return to the Power Pages **Configure identity provider** page you left earlier and enter the following values. Optionally, change the [**additional settings**](#additional-settings-in-power-pages) as needed. Select **Confirm** when you're finished.
+
+- **Metadata address**: Paste the federation metadata document URL [you copied](#create-an-app-registration-in-the-identity-provider).
+
+- **Authentication type**: Paste the `entityID` value [you copied](#create-an-app-registration-in-the-identity-provider).
+
+- **Service provider realm**: Enter your site's URL.
+
+- **Assertion service consumer URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value, which should be your site's reply URL. Be sure the value is exactly the same as the redirect URI of the application [you created](#create-an-app-registration-in-the-identity-provider).
+
+### Additional settings in Power Pages
+
+The additional settings give you finer control over how users authenticate with your WS-Federation identity provider. You don't need to set any of these values. They're entirely optional.
+
+- **Sign-out reply**: Enter the URL to return to after the user signs out.
+
+- **Validate audience**: Turn on this setting to validate the audience during token validation.
+
+- **Valid audiences**: Enter a comma-separated list of audience URLs.
+
+- **WHR**: Enter the home realm of the identity provider. This value sets the WS-Federation sign-in request [`whr` parameter](/dotnet/framework/configure-apps/file-schema/windows-identity-foundation/wsfederation). If this setting is empty, the `whr` parameter isn't included in the request.
+
+- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
+
+  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
+  - **Off**
 
 ### See also
 
-- [Configure a WS-Federation provider for Power Pages with Azure AD](ws-federation-settings-azure-ad.md)
-- [Configure a WS-Federation provider for Power Pages with AD FS](ws-federation-settings.md)
+[Set up a WS-Federation provider with Azure AD](ws-federation-settings-azure-ad.md)  
+[Set up a WS-Federation provider with AD FS](ws-federation-settings.md)

@@ -1,7 +1,7 @@
 ---
 title: Set up site authentication
 description: Learn how to set up user authentication for your Microsoft Power Pages site and add, set up, and remove identity providers.
-ms.date: 06/22/2023
+ms.date: 07/19/2023
 ms.topic: how-to
 ms.collection: get-started
 author: sandhangitmsft
@@ -20,7 +20,7 @@ How&mdash;and even whether&mdash;users must authenticate when they visit is a co
 
 Power Pages comes with several OAuth 2.0 identity providers built-in, which means that users can authenticate on your site with a Microsoft, LinkedIn, Facebook, Google, or Twitter account. Your website can have only one instance of an OAuth 2.0 identity provider at a time.
 
-You can add Azure Active Directory (Azure AD) B2C and other providers if you need them.
+You can add SAML 2.0, OpenID Connect, and WS Federation identity providers if you need them.
 
 Power Pages makes it easy for both makers and admins to set up user authentication. After you select an identity provider, prompts in the app guide you through the remaining settings you need to enter.
 

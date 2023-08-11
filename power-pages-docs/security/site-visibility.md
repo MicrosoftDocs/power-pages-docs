@@ -1,7 +1,8 @@
 ---
 title: Site visibility in Power Pages
-description: Learn how to use site visibility to secure your Power Pages site and switch site visibility between private and public options.
-ms.date: 05/23/2023
+description: Learn how to use the site visibility setting to control who has access to sites you create with Microsoft Power Pages.
+ms.date: 07/20/2023
+ms.topic: how-to
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
@@ -9,7 +10,6 @@ contributors:
     - nageshbhat-msft
     - nickdoelman
     - ProfessorKendrick
-ms.topic: how-to
 ms.custom: bap-template
 ---
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 The Power Pages site visibility setting allows you to control who has access to your website. You can make the site private to restrict access to specific people in your organization. If you choose to make the site public, anyone with the link can access it.
 
-:::image type="content" source="media/site-visibility/site-visibility.gif" alt-text="Animation that shows site visibility setting change from private to public.":::<!-- EDITOR'S NOTE: Please replace this animated gif with a video IAW our [screenshot guidelines](/bacx/screenshots-for-bap?branch=main). -->
+:::image type="content" source="media/site-visibility/site-visibility.gif" alt-text="Animation that shows site visibility setting change from private to public.":::
 
 > [!IMPORTANT]
 >
@@ -139,4 +139,4 @@ Azure AD authentication is turned on by default when a website is provisioned. A
 
 ## See also
 
-[Configure Power Pages site authentication](authentication/configure-site.md)
+[Set up site authentication](authentication/configure-site.md)
