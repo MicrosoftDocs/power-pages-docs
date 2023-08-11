@@ -1614,7 +1614,7 @@ Optionally, a precision parameter can be passed, to control the number of decima
 
 ### **h**
 
-Provides an HTML representation of a FetchXML query [XML attribute](template-tags.md#xml-attribute).
+Provides an HTML representation of a FetchXML query's [XML attribute](template-tags.md#xml-attribute).
 
 **Code**
 
