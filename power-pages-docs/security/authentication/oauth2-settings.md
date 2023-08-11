@@ -1,41 +1,37 @@
 ---
-title: Configure additional settings for OAuth 2.0 providers
-description: Learn how to configure additional site settings for OAuth 2.0 providers in Power Pages.
+title: Additional settings for OAuth 2.0 providers
+description: Learn about other settings you can change when you add an OAuth 2.0 provider to sites you create with Microsoft Power Pages.
+ms.date: 07/19/2023
+ms.topic: how-to
 author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
-ms.date: 3/6/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+ms.custom: bap-template
 ---
 
-# Configure additional settings for OAuth 2.0 providers
+# Additional settings for OAuth 2.0 providers
 
-As explained in [Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md), you can configure several identity providers that use the OAuth 2.0 protocol. The additional authentication settings in this section apply to the [Microsoft](oauth2-microsoft.md), [LinkedIn](oauth2-linkedin.md), [Facebook](oauth2-facebook.md), [Google](/power-apps/maker/portals/configure/configure-oauth2-google), and [Twitter](oauth2-twitter.md) providers.
+[Add an OAuth 2.0 provider](oauth2-provider.md) to your Power Pages site to allow visitors to authenticate using a [Microsoft](oauth2-microsoft.md), [LinkedIn](oauth2-linkedin.md), [Facebook](oauth2-facebook.md), [Google](oauth2-google.md), or [Twitter](oauth2-twitter.md) account. After you enter the specific client ID and client secret for your identity provider, you may need to change other settings that apply to any OAuth 2.0 provider. These settings are optional and you should change them only if you know what you're doing.
 
-To configure the additional settings for any OAuth 2.0 identity provider, select **Configure** from the [provider settings](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider) page, and expand **Additional settings**.
+To change the other settings for an OAuth 2.0 identity provider, [edit the provider settings](configure-site.md#edit-an-identity-provider) and expand the **Additional settings** section.
 
-:::image type="content" source="../media/authentication/additional-settings.jpg" alt-text="Optional additional settings for OAuth 2.0 providers.":::
+:::image type="content" source="../media/authentication/additional-settings.jpg" alt-text="Screenshot of optional additional settings for OAuth 2.0 providers.":::
 
-
-|Setting |Description  |
+| Setting | Description |
 |---------|---------|
-|Authentication type    | The OWIN authentication middleware type. <br /> Example: `https://sts.windows.net/contoso.onmicrosoft.com/`|
-|Authentication mode    | The OWIN authentication middleware mode.|
-|Backchannel timeout     | Timeout value in milliseconds for back-channel communications: MicrosoftAccountAuthenticationOptions.BackchannelTimeout.|
-|Callback path    | The request path within the application's base path where the user-agent will be returned: MicrosoftAccountAuthenticationOptions.CallbackPath.|
-|Sign in As authentication type     |  The name of another authentication middleware that will be responsible for actually issuing a user claims identity: MicrosoftAccountAuthenticationOptions.SignInAsAuthenticationType.|
-|Scope    | A comma-separated list of permissions to request: MicrosoftAccountAuthenticationOptions.Scope.|
-|Registration Enabled    | Enables or disables the registration requirement for the existing identity provider. When this is disabled, the user is denied registration with an error if no contact record exists for the user. When this is enabled, user registration is allowed for a new user only if the site setting **Authentication/Registration/Enabled** is set to true.|
-|Contact mapping with email| Specifies whether contacts are mapped to a corresponding email. When enabled, this setting associates a unique contact record with a matching email address, and then automatically assigns the external identity provider to the contact after the user successfully signs in.        |
-
+| Authentication type | The OWIN authentication middleware type |
+| Authentication mode | The OWIN authentication middleware mode |
+| Backchannel timeout | The timeout value in milliseconds for back-channel communications |
+| Callback path | The request path in the application's base path where the user-agent is returned |
+| Sign in As authentication type | The name of another authentication middleware that's responsible for issuing a user claims identity |
+| Scope | A comma-separated list of permissions to request |
+| Registration enabled | Turns on or off the provider's registration requirement. When this setting is off, users are denied registration with an error if no contact record exists for them. When this setting is on, users can register only if the site setting **Authentication/Registration/Enabled** is set to true. |
+| Contact mapping with email | Specifies whether contacts are mapped to a corresponding email. When this setting is on, it associates a unique contact record with a matching email address, and then automatically assigns the external identity provider to the contact after the user successfully signs in. |
 
 ### See also
 
-[Configure an OAuth 2.0 provider for Power Pages](oauth2-provider.md)
-
+[Set up an OAuth 2.0 identity provider](oauth2-provider.md)

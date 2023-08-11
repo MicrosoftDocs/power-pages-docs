@@ -112,3 +112,9 @@ Nesting web template components into other web template components isn't support
 ## Next step
 
 [How to create a web template component](web-templates-as-components-how-to.md)
+
+## See Also
+
+- [Display product reviews as cards](web-templates-as-components-product-reviews.md)
+- [Display locations as cards](web-templates-as-components-location-cards.md)
+- [Display records as a carousel](web-templates-as-components-carousel.md)

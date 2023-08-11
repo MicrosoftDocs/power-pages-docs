@@ -1,12 +1,12 @@
 ---
 title: Create AI-generated form using Copilot (preview)
 description: Learn how to create AI-generated form using Copilot to a page in your Power Pages site.
-author: nickdoelman
+author: pranita225
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/23/2022
 ms.subservice:
-ms.author: ndoelman
+ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
