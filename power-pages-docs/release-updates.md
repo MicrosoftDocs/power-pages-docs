@@ -21,8 +21,7 @@ This topic provides resources where you can learn about the new features that ha
 ## Power Pages release plans
 
 For information about the roadmap and new features releasing over the next few months, see:
-
-- [2023 release wave 2 plan](/power-platform-release-plan/2023wave2/power-pages/)
+- [2023 release wave 2 plan](/power-platform/release-plan/2023wave2/power-pages/)
 - [2023 release wave 1 plan](/power-platform/release-plan/2023wave1/power-pages/)
 - [2022 release wave 2 plan](/power-platform-release-plan/2022wave2/power-pages/)
 
