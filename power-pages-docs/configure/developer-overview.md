@@ -19,10 +19,15 @@ contributors:
 
 The 
 
-:::image type="content" source="media/developer-overview/homescreen.svg" alt-text="Home screen.":::
+## Tools
 
+## JavaScript
 
-:::image type="content" source="media/developer-overview/contact-us.svg" alt-text="Contact us.":::
+## Liquid
+
+## Power Pages Web API
+
+## Custom Components
 
 
 ### See also
