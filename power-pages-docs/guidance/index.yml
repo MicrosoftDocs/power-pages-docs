@@ -34,6 +34,8 @@ landingContent:
         links:
           - text: "How to: Embed a chatbot on a webpage"
             url: integrate-pva.md
+          - text: "How to: Enable row level security in Power BI on Power Pages"
+            url: how-to-power-bi-embedded.md
 
   # Card
   - title: Related content

@@ -1,41 +1,40 @@
 ---
-title: Create website access permissions
-description: Learn how to create and associate website access permissions to elements in a Power Pages site.
+title: Set website access permissions
+description: Learn how to create and associate website access permissions to elements in sites you create with Microsoft Power Pages.
+ms.date: 07/21/2023
+ms.topic: how-to
 author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
-ms.date: 3/3/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
+ms.custom: bap-template
 ---
 
-# Create website access permissions
+# Set website access permissions
 
-Website Access Permissions is a permission set, associated with a [web role](create-web-roles.md), that permits front-side editing of the various content managed elements within the website other than just web pages. The permission settings determine which components can be managed in the site.
+Website access permissions allow front-end editing of content-managed elements other than web pages. They're a set of permissions that are associated with a [web role](create-web-roles.md). The permission settings determine which site elements can be edited.
 
-| Name                         | Description                                                                                      |
-|------------------------------|--------------------------------------------------------------------------------------------------|
-| Manage Content Snippets      | Allows the editing of Snippet controls.                                                          |
-| Manage Site Markers          | Allows the editing of hyperlinks that use Site Markers                                           |
-| Manage Web Link Sets         | Allows the editing of [web link sets](/power-apps/maker/portals/configure/manage-web-links), including adding an removing web links from a web link set. |
-| Preview Unpublished Entities | Allows the viewing of portal-exposed tables that have a publishing state of Draft.             |
-|||
+| Name | Description |
+| --- | --- |
+| Manage Content Snippets | Allows the editing of snippet controls. |
+| Manage Site Markers | Allows the editing of hyperlinks that use site markers. |
+| Manage Web Link Sets | Allows the editing of [web link sets](/power-apps/maker/portals/configure/manage-web-links), including adding and removing links from a web link set. |
+| Preview Unpublished Entities | Allows the viewing of tables that have a publishing state of Draft. |
 
-To create a website access permission and add it to a web role:
+Use the [Portal Management app](../configure/portal-management-app.md) to create and assign website access permissions.
 
-1. Open the [Portal Management app](../configure/portal-management-app.md).
+1. Sign in to [Power Pages](https://make.powerpages.microsoft.com) and open your site for editing.
 
-2. Go to **Portals** > **Website Access Permissions**.
+1. In the left side panel, select **More items** (**&hellip;**) > **Portal Management**.
 
-3. Select **New**.
+1. In the left side panel of the Portal Management app, scroll down to **Security** and select **Website Access Permissions**.
 
-4. Under **General**, enter name, website, and select the required permissions.
+1. Select **New**.
 
-5. Under **Web Roles**, select **Add Existing Web Role**, and add the web role to associate the permission with.
+1. On the **General** tab, enter or select the **Name**, the **Website** to associate with the permissions, and the permissions to apply.
 
-6. Save the changes.
+1. Select the **Web Roles** tab, select **Add Existing Web Role**, and add a web role to associate with the permission.
 
+1. Select **Save & Close**.

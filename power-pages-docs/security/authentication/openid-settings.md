@@ -1,145 +1,176 @@
 ---
-title: Configure an OpenID Connect provider for Power Pages with Azure AD
-description: Learn how to configure the OpenID Connect provider for Power Pages with Azure Active Directory using Implicit Grant flow.
+title: Set up an OpenID Connect provider with Azure AD
+description: Learn how to set up an OpenID Connect identity provider with Azure Active Directory (Azure AD) for use with sites you create with Microsoft Power Pages.
+ms.date: 07/19/2023
+ms.topic: how-to
 author: sandhangitmsft
-
-ms.topic: conceptual
-ms.custom: 
-ms.date: 06/02/2023
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
+    - nageshbhat-msft
+ms.custom: bap-template
 ---
 
-# Configure an OpenID Connect provider for Power Pages with Azure AD
+# Set up an OpenID Connect provider with Azure AD
 
-In this article, you'll learn about configuring an OpenID Connect provider for Power Pages with Azure Active Directory (Azure AD) and multitenant Azure AD.
+Azure Active Directory (Azure AD) is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. Along with Azure AD, multitenant Azure AD, and Azure AD B2C, you can use any other provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
+
+This article describes the following steps:
+
+- [Set up Azure AD in Power Pages](#set-up-azure-ad-in-power-pages)
+- [Create an app registration in Azure](#create-an-app-registration-in-azure)
+- [Enter site settings in Power Pages](#enter-site-settings-in-power-pages)
+- [Allow multitenant Azure AD authentication](#allow-multitenant-azure-ad-authentication)
 
 > [!NOTE]
-> - Power Pages isn't limited to only Azure AD, multitenant Azure AD, or Azure AD B2C as the OpenID Connect providers. You can use any other provider that conforms to the OpenID Connect specification.
-> Changes to the authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the website. Restart the website by using [the admin center](../../admin/admin-overview.md) if you want the changes to be reflected immediately.
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-To configure Azure AD as the OpenID Connect provider by using the Implicit Grant flow, sign in to [Power Pages](https://make.powerpages.microsoft.com) and navigate to the [Set up workspace](../../configure/setup-workspace.md).
+## Set up Azure AD in Power Pages
 
-1. Select [New provider](configure-site.md) for your website.
+Set Azure AD as an identity provider for your site.
 
-1. For **Login provider**, select **Other**.
+1. In your Power Pages site, select **Set up** > **Identity providers**.
 
-1. For **Protocol**, select **OpenID Connect**.
+    If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
-1. Enter a provider name.
+1. Select **+ New provider**.
+
+1. Under **Select login provider**, select **Other**.
+
+1. Under **Protocol**, select **OpenID Connect**.
+
+1. Enter a name for the provider; for example, *Azure AD*.
+
+    The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
 1. Select **Next**.
 
-1. In this step, you create the application and configure the settings with your identity provider.
+1. Under **Reply URL**, select **Copy**.
 
-    > [!NOTE]
-    > - The Reply URL is used by the app to redirect users to the website after the authentication succeeds. If your website uses a custom domain name, you might have a different URL than the one provided here.
-    > - More details about creating the app registration on the Azure portal are available in [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
+    Don't close your Power Pages browser tab. You'll return to it soon.
 
-    1. Sign in to the [Azure portal](https://portal.azure.com).
+## Create an app registration in Azure
 
-    1. Search for and select **Azure Active Directory**.
+[Create an app registration in the Azure portal](/azure/active-directory/develop/quickstart-register-app) with your site's reply URL as the redirect URI.
 
-    1. Under **Manage**, select **App registrations**.
+1. Sign in to the [Azure portal](https://portal.azure.com).
 
-    1. Select **New registration**.
-    
-        :::image type="content" source="../media/authentication/register-application.jpg" alt-text="Register an application's settings inside the Azure portal.":::
+1. Search for and select **Azure Active Directory**.
 
-        - Enter a name.
+1. Under **Manage**, select **App registrations**.
 
-        - If necessary, select a different **Supported account type**. More information: [Supported account types](/azure/active-directory/develop/quickstart-register-app)
+1. Select **New registration**.
 
-        - Under **Redirect URI**, select **Web** (if it isn't already selected).
+1. Enter a name.
 
-        - Enter the **Reply URL** for your website in the **Redirect URI** text box. <br /> Example: `https://contoso-portal.powerappsportals.com/signin-openid_1`
+1. Select one of the [**Supported account types**](/azure/active-directory/develop/quickstart-register-app) that best reflects your organization requirements.
 
-        > [!NOTE]
-        > If you're using the default website URL, copy and paste the **Reply URL** as shown in the **Create and configure OpenID Connect provider settings** section on the **Configure identity provider** screen (step 6 above). If you're using a custom domain name for the website, enter the custom URL. Be sure to use this value when you configure the **Redirect URL** in your website settings while configuring the OpenID Connect provider. <br> For example, if you enter the **Reply URL** in Azure portal as `https://contoso-portal.powerappsportals.com/signin-openid_1`, you must use it as-is for the OpenID Connect configuration in Power Pages.
+1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
 
-        - Select **Register**.
+    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-in-power-pages).
+    - If you're using a custom domain name, enter the custom URL. Be sure to use the same custom URL for the redirect URL in the settings for the identity provider on your site.
 
-    1. On the left pane, under **Manage**, select **Authentication**.
+1. Select **Register**.
 
-    1. Under **Implicit grant**, select the **ID tokens** check box.
+1. Copy the **Application (client) ID**.
 
-    1. Select **Save**.
+1. To the right of **Client credentials**, select **Add a certificate or secret**.
 
-1. In this step, you enter the site settings for the website configuration.
+1. Select **+ New client secret**.
 
-    > [!TIP]
-    > If you closed the browser window after configuring the app registration in the earlier step, sign in to the Azure portal again and go to the app that you registered.
+1. Enter an optional description, select an expiration, and then select **Add**.
 
-    :::image type="content" source="../media/authentication/openid-connect.jpg" alt-text="OpenID connect site settings.":::
+1. Under **Secret ID**, select the **Copy to clipboard** icon.
 
-    1. **Authority**: To configure the authority URL, use the following format:
+1. Select **Endpoints** at the top of the page.
 
-        `https://login.microsoftonline.com/<Directory (tenant) ID>/`
+1. Find the **OpenID Connect metadata document** URL and select the copy icon.
 
-        For example, if the *Directory (tenant) ID* in the Azure portal is `7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb`, the authority URL is `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/`
+1. In the left side panel, under **Manage**, select **Authentication**.
 
-    1. **Client ID**: Copy the **Application (client) ID** from the Azure portal as the client ID.
+1. Under **Implicit grant**, select **ID tokens (used for implicit and hybrid flows)**.
 
-    1. **Redirect URL**: Confirm that the **Redirect URL** site setting value is the same as the **Redirect URI** that you set in the Azure portal earlier.
+1. Select **Save**.
 
-        > [!NOTE]
-        > If you're using the default website URL, you can copy and paste the **Reply URL** as shown in the **Create and configure OpenID Connect provider settings** step. If you're using a custom domain name, enter the URL manually. Be sure that the value you enter here is exactly the same as the value you entered as the **Redirect URI** in the Azure portal earlier.
+## Enter site settings in Power Pages
 
-    1. **Metadata address**: To configure the metadata address, do the following:
+Return to the Power Pages **Configure identity provider** page you left earlier and enter the following values. Optionally, change the [**additional settings**](#additional-settings-in-power-pages) as needed. Select **Confirm** when you're finished.
 
-        1. Select **Overview** in the Azure portal.
+- **Authority**: Enter the authority URL in the following format: `https://login.microsoftonline.com/<Directory (tenant) ID>/`, where *<Directory (tenant) ID>* is the directory (tenant) ID of the application [you created](#create-an-app-registration-in-azure). For example, if the directory (tenant) ID in the Azure portal is `7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb`, then the authority URL is `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/​`.
 
-        1. Select **Endpoints**.
+- **Client ID​**: Paste the application or client ID of the application [you created](#create-an-app-registration-in-azure).
 
-        1. Copy the URL in **OpenID Connect metadata document**.
+- **Redirect URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value. Be sure the value is exactly the same as the redirect URI of the application [you created](#create-an-app-registration-in-azure).
 
-        1. Paste the copied document URL as the **Metadata address** for Power Pages.
+- **Metadata address**: Paste the OpenID Connect metadata document URL [you copied](#create-an-app-registration-in-azure).
 
-    1. **Scope**: Set the **Scope** site setting value as:
+- **Scope**: Enter `openid email`.
 
-        `openid email`
+    The `openid` value is mandatory. The `email` value is optional; it ensures that the user's email address is automatically filled in and shown on the profile page after the user signs in. [Learn about other claims you can add](openid-settings.md#set-up-additional-claims).
 
-        > [!NOTE]
-        > The `openid` value in **Scope** is mandatory. The `email` value is optional; specifying the `email` value in the scope ensures that the email address of the website user (contact record) is automatically filled in and shown on the **Profile** page after the user signs in. For information about additional claims, see [Configure additional claims](#configure-additional-claims) later in this article.
+- **Response type**: Select `code id_token`.
 
-    1. For **Response type**, select **code id_token**.
+- **Client secret**: Paste the client secret from the application [you created](#create-an-app-registration-in-azure). This setting is required if the response type is `code`.
 
-    1. For **Response mode**, select **form_post**.
+- **Response mode**: Select `form_post`.
 
-1. Select **Confirm**.
+- **External logout**: This setting controls whether your site uses federated sign-out. With federated sign-out, when users sign out of an application or site, they're also signed out of all applications and sites that use the same identity provider. Turn it on to redirect users to the federated sign-out experience when they sign out of your website. Turn it off to sign users out of your website only.
 
-1. Select **Close**.
+- **Post logout redirect URL**: Enter the URL where the identity provider should redirect users after they sign out. This location should be set appropriately in the identity provider configuration.
+- **RP initiated logout**: This setting controls whether the relying party&mdash;the OpenID Connect client application&mdash;can sign out users. To use this setting, turn on **External logout**.
 
-## Configure additional claims
+### Additional settings in Power Pages
+
+The additional settings give you finer control over how users authenticate with your Azure AD identity provider. You don't need to set any of these values. They're entirely optional.
+
+- **Issuer filter**: Enter a wildcard-based filter that matches on all issuers across all tenants; for example, `https://sts.windows.net/*/`.
+
+- **Validate audience**: Turn on this setting to validate the audience during token validation.
+
+- **Valid audiences**: Enter a comma-separated list of audience URLs.
+
+- **Validate issuers**: Turn on this setting to validate the issuer during token validation.
+
+- **Valid issuers**: Enter a comma-separated list of issuer URLs.
+
+- **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information that's included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
+
+- **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.
+
+- **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting.
+
+- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
+
+  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
+  - **Off**
+
+> [!Note]
+> The *UI_Locales* request parameter is sent automatically in the authentication request and is set to the language selected on the portal.
+
+## Set up additional claims
 
 1. Enable [optional claims in Azure AD](/azure/active-directory/develop/active-directory-optional-claims#configuring-directory-extension-optional-claims).
 
-1. Set **Scope** to include the additional claims.
-    <br /> Example: `openid email profile`
+1. Set **Scope** to include the additional claims; for example, `openid email profile`.
 
-1. Set the **Registration claims mapping** additional site setting.
-    <br /> Example: `firstname=given_name,lastname=family_name`
+1. Set the **Registration claims mapping** additional site setting; for example, `firstname=given_name,lastname=family_name`.
 
-1. Set the **Login claims mapping** additional site setting.
-    <br /> Example: `firstname=given_name,lastname=family_name`
+1. Set the **Login claims mapping** additional site setting; for example, `firstname=given_name,lastname=family_name`.
 
-For example, the first name, last name, and email addresses supplied with the additional claims become the default values in the profile page in the website.
+In these examples, the first name, last name, and email addresses supplied with the additional claims become the default values in the profile page in the website.
 
-<a name="enable-authentication-using-a-multi-tenant-azure-active-directory-application"></a>
+> [!NOTE]
+> Claims mapping is supported for text and boolean data types.
 
-## Enable authentication by using a multitenant Azure AD application
+## Allow multitenant Azure AD authentication
 
-You can configure your website to accept Azure AD users from any tenant in Azure, and not just from a specific tenant, by using the multitenant application registered in Azure AD. To enable multitenancy, [update the application registration](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant) in the Azure AD application.
+To allow Azure AD users to authenticate from any tenant in Azure, not just from a specific tenant, [change the Azure AD application registration](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant) to multi-tenant.
 
-To support authentication against Azure AD by using a multitenant application, you have to create or configure the additional **Issuer Filter** site setting.
-
-This site setting is a wildcard-based filter that matches on all issuers across all tenants. 
+You also need to set **Issuer filter** in your provider's [additional settings](#additional-settings-in-power-pages).
 
 ### See also
 
-[FAQs for using OpenID Connect in Power Pages](openid-faqs.md)
-
+[OpenID Connect FAQs](openid-faqs.md)

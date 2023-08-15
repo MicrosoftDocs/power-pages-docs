@@ -1,16 +1,17 @@
 ---
 title: Schedule and manage meetings template
 description: Learn about the schedule and manage meetings template.
-author: nickdoelman
+author: meeramahabala
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/14/2023
 ms.subservice:
-ms.author: ndoelman
+ms.author: meeram
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - meeramahabala
 ---
 
 # Schedule and manage meetings template

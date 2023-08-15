@@ -1,16 +1,17 @@
 ---
 title: Configure web roles for a partner relationship management (PRM) site
 description: Learn how to add web roles for a partner site.
-author: nickdoelman
+author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: ndoelman
+ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - Professor Kendrick
+    - dileepsinghmicrosoft
 ---
 
 # Configure web roles for a partner relationship management (PRM) site

@@ -1,16 +1,17 @@
 ---
 title: "Tutorial: Create, update, and read Dataverse information on pages"
 description: Learn how to create a set of pages to create, read, and update Dataverse data in Power Pages.
-author: nickdoelman
+author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 07/12/2022
 ms.subservice:
-ms.author: ndoelman 
+ms.author: prpadalw 
 ms.reviewer: 
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - pranita225
 ---
 
 # Tutorial: Create, update, and read Dataverse information on pages
@@ -19,7 +20,9 @@ The ability to dynamically interact with [Microsoft Dataverse](/power-apps/maker
 
 In this tutorial, you'll build a web application in Power Pages that will allow users the ability to create, read, and update Dataverse records. You can use the site as a foundation to build your own Dataverse powered websites.
 
-:::image type="content" source="media/tutorial-dataverse/add-edit-dataverse-record.gif" alt-text="Site that allows creating and updating records.":::
+Watch this video (no audio) to see records created and updated on a page:
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW16enI]
 
 In this tutorial, you learn how to:
 

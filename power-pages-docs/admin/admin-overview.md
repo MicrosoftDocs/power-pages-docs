@@ -71,7 +71,7 @@ Select **...** to the left of **Site Actions** for more site actions.
 ## Switch to Classic
 | Action | More Information |
 | - | - |
-| Switch to classic | Switch to the classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview). The Power Apps portals admin center is now deprecated and no longer available as of June 2023. |
+| Switch to classic | Switch to the classic admin center [portals admin center](/powerapps/maker/portals/admin/admin-overview). The Power Apps portals admin center is now deprecated and no longer available as of August 2023. |
 
 ## Site Details
 

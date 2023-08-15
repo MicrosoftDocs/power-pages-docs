@@ -1,16 +1,17 @@
 ---
 title: Add a video
 description: Learn how to add videos to your Power Pages site.
-author: nickdoelman
+author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/08/2022
 ms.subservice:
-ms.author: ndoelman 
+ms.author: ckwan 
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - ckwan-ms
 ---
 
 # Add a video

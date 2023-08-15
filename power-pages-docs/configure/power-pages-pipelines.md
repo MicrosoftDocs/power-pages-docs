@@ -11,6 +11,7 @@ ms.reviewer: ndoelman
 contributors:
     - gitanjalisingh33msft
     - nickdoelman
+    - Professor Kendrick
 ---
 
 # Use Power Platform pipelines with Power Pages (preview)
@@ -29,7 +30,7 @@ To try this feature, you require at minimum two Power Platform environments that
 
 You can have multiple target environments depending on your setup. For example, a testing, staging, and production environments.
 
-Each environment requires a site that is created using the new data model. See [create a website with an enhanced data model](../admin/enhanced-data-model.md#create-a-website-with-an-enhanced-data-model).
+Each environment requires a site that is created using the new data model. See [create a website by using the enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
 
 You also need to set up and configure a pipeline from your development environment to corresponding target environments. See [Power Platform pipelines](/power-platform/alm/pipelines) for details on how to configure pipelines.
 
@@ -54,7 +55,7 @@ Watch this video to see how to deploy a solution using pipelines:
 
 ## Activate on the target environment
 
-The first time you deploy a website to a destination environment, you need to reactivate the site. See [Reactivating site on target environment](/admin/migrate-site-configuration.md?tabs=sol#reactivating-site-on-target-environment) for information on how to reactivate a website that has been deployed to the destination environment.
+The first time you deploy a website to a destination environment, you need to reactivate the site. See [Reactivating site on target environment](../admin/migrate-site-configuration.md#reactivating-site-on-target-environment) for information on how to reactivate a website that has been deployed to the destination environment.
 
 When the site has been deployed, you can continue to deploy more configuration changes using the same pipeline process. You need to [clear the cache](../admin/clear-server-side-cache.md) on the destination website to see the changes.
 

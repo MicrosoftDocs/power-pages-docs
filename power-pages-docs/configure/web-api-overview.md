@@ -21,10 +21,10 @@ The portals Web API enables a richer user experience inside Power Pages sites. Y
 
 > [!IMPORTANT]
 > - **Your Power Pages site version must be 9.3.3.x or later for this feature to work**.
-> - The portals Web API is built for creating a rich user experience inside portal pages. It isn't optimized for third-party services or application integration. Using the portals Web API to integrate with other Power Apps portals sites is also not supported.
+> - The portals Web API is built for creating a rich user experience inside portal pages. It isn't optimized for third-party services or application integration. Using the portals Web API to integrate with other Power Pages sites is also not supported.
 > - Portals Web API operations are limited to tables related to data&mdash;for example, accounts, contacts, or your custom tables. Configuring table metadata or portal configuration table data&mdash;for example, configuring portals tables such as adx_contentsnippet, adx_entityform, or adx_entitylist&mdash;isn't supported with the portals Web API. For a complete list, go to [unsupported configuration tables](#unsupported-configuration-tables) later in this topic.
 > - The portals Web API benefits from [server-side caching](/power-apps/maker/portals/admin/clear-server-side-cache), so subsequent calls to the Web API are faster than the initial calls. Note that clearing the portal server-side cache causes temporary performance degradation.
-> - Portals Web API operations require a Power Pages license. For example, Web API calls made by anonymous users are counted towards the anonymous user capacity. Web API calls made by authenticated users (internal or external) are not counted towards page views, but require applicable authenticated user capacity licenses. More information: [Power Apps portals licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-power-apps-portals-licensing)
+> - Portals Web API operations require a Power Pages license. For example, Web API calls made by anonymous users are counted towards the anonymous user capacity. Web API calls made by authenticated users (internal or external) are not counted towards page views, but require applicable authenticated user capacity licenses. More information: [Power Pages licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
 ## Web API operations
 
