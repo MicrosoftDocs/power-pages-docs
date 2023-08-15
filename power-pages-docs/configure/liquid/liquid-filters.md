@@ -938,7 +938,6 @@ Multiplies a number by another number.
 20.2
 ```
 
-
 ## String filters
 
 String filters manipulate [strings](liquid-types.md#string).  
@@ -989,38 +988,6 @@ Converts a string into lowercase.
 
 ```
 mixed case text
-```
-
-### **escape**
-
-HTML-escapes a string.
-
-**Code**
-
-```
-{{ '<p>test</p>' | escape }}
-```
-
-**Output**
-
-```
-&lt;p&gt;test&lt;/p&gt;
-```
-
-### html_safe_escape
-
-Coverts a given HTML string to a safe HTML fragment.
-
-**Code**
-
-```
-{{ '<img src="images/myimage.jpg" onerror="alert(1);">' | escape }}
-```
-
-**Output**
-
-```
-<img src="images/myimage.jpg">
 ```
 
 ### **newline\_to\_br**
@@ -1275,6 +1242,44 @@ Converts a string into uppercase.
 MIXED CASE TEXT
 ```
 
+## Escape filters
+
+Escape sequences provide a way to include special characters in strings without conflicting with the regular interpretation of those characters by the programming language or format.
+
+Escape filters replace string characters with escape sequences or remove invalid string characters based on the destination type.
+
+### **escape**
+
+HTML-escapes a string.
+
+**Code**
+
+```
+{{ '<p>test</p>' | escape }}
+```
+
+**Output**
+
+```
+&lt;p&gt;test&lt;/p&gt;
+```
+
+### html_safe_escape
+
+Coverts a given HTML string to a safe HTML fragment.
+
+**Code**
+
+```
+{{ '<img src="images/myimage.jpg" onerror="alert(1);">' | escape }}
+```
+
+**Output**
+
+```
+<img src="images/myimage.jpg">
+```
+
 ### **url\_escape**
 
 URI-escape a string, for inclusion in a URL.
@@ -1306,7 +1311,6 @@ XML-escape a string, for inclusion in XML output.
 ```
 &lt;p&gt;test&lt;/p&gt;
 ```
-
 
 ## Type filters
 
