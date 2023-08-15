@@ -635,6 +635,75 @@ Formats a DateTime value according to the [RFC 822](https://www.ietf.org/rfc/rfc
 Mon, 07 May 2018 07:20:46 Z
 ```
 
+## Escape filters
+
+Escape sequences provide a way to include special characters in strings without conflicting with the regular interpretation of those characters by the programming language or format.
+
+The following escape filters replace string characters with escape sequences or remove invalid string characters based on the destination type.
+
+### **escape**
+
+HTML-escapes a string.
+
+**Code**
+
+```
+{{ '<p>test</p>' | escape }}
+```
+
+**Output**
+
+```
+&lt;p&gt;test&lt;/p&gt;
+```
+
+### html_safe_escape
+
+Coverts a given HTML string to a safe HTML fragment.
+
+**Code**
+
+```
+{{ '<img src="images/myimage.jpg" onerror="alert(1);">' | escape }}
+```
+
+**Output**
+
+```
+<img src="images/myimage.jpg">
+```
+
+### **url\_escape**
+
+URI-escape a string, for inclusion in a URL.
+
+**Code**
+
+```
+{{ 'This & that//' | url_escape }}
+```
+
+**Output**
+
+```
+This+%26+that%2F%2F
+```
+
+### **xml\_escape**
+
+XML-escape a string, for inclusion in XML output.
+
+**Code**
+
+```
+{{ '<p>test</p>' | xml_escape }}
+```
+
+**Output**
+
+```
+&lt;p&gt;test&lt;/p&gt;
+```
 
 ## List filters
 
@@ -1242,76 +1311,6 @@ Converts a string into uppercase.
 MIXED CASE TEXT
 ```
 
-## Escape filters
-
-Escape sequences provide a way to include special characters in strings without conflicting with the regular interpretation of those characters by the programming language or format.
-
-Escape filters replace string characters with escape sequences or remove invalid string characters based on the destination type.
-
-### **escape**
-
-HTML-escapes a string.
-
-**Code**
-
-```
-{{ '<p>test</p>' | escape }}
-```
-
-**Output**
-
-```
-&lt;p&gt;test&lt;/p&gt;
-```
-
-### html_safe_escape
-
-Coverts a given HTML string to a safe HTML fragment.
-
-**Code**
-
-```
-{{ '<img src="images/myimage.jpg" onerror="alert(1);">' | escape }}
-```
-
-**Output**
-
-```
-<img src="images/myimage.jpg">
-```
-
-### **url\_escape**
-
-URI-escape a string, for inclusion in a URL.
-
-**Code**
-
-```
-{{ 'This & that//' | url_escape }}
-```
-
-**Output**
-
-```
-This+%26+that%2F%2F
-```
-
-### **xml\_escape**
-
-XML-escape a string, for inclusion in XML output.
-
-**Code**
-
-```
-{{ '<p>test</p>' | xml_escape }}
-```
-
-**Output**
-
-```
-&lt;p&gt;test&lt;/p&gt;
-```
-
 ## Type filters
 
 Type filters allow you to convert values of one type into other types.
@@ -1393,15 +1392,12 @@ Attempts to convert a string value into an integer. If the value is already an i
 
 10
 
-
 2
 ```
 
 ### **string**
 
 Attempts to convert a value into its string representation. If the value is already a string, it is returned unchanged. If the value is null, null will be returned.
-
-
 
 ## URL filters
 
@@ -1566,7 +1562,6 @@ http
 
 https
 ```
-
 
 ## Additional filters
 
