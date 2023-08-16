@@ -27,7 +27,7 @@ Watch this video to learn how Copilot can empower you to better respond to your 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
+> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Responsible AI FAQ](../transparency-note.md).
 
 To learn how to use the new AI features in Power Pages, see:
 
