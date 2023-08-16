@@ -99,6 +99,11 @@
       "source_path": "power-pages-docs/security/configure-portal-authentication.md",
       "redirect_url": "/power-pages/security/authentication/configure-site",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/guidance/integrate-pva.md",
+      "redirect_url": "/power-pages/getting-started/enable-chatbot",
+      "redirect_document_id": "false"
     }
   ]
 }
