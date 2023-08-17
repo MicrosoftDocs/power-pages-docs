@@ -137,6 +137,11 @@ sections:
               4. In the pop up window, select the **Update URL** button.
           
           Your website will be restarted and start working again.
+
+      - question: |
+          How do I create a developer website?
+        answer: |
+          When you create a new website on a developer environment, the website is automatically a developer website.                 
           
   - name: Debugging and fixing problems
     questions:
