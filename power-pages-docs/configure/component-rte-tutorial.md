@@ -118,7 +118,7 @@ In order to save images in the rich text editor control, you will need to add a 
 On a read-only form, the rich text editor displays the content with formatting and images. The content can be read, but not edited or updated.
 
 > [!NOTE]
-> You can't drag and drop non image files (such as, .txt or .pdf) into the rich text editor.
+> Only .PNG, .JPG., or .GIF file formats are supported for drag and drop. 
 
 ### See also
 
