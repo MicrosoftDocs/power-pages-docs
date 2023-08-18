@@ -234,4 +234,4 @@ Here's how to enable cookies if your browser is blocking them:
 
 ### Rich text editor (RTE) control on Power Pages
 
-You can't drag and drop non image files (such as, .txt or .pdf) into the rich text editor.
+Only .PNG, .JPG., or .GIF file formats are supported for drag and drop.
