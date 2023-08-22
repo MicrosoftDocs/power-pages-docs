@@ -4,7 +4,7 @@ description: Add AI-generated code using Copilot.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/01/2023
+ms.date: 08/22/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: ndoelman
@@ -29,7 +29,7 @@ Add AI-generated code using Copilot in Visual Studio Code helps you create code 
 
 ## Prerequisites
 
-Review the [terms](https://go.microsoft.com/fwlink/?linkid=2189520) and [Responsible AI FAQ](https://go.microsoft.com/fwlink/?linkid=2240145) documents to understand usage and limitations of Copilot. Check the following requirements to start using Copilot in Power Pages: 
+Review the [terms](https://go.microsoft.com/fwlink/?linkid=2189520) and [Responsible AI FAQ](../responsible-ai-overview.md) documents to understand usage and limitations of Copilot. Check the following requirements to start using Copilot in Power Pages: 
 
 - Ensure you have installed the latest Power Platform Tools extension. 
 - Open site root folder in Visual Studio Code. 
