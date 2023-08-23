@@ -11,6 +11,7 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
     - dileepsinghmicrosoft
+    - nageshbhat-msft 
 ---
 
 # Configure Web Application Firewall for Power Pages (preview)
