@@ -528,7 +528,7 @@
       items:
         - name: Use Visual Studio Code desktop for Power Pages
           href: configure/vs-code-extension.md
-        - name: Add AI-generated code using Copilot  
+        - name: Add AI-generated code using Copilot (preview)  
           href: configure/add-code-copilot.md
         - name: Use Visual Studio Code for the Web editor (preview)
           href: configure/visual-studio-code-editor.md 
