@@ -1,5 +1,5 @@
 ---
-title: Reactivate Power Pages websites
+title: Reactivate sites
 description: Learn how to reactivate Power Pages websites.
 author: dileepsinghmicrosoft
 
@@ -15,7 +15,7 @@ contributors:
     - vashr
 ---
 
-# Reactivate Power Pages websites
+# Reactivate sites
 
 On the Power Pages home page, you can see both **Active** and **Inactive** websites.
 
