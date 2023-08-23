@@ -1,15 +1,16 @@
 ---
 title: Manage websites from the Power Platform admin center
 description: Learn about Power Pages admin settings in the Power Platform admin center.
-author: neerajnandwana-msft
+author: vamseedillimsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/22/2023
+ms.date: 07/17/2023
 ms.subservice: 
-ms.author: nenandw
+ms.author: vamseedilli
 ms.reviewer: ndoelman
 contributors:
+    - vamseedillimsft
     - neerajnandwana-msft
     - nickdoelman
 ---
@@ -36,6 +37,10 @@ You can manage websites in the Power Platform admin center in two ways:
 1. Select the ellipse **...**, and then select **Manage**.<br>or<br>Select the website, and then select **Manage** at the top of the page.
 
 From here you can configure website details, for more information go to [site details](admin-overview.md#site-details).
+
+Selecting on any of the cards in the header will filter the lists to the chosen website type.
+
+You can export a list of website information by selecting the **Export to csv** button.
 
 ## Manage all websites for an environment
 

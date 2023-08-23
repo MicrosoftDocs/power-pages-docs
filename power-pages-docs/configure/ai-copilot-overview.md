@@ -27,10 +27,11 @@ Watch this video to learn how Copilot can empower you to better respond to your 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
+> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Responsible AI FAQ](../transparency-note.md).
 
 To learn how to use the new AI features in Power Pages, see:
 
+- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
 - [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
 - [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
