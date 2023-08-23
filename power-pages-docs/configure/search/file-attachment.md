@@ -53,69 +53,128 @@ If you already have a website before April 2018 and you've upgraded your site to
 
 To modify the label displayed in the search results for annotation and web file downloads, create a content snippet Search/Facet/Downloads, and then set its value as required. The default value is **Downloads**.
 
-### Web Files
-
-The content of file attachments associated with web files can now be indexed. You can update existing web files for CSS files and image files (for example, bootstrap.min.css, theme.css, and homehero.jpg) to be excluded from search. 
-
-1. Open the [Portal Management app](../portal-management-app.md).
-2. Open the file to be excluded from search.
-3. Under **Miscellaneous**, select **Yes** in the **Exclude From Search** field.
-
-**Web Templates**
+### Web Templates
 
 The Faceted Search - Results Template web template is revised to display files associated with knowledge base articles as primary search result items with a related article link. You must update the Faceted Search - Results Template web template to the following source:
 
 ```
 {% assign openTag = '{{' %}
 {% assign closingTag = '}}' %}
- {%raw%}
+{%raw%}
   <script id="search-view-results" type="text/x-handlebars-template">
-   {{#if items}}
-    <div class="page-header">
-     <h2>{%endraw%}{{openTag}} stringFormat "{{ resx.Search_Results_Format_String }}" firstResultNumber lastResultNumber itemCount {{closingTag}}{%raw%}
-      <em class="querytext">{{{query}}}</em>
-      {{#if isResetVisible}}
-       <a class="btn btn-default btn-sm facet-clear-all" role="button" title="{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}" tabIndex="0">{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}</a>
-      {{/if}}
-     </h2>
-    </div>
-   <ul>
-    {{#each items}}
-     <li>
-      <h3><a title="{{title}}" href="{{url}}">{{#if parent}}<span class="glyphicon glyphicon-file pull-left text-muted" aria-hidden="true"></span>{{/if}}{{title}}</a></h3>
-      <p class="fragment">{{{fragment}}}</p>
-      {{#if parent}}
-       <p class="small related-article">{%endraw%}{{ resx.Related_Article }}{%raw%}: <a title="{{parent.title}}" href="{{parent.absoluteUrl}}">{{parent.title}}</a></p>
-      {{/if}}
-      <ul class="note-group small list-unstyled">
-       {{#if relatedNotes}}
-        {{#each relatedNotes}}
-         <li class="note-item">
-         {{#if isImage}}
-          <a target="_blank" title="{{title}}" href="{{absoluteUrl}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;{{title}}</a>
-         {{else}}
-          <a title="{{title}}" href="{{absoluteUrl}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;{{title}}</a>
-         {{/if}}
-         <p class="fragment text-muted">{{{fragment}}}</p>
-         </li>
+    {{#if items}}
+      <div class="page-header">
+        <h2>{%endraw%}{{openTag}} stringFormat "{{ resx.Search_Results_Format_String }}" firstResultNumber lastResultNumber itemCount {{closingTag}}{%raw%}
+          <em class="querytext">{{{query}}}</em>
+          {{#if isResetVisible}}
+            <a class="btn btn-default btn-sm facet-clear-all" role="button" title="{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}" tabIndex="0">{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}</a>
+          {{/if}}
+        </h2>
+      </div>
+      <ul>
+        {{#each items}}
+          <li>
+            <h3><a title="{{title}}" href="{{url}}">{{#if parent}}<span class="glyphicon glyphicon-file pull-left text-muted" aria-hidden="true"></span>{{/if}}{{title}}</a></h3>
+            <p class="fragment">{{{fragment}}}</p>
+            {{#if parent}}
+              <p class="small related-article">{%endraw%}{{ resx.Related_Article }}{%raw%}: <a title="{{parent.title}}" href="{{parent.absoluteUrl}}">{{parent.title}}</a></p>
+            {{/if}}
+            <ul class="note-group small list-unstyled">
+            {{#if relatedNotes}}
+              {{#each relatedNotes}}
+                <li class="note-item">
+                  {{#if isImage}}
+                    <a target="_blank" title="{{title}}" href="{{absoluteUrl}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;{{title}}</a>
+                  {{else}}
+                    <a title="{{title}}" href="{{absoluteUrl}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;{{title}}</a>
+                  {{/if}}
+                  <p class="fragment text-muted">{{{fragment}}}</p>
+                </li>
+              {{/each}}
+            {{/if}}
+            {{#if relatedAttachments}}
+              {{#each relatedAttachments}}
+                <li class="note-item">
+                  {{#if isImage}}
+                    <a id="kbattachment-{{entityID}}" href="javascript:downloadKbAttachmentFile('kbattachment-{{entityID}}', '{{title}}', {{fileSize}}, '{{fileType}}', '{{downloadBlockUrl}}', '{{initializeDownloadUrl}}')"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;{{title}}</a>
+                  {{else}}
+                    <a id="kbattachment-{{entityID}}" title="{{title}}" href="javascript:downloadKbAttachmentFile('kbattachment-{{entityID}}', '{{title}}', {{fileSize}}, '{{fileType}}', '{{downloadBlockUrl}}', '{{initializeDownloadUrl}}')"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;{{title}}</a>
+                  {{/if}}
+                  <p class="fragment text-muted">{{{fragment}}}</p>
+                </li>
+              {{/each}}
+            {{/if}}
+            </ul>
+          </li>
         {{/each}}
-        {{/if}}
       </ul>
-     </li>
-    {{/each}}
-   </ul>
-   {{else}}
-    <h2>{%endraw%}{{ resx.Search_No_Results_Found }}{%raw%}<em class="querytext">{{{query}}}</em>
-     {{#if isResetVisible}}
-      <a class="btn btn-default btn-sm facet-clear-all" role="button" title="{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}" tabIndex="0">{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}</a>
-     {{/if}}
-    </h2>
+    {{else}}
+      <h2>{%endraw%}{{ resx.Search_No_Results_Found }}{%raw%}<em class="querytext">{{{query}}}</em>
+        {{#if isResetVisible}}
+          <a class="btn btn-default btn-sm facet-clear-all" role="button" title="{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}" tabIndex="0">{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}</a>
+        {{/if}}
+      </h2>
    {{/if}}
   </script>
- {%endraw%}
+  <script type="text/javascript">
+    function downloadKbAttachmentFile(attachmentElementId, fileName, fileSize, mimeType, downloadBlockUrl, initializeUrl) {
+      // Download block API supports max 4MB block size
+      const blockSizeInBytes = 4096 * 1024;
+      const totalNumberOfBlocks = parseInt(fileSize / blockSizeInBytes + 1);
+      var fileContinuationToken = "";
+      var contentString = "";
+      var numberOfBlocksDownloaded = 0;
+      var blockNumberToContentMap = {};
+      function downloadBlockCallback(i, result) {
+        numberOfBlocksDownloaded++;
+        blockNumberToContentMap[i] = result;
+        if (numberOfBlocksDownloaded == totalNumberOfBlocks) {
+          for (var j = 0; j < totalNumberOfBlocks; j++) {
+            contentString += blockNumberToContentMap[j];
+          }
+          var isImage = mimeType.startsWith('image/');
+          const attachmentElement = document.getElementById(attachmentElementId);
+          if (isImage) {
+            const bodyByteString = atob(contentString);
+            const bodyBuffer = new ArrayBuffer(bodyByteString.length);
+            const bodyView = new Uint8Array(bodyBuffer);
+            for (var k = 0; k < bodyByteString.length; k++) {
+              bodyView[k] = bodyByteString.charCodeAt(k);
+            }
+            var imageUrl = URL.createObjectURL(new Blob([bodyBuffer], { type: mimeType }));
+            attachmentElement.href = imageUrl;
+            attachmentElement.target = "_blank";
+          }
+          else {
+            const linkSource = 'data:' + mimeType + ';base64,' + contentString;
+            attachmentElement.href = linkSource;
+            attachmentElement.download = fileName;
+          }
+          attachmentElement.click();
+        }
+      }
+      shell.ajaxSafePost({
+        type: 'GET',
+        url: initializeUrl,
+        success: function (result) {
+          fileContinuationToken = encodeURIComponent(result);
+          for (var i = 0; i < totalNumberOfBlocks; i++) {
+            url = downloadBlockUrl + "&blockNumber=" + i + "&fileContinuationToken=" + fileContinuationToken + "&blockSize=" + blockSizeInBytes;
+            var x = downloadBlockCallback.bind(this,i);
+            shell.ajaxSafePost({
+              type: 'GET',
+              url: url,
+              success: (result) => { x(result) }
+            });
+          }
+        }
+      });
+    }
+  </script>
+{%endraw%}
 ```
 
-**Site Settings**
+### Site Settings
 
 You must add `\_logicalname:annotation~0.9^0.25` value to the Search/Query site setting. After it's added, the value should be as follows:
 ```
