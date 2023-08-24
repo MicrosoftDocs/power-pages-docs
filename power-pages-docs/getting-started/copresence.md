@@ -17,23 +17,23 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)] 
 
-Find who's working on a site at the same time as you with copresence. Copresence provides the following benefits:
+Find out who's working on a site at the same time as you with copresence. Copresence provides the following benefits:
 
-- See icons and names of people who have the Design Studio open and might be making changes along with you.
+- See icons and names of people who have the design studio open and might be making changes along with you.
 
 - Contact those people working on the site via email or Teams.
 
-- On the left-hand main navigation pane, see the pages that other users are actively working on.
+- On the left-side main navigation pane, see the pages that other users are actively working on.
 
-- Copresence is enabled by default on all Power Platform environments
+Copresence is enabled by default on all Power Platform environments.
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-When another user joins your site in design studio, an icon shows up on the command bar and on the home page where the users typically start.
+When another user joins your site in the design studio, an icon shows up on the command bar and on the home page where users typically start.
 
-User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site. You'll see your own icon in the page navigation if you have multiple instances of design studio open, but your icon will not display in the toolbar.
+User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site. You'll see your own icon in the page navigation if you have multiple instances of Design Studio open, but your icon will not display in the toolbar.
 
 :::image type="content" source="media/copresence/copresence.png" alt-text="The Pages workspace with copresence icons displayed in the toolbar and the left navigation pane.":::
 
