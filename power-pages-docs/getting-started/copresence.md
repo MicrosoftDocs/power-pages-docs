@@ -1,14 +1,14 @@
-﻿---
-title: Copresence in Power Pages (preview)
-description: Learn about Copresence in Power Pages.
-author: sandhangitmsft
-ms.topic: conceptual
-ms.custom: 
-ms.date: 7/10/2023
-ms.subservice:
-ms.author: sandhan
-ms.reviewer: kkendrick
-contributors:
+---
+title: Copresence in Power Pages (preview)  
+description: Learn about Copresence in Power Pages.  
+author: sandhangitmsft  
+ms.topic: conceptual  
+ms.custom:  
+ms.date: 7/10/2023  
+ms.subservice:  
+ms.author: sandhan  
+ms.reviewer: kkendrick  
+contributors:  
     - sandhangitmsft
     - ProfessorKendrick
 ---
@@ -33,7 +33,7 @@ Copresence is enabled by default on all Power Platform environments.
 
 When another user joins your site in the design studio, an icon shows up on the command bar and on the home page where users typically start.
 
-User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site. You'll see your own icon in the page navigation if you have multiple instances of Design Studio open, but your icon will not display in the toolbar.
+User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site. You'll see your own icon in the page navigation if you have multiple instances of design studio open, but your icon will not display in the toolbar.
 
 :::image type="content" source="media/copresence/copresence.png" alt-text="The Pages workspace with copresence icons displayed in the toolbar and the left navigation pane.":::
 
@@ -44,6 +44,6 @@ If more than three makers are present, a number appears, such as +1 or +10. Sele
 
 ## Known limitations
 
-- There may be a delay up to 20 seconds between when new members join the app and when you see their presence and location.
+- There may be a delay of up to 20 seconds between when new members join the app and when you see their presence and location.
 
 
