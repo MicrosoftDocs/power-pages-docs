@@ -35,3 +35,9 @@ sections:
         answer: |
           By default, Power Pages supports http to https redirects. If this is flagged, please verify if request is getting blocked at App Service Level. 
           If it's not a success request (response code >= 400), it’s a false positive. 
+      
+      - question: |
+          Why cookies without HTTPOnly/SameSite flag are being detected/reported by pen test tools? 
+        answer: |
+          Power Pages sets HTTPOnly/SameSite flag for every critical cookie. There are some non-critical cookies for which HTTPOnly/SameSite is not set, these should not be considered as vulnerability.<br />
+          More information: [Cookies in Power Pages]()../admin/cookies.md)
