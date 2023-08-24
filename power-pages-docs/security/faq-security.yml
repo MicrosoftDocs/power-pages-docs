@@ -78,4 +78,4 @@ sections:
       - question: |
           How to protect my website against XSS attacks? 
         answer: |
-          It is recommended to perform html encoding before rendering data from an untrusted source. Please refer for available encoding filters - https://learn.microsoft.com/en-us/power-pages/configure/liquid/liquid-filters#escape-filters 
+          It is recommended to perform html encoding before rendering data from an untrusted source. More information: [Available encoding filters](../configure/liquid/liquid-filters.md#escape-filters).
