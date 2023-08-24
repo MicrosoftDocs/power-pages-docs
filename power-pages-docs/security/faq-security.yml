@@ -22,7 +22,7 @@ sections:
         answer: |
           Clickjacking uses embedded iframes, among other components, to hijack a user's interactions with a web page.  
           Power Pages provides HTTP/X-Frame-Options site stings with default SAMEORIGIN to provide protection against clickjacking attack.   
-          More information: ../configure/cors-support.md
+          More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md)
       
       - question: |
           Does Power Pages support Content Security Policy? 
