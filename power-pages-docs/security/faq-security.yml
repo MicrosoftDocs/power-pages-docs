@@ -40,7 +40,7 @@ sections:
           Why cookies without HTTPOnly/SameSite flag are being detected/reported by pen test tools? 
         answer: |
           Power Pages sets HTTPOnly/SameSite flag for every critical cookie. There are some noncritical cookies for which HTTPOnly/SameSite isn't set, these shouldn't be considered as vulnerability.<br />
-          More information: [Cookies in Power Pages]()../admin/cookies.md)
+          More information: [Cookies in Power Pages](../admin/cookies.md)
       
       - question: |
           My Pen test report is flagging End of Life/Obsolete Software – Bootstrap 3, what should I do about it? 
