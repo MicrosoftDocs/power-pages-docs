@@ -20,7 +20,7 @@ You can use the Portal Management app, a model-driven Power App, for advanced co
 If your website is using the [enhanced data model](../admin/enhanced-data-model.md), the app will appear as **Power Pages Management**. 
 
 > [!IMPORTANT]
-> Starting in August 2023, the Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions.
+> Starting in August 2023, the Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites. In addition, the Power Pages **Change Password** option will appear on the unmodified command bar for **contact** records in all model-driven Power Apps.
 
 > [!NOTE]
 > To use the Portal Management app, you will need to be assigned the [system administrator](/power-platform/admin/assign-security-roles) role in the same Microsoft Dataverse environment as your site. Users in the [system customizer](/power-platform/admin/assign-security-roles) role also have access to use the Portal Management app however they may have limited privileges on certain tables (for example,  Notes / Attachments related to [Web Files](/power-apps/maker/portals/configure/web-files)) that do not allow them to view or update records created by other users. 
