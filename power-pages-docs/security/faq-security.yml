@@ -15,7 +15,7 @@ metadata:
 title: Power Pages security FAQs 
 
 sections: 
-  - name:
+  - name: General
     questions:
       - question: |
           How does Power Pages help to protect against clickjacking? 
