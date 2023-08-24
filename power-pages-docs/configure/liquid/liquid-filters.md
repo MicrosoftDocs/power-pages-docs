@@ -664,7 +664,7 @@ Coverts a given HTML string to a safe HTML fragment.
 **Code**
 
 ```
-{{ '<img src="images/myimage.jpg" onerror="alert(1);">' | escape }}
+{{ '<img src="images/myimage.jpg" onerror="alert(1);">' | html_safe_escape }}
 ```
 
 **Output**
