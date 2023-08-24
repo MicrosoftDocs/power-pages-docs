@@ -21,14 +21,14 @@ sections:
           How does Power Pages help to protect against clickjacking? 
         answer: |
           [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking) uses embedded iframes, among other components, to hijack a user's interactions with a web page.  
-          Power Pages provides HTTP/X-Frame-Options site stings with default SAMEORIGIN to provide protection against clickjacking attack.   
+          Power Pages provides HTTP/X-Frame-Options site stings with default SAMEORIGIN to provide protection against clickjacking attack.<br />   
           More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md)
       
       - question: |
           Does Power Pages support Content Security Policy? 
         answer: |
-          Power Pages supports Content security policy (CSP). More information: [Manage content security policy](manage-content-security-policy.md)
-          Extensive testing is recommended after enabling CSP on the websites.
+          Power Pages supports Content security policy (CSP). Extensive testing is recommended after enabling CSP on the websites.<br />
+          More information: [Manage content security policy](manage-content-security-policy.md)
 
       - question: |
            Does Power Pages support HTTP Strict Transport Security Policy? 
