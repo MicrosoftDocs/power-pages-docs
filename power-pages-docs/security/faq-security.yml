@@ -1,0 +1,37 @@
+### YamlMime:FAQ
+metadata:
+  title: Frequently asked questions | Power Pages security
+  description: Frequently asked questions about security in Power Pages.
+  author: sandhangitmsft  
+  ms.topic: faq
+  ms.custom: 
+  ms.subservice: 
+  ms.date: 08/24/2023
+  ms.author: sandhan
+  ms.reviewer: kkendrick
+  contributors:
+    - ProfessorKendrick
+
+title: Power Pages security FAQs 
+
+sections: 
+  - name:
+    questions:
+      - question: |
+          How does Power Pages help to protect against clickjacking? 
+        answer: |
+          Clickjacking uses embedded iframes, among other components, to hijack a user's interactions with a web page.  
+          Power Pages provides HTTP/X-Frame-Options site stings with default SAMEORIGIN to provide protection against clickjacking attack.   
+          More information: ../configure/cors-support.md
+      
+      - question: |
+          Does Power Pages support Content Security Policy? 
+        answer: |
+          Power pages supports Content security policy (CSP). More information: manage-content-security-policy.md
+          Extensive testing is recommended after enabling CSP on the websites.
+
+      - question: |
+           Does Power Pages support HTTP Strict Transport Security Policy? 
+        answer: |
+          By default, Power Pages supports http to https redirects. If this is flagged, please verify if request is getting blocked at App Service Level. 
+          If it's not a success request (response code >= 400), it’s a false positive. 
