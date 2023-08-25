@@ -78,4 +78,11 @@ Power Pages supports controls built for Power Apps created using the [Power Apps
 More information:
 - [Code components overview](component-framework.md)
 
+## AI-generated code 
+
+Add AI-generated code using Copilot in Visual Studio Code helps you create code using natural language chat interaction.
+
+More information:
+- [Add AI-generated code using Copilot](add-code-copilot.md)
+
 
