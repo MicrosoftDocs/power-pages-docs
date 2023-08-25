@@ -19,7 +19,7 @@ contributors:
 
 Power Pages provides tools for low-code makers and web designers to build and configure powerful websites.
 
-In many projects, there is a need to further extend the capabilities of the web application which require pro-development techniques.
+In many projects, there's a need to further extend the capabilities of the web application that require pro-development techniques.
 
 The Power Pages platform provides tools and technologies that empower a developer to address advanced and complex requirements.
 
@@ -33,13 +33,13 @@ Tools are available to Power Pages developers to create assets, and to edit HTML
 | [Visual Studio Code desktop](vs-code-extension.md) | View and edit the HTML, JavaScript, Liquid, and CSS code. Create web pages, web templates, page templates, content snippets, and web files. Edit code and website metadata with intellisense and generate code using Copilot. | 
 | [Power Pages management app](portal-management-app.md) | Create Power Pages metadata records. View and edit the HTML, JavaScript, Liquid, and CSS code within the context of a model-driven app. |
 | [Power Platform CLI](power-platform-cli.md) | Download and upload Power Pages metadata to your local workstation to edit in Visual Studio Code (or other editors). |
-| [Community tools](/power-apps/developer/data-platform/community-tools) | There are a number of community tools that can assist developers in extending Power Pages. Tools created by the community are not supported by Microsoft. If you have questions or issues with community tools, contact the publisher of the tool. |
+| [Community tools](/power-apps/developer/data-platform/community-tools) | There are many community tools that can assist developers in extending Power Pages. Tools created by the community aren't supported by Microsoft. If you have questions or issues with community tools, contact the publisher of the tool. |
 
 ## JavaScript
 
-Websites created using Power Pages can utilize client side JavaScript to address a number of requirements.
+Websites created using Power Pages can utilize client side JavaScript to address many requirements.
 
-- Add logic to form and list components to hide and show fields, set requirement levels, pre-populate values and other enhancements.
+- Add logic to form and list components to hide and show fields, set requirement levels, prepopulate values and other enhancements.
 - Call APIs such as Power Automate and the Power Pages WebAPI.
 - Build interactive functionality
 
