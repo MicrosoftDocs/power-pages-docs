@@ -103,7 +103,7 @@ The first column in the "Portal Search" view will show as the title of search re
 If the view isn't available for any table, it's not indexed, and the results aren't displayed in global search.
 
 > [!NOTE]
-> If you change the value of the Search/IndexQueryName site setting, you need to trigger a manual re-index of the build using steps defined in the  [Rebuild the search index](additional-tables.md#step-6-rebuild-the-search-index)section.
+> If you change the value of the Search/IndexQueryName site setting and you are using Lucene .NET search, you need to trigger a manual re-index of the build using steps defined in the [Rebuild the search index](additional-tables.md#step-6-rebuild-the-search-index) section.
 
 ## Related site settings
 
