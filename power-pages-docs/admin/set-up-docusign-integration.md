@@ -31,13 +31,16 @@ Set up a template in DocuSign. The template can contain one or more documents fo
 ## Install DocuSign
 
 1. Navigate to Setup, then select External Apps.
-1. Select the Install action for DocuSign. This installs a solution, which contains tables, flows, a Dataverse plugin, and the PCF control to render signed documents.
+1. Select the Install action for DocuSign. 
+    :::image type="content" source="Media/docusign/install-docusign.png" alt-text="The Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
+
+This installs a solution, which contains tables, flows, a Dataverse plugin, and the PCF control to render signed documents.
 
 ## Configure DocuSign
 
 Begin by resolving connection references.
 
-1. Resolve both flow connections. Use DocuSign creds for the DocuSign flow and a connection to Dataverse.
+1. Resolve both flow connections. Use DocuSign credentials for the DocuSign flow and a connection to Dataverse.
 1. Ensure both the flows are turned on.
 1. Acknowledge the configuration screen.
 1. Add the *DocuSign Envelope Create and Sign* cloud flow to your site by going to **Setup > Cloud Flows**.
@@ -47,14 +50,16 @@ Next, add a template by providing details for the DocuSign Template.
 1. Input the DocuSign template metadata in the fields provided. This includes Template ID, Template Name, Role Name, and Table.
 1. Map the form table fields to DocuSign tabs that are included in the document.
 
-Navigate to your DocuSign account (account.docusign.com) and going into settings \| Integrations \| Connect and modify the "PowerPagesDocusignEnvelopeTrigger v1.0" connect to have these other triggers.
+ADD PHOTO HERE
+
+Navigate to your [DocuSign account](https://account.docusign.com) and going into **Settings > Integrations > Connect** and modify the *PowerPagesDocusignEnvelopeTrigger v1.0* connection to incorporate other triggers.
 
 ## Enable DocuSign
 
 To enable DocuSign, complete the following steps:
 
-1. Add form steps using a form from the table you've mapped to your template in the step above.
-1. Add table permissions for that table (minimum: create and write + authenticated or higher).
+1. Add form steps using a form from the table you've mapped to your template in the step above. More information: [Add a multistep form](../getting-started/multistep-forms.md)
+1. Add table permissions for that table (minimum: create and write + authenticated or higher). More information: [Configuring table permissions](../security/table-permissions.md)
 1. Add a child permission to that permission for the DocuSign Output table (minimum: AppendTo + match parent role).
 1. Select the Sync button.
 
@@ -64,6 +69,8 @@ Next, add a new form step entitled Sign Document (or similar).
 1. Select Integrations on the left
     - Choose the correct Template to associate with the form
     - Enable form toggle for e-signature.
+    
+        ADD IMAGE HERE
 
     > [!NOTE] 
     > You must open the form to give permission to authenticated users.
