@@ -19,11 +19,11 @@ The Power Pages and DocuSign integration offers an efficient workflow for incorp
 
 Integrating DocuSign into your application requires three steps:
 
-**Step 1:** [Install](#install-docusign) the DocuSign package
+[Step 1: Install DocuSign](#step-1-install-docusign)
 
-**Step 2:** [Configure](#configure-docusign) DocuSign + Power Pages
+[Step 2: Configure DocuSign](#step-2-configure-docusign)
 
-**Step 3:** [Enable](#enable-docusign) e-signature for a multi-step form
+[Step 3: Enable DocuSign](#step-3-enable-docusign) e-signature for a multi-step form
 
 ## Prerequisites
 
