@@ -16,7 +16,7 @@ contributors:
 
 The Power Pages and DocuSign integration offers a seamless, efficient workflow for incorporating e-signatures into multi-step forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **External Apps > Integrations** tab in the Set up workspace and allows you to map to your specific business data tables to DocuSign. With this integration, you can add an e-signature step to your multi-step forms, enabling a smooth and streamlined process for capturing digital signatures.
 
-Integrating DocuSign into your application will require three steps:
+Integrating DocuSign into your application requires three steps:
 
 - [Install](#install-docusign) the DocuSign package
 
@@ -26,18 +26,18 @@ Integrating DocuSign into your application will require three steps:
 
 ## Set up DocuSign
 
-Setup a template in DocuSign. The template can contain one or more documents for viewing and signing. The template is assigned a recipient role but doesn't need any name or email association—these fields will be assigned from the Power Pages website. The document can include tabs or fields including the signature tab. Please see [DocuSign Template documentation](https://support.docusign.com/s/document-item?language=en_US&bundleId=xry1643227563338&topicId=uab1578456394214.html&_LANG=enus) for details or watch [this video](https://support.docusign.com/s/articles/Create-a-DocuSign-Template?language=en_US).
+Set up a template in DocuSign. The template can contain one or more documents for viewing and signing. The template is assigned a recipient role but doesn't need any name or email association—these fields are assigned from the Power Pages website. The document can include tabs or fields including the signature tab. See [DocuSign Template documentation](https://support.docusign.com/s/document-item?language=en_US&bundleId=xry1643227563338&topicId=uab1578456394214.html&_LANG=enus) for details or watch [this video](https://support.docusign.com/s/articles/Create-a-DocuSign-Template?language=en_US).
 
 ## Install DocuSign
 
 1. Navigate to Setup, then select External Apps.
-1. Select the Install action for DocuSign. This installs a solution which contains tables, flows, a Dataverse plugin, and the PCF control to render signed documents.
+1. Select the Install action for DocuSign. This installs a solution, which contains tables, flows, a Dataverse plugin, and the PCF control to render signed documents.
 
 ## Configure DocuSign
 
 Begin by resolving connection references.
 
-1. Resolve both flow connections. You will use DocuSign creds for the DocuSign flow and a connection to Dataverse.
+1. Resolve both flow connections. Use DocuSign creds for the DocuSign flow and a connection to Dataverse.
 1. Ensure both the flows are turned on.
 1. Acknowledge the configuration screen.
 1. Add the *DocuSign Envelope Create and Sign* cloud flow to your site by going to **Setup > Cloud Flows**.
@@ -47,7 +47,7 @@ Next, add a template by providing details for the DocuSign Template.
 1. Input the DocuSign template metadata in the fields provided. This includes Template ID, Template Name, Role Name, and Table.
 1. Map the form table fields to DocuSign tabs that are included in the document.
 
-Navigate to your DocuSign account (account.docusign.com) and going into settings \| Integrations \| Connect and modify the "PowerPagesDocusignEnvelopeTrigger v1.0" connect to have these additional triggers.
+Navigate to your DocuSign account (account.docusign.com) and going into settings \| Integrations \| Connect and modify the "PowerPagesDocusignEnvelopeTrigger v1.0" connect to have these other triggers.
 
 ## Enable DocuSign
 
@@ -70,6 +70,6 @@ Next, add a new form step entitled Sign Document (or similar).
 
 # Troubleshooting
 
-Ensure the steps have been followed correctly, verify the solution flow has not been added to the site, and the flows have not been turned on.
+Ensure the steps have been followed correctly, verify the solution flow hasn't been added to the site, and the flows haven't been turned on.
 
 Review the flow executions by navigating to flow.microsoft.com and see if the flow "DocuSign Envelope Create and Sign" has run and if there are any errors in the run – Contact support if the errors are unexpected.
