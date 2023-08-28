@@ -30,38 +30,49 @@ Set up a template in DocuSign. The template can contain one or more documents fo
 
 ## Install DocuSign
 
-1. Navigate to Setup, then select External Apps.
-1. Select the Install action for DocuSign. 
+1. In the design studio, choose **Set up > External Apps**.
+1. Select the **Install** action for DocuSign. 
     :::image type="content" source="Media/docusign/install-docusign.png" alt-text="The Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
 
 This installs a solution, which contains tables, flows, a Dataverse plugin, and the PCF control to render signed documents.
 
 ## Configure DocuSign
 
-Begin by resolving connection references.
+Once you've installed DocuSign, you can begin to configure DocuSign for your Power Pages site.
 
-1. Resolve both flow connections. Use DocuSign credentials for the DocuSign flow and a connection to Dataverse.
-1. Ensure both the flows are turned on.
-1. Acknowledge the configuration screen.
-1. Add the *DocuSign Envelope Create and Sign* cloud flow to your site by going to **Setup > Cloud Flows**.
+1. In the design studio, choose **Set up > External Apps**.
+1. In the Integrations table, Select the **Configure** action for DocuSign.
+The Enable integration menu displays.
+:::image type="content" source="Media/docusign/enable-integrations.png" alt-text="The Enable integration options inside design studio.":::
+1. Select the links to resolve the connection references and enable cloud flows in Power Automate, ensuring both cloud flows are **on**.
+    > [!NOTE]
+    > Use your DocuSign credentials for the DocuSign flow and a connection to Dataverse.
+1. Return to the Enable integration side panel in design studio and select the checkbox next to the text *I have resolved the connection references*.
+1. Select **Next**.
+1. Select **Close**.
 
-Next, add a template by providing details for the DocuSign Template.
+### Add the DocuSign Envelope Create and Sign cloud flow
 
+Next, add a DocuSign Template and fill in the details for your cloud flow.
+
+1. In the design studio, choose **Setup > Cloud Flows**.
 1. Input the DocuSign template metadata in the fields provided. This includes Template ID, Template Name, Role Name, and Table.
 1. Map the form table fields to DocuSign tabs that are included in the document.
 
 ADD PHOTO HERE
 
-Navigate to your [DocuSign account](https://account.docusign.com) and going into **Settings > Integrations > Connect** and modify the *PowerPagesDocusignEnvelopeTrigger v1.0* connection to incorporate other triggers.
+1. Sign into your [DocuSign account](https://account.docusign.com).
+1. Choose **Settings > Integrations > Connect**.
+1. Modify the *PowerPagesDocusignEnvelopeTrigger v1.0* connection to incorporate other triggers.
 
 ## Enable DocuSign
 
 To enable DocuSign, complete the following steps:
 
-1. Add form steps using a form from the table you've mapped to your template in the step above. More information: [Add a multistep form](../getting-started/multistep-forms.md)
-1. Add table permissions for that table (minimum: create and write + authenticated or higher). More information: [Configuring table permissions](../security/table-permissions.md)
+1. Add form steps using a form from the table you've mapped to your template in the previous step. More information: [Add a multistep form](../getting-started/multistep-forms.md)
+1. Add table permissions for your table (minimum: create and write + authenticated or higher). More information: [Configuring table permissions](../security/table-permissions.md)
 1. Add a child permission to that permission for the DocuSign Output table (minimum: AppendTo + match parent role).
-1. Select the Sync button.
+1. Select the **Sync** button.
 
 Next, add a new form step entitled Sign Document (or similar).
 
