@@ -14,7 +14,7 @@ contributors:
 ---
 # Set up DocuSign integration
 
-The Power Pages and DocuSign integration offers a seamless, efficient workflow for incorporating e-signatures into multi-step forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **External Apps > Integrations** tab in the Set up workspace and allows you to map to your specific business data tables to DocuSign. With this integration, you can add an e-signature step to your multi-step forms, enabling a smooth and streamlined process for capturing digital signatures.
+The Power Pages and DocuSign integration offers an efficient workflow for incorporating e-signatures into multi-step forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **External Apps > Integrations** tab in the Set up workspace and allows you to map to your specific business data tables to DocuSign. With this integration, you can add an e-signature step to your multi-step forms, enabling a streamlined process for capturing digital signatures.
 
 Integrating DocuSign into your application requires three steps:
 
@@ -56,8 +56,11 @@ The Enable integration menu displays.
 Next, add a DocuSign Template and fill in the details for your cloud flow.
 
 1. In the design studio, choose **Setup > Cloud Flows**.
-1. Input the DocuSign template metadata in the fields provided. This includes Template ID, Template Name, Role Name, and Table.
-1. Map the form table fields to DocuSign tabs that are included in the document.
+1. Input the DocuSign template metadata in the fields provided, including *Template ID*, *Template Name*, *Role Name*, and *Table*.
+
+ADD PHOTO HERE
+
+1. Map the form table fields to DocuSign tabs in the document.
 
 ADD PHOTO HERE
 
