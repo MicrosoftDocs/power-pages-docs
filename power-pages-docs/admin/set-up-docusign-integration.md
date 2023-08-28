@@ -89,7 +89,7 @@ Next, add a new form step entitled Sign Document (or similar).
     > [!NOTE] 
     > You must open the form to give permission to authenticated users.
 
-# Troubleshooting
+## Troubleshooting
 
 Ensure the steps have been followed correctly, verify the solution flow hasn't been added to the site, and the flows haven't been turned on.
 
