@@ -24,7 +24,7 @@ Integrating DocuSign into your application requires three steps:
 
 - [Enable](#enable-docusign) e-signature for a multi-step form
 
-## Set up DocuSign
+## Prerequisites
 
 Set up a template in DocuSign. The template can contain one or more documents for viewing and signing. The template is assigned a recipient role but doesn't need any name or email association—these fields are assigned from the Power Pages website. The document can include tabs or fields including the signature tab. See [DocuSign Template documentation](https://support.docusign.com/s/document-item?language=en_US&bundleId=xry1643227563338&topicId=uab1578456394214.html&_LANG=enus) for details or watch [this video](https://support.docusign.com/s/articles/Create-a-DocuSign-Template?language=en_US).
 
@@ -46,7 +46,7 @@ The Enable integration menu displays.
 :::image type="content" source="Media/docusign/enable-integrations.png" alt-text="The Enable integration options inside design studio.":::
 1. Select the links to resolve the connection references and enable cloud flows in Power Automate, ensuring both cloud flows are **on**.
     > [!NOTE]
-    > Use your DocuSign credentials for the DocuSign flow and a connection to Dataverse.
+    > Use the appropriate credentials to access DocuSign and Dataverse.
 1. Return to the Enable integration side panel in design studio and select the checkbox next to the text *I have resolved the connection references*.
 1. Select **Next**.
 1. Select **Close**.
@@ -57,13 +57,7 @@ Next, add a DocuSign Template and fill in the details for your cloud flow.
 
 1. In the design studio, choose **Setup > Cloud Flows**.
 1. Input the DocuSign template metadata in the fields provided, including *Template ID*, *Template Name*, *Role Name*, and *Table*.
-
-ADD PHOTO HERE
-
 1. Map the form table fields to DocuSign tabs in the document.
-
-ADD PHOTO HERE
-
 1. Sign into your [DocuSign account](https://account.docusign.com).
 1. Choose **Settings > Integrations > Connect**.
 1. Modify the *PowerPagesDocusignEnvelopeTrigger v1.0* connection to incorporate other triggers.
