@@ -150,7 +150,7 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
     shell.ajaxSafePost({
         type: "POST",
         contentType: "application/json",
-        url: _api/cloudflow/v1.0/trigger/44a4b2f2-0d1a-4820-bf93-9376278d49c4,
+        url: "_api/cloudflow/v1.0/trigger/44a4b2f2-0d1a-4820-bf93-9376278d49c4",
         data: JSON.stringify({"eventData":JSON.stringify({"Email": "abc@contoso.com" }),
         processData: false,
         global: false
