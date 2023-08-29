@@ -65,7 +65,7 @@ The Enable integration menu displays.
 1. Add the cloud flows from the previous step to this site.
 1. Create a Dataverse table to capture the DocuSign instances.  This is the table that will render the subgrid for the documents to sign.  You'll use this table in the next step.
 1. Enter the DocuSign template metadata in the fields provided, including *Template ID*, *Template Name*, *Role Name*, and *Table*.
-1. Map the form table fields to the DocuSign tabs in the document.
+1. (Optional) Map the form table fields to the DocuSign tabs in the document.
 
 ## Step 3: Enable DocuSign
 
