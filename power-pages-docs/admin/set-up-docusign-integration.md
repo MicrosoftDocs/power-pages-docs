@@ -13,9 +13,15 @@ contributors:
     - meeramahabala
     - ProfessorKendrick
 ---
-# Set up DocuSign integration
+# Set up DocuSign integration (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Power Pages and DocuSign integration offers an efficient workflow for incorporating e-signatures into multi-step forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **External Apps > Integrations** tab in the Set up workspace and allows you to map to your specific business data tables to DocuSign. With this integration, you can add an e-signature step to your multi-step forms, enabling a streamlined process for capturing digital signatures.
+
+> [!IMPORTANT]
+> - This feature is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 Integrating DocuSign into your application requires three steps:
 
