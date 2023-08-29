@@ -41,7 +41,7 @@ Integrating DocuSign into your application requires three steps:
 
 1. In the design studio, choose **Set up > Integration > External Apps**.
 1. Select the **Install** action for DocuSign. 
-    :::image type="content" source="Media/docusign/install-docusign.png" alt-text="The Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
+    :::image type="content" source="Media/docusign/install-docusign.png" alt-text="A screenshot of the Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
 
 The install action may take a few moments. The action will change to configure once the action is complete. This installs a solution, which contains tables, flows, a Dataverse plug-ins, and code components to render signed documents.
 
@@ -52,7 +52,7 @@ Once you've installed the DocuSign package, you can begin to configure DocuSign 
 1. In the design studio, choose **Set up > Integrations > External Apps**.
 1. In the Integrations table, Select the **Configure** action for DocuSign.
 The Enable integration menu displays.
-:::image type="content" source="Media/docusign/enable-integrations.png" alt-text="The Enable integration options inside design studio.":::
+:::image type="content" source="Media/docusign/enable-integrations.png" alt-text="A screenshot of the Enable integration options inside design studio.":::
 1. Select the links to resolve the connection references and enable cloud flows in Power Automate, ensuring both cloud flows are turned **on**.
     > [!NOTE]
     >
@@ -63,26 +63,30 @@ The Enable integration menu displays.
 1. Select **Next**, then **Close** to exit the Enable integration menu.
 1. In the **Set up workspace**, choose **Cloud Flows**.
 1. Add the cloud flows from the previous step to this site.
-1. Create a Dataverse table to capture the DocuSign instances.  This is the table that will render the subgrid for the documents to sign.  You'll use this table in the next step.
+1. Create a Dataverse table (for example, DocuSign Output) to capture the DocuSign documents.  This is the table that will render the subgrid for the documents to sign.  You'll use this table in the next step.
 1. Enter the DocuSign template metadata in the fields provided, including *Template ID*, *Template Name*, *Role Name*, and *Table*.
 1. (Optional) Map the form table fields to the DocuSign tabs in the document.
+
+    :::image type="content" source="Media/docusign/add-template.png" alt-text="A screenshot of the add template options inside the enable integration menu.":::
 
 ## Step 3: Enable DocuSign
 
 To enable DocuSign, complete the following steps:
 
 1. Create a form for the table you created in Step 2 to represent the documents grid.
-1. Add a form to the table you've mapped to your template in the previous step. More information: [Add a multistep form](../getting-started/multistep-forms.md)
-1. Add table permissions for your table (minimum: create and write + authenticated or higher). More information: [Configuring table permissions](../security/table-permissions.md)
-1. Add a child permission to that permission for the DocuSign Output table (minimum: AppendTo + match parent role).
+1. Add a form to the DocuSign Output table you mapped to your template in the previous step. More information: [Add a form](../getting-started/add-form.md)
+1. Add table permissions for the DocuSign Output table (at least Create and Write). More information: [Configuring table permissions](../security/table-permissions.md)
+1. Add a child permission to that permission for the DocuSign Output table (at least AppendTo).
 1. Select the **Sync** button.
 
-Next, add a new form step entitled Sign Document (or similar).
+Next, add a new multi-step form, then create a step entitled *Sign Document* (or similar). More information: [Add a multistep form](../getting-started/multistep-forms.md)
 
-1. Proceed to Step settings.
+1. Proceed to **Step settings**.
 1. Select **Integrations**.
-    - Choose the correct Template to associate with the form.
+    - Choose the correct template to associate with the form.
     - Enable the form toggle for e-signature.
+    
+        ADD IMAGE
 
         > [!NOTE] 
         > You must open the form to give permission to authenticated users.
