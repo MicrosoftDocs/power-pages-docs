@@ -43,7 +43,7 @@ Integrating DocuSign into your application requires three steps:
 1. Select the **Install** action for DocuSign. 
     :::image type="content" source="Media/docusign/install-docusign.png" alt-text="A screenshot of the Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
 
-The install action may take a few moments. The action will change to configure once the action is complete. This installs a solution, which contains tables, flows, a Dataverse plug-ins, and code components to render signed documents.
+The install action may take a few moments. The action will change to configure once the action is complete. This installs a solution, which contains tables, flows, Dataverse plug-ins, and code components to render signed documents.
 
 ## Step 2: Configure DocuSign
 
