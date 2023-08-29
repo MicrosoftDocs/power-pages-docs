@@ -86,7 +86,7 @@ Next, add a new multi-step form, then create a step entitled *Sign Document* (or
     - Choose the correct template to associate with the form.
     - Enable the form toggle for e-signature.
     
-        ADD IMAGE
+        :::image type="content" source="Media/docusign/step-settings.png" alt-text="The step settings options inside of the Set up workspace in Power Pages design studio.":::
 
         > [!NOTE] 
         > You must open the form to give permission to authenticated users.
