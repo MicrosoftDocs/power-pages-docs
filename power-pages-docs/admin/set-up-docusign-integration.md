@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Power Pages and DocuSign integration offers an efficient workflow for incorporating e-signatures into multi-step forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **Integrations > External Apps** tab in the Set up workspace and allows you to map to your specific Dataverse tables to DocuSign. With this integration, you can add an e-signature step to your multi-step forms, enabling a streamlined process for capturing digital signatures.
+Power Pages and DocuSign integration offer an efficient workflow for incorporating e-signatures into multi-step forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **Integrations > External Apps** tab in the Set up workspace and allows you to map to your specific Dataverse tables to DocuSign. With this integration, you can add an e-signature step to your multi-step forms, enabling a streamlined process for capturing digital signatures.
 
 > [!IMPORTANT]
 > - This feature is a preview feature.
@@ -29,7 +29,7 @@ Integrating DocuSign into your application requires three steps:
 
 [Step 2: Configure DocuSign](#step-2-configure-docusign) - In this step, the Site Admin or maker configures specific DocuSign credentials and templates.
 
-[Step 3: Enable DocuSign](#step-3-enable-docusign) - In this step, the maker includes the form and enables esignature on the required step for the multi-step form.
+[Step 3: Enable DocuSign](#step-3-enable-docusign) - In this step, the maker includes the form and enables e-signature on the required step for the multi-step form.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ Integrating DocuSign into your application requires three steps:
 1. Select the **Install** action for DocuSign. 
     :::image type="content" source="Media/docusign/install-docusign.png" alt-text="The Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
 
-The install action may take a few moments. The action will change to configure once the action is complete. This installs a solution, which contains tables, flows, a Dataverse plugin, and the PCF control to render signed documents.
+The install action may take a few moments. The action will change to configure once the action is complete. This installs a solution, which contains tables, flows, a Dataverse plug-ins, and code components to render signed documents.
 
 ## Step 2: Configure DocuSign
 
@@ -83,6 +83,14 @@ Next, add a new form step entitled Sign Document (or similar).
 1. Select **Integrations**.
     - Choose the correct Template to associate with the form.
     - Enable the form toggle for e-signature.
-    > [!NOTE] 
-    > You must open the form to give permission to authenticated users.
+
+        > [!NOTE] 
+        > You must open the form to give permission to authenticated users.
+
 1. Preview and test your webpage.
+
+### See also
+
+- [Add a multistep form](../getting-started/multistep-forms.md)
+- [Use Dataverse low-code plug-ins (experimental)](/power-apps/maker/data-platform/low-code-plug-ins)
+- [Use code components in Power Pages](../configure/component-framework.md)
