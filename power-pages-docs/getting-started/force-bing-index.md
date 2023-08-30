@@ -88,8 +88,8 @@ Follow guidelines from [Webmaster tools help](https://www.bing.com/webmasters/he
 1. Create a **Robots.txt** with the following content:
 
     ```
-    **User-agent: ***
-    **Disallow:**
+    User-agent: *
+    Disallow:
     ```
 
     > [!NOTE]
