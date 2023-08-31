@@ -20,7 +20,7 @@ While you can use a [form](add-form.md) to collect data in Power Pages sites, a 
 
 > [!NOTE]
 > - Multistep forms were called advanced forms earlier.
-> - Some features of multistep forms still need to be configured using the Portal Management app. More information: [Define advanced form steps for portals](../configure/multistep-form-properties.md).
+> - Some features of multistep forms still need to be configured using the Portal Management app. More information: [Define multistep form properties](../configure/multistep-form-properties.md).
 
 ## Create new multistep form
 
