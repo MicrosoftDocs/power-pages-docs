@@ -37,6 +37,8 @@ Integrating DocuSign into your application requires three steps:
 - Set up a template in DocuSign. The template can contain one or more documents for viewing and signing. The template is assigned a recipient role but doesn't need any name or email association—these fields are assigned from the Power Pages website. The document can include tabs or fields including the signature tab. See [DocuSign Template documentation](https://support.docusign.com/s/document-item?language=en_US&bundleId=xry1643227563338&topicId=uab1578456394214.html&_LANG=enus) for details or watch [this video](https://support.docusign.com/s/articles/Create-a-DocuSign-Template?language=en_US).
 
 - You may wish to review how to [Configure Power Automate cloud flows in Power Pages (preview)](../configure/cloud-flow-integration.md) prior to integrating DocuSign with your Power Pages site.
+- Configure a multistep form that has a step to allow users to sign documents.
+- The DV table used needs to accept activities
 
 ## Step 1: Install DocuSign
 
@@ -62,10 +64,12 @@ The Enable integration menu displays.
     > - For the DocuSign Envelope completed trigger flow, you will need to select the appropriate DocuSign account for the **Account** setting on the **When an envelope status changes** trigger.
 
 1. Return to the Enable integration menu in design studio and select the **I have resolved the connection references checkbox**.
-1. Select
 1. Select **Next**, then **Close** to exit the Enable integration menu.
 1. In the **Set up workspace**, choose **Cloud Flows**.
-1. Add the cloud flows from the previous step to this site.
+1. Add the **DocuSign Envelope Create and Sign** cloud flow from the previous step to this site.
+1. 
+1. 
+1. 
 1. Create a Dataverse table (for example, DocuSign Output) to capture the DocuSign documents.  This is the table that will render the subgrid for the documents to sign.  You'll use this table in the next step.
 1. Enter the DocuSign template metadata in the fields provided, including *Template ID*, *Template Name*, *Role Name*, and *Table*.
 1. (Optional) Map the form table fields to the DocuSign tabs in the document.
