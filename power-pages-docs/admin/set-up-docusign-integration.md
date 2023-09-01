@@ -21,6 +21,7 @@ Power Pages and DocuSign integration offer an efficient workflow for incorporati
 
 > [!IMPORTANT]
 > - This feature is a preview feature.
+> - This feature currently only works with the **standard data model**. More information see [Enhanced data model](../admin/enhanced-data-model.md).
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 Integrating DocuSign into your application requires three steps:
@@ -58,8 +59,10 @@ The Enable integration menu displays.
     >
     > - There are two flows, one that accesses DocuSign and one that accesses Dataverse.
     > - Use the appropriate credentials to access DocuSign and Dataverse.
+    > - For the DocuSign Envelope completed trigger flow, you will need to select the appropriate DocuSign account for the **Account** setting on the **When an envelope status changes** trigger.
 
 1. Return to the Enable integration menu in design studio and select the **I have resolved the connection references checkbox**.
+1. Select
 1. Select **Next**, then **Close** to exit the Enable integration menu.
 1. In the **Set up workspace**, choose **Cloud Flows**.
 1. Add the cloud flows from the previous step to this site.
