@@ -35,18 +35,17 @@ Integrating DocuSign into your application requires three steps:
 ## Prerequisites
 
 - Set up a template in DocuSign. The template can contain one or more documents for viewing and signing. The template is assigned a recipient role but doesn't need any name or email association—these fields are assigned from the Power Pages website. The document can include tabs or fields including the signature tab. See [DocuSign Template documentation](https://support.docusign.com/s/document-item?language=en_US&bundleId=xry1643227563338&topicId=uab1578456394214.html&_LANG=enus) for details or watch [this video](https://support.docusign.com/s/articles/Create-a-DocuSign-Template?language=en_US).
-
 - You may wish to review how to [Configure Power Automate cloud flows in Power Pages (preview)](../configure/cloud-flow-integration.md) prior to integrating DocuSign with your Power Pages site.
-- Configure a multistep form that has a step to allow users to sign documents.
-- The DV table used needs to accept activities
+- Configure a [multistep form](../getting-started/multistep-forms.md) that has a step to allow users to sign documents. This step displays a subgrid displaying the documents requiring signature. This is configured in a later step. The Dataverse table used for the multistep will need to be configured such that **Creating a new activity** needs to be selected in the **Make this table an option when** section. More information: [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md).
+- The eSignature integration will only work with authenticated users that must have their first name, last name, and email configured in their profile.
 
 ## Step 1: Install DocuSign
 
 1. In the design studio, choose **Set up > Integration > External Apps**.
 1. Select the **Install** action for DocuSign. 
-    :::image type="content" source="Media/docusign/install-docusign.png" alt-text="A screenshot of the Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
+    :::image type="content" source="Media/docusign/install-docusign.png" alt-text="A screenshot of the Setup workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
 
-The install action may take a few moments. The action will change to configure once the action is complete. This installs a solution, which contains tables, flows, Dataverse plug-ins, and code components to render signed documents.
+The install action may take a few moments. The action changes to configure once the action is complete. This installs a solution, which contains tables, flows, Dataverse plug-ins, and code components to render signed documents.
 
 ## Step 2: Configure DocuSign
 
@@ -58,20 +57,23 @@ The Enable integration menu displays.
 :::image type="content" source="Media/docusign/enable-integrations.png" alt-text="A screenshot of the Enable integration options inside design studio.":::
 1. Select the links to resolve the connection references and enable cloud flows in Power Automate, ensuring both cloud flows are turned **on**.
     > [!NOTE]
-    >
     > - There are two flows, one that accesses DocuSign and one that accesses Dataverse.
     > - Use the appropriate credentials to access DocuSign and Dataverse.
-    > - For the DocuSign Envelope completed trigger flow, you will need to select the appropriate DocuSign account for the **Account** setting on the **When an envelope status changes** trigger.
+    > - For the **DocuSign Envelope completed trigger** flow, you will need to select the appropriate DocuSign account id for the **Account** setting on the **When an envelope status changes** trigger.
 
-1. Return to the Enable integration menu in design studio and select the **I have resolved the connection references checkbox**.
+1. Return to the **Enable integration** menu in design studio and select the **I have resolved the connection references checkbox**.
 1. Select **Next**, then **Close** to exit the Enable integration menu.
 1. In the **Set up workspace**, choose **Cloud Flows**.
-1. Add the **DocuSign Envelope Create and Sign** cloud flow from the previous step to this site.
-1. 
-1. 
-1. 
-1. Create a Dataverse table (for example, DocuSign Output) to capture the DocuSign documents.  This is the table that will render the subgrid for the documents to sign.  You'll use this table in the next step.
-1. Enter the DocuSign template metadata in the fields provided, including *Template ID*, *Template Name*, *Role Name*, and *Table*.
+1. Add the **DocuSign Envelope Create and Sign** cloud flow from the previous step to this website.
+1. Enter the DocuSign template metadata in the fields provided: 
+
+| Value | Source |
+|-|-|
+| Template ID | DocuSign eSignature website |
+| Template Name | DocuSign eSignature website |
+| Role Name | DocuSign eSignature website |
+| Table | Dataverse table used in the multistep form requiring eSignatures |
+
 1. (Optional) Map the form table fields to the DocuSign tabs in the document.
 
     :::image type="content" source="Media/docusign/add-template.png" alt-text="A screenshot of the add template options inside the enable integration menu.":::
@@ -80,25 +82,21 @@ The Enable integration menu displays.
 
 To enable DocuSign, complete the following steps:
 
-1. Create a form for the table you created in Step 2 to represent the documents grid.
-1. Add a form to the DocuSign Output table you mapped to your template in the previous step. More information: [Add a form](../getting-started/add-form.md)
-1. Add table permissions for the DocuSign Output table (at least Create and Write). More information: [Configuring table permissions](../security/table-permissions.md)
-1. Add a child permission to that permission for the DocuSign Output table (at least AppendTo).
+1. Create a multistep form step for the table used in your multistep form process to represent the documents grid. 
+1. Add table permissions for the table used in the multistep form process (at least Create and Write). More information: [Configuring table permissions](../security/table-permissions.md)
 1. Select the **Sync** button.
-
-Next, add a new multi-step form, then create a step entitled *Sign Document* (or similar). More information: [Add a multistep form](../getting-started/multistep-forms.md)
-
+1. On a webpage, add or edit the multistep form, create a step entitled *Sign Document* (or similar). More information: [Add a multistep form](../getting-started/multistep-forms.md)
 1. Proceed to **Step settings**.
 1. Select **Integrations**.
     - Choose the correct template to associate with the form.
     - Enable the form toggle for e-signature.
     
-        :::image type="content" source="Media/docusign/step-settings.png" alt-text="The step settings options inside of the Set up workspace in Power Pages design studio.":::
+        :::image type="content" source="Media/docusign/step-settings.png" alt-text="The step settings options inside of the Setup workspace in Power Pages design studio.":::
 
         > [!NOTE] 
         > You must open the form to give permission to authenticated users.
 
-1. Preview and test your webpage.
+1. Preview and test your webpage. You should be to open the document, eSign the appropriate fields, exit and return the multistep process.
 
 ### See also
 
