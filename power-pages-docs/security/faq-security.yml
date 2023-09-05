@@ -59,7 +59,7 @@ sections:
         answer: |
           Microsoft weighs the relative risk and disruption to customer operations in choosing cipher suites to support. The RSA-CBC cipher suites haven't been broken yet. We've enabled them to ensure consistency across our services and products, and to support all customer configurations; however, they're at the bottom of the priority list.
           We deprecate ciphers based on the Microsoft Crypto Board's continuous assessment. 
-          More information: [Which TLS 1.2 cipher suites are supported by Power Pages?](../faq#which-tls-1-2-cipher-suites-are-supported-by-power-pages-)
+          More information: [Which TLS 1.2 cipher suites are supported by Power Pages?](../faq#which-tls-1-2-cipher-suites-are-supported-by-power-pages)
 
       - question: |
           How do Power Pages protect against Distributed Denial of Service (DDoS) attacks? 
