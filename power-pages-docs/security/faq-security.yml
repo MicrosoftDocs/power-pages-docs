@@ -51,7 +51,7 @@ sections:
           What ciphers does Power Pages support? What's the roadmap of continuously moving towards stronger ciphers? 
         answer: |
           All Microsoft services and products are configured to use the approved cipher suites, in the exact order directed by the Microsoft Crypto Board. 
-          For the full list and exact order, see the [Power Platform documentation](power-platform/admin/server-cipher-tls-requirements). 
+          For the full list and exact order, see the [Power Platform documentation](/power-platform/admin/server-cipher-tls-requirements). 
           Information about deprecations of cipher suites is communicated through [Power Platform's Important Changes documentation](/power-platform/important-changes-coming#tls-rsa-cipher-suites-are-deprecated). 
       
       - question: |
