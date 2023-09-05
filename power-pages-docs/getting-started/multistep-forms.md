@@ -20,7 +20,7 @@ While you can use a [form](add-form.md) to collect data in Power Pages sites, a 
 
 > [!NOTE]
 > - Multistep forms were called advanced forms earlier.
-> - Some features of multistep forms still need to be configured using the Portal Management app. More information: [Define advanced form steps for portals](/power-apps/maker/portals/configure/web-form-steps).
+> - Some features of multistep forms still need to be configured using the Portal Management app. More information: [Define multistep form properties](../configure/multistep-form-properties.md).
 
 ## Create new multistep form
 
@@ -46,7 +46,7 @@ While you can use a [form](add-form.md) to collect data in Power Pages sites, a 
     | Option                            | Description                                                                                                                         |
     |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
     | Show progress indicator           | Enable or disable   progress indicator when submitting a multistep form. More information: [Progress indicator](#progress-indicator)                       |
-    | Add multiple entries per person | When enabled, allows   the form to be submitted multiple times by same person.                                                      |
+    | Add multiple entries per person | When enabled, allows the form to be submitted multiple times by same authenticated user. If you allow anonymous users to access the form, they will always be able to submit the form multiple times. |
     | On submit                         | You   can choose optionally to show a success message. You must enter the options   to redirect to a webpage and redirect to a URL. |
     | Captcha                           | You   can choose to show a captcha to anonymous users, authenticated users, or   both.                                              |
     | More options                      | From here, you can launch the form in Portal Management app for more   settings.                                          |

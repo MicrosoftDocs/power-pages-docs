@@ -138,7 +138,10 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
     ```html
     <a aria-label="{{ link.name | escape }}" {% if link.Open_In_New_Window %} target="_blank" {% endif %} href="{{ link.url | escape }}" title="{{ link.name | escape }}">{{ link.name | escape }}</a>
     ```
+
 - Adding a cloud flow immediately after creating a site results in a failure. To prevent this, wait approximately 30 minutes to 1 hour after you create your site before adding a cloud flow.
+
+- Starting in August 2023, the Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites. In addition, the Power Pages **Change Password** option will appear on the unmodified command bar for **contact** records in all model-driven Power Apps.
 
 ## Power Apps portals Studio issues
 
