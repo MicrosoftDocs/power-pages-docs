@@ -73,7 +73,7 @@ sections:
       - question: |
           My Pen test report is flagging vulnerability in CKEditor. How do I mitigate this vulnerability? 
         answer: |
-          RTE PCF control replaces CKEditor soon. If you want to mitigate this issue prior to RTE PCF controls release, disable CKEditor by configuring site setting DisableCkEditorBundle = true. A text field replaces CKEditor once it's disabled. 
+          RTE PCF control replaces CKEditor soon. If you want to mitigate this issue prior to RTE PCF control's release, disable CKEditor by configuring site setting DisableCkEditorBundle = true. A text field replaces CKEditor once it's disabled. 
 
       - question: |
           How to protect my website against XSS attacks? 
