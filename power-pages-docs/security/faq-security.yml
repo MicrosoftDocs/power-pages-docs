@@ -68,7 +68,7 @@ sections:
           Also enabling OOB/Third party AFD/WAF can add additional protection on the site.
           More information: 
           - [Configure Web Application Firewall (WAF)](configure-web-application-firewall.md)
-          - [Configure a site with Content Delivery Network]()../configure/configure-cdn.md)
+          - [Configure a site with Content Delivery Network](../configure/configure-cdn.md)
 
       - question: |
           My Pen test report is flagging vulnerability in CKEditor. How do I mitigate this vulnerability? 
