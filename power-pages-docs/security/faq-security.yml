@@ -33,11 +33,11 @@ sections:
       - question: |
            Does Power Pages support HTTP Strict Transport Security Policy? 
         answer: |
-          By default, Power Pages supports http to https redirects. If this is flagged, verify if request is getting blocked at App Service Level. 
+          By default, Power Pages supports http to https redirects. If flagged, verify if request is getting blocked at App Service Level. 
           If it's not a success request (response code >= 400), it’s a false positive. 
       
       - question: |
-          Why cookies without HTTPOnly/SameSite flag are being detected/reported by pen test tools? 
+          Why are cookies without HTTPOnly/SameSite flag are being detected/reported by pen test tools? 
         answer: |
           Power Pages sets HTTPOnly/SameSite flag for every critical cookie. There are some noncritical cookies for which HTTPOnly/SameSite isn't set, these shouldn't be considered a vulnerability.<br />
           More information: [Cookies in Power Pages](../admin/cookies.md)
@@ -45,7 +45,7 @@ sections:
       - question: |
           My Pen test report is flagging End of Life/Obsolete Software – Bootstrap 3, what should I do about it? 
         answer: |
-          There are no known vulnerabilities on Bootstrap 3; however, support for Bootstrap 5 in Power Pages is available in preview. For information on migrating to Bootstrap 5,see LINK.
+          There are no known vulnerabilities on Bootstrap 3; however, support for Bootstrap 5 in Power Pages is available in preview. For information on migrating to Bootstrap 5, see LINK.
       
       - question: |
           What ciphers does Power Pages support? What's the roadmap of continuously moving towards stronger ciphers? 
@@ -58,14 +58,14 @@ sections:
           Why does Power Pages still support RSA-CBC ciphers (TLS_ECDHE_RSA_with AES_128_CBC_SHA256 (0xC027) and TLS_ECDHE_RSA_with_AES_256_CBC_SHA384 (0xC028)), which are considered weaker? 
         answer: |
           Microsoft weighs the relative risk and disruption to customer operations in choosing cipher suites to support. The RSA-CBC cipher suites haven't been broken yet. We've enabled them to ensure consistency across our services and products, and to support all customer configurations. However, they're at the bottom of the priority list.
-          We'll deprecate these ciphers based on the Microsoft Crypto Board's continuous assessment. 
+          We deprecate ciphers based on the Microsoft Crypto Board's continuous assessment. 
           More information: 
 
       - question: |
           How do Power Pages protect against Distributed Denial of Service (DDoS) attacks? 
         answer: |
           Power Pages is built on Microsoft Azure and uses Azure DDoS Protection to guard against DDoS attacks.
-          Also enabling OOB/Third party AFD/WAF can add additional protection on the site.
+          Also enabling OOB/Third party AFD/WAF can add more protection on the site.
           More information: 
           - [Configure Web Application Firewall (WAF)](configure-web-application-firewall.md)
           - [Configure a site with Content Delivery Network](../configure/configure-cdn.md)
@@ -73,10 +73,10 @@ sections:
       - question: |
           My Pen test report is flagging vulnerability in CKEditor. How do I mitigate this vulnerability? 
         answer: |
-          CKEditor will soon be replaced by RTE PCF control. Until then if you want to mitigate this issue CKEditor can be disabled by configuring site setting DisableCkEditorBundle = true. Once CKEditor is disabled it will be replaced by a text field. 
+          RTE PCF control replaces CKEditor soon. Until then if you want to mitigate this issue CKEditor can be disabled by configuring site setting DisableCkEditorBundle = true. A text field will replace CKEditor once it is disabled. 
 
       - question: |
           How to protect my website against XSS attacks? 
         answer: |
-          It is recommended to perform html encoding before rendering data from an untrusted source. 
+          It's recommended to perform html encoding before rendering data from an untrusted source. 
           More information: [Available encoding filters](../configure/liquid/liquid-filters.md#escape-filters).
