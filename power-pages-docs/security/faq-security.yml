@@ -20,26 +20,26 @@ sections:
       - question: |
           How does Power Pages help to protect against clickjacking? 
         answer: |
-          [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking) uses embedded iframes, among other components, to hijack a user's interactions with a web page.  
-          Power Pages provides HTTP/X-Frame-Options site stings with default SAMEORIGIN to provide protection against clickjacking attack.  
+          [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking) uses embedded iFrames or other components to hijack a user's interactions with a webpage.  
+          Power Pages provides HTTP/X-Frame-Options site stings with default SAMEORIGIN to protect against clickjacking attacks.  
           More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md)
       
       - question: |
           Does Power Pages support Content Security Policy? 
         answer: |
-          Power Pages supports Content security policy (CSP). Extensive testing is recommended after enabling CSP on the websites.
+          Power Pages supports Content Security Policy (CSP). Extensive testing is recommended after enabling CSP on the websites.
           More information: [Manage content security policy](manage-content-security-policy.md)
 
       - question: |
            Does Power Pages support HTTP Strict Transport Security Policy? 
         answer: |
-          By default, Power Pages supports http to https redirects. If flagged, verify if request is getting blocked at App Service Level. 
-          If it's not a success request (response code >= 400), it’s a false positive. 
+          By default, Power Pages supports http to https redirects. If flagged, verify whether or not request is getting blocked at App Service Level. 
+          If it's not a successful request (response code >= 400), it’s a false positive. 
       
       - question: |
-          Why are cookies without HTTPOnly/SameSite flag are being detected/reported by pen test tools? 
+          Why are cookies without HTTPOnly/SameSite flags detected/reported by pen test tools? 
         answer: |
-          Power Pages sets HTTPOnly/SameSite flag for every critical cookie. There are some noncritical cookies for which HTTPOnly/SameSite isn't set, these shouldn't be considered a vulnerability.<br />
+          Power Pages sets HTTPOnly/SameSite flags for every critical cookie. There are some noncritical cookies for which HTTPOnly/SameSite isn't set, and these shouldn't be considered a vulnerability.<br />
           More information: [Cookies in Power Pages](../admin/cookies.md)
       
       - question: |
@@ -57,15 +57,15 @@ sections:
       - question: |
           Why does Power Pages still support RSA-CBC ciphers (TLS_ECDHE_RSA_with AES_128_CBC_SHA256 (0xC027) and TLS_ECDHE_RSA_with_AES_256_CBC_SHA384 (0xC028)), which are considered weaker? 
         answer: |
-          Microsoft weighs the relative risk and disruption to customer operations in choosing cipher suites to support. The RSA-CBC cipher suites haven't been broken yet. We've enabled them to ensure consistency across our services and products, and to support all customer configurations. However, they're at the bottom of the priority list.
+          Microsoft weighs the relative risk and disruption to customer operations in choosing cipher suites to support. The RSA-CBC cipher suites haven't been broken yet. We've enabled them to ensure consistency across our services and products, and to support all customer configurations; however, they're at the bottom of the priority list.
           We deprecate ciphers based on the Microsoft Crypto Board's continuous assessment. 
-          More information: 
+          More information: [Which TLS 1.2 cipher suites are supported by Power Pages?]()../faq#which-tls-1-2-cipher-suites-are-supported-by-power-pages-)
 
       - question: |
           How do Power Pages protect against Distributed Denial of Service (DDoS) attacks? 
         answer: |
           Power Pages is built on Microsoft Azure and uses Azure DDoS Protection to guard against DDoS attacks.
-          Also enabling OOB/Third party AFD/WAF can add more protection on the site.
+          Also enabling OOB/Third party AFD/WAF can add more protection on the site. <br />
           More information: 
           - [Configure Web Application Firewall (WAF)](configure-web-application-firewall.md)
           - [Configure a site with Content Delivery Network](../configure/configure-cdn.md)
@@ -73,7 +73,7 @@ sections:
       - question: |
           My Pen test report is flagging vulnerability in CKEditor. How do I mitigate this vulnerability? 
         answer: |
-          RTE PCF control replaces CKEditor soon. Until then if you want to mitigate this issue CKEditor can be disabled by configuring site setting DisableCkEditorBundle = true. A text field will replace CKEditor once it is disabled. 
+          RTE PCF control replaces CKEditor soon. If you want to mitigate this issue prior to RTE PCF controls release, disable CKEditor by configuring site setting DisableCkEditorBundle = true. A text field replaces CKEditor once it's disabled. 
 
       - question: |
           How to protect my website against XSS attacks? 
