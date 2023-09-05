@@ -27,7 +27,7 @@ sections:
       - question: |
           Does Power Pages support Content Security Policy? 
         answer: |
-          Power Pages supports Content Security Policy (CSP). Extensive testing is recommended after enabling CSP on the websites.
+          Power Pages supports Content Security Policy (CSP). Extensive testing is recommended after enabling CSP on Power Pages websites.
           More information: [Manage content security policy](manage-content-security-policy.md)
 
       - question: |
