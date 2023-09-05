@@ -78,5 +78,5 @@ sections:
       - question: |
           How to protect my website against XSS attacks? 
         answer: |
-          It's recommended to perform html encoding before rendering data from an untrusted source. 
+          We recommend performing html encoding before rendering data from an untrusted source. 
           More information: [Available encoding filters](../configure/liquid/liquid-filters.md#escape-filters).
