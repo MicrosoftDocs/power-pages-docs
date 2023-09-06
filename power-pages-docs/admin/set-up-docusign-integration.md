@@ -15,7 +15,6 @@ contributors:
 ---
 
 <!-- Line 33 mentions PCF control. If this refers to Power Apps component framework, we shouldn't abbreviate it. See the style guidance here: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=44683 -->
-<!-- esignature? -->
 
 
 # Set up DocuSign integration (preview)
@@ -42,7 +41,7 @@ Integrating DocuSign into your application requires three steps:
 - Set up a template in DocuSign. The template can contain one or more documents for viewing and signing. The template is assigned a recipient role but doesn't need any name or email association—these fields are assigned from the Power Pages website. The document can include tabs or fields including the signature tab. See [DocuSign Template documentation](https://support.docusign.com/s/document-item?language=en_US&bundleId=xry1643227563338&topicId=uab1578456394214.html&_LANG=enus) for details or watch [this video](https://support.docusign.com/s/articles/Create-a-DocuSign-Template?language=en_US).
 - You may wish to review how to [Configure Power Automate cloud flows in Power Pages (preview)](../configure/cloud-flow-integration.md) prior to integrating DocuSign with your Power Pages site.
 - Configure a [multistep form](../getting-started/multistep-forms.md) that has a step to allow users to sign documents. This step displays a subgrid displaying the documents requiring signature. This is configured in a later step. The Dataverse table used for the multistep will need to be configured such that **Creating a new activity** needs to be selected in the **Make this table an option when** section. More information: [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md).
-- The eSignature integration will only work with authenticated users who must have their first name, last name, and email configured in their profile.
+- The e-signature integration will only work with authenticated users who must have their first name, last name, and email configured in their profile.
 
 ## Step 1: Install DocuSign
 
@@ -80,7 +79,7 @@ The Enable integration menu displays.
    | Template ID | DocuSign eSignature website |
    | Template Name | DocuSign eSignature website |
    | Role Name | DocuSign eSignature website |
-   | Table | Dataverse table used in the multistep form requiring eSignatures |
+   | Table | Dataverse table used in the multistep form requiring e-signatures |
 
 1. (Optional) Map the form table fields to the DocuSign tabs in the document.
 
