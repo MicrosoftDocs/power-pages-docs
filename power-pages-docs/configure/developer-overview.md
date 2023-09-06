@@ -42,8 +42,13 @@ Websites created using Power Pages can utilize client side JavaScript to address
 - Add logic to form and list components to hide and show fields, set requirement levels, prepopulate values and other enhancements.
 - Call APIs such as Power Automate and the Power Pages WebAPI.
 - Build interactive functionality
+- JavaScript be added to webpages, basic forms, multistep form steps, lists, and web templates.
 
-More information: [Add custom JavaScript](add-custom-javascript.md)
+More information: 
+-[Add custom JavaScript](add-custom-javascript.md)
+-[About basic forms](basic-forms.md#additional-settings)
+-[Add custom JavaScript to a list](add-custom-javascript-list.md)
+
 
 ## Liquid
 
