@@ -46,7 +46,7 @@ Integrating DocuSign into your application requires three steps:
 
 ## Step 1: Install DocuSign
 
-1. In the design studio, choose **Set up** > **Integration** > **External Apps**.
+1. In the design studio, choose **Set up** > **Integrations** > **External apps**.
 1. Select the **Install** action for DocuSign. 
 
    :::image type="content" source="Media/docusign/install-docusign.png" alt-text="A screenshot of the Setup workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
@@ -75,12 +75,12 @@ The Enable integration menu displays.
 1. Add the **DocuSign Envelope Create and Sign** cloud flow from the previous step to this website.
 1. Enter the DocuSign template metadata in the fields provided: 
 
-| Value | Source |
-|-|-|
-| Template ID | DocuSign eSignature website |
-| Template Name | DocuSign eSignature website |
-| Role Name | DocuSign eSignature website |
-| Table | Dataverse table used in the multistep form requiring eSignatures |
+   | Value | Source |
+   |-|-|
+   | Template ID | DocuSign eSignature website |
+   | Template Name | DocuSign eSignature website |
+   | Role Name | DocuSign eSignature website |
+   | Table | Dataverse table used in the multistep form requiring eSignatures |
 
 1. (Optional) Map the form table fields to the DocuSign tabs in the document.
 
