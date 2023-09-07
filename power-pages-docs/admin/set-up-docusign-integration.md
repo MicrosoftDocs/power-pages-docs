@@ -13,15 +13,11 @@ contributors:
     - meeramahabala
     - ProfessorKendrick
 ---
-
-<!-- Line 33 mentions PCF control. If this refers to Power Apps component framework, we shouldn't abbreviate it. See the style guidance here: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=44683 -->
-
-
 # Set up DocuSign integration (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Pages and DocuSign integration offers an efficient workflow for incorporating e-signatures into multistep forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **Integrations** > **External Apps** tab in the Setup workspace and allows you to map your specific Dataverse tables to DocuSign. With this integration, you can add an e-signature step to your multistep forms, enabling a streamlined process for capturing digital signatures.
+Power Pages and DocuSign integration offers an efficient workflow for incorporating e-signatures into multistep forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **Integrations** > **External Apps** tab in the Set up workspace and allows you to map your specific Dataverse tables to DocuSign. With this integration, you can add an e-signature step to your multistep forms, enabling a streamlined process for capturing digital signatures.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -48,7 +44,7 @@ Integrating DocuSign into your application requires three steps:
 1. In the design studio, choose **Set up** > **Integrations** > **External apps**.
 1. Select the **Install** action for DocuSign. 
 
-   :::image type="content" source="Media/docusign/install-docusign.png" alt-text="A screenshot of the Setup workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
+   :::image type="content" source="Media/docusign/install-docusign.png" alt-text="A screenshot of the Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
 
 The install action may take a few moments. The action changes to configure once the action is complete. This installs a solution, which contains tables, flows, Dataverse plug-ins, and code components to render signed documents.
 
@@ -98,7 +94,7 @@ To enable DocuSign, complete the following steps:
     - Choose the correct template to associate with the form.
     - Enable the form toggle for e-signature.
     
-        :::image type="content" source="Media/docusign/step-settings.png" alt-text="The step settings options inside of the Setup workspace in Power Pages design studio.":::
+        :::image type="content" source="Media/docusign/step-settings.png" alt-text="The step settings options inside of the Set up workspace in Power Pages design studio.":::
 
         > [!NOTE] 
         > You must open the form to give permission to authenticated users.
