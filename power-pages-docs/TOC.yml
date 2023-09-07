@@ -636,7 +636,7 @@
           href: security/configure-web-application-firewall.md
         - name: Web Application Firewall rule groups
           href: security/web-application-firewall-rule-groups.md
-    - name: Security FAQs
+    - name: Power Pages security FAQ
       href: security/faq.yml
 - name: Go live
   items:
