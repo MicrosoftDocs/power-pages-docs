@@ -120,7 +120,7 @@
       href: configure/ai-copilot-overview.md
     - name: Dataverse and Power Pages
       href: getting-started/what-is-dataverse.md
-    - name: Use Pages workspace
+    - name: Use the Pages workspace
       items:
         - name: Create a web page
           href: getting-started/first-page.md
@@ -130,7 +130,7 @@
           items:
             - name: Edit pages
               href: getting-started/customize-pages.md
-            - name: Edit header
+            - name: Edit the page header
               href: getting-started/edit-header.md
             - name: Add components to pages
               items:
@@ -140,39 +140,39 @@
                   href: getting-started/add-text.md
                 - name: Add AI-generated text using Copilot (preview)
                   href: getting-started/add-text-copilot.md
-                - name: Add button
+                - name: Add a button
                   href: getting-started/add-button.md
-                - name: Add image
+                - name: Add an image
                   href: getting-started/add-image.md
                 - name: Add video
                   href: getting-started/add-video.md
-                - name: Add spacer
+                - name: Add a spacer
                   href: getting-started/add-spacer.md
-                - name: Add Power BI
+                - name: Add a Power BI report
                   href: getting-started/add-power-bi.md
-                - name: Add list
+                - name: Add a list
                   href: getting-started/add-list.md
-                - name: Add form
+                - name: Add a form
                   href: getting-started/add-form.md
-                - name: Create AI-generated form using Copilot (preview)
+                - name: Add an AI-generated form using Copilot (preview)
                   href: getting-started/add-form-copilot.md
-                - name: Add multistep form
+                - name: Add a multistep form
                   href: getting-started/multistep-forms.md
-                - name: Add IFrame
+                - name: Add an IFrame
                   href: getting-started/add-iframe.md
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
               href: configure/visual-studio-code-editor.md              
-    - name: Use the Styling workspace
+    - name:  Style your site
       items:
         - name: Styling workspace overview
           href: getting-started/style-site.md
-        - name: Create AI-generated theme using Copilot (preview)
+        - name: Create an AI-generated theme using Copilot (preview)
           href: getting-started/theme-copilot.md
         - name: Manage CSS files
           href: configure/manage-css.md
-    - name: Use the Data workspace
+    - name: Manage your site data
       items:
         - name: Data workspace overview
           href: getting-started/use-data-workspace.md
@@ -182,13 +182,13 @@
           href: configure/data-workspace-views.md
         - name: Create and modify forms
           href: configure/data-workspace-forms.md
-    - name: Use Set up workspace
+    - name: Manage your site security and integrations
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Enable chatbot (preview)
+        - name: Add an AI-powered chatbot (preview)
           href: getting-started/enable-chatbot.md
-        - name: Force Bing webmaster to index your site (preview)
+        - name: Get your site indexed faster (preview)
           href: getting-started/force-bing-index.md
         - name: Progressive web applications
           items:

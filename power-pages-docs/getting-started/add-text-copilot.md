@@ -1,66 +1,93 @@
 ---
 title: Add AI-generated text using Copilot (preview)
-description: Learn how to add AI-generated text using Copilot to a page in your Power Pages site.
+description: Learn how to create AI-generated text using Copilot and add it to a page in your Power Pages site.
+ms.topic: how-to
+ms.date: 09/07/2023
 author: ckwan-ms
-ms.topic: conceptual
-ms.custom: 
-ms.date: 05/23/2022
-ms.subservice:
 ms.author: ckwan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
     - ckwan-ms
+ms.custom: bap-template
 ---
 
 # Add AI-generated text using Copilot (preview)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Copilot for text allows you to create website copy within the context of design studio. After generating the text using Copilot, you can change the text to further customize your requirements.
+An easy way to add text to your Power Pages website is to ask Copilot to create it for you. Describe the text you need. Copilot generates copy based on your description and offers a preview for you to check. You can [add the text](add-text.md) to your site as it is, edit it first, or start over with a different description.
 
-:::image type="content" source="media/add-text-copilot/copilot-text.png" alt-text="A screenshot of the Copilot icon in text component." border="true":::
+:::image type="content" source="media/add-text-copilot/copilot-text.png" alt-text="Screenshot of the text creation page in the Copilot for Power Pages preview.":::
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - This feature doesn't support non-English language input.
-> - This feature will be available for preview in the United States only.
-> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
+> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
-To use Copilot for text:
+## Prerequisites
 
-1. Go to [Pages workspace](first-page.md).
-1. [Add a text component](add-text.md).
-1. Select the **Copilot** icon.
+To use AI-powered Copilot features in Power Pages:
 
-    :::image type="content" source="media/add-text-copilot/copilot-icon.png" alt-text="A screenshot of copilot icon." border="true":::
+- Your environment must be located in the United States.
+- Your browser language must be set to US-English.
 
-1. Describe the text that you want to generate using AI. For example, "I want to describe the benefits of student loan options at Contoso university."
+## Generate text with Copilot
 
-    :::image type="content" source="media/add-text-copilot/contoso-example-description.png" alt-text="A screenshot of the Contoso university student loan options." border="true":::
+1. Go to the [Pages workspace](first-page.md) and select a page for your form.
+1. Select the **Text** component.
+1. In the text component toolbar, select the **Copilot** icon.
 
-1. Generate text by pressing the **Enter** key on the keyboard, or using the generate text icon on the bottom-right side of the text box.
+    :::image type="content" source="media/add-text-copilot/copilot-icon.png" alt-text="Screenshot of a text component in Power Pages, with the Copilot icon highlighted.":::
 
-    :::image type="content" source="media/add-text-copilot/contoso-example-generated-text.png" alt-text="A screenshot of the Contoso university student loan options AI generated text." border="true":::
+1. Describe the text that you want to Copilot to generate; for example, "I want to describe the benefits of student loan options at Contoso university." You can use up to 1,500 characters in your description.
 
-    To customize the text, you can choose the following options:
-    
-    - **Rewrite** - generates new text based on the already provided description.
-    - **Change the tone** - changes the tone of the generated text to make it professional, conversational, friendly or educational.
-    - **Adjust the length** - make the generated text shorter or longer.
+    :::image type="content" source="media/add-text-copilot/contoso-example-description.png" alt-text="Screenshot of the text generation box with a description entered.":::
 
-1. Select **Add to page** to add the AI-generated text.
+1. To send your description to Copilot, press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
 
-    > [!IMPORTANT]
-    > To avoid unintended publishing of generated text, ensure you review, edit, and verify the generated text that fits your requirements before changing the [site's visibility](../security/site-visibility.md) to **Public**.
+1. Check the preview below your description and refine the text as needed.
 
-Once the text is added to the page, you can continue to edit the page with the in-context [editing experiences](customize-pages.md).
+    - To refine your description and generate new text, select **Rewrite**.
+    - To keep the generated text but make it sound more friendly, casual, educational, professional, or excited, select **Change the tone**.
+    - To keep the generated text but make it more concise or expand on it, select **Adjust the length**.
+    - To give Copilot more information, select **Add more details for Copilot to work with**.
+    - To give Microsoft feedback on how well Copilot interpreted your description or refinement, select the thumbs-up or thumbs-down icon.
+
+1. To add the text to the page, select **Add to page**.
+
+:::image type="content" source="media/add-text-copilot/generated-text.png" alt-text="Screenshot of Copilot-generated text.":::
+
+> [!IMPORTANT]
+> AI-generated text can contain mistakes or be otherwise inappropriate for your intended use. Always review, edit, and verify AI-generated text before you [change your site's visibility](../security/site-visibility.md) to public.
+
+After the text is added to the page, you can edit it the same way you [edit any page component](customize-pages.md).
+
+### Change the tone and length and add details: Examples
+
+Here are examples of the same generated text, before and after applying refinements in tone and length and giving Copilot more information. Note how each generation builds on your previous selections.
+
+- Original text:
+
+  Contoso University offers a range of student loan options to help students pay for their education. With competitive interest rates, flexible repayment plans, and no hidden fees. Contoso University's student loan program is an excellent choice for students looking for financial assistance. Plus, Contoso University's experienced loan advisors are available to help students understand their loan options and find the best solution for their individual needs. With Contoso University, students can be confident that they are getting the best loan option for their educational goals.
+
+- After **changing the tone** to **Friendlier**:
+
+  At Contoso University, we understand that financing your education can be a challenge. That's why we offer a range of student loan options to help make your dreams a reality. Our loans come with competitive interest rates, flexible repayment plans, and no hidden fees - so you can be sure you're getting the best deal. Plus, our experienced loan advisors are here to guide you through the process and help you find the best loan option for your individual needs. With Contoso University, you can be confident that you're getting the best loan option for your educational goals - and that you're doing so with a friendly and supportive team by your side.
+
+- After **changing the length** to **Make it shorter**:
+
+  At Contoso University, we understand financing your education can be a challenge. That's why we offer a range of student loan options with competitive interest rates, flexible repayment plans and no hidden fees. Our experienced loan advisors are here to guide you through the process and help you find the best loan option for your individual needs. With Contoso University, you can be confident you're getting the best loan option for your educational goals - and doing so with a friendly and supportive team by your side.
+
+- After **giving Copilot more details to work with**; in this case, that Contoso University is rated a Best Value for the Money by University Ranking Magazine:
+
+  At Contoso University, we understand financing your education can be a challenge. That's why we offer a range of student loan options with competitive interest rates, flexible repayment plans and no hidden fees. Our experienced loan advisors are here to guide you through the process and help you find the best loan option for your individual needs. With Contoso University, you can be confident you're getting the best loan option for your educational goals - and doing so with a friendly and supportive team by your side. Additionally, Contoso University is rated a Best Value for the Money by University Ranking Magazine, making it an even more attractive choice for students looking to finance their education.
 
 ### See also
 
 - [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
-- [Enable chatbot in Power Pages site (preview)](enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](force-bing-index.md)
-- [Create a form in a webpage using a Copilot (preview)](add-form-copilot.md)
+- [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
+- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
+- [Get your site indexed faster (preview)](../getting-started/force-bing-index.md)

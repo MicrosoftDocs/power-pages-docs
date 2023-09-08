@@ -1,6 +1,6 @@
 ---
-title: Overview of AI-powered Copilot features in Power Pages (preview)
-description: Learn how AI-powered Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
+title: Overview of AI-powered and Copilot features in Power Pages (preview)
+description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
 ms.date: 09/06/2023
 author: sandhangitmsft
@@ -16,7 +16,7 @@ ms.custom:
   - bap-template
 ---
 
-# Overview of AI-powered Copilot features in Power Pages (preview)
+# Overview of AI-powered and Copilot features in Power Pages (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -36,16 +36,16 @@ Watch this brief video to learn how Copilot can help you make business websites 
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be in the United States region.
+- Your environment must be located in the United States.
 - Your browser language must be set to US-English.
 
 ## Turn off Copilot in Power Pages
 
 To turn off Copilot and AI enhancements in Power Pages, admins can start a support request with Microsoft.
 
-## Next steps
+## See also
 
-- [Use Copilot to create a form in a webpage (preview)](../getting-started/add-form-copilot.md)
-- [Use Copilot to generate text and add it to a webpage (preview)](../getting-started/add-text-copilot.md)
-- [Add a chatbot to a Power Pages site (preview)](../getting-started/enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
+- [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
+- [Add AI-generated text using Copilot (preview)](../getting-started/add-text-copilot.md)
+- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
+- [Get your site indexed faster (preview)](../getting-started/force-bing-index.md)

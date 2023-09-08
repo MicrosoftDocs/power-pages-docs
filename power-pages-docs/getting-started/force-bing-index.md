@@ -1,171 +1,150 @@
 ---
-title: Force Bing webmaster to index your site (preview)
-description: Learn how to force Bing webmaster to index your site.
+title: Get your site indexed faster (preview)
+description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a chatbot.
+ms.topic: how-to
+ms.date: 09/08/2023
 author: nageshbhat-msft
-ms.topic: conceptual
-ms.custom: 
-ms.date: 05/23/2022
-ms.subservice:
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
-    - nageshbhat-msft
+  - nickdoelman
+  - ProfessorKendrick
+  - nageshbhat-msft
+ms.custom: bap-template
 ---
 
-# Force Bing webmaster to index your site (preview)
+# Get your site indexed faster (preview)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Power Pages chatbot is powered by Bing. When a chatbot is enabled for a site, the URL is shared with Bing to index the content. However, there's no guarantee that Bing immediately starts indexing. This process can take several hours to a day. To trigger Bing to index your site's content, you can use Bing Webmaster by following the steps explained in this article.
+The Power Pages chatbot is powered by Microsoft Bing. When you [add a chatbot to your Power Pages website](./enable-chatbot.md), the URL is shared with Bing to index the content. Bing may not start indexing your site right away, however. It can take from several hours to a day. If you don't want to wait for Bing to get around to your site, you can use Bing Webmaster Tools to force it to index your site's content immediately.
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
+> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
-## Add and verify site
+## Add your site to your Bing Webmaster Tools account
 
-Follow guidelines from [Webmaster tools help](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b) to add to your site. To verify your ownership to site, you can follow one of the two methods in Power Pages.
+1. Open [Webmaster Tools](https://www.bing.com/webmasters).
+1. [Create a Bing Webmaster Tools account](https://www.bing.com/webmasters/help/getting-started-checklist-66a806de) if you don't have one yet.
+1. [Add to your site to your account](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b).
 
-### Method 1. XML file authentication
+    - If your site is already verified on Google Search Console, you can import it to Bing Webmaster Tools.
+    - If your site isn't verified on Google Search Console, you can add your site manually.
 
-1. Download **BingSiteAuth.xml** file from [Webmasters tools](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b)
+## Verify your ownership
 
-    :::image type="content" source="media/force-bing-index/xml-verification.png" alt-text="A screenshot showing XML file verification." border="false":::
+Next, verify that you're the owner of the site. Use either of the following methods, which are also described in [the Bing Webmaster Tools help](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b).
 
-1. Open [Portal Management app](../configure/portal-management-app.md) of your site.
+### XML file authentication
 
-1. Go to **Web Files**.
+With this method, you upload an XML file to your site's root folder. In Power Pages, it's as simple as adding the file to a note on the site's home page.
 
-1. Select **New Web File**.
+1. On the **Add & verify site** page in [Webmaster Tools](https://www.bing.com/webmasters), select **XML File**.
+1. Select **BingSiteAuth.xml** to download the file to your local drive.
 
-1. Enter a name. For example, "Bing Site Auth".
+    :::image type="content" source="media/force-bing-index/xml-verification.png" alt-text="Screenshot of the XML File option in Bing Webmaster Tools.":::
 
-1. Select your website.
-
-1. Select **Home** in the **Parent Page** field.
-
-1. Enter partial URL. For example, "BingSiteAuth.xml".
-
-    > [!NOTE]
-    > Partial URL must be same as the file name.
-
-1. Select **Publishing state** as **Published**.
-
+1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
+1. In the sitemap under **Content**, select **Web Files**.
+1. Select **+ New**.
+1. In **Name**, enter: *BingSiteAuth.xml*
+1. In **Website**, search for and select your site.
+1. In **Parent Page**, search for and select your site's home page.
+1. In **Partial Url**, enter: *BingSiteAuth.xml*
+1. In **Publishing State**, search for and select **Published**.
 1. Select **Save**.
+1. Select the **Notes** tab.
+1. Upload the `BingSiteAuth.xml` file.
+1. Select **Save & Close**.
 
-1. Under **Notes** tab, upload the file. In this example, "BingSiteAuth.xml".
+### Meta tag authentication
 
-    :::image type="content" source="media/force-bing-index/uploaded-file.png" alt-text="A screenshot showing the uploaded XML file." border="true":::
+With this method, you add a metadata tag to your site's header HTML. In Power Pages, it's as simple as adding a content snippet.
 
-### Method 2. Meta tag authentication
+1. On the **Add & verify site** page in [Webmaster Tools](https://www.bing.com/webmasters), select **HTML Meta Tag**.
+1. Select **Copy**.
 
-1. Copy the meta content.
+    :::image type="content" source="media/force-bing-index/meta-content.png" alt-text="Screenshot of the HTML Meta Tag option in Bing Webmaster Tools.":::
 
-    :::image type="content" source="media/force-bing-index/meta-content.png" alt-text="A screenshot showing meta tag authentication." border="false":::
+1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
+1. In the sitemap under **Content**, select **Content Snippets**.
+1. Select **+ New**.
+1. In **Name**, enter: *Head/Bottom*
+1. In **Website**, search for and select your site.
+1. In **Display Name**, enter: *Head/Bottom*
+1. Leave **Type** set to **Text**.
+1. In **Content Snippet Language**, search for and select **English**.
+1. In the **Value** box, paste the metadata you copied in step 2.
+1. Select **Save & Close**.
 
-1. Open [Portal Management app](../configure/portal-management-app.md) of your site.
+## Add a Robots.txt file
 
-1. Go to **Content Snippets**.
+Add a file to your site to tell Bing, Google, and other search engines, or *robots*, how much of its content to index. The Robots.txt file in this example allows search engines to index the entire site, but you can control what pages they're allowed to index. Use Bing Webmaster Tools to easily [edit and test your Robots.txt file](https://blogs.bing.com/webmaster/september-2020/Bing-Webmaster-Tools-makes-it-easy-to-edit-and-verify-your-robots-txt).
 
-1. Select **New Content Snippet**.
+1. On your local drive, create a text file and name it **Robots.txt**.
+1. Enter the following content in the file:
 
-1. Enter the following values.
-
-    1. Name - **Head/Bottom**
-    1. Select your website.
-    1. Display name - **Head/Bottom**
-    1. Type - **Text**
-    1. Content Snippet Language - **English**
-    1. Value - paste the meta content.
-
-1. Select **Save**.
-
-## Add Robot.txt
-
-1. Create a **Robots.txt** with the following content:
-
-    ```
+    ```txt
     User-agent: *
     Disallow:
     ```
 
-    > [!NOTE]
-    > The steps in this article use sample content that allows entire site to be indexed. However, you can change the content of Robot.txt as per the applicable standards and your business requirements.
-
-1. Open [Portal Management app](../configure/portal-management-app.md) of your site.
-
-1. Go to **Web Files**.
-
-1. Select **New Web File**.
-
-1. Enter a name. For example, "Robot.txt".
-
-1. Select your website.
-
-1. Select **Home** in the **Parent Page** field.
-
-1. Enter partial URL. For example, "Robots.txt".
-
-1. Select **Publishing state** as **Published**.
-
+1. Save and close the file.
+1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
+1. In the sitemap under **Content**, select **Web Files**.
+1. Select **+ New**.
+1. In **Name**, enter: *Robots.txt*
+1. In **Website**, search for and select your site.
+1. In **Parent Page**, search for and select your site's home page.
+1. In **Partial Url**, enter: *Robots.txt*
+1. In **Publishing State**, search for and select **Published**.
 1. Select **Save**.
+1. Select the **Notes** tab.
+1. Upload the `Robots.txt` file.
+1. Select **Save & Close**.
 
-1. Under **Notes** tab, upload the file. In this example, "Robot.txt".
+## Add a meta description to pages to index
 
-## Add meta description tag
+The *meta description* tells search engines what text to display along with the page title. It's an important part of making your site easy to find, so you should put some thought into the description of each page you plan to index. Enter the key phrase "meta description" in your favorite search engine to find guidance for creating effective meta descriptions.
 
-1. Open [Portal Management app](../configure/portal-management-app.md) of your site.
+1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
+1. In the sitemap under **Content**, select **Web Pages**.
+1. Open a page that you want to force Bing to index.
+1. Enter or update the **Description** on both the **Information** form and the **Content Page** form.
 
-1. Go to Web Pages.
+    :::image type="content" source="media/force-bing-index/meta-description-example.png" alt-text="Screenshot of a web page's Information form, with the Description highlighted.":::
 
-1. Open the web page where you want to force Bing to index.
+1. Select **Save & Close**.
+1. Repeat for all pages to be indexed.
 
-1. Update the **Description** field for both **Information form** and **Content Page form**.
+## Run an SEO scan and fix issues
 
-    :::image type="content" source="media/force-bing-index/description.png" alt-text="A screenshot showing description tag." border="true":::
+It's a good idea to scan for common issues with search engine optimization (SEO) that make your site harder to find.
 
-1. Save the record.
-
-1. Repeat the steps for all pages to be indexed.
-
-## Run SEO scan and fix issues
-
-1. Open [Webmaster tools](https://www.bing.com/webmasters/sitescan)
-
-1. Select **Site Scan** under **SEO**.
-
-    :::image type="content" source="media/force-bing-index/site-scan.png" alt-text="A screenshot showing site scan." border="true":::
-
-1. Select **Start New Scan**.
-
-1. Enter a relevant name to scan name, URL of your website, and the total number of pages. And then, select **Start Scan**.
-
-    After the scan is complete, the results are shown in the **Site Scan** dashboard.    
-
-1. Open the scan to know the site related errors.
-
-1. Resolve the errors related to the web page where you want to force Bing to index.
+1. Open [Webmaster Tools Site Scan](https://www.bing.com/webmasters/sitescan).
+1. Select **Start new scan**.
+1. [Follow the instructions](https://www.bing.com/webmasters/help/site-scan-623520c9) to analyze your site and view the report.
+1. Fix as many of the issues the scan discovered as you reasonably can.
 
 ## Submit URLs
 
-1. Open [Webmaster tools](https://www.bing.com/webmasters/sitescan)
+As the final step, index individual page URLs directly. It's a good idea to submit the URLs of any important new pages or pages with new content to get them indexed faster. You can submit up to 100 URLs per day.
 
-1. Go to **URL Submission**.
+1. Open [Webmaster Tools URL Submission](https://www.bing.com/webmasters/submiturl).
+1. Select **Submit URLs**.
+1. Enter the URLs to index, one per line.
+1. Select **Submit**.
 
-1. Select **Submit URLs** button.
+To verify the indexing status, select **URL Inspection** in the left side panel. Enter a URL, and then select **Inspect**.
 
-1. Enter all the URLs to that needs indexing.
-
-1. Verify the indexing status by navigating to **URL inspection**.
-
-Indexing might complete within a few minutes. However, it may take an hour to get the actual result on the bot.
+Indexing should complete within a few minutes, but it may take up to an hour to see the results.
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
-- [Enable chatbot in Power Pages site](enable-chatbot.md)
-- [Create a form in a webpage using a Copilot](add-form-copilot.md)
-- [Use Copilot to generate text and it to a webpage](add-text-copilot.md)
+- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
+- [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
+- [Add AI-generated text using Copilot (preview)](../getting-started/add-text-copilot.md)
+- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
