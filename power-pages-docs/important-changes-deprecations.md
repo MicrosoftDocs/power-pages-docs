@@ -26,7 +26,19 @@ The announcements for changes and deprecations described in this article apply t
 
 ## Site creation from Power Apps
 
-Starting September 2023, creation of a blank app portal from Power Apps will be re-directed to the [Power Pages home](https://make.powerpages.microsoft.com). The creation of a site by selecting a portal template will not be supported on Power Apps Maker portal, but now can be done from the templates hub on [Power Pages home](https://make.powerpages.microsoft.com). 
+Starting September 2023, creation of a blank app portal from Power Apps will be re-directed to [Power Pages](https://make.powerpages.microsoft.com). Site creation from a portal template will not be supported in Power Apps. Instead, users can create a site from the templates in [Power Pages](https://make.powerpages.microsoft.com) design studio.
+
+### Why can't I create a portal from Power Apps?
+
+As part of providing a streamlined and improved experience for the Makers to create a website, all the site creation experience is now provided through [Power Pages](https://make.powerpages.microsoft.com). You can create secure, enterprise-grade, low-code business websites with Power Pages. More information: [Create a site with Power Pages](getting-started/create-manage.md)
+
+### Why do I not see Dynamics 365 portal templates in Power Apps Maker portal Apps experience?
+
+You can create websites leveraging the Dynamics 365 templates from [Power Pages](https://make.powerpages.microsoft.com). More information: [Dynamics 365 templates](templates/dynamics-365-apps/overview.md)
+
+### Will I lose access to all portals and websites that I created in Power Apps?
+
+No. You will continue to have access to all the portals and websites that you created through the Power Apps Maker portal. You can access these from [Power Pages](https://make.powerpages.microsoft.com). More information: [Manage sites](admin/manage-sites.md) 
 
 ## Power Apps portals admin center
 
