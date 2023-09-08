@@ -24,6 +24,10 @@ The announcements for changes and deprecations described in this article apply t
 > [!IMPORTANT]
 > *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
+## Site creation from Power Apps
+
+Starting September 2023, creation of a blank app portal from Power Apps will be re-directed to the [Power Pages home](https://make.powerpages.microsoft.com). The creation of a site by selecting a portal template will not be supported on Power Apps Maker portal, but now can be done from the templates hub on [Power Pages home](https://make.powerpages.microsoft.com). 
+
 ## Power Apps portals admin center
 
 The Power Apps portals admin center is now deprecated and no longer available as of June 2023. Use the new [Power Pages admin hub](/power-pages/admin/admin-overview) in the Power Platform admin center. 
@@ -110,10 +114,6 @@ Starting with portals version [9.3.4.x](/power-apps/maker/portals/versions/versi
 
 - [Webpage tracking](/power-apps/maker/portals/admin/portal-checker-performance#webpage-tracking-enabled)
 - [Web file tracking](/power-apps/maker/portals/admin/portal-checker-performance#web-file-tracking-enabled)
-
-## Site creation from Power Apps Maker portal
-
-Starting September 2023, Creation of a blank app portal from Power Apps Maker portal will be re-directed to the [Power Pages home](https://make.powerpages.microsoft.com). The creation of a site by selecting a portal template will not be supported on Power Apps Maker portal, but now can be done from the templates hub on [Power Pages home](https://make.powerpages.microsoft.com). 
 
 ### See also
 
