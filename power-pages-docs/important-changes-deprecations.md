@@ -111,6 +111,10 @@ Starting with portals version [9.3.4.x](/power-apps/maker/portals/versions/versi
 - [Webpage tracking](/power-apps/maker/portals/admin/portal-checker-performance#webpage-tracking-enabled)
 - [Web file tracking](/power-apps/maker/portals/admin/portal-checker-performance#web-file-tracking-enabled)
 
+## Site creation from Power Apps Maker portal
+
+Starting September 2023, Creation of a blank app portal from Power Apps Maker portal will be re-directed to the [Power Pages home](https://make.powerpages.microsoft.com). The creation of a site by selecting a portal template will not be supported on Power Apps Maker portal, but now can be done from the templates hub on [Power Pages home](https://make.powerpages.microsoft.com). 
+
 ### See also
 
 [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming)
