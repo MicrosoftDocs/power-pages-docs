@@ -32,7 +32,7 @@ Starting September 2023, creation of a blank app portal from Power Apps will be 
 
 As part of providing a streamlined and improved experience for the Makers to create a website, all the site creation experience is now provided through [Power Pages](https://make.powerpages.microsoft.com). You can create secure, enterprise-grade, low-code business websites with Power Pages. More information: [Create a site with Power Pages](getting-started/create-manage.md)
 
-### Why don't I see Dynamics 365 portal templates in Power Apps Maker portal Apps experience?
+### Why don't I see Dynamics 365 portal templates in Power Apps?
 
 You can create websites leveraging the Dynamics 365 templates from [Power Pages](https://make.powerpages.microsoft.com). More information: [Dynamics 365 templates](templates/dynamics-365-apps/overview.md)
 
