@@ -26,7 +26,7 @@ The announcements for changes and deprecations described in this article apply t
 
 ## Site creation from Power Apps
 
-Starting September 2023, creation of a blank app portal from Power Apps will be re-directed to [Power Pages](https://make.powerpages.microsoft.com). Site creation from a portal template will not be supported in Power Apps. Instead, users can create a site from the templates in [Power Pages](https://make.powerpages.microsoft.com) design studio.
+Starting September 2023, creation of a blank app portal from Power Apps will be re-directed to [Power Pages](https://make.powerpages.microsoft.com). 
 
 ### Why can't I create a portal from Power Apps?
 
