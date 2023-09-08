@@ -24,13 +24,29 @@ The announcements for changes and deprecations described in this article apply t
 > [!IMPORTANT]
 > *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
+## Site creation from Power Apps
+
+Starting September 2023, blank app portal creation from Power Apps will be redirected to [Power Pages](https://make.powerpages.microsoft.com). 
+
+### Why can't I create a portal from Power Apps?
+
+As part of providing a streamlined and improved experience for makers to create a website, all the site creation experience is now provided through [Power Pages](https://make.powerpages.microsoft.com). You can create secure, enterprise-grade, low-code business websites with Power Pages. More information: [Create a site with Power Pages](getting-started/create-manage.md)
+
+### Why don't I see Dynamics 365 portal templates in Power Apps?
+
+You can create websites using the Dynamics 365 templates from [Power Pages](https://make.powerpages.microsoft.com). More information: [Dynamics 365 templates](templates/dynamics-365-apps/overview.md)
+
+### Will I lose access to all portals and websites that I created in Power Apps?
+
+No. You continue to have access to all the portals and websites that you created through the Power Apps Maker portal. You can access these from [Power Pages](https://make.powerpages.microsoft.com). More information: [Manage sites](admin/manage-sites.md) 
+
 ## Power Apps portals admin center
 
 The Power Apps portals admin center is now deprecated and no longer available as of June 2023. Use the new [Power Pages admin hub](/power-pages/admin/admin-overview) in the Power Platform admin center. 
 
 ## Controlling site visibility changes in Power Pages
 
-Starting October 2022 with website version 9.4.9.xx, any new site created in Power Pages or Power Apps portals will be private by default. Only makers or people in the organization granted permission by makers will have website access, making Power Pages sites secure. This feature will provide another layer of security using Azure Active Directory authentication to prevent accidental leaks of partially developed website data and design. When a website is ready to go-live, the site visibility can be changed to public making it accessible to everyone over the internet anonymously or secured with identity providers.  
+Starting October 2022 with website version 9.4.9.xx, any new site created in Power Pages or Power Apps portals will be private by default. Only makers or people in the organization granted permission by makers will have website access, making Power Pages sites secure. This feature provides another layer of security using Azure Active Directory authentication to prevent accidental leaks of partially developed website data and design. When a website is ready to go-live, the site visibility can be changed to public making it accessible to everyone over the internet anonymously or secured with identity providers.  
 
 At launch, users with the system administrator role along with [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) will by default have privilege to change site visibility status (private to public or vice versa). 
 
