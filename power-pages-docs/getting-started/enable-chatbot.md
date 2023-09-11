@@ -92,8 +92,7 @@ The following screenshot and table describe the parameters you can change to cus
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
-- [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
-- [Add AI-generated text using Copilot (preview)](../getting-started/add-text-copilot.md)
-- [Get your site indexed faster (preview)](../getting-started/force-bing-index.md)
-- [Publish a chatbot with boosted conversations](/power-virtual-agents/nlu-boost-conversations#disable-bot-publishing)
+- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Force Bing webmaster to index your site](force-bing-index.md)
+- [Create a form in a webpage using a Copilot](add-form-copilot.md)
+- [Use Copilot to generate text and it to a webpage](add-text-copilot.md)

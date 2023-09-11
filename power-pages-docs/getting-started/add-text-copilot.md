@@ -25,6 +25,8 @@ An easy way to add text to your Power Pages website is to ask Copilot to create 
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - This feature doesn't support non-English language input.
+> - This feature will be available for preview in the United States only.
 > - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
 ## Prerequisites
@@ -86,8 +88,7 @@ Here are examples of the same generated text, before and after applying refineme
   At Contoso University, we understand financing your education can be a challenge. That's why we offer a range of student loan options with competitive interest rates, flexible repayment plans and no hidden fees. Our experienced loan advisors are here to guide you through the process and help you find the best loan option for your individual needs. With Contoso University, you can be confident you're getting the best loan option for your educational goals - and doing so with a friendly and supportive team by your side. Additionally, Contoso University is rated a Best Value for the Money by University Ranking Magazine, making it an even more attractive choice for students looking to finance their education.
 
 ### See also
-
 - [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
-- [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
-- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
-- [Get your site indexed faster (preview)](../getting-started/force-bing-index.md)
+- [Enable chatbot in Power Pages site (preview)](enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](force-bing-index.md)
+- [Create a form in a webpage using a Copilot (preview)](add-form-copilot.md)

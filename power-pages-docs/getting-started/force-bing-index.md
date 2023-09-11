@@ -1,5 +1,5 @@
 ---
-title: Get your site indexed faster (preview)
+title: Force Bing webmaster to index your site (preview)
 description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a chatbot.
 ms.topic: how-to
 ms.date: 09/08/2023
@@ -13,7 +13,7 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Get your site indexed faster (preview)
+# Force Bing webmaster to index your site (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -144,7 +144,7 @@ Indexing should complete within a few minutes, but it may take up to an hour to 
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
-- [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
-- [Add AI-generated text using Copilot (preview)](../getting-started/add-text-copilot.md)
-- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
+- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Enable chatbot in Power Pages site](enable-chatbot.md)
+- [Create a form in a webpage using a Copilot](add-form-copilot.md)
+- [Use Copilot to generate text and it to a webpage](add-text-copilot.md)

@@ -24,7 +24,9 @@ An easy way to add a form to your Power Pages website is to ask Copilot to creat
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
+> - This feature doesn't support non-English language input.
+> - This feature will be available for preview in the United States only.
+> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
 
 ## Prerequisites
 
