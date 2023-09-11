@@ -23,7 +23,7 @@ ms.custom:
 
 A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. With a couple of clicks, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *boosted conversations*&mdash;that is, natural language and generative answers&mdash;to answer questions and suggest solutions to issues in a conversational way.
 
-:::image type="content" source="media/enable-chatbot/chatbot-preview.gif" alt-text="A GIF animation that explains how to add a chatbot to a page" border="false":::<!-- EDITOR'S NOTE: Please replace the animated gif with a video IAW our new image guidelines, https://review.learn.microsoft.com/en-us/bacx/screenshots-for-bap?branch=main. -->
+:::image type="content" source="media/enable-chatbot/chatbot-preview.gif" alt-text="A GIF animation that explains how to add a chatbot to a page" border="false":::
 
 > [!IMPORTANT]
 >
@@ -43,7 +43,7 @@ To use AI-powered Copilot features in Power Pages:
 
 ## Add a chatbot
 
-1. Go to the [Set up workspace](setup-workspace.md).
+1. Go to the [Set up workspace](../configure/setup-workspace.md).
 1. Under **Integrations,** select **Chatbot (preview)**
 
     :::image type="content" source="media/enable-chatbot/select-chatbot.png" alt-text="Screenshot of the Chatbot (preview) page in Power Pages.":::

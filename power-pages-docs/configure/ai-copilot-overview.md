@@ -24,7 +24,7 @@ Copilot is a set of next-generation AI enhancements that are revolutionizing how
 
 Watch this brief video to learn how Copilot can help you make business websites faster, more easily, and more securely.
 
-:::video source="https://www.microsoft.com/en-us/videoplayer/embed/RW15U45":::
+:::video source="https://www.microsoft.com/videoplayer/embed/RW15U45":::
 
 > [!IMPORTANT]
 >
