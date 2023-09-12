@@ -25,11 +25,11 @@ Sites created with Bootstrap version 5 have functional parity with Bootstrap ver
 
 Follow these steps to enable Bootstrap version 5 support for a specific environment.
 
-1. Open the Power Platform admin center (<https://aka/ms/ppac>).
+1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
 1. Select **Environments.**
 
-1. Select the environment that you want to use the Bootstrap version 5 upgrade with.
+1. Choose the environment that you want to use the Bootstrap version 5 upgrade with.
 
 1. Select the **Power Pages sites** under the **Resources** tile.
 
