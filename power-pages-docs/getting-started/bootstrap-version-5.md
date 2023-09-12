@@ -14,16 +14,14 @@ contributors:
 
 # Create Power Pages sites with Bootstrap version 5 (preview)
 
-Now you can create new websites and migrate existing websites in Power Pages using Bootstrap version 5. You can also migrate your existing websites running on Bootstrap v3 to version 5 using the PAC CLI based migration tool provided by Power pages. The Bootstrap upgrade for Power Pages enables you to use new components including CSS Flexbox and responsive layout.
-
-Sites created with Bootstrap version 5 have functional parity with Bootstrap version 3; however, you may notice some minor changes between the two. Changes include UX improvements like spacing, icons, edges of components like buttons, text etc.
+Create new websites in Power Pages using Bootstrap version 5 to add new functionality to your site, like CSS Flexbox and responsive layout.
 
 >[!NOTE]
 > Bootstrap version 5 is supported in only environments which are on "enhanced data model". Follow these Steps to enable enhanced data model [link](https://learn.microsoft.com/en-us/power-pages/admin/enhanced-data-model#enable-the-enhanced-data-model-in-an-environment)
 
 ## Enable environment for Bootstrap version 5
 
-Follow these steps to enable Bootstrap version 5 support for a specific environment.
+To enable Bootstrap version 5 support for a specific environment:
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 

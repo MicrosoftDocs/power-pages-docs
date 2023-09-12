@@ -14,6 +14,10 @@ contributors:
 
 # Migrate existing site from Bootstrap version 3 to Bootstrap version 5
 
+You can migrate your existing websites running on Bootstrap v3 to version 5 using the PAC CLI based migration tool provided by Power Pages. 
+
+Sites created with Bootstrap version 5 have functional parity with Bootstrap version 3; however, you may notice some minor changes between the two. Changes include UX improvements like spacing, icons, edges of components like buttons, text etc.
+
 **Pre-requisite**
 
 1.  You need PAC CLI to use the Bootstrap upgrade tool to migrate your version 3 sites to Bootstrap version 5
