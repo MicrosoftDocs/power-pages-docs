@@ -43,17 +43,11 @@ Follow these steps to enable Bootstrap version 5 support for a specific environm
 
 You can create a new site using the Power Pages home page with Bootstrap version 5 once it's enabled for an environment.
 
->[!IMPORTANT]
-> You must choose a supported template to create a site using Bootstrap version 5.
-> More information: [Supported templates for Bootstrap version 5](#templates-supported-for-bootstrap-version-5) 
-
 To create a site using Bootstrap version 5:
 
 1. Navigate to the Power Pages home page.
 
-1. Select the **Create a site** button.
-
-1. Choose a supported **template**. 
+1. Select the **Create a site** button and choose a [supported template](#templates-supported-for-bootstrap-version-5).
 
 1. Select **Choose this template** to create your site.
 
@@ -65,6 +59,10 @@ You can use Power Pages studio to edit your site or the Portal management applic
 
 More information: [Customize Bootstrap](../configure/bootstrap-overview.md#customize-bootstrap)
 
+## View your Bootstrap version 5 sites
+
+You can view a list of your Power Pages sites in the Power Pages home page **My Sites** section. This list shows sites that are created on Bootstrap v3 and Bootstrap version 5 whether the environment has been enabled for Bootstrap version 5 or not.
+
 ## Supported templates for Bootstrap version 5
 
 The following templates are supported for Bootstrap 5:
@@ -74,10 +72,6 @@ The following templates are supported for Bootstrap 5:
 - [Application processing template](../templates/building-permit.md)
 - [Program registration template](../templates/after-school.md)
 - [Schedule and manage meetings template](../templates/book-a-meeting.md)
-
-## View your Bootstrap version 5 sites
-
-You can view a list of your Power Pages sites in the Power Pages home page **My Sites** section. This list shows sites that are created on Bootstrap v3 and Bootstrap version 5 whether the environment has been enabled for Bootstrap version 5 or not.
 
 ## Opt out of Bootstrap version 5
 
