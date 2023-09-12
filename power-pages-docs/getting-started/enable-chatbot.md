@@ -96,4 +96,4 @@ The following screenshot and table describe the parameters you can change to cus
 - [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
 - [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
-- [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
+- [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)

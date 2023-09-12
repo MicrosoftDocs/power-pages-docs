@@ -148,4 +148,4 @@ Indexing should complete within a few minutes, but it may take up to an hour to 
 - [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
 - [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
-- [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
+- [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)

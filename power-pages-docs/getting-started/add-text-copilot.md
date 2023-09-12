@@ -93,4 +93,4 @@ Here are examples of the same generated text, before and after applying refineme
 - [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
 - [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
-- [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
+- [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)
