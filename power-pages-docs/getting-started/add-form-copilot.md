@@ -91,7 +91,8 @@ If you remove an AI-generated form from the page it's on, it's still available f
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
-- [Add AI-generated text using Copilot (preview)](../getting-started/add-text-copilot.md)
-- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
-- [Get your site indexed faster (preview)](../getting-started/force-bing-index.md)
+- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
+- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
+- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
+- [Add AI-generated code using Copilot (preview)](add-code-copilot.md)

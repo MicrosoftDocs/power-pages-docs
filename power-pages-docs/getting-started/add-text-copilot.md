@@ -88,7 +88,9 @@ Here are examples of the same generated text, before and after applying refineme
   At Contoso University, we understand financing your education can be a challenge. That's why we offer a range of student loan options with competitive interest rates, flexible repayment plans and no hidden fees. Our experienced loan advisors are here to guide you through the process and help you find the best loan option for your individual needs. With Contoso University, you can be confident you're getting the best loan option for your educational goals - and doing so with a friendly and supportive team by your side. Additionally, Contoso University is rated a Best Value for the Money by University Ranking Magazine, making it an even more attractive choice for students looking to finance their education.
 
 ### See also
-- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
-- [Enable chatbot in Power Pages site (preview)](enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](force-bing-index.md)
-- [Create a form in a webpage using a Copilot (preview)](add-form-copilot.md)
+
+- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
+- [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
+- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
+- [Add AI-generated code using Copilot (preview)](add-code-copilot.md)

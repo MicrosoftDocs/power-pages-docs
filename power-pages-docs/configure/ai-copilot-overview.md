@@ -39,6 +39,7 @@ To learn how to use the new AI features in Power Pages, see:
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
 - [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
 - [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
+- [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
 
 ## Prerequisites
 
@@ -51,9 +52,4 @@ To use AI-powered Copilot features in Power Pages:
 
 To turn off Copilot and AI enhancements in Power Pages, admins can start a support request with Microsoft.
 
-## See also
 
-- [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
-- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
-- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
