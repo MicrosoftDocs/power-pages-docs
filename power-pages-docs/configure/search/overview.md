@@ -161,7 +161,7 @@ The following content snippets are related to global search:
     - **Attachment search**: This functionality allows you to search within the attachments or notes associated to a knowledge article. Search within note description, title, attachment file name, and attachment content of notes or attachments that are exposed on the site. More information: [Search within file attachment content](file-attachment.md)
 
 > [!NOTE]
-> The **Case** and **Knowledge Base** table have special considerations when configuring the [Site marker for record details page](additional-tables.md#site-marker-for-record-details-page).
+> The **Case** and **Knowledge Base** tables have special considerations when configuring the [Site marker for record details page](additional-tables.md#site-marker-for-record-details-page).
 
 ## Special characters and syntax supported by search
 
