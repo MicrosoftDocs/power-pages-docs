@@ -36,6 +36,10 @@ As part of providing a streamlined and improved experience for makers to create 
 
 You can create websites using the Dynamics 365 templates from [Power Pages](https://make.powerpages.microsoft.com). More information: [Dynamics 365 templates](templates/dynamics-365-apps/overview.md)
 
+### Why don't I see Dynamics 365 portal templates in Power Pages? 
+
+If you are using the [Power Pages](https://make.powerpages.microsoft.com) for the first time, then you wouldn't see the Dynamics 365 portals shown in your first site creation. However, you can see them in your subsequent sites created, provided that the environment has any of the Dynamics 365 applications installed in it.   
+
 ### Will I lose access to all portals and websites that I created in Power Apps?
 
 No. You continue to have access to all the portals and websites that you created through the Power Apps Maker portal. You can access these from [Power Pages](https://make.powerpages.microsoft.com). More information: [Manage sites](admin/manage-sites.md) 
