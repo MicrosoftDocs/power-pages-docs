@@ -23,7 +23,7 @@ If the website configuration data exists in Microsoft Dataverse (you see an acti
 
 A website may be inactivated for the following reasons:
 - When a website trial expires or a website host is deleted from the [Power Pages home page](manage-sites.md) or the [Power Platform admin center](delete-website.md), the website host is deleted but the configuration data is kept, and the website appears in the list of **Inactive** websites. 
-- An inactive website is listed even if you have never created a new website, but [transferred website configuration](migrate-site-configuration.md) from another environment.
+- When you [transfer website configuration](migrate-site-configuration.md) from another environment, the website appears in the list of **Inactive** websites in the destination environment until it is reactivated.
 
 ## Reactivate the website
 
