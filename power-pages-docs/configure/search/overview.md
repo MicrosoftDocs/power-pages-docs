@@ -148,7 +148,7 @@ The following content snippets are related to global search:
 
 ## Table-specific handling
 
-- **Case**: By default, the only cases that are searchable are in the **Resolved** state with the **Publish to Web** field set to **True**. This behavior can be modified by updating the Search view of the Case table and removing the filters available in the Search view. However, when this check is removed, it's important to ensure that the Customer Service – Case web template is modified appropriately, as this web template restricts all users from viewing cases that are active and aren't published to the web. If the web template isn't modified, cases will be visible in search results. However, when you select them, the case detail web page is displayed with the Permission denied error.
+- **Case**: By default, the only cases that are searchable are in the **Resolved** state with the **Publish to Web** field set to **True**. This behavior can be modified by updating the Search view of the Case table and removing the filters available in the Search view. However, when this check is removed, it's important to ensure that the Customer Service – Case web template is modified appropriately, as this web template restricts all users from viewing cases that are active and aren't published to the web. If the web template isn't modified, cases will be visible in search results. However, when you select them, the case detail web page is displayed with the Permission denied error. 
 
 - **Knowledge Base**: Knowledge articles are searchable only if they are in the **Published** state with the **Internal** field set to **No**. This behavior can't be modified. Knowledge articles also have special functionality available in search results as follows:
 
@@ -159,6 +159,9 @@ The following content snippets are related to global search:
         - **Product facet**: This facet allows you to filter search results based on the product associated to the knowledge articles.
 
     - **Attachment search**: This functionality allows you to search within the attachments or notes associated to a knowledge article. Search within note description, title, attachment file name, and attachment content of notes or attachments that are exposed on the site. More information: [Search within file attachment content](file-attachment.md)
+
+> [!NOTE]
+> The **Case** and **Knowledge Base** table have special considerations when configuring the [Site marker for record details page](additional-tables.md#site-marker-for-record-details-page).
 
 ## Special characters and syntax supported by search
 
