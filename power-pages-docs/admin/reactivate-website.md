@@ -17,18 +17,13 @@ contributors:
 
 # Reactivate sites
 
-If the website configuration data exists in Microsoft Dataverse (you see an active **web site** record in the [Power Pages management app](../configure/portal-management-app.md)), but there's no active website host, the website is listed in the **Inactive sites** list on the Power Pages home page.
-
 On the Power Pages home page, you can see both **Active** and **Inactive** websites.
 
-When a website trial expires or a website is deleted from the [Power Pages home page](manage-sites.md) or the [Power Platform admin center](delete-website.md), the website host is deleted but the configuration data is kept, and the site will appear in the list of **Inactive** websites. 
-
-An inactive website will also be listed even if you have never created a new website, but [transferred website configuration](migrate-site-configuration.md) from another environment.
+If the website configuration data exists in Microsoft Dataverse (you see an active **web site** record in the [Power Pages management app](../configure/portal-management-app.md)), but there's no active website host, the website is listed in the **Inactive sites** list on the Power Pages home page.
 
 A website may be inactivated for the following reasons:
-- The website host was deleted
-- The website trial expired
-- The website configuration was transferred from a source environment.
+- When a website trial expires or a website host is deleted from the [Power Pages home page](manage-sites.md) or the [Power Platform admin center](delete-website.md), the website host is deleted but the configuration data is kept, and the website appears in the list of **Inactive** websites. 
+- An inactive website is listed even if you have never created a new website, but [transferred website configuration](migrate-site-configuration.md) from another environment.
 
 ## Reactivate the website
 
