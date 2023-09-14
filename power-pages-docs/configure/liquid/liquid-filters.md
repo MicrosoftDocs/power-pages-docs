@@ -1029,7 +1029,7 @@ filename.js
 
 ### **capitalize**
 
-capitalizes the first word in a string.
+capitalizes every word in a string.
 
 **Code**
 
