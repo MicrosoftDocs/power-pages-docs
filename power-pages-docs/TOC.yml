@@ -148,13 +148,13 @@
                   href: getting-started/add-video.md
                 - name: Add spacer
                   href: getting-started/add-spacer.md
-                - name: Add Power BI
+                - name: Add Power BI report
                   href: getting-started/add-power-bi.md
                 - name: Add list
                   href: getting-started/add-list.md
                 - name: Add form
                   href: getting-started/add-form.md
-                - name: Create AI-generated form using Copilot (preview)
+                - name: Add an AI-generated form using Copilot (preview)
                   href: getting-started/add-form-copilot.md
                 - name: Add multistep form
                   href: getting-started/multistep-forms.md
@@ -164,11 +164,11 @@
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
               href: configure/visual-studio-code-editor.md              
-    - name: Use the Styling workspace
+    - name:  Style your site
       items:
         - name: Styling workspace overview
           href: getting-started/style-site.md
-        - name: Create AI-generated theme using Copilot (preview)
+        - name: Create an AI-generated theme using Copilot (preview)
           href: getting-started/theme-copilot.md
         - name: Manage CSS files
           href: configure/manage-css.md
@@ -186,9 +186,9 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Enable chatbot (preview)
+        - name: Add an AI-powered chatbot (preview)
           href: getting-started/enable-chatbot.md
-        - name: Force Bing webmaster to index your site (preview)
+        - name: Force Bing webmaster to index (preview)
           href: getting-started/force-bing-index.md
         - name: Progressive web applications
           items:
@@ -221,7 +221,7 @@
         - name: Add custom domain name
           href: admin/add-custom-domain.md
         - name: Import metadata translation
-          href: admin/enable-maintenance-mode.md
+          href: admin/import-metadata-translation.md
         - name: Set up Power BI integration
           href: admin/set-up-power-bi-integration.md
     - name: Manage custom certificate
@@ -428,6 +428,8 @@
       href: configure/virtual-tables.md
 - name: Customize and extend Power Pages
   items:
+    - name: Developer overview
+      href: configure/developer-overview.md
     - name: Liquid
       items:
         - name: Liquid overview
@@ -634,6 +636,8 @@
           href: security/configure-web-application-firewall.md
         - name: Web Application Firewall rule groups
           href: security/web-application-firewall-rule-groups.md
+    - name: Power Pages security FAQ
+      href: security/faq.yml
 - name: Go live
   items:
     - name: Go live checklist

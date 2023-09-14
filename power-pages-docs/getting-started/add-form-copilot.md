@@ -1,62 +1,98 @@
 ---
-title: Create AI-generated form using Copilot (preview)
-description: Learn how to create AI-generated form using Copilot to a page in your Power Pages site.
+title: Add an AI-generated form using Copilot (preview)
+description: Learn how to create an AI-generated form using Copilot and add it to a page in your Power Pages site.
+ms.topic: how-to
+ms.date: 09/07/2023
 author: pranita225
-ms.topic: conceptual
-ms.custom: 
-ms.date: 05/23/2022
-ms.subservice:
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+ms.custom: bap-template
 ---
 
-# Create AI-generated form using Copilot (preview)
+# Add an AI-generated form using Copilot (preview)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can start the form creation process by describing the type of form you're looking to create. Copilot suggests a form based on the description and offers a preview of the AI-generated form derived from your descriptions. You can refine and edit this form or completely start over with a different description.
+An easy way to add a form to your Power Pages website is to ask Copilot to create one for you. Describe the form you need. Copilot builds a form based on your description and offers a preview for you to check. You can [add the form](add-form.md) to your site as it is, edit it first, or start over with a different description.
 
-:::image type="content" source="media/add-form-copilot/describe-form.png" alt-text="A screenshot of preview screen where you can describe the form." border="true":::
+:::image type="content" source="media/add-form-copilot/describe-form.png" alt-text="Screenshot of the form creation page in the Copilot for Power Pages preview.":::
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
 > - This feature will be available for preview in the United States only.
 > - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages, see [Transparency notes for Power Pages](../transparency-note.md).
 
-To use Copilot for forms:
+## Prerequisites
 
-1. Go to [Pages workspace](first-page.md).
-1. [Add a form](add-form.md).
-1. Start typing the description of your form inside the text box under **Describe a form to create it**.
+To use AI-powered Copilot features in Power Pages:
 
-As the preview gets generated for the form, you can perform quick actions by selecting the AI-generated actions. The history shows you the descriptions you've used in the current attempt, and you can also start over.
+- Your environment must be located in the United States.
+- Your browser language must be set to US-English.
 
-After reviewing the AI-generated form, you can add it to the page. In the background, Power Pages creates the following for you:
+## Create a form with Copilot
 
-- A [table](../configure/data-workspace-tables.md) in Microsoft Dataverse.
-- A [Dataverse form](../configure/data-workspace-forms.md).
-- A [basic form](../configure/basic-forms.md) in Power Pages.
+1. Go to the [Pages workspace](first-page.md) and select a page for your form.
+1. Select the **Form** component.
+1. In the text box under **Describe a form to create it**, describe your form. You can use up to 250 characters in your description.
+1. To send your description to Copilot, press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
+1. Check the preview to the right of your description and refine the form as needed.
 
-The Dataverse table is created with the solution publisher's prefix selected in the Data workspace. The names of tables and forms created by Power Pages for Copilot start with `Copilot [Table name]` format to simplify and streamline your form creation process.
+    - To change the form, select a quick action or refine your description.
+    - The history shows you the descriptions you've entered so far.
+    - Select **Start over** to erase everything and start with a new description.
 
-Once the form is added to the page, you can continue to edit the form with the in-context [editing experiences](customize-pages.md).
+1. To add the form to the page, select **OK**.
 
-For example, here's how the preview might look like when describing the form as "Scholarship application form".
+:::image type="content" source="media/add-form-copilot/generated-form.png" alt-text="Screenshot of an AI-generated form in Power Pages, with the description, quick actions, and history highlighted.":::
 
-:::image type="content" source="media/add-form-copilot/scholarship-application-form.png" alt-text="A screenshot of generated preview for a scholarship form." border="false":::
+Legend:
 
-Likewise, here's an example of an AI-generated preview of a "Product customer support form".
+1. Refine description
+1. Quick actions
+1. History
 
-:::image type="content" source="media/add-form-copilot/customer-support-form.png" alt-text="A screenshot of generated preview for a customer support form." border="false":::
+When you add the form to the page, Power Pages creates the underlying form components for you in the background:
+
+- A [table](../configure/data-workspace-tables.md) and [form](../configure/data-workspace-forms.md) in Microsoft Dataverse
+- A [basic form](../configure/basic-forms.md) in Power Pages
+
+The names of tables and forms that Copilot creates always begin with "Copilot." In the previous example, the Dataverse table that's associated with the Visitor Information form is named `Copilot Visitor Information`. It appears in the Data workspace.
+
+After the form is added to the page, you can edit it the same way you [edit any page component](customize-pages.md).
+
+## Start with a prebuilt form
+
+You can start with a prebuilt form rather than enter your own description. Prebuilt forms that are appropriate for your website are listed on the form creation page.
+
+:::image type="content" source="media/add-form-copilot/prebuilt-forms.png" alt-text="Screenshot of the form generation page, with prebuilt forms highlighted.":::
+
+For example, here's the preview when you select the prebuilt scholarship application form:
+
+:::image type="content" source="media/add-form-copilot/scholarship-application-form.png" alt-text="Screenshot of the generated preview of a prebuilt scholarship form.":::
+
+Here's a preview of the prebuilt product customer support form:
+
+:::image type="content" source="media/add-form-copilot/customer-support-form.png" alt-text="Screenshot of the generated preview of a prebuilt customer support form.":::
+
+## Delete an AI-generated form
+
+If you remove an AI-generated form from the page it's on, it's still available for you to add to other pages. To delete an AI-generated form entirely, and the associated Dataverse table, you need to go into your site's advanced settings.
+
+1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
+1. In the sitemap under **Content**, select **Basic Forms**.
+1. Find the form in the list. Remember, its name starts with "Copilot."
+1. Select the space to the left of the form, and then select **Delete**.
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
-- [Enable chatbot in Power Pages site (preview)](enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](force-bing-index.md)
-- [Use Copilot to generate text and it to a webpage (preview)](add-text-copilot.md)
+- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
+- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
+- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
+- [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)
