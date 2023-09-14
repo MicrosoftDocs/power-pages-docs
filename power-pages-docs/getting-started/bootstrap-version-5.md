@@ -37,11 +37,13 @@ These actions install the packages needed for Bootstrap version 5. Now sites you
 
 ## Create a site with Bootstrap version 5
 
-Once Bootstrap version 5 is enabled for an environment, you can create new Bootstrap version 5 sites in Power Pages design studio.
+Once Bootstrap version 5 is enabled for an environment, you can create your new Bootstrap version 5 sites in Power Pages design studio.
 
 To create a site using Bootstrap version 5:
 
-1. Navigate to the Power Pages home page.
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+ 
+1. Select the [Microsoft Dataverse environment](/power-platform/admin/environments-overview) where you'd like to create the site. 
 
 1. Select the **Create a site** button and choose a [supported template](#templates-supported-for-bootstrap-version-5).
 
