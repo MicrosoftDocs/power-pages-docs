@@ -33,35 +33,21 @@ To enable Bootstrap version 5 support for a specific environment:
 
 1. From the toolbar, set the **Enable Bootstrap version 5 for new sites (preview)** toggle to the **on** position. 
 
-These actions install the packages needed for Bootstrap version 5. Now sites you create in this environment will use Bootstrap version 5.
+These actions install the packages needed for Bootstrap version 5. Once the instal is complete, you'll see the following message: "All your new sites will be created using Bootstrap v5, where you can access new studio templates and increase security. Your current sites will continue to remain in Bootstrap v3. Since this is a preview feature, it's recommended that you enable this for test environments. Learn more"
+
+Now sites you create in this environment will use Bootstrap version 5.
 
 ## Create a site with Bootstrap version 5
 
-Once Bootstrap version 5 is enabled for an environment, you can create your new Bootstrap version 5 sites in Power Pages design studio.
-
-To create a site using Bootstrap version 5:
-
-1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
- 
-1. Select the [Microsoft Dataverse environment](/power-platform/admin/environments-overview) where you'd like to create the site. 
-
-1. Select the **Create a site** button and choose a [supported template](#templates-supported-for-bootstrap-version-5).
-
-1. Select **Choose this template** to create your site.
-
-1. Fill in the required information and select **Done**. 
-
-Once you've completed these steps, you're redirected to the Power pages home page and your new site appears in the **My sites** list. You can edit the site using the Power Pages design studio once the site is ready.
+Once Bootstrap version 5 is enabled for an environment, you can [create a site](create-manage.md) in Power Pages design studio. Begin by selecting the [Microsoft Dataverse environment](/power-platform/admin/environments-overview) you enabled for Bootstrap 5. When you create your site, choose a [supported template](#templates-supported-for-bootstrap-version-5).
 
 ## Edit your Bootstrap version 5 site
 
-You can use Power Pages studio to edit your site or the Portal management application to customize your site just like you can with Power Pages sites created using Bootstrap version 3.
-
-More information: [Customize Bootstrap](../configure/bootstrap-overview.md#customize-bootstrap)
+Use Power Pages design studio to [edit your site](customize-pages.md) or use the Portal management application to [customize your site](../configure/bootstrap-overview.md#customize-bootstrap).
 
 ## View your Bootstrap version 5 sites
 
-You can view a list of your Power Pages sites in the Power Pages home page **My Sites** section. This list shows sites that are created on Bootstrap v3 and Bootstrap version 5 whether the environment has been enabled for Bootstrap version 5 or not.
+Go to the [Power Pages](https://make.powerpages.microsoft.com/) home page to view a list of your active sites. This list shows which version of Bootstrap each site was created on.
 
 ## Supported templates for Bootstrap version 5
 
@@ -75,5 +61,5 @@ The following templates are supported for Bootstrap 5:
 
 ## Opt out of Bootstrap version 5
 
-You can opt out of Bootstrap version 5 site creation by disabling the **Enable Bootstrap version 5 for new sites (preview)** option from top tool bar.
+You can opt out of Bootstrap version 5 site creation by disabling the **Enable Bootstrap version 5 for new sites (preview)** option from top tool bar in Power Pages design studio.
 
