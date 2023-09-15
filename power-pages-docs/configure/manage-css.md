@@ -25,7 +25,7 @@ You can modify the style using the [Styling workspace](../getting-started/style-
 When you upload a new custom CSS file, it's available as a web file in the [Portal Management app](portal-management-app.md).
 
 > [!NOTE]
-> Power Pages sites use Bootstrap 3.3.x. Site developers should not replace Bootstrap 3 with other CSS libraries as some of the scenarios in Power Pages are dependent on Bootstrap 3.3.x. For more information, see [Understanding Bootstrap framework](#understanding-bootstrap-framework) and [Customize Bootstrap](#customize-bootstrap) sections in this article.
+> Power Pages sites use Bootstrap 3.3.x. Site developers should not replace Bootstrap 3 with other CSS libraries as some of the scenarios in Power Pages are dependent on Bootstrap 3.3.x. More information: [Bootstrap overview](bootstrap-overview.md).
 
 ## Manage custom CSS files in the Styling workspace
 
