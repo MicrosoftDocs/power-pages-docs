@@ -14,7 +14,7 @@ contributors:
 
 # Create Power Pages sites with Bootstrap version 5 (preview)
 
-You can add new functionality to your site, like CSS Flexbox and responsive layout, using Bootstrap version 5.
+You can add new functionality to your site, like CSS Flexbox and responsive layout using Bootstrap version 5.
 
 >[!NOTE]
 > Bootstrap version 5 is only supported in enhanced data model environments. More information: [Enable the enhanced data model in an environment](../admin/enhanced-data-model.md#enable-the-enhanced-data-model-in-an-environment)
