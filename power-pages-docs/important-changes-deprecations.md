@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/28/2023
+ms.date: 09/15/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -15,6 +15,7 @@ contributors:
     - dileepsinghmicrosoft
     - nageshbhat-msft
     - ProfessorKendrick
+    - sampatn
 ---
 
 # Important upcoming changes and deprecations in Power Pages
