@@ -14,7 +14,7 @@ contributors:
 
 # Create Power Pages sites with Bootstrap version 5 (preview)
 
-You can add new functionality to your site, like CSS Flexbox and responsive layout using Bootstrap version 5.
+You can add new functionality to your site, like CSS Flexbox and responsive layout, using Bootstrap version 5.
 
 >[!NOTE]
 > Bootstrap version 5 is only supported in enhanced data model environments. More information: [Enable the enhanced data model in an environment](../admin/enhanced-data-model.md#enable-the-enhanced-data-model-in-an-environment)
@@ -37,6 +37,10 @@ These actions install the packages needed for Bootstrap version 5. Once the inst
 
 Now sites you create in this environment use Bootstrap version 5.
 
+### Opt out of Bootstrap version 5
+
+You can opt out of Bootstrap version 5 site creation by disabling the **Enable Bootstrap version 5 for new sites (preview)** toggle.
+
 ## Create a site with Bootstrap version 5
 
 Once Bootstrap version 5 is enabled for an environment, you can [create a site](create-manage.md) in Power Pages design studio. Begin by selecting the [Microsoft Dataverse environment](/power-platform/admin/environments-overview) you enabled for Bootstrap 5. When you create your site with Bootstrap version 5, you must choose a [supported template](#supported-templates-for-bootstrap-version-5).
@@ -51,7 +55,7 @@ Go to the [Power Pages](https://make.powerpages.microsoft.com/) home page to vie
 
 ## Supported templates for Bootstrap version 5
 
-The following templates are supported for Bootstrap 5:
+The following templates are supported for Bootstrap version 5:
 
 - [Blank page template](../templates/blank.md)
 - [Starter layout templates](../templates/starter-layout.md)
@@ -59,7 +63,5 @@ The following templates are supported for Bootstrap 5:
 - [Program registration template](../templates/after-school.md)
 - [Schedule and manage meetings template](../templates/book-a-meeting.md)
 
-## Opt out of Bootstrap version 5
 
-You can opt out of Bootstrap version 5 site creation by disabling the **Enable Bootstrap version 5 for new sites (preview)** option from top tool bar in Power Pages design studio.
 
