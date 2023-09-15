@@ -33,7 +33,7 @@ To enable Bootstrap version 5 support for a specific environment:
 
 1. From the toolbar, set the **Enable Bootstrap version 5 for new sites (preview)** toggle to the **on** position. 
 
-These actions install the packages needed for Bootstrap version 5. Once the install is complete, the a message confirming the installation displays.
+These actions install the packages needed for Bootstrap version 5. Once the install is complete, a message confirming the installation displays.
 
 Now sites you create in this environment use Bootstrap version 5.
 
