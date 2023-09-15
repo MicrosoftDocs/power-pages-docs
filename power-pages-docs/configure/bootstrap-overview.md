@@ -27,11 +27,11 @@ The styling framework for Power Pages currently is provided via Bootstrap versio
 
 Bootstrap supports customization through a set of variables. You can set any or all of these variables to custom values and then download a custom version of Bootstrap that is compiled based on these values.
 
-The power of Bootstrap variables is that they don't dictate the style of a single element. All styles in the framework are based on and derived from these values. For example, consider the variable `@font-size-base`. This variable specifies the size that Bootstrap assigns to normal body text. However, Bootstrap also uses this variable to indicate the font size for headings and other elements. The size for an H1 element might be defined as 300 percent of the size of `@font-size-base`. By setting this one variable, you control the entire typographic scale of your website in a consistent way. Similarly, the `@link-color` variable controls the color of hyperlinks. For the color assigned to this value, Bootstrap defines the hover color for links as 15 percent darker than your custom value.
+The power of Bootstrap variables is that they don't dictate the style of a single element. All styles in the framework are based on and derived from these values. For example, consider the variable `@font-size-base`. This variable specifies the size that Bootstrap assigns to normal body text; however, Bootstrap also uses this variable to indicate the font size for headings and other elements. The size for an H1 element might be defined as 300 percent of the size of `@font-size-base`. By setting this one variable, you control the entire typographic scale of your website in a consistent way. Similarly, the `@link-color` variable controls the color of hyperlinks. Based on the color assigned to this value, Bootstrap defines the hover color for links as 15 percent darker than your custom value.
 
-The standard way to create a custom version of Bootstrap is [through the official Bootstrap site](https://getbootstrap.com/customize/#less-variables). However, due to the popularity of Bootstrap, many third-party sites have also been created for this purpose. These sites may provide an easier-to-use interface for Bootstrap customization or predesigned versions of Bootstrap for you to download. [The official Bootstrap customizer](https://getbootstrap.com/customize/) site has more information about Bootstrap customization.  
+The standard way to create a custom version of Bootstrap is [through the official Bootstrap site](https://getbootstrap.com/customize/#less-variables); however, due to the popularity of Bootstrap, many third-party sites also exist for this purpose. These sites may provide an easier-to-use interface for Bootstrap customization or offer predesigned versions of Bootstrap for you to download. [The official Bootstrap customizer](https://getbootstrap.com/customize/) site has more information about Bootstrap customization.  
 
-When you download a customized version of Bootstrap, it contains the following directory structure.
+When you download a customized version of Bootstrap, it contains the following directory structure:
 
 ```
 css/
@@ -43,5 +43,5 @@ js/
     |-- bootstrap.min.js
 ```
 
-Or, depending on the customizer application used, it might only contain bootstrap.min.css. Regardless, bootstrap.min.css is the file that contains your customizations. The other files are the same for all custom versions of Bootstrap and are already included in your portal.
+Depending on the customizer application used, the directory structure might only contain bootstrap.min.css. Regardless, bootstrap.min.css is the file that contains your customizations. The other files are the same for all custom versions of Bootstrap and are already included in your website.
 
