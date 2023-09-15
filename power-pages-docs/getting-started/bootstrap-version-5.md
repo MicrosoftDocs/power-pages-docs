@@ -17,7 +17,7 @@ contributors:
 You can add new functionality to your site, like CSS Flexbox and responsive layout, using Bootstrap version 5.
 
 >[!NOTE]
-> Bootstrap version 5 is only supported in enhanced data model environments. More information: [Enable the enhanced data model in an environment](https://learn.microsoft.com/power-pages/admin/enhanced-data-model#enable-the-enhanced-data-model-in-an-environment)
+> Bootstrap version 5 is only supported in enhanced data model environments. More information: [Enable the enhanced data model in an environment](../admin/enhanced-data-model.md#enable-the-enhanced-data-model-in-an-environment)
 
 ## Enable an environment for Bootstrap version 5
 
