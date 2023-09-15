@@ -13,9 +13,9 @@ contributors:
 ---
 # Bootstrap overview
 
-Bootstrap is a front-end framework that includes CSS and JavaScript components for common web application interface elements. It includes styles for [navigation elements](https://getbootstrap.com/components/#nav), [forms](https://getbootstrap.com/css/#forms), and [buttons](https://getbootstrap.com/css/#buttons). Bootstrap also includes a [responsive grid layout system](https://getbootstrap.com/css/#grid), which allows site layouts to dynamically adjust to devices that have different screen sizes, such as phones and tablets. By using the Bootstrap layout system, you can develop a single site that presents an appropriate interface to all devices your customers might use.
+Bootstrap is a front-end framework that includes CSS and JavaScript components for common web application interface elements. It includes styles for [navigation elements](https://getbootstrap.com/components/#nav), [forms](https://getbootstrap.com/css/#forms), and [buttons](https://getbootstrap.com/css/#buttons). Bootstrap also includes a [responsive grid layout system](https://getbootstrap.com/css/#grid), which allows site layouts to dynamically adjust to devices with different screen sizes, such as phones and tablets. By using the Bootstrap layout system, you can develop a single site that presents an appropriate interface to all devices your customers might use.
 
-The templates included with Power Pages are implemented by using standard Bootstrap components with minimal other custom styles. So when you implement the templates, you can take advantage of Bootstrap customization options. You can quickly customize the theme (fonts, colors, and so on) in a way that's applied consistently across the site.
+Power Pages templates are implemented by using standard Bootstrap components with minimal other custom styles. When you implement the templates, you can take advantage of Bootstrap's customization options. You can quickly customize the theme (fonts, colors, and so on) in a way that's applied consistently across the site.
 
 The styling framework for Power Pages currently is provided via Bootstrap version 3 (v3) framework. Bootstrap released its latest update by launching version 5.2.2 (version 5), with enhanced UX functionalities and out-of-the-box components like accordion, offcanvas, RTL support etc.
 
