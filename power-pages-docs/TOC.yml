@@ -180,6 +180,8 @@
           href: getting-started/use-data-workspace.md
         - name: Create and modify tables
           href: configure/data-workspace-tables.md
+        - name: Create and modify virtual tables
+          href: configure/data-workspace-virtual-tables.md
         - name: Create and modify views
           href: configure/data-workspace-views.md
         - name: Create and modify forms
@@ -426,7 +428,7 @@
           href: getting-started/add-power-bi.md
         - name: Add Power BI using powerbi Liquid tag
           href: configure/add-powerbi-report.md
-    - name: Use virtual tables with Power Pages
+    - name: Configure virtual tables manually and integrate with Power Pages
       href: configure/virtual-tables.md
 - name: Customize and extend Power Pages
   items:
