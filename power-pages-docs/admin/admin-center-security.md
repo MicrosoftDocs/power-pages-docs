@@ -41,7 +41,7 @@ Select **View details** to see the review anonymous access setting for each webs
 
 ### Web Application Firewall disabled
 
-**Web Application Firewall disabled** shows the number of production websites where [Web Application Firewall (WAF)](./security/web-application-firewall.md) is disabled.
+**Web Application Firewall disabled** shows the number of production websites where [Web Application Firewall (WAF)](../security/web-application-firewall.md) is disabled.
 
 Enabling WAF improves the security of your website and Microsoft recommends enabling WAF. More information: [Enable Web Application Firewall for a website](../security/configure-web-application-firewall.md)
 
@@ -49,7 +49,7 @@ Select **View details** to see the review anonymous access setting for each webs
 
 ### External authentication enabled
 
-**External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Azure Active Directory allowing access to Dataverse data. More information: [Authentication providers](../security/authentication.md).
+**External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Azure Active Directory allowing access to Dataverse data. More information: [Authentication providers](../security/authentication/index.md).
 
 Select **View details** to see the review anonymous access setting for each website.
 
