@@ -37,7 +37,7 @@ To monitor website security for all websites in your tenant:
 
 **Anonymous access enabled** shows the number of websites where anonymous access is allowed for certain tables in Microsoft Dataverse. It means that these sites have at least one table permission that allows anonymous users to have access to the data. More information: [Table permissions](../security/assign-table-permissions.md)
 
-Select **View details** to see the review anonymous access setting for each website.
+Select **View details** to see the review the anonymous access setting for each website.
 
 ### Web Application Firewall disabled
 
@@ -45,13 +45,13 @@ Select **View details** to see the review anonymous access setting for each webs
 
 Enabling WAF improves the security of your website and Microsoft recommends enabling WAF. More information: [Enable Web Application Firewall for a website](../security/configure-web-application-firewall.md)
 
-Select **View details** to see the review anonymous access setting for each website.
+Select **View details** to see the review the Web Application Firewall setting for each website.
 
 ### External authentication enabled
 
 **External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Azure Active Directory allowing access to Dataverse data. More information: [Authentication providers](../security/authentication/index.md).
 
-Select **View details** to see the review anonymous access setting for each website.
+Select **View details** to see the review the external authentication configuration for each website.
 
 ### Site security health
 
