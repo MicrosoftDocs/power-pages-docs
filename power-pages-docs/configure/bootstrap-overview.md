@@ -21,7 +21,7 @@ The styling framework for Power Pages currently is provided via Bootstrap versio
 
 > [!NOTE] 
 > - You can create websites in Power Pages using Bootstrap version 5 (preview). More information: [Create Power Pages sites with Bootstrap version 5 (preview)](../configure/bootstrap-version-5.md)
-> - You can also migrate your existing version 3 websites to version 5. More information: [Migrate an existing site to Bootstrap version 5](../configure/migrate-to-bootstrap-version-5.md)
+> - You can also migrate your existing version 3 websites to version 5. More information: [Migrate an existing site to Bootstrap version 5](../configure/migrate-bootstrap.md)
 
 ### Customize Bootstrap
 
