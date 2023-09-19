@@ -99,7 +99,7 @@ contributors:
 
     1.  Command : pac paportal upload -p "MigratedWebsiteFolderPath"
 
-### **Step 6: Comparing the two websites.**
+### Step 6: Comparing the two websites
 
 1.  After uploading, the migrated site will be a Bootstrap v5 compliant website.
 
