@@ -32,7 +32,7 @@ contributors:
 
     1.  Open the command prompt.
 
-    2.  Command: pac auth create --url https://dataverseOrg.crm10.d ynamics.com
+    2.  Command: pac auth create --url https://dataverseOrg.crm10.dynamics.com
 
     3.  PAC CLI Auth ref: [Pac Auth](/power-platform/developer/cli/reference/auth)
 
