@@ -23,6 +23,13 @@ Bootstrap version 5 offers additional functionality and support beyond what is a
 ## Pre-requisite
 
 - PAC CLI 1.26.6 is required in order to migrate your sites to Bootstrap version 5.
+- If your site uses SVG files, you must enable .svg file support for your site's environment before you begin. To enable .svg file support:
+
+    1. Choose the gear icon in top bar and then choose **advanced** settings
+
+    1. Select the dropdown next to settings and choose system > administration. 
+
+    1. Go to system settings and remove .svg from **Set blocked file extensions for attachments**
 
 ## Installation Instructions
 
@@ -37,21 +44,6 @@ Bootstrap version 5 offers additional functionality and support beyond what is a
     3.  PAC CLI Auth ref: [Pac Auth](/power-platform/developer/cli/reference/auth)
 
 ## **Running the migration tool**
-
-### **Check List –**
-
->[!NOTE]
-> If your site uses SVG files, you must [enable .svg file support](#enable-svg-file-support) for your site's environment.
-
-### Enable .svg file support
-
-To enable .svg file support:
-
-1. Choose the gear icon in top bar and then choose **advanced** settings
-
-1. Select the dropdown next to settings and choose system > administration. 
-
-1. Go to system settings and remove .svg from **Set blocked file extensions for attachments**
 
 ### Step 1: Create two sites in Bootstrap v3
 
