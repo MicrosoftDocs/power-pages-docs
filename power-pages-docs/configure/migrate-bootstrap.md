@@ -16,11 +16,12 @@ contributors:
 
 ## Pre-requisite
 
-1. You need PAC CLI 1.26.6 to use the Bootstrap upgrade tool to migrate your v3 sites to Bootstrap v5
+- PAC CLI 1.26.6 is required in order to migrate your sites to Bootstrap version 5.
 
-1. We suggest for migration of your existing website, please create a dev environment to run the migration tool and test the changes with respect to the production website.
+- Developer environments are recommended to run the migration tool and test the changes with respect to the production website.
 
-1. You can migrate power pages site based out of **any** template.
+> [!NOTE]
+> You can migrate any of your existing Power Pages version 3 sites regardless of the template used for initial site creation.
 
 ## Installation Instructions
 
