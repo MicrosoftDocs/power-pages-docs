@@ -20,8 +20,8 @@ Power Pages templates are implemented by using standard Bootstrap components wit
 The styling framework for Power Pages currently is provided via Bootstrap version 3 (v3) framework. Bootstrap released its latest update by launching version 5.2.2 (version 5), with enhanced UX functionalities and out-of-the-box components like accordion, offcanvas, RTL support etc.
 
 > [!NOTE] 
-> - You can create websites in Power Pages using Bootstrap version 5 (preview). More information: [Create Power Pages sites with Bootstrap version 5 (preview)](../getting-started/bootstrap-version-5.md)
-> - You can also migrate your existing version 3 websites to version 5. More information: [Migrate an existing site to Bootstrap version 5](../getting-started/migrate-to-bootstrap-version-5.md)
+> - You can create websites in Power Pages using Bootstrap version 5 (preview). More information: [Create Power Pages sites with Bootstrap version 5 (preview)](../configure/bootstrap-version-5.md)
+> - You can also migrate your existing version 3 websites to version 5. More information: [Migrate an existing site to Bootstrap version 5](../configure/migrate-to-bootstrap-version-5.md)
 
 ### Customize Bootstrap
 
