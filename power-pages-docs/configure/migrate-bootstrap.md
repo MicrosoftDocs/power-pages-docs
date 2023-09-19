@@ -45,11 +45,13 @@ contributors:
 
 ### Enable .svg file support
 
-    1.  Choose Gear icon in top bar and then choose **advanced** settings
+To enable .svg file support:
 
-    2.  Click on dropdown next to settings and choose **Administration** under system
+1. Choose the gear icon in top bar and then choose **advanced** settings
 
-    3.  Go to system settings and remove .svg from **Set blocked file extensions for attachments**
+1. Select the dropdown next to settings and choose system > administration. 
+
+1. Go to system settings and remove .svg from **Set blocked file extensions for attachments**
 
 ### Step 1: Create two sites in Bootstrap v3
 
