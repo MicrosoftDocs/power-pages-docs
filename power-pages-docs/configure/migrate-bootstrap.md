@@ -31,46 +31,41 @@ Bootstrap version 5 offers additional functionality and support beyond what is a
 
     1. Go to system settings and remove .svg from **Set blocked file extensions for attachments**
 
-## Installation Instructions
+- Before you run the migration tool, you must install [Power Platform tools for Visual Studio Code](/power-platform/developer/cli/introduction). To install these tools: 
+    1. Authenticate to the Dataverse Org from where the website record will be downloaded for migration.
 
-1. Install the [Power Platform tools for Visual Studio Code](/power-platform/developer/cli/introduction).
+        1. Open the command prompt.
 
-1. Authenticate to the Dataverse Org from where the website record will be downloaded for migration.
+        1. Command: pac auth create --url https://dataverseOrg.crm10.dynamics.com
 
-    1.  Open the command prompt.
+        1. PAC CLI Auth ref: [Pac Auth](/power-platform/developer/cli/reference/auth)
 
-    2.  Command: pac auth create --url https://dataverseOrg.crm10.dynamics.com
+## Use the migration tool
 
-    3.  PAC CLI Auth ref: [Pac Auth](/power-platform/developer/cli/reference/auth)
+We strongly recommend creating two of your Bootstrap version 3 sites in your environment.  You'll use one of these sites for the migration. The duplicate site is used as a reference to compare against the migrated site.
 
-## **Running the migration tool**
+### Step 1: Download the website folder
 
-### Step 1: Create two sites in Bootstrap v3
+You'll begin by generating a list of websites in the current organization by using the command **pac paportal list**.
 
-1.  We **suggest** creating two sites with Bootstrap v3 in your environment. Use one of these sites in the migration process. The second site created is only for a reference to compare with the migrated site. Migration can be performed with just one site.
+Next, use the PAC CLI download command [PAC CLI Doc](/power-platform/developer/cli/reference/paportal#pac-paportal-download) to download the website folder.
 
-**Note** – This is not a prerequisite but a suggestion from our end.
+    Command Prompt: pac paportal download -p "DownloadDestinationPath" -id "WebsiteID"
 
-### Step 2: Download the website folder
+    >[!NOTE] 
+    > 
+    > - **-p** refers to the folder path 
+    > - **-id** refers to the website id
 
-1.  List the websites in the current organization using the command :  
- **pac paportal list**
+### Step 2: Run the migration tool on the website folder
 
-2.  Download the website folder using PAC CLI download command [PAC CLI Doc](/power-platform/developer/cli/reference/paportal#pac-paportal-download).
+Use the bootstrap-migrate command to run the tool on the downloaded website folder.
 
-    1.  Command Prompt: pac paportal download -p "DownloadDestinationPath" -id "WebsiteID"
+    Command : pac paportal bootstrap-migrate -p "WebsiteFolderPath"
 
-    2.  Where **-p refers to the folder path and -id refers to the website id**
+A new folder is created after running the migration with **V5** appended to the name of the folder.
 
-### Step 3: Run the migration tool on the website folder
-
-1.  Use the bootstrap-migrate command to run the tool on the downloaded website folder.
-
-    1.  Command : pac paportal bootstrap-migrate -p "WebsiteFolderPath"
-
-2.  A new folder is created after running the migration with "**V5**" appended to the name of the folder.
-
-### Step 4: Review the diffs using the custom VS code extension: BootstrapMigrationDiff
+### Step 3 (optional): Review the diffs using the custom VS code extension: BootstrapMigrationDiff
 
 1.  Open the V5 folder which was created after the migration process in VS Code
 
@@ -90,13 +85,13 @@ Bootstrap version 5 offers additional functionality and support beyond what is a
 
     4.  V5 file on the left will also show the breaking change as a tooltip when you hover over the highlighted change.
 
-### Step 5: Upload the migrated website record
+### Step 4: Upload the migrated website record
 
 1.  Use the PAC CLI upload command to upload the migrated website record to the org
 
     1.  Command : pac paportal upload -p "MigratedWebsiteFolderPath"
 
-### Step 6: Comparing the two websites
+### Step 5: Comparing the two websites
 
 1.  After uploading, the migrated site will be a Bootstrap v5 compliant website.
 
