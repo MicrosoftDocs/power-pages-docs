@@ -40,7 +40,10 @@ contributors:
 
 ### **Check List –**
 
-1.  If your site user SVG file anywhere. Please make sure you enabled .svg file support for your site in your environment. Steps -
+>[!NOTE]
+> If your site uses SVG files, you must [enable .svg file support](#enable-svg-file-support) for your site's environment.
+
+### Enable .svg file support
 
     1.  Choose Gear icon in top bar and then choose **advanced** settings
 
