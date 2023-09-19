@@ -61,7 +61,7 @@ contributors:
 
 ![A screenshot of a computer Description automatically generated](media/image1.png)
 
-2.  Download the website folder using PAC CLI download command( [PAC CLI Doc](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/paportal#pac-paportal-download) ).
+2.  Download the website folder using PAC CLI download command [PAC CLI Doc](/power-platform/developer/cli/reference/paportal#pac-paportal-download).
 
     1.  Command Prompt: pac paportal download -p "DownloadDestinationPath" -id "WebsiteID"
 
