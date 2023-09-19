@@ -59,8 +59,6 @@ contributors:
 1.  List the websites in the current organization using the command :  
  **pac paportal list**
 
-![A screenshot of a computer Description automatically generated](media/image1.png)
-
 2.  Download the website folder using PAC CLI download command [PAC CLI Doc](/power-platform/developer/cli/reference/paportal#pac-paportal-download).
 
     1.  Command Prompt: pac paportal download -p "DownloadDestinationPath" -id "WebsiteID"
@@ -85,8 +83,6 @@ contributors:
 
     2.  Go to "web templates/header". Open the header source html file: "Header.webtemplate.source.html"
 
-![A screenshot of visual studio code ](media/image2.png)
-
 3.  Run the bootstrap diff extension to compare the changes.
 
     1.  In VS code execute "Ctrl + Shift + P" to open the command palette.
@@ -96,10 +92,6 @@ contributors:
     3.  On execution V3 file will open on the right alongside the V5 file in a different window, with the changes being highlighted.
 
     4.  V5 file on the left will also show the breaking change as a tooltip when you hover over the highlighted change.
-
-![A screenshot of Visual Studio code ](media/image3.png)
-
-![A screenshot of Visual Studio code comparing files in Boostrap v3 and Bootstrap v5 ](media/image4.png)
 
 ### Step 5: Upload the migrated website record
 
