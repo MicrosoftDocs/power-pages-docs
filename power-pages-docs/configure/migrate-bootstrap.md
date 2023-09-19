@@ -2,7 +2,7 @@
 title: Migrate existing sites to Bootstrap version 5 (preview)
 description: Learn how to migrate your Power Pages sites to Bootstrap version 5.
 author: ankitavish 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 09/19/2023
 ms.subservice:
