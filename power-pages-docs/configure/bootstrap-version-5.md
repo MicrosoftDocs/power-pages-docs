@@ -43,11 +43,11 @@ You can opt out of Bootstrap version 5 site creation by disabling the **Enable B
 
 ## Create a site with Bootstrap version 5
 
-Once Bootstrap version 5 is enabled for an environment, you can [create a site](create-manage.md) in Power Pages design studio. Begin by selecting the [Microsoft Dataverse environment](/power-platform/admin/environments-overview) you enabled for Bootstrap 5. When you create your site with Bootstrap version 5, you must choose a [supported template](#supported-templates-for-bootstrap-version-5).
+Once Bootstrap version 5 is enabled for an environment, you can [create a site](../getting-started/create-manage.md) in Power Pages design studio. Begin by selecting the [Microsoft Dataverse environment](/power-platform/admin/environments-overview) you enabled for Bootstrap 5. When you create your site with Bootstrap version 5, you must choose a [supported template](#supported-templates-for-bootstrap-version-5).
 
 ## Edit your Bootstrap version 5 site
 
-Use Power Pages design studio to [edit your site](customize-pages.md).  You can also use the Portal management application to [customize your site](../configure/bootstrap-overview.md#customize-bootstrap).
+Use Power Pages design studio to [edit your site](../getting-started/customize-pages.md).  You can also use the Portal management application to [customize your site](../configure/bootstrap-overview.md#customize-bootstrap).
 
 ## View your Bootstrap version 5 sites
 
