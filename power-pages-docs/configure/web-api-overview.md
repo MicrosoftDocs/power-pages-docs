@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: overview
 ms.custom: 
-ms.date: 4/25/2023
+ms.date: 9/15/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -274,7 +274,7 @@ Portals Web API can't be used for the following configuration tables:
 
 ## Known issues
 
-Users will get a CDS error if they invoke a `GET` Web API request for tables that have multiple levels of *1 to many* or *many to many* [table permissions](../security/table-permissions.md) with **parent** scope defined.
+Users will get a CDS error if they invoke a `GET` Web API request for tables that have multiple levels of *1 to many* or *many to many* [table permissions](../security/table-permissions.md)  when **Parental**, **Contact** or **Account** scopes add additional conditions to the query.
 
 To resolve this issue, the recommended solution is to use [FetchXML](/power-apps/developer/data-platform/use-fetchxml-construct-query) in the OData query.
 
