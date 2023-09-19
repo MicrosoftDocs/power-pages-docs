@@ -14,20 +14,19 @@ contributors:
 
 # Migrate existing sites to Bootstrap version 5 (preview)
 
+Bootstrap version 5 offers additional functionality and support beyond what is available for Bootstrap version 3. For this reason, you may wish to migrate your existing sites to Bootstrap version 5.
+
+> [!NOTE]
+> - You can migrate any of your existing Power Pages version 3 sites regardless of the template used for initial site creation.
+> - Developer environments are recommended to run the migration tool and test the changes with respect to the production website.
+
 ## Pre-requisite
 
 - PAC CLI 1.26.6 is required in order to migrate your sites to Bootstrap version 5.
 
-- Developer environments are recommended to run the migration tool and test the changes with respect to the production website.
-
-> [!NOTE]
-> You can migrate any of your existing Power Pages version 3 sites regardless of the template used for initial site creation.
-
 ## Installation Instructions
 
 1. Install the [Power Platform tools for Visual Studio Code](/power-platform/developer/cli/introduction).
-
-1. Ensure that the PAC version is 1.26.6 or higher.
 
 1. Authenticate to the Dataverse Org from where the website record will be downloaded for migration.
 
