@@ -34,7 +34,7 @@ contributors:
 
     2.  Command: pac auth create --url https://dataverseOrg.crm10.d ynamics.com
 
-    3.  PAC CLI Auth ref: [Pac Auth](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/auth)
+    3.  PAC CLI Auth ref: [Pac Auth](/power-platform/developer/cli/reference/auth)
 
 ## **Running the migration tool**
 
