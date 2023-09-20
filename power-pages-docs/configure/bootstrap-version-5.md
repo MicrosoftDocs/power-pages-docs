@@ -34,7 +34,7 @@ To enable Bootstrap version 5 in your environment:
 
 1. From the toolbar, set the **Enable Bootstrap version 5 for new sites (preview)** toggle to the **on** position.
 
-These actions install the packages needed for Bootstrap version 5. After the setting is enabled, create new sites with the [templates that support Bootstrap version 5](#supported-templates-for-bootstrap-version-5).
+These actions install the packages needed for Bootstrap version 5. After the setting is enabled, create new sites with the [templates that support Bootstrap version 5](#supported-templates).
 
 Viewing and editing experiences for Power Pages sites created with Bootstrap version 5 remain unchanged. More information: [Edit your site](../getting-started/customize-pages.md), [Customize your site](../configure/bootstrap-overview.md#customize-bootstrap)
 
