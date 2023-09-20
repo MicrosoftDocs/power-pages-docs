@@ -106,6 +106,8 @@
           href: templates/blank.md
     - name: Manage sites
       href: admin/manage-sites.md
+    - name: Reactivate sites
+      href: admin/reactivate-website.md      
     - name: Learning hub
       href: getting-started/use-learnhub.md
     - name: Power Pages community
@@ -462,7 +464,7 @@
       items:
         - name: Web templates overview
           href: configure/web-templates.md
-        - name: Web templates as components (preview)
+        - name: Web templates as components
           items:
             - name: Web templates as components overview
               href: configure/web-templates-as-components.md
