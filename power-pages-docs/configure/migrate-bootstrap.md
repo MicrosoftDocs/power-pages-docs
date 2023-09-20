@@ -70,7 +70,7 @@ In this article, learn about how to migrate your existing site from using Bootst
 
     More information: [`pac powerpages download`](/power-platform/developer/cli/reference/powerpages#pac-powerpages-download)
 
-## Step 2: Run the migration tool
+## Step 2. Run the migration tool
 
 Use the following command `bootstrap-migrate` command to run the tool on the downloaded website folder.
 
