@@ -62,8 +62,7 @@ In this article, learn about how to migrate your existing site from using Bootst
     
     **Example**
     
-    `pac powerpages download --path c:\pac-powerpages\downloads -id
-    d44574f9-acc3-4ccc-8d8d-85cf5b7ad141`
+    `pac powerpages download --path "c:\pac-powerpages\downloads" -id d44574f9-acc3-4ccc-8d8d-85cf5b7ad141`
     
     For the **id** parameter, use the **WebSiteId** returned from the output of the previous step.
 
@@ -74,6 +73,10 @@ In this article, learn about how to migrate your existing site from using Bootst
 Use the following command `bootstrap-migrate` command to run the tool on the downloaded website folder.
 
 `pac powerpages bootstrap-migrate -p "WebsiteFolderPath"`
+
+##Example##
+
+`pac powerpages bootstrap-migrate -p `"c:\pac-powerpages\downloads\bootstrap-dev-site"
 
 This command creates a new folder after migration with **V5** appended to the folder name.
 
@@ -111,6 +114,10 @@ Use the following command to upload the migrated website record to the organizat
 More information: [`pac powerpages upload`](/power-platform/developer/cli/reference/powerpages#pac-powerpages-upload)
 
 After you upload your website record, the migrated site will be a Bootstrap version 5 website. We recommend that you [compare the site against your version 3 site](#step-3-review-your-changes) one more time. Based on this comparison, modify Bootstrap version 5 site as needed to meet your requirements.
+
+### Step 5: Clear server-side cache
+
+Clear the server-side cache for the metadata/configuration and data tables by following the steps described in [How server-side caching works in Power Pages](../admin/clear-server-side-cache.md) article.
 
 ### See also
 
