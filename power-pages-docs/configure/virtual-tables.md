@@ -72,4 +72,4 @@ Dataverse virtual tables have a set of limitations that also apply when using in
 
 ### See also
 
-[Create and modify virtual tables by using the Data workspace](data-workspace-virtual-tables.md)
+[Create and modify virtual tables by using the Data workspace (preview)](data-workspace-virtual-tables.md)
