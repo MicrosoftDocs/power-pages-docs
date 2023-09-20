@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Bootstrap version 5 offers more functionality and support beyond what is available for Bootstrap version 3. For this reason, you may wish to migrate your existing sites to Bootstrap version 5.
+Bootstrap version 5 offers more functionality and support beyond what is available for Bootstrap version 3 as well as minor UX/UI changes such as modified breadcrumb icons and changes to spacing, colors, and margins. For this reason, you may wish to migrate your existing sites to Bootstrap version 5.
 
 In this article, learn about how to migrate your existing site from using Bootstrap version 3 to use Bootstrap version 5. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use Power Platform CLI in Power Pages. More information: [Microsoft Power Platform CLI support for Power Pages](power-platform-cli.md), [Tutorial: Use Microsoft Power Platform CLI with Power Pages](power-platform-cli-tutorial.md), [`pac powerpages`](/power-platform/developer/cli/reference/powerpages)
 
