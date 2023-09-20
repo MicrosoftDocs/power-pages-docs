@@ -30,14 +30,14 @@ In this article, learn about how to migrate your existing site from using Bootst
 ## Prerequisites
 
 - You must install [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.26.6 or higher to migrate your sites to Bootstrap version 5. More information: [Install latest Power Platform CLI](/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
-- With pac cli version 1.27, the `pac paportal` command was changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward.
+> - Starting with the Power Platform CLI version 1.27, the `pac paportal` command is changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward.
 - If your site uses SVG files, ensure your Power Platform environment is configured to allow .svg file name extensions using [**Set blocked file extensions for attachments** in System Settings](/power-platform/admin/system-settings-dialog-box-general-tab).
 - Consider creating two versions of your Power Pages sites using Bootstrap version 3. And then, use one of them for the migration. Use the other copy of the site as a reference to compare against the migrated site.
 
 ## Step 1. Download the website folder
 
 > [!NOTE]
-> With pac cli version 1.27, the `pac paportal` command was changed to `pac powerpages`. `paportal` will continue to work, but we recommend using `powerpages` going forward. If you're using pac cli version 1.26.6, ensure you use `paportal` instead of `powerpages` for pac cli steps in this article.
+> If you're using the Power Platform CLI version 1.26.6, ensure you use `pac paportal` instead of `pac powerpages` for following steps.
 
 1. Open a command prompt.
 

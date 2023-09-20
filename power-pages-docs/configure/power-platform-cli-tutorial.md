@@ -20,7 +20,7 @@ In this tutorial example, you'll see how to get started with Microsoft Power Pla
 
 > [!NOTE] 
 > - This tutorial focuses on the required Microsoft Power Platform CLI commands for Power Pages use. For more information about commands used in Power Platform CLI, read [Common commands](/power-platform/developer/cli/introduction#common-commands).
-> - With pac cli version 1.27, the `pac paportal` command was changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward. This article will soon be updated to use `powerpages` instead of `paportal`. 
+> - Starting with the Power Platform CLI version 1.27, the `pac paportal` command is changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward. This article will soon be updated to use `powerpages` instead of `paportal`. 
 
 ## Download and install Visual Studio Code
 

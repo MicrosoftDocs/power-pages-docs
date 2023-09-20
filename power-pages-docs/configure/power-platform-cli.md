@@ -25,7 +25,7 @@ Deployment) of a Power Pages site configuration. You can now check in the websit
 
 > [!NOTE]
 > - This feature is generally available starting with Power Platform CLI version 1.9.8. To learn about installing the latest version, see [Install Microsoft Power Platform CLI](/power-platform/developer/cli/introduction).
-> - With pac cli version 1.27, the `pac paportal` command was changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward. This article will soon be updated to use `powerpages` instead of `paportal`. 
+> - Starting with the Power Platform CLI version 1.27, the `pac paportal` command is changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward. This article will soon be updated to use `powerpages` instead of `paportal`. 
 
 ### Why use Microsoft Power Platform CLI for website development?
 
