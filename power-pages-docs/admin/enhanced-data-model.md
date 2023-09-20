@@ -14,15 +14,9 @@ contributors:
     - gitanjalisingh33msft
 ---
 
-# Enhanced data model (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Enhanced data model 
 
 The standard data model was built by using custom tables, and it was optimized for the configuration of each website component that is stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the different solutions, tables, and metadata when a new site is provisioned. Updates to website tables in the standard model require manual and time-consuming application of package updates.
-
-> [!IMPORTANT]
-> - This feature is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 The new enhanced data model for Power Pages provides the following benefits:
 

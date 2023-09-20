@@ -16,7 +16,7 @@
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
-        - name: Use enhanced data model (preview)
+        - name: Use enhanced data model
           href: admin/enhanced-data-model.md
 - name: Try Power Pages
   items:
