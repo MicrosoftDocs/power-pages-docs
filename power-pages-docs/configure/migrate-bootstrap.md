@@ -25,7 +25,6 @@ In this article, learn about how to migrate your existing site from using Bootst
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - You can migrate any of your existing Power Pages version 3 sites regardless of the template used for initial site creation.
 > - Consider testing the migration using [developer sites](../getting-started/developer-sites.md) before you migrate a production site.
-> - You can't revert sites from using Bootstrap version 5 to Bootstrap version 3.
 
 ## Prerequisites
 
@@ -76,7 +75,10 @@ Use the following command `bootstrap-migrate` command to run the tool on the dow
 
 `pac powerpages bootstrap-migrate -p "WebsiteFolderPath"`
 
-This command creates a new folder after migration with **V5** appended to the folder name. 
+This command creates a new folder after migration with **V5** appended to the folder name.
+
+> [!NOTE]
+> You can replace existing folder with Bootstrap version 3 using the [upload command](#step-4-upload-the-migrated-website-record) if you want to revert from Bootstrap version 5 later.
 
 More information: [`pac powerpages bootstrap-migrate`](/power-platform/developer/cli/reference/powerpages#pac-powerpages-bootstrap-migrate)
 
