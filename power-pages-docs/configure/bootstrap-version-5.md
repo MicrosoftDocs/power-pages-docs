@@ -34,9 +34,9 @@ To enable Bootstrap version 5 in your environment:
 
 1. From the **Resources tile**, select **Power Pages sites**.
 
-1. From the toolbar, set the **Switch to enhanced data model** toggle to the **on** position.
+1. From the toolbar, set the **Switch to enhanced data model (preview)** toggle to **On**.
 
-1. From the toolbar, set the **Enable Bootstrap version 5 for new sites (preview)** toggle to the **on** position.
+1. From the toolbar, set the **Enable Bootstrap version 5 for new sites (preview)** toggle to **On**.
 
 These actions install the packages needed for Bootstrap version 5. After the setting is enabled, create new sites with the [templates that support Bootstrap version 5](#supported-templates).
 
