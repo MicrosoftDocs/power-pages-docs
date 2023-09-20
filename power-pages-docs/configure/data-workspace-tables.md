@@ -65,7 +65,7 @@ The table will be created in Dataverse. You can now begin to configure your tabl
 
 [Create and modify Dataverse views by using the Data workspace](data-workspace-views.md)<br>
 [Create and modify forms by using the Data workspace](data-workspace-forms.md) <br>
-[Create and modify virtual tables by using the Data workspace](data-workspace-virtual-tables.md)
+[Create and modify virtual tables by using the Data workspace (preview)](data-workspace-virtual-tables.md)
 
 ### See also
 
