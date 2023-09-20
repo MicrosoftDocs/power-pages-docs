@@ -113,5 +113,5 @@ After you upload your website record, the migrated site will be a Bootstrap vers
 ### See also
 
 - [Bootstrap overview](bootstrap-overview.md)
-- [Create and manage sites using Bootstrap version 5 (preview)](bootstrap-version-5.md)
+- [Enable Bootstrap version 5 in your environment (preview)](bootstrap-version-5.md)
 - [Manage CSS files](manage-css.md)

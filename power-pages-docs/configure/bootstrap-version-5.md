@@ -1,5 +1,5 @@
 ﻿---
-title: Enable Bootstrap version 5 in your environment(preview)
+title: Enable Bootstrap version 5 in your environment (preview)
 description: Learn how to enable Bootstrap version 5 in your environment(preview).
 author: ankitavish 
 ms.topic: conceptual
@@ -12,7 +12,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Enable Bootstrap version 5 in your environment(preview)
+# Enable Bootstrap version 5 in your environment (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

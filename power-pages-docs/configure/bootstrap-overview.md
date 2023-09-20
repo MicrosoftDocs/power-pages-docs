@@ -47,7 +47,7 @@ Depending on the customizer application used, the directory structure might only
 
 ## Next steps
 
-[Create and manage sites using Bootstrap version 5 (preview)](bootstrap-version-5.md)
+[Enable Bootstrap version 5 in your environment (preview)](bootstrap-version-5.md)
 
 ### See also
 
