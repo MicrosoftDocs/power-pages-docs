@@ -21,7 +21,8 @@ The standard data model was built by using custom tables, and it was optimized f
 >[!NOTE]
 > 
 > - All new sites will be created by default using the enhanced data model.  
->- To use the standard data model, use the toggle switch in the top menu bar to disable the Enhanced Data Model.
+> - To use the standard data model, use the toggle switch in the top menu bar to disable the Enhanced Data Model.
+> - The Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites.
 
 The enhanced data model for Power Pages provides the following benefits:
 
