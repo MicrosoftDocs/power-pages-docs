@@ -42,7 +42,7 @@ There are several ways to determine which data model your site is using:
 
 - If you're using the [Power Platform CLI](../configure/power-platform-cli.md), run the following command to view which data model is being used.
 
-    `pac paportal list -v`
+    `pac powerpages list -v`
 
     > [!NOTE]
     > This parameter is supported in Power Platform CLI version 1.22.4 and later.
@@ -122,13 +122,11 @@ Follow these steps to enable the enhanced data model in a specific environment:
 1. On the **Resources** tile, select **Power Pages sites**.
 1. On the toolbar, enable the **Switch to enhanced data model (preview)** option.
 
-    :::image type="content" source="media/enhanced-data-model/switch-to-enhanced-data-model.png" alt-text="Screenshot that shows the Switch to enhanced data model option.":::
+
 
     Installation of the **Power Pages Core** package begins. After installation is completed, you receive a message.
 
-    :::image type="content" source="media/enhanced-data-model/packages-installed.png" alt-text="Details of the package that is installed.":::
-
-You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model (preview)** option. If you disable the enhanced data model, you do **not** remove the solution packages or delete any websites. Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
+You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model** option. If you disable the enhanced data model, you do **not** remove the solution packages or delete any websites. Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
 
 ## Create a website by using the enhanced data model
 
@@ -184,11 +182,11 @@ When you use the Power Platform CLI to upload or download configuration data for
 
 **Download**
 
-`pac paportal download --path <path> --webSiteId <siteId> --modelVersion 2`
+`pac powerpages download --path <path> --webSiteId <siteId> --modelVersion 2`
 
 **Upload**
 
-`pac paportal upload --path <path> --modelVersion 2`
+`pac powerpages upload --path <path> --modelVersion 2`
 
 > [!NOTE]
 > This parameter is supported in Power Platform CLI version 1.22.4 and later.
