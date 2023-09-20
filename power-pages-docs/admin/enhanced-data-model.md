@@ -18,7 +18,12 @@ contributors:
 
 The standard data model was built by using custom tables, and it was optimized for the configuration of each website component that is stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the different solutions, tables, and metadata when a new site is provisioned. Updates to website tables in the standard model require manual and time-consuming application of package updates.
 
-The new enhanced data model for Power Pages provides the following benefits:
+>[!NOTE]
+> 
+> - All new sites will be created by default using the enhanced data model.  
+>- To use the standard data model, use the toggle switch in the top menu bar to disable the Enhanced Data Model.
+
+The enhanced data model for Power Pages provides the following benefits:
 
 - Provisioning of websites is faster.
 - Design studio experiences are faster.
@@ -118,7 +123,7 @@ Follow these steps to enable the enhanced data model in a specific environment:
 
 1. Open [Power Platform admin center](https://aka.ms/ppac).
 1. Select **Environments**.
-1. Select the environment that you want to enable the new data model in.
+1. Select the environment that you want to enable the enhanced data model in.
 1. On the **Resources** tile, select **Power Pages sites**.
 1. On the toolbar, enable the **Switch to enhanced data model (preview)** option.
 
