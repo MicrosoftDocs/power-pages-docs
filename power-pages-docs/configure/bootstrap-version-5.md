@@ -1,6 +1,6 @@
 ﻿---
-title: Create Power Pages sites with Bootstrap version 5 (preview)
-description: Learn how to create Power Pages sites with Bootstrap version 5.
+title: Enable Bootstrap version 5 in your environment(preview)
+description: Learn how to enable Bootstrap version 5 in your environment(preview).
 author: ankitavish 
 ms.topic: conceptual
 ms.custom: 
@@ -12,7 +12,7 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Create Power Pages sites with Bootstrap version 5 (preview)
+# Enable Bootstrap version 5 in your environment(preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
