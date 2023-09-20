@@ -466,7 +466,7 @@
       items:
         - name: Web templates overview
           href: configure/web-templates.md
-        - name: Web templates as components (preview)
+        - name: Web templates as components
           items:
             - name: Web templates as components overview
               href: configure/web-templates-as-components.md
