@@ -544,7 +544,7 @@
       href: configure/portals-alm.md
     - name: Use solutions with Power Pages 
       href: configure/power-pages-solutions.md
-    - name: Use Power Platform pipelines with Power Pages (preview)
+    - name: Use Power Platform pipelines with Power Pages
       href: configure/power-pages-pipelines.md  
 - name: Secure Power Pages
   items:

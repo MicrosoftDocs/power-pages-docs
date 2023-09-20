@@ -14,15 +14,9 @@ contributors:
     - Professor Kendrick
 ---
 
-# Use Power Platform pipelines with Power Pages (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Use Power Platform pipelines with Power Pages
 
 Using Power Platform pipelines with Power Pages solutions allows you to automate the deployment of websites from development environments to target environments like test and production.  
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
