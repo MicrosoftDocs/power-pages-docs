@@ -4,7 +4,7 @@ description: Learn how to create Power Pages sites with Bootstrap.
 author: ankitavish 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/11/2023
+ms.date: 09/20/2023
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: kkendrick
@@ -17,13 +17,13 @@ Bootstrap is a front-end framework that includes CSS and JavaScript components f
 
 Power Pages templates are implemented by using standard Bootstrap components with minimal other custom styles. When you implement the templates, you can take advantage of Bootstrap's customization options. You can quickly customize the theme (fonts, colors, and so on) in a way that's applied consistently across the site.
 
-The styling framework for Power Pages currently is provided via Bootstrap version 3 (v3) framework. Bootstrap released its latest update by launching version 5.2.2 (version 5), with enhanced UX functionalities and out-of-the-box components like accordion, offcanvas, RTL support etc.
+The styling framework for Power Pages currently is provided via Bootstrap version 3 (v3) framework. Bootstrap released its latest update by launching version 5.2.2 (version 5), with enhanced UX functionalities and out-of-the-box components such as accordion, offcanvas and RTL support.
 
-> [!NOTE] 
+> [!NOTE]
 > - You can create websites in Power Pages using Bootstrap version 5 (preview). More information: [Create Power Pages sites with Bootstrap version 5 (preview)](../configure/bootstrap-version-5.md)
-> - You can also migrate your existing version 3 websites to version 5. More information: [Migrate an existing site to Bootstrap version 5](../configure/migrate-bootstrap.md)
+> - You can also migrate your existing version 3 websites to version 5. More information: [Migrate an existing site to Bootstrap version 5 (preview)](../configure/migrate-bootstrap.md)
 
-### Customize Bootstrap
+## Customize Bootstrap
 
 Bootstrap supports customization through a set of variables. You can set any or all of these variables to custom values and then download a custom version of Bootstrap that is compiled based on these values.
 
@@ -45,3 +45,11 @@ js/
 
 Depending on the customizer application used, the directory structure might only contain bootstrap.min.css. Regardless, bootstrap.min.css is the file that contains your customizations. The other files are the same for all custom versions of Bootstrap and are already included in your website.
 
+## Next steps
+
+[Create and manage sites using Bootstrap version 5 (preview)](bootstrap-version-5.md)
+
+### See also
+
+- [Migrate an existing site to Bootstrap version 5 (preview)](../configure/migrate-bootstrap.md)
+- [Manage CSS files](manage-css.md)
