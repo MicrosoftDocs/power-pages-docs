@@ -1,15 +1,14 @@
 ﻿---
-title: Multistep forms
-description: Learn how to add multistep forms to your Power Pages site.
+title: Add an AI-generated multistep form using Copilot
+description: Learn how to add multistep forms to your Power Pages site using Copilot.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/27/2022
+ms.date: 09/21/2023
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
-    - nickdoelman
     - ProfessorKendrick
     - pranita225
 ---
