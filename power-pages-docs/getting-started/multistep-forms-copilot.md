@@ -36,9 +36,9 @@ To use AI-powered Copilot features in Power Pages:
 
 To use Copilot to generate a multistep form:
 
-1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+1. Go to the [Pages workspace](first-page.md) and choose a page for your form.
 
-1. From the **Pages** workspace, select the **Copilot** button from the command bar.
+1. Select the **Copilot** button from the command bar.
 
 1. Type a description of your form in the copilot text box. For example, you might ask Copilot to create a credit card application form.
 
