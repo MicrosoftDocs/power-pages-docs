@@ -26,8 +26,8 @@ The standard data model was built by using custom tables, and it was optimized f
 
 The enhanced data model for Power Pages provides the following benefits:
 
-- Provisioning of websites is faster.
-- Design studio experiences are faster.
+- Faster website provisioning.
+- Faster design studio experiences.
 - Website configurations can be contained in solutions to provide smoother Application Lifecyle Management (ALM) experiences.
 - Updates of Power Pages enhancements and bug fixes are improved.
 
@@ -150,7 +150,7 @@ Follow these steps to create a site by using a template that uses the new data m
 
 You're redirected to the Power Pages home page, where the new site appears in the **My sites** list. When the new site is ready, you can edit it by using the Power Pages design studio.
 
-## View the list of new data model sites
+## View the list of enhanced data model sites
 
 You can view newly created sites from the Power Pages home page.
 
