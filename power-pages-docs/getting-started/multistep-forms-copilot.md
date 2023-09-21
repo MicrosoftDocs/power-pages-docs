@@ -52,6 +52,7 @@ Review each step. Then decide if you want to keep the form or discard it. If you
 
 ### See also
 
+- [Add an AI-generated form using Copilot (preview)](add-form-copilot.md)
 - [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
 - [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
