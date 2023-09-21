@@ -50,3 +50,11 @@ After the form is generated, a preview of the form displays on the canvas and th
 
 Review each step. Then decide if you want to keep the form or discard it. If you choose to add the form to the page, you can edit it using design studio's existing functionality just as you would for other components.
 
+### See also
+
+- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
+- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
+- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
+- [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)
+
