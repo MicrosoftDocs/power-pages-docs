@@ -48,7 +48,5 @@ After the form is generated, a preview of the form displays on the canvas and th
 
 :::image type="content" source="media/multistep-form-copilot/copilot-review-form.png" alt-text="A screenshot of the AI-generated form in the design studio with review toolbar emphasized.":::
 
-Review each step. Then decide if you want to keep the form or discard it. 
-
-Once you add the form to the page, you can edit it using design studio's existing functionality just as you would for other components.
+Review each step. Then decide if you want to keep the form or discard it. If you choose to add the form to the page, you can edit it using design studio's existing functionality just as you would for other components.
 
