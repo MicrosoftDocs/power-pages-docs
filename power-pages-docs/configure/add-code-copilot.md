@@ -41,6 +41,8 @@ Review the [terms](https://go.microsoft.com/fwlink/?linkid=2189520) and [Respons
 ### Visual Studio Code for the Web
 
 You can also use Power Pages Copilot while edit code using [Visual Studio Code for the Web](visual-studio-code-editor.md).
+
+:::image type="content" source="media/add-ai-generated-code/vs-code-for-web-copilot.png" alt-text="A screenshot of Visual Studio Code for the Web.":::
 	
 ## How to use Copilot to generate code
 
