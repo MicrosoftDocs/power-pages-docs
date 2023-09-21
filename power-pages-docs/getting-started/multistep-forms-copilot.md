@@ -30,7 +30,6 @@ An easy way to add a multistep form to your Power Pages website is to ask Copilo
 To use AI-powered Copilot features in Power Pages:
 
 - Your environment must be located in the United States.
-
 - Your browser language must be set to US-English.
 
 ## Create a multistep form
