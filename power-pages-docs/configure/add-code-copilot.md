@@ -35,7 +35,7 @@ Review the [terms](https://go.microsoft.com/fwlink/?linkid=2189520) and [Respons
 - Open site root folder in Visual Studio Code. 
   :::image type="content" source="media/add-ai-generated-code/explorer.png" alt-text="Visual Studio Code explorer.":::
 
-- Sign in to Power Pages Copilot with your Dataverse Environment credentials. 
+- Sign in to Power Pages Copilot with your Dataverse Environment credentials, or use copilot directly with [Visual Studio Code for the Web](visual-studio-code-editor.md)
 	
 ## How to use Copilot to generate code
 
