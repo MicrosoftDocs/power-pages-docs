@@ -31,11 +31,16 @@ Add AI-generated code using Copilot in Visual Studio Code helps you create code 
 
 Review the [terms](https://go.microsoft.com/fwlink/?linkid=2189520) and [Responsible AI FAQ](../responsible-ai-overview.md) documents to understand usage and limitations of Copilot. Check the following requirements to start using Copilot in Power Pages: 
 
+### Visual Studio Code
 - Ensure you have installed the latest Power Platform Tools extension. 
 - Open site root folder in Visual Studio Code. 
   :::image type="content" source="media/add-ai-generated-code/explorer.png" alt-text="Visual Studio Code explorer.":::
 
-- Sign in to Power Pages Copilot with your Dataverse Environment credentials, or use copilot directly with [Visual Studio Code for the Web](visual-studio-code-editor.md)
+- Sign in to Power Pages Copilot with your Dataverse Environment credentials.
+
+### Visual Studio Code for the Web
+
+You can also use Power Pages Copilot while edit code using [Visual Studio Code for the Web](visual-studio-code-editor.md).
 	
 ## How to use Copilot to generate code
 
