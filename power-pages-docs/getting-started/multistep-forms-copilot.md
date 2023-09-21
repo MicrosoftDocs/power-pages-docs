@@ -42,9 +42,13 @@ To use Copilot to generate a multistep form:
 
 1. Type a description of your form in the copilot text box. For example, you might ask Copilot to create a credit card application form.
 
-After the form is generated, a preview of the form displays on the canvas. 
+:::image type="content" source="media/multistep-form-copilot/multistep-form-copilot.png" alt-text="A screenshot of Power Pages' Copilot inside the design studio with the prompt text box emphasized.":::
 
-Review each step using the toolbar. You can decide if you want to keep the form or discard it. 
+After the form is generated, a preview of the form displays on the canvas and the **Review this form** toolbar displays at the bottom of the canvas.
+
+:::image type="content" source="media/multistep-form-copilot/copilot-review-form.png" alt-text="A screenshot of the AI-generated form in the design studio with review toolbar emphasized.":::
+
+Review each step. Then decide if you want to keep the form or discard it. 
 
 Once you add the form to the page, you can edit it using design studio's existing functionality just as you would for other components.
 
