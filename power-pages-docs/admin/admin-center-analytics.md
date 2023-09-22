@@ -39,14 +39,14 @@ To access the security dashboard, you should have one of the following roles:
 1. On the left pane, select **Resources**, then select **Power Pages sites**.
 1. Go to **Analytics**.
 
-Here you will find the traffic that your websites are receiving: DAU (Daily Active Users), WAU (Weekly Active Users) and MAU (Monthly Active Users)
+From here you can view the traffic that your websites are receiving: DAU (Daily Active Users), WAU (Weekly Active Users) and MAU (Monthly Active Users).
 
-All charts show the DAU, WAU and MAU across all the sites in the selected environment. You can select the environment of your interest using the drop down.
+All charts show the DAU, WAU and MAU across all the sites in the selected environment. You can select the environment of your interest using the drop-down.
 
-Within the selected environment, you can also select a specific site for which you want to see the traffic. Select the Site ID from the drop down (You can select multiple sites by using ctrl + click) to see traffic for that site.
+Within the selected environment, you can also select a specific site for which you want to see the traffic. Select the Site ID from the drop-down (You can select multiple sites by using ctrl + click) to see traffic for that site.
 
 >[!NOTE]
-> Currently only Site ID is supported for filtering. The Site ID can be found under the 'Your Sites' tab.
+> Currently, only Site ID is supported for filtering. The Site ID can be found under the **Your Sites** tab.
 
 ### Authenticated and Anonymous User Analytics
 
