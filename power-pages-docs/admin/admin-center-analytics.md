@@ -28,10 +28,7 @@ To access the security dashboard, you should have one of the following roles:
 - Global Administrator
 - Dynamics 365 administrator
 - Power Platform administrator
-- System administrator
-
->[!NOTE]
-> System administrators can see only the environments for which they are a System Administrator.
+- System administrator (you can only see sites for which you are a system administrator)
 
 ## View traffic analytics for all websites in a tenant
 
@@ -50,17 +47,13 @@ Within the selected environment, you can also select a specific site for which y
 
 ### Authenticated and Anonymous User Analytics
 
-The charts show DAU, WAU and MAU numbers for the following categories of users:
-
-- Authenticated Users shows the unique authenticated users who accessed the websites.
-- Anonymous Users shows the unique anonymous users who accessed the websites.
-- All Users shows the unique users who accessed the websites (either by authentication or anonymously)
-
->[!IMPORTANT]
-> 
-> - All the traffic numbers (DAU, WAU and MAU) shown are with the intent of understanding the visits to the websites. 
-> - The authenticated user counts may vary slightly from license consumption reports. For instance, in cases where the authenticated user already has a Power Apps license, the visit will not be counted in license consumption, but will be counted in the total authenticated users visiting the website.
-> - The usage numbers can be under reported for the first few days after enabling the feature. For instance, the monthly active users will be accurate after 30 days of this feature being live, and weekly active users will be accurate after 7 days of this feature being live.
+- The charts show DAU, WAU and MAU numbers for the following categories of users:
+    - Authenticated Users shows the unique authenticated users who accessed the websites.
+    - Anonymous Users shows the unique anonymous users who accessed the websites.
+    - All Users shows the unique users who accessed the websites (either by authentication or anonymously)
+- All the traffic numbers (DAU, WAU and MAU) shown are with the intent of understanding the visits to the websites. 
+- The authenticated user counts may vary slightly from license consumption reports. For instance, in cases where the authenticated user already has a Power Apps license, the visit will not be counted in license consumption, but will be counted in the total authenticated users visiting the website.
+- The usage numbers can be under reported for the first few days after enabling the feature. For instance, the monthly active users will be accurate after 30 days of this feature being live, and weekly active users will be accurate after 7 days of this feature being live.
 
 ### See also
 
