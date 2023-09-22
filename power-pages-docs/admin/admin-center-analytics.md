@@ -45,7 +45,7 @@ Within the selected environment, you can also select a specific site for which y
 >[!NOTE]
 > Currently, only Site ID is supported for filtering. The Site ID can be found under the **Your Sites** tab.
 
-### Authenticated and Anonymous User Analytics
+### Considerations
 
 - The charts show DAU, WAU and MAU numbers for the following categories of users:
     - Authenticated Users shows the unique authenticated users who accessed the websites.
