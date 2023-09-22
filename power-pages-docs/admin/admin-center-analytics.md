@@ -1,6 +1,27 @@
-﻿# Monitor traffic to your websites
+﻿---
+title: Monitor website traffic from the Power Platform admin center (preview)
+description: Learn how to use the Power Platform admin center to monitor the traffic to the websites in your tenant.
+author: vamseedillimsft
+ms.topic: conceptual
+ms.custom: 
+ms.date: 10/03/2023
+ms.subservice: 
+ms.author: vamseedilli
+ms.reviewer: kkendrick
+contributors:
+    - vamseedillimsft
+    - professorkendrick
+---
+
+# Monitor traffic to your websites (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Use the Power Platform admin center to monitor the traffic to the websites in your tenant. You can also see key information such as how many sites have Web Application Firewall disabled, how many sites have external authentication enabled, etc.
+
+> [!IMPORTANT]
+> - This feature is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 To access the security dashboard, you should have one of the following roles:
 
