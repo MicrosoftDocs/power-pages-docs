@@ -45,7 +45,7 @@ All charts show the DAU, WAU and MAU across all the sites in the selected enviro
 
 Within the selected environment, you can also select a specific site for which you want to see the traffic. Select the Site ID from the drop down (You can select multiple sites by using ctrl + click) to see traffic for that site.
 
->[!NOTE[
+>[!NOTE]
 > Currently only Site ID is supported for filtering. The Site ID can be found under the 'Your Sites' tab.
 
 ### Authenticated and Anonymous User Analytics
