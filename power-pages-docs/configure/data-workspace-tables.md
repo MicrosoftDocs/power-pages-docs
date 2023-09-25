@@ -36,6 +36,8 @@ On the left pane of the **Data** workspace, the **Tables in this site** section 
 
 1. Next to **Data**, select **+ Table**.
 
+1. Select **New table**.
+
 1. In the window that appears, enter a name for your table. By expanding **Advanced settings**, you can modify the plural name of your table.
 
     > [!NOTE]
@@ -62,9 +64,10 @@ The table will be created in Dataverse. You can now begin to configure your tabl
 ## Next steps
 
 [Create and modify Dataverse views by using the Data workspace](data-workspace-views.md)<br>
-[Create and modify forms by using the Data workspace](data-workspace-forms.md)
+[Create and modify forms by using the Data workspace](data-workspace-forms.md) <br>
+[Create and modify virtual tables by using the Data workspace (preview)](data-workspace-virtual-tables.md)
 
 ### See also
 
-[Tables in Dataverse](/power-apps/maker/data-platform/entity-overview/)
+- [Tables in Dataverse](/power-apps/maker/data-platform/entity-overview/)
 
