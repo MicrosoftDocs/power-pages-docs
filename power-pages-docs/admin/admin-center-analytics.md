@@ -17,18 +17,18 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use the Power Platform admin center to monitor the traffic to the websites in your tenant. You can also see key information such as how many sites have Web Application Firewall disabled, how many sites have external authentication enabled, etc.
+Use the Power Platform admin center to monitor the traffic to the websites in your tenant. 
 
 > [!IMPORTANT]
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-To access the security dashboard, you should have one of the following roles:
+To access the analytics dashboard, you should have one of the following roles:
 
 - Global Administrator
 - Dynamics 365 administrator
 - Power Platform administrator
-- System administrator (you can only see sites for which you're a system administrator)
+- System administrator (you can only see environments for which you're a system administrator)
 
 ## View traffic analytics for all websites in a tenant
 
