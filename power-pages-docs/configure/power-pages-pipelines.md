@@ -5,13 +5,13 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/14/2023
+ms.date: 09/26/2023
 ms.author: gisingh
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - gitanjalisingh33msft
     - nickdoelman
-    - Professor Kendrick
+    - professorkendrick
 ---
 
 # Use Power Platform pipelines with Power Pages
