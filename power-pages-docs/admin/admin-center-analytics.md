@@ -23,6 +23,8 @@ Use the Power Platform admin center to monitor the traffic to the websites in yo
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
+### Access the analytics dashboard
+
 To access the analytics dashboard, you should have one of the following roles:
 
 - Global Administrator
