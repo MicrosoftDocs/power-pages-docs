@@ -22,6 +22,7 @@ Use the Power Platform admin center to monitor the traffic to the websites in yo
 > [!IMPORTANT]
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - This feature is gradually being rolled out across regions and might not be available yet in your region.
 
 ### Access the analytics dashboard
 
