@@ -121,7 +121,7 @@ The following templates use the standard data model even if the enhanced data mo
 - Order Returns (Dynamics 365)
 - Partner Portal (Dynamics 365)
 
-## Create a website by using the enhanced data model
+## Create a website using the enhanced data model
 
 After the enhanced data model is enabled in an environment, you can create a new site from the Power Pages home page.
 
