@@ -21,7 +21,7 @@ The standard data model was built by using custom tables, and it was optimized f
 >[!NOTE]
 > 
 > - All new sites will be created by default using the enhanced data model.  
-> - To use the standard data model, use the toggle switch in the top menu bar to disable the Enhanced Data Model.
+> - To create a site on the standard data model, [disable the enhanced data model](#disable-the-enhanced-data-model) in the Power Platform admin center. 
 > - The Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites.
 
 The enhanced data model for Power Pages provides the following benefits:
@@ -52,6 +52,10 @@ There are several ways to determine which data model your site is using:
 
     > [!NOTE]
     > This parameter is supported in Power Platform CLI version 1.22.4 and later.
+
+## Disable the enhanced data model
+
+You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model** option. If you disable the enhanced data model, you do **not** remove the solution packages or delete any websites. Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
 
 ## System tables
 
@@ -93,14 +97,11 @@ The Power Pages virtual tables represent and contain the metadata of the specifi
 | powerpagesitelanguage | mspp\_websitelanguage | adx\_websitelanguage |
 | powerpagecomponent | mspp\_columnpermission<br>mspp\_columnpermissionprofile<br>mspp\_contentsnippet<br>mspp\_entityform<br>mspp\_entityformmetadata<br>mspp\_entitylist<br>mspp\_entitypermission<br>mspp\_pagetemplate<br>mspp\_pollplacement<br>mspp\_publishingstate<br>mspp\_publishingstatetransitionrule<br>mspp\_redirect<br>mspp\_shortcut<br>mspp\_sitemarker<br>mspp\_sitesetting<br>mspp\_webfile<br>mspp\_webform<br>mspp\_webformmetadata<br>mspp\_webformstep<br>mspp\_weblink<br>mspp\_weblinkset<br>mspp\_webpage<br>mspp\_webpageaccesscontrolrule<br>mspp\_webrole<br>mspp\_websiteaccess<br>mspp\_websitelanguage<br>mspp\_webtemplate<br> | adx\_columnpermission<br>adx\_columnpermissionprofile<br>adx\_contentsnippet<br>adx\_entityform<br>adx\_entityformmetadata<br>adx\_entitylist<br>adx\_entitypermission<br>adx\_pagetemplate<br>adx\_pollplacement<br>adx\_publishingstate<br>adx\_publishingstatetransitionrule<br>adx\_redirect<br>adx\_shortcut<br>adx\_sitemarker<br>adx\_sitesetting<br>adx\_webfile<br>adx\_webform<br>adx\_webformmetadata<br>adx\_webformstep<br>adx\_weblink<br>adx\_weblinkset<br>adx\_webpage<br>adx\_webpageaccesscontrolrule<br>adx\_webrole<br>adx\_websiteaccess<br>adx\_websitelanguage<br>adx\_webtemplate<br> |
 
-## Enable the enhanced data model in an environment
+## Supported templates
 
-Before you can provision a website that uses the enhanced data model, you must enable the enhanced data model in your Microsoft Power Platform environment.
+The enhanced data model is enabled by default in your Microsoft Power Platform environment.
 
-> [!NOTE]
-> This process adds solutions packages to support the enhanced data model in your Microsoft Power Platform environment.
-
-After you enable the enhanced data model, any new website that you provision by using one of the following templates uses the enhanced data model:
+Any new website that you provision using one of the following templates uses the enhanced data model:
 
 - Starter layout 1-5
 - Application processing
@@ -119,20 +120,6 @@ The following templates use the standard data model even if the enhanced data mo
 - Modern Community (Dynamics 365)
 - Order Returns (Dynamics 365)
 - Partner Portal (Dynamics 365)
-
-Follow these steps to enable the enhanced data model in a specific environment:
-
-1. Open [Power Platform admin center](https://aka.ms/ppac).
-1. Select **Environments**.
-1. Select the environment that you want to enable the enhanced data model in.
-1. On the **Resources** tile, select **Power Pages sites**.
-1. On the toolbar, enable the **Switch to enhanced data model (preview)** option.
-
-
-
-    Installation of the **Power Pages Core** package begins. After installation is completed, you receive a message.
-
-You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model** option. If you disable the enhanced data model, you do **not** remove the solution packages or delete any websites. Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
 
 ## Create a website by using the enhanced data model
 
