@@ -31,7 +31,7 @@ You can create a new site by describing the type of site. Copilot generates the 
 
 ## Generate a site
 
-To use Copilot to generate a webpage:
+To use Copilot to generate a site:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
