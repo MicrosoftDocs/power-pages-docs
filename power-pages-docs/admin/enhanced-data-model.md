@@ -20,9 +20,11 @@ The standard data model was built by using custom tables, and it was optimized f
 
 >[!NOTE]
 > 
-> - All new sites will be created by default using the enhanced data model.  
+> - All new sites will be created by default using the enhanced data model. 
 > - To create a site on the standard data model, [disable the enhanced data model](#disable-the-enhanced-data-model) in the Power Platform admin center. 
 > - The Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites.
+
+The enhanced data model is a combination of system tables, nonconfiguration tables, and virtual tables.
 
 The enhanced data model for Power Pages provides the following benefits:
 
@@ -30,8 +32,6 @@ The enhanced data model for Power Pages provides the following benefits:
 - Faster design studio experiences.
 - Website configurations can be contained in solutions to provide smoother Application Lifecyle Management (ALM) experiences.
 - Updates of Power Pages enhancements and bug fixes are improved.
-
-The enhanced data model is a combination of system tables, nonconfiguration tables, and virtual tables.
 
 ## Determine whether your site is using the standard or enhanced data model
 
@@ -55,7 +55,8 @@ There are several ways to determine which data model your site is using:
 
 ## Disable the enhanced data model
 
-You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model** option. If you disable the enhanced data model, you do **not** remove the solution packages or delete any websites. Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
+You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model** option. Disabling enhanced data model doesn't remove solution packages, or delete any websites.
+Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
 
 ## System tables
 
@@ -111,7 +112,7 @@ Any new website that you provision using one of the following templates uses the
 
 The following templates use the standard data model even if the enhanced data model is enabled in the environment:
 
-- FAQ (preview)
+- FAQ
 - Community (Dynamics 365)
 - Customer Portal (Dynamics 365)
 - Customer Self Service Portal (Dynamics 365)
@@ -158,12 +159,12 @@ On the Power Pages home page, on the site card, select **Edit** to open the Powe
 
 ### Edit a site by using the Power Pages Management app
 
-On the Power Pages home page, on the site card, select the ellipsis (**…**), and then select **Portal management** to open the Power Pages Management app.
+On the Power Pages home page, on the site card, select the ellipsis (**…**), and then select **Power Pages Management** to open the Power Pages Management app.
 
 > [!NOTE]
 > The enhanced data model includes a new UCI model-driven Power Apps application that is named **Power Pages Management**. You must use this app for advanced customizations that aren't available through the Power Pages design studio.
 
-You can also open the Power Pages Management app from the Power Pages design studio. Select the ellipsis (**…**), and then select **Portal Management**.
+You can also open the Power Pages Management app from the Power Pages design studio. Select the ellipsis (**…**), and then select **Power Pages Management**.
 
 You can use the Power Pages Management app to perform advanced customizations that are unavailable in the design studio.
 
