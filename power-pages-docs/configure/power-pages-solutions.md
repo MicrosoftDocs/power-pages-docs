@@ -20,9 +20,7 @@ By using solutions with Power Pages, you can contain and transport all website c
 
 ## Prerequisites
 
-To try this feature, you need two Microsoft Power Platform environments where the new enhanced data model is enabled. One of the environments must be designated as the source and the other as the target. For information about how to enable the enhanced data model in an environment, go to [Enhanced data model](../admin/enhanced-data-model.md).
-
-Each environment requires a site that is created by using the enhanced data model. For more information, go to [Create a website by using the enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
+You'll need to enable enhanced data model to use solutions with Power Pages. More information: [Power Pages enhanced data model](../admin/enhanced-data-model.md)
 
 ## Add Power Pages site and components to a solution
 
