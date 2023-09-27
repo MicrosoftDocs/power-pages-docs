@@ -48,4 +48,4 @@ You can describe the site you need to create, and Power Pages uses LLMs to gener
 
 ## See also
 
-- [Copilot to generate site](../getting-started/create-site-copilot.md)
+- [Copilot to generate site](./getting-started/create-site-copilot.md)
