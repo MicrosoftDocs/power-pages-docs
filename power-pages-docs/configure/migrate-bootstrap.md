@@ -23,6 +23,7 @@ In this article, learn about how to migrate your existing site from using Bootst
 > [!IMPORTANT]
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - This feature is in the process of rolling out, and may not be available in your region yet.
 > - You can migrate any of your existing Power Pages version 3 sites regardless of the template used for initial site creation.
 > - Consider testing the migration using [developer sites](../getting-started/developer-sites.md) before you migrate a production site.
 
