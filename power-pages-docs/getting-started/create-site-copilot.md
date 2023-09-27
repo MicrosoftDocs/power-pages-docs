@@ -29,7 +29,7 @@ The Copilot for site creation is available from the Power Pages home.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
 > - This feature will be available for preview in the Dataverse environments located in the United States only.
-> - To understand capabilities and limitations of AI-powered Copilot features in Power Pages, see [FAQ for Copilot to generate site](../faqs-generate-site.md).
+> - To understand capabilities and limitations of AI-powered Copilot features in Power Pages, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
 
 ## Prerequisites
 
