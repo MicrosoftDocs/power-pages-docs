@@ -4,7 +4,7 @@ description: Learn how to create Power Pages sites with Bootstrap.
 author: ankitavish 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/20/2023
+ms.date: 09/27/2023
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: kkendrick
