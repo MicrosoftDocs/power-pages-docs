@@ -1,5 +1,5 @@
 ﻿---
-title: Create an AI-generated site using Copilot (preview)
+title: Copilot for site creation (preview)
 description: Learn how to create an AI-generated site using Copilot in Power Pages.
 author: sampatn
 ms.topic: conceptual
@@ -16,7 +16,13 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can create a new site by describing the type of site. Copilot generates the contextual site name, site address, Home page layout, and additional pages with HTML for each page with relevant text copy and images from the description. The site is created with the Home page and additional pages selected, with the pages added to the sitemap. Once the site is created, these pages can be refined and edited using Copilot and the WYSIWYG editor.
+Create Power Pages sites with the help of AI. Describe the site that you want to create, and AI will design it for you.
+
+With the Copilot for site creation, you get guidance using natural language processing to help you build your site. You can create a new site by describing the type of site, intended users of the site and type of information you want the site to process. Copilot generates the contextual site name, site address, Home page layout, and additional pages with HTML for each page with relevant text copy and images from the description. The site is created with the Home page and additional pages selected, with the pages added to the sitemap. Once the site is created, these pages can be refined and edited using Copilot and the WYSIWYG editor.
+
+The Copilot for site creation is available from the Power Pages home. 
+
+    :::image type="content" source="media/common/copilot/home-copilot-create-site-input.png" alt-text="The Copilot on Power Pages home with to input a description of the site.":::
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -29,21 +35,19 @@ You can create a new site by describing the type of site. Copilot generates the 
 
 - Maker Copilot features are only available for sites in US-based dataverse environments. 
 
-## Generate a site
+## Create a site with the help of AI
 
-To use Copilot to generate a site:
+To use Copilot for site creation: 
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Type a description of the site you want to build or select a suggested description of the site, and click **Submit** button or hit Enter on keyboard.
 
-    :::image type="content" source="media/common/copilot/home-copilot-create-site-input.png" alt-text="The Copilot on Power Pages home with to input a description of the site.":::
-
     Sample descriptions:
 
-     - Build a website for Public transportation. 
-     - Create a site to find a financial advisor for a bank that offers loans.
-       
+     - Build a website for Public transportation for residents of City, to view routes and fares.
+     - Create a site for Clients to find financial advisors at a bank based on their qualifications, and areas of expertise.
+            
 1. Copilot generates a site name and a web address based on your description. You can edit these suggestions as needed for your site and click **Next**
 
     :::image type="content" source="media/common/copilot/copilot-create-site-site-details.png" alt-text="Copilot generated site details.":::
