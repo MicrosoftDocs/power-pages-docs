@@ -4,13 +4,14 @@ description: Learn how to use solutions with Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/09/2023
+ms.date: 09/26/2023
 ms.author: gisingh
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - gitanjalisingh33msft
     - neerajnandwana-msft
+    - professorkendrick
 ---
 
 # Use solutions with Power Pages

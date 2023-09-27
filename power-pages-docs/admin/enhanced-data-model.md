@@ -4,14 +4,15 @@ description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2023
+ms.date: 09/26/2023
 ms.subservice:
 ms.author: nenandw 
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - neerajnandwana-msft
     - gitanjalisingh33msft
+    - professorkendrick
 ---
 
 # Enhanced data model 
@@ -57,6 +58,8 @@ There are several ways to determine which data model your site is using:
 
 You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model** option. Disabling enhanced data model doesn't remove solution packages, or delete any websites.
 Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
+
+:::image type="content" source="Media/enhanced-data-model/toggle.png" alt-text="A screenshot of the Power Platform admin center with the Switch to enhanced data model toggle emphasized.":::
 
 ## System tables
 
@@ -129,7 +132,7 @@ After the enhanced data model is enabled in an environment, you can create a new
 > [!NOTE]
 > The enhanced data model is used to create the new site only if the selected template supports the enhanced data model.
 
-Follow these steps to create a site by using a template that uses the new data model:
+Follow these steps to create a site by using a template that uses the enhanced data model:
 
 1. Open the [Power Pages home page](https://aka.ms/mpp).
 1. Select **Create a site**.
@@ -200,9 +203,6 @@ You can use the new Power Pages Management app to edit new websites that are cre
 ## Known issues
 
 - In the language selection on the user profile page, a signed-in website user is shown a list of all supported languages, not just the website-enabled languages.
-- The search feature doesn't return any webpage results.
-- To enable traffic analysis for websites that use the enhanced data model, follow the steps in [Set up telemetry monitoring](../go-live/telemetry-monitoring.md).
-- The `Account` table isn't part of the Power Pages Management app. Therefore, the ability to add a parent account record to a contact is limited. As a workaround, [manually add the Account table](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-table) to the Power Pages Management app.
 - If you configure [list actions](../getting-started/add-list.md#choose-list-actions) on websites that use the enhanced data model, the configuration isn't currently saved. As a workaround, configure the list by using the [Power Pages Management app](../configure/list-configuration.md).
 - You must assign contacts to web roles by using **Portal Contact (Enhanced Form)** on the contact record in the Power Pages Management app. For more information, go to [Configure web roles](../security/create-web-roles.md#from-the-contact-enhanced-data-model).
 
