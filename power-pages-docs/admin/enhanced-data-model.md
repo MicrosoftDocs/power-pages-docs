@@ -163,6 +163,8 @@ On the Power Pages home page, on the site card, select **Edit** to open the Powe
 ### Edit a site by using the Power Pages Management app
 
 On the Power Pages home page, on the site card, select the ellipsis (**…**), and then select **Power Pages Management** to open the Power Pages Management app.
+> [!NOTE]
+>Power Pages core packages related to enhanced data model will by default pre-installed on all Dataverse environments irrespective of whether  environment have Power Pages site or not. 
 
 > [!NOTE]
 > The enhanced data model includes a new UCI model-driven Power Apps application that is named **Power Pages Management**. You must use this app for advanced customizations that aren't available through the Power Pages design studio.
@@ -202,9 +204,10 @@ You can use the new Power Pages Management app to edit new websites that are cre
 
 ## Known issues
 
-- In the language selection on the user profile page, a signed-in website user is shown a list of all supported languages, not just the website-enabled languages.
-- If you configure [list actions](../getting-started/add-list.md#choose-list-actions) on websites that use the enhanced data model, the configuration isn't currently saved. As a workaround, configure the list by using the [Power Pages Management app](../configure/list-configuration.md).
+- In the language selection on the user profile page, a signed-in website user preffered lanugauges are not shown. As a workaround change preferred language from site header.
+- [list actions](../getting-started/add-list.md#choose-list-actions)  configuration for enhanced datamodel site in studio is not supported. As a workaround, configure the list actions by using the [Power Pages Management app](../configure/list-configuration.md).
 - You must assign contacts to web roles by using **Portal Contact (Enhanced Form)** on the contact record in the Power Pages Management app. For more information, go to [Configure web roles](../security/create-web-roles.md#from-the-contact-enhanced-data-model).
+- Webpages search for enhanced data model site is not working as a result search result will not inlcude results from webpages.
 
 ## See also
 
