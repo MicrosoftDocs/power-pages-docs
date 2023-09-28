@@ -48,13 +48,11 @@ To use Copilot for site creation:
 
 1. Copilot generates more pages that could be used in the site based on the description. You can one or more pages and select **Done** to complete the site creation.
 
-    :::image type="content" source="media/create-site-copilot/create-site-done.png" alt-text="Copilot generated common pages.":::
-
-    >[!NOTE]
-    > - Copilot-generated pages will reference images that are saved as web files.
-    > - Web files can only be deleted through the Power Pages management app. More information: [Create and manage web files](../configure/web-files.md)
-
 Site creation may take a few minutes. When finished, you'll be re-directed to the site opened in the [design studio](use-design-studio.md) that you can customize further.
+
+>[!NOTE]
+> - Copilot-generated pages will reference images that are saved as web files.
+> - Web files can only be deleted through the Power Pages management app. More information: [Create and manage web files](../configure/web-files.md)
 
 ## Next steps
 
