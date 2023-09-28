@@ -10,6 +10,10 @@ ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
 ---
+
+<!-- please check that "nonce" and "nosniff" in lines 45 and 47 are correct -->
+
+
 # Security issues (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
