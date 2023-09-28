@@ -1,10 +1,10 @@
-![image](https://github.com/MicrosoftDocs/power-pages-docs-pr/assets/139786324/68dd7533-9a6b-4051-90f5-ae1ba8d46818)---
+---
 title: Manage website security from the Power Platform admin center (preview)
 description: Learn about the admin settings for website security in the Power Platform admin center.
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/03/2023
+ms.date: 09/28/2023
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: kkendrick
@@ -55,11 +55,12 @@ Select **View details** to see the review the external authentication configurat
 
 ### Site security health
 
-**Site security health** dashboard gives you a summary of the websites in your organization related security status. The security status of a website is determined based on certain security checks that are run for each website. More information: [Security site checker](../security/site-checker-security.md) 
+**Site security health** dashboard gives you a summary of the websites in your organization related security status. The security status of a website is determined based on certain security checks that are run for each website. More information: [Security site checker](../security/site-checker-security.md)
 
-Note: The security health is calculated by looking at various configuration parameters and identifying common issues. These checks are not exhaustive and we recommend you to continue following security best practices.
+> [!NOTE]
+> The security health is calculated by looking at various configuration parameters and identifying common issues. These checks are not exhaustive and we recommend you to continue following security best practices.
 
-The criteria for classifying security health into Standard, Enhanced and Advanced is shown below. Please note that this criteria can change during preview and before the feature is officially released.
+The criteria for classifying security health into Standard, Enhanced and Advanced is shown below. This criteria might change during the feature preview and before the feature is generally available.
 
 | Health status | Description |
 | - | - |
