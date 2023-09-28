@@ -59,6 +59,8 @@ Select **View details** to see the review the external authentication configurat
 
 Note: The security health is calculated by looking at various configuration parameters and identifying common issues. These checks are not exhaustive and we recommend you to continue following security best practices.
 
+The criteria for classifying security health into Standard, Enhanced and Advanced is shown below. Please note that this criteria can change during preview and before the feature is officially released.
+
 | Health status | Description |
 | - | - |
 | Standard | This status means that less than 33% of the security checks for this website are in **Pass** state. |
