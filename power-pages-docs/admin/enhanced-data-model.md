@@ -207,7 +207,7 @@ You can use the new Power Pages Management app to edit new websites that are cre
 - In the language selection on the user profile page, a signed-in website user preffered lanugauges are not shown. As a workaround change preferred language from site header.
 - [list actions](../getting-started/add-list.md#choose-list-actions)  configuration for enhanced datamodel site in studio is not supported. As a workaround, configure the list actions by using the [Power Pages Management app](../configure/list-configuration.md).
 - You must assign contacts to web roles by using **Portal Contact (Enhanced Form)** on the contact record in the Power Pages Management app. For more information, go to [Configure web roles](../security/create-web-roles.md#from-the-contact-enhanced-data-model).
-- Webpages search for enhanced data model site is not working as a result search result will not inlcude results from webpages.
+- Webpages search for enhanced data model site is not working as a result search result will not inlcude results from webpages and C2 copilot chatbot will not be able to respond with answers from webpages.
 
 ## See also
 
