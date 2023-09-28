@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/28/2023
+ms.date: 09/27/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
@@ -24,7 +24,8 @@ With this feature, the Microsoft Power Platform CLI enables CI/CD (Continuous In
 Deployment) of a Power Pages site configuration. You can now check in the website configuration to source control and move the website configuration to any environment using Microsoft Power Platform CLI.
 
 > [!NOTE]
-> This feature is generally available starting with Power Platform CLI version 1.9.8. To learn about installing the latest version, see [Install Microsoft Power Platform CLI](/power-platform/developer/cli/introduction).
+> - This feature is generally available starting with Power Platform CLI version 1.9.8. To learn about installing the latest version, see [Install Microsoft Power Platform CLI](/power-platform/developer/cli/introduction).
+> - Starting with the Power Platform CLI version 1.27, the `pac paportal` command is changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward. This article will soon be updated to use `powerpages` instead of `paportal`. 
 
 ### Why use Microsoft Power Platform CLI for website development?
 

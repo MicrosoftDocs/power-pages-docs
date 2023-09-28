@@ -18,7 +18,7 @@ contributors:
 
 - If your administrator disabled the self-service sign-up, you won't be able to sign up for a trial of Power Pages. 
 
-- If your administrator disables site creation for non-administrator–type users in your company, you won't be able to create a website. You'll be redirected to the Power Pages home page in the default environment. You'll have to reach out to your administrator to provide you with an environment that has enough privileges for you to edit an existing site in the environment. 
+- If your administrator disables site creation for non-administrator–type users in your company, you won't be able to create a website. You'll be redirected to the Power Pages home page in the default environment. Reach out to your administrator to provide you with an environment that has enough privileges for you to edit an existing site in the environment. 
 
 - If your administrator disables the creation of a trial environment for non-administrator–type users in your company, you won't be able to create an environment. However, you can still create a site inside an existing environment in the tenant, where you have necessary minimum privileges. 
 
@@ -232,3 +232,7 @@ Here's how to enable cookies if your browser is blocking them:
 
 >[!NOTE]
 > If you don't want to enable all third party cookies, you can also adjust your browser settings to allow cookies for only ``[*.]powerpages.microsoft.com`` instead.
+
+### Rich text editor (RTE) control on Power Pages
+
+Only .PNG, .JPG., or .GIF file formats are supported for drag and drop.
