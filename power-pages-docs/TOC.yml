@@ -690,7 +690,7 @@
       href: faqs-chatbot.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
-    - name: FAQ for creating form
+    - name: FAQ for creating form or multistep form
       href: faqs-create-form.md
     - name: FAQ for design studio
       href: faqs-design-studio.md
