@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/28/2023
+ms.date: 09/15/2023
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: ndoelman
@@ -15,6 +15,7 @@ contributors:
     - dileepsinghmicrosoft
     - nageshbhat-msft
     - ProfessorKendrick
+    - sampatn
 ---
 
 # Important upcoming changes and deprecations in Power Pages
@@ -35,6 +36,10 @@ As part of providing a streamlined and improved experience for makers to create 
 ### Why don't I see Dynamics 365 portal templates in Power Apps?
 
 You can create websites using the Dynamics 365 templates from [Power Pages](https://make.powerpages.microsoft.com). More information: [Dynamics 365 templates](templates/dynamics-365-apps/overview.md)
+
+### Why don't I see Dynamics 365 portal templates in Power Pages? 
+
+If you are using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You will see them in subsequent sites created, provided that the environment has any of the Dynamics 365 applications installed in it.   
 
 ### Will I lose access to all portals and websites that I created in Power Apps?
 
@@ -68,7 +73,7 @@ Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list
 
 > [!NOTE] 
 > - Starting October 2022, newly provisioned websites won't able to use list OData features. 
-> - The OData feeds list feature will be removed October 1, 2023.
+> - The OData feeds list feature will be removed April 1, 2024.
 
 ## Portal content editor
 
@@ -82,7 +87,7 @@ Starting June 2022, the portal content editor tool to design your website is dep
 Starting with website version 9.4.4.xx, portal search uses Dataverse search as a default search provider for all new portals. Lucene.NET search is deprecated; however, existing portals that use Lucene.NET search won't be affected. We recommend that users migrate to Dataverse search. Enable Dataverse search for existing portal by setting the Search/EnableDataverseSearch site setting to true.
 
 > [!NOTE]
-> All existing customers who use Lucene.NET search must migrate to Dataverse search by October 1, 2023.
+> All existing customers who use Lucene.NET search must migrate to Dataverse search by October 1, 2024.
 
 ## Content Delivery Network for US Government
 

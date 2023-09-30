@@ -25,7 +25,7 @@ List search functionality in the Power Pages uses FetchXML in the backend to sea
 >[!IMPORTANT]
 > Starting with website version 9.4.4.xx, search uses Dataverse search to deliver results from multiple tables and fields for new sites. Lucene .NET search is deprecated; however, existing websites use Lucene .NET search will not be affected. We recommend that users migrate to Dataverse search. Enable Dataverse search for existing websites by using site setting Search/EnableDataverseSearch to true.
 >
-> **All the existing customers who are using Lucene .Net search need to migrate to Dataverse search by October 2023.**
+> **All the existing customers who are using Lucene .Net search need to migrate to Dataverse search by October 2024.**
 
 ## Pre-requisite
 
