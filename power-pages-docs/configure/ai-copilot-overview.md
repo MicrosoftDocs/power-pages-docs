@@ -35,8 +35,8 @@ Watch this brief video to learn how Copilot can help you make business websites 
 To learn how to use the new AI features in Power Pages, see:
 
 - [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
+- [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Add an AI-generated multistep form using Copilot (preview)](../getting-started/multistep-forms-copilot.md)
-- [Add a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
 - [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
 - [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
