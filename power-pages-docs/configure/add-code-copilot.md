@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Add AI-generated code using Copilot in Visual Studio Code helps you create code using natural language chat interaction. In Power Pages, you work with site code that includes HTML, JS, or CSS code to make site customizations that aren't currently supported in the Power Pages low-code design studio. This Copilot chat experience assists Power Pages developers like you to write code by describing your expected code behavior using natural language. You can then refine the generated code and use it when customizing your site.
+Add AI-generated code using Copilot in Visual Studio Code to help you create code using natural language chat interaction. In Power Pages, you work with site code that includes HTML, JS, or CSS code to make site customizations that aren't currently supported in the Power Pages low-code design studio. This Copilot chat experience assists Power Pages developers like you to write code by describing your expected code behavior using natural language. You can then refine the generated code and use it when customizing your site.
 
 :::image type="content" source="media/add-ai-generated-code/power-pages-code-copilot.png" alt-text="Visual Studio Code with Power Pages Copilot.":::
 
