@@ -37,9 +37,9 @@ To use Copilot for theme:
 
 To customize the theme, you can choose the following options:
 
-- **Try again** - generates new theme based on the already provided description.
+- **Try again**: Generates new theme based on the already provided description.
 
-- **Styling Workspace** – The AI theme can be customized in [styling workspace](style-site.md) manually just like any other theme. 
+- **Styling workspace**: The AI theme can be customized in the [styling workspace](style-site.md) manually just like any other theme. 
 
 To avoid unintentionally publishing changes to your site, review, edit, and verify the generated theme to make sure it fits your requirements.
 

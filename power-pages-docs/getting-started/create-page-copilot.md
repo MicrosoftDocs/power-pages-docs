@@ -27,7 +27,7 @@ You can create a new webpage for your site by describing the type of webpage. Co
 
 ## Prerequisites
 
-- Maker Copilot features are only available for sites in US based environments with private site visibility. More information: [Site visibility in Power Pages](../security/site-visibility.md)
+- Maker Copilot features are only available for sites in US-based environments with private site visibility. More information: [Site visibility in Power Pages](../security/site-visibility.md)
 
 ## Generate a webpage
 
@@ -40,23 +40,25 @@ To use Copilot to generate a webpage:
 1. Select the **Copilot** button in the command bar.
 
     - Type a description of your webpage in the **Choose a starter prompt, request an action, or ask a question** text field.
-    - 
+    
+        :::image type="content" source="media/common/copilot/page.png" alt-text="The Copilot sidecar inside of design studio with responses to an initial prompt.":::
+
         Sample descriptions:
 
         - Create a FAQ webpage for student loans.
 
         - Create a product page for student loan options.
 
-After the page is generated, it's added to the main navigation, and you can review the page and the content. Sections, text and images in the page are low-code editable using the WYSIWYG editor.
+After the page is generated, it's added to the main navigation, and you can review the page and the content. Sections, text, and images in the page are low-code editable using the WYSIWYG editor.
 
-## Discard a Copilot generated webpage
+## Discard a Copilot-generated webpage
 
 If you don't want to keep the page that Copilot generated, you can:
 
 - Undo the changes. This action reverts the Copilot changes and deletes the page. 
     
     >[!NOTE] 
-    > - Copilot generated pages will reference images that are saved as web files.
+    > - Copilot-generated pages will reference images that are saved as web files.
     > - Web files can only be deleted through the Portals management app. More information: [Create and manage web files](../configure/web-files.md)
 
 ## Edit a page with Copilot
@@ -66,5 +68,5 @@ Additionally, you can edit a page with Copilot by typing the following commands 
 |Command  |Description  |
 |---------|---------|
 |Add a section    | Copilot creates a new section with text copy and images, and appends the section to the end of the page.         |
-|Add form     | To learn how to add a form using Copilot, see [Create AI-generated form using Copilot (preview)](add-form-copilot.md)         |
+|Add a form     | To learn how to add a form using Copilot, see [Create AI-generated form using Copilot (preview)](add-form-copilot.md)         |
 

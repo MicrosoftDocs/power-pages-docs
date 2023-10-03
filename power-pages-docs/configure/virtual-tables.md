@@ -1,10 +1,10 @@
 ---
-title: Configure virtual tables in Power Pages
-description: Learn how to configure virtual tables in Power Pages.
+title: Integrate virtual tables with Power Pages
+description: Learn how to integrate virtual tables with Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/21/2023
+ms.date: 09/19/2023
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -12,9 +12,12 @@ contributors:
     - nageshbhat-msft
 ---
 
-# Configure virtual tables in Power Pages
+# Integrate virtual tables with Power Pages
 
-A [virtual table](/power-apps/developer/data-platform/virtual-entities/get-started-ve) is a special type of table that doesn't have a physical representation in the Microsoft Dataverse but rather represents a query or view of the external data source. They enable the integration of external data source by seamlessly representing data as a table without data replication.
+A [virtual table](/power-apps/maker/data-platform/create-edit-virtual-entities) is a special type of table that doesn't have a physical representation in the Microsoft Dataverse but rather represents a query or view of the external data source. They enable the integration of external data source by seamlessly representing data as a table without data replication.
+
+> [!NOTE]
+> This article explains how to create virtual tables in Dataverse manually, and then, them in Power Pages. You can also create virtual tables directly from the Data workspace in the design studio. More information: [Create and modify virtual tables by using the Data workspace (preview)](data-workspace-virtual-tables.md)
 
 ## Steps to integrate virtual tables in Power Pages 
 
@@ -66,3 +69,7 @@ The following virtual tables and providers are not supported for use with Power 
 ## Limitations
 
 Dataverse virtual tables have a set of limitations that also apply when using in Power Pages, For more details go to [Limitations and troubleshooting virtual tables](/power-apps/maker/data-platform/limits-tshoot-virtual-tables?tabs=sql).
+
+### See also
+
+[Create and modify virtual tables by using the Data workspace (preview)](data-workspace-virtual-tables.md)
