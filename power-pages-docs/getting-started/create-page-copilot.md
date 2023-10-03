@@ -41,8 +41,6 @@ To use Copilot to generate a webpage:
 
     - Type a description of your webpage in the **Choose a starter prompt, request an action, or ask a question** text field.
     
-        :::image type="content" source="media/common/copilot/page.png" alt-text="The Copilot sidecar inside of design studio with responses to an initial prompt.":::
-
         Sample descriptions:
 
         - Create a FAQ webpage for student loans.
@@ -54,8 +52,6 @@ After the page is generated, it's added to the main navigation, and you can revi
 ## Discard a Copilot-generated webpage
 
 If you don't want to keep the page that Copilot generated, you can:
-
-- Select **Try again** and Copilot generates another page based on your last input.
 
 - Undo the changes. This action reverts the Copilot changes and deletes the page. 
     
