@@ -41,8 +41,6 @@ To use Copilot to generate a webpage:
 
     - Type a description of your webpage in the **Choose a starter prompt, request an action, or ask a question** text field.
     
-        :::image type="content" source="media/common/copilot/page.png" alt-text="The Copilot sidecar inside of design studio with responses to an initial prompt.":::
-
         Sample descriptions:
 
         - Create a FAQ webpage for student loans.
