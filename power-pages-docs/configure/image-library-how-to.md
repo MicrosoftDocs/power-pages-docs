@@ -20,7 +20,7 @@ This article provides a step-by-step guide on creating Power Pages and harnessin
 
 ## Prerequisite
 
-To complete this course, you need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](https://learn.microsoft.com/en-us/power-pages/getting-started/trial-signup) and [Power Automate](https://learn.microsoft.com/en-us/power-automate/sign-up-sign-in) trial
+To complete this course, you need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](../getting-started/trial-signup.md) and [Power Automate](/power-automate/sign-up-sign-in) trials.
 
 ## Step 1: Create cloud flow
 
