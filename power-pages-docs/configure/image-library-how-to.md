@@ -54,7 +54,7 @@ In this step, you'll create a flow using the Power Pages trigger and use OneDriv
 1. Select **+New step**. 
 
 1. Search for **OneDrive** and select **Create File** action.
-1.  
+ 
 1. In the **Create file** action, enter the following values:
 
     1. Folder Path **/** and select **User ID** from dynamic content.
@@ -212,7 +212,7 @@ In this step, you'll create a flow using the Power Pages trigger and use OneDriv
 
 1. Select on **+ Create new flow**.
 
-1. Search **Power Pages** and select **When Power Pages calls flow** trigger.
+1. Search **Power Pages** and select the **When Power Pages calls flow** trigger.
 
 1. Select **+ Add** **an input**.
 
