@@ -1,8 +1,8 @@
 ﻿---
-
 title: "How to: Create an image library using cloud flow and Power Pages"
 description: Learn how to create an image library in Power Pages.
 author: nageshbhat-msft
+
 ms.topic: how-to
 ms.custom: 
 ms.date: 10/04/2023
@@ -24,7 +24,7 @@ To complete this course, you need a Power Automate and Power Pages environment. 
 
 ## Step 1: Create cloud flow
 
-### Create Image flow
+ Image flow
 
 Create a flow using the Power Pages trigger and use OneDrive to store the images.
 
@@ -38,11 +38,7 @@ Create a flow using the Power Pages trigger and use OneDrive to store the images
 
 5.  Click on **+ Create new flow**
 
-![A screenshot of a computer Description automatically generated](media/image1.png)
-
 6.  Search **Power Pages** and select **When Power Pages calls flow** trigger
-
-![](media/image2.png)
 
 9.  Click on **+ Add** **an input** 
 
@@ -55,8 +51,6 @@ Create a flow using the Power Pages trigger and use OneDrive to store the images
 13. Choose **File** 
 
 14. Add a name as **Image Content**
-
-![](media/image3.png)
 
 15. Click on **+New step** 
 
@@ -72,8 +66,6 @@ Do not forget to prepend with '/'
 
 3.  File Content Select **Image Content** from dynamic content
 
-![A screenshot of a computer Description automatically generated](media/image4.png)
-
 18. Click on **+New step** 
 
 19. Search for **OneDrive** à select **Create share link** action 
@@ -83,8 +75,6 @@ Do not forget to prepend with '/'
     1.  File Id from the Dynamic content
 
     2.  Link type View from the Dynamic content
-
-![A screenshot of a computer Description automatically generated](media/image5.png)
 
 21. Click on **+New step** 
 
@@ -98,9 +88,9 @@ Do not forget to prepend with '/'
 
     3.  Enter Name as **Image Path**
 
-    4.  Image Path Web URL from the Dynamic content ![A screenshot of a computer Description automatically generated](media/image6.png)
-
-24. Provide flow name as **Upload image flow**
+    4.  Image Path Web URL from the Dynamic content 
+    
+1. Provide flow name as **Upload image flow**
 
 25. Click **Save**
 
@@ -130,8 +120,6 @@ Do not forget to prepend with '/'
 
 9.  Update **Folder** with **/ +** select User ID from dynamic content
 
-![A screenshot of a computer Description automatically generated](media/image7.png)
-
 10. Click **+ New step**
 
 11. Search for **Variable** Select **Initialize variable** action
@@ -141,8 +129,6 @@ Do not forget to prepend with '/'
     1.  Name Image Array
 
     2.  Type Array
-
-![A screenshot of a computer Description automatically generated](media/image8.png)
 
 13. Click **+ New step**
 
@@ -162,8 +148,6 @@ Do not forget to prepend with '/'
 
     1.  Select **value** from the Dynamic content
 
-![A screenshot of a computer Description automatically generated](media/image9.png)
-
 19. Click **Add an action**
 
 20. Search for **OneDrive** à select **Create share link** action 
@@ -182,13 +166,9 @@ Do not forget to prepend with '/'
 
     1.  Name Image Array
 
-    2.  Value { "Id":&lt; Id from the dynamic content&gt;,
-
+    2.  Value ```{ "Id":&lt; Id from the dynamic content&gt;,
 "URL":&lt;Web URL from the dynamic content&gt;
-
-}
-
-![A screenshot of a computer Description automatically generated](media/image10.png)
+}```
 
 25. Click on **+New step**
 
@@ -200,124 +180,104 @@ Do not forget to prepend with '/'
 
     2.  Value Image Array
 
-![A screenshot of a computer Description automatically generated](media/image11.png)
+1. Click on **+New step** 
 
-28. Click on **+New step** 
+1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
 
-29. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
+1. In the **Return value(s) to Power Pages** action enter below values
 
-30. In the **Return value(s) to Power Pages** action enter below values
+1. Click **+Add an output**
 
-31. Click **+Add an output**
+1. Choose the type of output as **Text**
 
-32. Choose the type of output as **Text**
+    1. Enter Name as **Image List**
 
-    1.  Enter Name as **Image List**
+    1. Image List **Image List** from the Dynamic content
 
-    <!-- -->
+1. Provide flow name as **Get Image List flow**
 
-    1.  Image List **Image List** from the Dynamic content
+1. Click **Save**
 
-33. Provide flow name as **Get Image List flow**
-
-34. Click **Save**
-
-35. Final flow appears as below
-
-![A screenshot of a computer Description automatically generated](media/image12.png)
+1. Final flow appears as below
 
 ## Delete Image
 
-1.  Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/)
+1. Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/)
 
-2.  Select site **+ Edit**
+1. Select site **+ Edit**
 
-3.  Navigate to **Set up** à **Cloud flows (preview)** under App integrations
+1. Navigate to **Set up** à **Cloud flows (preview)** under App integrations
 
-4.  Select **+ Add cloud flow**
+1. Select **+ Add cloud flow**
 
-5.  Click on **+ Create new flow**
+1. Click on **+ Create new flow**
 
-6.  Search **Power Pages** and select **When Power Pages calls flow** trigger
+1. Search **Power Pages** and select **When Power Pages calls flow** trigger
 
-7.  Click on **+ Add** **an input** 
+1. Click on **+ Add** **an input** 
 
-8.  Choose **Text**
+1. Choose **Text**
 
-9.  Add name **Id**
+1. Add name **Id**
 
-10. Click **+ New step**
+1. Click **+ New step**
 
-11. Search for **OneDrive** Select **Delete file** trigger
+1. Search for **OneDrive** Select **Delete file** trigger
 
-12. Update **File** Select **Id** from Dynamic content
+1. Update **File** Select **Id** from Dynamic content
 
-![A screenshot of a computer Description automatically generated](media/image13.png)
+1. Click **+ New step**
 
-13. Click **+ New step**
+1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
 
-14. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
+1. In the **Return value(s) to Power Pages** action enter below values
 
-15. In the **Return value(s) to Power Pages** action enter below values
+    1. Click **+Add an output**
 
-    1.  Click **+Add an output**
+    1. Choose the type of output as **Yes / No**
 
-    2.  Choose the type of output as **Yes / No**
+    1. Enter Name as **Status**
 
-    3.  Enter Name as **Status**
+    1. Status True
 
-    4.  Status True
+1. Provide flow name as **Delete image flow**
 
-![A screenshot of a computer Description automatically generated](media/image14.png)
+1. Click **Save**
 
-16. Provide flow name as **Delete image flow**
+1. Click **+Add roles**
 
-17. Click **Save**
+1. Select **Authenticated Users**
 
-18. Click **+Add roles**
-
-19. Select **Authenticated Users**
-
-20. Click **+Add**
+1. Click **+Add**
 
 ## Step 2: Create a page to Manage Image library
 
 After creating the flow and providing access to authenticated web role, you can now call it from a control event using JavaScript.
 
-1.  Click on **Pages** workspace
+1. Click on **Pages** workspace
 
-![](media/image15.gif)
+1. Click on **+ Page**
 
-2.  Click on **+ Page**
+1. Provide the Page Name as "Travel*"*
 
-3.  Provide the Page Name as "Travel*"*
+1. Click on **Edit code** to open visual studio code
 
-4.  Click on **Edit code** to open visual studio code
+1. Paste below code
 
-![](media/image16.png)
+1. Replace URL with the one copied above
 
-5.  Paste below code
+1. Save the code by selecting **CTRL + S**
 
-|     |
-|-----|
-|     |
+1. Click on **Sync** on design studio
 
-6.  Replace URL with the one copied above
-
-7.  Save the code by selecting **CTRL + S**
-
-8.  Click on **Sync** on design studio
-
-# Step 3: Test the flow integration
+## Step 3: Test the flow integration
 
 To test the flow integration functionality
 
-1.  Click on **Preview** to open the site
+1. Click on **Preview** to open the site
 
-2.  Click on **Upload** button
+1. Click on **Upload** button
 
-3.  Choose an Image
+1. Choose an Image
 
-4.  Click **Open**
-
-![A screenshot of a computer Description automatically generated](media/image17.png)
+1. Click **Open**
