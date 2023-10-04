@@ -2,7 +2,6 @@
 title: "How to: Create an image library using cloud flow and Power Pages"
 description: Learn how to create an image library in Power Pages.
 author: nageshbhat-msft
-
 ms.topic: how-to
 ms.custom: 
 ms.date: 10/04/2023
@@ -12,14 +11,13 @@ ms.reviewer: kkendrick
 contributors:
     - nageshbhat-msft
     - ProfessorKendrick
-
 ------
 
 # How to: Create an image library using cloud flow and Power Pages
 
 This article provides a step-by-step guide on creating Power Pages and harnessing Power Automate cloud flows to set up an image library website. This website allows authenticated users to effectively manage and organize a gallery of images.
 
-# Prerequisite
+## Prerequisite
 
 To complete this course, you need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](https://learn.microsoft.com/en-us/power-pages/getting-started/trial-signup) and [Power Automate](https://learn.microsoft.com/en-us/power-automate/sign-up-sign-in) trial
 
@@ -281,7 +279,7 @@ Do not forget to prepend with '/'
 
 20. Click **+Add**
 
-# Step 2: Create a page to Manage Image library
+## Step 2: Create a page to Manage Image library
 
 After creating the flow and providing access to authenticated web role, you can now call it from a control event using JavaScript.
 
