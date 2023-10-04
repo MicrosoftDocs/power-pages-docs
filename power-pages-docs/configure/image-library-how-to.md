@@ -165,7 +165,7 @@ Don't forget to prepend with '/'
 
     1. Name Image Array
 
-    1. Value ```{ "Id":&lt; Id from the dynamic content&gt;,
+    1. Value <br />```{ "Id":&lt; Id from the dynamic content&gt;,
 "URL":&lt;Web URL from the dynamic content&gt;
 }```
 
@@ -181,7 +181,7 @@ Don't forget to prepend with '/'
 
 1. Select on **+New step** 
 
-1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
+1. Search for **Power Pages** and select **Return value(s) to Power Pages** action 
 
 1. In the **Return value(s) to Power Pages** action enter below values
 
@@ -205,7 +205,7 @@ Don't forget to prepend with '/'
 
 1. Select site **+ Edit**
 
-1. Navigate to **Set up** à **Cloud flows (preview)** under App integrations
+1. Navigate to **Set up** and **Cloud flows (preview)** under App integrations
 
 1. Select **+ Add cloud flow**
 
@@ -213,7 +213,7 @@ Don't forget to prepend with '/'
 
 1. Search **Power Pages** and select **When Power Pages calls flow** trigger
 
-1. Select on **+ Add** **an input** 
+1. Select **+ Add** **an input** 
 
 1. Choose **Text**
 
@@ -227,7 +227,7 @@ Don't forget to prepend with '/'
 
 1. Select **+ New step**
 
-1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
+1. Search for **Power Pages** and select **Return value(s) to Power Pages** action 
 
 1. In the Return value(s) to Power Pages action, enter below values
 
