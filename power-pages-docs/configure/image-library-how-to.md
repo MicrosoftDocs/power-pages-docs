@@ -139,29 +139,29 @@ Don't forget to prepend with '/'
 
     2.  Type String
 
-1. Select **+ New step**
+1. Select **+ New step**.
 
-1. Search for **Control** Select **Apply to each** action
+1. Search for **Control** Select **Apply to each** action.
 
-1. Enter the value as below
+1. Enter the value as below.
 
-    1. Select **value** from the Dynamic content
+    1. Select **value** from the Dynamic content.
 
-1. Select **Add an action**
+1. Select **Add an action**.
 
-1. Search for **OneDrive** and select **Create share link** action 
+1. Search for **OneDrive** and select **Create share link** action.
 
-1. In the **Create share link** action enter below values
+1. In the **Create share link** action enter the following values:
 
     1. File Id from the Dynamic content
 
     1. Link type View from the Dynamic content
 
-1. Select **Add an action**
+1. Select **Add an action**.
 
-1. Search for **Variable** Select **Append to array variable** action
+1. Search for **Variable** Select **Append to array variable** action.
 
-1. Enter the value as below
+1. Enter the following values:
 
     1. Name Image Array
 
@@ -169,35 +169,35 @@ Don't forget to prepend with '/'
 "URL":&lt;Web URL from the dynamic content&gt;
 }```
 
-1. Select on **+New step**
+1. Select on **+New step**.
 
-1. Search for **Variable** Select **Set variable** action
+1. Search for **Variable** Select **Set variable** action.
 
-1. Enter the value as below
+1. Enter the following values:
 
     1. Name Image List
 
     1. Value Image Array
 
-1. Select on **+New step** 
+1. Select on **+New step**.
 
-1. Search for **Power Pages** and select **Return value(s) to Power Pages** action 
+1. Search for **Power Pages** and select **Return value(s) to Power Pages** action.
 
-1. In the **Return value(s) to Power Pages** action enter below values
+1. In the **Return value(s) to Power Pages** action enter the following values:
 
-1. Select **+Add an output**
+1. Select **+Add an output**.
 
-1. Choose the type of output as **Text**
+1. Choose the type of output as **Text**.
 
-    1. Enter Name as **Image List**
+    1. Enter Name as **Image List**.
 
-    1. Image List **Image List** from the Dynamic content
+    1. Image List **Image List** from the Dynamic content.
 
-1. Provide flow name as **Get Image List flow**
+1. Provide flow name as **Get Image List flow**.
 
-1. Select **Save**
+1. Select **Save**.
 
-1. Final flow appears as below
+1. Final flow appears as below.
 
 ## Delete Image
 
