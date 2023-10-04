@@ -75,7 +75,7 @@ Don't forget to prepend with '/'
 
     1. Link type View from the Dynamic content
 
-1. Select on **+New step** 
+1. Select **+New step** 
 
 1. Search for **Power Pages** and select **Return value(s) to Power Pages** action 
 
@@ -149,7 +149,7 @@ Don't forget to prepend with '/'
 
 1. Select **Add an action**
 
-1. Search for **OneDrive** à select **Create share link** action 
+1. Search for **OneDrive** and select **Create share link** action 
 
 1. In the **Create share link** action enter below values
 
