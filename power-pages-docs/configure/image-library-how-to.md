@@ -24,161 +24,161 @@ To complete this course, you need a Power Automate and Power Pages environment. 
 
 ## Step 1: Create cloud flow
 
- Image flow
+### Image flow
 
 Create a flow using the Power Pages trigger and use OneDrive to store the images.
 
-1.  Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/)
+1. Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/)
 
-2.  Select site **+ Edit**
+1. Select site **+ Edit**
 
-3.  Navigate to **Set up** à **Cloud flows (preview)** under App integrations
+1. Navigate to **Set up** à **Cloud flows (preview)** under App integrations
 
-4.  Select **+ Add cloud flow**
+1. Select **+ Add cloud flow**
 
-5.  Click on **+ Create new flow**
+1. Click on **+ Create new flow**
 
-6.  Search **Power Pages** and select **When Power Pages calls flow** trigger
+1. Search **Power Pages** and select **When Power Pages calls flow** trigger
 
-9.  Click on **+ Add** **an input** 
+1. Click on **+ Add** **an input** 
 
-10. Choose **Text**
+1. Choose **Text**
 
-11. Add name **Image Name**
+1. Add name **Image Name**
 
-12. Click on **+ Add** **an input** 
+1. Click on **+ Add** **an input** 
 
-13. Choose **File** 
+1. Choose **File** 
 
-14. Add a name as **Image Content**
+1. Add a name as **Image Content**
 
-15. Click on **+New step** 
+1. Click on **+New step** 
 
-16. Search for **OneDrive** à select **Create File** action 
+1. Search for **OneDrive** à select **Create File** action
+1.  
+1. In the **Create file** action enter below values
 
-17. In the **Create file** action enter below values
-
-    1.  Folder Path **/** and select **User ID** from dynamic content
+    1. Folder Path **/** and select **User ID** from dynamic content
 
 Do not forget to prepend with '/'
 
-2.  File Name Select **Image Name** from dynamic content
+1. File Name Select **Image Name** from dynamic content
 
-3.  File Content Select **Image Content** from dynamic content
+1. File Content Select **Image Content** from dynamic content
 
-18. Click on **+New step** 
+1. Click on **+New step** 
 
-19. Search for **OneDrive** à select **Create share link** action 
+1. Search for **OneDrive** à select **Create share link** action 
 
-20. In the **Create share link** action enter below values
+1. In the **Create share link** action enter below values
 
-    1.  File Id from the Dynamic content
+    1. File Id from the Dynamic content
 
-    2.  Link type View from the Dynamic content
+    1. Link type View from the Dynamic content
 
-21. Click on **+New step** 
+1. Click on **+New step** 
 
-22. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
+1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
 
-23. In the **Return value(s) to Power Pages** action enter below values
+1. In the **Return value(s) to Power Pages** action enter below values
 
-    1.  Click **+Add an output**
+    1. Click **+Add an output**
 
-    2.  Choose the type of output as **Text**
+    1. Choose the type of output as **Text**
 
-    3.  Enter Name as **Image Path**
+    1. Enter Name as **Image Path**
 
-    4.  Image Path Web URL from the Dynamic content 
+    1. Image Path Web URL from the Dynamic content 
     
 1. Provide flow name as **Upload image flow**
 
-25. Click **Save**
+1. Click **Save**
 
-26. Click **+Add roles**
+1. Click **+Add roles**
 
-27. Select **Authenticated Users**
+1. Select **Authenticated Users**
 
-28. Click **+Add**
+1. Click **+Add**
 
 ### Get Image list flow
 
-1.  Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/)
+1. Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/)
 
-2.  Select site **+ Edit**
+1. Select site **+ Edit**
 
-3.  Navigate to **Set up** à **Cloud flows (preview)** under App integrations
+1. Navigate to **Set up** à **Cloud flows (preview)** under App integrations
 
-4.  Select **+ Add cloud flow**
+1. Select **+ Add cloud flow**
 
-5.  Click on **+ Create new flow**
+1. Click on **+ Create new flow**
 
-6.  Search **Power Pages** and select **When Power Pages calls flow** trigger
+1. Search **Power Pages** and select **When Power Pages calls flow** trigger
 
-7.  Click **+ New step**
+1. Click **+ New step**
 
-8.  Search for **OneDrive List files in folder**
+1. Search for **OneDrive List files in folder**
 
-9.  Update **Folder** with **/ +** select User ID from dynamic content
+1. Update **Folder** with **/ +** select User ID from dynamic content
 
-10. Click **+ New step**
+1. Click **+ New step**
 
-11. Search for **Variable** Select **Initialize variable** action
+1. Search for **Variable** Select **Initialize variable** action
 
-12. Enter the value as below
+1. Enter the value as below
 
-    1.  Name Image Array
+    1. Name Image Array
 
-    2.  Type Array
+    1. Type Array
 
-13. Click **+ New step**
+1. Click **+ New step**
 
-14. Search for **Variable** Select **Initialize variable** action
+1. Search for **Variable** Select **Initialize variable** action
 
-15. Enter the value as below
+1. Enter the value as below
 
     1.  Name Image List
 
     2.  Type String
 
-16. Click **+ New step**
+1. Click **+ New step**
 
-17. Search for **Control** Select **Apply to each** action
+1. Search for **Control** Select **Apply to each** action
 
-18. Enter the value as below
+1. Enter the value as below
 
-    1.  Select **value** from the Dynamic content
+    1. Select **value** from the Dynamic content
 
-19. Click **Add an action**
+1. Click **Add an action**
 
-20. Search for **OneDrive** à select **Create share link** action 
+1. Search for **OneDrive** à select **Create share link** action 
 
-21. In the **Create share link** action enter below values
+1. In the **Create share link** action enter below values
 
-    1.  File Id from the Dynamic content
+    1. File Id from the Dynamic content
 
-    2.  Link type View from the Dynamic content
+    1. Link type View from the Dynamic content
 
-22. Click **Add an action**
+1. Click **Add an action**
 
-23. Search for **Variable** Select **Append to array variable** action
+1. Search for **Variable** Select **Append to array variable** action
 
-24. Enter the value as below
+1. Enter the value as below
 
-    1.  Name Image Array
+    1. Name Image Array
 
-    2.  Value ```{ "Id":&lt; Id from the dynamic content&gt;,
+    1. Value ```{ "Id":&lt; Id from the dynamic content&gt;,
 "URL":&lt;Web URL from the dynamic content&gt;
 }```
 
-25. Click on **+New step**
+1. Click on **+New step**
 
-26. Search for **Variable** Select **Set variable** action
+1. Search for **Variable** Select **Set variable** action
 
-27. Enter the value as below
+1. Enter the value as below
 
-    1.  Name Image List
+    1. Name Image List
 
-    2.  Value Image Array
+    1. Value Image Array
 
 1. Click on **+New step** 
 
