@@ -251,32 +251,32 @@ Don't forget to prepend with '/'
 
 ## Step 2: Create a page to Manage Image library
 
-After creating the flow and providing access to authenticated web role, you can now call it from a control event using JavaScript.
+After creating the flow and providing access to authenticated web role, you can call it from a control event using JavaScript.
 
-1. Select on **Pages** workspace
+1. Navigate to the **Pages** workspace.
 
-1. Select on **+ Page**
+1. Select **+ Page**.
 
-1. Provide the Page Name as "Travel*"*
+1. Provide the Page Name as "Travel*"*.
 
-1. Select on **Edit code** to open Visual Studio Code
+1. Select **Edit code** to open Visual Studio Code.
 
-1. Paste below code
+1. Paste the following code:
 
-1. Replace URL with the one copied previously
+1. Replace URL with the one copied previously.
 
-1. Save the code by selecting **CTRL + S**
+1. Save the code by selecting **CTRL + S**.
 
-1. Select on **Sync** on design studio
+1. In design studio, elect **Sync**.
 
 ## Step 3: Test the flow integration
 
-To test the flow integration functionality
+To test the flow integration functionality:
 
-1. Select on **Preview** to open the site
+1. Select the **Preview** to open the site.
 
-1. Select on **Upload** button
+1. Select the **Upload** button.
 
-1. Choose an Image
+1. Choose an Image.
 
-1. Select **Open**
+1. Select **Open**.
