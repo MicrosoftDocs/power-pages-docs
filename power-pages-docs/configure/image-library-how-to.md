@@ -2,7 +2,6 @@
 title: "How to: Create an image library using cloud flow and Power Pages"
 description: Learn how to create an image library in Power Pages.
 author: nageshbhat-msft
-
 ms.topic: how-to
 ms.custom: 
 ms.date: 10/04/2023
@@ -32,15 +31,15 @@ Create a flow using the Power Pages trigger and use OneDrive to store the images
 
 1. Select site **+ Edit**
 
-1. Navigate to **Set up** à **Cloud flows (preview)** under App integrations
+1. Navigate to **Set up** > **Cloud flows (preview)** under App integrations
 
 1. Select **+ Add cloud flow**
 
-1. Select on **+ Create new flow**
+1. Select **+ Create new flow**
 
 1. Search **Power Pages** and select **When Power Pages calls flow** trigger
 
-1. Select on **+ Add** **an input** 
+1. Select **+ Add** **an input** 
 
 1. Choose **Text**
 
@@ -52,9 +51,9 @@ Create a flow using the Power Pages trigger and use OneDrive to store the images
 
 1. Add a name as **Image Content**
 
-1. Select on **+New step** 
+1. Select **+New step** 
 
-1. Search for **OneDrive** Select **Create File** action
+1. Search for **OneDrive** and select **Create File** action
 1.  
 1. In the **Create file** action enter below values
 
@@ -78,7 +77,7 @@ Don't forget to prepend with '/'
 
 1. Select on **+New step** 
 
-1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
+1. Search for **Power Pages** and select **Return value(s) to Power Pages** action 
 
 1. In the **Return value(s) to Power Pages** action enter below values
 
@@ -106,7 +105,7 @@ Don't forget to prepend with '/'
 
 1. Select site **+ Edit**
 
-1. Navigate to **Set up** à **Cloud flows (preview)** under App integrations
+1. Navigate to **Set up** then **Cloud flows (preview)** under App integrations
 
 1. Select **+ Add cloud flow**
 
