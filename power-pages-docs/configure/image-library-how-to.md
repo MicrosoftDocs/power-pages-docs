@@ -25,7 +25,7 @@ To complete this course, you need a Power Automate and Power Pages environment. 
 
 ### Image flow
 
-In this step, you'll create a flow using the Power Pages trigger and use OneDrive to store the images.
+In this step, you create a flow using the Power Pages trigger and use OneDrive to store the images.
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -72,7 +72,7 @@ In this step, you'll create a flow using the Power Pages trigger and use OneDriv
 
 1. In the **Create share link** action, enter these values:
 
-    1. File Id from the Dynamic content
+    1. File ID from the Dynamic content
 
     1. Link type View from the Dynamic content
 
@@ -80,7 +80,7 @@ In this step, you'll create a flow using the Power Pages trigger and use OneDriv
 
 1. Search for **Power Pages** and select **Return value(s) to Power Pages** action.
 
-1. In the **Return value(s) to Power Pages** action enter these values:
+1. In the Return value(s) to Power Pages action, enter these values:
 
     1. Select **+Add an output**.
 
@@ -154,7 +154,7 @@ In this step, you'll create a flow using the Power Pages trigger and use OneDriv
 
 1. In the **Create share link** action enter the following values:
 
-    1. File Id from the Dynamic content
+    1. File ID from the Dynamic content
 
     1. Link type View from the Dynamic content
 
@@ -184,7 +184,7 @@ In this step, you'll create a flow using the Power Pages trigger and use OneDriv
 
 1. Search for **Power Pages** and select **Return value(s) to Power Pages** action.
 
-1. In the **Return value(s) to Power Pages** action enter the following values:
+1. In the Return value(s) to Power Pages action, enter the following values:
 
 1. Select **+Add an output**.
 
@@ -198,7 +198,7 @@ In this step, you'll create a flow using the Power Pages trigger and use OneDriv
 
 1. Select **Save**.
 
-1. Final flow appears as below.
+The final flow appears.
 
 ### Delete Image
 
@@ -268,7 +268,7 @@ After creating the flow and providing access to authenticated web role, you can 
 
 1. Save the code by selecting **CTRL + S**.
 
-1. In design studio, elect **Sync**.
+1. In design studio, select **Sync**.
 
 ## Step 3: Test the flow integration
 
