@@ -65,11 +65,11 @@ Don't forget to prepend with '/'
 
 1. File Content Select **Image Content** from dynamic content
 
-1. Select on **+New step** 
+1. Select **+New step** 
 
-1. Search for **OneDrive** à select **Create share link** action 
+1. Search for **OneDrive** and select the **Create share link** action 
 
-1. In the **Create share link** action enter below values
+1. In the **Create share link** action, enter these values:
 
     1. File Id from the Dynamic content
 
@@ -79,7 +79,7 @@ Don't forget to prepend with '/'
 
 1. Search for **Power Pages** and select **Return value(s) to Power Pages** action 
 
-1. In the **Return value(s) to Power Pages** action enter below values
+1. In the **Return value(s) to Power Pages** action enter these values:
 
     1. Select **+Add an output**
 
