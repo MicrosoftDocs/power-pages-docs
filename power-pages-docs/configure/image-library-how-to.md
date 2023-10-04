@@ -27,7 +27,7 @@ To complete this course, you need a Power Automate and Power Pages environment. 
 
 Create a flow using the Power Pages trigger and use OneDrive to store the images.
 
-1. Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/).
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
 
@@ -101,7 +101,7 @@ Don't forget to prepend with '/'
 
 ### Get Image list flow
 
-1. Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/).
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
 
@@ -201,7 +201,7 @@ Don't forget to prepend with '/'
 
 ## Delete Image
 
-1. Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/).
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
 
