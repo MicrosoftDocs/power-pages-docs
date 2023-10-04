@@ -12,7 +12,7 @@ ms.reviewer: kkendrick
 contributors:
     - nageshbhat-msft
     - ProfessorKendrick
-------
+---
 
 # How to: Create an image library using cloud flow and Power Pages
 
