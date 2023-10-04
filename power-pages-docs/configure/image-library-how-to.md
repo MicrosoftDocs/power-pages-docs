@@ -201,53 +201,53 @@ Don't forget to prepend with '/'
 
 ## Delete Image
 
-1. Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/)
+1. Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/).
 
-1. Select site **+ Edit**
+1. Select site **+ Edit**.
 
-1. Navigate to **Set up** and **Cloud flows (preview)** under App integrations
+1. Navigate to **Set up** and **Cloud flows (preview)** under App integrations.
 
-1. Select **+ Add cloud flow**
+1. Select **+ Add cloud flow**.
 
-1. Select on **+ Create new flow**
+1. Select on **+ Create new flow**.
 
-1. Search **Power Pages** and select **When Power Pages calls flow** trigger
+1. Search **Power Pages** and select **When Power Pages calls flow** trigger.
 
-1. Select **+ Add** **an input** 
+1. Select **+ Add** **an input**.
 
-1. Choose **Text**
+1. Choose **Text**.
 
-1. Add name **Id**
+1. Add name **Id**.
 
-1. Select **+ New step**
+1. Select **+ New step**.
 
-1. Search for **OneDrive** Select **Delete file** trigger
+1. Search for **OneDrive** Select **Delete file** trigger.
 
-1. Update **File** Select **Id** from Dynamic content
+1. Update **File**, then select **Id** from Dynamic content.
 
-1. Select **+ New step**
+1. Select **+ New step**.
 
-1. Search for **Power Pages** and select **Return value(s) to Power Pages** action 
+1. Search for **Power Pages** and select the **Return value(s) to Power Pages** action .
 
-1. In the Return value(s) to Power Pages action, enter below values
+1. In the Return value(s) to Power Pages action, enter these values:
 
-    1. Select **+Add an output**
+    1. Select **+Add an output**.
 
-    1. Choose the type of output as **Yes / No**
+    1. Choose the type of output as **Yes / No**.
 
-    1. Enter Name as **Status**
+    1. Enter Name as **Status**.
 
     1. Status True
 
-1. Provide flow name as **Delete image flow**
+1. Provide flow name as **Delete image flow**.
 
-1. Select **Save**
+1. Select **Save**.
 
-1. Select **+Add roles**
+1. Select **+Add roles**.
 
-1. Select **Authenticated Users**
+1. Select **Authenticated Users**.
 
-1. Select **+Add**
+1. Select **+Add**.
 
 ## Step 2: Create a page to Manage Image library
 
