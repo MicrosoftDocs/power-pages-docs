@@ -23,9 +23,9 @@ This article provides a step-by-step guide on creating Power Pages and harnessin
 
 To complete this course, you need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](https://learn.microsoft.com/en-us/power-pages/getting-started/trial-signup) and [Power Automate](https://learn.microsoft.com/en-us/power-automate/sign-up-sign-in) trial
 
-# Step 1: Create cloud flow
+## Step 1: Create cloud flow
 
-## Create Image flow
+### Create Image flow
 
 Create a flow using the Power Pages trigger and use OneDrive to store the images.
 
@@ -111,7 +111,7 @@ Do not forget to prepend with '/'
 
 28. Click **+Add**
 
-## Get Image list flow
+### Get Image list flow
 
 1.  Sign into [Power Pages](https://make.preview.powerpages.microsoft.com/)
 
