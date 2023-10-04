@@ -105,11 +105,11 @@ Don't forget to prepend with '/'
 
 1. Select site **+ Edit**.
 
-1. Navigate to **Set up** then **Cloud flows (preview)** under App integrations.
+1. Under App integrations, navigate to **Set up** then **Cloud flows (preview)**.
 
 1. Select **+ Add cloud flow**.
 
-1. Select on **+ Create new flow**.
+1. Select **+ Create new flow**.
 
 1. Search **Power Pages** and select **When Power Pages calls flow** trigger.
 
