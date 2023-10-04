@@ -21,17 +21,17 @@ This article provides a step-by-step guide on creating Power Pages and harnessin
 
 To complete this course, you need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](../getting-started/trial-signup.md) and [Power Automate](/power-automate/sign-up-sign-in) trials.
 
-## Step 1: Create cloud flow
+## Step 1: Create a cloud flow
 
 ### Image flow
 
-Create a flow using the Power Pages trigger and use OneDrive to store the images.
+In this step, you'll create a flow using the Power Pages trigger and use OneDrive to store the images.
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
 
-1. Navigate to **Set up**, hen **Cloud flows (preview)** under App integrations.
+1. Under App integrations, navigate to **Set up**, then **Cloud flows (preview)**.
 
 1. Select **+ Add cloud flow**.
 
@@ -45,7 +45,7 @@ Create a flow using the Power Pages trigger and use OneDrive to store the images
 
 1. Add name **Image Name**.
 
-1. Select on **+ Add** **an input**. 
+1. Select **+ Add** **an input**. 
 
 1. Choose **File**. 
 
@@ -55,15 +55,16 @@ Create a flow using the Power Pages trigger and use OneDrive to store the images
 
 1. Search for **OneDrive** and select **Create File** action.
 1.  
-1. In the **Create file** action enter below values.
+1. In the **Create file** action, enter the following values:
 
     1. Folder Path **/** and select **User ID** from dynamic content.
 
-Don't forget to prepend with '/'
+    > [!NOTE]
+    > Don't forget to prepend with '/'
 
-1. File Name Select **Image Name** from dynamic content.
+    1. File Name Select **Image Name** from dynamic content.
 
-1. File Content Select **Image Content** from dynamic content.
+    1. File Content Select **Image Content** from dynamic content.
 
 1. Select **+New step**. 
 
@@ -133,7 +134,7 @@ Don't forget to prepend with '/'
 
 1. Search for **Variable** Select **Initialize variable** action.
 
-1. Enter the value as below
+1. Enter the following values:
 
     1.  Name Image List
 
@@ -143,7 +144,7 @@ Don't forget to prepend with '/'
 
 1. Search for **Control** Select **Apply to each** action.
 
-1. Enter the value as below.
+1. Enter the following value:
 
     1. Select **value** from the Dynamic content.
 
@@ -227,7 +228,7 @@ Don't forget to prepend with '/'
 
 1. Select **+ New step**.
 
-1. Search for **Power Pages** and select the **Return value(s) to Power Pages** action .
+1. Search for **Power Pages** and select the **Return value(s) to Power Pages** action.
 
 1. In the Return value(s) to Power Pages action, enter these values:
 
@@ -237,7 +238,7 @@ Don't forget to prepend with '/'
 
     1. Enter Name as **Status**.
 
-    1. Status True
+    1. Status True.
 
 1. Provide flow name as **Delete image flow**.
 
