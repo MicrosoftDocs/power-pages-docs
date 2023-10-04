@@ -36,37 +36,37 @@ Create a flow using the Power Pages trigger and use OneDrive to store the images
 
 1. Select **+ Add cloud flow**
 
-1. Click on **+ Create new flow**
+1. Select on **+ Create new flow**
 
 1. Search **Power Pages** and select **When Power Pages calls flow** trigger
 
-1. Click on **+ Add** **an input** 
+1. Select on **+ Add** **an input** 
 
 1. Choose **Text**
 
 1. Add name **Image Name**
 
-1. Click on **+ Add** **an input** 
+1. Select on **+ Add** **an input** 
 
 1. Choose **File** 
 
 1. Add a name as **Image Content**
 
-1. Click on **+New step** 
+1. Select on **+New step** 
 
-1. Search for **OneDrive** à select **Create File** action
+1. Search for **OneDrive** Select **Create File** action
 1.  
 1. In the **Create file** action enter below values
 
     1. Folder Path **/** and select **User ID** from dynamic content
 
-Do not forget to prepend with '/'
+Don't forget to prepend with '/'
 
 1. File Name Select **Image Name** from dynamic content
 
 1. File Content Select **Image Content** from dynamic content
 
-1. Click on **+New step** 
+1. Select on **+New step** 
 
 1. Search for **OneDrive** à select **Create share link** action 
 
@@ -76,13 +76,13 @@ Do not forget to prepend with '/'
 
     1. Link type View from the Dynamic content
 
-1. Click on **+New step** 
+1. Select on **+New step** 
 
 1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
 
 1. In the **Return value(s) to Power Pages** action enter below values
 
-    1. Click **+Add an output**
+    1. Select **+Add an output**
 
     1. Choose the type of output as **Text**
 
@@ -92,13 +92,13 @@ Do not forget to prepend with '/'
     
 1. Provide flow name as **Upload image flow**
 
-1. Click **Save**
+1. Select **Save**
 
-1. Click **+Add roles**
+1. Select **+Add roles**
 
 1. Select **Authenticated Users**
 
-1. Click **+Add**
+1. Select **+Add**
 
 ### Get Image list flow
 
@@ -110,17 +110,17 @@ Do not forget to prepend with '/'
 
 1. Select **+ Add cloud flow**
 
-1. Click on **+ Create new flow**
+1. Select on **+ Create new flow**
 
 1. Search **Power Pages** and select **When Power Pages calls flow** trigger
 
-1. Click **+ New step**
+1. Select **+ New step**
 
 1. Search for **OneDrive List files in folder**
 
 1. Update **Folder** with **/ +** select User ID from dynamic content
 
-1. Click **+ New step**
+1. Select **+ New step**
 
 1. Search for **Variable** Select **Initialize variable** action
 
@@ -130,7 +130,7 @@ Do not forget to prepend with '/'
 
     1. Type Array
 
-1. Click **+ New step**
+1. Select **+ New step**
 
 1. Search for **Variable** Select **Initialize variable** action
 
@@ -140,7 +140,7 @@ Do not forget to prepend with '/'
 
     2.  Type String
 
-1. Click **+ New step**
+1. Select **+ New step**
 
 1. Search for **Control** Select **Apply to each** action
 
@@ -148,7 +148,7 @@ Do not forget to prepend with '/'
 
     1. Select **value** from the Dynamic content
 
-1. Click **Add an action**
+1. Select **Add an action**
 
 1. Search for **OneDrive** à select **Create share link** action 
 
@@ -158,7 +158,7 @@ Do not forget to prepend with '/'
 
     1. Link type View from the Dynamic content
 
-1. Click **Add an action**
+1. Select **Add an action**
 
 1. Search for **Variable** Select **Append to array variable** action
 
@@ -170,7 +170,7 @@ Do not forget to prepend with '/'
 "URL":&lt;Web URL from the dynamic content&gt;
 }```
 
-1. Click on **+New step**
+1. Select on **+New step**
 
 1. Search for **Variable** Select **Set variable** action
 
@@ -180,13 +180,13 @@ Do not forget to prepend with '/'
 
     1. Value Image Array
 
-1. Click on **+New step** 
+1. Select on **+New step** 
 
 1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
 
 1. In the **Return value(s) to Power Pages** action enter below values
 
-1. Click **+Add an output**
+1. Select **+Add an output**
 
 1. Choose the type of output as **Text**
 
@@ -196,7 +196,7 @@ Do not forget to prepend with '/'
 
 1. Provide flow name as **Get Image List flow**
 
-1. Click **Save**
+1. Select **Save**
 
 1. Final flow appears as below
 
@@ -210,29 +210,29 @@ Do not forget to prepend with '/'
 
 1. Select **+ Add cloud flow**
 
-1. Click on **+ Create new flow**
+1. Select on **+ Create new flow**
 
 1. Search **Power Pages** and select **When Power Pages calls flow** trigger
 
-1. Click on **+ Add** **an input** 
+1. Select on **+ Add** **an input** 
 
 1. Choose **Text**
 
 1. Add name **Id**
 
-1. Click **+ New step**
+1. Select **+ New step**
 
 1. Search for **OneDrive** Select **Delete file** trigger
 
 1. Update **File** Select **Id** from Dynamic content
 
-1. Click **+ New step**
+1. Select **+ New step**
 
 1. Search for **Power Pages** à select **Return value(s) to Power Pages** action 
 
-1. In the **Return value(s) to Power Pages** action enter below values
+1. In the Return value(s) to Power Pages action, enter below values
 
-    1. Click **+Add an output**
+    1. Select **+Add an output**
 
     1. Choose the type of output as **Yes / No**
 
@@ -242,42 +242,42 @@ Do not forget to prepend with '/'
 
 1. Provide flow name as **Delete image flow**
 
-1. Click **Save**
+1. Select **Save**
 
-1. Click **+Add roles**
+1. Select **+Add roles**
 
 1. Select **Authenticated Users**
 
-1. Click **+Add**
+1. Select **+Add**
 
 ## Step 2: Create a page to Manage Image library
 
 After creating the flow and providing access to authenticated web role, you can now call it from a control event using JavaScript.
 
-1. Click on **Pages** workspace
+1. Select on **Pages** workspace
 
-1. Click on **+ Page**
+1. Select on **+ Page**
 
 1. Provide the Page Name as "Travel*"*
 
-1. Click on **Edit code** to open visual studio code
+1. Select on **Edit code** to open Visual Studio Code
 
 1. Paste below code
 
-1. Replace URL with the one copied above
+1. Replace URL with the one copied previously
 
 1. Save the code by selecting **CTRL + S**
 
-1. Click on **Sync** on design studio
+1. Select on **Sync** on design studio
 
 ## Step 3: Test the flow integration
 
 To test the flow integration functionality
 
-1. Click on **Preview** to open the site
+1. Select on **Preview** to open the site
 
-1. Click on **Upload** button
+1. Select on **Upload** button
 
 1. Choose an Image
 
-1. Click **Open**
+1. Select **Open**
