@@ -200,7 +200,7 @@ In this step, you'll create a flow using the Power Pages trigger and use OneDriv
 
 1. Final flow appears as below.
 
-## Delete Image
+### Delete Image
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
