@@ -13,7 +13,7 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Force Bing webmaster to index your site (preview)
+# Force Bing webmaster to index your site
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
