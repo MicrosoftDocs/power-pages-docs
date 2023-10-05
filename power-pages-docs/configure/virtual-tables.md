@@ -4,7 +4,7 @@ description: Learn how to integrate virtual tables with Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/19/2023
+ms.date: 10/05/2023
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -37,7 +37,7 @@ There are various ways to create a virtual table in Dataverse. Currently, Power 
 
 [Dynamics 365 Finance and Operations](/dynamics365/fin-ops-core/fin-ops/) is a business application that is designed to help organizations manage their financial, operations, and supply chain. Finance and operations apps are a virtual data source in Dataverse, and enable full create, read, update, and delete (CRUD) operations from Dataverse.  Learn how to [surface finance and operations virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/power-portal-reference) in Power Pages. 
 
-### Virtual connector provider (preview)
+### Virtual connector provider
 
 Virtual connectors are built using Power Platform Connectors, which are pre-built connectors that provide a way to interact with external systems. Virtual connectors streamline creation experience by automating some of the creation and removing the need to use code to create the virtual tables.
 
@@ -46,6 +46,16 @@ Virtual connectors are built using Power Platform Connectors, which are pre-buil
 > - You will need to create virtual tables in Power Apps, you cannot create virtual tables using the **Data** workspace in the Power Pages design studio.
 
 To learn how to create virtual table in Dataverse, go to [create a virtual table using virtual connector](/power-apps/maker/data-platform/create-virtual-tables-using-connectors?tabs=sql#steps-to-create-a-virtual-table-in-power-apps-for-sql-or-sharepoint).
+
+### Custom virtual table data providers
+
+Using Microsoft Dataverse Data SDK, .NET Developers have the option of creating custom virtual table data providers to help integrate external data source types that are not supported by an existing data provider. Each data provider is composed of a reusable set of Dataverse plug-ins that implement the supported CRUD operations.
+
+> [!NOTE]
+> - Power Pages requires that all tables have an ID attribute, this ID is known as a unique identifier and the value must be a guid.
+> - While retrieving the virtual table from external data source in plugin, explicitly set AllColumns attribute to true.
+
+To learn how to create virtual table using custom data provider in Dataverse, go to [Custom virtual table data providers](/power-apps/maker/data-platform/virtual-entities/custom-ve-data-providers#steps-to-use-a-custom-data-provider).
 
 ## Set up virtual table relationship
 
