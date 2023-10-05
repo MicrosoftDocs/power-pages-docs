@@ -55,7 +55,7 @@ Using Microsoft Dataverse Data SDK, .NET Developers have the option of creating 
 > - Power Pages requires that all tables have an ID attribute, this ID is known as a unique identifier and the value must be a guid.
 > - While retrieving the virtual table from external data source in plugin, explicitly set AllColumns attribute to true.
 
-To learn how to create virtual table using custom data provider in Dataverse, go to [Custom virtual table data providers](/power-apps/maker/data-platform/virtual-entities/custom-ve-data-providers#steps-to-use-a-custom-data-provider).
+To learn how to create virtual table using custom data provider in Dataverse, go to [Custom virtual table data providers](/power-apps/developer/data-platform/virtual-entities//custom-ve-data-providers#steps-to-use-a-custom-data-provider).
 
 
 ## Set up virtual table relationship
