@@ -1,6 +1,6 @@
 ---
-title: FAQ for creating AI-generated form
-description: This FAQ discusses natural language to form and the key considerations for making use of this technology responsibly.
+title: FAQ for creating AI-generated form or multistep form
+description: This FAQ discusses natural language to forms and the key considerations for making use of this technology responsibly.
 ms.date: 5/23/2023
 ms.custom: responsible-ai-faqs
 ms.topic: article
@@ -12,9 +12,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# FAQ for creating AI-generated form
+# FAQ for creating AI-generated form or multistep form
 
-These frequently asked questions (FAQ) describe the AI impact of Power Pages' natural language to form feature.
+These frequently asked questions (FAQ) describe the AI impact of Power Pages' natural language to form or multistep form feature.
 
 ## What is natural language to form?
 
@@ -49,5 +49,6 @@ You can revise the form suggestion as needed. You can also review the form previ
 
 ## See also
 
-- [Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
+- [Add an AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
+- [Add an AI-generated multiform using Copilot (preview)](getting-started/multistep-forms-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

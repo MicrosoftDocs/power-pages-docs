@@ -35,7 +35,7 @@ To use Copilot for theme:
 
 1. Describe the theme that you want to generate using AI. For example, "Create a theme for Microsoft."
 
-    :::image type="content" source="media/theme-copilot/sidecar.png" alt-text="The Copilot sidecar in design studio with a user's description and responses displayed.":::
+    :::image type="content" source="media/theme-copilot/create-theme.png" alt-text="A screenshot of Copilot in design studio with an AI-generated theme displayed.":::
 
 To customize the theme, you can choose the following options:
 
@@ -43,7 +43,7 @@ To customize the theme, you can choose the following options:
 
 - **Styling workspace**: The AI theme can be customized in the [styling workspace](style-site.md) manually just like any other theme. 
 
-To avoid unintentionally publishing changes to your site, review, edit, and verify the generated theme to make sure it fits your requirements before changing the [site visibility](../security/site-visibility.md) to **Public**.
+To avoid unintentionally publishing changes to your site, review, edit, and verify the generated theme to make sure it fits your requirements.
 
 ## See also
 

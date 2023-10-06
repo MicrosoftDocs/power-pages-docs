@@ -16,7 +16,7 @@
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
-        - name: Use enhanced data model (preview)
+        - name: Use enhanced data model
           href: admin/enhanced-data-model.md
 - name: Try Power Pages
   items:
@@ -160,6 +160,8 @@
                   href: getting-started/add-form-copilot.md
                 - name: Add multistep form
                   href: getting-started/multistep-forms.md
+                - name: Add an AI-generated multistep form using Copilot (preview)
+                  href: getting-started/multistep-forms-copilot.md
                 - name: Add IFrame
                   href: getting-started/add-iframe.md
             - name: Structure your site map
@@ -556,9 +558,9 @@
       href: admin/admin-api.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
-    - name: Use solutions with Power Pages (preview)
+    - name: Use solutions with Power Pages 
       href: configure/power-pages-solutions.md
-    - name: Use Power Platform pipelines with Power Pages (preview)
+    - name: Use Power Platform pipelines with Power Pages
       href: configure/power-pages-pipelines.md  
 - name: Secure Power Pages
   items:
@@ -700,7 +702,7 @@
       href: faqs-chatbot.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
-    - name: FAQ for creating form
+    - name: FAQ for creating form or multistep form
       href: faqs-create-form.md
     - name: FAQ for design studio
       href: faqs-design-studio.md

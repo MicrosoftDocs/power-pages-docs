@@ -24,7 +24,7 @@ Power Platform environments and existing Power Pages sites by default use Bootst
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature is in the process of rolling out, and may not be available in your region yet.
-> - Bootstrap version 5 is only supported in enhanced data model environments. More information: [Enable the enhanced data model in an environment](../admin/enhanced-data-model.md#enable-the-enhanced-data-model-in-an-environment)
+> - Bootstrap version 5 is only supported in [enhanced data model](../admin/enhanced-data-model.md).
 > - You can migrate existing sites from using Bootstrap version 3 to use Bootstrap version 5, or create new sites after enabling the above setting.
 
 To enable Bootstrap version 5 in your environment:

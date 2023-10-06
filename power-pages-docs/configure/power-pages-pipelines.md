@@ -5,34 +5,25 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/14/2023
+ms.date: 09/26/2023
 ms.author: gisingh
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - gitanjalisingh33msft
     - nickdoelman
-    - Professor Kendrick
+    - professorkendrick
 ---
 
-# Use Power Platform pipelines with Power Pages (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Use Power Platform pipelines with Power Pages
 
 Using Power Platform pipelines with Power Pages solutions allows you to automate the deployment of websites from development environments to target environments like test and production.  
 
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-
 ## Prerequisites
 
-To try this feature, you require at minimum two Power Platform environments that have the enhanced data model enabled, one designated as the source and the other as the target. See [Power Pages enhanced data model](../admin/enhanced-data-model.md) to enable the enhanced data model for an environment.
-
-You can have multiple target environments depending on your setup. For example, a testing, staging, and production environments.
-
-Each environment requires a site that is created using the new data model. See [create a website by using the enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
-
-You also need to set up and configure a pipeline from your development environment to corresponding target environments. See [Power Platform pipelines](/power-platform/alm/pipelines) for details on how to configure pipelines.
+- You'll need to enable enhanced data model to use pipelines in Power Platform with Power Pages. More information: [Power Pages enhanced data model](../admin/enhanced-data-model.md)
+- To prepare your environments for pipelines in Power Platform, see [Set up pipelines in Power Platform](/power-platform/alm/set-up-pipelines).
+- Each environment requires a site that is created using the enhanced data model. See [create a website by using the enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
+- You also need to set up and configure a pipeline from your development environment to corresponding target environments. See [Power Platform pipelines](/power-platform/alm/pipelines) for details on how to configure pipelines.
 
 ## Deploy solutions using pipelines
 
