@@ -83,6 +83,29 @@ Authenticated site users receive tailored, summarized answers that align with th
 1. Select **Next** and review the selection. 
 1. Choose **Save** to submit the changes. 
 
+### Customize chatbot appearances
+
+You can customize the chatbot's style by overriding the default Cascade Style Sheet (CSS) classes. To do so, add a style tag to the header template and follow these steps to override the values. 
+
+1. Go to code editor of the site.  
+1. From **Explorer navigation**, expand the **web-templates** folder. 
+1. Open **Header.html**. 
+1. Add your style tag. 
+1. Override the respective styles.
+
+
+|Number  |Component        |CSS class|
+|--------|-----------------|---------|
+|1       |Chatbot widget   |         |
+|2       |Height & Width   |         |
+|3       |Header           |         |
+|4       |Bot window       |         |
+|5       |Bubble from bot  |         |
+|6       |Bubble from user |         |
+|7       |Reference links  |         |
+|8       |Privacy message  |         |
+
+
 ## Known issues
 
 - You can't change your site's custom domain after you add a chatbot. Instead, turn off the chatbot, change the custom domain, and then turn the chatbot on again.
