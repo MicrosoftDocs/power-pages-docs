@@ -135,25 +135,38 @@ Tooltip:
 }
 ```
 
-|Number  |Component        |CSS class|
-|--------|-----------------|---------|
-|1       |Chatbot widget   |  Chatbot collapsed icon
-.pva-embedded-web-chat-widget { 
-  background-color: #484644; 
-  border: 1px solid #FFFFFF;	 
-}
-Tooltip:
-.pva-embedded-web-chat-widget .pva-embedded-web-chat-widget-tooltip-text { 
-  background: white; 
-  color: #323130; 
-}        |
-|2       |Height & Width   |         |
-|3       |Header           |         |
-|4       |Bot window       |         |
-|5       |Bubble from bot  |         |
-|6       |Bubble from user |         |
-|7       |Reference links  |         |
-|8       |Privacy message  |         |
+### 4. Bot window
+
+```css
+.pva-embedded-web-chat-window { 
+  background: white;  
+} 
+```
+
+### 5. Bubble from bot
+
+Background color: 
+
+```css
+.webchat__bubble:not(.webchat__bubble--from-user) .webchat__bubble__content { 
+  background-color: #77a145 !important;  
+  border-radius: 5px !important; 
+} 
+```
+
+Text color: 
+
+```css
+.webchat__bubble:not(.webchat__bubble--from-user) p  {  
+color: #ffffff; 
+} 
+```
+
+### 6. Bubble from user
+
+### Reference links
+
+### Privacy message
 
 
 ## Known issues
