@@ -83,7 +83,7 @@ Authenticated site users receive tailored, summarized answers that align with th
 1. Select **Next** and review the selection. 
 1. Choose **Save** to submit the changes. 
 
-### Customize chatbot appearances
+## Customize chatbot appearances
 
 You can customize the chatbot's style by overriding the default Cascade Style Sheet (CSS) classes. To do so, add a style tag to the header template and follow these steps to override the values. 
 
@@ -93,6 +93,47 @@ You can customize the chatbot's style by overriding the default Cascade Style Sh
 1. Add your style tag. 
 1. Override the respective styles.
 
+
+### 1. Chatbot Widget
+
+Chatbot collapsed icon:
+
+```css
+.pva-embedded-web-chat-widget {
+    	background-color: #484644;
+	border: 1px solid #FFFFFF;	
+}
+```
+
+Tooltip:
+
+```css
+.pva-embedded-web-chat-widget .pva-embedded-web-chat-widget-tooltip-text {
+	background: white;
+	color: #323130;
+}
+```
+
+### 2. Height and Width
+
+```css
+.pva-embedded-web-chat[data-minimized='false'] {
+ 	height: 80%;
+	width: 25%;
+	max-width: 400px;
+	max-height: 740px;
+}
+```
+
+### 3. Header
+
+```css
+.pages-chatbot-header 
+{ 
+	background: #77a145;  
+	color: #ffffff; 
+}
+```
 
 |Number  |Component        |CSS class|
 |--------|-----------------|---------|
