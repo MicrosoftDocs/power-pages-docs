@@ -157,17 +157,65 @@ Background color:
 Text color: 
 
 ```css
-.webchat__bubble:not(.webchat__bubble--from-user) p  {  
+.webchat__bubble:not(.webchat__bubble--from-user) p {  
 color: #ffffff; 
 } 
 ```
 
 ### 6. Bubble from user
 
-### Reference links
+Background color:
 
-### Privacy message
+```css
+.webchat__bubble.webchat__bubble--from-user .webchat__bubble__content { 
+  background-color: #797d81 !important;  
+  border-radius: 5px !important; 
+} 
+```
 
+Text color:
+
+```css
+.webchat__bubble.webchat__bubble--from-user p {  
+  color: #ffffff; 
+} 
+```
+
+### 7. Reference links
+
+```css
+.webchat__link-definitions__badge {  
+  color: blue !important; 
+} 
+
+.webchat__link-definitions__list-item-text {  
+  color: blue !important;  
+} 
+
+.webchat__render-markdown__pure-identifier {  
+  color: blue !important; 
+} 
+```
+
+### 8. Privacy message
+
+Background color:
+
+```css
+.pva-privacy-message {  
+  background: #797d81;  
+} 
+```
+
+Text color:
+
+```css
+.pva-privacy-message p {  
+  color: #ffffff;  
+  font-size: 12px;  
+  font-weight: 400; 
+} 
+```
 
 ## Known issues
 
