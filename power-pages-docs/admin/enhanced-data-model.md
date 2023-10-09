@@ -22,7 +22,7 @@ The standard data model was built by using custom tables, and it was optimized f
 >[!NOTE]
 > - All new sites will be created by default using the enhanced data model. 
 > - To create a site on the standard data model, [disable the enhanced data model](#disable-the-enhanced-data-model) in the Power Platform admin center. 
-> - The Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites.
+> - The Power Pages Management app is installed by default on all instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites.
 
 The enhanced data model is a combination of system tables, nonconfiguration tables, and virtual tables.
 
@@ -204,7 +204,6 @@ You can use the new Power Pages Management app to edit new websites that are cre
 
 - In the language selection on the user profile page, a signed-in website user preffered lanugauges are not shown. As a workaround change preferred language from site header.
 - [List actions](../getting-started/add-list.md#choose-list-actions) configuration for enhanced datamodel site in design studio is not supported. As a workaround, configure the list actions by using the [Power Pages Management app](../configure/list-configuration.md).
-- You must assign contacts to web roles by using **Portal Contact (Enhanced Form)** on the contact record in the Power Pages Management app. For more information, go to [Configure web roles](../security/create-web-roles.md#from-the-contact-enhanced-data-model).
 - Because webpages search for enhanced data model isn't working, search results won't include results from webpages and chatbots won't be able to respond with answers from webpages.
 
 ## See also
