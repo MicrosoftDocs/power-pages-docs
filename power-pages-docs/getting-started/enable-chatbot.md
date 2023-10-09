@@ -96,7 +96,16 @@ You can customize the chatbot's style by overriding the default Cascade Style Sh
 
 |Number  |Component        |CSS class|
 |--------|-----------------|---------|
-|1       |Chatbot widget   |         |
+|1       |Chatbot widget   |  Chatbot collapsed icon
+.pva-embedded-web-chat-widget { 
+  background-color: #484644; 
+  border: 1px solid #FFFFFF;	 
+}
+Tooltip:
+.pva-embedded-web-chat-widget .pva-embedded-web-chat-widget-tooltip-text { 
+  background: white; 
+  color: #323130; 
+}        |
 |2       |Height & Width   |         |
 |3       |Header           |         |
 |4       |Bot window       |         |
