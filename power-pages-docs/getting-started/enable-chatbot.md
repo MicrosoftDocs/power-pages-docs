@@ -21,7 +21,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. With a couple of clicks, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *boosted conversations*&mdash;that is, natural language and generative answers&mdash;to answer questions and suggest solutions to issues in a conversational way.
+A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *boosted conversations*&mdash;that is, natural language and generative answers&mdash;to answer questions and suggest solutions to issues in a conversational way.
 
 > [!IMPORTANT]
 >
@@ -53,20 +53,21 @@ To use AI-powered Copilot features in Power Pages:
 
     If your tenant admin hasn't turned on publishing boosted bots, the **Publish chatbot on site** setting isn't available.
 
-After you publish the chatbot on your site, the site URL is passed to Bing for indexing. The indexing process may take up to a day, but you can [force Bing to index your site's content immediately](force-bing-index.md).
+After you publish the chatbot on your site, the site URL is passed to Bing for indexing. The indexing process can take up to a day, but you can [force Bing to index your site's content immediately](force-bing-index.md).
 
 ## Customize your chatbot
 
-When creating a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. 
+When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. 
 
-Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following the steps outlined below: 
-1. Open the chatbot 
+Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following these steps: 
+
+1. Open the chatbot.
 1. Under **Refine your data**, choose the **Make changes** button.
-1. Select **Choose tables lookup control** to select or de-select the tables. 
-    - You can select multiple tables in this section. Please ensure that any table you select here is used on the site. 
-    - On subsequent pages, you will need to specify the page where the table is used for generating the citation URL. 
+1. Select **Choose tables lookup control** to select or deselect the tables. 
+    - You can select multiple tables in this section. Ensure that any table you select here's used on the site. 
+    - On subsequent pages, you must specify the page where the table is used for generating the citation URL. 
 1. Choose **Next**. 
-1. Under the **Choose table**, select the table for which contains the columns and page link you wish to select.
+1. Under the **Choose table**, select the table that contains the columns and page link you wish to select.
     - You can select one table at a time. 
 1. Under **Add page link**, select the page where table is used.  
 
@@ -78,7 +79,7 @@ Authenticated site users receive tailored, summarized answers that align with th
 1. Under **Choose columns**, select the list of columns that is used in page. 
 
     > [!NOTE]
-    > Only a column with multi line text is available to choose.  
+    > Only a column with multiline text is available to choose.  
 
 1. Select **Next** and review the selection. 
 1. Choose **Save** to submit the changes. 
@@ -87,7 +88,7 @@ Authenticated site users receive tailored, summarized answers that align with th
 
 You can customize the chatbot's style by overriding the default Cascade Style Sheet (CSS) classes. To do so, add a style tag to the header template and follow these steps to override the values. 
 
-1. Go to code editor of the site.  
+1. Go to site's code editor.
 1. From **Explorer navigation**, expand the **web-templates** folder. 
 1. Open **Header.html**. 
 1. Add your style tag. 
@@ -220,7 +221,7 @@ Text color:
 ## Known issues
 
 - You can't change your site's custom domain after you add a chatbot. Instead, turn off the chatbot, change the custom domain, and then turn the chatbot on again.
-- Although you can turn on the chatbot feature on sites that you create outside the United States, the chatbot may not be created.
+- Although you can turn on the chatbot feature on sites that you create outside the United States, the chatbot might not be created.
 - If you turn off the chatbot feature, allow a few minutes for background operations to complete before you turn it on again.
 
 ### See also
