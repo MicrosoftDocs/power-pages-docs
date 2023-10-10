@@ -95,7 +95,12 @@ You can customize the chatbot's style by overriding the default Cascade Style Sh
 1. Override the respective styles.
 
 
-### 1. Chatbot Widget
+
+
+
+### Chatbot widget
+
+:::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="image1":::
 
 Chatbot collapsed icon:
 
@@ -114,8 +119,23 @@ Tooltip:
 	color: #323130;
 }
 ```
+### Chatbot elements
 
-### 2. Height and Width
+You can use CSS to customize your chatbot's elements.
+
+:::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="image1":::
+
+#### 1. Header
+
+```css
+.pages-chatbot-header 
+{ 
+	background: #77a145;  
+	color: #ffffff; 
+}
+```
+
+#### 2. Height and Width
 
 ```css
 .pva-embedded-web-chat[data-minimized='false'] {
@@ -126,17 +146,7 @@ Tooltip:
 }
 ```
 
-### 3. Header
-
-```css
-.pages-chatbot-header 
-{ 
-	background: #77a145;  
-	color: #ffffff; 
-}
-```
-
-### 4. Bot window
+#### 3. Bot window
 
 ```css
 .pva-embedded-web-chat-window { 
@@ -144,7 +154,7 @@ Tooltip:
 } 
 ```
 
-### 5. Bubble from bot
+#### 4. Bubble from bot
 
 Background color: 
 
@@ -163,7 +173,7 @@ color: #ffffff;
 } 
 ```
 
-### 6. Bubble from user
+#### 65. Bubble from user
 
 Background color:
 
@@ -182,7 +192,7 @@ Text color:
 } 
 ```
 
-### 7. Reference links
+#### 6. Reference links
 
 ```css
 .webchat__link-definitions__badge {  
@@ -198,7 +208,7 @@ Text color:
 } 
 ```
 
-### 8. Privacy message
+#### 7. Privacy message
 
 Background color:
 
