@@ -4,30 +4,23 @@ description: Learn how to use solutions with Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/09/2023
+ms.date: 09/26/2023
 ms.author: gisingh
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - gitanjalisingh33msft
     - neerajnandwana-msft
+    - professorkendrick
 ---
 
-# Use solutions with Power Pages (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Use solutions with Power Pages
 
 By using solutions with Power Pages, you can contain and transport all website configurations through standard Microsoft Power Platform [solutions](/power-platform/alm/solution-concepts-alm). Combine all website and Dataverse components into a single solution artifact, and then take advantage of advanced Application Lifecycle Management (ALM) capabilities to deploy websites to destination environments by using managed solutions.
 
-> [!IMPORTANT]
-> - This feature is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-
 ## Prerequisites
 
-To try this feature, you need two Microsoft Power Platform environments where the new enhanced data model is enabled. One of the environments must be designated as the source and the other as the target. For information about how to enable the enhanced data model in an environment, go to [Enhanced data model](../admin/enhanced-data-model.md).
-
-Each environment requires a site that is created by using the enhanced data model. For more information, go to [Create a website by using the enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
+You'll need to enable enhanced data model to use solutions with Power Pages. More information: [Power Pages enhanced data model](../admin/enhanced-data-model.md)
 
 ## Add Power Pages site and components to a solution
 
@@ -47,6 +40,7 @@ Each environment requires a site that is created by using the enhanced data mode
 > [!NOTE]
 > - If the **Site** command doesn't appear on the **Add existing** menu, your environment doesn't include any websites that were created by using the [enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
 > - This process adds all the site components to the solution.
+> - Dataverse system tables associated with site components won't be added to solution autommatically, you need to add them using add existing tables.
 
 ## Add website components
 
