@@ -117,7 +117,7 @@ Tooltip:
 ```
 ### Chatbot elements
 
-Reference the CSS samples below for examples of how to customize your chatbot elements using CSS.
+Reference the CSS samples provided for examples of how to customize your chatbot's elements.
 
 :::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="A screenshot of a chatbot with individual elements annotated.":::
 
