@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-With the Copilot for site creation, you can create Power Pages sites with the help of AI. Describe the site that you want to create, and AI will design it for you. Use natural language processing to help you build your site by describing the type of site, intended users of the site and type of information you want the site to process.
+With the Copilot for site creation, you can create Power Pages sites with the help of AI. Describe the site that you want to create, and AI designs it for you. Use natural language processing to help you build your site by describing the type of site, intended users of the site and type of information you want the site to process.
 
 Copilot generates the contextual site name, site address, home page layout, and more pages with HTML for each page with relevant text copy and images from the description. The site is created with the home page and more pages as selected, with the pages added to the sitemap. Once the site is created, these pages can be refined and edited using Copilot and the WYSIWYG editor.
 
@@ -48,7 +48,7 @@ To use Copilot for site creation:
 
 1. Copilot generates more pages that could be used in the site based on the description. You can one or more pages and select **Done** to complete the site creation.
 
-Site creation may take a few minutes. When finished, you'll be re-directed to the site opened in the [design studio](use-design-studio.md) that you can customize further.
+Site creation can take a few minutes. When finished, you're redirected to the site opened in the [design studio](use-design-studio.md) that you can customize further.
 
 >[!NOTE]
 > - If the enhanced data model is disabled, Copilot for site creation is also disabled. Be sure to enable the [Enhanced data model](../admin/enhanced-data-model.md). 
