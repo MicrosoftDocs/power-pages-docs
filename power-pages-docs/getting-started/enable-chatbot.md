@@ -169,7 +169,7 @@ color: #ffffff;
 } 
 ```
 
-#### 65. Bubble from user
+#### 5. Bubble from user
 
 Background color:
 
