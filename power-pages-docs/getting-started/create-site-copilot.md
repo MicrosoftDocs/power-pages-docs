@@ -51,7 +51,7 @@ To use Copilot for site creation:
 Site creation may take a few minutes. When finished, you'll be re-directed to the site opened in the [design studio](use-design-studio.md) that you can customize further.
 
 >[!NOTE]
-> - Copilot for site creation is disabled, if the enhanced data model is disabled. Please make sure you enable the [Enhanced data model](../admin/enhanced-data-model.md). 
+> - If the enhanced data model is disabled, Copilot for site creation is also disabled. Be sure to enable the [Enhanced data model](../admin/enhanced-data-model.md). 
 > - Copilot-generated pages will reference images that are saved as web files.
 > - Web files can only be deleted through the Power Pages management app. More information: [Create and manage web files](../configure/web-files.md)
 
