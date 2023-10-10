@@ -94,13 +94,9 @@ You can customize the chatbot's style by overriding the default Cascade Style Sh
 1. Add your style tag. 
 1. Override the respective styles.
 
-
-
-
-
 ### Chatbot widget
 
-:::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="image1":::
+:::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="A screenshot of the chatbot widget.":::
 
 Chatbot collapsed icon:
 
@@ -121,9 +117,9 @@ Tooltip:
 ```
 ### Chatbot elements
 
-You can use CSS to customize your chatbot's elements.
+Reference the CSS samples below for examples of how to customize your chatbot elements using CSS.
 
-:::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="image1":::
+:::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="A screenshot of a chatbot with individual elements annotated.":::
 
 #### 1. Header
 
