@@ -23,7 +23,7 @@ ms.custom:
 
 A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *boosted conversations*&mdash;that is, natural language and generative answers&mdash;to answer questions and suggest solutions to issues in a conversational way.
 
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1cRVN]
+[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/{RW1cRVN}]
 
 > [!IMPORTANT]
 >
