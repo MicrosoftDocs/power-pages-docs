@@ -30,6 +30,8 @@
   items:
     - name: Create a site
       href: getting-started/create-manage.md
+    - name: Create an AI-generated site using Copilot (preview)
+      href: getting-started/create-site-copilot.md
     - name: Use developer sites
       href: getting-started/developer-sites.md
     - name: Get started with design studio
@@ -698,6 +700,8 @@
   items:
     - name: Overview
       href: responsible-ai-overview.md
+    - name: FAQ for site creation
+      href: faqs-generate-site.md      
     - name: FAQ for chatbot
       href: faqs-chatbot.md
     - name: FAQ for generating text
