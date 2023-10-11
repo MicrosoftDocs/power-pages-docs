@@ -94,6 +94,7 @@ You can customize the chatbot's style by overriding the default Cascade Style Sh
 1. From **Explorer navigation**, expand the **web-templates** folder. 
 1. Open **Header.html**. 
 1. Add your style tag. 
+    :::image type="content" source="media/enable-chatbot/code-editor.png" alt-text="A screenshot of Visual Studio with a folder, file, and CSS selector emphasized.":::
 1. Override the respective styles.
 
 ### Chatbot widget
