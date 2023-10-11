@@ -43,7 +43,7 @@ If you are using [Power Pages](https://make.powerpages.microsoft.com) for the fi
 
 ### Why don't I see my Portals created in Power Apps, under the **Apps** list on **Apps** page? 
 
-Starting October 2023, portals created in Power Apps portals will show in [Power Pages](https://make.powerpages.microsoft.com), More information: [Manage sites created in Power Apps](/power-apps/maker/portals/manage-existing-portals.md).   
+Starting October 2023, portals created in Power Apps portals will show in [Power Pages](https://make.powerpages.microsoft.com), More information: [Manage sites created in Power Apps](/power-apps/maker/portals/manage-existing-portals)
 
 ### Will I lose access to all portals and websites that I created in Power Apps?
 
