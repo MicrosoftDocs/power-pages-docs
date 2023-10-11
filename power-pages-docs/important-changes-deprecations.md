@@ -41,7 +41,7 @@ You can create websites using the Dynamics 365 templates from [Power Pages](http
 
 If you are using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You will see them in subsequent sites created, provided that the environment has any of the Dynamics 365 applications installed in it.   
 
-### Why don't I see my Portals created in Power Apps under the **Apps** list on **Apps** page? 
+### Why don't I see my Portals created in Power Apps under the **Apps** list in Portals studio? 
 
 Starting October 2023, portals created in Power Apps portals will show in [Power Pages](https://make.powerpages.microsoft.com), More information: [Manage sites created in Power Apps](/power-apps/maker/portals/manage-existing-portals)
 
