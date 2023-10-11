@@ -90,7 +90,7 @@ Authenticated site users receive tailored, summarized answers that align with th
 
 You can customize the chatbot's style by overriding the default Cascade Style Sheet (CSS) classes. To do so, add a style tag to the header template and follow these steps to override the values. 
 
-1. Go to site's code editor.
+1. Go to site's [code editor](../configure/visual-studio-code-editor.md).
 1. From **Explorer navigation**, expand the **web-templates** folder. 
 1. Open **Header.html**. 
 1. Add your style tag. 
