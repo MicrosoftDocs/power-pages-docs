@@ -46,7 +46,7 @@ To use Copilot for site creation:
 
 1. Copilot generates a home page layout, which you can scroll through and browse the page generated. Select **Try again** to generate a new layout or select **Next** to accept the suggested layout.
 
-1. Copilot generates more pages that could be used in the site based on the description. You can one or more pages and select **Done** to complete the site creation.
+1. Copilot generates more pages that could be used in the site based on the description. Describe one or more pages and select **Done** to complete the site creation.
 
 Site creation can take a few minutes. When finished, you're redirected to the site opened in the [design studio](use-design-studio.md) that you can customize further.
 
