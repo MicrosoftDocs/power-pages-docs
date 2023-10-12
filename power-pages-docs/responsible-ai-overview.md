@@ -18,6 +18,8 @@ contributors:
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
+- [FAQ for site creation (preview)](faqs-generate-site.md)
+- [FAQ for code (preview)](faqs-pro-developer.md)
 - [FAQ for chatbot (preview)](faqs-chatbot.md)
 - [FAQ for generating text (preview)](faqs-generate-text.md)
 - [FAQ for creating form (preview)](faqs-create-form.md)  
