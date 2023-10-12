@@ -27,7 +27,7 @@ Copilot generates the contextual site name, site address, home page layout, and 
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This preview feature doesn't support non-English language input.
 > - This preview feature is only available in the Microsoft Power Platform environments created in United States region.
-> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../responsible-ai-overview.md).
+> - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
 
 ## Create a site with the help of AI
 

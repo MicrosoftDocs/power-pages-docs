@@ -26,6 +26,7 @@ Add AI-generated code using Copilot in Visual Studio Code to help you create cod
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - To understand the capabilities and limitations of this feature, see [FAQ for AI-generated code using Copilot](../faqs-pro-developer.md).
 
 ## Prerequisites
 
