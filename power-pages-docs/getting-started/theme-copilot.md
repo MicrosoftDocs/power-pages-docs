@@ -23,7 +23,7 @@ Copilot for theme allows you to create a theme for your brand from the design st
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
 > - This feature will be available for preview in the United States only.
-> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../responsible-ai-overview.md).
+> - To understand the capabilities and limitations of this feature,see [FAQ for Copilot for design studio](../faqs-design-studio.md).
 
 To use Copilot for theme:
 
