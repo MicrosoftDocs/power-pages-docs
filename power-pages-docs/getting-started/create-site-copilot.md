@@ -27,7 +27,7 @@ Copilot generates the contextual site name, site address, home page layout, and 
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This preview feature doesn't support non-English language input.
 > - This preview feature is only available in the Microsoft Power Platform environments created in United States region.
-> - To understand capabilities and limitations of AI-powered Copilot features in Power Pages, see [Responsible AI FAQ for Copilot for site creation](../faqs-generate-site.md).
+> - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
 
 ## Create a site with the help of AI
 
@@ -46,7 +46,7 @@ To use Copilot for site creation:
 
 1. Copilot generates a home page layout, which you can scroll through and browse the page generated. Select **Try again** to generate a new layout or select **Next** to accept the suggested layout.
 
-1. Copilot generates more pages that could be used in the site based on the description. You can one or more pages and select **Done** to complete the site creation.
+1. Copilot generates more pages that could be used in the site based on the description. Describe one or more pages and select **Done** to complete the site creation.
 
 Site creation can take a few minutes. When finished, you're redirected to the site opened in the [design studio](use-design-studio.md) that you can customize further.
 

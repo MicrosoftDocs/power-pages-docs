@@ -27,7 +27,7 @@ An easy way to add text to your Power Pages website is to ask Copilot to create 
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
 > - This feature will be available for preview in the United States only.
-> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
+> - To understand the capabilities and limitations of this feature, see [FAQ for natural language to text](../faqs-generate-text.md).
 
 ## Prerequisites
 
