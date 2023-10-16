@@ -21,9 +21,9 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. With a couple of clicks, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *boosted conversations*&mdash;that is, natural language and generative answers&mdash;to answer questions and suggest solutions to issues in a conversational way.
+A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *boosted conversations*&mdash;that is, natural language and generative answers&mdash;to answer questions and suggest solutions to issues in a conversational way.
 
-:::image type="content" source="media/enable-chatbot/chatbot-preview.gif" alt-text="A GIF animation that explains how to add a chatbot to a page" border="false":::
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1cRVN]
 
 > [!IMPORTANT]
 >
@@ -38,7 +38,6 @@ To use AI-powered Copilot features in Power Pages:
 
 - Your environment must be located in the United States.
 - Your browser language must be set to US-English.
-- [Your site's visibility](../security/site-visibility.md) must be public.
 - Your tenant administrator must turn on the setting **Publish bots with boosted conversations** in the Power Platform admin center.
 
 ## Add a chatbot
@@ -50,44 +49,188 @@ To use AI-powered Copilot features in Power Pages:
 
 1. Turn on **Create and test chatbot**.
 
-    Power Pages creates a [bot with boosted conversation](/power-virtual-agents/nlu-boost-conversations) for you in Power Virtual Agents. To test it, open the bot in the Power Virtual Agents studio.
+    Power Pages creates a [bot with boosted conversation](/power-virtual-agents/nlu-boost-conversations) for you in Power Virtual Agents. 
 
 1. To make the chatbot available to visitors and users, turn on **Publish chatbot on site**.
 
     If your tenant admin hasn't turned on publishing boosted bots, the **Publish chatbot on site** setting isn't available.
 
-After you publish the chatbot on your site, the site URL is passed to Bing for indexing. The indexing process may take up to a day, but you can [force Bing to index your site's content immediately](force-bing-index.md).
+After you publish the chatbot on your site, the site URL is passed to Bing for indexing. The indexing process can take up to a day, but you can [force Bing to index your site's content immediately](force-bing-index.md).
 
 ## Customize your chatbot
 
-The "look and feel" of your chatbot component is controlled by a web template called **Power Virtual Agents**. To change your chatbot's appearance, change the values of parameters in the `window.PvaEmbeddedWebChat.renderWebChat()` function in the template.
+When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. 
 
-1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
-1. In the sitemap under **Content**, select **Web Templates**.
-1. Select the **Power Virtual Agents** template for your site.
-1. In the **Source** box, edit the values under the `window.PvaEmbeddedWebChat.renderWebChat` function, which starts on line 20.
-1. Select **Save & Close**.
-1. Return to the Power Pages studio and select **Sync** to update your site's configuration and reflect your changes.
+Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following these steps: 
 
-### Chatbot appearance parameters
+1. Open the chatbot.
+1. Under **Refine your data**, choose the **Make changes** button.
+1. Select **Choose tables lookup control** to select or deselect the tables. 
+    - You can select multiple tables in this section. Ensure that any table you select here's used on the site. 
+    - On subsequent pages, you must specify the page where the table is used for generating the citation URL. 
+1. Choose **Next**. 
+1. Under the **Choose table**, select the table that contains the columns and page link you wish to select.
+    - You can select one table at a time. 
+1. Under **Add page link**, select the page where table is used.  
 
-The following screenshot and table describe the parameters you can change to customize the appearance of your chatbot. Line numbers given refer to the default Power Virtual Agents web template.
+    > [!NOTE]
+    >
+    > - Make sure you select the correct page where the table is used. Choosing the wrong table will result in the bot providing an incorrect citation URL for the answers.
+    > - The page must use 'id' as the query string parameter; the citation URL will not function correctly if any other parameter name is used. 
 
-:::image type="content" source="media/enable-chatbot/chatbot-parameters.png" alt-text="Screenshot of the Power Pages chatbot, with each part numbered for reference.":::<!-- EDITOR'S NOTE: Where are 11 and 12? Also, please change the appearance of the numbered callouts in this screenshot IAW our new screenshot guidelines, https://review.learn.microsoft.com/en-us/bacx/screenshots-for-bap?branch=main. -->
+1. Under **Choose columns**, select the list of columns that is used in page. 
 
-| Number | Parameter | Value |
-|-------------------------|-------------------------|-------------------------|
-| 1 | width | Uses the value of the variable `chatWidth` (line 18), which is expressed in pixels. The default is `320px`. |
-| 2 | height | Uses the value of the variable `chatHeight` (line 19), which is expressed in pixels. The default is `480px`. |
-| 3 | headerText | Sets the title of the bot. The default is the bot's name. To change it, replace the default value `botTitle` with your text enclosed in quotation marks; for example,<br/>`"headerText": "Contoso bot",` |
-| 4, 5 | webChatHeaderStyleOptions:<br/>fontColor (4), backgroundColor (5) | Styles the colors of the header text and background. To change them, add the `fontColor` and `backgroundColor` properties, enclosed in curly brackets and with color names or hex values enclosed in quotation marks, to the `webChatHeaderStyleOptions` parameter; for example:<br/>`"webChatHeaderStyleOptions": {"fontColor": "black","backgroundColor":"white"},` |
-| 6&ndash;10 | webChatCanvasStyleOptions:<br/>backgroundColor (6),<br/>bubbleBackgroundcolor (7),<br/>bubbleTextColor (8),<br/>bubbleFromUserBackground (9),<br/>bubbleFromUserTextColor (10) | Styles the colors of the background and bubble backgrounds in the chat canvas, or the conversation between the chatbot and the user. To change them, add the `backgroundColor`, `bubbleBackgroundcolor`, `bubbleTextColor`, `bubbleFromUserBackground`, and `bubbleFromUserTextColor` properties, enclosed in curly brackets and with color names or hex values enclosed in quotation marks, to the `webChatCanvasStyleOptions` parameter; for example:<br/>`"webChatCanvasStyleOptions": {"backgroundColor": "#123FFF","bubbleBackground":"#2340F0","bubbleTextColor": "#323130","bubbleFromUserBackground": "#412644","bubbleFromUserTextColor": "#F345FF"},` |
-| 11, 12 | webChatWidgetStyleOptions:<br/>backgroundColor (11), iconColor (12) | Styles the colors of the icon and background of the ChatWidget component. To change them, add the `backgroundColor` and `iconColor` properties, enclosed in curly brackets and with color names or hex values enclosed in quotation marks, to the `webChatWidgetStyleOptions` parameter; for example:<br/>`"webChatWidgetStyleOptions": {"backgroundColor": "#486744","iconColor": "#DF234F"},` |
+    > [!NOTE]
+    > Only a column with multiline text is available to choose.  
+
+1. Select **Next** and review the selection. 
+1. Choose **Save** to submit the changes. 
+
+## Customize chatbot appearances
+
+You can customize the chatbot's style by overriding the default Cascade Style Sheet (CSS) classes. To do so, add a style tag to the header template and follow these steps to override the values. 
+
+1. Go to site's [code editor](../configure/visual-studio-code-editor.md).
+1. From **Explorer navigation**, expand the **web-templates** folder. 
+1. Open **Header.html**. 
+1. Add your style tag. 
+    :::image type="content" source="media/enable-chatbot/code-editor.png" alt-text="A screenshot of Visual Studio with a folder, file, and CSS selector emphasized.":::
+1. Override the respective styles.
+
+### Chatbot widget
+
+:::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="A screenshot of the chatbot widget.":::
+
+Chatbot collapsed icon:
+
+```css
+.pva-embedded-web-chat-widget {
+    	background-color: #484644;
+	border: 1px solid #FFFFFF;	
+}
+```
+
+Tooltip:
+
+```css
+.pva-embedded-web-chat-widget .pva-embedded-web-chat-widget-tooltip-text {
+	background: white;
+	color: #323130;
+}
+```
+### Chatbot elements
+
+Reference the CSS samples provided for examples of how to customize your chatbot's elements.
+
+:::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="A screenshot of a chatbot with individual elements annotated.":::
+
+#### 1. Header
+
+```css
+.pages-chatbot-header 
+{ 
+	background: #77a145;  
+	color: #ffffff; 
+}
+```
+
+#### 2. Height and Width
+
+```css
+.pva-embedded-web-chat[data-minimized='false'] {
+ 	height: 80%;
+	width: 25%;
+	max-width: 400px;
+	max-height: 740px;
+}
+```
+
+#### 3. Bot window
+
+```css
+.pva-embedded-web-chat-window { 
+  background: white;  
+} 
+```
+
+#### 4. Bubble from bot
+
+Background color: 
+
+```css
+.webchat__bubble:not(.webchat__bubble--from-user) .webchat__bubble__content { 
+  background-color: #77a145 !important;  
+  border-radius: 5px !important; 
+} 
+```
+
+Text color: 
+
+```css
+.webchat__bubble:not(.webchat__bubble--from-user) p {  
+color: #ffffff; 
+} 
+```
+
+#### 5. Bubble from user
+
+Background color:
+
+```css
+.webchat__bubble.webchat__bubble--from-user .webchat__bubble__content { 
+  background-color: #797d81 !important;  
+  border-radius: 5px !important; 
+} 
+```
+
+Text color:
+
+```css
+.webchat__bubble.webchat__bubble--from-user p {  
+  color: #ffffff; 
+} 
+```
+
+#### 6. Reference links
+
+```css
+.webchat__link-definitions__badge {  
+  color: blue !important; 
+} 
+
+.webchat__link-definitions__list-item-text {  
+  color: blue !important;  
+} 
+
+.webchat__render-markdown__pure-identifier {  
+  color: blue !important; 
+} 
+```
+
+#### 7. Privacy message
+
+Background color:
+
+```css
+.pva-privacy-message {  
+  background: #797d81;  
+} 
+```
+
+Text color:
+
+```css
+.pva-privacy-message p {  
+  color: #ffffff;  
+  font-size: 12px;  
+  font-weight: 400; 
+} 
+```
 
 ## Known issues
 
 - You can't change your site's custom domain after you add a chatbot. Instead, turn off the chatbot, change the custom domain, and then turn the chatbot on again.
-- Although you can turn on the chatbot feature on sites that you create outside the United States, the chatbot may not be created.
+- Although you can turn on the chatbot feature on sites that you create outside the United States, the chatbot might not be created.
 - If you turn off the chatbot feature, allow a few minutes for background operations to complete before you turn it on again.
 
 ### See also
