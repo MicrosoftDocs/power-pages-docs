@@ -29,7 +29,7 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
+> - To understand the capabilities and limitations of this feature, see [FAQ for chatbot](../faqs-chatbot.md).
 > - Chatbot uses Power Virtual Agents boosted conversations and Bing Search to retrieve information from publicly available URLs. Your use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## Prerequisites
