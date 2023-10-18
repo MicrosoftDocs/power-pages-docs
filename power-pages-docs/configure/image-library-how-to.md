@@ -170,7 +170,7 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 "URL":&lt;Web URL from the dynamic content&gt;
 }```
 
-1. Select on **+New step**.
+1. Select **+New step**.
 
 1. Search for **Variable** Select **Set variable** action.
 
@@ -180,7 +180,7 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
     1. Value Image Array
 
-1. Select on **+New step**.
+1. Select **+New step**.
 
 1. Search for **Power Pages** and select **Return value(s) to Power Pages** action.
 
@@ -210,7 +210,7 @@ The final flow appears.
 
 1. Select **+ Add cloud flow**.
 
-1. Select on **+ Create new flow**.
+1. Select **+ Create new flow**.
 
 1. Search **Power Pages** and select the **When Power Pages calls flow** trigger.
 
