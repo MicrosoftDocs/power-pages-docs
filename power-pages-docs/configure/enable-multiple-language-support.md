@@ -50,13 +50,8 @@ You can set the default language of your website by changing the *Default Langua
 
 The table below shows all the languages currently available out of the box. This list can be found by going to the Portals Management app, in the **Content** section and then select **Portal Languages**. The display name of a language can be changed after selecting the language to change from this page.
 
-> [!NOTE]
-> - Upgrade your website version to [9.4.4.xx](/power-platform/released-versions/portals) and package version [9.3.2204](/power-platform/released-versions/pagessolutions) to configure Arabic and Hebrew language for your website.
-> - Arabic and Hebrew languages are not supported when creating a site using [Power Pages](../getting-started/create-manage.md) or using the Power Pages [design studio](../getting-started/use-design-studio.md). You will need to create and edit Arabic and Hebrew language sites using [Power Apps](/power-apps/maker/portals/create-portal) and the legacy [portals Studio](/power-apps/maker/portals/portal-designer-anatomy).
-
 | **Name**                           | **Language Code** | **LCID** | **Portal Display Name** |
 |------------------------------------|-------------------|----------|-------------------------|
-| Arabic                             | ar-SA             | 1025     | عربي                    |
 | Basque - Basque                    | eu-ES             | 1069     | euskara                 |
 | Bulgarian - Bulgaria               | bg-BG             | 1026     | български               |
 | Catalan - Catalan                  | ca-ES             | 1027     | català                  |
@@ -74,7 +69,6 @@ The table below shows all the languages currently available out of the box. This
 | Galician - Spain                   | gl-ES             | 1110     | galego                  |
 | German - Germany                   | de-DE             | 1031     | Deutsch                 |
 | Greek - Greece                     | el-GR             | 1032     | Ελληνικά                |
-| Hebrew                             | he-IL             | 1037     | עִברִית                 |  
 | Hindi - India                      | hi-IN             | 1081     | हिंदी                   |
 | Hungarian - Hungary                | hu-HU             | 1038     | magyar                  |
 | Indonesian - Indonesia             | id-ID             | 1057     | Bahasa Indonesia        |
