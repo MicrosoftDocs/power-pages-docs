@@ -30,6 +30,8 @@
   items:
     - name: Create a site
       href: getting-started/create-manage.md
+    - name: Create an AI-generated site using Copilot (preview)
+      href: getting-started/create-site-copilot.md
     - name: Use developer sites
       href: getting-started/developer-sites.md
     - name: Get started with design studio
@@ -202,7 +204,7 @@
           href: configure/setup-workspace.md
         - name: Add an AI-powered chatbot (preview)
           href: getting-started/enable-chatbot.md
-        - name: Force Bing webmaster to index (preview)
+        - name: Force Bing webmaster to index 
           href: getting-started/force-bing-index.md
         - name: Progressive web applications
           items:
@@ -700,6 +702,8 @@
   items:
     - name: Overview
       href: responsible-ai-overview.md
+    - name: FAQ for site creation
+      href: faqs-generate-site.md      
     - name: FAQ for chatbot
       href: faqs-chatbot.md
     - name: FAQ for generating text

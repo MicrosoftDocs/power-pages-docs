@@ -40,6 +40,7 @@ You'll need to enable enhanced data model to use solutions with Power Pages. Mor
 > [!NOTE]
 > - If the **Site** command doesn't appear on the **Add existing** menu, your environment doesn't include any websites that were created by using the [enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
 > - This process adds all the site components to the solution.
+> - Dataverse system tables associated with site components won't be added to solution autommatically, you need to add them using add existing tables.
 
 ## Add website components
 

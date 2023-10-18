@@ -13,16 +13,12 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Force Bing webmaster to index your site (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Force Bing webmaster to index your site
 
 The Power Pages chatbot is powered by Microsoft Bing. When you [add a chatbot to your Power Pages website](./enable-chatbot.md), the URL is shared with Bing to index the content. Bing may not start indexing your site right away, however. It can take from several hours to a day. If you don't want to wait for Bing to get around to your site, you can use Bing Webmaster Tools to force it to index your site's content immediately.
 
 > [!IMPORTANT]
 >
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
 ## Add your site to your Bing Webmaster Tools account
