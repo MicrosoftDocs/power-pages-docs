@@ -27,7 +27,7 @@ Dynamics 365 templates are available for your Power Pages sites in environments 
 - Dynamics 365 Intelligent Order Management
 
 >[!IMPORTANT]
-> Dynamics 365 templates are not available during the first run experience for site creation. For subsequent site creation, Dynamics 365 templates are available.
+> Dynamics 365 templates are not available during the first run experience for site creation, but may be used for subsequent site creation.
 
 ## Customer self-service
 
