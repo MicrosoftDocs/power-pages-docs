@@ -1,5 +1,5 @@
 ﻿---
-title: Add comments to pages in design studio
+title: Add comments to pages in design studio (preview)
 description: Learn how to add comments to your Power Pages site.
 author: GitanjaliSingh33msft
 ms.topic: conceptual
@@ -13,7 +13,9 @@ contributors:
     - GitanjaliSingh33msft
 ---
 
-# Add comments to pages in design studio
+# Add comments to pages in design studio (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can collaborate and communicate while building Power Pages sites in design studio by using comments. Comments can help your team review the changes, provide feedback, and provide additional information on site customization. 
 
@@ -21,6 +23,10 @@ You can collaborate and communicate while building Power Pages sites in design s
 > Makers must have permission to edit the site before they can add comments.
 
 In the design studio, anchors depict comments added to a Page and let you add new comments as well.
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## Add a comment to a page
 
