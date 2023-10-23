@@ -97,10 +97,40 @@ To change your existing custom domain name:
 1. Follow the instructions outlined in [**Add a custom domain name**](#add-a-custom-domain-name) to configure you new domain.
 
 > [!NOTE]
-> When you add a custom domain name for a [Content Delivery Network](../configure/configure-cdn.md) enabled site, Power Pages uses Azure Front Door-managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days prior to the expiry date. 
+> When you add a custom domain name for a [Content Delivery Network](../configure/configure-cdn.md) enabled site, Power Pages uses Azure Front Door-managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days prior to the expiry date.
+
+## Renew or reissue SSL/TLS certificate for Power Pages
+
+Here are the high level steps for renewing or reissuing a SSL/TLS certificate covering your portals custom domain name (Steps may slightly change based on your preferred Certificate Authority, best practice would be to refer to the CA website for the complete renewal process) ::
+
+> If you already have your new certificate .PFX file, please **skip these 4 steps** and follow the last 2 steps to upload the new certificate and binding.
+
+**STEP 1:** Generate Certificate Signing Request (CSR) :: To renew an SSL/TLS certificate, you’ll need to generate a new CSR.  
+
+Best practice is to generate a new CSR when renewing your SSL/TLS certificate. This creates a new, unique keypair (public/private) for the renewed certificate. 
+
+**STEP 2:** Log on to your preferred Certificate Authority (CA) website and Fill out the renewal form 
+
+On the Expiring certificates page, next to the certificate that needs to be renewed, select Renew now. 
+
+A certificate doesn't appear on the Expiring Certificates page until 90 days before it expires. 
+
+**STEP 3:** Your CA issues the SSL/TLS certificate 
+
+Once approved, CA issues and sends the renewed certificate to the certificate contact via email. You can also download the renewed certificate from CA website. 
+
+**STEP 4:** Install your renewed SSL/TLS certificate (Preferably on the machine from step 1 where you installed the CSR, which will auto-associate the private key so that you can later export the .PFX file). While exporting the PFX file on Windows just ensure that the Export is a password-protected PFX file, encrypted using triple DES as shown below : 
+
+![image](https://github.com/MicrosoftDocs/power-pages-docs/assets/110391372/8ff65a7e-c779-4f34-b1e4-4740d01c76c3)
+
+Once you have the renewed (reissued) certificate .PFX file, please follow these two simple steps to replace your old certificate on [Power Portals admin center](https://admin.powerplatform.microsoft.com/resources/portals) ::
+
+1. Upload your renewed certificate .pfx file using the steps from this doc : [Add new certificate](https://learn.microsoft.com/power-pages/admin/manage-custom-certificates#add-new-certificate)
+
+1. Post the upload, delete the existing binding with the old certificate and a "New" binding as shown below. Clicking on "New" button will bring a popup where you can choose your preferred host name & your new certificate for this binding.
+
+![image](https://github.com/MicrosoftDocs/power-pages-docs/assets/110391372/686af6be-8d36-4c69-94fe-7807b551146e)
 
 ### See also
 
 [Configure SSL certificates and custom domain names](/training/modules/portals-administration/2-custom-domain)
-
-
