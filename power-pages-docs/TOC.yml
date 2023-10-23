@@ -167,7 +167,7 @@
                 - name: Add IFrame
                   href: getting-started/add-iframe.md
             - name: Add comments to pages (preview)
-              href: getting-started/add-comments-to-pages.md
+              href: getting-started/add-comments-to-pages.md 
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
