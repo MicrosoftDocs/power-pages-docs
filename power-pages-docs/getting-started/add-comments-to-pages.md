@@ -1,15 +1,16 @@
 ﻿---
 title: Add comments to pages in design studio
 description: Learn how to add comments to your Power Pages site.
-author: 
+author: GitanjaliSingh33msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/23/2023
 ms.subservice:
-ms.author: 
+ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
+    - GitanjaliSingh33msft
 ---
 
 # Add comments to pages in design studio
@@ -55,5 +56,6 @@ When someone tags you in a comment, you'll receive an email. The email includes 
 
 ## Moving comments between environments
 
-Comments in Power Page sites can't be exported or imported as solution components because they contain user collaboration data; however, you can export the Comment table to Excel and then import the Excel file into your environment. More information: [Export data](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-import-export#export-data)
+Comments in Power Page sites can't be exported or imported as solution components because they contain user collaboration data; however, you can export the Comment table to Excel and then import the Excel file into your environment. More information: [Export data](/power-apps/maker/data-platform/data-platform-import-export#export-data)
+
 
