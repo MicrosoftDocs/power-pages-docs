@@ -52,6 +52,7 @@ Within the selected environment, you can also select a specific site for which y
 
 >[!NOTE]
 > Currently, only Site ID is supported for filtering. The Site ID can be found under the **Your Sites** tab.
+> Traffic reports are available only for public sites. Private sites are not included in these reports
 
 ### Considerations
 
