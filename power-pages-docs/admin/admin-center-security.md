@@ -67,7 +67,7 @@ The criteria for classifying security health into Standard, Enhanced and Advance
 | Standard | This status means that less than 33% of the security checks for this website are in **Pass** state. |
 | Enhanced | This status means that more than 33% of the security checks for this website are in **Pass** state. |
 | Advanced | This status means that more than 66% of the security checks for this website are in **Pass** state. |
-| No results | This status means that security checker hasn't been run or if the site configurations don't allow checks to be run. Examples: A site that has an IP restriction setup, or a site that is stopped. |
+| No results | This status means that security checker hasn't been run or if the site configurations don't allow checks to be run. Examples: A site that has an IP restriction setup, or a site that is stopped. To resolve this, please run the site checker from Power Platform Admin Center. In case webiste has IP address restrictions, running site checker will not work |
 
 Select **View** to find out the security checker results.
 
