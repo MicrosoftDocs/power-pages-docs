@@ -19,7 +19,7 @@ contributors:
 
 You can collaborate and communicate while building Power Pages sites in design studio by using comments. Comments can help your team review the changes, provide feedback, and provide additional information on site customization. 
 
-In the design studio, anchors depict comments added to a Page and let you add new comments as well.
+In the design studio, anchors depict comments added to a page and let you add new comments as well.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -35,6 +35,8 @@ Add your comments directly to a page in the design studio from the Pages workspa
 1. Open the design studio and select the page you'd like from the pages pane.
 
 1. Select Comments on the command bar. This opens the comments pane for the selected Page. You can also open the comments pane by selecting the comment icon to view existing comments for a page.
+
+:::image type="content" source="media/add-comments-to-pages/comments.svg" alt-text="text":::
 
 ## Edit or delete a comment
 
