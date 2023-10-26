@@ -52,7 +52,7 @@ Within the selected environment, you can also select a specific site for which y
 
 >[!NOTE]
 > Currently, only Site ID is supported for filtering. The Site ID can be found under the **Your Sites** tab.
-> Traffic reports are available only for public sites. Private sites are not included in these reports. More information:[Difference between a private site and a public site](../security/site-visibility.md#difference-between-a-private-site-and-a-public-site)
+> Traffic reports are available only for public sites. Private sites are not included in these reports. More information: [Difference between a private site and a public site](../security/site-visibility.md#difference-between-a-private-site-and-a-public-site)
 
 ### Considerations
 
