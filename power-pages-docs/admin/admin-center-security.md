@@ -60,14 +60,14 @@ Select **View details** to see the review the external authentication configurat
 > [!NOTE]
 > The security health is calculated by looking at various configuration parameters and identifying common issues. These checks are not exhaustive and we recommend you to continue following security best practices.
 
-The criteria for classifying security health into Standard, Enhanced and Advanced is shown below. This criteria might change during the feature preview and before the feature is generally available.
+The criteria for classifying security health into Standard, Enhanced and Advanced is outlined in the table provided. This criteria might change during the feature preview and before the feature is generally available.
 
 | Health status | Description |
 | - | - |
 | Standard | This status means that less than 33% of the security checks for this website are in **Pass** state. |
 | Enhanced | This status means that more than 33% of the security checks for this website are in **Pass** state. |
 | Advanced | This status means that more than 66% of the security checks for this website are in **Pass** state. |
-| No results | This status means that security checker hasn't been run or the site configurations don't allow checks to be run. Examples: A site that has an IP restriction setup, or a site that is stopped. To resolve this, run the site checker from Power Platform Admin Center. If the website has IP address restrictions, running site checker will not work. |
+| No results | This status means that security checker hasn't been run, or the site configurations don't allow checks to be run (for example, a site that has an IP restriction setup, or a site that is stopped). To resolve, run the site checker from Power Platform Admin Center. Site checker doesn't work if a website has IP address restrictions. |
 
 Select **View** to find out the security checker results.
 
