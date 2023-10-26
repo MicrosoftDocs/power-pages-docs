@@ -34,9 +34,15 @@ Add your comments directly to a page in the design studio from the Pages workspa
 
 1. Open the design studio and select the page you'd like from the pages pane.
 
-1. Select Comments on the command bar. This opens the comments pane for the selected Page. You can also open the comments pane by selecting the comment icon to view existing comments for a page.
+1. Select Comments icon on the command bar. This opens the comments pane for the selected page. You can also open the comments pane by selecting the comment icon to view existing comments for a page.
 
-:::image type="content" source="media/add-comments-to-pages/comments.svg" alt-text="text":::
+:::image type="content" source="media/add-comments-to-pages/comments.svg" alt-text="The Pages workspace inside design studio with commenting features emphasized.":::
+
+Legend:
+1. The Comments icon
+1. The Comments pane
+1. The New comment option in the drop down menu
+1. A comment anchor
 
 ## Edit or delete a comment
 
