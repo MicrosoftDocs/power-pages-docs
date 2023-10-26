@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can collaborate and communicate while building Power Pages sites in design studio by using comments. Comments can help your team review the changes, provide feedback, and provide additional information on site customization. 
+You can collaborate and communicate while building Power Pages sites in design studio by using comments. Comments help your team review the changes, provide feedback, and provide additional information on site customization. 
 
 > [!IMPORTANT]
 > - This is a preview feature.
