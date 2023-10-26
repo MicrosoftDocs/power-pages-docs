@@ -19,8 +19,6 @@ contributors:
 
 You can collaborate and communicate while building Power Pages sites in design studio by using comments. Comments can help your team review the changes, provide feedback, and provide additional information on site customization. 
 
-In the design studio, anchors depict comments added to a page and let you add new comments as well.
-
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
@@ -34,15 +32,16 @@ Add your comments directly to a page in the design studio from the Pages workspa
 
 1. Open the design studio and select the page you'd like from the pages pane.
 
-1. Select Comments icon on the command bar. This opens the comments pane for the selected page. You can also open the comments pane by selecting the comment icon to view existing comments for a page.
+1. Select Comments icon on the command bar to open the comments pane for the selected page. 
 
 :::image type="content" source="media/add-comments-to-pages/comments.svg" alt-text="The Pages workspace inside design studio with commenting features emphasized.":::
 
 Legend:
-1. The Comments icon
-1. The Comments pane
-1. The New comment option in the drop down menu
-1. A comment anchor
+
+1. The Comments icon in the designs studio command bar. Select this icon to open the comments pane for the selected page.
+1. The Comments pane. Select **...** next to a comment to access options such as edit, delete, or resolve.
+1. You can also add a new comment by selecting **...** for the page you'd like to add a comment to. **New comment** appears in the menu options for the page.
+1. In the design studio, anchors depict comments added to a page and let you add new comments as well.
 
 ## Edit or delete a comment
 
@@ -64,12 +63,12 @@ The comment thread appears as **Resolved**. To reopen select **Reopen thread**. 
 
 Tag makers in a comment by using @ followed by their name.
 
-If you tag a maker that doesn't have access to your app, you'll be prompted to grant the maker site edit permission.
+If you tag a maker that doesn't have access to your app, you're prompted to grant the maker site edit permission.
 
-When someone tags you in a comment, you'll receive an email. The email includes  the name of the person who tagged you, which page you're tagged in, the comment text, and a direct link to the comment.
+When someone tags you in a comment, you receive an email. The email includes  the name of the person who tagged you, which page you're tagged in, the comment text, and a direct link to the comment.
 
 ## Moving comments between environments
 
-Comments in Power Page sites can't be exported or imported as solution components because they contain user collaboration data; however, you can export the Comment table to Excel and then import the Excel file into your environment. More information: [Export data](/power-apps/maker/data-platform/data-platform-import-export#export-data)
+Comments in Power Page sites can't be exported or imported as solution components because they contain user collaboration data. However, you can export the Comment table to Excel and then import the Excel file into your environment. More information: [Export data](/power-apps/maker/data-platform/data-platform-import-export#export-data)
 
 
