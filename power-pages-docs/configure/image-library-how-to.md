@@ -104,6 +104,8 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
 ### Get Image list flow
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIj]
+
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
