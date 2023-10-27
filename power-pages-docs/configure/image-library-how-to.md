@@ -27,6 +27,8 @@ To complete this course, you need a Power Automate and Power Pages environment. 
 
 In this step, you create a flow using the Power Pages trigger and use OneDrive to store the images.
 
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIi]
+
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
@@ -36,6 +38,8 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 1. Select **+ Add cloud flow**.
 
 1. Select **+ Create new flow**.
+
+NOTE first video starts here
 
 1. Search **Power Pages** and select **When Power Pages calls flow** trigger.
 
