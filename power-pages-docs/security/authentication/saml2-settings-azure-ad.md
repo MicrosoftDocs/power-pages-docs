@@ -1,6 +1,6 @@
 ---
-title: Set up a SAML 2.0 provider with Azure AD
-description: Learn how to set up a SAML 2.0 identity provider with Azure Active Directory (Azure AD) for use with sites you create with Microsoft Power Pages.
+title: Set up a SAML 2.0 provider with Microsoft Entra ID
+description: Learn how to set up a SAML 2.0 identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
 ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
@@ -13,22 +13,22 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Set up a SAML 2.0 provider with Azure AD
+# Set up a SAML 2.0 provider with Microsoft Entra ID
 
-Azure Active Directory (Azure AD) is one of the SAML 2.0 identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. You can use any provider that conforms to the [SAML 2.0 specification](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html).
+Microsoft Entra is one of the SAML 2.0 identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. You can use any provider that conforms to the [SAML 2.0 specification](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html).
 
 This article describes the following steps:
 
-- [Set up Azure AD in Power Pages](#set-up-azure-ad-in-power-pages)
+- [Set up Microsoft Entra in Power Pages](#set-up-azure-ad-in-power-pages)
 - [Create an app registration in Azure](#create-an-app-registration-in-azure)
 - [Enter site settings in Power Pages](#enter-site-settings-in-power-pages)
 
 > [!NOTE]
 > Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-## Set up Azure AD in Power Pages
+## Set up Microsoft Entra in Power Pages
 
-Set Azure AD as an identity provider for your site.
+Set Microsoft Entra as an identity provider for your site.
 
 1. In your Power Pages site, select **Set up** > **Identity providers**.
 
@@ -40,7 +40,7 @@ Set Azure AD as an identity provider for your site.
 
 1. Under **Protocol**, select **SAML 2.0**.
 
-1. Enter a name for the provider; for example, *Azure AD*.
+1. Enter a name for the provider; for example, *Microsoft Entra ID*.
 
     The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
@@ -56,7 +56,7 @@ Set Azure AD as an identity provider for your site.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-1. Search for and select **Azure Active Directory**.
+1. Search for and select **Microsoft Entra ID**.
 
 1. Under **Manage**, select **App registrations**.
 

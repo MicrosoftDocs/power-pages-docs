@@ -52,18 +52,18 @@ More information: [Overview of authentication in Power Pages)](../security/authe
 
 ### Internal users
 
-Users within your organization should use **Azure Active Directory (Azure AD)**. Using Azure AD provides a seamless sign-in experience via an active session.  Using Azure AD also aids in site security.  When a user leaves the organization, their Azure AD account is disabled, and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Azure AD pre-configured.
+Users within your organization should use **Microsoft Entra**. Using Microsoft Entra ID provides a seamless sign-in experience via an active session.  Using Microsoft Entra ID also aids in site security.  When a user leaves the organization, their Microsoft Entra account is disabled, and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Microsoft Entra ID pre-configured.
 
 > [!TIP] 
-> Rename the login button from Azure AD to something more friendly like "Contoso Employees" or "Contoso Work Account". Create a Site Setting named "Authentication/OpenIdConnect/AzureAD/Caption" and specify the value you wish to display. Use the [Portal Management app](portal-management-app.md) to create and modify **Site Settings**.
+> Rename the login button from Microsoft Entra to something more friendly like "Contoso Employees" or "Contoso Work Account". Create a Site Setting named "Authentication/OpenIdConnect/AzureAD/Caption" and specify the value you wish to display. Use the [Portal Management app](portal-management-app.md) to create and modify **Site Settings**.
 
 ### External users
 
 External users should be using an external identity provider. Having a single external identity provider can help onboard users consistently across multiple sites or apps.  Your users can access these using a single set of credentials for their convenience. Power Pages offers several options.
 
-[Azure Active Directory B2C](/azure/active-directory-b2c/overview) (Azure AD B2C) is one option you might consider for an identity provider. Integrate your custom or corporate identity systems.  You can enable the use of existing social accounts like Microsoft Account, LinkedIn, Google, including an option you set to allow a sign-in profile based on an email address.
+[Microsoft Entra ID B2C](/azure/active-directory-b2c/overview) (Microsoft Entra B2C) is one option you might consider for an identity provider. Integrate your custom or corporate identity systems.  You can enable the use of existing social accounts like Microsoft Account, LinkedIn, Google, including an option you set to allow a sign-in profile based on an email address.
 
-You can also customize the look and feel to match your needs, see more in: [Customize the Azure AD B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c).
+You can also customize the look and feel to match your needs, see more in: [Customize the Microsoft Entra B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c).
 
 > [!NOTE] 
 > We recommend that you disable local sign-in providers.  For more information, see [Get started with configuring your authentication](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider).

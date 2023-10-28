@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Configure authorized access to your site"
-description: Learn how to configure Azure AD B2C authentication provider to your Power Pages site.
+description: Learn how to configure Microsoft Entra B2C authentication provider to your Power Pages site.
 author: nickdoelman
 ms.topic: tutorial
 ms.custom: template-tutorial
@@ -15,18 +15,18 @@ contributors:
 
 # Tutorial: Configure authorized access to your site
 
-Power Pages provides integration to multiple authentication providers to allow secure access to external users to your site. In this tutorial, you'll see how to use the Setup workspace to configure Azure Active Directory Business-to-Consumer (Azure AD B2C) as an authentication provider.
+Power Pages provides integration to multiple authentication providers to allow secure access to external users to your site. In this tutorial, you'll see how to use the Setup workspace to configure Microsoft Entra Business-to-Consumer (Microsoft Entra B2C) as an authentication provider.
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * Provide user access to your Power Pages sites using Azure AD B2C as an identity provider.
+> * Provide user access to your Power Pages sites using Microsoft Entra B2C as an identity provider.
 
 ## Prerequisites
 
 - A Power Pages subscription or trial. [Get a Power Pages trial here](trial-signup.md).
 - A Power Pages site created. [Create a Power Pages site](create-manage.md).
-- An Azure subscription and administrative rights to configure Azure AD B2C
+- An Azure subscription and administrative rights to configure Microsoft Entra ID B2C
 
 ## Configure authorized access to your site
 
@@ -48,7 +48,7 @@ This video provides an overview of the steps to configure authentication provide
 
 1. Select **Configure**.
 
-    - Ensure **Azure Active Directory B2C** is selected and then choose **Next**.
+    - Ensure **Microsoft Entra B2C** is selected and then choose **Next**.
     :::image type="content" source="media/tutorial/azure-b2c.png" alt-text="Select a login provider.":::
 
 1. Fill in the details.
@@ -71,15 +71,14 @@ This video provides an overview of the steps to configure authentication provide
 
 1. Choose **Disable**.
 
-Now your users can sign in, register, or redeem an invitation to your site using Azure AD B2C.  
+Now your users can sign in, register, or redeem an invitation to your site using Microsoft Entra ID B2C.  
 
-You can preview this functionality by visiting a portal and selecting **Sign In**, then select **Azure AD B2C**.  The default Azure AD B2C sign-in screen will appear.
+You can preview this functionality by visiting a portal and selecting **Sign In**, then select **Microsoft Entra ID B2C**.  The default Microsoft Entra B2C sign-in screen will appear.
 
-:::image type="content" source="media/tutorial/azure-ad-b2c.png" alt-text="Azure AD B2C.":::
+:::image type="content" source="media/tutorial/azure-ad-b2c.png" alt-text="Microsoft Entra ID B2C.":::
 
 ## Next steps
 
 Learn how to protect your pages using page permissions in the next tutorial
 > [!div class="nextstepaction"]
 > [Set up page permissions](tutorial-setup-page-permissions.md)
-

@@ -50,8 +50,8 @@ To delete a **website host**:
 1. Select **OK**.
 
 > [!NOTE]
-> - If you don't have appropriate permissions on an associated Azure Active Directory application, an error is displayed. You must contact the global administrator for the appropriate permissions.
-> - If you delete a website and provision a new website using the same configuration, you must add website application ID of the new website to the **Portal Power BI Embedded service** Azure AD security group. For more information, read [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-power-bi-integration#create-security-group-and-add-to-power-bi-account).
+> - If you don't have appropriate permissions on an associated Microsoft Entra application, an error is displayed. You must contact the global administrator for the appropriate permissions.
+> - If you delete a website and provision a new website using the same configuration, you must add website application ID of the new website to the **Portal Power BI Embedded service** Microsoft Entra security group. For more information, read [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-power-bi-integration#create-security-group-and-add-to-power-bi-account).
  
 - To delete **website configuration**, delete the corresponding website record for the website you want to delete using the [Portal Management app](../configure/portal-management-app.md).
 
@@ -60,5 +60,3 @@ If you want, you can also delete **Power Pages solutions**. Deleting the solutio
 ## Troubleshooting
 
 If a website delete request could not be submitted, an error is displayed. In this case, you must close and reopen the Power Platform admin center, and try to delete the website again. If the issue persists, contact Microsoft support.
-
-

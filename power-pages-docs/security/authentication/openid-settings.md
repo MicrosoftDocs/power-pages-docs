@@ -1,6 +1,6 @@
 ---
-title: Set up an OpenID Connect provider with Azure AD
-description: Learn how to set up an OpenID Connect identity provider with Azure Active Directory (Azure AD) for use with sites you create with Microsoft Power Pages.
+title: Set up an OpenID Connect provider with Microsoft Entra ID
+description: Learn how to set up an OpenID Connect identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
 ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
@@ -14,23 +14,23 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Set up an OpenID Connect provider with Azure AD
+# Set up an OpenID Connect provider with Microsoft Entra ID
 
-Azure Active Directory (Azure AD) is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. Along with Azure AD, multitenant Azure AD, and Azure AD B2C, you can use any other provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
+Microsoft Entra is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. Along with Microsoft Entra ID, multitenant Microsoft Entra ID, and Microsoft Entra ID B2C, you can use any other provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
 
 This article describes the following steps:
 
-- [Set up Azure AD in Power Pages](#set-up-azure-ad-in-power-pages)
+- [Set up Microsoft Entra in Power Pages](#set-up-azure-ad-in-power-pages)
 - [Create an app registration in Azure](#create-an-app-registration-in-azure)
 - [Enter site settings in Power Pages](#enter-site-settings-in-power-pages)
-- [Allow multitenant Azure AD authentication](#allow-multitenant-azure-ad-authentication)
+- [Allow multitenant Microsoft Entra authentication](#allow-multitenant-azure-ad-authentication)
 
 > [!NOTE]
 > Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
-## Set up Azure AD in Power Pages
+## Set up Microsoft Entra in Power Pages
 
-Set Azure AD as an identity provider for your site.
+Set Microsoft Entra as an identity provider for your site.
 
 1. In your Power Pages site, select **Set up** > **Identity providers**.
 
@@ -42,7 +42,7 @@ Set Azure AD as an identity provider for your site.
 
 1. Under **Protocol**, select **OpenID Connect**.
 
-1. Enter a name for the provider; for example, *Azure AD*.
+1. Enter a name for the provider; for example, *Microsoft Entra ID*.
 
     The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
@@ -58,7 +58,7 @@ Set Azure AD as an identity provider for your site.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-1. Search for and select **Azure Active Directory**.
+1. Search for and select **Microsoft Entra ID**.
 
 1. Under **Manage**, select **App registrations**.
 
@@ -124,7 +124,7 @@ Return to the Power Pages **Configure identity provider** page you left earlier 
 
 ### Additional settings in Power Pages
 
-The additional settings give you finer control over how users authenticate with your Azure AD identity provider. You don't need to set any of these values. They're entirely optional.
+The additional settings give you finer control over how users authenticate with your Microsoft Entra identity provider. You don't need to set any of these values. They're entirely optional.
 
 - **Issuer filter**: Enter a wildcard-based filter that matches on all issuers across all tenants; for example, `https://sts.windows.net/*/`.
 
@@ -152,7 +152,7 @@ The additional settings give you finer control over how users authenticate with 
 
 ## Set up additional claims
 
-1. Enable [optional claims in Azure AD](/azure/active-directory/develop/active-directory-optional-claims#configuring-directory-extension-optional-claims).
+1. Enable [optional claims in Microsoft Entra ID](/azure/active-directory/develop/active-directory-optional-claims#configuring-directory-extension-optional-claims).
 
 1. Set **Scope** to include the additional claims; for example, `openid email profile`.
 
@@ -165,9 +165,9 @@ In these examples, the first name, last name, and email addresses supplied with 
 > [!NOTE]
 > Claims mapping is supported for text and boolean data types.
 
-## Allow multitenant Azure AD authentication
+## Allow multitenant Microsoft Entra authentication
 
-To allow Azure AD users to authenticate from any tenant in Azure, not just from a specific tenant, [change the Azure AD application registration](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant) to multi-tenant.
+To allow Microsoft Entra users to authenticate from any tenant in Azure, not just from a specific tenant, [change the Microsoft Entra application registration](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant) to multi-tenant.
 
 You also need to set **Issuer filter** in your provider's [additional settings](#additional-settings-in-power-pages).
 

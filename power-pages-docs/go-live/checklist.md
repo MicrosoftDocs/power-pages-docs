@@ -63,11 +63,11 @@ More information: [Power Platform application lifecycle management](/power-platf
 
 By default Power Pages sets local authentication as your identity provider. We recommend using one of the supported identity providers as your default and disabling local authentication.
 
-For example, [Azure Active Directory B2C](../getting-started/tutorial-setup-site-authentication.md).
+For example, [Microsoft Entra ID B2C](../getting-started/tutorial-setup-site-authentication.md).
 
 > [!TIP]
 > - Finish setting up your custom domain to utilize the redirect URL for the authentication provider. 
-> - If you're using the **Azure AD** sign-in button, you can rename it to reflect meaningful label. Using the [Portal Management app](../configure/portal-management-app.md), create the site setting **Authentication/OpenIdConnect/AzureAD/Caption** for your specific website and set the name you want.  
+> - If you're using the **Microsoft Entra** sign-in button, you can rename it to reflect meaningful label. Using the [Portal Management app](../configure/portal-management-app.md), create the site setting **Authentication/OpenIdConnect/AzureAD/Caption** for your specific website and set the name you want.  
 
 More information: [Configure Power Pages site authentication](../security/authentication/configure-site.md)
 

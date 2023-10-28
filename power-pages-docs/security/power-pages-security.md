@@ -24,7 +24,7 @@ An important consideration when you build public-facing websites is how to make 
 
 ## Site visibility
 
-The site visibility setting controls who can access the sites you create in Power Pages. By default, all Power Pages sites are available to users who are internal to your organization. The extra layer of security that Azure Active Directory (Azure AD) authentication provides helps to prevent accidental leaks of partially developed website data and designs.
+The site visibility setting controls who can access the sites you create in Power Pages. By default, all Power Pages sites are available to users who are internal to your organization. The extra layer of security that Microsoft Entra authentication provides helps to prevent accidental leaks of partially developed website data and designs.
 
 When your website is ready to go live, change the site visibility to public. The public setting makes the site accessible to everyone over the Internet anonymously or to users authenticated through identity providers.
 
@@ -32,7 +32,7 @@ When your website is ready to go live, change the site visibility to public. The
 
 ## Authenticated users
 
-Microsoft Dataverse contact records represent Power Pages users. Users can get access to your site through authentication. You can integrate Power Pages with authentication providers like Azure AD B2C, Microsoft, and LinkedIn. Authenticated users can be assigned web roles that provide specific access to information on the site.
+Microsoft Dataverse contact records represent Power Pages users. Users can get access to your site through authentication. You can integrate Power Pages with authentication providers like Microsoft Entra ID B2C, Microsoft, and LinkedIn. Authenticated users can be assigned web roles that provide specific access to information on the site.
 
 [Learn more about authentication](authentication/index.md).
 

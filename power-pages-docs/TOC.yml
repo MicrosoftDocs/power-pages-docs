@@ -600,9 +600,9 @@
           items:
             - name: Set up an OpenID Connect provider
               href: security/authentication/openid-provider.md
-            - name: Azure AD B2C
+            - name: Microsoft Entra ID B2C
               href: security/authentication/azure-ad-b2c-provider.md
-            - name: Azure AD
+            - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
             - name: OpenID Connect FAQs
               href: security/authentication/openid-faqs.md
@@ -610,7 +610,7 @@
           items:
             - name: Set up a SAML 2.0 provider
               href: security/authentication/saml2-provider.md
-            - name: Azure AD
+            - name: Microsoft Entra ID
               href: security/authentication/saml2-settings-azure-ad.md
             - name: Active Directory Federation Services (AD FS)
               href: security/authentication/saml2-settings.md
@@ -620,11 +620,11 @@
           items:
             - name: Set up a WS-Federation provider
               href: security/authentication/ws-federation-provider.md
-            - name: Set up WS-Federation with Azure AD
+            - name: Set up WS-Federation with Microsoft Entra ID
               href: security/authentication/ws-federation-settings-azure-ad.md
             - name: Set up WS-Federation with AD FS
               href: security/authentication/ws-federation-settings.md
-        - name: Migrate to Azure AD B2C
+        - name: Migrate to Microsoft Entra ID B2C
           href: security/authentication/migrate-identity-providers.md
         - name: Local authentication, registration, and other settings
           href: security/authentication/set-authentication-identity.md
