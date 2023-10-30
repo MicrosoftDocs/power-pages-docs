@@ -33,7 +33,7 @@ The following table lists common identity providers, the protocol you can use wi
 | Microsoft Entra ID | OpenID Connect | [Configure an OpenID Connect provider with Microsoft Entra ID](openid-settings.md) |
 | Microsoft Entra ID | SAML 2.0 | [Configure a SAML 2.0 provider with Microsoft Entra ID](saml2-settings-azure-ad.md) |
 | Microsoft Entra ID | WS-Federation | [Configure a WS-Federation provider with Microsoft Entra ID](ws-federation-settings-azure-ad.md) |
-| Microsoft Entra ID B2C | OpenID Connect | [Configure the Microsoft Entra B2C provider](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider)<br/>[Configure the Microsoft Entra B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual) |
+| Azure AD B2C | OpenID Connect | [Configure the Azure AD B2C provider](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider)<br/>[Configure the Azure AD B2C provider manually](/power-apps/maker/portals/configure/configure-azure-ad-b2c-provider-manual) |
 | Azure Directory Federation Services (AD FS) | SAML 2.0 | [Configure a SAML 2.0 provider with AD FS](saml2-settings.md) |
 | AD FS | WS-Federation | [AD FS with WS-Federation](ws-federation-settings.md)|
 | Microsoft | OAuth 2.0 | [Configure the Microsoft provider](oauth2-microsoft.md) |
@@ -57,7 +57,7 @@ With open registration enabled, users aren't required to provide an invitation c
 
 ### See also
 
-[Customize the Microsoft Entra B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c)  
+[Customize the Azure AD B2C user interface](/power-apps/maker/portals/configure/azure-ad-b2c)  
 [Configure an OAuth 2.0 provider](oauth2-provider.md)  
 [Configure an OpenID Connect provider](openid-provider.md)  
 [Configure a SAML 2.0 provider](saml2-provider.md)  

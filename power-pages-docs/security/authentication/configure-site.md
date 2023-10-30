@@ -138,7 +138,7 @@ If the identity provider you want to use doesn't appear in the list, you can add
 
 ## Delete an identity provider
 
-When you delete an identity provider, only its configuration is deleted. The provider is still available for use in the future with a new configuration. For example, if you delete the LinkedIn identity provider, your LinkedIn app and app configuration remain intact. Similarly, if you delete a Microsoft Entra B2C provider, only the configuration is deleted; the Azure tenant configuration for this provider doesn't change.
+When you delete an identity provider, only its configuration is deleted. The provider is still available for use in the future with a new configuration. For example, if you delete the LinkedIn identity provider, your LinkedIn app and app configuration remain intact. Similarly, if you delete an Azure AD B2C provider, only the configuration is deleted; the Azure tenant configuration for this provider doesn't change.
 
 1. In your Power Pages site, select **Set up** > **Identity providers**.
 

@@ -63,7 +63,7 @@ More information: [Power Platform application lifecycle management](/power-platf
 
 By default Power Pages sets local authentication as your identity provider. We recommend using one of the supported identity providers as your default and disabling local authentication.
 
-For example, [Microsoft Entra ID B2C](../getting-started/tutorial-setup-site-authentication.md).
+For example, [Azure AD B2C](../getting-started/tutorial-setup-site-authentication.md).
 
 > [!TIP]
 > - Finish setting up your custom domain to utilize the redirect URL for the authentication provider. 

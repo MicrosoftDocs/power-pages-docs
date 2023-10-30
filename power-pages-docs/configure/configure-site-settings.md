@@ -72,12 +72,12 @@ You can manage the following types of site settings:
 For site settings related to various website features, see:
 
 - [Authentication identity](../security/authentication/set-authentication-identity.md)
-- [Microsoft Entra B2C provider](../security/authentication/azure-ad-b2c-provider.md)
+- [Azure AD B2C provider](../security/authentication/azure-ad-b2c-provider.md)
 - [OAuth 2.0](../security/authentication/oauth2-settings.md)
 - [OpenID Connect](../security/authentication/openid-settings.md) 
 - [WS-Federation](../security/authentication/ws-federation-provider.md) 
 - [SAML 2.0](../security/authentication/saml2-settings.md)
-- [Migrate identity providers to Microsoft Entra ID B2C](../security/authentication/migrate-identity-providers.md)
+- [Migrate identity providers to Azure AD B2C](../security/authentication/migrate-identity-providers.md)
 - [Search within file attachment content](search/file-attachment.md)
 - [Behavior and format of the date and time field](./behavior-format-date-time-field.md)
 - [Add geolocation](add-geolocation.md)

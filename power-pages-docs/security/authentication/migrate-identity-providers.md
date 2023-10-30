@@ -1,6 +1,6 @@
 ---
-title: Migrate identity providers to Microsoft Entra ID B2C
-description: Learn how to migrate your Power Pages site's identity providers to Microsoft Entra ID B2C.
+title: Migrate identity providers to Azure AD B2C
+description: Learn how to migrate your Power Pages site's identity providers to Azure AD B2C.
 ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
@@ -13,18 +13,18 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Migrate identity providers to Microsoft Entra ID B2C
+# Migrate identity providers to Azure AD B2C
 
-Power Pages supports multiple authentication systems. Users can authenticate to your site with local credentials or using federated external identity providers that comply with standard protocols such as OIDC, SAML 2.0, and WS-Federation. We recommend you use the Microsoft Entra B2C identity provider for authentication and deprecate other identity providers.
+Power Pages supports multiple authentication systems. Users can authenticate to your site with local credentials or using federated external identity providers that comply with standard protocols such as OIDC, SAML 2.0, and WS-Federation. We recommend you use the Azure AD B2C identity provider for authentication and deprecate other identity providers.
 
 > [!IMPORTANT]
 >
-> - We recommend you migrate from [local authentication](set-authentication-identity.md) to Microsoft Entra ID B2C.
+> - We recommend you migrate from [local authentication](set-authentication-identity.md) to Azure AD B2C.
 > - To set up local authentication, you must use the [Portal Management app](../../configure/portal-management-app.md) to manually change required site settings.
 
 ## Deprecate an identity provider
 
-To mark other identity providers as deprecated and allow users to migrate to a Microsoft Entra B2C identity provider, change the following site settings:
+To mark other identity providers as deprecated and allow users to migrate to a Azure AD B2C identity provider, change the following site settings:
 
 - **Authentication/Registration/LocalLoginDeprecated**: Set this to true.
 - **Authentication/*\<protocol\>*/*\<provider\>*/Deprecated**: Set this to true.
@@ -64,4 +64,4 @@ If you deprecate local authentication, users can't register for a new account on
 
 ### See also
 
-[Set up the Microsoft Entra B2C provider](azure-ad-b2c-provider.md)
+[Set up the Azure AD B2C provider](azure-ad-b2c-provider.md)

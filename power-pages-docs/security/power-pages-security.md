@@ -32,7 +32,7 @@ When your website is ready to go live, change the site visibility to public. The
 
 ## Authenticated users
 
-Microsoft Dataverse contact records represent Power Pages users. Users can get access to your site through authentication. You can integrate Power Pages with authentication providers like Microsoft Entra ID B2C, Microsoft, and LinkedIn. Authenticated users can be assigned web roles that provide specific access to information on the site.
+Microsoft Dataverse contact records represent Power Pages users. Users can get access to your site through authentication. You can integrate Power Pages with authentication providers like Azure AD B2C, Microsoft, and LinkedIn. Authenticated users can be assigned web roles that provide specific access to information on the site.
 
 [Learn more about authentication](authentication/index.md).
 

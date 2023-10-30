@@ -600,7 +600,7 @@
           items:
             - name: Set up an OpenID Connect provider
               href: security/authentication/openid-provider.md
-            - name: Microsoft Entra ID B2C
+            - name: Azure AD B2C
               href: security/authentication/azure-ad-b2c-provider.md
             - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
@@ -624,7 +624,7 @@
               href: security/authentication/ws-federation-settings-azure-ad.md
             - name: Set up WS-Federation with AD FS
               href: security/authentication/ws-federation-settings.md
-        - name: Migrate to Microsoft Entra ID B2C
+        - name: Migrate to Azure AD B2C
           href: security/authentication/migrate-identity-providers.md
         - name: Local authentication, registration, and other settings
           href: security/authentication/set-authentication-identity.md

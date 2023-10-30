@@ -18,7 +18,7 @@ ms.custom: bap-template
 # Local authentication, registration, and other settings
 
 > [!IMPORTANT]
-> We recommend you use the [Microsoft Entra B2C identity provider](azure-ad-b2c-provider.md) for authentication on your Power Pages site and [deprecate the local identity provider](migrate-identity-providers.md).
+> We recommend you use the [Azure AD B2C identity provider](azure-ad-b2c-provider.md) for authentication on your Power Pages site and [deprecate the local identity provider](migrate-identity-providers.md).
 
 Power Pages provides authentication functionality built on the [ASP.NET Identity](https://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](https://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. Power Pages provides the following services:
 
@@ -178,7 +178,7 @@ The following table describes the settings for enabling and disabling various au
 | Authentication/Registration/ResetPasswordRequiresConfirmedEmail | Enables or disables password reset for confirmed email addresses only. If enabled, unconfirmed email addresses can't be used to send password reset instructions. Default: False |
 | Authentication/Registration/TriggerLockoutOnFailedPassword | Enables or disables recording of failed password attempts. If disabled, user accounts aren't locked out. Default: True |
 | Authentication/Registration/IsDemoMode | Enables or disables a demo mode flag for use in development or demonstration environments only. Don't enable this setting in production environments. Demo mode also requires the web browser to be running locally to the web application server. When demo mode is enabled, the password reset code and second-factor code are displayed to the user for quick access. Default: False |
-| Authentication/Registration/LoginButtonAuthenticationType | If a site requires a single external identity provider to handle all authentication, this setting allows the **Sign In** button to link directly to the provider's sign-in page instead of the intermediate local sign-in form and identity provider selection page. Only one identity provider can be selected for this action. Specify the provider's *AuthenticationType*.<br/>- For a single sign-on configuration that uses OpenID Connect, such as Microsoft Entra ID B2C, the user needs to provide the authority.<br/>- For OAuth 2.0&ndash;based providers, the accepted values are `Facebook`, `Google`, `Yahoo`, `Microsoft`, `LinkedIn`, or `Twitter`.<br/>- For WS-Federation&ndash;based providers, use the value specified for the `Authentication/WsFederation/ADFS/AuthenticationType` and `Authentication/WsFederation/Azure/\<provider\>/AuthenticationType` site settings. |
+| Authentication/Registration/LoginButtonAuthenticationType | If a site requires a single external identity provider to handle all authentication, this setting allows the **Sign In** button to link directly to the provider's sign-in page instead of the intermediate local sign-in form and identity provider selection page. Only one identity provider can be selected for this action. Specify the provider's *AuthenticationType*.<br/>- For a single sign-on configuration that uses OpenID Connect, such as Azure AD B2C, the user needs to provide the authority.<br/>- For OAuth 2.0&ndash;based providers, the accepted values are `Facebook`, `Google`, `Yahoo`, `Microsoft`, `LinkedIn`, or `Twitter`.<br/>- For WS-Federation&ndash;based providers, use the value specified for the `Authentication/WsFederation/ADFS/AuthenticationType` and `Authentication/WsFederation/Azure/\<provider\>/AuthenticationType` site settings. |
 
 ## Enable or disable user registration
 
@@ -241,7 +241,7 @@ The following table describes settings for modifying default authentication cook
 
 ## Next steps
 
-[Migrate identity providers to Microsoft Entra ID B2C](migrate-identity-providers.md)
+[Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
 
 ### See also
 
