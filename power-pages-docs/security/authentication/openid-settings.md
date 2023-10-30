@@ -20,10 +20,10 @@ Microsoft Entra is one of the OpenID Connect identity providers you can use to [
 
 This article describes the following steps:
 
-- [Set up Microsoft Entra in Power Pages](#set-up-azure-ad-in-power-pages)
+- [Set up Microsoft Entra in Power Pages](#set-up-microsoft-entra-in-power-pages)
 - [Create an app registration in Azure](#create-an-app-registration-in-azure)
 - [Enter site settings in Power Pages](#enter-site-settings-in-power-pages)
-- [Allow multitenant Microsoft Entra authentication](#allow-multitenant-azure-ad-authentication)
+- [Allow multitenant Microsoft Entra authentication](#allow-multitenant-microsoft-entra-authentication)
 
 > [!NOTE]
 > Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
@@ -70,7 +70,7 @@ Set Microsoft Entra as an identity provider for your site.
 
 1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
 
-    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-in-power-pages).
+    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-microsoft-entra-in-power-pages).
     - If you're using a custom domain name, enter the custom URL. Be sure to use the same custom URL for the redirect URL in the settings for the identity provider on your site.
 
 1. Select **Register**.
