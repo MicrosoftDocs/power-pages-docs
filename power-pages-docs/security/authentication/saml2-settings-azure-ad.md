@@ -19,7 +19,7 @@ Microsoft Entra is one of the SAML 2.0 identity providers you can use to [authen
 
 This article describes the following steps:
 
-- [Set up Microsoft Entra in Power Pages](#set-up-azure-ad-in-power-pages)
+- [Set up Microsoft Entra in Power Pages](#set-up-microsoft-entra-in-power-pages)
 - [Create an app registration in Azure](#create-an-app-registration-in-azure)
 - [Enter site settings in Power Pages](#enter-site-settings-in-power-pages)
 
@@ -68,7 +68,7 @@ Set Microsoft Entra as an identity provider for your site.
 
 1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
 
-    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-in-power-pages).
+    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-microsoft-entra-in-power-pages).
     - If you're using a custom domain name, enter the custom URL. Be sure to use the same custom URL for the assertion service consumer URL in the settings for the identity provider on your site.
 
 1. Select **Register**.
