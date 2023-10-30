@@ -23,7 +23,7 @@ To start with one of the core principles to remember is that an end user of Powe
 ## Server to Server Connection
 
 Power Pages connects to Dataverse utilizing a server to server (S2S) connection. This S2S connection is established utilizing a Microsoft Entra application that is created in the customer's Microsoft Entra when a website is created.  
-Each website has its own application that follows following naming convention (Portals – {{portalid}}). Different naming conventions have been used previously and may still be reflected in your Microsoft Entra. The ID of this application can also be found in the [Set up workspace](../configure/setup-workspace.md) for that website and can be used to find this application in Azure Active directory (in the application registration tab).  
+Each website has its own application that follows following naming convention (Portals – {{portalid}}). Different naming conventions have been used previously and may still be reflected in your Microsoft Entra. The ID of this application can also be found in the [Set up workspace](../configure/setup-workspace.md) for that website and can be used to find this application in Microsoft Entra (in the application registration tab).  
 
 > [!NOTE]
 > - This application should not be modified or deleted as doing that may break the S2S connection between the website and Dataverse which can lead to website functionality being affected.
