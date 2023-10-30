@@ -6,7 +6,7 @@ ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 06/02/2022
 ms.subservice:
-ms.author: ndoelman 
+ms.author: kkendrick 
 ms.reviewer: 
 contributors:
     - nickdoelman

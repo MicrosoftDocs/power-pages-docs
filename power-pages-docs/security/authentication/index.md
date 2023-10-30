@@ -4,7 +4,7 @@ description: Learn about site user authentication in Microsoft Power Pages and r
 ms.date: 2/16/2023
 ms.topic: conceptual
 author: nickdoelman
-ms.author: ndoelman
+ms.author: kkendrick
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman

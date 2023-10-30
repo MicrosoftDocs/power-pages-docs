@@ -5,7 +5,7 @@ author: NikitaPolyakovMSFT
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/03/2022
-ms.author: ndoelman
+ms.author: kkendrick
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
