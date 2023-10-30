@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 # Migrate identity providers to Azure AD B2C
 
-Power Pages supports multiple authentication systems. Users can authenticate to your site with local credentials or using federated external identity providers that comply with standard protocols such as OIDC, SAML 2.0, and WS-Federation. We recommend you use the Azure AD B2C identity provider for authentication and deprecate other identity providers.
+Power Pages supports multiple authentication systems. Users can authenticate to your site with local credentials or using federated external identity providers that comply with standard protocols such as OIDC, SAML 2.0, and WS-Federation. We recommend you use the Azure Active Directory (Azure AD) B2C identity provider for authentication and deprecate other identity providers.
 
 > [!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Power Pages supports multiple authentication systems. Users can authenticate to 
 
 ## Deprecate an identity provider
 
-To mark other identity providers as deprecated and allow users to migrate to a Azure AD B2C identity provider, change the following site settings:
+To mark other identity providers as deprecated and allow users to migrate to an Azure AD B2C identity provider, change the following site settings:
 
 - **Authentication/Registration/LocalLoginDeprecated**: Set this to true.
 - **Authentication/*\<protocol\>*/*\<provider\>*/Deprecated**: Set this to true.

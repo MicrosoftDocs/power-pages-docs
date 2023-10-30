@@ -126,6 +126,6 @@ The additional settings give you finer control over how users authenticate with 
 
 ### See also
 
-[Set up an OpenID Connect provider with Azure AD B2C](azure-ad-b2c-provider.md)  
+[Set up an OpenID Connect provider with Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md)  
 [Set up an OpenID Connect provider with Microsoft Entra ID](openid-settings.md)  
 [OpenID Connect FAQs](openid-faqs.md)
