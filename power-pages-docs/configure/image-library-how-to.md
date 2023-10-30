@@ -177,8 +177,7 @@ Watch this video to learn how to get the image list flow.
     1. Name Image Array
 
     1. Value <br />
-        ```{ "Id": Id from the dynamic content, "URL": Web URL from the dynamic content
-}```
+        ```{ "Id": Id from the dynamic content, "URL": Web URL from the dynamic content}```
 
 1. Select **+New step**.
 
