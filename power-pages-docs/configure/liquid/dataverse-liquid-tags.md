@@ -64,7 +64,7 @@ Type of authentication required for the Power BI report or dashboard. Valid valu
 
 - **Anonymous**: Allows you to embed publish to web Power BI reports. The default authentication type is Anonymous. When using the authentication type as Anonymous, you must get the Power BI report URL as described at: [Publish to web from Power BI](/power-bi/service-publish-to-web)
 
-- **Microsoft Entra ID**: Allows you to share secure Power BI reports or dashboards to Power BI Microsoft Entra ID authenticated users.
+- **AAD**: Allows you to share secure Power BI reports or dashboards to Power BI Microsoft Entra ID authenticated users.
 
 - **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who don't have Power BI license or Microsoft Entra authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](../../admin/set-up-power-bi-integration.md#enable-power-bi-embedded-service). 
 
@@ -74,7 +74,7 @@ While adding the secure Power BI report or dashboard, ensure that it's shared wi
 > The values for the `authentication_type` parameter are case insensitive.
 
 ```
-{% powerbi authentication_type:"Microsoft Entra ID" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
 ```
 
 You can also filter the report on one or more values. The syntax to filter a report is:
@@ -88,7 +88,7 @@ For example, say you want to filter the report to see data for a contact named B
 The complete code will be:
 
 ```
-{% powerbi authentication_type:"Microsoft Entra ID" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
 ```
 
 More information on filtering a report: [Filter a report using query string parameters in the URL](/power-bi/service-url-filters)
@@ -100,7 +100,7 @@ You can also create a dynamic path by using the `capture ` Liquid variable as be
 
 ```
 {% capture pbi_path %}https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq '{{user.id}}'{% endcapture %}
-{% powerbi authentication_type:"Microsoft Entra ID" path:pbi_path %}
+{% powerbi authentication_type:"AAD" path:pbi_path %}
 ```
 
 More information on Liquid variable: [Variable tags](variable-tags.md)
@@ -110,7 +110,7 @@ More information on Liquid variable: [Variable tags](variable-tags.md)
 Displays the specified tile of the dashboard. You must provide the ID of the tile.
 
 ```
-{% powerbi authentication_type:"Microsoft Entra ID" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"00000000-0000-0000-0000-000000000002" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"00000000-0000-0000-0000-000000000002" %}
 ```
 
 **roles**

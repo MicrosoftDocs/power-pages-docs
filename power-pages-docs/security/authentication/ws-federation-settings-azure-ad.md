@@ -56,7 +56,7 @@ Set Microsoft Entra as an identity provider for your site.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-1. Search for and select **Microsoft Entra ID**.
+1. Search for and select **Azure Active Directory**.
 
 1. Under **Manage**, select **App registrations**.
 

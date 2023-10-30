@@ -48,7 +48,7 @@ This video provides an overview of the steps to configure authentication provide
 
 1. Select **Configure**.
 
-    - Ensure **Microsoft Entra B2C** is selected and then choose **Next**.
+    - Ensure **Azure Active Directory B2C** is selected and then choose **Next**.
     :::image type="content" source="media/tutorial/azure-b2c.png" alt-text="Select a login provider.":::
 
 1. Fill in the details.
@@ -73,7 +73,7 @@ This video provides an overview of the steps to configure authentication provide
 
 Now your users can sign in, register, or redeem an invitation to your site using Microsoft Entra ID B2C.  
 
-You can preview this functionality by visiting a portal and selecting **Sign In**, then select **Microsoft Entra ID B2C**.  The default Microsoft Entra B2C sign-in screen will appear.
+You can preview this functionality by visiting a portal and selecting **Sign In**, then select **Azure AD B2C**.  The default Microsoft Entra B2C sign-in screen will appear.
 
 :::image type="content" source="media/tutorial/azure-ad-b2c.png" alt-text="Microsoft Entra ID B2C.":::
 

@@ -123,7 +123,7 @@ After enabling the Power BI Embedded service integration, you must create a secu
 
 1. Sign in to the [Azure portal](https://portal.azure.com) using a Global administrator account for the directory.
 
-1. Select **Microsoft Entra**, **Groups**, and then select **New group**.
+1. Select **Azure Active Directory**, **Groups**, and then select **New group**.
 
 1. On the **Group** page, enter the following information:
 
@@ -145,7 +145,7 @@ After enabling the Power BI Embedded service integration, you must create a secu
 
 1. Sign in to the [Azure portal](https://portal.azure.com) using a Global administrator account for the directory.
 
-1. Select **Microsoft Entra**, and then select **Groups**.
+1. Select **Azure Active Directory**, and then select **Groups**.
 
 1. From the **Groups - All groups** page, search for and select the **Power Pages Power BI Embedded service** group.
 

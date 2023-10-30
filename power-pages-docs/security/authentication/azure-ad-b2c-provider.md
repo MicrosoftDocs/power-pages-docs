@@ -35,7 +35,7 @@ Set Microsoft Entra B2C as an identity provider for your site.
 
     If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
-1. To the right of **Microsoft Entra B2C**, select **More Commands** (**&hellip;**) > **Configure** or select the provider name.
+1. To the right of **Azure AD B2C**, select **More Commands** (**&hellip;**) > **Configure** or select the provider name.
 
 1. Leave the provider name as it is or change it if you like.
 
@@ -55,7 +55,7 @@ Create a tenant for Microsoft Entra B2C and [register an application](/azure/act
 
 1. [Create a Microsoft Entra B2C tenant](/azure/active-directory-b2c/tutorial-create-tenant).
 
-1. Search for and select **Microsoft Entra ID B2C**.
+1. Search for and select **Azure AD B2C**.
 
 1. Under **Manage**, select **App registrations**.
 

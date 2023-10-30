@@ -164,6 +164,6 @@ To remove the default and allow users to select a configured identity provider w
 If you delete and recreate your Power Pages site, users might receive the following error when they try to sign in:
 
 `Sorry, but we're having trouble signing you in.`
-`Microsoft EntraSTS700016: Application with identifier '<your site URL>' was not found in the directory 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.`
+`AADSTS700016: Application with identifier '<your site URL>' was not found in the directory 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.`
 
 Be sure to configure your identity provider correctly after you recreate your site.
