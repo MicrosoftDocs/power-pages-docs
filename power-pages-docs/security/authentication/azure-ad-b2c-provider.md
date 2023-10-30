@@ -112,7 +112,7 @@ Create a tenant for Microsoft Entra B2C and [register an application](/azure/act
 
     - **Authority**: Paste the issuer URL [you copied](#get-the-issuer-url-from-the-user-flows).​
 
-    - **Client ID​**: Paste the **Application (client) ID** of the Microsoft Entra B2C application [you created](#create-an-app-registration-in-azure).
+    - **Client ID​**: Paste the **Application (client) ID** of the Microsoft Entra B2C application [you created](#create-an-app-registration-in-microsoft-entra).
 
     - **Redirect URI**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value, which should be your site's reply URL.
 
