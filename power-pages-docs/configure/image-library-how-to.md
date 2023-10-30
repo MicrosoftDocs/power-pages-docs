@@ -27,6 +27,8 @@ To complete this course, you need a Power Automate and Power Pages environment. 
 
 In this step, you create a flow using the Power Pages trigger and use OneDrive to store the images.
 
+Watch this video to learn how to create an image flow.
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIi]
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
@@ -103,6 +105,8 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 1. Select **+Add**.
 
 ### Get Image list flow
+
+Watch this video to learn how to get the image list flow.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIj]
 
@@ -206,6 +210,8 @@ The final flow appears.
 
 ### Delete Image
 
+Watch this video to learn how to delete an image.
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOID]
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
@@ -260,6 +266,8 @@ The final flow appears.
 
 After creating the flow and providing access to authenticated web role, you can call it from a control event using JavaScript.
 
+Watch this video to learn how to edit your code using Visual Studio Code.
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIF]
 
 1. Navigate to the **Pages** workspace.
@@ -289,3 +297,4 @@ To test the flow integration functionality:
 1. Choose an Image.
 
 1. Select **Open**.
+
