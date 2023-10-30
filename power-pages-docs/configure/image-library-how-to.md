@@ -106,7 +106,7 @@ Watch this video to learn how to create an image flow.
 
 ### Get Image list flow
 
-Once you've created your Image flow follow the steps in this section to view the flow.
+Once you've created your Image flow, follow the steps in this section to view the flow.
 
 Watch this video to learn how to get the image list flow.
 
