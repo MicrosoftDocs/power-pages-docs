@@ -4,7 +4,7 @@ description: Learn how to migrate your Power Pages sites to Bootstrap version 5.
 author: ankitavish 
 ms.topic: how-to
 ms.custom: 
-ms.date: 09/27/2023
+ms.date: 10/19/2023
 ms.subservice:
 ms.author: avishwakarma 
 ms.reviewer: kkendrick
@@ -23,13 +23,13 @@ In this article, learn about how to migrate your existing site from using Bootst
 > [!IMPORTANT]
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - This feature is in the process of rolling out, and may not be available in your region yet.
 > - You can migrate any of your existing Power Pages version 3 sites regardless of the template used for initial site creation.
+> - When creating new sites, Bootstrap version 5 is only supported in enhanced data model. If you migrate an existing Boostrap version 3 site, the enhanced data model is not required.
 > - Consider testing the migration using [developer sites](../getting-started/developer-sites.md) before you migrate a production site.
 
 ## Prerequisites
 
-- You must install [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.26.6 or higher to migrate your sites to Bootstrap version 5. More information: [Install latest Power Platform CLI](/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
+- You must install [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.28.2 or higher to migrate your sites to Bootstrap version 5. More information: [Install latest Power Platform CLI](/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
 - If your site uses SVG files, ensure your Power Platform environment is configured to allow .svg file name extensions using [**Set blocked file extensions for attachments** in System Settings](/power-platform/admin/system-settings-dialog-box-general-tab).
 - Consider creating two versions of your Power Pages site using Bootstrap version 3. Use one of them for migration and the other as a reference to compare against the migrated site.
 
