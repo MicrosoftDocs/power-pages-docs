@@ -15,11 +15,11 @@ ms.custom: bap-template
 
 # Set up an OpenID Connect provider with Azure AD B2C
 
-Azure AD B2C is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. You can use any identity provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
+Azure Active Directory (Azure AD) B2C is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. You can use any identity provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
 
 This article describes the following steps:
 
-- [Set up an OpenID Connect provider with Azure AD B2C](#set-up-an-openid-connect-provider-with-azure-ad-b2c)
+- [Set up Azure AD B2C in Power Pages](#set-up-azure-ad-b2c-in-power-pages)
 - [Create an app registration](#create-an-app-registration)
 - [Create user flows](#create-user-flows)
 - [Enter site and password settings in Power Pages](#enter-site-settings-and-password-reset-settings-in-power-pages)
@@ -35,7 +35,7 @@ Set Azure AD B2C as an identity provider for your site.
 
     If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
-1. To the right of **Azure AD B2C**, select **More Commands** (**&hellip;**) > **Configure** or select the provider name.
+1. To the right of **Azure Active Directory B2C**, select **More Commands** (**&hellip;**) > **Configure** or select the provider name.
 
 1. Leave the provider name as it is or change it if you like.
 
