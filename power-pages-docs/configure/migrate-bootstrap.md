@@ -24,6 +24,7 @@ In this article, learn about how to migrate your existing site from using Bootst
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - You can migrate any of your existing Power Pages version 3 sites regardless of the template used for initial site creation.
+> - When creating new sites, Bootstrap version 5 is only supported in enhanced data model. If you migrate an existing Boostrap version 3 site, the enhanced data model is not required.
 > - Consider testing the migration using [developer sites](../getting-started/developer-sites.md) before you migrate a production site.
 
 ## Prerequisites
