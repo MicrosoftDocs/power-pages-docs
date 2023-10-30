@@ -85,7 +85,7 @@ For example, say you want to filter the report to see data for a contact named B
 
 ?filter=Executives/Executive eq 'Bert Hair'
 
-The complete code will be:
+The complete code is:
 
 ```
 {% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
@@ -96,7 +96,7 @@ More information on filtering a report: [Filter a report using query string para
 > [!NOTE]
 > Anonymous report doesn't support filtering. 
 
-You can also create a dynamic path by using the `capture ` Liquid variable as below:
+You can also create a dynamic path by using the `capture ` Liquid variable:
 
 ```
 {% capture pbi_path %}https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq '{{user.id}}'{% endcapture %}
@@ -174,7 +174,7 @@ certain classes on the containing element, as demonstrated here.
 
 ### Parameters
 
-The first parameter provided to editable is the editable object, such as a web link set, snippets, or the current page. The optional second parameter is to specify an attribute name or key within that object that is to be rendered and edited. This value may be the name of a table attribute, or a snippet name, for example.
+The first parameter provided to editable is the editable object, such as a web link set, snippets, or the current page. The optional second parameter is to specify an attribute name or key within that object that is to be rendered and edited. This value might be the name of a table attribute, or a snippet name, for example.
 
 After these initial parameters, the tag supports many optional named parameters.
 
@@ -184,23 +184,23 @@ Specifies a class attribute value for the root element rendered by this tag.
 
 **default**
 
-A default value to be rendered in the case that the editable item has no value.
+A default value rendered in the case that the editable item has no value.
 
 **escape**
 
-A Boolean value indicating whether a value rendered by this tag will be HTML-encoded. This value is false by default.
+A Boolean value indicating whether a value rendered by this tag is HTML-encoded. This value is false by default.
 
 **liquid**
 
-A Boolean value indicating whether any Liquid template code found within the text value rendered by this tag will be processed. This value is true by default.
+A Boolean value indicating whether any Liquid template code found within the text value rendered by this tag should be processed. This value is true by default.
 
 **tag**
 
-The name of the container HTML tags that will be rendered by this tag. This tag will render div elements by default. It's recommended that you choose between div or span as a value for this parameter.
+The name of the container HTML tags rendered by this tag. This tag renders div elements by default. It's recommended that you choose between div or span as a value for this parameter.
 
 **title**
 
-Specifies a label for this editable item within the content editing interface. If none is provided, a friendly label will be generated automatically.
+Specifies a label for this editable item within the content editing interface. If none is provided, a friendly label is generated automatically.
 
 **type**
 
@@ -208,9 +208,9 @@ A string value indicating the type of editing interface to be presented, for edi
 
 ## entitylist
 
-Loads a given list, by name or ID. The properties of the list can then be accessed using an [entitylist object](liquid-objects.md#entitylist) that will be available within the tag block. To render the actual result records of the list, use the [entityview](#entityview) tag within the block.  
+Loads a given list, by name or ID. The properties of the list can then be accessed using an [entitylist object](liquid-objects.md#entitylist) available within the tag block. To render the actual result records of the list, use the [entityview](#entityview) tag within the block.  
 
-If the list is loaded successfully, the content within the block will be rendered. If the list isn't found, the block content won't be rendered.
+If the list is loaded successfully, the content within the block is rendered. If the list isn't found, the block content isn't rendered.
 
 ```
 {% entitylist name:My List %}
@@ -219,7 +219,7 @@ Loaded list {{ entitylist.adx_name }}.
 
 {% endentitylist %}
 ```
-By default, the entitylist object will be given the variable name entitylist. Optionally, a different variable name can be provided.
+By default, the entitylist object is given the variable name entitylist. Optionally, a different variable name can be provided.
 
 ```
 {% entitylist my_list = name:My List %}
@@ -245,7 +245,7 @@ Loaded list {{ entitylist.adx_name }}.
 {% endentitylist %}
 ```
 
-Generally, literal GUID strings won't be used. Instead, id will be specified using a GUID property of another variable.
+Generally, literal GUID strings aren't used. Instead, id is specified using a GUID property of another variable.
 
 ```
 {% entitylist id:page.adx_entitylist.id %}
@@ -269,7 +269,7 @@ Loaded list {{ entitylist.adx_name }}.
 
 **key**
 
-Loads a list by ID **or** name. If the provided key value can be parsed as a [GUID](https://en.wikipedia.org/wiki/Globally_unique_identifier), the list will be loaded by ID. Otherwise, it will be loaded by name.
+Loads a list by ID **or** name. If the provided key value can be parsed as a [GUID](https://en.wikipedia.org/wiki/Globally_unique_identifier), the list is loaded by ID. Otherwise, it's loaded by name.
 
 ```
 <!-- key_variable can hold an ID or name -->
@@ -283,7 +283,7 @@ Loaded list {{ entitylist.adx_name }}.
 
 **language\_code**
 
-A Dataverse integer language code to select the list localized labels to be loaded. If no language\_code is provided, the default language of the site application Dataverse connection will be used.
+A Dataverse integer language code to select the list localized labels to be loaded. If no language\_code is provided, the default language of the site application Dataverse connection is used.
 
 ```
 {% entitylist name:"My List", language_code:1033 %}
@@ -295,9 +295,9 @@ Loaded list {{ entitylist.adx_name }}.
 
 ## entityview
 
-Loads a given Dataverse view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that will be available within the tag block.  
+Loads a given Dataverse view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that is available within the tag block.  
 
-If the view is loaded successfully, the content within the block will be rendered. If the view isn't found, the block content won't be rendered.
+If the view is loaded successfully, the content within the block is rendered. If the view isn't found, the block content isn't rendered.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -307,7 +307,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 {% endentityview %}
 ```
 
-By default, the entityview object will be given the variable name entityview. Optionally, a different variable name can be provided.
+By default, the entityview object is given the variable name entityview. Optionally, a different variable name can be provided.
 
 ```
 {% entityview my_view = logical_name:'contact', name:"Active Contacts" %}
@@ -317,7 +317,7 @@ Loaded entity view with {{ my_view.total_records }} total records.
 {% endentityview %}
 ```
 
-If entityview is nested within an entitylist block, it will inherit its default configuration (result page size, filter options, etc.) from the list. If no view id or name parameters are provided to entityview, it will load the default view from the enclosing entitylist.
+If entityview is nested within an entitylist block, it inherits its default configuration (result page size, filter options, etc.) from the list. If no view id or name parameters are provided to entityview, it loads the default view from the enclosing entitylist.
 
 ```
 {% entitylist id:page.adx_entitylist.id %}
@@ -333,7 +333,7 @@ Loaded default view of the list associated with the current page, with {{ entity
 
 ### Parameters
 
-Provide **either** id **or** logical\_name with name to select the Dataverse view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
+Provide **either** id **or** logical\_name with name to select the Dataverse view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist is loaded.
 
 **id**
 
@@ -347,7 +347,7 @@ Loaded entity view {{ entityview.name }}.
 {% endentityview %}
 ```
 
-Generally, literal GUID strings won't be used. Instead, id will be specified using a GUID property of another variable.
+Generally, literal GUID strings aren't used. Instead, id is specified using a GUID property of another variable.
 
 ```
 {% entityview id:request.params.view %}
@@ -443,9 +443,9 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 **page**
 
-Specifies the view result page to load. If this parameter isn't specified, the first page of results will be loaded.
+Specifies the view result page to load. If this parameter isn't specified, the first page of results are loaded.
 
-This parameter must be passed either an integer value, or a string that can be parsed as an integer. If a value is provided for this parameter, but the value is null or otherwise can't be parsed as an integer, the first page of results will be loaded.
+This parameter must be passed either an integer value, or a string that can be parsed as an integer. If a value is provided for this parameter, but the value is null or otherwise can't be parsed as an integer, the first page of results is loaded.
 
 ```
 {% entityview id:request.params.view, page:2 %}
@@ -467,9 +467,9 @@ Loaded page {{ entityview.page }} of entity view with {{ entityview.total_record
 
 **page\_size**
 
-Specifies the number of results to load for the current result page. If no value is provided for this parameter, and entityview is used within an [entitylist](#entitylist) block, the list page size will be used. If not within an entitylist block, a default value of 10 will be used.
+Specifies the number of results to load for the current result page. If no value is provided for this parameter, and entityview is used within an [entitylist](#entitylist) block, the list page size is used. If not within an entitylist block, a default value of 10 is used.
 
-This parameter must be passed either an integer value, or a string that can be parsed as an integer. If a value is provided for this parameter, but the value is null or otherwise can't be parsed as an integer, the default page size will be used.
+This parameter must be passed either an integer value, or a string that can be parsed as an integer. If a value is provided for this parameter, but the value is null or otherwise can't be parsed as an integer, the default page size is used.
 
 ```
 {% entityview id:request.params.view, page_size:20 %}
@@ -491,7 +491,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 **search**
 
-Specifies a search expression by which to filter view results. Simple keyword search expressions will filter by whether attributes begin with the keyword. Wildcards \* can also be included in the expression.
+Specifies a search expression by which to filter view results. Simple keyword search expressions filters by whether attributes begin with the keyword. Wildcards \* can also be included in the expression.
 
 ```
 {% entityview id:request.params.view, search:'John\*' %}
@@ -512,9 +512,9 @@ Loaded entity view with {{ entityview.total_records }} total matching records.
 
 **language\_code**
 
-A Dataverse integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the website application Dataverse connection will be used.
+A Dataverse integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the website application Dataverse connection is used.
 
-If entityview is used within an entitylist block, entityview will inherit its language code configuration from entitylist.
+If entityview is used within an entitylist block, entityview inherits its language code configuration from entitylist.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts", language_code:1033 %}
@@ -526,7 +526,7 @@ Loaded entity view {{ entityview.name }}.
 
 ## searchindex
 
-Performs a query against the website search index. The matching results can then be accessed using a [searchindex](liquid-objects.md#searchindex) that will be available within the tag block.  
+Performs a query against the website search index. The matching results can then be accessed using a [searchindex](liquid-objects.md#searchindex) that is available within the tag block.  
 
 ```
 {% searchindex query: 'support', page: params.page, page_size: 10 %}
@@ -567,7 +567,7 @@ Performs a query against the website search index. The matching results can then
 
 ```
 
-By default, the search index object will be given the variable name searchindex. Optionally, a different variable name can be provided.
+By default, the search index object is given the variable name searchindex. Optionally, a different variable name can be provided.
 
 ```
 {% searchindex liquid_search = query: 'support', page: params.page, page_size: 10 %}
@@ -611,7 +611,7 @@ This parameter supports [the Lucene Query Parser syntax](https://lucene.apache.o
 
 **filter**
 
-An additional query used to match results. This parameter is intended to accept a developer-specified filter for results, if desired.
+Another query used to match results. This parameter is intended to accept a developer-specified filter for results, if desired.
 
 ```
 {% searchindex query: request.params.query, filter: '+statecode:0' %}
@@ -628,7 +628,7 @@ This parameter supports [the Lucene Query Parser syntax](https://lucene.apache.o
 
 **logical\_names**
 
-The Dataverse entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
+The Dataverse entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities are returned.
 
 ```
 {% searchindex query: request.params.query, logical_names: 'kbarticle,incident' %}
@@ -639,7 +639,7 @@ The Dataverse entity logical names to which matching results will be restricted,
 ```
 **page**
 
-The search result page to be returned. If not provided, the first page (1) will be returned.
+The search result page to be returned. If not provided, the first page (1) is returned.
 
 ```
 {% searchindex query: request.params.query, page: 2 %}
@@ -661,7 +661,7 @@ A common use case is to set this parameter based on a [request](liquid-objects.m
 
 **page\_size**
 
-The size of the result page to be returned. If not provided, a default size of 10 will be used.
+The size of the result page to be returned. If not provided, a default size of 10 is used.
 
 ```
 {% searchindex query: request.params.query, page_size: 20 %}
@@ -690,7 +690,7 @@ The name of the Basic Form you wish to load.
 
 ## webform
 
-Fully renders a [multistep form](../../getting-started/multistep-forms.md), by name or ID. The webform tag is only available for use in content rendered inside a [web template](../web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template won't render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first won't be rendered.
+Fully renders a [multistep form](../../getting-started/multistep-forms.md), by name or ID. The webform tag is only available for use in content rendered inside a [web template](../web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template won't render anything. You can only render a single entityform or webform tag per page. entityform or webform tags after the first won't be rendered.
 
 `{% webform name: 'My Multistep Form' %}`
 
@@ -710,7 +710,7 @@ Allows you to embed code components using a Liquid tag. For example, adding a ma
 
 **name**
 
-The Id or name of the code component.
+The ID or name of the code component.
 
 **property**
 
