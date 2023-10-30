@@ -260,7 +260,7 @@ The final flow appears.
 
 After creating the flow and providing access to authenticated web role, you can call it from a control event using JavaScript.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1DOIF]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIF]
 
 1. Navigate to the **Pages** workspace.
 
