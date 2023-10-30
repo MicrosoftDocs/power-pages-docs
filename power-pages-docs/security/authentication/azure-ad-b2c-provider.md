@@ -19,7 +19,7 @@ Azure AD B2C is one of the OpenID Connect identity providers you can use to [aut
 
 This article describes the following steps:
 
-- [Set up an OpenID Connect provider with Azure AD B2C](#set-up-an-openid-connect-provider-with-microsoft-entra-id-b2c)
+- [Set up an OpenID Connect provider with Azure AD B2C](#set-up-an-openid-connect-provider-with-azure-ad-b2c)
 - [Create an app registration](#create-an-app-registration)
 - [Create user flows](#create-user-flows)
 - [Enter site and password settings in Power Pages](#enter-site-settings-and-password-reset-settings-in-power-pages)
@@ -67,7 +67,7 @@ Create a tenant for Azure AD B2C and [register an application](/azure/active-dir
 
 1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
 
-    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-microsoft-entra-b2c-in-power-pages).
+    - If you're using your site's default URL, paste the reply URL [you copied](#set-up-azure-ad-b2c-in-power-pages).
     - If you're using a custom domain name, enter the custom URL. Be sure to use the same custom URL for the redirect URL in the settings for the identity provider on your site.
 
 1. Select **Register**.
