@@ -379,23 +379,39 @@ Watch this video to learn how to edit your code using Visual Studio Code.
              text-align: center;
         }
     </style> 
-    <div class="row sectionBlockLayout text-left" style="display: flex;
-     flex-wrap: wrap;
-     margin: 0px;
-     min-height: auto;
-     padding: 8px;
-    "> <div class="container" style="display: flex;
-     flex-wrap: wrap;
-    "> <div class="col-md-12 columnBlockLayout image-gallery" style="flex-grow: 1;
-     display: flex;
-     flex-direction: column;
-     min-width: 310px;
-     word-break: break-word;
-     padding: 0 120px;
-     margin: 60px 0px;
-    "> <div class="image-gallery-header"> Your travel photos </div> <div> <div class="subHeader"> Upload file </div> <div class="subHeaderLabel"> You can upload JPG, GIF or PNG file </div> <form id="uploadForm"> <p> <input type="file" id="fileInput" style="display: none;
-    " accept="image/x-png,image/gif,image/jpeg" /> <button type="submit"> <i class="ms-Icon ms-Icon--Upload" aria-hidden="true"></i> Upload </button> </p> </form> </div> <div class="status-message" id="statusMessage" style="display: none;
-    "> Uploading your image... Please wait while we process your file. </div> <div class="image-gallery-list"> <div id ="container" class="image-list"> </div> </div> </div> </div> </div> 
+    <div class="row sectionBlockLayout text-left" style="display: flex;flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"> 
+        <div class="container" style="display: flex; flex-wrap: wrap;"> 
+            <div class="col-md-12 columnBlockLayout image-gallery" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 310px; word-break: break-word; padding: 0 120px; margin: 60px 0px;"> 
+                <div class="image-gallery-header"> 
+                    Your travel photos 
+                </div> 
+                <div> 
+                    <div class="subHeader"> 
+                        Upload file 
+                    </div> 
+                    <div class="subHeaderLabel"> 
+                        You can upload JPG, GIF or PNG file 
+                    </div> 
+                    <form id="uploadForm"> 
+                        <p> 
+                            <input type="file" id="fileInput" style="display: none;" accept="image/x-png,image/gif,image/jpeg" /> 
+                            <button type="submit"> 
+                                <i class="ms-Icon ms-Icon--Upload" aria-hidden="true"></i>
+                                Upload 
+                            </button> 
+                        </p> 
+                    </form> 
+                </div> 
+                <div class="status-message" id="statusMessage" style="display: none;"> 
+                    Uploading your image... Please wait while we process your file. 
+                </div> 
+                <div class="image-gallery-list"> 
+                    <div id ="container" class="image-list"> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
     <script> 
          var _getImageListFlowURL = "<Get Image List Flow URL>";
          var _uploadImageFlowURL = "<Upload Image Flow URL>";
