@@ -17,41 +17,41 @@ contributors:
 
 In this article, learn about how to migrate your existing standard data model site to enhanced data model. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use Power Platform CLI in Power Pages. More information: [Microsoft Power Platform CLI support for Power Pages](https://learn.microsoft.com/en-us/power-pages/configure/power-platform-cli), [Tutorial: Use Microsoft Power Platform CLI with Power Pages](https://learn.microsoft.com/en-us/power-pages/configure/power-platform-cli-tutorial), [pac powerpages](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/powerpages)
 
-**Prerequisites**
+## Prerequisites
 
--   You must install [<u>Microsoft Power Platform CLI</u>](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.26.6 or higher to migrate your sites to enhanced data model. More information: [<u>Install latest Power Platform CLI</u>](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
+- You must install [Microsoft Power Platform CLI](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.26.6 or higher to migrate your sites to enhanced data model. More information: [Install latest Power Platform CLI](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
 
--   Dataverse base portal package [<u>9.3.2307.x</u>](https://learn.microsoft.com/en-us/power-apps/maker/portals/versions/package-version-9.3.2209) or higher. 
+- Dataverse base portal package [9.3.2307.x](https://learn.microsoft.com/en-us/power-apps/maker/portals/versions/package-version-9.3.2209) or higher. 
 
--   Power Pages Core package 1.0.2309.63 or higher. [More details](https://learn.microsoft.com/en-us/power-pages/admin/update-solution).
+- Power Pages Core package 1.0.2309.63 or higher. More information: [Update the Power Pages solution](update-solution.md)
 
 ## Step 1: Download and check customization for existing standard site metadata.
 
-1.  Open a command prompt.
+1. Open a command prompt.
 
-2.  Use the following command to authenticate to the Dataverse organization for your Power Platform environment to download the website record for migration.
+1. Use the following command to authenticate to the Dataverse organization for your Power Platform environment to download the website record for migration.
 
-pac auth create -u \[Dataverse URL\]
+    pac auth create -u \[Dataverse URL\]
 
-**Example:**
+    **Example:**
 
-pac auth create -u https://contoso-org.crm.dynamics.com
+    pac auth create -u https://contoso-org.crm.dynamics.com
 
-More information: [pac auth create](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/auth)
+    More information: [pac auth create](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/auth)
 
-3.  Use the following command to generate a list of websites in the current organization.
+1. Use the following command to generate a list of websites in the current organization.
 
-pac powerpages list
+    pac powerpages list
 
-More information: [pac powerpages list](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/powerpages#pac-powerpages-list)
+    More information: [pac powerpages list](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/powerpages#pac-powerpages-list)
 
-4.  Use the following command to download the customization report.
+1. Use the following command to download the customization report.
 
-pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] -**downloadCustomizationreport** \[PATH\]
+    pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] -**downloadCustomizationreport** \[PATH\]
 
-**Example:**
+    **Example:**
 
-pac powerpages **datamodel-migrate** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  --**downloadCustomizationreport** "c:\\pac-powerpages\\downloads"
+    pac powerpages **datamodel-migrate** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  --**downloadCustomizationreport** "c:\\pac-powerpages\\downloads"
 
 If you find any customization in the downloaded report, follow guidance present in report to fix it post site migration to enhanced data model. You can also check the guidance here. \[Add link of guidance doc\]
 
@@ -71,15 +71,11 @@ pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] –**mode** \[type-o
 
 **Template Name:** Pass the site template name for site. Site with following template are supported for migration:
 
-1.  Starter layout 1-5
-
-2.  Application processing
-
-3.  Blank page
-
-4.  Program registration
-
-5.  Schedule and manage meetings
+- Starter layout 1-5
+- Application processing
+- Blank page
+-Program registration
+- Schedule and manage meetings
 
 **Example:**
 
