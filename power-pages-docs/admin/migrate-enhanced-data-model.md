@@ -19,10 +19,8 @@ In this article, learn about how to migrate your existing standard data model si
 
 ## Prerequisites
 
-- You must install [Microsoft Power Platform CLI](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.26.6 or higher to migrate your sites to enhanced data model. More information: [Install latest Power Platform CLI](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
-
-- Dataverse base portal package [9.3.2307.x](https://learn.microsoft.com/en-us/power-apps/maker/portals/versions/package-version-9.3.2209) or higher. 
-
+- You must install [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.26.6 or higher to migrate your sites to enhanced data model. More information: [Install latest Power Platform CLI](/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
+- Dataverse base portal package [9.3.2307.x](/power-apps/maker/portals/versions/package-version-9.3.2209)or higher. 
 - Power Pages Core package 1.0.2309.63 or higher. More information: [Update the Power Pages solution](update-solution.md)
 
 ## Step 1: Download and check customization for existing standard site metadata.
