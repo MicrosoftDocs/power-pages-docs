@@ -120,12 +120,11 @@ Use the following command to revert standard data model site to enhanced data m
 
 We recommend creating full copy of the production site and try out the migration on copied version of environment before production site migration and also plan the production site migration in non-business hours.
 
-Below are the steps to migrate production site to enhanced data model:
+Use these steps to migrate your production site to the enhanced data model:
 
-Step 1: Try out the migration on site in the copied environment using the above mentioned PAC CLI commands.
+1. Try out the migration on site in the copied environment using the above mentioned PAC CLI commands.
+1. Add site configuration data to managed solution and import it production environment.
+1. Use PAC CLI commands to migrate non-configuration data and finish it by updating data model version for production.
 
-Step 2: Add site configuration data to managed solution and import it production environment.
-
-Step 3: Use PAC CLI commands to migrate non-configuration data and finish it by updating data model version for production.
-
-Note: For migration the source and production website id are same.
+> [!NOTE]
+> For migration the source and production website id are same.
