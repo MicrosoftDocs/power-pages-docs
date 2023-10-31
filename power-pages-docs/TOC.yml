@@ -216,6 +216,8 @@
       items:
         - name: Use enhanced data model
           href: admin/enhanced-data-model.md
+        - name: Migrate sites to enhanced data model (preview)
+          href: admin/migrate-enhanced-data-model.md
     - name: Power Pages design studio and Power Apps portals Studio
       href: configure/editing-sites.md
 - name: Administer Power Pages
