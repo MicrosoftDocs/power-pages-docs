@@ -98,23 +98,23 @@ Use the following command 
 
 Use the following command update site data model version
 
-pac powerpages **datamodel-migrate** --**updateDatamodelVersion** -id \[WebSiteId-GUID\]\] -**portalId**\[Portal-GUID\]
+```pac powerpages **datamodel-migrate** --**updateDatamodelVersion** -id \[WebSiteId-GUID\]\] -**portalId**\[Portal-GUID\]```
 
 **Note**: You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a webrole with all [website access permissions](../security/website-access-permission.md) assigned.
 
 **Example:**
 
-pac powerpages **datamodel-migrate** --**updateDatamodelVersion** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  \] - **portalId** d44574f9-acc3-4ccc-8d8d-85cf5b7ad141
+```pac powerpages **datamodel-migrate** --**updateDatamodelVersion** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  \] - **portalId** d44574f9-acc3-4ccc-8d8d-85cf5b7ad141```
 
 ## Revert migrated site from enhanced to standard data model
 
 Use the following command to revert standard data model site to enhanced data model post migration:
 
-pac powerpages **datamodel-migrate** --**revertToStandardDataModel** -id \[WebSiteId-GUID\]\] -**portalId**\[Portal-GUID\]
+```pac powerpages **datamodel-migrate** --**revertToStandardDataModel** -id \[WebSiteId-GUID\]\] -**portalId**\[Portal-GUID\]```
 
 **Example:**
 
-pac paportal **datamodel-migrate** --**revertToStandardDataModel** -id 'f88b70cc-580b-4f1a-87c3-41debefeb902' -portalid '8fd85fc0-3be4-ed11-8848-000d3af37e5b'
+```pac paportal **datamodel-migrate** --**revertToStandardDataModel** -id 'f88b70cc-580b-4f1a-87c3-41debefeb902' -portalid '8fd85fc0-3be4-ed11-8848-000d3af37e5b'```
 
 ## Migrate a production site from standard to enhanced data model
 
