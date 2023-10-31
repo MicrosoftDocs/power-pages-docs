@@ -212,7 +212,7 @@
               href: configure/progressive-web-apps.md
             - name: Build progressive web applications
               href: configure/build-progressive-web-apps.md
-    - name: Copresence in design studio (preview)
+    - name: Copresence in design studio
       href: getting-started/copresence.md
     - name: Power Pages design studio and Power Apps portals Studio
       href: configure/editing-sites.md
