@@ -32,27 +32,27 @@ In this article, learn about how to migrate your existing standard data model si
 
 1. Use the following command to authenticate to the Dataverse organization for your Power Platform environment to download the website record for migration.
 
-    pac auth create -u \[Dataverse URL\]
+    ```pac auth create -u \[Dataverse URL\]```
 
     **Example:**
 
-    pac auth create -u https://contoso-org.crm.dynamics.com
+    ```pac auth create -u https://contoso-org.crm.dynamics.com```
 
     More information: [pac auth create](/power-platform/developer/cli/reference/auth)
 
 1. Use the following command to generate a list of websites in the current organization.
 
-    pac powerpages list
+    ```pac powerpages list```
 
     More information: [pac powerpages list](/power-platform/developer/cli/reference/powerpages#pac-powerpages-list)
 
 1. Use the following command to download the customization report.
 
-    pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] -**downloadCustomizationreport** \[PATH\]
+    ```pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] -**downloadCustomizationreport** \[PATH\]```
 
     **Example:**
 
-    pac powerpages **datamodel-migrate** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  --**downloadCustomizationreport** "c:\\pac-powerpages\\downloads"
+   ``` pac powerpages **datamodel-migrate** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  --**downloadCustomizationreport** "c:\\pac-powerpages\\downloads"```
 
 If you find any customization in the downloaded report, follow guidance present in report to fix it post site migration to enhanced data model. You can also check the guidance here. \[Add link of guidance doc\]
 
@@ -60,7 +60,7 @@ If you find any customization in the downloaded report, follow guidance present 
 
 Use the following command datamodel-migrate
 
-pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] –**mode** \[type-of-data\] -**templateName** \[Website-template-name\]
+```pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] –**mode** \[type-of-data\] -**templateName** \[Website-template-name\]```
 
 **Mode:** It can have 3 values
 
@@ -80,7 +80,7 @@ pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] –**mode** \[type-o
 
 **Example:**
 
-pac powerpages **datamodel-migrate** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b –**mode** all -**templateName "**Starter layout 1**"**
+```pac powerpages **datamodel-migrate** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b –**mode** all -**templateName "**Starter layout 1**"**```
 
 ## Step 3: Verify the migration status.
 
@@ -88,11 +88,11 @@ To verify the status of a site migration that is experiencing longer than antici
 
 Use the following command 
 
-pac powerpages **datamodel-migrate** --**checkMigrationStatus** -id\[WebSiteId-GUID\]
+```pac powerpages **datamodel-migrate** --**checkMigrationStatus** -id\[WebSiteId-GUID\]```
 
 **Example:**
 
-pac powerpages **datamodel-migrate** --**checkMigrationStatus** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  --
+```pac powerpages **datamodel-migrate** --**checkMigrationStatus** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  --```
 
 ## Step 4: Update site data model version after successful data migration.
 
