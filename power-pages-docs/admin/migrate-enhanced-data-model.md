@@ -108,7 +108,7 @@ Use the following command update site data model version
 
 ## Revert migrated site from enhanced to standard data model
 
-Use the following command to revert standard data model site to enhanced data model post migration:
+Use the following command to revert a standard data model site to enhanced data model post migration:
 
 ```pac powerpages **datamodel-migrate** --**revertToStandardDataModel** -id \[WebSiteId-GUID\]\] -**portalId**\[Portal-GUID\]```
 
