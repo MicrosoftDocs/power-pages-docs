@@ -263,7 +263,7 @@ Watch this video to learn how to delete an image.
 
 1. Select **Authenticated Users**.
 
-1. Select **+Add**.
+1. Select the **Add** button.
 
 ## Step 2: Create a page to Manage Image library
 
