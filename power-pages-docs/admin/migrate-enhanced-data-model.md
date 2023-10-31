@@ -62,15 +62,15 @@ Use the following command datamodel-migrate
 
 ```pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] –**mode** \[type-of-data\] -**templateName** \[Website-template-name\]```
 
-**Mode:** It can have 3 values
+**Mode:** It can have three values
 
 - **configurationData**: migrate the metadata for website. [List of tables to store configuration data](enhanced-data-model.md#virtual-tables)
 
-- **configurationDataReferences**: migrate the transactional data for website. [List of tables to store non-configuration data](enhanced-data-model.md#nonconfiguration-tables)
+- **configurationDataReferences**: migrate the transactional data for website. [List of tables to store nonconfiguration data](enhanced-data-model.md#nonconfiguration-tables)
 
 - **all**: migrate both types of data.
 
-**Template Name:** Pass the site template name for site. Site with following template are supported for migration:
+**Template Name:** Pass the site template name for site. Sites with following templates are supported for migration:
 
 - Starter layout 1-5
 - Application processing
@@ -100,7 +100,7 @@ Use the following command update site data model version
 
 ```pac powerpages **datamodel-migrate** --**updateDatamodelVersion** -id \[WebSiteId-GUID\]\] -**portalId**\[Portal-GUID\]```
 
-**Note**: You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a webrole with all [website access permissions](../security/website-access-permission.md) assigned.
+**Note**: You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a web role with all [website access permissions](../security/website-access-permission.md) assigned.
 
 **Example:**
 
@@ -118,13 +118,13 @@ Use the following command to revert a standard data model site to enhanced data
 
 ## Migrate a production site from standard to enhanced data model
 
-We recommend creating full copy of the production site and try out the migration on copied version of environment before production site migration and also plan the production site migration in non-business hours.
+We recommend creating full copy of the production site and try out the migration on copied version of environment before production site migration and also plan the production site migration in nonbusiness hours.
 
 Use these steps to migrate your production site to the enhanced data model:
 
 1. Try out the migration on site in the copied environment using the above mentioned PAC CLI commands.
 1. Add site configuration data to managed solution and import it production environment.
-1. Use PAC CLI commands to migrate non-configuration data and finish it by updating data model version for production.
+1. Use PAC CLI commands to migrate nonconfiguration data and finish it by updating data model version for production.
 
 > [!NOTE]
 > For migration the source and production website id are same.
