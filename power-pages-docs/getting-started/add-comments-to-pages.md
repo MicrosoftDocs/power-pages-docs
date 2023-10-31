@@ -71,4 +71,7 @@ When someone tags you in a comment, you receive an email. The email includes  th
 
 Comments in Power Page sites can't be exported or imported as solution components because they contain user collaboration data. However, you can export the Comment table to Excel and then import the Excel file into your environment. More information: [Export data](/power-apps/maker/data-platform/data-platform-import-export#export-data)
 
+## Known limitations
+
+- When new comments are added to a page in design studio after a sync, they are saved as empty comments. To avoid this, reload the design studio and then add the comment.
 
