@@ -16,8 +16,6 @@
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
-        - name: Use enhanced data model
-          href: admin/enhanced-data-model.md
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
@@ -214,6 +212,10 @@
               href: configure/build-progressive-web-apps.md
     - name: Copresence in design studio
       href: getting-started/copresence.md
+    - name: Enhanced data model 
+      items:
+        - name: Use enhanced data model
+          href: admin/enhanced-data-model.md
     - name: Power Pages design studio and Power Apps portals Studio
       href: configure/editing-sites.md
 - name: Administer Power Pages
