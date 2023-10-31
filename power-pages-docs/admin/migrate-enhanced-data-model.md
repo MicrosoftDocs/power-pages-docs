@@ -1,6 +1,19 @@
 ﻿---
 title: Migrate standard data model sites to enhanced data model (preview)
+description: Learn how to use the enhanced data model in a Power Pages site.
+author:  gitanjalisingh33msft
+ms.topic: conceptual
+ms.custom: 
+ms.date: 10/31/2023
+ms.subservice:
+ms.author:  
+ms.reviewer: kkendrick
+contributors:
+    - gitanjalisingh33msft
+    - professorkendrick
 ---
+
+# Migrate standard data model sites to enhanced data model (preview)
 
 In this article, learn about how to migrate your existing standard data model site to enhanced data model. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use Power Platform CLI in Power Pages. More information: [Microsoft Power Platform CLI support for Power Pages](https://learn.microsoft.com/en-us/power-pages/configure/power-platform-cli), [Tutorial: Use Microsoft Power Platform CLI with Power Pages](https://learn.microsoft.com/en-us/power-pages/configure/power-platform-cli-tutorial), [pac powerpages](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/powerpages)
 
