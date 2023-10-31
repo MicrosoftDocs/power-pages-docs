@@ -106,7 +106,7 @@ Watch this video to learn how to create an image flow.
 
 ### Get Image list flow
 
-Once you've created your Image flow, follow the steps in this section to view the flow.
+Once you create your Image flow, follow the steps in this section to view the flow.
 
 Watch this video to learn how to get the image list flow.
 
@@ -211,7 +211,7 @@ The final flow appears.
 
 ### Delete Image
 
-Once you've built your Image List flow, follow the steps outlined in this section create a trigger for deleting images.
+Once you build your Image List flow, follow the steps outlined in this section create a trigger for deleting images.
 
 Watch this video to learn how to delete an image.
 
