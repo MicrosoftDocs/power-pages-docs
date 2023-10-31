@@ -38,13 +38,13 @@ In this article, learn about how to migrate your existing standard data model si
 
     pac auth create -u https://contoso-org.crm.dynamics.com
 
-    More information: [pac auth create](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/auth)
+    More information: [pac auth create](/power-platform/developer/cli/reference/auth)
 
 1. Use the following command to generate a list of websites in the current organization.
 
     pac powerpages list
 
-    More information: [pac powerpages list](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/powerpages#pac-powerpages-list)
+    More information: [pac powerpages list](/power-platform/developer/cli/reference/powerpages#pac-powerpages-list)
 
 1. Use the following command to download the customization report.
 
