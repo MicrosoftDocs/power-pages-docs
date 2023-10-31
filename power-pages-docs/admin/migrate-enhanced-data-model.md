@@ -64,9 +64,9 @@ pac powerpages **datamodel-migrate** -id \[WebSiteId-GUID\] –**mode** \[type-o
 
 **Mode:** It can have 3 values
 
-- **configurationData**: migrate the metadata for website. [List of tables store configuration data.](https://learn.microsoft.com/en-us/power-pages/admin/enhanced-data-model#virtual-tables)
+- **configurationData**: migrate the metadata for website. [List of tables to store configuration data](enhanced-data-model.md#virtual-tables)
 
-- **configurationDataReferences**: migrate the transactional data for website. [List of tables store non configuration data.](https://learn.microsoft.com/en-us/power-pages/admin/enhanced-data-model#nonconfiguration-tables)
+- **configurationDataReferences**: migrate the transactional data for website. [List of tables to store non-configuration data](enhanced-data-model.md#nonconfiguration-tables)
 
 - **all**: migrate both types of data.
 
@@ -100,7 +100,7 @@ Use the following command update site data model version
 
 pac powerpages **datamodel-migrate** --**updateDatamodelVersion** -id \[WebSiteId-GUID\]\] -**portalId**\[Portal-GUID\]
 
-**Note**: You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a webrole with all [website access permissions](https://learn.microsoft.com/en-us/power-pages/security/website-access-permission) assigned.
+**Note**: You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a webrole with all [website access permissions](../security/website-access-permission.md) assigned.
 
 **Example:**
 
