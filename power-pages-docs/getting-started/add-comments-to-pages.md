@@ -73,5 +73,5 @@ Comments in Power Page sites can't be exported or imported as solution component
 
 ## Known limitations
 
-- When new comments are added to a page in design studio before a sync, they are saved as empty comments. To avoid this, reload the design studio and then add the comment.
+- When new comments are added to a page in design studio after sync, they are saved as empty comments. To avoid this, reload the design studio and then add the comment.
 
