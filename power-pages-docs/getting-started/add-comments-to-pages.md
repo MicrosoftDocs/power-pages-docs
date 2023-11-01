@@ -47,14 +47,14 @@ Legend:
 
 Edit your comments or remove existing comments in design studio from the comments pane.
 
-1. Select **...** next to the comment.
+1. Select **...** next to the comment in the comment pane.
 1. Choose **Edit comment** or **Delete comment**.
 
 ## Resolve a comment
 
 Resolve or reopen a comment thread to better track the active comments from the comments pane.
 
-1. Select **...** next to the comment.
+1. Select **...** next to the comment in the comment pane.
 1. Choose **Resolve comment**. 
 
 The comment thread appears as **Resolved**. To reopen select **Reopen thread**. To delete the comment thread, select **Delete thread**.
@@ -73,5 +73,5 @@ Comments in Power Page sites can't be exported or imported as solution component
 
 ## Known limitations
 
-- When new comments are added to a page in design studio after a sync, they are saved as empty comments. To avoid this, reload the design studio and then add the comment.
+- When new comments are added to a page in design studio before a sync, they are saved as empty comments. To avoid this, reload the design studio and then add the comment.
 
