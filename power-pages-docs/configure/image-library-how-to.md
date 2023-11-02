@@ -276,220 +276,198 @@ After creating the flow and providing access to authenticated web role, you can 
 1. Paste the following code:
 
     ```css
-    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" /> 
-    <style> 
-        div.image-gallery {
-             display: flex;
-             flex-direction: column;
-             align-items: flex-start;
-             padding: 100px;
-             gap: 36px;
-             width: 840px;
-        }
-         div.image-gallery-header {
-             font-family: Helvetica;
-             font-size: 32px;
-             font-weight: 700;
-             line-height: 32px;
-             letter-spacing: 0px;
-             color: #252729;
-        }
-         div.subHeader {
-             font-family: Segoe UI;
-             font-size: 14px;
-             font-weight: 600;
-             line-height: 20px;
-             letter-spacing: 0px;
-             color: #323130;
-        }
-         div.subHeaderLabel {
-             font-family: Segoe UI;
-             font-size: 12px;
-             font-weight: 400;
-             line-height: 16px;
-             letter-spacing: 0px;
-             color: #605E5C;
-        }
-         .image-gallery button {
-             margin-top: 5px;
-             font-family: 'Segoe UI';
-             padding: 8px 16px;
-             font-size: 16px;
-             background-color: white;
-             color: #8A8886;
-             border: 1px solid #8A8886;
-             border-radius: 4px;
-             cursor: pointer;
-             outline: none;
-        }
-         div.image-gallery-list {
-             margin-top: 0px;
-        }
-         div.date-section {
-             font-family: Segoe UI Variable;
-             font-size: 14px;
-             font-weight: 600;
-             line-height: 20px;
-             letter-spacing: 0em;
-             color: #000000E4;
-        }
-         div.image-list {
-             width: 1024px;
-             display: flex;
-             justify-content: space-between;
-             margin-top: 10px;
-             margin-bottom: 10px;
-             flex-wrap:wrap;
-        }
-         div.image-1 {
-             margin-right: 10px;
-             display: flex;
-             margin-top: 10px;
-             margin-bottom: 20px;
-        }
-         .image-list img {
-             width: 268px;
-             height: 289px;
-             border-radius: 4px;
-        }
-         button.image-delete {
-             background-color: #FFFFFF;
-             width: 32px;
-             height: 32px;
-             position: relative;
-             right: 40px;
-             padding-top: 4px;
-        }
-         .image-delete i {
-             display: flex;
-             justify-content: center;
-        }
-         div.status-message {
-             padding: 10px;
-             background-color: #4CAF50;
-             color: white;
-             text-align: center;
-        }
-    </style> 
-    <div class="row sectionBlockLayout text-left" style="display: flex;flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"> 
-        <div class="container" style="display: flex; flex-wrap: wrap;"> 
-            <div class="col-md-12 columnBlockLayout image-gallery" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 310px; word-break: break-word; padding: 0 120px; margin: 60px 0px;"> 
-                <div class="image-gallery-header"> 
-                    Your travel photos 
-                </div> 
-                <div> 
-                    <div class="subHeader"> 
-                        Upload file 
-                    </div> 
-                    <div class="subHeaderLabel"> 
-                        You can upload JPG, GIF or PNG file 
-                    </div> 
-                    <form id="uploadForm"> 
-                        <p> 
-                            <input type="file" id="fileInput" style="display: none;" accept="image/x-png,image/gif,image/jpeg" /> 
-                            <button type="submit"> 
-                                <i class="ms-Icon ms-Icon--Upload" aria-hidden="true"></i>
-                                Upload 
-                            </button> 
-                        </p> 
-                    </form> 
-                </div> 
-                <div class="status-message" id="statusMessage" style="display: none;"> 
-                    Uploading your image... Please wait while we process your file. 
-                </div> 
-                <div class="image-gallery-list"> 
-                    <div id ="container" class="image-list"> 
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </div> 
-    <script> 
-         var _getImageListFlowURL = "<Get Image List Flow URL>";
-         var _uploadImageFlowURL = "<Upload Image Flow URL>";
-         var _deleteImageFlowURL="<Delete Image Flow URL>";
-         function createImageElement(element){
-             var div1 = document.createElement('div');
-             div1.className="image-1" var img = document.createElement('img');
-             img.src=element["URL"];
-             div1.appendChild(img);
-             var button1 = document.createElement('Button');
-             button1.type="submit";
-             button1.className="image-delete";
-             button1.data=element["Id"];
-             var i=document.createElement('i');
-             i.className="ms-Icon ms-Icon--Delete" button1.appendChild(i);
-             div1.appendChild(button1);
-             button1.addEventListener('click', function(){
-                 this.parentElement.remove();
-                 var data = {
-                }
-                ;
-                 data["Id"] = element["Id"];
-                 var payload = {
-                }
-                ;
-                 payload.eventData = JSON.stringify(data);
-                 shell .ajaxSafePost({
-                     type: "POST", contentType: "application/json", url: _deleteImageFlowURL, data: JSON.stringify(payload), processData: false, global: false, 
-                }
-                ) .done(function (response) {
-                     const result = JSON.parse(response);
-                }
-                ) .fail(function () {
-                     console.log('Error');
-                }
-                );
-            }
-            );
-             return div1;
-        }
-         document.addEventListener("DOMContentLoaded", () => {
-             var data = {
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" /> <style> div.image-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 100px;
+            gap: 36px;
+            width: 840px;
+    }
+        div.image-gallery-header {
+            font-family: Helvetica;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0px;
+            color: #252729;
+    }
+        div.subHeader {
+            font-family: Segoe UI;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0px;
+            color: #323130;
+    }
+        div.subHeaderLabel {
+            font-family: Segoe UI;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0px;
+            color: #605E5C;
+    }
+        .image-gallery button {
+            margin-top: 5px;
+            font-family: 'Segoe UI';
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: white;
+            color: #8A8886;
+            border: 1px solid #8A8886;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+    }
+        div.image-gallery-list {
+            margin-top: 0px;
+    }
+        div.date-section {
+            font-family: Segoe UI Variable;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0em;
+            color: #000000E4;
+    }
+        div.image-list {
+            width: 1024px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            flex-wrap:wrap;
+    }
+        div.image-1 {
+            margin-right: 10px;
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 20px;
+    }
+        .image-list img {
+            width: 268px;
+            height: 289px;
+            border-radius: 4px;
+    }
+        button.image-delete {
+            background-color: #FFFFFF;
+            width: 32px;
+            height: 32px;
+            position: relative;
+            right: 40px;
+            padding-top: 4px;
+    }
+        .image-delete i {
+            display: flex;
+            justify-content: center;
+    }
+        div.status-message {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+    }
+        </style> <div class="row sectionBlockLayout text-left" style="display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        min-height: auto;
+        padding: 8px;
+    "> <div class="container" style="display: flex;
+        flex-wrap: wrap;
+    "> <div class="col-md-12 columnBlockLayout image-gallery" style="flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        min-width: 310px;
+        word-break: break-word;
+        padding: 0 120px;
+        margin: 60px 0px;
+    "> <div class="image-gallery-header"> Your travel photos </div> <div> <div class="subHeader"> Upload file </div> <div class="subHeaderLabel"> You can upload JPG, GIF or PNG file </div> <form id="uploadForm"> <p> <input type="file" id="fileInput" style="display: none;
+    " accept="image/x-png,image/gif,image/jpeg" /> <button type="submit"> <i class="ms-Icon ms-Icon--Upload" aria-hidden="true"></i> Upload </button> </p> </form> </div> <div class="status-message" id="statusMessage" style="display: none;
+    "> Uploading your image... Please wait while we process your file. </div> <div class="image-gallery-list"> <div id ="container" class="image-list"> </div> </div> </div> </div> </div> <script> var _getImageListFlowURL = "<Get Image List Flow URL>";
+        var _uploadImageFlowURL = //"<Upload Image Flow URL>";
+        var _deleteImageFlowURL//"<Delete Image Flow URL>";
+        function createImageElement(element){
+            var div1 = document.createElement('div');
+            div1.className="image-1" var img = document.createElement('img');
+            img.src=element["URL"];
+            div1.appendChild(img);
+            var button1 = document.createElement('Button');
+            button1.type="submit";
+            button1.className="image-delete";
+            button1.data=element["Id"];
+            var i=document.createElement('i');
+            i.className="ms-Icon ms-Icon--Delete" button1.appendChild(i);
+            div1.appendChild(button1);
+            button1.addEventListener('click', function(){
+                this.parentElement.remove();
+                var data = {
             }
             ;
-             var payload = {
+                data["Id"] = element["Id"];
+                var payload = {
             }
             ;
-             payload.eventData = JSON.stringify(data);
-             shell .ajaxSafePost({
-                 type: "POST", contentType: "application/json", url: _getImageListFlowURL, data: JSON.stringify(payload), processData: false, global: false, 
+                payload.eventData = JSON.stringify(data);
+                shell .ajaxSafePost({
+                    type: "POST", contentType: "application/json", url: _deleteImageFlowURL, data: JSON.stringify(payload), processData: false, global: false, 
             }
             ) .done(function (response) {
-                 const result = JSON.parse(response);
-                 var imageList =JSON.parse(result['image_list']);
-                 var imageContainer = document.getElementById("container");
-                 for (let index = 0;
-                 index < imageList.length;
-                 index++) {
-                     imageContainer.appendChild(createImageElement(imageList[index]));
-                }
+                    const result = JSON.parse(response);
             }
             ) .fail(function () {
-                 console.log('Error');
+                    console.log('Error');
             }
             );
         }
         );
-         document.getElementById("uploadForm").addEventListener("submit", function (event) {
-             event.preventDefault();
-             // Prevent form submission var imageInput = document.getElementById("fileInput");
-             imageInput.onchange = _ => {
-                 let selectedFile = imageInput.files[0];
-                 UploadImageToBlob(selectedFile);
+            return div1;
+    }
+        document.addEventListener("DOMContentLoaded", () => {
+            var data = {
+        }
+        ;
+            var payload = {
+        }
+        ;
+            payload.eventData = JSON.stringify(data);
+            shell .ajaxSafePost({
+                type: "POST", contentType: "application/json", url: _getImageListFlowURL, data: JSON.stringify(payload), processData: false, global: false, 
+        }
+        ) .done(function (response) {
+                const result = JSON.parse(response);
+                var imageList =JSON.parse(result['image_list']);
+                var imageContainer = document.getElementById("container");
+                for (let index = 0;
+                index < imageList.length;
+                index++) {
+                    imageContainer.appendChild(createImageElement(imageList[index]));
             }
-            ;
-             function UploadImageToBlob(inputFile) {
-                 var reader = new FileReader();
-                 reader.readAsDataURL(inputFile);
-                 reader.onload = function () {
-                     document.getElementById("statusMessage").style.display="block";
+        }
+        ) .fail(function () {
+                console.log('Error');
+        }
+        );
+    }
+    );
+        document.getElementById("uploadForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            var imageInput = document.getElementById("fileInput");
+            imageInput.onchange = _ => {
+                let selectedFile = imageInput.files[0];
+                UploadImageToBlob(selectedFile);
+        }
+            function UploadImageToBlob(inputFile) {
+                var reader = new FileReader();
+                reader.readAsDataURL(inputFile);
+                reader.onload = function () {
+                    document.getElementById("statusMessage").style.display="block";
                      var file = {
                     }
                     ;
                      file.name = inputFile.name;
                      file.contentBytes = reader.result.split(',')[1];
-                     //base 64 encoded file var data = {
+                     var data = {
                     }
                     ;
                      data["Image Name"] = inputFile.name;
@@ -500,30 +478,29 @@ After creating the flow and providing access to authenticated web role, you can 
                      payload.eventData = JSON.stringify(data);
                      shell .ajaxSafePost({
                          type: "POST", contentType: "application/json", url: _uploadImageFlowURL, data: JSON.stringify(payload), processData: false, global: false, 
-                    }
-                    ) .done(function (response) {
-                         const result = JSON.parse(response);
-                         var imageList = JSON.parse(result['image_value']);
-                         var imageContainer = document.getElementById("container");
-                         imageContainer.prepend(createImageElement(imageList));
-                         document.getElementById("statusMessage").style.display="none";
-                    }
-                    ) .fail(function () {
-                         document.getElementById("statusMessage").style.display="none";
-                         console.log('Error');
-                    }
-                    );
                 }
-                ;
-                 reader.onerror = function (error) {
-                     console.log('Error: ', error);
+                ) .done(function (response) {
+                     const result = JSON.parse(response);
+                     var imageList = JSON.parse(result['image_value']);
+                     var imageContainer = document.getElementById("container");
+                     imageContainer.prepend(createImageElement(imageList));
+                     document.getElementById("statusMessage").style.display="none";
                 }
-                ;
+                ) .fail(function () {
+                     document.getElementById("statusMessage").style.display="none";
+                     console.log('Error');
+                }
+                );
             }
-             imageInput.click();
+             reader.onerror = function (error) {
+                 console.log('Error: ', error);
+            }
+            ;
         }
-        );
-    </script>
+         imageInput.click();
+    }
+    );
+     </script> 
     ```
 
 1. Replace URL with the one copied previously.
