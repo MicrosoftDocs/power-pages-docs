@@ -27,15 +27,11 @@ To complete this course, you need a Power Automate and Power Pages environment. 
 
 In this step, you create a flow using the Power Pages trigger and use OneDrive to store the images.
 
-Watch this video to learn how to create an image flow.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIi]
-
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
 
-1. Under App integrations, navigate to **Set up**, then **Cloud flows (preview)**.
+1. Under App integrations, navigate to **Set up**, then **Cloud flows**.
 
 1. Select **+ Add cloud flow**.
 
@@ -108,15 +104,11 @@ Watch this video to learn how to create an image flow.
 
 Once you create your Image flow, follow the steps in this section to view the flow.
 
-Watch this video to learn how to get the image list flow.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIj]
-
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
 
-1. Under App integrations, navigate to **Set up** then **Cloud flows (preview)**.
+1. Under App integrations, navigate to **Set up** then **Cloud flow**.
 
 1. Select **+ Add cloud flow**.
 
@@ -213,15 +205,11 @@ The final flow appears.
 
 Once you build your Image List flow, follow the steps outlined in this section create a trigger for deleting images.
 
-Watch this video to learn how to delete an image.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOID]
-
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
 1. Select site **+ Edit**.
 
-1. Navigate to **Set up** and **Cloud flows (preview)** under App integrations.
+1. Navigate to **Set up** and **Cloud flow** under App integrations.
 
 1. Select **+ Add cloud flow**.
 
@@ -268,10 +256,6 @@ Watch this video to learn how to delete an image.
 ## Step 2: Create a page to Manage Image library
 
 After creating the flow and providing access to authenticated web role, you can call it from a control event using JavaScript.
-
-Watch this video to learn how to edit your code using Visual Studio Code.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1dOIF]
 
 1. Navigate to the **Pages** workspace.
 
