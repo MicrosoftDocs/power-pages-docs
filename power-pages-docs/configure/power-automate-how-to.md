@@ -1,11 +1,11 @@
 ﻿---
-title: "How to: Integrate Power Automate cloud flow with a Power Pages site (preview)"
+title: "How to: Integrate Power Automate cloud flow with a Power Pages site"
 description: Learn how to add and configure a Power Automate cloud flow to retrieve the weather in Power Pages.
 author: nageshbhat-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 05/23/2023
+ms.date: 11/02/2023
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: ndoelman
@@ -16,15 +16,9 @@ contributors:
 
 ---
 
-# How to: Integrate Power Automate cloud flow with a Power Pages site (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# How to: Integrate Power Automate cloud flow with a Power Pages site
 
 This article explains how to create Power Pages and use Power Automate cloud flow to invoke an MSN weather app, which displays the current weather details on the page.
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## Prerequisite
 
@@ -36,14 +30,12 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. On the left pane, select **Solutions**.
+1. Select site + **Edit**
 
-1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution.
+1. Navigate to the Set up workspace, then select **Cloud flows** under App integrations.
 
-1. Select **+New** **Automation** **Cloud flow** **Instant**.
-
-1. Select **Skip**.
-
+1. Click on **+ Create new flow**
+   
 1. Search for **Power Pages**. 
     
     - Select **When Power Pages calls a flow** trigger.
