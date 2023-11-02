@@ -88,7 +88,7 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
     1. Enter Name as **Image Value**.
 
-    1. Update value Image Value ```{ "Id":< Id from the dynamic content>, "URL":<Web URL from the dynamic content>}``` 
+    1. Image Value ```{ "Id":< Id from the dynamic content>, "URL":<Web URL from the dynamic content>}``` 
     
 1. Provide flow name as **Upload image flow**.
 
