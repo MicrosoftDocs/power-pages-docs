@@ -120,9 +120,11 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Select **+ New step**.
 
-1. Search for **OneDrive List files in folder**.
-
-1. Update **Folder** with **/ +** select User ID from dynamic content.
+1. Search for OneDrive > Find files in folder by path 
+    Enter these values:
+    - Search query: *
+    - Folder path: / + select User ID from dynamic content
+    - Files search mode: Pattern
 
 1. Select **+ New step**.
 
