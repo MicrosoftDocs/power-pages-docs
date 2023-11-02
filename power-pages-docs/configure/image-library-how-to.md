@@ -100,6 +100,8 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
 1. Select **+Add**.
 
+1. Copy the flow URL for later use.
+
 ### Get Image list flow
 
 Once you create your Image flow, follow the steps in this section to view the flow.
