@@ -1,11 +1,11 @@
 ﻿---
-title: Configure Power Automate cloud flows in Power Pages (preview)
+title: Configure Power Automate cloud flows in Power Pages
 description: Learn how to add and configure Power Automate cloud flows on Power Pages.
 author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/15/2023
+ms.date: 11/02/2023
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: ndoelman
@@ -15,17 +15,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Configure Power Automate cloud flows in Power Pages (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Configure Power Automate cloud flows in Power Pages
 
 Power Automate cloud flow allows users to create automated workflows between different applications and services. You can use a Power Automate cloud flow to create logic that performs one or more tasks when an event occurs. For example, configure a button so that when a user selects it, send an email or meeting request, update a record, collect data, synchronize files, and other tasks.
 
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-
-Now, you can securely invoke Power Automate cloud flows from Power Pages to interact with 900+ external data sources and integrate it into your business site.
+Now, you can securely invoke Power Automate cloud flows from Power Pages to interact with 1000+ external data sources and integrate it into your business site.
 
 > [!NOTE]
 > - Your Power Pages site version must be 9.5.4.xx or later for this feature to work.
@@ -47,13 +41,11 @@ You need a Power Automate per flow license to integrate with Power Pages.
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. On the left pane, select **Solutions**.
+1. Select site **+ Edit**.
 
-1. Either [create a new solution](/power-apps/maker/data-platform/create-solution) or select an existing solution.
+1. Navigate to the **Set up** workspace, then select **Cloud flows** under **App integrations**.
 
-1. Select **+New**, **Automation**, **Cloud flow**, and then **Instant**.
-
-1. Select **Skip**.
+1. Select **+ Create new flow**.
 
 1. Search for **Power Pages** Select **When Power Pages calls a flow** trigger.
 
@@ -137,10 +129,10 @@ You don't need to include an authentication code, because the application sessio
 
 ## Passing parameter to cloud flow
 
-In a cloud flow, you can define input parameters of type **Text**, **Boolean**, and **Number**. The parameter name you define in the request body should match the parameter name defined in the cloud flow trigger.
+In a cloud flow, you can define input parameters of type **Text**, **Boolean**, **File** and **Number**. The parameter name you define in the request body should match the parameter name defined in the cloud flow trigger.
 
 >[!IMPORTANT]
-> You must pass the request parameters in the same order they are defined in the cloud flow.
+> You must pass the request parameters name as defined in the cloud flow.
 
 ### Sample JavaScript to call a flow
 
@@ -151,7 +143,7 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
         type: "POST",
         contentType: "application/json",
         url: "_api/cloudflow/v1.0/trigger/44a4b2f2-0d1a-4820-bf93-9376278d49c4",
-        data: JSON.stringify({"eventData":JSON.stringify({"Email": "abc@contoso.com" })}),
+        data: JSON.stringify({"eventData":JSON.stringify({"Email": "abc@contoso.com", "File":{"name":"Report.pdf", "contentBytes":"base 64 encoded string"} })}),
         processData: false,
         global: false
     })
