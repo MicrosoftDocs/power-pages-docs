@@ -5,13 +5,14 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/16/2023
+ms.date: 11/02/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: ndoelman
 contributors:
     - neerajnandwana-msft
     - nickdoelman
+    - nabha-msft
 ---
 
 # View website error logs
@@ -33,6 +34,7 @@ To enable YSOD, you need to [disable custom errors](#disable-custom-error) on yo
 
 > [!NOTE]
 > It is advisable to only disable custom errors when you are in the development phase and enable custom errors once you go live.
+> Custom errors are consistently shown on the private site and cannot be turned off.
 
 More information on custom error: [Displaying a Custom Error Page](/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/displaying-a-custom-error-page-cs)
 
