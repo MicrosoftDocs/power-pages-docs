@@ -110,7 +110,7 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Select site **+ Edit**.
 
-1. Under App integrations, navigate to **Set up** then **Cloud flow**.
+1. Under App integrations, navigate to **Set up** then **Cloud flows**.
 
 1. Select **+ Add cloud flow**.
 
@@ -215,7 +215,7 @@ Once you build your Image List flow, follow the steps outlined in this section c
 
 1. Select site **+ Edit**.
 
-1. Navigate to **Set up** and **Cloud flow** under App integrations.
+1. Navigate to **Set up** and **Cloud flows** under App integrations.
 
 1. Select **+ Add cloud flow**.
 
@@ -270,6 +270,16 @@ After creating the flow and providing access to authenticated web role, you can 
 1. Select **+ Page**.
 
 1. Provide the Page Name as *Travel*.
+
+1. Select **...** next to the *Travel* page.
+
+1. Choose **Page settings**, then **Permissions**. 
+
+1. Select **I want to choose who can see this page**.
+
+1. Select the **Authenticated Users** role from drop-down.
+
+1. Choose **Ok**. 
 
 1. Select **Edit code** to open Visual Studio Code.
 
@@ -514,6 +524,8 @@ After creating the flow and providing access to authenticated web role, you can 
 To test the flow integration functionality:
 
 1. Select the **Preview** to open the site.
+
+1. Log in to the site.
 
 1. Select the **Upload** button.
 
