@@ -106,7 +106,7 @@ After saving the flow, you need to add it to the site and assign a proper web ro
 1. Choose the site and select **Edit**.
 
 1. Navigate to the **Set up** workspace.
-1. Under **App integrations**, select **Cloud flows (preview)**.
+1. Under **App integrations**, select **Cloud flows**.
 
 1. Select **+ Add cloud flow**.
 
