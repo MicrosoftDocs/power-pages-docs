@@ -23,7 +23,7 @@ To complete this course, you need a Power Automate and Power Pages environment. 
 
 ## Step 1: Create a cloud flow
 
-### Image flow
+### Update image flow
 
 In this step, you create a flow using the Power Pages trigger and use OneDrive to store the images.
 
@@ -86,9 +86,9 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
     1. Choose the type of output as **Text**.
 
-    1. Enter Name as **Image Path**.
+    1. Enter Name as **Image Value**.
 
-    1. Image Path Web URL from the Dynamic content.
+    1. Update value Image Value ```{ "Id":< Id from the dynamic content>, "URL":<Web URL from the dynamic content>}``` 
     
 1. Provide flow name as **Upload image flow**.
 
