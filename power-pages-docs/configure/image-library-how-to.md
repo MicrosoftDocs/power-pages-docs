@@ -525,7 +525,7 @@ To test the flow integration functionality:
 
 1. Select the **Preview** to open the site.
 
-1. Log in to the site.
+1. Sign in to the site.
 
 1. Select the **Upload** button.
 
