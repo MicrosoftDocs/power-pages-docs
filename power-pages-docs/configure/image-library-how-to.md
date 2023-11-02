@@ -203,6 +203,8 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Select **Save**.
 
+1. Copy the flow URL for later use.
+
 The final flow appears.
 
 ### Delete Image
@@ -257,6 +259,8 @@ Once you build your Image List flow, follow the steps outlined in this section c
 
 1. Select the **Add** button.
 
+1. Copy the flow URL for later use.
+
 ## Step 2: Create a page to Manage Image library
 
 After creating the flow and providing access to authenticated web role, you can call it from a control event using JavaScript.
@@ -265,7 +269,7 @@ After creating the flow and providing access to authenticated web role, you can 
 
 1. Select **+ Page**.
 
-1. Provide the Page Name as "Travel*"*.
+1. Provide the Page Name as *Travel*.
 
 1. Select **Edit code** to open Visual Studio Code.
 
