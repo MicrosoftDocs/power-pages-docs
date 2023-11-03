@@ -32,7 +32,7 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Select site + **Edit**
 
-1. Navigate to the Set up workspace, then select **Cloud flows** under App integrations.
+1. Navigate to the **Set up workspace**, then select **Cloud flows** under App integrations.
 
 1. Click on **+ Create new flow**
    
