@@ -534,7 +534,7 @@
           href: configure/liquid/component-framework-liquid.md
         - name: Implement a sample portal Web API component
           href: configure/implement-webapi-component.md
-    - name: Use Power Automate (preview)
+    - name: Use Power Automate
       items:
         - name: Integrate with Power Automate cloud flows
           href: configure/cloud-flow-integration.md
