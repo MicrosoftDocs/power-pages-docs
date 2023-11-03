@@ -282,7 +282,8 @@ After creating the flow and providing access to authenticated web role, you can 
 1. Paste the following code:
 
     ```css
-    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" /> <style> div.image-gallery {
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" /> 
+    <style> div.image-gallery {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -374,36 +375,56 @@ After creating the flow and providing access to authenticated web role, you can 
             color: white;
             text-align: center;
     }
-        </style> <div class="row sectionBlockLayout text-left" style="display: flex;
-        flex-wrap: wrap;
-        margin: 0px;
-        min-height: auto;
-        padding: 8px;
-    "> <div class="container" style="display: flex;
-        flex-wrap: wrap;
-    "> <div class="col-md-12 columnBlockLayout image-gallery" style="flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        min-width: 310px;
-        word-break: break-word;
-        padding: 0 120px;
-        margin: 60px 0px;
-    "> <div class="image-gallery-header"> Your travel photos </div> <div> <div class="subHeader"> Upload file </div> <div class="subHeaderLabel"> You can upload JPG, GIF or PNG file </div> <form id="uploadForm"> <p> <input type="file" id="fileInput" style="display: none;
-    " accept="image/x-png,image/gif,image/jpeg" /> <button type="submit"> <i class="ms-Icon ms-Icon--Upload" aria-hidden="true"></i> Upload </button> </p> </form> </div> <div class="status-message" id="statusMessage" style="display: none;
-    "> Uploading your image... Please wait while we process your file. </div> <div class="image-gallery-list"> <div id ="container" class="image-list"> </div> </div> </div> </div> </div> <script> var _getImageListFlowURL = "<Get Image List Flow URL>";
-        var _uploadImageFlowURL = //"<Upload Image Flow URL>";
-        var _deleteImageFlowURL//"<Delete Image Flow URL>";
+    </style> 
+
+    <div class="row sectionBlockLayout text-left" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"> 
+        <div class="container" style="display: flex; flex-wrap: wrap;"> 
+            <div class="col-md-12 columnBlockLayout image-gallery" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 310px; word-break: break-word; padding: 0 120px; margin: 60px 0px;"> 
+                <div class="image-gallery-header"> 
+                    Your travel photos 
+                </div> 
+                <div> 
+                    <div class="subHeader"> Upload file 
+                    </div> 
+                    <div class="subHeaderLabel"> 
+                        You can upload JPG, GIF or PNG file 
+                    </div> 
+                    <form id="uploadForm"> 
+                        <p> 
+                            <input type="file" id="fileInput" style="display: none;" accept="image/x-png,image/gif,image/jpeg" /> 
+                            <button type="submit"> 
+                                <i class="ms-Icon ms-Icon--Upload" aria-hidden="true"></i> Upload 
+                            </button> 
+                        </p> 
+                    </form> 
+                </div> 
+                <div class="status-message" id="statusMessage"style="display: none;"> 
+                    Uploading your image... Please wait while we process your file. 
+                </div> 
+                <div class="image-gallery-list"> 
+                    <div id ="container" class="image-list">
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    <script> 
+        var _getImageListFlowURL = "<Get Image List Flow URL>";
+        var _uploadImageFlowURL = "<Upload Image Flow URL>";
+        var _deleteImageFlowURL = "<Delete Image Flow URL>";
         function createImageElement(element){
             var div1 = document.createElement('div');
-            div1.className="image-1" var img = document.createElement('img');
-            img.src=element["URL"];
+            div1.className = "image-1";
+             var img = document.createElement('img');
+            img.src = element["URL"];
             div1.appendChild(img);
             var button1 = document.createElement('Button');
-            button1.type="submit";
-            button1.className="image-delete";
-            button1.data=element["Id"];
-            var i=document.createElement('i');
-            i.className="ms-Icon ms-Icon--Delete" button1.appendChild(i);
+            button1.type ="submit";
+            button1.className = "image-delete";
+            button1.data = element["Id"];
+            var i = document.createElement('i');
+            i.className = "ms-Icon ms-Icon--Delete"; 
+            button1.appendChild(i);
             div1.appendChild(button1);
             button1.addEventListener('click', function(){
                 this.parentElement.remove();
@@ -506,7 +527,7 @@ After creating the flow and providing access to authenticated web role, you can 
          imageInput.click();
     }
     );
-     </script> 
+    </script> 
     ```
 
 1. Replace URL with the one copied previously.
