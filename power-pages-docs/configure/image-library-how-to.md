@@ -4,7 +4,7 @@ description: Learn how to create an image library in Power Pages.
 author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 10/04/2023
+ms.date: 11/03/2023
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: kkendrick
@@ -39,19 +39,19 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
 1. Search **Power Pages** and select **When Power Pages calls flow** trigger.
 
-1. Select **+ Add** **an input**. 
+1. Select **+ Add an input**. 
 
 1. Choose **Text**.
 
 1. Add name **Image Name**.
 
-1. Select **+ Add** **an input**. 
+1. Select **+ Add an input**. 
 
 1. Choose **File**. 
 
-1. Add a name as **Image Content**.
+1. Add name **Image Content**.
 
-1. Select **+New step**. 
+1. Select **+ New step**. 
 
 1. Search for **OneDrive** and select **Create File** action.
  
@@ -62,27 +62,27 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
     > [!NOTE]
     > Don't forget to prepend with '/'
 
-    1. File Name Select **Image Name** from dynamic content.
+    1. For file Name, select **Image Name** from dynamic content.
 
-    1. File Content Select **Image Content** from dynamic content.
+    1. For file Content, select **Image Content** from dynamic content.
 
-1. Select **+New step**. 
+1. Select **+ New step**. 
 
 1. Search for **OneDrive** and select the **Create share link** action.
 
 1. In the **Create share link** action, enter these values:
 
-    1. File ID from the Dynamic content
+    1. File ID: From the Dynamic content
 
-    1. Link type View from the Dynamic content
+    1. Link type: View from the Dynamic content
 
-1. Select **+New step**. 
+1. Select **+ New step**. 
 
 1. Search for **Power Pages** and select **Return value(s) to Power Pages** action.
 
 1. In the Return value(s) to Power Pages action, enter these values:
 
-    1. Select **+Add an output**.
+    1. Select **+ Add an output**.
 
     1. Choose the type of output as **Text**.
 
@@ -94,11 +94,11 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
 1. Select **Save**.
 
-1. Select **+Add roles**.
+1. Select **+ Add roles**.
 
 1. Select **Authenticated Users**.
 
-1. Select **+Add**.
+1. Select **+ Add**.
 
 1. Copy the flow URL for later use.
 
@@ -130,27 +130,27 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Search for **Variable** Select **Initialize variable** action.
 
-1. Enter the following values:
+1. Enter these values:
 
-    1. Name Image Array
+    1. Name: Image Array
 
-    1. Type Array
+    1. Type: Array
 
 1. Select **+ New step**.
 
 1. Search for **Variable** Select **Initialize variable** action.
 
-1. Enter the following values:
+1. Enter these values:
 
-    1.  Name Image List
+    1. Name Image List
 
-    2.  Type String
+    1. Type String
 
 1. Select **+ New step**.
 
 1. Search for **Control** Select **Apply to each** action.
 
-1. Enter the following value:
+1. Enter these values:
 
     1. Select **value** from the Dynamic content.
 
@@ -158,11 +158,11 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Search for **OneDrive** and select **Create share link** action.
 
-1. In the **Create share link** action enter the following values:
+1. In the **Create share link** action enter these values:
 
-    1. File ID from the Dynamic content
+    1. File ID: from the Dynamic content
 
-    1. Link type View from the Dynamic content
+    1. Link type: View from the Dynamic content
 
 1. Select **Add an action**.
 
@@ -170,34 +170,32 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Enter the following values:
 
-    1. Name Image Array
+    1. Name: Image Array
 
-    1. Value <br />
+    1. Value: <br />
         ```{ "Id": Id from the dynamic content, "URL": Web URL from the dynamic content }```
 
-1. Select **+New step**.
+1. Select **+ New step**.
 
 1. Search for **Variable** Select **Set variable** action.
 
-1. Enter the following values:
+1. Enter these values:
 
-    1. Name Image List
+    1. Name: Image List
 
-    1. Value Image Array
+    1. Value: Image Array
 
-1. Select **+New step**.
+1. Select **+ New step**.
 
 1. Search for **Power Pages** and select **Return value(s) to Power Pages** action.
 
 1. In the Return value(s) to Power Pages action, enter the following values:
 
-1. Select **+Add an output**.
+1. Select **+ Add an output**.
 
-1. Choose the type of output as **Text**.
-
-    1. Enter Name as **Image List**.
-
-    1. Image List **Image List** from the Dynamic content.
+1. Choose the type of output as **Text** and enter these values:
+    1. Name: **Image List**.
+    1. Image List: Choose **Image List** from the Dynamic content.
 
 1. Provide flow name as **Get Image List flow**.
 
@@ -223,11 +221,11 @@ Once you build your Image List flow, follow the steps outlined in this section c
 
 1. Search **Power Pages** and select the **When Power Pages calls flow** trigger.
 
-1. Select **+ Add** **an input**.
+1. Select **+ Add an input**.
 
 1. Choose **Text**.
 
-1. Add name **Id**.
+1. Add the name **Id**.
 
 1. Select **+ New step**.
 
@@ -245,15 +243,15 @@ Once you build your Image List flow, follow the steps outlined in this section c
 
     1. Choose the type of output as **Yes / No**.
 
-    1. Enter Name as **Status**.
+    1. Name: Status
 
-    1. Status True.
+    1. Status: True
 
-1. Provide flow name as **Delete image flow**.
+    1. Flow name: **Delete image flow**.
 
 1. Select **Save**.
 
-1. Select **+Add roles**.
+1. Select **+ Add roles**.
 
 1. Select **Authenticated Users**.
 
@@ -275,9 +273,9 @@ After creating the flow and providing access to authenticated web role, you can 
 
 1. Choose **Page settings**, then **Permissions**. 
 
-1. Select **I want to choose who can see this page**.
+    1. Select **I want to choose who can see this page**.
 
-1. Select the **Authenticated Users** role from drop-down.
+    1. Select the **Authenticated Users** role from drop-down.
 
 1. Choose **Ok**. 
 
@@ -529,7 +527,7 @@ To test the flow integration functionality:
 
 1. Select the **Upload** button.
 
-1. Choose an Image.
+1. Choose an image.
 
 1. Select **Open**.
 
