@@ -75,7 +75,7 @@ Use the following command `bootstrap-migrate` command to run the tool on the dow
 
 `pac powerpages bootstrap-migrate -p "WebsiteFolderPath"`
 
-##Example##
+**Example**
 
 `pac powerpages bootstrap-migrate -p `"c:\pac-powerpages\downloads\bootstrap-dev-site"
 
