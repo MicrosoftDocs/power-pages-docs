@@ -129,7 +129,7 @@ You don't need to include an authentication code, because the application sessio
 
 ## Passing parameter to cloud flow
 
-In a cloud flow, you can define input parameters of type **Text**, **Boolean**, **File** and **Number**. The parameter name you define in the request body should match the parameter name defined in the cloud flow trigger.
+In a cloud flow, you can define input parameters of type **Text**, **Boolean**, **File**, and **Number**. The parameter name you define in the request body should match the parameter name defined in the cloud flow trigger.
 
 >[!IMPORTANT]
 > You must pass the request parameters name as defined in the cloud flow.
