@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configure Power Automate cloud flows in Power Pages
 description: Learn how to add and configure Power Automate cloud flows on Power Pages.
 author: nageshbhat-msft
@@ -129,10 +129,10 @@ You don't need to include an authentication code, because the application sessio
 
 ## Passing parameter to cloud flow
 
-In a cloud flow, you can define input parameters of type **Text**, **Boolean**, **File**, and **Number**. The parameter name you define in the request body should match the parameter name defined in the cloud flow trigger.
+In a cloud flow, you can define input parameters of type **Text**, **Boolean**, **File**, and **Number**. The parameter name you define in the request body should match the parameter name defined in the cloud flow trigger. 
 
->[!IMPORTANT]
-> You must pass the request parameters name as defined in the cloud flow.
+> [!IMPORTANT]
+> - You must pass the request parameters name as defined in the cloud flow.
 
 ### Sample JavaScript to call a flow
 
@@ -154,5 +154,6 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
     
     });
 ```
->[!NOTE] 
-> If no input parameter is defined in the trigger, pass an empty payload in the request.
+> [!NOTE] 
+> - If no input parameter is defined in the trigger, pass an empty payload in the request.
+> - For information on cloud flow limitations, see [Limits of automated, scheduled, and instant flows](/power-automate/limits-and-config).
