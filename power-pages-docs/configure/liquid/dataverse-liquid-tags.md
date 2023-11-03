@@ -33,7 +33,7 @@ There are two parameters to be provided with the chart tag: chart id and viewid.
 
 **chart id**
 
-Visualization ID of the chart. You can get this by exporting the chart.
+Visualization ID of the chart. You can get the id by exporting the chart.
 
 **viewid**
 
