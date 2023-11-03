@@ -61,7 +61,9 @@ If you find any customization in the downloaded report, follow the guidance in t
 
 ## Step 2. Migrate the site data from standard to enhanced data model
 
-Use the following command `datamodel-migrate` to migrate your site data to the enhanced data model.
+Use the following command to migrate your site data to the enhanced data model.
+
+`datamodel-migrate`
 
 **Example**
 
