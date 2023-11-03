@@ -98,7 +98,7 @@ You'll be able to review the latest content and either merge or overwrite the co
 
 In this tutorial, you walk through editing the site code using Visual Studio Code for Web.
 
-### Step 1: Edit site code using Visual Studio Code for the web
+### Step 1: Edit site code using Visual Studio Code for the Web
 
 1. Open your site in [Power Pages design studio](../getting-started/use-design-studio.md)
 
@@ -126,11 +126,11 @@ In this tutorial, you walk through editing the site code using Visual Studio Cod
 
 1. Select **Preview** to see changes on the Power Pages site.
 
-## Using Visual Studio Code for Web or Visual Studio Code desktop
+## Using Visual Studio Code for the Web or Visual Studio Code Desktop
 
-Users can edit, debug, and preview changes to page edits using Visual Studio Code for the Web without needing to use external tools. Visual Studio Code for desktop provides other advanced features for editing all site metadata and integrating with GitHub, frameworks, and continuous integration/continuous development (CI/CD) processes.
+Users can edit, debug, and preview changes to page edits using Visual Studio Code for the Web without needing to use external tools. Visual Studio Code Desktop provides other advanced features for editing all site metadata and integrating with GitHub, frameworks, and continuous integration/continuous development (CI/CD) processes.
 
-| Feature | Visual Studio for Web | Visual Studio Code desktop |
+| Feature | VS Code for the Web | VS Code Desktop |
 | - | - | - |
 | Create new website configuration metadata records | No | Limited to web pages, page templates, web templates, content snippets, and web files. |
 | Direct site editing | Yes | No |

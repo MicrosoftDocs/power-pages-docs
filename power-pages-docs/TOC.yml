@@ -212,7 +212,7 @@
               href: configure/progressive-web-apps.md
             - name: Build progressive web applications
               href: configure/build-progressive-web-apps.md
-    - name: Copresence in design studio (preview)
+    - name: Copresence in design studio
       href: getting-started/copresence.md
     - name: Power Pages design studio and Power Apps portals Studio
       href: configure/editing-sites.md
@@ -534,12 +534,14 @@
           href: configure/liquid/component-framework-liquid.md
         - name: Implement a sample portal Web API component
           href: configure/implement-webapi-component.md
-    - name: Use Power Automate (preview)
+    - name: Use Power Automate
       items:
         - name: Integrate with Power Automate cloud flows
           href: configure/cloud-flow-integration.md
         - name: "How to: Use Power Automate with Power Pages"
           href: configure/power-automate-how-to.md
+        - name: "How to: Create an image library using cloud flow and Power Pages"
+          href: configure/image-library-how-to.md
     - name: Use Microsoft Power Platform CLI
       items:
         - name: Overview of Power Platform CLI
