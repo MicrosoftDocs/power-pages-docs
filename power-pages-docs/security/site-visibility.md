@@ -28,7 +28,7 @@ The Power Pages site visibility setting allows you to control who has access to 
 
 ## Difference between a private site and a public site
 
-Only site makers and organization users to whom the maker granted access can view private sites. Site visitors need to authenticate with the organization's [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) identity provider before they can view site contents.
+Only site makers and organization users to whom the maker granted access can view private sites. Site visitors need to authenticate with the organization's [Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-whatis) identity provider before they can view site contents.
 
 > [!TIP]
 > Set visibility to private to limit access while your site is in development.
@@ -75,7 +75,7 @@ When your site is private, you can use the site visibility page to grant access 
 
 Your security role and tenant security settings determine whether you can change a site's visibility.
 
-[Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Azure Active Directory (Azure AD) roles can change the site visibility:
+[Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Microsoft Entra roles can change the site visibility:
 
 - [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
@@ -83,7 +83,7 @@ Your security role and tenant security settings determine whether you can change
 
 When the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to `true`, members of the [System administrator](/power-platform/admin/database-security#environments-with-a-dataverse-database) security role can also change the site visibility.
 
-If the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to `false`, members of the [System administrator](/power-platform/admin/database-security#environments-with-a-dataverse-database) security role must be a member of an exclusive security group in Azure AD that has the permissions to manage site visibility.
+If the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to `false`, members of the [System administrator](/power-platform/admin/database-security#environments-with-a-dataverse-database) security role must be a member of an exclusive security group in Microsoft Entra that has the permissions to manage site visibility.
 
 ### Change the tenant-level setting
 
@@ -120,7 +120,7 @@ Set-TenantSettings -RequestBody $requestBody
 
 When you don't want all system administrators to be able to change site visibility, set `enableSystemAdminsToChangeSiteVisibility` to `false`. Then delegate site visibility management to a select set of users.
 
-1. Add system administrators to a [security group in Azure AD](/azure/active-directory/fundamentals/how-to-manage-groups) and give the group site visibility permissions.
+1. Add system administrators to a [security group in Microsoft Entra ID](/azure/active-directory/fundamentals/how-to-manage-groups) and give the group site visibility permissions.
 1. In the [Power Platform admin center](https://admin.powerplatform.com), select **Power Pages sites**.
 1. Select your website, and then select **Manage**.
 1. In the **Security** section, select **Manage site visibility permissions**.
@@ -135,7 +135,7 @@ After you add the security group, all system administrators who are in the group
 
 ## Known issues
 
-Azure AD authentication is turned on by default when a website is provisioned. A private Power Pages website doesn't work if you turn off Azure AD authentication. Change the site visibility to public before you turn off Azure AD authentication.
+Microsoft Entra authentication is turned on by default when a website is provisioned. A private Power Pages website doesn't work if you turn off Microsoft Entra authentication. Change the site visibility to public before you turn off Microsoft Entra authentication.
 
 ## See also
 

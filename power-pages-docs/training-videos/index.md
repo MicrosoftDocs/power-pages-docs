@@ -232,4 +232,3 @@ The following videos provide an overview of authentication and walk you through 
 
 [Configure Power Pages site authentication](../security/authentication/configure-site.md)
 [Page permissions](../security/page-security.md)
-

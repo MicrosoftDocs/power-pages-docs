@@ -73,7 +73,7 @@ Modify the theme in the **Style workspace** using the following steps:
 
 ## Site visibility
 
-A Power Pages website in private mode won't work when you disable Azure Active Directory authentication. Azure Active Directory authentication is enabled by default when the website is provisioned. Change the [site visibility](security/site-visibility.md) state to **public** before disabling Azure Active Directory authentication.
+A Power Pages website in private mode won't work when you disable Microsoft Entra authentication. Microsoft Entra authentication is enabled by default when the website is provisioned. Change the [site visibility](security/site-visibility.md) state to **public** before disabling Microsoft Entra authentication.
 
 ## Dynamics 365 templates
 
@@ -141,6 +141,47 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
 
 - Adding a cloud flow immediately after creating a site results in a failure. To prevent this, wait approximately 30 minutes to 1 hour after you create your site before adding a cloud flow.
 
+## Power Pages design studio issues
+
+### Code components in design studio
+
+Power Pages design studio’s canvas may not render some 3rd party code components.  Execution of untrusted scripts in third party code components, page copy, web templates and content snippets are blocked because they can potentially access sensitive user data when rendered in Power Pages design studio.
+
+### Images not displaying in Power Pages design studio
+
+If third party cookies are disabled in your browser, images won't display in Power Pages design studio. To correct this known issue, you need to enable cookies in your browser. 
+
+Here's how to enable cookies if your browser is blocking them:
+
+# [Microsoft Edge](#tab/Edge)
+
+1. In the Microsoft Edge window, select More (...) > Settings > View advanced settings.
+
+1. Scroll down to Cookies, and select Don't block cookies
+
+# [Google Chrome](#tab/Chrome)
+
+1. In a Chrome window, do one of the following:
+
+    - In the browser address box, enter chrome://settings/content.
+
+        OR
+
+    - On the Chrome menu, select Settings > Show advanced settings, and then under Privacy, select Content settings.
+
+1. In the Content settings dialog box, under Cookies, make sure Allow local data to be set (recommended) is selected.
+
+1. Select Done and refresh the browser.
+
+---
+
+>[!NOTE]
+> If you don't want to enable all third party cookies, you can also adjust your browser settings to allow cookies for only ``[*.]powerpages.microsoft.com`` instead.
+
+### Rich text editor (RTE) control on Power Pages
+
+Only .PNG, .JPG., or .GIF file formats are supported for drag and drop.
+
 ## Power Apps portals Studio issues
 
 > [!NOTE]
@@ -200,39 +241,4 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
 
 More information: [Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
 
-## Power Pages design studio issues
 
-### Images not displaying in Power Pages design studio
-
-If third party cookies are disabled in your browser, images won't display in Power Pages design studio. To correct this known issue, you need to enable cookies in your browser. 
-
-Here's how to enable cookies if your browser is blocking them:
-
-# [Microsoft Edge](#tab/Edge)
-
-1. In the Microsoft Edge window, select More (...) > Settings > View advanced settings.
-
-1. Scroll down to Cookies, and select Don't block cookies
-
-# [Google Chrome](#tab/Chrome)
-
-1. In a Chrome window, do one of the following:
-
-    - In the browser address box, enter chrome://settings/content.
-
-        OR
-
-    - On the Chrome menu, select Settings > Show advanced settings, and then under Privacy, select Content settings.
-
-1. In the Content settings dialog box, under Cookies, make sure Allow local data to be set (recommended) is selected.
-
-1. Select Done and refresh the browser.
-
----
-
->[!NOTE]
-> If you don't want to enable all third party cookies, you can also adjust your browser settings to allow cookies for only ``[*.]powerpages.microsoft.com`` instead.
-
-### Rich text editor (RTE) control on Power Pages
-
-Only .PNG, .JPG., or .GIF file formats are supported for drag and drop.
