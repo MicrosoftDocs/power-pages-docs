@@ -152,7 +152,7 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Enter these values:
 
-    1. Select **value** from the Dynamic content.
+    1. Select **body** from the Dynamic content.
 
 1. Select **Add an action**.
 
