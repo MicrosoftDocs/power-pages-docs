@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In this article, you'll how to migrate your existing standard data model site to enhanced data model. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use Power Platform CLI in Power Pages. More information: [Microsoft Power Platform CLI support for Power Pages](../configure/power-platform-cli.md), (../configure/power-platform-cli-tutorial.md), [`pac powerpages`](/power-platform/developer/cli/reference/powerpages)
+In this article, learn how to migrate your existing standard data model site to enhanced data model. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use Power Platform CLI in Power Pages. More information: [Microsoft Power Platform CLI support for Power Pages](../configure/power-platform-cli.md), (../configure/power-platform-cli-tutorial.md), [`pac powerpages`](/power-platform/developer/cli/reference/powerpages)
 
 > [!IMPORTANT]
 > - This feature is a preview feature.
@@ -57,7 +57,7 @@ In this article, you'll how to migrate your existing standard data model site to
 
    ``` pac powerpages **datamodel-migrate** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  --**downloadCustomizationreport** "c:\\pac-powerpages\\downloads"```
 
-If you find any customization in the downloaded report, follow the guidance in the report to fix it post-migration to enhanced data model. You can also check the guidance here. LINK
+If you find any customization in the downloaded report, follow the guidance in the report to fix it post-migration to enhanced data model. More information: [Considerations for site customization when migrating sites from standard to enhanced data model](#considerations-for-site-customization-when-migrating-sites-from-standard-to-enhanced-data-model)
 
 ## Step 2. Migrate the site data from standard to enhanced data model
 
@@ -129,13 +129,48 @@ Use the following command to revert a standard data model site to enhanced data
 
 ## Migrate a production site from standard to enhanced data model
 
-Before migrating a production site, we recommend creating full copy of the production site.  Try out the migration on copied version of environment. We also recommend production site migration be conducted during nonbusiness hours.
+Before migrating a production site, we recommend creating full copy of the production site. We also recommend production site migration be conducted during nonbusiness hours.
 
 Use these steps to migrate your production site to the enhanced data model:
 
-1. Try out the migration on site in the copied environment using the PAC CLI commands.
+1. Try out the migration on the site in the copied environment using the PAC CLI commands.
 1. Add site configuration data to managed solution and import it production environment.
 1. Use PAC CLI commands to migrate nonconfiguration data and finish it by updating data model version for production.
 
 > [!NOTE]
 > For migration the source and production website id are same.
+
+## Considerations for site customization when migrating sites from standard to enhanced data model 
+
+ This section provides guidance fixing customization for a site migration from standard to enhanced data model. 
+
+There are five types of site customizations on adx metadata tables: 
+
+- [Custom columns on adx metadata tables](#custom-columns-on-adx-metadata-tables)
+- [Relationship between custom tables and adx tables](#relationship-between-custom-tables-and-adx-tables)
+- [Adx table references in liquid code snippet](#adx-table-references-in-liquid-code-snippet)
+- [Adx table references in fetch xml](#adx-table-references-in-fetch-xml)
+- [Custom workflow and plugins on adx tables](#custom-workflow-and-plugins-on-adx-tables)
+
+> [!NOTE] 
+> All customization related fixes will be done after migration to the enhanced data model.
+
+### Custom columns on adx metadata tables 
+
+To fix this customization, create a relationship between system tables and new custom table and migrate the data to the new table. 
+
+### Relationship between custom tables and adx tables
+
+To fix this customization, create a relationship between custom tables and system tables.
+
+### Adx table references in liquid code snippet
+
+To fix this customization, replace the adx table references in liquid code with enhanced data model virtual tables mspp references.  
+
+### Adx table references in fetch xml
+
+To fix this customization, replace the adx table references in fetch xml with enhanced data model virtual tables mspp references.  
+
+### Custom workflow and plugins on adx tables
+
+To fix this customization, the workflow and plugin logic needs to refactored and re-registered on the site's respective table. 
