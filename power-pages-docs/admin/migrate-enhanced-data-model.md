@@ -15,10 +15,13 @@ contributors:
 
 # Migrate standard data model sites to enhanced data model (preview)
 
-In this article, learn about how to migrate your existing standard data model site to enhanced data model. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use Power Platform CLI in Power Pages. More information: 
-- [Microsoft Power Platform CLI support for Power Pages](../configure/power-platform-cli.md)
-- [Tutorial: Use Microsoft Power Platform CLI with Power Pages](../configure/power-platform-cli-tutorial.md)
-- [pac powerpages](/power-platform/developer/cli/reference/powerpages)
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+In this article, learn about how to migrate your existing standard data model site to enhanced data model. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use Power Platform CLI in Power Pages. More information: [Microsoft Power Platform CLI support for Power Pages](power-platform-cli.md), [Tutorial: Use Microsoft Power Platform CLI with Power Pages](power-platform-cli-tutorial.md), [`pac powerpages`](/power-platform/developer/cli/reference/powerpages)
+
+> [!IMPORTANT]
+> - This feature is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
@@ -26,7 +29,7 @@ In this article, learn about how to migrate your existing standard data model si
 - Dataverse base portal package [9.3.2307.x](/power-apps/maker/portals/versions/package-version-9.3.2209)or higher. 
 - Power Pages Core package 1.0.2309.63 or higher. More information: [Update the Power Pages solution](update-solution.md)
 
-## Step 1: Download and check customization for existing standard site metadata.
+## Step 1. Download and check customization for existing standard site metadata
 
 1. Open a command prompt.
 
@@ -56,7 +59,7 @@ In this article, learn about how to migrate your existing standard data model si
 
 If you find any customization in the downloaded report, follow guidance present in report to fix it post site migration to enhanced data model. You can also check the guidance here. \[Add link of guidance doc\]
 
-## Step 2: Migrate the site data from standard to enhanced data model.
+## Step 2. Migrate the site data from standard to enhanced data model
 
 Use the following command datamodel-migrate
 
@@ -82,7 +85,7 @@ Use the following command datamodel-migrate
 
 ```pac powerpages **datamodel-migrate** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b –**mode** all -**templateName "**Starter layout 1**"**```
 
-## Step 3: Verify the migration status.
+## Step 3. Verify the migration status
 
 To verify the status of a site migration that is experiencing longer than anticipated duration due to a substantial volume of data, and in which the command prompt unexpectedly closes.
 
@@ -94,7 +97,7 @@ Use the following command 
 
 ```pac powerpages **datamodel-migrate** --**checkMigrationStatus** -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b  --```
 
-## Step 4: Update site data model version after successful data migration.
+## Step 4. Update site data model version after successful data migration
 
 Use the following command update site data model version
 
@@ -118,11 +121,11 @@ Use the following command to revert a standard data model site to enhanced data
 
 ## Migrate a production site from standard to enhanced data model
 
-We recommend creating full copy of the production site and try out the migration on copied version of environment before production site migration and also plan the production site migration in nonbusiness hours.
+Before migrating a production site, we recommend creating full copy of the production site.  Try out the migration on copied version of environment. We also recommend production site migration be conducted during nonbusiness hours.
 
 Use these steps to migrate your production site to the enhanced data model:
 
-1. Try out the migration on site in the copied environment using the above mentioned PAC CLI commands.
+1. Try out the migration on site in the copied environment using the PAC CLI commands.
 1. Add site configuration data to managed solution and import it production environment.
 1. Use PAC CLI commands to migrate nonconfiguration data and finish it by updating data model version for production.
 
