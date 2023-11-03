@@ -235,19 +235,17 @@ Once you build your Image List flow, follow the steps outlined in this section c
 
 1. Select **+ New step**.
 
-1. Search for **Power Pages** and select the **Return value(s) to Power Pages** action.
+1. Search for **Power Pages** and select the **Return value(s) to Power Pages** action, then **+ Add an output**.
 
 1. In the Return value(s) to Power Pages action, enter these values:
 
-    1. Select **+Add an output**.
+    1. Type of output: **Yes / No**
 
-    1. Choose the type of output as **Yes / No**.
+    1. Name: **Status**
 
-    1. Name: Status
+    1. Status: **True**
 
-    1. Status: True
-
-    1. Flow name: **Delete image flow**.
+    1. Flow name: **Delete image flow**
 
 1. Select **Save**.
 
