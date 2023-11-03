@@ -41,15 +41,15 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
 1. Select **+ Add an input**. 
 
-1. Choose **Text**.
+    1. Choose **Text**.
 
-1. Add name **Image Name**.
+    1. Add name **Image Name**.
 
-1. Select **+ Add an input**. 
+    1. Select **+ Add an input**. 
 
-1. Choose **File**. 
+    1. Choose **File**. 
 
-1. Add name **Image Content**.
+    1. Add name **Image Content**.
 
 1. Select **+ New step**. 
 
@@ -84,13 +84,13 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
     1. Select **+ Add an output**.
 
-    1. Choose the type of output as **Text**.
+    1. Choose the type of output **Text**.
 
-    1. Enter Name as **Image Value**.
+    1. Name: **Image Value**.
 
-    1. Image Value ```{ "Id":< Id from the dynamic content>, "URL":<Web URL from the dynamic content>}``` 
+    1. Image Value: ```{ "Id":< Id from the dynamic content>, "URL":<Web URL from the dynamic content>}``` 
     
-1. Provide flow name as **Upload image flow**.
+    1. Flow name: **Upload image flow**.
 
 1. Select **Save**.
 
@@ -128,7 +128,7 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Select **+ New step**.
 
-1. Search for **Variable** Select **Initialize variable** action.
+1. Search for **Variable** and select the **Initialize variable** action.
 
 1. Enter these values:
 
@@ -142,9 +142,9 @@ Once you create your Image flow, follow the steps in this section to view the fl
 
 1. Enter these values:
 
-    1. Name Image List
+    1. Name: Image List
 
-    1. Type String
+    1. Type: String
 
 1. Select **+ New step**.
 
