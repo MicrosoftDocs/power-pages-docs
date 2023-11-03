@@ -134,7 +134,7 @@ If the identity provider you want to use doesn't appear in the list, you can add
 1. Select **Confirm**.
 
 > [!NOTE]
-> You can't change the configuration of the **Local sign in** and **Azure Active Directory** providers here. Use the [site settings](../../configure/configure-site-settings.md#site-settings) instead.
+> You can't change the configuration of the **Local sign in** and **Microsoft Entra** providers here. Use the [site settings](../../configure/configure-site-settings.md#site-settings) instead.
 
 ## Delete an identity provider
 

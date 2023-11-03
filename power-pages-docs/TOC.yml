@@ -604,7 +604,7 @@
               href: security/authentication/openid-provider.md
             - name: Azure AD B2C
               href: security/authentication/azure-ad-b2c-provider.md
-            - name: Azure AD
+            - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
             - name: OpenID Connect FAQs
               href: security/authentication/openid-faqs.md
@@ -612,7 +612,7 @@
           items:
             - name: Set up a SAML 2.0 provider
               href: security/authentication/saml2-provider.md
-            - name: Azure AD
+            - name: Microsoft Entra ID
               href: security/authentication/saml2-settings-azure-ad.md
             - name: Active Directory Federation Services (AD FS)
               href: security/authentication/saml2-settings.md
@@ -622,7 +622,7 @@
           items:
             - name: Set up a WS-Federation provider
               href: security/authentication/ws-federation-provider.md
-            - name: Set up WS-Federation with Azure AD
+            - name: Set up WS-Federation with Microsoft Entra ID
               href: security/authentication/ws-federation-settings-azure-ad.md
             - name: Set up WS-Federation with AD FS
               href: security/authentication/ws-federation-settings.md

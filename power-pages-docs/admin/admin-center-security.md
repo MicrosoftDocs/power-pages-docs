@@ -49,7 +49,7 @@ Select **View details** to see the review the Web Application Firewall setting f
 
 ### External authentication enabled
 
-**External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Azure Active Directory allowing access to Dataverse data. More information: [Authentication providers](../security/authentication/index.md).
+**External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Microsoft Entra ID allowing access to Dataverse data. More information: [Authentication providers](../security/authentication/index.md).
 
 Select **View details** to see the review the external authentication configuration for each website.
 

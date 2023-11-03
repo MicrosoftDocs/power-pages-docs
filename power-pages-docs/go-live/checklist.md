@@ -5,7 +5,7 @@ author: NikitaPolyakovMSFT
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/03/2022
-ms.author: ndoelman
+ms.author: kkendrick
 ms.reviewer: ndoelman
 contributors:
     - nickdoelman
@@ -67,7 +67,7 @@ For example, [Azure Active Directory B2C](../getting-started/tutorial-setup-site
 
 > [!TIP]
 > - Finish setting up your custom domain to utilize the redirect URL for the authentication provider. 
-> - If you're using the **Azure AD** sign-in button, you can rename it to reflect meaningful label. Using the [Portal Management app](../configure/portal-management-app.md), create the site setting **Authentication/OpenIdConnect/AzureAD/Caption** for your specific website and set the name you want.  
+> - If you're using the sign-in button, you can rename it to reflect meaningful label. Using the [Portal Management app](../configure/portal-management-app.md), create the site setting **Authentication/OpenIdConnect/AzureAD/Caption** for your specific website and set the name you want.  
 
 More information: [Configure Power Pages site authentication](../security/authentication/configure-site.md)
 

@@ -114,7 +114,7 @@ After enabling the Power BI Embedded service, you must create a security group, 
 
 ### Create security group and add to Power BI account
 
-After enabling the Power BI Embedded service integration, you must create a security group in Azure Active Directory, add a member to it, and then add the security group in Power BI through the Power BI admin portal. This configuration allows the dashboards and reports created in new Power BI workspaces to be displayed in the portal.
+After enabling the Power BI Embedded service integration, you must create a security group in Microsoft Entra ID, add a member to it, and then add the security group in Power BI through the Power BI admin portal. This configuration allows the dashboards and reports created in new Power BI workspaces to be displayed in the portal.
 
 > [!NOTE]
 > You must sign in with the same Global administrator account that you used to enable the Power BI Embedded service.
@@ -231,7 +231,7 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
     - Dashboards and report from Azure Analysis Services using [live connections](/azure/analysis-services/analysis-services-connect-pbi). Azure Analysis Services on-premises configurations are not supported.
     - Dashboards with [role-based security](/power-bi/admin/service-admin-rls).
     - Single tile with role-based security.
-- Power BI visualization functionality is not available in the China region for Azure Active Directory authentication.
+- Power BI visualization functionality is not available in the China region for Microsoft Entra authentication.
 - For more information about Power BI Embedded service limitations, see [Considerations and limitations](/power-bi/developer/embed-service-principal#considerations-and-limitations).
 
 ### Rendering a Power BI report on a webpage fails with the following error:
@@ -257,5 +257,3 @@ This problem can happen because of multiple reasons such as:
 - [Add a Power BI report or dashboard to a webpage using liquid tag](/power-apps/maker/portals/admin/add-powerbi-report)
 - [powerbi Liquid tag](../configure/liquid/dataverse-liquid-tags.md#powerbi)
 - [Integration with Power BI](/training/modules/portals-integration/3-power-bi)
-
-

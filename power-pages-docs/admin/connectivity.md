@@ -22,14 +22,14 @@ To start with one of the core principles to remember is that an end user of Powe
 
 ## Server to Server Connection
 
-Power Pages connects to Dataverse utilizing a server to server (S2S) connection. This S2S connection is established utilizing an Azure Active Directory application that is created in the customer's Azure Active Directory when a website is created.  
-Each website has its own application that follows following naming convention (Portals – {{portalid}}). Different naming conventions have been used previously and may still be reflected in your Azure Active Directory. The ID of this application can also be found in the [Set up workspace](../configure/setup-workspace.md) for that website and can be used to find this application in Azure Active directory (in the application registration tab).  
+Power Pages connects to Dataverse utilizing a server to server (S2S) connection. This S2S connection is established utilizing a Microsoft Entra application that is created in the customer's Microsoft Entra when a website is created.  
+Each website has its own application that follows following naming convention (Portals – {{portalid}}). Different naming conventions have been used previously and may still be reflected in your Microsoft Entra. The ID of this application can also be found in the [Set up workspace](../configure/setup-workspace.md) for that website and can be used to find this application in Microsoft Entra (in the application registration tab).  
 
 > [!NOTE]
 > - This application should not be modified or deleted as doing that may break the S2S connection between the website and Dataverse which can lead to website functionality being affected.
-> - This application is also used for the default Azure AD Login provider on the website.
+> - This application is also used for the default Microsoft Entra Login provider on the website.
 
-During the website creation process, an authentication key (X509 certificate) is also generated automatically and added to the Azure AD application and application server. This key allows the application server to get the required access token to authenticate to Dataverse.
+During the website creation process, an authentication key (X509 certificate) is also generated automatically and added to the Microsoft Entra application and application server. This key allows the application server to get the required access token to authenticate to Dataverse.
 
 > [!NOTE]
 > This authentication key has an expiry of two years and should be updated every two years to ensure that website can connect to Dataverse. In order to update the key, refer to following documentation: [Manage website authentication key](manage-auth-key.md).
@@ -40,7 +40,7 @@ Following diagram describes how the end to end connection happens between the we
 
 ## Integration with Dataverse
 
-In order to establish the S2S connection, the Azure AD application created during site creation is also integrated with the Dataverse organization.
+In order to establish the S2S connection, the Microsoft Entra application created during site creation is also integrated with the Dataverse organization.
 
 Depending on when the site was created, the connection is established using the Dataverse **SYSTEM** user or a **Dataverse application user**.
 

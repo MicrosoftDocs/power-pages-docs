@@ -40,7 +40,7 @@ Custom scope parameters can be specified using the **Scope** setting in your pro
 
 ## Why is the username in a contact or external identity record in Dataverse different from what the user entered on the sign-in page?
 
-The username field in a contact record and an external identity record shows the value that's sent in either the subclaim or object ID (OID) claim for Azure AD&ndash;based providers. This is because the subclaim represents the user identifier and is guaranteed by the identity provider to be unique. An OID claim, where the object ID is a unique identifier for all users in a tenant, is supported when used with single-tenant Azure AD&ndash;based providers.
+The username field in a contact record and an external identity record shows the value that's sent in either the subclaim or object ID (OID) claim for Microsoft Entra&ndash;based providers. This is because the subclaim represents the user identifier and is guaranteed by the identity provider to be unique. An OID claim, where the object ID is a unique identifier for all users in a tenant, is supported when used with single-tenant Microsoft Entra&ndash;based providers.
 
 ## Does Power Pages support signing out from OpenID Connect&ndash;based providers?
 
@@ -62,9 +62,9 @@ When in use, "emailclaimsmapping" is also used to search for an existing contact
 
 ## Can I get access to tokens (ID or access) using JavaScript?
 
-The ID token provided by the identity provider isn't available using JavaScript or any standard technique on the client side. It's used only for authentication. However, if you're using the implicit grant flow, you can use the methods provided by your identity provider to get access to ID or access tokens. For example, Azure AD provides the [Microsoft Authentication Library](/azure/active-directory/develop/msal-overview) for this scenario.
+The ID token provided by the identity provider isn't available using JavaScript or any standard technique on the client side. It's used only for authentication. However, if you're using the implicit grant flow, you can use the methods provided by your identity provider to get access to ID or access tokens. For example, Microsoft Entra ID provides the [Microsoft Authentication Library](/azure/active-directory/develop/msal-overview) for this scenario.
 
-## Can I use a custom OpenID Connect provider instead of Azure AD?
+## Can I use a custom OpenID Connect provider instead of Microsoft Entra ID?
 
 Power Pages supports any identity provider that conforms to the standard [OpenID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
 

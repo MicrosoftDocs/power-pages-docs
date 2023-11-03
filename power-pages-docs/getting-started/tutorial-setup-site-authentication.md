@@ -6,7 +6,7 @@ ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 06/02/2022
 ms.subservice:
-ms.author: ndoelman 
+ms.author: kkendrick 
 ms.reviewer: 
 contributors:
     - nickdoelman
@@ -82,4 +82,3 @@ You can preview this functionality by visiting a portal and selecting **Sign In*
 Learn how to protect your pages using page permissions in the next tutorial
 > [!div class="nextstepaction"]
 > [Set up page permissions](tutorial-setup-page-permissions.md)
-
