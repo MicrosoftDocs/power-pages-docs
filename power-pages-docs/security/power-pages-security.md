@@ -21,6 +21,7 @@ An important consideration when you build public-facing websites is how to make 
 - [Web roles](#web-roles)
 - [Table permissions](#table-permissions)
 - [Page permissions](#page-permissions)
+- [HTTPS Headers](#https-headers)
 
 ## Site visibility
 
@@ -55,6 +56,12 @@ Access to Dataverse information through [lists](../getting-started/add-list.md),
 Page permissions that are associated with web roles to allow access can protect content and components on individual pages.
 
 [Learn more about page permissions](page-security.md).
+
+## HTTPS Headers
+
+The cross-origin resource sharing (CORS) protocol consists of a set of headers that indicates whether a response can be shared with another domain. You can configure CORS support in Power Pages using the Portal Management app by adding and configuring the site settings.
+
+[Learn more about HTTPS headers](https://learn.microsoft.com/en-us/power-pages/security/site-checker-security#http-headers).
 
 ## Additional website security
 
