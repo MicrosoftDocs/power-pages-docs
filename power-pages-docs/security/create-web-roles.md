@@ -77,7 +77,7 @@ You can assign site users to web roles from either the contact record or the web
 
 ### From the contact (enhanced data model)
 
-1. In the Portal Management app, select **Security** > **Contacts**.
+1. In the Power Pages Management app, select **Security** > **Contacts**.
 
 1. Select a contact.
 
