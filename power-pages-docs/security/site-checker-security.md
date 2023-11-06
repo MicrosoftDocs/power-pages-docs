@@ -31,8 +31,6 @@ This check fails if there are one or more table permissions that allow anonymous
 Web Template Validation, which is enabled by default, prevents malicious scripts from running on your website. This check fails when it's disabled. You can enable Web Template Validation by removing the setting “DisableValidationWebTemplate” or setting the value to false. More information: [Configure site settings for websites](../configure/configure-site-settings.md) 
 
 ## HTTP headers
-The cross-origin resource sharing (CORS) protocol consists of a set of headers that indicates whether a response can be shared with another domain. You can configure CORS support in Power Pages using the Portal Management app by adding and configuring the site settings. 
-
 The following site settings are used to configure CORS and their recommended values. Review and switch the headers to recommended values unless your use case dictates otherwise. 
 
 |Security check  |Site setting  |Recommended value  |
