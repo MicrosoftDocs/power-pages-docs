@@ -61,7 +61,7 @@ Page permissions that are associated with web roles to allow access can protect 
 
 The cross-origin resource sharing (CORS) protocol consists of a set of headers that indicates whether a response can be shared with another domain. You can configure CORS support in Power Pages using the Portal Management app by adding and configuring the site settings.
 
-[Learn more about HTTPS headers](https://learn.microsoft.com/en-us/power-pages/security/site-checker-security#http-headers).
+[Learn more about HTTPS headers](site-checker-security#http-headers).
 
 ## Additional website security
 
