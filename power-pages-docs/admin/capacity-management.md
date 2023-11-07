@@ -32,27 +32,25 @@ These views and features can be used in addition to the website consumption repo
 
 The licensing summary view is located under Billing (Preview) and Licenses (Preview). Once Power Pages is selected from the product selector, the tenant level licensing summary view is shown.
 
-### Sections of the licensing summary view
-
-*License type cards*
+### License type cards
 
 License type cards are shown at the top of the view. The cards provide information about different license types in use in production and relevant metrics such as capacity available ("Total") and capacity assigned ("Assigned"). For capacity-based licensing models, the card has a link to either the capacity management experience or the legacy capacity management panel, depending on the license type. For Dynamics 365 Portal Add-ons (legacy license type), "View details" shows the production websites that are using add-ons licensing model. And finally, "View details" for Pay as you go license type will show a list of websites in production using Pay as you go license model.
 
 The license cards have information about the legacy licensing models as well to help administrator with licensing model migration planning. Rest of the views and features only support the current capacity based licensing model (Authenticated MAU and Anonymous MAU, for more information, please see [Power Platform licensing FAQs - Power Platform \| Microsoft Learn](/power-platform/admin/powerapps-flow-licensing-faq#power-pages))
 
-*Capacity category pivot*
+#### Capacity category pivot
 
 The capacity category pivot allows switching between Authenticated capacity and Anonymous capacity. This tab controls both the pie chart and graph.
 
-*Assignments pie chart*
+#### Assignments pie chart
 
 Assignments pie chart always shows the current data for total available prepurchased capacity, the amount of assigned capacity and the amount of unassigned capacity. Should the administrator perform any changes that have impact on the amounts, for example,  perform assignments or purchase more capacity, the change is reflected in this control without delay. The pie chart itself represents the top environments in the tenant by assigned capacity, including all other environments and unassigned capacity as well. Legend below the pie shows the top five environment names.
 
-*Consumption history graph*
+#### Consumption history graph
 
 Consumption graph visualizes the data for assigned capacity, total available capacity, consumed capacity and overage at the tenant level, if any. Time ranges available are month to date, daily data for the past two full months and monthly data for the past 12 months. The licensing capacity consumption resets in the beginning of each month and grows as unique users access the websites and licensing capacity is consumed. The daily views are cumulative. There's a delay of up to 24 hours for the data shown in the graph.
 
-*Notification cards*
+#### Notification cards
 
 Notification cards appear above the licensing summary view when something requires attention.
 
