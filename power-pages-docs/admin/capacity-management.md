@@ -24,9 +24,9 @@ Consumption monitoring views of the capacity management experience provide daily
 
 Finally, the licensing summary view includes information about production websites using legacy licensing models as well, which helps planning the licensing model migration from legacy to current licensing models.
 
-Power Pages capacity management experience allows pivoting between the two supported capacity categories: Authenticated MAU and anonymous MAU. For more information on Power Pages licensing, see [Power Platform licensing FAQs - Power Platform \| Microsoft Learn](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
+Power Pages capacity management experience allows pivoting between the two supported capacity categories: authenticated MAU and anonymous MAU. More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages).
 
-These views and features can be used in addition to the website consumption reports that are also available. For more information on the consumption reports, see [Website capacity consumption reports \| Microsoft Learn](/admin/website-consumption-reports?tabs=PPS)
+These views and features can be used in addition to the website consumption reports that are also available. More information: [Website capacity consumption reports](/admin/website-consumption-reports?tabs=PPS)
 
 ## Licensing summary view
 
@@ -36,7 +36,7 @@ The licensing summary view is located under Billing (Preview) and Licenses (Prev
 
 License type cards are shown at the top of the view. The cards provide information about different license types in use in production and relevant metrics such as capacity available ("Total") and capacity assigned ("Assigned"). For capacity-based licensing models, the card has a link to either the capacity management experience or the legacy capacity management panel, depending on the license type. For Dynamics 365 Portal Add-ons (legacy license type), "View details" shows the production websites that are using add-ons licensing model. And finally, "View details" for Pay as you go license type will show a list of websites in production using Pay as you go license model.
 
-The license cards have information about the legacy licensing models as well to help administrator with licensing model migration planning. Rest of the views and features only support the current capacity based licensing model (Authenticated MAU and Anonymous MAU, for more information, please see [Power Platform licensing FAQs - Power Platform \| Microsoft Learn](/power-platform/admin/powerapps-flow-licensing-faq#power-pages))
+The license cards have information about the legacy licensing models as well to help administrator with licensing model migration planning. Rest of the views and features only support the current capacity based licensing model (Authenticated MAU and Anonymous MAU. More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages))
 
 #### Capacity category pivot
 
