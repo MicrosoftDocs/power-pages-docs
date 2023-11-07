@@ -1,0 +1,111 @@
+﻿---
+title: Power Pages capacity management 
+description: Learn about capacity management in Power Pages.
+author: dileepsinghmicrosoft
+
+ms.topic: conceptual
+ms.custom: 
+ms.date: 11/07/2023
+ms.subservice: 
+ms.author: dileeps
+ms.reviewer: kkendrick
+contributors:
+    - dileepsinghmicrosoft
+    - ProfessorKendrick
+---
+
+# Capacity management overview
+
+Power Pages capacity management experience in the Power Platform Admin Center (PPAC) allows administrators to manage Power Pages capacity, monitor capacity consumption, and provides an overview of the different licensing models in use on the Power Pages websites on the tenant.
+
+Capacity management features allow administrators to assign the pre-purchased capacity between the environments in the tenant based on the expected usage of the websites in the environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determining the required capacity for the environments.
+
+Consumption monitoring views of the capacity management experience provide daily data for the month to date, the past two full months, and monthly data for past 12 months to help with the license budgeting and planning.
+
+Finally, the licensing summary view includes information about production websites using legacy licensing models as well, which assists in planning the licensing model migration from legacy to current licensing models.
+
+Power Pages capacity management experience allows pivoting between the two supported capacity categories: Authenticated MAU and anonymous MAU. For more details on Power Pages licensing, please see [Power Platform licensing FAQs - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
+
+These views and features can be used in addition to the website consumption reports that are also available. For more information on the consumption reports, please see [Website capacity consumption reports \| Microsoft Learn](https://learn.microsoft.com/en-us/power-pages/admin/website-consumption-reports?tabs=PPS)
+
+## Licensing summary view
+
+![](media/image1.png)
+
+Figure - Tenant level view
+
+The licensing summary view is located under Billing (Preview) and Licenses (Preview). After selecting Power Pages from the product selector, the tenant level licensing summary view is shown.
+
+### Sections of the licensing summary view
+
+*License type cards*
+
+License type cards are shown at the very top of the view. The cards provide information about different license types in use in production as well as relevant metrics such as capacity available ("Total") and capacity assigned ("Assigned"). For capacity-based licensing models, the card will have a link to either the capacity management experience or the legacy capacity management panel, depending on the license type. For Dynamics 365 Portal Add-ons (legacy license type), "View details" will show the production websites that are using add-ons licensing model. And finally, "View details" for Pay as you go license type will show a list of websites in production using Pay as you go license model.
+
+The license cards have information about the legacy licensing models as well to help administrator with licensing model migration planning. Rest of the views and features only support the current capacity based licensing model (Authenticated MAU and Anonymous MAU, for more information, please see [Power Platform licensing FAQs - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq#power-pages))
+
+*Capacity category pivot*
+
+The capacity category pivot allows switching between Authenticated capacity and Anonymous capacity. This tab controls both the pie chart and graph below.
+
+*Assignments pie chart*
+
+Assignments pie chart always shows the current data for total available pre-purchased capacity, the amount of assigned capacity and the amount of unassigned capacity. Should the administrator perform any changes that has impact on the amounts e.g. perform assignments or purchase more capacity, the change is reflected in this control without additional delay. The pie chart itself represents the top environments in the tenant by assigned capacity, including all other environments and unassigned capacity as well. Legend below the pie shows the top 5 environment names.
+
+*Consumption history graph*
+
+Consumption graph visualizes the data for assigned capacity, total available capacity, consumed capacity and overage at the tenant level, if any. Time ranges available are month to date, daily data for the past two full months and monthly data for the past 12 months. The licensing capacity consumption resets in the beginning of each month and grows as unique users access the websites and licensing capacity is consumed. The daily views are cumulative. There is a delay of up to 24 hours for the data shown in the graph.
+
+*Notification cards*
+
+Notification cards may appear above the licensing summary view, in case there is something that requires attention.
+
+![](media/image2.png)
+
+Figure - Notifications
+
+## Capacity management
+
+To manage pre-purchased authenticated and anonymous capacity, administrator should select "Manage capacity" in Licensing summary below "Capacity". This opens the capacity management pane on the right side of the view.
+
+![](media/image3.png)
+
+Figure - Capacity management pane
+
+Capacity management pane allows the administrator to view and manage the environments that are either already using this licensing type (has been assigned either authenticated or anonymous capacity) or don't have any kind of license or capacity assigned.
+
+On top of the capacity management pane the administrator can see the total capacity available for the tenant, assigned capacity and how much of the capacity is unassigned and available to be assigned to the environments. Capacity category (authenticated, anonymous) can be controlled with the tab control on the top.
+
+By selecting an environment from the list, details of the environment are shown on the bottom part of the pane, such as region and the type of the environment. *Capacity assignment for the selected environment can be changed by entering the new amount in the "Assigned units" textbox and confirming with "Apply".*
+
+![A screenshot of a report Description automatically generated](media/image4.png)
+
+Figure - Capacity consumption history popup
+
+If the environment is nearing or over its assigned capacity, icon is shown and status field is indicating that fact. By hovering over the icon user can see the consumption history from the past 3 months and can use that information when determining the amount of additional capacity required.
+
+## Legacy capacity and license management
+
+Licensing summary view also shows any legacy capacity in use, Dynamics 365 Portals add-ons and pay-as-you-go sites. This information can be used for license model migration planning.
+
+![](media/image5.png)
+
+Figure - Legacy capacity management pane
+
+![](media/image6.png)
+
+Figure - Manage add-ons view
+
+For legacy capacity, "Manage capacity"-link under the license type opens the legacy capacity management view to the right side of the screen. This view lists the environments and sites in this licensing model and "Manage capacity" action link next to the environment and site opens up the "Manage add-ons" view with the environment pre-selected. "Manage add-ons" view allows changes to be made to the legacy capacity (page views, logins).
+
+For Dynamics 365 Portal Add-ons, list of sites is shown to help plan the migration to current licensing models.
+
+For more information on how to convert existing website to capacity-based model, please visit <https://learn.microsoft.com/en-us/power-pages/admin/convert-site#convert-an-existing-website-to-capacity-based-model>
+
+For Pay as you go model, list of sites is shown. Usage tracking for these sites is available directly from the Azure Portal.
+
+For more information on how to track the usage of sites in pay as you go model, please visit <https://learn.microsoft.com/en-us/power-platform/admin/pay-as-you-go-usage-costs>
+
+For more information on the website consumption reports, please visit <https://learn.microsoft.com/en-us/power-pages/admin/website-consumption-reports>
+
+For more information on Power Pages licensing, please visit <https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq#power-pages>
