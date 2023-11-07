@@ -76,7 +76,7 @@ For legacy capacity, "Manage capacity"-link under the license type opens the leg
 
 For Dynamics 365 Portal Add-ons, list of sites is shown to help plan the migration to current licensing models.
 
-For more information on how to convert existing website to capacity-based model, visit </admin/convert-site#convert-an-existing-website-to-capacity-based-model>
+For more information on how to convert existing website to capacity-based model, see [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model).
 
 For Pay as you go model, list of sites is shown. Usage tracking for these sites is available directly from the Azure portal.
 
