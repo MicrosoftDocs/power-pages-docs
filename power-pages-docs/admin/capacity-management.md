@@ -66,19 +66,11 @@ On top of the capacity management pane the administrator can see the total capac
 
 Select an environment from the list to display details of the environment on the bottom part of the pane, such as region and the type of the environment. *Capacity assignment for the selected environment can be changed by entering the new amount in the "Assigned units" textbox and confirming with "Apply".*
 
-![A screenshot of a report Description automatically generated](media/image4.png)
-
-Figure - Capacity consumption history popup
-
 If the environment is nearing or over its assigned capacity, icon is shown and status field is indicating that fact. Hover over the icon to see the consumption history from the past three months and can use that information when determining the amount of more capacity required.
 
 ## Legacy capacity and license management
 
 Licensing summary view also shows any legacy capacity in use, Dynamics 365 Portals add-ons and pay-as-you-go sites. This information can be used for license model migration planning.
-
-Figure - Legacy capacity management pane
-
-Figure - Manage add-ons view
 
 For legacy capacity, "Manage capacity"-link under the license type opens the legacy capacity management view to the right side of the screen. This view lists the environments and sites in this licensing model and "Manage capacity" action link next to the environment and site opens up the "Manage add-ons" view with the environment preselected. "Manage add-ons" view allows changes to be made to the legacy capacity (page views, logins).
 
