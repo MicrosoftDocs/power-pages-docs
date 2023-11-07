@@ -80,7 +80,7 @@ For more information on how to convert existing website to capacity-based model,
 
 For Pay as you go model, list of sites is shown. Usage tracking for these sites is available directly from the Azure portal.
 
-For more information on how to track the usage of sites in pay as you go model, visit <https://learn.microsoft.com/power-platform/admin/pay-as-you-go-usage-costs>
+For more information on how to track the usage of sites in pay as you go model, see  [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs)
 
 For more information on the website consumption reports, visit <https://learn.microsoft.com/power-pages/admin/website-consumption-reports>
 
