@@ -30,10 +30,6 @@ These views and features can be used in addition to the website consumption repo
 
 ## Licensing summary view
 
-![](media/image1.png)
-
-Figure - Tenant level view
-
 The licensing summary view is located under Billing (Preview) and Licenses (Preview). Once Power Pages is selected from the product selector, the tenant level licensing summary view is shown.
 
 ### Sections of the licensing summary view
@@ -60,17 +56,9 @@ Consumption graph visualizes the data for assigned capacity, total available cap
 
 Notification cards appear above the licensing summary view when something requires attention.
 
-![](media/image2.png)
-
-Figure - Notifications
-
 ## Capacity management
 
 To manage prepurchased authenticated and anonymous capacity, administrator should select "Manage capacity" in Licensing summary below "Capacity." This opens the capacity management pane on the right side of the view.
-
-![](media/image3.png)
-
-Figure - Capacity management pane
 
 Capacity management pane allows the administrator to view and manage the environments that are either already using this licensing type (has been assigned either authenticated or anonymous capacity) or don't have any kind of license or capacity assigned.
 
@@ -88,11 +76,7 @@ If the environment is nearing or over its assigned capacity, icon is shown and s
 
 Licensing summary view also shows any legacy capacity in use, Dynamics 365 Portals add-ons and pay-as-you-go sites. This information can be used for license model migration planning.
 
-![](media/image5.png)
-
 Figure - Legacy capacity management pane
-
-![](media/image6.png)
 
 Figure - Manage add-ons view
 
