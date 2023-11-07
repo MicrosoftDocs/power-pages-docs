@@ -72,14 +72,11 @@ Licensing summary view also shows any legacy capacity in use, Dynamics 365 Porta
 
 For legacy capacity, "Manage capacity"-link under the license type opens the legacy capacity management view to the right side of the screen. This view lists the environments and sites in this licensing model and "Manage capacity" action link next to the environment and site opens up the "Manage add-ons" view with the environment preselected. "Manage add-ons" view allows changes to be made to the legacy capacity (page views, logins).
 
-For Dynamics 365 Portal Add-ons, list of sites is shown to help plan the migration to current licensing models.
+For Dynamics 365 Portal Add-ons, list of sites is shown to help plan the migration to current licensing models. More information: [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model).
 
-For more information on how to convert existing website to capacity-based model, see [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model).
+For Pay as you go model, list of sites is shown. Usage tracking for these sites is available directly from the Azure portal. More information: [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
 
-For Pay as you go model, list of sites is shown. Usage tracking for these sites is available directly from the Azure portal.
+## See also
 
-For more information on how to track the usage of sites in pay as you go model, see  [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
-
-For more information on the website consumption reports, see [Website capacity consumption reports](website-consumption-reports.md).
-
-For more information on Power Pages licensing, see [Power Pages licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages).
+- [Website capacity consumption reports](website-consumption-reports.md).
+- [Power Pages licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages).
