@@ -24,9 +24,9 @@ Consumption monitoring views of the capacity management experience provide daily
 
 Finally, the licensing summary view includes information about production websites using legacy licensing models as well, which helps planning the licensing model migration from legacy to current licensing models.
 
-Power Pages capacity management experience allows pivoting between the two supported capacity categories: Authenticated MAU and anonymous MAU. For more information on Power Pages licensing, see [Power Platform licensing FAQs - Power Platform \| Microsoft Learn](https://learn.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
+Power Pages capacity management experience allows pivoting between the two supported capacity categories: Authenticated MAU and anonymous MAU. For more information on Power Pages licensing, see [Power Platform licensing FAQs - Power Platform \| Microsoft Learn](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
-These views and features can be used in addition to the website consumption reports that are also available. For more information on the consumption reports, see [Website capacity consumption reports \| Microsoft Learn](https://learn.microsoft.com/power-pages/admin/website-consumption-reports?tabs=PPS)
+These views and features can be used in addition to the website consumption reports that are also available. For more information on the consumption reports, see [Website capacity consumption reports \| Microsoft Learn](/admin/website-consumption-reports?tabs=PPS)
 
 ## Licensing summary view
 
