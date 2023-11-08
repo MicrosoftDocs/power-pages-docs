@@ -20,21 +20,19 @@ Power Pages capacity management experience in the Power Platform Admin Center (P
 
 Capacity management features allow administrators to assign the prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determining the required capacity for the environments.
 
-Consumption monitoring views of the capacity management experience provide daily data for the month to date, the past two full months, and monthly data for past 12 months to help with the license budgeting and planning.
+The consumption monitoring views of the capacity management experience provide daily data for the month to date, the past two full months, and monthly data for past 12 months to help with the license budgeting and planning.
 
-Finally, the licensing summary view includes information about production websites using legacy licensing models as well, which helps planning the licensing model migration from legacy to current licensing models.
+The licensing summary view includes information about production websites using legacy licensing models as well, which helps planning the licensing model migration from legacy to current licensing models.
 
 Power Pages capacity management experience allows pivoting between the two supported capacity categories: authenticated MAU and anonymous MAU. 
 
 More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
-These views and features can be used in addition to the website consumption reports that are also available. 
-
-More information: [Website capacity consumption reports](/admin/website-consumption-reports?tabs=PPS)
+These views and features can be used in addition to the available [website capacity consumption reports](/admin/website-consumption-reports).
 
 ## Licensing summary view
 
-The licensing summary view is located under Billing (Preview) and Licenses (Preview). Once Power Pages is selected from the product selector, the tenant level licensing summary view is shown.
+The licensing summary view is located under Billing (preview) and Licenses (preview). Once Power Pages is selected from the product selector, the tenant level licensing summary view displays.
 
 ### License type cards
 
