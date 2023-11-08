@@ -73,6 +73,8 @@ Select the lines of code you want to understand from the code editor, right-clic
 
 Alternatively, select the lines of code and type `Explain selected code` in the Copilot chat panel. You can also directly ask Copilot by adding the code in the prompt. For example, you can ask `Explain the following code {% include 'Page Copy'%}`. 
 
+:::image type="content" source="media/add-ai-generated-code/ai-explain-code.svg" alt-text="Use AI-Explain code.":::
+
 ## Known issues
 
 In some instances, a prompt is classified incorrectly as malicious code.
