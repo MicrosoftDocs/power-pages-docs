@@ -23,7 +23,7 @@ Power Pages offers a free 30-day trial. After a quick sign-up, you'll have acces
 
     :::image type="content" source="media/trial/try-it-free.png" alt-text="The home page for Microsoft Power Pages with the Try it for free button emphasized.":::
 
-1. Follow the onscreen guidance to enter the work or school email address, backed by Azure Active Directory. And then, enter your country/region and phone number. A new [Microsoft Power Platform trial environment](/en-us/power-platform/admin/environments-overview) will be created for you.
+1. Follow the onscreen guidance to enter the work or school email address, backed by Microsoft Entra ID. And then, enter your country/region and phone number. A new [Microsoft Power Platform trial environment](/en-us/power-platform/admin/environments-overview) will be created for you.
 
 1. (Optional) Choose an option that best matches your experience creating websites for a personalized learning experience.
 

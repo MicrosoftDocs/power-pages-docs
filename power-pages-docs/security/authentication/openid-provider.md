@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 [OpenID Connect](https://openid.net/connect/) identity providers are services that conform to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html). OpenID Connect introduces the concept of an *ID token*. An ID token is a security token that allows a client to verify the identity of a user. It also gets basic profile information about users, known as *claims*.
 
-OpenID Connect providers [Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md), [Azure AD](openid-settings.md), and [Azure AD with multiple tenants](openid-settings.md#allow-multitenant-azure-ad-authentication) are built into Power Pages. This article explains how to add other OpenID Connect identity providers to your Power Pages site.
+OpenID Connect providers [Azure AD B2C](azure-ad-b2c-provider.md), [Microsoft Entra ID](openid-settings.md), and [Microsoft Entra ID with multiple tenants](openid-settings.md#allow-multitenant-microsoft-entra-authentication) are built into Power Pages. This article explains how to add other OpenID Connect identity providers to your Power Pages site.
 
 ## Supported and unsupported authentication flows in Power Pages
 
@@ -126,6 +126,6 @@ The additional settings give you finer control over how users authenticate with 
 
 ### See also
 
-[Set up an OpenID Connect provider with Azure AD B2C](azure-ad-b2c-provider.md)  
-[Set up an OpenID Connect provider with Azure AD](openid-settings.md)  
+[Set up an OpenID Connect provider with Azure Active Directory (Azure AD) B2C](azure-ad-b2c-provider.md)  
+[Set up an OpenID Connect provider with Microsoft Entra ID](openid-settings.md)  
 [OpenID Connect FAQs](openid-faqs.md)

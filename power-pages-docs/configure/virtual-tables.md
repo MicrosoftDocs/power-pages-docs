@@ -72,7 +72,7 @@ Once the virtual table is created in Dataverse, you can use to create a [list](.
 
 The following virtual tables and providers are not supported for use with Power Pages;
 
-- The [Azure Active Directory user virtual table](/power-apps/developer/data-platform/aaduser-entity).
+- The [Microsoft Entra user virtual table](/power-apps/developer/data-platform/aaduser-entity).
 - [Dynamics 365 Business Central virtual tables](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-faq)
 
 ## Limitations

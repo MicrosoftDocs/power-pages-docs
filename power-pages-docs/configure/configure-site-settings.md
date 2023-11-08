@@ -103,5 +103,3 @@ For site settings related to various website features, see:
     - **Description**: The purpose of the setting or special instructions.
 
 1. Select **Save & Close**.
-
-

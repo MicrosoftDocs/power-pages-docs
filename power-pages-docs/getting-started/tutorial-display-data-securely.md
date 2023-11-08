@@ -98,7 +98,7 @@ This video provides an overview of the steps to set access types and privileges.
 
     :::image type="content" source="media/tutorial/create-table-permissions-application.png" alt-text="Create a table permission for table with contact lookup.":::
 
-1. Preview the site and sign-in. For purposes of this tutorial, you can sign in using **Azure AD**.
+1. Preview the site and sign-in. For purposes of this tutorial, you can sign in using **Microsoft Entra ID**.
 
 1. View the page on the site. When any user signs in, they should see **all** the data in the table.
 

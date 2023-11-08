@@ -1,6 +1,6 @@
 ---
 title: Set up an OpenID Connect provider with Azure AD B2C 
-description: Learn how to set up an OpenID Connect identity provider with Azure Active Directory (Azure AD) B2C for use with sites you create with Microsoft Power Pages.
+description: Learn how to set up an OpenID Connect identity provider with Azure Active Directory B2C for use with sites you create with Microsoft Power Pages.
 ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
@@ -20,8 +20,8 @@ Azure Active Directory (Azure AD) B2C is one of the OpenID Connect identity prov
 This article describes the following steps:
 
 - [Set up Azure AD B2C in Power Pages](#set-up-azure-ad-b2c-in-power-pages)
-- [Create an app registration in Azure](#create-an-app-registration-in-azure)
-- [Create user flows in Azure](#create-user-flows)
+- [Create an app registration](#create-an-app-registration)
+- [Create user flows](#create-user-flows)
 - [Enter site and password settings in Power Pages](#enter-site-settings-and-password-reset-settings-in-power-pages)
 
 > [!NOTE]
@@ -49,7 +49,7 @@ Set Azure AD B2C as an identity provider for your site.
 
     Don't close your Power Pages browser tab. You'll return to it soon.
 
-## Create an app registration in Azure
+## Create an app registration
 
 Create a tenant for Azure AD B2C and [register an application](/azure/active-directory-b2c/tutorial-register-applications?tabs=applications#register-a-web-application) with your site's reply URL as the redirect URI.
 
@@ -112,7 +112,7 @@ Create a tenant for Azure AD B2C and [register an application](/azure/active-dir
 
     - **Authority**: Paste the issuer URL [you copied](#get-the-issuer-url-from-the-user-flows).​
 
-    - **Client ID​**: Paste the **Application (client) ID** of the Azure AD B2C application [you created](#create-an-app-registration-in-azure).
+    - **Client ID​**: Paste the **Application (client) ID** of the Azure AD B2C application [you created](#create-an-app-registration).
 
     - **Redirect URI**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value, which should be your site's reply URL.
 
