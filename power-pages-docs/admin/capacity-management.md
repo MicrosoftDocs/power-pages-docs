@@ -26,7 +26,7 @@ Finally, the licensing summary view includes information about production websit
 
 Power Pages capacity management experience allows pivoting between the two supported capacity categories: authenticated MAU and anonymous MAU. 
 
-More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages).
+More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
 These views and features can be used in addition to the website consumption reports that are also available. 
 
@@ -90,11 +90,11 @@ For legacy capacity, **Manage capacity**, displayed under the license type, open
 
 For Dynamics 365 Portal add-ons, a list of sites is shown to help plan the migration to current licensing models. 
 
-More information: [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model).
+More information: [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model)
 
 For Pay as you go model, list of sites is shown. Usage tracking for these sites is available directly from the Azure portal. 
 
-More information: [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
+More information: [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs)
 
 ## See also
 
