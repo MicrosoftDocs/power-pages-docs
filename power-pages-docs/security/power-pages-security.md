@@ -49,7 +49,7 @@ More information: [Create and assign web roles](create-web-roles.md)
 
 Access to Dataverse information through [lists](../getting-started/add-list.md), [forms](../getting-started/add-form.md), [Liquid](../configure/liquid-overview.md), and the [Web API](../configure/web-api-overview.md) is protected by table permissions. You can configure table permissions to allow different levels of access and privileges to Dataverse records. Table permissions are associated with web roles to provide appropriate access to users. 
 
-More information: [Configuring table permissions](table-permissions.md)
+More information: [Configure table permissions](table-permissions.md)
 
 ## Page permissions
 
