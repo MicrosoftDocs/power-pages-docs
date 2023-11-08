@@ -65,11 +65,11 @@ More information: [HTTP headers](site-checker-security.md#http-headers)
 
 ## More website security
 
-You can integrate Power Pages sites with any web application firewall infrastructure, such as Azure Front Door, to provide extra protection against common web application attacks. More information: 
+You can integrate Power Pages sites with any web application firewall infrastructure, such as Azure Front Door, to provide extra protection against common web application attacks. 
 
-[Set up Azure Front Door with Power Pages sites](/power-apps/maker/portals/azure-front-door).
+More information: [Set up Azure Front Door with Power Pages sites](/power-apps/maker/portals/azure-front-door)
 
-## Deep dive: Architecture and security
+## Deep dive: architecture and security
 
 The following white papers allow you to explore Power Pages architecture and security at a deeper level.
 
