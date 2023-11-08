@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Add AI-generated code using Copilot in Visual Studio Code to help you create code using natural language chat interaction. In Power Pages, you work with site code that includes HTML, JS, or CSS code to make site customizations that aren't currently supported in the Power Pages low-code design studio. This Copilot chat experience assists Power Pages developers like you to write code by describing your expected code behavior using natural language. You can then refine the generated code and use it when customizing your site.
+Add AI-generated code using Copilot in Visual Studio Code to help you create code using natural language chat interaction. You can also delve deeper into existing code and learn what it means by using the Explain feature. In Power Pages, you work with site code that includes HTML, JS, or CSS code to make site customizations that aren't currently supported in the Power Pages low-code design studio. This Copilot chat experience assists Power Pages developers like you to write code by describing your expected code behavior using natural language. You can then refine the generated code and use it when customizing your site.
 
 :::image type="content" source="media/add-ai-generated-code/power-pages-code-copilot.png" alt-text="Visual Studio Code with Copilot in Power Pages.":::
 
@@ -65,6 +65,13 @@ Examples:
 > - To generate more **accurate** code, make sure you open the file where you want to use the code. For example, open a **web template** where you want to add Web API code or open a custom JavaScript file for forms where you want to add field validation. 
 	
 :::image type="content" source="media/add-ai-generated-code/ai-generated-code.png" alt-text="Add AI-generated code.":::
+
+## How to use Explain in Copilot to understand code
+Copilot's Explain feature is useful for developers who are working on existing code and want to understand it. To use Explain, follow these steps:
+
+Select the lines of code you want to understand from the code editor, right-click to access the in-context menu and then select **Copilot in Power Pages > Explain**. Copilot will record the selected lines of code in the chat panel and provide a response explaining the code to you.
+
+Alternatively, select the lines of code and type `Explain selected code` in the Copilot chat panel. You can also directly ask Copilot by adding the code in the prompt. For example, you can ask `Explain the following code {% include 'Page Copy'%}`. 
 
 ## Known issues
 
