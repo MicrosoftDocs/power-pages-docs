@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 # Set up a WS-Federation provider
 
-To allow users to authenticate to your Power Pages site, you can add a WS-Federation&ndash;compliant security token service provider such as Azure Active Directory (Azure AD) or a single Active Directory Federation Services (AD FS) server. This article describes the following steps:
+To allow users to authenticate to your Power Pages site, you can add a WS-Federation&ndash;compliant security token service provider such as Microsoft Entra or a single Active Directory Federation Services (AD FS) server. This article describes the following steps:
 
 - [Set up the WS-Federation provider in Power Pages](#set-up-the-ws-federation-provider-in-power-pages)
 - [Create an app registration in the identity provider](#create-an-app-registration-in-the-identity-provider)
@@ -87,5 +87,5 @@ The additional settings give you finer control over how users authenticate with 
 
 ### See also
 
-[Set up a WS-Federation provider with Azure AD](ws-federation-settings-azure-ad.md)  
+[Set up a WS-Federation provider with Microsoft Entra ID](ws-federation-settings-azure-ad.md)  
 [Set up a WS-Federation provider with AD FS](ws-federation-settings.md)

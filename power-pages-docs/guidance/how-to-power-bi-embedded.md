@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to: Embed Power BI in Power Pages"
 description: Learn how to embed a Power BI report in Power Pages.
 author: skyshon
@@ -113,9 +113,9 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
 1. Select **Access type**. The options are:
 
-    1. Embed for your customers: Allows you to share the Power BI with external users without a Power BI license or an Azure AD identity.
+    1. Embed for your customers: Allows you to share the Power BI with external users without a Power BI license or a Microsoft Entra identity.
 
-    1. Embed for your organization: This uses Azure AD authentication to share the report from Power BI so internal users can see this.
+    1. Embed for your organization: This uses Microsoft Entra authentication to share the report from Power BI so internal users can see this.
 
     1. Publish to web: This allows anyone on the internet to access the report and data. 
     

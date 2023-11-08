@@ -16,7 +16,7 @@ contributors:
 
 # Manage website authentication key
 
-Power Pages connectivity architecture explained how a website connects to Microsoft Dataverse environment. When a website is created, a new authentication key is generated with the public key uploaded to Azure Active Directory application. Power Pages uses this authentication key to connect to the Dataverse environment. You must renew the key every two years to ensure that your website can connect to Dataverse environment.
+Power Pages connectivity architecture explained how a website connects to Microsoft Dataverse environment. When a website is created, a new authentication key is generated with the public key uploaded to Microsoft Entra application. Power Pages uses this authentication key to connect to the Dataverse environment. You must renew the key every two years to ensure that your website can connect to Dataverse environment.
 
 ## Check authentication key details
 
@@ -125,6 +125,3 @@ If the key update fails, an error message is displayed along with the following 
 ### See also
 
 - [Website connectivity to a Microsoft Dataverse environment](/power-apps/maker/portals/admin/connectivity)
-
-
-

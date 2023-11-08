@@ -4,7 +4,7 @@ description: Learn how to use page permissions to secure the content of sites yo
 ms.date: 07/21/2023
 ms.topic: how-to
 author: nickdoelman
-ms.author: ndoelman
+ms.author: kkendrick
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman

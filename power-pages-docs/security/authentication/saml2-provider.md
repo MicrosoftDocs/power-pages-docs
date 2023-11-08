@@ -38,7 +38,7 @@ To allow users to authenticate to your Power Pages site, you can add one or more
 
 1. Under **Protocol**, select **SAML 2.0**.
 
-1. Enter a name for the provider; for example, *Azure AD*.
+1. Enter a name for the provider; for example, *Microsoft Entra ID*.
 
     The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
 
@@ -85,6 +85,6 @@ The additional settings give you finer control over how users authenticate with 
 
 ### See also
 
-[Set up a SAML 2.0 provider with Azure AD](saml2-settings-azure-ad.md)  
+[Set up a SAML 2.0 provider with Microsoft Entra ID](saml2-settings-azure-ad.md)  
 [Set up a SAML 2.0 provider with AD FS](saml2-settings.md)  
 [SAML 2.0 FAQ](saml2-faqs.md)
