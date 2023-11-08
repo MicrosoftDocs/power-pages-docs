@@ -76,7 +76,7 @@ Notification cards appear above the licensing summary view when something requir
 
 ## Capacity management
 
-To manage prepurchased authenticated and anonymous capacity, administrators should select **Manage capacity** in Licensing summary below **Capacity**. The capacity management pane opens on the right side of the view.
+To manage prepurchased authenticated and anonymous capacity, administrators should select **Manage capacity** in licensing summary below **Capacity**. The capacity management pane opens on the right side of the view.
 
 The capacity management pane allows administrators to view and manage the environments that are either already using this licensing type, and environments without any kind of license or capacity assigned.
 
