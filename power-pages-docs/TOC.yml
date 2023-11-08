@@ -212,7 +212,7 @@
               href: configure/progressive-web-apps.md
             - name: Build progressive web applications
               href: configure/build-progressive-web-apps.md
-    - name: Copresence in design studio (preview)
+    - name: Copresence in design studio
       href: getting-started/copresence.md
     - name: Power Pages design studio and Power Apps portals Studio
       href: configure/editing-sites.md
@@ -534,12 +534,14 @@
           href: configure/liquid/component-framework-liquid.md
         - name: Implement a sample portal Web API component
           href: configure/implement-webapi-component.md
-    - name: Use Power Automate (preview)
+    - name: Use Power Automate
       items:
         - name: Integrate with Power Automate cloud flows
           href: configure/cloud-flow-integration.md
         - name: "How to: Use Power Automate with Power Pages"
           href: configure/power-automate-how-to.md
+        - name: "How to: Create an image library using cloud flow and Power Pages"
+          href: configure/image-library-how-to.md
     - name: Use Microsoft Power Platform CLI
       items:
         - name: Overview of Power Platform CLI
@@ -602,7 +604,7 @@
               href: security/authentication/openid-provider.md
             - name: Azure AD B2C
               href: security/authentication/azure-ad-b2c-provider.md
-            - name: Azure AD
+            - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
             - name: OpenID Connect FAQs
               href: security/authentication/openid-faqs.md
@@ -610,7 +612,7 @@
           items:
             - name: Set up a SAML 2.0 provider
               href: security/authentication/saml2-provider.md
-            - name: Azure AD
+            - name: Microsoft Entra ID
               href: security/authentication/saml2-settings-azure-ad.md
             - name: Active Directory Federation Services (AD FS)
               href: security/authentication/saml2-settings.md
@@ -620,7 +622,7 @@
           items:
             - name: Set up a WS-Federation provider
               href: security/authentication/ws-federation-provider.md
-            - name: Set up WS-Federation with Azure AD
+            - name: Set up WS-Federation with Microsoft Entra ID
               href: security/authentication/ws-federation-settings-azure-ad.md
             - name: Set up WS-Federation with AD FS
               href: security/authentication/ws-federation-settings.md

@@ -4,7 +4,7 @@ description: Learn how to secure the websites you create with Microsoft Power Pa
 ms.date: 07/20/2023
 ms.topic: overview
 author: nickdoelman
-ms.author: ndoelman
+ms.author: kkendrick
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
@@ -24,7 +24,7 @@ An important consideration when you build public-facing websites is how to make 
 
 ## Site visibility
 
-The site visibility setting controls who can access the sites you create in Power Pages. By default, all Power Pages sites are available to users who are internal to your organization. The extra layer of security that Azure Active Directory (Azure AD) authentication provides helps to prevent accidental leaks of partially developed website data and designs.
+The site visibility setting controls who can access the sites you create in Power Pages. By default, all Power Pages sites are available to users who are internal to your organization. The extra layer of security that Microsoft Entra authentication provides helps to prevent accidental leaks of partially developed website data and designs.
 
 When your website is ready to go live, change the site visibility to public. The public setting makes the site accessible to everyone over the Internet anonymously or to users authenticated through identity providers.
 

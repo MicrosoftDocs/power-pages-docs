@@ -1,7 +1,7 @@
 ---
 title: Create and assign web roles
 description: Learn how to use web roles to manage permissions on sites you create with Microsoft Power Pages.
-ms.date: 07/21/2023
+ms.date: 11/06/2023
 ms.topic: how-to
 author: gitanjalisingh33msft
 ms.author: gisingh
@@ -77,7 +77,7 @@ You can assign site users to web roles from either the contact record or the web
 
 ### From the contact (enhanced data model)
 
-1. In the Portal Management app, select **Security** > **Contacts**.
+1. In the Power Pages Management app, select **Security** > **Contacts**.
 
 1. Select a contact.
 
