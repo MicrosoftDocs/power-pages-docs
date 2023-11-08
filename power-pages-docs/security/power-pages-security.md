@@ -53,7 +53,7 @@ The cross-origin resource sharing (CORS) protocol consists of a set of headers t
 
 ## Additional website security
 
-You can integrate Power Pages sites with any web application firewall infrastructure, such as Azure Front Door, to provide extra protection against common web application attacks. More information: [Integrate Power Pages with Azure Front Door](/power-apps/maker/portals/azure-front-door).
+You can integrate Power Pages sites with any web application firewall infrastructure, such as Azure Front Door, to provide extra protection against common web application attacks. More information: [Set up Azure Front Door with Power Pages sites](/power-apps/maker/portals/azure-front-door).
 
 ## Deep dive: Architecture and security
 
