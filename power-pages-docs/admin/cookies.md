@@ -36,6 +36,9 @@ Power Pages also use cookies to store information for various purposes. The foll
 | isDSTSupport | Indicates whether a specified date and time falls in the range of daylight saving time. | Session |
 | timeZoneCode | Stores the *timezonecode* field value of *CRM timezonedefinition* table for the current timezone. | Session |
 | timezoneoffset | Stores the [timezone difference](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset) between UTC and Local browser time. | Session |
+| PrivateModeLoginCookie | Used to identify internal maker sessions when site is in private mode. This cookie will not be dropped once site is made public. | Session |
+| OpenIdConnect.nonce.xxxxxx | Used to associate a Client session with an ID Token, and to mitigate replay attacks. | Session | 
+| AspNet.ExternalCookie | Used to identify user sessions in external signin scenarios. | Session|
 
 ## Frequently asked questions
 
