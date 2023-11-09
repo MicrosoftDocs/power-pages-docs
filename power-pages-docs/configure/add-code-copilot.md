@@ -69,7 +69,7 @@ Examples:
 ## Use Explain to understand code
 Copilot's Explain feature is useful for developers who are working on existing code and want to understand it. To use Explain, follow these steps:
 
-Select the lines of code you want to understand from the code editor, right-click to access the in-context menu. Select **Copilot in Power Pages** and choose **Explain**. Copilot records the selected lines of code in the chat panel and provide a response explaining the code to you.
+Select the lines of code you want to understand from the code editor, right-click to access the in-context menu. Select **Copilot in Power Pages** and choose **Explain**. Copilot records the selected lines of code in the chat panel and provides a response explaining the code to you.
 
 Alternatively, select the lines of code and type `Explain selected code` in the Copilot chat panel. You can also directly ask Copilot by adding the code in the prompt. For example, you can ask `Explain the following code {% include 'Page Copy'%}`. 
 
