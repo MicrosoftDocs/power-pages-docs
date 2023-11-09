@@ -101,6 +101,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "power-pages-docs/getting-started/add-comments-to-pages.md",
+      "redirect_url": "/power-pages/",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "power-pages-docs/guidance/integrate-pva.md",
       "redirect_url": "/power-pages/getting-started/enable-chatbot",
       "redirect_document_id": "false"
