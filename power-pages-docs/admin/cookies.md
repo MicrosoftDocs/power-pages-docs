@@ -18,7 +18,7 @@ contributors:
  
 # Cookies in Power Pages
 
-A cookie is a small file sent from the web site to visitor's device by the browser. A single web session may use multiple cookies.
+A cookie is a small file sent from the web site to visitor's device by the browser. A single web session can use multiple cookies.
 
 Power Pages also use cookies to store information for various purposes. The following table describes the cookies that Power Pages uses, and their lifetime.
 
@@ -28,7 +28,7 @@ Power Pages also use cookies to store information for various purposes. The foll
 | .AspNet.ApplicationCookie | Used to identify user sessions. A user session starts when a user browses website for the first time. And ends when the session is closed. [Configure authentication](../security/authentication/configure-site.md) can be used to change session expiry time span. | Session |
 | adxPreviewUnpublishedEntities | Stores preview **ON/OFF** mode used in classic CMS system for website administrators. | Session |
 | adx-notification | Used in basic form actions to store alert message to be shown on redirection. | Session |
-| ARRAffinity</br>ARRAffinitySameSite | Added automatically by Azure websites and ensures that requests are load balanced between different sites. Doesn't store any of user information. You may see either the  ARRAffinity or ARRAffinitySameSite cookie depending on your browser.  | Session |
+| ARRAffinity<br />ARRAffinitySameSite | Added automatically by Azure websites and ensures that requests are load balanced between different sites. Doesn't store any of user information. You see either the  ARRAffinity or ARRAffinitySameSite cookie depending on your browser.  | Session |
 | ASP.NET_SessionId | Used to maintain the session of a logged in user to avoid repeated sign-in. | Session |
 | ContextLanguageCode | Stores the default language of the user accessing website within a session and across webpages. The cookie is deleted after session closes. | Session |
 | Dynamics365PortalAnalytics | Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose. | 90 days |
@@ -36,9 +36,9 @@ Power Pages also use cookies to store information for various purposes. The foll
 | isDSTSupport | Indicates whether a specified date and time falls in the range of daylight saving time. | Session |
 | timeZoneCode | Stores the *timezonecode* field value of *CRM timezonedefinition* table for the current timezone. | Session |
 | timezoneoffset | Stores the [timezone difference](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset) between UTC and Local browser time. | Session |
-| PrivateModeLoginCookie | Used to identify internal maker sessions when site is in private mode. This cookie will not be dropped once site is made public. | Session |
+| PrivateModeLoginCookie | Used to identify internal maker sessions when site is in private mode. This cookie isn't dropped once site is made public. | Session |
 | OpenIdConnect.nonce.xxxxxx | Used to associate a Client session with an ID Token, and to mitigate replay attacks. | Session | 
-| AspNet.ExternalCookie | Used to identify user sessions in external signin scenarios. | Session|
+| AspNet.ExternalCookie | Used to identify user sessions in external sign in scenarios. | Session|
 
 ## Frequently asked questions
 
@@ -48,7 +48,7 @@ No. If necessary, consider adding a consent dialog for website users through ext
 
 ### Why can't I use my Power Pages site without cookies?
 
-Cookies are required to maintain a website functional, with the purpose as described in the table above.
+Cookies are required to maintain a website functional, with the purpose as described in the table.
 
 ### What does the session lifetime mean?
 
@@ -64,5 +64,5 @@ No.
 
 ### Do cookies in Power Pages store my IP address?
 
-No. However, check the terms of your analytics provider if you've configured traffic analysis on your website. Traffic analysis can be configured through [Portal Management app](../configure/portal-management-app.md) > **Administration** > **Enable Traffic Analysis**.
+No. However, check the terms of your analytics provider if you configured traffic analysis on your website. Traffic analysis can be configured through [Portal Management app](../configure/portal-management-app.md) > **Administration** > **Enable Traffic Analysis**.
 
