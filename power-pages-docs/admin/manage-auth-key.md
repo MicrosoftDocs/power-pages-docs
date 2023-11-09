@@ -1,6 +1,6 @@
 ---
 title: Manage website authentication key
-description: Learn how to manage the authentication key used by Power Pages to connect to Microsoft Dataverse environment, check the key details, notifications and troubleshoot a failed renew attempt.
+description: Learn how to manage the authentication key used by Power Pages.
 author: neerajnandwana-msft
 
 ms.topic: conceptual
@@ -16,7 +16,7 @@ contributors:
 
 # Manage website authentication key
 
-Power Pages connectivity architecture explained how a website connects to Microsoft Dataverse environment. When a website is created, a new authentication key is generated with the public key uploaded to Microsoft Entra application. Power Pages uses this authentication key to connect to the Dataverse environment. You must renew the key every two years to ensure that your website can connect to Dataverse environment. If the authentication key is renewed, your website will not be accessible to your end users once the authentication key expires. 
+Power Pages connectivity architecture explained how a website connects to Microsoft Dataverse environment. When a website is created, a new authentication key is generated with the public key uploaded to Microsoft Entra application. Power Pages uses this authentication key to connect to the Dataverse environment. You must renew the key every two years to ensure that your website can connect to Dataverse environment. If the authentication key is renewed, your website isn't accessible to your end users once the authentication key expires. 
 
 ## Check authentication key details
 
@@ -50,33 +50,33 @@ The details of an authentication key are displayed on Power Platform admin cente
 
 ## Check authentication key expiration notification
 
-Before the authentication key expires, you'll be notified by emails, Power Platform admin center, and the website.
+Before the authentication key expires, you receive notifications via emails, Power Platform admin center, and the website.
 
 **Email**
 
-Email will be sent to those users who have signed up for email notification for the organization connected to their Power Pages site. More information about signing up for email notification: [Manage email notifications to admins](/power-platform/admin/manage-email-notifications)
+Email is sent to users who signed up for email notification for the organization connected to their Power Pages site. More information about signing up for email notification: [Manage email notifications to admins](/power-platform/admin/manage-email-notifications)
 
 Email notifications are sent at the following intervals: 
 - 90 days 
 - 60 days 
 - 30 days 
 - 15 days 
-- 7 days 
-- 6 days 
-- 5 days 
-- 4 days 
-- 3 days 
-- 2 days 
-- 1 day 
+- Seven days 
+- Six days 
+- Five days 
+- Four days 
+- Three days 
+- Two days 
+- One day 
 - 12 hours 
-- 6 hours 
-- 3 hours
+- Six hours 
+- Three hours
 
-You'll also be notified after the key expires every day until 1 week after key expiration.
+You'll also be notified after the key expires every day until one week after key expiration.
 
 > [!NOTE]
 > - Intervals are calculated in UTC from the key expiration date.
-> - Email is not guaranteed to be exactly at the intervals as listed above. Email notification can be delayed or missed. Be sure to check for the key expiration date online as well.
+> - Email is not guaranteed to be exactly at the intervals as listed. Email notification can be delayed or missed. Be sure to check for the key expiration date online as well.
 
 **Power Platform admin center**
 
