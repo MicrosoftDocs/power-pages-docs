@@ -133,6 +133,7 @@ In a cloud flow, you can define input parameters of type **Text**, **Boolean**, 
 
 > [!IMPORTANT]
 > - You must pass the request parameters name as defined in the cloud flow.
+> - Support for passing a parameter to a flow configured with secure inputs is not available.
 
 ### Sample JavaScript to call a flow
 
