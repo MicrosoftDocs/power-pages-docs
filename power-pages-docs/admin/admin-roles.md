@@ -24,6 +24,9 @@ For example, some tasks might require the user to be a member of admin roles in 
 
 In this article, you'll learn about the roles and permissions required to do different administrative tasks for Power Pages.
 
+> [!NOTE] 
+> A user must be a direct member of the below roles to be able to take the respective actions. Roles are not inherited from a security group (that the user is a member of) or via privileged identity management.  
+
 ## Required roles and permissions
 
 The following table lists different administrative tasks for Power Pages, and the roles required to do that task. Users who are members of those roles can perform the corresponding task.
