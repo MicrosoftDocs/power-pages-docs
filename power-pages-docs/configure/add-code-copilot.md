@@ -46,7 +46,7 @@ You can also use Copilot in Power Pages while editing code using [Visual Studio 
 
 :::image type="content" source="media/add-ai-generated-code/vs-code-for-web-copilot.png" alt-text="A screenshot of Visual Studio Code for the Web.":::
 	
-## How to use Copilot to generate code
+## Use Copilot to generate code
 
 > [!IMPORTANT] 
 > Copilot in Visual Studio Code is tuned to generate code for Power Pages sites, so its **functionalities are limited to Power Pages site-supported languages like HTML, JavaScript, and CSS**. The generated code from Copilot makes use of supported frameworks like bootstrap and jQuery. 
