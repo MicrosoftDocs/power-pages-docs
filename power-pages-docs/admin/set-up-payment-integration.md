@@ -15,7 +15,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Accept payments on your Power Pages websites with no-code configuration within the design studio experience. The configuration starts in the Set up workspace that allows you to enable the payments provider. With this integration, you can add a Stripe payment component to your multistep form, enabling your website to accept payments. 
+Accept payments on your Power Pages websites from design studio's Set up workspace. With this integration, you can add a Stripe payment component to your multistep form, enabling your website to accept payments. 
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -97,7 +97,7 @@ If this step is the last step of your multi-step form, a submit button is enable
 
 - **PCI DSS Compliance** – 
 
-- **Payments table –** For storing transactions, there's a new Payments table installed with the solution. This table is automatically related to the table that you choose when you configure the form steps. You can choose this table to view the details of transactions and status. This is just a snapshot of information that is provided that you might use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment related issues, you should rely on Stripe's dashboard. 
+- **Payments table –** For storing transactions, there's a new Payments table installed with the solution. The table is automatically related to the table that you choose when you configure the form steps. You can use the table to view the details of transactions and status. This table is just a snapshot of information that is provided which you can use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment related issues, you should rely on Stripe's dashboard. 
 
 - **Webhook –** The payments feature also configures a webhook on Stripe that is used to asynchronously update the status of payments that might take extra time for completion.    
     > [!NOTE]
