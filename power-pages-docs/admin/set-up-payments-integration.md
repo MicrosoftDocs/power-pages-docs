@@ -56,7 +56,7 @@ Once you install the package, you can begin to configure Stripe for your Power P
   
     > [!NOTE]
     > - For the secret key, we recommend using the **Restricted API Keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe. 
-    > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to Stripe's documentation [API keys | Stripe documentation](https://stripe.com/docs/keys) 
+    > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys) 
 1. Enter the Publishable and Secret keys respectively in the **Enable Stripe panel**. 
 1. Choose **Save** and close the panel. 
 1. Select the **Sync** button. 
