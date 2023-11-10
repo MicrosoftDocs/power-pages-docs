@@ -32,7 +32,7 @@ Enabling payments into your application requires three steps: 
 - Sign up for an account with Stripe as your payment provider and obtain test mode keys from the Developer dashboard. 
 - Create or identify a Microsoft Dataverse table that will be used in a multistep form. This table must have a currency field type that will be used to charge the amount that you wish to collect from the site user. More information: [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
 
--   Configure a [multistep form](../getting-started/multistep-forms) using the Dataverse table that has a step to allow users to pay. This step will display the payments control once configured in a later step. 
+-   Configure a [multistep form](../getting-started/multistep-forms.md) using the Dataverse table that has a step to allow users to pay. This step will display the payments control once configured in a later step. 
 
 ## Step 1: Install package 
 
@@ -61,9 +61,9 @@ Once you've installed the package, you can begin to configure Stripe for your Po
 To enable payments, complete the following steps: 
 
 1. Create a multistep form step for the Dataverse table used in your multistep form process where you wish to accept payments. 
-1. Add table permissions for the Dataverse tables used in the multistep form process (you'll need at least **Create** and **Write** permissions) and assign appropriate [web roles](../security/create-web-roles). <br /> More information: [Configure table permissions](../security/table-permissions) 
+1. Add table permissions for the Dataverse tables used in the multistep form process (you'll need at least **Create** and **Write** permissions) and assign appropriate [web roles](../security/create-web-roles.md). <br /> More information: [Configure table permissions](../security/table-permissions.md) 
 1. Select the **Sync** button. 
-1. In the design Studio choose **Pages** and navigate to the webpage where payment experience is intended. Add or edit the multistep form, and create a step entitled *Pay* (or similar). <br />More information: [Add a multistep form](../getting-started/multistep-forms) 
+1. In the design Studio choose **Pages** and navigate to the webpage where payment experience is intended. Add or edit the multistep form, and create a step entitled *Pay* (or similar). <br />More information: [Add a multistep form](../getting-started/multistep-forms.md) 
 1. Proceed to **Step settings**. 
 1. Select **App** **Integrations**. 
     - Choose the correct template to associate with the form. 
