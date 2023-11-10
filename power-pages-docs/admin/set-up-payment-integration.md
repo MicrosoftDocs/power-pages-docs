@@ -24,8 +24,8 @@ Accept payments on your Power Pages websites with no-code configuration within t
 Enabling payments into your application requires three steps: 
 
 - [Step 1: Install package](#step-1-install-package)In this step, the site admin installs the package consisting of required tables and other pre-requisites for the environment to enable payments experience. 
-- [Step 2: Configure Stripe](set-up-docusign-integration#step-2-configure-docusign). In this step, the site admin or maker configures keys specific to a payment provider. 
-- [Step 3: Enable payments](/set-up-docusign-integration#step-3-enable-docusign) control. In this step, the maker includes the form and enables digital payments on the required step for the multistep form. 
+- [Step 2: Configure Stripe](#step-2-configure-stripe). In this step, the site admin or maker configures keys specific to a payment provider. 
+- [Step 3: Enable payments experience on your form control](#step-3-enable-payments-experience-on-your-form). In this step, the maker includes the form and enables digital payments on the required step for the multistep form. 
 
 ## Prerequisites 
 
