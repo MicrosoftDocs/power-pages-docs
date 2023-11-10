@@ -21,6 +21,7 @@ You can create a new webpage for your site by describing the type of webpage. Co
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - TO DO: Bradley to add content here if issue 1 relates to add page only.
 > - This feature doesn't support non-English language input.
 > - This feature will be available for preview in the United States only.
 > - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
