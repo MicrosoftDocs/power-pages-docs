@@ -20,7 +20,7 @@ Accept payments on your Power Pages websites from design studio's Set up workspa
 
 > [!IMPORTANT]
 > - This is a preview feature.
-> - This feature currently only works with the **enhanced data model**. More information: [Enhanced data model](../admin/enhanced-data-model.md)
+> - This feature currently only works with the [enhanced data model](../admin/enhanced-data-model.md).
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 To accept payments on your Power Pages site, you must complete these steps: 
