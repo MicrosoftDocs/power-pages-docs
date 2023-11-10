@@ -48,7 +48,7 @@ To use AI-powered Copilot features in Power Pages:
     - Select **Start over** to erase everything and start with a new description.
     
     > [!NOTE]
-    > - TO DO: Bradley to add content here for issue 3.
+    > - **TO DO: Bradley to add content here for issue 3.**
 
 1. To add the form to the page, select **OK**.
 
