@@ -25,7 +25,7 @@ Accept payments on your Power Pages websites from design studio's Set up workspa
 
 To accept payments on your Power Pages site, you must complete these steps: 
 
-- [Step 1: Install package](#step-1-install-package)In this step, the site admin installs the package consisting of required tables and other prerequisites for the environment to enable payments experience. 
+- [Step 1: Install the package](#step-1-install-the-package). In this step, the site admin installs the package consisting of required tables and other prerequisites for the environment to enable payments experience. 
 - [Step 2: Configure Stripe](#step-2-configure-stripe). In this step, the site admin or maker configures keys specific to a payment provider. 
 - [Step 3: Enable the Payments experience on your form](#step-3-enable-the-payments-experience-on-your-form). In this step, the maker includes the form and enables digital payments on the required step for the multistep form. 
 
@@ -36,7 +36,7 @@ To accept payments on your Power Pages site, you must complete these steps: 
 
 -   Configure a [multistep form](../getting-started/multistep-forms.md) using a Dataverse table with a step to allow users to pay. This step displays the payments control once configured in a later step. 
 
-## Step 1: Install package 
+## Step 1: Install the package 
 
 1. In the design studio, choose **Set up**.
 1. Select **Integrations**, then **External apps**. 
