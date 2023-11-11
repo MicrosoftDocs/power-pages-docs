@@ -55,8 +55,8 @@ Once you install the package, you can begin to configure Stripe for your Power P
 1. From the API Keys tab, obtain the **Publishable** and **Secret Keys** required to enable this integration. 
   
     > [!NOTE]
-    > - For the secret key, we recommend using the **Restricted API Keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe. 
-    > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys) 
+    > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe. 
+    > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys?azure-portal=true) 
 1. Enter the Publishable and Secret keys respectively in the **Enable Stripe panel**. 
 1. Choose **Save** and close the panel. 
 1. Select the **Sync** button. 
@@ -72,7 +72,6 @@ To enable payments, complete the following steps: 
 1. Add or edit the [multistep form](../getting-started/multistep-forms.md) , and create a step called *Pay* (or similar).
 1. Proceed to **Step settings**. 
 1. Select **App Integrations**. 
-    - Choose the correct template to associate with the form. 
     - Enable the form toggle for digital payments. 
     - Select the currency type field on the table used to charge the amount that you wish to collect from the site user.  
     
@@ -98,7 +97,7 @@ If this step is the last step of your multi-step form, a submit button is enable
 
 - **PCI DSS Compliance** – 
 
-- **Payments table –** For storing transactions, there's a new Payments table installed with the solution. The table is automatically related to the table that you choose when you configure the form steps. You can use the table to view the details of transactions and status. This table is just a snapshot of information that is provided which you can use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment related issues, you should rely on Stripe's dashboard. 
+- **Payments table –** For storing transactions, there's a new Payments table installed with the solution. The table is automatically related to the table that you choose when you configure the form steps. You can use the table to view the details of transactions and status. This table is just a snapshot of information that is provided which you can use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment related issues, you should rely on payment provider, such as Stripe's dashboard. 
 
 - **Webhook –** The payments feature also configures a webhook on Stripe that is used to asynchronously update the status of payments that might take extra time for completion.    
     > [!NOTE]
