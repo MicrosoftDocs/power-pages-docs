@@ -52,6 +52,7 @@ Once you install the package, you can begin to configure Stripe for your Power P
 1. Select **Integrations**, then **External Apps**. 
 1. In the Integrations table, select the **Enable** action for Stripe. 
 1. Go to the Stripe developer dashboard.
+    :::image type="content" source="Media/set-up-payments-integration/stripe-integration.svg" alt-text="image":::
 1. From the API Keys tab, obtain the **Publishable** and **Secret Keys** required to enable this integration. 
   
     > [!NOTE]
@@ -71,6 +72,7 @@ To enable payments, complete the following steps: 
 1. In the design studio, choose **Pages** and navigate to the webpage where payment experience is intended. 
 1. Add or edit the [multistep form](../getting-started/multistep-forms.md) , and create a step called *Pay* (or similar).
 1. Proceed to **Step settings**. 
+    :::image type="content" source="Media/set-up-payments-integration/form-step-settings.svg" alt-text="image":::
 1. Select **App Integrations**. 
     - Enable the form toggle for digital payments. 
     - Select the currency type field on the table used to charge the amount that you wish to collect from the site user.  
@@ -79,6 +81,8 @@ To enable payments, complete the following steps: 
     > Configuration of payments methods and more settings can be directly done in Stripe. They might require acceptance of other terms and configuration.
 
 The payment control is automatically added to the form step that shows a preview of payment methods enabled for accepting payments. 
+
+:::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="image":::
 
 ### Preview and test your webpage 
 
