@@ -20,7 +20,9 @@ contributors:
 
 Power Pages capacity management experience in the Power Platform Admin Center (PPAC) allows administrators to manage Power Pages capacity and monitor capacity consumption. This experience also provides an overview of the different licensing models in use.
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!IMPORTANT]
+> - This feature is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 The capacity management features allow administrators to assign the prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determining the required capacity for the environments.
 
