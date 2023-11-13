@@ -1,5 +1,5 @@
 ﻿---
-title: Power Pages capacity management (preview)
+title: Capacity management (preview)
 description: Learn about capacity management in Power Pages.
 author: dileepsinghmicrosoft
 
