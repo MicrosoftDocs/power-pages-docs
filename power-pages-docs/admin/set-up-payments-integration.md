@@ -76,7 +76,7 @@ To enable payments, complete the following steps: 
 1. Proceed to **Step settings**. 
     :::image type="content" source="Media/set-up-payments-integration/form-step-settings.svg" alt-text="image":::
 
-    Select **Integrations**. 
+        - Select **Integrations**. 
         - Switch the **Enable digital payments** toggle to the on position. 
         - Select the currency type field on the table used to charge the amount that you wish to collect from the site user.  
     
