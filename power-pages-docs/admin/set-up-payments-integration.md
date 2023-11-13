@@ -52,13 +52,13 @@ Once you install the package, you can begin to configure Stripe for your Power P
 1. Select **Integrations**, then **External Apps**. 
 1. In the Integrations table, select the **Enable** action for Stripe. 
 1. Go to the Stripe developer dashboard.
-    :::image type="content" source="Media/set-up-payments-integration/stripe-integration.svg" alt-text="image":::
 1. From the API Keys tab, obtain the **Publishable** and **Secret Keys** required to enable this integration. 
   
     > [!NOTE]
     > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe. 
     > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys) 
-1. Enter the Publishable and Secret keys respectively in the **Enable Stripe panel**. 
+1. Enter the Publishable and Secret keys respectively in the **Enable integration panel**. 
+        :::image type="content" source="Media/set-up-payments-integration/stripe-integration.svg" alt-text="image":::
 1. Choose **Save** and close the panel. 
 1. Select the **Sync** button. 
 
@@ -73,20 +73,20 @@ To enable payments, complete the following steps: 
 1. Add or edit the [multistep form](../getting-started/multistep-forms.md) , and create a step called *Pay* (or similar).
 1. Proceed to **Step settings**. 
     :::image type="content" source="Media/set-up-payments-integration/form-step-settings.svg" alt-text="image":::
-1. Select **App Integrations**. 
-    - Enable the form toggle for digital payments. 
-    - Select the currency type field on the table used to charge the amount that you wish to collect from the site user.  
+    Select **App Integrations**. 
+        - Switch the **Enable digital payments** toggle to the on position. 
+        - Select the currency type field on the table used to charge the amount that you wish to collect from the site user.  
     
     > [!NOTE]
     > Configuration of payments methods and more settings can be directly done in Stripe. They might require acceptance of other terms and configuration.
 
 The payment control is automatically added to the form step that shows a preview of payment methods enabled for accepting payments. 
 
-:::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="image":::
-
 ### Preview and test your webpage 
 
 On the Pay step, you should be able to perform a payment using test cards available on Stripe's website.
+
+:::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="image":::
 
 A successful payment shows the confirmation with the amount paid and a transaction ID returned from the Payment provider.
 
