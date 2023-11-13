@@ -1,5 +1,5 @@
 ﻿---
-title: Power Pages capacity management 
+title: Power Pages capacity management (preview)
 description: Learn about capacity management in Power Pages.
 author: dileepsinghmicrosoft
 
@@ -14,11 +14,15 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Capacity management overview
+# Capacity management overview (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Power Pages capacity management experience in the Power Platform Admin Center (PPAC) allows administrators to manage Power Pages capacity and monitor capacity consumption. This experience also provides an overview of the different licensing models in use.
 
-Capacity management features allow administrators to assign the prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determining the required capacity for the environments.
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The capacity management features allow administrators to assign the prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determining the required capacity for the environments.
 
 The consumption monitoring views of the capacity management experience provide daily data for the month to date, the past two full months, and monthly data for past 12 months to help with the license budgeting and planning.
 
