@@ -18,6 +18,8 @@ contributors:
 
 Accept payments on your Power Pages websites from design studio's Set up workspace. With this integration, you can add a Stripe payment component to your multistep form, enabling your website to accept payments. 
 
+:::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="image":::
+
 > [!IMPORTANT]
 > - This is a preview feature.
 > - This feature currently only works with the [enhanced data model](../admin/enhanced-data-model.md).
@@ -86,8 +88,6 @@ The payment control is automatically added to the form step that shows a preview
 ### Preview and test your webpage 
 
 On the Pay step, you should be able to perform a payment using test cards available on Stripe's website.
-
-:::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="image":::
 
 A successful payment shows the confirmation with the amount paid and a transaction ID returned from the Payment provider.
 
