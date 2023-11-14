@@ -34,7 +34,7 @@ Power Pages capacity management experience allows pivoting between the two suppo
 
 More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
-These views and features can be used in addition to the available [website capacity consumption reports](/admin/website-consumption-reports).
+These views and features can be used in addition to the available [website capacity consumption reports](/admin/website-consumption-reports), but it is recommended to use the new view for current capacity based licensing model (Authenticated MAU and Anonymous MAU).
 
 ## Licensing summary view
 
@@ -60,11 +60,11 @@ The capacity category pivot allows switching between authenticated capacity and 
 
 #### Assignments pie chart
 
-The assignments pie chart always shows the current data for total available prepurchased capacity, the amount of assigned capacity and the amount of unassigned capacity. Any changes the administrator makes are reflected in this control. The pie chart represents the top environments in the tenant by assigned capacity, including all other environments and unassigned capacity as well. The legend below the pie shows the top five environment names.
+The assignments pie chart always shows the current data for total available prepurchased capacity, the amount of assigned capacity and the amount of unassigned capacity. Any changes the administrator makes are reflected in this control. The pie chart represents the top environments in the tenant by assigned capacity, including all other environments and unassigned capacity as well. The legend below the pie shows the top five environment names. Administrator can use this view to confirm when the new capacity has become available after procurement, if there is capacity available to be assigned to an environment nearing its assigned capacity, and if any of the top environments have unused capacity that could be reassigned.
 
 #### Consumption history graph
 
-The consumption graph visualizes the data for assigned capacity, total available capacity, consumed capacity and overage at the tenant level, if any. 
+The consumption graph visualizes the data for assigned capacity, total available capacity, consumed capacity and overage at the tenant level, if any. Administrator can use the consumption graph to determine when new capacity needs to be procured to cover the growth. 
 
 - Time ranges available are month to date, daily data for the past two full months, and monthly data for the past 12 months. 
 - Licensing capacity consumption resets in the beginning of each month and grows as unique users access the websites and licensing capacity is consumed. 
@@ -91,6 +91,10 @@ Select an environment from the list to display details of the environment on the
 If the environment is nearing or over its assigned capacity, an icon is shown and the status field indicates this status. Hover over the icon to see the consumption history from the past three months to the amount of capacity required.
 
 ## Legacy capacity and license management
+
+Legacy capacity refers to the previous Power Pages capacity based licensing model using portal logins and portal page views as metrics. Legacy license refers to Dynamics 365 Portal add-ons. Legacy capacity or legacy licenses are no longer available for purchase and have been replaced with new versions.
+
+For more information about current and legacy capacity: [Power Pages licensing](https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq?branch=main#power-pages)
 
 The licensing summary view also shows any legacy capacity in use, Dynamics 365 Portals add-ons, and pay-as-you-go sites. This information can be used for license model migration planning.
 
