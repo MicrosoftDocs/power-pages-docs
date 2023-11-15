@@ -17,6 +17,8 @@ contributors:
 
 This article provides a step-by-step guide on creating Power Pages and harnessing Power Automate cloud flows to set up an image library website. This website allows authenticated users to effectively manage and organize a gallery of images.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1eDxT]
+
 ## Prerequisite
 
 To complete this course, you need a Power Automate and Power Pages environment. If you don't have a license, you can sign up for [Power Pages](../getting-started/trial-signup.md) and [Power Automate](/power-automate/sign-up-sign-in) trials.
