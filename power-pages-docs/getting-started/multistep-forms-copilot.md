@@ -22,7 +22,7 @@ An easy way to add a multistep form to your Power Pages website is to ask Copilo
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - **TO DO: Bradley to add content here for issue 2.**
+> - Copilot in design studio is currently experiencing issues generating multistep forms. Instead, you can [create a multistep form using studio controls](tutorial-add-multi-step-form.md) or [use Copilot to generate a basic form](add-form-copilot.md).
 > - This feature doesn't support non-English language input.
 > - This feature will be available for preview in the United States only.
 > - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages design studio, see [FAQ for creating AI-generated form or multistep form](../faqs-create-form.md).

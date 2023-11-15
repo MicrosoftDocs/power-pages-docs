@@ -48,7 +48,7 @@ To use AI-powered Copilot features in Power Pages:
     - Select **Start over** to erase everything and start with a new description.
     
     > [!NOTE]
-    > - **TO DO: Bradley to add content here for issue 3.**
+    > - Copilot may add an empty form component on the page when attempting to generate a form.  To resolve this, delete the empty form component and prompt copilot again.
 
 1. To add the form to the page, select **OK**.
 

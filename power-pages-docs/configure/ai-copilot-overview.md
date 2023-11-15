@@ -30,7 +30,7 @@ Watch this brief video to learn how Copilot can help you make business websites 
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - **TO DO:  Bradley to add content here if issue 1 relates to all copilot expriences.**
+> - Copilot in design studio is temporarily unavailable for public sites.  To make a site private, see [Site visibility in Power Pages](../security/site-visibility.md).
 > - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
 To learn how to use the new AI features in Power Pages, see:
