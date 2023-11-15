@@ -100,7 +100,7 @@ Error: Persistence check failed. Data was written but it could not be read. Poss
 ```
 - You might not see login window when you use [pac auth](/power-platform/developer/cli/reference/auth) command to connect to your environment 
 
-**Mitigation**: This known issue applies only to PAC CLI version 1.29.6. To resolve the issue, revert to the previous Power Apps CLI version 1.28.3. To uninstall the latest version 1.29.6, see [What is Microsoft Power Platform CLI](/power-platform/developer/cli/introduction#install-microsoft-power-platform) and install the previous version 1.28.3 from [here](https://www.nuget.org/packages/Microsoft.PowerApps.CLI/1.28.3).
+**Mitigation**: This known issue applies only to PAC CLI version 1.29.6. To resolve the issue, revert to the previous Power Apps CLI version 1.28.3. To uninstall the latest version 1.29.6, see [Uninstall Power Platform CLI for Windows](/power-platform/developer/cli/introduction#install-microsoft-power-platform#uninstall-power-platform-cli-for-windows) and install the previous version 1.28.3 from [here](https://www.nuget.org/packages/Microsoft.PowerApps.CLI/1.28.3).
 
 
 ## General issues
