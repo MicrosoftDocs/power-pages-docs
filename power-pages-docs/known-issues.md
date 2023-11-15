@@ -89,7 +89,7 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
 
 ## Microsoft Power Platform CLI for Power Pages
 The following known issue applies only to PAC CLI version 1.29.6. 
-- You might receive the following error message while running [Power Pages download or upload command](/configure/power-platform-cli#microsoft-power-platform-cli-commands-for-portals).
+- You might receive the following error message while running [Power Pages download or upload command](configure/power-platform-cli#microsoft-power-platform-cli-commands-for-portals).
 
 ```
 Sorry, the app encountered a non recoverable error and will need to terminate. The exception details have been captured and will be forwarded to the development team, if telemetry has been enabled. Exception Id: <guid>,Exception Type: System.AggregareException  The diagnostics logs can be found at: <Pac installation location>\logs\pac-log.txt
