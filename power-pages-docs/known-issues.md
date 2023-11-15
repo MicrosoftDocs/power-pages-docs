@@ -87,6 +87,18 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
 
     Uninstall the **Power Platform Tools [PREVIEW]** version to resolve the issue.
 
+## Microsoft Power Platform CLI for Power Pages
+Following known issue applies only to PAC CLI version 1.29.6. 
+- You may receive the following error message while running [Power Pages download or upload command](https://learn.microsoft.com/power-pages/configure/power-platform-cli#microsoft-power-platform-cli-commands-for-portals).
+  [todo: Add error message]
+- You may not see login window when you use [pac auth](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/auth) command to connect to your environment 
+
+Install PAC CLI version 1.28.3 to resolve this issue.
+```
+pac install 1.28.3
+```
+
+
 ## General issues
 
 - You receive the following error message when configuring or using table fields:
