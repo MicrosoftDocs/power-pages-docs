@@ -24,7 +24,7 @@ Power Pages capacity management experience in the Power Platform Admin Center (P
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-The capacity management features allow administrators to assign the prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determining the required capacity for the environments.
+The capacity management features allow administrators to assign prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determining the required capacity for the environments.
 
 The consumption monitoring views of the capacity management experience provide daily data for the month to date, the past two full months, and monthly data for past 12 months to help with the license budgeting and planning.
 
@@ -34,7 +34,7 @@ Power Pages capacity management experience allows pivoting between the two suppo
 
 More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
-These views and features can be used in addition to the available [website capacity consumption reports](/admin/website-consumption-reports), but it is recommended to use the new view for current capacity based licensing model (Authenticated MAU and Anonymous MAU).
+These views and features can be used in addition to the available [website capacity consumption reports](/admin/website-consumption-reports); however, the new view for current capacity based licensing model (authenticated MAU and anonymous MAU) is recommended.
 
 ## Licensing summary view
 
@@ -60,7 +60,7 @@ The capacity category pivot allows switching between authenticated capacity and 
 
 #### Assignments pie chart
 
-The assignments pie chart always shows the current data for total available prepurchased capacity, the amount of assigned capacity and the amount of unassigned capacity. Any changes the administrator makes are reflected in this control. The pie chart represents the top environments in the tenant by assigned capacity, including all other environments and unassigned capacity as well. The legend below the pie shows the top five environment names. Administrator can use this view to confirm when the new capacity has become available after procurement, if there is capacity available to be assigned to an environment nearing its assigned capacity, and if any of the top environments have unused capacity that could be reassigned.
+The assignments pie chart always shows the current data for total available prepurchased capacity, the amount of assigned capacity and the amount of unassigned capacity. Any changes the administrator makes are reflected in this control. The pie chart represents the top environments in the tenant by assigned capacity, including all other environments and unassigned capacity as well. The legend below the pie shows the top five environment names. Administrators can use this view to confirm when the new capacity is available after procurement, if there's capacity available to be assigned to an environment nearing its assigned capacity, and if any of the top environments have unused capacity that could be reassigned.
 
 #### Consumption history graph
 
@@ -82,7 +82,7 @@ To manage prepurchased authenticated and anonymous capacity, administrators shou
 
 The capacity management pane allows administrators to view and manage the environments that are either already using this licensing type, and environments without any kind of license or capacity assigned.
 
-At the top of the capacity management pane, the administrator can see the total capacity available for the tenant, assigned capacity, and how much of the capacity is unassigned and available to be assigned to the environments. The capacity category (authenticated, anonymous) can be controlled with the tab control on the top.
+At the top of the capacity management pane, administrators can see the total capacity available for the tenant, assigned capacity, and how much of the capacity is unassigned and available to be assigned. The capacity category (authenticated, anonymous) can be controlled with the tab control on the top.
 
 Select an environment from the list to display details of the environment on the bottom of the pane, such as region and the type of the environment. Capacity assignment for the selected environment can be changed by entering the new amount in the **Assigned units** textbox and selecting **Apply**.
 
@@ -92,9 +92,9 @@ If the environment is nearing or over its assigned capacity, an icon is shown an
 
 ## Legacy capacity and license management
 
-Legacy capacity refers to the previous Power Pages capacity based licensing model using portal logins and portal page views as metrics. Legacy license refers to Dynamics 365 Portal add-ons. Legacy capacity or legacy licenses are no longer available for purchase and have been replaced with new versions.
+Legacy capacity refers to the previous Power Pages capacity based licensing model using portal logins and portal page views as metrics. Legacy license refers to Dynamics 365 Portal add-ons. Legacy capacity or legacy licenses are no longer available for purchase and new versions are available.
 
-For more information about current and legacy capacity: [Power Pages licensing](https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq?branch=main#power-pages)
+More information: [Power Pages licensing](/power-platform/admin/powerapps-flow-licensing-faq?branch=main#power-pages)
 
 The licensing summary view also shows any legacy capacity in use, Dynamics 365 Portals add-ons, and pay-as-you-go sites. This information can be used for license model migration planning.
 
