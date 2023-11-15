@@ -20,6 +20,9 @@ Power Pages is licensed by using **authenticated user monthly capacity** and **a
 
 Administrators can download **Power Pages authenticated** and **Power Pages anonymous** view reports (as well as legacy **Portal logins** and **Portal page views** reports) from the [Power Platform admin center](https://admin.powerplatform.com). These reports show the number of authenticated sign-ins and anonymous user site accesses for Power Pages websites across all environments for a tenant. 
 
+> [!NOTE]
+> Administrators should use the license dashboard to monitor capacity consumption for **Power Pages authenticated** and **Power Pages anonymous**. For more information: [Capacity management overview](https://learn.microsoft.com/en-us/power-pages/admin/capacity-management).
+
 ## Download the reports
 
 The individual reports contain data for a duration of 30 days preceding the date you select while downloading the reports.
