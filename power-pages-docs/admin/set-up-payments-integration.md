@@ -18,7 +18,7 @@ contributors:
 
 Accept payments on your Power Pages websites from design studio's Set up workspace. With this integration, you can add a Stripe payment component to your multistep form, enabling your website to accept payments. 
 
-:::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="image":::
+:::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="A screenshot of the payments integration inside a Power Pages site.":::
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -60,7 +60,7 @@ Once you install the package, you can begin to configure Stripe for your Power P
     > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe. 
     > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys) 
 1. In the design studio, enter the Publishable and Secret keys respectively in the **Enable integration panel**. 
-        :::image type="content" source="Media/set-up-payments-integration/stripe-integration.svg" alt-text="image":::
+        :::image type="content" source="Media/set-up-payments-integration/stripe-integration.svg" alt-text="A screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
 1. Choose **Save** and close the panel. 
 1. Select the **Sync** button. 
 
@@ -74,7 +74,7 @@ To enable payments, complete the following steps: 
 1. In the design studio, choose **Pages** and navigate to the webpage where payment experience is intended. 
 1. Add or edit the [multistep form](../getting-started/multistep-forms.md) , and create a step called *Pay* (or similar).
 1. Proceed to **Step settings**. 
-    :::image type="content" source="Media/set-up-payments-integration/form-step-settings.svg" alt-text="image":::
+    :::image type="content" source="Media/set-up-payments-integration/form-step-settings.svg" alt-text="The Step settings options inside of the Pages workspace of Power Pages design studio.":::
 
         - Select **Integrations**. 
         - Switch the **Enable digital payments** toggle to the on position. 
