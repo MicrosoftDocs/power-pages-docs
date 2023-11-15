@@ -81,7 +81,7 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
 
 ## Visual Studio Code extension for Power Pages
 
-- You man get an error when updating the Power Platform Tools for Visual Studio Code with the error message `Cannot install Power Pages generator: spawnSync npm.cmd ENOENT`. To resolve the issue, install [node.js](https://nodejs.org/en/download) and restart Visual Studio Code.
+- You may get an error when updating the Power Platform Tools for Visual Studio Code with the error message `Cannot install Power Pages generator: spawnSync npm.cmd ENOENT`. To resolve the issue, install [node.js](https://nodejs.org/en/download) and restart Visual Studio Code.
 
 - Two sets of the Power Pages create commands may appear in the menu and won't work if you have both the stable version of **Power Platform Tools** and the **Power Platform Tools [PREVIEW]** installed on Visual Studio Code.
 
@@ -90,13 +90,17 @@ For limitations related to editing Dynamics 365 templates using Power Pages desi
 ## Microsoft Power Platform CLI for Power Pages
 Following known issue applies only to PAC CLI version 1.29.6. 
 - You may receive the following error message while running [Power Pages download or upload command](https://learn.microsoft.com/power-pages/configure/power-platform-cli#microsoft-power-platform-cli-commands-for-portals).
-  [todo: Add error message]
-- You may not see login window when you use [pac auth](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/auth) command to connect to your environment 
 
-Install PAC CLI version 1.28.3 to resolve this issue.
 ```
-pac install 1.28.3
+Sorry, the app encountered a non recoverable error and will need to terminate. The exception details have been captured and will be forwarded to the development team, if telemetry has been enabled. Exception Id: <guid>,Exception Type: System.AggregareException  The diagnostics logs can be found at: <Pac installation location>\logs\pac-log.txt
 ```
+You can open pac-log.txt file and check for **MSALCachePersistenceException** to see if you are facing this issue
+```
+Error: Persistence check failed. Data was written but it could not be read. Possible cause: on Linux, LibSecret is installed but D-Bus isn't running because it cannot be started over SSH. HelpLink Url: Not Provided Stack Trace: at Microsoft.ldentity.Client.Extensions.Msal.Storage.VerifyPersistence0 at bolt.authentication.store.MsalExtensionCache
+```
+- You may not see login window when you use [pac auth](https://learn.microsoft.com/power-platform/developer/cli/reference/auth) command to connect to your environment 
+
+**Mitigation**: This known issue applies only to PAC CLI version 1.29.6. Revert to the previous Power Apps CLI version 1.28.3 to fix the issue. To uninstall the latest version 1.29.6, see [link](https://learn.microsoft.com/power-platform/developer/cli/introduction#install-microsoft-power-platform) and install the previous version 1.28.3 from [here](https://www.nuget.org/packages/Microsoft.PowerApps.CLI/1.28.3).
 
 
 ## General issues
