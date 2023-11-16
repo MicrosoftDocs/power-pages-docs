@@ -76,9 +76,9 @@ To enable payments, complete the following steps: 
 1. Proceed to **Step settings**. 
     :::image type="content" source="Media/set-up-payments-integration/form-step-settings.svg" alt-text="The Step settings options inside of the Pages workspace of Power Pages design studio.":::
 
-        - Select **Integrations**. 
-        - Switch the **Enable digital payments** toggle to the on position. 
-        - Select the currency type field on the table used to charge the amount that you wish to collect from the site user.  
+    - Select **Integrations**. 
+    - Switch the **Enable digital payments** toggle to the on position. 
+    - Select the currency type field on the table used to charge the amount that you wish to collect from the site user.  
     
     > [!NOTE]
     > Configuration of payments methods and more settings can be directly done in Stripe. They might require acceptance of other terms and configuration.
