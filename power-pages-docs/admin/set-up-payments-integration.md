@@ -35,15 +35,17 @@ To accept payments on your Power Pages site, you must complete these steps: 
 
 - Sign up for an account with Stripe as your payment provider and obtain test mode keys from the Developer dashboard. 
 - Create or identify a Microsoft Dataverse table to use in a multistep form. This table must have a currency field type that is used to charge the amount that you wish to collect from the site user. More information: [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
-
 -   Configure a [multistep form](../getting-started/multistep-forms.md) using a Dataverse table with a step to allow users to pay. This step displays the payments control once configured in a later step. 
+
+> [!NOTE]
+> This site uses [Stripe Web Elements](https://stripe.com/docs/payments/elements) payment integration approach and data is not stored in Power Pages or Dataverse. PCI compliance is a shared responsibility and applies to business as well.  Please see Stripe's documentation on [validating your PCI Compliance](https://stripe.com/docs/security/guide#validating-pci-compliance).
 
 ## Step 1: Install the package 
 
 1. In the design studio, choose **Set up**.
 1. Select **Integrations**, then **External apps**. 
 1. Choose the **Install** action for Stripe. 
-
+1. Once the package installation is complete, restart the website from [Site Actions](admin-overview.md#site-actions) in the admin center.
 The installation action might take a few minutes. The action changes to enable once the installation is complete. 
 
 ## Step 2: Configure Stripe
