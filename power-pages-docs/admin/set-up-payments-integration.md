@@ -37,9 +37,6 @@ To accept payments on your Power Pages site, you must complete these steps: 
 - Create or identify a Microsoft Dataverse table to use in a multistep form. This table must have a currency field type that is used to charge the amount that you wish to collect from the site user. More information: [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
 -   Configure a [multistep form](../getting-started/multistep-forms.md) using a Dataverse table with a step to allow users to pay. This step displays the payments control once configured in a later step. 
 
-> [!NOTE]
-> This site uses [Stripe Web Elements](https://stripe.com/docs/payments/elements) payment integration approach and data is not stored in Power Pages or Dataverse. PCI compliance is a shared responsibility and applies to business as well.  Please see Stripe's documentation on [validating your PCI Compliance](https://stripe.com/docs/security/guide#validating-pci-compliance).
-
 ## Step 1: Install the package 
 
 1. In the design studio, choose **Set up**.
@@ -102,7 +99,7 @@ If this step is the last step of your multi-step form, a submit button is enable
 
 - **Payment currencies and amounts** - Minimum and maximum payment amount values can vary by currencies. Review the [Stripe documentation on supported currencies](https://stripe.com/docs/currencies#minimum-and-maximum-charge-amounts) to ensure your form and tables are configured correctly to accept payments in that range 
 
-- **PCI DSS Compliance** – 
+- **PCI DSS Compliance** – This feature uses [Stripe Web Elements](https://stripe.com/docs/payments/elements) payment integration approach and card data is not stored in Power Pages or Dataverse. PCI compliance is a shared responsibility and applies to business as well.  Please see Stripe's documentation on [validating your PCI Compliance](https://stripe.com/docs/security/guide#validating-pci-compliance).
 
 - **Payments table –** For storing transactions, there's a new Payments table installed with the solution. The table is automatically related to the table that you choose when you configure the form steps. You can use the table to view the details of transactions and status. This table is just a snapshot of information that is provided which you can use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment related issues, you should rely on payment provider, such as Stripe's dashboard. 
 
