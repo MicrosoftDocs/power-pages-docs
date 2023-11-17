@@ -88,7 +88,7 @@ The payment control is automatically added to the form step that shows a preview
 
 On the Pay step, you should be able to perform a payment using test cards available on Stripe's website.
 
-A successful payment shows the confirmation with the amount paid and a transaction ID returned from the Payment provider.
+A successful payment shows the confirmation with the amount paid and a transaction ID returned from the payment provider.
 
 > [!NOTE]
 > Please disable back-button from Step settings if you do not wish to allow users to go to the previous step from the payment step.
@@ -101,7 +101,7 @@ If this step is the last step of your multi-step form, a submit button is enable
 
 - **PCI DSS Compliance** – This feature uses [Stripe Web Elements](https://stripe.com/docs/payments/elements) payment integration approach and card data is not stored in Power Pages or Dataverse. PCI compliance is a shared responsibility and applies to business as well.  Please see Stripe's documentation on [validating your PCI Compliance](https://stripe.com/docs/security/guide#validating-pci-compliance).
 
-- **Payments table –** For storing transactions, there's a new Payments table installed with the solution. The table is automatically related to the table that you choose when you configure the form steps. You can use the table to view the details of transactions and status. This table is just a snapshot of information that is provided which you can use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment related issues, you should rely on payment provider, such as Stripe's dashboard. 
+- **Payments table –** For storing transactions, there's a new payments table installed with the solution. The table is automatically related to the table that you choose when you configure the form steps. You can use the table to view the details of transactions and status. This table is just a snapshot of information that is provided which you can use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment related issues, you should rely on payment provider, such as Stripe's dashboard. 
 
 - **Webhook –** The payments feature also configures a webhook on Stripe that is used to asynchronously update the status of payments that might take extra time for completion.    
     > [!NOTE]
