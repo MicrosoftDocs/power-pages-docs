@@ -1,5 +1,5 @@
 ﻿---
-title: Set up Payments integration (preview)
+title: Set up payments integration (preview)
 description: Learn how to set up Payments integration with your website. 
 author: sandhangitmsft
 ms.topic: conceptual
@@ -12,11 +12,11 @@ contributors:
     - sandhangitmsft
     - ProfessorKendrick
 ---
-# Set up Payments integration (preview) 
+# Set up payments integration (preview) 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Accept payments on your Power Pages websites from design studio's Set up workspace. With this integration, you can add a payment component to your multistep form, enabling your website to accept payments. 
+Enable your Power Pages site to accept payments by using design studio's Set up workspace. With this no-code integration, you can add a payment component to your multistep form, enabling your website to integrate with a payment provider. 
 
 :::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="A screenshot of the payments integration inside a Power Pages site.":::
 
@@ -29,7 +29,7 @@ To accept payments on your Power Pages site, you must complete these steps: 
 
 - [Step 1: Install the package](#step-1-install-the-package). In this step, the site admin installs the package consisting of required tables and other prerequisites for the environment to enable payments experience. 
 - [Step 2: Configure provider](#step-2-configure-provider). In this step, the site admin or maker configures keys specific to a payment provider. 
-- [Step 3: Enable the Payments experience on your form](#step-3-enable-the-payments-experience-on-your-form). In this step, the maker includes the form and enables digital payments on the required step for the multistep form. 
+- [Step 3: Enable the payments experience on your form](#step-3-enable-the-payments-experience-on-your-form). In this step, the maker includes the form and enables digital payments on the required step for the multistep form. 
 
 ## Prerequisites 
 
@@ -63,7 +63,7 @@ Once you install the package, you can begin to configure Stripe for your Power P
 1. Choose **Save** and close the panel. 
 1. Select the **Sync** button. 
 
-## Step 3: Enable the Payments experience on your form
+## Step 3: Enable the payments experience on your form
 
 To enable payments, complete the following steps: 
 
