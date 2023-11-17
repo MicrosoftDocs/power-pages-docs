@@ -46,9 +46,6 @@ To use AI-powered Copilot features in Power Pages:
     - To change the form, select a quick action or refine your description.
     - The history shows you the descriptions you've entered so far.
     - Select **Start over** to erase everything and start with a new description.
-    
-    > [!NOTE]
-    > - Copilot may add an empty form component on the page when attempting to generate a form.  To resolve this, delete the empty form component and prompt Copilot again.
 
 1. To add the form to the page, select **OK**.
 
