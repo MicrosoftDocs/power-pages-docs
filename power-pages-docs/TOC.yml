@@ -216,6 +216,8 @@
       items:
       - name: Copresence in design studio (preview)
         href: getting-started/copresence.md
+      - name: Add comments to pages (preview)
+        href: getting-started/add-comments-to-pages.md
     - name: Power Pages design studio and Power Apps portals Studio
       href: configure/editing-sites.md
 - name: Administer Power Pages
