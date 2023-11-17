@@ -33,6 +33,9 @@ To use AI-powered Copilot features in Power Pages:
 - Your environment must be located in the United States.
 - Your browser language must be set to US-English.
 
+> [!IMPORTANT]
+> Copilot in design studio is currently experiencing issues generating multistep forms. Instead, you can [create a multistep form using studio controls](tutorial-add-multi-step-form.md) or [use Copilot to generate a basic form](add-form-copilot.md).
+
 ## Create a multistep form
 
 To use Copilot to generate a multistep form:
