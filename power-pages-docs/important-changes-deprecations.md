@@ -25,9 +25,9 @@ The announcements for changes and deprecations described in this article apply t
 > [!IMPORTANT]
 > *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
-## Site creation from Power Apps
+## Deprecation of Power Apps portals Studio
 
-Starting September 2023, blank app portal creation from Power Apps will be redirected to [Power Pages](https://make.powerpages.microsoft.com). 
+Starting November 2023, legacy Power Pages studio is deprecated. Use [Power Pages design studio](configure/design-build-overview.md) to edit your websites.
 
 ### Why can't I create a portal from Power Apps?
 
