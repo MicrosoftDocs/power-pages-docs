@@ -29,22 +29,6 @@ The announcements for changes and deprecations described in this article apply t
 
 Starting November 2023, legacy Power Pages studio is deprecated. Use [Power Pages design studio](configure/design-build-overview.md) to edit your websites.
 
-### Why can't I create a portal from Power Apps?
-
-As part of providing a streamlined and improved experience for makers to create a website, all the site creation experience is now provided through [Power Pages](https://make.powerpages.microsoft.com). You can create secure, enterprise-grade, low-code business websites with Power Pages. More information: [Create a site with Power Pages](getting-started/create-manage.md)
-
-### Why don't I see Dynamics 365 portal templates in Power Apps?
-
-You can create websites using the Dynamics 365 templates from [Power Pages](https://make.powerpages.microsoft.com). More information: [Dynamics 365 templates](templates/dynamics-365-apps/overview.md)
-
-### Why don't I see Dynamics 365 portal templates in Power Pages? 
-
-If you are using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You will see them in subsequent sites created, provided that the environment has any of the Dynamics 365 applications installed in it.   
-
-### Why don't I see my Portals created in Power Apps under the **Apps** list in Portals Studio? 
-
-Starting October 2023, portals created in Power Apps portals will show in [Power Pages](https://make.powerpages.microsoft.com), More information: [Manage sites created in Power Apps](/power-apps/maker/portals/manage-existing-portals)
-
 ### Will I lose access to all portals and websites that I created in Power Apps?
 
 No. You continue to have access to all the portals and websites that you created through the Power Apps Maker portal. You can access these from [Power Pages](https://make.powerpages.microsoft.com). More information: [Manage sites](admin/manage-sites.md) 
