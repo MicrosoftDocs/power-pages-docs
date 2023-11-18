@@ -31,7 +31,7 @@ Starting November 2023, legacy Power Pages studio is deprecated. Use [Power Page
 
 ### Will I lose access to all portals and websites that I created in Power Apps?
 
-No. You continue to have access to all the portals and websites that you created through the Power Apps Maker portal. You can access these from [Power Pages](https://make.powerpages.microsoft.com). More information: [Manage sites](admin/manage-sites.md) 
+No. You continue to have access to all the portals and websites that you created through Power Apps portals Studio. You can access these from [Power Pages](https://make.powerpages.microsoft.com). More information: [Manage sites](admin/manage-sites.md) 
 
 ## Power Apps portals admin center
 
