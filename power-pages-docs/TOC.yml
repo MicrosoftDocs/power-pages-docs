@@ -214,8 +214,10 @@
               href: configure/build-progressive-web-apps.md
     - name: Collaborate in design studio
       items:
-      - name: Copresence in design studio (preview)
+      - name: Copresence in design studio
         href: getting-started/copresence.md
+      - name: Add comments to pages (preview)
+        href: getting-started/add-comments-to-pages.md
     - name: Power Pages design studio and Power Apps portals Studio
       href: configure/editing-sites.md
 - name: Administer Power Pages
@@ -440,6 +442,8 @@
       href: configure/azure-front-door.md
     - name: Set up DocuSign integration (preview)
       href: admin/set-up-docusign-integration.md
+    - name: Set up payments integration (preview)
+      href: admin/set-up-payments-integration.md
     - name: Integrate Power BI
       items:
         - name: Set up Power BI integration

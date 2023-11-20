@@ -15,7 +15,9 @@ contributors:
 
 # How to: Create an image library using cloud flow and Power Pages
 
-This article provides a step-by-step guide on creating Power Pages and harnessing Power Automate cloud flows to set up an image library website. This website allows authenticated users to effectively manage and organize a gallery of images.
+This article provides a step-by-step guide on creating Power Pages and harnessing Power Automate cloud flows to set up an image library website. This website allows authenticated users to effectively manage and organize a gallery of images.<br />
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1eDxT]
 
 ## Prerequisite
 
@@ -88,7 +90,7 @@ In this step, you create a flow using the Power Pages trigger and use OneDrive t
 
     1. Name: **Image Value**.
 
-    1. Image Value: ```{ "Id":< Id from the dynamic content>, "URL":<Web URL from the dynamic content>}``` 
+    1. Image Value: ```{ "Id":"< Id from the dynamic content>", "URL":"<Web URL from the dynamic content>"}``` 
     
     1. Flow name: **Upload image flow**.
 
@@ -173,7 +175,7 @@ Once you create your Image flow, follow the steps in this section to view the fl
     1. Name: Image Array
 
     1. Value: <br />
-        ```{ "Id": Id from the dynamic content, "URL": Web URL from the dynamic content }```
+        ```{ "Id":"<Id from the dynamic content>", "URL":"<Web URL from the dynamic content>" }```
 
 1. Select **+ New step**.
 

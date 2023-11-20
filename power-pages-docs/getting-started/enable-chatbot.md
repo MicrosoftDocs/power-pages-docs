@@ -21,7 +21,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *boosted conversations*&mdash;that is, natural language and generative answers&mdash;to answer questions and suggest solutions to issues in a conversational way.
+A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *generative answers*&mdash;that is, natural language to answer questions and suggest solutions to issues in a conversational way.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1cRVN]
 
@@ -30,7 +30,7 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - To understand the capabilities and limitations of this feature, see [FAQ for chatbot](../faqs-chatbot.md).
-> - Chatbot uses Power Virtual Agents boosted conversations and Bing Search to retrieve information from publicly available URLs. Your use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+> - Chatbot uses Power Virtual Agents generative answers and Bing Search to retrieve information from publicly available URLs. Your use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
 
 ## Prerequisites
 
@@ -38,7 +38,8 @@ To use AI-powered Copilot features in Power Pages:
 
 - Your environment must be located in the United States.
 - Your browser language must be set to US-English.
-- Your tenant administrator must turn on the setting **Publish bots with boosted conversations** in the Power Platform admin center.
+- Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
+- Chatbot uses Power Virtual Agent generative answers. Please refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
 
 ## Add a chatbot
 
@@ -49,11 +50,11 @@ To use AI-powered Copilot features in Power Pages:
 
 1. Turn on **Create and test chatbot**.
 
-    Power Pages creates a [bot with boosted conversation](/power-virtual-agents/nlu-boost-conversations) for you in Power Virtual Agents. 
+    Power Pages creates a [bot with generative answers conversation](/power-virtual-agents/nlu-boost-conversations) for you in Power Virtual Agents. 
 
 1. To make the chatbot available to visitors and users, turn on **Publish chatbot on site**.
 
-    If your tenant admin hasn't turned on publishing boosted bots, the **Publish chatbot on site** setting isn't available.
+    If your tenant admin hasn't turned on publish bots with AI features, the **Publish chatbot on site** isn't available.
 
 After you publish the chatbot on your site, the site URL is passed to Bing for indexing. The indexing process can take up to a day, but you can [force Bing to index your site's content immediately](force-bing-index.md).
 
