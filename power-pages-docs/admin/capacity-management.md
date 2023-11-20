@@ -1,24 +1,25 @@
 ﻿---
-title: Capacity management (preview)
+title: Manage and monitor capacity (preview)
 description: Learn about capacity management in Power Pages.
 author: dileepsinghmicrosoft
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/07/2023
+ms.date: 11/20/2023
 ms.subservice: 
 ms.author: dileeps
 ms.reviewer: kkendrick
 contributors:
     - dileepsinghmicrosoft
     - ProfessorKendrick
+ms.contributors:
+ - psimolin
 ---
 
-# Capacity management overview (preview)
+# Manage and monitor capacity (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Pages capacity management experience in the Power Platform Admin Center (PPAC) allows administrators to manage Power Pages capacity and monitor capacity consumption. This experience also provides an overview of the different licensing models in use.
+Power Pages capacity management experience in the Power Platform admin center allows administrators to manage Power Pages capacity and monitor capacity consumption. This experience also provides an overview of the different licensing models in use.
 
 > [!IMPORTANT]
 > - This feature is a preview feature.
@@ -30,21 +31,21 @@ The consumption monitoring views of the capacity management experience provide d
 
 The licensing summary view includes information about production websites using legacy licensing models as well, which helps planning the licensing model migration from legacy to current licensing models.
 
-Power Pages capacity management experience allows pivoting between the two supported capacity categories: authenticated MAU and anonymous MAU. 
+Power Pages capacity management experience allows pivoting between the two supported capacity categories: authenticated MAU (monthly active users) and anonymous MAU.
 
 More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
-These views and features can be used in addition to the [website capacity consumption reports](/admin/website-consumption-reports); however, for monitoring the consumption of current capacity (authenticated MAU and anonymous MAU) it is recommended to use these new views.
+These views and features can be used in addition to the [website capacity consumption reports](/admin/website-consumption-reports); however, for monitoring the consumption of current capacity (authenticated MAU and anonymous MAU) it's recommended to use these new views.
 
 ## Licensing summary view
 
-The licensing summary view is located under Billing (preview) and Licenses (preview). Once Power Pages is selected from the product selector, the tenant level licensing summary view displays.
+The licensing summary view is located under **Billing (preview)** > **Licenses (preview)**. Once Power Pages is selected from the product selector, the tenant level licensing summary view displays.
 
-:::image type="content" source="Media/capacity-management/licensing-summary.png" alt-text="A screenshot of the Licensing Summary tenent-level view inside of Power Platform Admin Center.":::
+:::image type="content" source="Media/capacity-management/licensing-summary.png" alt-text="A screenshot of the Licensing Summary tenent-level view inside of Power Platform admin center.":::
 
 ### License type cards
 
-License type cards are shown at the top of the view. The cards provide information about different license types in use in production and relevant metrics such as capacity available (Total) and capacity assigned (Assigned). 
+License type cards are shown at the top of the view. The cards provide information about different license types in use in production and relevant metrics such as **Total** (capacity available), and **Assigned** (capacity assigned). 
 
 For capacity-based licensing models, the card has a link to either the capacity management experience or the legacy capacity management panel, depending on the license type. 
 

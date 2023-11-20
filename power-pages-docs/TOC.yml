@@ -228,8 +228,6 @@
       href: admin/admin-center-security.md
     - name: Monitor traffic to your websites (preview)
       href: admin/admin-center-analytics.md
-    - name: Capacity management (preview)
-      href: admin/capacity-management.md
     - name: Roles required for administration
       href: admin/admin-roles.md
     - name: Configure website actions
@@ -252,6 +250,8 @@
       href: admin/manage-custom-certificates.md
     - name: Content Delivery Network
       href: configure/configure-cdn.md
+    - name: Manage and monitor capacity (preview)
+      href: admin/capacity-management.md
     - name: Capacity consumption reports
       href: admin/website-consumption-reports.md
     - name: Restrict IP addresses
