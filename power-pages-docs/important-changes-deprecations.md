@@ -27,7 +27,7 @@ The announcements for changes and deprecations described in this article apply t
 
 ## Deprecation of Power Apps portals Studio
 
-Starting November 2023, legacy Power Pages studio is deprecated. Use [Power Pages design studio](configure/design-build-overview.md) to edit your websites.
+Effective November 2023, legacy Power Pages studio is deprecated. Use [Power Pages design studio](configure/design-build-overview.md) to edit your websites instead.
 
 ### Will I lose access to all portals and websites that I created in Power Apps?
 
