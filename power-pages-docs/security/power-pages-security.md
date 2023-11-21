@@ -1,10 +1,10 @@
 ---
 title: Power Pages security
 description: Learn how to secure the websites you create with Microsoft Power Pages.
-ms.date: 07/20/2023
+ms.date: 11/08/2023
 ms.topic: overview
 author: nickdoelman
-ms.author: ndoelman
+ms.author: kkendrick
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
@@ -21,48 +21,55 @@ An important consideration when you build public-facing websites is how to make 
 - [Web roles](#web-roles)
 - [Table permissions](#table-permissions)
 - [Page permissions](#page-permissions)
+- [HTTPS Headers](#https-headers)
 
 ## Site visibility
 
-The site visibility setting controls who can access the sites you create in Power Pages. By default, all Power Pages sites are available to users who are internal to your organization. The extra layer of security that Azure Active Directory (Azure AD) authentication provides helps to prevent accidental leaks of partially developed website data and designs.
+The site visibility setting controls who can access the sites you create in Power Pages. By default, all Power Pages sites are available to users who are internal to your organization. The extra layer of security that Microsoft Entra authentication provides helps to prevent accidental leaks of partially developed website data and designs.
 
-When your website is ready to go live, change the site visibility to public. The public setting makes the site accessible to everyone over the Internet anonymously or to users authenticated through identity providers.
+When your website is ready to go live, change the site visibility to public. The public setting makes the site accessible to everyone over the Internet anonymously or to users authenticated through identity providers. 
 
-[Learn more about site visibility](site-visibility.md).
+More information: [Site visibility in Power Pages](site-visibility.md)
 
 ## Authenticated users
 
-Microsoft Dataverse contact records represent Power Pages users. Users can get access to your site through authentication. You can integrate Power Pages with authentication providers like Azure AD B2C, Microsoft, and LinkedIn. Authenticated users can be assigned web roles that provide specific access to information on the site.
+Microsoft Dataverse contact records represent Power Pages users. Users can get access to your site through authentication. You can integrate Power Pages with authentication providers like Azure AD B2C, Microsoft, and LinkedIn. Authenticated users can be assigned web roles that provide specific access to information on the site. 
 
-[Learn more about authentication](authentication/index.md).
+More information: [Overview of authentication in Power Pages](authentication/index.md)
 
 ## Web roles
 
 Web roles allow users to perform special actions or access protected content and data on the site. Web roles link to users, table permissions, and page permissions. Because users can be assigned multiple web roles, they can get cumulative access to site resources.
 
-All authenticated users, or contacts, are automatically assigned to the Authenticated Users web role. Anonymous, or unauthenticated, users can visit a site and get access to assets through the Anonymous Users web role.
+All authenticated users, or contacts, are automatically assigned to the Authenticated Users web role. Anonymous, or unauthenticated, users can visit a site and get access to assets through the Anonymous Users web role. 
 
-[Learn how to create web roles](create-web-roles.md).
+More information: [Create and assign web roles](create-web-roles.md)
 
 ## Table permissions
 
-Access to Dataverse information through [lists](../getting-started/add-list.md), [forms](../getting-started/add-form.md), [Liquid](../configure/liquid-overview.md), and the [Web API](../configure/web-api-overview.md) is protected by table permissions. You can configure table permissions to allow different levels of access and privileges to Dataverse records. Table permissions are associated with web roles to provide appropriate access to users.
+Access to Dataverse information through [lists](../getting-started/add-list.md), [forms](../getting-started/add-form.md), [Liquid](../configure/liquid-overview.md), and the [Web API](../configure/web-api-overview.md) is protected by table permissions. You can configure table permissions to allow different levels of access and privileges to Dataverse records. Table permissions are associated with web roles to provide appropriate access to users. 
 
-[Learn more about table permissions](table-permissions.md).
+More information: [Configure table permissions](table-permissions.md)
 
 ## Page permissions
 
-Page permissions that are associated with web roles to allow access can protect content and components on individual pages.
+Page permissions that are associated with web roles to allow access can protect content and components on individual pages. 
 
-[Learn more about page permissions](page-security.md).
+More information: [Set page permissions](page-security.md)
 
-## Additional website security
+## HTTPS Headers
 
-You can integrate Power Pages sites with any web application firewall infrastructure, such as Azure Front Door, to provide extra protection against common web application attacks.
+The cross-origin resource sharing (CORS) protocol consists of a set of headers that indicates whether a response can be shared with another domain. You can configure CORS support in Power Pages using the Portal Management app by adding and configuring the site settings. 
 
-[Learn how to integrate Power Pages with Azure Front Door](/power-apps/maker/portals/azure-front-door).
+More information: [HTTP headers](site-checker-security.md#http-headers)
 
-## Deep dive: Architecture and security
+## More website security
+
+You can integrate Power Pages sites with any web application firewall infrastructure, such as Azure Front Door, to provide extra protection against common web application attacks. 
+
+More information: [Set up Azure Front Door with Power Pages sites](/power-apps/maker/portals/azure-front-door)
+
+## Deep dive: architecture and security
 
 The following white papers allow you to explore Power Pages architecture and security at a deeper level.
 

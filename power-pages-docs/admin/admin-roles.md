@@ -24,6 +24,9 @@ For example, some tasks might require the user to be a member of admin roles in 
 
 In this article, you'll learn about the roles and permissions required to do different administrative tasks for Power Pages.
 
+> [!NOTE] 
+> A user must be a direct member of the below roles to be able to take the respective actions. Roles are not inherited from a security group (that the user is a member of) or via privileged identity management.  
+
 ## Required roles and permissions
 
 The following table lists different administrative tasks for Power Pages, and the roles required to do that task. Users who are members of those roles can perform the corresponding task.
@@ -35,7 +38,7 @@ The following table lists different administrative tasks for Power Pages, and th
 | [Manage authentication key](manage-auth-key.md) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> <li> [Global administrator](#global-administrator) </li> </ul> |
 | [Convert an existing website to capacity-based model](convert-site.md) |  [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> <li> [Global administrator](#global-administrator) </li> </ul> |
 | [Convert a website from trial to production](convert-site.md#convert-a-website-from-trial-to-production) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> <li> [Global administrator](#global-administrator) </li> </ul> |
-| [Create a website](../getting-started/create-manage.md) | Required roles and permissions in Microsoft Power Platform (**all** are required):<ul><li>A user account with [Read-Write Access Mode](#read-write-access-mode).</li><li>[System administrator](#system-administrator) role. </li><li>[Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Azure AD are required.</br><li>Is [website creation disabled](/power-apps/maker/portals/control-portal-creation) in the tenant? </li><ul><li> If **Yes**, in **addition** to the roles and permissions above, a user will also need at least one of the following roles to create a website: [Global administrator](#global-administrator), [Dynamics 365 administrator](#dynamics-365-administrator), or [Power Platform administrator](#power-platform-administrator).</li></ul></ul>|
+| [Create a website](../getting-started/create-manage.md) | Required roles and permissions in Microsoft Power Platform (**all** are required):<ul><li>A user account with [Read-Write Access Mode](#read-write-access-mode).</li><li>[System administrator](#system-administrator) role. </li><li>[Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Microsoft Entra are required.</br><li>Is [website creation disabled](/power-apps/maker/portals/control-portal-creation) in the tenant? </li><ul><li> If **Yes**, in **addition** to the roles and permissions above, a user will also need at least one of the following roles to create a website: [Global administrator](#global-administrator), [Dynamics 365 administrator](#dynamics-365-administrator), or [Power Platform administrator](#power-platform-administrator).</li></ul></ul>|
 | [Download the public key of a website](get-public-key.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> <li> [Global administrator](#global-administrator) </li> </ul> |
 | [Import metadata translation](import-metadata-translation.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> <li> [Global administrator](#global-administrator) </li> </ul> |
 | [Delete a website](delete-website.md) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> <li> [Global administrator](#global-administrator) </li> </ul> |
@@ -83,7 +86,7 @@ A *website app owner* is a user who owns the website [application registration](
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-1. Search for and select **Azure Active Directory**.
+1. Search for and select **Microsoft Entra ID**.
 
 1. Under **Manage**, select **App registrations**.
 
@@ -129,5 +132,4 @@ To assign a user the Power Platform administrator role, go to [Assign a service 
 
 [admin center](admin-overview.md)  
 [Portal Management app](../configure/portal-management-app.md)  
-[Site settings](/power-apps/maker/portals/configure/configure-site-settings)  
-
+[Site settings](/power-apps/maker/portals/configure/configure-site-settings)

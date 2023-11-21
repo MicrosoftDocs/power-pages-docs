@@ -52,10 +52,10 @@ More information: [Overview of authentication in Power Pages)](../security/authe
 
 ### Internal users
 
-Users within your organization should use **Azure Active Directory (Azure AD)**. Using Azure AD provides a seamless sign-in experience via an active session.  Using Azure AD also aids in site security.  When a user leaves the organization, their Azure AD account is disabled, and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Azure AD pre-configured.
+Users within your organization should use **Microsoft Entra**. Using Microsoft Entra ID provides a seamless sign-in experience via an active session.  Using Microsoft Entra ID also aids in site security.  When a user leaves the organization, their Microsoft Entra account is disabled, and they can no longer access the protected pages on your site. For your convenience, all Power Pages sites come with Microsoft Entra ID pre-configured.
 
 > [!TIP] 
-> Rename the login button from Azure AD to something more friendly like "Contoso Employees" or "Contoso Work Account". Create a Site Setting named "Authentication/OpenIdConnect/AzureAD/Caption" and specify the value you wish to display. Use the [Portal Management app](portal-management-app.md) to create and modify **Site Settings**.
+> Rename the login button to something more friendly like "Contoso Employees" or "Contoso Work Account". Create a Site Setting named "Authentication/OpenIdConnect/AzureAD/Caption" and specify the value you wish to display. Use the [Portal Management app](portal-management-app.md) to create and modify **Site Settings**.
 
 ### External users
 

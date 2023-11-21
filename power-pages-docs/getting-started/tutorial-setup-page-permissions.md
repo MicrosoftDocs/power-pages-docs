@@ -63,7 +63,7 @@ The following steps outline how to configure page permissions to restrict access
 
     :::image type="content" source="media/tutorial-page-permissions/page-permissions-no-view.png" alt-text="Screenshot that confirms the protected page isn't visible to a user who isn't signed in.":::
 
-1. Sign in to your site. You can use **Azure AD** for the purposes of this tutorial.
+1. Sign in to your site. You can use **Microsoft Entra ID** for the purposes of this tutorial.
 
     The link to the protected page should be visible in the main menu and you should be able to view the page.
 
