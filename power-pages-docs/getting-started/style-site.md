@@ -70,7 +70,7 @@ After a new color is added to the color palette, it can be used to color compone
 > [!NOTE]
 > For sites created using Power Pages prior to September 23, 2022 there is a known issue related to themes. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
 
-## Undo/redo (preview)
+## Undo/redo
 
 You can select the **Undo** and **Redo** icons in the **Styling** workspace to revert theme updates for all the scenarios related to changing a current selected theme.
 
