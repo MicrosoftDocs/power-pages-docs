@@ -27,7 +27,7 @@ Now, you can securely invoke Power Automate cloud flows from Power Pages to inte
 
 ## Prerequisites
 
-You need a Power Automate per flow license to integrate with Power Pages.
+To integrate with Power Pages, a Power Automate license is required. It is recommended to use Power Automate per flow license in the production instance.
 
 ## Steps to integrate cloud flow
 
