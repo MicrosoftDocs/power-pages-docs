@@ -36,7 +36,7 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the United States.
+- Your environment must be located in the Europe, United Kingdom, or United States regions.
 - Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
 - Chatbot uses Power Virtual Agent generative answers. Please refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
@@ -231,7 +231,7 @@ Text color:
 ## Known issues
 
 - You can't change your site's custom domain after you add a chatbot. Instead, turn off the chatbot, change the custom domain, and then turn the chatbot on again.
-- Although you can turn on the chatbot feature on sites that you create outside the United States, the chatbot might not be created.
+- Although you can turn on the chatbot feature on sites that you create outside the [regions chatbot is available in](#prerequisites), the chatbot might not be created.
 - If you turn off the chatbot feature, allow a few minutes for background operations to complete before you turn it on again.
 
 ### See also
