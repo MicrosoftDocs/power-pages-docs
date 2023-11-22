@@ -2,7 +2,7 @@
 title: Add an AI-powered chatbot (preview)
 description: Learn how to add an AI-powered chatbot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 09/07/2023
+ms.date: 1/22/2023
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
