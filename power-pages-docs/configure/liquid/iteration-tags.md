@@ -234,6 +234,24 @@ Child Page 4
 
 These parameters of tablerowcan be used alone, or in combination.
 
+**cols**
+
+Dictates how many rows the generated table should have.
+
+**Code**
+
+```
+<table>
+
+{% tablerow child_page in page.children cols:2 %}
+
+{{ child_page.title }}
+
+{% endtablerow %}
+
+</table>
+```
+
 **Output**
 
 ```
@@ -273,24 +291,6 @@ Child Page 4
 
 </table>
 ```
-
-**Code**
-
-```
-<table>
-
-{% tablerow child_page in page.children cols:2 %}
-
-{{ child_page.title }}
-
-{% endtablerow %}
-
-</table>
-```
-
-Dictates how many rows the generated table should have.
-
-**cols**
 
 **limit**
 
@@ -332,11 +332,11 @@ Child Page 2
 </tr>
 
 </table>
-
-offset
 ```
 
-Starts the loop at given index.
+**offset**
+
+Starts the loop at a given index.
 
 **Code**
 
@@ -390,6 +390,36 @@ Defines a range of numbers to loop through.
 {{ i }}
 
 {% endtablerow %}
+
+</table>
+```
+
+**Output**
+
+```
+<table>
+
+<tr class=row1>
+
+<td class=col1>
+
+Child Page 1
+
+</td>
+
+<td class=col2>
+
+Child Page 2
+
+</td>
+
+<td class=col3>
+
+Child Page 3
+
+</td>
+
+</tr>
 
 </table>
 ```
