@@ -60,7 +60,7 @@ After you publish the chatbot on your site, the site URL is passed to Bing for i
 
 ## Customize your chatbot
 
-When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. The question entered by a site user is always shared with Bing search. Please refer to the [FAQ for Chatbot](/power-pages/faqs-chatbot?source=recommendations#what-is-chatbot-in-power-pages) to learn how to disable Bing search.
+When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. The question entered by a site user is always shared with Bing search. Please refer to the [FAQ for Chatbot](/power-pages/faqs-chatbot?source=recommendations#how-to-turnoff-ai-chatbot-using-bing-search) to learn how to disable Bing search.
 
 Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following these steps: 
 
