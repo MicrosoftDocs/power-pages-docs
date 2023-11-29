@@ -53,17 +53,17 @@ When a feature is enabled, the bot is created with a content moderation set to *
 Disable AI chatbot using Bing search by following these steps:
 
 1.  Open [Copilot Studio](https://web.powerva.microsoft.com/)
-2.	Choose the same environment where Power Pages site is created
-3.	Select the Copilot named as **Site Name bot**
-4.	Navigate to **Topics**
-5.	Select **System** topics tab
-6.	Click on **Conversational boosting** topic
-7.	Navigate to **Create generative answers** node
-8.	Click on **Edit** under Data sources
-9.	Delete site url appeared under **Public websites** section
-10.	Click on **Save**
-11.	Navigate to **Publish** left navigation link
-12.	Click **Publish**
+2.	Choose the same environment where your Power Pages site was created.
+3.	Select the Copilot named as **Site Name bot**.
+4.	Navigate to **Topics**.
+5.	Select the **System** topics tab.
+6.	Choose the **Conversational boosting** topic.
+7.	Navigate to **Create generative answers** node.
+8.	Select **Edit** under Data sources.
+9.	Delete the site url under the **Public websites** section.
+10.	Choose **Save**.
+11.	Navigate to the **Publish** left navigation link.
+12.	Select **Publish**.
 
 ## See also
 
