@@ -54,7 +54,7 @@ Disable AI chatbot using Bing search by following these steps:
 
 1.  Open [Copilot Studio](https://web.powerva.microsoft.com/)
 2.	Choose the same environment where Power Pages site is created
-3.	Select the Copilot named as **<Site Name> bot**
+3.	Select the Copilot named as **[Site Name] bot**
 4.	Navigate to **Topics**
 5.	Select **System** topics tab
 6.	Click on **Conversational boosting** topic
