@@ -212,9 +212,9 @@ The following table explains the attributes associated with the blogs object.
 | \[blog name or id\] | You can access any blog by its Name or Id properties.                   
 
 ```
-{% assign blog = blogs[Blog Name] %}                             
+{% assign blog = blogs["Blog Name"] %}                             
 
-{% assign blog = blogs[da8b8a92-2ee6-476f-8a21-782b047ff460] %}  |
+{% assign blog = blogs["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}  |
 ```
 
 ### blog Object
