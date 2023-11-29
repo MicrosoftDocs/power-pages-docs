@@ -36,7 +36,7 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the Europe, United Kingdom, or United States regions.
+- Your environment must be located in the Europe, United Kingdom, or United States regions. Please review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
 - Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
 - Chatbot uses Power Virtual Agent generative answers. Please refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
@@ -60,7 +60,7 @@ After you publish the chatbot on your site, the site URL is passed to Bing for i
 
 ## Customize your chatbot
 
-When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. 
+When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. The question entered by a site user is always shared with Bing search. Please refer to the [FAQ for Chatbot](/power-pages/faqs-chatbot?source=recommendations#what-is-chatbot-in-power-pages) to learn how to disable Bing search.
 
 Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following these steps: 
 
@@ -70,7 +70,7 @@ Authenticated site users receive tailored, summarized answers that align with th
     - You can select multiple tables in this section. Ensure that any table you select here's used on the site. 
     - On subsequent pages, you must specify the page where the table is used for generating the citation URL. 
 1. Choose **Next**. 
-1. Under the **Choose table**, select the table that contains the columns and page link you wish to select.
+1. Under the **Choose table**, select the table that contains the columns and page link you wish to select. The table will not appear unless it has at least one multi-line column.
     - You can select one table at a time. 
 1. Under **Add page link**, select the page where table is used.  
 
