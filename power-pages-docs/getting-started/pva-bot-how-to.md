@@ -12,15 +12,17 @@ contributors:
 ms.custom: bap-template
 ---
 
+# How to: replace the default Power Pages AI chatbot with a Power Virtual Agents bot
+
 This article offers a comprehensive, step-by-step guide for updating default Power Pages AI chatbot with Power Virtual Agents bot.
 
-# Prerequisite
+## Prerequisite
 
 -  You must have a bot created in [Power Virtual Agent](https://learn.microsoft.com/en-in/power-virtual-agents/nlu-gpt-quickstart#create-a-boosted-bot).
 
 -  [AI chatbot](https://learn.microsoft.com/en-us/power-pages/getting-started/enable-chatbot#add-a-chatbot) must be created and published in the site where you're updating the Power Virtual Agents bot.
 
-# Copy the bot schema name
+## Copy the bot schema name
 
 1. Sign in to [Power Virtual Agents](https://web.powerva.microsoft.com/)
 
@@ -32,7 +34,7 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 1. Copy the **Schema name**
 
-# Verify Data model version
+## Verify Data model version
 
 AI chatbot can be enabled for both Standard and Enhanced site data model. The steps to replace it vary based on the data model. Make sure you're following the right steps based on the data model.
 
@@ -42,7 +44,7 @@ AI chatbot can be enabled for both Standard and Enhanced site data model. The st
 
 1. Verify the **Data Model** version. You can choose **Standard** or **Enhanced**.
 
-# Updating bot in Standard data model site
+## Update the bot in Standard data model site
 
 1. Go to the [Data workspace](use-data-workspace.md).
 
@@ -52,7 +54,7 @@ AI chatbot can be enabled for both Standard and Enhanced site data model. The st
 
 1. Replace Bot Schema Name column value with new bot schema name you copied earlier.
 
-# Updating bot in Enhanced data model
+## Update the bot in Enhanced data model
 
 1. Go to the [Data workspace](use-data-workspace.md).
 
