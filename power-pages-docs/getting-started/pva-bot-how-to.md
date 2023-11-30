@@ -20,19 +20,19 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 -  You must have a bot created in [Power Virtual Agent](/power-virtual-agents/nlu-gpt-quickstart#create-a-boosted-bot).
 
--  [AI chatbot](enable-chatbot.md#add-a-chatbot)must be created and published in the site where you're updating the Power Virtual Agents bot.
+-  Your [AI chatbot](enable-chatbot.md#add-a-chatbot) must be created and published in the site where you're updating the Power Virtual Agents bot.
 
 ## Copy the bot schema name
 
-1. Sign in to [Power Virtual Agents](https://web.powerva.microsoft.com/)
+1. Sign in to [Power Virtual Agents](https://web.powerva.microsoft.com/).
 
-1. Select the bot, which needs to be updated
+1. Select the bot, which needs to be updated.
 
-1. Navigate to **Copilot details** under **Settings**
+1. Navigate to **Copilot details** under **Settings**.
 
-1. Select **Advanced** tab
+1. Select **Advanced** tab.
 
-1. Copy the **Schema name**
+1. Copy the **Schema name**.
 
 ## Verify Data model version
 
@@ -52,7 +52,7 @@ AI chatbot can be enabled for both Standard and Enhanced site data model. The st
 
 1. Locate the row with selected website name.
 
-1. Replace Bot Schema Name column value with new bot schema name you copied earlier.
+1. Replace the Bot Schema Name column value with new bot schema name you copied earlier.
 
 ## Update the bot in Enhanced data model
 
