@@ -20,7 +20,7 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 -  You must have a bot created in [Power Virtual Agent](/power-virtual-agents/nlu-gpt-quickstart#create-a-boosted-bot).
 
--  [AI chatbot](getting-started/enable-chatbot#add-a-chatbot) must be created and published in the site where you're updating the Power Virtual Agents bot.
+-  [AI chatbot](enable-chatbot.md#add-a-chatbot)must be created and published in the site where you're updating the Power Virtual Agents bot.
 
 ## Copy the bot schema name
 
