@@ -1,7 +1,7 @@
 ---
 title: FAQ for chatbot
 description: This FAQ to add chatbot and the key considerations for making use of this technology responsibly.
-ms.date: 11/29/2023
+ms.date: 11/30/2023
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
@@ -10,6 +10,7 @@ ms.reviewer: ndoelman
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - nageshbhat-msft
 ---
 
 # FAQ for chatbot
@@ -48,9 +49,9 @@ You're able to test the bot before making it available to your site users. Evalu
 
 When a feature is enabled, the bot is created with a content moderation set to **High** by default. This setting filters the offensive content by using Azure Open AI’s content filtering and Azure Content Moderator.
 
-## How to turnoff AI chatbot using Bing search?
+## How can I prevent my chatbot from utilizing Bing Search?
 
-Disable AI chatbot using Bing search by following these steps:
+Prevent chatbot from using Bing search by following these steps:
 
 1.  Open [Copilot Studio](https://web.powerva.microsoft.com/)
 2.	Choose the same environment where your Power Pages site was created.
