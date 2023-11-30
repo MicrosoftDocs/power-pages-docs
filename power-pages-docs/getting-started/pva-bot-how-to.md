@@ -1,69 +1,71 @@
 ﻿---
-title: "How to: replace default Power Pages AI chatbot with PVA bot"
+title: "How to: replace the default Power Pages AI chatbot with a Power Virtual Agents bot"
+description: Learn how to replace the default Power Pages AI chatbot with a Power Virtual Agents bot.
+ms.topic: how-to
+ms.date: 11/30/2023
+author: nageshbhat-msft
+ms.author: nabha
+ms.reviewer: kkendrick
+contributors:
+  - ProfessorKendrick
+  - nageshbhat-msft
+ms.custom: bap-template
 ---
 
-This article offers a comprehensive, step-by-step guide for updating default Power Pages AI chatbot with PVA bot.
+This article offers a comprehensive, step-by-step guide for updating default Power Pages AI chatbot with Power Virtual Agents bot.
 
 # Prerequisite
 
--   You must have a bot created in [Power Virtual Agent](https://learn.microsoft.com/en-in/power-virtual-agents/nlu-gpt-quickstart#create-a-boosted-bot).
+-  You must have a bot created in [Power Virtual Agent](https://learn.microsoft.com/en-in/power-virtual-agents/nlu-gpt-quickstart#create-a-boosted-bot).
 
--   [AI chatbot](https://learn.microsoft.com/en-us/power-pages/getting-started/enable-chatbot#add-a-chatbot) must be created and published in the site where you are updating the PVA bot.
+-  [AI chatbot](https://learn.microsoft.com/en-us/power-pages/getting-started/enable-chatbot#add-a-chatbot) must be created and published in the site where you're updating the Power Virtual Agents bot.
 
 # Copy the bot schema name
 
-1.  Sign in to [Power Virtual Agents](https://web.powerva.microsoft.com/)
+1. Sign in to [Power Virtual Agents](https://web.powerva.microsoft.com/)
 
-2.  Select the bot which needs to be updated
+1. Select the bot, which needs to be updated
 
-3.  Navigate to **Copilot details** under **Settings**
+1. Navigate to **Copilot details** under **Settings**
 
-4.  Select **Advanced** tab
+1. Select **Advanced** tab
 
-5.  Copy the **Schema name**
-
-![A screenshot of a computer Description automatically generated](media/image1.gif)
+1. Copy the **Schema name**
 
 # Verify Data model version
 
-AI chatbot can be enabled for both Standard and Enhanced site data model. The steps to replace it vary based on the data model. Make sure you are following the right steps based on the data model.
+AI chatbot can be enabled for both Standard and Enhanced site data model. The steps to replace it vary based on the data model. Make sure you're following the right steps based on the data model.
 
-1.  Go to the [Set up workspace](https://learn.microsoft.com/en-us/power-pages/configure/setup-workspace)
+1. Go to the [Set up workspace](../configure/setup-workspace.md).
 
-2.  Select **Site details**
+1. Select **Site details**.
 
-3.  Verify the **Data Model** version
-
-![A screenshot of a computer Description automatically generated](media/image2.gif)
-
-Data Model can be either **Standard** or **Enhanced**.
+1. Verify the **Data Model** version. You can choose **Standard** or **Enhanced**.
 
 # Updating bot in Standard data model site
 
-1.  Go to the [Data workspace](https://learn.microsoft.com/en-us/power-pages/configure/setup-workspace)
+1. Go to the [Data workspace](use-data-workspace.md).
 
-2.  Search for **Bot consumer** table and select
+1. Search for and select the **Bot consumer** table.
 
-3.  Locate the row with selected website name
+1. Locate the row with selected website name.
 
-4.  Replace Bot Schema Name column value with new bot schema name copied earlier
+1. Replace Bot Schema Name column value with new bot schema name you copied earlier.
 
 # Updating bot in Enhanced data model
 
-1.  Go to the [Data workspace](https://learn.microsoft.com/en-us/power-pages/configure/setup-workspace)
+1. Go to the [Data workspace](use-data-workspace.md).
 
-2.  Search for **Site Component** table and select
+1. Search for and select the **Site Component** table.
 
-3.  Find the **Component Type** column and click filter (![](media/image3.png)) icon next to it
+1. Find the **Component Type** column and select the filter icon next to it.
 
-4.  Filter records by **Bot Consumer** option
+1. Filter records by **Bot Consumer** option.
 
-5.  Locate the row with selected website name in **Power Pages Site id** column
+1. Locate the row with selected website name in the **Power Pages Site id** column.
 
-6.  Click on **Edit row using form** button
+1. Choose **Edit row using form**.
 
-7.  Replace **botschemaname** json value with new bot schema name copied earlier
+1. Replace **botschemaname** json value with the new bot schema name you copied earlier.
 
-![A screenshot of a computer Description automatically generated](media/image4.gif)
-
-8.  Click on **Save & Close** button
+1. Choose **Save & Close**.
