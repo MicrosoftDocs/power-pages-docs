@@ -39,9 +39,14 @@ To add a list:
 
 1. Choose to create a new list or choose an existing list, then select **Ok**.
 
+    > [!NOTE]
+    > An updated version of lists, modern lists, is available in Power Pages.
+    > Switch the toggle on to use this version of lists on your site. More information: [Modern list (preview)](#modern-list-preview)
+
     - If you choose to create a new list, the **Add a list** window will open to the **Set up** tab.
     - If you use an existing list, you'll be redirected to the list displayed in the Pages workspace.  Choose the list and select the **Edit list** button just above the component to access configuration options in the **Add a list** window.
      
+UPDATE PHOTO TO SHOW TOGGLE
     :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
 
 ## Modern list (preview)
