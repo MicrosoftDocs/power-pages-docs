@@ -52,9 +52,9 @@ Modern list is the updated version of existing lists in Power Pages, providing v
 
 ### Visual elements
 
-- **Shimmer loading** Loading animation displays while data is retrieved from your data source.
-- **Infinite scroll** Content automatically loads at the bottom of the page when users scroll.
-- **Inline filters** Filters apply automatically to all columns in the list view.
+- **Shimmer loading** - Loading animation displays while data is retrieved from your data source.
+- **Infinite scroll**  - Content automatically loads at the bottom of the page when users scroll.
+- **Inline filters** - Filters apply automatically to all columns in the list view.
 
 ### Enhanced styling capabilities
 
