@@ -50,15 +50,10 @@ To add a list:
 
 Modern list is the updated version of existing lists in Power Pages, providing visual interest and enhanced styling capabilities.
 
-### Visual elements
-
 - **Shimmer loading** - Loading animation displays while data is retrieved from your data source.
 - **Infinite scroll**  - Content automatically loads at the bottom of the page when users scroll.
 - **Inline filters** - Filters apply automatically to all columns in the list view.
-
-### Enhanced styling capabilities
-
-To access styling capabilities, select the paintbrush icon from the component bar.  List design options for Standard, Header, and Row display for you to customize elements such as background and font color, add alternating row colors, or adjust margins and padding for your list..
+- **Enhanced styling options** - Customize elements such as background and font color, add alternating row colors, and adjust margins and padding.
 
 You can copy the style from one modern list to other modern lists in your site for a consistent design experience across pages.
 
