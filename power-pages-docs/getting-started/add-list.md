@@ -44,7 +44,11 @@ To add a list:
      
     :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
 
-### Set up your list
+## Modern list (preview)
+
+Modern list is the updated version of existing lists in Power Pages. It provides enhanced capabilities to style the new list at different levels including Standard, Header, and Row. 
+
+## Set up your list
 
 You need to specify values for each of the Set up fields. Select the **Set up** menu tab in the **Add a list** window to complete this step.
 
@@ -55,7 +59,7 @@ You need to specify values for each of the Set up fields. Select the **Set up** 
 | Select Dataverse views | The view of the target table that will be rendered. To modify the columns within the view, you'll need to access the Data workspace. |
 | Name your list | The name of the list. |
 
- ### Choose list actions
+ ## Choose list actions
 
 Specify what actions you'd like to take for your list by configuring list actions. The actions are listed under the **Actions** menu tab in the **Add a list** window. For each of these options, you can also change the default button label by editing the **Display label** field. 
 
@@ -67,7 +71,7 @@ Specify what actions you'd like to take for your list by configuring list action
 | Edit record | Allows the user to edit the record. You'll need to select the webpage, form, or URL that contains the record details to edit.  |
 | Delete record | Allows the user to delete the record.  | 
 
-### Specify more options
+## Specify more options
 
 You may find that you want to customize your list options even further.  Visit the **More options** menu tab from the **Add a list** window to configure more options for your list.
 
@@ -81,7 +85,7 @@ You may find that you want to customize your list options even further.  Visit t
 
 You can also specify more options using the [Portal Management app](../configure/portal-management-app.md).
 
-### Duplicate a list
+## Duplicate a list
 
 From the Pages workspace inside design studio, you can select the ellipsis (**...**) on the list component to duplicate a list, move it up or down within the section, or delete it.
 
