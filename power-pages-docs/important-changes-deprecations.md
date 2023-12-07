@@ -25,9 +25,9 @@ The announcements for changes and deprecations described in this article apply t
 > [!IMPORTANT]
 > *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
-## Deprecation of Power Apps portals Studio
+## Power Apps portals Studio retired
 
-Effective February 26, 2024, Power Apps portals Studio will be retired. All sites will open in [Power Pages design studio](configure/design-build-overview.md). You can continue to access and edit all of the websites you created through legacy Power Apps portals Studio. 
+Effective February 26, 2024, Power Apps portals Studio will be retired. All sites will open in [Power Pages design studio](configure/design-build-overview.md).
 
 ### What is Power Apps portals Studio?
 
