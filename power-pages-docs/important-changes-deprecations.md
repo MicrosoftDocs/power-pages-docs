@@ -25,9 +25,9 @@ The announcements for changes and deprecations described in this article apply t
 > [!IMPORTANT]
 > *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
-## Power Apps portals Studio retired
+## Power Apps portals Studio to be retired
 
-Effective February 26, 2024, Power Apps portals Studio will be retired. All sites will open in [Power Pages design studio](configure/design-build-overview.md).
+Effective February 26, 2024, Power Apps portals Studio will be retired. All sites open in [Power Pages design studio](configure/design-build-overview.md).
 
 ### What is Power Apps portals Studio?
 
@@ -51,7 +51,7 @@ You can create websites using the Dynamics 365 templates from [Power Pages](http
 
 ### Why don't I see Dynamics 365 portal templates in Power Pages? 
 
-If you are using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You will see them in subsequent sites created, provided that the environment has any of the Dynamics 365 applications installed in it.   
+If you're using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You'll see them in subsequent sites created, if the environment has any of the Dynamics 365 applications installed in it.   
 
 ### Why don't I see my Portals created in Power Apps under the **Apps** list in Portals Studio? 
 
