@@ -17,6 +17,9 @@ contributors:
 
 # Power Pages design studio and Power Apps portals Studio
 
+> [!NOTE]
+> Effective November 2023, legacy Power Pages studio is deprecated. Use Power Pages [design studio](design-build-overview.md) to edit your websites instead.
+
 There are two experiences for editing Power Pages and Power Apps portals sites.
 
 - The new [Power Pages design studio](../getting-started/create-manage.md).
