@@ -41,10 +41,6 @@ There are various ways to create a virtual table in Dataverse. Currently, Power 
 
 Virtual connectors are built using Power Platform Connectors, which are pre-built connectors that provide a way to interact with external systems. Virtual connectors streamline creation experience by automating some of the creation and removing the need to use code to create the virtual tables.
 
-> [!NOTE]
-> - Power Pages supports virtual tables created using SQL Server connector and SharePoint Online connector.
-> - You will need to create virtual tables in Power Apps, you cannot create virtual tables using the **Data** workspace in the Power Pages design studio.
-
 To learn how to create virtual table in Dataverse, go to [create a virtual table using virtual connector](/power-apps/maker/data-platform/create-virtual-tables-using-connectors?tabs=sql#steps-to-create-a-virtual-table-in-power-apps-for-sql-or-sharepoint).
 
 ### Custom virtual table data providers
