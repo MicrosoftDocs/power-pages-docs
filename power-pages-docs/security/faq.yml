@@ -96,8 +96,10 @@ sections:
       - question: |
           What are the various methods to prevent injection attacks?
         answer: |
-          By default, the ASP.Net [request validation](/aspnet/whitepapers/request-validation) feature is enabled on Power Pages forms to prevent script-injection attacks. If you are creating your own form using the API, Power Pages incorporates several measures to prevent injection attacks. For additional details, visit [Power Pages security white paper](/power-pages/guidance/white-papers/security).
+          By default, the ASP.Net [request validation](/aspnet/whitepapers/request-validation) feature is enabled on Power Pages forms to prevent script-injection attacks. If you are creating your own form using the API, Power Pages incorporates several measures to prevent injection attacks.
           - Ensure proper HTML sanitization when handling user input from a form or any data control that utilizes Web API.
           - Implement Input and Output sanitization for all input and output data before rendering them on the page. This includes data fetched via liquid/WebAPI or inserted/updated into Dataverse through these channels. Power Pages automatically applies sanitization by default for standard input and user data.
           - If special checks are needed before inserting or updating form data, you can write plugins that execute to validate data on the server side.
+
+          More information: [Power Pages security white paper](/power-pages/guidance/white-papers/security).
 
