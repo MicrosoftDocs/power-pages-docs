@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/26/2023
+ms.date: 12/11/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: kkendrick
@@ -202,8 +202,6 @@ You can use the new Power Pages Management app to edit new websites that are cre
 
 ## Known issues
 
-- In the language selection on the user profile page, a signed-in website user preffered lanugauges are not shown. As a workaround change preferred language from site header.
-- [List actions](../getting-started/add-list.md#choose-list-actions) configuration for enhanced datamodel site in design studio is not supported. As a workaround, configure the list actions by using the [Power Pages Management app](../configure/list-configuration.md).
 - Because webpages search for enhanced data model isn't working, search results won't include results from webpages and chatbots won't be able to respond with answers from webpages.
 
 ## See also
