@@ -200,10 +200,6 @@ Guidance and tooling support to help you update from the standard data model to 
 
 You can use the new Power Pages Management app to edit new websites that are created by using the enhanced data model.
 
-## Known issues
-
-- Because webpages search for enhanced data model isn't working, search results won't include results from webpages and chatbots won't be able to respond with answers from webpages.
-
 ## See also
 
 - [Use solutions with Power Pages](../configure/power-pages-solutions.md)
