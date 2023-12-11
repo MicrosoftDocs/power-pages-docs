@@ -34,6 +34,8 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 1. Copy the **Schema name**.
 
+    :::image type="content" source="media/pva-bot-how-to/schema_name.png" alt-text="A screenshot of Copilot Studio with the Bot details page open and the Schema name field emphasized.":::
+
 ## Verify Data model version
 
 AI chatbot can be enabled for both Standard and Enhanced site data model. The steps to replace it vary based on the data model. Make sure you're following the right steps based on the data model.
