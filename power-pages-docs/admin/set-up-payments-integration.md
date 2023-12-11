@@ -38,7 +38,7 @@ To accept payments on your Power Pages site, you must complete these steps: 
 -   Configure a [multistep form](../getting-started/multistep-forms.md) using a Dataverse table with a step to allow users to pay. This step displays the payments control once configured in a later step. 
 
 > [!IMPORTANT]
-> This feature requires [Power Pages website build version 9.5.10.x](/power-platform/released-versions/portals/pagesversion9510x). Please verify that the site has this build. Otherwise, the payments control will not show up on the site.
+> This feature requires [Power Pages website build version 9.5.10.x](/power-platform/released-versions/portals/pagesversion9510x) for the payments control to show on the site.
 
 ## Step 1: Install the package 
 
