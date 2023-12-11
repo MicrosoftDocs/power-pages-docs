@@ -22,8 +22,8 @@ Enable your Power Pages site to accept payments by using design studio's Set up 
 
 To accept payments on your Power Pages site, you must complete these steps: 
 
-[Step 1: Install the package](#step-1-install-the-package). In this step, the site admin installs the package consisting of required tables and other prerequisites for the environment to enable payments experience.<br />
-[Step 2: Configure provider](#step-2-configure-provider). In this step, the site admin or maker configures keys specific to a payment provider.<br />
+[Step 1: Install the package](#step-1-install-the-package). In this step, the site admin installs the package consisting of required tables and other prerequisites for the environment to enable payments experience.<br /><br />
+[Step 2: Configure provider](#step-2-configure-provider). In this step, the site admin or maker configures keys specific to a payment provider.<br /><br />
 [Step 3: Enable the payments experience on your form](#step-3-enable-the-payments-experience-on-your-form). In this step, the maker includes the form and enables digital payments on the required step for the multistep form. 
 
 > [!IMPORTANT]
