@@ -72,4 +72,6 @@ AI chatbot can be enabled for both Standard and Enhanced site data model. The st
 
 1. Replace **botschemaname** json value with the new bot schema name you copied earlier.
 
+    :::image type="content" source="media/pva-bot-how-to/bot-enhanced-data-model.png" alt-text="A screenshot of the General options for Bot Consumer with the botschemaname json value emphasized.":::
+
 1. Choose **Save & Close**.
