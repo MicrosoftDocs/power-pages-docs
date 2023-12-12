@@ -94,7 +94,7 @@ sections:
           More information: [Available encoding filters](../configure/liquid/liquid-filters.md#escape-filters).
 
       - question: |
-          How to prevent my site from injection attacks?
+          How to protect my site from injection attacks?
         answer: |
           By default, the ASP.Net [request validation](/aspnet/whitepapers/request-validation) feature is enabled on Power Pages forms to prevent script-injection attacks. If you are creating your own form using the API, Power Pages incorporates several measures to prevent injection attacks.
           - Ensure proper HTML sanitization when handling user input from a form or any data control that utilizes Web API.
