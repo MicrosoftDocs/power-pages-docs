@@ -202,10 +202,14 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add an AI-powered chatbot (preview)
-          href: getting-started/enable-chatbot.md
-        - name: Force Bing webmaster to index 
-          href: getting-started/force-bing-index.md
+        - name: Add a chatbot
+          items:
+          - name: Add an AI-powered chatbot (preview)
+            href: getting-started/enable-chatbot.md
+          - name: Force Bing webmaster to index 
+            href: getting-started/force-bing-index.md
+          - name: "How to: replace the default Power Pages AI chatbot with a Power Virtual Agents bot"
+            href: getting-started/pva-bot-how-to.md
         - name: Progressive web applications
           items:
             - name: Overview
