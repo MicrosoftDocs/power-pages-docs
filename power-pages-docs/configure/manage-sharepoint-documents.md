@@ -93,7 +93,7 @@ To use the document management capabilities of SharePoint, you must enable Share
 
 1. Select **Disable** in the confirmation window. Turning off this setting will disable communication with SharePoint. During the process, the website will restart and will be unavailable for a few minutes. A message appears when SharePoint integration is disabled.
 
-Enabling or disabling the SharePoint integration will update the Azure Active Directory (Azure AD) application for the website and add or remove the required SharePoint permissions, respectively. You'll also be redirected to provide your consent for the changes to be made in the Azure AD application. 
+Enabling or disabling the SharePoint integration will update the Microsoft Entra application for the website and add or remove the required SharePoint permissions, respectively. You'll also be redirected to provide your consent for the changes to be made in the Microsoft Entra application. 
 
 :::image type="content" source="media/sharepoint/sharepoint-integration-consent.png" alt-text="Disable SharePoint integration consent screen.":::
 
@@ -101,7 +101,7 @@ If you don't provide your consent:
 
 - Enabling or disabling the SharePoint integration won't be complete and an error message will display.
 
-- Your out-of-the-box Azure AD sign-in on the website won't work.
+- Your out-of-the-box Microsoft Entra sign-in on the website won't work.
 
 
 ## Step 3: Enable document management for tables
@@ -180,5 +180,3 @@ We recommend limiting the size of the individual files available for download to
 ### See also
 
 [Document management with SharePoint](/training/modules/portals-integration/2-sharepoint)
-
-

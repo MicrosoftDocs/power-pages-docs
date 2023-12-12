@@ -163,7 +163,7 @@
                 - name: Add an AI-generated multistep form using Copilot (preview)
                   href: getting-started/multistep-forms-copilot.md
                 - name: Add IFrame
-                  href: getting-started/add-iframe.md
+                  href: getting-started/add-iframe.md 
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
@@ -210,8 +210,12 @@
               href: configure/progressive-web-apps.md
             - name: Build progressive web applications
               href: configure/build-progressive-web-apps.md
-    - name: Copresence in design studio
-      href: getting-started/copresence.md
+    - name: Collaborate in design studio
+      items:
+      - name: Copresence in design studio
+        href: getting-started/copresence.md
+      - name: Add comments to pages (preview)
+        href: getting-started/add-comments-to-pages.md
     - name: Enhanced data model 
       items:
         - name: Use enhanced data model
@@ -252,6 +256,8 @@
       href: admin/manage-custom-certificates.md
     - name: Content Delivery Network
       href: configure/configure-cdn.md
+    - name: Manage and monitor capacity (preview)
+      href: admin/capacity-management.md
     - name: Capacity consumption reports
       href: admin/website-consumption-reports.md
     - name: Restrict IP addresses
@@ -440,6 +446,8 @@
       href: configure/azure-front-door.md
     - name: Set up DocuSign integration (preview)
       href: admin/set-up-docusign-integration.md
+    - name: Set up payments integration (preview)
+      href: admin/set-up-payments-integration.md
     - name: Integrate Power BI
       items:
         - name: Set up Power BI integration
@@ -608,7 +616,7 @@
               href: security/authentication/openid-provider.md
             - name: Azure AD B2C
               href: security/authentication/azure-ad-b2c-provider.md
-            - name: Azure AD
+            - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
             - name: OpenID Connect FAQs
               href: security/authentication/openid-faqs.md
@@ -616,7 +624,7 @@
           items:
             - name: Set up a SAML 2.0 provider
               href: security/authentication/saml2-provider.md
-            - name: Azure AD
+            - name: Microsoft Entra ID
               href: security/authentication/saml2-settings-azure-ad.md
             - name: Active Directory Federation Services (AD FS)
               href: security/authentication/saml2-settings.md
@@ -626,7 +634,7 @@
           items:
             - name: Set up a WS-Federation provider
               href: security/authentication/ws-federation-provider.md
-            - name: Set up WS-Federation with Azure AD
+            - name: Set up WS-Federation with Microsoft Entra ID
               href: security/authentication/ws-federation-settings-azure-ad.md
             - name: Set up WS-Federation with AD FS
               href: security/authentication/ws-federation-settings.md

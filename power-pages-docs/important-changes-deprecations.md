@@ -25,6 +25,18 @@ The announcements for changes and deprecations described in this article apply t
 > [!IMPORTANT]
 > *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
+## Power Apps portals Studio to be retired
+
+Effective February 26, 2024, Power Apps portals Studio will be retired. All sites open in [Power Pages design studio](configure/design-build-overview.md).
+
+### What is Power Apps portals Studio?
+
+Power Apps portals Studio is the legacy experience of Power Pages design studio.
+
+### Will I lose access to all portals and websites I created in Power Apps portals Studio?
+
+No. You can continue to access and edit all of the sites you created through Power Apps portals Studio, you'll just access them from Power Pages. More information: [Manage sites](admin/manage-sites.md) 
+
 ## Site creation from Power Apps
 
 Starting September 2023, blank app portal creation from Power Apps will be redirected to [Power Pages](https://make.powerpages.microsoft.com). 
@@ -39,15 +51,11 @@ You can create websites using the Dynamics 365 templates from [Power Pages](http
 
 ### Why don't I see Dynamics 365 portal templates in Power Pages? 
 
-If you are using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You will see them in subsequent sites created, provided that the environment has any of the Dynamics 365 applications installed in it.   
+If you're using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You'll see them in subsequent sites created, if the environment has any of the Dynamics 365 applications installed in it.   
 
 ### Why don't I see my Portals created in Power Apps under the **Apps** list in Portals Studio? 
 
 Starting October 2023, portals created in Power Apps portals will show in [Power Pages](https://make.powerpages.microsoft.com), More information: [Manage sites created in Power Apps](/power-apps/maker/portals/manage-existing-portals)
-
-### Will I lose access to all portals and websites that I created in Power Apps?
-
-No. You continue to have access to all the portals and websites that you created through the Power Apps Maker portal. You can access these from [Power Pages](https://make.powerpages.microsoft.com). More information: [Manage sites](admin/manage-sites.md) 
 
 ## Power Apps portals admin center
 
@@ -55,7 +63,7 @@ The Power Apps portals admin center is now deprecated and no longer available as
 
 ## Controlling site visibility changes in Power Pages
 
-Starting October 2022 with website version 9.4.9.xx, any new site created in Power Pages or Power Apps portals will be private by default. Only makers or people in the organization granted permission by makers will have website access, making Power Pages sites secure. This feature provides another layer of security using Azure Active Directory authentication to prevent accidental leaks of partially developed website data and design. When a website is ready to go-live, the site visibility can be changed to public making it accessible to everyone over the internet anonymously or secured with identity providers.  
+Starting October 2022 with website version 9.4.9.xx, any new site created in Power Pages or Power Apps portals will be private by default. Only makers or people in the organization granted permission by makers will have website access, making Power Pages sites secure. This feature provides another layer of security using Microsoft Entra authentication to prevent accidental leaks of partially developed website data and design. When a website is ready to go-live, the site visibility can be changed to public making it accessible to everyone over the internet anonymously or secured with identity providers.  
 
 At launch, users with the system administrator role along with [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) will by default have privilege to change site visibility status (private to public or vice versa). 
 
@@ -139,5 +147,3 @@ Starting with portals version [9.3.4.x](/power-apps/maker/portals/versions/versi
 ### See also
 
 [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming)
-
-

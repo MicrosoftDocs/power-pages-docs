@@ -125,4 +125,4 @@ After you set up the AD FS relying party trust:
 
 ### See also
 
-[Set up a WS-Federation provider with Azure AD](ws-federation-settings-azure-ad.md)
+[Set up a WS-Federation provider with Microsoft Entra ID](ws-federation-settings-azure-ad.md)

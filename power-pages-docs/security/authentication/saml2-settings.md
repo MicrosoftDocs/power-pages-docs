@@ -249,5 +249,5 @@ Add-CrmRelyingPartyTrust $domain
 ### See also
 
 [Set up a SAML 2.0 provider](saml2-provider.md)  
-[Set up a SAML 2.0 provider with Azure AD](saml2-settings-azure-ad.md)  
+[Set up a SAML 2.0 provider with Microsoft Entra ID](saml2-settings-azure-ad.md)  
 [SAML 2.0 FAQ](saml2-faqs.md)

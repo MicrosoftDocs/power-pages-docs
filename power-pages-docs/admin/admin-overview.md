@@ -118,17 +118,17 @@ Select **...** to the left of **Site Actions** for more site actions.
 | Power BI Embedded Service | See [Enable Power BI Embedded service](set-up-power-bi-integration.md#enable-power-bi-embedded-service) |
 | SharePoint Integration | See [Manage SharePoint documents](../configure/manage-sharepoint-documents.md) |
 
-## Add yourself as an owner of the Azure AD application
+## Add yourself as an owner of the Microsoft Entra application
 
-If you aren't a global administrator and you try to manage a website that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your website.
+If you aren't a global administrator and you try to manage a website that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Microsoft Entra application connected to your website.
 
 1. Go to the Power Platform admin center following the steps above.
 
 1. From the **Site Details** section, copy the value of the **Application Id** field.    
 
-1. Go to Azure AD associated with your tenant. More information: [Take over an unmanaged directory as administrator in Azure Active Directory](/azure/active-directory/active-directory-manage-o365-subscription).
+1. Go to Microsoft Entra associated with your tenant. More information: [Take over an unmanaged directory as administrator in Microsoft Entra ID](/azure/active-directory/active-directory-manage-o365-subscription).
 
-1. In Azure AD, search for the app registration by using the application ID you copied. You might need to switch from **My apps** to **All apps**.
+1. In Microsoft Entra ID, search for the app registration by using the application ID you copied. You might need to switch from **My apps** to **All apps**.
 
 1. Add users or groups as owners of this app registration. More information: [Managing access to apps](/azure/active-directory/active-directory-managing-access-to-apps)
 
