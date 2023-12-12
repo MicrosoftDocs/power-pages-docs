@@ -4,7 +4,7 @@ description: Learn how to integrate virtual tables with Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/07/2023
+ms.date: 12/12/2023
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -53,6 +53,9 @@ Using Microsoft Dataverse Data SDK, .NET Developers have the option of creating 
 
 To learn how to create virtual table using custom data provider in Dataverse, go to [Custom virtual table data providers](/power-apps/developer/data-platform/virtual-entities//custom-ve-data-providers#steps-to-use-a-custom-data-provider).
 
+### Business Central virtual tables
+
+[Dynamics 365 Business Central](/dynamics365/business-central/) is a complete enterprise resource planning (ERP) software solution for mid-sized organizations. Business Central Virtual tables enables create, read, update, delete (CRUD) operations from Microsoft Dataverse. Learn how to integrate [Business Central virtual table with Power Pages](/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview) for more details.
 
 ## Set up virtual table relationship
 
@@ -69,7 +72,6 @@ Once the virtual table is created in Dataverse, you can use to create a [list](.
 The following virtual tables and providers are not supported for use with Power Pages;
 
 - The [Microsoft Entra user virtual table](/power-apps/developer/data-platform/aaduser-entity).
-- [Dynamics 365 Business Central virtual tables](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-faq)
 
 ## Limitations
 
