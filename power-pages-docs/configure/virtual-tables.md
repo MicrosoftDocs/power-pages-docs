@@ -37,7 +37,7 @@ There are various ways to create a virtual table in Dataverse. Currently, Power 
 
 [Dynamics 365 Finance and Operations](/dynamics365/fin-ops-core/fin-ops/) is a business application that is designed to help organizations manage their financial, operations, and supply chain. Finance and operations apps are a virtual data source in Dataverse, and enable full create, read, update, and delete (CRUD) operations from Dataverse.  Learn how to [surface finance and operations virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/power-portal-reference) in Power Pages. 
 
-### Virtual connector provider
+### Virtual connector providers
 
 Virtual connectors are built using Power Platform Connectors, which are pre-built connectors that provide a way to interact with external systems. Virtual connectors streamline creation experience by automating some of the creation and removing the need to use code to create the virtual tables.
 
