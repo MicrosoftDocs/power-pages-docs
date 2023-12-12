@@ -4,7 +4,7 @@ description: Learn how to set up Payments integration with your website.
 author: sandhangitmsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/09/2023
+ms.date: 12/11/2023
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -20,22 +20,23 @@ Enable your Power Pages site to accept payments by using design studio's Set up 
 
 :::image type="content" source="Media/set-up-payments-integration/preview-form-step.svg" alt-text="A screenshot of the payments integration inside a Power Pages site.":::
 
+To accept payments on your Power Pages site, you must complete these steps: 
+
+[Step 1: Install the package](#step-1-install-the-package). In this step, the site admin installs the package consisting of required tables and other prerequisites for the environment to enable payments experience.<br /><br />
+[Step 2: Configure provider](#step-2-configure-provider). In this step, the site admin or maker configures keys specific to a payment provider.<br /><br />
+[Step 3: Enable the payments experience on your form](#step-3-enable-the-payments-experience-on-your-form). In this step, the maker includes the form and enables digital payments on the required step for the multistep form. 
+
 > [!IMPORTANT]
 > - This is a preview feature.
 > - This feature currently only works with the [enhanced data model](../admin/enhanced-data-model.md).
+> - This feature requires [Power Pages website build version 9.5.10.x](/power-platform/released-versions/portals/pagesversion9510x) for the payments control to show on the site.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-
-To accept payments on your Power Pages site, you must complete these steps: 
-
-- [Step 1: Install the package](#step-1-install-the-package). In this step, the site admin installs the package consisting of required tables and other prerequisites for the environment to enable payments experience. 
-- [Step 2: Configure provider](#step-2-configure-provider). In this step, the site admin or maker configures keys specific to a payment provider. 
-- [Step 3: Enable the payments experience on your form](#step-3-enable-the-payments-experience-on-your-form). In this step, the maker includes the form and enables digital payments on the required step for the multistep form. 
 
 ## Prerequisites 
 
 - Sign up for an account with Stripe as your payment provider and obtain test mode keys from the Developer dashboard. 
 - Create or identify a Microsoft Dataverse table to use in a multistep form. This table must have a currency field type that is used to charge the amount that you wish to collect from the site user. More information: [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md)
--   Configure a [multistep form](../getting-started/multistep-forms.md) using a Dataverse table with a step to allow users to pay. This step displays the payments control once configured in a later step. 
+-   Configure a [multistep form](../getting-started/multistep-forms.md) using a Dataverse table with a step to allow users to pay. This step displays the payments control once configured in a later step.
 
 ## Step 1: Install the package 
 
@@ -95,7 +96,7 @@ A successful payment shows the confirmation with the amount paid and a transacti
 
 If this step is the last step of your multi-step form, a submit button is enabled that submits the form and completes your process.
 
-## More details
+## Considerations
 
 - **Payment currencies and amounts** - Minimum and maximum payment amount values can vary by currencies. Review the [Stripe documentation on supported currencies](https://stripe.com/docs/currencies#minimum-and-maximum-charge-amounts) to ensure your form and tables are configured correctly to accept payments in that range 
 

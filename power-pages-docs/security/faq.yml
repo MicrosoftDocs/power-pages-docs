@@ -6,11 +6,12 @@ metadata:
   ms.topic: faq
   ms.custom: 
   ms.subservice: 
-  ms.date: 08/24/2023
+  ms.date: 12/11/2023
   ms.author: sandhan
   ms.reviewer: kkendrick
   contributors:
     - ProfessorKendrick
+    - nageshbhat-msft
 
 title: Power Pages security FAQ
 
@@ -71,7 +72,7 @@ sections:
           More information: [Which TLS 1.2 cipher suites are supported by Power Pages?](../faq.yml#which-tls-1-2-cipher-suites-are-supported-by-power-pages-)
 
       - question: |
-          How do Power Pages protect against Distributed Denial of Service (DDoS) attacks? 
+          How does Power Pages protect against Distributed Denial of Service (DDoS) attacks? 
         answer: |
           Power Pages is built on Microsoft Azure and uses Azure DDoS Protection to guard against DDoS attacks.
           Also, enabling OOB/third-party AFD/WAF can add more protection on the site. 
@@ -86,8 +87,19 @@ sections:
           RTE PCF control replaces CKEditor soon. If you want to mitigate this issue prior to RTE PCF control's release, disable CKEditor by configuring site setting DisableCkEditorBundle = true. A text field replaces CKEditor once it's disabled. 
 
       - question: |
-          How to protect my website against XSS attacks? 
+          How do I protect my website against XSS attacks? 
         answer: |
           We recommend performing HTML encoding before rendering data from an untrusted source. 
           
           More information: [Available encoding filters](../configure/liquid/liquid-filters.md#escape-filters).
+
+      - question: |
+          How do I protect my site from injection attacks?
+        answer: |
+          By default, the ASP.Net [request validation](/aspnet/whitepapers/request-validation) feature is enabled on Power Pages forms to prevent script-injection attacks. If you are creating your own form using the API, Power Pages incorporates several measures to prevent injection attacks.
+          - Ensure proper HTML sanitization when handling user input from a form or any data control that utilizes Web API.
+          - Implement input and output sanitization for all input and output data before rendering them on the page. This includes data fetched via liquid/WebAPI or inserted/updated into Dataverse through these channels.
+          - If special checks are needed before inserting or updating form data, you can write plugins that execute to validate data on the server side.
+
+          More information: [Power Pages security white paper](/power-pages/guidance/white-papers/security).
+
