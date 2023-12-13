@@ -21,7 +21,7 @@ The Power Pages chatbot is powered by Microsoft Bing. When you [add a chatbot to
 
 > [!IMPORTANT]
 >
-> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
+> - To understand the capabilities and limitations of this feature, see [FAQ for chatbot](../faqs-chatbot.md).
 
 ## Add your site to your Bing Webmaster Tools account
 
