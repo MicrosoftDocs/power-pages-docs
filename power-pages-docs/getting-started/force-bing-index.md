@@ -19,10 +19,6 @@ ms.custom: bap-template
 
 The Power Pages chatbot is powered by Microsoft Bing. When you [add a chatbot to your Power Pages website](./enable-chatbot.md), the URL is shared with Bing to index the content. Bing may not start indexing your site right away, however. It can take from several hours to a day. If you don't want to wait for Bing to get around to your site, you can use Bing Webmaster Tools to force it to index your site's content immediately.
 
-> [!IMPORTANT]
->
-> - To understand the capabilities and limitations of this feature, see [FAQ for chatbot](../faqs-chatbot.md).
-
 ## Add your site to your Bing Webmaster Tools account
 
 1. Open [Webmaster Tools](https://www.bing.com/webmasters).
