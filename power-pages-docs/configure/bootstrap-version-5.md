@@ -25,17 +25,7 @@ ms.custom:
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - Bootstrap version 5 is only supported with the [enhanced data model](../admin/enhanced-data-model.md).
 
-[Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features and updates that make creating more responsive, customized Power Pages sites even easier:
-
-- It switched from jQuery to vanilla JavaScript, which makes it faster and lighter.
-
-- It has a new option for large screens.
-
-- It has more colors and shades to choose from, and you can easily change them to suit your style.
-
-- It has its own collection of symbols and icons that you can use on your website, and you can easily change their size, color, and shape.
-
-- It improved the way you can make forms and inputs on your website and has more options to customize them.
+[Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features, like CSS Flexbox and responsive layout, that make creating more responsive, customized Power Pages sites even easier.
 
 Power Platform environments and Power Pages sites use Bootstrap version 3 by default. To start creating sites with Bootstrap version 5 or migrate your existing sites, set up Bootstrap version 5 in your environment.
 
