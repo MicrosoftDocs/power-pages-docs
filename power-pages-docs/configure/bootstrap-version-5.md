@@ -19,15 +19,15 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+[Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features, like CSS Flexbox and responsive layout, that make creating more responsive, customized Power Pages sites even easier.
+
 > [!IMPORTANT]
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - Bootstrap version 5 is only supported with the [enhanced data model](../admin/enhanced-data-model.md).
 
-[Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features, like CSS Flexbox and responsive layout, that make creating more responsive, customized Power Pages sites even easier.
-
-Power Platform environments and Power Pages sites use Bootstrap version 3 by default. To start creating sites with Bootstrap version 5 or migrate your existing sites, set up Bootstrap version 5 in your environment.
+Power Platform environments and Power Pages sites use Bootstrap version 3 by default. To start creating sites with Bootstrap version 5 or migrate your existing sites, enable Bootstrap version 5 in your environment. Once the setting is enabled, all new sites created in the environment will use Boostrap version 5.
 
 ## Set up Bootstrap version 5
 

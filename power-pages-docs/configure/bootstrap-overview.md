@@ -19,7 +19,7 @@ ms.custom:
 
 Bootstrap is a front-end framework that helps you design web interfaces with ready-made CSS and JavaScript components for common elements like [navigation](https://getbootstrap.com/components/#nav), [forms](https://getbootstrap.com/css/#forms), and [buttons](https://getbootstrap.com/css/#buttons). It also has a [responsive grid layout system](https://getbootstrap.com/css/#grid) that adjusts your site for devices with different screen sizes, such as phones and tablets. Using the Bootstrap layout system, you can create a single site that looks good on any device your customers might use.
 
-Power Pages templates use standard Bootstrap components with minimal custom styles. You can easily change the theme (fonts, colors, and so on) to match your brand and preferences consistently across your entire site.
+Power Pages templates use standard Bootstrap components with minimal custom styles. Using these templates, you can easily change the theme (fonts, colors, and so on) to match your brand and preferences consistently across your entire site.
 
 Power Pages supports Bootstrap version 3.3.6 in general availability and Bootstrap version 5 in preview. Bootstrap version 5 offers improved user experience (UX) features and new components like accordion, offcanvas, and RTL support.
 
