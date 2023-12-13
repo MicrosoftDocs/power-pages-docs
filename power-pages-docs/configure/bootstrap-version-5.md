@@ -1,6 +1,6 @@
 ﻿---
-title: Set up Bootstrap version 5 in your environment (preview)
-description: Learn how to set up Bootstrap version 5 in your environment to take advantage of new features and updates that make creating responsive, customized Power Pages sites even easier.
+title: Enable Bootstrap version 5 in your environment (preview)
+description: Learn how to enable Bootstrap version 5 in your environment to take advantage of new features and updates that make creating responsive, customized Power Pages sites even easier.
 ms.topic: how-to
 ms.date: 09/27/2023
 author: ankitavish
@@ -15,7 +15,7 @@ ms.custom:
   - bap-template
 ---
 
-# Set up Bootstrap version 5 in your environment (preview)
+# Enable Bootstrap version 5 in your environment (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
