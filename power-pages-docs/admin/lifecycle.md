@@ -16,7 +16,8 @@ contributors:
 
 # Power Pages lifecycle
 
-A Power Pages website is always created as a trial. A trial website, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the website is suspended and shut down. Seven days after it's suspended, the trial website host is deleted. You'll be notified at every stage of the website lifecycle; nearing suspension, suspended, deleted, and converted from trial to production; through toast notifications and email.
+A Power Pages website is always created as a trial, in a production, sandbox or trial environment. A trial website is useful for trying out its capabilities at no cost. If the trial site is created in a trial environment, then the trial site expires after 30 days or when your trial environment expires, whichever is earlier. If the trial site is created in a non-expiring environment like production or sandbox, then your trial site expires after 90 days. 
+After it expires, the website is suspended and shut down. Seven days after it's suspended, the trial website host is deleted. You'll be notified at every stage of the website lifecycle; nearing suspension, suspended, deleted, and converted from trial to production; through toast notifications and email.
 
 > [!NOTE]
 > - The process of [converting](convert-site.md) a website is a different process than [migrating](migrate-site-configuration.md) a website.
@@ -36,7 +37,11 @@ Let's understand each website lifecycle stage.
 
 ## Trial website
 
-Every website begins as a trial website that expires after 30 days. You can convert it to a production website from the Power Platform admin center if you have the required licenses. More information: [Convert a website from trial to production](convert-site.md#convert-a-website-from-trial-to-production)
+Every website begins as a trial website that eventually expires based on the type of environment it is created in. You can convert it to a production website from the Power Platform admin center if you have the required licenses. More information: [Convert a website from trial to production](convert-site.md#convert-a-website-from-trial-to-production)
+
+> [!NOTE]
+> - When you create a trial site is created in a trial environment, it expires after 30 days or when trial environment expires, whichever is earlier. If your environment expires before the trial site expires, you'll lose access to your trial site.
+> - When you create a trial site is created in a non-expiring environment like production or sandbox, then your trial site will expire after 90 days, giving more time to build your website in a non-expiring environment. 
 
 To convert a trial website to a production website, the environment should have required licensing for external users or a license for internal users. More information: [Power Apps and Power Automate licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq) and [Power Pages licensing](/power-platform/admin/powerapps-flow-licensing-faq#power-pages).
 
