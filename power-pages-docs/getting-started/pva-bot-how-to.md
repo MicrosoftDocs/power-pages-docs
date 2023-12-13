@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 This article offers a comprehensive, step-by-step guide for updating default Power Pages AI chatbot with Power Virtual Agents bot.
 
-## Prerequisite
+## Prerequisites
 
 -  You must have a bot created in [Power Virtual Agent](/power-virtual-agents/nlu-gpt-quickstart#create-a-boosted-bot).
 
