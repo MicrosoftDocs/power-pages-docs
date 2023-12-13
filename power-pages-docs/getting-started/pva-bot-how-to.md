@@ -1,5 +1,5 @@
 ﻿---
-title: "How to: replace the default Power Pages AI chatbot with a Power Virtual Agents bot"
+title: Replace the default Power Pages AI chatbot with a Power Virtual Agents bot
 description: Learn how to replace the default Power Pages AI chatbot with a Power Virtual Agents bot.
 ms.topic: how-to
 ms.date: 11/30/2023
@@ -12,7 +12,9 @@ contributors:
 ms.custom: bap-template
 ---
 
-# How to: replace the default Power Pages AI chatbot with a Power Virtual Agents bot
+# Replace the default Power Pages AI chatbot with a Power Virtual Agents bot
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This article offers a comprehensive, step-by-step guide for updating default Power Pages AI chatbot with Power Virtual Agents bot.
 
