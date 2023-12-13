@@ -160,7 +160,7 @@
                   href: getting-started/add-form.md
                 - name: Add an AI-generated form using Copilot (preview)
                   href: getting-started/add-form-copilot.md
-                - name: Add amultistep form
+                - name: Add a multistep form
                   href: getting-started/multistep-forms.md
                 - name: Add an AI-generated multistep form using Copilot (preview)
                   href: getting-started/multistep-forms-copilot.md
@@ -180,9 +180,9 @@
           items:
             - name: Bootstrap overview
               href: configure/bootstrap-overview.md
-            - name: Set up Bootstrap version 5 in your environment (preview)
+            - name: Enable Bootstrap version 5 in your environment (preview)
               href: configure/bootstrap-version-5.md
-            - name: Migrate your sites to Bootstrap version 5 (preview)
+            - name: Migrate existing sites to Bootstrap version 5 (preview)
               href: configure/migrate-bootstrap.md
         - name: Manage CSS files
           href: configure/manage-css.md

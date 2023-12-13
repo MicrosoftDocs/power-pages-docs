@@ -51,7 +51,7 @@ Depending on the customizer application you used, the directory structure might 
 
 ## Next steps
 
-- [Set up Bootstrap version 5 in your environment (preview)](bootstrap-version-5.md)
+- [Enable Bootstrap version 5 in your environment (preview)](bootstrap-version-5.md)
 
 ### See also
 
