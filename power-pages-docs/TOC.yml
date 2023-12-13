@@ -208,7 +208,7 @@
             href: getting-started/enable-chatbot.md
           - name: Force Bing webmaster to index 
             href: getting-started/force-bing-index.md
-          - name: Replace the default Power Pages AI chatbot with a Power Virtual Agents bot
+          - name: Replace AI-powered chatbot with a Power Virtual Agents bot
             href: getting-started/pva-bot-how-to.md
         - name: Progressive web applications
           items:
