@@ -20,14 +20,14 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+[Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features and updates that make your Power Pages sites more responsive and easier to customize. You can migrate any of your Bootstrap version 3 sites to version 5 regardless of the template that was used to create them.
+
 > [!IMPORTANT]
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - When you create Power Pages sites with Bootstrap version 5, you need to turn on the [enhanced data model](../admin/enhanced-data-model.md). When you migrate existing Bootstrap version 3 sites to version 5, you can use either the standard data model or the enhanced data model.
 > - Consider testing the migration using [developer sites](../getting-started/developer-sites.md) before you migrate a production site.
-
-[Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features and updates that make your Power Pages sites more responsive and easier to customize. You can migrate any of your Bootstrap version 3 sites to version 5 regardless of the template that was used to create them.
 
 To migrate your Bootstrap version 3 site, follow these steps:
 
