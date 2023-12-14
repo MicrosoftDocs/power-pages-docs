@@ -49,7 +49,7 @@ Integrating DocuSign into your application requires three steps:
 1. In the design studio, choose **Set up** > **Integrations** > **External apps**.
 1. Select the **Install** action for DocuSign. 
 
-   :::image type="content" source="Media/docusign/install-docusign.png" alt-text="A screenshot of the Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
+   :::image type="content" source="media/docusign/install-docusign.png" alt-text="A screenshot of the Set up workspace in Power Pages design studio with the External Apps menu option selected and the install button for DocuSign emphasized.":::
 
 The install action might take a few moments. The action changes to configure once the action is complete. This installs a solution, which contains tables, flows, Dataverse plug-ins, and code components to render signed documents.
 
@@ -61,7 +61,7 @@ Once you install the DocuSign package, you can begin to configure DocuSign for y
 1. In the Integrations table, select the **Configure** action for DocuSign.
 The Enable integration menu displays.
 
-   :::image type="content" source="Media/docusign/enable-integrations.png" alt-text="A screenshot of the Enable integration options inside design studio.":::
+   :::image type="content" source="media/docusign/enable-integrations.png" alt-text="A screenshot of the Enable integration options inside design studio.":::
 
 1. Select the links to resolve the connection references and enable cloud flows in Power Automate, ensuring both cloud flows are turned **on**.
     > [!NOTE]
@@ -84,7 +84,7 @@ The Enable integration menu displays.
 
 1. (Optional) Map the form table fields to the DocuSign tabs in the document.
 
-    :::image type="content" source="Media/docusign/add-template.png" alt-text="A screenshot of the Add a template option inside the Enable integration menu.":::
+    :::image type="content" source="media/docusign/add-template.png" alt-text="A screenshot of the Add a template option inside the Enable integration menu.":::
 
 ## Step 3: Enable DocuSign
 
@@ -99,7 +99,7 @@ To enable DocuSign, complete the following steps:
     - Choose the correct template to associate with the form.
     - Enable the form toggle for e-signature.
     
-        :::image type="content" source="Media/docusign/step-settings.png" alt-text="The step settings options inside of the Set up workspace in Power Pages design studio.":::
+        :::image type="content" source="media/docusign/step-settings.png" alt-text="The step settings options inside of the Set up workspace in Power Pages design studio.":::
 
         > [!NOTE] 
         > You must open the form to give permission to authenticated users.
