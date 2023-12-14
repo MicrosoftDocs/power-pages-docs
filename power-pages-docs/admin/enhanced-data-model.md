@@ -58,7 +58,7 @@ There are several ways to determine which data model your site is using:
 You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model** option. Disabling enhanced data model doesn't remove solution packages, or delete any websites.
 Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
 
-:::image type="content" source="Media/enhanced-data-model/toggle.png" alt-text="A screenshot of the Power Platform admin center with the Switch to enhanced data model toggle emphasized.":::
+:::image type="content" source="media/enhanced-data-model/toggle.png" alt-text="A screenshot of the Power Platform admin center with the Switch to enhanced data model toggle emphasized.":::
 
 ## System tables
 

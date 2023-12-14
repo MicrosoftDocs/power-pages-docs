@@ -38,17 +38,17 @@ To access the analytics dashboard, you should have one of the following roles:
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 1. On the left pane, select **Resources**, then select **Power Pages sites**.
 1. Go to **Analytics**.
-    :::image type="content" source="Media/admin-center-analytics/usage-data.png" alt-text="A screenshot of Power Pages sites inside Power Platform admin center displaying Usage data.":::
+    :::image type="content" source="media/admin-center-analytics/usage-data.png" alt-text="A screenshot of Power Pages sites inside Power Platform admin center displaying Usage data.":::
 
 From here you can view the traffic that your websites are receiving: DAU (Daily Active Users), WAU (Weekly Active Users) and MAU (Monthly Active Users).
 
 All charts show the DAU, WAU and MAU across all the sites in the selected environment. You can select the environment of your interest using the drop-down.
 
-:::image type="content" source="Media/admin-center-analytics/analytics-environment-dropdown.png" alt-text="A screenshot of the Power Platform admin center showing the Analytics Usage Data's Environment dropdown.":::
+:::image type="content" source="media/admin-center-analytics/analytics-environment-dropdown.png" alt-text="A screenshot of the Power Platform admin center showing the Analytics Usage Data's Environment dropdown.":::
 
 Within the selected environment, you can also select a specific site for which you want to see the traffic. Select the Site ID from the drop-down (You can select multiple sites by using ctrl + click) to see traffic for that site.
 
-:::image type="content" source="Media/admin-center-analytics/analytics-site-id.png" alt-text="A screenshot fo the Power Platform admin center showing the Analytics Usage Data's Site ID dropdown.":::
+:::image type="content" source="media/admin-center-analytics/analytics-site-id.png" alt-text="A screenshot fo the Power Platform admin center showing the Analytics Usage Data's Site ID dropdown.":::
 
 >[!NOTE]
 > Currently, only Site ID is supported for filtering. The Site ID can be found under the **Your Sites** tab.

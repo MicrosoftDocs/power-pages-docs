@@ -41,7 +41,7 @@ These views and features can be used in addition to the [website capacity consum
 
 The licensing summary view is located under **Billing (preview)** > **Licenses (preview)**. Once Power Pages is selected from the product selector, the tenant level licensing summary view displays.
 
-:::image type="content" source="Media/capacity-management/licensing-summary.png" alt-text="A screenshot of the Licensing Summary tenent-level view inside of Power Platform admin center.":::
+:::image type="content" source="media/capacity-management/licensing-summary.png" alt-text="A screenshot of the Licensing Summary tenent-level view inside of Power Platform admin center.":::
 
 ### License type cards
 
@@ -87,7 +87,7 @@ At the top of the capacity management pane, administrators can see the total cap
 
 Select an environment from the list to display details of the environment on the bottom of the pane, such as region and the type of the environment. Capacity assignment for the selected environment can be changed by entering the new amount in the **Assigned units** textbox and selecting **Apply**.
 
-:::image type="content" source="Media/capacity-management/capacity-consumption.png" alt-text="A screenshot of the capacity  consumption history.":::
+:::image type="content" source="media/capacity-management/capacity-consumption.png" alt-text="A screenshot of the capacity  consumption history.":::
 
 If the environment is nearing or over its assigned capacity, an icon is shown and the status field indicates this status. Hover over the icon to see the consumption history from the past three months to the amount of capacity required.
 
@@ -99,11 +99,11 @@ More information: [Power Pages licensing](/power-platform/admin/powerapps-flow-l
 
 The licensing summary view also shows any legacy capacity in use, Dynamics 365 Portals add-ons, and pay-as-you-go sites. This information can be used for license model migration planning.
 
-:::image type="content" source="Media/capacity-management/legacy-capacity-management.png" alt-text="A screenshot of the legacy capacity management pane.":::
+:::image type="content" source="media/capacity-management/legacy-capacity-management.png" alt-text="A screenshot of the legacy capacity management pane.":::
 
 For legacy capacity, **Manage capacity**, displayed under the license type, opens the legacy capacity management view on the right side of the screen. This view lists the environments and sites in this licensing model and **Manage capacity** action link next to the environment and the site opens the **Manage add-ons** view with the environment preselected. The **Manage add-ons** view allows changes to be made to the legacy capacity (page views, logins).
 
-:::image type="content" source="Media/capacity-management/manage-add-ons.png" alt-text="A screenshot of the manage add-ons view.":::
+:::image type="content" source="media/capacity-management/manage-add-ons.png" alt-text="A screenshot of the manage add-ons view.":::
 
 For Dynamics 365 Portal add-ons, a list of sites is shown to help plan the migration to current licensing models. 
 
