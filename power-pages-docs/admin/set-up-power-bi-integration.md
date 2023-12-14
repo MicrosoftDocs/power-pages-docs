@@ -99,7 +99,7 @@ Enabling the Power BI Embedded service allows you to embed dashboards and report
 
 1. On the site information page, in the **Services** section, enable the **Enable Power BI Embedded** toggle.
 
-    :::image type="content" source="Media/enable-power-bi/services-tile.png" alt-text="The services section of the Power Pages sites management options in Power Platform admin center.":::
+    :::image type="content" source="media/enable-power-bi/services-tile.png" alt-text="The services section of the Power Pages sites management options in Power Platform admin center.":::
 
 1. Select the **Edit workspaces** link and choose the workspaces you want to display dashboards and reports from in your portal. Move these workspaces to the **Selected Workspaces** list.
 
