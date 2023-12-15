@@ -1,50 +1,51 @@
 ﻿---
 title: Enable Bootstrap version 5 in your environment (preview)
-description: Learn how to enable Bootstrap version 5 in your environment(preview).
-author: ankitavish 
-ms.topic: conceptual
-ms.custom: 
+description: Learn how to enable Bootstrap version 5 in your environment to take advantage of new features and updates that make creating responsive, customized Power Pages sites even easier.
+ms.topic: how-to
 ms.date: 09/27/2023
-ms.subservice:
-ms.author: avishwakarma 
+author: ankitavish
+ms.author: avishwakarma
 ms.reviewer: kkendrick
 contributors:
-    - ProfessorKendrick
+  - ProfessorKendrick
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/16/2023
+  - bap-template
 ---
 
 # Enable Bootstrap version 5 in your environment (preview)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can add new functionality to your site, like CSS Flexbox and responsive layout, using [Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
-
-Power Platform environments and existing Power Pages sites by default use Bootstrap version 3. Follow the steps in this article to enable Bootstrap version 5 for your environment before you create new sites. After the setting is enabled, new sites created in the selected environment will start using Bootstrap version 5.
+[Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features, like CSS Flexbox and responsive layout, that make creating more responsive, customized Power Pages sites even easier.
 
 > [!IMPORTANT]
-> - This feature is a preview feature.
+>
+> - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - Bootstrap version 5 is only supported in [enhanced data model](../admin/enhanced-data-model.md).
-> - You can migrate existing sites from using Bootstrap version 3 to use Bootstrap version 5, or create new sites after enabling the above setting.
+> - Bootstrap version 5 is only supported with the [enhanced data model](../admin/enhanced-data-model.md).
 
-To enable Bootstrap version 5 in your environment:
+Power Platform environments and Power Pages sites use Bootstrap version 3 by default. To start creating sites with Bootstrap version 5 or migrate your existing sites, enable Bootstrap version 5 in your environment. Once the setting is enabled, all new sites created in the environment will use Boostrap version 5.
 
-1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+## Set up Bootstrap version 5
 
-1. Select **Environments** and choose the environment that you want to use the Bootstrap version 5 upgrade with.
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
-1. From the **Resources tile**, select **Power Pages sites**.
+1. In the left side panel, select **Environments**, and then select your environment.
 
-1. From the toolbar, set the **Switch to enhanced data model (preview)** toggle to **On**.
+1. On the **Resources** tile, select **Power Pages sites**.
 
-1. From the toolbar, set the **Enable Bootstrap version 5 for new sites (preview)** toggle to **On**.
+1. Turn on both **Switch to enhanced data model (preview)** and **Enable Bootstrap v5 for new sites (preview)**.
 
-These actions install the packages needed for Bootstrap version 5. After the setting is enabled, create new sites with the [templates that support Bootstrap version 5](#supported-templates).
+1. Confirm when you're prompted to enable Bootstrap version 5 for new sites.
 
-Viewing and editing experiences for Power Pages sites created with Bootstrap version 5 remain unchanged. More information: [Edit your site](../getting-started/customize-pages.md), [Customize your site](../configure/bootstrap-overview.md#customize-bootstrap)
+View and edit Power Pages sites that you create with Bootstrap version 5 the same way you did with version 3. Learn how to [edit your site](../getting-started/customize-pages.md) and [customize your site](../configure/bootstrap-overview.md#customize-bootstrap).
 
 ## Supported templates
 
-The following templates are supported for Bootstrap version 5:
+Create your sites with Power Pages templates that support Bootstrap version 5:
 
 - [Blank page template](../templates/blank.md)
 - [Starter layout templates](../templates/starter-layout.md)
@@ -54,7 +55,7 @@ The following templates are supported for Bootstrap version 5:
 
 ## Next steps
 
-[Migrate existing sites to Bootstrap version 5 (preview)](migrate-bootstrap.md)
+- [Migrate existing sites to Bootstrap version 5 (preview)](migrate-bootstrap.md)
 
 ### See also
 
