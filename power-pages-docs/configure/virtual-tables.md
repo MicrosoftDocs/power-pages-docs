@@ -4,7 +4,7 @@ description: Learn how to integrate virtual tables with Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/07/2023
+ms.date: 12/12/2023
 ms.author: nabha
 ms.reviewer: ndoelman
 contributors:
@@ -37,7 +37,7 @@ There are various ways to create a virtual table in Dataverse. Currently, Power 
 
 [Dynamics 365 Finance and Operations](/dynamics365/fin-ops-core/fin-ops/) is a business application that is designed to help organizations manage their financial, operations, and supply chain. Finance and operations apps are a virtual data source in Dataverse, and enable full create, read, update, and delete (CRUD) operations from Dataverse.  Learn how to [surface finance and operations virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/power-portal-reference) in Power Pages. 
 
-### Virtual connector provider
+### Virtual connector providers
 
 Virtual connectors are built using Power Platform Connectors, which are pre-built connectors that provide a way to interact with external systems. Virtual connectors streamline creation experience by automating some of the creation and removing the need to use code to create the virtual tables.
 
@@ -53,6 +53,9 @@ Using Microsoft Dataverse Data SDK, .NET Developers have the option of creating 
 
 To learn how to create virtual table using custom data provider in Dataverse, go to [Custom virtual table data providers](/power-apps/developer/data-platform/virtual-entities//custom-ve-data-providers#steps-to-use-a-custom-data-provider).
 
+### Business Central virtual tables
+
+[Dynamics 365 Business Central](/dynamics365/business-central/) is a complete enterprise resource planning (ERP) software solution for mid-sized organizations. Business Central Virtual tables enables create, read, update, delete (CRUD) operations from Microsoft Dataverse. More information: [Business Central virtual tables with Power Pages](/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview)
 
 ## Set up virtual table relationship
 
@@ -69,7 +72,6 @@ Once the virtual table is created in Dataverse, you can use to create a [list](.
 The following virtual tables and providers are not supported for use with Power Pages;
 
 - The [Microsoft Entra user virtual table](/power-apps/developer/data-platform/aaduser-entity).
-- [Dynamics 365 Business Central virtual tables](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-faq)
 
 ## Limitations
 
