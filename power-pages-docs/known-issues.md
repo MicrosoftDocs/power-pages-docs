@@ -27,6 +27,7 @@ contributors:
 ## Pages workspace
 
 - Buttons added in websites built with the starter template can't be resized.
+- If your site uses custom IDs, they are removed from your HTML when changes are made in the Pages workspace.
 
 ### Modifying the header in Portal Management App
 
