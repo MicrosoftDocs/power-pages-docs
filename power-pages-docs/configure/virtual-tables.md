@@ -55,7 +55,7 @@ To learn how to create virtual table using custom data provider in Dataverse, go
 
 ### Business Central virtual tables
 
-[Dynamics 365 Business Central](/dynamics365/business-central/) is a complete enterprise resource planning (ERP) software solution for mid-sized organizations. Business Central Virtual tables enables create, read, update, delete (CRUD) operations from Microsoft Dataverse. Learn how to integrate [Business Central virtual table with Power Pages](/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview) for more details.
+[Dynamics 365 Business Central](/dynamics365/business-central/) is a complete enterprise resource planning (ERP) software solution for mid-sized organizations. Business Central Virtual tables enables create, read, update, delete (CRUD) operations from Microsoft Dataverse. More information: [Business Central virtual tables with Power Pages](/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview)
 
 ## Set up virtual table relationship
 
