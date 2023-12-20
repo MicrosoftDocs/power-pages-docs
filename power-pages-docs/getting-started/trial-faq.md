@@ -30,9 +30,10 @@ After you've applied for the license to your tenant, you can publish your enviro
 ## What are the trial limits and quotas?
 
 The following limitations apply to the trial:
-- The trial environment is available to you for 30 days. After that, you can request an extension for another 30 days.
-- A Power Pages site is always created as a trial. A trial site, which expires after 30 days, is useful for trying out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it's suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
-- If your trial site is created in a trial environment, your trial site will only be available until your trial environment is available. If your environment expires before the trial site expires, you'll lose access to your trial site. 
+- The trial environment is available to you for 30 days. After that, you can request an extension for another 30 days. More information: [Extend a trial environment](/power-platform/admin/trial-environments#extend-a-trial-standard-environment)
+- A Power Pages site is always created as a trial. A trial site is useful for trying out its capabilities at no cost. After it expires, the site is suspended and shut down. Seven days after it's suspended, the trial site is deleted. The trial site can be converted into a production site from the Power Pages admin center if you have the required licenses. More information: [Convert a site from trial to production](/power-apps/maker/portals/admin/convert-portal#convert-a-portal-from-trial-to-production)
+- If your trial site is created in a trial environment, then you trial site expires after 30 days or when your trial environment expires, whichever is earlier. If your environment expires before the trial site expires, you'll lose access to your trial site.
+- If your trial site is created in a non-expiring environment like production or sandbox, then your trial site expires after 90 days.
 
 ## What email address can I use?
 

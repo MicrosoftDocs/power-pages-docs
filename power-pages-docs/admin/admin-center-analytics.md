@@ -43,7 +43,7 @@ From here you can view the traffic that your websites are receiving: DAU (Daily 
 
 Each chart displays the DAU, WAU, and MAU for all the sites in the selected environment. Select your environment in the upper-right corner of the page.
 
-:::image type="content" source="Media/admin-center-analytics/analytics-environment-dropdown.png" alt-text="A screenshot of the Power Platform admin center showing the Analytics Usage Data's Environment dropdown.":::
+:::image type="content" source="media/admin-center-analytics/analytics-environment-dropdown.png" alt-text="A screenshot of the Power Platform admin center showing the Analytics Usage Data's Environment dropdown.":::
 
 To view the traffic for a specific site, select it in the **Site ID** list. To view the traffic for multiple sites, select **Ctrl** while you select the sites in the list.
 
