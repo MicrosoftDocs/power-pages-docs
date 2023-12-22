@@ -264,6 +264,8 @@
       href: admin/ip-address-restrict.md
     - name: Diagnostics and error handling
       href: admin/view-portal-error-log.md
+    - name: View Power Pages activity logging in Microsoft Purview
+      href: /power-platform/admin/logging-power-pages
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
     - name: Governance
