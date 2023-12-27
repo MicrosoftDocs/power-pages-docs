@@ -27,7 +27,7 @@ Now, you can securely invoke Power Automate cloud flows from Power Pages to inte
 
 ## Prerequisites
 
-You need a Power Automate per flow license to integrate with Power Pages.
+To integrate with Power Pages, a Power Automate license is required. It is recommended to use Power Automate per flow license in the production instance.
 
 ## Steps to integrate cloud flow
 
@@ -96,7 +96,7 @@ Request
 ```html
 POST https://contoso.powerappsportals.com/_api/cloudflow/v1.0/trigger/4d22a1a2-8a67-e681-9985-3f36acfb8ed4
 {
-    "text":"abc@contoso.com"
+    "Location":"Seattle"
 }
 ``` 
 
@@ -116,10 +116,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 Body
 {
-    "name":"Sample Account",
-    "credit_on_hold":false,
-    "description":"This is a sample account",
-    "revenue":50000000
+    "conditions":"Rain",
+    "humidity":"93",
+    "latitude":"47.60620880126953",
+    "longitude":"-122.33206939697266"
 }
 ```
 
@@ -133,6 +133,7 @@ In a cloud flow, you can define input parameters of type **Text**, **Boolean**, 
 
 > [!IMPORTANT]
 > - You must pass the request parameters name as defined in the cloud flow.
+> - Support for passing a parameter to a flow configured with secure inputs is not available.
 
 ### Sample JavaScript to call a flow
 

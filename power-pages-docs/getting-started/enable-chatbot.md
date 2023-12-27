@@ -2,7 +2,7 @@
 title: Add an AI-powered chatbot (preview)
 description: Learn how to add an AI-powered chatbot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 09/07/2023
+ms.date: 11/22/2023
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
@@ -21,7 +21,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *boosted conversations*&mdash;that is, natural language and generative answers&mdash;to answer questions and suggest solutions to issues in a conversational way.
+A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *generative answers*&mdash;that is, natural language to answer questions and suggest solutions to issues in a conversational way.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1cRVN]
 
@@ -30,15 +30,16 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - To understand the capabilities and limitations of this feature, see [FAQ for chatbot](../faqs-chatbot.md).
-> - Chatbot uses Power Virtual Agents boosted conversations and Bing Search to retrieve information from publicly available URLs. Your use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+> - Chatbot uses Power Virtual Agents generative answers and Bing Search to retrieve information from publicly available URLs. Your use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
 
 ## Prerequisites
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the United States.
+- Your environment must be located in the Europe, United Kingdom, Australia, or United States regions. Please review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
 - Your browser language must be set to US-English.
-- Your tenant administrator must turn on the setting **Publish bots with boosted conversations** in the Power Platform admin center.
+- Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
+- Chatbot uses Power Virtual Agent generative answers. Please refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
 
 ## Add a chatbot
 
@@ -49,17 +50,17 @@ To use AI-powered Copilot features in Power Pages:
 
 1. Turn on **Create and test chatbot**.
 
-    Power Pages creates a [bot with boosted conversation](/power-virtual-agents/nlu-boost-conversations) for you in Power Virtual Agents. 
+    Power Pages creates a [bot with generative answers conversation](/power-virtual-agents/nlu-boost-conversations) for you in Power Virtual Agents. 
 
 1. To make the chatbot available to visitors and users, turn on **Publish chatbot on site**.
 
-    If your tenant admin hasn't turned on publishing boosted bots, the **Publish chatbot on site** setting isn't available.
+    If your tenant admin hasn't turned on publish bots with AI features, the **Publish chatbot on site** isn't available.
 
 After you publish the chatbot on your site, the site URL is passed to Bing for indexing. The indexing process can take up to a day, but you can [force Bing to index your site's content immediately](force-bing-index.md).
 
 ## Customize your chatbot
 
-When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. 
+When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. The question entered by a site user is always shared with Bing search. Please refer to the [FAQ for Chatbot](/power-pages/faqs-chatbot?source=recommendations#how-to-turnoff-ai-chatbot-using-bing-search) to learn how to disable Bing search.
 
 Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following these steps: 
 
@@ -69,7 +70,7 @@ Authenticated site users receive tailored, summarized answers that align with th
     - You can select multiple tables in this section. Ensure that any table you select here's used on the site. 
     - On subsequent pages, you must specify the page where the table is used for generating the citation URL. 
 1. Choose **Next**. 
-1. Under the **Choose table**, select the table that contains the columns and page link you wish to select.
+1. Under the **Choose table**, select the table that contains the columns and page link you wish to select. The table will not appear unless it has at least one multi-line column.
     - You can select one table at a time. 
 1. Under **Add page link**, select the page where table is used.  
 
@@ -230,7 +231,7 @@ Text color:
 ## Known issues
 
 - You can't change your site's custom domain after you add a chatbot. Instead, turn off the chatbot, change the custom domain, and then turn the chatbot on again.
-- Although you can turn on the chatbot feature on sites that you create outside the United States, the chatbot might not be created.
+- Although you can turn on the chatbot feature on sites that you create outside the [regions chatbot is available in](#prerequisites), the chatbot might not be created.
 - If you turn off the chatbot feature, allow a few minutes for background operations to complete before you turn it on again.
 
 ### See also

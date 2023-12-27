@@ -35,9 +35,9 @@ The following site settings are used to configure CORS and their recommended val
 
 |Security check  |Site setting  |Recommended value  |
 |---------|---------|---------|
-|Access-Control-Allow-Origin restriction      |TTP/Access-Control-Allow-Origin          |False or remove the setting          |
+|Access-Control-Allow-Origin restriction      |HTTP/Access-Control-Allow-Origin          |False or remove the setting          |
 |Access-Control-Allow-Credentials restriction      |HTTP/Access-Control-Allow-Credentials          |False or remove the setting         |
-|Content Security Policy    |HTTP/Content-Security-Policy          |nonce          |
+|Content Security Policy    |HTTP/Content-Security-Policy          |script-src https: 'nonce'          |
 |X Frame Options configuration     |HTTP/X-Frame-Options          |SAMEORIGIN or DENY          |
 |HTTP/X-Content-Type-Options configuration      |HTTP/X-Content-Type-Options         |nosniff          |
 
