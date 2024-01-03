@@ -16,7 +16,7 @@ contributors:
 
 # Use solutions with Power Pages
 
-By using solutions with Power Pages, you can contain and transport all website configurations through standard Microsoft Power Platform [solutions](/power-platform/alm/solution-concepts-alm). Combine all website and Dataverse components into a single solution artifact, and then take advantage of advanced Application Lifecycle Management (ALM) capabilities to deploy websites to destination environments by using managed solutions.
+By using solutions with Power Pages, you can contain and transport all website configurations through standard Microsoft Power Platform [solutions](/power-platform/alm/solution-concepts-alm). Combine all website and Dataverse components into a single solution artifact, and then take advantage of advanced application lifecycle management (ALM) capabilities to deploy websites to destination environments by using managed solutions.
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ You'll need to enable enhanced data model to use solutions with Power Pages. Mor
 > [!NOTE]
 > - If the **Site** command doesn't appear on the **Add existing** menu, your environment doesn't include any websites that were created by using the [enhanced data model](../admin/enhanced-data-model.md#create-a-website-by-using-the-enhanced-data-model).
 > - This process adds all the site components to the solution.
-> - Dataverse system tables associated with site components won't be added to solution autommatically, you need to add them using add existing tables.
+> - Dataverse system tables associated with site components won't be added to the solution automatically, you need to add them using add existing tables.
 
 ## Add website components
 
@@ -58,7 +58,7 @@ Alternatively, you can add the required components to your site.
 
 1. In the solution, select the site.
 1. On the main menu, select **Advanced**, and then select **Add required objects**.
-1. In the panel that appears, select **OK** to continue. After a few moments, you receive a message that states that the required objects have been successfully added to the solution.
+1. In the panel that appears, select **OK** to continue. After a few moments, you'll receive a message that the required objects have been successfully added to the solution.
 
 ## Export the solution from the source environment
 
@@ -94,7 +94,7 @@ The target environment should reflect the website updates from the source enviro
 
 The following steps show how you can update an existing website by using the configuration from the source environment.
 
-1. Open [Power Platform admin center](https://aka.ms/ppac).
+1. Open the [Power Platform admin center](https://aka.ms/ppac).
 1. Select the destination environment.
 1. In the **Resources** section, select **Power Pages sites**.
 1. Select the destination site, select the ellipsis (**…**), and then select **Manage** to open the site details page.

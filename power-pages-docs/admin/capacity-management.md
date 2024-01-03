@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manage and monitor capacity (preview)
 description: Learn about capacity management in Power Pages.
 author: dileepsinghmicrosoft
@@ -8,40 +8,39 @@ ms.date: 11/20/2023
 ms.subservice: 
 ms.author: dileeps
 ms.reviewer: kkendrick
-contributors:
-    - dileepsinghmicrosoft
-    - ProfessorKendrick
-ms.contributors:
- - psimolin
+contributors: 
+   dileepsinghmicrosoft
+   ProfessorKendrick
+ms.contributors: psimolin
 ---
 
 # Manage and monitor capacity (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Pages capacity management experience in the Power Platform admin center allows administrators to manage Power Pages capacity and monitor capacity consumption. This experience also provides an overview of the different licensing models in use.
+The Power Pages capacity management experience in the Power Platform admin center allows administrators to manage Power Pages capacity and monitor capacity consumption. This experience also provides an overview of the different licensing models in use.
 
 > [!IMPORTANT]
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-The capacity management features allow administrators to assign prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determining the required capacity for the environments.
+The capacity management features allow administrators to assign prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determine the required capacity for the environments.
 
-The consumption monitoring views of the capacity management experience provide daily data for the month to date, the past two full months, and monthly data for past 12 months to help with the license budgeting and planning.
+The consumption monitoring views of the capacity management experience provide daily data for the month to date, the past two full months, and monthly data for the past 12 months to help with the license budgeting and planning.
 
-The licensing summary view includes information about production websites using legacy licensing models as well, which helps planning the licensing model migration from legacy to current licensing models.
+The licensing summary view includes information about production websites using legacy licensing models as well, which helps with planning the licensing model migration from legacy to current licensing models.
 
-Power Pages capacity management experience allows pivoting between the two supported capacity categories: authenticated MAU (monthly active users) and anonymous MAU.
+The Power Pages capacity management experience allows pivoting between the two supported capacity categories: authenticated MAU (monthly active users) and anonymous MAU.
 
 More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
-These views and features can be used in addition to the [website capacity consumption reports](/admin/website-consumption-reports); however, for monitoring the consumption of current capacity (authenticated MAU and anonymous MAU) it's recommended to use these new views.
+These views and features can be used in addition to the [website capacity consumption reports](/admin/website-consumption-reports); however, for monitoring the consumption of current capacity (authenticated MAU and anonymous MAU), it's recommended to use these new views.
 
 ## Licensing summary view
 
-The licensing summary view is located under **Billing (preview)** > **Licenses (preview)**. Once Power Pages is selected from the product selector, the tenant level licensing summary view displays.
+The licensing summary view is located under **Billing (preview)** > **Licenses (preview)**. Once Power Pages is selected from the product selector, the tenant-level licensing summary view displays.
 
-:::image type="content" source="media/capacity-management/licensing-summary.png" alt-text="A screenshot of the Licensing Summary tenent-level view inside of Power Platform admin center.":::
+:::image type="content" source="media/capacity-management/licensing-summary.png" alt-text="A screenshot of the Licensing Summary tenant-level view inside of Power Platform admin center.":::
 
 ### License type cards
 
@@ -49,9 +48,9 @@ License type cards are shown at the top of the view. The cards provide informati
 
 For capacity-based licensing models, the card has a link to either the capacity management experience or the legacy capacity management panel, depending on the license type. 
 
-For Dynamics 365 Portal Add-ons (legacy license type), **View details** shows the production websites that are using add-ons licensing model. **View details** for pay as you go license type shows a list of websites in production using pay as you go license model.
+For Dynamics 365 Portal Add-ons (legacy license type), **View details** shows the production websites that are using the add-ons licensing model. **View details** for a pay-as-you-go license type shows a list of websites in production using a pay-as-you-go license model.
 
-The license cards have information about the legacy licensing models as well to help administrator with licensing model migration planning. The rest of the views and features only support the current capacity based licensing model (Authenticated MAU and Anonymous MAU). 
+The license cards have information about the legacy licensing models to help administrators with licensing model migration planning. The rest of the views and features only support the current capacity-based licensing model (Authenticated MAU and Anonymous MAU). 
 
 More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
@@ -65,7 +64,7 @@ The assignments pie chart always shows the current data for total available prep
 
 #### Consumption history graph
 
-The consumption graph visualizes the data for assigned capacity, total available capacity, consumed capacity and overage at the tenant level, if any. Administrator can use the consumption graph to determine when new capacity needs to be procured to cover the growth. 
+The consumption graph visualizes the data for assigned capacity, total available capacity, consumed capacity, and overage at the tenant level, if any. Administrators can use the consumption graph to determine when new capacity needs to be procured to cover the growth. 
 
 - Time ranges available are month to date, daily data for the past two full months, and monthly data for the past 12 months. 
 - Licensing capacity consumption resets in the beginning of each month and grows as unique users access the websites and licensing capacity is consumed. 
@@ -79,7 +78,7 @@ Notification cards appear above the licensing summary view when something requir
 
 ## Capacity management
 
-To manage prepurchased authenticated and anonymous capacity, administrators should select **Manage capacity** in licensing summary below **Capacity**. The capacity management pane opens on the right side of the view.
+To manage prepurchased authenticated and anonymous capacity, administrators should select **Manage capacity** in the licensing summary below **Capacity**. The capacity management pane opens on the right side of the view.
 
 The capacity management pane allows administrators to view and manage the environments that are either already using this licensing type, and environments without any kind of license or capacity assigned.
 
@@ -93,15 +92,15 @@ If the environment is nearing or over its assigned capacity, an icon is shown an
 
 ## Legacy capacity and license management
 
-Legacy capacity refers to the previous Power Pages capacity based licensing model using portal logins and portal page views as metrics. Legacy license refers to Dynamics 365 Portal add-ons. Legacy capacity or legacy licenses are no longer available for purchase and new versions are available.
+Legacy capacity refers to the previous Power Pages capacity-based licensing model using portal logins and portal page views as metrics. Legacy license refers to Dynamics 365 Portal add-ons. Legacy capacity or legacy licenses are no longer available for purchase and new versions are available.
 
-More information: [Power Pages licensing](/power-platform/admin/powerapps-flow-licensing-faq?branch=main#power-pages)
+More information: [Power Pages licensing](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
-The licensing summary view also shows any legacy capacity in use, Dynamics 365 Portals add-ons, and pay-as-you-go sites. This information can be used for license model migration planning.
+The licensing summary view also shows any legacy capacity in use, Dynamics 365 Portal add-ons, and pay-as-you-go sites. This information can be used for license model migration planning.
 
 :::image type="content" source="media/capacity-management/legacy-capacity-management.png" alt-text="A screenshot of the legacy capacity management pane.":::
 
-For legacy capacity, **Manage capacity**, displayed under the license type, opens the legacy capacity management view on the right side of the screen. This view lists the environments and sites in this licensing model and **Manage capacity** action link next to the environment and the site opens the **Manage add-ons** view with the environment preselected. The **Manage add-ons** view allows changes to be made to the legacy capacity (page views, logins).
+For legacy capacity, **Manage capacity**, displayed under the license type, opens the legacy capacity management view on the right side of the screen. This view lists the environments and sites in this licensing model and the **Manage capacity** action link next to the environment, and the site opens the **Manage add-ons** view with the environment preselected. The **Manage add-ons** view allows changes to be made to the legacy capacity (page views, logins).
 
 :::image type="content" source="media/capacity-management/manage-add-ons.png" alt-text="A screenshot of the manage add-ons view.":::
 
@@ -109,7 +108,7 @@ For Dynamics 365 Portal add-ons, a list of sites is shown to help plan the migra
 
 More information: [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model)
 
-For Pay as you go model, list of sites is shown. Usage tracking for these sites is available directly from the Azure portal. 
+For the pay-as-you-go model, a list of sites is shown. Usage tracking for these sites is available directly from the Azure portal. 
 
 More information: [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs)
 
