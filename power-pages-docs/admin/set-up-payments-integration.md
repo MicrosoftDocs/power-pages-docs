@@ -1,4 +1,4 @@
-﻿---
+---
 title: Set up payments integration (preview)
 description: Learn how to set up Payments integration with your website. 
 author: sandhangitmsft
@@ -12,6 +12,7 @@ contributors:
     - sandhangitmsft
     - ProfessorKendrick
 ---
+
 # Set up payments integration (preview) 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -31,6 +32,11 @@ To accept payments on your Power Pages site, you must complete these steps: 
 > - This feature currently only works with the [enhanced data model](../admin/enhanced-data-model.md).
 > - This feature requires [Power Pages website build version 9.5.10.x](/power-platform/released-versions/portals/pagesversion9510x) for the payments control to show on the site.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+
+
+
+
+
 
 ## Prerequisites 
 
