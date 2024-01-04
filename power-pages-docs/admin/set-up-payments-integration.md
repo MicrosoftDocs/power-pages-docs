@@ -63,7 +63,8 @@ Once you install the package, you can begin to configure Stripe for your Power P
     > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe. 
     > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys) 
 1. In the design studio, enter the Publishable and Secret keys respectively in the **Enable integration panel**. 
-        :::image type="content" source="media/set-up-payments-integration/stripe-integration.svg" alt-text="A screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
+
+   :::image type="content" source="media/set-up-payments-integration/stripe-integration.svg" alt-text="A screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
 1. Choose **Save** and close the panel. 
 1. Select the **Sync** button. 
 
@@ -72,7 +73,7 @@ Once you install the package, you can begin to configure Stripe for your Power P
 To enable payments, complete the following steps: 
 
 1. Create a multistep form step for the Dataverse table used in your multistep form process where you want to accept payments. 
-1. Add [table permissions](../security/table-permissions.md)  for the Dataverse tables used in the multistep form process (you need at least **Create** and **Write** permissions) and assign appropriate [web roles](../security/create-web-roles.md). 
+1. Add [table permissions](../security/table-permissions.md) for the Dataverse tables used in the multistep form process (you need at least **Create** and **Write** permissions) and assign appropriate [web roles](../security/create-web-roles.md). 
 1. Select the **Sync** button. 
 1. In the design studio, choose **Pages** and navigate to the webpage where the payment experience is intended. 
 1. Add or edit the [multistep form](../getting-started/multistep-forms.md), and create a step called *Pay* (or similar).
@@ -96,9 +97,9 @@ On the Pay step, you should be able to perform a payment using test cards availa
 A successful payment shows the confirmation with the amount paid and a transaction ID returned from the payment provider.
 
 > [!NOTE]
-> You should disable the back-button from Step settings if you don't want to allow users to go to the previous step from the payment step.
+> You should disable the back-button from the Step settings if you don't want to allow users to go to the previous step from the payment step.
 
-If this step is the last of your multistep form, a submit button is enabled that submits the form and completes your process.
+If this is the last step of your multistep form, a submit button is enabled that submits the form and completes your process.
 
 ## Considerations
 
