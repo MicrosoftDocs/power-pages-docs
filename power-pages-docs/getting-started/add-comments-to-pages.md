@@ -36,7 +36,7 @@ Add your comments directly to a page in the design studio from the Pages workspa
 
 Legend:
 
-1. The comments icon in the designs studio command bar. Select this icon to open the comments pane for the selected page.
+1. The comments icon in the design studio command bar. Select this icon to open the comments pane for the selected page.
 1. The comments pane. Select **...** next to a comment to access options such as [edit](#edit-or-delete-a-comment), [delete](#edit-or-delete-a-comment), or [resolve](#resolve-a-comment).
 1. You can also add a new comment by selecting **...** for the page you'd like to add a comment to. **New comment** appears in the menu options for the page.
 1. In the design studio, anchors depict comments added to a page and let you add new comments as well.
@@ -55,19 +55,19 @@ Resolve or reopen a comment thread to better track the active comments from the 
 1. Select **...** next to the comment in the comment pane.
 1. Choose **Resolve comment**. 
 
-The comment thread appears as **Resolved**. To reopen select **Reopen thread**. To delete the comment thread, select **Delete thread**.
+The comment thread appears as **Resolved**. To reopen, select **Reopen thread**. To delete the comment thread, select **Delete thread**.
 
 ## Tag someone in a comment
 
-Tag makers in a comment by using @ followed by their name.
+You can tag makers in a comment by using @ followed by their name.
 
-If you tag a maker that doesn't have access to your app, you're prompted to grant the maker site edit permission.
+If you tag a maker who doesn't have access to your app, you're prompted to grant the maker site edit permission.
 
-When someone tags you in a comment, you receive an email. The email includes  the name of the person who tagged you, which page you're tagged in, the comment text, and a direct link to the comment.
+When someone tags you in a comment, you receive an email. The email includes the name of the person who tagged you, which page you're tagged in, the comment text, and a direct link to the comment.
 
 ## Moving comments between environments
 
-Comments in Power Page sites can't be exported or imported as solution components because they contain user collaboration data. However, you can export the Comment table to Excel and then import the Excel file into your environment. More information: [Export data](/power-apps/maker/data-platform/data-platform-import-export#export-data)
+Comments in Power Pages sites can't be exported or imported as solution components because they contain user collaboration data. However, you can export the Comment table to Excel and then import the Excel file into your environment. More information: [Export data](/power-apps/maker/data-platform/data-platform-import-export#export-data)
 
 ## Known limitations
 
