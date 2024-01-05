@@ -37,22 +37,22 @@ Add your comments directly to a page in the design studio from the Pages workspa
 Legend:
 
 1. The comments icon in the design studio command bar. Select this icon to open the comments pane for the selected page.
-1. The comments pane. Select **...** next to a comment to access options such as [edit](#edit-or-delete-a-comment), [delete](#edit-or-delete-a-comment), or [resolve](#resolve-a-comment).
-1. You can also add a new comment by selecting **...** for the page you'd like to add a comment to. **New comment** appears in the menu options for the page.
+1. The comments pane. Select the ellipsis (**...**) next to a comment to access options such as [edit](#edit-or-delete-a-comment), [delete](#edit-or-delete-a-comment), or [resolve](#resolve-a-comment).
+1. You can also add a new comment by selecting the ellipsis (**...**) for the page you'd like to add a comment to. **New comment** appears in the menu options for the page.
 1. In the design studio, anchors depict comments added to a page and let you add new comments as well.
 
 ## Edit or delete a comment
 
 Edit your comments or remove existing comments in design studio from the comments pane.
 
-1. Select **...** next to the comment in the comment pane.
+1. Select the ellipsis (**...**) next to the comment in the comment pane.
 1. Choose **Edit comment** or **Delete comment**.
 
 ## Resolve a comment
 
 Resolve or reopen a comment thread to better track the active comments from the comments pane.
 
-1. Select **...** next to the comment in the comment pane.
+1. Select the ellipsis (**...**) next to the comment in the comment pane.
 1. Choose **Resolve comment**. 
 
 The comment thread appears as **Resolved**. To reopen, select **Reopen thread**. To delete the comment thread, select **Delete thread**.
