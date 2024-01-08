@@ -12,21 +12,22 @@ contributors:
     - tapanm-msft
     - ProfessorKendrick
 ---
+
 # Create an AI-generated site using Copilot (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-With the Copilot for site creation, you can create Power Pages sites with the help of AI. Describe the site that you want to create, and AI designs it for you. Use natural language processing to help you build your site by describing the type of site, intended users of the site and type of information you want the site to process.
+With the Copilot for site creation, you can create Power Pages sites with the help of AI. Describe the site that you want to create, and AI designs it for you. Use natural language processing to help you build your site by describing the type of site, intended users of the site, and type of information you want the site to process.
 
 Copilot generates the contextual site name, site address, home page layout, and more pages with HTML for each page with relevant text copy and images from the description. The site is created with the home page and more pages as selected, with the pages added to the sitemap. Once the site is created, these pages can be refined and edited using Copilot and the WYSIWYG editor.
 
-:::image type="content" source="media/create-site-copilot/copilot-create-site.png" alt-text="The Copilot on Power Pages home with to input a description of the site.":::
+:::image type="content" source="media/create-site-copilot/copilot-create-site.png" alt-text="The Copilot on Power Pages home with an input field for users to enter a description of the site emphasized.":::
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This preview feature doesn't support non-English language input.
-> - This preview feature is only available in the Microsoft Power Platform environments created in United States region.
+> - This preview feature is only available in the Microsoft Power Platform environments created in the United States region.
 > - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
 
 ## Create a site with the help of AI
@@ -35,7 +36,7 @@ To use Copilot for site creation:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. Enter a description of the site you want to build or select a suggested description of the site. And then, press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
+1. Enter a description of the site you want to build or select a suggested description of the site. Then press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
 
     Example descriptions:
 
@@ -62,4 +63,4 @@ Site creation can take a few minutes. When finished, you're redirected to the si
 ### See also
 
 - [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
-- [Responsible AI FAQ for Copilot for site creation](../faqs-generate-site.md)
+- [FAQ for Copilot for site creation](../faqs-generate-site.md)
