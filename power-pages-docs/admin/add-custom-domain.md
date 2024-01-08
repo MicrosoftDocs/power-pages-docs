@@ -125,7 +125,7 @@ Once approved, CA issues and sends the renewed certificate to the certificate co
 
 Once you have the renewed (reissued) certificate .PFX file, please follow these two simple steps to replace your old certificate on [Power Portals admin center](https://admin.powerplatform.microsoft.com/resources/portals) ::
 
-1. Upload your renewed certificate .pfx file using the steps from this doc : [Add new certificate](https://learn.microsoft.com/power-pages/admin/manage-custom-certificates#add-new-certificate)
+1. Upload your renewed certificate .pfx file using the steps from this doc : [Add new certificate](manage-custom-certificates.md#add-new-certificate)
 
 1. Post the upload, delete the existing binding with the old certificate and a "New" binding as shown below. Clicking on "New" button will bring a popup where you can choose your preferred host name & your new certificate for this binding.
 
