@@ -131,6 +131,11 @@ Once you have the renewed (reissued) certificate .PFX file, please follow these 
 
 :::image type="content" source="media/add-custom-domain/new-binding.png" alt-text="A screenshot of the Power Platform admin center with the option to delete SSL bindings and add a new SSL certificate emphasized.":::
 
+Legend:
+
+1. Delete the existing binding by selecting the ellipse, then choose **Delete**.
+1. Select the **+ New** button to add a new SSL certificate.
+
 ### See also
 
 [Configure SSL certificates and custom domain names](/training/modules/portals-administration/2-custom-domain)
