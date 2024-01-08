@@ -133,7 +133,7 @@ Once you have the renewed (reissued) certificate .PFX file, please follow these 
 
 Legend:
 
-1. Delete the existing binding by selecting the ellipse, then choose **Delete**.
+1. To elete the existing binding, select the ellipse, then choose **Delete**.
 1. Select the **+ New** button to add a new SSL certificate.
 
 ### See also
