@@ -121,7 +121,7 @@ Once approved, CA issues and sends the renewed certificate to the certificate co
 
 **STEP 4:** Install your renewed SSL/TLS certificate (Preferably on the machine from step 1 where you installed the CSR, which will auto-associate the private key so that you can later export the .PFX file). While exporting the PFX file on Windows just ensure that the Export is a password-protected PFX file, encrypted using triple DES as shown below : 
 
-![image](https://github.com/MicrosoftDocs/power-pages-docs/assets/110391372/8ff65a7e-c779-4f34-b1e4-4740d01c76c3)
+:::image type="content" source="media/add-custom-domain/renewed-certificate.svg" alt-text="The Certificate Export Wizard with the triple DES Encryption information emphasized.":::
 
 Once you have the renewed (reissued) certificate .PFX file, please follow these two simple steps to replace your old certificate on [Power Portals admin center](https://admin.powerplatform.microsoft.com/resources/portals) ::
 
@@ -129,7 +129,7 @@ Once you have the renewed (reissued) certificate .PFX file, please follow these 
 
 1. Post the upload, delete the existing binding with the old certificate and a "New" binding as shown below. Clicking on "New" button will bring a popup where you can choose your preferred host name & your new certificate for this binding.
 
-![image](https://github.com/MicrosoftDocs/power-pages-docs/assets/110391372/686af6be-8d36-4c69-94fe-7807b551146e)
+:::image type="content" source="media/add-custom-domain/new-binding.png" alt-text="A screenshot of the Power Platform admin center with the option to delete SSL bindings and add a new SSL certificate emphasized.":::
 
 ### See also
 
