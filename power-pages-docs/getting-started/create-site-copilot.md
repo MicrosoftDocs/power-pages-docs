@@ -13,8 +13,6 @@ contributors:
     - ProfessorKendrick
 ---
 
-<!-- Kaleigh, either a word is missing or there's an unneeded word in the alt text in line 26. -->
-
 # Create an AI-generated site using Copilot (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
