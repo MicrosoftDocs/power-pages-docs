@@ -120,6 +120,20 @@ On a read-only form, the rich text editor displays the content with formatting a
 > [!NOTE]
 > Only .PNG, .JPG., or .GIF file formats are supported for drag and drop. 
 
+## Rendering rich text editor content field using liquid or Pages Web API
+The rich text editor content field can be rendered using [Liquid](../configure/liquid/liquid-overview) or the [Pages Web API](../configure/web-api-overview). If the field contains any image files, they will have a Dataverse Web API reference path. To display these images on a Pages web page, you need to replace the current path with the corresponding Pages API path.
+
+Example : 
+The image element within the rich text editor content field will be displayed as follows, containing a reference to the Dataverse Web API path:
+ ```
+    <img loading="lazy" src="/api/data/v9.0/msdyn_richtextfiles(d0a473a4-9e95-ee11-be37-000d3a5c393e)/msdyn_imageblob/$value?size=full" style="height:61px; width:376px">
+ ```
+To update the image element, replace /api/data/v9.0 with /_api as shown below:
+
+ ```
+    <img loading="lazy" src="/_api/msdyn_richtextfiles(d0a473a4-9e95-ee11-be37-000d3a5c393e)/msdyn_imageblob/$value?size=full" style="height:61px; width:376px">
+ ```
+
 ### See also
 
 - [Power Apps component framework overview](/power-apps/developer/component-framework/overview) 
