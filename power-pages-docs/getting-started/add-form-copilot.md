@@ -10,6 +10,8 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
 ms.custom: bap-template
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Add an AI-generated form using Copilot (preview)

@@ -11,6 +11,8 @@ ms.reviewer: ProfessorKendrick
 contributors:
     - tapanm-msft
     - ProfessorKendrick
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Create an AI-generated site using Copilot (preview)

@@ -11,6 +11,8 @@ ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
     - pranita225
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Add an AI-generated multistep form using Copilot (preview)

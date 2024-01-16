@@ -11,6 +11,8 @@ ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
     - clromano
+ms.collection: 
+    - bap-ai-copilot
 ---
 # Create an AI-generated webpage using Copilot (preview)
 
