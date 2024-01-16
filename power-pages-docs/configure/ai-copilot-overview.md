@@ -14,6 +14,8 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:09/06/2023
   - bap-template
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Overview of AI-powered and Copilot features in Power Pages (preview)
