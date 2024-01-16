@@ -11,6 +11,8 @@ contributors:
     - ProfessorKendrick
     - ckwan-ms
 ms.custom: bap-template
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Add AI-generated text using Copilot (preview)
