@@ -1,6 +1,6 @@
 ---
 title: Manage website security from the Power Platform admin center (preview)
-description: Learn about the admin settings for website security in the Power Platform admin center.
+description: Learn how to manage website security in the Power Platform admin center.
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
@@ -17,9 +17,10 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use the Power Platform admin center to monitor the security status of the websites in your tenant. You can also see key information such as how many sites have Web Application Firewall disabled or how many sites have external authentication enabled.
+Use the Power Platform admin center to monitor the security status of the websites in your tenant. You can also see key information such as how many sites have Web Application Firewall (WAF) disabled or how many sites have external authentication enabled.
 
 > [!IMPORTANT]
+>
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
@@ -35,30 +36,29 @@ To monitor website security for all websites in your tenant:
 
 ## Anonymous access enabled
 
-**Anonymous access enabled** shows the number of websites where anonymous access is allowed for certain tables in Microsoft Dataverse. It means that these sites have at least one table permission that allows anonymous users to have access to the data. More information: [Table permissions](../security/assign-table-permissions.md)
+**Anonymous access enabled** shows the number of websites where anonymous access is allowed for certain tables in Microsoft Dataverse. It means that these sites have at least one table permission that allows anonymous users to have access to the data. For more information, go to [Table permissions](../security/assign-table-permissions.md).
 
-Select **View details** to see the review the anonymous access setting for each website.
+Select **View details** to review the anonymous access setting for each website.
 
 ### Web Application Firewall disabled
 
 **Web Application Firewall disabled** shows the number of production websites where [Web Application Firewall (WAF)](../security/web-application-firewall.md) is disabled.
 
-Enabling WAF improves the security of your website and Microsoft recommends enabling WAF. More information: [Enable Web Application Firewall for a website](../security/configure-web-application-firewall.md)
+Enabling WAF improves the security of your website and Microsoft recommends enabling WAF. For more information, go to [Enable Web Application Firewall for a website](../security/configure-web-application-firewall.md).
 
-Select **View details** to see the review the Web Application Firewall setting for each website.
+Select **View details** to review the WAF setting for each website.
 
 ### External authentication enabled
 
-**External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Microsoft Entra ID allowing access to Dataverse data. More information: [Authentication providers](../security/authentication/index.md).
+**External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Microsoft Entra ID allowing access to Dataverse data. for more information, go to [Authentication providers](../security/authentication/index.md).
 
-Select **View details** to see the review the external authentication configuration for each website.
+Select **View details** to review the external authentication configuration for each website.
 
 ### Site security health
 
-**Site security health** dashboard gives you a summary of the websites in your organization related security status. The security status of a website is determined based on certain security checks that are run for each website. More information: [Security site checker](../security/site-checker-security.md)
+**Site security health** dashboard gives you a summary of the websites in your organization related to security status. The security status of a website is determined based on certain security checks that are run for each website. For more information, go to [Security site checker](../security/site-checker-security.md).
 
-> [!NOTE]
-> The security health is calculated by looking at various configuration parameters and identifying common issues. These checks are not exhaustive and we recommend you to continue following security best practices.
+The security health is calculated by looking at various configuration parameters and identifying common issues. These checks aren't exhaustive and we recommend you continue following website security best practices.
 
 The criteria for classifying security health into Standard, Enhanced and Advanced is outlined in the table provided. This criteria might change during the feature preview and before the feature is generally available.
 
@@ -67,34 +67,31 @@ The criteria for classifying security health into Standard, Enhanced and Advance
 | Standard | This status means that less than 33% of the security checks for this website are in **Pass** state. |
 | Enhanced | This status means that more than 33% of the security checks for this website are in **Pass** state. |
 | Advanced | This status means that more than 66% of the security checks for this website are in **Pass** state. |
-| No results | This status means that security checker hasn't been run, or the site configurations don't allow checks to be run (for example, a site that has an IP restriction setup, or a site that is stopped). To resolve, run the site checker from Power Platform Admin Center. Site checker doesn't work if a website has IP address restrictions. |
+| No results | This status means that security checker isn't being run, or the site configurations don't allow checks to be run. Such as, a site that has an IP restriction setup, or a site that is stopped. To resolve, run the site checker from Power Platform Admin Center. Site checker doesn't work if a website has IP address restrictions. |
 
-Select **View** to find out the security checker results.
+Select **View** to review the security checker results.
 
-> [!NOTE]
-> The checks are flagged as **Warning** when the configurations are not the same as what Microsoft recommends. There can be cases where your business needs demand the sites to be configured in a way that is not the **Recommended** state.
-
-The pie chart shows you the count of websites in each Security Status
+The checks are flagged as **Warning** when the configurations aren't the same as what Microsoft recommends. There can be cases where your business needs demand the sites to be configured in a way that isn't in the **Recommended** state.
 
 ## Authentication providers
 
-**Authentication providers** shows the list of all authentication providers that are used across the websites in your tenant, along with the count of all websites in which they're used
+**Authentication providers** shows the list of all authentication providers that are used across the websites in your tenant, along with the count of all websites in which they're used.
 
 Select **Review** to see the list of websites where the specific authentication provider is used.
 
 ## Frequently Asked Questions
 
-In this section, find answers to frequently asked questions related to website security using Power Platform admin center.
+In this section, find answers to frequently asked questions related to managing website security using Power Platform admin center.
 
 ### How frequently is the data refreshed?
 
-The security checks are run against all websites in your tenant, once every day automatically. The insights and security status are refreshed after every such run. The last updated time for the results can be seen on the top right corner of the page.
+Security checks are run against all websites in your tenant, once every day automatically. The insights and security status are refreshed after every run. The most current update for the results can be seen on the top right corner of the page.
 
 You can also manually refresh the security status on-demand by selecting **Refresh**.
 
 ### Who can view the security dashboard?
 
-You must be a member of one of the following roles to view website security using Power Platform admin center:
+You must have one of the following roles to view website security using Power Platform admin center:
 
 - Global administrator
 - Dynamics 365 administrator
