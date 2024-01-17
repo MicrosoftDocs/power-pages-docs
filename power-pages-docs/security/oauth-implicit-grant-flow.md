@@ -19,8 +19,6 @@ contributors:
 
 This feature allows a customer to make client-side calls to external APIs and secure them using OAuth implicit grant flow. It provides an endpoint to obtain secure access tokens. These tokens will contain user identity information to be used by external APIs for authorization following OAuth 2.0 implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls, which helps developers to pass authentication context and will also help users secure their APIs.
 
-OAuth 2.0 implicit grant flow supports [token](#token-endpoint-details) endpoints that a client can call to get an ID token.
-
 ## Custom certificates
 
 Use the [Power Platform admin center](/power-apps/maker/portals/admin/manage-custom-certificates) to upload the custom certificate. After uploading the custom certificate, you need to update site settings as below: 
