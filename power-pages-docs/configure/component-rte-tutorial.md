@@ -121,7 +121,7 @@ On a read-only form, the rich text editor displays the content with formatting a
 > Only .PNG, .JPG., or .GIF file formats are supported for drag and drop. 
 
 ## Rendering rich text editor content field using liquid or Pages Web API
-The rich text editor content field can be rendered using [Liquid](../configure/liquid/liquid-overview) or the [Pages Web API](../configure/web-api-overview). If the field contains any image files, they will have a Dataverse Web API reference path. To display these images on a Pages web page, you need to replace the current path with the corresponding Pages API path.
+The rich text editor content field can be rendered using [Liquid](../configure/liquid/liquid-overview.md) or the [Pages Web API](../configure/web-api-overview.md). If the field contains any image files, they will have a Dataverse Web API reference path. To display these images on a Pages web page, you need to replace the current path with the corresponding Pages API path.
 
 Example :
 
