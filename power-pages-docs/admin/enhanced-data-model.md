@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/26/2023
+ms.date: 12/11/2023
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: kkendrick
@@ -28,9 +28,9 @@ The enhanced data model is a combination of system tables, nonconfiguration tabl
 
 The enhanced data model for Power Pages provides the following benefits:
 
-- Faster website provisioning.
-- Faster design studio experiences.
-- Website configurations can be contained in solutions to provide smoother Application Lifecyle Management (ALM) experiences.
+- Website provisioning is faster.
+- Design studio experiences are faster.
+- Website configurations can be contained in solutions to provide smoother application lifecyle management (ALM) experiences.
 - Updates of Power Pages enhancements and bug fixes are improved.
 
 ## Determine whether your site is using the standard or enhanced data model
@@ -56,9 +56,10 @@ There are several ways to determine which data model your site is using:
 ## Disable the enhanced data model
 
 You can opt out of using the enhanced data model for site creation by disabling the **Switch to enhanced data model** option. Disabling enhanced data model doesn't remove solution packages, or delete any websites.
+
 Existing websites that were created by using the enhanced data model continue to operate. Any new websites that are created use the standard data model.
 
-:::image type="content" source="Media/enhanced-data-model/toggle.png" alt-text="A screenshot of the Power Platform admin center with the Switch to enhanced data model toggle emphasized.":::
+:::image type="content" source="media/enhanced-data-model/toggle.png" alt-text="A screenshot of the Power Platform admin center with the Switch to enhanced data model toggle emphasized.":::
 
 ## System tables
 
@@ -164,7 +165,7 @@ On the Power Pages home page, on the site card, select **Edit** to open the Powe
 On the Power Pages home page, on the site card, select the ellipsis (**…**), and then select **Power Pages Management** to open the Power Pages Management app.
 
 > [!NOTE]
-> - Power Pages core packages related to enhanced data model will by default pre-installed on all Dataverse environments irrespective of whether  environment have Power Pages site or not. 
+> - Power Pages core packages related to enhanced data model will by default be preinstalled on all Dataverse environments irrespective of whether the environments have a Power Pages site or not. 
 > - The enhanced data model includes a new model-driven app named **Power Pages Management**. You must use this app for advanced customizations that aren't available through the Power Pages design studio.
 
 You can also open the Power Pages Management app from the Power Pages design studio. Select the ellipsis (**…**), and then select **Power Pages Management**.
@@ -199,12 +200,6 @@ Guidance and tooling support to help you update from the standard data model to 
 ### Can I edit new sites that are based on enhanced data model configurations in the Portal Management app?
 
 You can use the new Power Pages Management app to edit new websites that are created by using the enhanced data model.
-
-## Known issues
-
-- In the language selection on the user profile page, a signed-in website user preffered lanugauges are not shown. As a workaround change preferred language from site header.
-- [List actions](../getting-started/add-list.md#choose-list-actions) configuration for enhanced datamodel site in design studio is not supported. As a workaround, configure the list actions by using the [Power Pages Management app](../configure/list-configuration.md).
-- Because webpages search for enhanced data model isn't working, search results won't include results from webpages and chatbots won't be able to respond with answers from webpages.
 
 ## See also
 

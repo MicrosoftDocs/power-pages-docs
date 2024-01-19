@@ -158,7 +158,7 @@
                   href: getting-started/add-form.md
                 - name: Add an AI-generated form using Copilot (preview)
                   href: getting-started/add-form-copilot.md
-                - name: Add multistep form
+                - name: Add a multistep form
                   href: getting-started/multistep-forms.md
                 - name: Add an AI-generated multistep form using Copilot (preview)
                   href: getting-started/multistep-forms-copilot.md
@@ -174,7 +174,7 @@
           href: getting-started/style-site.md
         - name: Create an AI-generated theme using Copilot (preview)
           href: getting-started/theme-copilot.md
-        - name: Bootstrap
+        - name: Customize your site with Bootstrap
           items:
             - name: Bootstrap overview
               href: configure/bootstrap-overview.md
@@ -200,10 +200,14 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add an AI-powered chatbot (preview)
-          href: getting-started/enable-chatbot.md
-        - name: Force Bing webmaster to index 
-          href: getting-started/force-bing-index.md
+        - name: Add an Ai-powered chatbot (preview)
+          items:
+          - name: Add an AI-powered chatbot
+            href: getting-started/enable-chatbot.md
+          - name: Force Bing webmaster to index 
+            href: getting-started/force-bing-index.md
+          - name: Replace AI-powered chatbot with a Power Virtual Agents bot
+            href: getting-started/pva-bot-how-to.md
         - name: Progressive web applications
           items:
             - name: Overview
@@ -264,6 +268,8 @@
       href: admin/ip-address-restrict.md
     - name: Diagnostics and error handling
       href: admin/view-portal-error-log.md
+    - name: View Power Pages activity logging in Microsoft Purview (preview)
+      href: /power-platform/admin/logging-power-pages
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
     - name: Governance

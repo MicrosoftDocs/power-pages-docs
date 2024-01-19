@@ -67,7 +67,7 @@ You can manage the following types of site settings:
 | Site/EnableDefaultHtmlEncoding | True/False | Power Pages release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](/power-apps/maker/portals/liquid/liquid-filters#escape) Liquid filter enforced for [user](/power-apps/maker/portals/liquid/liquid-objects#user) and [request](/power-apps/maker/portals/liquid/liquid-objects#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, add this setting and set its value to **False**. |
 
 > [!NOTE]
-> *Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail* is not applicable for multi-tenant endpoints. Use [invitations](/power-apps/maker/portals/configure/invite-contacts) to allow users to authenticate to your website.
+> *Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail* is not applicable for multi-tenant endpoints and [**Microsoft** identity provider](../security/authentication/oauth2-microsoft.md). Use [invitations](/power-apps/maker/portals/configure/invite-contacts) to allow users to authenticate to your website.
 
 For site settings related to various website features, see:
 

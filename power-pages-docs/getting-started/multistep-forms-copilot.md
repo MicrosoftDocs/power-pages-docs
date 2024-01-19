@@ -17,7 +17,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-An easy way to add a multistep form to your Power Pages website is to ask Copilot to create one for you. In the copilot sidecar chat, describe the form you need. Copilot builds a multistep form with one or multiple steps based on your description and generates a preview. Review the form and its step before adding it to your page.
+An easy way to add a multistep form to your Power Pages website is to ask Copilot to create one for you. In the copilot sidecar chat, describe the form you need. Copilot builds a multistep form with one or multiple steps based on your description and generates a preview. Review the form and its steps before adding it to your page.
 
 > [!IMPORTANT]
 > - This is a preview feature.
