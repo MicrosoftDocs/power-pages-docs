@@ -20,6 +20,9 @@ Power Pages is licensed by using **authenticated user monthly capacity** and **a
 
 Administrators can download **Power Pages authenticated** and **Power Pages anonymous** view reports (as well as legacy **Portal logins** and **Portal page views** reports) from the [Power Platform admin center](https://admin.powerplatform.com). These reports show the number of authenticated sign-ins and anonymous user site accesses for Power Pages websites across all environments for a tenant. 
 
+> [!NOTE]
+> Administrators should use the Power Pages capacity management experience in the Power Platform admin center to monitor capacity consumption for authenticated and anonymous users. More information: [Manage and monitor capacity (preview)](capacity-management.md)
+
 ## Download the reports
 
 The individual reports contain data for a duration of 30 days preceding the date you select while downloading the reports.
@@ -91,7 +94,6 @@ The following table describes the columns in the downloaded report.
 | **PortalId** | The ID of the portal. To check the ID, [open the _services/about page](/power-apps/maker/portals/admin/clear-server-side-cache) for that portal. |
 | **EnvironmentId** | The ID of the Microsoft Power Platform environment. To check the ID of an environment: <ul><li> Go to [Power Apps](https://make.powerapps.com). </li><li> Select the environment from the environments list in the upper-right corner. </li> <li> Copy the environment ID from the browser's address bar. <br> For example, `https://make.powerapps.com/environments/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/home` is the ID of the environment. </li> </ul> |
 | **Consumption** | The total number of sign-ins or views, depending on the report you downloaded. You can compare the consumption number in the report for each environment by date with the configured maximum allowed numbers for sign-ins or views by using [Power Platform admin center - Manage add-ons](https://admin.powerplatform.microsoft.com/resources/capacity#add-ons). More information: [Microsoft Power Platform add-on capacity management](/power-platform/admin/capacity-add-on) |
-| **PortalType** | The type of the portal: **Prod** for production or **Trial** for trial. |
 | **LicenseType** | The type of the license: <ul> <li> **Capacity** - specifies that the portal uses the [capacity-based licensing model](/power-platform/admin/powerapps-flow-licensing-faq#portals). </li> <li> **AddOn** - specifies that the portal uses, and was [provisioned using the older portal add-on plan](/power-apps/maker/portals/provision-portal-add-on). </li> </ul> More information: [Licensing FAQ for Power Apps](/power-platform/admin/powerapps-flow-licensing-faq#portals) and [Download the Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)
 
 ---

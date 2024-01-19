@@ -30,6 +30,7 @@ Watch this brief video to learn how Copilot can help you make business websites 
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - Copilot in design studio is temporarily unavailable for public sites.  To make a site private, see [Site visibility in Power Pages](../security/site-visibility.md).
 > - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
 To learn how to use the new AI features in Power Pages, see:
@@ -38,8 +39,8 @@ To learn how to use the new AI features in Power Pages, see:
 - [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
 - [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Add an AI-generated multistep form using Copilot (preview)](../getting-started/multistep-forms-copilot.md)
-- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
-- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Add AI-generated text using Copilot (preview)](../getting-started/add-text-copilot.md)
+- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
 - [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
 - [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
 
