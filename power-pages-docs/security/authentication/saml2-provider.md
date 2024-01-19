@@ -62,7 +62,7 @@ To allow users to authenticate to your Power Pages site, you can add one or more
 
 Return to the Power Pages **Configure identity provider** page you left earlier and enter the following values. Optionally, change the [**additional settings**](#additional-settings-in-power-pages) as needed. Select **Confirm** when you're finished.
 
-- **Metadata address**: Paste the federation metadata document URL [you copied](#create-an-app-registration-in-the-identity-provider).
+- **Metadata address**: Paste the federation metadata document URL [you copied](#create-an-app-registration-in-the-identity-provider). The metadata address should be publicly accessible while using a publicly trusted SSL certificate.
 
 - **Authentication type**: Paste the `entityID` value [you copied](#create-an-app-registration-in-the-identity-provider).
 

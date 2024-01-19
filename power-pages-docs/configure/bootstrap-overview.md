@@ -1,35 +1,39 @@
 ---
 title: Bootstrap overview
-description: Learn how to create Power Pages sites with Bootstrap.
-author: ankitavish 
-ms.topic: conceptual
-ms.custom: 
+description: Learn how to use Bootstrap, a popular front-end framework, to create stunning Power Pages sites that adapt to any device.
+ms.topic: overview
 ms.date: 09/27/2023
-ms.subservice:
+author: ankitavish
 ms.author: avishwakarma
 ms.reviewer: kkendrick
 contributors:
-    - ProfessorKendrick
+  - ProfessorKendrick
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/16/2023
+  - bap-template
 ---
+
 # Bootstrap overview
 
-Bootstrap is a front-end framework that includes CSS and JavaScript components for common web application interface elements. It includes styles for [navigation elements](https://getbootstrap.com/components/#nav), [forms](https://getbootstrap.com/css/#forms), and [buttons](https://getbootstrap.com/css/#buttons). Bootstrap also includes a [responsive grid layout system](https://getbootstrap.com/css/#grid), which allows site layouts to dynamically adjust to devices with different screen sizes, such as phones and tablets. By using the Bootstrap layout system, you can develop a single site that presents an appropriate interface to all devices your customers might use.
+Bootstrap is a front-end framework that helps you design web interfaces with ready-made CSS and JavaScript components for common elements like [navigation](https://getbootstrap.com/components/#nav), [forms](https://getbootstrap.com/css/#forms), and [buttons](https://getbootstrap.com/css/#buttons). It also has a [responsive grid layout system](https://getbootstrap.com/css/#grid) that adjusts your site for devices with different screen sizes, such as phones and tablets. Using the Bootstrap layout system, you can create a single site that looks good on any device your customers might use.
 
-Power Pages templates are implemented by using standard Bootstrap components with minimal other custom styles. When you implement the templates, you can take advantage of Bootstrap's customization options. You can quickly customize the theme (fonts, colors, and so on) in a way that's applied consistently across the site.
+Power Pages templates use standard Bootstrap components with minimal custom styles. Using these templates, you can easily change the theme (fonts, colors, and so on) to match your brand and preferences consistently across your entire site.
 
-The styling framework for Power Pages currently is provided via Bootstrap version 3.3.6 framework. Bootstrap released its latest update by launching version 5.2.2 (version 5), with enhanced UX functionalities and out-of-the-box components such as accordion, offcanvas and RTL support.
+Power Pages supports Bootstrap version 3.3.6 in general availability and Bootstrap version 5 in preview. Bootstrap version 5 offers improved user experience (UX) features and new components like accordion, offcanvas, and RTL support.
 
-> [!NOTE]
-> - You can create websites in Power Pages using Bootstrap version 5 (preview). More information: [Enable Bootstrap version 5 in your environment (preview)](../configure/bootstrap-version-5.md)
-> - You can also migrate your existing version 3 websites to version 5. More information: [Migrate an existing site to Bootstrap version 5 (preview)](../configure/migrate-bootstrap.md)
+[Learn how to set up Bootstrap version 5 in your environment (preview)](../configure/bootstrap-version-5.md).
+
+[Learn how to migrate your Bootstrap version 3 websites to version 5 (preview)](../configure/migrate-bootstrap.md).
 
 ## Customize Bootstrap
 
-Bootstrap supports customization through a set of variables. You can set any or all of these variables to custom values and then download a custom version of Bootstrap that is compiled based on these values.
+To customize Bootstrap, you change the values of variables and then download a version of Bootstrap that's compiled with your custom values.
 
-The power of Bootstrap variables is that they don't dictate the style of a single element. All styles in the framework are based on and derived from these values. For example, consider the variable `@font-size-base`. This variable specifies the size that Bootstrap assigns to normal body text; however, Bootstrap also uses this variable to indicate the font size for headings and other elements. The size for an H1 element might be defined as 300 percent of the size of `@font-size-base`. By setting this one variable, you control the entire typographic scale of your website in a consistent way. Similarly, the `@link-color` variable controls the color of hyperlinks. Based on the color assigned to this value, Bootstrap defines the hover color for links as 15 percent darker than your custom value.
+The power of Bootstrap variables is that they define all the styles in the framework, not just one element. For example, the variable `@font-size-base` specifies the default size of text on your site&mdash;body text, headings, and all other text elements. An H1 heading might be defined as 300 percent of `@font-size-base`. By setting this one variable, you control the entire typographic scale of your website in a consistent way.
 
-The standard way to create a custom version of Bootstrap is [through the official Bootstrap site](https://getbootstrap.com); however, due to the popularity of Bootstrap, many third-party sites also exist for this purpose. These sites may provide an easier-to-use interface for Bootstrap customization or offer predesigned versions of Bootstrap for you to download. [The official Bootstrap customizer](https://getbootstrap.com/docs/5.2/customize/overview/) site has more information about Bootstrap customization.  
+You can create a custom version of Bootstrap [through the official Bootstrap site](https://getbootstrap.com) or use a third-party site that might offer an easier interface or predesigned themes. [The official Bootstrap customizer](https://getbootstrap.com/docs/5.2/customize/overview/) site has more information about Bootstrap customization.
 
 When you download a customized version of Bootstrap, it contains the following directory structure:
 
@@ -43,11 +47,11 @@ js/
     |-- bootstrap.min.js
 ```
 
-Depending on the customizer application used, the directory structure might only contain bootstrap.min.css. Regardless, bootstrap.min.css is the file that contains your customizations. The other files are the same for all custom versions of Bootstrap and are already included in your website.
+Depending on the customizer application you used, the directory structure might only contain `bootstrap.min.css`. It's the file that contains your customizations. The other files are the same for all custom versions of Bootstrap and are already included in your website.
 
 ## Next steps
 
-[Enable Bootstrap version 5 in your environment (preview)](bootstrap-version-5.md)
+- [Enable Bootstrap version 5 in your environment (preview)](bootstrap-version-5.md)
 
 ### See also
 
