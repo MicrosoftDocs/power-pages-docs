@@ -6,12 +6,12 @@ ms.date: 11/22/2023
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
+ms.collection: 
+  - bap-ai-copilot
 contributors:
   - nickdoelman
   - ProfessorKendrick
   - nageshbhat-msft
-ms.collection: 
-  - bap-ai-copilot
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

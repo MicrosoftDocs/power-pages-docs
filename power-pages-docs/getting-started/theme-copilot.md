@@ -8,10 +8,10 @@ ms.date: 7/06/2023
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: kkendrick
-contributors:
-    - ProfessorKendrick
 ms.collection: 
     - bap-ai-copilot
+contributors:
+    - ProfessorKendrick
 ---
 
 # Create AI-generated theme using Copilot (preview)
