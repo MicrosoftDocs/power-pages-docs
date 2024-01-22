@@ -12,6 +12,8 @@ contributors:
     - neerajnandwana-msft
     - nickdoelman
     - ProfessorKendrick
+ms.collection: 
+  - bap-ai-copilot
 ---
 
 # Add AI-generated code using Copilot (preview)
