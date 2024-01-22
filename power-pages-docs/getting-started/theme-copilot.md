@@ -10,6 +10,8 @@ ms.author: avishwakarma
 ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Create AI-generated theme using Copilot (preview)
