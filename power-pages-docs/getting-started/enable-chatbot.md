@@ -10,6 +10,8 @@ contributors:
   - nickdoelman
   - ProfessorKendrick
   - nageshbhat-msft
+ms.collection: 
+  - bap-ai-copilot
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
