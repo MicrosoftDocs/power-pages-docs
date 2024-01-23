@@ -6,11 +6,11 @@ ms.date: 09/06/2023
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
+ms.collection: 
+  - bap-ai-copilot
 contributors:
   - nickdoelman
   - ProfessorKendrick
-ms.collection: 
-  - bap-ai-copilot
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

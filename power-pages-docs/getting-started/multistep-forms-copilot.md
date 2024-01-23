@@ -8,11 +8,11 @@ ms.date: 09/21/2023
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - ProfessorKendrick
     - pranita225
-ms.collection: 
-    - bap-ai-copilot
 ---
 
 # Add an AI-generated multistep form using Copilot (preview)

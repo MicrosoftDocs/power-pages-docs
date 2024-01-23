@@ -7,12 +7,12 @@ ms.custom:
 ms.date: 09/26/2023
 ms.subservice:
 ms.author: sampatn
-ms.reviewer: ProfessorKendrick
+ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - tapanm-msft
     - ProfessorKendrick
-ms.collection: 
-    - bap-ai-copilot
 ---
 
 # Create an AI-generated site using Copilot (preview)
