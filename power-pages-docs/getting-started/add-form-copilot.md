@@ -6,6 +6,8 @@ ms.date: 09/07/2023
 author: pranita225
 ms.author: prpadalw
 ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick

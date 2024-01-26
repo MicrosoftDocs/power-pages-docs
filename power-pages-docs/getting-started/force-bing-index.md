@@ -6,6 +6,8 @@ ms.date: 09/08/2023
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
+ms.collection: 
+  - bap-ai-copilot
 contributors:
   - nickdoelman
   - ProfessorKendrick

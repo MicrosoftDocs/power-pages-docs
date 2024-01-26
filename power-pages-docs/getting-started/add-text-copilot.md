@@ -6,6 +6,8 @@ ms.date: 09/07/2023
 author: ckwan-ms
 ms.author: ckwan
 ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick

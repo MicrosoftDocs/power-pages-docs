@@ -6,6 +6,8 @@ ms.date: 09/06/2023
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
+ms.collection: 
+  - bap-ai-copilot
 contributors:
   - nickdoelman
   - ProfessorKendrick

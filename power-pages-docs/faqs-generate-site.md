@@ -8,6 +8,8 @@ ms.topic: Copilot-for-site-creation
 author: sampatn
 ms.author: sampatn
 ms.reviewer: ProfessorKendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - tapanm-msft
     - ProfessorKendrick
