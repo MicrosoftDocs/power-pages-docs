@@ -7,7 +7,9 @@ ms.custom:
 ms.topic: article
 author: neerajnandwana-msft
 ms.author: nenandw
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick
