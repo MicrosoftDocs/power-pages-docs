@@ -43,4 +43,6 @@ The following site settings are used to configure CORS and their recommended val
 
 More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md) 
 
+Learn more about creating new site settings and managing existing settings: https://learn.microsoft.com/en-us/power-pages/configure/configure-site-settings#manage-site-settings
+
 
