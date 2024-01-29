@@ -382,6 +382,8 @@
         href: configure/choices-column.md
       - name: Configure content snippets
         href: configure/customize-content-snippets.md
+      - name: Configure Content Security Policy
+        href: 
       - name: Configure file column
         href: configure/file-column.md
       - name: Configure header and footer output caching
