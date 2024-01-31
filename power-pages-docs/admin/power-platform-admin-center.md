@@ -43,7 +43,7 @@ Selecting on any of the cards in the header will filter the lists to the chosen 
 You can export a list of website information by selecting the **Export to csv** button.
 
 >[!NOTE]
-> You will only be able to view the list of websites that are from the environments for which you are a System Administrator. If you are a service administrator (Global administrator, D365 administrator or Power Platform administrator), you will be able to view th list of all websites in your tenant.
+> You can only view the list of websites from the environments you are a System Administrator for. If you are a service administrator (Global administrator, D365 administrator, or Power Platform administrator), you can view the list of all websites in your tenant.
 
 ## Manage all websites for an environment
 
