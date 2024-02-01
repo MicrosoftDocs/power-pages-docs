@@ -28,6 +28,7 @@ The **Styling** workspace lets you apply global site styles. You can apply corpo
     :::image type="content" source="media/style-site/styling-workspace.png" alt-text="GUI with the Styling workspace menu option selected.":::
 
     - Note the list of themes in the Styling workspace. Further customization can be done with the styling menu.
+    - In addition to basic fonts, more than thirty Google Fonts are available to choose from.
 
 1. Select one of the preset themes to see how the style is reflected on the canvas workspace to the right. 
 
