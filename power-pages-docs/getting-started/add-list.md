@@ -55,7 +55,7 @@ Modern list is the updated version of existing lists in Power Pages, providing v
 - **Inline filters** - Filters apply automatically to all columns in the list view.
 - **Styling options** - Customize elements such as background and font color, add alternating row colors, and adjust margins and padding.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/{RW1hgQ3}]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/{RW1hgQ3}]
 
 > [!TIP]
 > You can copy the style from one modern list to other modern lists in your site for a consistent design experience across pages.
