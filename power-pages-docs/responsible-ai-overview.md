@@ -6,7 +6,9 @@ ms.topic: article
 ms.custom: responsible-ai-faqs
 ms.date: 04/28/2023
 ms.author: sandhan
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick
