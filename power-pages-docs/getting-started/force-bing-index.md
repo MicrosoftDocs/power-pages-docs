@@ -23,7 +23,7 @@ You can generate answers from publicly available data by utilizing Bing search. 
 
 To use the Bing search
 1.	Open [Power Pages](https://make.powerpages.microsoft.com/)
-2.	Select site**+ Edit**.
+2.	Select site **+ Edit**.
 3.	Navigate to the **Set up** workspace, then select **Chatbot (preview)** under **Integrations**
 4.	Click on **View copilot analytics**
 5.	Select **Topics & Plugins**
