@@ -27,7 +27,7 @@ The **Styling** workspace lets you apply global site styles. You can apply corpo
 
     :::image type="content" source="media/style-site/styling-workspace.png" alt-text="GUI with the Styling workspace menu option selected.":::
 
-    Notice the list of themes in the Styling workspace. You can further customize specific elements, such as the site's colors and fonts, from the styling menu. Power Pages offers basic fonts and more than 30 Google Fonts for you to choose from.
+    Notice the list of themes in the Styling workspace. You can further customize specific elements, such as the site's colors and fonts, from the Styling menu. Power Pages offers basic fonts and more than 30 Google Fonts for you to choose from.
 
 1. Select one of the preset themes to see how the style is reflected on the canvas workspace to the right. 
 
