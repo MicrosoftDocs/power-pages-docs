@@ -55,8 +55,4 @@ To use AI-powered Copilot features in Power Pages:
 - Your environment must be located in the United States or Europe regions.
 - Your browser language must be set to US-English.
 
-## Turn off Copilot in Power Pages
-
-To turn off Copilot and AI enhancements in Power Pages, admins can start a support request with Microsoft.
-
 
