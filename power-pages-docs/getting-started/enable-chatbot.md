@@ -2,7 +2,7 @@
 title: Add an AI-powered chatbot (preview)
 description: Learn how to add an AI-powered chatbot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 02/07/2023
+ms.date: 02/07/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
@@ -38,13 +38,17 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the Europe, United Kingdom, Australia, or United States regions. Please review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
+- Your environment must be located in the Europe, United Kingdom, Australia, India or United States regions. Please review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
 - Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
 - Chatbot uses Power Virtual Agent generative answers. Please refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
 
 ## Add a chatbot
+You can manually add a chatbot by following below steps.
 
+    > [!NOTE]
+    > If a site meets the conditions outlined in the prerequisite section, the bot will be added to the site during site provisioning. If you prefer not to have the bot created by default, the tenant administrator can disable this capability at the tenant level, as described in the section below.  
+    
 1. Go to the [Set up workspace](../configure/setup-workspace.md).
 1. Under **Integrations,** select **Chatbot (preview)**
 
@@ -227,6 +231,39 @@ Text color:
   font-weight: 400; 
 } 
 ```
+## Turn off default bot provision
+As a tenant administrator you can use a PowerShell script to change the tenant-level setting `enableChatbotOnWebsiteCreation`.
+[Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Microsoft Entra roles can use a PowerShell script to change the tenant-level setting `enableChatbotOnWebsiteCreation`.:
+
+- [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
+- [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
+- [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
+
+The default value of the tenant-level setting is ‘null’ which will behave as if the setting has been set to ‘true’ and create the bot during site creation. The admin can set its value to ‘true’ or ‘false’.
+
+To get the current value of the tenant-level setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command. For example:
+>
+
+```powershell
+$myTenantSettings = Get-TenantSettings
+$ myTenantSettings.powerPlatform.powerPages
+```
+> [!NOTE]
+> The Get-TenantSettings command doesn't list tenant settings whose value is null. The default value of the tenant-level setting `enableChatbotOnWebsiteCreation` is null, so it doesn't appear the first time you run the script. After you set its value to `true` or `false`, the setting appears in the list.
+
+To set a value for `enableChatbotOnWebsiteCreation`, use the [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command. The following example sets the value to `false`:
+
+```powershell
+$requestBody = @{
+    powerPlatform = @{
+        powerPages = @{
+            enableChatbotOnWebsiteCreation = $false
+        }
+    }
+}
+Set-TenantSettings -RequestBody $requestBody
+```
+
 
 ## Known issues
 
