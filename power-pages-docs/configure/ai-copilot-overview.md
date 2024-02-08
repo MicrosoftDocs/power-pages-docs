@@ -57,7 +57,7 @@ To use AI-powered Copilot features in Power Pages:
 
 To turn off Copilot and AI enhancements in Power Pages, admins can start a support request with Microsoft.
 
-## See also
+### See also
 
 - [Language availability for Power Platform](https://dynamics.microsoft.com/availability-reports/languagereport/)
 - [Geographical availability for Power Platform](https://dynamics.microsoft.com/availability-reports/georeport/)
