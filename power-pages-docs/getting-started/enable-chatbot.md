@@ -47,7 +47,7 @@ To use AI-powered Copilot features in Power Pages:
 You can manually add a chatbot by following below steps.
 
 > [!NOTE]
-> If a site meets the conditions outlined in the prerequisite section, the bot will be added to the site during site provisioning. If you prefer not to have the bot created by default, the tenant administrator can disable this capability at the tenant level, as described in the section below.  
+> If a site meets the conditions outlined in the prerequisite section, the chatbot will be added to the site during site provisioning. If you prefer not to have the chatbot created by default, the [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can disable this capability at the tenant level, as described in the section [turn off default chatbot provision](/power-pages/getting-started/enable-chatbot#turn-off-default-chatbot-provision).  
     
 1. Go to the [Set up workspace](../configure/setup-workspace.md).
 1. Under **Integrations,** select **Chatbot (preview)**
@@ -231,7 +231,7 @@ Text color:
   font-weight: 400; 
 } 
 ```
-## Turn off default bot provision
+## Turn off default chatbot provision
 [Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Microsoft Entra roles can use a PowerShell script to change the tenant-level setting `enableChatbotOnWebsiteCreation`.:
 
 - [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
