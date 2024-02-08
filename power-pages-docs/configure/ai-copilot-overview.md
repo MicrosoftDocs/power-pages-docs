@@ -2,7 +2,7 @@
 title: Overview of AI-powered and Copilot features in Power Pages (preview)
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 09/06/2023
+ms.date: 02/07/2024
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -57,4 +57,7 @@ To use AI-powered Copilot features in Power Pages:
 
 To turn off Copilot and AI enhancements in Power Pages, admins can start a support request with Microsoft.
 
+## See also
 
+- [Language availability for Power Platform](https://dynamics.microsoft.com/availability-reports/languagereport/)
+- [Geographical availability for Power Platform](https://dynamics.microsoft.com/availability-reports/georeport/)
