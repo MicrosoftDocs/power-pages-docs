@@ -2,7 +2,7 @@
 title: Add an AI-powered chatbot (preview)
 description: Learn how to add an AI-powered chatbot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 11/22/2023
+ms.date: 02/07/2023
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
@@ -32,7 +32,7 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - To understand the capabilities and limitations of this feature, see [FAQ for chatbot](../faqs-chatbot.md).
-> - Chatbot uses Power Virtual Agents generative answers and Bing Search to retrieve information from publicly available URLs. Your use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
+> - Chatbot uses Power Virtual Agents generative answers. If you configure generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
 
 ## Prerequisites
 
@@ -58,11 +58,9 @@ To use AI-powered Copilot features in Power Pages:
 
     If your tenant admin hasn't turned on publish bots with AI features, the **Publish chatbot on site** isn't available.
 
-After you publish the chatbot on your site, the site URL is passed to Bing for indexing. The indexing process can take up to a day, but you can [force Bing to index your site's content immediately](force-bing-index.md).
-
 ## Customize your chatbot
 
-When you create a chatbot for a website, the bot uses the hosting site's content to generate responses. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. The question entered by a site user is always shared with Bing search. Please refer to the [FAQ for Chatbot](/power-pages/faqs-chatbot?source=recommendations#how-to-turnoff-ai-chatbot-using-bing-search) to learn how to disable Bing search.
+When creating a chatbot for a website, the bot utilizes the content from the hosting site to generate responses. The Dataverse service facilitates the indexing of site content and configured tables, which are then summarized by Power Virtual Agents to generate responses.
 
 Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following these steps: 
 
