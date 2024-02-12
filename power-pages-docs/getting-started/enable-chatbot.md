@@ -38,7 +38,7 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the Europe, United Kingdom, Australia, India or United States regions. Please review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
+- Your environment must be located in the United States, Europe, United Kingdom, Australia, or India regions. Please review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
 - Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
 - Chatbot uses Power Virtual Agent generative answers. Please refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
