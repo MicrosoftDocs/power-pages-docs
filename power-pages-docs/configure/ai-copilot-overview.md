@@ -2,7 +2,7 @@
 title: Overview of AI-powered and Copilot features in Power Pages (preview)
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 02/07/2024
+ms.date: 02/12/2024
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -34,7 +34,6 @@ Watch this brief video to learn how Copilot can help you make business websites 
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - Copilot in design studio is temporarily unavailable for public sites.  To make a site private, see [Site visibility in Power Pages](../security/site-visibility.md).
 > - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
 To learn how to use the new AI features in Power Pages, see:
