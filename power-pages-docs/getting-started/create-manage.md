@@ -53,6 +53,13 @@ Customize and design your site using the Power Pages design studio.
 
     :::image type="content" source="media/default-template/manage-site.png" alt-text="Power Pages home page with site created.":::
 
+## Roles and permissions
+ Required roles and permissions in Microsoft Power Platform (**all** are required):
+ - A user account with [Read-Write Access Mode](/admin/admin-roles#read-write-access-mode). 
+ - [System administrator](/admin/admin-roles#system-administrator) role.
+ - [Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Microsoft Entra are required.
+ - Is [website creation disabled](/power-apps/maker/portals/control-portal-creation) in the tenant? If **Yes**, in **addition** to the roles and permissions above, a user will also need at least one of the following roles to create a website: [Global administrator](/admin/admin-roles#global-administrator), [Dynamics 365 administrator](/admin/admin-roles#dynamics-365-administrator), or [Power Platform administrator](/admin/admin-roles#power-platform-administrator).
+
 ## Additional information
 
 When you create a site with a new trial environment, the site metadata for all the [templates](../templates/index.md) is preloaded. It appears as website records in the [Portal Management app](../configure/portal-management-app.md).
