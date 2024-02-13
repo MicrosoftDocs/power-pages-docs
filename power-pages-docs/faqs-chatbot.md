@@ -1,7 +1,7 @@
 ---
 title: FAQ for chatbot
 description: This FAQ to add chatbot and the key considerations for making use of this technology responsibly.
-ms.date: 11/30/2023
+ms.date: 02/13/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
