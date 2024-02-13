@@ -38,10 +38,10 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the United States, Europe, United Kingdom, Australia, or India regions. Please review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
+- Your environment must be located in the United States, Europe, United Kingdom, Australia, or India regions. Review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
 - Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
-- Chatbot uses Power Virtual Agent generative answers. Please refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
+- Chatbot uses Power Virtual Agent generative answers. Refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
 
 ## Add a chatbot
 You can manually add a chatbot by following below steps.
@@ -74,7 +74,7 @@ Authenticated site users receive tailored, summarized answers that align with th
     - You can select multiple tables in this section. Ensure that any table you select here's used on the site. 
     - On subsequent pages, you must specify the page where the table is used for generating the citation URL. 
 1. Choose **Next**. 
-1. Under the **Choose table**, select the table that contains the columns and page link you wish to select. The table will not appear unless it has at least one multi-line column.
+1. Under the **Choose table**, select the table that contains the columns and page link you wish to select. The table won't appear unless it has at least one multi-line column.
     - You can select one table at a time. 
 1. Under **Add page link**, select the page where table is used.  
 
@@ -232,13 +232,14 @@ Text color:
 } 
 ```
 ## Turn off default chatbot provisioning
+
 [Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Microsoft Entra roles can use a PowerShell script to change the tenant-level setting `enableChatbotOnWebsiteCreation`:
 
 - [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
 - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
 
-The default value of the tenant-level setting is ‘null’ which will behave as if the setting has been set to ‘true’ and create the bot during site creation. The admin can set its value to ‘true’ or ‘false’.
+The default value of the tenant-level setting is ‘null’ which will behave as if the setting has been set to ‘true’ and creates the bot during site creation. The admin can set its value to ‘true’ or ‘false’.
 
 To get the current value of the tenant-level setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command. For example:
 >
