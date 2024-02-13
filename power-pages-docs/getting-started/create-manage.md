@@ -55,10 +55,10 @@ Customize and design your site using the Power Pages design studio.
 
 ## Roles and permissions
  Required roles and permissions in Microsoft Power Platform (**all** are required):
- - A user account with [Read-Write Access Mode](/admin/admin-roles#read-write-access-mode). 
- - [System administrator](/admin/admin-roles#system-administrator) role.
+ - A user account with [Read-Write Access Mode](/power-pages/admin/admin-roles#read-write-access-mode). 
+ - [System administrator](/power-pages/admin/admin-roles#system-administrator) role.
  - [Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Microsoft Entra are required.
- - Is [website creation disabled](/power-apps/maker/portals/control-portal-creation) in the tenant? If **Yes**, in **addition** to the roles and permissions above, a user will also need at least one of the following roles to create a website: [Global administrator](/admin/admin-roles#global-administrator), [Dynamics 365 administrator](/admin/admin-roles#dynamics-365-administrator), or [Power Platform administrator](/admin/admin-roles#power-platform-administrator).
+ - Is [website creation disabled](/power-apps/maker/portals/control-portal-creation) in the tenant? If **Yes**, in **addition** to the roles and permissions above, a user will also need at least one of the following roles to create a website: [Global administrator](/power-pages/admin/admin-roles#global-administrator), [Dynamics 365 administrator](/power-pages/admin/admin-roles#dynamics-365-administrator), or [Power Platform administrator](/power-pages/admin/admin-roles#power-platform-administrator).
 
 ## Additional information
 
