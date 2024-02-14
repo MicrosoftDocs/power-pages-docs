@@ -1,11 +1,13 @@
 ---
-title: Force Bing webmaster to index your site (preview)
+title: Generate answers from public data using Bing search (preview)
 description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a chatbot.
 ms.topic: how-to
-ms.date: 09/08/2023
+ms.date: 02/07/2023
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
+ms.collection: 
+  - bap-ai-copilot
 contributors:
   - nickdoelman
   - ProfessorKendrick
@@ -13,13 +15,31 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Force Bing webmaster to index your site
+# Generate answers from public data using Bing search
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Power Pages chatbot is powered by Microsoft Bing. When you [add a chatbot to your Power Pages website](./enable-chatbot.md), the URL is shared with Bing to index the content. Bing may not start indexing your site right away, however. It can take from several hours to a day. If you don't want to wait for Bing to get around to your site, you can use Bing Webmaster Tools to force it to index your site's content immediately.
+You can generate answers from publicly available data by utilizing Bing search. Configuring Bing search enables the generation of answers from external sources beyond the Power Pages site built on the Dataverse instance.
 
-## Add your site to your Bing Webmaster Tools account
+To use the Bing search
+1.	Open [Power Pages](https://make.powerpages.microsoft.com/)
+2.	Select site **+ Edit**.
+3.	Navigate to the **Set up** workspace, then select **Chatbot (preview)** under **Integrations**
+4.	Click on **View copilot analytics**
+5.	Select **Topics & Plugins**
+6.	Select the **System** topics tab.
+7.	Choose the **Conversational boosting** topic.
+8.	Navigate to **Create generative answers** node.
+9.	Select Edit under **Data sources**.
+10.	Enter URL under **Public websites** input box
+11.	Click **Save**
+12.	Navigate to the **Publish** left navigation link.
+13.	Select **Publish**.
+
+## Force Bing webmaster to index your site
+When you add a site to Copilot, Bing may not start indexing your site immediately. It may take from several hours to a day. If you prefer not to wait for Bing to index your site, you can use Bing Webmaster Tools to expedite the indexing process and have your site's content indexed immediately.
+
+### Add your site to your Bing Webmaster Tools account
 
 1. Open [Webmaster Tools](https://www.bing.com/webmasters).
 1. [Create a Bing Webmaster Tools account](https://www.bing.com/webmasters/help/getting-started-checklist-66a806de) if you don't have one yet.
@@ -28,7 +48,7 @@ The Power Pages chatbot is powered by Microsoft Bing. When you [add a chatbot to
     - If your site is already verified on Google Search Console, you can import it to Bing Webmaster Tools.
     - If your site isn't verified on Google Search Console, you can add your site manually.
 
-## Verify your ownership
+### Verify your ownership
 
 Next, verify that you're the owner of the site. Use either of the following methods, which are also described in [the Bing Webmaster Tools help](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b).
 
@@ -74,7 +94,7 @@ With this method, you add a metadata tag to your site's header HTML. In Power Pa
 1. In the **Value** box, paste the metadata you copied in step 2.
 1. Select **Save & Close**.
 
-## Add a Robots.txt file
+### Add a Robots.txt file
 
 Add a file to your site to tell Bing, Google, and other search engines, or *robots*, how much of its content to index. The Robots.txt file in this example allows search engines to index the entire site, but you can control what pages they're allowed to index. Use Bing Webmaster Tools to easily [edit and test your Robots.txt file](https://blogs.bing.com/webmaster/september-2020/Bing-Webmaster-Tools-makes-it-easy-to-edit-and-verify-your-robots-txt).
 
@@ -100,7 +120,7 @@ Add a file to your site to tell Bing, Google, and other search engines, or *robo
 1. Upload the `Robots.txt` file.
 1. Select **Save & Close**.
 
-## Add a meta description to pages to index
+### Add a meta description to pages to index
 
 The *meta description* tells search engines what text to display along with the page title. It's an important part of making your site easy to find, so you should put some thought into the description of each page you plan to index. Enter the key phrase "meta description" in your favorite search engine to find guidance for creating effective meta descriptions.
 
@@ -114,7 +134,7 @@ The *meta description* tells search engines what text to display along with the 
 1. Select **Save & Close**.
 1. Repeat for all pages to be indexed.
 
-## Run an SEO scan and fix issues
+### Run an SEO scan and fix issues
 
 It's a good idea to scan for common issues with search engine optimization (SEO) that make your site harder to find.
 
@@ -123,7 +143,7 @@ It's a good idea to scan for common issues with search engine optimization (SEO)
 1. [Follow the instructions](https://www.bing.com/webmasters/help/site-scan-623520c9) to analyze your site and view the report.
 1. Fix as many of the issues the scan discovered as you reasonably can.
 
-## Submit URLs
+### Submit URLs
 
 As the final step, index individual page URLs directly. It's a good idea to submit the URLs of any important new pages or pages with new content to get them indexed faster. You can submit up to 100 URLs per day.
 

@@ -7,7 +7,9 @@ ms.custom:
 ms.date: 09/26/2023
 ms.subservice:
 ms.author: sampatn
-ms.reviewer: ProfessorKendrick
+ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - tapanm-msft
     - ProfessorKendrick
@@ -21,13 +23,15 @@ With the Copilot for site creation, you can create Power Pages sites with the he
 
 Copilot generates the contextual site name, site address, home page layout, and more pages with HTML for each page with relevant text copy and images from the description. The site is created with the home page and more pages as selected, with the pages added to the sitemap. Once the site is created, these pages can be refined and edited using Copilot and the WYSIWYG editor.
 
+For this preview, Copilot in Power Pages is enabled by default.
+
 :::image type="content" source="media/create-site-copilot/copilot-create-site.png" alt-text="The Copilot on Power Pages home with an input field for users to enter a description of the site emphasized.":::
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This preview feature doesn't support non-English language input.
-> - This preview feature is only available in the Microsoft Power Platform environments created in the United States region.
+> - This preview feature is only available in the Microsoft Power Platform environments created in the United States or Europe regions.
 > - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
 
 ## Create a site with the help of AI
