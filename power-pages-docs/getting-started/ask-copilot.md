@@ -39,23 +39,22 @@ To use this feature in Power Pages
 
 You can choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field.
 
-When you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
-
 >[!NOTE]
 > You must [enable  Bing search](#enabling-bing-search) before Copilot answers your question.
 
-When you enter a question in the Copilot sidecar, you are prompted to enable Bing search if it isn't enabled already:
+If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
+
+## Enabling Bing search
+
+When you enter a question in the Copilot sidecar, you're prompted to enable Bing search if it isn't enabled already:
 
 `Some of the questions you ask may require Copilot to use Bing to search resources that are outside of your organization.  Is that okay?`
-
 Choose from the available options:<br />
 `- Yes, but just for this question`<br />
 `- Yes, until I close this chat`<br />
 `- No, not now`
 
-## Enabling Bing search
-
-Select the gear icon next to Bing search in the Copilot sidecar and switching the toggle next for Bing search to the on position to enable Bing search. `Bing search is enabled` appears next to the icon. 
+You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle next for Bing search to the on position. `Bing search is enabled` appears next to the icon. 
 
 
  
