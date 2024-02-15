@@ -44,7 +44,7 @@ You can choose from the starter prompts displayed in the sidecar, or write your 
 
 If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
 
-## Enabling Bing search
+## Enable Bing search
 
 When you enter a question in the Copilot sidecar, you're prompted to enable Bing search if it isn't enabled already:
 
