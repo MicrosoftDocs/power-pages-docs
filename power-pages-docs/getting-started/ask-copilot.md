@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Using Copilot, you can get support while building sites in Power Pages by asking for help. Describe your question, and AI will generate answers.
+Using Copilot, you can get support while building sites in Power Pages by asking for help. Describe your question, and AI generates answers.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -35,7 +35,7 @@ To use this feature in Power Pages
 - Your browser language must be set to US-English.
 - When prompted by Copilot, select the `Ask` mode in the sidecar.
 
-## Prompt Copilot to answer questions
+## Prompt Copilot 
 
 You can choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field.
 
@@ -46,7 +46,9 @@ When you select a starter prompt, it appears in the text input field. You can mo
 
 ## Enabling Bing search
 
-When you enter a question in the Copilot sidecar, you may be prompted to opt into this feature:
+Select the gear icon next to Bing search in the Copilot sidecar and switching the toggle next for Bing search to the on position to enable Bing search.
+
+When you enter a question in the Copilot sidecar, you might be prompted to enable Bing search if it isn't enabled already:
 
 `Some of the questions you ask may require Copilot to use Bing to search resources that are outside of your organization.  Is that okay?`
 
@@ -55,8 +57,6 @@ Choose from the available options:<br />
 `- Yes, until I close this chat`<br />
 `- No, not now`
 
-You an always opt out of Bing search by selecting the gear icon next to Bing search in the Copilot sidecar and switching the toggle next for Bing search to the on position.
-
-If you select either `Yes` option, `Bing search is enabled` will appear next to the icon. 
+If you select either `Yes` option, `Bing search is enabled` appears next to the icon. 
 
 
