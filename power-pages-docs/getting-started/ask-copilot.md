@@ -44,11 +44,7 @@ When you select a starter prompt, it appears in the text input field. You can mo
 >[!NOTE]
 > You must [enable  Bing search](#enabling-bing-search) before Copilot answers your question.
 
-## Enabling Bing search
-
-Select the gear icon next to Bing search in the Copilot sidecar and switching the toggle next for Bing search to the on position to enable Bing search.
-
-When you enter a question in the Copilot sidecar, you might be prompted to enable Bing search if it isn't enabled already:
+When you enter a question in the Copilot sidecar, you are prompted to enable Bing search if it isn't enabled already:
 
 `Some of the questions you ask may require Copilot to use Bing to search resources that are outside of your organization.  Is that okay?`
 
@@ -57,6 +53,11 @@ Choose from the available options:<br />
 `- Yes, until I close this chat`<br />
 `- No, not now`
 
-If you select either `Yes` option, `Bing search is enabled` appears next to the icon. 
+## Enabling Bing search
+
+Select the gear icon next to Bing search in the Copilot sidecar and switching the toggle next for Bing search to the on position to enable Bing search. `Bing search is enabled` appears next to the icon. 
+
+
+ 
 
 
