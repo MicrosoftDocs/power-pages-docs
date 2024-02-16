@@ -128,9 +128,9 @@ Once approved, CA issues and sends the renewed certificate to the certificate co
 
 :::image type="content" source="media/add-custom-domain/renewed-certificate.svg" alt-text="The Certificate Export Wizard with the triple DES Encryption information emphasized.":::
 
-Once you have the renewed (reissued) certificate .PFX file, follow these steps to replace your old certificate on [Power Portals admin center](https://admin.powerplatform.microsoft.com/resources/portals).
+Once you have the renewed (reissued) certificate .PFX file, select  the edit icon (pencil icon) beside your custom domain in [Power Portals admin center](https://admin.powerplatform.microsoft.com/resources/portals) to replace your old certificate.
 
-1. Upload your renewed certificate .pfx file using the steps from this doc: [Add new certificate](manage-custom-certificates.md#add-new-certificate)
+1. Upload your renewed certificate .pfx file by choosing **New** from the Edit Custom Domain pane.
 
 1. Post the upload, delete the existing binding with the old certificate and a "New" binding as shown below. Clicking on "New" button brings a popup where you can choose your preferred host name & your new certificate for this binding.
 
