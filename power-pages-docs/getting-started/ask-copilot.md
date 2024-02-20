@@ -40,7 +40,7 @@ To use this feature in Power Pages
 You can choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field.
 
 >[!NOTE]
-> You must [enable  Bing search](#enabling-bing-search) before Copilot answers your question.
+> You must [enable  Bing search](#enable-bing-search) before Copilot answers your question.
 
 If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
 
