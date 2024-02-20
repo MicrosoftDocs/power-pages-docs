@@ -1,12 +1,12 @@
 ---
 title: Ask Copilot questions in Power Pages (preview)
 description: Get answers to questions using Copilot in Power Pages.
-author: 
+author: ProfessorKendrick
 ms.topic: conceptual
 ms.custom: 
 ms.date: 02/15/2024
 ms.subservice:
-ms.author: sampatn
+ms.author: kkendrick
 ms.reviewer: kkendrick
 ms.collection: 
     - bap-ai-copilot
@@ -21,6 +21,7 @@ contributors:
 Using Copilot, you can get support while building sites in Power Pages by asking for help. Describe your question, and AI generates answers.
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This preview feature doesn't support non-English language input.
