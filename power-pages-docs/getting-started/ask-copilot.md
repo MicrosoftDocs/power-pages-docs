@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Using Copilot, you can get support while building sites in Power Pages by asking for help. Describe your question, and AI generates answers.
+An easy way to get support while building your Power Pages website is to ask Copilot for help.
 
 > [!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Using Copilot, you can get support while building sites in Power Pages by asking
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This preview feature doesn't support non-English language input.
 > - This feature will be available for preview in the United States only.
-> - To understand the capabilities and limitations of this feature, see ...
+> - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
 
 ## Prerequisites
 
@@ -35,27 +35,32 @@ To use this feature in Power Pages
 - Your environment must be located in the United States.
 - Your browser language must be set to US-English.
 - When prompted by Copilot, select the `Ask` mode in the sidecar.
+- You must [enable Bing search](#enable-bing-search) to get answers to your questions using Copilot.
 
 ## Prompt Copilot 
 
-You can choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field.
+Ask Copilot questions and get responses while working inside the Pages workspace in Power Pages design studio.
 
->[!NOTE]
-> You must [enable  Bing search](#enable-bing-search) before Copilot answers your question.
+1. Go to the [Pages workspace](first-page.md).
+1. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field.
 
-If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
+    - If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
+
+1. Press the Enter key or select the paper airplane icon in the lower-right corner of the text box to send Copilot your question.
+
+Copilot generates an answer to your question. Depending on the question, the results might include step-by-step instructions.
 
 ## Enable Bing search
 
 When you enter a question in the Copilot sidecar, you're prompted to enable Bing search if it isn't enabled already:
 
-`Some of the questions you ask may require Copilot to use Bing to search resources that are outside of your organization.  Is that okay?`
+`Some of the questions you ask may require Copilot to use Bing to search resources that are outside of your organization.  Is that okay?`<br />
 Choose from the available options:<br />
 `- Yes, but just for this question`<br />
 `- Yes, until I close this chat`<br />
 `- No, not now`
 
-You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle next for Bing search to the on position. `Bing search is enabled` appears next to the icon. 
+You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. Once enabled, `Bing search is enabled` appears next to the icon. 
 
 
  
