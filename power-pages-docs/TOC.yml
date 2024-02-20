@@ -130,6 +130,8 @@
           href: getting-started/first-page.md
         - name: Create an AI-generated web page using Copilot (preview)
           href: getting-started/create-page-copilot.md
+        - name: Ask Copilot questions (preview)
+          href: getting-started/ask-copilot.md
         - name: Design pages
           items:
             - name: Edit pages
