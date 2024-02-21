@@ -28,7 +28,7 @@ The Power Pages design studio is an intuitive interface that enables low-code ma
 
     :::image type="content" source="media/tour-maker-studio/launch-design-studio.png" alt-text="Launch the design studio.":::
 
-    If you don't have a site created yet, select **Create a site** to create your website. More information: [Create a site with Power Pages](create-manage.md)
+    If you don't have a site created yet, select **Create a site** to [create your website](create-manage.md)
 
 The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs. Learn more about [design studio's workspaces](../configure/design-build-overview.md). 
 
