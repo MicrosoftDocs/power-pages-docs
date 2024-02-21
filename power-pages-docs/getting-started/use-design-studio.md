@@ -30,15 +30,7 @@ The Power Pages design studio is an intuitive interface that enables low-code ma
 
     If you don't have a site created yet, select **Create a site** to create your website. More information: [Create a site with Power Pages](create-manage.md)
 
-The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs:
-
-- **Pages workspace** empowers you to design and build webpages with in-context editing and add content with no-code and low-code widgets such as text, image, video, Power BI reports, lists, forms, and others. More information: [Pages workspace](first-page.md).
-
-- **Styling workspace** lets you apply global site styles. You can apply corporate branding updates and review the changes in the preview on the right side of the app window. Styling offers preset themes. For each theme, you can customize the color palette, background color, font styles, button styles, and section margins. More information: [Styling workspace](style-site.md).
-
-- **Data workspace** lets you easily model, visualize, and manage business data for the site with tables, forms, and lists. You can create and edit Dataverse tables for the site and create new or edit existing model-driven forms and views. Changes made in the Data workspace are stored in the Common data store. More information: [Data workspace](use-data-workspace.md).
-
-- **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. More information: [Set up workspace](..\configure\setup-workspace.md).
+The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs. Learn more about [design studio's workspaces](../configure/design-build-overview.md). 
 
 ## Page editing options
 
