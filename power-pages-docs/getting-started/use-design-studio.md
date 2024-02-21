@@ -24,9 +24,10 @@ The Power Pages design studio is an intuitive interface that enables low-code ma
 
     The first time you visit the site, select the **Try it for free** button to [sign up for a free, 30-day trial](trial-signup.md).
 
-1. Choose your site, then select **Edit** to launch the design studio.
+1. Locate your site in the **Active sites** list.
 
-    You can create a site without writing a single line of code in our design studio or, if you prefer, you can edit your site's code with [Visual Studio Code in design studio](../configure/visual-studio-code-editor.md#edit-code-available-in-design-studio).
+    - Select **Edit** to go to the [Pages workspace](first-page.md) and edit your site without writing a single line of code.
+    - If you prefer, you can choose the **Edit site code** option to edit your site's code with [Visual Studio Code for the Web](../configure/visual-studio-code-editor.md#edit-code-available-in-design-studio).
 
     :::image type="content" source="media/tour-maker-studio/launch-design-studio.png" alt-text="Launch the design studio.":::
 
