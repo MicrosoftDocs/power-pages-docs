@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 07/17/2023
 ms.subservice: 
 ms.author: vamseedilli
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - vamseedillimsft
     - neerajnandwana-msft

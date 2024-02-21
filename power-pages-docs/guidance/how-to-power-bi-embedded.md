@@ -6,7 +6,7 @@ ms.topic: guidance
 ms.custom: 
 ms.date: 08/02/2023
 ms.author: skyshon
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - skyshon
