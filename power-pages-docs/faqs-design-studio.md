@@ -7,6 +7,8 @@ ms.topic: article
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - sandhangitmsft
     - nickdoelman

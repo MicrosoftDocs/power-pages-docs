@@ -1,7 +1,7 @@
 ---
 title: Use OAuth 2.0 implicit grant flow in your Power Pages site
 description: Learn how to make client-side calls to external APIs and secure them using OAuth 2.0 implicit grant flow in your Power Pages site.
-ms.date: 01/17/2023
+ms.date: 02/07/2023
 ms.topic: how-to
 author: gitanjalisingh33msft
 ms.author: gisingh
@@ -17,7 +17,7 @@ contributors:
 
 # Use OAuth 2.0 implicit grant flow in your Power Pages site
 
-This feature allows a customer to make client-side calls to external APIs and secure them using OAuth implicit grant flow. It provides an endpoint to obtain secure access tokens. These tokens will contain user identity information to be used by external APIs for authorization following OAuth 2.0 implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls, which helps developers to pass authentication context and will also help users secure their APIs.
+This feature allows a customer to make client-side calls to external APIs and secure them using OAuth implicit grant flow. It provides an endpoint to obtain secure id tokens. These tokens will contain user identity information to be used by external APIs for authorization following OAuth 2.0 implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls, which helps developers to pass authentication context and will also help users secure their APIs.
 
 ## Custom certificates
 
@@ -44,7 +44,7 @@ You can also get a token by making a post request to the `<portal_url>/_services
 | client_id      | No       | A string that is passed when making a call to the endpoint. You must ensure that the client ID is [registered](#register-client-id-for-implicit-grant-flow). Otherwise, an error is displayed. Client ID is added in claims in the token as `aud` and `appid` parameter and can be used by clients to validate that the token returned is for their app.<br />The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
 | state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used to prevent cross-site-request forgery attacks.<br />The maximum length is 20 characters.              |
 | nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
-| response_type         | No        | This parameter supports only `token` as a value, allowing your app to immediately receive an access token from the endpoint without making a second request to the endpoint.                               |
+| response_type         | No        | This parameter supports only `token` as a value, allowing your app to immediately receive an id token from the endpoint without making a second request to the endpoint.                               |
 |||
 
 > [!NOTE]

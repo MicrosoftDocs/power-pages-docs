@@ -7,7 +7,9 @@ ms.custom:
 ms.date: 08/22/2023
 ms.subservice:
 ms.author: nenandw 
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - neerajnandwana-msft
     - nickdoelman
