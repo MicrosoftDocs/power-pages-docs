@@ -8,7 +8,7 @@ ms.collection: get-started
 ms.date: 03/28/2023
 
 ms.author: dileeps
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - dileepsinghmicrosoft
     - nickdoelman
