@@ -4,7 +4,7 @@ description: Learn about Power Pages design studio.
 author: clromano
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/26/2023
+ms.date: 02/21/2024
 ms.author: clromano
 ms.reviewer: kkendrick
 contributors:
