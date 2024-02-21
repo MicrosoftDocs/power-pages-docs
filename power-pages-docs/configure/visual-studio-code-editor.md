@@ -51,7 +51,7 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 
 ## Edit code available in design studio
 
-You can start editing your site's code using Visual Studio code from the Power Pages home page by selecting **Edit** and choosing **Edit site code**.  
+You can start editing your site's code using Visual Studio Code from the Power Pages home page by selecting **Edit** and choosing **Edit site code**.  
 
 You can edit code in the following areas:
 
