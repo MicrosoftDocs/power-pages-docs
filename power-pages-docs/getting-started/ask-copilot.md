@@ -4,7 +4,7 @@ description: Get answers to questions using Copilot in Power Pages.
 author: ProfessorKendrick
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/15/2024
+ms.date: 02/21/2024
 ms.subservice:
 ms.author: kkendrick
 ms.reviewer: kkendrick
