@@ -26,9 +26,9 @@ The Power Pages design studio is an intuitive interface that enables low-code ma
 
 1. Choose your site, then select **Edit** to launch the design studio.
 
-    :::image type="content" source="media/tour-maker-studio/launch-design-studio.png" alt-text="Launch the design studio.":::
-
     You can create a site without writing a single line of code in our design studio or, if you prefer, you can edit your site's code with [Visual Studio Code in design studio](../configure/visual-studio-code-editor.md#edit-code-available-in-design-studio).
+
+    :::image type="content" source="media/tour-maker-studio/launch-design-studio.png" alt-text="Launch the design studio.":::
 
     If you don't have a site created yet, select **Create a site** to create your website. More information: [Create a site with Power Pages](create-manage.md)
 
