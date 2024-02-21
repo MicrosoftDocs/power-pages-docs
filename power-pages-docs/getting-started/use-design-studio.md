@@ -29,8 +29,7 @@ The Power Pages design studio is an intuitive interface that enables low-code ma
     - Select **Edit** to go to the [Pages workspace](first-page.md) and edit your site without writing a single line of code.
     - If you prefer, you can choose the **Edit site code** option to edit your site's code with [Visual Studio Code for the Web](../configure/visual-studio-code-editor.md#edit-code-available-in-design-studio).
 
-    :::image type="content" source="media/tour-maker-studio/launch-design-studio.png" alt-text="Launch the design studio.":::
-
+    :::image type="content" source="media/use-design-studio/edit-active-site.png" alt-text="A screenshot of the Active sites list with the Edit button and options emphasized.":::
 
 The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs:
 
