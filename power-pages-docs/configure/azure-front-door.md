@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 01/04/2023
 ms.author: dileeps
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - dileepsinghmicrosoft
     - nickdoelman
