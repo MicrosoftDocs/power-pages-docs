@@ -6,7 +6,9 @@ ms.custom: responsible-ai-faqs
 ms.topic: article
 author: vashr
 ms.author: vashr
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick

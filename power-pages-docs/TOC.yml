@@ -204,7 +204,7 @@
           items:
           - name: Add an AI-powered chatbot
             href: getting-started/enable-chatbot.md
-          - name: Force Bing webmaster to index 
+          - name: Generate answers from public data using Bing search
             href: getting-started/force-bing-index.md
           - name: Replace AI-powered chatbot with a Power Virtual Agents bot
             href: getting-started/pva-bot-how-to.md

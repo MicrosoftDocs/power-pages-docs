@@ -10,6 +10,8 @@ contributors:
   - ProfessorKendrick
   - nageshbhat-msft
 ms.custom: bap-template
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Replace AI-powered chatbot with a Power Virtual Agents bot

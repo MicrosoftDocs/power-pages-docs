@@ -6,7 +6,9 @@ ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
 ms.author: prpadalw
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick

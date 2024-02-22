@@ -8,6 +8,8 @@ ms.date: 06/22/2023
 ms.subservice:
 ms.author: clromano
 ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - ProfessorKendrick
     - clromano

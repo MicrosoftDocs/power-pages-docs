@@ -8,6 +8,8 @@ ms.date: 09/21/2023
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: kkendrick
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - ProfessorKendrick
     - pranita225

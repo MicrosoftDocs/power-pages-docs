@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 07/17/2023
 ms.subservice: 
 ms.author: vamseedilli
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - vamseedillimsft
     - neerajnandwana-msft
@@ -41,6 +41,9 @@ From here you can configure website details, for more information go to [site de
 Selecting on any of the cards in the header will filter the lists to the chosen website type.
 
 You can export a list of website information by selecting the **Export to csv** button.
+
+>[!NOTE]
+> You can only view the list of websites from the environments you are a system administrator for. If you are a service administrator (global administrator, D365 administrator, or Power Platform administrator), you can view the list of all websites in your tenant.
 
 ## Manage all websites for an environment
 
