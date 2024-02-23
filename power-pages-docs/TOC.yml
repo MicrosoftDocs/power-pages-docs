@@ -182,7 +182,7 @@
               href: configure/bootstrap-overview.md
             - name: Enable Bootstrap version 5 in your environment
               href: configure/bootstrap-version-5.md
-            - name: Migrate existing sites to Bootstrap version 5
+            - name: Migrate existing sites to Bootstrap version 5 (preview)
               href: configure/migrate-bootstrap.md
         - name: Manage CSS files
           href: configure/manage-css.md
