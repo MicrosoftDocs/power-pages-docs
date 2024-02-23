@@ -1,5 +1,5 @@
 ﻿---
-title: Enable Bootstrap version 5 in your environment (preview)
+title: Enable Bootstrap version 5 in your environment 
 description: Learn how to enable Bootstrap version 5 in your environment to take advantage of new features and updates that make creating responsive, customized Power Pages sites even easier.
 ms.topic: how-to
 ms.date: 09/27/2023
@@ -15,16 +15,12 @@ ms.custom:
   - bap-template
 ---
 
-# Enable Bootstrap version 5 in your environment (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Enable Bootstrap version 5 in your environment 
 
 [Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features, like CSS Flexbox and responsive layout, that make creating more responsive, customized Power Pages sites even easier.
 
 > [!IMPORTANT]
 >
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - Bootstrap version 5 is only supported with the [enhanced data model](../admin/enhanced-data-model.md).
 
 Power Platform environments and Power Pages sites use Bootstrap version 3 by default. To start creating sites with Bootstrap version 5 or migrate your existing sites, enable Bootstrap version 5 in your environment. Once the setting is enabled, all new sites created in the environment will use Boostrap version 5.
@@ -37,7 +33,7 @@ Power Platform environments and Power Pages sites use Bootstrap version 3 by def
 
 1. On the **Resources** tile, select **Power Pages sites**.
 
-1. Turn on both **Switch to enhanced data model (preview)** and **Enable Bootstrap v5 for new sites (preview)**.
+1. Turn on both **Switch to enhanced data model (preview)**.
 
 1. Confirm when you're prompted to enable Bootstrap version 5 for new sites.
 
@@ -52,6 +48,7 @@ Create your sites with Power Pages templates that support Bootstrap version 5:
 - [Application processing template](../templates/building-permit.md)
 - [Program registration template](../templates/after-school.md)
 - [Schedule and manage meetings template](../templates/book-a-meeting.md)
+- [Frequently Asked Questions template (preview)](../templates/frequently-asked-questions.md)
 
 ## Next steps
 
