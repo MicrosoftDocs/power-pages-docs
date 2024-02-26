@@ -1,11 +1,11 @@
 ---
 title: Use design studio
 description: Learn about Power Pages design studio.
-author: clromano
+author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
 ms.date: 02/21/2024
-ms.author: clromano
+ms.author: ckwan
 ms.reviewer: kkendrick
 contributors:
     - clromano
