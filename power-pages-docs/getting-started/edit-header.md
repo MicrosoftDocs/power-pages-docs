@@ -55,6 +55,9 @@ If the title and logo are changed in the code, those changes override any change
 
 Change your header's style in the **Styling** section of the header editing window.
 
+> [!TIP]
+> You can also customize your header's styling by editing your site's [CSS files](../configure/manage-css.md).  
+
 ### Brand colors
 
 :::image type="content" source="media/edit-header/styling.png" alt-text="Screenshot of styling options in the header editing window.":::
