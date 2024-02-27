@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create virtual tables in Mic
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/19/2023
+ms.date: 02/27/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: kkendrick
