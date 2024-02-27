@@ -1,12 +1,12 @@
 ﻿---
 title: Create an AI-generated web page using Copilot (preview)
 description: Learn how to create an AI-generated webpage using Copilot in Power Pages.
-author: clromano
+author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/22/2023
 ms.subservice:
-ms.author: clromano
+ms.author: ckwan
 ms.reviewer: kkendrick
 ms.collection: 
     - bap-ai-copilot
