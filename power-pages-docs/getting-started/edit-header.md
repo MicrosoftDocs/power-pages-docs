@@ -4,7 +4,7 @@ description: Learn how to make changes to the header of your Power Pages site.
 author: ckwan-ms
 ms.topic: how-to
 ms.custom: bap-template
-ms.date: 03/20/2023
+ms.date: 02/27/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: kkendrick
@@ -54,6 +54,9 @@ If the title and logo are changed in the code, those changes override any change
 ## Styling
 
 Change your header's style in the **Styling** section of the header editing window.
+
+> [!TIP]
+> You can also customize your header's styling by editing your site's [CSS files](../configure/manage-css.md).  
 
 ### Brand colors
 
