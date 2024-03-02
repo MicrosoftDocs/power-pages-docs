@@ -1,10 +1,10 @@
 ---
-title: Create and modify virtual tables by using the Data workspace (preview)
+title: Create and modify virtual tables by using the Data workspace 
 description: Learn how to use the Data workspace to create virtual tables in Microsoft Dataverse.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/19/2023
+ms.date: 02/27/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: kkendrick
@@ -13,15 +13,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Create and modify virtual tables by using the Data workspace (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Create and modify virtual tables by using the Data workspace 
 
 [Virtual tables](/power-apps/maker/data-platform/create-edit-virtual-entities) integrate data from external data sources by seamlessly representing that data as tables in Microsoft Dataverse, without data replication. Solutions, apps, flows, and more can use virtual tables as if they're native Dataverse tables. Virtual tables allow for full create, read, update, and delete privileges unless the data source they're connecting to specifically forbids it.
-
-> [!IMPORTANT]
-> - This feature is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 You can create virtual tables using the following virtual connector providers inside Data workspace:
 

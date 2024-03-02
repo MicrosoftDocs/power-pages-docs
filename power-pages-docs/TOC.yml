@@ -192,7 +192,7 @@
           href: getting-started/use-data-workspace.md
         - name: Create and modify tables
           href: configure/data-workspace-tables.md
-        - name: Create and modify virtual tables (preview)
+        - name: Create and modify virtual tables 
           href: configure/data-workspace-virtual-tables.md
         - name: Create and modify views
           href: configure/data-workspace-views.md
