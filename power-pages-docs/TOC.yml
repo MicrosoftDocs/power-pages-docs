@@ -192,7 +192,7 @@
           href: getting-started/use-data-workspace.md
         - name: Create and modify tables
           href: configure/data-workspace-tables.md
-        - name: Create and modify virtual tables (preview)
+        - name: Create and modify virtual tables 
           href: configure/data-workspace-virtual-tables.md
         - name: Create and modify views
           href: configure/data-workspace-views.md
@@ -372,8 +372,6 @@
           href: configure/enable-multiple-language-support.md
         - name: Behavior and format of the Duration, Date and Time fields
           href: configure/behavior-format-date-time-field.md
-      - name: Setup HTTP headers
-        href: configure/cors-support.md
       - name: Configure advertisements
         href: configure/create-run-advertisement.md
       - name: Configure choices column
@@ -662,6 +660,10 @@
           href: security/column-permissions.md
         - name: Set website access permissions
           href: security/website-access-permission.md
+    - name: Setup HTTP headers
+      href: configure/cors-support.md
+    - name: Manage Content Security Policy
+      href: security/manage-content-security-policy.md
     - name: Web Application Firewall (preview)
       items:
         - name: Web Application Firewall overview

@@ -6,7 +6,7 @@ ms.author: sampatn
 ms.date: 05/31/2023
 ms.topic: get-started
 ms.custom: template-trial-faq
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick

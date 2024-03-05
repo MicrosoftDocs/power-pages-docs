@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 07/06/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - neerajnandwana-msft
     - nickdoelman
@@ -34,7 +34,7 @@ To learn about the roles required to perform this task, read [Admin roles requir
 1. In the **Site Details** section, select **Connect Custom Domain**.
 
 1. A side panel appears, on the **Choose a SSL certificate** section, select one of these options:
-   - **Upload a new certificate**: Select this option to upload the .pfx file if you haven't yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
+   - **Upload a new certificate**: Select this option to upload the .pfx file if you haven't uploaded it to the organization yet. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
    - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
 
      > [!NOTE]
@@ -64,7 +64,7 @@ To learn about the roles required to perform this task, read [Admin roles requir
 
 1. This step is applicable for a [Content Delivery Network](../configure/configure-cdn.md) enabled site. On the **Validate the domain** section, copy the **Record type**, **Record name**, and the **Record value** and create a **TXT** record with your domain provider.
 
-   If you have just added the TXT entry with your domain provider, it takes some time to propagate to all DNS servers. Select **Refresh** to validate the custom domain. The TXT record must be created within seven days after enabling the Content Delivery Network; otherwise, you'll need to disable and re-enable the Content Delivery Network. When information has been validated, the **Next** button is activated. 
+   When you add TXT entry with your domain provider, it takes some time to propagate to all DNS servers. Select **Refresh** to validate the custom domain. The TXT record must be created within seven days after enabling the Content Delivery Network; otherwise, you'll need to disable and re-enable the Content Delivery Network. When information has been validated, the **Next** button is activated. 
 
 1. Select **Next**
 
@@ -94,13 +94,53 @@ To change your existing custom domain name:
 
     :::image type="content" source="media/add-custom-domain/change-ssl.png" alt-text="Change SSL certificate.":::
 
-1. Follow the instructions outlined in [**Add a custom domain name**](#add-a-custom-domain-name) to configure you new domain.
+1. Follow the instructions outlined in [**Add a custom domain name**](#add-a-custom-domain-name) to configure your new domain.
 
 > [!NOTE]
-> When you add a custom domain name for a [Content Delivery Network](../configure/configure-cdn.md) enabled site, Power Pages uses Azure Front Door-managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days prior to the expiry date. 
+> When you add a custom domain name for a [Content Delivery Network](../configure/configure-cdn.md) enabled site, Power Pages uses Azure Front Door-managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days prior to the expiry date.
+
+## Renew or reissue SSL/TLS certificate for Power Pages
+
+Here are the high level steps for renewing or reissuing a SSL/TLS certificate covering your portals custom domain name.
+
+>[!NOTE]
+> 
+> - Steps may slightly change based on your preferred Certificate Authority. The best practice is to refer to the CA website for the complete renewal process.
+> - If you already have your new certificate .PFX file, please **skip these 4 steps** and follow the last 2 steps to upload the new certificate and binding.
+
+**STEP 1:** Generate Certificate Signing Request (CSR). 
+
+To renew an SSL/TLS certificate, you need to generate a new CSR.  
+
+Best practice is to generate a new CSR when renewing your SSL/TLS certificate, which creates a new, unique keypair (public/private) for the renewed certificate. 
+
+**STEP 2:** Log on to your preferred Certificate Authority (CA) website and Fill out the renewal form.
+
+On the Expiring certificates page, next to the certificate that needs to be renewed, select Renew now. 
+
+A certificate doesn't appear on the Expiring Certificates page until 90 days before it expires. 
+
+**STEP 3:** Your CA issues the SSL/TLS certificate 
+
+Once approved, CA issues and sends the renewed certificate to the certificate contact via email. You can also download the renewed certificate from CA website. 
+
+**STEP 4:** Install your renewed SSL/TLS certificate (Preferably on the machine from step 1 where you installed the CSR, which will auto-associate the private key so that you can later export the .PFX file). While exporting the PFX file on Windows just ensure that the Export is a password-protected PFX file, encrypted using triple DES as shown below: 
+
+:::image type="content" source="media/add-custom-domain/renewed-certificate.svg" alt-text="The Certificate Export Wizard with the triple DES Encryption information emphasized.":::
+
+Once you have the renewed (reissued) certificate .PFX file, select  the edit icon (pencil icon) beside your custom domain in [Power Portals admin center](https://admin.powerplatform.microsoft.com/resources/portals) to replace your old certificate.
+
+1. Upload your renewed certificate .pfx file by choosing **New** from the Edit Custom Domain pane.
+
+1. Post the upload, delete the existing binding with the old certificate and a "New" binding as shown below. Clicking on "New" button brings a popup where you can choose your preferred host name & your new certificate for this binding.
+
+:::image type="content" source="media/add-custom-domain/new-binding.png" alt-text="A screenshot of the Power Platform admin center with the option to delete SSL bindings and add a new SSL certificate emphasized.":::
+
+Legend:
+
+1. To delete the existing binding, select the ellipse, then choose **Delete**.
+1. Select the **+ New** button to add a new SSL certificate.
 
 ### See also
 
 [Configure SSL certificates and custom domain names](/training/modules/portals-administration/2-custom-domain)
-
-
