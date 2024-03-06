@@ -24,7 +24,7 @@ You can create a new webpage for your site by describing the type of webpage. Co
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
-> - This feature will be available for preview in the United States only.
+> - Please see the availability of Copilot in your geographical region [here](/power-platform/admin/geographical-availability-copilot). 
 > - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
 
 ## Prerequisites
