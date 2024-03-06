@@ -6,7 +6,7 @@ ms.author: tbhagwat
 ms.date: 1/30/2023
 ms.topic: get-started
 ms.custom: template-trial-setup 
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - sampatn
     - nickdoelman

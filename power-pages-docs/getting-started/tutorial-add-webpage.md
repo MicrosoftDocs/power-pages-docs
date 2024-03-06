@@ -7,7 +7,7 @@ ms.custom: template-tutorial
 ms.date: 05/24/2022
 ms.subservice:
 ms.author: ckwan 
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
