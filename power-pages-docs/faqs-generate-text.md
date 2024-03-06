@@ -37,7 +37,7 @@ This feature underwent substantial testing before the feature was released. Copi
 ## What are the limitations of natural language to text? How can users minimize the impact of the natural language to text limitations when using the system?
 
 - This feature doesn’t support non-English language input.  
-- This feature is available for preview only in the United States region.
+- Please see the availability of Copilot in your geographical region [here](/power-platform/admin/geographical-availability-copilot). 
 - There's a limit on the number of tokens allowed in a query and response.  
 - When you edit a site with [site visibility](security/site-visibility.md) of **Public**, there's a risk that Copilot generated text content, when added to the page, becomes live for the end users of the site.
 
