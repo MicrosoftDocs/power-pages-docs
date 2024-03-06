@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated webpage using Copilot in Power 
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/22/2023
+ms.date: 03/06/2024
 ms.subservice:
 ms.author: ckwan
 ms.reviewer: kkendrick
@@ -24,7 +24,7 @@ You can create a new webpage for your site by describing the type of webpage. Co
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
-> - Please see the availability of Copilot in your geographical region [here](/power-platform/admin/geographical-availability-copilot). 
+> - See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 > - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
 
 ## Prerequisites

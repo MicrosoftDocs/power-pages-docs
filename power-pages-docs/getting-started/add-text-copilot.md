@@ -2,7 +2,7 @@
 title: Add AI-generated text using Copilot (preview)
 description: Learn how to create AI-generated text using Copilot and add it to a page in your Power Pages site.
 ms.topic: how-to
-ms.date: 09/07/2023
+ms.date: 03/06/2024
 author: ckwan-ms
 ms.author: ckwan
 ms.reviewer: kkendrick
@@ -28,7 +28,7 @@ An easy way to add text to your Power Pages website is to ask Copilot to create 
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
-> - Please see the availability of Copilot in your geographical region [here](/power-platform/admin/geographical-availability-copilot). 
+> - See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 > - To understand the capabilities and limitations of this feature, see [FAQ for natural language to text](../faqs-generate-text.md).
 
 ## Prerequisites

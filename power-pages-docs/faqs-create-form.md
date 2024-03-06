@@ -1,7 +1,7 @@
 ---
 title: FAQ for creating AI-generated form or multistep form
 description: This FAQ discusses natural language to forms and the key considerations for making use of this technology responsibly.
-ms.date: 5/23/2023
+ms.date: 03/06/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
@@ -41,7 +41,7 @@ This feature underwent substantial testing before the feature was released. AI-g
 ## What are the limitations of natural language to form? How can users minimize the impact of the natural language to form limitations when using the system?
 
 - This feature doesn’t support non-English language input.
-- See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot). 
+- See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 - There is a limit on the number of tokens allowed in a query and response.
 - When a Maker edits a site with site visibility of Public, there is a risk that Copilot generated form, when added to the page, will be live for the end users of the site.
 
