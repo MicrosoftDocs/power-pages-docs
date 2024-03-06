@@ -51,8 +51,8 @@ To learn how to use the new AI features in Power Pages, see:
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the United States or Europe regions.
 - Your browser language must be set to US-English.
+- Please see the availability of Copilot in your geographical region [here](/power-platform/admin/geographical-availability-copilot). 
 
 ## Turn off Copilot in Power Pages
 
