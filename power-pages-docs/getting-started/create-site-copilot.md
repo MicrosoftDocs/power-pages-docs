@@ -31,7 +31,7 @@ For this preview, Copilot in Power Pages is enabled by default.
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This preview feature doesn't support non-English language input.
-> - This preview feature is only available in the Microsoft Power Platform environments created in the United States or Europe regions.
+> - Please see the availability of Copilot in your geographical region [here](/power-platform/admin/geographical-availability-copilot). 
 > - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
 
 ## Create a site with the help of AI
