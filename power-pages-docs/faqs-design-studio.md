@@ -44,7 +44,7 @@ We conducted extensive testing before the feature release. Copilot for design st
 ## What are the limitations of Copilot for design studio? How can users minimize the impact of Copilot for design studio’s limitations when using the system?
 
 - This feature doesn’t support non-English language input.
-- This feature is available for preview only in the United States region.
+- Please see the availability of Copilot in your geographical region [here](/power-platform/admin/geographical-availability-copilot). 
 - There's a limit on the number of tokens allowed in a query and response, so you may see corresponding limits on the number words that you can use in your prompt description, which may vary based on your use case.
 
 ## What operational factors and settings allow for effective and responsible use of Copilot for design studio?
