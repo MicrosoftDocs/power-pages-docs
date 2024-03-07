@@ -2,7 +2,7 @@
 title: Enable Bootstrap version 5 in your environment 
 description: Learn how to enable Bootstrap version 5 in your environment to take advantage of new features and updates that make creating responsive, customized Power Pages sites even easier.
 ms.topic: how-to
-ms.date: 03/04/2024
+ms.date: 03/07/2024
 author: ankitavish
 ms.author: avishwakarma
 ms.reviewer: kkendrick
