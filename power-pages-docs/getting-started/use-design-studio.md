@@ -24,11 +24,12 @@ The Power Pages design studio is an intuitive interface that enables low-code ma
 
     The first time you visit the site, select the **Try it for free** button to [sign up for a free, 30-day trial](trial-signup.md).
 
-1. Choose your site, then select **Edit** to launch the design studio.
+1. Locate your site in the **Active sites** list. If you don't have a site created yet, select **Create a site** to [create your website](create-manage.md).
 
-    :::image type="content" source="media/tour-maker-studio/launch-design-studio.png" alt-text="Launch the design studio.":::
+    - Select **Edit** to go to the [Pages workspace](first-page.md) and edit your site without writing a single line of code.
+    - If you prefer, you can choose the **Edit site code** option to edit your site's code with [Visual Studio Code for the Web](../configure/visual-studio-code-editor.md#edit-code-available-in-design-studio).
 
-    If you don't have a site created yet, select **Create a site** to [create your website](create-manage.md)
+    :::image type="content" source="media/use-design-studio/edit-active-site.png" alt-text="A screenshot of the Active sites list with the Edit button and options emphasized.":::
 
 The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs. Learn more about [design studio's workspaces](../configure/design-build-overview.md). 
 
