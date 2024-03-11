@@ -50,7 +50,7 @@ Depending on the customizer application you used, the directory structure might 
 
 ## Next steps
 
-- [Enable Bootstrap version 5 in your environment](bootstrap-version-5.md)
+- [Create new sites with Bootstrap version 5](bootstrap-version-5.md)
 
 ### See also
 

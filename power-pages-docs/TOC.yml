@@ -180,7 +180,7 @@
           items:
             - name: Bootstrap overview
               href: configure/bootstrap-overview.md
-            - name: Enable Bootstrap version 5 in your environment
+            - name: Create new sites with Bootstrap version 5
               href: configure/bootstrap-version-5.md
             - name: Migrate existing sites to Bootstrap version 5 (preview)
               href: configure/migrate-bootstrap.md
