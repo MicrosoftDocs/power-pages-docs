@@ -16,7 +16,7 @@ ms.custom:
   - bap-template
 ---
 
-# Enable Bootstrap version 5 in your environment
+# Create new sites with Bootstrap version 5
 
 [Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features, like CSS Flexbox and responsive layout that make creating more responsive customized Power Pages sites even easier.
 
