@@ -29,6 +29,7 @@ ms.custom:
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - When you migrate existing Bootstrap version 3 sites to version 5, you can use either the standard data model or the [enhanced data model](../admin/enhanced-data-model.md).
 > - Consider testing the migration using [developer sites](../getting-started/developer-sites.md) before you migrate a production site.
+> - To check the current version of Bootstrap, see the *bootstrap.min.css* [web file](web-files.md) for your website.
 
 To migrate your Bootstrap version 3 site, follow these steps:
 
