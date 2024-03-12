@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated site using Copilot in Power Pag
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/26/2023
+ms.date: 03/06/2024
 ms.subservice:
 ms.author: sampatn
 ms.reviewer: kkendrick
@@ -31,7 +31,7 @@ For this preview, Copilot in Power Pages is enabled by default.
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This preview feature doesn't support non-English language input.
-> - This preview feature is only available in the Microsoft Power Platform environments created in the United States or Europe regions.
+> - See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 > - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
 
 ## Create a site with the help of AI
