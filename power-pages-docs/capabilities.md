@@ -4,7 +4,7 @@ description: Learn about Power Pages capabilities.
 author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/26/2023
+ms.date: 02/28/2023
 ms.subservice:
 ms.author: dileeps
 ms.reviewer: kkendrick
@@ -67,7 +67,7 @@ Power Pages' inbuilt security is its core. It allows organizations to securely e
 
  - Power Pages supports modern TLS crypto standards (TLS 1.2) and has built-in Azure DDoS protection. It also supports dynamic IP restriction to limit traffic from bad actors and provides secure, configuration-driven mechanisms for admins to address top web security vulnerabilities such as injection attacks, cross-site request forgery, and server-side request forgery.
 
-- You can also configure Power Pages to use edge caching and web application firewall (WAF) capabilities. More information: [Set up Azure Front Door with Power Pages sites](configure/azure-front-door.md).
+- You can also configure Power Pages to use edge caching and web application firewall (WAF) capabilities. More information: [Set up Azure Front Door with Power Pages sites](configure/azure-front-door.md)
 
 Power Pages provides helpful tools for administrators to manage the administration and lifecycle of their sites and environments. More information: [Power Pages governance](admin/coe-portals.md) 
 
@@ -75,12 +75,12 @@ Power Pages provides helpful tools for administrators to manage the administrati
 
 Power Pages provides deep integration with other [Microsoft Power Platform](/power-platform) components.
 
-- **Dataverse** allows you to securely store and manage data that's used by business applications and your Power Pages sites. Use model-driven app constructs like forms, views, charts, and dashboards to easily surface Dataverse data. 
+- **Dataverse** allows you to securely store and manage data used by business applications and your Power Pages sites. Use model-driven app constructs like forms, views, charts, and dashboards to easily surface Dataverse data. 
 
 - **Power Apps** empowers anyone to create no-code/low-code custom mobile and web apps to share and collect data and streamline business processes. Using Power Apps to create an app that uses SharePoint to store content is a popular way to quickly build basic intranet sites. Power Pages is ideal for websites focused on external audiences that require more secure access to your business information.  
 
-- **Power Automate** simplifies the creation of automated workflows. With Power Pages, use Power Automate for plug-ins, workflows, automated cloud flows, or to extend business logic and interact with data and events coming and going in and out of Dataverse. 
+- **Power Automate** simplifies the creation of automated workflows. You can use Power Automate for plug-ins, workflows, automated cloud flows, or to extend business logic. You can also interact with data and events coming and going in and out of Dataverse. 
 
 - **Power BI** allows anyone to access visually immersive and interactive insights from business data. With Power Pages, integrate with Power BI to access components like reports, dashboards, and tiles. Use the embed capability to surface data that sits outside of Dataverse. 
 
-- **Power Virtual Agents** enables teams to easily create and publish AI-driven chatbot experiences. With Power Pages, add chatbots to your external-facing websites for a myriad of business purposes.
+- **Microsoft Copilot Studio** enables teams to easily create and publish AI-driven chatbot experiences. With Power Pages, add chatbots to your external-facing websites for a myriad of business purposes.
