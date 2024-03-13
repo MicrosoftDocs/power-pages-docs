@@ -23,7 +23,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *generative answers*&mdash;that is, natural language to answer questions and suggest solutions to issues in a conversational way.
+A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-boost-conversations) bot on your site that uses *generative answers*&mdash;that is, natural language to answer questions and suggest solutions to issues in a conversational way.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1cRVN]
 
@@ -32,7 +32,7 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - To understand the capabilities and limitations of this feature, see [FAQ for chatbot](../faqs-chatbot.md).
-> - Chatbot uses Power Virtual Agents generative answers. If you configure generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
+> - Chatbot uses Copilot Studio generative answers. If you configure generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ To use AI-powered Copilot features in Power Pages:
 - Your environment must be located in the United States, Europe, United Kingdom, Australia, or India regions. Review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
 - Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
-- Chatbot uses Power Virtual Agent generative answers. Refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
+- Chatbot uses Microsoft Copilot Studio generative answers. Refer Copilot Studio [Quotas & Pricing](/microsoft-copilot-studio/nlu-boost-conversations#whats-supported) for more details.
 
 ## Add a chatbot
 You can manually add a chatbot by following below steps.
@@ -56,7 +56,7 @@ You can manually add a chatbot by following below steps.
 
 1. Turn on **Create and test chatbot**.
 
-    Power Pages creates a [bot with generative answers conversation](/power-virtual-agents/nlu-boost-conversations) for you in Power Virtual Agents. 
+    Power Pages creates a [bot with generative answers conversation](/microsoft-copilot-studio/nlu-boost-conversations) for you in Copilot Studio. 
 
 1. To make the chatbot available to visitors and users, turn on **Publish chatbot on site**.
 
@@ -64,7 +64,7 @@ You can manually add a chatbot by following below steps.
 
 ## Customize your chatbot
 
-When creating a chatbot for a website, the bot utilizes the content from the hosting site to generate responses. The Dataverse service facilitates the indexing of site content and configured tables, which are then summarized by Power Virtual Agents to generate responses.
+When creating a chatbot for a website, the bot utilizes the content from the hosting site to generate responses. The Dataverse service facilitates the indexing of site content and configured tables, which are then summarized by Copilot Studio to generate responses.
 
 Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following these steps: 
 
