@@ -2,7 +2,7 @@
 title: Add an AI-generated form using Copilot (preview)
 description: Learn how to create an AI-generated form using Copilot and add it to a page in your Power Pages site.
 ms.topic: how-to
-ms.date: 09/07/2023
+ms.date: 03/06/2024
 author: pranita225
 ms.author: prpadalw
 ms.reviewer: kkendrick
@@ -27,7 +27,7 @@ An easy way to add a form to your Power Pages website is to ask Copilot to creat
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
-> - This feature will be available for preview in the United States only.
+> - See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 > - To understand the capabilities and limitations of this feature, see [FAQ for creating AI-generated form or multistep form](../faqs-create-form.md)
 
 ## Prerequisites
