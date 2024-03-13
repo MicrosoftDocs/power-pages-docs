@@ -208,7 +208,7 @@
             href: getting-started/enable-chatbot.md
           - name: Generate answers from public data using Bing search
             href: getting-started/force-bing-index.md
-          - name: Replace AI-powered chatbot with a Power Virtual Agents bot
+          - name: Replace AI-powered chatbot with a Microsoft Copilot Studio bot
             href: getting-started/pva-bot-how-to.md
         - name: Progressive web applications
           items:

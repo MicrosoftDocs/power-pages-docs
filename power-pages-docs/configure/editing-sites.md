@@ -38,7 +38,6 @@ When you select a site in the Power Apps maker portal created using Power Apps, 
 The Power Apps portals Studio has the following features that aren't part of the Power Pages design studio:
 
 - [Web template code editing](/power-apps/maker/portals/work-with-templates)
-- [Power Virtual Agent chat bot configuration](/power-apps/maker/portals/add-chatbot) 
 - [Breadcrumbs](/power-apps/maker/portals/add-breadcrumb)
 - [Custom menus](/power-apps/maker/portals/add-custom-menu)
 - [Content snippet editing](/power-apps/maker/portals/configure/customize-content-snippets)
