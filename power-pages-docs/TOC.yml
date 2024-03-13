@@ -180,7 +180,7 @@
           items:
             - name: Bootstrap overview
               href: configure/bootstrap-overview.md
-            - name: Enable Bootstrap version 5 in your environment (preview)
+            - name: Enable Bootstrap version 5 in your environment
               href: configure/bootstrap-version-5.md
             - name: Migrate existing sites to Bootstrap version 5 (preview)
               href: configure/migrate-bootstrap.md
@@ -222,8 +222,6 @@
         href: getting-started/copresence.md
       - name: Add comments to pages (preview)
         href: getting-started/add-comments-to-pages.md
-    - name: Power Pages design studio and Power Apps portals Studio
-      href: configure/editing-sites.md
 - name: Administer Power Pages
   items:
     - name: Use the admin center
