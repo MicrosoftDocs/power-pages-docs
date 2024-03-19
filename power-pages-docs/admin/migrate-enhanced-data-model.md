@@ -79,9 +79,17 @@ The **Mode** can have 3 values:
 
 - **all**: migrate both types of data.
 
+Certain templates, such as the ones listed below, require corresponding enhanced data model packages to ensure the migrated website functions properly. To acquire these enhanced data model packages, users need to create a new site for the respective package, which will provide enhanced data model compatible solutions for migration.
+
+- Program registration
+- Program registration
+- FAQ
+
+The migration tool will verify the solutions. If any standard data model solution exists without an enhanced data model solution for the above packages, it will display a warning: ```Found template <tempaltename>. One of the prerequisite for migrate needs Enchanged data model template```
+
 ### Supported templates for migration
 
-Pass the site **Template Name** for the site. Sites with following templates are supported for migration:
+Sites with following templates are supported for migration:
 
 - Starter layout 1-5
 - Application processing
@@ -112,8 +120,9 @@ Use the following command update site data model version:
 
 ```pac powerpages migrate-datamodel --updateDatamodelVersion -id [WebSiteId-GUID] -portalId [Portal-GUID]```
 
-> [!NOTE#]
-> You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a web role with all [website access permissions](../security/website-access-permission.md) assigned.
+> [!NOTE]
+> - You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a web role with all [website access permissions](../security/website-access-permission.md) assigned.
+> - After the site data model version is updated, the website record linked to the standard data model will be deactivated. Instead, the site will now refer to the website record associated with the enhanced data model.
 
 **Example**
 
@@ -124,6 +133,9 @@ Use the following command update site data model version:
 Use the following command to revert a standard data model site to enhanced data model after migration:
 
 ```pac powerpages migrate-datamodel --revertToStandardDataModel -id [WebSiteId-GUID] -portalId [Portal-GUID]```
+
+> [!NOTE]
+> When you switch a migrated site from the enhanced data model back to the standard data model, the website record associated with the enhanced data model will be deactivated, and the website record for the standard data model will be reactivated. 
 
 **Example**
 
