@@ -47,7 +47,7 @@ The following Power Pages templates are supported with Bootstrap version 5:
 
 1. If not already, turn on **Switch to enhanced data model (preview)** and confirm when prompted.
 
-View and edit Power Pages sites that you create with Bootstrap version 5 the same way you did with version 3.
+You can view and edit Power Pages sites that you create with Bootstrap version 5 just as you did with version 3.
 
 ## Next steps
 
