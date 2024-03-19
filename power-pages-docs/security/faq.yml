@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.custom: 
   ms.subservice: 
-  ms.date: 12/11/2023
+  ms.date: 03/07/2024
   ms.author: sandhan
   ms.reviewer: kkendrick
   contributors:
@@ -49,9 +49,7 @@ sections:
       - question: |
           My Pen test report is flagging End of Life/Obsolete Software – Bootstrap 3. What should I do about it? 
         answer: |
-          There are no known vulnerabilities on Bootstrap 3; however, support for Bootstrap 5 in Power Pages is coming soon. 
-          
-          More information: [Use Bootstrap version 5 in Power Pages](/power-platform/release-plan/2023wave2/power-pages/use-bootstrap-version-5-power-pages)
+          There are no known vulnerabilities on Bootstrap 3; however, you can [migrate your site to Bootstrap 5](../configure/migrate-bootstrap.md).
       
       - question: |
           What ciphers does Power Pages support? What's the roadmap of continuously moving toward stronger ciphers? 
