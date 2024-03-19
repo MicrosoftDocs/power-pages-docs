@@ -22,7 +22,7 @@ ms.custom:
 
 > [!IMPORTANT]
 >
-> - Site creation with Bootstrap version 5 is only supported with the [enhanced data model](../admin/enhanced-data-model.md).
+> Site creation with Bootstrap version 5 is only supported with the [enhanced data model](../admin/enhanced-data-model.md).
 
 Power Platform environments and Power Pages sites use Bootstrap version 3 by default. To start creating new sites with Bootstrap version 5, you need to enable the [enhanced data model](../admin/enhanced-data-model.md) in your environment. Once the setting is enabled, all new sites created in the environment use Bootstrap version 5.
 
