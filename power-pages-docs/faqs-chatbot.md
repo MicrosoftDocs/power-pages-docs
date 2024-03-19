@@ -21,11 +21,11 @@ These frequently asked questions (FAQ) describe the AI impact of chatbot feature
 
 ## What is chatbot in Power Pages?
 
-The chatbot feature in Power Pages provides you with an easy way to configure a GPT-powered Power Virtual Agents chatbot for your website. The bot enhances the interaction experience for the website users by enabling them to ask natural language (NL) questions and receive summarized responses with relevant links. This experience allows site users to get the necessary information available on the website - for example, through FAQs or knowledge articles easily using the bot without the need to search and locate the information manually.
+The chatbot feature in Power Pages provides you with an easy way to configure a GPT-powered Microsoft Copilot Studio chatbot for your website. The bot enhances the interaction experience for the website users by enabling them to ask natural language (NL) questions and receive summarized responses with relevant links. This experience allows site users to get the necessary information available on the website - for example, through FAQs or knowledge articles easily using the bot without the need to search and locate the information manually.
 
 ## What are the system’s capabilities?
 
-A chatbot for sites created in Power Pages for providing generative answers to customer queries. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. This enables web users to ask natural language questions and receive summarized responses. You can test the bot before publishing it to ensure that it provides appropriate summaries. Service administrators can also turn off the publishing of the bot at the tenant level to prevent accidental or unintended exposure of AI capabilities on the public site. Additionally, you can navigate to the associated Power Virtual Agents chatbot for advanced configuration and customization.
+A chatbot for sites created in Power Pages for providing generative answers to customer queries. Bing indexing is used for unauthenticated public site content, while Dataverse Copilot handles the indexing of private and authenticated user-specific content. This enables web users to ask natural language questions and receive summarized responses. You can test the bot before publishing it to ensure that it provides appropriate summaries. Service administrators can also turn off the publishing of the bot at the tenant level to prevent accidental or unintended exposure of AI capabilities on the public site. Additionally, you can navigate to the associated Microsoft Copilot Studio chatbot for advanced configuration and customization.
 
 ## What is the system’s intended use?
 
