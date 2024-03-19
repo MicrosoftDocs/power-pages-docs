@@ -195,7 +195,7 @@ For more information, go to [Power Platform CLI parameters](../configure/power-p
 
 ### How can I update a website from the standard data model to the enhanced data model?
 
-Guidance and tooling support to help you update from the standard data model to the enhanced data model will be provided in a later update.
+For guidance and tooling support to help you update from the standard data model to the enhanced data model, go to [Migrate standard data model sites to enhanced data mode](./migrate-enhanced-data-model.md).
 
 ### Can I edit new sites that are based on enhanced data model configurations in the Portal Management app?
 
