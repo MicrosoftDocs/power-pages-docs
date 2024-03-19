@@ -2,7 +2,7 @@
 title: Create new sites with Bootstrap version 5
 description: Learn how to enable Bootstrap version 5 in your environment to take advantage of new features and updates that make creating responsive, customized Power Pages sites even easier.
 ms.topic: how-to
-ms.date: 03/11/2024
+ms.date: 03/19/2024
 author: ankitavish
 ms.author: avishwakarma
 ms.reviewer: kkendrick
@@ -22,7 +22,7 @@ ms.custom:
 
 > [!IMPORTANT]
 >
-> - Creating new sites with Bootstrap version 5 is only supported with the [enhanced data model](../admin/enhanced-data-model.md).
+> - Site creation with Bootstrap version 5 is only supported with the [enhanced data model](../admin/enhanced-data-model.md).
 
 Power Platform environments and Power Pages sites use Bootstrap version 3 by default. To start creating new sites with Bootstrap version 5, you need to enable the [enhanced data model](../admin/enhanced-data-model.md) in your environment. Once the setting is enabled, all new sites created in the environment use Bootstrap version 5.
 
@@ -51,7 +51,7 @@ View and edit Power Pages sites that you create with Bootstrap version 5 the sam
 
 ## Next steps
 
-- [Edit your site](../getting-started/customize-pages.md)
+- [Customize webpages with design studio page editor](../getting-started/customize-pages.md)
 
 ### See also
 
