@@ -12,6 +12,7 @@ ms.collection:
 contributors:
     - nickdoelman
     - ProfessorKendrick
+---
 
 # FAQ for natural language to text
 
