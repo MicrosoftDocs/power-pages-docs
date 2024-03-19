@@ -2,7 +2,7 @@
 title: Migrate existing sites to Bootstrap version 5 (preview)
 description: Learn how to migrate your existing Power Pages sites to Bootstrap version 5 with the help of the Microsoft Power Platform CLI.
 ms.topic: how-to
-ms.date: 03/11/2024
+ms.date: 03/19/2024
 ms.subservice:
 author: ankitavish
 ms.author: avishwakarma
@@ -28,7 +28,7 @@ ms.custom:
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - When you migrate existing Bootstrap version 3 sites to version 5, you can use either the standard data model or the [enhanced data model](../admin/enhanced-data-model.md).
-> - Consider testing the migration using [developer sites](../getting-started/developer-sites.md) before you migrate a production site.
+> - Consider testing the migration with a [developer site](../getting-started/developer-sites.md).
 > - To check the current version of Bootstrap, see the *bootstrap.min.css* [web file](web-files.md) for your website.
 
 To migrate your Bootstrap version 3 site, follow these steps:
@@ -49,7 +49,7 @@ Since the migration steps require the use of the Microsoft Power Platform CLI, b
 
 - Install [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) version 1.28.2 or later.
 
-- If your site uses SVG files, make sure that the [**Set blocked file extensions for attachments** system setting](/power-platform/admin/system-settings-dialog-box-general-tab) in your Power Platform environment allows the ".svg" extension.
+- If your site uses SVG files, make sure that the [**Set blocked file extensions for attachments**](/power-platform/admin/system-settings-dialog-box-general-tab) system setting in your Power Platform environment allows the ".svg" extension.
 
 - Consider creating two versions of your Power Pages site using Bootstrap version 3. Migrate one of them and use the other as a reference to [compare with the migrated site](#review-your-changes).
 
@@ -57,7 +57,7 @@ Since the migration steps require the use of the Microsoft Power Platform CLI, b
 
 Starting with Microsoft Power Platform CLI version 1.27, the `pac paportal` command changed to `pac powerpages`. `paportal` still works, but we recommend that you use `powerpages` going forward. That's the form we use in the following instructions. If you're using Microsoft Power Platform CLI version 1.26.6, make sure that you use `pac paportal` instead of `pac powerpages`.
 
-1. Open a command prompt.<!-- EDITOR'S NOTE: Where? -->
+1. Open a command prompt.
 
 1. Enter the following command to authenticate to the Dataverse organization for your Power Platform environment: `pac auth create -u [Dataverse URL]`
 
@@ -95,9 +95,9 @@ More information: [`pac powerpages bootstrap-migrate`](/power-platform/developer
 
 If you created a copy of your site before you migrated it, compare it with the version 5 site.
 
-1. Open the **V5** folder you created in the previous step.<!-- EDITOR'S NOTE: What are we opening it in, VS Code or something else? -->
+1. Open the **V5** folder you created in the previous step.
 
-1. Open an HTML or CSS file.<!-- EDITOR'S NOTE: Any old HTML or CSS file?? -->
+1. Open an HTML or CSS file.
 
 1. In Visual Studio Code, press Ctrl+Shift+P to open a command prompt. Enter `bootstrap diff`.
 
