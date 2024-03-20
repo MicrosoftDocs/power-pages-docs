@@ -79,13 +79,13 @@ The **Mode** can have 3 values:
 
 - **all**: migrate both types of data.
 
-Certain templates, such as the ones listed below, require corresponding enhanced data model packages to ensure the migrated website functions properly. To acquire these enhanced data model packages, users need to create a new site for the respective package, which will provide enhanced data model compatible solutions for migration.
+The migration tool will verify the solutions. If there’s a standard data model solution present without a respective enhanced data model solution for the mentioned template, a warning will be displayed: ```Found template <template-name>. One of the prerequisite for migrate needs Enchanged data model template```
 
-- Program registration
-- Program registration
+There are specific templates, like the ones mentioned below, that necessitate the presence of matching enhanced data model packages to ensure the proper functioning of the migrated website. To obtain these enhanced data model packages, users are required to create a new site for the corresponding template (the environment should be enabled for the enhanced data model), which will provide enhanced data model compatible solutions for migration.
+
+- Registration for Programs
+- Scheduling and Management of Meetings
 - FAQ
-
-The migration tool will verify the solutions. If any standard data model solution exists without an enhanced data model solution for the above packages, it will display a warning: ```Found template <tempaltename>. One of the prerequisite for migrate needs Enchanged data model template```
 
 ### Supported templates for migration
 
@@ -96,10 +96,6 @@ Sites with following templates are supported for migration:
 - Blank page
 - Program registration
 - Schedule and manage meetings
-
-**Example**
-
-```pac powerpages migrate-datamodel -id 8fd85fc0-3be4-ed11-8848-000d3af37e5b –mode all ```
 
 ## Step 3. Verify the migration status  
 
@@ -143,11 +139,11 @@ Use the following command to revert a standard data model site to enhanced data
 
 ## Migrate a production site from standard to enhanced data model
 
-Before migrating a production site, we recommend creating full copy of the production site. We also recommend production site migration be conducted during nonbusiness hours.
+Before migrating a production site, we recommend creating full copy of the production site. We also recommend production site migration to be conducted during nonbusiness hours.
 
 Use these steps to migrate your production site to the enhanced data model:
 
-1. Try out the migration on the site in the copied environment using the PAC CLI commands.
+1. Try out the migration on the site in the copied environment using the PAC CLI ```migrate-datamodel``` command.
 1. Add site configuration data to managed solution and import it production environment.
 1. Use PAC CLI commands to migrate nonconfiguration data and finish it by updating data model version for production.
 
@@ -156,7 +152,7 @@ Use these steps to migrate your production site to the enhanced data model:
 
 ## Considerations for site customization when migrating sites from standard to enhanced data model 
 
- This section provides guidance fixing customization for a site migration from standard to enhanced data model. 
+This section provides guidance fixing customization for a site migration from standard to enhanced data model. 
 
 There are five types of site customizations on adx metadata tables: 
 
