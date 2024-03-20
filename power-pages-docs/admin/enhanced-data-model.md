@@ -87,6 +87,13 @@ Nonconfiguration tables are feature-specific tables that contain transactional b
 - Setting
 - WebFormSession
 
+> [!NOTE]
+> The tables listed below have been removed from the enhanced data model and will not be available in the [Power Pages Management app](#edit-a-site-by-using-the-power-pages-management-app):
+>  - Ad
+>  - Poll
+>  - Poll Option
+>  - Poll Submission
+
 ## Virtual tables
 
 The Power Pages virtual tables represent and contain the metadata of the specific website components. They point to the system tables that contain the website metadata in JavaScript Object Notation (JSON) format. You can update and configure the content of the virtual tables by using the [Power Pages Management app](#edit-a-site-by-using-the-power-pages-management-app). This app has the same look and feel as the older [Portal Management app](../configure/portal-management-app.md).
