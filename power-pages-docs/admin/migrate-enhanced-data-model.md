@@ -83,8 +83,8 @@ The migration tool will verify the solutions. If there’s a standard data model
 
 There are specific templates, like the ones mentioned below, that necessitate the presence of matching enhanced data model packages to ensure the proper functioning of the migrated website. To obtain these enhanced data model packages, users are required to create a new site for the corresponding template (the environment should be enabled for the enhanced data model), which will provide enhanced data model compatible solutions for migration.
 
-- Registration for Programs
-- Scheduling and Management of Meetings
+- Program registration
+- Schedule and manage meetings
 - FAQ
 
 ### Supported templates for migration
