@@ -1,4 +1,4 @@
-![image](https://github.com/MicrosoftDocs/power-pages-docs-pr/assets/67414206/addf7d3d-353f-4de5-9d09-5fc490a16eed)﻿---
+﻿---
 title: Migrate standard data model sites to enhanced data model (preview)
 description: Learn how to migrate your standard data model site to the enhanced data model in Power Pages.
 author:  gitanjalisingh33msft
