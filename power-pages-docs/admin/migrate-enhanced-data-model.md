@@ -1,23 +1,24 @@
 ﻿---
 title: Migrate standard data model sites to enhanced data model (preview)
 description: Learn how to migrate your standard data model site to the enhanced data model in Power Pages.
-author:  gitanjalisingh33msft
+author:  neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/03/2023
+ms.date: 03/21/2024
 ms.subservice:
-ms.author: gisingh 
+ms.author: nenandw 
 ms.reviewer: kkendrick
 contributors:
     - gitanjalisingh33msft
     - professorkendrick
+    - neerajnandwana-msft
 ---
 
 # Migrate standard data model sites to enhanced data model (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In this article, learn how to migrate your existing standard data model site to enhanced data model. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use Power Platform CLI in Power Pages. More information: [Microsoft Power Platform CLI support for Power Pages](../configure/power-platform-cli.md), (../configure/power-platform-cli-tutorial.md), [`pac powerpages`](/power-platform/developer/cli/reference/powerpages)
+In this article, learn how to migrate your existing standard data model site to enhanced data model. Since the migration steps require the use of Microsoft Power Platform CLI, ensure you understand how to use [Power Platform CLI in Power Pages](../configure/power-platform-cli.md). 
 
 > [!IMPORTANT]
 > - This feature is a preview feature.
@@ -28,6 +29,7 @@ In this article, learn how to migrate your existing standard data model site to 
 - You must install [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.31.6 or higher to migrate your sites to enhanced data model. More information: [Install latest Power Platform CLI](/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
 - Dataverse base portal package [9.3.2307.x](/power-apps/maker/portals/versions/package-version-9.3.2209) or higher. 
 - Power Pages Core package 1.0.2309.63 or higher. More information: [Update the Power Pages solution](update-solution.md)
+- If you aren't familiar with Power Platform CLI in Power Pages, you may want to review this [Power Platform CLI tutorial](../configure/power-platform-cli-tutorial.md) and reference the [PAC CLI commands for working with Power Pages](/power-platform/developer/cli/reference/powerpages).
 
 ## Step 1. Download and check customization for existing standard site metadata
 
@@ -79,12 +81,9 @@ The **Mode** can have 3 values:
 
 ```pac powerpages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e –-mode all```
 
-The migration tool will verify the solutions. If there’s a standard data model solution present without a respective enhanced data model solution for the mentioned template, a warning will be displayed: ```Found template <template-name>. One of the prerequisite for migrate needs Enchanged data model template```
+The migration tool verifies the solutions. If there’s a standard data model solution present without a respective enhanced data model solution for the mentioned template, a warning is displayed: ```Found template <template-name>. One of the prerequisite for migrate needs Enchanged data model template```
 
-There are specific templates, like the ones mentioned below, that necessitate the presence of matching enhanced data model packages to ensure the proper functioning of the migrated website. To obtain these enhanced data model packages, users are required to create a new site for the corresponding template (the environment should be enabled for the enhanced data model), which will provide enhanced data model compatible solutions for migration.
-
-- Program registration
-- Schedule and manage meetings
+There are specific templates, such as Program registration and Schedule and Manage meetings, which require matching enhanced data model packages to ensure the migrated website functions properly. To obtain these enhanced data model packages, you must create a new site for the corresponding template (the environment should be enabled for the enhanced data model) to provide enhanced data model compatible solutions for migration.
 
 ### Supported templates for migration
 
@@ -191,7 +190,7 @@ To fix this customization in enhanced data model, replace the adx table referenc
 
 **Standard data model:** ```entities``` liquid tag is used to access **weblinks** values in ```{% assign app_weblinks= entities['adx_weblinks'] %}``` code.
 
-**Enhanced data model:** Instead of using weblinks via ```entities``` liquid tag, use respective [liquid objects](../configure/liquid/liquid-objects.md). ```entities[adx_weblinks]``` direclty. In this case ```entities['adx_weblinks']``` can be replace with ```weblinks``` liquid object. 
+**Enhanced data model:** Instead of using weblinks via ```entities``` liquid tag, use respective [liquid objects](../configure/liquid/liquid-objects.md). ```entities[adx_weblinks]``` directly. In this case ```entities['adx_weblinks']``` can be replaced with ```weblinks``` liquid object. 
 
 ### Adx table references in fetch xml
 
@@ -224,6 +223,7 @@ To fix this customization in enhanced data model, replace the adx table referenc
 ```
 
 #### Site component type and values
+
 | Component Type                   |Value|
 | -------------------------------- | -- |
 | Publishing State                 | 1  |
@@ -261,7 +261,7 @@ To fix this customization in enhanced data model, replace the adx table referenc
 
 To fix this customization in enhanced data model, the workflow and plugin logic needs to refactored and re-registered on the site's respective table. 
 
-For instance, if a user has registered the workflow/plugin to the **Primary Entity** as **Web Page** (logical name ```adx_webpage```) table in the standard data model, then the code within the workflow/plugin must be modified to **Site Component** (logical name ```powerpagecomponent```) table and its attributes for the enhanced data model.
+For instance, if a user registered the workflow/plugin to the **Primary Entity** as **Web Page** (logical name ```adx_webpage```) table in the standard data model, then the code within the workflow/plugin must be modified to **Site Component** (logical name ```powerpagecomponent```) table and its attributes for the enhanced data model.
 
 :::image type="content" source="media/enhanced-data-model/workflow-and-plugins-on-adx-tables.png" alt-text="Use Site Component table within workflow and its attributes for the enhanced data model":::
 
