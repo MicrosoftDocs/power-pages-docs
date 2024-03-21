@@ -261,7 +261,9 @@ To fix this customization in enhanced data model, replace the adx table referenc
 
 To fix this customization in enhanced data model, the workflow and plugin logic needs to refactored and re-registered on the site's respective table. 
 
-For instance, if a user has registered the workflow/plugin to the **Primary Entity** as ```adx_webpage``` in the standard data model, then the code within the workflow/plugin must be modified to ```powerpagecomponent``` and its attributes for the enhanced data model.
+For instance, if a user has registered the workflow/plugin to the **Primary Entity** as **Web Page** (logical name ```adx_webpage```) table in the standard data model, then the code within the workflow/plugin must be modified to **Site Component** (logical name ```powerpagecomponent```) table and its attributes for the enhanced data model.
+
+:::image type="content" source="media/enhanced-data-model/workflow-and-plugins-on-adx-tables.png" alt-text="Use Site Component table within workflow and its attributes for the enhanced data model":::
 
 ## Known issues
 
