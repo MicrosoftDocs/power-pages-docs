@@ -16,8 +16,6 @@
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
-        - name: Use enhanced data model
-          href: admin/enhanced-data-model.md
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
@@ -222,6 +220,12 @@
         href: getting-started/copresence.md
       - name: Add comments to pages (preview)
         href: getting-started/add-comments-to-pages.md
+    - name: Enhanced data model 
+      items:
+        - name: Use enhanced data model
+          href: admin/enhanced-data-model.md
+        - name: Migrate sites to enhanced data model (preview)
+          href: admin/migrate-enhanced-data-model.md
 - name: Administer Power Pages
   items:
     - name: Use the admin center
