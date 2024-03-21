@@ -173,7 +173,7 @@ To fix this customization in enhanced data model, create a relationship between 
 
 **Standard data model:** The table ```adx_webpage``` contains a custom column as ```contoso_pagetype```.
 
-**Enhanced data model:** Create a new table named ```contoso_webpage```. This will include a column called ```contoso_pagetype``` and a lookup column ```contoso_webpage_id``` that is associated with ```powerpagescomponent```. Utilize the [Data workspace](../getting-started/use-data-workspace) for table creation. 
+**Enhanced data model:** Create a new table named ```contoso_webpage```. This will include a column called ```contoso_pagetype``` and a lookup column ```contoso_webpage_id``` that is associated with ```powerpagescomponent```. Utilize the [Data workspace](../getting-started/use-data-workspace.md) for table creation. 
 
 ### Relationship between custom tables and adx tables
 
@@ -181,7 +181,7 @@ To fix this customization in enhanced data model, create a relationship between 
 
 **Standard data model:** The table ```adx_webpage`` has a relationship named ```adx_webpage_contoso_pagelogs``` with the ```contoso_pagelogs``` table.
 
-**Enhanced data model:** Create a new relationship named ```powerpagecomponent_contoso_pagelogs``` with the ```contoso_webpage``` table. Utilize the [Data workspace](../getting-started/use-data-workspace) for table creation. 
+**Enhanced data model:** Create a new relationship named ```powerpagecomponent_contoso_pagelogs``` with the ```contoso_webpage``` table. Utilize the [Data workspace](../getting-started/use-data-workspace.md) for table creation. 
 
 ### Adx table references in liquid code snippet
 
@@ -189,7 +189,7 @@ To fix this customization in enhanced data model, replace the adx table referenc
 
 **Standard data model:** ```entities``` liquid tag is used to access **weblinks** values in ```{% assign app_weblinks= entities['adx_weblinks'] %}``` code.
 
-**Enhanced data model:** Instead of using weblinks via ```entities``` liquid tag, use respective [liquid objects](../configure/liquid/liquid-objects). ```entities[adx_weblinks]``` direclty. In this case ```entities['adx_weblinks']``` can be replace with ```weblinks``` liquid object. 
+**Enhanced data model:** Instead of using weblinks via ```entities``` liquid tag, use respective [liquid objects](../configure/liquid/liquid-objects.md). ```entities[adx_weblinks]``` direclty. In this case ```entities['adx_weblinks']``` can be replace with ```weblinks``` liquid object. 
 
 ### Adx table references in fetch xml
 
