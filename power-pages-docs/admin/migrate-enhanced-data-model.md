@@ -179,7 +179,7 @@ To fix this customization in enhanced data model, create a relationship between 
 
 To fix this customization in enhanced data model, create a relationship between custom tables and system tables.
 
-**Standard data model:** The table ```adx_webpage`` has a relationship named ```adx_webpage_contoso_pagelogs``` with the ```contoso_pagelogs``` table.
+**Standard data model:** The table ```adx_webpage``` has a relationship named ```adx_webpage_contoso_pagelogs``` with the ```contoso_pagelogs``` table.
 
 **Enhanced data model:** Create a new relationship named ```powerpagecomponent_contoso_pagelogs``` with the ```contoso_webpage``` table. Utilize the [Data workspace](../getting-started/use-data-workspace.md) for table creation. 
 
@@ -222,7 +222,6 @@ To fix this customization in enhanced data model, replace the adx table referenc
 ```
 
 #### Site component type and values
-
 | Component Type                   |Value|
 | -------------------------------- | -- |
 | Publishing State                 | 1  |
@@ -262,3 +261,6 @@ To fix this customization in enhanced data model, the workflow and plugin logic 
 
 For instance, if a user has registered the workflow/plugin to the **Primary Entity** as ```adx_webpage``` in the standard data model, then the code within the workflow/plugin must be modified to ```powerpagecomponent``` and its attributes for the enhanced data model.
 
+## Known issues
+
+The migration command is only processing a batch of 5K records from the standard data model to the enhanced data model. 
