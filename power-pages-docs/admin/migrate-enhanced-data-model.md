@@ -175,6 +175,8 @@ To fix this customization in enhanced data model, create a relationship between 
 
 **Enhanced data model:** Create a new table named ```contoso_webpage```. This will include a column called ```contoso_pagetype``` and a lookup column ```contoso_webpage_id``` that is associated with ```powerpagescomponent```. Utilize the [Data workspace](../getting-started/use-data-workspace.md) for table creation. 
 
+:::image type="content" source="media/enhanced-data-model/custom-columns-on-adx-metadata-tables.png" alt-text="Create contoso_webpage table in enhanced data model to fix code":::
+
 ### Relationship between custom tables and adx tables
 
 To fix this customization in enhanced data model, create a relationship between custom tables and system tables.
