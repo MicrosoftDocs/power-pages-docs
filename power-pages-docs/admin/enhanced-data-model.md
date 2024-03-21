@@ -33,7 +33,7 @@ The enhanced data model for Power Pages provides the following benefits:
 - Website configurations can be contained in solutions to provide smoother application lifecycle management (ALM) experiences.
 - Updates of Power Pages enhancements and bug fixes are improved.
 
-## Identify your site's data model
+## Determine whether your site is using the standard or enhanced data model
 
 There are several ways to determine which data model your site is using:
 
