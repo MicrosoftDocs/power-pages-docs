@@ -179,13 +179,13 @@ To fix this customization in enhanced data model, create a relationship between 
 
 To fix this customization in enhanced data model, create a relationship between custom tables and system tables.
 
-**Standard data model:** The table ```adx_webpage`` has a relationship named ```adx_webpage_contoso_pagelogs``` with the table ```contoso_pagelogs```.
+**Standard data model:** The table ```adx_webpage`` has a relationship named ```adx_webpage_contoso_pagelogs``` with the ```contoso_pagelogs``` table.
 
-**Enhanced data model:** Create a new relationship named ```powerpagecomponent_contoso_pagelogs``` with the table ```contoso_webpage```. Utilize the [Data workspace](../getting-started/use-data-workspace) for table creation. 
+**Enhanced data model:** Create a new relationship named ```powerpagecomponent_contoso_pagelogs``` with the ```contoso_webpage``` table. Utilize the [Data workspace](../getting-started/use-data-workspace) for table creation. 
 
 ### Adx table references in liquid code snippet
 
-To fix this customization in enhanced data model, replace the adx table references in liquid code with enhanced data model virtual tables mspp references or use **Site Component** (logical name ```powerpagecomponent```) table with **Component Type** (logical name ```powerpagecomponenttype```) attribute to identify respective references.   
+To fix this customization in enhanced data model, replace the adx table references in liquid code with enhanced data model virtual tables mspp references. Alternatively, you can use the **Site Component** (logical name ```powerpagecomponent```) table along with the **Component Type** (logical name ```powerpagecomponenttype```) attribute to retrieve the corresponding references.
 
 **Standard data model:** ```entities``` liquid tag is used to access **weblinks** values in ```{% assign app_weblinks= entities['adx_weblinks'] %}``` code.
 
@@ -193,9 +193,9 @@ To fix this customization in enhanced data model, replace the adx table referenc
 
 ### Adx table references in fetch xml
 
-To fix this customization in enhanced data model, replace the adx table references in fetch xml with enhanced data model virtual tables direct references or use **Site Component** (logical name ```powerpagecomponent```) table with **Component Type** (logical name ```powerpagecomponenttype```) attribute to identify respective references.  
+To fix this customization in enhanced data model, replace the adx table references in fetch xml with enhanced data model virtual tables direct references. Alternatively, you can use the **Site Component** (logical name ```powerpagecomponent```) table along with the **Component Type** (logical name ```powerpagecomponenttype```) attribute to retrieve the corresponding references.
 
-**Standard data model:** ```adx_webrole``` table name is used inside fetch xml query.
+**Standard data model:** The table name ```adx_webrole``` is used within the fetch xml query.
 
 ```xml
 {% fetchxml app_webroles %}
@@ -207,7 +207,7 @@ To fix this customization in enhanced data model, replace the adx table referenc
 {% endfetchxml %}
 ```
 
-**Enhanced data model:** Use **Site Component** (logical name ```powerpagecomponent```) with **Component Type** (logical name ```powerpagecomponenttype```) attribute to fetch respective references.
+**Enhanced data model:** Use **Site Component** (logical name ```powerpagecomponent```) in conjunction with the **Component Type** (logical name ```powerpagecomponenttype```) attribute to retrieve the corresponding references.
 
 ```xml
 {% fetchxml app_webroles %}
@@ -260,5 +260,5 @@ To fix this customization in enhanced data model, replace the adx table referenc
 
 To fix this customization in enhanced data model, the workflow and plugin logic needs to refactored and re-registered on the site's respective table. 
 
-For example, if user has register the workflow/plugin to **Primary Entity** as ```adx_webpage``` in standard data model. Then similarly for enhanced data model the code inside workflow/plugin needs to change to ```powerpagecomponent``` and its attributes.
+For instance, if a user has registered the workflow/plugin to the **Primary Entity** as ```adx_webpage``` in the standard data model, then the code within the workflow/plugin must be modified to ```powerpagecomponent``` and its attributes for the enhanced data model.
 
