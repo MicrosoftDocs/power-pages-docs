@@ -169,20 +169,96 @@ There are five types of site customizations on adx metadata tables:
 
 ### Custom columns on adx metadata tables 
 
-To fix this customization, create a relationship between system tables and new custom table and migrate the data to the new table. 
+To fix this customization in enhanced data model, create a relationship between system tables and new custom table and migrate the data to the new table. 
+
+**Standard data model:** The table ```adx_webpage``` contains a custom column as ```contoso_pagetype```.
+
+**Enhanced data model:** Create a new table named ```contoso_webpage```. This will include a column called ```contoso_pagetype``` and a lookup column ```contoso_webpage_id``` that is associated with ```powerpagescomponent```. Utilize the [Data workspace](../getting-started/use-data-workspace) for table creation. 
 
 ### Relationship between custom tables and adx tables
 
-To fix this customization, create a relationship between custom tables and system tables.
+To fix this customization in enhanced data model, create a relationship between custom tables and system tables.
+
+**Standard data model:** The table ```adx_webpage`` has a relationship named ```adx_webpage_contoso_pagelogs``` with the table ```contoso_pagelogs```.
+
+**Enhanced data model:** Create a new relationship named ```powerpagecomponent_contoso_pagelogs``` with the table ```contoso_webpage```. Utilize the [Data workspace](../getting-started/use-data-workspace) for table creation. 
 
 ### Adx table references in liquid code snippet
 
-To fix this customization, replace the adx table references in liquid code with enhanced data model virtual tables mspp references.  
+To fix this customization in enhanced data model, replace the adx table references in liquid code with enhanced data model virtual tables mspp references or use **Site Component** (logical name ```powerpagecomponent```) table with **Component Type** (logical name ```powerpagecomponenttype```) attribute to identify respective references.   
+
+**Standard data model:** ```entities``` liquid tag is used to access **weblinks** values in ```{% assign app_weblinks= entities['adx_weblinks'] %}``` code.
+
+**Enhanced data model:** Instead of using weblinks via ```entities``` liquid tag, use respective [liquid objects](../configure/liquid/liquid-objects). ```entities[adx_weblinks]``` direclty. In this case ```entities['adx_weblinks']``` can be replace with ```weblinks``` liquid object. 
 
 ### Adx table references in fetch xml
 
-To fix this customization, replace the adx table references in fetch xml with enhanced data model virtual tables mspp references.  
+To fix this customization in enhanced data model, replace the adx table references in fetch xml with enhanced data model virtual tables direct references or use **Site Component** (logical name ```powerpagecomponent```) table with **Component Type** (logical name ```powerpagecomponenttype```) attribute to identify respective references.  
+
+**Standard data model:** ```adx_webrole``` table name is used inside fetch xml query.
+
+```xml
+{% fetchxml app_webroles %}
+<fetch>
+ <entity name='adx_webrole'>
+  <attribute name='adx_name'/>
+ <entity>
+</fetch>
+{% endfetchxml %}
+```
+
+**Enhanced data model:** Use **Site Component** (logical name ```powerpagecomponent```) with **Component Type** (logical name ```powerpagecomponenttype```) attribute to fetch respective references.
+
+```xml
+{% fetchxml app_webroles %}
+<fetch>
+ <entity name='powerpagecomponent'>
+  <attribute name='adx_name'/>
+  <filter type='and'>
+   <condition attribute ='powerpagecomponenttype' operator ='eq' value ='11'/>
+  <entity>
+</fetch>
+{% endfetchxml %}
+```
+
+#### Site component type and values
+
+| Component Type                   |Value|
+| -------------------------------- | -- |
+| Publishing State                 | 1  |
+| Web Page                         | 2  |
+| Web File                         | 3  |
+| Web Link Set                     | 4  |
+| Web Link                         | 5  |
+| Page Template                    | 6  |
+| Content Snippet                  | 7  |
+| Web Template                     | 8  |
+| Site Setting                     | 9  |
+| Web Page Access Control Rule     | 10 |
+| Web Role                         | 11 |
+| Website Access                   | 12 |
+| Site Marker                      | 13 |
+| Basic Form                       | 15 |
+| Basic Form Metadata              | 16 |
+| List                             | 17 |
+| Table Permission                 | 18 |
+| Advanced Form                    | 19 |
+| Advanced Form Step               | 20 |
+| Advanced Form Metadata           | 21 |
+| Poll Placement                   | 24 |
+| Ad Placement                     | 26 |
+| Bot Consumer                     | 27 |
+| Column Permission Profile        | 28 |
+| Column Permission                | 29 |
+| Redirect                         | 30 |
+| Publishing State Transition Rule | 31 |
+| Shortcut                         | 32 |
+| Cloud Flow                       | 33 |
+| UX Component                     | 34 |
 
 ### Custom workflow and plugins on adx tables
 
-To fix this customization, the workflow and plugin logic needs to refactored and re-registered on the site's respective table. 
+To fix this customization in enhanced data model, the workflow and plugin logic needs to refactored and re-registered on the site's respective table. 
+
+For example, if user has register the workflow/plugin to **Primary Entity** as ```adx_webpage``` in standard data model. Then similarly for enhanced data model the code inside workflow/plugin needs to change to ```powerpagecomponent``` and its attributes.
+
