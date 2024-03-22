@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/11/2023
+ms.date: 03/21/2024
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: kkendrick
@@ -17,7 +17,7 @@ contributors:
 
 # Enhanced data model 
 
-The standard data model was built by using custom tables, and it was optimized for the configuration of each website component that is stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the different solutions, tables, and metadata when a new site is provisioned. Updates to website tables in the standard model require manual and time-consuming application of package updates.
+The standard data model was built by using custom tables, and it was optimized for the configuration of each website component that is stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires more time to load the different solutions, tables, and metadata when a new site is provisioned. Updates to website tables in the standard model require manual and time-consuming application of package updates.
 
 >[!NOTE]
 > - All new sites will be created by default using the enhanced data model. 
@@ -30,7 +30,7 @@ The enhanced data model for Power Pages provides the following benefits:
 
 - Website provisioning is faster.
 - Design studio experiences are faster.
-- Website configurations can be contained in solutions to provide smoother application lifecyle management (ALM) experiences.
+- Website configurations can be contained in solutions to provide smoother application lifecycle management (ALM) experiences.
 - Updates of Power Pages enhancements and bug fixes are improved.
 
 ## Determine whether your site is using the standard or enhanced data model
@@ -86,6 +86,13 @@ Nonconfiguration tables are feature-specific tables that contain transactional b
 - Invitation Redemption
 - Setting
 - WebFormSession
+
+> [!NOTE]
+> These tables have been removed from the enhanced data model and will not be available in the [Power Pages Management app](#edit-a-site-by-using-the-power-pages-management-app):
+>  - Ad
+>  - Poll
+>  - Poll Option
+>  - Poll Submission
 
 ## Virtual tables
 
@@ -147,7 +154,7 @@ You can view newly created sites from the Power Pages home page.
 
 Sites that use the enhanced data model have functional parity with sites that use the standard data model. To determine which data model your website is using, go to the [Determine whether your site is using the standard or enhanced data model](#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model) section.
 
-The **Active sites** section of the Power Pages home page lists all the available sites. The list shows both sites that use the standard data model and sites that use the enhanced data model, regardless of whether the enhanced data model has been enabled for the environment.
+The **Active sites** section of the Power Pages home page lists all the available sites. The list shows both sites that use the standard data model and sites that use the enhanced data model, regardless of whether the enhanced data model is enabled for the environment.
 
 ## Edit a new site that uses the enhanced data model
 
@@ -195,7 +202,7 @@ For more information, go to [Power Platform CLI parameters](../configure/power-p
 
 ### How can I update a website from the standard data model to the enhanced data model?
 
-Guidance and tooling support to help you update from the standard data model to the enhanced data model will be provided in a later update.
+For guidance and tooling support to help you update from the standard data model to the enhanced data model, go to [Migrate standard data model sites to enhanced data mode](./migrate-enhanced-data-model.md).
 
 ### Can I edit new sites that are based on enhanced data model configurations in the Portal Management app?
 
