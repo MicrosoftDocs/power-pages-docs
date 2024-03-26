@@ -16,8 +16,6 @@
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
-        - name: Use enhanced data model
-          href: admin/enhanced-data-model.md
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
@@ -182,7 +180,7 @@
           items:
             - name: Bootstrap overview
               href: configure/bootstrap-overview.md
-            - name: Enable Bootstrap version 5 in your environment (preview)
+            - name: Create new sites with Bootstrap version 5
               href: configure/bootstrap-version-5.md
             - name: Migrate existing sites to Bootstrap version 5 (preview)
               href: configure/migrate-bootstrap.md
@@ -194,7 +192,7 @@
           href: getting-started/use-data-workspace.md
         - name: Create and modify tables
           href: configure/data-workspace-tables.md
-        - name: Create and modify virtual tables (preview)
+        - name: Create and modify virtual tables 
           href: configure/data-workspace-virtual-tables.md
         - name: Create and modify views
           href: configure/data-workspace-views.md
@@ -210,7 +208,7 @@
             href: getting-started/enable-chatbot.md
           - name: Generate answers from public data using Bing search
             href: getting-started/force-bing-index.md
-          - name: Replace AI-powered chatbot with a Power Virtual Agents bot
+          - name: Replace AI-powered chatbot with a Microsoft Copilot Studio bot
             href: getting-started/pva-bot-how-to.md
         - name: Progressive web applications
           items:
@@ -224,8 +222,12 @@
         href: getting-started/copresence.md
       - name: Add comments to pages (preview)
         href: getting-started/add-comments-to-pages.md
-    - name: Power Pages design studio and Power Apps portals Studio
-      href: configure/editing-sites.md
+    - name: Enhanced data model 
+      items:
+        - name: Use enhanced data model
+          href: admin/enhanced-data-model.md
+        - name: Migrate sites to enhanced data model (preview)
+          href: admin/migrate-enhanced-data-model.md
 - name: Administer Power Pages
   items:
     - name: Use the admin center
@@ -376,8 +378,6 @@
           href: configure/enable-multiple-language-support.md
         - name: Behavior and format of the Duration, Date and Time fields
           href: configure/behavior-format-date-time-field.md
-      - name: Setup HTTP headers
-        href: configure/cors-support.md
       - name: Configure advertisements
         href: configure/create-run-advertisement.md
       - name: Configure choices column
@@ -666,6 +666,10 @@
           href: security/column-permissions.md
         - name: Set website access permissions
           href: security/website-access-permission.md
+    - name: Setup HTTP headers
+      href: configure/cors-support.md
+    - name: Manage Content Security Policy
+      href: security/manage-content-security-policy.md
     - name: Web Application Firewall (preview)
       items:
         - name: Web Application Firewall overview

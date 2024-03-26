@@ -4,10 +4,10 @@ description: Power Pages is a secure, enterprise-grade, low-code SaaS platform f
 author: prvaidy
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/26/2023
+ms.date: 02/21/2024
 ms.subservice:
 ms.author: prvaidy
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - KumarVivek
@@ -29,10 +29,6 @@ Power Pages is the newest member of the Microsoft Power Platform family. With Po
 ## Try for free
 
 You can [try Power Pages](getting-started/trial-signup.md) for free to explore the features and capabilities to build your own business websites.
-
-## Power Apps portals and Dynamics 365 portals
-
-Power Apps portals and Dynamics 365 portals are now referred to as Power Pages. There's no migration or upgrade process. You can use the new [Power Pages design studio](getting-started/use-design-studio.md) to edit sites created in Power Apps. Existing tools such as the [Portals Management app](configure/portal-management-app.md) and [Power Platform CLI](configure/power-platform-cli-tutorial.md) work with Power Pages.
 
 ## Read next
 

@@ -1,7 +1,7 @@
 ---
 title: FAQ for Copilot for site creation
 description: This FAQ provides information about Copilot for site creation in Power Pages, along with key considerations for making use of this technology responsibly.
-ms.date: 09/26/2023
+ms.date: 03/06/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: Copilot-for-site-creation
@@ -38,7 +38,7 @@ Copilot for site creation underwent substantial testing before the feature was r
 ## What are the limitations of Copilot for site creation? How can users minimize the impact of the Copilot for site creation limitations when using the system?
 
 - This feature doesn’t support non-English language input.
-- This feature is available for preview in Dataverse environments that are located in United States or Europe regions only.
+- See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 - There's a limit on the number of tokens allowed in a query and response.
 - There's a limit of 250 characters to describe the site.
 - Once a home page layout is selected and more pages are selected to create a site, the site creation itself would take from 40 to 150 seconds for the site creation.
