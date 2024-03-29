@@ -21,7 +21,7 @@ You can create virtual tables using the following virtual connector providers in
 
 - [SQL Server](/connectors/sql/)
 - [Sharepoint](/connectors/sharepoint/)
-- [Salesforce](/connectors/salesforce/)
+- [Salesforce (Preview)](/connectors/salesforce/)
 
 :::image type="content" source="media/data-workspace-virtual-tables/create-virtual-table.png" alt-text="Create virtual table using Power Pages design studio from the Data workspace":::
 
