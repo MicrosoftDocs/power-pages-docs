@@ -26,10 +26,10 @@
       href: getting-started/preview-features-trial.md
 - name: Get started
   items:
+    - name: Create an AI-generated site using Copilot
+      href: getting-started/create-site-copilot.md
     - name: Create a site
       href: getting-started/create-manage.md
-    - name: Create an AI-generated site using Copilot (preview)
-      href: getting-started/create-site-copilot.md
     - name: Use developer sites
       href: getting-started/developer-sites.md
     - name: Get started with design studio
