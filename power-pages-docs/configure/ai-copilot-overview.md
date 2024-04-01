@@ -30,7 +30,7 @@ Watch this brief video to learn how Copilot can help you make business websites 
 
 > [!IMPORTANT]
 >
-> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
+> - Understand the [capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
 To learn how to use the new AI features in Power Pages, see:
 
