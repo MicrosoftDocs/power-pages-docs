@@ -1,5 +1,5 @@
 ---
-title: Overview of AI-powered and Copilot features in Power Pages (preview)
+title: Overview of AI-powered and Copilot features in Power Pages
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
 ms.date: 04/01/2024
@@ -18,9 +18,7 @@ ms.custom:
   - bap-template
 ---
 
-# Overview of AI-powered and Copilot features in Power Pages (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Overview of AI-powered and Copilot features in Power Pages
 
 Copilot is a set of next-generation AI enhancements that are revolutionizing how you build and launch business websites with Power Pages. Copilot simplifies creating forms, incorporating text, embedding chatbots, and other tasks with a user-friendly, conversational interface that doesn't require years of coding experience. It also offers site users and visitors an enhanced experience, shifting away from traditional click-based navigation and allowing them to uncover information and insights through engaging conversational interactions with your site.
 
@@ -32,8 +30,6 @@ Watch this brief video to learn how Copilot can help you make business websites 
 
 > [!IMPORTANT]
 >
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
 
 To learn how to use the new AI features in Power Pages, see:

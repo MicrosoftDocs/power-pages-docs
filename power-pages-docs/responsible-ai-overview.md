@@ -4,7 +4,7 @@ description: Responsible AI FAQs discusses AI technology in Power Pages and the 
 author: sandhangitmsft
 ms.topic: article
 ms.custom: responsible-ai-faqs
-ms.date: 04/28/2023
+ms.date: 04/01/2024
 ms.author: sandhan
 ms.reviewer: kkendrick
 ms.collection: 
