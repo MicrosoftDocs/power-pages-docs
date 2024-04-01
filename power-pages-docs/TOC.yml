@@ -140,10 +140,10 @@
               items:
                 - name: Add sections
                   href: getting-started/add-sections.md
+                - name: Add AI-generated text using Copilot
+                  href: getting-started/add-text-copilot.md
                 - name: Add text
                   href: getting-started/add-text.md
-                - name: Add AI-generated text using Copilot (preview)
-                  href: getting-started/add-text-copilot.md
                 - name: Add button
                   href: getting-started/add-button.md
                 - name: Add image
