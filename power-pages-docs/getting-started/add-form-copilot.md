@@ -1,8 +1,8 @@
 ---
-title: Add an AI-generated form using Copilot (preview)
+title: Add an AI-generated form using Copilot
 description: Learn how to create an AI-generated form using Copilot and add it to a page in your Power Pages site.
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 04/01/2024
 author: pranita225
 ms.author: prpadalw
 ms.reviewer: kkendrick
@@ -14,28 +14,13 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Add an AI-generated form using Copilot (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Add an AI-generated form using Copilot
 
 An easy way to add a form to your Power Pages website is to ask Copilot to create one for you. Describe the form you need. Copilot builds a form based on your description and offers a preview for you to check. You can [add the form](add-form.md) to your site as it is, edit it first, or start over with a different description.
 
-:::image type="content" source="media/add-form-copilot/describe-form.png" alt-text="Screenshot of the form creation page in the Copilot for Power Pages preview.":::
-
 > [!IMPORTANT]
 >
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - This feature doesn't support non-English language input.
-> - See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 > - To understand the capabilities and limitations of this feature, see [FAQ for creating AI-generated form or multistep form](../faqs-create-form.md)
-
-## Prerequisites
-
-To use AI-powered Copilot features in Power Pages:
-
-- Your environment must be located in the United States.
-- Your browser language must be set to US-English.
 
 ## Create a form with Copilot
 
@@ -51,14 +36,6 @@ To use AI-powered Copilot features in Power Pages:
 
 1. To add the form to the page, select **OK**.
 
-:::image type="content" source="media/add-form-copilot/generated-form.png" alt-text="Screenshot of an AI-generated form in Power Pages, with the description, quick actions, and history highlighted.":::
-
-Legend:
-
-1. Refine description
-1. Quick actions
-1. History
-
 When you add the form to the page, Power Pages creates the underlying form components for you in the background:
 
 - A [table](../configure/data-workspace-tables.md) and [form](../configure/data-workspace-forms.md) in Microsoft Dataverse
@@ -72,15 +49,9 @@ After the form is added to the page, you can edit it the same way you [edit any 
 
 You can start with a prebuilt form rather than enter your own description. Prebuilt forms that are appropriate for your website are listed on the form creation page.
 
-:::image type="content" source="media/add-form-copilot/prebuilt-forms.png" alt-text="Screenshot of the form generation page, with prebuilt forms highlighted.":::
-
 For example, here's the preview when you select the prebuilt scholarship application form:
 
-:::image type="content" source="media/add-form-copilot/scholarship-application-form.png" alt-text="Screenshot of the generated preview of a prebuilt scholarship form.":::
-
 Here's a preview of the prebuilt product customer support form:
-
-:::image type="content" source="media/add-form-copilot/customer-support-form.png" alt-text="Screenshot of the generated preview of a prebuilt customer support form.":::
 
 ## Delete an AI-generated form
 
@@ -93,8 +64,6 @@ If you remove an AI-generated form from the page it's on, it's still available f
 
 ### See also
 
-- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
-- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
-- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
-- [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)
+- [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
+- [Use Copilot to generate text and it to a webpage](../getting-started/add-text-copilot.md)
+
