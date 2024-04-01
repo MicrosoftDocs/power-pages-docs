@@ -20,10 +20,10 @@ contributors:
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
-- [FAQ for site creation (preview)](faqs-generate-site.md)
+- [FAQ for site creation](faqs-generate-site.md)
 - [FAQ for chatbot (preview)](faqs-chatbot.md)
-- [FAQ for generating text (preview)](faqs-generate-text.md)
-- [FAQ for creating form or multistep form (preview)](faqs-create-form.md) 
+- [FAQ for generating text](faqs-generate-text.md)
+- [FAQ for creating form or multistep form](faqs-create-form.md) 
 - [FAQ for Copilot for design studio](faqs-design-studio.md) 
 - [FAQ for code (preview)](faqs-pro-developer.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
