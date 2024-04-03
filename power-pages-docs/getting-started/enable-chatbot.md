@@ -1,5 +1,5 @@
 ---
-title: Add copilot to Power Pages site (preview)
+title: Add a copilot to your Power Pages site (preview)
 description: Learn how to add copilot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
 ms.date: 04/03/2024
@@ -19,7 +19,7 @@ ms.custom:
   - bap-template
 ---
 
-# Add an AI-powered chatbot (preview)
+# Add a copilot to your Power Pages site (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -41,7 +41,7 @@ To use AI-powered Copilot features in Power Pages:
 - Your environment must be located in the United States, Europe, United Kingdom, Australia, or India regions. Review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
 - Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
-- Copilot uses Microsoft Copilot Studio generative answers. Refer Copilot Studio [Quotas & Pricing](/microsoft-copilot-studio/nlu-boost-conversations#whats-supported) for more details.
+- Copilot uses Microsoft Copilot Studio generative answers. Refer to Copilot Studio [Quotas & Pricing](/microsoft-copilot-studio/nlu-boost-conversations#whats-supported) for more details.
 
 ## Add a copilot
 You can manually add a copilot by following below steps.
@@ -239,7 +239,7 @@ Text color:
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
 - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
 
-The default value of the tenant-level setting is ‘null’ which will behave as if the setting has been set to ‘true’ and creates the bot during site creation. The admin can set its value to ‘true’ or ‘false’.
+The default value of the tenant-level setting is ‘null’ which will behave as if the setting is set to ‘true’ and creates the bot during site creation. The admin can set its value to ‘true’ or ‘false’.
 
 To get the current value of the tenant-level setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command. For example:
 >
@@ -274,7 +274,7 @@ Set-TenantSettings -RequestBody $requestBody
 ### See also
 
 - [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
-- [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
+- [Create a form in a webpage using Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
 - [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
 - [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)
