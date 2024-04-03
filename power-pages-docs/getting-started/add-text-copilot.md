@@ -31,8 +31,6 @@ An easy way to add text to your Power Pages website is to ask Copilot to create 
 
 1. Describe the text that you want to Copilot to generate; for example, "I want to describe the benefits of student loan options at Contoso university." You can use up to 1,500 characters in your description.
 
-    :::image type="content" source="media/add-text-copilot/contoso-example-description.png" alt-text="Screenshot of the text generation box with a description entered.":::
-
 1. To send your description to Copilot, press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
 
 1. Check the preview below your description and refine the text as needed.
