@@ -28,7 +28,7 @@
   items:
     - name: Create an AI-generated site using Copilot
       href: getting-started/create-site-copilot.md
-    - name: Create a site
+    - name: Create a site manually
       href: getting-started/create-manage.md
     - name: Use developer sites
       href: getting-started/developer-sites.md
