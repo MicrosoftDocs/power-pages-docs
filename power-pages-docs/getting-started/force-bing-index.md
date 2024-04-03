@@ -23,18 +23,18 @@ You can generate answers from publicly available data by utilizing Bing search. 
 
 To use the Bing search
 1.	Open [Power Pages](https://make.powerpages.microsoft.com/)
-2.	Select site **+ Edit**.
-3.	Navigate to the **Set up** workspace, then select **Add copilot (preview)** under **Integrations**
-4.	Click on **View copilot analytics**
-5.	Select **Topics & Plugins**
-6.	Select the **System** topics tab.
-7.	Choose the **Conversational boosting** topic.
-8.	Navigate to **Create generative answers** node.
-9.	Select Edit under **Data sources**.
-10.	Enter URL under **Public websites** input box
-11.	Click **Save**
-12.	Navigate to the **Publish** left navigation link.
-13.	Select **Publish**.
+1.	Select site **+ Edit**.
+1.	Navigate to the **Set up** workspace, then select **Add copilot (preview)** under **Integrations**
+1.	Click on **View copilot analytics**
+1.	Select **Topics & Plugins**
+1.	Select the **System** topics tab.
+1.	Choose the **Conversational boosting** topic.
+1.	Navigate to **Create generative answers** node.
+1.	Select Edit under **Data sources**.
+1.	Enter URL under **Public websites** input box
+1.	Click **Save**
+1.	Navigate to the **Publish** left navigation link.
+1.	Select **Publish**.
 
 ## Force Bing webmaster to index your site
 When you add a site to Copilot, Bing may not start indexing your site immediately. It may take from several hours to a day. If you prefer not to wait for Bing to index your site, you can use Bing Webmaster Tools to expedite the indexing process and have your site's content indexed immediately.

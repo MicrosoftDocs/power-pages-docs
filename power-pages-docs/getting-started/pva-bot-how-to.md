@@ -24,7 +24,7 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 -  You must have a copilot created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
 
--  [Copilot](enable-chatbot.md#add-a-chatbot) must be created and published in the site where you're updating another copilot available in Microsoft Copilot Studio.
+-  [Copilot](enable-chatbot.md#add-a-copilot) must be created and published in the site where you're updating another copilot available in Microsoft Copilot Studio.
 
 ## Copy the copilot schema name
 
