@@ -142,7 +142,7 @@
                   href: getting-started/add-sections.md
                 - name: Add AI-generated text using Copilot
                   href: getting-started/add-text-copilot.md
-                - name: Add text
+                - name: Add text manually
                   href: getting-started/add-text.md
                 - name: Add button
                   href: getting-started/add-button.md
