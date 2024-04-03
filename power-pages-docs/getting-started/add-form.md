@@ -3,7 +3,7 @@ title: Add forms
 description: Add forms to your page in Power Pages.
 author: pranita225
 ms.topic: conceptual
-ms.date: 01/18/2023
+ms.date: 04/03/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
@@ -17,7 +17,9 @@ contributors:
 A form is a data-driven configuration that collects data in Power Pages sites. Forms on pages are created from Dataverse table forms. Dataverse table forms can be created by using the [Data workspace](use-data-workspace.md) or from [model-driven apps created in Power Apps](/power-apps/maker/model-driven-apps/form-designer-overview/). You can use them on pages or with [lists](add-list.md) to build a complete web application.
 
 > [!TIP]
-> We've created a series of tutorials and videos for you to learn to use Power Pages and how create and add a form to a page. For more information, go to [Tutorial: Add a form to a page](tutorial-add-form-to-page.md).
+> 
+> - You can [use Copilot to add forms to your Power Pages site](add-form-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages ](../configure/ai-copilot-overview.md).
+> - We've created a series of tutorials and videos for you to learn to use Power Pages and how create and add a form to a page. For more information, go to [Tutorial: Add a form to a page](tutorial-add-form-to-page.md).
 
 To add a form:
 
