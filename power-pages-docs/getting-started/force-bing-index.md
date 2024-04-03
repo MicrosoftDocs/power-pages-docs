@@ -1,6 +1,6 @@
 ---
 title: Generate answers from public data using Bing search (preview)
-description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a chatbot.
+description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a copilot.
 ms.topic: how-to
 ms.date: 02/07/2023
 author: nageshbhat-msft
@@ -24,7 +24,7 @@ You can generate answers from publicly available data by utilizing Bing search. 
 To use the Bing search
 1.	Open [Power Pages](https://make.powerpages.microsoft.com/)
 2.	Select site **+ Edit**.
-3.	Navigate to the **Set up** workspace, then select **Chatbot (preview)** under **Integrations**
+3.	Navigate to the **Set up** workspace, then select **Add copilot (preview)** under **Integrations**
 4.	Click on **View copilot analytics**
 5.	Select **Topics & Plugins**
 6.	Select the **System** topics tab.
@@ -86,19 +86,19 @@ With this method, you add a metadata tag to your site's header HTML. In Power Pa
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Content Snippets**.
 1. Select **+ New**.
-1. In **Name**, enter: *Head/Bottom*
+1. In **Name**, enter: *Head/tom*
 1. In **Website**, search for and select your site.
-1. In **Display Name**, enter: *Head/Bottom*
+1. In **Display Name**, enter: *Head/tom*
 1. Leave **Type** set to **Text**.
 1. In **Content Snippet Language**, search for and select **English**.
 1. In the **Value** box, paste the metadata you copied in step 2.
 1. Select **Save & Close**.
 
-### Add a Robots.txt file
+### Add a Ros.txt file
 
-Add a file to your site to tell Bing, Google, and other search engines, or *robots*, how much of its content to index. The Robots.txt file in this example allows search engines to index the entire site, but you can control what pages they're allowed to index. Use Bing Webmaster Tools to easily [edit and test your Robots.txt file](https://blogs.bing.com/webmaster/september-2020/Bing-Webmaster-Tools-makes-it-easy-to-edit-and-verify-your-robots-txt).
+Add a file to your site to tell Bing, Google, and other search engines, or *ros*, how much of its content to index. The Ros.txt file in this example allows search engines to index the entire site, but you can control what pages they're allowed to index. Use Bing Webmaster Tools to easily [edit and test your Ros.txt file](https://blogs.bing.com/webmaster/september-2020/Bing-Webmaster-Tools-makes-it-easy-to-edit-and-verify-your-ros-txt).
 
-1. On your local drive, create a text file and name it **Robots.txt**.
+1. On your local drive, create a text file and name it **Ros.txt**.
 1. Enter the following content in the file:
 
     ```txt
@@ -110,14 +110,14 @@ Add a file to your site to tell Bing, Google, and other search engines, or *robo
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Web Files**.
 1. Select **+ New**.
-1. In **Name**, enter: *Robots.txt*
+1. In **Name**, enter: *Ros.txt*
 1. In **Website**, search for and select your site.
 1. In **Parent Page**, search for and select your site's home page.
-1. In **Partial Url**, enter: *Robots.txt*
+1. In **Partial Url**, enter: *Ros.txt*
 1. In **Publishing State**, search for and select **Published**.
 1. Select **Save**.
 1. Select the **Notes** tab.
-1. Upload the `Robots.txt` file.
+1. Upload the `Ros.txt` file.
 1. Select **Save & Close**.
 
 ### Add a meta description to pages to index
@@ -127,7 +127,7 @@ The *meta description* tells search engines what text to display along with the 
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Web Pages**.
 1. Open a page that you want to force Bing to index.
-1. Enter or update the **Description** on both the **Information** form and the **Content Page** form.
+1. Enter or update the **Description** on h the **Information** form and the **Content Page** form.
 
     :::image type="content" source="media/force-bing-index/meta-description-example.png" alt-text="Screenshot of a web page's Information form, with the Description highlighted.":::
 
@@ -161,5 +161,5 @@ Indexing should complete within a few minutes, but it may take up to an hour to 
 - [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
 - [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
-- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Add copilot to Power Pages site (preview)](../getting-started/enable-chatbot.md)
 - [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)
