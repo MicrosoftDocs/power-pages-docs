@@ -65,7 +65,11 @@ Choose from the available options: <br />
 `- Yes, until I close this chat` <br />
 `- No, not now`
 
-You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. Once enabled, `Bing search is enabled` appears next to the icon. [link](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. Once enabled, `Bing search is enabled` appears next to the icon. 
+
+### See also
+
+[Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
 
 
