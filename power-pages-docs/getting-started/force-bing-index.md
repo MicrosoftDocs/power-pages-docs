@@ -94,11 +94,11 @@ With this method, you add a metadata tag to your site's header HTML. In Power Pa
 1. In the **Value** box, paste the metadata you copied in step 2.
 1. Select **Save & Close**.
 
-### Add a Ros.txt file
+### Add a Robots.txt file
 
-Add a file to your site to tell Bing, Google, and other search engines, or *ros*, how much of its content to index. The Ros.txt file in this example allows search engines to index the entire site, but you can control what pages they're allowed to index. Use Bing Webmaster Tools to easily [edit and test your Ros.txt file](https://blogs.bing.com/webmaster/september-2020/Bing-Webmaster-Tools-makes-it-easy-to-edit-and-verify-your-ros-txt).
+Add a file to your site to tell Bing, Google, and other search engines, or *robots*, how much of its content to index. The Robots.txt file in this example allows search engines to index the entire site, but you can control what pages they're allowed to index. Use Bing Webmaster Tools to easily [edit and test your Robots.txt file](https://blogs.bing.com/webmaster/september-2020/Bing-Webmaster-Tools-makes-it-easy-to-edit-and-verify-your-robots-txt).
 
-1. On your local drive, create a text file and name it **Ros.txt**.
+1. On your local drive, create a text file and name it **Robots.txt**.
 1. Enter the following content in the file:
 
     ```txt
