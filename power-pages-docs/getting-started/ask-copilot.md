@@ -57,7 +57,7 @@ Copilot generates an answer to your question. Depending on the question, the res
 
 ## Enable Bing search
 
-When you enter a question in the Copilot sidecar, you're prompted to enable Bing search if it isn't enabled already:
+When you enter a question in the Copilot sidecar, you're prompted to [enable Bing search](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1) if it isn't enabled already:
 
 `Some of the questions you ask may require Copilot to use Bing to search resources that are outside of your organization.  Is that okay?` <br />
 Choose from the available options: <br />
@@ -67,9 +67,6 @@ Choose from the available options: <br />
 
 You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. Once enabled, `Bing search is enabled` appears next to the icon. 
 
-### See also
-
-[Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
 
 
