@@ -111,4 +111,5 @@ If this is the last step of your multistep form, a submit button is enabled that
 
 - **Webhook**. The payments feature also configures a webhook on Stripe that is used to asynchronously update the status of payments that might take extra time for completion.    
     > [!NOTE]
-    > When a website is in private mode, this webhook may not be able to communicate with the Power Pages and hence you may receive emails from Stripe. This is intermittent behavior and once your website is switched to public mode, the webhook should be able to communicate successfully. 
+    > When a website is in private mode, this webhook may not be able to communicate with the Power Pages and hence you may receive emails from Stripe. This is intermittent behavior and once your website is switched to public mode, the webhook should be able to communicate successfully.
+
