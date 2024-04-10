@@ -212,7 +212,7 @@ You can use the new Power Pages Management app to edit new websites that are cre
 ## Known issues
 
 ### ALM
-Currently, Power Pages ALM doesn’t provide a way to assign different site settings values for different environments when deploying site data via solutions. The standard data model supports ALM via deployment profiles.
+Currently, Power Pages ALM doesn’t provide a way to assign different site settings values for different environments when you deploy site data via solutions. The standard data model supports ALM via deployment profiles.
 
 The ability to use environment variables for site settings is under consideration for a future update. To work around this limitation in the meantime, you can deploy enhanced data model sites with the [Microsoft Power Platform CLI](../configure/power-platform-cli.md) (command line interface). Alternatively, you can use equivalent Power Platform GitHub Actions or Power Platform Build Tools tasks in Microsoft Azure Pipelines. However, these approaches deploy the site objects in an unmanaged state.
 
