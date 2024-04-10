@@ -1,6 +1,6 @@
 ﻿---
-title: Replace AI-powered chatbot with a Power Virtual Agents bot
-description: Learn how to replace the default Power Pages AI chatbot with a Power Virtual Agents bot.
+title: Replace AI-powered chatbot with a Microsoft Copilot Studio bot
+description: Learn how to replace the default Power Pages AI chatbot with a Microsoft Copilot Studio bot.
 ms.topic: how-to
 ms.date: 11/30/2023
 author: nageshbhat-msft
@@ -14,21 +14,21 @@ ms.collection:
     - bap-ai-copilot
 ---
 
-# Replace AI-powered chatbot with a Power Virtual Agents bot
+# Replace AI-powered chatbot with a Microsoft Copilot Studio bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This article offers a comprehensive, step-by-step guide for updating default Power Pages AI chatbot with Power Virtual Agents bot.
+This article offers a comprehensive, step-by-step guide for updating default Power Pages AI chatbot with Copilot Studio bot.
 
 ## Prerequisites
 
--  You must have a bot created in [Power Virtual Agent](/power-virtual-agents/nlu-gpt-quickstart#create-a-boosted-bot).
+-  You must have a bot created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
 
--  Your [AI chatbot](enable-chatbot.md#add-a-chatbot) must be created and published in the site where you're updating the Power Virtual Agents bot.
+-  Your [AI chatbot](enable-chatbot.md#add-a-chatbot) must be created and published in the site where you're updating the Copilot Studio bot.
 
 ## Copy the bot schema name
 
-1. Sign in to [Power Virtual Agents](https://web.powerva.microsoft.com/).
+1. Sign in to [Microsoft Copilot Studio](https://web.powerva.microsoft.com/).
 
 1. Select the bot, which needs to be updated.
 

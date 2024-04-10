@@ -1,14 +1,14 @@
 ---
 title: Display product reviews as cards
 description: Learn how to create and manage web templates as product review cards in Power Pages.
-author: clromano
+author: ckwan-ms
 
 ms.topic: how-to
 ms.custom: 
 ms.date: 07/25/2023
 ms.subservice:
-ms.author: clromano
-ms.reviewer: ndoelman
+ms.author: ckwan
+ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - clromano

@@ -2,7 +2,7 @@
 title: Overview of AI-powered and Copilot features in Power Pages (preview)
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 02/12/2024
+ms.date: 04/01/2024
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -46,13 +46,14 @@ To learn how to use the new AI features in Power Pages, see:
 - [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
 - [Generate answers from public data using Bing search (preview)](../getting-started/force-bing-index.md)
 - [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
+- [Ask Copilot questions (preview)](../getting-started/ask-copilot.md)
 
 ## Prerequisites
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the United States or Europe regions.
 - Your browser language must be set to US-English.
+- See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 
 ## Turn off Copilot in Power Pages
 

@@ -1,12 +1,12 @@
 ---
 title: Style your Power Pages site
 description: Learn how to style your Power Pages site.
-author: clromano
+author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
 ms.date: 07/04/2023
 ms.subservice:
-ms.author: clromano
+ms.author: ckwan
 ms.reviewer: kkendrick
 contributors:
     - ankitavish

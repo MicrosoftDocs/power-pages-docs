@@ -2,7 +2,7 @@
 title: Add an AI-powered chatbot (preview)
 description: Learn how to add an AI-powered chatbot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 02/07/2023
+ms.date: 02/13/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
@@ -23,7 +23,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Power Virtual Agents](/power-virtual-agents/nlu-boost-conversations) bot on your site that uses *generative answers*&mdash;that is, natural language to answer questions and suggest solutions to issues in a conversational way.
+A chatbot with AI can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-boost-conversations) bot on your site that uses *generative answers*&mdash;that is, natural language to answer questions and suggest solutions to issues in a conversational way.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1cRVN]
 
@@ -32,19 +32,23 @@ A chatbot with AI can provide quick and efficient customer support to your site'
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - To understand the capabilities and limitations of this feature, see [FAQ for chatbot](../faqs-chatbot.md).
-> - Chatbot uses Power Virtual Agents generative answers. If you configure generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
+> - Chatbot uses Copilot Studio generative answers. If you configure generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
 
 ## Prerequisites
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the Europe, United Kingdom, Australia, or United States regions. Please review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
+- Your environment must be located in the United States, Europe, United Kingdom, Australia, or India regions. Review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
 - Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish bots with AI features** in the Power Platform admin center.
-- Chatbot uses Power Virtual Agent generative answers. Please refer Power Virtual Agents [Quotas & Pricing](/power-virtual-agents/nlu-boost-conversations#whats-supported) for more details.
+- Chatbot uses Microsoft Copilot Studio generative answers. Refer Copilot Studio [Quotas & Pricing](/microsoft-copilot-studio/nlu-boost-conversations#whats-supported) for more details.
 
 ## Add a chatbot
+You can manually add a chatbot by following below steps.
 
+> [!NOTE]
+> If a site meets the conditions outlined in the prerequisite section, the chatbot will be added to the site during site provisioning. If you prefer not to have the chatbot created by default, the [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can disable this capability at the tenant level, as described in the section [turn off default chatbot provision](/power-pages/getting-started/enable-chatbot#turn-off-default-chatbot-provision).  
+    
 1. Go to the [Set up workspace](../configure/setup-workspace.md).
 1. Under **Integrations,** select **Chatbot (preview)**
 
@@ -52,7 +56,7 @@ To use AI-powered Copilot features in Power Pages:
 
 1. Turn on **Create and test chatbot**.
 
-    Power Pages creates a [bot with generative answers conversation](/power-virtual-agents/nlu-boost-conversations) for you in Power Virtual Agents. 
+    Power Pages creates a [bot with generative answers conversation](/microsoft-copilot-studio/nlu-boost-conversations) for you in Copilot Studio. 
 
 1. To make the chatbot available to visitors and users, turn on **Publish chatbot on site**.
 
@@ -60,7 +64,7 @@ To use AI-powered Copilot features in Power Pages:
 
 ## Customize your chatbot
 
-When creating a chatbot for a website, the bot utilizes the content from the hosting site to generate responses. The Dataverse service facilitates the indexing of site content and configured tables, which are then summarized by Power Virtual Agents to generate responses.
+When creating a chatbot for a website, the bot utilizes the content from the hosting site to generate responses. The Dataverse service facilitates the indexing of site content and configured tables, which are then summarized by Copilot Studio to generate responses.
 
 Authenticated site users receive tailored, summarized answers that align with their web roles. To further improve the content model for authenticated site users, refine the data by following these steps: 
 
@@ -70,7 +74,7 @@ Authenticated site users receive tailored, summarized answers that align with th
     - You can select multiple tables in this section. Ensure that any table you select here's used on the site. 
     - On subsequent pages, you must specify the page where the table is used for generating the citation URL. 
 1. Choose **Next**. 
-1. Under the **Choose table**, select the table that contains the columns and page link you wish to select. The table will not appear unless it has at least one multi-line column.
+1. Under the **Choose table**, select the table that contains the columns and page link you wish to select. The table won't appear unless it has at least one multi-line column.
     - You can select one table at a time. 
 1. Under **Add page link**, select the page where table is used.  
 
@@ -227,6 +231,39 @@ Text color:
   font-weight: 400; 
 } 
 ```
+## Turn off default chatbot provisioning
+
+[Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Microsoft Entra roles can use a PowerShell script to change the tenant-level setting `enableChatbotOnWebsiteCreation`:
+
+- [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
+- [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
+- [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
+
+The default value of the tenant-level setting is ‘null’ which will behave as if the setting has been set to ‘true’ and creates the bot during site creation. The admin can set its value to ‘true’ or ‘false’.
+
+To get the current value of the tenant-level setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command. For example:
+>
+
+```powershell
+$myTenantSettings = Get-TenantSettings
+$ myTenantSettings.powerPlatform.powerPages
+```
+> [!NOTE]
+> The Get-TenantSettings command doesn't list tenant settings whose value is null. The default value of the tenant-level setting `enableChatbotOnWebsiteCreation` is null, so it doesn't appear the first time you run the script. After you set its value to `true` or `false`, the setting appears in the list.
+
+To set a value for `enableChatbotOnWebsiteCreation`, use the [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command. The following example sets the value to `false`:
+
+```powershell
+$requestBody = @{
+    powerPlatform = @{
+        powerPages = @{
+            enableChatbotOnWebsiteCreation = $false
+        }
+    }
+}
+Set-TenantSettings -RequestBody $requestBody
+```
+
 
 ## Known issues
 
