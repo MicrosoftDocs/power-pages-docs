@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/21/2024
+ms.date: 04/10/2024
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: kkendrick
@@ -13,6 +13,7 @@ contributors:
     - neerajnandwana-msft
     - gitanjalisingh33msft
     - professorkendrick
+    - DanaMartens
 ---
 
 # Enhanced data model 
@@ -207,6 +208,13 @@ For guidance and tooling support to help you update from the standard data model
 ### Can I edit new sites that are based on enhanced data model configurations in the Portal Management app?
 
 You can use the new Power Pages Management app to edit new websites that are created by using the enhanced data model.
+
+## Known issues
+
+### ALM
+Power Pages ALM doesn’t provide a way to define different site settings values across different environments while deploying site data using solutions. The standard data model supports ALM via deployment profiles.
+
+The ability to use environment variables for site settings is under consideration for a future update. To work around this limitation in the meantime, you can deploy Enhanced Data Model sites using the [Microsoft Power Platform CLI](../configure/power-platform-cli.md) (command line interface). Alternatively, you can use equivalent Power Platform GitHub Actions or Power Platform Build Tools tasks in Microsoft Azure Pipelines. However, these approaches deploy the site objects in an unmanaged state.
 
 ## See also
 
