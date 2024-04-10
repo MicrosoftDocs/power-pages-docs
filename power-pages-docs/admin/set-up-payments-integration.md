@@ -4,7 +4,7 @@ description: Learn how to set up Payments integration with your website.
 author: sandhangitms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/02/2024
+ms.date: 04/09/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -46,7 +46,7 @@ To accept payments on your Power Pages site, you must complete these steps: 
 1. Choose the **Install** action for Stripe. 
 1. Once the package installation is complete, restart the website from [Site Actions](admin-overview.md#site-actions) in the admin center.
 
-The installation action might take a few minutes. The action changes to enable once the installation is complete. 
+The installation action might take a few minutes. The action changes to manage once the installation is complete. 
 
 ## Step 2: Configure provider
 
@@ -54,7 +54,7 @@ Once you install the package, you can begin to configure Stripe for your Power P
 
 1. In the design studio, choose **Set up**.
 1. Select **Integrations**, and then select **External Apps**. 
-1. In the Integrations table, select the **Enable** action for Stripe. 
+1. In the Integrations table, select the **Manage** action for Stripe. 
 1. Go to the Stripe developer dashboard.
 
    From the API Keys tab, obtain the **Publishable** and **Secret Keys** required to enable this integration. 
@@ -62,9 +62,9 @@ Once you install the package, you can begin to configure Stripe for your Power P
     > [!NOTE]
     > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe. 
     > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys) 
-1. In the design studio, enter the Publishable and Secret keys respectively in the **Enable integration panel**. 
+1. In the design studio, enter the Publishable and Secret keys respectively in the **Enable Stripe panel**. 
 
-   :::image type="content" source="media/set-up-payments-integration/stripe-integration.svg" alt-text="A screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
+   :::image type="content" source="media/set-up-payments-integration/stripe-integration.svg" alt-text="A screenshot of the Enable Stripe panel inside the Set up workspace of Power Pages design studio.":::
 1. Choose **Save** and close the panel. 
 1. Select the **Sync** button. 
 
@@ -81,9 +81,9 @@ To enable payments, complete the following steps: 
 
    :::image type="content" source="media/set-up-payments-integration/form-step-settings.svg" alt-text="The Step settings options inside of the Pages workspace of Power Pages design studio.":::
 
-    - Select **Integrations**. 
+    - Select **App Integrations**. 
     - Switch the **Enable digital payments** toggle to the on position. 
-    - Select the currency type field on the table used to charge the amount that you want to collect from the site user.  
+    - In **Choose amount field** select the currency type field on the table used to charge the amount that you want to collect from the site user.  
     
     > [!NOTE]
     > Configuration of payment methods and more settings can be done directly in Stripe. They might require acceptance of other terms and configuration.
