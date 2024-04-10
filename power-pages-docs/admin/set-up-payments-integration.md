@@ -42,19 +42,19 @@ To accept payments on your Power Pages site, you must complete these steps: 
 ## Step 1: Install the package 
 
 1. In the design studio, choose **Set up**.
-1. Select **Integrations**, and then select **External apps**. 
-1. Choose the **Install** action for Stripe. 
+1. Under **Integrations**, select **External apps**.
+1. Choose the **Install** action for Stripe.
 1. Once the package installation is complete, restart the website from [Site Actions](admin-overview.md#site-actions) in the admin center.
 
 The installation action might take a few minutes. The action changes to manage once the installation is complete. 
 
 ## Step 2: Configure provider
 
-Once you install the package, you can begin to configure Stripe for your Power Pages site. 
+Once you install the package, you can begin to configure Stripe for your Power Pages site.
 
 1. In the design studio, choose **Set up**.
-1. Select **Integrations**, and then select **External Apps**. 
-1. In the Integrations table, select the **Manage** action for Stripe. 
+1. Under **Integrations**, select **External apps**.
+1. In the Integrations table, select the **Manage** action for Stripe.
 1. Go to the Stripe developer dashboard.
 
    From the API Keys tab, obtain the **Publishable** and **Secret Keys** required to enable this integration. 
