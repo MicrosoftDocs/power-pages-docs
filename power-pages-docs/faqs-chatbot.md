@@ -1,7 +1,7 @@
 ---
 title: FAQ for site copilot
 description: This FAQ to add copilot and the key considerations for making use of this technology responsibly.
-ms.date: 02/13/2024
+ms.date: 04/11/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
