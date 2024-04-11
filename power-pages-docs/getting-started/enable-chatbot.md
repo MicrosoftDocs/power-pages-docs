@@ -2,7 +2,7 @@
 title: Add a copilot to your Power Pages site (preview)
 description: Learn how to add copilot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 04/04/2024
+ms.date: 04/11/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick

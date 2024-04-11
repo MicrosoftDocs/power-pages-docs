@@ -2,7 +2,7 @@
 title: Generate answers from public data using Bing search (preview)
 description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a copilot.
 ms.topic: how-to
-ms.date: 02/07/2023
+ms.date: 04/11/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: kkendrick
@@ -86,9 +86,9 @@ With this method, you add a metadata tag to your site's header HTML. In Power Pa
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Content Snippets**.
 1. Select **+ New**.
-1. In **Name**, enter: *Head/tom*
+1. In **Name**, enter: *Head/Bottom*
 1. In **Website**, search for and select your site.
-1. In **Display Name**, enter: *Head/tom*
+1. In **Display Name**, enter: *Head/Bottom*
 1. Leave **Type** set to **Text**.
 1. In **Content Snippet Language**, search for and select **English**.
 1. In the **Value** box, paste the metadata you copied in step 2.
@@ -110,14 +110,14 @@ Add a file to your site to tell Bing, Google, and other search engines, or *robo
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Web Files**.
 1. Select **+ New**.
-1. In **Name**, enter: *Ros.txt*
+1. In **Name**, enter: *Robots.txt*
 1. In **Website**, search for and select your site.
 1. In **Parent Page**, search for and select your site's home page.
-1. In **Partial Url**, enter: *Ros.txt*
+1. In **Partial Url**, enter: *Robots.txt*
 1. In **Publishing State**, search for and select **Published**.
 1. Select **Save**.
 1. Select the **Notes** tab.
-1. Upload the `Ros.txt` file.
+1. Upload the `Robots.txt` file.
 1. Select **Save & Close**.
 
 ### Add a meta description to pages to index
@@ -127,7 +127,7 @@ The *meta description* tells search engines what text to display along with the 
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Web Pages**.
 1. Open a page that you want to force Bing to index.
-1. Enter or update the **Description** on h the **Information** form and the **Content Page** form.
+1. Enter or update the **Description** on both the **Information** form and the **Content Page** form.
 
     :::image type="content" source="media/force-bing-index/meta-description-example.png" alt-text="Screenshot of a web page's Information form, with the Description highlighted.":::
 
