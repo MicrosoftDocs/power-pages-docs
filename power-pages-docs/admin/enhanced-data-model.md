@@ -4,7 +4,7 @@ description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/10/2024
+ms.date: 04/11/2024
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: kkendrick
@@ -216,7 +216,7 @@ You can use the new Power Pages Management app to edit new websites that are cre
 Currently, Power Pages application lifecycle management (ALM) doesn’t provide a way to assign different site setting values for different environments when you deploy site data using solutions. The standard data model supports ALM using the deployment profiles. The ability to use environment variables for site settings is under consideration for a future update. To work around this limitation in the meantime, you can deploy enhanced data model sites with one of the following options:
 
 > [!NOTE]
-> The following methods will render site objects in an unmanaged state.
+> The following methods deploy site objects in an unmanaged state.
 
 - [Microsoft Power Platform CLI](../configure/power-platform-cli.md)
 - [GitHub Actions for Power Platform](/power-platform/alm/devops-github-actions)
