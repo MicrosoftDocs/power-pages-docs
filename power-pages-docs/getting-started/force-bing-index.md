@@ -86,9 +86,9 @@ With this method, you add a metadata tag to your site's header HTML. In Power Pa
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Content Snippets**.
 1. Select **+ New**.
-1. In **Name**, enter: *Head/bottom*
+1. In **Name**, enter: *Head/Bottom*
 1. In **Website**, search for and select your site.
-1. In **Display Name**, enter: *Head/bottom*
+1. In **Display Name**, enter: *Head/Bottom*
 1. Leave **Type** set to **Text**.
 1. In **Content Snippet Language**, search for and select **English**.
 1. In the **Value** box, paste the metadata you copied in step 2.
