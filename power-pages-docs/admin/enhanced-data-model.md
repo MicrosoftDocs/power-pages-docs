@@ -211,10 +211,11 @@ You can use the new Power Pages Management app to edit new websites that are cre
 
 ## Known issues
 
-### Limitation of deployment profiles in enhanced data model sites deployed via a solution
-Currently, Power Pages ALM doesn’t provide a way to assign different site settings values for different environments when you deploy site data via solutions. The standard data model supports ALM via deployment profiles.
+### Limitation of deployment profiles in enhanced data model sites deployed using a solution
 
-The ability to use environment variables for site settings is under consideration for a future update. To work around this limitation in the meantime, you can deploy enhanced data model sites with the [Microsoft Power Platform CLI](../configure/power-platform-cli.md) (command line interface). Alternatively, you can use equivalent Power Platform GitHub Actions or Power Platform Build Tools tasks in Microsoft Azure Pipelines. However, these approaches deploy the site objects in an unmanaged state.
+Currently, Power Pages application lifecycle management (ALM) doesn’t provide a way to assign different site setting values for different environments when you deploy site data using solutions. The standard data model supports ALM using the deployment profiles.
+
+The ability to use environment variables for site settings is under consideration for a future update. To work around this limitation in the meantime, you can deploy enhanced data model sites with the [Microsoft Power Platform CLI](../configure/power-platform-cli.md). You can also consider alternative approaches that deploy the site objects in an unmanaged state using [GitHub Actions for Power Platform](/power-platform/alm/devops-github-actions) or [Power Platform Build Tools for Azure DevOps](/power-platform/alm/devops-build-tools).
 
 ## See also
 
