@@ -1,5 +1,5 @@
 ---
-title: Ask Copilot questions in Power Pages (preview)
+title: Ask Copilot questions in Power Pages
 description: Get answers to questions using Copilot in Power Pages.
 author: ProfessorKendrick
 ms.topic: conceptual
@@ -15,19 +15,20 @@ contributors:
     - DanaMartens
 ---
 
-# Ask Copilot questions (preview)
+# Ask Copilot questions
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+An easy way to get support while building your Power Pages website is to ask Copilot for help. You can get started by asking Copilot for help questions that you usually search for in the documentation. Example questions you could ask would include:
 
-An easy way to get support while building your Power Pages website is to ask Copilot for help.
+* How do I add more colors to my style themes?
+* How do I bring my own data to my site?
+* What are custom solutions?
+
+Remember that you can only ask questions about building your website in Power Pages. If you're unable to get a response, try to ask again by rephrasing your question using smaller sentences. If you're still unsuccessful, you can always find help at
+https://docs.microsoft.com/power-pages.
 
 > [!IMPORTANT]
 >
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - This preview feature doesn't support non-English language input.
-> - This feature will be available for preview in the United States only.
-> - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
+> To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
 
 ## Prerequisites
 
@@ -43,6 +44,7 @@ To use this feature in Power Pages
 Ask Copilot questions and get responses while working inside the Pages workspace in Power Pages design studio.
 
 1. Go to the [Pages workspace](first-page.md).
+1. Select **Ask**.
 1. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field.
 
     If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
