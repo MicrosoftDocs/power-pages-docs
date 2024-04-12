@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/10/2022
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - ProfessorKendrick
