@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 04/11/2024
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
   - bap-ai-copilot
 contributors:
