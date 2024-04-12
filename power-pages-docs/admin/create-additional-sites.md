@@ -25,11 +25,11 @@ The template you choose for the new site determines your ability to create addit
 | [Environment with Dynamics 365 apps](/power-pages/templates/dynamics-365-apps/overview) | Community, Customer self-service, Employee self-service sites | 50 sites\*\* | No limits for language. Each site can have one or more languages enabled. \*\*\*
 | [Environment with Dynamics 365 apps](/power-pages/templates/dynamics-365-apps/overview) | Partner site, [Modern Community](/dynamics365/customer-service/community-get-started), Field Service customer, Order Returns, [Customer site for Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/customer-portal-overview) | one site for each template | Limit of one site template, but additional languages for each template can be enabled. \*\*\* |
 
-\* Requires Starter portal package version [9.3.2109.x or later](release-updates.md#starter-portal-package-updates)
+\* Requires Starter portal package version [9.3.2109.x or later](../release-updates.md)
 
-\*\* Requires Starter portal package version [9.3.2201.0 or later](release-updates.md#starter-portal-package-updates)
+\*\* Requires Starter portal package version [9.3.2201.0 or later](../release-updates.md)
 
-\*\*\* Additional languages can be enabled for individual sites, even if only one site type per environment is allowed. For more information about enabling additional languages for sites, go to [Enable multiple language support](./configure/enable-multiple-language-support.md).
+\*\*\* Additional languages can be enabled for individual sites, even if only one site type per environment is allowed. For more information about enabling additional languages for sites, go to [Enable multiple-language website support](../configure/enable-multiple-language-support.md).
 
 To enable multiple [Modern Community](/dynamics365/customer-service/community-get-started) sites, see [Create new websites in Community](/dynamics365/customer-service/community-create-websites).
 
