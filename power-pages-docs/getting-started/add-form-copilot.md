@@ -18,6 +18,8 @@ ms.custom: bap-template
 
 An easy way to add a form to your Power Pages website is to ask Copilot to create one for you. Describe the form you need. Copilot builds a form based on your description and offers a preview for you to check. You can [add the form](add-form.md) to your site as it is, edit it first, or start over with a different description.
 
+:::image type="content" source="media/add-form-copilot/describe-form.svg" alt-text="Screenshot of the form creation page in the Copilot for Power Pages preview.":::
+
 > [!IMPORTANT]
 >
 > - To understand the capabilities and limitations of this feature, see [FAQ for creating AI-generated form or multistep form](../faqs-create-form.md)
@@ -36,6 +38,14 @@ An easy way to add a form to your Power Pages website is to ask Copilot to creat
 
 1. To add the form to the page, select **OK**.
 
+    :::image type="content" source="media/add-form-copilot/generated-form.svg" alt-text="Screenshot of an AI-generated form in Power Pages, with the description, quick actions, and history highlighted.":::
+
+    Legend:
+
+    1. Refine description
+    1. Quick actions
+    1. History
+
 When you add the form to the page, Power Pages creates the underlying form components for you in the background:
 
 - A [table](../configure/data-workspace-tables.md) and [form](../configure/data-workspace-forms.md) in Microsoft Dataverse
@@ -49,9 +59,15 @@ After the form is added to the page, you can edit it the same way you [edit any 
 
 You can start with a prebuilt form rather than enter your own description. Prebuilt forms that are appropriate for your website are listed on the form creation page.
 
+:::image type="content" source="media/add-form-copilot/prebuilt-forms.svg" alt-text="Screenshot of the form generation page, with prebuilt forms highlighted.":::
+
 For example, here's the preview when you select the prebuilt scholarship application form:
 
+:::image type="content" source="media/add-form-copilot/scholarship-application-form.svg" alt-text="Screenshot of the generated preview of a prebuilt scholarship form.":::
+
 Here's a preview of the prebuilt product customer support form:
+
+:::image type="content" source="media/add-form-copilot/customer-support-form.svg" alt-text="Screenshot of the generated preview of a prebuilt customer support form.":::
 
 ## Delete an AI-generated form
 
