@@ -18,7 +18,8 @@ contributors:
 If you have purchased an older site add-on, and want to provision a site using the add-on, you must go to the **Dynamics 365 Administration Center** page and provision the site.
 
 > [!NOTE]
-> - To provision a site, you must be assigned either System Administrator or System Customizer role of the Microsoft Dataverse environment selected for the site. You must also have the [required permissions](/azure/active-directory/develop/howto-create-service-principal-site#required-permissions) to create and register an application in Microsoft Entra ID. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the site.
+> 
+> - To provision a site, you must be assigned either System Administrator or System Customizer role of the Microsoft Dataverse environment selected for the site. You must also have the [required permissions](/entra/identity-platform/howto-create-service-principal-portal#required-permissions) to create and register an application in Microsoft Entra ID. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the site.
 > - There can be only one site of each type and for a language created in an environment. For more information, see [Create additional sites in an environment](create-additional-sites.md).
 > - To learn about the roles required to create add-on sites, read [Roles required for website administration](admin-roles.md).
 
