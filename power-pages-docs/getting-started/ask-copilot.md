@@ -42,7 +42,7 @@ To use this feature in Power Pages
 Ask Copilot questions and get responses while working inside the Pages workspace in Power Pages design studio.
 
 1. Go to the [Pages workspace](first-page.md).
-1. Select **Ask**.
+1. Within the Copilot sidecar, select **Ask**.
 
     If the Ask option does not appear, your administrator may need to [allow Bing search](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
