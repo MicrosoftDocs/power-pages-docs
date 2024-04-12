@@ -15,9 +15,6 @@ contributors:
 
 # Provision a site using the older add-on
 
-
-[!INCLUDE[cc-pages-banner](../../includes/cc-pages-banner.md)]
-
 If you have purchased an older site add-on, and want to provision a site using the add-on, you must go to the **Dynamics 365 Administration Center** page and provision the site.
 
 > [!NOTE]
@@ -50,7 +47,7 @@ The table below summarizes the features associated with each site option:
 | Profile Management                     | *                            |                | *                            |                  |               |
 | Subscribe to Forum Thread              | *                            |                | *                            |                  |               |
 | Comments                               | *                            |                | *                            | *                |               |
-| [!INCLUDE[pn-azure-shortest](../../includes/pn-azure-shortest.md)] AD Authentication                |                              |                | *                            |                  |               |
+| Azure AD Authentication                |                              |                | *                            |                  |               |
 | Ideas                                  |                              |                |                              | *                |               |
 | Blogs                                  |                              |                |                              | *                |               |
 | Project Service Automation Integration |                              | *              |                              |                  |               |
@@ -59,7 +56,7 @@ The table below summarizes the features associated with each site option:
 | Site   Base                            |  *                           | *              |  *                           | *                | *             |
 | Site Workflows                         |  *                           | *              |  *                           | *                | *             |
 | Web Notifications                      |  *                           | *              |  *                           | *                | *             |
-| [!INCLUDE[cc-microsoft](../../includes/cc-microsoft.md)] Identity                     |     *                         |  *              |     *                         |   *               | *             |
+| Microsoft Identity                     |     *                         |  *              |     *                         |   *               | *             |
 | Identity Workflows                     | *                            |  *             |     *                         |   *               | *             |
 | Multistep Forms                              |  *                            | *               |    *                          | *                 | *             |
 | Feedback                               |   *                           |  *              |  *                            | *                 | *             |
