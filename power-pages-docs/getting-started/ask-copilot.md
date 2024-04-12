@@ -4,7 +4,7 @@ description: Get answers to questions using Copilot in Power Pages.
 author: ProfessorKendrick
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/04/2024
+ms.date: 04/12/2024
 ms.subservice:
 ms.author: kkendrick
 ms.reviewer: dmartens
@@ -34,17 +34,20 @@ https://docs.microsoft.com/power-pages.
 
 To use this feature in Power Pages
 
-- Your environment must be located in the United States.
-- Your browser language must be set to US-English.
-- When prompted by Copilot, select the `Ask` mode in the sidecar.
-- You must [enable Bing search](#enable-bing-search) to get answers to your questions using Copilot.
+* When prompted by Copilot, select the `Ask` mode in the sidecar.
+* You must [enable Bing search](#enable-bing-search) to get answers to your questions using Copilot.
 
-## Prompt Copilot 
+## Prompt Copilot
 
 Ask Copilot questions and get responses while working inside the Pages workspace in Power Pages design studio.
 
 1. Go to the [Pages workspace](first-page.md).
 1. Select **Ask**.
+
+    If the Ask option does not appear, your administrator may need to [allow Bing search](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+
+    :::image type="content" source="media/ask-copilot/ask-copilot-askmode.svg" alt-text="Screenshot of Power Pages Copilot sidecar with Ask option emphasized.":::
+
 1. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field.
 
     If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
@@ -59,20 +62,4 @@ Copilot generates an answer to your question. Depending on the question, the res
 
 ## Enable Bing search
 
-When you enter a question in the Copilot sidecar, you're prompted to [enable Bing search](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1) if it isn't enabled already:
-
-`Some of the questions you ask may require Copilot to use Bing to search resources that are outside of your organization.  Is that okay?` <br />
-Choose from the available options: <br />
-`- Yes, but just for this question` <br />
-`- Yes, until I close this chat` <br />
-`- No, not now`
-
-You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. Once enabled, `Bing search is enabled` appears next to the icon. 
-
-
-
-
-
- 
-
-
+When you enter a question in the Copilot sidecar, you're prompted to enable Bing search if it isn't enabled already. You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. Once enabled, `Bing search is enabled` appears next to the icon.
