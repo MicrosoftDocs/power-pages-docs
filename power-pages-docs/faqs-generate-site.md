@@ -7,7 +7,7 @@ ms.custom:
 ms.topic: Copilot-for-site-creation
 author: sampatn
 ms.author: sampatn
-ms.reviewer: ProfessorKendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:

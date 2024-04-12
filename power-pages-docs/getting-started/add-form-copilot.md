@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 03/06/2024
 author: pranita225
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:

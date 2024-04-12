@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/12/2023
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - nageshbhat-msft
