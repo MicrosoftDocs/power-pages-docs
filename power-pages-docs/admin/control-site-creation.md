@@ -26,9 +26,9 @@ Set-TenantSettings -RequestBody @{ "disablePortalsCreationByNonAdminUsers" = $tr
 
 Administrators are the users having one of the following Azure roles:
 
-- [Global Administrator](admin/portal-admin-roles.md#global-administrator)
-- [Dynamics 365 administrator](admin/portal-admin-roles.md#dynamics-365-administrator)
-- [Power Platform admin](admin/portal-admin-roles.md#power-platform-administrator)
+- [Global administrator](admin-roles.md#global-administrator)
+- [Dynamics 365 administrator](admin-roles.md#dynamics-365-administrator)
+- [Power Platform administrator](admin-roles.md#power-platform-administrator)
 
 Users without these Azure roles are considered non-administrators.
 
@@ -42,11 +42,11 @@ To enable site creation in a tenant, change the settings value from `$true` to `
 Set-TenantSettings -RequestBody @{ "disablePortalsCreationByNonAdminUsers" = $false }
 ```
 
-For more details about the required roles, and permissions to create a site, go to [Required roles and permissions](admin/portal-admin-roles.md#required-roles-and-permissions).
+For more details about the required roles, and permissions to create a site, see [Roles required for website administration](admin-roles.md).
 
 ## Next steps
 
-[Manage a portal](manage-existing-portals.md)
+[Manage sites](manage-sites.md)
 
 ### See also
 
