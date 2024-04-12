@@ -29,9 +29,13 @@ An easy way to add text to your Power Pages website is to ask Copilot to create 
 
 1. Go to the [Pages workspace](first-page.md) and select a page for your form.
 1. Select the **Text** component.
-1. In the text component toolbar, select the **Copilot** icon.
+1. In the text component toolbar, select **Copilot**.
+
+    :::image type="content" source="media/add-text-copilot/copilot-icon.png" alt-text="Screenshot of a text component in Power Pages, with the Copilot icon highlighted.":::
 
 1. Describe the text that you want to Copilot to generate; for example, "I want to describe the benefits of student loan options at Contoso university." You can use up to 1,500 characters in your description.
+
+    :::image type="content" source="media/add-text-copilot/contoso-example-description.png" alt-text="Screenshot of the text generation box with a description entered.":::
 
 1. To send your description to Copilot, press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
 
@@ -45,8 +49,10 @@ An easy way to add text to your Power Pages website is to ask Copilot to create 
 
 1. To add the text to the page, select **Add to page**.
 
+    :::image type="content" source="media/add-text-copilot/generated-text.png" alt-text="Screenshot of Copilot-generated text.":::
+
 > [!IMPORTANT]
-> 
+>
 > AI-generated text can contain mistakes or be otherwise inappropriate for your intended use. Always review, edit, and verify AI-generated text before you [change your site's visibility](../security/site-visibility.md) to public.
 
 After the text is added to the page, you can edit it the same way you [edit any page component](customize-pages.md).
