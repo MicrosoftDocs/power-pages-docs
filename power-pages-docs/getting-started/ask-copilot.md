@@ -23,8 +23,7 @@ An easy way to get support while building your Power Pages website is to ask Cop
 * How do I bring my own data to my site?
 * What are custom solutions?
 
-Remember that you can only ask questions about building your website in Power Pages. If you're unable to get a response, try to ask again by rephrasing your question using smaller sentences. If you're still unsuccessful, you can always find help at
-https://docs.microsoft.com/power-pages.
+Remember that you can only ask questions about building your website in Power Pages. If you're unable to get a response, try to ask again by rephrasing your question using smaller sentences. If you're still unsuccessful, you can always find help in the [Microsoft Power Pages documentation](../index.yml) .
 
 > [!IMPORTANT]
 >
@@ -34,7 +33,6 @@ https://docs.microsoft.com/power-pages.
 
 To use this feature in Power Pages
 
-* When prompted by Copilot, select the `Ask` mode in the sidecar.
 * You must [enable Bing search](#enable-bing-search) to get answers to your questions using Copilot.
 
 ## Prompt Copilot
