@@ -107,7 +107,7 @@
     - name: Manage sites
       href: admin/manage-sites.md
     - name: Create additional sites in an environment
-      href: 
+      href: admin/create-additional-sites.md
     - name: Reactivate sites
       href: admin/reactivate-website.md      
     - name: Learning hub
