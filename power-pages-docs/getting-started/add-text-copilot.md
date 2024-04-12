@@ -19,6 +19,8 @@ ms.custom: bap-template
 
 An easy way to add text to your Power Pages website is to ask Copilot to create it for you. Describe the text you need. Copilot generates copy based on your description and offers a preview for you to check. You can [add the text](add-text.md) to your site as it is, edit it first, or start over with a different description.
 
+:::image type="content" source="media/add-text-copilot/copilot-text.svg" alt-text="Screenshot of the text creation page in the Copilot for Power Pages preview.":::
+
 > [!IMPORTANT]
 >
 > - To understand the capabilities and limitations of this feature, see [FAQ for natural language to text](../faqs-generate-text.md).
