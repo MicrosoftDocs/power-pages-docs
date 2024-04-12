@@ -108,6 +108,8 @@
       href: admin/manage-sites.md
     - name: Create additional sites in an environment
       href: admin/create-additional-sites.md
+    - name: Control site creation in a tenant
+      href: admin/control-site-creation.md
     - name: Reactivate sites
       href: admin/reactivate-website.md      
     - name: Learning hub
