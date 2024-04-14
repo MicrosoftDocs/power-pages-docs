@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 04/11/2024
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
   - bap-ai-copilot
 contributors:
@@ -52,7 +52,7 @@ You can manually add a copilot by following below steps.
 1. Go to the [Set up workspace](../configure/setup-workspace.md).
 1. Under **Integrations,** select **Add copilot (preview)**
 
-    :::image type="content" source="media/enable-chatbot/select-chatbot.png" alt-text="Screenshot of the Chatbot (preview) page in Power Pages.":::
+    :::image type="content" source="media/enable-chatbot/select-copilot.png" alt-text="Screenshot of the copilot (preview) page in Power Pages.":::
 
 1. Turn on **Create copilot**.
 

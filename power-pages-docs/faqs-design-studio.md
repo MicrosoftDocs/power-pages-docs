@@ -6,7 +6,7 @@ ms.custom: responsible-ai-faqs
 ms.topic: article
 author: sandhangitmsft
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
