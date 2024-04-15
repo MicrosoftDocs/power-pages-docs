@@ -1,15 +1,16 @@
 ﻿---
 title: Web Application Firewall DRS rule groups and rules for Power Pages (preview)
 description: Learn about Web Application Firewall DRS rule groups and rules for Power Pages.
-author: nickdoelman
+author: nageshbhat-msftnickdoelman
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/10/2022
-ms.author: kkendrick
+ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - nageshbhat-msft
 ---
 
 # Web Application Firewall DRS rule groups and rules for Power Pages (preview)

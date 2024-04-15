@@ -1,15 +1,14 @@
 ﻿---
 title: Web Application Firewall overview 
 description: Learn about Web Application Firewall for Power Pages.
-author: nickdoelman
+author: nageshbhat-msft
 ms.topic: conceptual
-ms.custom: 
-ms.date: 04/15/2024
-ms.author: kkendrick
+ms.custom: nabha
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - nageshbhat-msft
 ---
 
 # Web Application Firewall (WAF) for Power Pages 

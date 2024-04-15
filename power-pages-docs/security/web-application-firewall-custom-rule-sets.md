@@ -1,14 +1,15 @@
 ---
 title: Configure Web Application Firewall custom rules
 description: 
-author: 
+author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/15/2024
-ms.author: kkendrick
+ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
+    - nageshbhat-msft
 ---
 # Configure Web Application Firewall custom rules
 
