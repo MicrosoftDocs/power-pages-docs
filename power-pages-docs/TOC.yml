@@ -670,7 +670,7 @@
       href: configure/cors-support.md
     - name: Manage Content Security Policy
       href: security/manage-content-security-policy.md
-    - name: Web Application Firewall (preview)
+    - name: Web Application Firewall
       items:
         - name: Web Application Firewall overview
           href: security/web-application-firewall.md
