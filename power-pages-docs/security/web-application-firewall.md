@@ -14,7 +14,7 @@ contributors:
 
 # Web Application Firewall (WAF) for Power Pages 
 
-Web Application Firewall (WAF) provides centralized protection for Power Pages sites, defending against common exploits and vulnerabilities by preventing malicious attacks before they enter the network.  By utilizing WAF, Power Pages sites receive global protection at a scale without sacrificing performance.
+Web Application Firewall (WAF) provides centralized protection for Power Pages sites, defending against common exploits and vulnerabilities by preventing malicious attacks before they enter the network. By utilizing WAF, Power Pages sites receive global protection at a scale without sacrificing performance.
 
 :::image type="content" source="media/web-application-firewall/waf-overview.png" alt-text="Diagram of the Web Application Firewall applied to Power Pages.":::
 
@@ -50,8 +50,8 @@ WAF custom rules empower users to craft their own regulations tailored to specif
 
 ### Next steps
 
-[Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
+[Configure Web Application Firewall for Power Pages](configure-web-application-firewall.md)
 
 ### See also
 
-[Web Application Firewall DRS rule groups and rules for Power Pages (preview)](web-application-firewall-rule-groups.md)
+[Web Application Firewall DRS rule groups and rules for Power Pages](web-application-firewall-rule-groups.md)
