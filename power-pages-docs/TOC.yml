@@ -680,6 +680,8 @@
           href: security/web-application-firewall-rule-groups.md
         - name: Web Application Firewall custom rule sets 
           href: security/web-application-firewall-custom-rule-sets.md
+        - name: Power Pages Web Application Firewall FAQ
+          href: security/waf-faq.yml
     - name: Power Pages security FAQ
       href: security/faq.yml
 - name: Go live
