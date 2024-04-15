@@ -21,6 +21,7 @@ You can create virtual tables using the following virtual connector providers in
 
 - [SQL Server](/connectors/sql/)
 - [Sharepoint](/connectors/sharepoint/)
+- [Microsoft Fabric (preview)](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/azure-synapse-link-view-in-fabric)
 
 :::image type="content" source="media/data-workspace-virtual-tables/create-virtual-table.png" alt-text="Create virtual table using Power Pages design studio from the Data workspace":::
 
