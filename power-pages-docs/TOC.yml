@@ -202,13 +202,13 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add an Ai-powered chatbot (preview)
+        - name: Add a copilot (preview)
           items:
-          - name: Add an AI-powered chatbot
+          - name: Add a copilot
             href: getting-started/enable-chatbot.md
           - name: Generate answers from public data using Bing search
             href: getting-started/force-bing-index.md
-          - name: Replace AI-powered chatbot with a Microsoft Copilot Studio bot
+          - name: Replace copilot with a Microsoft Copilot Studio copilot
             href: getting-started/pva-bot-how-to.md
         - name: Progressive web applications
           items:
