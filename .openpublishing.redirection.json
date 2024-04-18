@@ -109,6 +109,11 @@
       "source_path": "power-pages-docs/configure/editing-sites.md",
       "redirect_url": "/power-pages/configure/design-build-overview",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages/getting-started/default-template-workspace.md",
+      "redirect_url": "/power-pages/templates",
+      "redirect_document_id": "false"
     }
   ]
 }
