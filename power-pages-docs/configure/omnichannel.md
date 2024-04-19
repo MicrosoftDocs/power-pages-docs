@@ -45,9 +45,7 @@ You can access Copilot Studio directly from the Power Pages design studio.
 1. Select the **System** tab, then choose **Escalate**.
 1. Select  the **+** icon below the Message tile.
 1. Hover over **Topic management** and select **Transfer conversation**.
-1. Type the message you'd like displayed to the end user while transferring the call in the **Message to agent** text entry field.
-
-    Ex : Call transferred from chatbot to human agent
+1. Type the message you'd like displayed to the end user while transferring the call in the **Message to agent** text entry field. For example, `Call transferred from chatbot to human agent.`
 
 1. Select **Save**.
 1. In the left-hand menu, choose **Settings**, then select **Customer engagement hub**.
