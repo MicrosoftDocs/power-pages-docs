@@ -33,8 +33,9 @@ contributors:
 
 The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to Omnichannel. To achieve this functionality, you must [configure the copilot manually in Copilot Studio.](#configure-a-copilot-manually-in-copilot-studio). 
 
-You can access Copilot Studio directly from the [Set up workspace](setup-workspace.md) in Power Pages design studio:
+You can access Copilot Studio directly from the Power Pages design studio.
 
+1. Go to the [Set up workspace](setup-workspace.md).
 1. Under **Integrations,** select **Add copilot (preview)**.
 1. From the **Copilot analytics** section, choose **View copilot analytics**.
 
@@ -47,8 +48,6 @@ You can access Copilot Studio directly from the [Set up workspace](setup-workspa
 1. Type the message you'd like displayed to the end user while transferring the call in the **Message to agent** text entry field.
 
     Ex : Call transferred from chatbot to human agent
-
-    //ADD SCREENSHOT HERE
 
 1. Select **Save**.
 1. In the left-hand menu, choose **Settings**, then select **Customer engagement hub**.
