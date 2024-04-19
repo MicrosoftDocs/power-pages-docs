@@ -74,7 +74,7 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 
 1. Copy the script displayed in the **chat setup complete** step.
 
-You need this script to host the live widget on Power pages site.
+    You need this script to host the live widget on Power pages site.
 
 ## Enable Omnichannel live widget in Power Pages
 
