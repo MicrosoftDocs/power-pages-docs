@@ -76,7 +76,7 @@ You need this script to host the live widget on Power pages site
 
 1. Open the [Portal Management app](portal-management-app.md) for the selected site.
 1. Open Header [web template](web-templates.md) of the associated site.
-1. Add the live widget script copied in the previous steps using the [substitution liquid tag](liquid/template-tags.md#substitution).
+1. Use the [substitution liquid tag](liquid/template-tags.md#substitution) to add the live widget script you copied when you [completed the chatbot setup in Customer Service Admin Center](#complete-chatbot-setup-in-customer-service-admin-center).
 1. Save the template.
 1. In the left-hand menu, select **Site Settings**.
 1. Choose **+ New**.
