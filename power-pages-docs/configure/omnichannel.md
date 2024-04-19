@@ -51,7 +51,8 @@ You can access Copilot Studio directly from the Power Pages design studio.
 1. In the left-hand menu, choose **Settings**, then select **Customer engagement hub**.
 1. Select **Omnichannel**, then **Connect**.
 1. Once the Status is Connected, choose the **Close** button.
-1. In the left-hand menu, choose **Publish** and then select the **Publish** button.
+1. In the left-hand menu, choose **Publish**.
+1. Select the **Publish** button.
 
 ## Complete chatbot setup in Customer Service Admin Center
 
