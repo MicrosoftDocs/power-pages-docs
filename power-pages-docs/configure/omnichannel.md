@@ -13,51 +13,41 @@ contributors:
   - nageshbhat-msft
 ---
 
-[Omnichannel](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/introduction-omnichannel) provides enterprise to instantly connect and engage with their customers via live chat. Configuring omnichannel with Power Pages site copilot allow end users to escalate interaction with live agent when copilot doesn't able to answer the queries or user expecting a response which is not designed in the site.
+[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) provides enterprise to instantly connect and engage with their customers via live chat. Configuring omnichannel with Power Pages site copilot allow end users to escalate interaction with live agent when copilot doesn't able to answer the queries or user expecting a response which is not designed in the site.
 
-Below steps detail out configuring the omnichannel with Power Pages site copilot
+# Prerequisite
 
-# Pre-requisite
-
--   You must [add copilot to site](https://learn.microsoft.com/en-us/power-pages/getting-started/enable-chatbot#add-a-chatbot) in Power Pages studio
-
--   Dynamics 365 customer service app should be installed in the environment where site is created.
+- [Add copilot to your site](../getting-started/enable-chatbot.md#add-a-copilot) in Power Pages design studio.
+- Install Dynamics 365 customer service app in the environment where the site is created.
 
 # Configure agent hand-off in Copilot studio
 
-The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to omnichannel. To achieve this functionality, manual configuration through Copilot Studio is required.
+The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to omnichannel. To achieve this functionality, you must manually configure the copilot in Copilot Studio.
 
-1.  Go to the [Set up workspace](https://learn.microsoft.com/en-us/power-pages/configure/setup-workspace).
+1. Go to the [Set up workspace](setup-workspace.md).
+1. Under **Integrations,** select **Add copilot (preview)**.
+1.  Choose **View copilot analytics** from the **Copilot analytics** section.
+1. Navigate to **Topics**
+1. Select **System**, then choose **Escalate**.
+1. Select  **+ after Message**.
+1. Hover over **Topic management** and select **Transfer conversation**.
 
-2.  Under **Integrations,** select **Add copilot (preview)**
+    ![A screenshot of a computer Description automatically generated](media/image1.png)
 
-3.  Click **View copilot analytics** link in **Copilot analytics** section
+1. Add the message that needs to shown to the end user while transferring the call.
 
-4.  Navigate to **Topics**
+    Ex : Call transferred from chatbot to human agent
 
-5.  Select **System** tab & click on **Escalate** topic
+1. Select **Save**.
+1. Navigate to **Customer engagement hub** under **Settings**
 
-6.  Click on **+ after** **Message** node
+    ![A screenshot of a computer Description automatically generated](media/image2.png)
 
-7.  Mouse hover **Topic management** menu **and** select **Transfer conversation** node
+1. Select **Omnichannel**, then **Connect**.
 
-![A screenshot of a computer Description automatically generated](media/image1.png)
+    ![A screenshot of a computer Description automatically generated](media/image3.png)
 
-8.  Add message that needs to shown to the end user while transferring the call
-
-Ex : Call transferred from chatbot to human agent
-
-9.  Click **Save**
-
-10. Navigate to **Customer engagement hub** under **Settings**
-
-![A screenshot of a computer Description automatically generated](media/image2.png)
-
-11. Select **Omnichannel** and click on **connect**
-
-![A screenshot of a computer Description automatically generated](media/image3.png)
-
-12. Navigate to **Publish** and click on **Publish** button.
+1. Select the **Publish** button.
 
 # Complete chatbot setup in Customer Service Admin Centre
 
