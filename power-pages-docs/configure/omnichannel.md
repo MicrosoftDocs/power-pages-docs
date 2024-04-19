@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) provides enterprise to instantly connect and engage with their customers via live chat. Configuring omnichannel with Power Pages site copilot allow end users to escalate interaction with live agent when copilot doesn't able to answer the queries or user expecting a response which is not designed in the site.
+[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) provides enterprise to instantly connect and engage with their customers via live chat. Configuring Omnichannel with Power Pages site copilot allows your end users to escalate interaction with live agent when copilot isn't able to answer the queries or the user is expecting a response which is not designed in the site.
 
 > [!IMPORTANT]
 >
@@ -31,9 +31,9 @@ contributors:
 
 ## Configure agent hand-off in Copilot studio
 
-The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to Omnichannel. To achieve this functionality, you must [configure the copilot manually in Copilot Studio.](#configure-a-copilot-manually-in-copilot-studio). 
+The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to Omnichannel. 
 
-You can access Copilot Studio directly from the Power Pages design studio.
+To achieve this functionality, you must configure the copilot manually in Copilot Studio. You can access Copilot Studio directly from the Power Pages design studio.
 
 1. Go to the [Set up workspace](setup-workspace.md).
 1. Under **Integrations,** select **Add copilot (preview)**.
@@ -71,19 +71,10 @@ You need this script to host the live widget on Power pages site
 ## Enable Omnichannel live widget in Power Pages
 
 1. Open the [Portal Management app](portal-management-app.md) for the selected site.
-1. Open Header Web Template of the associated site.
-1. Add the live widget script copied in the previous steps as shown below between substitution liquid tag:
-
-    ```
-    {% substitution %}
-
-    {% endsubstitution %}
-    ```
-
-1. Save template
-
-1. Navigate to **Site Settings** and click **+ New**
-
-1. Create "*SiteCopilot/EnableOmniChannelWidget"* site setting and set value to true.
-
+1. Open Header [web template](web-templates.md) of the associated site.
+1. Add the live widget script copied in the previous steps between [substitution liquid tag](liquid/template-tags.md#substitution).
+1. Save the template.
+1. In the left-hand menu, select **Site Settings**.
+1. Choose **+ New**.
+1. Create "*SiteCopilot/EnableOmniChannelWidget"* site setting and set value to `true`.
 1. Save and preview the site.
