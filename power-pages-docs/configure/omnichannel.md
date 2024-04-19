@@ -26,7 +26,7 @@ contributors:
 
 ## Prerequisites
 
-- [Add copilot to your site](../getting-started/enable-chatbot.md#add-a-copilot) in Power Pages design studio.
+- [Add a copilot to your site](../getting-started/enable-chatbot.md#add-a-copilot) in Power Pages design studio.
 - Install Dynamics 365 customer service app in the environment where the site is created.
 
 ## Configure agent hand-off in Copilot studio
@@ -75,24 +75,23 @@ You need this script to host the live widget on Power pages site
 
 ## Enable Omnichannel live widget in Power Pages
 
-1. Open the [Portal Management app overview](portal-management-app.md) for the selected site
+1. Open the [Portal Management app](portal-management-app.md) for the selected site.
+1. Open Header Web Template of the associated site.
+1. Add the live widget script copied in the previous steps as shown below between substitution liquid tag:
 
-1. Open Header Web Template of the associated site
-
-1. Add the live widget script copied in the previous steps as shown below between substitution liquid tag
-
+    ```
     {% substitution %}
 
     {% endsubstitution %}
-
+    ```
     ![A screenshot of a computer Description automatically generated](media/image7.png)
 
 1. Save template
 
-1. Navigate to **Site Settings** and click **+New**
+1. Navigate to **Site Settings** and click **+ New**
 
-1. Create "*SiteCopilot/EnableOmniChannelWidget"* site setting and set value to true
+1. Create "*SiteCopilot/EnableOmniChannelWidget"* site setting and set value to true.
 
     ![A screenshot of a computer Description automatically generated](media/image8.png)
 
-1. Save and preview the site
+1. Save and preview the site.
