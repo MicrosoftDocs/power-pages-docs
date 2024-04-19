@@ -20,7 +20,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) provides enterprise to instantly connect and engage with their customers via live chat. Configuring Omnichannel with Power Pages site copilot allows your end users to escalate interaction with live agent when copilot isn't able to answer the queries or the user is expecting a response which is not designed in the site.
+[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) provides enterprise to instantly connect and engage with their customers via live chat. Omnichannel with Power Pages site copilot allows your end users to escalate interaction with live agent when copilot isn't able to answer the queries or the user is expecting a response that isn't designed in the site.
 
 > [!IMPORTANT]
 >
@@ -70,11 +70,11 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 
 1. Follow the steps provided in the guided channel setup to complete onboarding.
 
-During the setup process choose chose chat and link the existing bot created from Pages studio.
+During the setup process, choose chat and link the existing bot created from the Power Pages design studio.
 
 1. Copy the script displayed in the **chat setup complete** step.
 
-You need this script to host the live widget on Power pages site
+You need this script to host the live widget on Power pages site.
 
 ## Enable Omnichannel live widget in Power Pages
 
