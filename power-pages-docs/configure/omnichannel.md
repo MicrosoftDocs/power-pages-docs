@@ -39,6 +39,8 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 1. Under **Integrations,** select **Add copilot (preview)**.
 1. From the **Copilot analytics** section, choose **View copilot analytics**.
 
+    :::image type="content" source="media/omnichannel/view-copilot-analytics.svg" alt-text="A screenshot of Add copilot to a site in the Set up workspace with the View copilot analytics link emphasized.":::
+
 ### Configure a copilot manually in Copilot Studio
 
 1. In Copilot Studio, select **Topics** from the left-hand menu.
