@@ -70,7 +70,7 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 
 1. Follow the steps provided in the guided channel setup to complete onboarding.
 
-During the setup process, choose chat and link the existing bot created from the Power Pages design studio.
+    During the setup process, choose chat and link the existing bot created from the Power Pages design studio.
 
 1. Copy the script displayed in the **chat setup complete** step.
 
