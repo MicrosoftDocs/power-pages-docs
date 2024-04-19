@@ -26,7 +26,7 @@ The copilot added with Power Pages Studio lacks the necessary instructions for t
 
 1. Go to the [Set up workspace](setup-workspace.md).
 1. Under **Integrations,** select **Add copilot (preview)**.
-1.  Choose **View copilot analytics** from the **Copilot analytics** section.
+1. Choose **View copilot analytics** from the **Copilot analytics** section.
 1. Navigate to **Topics**
 1. Select **System**, then choose **Escalate**.
 1. Select  **+ after Message**.
@@ -51,44 +51,44 @@ The copilot added with Power Pages Studio lacks the necessary instructions for t
 
 # Complete chatbot setup in Customer Service Admin Centre
 
-1.  Open [Customer Service Admin Center](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/cs-admin-center)
+1. Open [Customer Service Admin Center](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/cs-admin-center)
 
-2.  Navigate to **Guided channel setup** and **+ Start new**
+1. Navigate to **Guided channel setup** and **+ Start new**
 
-![A screenshot of a computer Description automatically generated](media/image4.png)
+    ![A screenshot of a computer Description automatically generated](media/image4.png)
 
-3.  Follow the steps provided in the guided channel setup to complete onboarding.
+1. Follow the steps provided in the guided channel setup to complete onboarding.
 
 During the setup process choose chose chat and link the existing bot created from Pages studio.
 
 ![A screenshot of a computer Description automatically generated](media/image5.png)
 
-4.  Copy the script displayed in the **chat setup complete** step.
+1. Copy the script displayed in the **chat setup complete** step.
 
 You need this script to host the live widget on Power pages site
 
 ![A screenshot of a computer Description automatically generated](media/image6.png)
 
-# Enable Omni channel live widget in Power Pages
+# Enable Omnichannel live widget in Power Pages
 
-1.  Open [Power Pages Management App](https://learn.microsoft.com/en-us/power-pages/configure/portal-management-app) for the selected site
+1. Open the [Portal Management app overview](portal-management-app.md) for the selected site
 
-2.  Open Header Web Template of the associated site
+1. Open Header Web Template of the associated site
 
-3.  Add the live widget script copied in the previous steps as shown below between substitution liquid tag
+1. Add the live widget script copied in the previous steps as shown below between substitution liquid tag
 
-{% substitution %}
+    {% substitution %}
 
-{% endsubstitution %}
+    {% endsubstitution %}
 
-![A screenshot of a computer Description automatically generated](media/image7.png)
+    ![A screenshot of a computer Description automatically generated](media/image7.png)
 
-4.  Save template
+1. Save template
 
-5.  Navigate to **Site Settings** and click **+New**
+1. Navigate to **Site Settings** and click **+New**
 
-6.  Create "*SiteCopilot/EnableOmniChannelWidget"* site setting and set value to true
+1. Create "*SiteCopilot/EnableOmniChannelWidget"* site setting and set value to true
 
-![A screenshot of a computer Description automatically generated](media/image8.png)
+    ![A screenshot of a computer Description automatically generated](media/image8.png)
 
-7.  Save and preview the site
+1. Save and preview the site
