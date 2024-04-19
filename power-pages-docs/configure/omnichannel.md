@@ -20,38 +20,36 @@ contributors:
 - [Add copilot to your site](../getting-started/enable-chatbot.md#add-a-copilot) in Power Pages design studio.
 - Install Dynamics 365 customer service app in the environment where the site is created.
 
-# Configure agent hand-off in Copilot studio
+## Configure agent hand-off in Copilot studio
 
-The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to omnichannel. To achieve this functionality, you must manually configure the copilot in Copilot Studio.
+The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to Omnichannel. To achieve this functionality, you must [configure the copilot manually from Copilot Studio.](#configure-a-copilot-manually-from-copilot-studio). 
 
-1. Go to the [Set up workspace](setup-workspace.md).
+You can access Copilot Studio directly from the [Set up workspace](setup-workspace.md) in Power Pages design studio:
+
 1. Under **Integrations,** select **Add copilot (preview)**.
-1. Choose **View copilot analytics** from the **Copilot analytics** section.
-1. Navigate to **Topics**
-1. Select **System**, then choose **Escalate**.
-1. Select  **+ after Message**.
+1. From the **Copilot analytics** section, choose **View copilot analytics**.
+
+### Configure a copilot manually from Copilot Studio
+
+1. In Copilot Studio, select **Topics** from the left-hand menu.
+1. Select the **System** tab, then choose **Escalate**.
+1. Select  the **+** icon below the Message tile.
 1. Hover over **Topic management** and select **Transfer conversation**.
-
-    ![A screenshot of a computer Description automatically generated](media/image1.png)
-
-1. Add the message that needs to shown to the end user while transferring the call.
+1. Type the message you'd like displayed to the end user while transferring the call in the Message to agent text entry field.
 
     Ex : Call transferred from chatbot to human agent
 
+    //ADD SCREENSHOT HERE
+
 1. Select **Save**.
-1. Navigate to **Customer engagement hub** under **Settings**
-
-    ![A screenshot of a computer Description automatically generated](media/image2.png)
-
+1. In the left-hand menu, choose **Settings**, then select **Customer engagement hub**.
 1. Select **Omnichannel**, then **Connect**.
+1. Once the Status is Connected, choose the **Close** button.
+1. In the left-hand menu, choose **Publish** and then select the **Publish** button.
 
-    ![A screenshot of a computer Description automatically generated](media/image3.png)
+## Complete chatbot setup in Customer Service Admin Center
 
-1. Select the **Publish** button.
-
-# Complete chatbot setup in Customer Service Admin Centre
-
-1. Open [Customer Service Admin Center](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/cs-admin-center)
+1. Open the [Customer Service admin center](/dynamics365/customer-service/implement/cs-admin-center).
 
 1. Navigate to **Guided channel setup** and **+ Start new**
 
@@ -69,7 +67,7 @@ You need this script to host the live widget on Power pages site
 
 ![A screenshot of a computer Description automatically generated](media/image6.png)
 
-# Enable Omnichannel live widget in Power Pages
+## Enable Omnichannel live widget in Power Pages
 
 1. Open the [Portal Management app overview](portal-management-app.md) for the selected site
 
