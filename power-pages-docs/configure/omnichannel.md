@@ -50,7 +50,7 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 1. Select **Save**.
 1. In the left-hand menu, choose **Settings**, then select **Customer engagement hub**.
 1. Select **Omnichannel**, then **Connect**.
-1. Once the Status is Connected, choose the **Close** button.
+1. Once the Status shows as *Connected*, choose the **Close** button.
 1. In the left-hand menu, choose **Publish**.
 1. Select the **Publish** button.
 
