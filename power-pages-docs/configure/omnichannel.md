@@ -57,21 +57,15 @@ You can access Copilot Studio directly from the Power Pages design studio.
 
 1. Open the [Customer Service admin center](/dynamics365/customer-service/implement/cs-admin-center).
 
-1. Navigate to **Guided channel setup** and **+ Start new**
-
-    ![A screenshot of a computer Description automatically generated](media/image4.png)
+1. Navigate to **Guided channel setup** and **+ Start new**.
 
 1. Follow the steps provided in the guided channel setup to complete onboarding.
 
 During the setup process choose chose chat and link the existing bot created from Pages studio.
 
-![A screenshot of a computer Description automatically generated](media/image5.png)
-
 1. Copy the script displayed in the **chat setup complete** step.
 
 You need this script to host the live widget on Power pages site
-
-![A screenshot of a computer Description automatically generated](media/image6.png)
 
 ## Enable Omnichannel live widget in Power Pages
 
@@ -84,14 +78,11 @@ You need this script to host the live widget on Power pages site
 
     {% endsubstitution %}
     ```
-    ![A screenshot of a computer Description automatically generated](media/image7.png)
 
 1. Save template
 
 1. Navigate to **Site Settings** and click **+ New**
 
 1. Create "*SiteCopilot/EnableOmniChannelWidget"* site setting and set value to true.
-
-    ![A screenshot of a computer Description automatically generated](media/image8.png)
 
 1. Save and preview the site.
