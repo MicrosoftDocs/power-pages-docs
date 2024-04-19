@@ -210,7 +210,7 @@
             href: getting-started/force-bing-index.md
           - name: Replace copilot with a Microsoft Copilot Studio copilot
             href: getting-started/pva-bot-how-to.md
-          - name: Configure Omnichannel with Power Pages site copilot (preview)
+          - name: Configure Omnichannel with site copilot (preview)
             href: configure/omnichannel.md
         - name: Progressive web applications
           items:
