@@ -49,6 +49,8 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 1. Hover over **Topic management** and select **Transfer conversation**.
 1. Type the message you'd like displayed to the end user while transferring the call in the **Message to agent** text entry field. For example, `Call transferred from chatbot to human agent.`
 
+    :::image type="content" source="media/omnichannel/message-to-agent.svg" alt-text="A screenshot of a Transfer conversation in Copilot Studio with the Message to agent text entry field emphasized.":::
+
 1. Select **Save**.
 1. In the left-hand menu, choose **Settings**, then select **Customer engagement hub**.
 1. Select **Omnichannel**, then **Connect**.
