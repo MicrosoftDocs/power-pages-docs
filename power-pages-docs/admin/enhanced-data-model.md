@@ -102,7 +102,7 @@ The Power Pages virtual tables represent and contain the metadata of the specifi
 > [!NOTE]
 > - If you've developed any custom code or tools that use any of the standard data model tables, you must update the code so that it uses the enhanced data model tables.
 > - These tables can't be modified.
-> - These tables will not appear in the list of entities that can be used to create a relationship with the other entities, as these tables are not modifiable.
+> - These tables will not appear in the list of entities that can be used to create a relationship with the other entities, as these tables are not modifiable. For example, Web Role (mspp_webrole), Table Permission (mspp_entitypermission) and other tables will not appear in the list of entities that can be used to create relationship.    
 
 | System table | Enhanced data model virtual table | Standard data model table |
 |---|---|---|
