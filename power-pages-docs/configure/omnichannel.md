@@ -2,7 +2,7 @@
 title: Configure Omnichannel with Power Pages site copilot (preview)
 description: Configure Omnichannel with Power Pages site copilot to escalate interactions with live agents.
 ms.topic: how-to
-ms.date: 04/19/2024
+ms.date: 04/22/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -74,6 +74,8 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 
 1. Copy the script displayed in the **chat setup complete** step.
 
+    :::image type="content" source="media/omnichannel/chat-widget-code-snippet.svg" alt-text="A screenshot of the Customer Service Admin Center with the script for adding the chat widget to the customer webpage emphasized.":::
+
     You need this script to host the live widget on Power pages site.
 
 ## Enable Omnichannel live widget in Power Pages
@@ -81,6 +83,9 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 1. Open the [Portal Management app](portal-management-app.md) for the selected site.
 1. Open Header [web template](web-templates.md) of the associated site.
 1. Use the [substitution liquid tag](liquid/template-tags.md#substitution) to add the live widget script you copied when you [completed the chatbot setup](#complete-chatbot-setup-in-customer-service-admin-center).
+
+    :::image type="content" source="media/omnichannel/substitution-liquid-tag.png" alt-text="A screenshot of the substitution liquid tag content displayed in the Header web template inside the Portal Management app.":::
+
 1. Save the template.
 1. In the left-hand menu, select **Site Settings**.
 1. Choose **+ New**.
