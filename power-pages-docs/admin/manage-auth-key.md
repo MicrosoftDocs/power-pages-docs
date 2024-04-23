@@ -2,10 +2,9 @@
 title: Manage website authentication key
 description: Learn how to manage the authentication key used by Power Pages.
 author: neerajnandwana-msft
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/09/2023
+ms.date: 04/23/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -114,7 +113,7 @@ Use the following steps if the authentication key for your website is near expir
 
 > [!NOTE]
 > - While this process runs in the background, the website will restart.
-> - When you update a key, it's valid for teh next one year.
+> - When you update a key, it's valid for the next one year.
 > - This process will take five to seven minutes.
 > - Updating authentication key doesn't change any other website configuration or the website state.
 
