@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 6/9/2023
+ms.date: 4/23/2024
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -13,6 +13,7 @@ contributors:
     - neerajnandwana-msft
     - nickdoelman
     - ProfessorKendrick
+    - nageshbhat-msft
 ---
 
 # Set up Power BI integration
@@ -227,10 +228,11 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 
 ## Considerations and limitations
 
-- Portals with version [9.3.4.x](/power-apps/maker/portals/versions/version-9.3.4.x) or later supports the following capabilities:
+- Power Pages site with version [9.3.4.x](/power-apps/maker/portals/versions/version-9.3.4.x) or later supports the following capabilities:
     - Dashboards and report from Azure Analysis Services using [live connections](/azure/analysis-services/analysis-services-connect-pbi). Azure Analysis Services on-premises configurations are not supported.
     - Dashboards with [role-based security](/power-bi/admin/service-admin-rls).
     - Single tile with role-based security.
+- Power Pages currently does not support the integration of Power BI tiles, reports, and dashboards connecting to datasets located in different workspaces. Ensure that both the dataset and the visualizations are located within the same workspace.
 - Power BI visualization functionality is not available in the China region for Microsoft Entra authentication.
 - For more information about Power BI Embedded service limitations, see [Considerations and limitations](/power-bi/developer/embed-service-principal#considerations-and-limitations).
 
