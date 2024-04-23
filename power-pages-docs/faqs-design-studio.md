@@ -1,7 +1,7 @@
 ---
 title: FAQ for Copilot for design studio
 description: This FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
-ms.date: 04/18/2024
+ms.date: 04/22/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: sandhangitmsft
@@ -52,7 +52,8 @@ We conducted extensive testing before the feature release. Copilot for design st
     - Document with sensitivity labels Public or General. 
     - Documents max size is 28MB, and only first 50k characters are used to generate FAQ content.
     - Only up to 12 questions and answers are generated in the page.
-    - Additional instructions are not supported, for example, **create a page with questions about company history using this Word doc..**. 
+    - Additional instructions are not supported, for example, **create a page with questions about company history using this Word doc..**.
+    - Ensure documents are obtained from trusted sources to reduce the risk of generating harmful content.
 
 ## What operational factors and settings allow for effective and responsible use of Copilot for design studio?
 
