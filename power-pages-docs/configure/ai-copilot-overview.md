@@ -5,7 +5,7 @@ ms.topic: overview
 ms.date: 04/24/2024
 author: sandhangitmsft
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
   - bap-ai-copilot
 contributors:
