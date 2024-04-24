@@ -23,10 +23,6 @@ Copilot generates the contextual site name, site address, home page layout, and 
 
 :::image type="content" source="media/create-site-copilot/copilot-create-site.png" alt-text="The Copilot on Power Pages home with an input field for users to enter a description of the site emphasized.":::
 
-> [!IMPORTANT]
->
-> - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
-
 ## Prerequisites
 
 You must enable the [enhanced data model](../admin/enhanced-data-model.md) to use this feature.
@@ -63,4 +59,5 @@ Site creation can take a few minutes. When finished, you're redirected to the si
 ### See also
 
 - [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 - [FAQ for Copilot for site creation](../faqs-generate-site.md)
