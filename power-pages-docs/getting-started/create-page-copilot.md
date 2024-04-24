@@ -19,10 +19,6 @@ contributors:
 
 You can create a new webpage for your site by describing the type of webpage. Copilot generates the HTML for the page with relevant text copy and images from the description. The page is added to the main navigation of the site, and can be refined and edited using Copilot and the WYSIWYG editor.
 
-> [!IMPORTANT]
-> - To understand the geographic and language availability of Copilot features, see [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
-> - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
-
 ## Generate a webpage
 
 To use Copilot to generate a webpage:
@@ -63,3 +59,7 @@ Additionally, you can edit a page with Copilot by typing the following commands 
 |---------|---------|
 |Add a section    | Copilot creates a new section with text copy and images, and appends the section to the end of the page.         |
 |Add a form     | To learn how to add a form using Copilot, see [Create AI-generated form using Copilot](add-form-copilot.md)         |
+
+## See also
+- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
+- [FAQ for Copilot for design studio](../faqs-design-studio.md).
