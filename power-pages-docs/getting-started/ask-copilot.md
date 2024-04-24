@@ -4,7 +4,7 @@ description: Get answers to questions using Copilot in Power Pages.
 author: ProfessorKendrick
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/12/2024
+ms.date: 04/24/2024
 ms.subservice:
 ms.author: kkendrick
 ms.reviewer: dmartens
@@ -24,10 +24,6 @@ An easy way to get support while building your Power Pages website is to ask Cop
 * What are custom solutions?
 
 Remember that you can only ask questions about building your website in Power Pages. If you're unable to get a response, try to ask again by rephrasing your question using smaller sentences. If you're still unsuccessful, you can always find help in the [Microsoft Power Pages documentation](../index.yml) .
-
-> [!IMPORTANT]
->
-> To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
 
 ## Prerequisites
 
@@ -61,3 +57,7 @@ Copilot generates an answer to your question. Depending on the question, the res
 ## Enable Bing search
 
 When you enter a question in the Copilot sidecar, you're prompted to enable Bing search if it isn't enabled already. You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. Once enabled, `Bing search is enabled` appears next to the icon.
+
+## See also
+- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
+- [FAQ for Copilot for design studio](../faqs-design-studio.md)
