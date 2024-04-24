@@ -44,13 +44,13 @@ To use Copilot to generate a webpage:
 
     :::image type="content" source="media/create-page-copilot/copilot-page-prompt.svg" alt-text="Screenshot of Power Pages Copilot sidecar with page prompts displayed and the paper airplane icon emphasized.":::
 
-After the page is generated, it's added to the main navigation, and you can review the page and the content. Sections, text, and images in the page are low-code editable using the WYSIWYG editor.
+The page is generated and added to the main navigation. You can review the page and the content. Sections, text, and images in the page are low-code editable using the WYSIWYG editor.
 
 ## Discard a Copilot-generated webpage
 
 If you don't want to keep the page that Copilot generated, you can:
 
-- Undo the changes. This action reverts the Copilot changes and deletes the page. 
+- Undo the changes. This action reverts the Copilot changes and deletes the page.
 
 > [!NOTE]
 > Copilot-generated pages will reference images that are saved as [web files](../configure/web-files.md).
