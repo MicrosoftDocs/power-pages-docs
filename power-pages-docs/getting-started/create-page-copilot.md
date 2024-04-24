@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 03/06/2024
 ms.subservice:
 ms.author: ckwan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:

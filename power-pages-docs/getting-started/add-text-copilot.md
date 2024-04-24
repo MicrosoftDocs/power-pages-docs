@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 04/24/2024
 author: ckwan-ms
 ms.author: ckwan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
