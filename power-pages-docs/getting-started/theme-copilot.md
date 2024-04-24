@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated color theme for your Power Page
 author: ankitavish 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/23/2024
+ms.date: 04/24/2024
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: dmartens
@@ -18,9 +18,6 @@ contributors:
 # Create AI-generated color theme using Copilot
 
 Copilot for theme allows you to create a theme for your brand from the design studio. After generating the theme using Copilot, you can customize the theme further in the [Styling workspace](style-site.md).
-
-> [!IMPORTANT]
-> To understand the capabilities and limitations of this feature, see [FAQ for Copilot for design studio](../faqs-design-studio.md).
 
 To use Copilot for theme:
 
@@ -51,6 +48,8 @@ To avoid unintentionally publishing changes to your site, review, edit, and veri
 
 ## See also
 
+- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
+- [FAQ for Copilot for design studio](faqs-design-studio.md)
 - [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
 - [Add AI-generated text using Copilot](add-text-copilot.md)
 - [Create AI-generated form using Copilot](add-form-copilot.md)
