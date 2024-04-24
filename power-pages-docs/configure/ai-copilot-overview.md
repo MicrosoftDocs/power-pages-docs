@@ -2,7 +2,7 @@
 title: Overview of AI-powered and Copilot features in Power Pages
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 04/01/2024
+ms.date: 04/24/2024
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -11,6 +11,7 @@ ms.collection:
 contributors:
   - nickdoelman
   - ProfessorKendrick
+  - DanaMartens
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -44,12 +45,13 @@ To learn how to use the new AI features in Power Pages, see:
 - [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
 - [Ask Copilot questions](../getting-started/ask-copilot.md)
 
-## Prerequisites
+## Availability
 
-To use AI-powered Copilot features in Power Pages:
+For AI-powered Copilot features availability in Power Pages, see:
 
-- Your browser language must be set to US-English.
-- See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
+- Geographic and language availability of Copilot features: [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external)
+- Turn copilot features on or off: [Copilot in Dynamics 365 apps and Power Platform](/power-platform/faqs-copilot-data-security-privacy#copilot-in-dynamics-365-apps-and-power-platform)
+- Copilot cross-region data movement: [Data movement across regions for copilots](/power-platform/admin/geographical-availability-copilot)
 
 ## Turn off Copilot in Power Pages
 
