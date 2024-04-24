@@ -4,7 +4,7 @@ description: Learn how to create a site with Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/03/2024
+ms.date: 04/24/2024
 ms.subservice:
 ms.author: tbhagwat
 ms.reviewer: kkendrick
@@ -54,6 +54,19 @@ Customize and design your site using the Power Pages design studio.
 1. After the site is created, you can begin to edit or preview your site.
 
     :::image type="content" source="media/default-template/manage-site.png" alt-text="Power Pages home page with site created.":::
+
+## Roles and permissions
+ There are several required roles and permissions in Microsoft Power Platform. You'll need:
+ 
+ - A user account with [Read-Write Access Mode](/power-pages/admin/admin-roles#read-write-access-mode)
+ - [System administrator](/power-pages/admin/admin-roles#system-administrator) role
+ - [Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Microsoft Entra
+
+If [website creation is disabled in the tenant](/power-apps/maker/portals/control-portal-creation), users will also need at least one of the following roles to create a website:
+
+ - [Global administrator](/power-pages/admin/admin-roles#global-administrator)
+ - [Dynamics 365 administrator](/power-pages/admin/admin-roles#dynamics-365-administrator)
+ - [Power Platform administrator](/power-pages/admin/admin-roles#power-platform-administrator)
 
 ## Additional information
 
