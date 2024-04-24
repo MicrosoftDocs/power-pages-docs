@@ -7,7 +7,7 @@ ms.custom:
 ms.topic: article
 author: neerajnandwana-msft
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:

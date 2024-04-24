@@ -162,8 +162,6 @@
                   href: getting-started/add-form-copilot.md
                 - name: Add a multistep form
                   href: getting-started/multistep-forms.md
-                - name: Add an AI-generated multistep form using Copilot (preview)
-                  href: getting-started/multistep-forms-copilot.md
                 - name: Add IFrame
                   href: getting-started/add-iframe.md 
             - name: Structure your site map
@@ -202,14 +200,16 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add an Ai-powered chatbot (preview)
+        - name: Add a copilot (preview)
           items:
-          - name: Add an AI-powered chatbot
+          - name: Add a copilot
             href: getting-started/enable-chatbot.md
           - name: Generate answers from public data using Bing search
             href: getting-started/force-bing-index.md
-          - name: Replace AI-powered chatbot with a Microsoft Copilot Studio bot
+          - name: Replace copilot with a Microsoft Copilot Studio copilot
             href: getting-started/pva-bot-how-to.md
+          - name: Configure Omnichannel with site copilot (preview)
+            href: configure/omnichannel.md
         - name: Progressive web applications
           items:
             - name: Overview

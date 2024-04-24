@@ -6,7 +6,7 @@ ms.custom: responsible-ai-faqs
 ms.topic: article
 author: vashr
 ms.author: vashr
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
