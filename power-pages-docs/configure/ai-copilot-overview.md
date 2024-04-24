@@ -29,10 +29,6 @@ Watch this brief video to learn how Copilot can help you make business websites 
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW15U45]
 
-> [!IMPORTANT]
->
-> - Understand the [capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
-
 To learn how to use the new AI features in Power Pages, see:
 
 - [Create an AI-generated site using Copilot](../getting-started/create-site-copilot.md)
@@ -56,3 +52,7 @@ For AI-powered Copilot features availability in Power Pages, see:
 ## Turn off Copilot in Power Pages
 
 To turn off Copilot and AI enhancements in Power Pages, admins can start a support request with Microsoft.
+
+## See also
+
+[Responsible AI FAQs for Power Pages](../responsible-ai-overview.md)
