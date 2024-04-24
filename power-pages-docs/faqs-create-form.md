@@ -1,12 +1,12 @@
 ---
-title: FAQ for creating AI-generated form or multistep form
+title: FAQ for creating AI-generated form
 description: This FAQ discusses natural language to forms and the key considerations for making use of this technology responsibly.
-ms.date: 04/01/2024
+ms.date: 04/24/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
@@ -14,9 +14,9 @@ contributors:
     - ProfessorKendrick
 ---
 
-# FAQ for creating AI-generated form or multistep form
+# FAQ for creating AI-generated form
 
-These frequently asked questions (FAQ) describe the AI impact of Power Pages' natural language to form or multistep form feature.
+These frequently asked questions (FAQ) describe the AI impact of Power Pages' natural language to form feature.
 
 ## What is natural language to form?
 

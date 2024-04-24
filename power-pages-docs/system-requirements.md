@@ -4,8 +4,8 @@ description: Learn about device platform and web browser requirements, limits, a
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.reviewer: kkendrick
-ms.date: 01/23/2023
+ms.reviewer: dmartens
+ms.date: 04/22/2024
 ms.subservice: 
 ms.author: nabha
 contributors:
@@ -64,7 +64,7 @@ This list identifies all services to which Power Pages communicates and their us
 | \*.flow.microsoft.com | https | create.powerapps.com, content.powerapps.com, and make.powerapps.com |
 | \*.dynamics.com | https | Microsoft Dataverse |
 | ecs.office.com | https | Retrieve feature flags for Power Apps |
-| *.api.powerplatform.com | https | Required for Power Platform API connectivity used internally by Microsoft products, and Power Platform [programmability and extensibility](/power-platform/admin/programmability-extensibility-overview). |
+| \*.api.powerplatform.com<br> *.api.powerplatformusercontent.com | https | Required for Power Platform API connectivity used internally by Microsoft products, and Power Platform [programmability and extensibility](/power-platform/admin/programmability-extensibility-overview). |
 | \*.powerapps.us	| https |	Required for Power Pages for Government Community Cloud (GCC). <sup>1</sup> |
 | \*.powerapps.us	| https |	Required for Power Pages for Government Community Cloud (GCC High). <sup>2</sup> |
 | \*.appsplatform.us | https | Required for Power Pages for Power Apps Department of Defense (DoD). <sup>3</sup> |
