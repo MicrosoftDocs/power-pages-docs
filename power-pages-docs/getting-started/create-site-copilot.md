@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated site using Copilot in Power Pag
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/01/2024
+ms.date: 04/24/2024
 ms.subservice:
 ms.author: sampatn
 ms.reviewer: kkendrick
@@ -13,6 +13,7 @@ ms.collection:
 contributors:
     - tapanm-msft
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Create an AI-generated site using Copilot
