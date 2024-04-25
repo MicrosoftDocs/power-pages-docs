@@ -143,7 +143,7 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 1. The full line of liquid code that you see will resemble:
 
     ```html
-    {% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection" %}
+    {% powerbi authentication\_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection" %}
     ```
 
 1. Close the **Visual Studio Code for the Web** tab.
