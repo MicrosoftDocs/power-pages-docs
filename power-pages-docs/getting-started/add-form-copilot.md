@@ -77,7 +77,7 @@ If you remove an AI-generated form from the page it's on, it's still available f
 
 ### See also
 - [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
-- [FAQ for creating AI-generated form or multistep form](../faqs-create-form.md)
+- [FAQ for creating AI-generated form](../faqs-create-form.md)
 - [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
 - [Use Copilot to generate text and it to a webpage](../getting-started/add-text-copilot.md)
 
