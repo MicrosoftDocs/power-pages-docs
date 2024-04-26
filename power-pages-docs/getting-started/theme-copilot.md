@@ -17,7 +17,7 @@ contributors:
 
 # Create AI-generated color theme using Copilot
 
-Copilot for theme allows you to create a theme for your brand from the design studio. After generating the theme using Copilot, you can customize the theme further in the [Styling workspace](style-site.md).
+Copilot for theme allows you to create a color theme for your brand from the design studio. After generating the theme using Copilot, you can customize the theme further in the [Styling workspace](style-site.md).
 
 > [!NOTE]
 > This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
