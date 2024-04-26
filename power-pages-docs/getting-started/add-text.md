@@ -4,7 +4,7 @@ description: Learn how to add text to your Power Pages site.
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/03/2024
+ms.date: 04/26/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: kkendrick
@@ -12,6 +12,7 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
     - ckwan-ms
+    - DanaMartens
 ---
 
 # Add text
