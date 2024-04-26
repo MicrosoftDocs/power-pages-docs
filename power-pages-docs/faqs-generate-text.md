@@ -1,7 +1,7 @@
 ---
 title: FAQ for natural language to text
 description: This FAQ discusses natural language to text and the key considerations for making use of this technology responsibly.
-ms.date: 03/06/2024
+ms.date: 04/26/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: vashr
@@ -12,6 +12,7 @@ ms.collection:
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # FAQ for natural language to text
@@ -51,5 +52,5 @@ You can describe the text you need for your website, and Power Pages uses LLMs t
 
 ## See also
 
-- [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
+- [Add AI-generated text using Copilot](getting-started/add-text-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
