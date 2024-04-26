@@ -3,13 +3,14 @@ title: Add forms
 description: Add forms to your page in Power Pages.
 author: pranita225
 ms.topic: conceptual
-ms.date: 04/03/2024
+ms.date: 04/26/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
     - clromano
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Add a form
