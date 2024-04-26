@@ -172,7 +172,7 @@
       items:
         - name: Styling workspace overview
           href: getting-started/style-site.md
-        - name: Create an AI-generated theme using Copilot (preview)
+        - name: Create an AI-generated theme using Copilot
           href: getting-started/theme-copilot.md
         - name: Customize your site with Bootstrap
           items:
