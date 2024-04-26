@@ -4,7 +4,7 @@ description: Get answers to questions using Copilot in Power Pages.
 author: ProfessorKendrick
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/24/2024
+ms.date: 04/26/2024
 ms.subservice:
 ms.author: kkendrick
 ms.reviewer: dmartens
@@ -24,6 +24,9 @@ An easy way to get support while building your Power Pages website is to ask Cop
 * What are custom solutions?
 
 Remember that you can only ask questions about building your website in Power Pages. If you're unable to get a response, try to ask again by rephrasing your question using smaller sentences. If you're still unsuccessful, you can always find help in the [Microsoft Power Pages documentation](../index.yml) .
+
+> [!NOTE]
+> This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
 
 ## Prerequisites
 
