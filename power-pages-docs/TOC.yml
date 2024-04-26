@@ -156,10 +156,10 @@
                   href: getting-started/add-power-bi.md
                 - name: Add list
                   href: getting-started/add-list.md
-                - name: Add form
-                  href: getting-started/add-form.md
-                - name: Add an AI-generated form using Copilot (preview)
+                - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
+                - name: Add a form manually
+                  href: getting-started/add-form.md
                 - name: Add a multistep form
                   href: getting-started/multistep-forms.md
                 - name: Add IFrame
@@ -728,7 +728,7 @@
       href: faqs-chatbot.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
-    - name: FAQ for creating form or multistep form
+    - name: FAQ for creating form
       href: faqs-create-form.md
     - name: FAQ for design studio
       href: faqs-design-studio.md
