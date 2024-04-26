@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated site using Copilot in Power Pag
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/24/2024
+ms.date: 04/26/2024
 ms.subservice:
 ms.author: sampatn
 ms.reviewer: dmartens
@@ -23,6 +23,9 @@ With the Copilot for site creation, you can create Power Pages sites with the he
 Copilot generates the contextual site name, site address, home page layout, and more pages with HTML for each page with relevant text copy and images from the description. The site is created with the home page and more pages as selected, with the pages added to the sitemap. Once the site is created, these pages can be refined and edited using Copilot and the WYSIWYG editor.
 
 :::image type="content" source="media/create-site-copilot/copilot-create-site.png" alt-text="The Copilot on Power Pages home with an input field for users to enter a description of the site emphasized.":::
+
+> [!NOTE]
+> This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
 
 ## Prerequisites
 
