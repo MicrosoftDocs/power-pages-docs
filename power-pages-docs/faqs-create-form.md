@@ -1,7 +1,7 @@
 ---
 title: FAQ for creating AI-generated form
 description: This FAQ discusses natural language to forms and the key considerations for making use of this technology responsibly.
-ms.date: 04/18/2024
+ms.date: 04/26/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
@@ -12,6 +12,7 @@ ms.collection:
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # FAQ for creating AI-generated form
@@ -51,5 +52,5 @@ You can revise the form suggestion as needed. You can also review the form previ
 
 ## See also
 
-- [Add an AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
+- [Add an AI-generated form using Copilot](getting-started/add-form-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
