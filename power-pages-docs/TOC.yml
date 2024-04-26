@@ -124,10 +124,10 @@
       href: getting-started/what-is-dataverse.md
     - name: Use Pages workspace
       items:
+        - name: Create an AI-generated web page using Copilot
+          href: getting-started/create-page-copilot.md
         - name: Create a web page
           href: getting-started/first-page.md
-        - name: Create an AI-generated web page using Copilot (preview)
-          href: getting-started/create-page-copilot.md
         - name: Ask Copilot questions (preview)
           href: getting-started/ask-copilot.md
         - name: Design pages
