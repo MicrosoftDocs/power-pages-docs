@@ -17,7 +17,7 @@ contributors:
 ---
 # Create an AI-generated webpage using Copilot
 
-You can create a new webpage for your site by describing the type of webpage. Copilot generates the HTML for the page with relevant text copy and images from the description. The page is added to the main navigation of the site, and can be refined and edited using Copilot and the WYSIWYG editor.
+You can create a new page for your site by describing the purpose of the page. Copilot generates the HTML for the page with relevant text copy and images from the description. The page is added to the main navigation of the site, and can be refined and edited using Copilot and the WYSIWYG editor.
 
 > [!NOTE]
 > This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
@@ -35,7 +35,7 @@ To use Copilot to generate a webpage:
 
 1. Within the Copilot sidecar, select **Page design** -> **Create a page**.
 
-1. Describe the page that you want to generate using AI. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field. For example, "Create an FAQ webpage for student loans."
+1. Describe the page that you want to generate using AI. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field. For example, "Create an FAQ page for student loans."
 
     If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
 
