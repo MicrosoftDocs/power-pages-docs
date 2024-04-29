@@ -26,10 +26,10 @@
       href: getting-started/preview-features-trial.md
 - name: Get started
   items:
-    - name: Create a site
-      href: getting-started/create-manage.md
-    - name: Create an AI-generated site using Copilot (preview)
+    - name: Create an AI-generated site using Copilot
       href: getting-started/create-site-copilot.md
+    - name: Create a site manually
+      href: getting-started/create-manage.md
     - name: Use developer sites
       href: getting-started/developer-sites.md
     - name: Get started with design studio
@@ -118,17 +118,17 @@
   items:
     - name: Design and build overview
       href: configure/design-build-overview.md
-    - name: Use AI-powered and Copilot features (preview)
+    - name: Use AI-powered and Copilot features
       href: configure/ai-copilot-overview.md
     - name: Dataverse and Power Pages
       href: getting-started/what-is-dataverse.md
     - name: Use Pages workspace
       items:
+        - name: Create an AI-generated web page using Copilot
+          href: getting-started/create-page-copilot.md
         - name: Create a web page
           href: getting-started/first-page.md
-        - name: Create an AI-generated web page using Copilot (preview)
-          href: getting-started/create-page-copilot.md
-        - name: Ask Copilot questions (preview)
+        - name: Ask Copilot questions
           href: getting-started/ask-copilot.md
         - name: Design pages
           items:
@@ -140,10 +140,10 @@
               items:
                 - name: Add sections
                   href: getting-started/add-sections.md
-                - name: Add text
-                  href: getting-started/add-text.md
-                - name: Add AI-generated text using Copilot (preview)
+                - name: Add AI-generated text using Copilot
                   href: getting-started/add-text-copilot.md
+                - name: Add text manually
+                  href: getting-started/add-text.md
                 - name: Add button
                   href: getting-started/add-button.md
                 - name: Add image
@@ -156,14 +156,12 @@
                   href: getting-started/add-power-bi.md
                 - name: Add list
                   href: getting-started/add-list.md
-                - name: Add form
-                  href: getting-started/add-form.md
-                - name: Add an AI-generated form using Copilot (preview)
+                - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
+                - name: Add a form manually
+                  href: getting-started/add-form.md
                 - name: Add a multistep form
                   href: getting-started/multistep-forms.md
-                - name: Add an AI-generated multistep form using Copilot (preview)
-                  href: getting-started/multistep-forms-copilot.md
                 - name: Add IFrame
                   href: getting-started/add-iframe.md 
             - name: Structure your site map
@@ -174,7 +172,7 @@
       items:
         - name: Styling workspace overview
           href: getting-started/style-site.md
-        - name: Create an AI-generated theme using Copilot (preview)
+        - name: Create an AI-generated theme using Copilot
           href: getting-started/theme-copilot.md
         - name: Customize your site with Bootstrap
           items:
@@ -210,6 +208,8 @@
             href: getting-started/force-bing-index.md
           - name: Replace copilot with a Microsoft Copilot Studio copilot
             href: getting-started/pva-bot-how-to.md
+          - name: Configure Omnichannel with site copilot (preview)
+            href: configure/omnichannel.md
         - name: Progressive web applications
           items:
             - name: Overview
@@ -728,7 +728,7 @@
       href: faqs-chatbot.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
-    - name: FAQ for creating form or multistep form
+    - name: FAQ for creating form
       href: faqs-create-form.md
     - name: FAQ for design studio
       href: faqs-design-studio.md

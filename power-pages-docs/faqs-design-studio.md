@@ -1,7 +1,7 @@
 ---
 title: FAQ for Copilot for design studio
 description: This FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
-ms.date: 04/15/2024
+ms.date: 04/26/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: sandhangitmsft
@@ -13,6 +13,7 @@ contributors:
     - sandhangitmsft
     - nickdoelman
     - professorkendrick
+    - DanaMartens
 ---
 
 # FAQ for Copilot for design studio
@@ -52,7 +53,8 @@ We conducted extensive testing before the feature release. Copilot for design st
     - Document with sensitivity labels Public or General. 
     - Documents max size is 28MB, and only first 50k characters are used to generate FAQ content.
     - Only up to 12 questions and answers are generated in the page.
-    - Additional instructions are not supported, for example, **create a page with questions about company history using this Word doc..**. 
+    - Additional instructions are not supported, for example, **create a page with questions about company history using this Word doc..**.
+    - Ensure documents are obtained from trusted sources to reduce the risk of generating harmful content.
 
 ## What operational factors and settings allow for effective and responsible use of Copilot for design studio?
 
@@ -60,8 +62,7 @@ Copilot for design studio is available when sites are in private mode so that us
 
 ## See also
 
-- [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
-- [Add an AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
-- [Add an AI-generated multistep form using Copilot (preview)](getting-started/multistep-forms-copilot.md)
-- [Create AI-generated theme using Copilot (preview)](getting-started/theme-copilot.md)
+- [Add AI-generated text using Copilot](getting-started/add-text-copilot.md)
+- [Add an AI-generated form using Copilot](getting-started/add-form-copilot.md)
+- [Create AI-generated theme using Copilot](getting-started/theme-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
