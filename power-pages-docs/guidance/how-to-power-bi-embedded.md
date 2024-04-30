@@ -4,12 +4,13 @@ description: Learn how to embed a Power BI report in Power Pages.
 author: skyshon
 ms.topic: guidance
 ms.custom: 
-ms.date: 08/02/2023
+ms.date: 04/30/2024
 ms.author: skyshon
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - skyshon
+    - nageshbhat-msft
 ---
 
 # How to: Enable row level security in Power BI on Power Pages
