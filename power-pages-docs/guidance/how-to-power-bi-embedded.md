@@ -4,12 +4,13 @@ description: Learn how to embed a Power BI report in Power Pages.
 author: skyshon
 ms.topic: guidance
 ms.custom: 
-ms.date: 08/02/2023
+ms.date: 04/30/2024
 ms.author: skyshon
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - skyshon
+    - nageshbhat-msft
 ---
 
 # How to: Enable row level security in Power BI on Power Pages
@@ -161,7 +162,7 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 1. The full line of liquid code that you see will now resemble:
 
     ```html
-    {% powerbi authentication\_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection" roles:"pagesuser" %}
+    {% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection" roles:"pagesuser" %}
     ```
 
 1. Close the Visual Studio Code tab to return to the design studio.
