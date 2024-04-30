@@ -204,7 +204,7 @@ By default, request validation is enabled on portal resulting in following gener
 `Found field(s) submitted with potentially dangerous value(s) such as HTML, or script. Please review the field value(s) and try again.`
 
 > [!Note]
-> To prevent any malicious code execution, including script blocks, you can update the "Site/DisableFormDataSafeHtmlValidation" site setting to **false**.  By default, setting is **true** that enables request validation of only script.
+> To prevent any malicious code execution, including script blocks, you can update the **Site/DisableFormDataSafeHtmlValidation** site setting to **false**.  By default, setting is **true** that enables request validation of only script.
 
 To disable request validation, follow these steps:
 
