@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/12/2023
+ms.date: 04/30/2024
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: kkendrick
@@ -202,6 +202,9 @@ The form's map control requires additional configuration to tell it what the IDs
 By default, request validation is enabled on portal resulting in following generic error if you enter script code without HTML encoding inside basic form fields:
 
 `Found field(s) submitted with potentially dangerous value(s) such as HTML, or script. Please review the field value(s) and try again.`
+
+> [!Note]
+> To prevent any malicious code execution, including script blocks, you can update the "Site/DisableFormDataSafeHtmlValidation" site setting to **false**.  By default, setting is **true** that enables request validation of only script.
 
 To disable request validation, follow these steps:
 
