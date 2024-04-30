@@ -158,7 +158,7 @@ Two table permission records are required to establish the necessary access to v
 1. Select the **Relationship**
 1. Select **Permissions**
     - The minimum privileges to allow read access to documents is **Read**. 
-    - Include  **Create**, **Write** and **Append** privileges for document upload access. 
+    - Include  **Create**, **Write**, and **Append** privileges for document upload access. 
     - Include **Delete** to allow deletion of a document.
 1. Select **Save**
 
