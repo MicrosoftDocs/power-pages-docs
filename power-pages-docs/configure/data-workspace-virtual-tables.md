@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 05/01/2024
 ms.subservice:
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - pranita225
     - ProfessorKendrick
