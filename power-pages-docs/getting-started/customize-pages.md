@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites with the design studio pag
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/09/2023
+ms.date: 04/30/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: kkendrick
