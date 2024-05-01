@@ -47,6 +47,8 @@ To use Copilot to generate a multistep form:
 
     If there are existing tables relevant to the prompt, the system suggests the use of existing tables. You can choose to create the form using the suggested existing table or manually select another existing table. When you select an existing table, the form is generated using existing columns of the table.
 
+    :::image type="content" source="media/multistep-form-copilot/multistep-form-copilot-table.svg" alt-text="A screenshot of Power Pages' Copilot inside the design studio with suggested tables emphasized.":::
+
     When there's no table suggestion, the form is generated, a preview of the form displays on the canvas, and the **Review this form**  toolbar displays at the bottom of the canvas. In this case, a new table is created for you automatically.  
 
     :::image type="content" source="media/multistep-form-copilot/copilot-review-form.png" alt-text="A screenshot of the AI-generated form in the design studio with review toolbar emphasized.":::
