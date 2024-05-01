@@ -1,5 +1,5 @@
 ---
-title: Overview of the Security workspace
+title: Run security scan (preview)
 description: Learn how to use the Data workspace.
 author: 
 ms.topic: conceptual
@@ -14,6 +14,16 @@ contributors:
 
 # Run security scan (preview)
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+ADD CONTENT HERE
+
+ADD IMAGE HERE
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+
 From the Security workspace in design studio.
 
 1. Select the **Run Deep Scan** button to run the security scan.  
@@ -26,7 +36,7 @@ From the Security workspace in design studio.
 
 1. Select the **Continue** button to begin the scan.
 
-    You can cancel the scan at any time by returning to the workspace and selecting the **Cancel scan** button.
+    You can cancel the scan at any time by returning to the Security workspace and selecting the **Cancel scan** button.
 
 Once the scan is completed, you will receive an email. After you receive the email confirmation, you can view the scan report summary by returning to the **Run scan** section of the Security workspace.
 
