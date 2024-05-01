@@ -128,7 +128,7 @@
           href: getting-started/create-page-copilot.md
         - name: Create a web page
           href: getting-started/first-page.md
-        - name: Ask Copilot questions (preview)
+        - name: Ask Copilot questions
           href: getting-started/ask-copilot.md
         - name: Design pages
           items:
