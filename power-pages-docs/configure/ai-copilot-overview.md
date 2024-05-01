@@ -32,6 +32,7 @@ To learn how to use the new AI features in Power Pages, see:
 - [Create an AI-generated site using Copilot](../getting-started/create-site-copilot.md)
 - [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
 - [Add an AI-generated form using Copilot](../getting-started/add-form-copilot.md)
+- [Add an AI-generated multistep form using Copilot (preview)](../getting-started/multistep-forms-copilot.md)
 - [Add AI-generated text using Copilot](../getting-started/add-text-copilot.md)
 - [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
 - [Generate answers from public data using Bing search (preview)](../getting-started/force-bing-index.md)
