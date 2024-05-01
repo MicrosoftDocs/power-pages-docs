@@ -1,6 +1,6 @@
 ---
 title: Run security scan (preview)
-description: Learn how to use the Data workspace.
+description: Learn how to identify and address security vulnerabilities in Power Pages with security scan.
 author: 
 ms.topic: conceptual
 ms.custom: 
@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-ADD CONTENT HERE
+Use Power Pages security scan to enhance your site's resilience by identifying and addressing vulnerabilities, safeguarding it against potential threats and ensuring a secure online environment for users.
 
 ADD IMAGE HERE
 
@@ -24,7 +24,9 @@ ADD IMAGE HERE
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-From the Security workspace in design studio.
+## Run a security scan
+
+To run a security scan, go to the [Security workspace](../getting-started/use-security-workspace.md).
 
 1. Select the **Run Deep Scan** button to run the security scan.  
 
@@ -38,8 +40,8 @@ From the Security workspace in design studio.
 
     You can cancel the scan at any time by returning to the Security workspace and selecting the **Cancel scan** button.
 
-Once the scan is completed, you will receive an email. After you receive the email confirmation, you can view the scan report summary by returning to the **Run scan** section of the Security workspace.
+Once the scan is completed, you receive an email. After you receive the email confirmation, you can view the scan report summary by returning to the **Run scan** section of the Security workspace.
 
-## Summary report 
+## Review the summary report 
 
-The summary report includes a list of failed checks and corresponding alerts, as well as a description of how to fix the alerts. You can optionally download the report as a PDF. Report summaries for security scan are only supported in English-US language.
+The summary report includes a list of failed checks and corresponding alerts, and a description of how to fix the alerts. You can optionally download the report as a PDF. Report summaries for security scan are only supported in English-US language.
