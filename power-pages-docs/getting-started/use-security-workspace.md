@@ -1,7 +1,7 @@
 ---
 title: Overview of the Security workspace
 description: Learn how to use the Security workspace.
-author: 
+author: ProfessorKendrick
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/01/2024
