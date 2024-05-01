@@ -19,7 +19,6 @@ From the Security workspace in design studio.
 1. Select the **Run Deep Scan** button to run the security scan.  
 
     > [!NOTE]
-    >
     > By default, security scan only scans anonymous pages.  To include authenticated pages in the scan, select the check box next to **Include authenticated pages in scan**.
     >
 
