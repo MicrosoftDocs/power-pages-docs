@@ -216,6 +216,12 @@
               href: configure/progressive-web-apps.md
             - name: Build progressive web applications
               href: configure/build-progressive-web-apps.md
+    - name: Use Security workspace
+      items:
+        - name: Security workspace overview
+          href: getting-started/use-security-workspace.md
+        - name: Run security scan (preview)
+          href: security/security-scan.md
     - name: Collaborate in design studio
       items:
       - name: Copresence in design studio
