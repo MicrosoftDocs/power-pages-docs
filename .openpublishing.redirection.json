@@ -106,8 +106,18 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "power-pages-docs/getting-started/multistep-forms-copilot.md",
+      "redirect_url": "/power-pages/getting-started/add-form-copilot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "power-pages-docs/configure/editing-sites.md",
       "redirect_url": "/power-pages/configure/design-build-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/default-template-workspace.md",
+      "redirect_url": "/power-pages/templates/index",
       "redirect_document_id": "false"
     }
   ]
