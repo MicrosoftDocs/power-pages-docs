@@ -23,7 +23,7 @@ contributors:
 
 ### Web roles 
 
-Control who gets to access your site data and content. [Create and manage web roles](../security/create-web-roles.md) to grant specific people access to view site tables and pages.
+Control access to site data and content. [Create and manage web roles](../security/create-web-roles.md) to grant specific people access to view site tables and pages.
 
 ### Page permissions
 
@@ -35,7 +35,7 @@ Use page permissions[page permissions](../security/page-security.md) to make con
 
 ### Web application firewall
 
-Use [Web application firewall](../security/web-application-firewall.md) to protect your Power Pages site from common security exploits and vulnerabilities.
+Protect your Power Pages site from common security exploits and vulnerabilities with [Web application firewall](../security/web-application-firewall.md).
 
 ## Manage
 
