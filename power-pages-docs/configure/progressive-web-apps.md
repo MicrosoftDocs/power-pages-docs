@@ -28,4 +28,4 @@ PWAs can be used for both online and offline scenarios. As a maker, you can choo
 
 ## Next step
 
-[Build and deploy progressive web apps](build-progressive-web-apps.md)
+[Build and distribute progressive web apps](build-progressive-web-apps.md)
