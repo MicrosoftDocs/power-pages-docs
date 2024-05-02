@@ -65,7 +65,7 @@ For example:
 
 - Error with Local sign-in provider if the LogonEnabled attribute is false for the Portal contact.
 
-    :::image type="content" source="media/devtools-addon/devtools-error-example.png" alt-text="A screenshot of the Microsoft Edge DevTools with the Power Pages tab selected.":::
+    :::image type="content" source="media/devtools-addon/devtools-error-example.png" alt-text="A screenshot of the Microsoft Edge DevTools with the Power Pages tab selected and an example error message displayed.":::
 
 - Search for external entity isn't configured properly.
 
