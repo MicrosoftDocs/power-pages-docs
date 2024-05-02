@@ -222,7 +222,7 @@
           items:
             - name: Overview
               href: configure/progressive-web-apps.md
-            - name: Build progressive web applications
+            - name: Build and distribute progressive web applications
               href: configure/build-progressive-web-apps.md
     - name: Collaborate in design studio
       items:
