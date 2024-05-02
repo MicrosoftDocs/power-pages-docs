@@ -133,9 +133,9 @@ You're taken to [the PWA Builder website](https://www.pwabuilder.com/) where you
 
 - A step-by-step document about publishing the app.
 
-For more details, go to the [PWA resource hub](https://blog.pwabuilder.com/). 
+For more details, go to the [PWA resource hub](https://blog.pwabuilder.com/).
 
-For iOS, PWABuilder team also provides support for generating the app store package. For more information, see [package for the App Store](https://docs.pwabuilder.com/#/builder/app-store).
+For iOS, PWABuilder provides support for generating the app store package. For more information, see [package for the App Store](https://docs.pwabuilder.com/#/builder/app-store).
 
 For Windows, see [package for the Microsoft Store](https://docs.pwabuilder.com/#/builder/windows?id=publishing-pwas-to-the-microsoft-store).
 
