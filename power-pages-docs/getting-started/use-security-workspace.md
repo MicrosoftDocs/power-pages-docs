@@ -23,19 +23,19 @@ contributors:
 
 ### Web roles 
 
-Control who gets to access your site data and content. [Create and manage web roles](../security/create-web-roles.md) and grant access to specific people to view site tables and pages.
+Control who gets to access your site data and content. [Create and manage web roles](../security/create-web-roles.md) to grant specific people access to view site tables and pages.
 
 ### Page permissions
 
-Use page permissions to make content available to anyone who visits your site or to restrict access to users who have specific roles.
+Use page permissions[page permissions](../security/page-security.md) to make content available to anyone who visits your site or to restrict access to users who have specific roles.
 
 ### Table permissions
 
-
+[Configure](../security/table-permissions.md) and [assign](../security/assign-table-permissions.md) table permissions to allow access to Dataverse records.
 
 ### Web application firewall
 
-[Web application firewall](../security/web-application-firewall.md) provides centralized protection of your web applications from common security exploits and vulnerabilities.
+Use [Web application firewall](../security/web-application-firewall.md) to protect your Power Pages site from common security exploits and vulnerabilities.
 
 ## Manage
 
