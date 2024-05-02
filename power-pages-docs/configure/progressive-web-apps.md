@@ -26,7 +26,7 @@ PWAs are built for cross-platform interoperability through browser support that 
 
 PWAs can be used for both online and offline scenarios. As a maker, you can choose to enable specific pages in your site to be available offline (the content on these pages is read-only).
 
-PWAs can be distributed to end users through app stores or a browser based download and install. For additional details, see [Build and distribute progressive web apps](build-progressive-web-apps.md).
+PWAs can be distributed to end users through app stores or a browser based download and install. For more information, see [Build and distribute progressive web apps](build-progressive-web-apps.md).
 
 ## Next step
 
