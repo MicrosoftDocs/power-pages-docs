@@ -35,8 +35,9 @@ To use the Bing search
 1.	Click **Save**
 1.	Navigate to the **Publish** left navigation link.
 1.	Select **Publish**.
+  	Verify whether your public site is indexed by conducting a search for any content using Bing search. If you do not receive any results from your site, it may not be indexed. You have the option to either wait for indexing or prompt Bing Webmaster to index your site immediately.
 
-## Force Bing webmaster to index your site
+## Force Bing webmaster to index your site (Optional)
 When you add a site to Copilot, Bing may not start indexing your site immediately. It may take from several hours to a day. If you prefer not to wait for Bing to index your site, you can use Bing Webmaster Tools to expedite the indexing process and have your site's content indexed immediately.
 
 ### Add your site to your Bing Webmaster Tools account
