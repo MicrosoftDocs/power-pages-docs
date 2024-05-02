@@ -41,6 +41,13 @@ Protect your Power Pages site from common security exploits and vulnerabilities 
 
 ### Identity providers
 
+[Overview of authentication in Power Pages](../security/authentication/index.md)
+
 ### Site visibility
 
+[Site visibility in Power Pages](../security/site-visibility.md)
+
 ### Advanced settings (preview)
+
+Use Advanced settings to configure  HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, and permissions.
+
