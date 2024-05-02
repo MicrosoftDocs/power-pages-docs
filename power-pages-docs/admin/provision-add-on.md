@@ -4,7 +4,7 @@ description: Instructions to provision a site using the older site add-on.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 04/12/2024
+ms.date: 05/01/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
