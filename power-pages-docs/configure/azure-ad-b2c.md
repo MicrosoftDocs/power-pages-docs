@@ -439,5 +439,5 @@ Your Azure AD B2C tenant is now configured to use the custom page for sign-up an
 
 ### See also
 
-[Configure the Azure AD B2C provider (preview)](../security/authentication/azure-ad-b2c-provider.md)
-[Customize the user interface with HTML templates in Azure AD B2C](/azure/active-directory-b2c/customize-ui-with-html?pivots=b2c-user-flow)
+- [Configure the Azure AD B2C provider (preview)](../security/authentication/azure-ad-b2c-provider.md)
+- [Customize the user interface with HTML templates in Azure AD B2C](/azure/active-directory-b2c/customize-ui-with-html?pivots=b2c-user-flow)
