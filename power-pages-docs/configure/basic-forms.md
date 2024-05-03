@@ -5,13 +5,14 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/30/2024
+ms.date: 05/03/2024
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - sandhangitmsft
+    - DanaMartens
 ---
 
 # About basic forms
@@ -204,7 +205,7 @@ By default, request validation is enabled on portal resulting in following gener
 `Found field(s) submitted with potentially dangerous value(s) such as HTML, or script. Please review the field value(s) and try again.`
 
 > [!Note]
-> To prevent any malicious code execution, including script blocks, you can update the **Site/DisableFormDataSafeHtmlValidation** site setting to **false**.  By default, setting is **true** that enables request validation of only script.
+> To prevent any malicious code execution, including script blocks, you can update the **Site/DisableFormDataSafeHtmlValidation** site setting to **false**.  By default, the setting is **true** and only the script block is validated.
 
 To disable request validation, follow these steps:
 
