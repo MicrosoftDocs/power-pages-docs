@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites with the design studio pag
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/30/2024
+ms.date: 05/03/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: kkendrick
@@ -12,6 +12,7 @@ contributors:
     - clromano
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Customize webpages with design studio page editor
@@ -57,9 +58,11 @@ For a more immersive editing experience, you can use the full-screen editing mod
 
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 
-Select the paintbrush icon to adjust the styles of a section or component. Available styles are based on the component's type. Currently, sections, text, images, and video are supported.
+Select the paintbrush icon to adjust the styles of a section or component. 
 
-Currently, sections, text, buttons, images, and videos are supported. Available styles vary depending on the component type and include: 
+:::image type="content" source="media/common/paintbrush-icon.svg" alt-text="Screenshot of the paintbrush icon.":::
+
+Available styles are based on the component's type. Currently, sections, text, buttons, images, and videos are supported. Available styles vary depending on the component type and include: 
 
 - **Layout** – control the positioning and arrangement of elements on a page, such as margins, padding, and position. 
 
@@ -67,7 +70,8 @@ Currently, sections, text, buttons, images, and videos are supported. Available 
 
 - **Typography** – change the appearance of text, including properties like font-family, font-size, and letter spacing. 
 
-Styles applied using the paintbrush icon take precedence over properties set in the Styling workspace and custom CSS. For example, changing the font of a text component using the paintbrush icon will override the font inherited from a text theme (e.g., “Heading 1”) in the Styling workspace. 
+> [!NOTE]
+> Styles applied using the paintbrush icon take precedence over properties set in the Styling workspace and custom CSS. For example, changing the font of a text component using the paintbrush icon overrides the font inherited from a text theme (for example, "Heading 1") in the Styling workspace. 
 
 ## Undo/redo
 
@@ -79,7 +83,7 @@ To reverse an action, select the Undo button.
 
 To reverse an undo, select the Redo button.
 
-Undo and redo only support changes that you make in the Pages workspace.  Your action history clears when you refresh the browser page or navigate to another workspace inside the design studio.
+Undo and redo only support changes that you make in the Pages workspace. Your action history clears when you refresh the browser page or navigate to another workspace inside the design studio.
 
 ### Limitations
 
