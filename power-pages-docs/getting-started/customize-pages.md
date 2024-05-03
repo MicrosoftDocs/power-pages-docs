@@ -59,6 +59,16 @@ All sections and components allow for in-context editing. You can edit any secti
 
 Select the paintbrush icon to adjust the styles of a section or component. Available styles are based on the component's type. Currently, sections, text, images, and video are supported.
 
+Currently, sections, text, buttons, images, and videos are supported. Available styles vary depending on the component type and include: 
+
+- **Layout** – control the positioning and arrangement of elements on a page, such as margins, padding, and position. 
+
+- **Decorations** – enhance the visual appearance of elements, such as borders, shadows, and corner radius. 
+
+- **Typography** – change the appearance of text, including properties like font-family, font-size, and letter spacing. 
+
+Styles applied using the paintbrush icon take precedence over properties set in the Styling workspace and custom CSS. For example, changing the font of a text component using the paintbrush icon will override the font inherited from a text theme (e.g., “Heading 1”) in the Styling workspace. 
+
 ## Undo/redo
 
 In the Pages workspace, undo/redo buttons display in the top left of the canvas. The undo button is enabled when you make a change. The redo button is enabled when you undo an action.
