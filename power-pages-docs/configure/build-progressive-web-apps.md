@@ -1,28 +1,27 @@
 ---
-title: Build progressive web apps
+title: Build and distribute progressive web apps
 description: Configure a site as a progressive web app.
 author: ankitavish
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/20/2022
+ms.date: 05/02/2024
 ms.subservice: 
 ms.author: avishwakarma
 ms.reviewer: dmartens
 contributors:
     - ankitavish
     - tapanm-msft
-    - nickdoelman
+    - nickdoelman'
+    - DanaMartens
 ---
 
-# Build a progressive web app
+# Build and distribute a progressive web app
 
-[This topic is pre-release documentation and is subject to change.]
-
-Use Power Pages design studio to configure your progressive web app (PWA). You can enable or disable PWA capability, customize PWA settings, and prepare to create an app package to publish to respective device stores if you choose.
+Use Power Pages design studio to configure your progressive web app (PWA). You can enable or disable PWA capability. You can customize PWA settings and prepare to create an app package to publish to respective device stores if you choose.
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. Choose your site and select **Edit**. 
+1. Choose your site and select **Edit**.
 
 1. In the design studio, select **Set up** workspace and then select **Progressive web application**.
 
@@ -45,18 +44,18 @@ You can create your own branded PWA by using the customization options to change
   
     | **Setting** | **Description** |
     |-------------------------|-------------------------|
-    | Title | The name of the portal PWA that will appear on the mobile device and in the app store. |
-    | Description | The description of the PWA that will appear on the mobile device and in the app store. |
-    | Starting page of the app | The start page for the site when it's opened through the PWA. |
+    | Title | The name of the portal PWA that appears on the mobile device and in the app store. |
+    | Description | The description of the PWA that appears on the mobile device and in the app store. |
+    | Starting page of the app | The start page for the site when it opens through the PWA. |
     | Splash screen background | The background color for the splash screen when the PWA is loaded. |
-    | App icon | The icon for the app that will appear on the mobile device and in the app store.<br>**Note:** Supports .jpg, .jpeg, .png formats with a maximum upload size of 5 mb. Size of icon must be 512 &times; 512 pixels. |
+    | App icon | The icon for the app that appears on the mobile device and in the app store.<br>**Note:** Supports .jpg, .jpeg, .png formats with a maximum upload size of 5 mb. Size of icon must be 512 &times; 512 pixels. |
       
     > [!NOTE]
     > Depending on your browser, it might take few moments for you to see your changes to reflect. After customizing the PWA, select **Preview** to clear the cache of your site.
 
 ## Define offline behavior
 
-PWA offers support for a smooth navigation experience when the device being used is offline or disconnected from the internet. You can choose the pages within your site that will be available offline (read-only), and a message page for the rest of the portal capabilities that haven't been enabled for offline access.
+PWA offers support for a smooth navigation experience when the device being used is offline or disconnected from the internet. You can choose the pages within your site that are available offline (read-only), and a message page for the rest of the portal capabilities that aren't enabled for offline access.
 
 ### Configure offline pages for the portal PWA
 
@@ -75,7 +74,7 @@ PWA offers support for a smooth navigation experience when the device being used
 
 ### Set up an offline message page
 
-When a device is offline, the page you configure as the offline message page appears when users try to access pages that haven't been enabled for offline access.
+When a device is offline, the page you configure as the offline message page appears when users try to access pages that aren't enabled for offline access.
 
 1. In the design studio, select **Pages** workspace.
 
@@ -89,7 +88,7 @@ When a device is offline, the page you configure as the offline message page app
 
 ### Test your site in offline mode
 
-After you've [enabled offline pages](#define-offline-behavior), you can now use a mobile device in offline mode and browse through different pages that have been enabled for offline access.
+After you [enable offline pages](#define-offline-behavior), you can use a mobile device in offline mode and browse through different pages that are enabled for offline access.
 
 1. Browse to your site by using a web browser on your mobile device in online mode.
 
@@ -102,7 +101,7 @@ After you've [enabled offline pages](#define-offline-behavior), you can now use 
 
 1. Enable offline mode in your mobile device.
 
-1. Open your portal from the home screen. You'll see a notification at the top reminding you that you're browsing in offline mode. If you select any pages that haven't been enabled for offline browsing, the offline message appears.
+1. Open your portal from the home screen. You see a notification at the top reminding you that you're browsing in offline mode. If you select any pages that aren't enabled for offline browsing, the offline message appears.
 
     :::image type="content" source="media/progressive-web-apps/pwa-offline.png" alt-text="Read-only page in offline mode for a PWA app.":::   :::image type="content" source="media/progressive-web-apps/not-connected.png" alt-text="Not connected to the internet page in PWA app." :::
 
@@ -112,23 +111,33 @@ You can distribute your app either by using a browser or through an app store.
 
 ### Distribute your app by using a browser
 
-After your portal is enabled as a PWA, your users can pin the Power Pages site as an app to the home screen on their device. This is supported on all platforms (Android, iOS, Chromebook, and Windows) in addition to all form factors (mobile, desktop, and tablet).
+After your portal is enabled as a PWA, your users can pin the Power Pages site as an app to the home screen on their device. This option is supported on all platforms (Android, iOS, Chromebook, and Windows) in addition to all form factors (mobile, desktop, and tablet).
+
+The following graphics illustrate the user experience of adding a portal to the home screen by using the browser that installs the portal as a PWA.
+
+:::image type="content" source="media/progressive-web-apps/site-to-pwa.png" alt-text="A sequence of images, the first image shows a portal open in a browser on a mobile device, the next image showing the menu command Add to Home screen. The next image the user is prompted to install the app, and the last image shows the app with its custom background and branding, operating as a native mobile app." border="false":::
+
+Android and iOS each offer a different method for browser based installation.
 
 ### Distribute your app through an app store
 
-You can create an app package for your PWA site and publish the package to different app stores such as Microsoft Store and Google Play.
+Progressive web apps can also be distributed through app stores for Android, iOS, and Windows. This distribution is done by creating an app package and publishing the app to the respective app store. For creating the app packages, we partner with [PWABuilder](https://www.pwabuilder.com/), which provides a platform to generate application packages for various app stores.
 
 To create an app package, go to the **Set up** workspace in the design studio. Under **App package**, select **Create app package**.
 
 :::image type="content" source="media/progressive-web-apps/open-pwa-builder.png" alt-text="Opening PWA Builder to create an app package in portals Studio." border="false":::
 
-You'll be taken to [the PWA Builder website](https://www.pwabuilder.com/) where you can create an app package for various app stores. The package you create by using PWA Builder contains:
+You're taken to [the PWA Builder website](https://www.pwabuilder.com/) where you can create an app package for various app stores. The package you create by using PWA Builder contains:
 
 - An app package for the PWA to be used in its respective app store.
 
 - A step-by-step document about publishing the app.
 
 For more details, go to the [PWA resource hub](https://blog.pwabuilder.com/).
+
+For iOS, PWABuilder provides support for generating the app store package. For more information, see [package for the App Store](https://docs.pwabuilder.com/#/builder/app-store).
+
+For Windows, see [package for the Microsoft Store](https://docs.pwabuilder.com/#/builder/windows?id=publishing-pwas-to-the-microsoft-store).
 
 #### Other considerations for Android
 
@@ -144,4 +153,3 @@ Update the title and the SHA-256 certificate fingerprint to update the digital a
 
 [Overview of portals as progressive web apps](progressive-web-apps.md)</br>
 [Overview of Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/)
-
