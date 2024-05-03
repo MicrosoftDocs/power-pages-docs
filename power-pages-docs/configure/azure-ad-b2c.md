@@ -384,12 +384,12 @@ Before you begin, ensure you [configure Azure AD B2C authentication](../security
 
 ## Step 4: Create site settings
 
-Site settings are required to configure cross-origin resource sharing (CORS) to allow [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Create the following site settings.
+Site settings are required to configure cross-origin resource sharing (CORS) to allow [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Create the following site settings.
 
 | Name                              | Value                             |
 |-----------------------------------|-----------------------------------|
 | HTTP/Access-Control-Allow-Methods | `GET, OPTIONS`                      |
-| HTTP/Access-Control-Allow-Origin  | `https://tenant-name.b2clogin.com` <br> For example, if tenant name is ContosoOrg, enter `https://contosoorg.b2clogin.com`. <br> **Note**: You can get this value by copying the domain name part of the [Issuer URL](configure-azure-ad-b2c-provider-manual.md). Ensure you exclude the non-domain part of the Issuer URL value&mdash;for example, exclude&mdash;`/tfp/799f7b50-f7b9-49ec-ba78-67eb67210998/b2c_1_contoso/v2.0`. |
+| HTTP/Access-Control-Allow-Origin  | `https://tenant-name.b2clogin.com` <br> For example, if tenant name is ContosoOrg, enter `https://contosoorg.b2clogin.com`. <br> **Note**: You can get this value by copying the domain name part of the [Issuer URL](../security/authentication/azure-ad-b2c-provider.md). Ensure you exclude the non-domain part of the Issuer URL value&mdash;for example, exclude&mdash;`/tfp/799f7b50-f7b9-49ec-ba78-67eb67210998/b2c_1_contoso/v2.0`. |
 
 To create site settings:
 
