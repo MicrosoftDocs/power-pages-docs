@@ -23,7 +23,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A copilot can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-boost-conversations) copilot on your site that uses *generative answers*&mdash;that is, natural language to answer questions and suggest solutions to issues in a conversational way.
+A Power Pages site copilot can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Power Pages makes it easy to add one. In just minutes, you can create a [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-boost-conversations) copilot on your site that uses *generative answers*&mdash;that is, natural language to answer questions and suggest solutions to issues in a conversational way.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1cRVN]
 
