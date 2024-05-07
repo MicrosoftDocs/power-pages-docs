@@ -4,13 +4,14 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/28/2023
+ms.date: 05/07/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: kkendrick
 contributors:
     - vamseedillimsft
     - professorkendrick
+    - DanaMartens
 ---
 
 # Manage website security from the Power Platform admin center (preview)
@@ -34,13 +35,13 @@ To monitor website security for all websites in your tenant:
 
     :::image type="content" source="media/admin-center-security/security-admin-center.png" alt-text="A screenshot of Power Platform admin center security tab.":::
 
-## Anonymous access enabled
+## Anonymous access to Dataverse tables
 
-**Anonymous access enabled** shows the number of websites where anonymous access is allowed for certain tables in Microsoft Dataverse. It means that these sites have at least one table permission that allows anonymous users to have access to the data. For more information, go to [Table permissions](../security/assign-table-permissions.md).
+**Anonymous access to Dataverse tables** shows the number of websites where anonymous access is allowed for certain tables in Microsoft Dataverse. It means that these sites have at least one table permission that allows anonymous users to have access to the data. For more information, go to [Table permissions](../security/assign-table-permissions.md).
 
 Select **View details** to review the anonymous access setting for each website.
 
-### Web Application Firewall disabled
+## Web Application Firewall disabled
 
 **Web Application Firewall disabled** shows the number of production websites where [Web Application Firewall (WAF)](../security/web-application-firewall.md) is disabled.
 
@@ -48,13 +49,13 @@ Enabling WAF improves the security of your website and Microsoft recommends enab
 
 Select **View details** to review the WAF setting for each website.
 
-### External authentication enabled
+## External authentication enabled
 
 **External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Microsoft Entra ID allowing access to Dataverse data. for more information, go to [Authentication providers](../security/authentication/index.md).
 
 Select **View details** to review the external authentication configuration for each website.
 
-### Site security health
+## Site security health
 
 **Site security health** dashboard gives you a summary of the websites in your organization related to security status. The security status of a website is determined based on certain security checks that are run for each website. For more information, go to [Security site checker](../security/site-checker-security.md).
 
@@ -73,19 +74,26 @@ Select **View** to review the security checker results.
 
 The checks are flagged as **Warning** when the configurations aren't the same as what Microsoft recommends. There can be cases where your business needs demand the sites to be configured in a way that isn't in the **Recommended** state.
 
-**Note:** You can also get a security check level view under 'Site security checks'. This view shows every security check along with the number of sites for which the check result is - passed, failed, warning or not run. 
-
 ## Authentication providers
 
 **Authentication providers** shows the list of all authentication providers that are used across the websites in your tenant, along with the count of all websites in which they're used.
 
 Select **Review** to see the list of websites where the specific authentication provider is used.
 
+## Site security checks
+
+**Site security checks** shows every security check along with the number of sites for which the check result is passed, failed, warning, or not run.
+
 ## Sites with integrations
 
-**Sites with integrations** shows the list of all integrations with other services that are configured across the websites in your tenant, along with the count of all websites in which they're enabled. Currently, this view shows sites with the following integrations: i) Power BI visulaization ii) Power BI embedded service iii) SharePoint iv) CloudFlows
+**Sites with integrations** shows the list of all integrations with other services that are configured across the websites in your tenant, along with the count of all websites in which they're enabled. Currently, this view shows sites with the following integrations:
 
-Select **Review** to see the list of websites where the specific integration has been enabled. If you find a site where the integration should not have been enabled, please work with the site maker and remove it or disable it.
+- Power BI visualization
+- Power BI embedded service
+- SharePoint
+- Cloud flows
+
+Select **Review** to see the list of websites where the specific integration is enabled. If you find a site where the integration shouldn't be enabled, work with the site maker to remove it or disable it.
 
 ## Frequently Asked Questions
 
