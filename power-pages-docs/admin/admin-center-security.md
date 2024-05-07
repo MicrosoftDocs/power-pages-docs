@@ -51,7 +51,7 @@ Select **View details** to review the WAF setting for each website.
 
 ## External authentication enabled
 
-**External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Microsoft Entra ID allowing access to Dataverse data. for more information, go to [Authentication providers](../security/authentication/index.md).
+**External authentication enabled** shows the number of websites where there is at least one authentication provider enabled which isn't Microsoft Entra ID allowing access to Dataverse data. For more information, go to [Authentication providers](../security/authentication/index.md).
 
 Select **View details** to review the external authentication configuration for each website.
 
