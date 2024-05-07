@@ -73,11 +73,19 @@ Select **View** to review the security checker results.
 
 The checks are flagged as **Warning** when the configurations aren't the same as what Microsoft recommends. There can be cases where your business needs demand the sites to be configured in a way that isn't in the **Recommended** state.
 
+**Note:** You can also get a security check level view under 'Site security checks'. This view shows every security check along with the number of sites for which the check result is - passed, failed, warning or not run. 
+
 ## Authentication providers
 
 **Authentication providers** shows the list of all authentication providers that are used across the websites in your tenant, along with the count of all websites in which they're used.
 
 Select **Review** to see the list of websites where the specific authentication provider is used.
+
+## Sites with integrations
+
+**Sites with integrations** shows the list of all integrations with other services that are configured across the websites in your tenant, along with the count of all websites in which they're enabled. Currently, this view shows sites with the following integrations: i) Power BI visulaization ii) Power BI embedded service iii) SharePoint iv) CloudFlows
+
+Select **Review** to see the list of websites where the specific integration has been enabled. If you find a site where the integration should not have been enabled, please work with the site maker and remove it or disable it.
 
 ## Frequently Asked Questions
 
