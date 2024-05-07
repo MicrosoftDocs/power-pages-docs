@@ -88,6 +88,9 @@ Select **...** to the left of **Site Actions** for more site actions.
 | Application Id | The site's application Id. |
 | Org URL | The organization URL of the Microsoft Dataverse instance the site is associated with. |
 
+> [!NOTE]
+> For some of these details, you will be able to see when was the attribute last changed and who changed it. These attributes have an info icon beside them. You can click on it to see this information. E.g., clicking on the info icon beside Site Visibility will show when was it last modified and by whom.
+
 ## Security
 
 | Action | More Information |
