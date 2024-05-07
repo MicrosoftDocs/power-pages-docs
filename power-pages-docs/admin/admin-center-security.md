@@ -61,7 +61,7 @@ Select **View details** to review the external authentication configuration for 
 
 The security health is calculated by looking at various configuration parameters and identifying common issues. These checks aren't exhaustive and we recommend you continue following website security best practices.
 
-The criteria for classifying security health into Standard, Enhanced and Advanced is outlined in the table provided. This criteria might change during the feature preview and before the feature is generally available.
+The criteria for classifying security health into Standard, Enhanced, and Advanced is outlined in the table provided. This criteria might change during the feature preview and before the feature is generally available.
 
 | Health status | Description |
 | - | - |
@@ -74,15 +74,15 @@ Select **View** to review the security checker results.
 
 The checks are flagged as **Warning** when the configurations aren't the same as what Microsoft recommends. There can be cases where your business needs demand the sites to be configured in a way that isn't in the **Recommended** state.
 
+## Site security checks
+
+**Site security checks** shows every security check along with the number of sites for which the check result is passed, failed, warning, or not run.
+
 ## Authentication providers
 
 **Authentication providers** shows the list of all authentication providers that are used across the websites in your tenant, along with the count of all websites in which they're used.
 
 Select **Review** to see the list of websites where the specific authentication provider is used.
-
-## Site security checks
-
-**Site security checks** shows every security check along with the number of sites for which the check result is passed, failed, warning, or not run.
 
 ## Sites with integrations
 
