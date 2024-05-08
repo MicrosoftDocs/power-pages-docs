@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites with the design studio pag
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/03/2024
+ms.date: 05/08/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: kkendrick
@@ -71,7 +71,7 @@ Available styles are based on the component's type. Currently, sections, text, b
 - **Typography** – change the appearance of text, including properties like font-family, font-size, and letter spacing. 
 
 > [!NOTE]
-> Styles applied using the paintbrush icon take precedence over properties set in the Styling workspace and custom CSS. For example, changing the font of a text component using the paintbrush icon overrides the font inherited from a text theme (for example, "Heading 1") in the Styling workspace. 
+> When you use the paintbrush icon to apply styles, these adjustments generally take precedence over settings configured in the Styling workspace and any existing custom CSS. For example, altering the font of a text component with the paintbrush tool will typically override the font specified by a theme (such as Heading 1) or other inherited styles. However, styles defined with the *!important* directive in your custom CSS aren't overridden.
 
 ## Undo/redo
 
