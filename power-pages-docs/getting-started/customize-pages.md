@@ -71,7 +71,7 @@ Available styles are based on the component's type. Currently, sections, text, b
 - **Typography** – change the appearance of text, including properties like font-family, font-size, and letter spacing. 
 
 > [!NOTE]
-> When you use the paintbrush icon to apply styles, these adjustments generally take precedence over settings configured in the Styling workspace and any existing custom CSS. For example, altering the font of a text component with the paintbrush tool will typically override the font specified by a theme (such as "Heading 1") or other inherited styles. However, styles defined with the *!important* directive in your custom CSS aren't overridden.
+> When you use the paintbrush icon to apply styles, these adjustments generally take precedence over settings configured in the Styling workspace and any existing custom CSS. For example, altering the font of a text component with the paintbrush tool will typically override the font specified by a theme (such as "Heading 1") or other inherited styles. However, styles defined with the `!important` directive in your custom CSS aren't overridden.
 
 ## Undo/redo
 
