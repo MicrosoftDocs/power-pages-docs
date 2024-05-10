@@ -1,0 +1,86 @@
+---
+title: Power Pages search with generative AI (preview)
+description: Learn how to enhance search results with generative AI.
+author: nageshbhat-msft
+
+ms.topic: conceptual
+ms.custom: 
+ms.date: 5/15/2024
+ms.subservice: 
+ms.author: nabha
+ms.reviewer: dmartens
+contributors:
+    - nageshbhat-msft
+    - DanaMartens
+---
+
+# Power Pages search with generative AI (preview)
+
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+Using Generative AI for Power Pages Search is about incorporating generative artificial intelligence (AI) models into web search features. Instead of relying on keywords alone, generative AI can comprehend context, meaning, and user goals to produce more suitable and customized search results. This method uses natural language processing (NLP) and machine learning techniques to improve user experience by offering more precise and varied search results.
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../../includes/cc-preview-features-definition.md)]
+> - Your environment must be located in the United States, United Kingdom, Australia, or India regions. <REPLACE THIS WITH A LINK TO AI REGION INFO!>
+> - Your site must be created with English language.
+> - Faceted search isn't available when you enable generative AI search.
+
+## Enable site search with generative AI
+
+> [!NOTE]
+> If a site meets the condition outlined in the pre-requisite section, the Generative search will be enabled by default.
+
+To include Generative AI in Power Pages search:
+
+1. Go to the [Set up workspace](../setup-workspace.md).
+1. Under **Site copilot** select **Site search**.
+1. Turn on **Enable site search with Generative AI** toggle.
+
+## Refine search source
+
+When the search feature is activated on the website, it designates the entire website as a searchable domain. The Dataverse service orchestrates the indexing of the website's content and the configured tables. Then Azure OpenAI aggregates the indexed content for search summarization.
+
+> [!NOTE]
+> The same content is used by both Generative AI search and keyword search.
+
+To customize the source of search content:
+
+1. Open **Site search**.
+1. Under **Refine your data**, choose the **Make changes** button.
+1. Select **Choose tables lookup control** to select or deselect tables.
+    - You can select multiple tables in this section.
+    - Ensure that any table you select is used on the site.
+    - On subsequent pages, you must specify the page where the table is used for generating the citation URL.
+1. Choose **Next**.
+1. Under **Choose table**, select the table that contains the columns and page link you want to select. 
+    - A table doesn't appear unless it has at least one multi-line column.
+    - You can select one table at a time.
+1. Under **Add page link**, select the page where the table is used.
+
+    > [!NOTE]
+    > - Make sure you select the correct page where the table is used. Choosing the wrong table will result in the bot providing an incorrect citation URL for the answers.
+    > - The page must use 'id' as the query string parameter; the citation URL will not function correctly if any other parameter name is used.
+
+1. Under **Choose columns**, select the list of columns that are used in the page.
+    - Only a column with multiline text is available to choose.
+1. Select **Next** and review the selection.
+1. Select **Save** to submit the changes.
+
+## Table row filter
+
+When table is included for search scope, a new view is added to the table as defined in site setting `Search/IndexQueryName`.
+The default value for `Search/IndexQueryName` is "Portal Search".
+
+If you want to further refine the content of the search scope, use this filter to customize it.
+
+## Apply style to search result page
+
+The Power Pages search result page, which is powered by generative AI search follows the themes defined in the [Style workspace](../../getting-started/style-site.md). To make any appearances changes, use the style workspace.
+
+The static content on the search result component is designed using content snippets. If you want to update the Generative AI Summary title or Keyword result title, use the following content snippets:
+
+- Generative AI Summary - `Search/Summary/Title`
+- Keyword search - `Search/Results/Title`
