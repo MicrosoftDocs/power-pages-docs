@@ -5,13 +5,14 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/12/2023
+ms.date: 05/03/2024
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - sandhangitmsft
+    - DanaMartens
 ---
 
 # About basic forms
@@ -20,7 +21,7 @@ Basic forms can be configured in the Power Pages design studio. See [Add a form]
 
 ## Basic form metadata configuration
 
-A data-driven configuration to allow end users to add a form to collect data in the website without the need for a developer to surface the form on the site, Dataverse forms are created in [Data workspace](data-workspace-forms.md) and then used to create basic form components that can be placed into webpages on the website or used with subgrids and lists to build out complete web applications. More information: [About lists](lists.md). 
+A data-driven configuration to allow end users to add a form to collect data in the website without the need for a developer to surface the form on the site, Dataverse forms are created in [Data workspace](data-workspace-forms.md) and then used to create basic form components that can be placed into webpages on the website or used with subgrids and lists to build out complete web applications. More information: [About lists](lists.md).
 
 :::image type="content" source="media/forms/contact-us-form.png" alt-text="Contact us form.":::
   
@@ -30,14 +31,14 @@ The basic form contains relationships to webpages and other properties to contro
 
 To view existing basic forms or to create new basic forms, open the [Portal Management app](./portal-management-app.md) and go to **Content** &gt; **Basic Forms**.
 
-When creating a new basic form, the first step is to decide the **Table** and Dataverse **Form Name** that you are rendering, in addition to the **mode: Insert, Edit, or Read Only**. The mode selected will determine if you're creating a new record from the portal, editing an existing record, or just displaying information about a record on the portal.
+When you create a new basic form, the first step is to decide the **Table** and Dataverse **Form Name** that you're rendering, in addition to the **mode: Insert, Edit, or Read Only**. The mode selected determines if you're creating a new record from the portal, editing an existing record, or just displaying information about a record on the portal.
 
 > [!NOTE]
 > Before you continue, ensure you review [considerations](#considerations) for basic forms.
 
 The webpages associated with the basic form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 
-When creating or editing a webpage, an **Basic Form** can be specified in the lookup field provided on the Web Page form.
+When you create or edit a webpage, a **Basic Form** can be specified in the lookup field provided on the Web Page form.
 
 ## Add a basic form using Liquid
 
@@ -48,7 +49,7 @@ Add basic form can also be added to a website by adding the Liquid tag `{% entit
 >[!NOTE]
 > This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-websites)
 
-To secure your forms, you must create table permissions that determine access and ownership of the records according to web roles. If a user lands on a basic form and doesn't have permissions, they receive an error message. In addition, you'll also see a warning when a form is configured with table permissions not enabled:
+To secure your forms, you must create table permissions that determine access and ownership of the records according to web roles. If a user lands on a basic form and doesn't have permissions, they receive an error message. In addition, you also see a warning when a form is configured with table permissions not enabled:
 
 "Table permissions should be enabled for this record or anyone on the internet can view the data."
 
@@ -59,7 +60,7 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |Name|Description|
 |-----|----------|
 |Name|The descriptive name of the record. This field is required.|
-|Table Name|The name of the table from which the form will be loaded from. This field is required.|
+|Table Name|The name of the table from which the form is loaded. This field is required.|
 |Form Name|    The name of the Form on the target table that is to be rendered. This field is required.|
 |Tab Name|    Optional name of a Tab on a Form for a specified table that is to be rendered.|
 |Mode|One of the following values:<ul><li>Insert</li><li>Edit</li><li>ReadOnly</li></ul>Selecting _Insert_ indicates the form should insert a new record upon submission. Specifying _Edit_ indicates the form should edit an existing record. Selecting _ReadOnly_ indicates the form should display an existing record's non editable form. _Edit_ and _ReadOnly_ requires that a source record exist and parameters specified in the 'Record Source Type' and 'Record ID Parameter Name' fields to select the appropriate record when the form is loaded in the portal.|
@@ -67,7 +68,7 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |Record ID Parameter Name|    A parameter name provided in the query string of the URL to the Web Page containing this Basic Form.|
 |Relationship Name|    Required when Record Source Type is Record Associated to Current Portal User. The logical name of the relationship between the current portal user record and the target record. This must return the same table type specified by the Table Name field.|
 |Allow Create If Null|    An optional boolean value available when Record Source Type is Record Associated to Current Portal User. Indicates that if the related record doesn't exist, allow the user to create it the first time, otherwise an exception is thrown if the record doesn't already exist as the form needs a record to data bind to. <br> **NOTE**: This feature isn't available in multistep forms.|
-|Enable Table Permissions| Will cause the form to respect table permissions. The default is false for backwards compatibility reasons. If set to true, explicit permissions are REQUIRED for any user wanting to access the form. <br> **NOTE**: This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-websites) |
+|Enable Table Permissions| Causes the form to respect table permissions. The default is false for backwards compatibility reasons. If set to true, explicit permissions are REQUIRED for any user wanting to access the form. <br> **NOTE**: This method of securing forms would be deprecated soon. Therefore, it shouldn't be used. Use proper [table permissions](../security/table-permissions.md), and web role setup to provide access to users for any data instead. More information: [Table permission changes for forms and lists on new portals](../important-changes-deprecations.md#table-permission-changes-for-forms-and-lists-on-new-websites) |
 |||
 
 ### Form Options
@@ -77,7 +78,7 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |Add Captcha|    Displays captcha. |
 |Show Captcha for Authenticated users|    Displays captcha for authenticated users.|
 |Validation Group|    The group name assigned to input controls for evaluating valid input of named groups.|
-|Auto Generate Steps From Tabs|    Indicates that multiple tabs on a basic form will be displayed with each tab as a sequential step starting with the first tab and continue until all tabs have been navigated to and upon final submission a record is inserted. By default, it is not selected. The default value indicates that only one tab or form is to be rendered for the current step. If the Tab Name is not specified, then the first tab is displayed.|
+|Auto Generate Steps From Tabs|    Indicates that multiple tabs on a basic form are displayed with each tab as a sequential step starting with the first tab and continue until all tabs are navigated to and upon final submission a record is inserted. By default, it isn't selected. The default value indicates that only one tab or form is to be rendered for the current step. If the Tab Name isn't specified, then the first tab is displayed.|
 |Render Web Resources Inline|    Eliminates the iframe that encompasses a web resource in a basic form.|
 |ToolTips Enabled|    The tooltip is set using the description of the attribute on the target table.|
 |Show Unsupported Fields|    Show or hide column names with unsupported Dataverse column types. |
@@ -88,7 +89,7 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |Validation Summary Link Text|    The label assigned to the validation summary links. Default value is 'click here'.|
 |Validation Summary Header Text|    The label assigned to the validation summary header.|
 |Instructions|    Instructions to work with the form.|
-|Record Not Found Message|    Message to be displayed when a record is not found.|
+|Record Not Found Message|    Message to be displayed when a record isn't found.|
 |||
 
 ### On Success Settings
@@ -97,10 +98,10 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |----|----------|
 |On Success|    One of the following values:<ul><li>Display Success Message (Default)</li><li>Redirect</li></ul>|
 |Hide Form on Success|    Requires On Success set to Display Success Message. When selected, the form is hidden upon successful submission of the form.|
-|Success Message|    Requires On Success set to Display Success Message. The message displayed to the user upon successful submission. If one is not specified a default message (Submission completed successfully") will be displayed. For each language pack installed and enabled for the organization a field will be available to enter the message in the associated language.|
+|Success Message|    Requires On Success set to Display Success Message. The message displayed to the user upon successful submission. If one isn't specified, a default message (Submission completed successfully") is displayed. For each language pack installed and enabled for the organization a field is available to enter the message in the associated language.|
 |External URL|Requires On Success set to Redirect. Specify a URL to an external resource on the web.
 |or Web Page|Requires On Success set to Redirect. Select a Web Page from the current website.|
-|Append Existing Query String|    Requires On Success set to Redirect. When selected, the existing query string parameters will be added to the target URL prior to redirection.|
+|Append Existing Query String|    Requires On Success set to Redirect. When selected, the existing query string parameters are added to the target URL before redirection.|
 |Append Record ID To Query String|     Requires On Success set to Redirect. When selected, the ID of the record created is appended to the query string of the URL being redirected to.|
 |Record ID Parameter Name|     Requires On Success set to Redirect. The name of the ID parameter in the query string of the URL being redirected to.|
 |Append Custom Query String|    Requires On Success set to Redirect. A custom string that can be appended to the existing Query String of the redirect URL.|
@@ -115,34 +116,34 @@ To enable permissions for a basic form, select the checkbox to **Enable Table Pe
 |Associate Current Portal User|    Indicates the currently logged in user's record should be associated with the target table record.|
 |Portal User Lookup Column|    The logical name of the attribute on the target table that stores the portal user.|
 |Is Activity Party|    Boolean value indicating whether or not the Portal User Lookup Column is an Activity Party type.|
-|Attach File |  Select to have the form include a file upload control at the bottom of the form to allow a file to be attached to the record. <br> **Note**: Portals with [version 9.2.2.x and later](https://support.microsoft.com/help/4541765/power-apps-portals-version-9-2-2-x-release) do not require enabling **Enable Table Permissions** on the basic form to attach files. However, if you have it selected, you must ensure that appropriate privileges are provided on the parent table and the annotation table to display the **Attach File** button on the form. Annotation table must have at least **Create** and **Append** privileges and the parent table must have the corresponding **AppendTo** privilege. Depending on whether you have a create or update form, you may also need **Create**, **Read** and **Write** privileges to complete the scenario of the form. Uploaded files can be shown by enabling the timeline control. See [Configure notes](configure-notes.md) for additional details. |
+|Attach File |  Select to have the form include a file upload control at the bottom of the form to allow a file to be attached to the record. <br> **Note**: Portals with [version 9.2.2.x and later](https://support.microsoft.com/help/4541765/power-apps-portals-version-9-2-2-x-release) don't require enabling **Enable Table Permissions** on the basic form to attach files. However, if you select it, you must ensure that appropriate privileges are provided on the parent table and the annotation table to display the **Attach File** button on the form. Annotation table must have at least **Create** and **Append** privileges and the parent table must have the corresponding **AppendTo** privilege. Depending on whether you have a create or update form, you might also need **Create**, **Read, and **Write** privileges to complete the scenario of the form. Uploaded files can be shown by enabling the timeline control. See [Configure notes](configure-notes.md) for additional details. |
 |Attach File Storage Location|    Options: Note Attachment, Azure Blob Storage. If your organization is configured to use Azure Storage, you can choose to storage uploaded files for this basic Form there. Otherwise, files with be stored as Note Attachments.|
 |Allow Multiple Files|Boolean value indicating whether or not the user can upload more than one file.|
 |Accept|    The accept attribute specifies the MIME types of files that the server accepts through file upload. To specify more than one value, separate the values with a comma (for example,  audio/*,video/*,image/*).|
-|Label|    The text displayed next to the file upload control. For each language pack installed and enabled for the organization a field will be available to enter the message in the associated language.|
+|Label|    The text displayed next to the file upload control. For each language pack installed and enabled for the organization a field is available to enter the message in the associated language.|
 |Attach File Required| Makes the attachment of a file required to proceed.|
-|Required Error Message|The message displayed during form validation if Is Required is true and the user has not attached a file. For each language pack installed and enabled for the organization a field will be available to enter the message in the associated language.|
-|Restrict Files to Accepted Types|    Forces validation on the Accept field. If not selected, the Accept attribute will only be used as a suggestion for the file upload dialog.|
-|File Type Error Message|The message displayed during form validation if Restrict Files to Accepted Types is true and the user has attempted to upload an invalid file type. For each language pack installed and enabled for the organization a field will be available to enter the message in the associated language.|
+|Required Error Message|The message displayed during form validation if Is Required is true and the user hasn't attached a file. For each language pack installed and enabled for the organization a field is available to enter the message in the associated language.|
+|Restrict Files to Accepted Types|    Forces validation on the Accept field. If not selected, the Accept attribute is only used as a suggestion for the file upload dialog.|
+|File Type Error Message|The message displayed during form validation if Restrict Files to Accepted Types is true and the user attempts to upload an invalid file type. For each language pack installed and enabled for the organization a field is available to enter the message in the associated language.|
 |Maximum File Size (in kilobytes)|    Forces validation on the maximum allowed size of the uploaded file.|
-|File Size Error Message|    The message displayed during form validation if Maximum File Size (in kilobytes) is true and the user has attempted to upload a file that is too large. For each language pack installed and enabled for the organization a field will be available to enter the message in the associated language.|
-|Custom JavaScript|    A custom block of JavaScript that will added to the bottom of the page just before the closing form tag element. The HTML input id of a table field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client-side manipulation easy with jQuery.<br>`$(document).ready(function() {   $("#address1_stateorprovince").val("Saskatchewan");});`|
+|File Size Error Message|    The message displayed during form validation if Maximum File Size (in kilobytes) is true and the user has attempted to upload a file that is too large. For each language pack installed and enabled for the organization a field is available to enter the message in the associated language.|
+|Custom JavaScript|    A custom block of JavaScript is added to the bottom of the page just before the closing form tag element. The HTML input ID of a table field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client-side manipulation easy with jQuery.<br>`$(document).ready(function() {   $("#address1_stateorprovince").val("Saskatchewan");});`|
 |||
 
 ### Associated Table Reference
 
 The following parameters pertain to setting an associated table reference when the form is saved.
 
-This provides a way to associate the current record being created or updated by the form with another target record. This is useful if you have multiple steps with multiple table types and wish to relate the resulting records or if the page is passed a query string of a record id that you would like associated. For example we have a careers page that lists job postings, each with a link to an application for the job that contains the id of the job posting to the application form so that when the application is created the job posting is associated with the record. 
+This provides a way to associate the current record being created or updated by the form with another target record. This is useful if you have multiple steps with multiple table types and wish to relate the resulting records or if the page is passed a query string of a record ID that you would like associated. For example, we have a careers page that lists job postings, each with a link to an application for the job that contains the ID of the job posting to the application form so that when the application is created the job posting is associated with the record.
 
 |Name|Description|
 |-----|---------|
-|Set Table Reference On Save|Yes or No. A value of yes indicates that an associated table reference should be assigned when the form is saved, otherwise none will be set.|
+|Set Table Reference On Save|Yes or No. A value of yes indicates that an associated table reference should be assigned when the form is saved, otherwise none is set.|
 |Relationship Name|The Relationship Definition Name for a given relationship between two table types.|
 |Table Logical Name|The logical name of the reference table.|
 |Target Lookup Attribute Logical Name|Logical name of the lookup attribute on the target table being created or updated.|
-|Populate Lookup Field|    If the lookup regarding the reference table is on the form, checking this value will populate the field on the form with the value retrieved using the setting below.|
-|Source Type|    One of the following values:<ul><li>Query String <br> Selecting _Query String_ requires a parameter name that must be provided in the query string of the URL to the form. This can be specified in the **Query String Name** field. If this parameter is the primary key then select Yes for the **Query String Is Primary Key**, otherwise select No and provide the logical name of the attribute on the target table to query by specified in the **Query Attribute Logical Name** field.</li><li>Current Portal User <br> Selecting Current Portal User will retrieve the contact record for the current authenticated user.</li></ul>|
+|Populate Lookup Field|    If the lookup regarding the reference table is on the form, checking this value populates the field on the form with the value retrieved using the setting below.|
+|Source Type|    One of the following values:<ul><li>Query String <br> Selecting _Query String_ requires a parameter name that must be provided in the query string of the URL to the form. This can be specified in the **Query String Name** field. If this parameter is the primary key, then select Yes for the **Query String Is Primary Key**, otherwise select No and provide the logical name of the attribute on the target table to query by specified in the **Query Attribute Logical Name** field.</li><li>Current Portal User <br> Selecting Current Portal User retrieves the contact record for the current authenticated user.</li></ul>|
 |Reference Table Step|    The Multistep Form Step record of a previous step to retrieve the Table created or edited in that step to associate it with the record for this current step.|
 |Query String Name|    Parameter name provided in the Query String of the URL to the Web Page containing the Multistep Form.|
 |Query String Is Primary Key|    Yes indicates the Query String value is the Primary Key value. No indicates the Query String value is an attribute type other than the Primary Key.|
@@ -151,14 +152,13 @@ This provides a way to associate the current record being created or updated by 
 |Form Name|    The name of the form on the reference table that should be used to display read-only details.|
 |||
 
-
 ## Basic form action configuration
 
-By default a Basic Form will allow for reading or updating of an existing record, or the insertion of a new record.  However, you can easily enable and configure additional actions for records in a Basic Form  as well (Delete, Activate, Deactivate, etc.). It is also possible to override default labels, sizes, and other attributes that will appear if there are actions enabled.
+By default a Basic Form allows for reading or updating of an existing record, or the insertion of a new record.  However, you can easily enable and configure more actions for records in a Basic Form  as well (Delete, Activate, Deactivate, etc.). It's also possible to override default labels, sizes, and other attributes that appear if there are actions enabled.
 
 These settings are found in the **Additional Settings** section of the basic form. By default, only **Basic Settings** are shown. You can select **Advanced Settings** to show additional settings.
 
-You can add action buttons for the actions that are applicable for an individual record and will appear for each row in the grid provided the appropriate privilege has been granted by [table permissions](../security/table-permissions.md). The following actions are available:
+You can add action buttons for the actions that are applicable for an individual record and appear for each row in the grid provided the appropriate privilege is granted by [table permissions](../security/table-permissions.md). The following actions are available:
 
 - Delete
 - Workflow
@@ -186,7 +186,7 @@ Clicking on one of these options displays a configuration area for that action. 
 
 A form can be configured to display a map control to either display an existing location as a pin on a map or to provide the ability for the user to specify a location. See [Add Geolocation](add-geolocation.md).
 
-The form's map control requires additional configuration to tell it what the IDs of the various location fields are, to assign values to them or retrieve values from them. The basic form record has a configuration section that defines these field mappings that you must specify. The field names will vary depending on the schema you have created.
+The form's map control requires extra configuration to tell it what the IDs of the various location fields are, to assign values to them or retrieve values from them. The basic form record has a configuration section that defines these field mappings that you must specify. The field names vary depending on the schema you created.
 
 :::image type="content" source="media/forms/geolocation-managed-form.png" alt-text="Geolocation data in basic form.":::
 
@@ -197,15 +197,18 @@ The form's map control requires additional configuration to tell it what the IDs
 
 ## Request validation
 
-[Request validation](/aspnet/whitepapers/request-validation), a feature of ASP.NET since version 1.1, prevents the server from accepting content containing un-encoded HTML. This feature is designed to help prevent some script-injection attacks whereby client script code or HTML can be unknowingly submitted to a server, stored, and then presented to other users. We still strongly recommend that you validate all input data and HTML encode it when appropriate.
+[Request validation](/aspnet/whitepapers/request-validation), a feature of ASP.NET since version 1.1, prevents the server from accepting content containing unencoded HTML. This feature is designed to help prevent some script-injection attacks whereby client script code or HTML can be unknowingly submitted to a server, stored, and then presented to other users. We still strongly recommend that you validate all input data and HTML encode it when appropriate.
 
 By default, request validation is enabled on portal resulting in following generic error if you enter script code without HTML encoding inside basic form fields:
 
 `Found field(s) submitted with potentially dangerous value(s) such as HTML, or script. Please review the field value(s) and try again.`
 
+> [!Note]
+> To prevent any malicious code execution, including script blocks, you can update the **Site/DisableFormDataSafeHtmlValidation** site setting to **false**.  By default, the setting is **true** and only the script block is validated.
+
 To disable request validation, follow these steps:
 
-1. Open the [Portal Management app](portal-management-app.md)
+1. Open the [Portal Management app](portal-management-app.md).
 
 1. Go to **Site Settings**.
 
@@ -232,8 +235,8 @@ To disable request validation, follow these steps:
 - Field level code components can be added to forms. More information: [Use code components](/power-apps/maker/portals/component-framework) 
 - Business rules and client API can enable locked fields on a read-only form.
 - If you create a basic form in the **Insert** mode, you can't change a button's alignment or place an action button above the basic form.
-- If you render a lookup control as a dropdown list on the form, the related records filter does not work.
-- Rollup columns on forms may sometimes show up as editable although they're intended to be read-only. To ensure that these columns remain read-only, mark the column as **Read-only** on the Dataverse form.
+- If you render a lookup control as a dropdown list on the form, the related records filter doesn't work.
+- Rollup columns on forms might sometimes show up as editable although they're intended to be read-only. To ensure that these columns remain read-only, mark the column as **Read-only** on the Dataverse form.
 
 ### See also
 
