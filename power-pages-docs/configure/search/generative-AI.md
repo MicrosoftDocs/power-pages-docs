@@ -16,7 +16,6 @@ contributors:
 
 # Power Pages search with generative AI (preview)
 
-
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Using Generative AI for Power Pages Search is about incorporating generative artificial intelligence (AI) models into web search features. Instead of relying on keywords alone, generative AI can comprehend context, meaning, and user goals to produce more suitable and customized search results. This method uses natural language processing (NLP) and machine learning techniques to improve user experience by offering more precise and varied search results.
@@ -31,30 +30,30 @@ Using Generative AI for Power Pages Search is about incorporating generative art
 ## Enable site search with generative AI
 
 > [!NOTE]
-> If a site meets the condition outlined in the pre-requisite section, the Generative search will be enabled by default.
+> If a site meets the condition outlined in the pre-requisite section, generative AI search will be enabled by default.
 
-To include Generative AI in Power Pages search:
+To include generative AI in Power Pages search:
 
 1. Go to the [Set up workspace](../setup-workspace.md).
-1. Under **Site copilot** select **Site search**.
-1. Turn on **Enable site search with Generative AI** toggle.
+1. Under **Copilot** select **Site search (preview)**.
+1. Turn on **Enable Site search with generative AI (preview)**.
 
 ## Refine search source
 
 When the search feature is activated on the website, it designates the entire website as a searchable domain. The Dataverse service orchestrates the indexing of the website's content and the configured tables. Then Azure OpenAI aggregates the indexed content for search summarization.
 
 > [!NOTE]
-> The same content is used by both Generative AI search and keyword search.
+> The same content is used by both generative AI search and keyword search.
 
 To customize the source of search content:
 
-1. Open **Site search**.
-1. Under **Refine your data**, choose the **Make changes** button.
+1. Within the [Set up workspace](../setup-workspace.md), select **Site search**.
+1. Under **Refine your data**, select **Make changes**.
 1. Select **Choose tables lookup control** to select or deselect tables.
     - You can select multiple tables in this section.
     - Ensure that any table you select is used on the site.
     - On subsequent pages, you must specify the page where the table is used for generating the citation URL.
-1. Choose **Next**.
+1. Select **Next**.
 1. Under **Choose table**, select the table that contains the columns and page link you want to select. 
     - A table doesn't appear unless it has at least one multi-line column.
     - You can select one table at a time.
@@ -65,7 +64,7 @@ To customize the source of search content:
     > - The page must use 'id' as the query string parameter; the citation URL will not function correctly if any other parameter name is used.
 
 1. Under **Choose columns**, select the list of columns that are used in the page.
-    - Only a column with multiline text is available to choose.
+    - Only columns with multiline text are available to select.
 1. Select **Next** and review the selection.
 1. Select **Save** to submit the changes.
 
