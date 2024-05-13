@@ -49,15 +49,15 @@ To customize the source of search content:
 
 1. Within the [Set up workspace](../setup-workspace.md), select **Site search**.
 1. Under **Refine your data**, select **Make changes**.
-1. Select **Choose tables lookup control** to select or deselect tables.
+1. Select **Choose tables** to select or deselect tables.
     - You can select multiple tables in this section.
     - Ensure that any table you select is used on the site.
-    - On subsequent pages, you must specify the page where the table is used for generating the citation URL.
+    - On subsequent pages, you must specify the page where the table is used to create the citation URL.
 1. Select **Next**.
-1. Under **Choose table**, select the table that contains the columns and page link you want to select. 
+1. Select **Choose table** and select the table that contains the columns and page link you want to select.
     - A table doesn't appear unless it has at least one multi-line column.
     - You can select one table at a time.
-1. Under **Add page link**, select the page where the table is used.
+1. Under **Choose page to associate with the table**, select the page where the table is used.
 
     > [!NOTE]
     > - Make sure you select the correct page where the table is used. Choosing the wrong table will result in the bot providing an incorrect citation URL for the answers.
@@ -66,6 +66,10 @@ To customize the source of search content:
 1. Under **Choose columns**, select the list of columns that are used in the page.
     - Only columns with multiline text are available to select.
 1. Select **Next** and review the selection.
+
+    > [!IMPORTANT]
+    > If you selected more than one table, you need to configure the page and column options for each table before you can select **Next**.
+
 1. Select **Save** to submit the changes.
 
 ## Table row filter
