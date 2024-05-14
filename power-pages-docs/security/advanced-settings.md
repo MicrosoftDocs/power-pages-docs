@@ -14,7 +14,13 @@ contributors:
 
 # Advanced settings (preview)
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The Security workspace allows you to further protect your site content and data from security threats directly from Power Pages design studio. Use Advanced settings to configure HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, and permissions.
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 1. Sign in to Power Pages and open your site for editing.
 1. Select **Security Workspace** from left navigation and then choose **Advanced settings (preview)**
