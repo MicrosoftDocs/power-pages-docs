@@ -1,10 +1,10 @@
 ---
 title: Debug your Power Pages site with the DevTools extension
-description: Learn how to use the Power Pages DevTools extension to debug a Power Pages site.
+description: Learn how to use the Power Pages DevTools browser extension to debug a Power Pages site.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/01/2024
+ms.date: 05/14/2024
 ms.subservice:
 ms.author: nabha
 ms.reviewer: dmartens
@@ -37,7 +37,7 @@ To install the DevTools extension for Power Pages:
 ## Enable diagnostic setting
 
 > [!NOTE]
-> If your [site visibility](../security/site-visibility.md) status is private, the diagnostic setting is enabled by default
+> If your [site visibility](../security/site-visibility.md) status is private, the diagnostic setting is enabled by default.
 
 To enable the diagnostic setting for a public website:
 
