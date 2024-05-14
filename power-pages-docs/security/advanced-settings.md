@@ -50,9 +50,6 @@ For each you can either choose specific URL, all domains or none.
 
 For advanced configuration follow [Manage your site's Content Security Policy \| Microsoft Learn](https://learn.microsoft.com/en-us/power-pages/security/manage-content-security-policy#set-your-sites-csp)
 
-**  
-**
-
 **Configure Cross origin resource sharing (CORS)**
 
 Cross-origin resource sharing, or CORS, is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain
