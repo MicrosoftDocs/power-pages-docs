@@ -49,5 +49,5 @@ Protect your Power Pages site from common security exploits and vulnerabilities 
 
 ### Advanced settings (preview)
 
-Use Advanced settings to configure  HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, and permissions.
+Use [Advanced settings (preview)](../security/advanced-settings.md) to configure  HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, and permissions.
 

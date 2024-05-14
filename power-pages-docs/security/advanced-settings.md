@@ -18,9 +18,9 @@ The Security workspace allows you to further protect your site content and data 
 
 1.  Sign in to Power Pages and open your site for editing.
 
-2.  Select '**Security Workspac**e' from left navigation and then choose '**Advanced settings (preview)'**
+2.  Select '**Security Workspace**' from left navigation and then choose '**Advanced settings (preview)'**
 
-**Configure Content security policy (CSP)**
+## Configure Content security policy (CSP)
 
 Content Security Policy or CSP, is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack
 
@@ -50,7 +50,7 @@ For each you can either choose specific URL, all domains or none.
 
 For advanced configuration follow [Manage your site's Content Security Policy \| Microsoft Learn](https://learn.microsoft.com/en-us/power-pages/security/manage-content-security-policy#set-your-sites-csp)
 
-**Configure Cross origin resource sharing (CORS)**
+## Configure Cross origin resource sharing (CORS)
 
 Cross-origin resource sharing, or CORS, is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain
 
@@ -120,9 +120,6 @@ Directives supported
 | Web-Share                       | Controls access to the Web-Share API                                                                            |
 | Window-Management               | Controls access to the Window-Management API                                                                    |
 | Xr-Spatial-Tracking             | Controls access to the Xr-Spatial-Tracking API                                                                  |
-
-**  
-**
 
 ## Configure more HTTP Headers
 
