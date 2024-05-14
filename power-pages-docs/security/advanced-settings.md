@@ -80,45 +80,44 @@ Directives supported
 
 Permissions-Policy header allows web developers to control which web platform features are allowed or denied on a web page.
 
-Directives supported
+Permissions - Policy header allows web developers to control which web platform features are allowed or denied on a web page.
 
-| **Directive**                   | **Description**                                                                                                 |
-|---------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Permissions                     | Policy header allows web developers to control which web platform features are allowed or denied on a web page. |
-| Accelerometer                   | Controls access to the Accelerometer API                                                                        |
-| Ambient-Light-Sensor            | Controls access to the Ambient-Light-Sensor API                                                                 |
-| Autoplay                        | Controls access to the Autoplay API                                                                             |
-| Battery                         | Controls access to the Battery API                                                                              |
-| Camera                          | Controls access to the Camera API                                                                               |
-| Display                         | Capture Controls access to the Display-Capture API                                                              |
-| Document-Domain                 | Controls access to the Document-Domain API                                                                      |
-| Encrypted-Media                 | Controls access to the Encrypted-Media API                                                                      |
-| Execution-While-Not-Rendered    | Controls access to the Execution-While-Not-Rendered API                                                         |
-| Execution-While-Out-Of-Viewport | Controls access to the Execution-While-Out-Of-Viewport API                                                      |
-| Fullscreen                      | Controls access to the Fullscreen API                                                                           |
-| Gamepad                         | Controls access to the Gamepad API                                                                              |
-| Geolocation                     | Controls access to the Geolocation API                                                                          |
-| Gyroscope                       | Controls access to the Gyroscope API                                                                            |
-| Hid                             | Controls access to the Hid API                                                                                  |
-| Identity-Credentials-Get        | Controls access to the Identity-Credentials-Get API                                                             |
-| Idle-Detection                  | Controls access to the Idle-Detection API                                                                       |
-| Local-Fonts                     | Controls access to the Local-Fonts API                                                                          |
-| Magnetometer                    | Controls access to the Magnetometer API                                                                         |
-| Microphone                      | Controls access to the Microphone API                                                                           |
-| Midi                            | Controls access to the Midi API                                                                                 |
-| Otp-Credentials                 | Controls access to the Otp-Credentials API                                                                      |
-| Payment                         | Controls access to the Payment API                                                                              |
-| Picture-In-Picture              | Controls access to the Picture-In-Picture API                                                                   |
-| Publickey-Credentials-Create    | Controls access to the Publickey-Credentials-Create API                                                         |
-| Publickey-Credentials-Get       | Controls access to the Publickey-Credentials-Get API                                                            |
-| Screen-Wake-Lock                | Controls access to the Screen-Wake-Lock API                                                                     |
-| Serial                          | Controls access to the Serial API                                                                               |
-| Speaker-Selection               | Controls access to the Speaker-Selection API                                                                    |
-| Storage-Access                  | Controls access to the Storage-Access API                                                                       |
-| Usb                             | Controls access to the Usb API                                                                                  |
-| Web-Share                       | Controls access to the Web-Share API                                                                            |
-| Window-Management               | Controls access to the Window-Management API                                                                    |
-| Xr-Spatial-Tracking             | Controls access to the Xr-Spatial-Tracking API                                                                  |
+The following directives are supported and control access to their respective APIs.
+
+- Accelerometer
+- Ambient-Light-Sensor
+- Autoplay
+- Battery
+- Camera
+- Display
+- Document-Domain
+- Encrypted-Media
+- Execution-While-Not-Rendered
+- Execution-While-Out-Of-Viewport
+- Fullscreen
+- Gamepad
+- Geolocation
+- Gyroscope
+- Hid
+- Identity-Credentials-Get
+- Idle-Detection
+- Local-Fonts
+- Magnetometer
+- Microphone
+- Midi
+- Otp-Credentials
+- Payment
+- Picture-In-Picture
+- Publickey-Credentials-Create
+- Publickey-Credentials-Get
+- Screen-Wake-Lock
+- Serial
+- Speaker-Selection
+- Storage-Access
+- Usb
+- Web-Share
+- Window-Management
+- Xr-Spatial-Tracking
 
 ## Configure more HTTP Headers
 
