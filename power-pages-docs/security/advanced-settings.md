@@ -86,8 +86,6 @@ Directives supported
 
 Permissions-Policy header allows web developers to control which web platform features are allowed or denied on a web page.
 
-Permissions - Policy header allows web developers to control which web platform features are allowed or denied on a web page.
-
 ### Directives 
 
 The following directives are supported and control access to their respective APIs.
