@@ -87,106 +87,44 @@ Permissions - Policy header allows web developers to control which web platform 
 The following directives are supported and control access to their respective APIs.
 
 :::row:::
-   :::column span="":::
-      Accelerometer
-   :::column-end:::
-   :::column span="":::
-      Ambient-Light-Sensor
-   :::column-end:::
-   :::column span="":::
-      Autoplay
-   :::column-end:::
-   :::column span="":::
-      Battery
-   :::column-end:::
-   :::column span="":::
-      Camera
-   :::column-end:::
-   :::column span="":::
-      Display
-   :::column-end:::
-   :::column span="":::
-      Document-Domain
-   :::column-end:::
-   :::column span="":::
-      Encrypted-Media
-   :::column-end:::
-   :::column span="":::
-      Execution-While-Not-Rendered
-   :::column-end:::
-   :::column span="":::
-      Execution-While-Out-Of-Viewport
-   :::column-end:::
-   :::column span="":::
-      Fullscreen
-   :::column-end:::
-   :::column span="":::
+   :::column span="11":::
+      Accelerometer<br />
+      Ambient-Light-Sensor<br />
+      Autoplay<br />
+      Battery<br />
+      Camera<br />
+      Display<br />
+      Document-Domain<br />
+      Encrypted-Media<br />
+      Execution-While-Not-Rendered<br />
+      Execution-While-Out-Of-Viewport<br />
+      Fullscreen<br />
       Gamepad
    :::column-end:::
-   :::column span="":::
-      Geolocation
-   :::column-end:::
-   :::column span="":::
-      Gyroscope
-   :::column-end:::
-   :::column span="":::
-      Hid
-   :::column-end:::
-   :::column span="":::
-      Identity-Credentials-Get
-   :::column-end:::
-   :::column span="":::
-      Idle-Detection
-   :::column-end:::
-   :::column span="":::
-      Local-Fonts
-   :::column-end:::
-   :::column span="":::
-      Magnetometer
-   :::column-end:::
-   :::column span="":::
-      Microphone
-   :::column-end:::
-   :::column span="":::
-      Midi
-   :::column-end:::
-   :::column span="":::
-      Otp-Credentials
-   :::column-end:::
-   :::column span="":::
+   :::column span="11":::
+      Geolocation<br />
+      Gyroscope<br />
+      Hid<br />
+      Identity-Credentials-Get<br />
+      Idle-Detection<br />
+      Local-Fonts<br />
+      Magnetometer<br />
+      Microphone<br />
+      Midi<br />
+      Otp-Credentials<br />
       Payment
    :::column-end:::
-   :::column span="":::
-      Picture-In-Picture
-   :::column-end:::
-   :::column span="":::
-      Publickey-Credentials-Create
-   :::column-end:::
-   :::column span="":::
-      Publickey-Credentials-Get
-   :::column-end:::
-   :::column span="":::
-      Screen-Wake-Lock
-   :::column-end:::
-   :::column span="":::
-      Serial
-   :::column-end:::
-   :::column span="":::
-      Speaker-Selection
-   :::column-end:::
-   :::column span="":::
-      Storage-Access
-   :::column-end:::
-   :::column span="":::
-      Usb
-   :::column-end:::
-   :::column span="":::
-      Web-Share
-   :::column-end:::
-   :::column span="":::
-      Window-Management
-   :::column-end:::
-   :::column span="":::
+   :::column span="11":::
+      Picture-In-Picture<br />
+      Publickey-Credentials-Create<br />
+      Publickey-Credentials-Get<br />
+      Screen-Wake-Lock<br />
+      Serial<br />
+      Speaker-Selection<br />
+      Storage-Access<br />
+      Usb<br />
+      Web-Share<br />
+      Window-Management<br />
       Xr-Spatial-Tracking
    :::column-end:::
 :::row-end:::
