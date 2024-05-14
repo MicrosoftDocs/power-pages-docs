@@ -29,7 +29,9 @@ The Security workspace allows you to further protect your site content and data 
 
 Content Security Policy or CSP, is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack
 
-Directives supported
+### Directives
+
+The following directives are supported.
 
 | **Directive** | **Description** |
 |-------------------------|-------------------------|
@@ -48,9 +50,6 @@ Directives supported
 | Manifest source | Specifies valid sources for web workers, including dedicated workers, shared workers, and service workers. It helps control from which origins these worker scripts can be loaded and executed. |
 | Child source | Specifies valid sources for web workers, including dedicated workers, shared workers, and service workers. It helps control from which origins these worker scripts can be loaded and executed. |
 
-
-Values supported
-
 For each you can either choose specific URL, all domains or none.
 
 For advanced configuration, see [Manage your site's Content Security Policy](manage-content-security-policy.md#set-your-sites-csp).
@@ -58,6 +57,10 @@ For advanced configuration, see [Manage your site's Content Security Policy](man
 ## Configure Cross origin resource sharing (CORS)
 
 Cross-origin resource sharing, or CORS, is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain
+
+### Directives
+
+The following directives are supported.
 
 | **Directive** | **Description** | **Value(s)** |
 |-------------------------|-------------------------|-------------------------|
@@ -74,7 +77,9 @@ Cross-origin resource sharing, or CORS, is used by web browsers to allow or rest
 
 The Cookie header in an HTTP request contains information about cookies previously stored by a website in your browser. When you visit a website, your browser sends a Cookie header containing all relevant cookies associated with that site back to the server
 
-Directives supported
+### Directives
+
+The following directives are supported.
 
 | **Directive**                       | **Description**                                                                                                                                                                          | **Header**                                                        |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -137,15 +142,13 @@ The following directives are supported and control access to their respective AP
 
 ### Allow secure connection over HTTPS
 
-The setting corresponding to the HTTP Strict-Transport-Security header informs the browser that it should only connect to the website over HTTPS, even if the user enters "http://" in the address bar. It helps prevent man-in-the-middle attacks by ensuring that all communication with the server is encrypted and protect against certain types of attacks, such as protocol downgrade attacks and cookie hijacking
+The setting corresponding to the HTTP Strict-Transport-Security header informs the browser that it should only connect to the website over HTTPS, even if the user enters "http://" in the address bar. It helps prevent man-in-the-middle attacks by ensuring that all communication with the server is encrypted and protect against certain types of attacks, such as protocol downgrade attacks and cookie hijacking.
 
 For security reasons this setting cannot be modified
 
 ### Include referrer information in HTTP headers
 
-The Referrer-Policy HTTP header is used to control how much information about the origin of the request (referrer information) is disclosed in the HTTP headers when a user navigates from one page to another. This header helps control privacy and security aspects related to referrer information
-
-Values
+The Referrer-Policy HTTP header is used to control how much information about the origin of the request (referrer information) is disclosed in the HTTP headers when a user navigates from one page to another. This header helps control privacy and security aspects related to referrer information.
 
 | **Value**                     | **Description**                                                                                                                                                  |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
