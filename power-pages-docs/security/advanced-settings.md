@@ -94,44 +94,44 @@ The following directives are supported and control access to their respective AP
 
 :::row:::
    :::column span="11":::
-      Accelerometer<br />
-      Ambient-Light-Sensor<br />
-      Autoplay<br />
-      Battery<br />
-      Camera<br />
-      Display<br />
-      Document-Domain<br />
-      Encrypted-Media<br />
-      Execution-While-Not-Rendered<br />
-      Execution-While-Out-Of-Viewport<br />
-      Fullscreen<br />
+      - Accelerometer<br />
+      - Ambient-Light-Sensor<br />
+      - Autoplay<br />
+      - Battery<br />
+      - Camera<br />
+      - Display<br />
+      - Document-Domain<br />
+      - Encrypted-Media<br />
+      - Execution-While-Not-Rendered<br />
+      - Execution-While-Out-Of-Viewport<br />
+      - Fullscreen<br />
       Gamepad
    :::column-end:::
    :::column span="11":::
-      Geolocation<br />
-      Gyroscope<br />
-      Hid<br />
-      Identity-Credentials-Get<br />
-      Idle-Detection<br />
-      Local-Fonts<br />
-      Magnetometer<br />
-      Microphone<br />
-      Midi<br />
-      Otp-Credentials<br />
-      Payment
+      - Geolocation<br />
+      - Gyroscope<br />
+      - Hid<br />
+      - Identity-Credentials-Get<br />
+      - Idle-Detection<br />
+      - Local-Fonts<br />
+      - Magnetometer<br />
+      - Microphone<br />
+      - Midi<br />
+      - Otp-Credentials<br />
+      - Payment
    :::column-end:::
    :::column span="11":::
-      Picture-In-Picture<br />
-      Publickey-Credentials-Create<br />
-      Publickey-Credentials-Get<br />
-      Screen-Wake-Lock<br />
-      Serial<br />
-      Speaker-Selection<br />
-      Storage-Access<br />
-      Usb<br />
-      Web-Share<br />
-      Window-Management<br />
-      Xr-Spatial-Tracking
+      - Picture-In-Picture<br />
+      - Publickey-Credentials-Create<br />
+      - Publickey-Credentials-Get<br />
+      - Screen-Wake-Lock<br />
+      - Serial<br />
+      - Speaker-Selection<br />
+      - Storage-Access<br />
+      - Usb<br />
+      - Web-Share<br />
+      - Window-Management<br />
+      - Xr-Spatial-Tracking
    :::column-end:::
 :::row-end:::
 
