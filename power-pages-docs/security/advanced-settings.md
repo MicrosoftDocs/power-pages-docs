@@ -19,6 +19,7 @@ contributors:
 The Security workspace allows you to further protect your site content and data from security threats directly from Power Pages design studio. Use Advanced settings to configure HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, and permissions.
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
@@ -27,7 +28,7 @@ The Security workspace allows you to further protect your site content and data 
 
 ## Configure Content security policy (CSP)
 
-Content Security Policy or CSP, is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack
+Content Security Policy or CSP, is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack.
 
 ### Directives
 
@@ -35,7 +36,7 @@ The following directives are supported.
 
 | **Directive** | **Description** |
 |-------------------------|-------------------------|
-| Default source | Specifies the default source for content that is not explicitly defined by other directives. It acts as a fallback for other directives. |
+| Default source | Specifies the default source for content that isn't explicitly defined by other directives. It acts as a fallback for other directives. |
 | Image source | Specifies valid sources for images. Controls the domains from which images can be loaded. |
 | Font source | Specifies valid sources for fonts. Used to control the domains from which web fonts can be loaded. |
 | Script source | Specifies valid sources for JavaScript code. This can include specific domains, 'self' for the same origin, 'unsafe-inline' for inline scripts, and 'nonce-xyz' for scripts with a specific nonce. Choose to enable nonce or inject unsafe eval.<br />Learn more [Manage your site's Content Security Policy](manage-content-security-policy.md#turn-on-nonce) |
@@ -56,7 +57,7 @@ For advanced configuration, see [Manage your site's Content Security Policy](man
 
 ## Configure Cross origin resource sharing (CORS)
 
-Cross-origin resource sharing, or CORS, is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain
+Cross-origin resource sharing, or CORS, is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain.
 
 ### Directives
 
@@ -67,7 +68,7 @@ The following directives are supported.
 | Allow accessing resources from the server | Also known as Access-Control-Allow-Origin, helps the server decide which origins are allowed to access its resources. Origins can be domains, protocols, and ports. | Choose domain URLs |
 | Send headers during server requests | Also known as Access-Control-Allow-Headers, helps define the headers that can be sent in requests from a different origin to access resources on the server. | Choose specific headers with following permissions</br>Origin</br>Accept</br>Authorization</br>Content – type |
 | Expose header values in client-side code | Also known as Access-Control-Expose-Headers, this instructs the browser on which response headers should be exposed and made accessible to the requesting client-side code in cross-origin requests. | Choose specific headers with following permissions</br>Origin</br>Accept</br>Authorization</br>Content – type |
-| Define methods to access resources | Also known as Access-Control-Allow-Methods, helps define which HTTP methods are allowed when accessing resources on a server from a different origin. | GET - Requests data from a specified resource</br>POST - Submits data to be processed to a specified resource</br>PUT - Updates or replaces a resources at a specific URL</br>HEAD -Same as GET but retrieves only the headers and not the actual content</br>PATCH - Partially modifies a resource</br>OPTIONS - Requests information about the communication options available for a resource or server</br>DELETE - Deletes the specified resource |
+| Define methods to access resources | Also known as Access-Control-Allow-Methods, helps define which HTTP methods are allowed when accessing resources on a server from a different origin. | GET - Requests data from a specified resource</br>POST - Submits data to be processed to a specified resource</br>PUT - Updates or replaces a resource at a specific URL</br>HEAD -Same as GET but retrieves only the headers and not the actual content</br>PATCH - Partially modifies a resource</br>OPTIONS - Requests information about the communication options available for a resource or server</br>DELETE - Deletes the specified resource |
 | Specify duration for caching request results | Also known as Access-Control-Max-Age, helps define the duration for which a preflight request's results can be cached by the browser. | Specify duration in times (seconds) |
 | Allow site to share credentials | Also known as Access-Control-Allow-Credentials, helps define if the site can share credentials like cookies, authorization headers, or client-side SSL certificates during cross-origin requests. | Yes/No |
 | Display webpage as an iFrame from same origin | Also known as X-Frame-Options, allows the page to be displayed in an iframe only if the request comes from the same origin. | Yes/No |
@@ -75,7 +76,7 @@ The following directives are supported.
 
 ## Configure Cookies (CSP)
 
-The Cookie header in an HTTP request contains information about cookies previously stored by a website in your browser. When you visit a website, your browser sends a Cookie header containing all relevant cookies associated with that site back to the server
+The Cookie header in an HTTP request contains information about cookies previously stored by a website in your browser. When you visit a website, your browser sends a Cookie header containing all relevant cookies associated with that site back to the server.
 
 ### Directives
 
@@ -144,7 +145,7 @@ The following directives are supported and control access to their respective AP
 
 The setting corresponding to the HTTP Strict-Transport-Security header informs the browser that it should only connect to the website over HTTPS, even if the user enters "http://" in the address bar. It helps prevent man-in-the-middle attacks by ensuring that all communication with the server is encrypted and protect against certain types of attacks, such as protocol downgrade attacks and cookie hijacking.
 
-For security reasons this setting cannot be modified
+For security reasons this setting can't be modified.
 
 ### Include referrer information in HTTP headers
 
