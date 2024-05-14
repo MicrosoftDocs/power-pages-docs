@@ -84,8 +84,6 @@ Directives supported
 
 Permissions-Policy header allows web developers to control which web platform features are allowed or denied on a web page.
 
-//values you can use are the same for each directive. TO DO: Add language outlining these options. Recommend adding a one liner re: apis and using an unordered list of directives rather than a table with descriptions.
-
 Directives supported
 
 | **Directive**                   | **Description**                                                                                                 |
