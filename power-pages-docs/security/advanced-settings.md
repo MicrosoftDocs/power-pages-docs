@@ -22,8 +22,6 @@ The Security workspace allows you to further protect your site content and data 
 
 **Configure Content security policy (CSP)**
 
-<https://go.microsoft.com/fwlink/?linkid=2266589>
-
 Content Security Policy or CSP, is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack
 
 Directives supported
