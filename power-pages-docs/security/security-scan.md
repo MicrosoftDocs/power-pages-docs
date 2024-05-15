@@ -34,7 +34,7 @@ To run a security scan, go to the [Security workspace](../getting-started/use-se
     > By default, security scan only scans anonymous pages.  To include authenticated pages in the scan, select the check box next to **Include authenticated pages in scan**.
     >
 
-    A notification window appears in the workspace.  //TODO:  Add authentication steps somewhere to capture sequence for users--local credentials only.
+    A notification window appears in the workspace.
 
 1. Select the **Continue** button to begin the scan.
 
