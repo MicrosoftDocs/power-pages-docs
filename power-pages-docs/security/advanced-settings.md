@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Security workspace allows you to further protect your site content and data from security threats, directly from Power Pages design studio. Use Advanced settings to configure HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, and permissions.
+The Security workspace allows you to further protect your site content and data from security threats, directly from Power Pages design studio. Use Advanced settings to configure HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, permissions, and more.
 
 > [!IMPORTANT]
 >
