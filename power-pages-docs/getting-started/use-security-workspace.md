@@ -13,6 +13,8 @@ contributors:
 ---
 # Overview of the Security workspace
 
+[Power Pages security](../security/power-pages-security.md)
+
 ## Monitor
 
 ### Run scan (preview)

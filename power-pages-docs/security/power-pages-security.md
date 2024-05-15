@@ -1,7 +1,7 @@
 ---
 title: Power Pages security
 description: Learn how to secure the websites you create with Microsoft Power Pages.
-ms.date: 11/08/2023
+ms.date: 05/15/2024
 ms.topic: overview
 author: nickdoelman
 ms.author: kkendrick
@@ -9,6 +9,7 @@ ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - avishwakarma
 ms.custom: bap-template
 ---
 
@@ -22,6 +23,7 @@ An important consideration when you build public-facing websites is how to make 
 - [Table permissions](#table-permissions)
 - [Page permissions](#page-permissions)
 - [HTTPS Headers](#https-headers)
+- [Security Scan (preview)](#security-scan-preview)
 
 ## Site visibility
 
@@ -62,6 +64,10 @@ More information: [Set page permissions](page-security.md)
 The cross-origin resource sharing (CORS) protocol consists of a set of headers that indicates whether a response can be shared with another domain. You can configure CORS support in Power Pages using the Portal Management app by adding and configuring the site settings. 
 
 More information: [HTTP headers](site-checker-security.md#http-headers)
+
+## Security Scan (preview)
+
+More information: [Run security scan (preview)](security-scan.md)
 
 ## More website security
 
