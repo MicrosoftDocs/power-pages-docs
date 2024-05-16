@@ -4,6 +4,7 @@ description: Learn about Web Application Firewall for Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: nabha
+ms.date: 05/15/2024
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
