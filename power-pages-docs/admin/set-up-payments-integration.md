@@ -67,27 +67,59 @@ Once you install the package, you can begin to configure Stripe for your Power P
     > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys)
 
 1. Choose your storage type.
-You can use Dataverse (only supports test mode) or Azure Key Vault (supports both test mode and live mode) to store the Stripe API keys. If using the Azure Key Vault option, add the Stripe Secret/Restricted key to a Key Vault and assign permissions to your site by following these steps:
-    1. The name of the Portal Runtime App for your site is your site name with "Portals-" prefix. If your site name is "Test Site", the app name on the Azure portal is "Portals-Test Site".
+
+    You can use Dataverse (only supports test mode) or Azure Key Vault (supports both test mode and live mode) to store the Stripe API keys. If using the Azure Key Vault option, add the Stripe Secret/Restricted key to a Key Vault and assign permissions to your site by following these steps:
+    1. Identify the name of the app registration for your Power Pages site.
+
+    The name of the app registration is your site name with "Portals-" prefix. For example, if your site name is "Test Site", the app name on the Azure portal is "Portals-Test Site".
     1. Log in to [Azure portal](https://portal.azure.com) with the same credentials used with the Power Platform.
-    1. Create a new Key Vault or use an existing one. While creating a new Key Vault, you have to choose a permission model. You can choose either Azure RBAC or a Key Vault access policy.
-    1. For Azure role-based access control:
+    1. Create a new Key Vault or use an existing one. While creating a new Key Vault, you have to choose a permission model. You can choose either [Azure role-based access control](/azure/role-based-access-control/overview) or a [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal).
+    1. For Azure role-based access control (RBAC):
         1. Go to your Key Vault on the Azure portal.
-        1. Select **Access Control (IAM)** on the left side menu.
+        1. Select **Access control (IAM)** on the left side menu.
         1. Select **+ Add** on the top of the page and then select **Add role assignment**.
         1. Under the **Job function roles** tab, search for **Key Vault Secrets User** role name, select it, and then select **Next**.
         1. For **Assign access to**, select **User, group, or service principal**.
-        1. Select **+ Select Members** and search for your Site's Portal Runtime App name as described in step 1.
+        1. Select **+ Select members** and search for your Site's Portal Runtime App name as described in step 5a.
         1. Select the app for your site and select **Next**.
         1. Select **Review + assign**.
-    1. To assign Get permissions to the Portals app, add a new Key Vault access policy:
+    1. For Key Vault access policy:
         1. Select **Access policies** on the left side menu.
         1. Select **+ Create** on the top of the page.
         1. Under **Secret permissions**, select **Get** > **Next**.
-        1. Search for your Site's Portal Runtime App name as described in step 1. Select the app for the site and then select **Next**.
+        1. Search for your Site's Portal Runtime App name as described in step 5a. Select the app for the site and then select **Next**.
         1. Select **Create**.
-    1. Your site now has permissions to read secrets from this Key Vault.
-    1. Add your Stripe Secret/Restricted Key as a Secret to Key Vault.
+
+
+TESTING
+
+# [For Azure role-based access control (RBAC)](#tab/azurerbac)
+
+Content for RBAC...
+
+1. Go to your Key Vault on the Azure portal.
+1. Select **Access control (IAM)** on the left side menu.
+1. Select **+ Add** on the top of the page and then select **Add role assignment**.
+1. Under the **Job function roles** tab, search for **Key Vault Secrets User** role name, select it, and then select **Next**.
+1. For **Assign access to**, select **User, group, or service principal**.
+1. Select **+ Select members** and search for your Site's Portal Runtime App name as described in step 5a.
+1. Select the app for your site and select **Next**.
+1. Select **Review + assign**.
+
+# [Key Vault access policy](#tab/kvaccesspolicy)
+
+Content for KV policy...
+
+1. Select **Access policies** on the left side menu.
+1. Select **+ Create** on the top of the page.
+1. Under **Secret permissions**, select **Get** > **Next**.
+1. Search for your Site's Portal Runtime App name as described in step 5a. Select the app for the site and then select **Next**.
+1. Select **Create**.
+
+---
+
+        Your site now has permissions to read secrets from this key vault.
+    1. Add your Stripe Secret/Restricted Key as a Secret to Key Vault. **DO WE NEED MORE STEPS FOR THIS????????**
 1. In the design studio, enter the settings in the **Enable integration** panel.
 
     For the Dataverse storage option, enter the Publishable and Secret keys respectively.
