@@ -6,7 +6,7 @@ ms.date: 03/19/2024
 ms.subservice:
 author: ankitavish
 ms.author: avishwakarma
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
   - ProfessorKendrick
   - DanaMartens

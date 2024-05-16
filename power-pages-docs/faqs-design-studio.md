@@ -1,7 +1,7 @@
 ---
 title: FAQ for Copilot for design studio
 description: This FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
-ms.date: 04/26/2024
+ms.date: 04/30/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: sandhangitmsft
@@ -64,5 +64,6 @@ Copilot for design studio is available when sites are in private mode so that us
 
 - [Add AI-generated text using Copilot](getting-started/add-text-copilot.md)
 - [Add an AI-generated form using Copilot](getting-started/add-form-copilot.md)
+- [Add an AI-generated multistep form using Copilot (preview)](getting-started/multistep-forms-copilot.md)
 - [Create AI-generated theme using Copilot](getting-started/theme-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

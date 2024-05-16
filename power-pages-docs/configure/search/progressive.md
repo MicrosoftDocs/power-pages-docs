@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 1/23/2023
 ms.subservice: 
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - sandhangitmsft
     - nickdoelman
