@@ -24,7 +24,7 @@ Web Application Firewall is powered by Azure Front Door (AFD), and the policy is
 
 ## WAF managed rule sets for Power Pages
 
-The WAF managed rule sets for Power Pages are a subset of Azure-managed rule sets and are updated as needed to protect against new attack signatures.
+[The WAF managed rule sets](web-application-firewall-rule-groups.md) for Power Pages are a subset of Azure-managed rule sets and are updated as needed to protect against new attack signatures.
 
 The rule sets protect against the following threat categories:
 
@@ -42,7 +42,7 @@ The rule sets protect against the following threat categories:
 
 ## WAF custom rule sets for Power Pages
 
-WAF custom rules empower users to craft their own regulations tailored to specific scenarios. These rules can be customized to either allow or block requests, or to implement rate limits across the following categories: 
+[WAF custom rules](web-application-firewall-custom-rule-sets.md) empower users to craft their own regulations tailored to specific scenarios. These rules can be customized to either allow or block requests, or to implement rate limits across the following categories: 
 
 - Geo location 
 - IP address 
@@ -54,4 +54,5 @@ WAF custom rules empower users to craft their own regulations tailored to specif
 
 ### See also
 
-[Web Application Firewall DRS rule groups and rules for Power Pages](web-application-firewall-rule-groups.md)
+- [Web Application Firewall DRS rule groups and rules for Power Pages](web-application-firewall-rule-groups.md)
+- [Configure Web Application Firewall custom rules](web-application-firewall-custom-rule-sets.md)
