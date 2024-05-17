@@ -70,23 +70,28 @@ Once you install the package, you can begin to configure Stripe for your Power P
 
 ### Step 2b: Choose your storage type
 
-You can use Dataverse (only supports test mode) or Azure Key Vault (supports both test mode and live mode) to store the Stripe API keys. 
+You can use Dataverse (only supports test mode) or Azure Key Vault (supports both test mode and live mode) to store the Stripe API keys.
 
-If using the Azure Key Vault option, add the Stripe Secret/Restricted key to a Key Vault and assign permissions to your site by following these steps:
+If you use Azure Key Vault, add the Stripe Secret/Restricted key to a key vault and assign permissions to your site by following these steps:
 
 ### Step 2c: Configure Azure Key Vault (optional)
 
-Complete the following steps if you choose Azure Key Vault as your storage type. If you choose Dataverse, continue to step 2d ([Add your keys to your configuration](#step-2d-add-your-keys-to-your-configuration)).
+If you choose Azure Key Vault as your storage type, complete the following steps. If you choose Dataverse, continue to step 2d ([Add your keys to your configuration](#step-2d-add-your-keys-to-your-configuration)).
 
-1. Obtain the name of your app in **App registrations** within Microsoft Azure Entra ID corresponding to your Power Pages website. The app name is the same as your website name with a prefix of "Portals-". If you site name is *"Woodgrove Bank Applications"*, then the app name on the Azure portal will be *"Portals-Woodgrove Bank Applications"*. Note this app registration name for use in the following steps.
-1. Log in to the [Azure portal](https://portal.azure.com) and navigate to **Key Vaults**.
-1. Create a new Key Vault or use an existing one. While creating a new Key Vault, you have to choose a permission model. You can choose either [Azure role-based access control](/azure/role-based-access-control/overview) or a [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). Select the below tab based on your choice to see the appropriate steps:
+1. Within the Azure portal, obtain the name of your app in **App registrations** which corresponds to your Power Pages website.
+
+    The app name is the same as your website name with a prefix of "Portals-". If your site name is *"Woodgrove Bank Applications"*, then the app name on the Azure portal is *"Portals-Woodgrove Bank Applications"*. Note this app registration name for use in the following steps.    
+
+    :::image type="content" source="media/set-up-payments-integration/azure-app-registration.png" alt-text="The Step settings options inside of the Pages workspace of Power Pages design studio.":::
+
+1. Sign in to the [Azure portal](https://portal.azure.com) and navigate to **Key Vaults**.
+1. Create a new key vault or use an existing one. While creating a new key vault, you have to choose a permission model. You can choose either [Azure role-based access control](/azure/role-based-access-control/overview) or a [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the below tab based on your choice of permission model.
 
     # [Azure role-based access control](#tab/azurerbac)
 
-    1. Go to your Key Vault on the Azure portal.
+    1. Navigate to your key vault in the Azure portal.
     1. Select **Access control (IAM)** on the left side menu.
-    1. From the Role assignments tab, select **+ Add** on the top of the page, and then select **Add role assignment**.
+    1. Select **+ Add** on the top of the page, and then select **Add role assignment**.
     1. Under the **Job function roles** tab, search for **Key Vault Secrets User** role name, select it, and then select **Next**.
     1. For **Assign access to**, select **User, group, or service principal**.
     1. Select **+ Select members** and search for your site's app registration name as described at the beginning of step 2c.
@@ -111,9 +116,9 @@ Complete the following steps if you choose Azure Key Vault as your storage type.
 1. Add your Stripe Secret/Restricted Key that was obtained in previous steps as a secret to the key vault.
 1. In the design studio, enter the settings in the **Enable integration** panel.
 
-    If you are using the Dataverse storage option, enter the Publishable and Secret keys.
+    If you're using the Dataverse storage option, enter the Publishable and Secret keys.
 
-    If you are using the Key Vault storage option, enter the Publishable key, Azure Key vault name, and Secret name.
+    If you're using the Key Vault storage option, enter the Publishable key, Azure Key vault name, and Secret name.
 
 1. Select **Save** and close the panel. If you encounter an error while saving, refer to the error message and resolve the key vault setup related issues.
 1. Select **Sync**.
