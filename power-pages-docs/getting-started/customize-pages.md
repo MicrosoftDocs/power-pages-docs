@@ -4,7 +4,7 @@ description: Learn how to customize Power Pages sites with the design studio pag
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/09/2023
+ms.date: 05/08/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: kkendrick
@@ -12,6 +12,7 @@ contributors:
     - clromano
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Customize webpages with design studio page editor
@@ -57,7 +58,20 @@ For a more immersive editing experience, you can use the full-screen editing mod
 
 All sections and components allow for in-context editing. You can edit any section or component directly from the canvas.
 
-Select the paintbrush icon to adjust the styles of a section or component. Available styles are based on the component's type. Currently, sections, text, images, and video are supported.
+Select the paintbrush icon to adjust the styles of a section or component. 
+
+:::image type="content" source="media/common/paintbrush-icon.svg" alt-text="Screenshot of the paintbrush icon.":::
+
+Available styles are based on the component's type. Currently, sections, text, buttons, images, and videos are supported. Available styles vary depending on the component type and include: 
+
+- **Layout** – control the positioning and arrangement of elements on a page, such as margins, padding, and position. 
+
+- **Decorations** – enhance the visual appearance of elements, such as borders, shadows, and corner radius. 
+
+- **Typography** – change the appearance of text, including properties like font-family, font-size, and letter spacing. 
+
+> [!NOTE]
+> When you use the paintbrush icon to apply styles, these adjustments generally take precedence over settings configured in the Styling workspace and any existing custom CSS. For example, altering the font of a text component with the paintbrush tool will typically override the font specified by a theme (such as "Heading 1") or other inherited styles. However, styles defined with the `!important` directive in your custom CSS aren't overridden.
 
 ## Undo/redo
 
@@ -69,7 +83,7 @@ To reverse an action, select the Undo button.
 
 To reverse an undo, select the Redo button.
 
-Undo and redo only support changes that you make in the Pages workspace.  Your action history clears when you refresh the browser page or navigate to another workspace inside the design studio.
+Undo and redo only support changes that you make in the Pages workspace. Your action history clears when you refresh the browser page or navigate to another workspace inside the design studio.
 
 ### Limitations
 
