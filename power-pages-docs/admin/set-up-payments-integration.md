@@ -80,9 +80,9 @@ If you choose Azure Key Vault as your storage type, complete the following steps
 
 1. Within the Azure portal, obtain the name of your app in **App registrations** which corresponds to your Power Pages website.
 
-    The app name is the same as your website name with a prefix of "Portals-". If your site name is *"Woodgrove Bank Applications"*, then the app name on the Azure portal is *"Portals-Woodgrove Bank Applications"*. Note this app registration name for use in the following steps.    
+    The app name is the same as your website name with a prefix of "Portals-". If your site name is *"Woodgrove Bank Applications"*, then the app name on the Azure portal is *"Portals-Woodgrove Bank Applications"*. Note this app registration name for use in the following steps.
 
-    :::image type="content" source="media/set-up-payments-integration/azure-app-registration.png" alt-text="The Step settings options inside of the Pages workspace of Power Pages design studio.":::
+    :::image type="content" source="media/set-up-payments-integration/azure-app-registration.png" alt-text="Screenshot of the app registration in Azure for a Power Pages site.":::
 
 1. Sign in to the [Azure portal](https://portal.azure.com) and navigate to **Key Vaults**.
 1. Create a new key vault or use an existing one. While creating a new key vault, you have to choose a permission model. You can choose either [Azure role-based access control](/azure/role-based-access-control/overview) or a [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the below tab based on your choice of permission model.
