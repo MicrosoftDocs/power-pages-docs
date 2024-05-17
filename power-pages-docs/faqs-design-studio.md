@@ -1,18 +1,19 @@
 ---
 title: FAQ for Copilot for design studio
 description: This FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
-ms.date: 03/06/2024
+ms.date: 04/30/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: sandhangitmsft
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - sandhangitmsft
     - nickdoelman
     - professorkendrick
+    - DanaMartens
 ---
 
 # FAQ for Copilot for design studio
@@ -27,7 +28,7 @@ Copilot for Power Pages design studio is available via Pages workspace and will 
 
 The system allows you to customize pages and ask questions by describing your requirements in natural language. Use the following prompts to generate the following outcomes:
 
-- **Add a page**: The system creates a new page with AI generated layout and content with rich text and images.
+- **Add a page**: The system creates a new page with AI generated layout and content with rich text and images. The system also allows creation of a page with FAQs from a document on Sharepoint. 
 - **Add a section**: The system updates an existing page with a new section where the content is AI generated
 - **Add a form**: The system creates a new AI generated form along with the underlying table and columns in Microsoft Dataverse. More information: [Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
 - **Create a theme**: The system creates a new AI generated theme for a brand that you can review and choose to apply to the site
@@ -48,6 +49,12 @@ We conducted extensive testing before the feature release. Copilot for design st
 - This feature doesn’t support non-English language input.
 - See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 - There's a limit on the number of tokens allowed in a query and response, so you may see corresponding limits on the number words that you can use in your prompt description, which may vary based on your use case.
+- When a FAQ page is created from a document on Sharepoint, only if the pre-requisites are met
+    - Document with sensitivity labels Public or General. 
+    - Documents max size is 28MB, and only first 50k characters are used to generate FAQ content.
+    - Only up to 12 questions and answers are generated in the page.
+    - Additional instructions are not supported, for example, **create a page with questions about company history using this Word doc..**.
+    - Ensure documents are obtained from trusted sources to reduce the risk of generating harmful content.
 
 ## What operational factors and settings allow for effective and responsible use of Copilot for design studio?
 
@@ -55,8 +62,8 @@ Copilot for design studio is available when sites are in private mode so that us
 
 ## See also
 
-- [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
-- [Add an AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
+- [Add AI-generated text using Copilot](getting-started/add-text-copilot.md)
+- [Add an AI-generated form using Copilot](getting-started/add-form-copilot.md)
 - [Add an AI-generated multistep form using Copilot (preview)](getting-started/multistep-forms-copilot.md)
-- [Create AI-generated theme using Copilot (preview)](getting-started/theme-copilot.md)
+- [Create AI-generated theme using Copilot](getting-started/theme-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

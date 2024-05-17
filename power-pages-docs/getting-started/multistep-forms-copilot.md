@@ -1,18 +1,19 @@
-﻿---
+---
 title: Add an AI-generated multistep form using Copilot
 description: Learn how to add multistep forms to your Power Pages site using Copilot.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/21/2023
+ms.date: 04/30/2024
 ms.subservice:
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - ProfessorKendrick
     - pranita225
+    - DanaMartens
 ---
 
 # Add an AI-generated multistep form using Copilot (preview)
@@ -25,18 +26,12 @@ An easy way to add a multistep form to your Power Pages website is to ask Copilo
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - This feature doesn't support non-English language input.
-> - This feature will be available for preview in the United States only.
-> - To understand capabilities and limitations of AI-powered and Copilot features in Power Pages design studio, see [FAQ for creating AI-generated form or multistep form](../faqs-create-form.md).
 
 ## **Prerequisites**
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the United States.
 - Your browser language must be set to US-English.
-
-> [!IMPORTANT]
-> Copilot in design studio is currently experiencing issues generating multistep forms. Instead, you can [create a multistep form using studio controls](tutorial-add-multi-step-form.md) or [use Copilot to generate a basic form](add-form-copilot.md).
 
 ## Create a multistep form
 
@@ -50,13 +45,15 @@ To use Copilot to generate a multistep form:
 
     :::image type="content" source="media/multistep-form-copilot/multistep-form-copilot.png" alt-text="A screenshot of Power Pages' Copilot inside the design studio with the prompt text box emphasized.":::
 
-    After the form is generated, a preview of the form displays on the canvas, and the **Review this form** toolbar displays at the bottom of the canvas.
+    If there are existing tables relevant to the prompt, the system suggests the use of existing tables. You can choose to create the form using the suggested existing table or manually select another existing table. When you select an existing table, the form is generated using existing columns of the table.
+
+    :::image type="content" source="media/multistep-form-copilot/multistep-form-copilot-table.svg" alt-text="A screenshot of Power Pages' Copilot inside the design studio with suggested tables emphasized.":::
+
+    When there's no table suggestion, the form is generated, a preview of the form displays on the canvas, and the **Review this form**  toolbar displays at the bottom of the canvas. In this case, a new table is created for you automatically.  
 
     :::image type="content" source="media/multistep-form-copilot/copilot-review-form.png" alt-text="A screenshot of the AI-generated form in the design studio with review toolbar emphasized.":::
 
     Review each step. Then decide if you want to keep the form or discard it. If you choose to add the form to the page, you can edit it using design studio's existing functionality just as you would for other components.
-
-
 
 ### See also
 

@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 05/16/2024
 ms.subservice:
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - sandhangitms
     - ProfessorKendrick

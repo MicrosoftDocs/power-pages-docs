@@ -1,17 +1,18 @@
 ---
 title: FAQ for creating AI-generated form or multistep form
 description: This FAQ discusses natural language to forms and the key considerations for making use of this technology responsibly.
-ms.date: 03/06/2024
+ms.date: 04/30/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # FAQ for creating AI-generated form or multistep form
@@ -51,6 +52,6 @@ You can revise the form suggestion as needed. You can also review the form previ
 
 ## See also
 
-- [Add an AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
-- [Add an AI-generated multiform using Copilot (preview)](getting-started/multistep-forms-copilot.md)
+- [Add an AI-generated form using Copilot](getting-started/add-form-copilot.md)
+- [Add an AI-generated multistep form using Copilot (preview)](getting-started/multistep-forms-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

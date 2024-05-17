@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 09/27/2022
 ms.subservice:
 ms.author: ckwan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - ankitavish
     - nickdoelman
