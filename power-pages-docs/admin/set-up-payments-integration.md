@@ -32,19 +32,19 @@ To accept payments on your Power Pages site, you must complete these steps:
 
 > [!IMPORTANT]
 > - This is a preview feature.
-> - This feature currently only works with the [enhanced data model](../admin/enhanced-data-model.md).
+> - This feature only works with the [enhanced data model](../admin/enhanced-data-model.md).
 > - This feature requires [Power Pages website build version 9.5.10.x](/power-platform/released-versions/portals/pagesversion9510x) for the payments control to show on the site.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
-- Sign up for an account with Stripe as your payment provider and obtain test mode keys from the Developer dashboard.
+- Sign up for an account with Stripe as your payment provider and obtain test mode or the live keys from the Developer dashboard.
 - Create or identify a Microsoft Dataverse table you want to use in a multistep form. This table must have a currency field type that is used to charge the amount that you wish to collect from the site user. For more information, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md).
 - Configure a [multistep form](../getting-started/multistep-forms.md) using a Dataverse table with a step to allow users to pay. This step displays the payments control once configured in a later step.
 
 ## Step 1: Install the package
 
-1. In the design studio, choose **Set up**.
+1. In the design studio, select **Set up**.
 1. Under **Integrations**, select **External apps (preview)**.
 1. Select the **Install** action for Stripe.
 1. Once the package installation is complete, restart the website from [Site Actions](admin-overview.md#site-actions) in the admin center.
@@ -55,6 +55,8 @@ The installation action might take a few minutes. The action changes to manage o
 
 Once you install the package, you can begin to configure Stripe for your Power Pages site.
 
+### Step 2a: Obtain your Stripe keys
+
 1. In the design studio, choose **Set up**.
 1. Under **Integrations**, select **External apps**.
 1. In the Integrations table, select the **Manage** action for Stripe.
@@ -64,70 +66,56 @@ Once you install the package, you can begin to configure Stripe for your Power P
   
     > [!NOTE]
     > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe.
-    > - In public preview you'll only be able to use **test mode** keys for this integration with Power Pages. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys)
+    > - Release x.x.x.x. added support for live mode keys in addition to test mode keys.  To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys).
 
-1. Choose your storage type.
+### Step 2b: Choose your storage type
 
-    You can use Dataverse (only supports test mode) or Azure Key Vault (supports both test mode and live mode) to store the Stripe API keys. If using the Azure Key Vault option, add the Stripe Secret/Restricted key to a Key Vault and assign permissions to your site by following these steps:
-    1. Identify the name of the app registration for your Power Pages site.
+You can use Dataverse (only supports test mode) or Azure Key Vault (supports both test mode and live mode) to store the Stripe API keys. 
 
-    The name of the app registration is your site name with "Portals-" prefix. For example, if your site name is "Test Site", the app name on the Azure portal is "Portals-Test Site".
-    1. Log in to [Azure portal](https://portal.azure.com) with the same credentials used with the Power Platform.
-    1. Create a new Key Vault or use an existing one. While creating a new Key Vault, you have to choose a permission model. You can choose either [Azure role-based access control](/azure/role-based-access-control/overview) or a [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal).
-    1. For Azure role-based access control (RBAC):
-        1. Go to your Key Vault on the Azure portal.
-        1. Select **Access control (IAM)** on the left side menu.
-        1. Select **+ Add** on the top of the page and then select **Add role assignment**.
-        1. Under the **Job function roles** tab, search for **Key Vault Secrets User** role name, select it, and then select **Next**.
-        1. For **Assign access to**, select **User, group, or service principal**.
-        1. Select **+ Select members** and search for your Site's Portal Runtime App name as described in step 5a.
-        1. Select the app for your site and select **Next**.
-        1. Select **Review + assign**.
-    1. For Key Vault access policy:
-        1. Select **Access policies** on the left side menu.
-        1. Select **+ Create** on the top of the page.
-        1. Under **Secret permissions**, select **Get** > **Next**.
-        1. Search for your Site's Portal Runtime App name as described in step 5a. Select the app for the site and then select **Next**.
-        1. Select **Create**.
+If using the Azure Key Vault option, add the Stripe Secret/Restricted key to a Key Vault and assign permissions to your site by following these steps:
 
+### Step 2c: Configure Azure Key Vault (optional)
 
-TESTING
+Complete the following steps if you choose Azure Key Vault as your storage type. If you choose Dataverse, continue to step 2d ([Add your keys to your configuration](#step-2d-add-your-keys-to-your-configuration)).
 
-# [For Azure role-based access control (RBAC)](#tab/azurerbac)
+1. Obtain the name of your app in **App registrations** within Microsoft Azure Entra ID corresponding to your Power Pages website. The app name is the same as your website name with a prefix of "Portals-". If you site name is *"Woodgrove Bank Applications"*, then the app name on the Azure portal will be *"Portals-Woodgrove Bank Applications"*. Note this app registration name for use in the following steps.
+1. Log in to the [Azure portal](https://portal.azure.com) and navigate to **Key Vaults**.
+1. Create a new Key Vault or use an existing one. While creating a new Key Vault, you have to choose a permission model. You can choose either [Azure role-based access control](/azure/role-based-access-control/overview) or a [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). Select the below tab based on your choice to see the appropriate steps:
 
-Content for RBAC...
+    # [Azure role-based access control](#tab/azurerbac)
 
-1. Go to your Key Vault on the Azure portal.
-1. Select **Access control (IAM)** on the left side menu.
-1. Select **+ Add** on the top of the page and then select **Add role assignment**.
-1. Under the **Job function roles** tab, search for **Key Vault Secrets User** role name, select it, and then select **Next**.
-1. For **Assign access to**, select **User, group, or service principal**.
-1. Select **+ Select members** and search for your Site's Portal Runtime App name as described in step 5a.
-1. Select the app for your site and select **Next**.
-1. Select **Review + assign**.
+    1. Go to your Key Vault on the Azure portal.
+    1. Select **Access control (IAM)** on the left side menu.
+    1. From the Role assignments tab, select **+ Add** on the top of the page, and then select **Add role assignment**.
+    1. Under the **Job function roles** tab, search for **Key Vault Secrets User** role name, select it, and then select **Next**.
+    1. For **Assign access to**, select **User, group, or service principal**.
+    1. Select **+ Select members** and search for your site's app registration name as described at the beginning of step 2c.
+    1. Select the app for your site and select **Next**.
+    1. Select **Review + assign**.
 
-# [Key Vault access policy](#tab/kvaccesspolicy)
+    # [Key Vault access policy](#tab/kvaccesspolicy)
 
-Content for KV policy...
+    1. Select **Access policies** on the left side menu.
+    1. Select **+ Create** on the top of the page.
+    1. Under **Secret permissions**, select **Get** > **Next**.
+    1. Search for your site's app registration name as described at the beginning of step 2c.
+    1. Select the app for the site and then select **Next**.
+    1. Select **Create**.
 
-1. Select **Access policies** on the left side menu.
-1. Select **+ Create** on the top of the page.
-1. Under **Secret permissions**, select **Get** > **Next**.
-1. Search for your Site's Portal Runtime App name as described in step 5a. Select the app for the site and then select **Next**.
-1. Select **Create**.
+    ---
 
----
+    Your site now has permissions to read secrets from this key vault.
 
-        Your site now has permissions to read secrets from this key vault.
-    1. Add your Stripe Secret/Restricted Key as a Secret to Key Vault. **DO WE NEED MORE STEPS FOR THIS????????**
+### Step 2d: Add your keys to your configuration
+
+1. Add your Stripe Secret/Restricted Key that was obtained in previous steps as a secret to the key vault.
 1. In the design studio, enter the settings in the **Enable integration** panel.
 
-    For the Dataverse storage option, enter the Publishable and Secret keys respectively.
+    If you are using the Dataverse storage option, enter the Publishable and Secret keys.
 
-    For the Key Vault storage option, enter the Publishable key, Azure Key vault name, and Secret name respectively.
+    If you are using the Key Vault storage option, enter the Publishable key, Azure Key vault name, and Secret name.
 
-   :::image type="content" source="media/set-up-payments-integration/stripe-integration.svg" alt-text="A screenshot of the Enable Stripe panel inside the Set up workspace of Power Pages design studio.":::
-1. Select **Save** and close the panel. If you encounter an error while saving, refer to the error message and resolve the Key Vault setup related issues.
+1. Select **Save** and close the panel. If you encounter an error while saving, refer to the error message and resolve the key vault setup related issues.
 1. Select **Sync**.
 
 ## Step 3: Enable the payments experience on your form
@@ -167,7 +155,7 @@ If this step is the last step of your multistep form, a submit button is enabled
 
 - **Payment currencies and amounts**. Minimum and maximum payment amount values can vary by currencies. Review the [Stripe documentation on supported currencies](https://stripe.com/docs/currencies#minimum-and-maximum-charge-amounts) to ensure your form and tables are configured correctly to accept payments in that range.
 
-- **PCI DSS Compliance**. This feature uses the [Stripe Web Elements](https://stripe.com/docs/payments/elements) payment integration approach and card data isn't stored in Power Pages or Dataverse. PCI compliance is a shared responsibility and applies to business as well. See Stripe's documentation on [validating your PCI Compliance](https://stripe.com/docs/security/guide#validating-pci-compliance).
+- **Payment Card Industry Data Security Standard (PCI DSS) Compliance**. This feature uses the [Stripe Web Elements](https://stripe.com/docs/payments/elements) payment integration approach and card data isn't stored in Power Pages or Dataverse. PCI compliance is a shared responsibility and applies to business as well. See Stripe's documentation on [validating your PCI Compliance](https://stripe.com/docs/security/guide#validating-pci-compliance).
 
 - **Payments table**. For storing transactions, there's a new payments table installed with the solution. The table is automatically related to the table that you choose when you configure the form steps. You can use the table to view the details of transactions and status. This table is just a snapshot of information that is provided, which you can use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment-related issues, you should rely on the payment provider, such as Stripe's dashboard.
 
