@@ -1,7 +1,7 @@
 ---
 title: Power Pages security
 description: Learn how to secure the websites you create with Microsoft Power Pages.
-ms.date: 05/15/2024
+ms.date: 05/17/2024
 ms.topic: overview
 author: nickdoelman
 ms.author: kkendrick
@@ -24,6 +24,8 @@ An important consideration when you build public-facing websites is how to make 
 - [Page permissions](#page-permissions)
 - [HTTPS Headers](#https-headers)
 - [Security Scan (preview)](#security-scan-preview)
+
+Use the [Security workspace](../getting-started/use-security-workspace.md) in design studio to monitor, protect, and manage your Power Pages sites.
 
 ## Site visibility
 
