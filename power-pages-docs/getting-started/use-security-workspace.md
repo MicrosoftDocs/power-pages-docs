@@ -16,7 +16,7 @@ ms.custom:
 ---
 # Overview of the Security workspace
 
-[Power Pages security](../security/power-pages-security.md)
+Security workspace provides a single interface to monitor, protect, and manage [security features for Power Pages](../security/power-pages-security.md). You can quickly see how secure your sites are with scan, make them more secure by setting up web roles, page, table permissions, web application firewall, authentication, site visibility, HTTP headers through advanced settings.
 
 ## Monitor
 
