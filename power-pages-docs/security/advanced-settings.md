@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Security workspace allows you to further protect your site content and data from security threats, directly from Power Pages design studio. Use Advanced settings to configure HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, permissions, and more.
+The Security workspace allows you to further protect your site content and data from security threats, directly from Power Pages design studio. Use Advanced settings to configure HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross Origin Resource Sharing (CORS), cookies, permissions, and more.
 
 > [!IMPORTANT]
 >
@@ -31,7 +31,7 @@ The Security workspace allows you to further protect your site content and data 
 
 ## Configure Content Security Policy (CSP)
 
-Content Security Policy or CSP, is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack.
+Content Security Policy, or CSP, is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack.
 
 ### Directives
 
@@ -90,7 +90,6 @@ The following directives are supported.
 | Transfer rules for all cookies      | Control how cookies are sent with cross-origin requests. It's a security feature aimed at mitigating certain types of cross-site request forgery (CSRF) and information leakage attacks. | This setting corresponds to the header SameSite/Default.          |
 | Transfer rules for specific cookies | Control how cookies are sent with cross-origin requests. It's a security feature aimed at mitigating certain types of cross-site request forgery (CSRF) and information leakage attacks. | This setting corresponds to the header SameSite/Specific cookie. |
 
-
 ## Configure Permissions-Policy (CSP)
 
 Permissions-Policy header allows web developers to control which web platform features are allowed or denied on a web page.
@@ -148,7 +147,8 @@ The following directives are supported and control access to their respective AP
 
 The setting corresponding to the HTTP Strict-Transport-Security header informs the browser that it should only connect to the website over HTTPS, even if the user enters "http://" in the address bar. It helps prevent man-in-the-middle attacks by ensuring that all communication with the server is encrypted and protect against certain types of attacks, such as protocol downgrade attacks and cookie hijacking.
 
-For security reasons, this setting can't be modified.
+> [!NOTE]
+> For security reasons, this setting can't be modified.
 
 ### Include referrer information in HTTP headers
 
