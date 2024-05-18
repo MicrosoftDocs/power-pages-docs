@@ -56,7 +56,7 @@ Configure the custom rules by navigating to Security workspace.
 
     Use the traffic setting configuration to block or allow the request based on the rules you configure.
 
-    Choose the **+ Add new rule** button to add additional rules. 
+    Choose the **+ Add new rule** button to add more rules. 
     
     Repeat the above steps to configure each rule.
 
@@ -68,6 +68,6 @@ Each request to your site is evaluated against the firewall configurations based
 
 When an end user makes requests to the Power Pages site, these requests can originate directly from the end user's location/IP or via a proxy server.  
 
-    - **RemoteAddr:** This field denotes the remote address, identifying requests based on the requester's location or IP address. It represents the original client IP, sourced either from the network connection or typically from the X-Forwarded-For request header if the user is behind a proxy. 
-    
-    - **SocketAddr:** This field denotes the socket address, identifying requests based on a direct connection to the firewall edge. If the client used an HTTP proxy or a load balancer to send the request, the socket address is the IP address of the proxy or load balancer. 
+- **RemoteAddr:** This field denotes the remote address, identifying requests based on the requester's location or IP address. It represents the original client IP, sourced either from the network connection or typically from the X-Forwarded-For request header if the user is behind a proxy. 
+
+- **SocketAddr:** This field denotes the socket address, identifying requests based on a direct connection to the firewall edge. If the client used an HTTP proxy or a load balancer to send the request, the socket address is the IP address of the proxy or load balancer. 
