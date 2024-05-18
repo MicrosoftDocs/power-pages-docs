@@ -46,11 +46,11 @@ Protect your Power Pages site from common security exploits and vulnerabilities 
 
 ### Identity providers
 
-[Overview of authentication in Power Pages](../security/authentication/index.md)
+Use [common identity providers](../security/authentication/index.md#common-identity-providers) to limit access to your site.
 
 ### Site visibility
 
-[Site visibility in Power Pages](../security/site-visibility.md)
+Control access to your site with [site visibility](../security/site-visibility.md). Power Pages sites can be public or private.
 
 ### Advanced settings (preview)
 
