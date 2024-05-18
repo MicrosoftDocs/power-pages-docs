@@ -22,10 +22,10 @@ Configure the custom rules by navigating to Security workspace.
 
 ## Prerequisite 
 
-You must be administrator to configure custom rules. 
+- You must be administrator to configure custom rules. 
+- [Web Application Firewall](web-application-firewall.md) must be enabled for the site. 
 
-Web Application Firewall must be enabled for the site. 
-
+## Create custom rules
  
 1. Select **+ Add New Rule**. 
 
@@ -38,7 +38,7 @@ Web Application Firewall must be enabled for the site.
     - **Match type:** Allows/blocks the request based on the rule type defined in the subsequent step.                                      |
     - **Rate limit:** Allows/blockS the number of requests threshold limit and throttle the requests exceeding the threshold limit.
     
-    You can configure the threshold limit in the range of 1 or 5-minutes duration. 
+    You can configure the threshold limit between 1 and 5 minutes.
 
 1. Select the match type.
 
