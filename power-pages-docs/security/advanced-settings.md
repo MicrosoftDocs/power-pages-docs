@@ -156,7 +156,7 @@ The Referrer-Policy HTTP header is used to control how much information about th
 
 | **Value**                     | **Description**                                                                                                                                                  |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| No referrer                   | No-referrer setting means that no referrer information is sent in the headers. This is the most privacy-conscious option.                                        |
+| No referrer                   | No-referrer means that no referrer information is sent in the headers. This setting is the most privacy-conscious option.                                        |
 | No Referrer When Downgrade    | It sends the full referrer information when navigating from an HTTPS to an HTTP site but only the origin (no path or query) when navigating between HTTPS sites. |
 | Same Origin - Referrer-Policy | Same-origin sends the full referrer information only when the request is to the same origin. For cross-origin requests, only the origin is sent.                 |
 | Origin                        | Origin sends the origin of the referrer, but no path or query information, both for same-origin and cross-origin requests.                                       |
