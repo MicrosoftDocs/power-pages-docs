@@ -15,7 +15,9 @@ ms.custom: bap-template
 
 # Power Pages security
 
-An important consideration when you build public-facing websites is how to make sure that only the correct stakeholders can access critical business data. To make sure your business information is properly protected, Power Pages has a robust security model that encompasses the following key components:
+An important consideration when you build public-facing websites is how to make sure that only the correct stakeholders can access critical business data. Use the [Security workspace](../getting-started/use-security-workspace.md) in design studio to monitor, protect, and manage your Power Pages sites.
+
+To make sure your business information is properly protected, Power Pages has a robust security model that encompasses the following key components:
 
 - [Site visibility](#site-visibility)
 - [Authenticated users](#authenticated-users)
@@ -24,8 +26,6 @@ An important consideration when you build public-facing websites is how to make 
 - [Page permissions](#page-permissions)
 - [HTTPS Headers](#https-headers)
 - [Security Scan (preview)](#security-scan-preview)
-
-Use the [Security workspace](../getting-started/use-security-workspace.md) in design studio to monitor, protect, and manage your Power Pages sites.
 
 ## Site visibility
 
