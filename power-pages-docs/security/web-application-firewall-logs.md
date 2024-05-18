@@ -1,19 +1,22 @@
 ---
 title: Web Application Firewall logs
-description: 
+description: Discover how to access and download web application firewall logs in Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.custom: 
 ms.date: 04/15/2024
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
-    - ProfessorKendrick
-    - nageshbhat-msft
+  - ProfessorKendrick
+  - nageshbhat-msft
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:05/18/2024
 ---
 # Web Application Firewall logs
 
-When you activate the web application firewall in Power Pages, each request's logs are captured and stored in your Dataverse instance. To access these logs, follow these steps: 
+When you activate the Web Application Firewall in Power Pages, each request's logs are captured and stored in your Dataverse instance. To access these logs, follow these steps: 
 
 Navigate to the Security workspace. 
 
