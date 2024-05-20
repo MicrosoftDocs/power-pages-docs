@@ -37,10 +37,10 @@ The capability was evaluated over custom datasets for offensive and malicious pr
 
 ## What are the limitations of natural language to form? How can users minimize the impact of the natural language to form limitations when using the system?
 
-- The feature will provide summarized responses from only unstructured data used on the website, i.e., content stored as multiline columns or files in Dataverse. The keyword-based result will include both structured and unstructured content.
-- This feature will support only English language.
+- The feature provides summarized responses from only unstructured data used on the website, such as content stored as multiline columns or files in Dataverse. The keyword-based result includes both structured and unstructured content.
+- This feature supports only English language.
 - This capability may be subject to usage limits or capacity throttling.
-- Search responses generated are not always perfect and content may have inaccuracies.  
+- Search responses generated aren't always perfect and content may have inaccuracies.  
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 
