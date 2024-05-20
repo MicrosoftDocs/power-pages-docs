@@ -3,7 +3,7 @@ title: Add breadcrumbs
 description: Add breadcrumbs to your page in Power Pages.
 author: 
 ms.topic: conceptual
-ms.date: 05/14/2024
+ms.date: 05/20/2024
 ms.author: 
 ms.reviewer: kkendrick
 contributors:
@@ -54,4 +54,4 @@ Choose an option to duplicate the section, move it up or down within the page, o
 
 Breadcrumb component is the **Pages Breadcrumb** web template that appears in Portals Management app.  If the web template is edited, all breadcrumb instances across design studio will appear as [custom components](../configure/web-templates-as-components.md).
 
-If the Pages Breadcrumb web template was mistakenly edited, the original web template code can be recovered by renaming the Pages Breadcrumb web template in Portals Management App.  Then go to Design Studio,  open the component panel, and add breadcrumb component to a webpage.  This will create a new copy of Pages Breadcrumb web template. 
+If the Pages Breadcrumb web template was mistakenly edited, the original web template code can be recovered by renaming the Pages Breadcrumb web template in Portals Management App.  Go to design studio,  open the component panel, and add breadcrumb component to a webpage.  This will create a new copy of Pages Breadcrumb web template. 
