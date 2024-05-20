@@ -434,7 +434,7 @@
           href: configure/search/faceted.md
         - name: Search knowledge article attachments
           href: configure/search/file-attachment.md
-        - name: Use generative AI
+        - name: Use generative AI (preview)
           href: configure/search/generative-ai.md
         - name: Progressive search
           href: configure/search/progressive.md
@@ -743,7 +743,9 @@
     - name: FAQ for design studio
       href: faqs-design-studio.md
     - name: FAQ for generating code
-      href: faqs-pro-developer.md                     
+      href: faqs-pro-developer.md     
+    - name: FAQ for generative AI search
+      href: faqs-generative-ai-search.md                     
 - name: Compliance and accessibility
   items:
     - name: Accessibility

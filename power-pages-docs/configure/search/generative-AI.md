@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 5/15/2024
+ms.date: 5/21/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -18,19 +18,19 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Using Generative AI for Power Pages Search is about incorporating generative artificial intelligence (AI) models into web search features. Instead of relying on keywords alone, generative AI can comprehend context, meaning, and user goals to produce more suitable and customized search results. This method uses natural language processing (NLP) and machine learning techniques to improve user experience by offering more precise and varied search results.
+Using Generative AI for Power Pages Search is about incorporating generative artificial intelligence (AI) models into web search features. Generative AI can comprehend context, meaning, and user goals to summarize search results. This method uses natural language processing (NLP) and machine learning techniques to improve user experience by offering more precise and varied search results.
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../../includes/cc-preview-features-definition.md)]
-> - Your environment must be located in the United States, United Kingdom, Australia, or India regions. <REPLACE THIS WITH A LINK TO AI REGION INFO!>
-> - Your site must be created with English language.
+> - Your environment must be located in the United States, United Kingdom, Australia, or India regions. Generative AI search is enabled by default in these regions.
+> - Generative AI search is available for sites created with English language.
+> - Power Pages site version must be 9.6.3.41 or higher.
 > - Faceted search isn't available when you enable generative AI search.
 
-## Enable site search with generative AI
+:::image type="content" source="../media/generative-ai/generative-ai.png" alt-text="Screenshot of an AI generated summary of search results in Power Pages search.":::
 
-> [!NOTE]
-> If a site meets the condition outlined in the pre-requisite section, generative AI search will be enabled by default.
+## Enable site search with generative AI
 
 To include generative AI in Power Pages search:
 
@@ -83,7 +83,11 @@ If you want to further refine the content of the search scope, use this filter t
 
 The Power Pages search result page, which is powered by generative AI search follows the themes defined in the [Style workspace](../../getting-started/style-site.md). To make any appearances changes, use the style workspace.
 
-The static content on the search result component is designed using content snippets. If you want to update the Generative AI Summary title or Keyword result title, use the following content snippets:
+The static content on the search result component is designed using [content snippets](../customize-content-snippets.md). If you want to update the Generative AI Summary title or Keyword result title, use the following content snippets:
 
 - Generative AI Summary - `Search/Summary/Title`
 - Keyword search - `Search/Results/Title`
+
+## See also
+
+- [FAQ for for generative AI search](../../faqs-generative-ai-search.md)
