@@ -26,6 +26,8 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 -  [Copilot](enable-chatbot.md#add-a-copilot) must be created and published in the site where you're updating another copilot available in Microsoft Copilot Studio.
 
+-  Only copilot with [No authentication](microsoft-copilot-studio/configuration-end-user-authentication#no-authentication) can be replaced.
+
 ## Copy the copilot schema name
 
 1. Sign in to [Microsoft Copilot Studio](https://web.powerva.microsoft.com/).
