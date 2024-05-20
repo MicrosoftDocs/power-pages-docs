@@ -16,7 +16,7 @@ ms.custom:
 ---
 # Web Application Firewall logs
 
-When you activate the Web Application Firewall in Power Pages, each request's logs are captured and stored in your Dataverse instance. To access these logs, follow these steps: 
+When you activate [Web Application Firewall (WAF) for Power Pages](web-application-firewall.md) in Power Pages, each request's logs are captured and stored in your Dataverse instance. To access these logs, follow these steps: 
 
 Navigate to the Security workspace. 
 
