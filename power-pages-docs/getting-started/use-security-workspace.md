@@ -32,7 +32,7 @@ Control access to site data and content. [Create and manage web roles](../securi
 
 ### Page permissions
 
-Use page permissions[page permissions](../security/page-security.md) to make content available to anyone who visits your site or to restrict access to users who have specific roles.
+Use [page permissions](../security/page-security.md) to make content available to anyone who visits your site or to restrict access to users who have specific roles.
 
 ### Table permissions
 
@@ -54,5 +54,5 @@ Control access to your site with [site visibility](../security/site-visibility.m
 
 ### Advanced settings (preview)
 
-Use [advanced settings (preview)](../security/advanced-settings.md) to configure  HTTP headers of your site quickly and efficiently, configure Content security policy (CSP), Cross origin resource sharing (CORS), cookies, and permissions.
+Use [advanced settings (preview)](../security/advanced-settings.md) to configure  HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross Origin Resource Sharing (CORS), cookies, permissions, and more.
 
