@@ -35,8 +35,8 @@ Configure the custom rules by navigating to Security workspace.
 
     You can define the custom rule by selecting either Match rule or Rate limit. 
 
-    - **Match type:** Allows/blocks the request based on the rule type defined in the subsequent step.                                      |
-    - **Rate limit:** Allows/blockS the number of requests threshold limit and throttle the requests exceeding the threshold limit.
+    - **Match type:** Allows/blocks the request based on the rule type defined in the subsequent step.
+    - **Rate limit:** Allows/blocks the number of requests threshold limit and throttle the requests exceeding the threshold limit.
     
     You can configure the threshold limit between 1 and 5 minutes.
 
@@ -50,19 +50,21 @@ Configure the custom rules by navigating to Security workspace.
     
     - **Request URI:** Allows or blocks requests based on the requested path or query string. Useful for preventing access to sensitive or restricted areas of the site, or enforcing specific rules for different sections. 
 
-    Depending on the selected match type, the configuration options vary. Update the appropriate settings in the field that appears after selecting the match type 
+    Depending on the selected match type, the configuration options vary. Update the appropriate settings in the field that appears after selecting the match type. 
 
-1. Select the traffic settings.
+1. Select **Match variable**. 
 
-    Use the traffic setting configuration to block or allow the request based on the rules you configure.
-
-    Choose the **+ Add new rule** button to add more rules. 
+    Match variable option available depending on the option selected in the Match type.  
     
-    Repeat the above steps to configure each rule.
+    It has two options RemoteAddr or SocketAddr, read more details for Match variable 
+
+1. Select the traffic settings, and add new rules as required. 
+
+    Traffic settings block or allow the request based on the rules you configure.
 
 1. Choose **Save**. 
 
-Each request to your site is evaluated against the firewall configurations based on their priority order. You can adjust the order of rule execution by increasing or decreasing their priority. Simply hover over each rule and select the three dots (…) to modify the priority settings. 
+Each request to your site is evaluated against the firewall configurations based on their priority order. You can adjust the order of rule execution by increasing or decreasing their priority. Hover over each rule and select the ellipses (…) to modify the priority settings. 
 
 ## Match variable 
 
