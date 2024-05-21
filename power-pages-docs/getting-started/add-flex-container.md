@@ -62,5 +62,5 @@ Makers can add flex containers in the html of the webpage. In order for Design S
 
 &lt;/div&gt;
 
-Without this class, design studio does not recognize the custom divs as Flex Container components, and they can't be edited in design studio.
+Without this class, design studio doesn't recognize the custom divs as Flex Container components, and they can't be edited in design studio.
 
