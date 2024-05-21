@@ -1,5 +1,5 @@
 ---
-title: FAQ for generative AI search
+title: FAQ for site search with generative AI
 description: This FAQ discusses generative AI search and key considerations for making use of this technology responsibly.
 ms.date: 05/21/2024
 ms.custom: responsible-ai-faqs
@@ -13,7 +13,7 @@ contributors:
     - DanaMartens
 ---
 
-# FAQ for generative AI search
+# FAQ for site search with generative AI
 
 These frequently asked questions (FAQ) describe the AI impact of generative AI search in Power Pages.
 
@@ -35,7 +35,7 @@ The system aims to deliver concise and relevant search results in response to us
 
 The capability was evaluated over custom datasets for offensive and malicious prompts and responses, through both automated and dedicated manual sessions designed to expand the test suite.
 
-## What are the limitations of natural language to form? How can users minimize the impact of the natural language to form limitations when using the system?
+## What are the limitations of this feature? How can users minimize the impact of the copilot limitations when using the system?
 
 - The feature provides summarized responses from only unstructured data used on the website, such as content stored as multiline columns or files in Dataverse. The keyword-based result includes both structured and unstructured content.
 - This feature supports only English language.
