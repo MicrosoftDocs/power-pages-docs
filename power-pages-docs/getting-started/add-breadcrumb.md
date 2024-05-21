@@ -52,6 +52,6 @@ Choose an option to duplicate the section, move it up or down within the page, o
 
 ## Customizing the Breadcrumb component 
 
-Breadcrumb component is the **Pages Breadcrumb** web template that appears in Portals Management app. If the web template is edited, all breadcrumb instances across design studio appears as [custom components](../configure/web-templates-as-components.md).
+Breadcrumb component is the **Pages Breadcrumb** web template that appears in Portals Management app. If the web template is edited, all breadcrumb instances across design studio appear as [custom components](../configure/web-templates-as-components.md).
 
 If the Pages Breadcrumb web template was mistakenly edited, the original web template code can be recovered by renaming the Pages Breadcrumb web template in Portals Management App. Go to design studio,  open the component panel, and add breadcrumb component to a webpage. This action creates a new copy of Pages Breadcrumb web template. 
