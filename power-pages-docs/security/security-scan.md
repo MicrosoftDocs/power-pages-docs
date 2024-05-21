@@ -24,7 +24,9 @@ Use Power Pages security scan to enhance your site's resilience by identifying a
 
 ## Run a security scan
 
-To run a security scan, go to the [Security workspace](../getting-started/use-security-workspace.md).
+Use the [Security workspace](../getting-started/use-security-workspace.md) to run the scan. You can also review the [third party notice](https://go.microsoft.com/fwlink/?linkid=2271056) prior to running the scan.
+
+To run a security scan:
 
 1. Select the **Run Deep Scan** button to run the security scan.  
 
