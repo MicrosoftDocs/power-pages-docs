@@ -28,7 +28,7 @@ Use the [Security workspace](../getting-started/use-security-workspace.md) to ru
 
 To run a security scan:
 
-1. Select the **Run Deep Scan** button to run the security scan.  
+1. Select **Run Deep Scan**.  
 
     > [!NOTE]
     > By default, security scan only scans anonymous pages.  To include authenticated pages in the scan, select the check box next to **Include authenticated pages in scan**.
