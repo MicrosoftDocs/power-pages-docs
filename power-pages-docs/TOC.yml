@@ -166,10 +166,10 @@
                   href: getting-started/add-form-copilot.md
                 - name: Add a form manually
                   href: getting-started/add-form.md
-                - name: Add a multistep form manually
-                  href: getting-started/multistep-forms.md
                 - name: Add an AI-generated multistep form using Copilot (preview)
                   href: getting-started/multistep-forms-copilot.md
+                - name: Add a multistep form manually
+                  href: getting-started/multistep-forms.md
                 - name: Add IFrame
                   href: getting-started/add-iframe.md 
             - name: Structure your site map

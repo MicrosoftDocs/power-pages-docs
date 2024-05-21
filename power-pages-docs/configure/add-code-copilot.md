@@ -1,10 +1,10 @@
 ---
-title: Add AI-generated code using Copilot
+title: Add AI-generated code using Copilot (preview)
 description: Add AI-generated code using Copilot.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/21/2024
+ms.date: 05/21/2024
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: dmartens
@@ -14,6 +14,7 @@ contributors:
     - neerajnandwana-msft
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Add AI-generated code using Copilot (preview)

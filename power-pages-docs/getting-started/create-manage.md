@@ -4,7 +4,7 @@ description: Learn how to create a site with Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/26/2024
+ms.date: 05/21/2024
 ms.subservice:
 ms.author: tbhagwat
 ms.reviewer: kkendrick
@@ -20,7 +20,7 @@ Customize and design your site using the Power Pages design studio.
 
 > [!TIP]
 > 
-> - You can [use Copilot to help you create your site in Power Pages](create-site-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md).
+> - You can [use Copilot to help you create your site in Power Pages](create-site-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md).
 > - We've created a series of tutorials and videos for you to learn to use Power Pages. You'll start with a simple site and progressively add components and features as your business requires. For more information, go to [Power Pages tutorials](tutorial-overview.md).
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
