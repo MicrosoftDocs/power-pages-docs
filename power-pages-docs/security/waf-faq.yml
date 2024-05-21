@@ -29,7 +29,7 @@ sections:
       - question: |
           My site receives an average of 1500 requests in 5 minutes. I want to configure a WAF rule to protect my site by preventing any DDoS attack. How should I set up my WAF rules?
         answer: |
-          Rule name: Allow1500RequestsIn5Mins<br />
+          Rule name: Allow1500RequestsIn5Mins
           Rule type: Rate limit
           Rate limit in minutes: 5 minutes
           Requests allowed within rate limit: 1500
