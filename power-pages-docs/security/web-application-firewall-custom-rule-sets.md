@@ -33,9 +33,9 @@ Configure the custom rules by navigating to Security workspace.
 
 1. Select the rule type.
 
-    You can define the custom rule by selecting either Match rule or Rate limit. 
+    You can define the custom rule by selecting either **Match** or **Rate limit**. 
 
-    - **Match type:** Allows/blocks the request based on the rule type defined in the subsequent step.
+    - **Match:** Allows/blocks the request based on the rule type defined in the subsequent step.
     - **Rate limit:** Allows/blocks the number of requests threshold limit and throttle the requests exceeding the threshold limit.
     
     You can configure the threshold limit between 1 and 5 minutes.
