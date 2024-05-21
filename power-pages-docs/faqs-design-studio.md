@@ -1,7 +1,7 @@
 ---
 title: FAQ for Copilot for design studio
 description: This FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
-ms.date: 04/30/2024
+ms.date: 05/21/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: sandhangitmsft
@@ -30,7 +30,7 @@ The system allows you to customize pages and ask questions by describing your re
 
 - **Add a page**: The system creates a new page with AI generated layout and content with rich text and images. The system also allows creation of a page with FAQs from a document on Sharepoint. 
 - **Add a section**: The system updates an existing page with a new section where the content is AI generated
-- **Add a form**: The system creates a new AI generated form along with the underlying table and columns in Microsoft Dataverse. More information: [Create AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
+- **Add a form**: The system creates a new AI generated form along with the underlying table and columns in Microsoft Dataverse. More information: [Create AI-generated form using Copilot](getting-started/add-form-copilot.md)
 - **Create a theme**: The system creates a new AI generated theme for a brand that you can review and choose to apply to the site
 - **How do I**: The system generates a summarized response to your question and might generate step-by-step instructions for you to follow.
 
