@@ -3,7 +3,7 @@ title: Configure Web Application Firewall custom rules
 description: Enhance web application security with custom rules in Web Application Firewall, which allows blocking or allowing specific requests based on set criteria.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.date: 04/16/2024
+ms.date: 5/21/2024
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -16,7 +16,7 @@ ms.custom:
 ---
 # Configure Web Application Firewall custom rules
 
-Web Application Firewall custom rules allow you to define your own rules for blocking or allowing specific requests based on various criteria, such as geo-filtering, the source IP address, and the request uri. You can use custom rules to enhance the security of your web applications and also help you optimize the performance of your web applications by filtering out unwanted traffic or reducing false positives. 
+Web Application Firewall custom rules allow you to define your own rules for blocking or allowing specific requests based on various criteria, such as geo-filtering, the source IP address, and the request URI. You can use custom rules to enhance the security of your web applications and help you optimize the performance of your web applications by filtering out unwanted traffic or reducing false positives. 
 
 Configure the custom rules by navigating to Security workspace. 
 
@@ -29,9 +29,9 @@ Configure the custom rules by navigating to Security workspace.
  
 1. Select **+ Add New Rule**. 
 
-1. Enter the rule name.
+1. Enter the **Rule name**.
 
-1. Select the rule type.
+1. Select the **Rule type**.
 
     You can define the custom rule by selecting either **Match** or **Rate limit**. 
 
@@ -40,7 +40,7 @@ Configure the custom rules by navigating to Security workspace.
     
     You can configure the threshold limit between 1 and 5 minutes.
 
-1. Select the match type.
+1. Select the **Match type**.
 
     To create a custom rule, choose one of the options from the Match type dropdown menu: 
     
@@ -58,7 +58,7 @@ Configure the custom rules by navigating to Security workspace.
     
     It has two options RemoteAddr or SocketAddr, read more details for Match variable 
 
-1. Select the traffic settings, and add new rules as required. 
+1. Select the **traffic settings**, and add new rules as required. 
 
     Traffic settings block or allow the request based on the rules you configure.
 
@@ -73,3 +73,6 @@ When an end user makes requests to the Power Pages site, these requests can orig
 - **RemoteAddr:** This field denotes the remote address, identifying requests based on the requester's location or IP address. It represents the original client IP, sourced either from the network connection or typically from the X-Forwarded-For request header if the user is behind a proxy. 
 
 - **SocketAddr:** This field denotes the socket address, identifying requests based on a direct connection to the firewall edge. If the client used an HTTP proxy or a load balancer to send the request, the socket address is the IP address of the proxy or load balancer. 
+
+>[!IMPORTANT]
+> After the rule is created and saved, it may take up to an hour for the changes to propagate to all edge locations globally. 
