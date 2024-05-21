@@ -24,7 +24,7 @@ Use Power Pages security scan to enhance your site's resilience by identifying a
 
 ## Run a security scan
 
-Use the [Security workspace](../getting-started/use-security-workspace.md) to run the scan. You can also review the [third party notice](https://go.microsoft.com/fwlink/?linkid=2271056) prior to running the scan.
+Use the [Security workspace](../getting-started/use-security-workspace.md) to run the scan. You can also review the [third party notice](https://go.microsoft.com/fwlink/?linkid=2271056) prior to running the security scan.
 
 To run a security scan:
 
