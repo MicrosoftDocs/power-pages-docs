@@ -3,7 +3,7 @@ title: Overview of the Security workspace
 description: Enhance site resilience with security scans, control access to data, and protect against exploits using Power Pages security workspace.
 author: ProfessorKendrick
 ms.topic: conceptual
-ms.date: 05/16/2024
+ms.date: 05/121/2024
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: kkendrick
@@ -38,9 +38,9 @@ Use [page permissions](../security/page-security.md) to make content available t
 
 [Configure](../security/table-permissions.md) and [assign](../security/assign-table-permissions.md) table permissions to allow access to Dataverse records.
 
-### Web application firewall
+### Web Application Firewall
 
-Protect your Power Pages site from common security exploits and vulnerabilities with [Web application firewall](../security/web-application-firewall.md).
+Protect your Power Pages site from common security exploits and vulnerabilities with [Web Application Firewall](../security/web-application-firewall.md).
 
 ## Manage
 
