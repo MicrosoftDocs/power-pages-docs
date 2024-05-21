@@ -5,7 +5,7 @@ author: pranita225
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/17/2024
+ms.date: 05/21/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
@@ -31,7 +31,7 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 
 - **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. [Learn more about the Set up workspace](setup-workspace.md).
 
-- **Security workspace** ADD MORE TEXT HERE [Learn more about the Security workspace](../getting-started/use-security-workspace.md)
+- **Security workspace** provides a single interface to monitor, protect, and manage your Power Pages sites. [Learn more about the Security workspace](../getting-started/use-security-workspace.md)
 
 ## Easily edit sites in Power Pages design studio
 
