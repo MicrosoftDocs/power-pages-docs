@@ -41,7 +41,7 @@ The following table lists common identity providers, the protocol you can use wi
 | Facebook | OAuth 2.0 | [Configure the Facebook provider](oauth2-facebook.md) |
 | Google | OAuth 2.0 | [Configure the Google provider](/power-apps/maker/portals/configure/configure-oauth2-google) |
 | Twitter | OAuth 2.0 | [Configure the Twitter provider](oauth2-twitter.md) |
-| Local authentication<br/>(not recommended) | Not applicable | [Local authentication](set-authentication-identity.md) |
+| Local authentication<br />(not recommended) | Not applicable | [Local authentication](set-authentication-identity.md) |
 
 ## Migrate your website to a new identity provider
 
