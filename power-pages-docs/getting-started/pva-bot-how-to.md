@@ -2,13 +2,14 @@
 title: Replace copilot added to site with another copilot available in Microsoft Copilot Studio
 description: Learn how to replace the default Power Pages copilot with another copilot available in Microsoft Copilot Studio.
 ms.topic: how-to
-ms.date: 04/11/2024
+ms.date: 05/22/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
 contributors:
   - ProfessorKendrick
   - nageshbhat-msft
+  - DanaMartens
 ms.custom: bap-template
 ms.collection: 
     - bap-ai-copilot
@@ -22,11 +23,11 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 ## Prerequisites
 
--  You must have a copilot created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
+- You must have a copilot created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
 
--  [Copilot](enable-chatbot.md#add-a-copilot) must be created and published in the site where you're updating another copilot available in Microsoft Copilot Studio.
+- [Copilot](enable-chatbot.md#add-a-copilot) must be created and published in the site where you're updating another copilot available in Microsoft Copilot Studio.
 
--  Only copilot with [No authentication](microsoft-copilot-studio/configuration-end-user-authentication#no-authentication) can be replaced.
+- Only a copilot with [No authentication](/microsoft-copilot-studio/configuration-end-user-authentication#no-authentication) can be replaced.
 
 ## Copy the copilot schema name
 
