@@ -70,7 +70,7 @@ You can also customize the look and feel to match your needs, see more in: [Cust
 
 ## Security
 
-Power Pages allows you to create secure sites. Use the [Security workspace](../getting-started/use-security-workspace.md) to ADD MORE TEXT  HERE.
+Power Pages allows you to create secure sites.
 
 You can protect any page and data on your site. For more information, see [Power Pages Security](../security/power-pages-security.md).
 
