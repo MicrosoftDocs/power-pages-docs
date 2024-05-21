@@ -4,7 +4,7 @@ description: Learn how to set up payments integration with your website.
 author: sandhangitms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/16/2024
+ms.date: 05/21/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -66,7 +66,7 @@ Once you install the package, you can begin to configure Stripe for your Power P
   
     > [!NOTE]
     > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe.
-    > - Release x.x.x.x. added support for live mode keys in addition to test mode keys.  To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys).
+    > - Release 9.6.3.x. added support for live mode keys in addition to test mode keys. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys).
 
 ### Step 2b: Choose your storage type
 
