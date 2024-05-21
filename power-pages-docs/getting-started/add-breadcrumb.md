@@ -1,10 +1,10 @@
 ---
 title: Add breadcrumbs
 description: Add breadcrumbs to your page in Power Pages.
-author: 
+author: ckwan-ms 
 ms.topic: conceptual
 ms.date: 05/20/2024
-ms.author: 
+ms.author: ckwan 
 ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
