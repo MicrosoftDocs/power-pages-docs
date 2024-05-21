@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.custom: 
   ms.subservice: 
-  ms.date: 04/15/2024
+  ms.date: 5/21/2024
   ms.author: nabha
   ms.reviewer: kkendrick
   contributors:
@@ -14,3 +14,10 @@ metadata:
     - nageshbhat-msft
 
 title: Power Pages Web Application Firewall FAQ
+
+sections: 
+  - name: General
+    questions:
+      - question: |
+          text
+        answer: |
