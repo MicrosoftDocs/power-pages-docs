@@ -686,7 +686,7 @@
       href: configure/cors-support.md
     - name: Manage Content Security Policy
       href: security/manage-content-security-policy.md
-    - name: Web Application Firewall (preview)
+    - name: Web Application Firewall
       items:
         - name: Web Application Firewall overview
           href: security/web-application-firewall.md
@@ -694,6 +694,10 @@
           href: security/configure-web-application-firewall.md
         - name: Web Application Firewall rule groups
           href: security/web-application-firewall-rule-groups.md
+        - name: Web Application Firewall custom rule sets 
+          href: security/web-application-firewall-custom-rule-sets.md
+        - name: Web Application Firewall FAQ
+          href: security/waf-faq.md
     - name: Power Pages security FAQ
       href: security/faq.yml
 - name: Go live
