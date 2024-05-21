@@ -18,8 +18,6 @@ contributors:
 
 Use Power Pages security scan to enhance your site's resilience by identifying and addressing vulnerabilities, safeguarding it against potential threats and ensuring a secure online environment for users.
 
-ADD IMAGE HERE
-
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
