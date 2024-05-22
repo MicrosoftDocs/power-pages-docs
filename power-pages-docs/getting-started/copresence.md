@@ -36,7 +36,7 @@ User icons appear in both the toolbar and the left navigation pane showing where
 
 If more than three makers are present, a number appears, such as +1 or +10. Select that number to expand the list of all users active on the site. From the command bar, select a name to display the user's card and to use the **Send email** and **Chat in Teams** options to contact the person.
 
-# Copresence in Visual Studio Code for the Web
+## Copresence in Visual Studio Code for the Web
 
 Copresence seamlessly works along side with Visual Studio Code for the Web. As users navigate through the files, their status updates in top users icons user panel, reflecting their current page location in Visual Studio Code for the Web and Power Pages Sudio.
 
