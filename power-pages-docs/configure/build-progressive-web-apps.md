@@ -121,13 +121,13 @@ Android and iOS each offer a different method for browser-based installation.
 
 ### Distribute your app through an app store
 
-Progressive web apps can also be distributed through app stores for Android, iOS, and Windows. This distribution is done by creating an app package and publishing the app to the respective app store. For creating the app packages, we partner with [PWABuilder](www.pwabuilder.com/), which provides a platform to generate application packages for various app stores.
+Progressive web apps can also be distributed through app stores for Android, iOS, and Windows. This distribution is done by creating an app package and publishing the app to the respective app store. For creating the app packages, we partner with [PWABuilder](https://www.pwabuilder.com/), which provides a platform to generate application packages for various app stores.
 
 To create an app package, go to **Set up** workspace in the design studio. Under **App package**, select **Create app package**.
 
 :::image type="content" source="media/progressive-web-apps/open-pwa-builder.png" alt-text="Opening PWA Builder to create an app package in portals Studio." border="false":::
 
-This takes you to [the PWA Builder website](www.pwabuilder.com/) where you can create an app package for various app stores. The package you create by using PWA Builder contains:
+This takes you to [the PWA Builder website](https://www.pwabuilder.com/) where you can create an app package for various app stores. The package you create by using PWA Builder contains:
 
 - An app package for the PWA to be used in its respective app store.
 
