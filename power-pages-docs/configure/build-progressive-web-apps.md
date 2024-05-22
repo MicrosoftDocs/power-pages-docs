@@ -141,7 +141,7 @@ For Windows, see [package for the Microsoft Store](https://docs.pwabuilder.com/#
 
 #### Other considerations for Android
 
-For the Android platform, you can also update the Android certificate with the **Update android certificate** option.
+For the Android platform, you can also update the Android certificate with the **Update the Android certificate** option.
 
 :::image type="content" source="media/progressive-web-apps/update-android-certificate.png" alt-text="Menu item in portals Studio to update the Android certificate." border="false":::
 
@@ -151,5 +151,5 @@ Update the title and the SHA-256 certificate fingerprint to update the digital a
 
 ### See also
 
-[Overview of portals as progressive web apps](progressive-web-apps.md)</br>
+[Overview of sites as progressive web apps](progressive-web-apps.md)</br>
 [Overview of Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/)
