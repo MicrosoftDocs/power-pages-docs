@@ -48,10 +48,10 @@ You can create your own branded PWA by using the customization options to change
     | Description | The description of the PWA that appears on the mobile device and in the app store. |
     | Starting page of the app | The start page for the site when it opens through the PWA. |
     | Splash screen background | The background color for the splash screen when the PWA is loaded. |
-    | App icon | The icon for the app that appears on the mobile device and in the app store.<br>**Note:** Supports .jpg, .jpeg, .png formats with a maximum upload size of 5 mb. Size of icon must be 512 &times; 512 pixels. |
+    | App icon | The icon for the app that appears on the mobile device and in the app store.<br>**Note:** Supports .jpg, .jpeg, .png formats with a maximum upload size of 5 MB. Size of icon must be 512 &times; 512 pixels. |
       
     > [!NOTE]
-    > Depending on your browser, it might take few moments for you to see your changes to reflect. After customizing the PWA, select **Preview** to clear the cache of your site.
+    > Depending on your browser, it might take a few moments for it to reflect your changes. After customizing the PWA, select **Preview** to clear the cache of your site.
 
 ## Define offline behavior
 
