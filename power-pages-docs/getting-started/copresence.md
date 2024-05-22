@@ -4,16 +4,17 @@ description: Learn about Copresence in Power Pages.
 author: sandhangitmsft  
 ms.topic: conceptual  
 ms.custom:  
-ms.date: 7/10/2023  
+ms.date: 5/22/2024 
 ms.subservice:  
 ms.author: sandhan  
 ms.reviewer: kkendrick  
 contributors:  
     - sandhangitmsft
     - ProfessorKendrick
+    - DanaMartens
 ---
 
-# Copresence in Power Pages 
+# Copresence in Power Pages
 
 Find out who's working on a site at the same time as you with copresence. Copresence provides the following benefits:
 
@@ -27,7 +28,7 @@ Copresence is enabled by default on all Power Platform environments.
 
 When another user joins your site in the design studio, an icon shows up on the command bar and on the home page where users typically start.
 
-User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site. You'll see your own icon in the page navigation if you have multiple instances of design studio open, but your icon will not display in the toolbar.
+User icons appear in both the toolbar and the left navigation pane showing where other makers are working on the site. These icons update in the main navigation as users navigate within pages of a site. You see your own icon in the page navigation if you have multiple instances of design studio open, but your icon doesn't display in the toolbar.
 
 :::image type="content" source="media/copresence/copresence.png" alt-text="The Pages workspace with copresence icons displayed in the toolbar and the left navigation pane.":::
 
@@ -38,14 +39,10 @@ If more than three makers are present, a number appears, such as +1 or +10. Sele
 
 ## Copresence in Visual Studio Code for the Web
 
-Copresence seamlessly works along side with Visual Studio Code for the Web. As users navigate through the files, their status updates in top users icons user panel, reflecting their current page location in Visual Studio Code for the Web and Power Pages Sudio.
+Copresence seamlessly works along side Visual Studio Code for the Web. As users move through files, their current page location is dynamically updated in the user panel at the top. The active status of users is reflected in both Visual Studio Code for the Web and the Power Pages design studio.
 
-:::image type="content" source="media/copresence/vscode-web-copresence.png" alt-text="The Visual Studio Code for the Web will show users in Action panel with users information.":::
+:::image type="content" source="media/copresence/vscode-web-copresence.png" alt-text="Screenshot of Visual Studio Code for the Web showing users in the Action panel with users information.":::
 
-1. **People on the site**: Instantly see icons and names of other users currently active in the Visual Studio Code for the Web or Design Studio. This helps you understand who might be making changes alongside you, avoiding potential conflicts or duplicated efforts.
-1. **Easy Communication**: Directly contact collaborators through Email or Microsoft Teams, right from within the Power Pages Visual Studio Code for the Web. No need to search for contact information.
-1. **Page-Level Tracking**: The page toolbar user icon will display user panel with teammates that are actively working on selected page, providing further insight into the current workflow.
-
-
-
-
+1. **People on the site**: Instantly see icons and names of other users currently active in Visual Studio Code for the Web or Power Pages design studio. This experience helps you understand who might be making changes alongside you, avoiding potential conflicts or duplicated efforts.
+1. **Easy communication**: Directly contact collaborators through email or Microsoft Teams, right from within Visual Studio Code for the Web. without need to search for contact information.
+1. **Page-level tracking**: The page toolbar user icon displays user panel with teammates that are actively working on the selected page, providing further insight into the current workflow.
