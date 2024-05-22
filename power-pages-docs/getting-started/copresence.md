@@ -36,6 +36,12 @@ User icons appear in both the toolbar and the left navigation pane showing where
 
 If more than three makers are present, a number appears, such as +1 or +10. Select that number to expand the list of all users active on the site. From the command bar, select a name to display the user's card and to use the **Send email** and **Chat in Teams** options to contact the person.
 
+# Visual Studio Code for the Web
+
+1. **People on the site**: Instantly see icons and names of other users currently active in the Visual Studio Code for the Web or Design Studio. This helps you understand who might be making changes alongside you, avoiding potential conflicts or duplicated efforts.
+1. **Easy Communication**: Directly contact collaborators through Email or Microsoft Teams, right from within the Power Pages Visual Studio Code for the Web. No need to search for contact information.
+1. **Page-Level Tracking**: The page toolbar user icon will display user panel with teammates that are actively working on selected page, providing further insight into the current workflow.
+
 
 
 
