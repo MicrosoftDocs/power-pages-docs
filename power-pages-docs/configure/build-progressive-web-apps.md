@@ -59,7 +59,7 @@ PWA offers support for a smooth navigation experience when the device being used
 
 ### Configure offline pages for the portal PWA
 
-1. In the design studio in the **Set up** workspace, select **Progressive web application**.
+1. In the design studio, in the **Set up** workspace, select **Progressive web application**.
 
 1. Under **More settings**, select **Define offline pages**.
 
@@ -78,13 +78,13 @@ When a device is offline, the page you configure as the offline message page app
 
 1. In the design studio, select **Pages** workspace.
 
-1. Select **Default offline page**
+1. Select **Default offline page**.
 
 1. Customize the page.
 
 > [!NOTE]
 > - You can't change the **Title** or **Partial URL** ("*/default-offline-page*") fields for the offline page. A default offline page will be shown to users if the offline page is missing.
-> - Depending on your browser, it might take few moments for you to see your changes to reflect. After customizing the offline PWA experience, select **Preview** to clear the cache of your site.
+> - Depending on your browser, it might take a few moments for it to reflect your changes. After customizing the offline PWA experience, select **Preview** to clear the cache of your site.
 
 ### Test your site in offline mode
 
@@ -115,19 +115,19 @@ After your portal is enabled as a PWA, your users can pin the Power Pages site a
 
 The following graphics illustrate the user experience of adding a portal to the home screen by using the browser that installs the portal as a PWA.
 
-:::image type="content" source="media/progressive-web-apps/site-to-pwa.png" alt-text="A sequence of images, the first image shows a portal open in a browser on a mobile device, the next image showing the menu command Add to Home screen. The next image the user is prompted to install the app, and the last image shows the app with its custom background and branding, operating as a native mobile app." border="false":::
+:::image type="content" source="media/progressive-web-apps/site-to-pwa.png" alt-text="A sequence of images, the first image shows a portal open in a browser on a mobile device. The next image shows the menu command Add to Home screen. In the next image, the user is prompted to install the app. The last image shows the app with its custom background and branding, operating as a native mobile app." border="false":::
 
-Android and iOS each offer a different method for browser based installation.
+Android and iOS each offer a different method for browser-based installation.
 
 ### Distribute your app through an app store
 
-Progressive web apps can also be distributed through app stores for Android, iOS, and Windows. This distribution is done by creating an app package and publishing the app to the respective app store. For creating the app packages, we partner with [PWABuilder](https://www.pwabuilder.com/), which provides a platform to generate application packages for various app stores.
+Progressive web apps can also be distributed through app stores for Android, iOS, and Windows. This distribution is done by creating an app package and publishing the app to the respective app store. For creating the app packages, we partner with [PWABuilder](www.pwabuilder.com/), which provides a platform to generate application packages for various app stores.
 
-To create an app package, go to the **Set up** workspace in the design studio. Under **App package**, select **Create app package**.
+To create an app package, go to **Set up** workspace in the design studio. Under **App package**, select **Create app package**.
 
 :::image type="content" source="media/progressive-web-apps/open-pwa-builder.png" alt-text="Opening PWA Builder to create an app package in portals Studio." border="false":::
 
-You're taken to [the PWA Builder website](https://www.pwabuilder.com/) where you can create an app package for various app stores. The package you create by using PWA Builder contains:
+This takes you to [the PWA Builder website](www.pwabuilder.com/) where you can create an app package for various app stores. The package you create by using PWA Builder contains:
 
 - An app package for the PWA to be used in its respective app store.
 
