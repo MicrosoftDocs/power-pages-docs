@@ -2,7 +2,7 @@
 title: Add a copilot to your Power Pages site (preview)
 description: Learn how to add copilot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 04/11/2024
+ms.date: 05/21/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -12,6 +12,7 @@ contributors:
   - nickdoelman
   - ProfessorKendrick
   - nageshbhat-msft
+  - DanaMartens
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -273,8 +274,8 @@ Set-TenantSettings -RequestBody $requestBody
 
 ### See also
 
-- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
-- [Create a form in a webpage using Copilot (preview)](../getting-started/add-form-copilot.md)
-- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
+- [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
+- [Create a form in a webpage using Copilot](../getting-started/add-form-copilot.md)
+- [Add AI-generated text using Copilot](../getting-started/add-text-copilot.md)
 - [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
 - [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)
