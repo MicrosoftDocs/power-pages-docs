@@ -45,7 +45,7 @@ Copresence seamlessly works along side Visual Studio Code for the Web. As users 
 
 1. **People on the site view**: Instantly see icons and names of other users currently active in Visual Studio Code for the Web or Power Pages design studio. This experience helps you understand who might be making changes alongside you, avoiding potential conflicts or duplicated efforts.
 1. **Easy communication**: Directly contact collaborators through email or Microsoft Teams, right from within Visual Studio Code for the Web. without need to search for contact information.
-1. **Page-level tracking**: Select **Current Active Users** button in the upper right of an editor to bring up a dropdown with actively working teammates on the selected file, providing further insight into the current workflow.
+1. **Page-level tracking**: Select **Current Active Users** in the upper right of an editor to show a dropdown with actively working teammates on the selected file, providing further insight into the current workflow.
 
 ## See also
 
