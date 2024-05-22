@@ -38,7 +38,7 @@ If more than three makers are present, a number appears, such as +1 or +10. Sele
 
 ## Copresence in Visual Studio Code for the Web
 
-Copresence seamlessly works along side with Visual Studio Code for the Web. As users navigate through the files, their status updates in top users icons user panel, reflecting their current page location in Visual Studio Code for the Web and Power Pages Sudio.
+Copresence seamlessly works along side with Visual Studio Code for the Web. As users navigate through the files, their status updates in top users icons user panel, reflecting their current page location in Visual Studio Code for the Web and Power Pages Studio.
 
 :::image type="content" source="media/copresence/vscode-web-copresence.png" alt-text="The Visual Studio Code for the Web will show users in Action panel with users information.":::
 
