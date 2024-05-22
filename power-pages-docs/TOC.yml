@@ -698,6 +698,8 @@
           href: security/web-application-firewall-rule-groups.md
         - name: Web Application Firewall custom rule sets 
           href: security/web-application-firewall-custom-rule-sets.md
+        - name: Web Application Firewall logs
+          href: security/web-application-firewall-logs.md
         - name: Web Application Firewall FAQ
           href: security/waf-faq.md
     - name: Power Pages security FAQ
