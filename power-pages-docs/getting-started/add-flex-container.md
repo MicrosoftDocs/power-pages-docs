@@ -1,10 +1,10 @@
 ---
 title: Add flex containers
 description: Add flex containers to your page in Power Pages.
-author: 
+author: ckwan-ms
 ms.topic: conceptual
-ms.date: 05/21/2024
-ms.author: 
+ms.date: 05/23/2024
+ms.author: ckwan 
 ms.reviewer: kkendrick
 contributors:
     - ProfessorKendrick
@@ -32,11 +32,10 @@ After a flex container control is added, selecting the flex container control wi
 
 | **Property** | **Description** |
 |-------------------------|-------------------------|
-| Design | Change the following flex container properties:</br><ul></br><li>[Direction](https://www.w3schools.com/css/css3_flexbox_container.asp#flex-direction)</li></br><li>[Justify](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content)</li></br><li>[Align items](https://www.w3schools.com/css/css3_flexbox_container.asp#align-items)</li></br><li>[Align content](https://www.w3schools.com/css/css3_flexbox_container.asp#align-content)</li></br><li>[Align self](https://www.w3schools.com/css/css3_flexbox_items.asp#align-self)</li></br><li>[Gap](https://www.w3schools.com/cssref/css3_pr_gap.php)</li></br><li>[Flex grow](https://www.w3schools.com/css/css3_flexbox_items.asp#flex-grow)</li></br><li>[Flex shrink](https://www.w3schools.com/css/css3_flexbox_items.asp#flex-shrink)</li></br><li>[Flex basis](https://www.w3schools.com/css/css3_flexbox_items.asp#flex-basis)</li></br><li>[Flex order](https://www.w3schools.com/css/css3_flexbox_items.asp#order)</li></br></ul> |
+| Design |  |
 | Edit background | Change the color of the background according to the color palette for the selected styling template. You can also add a background image and adjust the size and position. |
 | Change direction and alignment | Align and change direction of content in the flex container. |
 | Others | Choose an option to duplicate the section, move it up or down within the page, or delete the section entirely. |
-
 
 ## Flex container code conventions
 
