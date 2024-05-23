@@ -68,8 +68,8 @@ In order for design studio to recognize and allow canvas editing of custom flexb
 
 ## Build custom layouts
 
- [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKr]
+ >[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKr]
 
- [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKt]
+ >[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKt]
 
 
