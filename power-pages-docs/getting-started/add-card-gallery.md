@@ -1,5 +1,5 @@
 ---
-title: Add a card gallery
+title: Add a card gallery (preview)
 description: Explore how to add, style, and configure a Card gallery in Power Pages sites using design studio and Liquid code.
 author: pranita225
 ms.topic: conceptual
@@ -13,9 +13,15 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:05/23/2024
 ---
-# Add a card gallery
+# Add a card gallery (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A Card gallery is a data control used to display data in Power Pages sites in card gallery format. Card gallery is bound to a table and view. 
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 To add a Card gallery:
 
@@ -29,13 +35,17 @@ To add a Card gallery:
 
 1. Hover over any editable canvas area, then select the Card gallery icon from the component panel.
 
-You can choose either to create a new Card gallery or use add one (if a maker created one previously). If you choose to create a new one, you can select any one of the four available layouts. After this, you need to select an existing table and corresponding view to configure the data source.
+    You can choose either to create a new Card gallery or use add one (if a maker created one previously). If you choose to create a new one, you can select any one of the four available layouts. 
 
-You can bind each Card gallery element namely, image, title, description, button, text hyperlink, to a view column.
+1. Select an existing table and corresponding view to configure the data source.
 
-Each element's position can be rearranged by selecting and sliding it.
+## Configure your card gallery's data source
 
-For button and hyperlink elements, two configurations are required - name and url. Both name and url also need to be bound to view column.
+- You can bind each Card gallery element namely, image, title, description, button, text hyperlink, to a view column.
+
+- Each element's position can be rearranged by selecting and sliding it.
+
+- For button and hyperlink elements, two configurations are required - name and url. Both name and url also need to be bound to view column.
 
 For each element, specific column types are supported as given below:
 
