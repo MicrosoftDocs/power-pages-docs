@@ -172,7 +172,7 @@
                   href: getting-started/multistep-forms.md
                 - name: Add IFrame
                   href: getting-started/add-iframe.md 
-                - name: Add flex container 
+                - name: Add a flex container 
                   href: getting-started/add-flex-container.md
             - name: Structure your site map
               href: getting-started/structure-site.md
