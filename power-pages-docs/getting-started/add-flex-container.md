@@ -66,7 +66,7 @@ The following design properties are configurable in design studio:
     :::column-end:::
 :::row-end:::
 
-## Flex container code conventions
+## Edit flex containers in HTML
 
 You can also add flex containers directly to the html of your webpage. 
 In order for design studio to recognize and allow canvas editing of custom flexbox divs, the CSS class "**ppFlexContainer**" needs to be applied.
