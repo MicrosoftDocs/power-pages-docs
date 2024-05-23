@@ -1,13 +1,17 @@
 ---
 title: Add flex containers
-description: Add flex containers to your page in Power Pages.
+description: Explore the versatility of Flex Container, a layout component for grouping elements like buttons and images, with customizable properties.
 author: ckwan-ms
 ms.topic: conceptual
 ms.date: 05/23/2024
-ms.author: ckwan 
+ms.author: ckwan
 ms.reviewer: kkendrick
 contributors:
-    - ProfessorKendrick
+  - ProfessorKendrick
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:05/23/2024
 ---
 
 # Flex container
@@ -24,7 +28,7 @@ Flex Container is a layout component that can be used to design and build sectio
 
 1. Hover over any editable canvas area, then select the **flex container** component from the component panel.
 
-Add components like [buttons](add-button.md) and [text](add-text.md) to your flex container to create a group of components. 
+Create a group of components by adding other components, like [buttons](add-button.md) and [text](add-text.md), to your flex container.
 
 You can also style and configure the flex container by adding a [background image](add-image.md) and changing its [flex properties](#flex-properties).
 
