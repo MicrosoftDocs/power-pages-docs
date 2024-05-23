@@ -24,11 +24,15 @@ Flex Container is a layout component that can be used to design and build sectio
 
 1. Hover over any editable canvas area, then select the **flex container** component from the component panel.
 
-1. After adding the flex container, add components like button and text to it and create a group of components. Styling and configure the flex container by adding a background image and/or changing its flex properties.
+Add components like [button](add-button.md) and [text](add-text.md) to your flex container to create a group of components. 
+
+You can also style and configure the flex container by adding a [background image](add-image.md) and changing its [flex properties](#flex-properties).
 
 ## Edit a flex container
 
-After a flex container control is added, selecting the flex container control will open the properties bar where you can configure its properties.
+After a flex container control is added, select the flex container control to open the properties bar to configure your flex properties.
+
+### Flex properties
 
 | **Property** | **Description** |
 |-------------------------|-------------------------|
@@ -39,27 +43,25 @@ After a flex container control is added, selecting the flex container control wi
 
 ## Flex container code conventions
 
-Makers can add flex containers in the html of the webpage. In order for Design Studio to recognize and allow canvas editing of custom flexbox divs, the CSS class "**ppFlexContainer**" needs to be applied.
+You can also add flex containers directly to the html of your webpage. 
+In order for design studio to recognize and allow canvas editing of custom flexbox divs, the CSS class "**ppFlexContainer**" needs to be applied.
 
-&lt;div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+```
+<div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;>
+    <div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;>
+        <div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;>
+            <div class="ppFlexContainer">
+                <button type="button" class="button1">
+                    &gt;Button&lt;
+                </button>
+                <button type="button" class="button1">
+                    &gt;Button&lt;
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+```
 
-&lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
-
-&lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;
-
-&lt;div class="ppFlexContainer"&gt;
-
-&lt;button type="button" class="button1"&gt;Button&lt;/button&gt;
-
-&lt;button type="button" class="button1"&gt;Button&lt;/button&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-Without this class, design studio doesn't recognize the custom divs as Flex Container components, and they can't be edited in design studio.
+Without this class, design studio doesn't recognize the custom divs as flex container components, and they can't be edited in design studio.
 
