@@ -47,7 +47,9 @@ To add a Card gallery:
 
 - For button and hyperlink elements, two configurations are required - name and url. Both name and url also need to be bound to view column.
 
-For each element, specific column types are supported as given below:
+### Supported column types
+
+For each element, specific column types are supported.
 
 | **Data type**                     | **Element**                             |
 |-----------------------------------|-----------------------------------------|
