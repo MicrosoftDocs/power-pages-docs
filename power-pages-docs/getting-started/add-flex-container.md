@@ -66,7 +66,7 @@ In order for design studio to recognize and allow canvas editing of custom flexb
 </div>
 ```
 
-## 
+## Build custom layouts
 
  [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKr]
 
