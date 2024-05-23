@@ -41,7 +41,7 @@ After a flex container is added, select the flex container control to open the p
 | Design |  Change your [design properties](#design-properties) to customize your flex container's appearance. |
 | Edit background | Change the color of the background according to the color palette for the selected styling template. You can also add a background image and adjust the size and position. |
 | Change direction and alignment | Align and change direction of content in the flex container. |
-| Others | Choose an option to duplicate the section, move it up or down within the page, or delete the section entirely. |
+| Others | Duplicate the section, move it up or down within the page, or delete the section entirely. |
 
 ### Design properties
 
