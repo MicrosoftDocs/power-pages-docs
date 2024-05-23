@@ -49,20 +49,20 @@ The following design properties are configurable in design studio:
 
 :::row:::
     :::column span="":::
-        - Direction
-        - Justify
-        - Align items
-        - Align content
+        - [Direction](https://www.w3schools.com/css/css3_flexbox_container.asp#flex-direction)
+        - [Justify](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content)
+        - [Align items](https://www.w3schools.com/css/css3_flexbox_container.asp#align-items)
+        - [Align content](https://www.w3schools.com/css/css3_flexbox_container.asp#align-content)
     :::column-end:::
     :::column span="":::
-        - Align self
-        - Gap
-        - Flex grow
+        - [Align self](https://www.w3schools.com/css/css3_flexbox_items.asp)
+        - [Gap](https://www.w3schools.com/cssref/css3_pr_gap.php)
+        - [Flex grow](https://www.w3schools.com/css/css3_flexbox_items.asp)
     :::column-end:::
     :::column span="":::
-        - Flex shrink
-        - Flex basis
-        - Flex order       
+        - [Flex shrink](https://www.w3schools.com/css/css3_flexbox_items.asp)
+        - [Flex basis](https://www.w3schools.com/css/css3_flexbox_items.asp)
+        - [Flex order](https://www.w3schools.com/css/css3_flexbox_items.asp)
     :::column-end:::
 :::row-end:::
 
