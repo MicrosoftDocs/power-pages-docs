@@ -24,7 +24,7 @@ Flex Container is a layout component that can be used to design and build sectio
 
 1. Hover over any editable canvas area, then select the **flex container** component from the component panel.
 
-Add components like [button](add-button.md) and [text](add-text.md) to your flex container to create a group of components. 
+Add components like [buttons](add-button.md) and [text](add-text.md) to your flex container to create a group of components. 
 
 You can also style and configure the flex container by adding a [background image](add-image.md) and changing its [flex properties](#flex-properties).
 
