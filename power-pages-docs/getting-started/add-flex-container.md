@@ -48,7 +48,7 @@ After a flex container is added, select the flex container control to open the p
 The following design properties are configurable in design studio:
 
 :::row:::
-    :::column span="4":::
+    :::column span="3":::
         - Direction
         - Justify
         - Align items
