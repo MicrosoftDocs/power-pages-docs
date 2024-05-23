@@ -54,12 +54,8 @@ In order for design studio to recognize and allow canvas editing of custom flexb
     <div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;>
         <div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;>
             <div class="ppFlexContainer">
-                <button type="button" class="button1">
-                    &gt;Button&lt;
-                </button>
-                <button type="button" class="button1">
-                    &gt;Button&lt;
-                </button>
+                <button type="button" class="button1">Button</button>
+                <button type="button" class="button1">Button</button>
             </div>
         </div>
     </div>
