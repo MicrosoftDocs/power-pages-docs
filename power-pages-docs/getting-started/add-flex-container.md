@@ -10,11 +10,11 @@ contributors:
     - ProfessorKendrick
 ---
 
-# Flex Container
+# Flex container
 
 Flex Container is a layout component that can be used to design and build section layouts. It allows for grouping of components such as buttons, text, images, and nesting of containers.
 
-## Add a Flex Container component
+## Add a flex Container component
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of your page.
 
