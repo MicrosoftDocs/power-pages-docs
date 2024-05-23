@@ -29,15 +29,15 @@ To add a Card gallery:
 
 1. Hover over any editable canvas area, then select the Card gallery icon from the component panel.
 
-1. You can choose either to create a new Card gallery or use add one (if a maker created one previously). If you choose to create a new one, you can select any one of the four available layouts. After this, you need to select an existing table and corresponding view to configure the data source.
+You can choose either to create a new Card gallery or use add one (if a maker created one previously). If you choose to create a new one, you can select any one of the four available layouts. After this, you need to select an existing table and corresponding view to configure the data source.
 
-1. You can bind each Card gallery element namely, image, title, description, button, text hyperlink, to a view column.
+You can bind each Card gallery element namely, image, title, description, button, text hyperlink, to a view column.
 
-1. Each element's position can be rearranged by selecting and sliding it.
+Each element's position can be rearranged by selecting and sliding it.
 
-1. For button and hyperlink elements, two configurations are required - name and url. Both name and url also need to be bound to view column.
+For button and hyperlink elements, two configurations are required - name and url. Both name and url also need to be bound to view column.
 
-1. For each element, specific column types are supported as given below:
+For each element, specific column types are supported as given below:
 
 | **Data type**                     | **Element**                             |
 |-----------------------------------|-----------------------------------------|
@@ -66,15 +66,19 @@ After Card gallery is configured, you can see the preview on canvas with sample 
 
 ## Edit card gallery with Liquid
 
-To configure Card gallery using code:
+You can also use Liquid code to edit your card gallery.
 
-1. To add new Card gallery placeholder, without any data binding or configuration use the following liquid tag:
+### Add a placeholder
+
+To add new Card gallery placeholder without any data binding or configuration, use the following liquid tag:
 
 ```Liquid
 {% codecomponent name:Pages.CardGallery %}
 ```
 
-1. To add an existing Card gallery, use the Liquid tag with relevant Card gallery id:
+### Add to an existing card gallery
+
+To add an existing Card gallery, use the Liquid tag with relevant Card gallery id:
 
 ```Liquid
 {% codecomponent name:Pages.CardGallery id: '3d29615c-1bbe-4bf9-a97b-19d7318d1341' %}
