@@ -54,9 +54,9 @@ In order for design studio to recognize and allow canvas editing of custom flexb
 > Without the **ppFlexContainer** class, design studio doesn't recognize the custom divs as flex container components, and they can't be edited in design studio.
 
 ```html
-<div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;>
-    <div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;>
-        <div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;>
+<div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+    <div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+        <div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
             <div class="ppFlexContainer">
                 <button type="button" class="button1">Button</button>
                 <button type="button" class="button1">Button</button>
