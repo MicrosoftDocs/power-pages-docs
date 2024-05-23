@@ -30,7 +30,7 @@ Flex Container is a layout component that can be used to design and build sectio
 
 Create a group of components by adding other components, like [buttons](add-button.md) and [text](add-text.md), to your flex container.
 
-You can also style and configure the flex container by adding a [background image](add-image.md) and changing its [flex properties](#flex-properties).
+You can also style and configure your flex container by adding a background image and changing its [flex properties](#flex-properties).
 
 ## Edit a flex container
 
