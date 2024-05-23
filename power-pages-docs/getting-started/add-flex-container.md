@@ -30,7 +30,7 @@ You can also style and configure the flex container by adding a [background imag
 
 ## Edit a flex container
 
-After a flex container control is added, select the flex container control to open the properties bar to configure your flex properties.
+After a flex container is added, select the flex container control to open the properties bar to configure your flex properties.
 
 ### Flex properties
 
@@ -45,6 +45,9 @@ After a flex container control is added, select the flex container control to op
 
 You can also add flex containers directly to the html of your webpage. 
 In order for design studio to recognize and allow canvas editing of custom flexbox divs, the CSS class "**ppFlexContainer**" needs to be applied.
+
+>[!IMPORTANT] 
+> Without the **ppFlexContainer** class, design studio doesn't recognize the custom divs as flex container components, and they can't be edited in design studio.
 
 ```
 <div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;>
@@ -63,5 +66,5 @@ In order for design studio to recognize and allow canvas editing of custom flexb
 </div>
 ```
 
-Without this class, design studio doesn't recognize the custom divs as flex container components, and they can't be edited in design studio.
+
 
