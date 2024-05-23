@@ -45,6 +45,27 @@ After a flex container is added, select the flex container control to open the p
 | Change direction and alignment | Align and change direction of content in the flex container. |
 | Others | Choose an option to duplicate the section, move it up or down within the page, or delete the section entirely. |
 
+The following properties are configurable in design studio:
+
+:::row:::
+    :::column span="4":::
+        - Direction
+        - Justify
+        - Align items
+        - Align content
+    :::column-end:::
+    :::column span="3":::
+        - Align self
+        - Gap
+        - Flex grow
+    :::column-end:::
+    :::column span="3":::
+        - Flex shrink
+        - Flex basis
+        - Flex order       
+    :::column-end:::
+:::row-end:::
+
 ## Flex container code conventions
 
 You can also add flex containers directly to the html of your webpage. 
