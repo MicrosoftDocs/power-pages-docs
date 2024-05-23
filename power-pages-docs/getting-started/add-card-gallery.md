@@ -70,10 +70,14 @@ To configure Card gallery using code:
 
 1. To add new Card gallery placeholder, without any data binding or configuration use the following liquid tag:
 
+```Liquid
 {% codecomponent name:Pages.CardGallery %}
+```
 
 1. To add an existing Card gallery, use the Liquid tag with relevant Card gallery id:
 
+```Liquid
 {% codecomponent name:Pages.CardGallery id: '3d29615c-1bbe-4bf9-a97b-19d7318d1341' %}
+```
 
 
