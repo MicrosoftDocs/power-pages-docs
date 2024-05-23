@@ -62,7 +62,7 @@ To add a Card gallery:
 
 1. Turn on/off the Enable search toggle to add/remove search filtering
 
-After Card gallery is configured, you can see the preview on canvas with sample data. Like all other data controls, set permissions to allow site visitors to view and interact with Card gallery. For more information, see [Configuring table permissions](https://learn.microsoft.com/en-us/power-pages/security/table-permissions).
+After Card gallery is configured, you can see the preview on canvas with sample data. Like all other data controls, set permissions to allow site visitors to view and interact with Card gallery. For more information, see [Configuring table permissions](../security/table-permissions.md).
 
 ## Edit card gallery with Liquid
 
