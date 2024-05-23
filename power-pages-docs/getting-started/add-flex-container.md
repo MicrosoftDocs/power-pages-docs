@@ -68,7 +68,13 @@ In order for design studio to recognize and allow canvas editing of custom flexb
 
 ## Build custom layouts
 
+You can use multiple flex containers to build custom layouts.  Here are just a few examples of what you can do.
+
+### Setup card layout
+
  >[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKr]
+
+### Setup floating cards
 
  >[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKt]
 
