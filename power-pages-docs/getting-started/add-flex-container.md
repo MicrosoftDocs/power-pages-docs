@@ -30,22 +30,22 @@ Flex Container is a layout component that can be used to design and build sectio
 
 Create a group of components by adding other components, like [buttons](add-button.md) and [text](add-text.md), to your flex container.
 
-You can also style and configure your flex container by adding a background image and changing its [flex properties](#flex-properties).
+You can also style and configure your flex container.
 
 ## Edit a flex container
 
-After a flex container is added, select the flex container control to open the properties bar to configure your flex properties.
-
-### Flex properties
+After a flex container is added, select the flex container control to open the properties bar to edit your flex container.
 
 | **Property** | **Description** |
 |-------------------------|-------------------------|
-| Design |  |
+| Design |  Change your [design properties](#design-properties) to customize your flex container's appearance. |
 | Edit background | Change the color of the background according to the color palette for the selected styling template. You can also add a background image and adjust the size and position. |
 | Change direction and alignment | Align and change direction of content in the flex container. |
 | Others | Choose an option to duplicate the section, move it up or down within the page, or delete the section entirely. |
 
-The following properties are configurable in design studio:
+### Design properties
+
+The following design properties are configurable in design studio:
 
 :::row:::
     :::column span="4":::
