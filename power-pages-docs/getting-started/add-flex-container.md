@@ -68,7 +68,8 @@ The following design properties are configurable in design studio:
 
 ## Edit flex containers in HTML
 
-You can also add flex containers directly to the html of your webpage. 
+You can also add flex containers directly to your webpage's HTML with [Visual Studio Code for the Web (preview)](../configure/visual-studio-code-editor.md#edit-web-page-code-from-pages-workspace).
+
 In order for design studio to recognize and allow canvas editing of custom flexbox divs, the CSS class "**ppFlexContainer**" needs to be applied.
 
 >[!IMPORTANT] 
