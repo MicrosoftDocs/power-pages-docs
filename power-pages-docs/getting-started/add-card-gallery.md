@@ -30,7 +30,7 @@ To add a card gallery:
 
     >[!TIP]
     >
-    > You can also [add a card gallery using code](#add-card-gallery-with-code).
+    > You can also [add d card gallery using code](#add-a-card-gallery-using-code)
 
 1. Go to the **Pages** workspace.
 
@@ -82,7 +82,7 @@ After your card gallery is configured, you can see the preview on canvas with sa
 >[!NOTE]
 > You must [set table permissions](../security/table-permissions.md) to allow site visitors to view and interact with your card gallery.
 
-## Add card gallery using code
+## Add a card gallery using code
 
 You can also use [Liquid](../configure/liquid/liquid-overview.md) to edit your card gallery.
 
