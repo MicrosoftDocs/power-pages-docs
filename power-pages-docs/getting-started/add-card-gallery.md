@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A Card gallery is a data control used to display data in Power Pages sites in card gallery format. Card gallery is bound to a table and view. 
+A card gallery is a data control, bound to a table and view, used to display data in Power Pages sites in card gallery format. 
 
 > [!IMPORTANT]
 >
