@@ -1,5 +1,5 @@
 ---
-title: Add flex containers
+title: Add a flex container
 description: Explore the versatility of Flex Container, a layout component for grouping elements like buttons and images, with customizable properties.
 author: ckwan-ms
 ms.topic: conceptual
@@ -14,7 +14,7 @@ ms.custom:
   - ai-seo-date:05/23/2024
 ---
 
-# Flex container
+# Add a flex container
 
 Flex Container is a layout component that can be used to design and build section layouts. It allows for grouping of components such as buttons, text, images, and nesting of containers.
 
