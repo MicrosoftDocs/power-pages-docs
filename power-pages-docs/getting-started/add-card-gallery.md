@@ -20,6 +20,7 @@ ms.custom:
 A Card gallery is a data control used to display data in Power Pages sites in card gallery format. Card gallery is bound to a table and view. 
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
@@ -35,21 +36,23 @@ To add a Card gallery:
 
 1. Hover over any editable canvas area, then select the Card gallery icon from the component panel.
 
-    You can choose either to create a new Card gallery or use add one (if a maker created one previously). If you choose to create a new one, you can select any one of the four available layouts. 
-
-1. Select an existing table and corresponding view to configure the data source.
+Choose from any of the four available layouts. You can also choose from existing card galleries if they're available.
 
 ## Configure your card gallery's data source
 
-- You can bind each Card gallery element namely, image, title, description, button, text hyperlink, to a view column.
+To configure your card gallery's data source, select an existing table and corresponding view.
 
-- Each element's position can be rearranged by selecting and sliding it.
+Bind each Card gallery element (image, title, description, button, text hyperlink) to a view column.
 
-- For button and hyperlink elements, two configurations are required - name and url. Both name and url also need to be bound to view column.
+> [!NOTE]
+> 
+>For button and hyperlink elements, two configurations are required: name and url. Both configurations must be bound to a view column.
+
+You can rearrange each element's position by selecting and sliding.
 
 ### Supported column types
 
-For each element, specific column types are supported.
+For each element, specific data types are supported.
 
 | **Data type**                     | **Element**                             |
 |-----------------------------------|-----------------------------------------|
@@ -66,15 +69,20 @@ For each element, specific column types are supported.
 | Date only                         | Title, Description                      |
 | Date and time                     | Title, Description                      |
 
-## Style a card gallery
+## Style and configure your card gallery in design studio
 
-1. Select on the styling tab in toolbar
+You can [style your card gallery](customize-pages.md#edit-components) by configuring style properties at the gallery, card, and element level.
 
-1. Set the styling properties. Styling properties can be configured at the Gallery, Card, and Element level (Style)
+### Search filtering
 
-1. Turn on/off the Enable search toggle to add/remove search filtering
+Turn on/off the **Enable search** toggle to add or remove search filtering.
 
-After Card gallery is configured, you can see the preview on canvas with sample data. Like all other data controls, set permissions to allow site visitors to view and interact with Card gallery. For more information, see [Configuring table permissions](../security/table-permissions.md).
+### Preview your card gallery
+
+After Card gallery is configured, you can see the preview on canvas with sample data. 
+
+>[!NOTE]
+> You must [set table permissions](../security/table-permissions.md) to allow site visitors to view and interact with your card gallery.
 
 ## Edit card gallery with Liquid
 
