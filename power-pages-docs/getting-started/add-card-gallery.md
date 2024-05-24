@@ -24,7 +24,7 @@ A card gallery is a data control, bound to a table and view, used to display dat
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-To add a Card gallery:
+To add a card gallery:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of the site.
 
@@ -79,7 +79,7 @@ Turn on/off the **Enable search** toggle to add or remove search filtering.
 
 ### Preview your card gallery
 
-After Card gallery is configured, you can see the preview on canvas with sample data. 
+After your card gallery is configured, you can see the preview on canvas with sample data. 
 
 >[!NOTE]
 > You must [set table permissions](../security/table-permissions.md) to allow site visitors to view and interact with your card gallery.
@@ -90,7 +90,7 @@ You can also use [Liquid](../configure/liquid/liquid-overview.md) to edit your c
 
 ### Add a placeholder
 
-To add new Card gallery placeholder without any data binding or configuration, use the following liquid tag:
+To add new card gallery placeholder without any data binding or configuration, use the following liquid tag:
 
 ```Liquid
 {% codecomponent name:Pages.CardGallery %}
@@ -98,7 +98,7 @@ To add new Card gallery placeholder without any data binding or configuration, u
 
 ### Add to an existing card gallery
 
-To add an existing Card gallery, use the Liquid tag with relevant Card gallery id:
+To add an existing card gallery, use the Liquid tag with relevant card gallery id:
 
 ```Liquid
 {% codecomponent name:Pages.CardGallery id: '3d29615c-1bbe-4bf9-a97b-19d7318d1341' %}
