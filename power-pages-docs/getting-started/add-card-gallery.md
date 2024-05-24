@@ -29,7 +29,8 @@ To add a card gallery:
 1. Open the [design studio](use-design-studio.md) to edit the content and components of the site.
 
     >[!TIP]
-    > You can also [add a card gallery using code](#add-card-gallery-with-code)
+    >
+    > You can also [add a card gallery using code](#add-card-gallery-with-code).
 
 1. Go to the **Pages** workspace.
 
