@@ -64,7 +64,7 @@ For each element, specific data types are supported.
 |Title     |Text (single line of text)<br />Phone<br />Whole Number<br />Decimal<br />Look up<br />Date only<br />Date and time         |
 |Description     |Rich Text<br />Text Area (multiple lines of text)<br />Phone<br />Whole Number<br />Decimal<br />Date only<br />Date and time         |
 |Image    |File - Image        |
-|Button    |**Button label -** Text (single line of text)<br />**Button URL -** URL         |
+|Button    |Button label - Text (single line of text)<br />Button URL - URL         |
 |Text Hyperlink   |Text Hyperlink label: Text (single line of text)<br />Text Hyperlink URL: URL         |
 
 ## Style and configure your card gallery
