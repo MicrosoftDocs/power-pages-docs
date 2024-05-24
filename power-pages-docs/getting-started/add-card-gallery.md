@@ -42,7 +42,7 @@ Choose from any of the four available layouts. You can also choose from existing
 
 To configure your card gallery's data source, select an existing table and corresponding view.
 
-Bind each Card gallery element (image, title, description, button, text hyperlink) to a view column.
+Bind each card gallery element (image, title, description, button, text hyperlink) to a view column.
 
 > [!NOTE]
 > 
