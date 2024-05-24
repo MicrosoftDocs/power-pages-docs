@@ -26,15 +26,15 @@ A Card gallery is a data control used to display data in Power Pages sites in ca
 
 To add a Card gallery:
 
-1. Open the design studio to edit the content and components of the site.
+1. Open the [design studio](use-design-studio.md) to edit the content and components of the site.
 
-1. Go to the Pages workspace.
+1. Go to the **Pages** workspace.
 
 1. Select the page you want to edit.
 
-1. Select the section you want to add the form component to.
+1. Select the section you want to add the card gallery to.
 
-1. Hover over any editable canvas area, then select the Card gallery icon from the component panel.
+1. Hover over any editable canvas area, then select the **Card gallery** icon from the component panel.
 
 Choose from any of the four available layouts. You can also choose from existing card galleries if they're available.
 
@@ -86,7 +86,7 @@ After Card gallery is configured, you can see the preview on canvas with sample 
 
 ## Edit card gallery with Liquid
 
-You can also use Liquid code to edit your card gallery.
+You can also use [Liquid](../configure/liquid/liquid-overview.md) to edit your card gallery.
 
 ### Add a placeholder
 
