@@ -30,7 +30,7 @@ To add a card gallery:
 
     >[!TIP]
     >
-    > You can also [add d card gallery using code](#add-a-card-gallery-using-code)
+    > You can also [add d card gallery using code](#add-a-card-gallery-using-code).
 
 1. Go to the **Pages** workspace.
 
