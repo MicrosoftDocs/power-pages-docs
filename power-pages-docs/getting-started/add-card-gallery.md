@@ -3,7 +3,7 @@ title: Add a card gallery (preview)
 description: Explore how to add, style, and configure a Card gallery in Power Pages sites using design studio and Liquid code.
 author: pranita225
 ms.topic: conceptual
-ms.date: 05/23/2024
+ms.date: 05/24/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
@@ -27,6 +27,9 @@ A card gallery is a data control, bound to a table and view, used to display dat
 To add a card gallery:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of the site.
+
+    >[!TIP]
+    > You can also [add a card gallery using code](#add-card-gallery-with-code)
 
 1. Go to the **Pages** workspace.
 
@@ -54,22 +57,16 @@ You can rearrange each element's position by selecting and sliding.
 
 For each element, specific data types are supported.
 
-| **Data type**                     | **Element**                             |
-|-----------------------------------|-----------------------------------------|
-| Text (single line of text)        | Title, Button name, Text hyperlink name |
-| Text Area (multiple lines of text) | Description                             |
-| Email                             | NA                                      |
-| URL                               | Button URL, Text hyperlink URL          |
-| Phone                             | Title, Description                      |
-| Whole number                      | Title, Description                      |
-| Decimal                           | Title, Description                      |
-| Rich Text                         | Description                             |
-| Look up                           | Title                                   |
-| File - Image                      | Image                                   |
-| Date only                         | Title, Description                      |
-| Date and time                     | Title, Description                      |
 
-## Style and configure your card gallery in design studio
+|**Element**  |**Data type(s)** |
+|---------|---------|
+|Title     |Text (single line of text)<br />Phone<br />Whole Number<br />Decimal<br />Look up<br />Date only<br />Date and time         |
+|Description     |Rich Text<br />Text Area (multiple lines of text)<br />Phone<br />Whole Number<br />Decimal<br />Date only<br />Date and time         |
+|Image    |File - Image        |
+|Button    |**Button label -** Text (single line of text)<br />**Button URL -** URL         |
+|Text Hyperlink   |Text Hyperlink label: Text (single line of text)<br />Text Hyperlink URL: URL         |
+
+## Style and configure your card gallery
 
 You can [style your card gallery](customize-pages.md#edit-components) by configuring style properties at the gallery, card, and element level.
 
@@ -84,24 +81,24 @@ After your card gallery is configured, you can see the preview on canvas with sa
 >[!NOTE]
 > You must [set table permissions](../security/table-permissions.md) to allow site visitors to view and interact with your card gallery.
 
-## Edit card gallery with Liquid
+## Add card gallery using code
 
 You can also use [Liquid](../configure/liquid/liquid-overview.md) to edit your card gallery.
 
-### Add a placeholder
+### Add a new card gallery
 
-To add new card gallery placeholder without any data binding or configuration, use the following liquid tag:
+To add a new card gallery without any data binding or configuration, use the following liquid tag:
 
 ```Liquid
 {% codecomponent name:Pages.CardGallery %}
 ```
 
-### Add to an existing card gallery
+### Add an existing card gallery
 
-To add an existing card gallery, use the Liquid tag with relevant card gallery id:
+To add an existing card gallery, use the Liquid tag and replace `{your card gallery id}` with the id for the existing card gallery:
 
 ```Liquid
-{% codecomponent name:Pages.CardGallery id: '3d29615c-1bbe-4bf9-a97b-19d7318d1341' %}
+{% codecomponent name:Pages.CardGallery id: '{your card gallery id}' %}
 ```
 
 
