@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2196.00" height="1199.00" viewBox="354.00 104.00 2196.00 1199.00" data-stacking-context="true" aria-owns="html1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2202.00" height="475.00" viewBox="350.00 102.00 2202.00 475.00" data-stacking-context="true" aria-owns="html1">
     <g data-tag="html" id="html1" data-z-index="auto" data-stacking-context="true">
         <g data-tag="body" id="fui-FluentProvider1" data-z-index="auto" data-stacking-context="true" role="document">
             <g data-stacking-layer="rootBackgroundAndBorders">
@@ -410,11 +410,11 @@
                                                                     <g data-tag="div" id="___k8qehi01" data-z-index="auto" data-stacking-context="true">
                                                                         <g data-stacking-layer="rootBackgroundAndBorders">
                                                                             <defs>
-                                                                                <filter id="filter-lwqij0kuurtjs3v15vd">
+                                                                                <filter id="filter-lwqj8ztj7y1qifqzqim">
                                                                                     <feDropShadow dx="0" dy="0.3" stdDeviation="0.9" flood-color="rgba(0, 0, 0, 0.243)"/>
                                                                                 </filter>
                                                                             </defs>
-                                                                            <rect width="2169.00" height="1082.00" x="367.00" y="199.00" fill="rgb(255, 255, 255)" rx="10.00" ry="10.00" filter="url(#filter-lwqij0kuurtjs3v15vd)"/>
+                                                                            <rect width="2169.00" height="1082.00" x="367.00" y="199.00" fill="rgb(255, 255, 255)" rx="10.00" ry="10.00" filter="url(#filter-lwqj8ztj7y1qifqzqim)"/>
                                                                         </g>
                                                                         <g data-tag="div" id="___1emgnjf1" data-z-index="auto" data-stacking-context="true">
                                                                             <g data-tag="h1" id="fui-Text3" data-z-index="auto" data-stacking-context="true" role="heading" aria-level="1">
@@ -488,7 +488,7 @@
                                                                                 </g>
                                                                             </g>
                                                                         </g>
-                                                                        <g data-tag="div" id="fui-MessageBar1" data-z-index="auto" data-stacking-context="true" aria-labelledby="fui-28" role="group">
+                                                                        <g data-tag="div" id="fui-MessageBar1" data-z-index="auto" data-stacking-context="true" aria-labelledby="fui-50" role="group">
                                                                             <g data-stacking-layer="rootBackgroundAndBorders">
                                                                                 <rect width="2120.00" height="35.00" x="391.00" y="279.00" fill="rgb(243, 242, 241)" stroke="rgb(208, 208, 208)" stroke-width="1.00px" rx="4.00" ry="4.00"/>
                                                                             </g>
@@ -503,7 +503,7 @@
                                                                                 </g>
                                                                             </g>
                                                                             <g data-tag="div" id="fui-MessageBarBody1" data-z-index="auto" data-stacking-context="true">
-                                                                                <g data-tag="span" id="fui-281" data-z-index="auto" data-stacking-context="true">
+                                                                                <g data-tag="span" id="fui-501" data-z-index="auto" data-stacking-context="true">
                                                                                     <text color="rgb(50, 49, 48)" dominant-baseline="text-after-edge" font-family="&quot;Segoe UI&quot;, &quot;Segoe UI Web (West European)&quot;, -apple-system, BlinkMacSystemFont, Roboto, &quot;Helvetica Neue&quot;, sans-serif" font-size="14px" font-stretch="100%" font-style="normal" font-variant="normal" font-weight="600" direction="ltr" letter-spacing="normal" text-decoration="none solid rgb(50, 49, 48)" text-anchor="start" text-rendering="auto" unicode-bidi="normal" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto" fill="rgb(50, 49, 48)">
                                                                                         <tspan xml:space="preserve" x="432.00" y="306.00" textLength="194.75" lengthAdjust="spacingAndGlyphs">Manage contacts on your site. </tspan>
                                                                                     </text>
@@ -680,8 +680,8 @@
                                                                                                                 <tspan xml:space="preserve" x="399.00" y="403.00" textLength="93.95" lengthAdjust="spacingAndGlyphs">Administrators</tspan>
                                                                                                             </text>
                                                                                                         </g>
-                                                                                                        <g data-tag="button" id="menu301" data-z-index="auto" data-stacking-context="true" role="button" tabindex="0" aria-labelledby="" aria-label="Click to see more options" aria-haspopup="menu" mask="url(#mask-for-menu3011)">
-                                                                                                            <mask id="mask-for-menu3011">
+                                                                                                        <g data-tag="button" id="menu521" data-z-index="auto" data-stacking-context="true" role="button" tabindex="0" aria-labelledby="" aria-label="Click to see more options" aria-haspopup="menu" mask="url(#mask-for-menu5211)">
+                                                                                                            <mask id="mask-for-menu5211">
                                                                                                                 <rect width="32.00" height="32.00" x="551.00" y="378.00" rx="4.00" ry="4.00" fill="#ffffff"/>
                                                                                                             </mask>
                                                                                                             <g data-tag="span" id="fui-Button__icon4" data-z-index="auto" data-stacking-context="true">
@@ -802,8 +802,8 @@
                                                                                                                 <tspan xml:space="preserve" x="399.00" y="448.00" textLength="114.66" lengthAdjust="spacingAndGlyphs">Anonymous Users</tspan>
                                                                                                             </text>
                                                                                                         </g>
-                                                                                                        <g data-tag="button" id="menu331" data-z-index="auto" data-stacking-context="true" role="button" tabindex="0" aria-labelledby="" aria-label="Click to see more options" aria-haspopup="menu" mask="url(#mask-for-menu3311)">
-                                                                                                            <mask id="mask-for-menu3311">
+                                                                                                        <g data-tag="button" id="menu551" data-z-index="auto" data-stacking-context="true" role="button" tabindex="0" aria-labelledby="" aria-label="Click to see more options" aria-haspopup="menu" mask="url(#mask-for-menu5511)">
+                                                                                                            <mask id="mask-for-menu5511">
                                                                                                                 <rect width="32.00" height="32.00" x="551.00" y="423.00" rx="4.00" ry="4.00" fill="#ffffff"/>
                                                                                                             </mask>
                                                                                                             <g data-tag="span" id="fui-Button__icon5" data-z-index="auto" data-stacking-context="true">
@@ -924,8 +924,8 @@
                                                                                                                 <tspan xml:space="preserve" x="399.00" y="493.00" textLength="128.31" lengthAdjust="spacingAndGlyphs">Authenticated Users</tspan>
                                                                                                             </text>
                                                                                                         </g>
-                                                                                                        <g data-tag="button" id="menu361" data-z-index="auto" data-stacking-context="true" role="button" tabindex="0" aria-labelledby="" aria-label="Click to see more options" aria-haspopup="menu" mask="url(#mask-for-menu3611)">
-                                                                                                            <mask id="mask-for-menu3611">
+                                                                                                        <g data-tag="button" id="menu581" data-z-index="auto" data-stacking-context="true" role="button" tabindex="0" aria-labelledby="" aria-label="Click to see more options" aria-haspopup="menu" mask="url(#mask-for-menu5811)">
+                                                                                                            <mask id="mask-for-menu5811">
                                                                                                                 <rect width="32.00" height="32.00" x="551.00" y="468.00" rx="4.00" ry="4.00" fill="#ffffff"/>
                                                                                                             </mask>
                                                                                                             <g data-tag="span" id="fui-Button__icon6" data-z-index="auto" data-stacking-context="true">
@@ -1427,8 +1427,8 @@
                                                                                     </g>
                                                                                 </g>
                                                                             </g>
-                                                                            <g data-tag="div" id="tooltipHost14931" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost149311)">
-                                                                                <mask id="mask-for-tooltipHost149311">
+                                                                            <g data-tag="div" id="tooltipHost22741" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost227411)">
+                                                                                <mask id="mask-for-tooltipHost227411">
                                                                                     <rect width="0.00" height="0.00" x="0.00" y="0.00" fill="#ffffff"/>
                                                                                 </mask>
                                                                             </g>
@@ -1477,8 +1477,8 @@
                                                                                     </g>
                                                                                 </g>
                                                                             </g>
-                                                                            <g data-tag="div" id="tooltipHost14941" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost149411)">
-                                                                                <mask id="mask-for-tooltipHost149411">
+                                                                            <g data-tag="div" id="tooltipHost22751" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost227511)">
+                                                                                <mask id="mask-for-tooltipHost227511">
                                                                                     <rect width="0.00" height="0.00" x="0.00" y="0.00" fill="#ffffff"/>
                                                                                 </mask>
                                                                             </g>
@@ -1535,8 +1535,8 @@
                                                                                 </g>
                                                                             </g>
                                                                         </g>
-                                                                        <g data-tag="div" id="tooltipHost14951" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost149511)">
-                                                                            <mask id="mask-for-tooltipHost149511">
+                                                                        <g data-tag="div" id="tooltipHost22761" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost227611)">
+                                                                            <mask id="mask-for-tooltipHost227611">
                                                                                 <rect width="0.00" height="0.00" x="0.00" y="0.00" fill="#ffffff"/>
                                                                             </mask>
                                                                         </g>
@@ -1580,8 +1580,8 @@
                                                                                 </g>
                                                                             </g>
                                                                         </g>
-                                                                        <g data-tag="div" id="tooltipHost14961" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost149611)">
-                                                                            <mask id="mask-for-tooltipHost149611">
+                                                                        <g data-tag="div" id="tooltipHost22771" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost227711)">
+                                                                            <mask id="mask-for-tooltipHost227711">
                                                                                 <rect width="0.00" height="0.00" x="0.00" y="0.00" fill="#ffffff"/>
                                                                             </mask>
                                                                         </g>
