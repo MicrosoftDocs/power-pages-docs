@@ -19,7 +19,7 @@ ms.custom:
 
 A card gallery is a data control, bound to a table and view, used to display data in Power Pages sites in card gallery format. 
 
-:::image type="content" source="media/add-card-gallery/card-gallery-component.png" alt-text="A screenshot of the card gallery component with the Card gallery design button displayed in the top left corner.":::
+
 
 > [!IMPORTANT]
 >
@@ -41,6 +41,8 @@ To add a card gallery:
 1. Select the section you want to add the card gallery to.
 
 1. Hover over any editable canvas area, then select the **Card gallery** icon from the component panel.
+    
+    :::image type="content" source="media/add-card-gallery/card-gallery-component.png" alt-text="A screenshot of the card gallery component with the Card gallery design button displayed in the top left corner.":::
 
 Choose from any of the four available layouts. You can also choose from existing card galleries if they're available.
 
