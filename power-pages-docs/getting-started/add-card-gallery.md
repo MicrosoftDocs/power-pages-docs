@@ -19,8 +19,6 @@ ms.custom:
 
 A card gallery is a data control, bound to a table and view, used to display data in Power Pages sites in card gallery format. 
 
-
-
 > [!IMPORTANT]
 >
 > - This is a preview feature.
@@ -48,7 +46,7 @@ To add a card gallery:
 
 Select the **Card gallery design** button to choose from any of the four available layouts.
 
-:::image type="content" source="media/add-card-gallery/card-gallery-design.png" alt-text="A screenshot of the card gallery design options in design studio.  The card gallery design button, located in the top left corner of the component, is emphasized and the design options display in a window in front of the component.":::
+:::image type="content" source="media/add-card-gallery/card-gallery-design.png" alt-text="A screenshot of the card gallery design options in design studio. The card gallery design button, located in the top left corner of the component, is emphasized and the design options display in a window in front of the component.":::
 
 You can also choose from existing card galleries if they're available.
 
@@ -68,7 +66,7 @@ To configure your card gallery's data source,
     > 
     >For button and hyperlink elements, two configurations are required: name and url. Both configurations must be bound to a view column.
 
-Disable the toggle switch next to any element you do not wish to include.
+Disable the toggle switch next to any element you don't wish to include.
 
 You can rearrange each element's position by selecting the icon to the left of the toggle switch and dragging the element to the desired position.
 
