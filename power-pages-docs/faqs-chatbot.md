@@ -53,6 +53,6 @@ When a feature is enabled, the copilot is created with a content moderation set 
 
 ## See also
 
-- [Add a copilot in a Power Pages site (preview)](getting-started/enable-chatbot.md)
+- [Add a copilot to your Power Pages site](getting-started/enable-chatbot.md)
 - [Generate answers from public data using Bing search (preview)](getting-started/force-bing-index.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

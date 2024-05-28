@@ -212,7 +212,7 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add a copilot (preview)
+        - name: Add a copilot
           items:
           - name: Add a copilot
             href: getting-started/enable-chatbot.md
