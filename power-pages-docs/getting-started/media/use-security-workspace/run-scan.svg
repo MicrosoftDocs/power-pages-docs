@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2204.00" height="1173.00" viewBox="351.00 111.00 2204.00 1173.00" data-stacking-context="true" aria-owns="html1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2194.00" height="881.00" viewBox="357.00 118.00 2194.00 881.00" data-stacking-context="true" aria-owns="html1">
     <g data-tag="html" id="html1" data-z-index="auto" data-stacking-context="true">
         <g data-tag="body" id="fui-FluentProvider1" data-z-index="auto" data-stacking-context="true" role="document">
             <g data-stacking-layer="rootBackgroundAndBorders">
@@ -458,11 +458,11 @@
                                                                                                 <g data-tag="div" id="ms-Stack5" data-z-index="auto" data-stacking-context="true">
                                                                                                     <g data-stacking-layer="rootBackgroundAndBorders">
                                                                                                         <defs>
-                                                                                                            <filter id="filter-lwqiifpnohrs2j3f76">
+                                                                                                            <filter id="filter-lwqjhzhkzmec3we9okc">
                                                                                                                 <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0, 0, 0, 0.26)"/>
                                                                                                             </filter>
                                                                                                         </defs>
-                                                                                                        <rect width="1052.03" height="108.00" x="925.48" y="834.50" fill="rgb(255, 255, 255)" rx="12.00" ry="12.00" filter="url(#filter-lwqiifpnohrs2j3f76)"/>
+                                                                                                        <rect width="1052.03" height="108.00" x="925.48" y="834.50" fill="rgb(255, 255, 255)" rx="12.00" ry="12.00" filter="url(#filter-lwqjhzhkzmec3we9okc)"/>
                                                                                                     </g>
                                                                                                     <g data-tag="div" id="ms-StackItem5" data-z-index="auto" data-stacking-context="true">
                                                                                                         <g data-tag="img" id="___zoocg301" data-z-index="auto" data-stacking-context="true" role="img" aria-label="Security Run Scan Image" mask="url(#mask-for-___zoocg3011)">
@@ -957,8 +957,8 @@
                                                                                     </g>
                                                                                 </g>
                                                                             </g>
-                                                                            <g data-tag="div" id="tooltipHost14351" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost143511)">
-                                                                                <mask id="mask-for-tooltipHost143511">
+                                                                            <g data-tag="div" id="tooltipHost23241" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost232411)">
+                                                                                <mask id="mask-for-tooltipHost232411">
                                                                                     <rect width="0.00" height="0.00" x="0.00" y="0.00" fill="#ffffff"/>
                                                                                 </mask>
                                                                             </g>
@@ -1007,8 +1007,8 @@
                                                                                     </g>
                                                                                 </g>
                                                                             </g>
-                                                                            <g data-tag="div" id="tooltipHost14361" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost143611)">
-                                                                                <mask id="mask-for-tooltipHost143611">
+                                                                            <g data-tag="div" id="tooltipHost23251" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost232511)">
+                                                                                <mask id="mask-for-tooltipHost232511">
                                                                                     <rect width="0.00" height="0.00" x="0.00" y="0.00" fill="#ffffff"/>
                                                                                 </mask>
                                                                             </g>
@@ -1065,8 +1065,8 @@
                                                                                 </g>
                                                                             </g>
                                                                         </g>
-                                                                        <g data-tag="div" id="tooltipHost14371" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost143711)">
-                                                                            <mask id="mask-for-tooltipHost143711">
+                                                                        <g data-tag="div" id="tooltipHost23261" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost232611)">
+                                                                            <mask id="mask-for-tooltipHost232611">
                                                                                 <rect width="0.00" height="0.00" x="0.00" y="0.00" fill="#ffffff"/>
                                                                             </mask>
                                                                         </g>
@@ -1110,8 +1110,8 @@
                                                                                 </g>
                                                                             </g>
                                                                         </g>
-                                                                        <g data-tag="div" id="tooltipHost14381" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost143811)">
-                                                                            <mask id="mask-for-tooltipHost143811">
+                                                                        <g data-tag="div" id="tooltipHost23271" data-z-index="auto" data-stacking-context="true" mask="url(#mask-for-tooltipHost232711)">
+                                                                            <mask id="mask-for-tooltipHost232711">
                                                                                 <rect width="0.00" height="0.00" x="0.00" y="0.00" fill="#ffffff"/>
                                                                             </mask>
                                                                         </g>
