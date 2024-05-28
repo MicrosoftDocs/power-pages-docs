@@ -19,7 +19,7 @@ ms.custom:
 
 A card gallery is a data control, bound to a table and view, used to display data in Power Pages sites in card gallery format. 
 
-:::image type="content" source="media/add-card-gallery/card-gallery-component.svg" alt-text="A screenshot of the card gallery component with the Card gallery design button displayed in the top left corner.":::
+:::image type="content" source="media/add-card-gallery/card-gallery-component.png" alt-text="A screenshot of the card gallery component with the Card gallery design button displayed in the top left corner.":::
 
 > [!IMPORTANT]
 >
