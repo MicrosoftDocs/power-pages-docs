@@ -52,13 +52,13 @@ You can also choose from existing card galleries if they're available.
 
 ## Configure your card gallery's data source
 
-To configure your card gallery's data source, 
+To configure your card gallery's data source:
 
 1. Select the **Card gallery design** button and choose **Data**.
 
     :::image type="content" source="media/add-card-gallery/card-gallery-design-data.png" alt-text="A screenshot of the Card gallery design options for Data in design studio.":::
  
-1. Select an existing table from the **Data source** dropdown.
+1. Select an existing table from the **Data source** lookup field.
 1. Select a corresponding view from the **View** dropdown.
 1. For each card gallery element (image, title, description, button, text hyperlink), choose the **Select data** option to bind it to a view column.
 
