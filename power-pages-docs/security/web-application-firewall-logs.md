@@ -2,7 +2,7 @@
 title: Web Application Firewall logs
 description: Discover how to access and download web application firewall logs in Power Pages.
 author: nageshbhat-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2024
 ms.author: nabha
 ms.reviewer: kkendrick
