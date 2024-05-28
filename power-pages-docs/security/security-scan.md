@@ -4,7 +4,7 @@ description: Learn how to identify and address security vulnerabilities in Power
 author: ProfessorKendrick
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/01/2024
+ms.date: 05/28/2024
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: kkendrick
@@ -28,13 +28,15 @@ Use the [Security workspace](../getting-started/use-security-workspace.md) to ru
 
 To run a security scan:
 
-1. Select **Run Deep Scan**.  
+1. Select the **Run Deep Scan** button.  
 
     > [!NOTE]
     > By default, security scan only scans anonymous pages.  To include authenticated pages in the scan, select the check box next to **Include authenticated pages in scan**.
     >
 
     A notification window appears in the workspace.
+
+    :::image type="content" source="media/security-scan/run-deep-scan.svg" alt-text="A screenshot of the notification window for Run Deep Scan in design studio's Security workspace. The window asks users to provide a Username and Password before selecting continue to use local sign in.":::
 
 1. Select the **Continue** button to begin the scan.
 
