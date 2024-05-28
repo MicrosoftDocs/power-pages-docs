@@ -3,7 +3,7 @@ title: Add a card gallery (preview)
 description: Explore how to add, style, and configure a Card gallery in Power Pages sites using design studio and Liquid code.
 author: pranita225
 ms.topic: conceptual
-ms.date: 05/24/2024
+ms.date: 05/28/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
@@ -44,19 +44,33 @@ To add a card gallery:
     
     :::image type="content" source="media/add-card-gallery/card-gallery-component.png" alt-text="A screenshot of the card gallery component with the Card gallery design button displayed in the top left corner.":::
 
-Choose from any of the four available layouts. You can also choose from existing card galleries if they're available.
+## Choose a layout
+
+Select the **Card gallery design** button to choose from any of the four available layouts.
+
+:::image type="content" source="media/add-card-gallery/card-gallery-design.png" alt-text="A screenshot of the card gallery design options in design studio.  The card gallery design button, located in the top left corner of the component, is emphasized and the design options display in a window in front of the component.":::
+
+You can also choose from existing card galleries if they're available.
 
 ## Configure your card gallery's data source
 
-To configure your card gallery's data source, select an existing table and corresponding view.
+To configure your card gallery's data source, 
 
-Bind each card gallery element (image, title, description, button, text hyperlink) to a view column.
+1. Select the **Card gallery design** button and choose **Data**.
 
-> [!NOTE]
-> 
->For button and hyperlink elements, two configurations are required: name and url. Both configurations must be bound to a view column.
+    :::image type="content" source="media/add-card-gallery/card-gallery-design-data.png" alt-text="A screenshot of the Card gallery design options for Data in design studio.":::
+ 
+1. Select an existing table from the **Data source** dropdown.
+1. Select a corresponding view from the **View** dropdown.
+1. For each card gallery element (image, title, description, button, text hyperlink), choose the **Select data** option to bind it to a view column.
 
-You can rearrange each element's position by selecting and sliding.
+    > [!NOTE]
+    > 
+    >For button and hyperlink elements, two configurations are required: name and url. Both configurations must be bound to a view column.
+
+Disable the toggle switch next to any element you do not wish to include.
+
+You can rearrange each element's position by selecting the icon to the left of the toggle switch and dragging the element to the desired position.
 
 ### Supported column types
 
