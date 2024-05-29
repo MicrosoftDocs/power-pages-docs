@@ -2,8 +2,8 @@
 title: Configure Web Application Firewall custom rules
 description: Enhance web application security with custom rules in Web Application Firewall, which allows blocking or allowing specific requests based on set criteria.
 author: nageshbhat-msft
-ms.topic: conceptual
-ms.date: 5/21/2024
+ms.topic: how-to
+ms.date: 5/28/2024
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -20,7 +20,7 @@ Web Application Firewall custom rules allow you to define your own rules for blo
 
 Configure the custom rules by navigating to Security workspace. 
 
-## Prerequisite 
+## Prerequisites 
 
 - You must be administrator to configure custom rules. 
 - [Web Application Firewall](web-application-firewall.md) must be enabled for the site. 
