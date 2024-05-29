@@ -1,8 +1,8 @@
 ---
-title: Configure Omnichannel with Power Pages site copilot (preview)
+title: Configure Omnichannel with Power Pages site copilot
 description: Configure Omnichannel with Power Pages site copilot to escalate interactions with live agents.
 ms.topic: how-to
-ms.date: 04/22/2024
+ms.date: 05/29/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -11,21 +11,18 @@ ms.collection:
 contributors:
   - ProfessorKendrick
   - nageshbhat-msft
+  - DanaMartens
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:04/19/2024
 ---
-# Configure Omnichannel with Power Pages site copilot (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Configure Omnichannel with Power Pages site copilot
 
 [Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) provides enterprise to instantly connect and engage with their customers via live chat. Omnichannel with Power Pages site copilot allows your end users to escalate interaction with live agent when copilot isn't able to answer the queries or the user is expecting a response that isn't designed in the site.
 
 > [!IMPORTANT]
 >
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - To understand the capabilities and limitations of this feature, see [FAQ for copilot](../faqs-chatbot.md).
 
 ## Prerequisites
@@ -35,12 +32,12 @@ ms.custom:
 
 ## Configure agent hand-off in Copilot studio
 
-The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to Omnichannel. 
+The copilot added with Power Pages Studio lacks the necessary instructions for transferring calls to Omnichannel.
 
 To achieve this functionality, you must configure the copilot manually in Copilot Studio. You can access Copilot Studio directly from the Power Pages design studio.
 
 1. Go to the [Set up workspace](setup-workspace.md).
-1. Under **Integrations,** select **Add copilot (preview)**.
+1. Under **Copilot,** select **Add copilot**.
 1. From the **Copilot analytics** section, choose **View copilot analytics**.
 
     :::image type="content" source="media/omnichannel/view-copilot-analytics.svg" alt-text="A screenshot of Add copilot to a site in the Set up workspace with the View copilot analytics link emphasized.":::
