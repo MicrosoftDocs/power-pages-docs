@@ -2,8 +2,8 @@
 title: Web Application Firewall logs
 description: Discover how to access and download web application firewall logs in Power Pages.
 author: nageshbhat-msft
-ms.topic: conceptual
-ms.date: 04/15/2024
+ms.topic: how-to
+ms.date: 05/28/2024
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -24,6 +24,10 @@ When you activate [Web Application Firewall (WAF) for Power Pages](web-applicati
 
 >[!NOTE]
 > By specifying the start and end dates, you can download only the relevant logs. By default, logs for the past 30 days are retained in Dataverse. You can modify this retention period by adjusting the settings in the configuration menu, located next to the 'Download firewall logs' button. You can extend the retention period up to 90 days, or choose to disable the capturing of firewall logs entirely. 
+
+## Prerequisites
+
+- Power Pages Core version 1.0.2403.2 or later.
 
 ## Firewall log schema 
 
