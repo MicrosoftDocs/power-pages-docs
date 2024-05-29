@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create Dataverse tables.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/08/2022
+ms.date: 05/21/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
@@ -12,6 +12,7 @@ contributors:
     - pranita225
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # How to create and modify Dataverse tables by using the Data workspace
@@ -65,7 +66,7 @@ The table will be created in Dataverse. You can now begin to configure your tabl
 
 [Create and modify Dataverse views by using the Data workspace](data-workspace-views.md)<br>
 [Create and modify forms by using the Data workspace](data-workspace-forms.md) <br>
-[Create and modify virtual tables by using the Data workspace (preview)](data-workspace-virtual-tables.md)
+[Create and modify virtual tables by using the Data workspace](data-workspace-virtual-tables.md)
 
 ### See also
 
