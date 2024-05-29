@@ -1,15 +1,18 @@
 ---
 title: FAQ for natural language to text
 description: This FAQ discusses natural language to text and the key considerations for making use of this technology responsibly.
-ms.date: 05/23/2023
+ms.date: 04/26/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: vashr
 ms.author: vashr
-ms.reviewer: ndoelman
+ms.reviewer: dmartens
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # FAQ for natural language to text
@@ -35,7 +38,7 @@ This feature underwent substantial testing before the feature was released. Copi
 ## What are the limitations of natural language to text? How can users minimize the impact of the natural language to text limitations when using the system?
 
 - This feature doesn’t support non-English language input.  
-- This feature is available for preview only in the United States region.
+- See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 - There's a limit on the number of tokens allowed in a query and response.  
 - When you edit a site with [site visibility](security/site-visibility.md) of **Public**, there's a risk that Copilot generated text content, when added to the page, becomes live for the end users of the site.
 
@@ -49,5 +52,5 @@ You can describe the text you need for your website, and Power Pages uses LLMs t
 
 ## See also
 
-- [Add AI-generated text using Copilot (preview)](getting-started/add-text-copilot.md)
+- [Add AI-generated text using Copilot](getting-started/add-text-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

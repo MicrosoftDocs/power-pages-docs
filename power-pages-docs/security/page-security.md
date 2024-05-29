@@ -95,24 +95,6 @@ For example, only employees may view a certain branch of your site. You want to 
 > [!NOTE]
 > If you apply the restrict read right to the home page of a site and select **Exclude direct child web files** as the **Scope**, the home page's direct child web files are accessible to all users.
 
-## Manage page permissions with the legacy Power Apps portals Studio
-
-You can use portals Studio not only to customize your portal but to manage page permissions quickly and efficiently.
-
-1. Sign in to [Power Apps](https://make.powerapps.com).
-
-1. In the left side panel, select **Apps**.
-
-1. Select your portal, and then select **Edit** to open the portal in portals Studio.
-
-    Learn more about [editing in portals Studio](/power-apps/maker/portals/manage-existing-portals#edit) and [Studio anatomy](/power-apps/maker/portals/portal-designer-anatomy).
-
-1. Select a page.
-
-1. On the **Component** pane on the right side of the screen, expand **Permissions**.
-
-The options under **Permissions** vary depending on the page you selected. For example, the options for a parent page are different from the options for a child page that inherited permissions from the parent.
-
 ## Options for page permissions
 
 - **Anyone can see this page**: This option is available on the home page and on child pages that have a parent page with this setting selected. When it's selected, the page is public on the web and available to anyone. When it's not selected, a lock icon appears next to it in the list of pages to indicate the page has restrictions. To make the page available for only specific roles, turn off this option.

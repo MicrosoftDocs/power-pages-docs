@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 04/11/2023
 ms.subservice: 
 ms.author: dileeps
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - neerajnandwana-msft
     - nickdoelman
@@ -18,7 +18,7 @@ contributors:
 
 Microsoft Dataverse is a key component for any Power Pages website. It acts as both metadata store for the website storing all website configuration like webpages, content snippets, site settings, user metadata and the data store for business data. This document describes how the application server hosting the website connects to a Power Platform environment with Dataverse.
 
-To start with one of the core principles to remember is that an end user of Power Pages website isn't a Dataverse user, and Dataverse role based access control concepts doesn't apply to the end user on the Power Pages website. All the users of Power Pages are stored in the Dataverse **contact** table and the data access of these users is controlled through [web roles](../security/create-web-roles.md) whichthat is the role based access control layer for Power Pages users.
+To start with one of the core principles to remember is that an end user of Power Pages website isn't a Dataverse user, and Dataverse role based access control concepts doesn't apply to the end user on the Power Pages website. All the users of Power Pages are stored in the Dataverse **contact** table and the data access of these users is controlled through [web roles](../security/create-web-roles.md) which is the role based access control layer for Power Pages users.
 
 ## Server to Server Connection
 

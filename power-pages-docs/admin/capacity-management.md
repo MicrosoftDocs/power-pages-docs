@@ -34,7 +34,7 @@ The Power Pages capacity management experience allows pivoting between the two s
 
 More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
-These views and features can be used in addition to the [website capacity consumption reports](/admin/website-consumption-reports); however, for monitoring the consumption of current capacity (authenticated MAU and anonymous MAU), it's recommended to use these new views.
+These views and features can be used in addition to the [website capacity consumption reports](website-consumption-reports.md); however, for monitoring the consumption of current capacity (authenticated MAU and anonymous MAU), it's recommended to use these new views.
 
 ## Licensing summary view
 

@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 08/15/2023
 ms.subservice:
 ms.author: gisingh
-ms.reviewer: ndoelman
+ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - GitanjaliSingh33msft

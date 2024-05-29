@@ -2,17 +2,17 @@
 title: Overview of developer capabilities
 description: Learn how to customize and extend Power Pages using pro-developer tools and methods.
 author: neerajnandwana-msft
-
 ms.topic: overview
 ms.custom: 
 ms.date: 8/25/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: ndoelman
+ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
     - nickdoelman
-
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Overview of developer capabilities

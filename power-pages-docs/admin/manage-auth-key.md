@@ -2,13 +2,12 @@
 title: Manage website authentication key
 description: Learn how to manage the authentication key used by Power Pages.
 author: neerajnandwana-msft
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/09/2023
+ms.date: 04/23/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - neerajnandwana-msft
     - nickdoelman
@@ -18,7 +17,7 @@ contributors:
 
 # Manage website authentication key
 
-Power Pages connectivity architecture explained how a website connects to Microsoft Dataverse environment. When a website is created, a new authentication key is generated with the public key uploaded to Microsoft Entra application. Power Pages uses this authentication key to connect to the Dataverse environment. You must renew the key every two years to ensure that your website can connect to Dataverse environment. If the authentication key is renewed, your website isn't accessible to your end users once the authentication key expires. 
+Power Pages connectivity architecture explained how a website connects to Microsoft Dataverse environment. When a website is created, a new authentication key is generated with the public key uploaded to Microsoft Entra application. Power Pages uses this authentication key to connect to the Dataverse environment. You must renew the key once every year to ensure that your website can connect to Dataverse environment. If the authentication key isn't renewed, your website will not be accessible to your end users once the authentication key expires. 
 
 ## Check authentication key details
 
@@ -114,7 +113,7 @@ Use the following steps if the authentication key for your website is near expir
 
 > [!NOTE]
 > - While this process runs in the background, the website will restart.
-> - When you update a key, it's valid for next two years.
+> - When you update a key, it's valid for the next one year.
 > - This process will take five to seven minutes.
 > - Updating authentication key doesn't change any other website configuration or the website state.
 

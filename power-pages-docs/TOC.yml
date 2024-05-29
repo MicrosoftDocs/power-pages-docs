@@ -16,8 +16,6 @@
           href: admin/connectivity.md
         - name: Understand and clear server-side cache
           href: admin/clear-server-side-cache.md
-        - name: Use enhanced data model
-          href: admin/enhanced-data-model.md
 - name: Try Power Pages
   items:
     - name: Sign up for a trial
@@ -28,10 +26,10 @@
       href: getting-started/preview-features-trial.md
 - name: Get started
   items:
-    - name: Create a site
-      href: getting-started/create-manage.md
-    - name: Create an AI-generated site using Copilot (preview)
+    - name: Create an AI-generated site using Copilot
       href: getting-started/create-site-copilot.md
+    - name: Create a site manually
+      href: getting-started/create-manage.md
     - name: Use developer sites
       href: getting-started/developer-sites.md
     - name: Get started with design studio
@@ -108,28 +106,36 @@
           href: templates/blank.md
     - name: Manage sites
       href: admin/manage-sites.md
+    - name: Create additional sites in an environment
+      href: admin/create-additional-sites.md
+    - name: Control site creation in a tenant
+      href: admin/control-site-creation.md
     - name: Reactivate sites
       href: admin/reactivate-website.md      
     - name: Learning hub
       href: getting-started/use-learnhub.md
     - name: Power Pages community
       href: getting-started/community.md
+    - name: Provision a site using the older add on
+      href: admin/provision-add-on.md
     - name: Plan your Power Pages project
       href: configure/planning-power-pages-project.md
 - name: Design and build
   items:
     - name: Design and build overview
       href: configure/design-build-overview.md
-    - name: Use AI-powered and Copilot features (preview)
+    - name: Use AI-powered and Copilot features
       href: configure/ai-copilot-overview.md
     - name: Dataverse and Power Pages
       href: getting-started/what-is-dataverse.md
     - name: Use Pages workspace
       items:
+        - name: Create an AI-generated web page using Copilot
+          href: getting-started/create-page-copilot.md
         - name: Create a web page
           href: getting-started/first-page.md
-        - name: Create an AI-generated web page using Copilot (preview)
-          href: getting-started/create-page-copilot.md
+        - name: Ask Copilot questions
+          href: getting-started/ask-copilot.md
         - name: Design pages
           items:
             - name: Edit pages
@@ -140,10 +146,10 @@
               items:
                 - name: Add sections
                   href: getting-started/add-sections.md
-                - name: Add text
-                  href: getting-started/add-text.md
-                - name: Add AI-generated text using Copilot (preview)
+                - name: Add AI-generated text using Copilot
                   href: getting-started/add-text-copilot.md
+                - name: Add text manually
+                  href: getting-started/add-text.md
                 - name: Add button
                   href: getting-started/add-button.md
                 - name: Add image
@@ -156,16 +162,20 @@
                   href: getting-started/add-power-bi.md
                 - name: Add list
                   href: getting-started/add-list.md
-                - name: Add form
-                  href: getting-started/add-form.md
-                - name: Add an AI-generated form using Copilot (preview)
+                - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
-                - name: Add a multistep form
-                  href: getting-started/multistep-forms.md
+                - name: Add a form manually
+                  href: getting-started/add-form.md
                 - name: Add an AI-generated multistep form using Copilot (preview)
                   href: getting-started/multistep-forms-copilot.md
+                - name: Add a multistep form manually
+                  href: getting-started/multistep-forms.md
                 - name: Add IFrame
                   href: getting-started/add-iframe.md 
+                - name: Add a flex container 
+                  href: getting-started/add-flex-container.md
+                - name: Add a card gallery (preview)
+                  href: getting-started/add-card-gallery.md
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
@@ -174,13 +184,13 @@
       items:
         - name: Styling workspace overview
           href: getting-started/style-site.md
-        - name: Create an AI-generated theme using Copilot (preview)
+        - name: Create an AI-generated theme using Copilot
           href: getting-started/theme-copilot.md
         - name: Customize your site with Bootstrap
           items:
             - name: Bootstrap overview
               href: configure/bootstrap-overview.md
-            - name: Enable Bootstrap version 5 in your environment (preview)
+            - name: Create new sites with Bootstrap version 5
               href: configure/bootstrap-version-5.md
             - name: Migrate existing sites to Bootstrap version 5 (preview)
               href: configure/migrate-bootstrap.md
@@ -192,38 +202,52 @@
           href: getting-started/use-data-workspace.md
         - name: Create and modify tables
           href: configure/data-workspace-tables.md
-        - name: Create and modify virtual tables (preview)
+        - name: Create and modify virtual tables 
           href: configure/data-workspace-virtual-tables.md
         - name: Create and modify views
           href: configure/data-workspace-views.md
         - name: Create and modify forms
           href: configure/data-workspace-forms.md
-    - name: Use Set up workspace
+    - name: Use the Set up workspace
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add an Ai-powered chatbot (preview)
+        - name: Add a copilot (preview)
           items:
-          - name: Add an AI-powered chatbot
+          - name: Add a copilot
             href: getting-started/enable-chatbot.md
-          - name: Force Bing webmaster to index 
+          - name: Generate answers from public data using Bing search
             href: getting-started/force-bing-index.md
-          - name: Replace AI-powered chatbot with a Power Virtual Agents bot
+          - name: Replace copilot with a Microsoft Copilot Studio copilot
             href: getting-started/pva-bot-how-to.md
+          - name: Configure Omnichannel with site copilot (preview)
+            href: configure/omnichannel.md
         - name: Progressive web applications
           items:
             - name: Overview
               href: configure/progressive-web-apps.md
-            - name: Build progressive web applications
+            - name: Build and distribute progressive web applications
               href: configure/build-progressive-web-apps.md
+    - name: Use the Security workspace
+      items:
+        - name: Security workspace overview
+          href: getting-started/use-security-workspace.md
+        - name: Run security scan (preview)
+          href: security/security-scan.md
+        - name: Advanced settings (preview)
+          href: security/advanced-settings.md
     - name: Collaborate in design studio
       items:
       - name: Copresence in design studio
         href: getting-started/copresence.md
       - name: Add comments to pages (preview)
         href: getting-started/add-comments-to-pages.md
-    - name: Power Pages design studio and Power Apps portals Studio
-      href: configure/editing-sites.md
+    - name: Enhanced data model 
+      items:
+        - name: Use enhanced data model
+          href: admin/enhanced-data-model.md
+        - name: Migrate sites to enhanced data model (preview)
+          href: admin/migrate-enhanced-data-model.md
 - name: Administer Power Pages
   items:
     - name: Use the admin center
@@ -374,8 +398,6 @@
           href: configure/enable-multiple-language-support.md
         - name: Behavior and format of the Duration, Date and Time fields
           href: configure/behavior-format-date-time-field.md
-      - name: Setup HTTP headers
-        href: configure/cors-support.md
       - name: Configure advertisements
         href: configure/create-run-advertisement.md
       - name: Configure choices column
@@ -424,6 +446,8 @@
           href: configure/search/faceted.md
         - name: Search knowledge article attachments
           href: configure/search/file-attachment.md
+        - name: Use generative AI (preview)
+          href: configure/search/generative-ai.md
         - name: Progressive search
           href: configure/search/progressive.md
     - name: Configure document storage
@@ -664,7 +688,11 @@
           href: security/column-permissions.md
         - name: Set website access permissions
           href: security/website-access-permission.md
-    - name: Web Application Firewall (preview)
+    - name: Setup HTTP headers
+      href: configure/cors-support.md
+    - name: Manage Content Security Policy
+      href: security/manage-content-security-policy.md
+    - name: Web Application Firewall
       items:
         - name: Web Application Firewall overview
           href: security/web-application-firewall.md
@@ -672,6 +700,12 @@
           href: security/configure-web-application-firewall.md
         - name: Web Application Firewall rule groups
           href: security/web-application-firewall-rule-groups.md
+        - name: Web Application Firewall custom rule sets 
+          href: security/web-application-firewall-custom-rule-sets.md
+        - name: Web Application Firewall logs
+          href: security/web-application-firewall-logs.md
+        - name: Web Application Firewall FAQ
+          href: security/waf-faq.md
     - name: Power Pages security FAQ
       href: security/faq.yml
 - name: Go live
@@ -722,12 +756,14 @@
       href: faqs-chatbot.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
-    - name: FAQ for creating form or multistep form
+    - name: FAQ for creating form
       href: faqs-create-form.md
     - name: FAQ for design studio
       href: faqs-design-studio.md
     - name: FAQ for generating code
-      href: faqs-pro-developer.md                     
+      href: faqs-pro-developer.md     
+    - name: FAQ for generative AI search
+      href: faqs-generative-ai-search.md                     
 - name: Compliance and accessibility
   items:
     - name: Accessibility

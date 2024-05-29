@@ -1,14 +1,14 @@
 ---
 title: Display records as a carousel
 description: Learn how to create a web templates component to display locations in Power Pages as a carousel.
-author: clromano
+author: ckwan-ms
 
 ms.topic: how-to
 ms.custom: 
 ms.date: 07/25/2023
 ms.subservice:
-ms.author: clromano
-ms.reviewer: ndoelman
+ms.author: ckwan
+ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - clromano

@@ -4,9 +4,9 @@ description: Learn how to integrate virtual tables with Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2023
+ms.date: 05/21/2024
 ms.author: nabha
-ms.reviewer: ndoelman
+ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - nageshbhat-msft
@@ -17,7 +17,7 @@ contributors:
 A [virtual table](/power-apps/maker/data-platform/create-edit-virtual-entities) is a special type of table that doesn't have a physical representation in the Microsoft Dataverse but rather represents a query or view of the external data source. They enable the integration of external data source by seamlessly representing data as a table without data replication.
 
 > [!NOTE]
-> This article explains how to create virtual tables in Dataverse manually, and then, them in Power Pages. You can also create virtual tables directly from the Data workspace in the design studio. More information: [Create and modify virtual tables by using the Data workspace (preview)](data-workspace-virtual-tables.md)
+> This article explains how to create virtual tables in Dataverse manually, and then, them in Power Pages. You can also create virtual tables directly from the Data workspace in the design studio. More information: [Create and modify virtual tables by using the Data workspace](data-workspace-virtual-tables.md)
 
 ## Steps to integrate virtual tables in Power Pages 
 
@@ -79,4 +79,4 @@ Dataverse virtual tables have a set of limitations that also apply when using in
 
 ### See also
 
-[Create and modify virtual tables by using the Data workspace (preview)](data-workspace-virtual-tables.md)
+[Create and modify virtual tables by using the Data workspace](data-workspace-virtual-tables.md)

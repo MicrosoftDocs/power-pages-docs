@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 04/05/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: ndoelman
+ms.reviewer: kkendrick
 contributors:
     - neerajnandwana-msft
     - nickdoelman
@@ -22,7 +22,7 @@ In this article, you'll learn about Site Checker diagnostics results related to 
 
 ## Website doesn't load and displays server error
 
-This issue can be caused by several different reasons, such as when a website isn't able to connect to the underlying Dataverse environment, the Dataverse environment doesn't exist or its URL has changed, or when a request to the Dataverse environment has timed out. When you run the Site Checker tool, it will try to determine the exact reason and point you to the correct mitigation. 
+This issue can be caused by several different reasons, such as when a website isn't able to connect to the underlying Dataverse environment, the Dataverse environment doesn't exist or its URL has changed, or when a request to the Dataverse environment has timed out. When you run the Site Checker tool, it tries to determine the exact reason and point you to the correct mitigation. 
 
 Below is a list of common causes for this error and their corresponding mitigation steps.
 
@@ -38,7 +38,7 @@ This happens when the URL of the Dataverse environment is changed by a user afte
 
 1. When the website details page appears, select the ellipse (**...**) to the right of the **Site Actions** menu item and choose **Update Dynamics 365 URL**.
 
-Once this action is successfully completed, your Dataverse environment URL will be updated, and your website will start working.
+Once this action is successfully completed, your Dataverse environment URL is updated, and your website will start working.
 
 ### Microsoft Dataverse environment connected to your website is in administration mode
 
@@ -54,7 +54,7 @@ This issue occurs when the authentication connection between the Power Platform 
 
 1. Under the **Resources** section, select **Power Pages sites**.
 
-1. Select the your website.
+1. Select your website.
 
 1. When the site page opens, from the main menu, select **Shut down this site**. On the prompt, select **Stop**.
 
@@ -62,7 +62,7 @@ This issue occurs when the authentication connection between the Power Platform 
 
 Once these steps are completed, the website restarts and can now make an authentication connection.
 
-In certain situations, especially if the organization ID has changed after the restore operation (or if you reprovisioned the organization), these mitigation steps won't work. In these situations, you can reset and reprovision the website against the same instance. For information on how to reset a portal, see [Reset a website](/power-apps/maker/portals/admin/reset-portal).
+In certain situations, especially if the organization ID changes after the restore operation (or if you reprovisioned the organization), these mitigation steps won't work. In these situations, you can reset and reprovision the website against the same instance. For information on how to reset a portal, see [Reset a website](/power-apps/maker/portals/admin/reset-portal).
 
 ### Request to Microsoft Dataverse environment has timed out
 

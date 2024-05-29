@@ -5,10 +5,10 @@ author: pranita225
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/12/2023
+ms.date: 05/21/2024
 ms.subservice:
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -31,12 +31,10 @@ The design studio has four marquee experiences—called *workspaces*—that focu
 
 - **Set up workspace** enables site administrators to configure site settings such as identity providers, security and permissions, go-live configurations, and progressive web app (PWA) settings. [Learn more about the Set up workspace](setup-workspace.md).
 
-## Sites created using Power Apps
-
-Sites that were created using Power Apps can be edited using the design studio. More information: [Power Pages design studio and Power Apps portals Studio](editing-sites.md).
+- **Security workspace** provides a single interface to monitor, protect, and manage your Power Pages sites. [Learn more about the Security workspace](../getting-started/use-security-workspace.md)
 
 ## Easily edit sites in Power Pages design studio
 
-The following video provides an overview of using the various workspaces to build a powerful website.</br>
+The following video provides an overview of using the various workspaces to build a powerful website.<br />
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE557dy]

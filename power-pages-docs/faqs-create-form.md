@@ -1,15 +1,18 @@
 ---
 title: FAQ for creating AI-generated form or multistep form
 description: This FAQ discusses natural language to forms and the key considerations for making use of this technology responsibly.
-ms.date: 5/23/2023
+ms.date: 04/30/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
 ms.author: prpadalw
-ms.reviewer: ndoelman
+ms.reviewer: dmartens
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # FAQ for creating AI-generated form or multistep form
@@ -39,7 +42,7 @@ This feature underwent substantial testing before the feature was released. AI-g
 ## What are the limitations of natural language to form? How can users minimize the impact of the natural language to form limitations when using the system?
 
 - This feature doesn’t support non-English language input.
-- This feature will be available for Preview in the United States only.
+- See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
 - There is a limit on the number of tokens allowed in a query and response.
 - When a Maker edits a site with site visibility of Public, there is a risk that Copilot generated form, when added to the page, will be live for the end users of the site.
 
@@ -49,6 +52,6 @@ You can revise the form suggestion as needed. You can also review the form previ
 
 ## See also
 
-- [Add an AI-generated form using Copilot (preview)](getting-started/add-form-copilot.md)
-- [Add an AI-generated multiform using Copilot (preview)](getting-started/multistep-forms-copilot.md)
+- [Add an AI-generated form using Copilot](getting-started/add-form-copilot.md)
+- [Add an AI-generated multistep form using Copilot (preview)](getting-started/multistep-forms-copilot.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

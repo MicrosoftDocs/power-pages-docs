@@ -1,46 +1,35 @@
 ---
-title: Add AI-generated text using Copilot (preview)
+title: Add AI-generated text using Copilot
 description: Learn how to create AI-generated text using Copilot and add it to a page in your Power Pages site.
 ms.topic: how-to
-ms.date: 09/07/2023
+ms.date: 04/26/2024
 author: ckwan-ms
 ms.author: ckwan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
+ms.collection: 
+    - bap-ai-copilot
 contributors:
     - nickdoelman
     - ProfessorKendrick
     - ckwan-ms
+    - DanaMartens
 ms.custom: bap-template
 ---
 
-# Add AI-generated text using Copilot (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Add AI-generated text using Copilot
 
 An easy way to add text to your Power Pages website is to ask Copilot to create it for you. Describe the text you need. Copilot generates copy based on your description and offers a preview for you to check. You can [add the text](add-text.md) to your site as it is, edit it first, or start over with a different description.
 
-:::image type="content" source="media/add-text-copilot/copilot-text.png" alt-text="Screenshot of the text creation page in the Copilot for Power Pages preview.":::
+:::image type="content" source="media/add-text-copilot/copilot-text.svg" alt-text="Screenshot of the text creation page in the Copilot for Power Pages preview.":::
 
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - This feature doesn't support non-English language input.
-> - This feature will be available for preview in the United States only.
-> - To understand the capabilities and limitations of this feature, see [FAQ for natural language to text](../faqs-generate-text.md).
-
-## Prerequisites
-
-To use AI-powered Copilot features in Power Pages:
-
-- Your environment must be located in the United States.
-- Your browser language must be set to US-English.
+> [!NOTE]
+> This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
 
 ## Generate text with Copilot
 
 1. Go to the [Pages workspace](first-page.md) and select a page for your form.
 1. Select the **Text** component.
-1. In the text component toolbar, select the **Copilot** icon.
+1. In the text component toolbar, select **Copilot**.
 
     :::image type="content" source="media/add-text-copilot/copilot-icon.png" alt-text="Screenshot of a text component in Power Pages, with the Copilot icon highlighted.":::
 
@@ -60,9 +49,10 @@ To use AI-powered Copilot features in Power Pages:
 
 1. To add the text to the page, select **Add to page**.
 
-:::image type="content" source="media/add-text-copilot/generated-text.png" alt-text="Screenshot of Copilot-generated text.":::
+    :::image type="content" source="media/add-text-copilot/generated-text.png" alt-text="Screenshot of Copilot-generated text.":::
 
 > [!IMPORTANT]
+>
 > AI-generated text can contain mistakes or be otherwise inappropriate for your intended use. Always review, edit, and verify AI-generated text before you [change your site's visibility](../security/site-visibility.md) to public.
 
 After the text is added to the page, you can edit it the same way you [edit any page component](customize-pages.md).
@@ -89,8 +79,8 @@ Here are examples of the same generated text, before and after applying refineme
 
 ### See also
 
-- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
-- [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
-- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
-- [Force Bing webmaster to index your site (preview)](../getting-started/force-bing-index.md)
-- [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)
+- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
+- [FAQ for generating text](../faqs-generate-text.md)
+- [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
+- [Create a form in a webpage using a Copilot](../getting-started/add-form-copilot.md)
+

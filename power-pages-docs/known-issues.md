@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 12/15/2023
 ms.subservice:
 ms.author: sandhan 
-ms.reviewer: 
+ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - ProfessorKendrick
@@ -27,7 +27,6 @@ contributors:
 ## Pages workspace
 
 - Buttons added in websites built with the starter template can't be resized.
-- If a webpage’s HTML contains custom ID attributes, they are removed when changes are made to the webpage in the Pages workspace.
 
 ### Modifying the header in Portal Management App
 
@@ -199,63 +198,6 @@ Here's how to enable cookies if your browser is blocking them:
 
 Only .PNG, .JPG., or .GIF file formats are supported for drag and drop.
 
-## Power Apps portals Studio issues
 
-> [!NOTE]
-> You can edit and design Power Apps portals sites using the new Power Pages design studio. More information: [Power Pages design studio and Power Apps portals Studio](/power-pages/configure/editing-sites).
-
-- If a site has page hierarchy of more than three levels, the pages from fourth level onwards aren't displayed in Power Apps portals Studio.
-
-- The selected text font size will only be displayed if there's a font size defined specifically for that text. If it's part of the standard HTML tags such as p, H1, H2, H3, and so on, Power Apps portals Studio won't display the font size.
-
-- Webpage using the **Page with side navigation** template displays only the link of the pages that existed during the webpage creation. You can update the links on the left side of the page by changing the page template to another template and then back to **Page with side navigation**.
-
-- When you delete a webpage, canvas doesn't reflect the updated menu until the next refresh of canvas.
-
-- Color picker and its related strings are supported only in English.
-
-- A few template pages on the Employee Self Service portal aren't able to render correct breadcrumb.
-
-- A few Power Apps portals templates, especially bound to customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service), don't have default menu items as per their hierarchy of pages. The reason is that there isn't page order available in all or few of the webpages. Any portal without the display order of webpages will have this issue.
-
-- An error message is displayed when the page content (page copy) exceeds its limit of 65,536 characters and page summary exceed its default limit of 2000 characters.
-
-- Navigation menu is only visible on the canvas with a resolution of minimum width of 1600 px.
-
-- An image uploaded on a page becomes the child of the page. If you delete the page, and use the image on another page, the image won't render on Power Apps portals Studio and website.
-
-- Form rendering isn't currently supported in Power Apps portals Studio. When you add a form, you must select **Browse website** to open the website and verify the form.
-
-- On a text or a section background, if you change the color to **No color**, Power Apps portals Studio doesn't remove the related attributes such as background color or font color, instead make the values null.
-
-- In the following scenarios Power Apps portals Studio stops to load and shows the "Sorry, there's a disconnect" error:
-    - If the Home page is deleted or disabled for a portal.
-    - If a page template related to the Home page or any page is disabled or deleted.
-
-- Power Apps portals Studio will be unable to load source code of those content snippets that don't have a language assigned in Dataverse.
-
-- In some instances, the changes for header and footer, either through WYSIWYG experience of Power Apps portals Studio or through the code editor, won't be reflected immediately.
-
-- If a webpage is assigned the Search template in Power Apps portals Studio, it will show a page with the loader. For this scenario to work, you'll have to create an appropriate site marker for that page.
-
-- The Default studio template also shows up as an option in page template while creating a new page once it's used in Power Apps portals Studio. Also, this template is only inserted in English language and it doesn't support localization based on default Dataverse or portal language.
-
-- A list rendered as a calendar control or map isn't configurable through Power Apps portals Studio.
-
-- The Partial URL field in page properties doesn't accept special characters and it breaks the rendering in the canvas for some time.
-
-- Upload CSS might fail in scenarios where CSS file name contains special characters or space in the file name.
-
-- Unpublished webpages don't render in canvas of Power Apps portals Studio.
-
-- While using Power Apps portals Studio, if your portal base language is different than the browser's language, the new webpages created using the Default studio template will have dummy content inserted in browser's language instead of portal language.
-
-- Only CSS applied at the root page is displayed in the **Theme** pane. Although if you try uploading a CSS file with a same name as any other CSS file available in the portal, Power Apps portals Studio asks you to replace that file.
-
-- Power Apps portals Studio is currently not supported on Safari in Mac operating system and has the following issues:
-    - The selection of component isn't correct and hovering on a component provides incorrect target indication.
-    - Two or three column sections don't render properly in Power Apps portals Studio but works fine on the website.
-
-More information: [Power App portal maintenance and troubleshooting](/training/modules/portals-maintenance-troubleshooting/)
 
 

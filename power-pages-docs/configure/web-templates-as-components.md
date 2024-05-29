@@ -1,14 +1,14 @@
 ---
 title: Web templates as components
 description: Learn how to create and manage web templates as components in Power Pages.
-author: clromano
+author: ckwan-ms
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/15/2023
 ms.subservice:
-ms.author: clromano
-ms.reviewer: ndoelman
+ms.author: ckwan
+ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - clromano
