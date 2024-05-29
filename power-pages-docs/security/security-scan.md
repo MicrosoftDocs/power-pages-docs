@@ -35,12 +35,9 @@ To run a security scan:
 1. Select the **Run Deep Scan** button.  
 
     > [!NOTE]
-    > By default, security scan only scans anonymous pages.  To include authenticated pages in the scan, select the check box next to **Include authenticated pages in scan**.
-    >
-
-    A notification window appears in the workspace.
-
-    :::image type="content" source="media/security-scan/run-deep-scan.svg" alt-text="A screenshot of the notification window for Run Deep Scan in design studio's Security workspace. The window asks users to provide a Username and Password before selecting continue to use local sign in.":::
+    > By default, security scan only scans anonymous pages. To include authenticated pages in the scan: 
+    > 1. Select the check box next to **Include authenticated pages in scan**. A notification window appears in the workspace.
+    > 2. Enter your user name and password, then select **Continue**.
 
 1. Select the **Continue** button to begin the scan.
 
