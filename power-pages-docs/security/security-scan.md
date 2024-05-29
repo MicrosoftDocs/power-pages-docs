@@ -2,7 +2,7 @@
 title: Run security scan (preview)
 description: Learn how to identify and address security vulnerabilities in Power Pages with security scan.
 author: ProfessorKendrick
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 05/28/2024
 ms.subservice:
@@ -21,6 +21,10 @@ Use Power Pages security scan to enhance your site's resilience by identifying a
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+
+## Prerequisites
+
+- Power Pages Core version 1.0.2403.2 or later.
 
 ## Run a security scan
 
