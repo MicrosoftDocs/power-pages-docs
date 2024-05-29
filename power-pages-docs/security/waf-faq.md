@@ -2,8 +2,8 @@
 title: FAQ for configuring Web Application Firewall in Power Pages
 description: Learn about frequently asked questions and answers to configure Web Application Firewall rules in Power Pages.
 author: nageshbhat-msft
-ms.topic: conceptual
-ms.date: 04/15/2024
+ms.topic: faq
+ms.date: 05/28/2024
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
