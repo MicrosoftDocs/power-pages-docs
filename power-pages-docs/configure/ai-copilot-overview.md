@@ -2,7 +2,7 @@
 title: Overview of AI-powered and Copilot features in Power Pages
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 04/26/2024
+ms.date: 05/29/2024
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -23,21 +23,24 @@ ms.custom:
 
 Copilot is a set of next-generation AI enhancements that are revolutionizing how you build and launch business websites with Power Pages. Copilot simplifies creating forms, incorporating text, embedding chatbots, and other tasks with a user-friendly, conversational interface that doesn't require years of coding experience. It also offers site users and visitors an enhanced experience, shifting away from traditional click-based navigation and allowing them to uncover information and insights through engaging conversational interactions with your site.
 
-Watch this brief video to learn how Copilot can help you make business websites faster, more easily, and more securely.
+## AI-powered features for makers
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW15U45]
-
-To learn how to use the new AI features in Power Pages, see:
+The following features streamline the website creation process with Copilot:
 
 - [Create an AI-generated site using Copilot](../getting-started/create-site-copilot.md)
 - [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
 - [Add an AI-generated form using Copilot](../getting-started/add-form-copilot.md)
 - [Add an AI-generated multistep form using Copilot (preview)](../getting-started/multistep-forms-copilot.md)
 - [Add AI-generated text using Copilot](../getting-started/add-text-copilot.md)
-- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
-- [Generate answers from public data using Bing search (preview)](../getting-started/force-bing-index.md)
 - [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
 - [Ask Copilot questions](../getting-started/ask-copilot.md)
+
+## AI-powered features for users
+
+The following features make it easier for your website users to locate the information they seek:
+
+- [Add an AI-powered copilot](../getting-started/enable-chatbot.md)
+- [Search with generative AI (preview)](search/generative-AI.md)
 
 ## Availability
 
