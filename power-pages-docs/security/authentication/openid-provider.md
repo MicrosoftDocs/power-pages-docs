@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider
 description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
-ms.date: 07/19/2023
+ms.date: 05/30/2024
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
