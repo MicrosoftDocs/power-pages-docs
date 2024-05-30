@@ -1,7 +1,7 @@
 ---
 title: FAQ for site copilot
 description: This FAQ to add copilot and the key considerations for making use of this technology responsibly.
-ms.date: 04/11/2024
+ms.date: 05/30/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: pranita225
@@ -13,6 +13,7 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
     - nageshbhat-msft
+    - DanaMartens
 ---
 
 # FAQ for site copilot
@@ -54,5 +55,5 @@ When a feature is enabled, the copilot is created with a content moderation set 
 ## See also
 
 - [Add a copilot to your Power Pages site](getting-started/enable-chatbot.md)
-- [Generate answers from public data using Bing search (preview)](getting-started/force-bing-index.md)
+- [Generate answers from public data using Bing search](getting-started/force-bing-index.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

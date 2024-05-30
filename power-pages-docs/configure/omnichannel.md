@@ -2,7 +2,7 @@
 title: Configure Omnichannel with Power Pages site copilot
 description: Configure Omnichannel with Power Pages site copilot to escalate interactions with live agents.
 ms.topic: how-to
-ms.date: 05/29/2024
+ms.date: 05/30/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -19,7 +19,7 @@ ms.custom:
 ---
 # Configure Omnichannel with Power Pages site copilot
 
-[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) provides enterprise to instantly connect and engage with their customers via live chat. Omnichannel with Power Pages site copilot allows your end users to escalate interaction with live agent when copilot isn't able to answer the queries or the user is expecting a response that isn't designed in the site.
+[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) empowers enterprises to instantly connect and engage with their customers via live chat. If the copilot is can't resolve their queries or if they require a response beyond the site's programmed capabilities, the site copilot facilitates a seamless transition to a live agent for assistance.
 
 > [!IMPORTANT]
 >
