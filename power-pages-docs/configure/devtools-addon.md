@@ -22,10 +22,10 @@ The Power Pages extension for Microsoft Edge DevTools is a developer tool design
 
 To work with the developer tools, you need to:
 
-- Install the browser extension
-- Enable diagnostic setting
-- Review server-side error and follow mitigation details
-- View custom log messages added using Liquid code
+- Install the browser extension.
+- Enable diagnostic setting.
+- Review server-side error and follow mitigation details.
+- View custom log messages added using Liquid code.
 
 ## Install the browser DevTools extension
 
@@ -54,7 +54,7 @@ When you enable the [diagnostic setting](#enable-diagnostic-setting), the platfo
 1. Open the browser [DevTools](/microsoft-edge/devtools-guide-chromium/overview#open-devtools).
 1. Select the **Power Pages** tab.
 
-    :::image type="content" source="media/devtools-extension/devtools-extension-tab.png" alt-text="A screenshot of the Microsoft Edge DevTools with the Power Pages tab selected.":::
+    :::image type="content" source="media/devtools-extension/devtools-extension-tab.png" alt-text="Screenshot of the Microsoft Edge DevTools with the Power Pages tab selected.":::
 
 1. Reproduce the scenario where you encountered the error.
 
@@ -67,7 +67,7 @@ The following are some example error messages:
 
 - Error with Local sign-in provider if the LogonEnabled attribute is false for the Portal contact.
 
-    :::image type="content" source="media/devtools-extension/devtools-error-example.png" alt-text="A screenshot of the Microsoft Edge DevTools with the Power Pages tab selected and an example error message displayed.":::
+    :::image type="content" source="media/devtools-extension/devtools-error-example.png" alt-text="Screenshot of the Microsoft Edge DevTools with the Power Pages tab selected and an example error message displayed.":::
 
 - Search for external entity isn't configured properly.
 

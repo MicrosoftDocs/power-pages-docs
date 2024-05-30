@@ -176,6 +176,8 @@
                   href: getting-started/add-flex-container.md
                 - name: Add a card gallery (preview)
                   href: getting-started/add-card-gallery.md
+                - name: Add breadcrumbs
+                  href: getting-started/add-breadcrumb.md
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
