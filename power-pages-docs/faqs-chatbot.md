@@ -42,7 +42,7 @@ More evaluation was performed over custom datasets for offensive and malicious p
 
 - This feature doesn't include a mitigation for checking for correctness of responses returned by the copilot. Nonfactual responses might be generated if the URL from the information is gathered (and what the maker provided) contains incorrect information.
 - This feature only supports English language.
-- This feature is available for preview only in the Europe, United Kingdom, Australia, India, and United States regions.
+- This feature is available only in the Europe, United Kingdom, Australia, India, and United States regions.
 - GPT answers don't support websites that sell prohibitive products or services, as these terms get intentionally blocked by content moderation. An exception to this exclusion is if the content moderation slider gets set to **Low**.
 - That the copilot sometimes returns misguiding responses for high-risk domains that include healthcare finance, communications, and legal.
 
