@@ -34,7 +34,7 @@ Using Generative AI for Power Pages Search is about incorporating generative art
 
 To include generative AI in Power Pages search:
 
-1. Go to the [Set up workspace](../setup-workspace.md).
+1. Go to [Set up workspace](../setup-workspace.md).
 1. Under **Copilot** select **Site search (preview)**.
 1. Turn on **Enable Site search with generative AI (preview)**.
 
@@ -47,7 +47,7 @@ When the search feature is activated on the website, it designates the entire we
 
 To customize the source of search content:
 
-1. Within the [Set up workspace](../setup-workspace.md), select **Site search**.
+1. Go to [Set up workspace](../setup-workspace.md), select **Site search**.
 1. Under **Refine your data**, select **Make changes**.
 1. Select **Choose tables** to select or deselect tables.
     - You can select multiple tables in this section.
