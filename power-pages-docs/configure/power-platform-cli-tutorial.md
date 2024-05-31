@@ -75,7 +75,8 @@ previous step.
 :::image type="content" source="media/power-apps-cli/paportal-download.png" alt-text="Text used by screen readers.":::
 
 > [!NOTE]
-> When you use the Power Platform CLI to upload or download configuration data for a website that uses the enhanced data model, you must use the `modelVersion` parameter. A value of *2* indicates that the enhanced data model should be used. *modelVersion* `1` or `2` to indicate if the site data to be uploaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2).
+> - Use **modelVersion** `1` or `2` to indicate if the site data to be uploaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2).
+> - Run `pac powerpages list -v` command to view which data model is being used for your site or refer [enhanced data model](../admin/enhanced-data-model.md#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model) for steps.
 
 ## Step 4. Change website content
 
