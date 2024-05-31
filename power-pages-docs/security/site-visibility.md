@@ -89,8 +89,6 @@ If the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to
 
 You can use a PowerShell script to change the tenant-level setting `enableSystemAdminsToChangeSiteVisibility`.
 
-> [!IMPORTANT]
-> Effective October 1, 2023, system administrators can't change site visibility when the tenant-level setting is null. Set the value for `enableSystemAdminsToChangeSiteVisibility` to either `true` or `false`.
 
 To get the current value of the tenant-level setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command. For example:
 >
@@ -101,7 +99,7 @@ $ myTenantSettings.powerPlatform.powerPages
 ```
 
 > [!NOTE]
-> The Get-TenantSettings command doesn't list tenant settings whose value is null. The default value of the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is null, so it doesn't appear the first time you run the script. After you set its value to `true` or `false`, the setting appears in the list.
+> The Get-TenantSettings command doesn't list tenant settings whose value is null. The default value of the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is null, so it doesn't appear the first time you run the script. After you set its value to `true` or `false`, the setting appears in the list. When the value of the tenant setting is null, System Administrators will be able to change the site visibility. 
 
 To set a value for `enableSystemAdminsToChangeSiteVisibility`, use the [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command. The following example sets the value to `false`:
 
