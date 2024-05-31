@@ -4,7 +4,7 @@ description: Learn how to identify and address security vulnerabilities in Power
 author: ProfessorKendrick
 ms.topic: how-to
 ms.custom: 
-ms.date: 05/28/2024
+ms.date: 05/31/2024
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: kkendrick
@@ -24,7 +24,7 @@ Use Power Pages security scan to enhance your site's resilience by identifying a
 
 ## Prerequisites
 
-- Power Pages Core version 1.0.2403.2 or later.
+- Power Pages Core version 1.0.2403.84 or later.
 
 ## Run a security scan
 
