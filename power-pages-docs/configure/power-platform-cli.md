@@ -5,26 +5,27 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/27/2023
+ms.date: 05/31/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
     - nickdoelman
+    - DanaMartens
 ---
 
 # Microsoft Power Platform CLI support for Power Pages
 
 Microsoft Power Platform CLI (command line interface) is a simple, single-stop developer command-line interface that empowers developers and app makers to create code components.
 
-Microsoft Power Platform CLI tooling is the first step toward a comprehensive application life-cycle management (ALM) story where the enterprise developers and ISVs can create, build, debug, and publish their extensions and customizations quickly and efficiently. For more information, see [What is Microsoft Power Platform CLI?](/power-platform/developer/cli/introduction)
+Microsoft Power Platform CLI tooling is the first step toward a comprehensive application life-cycle management (ALM) story where the enterprise developers and ISVs can create, build, debug, and publish their extensions and customizations quickly and efficiently. For more information, go to [What is Microsoft Power Platform CLI?](/power-platform/developer/cli/introduction)
 
 With this feature, the Microsoft Power Platform CLI enables CI/CD (Continuous Integration/Continuous
 Deployment) of a Power Pages site configuration. You can now check in the website configuration to source control and move the website configuration to any environment using Microsoft Power Platform CLI.
 
 > [!NOTE]
-> - This feature is generally available starting with Power Platform CLI version 1.9.8. To learn about installing the latest version, see [Install Microsoft Power Platform CLI](/power-platform/developer/cli/introduction).
+> - This feature is generally available starting with Power Platform CLI version 1.9.8. To learn about installing the latest version, go to [Install Microsoft Power Platform CLI](/power-platform/developer/cli/introduction).
 > - Starting with the Power Platform CLI version 1.27, the `pac paportal` command is changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward. This article will soon be updated to use `powerpages` instead of `paportal`. 
 
 ### Why use Microsoft Power Platform CLI for website development?
@@ -58,7 +59,7 @@ For step-by-step instructions, refer to [Install Microsoft Power Platform CLI](/
 
 ## Supported tables
 
-Portals support for Microsoft Power Platform CLI is limited to the tables listed below.
+Portals support for Microsoft Power Platform CLI is limited to the following tables.
 
 :::row:::
    :::column span="":::
@@ -237,8 +238,8 @@ The following sections provide more details about different properties of the "*
 |Property Name|Description|Example|
 |-------------|-----------|-------|
 |[list](/power-platform/developer/cli/reference/paportal#pac-paportal-list)|Lists all portal websites from the current Dataverse environment.<br/><br/> You can add the *-v* parameter to indicate if the site is using the standard or [enhanced data model](../admin/enhanced-data-model.md) |`pac paportal list`|
-|[download](/power-platform/developer/cli/reference/paportal#pac-paportal-download)|Download portal website content from the current Dataverse environment. It has the following parameters: <br/> - *path*: Path where the website content will be downloaded (alias: -p)<br/> - *webSiteId*: Portal website ID to download (alias: -id)<br/> - *overwrite*: (Optional) true - to overwrite existing content; false - to fail if the folder already has website content (alias: -o)<br/> - *modelVersion*: `1` or `2` to indicate if the site data to be downloaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac paportal download --path "C:\portals" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902 --modelVersion 2`|
-|[upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload)|Upload portal website content to the current Dataverse environment. It has the following parameter: <br/> - *path*: Path where the website content is stored (alias: -p) <br/> -*deploymentProfile*: Upload portal data with environment details defined through [profile variables](#use-deployment-profile) in *deployment-profiles/[profile-name].deployment.yaml* file<br/> - *modelVersion*: `1` or `2` to indicate if the site data to be uploaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac paportal upload --path "C:\portals\starter-portal" --deploymentProfile "profile-name" --modelVersion 2`|
+|[download](/power-platform/developer/cli/reference/paportal#pac-paportal-download)|Download portal website content from the current Dataverse environment. It has the following parameters: <br/> - *path*: Path where the website content is downloaded (alias: -p)<br/> - *webSiteId*: Portal website ID to download (alias: -id)<br/> - *overwrite*: (Optional) true - to overwrite existing content; false - to fail if the folder already has website content (alias: -o)<br/> - *modelVersion*: `1` or `2` to indicate if the site data to be downloaded uses the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac paportal download --path "C:\portals" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902 --modelVersion 2`|
+|[upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload)|Upload portal website content to the current Dataverse environment. It has the following parameter: <br/> - *path*: Path where the website content is stored (alias: -p) <br/> -*deploymentProfile*: Upload portal data with environment details defined through [profile variables](#use-deployment-profile) in *deployment-profiles/[profile-name].deployment.yaml* file<br/> - *modelVersion*: `1` or `2` to indicate if the site data to be uploaded uses the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac paportal upload --path "C:\portals\starter-portal" --deploymentProfile "profile-name" --modelVersion 2`|
 
 #### Use deployment profile
 
@@ -273,7 +274,7 @@ adx_contentsnippet:
 
 ## Manifest files
 
-When you download the website content using [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) CLI command, along with downloading the site content it will also generate two manifest files;
+When you download the website content using [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) CLI command, along with downloading the site content it also generates two manifest files;
 - Environment manifest file (org-url-manifest.yml)
 - Delete tracking manifest file (manifest.yml)
 
@@ -281,11 +282,11 @@ When you download the website content using [pac paportal download](/power-platf
 
 The environment manifest file is generated every time when the [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command is run.
 
-After every download, the PAC CLI tool reads the existing environment manifest file and updates the entries deleted in the environment, or creates the environment manifest file if it doesn't exist. 
+After every download, the PAC CLI tool reads the existing environment manifest file and updates the entries deleted in the environment, or creates the environment manifest file if it doesn't exist.
 
 When you run the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command to upload the portal website content. It reads the environment manifest file and identifies the changes made since last download and only uploads the updated content. This helps in optimizing the upload process as only updated website content get uploaded, instead of uploading the all the content on every upload command.
 
-The environment manifest file will be readonly when it connects to the same environment (environment URL matches with file name), to avoid accidental changes. 
+The environment manifest file is readonly when it connects to the same environment (environment URL matches with file name), to avoid accidental changes. 
 
 > [!NOTE]
 > - The environment manifest file is not designed to track the changes when deploying the website to different environments.
@@ -295,7 +296,7 @@ The environment manifest file will be readonly when it connects to the same envi
 
 This file is used for tracking the deleted records from the environment.
 
-When website content is downloaded with [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command, this will add the deleted records from [environment manifest file (org-url-manifest.yml)](#environment-manifest-file-org-url-manifestyml) to manifest.yml file. So, when you upload the website content using the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command it will delete the files from the environment (even to a different environment).
+When website content is downloaded with [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command, this adds the deleted records from [environment manifest file (org-url-manifest.yml)](#environment-manifest-file-org-url-manifestyml) to manifest.yml file. So, when you upload the website content using the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command it deletes the files from the environment (even to a different environment).
 This file isn't deleted, and it gets used regardless which environment you're connected.
 This file needs to be considered when pushing changes to the source control in order to consider deleting items in the target environment.
 

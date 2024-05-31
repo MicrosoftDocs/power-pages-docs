@@ -4,7 +4,7 @@ description: This page provides a walk-through with examples for how to use Powe
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 9/27/2023
+ms.date: 05/31/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -12,11 +12,12 @@ contributors:
     - neerajnandwana-msft
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Tutorial: Use Microsoft Power Platform CLI with Power Pages
 
-In this tutorial example, you'll see how to get started with Microsoft Power Platform CLI to update sample website configuration.
+In this tutorial, you learn how to begin using the Microsoft Power Platform CLI to update a sample website's configuration.
 
 > [!NOTE] 
 > - This tutorial focuses on the required Microsoft Power Platform CLI commands for Power Pages use. For more information about commands used in Power Platform CLI, read [Common commands](/power-platform/developer/cli/introduction#common-commands).
@@ -76,7 +77,7 @@ previous step.
 
 > [!NOTE]
 > - Use **modelVersion** `1` or `2` to indicate if the site data to be uploaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2).
-> - Run `pac powerpages list -v` command to view which data model is being used for your site or refer [enhanced data model](../admin/enhanced-data-model.md#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model) for steps.
+> - Run `pac powerpages list -v` command to view which data model is being used for your site. For more details, go to [enhanced data model](../admin/enhanced-data-model.md#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model).
 
 ## Step 4. Change website content
 
@@ -127,7 +128,7 @@ portals content. For example, if the portal's friendly name is *custom-portal,*
 the path for the above command (--path) should be
 *C:\\pac-portals\\downloads\\custom-portal*.
 
-The upload only happens for content that's been changed. In this example, since the
+The upload only happens for content that is changed. In this example, since the
 change is made to a webpage, content is uploaded only for the adx_webpage
 table.
 
@@ -135,7 +136,7 @@ table.
 
 ### Upload the changes using deployment profile
 
-When working with multiple different environments, you may consider using deployment profiles to ensure the changes are uploaded to the correct environment using deployment profile.
+When working with multiple different environments, you might consider using deployment profiles to ensure the changes are uploaded to the correct environment using deployment profile.
 
 1. Create a folder named **deployment-profiles** inside the folder containing the portal content. For example, if the downloaded portal content is inside "starter-portal", deployment profiles folder should be inside this folder.
 
@@ -178,11 +179,11 @@ To confirm the changes made to the webpage:
 
 1. Select **Sync** in the Power Pages design studio.
 
-1. Browse to the webpage to see the change.
+1. To see the change, browse to the webpage.
 
     :::image type="content" source="media/power-apps-cli/changed-section.png" alt-text="View updated page content.":::
 
-1. If you've used deployment profile example [explained previously](#upload-the-changes-using-deployment-profile), the YAML snippet will update the value as shown below.
+1. If you used the deployment profile example [explained previously](#upload-the-changes-using-deployment-profile), the YAML snippet updates the value as shown in the following screenshot.
 
     :::image type="content" source="media/power-apps-cli-tutorial/browser-title-suffix.png" alt-text="Browser title suffix from Portal Management app":::
 
