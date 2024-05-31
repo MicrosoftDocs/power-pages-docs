@@ -63,17 +63,19 @@ Dataverse environment you connected to in the previous step.
 
 Download website content from the connected Dataverse environment using the [pac paportal download](/power-platform/developer/cli/reference/paportal) command.
 
-`pac paportal download --path [PATH] -id [WebSiteId-GUID]`
+`pac paportal download --path [PATH] -id [WebSiteId-GUID] --modelVersion [DataModel]`
 
 **Example**
 
-`pac paportal download --path c:\pac-portals\downloads -id
-d44574f9-acc3-4ccc-8d8d-85cf5b7ad141`
+`pac paportal download --path c:\pac-portals\downloads -id d44574f9-acc3-4ccc-8d8d-85cf5b7ad141 --modelVersion 2`
 
 For the **id** parameter, use the **WebSiteId** returned from the output of the
 previous step.
 
 :::image type="content" source="media/power-apps-cli/paportal-download.png" alt-text="Text used by screen readers.":::
+
+> [!NOTE]
+> When you use the Power Platform CLI to upload or download configuration data for a website that uses the enhanced data model, you must use the `modelVersion` parameter. A value of *2* indicates that the enhanced data model should be used. *modelVersion* `1` or `2` to indicate if the site data to be uploaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2).
 
 ## Step 4. Change website content
 
@@ -109,11 +111,11 @@ directly in Visual Studio Code.
 
 After making the required changes, upload them using the [pac paportal upload](/power-platform/developer/cli/reference/paportal) command:
 
-`pac paportal upload --path [Folder-location]`
+`pac paportal upload --path [Folder-location] --modelVersion [ModelVersion]`
 
 **Example**
 
-`pac paportal upload --path C:\pac-portals\downloads\custom-portal\`
+`pac paportal upload --path C:\pac-portals\downloads\custom-portal\  --modelVersion 2` 
 
 :::image type="content" source="media/power-apps-cli/upload.png" alt-text="Starting upload.":::
 
