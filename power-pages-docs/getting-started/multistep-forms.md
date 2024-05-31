@@ -21,7 +21,7 @@ While you can use a [form](add-form.md) to collect data in Power Pages sites, a 
 > [!NOTE]
 >
 > - Multistep forms were called advanced forms earlier.
-> - Some features of multistep forms still need to be configured using the Portal Management app. For more information, go to [Define multistep form properties](../configure/multistep-form-properties.md).
+> - Some features of multistep forms still need to be configured using the Portal Management app. Learn more: [Define multistep form properties](../configure/multistep-form-properties.md).
 
 ## Create new multistep form
 
@@ -69,8 +69,6 @@ While you can use a [form](add-form.md) to collect data in Power Pages sites, a 
     |     Attachments       |     Configure attachments for the step. More   information: [Enable attachments](#enable-attachments)                             |
     |     More options      |     Allows you to [change step mode](#change-step-mode), enable or disable back button, and launch the Portal Management app from here for more settings. More information: [Configure more options](#configure-more-options). If you want to create a new table or a new form, use [Data workspace](use-data-workspace.md).                      |
 
-      
-
 1. Select **Ok**.
 
 1. Add more steps by selecting **+ Add step** from the toolbar.
@@ -95,10 +93,10 @@ You can enable notes attachment for any step. To enable notes attachment, go to 
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 |     Enable attachments               |     Enables or disables attachments on the multiform   step.                                                         |
 |     Attachment is required           |     Makes attachments mandatory or optional.                                                                         |
-|     Allow multiple files             |     Allow more than one file to the multistep form                                                                   |
-|     Attachments display label        |     Label that appears on the form for attachment   upload                                                           |
+|     Allow multiple files             |     Allow more than one file to the multistep form.                                                                   |
+|     Attachments display label        |     Label that appears on the form for attachment   upload.                                                           |
 |     Max file size allowed (in KB)    |     File size in KB allowed for the upload. Maximum limit depends on the value set in the Dataverse.    |
-|     File types allowed               |     Select one or more file types from the available   options that you want to allow for upload                     |
+|     File types allowed               |     Select one or more file types from the available   options that you want to allow for upload.                     |
 
 ## Configure more options
 
