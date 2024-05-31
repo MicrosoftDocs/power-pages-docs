@@ -115,7 +115,7 @@ After making the required changes, upload them using the [pac paportal upload](/
 
 **Example**
 
-`pac paportal upload --path C:\pac-portals\downloads\custom-portal\  --modelVersion 2` 
+`pac paportal upload --path C:\pac-portals\downloads\custom-portal\ --modelVersion 2` 
 
 :::image type="content" source="media/power-apps-cli/upload.png" alt-text="Starting upload.":::
 
@@ -166,7 +166,7 @@ When working with multiple different environments, you may consider using deploy
 
 1. After authenticated and connected to the correct environment, use the [pac paportal upload](/power-platform/developer/cli/reference/paportal) command to upload the content:
 
-    `pac paportal upload --path "C:\portals\starter-portal" --deploymentProfile dev`
+    `pac paportal upload --path "C:\portals\starter-portal" --deploymentProfile dev --modelVersion 2`
 
     > [!NOTE]
     > In the above example, the deployment profile name used is "dev" after following the previous steps to create a dev deployment profile. Change the name from "dev" to any other (such as QA for "qa.deployment.yml", or Test for "test.deployment.yml") if you've used a different filename for your deployment YAML file.
