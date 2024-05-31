@@ -29,7 +29,7 @@ To use the Bing search:
 1. Select **Topics**.
 1. Select the **System** tab.
 1. Select the **Conversational boosting** topic.
-1. Update the **Create generative answers** node to search public websites you want to index. For additional information, go to [Search public data or use a Bing Custom Search for generative answers](/microsoft-copilot-studio/nlu-generative-answers-bing).
+1. Update the **Create generative answers** node to search public websites you want to index. For more details, go to [Search public data or use a Bing Custom Search for generative answers](/microsoft-copilot-studio/nlu-generative-answers-bing).
 1. Select **Save** and then select **Publish**.
 
     Verify whether your public site is indexed by conducting a search for any content using Bing search. If you don't receive any results from your site, it might not be indexed. You can either wait for indexing or prompt Bing Webmaster to index your site immediately.
