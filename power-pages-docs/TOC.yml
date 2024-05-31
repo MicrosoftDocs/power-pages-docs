@@ -176,6 +176,8 @@
                   href: getting-started/add-flex-container.md
                 - name: Add a card gallery (preview)
                   href: getting-started/add-card-gallery.md
+                - name: Add breadcrumbs
+                  href: getting-started/add-breadcrumb.md
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
@@ -212,7 +214,7 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add a copilot (preview)
+        - name: Add a copilot
           items:
           - name: Add a copilot
             href: getting-started/enable-chatbot.md
@@ -220,7 +222,7 @@
             href: getting-started/force-bing-index.md
           - name: Replace copilot with a Microsoft Copilot Studio copilot
             href: getting-started/pva-bot-how-to.md
-          - name: Configure Omnichannel with site copilot (preview)
+          - name: Configure Omnichannel with site copilot
             href: configure/omnichannel.md
         - name: Progressive web applications
           items:
@@ -752,7 +754,7 @@
       href: responsible-ai-overview.md
     - name: FAQ for site creation
       href: faqs-generate-site.md      
-    - name: FAQ for chatbot
+    - name: FAQ for site copilot
       href: faqs-chatbot.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
