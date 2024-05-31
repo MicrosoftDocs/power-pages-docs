@@ -2,7 +2,7 @@
 title: Configure Omnichannel with Power Pages site copilot
 description: Configure Omnichannel with Power Pages site copilot to escalate interactions with live agents.
 ms.topic: how-to
-ms.date: 05/30/2024
+ms.date: 05/31/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens

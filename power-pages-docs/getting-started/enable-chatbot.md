@@ -2,7 +2,7 @@
 title: Add a copilot to your Power Pages site
 description: Learn how to add copilot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 05/30/2024
+ms.date: 05/31/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -27,7 +27,7 @@ A Power Pages site copilot can provide quick and efficient customer support to y
 > [!IMPORTANT]
 >
 > - To understand the capabilities and limitations of this feature, see [FAQ for copilot](../faqs-chatbot.md).
-> - If you configure copilot for generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
+> - If you configure copilot for generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## Prerequisites
 
