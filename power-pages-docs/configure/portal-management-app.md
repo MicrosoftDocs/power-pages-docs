@@ -4,7 +4,7 @@ description: Learn how to use the Portal Management app.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/22/2023
+ms.date: 06/31/2024
 ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
