@@ -3,7 +3,7 @@ title: Web Application Firewall logs
 description: Discover how to access and download web application firewall logs in Power Pages.
 author: nageshbhat-msft
 ms.topic: how-to
-ms.date: 05/28/2024
+ms.date: 05/31/2024
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -27,7 +27,7 @@ When you activate [Web Application Firewall (WAF) for Power Pages](web-applicati
 
 ## Prerequisites
 
-- Power Pages Core version 1.0.2403.2 or later.
+- Power Pages Core version 1.0.2403.84 or later.
 
 ## Firewall log schema 
 
