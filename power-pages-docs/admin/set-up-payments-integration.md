@@ -4,7 +4,7 @@ description: Learn how to set up payments integration with your website.
 author: sandhangitms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/21/2024
+ms.date: 06/05/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -55,28 +55,15 @@ The installation action might take a few minutes. The action changes to manage o
 
 Once you install the package, you can begin to configure Stripe for your Power Pages site.
 
-### Step 2a: Obtain your Stripe keys
-
-1. In the design studio, choose **Set up**.
-1. Under **Integrations**, select **External apps**.
-1. In the Integrations table, select the **Manage** action for Stripe.
-1. Go to the Stripe developer dashboard.
-
-   From the API Keys tab, obtain the **Publishable** and **Secret Keys** required to enable this integration.
-  
-    > [!NOTE]
-    > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe.
-    > - Release 9.6.3.x. added support for live mode keys in addition to test mode keys. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys).
-
-### Step 2b: Choose your storage type
+### Step 2a: Choose your storage type
 
 You can use Dataverse (only supports test mode) or Azure Key Vault (supports both test mode and live mode) to store the Stripe API keys.
 
 If you use Azure Key Vault, add the Stripe Secret/Restricted key to a key vault and assign permissions to your site by following these steps:
 
-### Step 2c: Configure Azure Key Vault (optional)
+### Step 2b: Configure Azure Key Vault (optional)
 
-If you choose Azure Key Vault as your storage type, complete the following steps. If you choose Dataverse, continue to step 2d ([Add your keys to your configuration](#step-2d-add-your-keys-to-your-configuration)).
+If you choose Azure Key Vault as your storage type, complete the following steps. If you choose Dataverse, continue to step 2c ([Add your keys to your configuration](#step-2d-add-your-keys-to-your-configuration)).
 
 1. Within the Azure portal, obtain the name of your app in **App registrations** which corresponds to your Power Pages website.
 
@@ -94,7 +81,7 @@ If you choose Azure Key Vault as your storage type, complete the following steps
     1. Select **+ Add** on the top of the page, and then select **Add role assignment**.
     1. Under the **Job function roles** tab, search for **Key Vault Secrets User** role name, select it, and then select **Next**.
     1. For **Assign access to**, select **User, group, or service principal**.
-    1. Select **+ Select members** and search for your site's app registration name as described at the beginning of step 2c.
+    1. Select **+ Select members** and search for your site's app registration name as described at the beginning of step 2b.
     1. Select the app for your site and select **Next**.
     1. Select **Review + assign**.
 
@@ -103,7 +90,7 @@ If you choose Azure Key Vault as your storage type, complete the following steps
     1. Select **Access policies** on the left side menu.
     1. Select **+ Create** on the top of the page.
     1. Under **Secret permissions**, select **Get** > **Next**.
-    1. Search for your site's app registration name as described at the beginning of step 2c.
+    1. Search for your site's app registration name as described at the beginning of step 2b.
     1. Select the app for the site and then select **Next**.
     1. Select **Create**.
 
@@ -111,14 +98,25 @@ If you choose Azure Key Vault as your storage type, complete the following steps
 
     Your site now has permissions to read secrets from this key vault.
 
-### Step 2d: Add your keys to your configuration
+### Step 2c: Add your keys to your configuration
 
-1. Add your Stripe Secret/Restricted Key that was obtained in previous steps as a secret to the key vault.
+1. In the design studio, choose **Set up**.
+1. Under **Integrations**, select **External apps (preview)**.
+1. In the Integrations table, select the **Manage** action for Stripe.
+1. Go to the [Stripe Marketplace](https://go.microsoft.com/fwlink/?linkid=2268776) and install the Microsoft Power Pages Payments app.
+1. After the app is installed, obtain the **Publishable** and **Restricted** keys required to enable this integration.
+  
+    > [!NOTE]
+    > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe.
+    > - Release 9.6.3.x. added support for live mode keys in addition to test mode keys. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys).
+
 1. In the design studio, enter the settings in the **Enable integration** panel.
 
     If you're using the Dataverse storage option, enter the Publishable and Secret keys.
 
     If you're using the Key Vault storage option, enter the Publishable key, Azure Key vault name, and Secret name.
+
+    :::image type="content" source="media/set-up-payments-integration/stripe-integration.svg" alt-text="Screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
 
 1. Select **Save** and close the panel. If you encounter an error while saving, refer to the error message and resolve the key vault setup related issues.
 1. Select **Sync**.
@@ -134,7 +132,7 @@ To enable payments, complete the following steps:
 1. Add or edit the [multistep form](../getting-started/multistep-forms.md), and create a step called *Pay* (or similar).
 1. Proceed to **Step settings**.
 
-   :::image type="content" source="media/set-up-payments-integration/form-step-settings.svg" alt-text="The Step settings options inside of the Pages workspace of Power Pages design studio.":::
+   :::image type="content" source="media/set-up-payments-integration/form-step-settings.svg" alt-text="Screenshot of the Step settings options inside of the Pages workspace of Power Pages design studio.":::
 
     - Select **App Integrations**.
     - Switch the **Enable digital payments** toggle to the on position.
@@ -156,6 +154,65 @@ A successful payment shows the confirmation with the amount paid and a transacti
 
 If this step is the last step of your multistep form, a submit button is enabled that submits the form and completes your process.
 
+## Control payments feature in a tenant
+
+An administrator can disable payments in a tenant by setting the disablePaymentIntegrationForPages tenant level setting through PowerShell.
+
+To run PowerShell cmdlets, you must first [install the required modules](/power-platform/admin/powerapps-powershell#module-installation).
+
+### Disable payments
+
+After installing the modules, run the following command in a PowerShell window as an administrator:
+
+```powershell
+$requestBody = @{
+     powerPlatform = @{
+         powerPages = @{
+             disablePaymentIntegrationForPages = "All"
+         }
+     }
+ }
+ Set-TenantSettings -RequestBody $requestBody
+```
+
+Administrators are the users having one of the following Azure roles:
+
+- [Global administrator](admin-roles.md#global-administrator)
+- [Dynamics 365 administrator](admin-roles.md#dynamics-365-administrator)
+- [Power Platform administrator](admin-roles.md#power-platform-administrator)
+
+When the payments feature is disabled in a tenant:
+
+- Makers have the following experience in the **External apps** area.
+
+    :::image type="content" source="media/set-up-payments-integration/stripe-integration-blocked.svg" alt-text="Screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
+
+- Makers have the following experience in the **App integrations** tab of a multi-step form configuration.
+
+    :::image type="content" source="media/set-up-payments-integration/form-step-settings-blocked.svg" alt-text="Screenshot of the App integrations tab of a multi-step form.":::
+
+Each experience includes the following message:
+
+*"This application has been disabled by your organization. Contact your administrator to enable."*
+
+> [!NOTE]
+> Once this tenant setting is set to None, it prevents the setup of payments capability going forward for additional sites. It does not impact any configuration and payment setup on forms that may have already been completed by makers in their environments.
+
+### Enable payments
+
+To enable the payments feature in a tenant, run the following command in a PowerShell window as an administrator:
+
+```powershell
+$requestBody = @{
+     powerPlatform = @{
+         powerPages = @{
+             disablePaymentIntegrationForPages = "None"
+         }
+     }
+ }
+ Set-TenantSettings -RequestBody $requestBody
+```
+
 ## Considerations
 
 - **Payment currencies and amounts**. Minimum and maximum payment amount values can vary by currencies. Review the [Stripe documentation on supported currencies](https://stripe.com/docs/currencies#minimum-and-maximum-charge-amounts) to ensure your form and tables are configured correctly to accept payments in that range.
@@ -165,5 +222,6 @@ If this step is the last step of your multistep form, a submit button is enabled
 - **Payments table**. For storing transactions, there's a new payments table installed with the solution. The table is automatically related to the table that you choose when you configure the form steps. You can use the table to view the details of transactions and status. This table is just a snapshot of information that is provided, which you can use to create other experiences for your business users in Power Apps or Power Pages. For more details and troubleshooting payment-related issues, you should rely on the payment provider, such as Stripe's dashboard.
 
 - **Webhook**. The payments feature also configures a webhook on Stripe that is used to asynchronously update the status of payments that might take extra time for completion.
+
     > [!NOTE]
     > When a website is in private mode, this webhook may not be able to communicate with the Power Pages and hence you may receive emails from Stripe. This is intermittent behavior and once your website is switched to public mode, the webhook should be able to communicate successfully.
