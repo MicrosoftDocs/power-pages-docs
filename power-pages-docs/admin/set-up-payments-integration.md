@@ -63,7 +63,7 @@ If you use Azure Key Vault, add the Stripe Secret/Restricted key to a key vault 
 
 ### Step 2b: Configure Azure Key Vault (optional)
 
-If you choose Azure Key Vault as your storage type, complete the following steps. If you choose Dataverse, continue to step 2c ([Add your keys to your configuration](#step-2d-add-your-keys-to-your-configuration)).
+If you choose Azure Key Vault as your storage type, complete the following steps. If you choose Dataverse, continue to step 2c ([Add your keys to your configuration](#step-2c-add-your-keys-to-your-configuration)).
 
 1. Within the Azure portal, obtain the name of your app in **App registrations** which corresponds to your Power Pages website.
 
@@ -185,7 +185,7 @@ When the payments feature is disabled in a tenant:
 
 - Makers have the following experience in the **External apps** area.
 
-    :::image type="content" source="media/set-up-payments-integration/stripe-integration-blocked.svg" alt-text="Screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
+    :::image type="content" source="media/set-up-payments-integration/stripe-integration-blocked.svg" alt-text="Screenshot of the Enable integration panel with Stripe payments integration shown as blocked.":::
 
 - Makers have the following experience in the **App integrations** tab of a multi-step form configuration.
 
