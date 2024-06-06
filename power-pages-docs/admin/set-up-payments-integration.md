@@ -202,7 +202,7 @@ Each experience includes the following message:
 *"This application has been disabled by your organization. Contact your administrator to enable."*
 
 > [!NOTE]
-> Once this tenant setting is set to None, it prevents the setup of payments capability going forward for additional sites. It does not impact any configuration and payment setup on forms that may have already been completed by makers in their environments.
+> Once this tenant setting is set to All, it prevents the setup of payments capability going forward for additional sites. It does not impact any configuration and payment setup on forms that may have already been completed by makers in their environments.
 
 ### Enable payments
 
