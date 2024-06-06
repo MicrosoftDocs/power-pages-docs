@@ -38,7 +38,7 @@ To accept payments on your Power Pages site, you must complete these steps:
 
 ## Prerequisites
 
-- Sign up for an account with Stripe as your payment provider and obtain test mode or the live keys from the Developer dashboard.
+- Sign up for an account with Stripe as your payment provider and obtain test mode or the live keys from the payments app installed from Stripe Marketplace.
 - Create or identify a Microsoft Dataverse table you want to use in a multistep form. This table must have a currency field type that is used to charge the amount that you wish to collect from the site user. For more information, see [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md).
 - Configure a [multistep form](../getting-started/multistep-forms.md) using a Dataverse table with a step to allow users to pay. This step displays the payments control once configured in a later step.
 
@@ -55,15 +55,31 @@ The installation action might take a few minutes. The action changes to manage o
 
 Once you install the package, you can begin to configure Stripe for your Power Pages site.
 
-### Step 2a: Choose your storage type
+### Step 2a: Obtain your Stripe keys
+
+1. In the design studio, choose **Set up**.
+1. Under **Integrations**, select **External apps (preview)**.
+1. In the Integrations table, select the **Manage** action for Stripe.
+1. Go to the [Stripe Marketplace](https://go.microsoft.com/fwlink/?linkid=2268776) and install the Microsoft Power Pages Payments app.
+1. After the app is installed, obtain the **Publishable** and **Restricted** keys required to enable this integration. These values are needed in later steps.
+  
+    > [!NOTE]
+    > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe.
+    > - Release 9.6.3.x. added support for live mode keys in addition to test mode keys. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys).
+
+### Step 2b: Choose your storage type
 
 You can use Dataverse (only supports test mode) or Azure Key Vault (supports both test mode and live mode) to store the Stripe API keys.
 
-If you use Azure Key Vault, add the Stripe Secret/Restricted key to a key vault and assign permissions to your site by following these steps:
+:::image type="content" source="media/set-up-payments-integration/stripe-integration.svg" alt-text="Screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
 
-### Step 2b: Configure Azure Key Vault (optional)
+If you choose Dataverse, continue to step 2d ([Add your keys to your configuration](#step-2d-add-your-keys-to-your-configuration)).
 
-If you choose Azure Key Vault as your storage type, complete the following steps. If you choose Dataverse, continue to step 2c ([Add your keys to your configuration](#step-2c-add-your-keys-to-your-configuration)).
+If you use Azure Key Vault, add the Stripe Restricted key as a secret in a key vault and assign permissions to your site by following step 2c ([Configure Azure Key Vault (optional)](#step-2c-configure-azure-key-vault-optional)).
+
+### Step 2c: Configure Azure Key Vault (optional)
+
+If you choose Azure Key Vault as your storage type, complete the following steps.
 
 1. Within the Azure portal, obtain the name of your app in **App registrations** which corresponds to your Power Pages website.
 
@@ -81,7 +97,7 @@ If you choose Azure Key Vault as your storage type, complete the following steps
     1. Select **+ Add** on the top of the page, and then select **Add role assignment**.
     1. Under the **Job function roles** tab, search for **Key Vault Secrets User** role name, select it, and then select **Next**.
     1. For **Assign access to**, select **User, group, or service principal**.
-    1. Select **+ Select members** and search for your site's app registration name as described at the beginning of step 2b.
+    1. Select **+ Select members** and search for your site's app registration name as described at the beginning of step 2c.
     1. Select the app for your site and select **Next**.
     1. Select **Review + assign**.
 
@@ -90,7 +106,7 @@ If you choose Azure Key Vault as your storage type, complete the following steps
     1. Select **Access policies** on the left side menu.
     1. Select **+ Create** on the top of the page.
     1. Under **Secret permissions**, select **Get** > **Next**.
-    1. Search for your site's app registration name as described at the beginning of step 2b.
+    1. Search for your site's app registration name as described at the beginning of step 2c.
     1. Select the app for the site and then select **Next**.
     1. Select **Create**.
 
@@ -98,25 +114,15 @@ If you choose Azure Key Vault as your storage type, complete the following steps
 
     Your site now has permissions to read secrets from this key vault.
 
-### Step 2c: Add your keys to your configuration
+1. Add your Stripe restricted key as a secret to the key vault. To learn how to create a secret in Azure Key Vault, go to [Set and retrieve a secret from Azure Key Vault using the Azure portal](/azure/key-vault/secrets/quick-create-portal).
 
-1. In the design studio, choose **Set up**.
-1. Under **Integrations**, select **External apps (preview)**.
-1. In the Integrations table, select the **Manage** action for Stripe.
-1. Go to the [Stripe Marketplace](https://go.microsoft.com/fwlink/?linkid=2268776) and install the Microsoft Power Pages Payments app.
-1. After the app is installed, obtain the **Publishable** and **Restricted** keys required to enable this integration.
-  
-    > [!NOTE]
-    > - For the secret key, we recommend using the **restricted API keys** that Stripe provides to limit access and permissions for different areas of your account data in Stripe.
-    > - Release 9.6.3.x. added support for live mode keys in addition to test mode keys. To understand various types of keys, refer to [Stripe's documentation on API keys](https://stripe.com/docs/keys).
+### Step 2d: Add your keys to your configuration
 
 1. In the design studio, enter the settings in the **Enable integration** panel.
 
     If you're using the Dataverse storage option, enter the Publishable and Secret keys.
 
     If you're using the Key Vault storage option, enter the Publishable key, Azure Key vault name, and Secret name.
-
-    :::image type="content" source="media/set-up-payments-integration/stripe-integration.svg" alt-text="Screenshot of the Enable integration panel inside the Set up workspace of Power Pages design studio.":::
 
 1. Select **Save** and close the panel. If you encounter an error while saving, refer to the error message and resolve the key vault setup related issues.
 1. Select **Sync**.
@@ -135,7 +141,7 @@ To enable payments, complete the following steps:
    :::image type="content" source="media/set-up-payments-integration/form-step-settings.svg" alt-text="Screenshot of the Step settings options inside of the Pages workspace of Power Pages design studio.":::
 
     - Select **App Integrations**.
-    - Switch the **Enable digital payments** toggle to the on position.
+    - Toggle **Enable digital payments** to on.
     - In **Choose amount field** select the currency type field on the table used to charge the amount that you want to collect from the site user.  
 
     > [!NOTE]
