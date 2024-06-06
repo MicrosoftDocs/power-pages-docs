@@ -34,6 +34,7 @@ The following features streamline the website creation process with Copilot:
 - [Add AI-generated text using Copilot](../getting-started/add-text-copilot.md)
 - [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
 - [Ask Copilot questions](../getting-started/ask-copilot.md)
+- [Create an AI-generated color theme using Copilot](../getting-started/theme-copilot.md)
 
 ## AI-powered features for users
 
