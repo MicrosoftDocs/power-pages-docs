@@ -21,7 +21,7 @@ ms.custom:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[Power Fx](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) is the low-code language for expressing logic across the [Microsoft Power Platform](https://learn.microsoft.com/en-us/power-platform). It's a general-purpose, strong-typed, declarative, and functional programming language.
+[Power Fx](/power-platform/power-fx/overview) is the low-code language for expressing logic across the [Microsoft Power Platform](/power-platform). It's a general-purpose, strong-typed, declarative, and functional programming language.
 
 Power Fx is expressed in human-friendly text. It's a low-code language that makers can work with directly in an Excel-like formula bar. The "low" in low-code is due to the concise and simple nature of the language, making common programming tasks easy for both makers and developers.
 
