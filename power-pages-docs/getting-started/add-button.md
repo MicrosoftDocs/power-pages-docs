@@ -48,3 +48,6 @@ To add a button:
     - Define the minimum width and height of button.
 
     - Duplicate the button, move it up or down within the section, or delete the button.
+
+    > [!TIP]
+    > Power Fx is now available to use with different Power Pages components including buttons. Use Power Fx to dynamically set values based on the result of an expression. For more information, go to [Use Power Fx in Power Pages (preview)](../configure/power-fx.md).

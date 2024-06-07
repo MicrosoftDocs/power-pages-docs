@@ -598,6 +598,8 @@
           href: configure/add-code-copilot.md
         - name: Use Visual Studio Code for the Web editor (preview)
           href: configure/visual-studio-code-editor.md 
+    - name: Use Power Fx in Power Pages (preview)
+      href: config/power-fx.md
     - name: Use admin APIs
       href: admin/admin-api.md
     - name: Power Pages ALM
