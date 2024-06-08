@@ -30,6 +30,7 @@ Power Fx enables the full spectrum of development from no-code makers without an
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - The feature is available with Power Pages release version [9.6.5.x](/power-platform/released-versions/portals/pagesversion965x).
 
 ## Use Power Fx in Power Pages
 
@@ -124,11 +125,13 @@ For the complete list of all available functions in Power Pages, go to [Formula
 
      `UserInfo object was not added to service`
 
+- Some users may see problems with Button and Image URL properties not working when they are set with Power FX formulas or expressions that contain double quotes. This happens only if you have 9.6.3.x build version and will be fixed as your Power Pages site is upgraded to 9.6.5.x version   
+
 ## Frequently asked questions
 
 ### Should I use Power FX instead of Liquid?
 
-Power Fx fulfills certain dynamic data scenarios in a low-code way that can also be achieved via [Liquid](liquid-overview.md) code with pro-developer tools. Since Power FX is currently in public preview release stage, we encourage use of Power Fx for evaluation in sites that are in trial or under development. Liquid is a generally available (GA) feature and comparatively provides more capabilities. Use Liquid for your production websites, particularly in scenarios that are critical and complex.
+Power Fx fulfills certain dynamic data scenarios in a low-code way that can also be achieved via [Liquid](liquid-overview.md) code with pro-developer tools. Since Power FX is currently in public preview release stage, we encourage use of Power Fx for evaluation in sites that are in trial or under development and provide us feedback. Liquid is a generally available (GA) feature and comparatively provides more capabilities. Use Liquid for your production websites, particularly in scenarios that are critical and complex.
 
 ## See also
 
