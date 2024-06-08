@@ -93,11 +93,13 @@ The following are some important considerations to be aware of when using Power 
     =Concatenate("Hello, ", User.FullName)
     ```
 
-- **Tables are accessed securely**: Dataverse tables can be accessed securely using formulas. Verify table permissions are appropriately configured first. Also, the context of a site user is available using the [User](/power-platform/power-fx/reference/function-user) object. For example, the following expression retrieves the DataverseUserId value of the currently authenticated user.
+- **Tables are accessed securely**: Dataverse tables can be accessed securely using formulas. Verify table permissions are appropriately configured first. Also, the context of a site user is available using the **User** object. For example, the following expression retrieves the DataverseUserId value of the currently authenticated user.
 
     ```powerapps-dot
     =Concatenate("Hello, ", First(Filter(Contacts,Contact = User.DataverseUserId)).'First Name' & "!")
     ```
+> [!NOTE]
+> The **User** object represents a Power Pages user and hence does not support the same set of properties as the [User](/power-platform/power-fx/reference/function-user) function  
 
 - **Inserting a value within text**: To insert a value within text, use the following syntax.
 
@@ -121,7 +123,7 @@ For the complete list of all available functions in Power Pages, go to [Formula
 
     `Parameter 'Value': PowerFx type is not supported.`
 
-- [User](/power-platform/power-fx/reference/function-user) isn't initialized for anonymous users and results in the following error when used on any form including check for blank. This issue will be fixed in a future release.
+- User isn't initialized for anonymous users and results in the following error when used on any form including check for blank. This issue will be fixed in a future release.
 
      `UserInfo object was not added to service`
 
@@ -129,9 +131,9 @@ For the complete list of all available functions in Power Pages, go to [Formula
 
 ## Frequently asked questions
 
-### Should I use Power FX instead of Liquid?
+### Should I use Power Fx instead of Liquid?
 
-Power Fx fulfills certain dynamic data scenarios in a low-code way that can also be achieved via [Liquid](liquid-overview.md) code with pro-developer tools. Since Power FX is currently in public preview release stage, we encourage use of Power Fx for evaluation in sites that are in trial or under development and provide us feedback. Liquid is a generally available (GA) feature and comparatively provides more capabilities. Use Liquid for your production websites, particularly in scenarios that are critical and complex.
+Power Fx fulfills certain dynamic data scenarios in a low-code way that may also be achieved via [Liquid](liquid-overview.md) code with pro-developer tools. Since Power FX is currently in public preview release stage, we encourage use of Power Fx for evaluation in sites that are in trial or under development and provide us feedback. Liquid is a generally available (GA) feature and comparatively provides more capabilities. Use Liquid for your production websites, particularly in scenarios that are critical and complex.
 
 ## See also
 
