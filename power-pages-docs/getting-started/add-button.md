@@ -4,13 +4,14 @@ description: Learn how to add buttons to your Power Pages site.
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 06/11/2024
 ms.subservice:
 ms.author: ckwan
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Add a button
