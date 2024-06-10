@@ -166,12 +166,18 @@
                   href: getting-started/add-form-copilot.md
                 - name: Add a form manually
                   href: getting-started/add-form.md
-                - name: Add a multistep form manually
-                  href: getting-started/multistep-forms.md
                 - name: Add an AI-generated multistep form using Copilot (preview)
                   href: getting-started/multistep-forms-copilot.md
+                - name: Add a multistep form manually
+                  href: getting-started/multistep-forms.md
                 - name: Add IFrame
                   href: getting-started/add-iframe.md 
+                - name: Add a flex container 
+                  href: getting-started/add-flex-container.md
+                - name: Add a card gallery (preview)
+                  href: getting-started/add-card-gallery.md
+                - name: Add breadcrumbs
+                  href: getting-started/add-breadcrumb.md
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
@@ -204,11 +210,11 @@
           href: configure/data-workspace-views.md
         - name: Create and modify forms
           href: configure/data-workspace-forms.md
-    - name: Use Set up workspace
+    - name: Use the Set up workspace
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add a copilot (preview)
+        - name: Add a copilot
           items:
           - name: Add a copilot
             href: getting-started/enable-chatbot.md
@@ -216,7 +222,7 @@
             href: getting-started/force-bing-index.md
           - name: Replace copilot with a Microsoft Copilot Studio copilot
             href: getting-started/pva-bot-how-to.md
-          - name: Configure Omnichannel with site copilot (preview)
+          - name: Configure Omnichannel with site copilot
             href: configure/omnichannel.md
         - name: Progressive web applications
           items:
@@ -224,6 +230,14 @@
               href: configure/progressive-web-apps.md
             - name: Build and distribute progressive web applications
               href: configure/build-progressive-web-apps.md
+    - name: Use the Security workspace
+      items:
+        - name: Security workspace overview
+          href: getting-started/use-security-workspace.md
+        - name: Run security scan (preview)
+          href: security/security-scan.md
+        - name: Advanced settings (preview)
+          href: security/advanced-settings.md
     - name: Collaborate in design studio
       items:
       - name: Copresence in design studio
@@ -434,6 +448,8 @@
           href: configure/search/faceted.md
         - name: Search knowledge article attachments
           href: configure/search/file-attachment.md
+        - name: Use generative AI (preview)
+          href: configure/search/generative-ai.md
         - name: Progressive search
           href: configure/search/progressive.md
     - name: Configure document storage
@@ -628,6 +644,8 @@
               href: security/authentication/openid-provider.md
             - name: Azure AD B2C
               href: security/authentication/azure-ad-b2c-provider.md
+            - name: Customize the Azure AD B2C user interface
+              href: configure/azure-ad-b2c.md
             - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
             - name: OpenID Connect FAQs
@@ -678,7 +696,7 @@
       href: configure/cors-support.md
     - name: Manage Content Security Policy
       href: security/manage-content-security-policy.md
-    - name: Web Application Firewall (preview)
+    - name: Web Application Firewall
       items:
         - name: Web Application Firewall overview
           href: security/web-application-firewall.md
@@ -686,6 +704,12 @@
           href: security/configure-web-application-firewall.md
         - name: Web Application Firewall rule groups
           href: security/web-application-firewall-rule-groups.md
+        - name: Web Application Firewall custom rule sets 
+          href: security/web-application-firewall-custom-rule-sets.md
+        - name: Web Application Firewall logs
+          href: security/web-application-firewall-logs.md
+        - name: Web Application Firewall FAQ
+          href: security/waf-faq.md
     - name: Power Pages security FAQ
       href: security/faq.yml
 - name: Go live
@@ -732,7 +756,7 @@
       href: responsible-ai-overview.md
     - name: FAQ for site creation
       href: faqs-generate-site.md      
-    - name: FAQ for chatbot
+    - name: FAQ for site copilot
       href: faqs-chatbot.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
@@ -741,7 +765,9 @@
     - name: FAQ for design studio
       href: faqs-design-studio.md
     - name: FAQ for generating code
-      href: faqs-pro-developer.md                     
+      href: faqs-pro-developer.md     
+    - name: FAQ for generative AI search
+      href: faqs-generative-ai-search.md                     
 - name: Compliance and accessibility
   items:
     - name: Accessibility

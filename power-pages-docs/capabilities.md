@@ -4,7 +4,7 @@ description: Learn about Power Pages capabilities.
 author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/28/2023
+ms.date: 05/01/2024
 ms.subservice:
 ms.author: dileeps
 ms.reviewer: kkendrick
@@ -33,12 +33,13 @@ Build powerful and engaging sites without writing a single line of code.
 
 :::image type="content" source="media/overview/design-studio.png" alt-text="Design studio.":::
 
-The new and enhanced [design studio](getting-started/use-design-studio.md) provides four workspaces:
+The new and enhanced [design studio](getting-started/use-design-studio.md) provides five workspaces:
 
 - [Pages workspace](getting-started/first-page.md) for creating, designing, and arranging webpages
 - [Styling workspace](getting-started/style-site.md) for applying styles and themes to your site
 - [Data workspace](getting-started/use-data-workspace.md) for creating and modifying Microsoft Dataverse tables used in data-driven web applications
 - [Set up workspace](configure/setup-workspace.md) for administration and site management
+- [Security workspace](getting-started/use-security-workspace.md) for identifying and addressing security vulnerabilities
 
 ## Responsive rendering
 
