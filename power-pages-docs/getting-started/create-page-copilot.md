@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated webpage using Copilot in Power 
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/26/2024
+ms.date: 06/12/2024
 ms.subservice:
 ms.author: ckwan
 ms.reviewer: dmartens
