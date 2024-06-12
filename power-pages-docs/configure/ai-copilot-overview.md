@@ -2,7 +2,7 @@
 title: Overview of AI-powered and Copilot features in Power Pages
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 06/06/2024
+ms.date: 06/12/2024
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: dmartens
