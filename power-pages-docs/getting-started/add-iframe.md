@@ -4,13 +4,14 @@ description: Learn how to add Iframes to your Power Pages site.
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2022
+ms.date: 06/11/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: kkendrick
 contributors:
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Add an Iframe
@@ -38,3 +39,6 @@ To add an Iframe:
     - Adjust the alignment
 
     - Duplicate the Iframe, move it up/down within the section, or delete the Iframe.
+
+> [!TIP]
+> Power Fx is now available to use with different Power Pages components including Iframes. Use Power Fx to dynamically set values based on the result of an expression. For more information, go to [Use Power Fx in Power Pages (preview)](../configure/power-fx.md).
