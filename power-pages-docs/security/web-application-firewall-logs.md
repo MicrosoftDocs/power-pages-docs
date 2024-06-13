@@ -16,14 +16,14 @@ ms.custom:
 ---
 # Web Application Firewall logs
 
-When you activate [Web Application Firewall (WAF) for Power Pages](web-application-firewall.md) in Power Pages, each request's logs are captured and stored in your Dataverse instance. To access these logs, follow these steps: 
+When you activate [Web Application Firewall (WAF) for Power Pages](web-application-firewall.md), each request's logs are captured and stored in your Microsoft Dataverse instance. To access these logs, follow these steps: 
 
 1. Navigate to the Security workspace.
 1. Select the **Download firewall logs** button. 
 1. Specify the start and end dates. 
 
 >[!NOTE]
-> By specifying the start and end dates, you can download only the relevant logs. By default, logs for the past 30 days are retained in Dataverse. You can modify this retention period by adjusting the settings in the configuration menu, located next to the 'Download firewall logs' button. You can extend the retention period up to 90 days, or choose to disable the capturing of firewall logs entirely. 
+> By specifying the start and end dates, you can download only the relevant logs. By default, logs for the past 30 days are retained in Dataverse. You can modify this retention period by adjusting the settings in the configuration menu located next to the **Download firewall logs** button. You can extend the retention period up to 90 days or choose to disable the capturing of firewall logs entirely. 
 
 ## Prerequisites
 
@@ -37,9 +37,8 @@ Firewall logs for Power Pages are stored within the Dataverse instance associate
 |-------------------------|-------------------------|
 | Name  | Power Pages site name  |
 | Client IP  | Represents the client IP address associated with the request being processed.  |
-| Content  | This column contains the detail of each rule execution.<br /><br />**clientIP**: Represents the client IP address associated with the request being processed. <br />**clientPort**: Represents the client port associated with the request being processed.<br />**socketIP**: Represents the socket IP address associated with the TCP connection that the current request originated from. <br />**requesturl**: site url being requested <br />**requestpath**: Partial path of the request <br />**ruleName**: Firewall rule being evaluated <br />**action** : allow/block<br />**trackingReference**: Unique reference for each request logged by firewall. <br />**details:** details of the rule evaluation   |
+| Content  | This column contains the detail of each rule execution.<br /><br />**clientIP**: Represents the client IP address associated with the request being processed. <br />**clientPort**: Represents the client port associated with the request being processed.<br />**socketIP**: Represents the socket IP address associated with the TCP connection that the current request originated from. <br />**requesturl**: site url being requested <br />**requestpath**: Partial path of the request <br />**ruleName**: Firewall rule being evaluated <br />**action**: allow/block<br />**trackingReference**: Unique reference for each request logged by firewall. <br />**details**: details of the rule evaluation   |
 | Portal ID  | Website ID associated with the request site url  |
 | Request Path  | Partial path of the request  |
 | Request Url  | site url being requested  |
 | Type  | WAFLog  |
-|   |   |
