@@ -26,12 +26,12 @@ The Security workspace allows you to further protect your site content and data 
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-1. Sign in to Power Pages and open your site for editing.
-1. Select **Security Workspace** from left navigation and then choose **Advanced settings (preview)**
+1. Sign into Power Pages, and open your site for editing.
+1. Select **Security Workspace** from left navigation, and then, choose **Advanced settings (preview)**.
 
 ## Configure Content Security Policy (CSP)
 
-Content Security Policy, or CSP, is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack.
+Content Security Policy (CSP) is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack.
 
 ### Directives
 
@@ -42,7 +42,7 @@ The following directives are supported.
 | Default source | Specifies the default source for content not explicitly defined by other directives. It acts as a fallback for other directives. |
 | Image source | Specifies valid sources for images. Controls the domains from which images can be loaded. |
 | Font source | Specifies valid sources for fonts. Used to control the domains from which web fonts can be loaded. |
-| Script source | Specifies valid sources for JavaScript code. The script source can include specific domains, 'self' for the same origin, 'unsafe-inline' for inline scripts, and 'nonce-xyz' for scripts with a specific nonce. Choose to enable nonce or inject unsafe eval.<br />Learn more [Manage your site's Content Security Policy](manage-content-security-policy.md#turn-on-nonce) |
+| Script source | Specifies valid sources for JavaScript code. The script source can include specific domains, 'self' for the same origin, 'unsafe-inline' for inline scripts, and 'nonce-xyz' for scripts with a specific nonce. Choose to enable nonce or inject unsafe eval.<br />Learn more at [Manage your site's Content Security Policy: Turn on nonce](manage-content-security-policy.md#turn-on-nonce) |
 | Style source | Specifies valid sources for stylesheets. Similar to script-src, it can include domains, 'self', 'unsafe-inline', and 'nonce-xyz'. |
 | Connect source | Specifies valid sources for XMLHttpRequest, WebSocket, or EventSource. Controls the domains to which the page can make network requests. |
 | Media source | Specifies valid sources for audio and video. Used to control the domains from which media resources can be loaded. |
@@ -56,11 +56,11 @@ The following directives are supported.
 
 For each directive, you can either choose specific URL, all domains, or none.
 
-For advanced configuration, see [Manage your site's Content Security Policy](manage-content-security-policy.md#set-your-sites-csp).
+For advanced configuration, go to [Manage your site's Content Security Policy: Set your site's CSP](manage-content-security-policy.md#set-your-sites-csp).
 
 ## Configure Cross-Origin Resource Sharing (CORS)
 
-Cross-Origin Resource Sharing, or CORS, is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain.
+Cross-Origin Resource Sharing (CORS) is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain.
 
 ### Directives
 
@@ -92,7 +92,7 @@ The following directives are supported.
 
 ## Configure Permissions-Policy (CSP)
 
-Permissions-Policy header allows web developers to control which web platform features are allowed or denied on a web page.
+The Permissions-Policy header allows web developers to control which web platform features are allowed or denied on a web page.
 
 ### Directives 
 
