@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use Power Pages security scan to enhance your site's resilience by identifying and addressing vulnerabilities, safeguarding it against potential threats and ensuring a secure online environment for users.
+Use Power Pages security scan to enhance your site's resilience by identifying and addressing vulnerabilities, safeguarding it against potential threats, and ensuring a secure online environment for users.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -38,15 +38,15 @@ To run a security scan:
     
     To include authenticated pages in the scan: 
     1. Select the check box next to **Include authenticated pages in scan**. A notification window appears in the workspace.
-    1. Enter your user name and password.
+    1. Enter your username and password.
 
 1. Select the **Continue** button to begin the scan.
 
     You can cancel the scan at any time by returning to the Security workspace and selecting the **Cancel scan** button.
 
-Once the scan is completed, you receive an email. After you receive the email confirmation, you can view the scan report summary by returning to the **Run scan** section of the Security workspace.
+Once the scan has completed, you'll receive an email. After you receive the email confirmation, you can view the scan report summary by returning to the **Run scan** section of the Security workspace.
 
 ## Review the summary report 
 
-The summary report includes a list of failed checks and corresponding alerts, and a description of how to fix the alerts. You can optionally download the report as a PDF. Report summaries for security scan are only supported in English-US language.
+The summary report includes a list of failed checks and corresponding alerts with descriptions of how to fix the alerts. You can optionally download the report as a PDF. Report summaries for security scan are only supported in English-US language.
 
