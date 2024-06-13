@@ -58,9 +58,9 @@ For each directive, you can either choose specific URL, all domains, or none.
 
 For advanced configuration, go to [Manage your site's Content Security Policy: Set your site's CSP](manage-content-security-policy.md#set-your-sites-csp).
 
-## Configure Cross-Origin Resource Sharing (CORS)
+## Configure cross-origin resource sharing (CORS)
 
-Cross-Origin Resource Sharing (CORS) is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain.
+Cross-origin resource sharing (CORS) is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain.
 
 ### Directives
 
@@ -77,7 +77,7 @@ The following directives are supported.
 | Display webpage as an iFrame from same origin | Also known as X-Frame-Options, allows the page to be displayed in an iframe only if the request comes from the same origin. | Yes/No |
 | Block MIME sniffing | Also known as X-Content-Type-Options: no-sniff, this helps prevent web browsers from performing MIME type (content-type) sniffing or guessing the content type of a resource. | Yes/No |
 
-## Configure Cookies (CSP)
+## Configure cookies (CSP)
 
 The Cookie header in an HTTP request contains information about cookies previously stored by a website in your browser. When you visit a website, your browser sends a Cookie header containing all relevant cookies associated with that site back to the server.
 
@@ -90,7 +90,7 @@ The following directives are supported.
 | Transfer rules for all cookies      | Control how cookies are sent with cross-origin requests. It's a security feature aimed at mitigating certain types of cross-site request forgery (CSRF) and information leakage attacks. | This setting corresponds to the header SameSite/Default.          |
 | Transfer rules for specific cookies | Control how cookies are sent with cross-origin requests. It's a security feature aimed at mitigating certain types of cross-site request forgery (CSRF) and information leakage attacks. | This setting corresponds to the header SameSite/Specific cookie. |
 
-## Configure Permissions-Policy (CSP)
+## Configure permissions-policy (CSP)
 
 The Permissions-Policy header allows web developers to control which web platform features are allowed or denied on a web page.
 
