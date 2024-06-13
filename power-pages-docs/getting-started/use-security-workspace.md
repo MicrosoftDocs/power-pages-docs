@@ -16,7 +16,7 @@ ms.custom:
 ---
 # Overview of the Security workspace
 
-Security workspace provides a single interface to monitor, protect, and manage [security features for Power Pages](../security/power-pages-security.md). You can quickly see how secure your sites are with scan, make them more secure by setting up web roles, page, table permissions, web application firewall, authentication, site visibility, HTTP headers through advanced settings.
+Security workspace provides a single interface to monitor, protect, and manage [security features for Power Pages](../security/power-pages-security.md). You can quickly check how secure your sites are with scan, make them more secure by setting up web roles, page and table permissions, web application firewall, authentication, site visibility, and HTTP headers through advanced settings.
 
 ## Monitor
 
@@ -42,7 +42,7 @@ Use [page permissions](../security/page-security.md) to make content available t
 
 ### Table permissions
 
-[Configure](../security/table-permissions.md) and [assign](../security/assign-table-permissions.md) table permissions to allow access to Dataverse records.
+[Configure](../security/table-permissions.md) and [assign](../security/assign-table-permissions.md) table permissions to allow access to Microsoft Dataverse records.
 
 :::image type="content" source="media/use-security-workspace/table-permissions.svg" alt-text="A screenshot of the Table permissions interface inside of Power Pages design studio's Security workspace.":::
 
@@ -68,7 +68,7 @@ Control access to your site with [site visibility](../security/site-visibility.m
 
 ### Advanced settings (preview)
 
-Use [advanced settings (preview)](../security/advanced-settings.md) to configure  HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross Origin Resource Sharing (CORS), cookies, permissions, and more.
+Use [advanced settings (preview)](../security/advanced-settings.md) to configure HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross Origin Resource Sharing (CORS), cookies, permissions, and more.
 
 :::image type="content" source="media/use-security-workspace/advanced-settings.svg" alt-text="A screenshot of the Advanced settings interface inside of Power Pages design studio's Security workspace.":::
 
