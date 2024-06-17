@@ -44,7 +44,7 @@ To run a security scan:
 
     You can cancel the scan at any time by returning to the Security workspace and selecting the **Cancel scan** button.
 
-Once the scan has completed, you'll receive an email. After you receive the email confirmation, you can view the scan report summary by returning to the **Run scan** section of the Security workspace.
+Once the scan is complete, you'll receive an email. After you receive the email confirmation, you can view the scan report summary by returning to the **Run scan** section of the Security workspace.
 
 ## Review the summary report 
 
