@@ -176,6 +176,8 @@
                   href: getting-started/add-flex-container.md
                 - name: Add a card gallery (preview)
                   href: getting-started/add-card-gallery.md
+                - name: Add breadcrumbs
+                  href: getting-started/add-breadcrumb.md
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
@@ -212,7 +214,7 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add a copilot (preview)
+        - name: Add a copilot
           items:
           - name: Add a copilot
             href: getting-started/enable-chatbot.md
@@ -220,7 +222,7 @@
             href: getting-started/force-bing-index.md
           - name: Replace copilot with a Microsoft Copilot Studio copilot
             href: getting-started/pva-bot-how-to.md
-          - name: Configure Omnichannel with site copilot (preview)
+          - name: Configure Omnichannel with site copilot
             href: configure/omnichannel.md
         - name: Progressive web applications
           items:
@@ -596,6 +598,8 @@
           href: configure/add-code-copilot.md
         - name: Use Visual Studio Code for the Web editor (preview)
           href: configure/visual-studio-code-editor.md 
+    - name: Use Power Fx in Power Pages (preview)
+      href: configure/power-fx.md
     - name: Use admin APIs
       href: admin/admin-api.md
     - name: Power Pages ALM
@@ -642,6 +646,8 @@
               href: security/authentication/openid-provider.md
             - name: Azure AD B2C
               href: security/authentication/azure-ad-b2c-provider.md
+            - name: Customize the Azure AD B2C user interface
+              href: configure/azure-ad-b2c.md
             - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
             - name: OpenID Connect FAQs
@@ -752,7 +758,7 @@
       href: responsible-ai-overview.md
     - name: FAQ for site creation
       href: faqs-generate-site.md      
-    - name: FAQ for chatbot
+    - name: FAQ for site copilot
       href: faqs-chatbot.md
     - name: FAQ for generating text
       href: faqs-generate-text.md

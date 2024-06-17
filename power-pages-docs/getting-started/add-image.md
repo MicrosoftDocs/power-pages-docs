@@ -4,7 +4,7 @@ description: Learn how to add images to your Power Pages site.
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/13/2023
+ms.date: 06/11/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: kkendrick
@@ -12,6 +12,7 @@ contributors:
     - nickdoelman
     - ProfessorKendrick
     - ckwan-ms
+    - DanaMartens
 ---
 
 # Add an image
@@ -37,7 +38,6 @@ To add an image:
     | Upload image | Select this option if you want to select an existing image or upload a new one. If you want to select a previously uploaded image, choose it from the **Select image** list. To upload a new image, select **Upload image**. All the uploaded images are included in the image library, which you can select again through the **Select image** list. |
     | External URL | Select this option if you want to upload an image from an external URL. Enter the URL in the **External URL** field. Only secured links are accepted—that is, **https://** is mandatory. If you have images stored in your content delivery network, you can provide the link in this field. |
 
-
 ## Format an image
 
 To format your image, select it and a menu with editing options will appear:
@@ -49,6 +49,9 @@ To format your image, select it and a menu with editing options will appear:
 - Duplicate the image, move it up, move it down, or delete it
 
 :::image type="content" source="media/add-image/edit-image.png" alt-text="Editing options for images in the design studio.":::
+
+> [!TIP]
+> Power Fx is now available to use with different Power Pages components including images. Use Power Fx to dynamically set values based on the result of an expression. For more information, go to [Use Power Fx in Power Pages (preview)](../configure/power-fx.md).
 
 ### Add a link to an image
 
@@ -78,7 +81,7 @@ Options to adjust the size of your image are located under **More options**. To 
 
 ## Storing images in Power Pages design studio
 
-By default, images in Power Pages sites are stored beneath the Home page. 
+By default, images in Power Pages sites are stored beneath the Home page.
 
 ### Change image storage location
 
@@ -92,15 +95,9 @@ To change the location where your images will be stored
     > - This only applies to newly updated images. If you want to change the parent page for an existing image, re-upload the image after changing this setting.
     > -  If you want to prevent, direct access to images, store them beneath a restricted page and set the image files to inherit the page's permissions. More information: [Page permissions in Power Pages](../security/page-security.md)
 
-
 ### View image storage location
 
 To see the parent page of your images in design studio
 
 1. Select the Image button for any image component.
 1. Locate the parent age in Grid or List view.
-
-
-
-
-
