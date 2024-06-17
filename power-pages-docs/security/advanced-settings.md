@@ -58,9 +58,9 @@ For each directive, you can either choose specific URL, all domains, or none.
 
 For advanced configuration, go to [Manage your site's Content Security Policy: Set your site's CSP](manage-content-security-policy.md#set-your-sites-csp).
 
-## Configure cross-origin resource sharing (CORS)
+## Configure Cross-Origin Resource Sharing (CORS)
 
-Cross-origin resource sharing (CORS) is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain.
+Cross-Origin Resource Sharing (CORS) is used by web browsers to allow or restrict web applications that run in one domain to request and access resources from another domain.
 
 ### Directives
 
