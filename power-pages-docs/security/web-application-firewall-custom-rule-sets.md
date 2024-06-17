@@ -22,7 +22,7 @@ Configure the custom rules by navigating to Security workspace.
 
 ## Prerequisites 
 
-- You must be administrator to configure custom rules. 
+- You must be an administrator to configure custom rules. 
 - [Web Application Firewall](web-application-firewall.md) must be enabled for the site. 
 
 ## Create custom rules
@@ -35,8 +35,8 @@ Configure the custom rules by navigating to Security workspace.
 
     You can define the custom rule by selecting either **Match** or **Rate limit**. 
 
-    - **Match:** Allows/blocks the request based on the rule type defined in the subsequent step.
-    - **Rate limit:** Allows/blocks the number of requests threshold limit and throttle the requests exceeding the threshold limit.
+    - **Match**: Allows/blocks the request based on the rule type defined in the subsequent step.
+    - **Rate limit**: Allows/blocks the number of requests threshold limit and throttle the requests exceeding the threshold limit.
     
     You can configure the threshold limit between 1 and 5 minutes.
 
@@ -44,21 +44,21 @@ Configure the custom rules by navigating to Security workspace.
 
     To create a custom rule, choose one of the options from the Match type dropdown menu: 
     
-    - **Geo location:** Allows or blocks requests based on their geographic origin. Useful for preventing attacks from specific regions or countries, or enforcing regional content restrictions. 
+    - **Geo location**: Allows or blocks requests based on their geographic origin. Useful for preventing attacks from specific regions or countries or enforcing regional content restrictions. 
     
-    - **IP address:** Allows or blocks requests based on their source IP address. Helpful for protecting against specific attackers or bots, or restricting access to authorized users. 
+    - **IP address**: Allows or blocks requests based on their source IP address. Helpful for protecting against specific attackers or bots or restricting access to authorized users. 
     
-    - **Request URI:** Allows or blocks requests based on the requested path or query string. Useful for preventing access to sensitive or restricted areas of the site, or enforcing specific rules for different sections. 
+    - **Request URI**: Allows or blocks requests based on the requested path or query string. Useful for preventing access to sensitive or restricted areas of the site or enforcing specific rules for different sections. 
 
     Depending on the selected match type, the configuration options vary. Update the appropriate settings in the field that appears after selecting the match type. 
 
 1. Select **Match variable**. 
 
-    Match variable option available depending on the option selected in the Match type.  
+    Match variable option is available depending on the option selected in the Match type.  
     
-    It has two options RemoteAddr or SocketAddr, read more details for Match variable 
+    It has two options: RemoteAddr or SocketAddr. Refer to **Match variable** below for more details.
 
-1. Select the **traffic settings**, and add new rules as required. 
+1. Select the **traffic settings**, and add new rules, as required. 
 
     Traffic settings block or allow the request based on the rules you configure.
 
@@ -68,11 +68,11 @@ Each request to your site is evaluated against the firewall configurations based
 
 ## Match variable 
 
-When an end user makes requests to the Power Pages site, these requests can originate directly from the end user's location/IP or via a proxy server.  
+When a user makes requests to the Power Pages site, these requests can originate directly from the user's location/IP or from a proxy server.  
 
-- **RemoteAddr:** This field denotes the remote address, identifying requests based on the requester's location or IP address. It represents the original client IP, sourced either from the network connection or typically from the X-Forwarded-For request header if the user is behind a proxy. 
+- **RemoteAddr**: This field denotes the remote address, identifying requests based on the requester's location or IP address. It represents the original client IP, sourced either from the network connection or typically from the X-Forwarded-For request header if the user is behind a proxy. 
 
-- **SocketAddr:** This field denotes the socket address, identifying requests based on a direct connection to the firewall edge. If the client used an HTTP proxy or a load balancer to send the request, the socket address is the IP address of the proxy or load balancer. 
+- **SocketAddr**: This field denotes the socket address, identifying requests based on a direct connection to the firewall edge. If the client used an HTTP proxy or a load balancer to send the request, the socket address is the IP address of the proxy or load balancer. 
 
 >[!IMPORTANT]
 > After the rule is created and saved, it may take up to an hour for the changes to propagate to all edge locations globally. 
