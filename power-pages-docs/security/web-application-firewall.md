@@ -1,4 +1,4 @@
-﻿---
+---
 title: Web Application Firewall overview 
 description: Learn about Web Application Firewall for Power Pages.
 author: nageshbhat-msft
@@ -20,7 +20,7 @@ Web Application Firewall (WAF) provides centralized protection for Power Pages s
 
 ## WAF mode for Power Pages
 
-Web Application Firewall is powered by Azure Front Door (AFD), and the policy is configured using an AFD profile with **Prevention** mode enabled. In **Prevention** mode, requests matching the rules defined in the managed rule set are blocked.
+Web Application Firewall is powered by Azure Front Door, and the policy is configured using an Azure Front Door profile with **Prevention** mode enabled. In **Prevention** mode, requests matching the rules defined in the managed rule set are blocked.
 
 ## WAF managed rule sets for Power Pages
 
@@ -42,7 +42,7 @@ The rule sets protect against the following threat categories:
 
 ## WAF custom rule sets for Power Pages
 
-[WAF custom rules](web-application-firewall-custom-rule-sets.md) empower users to craft their own regulations tailored to specific scenarios. These rules can be customized to either allow or block requests, or to implement rate limits across the following categories: 
+[WAF custom rules](web-application-firewall-custom-rule-sets.md) empower users to craft their own regulations tailored to specific scenarios. These rules can be customized to either allow or block requests or to implement rate limits across the following categories: 
 
 - Geo location 
 - IP address 
