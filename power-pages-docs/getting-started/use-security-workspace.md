@@ -68,7 +68,7 @@ Control access to your site with [site visibility](../security/site-visibility.m
 
 ### Advanced settings (preview)
 
-Use [advanced settings (preview)](../security/advanced-settings.md) to configure HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross Origin Resource Sharing (CORS), cookies, permissions, and more.
+Use [advanced settings (preview)](../security/advanced-settings.md) to configure HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross-Origin Resource Sharing (CORS), cookies, permissions, and more.
 
 :::image type="content" source="media/use-security-workspace/advanced-settings.svg" alt-text="A screenshot of the Advanced settings interface inside of Power Pages design studio's Security workspace.":::
 
