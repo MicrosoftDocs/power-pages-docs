@@ -3,7 +3,7 @@ title: Add a card gallery (preview)
 description: Explore how to add, style, and configure a Card gallery in Power Pages sites using design studio and Liquid code.
 author: pranita225
 ms.topic: conceptual
-ms.date: 05/28/2024
+ms.date: 06/18/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
