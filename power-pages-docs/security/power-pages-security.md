@@ -51,15 +51,15 @@ Access to Dataverse information through [lists](../getting-started/add-list.md),
 
 [Page permissions](page-security.md) that are associated with web roles to allow access can protect content and components on individual pages. 
 
-## HTTPS Headers
+## HTTPS headers
 
 The cross-origin resource sharing (CORS) protocol consists of a set of headers that indicates whether a response can be shared with another domain. You can configure CORS support in Power Pages using the Portal Management app by adding and configuring the site settings. 
 
-More information: [HTTP headers](site-checker-security.md#http-headers)
+For more information, go to [HTTP headers](site-checker-security.md#http-headers).
 
-## Security Scan (preview)
+## Security scan (preview)
 
-[Security scan](security-scan.md) allows makers to perform thorough evaluations of their websites, detect common security threats such as cross-site scripting (XSS) or the use of insecure libraries, and offers solutions for efficient resolution of these threats, to improve security for your site.
+[Security scan](security-scan.md) allows makers to perform thorough evaluations of their websites, detect common security threats, such as cross-site scripting (XSS) or the use of insecure libraries, and offers solutions for efficient resolution of these threats to improve security for your site.
 
 ## More website security
 
