@@ -37,13 +37,11 @@ In the **Table permissions** panel that appears, you can manage existing permiss
 
 :::image type="content" source="media/table-permissions/add-table-permission-form.png" alt-text="Adding a table permission from a form in the design studio.":::
 
-### Adding table permissions from the Set up workspace
+### Adding table permissions from the Security workspace
 
-1. In the design studio on the side menu, select **Set up**.
+1. In the design studio on the side menu, select **Security**.
 
-1. On the left pane in the **Security** section, select **Table permissions** to add and modify table permissions.
-
-    :::image type="content" source="media/table-permissions/table-permission-setup.png" alt-text="Adding a table permission from the Set up workspace.":::
+1. On the left pane in the **Protect** section, select **Table permissions** to add and modify table permissions.
 
 ### Adding table permissions from the Portal Management app
 
