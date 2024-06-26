@@ -30,6 +30,7 @@ Power Fx enables the full spectrum of development from no-code makers without an
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - To initiate a Power Fx expression, it needs to begin with an '=' (equal sign) similar to the experience in Excel. For more information, see [Important considerations](#important-considerations).
 > - The feature is available with Power Pages version [9.6.5.x](/power-platform/released-versions/portals/pagesversion965x).
 
 ## Use Power Fx in Power Pages
