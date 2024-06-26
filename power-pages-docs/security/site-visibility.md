@@ -54,8 +54,6 @@ When your site is private, you can use the site visibility page to grant access 
 1. In the **Grant site access** card, enter the names or email addresses of the users you want to grant access to.
 1. Select **Share**.
 
-    :::image type="content" source="media/site-visibility/grant-site-access.png" alt-text="Screenshot of the Site visibility page, with Grant site access options highlighted.":::
-
 > [!NOTE]
 > Users who are granted access to a private site aren't automatically authenticated on the site. [Learn how to provide access to external audiences](external-access.md).
 
