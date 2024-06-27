@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 06/28/2024
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -854,6 +854,47 @@ Provides the current language name, and language code if  [multiple-language sup
 | code | The language code of the language. |
 
 For example, the **Languages Dropdown** web template by default uses this liquid object to list the available languages when multiple-languages are available.
+
+## log
+
+Makers have the ability to incorporate log statements within their Liquid code. When the Power pages site is running, the logs added by a maker in Liquid code are shown in the [Power Pages developer tool extension](../devtools-addon.md). These logs, embedded by the maker, are displayed in the developer tool extension when the [diagnostic setting](#enable-diagnostic-setting) is enabled.
+
+The following syntax can be used in Liquid code to log custom messages:
+
+`{% log message:'Custom message' level:'Warning' %}`
+
+### Log attributes
+
+|Attribute  | Description  |
+|---------|---------|
+|log     | Liquid object name |
+|message     | A string representing any custom messages to log |
+|level     | Log the message as Info, Warning, or Error |
+
+Example:
+
+```HTML
+{% log message: 'Log from Home page' %}
+
+{% fetchxml query %}
+<fetch version="1.0" mapping="logical" >
+<entity name="contact">
+<attribute name="fullname"/>
+<attribute name="emailaddress1"/>
+</entity>
+</fetch>
+{% endfetchxml %}
+
+{% assign contacts = query.results.entities %}
+
+{% for contact in contacts %}
+<div> Contact name: {{contact.fullname}} </div><br/>
+{% capture msgg %} 
+Contact email is {{contact.emailaddress1}} for name {{contact.fullname}}
+{% endcapture %}
+{% log message: msgg %}
+{% endfor %}
+```
 
 ## page
 
