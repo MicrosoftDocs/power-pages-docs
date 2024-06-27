@@ -3,7 +3,7 @@ title: Use Power Fx in Power Pages (preview)
 description: Explore Power Fx, Microsoft's low-code language for expressing logic across the Power Platform, now available in Power Pages.
 author: sandhangitmsft
 ms.topic: conceptual
-ms.date: 06/11/2024
+ms.date: 06/27/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -25,12 +25,14 @@ ms.custom:
 
 Power Fx is expressed in human-friendly text. It's a low-code language that makers can work with directly in an Excel-like formula bar. The "low" in low-code is due to the concise and simple nature of the language, making common programming tasks easy for both makers and developers.
 
+> [!NOTE]
+> You may find the syntax for authoring Power Fx formula to be a bit different than what you may be used to in Power Apps or Power Automate. To initiate a Power Fx expression, it needs to begin with an '=' (equal sign) similar to the experience in Excel. For more information, see [Important considerations](#important-considerations).
+
 Power Fx enables the full spectrum of development from no-code makers without any programming knowledge to pro-code for professional developers. It enables diverse teams to collaborate and save time and effort.
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - To initiate a Power Fx expression, it needs to begin with an '=' (equal sign) similar to the experience in Excel. For more information, see [Important considerations](#important-considerations).
 > - The feature is available with Power Pages version [9.6.5.x](/power-platform/released-versions/portals/pagesversion965x).
 
 ## Use Power Fx in Power Pages
@@ -90,27 +92,28 @@ The following are some important considerations to be aware of when using Power 
 
 - **Start with an equals sign**: Text can be entered directly as the value. However, to initiate a Power Fx expression, it should begin with an '=' (equal sign) such as in the following example.
 
-    ```powerapps-dot
+    ```power-fx
     =Concatenate("Hello, ", User.FullName)
     ```
 
 - **Tables are accessed securely**: Dataverse tables can be accessed securely using formulas. Verify table permissions are appropriately configured first. Also, the context of a site user is available using the **User** object. For example, the following expression retrieves the DataverseUserId value of the currently authenticated user.
 
-    ```powerapps-dot
+    ```power-fx
     =Concatenate("Hello, ", First(Filter(Contacts,Contact = User.DataverseUserId)).'First Name' & "!")
     ```
-> [!NOTE]
-> The **User** object represents a Power Pages user and hence does not support the same set of properties as the [User](/power-platform/power-fx/reference/function-user) function  
+
+    > [!NOTE]
+    > The **User** object represents a Power Pages user and hence does not support the same set of properties as the [User](/power-platform/power-fx/reference/function-user) function.
 
 - **Inserting a value within text**: To insert a value within text, use the following syntax.
 
-    ```powerapps-dot
+    ```power-fx
     This text ${variable/ expression} includes a dynamic value.
     ```
 
     For example:  
 
-    ```powerapps-dot
+    ```power-fx
     The total number is ${Sum(10, 20)}
     ```
 
@@ -128,13 +131,13 @@ For the complete list of all available functions in Power Pages, go to [Formula
 
      `UserInfo object was not added to service`
 
-- Some users might see problems with Button and Image URL properties not working when they're set with Power FX formulas or expressions that contain double quotes. This issue only happens if you have version 9.6.3.x and is fixed when your Power Pages site is upgraded to [version 9.6.5.x](/power-platform/released-versions/portals/pagesversion965x).
+- Some users might see problems with Button and Image URL properties not working when the value is set with Power Fx formulas or expressions that contain double quotes. This issue only happens if you have version 9.6.3.x and is fixed when your Power Pages site is upgraded to [version 9.6.5.x](/power-platform/released-versions/portals/pagesversion965x).
 
 ## Frequently asked questions
 
 ### Should I use Power Fx instead of Liquid?
 
-Power Fx fulfills certain dynamic data scenarios in a low-code way that might also be achieved via [Liquid](liquid-overview.md) code with pro-developer tools. Power FX, presently in its public preview phase, is recommended for trial or developmental site evaluations. We welcome your feedback during this stage. Liquid is a generally available (GA) feature and comparatively provides more capabilities. Use Liquid for your production websites, particularly in scenarios that are critical and complex.
+Power Fx fulfills certain dynamic data scenarios in a low-code way that might also be achieved via [Liquid](liquid-overview.md) code with pro-developer tools. Power Fx, presently in its public preview phase, is recommended for trial or developmental site evaluations. We welcome your feedback during this stage. Liquid is a generally available (GA) feature and comparatively provides more capabilities. Use Liquid for your production websites, particularly in scenarios that are critical and complex.
 
 ## See also
 
