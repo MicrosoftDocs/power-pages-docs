@@ -81,8 +81,6 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 1. If you select the **Contact** or **Account** access type, select the relationship between the Contact/Account and the table you selected for the permission.
 
-    :::image type="content" source="media/table-permissions/contact-account-access-type.png" alt-text="Contact or Account access type.":::
-
     > [!NOTE]
     > - If you don't have any relationships available for the selected table, you can select **New relationship** to create a new relationship.
     > - Once you create a table relationship in Power Apps, you need to make sure the configuration is published and also select the **Sync** button in the design studio. 
@@ -97,8 +95,6 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 1. Select **Save**.
 
-:::image type="content" source="media/table-permissions/table-permission-example.png" alt-text="Example of table permissions with the name, related table, access type, permissions, and roles filled out.":::
-
 ### View table permissions
 
 1. In the design studio from the side menu, select **Security**.
@@ -108,8 +104,6 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
     :::image type="content" source="media/table-permissions/edit-table-permissions.png" alt-text="List of existing table permissions.":::
 
 1. To group or filter table permissions, select a view (**Default**, **Group by roles**, **Group by table**, or **Group by state**), or enter a table permission name in the filter text box.
-
-    :::image type="content" source="media/table-permissions/group-table-permissions.png" alt-text="Group or filter table permissions.":::
 
     > [!NOTE]
     > - When you group table permissions by role, table, or state, the permissions are listed as a flat structure without the parent-child relationships for configured permissions.
