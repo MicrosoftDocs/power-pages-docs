@@ -68,7 +68,7 @@ Set Microsoft as an identity provider for your site.
 
 1. Enter an optional description, select an expiration, and then select **Add**.
 
-1. Under **Secret ID**, select the **Copy to clipboard** icon.
+1. Under **Secret Value**, select the **Copy to clipboard** icon.
 
 ## Enter site settings in Power Pages
 
@@ -77,7 +77,7 @@ Set Microsoft as an identity provider for your site.
 1. Under **Configure site settings**, paste the following values:
 
     - **Client ID​**: Paste the **Application (client) ID** [you copied](#create-a-microsoft-app-registration-in-azure).
-    - **Client secret**: Paste the **Secret ID** you copied.
+    - **Client secret**: Paste the **Secret Value** you copied.
 
 [Optional additional settings for OAuth 2.0 identity providers](oauth2-settings.md)
 
