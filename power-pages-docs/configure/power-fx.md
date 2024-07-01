@@ -28,9 +28,10 @@ Power Fx is expressed in human-friendly text. It's a low-code language that make
 > [!NOTE]
 > You may find the syntax for authoring Power Fx formula to be a bit different than what you may be used to in Power Apps or Power Automate. To initiate a Power Fx expression, it needs to begin with an '=' (equal sign) similar to the experience in Excel. For more information, see [Important considerations](#important-considerations).
 
-Power Fx enables the full spectrum of development from no-code makers without any programming knowledge to pro-code for professional developers. It enables diverse teams to collaborate and save time and effort.
+Power Fx enables the full spectrum of development from no-code makers without any programming knowledge to pro-code for professional developers. It facilitates collaboration among diverse teams, helping them save time and effort.
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - The feature is available with Power Pages version [9.6.5.x](/power-platform/released-versions/portals/pagesversion965x).
@@ -60,7 +61,7 @@ The following screenshot highlights some of the important components of the form
 
 :::image type="content" source="media/power-fx/formula-bar.svg" alt-text="Screenshot of the Power Fx formula bar in Power Pages.":::
 
-1. A dropdown allows you to choose from the available component properties.
+1. A dropdown menu allows you to choose from the available component properties.
 
 1. A multiline expandable textbox allows authoring of Power Fx formulas.
 
