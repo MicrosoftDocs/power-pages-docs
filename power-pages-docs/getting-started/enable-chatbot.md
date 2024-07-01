@@ -2,7 +2,7 @@
 title: Add a copilot to your Power Pages site
 description: Learn how to add copilot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 05/31/2024
+ms.date: 07/01/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -232,7 +232,6 @@ Text color:
 
 [Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Microsoft Entra roles can use a PowerShell script to change the tenant-level setting `enableChatbotOnWebsiteCreation`:
 
-- [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
 - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
 
