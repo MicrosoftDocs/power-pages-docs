@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages DevTools browser extension to debu
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/14/2024
+ms.date: 06/28/2024
 ms.subservice:
 ms.author: nabha
 ms.reviewer: dmartens
@@ -73,39 +73,4 @@ The following are some example error messages:
 
 ## Log custom messages with Liquid
 
-Makers can add log statements in their [Liquid](liquid/liquid-overview.md) code. When the Power pages site is running, the logs added by maker in Liquid code are shown in the Power Pages developer tool extension. Makers have the ability to incorporate log statements within their Liquid code. These logs, embedded by the maker, are displayed in the developer tool extension when the [diagnostic setting](#enable-diagnostic-setting) is enabled.
-
-The following syntax can be used in Liquid code to log custom messages:
-
-`{% log message:'Custom message' level:'Warning' %}`
-
-|Parameter  | Description  |
-|---------|---------|
-|log     | Liquid object name |
-|message     | A string representing any custom messages to log |
-|level     | Log the message as Info, Warning, or Error |
-
-Example:
-
-```HTML
-{% log message: 'Log from Home page' %}
-
-{% fetchxml query %}
-<fetch version="1.0" mapping="logical" >
-<entity name="contact">
-<attribute name="fullname"/>
-<attribute name="emailaddress1"/>
-</entity>
-</fetch>
-{% endfetchxml %}
-
-{% assign contacts = query.results.entities %}
-
-{% for contact in contacts %}
-<div> Contact name: {{contact.fullname}} </div><br/>
-{% capture msgg %} 
-Contact email is {{contact.emailaddress1}} for name {{contact.fullname}}
-{% endcapture %}
-{% log message: msgg %}
-{% endfor %}
-```
+Makers can add log statements in their [Liquid](liquid/liquid-overview.md) code. When the Power pages site is running, the logs added by maker in Liquid code are shown in the Power Pages developer tool extension. Learn more in [Available Liquid objects](liquid/liquid-objects.md#log).
