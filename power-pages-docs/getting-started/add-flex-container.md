@@ -16,7 +16,7 @@ ms.custom:
 
 # Use flex containers to group and align components
 
-Flex Container is a layout component that help you design and build section layouts on your web page. You can use flex containers to group components such as buttons, text, images, and other containers.
+Flex Container is a layout component that helps you design and build section layouts on your web page. You can use flex containers to group components such as buttons, text, images, and other containers.
 
 ## Add a flex container
 
