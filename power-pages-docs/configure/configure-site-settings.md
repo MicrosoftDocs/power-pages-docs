@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/06/2023
+ms.date: 07/08/2024
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -65,6 +65,7 @@ You can manage the following types of site settings:
 |CustomerSupport/DisplayAllUserActivitiesOnTimeline|FALSE| |
 |Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail| |Allow auto-association to a contact record based on email. </br> More information: [Allow contact mapping with email and require unique email general options](../security/authentication/configure-site.md#select-general-authentication-settings).</br> *Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail* is not applicable for multi-tenant endpoints. Use [invitations](/power-apps/maker/portals/configure/invite-contacts) to allow users to authenticate to your website.|
 | Site/EnableDefaultHtmlEncoding | True/False | Power Pages release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](/power-apps/maker/portals/liquid/liquid-filters#escape) Liquid filter enforced for [user](/power-apps/maker/portals/liquid/liquid-objects#user) and [request](/power-apps/maker/portals/liquid/liquid-objects#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, add this setting and set its value to **False**. |
+| EnhancedFileUpload | True/False | Starting with Power Pages release version 9.3.2405.xx, new sites are automatically enabled with the enhanced file upload feature. To opt in for existing websites, add this setting and set its value to **True**. Learn more in [Enable attachments on a form](../getting-started/add-form.md#enable-attachments-on-a-form). |
 
 > [!NOTE]
 > *Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail* is not applicable for multi-tenant endpoints and [**Microsoft** identity provider](../security/authentication/oauth2-microsoft.md). Use [invitations](/power-apps/maker/portals/configure/invite-contacts) to allow users to authenticate to your website.

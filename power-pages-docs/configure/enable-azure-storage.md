@@ -20,6 +20,8 @@ contributors:
 
 Azure Storage integration for Power Pages enables you to take advantage of the greater file storage capability of Azure, using the same interface and providing the same user experience as for default file attachments. This feature is supported for web files, basic forms, and multistep forms.
 
+## Enable Azure Blob Storage for basic or multistep forms
+
 You must create a storage account with **Resource manager** as the deployment model. More information: [Create an Azure storage account](/azure/storage/common/storage-account-create?tabs=azure-portal).
 
 After the storage account is running, add role based permissions to the app in Azure:
@@ -43,15 +45,15 @@ Azure storage integration only works with Notes configured in basic form met
 > * You must enable attachments for the table in Microsoft Dataverse first before using this feature. Learn more in [Create a table](/power-apps/maker/data-platform/data-platform-create-entity).
 > * The maximum per file upload size is 10 GB.
 
-## Configure basic or multistep forms
+### Configure basic or multistep forms
 
-To view and add attachments stored in Azure on basic and multistep forms on your site, you need to [configure notes as attachments](configure-notes.md) as well as add [basic form](configure-notes.md#notes-configuration-for-basic-forms) or [multistep form](configure-notes.md#notes-configuration-for-multistep-forms) metadata with the **File Attachment Location** set to **Azure Blob Storage**.
+To view and add attachments stored in Azure on basic and multistep forms on your site, you need to [configure notes as attachments](configure-notes.md).
 
 You can then add attachments to records on web pages.
 
 Attachments uploaded via the site are stored in Azure.
 
-To view and access the attachments in a model-driven app (including Dynamics 365 apps), you need [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md).
+To view and access the attachments in a model-driven app (including Dynamics 365 apps), you need to [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md).
 
 ### Specify the storage container
 
@@ -74,11 +76,11 @@ To enable Azure Blob Storage for web files, follow these steps to add a [CORS ru
 
 You must add cross-origin resource sharing (CORS) rule on your Azure Storage account as follows, otherwise you see the regular attachment icon rather than the cloud icon:
 
-- **Allowed origins**: Specify your domain. For example, `https://contoso.crm.dynamics.com` <br /> Ensure the allowed origin doesn't have trailing `/`. For example, `https://contoso.crm.dynamics.com/` is incorrect.
-- **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
-- **Allowed headers**: Specify the request headers that the origin domain might specify on the CORS request. For example, x-ms-meta-data\*, x-ms-meta-target\*, or \* to allow all.
-- **Exposed headers**: Specify the response headers that might be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*, or \* to allow all.
-- **Maximum age (seconds)**: Specify the maximum amount time that a browser should cache the preflight OPTIONS request. For example, 200.
+* **Allowed origins**: Specify your domain. For example, `https://contoso.crm.dynamics.com` <br /> Ensure the allowed origin doesn't have a trailing `/`. For example, `https://contoso.crm.dynamics.com/` is incorrect.
+* **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
+* **Allowed headers**: Specify the request headers that the origin domain might specify on the CORS request. For example, x-ms-meta-data\*, x-ms-meta-target\*, or \* to allow all.
+* **Exposed headers**: Specify the response headers that might be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*, or \* to allow all.
+* **Maximum age (seconds)**: Specify the maximum amount time that a browser should cache the preflight OPTIONS request. For example, 200.
 
 CORS rule example:
 
@@ -86,9 +88,9 @@ CORS rule example:
 
 More information: [CORS support for the Azure Storage Services](/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
 
-## Add site settings
+### Add site settings
 
-Add the following site settings from **Portals** > **Site Settings**. More information: [Manage portal site settings](/power-apps/maker/portals/configure/configure-site-settings) 
+Add the following site settings from **Portals** > **Site Settings**. Learn more in [Manage portal site settings](/power-apps/maker/portals/configure/configure-site-settings).
 
 |Name|Value|
 |-----|-----|

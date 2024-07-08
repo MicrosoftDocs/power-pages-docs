@@ -115,7 +115,7 @@ To enable attachments on a form:
     > Before you can successfully use Azure Blog Storage for attachments, some prerequisites are required:
     > * The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If this requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
     > * The runtime version of your Power Pages website needs to be at least 9.6.5.1.
-    > * If the site is an existing site and hasn’t opted into new file upload experience, you’ll see a message "To access more controls for file upload, Learn more." You can opt into the new experience by creating a [site setting](../configure/configure-site-settings.md) named **EnhancedFileUpload** with a value of **true**. New sites are automatically enabled.
+    > * If the site is an existing site and hasn’t opted into new file upload experience, ou can opt into the new experience by creating a [site setting](../configure/configure-site-settings.md) named **EnhancedFileUpload** with a value of **true**. New sites are automatically enabled.
 
 1. If you use Azure Blob Storage, enter values for the **Azure storage account name** and the **Azure container name**.
 1. For **Maximum number of files**, enter the maximum number of files you want to allow a user to upload.
@@ -175,7 +175,7 @@ You can also edit the properties of a component from inside the Pages workspace.
 
 After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
 
-### See also
+## Related information
 
 - [Create and modify forms](../configure/data-workspace-forms.md)
 - [About basic forms](../configure/basic-forms.md)
