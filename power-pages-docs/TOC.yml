@@ -560,6 +560,8 @@
           href: configure/web-api-http-requests-handle-errors.md
         - name: "How to: use the portals Web API"
           href: configure/webapi-how-to.md
+        - name: "How to: use Web API to upload to Azure"
+          href: configure/webapi-azure-blob.md
     - name: Use code components
       items:
         - name: Code component overview

@@ -16,7 +16,7 @@ contributors:
 
 # Use Web API to upload files to Azure Blob Storage
 
-This guide demonstrates how to implement the Azure File API, empowering your website's users or visitors to view, edit, create, and delete attachments within a custom table.
+This guide demonstrates how to implement the Azure File API. These steps empower your website's users or visitors to view, edit, create, and delete attachments stored in Azure.
 
 > [!NOTE]
 > * Azure File size of up to 10 GB is supported.
@@ -24,7 +24,7 @@ This guide demonstrates how to implement the Azure File API, empowering your web
 
 ## Prerequisites
 
-This walk-through depends on a custom table named File Test. Learn more about how to create a custom table in [Create and edit tables using Power Apps](/power-apps/maker/data-platform/create-edit-entities-portal).
+This walk-through depends on a custom table named File Test. You can create a custom table with the same name or choose to use another table. Learn more about how to create a custom table in [Create and edit tables using Power Apps](/power-apps/maker/data-platform/create-edit-entities-portal).
 
 ## Step 1: Create site settings
 
@@ -32,7 +32,7 @@ Before you can use the portals Azure File API, you have to enable the required [
 
 1. Open the [Portal Management app](portal-management-app.md).
 
-1. On the left pane of the Portal Management app, select Site Settings.
+1. On the left pane of the Portal Management app, select **Site Settings**.
 
 1. **Select New**.
 
@@ -74,11 +74,11 @@ You have to configure permissions so that users are able to use the Azure File A
 
 ### Create a web role
 
-If you don't have a web role with permissions to the table you're accessing, the following steps show how to create a web role and assign table permissions.
+If you don't have a web role with permissions to the required table, use the following steps to create a web role and assign table permissions.
 
 1. Open the [Portal Management app](portal-management-app.md).
 
-1. In the left pane, in the **Security** section, select **Web Roles**.
+1. In the left pane, within the **Security** section, select **Web Roles**.
 
 1. Select **New**.
 
@@ -102,28 +102,28 @@ If you don't have a web role with permissions to the table you're accessing, the
 
 1. In the **Table Name** list, select **File Test (cr463_filetest)**.
 
-1. In the **Access Type** list, select **Global**.
+1. In the **Access Type** list, select **Global access**.
 
-1. Select the **Read** and **AppendTo** privileges.
+1. Select the **Read** and **Append to** privileges.
 
 1. Select **+ Add roles** and select the web role you created earlier.
 
-1. Select **Save & Close**.
+1. Select **Save**.
 
-1. Follow similar steps to create one more permission for the Note (annotation) table with **Write**, **Read**, **Create**, **Append** privileges, and add roles.
+1. Follow similar steps to create one more permission for the Note (annotation) table with **Write**, **Read**, **Create**, **Append** privileges and add the same web role.
 
 ### Add contacts to the web role
 
 1. Open the [Portal Management app](portal-management-app.md).
 
-1. In the left pane, in the **Security** section, select **Contacts**.
+1. In the left pane, within the **Security** section, select **Contacts**.
 
 1. Select a contact you want to use in this example for the API.
 
 > [!NOTE]
 > This contact is the user account used in this example for testing the API. Be sure to select the correct contact in your portal.
 
-1. Select **Related** > **Web Roles**.
+1. Select **Related** > **Web Roles**. Verify you're using the Portal Contact form. If you use the Power Pages Management App, the Web Roles subgrid is located at the bottom of the General tab.
 
 1. Select **Add Existing Web Role**.
 
@@ -139,25 +139,27 @@ If you don't have a web role with permissions to the table you're accessing, the
 
 1. Go to the resource group, which contains the storage account.
 
-1. Select **Access Control (IAM)** > **Add** > **Add new role assignment**.
+1. Select **Access control (IAM)** > **Add** > **Add role assignment**.
 
-1. Select the **Reader** role and then select **next**.
+1. Select the **Reader** role and then select **Next**.
 
-1. Select **User, group, or service principal** and then select **select members**.
+1. Select **User, group, or service principal** and then select **+ Select members**.
 
-1. In the right side panel, choose the portal Enterprise application by searching your site name and then select **select**.
+1. In the right side panel, choose the portal Enterprise application by searching your site name and then select **Select**. The name of the application is in the following format:
 
-1. Select **Review and Assign** >  **Review and Assign**.
+    `Portals-<site name>`
 
-1. Go to storage account and then select **Access Control (IAM)** > **Add** > **Add new role assignment**.
+1. Select **Review + assign** >  **Review + assign** .
 
-1. Select the **Storage Blob Data Contributor** role and then select **next**.
+1. Go to storage account and then select **Access Control (IAM)** > **Add** > **Add role assignment**.
 
-1. Select **User, group, or service principal** and then select **select members**.
+1. Select the **Storage Blob Data Contributor** role and then select **Next**.
 
-1. In the right side, select the portal Enterprise application by searching your site name and then select **select**.  
+1. Select **User, group, or service principal** and then select **+ Select members**.
 
-1. Select **Review and Assign** >  **Review and Assign**.
+1. In the right side, select the portal Enterprise application by searching your site name and then select **Select**.  
+
+1. Select **Review + assign** > **Review + assign**.
 
 ## Step 3: Create a webpage
 
@@ -165,25 +167,25 @@ Now that you enabled the Azure File API and configured user permissions, create 
 
 1. Open [Power Pages design studio](../getting-started/use-design-studio.md).
 
-1. In the **Pages** workspace, select **+ Page**.
+1. In the **Pages** workspace, select **+ Page**, and select **Other ways to add a page**.
 
-1. In the Add a page dialog, for the **Name**, enter **File Test Page** and then select **Start from blank layout**.
+1. In the Add a page dialog, for the **Page name**, enter **File Test Page** and then select **Start from blank**.
 
 1. Select **Add**.
 
-1. Select **list** and then add a new list or choose an existing list for the File Test table.
+1. Select **List** and then add a new list or choose an existing list for the File Test table.
 
     Create a page for attachments with the following sample code to view, edit, create, and delete records.
 
 1. Open [Power Pages design studio](../getting-started/use-design-studio.md).
 
-1. In the **Pages** workspace, select **+ Page**.
+1. In the **Pages** workspace, select **+ Page**, and select **Other ways to add a page**.
 
-1. In the Add a page dialog, for the **Name**, enter **Attachments** and select **Start from blank layout**.
+1. In the Add a page dialog, for the **Page name**, enter **Attachments** and select **Start from blank**.
 
 1. Select **Add**.
 
-1. Select the **Edit Code** option in the upper right corner.
+1. Select the **Edit code** option in the upper right corner.
 
 1. Select **Open Visual Studio Code**.
 
@@ -419,7 +421,7 @@ Now that you enabled the Azure File API and configured user permissions, create 
         }
         else
         {
-        alert("no file choosen");
+        alert("no file chosen");
         }
     }
     
@@ -535,11 +537,13 @@ Now that you enabled the Azure File API and configured user permissions, create 
 
 1. Select **CTRL**+**S** to save the code.
 
-1. Go back to **File Test Page** and select **edit list**.
-1. Go to actions and then enable **Edit Record**.
-1. Choose **Target Type** as **WebPage**.
-1. Select webpage as **Attachments** and **Display Label** as **Upload Attachments**.
-1. In the design studio, select **Sync** to update the site with the code edits.
+1. Go back to the **File Test Page**, select the list, and then select **Edit list**.
+1. Go to **Actions** and then enable **Edit record**.
+1. For the **Target Type**, select **Webpage**.
+1. For the **Webpage**, select **Attachments**.
+1. For the **Display label**, enter **Upload Attachments**.
+1. Select **Done**.
+1. In the upper-right corner of design studio, select **Sync** to update the site with the code edits.
 
 ## Step 4: Use the API to upload, download, and delete attachments
 
