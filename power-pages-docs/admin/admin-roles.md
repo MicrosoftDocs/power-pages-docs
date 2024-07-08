@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/22/2023
+ms.date: 07/08/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -18,11 +18,11 @@ contributors:
 
 # Roles required for website administration
 
-Different administrative tasks in Power Pages can be performed by members of different roles. The admin and security roles required to do these tasks vary depending on the impact area.
+Different administrative tasks in Power Pages can be performed by members of different roles. The admin and security roles required to do these tasks vary depending on the affected area.
 
 For example, some tasks might require the user to be a member of admin roles in [Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles?preserve-view=true&view=o365-worldwide), and others might need membership to security roles in the [Microsoft Power Platform environment](/power-platform/admin/database-security).
 
-In this article, you'll learn about the roles and permissions required to do different administrative tasks for Power Pages.
+In this article, you learn about the roles and permissions required to do different administrative tasks for Power Pages.
 
 > [!NOTE] 
 > A user must be a direct member of the below roles to be able to take the respective actions. Roles are not inherited from a security group (that the user is a member of) or via privileged identity management.  
@@ -33,12 +33,12 @@ The following table lists different administrative tasks for Power Pages, and th
 
 | Task | Required roles |
 | - | - |
-| [Add a custom domain name](add-custom-domain.md) | Any one of the following roles: <ul> <li> [website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul>   |
+| [Add a custom domain name](add-custom-domain.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul>   |
 | [Update the Dynamics 365 instance of an add-on website](update-dynamics365-instance.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
-| [Manage authentication key](manage-auth-key.md) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
+| [Manage authentication key](manage-auth-key.md) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Convert an existing website to capacity-based model](convert-site.md) |  [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Convert a website from trial to production](convert-site.md#convert-a-website-from-trial-to-production) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
-| [Create a website](../getting-started/create-manage.md) | Required roles and permissions in Microsoft Power Platform (**all** are required):<ul><li>A user account with [Read-Write Access Mode](#read-write-access-mode).</li><li>[System administrator](#system-administrator) role. </li><li>[Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Microsoft Entra are required.</br><li>Is [website creation disabled](/power-apps/maker/portals/control-portal-creation) in the tenant? </li><ul><li> If **Yes**, in **addition** to the roles and permissions above, a user will also need at least one of the following roles to create a website: [Dynamics 365 administrator](#dynamics-365-administrator), or [Power Platform administrator](#power-platform-administrator).</li></ul></ul>|
+| [Create a website](../getting-started/create-manage.md) | Required roles and permissions in Microsoft Power Platform (**all** are required):<ul><li>A user account with [Read-Write Access Mode](#read-write-access-mode).</li><li>[System administrator](#system-administrator) role. </li><li>[Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Microsoft Entra are required.</br><li>Is [website creation disabled](/power-apps/maker/portals/control-portal-creation) in the tenant? </li><ul><li> If **Yes**, in **addition** to the previously mentioned roles and permissions, a user also needs at least one of the following roles to create a website: [Dynamics 365 administrator](#dynamics-365-administrator), or [Power Platform administrator](#power-platform-administrator).</li></ul></ul>|
 | [Download the public key of a website](get-public-key.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Import metadata translation](import-metadata-translation.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Delete a website](delete-website.md) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
@@ -90,7 +90,7 @@ A *website app owner* is a user who owns the website [application registration](
 
 1. Under **Manage**, select **App registrations**.
 
-1. Select the website app from the list of available applications. This will be called `Portals-<<website name>>`.
+1. Select the website app from the list of available applications. This application is called `Portals-<<website name>>`.
 
 1. Under **Manage**, select **Owners**.
 
@@ -128,8 +128,8 @@ To assign a user the System Customizer Power Platform role, go to [Configure use
 
 To assign a user the Power Platform administrator role, go to [Assign a service admin role to a user](/power-platform/admin/use-service-admin-role-manage-tenant#assign-a-service-admin-role-to-a-user).
 
-### See also
+### Related information
 
-[admin center](admin-overview.md)  
+[Use the admin center](admin-overview.md)  
 [Portal Management app](../configure/portal-management-app.md)  
 [Site settings](/power-apps/maker/portals/configure/configure-site-settings)
