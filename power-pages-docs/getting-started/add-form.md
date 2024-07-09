@@ -112,10 +112,10 @@ To enable attachments on a form:
 1. For **Attachment storage**, select **Notes** to save the files in Dataverse or select **Azure Blob Storage** to store the files in Azure.
 
     > [!NOTE]
-    > Before you can successfully use Azure Blog Storage for attachments, some prerequisites are required:
+    > Before you can successfully use Azure Blob Storage for attachments, some prerequisites are required:
     > * The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If this requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
     > * The runtime version of your Power Pages website needs to be at least 9.6.5.1.
-    > * If the site is an existing site and hasn’t opted into new file upload experience, ou can opt into the new experience by creating a [site setting](../configure/configure-site-settings.md) named **EnhancedFileUpload** with a value of **true**. New sites are automatically enabled.
+    > * If the site is an existing site and hasn’t opted into new file upload experience, you see a message "To access more controls for file upload, Learn more". You can opt into the new experience by creating a [site setting](../configure/configure-site-settings.md) named **EnhancedFileUpload** with a value of **true**. New sites are automatically enabled.
 
 1. If you use Azure Blob Storage, enter values for the **Azure storage account name** and the **Azure container name**.
 1. For **Maximum number of files**, enter the maximum number of files you want to allow a user to upload.
