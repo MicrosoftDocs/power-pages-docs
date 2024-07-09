@@ -4,7 +4,7 @@ description: Learn how to migrate your standard data model site to the enhanced 
 author:  neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/21/2024
+ms.date: 07/09/2024
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: kkendrick
