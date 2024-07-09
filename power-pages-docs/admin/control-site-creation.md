@@ -26,7 +26,6 @@ Set-TenantSettings -RequestBody @{ "disablePortalsCreationByNonAdminUsers" = $tr
 
 Administrators are the users having one of the following Azure roles:
 
-- [Global administrator](admin-roles.md#global-administrator)
 - [Dynamics 365 administrator](admin-roles.md#dynamics-365-administrator)
 - [Power Platform administrator](admin-roles.md#power-platform-administrator)
 
