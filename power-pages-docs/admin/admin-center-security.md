@@ -109,7 +109,6 @@ You can also manually refresh the security status on-demand by selecting **Refre
 
 You must have one of the following roles to view website security using Power Platform admin center:
 
-- Global administrator
 - Dynamics 365 administrator
 - Power Platform administrator
 - System administrator (can only see websites for the environments of which they're a system administrator)
