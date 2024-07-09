@@ -4,7 +4,7 @@ description: Learn how to create a site with Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/21/2024
+ms.date: 07/09/2024
 ms.subservice:
 ms.author: tbhagwat
 ms.reviewer: kkendrick
