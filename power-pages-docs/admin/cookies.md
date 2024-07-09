@@ -39,6 +39,7 @@ Power Pages also use cookies to store information for various purposes. The foll
 | PrivateModeLoginCookie | Used to identify internal maker sessions when site is in private mode. This cookie isn't dropped once site is made public. | Session |
 | OpenIdConnect.nonce.xxxxxx | Used to associate a Client session with an ID Token, and to mitigate replay attacks. | Session | 
 | AspNet.ExternalCookie | Used to identify user sessions in external sign in scenarios. | Session|
+| WebPageCaching | The cookie will be dropped for sites where the [Content Delivery Network](../configure/configure-cdn) is enabled. This cookie is used to analyze the service usage of the cached pages for statistical purposes. | 1 day |
 
 ## Frequently asked questions
 
