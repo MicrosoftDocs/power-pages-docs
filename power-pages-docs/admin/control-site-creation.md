@@ -4,7 +4,7 @@ description: Instructions to control site creation in a tenant.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/01/2024
+ms.date: 07/09/2024
 ms.author: nenandw
 ms.reviewer: kkendrick
 contributors:
