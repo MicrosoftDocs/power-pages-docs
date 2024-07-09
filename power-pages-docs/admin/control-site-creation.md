@@ -4,7 +4,7 @@ description: Instructions to control site creation in a tenant.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/01/2024
+ms.date: 07/09/2024
 ms.author: nenandw
 ms.reviewer: kkendrick
 contributors:
@@ -16,7 +16,7 @@ contributors:
 
 # Control site creation in a tenant
 
-As a global administrator, if you want to disable site creation in a tenant by non-administrators, you can do it by enabling the `disablePortalsCreationByNonAdminUsers` tenant level setting through PowerShell. To run PowerShell cmdlets, you must first install the required modules. For information on installing the required PowerShell modules, see [Installation](/power-platform/admin/powerapps-powershell#installation).
+As a service administrator, if you want to disable site creation in a tenant by non-administrators, you can do it by enabling the `disablePortalsCreationByNonAdminUsers` tenant level setting through PowerShell. To run PowerShell cmdlets, you must first install the required modules. For information on installing the required PowerShell modules, see [Installation](/power-platform/admin/powerapps-powershell#installation).
 
 After installing the modules, run the following command in a PowerShell window (run PowerShell as an administrator).
 
