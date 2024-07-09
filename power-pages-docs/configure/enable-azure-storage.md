@@ -27,15 +27,17 @@ You must create a storage account with **Resource manager** as the deployment mo
 After the storage account is running, add role based permissions to the app in Azure:
 
 1. Sign in to the [Azure portal](https://portal.azure.com) where the storage account was created.
-1. Go to **Resource groups**.
-1. Select the resource group, which contains the storage account.
-1. Select **Access Control (IAM)**
-1. Select **Add** > **Add role assignment**.
+1. Go to **Resource groups** and select the resource group, which contains the storage account.
+1. Select **Access Control (IAM)** > **Add** > **Add role assignment**.
 1. Select the **Reader** role and then select **Next**.
 1. Select **User, group, or service principal** and then select **Select members**.
 1. On the right side, select the portal application by searching your site name and then select the **Select** button. The application name is in the format `Portals-<site name>` with `<site name>` being the name of your Power Pages site.
 1. Select **Review + assign** >  **Review + assign**.
-1. Repeat the above steps but this time select the **Storage Blob Data Contributor** role.
+1. Go to the storage account and select **Access Control (IAM)** > **Add** > **Add role assignment**.
+1. Select the **Blob Data Contributor** role and then select **Next**.
+1. Select **User, group, or service principal** and then select **Select members**.
+1. On the right side, select the portal application by searching your site name and then select the **Select** button.
+1. Select **Review + assign** >  **Review + assign**.
 
 Power Pages require certain global settings that tell the application how to locate your storage account.  
 
@@ -70,7 +72,7 @@ To specify the storage container for a form:
 
 ## Enable Azure Blob Storage for web files
 
-To enable Azure Blob Storage for web files, follow these steps to add a [CORS rule](#add-cors-rule) and the [add site settings](#add-site-settings).
+To enable Azure Blob Storage for web files, follow these steps to add a [CORS rule](#add-cors-rule) and [add site settings](#add-site-settings).
 
 ### Add CORS rule
 
