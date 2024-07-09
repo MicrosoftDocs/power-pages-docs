@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/05/2023
+ms.date: 07/09/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -42,7 +42,7 @@ More details: [Update Power Pages solution](update-solution.md)
 
 ## Get notified about new releases
 
-Every customer is notified about new Power Pages releases through Office 365 message center (in Microsoft 365 admin center). Ensure that you either have access to Office 365 message center (Global administrator and service administrator have access) or have discussed with your global administrator or service administrator to inform you about any new Power Pages releases.
+Every customer is notified about new Power Pages releases through Office 365 message center (in Microsoft 365 admin center). Ensure that you either have access to Office 365 message center (service administrators have access) or have discussed with your service administrator to inform you about any new Power Pages releases.
 
 Notifications are sent around 2-5 business days ahead of the release. Notifications are sent to only those customers whose portals are planned to be updated. Each notification provides details of the type of update and the date/time it will be rolled out along with the link to release notes.
 
