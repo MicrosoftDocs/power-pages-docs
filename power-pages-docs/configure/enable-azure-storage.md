@@ -34,7 +34,7 @@ After the storage account is running, add role based permissions to the app in A
 1. On the right side, select the portal application by searching your site name and then select the **Select** button. The application name is in the format `Portals-<site name>` with `<site name>` being the name of your Power Pages site.
 1. Select **Review + assign** >  **Review + assign**.
 1. Go to the storage account and select **Access Control (IAM)** > **Add** > **Add role assignment**.
-1. Select the **Blob Data Contributor** role and then select **Next**.
+1. Select the **Storage Blob Data Contributor** role and then select **Next**.
 1. Select **User, group, or service principal** and then select **Select members**.
 1. On the right side, select the portal application by searching your site name and then select the **Select** button.
 1. Select **Review + assign** >  **Review + assign**.
