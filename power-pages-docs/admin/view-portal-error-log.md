@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/02/2023
+ms.date: 06/28/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -197,3 +197,6 @@ Following are the screens where custom plugin errors will appear:
 
 If the site setting isn't present, then it will be treated as false by default and plugin errors won't render.
 
+## View server side errors in the DevTools extension
+
+You can view server side error messages and potential solutions by using the [Power Pages DevTools extension](../configure/devtools-addon.md). Also you can debug the server side code by logging custom messages. Learn more in [Power Pages DevTools extension: log custom messages with liquid](../configure/devtools-addon.md#log-custom-messages-with-liquid).
