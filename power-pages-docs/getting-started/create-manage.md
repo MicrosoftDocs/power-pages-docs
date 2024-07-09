@@ -4,7 +4,7 @@ description: Learn how to create a site with Power Pages.
 author: nickdoelman
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/21/2024
+ms.date: 07/09/2024
 ms.subservice:
 ms.author: tbhagwat
 ms.reviewer: kkendrick
@@ -65,7 +65,6 @@ Customize and design your site using the Power Pages design studio.
 
 If [website creation is disabled in the tenant](/power-apps/maker/portals/control-portal-creation), users will also need at least one of the following roles to create a website:
 
- - [Global administrator](/power-pages/admin/admin-roles#global-administrator)
  - [Dynamics 365 administrator](/power-pages/admin/admin-roles#dynamics-365-administrator)
  - [Power Platform administrator](/power-pages/admin/admin-roles#power-platform-administrator)
 
