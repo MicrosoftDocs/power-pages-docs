@@ -124,10 +124,7 @@ Select **...** to the left of **Site Actions** for more site actions.
 
 ## Add yourself as an owner of the Microsoft Entra application
 
-To manage a website that is already provisioned or resubmit provisioning if it failed, you must meet one of the following requirements:
-
-* a global administrator
-* an owner of the Microsoft Entra application connected to your website
+To manage a website that is already provisioned or resubmit provisioning if it failed, you must be an owner of the Microsoft Entra application connected to your website.
 
 To add yourself as an owner of the Microsoft Entra application:
 
