@@ -77,7 +77,6 @@ Your security role and tenant security settings determine whether you can change
 
 [Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Microsoft Entra roles can change the site visibility:
 
-- [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
 - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
 
