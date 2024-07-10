@@ -4,7 +4,7 @@ description: Learn how to use the Power Pages admin center.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/07/2024
+ms.date: 07/10/2024
 ms.author: nenandw
 ms.reviewer: kkendrick
 contributors:
@@ -124,10 +124,7 @@ Select **...** to the left of **Site Actions** for more site actions.
 
 ## Add yourself as an owner of the Microsoft Entra application
 
-To manage a website that is already provisioned or resubmit provisioning if it failed, you must meet one of the following requirements:
-
-* a global administrator
-* an owner of the Microsoft Entra application connected to your website
+To manage a website that is already provisioned or resubmit provisioning if it failed, you must be an owner of the Microsoft Entra application connected to your website.
 
 To add yourself as an owner of the Microsoft Entra application:
 
@@ -142,7 +139,7 @@ To add yourself as an owner of the Microsoft Entra application:
 1. Add users or groups as owners of this app registration. More information: [Managing access to apps](/azure/active-directory/active-directory-managing-access-to-apps)
 
     > [!Note]
-    > This task can be performed either by a global administrator of your organization or the existing owner of this application.
+    > The user currently assigned as the owner of the application is authorized to perform this task. In situations where the application owner isn't identified or left the organization, a global administrator from your organization is authorized to update the application's ownership.
 
 1. After you add yourself as an owner, reopen the site details page from the Power Platform admin center.
 
