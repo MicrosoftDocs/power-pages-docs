@@ -48,7 +48,7 @@ Configure the rules with the following settings:
 | Rate limit in minutes | 5 minutes |
 | Requests allowed within rate limit | 1500 |
 | Match type | Request URI |
-| IP address or range | / |
+| Match value | / |
 | Traffic settings | Deny |
 
 ## My site has been experiencing abnormal traffic for the past day. How can I analyze this traffic pattern and safeguard my site from potential attackers?
