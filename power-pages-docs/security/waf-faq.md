@@ -3,7 +3,7 @@ title: FAQ for configuring Web Application Firewall in Power Pages
 description: Learn about frequently asked questions and answers to configure Web Application Firewall rules in Power Pages.
 author: nageshbhat-msft
 ms.topic: faq
-ms.date: 05/28/2024
+ms.date: 07/11/2024
 ms.author: nabha
 ms.reviewer: kkendrick
 contributors:
@@ -13,11 +13,11 @@ contributors:
 
 # FAQ for configuring Web Application Firewall in Power Pages
 
-In this article, you'll learn about frequently asked questions related to configuring Web Application Firewall in Power Pages.
+In this article, you learn about frequently asked questions related to configuring Web Application Firewall (WAF) in Power Pages.
 
-## I want to set up a WAF rule to ensure that my site only receives traffic from customers accessing it from the United States.
+## I want to set up a WAF rule to ensure that my site only receives traffic from customers accessing it from the United States
 
-To configure WAF rule in this case, you need to create two rules in the order as described below:
+To configure WAF rule in this case, you need to create two rules in the following order:
 
 | Parameter | Setting |
 | - | - |
@@ -34,10 +34,9 @@ To configure WAF rule in this case, you need to create two rules in the order as
 | Match value | / |
 | Traffic settings | Deny |
 
-When the firewall receives traffic from the United States, the first rule is evaluated, and subsequent rules are discarded. If requests come from outside the United States, the first rule is not evaluated, and the second rule is applied, blocking all requests.
+When the firewall receives traffic from the United States, the first rule is evaluated, and subsequent rules are discarded. If requests come from outside the United States, the first rule isn't evaluated, and the second rule is applied, blocking all requests.
 
-
-## My site receives an average of 1500 requests in 5 minutes. I want to configure a WAF rule to protect my site by preventing any DDoS attack. How should I set up my WAF rules?
+## My site receives an average of 1,500 requests in 5 minutes. I want to configure a WAF rule to protect my site by preventing any DDoS attack. How should I set up my WAF rules?
 
 Configure the rules with the following settings:
 
