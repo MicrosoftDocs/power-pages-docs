@@ -17,14 +17,25 @@ In this article, you'll learn about frequently asked questions related to config
 
 ## I want to set up a WAF rule to ensure that my site only receives traffic from customers accessing it from the United States.
 
-To configure WAF rule in this case, use the following rule settings:
+To configure WAF rule in this case, you need to create two rules in the order as described below:
 
 | Parameter | Setting |
 | - | - |
 | Rule type | Match |
 | Match type | Geo location |
+| Match variable | RemoteAddr |
 | Country or region | United States |
 | Traffic settings | Allow |
+
+| Parameter | Setting |
+| - | - |
+| Rule type | Match |
+| Match type | Request URI |
+| Match value | / |
+| Traffic settings | Deny |
+
+When the firewall receives traffic from the United States, the first rule is evaluated, and subsequent rules are discarded. If requests come from outside the United States, the first rule is not evaluated, and the second rule is applied, blocking all requests.
+
 
 ## My site receives an average of 1500 requests in 5 minutes. I want to configure a WAF rule to protect my site by preventing any DDoS attack. How should I set up my WAF rules?
 
