@@ -4,7 +4,7 @@ description: Manage and administer your Power Pages sites.
 author: donovangoode
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/15/2022
+ms.date: 07/10/2024
 ms.author: dgoode
 ms.reviewer: kkendrick
 contributors:
@@ -92,7 +92,7 @@ Use the Power Platform admin view to:
 - Manage capacity alerts.
 
 > [!NOTE]
-> The permission app is intended to be used only by admins. Power Platform Service Admin or Global Admin permission is required. Share this app with your CoE admins.
+> The permission app is intended to be used only by admins. Power Platform Service Admin permission is required. Share this app with your CoE admins.
 
 :::image type="content" source="media/coe-admin-app.png" alt-text="COE admin app dashboard.":::
 

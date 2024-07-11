@@ -4,7 +4,7 @@ description: Learn how to set up payments integration with your website.
 author: sandhangitms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/10/2024
+ms.date: 07/10/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -183,7 +183,6 @@ $requestBody = @{
 
 Administrators are the users having one of the following Azure roles:
 
-- [Global administrator](admin-roles.md#global-administrator)
 - [Dynamics 365 administrator](admin-roles.md#dynamics-365-administrator)
 - [Power Platform administrator](admin-roles.md#power-platform-administrator)
 
