@@ -4,7 +4,7 @@ description: Learn how to create an image library in Power Pages.
 author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 16/07/2024
+ms.date: 07/16/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
