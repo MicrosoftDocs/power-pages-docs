@@ -3,7 +3,7 @@ title: Add forms
 description: Add forms to your page in Power Pages.
 author: pranita225
 ms.topic: conceptual
-ms.date: 07/09/2024
+ms.date: 07/16/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
@@ -117,7 +117,7 @@ To enable attachments on a form:
     > * The runtime version of your Power Pages website needs to be at least 9.6.5.1.
     > * If the site is an existing site and hasn’t opted into new file upload experience, you see a message "To access more controls for file upload, Learn more". You can opt into the new experience by creating a [site setting](../configure/configure-site-settings.md) named **EnhancedFileUpload** with a value of **true**. New sites are automatically enabled.
 
-1. If you use Azure Blob Storage, enter values for the **Azure storage account name** and the **Azure container name**.
+1. If you use Azure Blob Storage, enter values for the **Azure storage account name** and the **Azure container name**. Learn more at [Enable Azure Storage](../configure/enable-azure-storage.md).
 1. For **Maximum number of files**, enter the maximum number of files you want to allow a user to upload.
 1. For **Upload size limit per file (in KB)**, enter the maximum size in KB you want to allow per file. The following table shows the absolute maximum file size limits based on the storage option selected:
 
