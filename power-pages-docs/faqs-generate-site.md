@@ -30,7 +30,7 @@ Copilot for site creation, allows you to generate a site by describing the site 
 
 ## What is the intended use of Copilot for site creation?
 
-Copilot for site creation is intended to simplify your site creation process by automatically generating a site with a home page and more pages. AI-generated content may have mistakes. Make sure it's accurate and appropriate before using it. For more information, read the full [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview).
+Copilot for site creation is intended to simplify your site creation process by automatically generating a site with a home page and more pages. AI-generated content may have mistakes. Make sure it's accurate and appropriate before using it. For more information, read the full [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 ## How was Copilot for site creation evaluated? What metrics are used to measure performance?
 
