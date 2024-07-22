@@ -4,7 +4,7 @@ description: Learn how to use the Data workspace to create virtual tables in Mic
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/01/2024
+ms.date: 07/22/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
@@ -24,6 +24,7 @@ You can create virtual tables using the following virtual connector providers in
 - [Sharepoint](/connectors/sharepoint/)
 - [Microsoft Fabric (preview)](/power-apps/maker/data-platform/azure-synapse-link-view-in-fabric)
 - [Salesforce (preview)](/connectors/salesforce/)
+- [Oracle (preview)](/connectors/oracle)
 
 :::image type="content" source="media/data-workspace-virtual-tables/create-virtual-table.png" alt-text="Create virtual table using Power Pages design studio from the Data workspace":::
 
