@@ -112,6 +112,35 @@ For the pay-as-you-go model, a list of sites is shown. Usage tracking for these 
 
 More information: [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs)
 
+## Environment and site level capacity monitoring
+
+Similar to the licensing summary view (tenant-level view), the environment-level view can be accessed from **Billing** > **Licenses**. To access the environment-level view, select the **Environments** tab and choose an environment.
+
+The environment-level view extends the licensing dashboard to include detailed information about environment-level capacity consumption. Administrators can see how much capacity is assigned to the environment and how it is being consumed by the sites within it. Like the tenant-level view, daily data for the past two months is available, as well as monthly data for the last 12 months.
+
+:::image type="content" source="media/capacity-management/environment.site.png" alt-text="A screenshot of the environment and site level capacity and consumption monitoring views in Power Platform admin center.":::
+
+There are three main elements on the environment summary page.
+
+#### Consumption pie chart
+
+The consumption pie chart, located at the top left, shows how the consumption of capacity is divided among the sites in the selected environment. The capacity type can be selected from the capacity category pivot, and the time range can be controlled from the time range dropdown on the top right of the chart.
+
+#### Consumption history graph
+
+The consumption history graph, situated to the right of the consumption pie chart, visualizes the capacity assigned to the environment and its consumption over time. The time range can be changed between month-to-date (from the 1st of the current month to the current date), past two months, and monthly data for the past 12 months.
+
+#### Site details
+
+The site details list at the bottom of the view lists all the production sites in the environment that are using the current capacity model. The list includes consumption data for all the sites, for both authenticated and anonymous capacity type for the selected time range. The list also includes the state (whether enabled or not), visibility, owner, and last update date for the site. The rightmost column has a link to the actual site if the visible information alone is not sufficient to identify a site.
+
+The command bar at the top of the site details section includes links to site management, and shortcuts for starting and stopping the selected site. The **View consumption details** link under the site name opens a pane with more details on the license consumption of that specific site, including daily consumption and cumulative consumption data, with capacity type selectors and time range controls.
+
+## See also
+
+- [Website capacity consumption reports](website-consumption-reports.md)
+- [Power Pages licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
+
 ## See also
 
 - [Website capacity consumption reports](website-consumption-reports.md)
