@@ -4,7 +4,7 @@ description: Learn how to set and manage table permissions.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/30/2023
+ms.date: 7/25/2024
 ms.author: gisingh
 ms.reviewer: kkendrick
 contributors:
