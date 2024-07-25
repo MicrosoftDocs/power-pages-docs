@@ -1,7 +1,7 @@
 ---
 title: Assign table permissions
 description: Assign table permissions to web roles.
-ms.date: 07/20/2023
+ms.date: 07/25/2024
 ms.topic: how-to
 author: gitanjalisingh33msft
 ms.author: gisingh
@@ -19,15 +19,11 @@ Table permissions assigned to [web roles](create-web-roles.md) allow members of 
 > [!IMPORTANT]
 > When the [Anonymous users web role](#anonymous-users-web-role) is granted access to a table, any user who visits the site can access the data in the table.
 
-1. In your Power Pages site, select **Set up** > **Table permissions**.
+1. In your Power Pages site, select **Security** > **Table permissions**.
 
-1. Select a table permission.
-
-1. In the **Roles** section, select **+ Add roles**.
+1. Select the **ellipse (...)** next to the table you wish to assign permissions to and choose **Edit**.
 
 1. Select the role or roles to assign the table permission to.
-
-    :::image type="content" source="media/table-permissions/assign-web-role.png" alt-text="Screenshot of adding web roles to a table permission in Power Pages.":::
 
     If the web role isn't listed, select **Manage roles** to open the [Portal Management app](../configure/portal-management-app.md). Create the role and save it. Return to the design studio and select **Sync**, then refresh the browser page. Start again at step 2.
 
