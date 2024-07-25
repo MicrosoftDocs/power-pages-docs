@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/15/2023
+ms.date: 07/09/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -24,8 +24,9 @@ You can convert a trial website to a production website from the notifications d
 
 > [!NOTE]
 > You must be assigned one of the following roles to convert a website from trial to production:
-> - Global administrator
 > - System administrator
+> - Power Platform administrator
+> - Dynamics 365 administrator
 >
 > More information: [Admin roles required for portal administrative tasks](/power-apps/maker/portals/admin/portal-admin-roles)
 
