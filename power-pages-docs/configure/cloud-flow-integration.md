@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/16/2024
+ms.date: 07/25/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -13,6 +13,7 @@ contributors:
     - nageshbhat-msft
     - nickdoelman
     - ProfessorKendrick
+    - DanaMartens
 ---
 
 # Configure Power Automate cloud flows in Power Pages
@@ -27,7 +28,7 @@ Now, you can securely invoke Power Automate cloud flows from Power Pages to inte
 
 ## Prerequisites
 
-To integrate with Power Pages, a Power Automate license is required. It is recommended to use Power Automate per flow license in the production instance.
+To integrate with Power Pages, a Power Automate license is required. It's recommended to use a [Power Automate Process](/power-platform/admin/power-automate-licensing/types?tabs=power-automate-premium%2Cpower-automate-process%2Cconnector-types#power-automate-process) license in the production instance.
 
 ## Steps to integrate cloud flow
 
@@ -142,7 +143,7 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
 ```
     shell.ajaxSafePost({
         type: "POST",
-        url: "_api/cloudflow/v1.0/trigger/44a4b2f2-0d1a-4820-bf93-9376278d49c4",
+        url: "/_api/cloudflow/v1.0/trigger/44a4b2f2-0d1a-4820-bf93-9376278d49c4",
         data: JSON.stringify({"eventData":JSON.stringify({"Email": "abc@contoso.com", "File":{"name":"Report.pdf", "contentBytes":"base 64 encoded string"} })})
     })
     .done(function (response) {
