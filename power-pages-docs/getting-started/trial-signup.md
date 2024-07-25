@@ -68,7 +68,7 @@ The following video provides an overview of how to get started using Power Pages
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE559Pe]
 
-## Related information
+## Additional resources
 
 - [Explore training resources for Power Apps portals](/training/browse/?terms=power%20apps%20portals)
 - [Watch videos on the product playlist](../training-videos/index.md)
