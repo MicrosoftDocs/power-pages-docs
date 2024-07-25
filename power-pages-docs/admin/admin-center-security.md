@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/07/2024
+ms.date: 07/09/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: kkendrick
@@ -109,7 +109,6 @@ You can also manually refresh the security status on-demand by selecting **Refre
 
 You must have one of the following roles to view website security using Power Platform admin center:
 
-- Global administrator
 - Dynamics 365 administrator
 - Power Platform administrator
 - System administrator (can only see websites for the environments of which they're a system administrator)

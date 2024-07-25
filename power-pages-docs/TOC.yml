@@ -290,6 +290,8 @@
       href: admin/ip-address-restrict.md
     - name: Diagnostics and error handling
       href: admin/view-portal-error-log.md
+    - name: Use the Power Pages DevTools extension
+      href: configure/devtools-addon.md
     - name: View Power Pages activity logging in Microsoft Purview (preview)
       href: /power-platform/admin/logging-power-pages
     - name: Compliance and privacy
@@ -560,6 +562,8 @@
           href: configure/web-api-http-requests-handle-errors.md
         - name: "How to: use the portals Web API"
           href: configure/webapi-how-to.md
+        - name: "How to: use Web API to upload to Azure"
+          href: configure/webapi-azure-blob.md
     - name: Use code components
       items:
         - name: Code component overview
