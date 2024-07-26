@@ -97,7 +97,7 @@ Request
 ```html
 POST https://contoso.powerappsportals.com/_api/cloudflow/v1.0/trigger/4d22a1a2-8a67-e681-9985-3f36acfb8ed4
 {
-    "Location":"Seattle"
+    "eventData": "{\"Location\":\"Seattle\"}"
 }
 ``` 
 
@@ -124,6 +124,9 @@ Body
 }
 ```
 
+> [!NOTE] 
+> Output parameters are returned with lowercase names, no matter what casing was used in the cloud flow.
+
 ## Authenticating cloud flow API requests
 
 You don't need to include an authentication code, because the application session manages authentication and authorization. All API calls must include a Cross-Site Request Forgery (CSRF) token.
@@ -144,6 +147,7 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
     shell.ajaxSafePost({
         type: "POST",
         url: "/_api/cloudflow/v1.0/trigger/44a4b2f2-0d1a-4820-bf93-9376278d49c4",
+        contentType: "application/json",
         data: JSON.stringify({"eventData":JSON.stringify({"Email": "abc@contoso.com", "File":{"name":"Report.pdf", "contentBytes":"base 64 encoded string"} })})
     })
     .done(function (response) {
@@ -154,5 +158,5 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
     });
 ```
 > [!NOTE] 
-> - If no input parameter is defined in the trigger, pass an empty payload in the request.
+> - If no input parameter is defined in the trigger, pass a payload with empty eventData in the request (`data: JSON.stringify({"eventData":JSON.stringify({})})`).
 > - For information on cloud flow limitations, see [Limits of automated, scheduled, and instant flows](/power-automate/limits-and-config).
