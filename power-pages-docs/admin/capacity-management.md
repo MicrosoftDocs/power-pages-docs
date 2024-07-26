@@ -4,7 +4,7 @@ description: Learn about capacity management in Power Pages.
 author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/20/2023
+ms.date: 07/22/2024
 ms.subservice: 
 ms.author: dileeps
 ms.reviewer: kkendrick
@@ -44,13 +44,13 @@ The licensing summary view is located under **Billing (preview)** > **Licenses (
 
 ### License type cards
 
-License type cards are shown at the top of the view. The cards provide information about different license types in use in production and relevant metrics such as **Total** (capacity available), and **Assigned** (capacity assigned). 
+License type cards are shown at the top of the view. The cards provide information about different license types in use in production and relevant metrics such as **Total** (capacity available), and **Assigned** (capacity assigned).
 
-For capacity-based licensing models, the card has a link to either the capacity management experience or the legacy capacity management panel, depending on the license type. 
+For capacity-based licensing models, the card has a link to either the capacity management experience or the legacy capacity management panel, depending on the license type.
 
 For Dynamics 365 Portal Add-ons (legacy license type), **View details** shows the production websites that are using the add-ons licensing model. **View details** for a pay-as-you-go license type shows a list of websites in production using a pay-as-you-go license model.
 
-The license cards have information about the legacy licensing models to help administrators with licensing model migration planning. The rest of the views and features only support the current capacity-based licensing model (Authenticated MAU and Anonymous MAU). 
+The license cards have information about the legacy licensing models to help administrators with licensing model migration planning. The rest of the views and features only support the current capacity-based licensing model (Authenticated MAU and Anonymous MAU).
 
 More information: [Power Platform licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
@@ -64,11 +64,11 @@ The assignments pie chart always shows the current data for total available prep
 
 #### Consumption history graph
 
-The consumption graph visualizes the data for assigned capacity, total available capacity, consumed capacity, and overage at the tenant level, if any. Administrators can use the consumption graph to determine when new capacity needs to be procured to cover the growth. 
+The consumption graph visualizes the data for assigned capacity, total available capacity, consumed capacity, and overage at the tenant level, if any. Administrators can use the consumption graph to determine when new capacity needs to be procured to cover the growth.
 
-- Time ranges available are month to date, daily data for the past two full months, and monthly data for the past 12 months. 
-- Licensing capacity consumption resets in the beginning of each month and grows as unique users access the websites and licensing capacity is consumed. 
-- Daily views are cumulative. 
+- Time ranges available are month to date, daily data for the past two full months, and monthly data for the past 12 months.
+- Licensing capacity consumption resets in the beginning of each month and grows as unique users access the websites and licensing capacity is consumed.
+- Daily views are cumulative.
 
 There's a delay of up to 24 hours for the data shown in the graph.
 
@@ -104,13 +104,37 @@ For legacy capacity, **Manage capacity**, displayed under the license type, open
 
 :::image type="content" source="media/capacity-management/manage-add-ons.png" alt-text="A screenshot of the manage add-ons view.":::
 
-For Dynamics 365 Portal add-ons, a list of sites is shown to help plan the migration to current licensing models. 
+For Dynamics 365 Portal add-ons, a list of sites is shown to help plan the migration to current licensing models.
 
 More information: [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model)
 
-For the pay-as-you-go model, a list of sites is shown. Usage tracking for these sites is available directly from the Azure portal. 
+For the pay-as-you-go model, a list of sites is shown. Usage tracking for these sites is available directly from the Azure portal.
 
 More information: [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs)
+
+## Environment and site level capacity monitoring
+
+Similar to the licensing summary view (tenant-level view), the environment-level view can be accessed from **Billing** > **Licenses**. To access the environment-level view, select the **Environments** tab and choose an environment.
+
+The environment-level view extends the licensing dashboard to include detailed information about environment-level capacity consumption. Administrators can see how much capacity is assigned to the environment and how it's consumed by the sites within it. Like the tenant-level view, daily data for the past two months is available and monthly data for the last 12 months.
+
+:::image type="content" source="media/capacity-management/environment-site.png" alt-text="A screenshot of the environment and site level capacity and consumption monitoring views in Power Platform admin center.":::
+
+The following are the three main elements on the environment summary page.
+
+### Consumption pie chart
+
+The consumption pie chart, located at the top left, shows how the consumption of capacity is divided among the sites in the selected environment. The capacity type can be selected from the capacity category pivot, and the time range can be controlled from the time range dropdown on the top right of the chart.
+
+### Consumption history graph
+
+The consumption history graph, situated to the right of the consumption pie chart, visualizes the capacity assigned to the environment and its consumption over time. The time range can be changed between month-to-date (from the first of the current month to the current date), past two months, and monthly data for the past 12 months.
+
+### Site details
+
+The site details list at the bottom of the view lists all the production sites in the environment that are using the current capacity model. The list includes consumption data for all the sites, for both authenticated and anonymous capacity type for the selected time range. The list also includes the state (whether enabled or not), visibility, owner, and last update date for the site. The rightmost column has a link to the actual site if the visible information alone isn't sufficient to identify a site.
+
+The command bar at the top of the site details section includes links to site management and shortcuts for starting and stopping the selected site. The **View consumption details** link, under the site name, opens a pane with more details on the license consumption of that specific site, including daily consumption and cumulative consumption data, with capacity type selectors and time range controls.
 
 ## See also
 

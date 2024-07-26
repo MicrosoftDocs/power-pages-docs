@@ -4,7 +4,7 @@ description: Learn how to migrate your standard data model site to the enhanced 
 author:  neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/21/2024
+ms.date: 07/09/2024
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: kkendrick
@@ -117,7 +117,7 @@ Use the following command update site data model version:
 > [!NOTE]
 > - You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a web role with all [website access permissions](../security/website-access-permission.md) assigned.
 > - After the site data model version is updated, the website record linked to the standard data model will be deactivated. Instead, the site will now refer to the website record associated with the enhanced data model.
-> - User should have any one of the following roles to execute migration command with ```updateDatamodelVersion``` or ```revertToStandardDataModel``` arguments. As this will perform admin action to switch your site to enahance data model or vice versa. <ul><li>[System administrator](./admin-roles.md#system-administrator)</li><li>[Dynamics 365 administrator](./admin-roles.md#dynamics-365-administrator)</li><li>[Power Platform administrator](./admin-roles.md#power-platform-administrator)</li><li>[Global administrator](./admin-roles.md#global-administrator)</li></ul>
+> - User should have any one of the following roles to execute migration command with ```updateDatamodelVersion``` or ```revertToStandardDataModel``` arguments. As this will perform admin action to switch your site to enahance data model or vice versa. <ul><li>[System administrator](./admin-roles.md#system-administrator)</li><li>[Dynamics 365 administrator](./admin-roles.md#dynamics-365-administrator)</li><li>[Power Platform administrator](./admin-roles.md#power-platform-administrator)</li></ul>
 
 **Example**
 

@@ -40,9 +40,9 @@ Some authentication settings don't depend on the identity provider you choose. T
 
 1. [Create a site](../../getting-started/create-manage.md) or edit an existing site.
 
-1. In the left side panel, select **Set up**.
+1. In the left side panel, select **Security**.
 
-1. Under **Authentication**, select **Identity providers**.
+1. Under **Manage**, select **Identity providers**.
 
 1. Select **Authentication settings**.
 
