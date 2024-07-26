@@ -23,6 +23,16 @@ In this article, learn how to migrate your existing standard data model site to 
 > [!IMPORTANT]
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - Websites created from one of the below templates are not supported for migration.    
+        1. Blank page <br>
+        2. Starter layout 1 <br>
+        3. Starter layout 2 <br>
+        4. Starter layout 3 <br>
+        5. Starter layout 4 <br>
+        6. Starter layout 5 <br>
+        7. Schedule and manage meetings <br>
+        8. Program registration <br>
+        9. Application processing <br>
 
 ## Prerequisites
 
