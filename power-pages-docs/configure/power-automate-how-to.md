@@ -268,6 +268,7 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
                     .ajaxSafePost({
                         type: "POST",
                         url: _url,
+                        contentType: "application/json",
                         data: JSON.stringify(payload)
                     })
                     .done(function (response) {
