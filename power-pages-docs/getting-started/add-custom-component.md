@@ -21,11 +21,15 @@ This section guides makers on how to add existing custom components with a manif
 To add a custom component to a web page:
 
 1. Open the design studio to edit the site's content and components.
-2. Go to the **Pages** workspace.
-3. Select the page you want to edit.
-4. Select the section where you want to add the custom component.
-5. Hover over any editable canvas area, select the ellipses, and then select the custom component from the list.
+1. Go to the **Pages** workspace.
+1. Select the page you want to edit.
+1. Select the section where you want to add the custom component. You can also [add a new section](add-sections.md) for the component.
+1. Select the ellipses, and then select the custom component from the list.
 
     :::image type="content" source="media/custom-components/add-custom-component.png" alt-text="Screenshot of adding a custom component to a section.":::
 
     This list displays only the custom components in the site that have a manifest. If no such components exist, a "learn more" link is shown.
+
+## Related information
+
+[Web templates as components](../configure/web-templates-as-components.md)
