@@ -4,7 +4,7 @@ description: Learn how to add a custom component to a section in a Power Pages s
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/11/2024
+ms.date: 07/31/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
@@ -14,16 +14,13 @@ contributors:
 
 # Add a custom component (preview)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 A custom component, also referred to as a web template, is a Power Pages site metadata record used to store template source content. Typically, a web template contains [Liquid](../configure/liquid-overview.md) for dynamic content rendering and serves as the central table for integrating Liquid templates with the rest of Power Pages.
 
 Now, custom components can be added to a section of a page within the Pages workspace in the design studio, just like other components. Previously, adding a custom component to a web page required writing code in a code editor like VS Code. This section guides makers on how to add existing custom components with a manifest to a web page. Learn more about how to create a custom component or add manifests to them at [Web templates as components](../configure/web-templates-as-components.md).
 
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 To add a custom component to a web page:
 
