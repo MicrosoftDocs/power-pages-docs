@@ -18,7 +18,7 @@ contributors:
 
 A custom component, also referred to as a web template, is a Power Pages site metadata record used to store template source content. Typically, a web template contains [Liquid](../configure/liquid-overview.md) for dynamic content rendering and serves as the central table for integrating Liquid templates with the rest of Power Pages.
 
-This section guides makers on how to add existing custom components with a manifest to a web page. Learn more about how to create a custom component or add manifests to them at [Web templates as components](../configure/web-templates-as-components.md).
+Now, custom components can be added to a section of a page within the Pages workspace in the design studio, just like other components. Previously, adding a custom component to a web page required writing code in a code editor like VS Code. This section guides makers on how to add existing custom components with a manifest to a web page. Learn more about how to create a custom component or add manifests to them at [Web templates as components](../configure/web-templates-as-components.md).
 
 > [!IMPORTANT]
 >
