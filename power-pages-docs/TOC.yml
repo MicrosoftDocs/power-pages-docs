@@ -104,6 +104,8 @@
               href: templates/dynamics-365-apps/integrate-field-service.md
         - name: Blank page template
           href: templates/blank.md
+        - name: SAP supplier enterprise template
+          href: templates/sap-supplier.md
     - name: Manage sites
       href: admin/manage-sites.md
     - name: Create additional sites in an environment
