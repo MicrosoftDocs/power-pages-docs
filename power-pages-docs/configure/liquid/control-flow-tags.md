@@ -32,7 +32,7 @@ Hello, Dave.
 
 ## unless
 
-Like if, except it executes a block of code if a given condition is**not** met.
+Like if, it executes a block of code if a given condition is **not** met.
 
 ```
 {% unless page.title == 'Home' %}
