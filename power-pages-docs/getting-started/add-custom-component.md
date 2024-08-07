@@ -4,12 +4,13 @@ description: Learn how to add a custom component to a section in a Power Pages s
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/31/2024
+ms.date: 08/07/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
 contributors:
     - DanaMartens
+    - ProfessorKendrick
 ---
 
 # Add a custom component (preview)
