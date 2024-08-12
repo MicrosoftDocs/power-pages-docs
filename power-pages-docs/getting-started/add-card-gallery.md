@@ -1,6 +1,6 @@
 ---
-title: Add a card gallery (preview)
-description: Explore how to add, style, and configure a Card gallery in Power Pages sites using design studio and Liquid code.
+title: Create and customize a card gallery in Power Pages (preview)
+description: Learn how to use design studio or Liquid code to add, style, and configure a card gallery in Power Pages sites.
 author: pranita225
 ms.topic: conceptual
 ms.date: 06/18/2024
@@ -13,18 +13,20 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:05/23/2024
 ---
-# Add a card gallery (preview)
+# Create and customize a card gallery in Power Pages (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A card gallery is a data control, bound to a table and view, used to display data in Power Pages sites in card gallery format. 
+A card gallery is a data control that displays data from a table and view in cards. You can use design studio or Liquid code to add, style, and configure a card gallery in Power Pages sites.
 
 > [!IMPORTANT]
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-To add a card gallery:
+## Add a card gallery
+
+To add a card gallery with design studio:
 
 1. Open the [design studio](use-design-studio.md) to edit the content and components of the site.
 
@@ -36,7 +38,7 @@ To add a card gallery:
 
 1. Select the page you want to edit.
 
-1. Select the section you want to add the card gallery to.
+1. Select the section where you want to add the card gallery.
 
 1. Hover over any editable canvas area, then select the **Card gallery** icon from the component panel.
     
@@ -64,16 +66,15 @@ To configure your card gallery's data source:
 
     > [!NOTE]
     > 
-    >For button and hyperlink elements, two configurations are required: name and url. Both configurations must be bound to a view column.
+    >For button and hyperlink elements, you need to configure two settings: name and url. Both configurations must be bound to a view column.
 
-Disable the toggle switch next to any element you don't wish to include.
+Disable the toggle switch next to any element you don't want to include.
 
 You can rearrange each element's position by selecting the icon to the left of the toggle switch and dragging the element to the desired position.
 
 ### Supported column types
 
-For each element, specific data types are supported.
-
+Each element supports specific data types.
 
 |**Element**  |**Data type(s)** |
 |---------|---------|
@@ -93,7 +94,7 @@ Turn on/off the **Enable search** toggle to add or remove search filtering.
 
 ### Preview your card gallery
 
-After your card gallery is configured, you can see the preview on canvas with sample data. 
+After you configure your card gallery, you can see the preview on canvas with sample data. 
 
 >[!NOTE]
 > You must [set table permissions](../security/table-permissions.md) to allow site visitors to view and interact with your card gallery.
@@ -117,7 +118,3 @@ To add an existing card gallery, use the Liquid tag and replace `{your card gall
 ```Liquid
 {% codecomponent name:Pages.CardGallery id: '{your card gallery id}' %}
 ```
-
-
-
-
