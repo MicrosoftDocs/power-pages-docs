@@ -1,16 +1,21 @@
 ---
 title: Add forms
-description: Add forms to your page in Power Pages.
+description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: pranita225
 ms.topic: conceptual
-ms.date: 08/09/2024
+ms.date: 08/12/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
 contributors:
-    - clromano
-    - nickdoelman
-    - ProfessorKendrick
-    - DanaMartens
+  - clromano
+  - nickdoelman
+  - ProfessorKendrick
+  - DanaMartens
+  - ankitavish
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:08/12/2024
 ---
 
 # Add a form
@@ -65,7 +70,7 @@ To edit a text field on the form:
 
 1. Hover and select the text field from the canvas.
 1. Edit the text field and style it as needed (bold, underline, or italic).
-    :::image type="content" source="media/add-form/fill-details.png" alt-text="Styling options for text fields including bold, underline, and italic.  Bold is selected here.":::
+    :::image type="content" source="media/add-form/fill-details.png" alt-text="Styling options for text fields including bold, underline, and italic. Bold is selected here.":::
 
 ## Edit, validate, and delete form fields
 
@@ -113,7 +118,7 @@ To enable attachments on a form:
 
     > [!NOTE]
     > Before you can successfully use Azure Blob Storage for attachments, some prerequisites are required:
-    > * The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If this requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
+    > * The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If the requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
     > * The runtime version of your Power Pages website needs to be at least 9.6.5.1.
 
 1. If you use Azure Blob Storage, enter values for the **Azure storage account name** and the **Azure container name**. Learn more at [Enable Azure Storage](../configure/enable-azure-storage.md).
@@ -142,7 +147,9 @@ Once configured, the file upload placeholder shows in the canvas.
 
 #### New file upload experience
 
-New sites automatically enable the new file upload experience. This includes sites which have been changed from developer to production. 
+With the new file upload experience, end users can see the file name, file type, file size, upload progress bar, and the delete option. If the upload fails (for example, if the file type isn’t supported or the upload exceeds the maximum number of files), an error message appears. 
+
+New sites automatically enable the new file upload experience, including sites that are changed from developer to production. 
 Existing sites must opt into the new file upload experience.
 
 Opt into the new experience by creating a [site setting](../configure/configure-site-settings.md) named **EnhancedFileUpload** with a value of **true**. New sites are automatically enabled.
