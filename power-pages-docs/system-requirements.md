@@ -59,6 +59,9 @@ This list identifies all services to which Power Pages communicates and their us
 | management.azure.com | https | Power Apps Management Service |
 | login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |https |Microsoft Authentication Library |
 | graph.microsoft.com<br>graph.windows.net |https |Azure Graph - For getting user info (for example, profile photo) |
+| \*.powerappsmtportals.com | https | Required to generate live preview within Power Pages Maker Studio |
+| \*.powerappsportals.com | https | Default Power Pages site domain |
+| \*.powerpages.microsoft.com | https | Power Pages maker studio | 
 | \*.powerapps.com |https | create.powerapps.com, content.powerapps.com, apps.powerapps.com, make.powerapps.com, \*gateway.prod.island.powerapps.com, and \*gateway.prod.cm.powerapps.com |
 | \*.blob.core.windows.net |https | Blob storage |
 | \*.flow.microsoft.com | https | create.powerapps.com, content.powerapps.com, and make.powerapps.com |
