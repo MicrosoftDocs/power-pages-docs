@@ -5,7 +5,7 @@ author: pranita225
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/21/2024
+ms.date: 08/06/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
@@ -19,9 +19,9 @@ contributors:
 The Power Pages [design studio](../getting-started/use-design-studio.md) allows you to quickly create and edit powerful websites.
 
 > [!NOTE]
-> To use the design studio, you will need to be assigned the [system administrator role](/power-platform/admin/assign-security-roles) in the same Microsoft Dataverse environment as your site. 
+> To edit sites using the design studio, you will need to be assigned the [required roles and permissions](../admin/admin-roles.md#required-roles-and-permissions) in the same Microsoft Dataverse environment as your site. 
 
-The design studio has four marquee experiences—called *workspaces*—that focus on specific user jobs:
+The design studio has five marquee experiences—called *workspaces*—that focus on specific user jobs:
 
 - **Pages workspace** enables you to design and build webpages with in-context editing and add content with no-code and low-code widgets such as text, image, video, Power BI reports, lists, forms, and others. [Learn more about the Pages workspace](../getting-started/first-page.md).
 
