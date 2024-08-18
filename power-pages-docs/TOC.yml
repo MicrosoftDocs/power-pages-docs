@@ -180,6 +180,8 @@
                   href: getting-started/add-card-gallery.md
                 - name: Add breadcrumbs
                   href: getting-started/add-breadcrumb.md
+                - name: Add custom component (preview)
+                  href: getting-started/add-custom-component.md
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
