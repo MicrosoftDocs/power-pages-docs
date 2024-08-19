@@ -1,10 +1,10 @@
 ---
-title: SAP supplier enterprise template
-description: Learn how to use the SAP supplier self-service site template for Power Pages to empower your suppliers with self-service capabilities, enabling them to manage their vendors, orders, and invoices efficiently. 
+title: SAP Supplier Self Service template
+description: Learn how to use the SAP Supplier Self-service template for Power Pages to empower your suppliers with self-service capabilities, enabling them to manage their vendors, orders, and invoices efficiently. 
 author: sandhangitmsft 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/31/2024
+ms.date: 08/19/2024
 ms.subservice:
 ms.author: sandhan 
 ms.reviewer: dmartens
@@ -12,9 +12,9 @@ contributors:
     - DanaMartens
 ---
 
-# SAP supplier enterprise template
+# SAP Supplier Self Service template
 
-Use the SAP supplier self-service site template for Power Pages to empower your suppliers with self-service capabilities, enabling them to manage their vendors, orders, and invoices efficiently.
+Use the SAP Supplier Self Service template for Power Pages to empower your suppliers with self-service capabilities, enabling them to manage their vendors, orders, and invoices efficiently.
 
 ## Overview
 
@@ -25,7 +25,7 @@ Learn more about how to install, configure, and use the SAP supplier template at
 :::image type="content" source="media/sap-supplier-template.png" alt-text="Screenshot of the SAP supplier portal site created by the SAP supplier portal enterprise template.":::
 
 > [!NOTE]
-> The SAP supplier portal template is part of the [Enterprise templates for the Power Platform](/power-platform/enterprise-templates/overview). Learn more about the support for enterprise templates for Power Platform at [Enterprise templates for Power Platform - Support](/power-platform/enterprise-templates/overview)
+> The SAP Supplier Self Service template is part of the [Enterprise templates for the Power Platform](/power-platform/enterprise-templates/overview). Learn more about the support for enterprise templates for Power Platform at [Enterprise templates for Power Platform - Support](/power-platform/enterprise-templates/overview)
 
 ## Related information
 
