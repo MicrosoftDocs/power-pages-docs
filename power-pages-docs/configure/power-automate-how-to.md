@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/02/2023
+ms.date: 8/21/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -82,7 +82,7 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
     1. UV index
     1. Wind speed
     1. Location
-    1. Visible distance
+    1. Visibility Distance
     1. Latitude
     1. Longitude
     1. Temperature Units
@@ -268,13 +268,13 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
                     .ajaxSafePost({
                         type: "POST",
                         url: _url,
-                        data: JSON.stringify(payload)
+                        data: payload
                     })
                     .done(function (response) {
                         const result = JSON.parse(response);
                         document.getElementById("temperature").innerHTML = result["temperature"];
                         document.getElementById("windspeed").innerHTML = result["wind_speed"];
-                        document.getElementById("visibility").innerHTML = result["visible_distance"];
+                        document.getElementById("visibility").innerHTML = result["visibility_distance"];
                         document.getElementById("uv").innerHTML = result["uv_index"];
                         document.getElementById("location").innerHTML = result["location"];
                         document.getElementById("condition").innerHTML = result["conditions"];
