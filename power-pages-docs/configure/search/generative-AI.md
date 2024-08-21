@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 5/21/2024
+ms.date: 8/21/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -23,8 +23,9 @@ Using Generative AI for Power Pages Search is about incorporating generative art
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../../includes/cc-preview-features-definition.md)]
-> - Your environment must be located in the United States, United Kingdom, Australia, or India regions. Generative AI search is enabled by default in these regions.
+> - Generative AI search is enabled by default in these regions.
 > - Generative AI search is available for sites created with English language.
+> - This feature is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD) region.
 > - Power Pages site version must be 9.6.3.41 or higher.
 > - Faceted search isn't available when you enable generative AI search.
 
