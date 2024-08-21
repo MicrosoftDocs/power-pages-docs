@@ -4,7 +4,7 @@ description: Learn how to use the SAP Supplier Self Service template for Power P
 author: sandhangitmsft 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/19/2024
+ms.date: 08/21/2024
 ms.subservice:
 ms.author: sandhan 
 ms.reviewer: dmartens
