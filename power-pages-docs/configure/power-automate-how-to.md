@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 8/21/2024
+ms.date: 8/22/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -34,10 +34,10 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Navigate to the **Set up workspace**, then select **Cloud flows** under App integrations.
 
-1. Click on **+ Create new flow**
-   
-1. Search for **Power Pages**. 
-    
+1. Select **+ Create new flow**
+
+1. Search for **Power Pages**.
+
     - Select **When Power Pages calls a flow** trigger.
 
     :::image type="content" source="media/cloud-flow/power-automate-power-pages.png" alt-text="Selecting Power Pages options in Power Automate.":::
@@ -63,7 +63,7 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Select **+ New step**.
 
-1. Search for **Power Pages**. 
+1. Search for **Power Pages**.
 
 1. Select **Return value(s) to Power Pages** action.
 
@@ -122,7 +122,7 @@ After saving the flow, you need to add it to the site and assign a proper web ro
 
     :::image type="content" source="media/cloud-flow/add-to-website.png" alt-text="Add cloud flow to website.":::
 
-    >[!NOTE] 
+    > [!NOTE]
     > This is the unique URL used to connect to the associated cloud flow. You'll use this URL later to call the current weather flow.
 
 ## Step 3: Create a page to display MSN weather data
