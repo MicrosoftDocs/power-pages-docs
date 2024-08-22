@@ -48,7 +48,7 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Add a name as **Location**.
 
-1. Select **+New step**.
+1. Select **+ New step**.
 
 1. Search for **MSN Weather**.
 
