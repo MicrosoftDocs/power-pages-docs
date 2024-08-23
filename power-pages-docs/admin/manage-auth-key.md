@@ -4,7 +4,7 @@ description: Learn how to manage the authentication key used by Power Pages.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/23/2024
+ms.date: 08/23/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -36,13 +36,11 @@ The details of an authentication key are displayed on Power Platform admin cente
 
 1. In the site details page, select **Website Authentication Key** in the **Security** section.
 
-    :::image type="content" source="media/auth-key/manage-auth-key.png" alt-text="Manage authentication key.":::
-
 **Website**
 
 1. Sign in to the website with a user that is assigned the administrator [webrole](../security/create-web-roles.md).
 
-1. Navigate to the URL `<website_path>/_services/about`. The authentication key expiration date is displayed. 
+1. Navigate to the URL `<website_path>/_services/about`. The authentication key expiration date is displayed.
 
     :::image type="content" source="media/auth-key/services-page.png" alt-text="Website services page.":::
 
@@ -57,20 +55,21 @@ Before the authentication key expires, you receive notifications via emails, Pow
 
 Email is sent to users who signed up for email notification for the organization connected to their Power Pages site. More information about signing up for email notification: [Manage email notifications to admins](/power-platform/admin/manage-email-notifications)
 
-Email notifications are sent at the following intervals: 
-- 90 days 
-- 60 days 
-- 30 days 
-- 15 days 
-- Seven days 
-- Six days 
-- Five days 
-- Four days 
-- Three days 
-- Two days 
-- One day 
-- 12 hours 
-- Six hours 
+Email notifications are sent at the following intervals:
+
+- 90 days
+- 60 days
+- 30 days
+- 15 days
+- Seven days
+- Six days
+- Five days
+- Four days
+- Three days
+- Two days
+- One day
+- 12 hours
+- Six hours
 - Three hours
 
 You'll also be notified after the key expires every day until one week after key expiration.
@@ -105,7 +104,7 @@ Use the following steps if the authentication key for your website is near expir
 
 1. In the site details page, select **Website Authentication Key** in the **Security** section.
 
-    :::image type="content" source="media/auth-key/manage-auth-key.png" alt-text="Manage authentication key.":::
+    :::image type="content" source="media/auth-key/manage-auth-key.svg" alt-text="Manage authentication key.":::
 
 1. Select **Update key**.
 
