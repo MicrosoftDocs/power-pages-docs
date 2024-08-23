@@ -1,6 +1,6 @@
 ---
 title: Add a custom component (preview)
-description: Learn how to add a custom component to a section in a Power Pages site.
+description: Learn how to add a custom component to a section in a Power Pages site
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
