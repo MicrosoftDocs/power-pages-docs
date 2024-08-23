@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/06/2023
+ms.date: 08/23/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -46,8 +46,8 @@ To learn about the roles required to perform this task, read [Admin roles requir
      > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers.
      > - PFX file must be encrypted with TripleDES encryption. Power Pages doesn't support AES-256 encryption.
      > - Contains an [Extended Key Usage](https://en.wikipedia.org/w/index.php?title=X.509&section=4#Extensions_informing_a_specific_usage_of_a_certificate) for server authentication (OID = 1.3.6.1.5.5.7.3.1).
-     > 
-     > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites. 
+     >
+     > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites.
 
     :::image type="content" source="media/add-custom-domain/add-ssl-certificate.png" alt-text="Upload an SSL certificate.":::
 
@@ -91,8 +91,6 @@ To change your existing custom domain name:
     1. Select and delete the current assigned hostname.
     1. Select and delete the current SSL certificate.
     1. Select and delete the current SSL binding.
-
-    :::image type="content" source="media/add-custom-domain/change-ssl.png" alt-text="Change SSL certificate.":::
 
 1. Follow the instructions outlined in [**Add a custom domain name**](#add-a-custom-domain-name) to configure your new domain.
 
