@@ -4,7 +4,7 @@ description: Learn how to use solutions with Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/26/2023
+ms.date: 08/27/2024
 ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
@@ -100,7 +100,7 @@ The following steps show how you can update an existing website by using the con
 1. Select the destination site, select the ellipsis (**…**), and then select **Manage** to open the site details page.
 1. In the **Site Details** section, select **Edit**. Select the imported site record in the **Website Record** dropdown list, and then select **Save**.
 
-    :::image type="content" source="media/solutions/link-site.png" alt-text="Screenshot of the imported site record selected in the Website Record dropdown list.":::
+    :::image type="content" source="media/solutions/link-site.svg" alt-text="Screenshot of the imported site record selected in the Website Record dropdown list.":::
 
 1. Select **Site Actions**, and then select **Restart site**.
 

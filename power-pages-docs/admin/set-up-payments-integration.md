@@ -4,7 +4,7 @@ description: Learn how to set up payments integration with your website.
 author: sandhangitms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/10/2024
+ms.date: 08/27/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -85,7 +85,7 @@ If you choose Azure Key Vault as your storage type, complete the following steps
 
     The app name is the same as your website name with a prefix of "Portals-". If your site name is *"Woodgrove Bank Applications"*, then the app name on the Azure portal is *"Portals-Woodgrove Bank Applications"*. Note this app registration name for use in the following steps.
 
-    :::image type="content" source="media/set-up-payments-integration/azure-app-registration.png" alt-text="Screenshot of the app registration in Azure for a Power Pages site.":::
+    :::image type="content" source="media/set-up-payments-integration/azure-app-registration.svg" alt-text="Screenshot of the app registration in Azure for a Power Pages site.":::
 
 1. Sign in to the [Azure portal](https://portal.azure.com) and navigate to **Key Vaults**.
 1. Create a new key vault or use an existing one. While creating a new key vault, you have to choose a permission model. You can choose either [Azure role-based access control](/azure/role-based-access-control/overview) or a [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the below tab based on your choice of permission model.

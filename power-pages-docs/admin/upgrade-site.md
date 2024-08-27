@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/09/2024
+ms.date: 08/27/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -62,7 +62,7 @@ To enable a Power Pages website for early upgrade:
 
 1. Select **Enable Portal For Early Upgrade**.
 
-    :::image type="content" source="media/power-platform-admin-center/early-upgrade.png" alt-text="Enable early upgrade.":::
+    :::image type="content" source="media/power-platform-admin-center/early-upgrade.svg" alt-text="Enable early upgrade.":::
 
 > [!NOTE]
 > You can enable or disable a website for early upgrade anytime. However, a snapshot is taken for all websites marked for early access two days before any release, and any website marked for early access after that is not guaranteed to get an early upgrade.
