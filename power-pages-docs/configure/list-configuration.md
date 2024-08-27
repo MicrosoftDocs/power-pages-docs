@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/24/2023
+ms.date: 08/27/2024
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -105,7 +105,7 @@ Enabling a **Create Action** renders a button above the list that, when selected
 
 **Download action settings**
 
-Enabling a **Download Action** renders a button above the list that, when selected, downloads the data from the list to an Excel (.xlsx) file.
+Enabling a **Download Action** renders a button above the list that, when selected, downloads the data from the list to an Excel (.xlsx) file. This button uses [Microsoft Dataverse FetchXML](/power-apps/developer/data-platform/fetchxml/overview) to query the records, and FetchXML limitations apply here.
 
 | Name              | Description                                                                                        |
 |-------------------|----------------------------------------------------------------------------------------------------|
