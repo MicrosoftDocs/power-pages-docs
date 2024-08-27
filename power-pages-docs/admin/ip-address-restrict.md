@@ -50,7 +50,7 @@ Once you add an IP address to the restriction list, the website is accessible to
 
 1. On the side panel, select **+ New** to add a new IP address.
 
-    :::image type="content" source="media/ip-address-restriction/configure-restricted-ip.png" alt-text="Configure IP address restriction.":::
+    :::image type="content" source="media/ip-address-restriction/configure-restricted-ip.svg" alt-text="Configure IP address restriction.":::
 
 1. In the Add an IP address window, enter the following values:
 
