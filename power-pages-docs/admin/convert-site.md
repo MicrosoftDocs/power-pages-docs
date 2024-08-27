@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/09/2024
+ms.date: 08/26/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -32,7 +32,7 @@ You can convert a trial website to a production website from the notifications d
 
 When you open the **Power Pages sites** section for your website in the [Power Platform admin center](admin-overview.md) you'll see the notification about the trial expiration.
 
-:::image type="content" source="media/power-platform-admin-center/admin-center-convert-notif.png" alt-text="Convert notification.":::
+:::image type="content" source="media/power-platform-admin-center/admin-center-convert-notification.svg" alt-text="Convert notification.":::
 
 To convert your website from trial to production:
 
