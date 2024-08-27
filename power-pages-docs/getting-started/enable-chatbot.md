@@ -262,7 +262,6 @@ Set-TenantSettings -RequestBody $requestBody
 ## Known issues
 
 - You can't change your site's custom domain after you add a copilot. Instead, turn off the copilot, change the custom domain, and then turn the copilot again.
-- Although you can turn on the copilot feature on sites that you create outside the [regions copilot is available in](#prerequisites), the copilot might not be created.
 - If you turn off the copilot feature, allow a few minutes for background operations to complete before you turn it on again.
 
 ### See also
