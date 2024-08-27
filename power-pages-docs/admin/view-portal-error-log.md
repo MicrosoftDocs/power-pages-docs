@@ -50,10 +50,7 @@ You can disable custom errors on Power Pages websites to display the detailed ex
 
 1. From the **Site Actions** menu, select **Disable custom errors**.
 
-:::image type="content" source="media/view-error-log/site-actions.png" alt-text="Selecting site actions.":::
-
-
-1. Select **Disable** in the confirmation message. While custom errors are being disabled, the website restarts and will be unavailable. 
+1. Select **Disable** in the confirmation message. While custom errors are being disabled, the website restarts and will be unavailable.
 
 ### Enable custom error
 
@@ -125,12 +122,10 @@ After developing and publishing the website, you still need to be able to access
      - 90 days
      - 180 days
      - Always
-    
+
       By default, the retention period is 30 days.
-   
+
    - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the website error logs. The maximum length of the URL is 2048 characters. If the URL is longer than 2048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](/azure/storage/common/storage-configure-connection-string)
-   
-       :::image type="content" source="media/view-error-log/enable-diagnostic-logging.png" alt-text="Enable diagnostic logging.":::
 
 1. Select **Enable**.
 
