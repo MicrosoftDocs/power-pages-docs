@@ -2,7 +2,7 @@
 title: Add a copilot to your Power Pages site
 description: Learn how to add copilot to your Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 07/01/2024
+ms.date: 08/27/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -33,8 +33,6 @@ A Power Pages site copilot can provide quick and efficient customer support to y
 
 To use AI-powered Copilot features in Power Pages:
 
-- Your environment must be located in the United States, Europe, United Kingdom, Australia, or India regions. Review the [data storage and processing geographic regions](/microsoft-copilot-studio/manage-data-movement-outside-us#data-storage-and-processing-geographic-regions) for Azure Open AI and Bing search services.
-- Your browser language must be set to US-English.
 - Your tenant administrator must turn on the setting **Publish Copilots with AI features** in the Power Platform admin center.
 - Copilot uses Microsoft Copilot Studio generative answers. Refer to Copilot Studio [Quotas & Pricing](/microsoft-copilot-studio/nlu-boost-conversations#whats-supported) for more details.
 
