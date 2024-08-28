@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/09/2024
+ms.date: 09/10/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: kkendrick
@@ -55,24 +55,55 @@ Select **View details** to review the WAF setting for each website.
 
 Select **View details** to review the external authentication configuration for each website.
 
-## Site security health
+## Renew Website authentication key
 
-**Site security health** dashboard gives you a summary of the websites in your organization related to security status. The security status of a website is determined based on certain security checks that are run for each website. For more information, go to [Security site checker](../security/site-checker-security.md).
+**Renew Website authentication key** shows the number of production websites where the [website authentication key](manage-auth-key.md) expired or is near expiration.
 
-The security health is calculated by looking at various configuration parameters and identifying common issues. These checks aren't exhaustive and we recommend you continue following website security best practices.
+Website authentication key has a fixed validity period and requires timely renewal to continue providing the security benefits & ensure uninterrupted access. Failure to renew the website authentication key before it expires can lead to security vulnerabilities and make the website inaccessible to end users.
 
-The criteria for classifying security health into Standard, Enhanced, and Advanced is outlined in the table provided. This criteria might change during the feature preview and before the feature is generally available.
+Learn more about how to update the website authentication key at [Renew website authentication key](manage-auth-key.md#renew-authentication-key).
 
-| Health status | Description |
-| - | - |
-| Standard | This status means that less than 33% of the security checks for this website are in **Pass** state. |
-| Enhanced | This status means that more than 33% of the security checks for this website are in **Pass** state. |
-| Advanced | This status means that more than 66% of the security checks for this website are in **Pass** state. |
-| No results | This status means that security checker isn't being run, or the site configurations don't allow checks to be run. Such as, a site that has an IP restriction setup, or a site that is stopped. To resolve, run the site checker from Power Platform Admin Center. Site checker doesn't work if a website has IP address restrictions. |
+Select **View details** to review the website authentication expiry details for each website.
 
-Select **View** to review the security checker results.
+## Renew SSL Certificate key
 
-The checks are flagged as **Warning** when the configurations aren't the same as what Microsoft recommends. There can be cases where your business needs demand the sites to be configured in a way that isn't in the **Recommended** state.
+**Renew SSL Certificate key** shows the number of production websites where the [SSL certificate](add-custom-domain.md) expired or is near expiration.
+
+SSL certificates have a fixed validity period and require timely renewal to continue providing the security benefits. Failure to renew SSL certificates before they expire can result in security vulnerabilities, loss of user trust etc. Learn more about how to renew the certificate at [Renew SSL certificate](add-custom-domain.md#renew-or-reissue-ssltls-certificate-for-power-pages).
+
+Select **View details** to review the SSL certificate expiry details for each website.
+
+## Site health
+
+The **Site health** section includes tabs to view results of deep scans or quick scans:
+
+### Deep scan
+
+- The [deep scan](../security/security-scan.md) feature is designed to strengthen your site's resilience by detecting and addressing vulnerabilities, protecting it from potential threats, and ensuring a secure online environment for users.
+- The dashboard offers a summary of:
+  - The count of sites within the tenant that were scanned and the count that weren't scanned.
+  - Site-specific details, including the scan status, scan score (number of passed/failed checks), if the scan completed, a view of the scan results, and an option to initiate the scan.
+  - Select **view** from the scan results column to open the summary report.
+    - The summary report includes a list of failed checks and corresponding alerts with descriptions of how to fix the alerts. You can optionally download the report as a PDF. Report summaries for security scan are only supported in English-US language.
+
+### Quick scan
+
+The quick scan tab gives you a summary of the websites in your organization related to security status. The security status of a website is determined based on certain security checks that are run for each website. For more information, go to [Security site checker](../security/site-checker-security.md).
+
+    The security health is calculated by looking at various configuration parameters and identifying common issues. These checks aren't exhaustive and we recommend you continue following website security best practices.
+    
+    The criteria for classifying security health into Standard, Enhanced, and Advanced is outlined in the table provided. This criteria might change during the feature preview and before the feature is generally available.
+    
+    | Health status | Description |
+    | - | - |
+    | Standard | This status means that less than 33% of the security checks for this website are in **Pass** state. |
+    | Enhanced | This status means that more than 33% of the security checks for this website are in **Pass** state. |
+    | Advanced | This status means that more than 66% of the security checks for this website are in **Pass** state. |
+    | No results | This status means that security checker isn't being run, or the site configurations don't allow checks to be run. Such as, a site that has an IP restriction setup, or a site that is stopped. To resolve, run the site checker from Power Platform Admin Center. Site checker doesn't work if a website has IP address restrictions. |
+    
+    Select **View** to review the security checker results.
+    
+    The checks are flagged as **Warning** when the configurations aren't the same as what Microsoft recommends. There can be cases where your business needs demand the sites to be configured in a way that isn't in the **Recommended** state.
 
 ## Site security checks
 
