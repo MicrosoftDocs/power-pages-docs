@@ -57,7 +57,7 @@ Select **View details** to review the external authentication configuration for 
 
 ## Renew Website authentication key
 
-**Renew Website authentication key** shows the number of production websites where the [website authentication key](manage-auth-key.md) expired or is near expiration.
+**Renew Website authentication key** shows the number of production websites where the [website authentication key](manage-auth-key.md) expired or expires within 90 days.
 
 Website authentication key has a fixed validity period and requires timely renewal to continue providing the security benefits & ensure uninterrupted access. Failure to renew the website authentication key before it expires can lead to security vulnerabilities and make the website inaccessible to end users.
 
@@ -67,7 +67,7 @@ Select **View details** to review the website authentication expiry details for 
 
 ## Renew SSL Certificate key
 
-**Renew SSL Certificate key** shows the number of production websites where the [SSL certificate](add-custom-domain.md) expired or is near expiration.
+**Renew SSL Certificate key** shows the number of production websites where the [SSL certificate](add-custom-domain.md) expired or or expires within 90 days.
 
 SSL certificates have a fixed validity period and require timely renewal to continue providing the security benefits. Failure to renew SSL certificates before they expire can result in security vulnerabilities, loss of user trust etc. Learn more about how to renew the certificate at [Renew SSL certificate](add-custom-domain.md#renew-or-reissue-ssltls-certificate-for-power-pages).
 
