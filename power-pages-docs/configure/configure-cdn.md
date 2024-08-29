@@ -1,6 +1,6 @@
 ---
 title: Configure a site with Content Delivery Network
-description: Configure a site with Content Delivery Network
+description: Configure a site with Content Delivery Network.
 author: nageshbhat-msft
 
 ms.topic: conceptual
