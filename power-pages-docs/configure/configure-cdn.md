@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/12/2024
+ms.date: 08/28/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -54,7 +54,7 @@ Content Delivery Network is available for production Power Pages. The following 
 
 1. On the site details page, select **Convert To Production** in the **Site Details** section.
 
-1. Select the **Enable the Content Delivery Network** checkbox. 
+1. Select the **Enable the Content Delivery Network** checkbox.
 
 1. Select **Confirm**.
 
@@ -70,7 +70,7 @@ Content Delivery Network is available for production Power Pages. The following 
 
 1. Under **Performance and Protection**, turn off the **Content Delivery Network** toggle switch.
 
-    :::image type="content" source="media/configure-cdn/manage-cdn.png" alt-text="The enable cdn toggle switch in the on position.":::
+    :::image type="content" source="media/configure-cdn/manage-cdn.svg" alt-text="The enable cdn toggle switch in the on position.":::
 
 It might take a few minutes to de-provision Content Delivery Network.
 
