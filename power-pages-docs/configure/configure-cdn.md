@@ -40,7 +40,7 @@ Content Delivery Network is available for production Power Pages. The following 
 
 1. Under Performance and Protection, turn on the **Content Delivery Network** toggle switch.
 
-    :::image type="content" source="media/configure-cdn/manage-cdn.png" alt-text="The enable cdn toggle switch in the on position.":::
+    :::image type="content" source="media/configure-cdn/manage-cdn.svg" alt-text="The enable cdn toggle switch in the on position.":::
 
     It might take a few minutes to provision Content Delivery Network.
 
