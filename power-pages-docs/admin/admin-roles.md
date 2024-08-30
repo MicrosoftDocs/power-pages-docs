@@ -25,9 +25,9 @@ For example, some tasks might require the user to be a member of admin roles in 
 In this article, you learn about the roles and permissions required to do different administrative tasks for Power Pages.
 
 > [!IMPORTANT]
-> To perform the respective actions, a user must be directly assigned to the required role. These roles are not inherited from security group membership or through privileged identity management (PIM).
+> To perform a task which requires an admin role, a user must be directly assigned to the required role. These roles are not inherited from security group membership or through privileged identity management (PIM).
 >
-> The platform uses the Microsoft Graph service to retrieve role information. Currently, Microsoft Graph does not return these roles when assigned via a security group. Until this issue is resolved, ensure that roles are assigned directly to users rather than through a security group.
+> The platform uses the Microsoft Graph service to retrieve role information. Currently, Microsoft Graph does not return these roles when assigned through a security group. Until this issue is resolved, ensure that roles are assigned directly to users rather than through a security group.
 
 ## Required roles and permissions
 
