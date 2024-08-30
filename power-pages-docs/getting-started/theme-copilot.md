@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated color theme for your Power Page
 author: ankitavish 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/09/2024
+ms.date: 08/30/2024
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: dmartens
