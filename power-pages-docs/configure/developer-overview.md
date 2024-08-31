@@ -4,7 +4,7 @@ description: Learn how to customize and extend Power Pages using pro-developer t
 author: neerajnandwana-msft
 ms.topic: overview
 ms.custom: 
-ms.date: 8/25/2023
+ms.date: 08/29/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
