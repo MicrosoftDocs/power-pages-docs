@@ -4,7 +4,7 @@ description: Learn how to add multistep forms to your Power Pages site using Cop
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/21/2024
+ms.date: 08/30/2024
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
@@ -55,7 +55,7 @@ To use Copilot to generate a multistep form:
 
     Review each step. Then decide if you want to keep the form or discard it. If you choose to add the form to the page, you can edit it using design studio's existing functionality just as you would for other components.
 
-### See also
+### Related information
 
 - [Add an AI-generated form using Copilot](add-form-copilot.md)
 - [FAQ for creating AI-generated form or multistep form](../faqs-create-form.md)

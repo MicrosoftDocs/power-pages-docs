@@ -74,7 +74,7 @@ Once the website has been transferred to the target environment, you will need t
 
 # [Solutions](#tab/sol)
 
-If your website is configured using the [enhanced data model](../admin/enhanced-data-model.md) you can transfer the website configuration using Power Platform solutions. For more information, go to [Using solutions with Power Pages](../configure/power-pages-solutions.md). 
+If your website is configured using the [enhanced data model](../admin/enhanced-data-model.md) you can transfer the website configuration using Power Platform solutions. For more information, go to [Using solutions with Power Pages](../configure/power-pages-solutions.md).
 
 > [!NOTE]
 > Make sure the target environment is also has the [enhanced data model](../admin/enhanced-data-model.md) enabled.
@@ -214,16 +214,13 @@ You can export website configuration data from a source system by using website-
 
 1. Double-click the **DataMigrationUtility.exe** file in the 
 `<your_folder>\Tools\ConfigurationMigration` folder to run the Configuration Migration tool, choose **Export data** in the main screen, and then select **Continue**.
-    
+
     > [!div class=mx-imgBorder]
     > ![Export configuration data.](media/migrate-portal-config/export-config-data.png "Export configuration data")
 
 1. On the **Login** screen, provide authentication details to connect to your Dataverse environment from where you want to export data. If you have multiple organizations on the Dataverse environment from where to export the data, select the **Display list of available organizations** check box, and then select **Login**.
 
-    > [!div class=mx-imgBorder]
-    > ![Provide authentication details to connect to your Dataverse environment from where you want to export data.](media/migrate-portal-config/export-config-login.png "Provide authentication details to connect to your Dataverse environment from where you want to export data")
-
-1. If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dataverse environment to connect to. 
+1. If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dataverse environment to connect to.
 
     > [!NOTE]
     > If you do not have multiple organizations, this screen is not displayed.
@@ -251,20 +248,20 @@ You can export website configuration data from a source system by using website-
 
 1. On the **Login** screen, provide authentication details to connect to your Dataverse environment from where you want to export data. If you have multiple organizations on the Dataverse environment from where to export the data, select the **Display list of available organizations** check box, and then select **Login**.
 
-1. If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dataverse environment to connect to. 
+1. If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dataverse environment to connect to.
 
     > [!NOTE]
     > - If you do not have multiple organizations, this screen is not displayed.
     > - Ensure that the portal solution is already installed for the organization where you plan to import the configurations.
 
-1. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**. 
+1. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**.
 
     > [!div class=mx-imgBorder]
     > ![Progress of configuration data import.](media/migrate-portal-config/import-config-status.png "Progress of configuration data import")
 
-1. The next screen displays the import status of your records. The data import is done in multiple passes to first import the foundation data while queuing up the dependent data, and then import the dependent data in the subsequent passes to handle any data dependencies or linkages. This action ensures clean and consistent data import. 
+1. The next screen displays the import status of your records. The data import is done in multiple passes to first import the foundation data while queuing up the dependent data, and then import the dependent data in the subsequent passes to handle any data dependencies or linkages. This action ensures clean and consistent data import.
 
-1. Select **Exit** to close the tool. 
+1. Select **Exit** to close the tool.
 
 ---
 
@@ -299,5 +296,3 @@ PowerPages doesn't support tenant-to-tenant migration. To migrate a website from
 - [Power Pages support for Microsoft Power Platform CLI](/power-apps/maker/portals/power-apps-cli).
 - Tenant-to-tenant migration of a [Power Platform environment](/power-platform/admin/move-environment-tenant).
 - Tenant-to-tenant migration of [model-driven apps](/dynamics365/admin/move-instance-tenant) in Dynamics 365 such as Sales, Customer Service, Marketing, Field Service, and Project Service Automation.
-
-

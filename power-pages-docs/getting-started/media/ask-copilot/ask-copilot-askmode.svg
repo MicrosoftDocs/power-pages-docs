@@ -25,12 +25,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.6745214"
-     inkscape:cx="207.22339"
-     inkscape:cy="339.5"
+     inkscape:cx="206.9248"
+     inkscape:cy="244.54749"
      inkscape:window-width="3440"
      inkscape:window-height="1351"
-     inkscape:window-x="1911"
-     inkscape:window-y="237"
+     inkscape:window-x="87"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg322" />
   <g
@@ -9949,4 +9949,9 @@ font-family: &quot;Dejavu Sans&quot;;
 src: local(&quot;Dejavu Sans&quot;);			
 }
     </style>
+  <path
+     id="rect17819-3"
+     style="fill:none;stroke:#e91c1c;stroke-width:3;stroke-dasharray:none"
+     d="m 1111.8244,49.135598 h 35.4487 c 0.1336,0 0.2412,0.109242 0.2412,0.244937 V 85.29493 c 0,0.135695 -0.1076,0.244937 -0.2412,0.244937 h -35.4487 c -0.1336,0 -0.2412,-0.109242 -0.2412,-0.244937 V 49.380535 c 0,-0.135695 0.1076,-0.244937 0.2412,-0.244937 z"
+     inkscape:label="Rectangle callout" />
 </svg>
