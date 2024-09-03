@@ -2,7 +2,7 @@
 title: Replace copilot added to site with another copilot available in Microsoft Copilot Studio
 description: Learn how to replace the default Power Pages copilot with another copilot available in Microsoft Copilot Studio.
 ms.topic: how-to
-ms.date: 05/22/2024
+ms.date: 08/30/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -55,7 +55,7 @@ Copilot can be enabled for both Standard and Enhanced site data model. The steps
 
 ## Update the copilot based on your data model version
 
-Choose the below tab, which corresponds to your data model, to see the appropriate steps.
+Choose the following tab, which corresponds to your data model, to see the appropriate steps.
 
 # [Standard data model](#tab/standard)
 
