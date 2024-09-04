@@ -15,14 +15,12 @@ contributors:
 
 # Use governance controls to disable anonymous access (preview)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 As an administrator, you can disable anonymous access. This setting prohibits unauthenticated users from accessing Dataverse data displayed on websites in your tenant, preventing accidental exposure of sensitive data.
 
 >[!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - This feature is being gradually rolled out across regions and may not be available yet in your region.
 
 ## Admin experience
 
