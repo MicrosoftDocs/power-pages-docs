@@ -43,6 +43,10 @@ Content Delivery Network is available for production Power Pages. The following 
     :::image type="content" source="media/configure-cdn/manage-cdn.svg" alt-text="The enable cdn toggle switch in the on position.":::
 
     It might take a few minutes to provision Content Delivery Network.
+   
+> [!NOTE]
+> When you add a custom domain name for a Content Delivery Network enabled site, Power Pages uses Azure Front Door-managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days prior to the expiry date.
+   
 
 ## Enable Content Delivery Network while converting trial to production
 
