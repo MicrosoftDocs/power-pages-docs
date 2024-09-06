@@ -190,6 +190,43 @@ You can also edit the properties of a component from inside the Pages workspace.
 
 After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
 
+## Enable AI form fill assistance on a form (preview)
+
+Enabling AI form fill will provide your form users AI assistance that helps them fill the form faster and with higher accuracy. You can enable AI form fill by switching the toggle on  
+  
+![A screenshot of a computer Description automatically generated](media/image1.png)
+
+> [!IMPORTANT]
+>
+> - This is a preview feature.
+> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - This feature is not available in Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
+> - Power Pages site version must be 9.6.9.XX or higher.
+
+On enabling form filling assistance, users will be able to:
+
+- Auto fill forms from attachments: Your users can attach a file and the AI assistance auto fills the fields by extracting relevant information from the attachments. Users can attach documents (PDFs) and images (JPEG, PNG). Users can always edit the auto filled fields if needed.
+
+  ![A screenshot of a computer Description automatically generated](media/image2.png)
+
+- Use Draft assistance for multi-line text fields: If your form has a multi-line text field, users will be able to use 'Draft assistance' to re-write their inputs and improve their drafts.  
+
+  ![A screenshot of a form Description automatically generated](media/image3.png)
+
+> [!NOTE]
+> You will not be able to enable AI form fill and your users will not be able to use this when:
+>
+> - Your organization's administrators have disabled AI features for end users using governance controls. Learn More
+> - The site belongs to an environment where admins have disabled 'Moving data across regions' Learn More ([Turn on copilots and generative AI features - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works))
+
+## Known Limitations
+
+1. The AI form fill is available only on basic forms, and not on multi-step forms
+
+1. The AI form fill is available only on forms that create a record in the dataverse. Forms used to edit dataverse records will not have this capability.
+
+1. For new forms created, please ensure that you add the right table permissions before enabling AI form fill.
+
 ## Related information
 
 - [Create and modify forms](../configure/data-workspace-forms.md)
