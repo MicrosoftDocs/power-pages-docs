@@ -1,6 +1,6 @@
 ﻿---
 title: FAQ for Power Pages data summarization API
-description: ""
+description: "Look up frequently asked questions (FAQ) for the data summarization API of Microsoft Power Pages."
 author: danamartens
 ms.topic: conceptual
 ms.date: 09/05/2024

@@ -118,20 +118,20 @@ To enable attachments on a form:
 
     > [!NOTE]
     > Before you can successfully use Azure Blob Storage for attachments, some prerequisites are required:
-    > * The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If the requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
-    > * The runtime version of your Power Pages website needs to be at least 9.6.5.1.
+    > - The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If the requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
+    > - The runtime version of your Power Pages website needs to be at least 9.6.5.1.
 
 1. If you use Azure Blob Storage, enter values for the **Azure storage account name** and the **Azure container name**. Learn more at [Enable Azure Storage](../configure/enable-azure-storage.md).
 1. For **Maximum number of files**, enter the maximum number of files you want to allow a user to upload.
 1. For **Upload size limit per file (in KB)**, enter the maximum size in KB you want to allow per file. The following table shows the absolute maximum file size limits based on the storage option selected:
 
-    |Storage option  | Max file size per file  |
-    |---------|---------|
-    |Notes     |     90 MB    |
-    |Azure Blob storage     |     10 GB    |
+    | Storage option | Max file size per file |
+    |---------------|------------------------|
+    | Notes | 90 MB |
+    | Azure Blob storage | 10 GB |
 
     > [!IMPORTANT]
-    > If you use notes for storage, make sure the file size limit isn't larger than the [email attachment limit set for the environment](/power-platform/admin/settings-email). For example, if you set the Upload size limit per file to 50 MB but the email attachment limit has the default value of 5 MB, users won't be able to upload files larger than 5 MB. 
+    > If you use notes for storage, make sure the file size limit isn't larger than the [email attachment limit set for the environment](/power-platform/admin/settings-email). For example, if you set the Upload size limit per file to 50 MB but the email attachment limit has the default value of 5 MB, users won't be able to upload files larger than 5 MB.
 
 1. For **File types allowed**, select which types of files you want to allow users to upload. The following file types are allowed:
     - All
@@ -145,7 +145,7 @@ Once configured, the file upload placeholder shows in the canvas.
 
 :::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
 
-#### New file upload experience
+## New file upload experience
 
 With the new file upload experience, end users can see the file name, file type, file size, upload progress bar, and the delete option. If the upload fails (for example, if the file type isn’t supported or the upload exceeds the maximum number of files), an error message appears. 
 
@@ -156,7 +156,7 @@ Opt into the new experience by creating a [site setting](../configure/configure-
 
 To disable the new experience, set the value of the **EnhancedFileUpload** [site setting](../configure/configure-site-settings.md) to **false**.
 
-### Enabling table permissions
+## Enabling table permissions
 
 When you add a new form, you see a prompt to set permissions to allow site users to interact with the form. The settings for table permissions are prepopulated (**create** and **append to**), but you still need to assign web roles and save the settings. The process automatically creates the child table permissions for the **note (annotations)** table, which contain the attachments.
 
@@ -185,16 +185,17 @@ Custom components are now enabled for that field.
 You can also edit the properties of a component from inside the Pages workspace.
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
 
-## Enable AI form fill assistance on a form (preview)
+### Enable AI form fill assistance on a form (preview)
 
 Enabling AI form fill will provide your form users AI assistance that helps them fill the form faster and with higher accuracy. You can enable AI form fill by switching the toggle on  
   
-![A screenshot of a computer Description automatically generated](media/image1.png)
+:::image type="content" source="media/add-form/ai-form-fill.png" alt-text="Screenshot of the AI form fill setting in the Form settings section of Power Pages.":::
 
 > [!IMPORTANT]
 >
@@ -207,17 +208,17 @@ On enabling form filling assistance, users will be able to:
 
 - Auto fill forms from attachments: Your users can attach a file and the AI assistance auto fills the fields by extracting relevant information from the attachments. Users can attach documents (PDFs) and images (JPEG, PNG). Users can always edit the auto filled fields if needed.
 
-  ![A screenshot of a computer Description automatically generated](media/image2.png)
+  :::image type="content" source="media/add-form/ai-form-fill-example.png" alt-text="Screenshot showing an example of the AI form fill feature.":::
 
 - Use Draft assistance for multi-line text fields: If your form has a multi-line text field, users will be able to use 'Draft assistance' to re-write their inputs and improve their drafts.  
 
-  ![A screenshot of a form Description automatically generated](media/image3.png)
+  :::image type="content" source="media/add-form/ai-form-fill-example2.png" alt-text="Screenshot showing an example of the AI form fill feature and how AI responds.":::
 
 > [!NOTE]
 > You will not be able to enable AI form fill and your users will not be able to use this when:
 >
 > - Your organization's administrators have disabled AI features for end users using governance controls. Learn More
-> - The site belongs to an environment where admins have disabled 'Moving data across regions' Learn More ([Turn on copilots and generative AI features - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works))
+> - The site belongs to an environment where admins have disabled 'Moving data across regions'. For more information, see [Turn on copilots and generative AI features](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
 
 ## Known Limitations
 

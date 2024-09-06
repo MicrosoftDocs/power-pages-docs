@@ -1,6 +1,6 @@
 ﻿---
 title: FAQ for the AI summary list
-description: ""
+description: "Look up frequently asked questions (FAQ) for the AI summary list feature in Microsoft Power Pages."
 author: danamartens
 ms.topic: conceptual
 ms.date: 09/05/2024
@@ -11,28 +11,33 @@ contributors:
     - tapanm
 ---
 
-# FAQ for the AI summary list
+# AI summary list FAQ
 
-The Power Pages AI summary list feature simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. This enhances user efficiency and makes it easier for end users to analyze data. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights. The Intelligent Data List addresses this by providing easy-to-understand chart formats and concise data summaries.
+These frequently asked questions (FAQ) describe the AI impact of the AI summary list feature in Power Pages.
 
-This guide will walk you through enabling and configuring the AI-powered insights for data lists in Power Pages.
+## What is an AI summary list?
 
-## Key Capabilities
+The Power Pages AI summary list feature simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. This enhances user efficiency and makes it easier for end users to analyze data. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights.  
 
-- **Chart Visualizations**: The feature converts complex data lists into graphical charts, making trends and key data points more accessible and easier to understand.
+## What are capabilities of the AI summary list?
 
-- **Data Summarization**: Automatically generated summaries offer high-level insights into your data, reducing the time spent on manual analysis.
+The AI summary list shows the list data in an insightful summary and creates chart representation.  
 
-## Enabling the AI summary list
+## What is the intended use of the AI summary list?
 
-There are two ways to enable the AI summary feature for your data list:
+The AI summary list aims to deliver insightful summary and chart visualization for list data. Users can get data insight more efficiently. The search results are grounded in the website’s content and honor the user’s roles and permissions.
 
-1. Enabling AI for a new list
+## How is the AI summary list evaluated? What metrics are used to measure performance?
 
-   When creating a new data list, you can enable the AI summary feature to automatically generate insightful summaries and visual charts for the list.
+The capability is evaluated over custom datasets for offensive and malicious prompts and responses, through both automated and dedicated manual sessions designed to expand the test suite.
 
-   Steps:
+## What are the limitations of the AI summary list? How can users minimize the impact of these list limitations?
 
-   1. Add a list to the page.  
+- The feature provides summarized highlights only for the user's accessible list data. Data not accessible by a user shows no summary.
+- This feature only supports the English language.
+- This feature is subject to usage limits or capacity throttling.
+- Search responses generated aren't always perfect and content might have inaccuracies.
 
-   1. Select "AI summary for list" feature to enable or disable AI summary for selected list. Default this toggle will be enabled.
+## What operational factors and settings allow for effective and responsible use of the feature?
+
+Before deploying the capability into the production system, you must thoroughly test and review its functionality. Testing includes assessing the feature's capacity to provide accurate, relevant, and free of offensive language responses to user on the site.
