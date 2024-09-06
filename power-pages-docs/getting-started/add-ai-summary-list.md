@@ -33,11 +33,11 @@ There are two ways to enable the **AI summary** feature for your data list:
 
    **Steps**:
 
-   1. [Add a list](https://learn.microsoft.com/en-us/power-pages/getting-started/add-list) to the page.
+   1. [Add a list](/power-pages/getting-started/add-list) to the page.
 
    1. Select "AI summary for list" feature to enable or disable AI summary for selected list. Default this toggle will be enabled.
 
-      ![A screenshot of a computer Description automatically generated](media/image1.png)
+      :::image type="content" source="media/add-ai-summary-list/list-settings.png" alt-text="Screenshot that shows the list settings from the Set up tab.":::
 
    1. Complete the configuration and click **Done**.
 

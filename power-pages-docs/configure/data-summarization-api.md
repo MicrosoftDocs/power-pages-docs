@@ -1,6 +1,6 @@
 ﻿---
 title: Data summarization API overview (preview)
-description: ""
+description: "Learn more about the data summarization API in Microsoft Power Pages."
 author: danamartens
 ms.topic: conceptual
 ms.date: 09/05/2024
@@ -24,9 +24,9 @@ Power Pages summarization API lets makers add a page content summarization using
 
 ## Prerequisites
 
-- You must enable the [site settings](https://learn.microsoft.com/en-us/power-pages/configure/web-api-overview#site-settings-for-the-web-api) needed for Web API to work summarization.
+- You must enable the [site settings](/power-pages/configure/web-api-overview#site-settings-for-the-web-api) needed for Web API to work summarization.
 
-- Only tables supported for Pages Web API are available for summarization. Read [Web API overview](https://learn.microsoft.com/en-us/power-pages/configure/web-api-overview) for more details
+- Only tables supported for Pages Web API are available for summarization. For more information, see [Web API overview](/power-pages/configure/web-api-overview) for more details
 
 - The feature is not available in UK, India, Australia, Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions
 
@@ -37,7 +37,7 @@ Apart from enabling pages web API you need to set below site settings for summar
 | **Site setting name** | **Description** |
 |-----------------------|-----------------|
 | Summarization/Data/Enable | Enables or disables the Summarization feature.</br>**Default:** False</br>**Valid values:** True, False |
-| Summarization/prompt/{any_identifier} | Use these settings to provide any instruction for summarization</br>Type: string</br>Example:</br>Name: <em>Summarization/prompt/case_summary</em></br>Value: Summarize key details and critical information |
+| Summarization/prompt/{any_identifier} | Use these settings to provide any instruction for summarization</br>Type: string</br>Example:</br>Name: Summarization/prompt/case_summary</br>Value: Summarize key details and critical information |
 | Summarization/Data/ContentSizeLimit | Modify the input size limit for the summarization content</br>Type: integer</br>Default : 100K |
 
 ## API schema
@@ -57,7 +57,7 @@ Apart from enabling pages web API you need to set below site settings for summar
 >
 > If both `InstructionIdentifier` and `RecommendationConfig` are provided, only `InstructionIdentifier` will be considered, and the other parameter will be ignored. Make sure to use only one of these input parameters.
 
-The API follows the standard OData specifications supported by the Power Pages Web API. All [read operations](https://learn.microsoft.com/en-us/power-pages/configure/read-operations) supported by the Power Pages Web API will also be supported by the Summarization API.
+The API follows the standard OData specifications supported by the Power Pages Web API. All [read operations](/power-pages/configure/read-operations) supported by the Power Pages Web API will also be supported by the Summarization API.
 
 ## Sample
 
@@ -117,13 +117,13 @@ In this guide, you will set up the Copilot summarization section for the support
 
 Prerequisite
 
-Make sure you use the site created using [Community](https://learn.microsoft.com/en-gb/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#community) or [Customer self-service](https://learn.microsoft.com/en-gb/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#customer-self-service) portal template. These portals contain the support case page.
+Make sure you use the site created using the [Community](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#community) or the [Customer self-service](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#customer-self-service) portal template. These portals contain the support case page.
 
 ## Step 1. Create site settings
 
 Before you can use the summarization API, you have to enable the required site settings with the Portal Management app.
 
-1. Start the [Portal Management app](https://learn.microsoft.com/en-us/power-pages/configure/portal-management-app).
+1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
 
 1. On the selected website record, select **Site Settings**.
 

@@ -1,6 +1,6 @@
 ﻿---
 title: Disable Generative AI features your Pages users
-description: ""
+description: "Learn how to disable generative AI features for your Microsoft Pages users."
 author: danamartens
 ms.topic: conceptual
 ms.date: 09/05/2024
@@ -15,11 +15,11 @@ contributors:
 
 As an administrator, you can choose to disable Generative AI features for your Pages websites' end users. This setting allows you to control which websites can have AI powered experiences for their users.
 
-1. [Admin experience](https://learn.microsoft.com/en-us/power-pages/security/disable-anonymous-access#admin-experience)
+1. [Admin experience](/power-pages/security/disable-anonymous-access#admin-experience)
 
-2. [Maker experience](https://learn.microsoft.com/en-us/power-pages/security/disable-anonymous-access#maker-experience)
+2. [Maker experience](/power-pages/security/disable-anonymous-access#maker-experience)
 
-3. [End user experience](https://learn.microsoft.com/en-us/power-pages/security/disable-anonymous-access#end-user-experience)
+3. [End user experience](/power-pages/security/disable-anonymous-access#end-user-experience)
 
 > [!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Allows end users to get an AI generated summary of the list/ table that is on th
 
 ### Search summarization
 
-Power Pages Site Search with Generative AI provides site users with summarized responses to their natural language queries. It also uses a semantic search approach in contrast to the traditional keyword-based methods, offering more relevant and contextualized results. Learn More (<https://learn.microsoft.com/en-us/power-pages/configure/search/generative-ai>)
+Power Pages Site Search with Generative AI provides site users with summarized responses to their natural language queries. It also uses a semantic search approach in contrast to the traditional keyword-based methods, offering more relevant and contextualized results. For more information, see [Power Pages search with generative AI (preview)](/power-pages/configure/search/generative-ai).
 
 ### Summarization API
 
@@ -49,7 +49,7 @@ Power Pages summarization API lets end users get an AI generated summary of the 
 
 ### Site copilot
 
-Power Pages site copilot can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Learn More (<https://learn.microsoft.com/en-us/power-pages/getting-started/enable-chatbot>)
+Power Pages site copilot can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. For more information, see [Add a copilot to your Power Pages site](/power-pages/getting-started/enable-chatbot)
 
 > [!NOTE]
 > The following AI powered experiences are not under the purview of this control and have separate governance controls:
@@ -67,7 +67,7 @@ You can disable and enable AI powered experiences for your site users using the 
 
 1. Select **Governance Controls** from the top ribbon menu.
 
-   ![Governance controls ](media/image1.png)
+   :::image type="content" source="media/copilot-governance/governance-controls.png" alt-text="Screenshot showing governance controls.":::
 
 1. Choose '**Enable Generative AI usage in websites'** from the list.
 
