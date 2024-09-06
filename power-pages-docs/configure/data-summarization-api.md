@@ -13,9 +13,9 @@ contributors:
 
 # Data summarization API overview (preview)
 
-\[This topic is prerelease documentation and is subject to change.\]
+\[This article is prerelease documentation and is subject to change.\]
 
-Power Pages summarization API lets makers add a page content summarization using generative AI that helps site users to get overview without going over entire page. The API is built on top of the Power Pages Web API that provides data summarization on dataverse tables used in the pages.
+Power Pages summarization API lets makers add a page content summarization using generative AI that helps site users to get overview without going over entire page. The API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages.
 
 > [!IMPORTANT]
 >
@@ -26,19 +26,19 @@ Power Pages summarization API lets makers add a page content summarization using
 
 - You must enable the [site settings](/power-pages/configure/web-api-overview#site-settings-for-the-web-api) needed for Web API to work summarization.
 
-- Only tables supported for Pages Web API are available for summarization. For more information, see [Web API overview](/power-pages/configure/web-api-overview) for more details
+- Only tables supported for Pages Web API are available for summarization. For more information, see [Web API overview](/power-pages/configure/web-api-overview).
 
-- The feature is not available in UK, India, Australia, Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions
+- The feature isn't available in UK, India, Australia, Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions
 
 ## Site settings
 
-Apart from enabling pages web API you need to set below site settings for summarization API feature.
+Enable the pages in your web API and set site settings for the summarization API feature.
 
 | **Site setting name** | **Description** |
 |-----------------------|-----------------|
 | Summarization/Data/Enable | Enables or disables the Summarization feature.</br>**Default:** False</br>**Valid values:** True, False |
 | Summarization/prompt/{any_identifier} | Use these settings to provide any instruction for summarization</br>Type: string</br>Example:</br>Name: Summarization/prompt/case_summary</br>Value: Summarize key details and critical information |
-| Summarization/Data/ContentSizeLimit | Modify the input size limit for the summarization content</br>Type: integer</br>Default : 100K |
+| Summarization/Data/ContentSizeLimit | Modify the input size limit for the summarization content</br>Type: integer</br>Default: 100 K |
 
 ## API schema
 
@@ -50,22 +50,22 @@ Apart from enabling pages web API you need to set below site settings for summar
 
 | **Name** | **Description** |
 |-------------------------|-------------------------|
-| InstructionIdentifier | This is an optional parameter. If you want to pass any addition instruction to summarization use the site settings to add the prompt and use here.</br>Note : you should always provide the sitesetting name as defined in above format |
-| RecommendationConfig | This is optional, if you pass the recommended prompt provided by the summarization API, use this parameter to pass. Value should be hashed one and shouldn't be modified |
+| InstructionIdentifier | This property is optional. If you want to pass any other instruction to summarization use the site settings to add the prompt. </br>You should always provide the site setting name as defined previously. |
+| RecommendationConfig | This property is optional. If you pass the recommended prompt provided by the summarization API, use this parameter to pass. The value should be hashed and not modified. |
 
 > [!NOTE]
 >
 > If both `InstructionIdentifier` and `RecommendationConfig` are provided, only `InstructionIdentifier` will be considered, and the other parameter will be ignored. Make sure to use only one of these input parameters.
 
-The API follows the standard OData specifications supported by the Power Pages Web API. All [read operations](/power-pages/configure/read-operations) supported by the Power Pages Web API will also be supported by the Summarization API.
+The API follows the standard OData specifications supported by the Power Pages Web API. All [read operations](/power-pages/configure/read-operations) supported by the Power Pages web API are supported by the Summarization API.
 
 ## Sample
 
-Summarize case type, subject, description and case history by focusing on key details and critical information.
+Summarize case type, subject, description, and case history by focusing on key details and critical information.
 
 Request
 
-Method : POST
+Method: POST
 
 `<https://contoso.powerappsportals.com/>_api/summarization/data/v1.0/incidents(d2e11ba8-92f6-eb11-94ef-000d3a5aa607)?$select=description,title&$expand=incident_adx_portalcomments($select=description)`
 
@@ -93,7 +93,7 @@ The summarization response provides recommended prompts for fine-tuning the summ
 
 ## Security
 
-The role-based security configured for table and column permissions will be respected by the Summarization API. Only the records that the end user has access to will be considered for summarization.
+The role-based security configured for table and column permissions are respected by the summarization API. Only the records that the end user has access to are considered for summarization.
 
 ## Authenticating summarization API
 
@@ -106,14 +106,14 @@ The following table includes the different error codes and messages you might en
 | Status Code | Error Code | Error Message |
 |-------------|------------|---------------|
 | 400 | 90041001 | Generative AI Features are disabled |
-| 400 | 90041003 | Data summarization disabled for this site. Please enable using site setting. |
+| 400 | 90041003 | Data summarization disabled for this site. Enable using the site setting. |
 | 400 | 90041004 | Content length exceeds the limit |
 | 400 | 90041005 | No records found to summarize |
 | 400 | 90041006 | Error occurred while summarizing the content. |
 
 ## Add Copilot summarization to case page
 
-In this guide, you will set up the Copilot summarization section for the support case page, enabling users to quickly review the case and its timeline summary.
+In this guide, you can set up the Copilot summarization section for the support case page, enabling users to quickly review the case and its timeline summary.
 
 Prerequisite
 
@@ -127,61 +127,61 @@ Before you can use the summarization API, you have to enable the required site s
 
 1. On the selected website record, select **Site Settings**.
 
-1. Enter below site settings and value
+1. Enter the following site settings and values:
 
-   1. Enable Summarization API
+   1. Enable the summarization API
 
       Name: Summarization/Data/Enable
 
       Value: true
 
-   1. Set summarization prompt
+   1. Set the summarization prompt
 
       Name: Summarization/prompt/case_summary
 
       Value: "Summarize key details and critical information"
 
-   1. Enable Web API for case table
+   1. Enable the web API for the case table
 
       Name: Webapi/incident/enabled
 
       Value: true
 
-   1. Enable description and title field of case table
+   1. Enable description and title field of the case table
 
       Name: Webapi/incident/fields
 
-      Value: description,title
+      Value: description and title
 
-   1. Enable portal comments table for Web Api
+   1. Enable the portal comments table for the web API
 
       Name: Webapi/adx_portalcomment/enabled
 
       Value: true
 
-   1. Enable description field of portal comments table
+   1. Enable the description field of the portal comments table
 
-      Name : Webapi/adx_portalcomment/fields
+      Name: Webapi/adx_portalcomment/fields
 
       Value: description
 
 ## Step 2. Add Copilot summary section
 
-In this step you will add summary section on top of the case page
+In this step, you add a summary section on top of the case page.
 
 1. Open Power Pages studio of the site
 1. Select **Customer Service - Edit Case**
 
-   This is the page where you will be adding summary section
-1. Click on **Edit code** button to open **Visual studio code**
-1. Copy below code and add beginning of the code block
-1. Save the file
-1. Click on Preview button to open site
+   On this page, you add a summary section.
+1. Select **Edit code** to open **Visual Studio Code**.
+1. Copy the following code and add it to the beginning of the code block.
+1. Save the file.
+1. Select **Preview** to open the site.
 
 ## Step 3. Test the summarization
 
-1. Click on **My support** tab
-1. Create a new case and add case description
-1. Add couple of comments
-1. Click on down arrow button in copilot summary section to view the case summary
-1. Try for other case records
+1. Select the **My support** tab.
+1. Create a new case and add a case description.
+1. Add a couple of comments.
+1. Select the down arrow in the Copilot summary section to view the case summary.
+1. Try these steps for other case records.

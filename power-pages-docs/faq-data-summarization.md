@@ -15,13 +15,13 @@ contributors:
 
 ## What is data summarization API in Power Pages?
 
-The summarization API for Dataverse records provides summaries for records used in web pages. Only users with access to the record can retrieve the summary. The API is secured using the Power Pages Auth model, protected by a CSRF token, and cannot be used outside the pages site. The Power Pages maker can provide the summarization prompt using site settings, end user cannot modify or pass any prompt.
+The summarization API for Dataverse records provides summaries for records used in web pages. Only users with access to the record can retrieve the summary. The API is secured using the Power Pages Auth model, protected by a CSRF (Cross-Site Request Forgery) token, and can't be used outside the pages site. The Power Pages maker can provide the summarization prompt using site settings. The end user can't modify or pass any prompt.
 
 ## What are the system capabilities?
 
-- It gives the makers more flexibility and control over the data summarization, by allowing them to configure UI component using the API.
+- This feature gives the makers more flexibility and control over data summarization, by allowing them to configure UI component using the API.
 
-- It reduces the cognitive load and effort on the part of the site users, by providing them with concise and informative summaries of the complex and multi-page content.
+- This feature reduces the cognitive load and effort from site users, by providing them with concise and informative summaries of the complex and multi-page content.
 
 - It brings focus to the value and quality of the content on the pages, by highlighting the most relevant and important information.
 
@@ -35,14 +35,14 @@ The capability was evaluated over custom datasets for offensive and malicious pr
 
 ## What are the limitations of this feature? How can users minimize the impact of the copilot limitations when using the system?
 
-- The feature will provide summarization for the content passed using the dataverse tables and columns used in pages using the web API.
+- The feature provides summarization for the content passed using the Dataverse tables and columns used in pages using the web API.
 
-- This feature will support only English language.
+- This feature supports only English language.
 
-- This capability may be subject to usage limits or capacity throttling.
+- This capability might be subject to usage limits or capacity throttling.
 
-- Summaries generated are not always perfect and content may have inaccuracies.
+- Summaries generated aren't always perfect and content might have inaccuracies.
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 
-- Before deploying capability into the production system, it's crucial to thoroughly test and review its functionality. This includes assessing its capacity to provide accurate, relevant, and free of offensive language responses to user prompts on the site.
+Before deploying capability into the production system, it's crucial to thoroughly test and review its functionality. This testing includes assessing the feature's capacity to provide accurate, relevant, and free of offensive language responses to user prompts on the site.

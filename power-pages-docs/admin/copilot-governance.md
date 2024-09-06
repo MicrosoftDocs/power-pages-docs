@@ -33,7 +33,7 @@ The following AI powered experiences are supported in Pages websites today, whic
 
 ### Intelligent forms
 
-Simplifies form filling experience for end users by extracting relevant information from attachments and auto-filling fields. Also, allows end users to rewrite their multi-line text inputs using AI draft assistance. Learn More ()
+Simplifies form filling experience for end users by extracting relevant information from attachments and autofilling fields. Also, allows end users to rewrite their multi-line text inputs using AI draft assistance. Learn More ()
 
 ### List summary
 
@@ -45,7 +45,7 @@ Power Pages Site Search with Generative AI provides site users with summarized r
 
 ### Summarization API
 
-Power Pages summarization API lets end users get an AI generated summary of the content in the page. This API is built on top of the Power Pages Web API that provides data summarization on dataverse tables used in the pages. Learn More ()
+Power Pages summarization API lets end users get an AI generated summary of the content in the page. This API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages. Learn More ()
 
 ### Site copilot
 
@@ -77,7 +77,7 @@ You can disable and enable AI powered experiences for your site users using the 
    |--------|-------------|
    | All sites | Selecting **All sites** enables AI powered experiences for your site users in all the websites in the tenant |
    | All sites except specific sites | Selecting **All sites except specific sites** enables AI powered experiences in all the websites in the tenant EXCEPT the sites that you choose. This selection overrides any maker configurations that enable AI experiences and prevents end users from accessing AI features in the sites that you blocked. |
-   | Specific sites | Selecting **Specific sites** enables AI powered experiences ONLY in the websites that you choose. This selection overrides any maker configurations that enable AI experiences and prevents end users from accessing AI features in all the sites in the tenant except the specific sites that you allowed. |
+   | Specific sites | Selecting **Specific sites** enables AI powered experiences only in the websites that you choose. This selection overrides any maker configurations that enable AI experiences. The selection prevents end users from accessing AI features in all sites in the tenant except the specific sites allowed. |
    | None of the sites | Selecting **None of the sites** blocks AI powered experiences in all the websites in the tenant. This selection overrides any maker configurations that enable AI experiences and prevents end users from accessing AI features in all the sites in the tenant. |
 
 1. Select the sites and choose **OK**.
@@ -88,8 +88,8 @@ You can disable and enable AI powered experiences for your site users using the 
 
 Once an admin completes the steps in the previous section, end users are blocked from using AI experiences based on the admin's choice.
 
-For existing sites where AI powered experiences are enabled by makers but is blocked by admin, a banner error message is displayed in Design Studio for the makers, indicating that an org policy is blocking Generative AI features.
+For existing sites where AI-powered experiences are enabled by makers but blocked by the admin, a banner error message is displayed in Design Studio for the makers, indicating that an organizational policy is blocking generative AI features.
 
 ## End user experience
 
-When Gen AI experiences are blocked in a site for end users, the end users simply fall back to the standard experience. For example, end users will see regular search and not get a Gen AI powered search summary. The end users will NOT see any messaging about org policies or governance controls.
+When generative AI experiences are blocked in a site for end users, they fall back to the standard experience. For example, end users see a regular search and don't get a generative AI powered search summary. The end users don't see any messaging about organizational policies or governance controls.

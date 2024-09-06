@@ -1,6 +1,6 @@
 ﻿---
 title: Add Power Pages AI summary list
-description: "Learn more about how the AI summary list feature works to simplify and sumarize data in Microsoft Power Pages."
+description: "Learn more about how the AI summary list feature works to simplify and summarize data in Microsoft Power Pages."
 author: danamartens
 ms.topic: conceptual
 ms.date: 09/05/2024
@@ -13,9 +13,9 @@ contributors:
 
 # Add Power Pages AI summary list
 
-The **Power Pages AI summary list** feature simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. This enhances user efficiency and makes it easier for end users to analyze data. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights. The Intelligent Data List addresses this by providing easy-to-understand chart formats and concise data summaries.
+The **Microsoft Power Pages AI summary list** feature simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. The feature enhances user efficiency and makes it easier for end users to analyze data. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights. The AI summary list provides easy-to-understand chart formats and concise data summaries.
 
-This guide will walk you through enabling and configuring the AI-powered insights for data lists in Power Pages.
+This guide walks you through enabling and configuring the AI-powered insights for data lists in Power Pages.
 
 ## Key Capabilities
 
@@ -35,23 +35,23 @@ There are two ways to enable the **AI summary** feature for your data list:
 
    1. [Add a list](/power-pages/getting-started/add-list) to the page.
 
-   1. Select "AI summary for list" feature to enable or disable AI summary for selected list. Default this toggle will be enabled.
+   1. Select "AI summary for list" feature to enable or disable AI summary for selected list. Default for this toggle is enabled.
 
-      :::image type="content" source="media/add-ai-summary-list/list-settings.png" alt-text="Screenshot that shows the list settings from the Set up tab.":::
+      :::image type="content" source="media/add-ai-summary-list/list-settings.png" alt-text="Screenshot that shows the list settings from the **Set up** tab.":::
 
-   1. Complete the configuration and click **Done**.
+   1. Complete the configuration and select **Done**.
 
-   Once this is enabled, the data list will automatically provide AI-driven summaries and visual representations of the data, allowing for a more intuitive and insightful user experience.
+   Once AI summary list is enabled, the data lists automatically provide AI-driven summaries and visual representations of the data, allowing for a more intuitive and insightful user experience.
 
 1. Enabling AI for an existing list
 
-   You can also enable the **AI summary** feature on an existing data list. Follow the steps below to modify the data list and enable this feature:
+   You can also enable the **AI summary** feature on an existing data list. Follow these steps to modify the data list and enable this feature:
 
    Steps:
 
    1. Select existing list on the page.
 
-   1. Click **Edit List**.
+   1. Select **Edit List**.
 
    1. In the settings panel, locate the **AI Summary for List** option.
 
@@ -59,4 +59,4 @@ There are two ways to enable the **AI summary** feature for your data list:
 
    1. Save your changes.
 
-   The data list will now include automatically generated summaries and chart visualizations.
+   The data list now includes automatically generated summaries and chart visualizations.
