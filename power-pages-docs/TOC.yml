@@ -573,7 +573,7 @@
         - name: "How to: use Web API to upload to Azure"
           href: configure/webapi-azure-blob.md
         - name: "Data summarization API (preview)"
-          href: configure/webapi-azure-blob.md
+          href: configure/data-summarization-api.md
     - name: Use code components
       items:
         - name: Code component overview
@@ -784,8 +784,8 @@
       href: faqs-pro-developer.md     
     - name: FAQ for generative AI search
       href: faqs-generative-ai-search.md
-    - name: FAQ for Power Pages data summarization API
-      href: faqs-data-summarization.md
+    - name: FAQ for data summarization API
+      href: faq-data-summarization.md
     - name: FAQ for the AI summary list
       href: faqs-ai-summary-list.md                     
 - name: Compliance and accessibility

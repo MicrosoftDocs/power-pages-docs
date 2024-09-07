@@ -1,5 +1,5 @@
 ﻿---
-title: FAQ for Power Pages data summarization API
+title: FAQ for data summarization API
 description: "Look up frequently asked questions (FAQ) for the data summarization API of Microsoft Power Pages."
 author: danamartens
 ms.topic: conceptual
@@ -13,7 +13,7 @@ contributors:
     - tapanm
 ---
 
-# FAQ for Power Pages data summarization API
+# FAQ for data summarization API
 
 ## What is data summarization API in Power Pages?
 

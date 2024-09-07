@@ -46,4 +46,4 @@ Before deploying the capability into the production system, you must thoroughly 
 
 ### Related information
 
-[Add AI summary list](/getting-started/add-ai-summary-list.md)
+[Add AI summary list](getting-started/add-ai-summary-list.md)

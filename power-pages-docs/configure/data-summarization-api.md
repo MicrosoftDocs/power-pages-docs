@@ -43,9 +43,7 @@ Enable the pages in your web API and set site settings for the summarization API
 
 | **Method** | **URI** |
 |------------|---------|
-| POST | `[Site URI]/_api/summarization/data/v1.0/tablename` |
-
-{ "InstructionIdentifier":"", "RecommendationConfig":"" }
+| POST | `[Site URI]/_api/summarization/data/v1.0/tablename{ "InstructionIdentifier":"", "RecommendationConfig":"" }` |
 
 | **Name** | **Description** |
 |-------------------------|-------------------------|
@@ -73,6 +71,7 @@ https://contoso.powerappsportals.com/_api/summarization/data/v1.0/incidents(d2e1
 ### Response
 
 Status: 200
+
 Content-Type: application/json
 
 ```json
@@ -113,11 +112,11 @@ The following table includes the different error codes and messages you might en
 
 In this guide, you can set up the Copilot summarization section for the support case page, enabling users to quickly review the case and its timeline summary.
 
-Prerequisite
+### Prerequisite
 
 Make sure you use the site created using the [Community](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#community) or the [Customer self-service](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#customer-self-service) portal template. These portals contain the support case page.
 
-## Step 1. Create site settings
+### Step 1. Create site settings
 
 Before you can use the summarization API, you have to enable the required site settings with the Portal Management app.
 
@@ -163,7 +162,7 @@ Before you can use the summarization API, you have to enable the required site s
 
       **Value**: description
 
-## Step 2. Add Copilot summary section
+### Step 2. Add Copilot summary section
 
 In this step, you add a summary section on top of the case page.
 
@@ -176,7 +175,7 @@ In this step, you add a summary section on top of the case page.
 1. Save the file.
 1. Select **Preview** to open the site.
 
-## Step 3. Test the summarization
+### Step 3. Test the summarization
 
 1. Select the **My support** tab.
 1. Create a new case and add a case description.

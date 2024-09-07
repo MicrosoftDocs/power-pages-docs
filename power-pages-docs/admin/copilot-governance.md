@@ -37,11 +37,11 @@ The following AI powered experiences are supported in websites today, which simp
 
 ### Intelligent forms
 
-Simplifies form filling experience for end users by extracting relevant information from attachments and autofilling fields. Also, allows end users to rewrite their multi-line text inputs using AI draft assistance. Learn More ()
+Simplifies form filling experience for end users by extracting relevant information from attachments and autofilling fields. Also, allows end users to rewrite their multi-line text inputs using AI draft assistance. More information: [Enable AI form fill assistance on a form (preview)](../getting-started/add-form.md#enable-ai-form-fill-assistance-on-a-form-preview)
 
 ### List summary
 
-Allows end users to get an AI generated summary of the list/ table that is on the site. Learn More ()
+Allows end users to get an AI generated summary of the list/ table that is on the site. More information: [Add AI summary list](../getting-started/add-ai-summary-list.md)
 
 ### Search summarization
 
@@ -49,7 +49,7 @@ Power Pages Site Search with Generative AI provides site users with summarized r
 
 ### Summarization API
 
-Power Pages summarization API lets end users get an AI generated summary of the content in the page. This API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages. Learn More ()
+Power Pages summarization API lets end users get an AI generated summary of the content in the page. This API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages. More information: [Data summarization API](../configure/data-summarization-api.md)
 
 ### Site copilot
 
