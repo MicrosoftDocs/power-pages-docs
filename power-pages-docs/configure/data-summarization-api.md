@@ -6,6 +6,8 @@ ms.topic: conceptual
 ms.date: 09/05/2024
 ms.author: dmartens
 ms.reviewer: dmartens
+ms.collection:
+ - bap-ai-copilot
 contributors:
     - dmartens
     - tapanm
@@ -13,14 +15,11 @@ contributors:
 
 # Data summarization API overview (preview)
 
-\[This article is prerelease documentation and is subject to change.\]
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Power Pages summarization API lets makers add a page content summarization using generative AI that helps site users to get overview without going over entire page. The API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages.
 
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## Prerequisites
 
@@ -63,22 +62,20 @@ The API follows the standard OData specifications supported by the Power Pages W
 
 Summarize case type, subject, description, and case history by focusing on key details and critical information.
 
-Request
+### Request
 
 Method: POST
 
-`<https://contoso.powerappsportals.com/>_api/summarization/data/v1.0/incidents(d2e11ba8-92f6-eb11-94ef-000d3a5aa607)?$select=description,title&$expand=incident_adx_portalcomments($select=description)`
+```http
+https://contoso.powerappsportals.com/_api/summarization/data/v1.0/incidents(d2e11ba8-92f6-eb11-94ef-000d3a5aa607)?$select=description,title&$expand=incident_adx_portalcomments($select=description){"InstructionIdentifier": "Summarization/prompt/case_summary"}
+```
 
-{ "InstructionIdentifier": "Summarization/prompt/case_summary" }
-
-Response
+### Response
 
 Status: 200
-
 Content-Type: application/json
 
-Body
-
+```json
 {
   "Summary": "The data results provide information…...",
   "Recommendations": [
@@ -88,6 +85,7 @@ Body
     }
   ]
 }
+```
 
 The summarization response provides recommended prompts for fine-tuning the summary. If you wish to use these recommendations, pass the configuration value in the request body without the InstructionIdentifier.
 
@@ -131,39 +129,39 @@ Before you can use the summarization API, you have to enable the required site s
 
    1. Enable the summarization API
 
-      Name: Summarization/Data/Enable
+      **Name**: Summarization/Data/Enable
 
-      Value: true
+      **Value**: true
 
    1. Set the summarization prompt
 
-      Name: Summarization/prompt/case_summary
+      **Name**: Summarization/prompt/case_summary
 
-      Value: "Summarize key details and critical information"
+      **Value**: "Summarize key details and critical information"
 
    1. Enable the web API for the case table
 
-      Name: Webapi/incident/enabled
+      **Name**: Webapi/incident/enabled
 
-      Value: true
+      **Value**: true
 
    1. Enable description and title field of the case table
 
-      Name: Webapi/incident/fields
+      **Name**: Webapi/incident/fields
 
-      Value: description and title
+      **Value**: description and title
 
    1. Enable the portal comments table for the web API
 
-      Name: Webapi/adx_portalcomment/enabled
+      **Name**: Webapi/adx_portalcomment/enabled
 
-      Value: true
+      **Value**: true
 
    1. Enable the description field of the portal comments table
 
-      Name: Webapi/adx_portalcomment/fields
+      **Name**: Webapi/adx_portalcomment/fields
 
-      Value: description
+      **Value**: description
 
 ## Step 2. Add Copilot summary section
 
@@ -185,3 +183,7 @@ In this step, you add a summary section on top of the case page.
 1. Add a couple of comments.
 1. Select the down arrow in the Copilot summary section to view the case summary.
 1. Try these steps for other case records.
+
+### Related information
+
+[Responsible AI FAQ for Power Pages data summarization API](..\faq-data-summarization.md)

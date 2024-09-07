@@ -6,6 +6,8 @@ ms.topic: conceptual
 ms.date: 08/13/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
+ms.collection:
+ - bap-ai-copilot
 contributors:
   - clromano
   - nickdoelman
@@ -192,6 +194,8 @@ You can also edit the properties of a component from inside the Pages workspace.
 After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
 
 ### Enable AI form fill assistance on a form (preview)
+
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Enabling AI form fill gives your form users AI assistance that helps them fill the form faster and with higher accuracy. You can enable AI form fill by switching on the toggle.
   

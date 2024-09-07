@@ -6,6 +6,8 @@ ms.topic: conceptual
 ms.date: 09/05/2024
 ms.author: dmartens
 ms.reviewer: dmartens
+ms.collection:
+ - bap-ai-copilot
 contributors:
     - dmartens
     - tapanm

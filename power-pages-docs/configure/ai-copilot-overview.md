@@ -2,7 +2,7 @@
 title: Overview of AI-powered and Copilot features in Power Pages
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 06/12/2024
+ms.date: 09/06/2024
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -36,6 +36,19 @@ The following features streamline the website creation process with Copilot:
 - [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
 - [Ask Copilot questions](../getting-started/ask-copilot.md)
 - [Create an AI-generated color theme using Copilot](../getting-started/theme-copilot.md)
+- [Add AI summary list](../getting-started/add-ai-summary-list.md)
+
+## AI-powered features for developers
+
+The following features streamline the customization experience with Copilot:
+
+[Data summarization API overview (preview)](../configure/data-summarization-api.md)
+
+## AI-powered features for admins
+
+The following features streamline the administration experience with Copilot:
+
+[Disable Generative AI features your users (preview)](../admin/copilot-governance.md)
 
 ## AI-powered features for users
 
@@ -43,6 +56,7 @@ The following features make it easier for your website users to locate the infor
 
 - [Add an AI-powered copilot](../getting-started/enable-chatbot.md)
 - [Search with generative AI (preview)](search/generative-AI.md)
+- [AI form fill assistance](../getting-started/add-form.md#enable-ai-form-fill-assistance-on-a-form-preview)
 
 ## Availability
 

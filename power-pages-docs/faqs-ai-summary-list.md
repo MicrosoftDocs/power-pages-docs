@@ -6,6 +6,8 @@ ms.topic: conceptual
 ms.date: 09/05/2024
 ms.author: dmartens
 ms.reviewer: dmartens
+ms.collection:
+ - bap-ai-copilot
 contributors:
     - dmartens
     - tapanm
@@ -41,3 +43,7 @@ The capability is evaluated over custom datasets for offensive and malicious pro
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
 Before deploying the capability into the production system, you must thoroughly test and review its functionality. Testing includes assessing the feature's capacity to provide accurate, relevant, and free of offensive language responses to user on the site.
+
+### Related information
+
+[Add AI summary list](/getting-started/add-ai-summary-list.md)

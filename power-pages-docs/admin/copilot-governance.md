@@ -1,19 +1,23 @@
 ﻿---
-title: Disable Generative AI features your Pages users
-description: "Learn how to disable generative AI features for your Microsoft Pages users."
+title: Disable Generative AI features your users (preview)
+description: "Learn how to disable generative AI features for your Microsoft users."
 author: danamartens
 ms.topic: conceptual
 ms.date: 09/05/2024
 ms.author: dmartens
 ms.reviewer: dmartens
+ms.collection:
+ - bap-ai-copilot
 contributors:
     - dmartens
     - tapanm
 ---
 
-# Disable Generative AI features for Pages users
+# Disable Generative AI features for users (preview)
 
-As an administrator, you can choose to disable Generative AI features for your Pages websites' end users. This setting allows you to control which websites can have AI powered experiences for their users.
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+As an administrator, you can choose to disable Generative AI features for your website users. This setting allows you to control which websites can have AI powered experiences for their users.
 
 1. [Admin experience](/power-pages/security/disable-anonymous-access#admin-experience)
 
@@ -24,12 +28,12 @@ As an administrator, you can choose to disable Generative AI features for your P
 > [!IMPORTANT]
 >
 > - This is a preview feature.
-> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
 > - This feature is being gradually rolled out across regions and may not be available yet in your region.
 
-## AI enabled experiences supported in Pages websites
+## AI-enabled experiences supported in websites
 
-The following AI powered experiences are supported in Pages websites today, which simplify and enhance the user experience for your website visitors:
+The following AI powered experiences are supported in websites today, which simplify and enhance the user experience for your website visitors:
 
 ### Intelligent forms
 
@@ -52,7 +56,7 @@ Power Pages summarization API lets end users get an AI generated summary of the 
 Power Pages site copilot can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. For more information, see [Add a copilot to your Power Pages site](/power-pages/getting-started/enable-chatbot)
 
 > [!NOTE]
-> The following AI powered experiences are not under the purview of this control and have separate governance controls:
+> The following AI-powered experiences are not under the purview of this control and have separate governance controls:
 >
 > - Site copilot
 > - Maker experiences
@@ -93,3 +97,7 @@ For existing sites where AI-powered experiences are enabled by makers but blocke
 ## End user experience
 
 When generative AI experiences are blocked in a site for end users, they fall back to the standard experience. For example, end users see a regular search and don't get a generative AI powered search summary. The end users don't see any messaging about organizational policies or governance controls.
+
+### Related information
+
+[Power Pages governance](coe-portals.md)
