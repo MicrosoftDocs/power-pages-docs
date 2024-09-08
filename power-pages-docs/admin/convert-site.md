@@ -83,7 +83,7 @@ A production add-on portal expires at the end of the purchased license period. T
 
 > [!IMPORTANT]
 > - To avoid functionality loss by having your portal suspended or deleted, ensure that you've extended the license period in a timely manner, well before expiry.
-> - When converting a production add-on portal using a [custom domain](add-custom-domain.md) to a Power Pages website, you may need to reconfigure your custom domain settings. Ensure that you [update your custom domain name](add-custom-domain.md) as part of the conversion process in this situation.
+> - When converting a production add-on portal using a [custom domain](add-custom-domain.md) to a Power Pages website (current licensing model), you may need to reconfigure your custom domain settings. Ensure that you [update your custom domain name](add-custom-domain.md) as part of the conversion process in this situation.
 
 ### Suspended add-on portal
 
