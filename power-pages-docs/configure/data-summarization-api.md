@@ -1,10 +1,10 @@
 ﻿---
 title: Data summarization API overview (preview)
 description: Learn more about the data summarization API in Microsoft Power Pages.
-author: danamartens
+author: nageshbhat-msft
 ms.topic: conceptual
 ms.date: 09/13/2024
-ms.author: dmartens
+ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
  - bap-ai-copilot
@@ -65,7 +65,7 @@ Summarize case type, subject, description, and case history by focusing on key d
 Method: POST
 
 ```http
-https://contoso.powerappsportals.com/_api/summarization/data/v1.0/incidents(d2e11ba8-92f6-eb11-94ef-000d3a5aa607)?$select=description,title&$expand=incident_adx_portalcomments($select=description)
+POST https://contoso.powerappsportals.com/_api/summarization/data/v1.0/incidents(aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb)?$select=description,title&$expand=incident_adx_portalcomments($select=description)
 {"InstructionIdentifier": "Summarization/prompt/case_summary"}
 ```
 

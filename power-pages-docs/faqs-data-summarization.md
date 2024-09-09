@@ -1,10 +1,10 @@
 ﻿---
 title: FAQ for data summarization API
 description: Look up frequently asked questions (FAQ) for the data summarization API of Microsoft Power Pages.
-author: danamartens
+author: nageshbhat-msft
 ms.topic: conceptual
 ms.date: 09/13/2024
-ms.author: dmartens
+ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
  - bap-ai-copilot

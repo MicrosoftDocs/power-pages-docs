@@ -1,10 +1,10 @@
 ﻿---
 title: Add AI summary list
 description: Learn more about how the AI summary list feature works to simplify and summarize data in Microsoft Power Pages.
-author: danamartens
+author: neerajnandwana-msft
 ms.topic: conceptual
 ms.date: 09/13/2024
-ms.author: dmartens
+ms.author: nenandw
 ms.reviewer: dmartens
 ms.collection:
  - bap-ai-copilot
