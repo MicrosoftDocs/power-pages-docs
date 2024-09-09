@@ -4,7 +4,7 @@ description: Learn how to use solutions with Power Pages.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/27/2024
+ms.date: 09/09/2024
 ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
@@ -59,6 +59,9 @@ Alternatively, you can add the required components to your site.
 1. In the solution, select the site.
 1. On the main menu, select **Advanced**, and then select **Add required objects**.
 1. In the panel that appears, select **OK** to continue. After a few moments, you'll receive a message that the required objects have been successfully added to the solution.
+
+> [!NOTE]
+> When you use the Add Website Components feature, all site components are added to the solution, not just the ones you select. This happens because our configuration is set to automatically include all related and dependent components in a solution. There isn't a workaround available at the moment, but we plan to address this limitation. A fix is expected to be released soon.
 
 ## Export the solution from the source environment
 
