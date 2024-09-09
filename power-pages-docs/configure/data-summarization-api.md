@@ -160,4 +160,4 @@ In this step, you add a summary section on top of the case page.
 
 ### Related information
 
-[FAQ for data summarization API](..\faq-data-summarization.md)
+[FAQ for data summarization API](..\faqs-data-summarization.md)
