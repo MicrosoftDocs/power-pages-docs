@@ -157,7 +157,7 @@ The following list of actions always serves the pages from the server instead of
 
 - A maker accesses the site using the Preview button from studio.
 
-- Developer tools are opened and the disable cache is checked.
+- Developer tools are opened and disable cache is checked.
 
 - You select <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> (hard refresh).
 
