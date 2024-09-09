@@ -1,9 +1,9 @@
 ﻿---
 title: Data summarization API overview (preview)
-description: "Learn more about the data summarization API in Microsoft Power Pages."
+description: Learn more about the data summarization API in Microsoft Power Pages.
 author: danamartens
 ms.topic: conceptual
-ms.date: 09/05/2024
+ms.date: 09/13/2024
 ms.author: dmartens
 ms.reviewer: dmartens
 ms.collection:
@@ -17,17 +17,17 @@ contributors:
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Power Pages summarization API lets makers add a page content summarization using generative AI that helps site users to get overview without going over entire page. The API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages.
+Power Pages summarization API lets makers add a page content summarization using generative AI that helps site users get an overview without going over the entire page. The API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## Prerequisites
 
-- You must enable the [site settings](/power-pages/configure/web-api-overview#site-settings-for-the-web-api) needed for Web API to work summarization.
+- You must enable the [site settings](/power-pages/configure/web-api-overview#site-settings-for-the-web-api) for Web API.
 
-- Only tables supported for Pages Web API are available for summarization. For more information, see [Web API overview](/power-pages/configure/web-api-overview).
+- Only tables supported for Pages Web API are available for summarization. Learn more about the Pages Web API at [Web API overview](/power-pages/configure/web-api-overview).
 
-- The feature isn't available in UK, India, Australia, Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions
+- The feature isn't available in UK, India, Australia, Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
 
 ## Site settings
 
@@ -47,14 +47,14 @@ Enable the pages in your web API and set site settings for the summarization API
 
 | **Name** | **Description** |
 |-------------------------|-------------------------|
-| InstructionIdentifier | This property is optional. If you want to pass any other instruction to summarization use the site settings to add the prompt. </br>You should always provide the site setting name as defined previously. |
+| InstructionIdentifier | This property is optional. If you want to pass any other instruction to summarization, use the site settings to add the prompt. </br>You should always provide the site setting name as defined previously. |
 | RecommendationConfig | This property is optional. If you pass the recommended prompt provided by the summarization API, use this parameter to pass. The value should be hashed and not modified. |
 
 > [!NOTE]
 >
 > If both `InstructionIdentifier` and `RecommendationConfig` are provided, only `InstructionIdentifier` will be considered, and the other parameter will be ignored. Make sure to use only one of these input parameters.
 
-The API follows the standard OData specifications supported by the Power Pages Web API. All [read operations](/power-pages/configure/read-operations) supported by the Power Pages web API are supported by the Summarization API.
+The API follows the standard OData specifications supported by the Power Pages Web API. The Summarization API supports all [read operations](/power-pages/configure/read-operations) that the Power Pages web API supports.
 
 ## Sample
 
@@ -65,7 +65,8 @@ Summarize case type, subject, description, and case history by focusing on key d
 Method: POST
 
 ```http
-https://contoso.powerappsportals.com/_api/summarization/data/v1.0/incidents(d2e11ba8-92f6-eb11-94ef-000d3a5aa607)?$select=description,title&$expand=incident_adx_portalcomments($select=description){"InstructionIdentifier": "Summarization/prompt/case_summary"}
+https://contoso.powerappsportals.com/_api/summarization/data/v1.0/incidents(d2e11ba8-92f6-eb11-94ef-000d3a5aa607)?$select=description,title&$expand=incident_adx_portalcomments($select=description)
+{"InstructionIdentifier": "Summarization/prompt/case_summary"}
 ```
 
 ### Response
@@ -90,11 +91,11 @@ The summarization response provides recommended prompts for fine-tuning the summ
 
 ## Security
 
-The role-based security configured for table and column permissions are respected by the summarization API. Only the records that the end user has access to are considered for summarization.
+The summarization API respects the role-based security configured for table and column permissions. It only considers the records that the user has access to for summarization.
 
 ## Authenticating summarization API
 
-You don't need to include an authentication code, because authentication and authorization are managed by the application session. All Web API calls must include a Cross-Site Request Forgery (CSRF) token.
+You don't need to include an authentication code because the application session manages authentication and authorization. All Web API calls must include a Cross-Site Request Forgery (CSRF) token.
 
 ## Error codes and messages
 
@@ -116,7 +117,7 @@ In this guide, you can set up the Copilot summarization section for the support 
 
 Make sure you use the site created using the [Community](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#community) or the [Customer self-service](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#customer-self-service) portal template. These portals contain the support case page.
 
-### Step 1. Create site settings
+### Step 1 - Create site settings
 
 Before you can use the summarization API, you have to enable the required site settings with the Portal Management app.
 
@@ -126,47 +127,21 @@ Before you can use the summarization API, you have to enable the required site s
 
 1. Enter the following site settings and values:
 
-   1. Enable the summarization API
+    | Setting Description                              | Name                              | Value                                      |
+    |--------------------------------------------------|-----------------------------------|--------------------------------------------|
+    | Enable the summarization API                     | Summarization/Data/Enable         | true                                       |
+    | Set the summarization prompt                     | Summarization/prompt/case_summary | "Summarize key details and critical information" |
+    | Enable the web API for the case table            | Webapi/incident/enabled           | true                                       |
+    | Enable description and title field of the case table | Webapi/incident/fields            | description,title                      |
+    | Enable the portal comments table for the web API | Webapi/adx_portalcomment/enabled  | true                                       |
+    | Enable the description field of the portal comments table | Webapi/adx_portalcomment/fields   | description                                |
 
-      **Name**: Summarization/Data/Enable
-
-      **Value**: true
-
-   1. Set the summarization prompt
-
-      **Name**: Summarization/prompt/case_summary
-
-      **Value**: "Summarize key details and critical information"
-
-   1. Enable the web API for the case table
-
-      **Name**: Webapi/incident/enabled
-
-      **Value**: true
-
-   1. Enable description and title field of the case table
-
-      **Name**: Webapi/incident/fields
-
-      **Value**: description and title
-
-   1. Enable the portal comments table for the web API
-
-      **Name**: Webapi/adx_portalcomment/enabled
-
-      **Value**: true
-
-   1. Enable the description field of the portal comments table
-
-      **Name**: Webapi/adx_portalcomment/fields
-
-      **Value**: description
-
-### Step 2. Add Copilot summary section
+### Step 2 - Add Copilot summary section
 
 In this step, you add a summary section on top of the case page.
 
-1. Open Power Pages studio of the site
+1. Open [Power Pages studio](https://make.powerpages.microsoft.com).
+1. Select **Edit** for the site you want to edit.
 1. Select **Customer Service - Edit Case**
 
    On this page, you add a summary section.
@@ -175,14 +150,14 @@ In this step, you add a summary section on top of the case page.
 1. Save the file.
 1. Select **Preview** to open the site.
 
-### Step 3. Test the summarization
+### Step 3 - Test the summarization
 
 1. Select the **My support** tab.
 1. Create a new case and add a case description.
 1. Add a couple of comments.
-1. Select the down arrow in the Copilot summary section to view the case summary.
+1. To view the case summary, select the down arrow in the Copilot summary section.
 1. Try these steps for other case records.
 
 ### Related information
 
-[Responsible AI FAQ for Power Pages data summarization API](..\faq-data-summarization.md)
+[FAQ for data summarization API](..\faq-data-summarization.md)

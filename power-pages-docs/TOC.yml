@@ -785,7 +785,7 @@
     - name: FAQ for generative AI search
       href: faqs-generative-ai-search.md
     - name: FAQ for data summarization API
-      href: faq-data-summarization.md
+      href: faqs-data-summarization.md
     - name: FAQ for the AI summary list
       href: faqs-ai-summary-list.md                     
 - name: Compliance and accessibility

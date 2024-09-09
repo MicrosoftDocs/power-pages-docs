@@ -1,9 +1,9 @@
 ﻿---
 title: FAQ for data summarization API
-description: "Look up frequently asked questions (FAQ) for the data summarization API of Microsoft Power Pages."
+description: Look up frequently asked questions (FAQ) for the data summarization API of Microsoft Power Pages.
 author: danamartens
 ms.topic: conceptual
-ms.date: 09/05/2024
+ms.date: 09/13/2024
 ms.author: dmartens
 ms.reviewer: dmartens
 ms.collection:
@@ -17,7 +17,7 @@ contributors:
 
 ## What is data summarization API in Power Pages?
 
-The summarization API for Dataverse records provides summaries for records used in web pages. Only users with access to the record can retrieve the summary. The API is secured using the Power Pages Auth model, protected by a CSRF (Cross-Site Request Forgery) token, and can't be used outside the pages site. The Power Pages maker can provide the summarization prompt using site settings. The end user can't modify or pass any prompt.
+The [data summarization API](configure/data-summarization-api.md) for Dataverse records provides summaries for records used in web pages. Only users with access to the record can retrieve the summary. The API is secured using the Power Pages Auth model, protected by a CSRF (Cross-Site Request Forgery) token, and can't be used outside the pages site. The Power Pages maker can provide the summarization prompt using site settings. The end user can't modify or pass any prompt.
 
 ## What are the system capabilities?
 

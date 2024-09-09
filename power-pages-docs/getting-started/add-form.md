@@ -3,7 +3,7 @@ title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: pranita225
 ms.topic: conceptual
-ms.date: 08/13/2024
+ms.date: 09/13/2024
 ms.author: prpadalw
 ms.reviewer: kkendrick
 ms.collection:
@@ -149,7 +149,7 @@ Once configured, the file upload placeholder shows in the canvas.
 
 ## New file upload experience
 
-With the new file upload experience, end users can see the file name, file type, file size, upload progress bar, and the delete option. If the upload fails (for example, if the file type isn’t supported or the upload exceeds the maximum number of files), an error message appears. 
+With the new file upload experience, users can see the file name, file type, file size, upload progress bar, and the delete option. If the upload fails (for example, if the file type isn’t supported or the upload exceeds the maximum number of files), an error message appears.
 
 New sites automatically enable the new file upload experience, including sites that are changed from developer to production. 
 Existing sites must opt into the new file upload experience.
@@ -230,7 +230,7 @@ On enabling form filling assistance, users are able to:
    - basic forms but not on multi-step forms
    - forms that create a record in the Dataverse
 
-     Forms used to edit Dataverse records don't have the AI form fill capability.
+    Forms used to edit Dataverse records don't have the AI form fill capability.
 
 1. For new forms created, ensure that you add the right table permissions before enabling AI form fill.
 
