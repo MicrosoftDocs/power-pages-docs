@@ -362,8 +362,6 @@ By default, Azure Front Door has an origin response timeout of 60 seconds. Howev
 
 1. In the upper-right corner, select **Endpoint properties**.
 
-    :::image type="content" source="media/azure-front-door/endpoint-properties.png" alt-text="Select properties for endpoint.":::
-
 1. Change the origin response time to 240 seconds, and then select **Update**.
 
     :::image type="content" source="media/azure-front-door/update-endpoint.png" alt-text="Set the endpoint origin response time to 240 seconds.":::
