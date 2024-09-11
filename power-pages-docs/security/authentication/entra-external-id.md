@@ -24,11 +24,13 @@ Microsoft Entra External ID is a robust Customer Identity access management (CIA
 
 ## Set up Microsoft Entra External ID in Power Pages
 
+Complete each of the following steps to set up Microsoft Entra External ID in Power Pages.
+
 ### Step 1 - Add Microsoft Entra as an identity provider
 
 To configure Microsoft Entra as an identity provider:
 
-1. Sign into [Power Pages Studio](https://make.powerpages.microsoft.com).
+1. Sign in to [Power Pages Studio](https://make.powerpages.microsoft.com).
 1. Locate the site where you want to enable Microsoft Entra External ID and select **Edit**.
 1. Select **Security > Identity providers**.
 1. Locate **Microsoft Entra External ID (preview)** as the login provider and select **Configure**.
