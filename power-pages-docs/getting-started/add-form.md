@@ -239,3 +239,4 @@ On enabling form filling assistance, users are able to:
 - [Create and modify forms](../configure/data-workspace-forms.md)
 - [About basic forms](../configure/basic-forms.md)
 - [Tutorial: Add a form to a page](tutorial-add-form-to-page.md)
+- [Disable Generative AI features for users (preview)](../admin/copilot-governance.md)

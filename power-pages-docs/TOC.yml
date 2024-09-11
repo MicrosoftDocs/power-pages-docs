@@ -166,7 +166,7 @@
                   href: getting-started/add-list.md
                 - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
-                - name: Add AI summary list
+                - name: Add AI summary list (preview)
                   href: getting-started/add-ai-summary-list.md
                 - name: Add a form manually
                   href: getting-started/add-form.md
