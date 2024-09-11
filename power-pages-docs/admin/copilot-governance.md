@@ -52,8 +52,8 @@ Power Pages site copilot can provide quick and efficient customer support to you
 > [!NOTE]
 > The following AI-powered experiences are governed separately and are not covered by this control:
 >
-> - Site copilot
-> - Maker experiences
+> - [Site copilot](/microsoft-copilot-studio/security-and-governance)
+> - [Maker experiences](../configure/ai-copilot-overview.md)
 
 ## Admin experience
 

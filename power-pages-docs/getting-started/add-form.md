@@ -218,11 +218,12 @@ On enabling form filling assistance, users are able to:
 
   :::image type="content" source="media/add-form/ai-form-fill-example2.png" alt-text="Screenshot showing an example of the AI form fill feature and how AI responds.":::
 
-> [!NOTE]
-> You will not be able to enable AI form fill and your users will not be able to use this when:
->
-> - Your organization's administrators have disabled AI features for end users using governance controls. Learn More
-> - The site belongs to an environment where admins have disabled 'Moving data across regions'. For more information, see [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
+## Conditions that prevent AI form fill activation
+
+AI form fill cannot be enabled, and users will be unable to use it under the following conditions:
+
+- Your organization's administrators have disabled AI features for end users using governance controls. Learn more about governance controls at [Disable Generative AI features for users (preview)](../admin/copilot-governance.md).
+- The site is part of an environment where admins have disabled data across regions. Learn more about allowing data to cross regions at [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
 ## Known Limitations
 
