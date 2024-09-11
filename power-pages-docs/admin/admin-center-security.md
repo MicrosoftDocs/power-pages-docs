@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/10/2024
+ms.date: 09/11/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: kkendrick
@@ -67,7 +67,7 @@ Select **View details** to review the website authentication expiry details for 
 
 ## Renew SSL Certificate key
 
-**Renew SSL Certificate key** shows the number of production websites where the [SSL certificate](add-custom-domain.md) expired or or expires within 90 days.
+**Renew SSL Certificate key** shows the number of production websites where the [SSL certificate](add-custom-domain.md) expired or expires within 90 days.
 
 SSL certificates have a fixed validity period and require timely renewal to continue providing the security benefits. Failure to renew SSL certificates before they expire can result in security vulnerabilities, loss of user trust etc. Learn more about how to renew the certificate at [Renew SSL certificate](add-custom-domain.md#renew-or-reissue-ssltls-certificate-for-power-pages).
 
