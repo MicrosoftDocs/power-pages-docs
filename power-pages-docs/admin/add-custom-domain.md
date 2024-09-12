@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/06/2023
+ms.date: 08/28/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: kkendrick
@@ -46,17 +46,17 @@ To learn about the roles required to perform this task, read [Admin roles requir
      > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers.
      > - PFX file must be encrypted with TripleDES encryption. Power Pages doesn't support AES-256 encryption.
      > - Contains an [Extended Key Usage](https://en.wikipedia.org/w/index.php?title=X.509&section=4#Extensions_informing_a_specific_usage_of_a_certificate) for server authentication (OID = 1.3.6.1.5.5.7.3.1).
-     > 
-     > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites. 
+     >
+     > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites.
 
-    :::image type="content" source="media/add-custom-domain/add-ssl-certificate.png" alt-text="Upload an SSL certificate.":::
+    :::image type="content" source="media/add-custom-domain/add-ssl-certificate.svg" alt-text="Upload an SSL certificate.":::
 
 1. Select **Next**.
 
 1. On the **Choose hostname** section, enter the CNAME you want in the **Domain Name** field (for example `www.contoso.com`).
-   
+
    > [!NOTE]
-   > - You can only have one custom domain name for a website. 
+   > - You can only have one custom domain name for a website.
    > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your website.
    > - If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: "Please add a CNAME record to this domain name. Retry after some time passes."
 
@@ -64,13 +64,13 @@ To learn about the roles required to perform this task, read [Admin roles requir
 
 1. This step is applicable for a [Content Delivery Network](../configure/configure-cdn.md) enabled site. On the **Validate the domain** section, copy the **Record type**, **Record name**, and the **Record value** and create a **TXT** record with your domain provider.
 
-   When you add TXT entry with your domain provider, it takes some time to propagate to all DNS servers. Select **Refresh** to validate the custom domain. The TXT record must be created within seven days after enabling the Content Delivery Network; otherwise, you'll need to disable and re-enable the Content Delivery Network. When information has been validated, the **Next** button is activated. 
+   When you add TXT entry with your domain provider, it takes some time to propagate to all DNS servers. Select **Refresh** to validate the custom domain. The TXT record must be created within seven days after enabling the Content Delivery Network; otherwise, you'll need to disable and re-enable the Content Delivery Network. When information has been validated, the **Next** button is activated.
 
 1. Select **Next**
 
-1. Review the information comparing the **Custom host name** and the **SSL certificate**, and then select **Next** to begin creating the SSL Binding. 
+1. Review the information comparing the **Custom host name** and the **SSL certificate**, and then select **Next** to begin creating the SSL Binding.
 
-1. You should see the message **Custom Domain name has been successfully configured**.  You can now go to {Custom Domain Name} to access this website. 
+1. You should see the message **Custom Domain name has been successfully configured**.  You can now go to {Custom Domain Name} to access this website.
 
 1. Select **Close**.
 
@@ -92,8 +92,6 @@ To change your existing custom domain name:
     1. Select and delete the current SSL certificate.
     1. Select and delete the current SSL binding.
 
-    :::image type="content" source="media/add-custom-domain/change-ssl.png" alt-text="Change SSL certificate.":::
-
 1. Follow the instructions outlined in [**Add a custom domain name**](#add-a-custom-domain-name) to configure your new domain.
 
 > [!NOTE]
@@ -108,23 +106,23 @@ Here are the high level steps for renewing or reissuing a SSL/TLS certificate co
 > - Steps may slightly change based on your preferred Certificate Authority. The best practice is to refer to the CA website for the complete renewal process.
 > - If you already have your new certificate .PFX file, please **skip these 4 steps** and follow the last 2 steps to upload the new certificate and binding.
 
-**STEP 1:** Generate Certificate Signing Request (CSR). 
+**STEP 1:** Generate Certificate Signing Request (CSR).
 
 To renew an SSL/TLS certificate, you need to generate a new CSR.  
 
-Best practice is to generate a new CSR when renewing your SSL/TLS certificate, which creates a new, unique keypair (public/private) for the renewed certificate. 
+Best practice is to generate a new CSR when renewing your SSL/TLS certificate, which creates a new, unique keypair (public/private) for the renewed certificate.
 
 **STEP 2:** Log on to your preferred Certificate Authority (CA) website and Fill out the renewal form.
 
-On the Expiring certificates page, next to the certificate that needs to be renewed, select Renew now. 
+On the Expiring certificates page, next to the certificate that needs to be renewed, select Renew now.
 
-A certificate doesn't appear on the Expiring Certificates page until 90 days before it expires. 
+A certificate doesn't appear on the Expiring Certificates page until 90 days before it expires.
 
-**STEP 3:** Your CA issues the SSL/TLS certificate 
+**STEP 3:** Your CA issues the SSL/TLS certificate
 
-Once approved, CA issues and sends the renewed certificate to the certificate contact via email. You can also download the renewed certificate from CA website. 
+Once approved, CA issues and sends the renewed certificate to the certificate contact via email. You can also download the renewed certificate from CA website.
 
-**STEP 4:** Install your renewed SSL/TLS certificate (Preferably on the machine from step 1 where you installed the CSR, which will auto-associate the private key so that you can later export the .PFX file). While exporting the PFX file on Windows just ensure that the Export is a password-protected PFX file, encrypted using triple DES as shown below: 
+**STEP 4:** Install your renewed SSL/TLS certificate (Preferably on the machine from step 1 where you installed the CSR, which will auto-associate the private key so that you can later export the .PFX file). While exporting the PFX file on Windows just ensure that the Export is a password-protected PFX file, encrypted using triple DES as shown below:
 
 :::image type="content" source="media/add-custom-domain/renewed-certificate.svg" alt-text="The Certificate Export Wizard with the triple DES Encryption information emphasized.":::
 
@@ -133,8 +131,6 @@ Once you have the renewed (reissued) certificate .PFX file, select  the edit ico
 1. Upload your renewed certificate .pfx file by choosing **New** from the Edit Custom Domain pane.
 
 1. Post the upload, delete the existing binding with the old certificate and a "New" binding as shown below. Clicking on "New" button brings a popup where you can choose your preferred host name & your new certificate for this binding.
-
-:::image type="content" source="media/add-custom-domain/new-binding.png" alt-text="A screenshot of the Power Platform admin center with the option to delete SSL bindings and add a new SSL certificate emphasized.":::
 
 Legend:
 
