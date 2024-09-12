@@ -13,7 +13,7 @@ contributors:
     - tapanm
 ---
 
-# Add Copilot summarization to case page
+# Add Copilot summarization to case page (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
