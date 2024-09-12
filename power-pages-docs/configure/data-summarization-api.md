@@ -62,20 +62,24 @@ Summarize case type, subject, description, and case history by focusing on key d
 
 ### Request
 
-Method: POST
-
 ```http
 POST https://contoso.powerappsportals.com/_api/summarization/data/v1.0/incidents(aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb)?$select=description,title&$expand=incident_adx_portalcomments($select=description)
-{"InstructionIdentifier": "Summarization/prompt/case_summary"}
+Content-Type: application/json; charset=utf-8
+OData-MaxVersion: 4.0
+OData-Version: 4.0
+Accept: application/json
+
+{
+"InstructionIdentifier": "Summarization/prompt/case_summary"
+}
 ```
 
 ### Response
 
-Status: 200
+```http
+HTTP/1.1 200 OK
+OData-Version: 4.0
 
-Content-Type: application/json
-
-```json
 {
   "Summary": "The data results provide information…...",
   "Recommendations": [
@@ -109,55 +113,6 @@ The following table includes the different error codes and messages you might en
 | 400 | 90041005 | No records found to summarize |
 | 400 | 90041006 | Error occurred while summarizing the content. |
 
-## Add Copilot summarization to case page
-
-In this guide, you can set up the Copilot summarization section for the support case page, enabling users to quickly review the case and its timeline summary.
-
-### Prerequisite
-
-Make sure you use the site created using the [Community](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#community) or the [Customer self-service](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#customer-self-service) portal template. These portals contain the support case page.
-
-### Step 1 - Create site settings
-
-Before you can use the summarization API, you have to enable the required site settings with the Portal Management app.
-
-1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
-
-1. On the selected website record, select **Site Settings**.
-
-1. Enter the following site settings and values:
-
-    | Setting Description                              | Name                              | Value                                      |
-    |--------------------------------------------------|-----------------------------------|--------------------------------------------|
-    | Enable the summarization API                     | Summarization/Data/Enable         | true                                       |
-    | Set the summarization prompt                     | Summarization/prompt/case_summary | "Summarize key details and critical information" |
-    | Enable the web API for the case table            | Webapi/incident/enabled           | true                                       |
-    | Enable description and title field of the case table | Webapi/incident/fields            | description,title                      |
-    | Enable the portal comments table for the web API | Webapi/adx_portalcomment/enabled  | true                                       |
-    | Enable the description field of the portal comments table | Webapi/adx_portalcomment/fields   | description                                |
-
-### Step 2 - Add Copilot summary section
-
-In this step, you add a summary section on top of the case page.
-
-1. Open [Power Pages studio](https://make.powerpages.microsoft.com).
-1. Select **Edit** for the site you want to edit.
-1. Select **Customer Service - Edit Case**
-
-   On this page, you add a summary section.
-1. Select **Edit code** to open **Visual Studio Code**.
-1. Copy the following code and add it to the beginning of the code block.
-1. Save the file.
-1. Select **Preview** to open the site.
-
-### Step 3 - Test the summarization
-
-1. Select the **My support** tab.
-1. Create a new case and add a case description.
-1. Add a couple of comments.
-1. To view the case summary, select the down arrow in the Copilot summary section.
-1. Try these steps for other case records.
-
-### Related information
+## Related information
 
 [FAQ for data summarization API](..\faqs-data-summarization.md)
