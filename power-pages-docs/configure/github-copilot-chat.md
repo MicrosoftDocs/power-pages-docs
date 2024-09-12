@@ -30,44 +30,27 @@ This feature allows @powerpages to be a participant in the Power Platform Tools 
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
+:::image type="content" source="media/add-ai-generated-code/powerpages-participant-github-copilot-chat.gif" alt-text="Animation that explains how to use @powerpages participant in GitHub Copilot Chat for VS Code.":::
+
 ## Prerequisites
 
 Before you can start using the Power Platform Tools VS Code extension with GitHub Copilot Chat, verify the following prerequisites:
 
-- VS Code installed on your machine
+- [VS Code](https://code.visualstudio.com)) installed on your machine
+- [Power Platform Tools VS Code extension](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode) installed
 - [GitHub Copilot Chat extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) installed and configured
-- Power Platform Tools VS Code extension installed
-
-## Installation and setup
-
-1. **Install VS Code:**
-
-    If you haven't already, download and install [Visual Studio Code](https://code.visualstudio.com).
-
-1. **Install and configure [Power Platform Tools VS Code Extension](/power-pages/configure/vs-code-extension):**
-
-    1. Open VS Code.
-    1. Go to the **Extensions** view by selecting the Extensions icon in the Activity Bar on the left side of the window or by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>.
-    1. Search for *[Power Platform Tools](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode)*.
-    1. Select **Install** to add the Power Platform extension to your VS Code environment.
-
-1. **Install GitHub Copilot Chat Extension:**
-
-    Follow the [GitHub Copilot setup guide](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) to install and configure the Copilot extension in VS Code.
 
 ## Use the @powerpages participant in GitHub Copilot Chat for VS Code
 
-Once the Power Platform Tools VS Code extension is installed, you can start using the @powerpages participant within GitHub Copilot chat to receive targeted coding assistance for Power Pages.
+Once the Power Platform Tools VS Code extension is installed along with GitHub Copilot Chat extension, you can start using the @powerpages participant within GitHub Copilot chat to receive targeted coding assistance for Power Pages.
 
 To add the @powerpages participant to a chat:
 
 1. **Open website content in VS Code:**
 
-    Download website content using Power Platform CLI. To authenticate against a Microsoft Dataverse environment, and to download
-website content, refer to the tutorial [Use Microsoft Power Platform CLI with Power Pages - download website content](power-platform-cli-tutorial.md#step-3-download-website-content).
+    Download website content using Power Platform CLI. To authenticate against a Microsoft Dataverse environment, and to download website content, refer to the tutorial [Use Microsoft Power Platform CLI with Power Pages - download website content](power-platform-cli-tutorial.md#step-3-download-website-content).
 
-> [!TIP]
-> The Power Platform Tools Extension automatically enables using Microsoft Power Platform CLI commands from within Visual Studio Code through [Visual Studio Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
+    The Power Platform Tools Extension automatically enables using Microsoft Power Platform CLI commands from within Visual Studio Code through [Visual Studio Code Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
 1. **Activate GitHub Copilot Chat:**
 
