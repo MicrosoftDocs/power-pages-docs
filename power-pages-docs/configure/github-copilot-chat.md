@@ -24,7 +24,7 @@ ms.custom:
 
 The [GitHub Copilot Chat for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) architecture enables Visual Studio Code (VS Code) extensions to integrate their tools seamlessly with the GitHub Copilot Chat experience. This integration is achieved by creating chat extensions that use the GitHub Copilot Chat extension API, adding a Chat participant to the VS Code environment.
 
-This feature allows @powerpages to be a participant in the Power Platform Tools VS Code extension. Users can now utilize the @powerpages participant within GitHub Copilot chat to receive Power Pages-specific coding assistance without leaving their current work context. This integration ensures that users can make the most out of both Copilot environments.
+This feature allows @powerpages to be a participant in the Power Platform Tools VS Code extension. **Users can now utilize the [Power Pages AI Code capabilities](add-code-copilot.md) via @powerpages participant within GitHub Copilot chat without leaving their current work context**. This integration ensures that users can make the most out of both Copilot capabilities.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -59,20 +59,6 @@ To add the @powerpages participant to a chat:
 
 1. **Add the @powerpages participant:**
 
-    In the Copilot chat, type *@powerpages* followed by your request. For example, *@powerpages write JavaScript code for form field validation to verify the phone field value is in the valid format*. Copilot provides responses tailored to Power Pages, helping you with writing or explaining code.
-
-## Benefits of using Copilot for Power Pages in GitHub Copilot Chat
-
-The following are some of the benefits of using Copilot for Power Pages in GitHub Copilot Chat:
-
-- **Seamless workflow:**
-
-    No need to switch contexts between different tools. Get all the help you need directly within VS Code.
-- **Enhanced productivity:**
-
-    Use the powerful capabilities of both GitHub Copilot and Power Pages without interruption.
-- **Targeted assistance:**
-
-    Receive specialized help for Power Pages, ensuring that your queries are answered accurately and efficiently.
+    In the Copilot chat, type *@powerpages* followed by your request. For example, *@powerpages write JavaScript code for form field validation to verify the phone field value is in the valid format*. Copilot provides responses tailored to Power Pages, helping you with [writing](add-code-copilot.md#use-copilot-to-generate-code) or [explaining](add-code-copilot.md#use-explain-to-understand-code) code.
 
 Learn more at [Power Platform Tools VS Code Extension](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode) and [GitHub Copilot](https://aka.ms/github-copilot).
