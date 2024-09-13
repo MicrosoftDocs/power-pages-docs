@@ -38,12 +38,6 @@ The following features streamline the website creation process with Copilot:
 - [Create an AI-generated color theme using Copilot](../getting-started/theme-copilot.md)
 - [Add AI summary list](../getting-started/add-ai-summary-list.md)
 
-## AI-powered features for developers
-
-The following features streamline the customization experience with Copilot:
-
-[Data summarization API overview (preview)](../configure/data-summarization-api.md)
-
 ## AI-powered features for admins
 
 The following features streamline the administration experience with Copilot:

@@ -41,10 +41,6 @@ Allows users to get an AI generated summary of a list (table) that is on the sit
 
 Power Pages Site Search with Generative AI provides site users with summarized responses to their natural language queries. It also uses a semantic search approach instead of traditional keyword-based methods, providing more relevant and contextualized results. Learn more about search summarization at [Power Pages search with generative AI (preview)](/power-pages/configure/search/generative-ai).
 
-### Summarization API
-
-Power Pages summarization API lets users get an AI generated summary of the content in the page. This API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages. Learn more about the Summarization API at [Data summarization API](../configure/data-summarization-api.md).
-
 ### Site copilot
 
 Power Pages site copilot can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Learn more about Site copilot at [Add a copilot to your Power Pages site](/power-pages/getting-started/enable-chatbot).
