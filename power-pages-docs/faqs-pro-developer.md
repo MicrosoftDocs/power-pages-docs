@@ -51,3 +51,4 @@ You can revise the intended code description as needed. You can also review the 
 
 - [Add AI-generated code using Copilot](configure/add-code-copilot.md)
 - [Transparency note for Copilot data security and privacy in Microsoft Power Platform](/power-platform/transparency-note-copilot-data-security-privacy)
+ 
