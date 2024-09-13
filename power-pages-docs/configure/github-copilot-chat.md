@@ -59,6 +59,6 @@ To add the @powerpages participant to a chat:
 
 1. **Add the @powerpages participant:**
 
-    In the Copilot chat, type *@powerpages* followed by your request. For example, *@powerpages write JavaScript code for form field validation to verify the phone field value is in the valid format*. Copilot provides responses tailored to Power Pages, helping you with [writing](add-code-copilot.md#use-copilot-to-generate-code) or [explaining](add-code-copilot.md#use-explain-to-understand-code) code.
+    In the Copilot chat, type *@powerpages* followed by your request. For example, you could say `@powerpages write JavaScript code for form field validation to verify the phone field value is in the valid format` or ask `@powerpages Explain the following code {% include 'Page Copy'%}`. Copilot provides responses tailored to Power Pages, helping you with [writing](add-code-copilot.md#use-copilot-to-generate-code) or [explaining](add-code-copilot.md#use-explain-to-understand-code) code.
 
 Learn more at [Power Platform Tools VS Code Extension](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode) and [GitHub Copilot](https://aka.ms/github-copilot).
