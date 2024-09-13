@@ -4,7 +4,7 @@ description: Utilize @powerpages in GitHub Copilot Chat for seamless Power Pages
 author: neerajnandwana-msft
 
 ms.topic: conceptual
-ms.date: 7/19/2024
+ms.date: 09/13/2024
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -36,7 +36,7 @@ This feature allows @powerpages to be a participant in the Power Platform Tools 
 
 Before you can start using the Power Platform Tools VS Code extension with GitHub Copilot Chat, verify the following prerequisites:
 
-- [VS Code](https://code.visualstudio.com)) installed on your machine
+- [VS Code](https://code.visualstudio.com) installed on your machine
 - [Power Platform Tools VS Code extension](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode) installed
 - [GitHub Copilot Chat extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) installed and configured
 
