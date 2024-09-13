@@ -19,7 +19,7 @@ ms.custom:
 ---
 # Configure Omnichannel with Power Pages site copilot
 
-[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) empowers enterprises to instantly connect and engage with their customers via live chat. If the copilot is can't resolve their queries or if they require a response beyond the site's programmed capabilities, the site copilot facilitates a seamless transition to a live agent for assistance.
+[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) empowers enterprises to instantly connect and engage with their customers via live chat. If the copilot is unable to resolve their queries or if they require a response beyond the site's programmed capabilities, the site copilot facilitates a seamless transition to a live agent for assistance.
 
 > [!IMPORTANT]
 >
