@@ -24,7 +24,7 @@ ms.custom:
 
 The [GitHub Copilot Chat for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) architecture enables Visual Studio Code (VS Code) extensions to integrate their tools seamlessly with the GitHub Copilot Chat experience. This integration is achieved by creating chat extensions that use the GitHub Copilot Chat extension API, adding a Chat participant to the VS Code environment.
 
-This feature allows @powerpages to be a participant in the Power Platform Tools VS Code extension. **Users can now utilize the [Power Pages AI Code capabilities](add-code-copilot.md) via @powerpages participant within GitHub Copilot chat without leaving their current work context**. This integration ensures that users can make the most out of both Copilot capabilities.
+This feature allows @powerpages to be a participant in the Power Platform Tools VS Code extension. Users can now utilize the [Power Pages AI Code capabilities](add-code-copilot.md) by adding the @powerpages participant within GitHub Copilot chat without leaving their current work context. This integration ensures that users can make the most out of both Copilot capabilities.
 
 > [!IMPORTANT]
 > - This is a preview feature.
