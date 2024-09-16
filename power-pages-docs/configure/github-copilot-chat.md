@@ -1,10 +1,10 @@
 ---
-title: Use @Powerpages in GitHub Copilot Chat (preview)
+title: Use Copilot for Power Pages participant within GitHub Copilot Chat for Visual Studio Code (preview)
 description: Utilize @powerpages in GitHub Copilot Chat for seamless Power Pages coding assistance within Visual Studio Code. Enhance productivity without switching context.
 author: neerajnandwana-msft
 
 ms.topic: conceptual
-ms.date: 09/13/2024
+ms.date: 09/1/2024
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -30,7 +30,7 @@ This feature allows @powerpages to be a participant in the Power Platform Tools 
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-:::image type="content" source="media/add-ai-generated-code/powerpages-participant-github-copilot-chat.gif" alt-text="Animation that explains how to use @powerpages participant in GitHub Copilot Chat for VS Code.":::
+:::image type="content" source="media/github-copilot-chat/powerpages-participant-response.png" alt-text="Screenshot of a response from the Power Pages participant in GitHub Copilot within Visual Studio Code." lightbox="media/github-copilot-chat/powerpages-participant-response.png":::
 
 ## Prerequisites
 
@@ -54,11 +54,21 @@ To add the @powerpages participant to a chat:
 
 1. **Activate GitHub Copilot Chat:**
 
-    1. Open the Copilot chat interface.
+    1. Open the Copilot chat interface by selecting the Chat icon in the left navigation bar.
+
+        :::image type="content" source="media/github-copilot-chat/copilot-chat-icon.png" alt-text="Screenshot of the Copilot chat icon in Visual Studio Code.":::
+
     1. Verify the Copilot chat is active.
+
+        :::image type="content" source="media/github-copilot-chat/github-copilot-chat.png" alt-text="Screenshot of the GitHub Copilot chat experience in Visual Studio Code.":::
 
 1. **Add the @powerpages participant:**
 
     In the Copilot chat, type *@powerpages* followed by your request. For example, you could say `@powerpages write JavaScript code for form field validation to verify the phone field value is in the valid format` or ask `@powerpages Explain the following code {% include 'Page Copy'%}`. Copilot provides responses tailored to Power Pages, helping you with [writing](add-code-copilot.md#use-copilot-to-generate-code) or [explaining](add-code-copilot.md#use-explain-to-understand-code) code.
 
-Learn more at [Power Platform Tools VS Code Extension](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode) and [GitHub Copilot](https://aka.ms/github-copilot).
+    :::image type="content" source="media/github-copilot-chat/power-pages-participant.png" alt-text="Screenshot of adding the powerpages participant to the GitHub Copilot chat in Visual Studio Code.":::
+
+## Related information
+
+- [Power Platform Tools VS Code Extension](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode)
+- [GitHub Copilot](https://aka.ms/github-copilot)

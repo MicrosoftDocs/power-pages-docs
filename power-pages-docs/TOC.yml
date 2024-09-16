@@ -185,6 +185,8 @@
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
+              href: configure/visual-studio-code-editor.md
+            - name: Use Copilot for Power Pages participant in GitHub Copilot Chat (preview)
               href: configure/visual-studio-code-editor.md              
     - name:  Style your site
       items:
