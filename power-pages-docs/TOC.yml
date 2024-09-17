@@ -166,6 +166,8 @@
                   href: getting-started/add-list.md
                 - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
+                - name: Add AI summary list (preview)
+                  href: getting-started/add-ai-summary-list.md
                 - name: Add a form manually
                   href: getting-started/add-form.md
                 - name: Add an AI-generated multistep form using Copilot (preview)
@@ -298,6 +300,8 @@
       href: configure/devtools-addon.md
     - name: View Power Pages activity logging in Microsoft Purview (preview)
       href: /power-platform/admin/logging-power-pages
+    - name: Disable Generative AI features for users (preview)
+      href: admin/copilot-governance.md
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
     - name: Governance
@@ -779,7 +783,9 @@
     - name: FAQ for generating code
       href: faqs-pro-developer.md     
     - name: FAQ for generative AI search
-      href: faqs-generative-ai-search.md                     
+      href: faqs-generative-ai-search.md
+    - name: FAQ for the AI summary list
+      href: faqs-ai-summary-list.md                     
 - name: Compliance and accessibility
   items:
     - name: Accessibility
