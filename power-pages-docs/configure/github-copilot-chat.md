@@ -4,7 +4,7 @@ description: Utilize @powerpages in GitHub Copilot Chat for seamless Power Pages
 author: neerajnandwana-msft
 
 ms.topic: conceptual
-ms.date: 09/1/2024
+ms.date: 09/16/2024
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
