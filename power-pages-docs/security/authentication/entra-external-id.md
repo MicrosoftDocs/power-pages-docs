@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Entra External ID with Power Pages (preview)
 description: Learn how to set up Microsoft Entra External ID authentication for use with sites you create with Microsoft Power Pages.
-ms.date: 09/18/2024
+ms.date: 09/23/2024
 ms.topic: how-to
 author: ankitavish
 ms.author: avishwakarma
@@ -50,7 +50,7 @@ If you don't already have an external tenant, create an external tenant in the [
 #### Register your application
 
 1. Copy the **Reply URL** from your Power Pages site.
-1. Sign in to the [Microsoft Entra Admin Center](https://entra.microsoft.com/#home) where you can [create an app registration](/azure/active-directory/develop/quickstart-register-app) using this URL as the redirect URI.
+1. Sign in to the [Microsoft Entra Admin Center](https://entra.microsoft.com/#home) where you can create an app registration using this URL as the redirect URI.
 1. Under **Applications** select the **App registrations** tab, and then select **New registration**.
 1. Name your application (for example *power-pages-app*).
 1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
@@ -65,7 +65,8 @@ If you don't already have an external tenant, create an external tenant in the [
 
 1. Within the [Microsoft Entra Admin Center](https://entra.microsoft.com/#home), select **External Identities** > **User flows**.
 1. Select **New user flow**. If New user flow is disabled, learn how to enable it at [Enable self-service sign-up for your tenant](/entra/external-id/self-service-sign-up-user-flow#enable-self-service-sign-up-for-your-tenant).
-1. Give the user flow a name (for example, *Power-pages-user-flow*) and select **Email one-time passcode**.
+1. Give the user flow a name (for example, *Power-pages-user-flow*) and select **Email one-time passcode** or
+**Email one-time passcode**.
 1. Select **Create**.
 
 #### Add your application to the user flow
