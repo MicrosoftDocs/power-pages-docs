@@ -5,7 +5,7 @@ author: ankitavish
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 07/09/2024
+ms.date: 09/18/2024
 ms.subservice: 
 ms.author: avishwakarma
 ms.reviewer: dmartens
@@ -21,6 +21,8 @@ This guide demonstrates how to implement the Azure File API. These steps empower
 > [!NOTE]
 > * Azure File size of up to 10 GB is supported.
 > * You can change the column names or use a different table while following the steps in this example.
+> * These APIs only work for records which are already created. Attachments uploaded using these APIs will be linked to that record.
+> * These APIs will perform multiple updates on the note (Annotation) entity as files are uploaded in chunks.
 
 ## Prerequisites
 
@@ -110,7 +112,7 @@ If you don't have a web role with permissions to the required table, use the fol
 
 1. Select **Save**.
 
-1. Follow similar steps to create one more permission for the Note (annotation) table with **Write**, **Read**, **Create**, **Append** privileges and add the same web role.
+1. Follow similar steps to create one more permission for the Note (annotation) table with **Write**, **Read**, **Create**, **Append** privileges, and add the same web role.
 
 ### Add contacts to the web role
 
@@ -193,7 +195,7 @@ Now that you enabled the Azure File API and configured user permissions, create 
 
     ```html
     <style>
-        .containerforfile
+    .containerforfile
     {
         display:flex;
         margin-bottom:30px; 
@@ -283,7 +285,7 @@ Now that you enabled the Azure File API and configured user permissions, create 
     (function(webapi, $){
                     function safeAjax(ajaxOptions) {
                         var deferredAjax = $.Deferred();
-        
+    
                         shell.getTokenDeferred().done(function (token) {
                         // add headers for AJAX
                         if (!ajaxOptions.headers) {
@@ -302,7 +304,7 @@ Now that you enabled the Azure File API and configured user permissions, create 
                 }).fail(function () {
                     deferredAjax.rejectWith(this, arguments); // on token failure pass the token AJAX and args
                 });
-        
+    
                 return deferredAjax.promise();  
             }
             webapi.safeAjax = safeAjax;
@@ -371,7 +373,7 @@ Now that you enabled the Azure File API and configured user permissions, create 
                 function uploadFileChunk(blockno)
                 {
                     var fileReader = new FileReader();
-                    
+    
                     if (blockno < numberOfBlocks)
                     {
                         var end = (blockno * chunkSize + chunkSize) > elementToChooseFile.files[0].size ? blockno * chunkSize + elementToChooseFile.files[0].size % chunkSize : blockno * chunkSize + chunkSize;
@@ -481,7 +483,7 @@ Now that you enabled the Azure File API and configured user permissions, create 
                         table.hidden = false;
                     }
                     var row = document.createElement("tr"); 
-                    
+    
                     var fileName = results[i]["filename"];
                     fileName = fileName.replace(".azure.txt", "");
                     var createdOn = results[i]["createdon"];
@@ -515,11 +517,11 @@ Now that you enabled the Azure File API and configured user permissions, create 
             url: url,
             type: "DELETE",
             success: function(){
-            
+    
                 var row = document.getElementById(entityId);     
                 row.parentNode.removeChild(row);
                 var table = document.getElementById('attachments');
-                
+    
                 if(table.hidden == false && table.tBodies[0].children.length == 0)
                 { 
                 var divForNoAttachment = document.getElementById("no-attachment-found");
@@ -533,6 +535,42 @@ Now that you enabled the Azure File API and configured user permissions, create 
             }
         });
     }
+    </script> 
+    <div style="margin-left:40px;"> 
+    <div class="containerforfile" style="display: flex;"> 
+      <input type="file" multiple="true" id="fileinput" onchange="chooseFile()" style="display: none;"> 
+      <button type="button" id="button-to-choosefile" onclick="selectFile()" class="btn btn-default btn-for-file">Choose File</button> 
+      <div id="filename" class="file-name">No File Selected</div> 
+    </div> 
+    <br> 
+    <div> 
+    <label for="filesize" id="file_size_label" class="field-label">FileSize(In MB): </label><div class="filesize" id="filesize"></div> 
+    <label for="starttime" id="start_time_label" class="field-label">StartTime:</label><div class="starttime" id="starttime"></div> 
+    <label for="endtime" id="end_time_label" class="field-label">EndTime:</label><div class="endtime" id="endtime"></div> 
+    </div> 
+     <div class="container-progress"> 
+         <div class="parent-progress" style="width: 100%;background-color: #c1c1c1;    height: 30px;     margin-top: 25px;    margin-bottom: 20px;">         
+            <div class="child-progress" style="width: 0%;    background-color: #53b453;    height: 100%;"></div>    
+          </div>            
+         <span class="prog">0%</span> 
+    </div> 
+    <br> 
+    <br> 
+    <h1>Attachments:</h1> 
+    <div id="loading"> Loading Attachments...</div> 
+     <div id="no-attachment-found" hidden>No Attachment Found!!</div> 
+     <table id="attachments" hidden> 
+      <thead> 
+        <tr> 
+          <th>File</th> 
+          <th>Created On</th>       
+          <th>Actions</th> 
+        </tr> 
+      </thead> 
+    <tbody> 
+    </tbody> 
+    </table> 
+    </div> 
     ```
 
 1. Select **CTRL**+**S** to save the code.

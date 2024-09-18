@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 7/09/2024
+ms.date: 09/18/2024
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -20,7 +20,7 @@ contributors:
 
 Azure Storage integration for Power Pages enables you to take advantage of the greater file storage capability of Azure, using the same interface and providing the same user experience as for default file attachments. This feature is supported for web files, basic forms, and multistep forms.
 
-## Enable Azure Blob Storage for basic or multistep forms
+## Enable Azure Blob Storage for basic or multistep forms with attachments
 
 You must create a storage account with **Resource manager** as the deployment model. More information: [Create an Azure storage account](/azure/storage/common/storage-account-create?tabs=azure-portal).
 
@@ -46,6 +46,19 @@ Azure storage integration only works with Notes configured in basic form met
 > [!NOTE]
 > * You must enable attachments for the table in Microsoft Dataverse first before using this feature. Learn more in [Create a table](/power-apps/maker/data-platform/data-platform-create-entity).
 > * The maximum per file upload size is 10 GB.
+
+## Enable Azure Blob Storage for timeline control
+
+To enable Azure Blob Storage for the timeline control:
+
+1. In the [Portal Management app](portal-management-app.md), within the **Website** section go to **Settings** > **New**, and add a new setting named **FileStorage/CloudStorageContainerName**, using the name of your container as the value.
+1. Create another setting named **FileStorage/CloudStorageAccount** with the value of your connection string.
+
+    To locate the value for FileStorage/CloudStorageAccount, get the connection string from the Azure portal:
+    1. Sign in to the [Azure portal](https://portal.azure.com).
+    1. Navigate to your storage account.
+    1. Select **Access Keys**.
+    1. In the resulting panel, locate the field labeled **Connection String**. Select the **Copy** icon next to the field for which you need to copy the value, and then paste that value into your new setting.
 
 ### Configure basic or multistep forms
 
