@@ -22,15 +22,15 @@ Azure Storage integration for Power Pages enables you to take advantage of the g
 
 ## Enable Azure Blob Storage for basic or multistep forms with attachments
 
-You must create a storage account with **Resource manager** as the deployment model. More information: [Create an Azure storage account](/azure/storage/common/storage-account-create?tabs=azure-portal).
+Create a storage account with **Resource manager** as the deployment model. For more information, see [Create an Azure storage account](/azure/storage/common/storage-account-create?tabs=azure-portal).
 
 After the storage account is running, add role based permissions to the app in Azure:
 
-1. Sign in to the [Azure portal](https://portal.azure.com) where the storage account was created.
-1. Go to **Resource groups** and select the resource group, which contains the storage account.
+1. Sign in to the [Azure portal](https://portal.azure.com), where the storage account was created.
+1. Go to **Resource groups** and select the resource group that contains the storage account.
 1. Select **Access Control (IAM)** > **Add** > **Add role assignment**.
 1. Select the **Reader** role and then select **Next**.
-1. Select **User, group, or service principal** and then select **Select members**.
+1. Select **User, group, or service principal**, and then select **Select members**.
 1. On the right side, select the portal application by searching your site name and then select the **Select** button. The application name is in the format `Portals-<site name>` with `<site name>` being the name of your Power Pages site.
 1. Select **Review + assign** >  **Review + assign**.
 1. Go to the storage account and select **Access Control (IAM)** > **Add** > **Add role assignment**.
@@ -39,12 +39,12 @@ After the storage account is running, add role based permissions to the app in A
 1. On the right side, select the portal application by searching your site name and then select the **Select** button.
 1. Select **Review + assign** >  **Review + assign**.
 
-Power Pages require certain global settings that tell the application how to locate your storage account.  
+Power Pages requires certain global settings that tell the application how to locate your storage account.  
 
-Azure storage integration only works with Notes configured in basic form metadata. Azure Blob as storage isn't used if you use Portal Comments that can be set up using Timeline. Though portal comments also provide capability for files to be uploaded as attachments, these files are only stored in Microsoft Dataverse.
+Azure storage integration only works with notes configured in basic form metadata. Azure Blob as storage isn't used if you use Portal Comments that can be set up using Timeline. Although portal comments also provide capability for files to be uploaded as attachments, these files are only stored in Microsoft Dataverse.
 
 > [!NOTE]
-> * You must enable attachments for the table in Microsoft Dataverse first before using this feature. Learn more in [Create a table](/power-apps/maker/data-platform/data-platform-create-entity).
+> * Before using this feature, you must enable attachments for the table in Microsoft Dataverse first. Learn more in [Create a table](/power-apps/maker/data-platform/data-platform-create-entity).
 > * The maximum per file upload size is 10 GB.
 
 ### Specify the storage container
