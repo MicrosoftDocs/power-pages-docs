@@ -42,8 +42,8 @@ This video provides an overview of the steps to configure authentication provide
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. In design studio, select **Set up**.  
-    - Under **Authentication**, choose **Identity Providers**.
+1. In design studio, select **Security**.  
+    - Under **Manage**, select **Identity Providers**.
     :::image type="content" source="media/tutorial/setup.png" alt-text="Choose an identity provider from the Setup menu.":::
 
 1. Select **Configure**.

@@ -5,7 +5,7 @@ author: ckwan-ms
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 09/15/2023
+ms.date: 09/20/2024
 ms.subservice:
 ms.author: ckwan
 ms.reviewer: dmartens
@@ -61,7 +61,7 @@ In our example, we create a Dataverse table called *Review* for our process. For
 
 1. Add some sample records to the table.
 
-1. In the **Set up** workspace, add a [table permission](../security/table-permissions.md) to allow read access and assign to appropriate web roles.
+1. In the **Security** workspace, add a [table permission](../security/table-permissions.md) to allow read access and assign to appropriate web roles.
 
 ### Create web template with manifest
 
