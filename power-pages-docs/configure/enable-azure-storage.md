@@ -47,29 +47,6 @@ Azure storage integration only works with Notes configured in basic form met
 > * You must enable attachments for the table in Microsoft Dataverse first before using this feature. Learn more in [Create a table](/power-apps/maker/data-platform/data-platform-create-entity).
 > * The maximum per file upload size is 10 GB.
 
-## Enable Azure Blob Storage for timeline control
-
-To enable Azure Blob Storage for the timeline control:
-
-1. In the [Portal Management app](portal-management-app.md), within the **Website** section go to **Settings** > **New**, and add a new setting named **FileStorage/CloudStorageContainerName**, using the name of your container as the value.
-1. Create another setting named **FileStorage/CloudStorageAccount** with the value of your connection string.
-
-    To locate the value for FileStorage/CloudStorageAccount, get the connection string from the Azure portal:
-    1. Sign in to the [Azure portal](https://portal.azure.com).
-    1. Navigate to your storage account.
-    1. Select **Access Keys**.
-    1. In the resulting panel, locate the field labeled **Connection String**. Select the **Copy** icon next to the field for which you need to copy the value, and then paste that value into your new setting.
-
-### Configure basic or multistep forms
-
-To view and add attachments stored in Azure on basic and multistep forms on your site, you need to [configure notes as attachments](configure-notes.md).
-
-You can then add attachments to records on web pages.
-
-Attachments uploaded via the site are stored in Azure.
-
-To view and access the attachments in a model-driven app (including Dynamics 365 apps), you need to [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md).
-
 ### Specify the storage container
 
 If you don't already have an Azure Blob container in your storage account, you must add one by using your Azure portal.
@@ -91,7 +68,7 @@ To enable Azure Blob Storage for web files, follow these steps to add a [CORS ru
 
 You must add cross-origin resource sharing (CORS) rule on your Azure Storage account as follows, otherwise you see the regular attachment icon rather than the cloud icon:
 
-* **Allowed origins**: Specify your domain. For example, `https://contoso.crm.dynamics.com` <br /> Ensure the allowed origin doesn't have a trailing `/`. For example, `https://contoso.crm.dynamics.com/` is incorrect.
+* **Allowed origins**: Specify your domain. For example, `https://contoso.crm.dynamics.com` <br /> Make sure the allowed origin doesn't have a trailing `/`. For example, `https://contoso.crm.dynamics.com/` is incorrect.
 * **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
 * **Allowed headers**: Specify the request headers that the origin domain might specify on the CORS request. For example, x-ms-meta-data\*, x-ms-meta-target\*, or \* to allow all.
 * **Exposed headers**: Specify the response headers that might be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*, or \* to allow all.
@@ -112,6 +89,27 @@ Add the following site settings from **Portals** > **Site Settings**. Learn more
 |WebFiles/CloudStorageAccount|Provide the same connection string as provided for the FileStorage/CloudStorageAccount setting.|
 |WebFiles/StorageLocation|AzureBlobStorage|
 |||
+
+## Enable Azure Blob Storage for timeline control
+
+To enable Azure Blob Storage for the timeline control:
+
+1. In the [Portal Management app](portal-management-app.md), within the **Website** section go to **Settings** > **New**, and add a new setting named **FileStorage/CloudStorageContainerName**, using the name of your container as the value.
+1. Create another setting named **FileStorage/CloudStorageAccount** with the value of your connection string.
+
+    To locate the value for FileStorage/CloudStorageAccount, get the connection string from the Azure portal:
+    1. Sign in to the [Azure portal](https://portal.azure.com).
+    1. Go to your storage account.
+    1. Select **Access Keys**.
+    1. In the resulting panel, locate the field labeled **Connection String**. Select the **Copy** icon next to the field for which you need to copy the value, and then paste that value into your new setting.
+
+### Configure notes as attachments using Portals Management app
+
+To view and add attachments stored in Azure on basic and multistep forms on your site, you need to [Set up notes as attachments for basic and multistep forms](configure-notes.md).
+
+You can then add attachments to records on web pages. Attachments uploaded via the site are stored in Azure.
+
+To view and access the attachments in a model-driven app (including Dynamics 365 apps), you need to [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md).
 
 ## See also
 
