@@ -5,7 +5,7 @@ author: ankitavish
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 07/09/2024
+ms.date: 09/20/2024
 ms.subservice: 
 ms.author: avishwakarma
 ms.reviewer: dmartens
@@ -92,9 +92,9 @@ If you don't have a web role with permissions to the required table, use the fol
 
 1. Open [Power Pages design studio](../getting-started/use-design-studio.md).
 
-1. Select the **Set up** workspace.
+1. Select the **Security** workspace.
 
-1. Under the **Security** section, select **Table permissions**.
+1. Under the **Protect** section, select **Table permissions**.
 
 1. Select **New permission**.
 
