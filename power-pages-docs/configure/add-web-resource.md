@@ -18,7 +18,7 @@ contributors:
 # Add the Azure Storage web resource to a form
 
 > [!NOTE]
-> The steps in this topic describe adding a component to view and add file attachments to Azure for a model-driven app. The control is not usable on a basic or multistep form component on a webpage. It is recommended to use a different Dataverse form for creating basic and multistep forms for the webpage. See [Enable Azure storage](enable-azure-storage.md#enable-azure-blob-storage-for-basic-or-multistep-forms-with-attachments) for more information on configuring forms to add and view attachments stored in Azure.
+> The steps in this topic describe adding a component to view and add file attachments to Azure for a model-driven app. The control is not usable on a basic or multistep form component on a webpage. It is recommended to use a different Dataverse form for creating basic and multistep forms for the webpage. See [Enable Azure storage](enable-azure-storage.md#enable-azure-blob-storage-for-timeline-control) for more information on configuring forms to add and view attachments stored in Azure.
 
 Attachments uploaded to Azure Storage (instead of directly to Microsoft Dataverse) can be managed by using notes in Dataverse.
 
