@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider with Microsoft Entra ID
 description: Learn how to set up an OpenID Connect identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
-ms.date: 07/19/2023
+ms.date: 09/10/2024
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -32,7 +32,7 @@ This article describes the following steps:
 
 Set Microsoft Entra as an identity provider for your site.
 
-1. In your Power Pages site, select **Set up** > **Identity providers**.
+1. In your Power Pages site, select **Security** > **Identity providers**.
 
     If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
