@@ -1,5 +1,5 @@
 ﻿---
-title: Add AI summary list (preview)
+title: Add AI summary to list (preview)
 description: Learn more about how the AI summary list feature works to simplify and summarize data in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: conceptual
@@ -13,11 +13,11 @@ contributors:
     - tapanm
 ---
 
-# Add AI summary list (preview)
+# Add AI summary to list (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The AI summary list feature simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. The feature enhances user efficiency and makes it easier for users to analyze data. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights. The AI summary list provides easy-to-understand chart formats and concise data summaries.
+The AI summary feature for list simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. The feature enhances user efficiency and makes it easier for users to analyze data. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights. The AI summary list provides easy-to-understand chart formats and concise data summaries.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
@@ -25,7 +25,7 @@ This guide walks you through enabling and configuring the AI-powered insights fo
 
 ## Benefits
 
-AI summary list provides the following benefits:
+AI summary for list provides the following benefits:
 
 - **Chart Visualizations:** The feature converts complex data lists into graphical charts, making trends and key data points more accessible and easier to understand.
 

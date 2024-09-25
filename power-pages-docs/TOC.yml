@@ -664,6 +664,8 @@
               href: configure/azure-ad-b2c.md
             - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
+            - name: Microsoft Entra External ID
+              href: security/authentication/entra-external-id.md
             - name: OpenID Connect FAQs
               href: security/authentication/openid-faqs.md
         - name: SAML 2.0

@@ -1,7 +1,7 @@
 ---
 title: Set up a SAML 2.0 provider with AD FS
 description: Learn how to set up a SAML 2.0 identity provider with Active Directory Federation Services (AD FS) for use with sites you create with Microsoft Power Pages.
-ms.date: 07/19/2023
+ms.date: 09/10/2024
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -30,7 +30,7 @@ This article describes the following steps:
 
 Set AD FS as an identity provider for your site.
 
-1. In your Power Pages site, select **Set up** > **Identity providers**.
+1. In your Power Pages site, select **Security** > **Identity providers**.
 
     If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
