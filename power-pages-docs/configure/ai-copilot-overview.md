@@ -2,7 +2,7 @@
 title: Overview of AI-powered and Copilot features in Power Pages
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 06/12/2024
+ms.date: 09/13/2024
 author: sandhangitmsft
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -17,11 +17,12 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:09/06/2023
   - bap-template
+  - copilot-learning-hub
 ---
 
 # Overview of AI-powered and Copilot features in Power Pages
 
-Copilot is a set of next-generation AI enhancements that are revolutionizing how you build and launch business websites with Power Pages. Copilot simplifies creating forms, incorporating text, embedding chatbots, and other tasks with a user-friendly, conversational interface that doesn't require years of coding experience. It also offers site users and visitors an enhanced experience, shifting away from traditional click-based navigation and allowing them to uncover information and insights through engaging conversational interactions with your site.
+Copilot is a set of next-generation AI enhancements that revolutionize how you build and launch business websites with Power Pages. Copilot simplifies creating forms, incorporating text, embedding chatbots, and other tasks with a user-friendly, conversational interface that doesn't require years of coding experience. It also offers site users and visitors an enhanced experience, shifting away from traditional click-based navigation and allowing them to uncover information and insights through engaging conversational interactions with your site.
 
 ## AI-powered features for makers
 
@@ -35,6 +36,13 @@ The following features streamline the website creation process with Copilot:
 - [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
 - [Ask Copilot questions](../getting-started/ask-copilot.md)
 - [Create an AI-generated color theme using Copilot](../getting-started/theme-copilot.md)
+- [Add AI summary list](../getting-started/add-ai-summary-list.md)
+
+## AI-powered features for admins
+
+The following features streamline the administration experience with Copilot:
+
+[Disable Generative AI features your users (preview)](../admin/copilot-governance.md)
 
 ## AI-powered features for users
 
@@ -42,6 +50,7 @@ The following features make it easier for your website users to locate the infor
 
 - [Add an AI-powered copilot](../getting-started/enable-chatbot.md)
 - [Search with generative AI (preview)](search/generative-AI.md)
+- [AI form fill assistance](../getting-started/add-form.md#enable-ai-form-fill-assistance-on-a-form-preview)
 
 ## Availability
 

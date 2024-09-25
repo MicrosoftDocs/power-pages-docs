@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/30/2024
+ms.date: 09/20/2024
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -59,7 +59,7 @@ To use the document management capabilities of SharePoint, you must enable Share
     **Or**
 
     1. In the **Environments** section, select the environment that contains the site you want to enable SharePoint integration.
-    
+
     1. In the **Resources** area, choose **Power Pages sites**.
 
     1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
@@ -84,7 +84,7 @@ To use the document management capabilities of SharePoint, you must enable Share
     **Or**
 
     1. In the **Environments** section, select the environment that contains the site you want to disable SharePoint integration.
-    
+
     1. In the **Resources** area, choose **Power Pages sites**.
 
     1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
@@ -147,8 +147,8 @@ The **Data from this form** setting on the **Data** tab of the form configuratio
 
 Two table permission records are required to establish the necessary access to view and upload documents.
 
-1. Go to the **Set up** workspace and select **Table permissions**.
-1. Create a **Table permission** record specifying the **Table** used in the basic form or multistep form configured previously. 
+1. Go to the **Security** workspace and select **Table permissions**.
+1. Create a **Table permission** record specifying the **Table** used in the basic form or multistep form configured previously.
 1. Select a **Access type** and access type relationship that is appropriate to the behavior of the form that you want.
 1. Enable **Read** and **Append to** privileges to allow read access to documents and optionally enable **Write** privilege to allow document uploads. 
 1. Under **Roles**, select an appropriate webrole.
@@ -157,8 +157,8 @@ Two table permission records are required to establish the necessary access to v
 1. Select the **Document Location** as the table.
 1. Select the **Relationship**
 1. Select **Permissions**
-    - The minimum privileges to allow read access to documents is **Read**. 
-    - Include  **Create**, **Write**, and **Append** privileges for document upload access. 
+    - The minimum privileges to allow read access to documents is **Read**.
+    - Include  **Create**, **Write**, and **Append** privileges for document upload access.
     - Include **Delete** to allow deletion of a document.
 1. Select **Save**
 

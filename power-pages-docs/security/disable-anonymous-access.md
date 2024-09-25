@@ -4,7 +4,7 @@ description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2023
+ms.date: 09/09/2023
 ms.author: vamseedilli
 ms.reviewer: kkendrick
 contributors:
@@ -22,7 +22,6 @@ As an administrator, you can disable anonymous access. This setting prohibits un
 >[!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - This feature is being gradually rolled out across regions and may not be available yet in your region.
 
 ## Admin experience
 
