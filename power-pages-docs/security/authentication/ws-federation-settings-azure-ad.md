@@ -1,7 +1,7 @@
 ---
 title: Set up a WS-Federation provider with Microsoft Entra ID
 description: Learn how to set up a WS-Federation identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
-ms.date: 09/10/2024
+ms.date: 09/24/2024
 ms.topic: how-to
 author: nageshbhat-msft
 ms.author: nabha
