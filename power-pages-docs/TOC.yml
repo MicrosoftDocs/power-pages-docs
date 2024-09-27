@@ -300,7 +300,7 @@
       href: configure/devtools-addon.md
     - name: View Power Pages activity logging in Microsoft Purview (preview)
       href: /power-platform/admin/logging-power-pages
-    - name: Disable Generative AI features for users (preview)
+    - name: Control use of Generative AI features for users (preview)
       href: admin/copilot-governance.md
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
