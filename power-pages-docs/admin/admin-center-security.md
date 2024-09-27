@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/09/2024
+ms.date: 09/11/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: kkendrick
@@ -55,9 +55,27 @@ Select **View details** to review the WAF setting for each website.
 
 Select **View details** to review the external authentication configuration for each website.
 
-## Site security health
+## Renew Website authentication key
 
-**Site security health** dashboard gives you a summary of the websites in your organization related to security status. The security status of a website is determined based on certain security checks that are run for each website. For more information, go to [Security site checker](../security/site-checker-security.md).
+**Renew Website authentication key** shows the number of production websites where the [website authentication key](manage-auth-key.md) expired or expires within 90 days.
+
+Website authentication key has a fixed validity period and requires timely renewal to continue providing the security benefits & ensure uninterrupted access. Failure to renew the website authentication key before it expires can lead to security vulnerabilities and make the website inaccessible to end users.
+
+Learn more about how to update the website authentication key at [Renew website authentication key](manage-auth-key.md#renew-authentication-key).
+
+Select **View details** to review the website authentication expiry details for each website.
+
+## Renew SSL Certificate key
+
+**Renew SSL Certificate key** shows the number of production websites where the [SSL certificate](add-custom-domain.md) expired or expires within 90 days.
+
+SSL certificates have a fixed validity period and require timely renewal to continue providing the security benefits. Failure to renew SSL certificates before they expire can result in security vulnerabilities, loss of user trust etc. Learn more about how to renew the certificate at [Renew SSL certificate](add-custom-domain.md#renew-or-reissue-ssltls-certificate-for-power-pages).
+
+Select **View details** to review the SSL certificate expiry details for each website.
+
+## Quick scan
+
+Quick scan gives you a summary of the websites in your organization related to security status. The security status of a website is determined based on certain security checks that are run for each website. For more information, go to [Security site checker](../security/site-checker-security.md).
 
 The security health is calculated by looking at various configuration parameters and identifying common issues. These checks aren't exhaustive and we recommend you continue following website security best practices.
 
