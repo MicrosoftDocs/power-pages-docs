@@ -1,6 +1,6 @@
 ﻿---
-title: Disable Generative AI features for users (preview)
-description: Learn how to disable generative AI features for your users of your Microsoft Power Pages websites.
+title: Control use of Generative AI features for users (preview)
+description: Learn how to control use of generative AI features for your users of your Microsoft Power Pages websites.
 author: vamseedillimsft
 ms.topic: conceptual
 ms.date: 09/13/2024
@@ -13,7 +13,7 @@ contributors:
     - tapanm
 ---
 
-# Disable Generative AI features for users (preview)
+# Control use of Generative AI features for users (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
