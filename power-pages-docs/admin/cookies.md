@@ -12,7 +12,6 @@ ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
     - neerajnandwana-msft
-    - nickdoelman
 ---
  
 # Cookies in Power Pages

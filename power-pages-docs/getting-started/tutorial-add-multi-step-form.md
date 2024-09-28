@@ -10,7 +10,6 @@ ms.author: prpadalw
 ms.reviewer: danamartens
 contributors:
     - pranita225
-    - nickdoelman
 ---
 
 # Tutorial: Add a multistep form to your page

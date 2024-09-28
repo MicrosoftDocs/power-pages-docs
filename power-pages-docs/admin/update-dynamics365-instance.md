@@ -11,7 +11,6 @@ ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Update the Dynamics 365 instance for your Power Pages site

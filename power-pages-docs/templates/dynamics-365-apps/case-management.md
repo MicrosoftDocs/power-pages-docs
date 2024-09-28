@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: dileeps
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Manage cases in Power Pages

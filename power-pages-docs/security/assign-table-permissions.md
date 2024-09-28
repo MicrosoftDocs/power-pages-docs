@@ -7,7 +7,6 @@ author: gitanjalisingh33msft
 ms.author: gisingh
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ms.custom: bap-template
 ---
 

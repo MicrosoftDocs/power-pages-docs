@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: avishwakarma 
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - ankitavish
 ---
 # Tutorial: Add custom CSS to your site

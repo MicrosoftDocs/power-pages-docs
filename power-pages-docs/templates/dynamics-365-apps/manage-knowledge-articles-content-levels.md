@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: meeram
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Manage knowledge articles by using content access levels

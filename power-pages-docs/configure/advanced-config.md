@@ -1,7 +1,7 @@
 ---
 title: Advanced configuration in Power Pages
 description: Learn about advanced configuration options of Power Pages.
-author: nickdoelman
+author: danamartens
 ms.topic: conceptual
 ms.custom: 
 ms.date: 5/24/2022
@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: danamartens
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
 ---
 
 # Advanced configuration

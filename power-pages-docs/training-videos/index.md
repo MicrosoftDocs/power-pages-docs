@@ -8,7 +8,6 @@ ms.date: 2/23/2023
 ms.author: ammaddala
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - iammaddala
 ---
 

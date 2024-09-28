@@ -1,14 +1,13 @@
 ﻿---
 title: Power Pages white papers
 description: Power Pages white papers
-author: nickdoelman
+author: danamartens
 ms.topic: overview
 ms.custom: 
 ms.date: 11/14/2022
 ms.author: danamartens
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Power Pages white papers

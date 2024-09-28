@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Compliance and privacy

@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: ammaddala 
 ms.reviewer: 
 contributors:
-    - nickdoelman
     - iammaddala
 ---
 

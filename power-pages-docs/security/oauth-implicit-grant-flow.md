@@ -7,10 +7,8 @@ author: gitanjalisingh33msft
 ms.author: gisingh
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - GitanjaliSingh33msft
     - dileepsinghmicrosoft
-    - nickdoelman
     - nabha-msft
 ---
 

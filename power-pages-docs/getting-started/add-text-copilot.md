@@ -9,7 +9,6 @@ ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - nickdoelman
     - ckwan-ms
     - DanaMartens
 ms.custom: bap-template

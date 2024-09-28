@@ -11,7 +11,6 @@ ms.reviewer: danamartens
 contributors:
     - ankitavish
     - rob-moyer
-    - nickdoelman
 ---
 
 # Style your pages site

@@ -1,14 +1,13 @@
 ---  
 title: Preview features in trial - Power Pages | Microsoft Docs
 description: "Learn about the Power Pages features that are in preview."
-author: nickdoelman
+author: danamartens
 ms.author: tbhagwat
 ms.date: 3/21/2023
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Preview features in Power Pages trial

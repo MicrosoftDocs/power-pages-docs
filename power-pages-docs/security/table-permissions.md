@@ -9,7 +9,6 @@ ms.author: gisingh
 ms.reviewer: danamartens
 contributors:
     - gitanjalisingh33msft
-    - nickdoelman
 ---
 
 # Configuring table permissions

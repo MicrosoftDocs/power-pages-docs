@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: gisingh 
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - GitanjaliSingh33msft
 ---
 # Tutorial: Use dataset code components

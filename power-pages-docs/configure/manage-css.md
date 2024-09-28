@@ -10,7 +10,6 @@ ms.author: ckwan
 ms.reviewer: dmartens
 contributors:
     - ankitavish
-    - nickdoelman
 ---
 
 # Manage CSS files

@@ -10,7 +10,6 @@ ms.author: prpadalw
 ms.reviewer: dmartens
 contributors:
     - pranita225
-    - nickdoelman
     - DanaMartens
 ---
 

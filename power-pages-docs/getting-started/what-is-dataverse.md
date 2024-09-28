@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: prpadalw
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - pranita225
 ---
 

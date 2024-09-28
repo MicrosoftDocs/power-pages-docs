@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
   - neerajnandwana-msft
   - mduelae
-  - nickdoelman
 ---
 
 # How to: Use portal Web API

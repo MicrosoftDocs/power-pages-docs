@@ -8,7 +8,6 @@ ms.date: 5/17/2024
 ms.author: nikpol
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - NikitaPolyakovMSFT
 ---
 

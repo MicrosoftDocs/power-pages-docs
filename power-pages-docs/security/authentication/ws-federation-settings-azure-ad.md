@@ -7,7 +7,6 @@ author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
     - nageshbhat-msft

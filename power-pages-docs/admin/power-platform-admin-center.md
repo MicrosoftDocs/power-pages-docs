@@ -12,7 +12,6 @@ ms.reviewer: danamartens
 contributors:
     - vamseedillimsft
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Manage websites from the Power Platform admin center

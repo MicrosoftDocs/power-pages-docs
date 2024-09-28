@@ -7,7 +7,6 @@ ms.custom: nabha
 ms.date: 05/16/2024
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - nageshbhat-msft
 ---
 

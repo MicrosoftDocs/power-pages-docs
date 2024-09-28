@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Configure authorized access to your site"
 description: Learn how to configure Azure AD B2C authentication provider to your Power Pages site.
-author: nickdoelman
+author: danamartens
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 06/02/2022
@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: danamartens 
 ms.reviewer: 
 contributors:
-    - nickdoelman
 ---
 
 # Tutorial: Configure authorized access to your site

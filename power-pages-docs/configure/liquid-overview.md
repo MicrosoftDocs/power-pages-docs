@@ -9,7 +9,6 @@ ms.date: 06/15/2022
 ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
 ---
 
 # Use Liquid

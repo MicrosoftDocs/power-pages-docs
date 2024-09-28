@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
     - mduelae
-    - nickdoelman
 ---
 
 # Use portals Web API write, update, and delete operations

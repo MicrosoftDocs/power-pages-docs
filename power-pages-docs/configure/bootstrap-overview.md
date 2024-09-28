@@ -7,7 +7,6 @@ author: ankitavish
 ms.author: avishwakarma
 ms.reviewer: dmartens
 contributors:
-  - ProfessorKendrick
   - DanaMartens
 ms.custom:
   - ai-gen-docs-bap

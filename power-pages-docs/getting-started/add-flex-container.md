@@ -7,7 +7,6 @@ ms.date: 05/23/2024
 ms.author: ckwan
 ms.reviewer: danamartens
 contributors:
-  - ProfessorKendrick
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

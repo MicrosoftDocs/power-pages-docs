@@ -10,8 +10,6 @@ ms.collection:
  - bap-ai-copilot
 contributors:
   - clromano
-  - nickdoelman
-  - ProfessorKendrick
   - DanaMartens
   - ankitavish
 ms.custom:

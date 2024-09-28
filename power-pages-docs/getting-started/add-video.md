@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: ckwan 
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - ckwan-ms
 ---
 

@@ -8,7 +8,6 @@ ms.author: nabha
 ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
-    - nickdoelman
 ms.custom: bap-template
 ---
 

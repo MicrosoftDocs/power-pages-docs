@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: ammaddala
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - iammaddala
 ---
 # How to use the learning hub

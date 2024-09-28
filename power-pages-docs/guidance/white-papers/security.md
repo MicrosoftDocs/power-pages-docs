@@ -1,14 +1,13 @@
 ---
 title: Power Pages security white paper
 description: Learn about Power Pages' security capabilities, which offer enhanced control, protection, and security for administrators, website makers, and website visitors.
-author: ProfessorKendrick
+author: danamartens
 ms.topic: overview
 ms.custom: 
 ms.date: 11/14/2022
 ms.author: danamartens
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Power Pages security white paper

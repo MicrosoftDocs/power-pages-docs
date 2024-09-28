@@ -1,14 +1,13 @@
 ---
 title: Power Pages architecture white paper
 description: Learn about Power Pages' architecture, which enables Power Pages to scale, offer high reliability and availability, and protect business data to offer enterprise grade compliance and security.
-author: nickdoelman
+author: danamartens
 ms.topic: overview
 ms.custom: 
 ms.date: 11/14/2022
 ms.author: danamartens
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Power Pages architecture white paper

@@ -11,7 +11,6 @@ ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
     - gitanjalisingh33msft
-    - nickdoelman
 ---
 
 # Add the Azure Storage web resource to a form

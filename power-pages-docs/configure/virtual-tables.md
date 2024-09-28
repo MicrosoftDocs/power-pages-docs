@@ -8,7 +8,6 @@ ms.date: 05/21/2024
 ms.author: nabha
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - nageshbhat-msft
 ---
 

@@ -11,7 +11,6 @@ ms.author: dileeps
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Power Pages connectivity to a Microsoft Dataverse

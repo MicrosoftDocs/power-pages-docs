@@ -9,7 +9,6 @@ ms.author: ckwan
 ms.reviewer: danamartens
 contributors:
     - clromano
-    - nickdoelman
 ---
 
 # Use design studio

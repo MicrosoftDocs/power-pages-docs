@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: meeram
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Display file attachments with knowledge articles

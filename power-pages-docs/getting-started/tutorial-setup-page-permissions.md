@@ -10,7 +10,6 @@ ms.author: avishwakarma
 ms.reviewer: danamartens
 contributors:
     - ankitavish
-    - nickdoelman
 ---
 
 # Tutorial: Set up page permissions

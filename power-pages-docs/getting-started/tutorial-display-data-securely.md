@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: gisingh 
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - gitanjalisingh33msft
 ---
 

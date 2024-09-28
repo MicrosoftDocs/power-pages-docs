@@ -11,7 +11,6 @@ ms.collection:
     - bap-ai-copilot
 contributors:
     - sandhangitmsft
-    - nickdoelman
     - DanaMartens
 ---
 

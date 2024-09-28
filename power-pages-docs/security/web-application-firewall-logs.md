@@ -7,7 +7,6 @@ ms.date: 05/31/2024
 ms.author: nabha
 ms.reviewer: danamartens
 contributors:
-  - ProfessorKendrick
   - nageshbhat-msft
 ms.custom:
   - ai-gen-docs-bap

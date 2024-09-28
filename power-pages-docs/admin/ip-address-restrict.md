@@ -11,7 +11,6 @@ ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Restrict website access by IP address

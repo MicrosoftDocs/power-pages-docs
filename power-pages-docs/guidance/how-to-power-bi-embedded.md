@@ -8,7 +8,6 @@ ms.date: 04/30/2024
 ms.author: skyshon
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - skyshon
     - nageshbhat-msft
 ---

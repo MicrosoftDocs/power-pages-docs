@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: deepabansal 
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Starter layout templates

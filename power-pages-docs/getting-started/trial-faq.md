@@ -8,7 +8,6 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sampatn
 ---
 

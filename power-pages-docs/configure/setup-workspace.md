@@ -10,7 +10,6 @@ ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
 ---
 
 # Overview of the Power Pages Set up workspace

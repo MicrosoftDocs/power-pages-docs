@@ -8,7 +8,6 @@ ms.date: 03/02/2023
 ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
 ---
 
 # Overview of Power Pages ALM

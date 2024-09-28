@@ -10,7 +10,6 @@ ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
     - gitanjalisingh33msft
-    - nickdoelman
 ---
 
 # Use Power Platform pipelines with Power Pages

@@ -11,7 +11,6 @@ ms.author: dileeps
 ms.reviewer: danamartens
 contributors:
     - dileepsinghmicrosoft
-    - nickdoelman
 ---
 
 # Power Pages architecture

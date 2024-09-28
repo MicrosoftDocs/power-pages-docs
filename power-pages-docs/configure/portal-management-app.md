@@ -8,7 +8,6 @@ ms.date: 06/03/2024
 ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - gitanjalisingh33msft
     - DanaMartens
 ---

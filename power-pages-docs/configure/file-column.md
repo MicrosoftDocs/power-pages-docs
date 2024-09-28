@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: nabha
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
 ---
 
 # Configure a file column on Power Pages 

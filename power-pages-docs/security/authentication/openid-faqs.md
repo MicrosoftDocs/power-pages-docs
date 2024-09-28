@@ -7,7 +7,6 @@ author: dileepsinghmicrosoft
 ms.author: dileeps
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
 ms.custom: bap-template

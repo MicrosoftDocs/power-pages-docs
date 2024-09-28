@@ -10,9 +10,7 @@ ms.subservice:
 ms.author: nabha
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
-    - Professor Kendrick
     - nageshbhat-msft
 ---
 

@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: prvaidy
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - KumarVivek
 ---
 

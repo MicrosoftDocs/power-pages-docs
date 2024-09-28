@@ -9,8 +9,7 @@ ms.subservice:
 ms.author: dileeps
 ms.reviewer: danamartens
 contributors: 
-   dileepsinghmicrosoft
-   ProfessorKendrick
+ - dileepsinghmicrosoft
 ms.contributors: psimolin
 ---
 

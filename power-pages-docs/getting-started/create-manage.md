@@ -1,7 +1,7 @@
 ---
 title: Create a site with Power Pages
 description: Learn how to create a site with Power Pages.
-author: nickdoelman
+author: danamartens
 ms.topic: conceptual
 ms.custom: 
 ms.date: 07/09/2024
@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: tbhagwat
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - DanaMartens
 ---
 

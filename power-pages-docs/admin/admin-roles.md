@@ -12,7 +12,6 @@ ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
     - vamseedillimsft
-    - nickdoelman
 ---
 
 # Roles required for website administration

@@ -10,9 +10,7 @@ ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
-    - ProfesorKendrick
 ---
 
 # Configure multistep form subgrids for Power Pages

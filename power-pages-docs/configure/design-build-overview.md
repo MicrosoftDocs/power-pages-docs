@@ -10,7 +10,6 @@ ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
 ---
 
 # Overview of designing and building sites

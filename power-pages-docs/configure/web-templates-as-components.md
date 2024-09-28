@@ -10,7 +10,6 @@ ms.subservice:
 ms.author: ckwan
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - clromano
 ---
 

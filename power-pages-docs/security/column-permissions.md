@@ -7,7 +7,6 @@ author: neerajnandwana-msft
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - neerajnandwana-msft
 ms.custom: bap-template
 ---

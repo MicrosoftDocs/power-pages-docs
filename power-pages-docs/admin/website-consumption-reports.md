@@ -11,7 +11,6 @@ ms.author: sandhan
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
  
 # Website capacity consumption reports

@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: sampatn
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sampatn
 ---
 

@@ -11,7 +11,6 @@ ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - nickdoelman
 ---
 
 # FAQ for AI-generated code using Copilot

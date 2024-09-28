@@ -9,7 +9,6 @@ ms.author: vamseedilli
 ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
-    - nickdoelman
 ---
 
 # Use governance controls to disable anonymous access (preview)

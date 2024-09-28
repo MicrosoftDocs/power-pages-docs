@@ -10,7 +10,6 @@ ms.subservice:
 ms.author: sandhan
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
     - DanaMartens

@@ -9,7 +9,6 @@ ms.custom: template-trial-setup
 ms.reviewer: danamartens
 contributors:
     - sampatn
-    - nickdoelman
 ---
 
 # Sign up for a free Power Pages trial

@@ -8,7 +8,6 @@ ms.date: 07/10/2024
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - DanaMartens
 ---
 

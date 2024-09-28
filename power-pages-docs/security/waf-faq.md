@@ -7,7 +7,6 @@ ms.date: 07/11/2024
 ms.author: nabha
 ms.reviewer: danamartens
 contributors:
-  - ProfessorKendrick
   - nageshbhat-msft
 ---
 

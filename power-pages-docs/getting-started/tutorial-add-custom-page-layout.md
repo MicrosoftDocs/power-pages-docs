@@ -10,7 +10,6 @@ ms.author: gisingh
 ms.reviewer: danamartens 
 contributors:
     - gitanjalisingh33msft
-    - nickdoelman
 ---
 # Tutorial: Add custom page layout to your site
 

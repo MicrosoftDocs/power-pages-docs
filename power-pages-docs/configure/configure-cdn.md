@@ -11,7 +11,6 @@ ms.author: nabha
 ms.reviewer: dmartens
 contributors:
     - nageshbhat-msft
-    - nickdoelman
 ---
 
 # Content Delivery Network

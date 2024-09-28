@@ -10,7 +10,6 @@ ms.author: prpadalw
 ms.reviewer: danamartens
 contributors:
     - pranita225
-    - nickdoelman
 ---
 # Overview of the Data workspace
 

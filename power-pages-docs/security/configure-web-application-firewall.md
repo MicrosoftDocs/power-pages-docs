@@ -8,7 +8,6 @@ ms.date: 8/23/2023
 ms.author: dileeps
 ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - dileepsinghmicrosoft
     - nageshbhat-msft 
 ---
