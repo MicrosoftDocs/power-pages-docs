@@ -7,9 +7,8 @@ ms.custom:
 ms.date: 04/21/2023
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
 ---
 
 # Compliance and privacy

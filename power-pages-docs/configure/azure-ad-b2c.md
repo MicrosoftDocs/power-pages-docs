@@ -8,9 +8,8 @@ ms.custom:
 ms.date: 06/03/2024
 ms.subservice:
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
     - DanaMartens

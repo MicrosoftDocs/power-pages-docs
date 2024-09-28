@@ -7,10 +7,9 @@ ms.collection: get-started
 ms.date: 05/01/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Provision a site using the older add-on

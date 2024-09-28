@@ -8,12 +8,10 @@ ms.custom:
 ms.date: 08/30/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
     - vamseedillimsft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Roles required for website administration

@@ -6,10 +6,8 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 8/23/2023
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - dileepsinghmicrosoft
     - nageshbhat-msft 
 ---

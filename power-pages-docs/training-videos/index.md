@@ -6,9 +6,8 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 2/23/2023
 ms.author: ammaddala
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - iammaddala
 ---
 

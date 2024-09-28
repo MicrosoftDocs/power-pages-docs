@@ -5,9 +5,8 @@ ms.date: 07/19/2023
 ms.topic: overview
 author: sandhangitmsft
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
 ms.custom: bap-template

@@ -7,10 +7,9 @@ ms.custom:
 ms.date: 09/11/2024
 ms.subservice: 
 ms.author: vamseedilli
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - vamseedillimsft
-    - professorkendrick
     - DanaMartens
 ---
 

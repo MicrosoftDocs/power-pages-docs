@@ -7,11 +7,9 @@ ms.custom:
 ms.date: 05/08/2024
 ms.subservice:
 ms.author: ckwan 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - clromano
-    - nickdoelman
-    - ProfessorKendrick
     - DanaMartens
 ---
 

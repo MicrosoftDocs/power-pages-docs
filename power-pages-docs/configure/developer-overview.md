@@ -10,7 +10,6 @@ ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ms.collection: 
     - bap-ai-copilot
 ---

@@ -7,10 +7,8 @@ ms.custom:
 ms.date: 05/01/2024
 ms.subservice:
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - KumarVivek
     - dileepsinghmicrosoft
 ---

@@ -7,10 +7,8 @@ ms.custom: template-tutorial
 ms.date: 02/21/2023
 ms.subservice:
 ms.author: avishwakarma 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - ankitavish
 ---
 # Tutorial: Add custom CSS to your site
