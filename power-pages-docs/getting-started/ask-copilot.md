@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot questions in Power Pages
 description: Get answers to questions using Copilot in Power Pages.
-author: danamartens
+author: dmartens
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/30/2024

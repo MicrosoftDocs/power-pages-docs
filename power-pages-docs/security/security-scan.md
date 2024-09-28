@@ -1,7 +1,7 @@
 ---
 title: Run security scan (preview)
 description: Learn how to identify and address security vulnerabilities in Power Pages with security scan.
-author: danamartens
+author: dmartens
 ms.topic: how-to
 ms.custom: 
 ms.date: 05/31/2024
