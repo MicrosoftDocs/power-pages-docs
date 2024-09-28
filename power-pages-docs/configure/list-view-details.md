@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Adding a view details page

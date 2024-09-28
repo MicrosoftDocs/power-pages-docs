@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.collection: get-started
 author: sandhangitmsft
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
     - sandhangitmsft

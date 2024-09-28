@@ -4,11 +4,10 @@ description: Learn how to secure the websites you create with Microsoft Power Pa
 ms.date: 05/17/2024
 ms.topic: overview
 author: nickdoelman
-ms.author: kkendrick
-ms.reviewer: kkendrick
+ms.author: danamartens
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
     - avishwakarma
 ms.custom: bap-template
 ---

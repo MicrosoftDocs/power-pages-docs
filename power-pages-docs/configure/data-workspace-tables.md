@@ -11,7 +11,6 @@ ms.reviewer: dmartens
 contributors:
     - pranita225
     - nickdoelman
-    - ProfessorKendrick
     - DanaMartens
 ---
 

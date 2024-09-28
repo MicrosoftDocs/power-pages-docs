@@ -7,11 +7,10 @@ ms.custom: template-tutorial
 ms.date: 10/26/2022
 ms.subservice:
 ms.author: gisingh
-ms.reviewer: kkendrick 
+ms.reviewer: danamartens 
 contributors:
     - gitanjalisingh33msft
     - nickdoelman
-    - ProfessorKendrick
 ---
 # Tutorial: Add custom page layout to your site
 

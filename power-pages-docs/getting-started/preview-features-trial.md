@@ -6,10 +6,9 @@ ms.author: tbhagwat
 ms.date: 3/21/2023
 ms.topic: get-started
 ms.custom: template-trial-faq
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Preview features in Power Pages trial

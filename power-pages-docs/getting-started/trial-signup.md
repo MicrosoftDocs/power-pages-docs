@@ -6,11 +6,10 @@ ms.author: tbhagwat
 ms.date: 07/25/2024
 ms.topic: get-started
 ms.custom: template-trial-setup 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - sampatn
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Sign up for a free Power Pages trial

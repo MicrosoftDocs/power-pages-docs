@@ -10,7 +10,6 @@ ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - NikitaPolyakovMSFT
-    - ProfessorKendrick
 ---
 
 # Plan your Power Pages project

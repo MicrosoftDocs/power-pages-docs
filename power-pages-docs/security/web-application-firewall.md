@@ -5,10 +5,9 @@ author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: nabha
 ms.date: 05/16/2024
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
     - nageshbhat-msft
 ---
 

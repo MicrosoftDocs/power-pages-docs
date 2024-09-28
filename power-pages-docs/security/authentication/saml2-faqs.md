@@ -5,12 +5,11 @@ ms.date: 07/19/2023
 ms.topic: how-to
 author: dileepsinghmicrosoft
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
-    - ProfessorKendrick
 ms.custom: bap-template
 ---
 

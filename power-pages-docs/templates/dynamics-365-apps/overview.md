@@ -7,10 +7,9 @@ ms.custom:
 ms.date: 04/10/2023
 ms.subservice:
 ms.author: sampatn
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
     - sampatn
 ---
 

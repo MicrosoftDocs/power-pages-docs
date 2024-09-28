@@ -7,10 +7,9 @@ ms.custom:
 ms.date: 04/14/2023
 ms.subservice:
 ms.author: deepabansal 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Application processing template

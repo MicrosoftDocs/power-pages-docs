@@ -7,9 +7,8 @@ ms.custom:
 ms.date: 05/31/2024
 ms.subservice:
 ms.author: avishwakarma
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - ProfessorKendrick
 ---
 
 # Run security scan (preview)

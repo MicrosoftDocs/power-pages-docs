@@ -9,7 +9,6 @@ ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Overview of Power Pages ALM

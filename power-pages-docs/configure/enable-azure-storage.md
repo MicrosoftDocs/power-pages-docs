@@ -13,7 +13,6 @@ contributors:
     - nickdoelman
     - GitanjaliSingh33msft
     - nageshbhat-msft
-    - ProfessorKendrick
 ---
 
 # Enable Azure Storage

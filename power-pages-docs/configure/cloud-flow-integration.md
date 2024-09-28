@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - nageshbhat-msft
     - nickdoelman
-    - ProfessorKendrick
     - DanaMartens
 ---
 

@@ -13,7 +13,6 @@ ms.collection:
 contributors:
     - neerajnandwana-msft
     - nickdoelman
-    - ProfessorKendrick
     - DanaMartens
 ---
 

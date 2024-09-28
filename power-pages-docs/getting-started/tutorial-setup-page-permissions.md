@@ -7,11 +7,10 @@ ms.custom: template-tutorial
 ms.date: 02/14/2023
 ms.subservice:
 ms.author: avishwakarma
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - ankitavish
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Tutorial: Set up page permissions

@@ -11,7 +11,6 @@ ms.author: prpadalw
 ms.reviewer: dmartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Overview of designing and building sites

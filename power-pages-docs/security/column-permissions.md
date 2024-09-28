@@ -5,7 +5,7 @@ ms.date: 07/20/2023
 ms.topic: how-to
 author: neerajnandwana-msft
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
     - neerajnandwana-msft

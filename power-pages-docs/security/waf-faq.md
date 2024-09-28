@@ -5,7 +5,7 @@ author: nageshbhat-msft
 ms.topic: faq
 ms.date: 07/11/2024
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
   - ProfessorKendrick
   - nageshbhat-msft

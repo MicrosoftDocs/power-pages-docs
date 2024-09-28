@@ -12,7 +12,6 @@ ms.collection:
 contributors:
     - sandhangitmsft
     - nickdoelman
-    - professorkendrick
     - DanaMartens
 ---
 

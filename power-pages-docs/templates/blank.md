@@ -7,10 +7,9 @@ ms.custom:
 ms.date: 10/07/2022
 ms.subservice:
 ms.author: deepabansal 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Blank page template

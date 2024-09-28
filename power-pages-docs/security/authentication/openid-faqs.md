@@ -5,7 +5,7 @@ ms.date: 07/19/2023
 ms.topic: conceptual
 author: dileepsinghmicrosoft
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
     - sandhangitmsft

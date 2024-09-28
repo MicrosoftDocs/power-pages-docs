@@ -9,7 +9,6 @@ ms.author: dileeps
 ms.reviewer: dmartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
     - dileepsinghmicrosoft
 ---
 

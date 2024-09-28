@@ -7,10 +7,9 @@ ms.custom:
 ms.date: 06/10/2022
 ms.subservice:
 ms.author: ammaddala
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
     - iammaddala
 ---
 # How to use the learning hub

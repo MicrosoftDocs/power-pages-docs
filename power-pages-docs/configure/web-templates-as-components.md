@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - clromano
-    - ProfessorKendrick
 ---
 
 # Web templates as components

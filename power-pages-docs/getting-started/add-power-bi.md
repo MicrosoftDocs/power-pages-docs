@@ -10,7 +10,6 @@ ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Add a Power BI component

@@ -11,7 +11,6 @@ ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Implement privacy protections

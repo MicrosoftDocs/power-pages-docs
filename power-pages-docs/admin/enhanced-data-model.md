@@ -7,12 +7,11 @@ ms.custom:
 ms.date: 04/22/2024
 ms.subservice:
 ms.author: nenandw 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
     - neerajnandwana-msft
     - gitanjalisingh33msft
-    - professorkendrick
     - DanaMartens
 ---
 

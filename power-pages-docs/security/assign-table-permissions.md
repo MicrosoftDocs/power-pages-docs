@@ -5,10 +5,9 @@ ms.date: 07/25/2024
 ms.topic: how-to
 author: gitanjalisingh33msft
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ms.custom: bap-template
 ---
 

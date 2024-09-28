@@ -13,7 +13,6 @@ contributors:
     - nickdoelman
     - GitanjaliSingh33msft
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Configure basic form metadata for portals

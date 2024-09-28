@@ -4,10 +4,9 @@ description: Learn how to allow external audiences to use a local account to acc
 ms.date: 07/20/2023
 ms.topic: conceptual
 author: nickdoelman
-ms.author: kkendrick
+ms.author: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ms.custom: bap-template
 ---
 # Provide access to external audiences

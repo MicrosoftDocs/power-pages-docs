@@ -13,7 +13,6 @@ contributors:
     - nickdoelman
     - GitanjaliSingh33msft
     - nageshbhat-msft
-    - ProfessorKendrick
 ---
 
 # Configure notes as attachments for basic and multistep forms

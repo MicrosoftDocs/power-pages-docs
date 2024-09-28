@@ -6,11 +6,10 @@ ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 06/02/2022
 ms.subservice:
-ms.author: kkendrick 
+ms.author: danamartens 
 ms.reviewer: 
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Tutorial: Configure authorized access to your site

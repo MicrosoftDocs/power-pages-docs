@@ -5,7 +5,7 @@ ms.date: 09/24/2024
 ms.topic: how-to
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
     - sandhangitmsft

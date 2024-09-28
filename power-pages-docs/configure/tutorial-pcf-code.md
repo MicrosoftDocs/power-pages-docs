@@ -10,7 +10,6 @@ ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
     - GitanjaliSingh33msft
 ---
 # Tutorial: Use dataset code components

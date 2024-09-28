@@ -5,7 +5,7 @@ author: ckwan-ms
 ms.topic: conceptual
 ms.date: 05/23/2024
 ms.author: ckwan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
   - ProfessorKendrick
 ms.custom:

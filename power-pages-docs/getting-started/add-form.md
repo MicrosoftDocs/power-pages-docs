@@ -5,7 +5,7 @@ author: pranita225
 ms.topic: conceptual
 ms.date: 09/13/2024
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 ms.collection:
  - bap-ai-copilot
 contributors:

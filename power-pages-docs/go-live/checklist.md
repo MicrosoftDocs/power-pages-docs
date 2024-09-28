@@ -9,7 +9,6 @@ ms.author: nikpol
 ms.reviewer: dmartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
     - neerajnandwana-msft
 ---
 

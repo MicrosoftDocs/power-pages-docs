@@ -12,7 +12,6 @@ ms.collection:
     - bap-ai-copilot
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # FAQ for AI-generated code using Copilot

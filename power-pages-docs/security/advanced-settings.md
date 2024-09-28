@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 05/17/2024
 ms.subservice:
 ms.author: avishwakarma
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
   - ProfessorKendrick
 ms.custom:

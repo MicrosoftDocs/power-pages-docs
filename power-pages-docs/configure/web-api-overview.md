@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Portals Web API overview

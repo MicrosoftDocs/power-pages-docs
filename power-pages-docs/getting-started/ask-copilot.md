@@ -6,12 +6,11 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 08/30/2024
 ms.subservice:
-ms.author: kkendrick
+ms.author: danamartens
 ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - ProfessorKendrick
     - DanaMartens
 ---
 

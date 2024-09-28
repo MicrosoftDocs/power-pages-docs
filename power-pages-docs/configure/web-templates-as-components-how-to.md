@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - clromano
-    - ProfessorKendrick
 ---
 
 # How to: Create a web template component

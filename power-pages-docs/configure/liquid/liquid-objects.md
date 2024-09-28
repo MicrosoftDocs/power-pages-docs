@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - GitanjaliSingh33msft
-    - ProfessorKendrick
 ---
 
 # Available Liquid objects

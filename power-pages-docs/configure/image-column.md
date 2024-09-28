@@ -9,7 +9,6 @@ ms.subservice:
 ms.author: nabha
 ms.reviewer: dmartens
 contributors:
-    - ProfessorKendrick
     - nickdoelman
 ---
 

@@ -11,7 +11,6 @@ contributors:
     - nickdoelman
     - gitanjalisingh33msft
     - neerajnandwana-msft
-    - professorkendrick
 ---
 
 # Use solutions with Power Pages

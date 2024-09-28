@@ -7,10 +7,9 @@ ms.custom:
 ms.date: 2/06/2023
 ms.subservice:
 ms.author: deepabansal 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Starter layout templates

@@ -5,11 +5,10 @@ ms.date: 07/21/2023
 ms.topic: how-to
 author: nabha
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nickdoelman
     - nageshbhat-msft
-    - ProfessorKendrick
 ms.custom: bap-template
 ---
 

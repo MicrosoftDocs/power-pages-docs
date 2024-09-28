@@ -14,7 +14,6 @@ contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
     - nageshbhat-msft
-    - ProfessorKendrick
     - sampatn
 ---
 

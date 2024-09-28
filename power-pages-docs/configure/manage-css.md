@@ -11,7 +11,6 @@ ms.reviewer: dmartens
 contributors:
     - ankitavish
     - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Manage CSS files

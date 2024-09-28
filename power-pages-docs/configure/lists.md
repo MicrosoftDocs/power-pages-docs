@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - nickdoelman
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Lists overview

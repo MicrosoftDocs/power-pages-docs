@@ -10,7 +10,6 @@ ms.author: ckwan
 ms.reviewer: 
 contributors:
     - nickdoelman
-    - ProfessorKendrick
     - clromano
 ---
 
