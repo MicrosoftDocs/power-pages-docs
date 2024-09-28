@@ -10,7 +10,6 @@ ms.author: dileeps
 ms.reviewer: dmartens
 contributors:
     - dileepsinghmicrosoft
-    - nickdoelman
 ---
 
 # Set up Azure Front Door with Power Pages sites

@@ -8,10 +8,9 @@ ms.custom:
 ms.date: 12/14/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Power Pages lifecycle

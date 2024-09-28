@@ -12,7 +12,6 @@ ms.collection:
     - bap-ai-copilot
 contributors:
     - tapanm-msft
-    - ProfessorKendrick
     - DanaMartens
 ---
 

@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - gitanjalisingh33msft
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Power Platform CLI solution support for Power Pages (preview)

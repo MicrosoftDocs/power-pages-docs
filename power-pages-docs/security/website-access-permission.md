@@ -5,9 +5,8 @@ ms.date: 07/21/2023
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
 ms.custom: bap-template
 ---

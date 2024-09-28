@@ -6,11 +6,9 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/09/2023
 ms.author: vamseedilli
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Use governance controls to disable anonymous access (preview)

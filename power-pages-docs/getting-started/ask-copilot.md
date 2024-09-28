@@ -1,17 +1,16 @@
 ---
 title: Ask Copilot questions in Power Pages
 description: Get answers to questions using Copilot in Power Pages.
-author: ProfessorKendrick
+author: dmartens
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/30/2024
 ms.subservice:
-ms.author: kkendrick
+ms.author: dmartens
 ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - ProfessorKendrick
     - DanaMartens
 ---
 
