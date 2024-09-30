@@ -9,7 +9,6 @@ ms.date: 08/14/2024
 ms.subservice: 
 ms.author: nabha
 contributors:
-  - nickdoelman
   - neerajnandwana-msft
   - nageshbhat-msft
 

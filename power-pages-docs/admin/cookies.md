@@ -8,12 +8,10 @@ ms.custom:
 ms.date: 07/11/2024
 ms.subservice: 
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
  
 # Cookies in Power Pages

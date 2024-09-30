@@ -166,6 +166,8 @@
                   href: getting-started/add-list.md
                 - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
+                - name: Add AI summary list (preview)
+                  href: getting-started/add-ai-summary-list.md
                 - name: Add a form manually
                   href: getting-started/add-form.md
                 - name: Add an AI-generated multistep form using Copilot (preview)
@@ -185,7 +187,7 @@
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
-              href: configure/visual-studio-code-editor.md              
+              href: configure/visual-studio-code-editor.md          
     - name:  Style your site
       items:
         - name: Styling workspace overview
@@ -298,6 +300,8 @@
       href: configure/devtools-addon.md
     - name: View Power Pages activity logging in Microsoft Purview (preview)
       href: /power-platform/admin/logging-power-pages
+    - name: Control use of Generative AI features for users (preview)
+      href: admin/copilot-governance.md
     - name: Compliance and privacy
       href: admin/compliance-privacy.md
     - name: Governance
@@ -606,6 +610,8 @@
           href: configure/add-code-copilot.md
         - name: Use Visual Studio Code for the Web editor (preview)
           href: configure/visual-studio-code-editor.md 
+        - name: Use Copilot for Power Pages participant in GitHub Copilot Chat (preview)
+          href: configure/github-copilot-chat.md    
     - name: Use Power Fx in Power Pages (preview)
       href: configure/power-fx.md
     - name: Use admin APIs
@@ -658,6 +664,8 @@
               href: configure/azure-ad-b2c.md
             - name: Microsoft Entra ID
               href: security/authentication/openid-settings.md
+            - name: Microsoft Entra External ID
+              href: security/authentication/entra-external-id.md
             - name: OpenID Connect FAQs
               href: security/authentication/openid-faqs.md
         - name: SAML 2.0
@@ -777,7 +785,9 @@
     - name: FAQ for generating code
       href: faqs-pro-developer.md     
     - name: FAQ for generative AI search
-      href: faqs-generative-ai-search.md                     
+      href: faqs-generative-ai-search.md
+    - name: FAQ for the AI summary list
+      href: faqs-ai-summary-list.md                     
 - name: Compliance and accessibility
   items:
     - name: Accessibility

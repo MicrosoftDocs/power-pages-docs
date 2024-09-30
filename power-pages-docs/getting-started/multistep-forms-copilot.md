@@ -11,7 +11,6 @@ ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - ProfessorKendrick
     - pranita225
     - DanaMartens
 ---

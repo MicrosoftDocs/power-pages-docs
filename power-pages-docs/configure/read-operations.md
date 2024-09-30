@@ -12,7 +12,6 @@ ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
     - mduelae
-    - nickdoelman
 ---
 
 # Query data using portals Web API

@@ -10,11 +10,9 @@ ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
     - nageshbhat-msft
-    - ProfessorKendrick
     - sampatn
 ---
 

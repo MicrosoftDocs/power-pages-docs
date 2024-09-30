@@ -10,8 +10,6 @@ ms.author: prpadalw
 ms.reviewer: dmartens
 contributors:
     - pranita225
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Create and modify Dataverse views by using the Data workspace

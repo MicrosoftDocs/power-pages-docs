@@ -11,7 +11,6 @@ ms.author: dileeps
 ms.reviewer: dmartens
 contributors:
     - dileepsinghmicrosoft
-    - nickdoelman
     - sandhangitmsft
 ---
 

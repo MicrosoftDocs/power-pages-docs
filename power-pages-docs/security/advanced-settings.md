@@ -1,14 +1,13 @@
 ---
 title: Advanced Settings (preview)
 description: Explore advanced security settings in Power Pages design studio to protect your site content and data from potential threats.
-author: ProfessorKendrick
+author: dmartens
 ms.topic: conceptual
 ms.date: 05/17/2024
 ms.subservice:
 ms.author: avishwakarma
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-  - ProfessorKendrick
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

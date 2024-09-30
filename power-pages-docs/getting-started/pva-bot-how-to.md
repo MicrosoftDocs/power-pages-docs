@@ -7,7 +7,6 @@ author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
 contributors:
-  - ProfessorKendrick
   - nageshbhat-msft
   - DanaMartens
 ms.custom: bap-template

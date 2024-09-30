@@ -10,9 +10,7 @@ ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Configure multistep form metadata for Power Pages

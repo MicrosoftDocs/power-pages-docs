@@ -10,9 +10,7 @@ ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Create and manage web files

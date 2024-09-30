@@ -6,10 +6,8 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/10/2022
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - nageshbhat-msft
 ---
 

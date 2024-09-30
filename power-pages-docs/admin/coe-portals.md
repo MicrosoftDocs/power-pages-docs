@@ -6,10 +6,8 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 07/10/2024
 ms.author: dgoode
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - donovangoode
 ---
 

@@ -10,8 +10,6 @@ ms.author: prpadalw
 ms.reviewer: dmartens
 contributors:
     - pranita225
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # How to create and modify Dataverse forms by using the Data workspace

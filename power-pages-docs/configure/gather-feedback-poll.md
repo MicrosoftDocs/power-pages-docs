@@ -10,9 +10,7 @@ ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Gather feedback by using polls on Power Pages

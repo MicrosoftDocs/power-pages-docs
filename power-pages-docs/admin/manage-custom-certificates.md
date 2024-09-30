@@ -8,11 +8,9 @@ ms.custom:
 ms.date: 08/28/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Manage custom certificates

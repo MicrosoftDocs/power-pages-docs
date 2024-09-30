@@ -10,7 +10,6 @@ ms.author: meeram
 ms.reviewer: dmartens
 contributors:
     - meeramahabala
-    - ProfessorKendrick
 ---
 # Set up DocuSign integration (preview)
 
