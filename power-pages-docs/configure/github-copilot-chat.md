@@ -17,7 +17,7 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Use Copilot for Power Pages (@powerpages) participant within GitHub Copilot Chat for Visual Studio Code (preview)
+# Use @powerpages within GitHub Copilot Chat for Visual Studio Code (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
