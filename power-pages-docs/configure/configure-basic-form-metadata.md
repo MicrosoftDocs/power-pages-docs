@@ -8,12 +8,10 @@ ms.custom:
 ms.date: 02/28/2023
 ms.subservice: 
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - GitanjaliSingh33msft
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Configure basic form metadata for portals

@@ -43,20 +43,13 @@
     "globalMetadata": {
       "breadcrumb_path": "/power-pages/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-MSPowerPages",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/power-pages-docs",
+      "feedback_system": "Standard",
       "feedback_product_url": "https://aka.ms/MPP_Ideas",
       "search.app": [
         "powerpages-docs"
       ]
     },
     "fileMetadata": {
-      "ms.author": {
-        "**.*": "ndoelman"
-      },
-      "author": {
-        "**.*": "nickdoelman"
-      },
       "searchScope": {
         "**.*": [
           "Power Apps",

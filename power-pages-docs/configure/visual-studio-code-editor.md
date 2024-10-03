@@ -7,11 +7,9 @@ ms.custom:
 ms.date: 08/02/2023
 ms.subservice:
 ms.author: nenandw 
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Edit code with Visual Studio Code for the Web (preview)

@@ -7,10 +7,8 @@ ms.custom:
 ms.date: 12/15/2023
 ms.subservice:
 ms.author: sandhan 
-ms.reviewer: 
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
 ---
 # Known issues
 

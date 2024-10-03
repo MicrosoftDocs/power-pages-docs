@@ -8,12 +8,10 @@ ms.custom:
 ms.date: 03/28/2023
 ms.subservice: 
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-  - nickdoelman
   - GitanjaliSingh33msft
   - HemantGaur
-  - ProfessorKendrick
 ---
 
 # Use code components in Power Pages

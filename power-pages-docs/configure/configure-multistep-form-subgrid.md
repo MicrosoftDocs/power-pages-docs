@@ -8,11 +8,9 @@ ms.custom:
 ms.date: 04/10/2023
 ms.subservice: 
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
-    - ProfesorKendrick
 ---
 
 # Configure multistep form subgrids for Power Pages

@@ -4,12 +4,11 @@ description: Learn about device platform and web browser requirements, limits, a
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.reviewer: kkendrick
-ms.date: 01/23/2023
+ms.reviewer: dmartens
+ms.date: 08/14/2024
 ms.subservice: 
 ms.author: nabha
 contributors:
-  - nickdoelman
   - neerajnandwana-msft
   - nageshbhat-msft
 
@@ -59,12 +58,15 @@ This list identifies all services to which Power Pages communicates and their us
 | management.azure.com | https | Power Apps Management Service |
 | login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |https |Microsoft Authentication Library |
 | graph.microsoft.com<br>graph.windows.net |https |Azure Graph - For getting user info (for example, profile photo) |
+| \*.powerappsmtportals.com | https | Required to generate live preview within Power Pages Maker Studio |
+| \*.powerappsportals.com | https | Default Power Pages site domain |
+| \*.powerpages.microsoft.com | https | Power Pages maker studio | 
 | \*.powerapps.com |https | create.powerapps.com, content.powerapps.com, apps.powerapps.com, make.powerapps.com, \*gateway.prod.island.powerapps.com, and \*gateway.prod.cm.powerapps.com |
 | \*.blob.core.windows.net |https | Blob storage |
 | \*.flow.microsoft.com | https | create.powerapps.com, content.powerapps.com, and make.powerapps.com |
 | \*.dynamics.com | https | Microsoft Dataverse |
 | ecs.office.com | https | Retrieve feature flags for Power Apps |
-| *.api.powerplatform.com | https | Required for Power Platform API connectivity used internally by Microsoft products, and Power Platform [programmability and extensibility](/power-platform/admin/programmability-extensibility-overview). |
+| \*.api.powerplatform.com<br> *.api.powerplatformusercontent.com | https | Required for Power Platform API connectivity used internally by Microsoft products, and Power Platform [programmability and extensibility](/power-platform/admin/programmability-extensibility-overview). |
 | \*.powerapps.us	| https |	Required for Power Pages for Government Community Cloud (GCC). <sup>1</sup> |
 | \*.powerapps.us	| https |	Required for Power Pages for Government Community Cloud (GCC High). <sup>2</sup> |
 | \*.appsplatform.us | https | Required for Power Pages for Power Apps Department of Defense (DoD). <sup>3</sup> |

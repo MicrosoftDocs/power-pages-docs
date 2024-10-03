@@ -8,12 +8,10 @@ ms.custom:
 ms.date: 3/10/2023
 ms.subservice: 
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - GitanjaliSingh33msft
     - nageshbhat-msft
-    - ProfessorKendrick
 ---
 
 # Configure notes as attachments for basic and multistep forms

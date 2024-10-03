@@ -1,17 +1,14 @@
 ---
 title: Use OAuth 2.0 implicit grant flow in your Power Pages site
 description: Learn how to make client-side calls to external APIs and secure them using OAuth 2.0 implicit grant flow in your Power Pages site.
-ms.date: 02/07/2023
+ms.date: 08/27/2024
 ms.topic: how-to
 author: gitanjalisingh33msft
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - GitanjaliSingh33msft
     - dileepsinghmicrosoft
-    - nickdoelman
-    - ProfessorKendrick
     - nabha-msft
 ---
 
@@ -67,7 +64,7 @@ The error message is displayed in the default language of the signed-in user. If
 For example, an error response looks as follows:
 
 ```
-{"ErrorId": "PortalSTS0001", "ErrorMessage": "Client Id provided in the request is not a valid client Id registered for this portal. Please check the parameter and try again.", "Timestamp": "4/5/2019 10:02:11 AM", "CorrelationId": "7464eb01-71ab-44bc-93a1-f221479be847" }
+{"ErrorId": "PortalSTS0001", "ErrorMessage": "Client Id provided in the request is not a valid client Id registered for this portal. Please check the parameter and try again.", "Timestamp": "4/5/2019 10:02:11 AM", "CorrelationId": "aaaa0000-bb11-2222-33cc-444444dddddd" }
 ```
 
 ## Validate ID token

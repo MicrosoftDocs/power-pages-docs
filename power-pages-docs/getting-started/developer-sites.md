@@ -1,16 +1,14 @@
 ---
 title: Use developer websites
 description: Learn about developer sites in Power Pages.
-author: ProfessorKendrick
+author: dmartens
 ms.topic: conceptual
 ms.custom: 
 ms.date: 07/19/2023
 ms.subservice:
 ms.author: vamseedilli
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - ProfessorKendrick
-    - NickDoelman
 ---
 
 # Use developer sites in Power Pages

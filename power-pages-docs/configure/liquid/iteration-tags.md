@@ -8,9 +8,8 @@ ms.custom:
 ms.date: 01/09/2023
 ms.subservice: 
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - GitanjaliSingh33msft
 ---
 

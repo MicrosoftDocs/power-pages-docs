@@ -2,12 +2,11 @@
 title: Bootstrap overview
 description: Learn how to use Bootstrap, a popular front-end framework, to create stunning Power Pages sites that adapt to any device.
 ms.topic: overview
-ms.date: 03/07/2024
+ms.date: 03/19/2024
 author: ankitavish
 ms.author: avishwakarma
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-  - ProfessorKendrick
   - DanaMartens
 ms.custom:
   - ai-gen-docs-bap
@@ -50,7 +49,7 @@ Depending on the customizer application you used, the directory structure might 
 
 ## Next steps
 
-- [Enable Bootstrap version 5 in your environment](bootstrap-version-5.md)
+- [Create new sites with Bootstrap version 5](bootstrap-version-5.md)
 
 ### See also
 

@@ -7,11 +7,9 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/26/2023
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - gitanjalisingh33msft
-    - nickdoelman
-    - professorkendrick
 ---
 
 # Use Power Platform pipelines with Power Pages

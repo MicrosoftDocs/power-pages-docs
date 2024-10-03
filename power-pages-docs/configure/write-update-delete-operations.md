@@ -8,11 +8,10 @@ ms.custom:
 ms.date: 03/02/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
     - mduelae
-    - nickdoelman
 ---
 
 # Use portals Web API write, update, and delete operations

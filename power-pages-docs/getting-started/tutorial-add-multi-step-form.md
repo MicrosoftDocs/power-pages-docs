@@ -7,11 +7,9 @@ ms.custom: template-tutorial
 ms.date: 12/06/2022
 ms.subservice:
 ms.author: prpadalw 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - pranita225
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Tutorial: Add a multistep form to your page

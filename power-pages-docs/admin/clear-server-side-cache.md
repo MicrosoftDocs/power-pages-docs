@@ -8,10 +8,9 @@ ms.custom:
 ms.date: 04/11/2023
 ms.subservice: 
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - dileepsinghmicrosoft
-    - nickdoelman
 ---
 
 # How server-side caching works in Power Pages

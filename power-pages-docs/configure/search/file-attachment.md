@@ -8,9 +8,8 @@ ms.custom:
 ms.date: 1/23/2023
 ms.subservice:
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
     - nageshbhat-msft
 ---

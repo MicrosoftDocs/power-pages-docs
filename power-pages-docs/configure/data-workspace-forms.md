@@ -7,11 +7,9 @@ ms.custom:
 ms.date: 09/13/2022
 ms.subservice:
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - pranita225
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # How to create and modify Dataverse forms by using the Data workspace

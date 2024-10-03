@@ -1,38 +1,34 @@
 ﻿---
-title: Copilot for site creation (preview)
+title: Copilot for site creation
 description: Learn how to create an AI-generated site using Copilot in Power Pages.
 author: sampatn
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/06/2024
+ms.date: 08/29/2024
 ms.subservice:
 ms.author: sampatn
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - tapanm-msft
-    - ProfessorKendrick
+    - DanaMartens
 ---
 
-# Create an AI-generated site using Copilot (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Create an AI-generated site using Copilot
 
 With the Copilot for site creation, you can create Power Pages sites with the help of AI. Describe the site that you want to create, and AI designs it for you. Use natural language processing to help you build your site by describing the type of site, intended users of the site, and type of information you want the site to process.
 
 Copilot generates the contextual site name, site address, home page layout, and more pages with HTML for each page with relevant text copy and images from the description. The site is created with the home page and more pages as selected, with the pages added to the sitemap. Once the site is created, these pages can be refined and edited using Copilot and the WYSIWYG editor.
 
-For this preview, Copilot in Power Pages is enabled by default.
-
 :::image type="content" source="media/create-site-copilot/copilot-create-site.png" alt-text="The Copilot on Power Pages home with an input field for users to enter a description of the site emphasized.":::
 
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - This preview feature doesn't support non-English language input.
-> - See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
-> - To understand the capabilities and limitations of this feature, see [FAQ for Copilot for site creation](../faqs-generate-site.md).
+> [!NOTE]
+> This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
+
+## Prerequisites
+
+You must enable the [enhanced data model](../admin/enhanced-data-model.md) to use this feature.
 
 ## Create a site with the help of AI
 
@@ -40,7 +36,7 @@ To use Copilot for site creation:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
-1. Enter a description of the site you want to build or select a suggested description of the site. Then press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
+1. Enter a description of the site you want to build or select a suggested description of the site. Then press the <kbd>Enter</kbd> key or select the paper airplane icon in the lower-right corner of the text box.
 
     Example descriptions:
 
@@ -56,15 +52,15 @@ To use Copilot for site creation:
 Site creation can take a few minutes. When finished, you're redirected to the site opened in the [design studio](use-design-studio.md) that you can customize further.
 
 >[!NOTE]
-> - If the enhanced data model is disabled, Copilot for site creation is also disabled. Be sure to enable the [Enhanced data model](../admin/enhanced-data-model.md). 
-> - Copilot-generated pages will reference images that are saved as web files.
-> - Web files can only be deleted through the Power Pages management app. More information: [Create and manage web files](../configure/web-files.md)
+>
+> - Copilot-generated pages will reference images that are saved as [web files](../configure/web-files.md).
 
 ## Next steps
 
-[Style your pages site](style-site.md)
+[Style your Power Pages site](style-site.md)
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages (preview)](../configure/ai-copilot-overview.md)
+- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 - [FAQ for Copilot for site creation](../faqs-generate-site.md)

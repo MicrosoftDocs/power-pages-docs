@@ -5,14 +5,12 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 06/28/2024
 ms.subservice:
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - GitanjaliSingh33msft
-    - ProfessorKendrick
 ---
 
 # Available Liquid objects
@@ -43,7 +41,7 @@ The following objects can be used and accessed anywhere, in any template.
 |   Object    |                                                                                                                                                                                          Description                                                                                                                                                                                           |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  entities   |                                                                                                 Allows you to load any Microsoft Dataverse table by ID. More information: [entities](#entities)                                                                                                 |
-|     now     |                                          A date/time object that refers to the current UTC time at the time the template is rendered.<br>**Note**: This value is cached by the portal web app and isn't refreshed every time. More information: [Date filters](liquid-filters.md#date-filters)                                          |
+|     now     |                                          A date/time object that refers to the current UTC time at the time the template is rendered.<br>**Note**: The portal web app caches this value and it isn't refreshed every time. More information: [Date filters](liquid-filters.md#date-filters)                                          |
 |    page     | Refers to the current portal request page. The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Dataverse record. More information: [page](#page) |
 |   params    |                                                                                                                             A convenient shortcut for request.params. More information: [request](#request)                                                                                                                              |
 |   request   |                                                                                                                        Contains information about the current HTTP request. More information: [request](#request)                                                                                                                        |
@@ -51,13 +49,13 @@ The following objects can be used and accessed anywhere, in any template.
 |   sitemap   |                                                                                                                               Allows access to the portal site map. More information: [sitemap](#sitemap)                                                                                                                                |
 | sitemarkers |                                                                                                                        Allows you to load any Site Markers by name. More information: [sitemarkers](#sitemarkers)                                                                                                                        |
 |  snippets   |                                                                                                         Allows you to load any [Content Snippet](/power-apps/maker/portals/configure/customize-content-snippets) by name. More information: [snippets](#snippets)                                                                                                         |
-|    user     |                             Refers to the current portal user, allowing access to all attributes of the underlying Dataverse contact record. If no user is signed in, this variable will be [null](liquid-types.md#null). More information: [user](#user)                              |
+|    user     |                             Refers to the current portal user, allowing access to all attributes of the underlying Dataverse contact record. If no user is signed in, this variable is [null](liquid-types.md#null). More information: [user](#user)                              |
 |  weblinks   |                                                                                                                        Allows you to load any Web Link Set by name or ID. More information: [weblinks](#weblinks)                                                                                                                        |
 |   website   |                                                      Refers to the portal Website record, allowing access to all attributes of the Dataverse Website (adx\_website) record for the portal. More information: [website](#website)                                                       |
 
 ## ads
 
-Provides the ability to access and render an ad.
+Enables the retrieval and display of an ad.
 
 The ads object allows you to select a specific ad or ad placement:
 
@@ -93,11 +91,11 @@ The ads object allows you to select a specific ad or ad placement:
 
 ### Ad Placement attributes
 
-An ad placement is a table object with the same general attributes, and the attributes listed below.
+An ad placement is a table object with the same general attributes, and the following attributes:
 
 |Attribute   |Description   |
 |---|---|
-| Ads            | Returns the collection of ad objects associated with the placement.  [Iteration tags](iteration-tags.md) and [Array filters](liquid-filters.md#array-filters) may be used with this collection.  |  
+| Ads            | Returns the collection of ad objects associated with the placement.  [Iteration tags](iteration-tags.md) and [Array filters](liquid-filters.md#array-filters) can be used with this collection.  |  
 | Name           | Returns the Name field for the ad placement.                                                                |
 | placement\_url | The URL that can be used to retrieve the ad placement fully rendered by a template.                         |
 | random\_url    | The URL that can be used to retrieve a random ad from the placement fully rendered by a template.           |
@@ -105,7 +103,7 @@ An ad placement is a table object with the same general attributes, and the attr
 ### Ad attributes
 
 > [!Note]
-> An ad is a table object, with all of the same attributes in addition to those listed below.
+> An ad is a table object, with all of the same attributes in addition to the following:
 
 |Attribute   |Description   |
 |---|---|
@@ -114,7 +112,7 @@ An ad placement is a table object with the same general attributes, and the attr
 | image| Returns the image object (if any) for the ad.|
 | Name| Returns the Name field for the ad.|
 | open\_in\_new\_window | Returns true if the URL specified by redirect\_url should open in a new window. |
-| redirect\_url| The URL that the user will be directed to by selecting the ad.|
+| redirect\_url| The URL that the user is directed to by selecting the ad.|
 
 ### Ad Image attributes
 
@@ -125,10 +123,9 @@ An ad placement is a table object with the same general attributes, and the attr
 | url             | Returns the URL source for the image.                                  |
 | width           | Returns the width in pixels for the image                              |
 
-
 ## blogs
 
-Provides the ability to access and render Blogs and Blog Posts.
+Enables the retrieval and display of Blogs and Blog Posts.
 
 The blogs object allows you to select a specific blog or blog posts.
 
@@ -272,7 +269,7 @@ The following table explains various attributes associated with blogpost Object.
 > [!NOTE]
 > Some of the naming conventions of Dataverse have changed, for example, Dataverse entities are now called [tables](/power-apps/maker/data-platform/data-platform-intro#terminology-updates). The name changes do not apply to Liquid objects. The Liquid entities object will continue to be referred to as **entities**.
 
-Allows you to load any Dataverse table by ID. If the table exists, a table object will be returned. If a table with the given ID isn't found, [null](liquid-types.md#null) will be returned.  
+Allows you to load any Dataverse table by ID. If the table exists, a table object is returned. If a table with the given ID isn't found, [null](liquid-types.md#null) is returned.  
 
 ```
 {% assign account = entities.account['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'] %}
@@ -296,17 +293,17 @@ Allows you to load any Dataverse table by ID. If the table exists, a table objec
 
 ### Entity
 
-A entity object provides access to the attributes of a Dataverse table record.
+An entity object provides access to the attributes of a Dataverse table record.
 
 
 |             Attribute              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                 Id                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The GUID ID of the table, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |           logical\_name            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   The Dataverse logical name of the table.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|               Notes                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Loads any notes (annotation) associated with the table, ordered from oldest to newest (createdon). Notes are returned as note objects.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|               Notes                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Loads any notes (annotation) associated with the table, ordered from oldest to newest (`createdon`). Notes are returned as note objects.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |            permissions             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Loads Table Permission assertion results for the table. Results are returned as a permissions object.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                url                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Returns the Power Pages content management system URL path for the table. If the table has no valid URL in the current website, returns null. Generally, this will only return a value for certain table types that have been integrated into the portal CMS, unless you've customized the URL Provider in your application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| \[attribute or relationship name\] | You can access any attribute of the Dataverse table by logical name. `{{ entity.createdon }}{% assign attribute_name = 'name' %}{{ entity[attribute_name] }}` <br>The values of most table attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Associated Table Reference) fields are returned as associated table reference objects.</li><li>Option Set/Picklist fields are returned as option set value objects.</li><li>You can also load any related entities by relationship schema name.</li>`{{ page.adx_webpage_entitylist.adx_name }}`In the case that a relationship is reflexive (that is, self-referential), a reflexive relationship object will be returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, use [Dataverse table tags](dataverse-liquid-tags.md) to load collections of entities. |
+|                url                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Returns the Power Pages content management system URL path for the table. If the table has no valid URL in the current website, returns null. Generally, this only returns a value for certain table types that have been integrated into the portal CMS, unless you customized the URL Provider in your application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| \[attribute or relationship name\] | You can access any attribute of the Dataverse table by logical name. `{{ entity.createdon }}{% assign attribute_name = 'name' %}{{ entity[attribute_name] }}` <br>The values of most table attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Associated Table Reference) fields are returned as associated table reference objects.</li><li>Option Set/Picklist fields are returned as option set value objects.</li><li>You can also load any related entities by relationship schema name.</li>`{{ page.adx_webpage_entitylist.adx_name }}`In the case that a relationship is reflexive (that is, self-referential), a reflexive relationship object is returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, use [Dataverse table tags](dataverse-liquid-tags.md) to load collections of entities. |
 
 ### Associated Table Reference
 
@@ -321,13 +318,13 @@ Lookup attribute values are returned as associated table reference objects, with
 
 ### Note
 
-A note is a table object that provides access to the attributes and relationships of an annotation record. In addition to all the attributes of a table object, a note has the following additional attributes.
+A note is a table object that provides access to the attributes and relationships of an annotation record. In addition to all the attributes of a table object, a note has the following extra attributes.
 
 
 |  Attribute   |                                                                                                                                                                                                                                  Description                                                                                                                                                                                                                                  |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| documentbody | Loads the documentbody attribute of the note annotation record, as a Base64-encoded string. Because the content of this attribute may be large, it isn't loaded with the rest of the note attributes, it is only loaded on demand. <br> **Note**: Use of the documentbody attribute could have a negative impact on template rendering performance, and should be done with caution.<br>Use the url attribute to provide a link to the note attachment instead, if possible. |
-|     url      |                                                                                                                                   Returns the URL path for the built-in portal annotation attachment handler. If the user has permission, and the note has an attached file, a request to this URL will download the note file attachment.                                                                                                                                    |
+| documentbody | Loads the documentbody attribute of the note annotation record, as a Base64-encoded string. Because the content of this attribute might be large, it isn't loaded with the rest of the note attributes, it's only loaded on demand. <br> **Note**: Use of the documentbody attribute could have a negative effect on template rendering performance, and should be done with caution.<br>Use the url attribute to provide a link to the note attachment instead, if possible. |
+|     url      |                                                                                                                                   Returns the URL path for the built-in portal annotation attachment handler. If the user has permission, and the note has an attached file, a request to this URL downloads the note file attachment.                                                                                                                                    |
 
 >[!Note]
 > [Additional filters](liquid-filters.md#additional-filters)                     
@@ -353,7 +350,7 @@ The Table Permissions object provides access to aggregated permission assertion 
 | can\_delete     | Returns true if the current user has permission to delete this record. Returns false otherwise.                                                                                                                          |
 | can\_read       | Returns true if the current user has permission to read this record. Returns false otherwise.                                                                                                                            |
 | can\_write      | Returns true if the current user has permission to update this record. Returns false otherwise.                                                                                                                          |
-| rules\_exist    | Returns true if the permission results represented by this object are the result of explicitly defined permission rules. Returns false if they are the default results in the absence of explicitly defined permissions. |
+| rules\_exist    | Returns true if the permission results represented by this object are the result of explicitly defined permission rules. Returns false if they're the default results in the absence of explicitly defined permissions. |
 
 ### Reflexive Relationship
 
@@ -388,12 +385,12 @@ The entitylist object is used within the [Dataverse table tags](dataverse-liquid
 |           empty\_list\_text           |                                                                                Returns the configured localized text to be displayed when the list view returns no results.                                                                                |
 |      enable\_entity\_permissions      |                                                                               Returns true if Table Permission filtering is enabled for this list. Returns false otherwise.                                                                               |
 |         entity\_logical\_name         |                                                 Returns the Dataverse table logical name for records to be displayed by this list. For example, contact                                                 |
-|   filter\_account\_attribute\_name    |                                            Returns the attribute logical name for the lookup to account that will be used to filter result records by the current portal user's parent account. For example, accountid                                            |
+|   filter\_account\_attribute\_name    |                                            Returns the attribute logical name for the lookup to account that is used to filter result records by the current portal user's parent account. For example, accountid                                            |
 |         filter\_apply\_label          |                                                            Returns the configured localized label to be used for the link/button that applies an advanced attribute filter to the list results.                                                            |
 |          filter\_definition           |                      Returns the JSON attribute filter definition for the list. See [List filters](liquid-filters.md#list-filters) for details on how to use the metafilters Liquid filter to process this definition.                       |
 |            filter\_enabled            |                                                                               Returns true if advanced attribute filtering is enabled for the list. Returns false otherwise.                                                                               |
-| filter\_portal\_user\_attribute\_name |                                                 Returns the attribute logical name for the lookup to contact that will be used to filter result records by current portal user's contact. For example, contactid                                                  |
-|   filter\_website\_attribute\_name    |                                              Returns the attribute logical name for the lookup to adx\_website that will be used to filter result records by the current portal website. For example, adx\_websiteid                                              |
+| filter\_portal\_user\_attribute\_name |                                                 Returns the attribute logical name for the lookup to contact that is used to filter result records by current portal user's contact. For example, contactid                                                  |
+|   filter\_website\_attribute\_name    |                                              Returns the attribute logical name for the lookup to adx\_website that is used to filter result records by the current portal website. For example, adx\_websiteid                                              |
 |            language\_code             |                                               Returns the Dataverse integer language code that will be used to select all localized labels for this list.                                                |
 |              page\_size               |                                                                                                   Returns the configured result page size for the list.                                                                                                    |
 |          primary\_key\_name           |                                                                                  Returns the primary key attribute logical name for records to be displayed by this list.                                                                                  |
@@ -410,7 +407,7 @@ The entitylist object is used within the [Dataverse table tags](dataverse-liquid
 |           columns           |                                                         Returns the columns of the view as list view column objects.                                                         |
 |    entity\_logical\_name    |               Returns the Dataverse table logical name for the records included in the view. For example, contact                |
 |             Id              |                                                                          Returns the GUID ID of the view.                                                                           |
-|       language\_code        | Returns the Dataverse integer language code that will be used to select all localized labels (column headers, etc.) for the view. |
+|       language\_code        | Returns the Dataverse integer language code that is used to select all localized labels (column headers, etc.) for the view. |
 |            Name             |                                          Returns the Dataverse display name of the view.                                          |
 | primary\_key\_logical\_name |        Returns the Dataverse table primary key logical name for the records included in the view. For example, contactid         |
 |      sort\_expression       |                                               Returns the default sort expression for the view. For example, name ASC, createdon DESC                                               |
@@ -439,16 +436,16 @@ The entityview object is used within the entityview tag, and provides access to 
 |           columns           |                         Returns the columns in the view, as [table view column objects](liquid-objects.md#list-view-column-attributes).                          |
 | entity\_permission\_denied  | Returns true if access to view results was denied due to insufficient Table Permissions for the current user. Returns false if read access to view results was granted. |
 |    entity\_logical\_name    |                   The Dataverse table logical name of the view result records. For example, contact                   |
-|         first\_page         |                 The page number of the first page of view results. This will be 1 unless there were no results returned, in which case it will be null.                  |
+|         first\_page         |                 The page number of the first page of view results. This is 1 unless there were no results returned, in which case it's null.                  |
 |             Id              |                            The GUID ID of the Dataverse view that defines this entityview.                             |
 |       language\_code        |             The Dataverse integer language code being used to load localized labels for the current view.              |
-|         last\_page          |                                 The page number of the last page of view results. If there were no results returned, this will be null.                                  |
+|         last\_page          |                                 The page number of the last page of view results. If there were no results returned, this value is null.                                  |
 |            name             |              The name of the Dataverse view that defines this entityview., for example, Active Contacts.               |
-|         next\_page          |                                The page number of the next page of view results. If there is no next page of results, this will be null.                                 |
+|         next\_page          |                                The page number of the next page of view results. If there's no next page of results, this value is null.                                 |
 |            Page             |                                                           The page number of the current page of view results.                                                           |
 |            pages            |                                          Returns an array of page numbers containing all pages of results for the current view.                                          |
 |         page\_size          |                                                      The number of results returned per page for the current view.                                                       |
-|       previous\_page        |                              The page number of the next page of view results. If there is no previous page of results, this will be null.                               |
+|       previous\_page        |                              The page number of the next page of view results. If there's no previous page of results, this is null.                               |
 | primary\_key\_logical\_name |  The Dataverse logical name of the primary key attribute of the result table for this view. For example, contactid.   |
 |           records           |                                                   The current page of result records for the view, as table objects.                                                    |
 |      sort\_expression       |                                             The default sort expression for the view. For example, nameASC, createdon DESC.                                              |
@@ -457,7 +454,7 @@ The entityview object is used within the entityview tag, and provides access to 
 
 ## events
 
-Provides the ability to access and render Events. The events object allows you to select a specific event or all events.
+Enables the retrieval and display of events. The events object allows you to select a specific event or all events.
 
 ### events Object
 
@@ -467,7 +464,7 @@ The events object has following attributes:
 
 |Attribute   |Description   |
 |---|---|
-|occurences |Returns an eventoccurancessobject containing all event occurrences in the portal |
+|occurrences |Returns an eventoccurancessobject containing all event occurrences in the portal |
 |[event name or id] |You can access any event by its Name or Id properties.<br>{% assign event = events[&quot;Event Name&quot;] %}<br>{% assign event = events[&quot;da8b8a92-2ee6-476f-8a21-782b047ff460&quot;] %} |
 
 ### event Object
@@ -484,19 +481,17 @@ The event object has following attributes:
 
 ### eventoccurences Object
 
-The eventoccurrences object allows you to access a collection of event occurrences objects. You can order the event occurrences and specify a date range for the occurrences to retrieve, and achieve pagination as well by using liquid filters
+The eventoccurrences object allows you to access a collection of event occurrences objects. You can order the event occurrences and specify a date range for the occurrences to retrieve, and achieve pagination as well by using liquid filters:
 
 ```
 {% assign occurances = event.occurrences.from[today].to[advance_date] %}
 ```
 
-note that
+The following option is also possible:
 
 ```
 {% assign occurances = event.occurrences.min[today].max[advance_date] %}
 ```
-
-is also possible.
 
 Following attributes are associated with eventoccurrences object
 
@@ -506,7 +501,7 @@ Following attributes are associated with eventoccurrences object
 
 ### eventoccurence Object
 
-Represents a single event occurrence. The associated attributes are given below:
+Represents a single event occurrence. The following are the associated attributes:
 
 |Attribute   |Description   |
 |---|---|
@@ -566,7 +561,7 @@ This is child page number 3.
 
 ## forums
 
-Provides the ability to access and render Forums and Forum Threads. The ability to use liquid to render forum data extends to posts, but to create a new post or thread, you must use an ASP.NET multistep  forms Page Template with said functionality built in (such as the default Forum Thread and Forum Post Page Templates).
+Enables the retrieval and display of Forums and Forum Threads. The ability to use liquid to render forum data extends to posts, but to create a new post or thread, you must use an ASP.NET multistep  forms Page Template with said functionality built in (such as the default Forum Thread and Forum Post Page Templates).
 
 The forums object allows you to select a Forum or Forum Threads:
 
@@ -746,7 +741,7 @@ The articles object allows you to access a collection of article objects. You ca
 
 ### Filters
 
-The following filters can accept optional parameters for page size and language. First parameter is the number or records to retrieve. The default page size is 5. The second parameter is the code of a language to retrieve articles for a given language. Filters may be combined with other [Liquid filters](liquid-filters.md).
+The following filters can accept optional parameters for page size and language. First parameter is the number or records to retrieve. The default page size is 5. The second parameter is the code of a language to retrieve articles for a given language. Filters can be combined with other [Liquid filters](liquid-filters.md).
 
 ```
 {% assign page_size = 5 %}
@@ -790,7 +785,7 @@ The categories object allows you to access a collection of category objects. You
 
 ### Filters
 
-The following filters can accept an optional parameter indicating the page size. The default page size is 5. Filters may be combined with other [Liquid filters](liquid-filters.md).
+The following filters can accept an optional parameter indicating the page size. The default page size is 5. Filters can be combined with other [Liquid filters](liquid-filters.md).
 
 ```
 {% assign page_size = 5 %}
@@ -809,12 +804,12 @@ The article object allows you to work with a single knowledgearticle to display 
 
 ### Attributes
 
-article is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.
+Article is an [entity](#entity) object, with all of the same attributes, in addition to the following attributes:
 
 |Attribute|Description|
 |---|---|
 |article_public_number| The Article Public Number of the article.|
-|comment_count| The integer value of the count of how many comments there are for a given article.|
+|comment_count| The integer value of the count of how many comments there is for a given article.|
 |content|The content of the article.|
 |current_user_can_comment|Returns a Boolean value indicating whether the current user can add comments on the article.|
 |is_rating_enabled|Returns a boolean value indicating whether rating on an article is enabled.|
@@ -822,7 +817,7 @@ article is an [entity](#entity) object, with all of the same attributes, in addi
 |name|An alternate alias for the title of the article.|
 |rating|The decimal rating value on the article.|
 |title|The title of the article.|
-|view_count|The integer value of the number of times the article has been viewed.|
+|view_count|The integer value of the number of times the article was viewed.|
 |||
 
 ### category Object
@@ -831,7 +826,7 @@ The category object allows you to work with a single category to display its det
 
 ### Attributes
 
-category is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.
+category is an [entity](#entity) object, with all of the same attributes, in addition to the following attributes:
 
 |Attribute|Description|
 |---|---|
@@ -854,6 +849,47 @@ Provides the current language name, and language code if  [multiple-language sup
 | code | The language code of the language. |
 
 For example, the **Languages Dropdown** web template by default uses this liquid object to list the available languages when multiple-languages are available.
+
+## log
+
+Makers have the ability to incorporate log statements within their Liquid code. When the Power pages site is running, the logs added by a maker in Liquid code are shown in the [Power Pages developer tool extension](../devtools-addon.md). These logs, embedded by the maker, are displayed in the developer tool extension when the [diagnostic setting](../devtools-addon.md#enable-diagnostic-setting) is enabled.
+
+The following syntax can be used in Liquid code to log custom messages:
+
+`{% log message:'Custom message' level:'Warning' %}`
+
+### Log attributes
+
+|Attribute  | Description  |
+|---------|---------|
+|log     | Liquid object name |
+|message     | A string representing any custom messages to log |
+|level     | Log the message as Info, Warning, or Error |
+
+Example:
+
+```HTML
+{% log message: 'Log from Home page' %}
+
+{% fetchxml query %}
+<fetch version="1.0" mapping="logical" >
+<entity name="contact">
+<attribute name="fullname"/>
+<attribute name="emailaddress1"/>
+</entity>
+</fetch>
+{% endfetchxml %}
+
+{% assign contacts = query.results.entities %}
+
+{% for contact in contacts %}
+<div> Contact name: {{contact.fullname}} </div><br/>
+{% capture msgg %} 
+Contact email is {{contact.emailaddress1}} for name {{contact.fullname}}
+{% endcapture %}
+{% log message: msgg %}
+{% endfor %}
+```
 
 ## page
 
@@ -912,14 +948,14 @@ The page object provides access to things like the breadcrumbs for the current p
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |            breadcrumbs             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Returns the breadcrumb site map node objects for the page, starting from the site map root node and ending at parent.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |              children              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Returns the child site map node objects of the page.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|               parent               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Returns the parent site map node of the page. If the page is the Home page, parent will be null.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|               parent               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Returns the parent site map node of the page. If the page is the Home page, parent is null.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |               title                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                The title of the page.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                url                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 The URL of the page.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| \[attribute or relationship name\] | You can access any attribute of the page's underlying Dataverse record by logical name.<br>`{{ page.createdon }}`<br>`{% assign attribute_name = 'name' %}`<br>`{{ page[attribute_name] }}`<br>The values of most table attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Associated Table Reference) fields are returned as [associated table reference objects](#associated-table-reference).</li><li>Option Set/Picklist fields are returned as [option set value objects](#option-set-value).</li> You can also load any related entities by relationship schema name. <br> `{{ page.adx_webpage_entitylist.adx_name }}`<br>In the case that a relationship is reflexive (that is, self-referential), a [entities](#entities) object will be returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, prefer use of the [Dataverse table tags](dataverse-liquid-tags.md) to load collections of entities. |
+| \[attribute or relationship name\] | You can access any attribute of the page's underlying Dataverse record by logical name.<br>`{{ page.createdon }}`<br>`{% assign attribute_name = 'name' %}`<br>`{{ page[attribute_name] }}`<br>The values of most table attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Associated Table Reference) fields are returned as [associated table reference objects](#associated-table-reference).</li><li>Option Set/Picklist fields are returned as [option set value objects](#option-set-value).</li> You can also load any related entities by relationship schema name. <br> `{{ page.adx_webpage_entitylist.adx_name }}`<br>In the case that a relationship is reflexive (that is, self-referential), an [entities](#entities) object is returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, prefer use of the [Dataverse table tags](dataverse-liquid-tags.md) to load collections of entities. |
 
 ## polls
 
-Provides the ability to access and render a poll.
+Enables the retrieval and display of a poll.
 
 The polls object allows you to select a specific poll or poll placement:
 
@@ -969,7 +1005,7 @@ The polls object allows you to select a specific poll or poll placement:
 |---|---|
 | Name           | Returns the Name field for the poll placement.                            
 | placement\_url | The URL that can be used to retrieve the poll placement fully rendered by a template.                       |
-| polls          | Returns the collection of poll objects associated with the placement. [Iteration tags](iteration-tags.md) and [Array filters](liquid-filters.md#array-filters) may be used with this collection.  |  
+| polls          | Returns the collection of poll objects associated with the placement. [Iteration tags](iteration-tags.md) and [Array filters](liquid-filters.md#array-filters) can be used with this collection.  |  
 | random\_url    | The URL that can be used to retrieve a random poll from the placement fully rendered by a template.         |
 | submit\_url    | The URL to which a completed poll is submitted.                                                             |
 
@@ -982,13 +1018,13 @@ The polls object allows you to select a specific poll or poll placement:
 |---|---|
 | has\_user\_voted       | Returns true if the current user (signed in or anonymous) has already voted in this poll.         |
 | Name                   | Returns the Name field for the poll.                                                              |
-| options                | Returns the collection of poll option objects associated with the poll. [Iteration tags](iteration-tags.md) and [entities](#entities) may be used with this collection.  |  
+| options                | Returns the collection of poll option objects associated with the poll. [Iteration tags](iteration-tags.md) and [entities](#entities) can be used with this collection.  |  
 | poll\_url              | The URL that can be used to retrieve the poll fully rendered by a template.                       |
 | question               | Returns the Question field for the poll.                                                          |
 | submit\_button\_label  | Returns a string that can be used to override the submit button label for the poll.               |
 | submit\_url            | The URL to which a completed poll is submitted.                                                   |
-| user\_selected\_option | Returns the polloption object selected by the user (if they have already voted).                  |
-| votes                  | Returns the number of votes that have been tabulated for the poll.                                |
+| user\_selected\_option | Returns the polloption object selected by the user (if they already voted).                  |
+| votes                  | Returns the number of votes that are tabulated for the poll.                                |
 
 ### Poll Option Attributes
 
@@ -999,7 +1035,7 @@ The polls object allows you to select a specific poll or poll placement:
 |---|---|
 | answer     | Returns the Answer field for the poll. |
 | percentage | Returns the percentage of votes in the poll for the option as a decimal number from 0 through 100. |
-| votes      | Returns the number of votes that have been tabulated for the option.                              |
+| votes      | Returns the number of votes that are tabulated for the option.                              |
 
 
 ## request
@@ -1068,9 +1104,9 @@ The searchindex object is used within the [Dataverse table tags](dataverse-liqui
 
 |Attribute   |Description   |
 |---|---|
-| approximate\_total\_hits | Returns an approximate count of total hits matching the index query. Due to the way the search index works in regard to security filtering and other design factors, this number is only an approximation, and may not exactly match the total number of results available to the current user in some situations.  |
+| approximate\_total\_hits | Returns an approximate count of total hits matching the index query. Due to the way the search index works in regard to security filtering and other design factors, this number is only an approximation, and might not exactly match the total number of results available to the current user in some situations.  |
 | Page                     | Returns the page number of the current query.                                                                                                                                                                                                           |
-| page\_size               | Returns the maximum page size of the current query. If you want the actual number of results returned for the current page (because this may be less than the specified maximum page size), use results.size.                                                                                           |
+| page\_size               | Returns the maximum page size of the current query. If you want the actual number of results returned for the current page (because this might be less than the specified maximum page size), use results.size.                                                                                           |
 | results                  | Returns the query result page, as search index result objects.                                                                                                                                                                                          |
 
 ### Search Index Results
@@ -1078,11 +1114,11 @@ The searchindex object is used within the [Dataverse table tags](dataverse-liqui
 |   Attribute   |                                                                                                                                                Description                                                                                                                                                 |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    entity     |                                                                                                                            The underlying [entities](#entities) for the result.                                                                                                                            |
-|   fragment    | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag. Certain types of queries do not support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property will be null in those cases. |
+|   fragment    | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag. Certain types of queries don't support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property is null in those cases. |
 |      Id       |                                                             The Dataverse table ID of the underlying record for the result, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                              |
 | logical\_name |                                                                           The Dataverse table logical name of the underlying record for the result. For example, adx\_webpage                                                                           |
-|    number     |                                                            The number of the result, across all result pages, starting from 1. For example, for the first result of the second page of results, with a page size of 10, this value will be 11.                                                             |
-|     score     |                                                                                                 The Lucene score of the result, as a floating-point value. Results will be returned ordered by this value.                                                                                                 |
+|    number     |                                                            The number of the result, across all result pages, starting from 1. For example, for the first result of the second page of results, with a page size of 10, this value is 11.                                                             |
+|     score     |                                                                                                 The Lucene score of the result, as a floating-point value. Results are returned ordered by this value.                                                                                                 |
 |     title     |                                                                                                                                          The title of the result.                                                                                                                                          |
 |      url      |                                                            The URL for the result. This will usually&mdash;but not necessarily&mdash;be an absolute path for the current application, rather than a full URL. For example: /articles/article1/                                                             |
 
@@ -1170,18 +1206,18 @@ It's also possible to load a site map node by URL path:
 |-------|-------|
 | Breadcrumbs           | Returns the breadcrumb site map node objects for the node, starting from the site map root node and ending at parent. |
 | Children              | Returns the child site map node objects of the node.                                                                  |
-| Description           | The description/summary content for the node. (This field may contain HTML.)                                          |
-| Entity                | Returns the underlying [entities](#entities) of the node. If the node has no underlying table, this value will be null.                                                         |
+| Description           | The description/summary content for the node. (This field might contain HTML.)                                          |
+| Entity                | Returns the underlying [entities](#entities) of the node. If the node has no underlying table, this value is null.                                                         |
 | is\_sitemap\_ancestor | Returns true if the sitemap node is an ancestor of the current node, otherwise false.                                                                                                         |
 | is\_sitemap\_current  | Returns true if the sitemap node is the current node, otherwise false.                                                                                                         |
-| Parent                | Returns the parent site map node of the node. If the node is the root node, parent will be null.                                                                     |
+| Parent                | Returns the parent site map node of the node. If the node is the root node, parent is null.                                                                     |
 | Title                 | The title of the node.                                                                                                |
 | url                   | The URL of the node.                                                                                                  |
 
 
 ## sitemarkers
 
-Allows you to load any site marker by name. If the sitemarker exists, a sitemarker object will be returned. If a sitemarker with the given name isn't found, [null](liquid-types.md#null) will be returned.  
+Allows you to load any site marker by name. If the sitemarker exists, a sitemarker object is returned. If a sitemarker with the given name isn't found, [null](liquid-types.md#null) is returned.  
 
 ```
 {{ sitemarkers[Login].url }}
@@ -1211,7 +1247,7 @@ Site marker My Site Marker does not exist.
 
 ## snippets
 
-Allows you to load any content snippets by name. If a snippet with the given name isn't found, [null](liquid-types.md#null) will be returned.  
+Allows you to load any content snippets by name. If a snippet with the given name isn't found, [null](liquid-types.md#null) is returned.  
 
 ```
 {{ snippets[Header] }}
@@ -1255,11 +1291,11 @@ Contains properties useful within a [Iteration tags](iteration-tags.md) loop blo
 
 
 
-## user
+## User
 
-Refers to the current portal user, allowing access to all attributes of the underlying Dataverse contact record. If no user is signed in, this variable will be [null](liquid-types.md#null).  
+Refers to the current portal user, allowing access to all attributes of the underlying Dataverse contact record. If no user is signed in, this variable is [null](liquid-types.md#null).  
 
-user is an [entity](#entity) object.  
+User is an [entity](#entity) object.  
 
 ```
 {% if user %}
@@ -1284,14 +1320,14 @@ In addition to having all of the attributes of an [entity](#entity) object, user
 |    Attribute     |                                                                                                                                                                                     Description                                                                                                                                                                                     |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      roles       |                                                      Returns the roles to which the user belongs, as an [array](liquid-types.md#array).<br>`{% if user.roles contains 'Administrators' %} User is an administrator. {% endif %}`<br>**Note**: You can also use the `has_role` filter to test for individual role memberships.                                                       |
-| basic_badges_url | Returns the service url to retrieve a user's badges.<br>To render badges for a user you must include a tag with the attributes "data-badge" and "data-uri". To render the current user's badges:<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>To render out a user's badges by id (variable userid):<br>\`<div data-badge data-uri='{{user.basic_badges_url |
+| basic_badges_url | Returns the service url to retrieve a user's badges.<br>To render badges for a user, you must include a tag with the attributes "data-badge" and "data-uri". To render the current user's badges:<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>To render out a user's badges by id (variable userid):<br>\`<div data-badge data-uri='{{user.basic_badges_url |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                     |
 
 ## weblinks
 
 Allows you to load any weblinks by name or ID.  
 
-If the web link set exists, a [web link set object](#web-link-set-attributes) will be returned. If a web link set with the given name or ID isn't found, [null](liquid-types.md#null) will be returned.
+If the web link set exists, a [web link set object](#web-link-set-attributes) is returned. If a web link set with the given name or ID isn't found, [null](liquid-types.md#null) is returned.
 
 
 ```
@@ -1340,7 +1376,7 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 ### Web Link Set Attributes
 
 > [!Note]
-> A web link set is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.                                         
+> A web link set is an [entity](#entity) object, with all of the same attributes, in addition to the following attributes:
 
 |         Attribute          |                                                                                 Description                                                                                  |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1353,14 +1389,14 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 ### Web Link Attributes
 
 > [!Note]
-> A web link is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.
+> A web link is an [entity](#entity) object, with all of the same attributes, in addition to the following attributes:
 
 |          Attribute          |                                                                              Description                                                                              |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |         Description         |                                                                 The HTML description of the web link.                                                                 |
 |    display\_image\_only     |                              Boolean attribute indicating whether the web link should be displayed as an image only, with no link text.                               |
 | display\_page\_child\_links |            Boolean attribute indicating whether the web link should show links to the [*sitemap*](#sitemap) child pages of the linked page, as sub-links.             |
-|            Image            |                                     The web link image object for this link. This attribute will be null if no image is present.                                      |
+|            Image            |                                     The web link image object for this link. This attribute is null if no image is present.                                      |
 |        is\_external         |                 Boolean attribute indicating whether the target URL of the web link is to an external site (rather than to an internal portal page).                  |
 |    is\_sitemap\_ancestor    |                                Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false.                                 |
 |    is\_sitemap\_current     |                                        Returns true if the weblink's URL references the current sitemap node, otherwise false.                                        |
@@ -1376,9 +1412,9 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 
 | alternate\_text | Alternate text for the image.                                                                                       |
 |-----------------|---------------------------------------------------------------------------------------------------------------------|
-| Height          | Integer containing the specified height of the image. If no height value was provided, this attribute will be null. |
+| Height          | Integer containing the specified height of the image. If no height value was provided, this attribute is null. |
 | url             | The URL of the image.                                                                                               |
-| Width           | Integer containing the specified width of the image. If no width value was provided, this attribute will be null.   |
+| Width           | Integer containing the specified width of the image. If no width value was provided, this attribute is null.   |
 
 
 ## website

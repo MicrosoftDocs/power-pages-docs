@@ -4,13 +4,11 @@ description: Learn how to create a set of pages to create, read, and update Data
 author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 07/12/2022
+ms.date: 09/20/2024
 ms.subservice:
 ms.author: prpadalw 
 ms.reviewer: 
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - pranita225
 ---
 
@@ -132,11 +130,11 @@ In this section, you'll use the Data workspace to create a Dataverse form.
 
 By default, users of the site won't have access to view, create, or edit records. You'll need to configure specific table permissions and assign web roles. To ensure your data remains protected and secure, you should only provide access to specific users of the site.
 
-In this section, you'll use the Set up workspace to create a table permission and assign web roles.
+In this section, you'll use the Security workspace to create a table permission and assign web roles.
 
-1. Select the **Set up** workspace icon.
+1. Select the **Security** workspace icon.
 
-1. Under **Security**, select **Table permissions**.
+1. Under **Protect**, select **Table permissions**.
 
 1. Select **+ New permission**.
 

@@ -5,14 +5,12 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/20/2023
+ms.date: 08/28/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Manage custom certificates
@@ -40,7 +38,7 @@ When extending Power Pages functionality using a client-side API call with [OAut
 
 1. On the site information page, in the **Security** section, select **Custom Certificates**.
 
-    :::image type="content" source="media/manage-custom-certificate/manage-custom-certificate.png" alt-text="Manage custom certificates.":::
+    :::image type="content" source="media/manage-custom-certificate/manage-custom-certificate.svg" alt-text="Manage custom certificates.":::
 
 1. Select **+ New** to upload a new certificate.
 

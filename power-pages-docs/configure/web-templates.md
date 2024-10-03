@@ -8,11 +8,9 @@ ms.custom:
 ms.date: 05/23/2023
 ms.subservice:
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - GitanjaliSingh33msft
-    - ProfessorKendrick
 ---
 
 # Web templates

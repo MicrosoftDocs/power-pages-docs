@@ -1,13 +1,12 @@
 ---
 title: Set up an OpenID Connect provider
 description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
-ms.date: 07/19/2023
+ms.date: 09/10/2024
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
     - dileepsinghmicrosoft
     - nageshbhat-msft
@@ -38,7 +37,7 @@ OpenID Connect providers [Azure AD B2C](azure-ad-b2c-provider.md), [Microsoft En
 
 ## Set up the OpenID Connect provider in Power Pages
 
-1. In your Power Pages site, select **Set up** > **Identity providers**.
+1. In your Power Pages site, select **Security** > **Identity providers**.
 
     If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
@@ -99,8 +98,8 @@ Return to the Power Pages **Configure identity provider** page you left earlier 
 ### Additional settings in Power Pages
 
 The additional settings give you finer control over how users authenticate with your OpenID Connect identity provider. You don't need to set any of these values. They're entirely optional.
-
-- **Issuer filter**: Enter a wildcard-based filter that matches on all issuers across all tenants; for example, `https://sts.windows.net/*/`.
+ 
+- **Issuer filter**: Enter a wildcard-based filter that matches on all issuers across all tenants; for example, `https://sts.windows.net/*/`. If you are using a Microsoft Entra ID auth provider, the issuer URL filter would be `https://login.microsoftonline.com/*/v2.0/`.
 
 - **Validate audience**: Turn on this setting to validate the audience during token validation.
 

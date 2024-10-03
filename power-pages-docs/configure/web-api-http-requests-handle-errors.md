@@ -8,10 +8,9 @@ ms.custom:
 ms.date: 03/02/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Compose HTTP requests and handle errors for the portals Web API

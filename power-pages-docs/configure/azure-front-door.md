@@ -7,10 +7,9 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 01/04/2023
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - dileepsinghmicrosoft
-    - nickdoelman
 ---
 
 # Set up Azure Front Door with Power Pages sites
@@ -361,8 +360,6 @@ By default, Azure Front Door has an origin response timeout of 60 seconds. Howev
     :::image type="content" source="media/azure-front-door/edit-endpoint.png" alt-text="Select to edit endpoint.":::
 
 1. In the upper-right corner, select **Endpoint properties**.
-
-    :::image type="content" source="media/azure-front-door/endpoint-properties.png" alt-text="Select properties for endpoint.":::
 
 1. Change the origin response time to 240 seconds, and then select **Update**.
 

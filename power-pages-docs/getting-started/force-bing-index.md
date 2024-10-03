@@ -1,49 +1,46 @@
 ---
-title: Generate answers from public data using Bing search (preview)
-description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a chatbot.
+title: Generate answers from public data using Bing search
+description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a copilot.
 ms.topic: how-to
-ms.date: 02/07/2023
+ms.date: 08/30/2024
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
   - bap-ai-copilot
 contributors:
-  - nickdoelman
-  - ProfessorKendrick
   - nageshbhat-msft
+  - DanaMartens
 ms.custom: bap-template
 ---
 
 # Generate answers from public data using Bing search
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 You can generate answers from publicly available data by utilizing Bing search. Configuring Bing search enables the generation of answers from external sources beyond the Power Pages site built on the Dataverse instance.
 
-To use the Bing search
-1.	Open [Power Pages](https://make.powerpages.microsoft.com/)
-2.	Select site **+ Edit**.
-3.	Navigate to the **Set up** workspace, then select **Chatbot (preview)** under **Integrations**
-4.	Click on **View copilot analytics**
-5.	Select **Topics & Plugins**
-6.	Select the **System** topics tab.
-7.	Choose the **Conversational boosting** topic.
-8.	Navigate to **Create generative answers** node.
-9.	Select Edit under **Data sources**.
-10.	Enter URL under **Public websites** input box
-11.	Click **Save**
-12.	Navigate to the **Publish** left navigation link.
-13.	Select **Publish**.
+To use the Bing search:
 
-## Force Bing webmaster to index your site
-When you add a site to Copilot, Bing may not start indexing your site immediately. It may take from several hours to a day. If you prefer not to wait for Bing to index your site, you can use Bing Webmaster Tools to expedite the indexing process and have your site's content indexed immediately.
+1. Open [Power Pages](https://make.powerpages.microsoft.com/)
+1. Select site **+ Edit**.
+1. Navigate to the **Set up** workspace, then select **Add copilot** under **Copilot**
+1. Select **View copilot analytics**.
+1. Select **Topics**.
+1. Select the **System** tab.
+1. Select the **Conversational boosting** topic.
+1. Update the **Create generative answers** node to search public websites you want to index. For more details, go to [Search public data or use a Bing Custom Search for generative answers](/microsoft-copilot-studio/nlu-generative-answers-bing).
+1. Select **Save** and then select **Publish**.
+
+    Verify whether your public site is indexed by conducting a search for any content using Bing search. If you don't receive any results from your site, it might not be indexed. You can either wait for indexing or prompt Bing Webmaster to index your site immediately.
+
+## Force Bing webmaster to index your site (Optional)
+
+When you add a site to Copilot, Bing might not start indexing your site immediately. It might take from several hours to a day. If you prefer not to wait for Bing to index your site, you can use Bing Webmaster Tools to expedite the indexing process and have your site's content indexed immediately.
 
 ### Add your site to your Bing Webmaster Tools account
 
 1. Open [Webmaster Tools](https://www.bing.com/webmasters).
 1. [Create a Bing Webmaster Tools account](https://www.bing.com/webmasters/help/getting-started-checklist-66a806de) if you don't have one yet.
-1. [Add to your site to your account](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b).
+1. [Add your site to your account](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b).
 
     - If your site is already verified on Google Search Console, you can import it to Bing Webmaster Tools.
     - If your site isn't verified on Google Search Console, you can add your site manually.
@@ -122,7 +119,7 @@ Add a file to your site to tell Bing, Google, and other search engines, or *robo
 
 ### Add a meta description to pages to index
 
-The *meta description* tells search engines what text to display along with the page title. It's an important part of making your site easy to find, so you should put some thought into the description of each page you plan to index. Enter the key phrase "meta description" in your favorite search engine to find guidance for creating effective meta descriptions.
+The *meta description* tells search engines what text to display along with the page title. It's an important part of making your site easy to find, so you should put some thought into the description of each page you plan to index. To find guidance for creating effective meta descriptions, enter the key phrase "meta description" in your favorite search engine.
 
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Web Pages**.
@@ -154,12 +151,12 @@ As the final step, index individual page URLs directly. It's a good idea to subm
 
 To verify the indexing status, select **URL Inspection** in the left side panel. Enter a URL, and then select **Inspect**.
 
-Indexing should complete within a few minutes, but it may take up to an hour to see the results.
+Indexing should complete within a few minutes, but it might take up to an hour to see the results.
 
 ### See also
 
-- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
-- [Create a form in a webpage using a Copilot (preview)](../getting-started/add-form-copilot.md)
-- [Use Copilot to generate text and it to a webpage (preview)](../getting-started/add-text-copilot.md)
-- [Enable chatbot in Power Pages site (preview)](../getting-started/enable-chatbot.md)
+- [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
+- [Create a form in a webpage using a Copilot](../getting-started/add-form-copilot.md)
+- [Use Copilot to generate text and it to a webpage](../getting-started/add-text-copilot.md)
+- [Add a copilot to your Power Pages site](../getting-started/enable-chatbot.md)
 - [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)

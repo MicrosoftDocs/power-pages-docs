@@ -5,13 +5,12 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/02/2023
+ms.date: 06/28/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
     - nabha-msft
 ---
 
@@ -50,10 +49,7 @@ You can disable custom errors on Power Pages websites to display the detailed ex
 
 1. From the **Site Actions** menu, select **Disable custom errors**.
 
-:::image type="content" source="media/view-error-log/site-actions.png" alt-text="Selecting site actions.":::
-
-
-1. Select **Disable** in the confirmation message. While custom errors are being disabled, the website restarts and will be unavailable. 
+1. Select **Disable** in the confirmation message. While custom errors are being disabled, the website restarts and will be unavailable.
 
 ### Enable custom error
 
@@ -125,12 +121,10 @@ After developing and publishing the website, you still need to be able to access
      - 90 days
      - 180 days
      - Always
-    
+
       By default, the retention period is 30 days.
-   
+
    - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the website error logs. The maximum length of the URL is 2048 characters. If the URL is longer than 2048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](/azure/storage/common/storage-configure-connection-string)
-   
-       :::image type="content" source="media/view-error-log/enable-diagnostic-logging.png" alt-text="Enable diagnostic logging.":::
 
 1. Select **Enable**.
 
@@ -197,3 +191,6 @@ Following are the screens where custom plugin errors will appear:
 
 If the site setting isn't present, then it will be treated as false by default and plugin errors won't render.
 
+## View server side errors in the DevTools extension
+
+You can view server side error messages and potential solutions by using the [Power Pages DevTools extension](../configure/devtools-addon.md). Also you can debug the server side code by logging custom messages. Learn more in [Power Pages DevTools extension: log custom messages with liquid](../configure/devtools-addon.md#log-custom-messages-with-liquid).

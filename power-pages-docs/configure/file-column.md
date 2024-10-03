@@ -7,10 +7,8 @@ ms.custom:
 ms.date: 04/11/2023
 ms.subservice: 
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - ProfessorKendrick
-    - nickdoelman
 ---
 
 # Configure a file column on Power Pages 

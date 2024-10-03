@@ -7,10 +7,9 @@ ms.custom:
 ms.date: 08/28/2023
 ms.subservice:
 ms.author: meeram 
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - meeramahabala
-    - ProfessorKendrick
 ---
 # Set up DocuSign integration (preview)
 

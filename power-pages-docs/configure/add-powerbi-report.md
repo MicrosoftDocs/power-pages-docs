@@ -8,10 +8,9 @@ ms.custom:
 ms.date: 03/30/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Add a Power BI report or dashboard to a web page

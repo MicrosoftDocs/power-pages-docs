@@ -7,10 +7,9 @@ ms.custom: bap-template
 ms.date: 02/27/2024
 ms.subservice:
 ms.author: ckwan 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - clromano
-    - ProfessorKendrick
 ---
 
 # Edit site header

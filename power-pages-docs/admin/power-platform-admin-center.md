@@ -5,14 +5,13 @@ author: vamseedillimsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/17/2023
+ms.date: 07/09/2024
 ms.subservice: 
 ms.author: vamseedilli
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - vamseedillimsft
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Manage websites from the Power Platform admin center
@@ -43,7 +42,7 @@ Selecting on any of the cards in the header will filter the lists to the chosen 
 You can export a list of website information by selecting the **Export to csv** button.
 
 >[!NOTE]
-> You can only view the list of websites from the environments you are a system administrator for. If you are a service administrator (global administrator, D365 administrator, or Power Platform administrator), you can view the list of all websites in your tenant.
+> You can only view the list of websites from the environments you are a system administrator for. If you are a service administrator (Dynamics 365 administrator or Power Platform administrator), you can view the list of all websites in your tenant.
 
 ## Manage all websites for an environment
 

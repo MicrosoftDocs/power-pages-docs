@@ -7,11 +7,9 @@ ms.custom:
 ms.date: 5/11/2023
 ms.subservice: 
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - sandhangitmsft
-    - ProfessorKendrick
 ---
 
 # Implement privacy protections

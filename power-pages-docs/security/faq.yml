@@ -6,12 +6,12 @@ metadata:
   ms.topic: faq
   ms.custom: 
   ms.subservice: 
-  ms.date: 03/07/2024
+  ms.date: 03/27/2024
   ms.author: sandhan
-  ms.reviewer: kkendrick
+  ms.reviewer: danamartens
   contributors:
-    - ProfessorKendrick
     - nageshbhat-msft
+    - DanaMartens
 
 title: Power Pages security FAQ
 
@@ -22,7 +22,7 @@ sections:
           How does Power Pages help to protect against clickjacking? 
         answer: |
           [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking) uses embedded iFrames or other components to hijack a user's interactions with a webpage.  
-          Power Pages provides HTTP/X-Frame-Options site stings with default SAMEORIGIN to protect against clickjacking attacks.  
+          Power Pages provides HTTP/X-Frame-Options site settings with default SAMEORIGIN to protect against clickjacking attacks.  
           
           More information: [Set up HTTP headers in Power Pages](../configure/cors-support.md)
       

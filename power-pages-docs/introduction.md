@@ -7,11 +7,9 @@ ms.custom:
 ms.date: 02/21/2024
 ms.subservice:
 ms.author: prvaidy
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - KumarVivek
-    - ProfessorKendrick
 ---
 
 # What is Power Pages?

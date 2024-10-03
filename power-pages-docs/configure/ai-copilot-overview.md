@@ -1,59 +1,67 @@
 ---
-title: Overview of AI-powered and Copilot features in Power Pages (preview)
+title: Overview of AI-powered and Copilot features in Power Pages
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 03/06/2024
+ms.date: 09/13/2024
 author: sandhangitmsft
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 ms.collection: 
   - bap-ai-copilot
 contributors:
-  - nickdoelman
-  - ProfessorKendrick
+  - DanaMartens
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:09/06/2023
   - bap-template
+  - copilot-learning-hub
 ---
 
-# Overview of AI-powered and Copilot features in Power Pages (preview)
+# Overview of AI-powered and Copilot features in Power Pages
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+Copilot is a set of next-generation AI enhancements that revolutionize how you build and launch business websites with Power Pages. Copilot simplifies creating forms, incorporating text, embedding chatbots, and other tasks with a user-friendly, conversational interface that doesn't require years of coding experience. It also offers site users and visitors an enhanced experience, shifting away from traditional click-based navigation and allowing them to uncover information and insights through engaging conversational interactions with your site.
 
-Copilot is a set of next-generation AI enhancements that are revolutionizing how you build and launch business websites with Power Pages. Copilot simplifies creating forms, incorporating text, embedding chatbots, and other tasks with a user-friendly, conversational interface that doesn't require years of coding experience. It also offers site users and visitors an enhanced experience, shifting away from traditional click-based navigation and allowing them to uncover information and insights through engaging conversational interactions with your site.
+## AI-powered features for makers
 
-For this preview, Copilot in Power Pages is enabled by default.
+The following features streamline the website creation process with Copilot:
 
-Watch this brief video to learn how Copilot can help you make business websites faster, more easily, and more securely.
-
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW15U45]
-
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - [Understand the capabilities and limitations of AI-powered Copilot features in Power Pages](../transparency-note.md).
-
-To learn how to use the new AI features in Power Pages, see:
-
-- [Create an AI-generated site using Copilot (preview)](../getting-started/create-site-copilot.md)
-- [Create an AI-generated webpage using Copilot (preview)](../getting-started/create-page-copilot.md)
-- [Add an AI-generated form using Copilot (preview)](../getting-started/add-form-copilot.md)
+- [Create an AI-generated site using Copilot](../getting-started/create-site-copilot.md)
+- [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
+- [Add an AI-generated form using Copilot](../getting-started/add-form-copilot.md)
 - [Add an AI-generated multistep form using Copilot (preview)](../getting-started/multistep-forms-copilot.md)
-- [Add AI-generated text using Copilot (preview)](../getting-started/add-text-copilot.md)
-- [Add an AI-powered chatbot (preview)](../getting-started/enable-chatbot.md)
-- [Generate answers from public data using Bing search (preview)](../getting-started/force-bing-index.md)
+- [Add AI-generated text using Copilot](../getting-started/add-text-copilot.md)
 - [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
+- [Ask Copilot questions](../getting-started/ask-copilot.md)
+- [Create an AI-generated color theme using Copilot](../getting-started/theme-copilot.md)
+- [Add AI summary list](../getting-started/add-ai-summary-list.md)
 
-## Prerequisites
+## AI-powered features for admins
 
-To use AI-powered Copilot features in Power Pages:
+The following features streamline the administration experience with Copilot:
 
-- Your browser language must be set to US-English.
-- See the [availability of Copilot in your geographical region](/power-platform/admin/geographical-availability-copilot).
+[Disable Generative AI features your users (preview)](../admin/copilot-governance.md)
+
+## AI-powered features for users
+
+The following features make it easier for your website users to locate the information they seek:
+
+- [Add an AI-powered copilot](../getting-started/enable-chatbot.md)
+- [Search with generative AI (preview)](search/generative-AI.md)
+- [AI form fill assistance](../getting-started/add-form.md#enable-ai-form-fill-assistance-on-a-form-preview)
+
+## Availability
+
+For AI-powered Copilot features availability in Power Pages, see:
+
+- Geographic and language availability of Copilot features: [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external)
+- Turn copilot features on or off: [Copilot in Dynamics 365 apps and Power Platform](/power-platform/faqs-copilot-data-security-privacy#copilot-in-dynamics-365-apps-and-power-platform)
+- Copilot cross-region data movement: [Data movement across regions for copilots](/power-platform/admin/geographical-availability-copilot)
 
 ## Turn off Copilot in Power Pages
 
 To turn off Copilot and AI enhancements in Power Pages, admins can start a support request with Microsoft.
+
+## See also
+
+[Responsible AI FAQs for Power Pages](../responsible-ai-overview.md)

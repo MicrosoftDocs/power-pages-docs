@@ -4,20 +4,19 @@ description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/11/2023
+ms.date: 04/22/2024
 ms.subservice:
 ms.author: nenandw 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - nickdoelman
     - neerajnandwana-msft
     - gitanjalisingh33msft
-    - professorkendrick
+    - DanaMartens
 ---
 
 # Enhanced data model 
 
-The standard data model was built by using custom tables, and it was optimized for the configuration of each website component that is stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires additional time to load the different solutions, tables, and metadata when a new site is provisioned. Updates to website tables in the standard model require manual and time-consuming application of package updates.
+The standard data model was built by using custom tables, and it was optimized for the configuration of each website component that is stored as a record in a dedicated table in Microsoft Dataverse. The standard model requires more time to load the different solutions, tables, and metadata when a new site is provisioned. Updates to website tables in the standard model require manual and time-consuming application of package updates.
 
 >[!NOTE]
 > - All new sites will be created by default using the enhanced data model. 
@@ -30,7 +29,7 @@ The enhanced data model for Power Pages provides the following benefits:
 
 - Website provisioning is faster.
 - Design studio experiences are faster.
-- Website configurations can be contained in solutions to provide smoother application lifecyle management (ALM) experiences.
+- Website configurations can be contained in solutions to provide smoother application lifecycle management (ALM) experiences.
 - Updates of Power Pages enhancements and bug fixes are improved.
 
 ## Determine whether your site is using the standard or enhanced data model
@@ -87,6 +86,13 @@ Nonconfiguration tables are feature-specific tables that contain transactional b
 - Setting
 - WebFormSession
 
+> [!NOTE]
+> These tables have been removed from the enhanced data model and will not be available in the [Power Pages Management app](#edit-a-site-by-using-the-power-pages-management-app):
+>  - Ad
+>  - Poll
+>  - Poll Option
+>  - Poll Submission
+
 ## Virtual tables
 
 The Power Pages virtual tables represent and contain the metadata of the specific website components. They point to the system tables that contain the website metadata in JavaScript Object Notation (JSON) format. You can update and configure the content of the virtual tables by using the [Power Pages Management app](#edit-a-site-by-using-the-power-pages-management-app). This app has the same look and feel as the older [Portal Management app](../configure/portal-management-app.md).
@@ -94,6 +100,7 @@ The Power Pages virtual tables represent and contain the metadata of the specifi
 > [!NOTE]
 > - If you've developed any custom code or tools that use any of the standard data model tables, you must update the code so that it uses the enhanced data model tables.
 > - These tables can't be modified.
+> - Because these tables aren't modifiable, they don't appear in the list of tables that can be used to create a relationship with the other tables. For example, Web Role (mspp_webrole), Table Permission (mspp_entitypermission), and other tables don't appear in the list of tables that can be used to create a relationship.
 
 | System table | Enhanced data model virtual table | Standard data model table |
 |---|---|---|
@@ -147,7 +154,7 @@ You can view newly created sites from the Power Pages home page.
 
 Sites that use the enhanced data model have functional parity with sites that use the standard data model. To determine which data model your website is using, go to the [Determine whether your site is using the standard or enhanced data model](#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model) section.
 
-The **Active sites** section of the Power Pages home page lists all the available sites. The list shows both sites that use the standard data model and sites that use the enhanced data model, regardless of whether the enhanced data model has been enabled for the environment.
+The **Active sites** section of the Power Pages home page lists all the available sites. The list shows both sites that use the standard data model and sites that use the enhanced data model, regardless of whether the enhanced data model is enabled for the environment.
 
 ## Edit a new site that uses the enhanced data model
 
@@ -195,11 +202,24 @@ For more information, go to [Power Platform CLI parameters](../configure/power-p
 
 ### How can I update a website from the standard data model to the enhanced data model?
 
-Guidance and tooling support to help you update from the standard data model to the enhanced data model will be provided in a later update.
+For guidance and tooling support to help you update from the standard data model to the enhanced data model, go to [Migrate standard data model sites to enhanced data mode](./migrate-enhanced-data-model.md).
 
 ### Can I edit new sites that are based on enhanced data model configurations in the Portal Management app?
 
 You can use the new Power Pages Management app to edit new websites that are created by using the enhanced data model.
+
+## Known issues
+
+### Limitation of deployment profiles in enhanced data model sites deployed using a solution
+
+Currently, Power Pages application lifecycle management (ALM) doesn’t provide a way to assign different site setting values for different environments when you deploy site data using solutions. The standard data model supports ALM using the deployment profiles. The ability to use environment variables for site settings is under consideration for a future update. To work around this limitation in the meantime, you can deploy enhanced data model sites with one of the following options:
+
+> [!NOTE]
+> The following methods deploy site objects in an unmanaged state.
+
+- [Microsoft Power Platform CLI](../configure/power-platform-cli.md)
+- [GitHub Actions for Power Platform](/power-platform/alm/devops-github-actions)
+- [Power Platform Build Tools for Azure DevOps](/power-platform/alm/devops-build-tools)
 
 ## See also
 

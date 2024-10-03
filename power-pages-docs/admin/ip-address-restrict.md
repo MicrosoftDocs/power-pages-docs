@@ -5,13 +5,12 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/07/2023
+ms.date: 08/27/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Restrict website access by IP address
@@ -26,7 +25,6 @@ You can restrict access to your website from a list of IP addresses. For example
 When a request to the website is generated from any user, their IP address is evaluated against the allow list. If the IP address isn't on the list, the website displays a web page with an HTTP 403 status code.
 
 To add or remove IP addresses, you must be assigned any one of the following roles:
-- Office 365 Global Administrator 
 - Service Administrator. More information: [Use the service admin role to manage your tenant](/power-platform/admin/use-service-admin-role-manage-tenant)  
 - System Administrator of the Microsoft Dataverse environment selected for the website
 
@@ -51,7 +49,7 @@ Once you add an IP address to the restriction list, the website is accessible to
 
 1. On the side panel, select **+ New** to add a new IP address.
 
-    :::image type="content" source="media/ip-address-restriction/configure-restricted-ip.png" alt-text="Configure IP address restriction.":::
+    :::image type="content" source="media/ip-address-restriction/configure-restricted-ip.svg" alt-text="Configure IP address restriction.":::
 
 1. In the Add an IP address window, enter the following values:
 

@@ -5,15 +5,13 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/07/2023
+ms.date: 07/11/2024
 ms.subservice: 
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
  
 # Cookies in Power Pages
@@ -37,8 +35,9 @@ Power Pages also use cookies to store information for various purposes. The foll
 | timeZoneCode | Stores the *timezonecode* field value of *CRM timezonedefinition* table for the current timezone. | Session |
 | timezoneoffset | Stores the [timezone difference](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset) between UTC and Local browser time. | Session |
 | PrivateModeLoginCookie | Used to identify internal maker sessions when site is in private mode. This cookie isn't dropped once site is made public. | Session |
-| OpenIdConnect.nonce.xxxxxx | Used to associate a Client session with an ID Token, and to mitigate replay attacks. | Session | 
+| OpenIdConnect.nonce.xxxxxx | Used to associate a Client session with an ID Token, and to mitigate replay attacks. | Session |
 | AspNet.ExternalCookie | Used to identify user sessions in external sign in scenarios. | Session|
+| WebPageCaching | This cookie is dropped for sites where the [Content Delivery Network](../configure/configure-cdn.md) is enabled. This cookie helps the CDN to identify if a page needs to be served from CDN cache or from web server. | One day |
 
 ## Frequently asked questions
 

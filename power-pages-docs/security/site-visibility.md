@@ -1,23 +1,19 @@
 ---
 title: Site visibility in Power Pages
 description: Learn how to use the site visibility setting to control who has access to sites you create with Microsoft Power Pages.
-ms.date: 07/20/2023
+ms.date: 09/03/2024
 ms.topic: how-to
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
-    - nickdoelman
-    - ProfessorKendrick
 ms.custom: bap-template
 ---
 
 # Site visibility in Power Pages
 
 The Power Pages site visibility setting allows you to control who has access to your website. You can make the site private to restrict access to specific people in your organization. If you choose to make the site public, anyone with the link can access it.
-
-:::image type="content" source="media/site-visibility/site-visibility.gif" alt-text="Animation that shows site visibility setting change from private to public.":::
 
 > [!IMPORTANT]
 >
@@ -42,31 +38,19 @@ When a site is ready to go live, you can set the site visibility to public. You 
 When you change the site visibility, your website restarts. It may take a few minutes to reflect the last change.
 
 1. Sign in to [Power Pages](https://make.powerpages.microsoft.com/) and edit your site.
-1. In the left side panel, select **Set up** in the list of workspaces.
-1. In the **Security** section, select the **Site visibility** tab.
-1. Select **Public** or **Private**.
-
-If you [used Power Apps to create your site](/power-apps/maker/portals/create-portal), follow these steps instead:
-
-1. Sign in to [Power Apps](https://make.powerapps.com)
-1. Select **Apps**, and then select your site.
-1. Select **More Commands** (**&hellip;**) > **Edit**.
-1. Select **Open in Power Pages**.
-1. In the left side panel, select **Set up** in the list of workspaces.
-1. In the **Security** section, select the **Site visibility** tab.
-1. Select **Public** or **Private**.
+1. In the left side panel, select **Security**.
+1. In the **Manage** section, select **Site visibility**.
+1. In the **This site is** card, select **Public** or **Private**.
 
 ## Grant access to a private site
 
 When your site is private, you can use the site visibility page to grant access to other organization users. You can grant access to up to 50 organization users. You don't need to grant access to users who have the [System administrator role](/power-platform/admin/security-roles-privileges) in your site's environment. They have permissions to view the site by default.
 
 1. Sign in to [Power Pages](https://make.powerpages.microsoft.com/) and edit your site.
-1. In the left side panel, select **Set up** in the list of workspaces.
-1. In the **Security** section, select the **Site visibility** tab.
-1. Enter the names or email addresses of the users you want to grant access to.
+1. In the left side panel, select **Security**.
+1. In the **Manage** section, select **Site visibility**.
+1. In the **Grant site access** card, enter the names or email addresses of the users you want to grant access to.
 1. Select **Share**.
-
-    :::image type="content" source="media/site-visibility/grant-site-access.png" alt-text="Screenshot of the Site visibility page, with Grant site access options highlighted.":::
 
 > [!NOTE]
 > Users who are granted access to a private site aren't automatically authenticated on the site. [Learn how to provide access to external audiences](external-access.md).
@@ -77,7 +61,6 @@ Your security role and tenant security settings determine whether you can change
 
 [Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Microsoft Entra roles can change the site visibility:
 
-- [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
 - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
 - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
 
@@ -89,9 +72,6 @@ If the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is set to
 
 You can use a PowerShell script to change the tenant-level setting `enableSystemAdminsToChangeSiteVisibility`.
 
-> [!IMPORTANT]
-> Effective October 1, 2023, system administrators can't change site visibility when the tenant-level setting is null. Set the value for `enableSystemAdminsToChangeSiteVisibility` to either `true` or `false`.
-
 To get the current value of the tenant-level setting, use the [Get-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/get-tenantsettings) command. For example:
 >
 
@@ -101,7 +81,7 @@ $ myTenantSettings.powerPlatform.powerPages
 ```
 
 > [!NOTE]
-> The Get-TenantSettings command doesn't list tenant settings whose value is null. The default value of the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is null, so it doesn't appear the first time you run the script. After you set its value to `true` or `false`, the setting appears in the list.
+> The Get-TenantSettings command doesn't list tenant settings whose value is null. The default value of the tenant-level setting `enableSystemAdminsToChangeSiteVisibility` is null, so it doesn't appear the first time you run the script. After you set its value to `true` or `false`, the setting appears in the list. When the value of the tenant setting is null, System Administrators will be able to change the site visibility. 
 
 To set a value for `enableSystemAdminsToChangeSiteVisibility`, use the [Set-TenantSettings](/powershell/module/microsoft.powerapps.administration.powershell/set-tenantsettings) command. The following example sets the value to `false`:
 

@@ -5,13 +5,12 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/03/2023
+ms.date: 08/27/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Update the Dynamics 365 instance for your Power Pages site
@@ -30,35 +29,31 @@ You can use the Power Platform admin center to update the Dynamics 365 instance 
 
 1. Select **Manage Dynamics 365 Instance**.
 
-    :::image type="content" source="media/power-platform-admin-center/manage-Dynamics365-instance.png" alt-text="Text used by screen readers.":::
-
+    :::image type="content" source="media/power-platform-admin-center/manage-Dynamics365-instance.svg" alt-text="Text used by screen readers.":::
 
 1. Select **Update Dynamics 365 Instance**.
 
-    :::image type="content" source="media/power-platform-admin-center/update-dynamics365-instance.png" alt-text="Update your Dynamics 365 instance.":::
-
+    :::image type="content" source="media/power-platform-admin-center/update-dynamics365-instance.svg" alt-text="Update your Dynamics 365 instance.":::
 
 1. Select your existing instance and portal.
 
-    :::image type="content" source="media/power-platform-admin-center/select-dynamics365-instance.png" alt-text="Select your Dynamics 365 instance":::
+    :::image type="content" source="media/power-platform-admin-center/select-dynamics365-instance.svg" alt-text="Select your Dynamics 365 instance":::
 
 1. Select **OK**.
 
 1. Select **Submit** to confirm.
 
-    :::image type="content" source="media/power-platform-admin-center/submit-selection.png" alt-text="Submit Dynamics 365 solution update.":::
+    :::image type="content" source="media/power-platform-admin-center/submit-selection.svg" alt-text="Submit Dynamics 365 solution update.":::
 
     You'll see a confirmation that the update request is in progress.
 
 The update might take a while after you select **Submit**. More information: [Upgrade site](upgrade-site.md)
 
 > [!NOTE]
-> You may be required to [reload SSL certificates](/power-apps/maker/portals/admin/manage-ssl-certificates) after you have updated the Dynamics 365 instance. 
+> You may be required to [reload SSL certificates](/power-apps/maker/portals/admin/manage-ssl-certificates) after you have updated the Dynamics 365 instance.
 
-### See also
+## See also
 
 - [Upgrade a website](upgrade-site.md) 
 - [Administer Microsoft Power Platform](/power-platform/admin/admin-documentation) 
 - [Manage Dynamics 365 apps](/power-platform/admin/manage-apps)
-
-

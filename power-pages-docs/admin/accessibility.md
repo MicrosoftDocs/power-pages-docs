@@ -7,11 +7,9 @@ ms.custom:
 ms.date: 2/07/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
     - carltoncolter
 ---
  

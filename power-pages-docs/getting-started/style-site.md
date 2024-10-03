@@ -7,12 +7,10 @@ ms.custom:
 ms.date: 07/04/2023
 ms.subservice:
 ms.author: ckwan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - ankitavish
     - rob-moyer
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Style your pages site

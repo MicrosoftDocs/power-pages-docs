@@ -4,13 +4,12 @@ description: Learn how to use the Power Platform admin center to monitor the tra
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/03/2023
+ms.date: 07/09/2024
 ms.subservice: 
 ms.author: vamseedilli
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - vamseedillimsft
-    - professorkendrick
 ---
 
 # Monitor traffic to your websites (preview)
@@ -28,7 +27,6 @@ Learn how to use the Power Platform admin center to monitor the traffic to the w
 
 To access the analytics dashboard, you should have one of the following roles:
 
-- Global Administrator
 - Dynamics 365 administrator
 - Power Platform administrator
 - System administrator (You can only see environments for which you're a system administrator.)

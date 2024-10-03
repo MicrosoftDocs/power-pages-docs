@@ -5,14 +5,13 @@ author: neerajnandwana-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 04/11/2023
+ms.date: 09/20/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
   - neerajnandwana-msft
   - mduelae
-  - nickdoelman
 ---
 
 # How to: Use portal Web API
@@ -100,9 +99,9 @@ If you currently do not have a web role with permissions to the table you are ac
 
 1. Launch the [Power Pages design studio](../getting-started/use-design-studio.md).
 
-1. Select the **Set up** workspace.
+1. Select the **Security** workspace.
 
-1. Under the **Security** section, select **Table permissions**.
+1. Under the **Protect** section, select **Table permissions**.
 
 1. Select **New permission**.
 

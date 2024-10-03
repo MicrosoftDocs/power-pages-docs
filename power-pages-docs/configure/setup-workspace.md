@@ -5,20 +5,16 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/14/2023
+ms.date: 06/20/2024
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Overview of the Power Pages Set up workspace
 
 You use the **Set up** workspace to configure key aspects of your Power Pages site.
-
-:::image type="content" source="media/setup-workspace/setup-workspace.png" alt-text="Setup workspace from within design studio.":::
 
 ## General
 
@@ -44,22 +40,6 @@ You can also **Run Site Checker**. More information: [Run Site Checker](../admin
 ### Go-live checklist
 
 Go-live checklist includes interactive tasks that guide you to review and complete the recommended actions. This interactive experience includes running the site checker, and configuring several other settings for the site that help you prepare the site before the general roll out. For more information, go to [Go-live checklist](../go-live/checklist.md)
-
-## Authentication
-
-Use **Identity providers** section to configure various authentication providers to allow access to protected pages and data. For more information, go to [Configure Power Pages site authentication](../security/authentication/configure-site.md).
-
-## Security
-
-Security section allows you to configure permissions for tables used by your site, and change the site's visibility settings to make the site public or keep private.
-
-### Table permissions
-
-You can configure table permissions on Dataverse tables used in your Power Pages site. For more information, go to [Configure table permissions](../security/table-permissions.md).
-
-### Site visibility
-
-Site visibility section enables you to manage who has access to your website. All new sites created in Power Pages are **private** by default. Only makers or people in the organization granted permission by makers will have website access, making your site secure. For more information, go to [Site visibility](../security/site-visibility.md)
 
 ## Mobile
 

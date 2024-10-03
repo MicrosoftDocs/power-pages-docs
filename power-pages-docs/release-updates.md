@@ -8,9 +8,8 @@ ms.custom:
 ms.date: 03/21/2023
 ms.subservice: 
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - dileepsinghmicrosoft
 ---
 

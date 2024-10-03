@@ -4,26 +4,25 @@ description: Learn how to use the Portal Management app.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/03/2023
+ms.date: 06/03/2024
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - gitanjalisingh33msft
+    - DanaMartens
 ---
 
 # Portal Management app overview
 
 You can use the Portal Management app, a model-driven Power App, for advanced configuration of your Power Pages sites.
 
-If your website is using the [enhanced data model](../admin/enhanced-data-model.md), the app will appear as **Power Pages Management**. 
-
 > [!IMPORTANT]
-> Starting in August 2023, the Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites. 
+> - If your website is using the [enhanced data model](../admin/enhanced-data-model.md), the app will appear as **Power Pages Management**.
+> - Starting in August 2023, the Power Pages Management app is installed by default on new instances of Microsoft Dataverse in supported regions, including environments where there are no Power Pages sites.
 
-> [!NOTE]
-> To use the Portal Management app, you will need to be assigned the [system administrator](/power-platform/admin/assign-security-roles) role in the same Microsoft Dataverse environment as your site. Users in the [system customizer](/power-platform/admin/assign-security-roles) role also have access to use the Portal Management app however they may have limited privileges on certain tables (for example,  Notes / Attachments related to [Web Files](/power-apps/maker/portals/configure/web-files)) that do not allow them to view or update records created by other users. 
+## Prerequisites
+
+To use the Portal Management app, you need to be assigned the [system administrator](/power-platform/admin/assign-security-roles) role in the same Microsoft Dataverse environment as your site. Users in the [system customizer](/power-platform/admin/assign-security-roles) role also have access to use the Portal Management app however they may have limited privileges on certain tables (for example,  Notes / Attachments related to [Web Files](/power-apps/maker/portals/configure/web-files)) that do not allow them to view or update records created by other users.
 
 ## Open the Portal Management app from the Power Pages home page
 

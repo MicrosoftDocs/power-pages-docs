@@ -5,14 +5,13 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 6/9/2023
+ms.date: 4/30/2024
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
+    - nageshbhat-msft
 ---
 
 # Set up Power BI integration
@@ -44,7 +43,7 @@ Enabling Power BI visualization allows you to embed dashboards and reports on we
 
 1. On the site information page, in the **Services** section, enable the **Power BI Visualization** toggle.
 
-1.	Select **Enable** in the confirmation message. While Power BI visualization is being enabled, the website will restart and be unavailable for a few minutes. A message will appear when Power BI visualization has been enabled.
+1.	Select **Enable** in the confirmation message. While Power BI visualization is being enabled, the website restarts and is unavailable for a few minutes. A message appears when Power BI visualization is enabled.
 
 1. Select **Close**.
 
@@ -68,7 +67,7 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 
 1. On the site information page, in the **Services** section, enable the **Disable Power BI visualization** toggle.
 
-1.	Select **Disable** in the confirmation message. While Power BI visualization is being disabled, the website will restart and be unavailable for a few minutes. A message will appear when Power BI visualization has been enabled.
+1.	Select **Disable** in the confirmation message. While Power BI visualization is being disabled, the website restarts and is unavailable for a few minutes. A message appears when Power BI visualization is enabled.
 
 1. Select **Close**.
 
@@ -76,7 +75,7 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 
 Enabling the Power BI Embedded service allows you to embed dashboards and reports created in the new workspace of Power BI. The dashboards and reports are embedded on webpages in a portal by using the *powerbi* [Liquid](../configure/liquid-overview.md) tag.
 
-**Prerequisites**: Before enabling the Power BI Embedded service, ensure that you've created your dashboards and reports in the new workspace in Power BI. After creating the workspace, provide admin access to the global administrator (by directly adding global administrator user to the workspace instead of via group membership) so the workspaces are displayed in the Power Platform admin center. For more information on creating new workspaces and adding access to them, see [Create the new workspaces in Power BI](/power-bi/service-create-the-new-workspaces).
+**Prerequisites**: Before enabling the Power BI Embedded service, ensure that you created your dashboards and reports in the new workspace in Power BI. After creating the workspace, provide admin access to the global administrator (by directly adding global administrator user to the workspace instead of via group membership) so the workspaces are displayed in the Power Platform admin center. For more information on creating new workspaces and adding access to them, see [Create the new workspaces in Power BI](/power-bi/service-create-the-new-workspaces).
 
 > [!NOTE]
 > Ensure that Power BI visualization is enabled for the *powerbi* Liquid tag to work.
@@ -223,15 +222,16 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 
 1. Select **Save**.
 
-1. Select **OK** in the confirmation message. While Power BI Embedded service is being disabled, the website will restart and be unavailable for a few minutes. A message will appear when Power BI Embedded service has been disabled.
+1. Select **OK** in the confirmation message. While Power BI Embedded service is being disabled, the website restarts and is unavailable for a few minutes. A message appears when Power BI Embedded service is disabled.
 
 ## Considerations and limitations
 
-- Portals with version [9.3.4.x](/power-apps/maker/portals/versions/version-9.3.4.x) or later supports the following capabilities:
-    - Dashboards and report from Azure Analysis Services using [live connections](/azure/analysis-services/analysis-services-connect-pbi). Azure Analysis Services on-premises configurations are not supported.
+- Power Pages site with version [9.3.4.x](/power-apps/maker/portals/versions/version-9.3.4.x) or later supports the following capabilities:
+    - Dashboards and report from Azure Analysis Services using [live connections](/azure/analysis-services/analysis-services-connect-pbi). Azure Analysis Services on-premises configurations aren't supported.
     - Dashboards with [role-based security](/power-bi/admin/service-admin-rls).
     - Single tile with role-based security.
-- Power BI visualization functionality is not available in the China region for Microsoft Entra authentication.
+- Power Pages currently doesn't support the integration of Power BI tiles, reports, and dashboards connecting to datasets located in different workspaces. Ensure that both the dataset and the visualizations are located within the same workspace.
+- Power BI visualization functionality isn't available in the China region for Microsoft Entra authentication.
 - For more information about Power BI Embedded service limitations, see [Considerations and limitations](/power-bi/developer/embed-service-principal#considerations-and-limitations).
 
 ### Rendering a Power BI report on a webpage fails with the following error:

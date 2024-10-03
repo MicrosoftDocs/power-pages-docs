@@ -4,13 +4,11 @@ description: Learn how to set and manage table permissions.
 author: gitanjalisingh33msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/30/2023
+ms.date: 7/25/2024
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - gitanjalisingh33msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Configuring table permissions
@@ -24,7 +22,7 @@ To allow access to Dataverse records in Power Pages sites, you'll need to config
 You can create table permissions by using the following methods:
 
 - When configuring a list or a form on a page
-- From the Set up workspace
+- From the Security workspace
 - With the Portal Management app
 
 ### Adding table permissions from a list or form
@@ -37,13 +35,11 @@ In the **Table permissions** panel that appears, you can manage existing permiss
 
 :::image type="content" source="media/table-permissions/add-table-permission-form.png" alt-text="Adding a table permission from a form in the design studio.":::
 
-### Adding table permissions from the Set up workspace
+### Adding table permissions from the Security workspace
 
-1. In the design studio on the side menu, select **Set up**.
+1. In the design studio on the side menu, select **Security**.
 
-1. On the left pane in the **Security** section, select **Table permissions** to add and modify table permissions.
-
-    :::image type="content" source="media/table-permissions/table-permission-setup.png" alt-text="Adding a table permission from the Set up workspace.":::
+1. On the left pane in the **Protect** section, select **Table permissions** to add and modify table permissions.
 
 ### Adding table permissions from the Portal Management app
 
@@ -83,8 +79,6 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 1. If you select the **Contact** or **Account** access type, select the relationship between the Contact/Account and the table you selected for the permission.
 
-    :::image type="content" source="media/table-permissions/contact-account-access-type.png" alt-text="Contact or Account access type.":::
-
     > [!NOTE]
     > - If you don't have any relationships available for the selected table, you can select **New relationship** to create a new relationship.
     > - Once you create a table relationship in Power Apps, you need to make sure the configuration is published and also select the **Sync** button in the design studio. 
@@ -99,19 +93,15 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 1. Select **Save**.
 
-:::image type="content" source="media/table-permissions/table-permission-example.png" alt-text="Example of table permissions with the name, related table, access type, permissions, and roles filled out.":::
-
 ### View table permissions
 
-1. In the design studio from the side menu, select **Set up**.
+1. In the design studio from the side menu, select **Security**.
 
 1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
 
     :::image type="content" source="media/table-permissions/edit-table-permissions.png" alt-text="List of existing table permissions.":::
 
 1. To group or filter table permissions, select a view (**Default**, **Group by roles**, **Group by table**, or **Group by state**), or enter a table permission name in the filter text box.
-
-    :::image type="content" source="media/table-permissions/group-table-permissions.png" alt-text="Group or filter table permissions.":::
 
     > [!NOTE]
     > - When you group table permissions by role, table, or state, the permissions are listed as a flat structure without the parent-child relationships for configured permissions.
@@ -121,9 +111,9 @@ In this section, you'll learn how to create, view, edit, and deactivate/activate
 
 ### Edit table permissions
 
-1. In the design studio from the side menu, select **Set up**.
+1. In the design studio from the side menu, select **Security**.
 
-1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
+1. On the left pane in the **Protect** section, select **Table permissions** to view table permissions.
 
 1. Select the table permission that you want to edit; alternatively, you can select **More commands** (**...**), and then select **Edit**.
 
@@ -139,9 +129,9 @@ When a table permission is deleted, all associated child permissions are also de
 
 To deactivate/activate or delete table permissions:
 
-1. In the design studio from the side menu, select **Set up**.
+1. In the design studio from the side menu, select **Security**.
 
-1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
+1. On the left pane in the **Protect** section, select **Table permissions** to view table permissions.
 
 1. Select the table permission that you want to deactivate/activate or delete.
 
@@ -156,9 +146,9 @@ To deactivate/activate or delete table permissions:
 
 To add a child permission to an existing table permission:
 
-1. In the design studio from the side menu, select **Set up**.
+1. In the design studio from the side menu, select **Security**.
 
-1. On the left pane in the **Security** section, select **Table permissions** to view table permissions.
+1. On the left pane in the **Protect** section, select **Table permissions** to view table permissions.
 
 1. Select the table permission that you want to add the child permission to. In the table permissions property panel, select the **Child permissions** tab, and then select **New**. Alternatively, you can also select **More commands** (**...**), and then select **Add child permission**.
 
@@ -210,5 +200,5 @@ The following message is displayed when you try to save a table permission witho
 
 - [Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
 - [Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
-- [Assign table permissions](assign-table-permissions.md)<br />
+- [Assign table permissions](assign-table-permissions.md)
 - [Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)

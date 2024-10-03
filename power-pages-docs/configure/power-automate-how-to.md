@@ -5,14 +5,12 @@ author: nageshbhat-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/02/2023
+ms.date: 8/22/2024
 ms.subservice: 
 ms.author: nabha
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - nageshbhat-msft
-    - nickdoelman
-    - ProfessorKendrick
 
 ---
 
@@ -34,10 +32,10 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Navigate to the **Set up workspace**, then select **Cloud flows** under App integrations.
 
-1. Click on **+ Create new flow**
-   
-1. Search for **Power Pages**. 
-    
+1. Select **+ Create new flow**
+
+1. Search for **Power Pages**.
+
     - Select **When Power Pages calls a flow** trigger.
 
     :::image type="content" source="media/cloud-flow/power-automate-power-pages.png" alt-text="Selecting Power Pages options in Power Automate.":::
@@ -48,7 +46,7 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Add a name as **Location**.
 
-1. Select **+New step**.
+1. Select **+ New step**.
 
 1. Search for **MSN Weather**.
 
@@ -63,7 +61,7 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
 
 1. Select **+ New step**.
 
-1. Search for **Power Pages**. 
+1. Search for **Power Pages**.
 
 1. Select **Return value(s) to Power Pages** action.
 
@@ -82,7 +80,7 @@ Create a flow using the Power Pages trigger and use the **MSN weather** action t
     1. UV index
     1. Wind speed
     1. Location
-    1. Visible distance
+    1. Visibility Distance
     1. Latitude
     1. Longitude
     1. Temperature Units
@@ -122,7 +120,7 @@ After saving the flow, you need to add it to the site and assign a proper web ro
 
     :::image type="content" source="media/cloud-flow/add-to-website.png" alt-text="Add cloud flow to website.":::
 
-    >[!NOTE] 
+    > [!NOTE]
     > This is the unique URL used to connect to the associated cloud flow. You'll use this URL later to call the current weather flow.
 
 ## Step 3: Create a page to display MSN weather data
@@ -267,17 +265,14 @@ After creating the flow and attaching it to the Power Pages site, you can now ca
                 shell
                     .ajaxSafePost({
                         type: "POST",
-                        contentType: "application/json",
                         url: _url,
-                        data: JSON.stringify(payload),
-                        processData: false,
-                        global: false,
+                        data: payload
                     })
                     .done(function (response) {
                         const result = JSON.parse(response);
                         document.getElementById("temperature").innerHTML = result["temperature"];
                         document.getElementById("windspeed").innerHTML = result["wind_speed"];
-                        document.getElementById("visibility").innerHTML = result["visible_distance"];
+                        document.getElementById("visibility").innerHTML = result["visibility_distance"];
                         document.getElementById("uv").innerHTML = result["uv_index"];
                         document.getElementById("location").innerHTML = result["location"];
                         document.getElementById("condition").innerHTML = result["conditions"];

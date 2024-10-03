@@ -7,11 +7,9 @@ ms.custom:
 ms.date: 03/02/2023
 ms.subservice:
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: dmartens
 contributors:
     - pranita225
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Create and modify Dataverse views by using the Data workspace
