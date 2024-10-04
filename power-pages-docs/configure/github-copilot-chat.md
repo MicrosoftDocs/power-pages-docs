@@ -1,9 +1,9 @@
 ---
-title: Use Copilot in Power Pages with GitHub Copilot Chat in VS Code (preview)
+title: Use @powerpages within GitHub Copilot Chat for Visual Studio Code (preview)
 description: Boost productivity without leaving your coding environment using GitHub Copilot Chat for seamless Power Pages coding assistance in Visual Studio Code.
 author: neerajnandwana-msft
 ms.topic: conceptual
-ms.date: 09/16/2024
+ms.date: 10/04/2024
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -17,7 +17,7 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Use Copilot for Power Pages (@powerpages) participant within GitHub Copilot Chat for Visual Studio Code (preview)
+# Use @powerpages within GitHub Copilot Chat for Visual Studio Code (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
