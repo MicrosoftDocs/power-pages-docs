@@ -610,7 +610,7 @@
           href: configure/add-code-copilot.md
         - name: Use Visual Studio Code for the Web editor (preview)
           href: configure/visual-studio-code-editor.md 
-        - name: Use Copilot for Power Pages participant in GitHub Copilot Chat (preview)
+        - name: Use @powerpages within GitHub Copilot Chat (preview)
           href: configure/github-copilot-chat.md    
     - name: Use Power Fx in Power Pages (preview)
       href: configure/power-fx.md
