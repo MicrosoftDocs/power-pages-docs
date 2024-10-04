@@ -3,7 +3,7 @@ title: Use Power Fx in Power Pages (preview)
 description: Explore Power Fx, Microsoft's low-code language for expressing logic across the Power Platform, now available in Power Pages.
 author: sandhangitmsft
 ms.topic: conceptual
-ms.date: 06/27/2024
+ms.date: 10/04/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -26,7 +26,7 @@ ms.custom:
 Power Fx is expressed in human-friendly text. It's a low-code language that makers can work with directly in an Excel-like formula bar. The "low" in low-code is due to the concise and simple nature of the language, making common programming tasks easy for both makers and developers.
 
 > [!NOTE]
-> You may find the syntax for authoring Power Fx formula to be a bit different than what you may be used to in Power Apps or Power Automate. To initiate a Power Fx expression, it needs to begin with an '=' (equal sign) similar to the experience in Excel. For more information, see [Important considerations](#important-considerations).
+> You might find the syntax for authoring Power Fx formula to be different than what you are used to in Power Apps or Power Automate. To initiate a Power Fx expression, it must begin with an '=' (equal sign) like in Excel. For more information, see [Important considerations](#important-considerations).
 
 Power Fx enables the full spectrum of development from no-code makers without any programming knowledge to pro-code for professional developers. It facilitates collaboration among diverse teams, helping them save time and effort.
 
@@ -38,7 +38,7 @@ Power Fx enables the full spectrum of development from no-code makers without an
 
 ## Use Power Fx in Power Pages
 
-Within a Power Pages website, Power Fx is available as an expression language for use with the following components and their attributes. This functionality facilitates the dynamic assignment of values based on the outcomes of Power Fx expressions.
+Within a Power Pages website, Power Fx is available as an expression language for use with the following components and their attributes. This functionality allows the dynamic assignment of values based on the outcomes of Power Fx expressions.
 
 |Component  |Properties  |
 |---------|---------|
@@ -49,7 +49,7 @@ Within a Power Pages website, Power Fx is available as an expression language fo
 
 ### Use the Power Fx formula bar
 
-A new **fx** command is available in the toolbar for each component that supports Power Fx:
+The toolbar includes a new **fx** command for components that support Power Fx:
 
 :::image type="content" source="media/power-fx/command-bar.png" alt-text="Screenshot of the Power Fx command in the command bar of a text control.":::
 
@@ -89,9 +89,9 @@ The following are some developer centric features for increased productivity:
 
 ### Important considerations
 
-The following are some important considerations to be aware of when using Power Fx formula bar in Power Pages:
+Consider the following guidelines when you use the Power Fx formula bar in Power Pages:
 
-- **Start with an equals sign**: Text can be entered directly as the value. However, to initiate a Power Fx expression, it should begin with an '=' (equal sign) such as in the following example.
+- **Start with an equals sign**: Text can be entered directly as the value. To initiate a Power Fx expression, it must begin with an '=' (equal sign) as shown in the following example:
 
     ```power-fx
     =Concatenate("Hello, ", User.FullName)
@@ -128,7 +128,7 @@ For the complete list of all available functions in Power Pages, go to [Formula
 
     `Parameter 'Value': PowerFx type is not supported.`
 
-- User isn't initialized for anonymous users and results in the following error when used on any form including check for blank. This issue will be fixed in a future release.
+- The system doesn't initialize the User for anonymous users, which results in the following error when you use it on any form, including a check for blanks. This issue will be fixed in a future release.
 
      `UserInfo object was not added to service`
 
