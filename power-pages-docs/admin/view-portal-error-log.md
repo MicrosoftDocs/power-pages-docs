@@ -124,6 +124,9 @@ After developing and publishing the website, you still need to be able to access
 
       By default, the retention period is 30 days.
 
+> [!NOTE]
+> - Right now the UI shows only the default value of 30 days. If you change the retention period, the new retention period cannot be seen in the UI.
+
    - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the website error logs. The maximum length of the URL is 2048 characters. If the URL is longer than 2048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](/azure/storage/common/storage-configure-connection-string)
 
 1. Select **Enable**.
