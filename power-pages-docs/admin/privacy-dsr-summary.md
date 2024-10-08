@@ -1,5 +1,5 @@
 ---
-title: Personal data requests for Copilot Studio
+title: Respond to Data Subject Rights (DSR) requests for Power Pages customer data
 description: Review personal data request information for Microsoft Power Pages.
 author: dileepsinghmicrosoft
 ms.reviewer: dmartens
@@ -12,7 +12,7 @@ contributors:
 - DanaMartens 
 ---
 
-# Personal data requests
+# Respond to Data Subject Rights (DSR) requests for Power Pages customer data
 
 The European Union (EU) General Data Protection Regulation (GDPR) gives significant rights to individuals regarding their data. Learn more about GDPR in [General Data Protection Regulation Summary](/compliance/regulatory/gdpr). This resource includes an overview, including terminology, an action plan, and readiness checklists to help you meet your obligations under GDPR when using Microsoft products and services.
 
