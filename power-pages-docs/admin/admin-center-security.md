@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/11/2024
+ms.date: 10/08/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: danamartens
@@ -72,9 +72,24 @@ SSL certificates have a fixed validity period and require timely renewal to cont
 
 Select **View details** to review the SSL certificate expiry details for each website.
 
-## Quick scan
+## Site health
 
-Quick scan gives you a summary of the websites in your organization related to security status. The security status of a website is determined based on certain security checks that are run for each website. For more information, go to [Security site checker](../security/site-checker-security.md).
+The **Site health** section includes tabs to view results of deep or quick scans:
+
+### Deep scan
+
+The [deep scan](../security/security-scan.md) feature is designed to strengthen your site's resilience by detecting and addressing vulnerabilities, protecting it from potential threats, and ensuring a secure online environment for users.
+
+The dashboard offers a summary of:
+
+- The count of sites within the tenant that were scanned and the count that weren't scanned.
+- Site-specific details, including the scan status, scan score (number of passed/failed checks), if the scan completed, a view of the scan results, and an option to initiate the scan.
+
+Select **view** from the scan results column to open the summary report. The summary report includes a list of failed checks and corresponding alerts with descriptions of how to fix the alerts. You can optionally download the report as a PDF. Report summaries for security scan are only supported in English-US language.
+
+### Quick scan
+
+The quick scan tab gives you a summary of the websites in your organization related to security status. The security status of a website is determined based on certain security checks that are run for each website. For more information, go to [Security site checker](../security/site-checker-security.md).
 
 The security health is calculated by looking at various configuration parameters and identifying common issues. These checks aren't exhaustive and we recommend you continue following website security best practices.
 
