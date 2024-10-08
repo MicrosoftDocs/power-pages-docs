@@ -796,6 +796,14 @@
       href: configure/implement-privacy.md
     - name: Cookies
       href: admin/cookies.md
+- name: Responding to DSR requests
+  items:
+    - name: Overview
+      href: admin/privacy-dsr-summary.md
+    - name: Export data
+      href: admin/privacy-dsr-export.md
+    - name: Delete data
+      href: admin/privacy-dsr-delete.md
 - name: System requirements, limits, and configuration
   href: system-requirements.md
 - name: Power Pages FAQs
