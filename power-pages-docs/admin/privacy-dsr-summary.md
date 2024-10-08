@@ -5,7 +5,6 @@ author: dileepsinghmicrosoft
 ms.reviewer: dmartens
 ms.topic: overview
 ms.date: 10/08/2024
-ms.subservice: admin
 ms.author: dileeps
 search.audienceType: 
   - admin
