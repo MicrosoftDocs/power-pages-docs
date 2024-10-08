@@ -48,7 +48,7 @@ Power Pages has two types of users which might be accessing its services:
 | Type of User | Experience used to access Power Pages service |
 |--------------|----------------------------------------------|
 | Maker/Admin  | Power Pages Maker Studio, Power Platform Admin Center, Power Pages Portal Management App, Power Pages Management App, Power Pages VS Code Extensions, Power Pages Admin API’s, Dataverse API |
-| User     | Website hosted using Power Pages Service     |
+| Website user/visitor     | Website hosted using Power Pages Service     |
 
 ### Step 2: Find personal data for the user in Power Pages
 

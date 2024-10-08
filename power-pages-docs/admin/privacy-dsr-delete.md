@@ -14,6 +14,8 @@ contributors:
 
 # Responding to Data Subject Rights (DSR) requests to delete Power Pages customer data
 
+This article discusses the experiences that Power Pages offers when deleting personal data for a specific user.
+
 ## Maker/Admin
 
 1. **System generated telemetry logs:**
@@ -28,7 +30,7 @@ contributors:
 
     To delete these settings, you can delete the user from Microsoft Entra. Learn more in [Responding to Data Subject Rights (DSR) requests to delete customer data](/power-platform/admin/powerapps-privacy-delete-dsr).
 
-## User
+## Website user/visitor
 
 1. **System generated telemetry logs:**
 
@@ -38,6 +40,13 @@ contributors:
 
 1. **Environment:**
 
-    All the data stored in environments are stored within Dataverse. By default, all Power Pages customer data is stored in the following tables in Dataverse: Contact, Account, Web Form Sessions (or Advanced Form Sessions), Power Pages log (if Web Application Firewall logs are enabled). However, you can extend this configuration. It's essential to establish policies and procedures for tracking where each individual's personal data is stored, ensuring you're ready to handle DSR requests.
+    All the data stored in environments are stored within Dataverse. By default, all Power Pages customer data is stored in the following tables in Dataverse:
+
+    - Contact
+    - Account
+    - Web Form Sessions (or Advanced Form Sessions)
+    - Power Pages log (if Web Application Firewall logs are enabled)
+
+    However, you can extend this configuration. It's essential to establish policies and procedures for tracking where each individual's personal data is stored, ensuring you're ready to handle DSR requests.
 
     Learn more about how to respond to DSR requests for this data in [Responding to DSR requests for Microsoft Dataverse customer data](/power-platform/admin/dataverse-privacy-dsr-guide).
