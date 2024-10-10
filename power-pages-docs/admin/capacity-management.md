@@ -71,6 +71,12 @@ The consumption graph visualizes the data for assigned capacity, total available
 
 There's a delay of up to 24 hours for the data shown in the graph.
 
+##### Migration view
+
+In the consumption history graph, you will find a toggle control titled  "**Migration view**". When enabled, the consumption graph will show the total consumption in the tenant **including the consumption of sites using legacy license models** converted to authenticated and anonymous capacity. These figures are helpful when planning for the migration of legacy licensing models to the currently supported capacity model. All views (month-to-date, past two full months and 12mo) are supported with the migration view.
+
+![migration view](https://github.com/user-attachments/assets/200603b0-ab05-4c10-81ce-d123dced6d8f)
+
 #### Notification cards
 
 Notification cards appear above the licensing summary view when something requires attention.
