@@ -88,8 +88,9 @@ Undo and redo only support changes that you make in the Pages workspace. Your ac
 Syncing, saving, previewing, zooming, expanding/reducing the workspace, navigating between workspaces and pages, and uploading media and CSS files aren't supported.
 
 > [!NOTE]
-> - You cannot delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
+> - You can't delete the header or footer in the Pages workspace. See [Web templates](../configure/web-templates.md) for information on creating custom page layouts.
 > - For sites created using Power Pages prior to September 23, 2022 there is a known issue related to themes. More information: [Adjusting the background color for your Power Pages site](../known-issues.md#adjusting-the-background-color-for-your-power-pages-site)
+> - When custom JavaScript is written in a script tag inside the page copy, the liquid tags within the custom JavaScript are replaced with an HTML wrapper during Studio load. This replacement breaks the custom JavaScript functionality. To avoid this issue, custom JavaScript should be added only in the **custom_javascript** attribute.
 
 ## Edit code components
 
