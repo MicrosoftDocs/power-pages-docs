@@ -26,7 +26,7 @@ Enhance your Power Pages site with a copilot for instant customer support. Integ
 
 Follow this guide to create a preconfigured copilot that uses generative answers for natural language responses:
 
-**Already have a copilot in Microsoft Copilot Studio?** [Update Power Pages to use it](pva-bot-how-to.md).
+**Already have a copilot in Microsoft Copilot Studio?** [Update Power Pages to use it](pva-bot-how-to.md).<br>
 **Default setup:** Answers questions based on your site's information.<br>
 **Extend capabilities:** Configure the copilot to [generate answers from public data using Bing search](force-bing-index.md).<br>
 **Use Dynamics 365 Customer Service?** [Configure Omnichannel with your copilot](../configure/omnichannel.md) to transition customers to a live agent when needed.
