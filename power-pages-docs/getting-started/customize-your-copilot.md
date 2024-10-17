@@ -33,17 +33,14 @@ Authenticated site users receive tailored, summarized answers that align with th
 1. Select **Next**.
 1. Under **Choose tables**, select the table that contains the columns and page link you wish to select. The table doesn't appear unless it has at least one multi-line column.
     - You can select one table at a time.
-1. Under **Add page link**, select the page where table is used.  
+1. Under **Add page link**, select the page where the table is used.  
 
     > [!NOTE]
     >
     > - Ensure you select the correct page where the table is used. Choosing the wrong table will result in the bot providing an incorrect citation URL for the answers.
     > - The page must use 'id' as the query string parameter. The citation URL doesn't function correctly if you use any other parameter name.
 
-1. Under **Choose columns**, select the list of columns that are used in the page.
-
-    > [!NOTE]
-    > Only columns with multiline text are available to choose.  
+1. Under **Choose columns**, select the list of columns that are used in the page. Only columns with multiline text are available to choose.  
 
 1. Select **Next** and review your selection.
 1. Select **Save** to submit the changes.
@@ -194,4 +191,4 @@ Text color:
 
 - [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
 - [Generate answers from public data using Bing search](../getting-started/force-bing-index.md)
-- [Responsible AI - FAQ for site copilot](../faqs-chatbot.md)
+- [Responsible AI: FAQ for site copilot](../faqs-chatbot.md)
