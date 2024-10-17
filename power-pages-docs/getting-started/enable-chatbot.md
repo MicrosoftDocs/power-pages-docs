@@ -24,7 +24,7 @@ Enhance your Power Pages site with a copilot for instant customer support. Integ
 
 ## Introduction
 
-Follow this guide to create a preconfigured copilot that uses generative answers for natural language responses:
+Follow this guide to add a preconfigured copilot that uses generative answers for natural language responses:
 
 **Already have a copilot in Microsoft Copilot Studio?** [Update Power Pages to use it](pva-bot-how-to.md).<br>
 **Default setup:** Answers questions based on your site's information.<br>
