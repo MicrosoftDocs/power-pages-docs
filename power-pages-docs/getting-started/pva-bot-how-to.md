@@ -32,15 +32,13 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 1. Sign in to [Microsoft Copilot Studio](https://web.powerva.microsoft.com/).
 
-1. Select the copilot, which needs to be updated.
+1. Select the copilot you want to use in Power Pages.
 
 1. Navigate to **Copilot details** under **Settings**.
 
 1. Select **Advanced** tab.
 
 1. Copy the **Schema name**.
-
-    :::image type="content" source="media/pva-bot-how-to/schema_name.png" alt-text="A screenshot of Copilot Studio with the copilot details page open and the Schema name field emphasized.":::
 
 ## Verify Data model version
 
@@ -71,7 +69,7 @@ Choose the following tab, which corresponds to your data model, to see the appro
 1. Filter records by **Bot Consumer** option.
 1. Locate the row with the selected website name in the **Power Pages Site id** column.
 1. Choose **Edit row using form**.
-1. Replace **botschemaname** json value with the new schema name you copied earlier.
+1. Within **Content**, update the **botschemaname** json value with the new schema name you copied earlier.
 
     :::image type="content" source="media/pva-bot-how-to/bot-enhanced-data-model.png" alt-text="A screenshot of the General options for Bot Consumer with the botschemaname json value emphasized.":::
 
