@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Microsoft Entra External ID is a Customer Identity Access Management (CIAM) solution that personalizes and secures access to websites and applications for customers and partners. It shares foundational technology with Azure B2C but operates as a distinct service, using the Microsoft Entra Admin Center instead of the Azure portal. Integrating External ID with Power Pages simplifies customer sign-ins and reduces development efforts. Learn more about Microsoft Entra External ID at [Introduction to Microsoft Entra External ID](/entra/external-id/external-identities-overview).
+Microsoft Entra External ID is a Customer Identity Access Management (CIAM) solution that personalizes and secures customers' and partners' access to websites and applications. It shares foundational technology with Azure B2C but operates as a distinct service, using the Microsoft Entra Admin Center instead of the Azure portal. Integrating External ID with Power Pages simplifies customer sign-ins and reduces development efforts. Learn more about Microsoft Entra External ID at [Introduction to Microsoft Entra External ID](/entra/external-id/external-identities-overview).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
@@ -35,7 +35,7 @@ To configure Microsoft Entra as an identity provider:
 1. Select **Edit**.
 1. Select **Security > Identity providers**.
 1. Locate **Microsoft Entra External ID (preview)** as the login provider and select **Configure**.
-1. Enter a name for the provider, such as *Microsoft Entra External ID*. This name appears on the button that users see when they select their identity provider on the sign-in page.
+1. Enter a name for the provider, such as *Microsoft Entra External ID*. This name appears on the button users see when they select their identity provider on the sign-in page.
 1. Select **Next**.
 
     > [!NOTE]
