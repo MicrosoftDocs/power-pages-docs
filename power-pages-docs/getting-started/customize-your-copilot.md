@@ -22,8 +22,10 @@ ms.custom:
 
 When you create a copilot for a website, the copilot uses the content from the hosting site to generate responses. Dataverse indexes site content and configured tables, which Copilot Studio summarizes to generate responses.
 
-Authenticated site users receive tailored, summarized answers that align with their web roles. To improve the content model for authenticated site users, refine the data by following these steps within the **Add copilot** section:
+Authenticated site users receive tailored, summarized answers that align with their web roles. To improve the content model for authenticated site users, refine the data by following these steps:
 
+1. Go to the [Set up workspace](../configure/setup-workspace.md).
+1. Under **Copilot**, select **Add copilot**.
 1. Under **Refine your data**, choose the **Make changes** button.
 1. Select **Choose tables lookup control** to select or deselect the tables.
     - You can select multiple tables in this section. Ensure any table you select here is used on the site.
