@@ -2,7 +2,7 @@
 title: Generate answers from public data using Bing search
 description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a copilot.
 ms.topic: how-to
-ms.date: 08/30/2024
+ms.date: 10/17/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -31,6 +31,10 @@ To use the Bing search:
 1. Select **Save** and then select **Publish**.
 
     Verify whether your public site is indexed by conducting a search for any content using Bing search. If you don't receive any results from your site, it might not be indexed. You can either wait for indexing or prompt Bing Webmaster to index your site immediately.
+
+> [!IMPORTANT]
+>
+> If you configure copilot for generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## Force Bing webmaster to index your site (Optional)
 
