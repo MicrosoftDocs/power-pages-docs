@@ -1,5 +1,5 @@
 ---
-title: How to customize your copilot
+title: Customize your copilot
 description: Learn how to customize the copilot experience in Microsoft Power Pages with this step-by-step guide.
 ms.topic: how-to
 ms.date: 10/17/2024
@@ -18,7 +18,7 @@ ms.custom:
   - bap-template
 ---
 
-# How to customize your copilot
+# Customize your copilot
 
 When you create a copilot for a website, the copilot uses the content from the hosting site to generate responses. Dataverse indexes site content and configured tables, which Copilot Studio summarizes to generate responses.
 
