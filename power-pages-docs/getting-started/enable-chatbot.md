@@ -20,16 +20,13 @@ ms.custom:
 
 # Add a copilot to your Power Pages site
 
-Enhance your Power Pages site with a copilot for instant customer support. Integrate a copilot in minutes to provide natural language responses to visitor questions, improving user experience, and boosting satisfaction.
+Copilot enhances your Power Pages site providing instant support to your users. Integrate a copilot in minutes to provide natural language responses to visitor questions, improving user experience, and boosting satisfaction.
 
-## Introduction
+By default, [copilot](#add-a-copilot) is able to answer questions based on your site's information when you add it to your Power Pages site. You can extend default copilot capability with the following options.
 
-Follow this guide to add a preconfigured copilot that uses generative answers for natural language responses:
-
-**Already have a copilot in Microsoft Copilot Studio?** [Update Power Pages to use it](pva-bot-how-to.md).<br>
-**Default setup:** Answers questions based on your site's information.<br>
-**Extend capabilities:** Configure the copilot to [generate answers from public data using Bing search](force-bing-index.md).<br>
-**Use Dynamics 365 Customer Service?** [Configure Omnichannel with your copilot](../configure/omnichannel.md) to transition customers to a live agent when needed.
+- Use a copilot created from [Microsoft Copilot Studio](pva-bot-how-to.md).
+- Extend copilot capabilities by [configuring the copilot to generate answers from public data using Bing search](force-bing-index.md).
+- Use [Omnichannel in Dynamics 365 Customer Service with your copilot](../configure/omnichannel.md) and transition customers to a live agent when needed.
 
 ## Prerequisites
 
