@@ -1,5 +1,5 @@
-﻿---
-title: Replace copilot added to site with another copilot available in Microsoft Copilot Studio
+---
+title: Replace default copilot with a copilot customized using Microsoft Copilot Studio
 description: Learn how to replace the default Power Pages copilot with another copilot available in Microsoft Copilot Studio.
 ms.topic: how-to
 ms.date: 08/30/2024
@@ -14,7 +14,7 @@ ms.collection:
     - bap-ai-copilot
 ---
 
-# Replace copilot added to site with another copilot available in Microsoft Copilot Studio
+# Replace default copilot with a copilot customized using Microsoft Copilot Studio
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
