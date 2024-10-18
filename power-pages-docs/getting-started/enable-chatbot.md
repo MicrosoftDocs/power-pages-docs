@@ -39,9 +39,6 @@ To use AI-powered copilot features in Power Pages:
 
 Follow these steps to manually add a copilot:
 
-> [!NOTE]
-> If a site meets the conditions outlined in the prerequisite section, the copilot will be added to the site during site provisioning. If you prefer not to have the copilot created by default, the [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can turn off this capability at the tenant level. Learn more in [manage copilot provisioning](/power-pages/getting-started/manage-copilot-provisioning).  
-
 1. Go to the [Set up workspace](../configure/setup-workspace.md).
 1. Under **Copilot**, select **Add copilot**.
 
@@ -55,10 +52,10 @@ Follow these steps to manually add a copilot:
 
     If your tenant admin didn't turn on publishing copilots with AI features, the **Enable copilot on site** option isn't available.
 
-## Known issues
-
-- To change your site's custom domain after adding a copilot, first turn off the copilot, update the custom domain, and then turn the copilot back on.
-- If you turn off the copilot feature, allow a few minutes for background operations to complete before you turn it on again.
+> [!NOTE]
+> - If a site meets the conditions outlined in the prerequisite section, the copilot will be added to the site during site provisioning. If you prefer not to have the copilot created by default, the [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can turn off this capability at the tenant level. Learn more in [manage copilot provisioning](/power-pages/getting-started/manage-copilot-provisioning).  
+> - To change your site's custom domain after adding a copilot, first turn off the copilot, update the custom domain, and then turn the copilot back on.
+> - If you turn off the copilot feature, allow a few minutes for background operations to complete before you turn it on again.
 
 ## Next steps
 
