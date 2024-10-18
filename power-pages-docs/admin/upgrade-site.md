@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/27/2024
+ms.date: 10/16/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
@@ -21,7 +21,7 @@ A Power Pages site consists of the following components:
 
 |Component|Description|Update process|
 |---------|-----------|--------------|
-|[Power Pages solutions](#solution-update)|Solutions that are installed in Microsoft Dataverse environment and contains the metadata tables for any website.|Updated by customers themselves from the Power Platform admin center.|
+|[Power Pages solutions](#solution-update)|Solutions that are installed in Microsoft Dataverse environment and contains the metadata tables for any website.|Previously, you had to manually update your solutions and packages to receive the latest features and fixes for your Power Pages sites. However, with the integration of the Dataverse Base Portal package (CDSBasePortal) into the Power Platform's automated update system (PDU), this package is updated automatically in environments where an older version is already installed. This means you no longer need to manually update the Dataverse Base Portal package. The system automatically applies updates, ensuring you have the latest improvements without any extra effort. <br>**Note:** The automatic update applies only to the Dataverse Base Portal package. Other packages, such as standard data model template packages, still require manual updates. If you're using other standard data model template packages like Community, Customer Self-Service, Employee Self-Service, Partner, or any custom templates, you need to continue updating these solutions manually.|
 |[Power Pages website host](#website-host-update)|The Power Pages website host is the Azure web application that forms the actual website.|The Power Pages website host updates automatically for all sites.<br>**Note**: A new version of Power Pages website host is backwards compatible with all supported versions of Power Pages solutions. However, once a solution version becomes unsupported, the solution isn't certified to run with the new version of Power Pages website host.|
 |||
 
