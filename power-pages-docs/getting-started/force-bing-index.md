@@ -22,7 +22,7 @@ To use the Bing search:
 
 1. Open [Power Pages](https://make.powerpages.microsoft.com/)
 1. Select site **+ Edit**.
-1. Navigate to the **Set up** workspace, then select **Add copilot** under **Copilot**
+1. Navigate to the **Set up** workspace, then select **Add copilot** under **Copilot**.
 1. Select **View copilot analytics**.
 1. Select **Topics**.
 1. Select the **System** tab.
