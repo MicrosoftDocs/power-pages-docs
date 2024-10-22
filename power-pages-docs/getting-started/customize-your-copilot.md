@@ -2,7 +2,7 @@
 title: Customize your copilot
 description: Learn how to customize the copilot experience in Microsoft Power Pages with this step-by-step guide.
 ms.topic: how-to
-ms.date: 10/17/2024
+ms.date: 10/22/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens

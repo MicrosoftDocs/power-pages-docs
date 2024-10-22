@@ -2,7 +2,7 @@
 title: Generate answers from public data using Bing search
 description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a copilot.
 ms.topic: how-to
-ms.date: 10/17/2024
+ms.date: 10/22/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens

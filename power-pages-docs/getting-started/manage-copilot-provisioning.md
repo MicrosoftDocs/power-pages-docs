@@ -2,7 +2,7 @@
 title: Manage copilot provisioning
 description: Learn how to manage default copilot provisioning in Microsoft Power Pages using PowerShell scripts.
 ms.topic: how-to
-ms.date: 10/17/2024
+ms.date: 10/22/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens

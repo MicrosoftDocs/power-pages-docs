@@ -2,7 +2,7 @@
 title: Add a copilot to your Power Pages Site
 description: Learn how to add a copilot to a Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 10/17/2024
+ms.date: 10/22/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -20,7 +20,7 @@ ms.custom:
 
 # Add a copilot to your Power Pages site
 
-Copilot enhances your Power Pages site providing instant support to your users. Integrate a copilot in minutes to provide natural language responses to visitor questions, improving user experience, and boosting satisfaction.
+Copilot enhances your Power Pages site providing instant support to your users. Integrate a copilot in minutes to provide natural language responses to visitor questions, improve user experience, and boost satisfaction.
 
 By default, [copilot](#add-a-copilot) is able to answer questions based on your site's information when you add it to your Power Pages site. You can extend default copilot capability with the following options.
 
@@ -33,7 +33,7 @@ By default, [copilot](#add-a-copilot) is able to answer questions based on your 
 To use AI-powered copilot features in Power Pages:
 
 - Your tenant administrator must turn on the setting [Publish Copilots with AI features](/microsoft-copilot-studio/security-and-governance) in the Power Platform admin center.
-- Copilot uses Microsoft Copilot Studio generative answers. Learn more about generative answers in Copilot Studio in [Knowledge sources overview](/microsoft-copilot-studio/nlu-boost-conversations#whats-supported).
+- Copilot uses Microsoft Copilot Studio generative answers. Learn more about quotas and limits in [Quotas, limits, app registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
 
 ## Add a copilot
 
