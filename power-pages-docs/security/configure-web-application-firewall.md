@@ -14,8 +14,6 @@ contributors:
 
 # Configure Web Application Firewall for Power Pages 
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Web Application Firewall (WAF) is available for production sites created using Power Pages. In this article, you'll learn about how to enable or disable Web Application Firewall for Power Pages sites.
 
 ## Prerequisites
@@ -47,4 +45,4 @@ You'll need the following before configuring WAF for your Power Pages website.
 
 ### See also
 
-[Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
+[Web Application Firewall (WAF) for Power Pages](web-application-firewall.md)
