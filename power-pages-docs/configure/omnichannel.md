@@ -1,15 +1,14 @@
 ---
 title: Configure Omnichannel with Power Pages site copilot
-description: Configure Omnichannel with Power Pages site copilot to escalate interactions with live agents.
+description: Learn how to configure Omnichannel with Power Pages site copilot for seamless live agent escalation.
 ms.topic: how-to
-ms.date: 05/31/2024
+ms.date: 10/22/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
   - bap-ai-copilot
 contributors:
-  - ProfessorKendrick
   - nageshbhat-msft
   - DanaMartens
 ms.custom:
@@ -19,11 +18,7 @@ ms.custom:
 ---
 # Configure Omnichannel with Power Pages site copilot
 
-[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) empowers enterprises to instantly connect and engage with their customers via live chat. If the copilot is can't resolve their queries or if they require a response beyond the site's programmed capabilities, the site copilot facilitates a seamless transition to a live agent for assistance.
-
-> [!IMPORTANT]
->
-> - To understand the capabilities and limitations of this feature, see [FAQ for copilot](../faqs-chatbot.md).
+[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) empowers enterprises to instantly connect and engage with their customers via live chat. If the copilot is unable to resolve their queries or if they require a response beyond the site's programmed capabilities, the site copilot facilitates a seamless transition to a live agent for assistance.
 
 ## Prerequisites
 
@@ -59,7 +54,7 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 1. In the left-hand menu, choose **Publish**.
 1. Select the **Publish** button.
 
-## Complete chatbot setup in Customer Service Admin Center
+## Complete chatbot setup in Customer Service admin center
 
 1. Open the [Customer Service admin center](/dynamics365/customer-service/implement/cs-admin-center).
 
@@ -88,3 +83,7 @@ To achieve this functionality, you must configure the copilot manually in Copilo
 1. Choose **+ New**.
 1. Create "*SiteCopilot/EnableOmniChannelWidget"* site setting and set value to `true`.
 1. Save and preview the site.
+
+## Related information
+
+[Responsible AI: FAQ for site copilot](../faqs-chatbot.md)

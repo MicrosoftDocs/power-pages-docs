@@ -7,9 +7,8 @@ ms.date: 4/14/2023
 ms.subservice:
 author: deepa88 
 ms.author: deepabansal 
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - ProfessorKendrick
 ---
 
 # Frequently Asked Questions template (preview)

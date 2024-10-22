@@ -10,7 +10,6 @@ ms.subservice:
 ms.author: dileeps
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - dileepsinghmicrosoft
 ---
 

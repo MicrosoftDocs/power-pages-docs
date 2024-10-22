@@ -10,7 +10,6 @@ ms.author: sandhan
 ms.reviewer: dmartens
 contributors:
     - sandhangitms
-    - ProfessorKendrick
     - DanaMartens
 ---
 

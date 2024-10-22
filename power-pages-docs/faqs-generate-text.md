@@ -1,7 +1,7 @@
 ---
 title: FAQ for natural language to text
 description: This FAQ discusses natural language to text and the key considerations for making use of this technology responsibly.
-ms.date: 04/26/2024
+ms.date: 08/30/2024
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: vashr
@@ -10,8 +10,6 @@ ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - DanaMartens
 ---
 
@@ -33,7 +31,7 @@ The goal of Copilot for text is to provide you with assistance in creating text 
 
 ## How was the feature evaluated? What metrics are used to measure performance?
 
-This feature underwent substantial testing before the feature was released. Copilot for text relies on user feedback to report if the AI-generated text content is not relevant or inappropriate. If you encounter irrelevant or inappropriate responses, report it to Microsoft using the thumbs down gesture and include feedback in the form. We track the telemetry of thumbs up and thumbs down gestures present in the Copilot experiences for each AI-generated output. Your feedback helps improve the functionality moving forward. In addition to this, we also track Copilot's SLA to make sure it's always available to you.
+This feature underwent substantial testing before the feature was released. Copilot for text relies on user feedback to report if the AI-generated text content isn't relevant or inappropriate. If you encounter irrelevant or inappropriate responses, report it to Microsoft using the thumbs down gesture and include feedback in the form. We track the telemetry of thumbs up and thumbs down gestures present in the Copilot experiences for each AI-generated output. Your feedback helps improve the functionality moving forward. In addition to this, we also track Copilot's SLA to make sure it's always available to you.
 
 ## What are the limitations of natural language to text? How can users minimize the impact of the natural language to text limitations when using the system?
 
@@ -44,10 +42,10 @@ This feature underwent substantial testing before the feature was released. Copi
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 
-You can describe the text you need for your website, and Power Pages uses LLMs to generate text content with a preview. Revise the output as required, or adjustments like rewrite, change tone and change length. When done, add the text content by selecting **Add to Page**. 
+You can describe the text you need for your website, and Power Pages uses LLMs to generate text content with a preview. Revise the output as required, or adjustments like rewrite, change tone, and change length. When done, add the text content by selecting **Add to Page**.
 
 - **Rewrite** - generates new text based on the already provided description.
-- **Change the tone** - changes the tone of the generated text to make it professional, conversational, friendly or educational.
+- **Change the tone** - changes the tone of the generated text to make it professional, conversational, friendly, or educational.
 - **Adjust the length** - make the generated text shorter or longer.
 
 ## See also

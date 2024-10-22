@@ -5,14 +5,13 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/26/2023
+ms.date: 10/03/2024
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
     - gitanjalisingh33msft
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Power Platform CLI solution support for Power Pages (preview)
@@ -45,7 +44,7 @@ To add a website to a solution by using the PAC CLI, you must determine the **co
 
 To get the specific Power Pages `componentType` names and values, send a **GET** request by using the Dataverse Web API OData call.
 
-`{OrgURL}/api/data/v9.1/solutioncomponentdefinitions?filter=startswith(name,'powerpage')$&select=name,solutioncomponenttype`
+`{OrgURL}/api/data/v9.1/solutioncomponentdefinitions?$filter=startswith(name,'powerpage')&$select=name,solutioncomponenttype`
 
 :::image type="content" source="media/cli-solutions/component_types.png" alt-text="Screenshot that shows a list of component types.":::
 
@@ -71,7 +70,7 @@ After you've determined the component type and component ID, run the following c
 
 Example:
 
-`pac solution add-solution-component -sn SampleSolution -c c6f2aec0-ddd2-ed11-a7c6-6045bdf05d59 -ct 10319`
+`pac solution add-solution-component -sn SampleSolution -c c6f2aec0-ddd2-ed11-a7c6-6045bdf05d59 -ct 10463`
 
 In this example:
 

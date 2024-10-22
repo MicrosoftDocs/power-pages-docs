@@ -8,10 +8,9 @@ ms.custom:
 ms.date: 08/27/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Restrict website access by IP address

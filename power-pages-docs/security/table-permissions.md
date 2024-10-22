@@ -6,11 +6,9 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 7/25/2024
 ms.author: gisingh
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - gitanjalisingh33msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Configuring table permissions

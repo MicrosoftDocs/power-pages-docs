@@ -4,14 +4,12 @@ description: Responsible AI FAQs discusses AI technology in Power Pages and the 
 author: sandhangitmsft
 ms.topic: article
 ms.custom: responsible-ai-faqs
-ms.date: 04/26/2024
+ms.date: 08/30/2024
 ms.author: sandhan
 ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - DanaMartens
 ---
 
@@ -24,7 +22,7 @@ contributors:
 - [FAQ for site creation](faqs-generate-site.md)
 - [FAQ for chatbot (preview)](faqs-chatbot.md)
 - [FAQ for generating text](faqs-generate-text.md)
-- [FAQ for creating form](faqs-create-form.md) 
-- [FAQ for Copilot for design studio](faqs-design-studio.md) 
+- [FAQ for creating form](faqs-create-form.md)
+- [FAQ for Copilot for design studio](faqs-design-studio.md)
 - [FAQ for code (preview)](faqs-pro-developer.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)

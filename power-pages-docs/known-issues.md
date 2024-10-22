@@ -9,8 +9,6 @@ ms.subservice:
 ms.author: sandhan 
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
 ---
 # Known issues
 

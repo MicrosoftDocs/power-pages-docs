@@ -4,20 +4,19 @@ description: Learn how to create an AI-generated webpage using Copilot in Power 
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/12/2024
+ms.date: 10/04/2024
 ms.subservice:
 ms.author: ckwan
 ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - ProfessorKendrick
     - clromano
     - DanaMartens
 ---
 # Create an AI-generated webpage using Copilot
 
-You can create a new page for your site by describing the purpose of the page. Copilot generates the HTML for the page with relevant text copy and images from the description. The page is added to the main navigation of the site, and can be refined and edited using Copilot and the WYSIWYG editor.
+You can create a new page for your site by describing the purpose of the page. Copilot generates the HTML for the page with relevant text copy and images from the description. Copilot adds the page to the main navigation of the site. You can refine and edit it using Copilot and the WYSIWYG editor.
 
 > [!NOTE]
 > This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
@@ -35,15 +34,15 @@ To use Copilot to generate a webpage:
 
 1. Within the Copilot sidecar, select **Page design** -> **Create a page**.
 
-1. Describe the page that you want to generate using AI. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field. For example, "Create an FAQ page for student loans."
+1. Describe the page that you want to generate using AI. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field. For example, "create an FAQ page for student loans."
 
     If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
 
-1. Press the Enter key or select the paper airplane icon in the lower-right corner of the text box to send Copilot your request.
+1. To send Copilot your request, press <kbd>Enter</kbd> or select the paper airplane icon in the lower-right corner of the text box.
 
     :::image type="content" source="media/create-page-copilot/copilot-page-prompt.svg" alt-text="Screenshot of Power Pages Copilot sidecar with page prompts displayed and the paper airplane icon emphasized.":::
 
-The page is generated and added to the main navigation. You can review the page and the content. Sections, text, and images in the page are low-code editable using the WYSIWYG editor.
+Copilot generates the page and adds it to the main navigation. You can review the page and the content. You can edit sections, text, and images in the page using the WYSIWYG editor.
 
 ## Discard a Copilot-generated webpage
 

@@ -4,13 +4,12 @@ description: Learn about capacity management in Power Pages.
 author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/22/2024
+ms.date: 10/10/2024
 ms.subservice: 
 ms.author: dileeps
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors: 
-   dileepsinghmicrosoft
-   ProfessorKendrick
+ - dileepsinghmicrosoft
 ms.contributors: psimolin
 ---
 
@@ -71,6 +70,12 @@ The consumption graph visualizes the data for assigned capacity, total available
 - Daily views are cumulative.
 
 There's a delay of up to 24 hours for the data shown in the graph.
+
+##### Migration view
+
+In the consumption history graph, there's a toggle control called **Migration view**. When you enable it, the graph displays the total consumption in the tenant, including sites using legacy license models, which is converted to authenticated and anonymous capacity. This information is useful for planning the migration from legacy licensing models to the current capacity model. The migration view supports all views: month-to-date, past two full months, and last 12 months.
+
+:::image type="content" source="Media/capacity-management/migration-view.png" alt-text="Screenshot of the migration view.":::
 
 #### Notification cards
 

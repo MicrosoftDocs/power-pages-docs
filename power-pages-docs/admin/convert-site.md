@@ -5,13 +5,12 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/26/2024
+ms.date: 09/06/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Convert a website
@@ -82,7 +81,9 @@ A trial add-on portal expires after 30 days. An expired portal is suspended for 
 A production add-on portal expires at the end of the purchased license period. The suspension period for a production add-on portal can vary depending on the license plan you purchased. The portal is deleted after the suspension period ends. You can extend the license of a production add-on portal while the portal is in a configured or suspended state. If it has been suspended, the portal can be converted to a configured state after you extend the license period.
 
 > [!IMPORTANT]
-> To avoid functionality loss by having your portal suspended or deleted, ensure that you've extended the license period in a timely manner, well before expiry.
+> - To avoid functionality loss by having your portal suspended or deleted, ensure that you've extended the license period in a timely manner, well before expiry.
+> - When converting a production add-on portal using a [custom domain](add-custom-domain.md) to a Power Pages website (current licensing model), you may need to reconfigure your custom domain settings. Ensure that you [update your custom domain name](add-custom-domain.md) as part of the conversion process in this situation.
+
 ### Suspended add-on portal
 
 Portal [provisioned using portal add-on plan](/power-apps/maker/portals/provision-portal-add-on) purchased earlier is suspended at the end of expiration. This expiration period is 30 days for trial portals while it may vary for an add-on portal in production with a purchased license. Suspended trial portal is deleted after 7 days while suspension period may vary for production portal.

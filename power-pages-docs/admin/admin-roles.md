@@ -5,15 +5,13 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/06/2024
+ms.date: 08/30/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
     - vamseedillimsft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Roles required for website administration
@@ -24,8 +22,8 @@ For example, some tasks might require the user to be a member of admin roles in 
 
 In this article, you learn about the roles and permissions required to do different administrative tasks for Power Pages.
 
-> [!NOTE] 
-> A user must be a direct member of the below roles to be able to take the respective actions. Roles are not inherited from a security group (that the user is a member of) or via privileged identity management.  
+> [!IMPORTANT]
+> To perform a task which requires an admin role, a user must be directly assigned to the required role. These roles are not inherited from security group membership or through privileged identity management (PIM).
 
 ## Required roles and permissions
 
@@ -39,7 +37,7 @@ The following table lists different administrative tasks for Power Pages, and th
 | [Convert an existing website to capacity-based model](convert-site.md) |  [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Convert a website from trial to production](convert-site.md#convert-a-website-from-trial-to-production) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Create a website](../getting-started/create-manage.md) | Required roles and permissions in Microsoft Power Platform (**all** are required):<ul><li>A user account with [Read-Write Access Mode](#read-write-access-mode).</li><li>[System administrator](#system-administrator) role. </li><li>[Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Microsoft Entra are required.</br><li>Is [website creation disabled](/power-apps/maker/portals/control-portal-creation) in the tenant? </li><ul><li> If **Yes**, in **addition** to the previously mentioned roles and permissions, a user also needs at least one of the following roles to create a website: [Dynamics 365 administrator](#dynamics-365-administrator), or [Power Platform administrator](#power-platform-administrator).</li></ul></ul>|
-|[Edit a website](../getting-started/use-design-studio.md) |By default, Power Pages design studio only allows [system administrators](../admin/admin-roles.md#system-administrator) to edit websites.<br /><br />The [system customizer](../admin/admin-roles.md#system-customizer) role may be assigned and updated to allow other makers and developers to edit sites in your environment using design studio. You must [bypass custom business logic](/power-apps/developer/data-platform/bypass-custom-business-logic?tabs=sdk) and [adjust privileges](/power-platform/admin/security-roles-privileges). System customizers need organization access (Read, Write, Append, Create, Delete, and Append to) for the Note table.|
+|[Edit a website](../getting-started/use-design-studio.md) |By default, Power Pages design studio only allows [system administrators](../admin/admin-roles.md#system-administrator) to edit websites.<br /><br />The [system customizer](../admin/admin-roles.md#system-customizer) role can be assigned and updated to allow other makers and developers to edit sites in your environment using design studio. You must [bypass custom business logic](/power-apps/developer/data-platform/bypass-custom-business-logic?tabs=sdk) and [adjust privileges](/power-platform/admin/security-roles-privileges). System customizers need organization access (Read, Write, Append, Create, Delete, and Append to) for the Note table.|
 | [Download the public key of a website](get-public-key.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Import metadata translation](import-metadata-translation.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Delete a website](delete-website.md) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
@@ -128,6 +126,10 @@ To assign a user the System Customizer Power Platform role, go to [Configure use
 *Power Platform administrator* is a Microsoft Power Platform service admin role. This role can perform admin functions on Microsoft Power Platform because they have the system admin role.
 
 To assign a user the Power Platform administrator role, go to [Assign a service admin role to a user](/power-platform/admin/use-service-admin-role-manage-tenant#assign-a-service-admin-role-to-a-user).
+
+### Limitations
+
+The platform uses the Microsoft Graph service to retrieve role information. Currently, Microsoft Graph doesn't return these roles when assigned through a security group. Until this issue is resolved, ensure that roles are assigned directly to users rather than through a security group.
 
 ### Related information
 
