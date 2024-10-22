@@ -3,7 +3,7 @@ title: Control use of Generative AI features for users (preview)
 description: Learn how to control use of generative AI features for your users of your Microsoft Power Pages websites.
 author: vamseedillimsft
 ms.topic: conceptual
-ms.date: 09/13/2024
+ms.date: 10/25/2024
 ms.author: vamseedilli
 ms.reviewer: dmartens
 ms.collection:
@@ -40,6 +40,10 @@ Allows users to get an AI generated summary of a list (table) that is on the sit
 ### Search summarization
 
 Power Pages Site Search with Generative AI provides site users with summarized responses to their natural language queries. It also uses a semantic search approach instead of traditional keyword-based methods, providing more relevant and contextualized results. Learn more about search summarization at [Power Pages search with generative AI (preview)](/power-pages/configure/search/generative-ai).
+
+### Summarization API
+
+Power Pages summarization API lets users get an AI generated summary of the content in the page. This API is built on top of the Power Pages Web API that provides data summarization on Dataverse tables used in the pages. Learn more about the Summarization API at [Data summarization API](../configure/data-summarization-api.md).
 
 ### Site copilot
 
