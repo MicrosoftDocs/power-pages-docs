@@ -1,6 +1,6 @@
 ---
-title: Add a copilot to your Power Pages Site
-description: Learn how to add a copilot to a Power Pages site for quicker customer support and an improved user experience.
+title: Add a copilot to your Power Pages site
+description: Learn how to add a copilot to a Microsoft Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
 ms.date: 10/22/2024
 author: nageshbhat-msft
@@ -20,42 +20,42 @@ ms.custom:
 
 # Add a copilot to your Power Pages site
 
-Copilot enhances your Power Pages site providing instant support to your users. Integrate a copilot in minutes to provide natural language responses to visitor questions, improve user experience, and boost satisfaction.
+A copilot enhances your Microsoft Power Pages site by providing instantaneous support to your users. Within minutes, you can integrate a copilot to provide natural-language responses to visitor questions, improve the user experience, and boost satisfaction.
 
-By default, [copilot](#add-a-copilot) is able to answer questions based on your site's information when you add it to your Power Pages site. You can extend default copilot capability with the following options.
+By default, [a copilot that you add to your Power Pages site](#add-a-copilot) can answer questions based on the site's information. However, you can extend the default copilot capabilities in the following ways:
 
-- Use a copilot created from [Microsoft Copilot Studio](pva-bot-how-to.md).
-- Extend copilot capabilities by [configuring the copilot to generate answers from public data using Bing search](force-bing-index.md).
-- Use [Omnichannel in Dynamics 365 Customer Service with your copilot](../configure/omnichannel.md) and transition customers to a live agent when needed.
+- Use a copilot that is created in [Microsoft Copilot Studio](pva-bot-how-to.md).
+- [Configure the copilot to use Bing search to generate answers from public data](force-bing-index.md).
+- Use [Omnichannel in Dynamics 365 Customer Service with your copilot](../configure/omnichannel.md), and transition customers to a live agent as required.
 
 ## Prerequisites
 
-To use AI-powered copilot features in Power Pages:
+Before you can use AI-powered copilot features in Power Pages, the following conditions must be met:
 
-- Your tenant administrator must turn on the setting [Publish Copilots with AI features](/microsoft-copilot-studio/security-and-governance) in the Power Platform admin center.
-- Copilot uses Microsoft Copilot Studio generative answers. Learn more about quotas and limits in [Quotas, limits, app registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
+- Your tenant administrator must turn on the [Publish Copilots with AI features](/microsoft-copilot-studio/security-and-governance) setting in the Power Platform admin center.
+- Copilot uses Copilot Studio generative answers. Learn more about quotas and limits in [Quotas, limits, app registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
 
 ## Add a copilot
 
 Follow these steps to manually add a copilot:
 
-1. Go to the [Set up workspace](../configure/setup-workspace.md).
+1. In Power Pages, go to the [Set up workspace](../configure/setup-workspace.md).
 1. Under **Copilot**, select **Add copilot**.
 
-    :::image type="content" source="media/enable-chatbot/select-copilot.png" alt-text="Screenshot of the copilot page in Power Pages.":::
+    :::image type="content" source="media/enable-chatbot/select-copilot.png" alt-text="Screenshot of the Add copilot to site page in Power Pages.":::
 
-1. Turn on **Create copilot**.
+1. Turn on the **Create copilot** option.
 
     Power Pages creates a [copilot with generative answers conversation](/microsoft-copilot-studio/nlu-boost-conversations) for you in Copilot Studio.
 
-1. To make the copilot available to visitors and users, turn on **Enable copilot on site**.
+1. To make the copilot available to visitors and users, turn on the **Enable copilot on site** option.
 
-    If your tenant admin didn't turn on publishing copilots with AI features, the **Enable copilot on site** option isn't available.
+    The **Enable copilot on site** option is available only if your tenant admin turned on the **Publish Copilots with AI features** setting.
 
 > [!NOTE]
-> - If a site meets the conditions outlined in the prerequisite section, the copilot will be added to the site during site provisioning. If you prefer not to have the copilot created by default, the [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can turn off this capability at the tenant level. Learn more in [manage copilot provisioning](/power-pages/getting-started/manage-copilot-provisioning).  
-> - To change your site's custom domain after adding a copilot, first turn off the copilot, update the custom domain, and then turn the copilot back on.
-> - If you turn off the copilot feature, allow a few minutes for background operations to complete before you turn it on again.
+> - If a site meets the conditions that are outlined in the [Prerequisites](#prerequisites) section, the copilot is added to the site during site provisioning. If you don't want the copilot to be created by default, [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can turn off this capability at the tenant level. Learn more in [Manage copilot provisioning](/power-pages/getting-started/manage-copilot-provisioning).
+> - To change your site's custom domain after you add a copilot, first turn off the copilot, and then update the custom domain. When you're finished, turn the copilot back on.
+> - If you turn off the copilot feature, wait a few minutes for background operations to be completed before you turn it back on.
 
 ## Next steps
 
