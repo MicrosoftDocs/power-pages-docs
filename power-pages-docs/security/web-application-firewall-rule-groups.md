@@ -1,5 +1,5 @@
 ﻿---
-title: Web Application Firewall DRS rule groups and rules for Power Pages (preview)
+title: Web Application Firewall DRS rule groups and rules for Power Pages
 description: Learn about Web Application Firewall DRS rule groups and rules for Power Pages.
 author: nageshbhat
 ms.topic: conceptual
@@ -11,7 +11,7 @@ contributors:
     - nageshbhat-msft
 ---
 
-# Web Application Firewall DRS rule groups and rules for Power Pages (preview)
+# Web Application Firewall DRS rule groups and rules for Power Pages
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -38,5 +38,5 @@ The following rule groups and rules are available using Web Application Firewall
 ### See also
 
 - [Web Application Firewall DRS rule groups and rules](/azure/web-application-firewall/afds/waf-front-door-drs)
-- [Web Application Firewall (WAF) for Power Pages (preview)](web-application-firewall.md)
-- [Configure Web Application Firewall for Power Pages (preview)](configure-web-application-firewall.md)
+- [Web Application Firewall (WAF) for Power Pages](web-application-firewall.md)
+- [Configure Web Application Firewall for Power Pages](configure-web-application-firewall.md)
