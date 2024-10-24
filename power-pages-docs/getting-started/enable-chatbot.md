@@ -2,7 +2,7 @@
 title: Add a copilot to your Power Pages site
 description: Learn how to add a copilot to a Microsoft Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 10/22/2024
+ms.date: 10/24/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -27,6 +27,8 @@ By default, [a copilot that you add to your Power Pages site](#add-a-copilot) ca
 - Use a copilot that is created in [Microsoft Copilot Studio](pva-bot-how-to.md).
 - [Configure the copilot to use Bing search to generate answers from public data](force-bing-index.md).
 - Use [Omnichannel in Dynamics 365 Customer Service with your copilot](../configure/omnichannel.md), and transition customers to a live agent as required.
+
+:::image type="content" source="media/enable-chatbot/site-copilot.png" alt-text="Screenshot of a copilot in a Power Pages site.":::
 
 ## Prerequisites
 
