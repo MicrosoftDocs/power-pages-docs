@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated color theme for your Power Page
 author: ankitavish 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/30/2024
+ms.date: 10/24/2024
 ms.subservice:
 ms.author: avishwakarma
 ms.reviewer: dmartens
@@ -19,7 +19,7 @@ contributors:
 Copilot for theme allows you to create a color theme for your brand from the design studio. After generating the theme using Copilot, you can customize the theme further in the [Styling workspace](style-site.md).
 
 > [!NOTE]
-> This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
+> This feature is now generally available (GA) for all regions with the exception of DOD.
 
 To use Copilot for theme:
 
