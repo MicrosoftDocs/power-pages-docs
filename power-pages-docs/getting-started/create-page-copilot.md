@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated webpage using Copilot in Power 
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2024
+ms.date: 10/24/2024
 ms.subservice:
 ms.author: ckwan
 ms.reviewer: dmartens
@@ -19,7 +19,7 @@ contributors:
 You can create a new page for your site by describing the purpose of the page. Copilot generates the HTML for the page with relevant text copy and images from the description. Copilot adds the page to the main navigation of the site. You can refine and edit it using Copilot and the WYSIWYG editor.
 
 > [!NOTE]
-> This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
+> This feature is now generally available (GA) for all regions with the exception of DOD.
 
 ## Generate a webpage
 
