@@ -258,7 +258,7 @@ In this step, you add a summary section on top of the case page.
           const id = new URL(window.location.href).searchParams.get("id");
           shell.ajaxSafePost({
             type: "POST",
-            url: "/_api/summarization/data/v1.0/incidents(" + id + ")",
+            url: "/_api/summarization/data/v1.0/incidents(" + id + ")?$select=description,title&$expand=incident_adx_portalcomments($select=description)",
           }).done(function(response) {
             console.log("pass", response);
             document.getElementById('summary_final').innerText = response.Summary;
