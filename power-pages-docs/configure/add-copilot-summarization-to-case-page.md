@@ -290,6 +290,8 @@ In this step, you add a summary section on top of the case page.
 1. To view the case summary, select the down arrow in the Copilot summary section.
 1. Try these steps for other case records.
 
+    :::image type="content" source="media/add-copilot-summarization-to-case-page/ai-summarization.png" alt-text="Screenshot of AI summarization on the case form.":::
+
 ## Related information
 
 - [Data summarization API (preview)](data-summarization-api.md)

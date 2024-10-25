@@ -576,6 +576,12 @@
           href: configure/webapi-how-to.md
         - name: "How to: use Web API to upload to Azure"
           href: configure/webapi-azure-blob.md
+    - name: Use Data Summarization API (preview)
+      items:
+        - name: Data summarization API overview
+          href: configure/data-summarization-api.md
+        - name: Add Copilot summarization to case page
+          href: configure/add-copilot-summarization-to-case-page.md
     - name: Use code components
       items:
         - name: Code component overview
