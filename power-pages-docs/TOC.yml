@@ -580,7 +580,7 @@
       items:
         - name: Data summarization API overview
           href: configure/data-summarization-api.md
-        - name: How to: Add Copilot summarization to case page
+        - name: "How to: Add Copilot summarization to case page"
           href: configure/add-copilot-summarization-to-case-page.md
     - name: Use code components
       items:
