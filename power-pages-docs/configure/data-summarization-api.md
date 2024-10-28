@@ -3,7 +3,7 @@ title: Data summarization API overview (preview)
 description: Learn more about the data summarization API in Microsoft Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.date: 10/25/2024
+ms.date: 10/28/2024
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
