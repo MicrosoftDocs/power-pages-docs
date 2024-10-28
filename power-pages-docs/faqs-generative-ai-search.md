@@ -38,7 +38,7 @@ The capability was evaluated over custom datasets for offensive and malicious pr
 ## What are the limitations of this feature? How can users minimize the effects of the copilot limitations when using the system?
 
 - The feature provides summarized responses from only unstructured data used on the website, such as content stored as multiline columns or files in Dataverse. The keyword-based result includes both structured and unstructured content.
-- See the [availability of Copilot in your geographical region and Language](/power-platform/admin/geographical-availability-copilot#languages-availability).
+- See the [availability of Copilot in your geographical region and language](https://aka.ms/bapcopilot-intl-report-external).
 - This capability might be subject to usage limits or capacity throttling.
 - Search responses generated aren't always perfect and content might have inaccuracies.  
 
