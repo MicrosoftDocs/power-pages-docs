@@ -95,7 +95,7 @@ The summarization API respects the role-based security configured for table and 
 
 ## Authenticating summarization API
 
-You don't need to include an authentication code because the application session manages authentication and authorization. All Web API calls must include a Cross-Site Request Forgery (CSRF) token.
+You don't need to include an authentication code because the application session manages authentication and authorization. All Web API calls must include a [Cross-Site Request Forgery (CSRF) token](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
 
 ## Error codes and messages
 
