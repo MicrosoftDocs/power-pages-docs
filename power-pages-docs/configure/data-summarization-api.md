@@ -27,7 +27,7 @@ Power Pages summarization API lets makers add a page content summarization using
 
 - Only tables supported for Pages Web API are available for summarization. Learn more about the Pages Web API at [Web API overview](/power-pages/configure/web-api-overview).
 
-- The feature isn't available in UK, India, Australia, Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
+- The feature isn't available in Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
 
 ## Site settings
 
