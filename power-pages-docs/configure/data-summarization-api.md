@@ -3,7 +3,7 @@ title: Data summarization API overview (preview)
 description: Learn more about the data summarization API in Microsoft Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.date: 10/25/2024
+ms.date: 10/28/2024
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
@@ -27,7 +27,7 @@ Power Pages summarization API lets makers add a page content summarization using
 
 - Only tables supported for Pages Web API are available for summarization. Learn more about the Pages Web API at [Web API overview](/power-pages/configure/web-api-overview).
 
-- The feature isn't available in UK, India, Australia, Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
+- The feature isn't available in Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
 
 ## Site settings
 
@@ -52,8 +52,7 @@ Enable the pages in your web API and set site settings for the summarization API
 
 > [!NOTE]
 >
-> If both `InstructionIdentifier` and `RecommendationConfig` are provided, only `InstructionIdentifier` will be considered, and the other parameter will be ignored. Make sure to use only one of these input parameters.
-The API follows the standard OData specifications supported by the Power Pages Web API. The Summarization API supports all [read operations](/power-pages/configure/read-operations) that the Power Pages web API supports.
+> The API follows the standard OData specifications supported by the Power Pages Web API. The Summarization API supports all [read operations](/power-pages/configure/read-operations) that the Power Pages web API supports.
 
 ## Sample
 
@@ -96,7 +95,7 @@ The summarization API respects the role-based security configured for table and 
 
 ## Authenticating summarization API
 
-You don't need to include an authentication code because the application session manages authentication and authorization. All Web API calls must include a Cross-Site Request Forgery (CSRF) token.
+You don't need to include an authentication code because the application session manages authentication and authorization. All Web API calls must include a [Cross-Site Request Forgery (CSRF) token](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
 
 ## Error codes and messages
 
