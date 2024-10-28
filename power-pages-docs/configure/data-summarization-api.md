@@ -52,8 +52,7 @@ Enable the pages in your web API and set site settings for the summarization API
 
 > [!NOTE]
 >
-> If both `InstructionIdentifier` and `RecommendationConfig` are provided, only `InstructionIdentifier` will be considered, and the other parameter will be ignored. Make sure to use only one of these input parameters.
-The API follows the standard OData specifications supported by the Power Pages Web API. The Summarization API supports all [read operations](/power-pages/configure/read-operations) that the Power Pages web API supports.
+> The API follows the standard OData specifications supported by the Power Pages Web API. The Summarization API supports all [read operations](/power-pages/configure/read-operations) that the Power Pages web API supports.
 
 ## Sample
 
