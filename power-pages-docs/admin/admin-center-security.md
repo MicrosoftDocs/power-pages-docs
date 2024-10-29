@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/08/2024
+ms.date: 10/29/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: danamartens
@@ -124,6 +124,7 @@ Select **Review** to see the list of websites where the specific authentication 
 - Power BI embedded service
 - SharePoint
 - Cloud flows
+- Payment
 
 Select **Review** to see the list of websites where the specific integration is enabled. If you find a site where the integration shouldn't be enabled, work with the site maker to remove it or disable it.
 

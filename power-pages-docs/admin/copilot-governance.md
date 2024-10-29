@@ -3,7 +3,7 @@ title: Control use of Generative AI features for users (preview)
 description: Learn how to control use of generative AI features for your users of your Microsoft Power Pages websites.
 author: vamseedillimsft
 ms.topic: conceptual
-ms.date: 10/25/2024
+ms.date: 10/29/2024
 ms.author: vamseedilli
 ms.reviewer: dmartens
 ms.collection:
@@ -24,6 +24,9 @@ As an administrator, you can choose to disable Generative AI features for your w
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
 > - This feature is being gradually rolled out across regions and may not be available yet in your region.
+> - The following AI-powered experiences are governed separately and are not covered by this control:
+>   - [Site copilot](/microsoft-copilot-studio/security-and-governance)
+>   - [Maker experiences](../configure/ai-copilot-overview.md)
 
 ## AI-enabled experiences supported in websites
 
@@ -48,12 +51,6 @@ Power Pages summarization API lets users get an AI generated summary of the cont
 ### Site copilot
 
 Power Pages site copilot can provide quick and efficient customer support to your site's visitors and users, which can improve your site's overall user experience. Learn more about Site copilot at [Add a copilot to your Power Pages site](/power-pages/getting-started/enable-chatbot).
-
-> [!NOTE]
-> The following AI-powered experiences are governed separately and are not covered by this control:
->
-> - [Site copilot](/microsoft-copilot-studio/security-and-governance)
-> - [Maker experiences](../configure/ai-copilot-overview.md)
 
 ## Admin experience
 
