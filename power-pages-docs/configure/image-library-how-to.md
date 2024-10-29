@@ -436,7 +436,7 @@ After creating the flow and providing access to authenticated web role, you can 
             ;
                 payload.eventData = JSON.stringify(data);
                 shell .ajaxSafePost({
-                    type: "POST", url: _deleteImageFlowURL, data: JSON.stringify(payload) 
+                    type: "POST", url: _deleteImageFlowURL, data: payload 
             }
             ) .done(function (response) {
                     const result = JSON.parse(response);
@@ -458,7 +458,7 @@ After creating the flow and providing access to authenticated web role, you can 
         ;
             payload.eventData = JSON.stringify(data);
             shell .ajaxSafePost({
-                type: "POST", url: _getImageListFlowURL, data: JSON.stringify(payload)
+                type: "POST", url: _getImageListFlowURL, data: payload
         }
         ) .done(function (response) {
                 const result = JSON.parse(response);
@@ -503,7 +503,7 @@ After creating the flow and providing access to authenticated web role, you can 
                     ;
                      payload.eventData = JSON.stringify(data);
                      shell .ajaxSafePost({
-                         type: "POST", url: _uploadImageFlowURL, data: JSON.stringify(payload) 
+                         type: "POST", url: _uploadImageFlowURL, data: payload 
                 }
                 ) .done(function (response) {
                      const result = JSON.parse(response);
