@@ -5,13 +5,12 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/28/2024
+ms.date: 10/07/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
     - nabha-msft
 ---
 
@@ -44,13 +43,13 @@ You can disable custom errors on Power Pages websites to display the detailed ex
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
-1. Under the **Resources** section select **Power Pages sites**.
+1. Under the Resources section, select **Power Pages sites**.
 
 1. Select your website.
 
 1. From the **Site Actions** menu, select **Disable custom errors**.
 
-1. Select **Disable** in the confirmation message. While custom errors are being disabled, the website restarts and will be unavailable.
+1. Select **Disable** in the confirmation message. While custom errors are being disabled, the website restarts and is temporarily unavailable.
 
 ### Enable custom error
 
@@ -58,13 +57,13 @@ You can enable custom errors on websites to display a professional-looking page 
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
-1. Under the **Resources** section select **Power Pages sites**.
+1. Under the Resources section, select **Power Pages sites**.
 
 1. Select your website.
 
 1. From the **Site Actions** menu, select **Enable custom errors**.
 
-1. Select **Enable** in the confirmation message. While custom errors are being enabled, the website restarts and will be unavailable. 
+1. Select **Enable** in the confirmation message. While custom errors are being enabled, the website restarts and is temporarily unavailable.
 
 > [!NOTE]
 > - If you change the instance that your website is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
@@ -86,7 +85,7 @@ When you enable custom errors, the message appears in the following structure on
 \<`Date and time`\><br>
 \<`Portal ID`\>
 
-Below is an example of a custom error message, using a content snippet of type HTML:
+The following message is an example of a custom error message, using a content snippet of type HTML:
 
 `This is a custom error, file a support ticket with screenshot of error by clicking here`
 
@@ -106,49 +105,54 @@ After developing and publishing the website, you still need to be able to access
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
-1. Under the **Resources** section select **Power Pages sites**.
+1. Under the Resources section, select **Power Pages sites**.
 
 1. Select your website.
 
 1. From the **Site Actions** menu, select **Enable diagnostics logs**.
 
-1. A side panel will appear titled **Enable diagnostic logging**, enter the following values:
+1. A side panel appears titled **Enable diagnostic logging**, enter the following values:
 
-   - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
-     - One day
-     - Seven days
-     - 30 days
-     - 60 days
-     - 90 days
-     - 180 days
-     - Always
+    - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
+        - One day
+        - Seven days
+        - 30 days
+        - 60 days
+        - 90 days
+        - 180 days
+        - Always
 
-      By default, the retention period is 30 days.
+          By default, the retention period is 30 days.
 
-   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the website error logs. The maximum length of the URL is 2048 characters. If the URL is longer than 2048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](/azure/storage/common/storage-configure-connection-string)
+        > [!NOTE]
+        > The UI currently displays only the default retention period of 30 days. Changes to the retention period are not reflected in the UI.
+
+    - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the website error logs. The maximum length of the URL is 2,048 characters. If the URL is longer than 2,048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](/azure/storage/common/storage-configure-connection-string)
 
 1. Select **Enable**.
 
-Once diagnostic logging is configured, a new **telemetry-logs** blob container is created in your Azure storage account and the logs are written into the blob files stored in the container. The following screenshot shows the **telemetry-logs** blob container in Azure Storage Explorer:
+Once diagnostic logging is configured, a new **telemetry-logs** blob container is created in your Azure storage account, and the logs are written into the blob files stored in the container. The following screenshot shows the **telemetry-logs** blob container in Azure Storage Explorer:
 
 :::image type="content" source="media/view-error-log/azure-storage.png" alt-text="Text used by screen readers.":::
 
 When diagnostic logging is enabled successfully, the following actions become available from the **Site Actions** menu:
+
 - **Disable diagnostic logging**: Allows you to disable diagnostic logging configuration for the portal.
 - **Update diagnostic logging configuration**: Allows you to update or remove diagnostic logging configuration for the portal.
- 
+
 ### Update diagnostic logging
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
-1. Under the **Resources** section select **Power Pages sites**.
+1. Under the Resources section, select **Power Pages sites**.
 
 1. Select your website.
 
 1. From the **Site Actions** menu, select **Update diagnostic logging configuration**.
 
 1. In the Update diagnostic logging configuration panel, enter the following values:
-   - **Do you want to update the Connection string of the Azure Blob Storage service?**: Allows you to specify whether to update the connection string of the Azure Blob Storage service. By default, it's not selected.
+
+   - **Do you want to update the Connection string of the Azure Blob Storage service?**: Allows you to specify whether to update the connection string of the Azure Blob Storage service. This option isn't selected by default.
    - **Select retention period**: Duration to keep the website error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
      - One day
      - Seven days
@@ -159,14 +163,14 @@ When diagnostic logging is enabled successfully, the following actions become av
      - Always
 
       By default, the retention period is 30 days.
-   
-   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the website error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message appears. This field is displayed only if the **Do you want to update the Connection string of the Azure Blob Storage service?** check box is selected. More information on connection string: [Configure Azure Storage connection strings](/azure/storage/common/storage-configure-connection-string)
-   
+
+   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the website error logs. The maximum length of the URL can be 2,048 characters. If the URL is longer than 2,048 characters, an error message appears. This field is displayed only if the **Do you want to update the Connection string of the Azure Blob Storage service?** check box is selected. More information on connection string: [Configure Azure Storage connection strings](/azure/storage/common/storage-configure-connection-string)
+
 ### Disable diagnostic logging
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
-1. Under the **Resources** section select **Power Pages sites**.
+1. Under the Resources section, select **Power Pages sites**.
 
 1. Select your website.
 
@@ -176,21 +180,22 @@ When diagnostic logging is enabled successfully, the following actions become av
 
 ## Display plugin error
 
-Another scenario that often occurs while developing a website is an error generated by custom plug-ins and business logic written in your Dataverse environment. These errors can generally be accessed by [disabling custom errors](#disable-custom-error) or [enabling diagnostic logging](#enable-diagnostic-logging). In some cases, it's faster to display these errors directly on the website to diagnose the issue faster. You can accomplish this by configuring your website to display custom plugin errors from Dataverse on your webpage.
+Another scenario that often occurs while developing a website is an error generated by custom plug-ins and business logic written in your Dataverse environment. These errors can generally be accessed by [disabling custom errors](#disable-custom-error) or [enabling diagnostic logging](#enable-diagnostic-logging). In some cases, it's faster to display these errors directly on the website to diagnose the issue faster. You can accomplish this task by configuring your website to display custom plugin errors from Dataverse on your webpage.
 
-To display custom plugin errors, create the [site setting](/power-apps/maker/portals/configure/configure-site-settings) `Site/EnableCustomPluginError` and set its value to **True**. The custom plugin errors will be displayed on the screen instead of a generic error. The error will display only the message part of the plugin error and not the complete stack trace.
+To display custom plugin errors, create the [site setting](/power-apps/maker/portals/configure/configure-site-settings) `Site/EnableCustomPluginError` and set its value to **True**. The custom plugin errors are displayed on the screen instead of a generic error. The error displays only the message part of the plugin error and not the complete stack trace.
 
-Following are the screens where custom plugin errors will appear: 
-- List 
-    - Retrieval of records 
-- Basic form 
-    - Retrieve 
-    - Create/Update, and so on 
-- Multistep forms 
-    - Retrieve 
-    - Create/Update, and so on
+Following are the screens where custom plugin errors appear:
 
-If the site setting isn't present, then it will be treated as false by default and plugin errors won't render.
+- List
+  - Retrieval of records
+- Basic form
+  - Retrieve
+  - Create/Update, and so on
+- Multistep forms
+  - Retrieve
+  - Create/Update, and so on
+
+If the site setting isn't present, then it's treated as false by default and plugin errors don't render.
 
 ## View server side errors in the DevTools extension
 

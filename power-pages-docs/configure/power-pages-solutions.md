@@ -8,10 +8,8 @@ ms.date: 09/09/2024
 ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - gitanjalisingh33msft
     - neerajnandwana-msft
-    - professorkendrick
 ---
 
 # Use solutions with Power Pages

@@ -6,11 +6,9 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 08/06/2024
 ms.author: ckwan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - clromano
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Use design studio

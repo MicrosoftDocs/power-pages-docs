@@ -5,14 +5,12 @@ author: ckwan-ms
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/15/2023
+ms.date: 10/16/2024
 ms.subservice:
 ms.author: ckwan
 ms.reviewer: dmartens
 contributors:
-    - nickdoelman
     - clromano
-    - ProfessorKendrick
 ---
 
 # Web templates as components
@@ -45,7 +43,7 @@ The manifest is a JSON object that defines the properties of the web template di
 
 | Manifest property | Description |
 | - | - |
-| Type | Needs to be either **Functional** or **Layout**.<br/><br/>**Layout**: Add the web template component through the **Add section** process in design studio.<br/><br/>**Functional**: Add the web template component through the **Add component** process in design studio. |
+| Type | Needs to be set to **Functional**.<br/><br/>**Functional**: Add the web template component through the **Add component** process in design studio. |
 | displayName | Friendly name for the web template component, to be surfaced in the design studio. |
 | description | Description of the web template component. |
 | tables | An array of Dataverse tables a maker can use to navigate directly to the [Data workspace](../getting-started/use-data-workspace.md) to edit the tables configuration or records. The tables need to be listed using their [logical name](/power-apps/developer/data-platform/entity-metadata#table-names). |

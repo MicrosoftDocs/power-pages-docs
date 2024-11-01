@@ -6,9 +6,8 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 02/12/2024
 ms.author: vamseedilli
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
-    - ProfessorKendrick
 ---
 
 # Security issues (preview)

@@ -3,13 +3,13 @@ title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: pranita225
 ms.topic: conceptual
-ms.date: 08/13/2024
+ms.date: 09/13/2024
 ms.author: prpadalw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
+ms.collection:
+ - bap-ai-copilot
 contributors:
   - clromano
-  - nickdoelman
-  - ProfessorKendrick
   - DanaMartens
   - ankitavish
 ms.custom:
@@ -118,20 +118,20 @@ To enable attachments on a form:
 
     > [!NOTE]
     > Before you can successfully use Azure Blob Storage for attachments, some prerequisites are required:
-    > * The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If the requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
-    > * The runtime version of your Power Pages website needs to be at least 9.6.5.1.
+    > - The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If the requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
+    > - The runtime version of your Power Pages website needs to be at least 9.6.5.1.
 
 1. If you use Azure Blob Storage, enter values for the **Azure storage account name** and the **Azure container name**. Learn more at [Enable Azure Storage](../configure/enable-azure-storage.md).
 1. For **Maximum number of files**, enter the maximum number of files you want to allow a user to upload.
 1. For **Upload size limit per file (in KB)**, enter the maximum size in KB you want to allow per file. The following table shows the absolute maximum file size limits based on the storage option selected:
 
-    |Storage option  | Max file size per file  |
-    |---------|---------|
-    |Notes     |     90 MB    |
-    |Azure Blob storage     |     10 GB    |
+    | Storage option | Max file size per file |
+    |---------------|------------------------|
+    | Notes | 90 MB |
+    | Azure Blob storage | 10 GB |
 
     > [!IMPORTANT]
-    > If you use notes for storage, make sure the file size limit isn't larger than the [email attachment limit set for the environment](/power-platform/admin/settings-email). For example, if you set the Upload size limit per file to 50 MB but the email attachment limit has the default value of 5 MB, users won't be able to upload files larger than 5 MB. 
+    > If you use notes for storage, make sure the file size limit isn't larger than the [email attachment limit set for the environment](/power-platform/admin/settings-email). For example, if you set the Upload size limit per file to 50 MB but the email attachment limit has the default value of 5 MB, users won't be able to upload files larger than 5 MB.
 
 1. For **File types allowed**, select which types of files you want to allow users to upload. The following file types are allowed:
     - All
@@ -145,9 +145,9 @@ Once configured, the file upload placeholder shows in the canvas.
 
 :::image type="content" source="media/add-form/form-with-attachment.png" alt-text="Form with attachment option enabled.":::
 
-#### New file upload experience
+## New file upload experience
 
-With the new file upload experience, end users can see the file name, file type, file size, upload progress bar, and the delete option. If the upload fails (for example, if the file type isn’t supported or the upload exceeds the maximum number of files), an error message appears. 
+With the new file upload experience, users can see the file name, file type, file size, upload progress bar, and the delete option. If the upload fails (for example, if the file type isn’t supported or the upload exceeds the maximum number of files), an error message appears.
 
 New sites automatically enable the new file upload experience, including sites that are changed from developer to production. 
 Existing sites must opt into the new file upload experience.
@@ -156,7 +156,7 @@ Opt into the new experience by creating a [site setting](../configure/configure-
 
 To disable the new experience, set the value of the **EnhancedFileUpload** [site setting](../configure/configure-site-settings.md) to **false**.
 
-### Enabling table permissions
+## Enabling table permissions
 
 When you add a new form, you see a prompt to set permissions to allow site users to interact with the form. The settings for table permissions are prepopulated (**create** and **append to**), but you still need to assign web roles and save the settings. The process automatically creates the child table permissions for the **note (annotations)** table, which contain the attachments.
 
@@ -185,13 +185,57 @@ Custom components are now enabled for that field.
 You can also edit the properties of a component from inside the Pages workspace.
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
 
-## Related information
+### Enable AI form fill assistance on a form (preview)
+
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+Enabling AI form fill gives your form users AI assistance that helps them fill the form faster and with higher accuracy. You can enable AI form fill by switching on the toggle.
+  
+:::image type="content" source="media/add-form/ai-form-fill.png" alt-text="Screenshot of the AI form fill setting in the Form settings section of Power Pages.":::
+
+> [!IMPORTANT]
+>
+> - This is a preview feature.
+> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - This feature is not available in Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
+> - Power Pages site version must be 9.6.9.XX or higher.
+
+On enabling form filling assistance, users are able to:
+
+- Auto fill forms from attachments: Your users can attach a file and the AI assistance auto fills the fields by extracting relevant information from the attachments. Users can attach documents (PDFs) and images (JPEG, PNG). Users can always edit the auto filled fields if needed.
+
+  :::image type="content" source="media/add-form/ai-form-fill-example.png" alt-text="Screenshot showing an example of the AI form fill feature.":::
+
+- Use Draft assistance for multi-line text fields: If your form has a multi-line text field, users are able to use 'Draft assistance' to rewrite their inputs and improve their drafts.  
+
+  :::image type="content" source="media/add-form/ai-form-fill-example2.png" alt-text="Screenshot showing an example of the AI form fill feature and how AI responds.":::
+
+## Conditions that prevent AI form fill activation
+
+AI form fill cannot be enabled, and users will be unable to use it under the following conditions:
+
+- Your organization's administrators have disabled AI features for end users using governance controls. Learn more about governance controls at [Disable Generative AI features for users (preview)](../admin/copilot-governance.md).
+- The site is part of an environment where admins have disabled data across regions. Learn more about allowing data to cross regions at [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+
+## Known Limitations
+
+1. The AI form fill is only available on:
+   - basic forms but not on multi-step forms
+   - forms that create a record in the Dataverse
+
+    Forms used to edit Dataverse records don't have the AI form fill capability.
+
+1. For new forms created, ensure that you add the right table permissions before enabling AI form fill.
+
+## See also
 
 - [Create and modify forms](../configure/data-workspace-forms.md)
 - [About basic forms](../configure/basic-forms.md)
 - [Tutorial: Add a form to a page](tutorial-add-form-to-page.md)
+- [Disable Generative AI features for users (preview)](../admin/copilot-governance.md)

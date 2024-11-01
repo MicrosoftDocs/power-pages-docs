@@ -8,10 +8,9 @@ ms.custom:
 ms.date: 09/06/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
 
 # Convert a website

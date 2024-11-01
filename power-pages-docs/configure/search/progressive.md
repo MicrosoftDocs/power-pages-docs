@@ -11,7 +11,6 @@ ms.author: sandhan
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft
-    - nickdoelman
 ---
 
 # Progressive search

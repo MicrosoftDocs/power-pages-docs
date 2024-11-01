@@ -10,8 +10,6 @@ ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
 ---
 
 # Edit code with Visual Studio Code for the Web (preview)

@@ -2,15 +2,13 @@
 title: Add an AI-generated form using Copilot
 description: Learn how to create an AI-generated form using Copilot and add it to a page in your Power Pages site.
 ms.topic: how-to
-ms.date: 06/03/2024
+ms.date: 10/24/2024
 author: pranita225
 ms.author: prpadalw
 ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
 contributors:
-    - nickdoelman
-    - ProfessorKendrick
     - DanaMartens
 ms.custom: bap-template
 ---
@@ -22,18 +20,18 @@ An easy way to add a form to your Power Pages website is to ask Copilot to creat
 :::image type="content" source="media/add-form-copilot/describe-form.svg" alt-text="Screenshot of the form creation page in the Copilot for Power Pages preview.":::
 
 > [!NOTE]
-> This feature is now generally available (GA) for all regions with the exception of Canada, the Government Cloud (GCC), and the Government Community Cloud – High (GCC High).
+> This feature is now generally available (GA) for all regions with the exception of DOD.
 
 ## Create a form with Copilot
 
 1. Go to the [Pages workspace](first-page.md) and select a page for your form.
 1. Select the **Form** component.
 1. In the text box under **Describe a form to create it**, describe your form. You can use up to 250 characters in your description.
-1. To send your description to Copilot, press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
+1. To send your description to Copilot, press the <kbd>Enter</kbd> key or select the paper airplane icon in the lower-right corner of the text box.
 1. Check the preview to the right of your description and refine the form as needed.
 
     - To change the form, select a quick action or refine your description.
-    - The history shows you the descriptions you've entered so far.
+    - The history shows you the descriptions you entered so far.
     - Select **Start over** to erase everything and start with a new description.
 
 1. To add the form to the page, select **OK**.

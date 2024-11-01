@@ -8,10 +8,9 @@ ms.custom:
 ms.date: 3/22/2023
 ms.subservice: 
 ms.author: sandhan
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
 ---
  
 # Website capacity consumption reports

@@ -6,11 +6,9 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 07/09/2024
 ms.author: nenandw
-ms.reviewer: kkendrick
+ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
-    - nickdoelman
-    - ProfessorKendrick
     - sampatn
 ---
 

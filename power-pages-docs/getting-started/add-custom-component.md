@@ -10,7 +10,6 @@ ms.author: prpadalw
 ms.reviewer: dmartens
 contributors:
     - DanaMartens
-    - ProfessorKendrick
 ---
 
 # Add a custom component (preview)
