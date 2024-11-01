@@ -89,7 +89,7 @@ Select **Review** to see the list of websites where the specific authentication 
 **Sites with integrations** shows the list of all integrations with other services that are configured across the websites in your tenant, along with the count of all websites in which they're enabled. Currently, this view shows sites with the following integrations:
 
 - [Power BI visualization](set-up-power-bi-integration.md)
-- [Power BI embedded service](../guidance/how-to-power-bi-embedded.md)
+- [Power BI embedded service](set-up-power-bi-integration.md#enable-power-bi-embedded-service)
 - [SharePoint](../configure/manage-sharepoint-documents.md)
 - [Cloud flows](../configure/cloud-flow-integration.md)
 - [Payment](set-up-payments-integration.md)
