@@ -488,7 +488,7 @@
       href: configure/azure-front-door.md
     - name: Set up DocuSign integration (preview)
       href: admin/set-up-docusign-integration.md
-    - name: Set up payments integration (preview)
+    - name: Set up payments integration
       href: admin/set-up-payments-integration.md
     - name: Integrate Power BI
       items:

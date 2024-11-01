@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/29/2024
+ms.date: 11/01/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: danamartens
@@ -120,11 +120,11 @@ Select **Review** to see the list of websites where the specific authentication 
 
 **Sites with integrations** shows the list of all integrations with other services that are configured across the websites in your tenant, along with the count of all websites in which they're enabled. Currently, this view shows sites with the following integrations:
 
-- Power BI visualization
-- Power BI embedded service
-- SharePoint
-- Cloud flows
-- Payment
+- [Power BI visualization](set-up-power-bi-integration.md)
+- [Power BI embedded service](set-up-power-bi-integration.md#enable-power-bi-embedded-service)
+- [SharePoint](../configure/manage-sharepoint-documents.md)
+- [Cloud flows](../configure/cloud-flow-integration.md)
+- [Payment](set-up-payments-integration.md)
 
 Select **Review** to see the list of websites where the specific integration is enabled. If you find a site where the integration shouldn't be enabled, work with the site maker to remove it or disable it.
 
