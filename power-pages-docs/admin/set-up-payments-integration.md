@@ -4,7 +4,7 @@ description: Learn how to set up payments integration with your website.
 author: sandhangitms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/05/2024
+ms.date: 11/01/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
