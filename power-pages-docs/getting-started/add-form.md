@@ -25,7 +25,7 @@ A form is a data-driven configuration that collects data in Power Pages sites. F
 > [!TIP]
 >
 > - You can [use Copilot to add forms to your Power Pages site](add-form-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages ](../configure/ai-copilot-overview.md).
-> - We've created a series of tutorials and videos for you to learn to use Power Pages and how create and add a form to a page. For more information, go to [Tutorial: Add a form to a page](tutorial-add-form-to-page.md).
+> - We've created a series of tutorials and videos for you to learn to use Power Pages and how to create and add a form to a page. For more information, go to [Tutorial: Add a form to a page](tutorial-add-form-to-page.md).
 
 To add a form:
 
@@ -166,7 +166,7 @@ You can also adjust the permissions and assign web roles based on your requireme
 
 :::image type="content" source="media/add-form/table-permissions.png" alt-text="Table permissions menu.":::
 
-For more information, see [Configuring table permissions](../security/table-permissions.md).
+For more information, go to [Configuring table permissions](../security/table-permissions.md).
 
 ## Enable code components on form fields
 
