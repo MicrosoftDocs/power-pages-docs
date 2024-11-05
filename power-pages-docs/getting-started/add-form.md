@@ -161,7 +161,7 @@ To disable the new experience, set the value of the **EnhancedFileUpload** [site
 When you add a new form, you see a prompt to set permissions to allow site users to interact with the form. The settings for table permissions are prepopulated (**create** and **append to**), but you still need to assign web roles and save the settings. The process automatically creates the child table permissions for the **note (annotations)** table, which contain the attachments.
 
 :::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
-see
+
 You can also adjust the permissions and assign web roles based on your requirements in the **Set up** workspace.
 
 :::image type="content" source="media/add-form/table-permissions.png" alt-text="Table permissions menu.":::
