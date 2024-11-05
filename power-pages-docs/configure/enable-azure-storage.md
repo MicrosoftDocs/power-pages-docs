@@ -20,7 +20,7 @@ Azure Storage integration for Power Pages enables you to take advantage of the g
 
 ## Enable Azure Blob Storage for basic or multistep forms with attachments
 
-Create a storage account with **Resource manager** as the deployment model. For more information, see [Create an Azure storage account](/azure/storage/common/storage-account-create?tabs=azure-portal).
+Create a storage account with **Resource manager** as the deployment model. For more information, go to [Create an Azure storage account](/azure/storage/common/storage-account-create?tabs=azure-portal).
 
 After the storage account is running, add role based permissions to the app in Azure:
 
