@@ -1,8 +1,7 @@
 ---
-title: "How to: Use the Web API to upload files to Azure Blob Storage"
+title: How to use the Web API to upload files to Azure Blob Storage
 description: This page walks you through example steps for using portal Web API requests to upload files to Azure Blog Storage.
 author: ankitavish
-
 ms.topic: how-to
 ms.custom: 
 ms.date: 09/23/2024
@@ -21,7 +20,7 @@ This guide demonstrates how to implement the Azure File API. These steps empower
 > [!NOTE]
 > * Azure File size of up to 10 GB is supported.
 > * You can change the column names or use a different table while following the steps in this example.
-> * These APIs only work for records which are already created. Attachments uploaded using these APIs will be linked to that record.
+> * These APIs only work for records already created. Attachments uploaded using these APIs will be linked to that record.
 > * These APIs will perform multiple updates on the note (Annotation) entity as files are uploaded in chunks.
 
 ## Prerequisites
@@ -69,7 +68,7 @@ Before you can use the portals Azure File API, you have to enable the required [
 
 ## Step 2: Configure permissions
 
-You have to configure permissions so that users are able to use the Azure File API feature. In this example, you need to set up or create a new web role that uses the API. Next you add the table permissions for the File Test and Note tables and associate the table permissions to the web role. Finally you assign the web role to users in order to allow them to use the API.
+You have to configure permissions so that users are able to use the Azure File API feature. In this example, you need to set up or create a new web role that uses the API. Next, you add the table permissions for the File Test and Note tables and associate the table permissions to the web role. Finally, you assign the web role to users in order to allow them to use the API.
 
 > [!NOTE]
 > The API follows [table permissions ](../security/table-permissions.md) from the [web role ](../security/create-web-roles.md) context of the authenticated user or the anonymous web role. Consider if your users already have a web role that has access to the specific tables in your website needed by the API. You don't need to create additional web roles just to use the API.
@@ -599,7 +598,7 @@ To test the Web API functionality:
 
 1. Try downloading and deleting an existing file.
 
-Now that you created a webpage with a sample to upload, download and delete attachments, you can customize the forms and layout.
+Now that you created a webpage with a sample to upload, download, and delete attachments, you can customize the forms and layout.
 
 ## Error codes and messages
 
