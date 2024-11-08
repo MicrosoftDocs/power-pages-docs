@@ -14,7 +14,7 @@ contributors:
 
 # Respond to Data Subject Rights (DSR) requests for Power Pages customer data
 
-The European Union (EU) General Data Protection Regulation (GDPR) gives significant rights to individuals regarding their data. Learn more about GDPR in [General Data Protection Regulation Summary](/compliance/regulatory/gdpr). This resource includes an overview, including terminology, an action plan, and readiness checklists to help you meet your obligations under GDPR when using Microsoft products and services.
+The European Union (EU) General Data Protection Regulation (GDPR) gives significant rights to individuals regarding their data. Learn more about GDPR in [General Data Protection Regulation Summary](/compliance/regulatory/gdpr). This resource includes an overview, key terms, an action plan, and a readiness checklist to help you meet your obligations under GDPR when using Microsoft products and services.
 
 Learn more about GDPR and how Microsoft supports it and our customers affected by it:
 
@@ -43,7 +43,7 @@ The step of finding and reviewing the personal data at issue helps you determine
 
 ### Step 1: Identify the type of user for which data is requested
 
-Power Pages has two types of users which might be accessing its services:
+Power Pages has two types of users accessing its services:
 
 | Type of User | Experience used to access Power Pages service |
 |--------------|----------------------------------------------|
