@@ -46,3 +46,4 @@ Traffic on the website should now be monitored by the telemetry provider.
 ## See also
 
 - [Enable Azure Monitor Application Insights Real User Monitoring](/azure/azure-monitor/app/javascript-sdk)
+- [Set up telemetry monitoring using enhanced data model](https://youtu.be/WtZS68RPo5E?feature=shared)

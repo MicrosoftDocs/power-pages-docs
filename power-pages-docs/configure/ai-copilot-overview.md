@@ -70,4 +70,5 @@ To turn off Copilot and AI enhancements in Power Pages, admins can start a suppo
 
 ## See also
 
-[Responsible AI FAQs for Power Pages](../responsible-ai-overview.md)
+[Responsible AI FAQs for Power Pages](../responsible-ai-overview.md)  
+[Copilot in Power Pages](https://youtu.be/K6a5LVLaaOg?feature=shared)

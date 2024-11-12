@@ -75,4 +75,5 @@ The following white papers allow you to explore Power Pages architecture and sec
 ### See also
 
 [Power Platform security](/power-platform/admin/security/)  
-[Azure security](/azure/security/)
+[Azure security](/azure/security/)  
+[Intro to Power Pages security ](https://youtu.be/ojAll5jmxss?feature=shared)

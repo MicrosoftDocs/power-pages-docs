@@ -65,3 +65,8 @@ End users see a message explaining that they don't have permission to view recor
 
 ```You don't have permission to view these records. Please sign in to continue.```
 
+
+
+## Related information
+
+[Use governance controls to disable anonymous access](https://youtu.be/F32I4P4HQNw?feature=shared)

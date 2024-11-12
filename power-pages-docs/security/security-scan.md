@@ -49,3 +49,8 @@ Once the scan is complete, you'll receive an email. After you receive the email 
 
 The summary report includes a list of failed checks and corresponding alerts with descriptions of how to fix the alerts. You can optionally download the report as a PDF. Report summaries for security scan are only supported in English-US language.
 
+
+
+## Related information
+
+[Run security scan with Power Pages](https://youtu.be/Mj8oIRmSjjE?feature=shared)

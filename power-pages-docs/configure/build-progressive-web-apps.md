@@ -151,4 +151,5 @@ Update the title and the SHA-256 certificate fingerprint to update the digital a
 ### See also
 
 [Overview of sites as progressive web apps](progressive-web-apps.md)</br>
-[Overview of Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/)
+[Overview of Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/)<br>
+[Build and distribute a progressive web app](https://youtu.be/Pzs8zTXy8kI?feature=shared)
