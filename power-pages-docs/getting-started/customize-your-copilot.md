@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
 }, false);
 ```
  > [!NOTE]
- > - Replace <image URL> with the actual image source URL. You can either reference an external path or upload an image to the (Web File)[../configure/web-files.md] table and reference its URL.
+ > - Replace <image URL> with the actual image source URL. You can either reference an external path or upload an image to the [Web File](../configure/web-files.md) table and reference its URL.
 
 ### Copilot elements
 
