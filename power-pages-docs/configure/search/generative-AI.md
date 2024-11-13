@@ -2,10 +2,9 @@
 title: Power Pages search with generative AI (preview)
 description: Learn how to enhance search results with generative AI.
 author: nageshbhat-msft
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 8/22/2024
+ms.date: 11/13/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
