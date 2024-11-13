@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/01/2024
+ms.date: 11/13/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: danamartens
