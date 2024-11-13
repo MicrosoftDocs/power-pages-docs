@@ -4,7 +4,7 @@ description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/09/2023
+ms.date: 11/13/2024
 ms.author: vamseedilli
 ms.reviewer: danamartens
 contributors:
