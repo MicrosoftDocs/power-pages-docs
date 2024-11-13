@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
    var buttons = document.getElementsByClassName("pva-embedded-web-chat-widget");
     buttons[0].innerHTML = '<img src="<image URL>" height= "70px" width = "70px" />';
 }, false);
+</script>
 ```
  > [!NOTE]
  > - Replace <image URL> with the actual image source URL. You can either reference an external path or upload an image to the [Web File](../configure/web-files.md) table and reference its URL.
