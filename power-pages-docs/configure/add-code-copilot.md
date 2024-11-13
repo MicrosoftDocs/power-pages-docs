@@ -4,7 +4,7 @@ description: Add AI-generated code using Copilot.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/29/2024
+ms.date: 11/13/2024 
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: dmartens
