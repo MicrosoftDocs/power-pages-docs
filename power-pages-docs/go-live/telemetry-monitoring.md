@@ -2,10 +2,9 @@
 title: Set up telemetry monitoring
 description: Set up telemetry monitoring in Power Pages.
 author: gitanjalisingh33msft
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/20/2023
+ms.date: 11/13/2024
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: dmartens
