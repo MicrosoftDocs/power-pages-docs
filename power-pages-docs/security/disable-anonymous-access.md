@@ -4,7 +4,7 @@ description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/09/2023
+ms.date: 11/13/2024
 ms.author: vamseedilli
 ms.reviewer: danamartens
 contributors:
@@ -65,3 +65,8 @@ End users see a message explaining that they don't have permission to view recor
 
 ```You don't have permission to view these records. Please sign in to continue.```
 
+
+
+## Related information
+
+[Use governance controls to disable anonymous access (video)](https://youtu.be/F32I4P4HQNw?feature=shared)

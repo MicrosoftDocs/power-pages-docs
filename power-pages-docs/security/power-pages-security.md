@@ -1,7 +1,7 @@
 ---
 title: Power Pages security
 description: Learn how to secure the websites you create with Microsoft Power Pages.
-ms.date: 05/17/2024
+ms.date: 11/13/2024
 ms.topic: overview
 author: dmartens
 ms.author: dmartens
@@ -75,4 +75,5 @@ The following white papers allow you to explore Power Pages architecture and sec
 ### See also
 
 [Power Platform security](/power-platform/admin/security/)  
-[Azure security](/azure/security/)
+[Azure security](/azure/security/)  
+[Intro to Power Pages security (video)](https://youtu.be/ojAll5jmxss?feature=shared)
