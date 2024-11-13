@@ -111,4 +111,4 @@ To enable DocuSign, complete the following steps:
 - [Add a multistep form](../getting-started/multistep-forms.md)
 - [Use Dataverse low-code plug-ins (experimental)](/power-apps/maker/data-platform/low-code-plug-ins)
 - [Use code components in Power Pages](../configure/component-framework.md)  
-- [Power Pages Docusign e-signature](https://youtu.be/xvxspc-jLDE?feature=shared)
+- [Power Pages Docusign e-signature (video)](https://youtu.be/xvxspc-jLDE?feature=shared)

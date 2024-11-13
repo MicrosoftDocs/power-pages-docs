@@ -53,4 +53,4 @@ The summary report includes a list of failed checks and corresponding alerts wit
 
 ## Related information
 
-[Run security scan with Power Pages](https://youtu.be/Mj8oIRmSjjE?feature=shared)
+[Run security scan with Power Pages (video)](https://youtu.be/Mj8oIRmSjjE?feature=shared)

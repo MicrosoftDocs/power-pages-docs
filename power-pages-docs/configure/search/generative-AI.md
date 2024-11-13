@@ -91,4 +91,4 @@ The static content on the search result component is designed using [content sni
 ## See also
 
 - [FAQ for site search with generative AI](../../faqs-generative-ai-search.md)
-- [Enable site search with generative AI](https://youtu.be/2SEGiPhyYiQ?feature=shared)
+- [Enable site search with generative AI (video)](https://youtu.be/2SEGiPhyYiQ?feature=shared)

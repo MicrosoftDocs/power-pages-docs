@@ -155,4 +155,4 @@ You must have one of the following roles to view website security using Power Pl
 - [Administer Microsoft Power Platform](/power-platform/admin/admin-documentation)
 - [Manage Dynamics 365 apps](/power-platform/admin/manage-apps)  
 - [Upgrade a website](upgrade-site.md)  
-- [Managing websites from the Power Platform Admin Center](https://youtu.be/YuBlXVBlPVk?feature=shared)
+- [Managing websites from the Power Platform Admin Center (video)](https://youtu.be/YuBlXVBlPVk?feature=shared)

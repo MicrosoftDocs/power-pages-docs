@@ -69,4 +69,4 @@ End users see a message explaining that they don't have permission to view recor
 
 ## Related information
 
-[Use governance controls to disable anonymous access](https://youtu.be/F32I4P4HQNw?feature=shared)
+[Use governance controls to disable anonymous access (video)](https://youtu.be/F32I4P4HQNw?feature=shared)

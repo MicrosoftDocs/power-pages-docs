@@ -69,4 +69,4 @@ Follow these steps to manually add a copilot:
 - [Generate answers from public data using Bing search](../getting-started/force-bing-index.md)
 - [Manage copilot provisioning](../getting-started/manage-copilot-provisioning.md)
 - [Responsible AI: FAQ for site copilot](../faqs-chatbot.md)
-- [Add an AI-Powered chatbot with Power Pages](https://youtu.be/ohANXe1bfos?feature=shared)
+- [Add an AI-Powered chatbot with Power Pages (video)](https://youtu.be/ohANXe1bfos?feature=shared)

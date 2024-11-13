@@ -90,4 +90,4 @@ In every response of the Copilot chat, select the feedback options, a thumb up (
 ## See also
 
 - [FAQ for AI-generated code using Copilot](../faqs-pro-developer.md)  
-- [Add AI-generated code using Copilot in Visual Studio Code](https://youtu.be/OldCDObeipA?feature=shared)
+- [Add AI-generated code using Copilot in Visual Studio Code (video)](https://youtu.be/OldCDObeipA?feature=shared)
