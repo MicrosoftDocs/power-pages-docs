@@ -4,7 +4,7 @@ description: Add AI-generated code using Copilot.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/29/2024
+ms.date: 11/13/2024 
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: dmartens
@@ -89,4 +89,5 @@ In every response of the Copilot chat, select the feedback options, a thumb up (
 
 ## See also
 
-- [FAQ for AI-generated code using Copilot](../faqs-pro-developer.md)
+- [FAQ for AI-generated code using Copilot](../faqs-pro-developer.md)  
+- [Add AI-generated code using Copilot in Visual Studio Code (video)](https://youtu.be/OldCDObeipA?feature=shared)

@@ -4,7 +4,7 @@ description: Configure a site as a progressive web app.
 author: ankitavish
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/02/2024
+ms.date: 11/13/2024
 ms.subservice: 
 ms.author: avishwakarma
 ms.reviewer: dmartens
@@ -151,4 +151,5 @@ Update the title and the SHA-256 certificate fingerprint to update the digital a
 ### See also
 
 [Overview of sites as progressive web apps](progressive-web-apps.md)</br>
-[Overview of Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/)
+[Overview of Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/)<br>
+[Build and distribute a progressive web app (video)](https://youtu.be/Pzs8zTXy8kI?feature=shared)
