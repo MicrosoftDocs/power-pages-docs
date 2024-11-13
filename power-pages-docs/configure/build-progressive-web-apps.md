@@ -4,7 +4,7 @@ description: Configure a site as a progressive web app.
 author: ankitavish
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/02/2024
+ms.date: 11/13/2024
 ms.subservice: 
 ms.author: avishwakarma
 ms.reviewer: dmartens
