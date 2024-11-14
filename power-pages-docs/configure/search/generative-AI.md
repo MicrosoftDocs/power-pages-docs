@@ -2,10 +2,9 @@
 title: Power Pages search with generative AI (preview)
 description: Learn how to enhance search results with generative AI.
 author: nageshbhat-msft
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 8/22/2024
+ms.date: 11/13/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -91,3 +90,4 @@ The static content on the search result component is designed using [content sni
 ## See also
 
 - [FAQ for site search with generative AI](../../faqs-generative-ai-search.md)
+- [Enable site search with generative AI (video)](https://youtu.be/2SEGiPhyYiQ?feature=shared)

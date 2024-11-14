@@ -2,7 +2,7 @@
 title: Add a copilot to your Power Pages site
 description: Learn how to add a copilot to a Microsoft Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
-ms.date: 10/24/2024
+ms.date: 11/13/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -69,3 +69,4 @@ Follow these steps to manually add a copilot:
 - [Generate answers from public data using Bing search](../getting-started/force-bing-index.md)
 - [Manage copilot provisioning](../getting-started/manage-copilot-provisioning.md)
 - [Responsible AI: FAQ for site copilot](../faqs-chatbot.md)
+- [Add an AI-Powered chatbot with Power Pages (video)](https://youtu.be/ohANXe1bfos?feature=shared)

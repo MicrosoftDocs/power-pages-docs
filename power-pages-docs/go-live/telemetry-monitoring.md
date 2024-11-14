@@ -2,10 +2,9 @@
 title: Set up telemetry monitoring
 description: Set up telemetry monitoring in Power Pages.
 author: gitanjalisingh33msft
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/20/2023
+ms.date: 11/13/2024
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -46,3 +45,4 @@ Traffic on the website should now be monitored by the telemetry provider.
 ## See also
 
 - [Enable Azure Monitor Application Insights Real User Monitoring](/azure/azure-monitor/app/javascript-sdk)
+- [Set up telemetry monitoring using enhanced data model (video)](https://youtu.be/WtZS68RPo5E?feature=shared)
