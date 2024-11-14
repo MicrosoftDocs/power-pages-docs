@@ -1,7 +1,7 @@
 ---
 title: Set up the Microsoft provider
 description: Learn how to set up Microsoft as the OAuth 2.0 identity provider for use with sites you create with Microsoft Power Pages.
-ms.date: 09/10/2024
+ms.date: 11/14/2024
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -67,7 +67,7 @@ Set Microsoft as an identity provider for your site.
 
 1. Enter an optional description, select an expiration, and then select **Add**.
 
-1. Under **Secret ID**, select the **Copy to clipboard** icon.
+1. Under **Secret Value**, select the **Copy to clipboard** icon.
 
 ## Enter site settings in Power Pages
 
@@ -76,7 +76,7 @@ Set Microsoft as an identity provider for your site.
 1. Under **Configure site settings**, paste the following values:
 
     - **Client ID​**: Paste the **Application (client) ID** [you copied](#create-a-microsoft-app-registration-in-azure).
-    - **Client secret**: Paste the **Secret ID** you copied.
+    - **Client secret**: Paste the **Secret Value** you copied.
 
 [Optional additional settings for OAuth 2.0 identity providers](oauth2-settings.md)
 

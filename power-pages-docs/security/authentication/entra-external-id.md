@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Entra External ID with Power Pages (preview)
 description: Learn how to set up Microsoft Entra External ID authentication for sites created with Power Pages.
-ms.date: 09/23/2024
+ms.date: 11/14/2024
 ms.topic: how-to
 author: ankitavish
 ms.author: avishwakarma
@@ -103,4 +103,4 @@ The following optional settings offer more control over authentication:
 | Claims mapping           | In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. Claims mapping is a way to change the information included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. Registration claims mapping modifies the claims that are emitted when you register for an application or a site. Login claims mapping modifies the claims that are emitted when you sign in to an application or a site. Learn more about claims mapping policies at [Claims customization using a policy](/entra/identity-platform/reference-claims-customization).       |
 | Nonce lifetime           | Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.                        |
 | Use token lifetime       | This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token.            |
-| Contact mapping with email | This setting determines whether contacts are mapped to a corresponding email address when they sign in. </br></br>**On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in. </br></br>**Off:** Contacts aren't mapped to an email address when they sign in. |
+| Contact mapping with email | This setting determines whether contacts are mapped to a corresponding email address when they sign in. This setting isn't applicable for multitenant endpoints and the [Microsoft identity provider](oauth2-microsoft.md). Use [invitations](../invite-contacts.md) to allow users to authenticate to your website. </br></br>**On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in. </br></br>**Off:** Contacts aren't mapped to an email address when they sign in. |
