@@ -2,7 +2,7 @@
 title: Customize your copilot
 description: Learn how to customize the copilot experience in Microsoft Power Pages in this step-by-step guide.
 ms.topic: how-to
-ms.date: 10/22/2024
+ms.date: 11/14/2024
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -54,7 +54,7 @@ You can customize the copilot's style by overriding the default Cascading Style 
 1. Go to the site's [code editor](../configure/visual-studio-code-editor.md).
 1. In the **Explorer** navigation, expand the **web-templates** folder.
 1. Open **Header.html**.
-1. Add your `style` element.
+1. Add your `style` / `script` element.
 
     :::image type="content" source="media/enable-chatbot/code-editor.png" alt-text="Screenshot of Visual Studio, highlighting the web-templates folder, the Header.html file, and the style element with a CSS selector.":::
 
@@ -81,6 +81,20 @@ Tooltip:
     color: #323130;
 }
 ```
+
+icon image:
+
+```script
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+   var buttons = document.getElementsByClassName("pva-embedded-web-chat-widget");
+    buttons[0].innerHTML = '<img src="<image URL>" height= "70px" width = "70px" />';
+}, false);
+</script>
+```
+
+ > [!NOTE]
+ > - Replace `<image URL>` with the actual image source URL. Reference an external path or upload an image to the [Web File](../configure/web-files.md) table and use its URL.
 
 ### Copilot elements
 
