@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider with Azure AD B2C 
 description: Learn how to set up an OpenID Connect identity provider with Azure Active Directory B2C for use with sites you create with Microsoft Power Pages.
-ms.date: 09/10/2024
+ms.date: 11/15/2024
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -142,7 +142,7 @@ The additional settings give you finer control over how users authenticate with 
   - **On**: Redirects users to the federated sign-out experience when they sign out of your website.
   - **Off**: Signs users out of your website only.
 
-- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
+- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in. This setting isn't applicable for multitenant endpoints. Use [invitations](../invite-contacts.md) or open registration to allow users to authenticate to your website.
 
   - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
   - **Off**: Contact record is not matched with an identity provider. This is the default option for this setting.
