@@ -1,7 +1,7 @@
 ---
 title: Additional settings for OAuth 2.0 providers
 description: Learn about other settings you can change when you add an OAuth 2.0 provider to sites you create with Microsoft Power Pages.
-ms.date: 11/14/2024
+ms.date: 11/15/2024
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -29,7 +29,7 @@ To change the other settings for an OAuth 2.0 identity provider, [edit the provi
 | Sign in As authentication type | The name of another authentication middleware that's responsible for issuing a user claims identity |
 | Scope | A comma-separated list of permissions to request |
 | Registration enabled | Turns on or off the provider's registration requirement. When this setting is off, users are denied registration with an error if no contact record exists for them. When this setting is on, users can register only if the site setting **Authentication/Registration/Enabled** is set to true. |
-| Contact mapping with email | Specifies whether contacts are mapped to a corresponding email. When this setting is on, it associates a unique contact record with a matching email address, and then automatically assigns the external identity provider to the contact after the user successfully signs in. This setting isn't applicable for multitenant endpoints and the [Microsoft identity provider](oauth2-microsoft.md). Use [invitations](../invite-contacts.md) to allow users to authenticate to your website. |
+| Contact mapping with email | Specifies whether contacts are mapped to a corresponding email. When this setting is on, it associates a unique contact record with a matching email address, and then automatically assigns the external identity provider to the contact after the user successfully signs in. This setting isn't applicable for multitenant endpoints and the [Microsoft identity provider](oauth2-microsoft.md). Use [invitations](../invite-contacts.md) or open registration to allow users to authenticate to your website. |
 
 ## Additional information
 
