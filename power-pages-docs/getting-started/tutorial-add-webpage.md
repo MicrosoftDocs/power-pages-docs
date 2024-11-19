@@ -45,7 +45,7 @@ This video provides an overview of the steps to create a page using a blank layo
    :::image type="content" source="media/tutorial/add-a-page.png" alt-text="Add a page to the site.":::
 
 1. Select **Add**.
-1. After a few moments, you should see blank page with a selection of components to add to the section. 
+1. After a few moments, you should see blank page with a selection of components to add to the section.
 
 ## Design the page and add content
 

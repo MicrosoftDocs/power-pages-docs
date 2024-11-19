@@ -42,7 +42,7 @@ To use Copilot to generate a webpage:
 
     1. Select the **Copilot** icon.
 
-           :::image type="content" source="media/create-page-copilot/copilot-icon.svg" alt-text="The Copilot icon in the Pages workspace.":::
+        :::image type="content" source="media/create-page-copilot/copilot-icon.svg" alt-text="The Copilot icon in the Pages workspace.":::
 
     1. Within the Copilot sidecar, select **Page design** -> **Create a page**.
 
