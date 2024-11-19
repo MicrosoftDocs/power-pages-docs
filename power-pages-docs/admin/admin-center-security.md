@@ -4,7 +4,7 @@ description: Learn how to manage website security in the Power Platform admin ce
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/13/2024
+ms.date: 11/19/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: danamartens
@@ -24,7 +24,7 @@ Use the Power Platform admin center to monitor the security status of the websit
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-To monitor website security for all websites in your tenant, access the Power Platform admin center. The steps are slightly different depending on if you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
+To monitor website security for all websites in your tenant, access the Power Platform admin center. The steps differ slightly depending on whether you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
 
 # [Classic admin center](#tab/classic)
 

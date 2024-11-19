@@ -33,7 +33,7 @@ To access the analytics dashboard, you should have one of the following roles:
 
 ## View traffic analytics for all websites in a tenant
 
-The steps to access traffic analytics are slightly different depending on if you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
+The steps to access traffic analytics differ slightly depending on whether you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
 
 # [Classic admin center](#tab/classic)
 
