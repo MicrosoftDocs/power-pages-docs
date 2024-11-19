@@ -35,22 +35,23 @@ To access the analytics dashboard, you should have one of the following roles:
 
 The steps to access traffic analytics are slightly different depending on if you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
 
-    # [Classic admin center](#tab/classic)
+# [Classic admin center](#tab/classic)
 
-    1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-    1. On the left pane, select **Resources**, > **Power Pages sites** > **Analytics**.
-    :::image type="content" source="Media/admin-center-analytics/usage-data.png" alt-text="A screenshot of Power Pages sites inside Power Platform admin center displaying Usage data.":::
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. On the left pane, select **Resources**, > **Power Pages sites** > **Analytics**.
 
-    :::image type="content" source="media/admin-center-security/security-admin-center.png" alt-text="A screenshot of Power Platform admin center security tab.":::
+:::image type="content" source="Media/admin-center-analytics/usage-data.png" alt-text="A screenshot of Power Pages sites inside Power Platform admin center displaying Usage data.":::
 
-    # [New admin center](#tab/new)
+:::image type="content" source="media/admin-center-security/security-admin-center.png" alt-text="A screenshot of Power Platform admin center security tab.":::
 
-    1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-    1. **Switch to the new admin center.**
-    1. In the left navigation, select **Manage**.
-    1. Under **Products**, select **Power Pages** and then select **Analytics (preview)**.
+# [New admin center](#tab/new)
 
-    ---
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. **Switch to the new admin center.**
+1. In the left navigation, select **Manage**.
+1. Under **Products**, select **Power Pages** and then select **Analytics (preview)**.
+
+---
 
 From here you can view the traffic that your websites are receiving: DAU (Daily Active Users), WAU (Weekly Active Users), and MAU (Monthly Active Users).
 
