@@ -4,7 +4,7 @@ description: Learn how to create Power Pages sites.
 author: ckwan-ms
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/08/2022
+ms.date: 11/19/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: danamartens
@@ -27,15 +27,28 @@ The **Pages** workspace enables you to design and build webpages with in-context
 
     :::image type="content" source="media/first-page/add-new-page.png" alt-text="Add a new page within the design studio.":::
 
-1. Choose a page from standard layouts, or choose a custom layout. 
+1. Use Copilot to create the page or choose from additional options:
+
+# [Use Copilot](#tab/copilot)
+
+1. Use Copilot to describe a page you want to create using natural language. 
+1. To send Copilot your request, press <kbd>Enter</kbd> or select the paper airplane icon in the lower-right corner of the text box.
+
+:::image type="content" source="media/first-page/add-page-copilot.png" alt-text="Screenshot showing the option to create a page using Copilot.":::
+
+1. After Copilot creates your page, select **Keep it** if you like the result or **Delete page** if you don't.
+
+# [Other options](#tab/other)
+
+1. Select **Other ways to add a page** to choose a page from standard layouts, or choose a custom layout.
 
 1. By default, the new page appears in the **Main navigation** section and a link appears on the default navigation of the site. If you unselect the **add page to main navigation** option, the page appears the **Other pages** section. The page is accessible from a URL, but a link isn't added to the default navigation.
 
     :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within the design studio.":::
 
-    
+For detailed information on how to create custom page templates, go to [Create and manage page templates](/power-apps/maker/portals/configure/page-templates) and [Store source content by using web templates](/power-apps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
 
-    For detailed information on how to create custom page templates, go to [Create and manage page templates](/power-apps/maker/portals/configure/page-templates) and [Store source content by using web templates](/power-apps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
+---
 
 1. Add content and components to your page. For more information, go to [Customize pages](customize-pages.md).
 
