@@ -262,6 +262,8 @@
           href: admin/migrate-enhanced-data-model.md
 - name: Administer Power Pages
   items:
+    - name: Use the new admin center (preview)
+      href: admin/new-admin-overview.md
     - name: Use the admin center
       href: admin/admin-overview.md
     - name: Manage websites from the admin center

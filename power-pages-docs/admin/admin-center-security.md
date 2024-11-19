@@ -24,15 +24,26 @@ Use the Power Platform admin center to monitor the security status of the websit
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-To monitor website security for all websites in your tenant:
+To monitor website security for all websites in your tenant, access the Power Platform admin center. The steps are slightly different depending on if you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
 
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+    # [Classic admin center](#tab/classic)
 
-1. On the left pane, select **Resources**, and then select **Power Pages sites**.
-
-1. Select **Security (preview)** tab.
+    1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+    1. On the left pane, select **Resources**, and then select **Power Pages sites**.
+    1. Select **Security (preview)** tab.
 
     :::image type="content" source="media/admin-center-security/security-admin-center.png" alt-text="A screenshot of Power Platform admin center security tab.":::
+
+    # [New admin center](#tab/new)
+
+    1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+    1. **Switch to the new admin center.**
+    1. In the left-hand menu, select **Security**.
+    1. Under **Product-Specific Experiences**, select **Power Pages** to view the security dashboard.
+
+    :::image type="content" source="Media/admin-center-security/security-dashboard.png" alt-text="Screenshot of the Power Pages security view in the new Power Platform admin center.":::
+
+    ---
 
 ## Anonymous access to Dataverse tables
 
