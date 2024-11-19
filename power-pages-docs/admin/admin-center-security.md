@@ -37,8 +37,7 @@ To monitor website security for all websites in your tenant, access the Power Pl
 # [New admin center](#tab/new)
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-1. **Switch to the new admin center.**
-1. In the left-hand menu, select **Security**.
+1. On the left pane, select **Security**.
 1. Under **Products**, select **Power Pages**.
 
 :::image type="content" source="Media/admin-center-security/security-dashboard.png" alt-text="Screenshot of the Power Pages security view in the new Power Platform admin center.":::
