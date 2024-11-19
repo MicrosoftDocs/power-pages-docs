@@ -4,7 +4,7 @@ description: Learn how to use the Power Platform admin center to monitor the tra
 author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/09/2024
+ms.date: 11/19/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: danamartens
@@ -33,9 +33,24 @@ To access the analytics dashboard, you should have one of the following roles:
 
 ## View traffic analytics for all websites in a tenant
 
+The steps to access traffic analytics differ slightly depending on whether you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
+
+# [Classic admin center](#tab/classic)
+
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 1. On the left pane, select **Resources**, > **Power Pages sites** > **Analytics**.
-    :::image type="content" source="Media/admin-center-analytics/usage-data.png" alt-text="A screenshot of Power Pages sites inside Power Platform admin center displaying Usage data.":::
+
+:::image type="content" source="Media/admin-center-analytics/usage-data.png" alt-text="A screenshot of Power Pages sites inside Power Platform admin center displaying usage data.":::
+
+# [New admin center](#tab/new)
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. In the left navigation, select **Manage**.
+1. Under **Products**, select **Power Pages** and then select **Analytics (preview)**.
+
+:::image type="content" source="Media/admin-center-analytics/analytics-tab.png" alt-text="A screenshot of Power Pages sites inside the new Power Platform admin center displaying usage data.":::
+
+---
 
 From here you can view the traffic that your websites are receiving: DAU (Daily Active Users), WAU (Weekly Active Users), and MAU (Monthly Active Users).
 
@@ -66,4 +81,3 @@ To view the traffic for a specific site, select it in the **Site ID** list. To v
 - [Administer Microsoft Power Platform](/power-platform/admin/admin-documentation)
 - [Manage Dynamics 365 apps](/power-platform/admin/manage-apps)  
 - [Upgrade a website](upgrade-site.md)
-

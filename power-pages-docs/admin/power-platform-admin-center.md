@@ -5,7 +5,7 @@ author: vamseedillimsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/09/2024
+ms.date: 11/19/2024
 ms.subservice: 
 ms.author: vamseedilli
 ms.reviewer: danamartens
@@ -29,6 +29,9 @@ You can manage websites in the Power Platform admin center in two ways:
 
 1. On the left pane, select **Resources**, and then select **Power Pages sites**.
 
+    > [!IMPORTANT]
+    > If you are using the new admin center, select **Security** from the left navigation and then select Power Pages. Learn more about the new admin center at [Use the new Power Platform admin center (preview)](new-admin-overview.md).
+
     :::image type="content" source="media/power-platform-admin-center/website-lists.png" alt-text="List of websites in a tenant.":::
 
 1. Select a website.
@@ -50,7 +53,10 @@ You can export a list of website information by selecting the **Export to csv** 
 
 1. On the left pane, select **Environments**.
 
-1. Hover over and select the hyperlinked environment name to open the environment details.
+    > [!IMPORTANT]
+    > If you are using the new admin center, this experience can be found by selecting **Manage** from the left navigation. Learn more about the new admin center at [Use the new Power Platform admin center (preview)](new-admin-overview.md).
+
+1. Hover over and select the hyperlinked environment name to open the environment details. 
 
 1. On the right side of the screen, under **Resources**, select **Power Pages sites**.
 
