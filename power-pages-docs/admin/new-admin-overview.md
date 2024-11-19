@@ -1,6 +1,6 @@
 ---
 title: Use the new Power Platform admin center (preview)
-description: Learn to navigate the new Power Platform admin center for Power Pages. Manage sites, view analytics, handle licenses, and ensure security effortlessly.
+description: Learn how to navigate the new Power Platform admin center for Power Pages to manage sites, view analytics, handle licenses, and ensure security effortlessly.
 author: DanaMartens
 contributors:
 ms.topic: conceptual
@@ -18,45 +18,43 @@ ms.custom:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-We're introducing the *new Power Platform admin center*, available alongside the *classic Power Platform admin center*. Admins can switch between the two, with features organized into pages like *Manage*, *Security*, and *Copilot*. Explore the new experience at your convenience.
+We're introducing a new Power Platform admin center, which has features organized into pages like **Manage**, **Security**, and **Copilot**. The [classic Power Platform admin center](admin-overview.md) is still available, and you can easily switch between them at your convenience.
 
-:::image type="content" source="Media/new-admin-center/new-admin-center-toggle.png" alt-text="Screenshot of the switch to turn on the new admin center experience.":::
+:::image type="content" source="Media/new-admin-center/new-admin-center-toggle.png" alt-text="Screenshot of the switch to turn on the new experience in the Power Platform admin center window.":::
 
 > [!IMPORTANT]
 >
 > - This feature is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-This article focuses on using the new admin center for Power Pages. Learn more about all the features in the new admin center at [Use the new Power Platform admin center (preview)](/power-platform/admin/new-admin-center).
+## Power Pages management views
 
-## Access Power Pages management views
+This article focuses on using the new admin center for Power Pages. Learn more about all the features in the new experience in [Use the new Power Platform admin center (preview)](/power-platform/admin/new-admin-center).
 
-Access Power Pages views in the new admin center, similar to the [classic admin center experience](admin-overview.md):
+### Your sites and analytics views
 
-1. **Your sites and analytics views**:
+Find these views on the **Manage** page under the **Products** section. Here, you can see a list of all your Power Pages sites and detailed analytics insights.
 
-    Find these views on the **Manage** page under the **Products** section. Here, you can see a list of all your Power Pages sites and detailed analytics insights.
+:::image type="content" source="./Media/new-admin-center/your-sites-tab.png" alt-text="Screenshot of the sites inventory view in the Manage page in the new Power Platform admin center.":::
 
-    :::image type="content" source="./Media/new-admin-center/your-sites-tab.png" alt-text="Screenshot of the sites inventory view in the Manage page.":::
+:::image type="content" source=".//Media/new-admin-center/analytics-tab.png" alt-text="Screenshot of the analytics view in the Manage page in the new Power Platform admin center.":::
 
-    :::image type="content" source=".//Media/new-admin-center/analytics-tab.png" alt-text="Screenshot of analytics view in the Manage page.":::
+### Licenses view
 
-1. **Licenses view**:
-  
-    Find the Power Pages licenses view on the **Licensing** page to manage license-related aspects for Power Pages directly within the new admin center.
+Find the Power Pages licenses view on the **Licensing** page to manage license-related aspects of Power Pages directly in the new admin center.
 
-    :::image type="content" source="./Media/new-admin-center/licenses.png" alt-text="Screenshot of licenses view in the Licensing page":::
+:::image type="content" source="./Media/new-admin-center/licenses.png" alt-text="Screenshot of the licenses view in the Licensing page in the new Power Platform admin center.":::
 
-1. **Security dashboard**:
+### Security dashboard
 
-    For security insights and actions, go to the **Security** page and select **Power Pages** under the **Products** section. The security dashboard offers the same features as the classic admin center. Learn more at [Manage website security from the Power Platform admin center (preview)](./admin-center-security.md).
+For security insights and actions, go to the **Security** page and select **Power Pages** under the **Products** section. The security dashboard offers the same features as the classic admin center. Learn more in [Manage website security from the Power Platform admin center (preview)](./admin-center-security.md).
 
-    :::image type="content" source="./Media/new-admin-center/security-dashboard.png" alt-text="Screenshot of the security dashboard in the Security page":::
+:::image type="content" source="./Media/new-admin-center/security-dashboard.png" alt-text="Screenshot of the security dashboard in the Security page in the new Power Platform admin center.":::
 
-## Classic admin center
+## New vs classic admin center
 
 > [!IMPORTANT]
-> If you use the classic Power Platform admin center, you can still access all Power Pages management features, including inventory (your sites), analytics, licenses, and the security dashboard. Learn more at [Use the admin center](./admin-overview.md).
+> If you use the classic Power Platform admin center, you can still access all Power Pages management features, including inventory (your sites), analytics, licenses, and the security dashboard. Learn more in [Use the admin center](./admin-overview.md).
 
 If a Power Pages feature is missing in the new admin center, switch back to the classic admin center to access it. We're working to achieve full parity between the two experiences for seamless usability.
 
