@@ -64,5 +64,5 @@ Thank you for your patience as we work toward a streamlined, modern admin experi
 
 ## Related information
 
-[Use the new Power Platform admin center (preview)](/power-platform/admin/new-admin-center)
-[Use the classic admin center](./admin-overview.md)
+- [Use the new Power Platform admin center (preview)](/power-platform/admin/new-admin-center)
+- [Use the classic admin center](./admin-overview.md)
