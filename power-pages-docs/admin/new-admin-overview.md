@@ -15,6 +15,8 @@ ms.reviewer: dmartens
 
 We're introducing the *new Power Platform admin center*, available alongside the *classic Power Platform admin center*. Admins can switch between the two, with features organized into pages like *Manage*, *Security*, and *Copilot*. This switch lets you explore the new experience at your convenience.
 
+:::image type="content" source="Media/new-admin-center/new-admin-center-toggle.png" alt-text="Screenshot of the switch to turn on the new admin center experience.":::
+
 > [!IMPORTANT]
 >
 > - This feature is a preview feature.
@@ -40,14 +42,14 @@ In the new admin center, accessing Power Pages views is straightforward and main
 
 1. **Security dashboard**:
   
-    For security insights and actions, go to the *Security* page under the *Products* section. The security dashboard offers the same features as the classic admin center. Learn more at [Manage website security from the Power Platform admin center (preview)](power-pages-docs/admin/admin-center-security.md).
+    For security insights and actions, go to the *Security* page under the *Products* section. The security dashboard offers the same features as the classic admin center. Learn more at [Manage website security from the Power Platform admin center (preview)](./admin-center-security.md).
 
     :::image type="content" source="./Media/new-admin-center/security-dashboard.png" alt-text="Screenshot of the security dashboard in the Security page":::
 
 ## Classic admin center
 
 > [!IMPORTANT]
-> If you're using the classic Power Platform admin center, you can still access all Power Pages management features, including inventory (your sites), analytics, licenses, and the security dashboard. Learn more at [Use the admin center](power-pages-docs/admin/admin-overview.md).
+> If you're using the classic Power Platform admin center, you can still access all Power Pages management features, including inventory (your sites), analytics, licenses, and the security dashboard. Learn more at [Use the admin center](./admin-overview.md).
 
 If a specific Power Pages feature is missing in the new admin center, switch back to the classic admin center to access it. We're working to achieve full parity between the two experiences for seamless usability.
 
@@ -55,4 +57,4 @@ Thank you for your patience as we work towards a streamlined, modern admin exper
 
 ## Related information
 
-[Use the admin center](power-pages-docs/admin/admin-overview.md)
+[Use the admin center](./admin-overview.md)
