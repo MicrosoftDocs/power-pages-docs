@@ -28,32 +28,33 @@ To use Copilot to generate a webpage:
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. Go to the **Pages** workspace.
 
-# [+ Page button](#tab/copilot)
+    # [+ Page button](#tab/newpage)
 
-1. Select **+ Page** in the upper-left corner.
-1. Use Copilot to describe a page you want to create using natural language.
-1. To send Copilot your request, press <kbd>Enter</kbd> or select the paper airplane icon in the lower-right corner of the text box.
+    1. Select **+ Page** in the upper-left corner.
+    1. Use Copilot to describe a page you want to create using natural language.
+    1. To send Copilot your request, press <kbd>Enter</kbd> or select the paper airplane icon in the lower-right corner of the text box.
 
-:::image type="content" source="media/first-page/add-page-copilot.png" alt-text="Screenshot showing the option to create a page using Copilot.":::
+        :::image type="content" source="media/first-page/add-page-copilot.png" alt-text="Screenshot showing the option to create a page using Copilot.":::
 
-1. After Copilot creates your page, select **Keep it** if you like the result or **Delete page** if you don't.
+    1. After Copilot creates your page, select **Keep it** if you like the result or **Delete page** if you don't.
 
-# [Copilot sidecar](#tab/other)
+    # [Copilot sidecar](#tab/sidecar)
 
-1. Select the **Copilot** icon.
-   :::image type="content" source="media/create-page-copilot/copilot-icon.svg" alt-text="The Copilot icon in the Pages workspace.":::
+    1. Select the **Copilot** icon.
 
-1. Within the Copilot sidecar, select **Page design** -> **Create a page**.
+           :::image type="content" source="media/create-page-copilot/copilot-icon.svg" alt-text="The Copilot icon in the Pages workspace.":::
 
-1. Describe the page that you want to generate using AI. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field. For example, "create an FAQ page for student loans."
+    1. Within the Copilot sidecar, select **Page design** -> **Create a page**.
 
-    If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
+    1. Describe the page that you want to generate using AI. Choose from the starter prompts displayed in the sidecar, or write your own prompts directly in the text input field. For example, "create an FAQ page for student loans."
 
-1. To send Copilot your request, press <kbd>Enter</kbd> or select the paper airplane icon in the lower-right corner of the text box.
+        If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
 
-    :::image type="content" source="media/create-page-copilot/copilot-page-prompt.svg" alt-text="Screenshot of Power Pages Copilot sidecar with page prompts displayed and the paper airplane icon emphasized.":::
+    1. To send Copilot your request, press <kbd>Enter</kbd> or select the paper airplane icon in the lower-right corner of the text box.
 
----
+        :::image type="content" source="media/create-page-copilot/copilot-page-prompt.svg" alt-text="Screenshot of Power Pages Copilot sidecar with page prompts displayed and the paper airplane icon emphasized.":::
+
+    ---
 
 Copilot generates the page and adds it to the main navigation. You can review the page and the content. You can edit sections, text, and images in the page using the WYSIWYG editor.
 
@@ -76,5 +77,6 @@ Additionally, you can edit a page with Copilot by typing the following commands 
 |Add a form     | To learn how to add a form using Copilot, see [Create AI-generated form using Copilot](add-form-copilot.md)         |
 
 ## See also
+
 - [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 - [FAQ for Copilot for design studio](../faqs-design-studio.md).
