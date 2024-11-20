@@ -38,7 +38,9 @@ More evaluation was performed over custom datasets for offensive and malicious p
 
 ## What are the limitations of this feature? How can users minimize the impact of the copilot limitations when using the system?
 
-- This feature doesn't include a mitigation for checking for correctness of responses returned by the copilot. Nonfactual responses might be generated if the URL from the information is gathered (and what the maker provided) contains incorrect information.
+- This feature doesn't include a mitigation for checking for correctness of responses returned by the copilot.
+- Nonfactual responses might be generated if the source from which the information is gathered (and what the maker provided) contains incorrect information.
+- AI generated responses might be inaccurate please review the content.
 - GPT answers don't support websites that sell prohibitive products or services, as these terms get intentionally blocked by content moderation. An exception to this exclusion is if the content moderation slider gets set to **Low**.
 - That the copilot sometimes returns misguiding responses for high-risk domains that include healthcare finance, communications, and legal.
 
