@@ -3,7 +3,7 @@ title: How to - Add Copilot summarization to case page (preview)
 description: Learn how to add Copilot summarization to the case page in Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.date: 10/25/2024
+ms.date: 11/21/2024
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
@@ -35,12 +35,12 @@ Before you can use the data summarization API, you must use the Portal Managemen
 
     | Setting description | Name | Value |
     |---------------------|------|-------|
-    | Enable the summarization API | Summarization/Data/Enable | true |
-    | Set the summarization prompt | Summarization/prompt/case_summary | "Summarize key details and critical information" |
-    | Enable the web API for the case table | Webapi/incident/enabled | true |
-    | Enable description and title field of the case table | Webapi/incident/fields | description,title |
-    | Enable the portal comments table for the web API | Webapi/adx_portalcomment/enabled  | true |
-    | Enable the description field of the portal comments table | Webapi/adx_portalcomment/fields | description |
+    | Enable the summarization API. | Summarization/Data/Enable | true |
+    | Set the summarization prompt. | Summarization/prompt/case_summary | "Summarize key details and critical information" |
+    | Enable the Web API for the case table. | Webapi/incident/enabled | true |
+    | Enable description and title fields of the case table. | Webapi/incident/fields | description,title |
+    | Enable the portal comments table for the web API. | Webapi/adx_portalcomment/enabled  | true |
+    | Enable the description field of the portal comments table. | Webapi/adx_portalcomment/fields | description |
 
 ## Step 2 - Add the Copilot summary section
 

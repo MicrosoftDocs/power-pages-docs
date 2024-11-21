@@ -3,7 +3,7 @@ title: FAQ for data summarization API
 description: Look up frequently asked questions (FAQ) for the data summarization API in Microsoft Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.date: 10/25/2024
+ms.date: 11/21/2024
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
@@ -29,7 +29,7 @@ The Power Pages maker can use site settings to provide the summarization prompt.
 
 ## What is the system's intended use?
 
-The purpose of the system is to deliver concise and relevant page summaries by using the prompt that the C1 maker configures. The summary is grounded in the website's content, which is passed by using the Power Pages API. That API is secured by using table permissions.
+The purpose of the system is to deliver concise and relevant page summaries by using the prompt that the maker configures. The summary is grounded in the website's content, which is passed by using the Power Pages API. That API is secured by using table permissions.
 
 ## How was the data summarization feature evaluated? What metrics are used to measure performance?
 

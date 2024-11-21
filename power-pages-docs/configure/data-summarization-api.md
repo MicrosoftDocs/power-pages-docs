@@ -3,7 +3,7 @@ title: Data summarization API overview (preview)
 description: Learn about the data summarization API in Microsoft Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.date: 10/28/2024
+ms.date: 11/21/2024
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
@@ -24,7 +24,7 @@ Makers can use the Power Pages summarization API to add page content summarizati
 ## Prerequisites
 
 - You must enable the [site settings](/power-pages/configure/web-api-overview#site-settings-for-the-web-api) for the Web API.
-- Only tables that are supported for the Pages Web API are available for summarization. Learn more about the Pages Web API in [Web API overview](/power-pages/configure/web-api-overview).
+- Only tables that are supported for the Power Pages Web API are available for summarization. Learn more about the Power Pages Web API in [Web API overview](/power-pages/configure/web-api-overview).
 - The feature isn't available in Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
 
 ## Site settings
