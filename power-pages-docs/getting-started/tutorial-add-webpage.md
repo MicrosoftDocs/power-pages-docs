@@ -4,7 +4,7 @@ description: Learn how to add a page to your Power Pages site.
 author: ckwan-ms
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 05/24/2022
+ms.date: 11/19/2024
 ms.subservice:
 ms.author: ckwan 
 ms.reviewer: danamartens
@@ -37,16 +37,15 @@ This video provides an overview of the steps to create a page using a blank layo
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
-
 1. Select **Edit** on the site you want to add a page. If you don't have a site, [create a site](create-manage.md) before continuing.
-
-1. Select **Pages** and then select the **Add a page** icon (+) to the right of the **Main navigation** heading.
-
+1. Select **Pages** and then select **+ Page** in the upper-left corner.
+1. Select **Other ways to add a page**.
 1. Provide a name for your page and select the **Start from blank** page layout.
 
    :::image type="content" source="media/tutorial/add-a-page.png" alt-text="Add a page to the site.":::
 
-1. After a few moments, you should see blank page with a selection of components to add to the section. 
+1. Select **Add**.
+1. After a few moments, you should see blank page with a selection of components to add to the section.
 
 ## Design the page and add content
 
