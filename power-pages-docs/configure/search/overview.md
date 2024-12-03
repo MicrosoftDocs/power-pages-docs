@@ -208,9 +208,9 @@ As part of global search, various special characters and syntaxes are supported 
 
     - **NOT**: The NOT operator excludes records that contain the term after NOT. This is equivalent to a difference using sets. The symbol ! can be used in place of the word NOT. For example, the search query "Smart NOT TV" (excluding quotation marks) will search for all records that have the word Smart but don't have the word TV in them. This query can also be written as "Smart ! TV".
 
-    - **Plus (+) symbol**: The plus (+) symbol, also known as the required operator, requires that the term after the "+" symbol exists somewhere in a record. For example, the search query "Smart + TV" will search for all records where the word TV must be present, and the word Smart may be present as well. 
+    - **Plus (+) symbol**: The plus (+) symbol, also known as the required operator, requires that the term after the "+" symbol exists somewhere in a record. For example, the search query "Smart +TV" will search for all records where the word TV must be present, and the word Smart may be present as well. 
 
-    - **Minus (–) symbol**: The minus (-) symbol, also known as the prohibit operator, excludes documents that contain the term after the "-" symbol. For example, the search query "Smart - TV" will search for all records where the word Smart is present, and the word TV must not be present.
+    - **Minus (–) symbol**: The minus (-) symbol, also known as the prohibit operator, excludes documents that contain the term after the "-" symbol. For example, the search query "Smart -TV" will search for all records where the word Smart is present, and the word TV must not be present.
 
 - **Grouping**: Global search supports using parentheses to group clauses to form sub queries. This feature can be useful if you want to control the Boolean logic for a query. For example, if you want to search for all records where either one of the terms "HD" or "Smart" is present but the word TV is always present, the query can be written as "(HD or Smart) AND TV" (excluding quotation marks).
 
