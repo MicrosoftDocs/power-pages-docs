@@ -297,11 +297,11 @@ The following example demonstrates how you can expand related entities for entit
 |-------------------------|-------------------------|
 | **GET** | `[Portal URI]/_api/accounts?$top=5&$select=name&$expand=primarycontactid($select=contactid,fullname),Account_Tasks($select=subject,scheduledstart)`</br></br>**Example:**</br>`https://contoso.powerappsportals.com/_api/accounts?$top=5&$select=name&$expand=primarycontactid($select=contactid,fullname),Account_Tasks($select=subject,scheduledstart)` |
 
-## Query records using FetchXML
+## Query records using FetchXml
 
-Pass the FetchXml query as a URL-encoded string value to the entity set collection using the fetchXml query parameter.
+Pass the FetchXml query as a URL-encoded string value to the entity set collection using the FetchXml query parameter.
 
-For example, to retrieve data from the [account entity set](/power-apps/developer/data-platform/webapi/reference/account), compose a fetchXml query setting the entity element name parameter to the account.
+For example, to retrieve data from the [account entity set](/power-apps/developer/data-platform/webapi/reference/account), compose a FetchXml query setting the entity element name parameter to the account.
 
 ```XML
 <fetch top='2'>
