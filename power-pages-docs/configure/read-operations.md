@@ -99,7 +99,7 @@ Use the **$select** system query option to limit the properties returned as sh
 
 ## Filter results
 
-Use the **$filter** system query option to set criteria for which rows will be returned.
+Use the **$filter** system query option to set criteria for which rows are returned.
 
 ### Standard filter operators
 
@@ -215,7 +215,7 @@ Use the **$expand** system query option in the navigation properties to contro
 
 ### Lookup associated navigation property
 
-You will need to use the **Microsoft.Dynamics.CRM.associatednavigationproperty** as the lookup attribute when using the **$expand** query option. 
+You need to use the **Microsoft.Dynamics.CRM.associatednavigationproperty** as the lookup attribute when using the **$expand** query option. 
 
 To determine the **Microsoft.Dynamics.CRM.associatednavigationproperty** of an attribute, you can make the following http GET request for the column using the following naming convention: **_*name*_value**.
 
@@ -244,7 +244,7 @@ In the following example, we can determine the associated navigation property of
 
 We see from the response that the associated navigation property is **primarycontactid**. The associated navigation property can be either the lookup column's [logical name or schema name](/power-apps/developer/data-platform/entity-metadata) depending how the table was created.
 
-For more information see [Retrieve data about lookup properties](/power-apps/developer/data-platform/webapi/query-data-web-api#retrieve-data-about-lookup-properties).
+For more information, see [Retrieve data about lookup properties](/power-apps/developer/data-platform/webapi/query-data-web-api#retrieve-data-about-lookup-properties).
 
 ### Retrieve related table records by expanding single-valued navigation properties
 
@@ -283,7 +283,7 @@ The following example shows how to retrieve the contact for all the account reco
 
 ### Retrieve related tables by expanding collection-valued navigation properties
 
-If you expand on collection-valued navigation parameters to retrieve related tables for entity sets, only one level of depth is returned if there's data. Otherwise, the collection will return an empty array.
+If you expand on collection-valued navigation parameters to retrieve related tables for entity sets, only one level of depth is returned if there's data. Otherwise, the collection returns an empty array.
 
 | **Method** | **URI** |
 |-------------------------|-------------------------|
@@ -291,7 +291,7 @@ If you expand on collection-valued navigation parameters to retrieve related tab
 
 ### Retrieve related tables by expanding both single-valued and collection-valued navigation properties
 
-The following example demonstrates how you can expand related entities for entity sets using both single and collection-valued navigation properties. You will need to specify the [table relationship name](/power-apps/maker/data-platform/relationships-overview) in the syntax of your code.
+The following example demonstrates how you can expand related entities for entity sets using both single and collection-valued navigation properties. You need to specify the [table relationship name](/power-apps/maker/data-platform/relationships-overview) in the syntax of your code.
 
 | **Method** | **URI** |
 |-------------------------|-------------------------|
@@ -350,12 +350,10 @@ The URL-encoded string for the previous query is:
 
 ## Next Step
 
-[Portals write, update and delete operations using the Web API](write-update-delete-operations.md)
+[Portals write, update, and delete operations using the Web API](write-update-delete-operations.md)
 
 ### See also
 
 - [Web API overview](web-api-overview.md)
 - [How to: Use portal Web API](webapi-how-to.md)
 - [Configure column permissions](/power-apps/maker/portals/configure/column-permissions)
-
-
