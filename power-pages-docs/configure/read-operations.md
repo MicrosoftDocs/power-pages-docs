@@ -297,6 +297,56 @@ The following example demonstrates how you can expand related entities for entit
 |-------------------------|-------------------------|
 | **GET** | `[Portal URI]/_api/accounts?$top=5&$select=name&$expand=primarycontactid($select=contactid,fullname),Account_Tasks($select=subject,scheduledstart)`</br></br>**Example:**</br>`https://contoso.powerappsportals.com/_api/accounts?$top=5&$select=name&$expand=primarycontactid($select=contactid,fullname),Account_Tasks($select=subject,scheduledstart)` |
 
+## Query records using FetcXML
+
+Pass FetchXml query as a URL-encoded string value to the entity set collection using the fetchXml query parameter.
+
+For example, if you want to retrieve data from the [account entity set](power-apps/developer/data-platform/webapi/reference/account), you will compose a fetchXml query setting the entity element name parameter to the account.
+
+```XML
+<fetch top='2'>
+  <entity name='account'>
+      <attribute name='name' />
+  </entity>
+</fetch>
+```
+The URL-encoded string for the previous query example looks like this:
+
+```text
+%3Cfetch%20top%3D%275%27%3E%0D%0A%3Centity%20name%3D%27account%27%3E%0D%0A%3Cattribute%20name%3D%27name%27%2F%3E%0D%0A%3C%2Fentity%3E%0D%0A%3C%2Ffetch%3E
+```
+
+| **Method** | **URI** |
+|-------------------------|-------------------------|
+| **GET** | `[Portal URI]/_api/accounts?fetchxml`</br></br>**Example:**</br>`https://contoso.powerappsportals.com/_api/accounts?fetchXml=%3Cfetch%20top%3D%275%27%3E%0D%0A%3Centity%20name%3D%27account%27%3E%0D%0A%3Cattribute%20name%3D%27name%27%2F%3E%0D%0A%3C%2Fentity%3E%0D%0A%3C%2Ffetch%3E` |
+
+**Sample response**
+
+```json
+{
+"value": [
+    {
+    "@odata.etag": "W/\"1066412\"",
+    "name": "Fourth Coffee (sample)",
+    "accountid": "d2e11ba8-92f6-eb11-94ef-000d3a5aa607",
+        "primarycontactid": {
+        "contactid": "e6e11ba8-92f6-eb11-94ef-000d3a5aa607",
+        "fullname": "Yvonne McKay (sample)"
+        }
+    },
+    {
+    "@odata.etag": "W/\"1066413\"",
+    "name": "Litware, Inc. (sample)",
+    "accountid": "d4e11ba8-92f6-eb11-94ef-000d3a5aa607",
+        "primarycontactid": {
+        "contactid": "e8e11ba8-92f6-eb11-94ef-000d3a5aa607",
+        "fullname": "Susanna Stubberod (sample)"
+        }
+    }
+]
+}
+```
+
 ## Next Step
 
 [Portals write, update and delete operations using the Web API](write-update-delete-operations.md)
