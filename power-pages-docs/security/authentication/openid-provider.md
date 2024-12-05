@@ -71,7 +71,7 @@ OpenID Connect providers [Azure AD B2C](azure-ad-b2c-provider.md), [Microsoft En
 
 Return to the Power Pages **Configure identity provider** page you left earlier and enter the following values. Optionally, change the [**additional settings**](#additional-settings-in-power-pages) as needed. Select **Confirm** when you're finished.
 
-- **Authority**: Enter the authority URL in the following format: `https://login.microsoftonline.com/<Directory (tenant) ID>/`, where *<Directory (tenant) ID>* is the directory (tenant) ID of the application [you created](#create-an-app-registration-in-the-identity-provider). For example, if the directory (tenant) ID in the Azure portal is `7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb`, then the authority URL is `https://login.microsoftonline.com/7e6ea6c7-a751-4b0d-bbb0-8cf17fe85dbb/​`.
+- **Authority**: Enter the authority URL in the following format: `https://login.microsoftonline.com/<Directory (tenant) ID>/`, where *<Directory (tenant) ID>* is the directory (tenant) ID of the application [you created](#create-an-app-registration-in-the-identity-provider). For example, if the directory (tenant) ID in the Azure portal is `aaaabbbb-0000-cccc-1111-dddd2222eeee`, then the authority URL is `https://login.microsoftonline.com/aaaabbbb-0000-cccc-1111-dddd2222eeee/​`.
 
 - **Client ID​**: Paste the application or client ID of the application [you created](#create-an-app-registration-in-the-identity-provider).
 
