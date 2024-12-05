@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 12/05/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -99,7 +99,7 @@ Use the **$select** system query option to limit the properties returned as sh
 
 ## Filter results
 
-Use the **$filter** system query option to set criteria for which rows will be returned.
+Use the **$filter** system query option to set criteria for which rows are returned.
 
 ### Standard filter operators
 
@@ -215,7 +215,7 @@ Use the **$expand** system query option in the navigation properties to contro
 
 ### Lookup associated navigation property
 
-You will need to use the **Microsoft.Dynamics.CRM.associatednavigationproperty** as the lookup attribute when using the **$expand** query option. 
+You need to use the **Microsoft.Dynamics.CRM.associatednavigationproperty** as the lookup attribute when using the **$expand** query option. 
 
 To determine the **Microsoft.Dynamics.CRM.associatednavigationproperty** of an attribute, you can make the following http GET request for the column using the following naming convention: **_*name*_value**.
 
@@ -244,7 +244,7 @@ In the following example, we can determine the associated navigation property of
 
 We see from the response that the associated navigation property is **primarycontactid**. The associated navigation property can be either the lookup column's [logical name or schema name](/power-apps/developer/data-platform/entity-metadata) depending how the table was created.
 
-For more information see [Retrieve data about lookup properties](/power-apps/developer/data-platform/webapi/query-data-web-api#retrieve-data-about-lookup-properties).
+For more information, see [Retrieve data about lookup properties](/power-apps/developer/data-platform/webapi/query-data-web-api#retrieve-data-about-lookup-properties).
 
 ### Retrieve related table records by expanding single-valued navigation properties
 
@@ -283,7 +283,7 @@ The following example shows how to retrieve the contact for all the account reco
 
 ### Retrieve related tables by expanding collection-valued navigation properties
 
-If you expand on collection-valued navigation parameters to retrieve related tables for entity sets, only one level of depth is returned if there's data. Otherwise, the collection will return an empty array.
+If you expand on collection-valued navigation parameters to retrieve related tables for entity sets, only one level of depth is returned if there's data. Otherwise, the collection returns an empty array.
 
 | **Method** | **URI** |
 |-------------------------|-------------------------|
@@ -291,20 +291,69 @@ If you expand on collection-valued navigation parameters to retrieve related tab
 
 ### Retrieve related tables by expanding both single-valued and collection-valued navigation properties
 
-The following example demonstrates how you can expand related entities for entity sets using both single and collection-valued navigation properties. You will need to specify the [table relationship name](/power-apps/maker/data-platform/relationships-overview) in the syntax of your code.
+The following example demonstrates how you can expand related entities for entity sets using both single and collection-valued navigation properties. You need to specify the [table relationship name](/power-apps/maker/data-platform/relationships-overview) in the syntax of your code.
 
 | **Method** | **URI** |
 |-------------------------|-------------------------|
 | **GET** | `[Portal URI]/_api/accounts?$top=5&$select=name&$expand=primarycontactid($select=contactid,fullname),Account_Tasks($select=subject,scheduledstart)`</br></br>**Example:**</br>`https://contoso.powerappsportals.com/_api/accounts?$top=5&$select=name&$expand=primarycontactid($select=contactid,fullname),Account_Tasks($select=subject,scheduledstart)` |
 
+## Query records using FetchXml
+
+Pass the FetchXml query as a URL-encoded string value to the entity set collection using the FetchXml query parameter.
+
+For example, to retrieve data from the [account entity set](/power-apps/developer/data-platform/webapi/reference/account), compose a FetchXml query setting the entity element name parameter to the account.
+
+```XML
+<fetch top='2'>
+  <entity name='account'>
+      <attribute name='name' />
+  </entity>
+</fetch>
+```
+
+The URL-encoded string for the previous query is:
+
+```text
+%3Cfetch%20top%3D%275%27%3E%0D%0A%3Centity%20name%3D%27account%27%3E%0D%0A%3Cattribute%20name%3D%27name%27%2F%3E%0D%0A%3C%2Fentity%3E%0D%0A%3C%2Ffetch%3E
+```
+
+| **Method** | **URI** |
+|-------------------------|-------------------------|
+| **GET** | `[Portal URI]/_api/accounts?fetchxml`</br></br>**Example:**</br>`https://contoso.powerappsportals.com/_api/accounts?fetchXml=%3Cfetch%20top%3D%275%27%3E%0D%0A%3Centity%20name%3D%27account%27%3E%0D%0A%3Cattribute%20name%3D%27name%27%2F%3E%0D%0A%3C%2Fentity%3E%0D%0A%3C%2Ffetch%3E` |
+
+**Sample response**
+
+```json
+{
+  "value": [
+    {
+      "@odata.etag": "W/\"1066412\"",
+      "name": "Fourth Coffee (sample)",
+      "accountid": "d2e11ba8-92f6-eb11-94ef-000d3a5aa607",
+      "primarycontactid": {
+        "contactid": "e6e11ba8-92f6-eb11-94ef-000d3a5aa607",
+        "fullname": "Yvonne McKay (sample)"
+      }
+    },
+    {
+      "@odata.etag": "W/\"1066413\"",
+      "name": "Litware, Inc. (sample)",
+      "accountid": "d4e11ba8-92f6-eb11-94ef-000d3a5aa607",
+      "primarycontactid": {
+        "contactid": "e8e11ba8-92f6-eb11-94ef-000d3a5aa607",
+        "fullname": "Susanna Stubberod (sample)"
+      }
+    }
+  ]
+}
+```
+
 ## Next Step
 
-[Portals write, update and delete operations using the Web API](write-update-delete-operations.md)
+[Portals write, update, and delete operations using the Web API](write-update-delete-operations.md)
 
 ### See also
 
 - [Web API overview](web-api-overview.md)
 - [How to: Use portal Web API](webapi-how-to.md)
 - [Configure column permissions](/power-apps/maker/portals/configure/column-permissions)
-
-
