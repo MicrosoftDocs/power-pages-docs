@@ -3,7 +3,7 @@ title: Data summarization API overview (preview)
 description: Learn about the data summarization API in Microsoft Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.date: 11/21/2024
+ms.date: 12/09/2024
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
@@ -39,18 +39,9 @@ Enable the pages in your Web API, and set the following site settings for the su
 
 ## API schema
 
-<table>
-  <tr>
-    <th>Method</th>
-    <th>URI</th>
-    <th>JSON Sample</th>
-  </tr>
-  <tr>
-    <td>POST</td>
-    <td><i>[Site URI]/_api/summarization/data/v1.0/tablesetname</i></td>
-    <td><code>{ "InstructionIdentifier":"", "RecommendationConfig":"" }</code></td>
-  </tr>
-</table>
+| Method | URI | JSON Sample |
+|--------|-----|-------------|
+| POST   | *[Site URI]/_api/summarization/data/v1.0/tablesetname* | `{ "InstructionIdentifier":"", "RecommendationConfig":"" }` |
 
 | Property name | Description |
 |---------------|-------------|
