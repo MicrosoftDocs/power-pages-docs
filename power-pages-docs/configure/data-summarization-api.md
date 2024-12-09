@@ -39,9 +39,18 @@ Enable the pages in your Web API, and set the following site settings for the su
 
 ## API schema
 
-| Method | URI |
-|--------|-----|
-| POST | `[Site URI]/_api/summarization/data/v1.0/tablename{ "InstructionIdentifier":"", "RecommendationConfig":"" }` |
+<table>
+  <tr>
+    <th>Method</th>
+    <th>URI</th>
+    <th>JSON Sample</th>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td><i>[Site URI]/_api/summarization/data/v1.0/tablesetname</i></td>
+    <td><code>{ "InstructionIdentifier":"", "RecommendationConfig":"" }</code></td>
+  </tr>
+</table>
 
 | Property name | Description |
 |---------------|-------------|
