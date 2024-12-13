@@ -28,9 +28,7 @@ Control external authentication providers in your websites using the Power Platf
     :::image type="content" source="media/external-auth-control/governance-controls.png" alt-text="Screenshot of the Governance Controls menu in the Power Platform admin center.":::
 
 1. Select **Enable external authentication providers** from the list.
-1. In the slide-out panel, enable external authentication providers for the following options:
-
-Expand table
+1. In the slide-out panel, control external authentication providers with the following options:
 
 | **Option** | **Description** |
 |----|----|
