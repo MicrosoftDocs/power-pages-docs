@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/25/2024
+ms.date: 12/13/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -42,7 +42,7 @@ To integrate with Power Pages, a Power Automate license is required. It's recomm
 
 1. Select site **+ Edit**.
 
-1. Navigate to the **Set up** workspace, then select **Cloud flows** under **App integrations**.
+1. Navigate to the **Set up** workspace, then select **Cloud flows** under **Integrations**.
 
 1. Select **+ Create new flow**.
 
@@ -63,7 +63,7 @@ After you create an instant cloud flow, it needs to be associated with the Power
 
 1. Select site **+ Edit**.
 
-1. Navigate to the **Set up** workspace, then select **Cloud flows (preview)** under **App integrations**.
+1. Navigate to the **Set up** workspace, then select **Cloud flows** under **Integrations**.
 
 1. Select **+ Add cloud flow**.
 
@@ -154,3 +154,21 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
 > [!NOTE] 
 > - If no input parameter is defined in the trigger, pass an empty payload in the request.
 > - For information on cloud flow limitations, see [Limits of automated, scheduled, and instant flows](/power-automate/limits-and-config).
+
+## Application Lifecycle Management (ALM) for Cloud flows
+
+When you move Power Pages site components that include cloud flows from one environment to another, the cloud flows must be registered in the target environment. Without registering the cloud flows, invoking them from the website will result in a forbidden error.
+To register the flow with target environment, follow these steps
+
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/) target environment.
+
+1. Select site **+ Edit**.
+
+1. Navigate to the **Set up** workspace, then select **Cloud flows** under **Integrations**.
+   
+1. Look for Register icon for cloud flows in the site.
+
+1. Click on the icon to register the flow.
+
+   
+
