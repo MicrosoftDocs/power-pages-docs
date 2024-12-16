@@ -88,7 +88,7 @@ The static content on the search result component is designed using [content sni
 - Keyword search - `Search/Results/Title`
 
 ## Search Summary API
-If you are not using the search control and are developing a custom page that provides the search summary, use the API below to get teh details.
+If you are not using the search control and are developing a custom page that provides the search summary, use the below API to get the details.
 
 | Method | URI                                                    |
 |--------|--------------------------------------------------------|
