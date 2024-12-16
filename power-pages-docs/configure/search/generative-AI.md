@@ -4,7 +4,7 @@ description: Learn how to enhance search results with generative AI.
 author: nageshbhat-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/13/2024
+ms.date: 12/16/2024
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -88,24 +88,23 @@ The static content on the search result component is designed using [content sni
 - Keyword search - `Search/Results/Title`
 
 ## Search Summary API
-If you are not using the search control and are developing a custom page that provides the search summary, use the below API to get the details.
+
+If you aren't using the search control and are developing a custom page that provides the search summary, use the following API to get the details.
 
 | Method | URI                                                    |
 |--------|--------------------------------------------------------|
 | POST   | \[Site URI\]\_api/search/v1.0/summary |
 
-Example:
-
-Request
+## Example: Request
 
 ```html
 POST https://contoso.powerappsportals.com/_api/search/v1.0/summary
 {
-        data: { userQuery: "Fix problems with slow coffee dispense"}
+        data: { userQuery: "Fix problems with slow coffee dispense" }
 }
-``` 
+```
 
-Response
+### Example: Response
 
 ```html
 HTTP/1.1 200 OK
@@ -118,22 +117,23 @@ Body
     }
 }
 ```
+
 ### Sample JavaScript
 
-This sample demonstrates how to call a search summary API using Asynchronous JavaScript and XML (AJAX).
- 
-```
+This sample shows how to call a search summary API using asynchronous JavaScript and XML (AJAX).
+
+```javascript
     shell.ajaxSafePost({
         type: "POST",
         url: "https://contoso.powerappsportals.com/_api/search/v1.0/summary",
         contentType: "application/x-www-form-urlencoded",
-        data: { userQuery: "Fix problems with slow coffee dispense"}
+        data: { userQuery: "Fix problems with slow coffee dispense" }
     })
     .done(function (response) {
-    
+        // Handle success
     })
-    .fail(function(){
-    
+    .fail(function() {
+        // Handle failure
     });
 ```
 
