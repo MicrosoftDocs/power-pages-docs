@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/30/2024
+ms.date: 12/12/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
@@ -103,7 +103,7 @@ The user is added as an owner of the website app.
 
 ### Website owner
 
-The *website owner* is the user who created the Power Pages website. This role can't be managed and can't be changed.
+The *website owner* is the user who created the Power Pages website. While you can update website management roles, ownership remains with the creator and can't be transferred or changed.
 
 ### Read-Write Access Mode
 

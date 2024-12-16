@@ -642,6 +642,8 @@
       href: security/site-visibility.md
     - name: Disable anonymous access (preview)
       href: security/disable-anonymous-access.md
+    - name: Control external authentication providers (preview)
+      href: security/external-auth-control.md
     - name: Authentication
       items:
         - name: Overview
