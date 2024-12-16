@@ -87,6 +87,56 @@ The static content on the search result component is designed using [content sni
 - Generative AI Summary - `Search/Summary/Title`
 - Keyword search - `Search/Results/Title`
 
+## Search Summary API
+If you are not using the search control and are developing a custom page that provides the search summary, use the API below to get teh details.
+
+| Method | URI                                                    |
+|--------|--------------------------------------------------------|
+| POST   | \[Site URI\]\_api/search/v1.0/summary |
+
+Example:
+
+Request
+
+```html
+POST https://contoso.powerappsportals.com/_api/search/v1.0/summary
+{
+        data: { userQuery: ' Fix problems with slow coffee dispense '}
+}
+``` 
+
+Response
+
+```html
+HTTP/1.1 200 OK
+Content-Type: application/json
+Body
+{
+    "Summary":"To fix problems with slow coffee dispense, consider the following steps:\n\n1. **Check for Mineral Deposits**: One of the most common reasons for slow brewing is the buildup of mineral deposits inside the coffee maker. If you are using tap water, minerals like calcium can accumulate, leading to slow brew times and poor-tasting coffee.",
+    "Citations’":{
+                  "[1]": " https://contoso.powerappsportals.com /knowledgebase/article/KA-01055",
+    }
+}
+```
+### Sample JavaScript
+
+This sample demonstrates how to call a search summary API using Asynchronous JavaScript and XML (AJAX).
+ 
+```
+    shell.ajaxSafePost({
+        type: "POST",
+        url: "https://contoso.powerappsportals.com/_api/search/v1.0/summary",
+        contentType: 'application/x-www-form-urlencoded',
+        data: { userQuery: ' Fix problems with slow coffee dispense '}
+    })
+    .done(function (response) {
+    
+    })
+    .fail(function(){
+    
+    });
+```
+
 ## See also
 
 - [FAQ for site search with generative AI](../../faqs-generative-ai-search.md)
