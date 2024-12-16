@@ -101,7 +101,7 @@ Request
 ```html
 POST https://contoso.powerappsportals.com/_api/search/v1.0/summary
 {
-        data: { userQuery: ' Fix problems with slow coffee dispense '}
+        data: { userQuery: "Fix problems with slow coffee dispense"}
 }
 ``` 
 
@@ -126,8 +126,8 @@ This sample demonstrates how to call a search summary API using Asynchronous Jav
     shell.ajaxSafePost({
         type: "POST",
         url: "https://contoso.powerappsportals.com/_api/search/v1.0/summary",
-        contentType: 'application/x-www-form-urlencoded',
-        data: { userQuery: ' Fix problems with slow coffee dispense '}
+        contentType: "application/x-www-form-urlencoded",
+        data: { userQuery: "Fix problems with slow coffee dispense"}
     })
     .done(function (response) {
     
