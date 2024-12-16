@@ -95,7 +95,7 @@ If you aren't using the search control and are developing a custom page that pro
 |--------|--------------------------------------------------------|
 | POST   | \[Site URI\]\_api/search/v1.0/summary |
 
-## Example: Request
+### Example: Request
 
 ```html
 POST https://contoso.powerappsportals.com/_api/search/v1.0/summary
