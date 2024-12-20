@@ -836,3 +836,13 @@
       href: /power-platform/released-versions/portals
     - name: Power Pages solutions
       href: /power-platform/released-versions/pagessolutions
+- name: Resources
+  items:
+  - name: Microsoft Credentials for Power Platform
+    href: /credentials/browse/?products=power-platform&wt.mc_id=appliedskills_AppliedSkillsPowerPlatformProductDoc_webpage_wwl
+  - name: Blog
+    href: https://www.microsoft.com/power-platform/blog/power-pages/
+  - name: Forums
+    href: https://aka.ms/PowerPagesCommunity
+  - name: Support
+    href: https://www.microsoft.com/power-platform/products/power-pages/support
