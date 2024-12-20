@@ -838,7 +838,7 @@
       href: /power-platform/released-versions/pagessolutions
 - name: Resources
   items:
-  - name: "Microsoft Credentials: Microsoft Power Platform"
+  - name: Microsoft Credentials for Power Platform
     href: /credentials/browse/?products=power-platform
   - name: Blog
     href: https://www.microsoft.com/power-platform/blog/power-pages/
