@@ -147,8 +147,3 @@ Body –
 }
 ```
 
-## Known issues
-
-Choices control will not be available in [basic and multistep form metadata](configure-basic-form-metadata.md) to apply extra behavior modification logic or override the functionality of form fields.
-
-
