@@ -52,4 +52,4 @@ For existing sites where external authentication providers are configured, a ban
 
 When users try to access your website, they must sign in and authenticate with Microsoft Entra ID (your organization sign-in page). Users can access the website only after they authenticate.
 
-:::image type="content" source="media/external-auth-control/sign-in.png" alt-text="Screenshot of the end user sign-in page for Microsoft Entra ID.":::
+:::image type="content" source="media/external-auth-control/sign-in.png" alt-text="Screenshot of the user sign-in page for Microsoft Entra ID.":::
