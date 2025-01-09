@@ -7,8 +7,6 @@ ms.date: 10/04/2024
 ms.subservice:
 ms.author: sandhan
 ms.reviewer: dmartens
-ms.collection:
-  - bap-ai-copilot
 contributors:
   - DanaMartens
 ms.custom:
