@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/10/2023
+ms.date: 01/09/2025
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -39,7 +39,7 @@ The following properties are displayed when the **Type** selected is **Attribute
 
 |          Name          |                                                                                                                                                    Description                                                                                                                                                     |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Attribute Logical Name |                                                                                                                              The logical name of the attribute field to be modified. <br> **Note:** Columns of type *choices* will not appear on the drop-down list of columns. You can enter the logical name of the choices column directly in the **Attribute Logical Name** text box.                                                                                                                              |
+| Attribute Logical Name |                                                                                                                              The logical name of the attribute field to be modified. <br><br> Note: Columns of type *choices* don't appear in the drop-down list of columns. Enter the logical name of the choices column directly in the **Attribute Logical Name** text box.                                                                                                                              |
 |         Label          | Replaces the default label assigned to the attribute on the table with the text specified in this input. For each language pack installed and enabled for the Microsoft Dataverse environment a field will be available to enter the message in the associated language. |
 
 ### Control style
