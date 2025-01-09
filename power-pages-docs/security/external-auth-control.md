@@ -22,7 +22,7 @@ As an admin, you can enable or disable external authentication providers in your
 Control external authentication providers in your websites using the Power Platform admin center.
 
 1. Go to the [Power Platform admin center](https://aka.ms/ppac).
-1. In the menu on the left side, select **Resources** > **Power Pages Sites**.
+1. In the left-side menu, select **Resources** > **Power Pages Sites**.
 1. Select **Governance Controls** from the top ribbon menu.
 
     :::image type="content" source="media/external-auth-control/governance-controls.png" alt-text="Screenshot of the Governance Controls menu in the Power Platform admin center.":::
