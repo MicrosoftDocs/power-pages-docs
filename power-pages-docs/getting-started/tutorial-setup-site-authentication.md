@@ -32,11 +32,11 @@ Setting up an external authentication provider will allow you to provide access 
 
 This video provides an overview of authentication in Power Pages.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcI]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=93986f06-7a78-4fcd-8a30-57d849557c04]
 
 This video provides an overview of the steps to configure authentication providers.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeo]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=8f3f4cd7-ef83-41f2-b637-2029e60d61bf]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 

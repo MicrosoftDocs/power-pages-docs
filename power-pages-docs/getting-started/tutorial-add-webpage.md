@@ -34,7 +34,7 @@ In these steps, you'll create a page using a blank layout. As you learn more abo
 
 This video provides an overview of the steps to create a page using a blank layout.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c91ca438-af3e-4cd8-8382-2469a1076682]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. Select **Edit** on the site you want to add a page. If you don't have a site, [create a site](create-manage.md) before continuing.
@@ -96,7 +96,7 @@ Adding the page to the **Main navigation** will add a menu option. The page can 
 
 This video will provide an overview of the steps to move a page in the site map.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gm]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=8b5556aa-a1ae-4960-9d8a-4fbb2f0d38a3]
 
 1. Under the **Main navigation**, select the ellipse **(...)** icon and choose *Move to other pages*.
 

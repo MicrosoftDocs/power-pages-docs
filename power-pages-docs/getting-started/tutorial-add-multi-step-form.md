@@ -22,7 +22,7 @@ Multistep forms are a powerful way to collect inputs from users over multiple st
 
 Watch this video (no audio) to see an example of a multistep form on a page:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW16zai]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=36932fe2-e78b-45fc-a4c6-a51d194144c7]
 
 In this tutorial, you learn how to:
 
@@ -60,7 +60,7 @@ Here's an outline of the sample steps:
 
 The following video shows how to create forms to use in the multistep form process.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPf]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=3d72b81f-ef2b-40ef-b6f5-1ad43c747ac9]
 
 We'll need to store our information of our process in Microsoft Dataverse tables. 
 
@@ -121,7 +121,7 @@ Now that we have our table and forms, we can create a multistep form on a webpag
 
 This video shows how to create a multistep form on a page.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPg]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=44dc5583-a6e8-40cb-8a73-b834e73f2dcc]
 
 1. Go to the **Pages** workspace and add a new page or edit an existing page. For more information on creating webpages, see [Create and design pages](first-page.md).
 
@@ -184,7 +184,7 @@ By default, visitors to the site won't be able to access the multistep form. In 
 
 This video shows how to configure table permissions for multistep forms.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fOuI]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=d9308d61-1a5a-4ea8-812d-c468b33f5676]
 
 For new forms, a banner will appear prompting you to add permissions. 
 
