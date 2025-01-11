@@ -95,10 +95,8 @@ You can use multiple flex containers to build custom layouts. Here are just a fe
 
 ### Set up card layout
 
- >[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKr]
+ >[!VIDEO https://learn-video.azurefd.net/vod/player?id=3579f326-dab0-406a-893e-767d026e4c98]
 
 ### Set up floating cards
 
- >[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lCKt]
-
-
+ >[!VIDEO https://learn-video.azurefd.net/vod/player?id=f8afb160-81d1-4c66-8cfe-119f3dbfa061]

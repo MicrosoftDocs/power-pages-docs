@@ -64,7 +64,7 @@ Your trial environment includes many of the same features as the paid version. T
 
 The following video provides an overview of how to get started using Power Pages.</br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE559Pe]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=6b9aef26-7d82-4ec6-95cf-b77688255c96]
 
 ## Additional resources
 

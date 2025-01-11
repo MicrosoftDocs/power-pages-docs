@@ -39,7 +39,7 @@ In this tutorial, you learn how to:
 
 This video provides an overview of the steps to create a form.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ez]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4c80269b-496c-4de7-9383-2e64f6c7b823]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -98,7 +98,7 @@ The following steps provide details on how to add your form to a page.
 
 This video provides an overview of the steps to add a form to a page.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5G7]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=2b0f0528-10f8-4f18-8548-a932c7ef369a]
 
 1. Open a Power Pages site in the design studio.
 
@@ -144,7 +144,7 @@ This video provides an overview of the steps to add a form to a page.
 
 This video provides an overview of the steps to configure the rich text editor control on a form.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fE0q]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=3975f527-e192-45af-9df1-ac8c7d3a5bb3]
 
 If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. 
 
@@ -166,7 +166,7 @@ Custom components are now enabled for that field.
 
 This video shows how you can enable attachments on forms.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eLpl]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=92101405-5ecf-4267-90bc-f4d2adca0a2a]
 
 Users can upload an attachment with form submission.
 
@@ -202,4 +202,3 @@ Once configured, the file upload placeholder will show in the canvas.
 Next, learn how to create a multi-step (advanced) form to your page.
 > [!div class="nextstepaction"]
 > [Add a multi-step form to a page](tutorial-add-multi-step-form.md)
-
