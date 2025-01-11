@@ -34,7 +34,7 @@ In this tutorial, you learn how to:
 
 This video provides an overview of the steps to create table permissions.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcK]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=43e87d4c-b01e-4b60-adfc-958ed1fdebc6]
 
 Use the steps below to learn how to configure table permissions to view data.
 
@@ -73,7 +73,7 @@ In the example below, we've created a table that has a lookup to the contact tab
 
 This video provides an overview of the steps to set access types and privileges.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=e8f6fda9-5102-4f0b-b9af-1b324529de93]
 
 1. Create a page with a list showing records that have a relationship to the contact table.
 
@@ -131,7 +131,7 @@ In our examples so far, we've assigned the table permissions to the default **Au
 
 This video provides an overview of using web roles.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=192007af-dcc6-40fa-b683-0eb36e27a584]
 
 We can also create our own custom web roles to further limit access to data and pages to certain site visitors.
 

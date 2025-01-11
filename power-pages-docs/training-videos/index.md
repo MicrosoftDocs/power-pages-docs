@@ -28,11 +28,11 @@ The following videos show you how to create and design a page in your site and c
 
 ### Create page
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gl]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c91ca438-af3e-4cd8-8382-2469a1076682]
 
 ### Configure site navigation
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5Gm]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=8b5556aa-a1ae-4960-9d8a-4fbb2f0d38a3]
 
 ## Setup your brand kit
 
@@ -45,13 +45,13 @@ Designing your site to match your company brand has never been easier. The new d
 
 Watch this quick video to learn how to set up your brand kit.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbM]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=709b6ed1-af7d-41a5-992c-ddb2a1d327a8]
 
 ## Add advanced styling to your site
 
 The following video shows you how to apply custom CSS code to your site.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=13703cfb-4427-4106-ba30-e6ebba47ca95]
 
 ### See also
 
@@ -75,19 +75,19 @@ The following demonstrate how to create a page displaying business information i
 
 In this video, you'll learn how to create a table by using the Data workspace.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeq]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=7a4a2df7-fa5e-46ff-ba52-f16a4bfe8745]
 
 ### Create a view
 
 This video shows you how to create a view for a table by using the Data workspace.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYer]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=db19432b-f0dc-4d86-8a71-8b11db44c030]
 
 ### Add a list
 
 This video provides an overview of the steps to add a list to a page.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYem]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=43ed8812-e09c-433e-be10-a3c667823cb4]
 
 ### Next steps
 - [Add a list to the page](../getting-started/tutorial-add-list-to-page.md#add-a-list-to-the-page)
@@ -102,7 +102,7 @@ This video provides an overview of the steps to add a list to a page.
 
 This video shows you how to restrict access to a specific webpage.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5daPh]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=51dd98d2-4faa-4a33-a5cc-1471bd5c165b]
 
 ### See also
 
@@ -124,19 +124,19 @@ The following will explain the concepts of table permissions, setting up access,
 
 This video provides an overview of the steps to create table permissions.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcK]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=43e87d4c-b01e-4b60-adfc-958ed1fdebc6]
 
 ### Set up access type and privileges
 
 This video provides an overview of the steps to set access types and privileges.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcJ]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=e8f6fda9-5102-4f0b-b9af-1b324529de93]
 
 ### Add web roles
 
 This video provides an overview of using web roles.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XQbL]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=192007af-dcc6-40fa-b683-0eb36e27a584]
 
 ### See also
 
@@ -158,24 +158,24 @@ Forms on pages are created from Dataverse table forms. The following videos show
 
 In this video, we create a form by using the Data workspace.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y6Ez]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4c80269b-496c-4de7-9383-2e64f6c7b823]
 
 ### Add a form to page
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Y5G7]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=2b0f0528-10f8-4f18-8548-a932c7ef369a]
 
 <!-- may retire this one
 ### Configure form options
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYep]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=f03a3f18-1683-4dbb-8744-18a12808af9a]
 -->
 ### Enable attachments on forms
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eLpl]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=92101405-5ecf-4267-90bc-f4d2adca0a2a]
 
 ### Add a code component
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fE0q]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=3975f527-e192-45af-9df1-ac8c7d3a5bb3]
 
 ### See also
 
@@ -196,15 +196,15 @@ In the following videos, you will learn how to create a series of Microsoft Data
 
 ### Create Dataverse forms for a multistep form component
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPf]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=3d72b81f-ef2b-40ef-b6f5-1ad43c747ac9]
 
 ### Add a multistep form component to a webpage
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5eVPg]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=44dc5583-a6e8-40cb-8a73-b834e73f2dcc]
 
 ### Configure multistep form table permissions
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fOuI]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=d9308d61-1a5a-4ea8-812d-c468b33f5676]
 
 ## Configure access to your site
 
@@ -221,11 +221,11 @@ The following videos provide an overview of authentication and walk you through 
 
 ### Authentication overview
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XTcI]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=93986f06-7a78-4fcd-8a30-57d849557c04]
 
 ### Configure identity provider
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYeo]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=8f3f4cd7-ef83-41f2-b637-2029e60d61bf]
 
 ### See also
 
