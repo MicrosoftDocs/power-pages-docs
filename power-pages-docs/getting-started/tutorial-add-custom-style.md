@@ -36,7 +36,7 @@ In this tutorial, you'll learn how to:
 
 The following video shows you how to apply custom CSS code to your site.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XYen]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=13703cfb-4427-4106-ba30-e6ebba47ca95]
 
 In this example, we'll add some custom CSS files that will allow us to add shadow effects to buttons on our website. You can use your own custom CSS file or use the sample provided.
 
