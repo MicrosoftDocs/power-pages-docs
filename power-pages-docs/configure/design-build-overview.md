@@ -35,4 +35,4 @@ The design studio has five marquee experiences—called *workspaces*—that focu
 
 The following video provides an overview of using the various workspaces to build a powerful website.<br />
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE557dy]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=df2f3d05-c16a-4410-975b-fa2b69a5d86a]

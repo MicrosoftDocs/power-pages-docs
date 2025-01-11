@@ -40,7 +40,7 @@ Using Power Platform pipelines with Power Pages solutions allows you to automate
 1. Verify the summary, modify the version number and deployment notes and select **Deploy**.
 
 Watch this video to see how to deploy a solution using pipelines:
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW15YVG]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=251c1397-7d42-45a5-aa63-930816d2d72d]
 
 ## Activate on the target environment
 
