@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/27/2023
+ms.date: 01/15/2025
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -15,9 +15,9 @@ contributors:
 
 # Available Liquid conditional operators
 
-When used in conditional statements (**if**,**unless**), some Liquid values will be treated as true, and some will be treated as false.
+When used in conditional statements (**if**, **unless**), some Liquid values are treated as true, and some are treated as false.
 
-In Liquid, null and the Boolean value false are treated as false;everything else is treated as true. Empty strings, empty arrays, etc. are treated as true. For examples,
+In Liquid, null and the Boolean value false are treated as false; everything else is treated as true. For example, empty strings and empty arrays are treated as true.
 
 ```
 {% assign empty_string = "" %}
@@ -25,14 +25,16 @@ In Liquid, null and the Boolean value false are treated as false;everything else
 <p>This will render.</p>
 {% endif %}
 ```
-You can test for empty strings and arrays using the special value empty if necessary.
+
+Test for empty strings and arrays using the special value empty if necessary.
 
 ```
 {% unless page.title == empty %}
 <h1>{{ page.title }}</h1>
 {% endunless %}
 ```
-You can also test the size of [Liquid types](liquid-types.md) using the special size property.
+
+Test the size of [Liquid types](liquid-types.md) using the special size property.
 
 ```
 {% if page.children.size > 0 %}
@@ -67,5 +69,3 @@ You can also test the size of [Liquid types](liquid-types.md) using the special 
 - [Liquid Objects](liquid-objects.md)  
 - [Liquid Tags](liquid-tags.md)  
 - [Liquid Filters](liquid-filters.md)  
-
-

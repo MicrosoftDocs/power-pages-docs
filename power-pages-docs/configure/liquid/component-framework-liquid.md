@@ -5,7 +5,7 @@ author: GitanjaliSingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/20/2023
+ms.date: 01/15/2025
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -30,23 +30,23 @@ The values of the properties that the code component expects need to be passed i
 {% codecomponent name: <ID or name> <property1:value> <property2:value> %}
 ```
 
-For example, to add a code component expecting an input parameter named *controlValue*, use the following Liquid template tag: 
+For example, to add a code component expecting an input parameter named *controlValue*, use the following Liquid template tag:
 
 ```
 {% codecomponent name:abc_SampleNamespace.MapControl controlValue:'Space Needle' controlApiKey:<API Key Value>%}
 ```
 
 > [!TIP]
-> This example uses parameters called *controlvalue* and *controlApiKey*, however the component you use may require different parameter names.
+> This example uses parameters called *controlvalue* and *controlApiKey*, however the component you use might require different parameter names.
 
 You can use the [sample map control](/power-apps/developer/component-framework/sample-controls/map-control) and [package the code component as a solution](/power-apps/developer/component-framework/implementing-controls-using-typescript#packaging-your-code-components) for use with Power Pages.
 
 > [!NOTE]
-> Resources created by the community are not supported by Microsoft. If you have questions or issues with community resources, contact the publisher of the resource. Before using these resources, you must ensure that they meet the Power Apps component framework guidelines and should only be used for reference purpose.
+> Microsoft doesn't support community-created resources. If you have questions or issues with community resources, contact the publisher of the resource. Before using these resources, you must ensure that they meet the Power Apps component framework guidelines and should only be used for reference purpose.
 
 ## Tutorial: Use code components on pages with Liquid template tag
 
-In this tutorial, you'll configure Power Pages to add the component to a webpage. You'll then visit the site webpage and interact with the component.
+In this tutorial, you configure Power Pages to add the component to a webpage. You then visit the site webpage and interact with the component.
 
 ### Before you begin
 
@@ -83,11 +83,11 @@ For prerequisites, and to learn about supported/unsupported code components in P
 
     For example:
 
-    -   To search for a component:
+    - To search for a component:
 
         `https://contoso.api.crm10.dynamics.com/api/data/v9.2/customcontrols?$select=ContosoCustomControlName`
 
-    -   To retrieve input parameters for a component:
+    - To retrieve input parameters for a component:
 
         `https://contoso.api.crm10.dynamics.com/api/data/v9.2/customcontrols?$filter=name eq 'ContosoCustomControlName' &$select=manifest`
 
@@ -97,10 +97,9 @@ For prerequisites, and to learn about supported/unsupported code components in P
 
 1. On the top-right corner, select **Preview** and **Desktop** to preview the site.
 
-1. The webpage will now show the control added on it.
+1. The webpage now shows the control added on it.
 
     :::image type="content" source="media/component-framework-liquid/component-on-webpage.png" alt-text="Map component on the webpage.":::
-
 
 ## Next steps
 
@@ -108,11 +107,9 @@ For prerequisites, and to learn about supported/unsupported code components in P
 
 ### See also
 
-- [Codecomponent Dataverse entity tag](dataverse-liquid-tags.md#codecomponent) 
-- [Codecomponent Template tag](template-tags.md#codecomponent) 
-- [Power Apps component framework overview](/power-apps/developer/component-framework/overview) 
-- [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript) 
+- [Codecomponent Dataverse entity tag](dataverse-liquid-tags.md#codecomponent)
+- [Codecomponent Template tag](template-tags.md#codecomponent)
+- [Power Apps component framework overview](/power-apps/developer/component-framework/overview)
+- [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript)
 - [Add code components to a column or table in model-driven apps](/power-apps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 - [Implement a sample portal Web API component](../implement-webapi-component.md)
-
-
