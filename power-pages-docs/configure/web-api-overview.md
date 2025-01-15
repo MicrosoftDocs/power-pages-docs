@@ -18,7 +18,7 @@ contributors:
 The portals Web API enables a richer user experience inside Power Pages sites. You can use the Web API to perform create, read, update, and delete operations across all Microsoft Dataverse tables from your webpages. For example, you can create a new account, update a contact, without using a [form](../getting-started/add-form.md) or [multistep form](../getting-started/multistep-forms.md) by using the portals Web API.
 
 > [!IMPORTANT]
-> - **Your Power Pages site version must be 9.3.3.x or later for this feature to work**.
+> - Your Power Pages site version must be 9.3.3.x or later for this feature to work.
 > - The portals Web API is built for creating a rich user experience inside portal pages. It isn't optimized for third-party services or application integration. Using the portals Web API to integrate with other Power Pages sites is also not supported.
 > - Portals Web API operations are limited to tables related to data&mdash;for example, accounts, contacts, or your custom tables. Configuring table metadata or portal configuration table data&mdash;for example, configuring portals tables such as adx_contentsnippet, adx_entityform, or adx_entitylist&mdash;isn't supported with the portals Web API. For a complete list, go to [unsupported configuration tables](#unsupported-configuration-tables) later in this article.
 > - The portals Web API benefits from [server-side caching](/power-apps/maker/portals/admin/clear-server-side-cache), so subsequent calls to the Web API are faster than the initial calls. Clearing the portal server-side cache causes temporary performance degradation.
@@ -287,9 +287,8 @@ The site setting is available in portal version [9.4.10.74](/power-platform/rele
 
 [Query data using portals Web API](read-operations.md)
 
-### See also
+### Related information
 
 - [Compose HTTP requests and handle errors](web-api-http-requests-handle-errors.md)
 - [Write, update, and delete operations using the Web API](write-update-delete-operations.md)
 - [How to: Use portal Web API](webapi-how-to.md)
-
