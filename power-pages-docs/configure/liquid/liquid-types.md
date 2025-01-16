@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/27/2023
+ms.date: 01/15/2025
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -15,11 +15,11 @@ contributors:
 
 # Available Liquid types
 
-Liquid objects can return one of seven basic types: **String**, **Number**, **Boolean**, **Array**, **Dictionary**, **DateTime**, or **Null**. Liquid variables can be initialized by using the **assign** or **capture** tags.
+Liquid objects can return one of seven basic types: **String**, **Number**, **Boolean**, **Array**, **Dictionary**, **DateTime**, or **Null**. Use the **assign** or **capture** tags to initialize Liquid variables.
 
 ## String
 
-A String is declared by wrapping text in single or double quotes.
+Wrap text in single or double quotes to declare a String.
 
 ```
 {% assign string_a = "Hello World!" %}
@@ -58,7 +58,7 @@ A Boolean is either true or false.
 
 {% if x %}
 
-This will be rendered, because x is true.
+This snippet is rendered because x is true.
 
 {% endif %}
 ```
@@ -107,12 +107,12 @@ A DateTime object represents a specific date and time.
 
 ## Null
 
-Null represents an empty or non-existent value. Any outputs that attempt to return a null value will render nothing. It will be treated as false in conditions.
+Null represents an empty or nonexistent value. Any outputs that attempt to return a null value render nothing. It's treated as false in conditions.
 
 ```
 {% if request.params[ID] %}
 
-This will render if the ID request parameter is NOT null.
+This snippet renders if the ID request parameter isn't null.
 
 {% endif %}
 ```
@@ -125,4 +125,3 @@ This will render if the ID request parameter is NOT null.
 - [Liquid Objects](liquid-objects.md)  
 - [Liquid Tags](liquid-tags.md)  
 - [Liquid Filters](liquid-filters.md)  
-

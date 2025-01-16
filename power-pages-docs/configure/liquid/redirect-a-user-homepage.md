@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/30/2023
+ms.date: 01/15/2025
 ms.subservice:
 ms.author: nabha
 ms.reviewer: dmartens
@@ -34,7 +34,7 @@ To achieve this, you replace the default studio template that's used as the page
 
 1. Select **New** to create a new web template record.
 
-1. Give the template a name (for example, **Home page template**), and select the **Website** where you want to implement the redirect functionality. Paste the content from the default studio template, and then select **Save**. 
+1. Give the template a name (for example, **Home page template**), and select the **Website** where you want to implement the redirect functionality. Paste the content from the default studio template, and then select **Save**.
 
 ## Add JavaScript code
 
@@ -74,12 +74,11 @@ To achieve this, you replace the default studio template that's used as the page
 
     :::image type="content" source="media/redirect-a-user/update-home-page.png" alt-text="Update the home page.":::
 
-Now, when a user signs in, they'll be redirected to the page you specified in the JavaScript code in the updated web template.
+Now, when a user signs in, they are redirected to the page you specified in the JavaScript code in the updated web template.
 
-### See also
+### Related information
 
 - [Create a custom page template to render an RSS feed](render-rss-custom-web-template.md)  
 - [Render the list associated with the current page](render-list-current-page.md)  
 - [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 - [Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierarchy.md)  
-

@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 01/15/2025
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -19,7 +19,7 @@ Iteration tags are used to run/render a block of code repeatedly.
 
 ## for
 
-Executes a block of code repeatedly. It is most commonly used to iterate over the items in an array or dictionary.
+Executes a block of code repeatedly. It's most commonly used to iterate over the items in an array or dictionary.
 
 Within the for tag block, the [forloop object](liquid-objects.md#forloop) is available.  
 
@@ -393,11 +393,9 @@ Defines a range of numbers to loop through.
 </table>
 ```
 
-### See also
+### Related information
 
 - [Control flow tags](control-flow-tags.md)
 - [Variable tags](variable-tags.md)
 - [Template tags](template-tags.md)
 - [Dataverse table tags](dataverse-liquid-tags.md)
-
-

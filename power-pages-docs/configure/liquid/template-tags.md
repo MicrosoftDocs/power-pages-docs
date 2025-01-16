@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 01/15/2025
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -17,7 +17,7 @@ contributors:
 
 Template tags control the output of a template in various ways, and allow the combination of multiple templates into a single output.
 
-## fetchxml
+## Fetchxml
 
 Allows user to query data from Microsoft Dataverse, and render the results in a page.
 
@@ -35,7 +35,7 @@ When using fetchxml to query data, ensure you don't use self-closing tags. For e
 
 ### Results attribute
 
-Results attribute in provided variable (such as 'resultVariable' in above sample) holds FetchXML query results and a few other attributes.
+Results attribute in provided variable (such as 'resultVariable' in the previous sample) holds FetchXML query results and a few other attributes.
 
 - *Entities*
 
@@ -83,11 +83,11 @@ Results attribute in provided variable (such as 'resultVariable' in above sample
 
 ### XML attribute
 
-XML attribute in provided variable (such as 'resultVariable' in above sample) holds the resultant query that can be used to get data from Microsoft Dataverse. This attribute is useful for debugging purpose when you want to understand how table permission is getting applied on this *fetchxml* tag.  
+XML attribute in provided variable (such as 'resultVariable' in the previous sample) holds the resultant query that can be used to get data from Microsoft Dataverse. This attribute is useful for debugging purpose when you want to understand how table permission is getting applied on this *fetchxml* tag.  
 
 ### Other supported elements and attributes
 
-fetchxml liquid tag supports the following attributes, and child elements.
+Fetchxml liquid tag supports the following attributes, and child elements.
 
 | Element/Child element | Attributes | Child element |
 | - | - | - |
@@ -100,13 +100,13 @@ fetchxml liquid tag supports the following attributes, and child elements.
 
 ## include
 
-Includes the contents of one template in another, by name. In Power Pages, the source of this other template will generally be a [web template](../web-templates.md). This operator allows for the reuse of common template fragments in multiple places.  
+Includes the contents of one template in another, by name. In Power Pages, the source of this other template is generally a [web template](../web-templates.md). This operator allows for the reuse of common template fragments in multiple places.  
 
-When a template is included in another, the included template will have access to any variables defined in the parent template.
+When a template is included in another, the included template has access to any variables defined in the parent template.
 
 `{% include 'My Template' %}`
 
-It's also possible to pass any number of named parameters to the include tag. These parameters will then be defined as variables in the included template.
+It's also possible to pass any number of named parameters to the include tag. These parameters are defined as variables in the included template.
 
 `{% include 'My Template' a:x, b:y %}`
 
@@ -118,15 +118,15 @@ Used with extends to provide template inheritance. See extends for usage.
 
 Used with the block tag, provides template inheritance. This operator allows multiple templates to use a shared layout, while overriding specific areas of the parent layout.
 
-In Power Pages, the parent template name provided to the tag will generally refer to the name of a [web template](../web-templates.md).  
+In Power Pages, the parent template name provided to the tag generally refers to the name of a [web template](../web-templates.md).  
 
 When extends is used, it must be the first content in the template, and can only be followed by one or more block tags.
 
-If a block defined in the parent template isn't overridden, its contents in the parent template (if any) will be rendered.
+If a block defined in the parent template isn't overridden, its contents in the parent template (if any) are rendered.
 
 ## comment
 
-Allows you to leave unrendered code inside a Liquid template. Any content within the block won't be rendered, and any Liquid code within won't be executed.
+Allows you to leave unrendered code inside a Liquid template. Any content within the block aren't rendered, and any Liquid code within isn't executed.
 
 **Code**
 
@@ -138,7 +138,7 @@ Allows you to leave unrendered code inside a Liquid template. Any content within
 
 ## raw
 
-Allows output of Liquid code on a page without having it parsed and executed.
+This feature lets you display Liquid code on a page without parsing or executing it.
 
 **Output**
 

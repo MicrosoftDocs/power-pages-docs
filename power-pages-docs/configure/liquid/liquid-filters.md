@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/15/2023
+ms.date: 01/15/2025
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -1663,6 +1663,3 @@ Renders a string as Liquid code. This code has access to the current Liquid exec
 - [Liquid Objects](liquid-objects.md)  
 - [Liquid Tags](liquid-tags.md)  
 - [Liquid Filters](liquid-filters.md)  
-
-
-

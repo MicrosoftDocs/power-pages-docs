@@ -20,7 +20,7 @@ In this tutorial, you'll build a web application in Power Pages that will allow 
 
 Watch this video (no audio) to see records created and updated on a page:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW16enI]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=e1a552df-793f-4c1d-a174-eb65e26cccc3]
 
 In this tutorial, you learn how to:
 
@@ -299,6 +299,3 @@ Create some new records. When you have a list of records, select the first colum
 To make your site more usable for end users and reduce navigation, you can configure the form to instead redirect back to the list page instead of a message. Depending on your site, you may want to turn off the CAPTCHA.
 
 :::image type="content" source="media/tutorial-dataverse/edit-redirects.png" alt-text="Configure page to return to list page.":::
-
-
-
