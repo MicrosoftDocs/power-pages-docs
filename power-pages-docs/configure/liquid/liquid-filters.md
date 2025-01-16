@@ -620,7 +620,7 @@ Formats a DateTime value according to the [ISO 8601](https://en.wikipedia.org/wi
 
 ### date\_to\_rfc822
 
-Formats a DateTime value according to the [RFC 822](https://www.ietf.org/rfc/rfc0822.txt) standard. Useful when creating [*RSS feeds*](https://cyber.law.harvard.edu/rss/rss.html).  
+Formats a DateTime value according to the [RFC 822](https://www.w3.org/Protocols/rfc822/#z28) standard. Useful when creating [*RSS feeds*](https://cyber.law.harvard.edu/rss/rss.html).  
 
 **Code**
 
