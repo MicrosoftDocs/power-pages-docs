@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/25/2024
+ms.date: 01/16/2025
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -42,7 +42,7 @@ To integrate with Power Pages, a Power Automate license is required. It's recomm
 
 1. Select site **+ Edit**.
 
-1. Navigate to the **Set up** workspace, then select **Cloud flows** under **App integrations**.
+1. Navigate to the **Set up** workspace, then select **Cloud flows** under **Integrations**.
 
 1. Select **+ Create new flow**.
 
@@ -63,7 +63,7 @@ After you create an instant cloud flow, it needs to be associated with the Power
 
 1. Select site **+ Edit**.
 
-1. Navigate to the **Set up** workspace, then select **Cloud flows (preview)** under **App integrations**.
+1. Navigate to the **Set up** workspace, then select **Cloud flows** under **Integrations**.
 
 1. Select **+ Add cloud flow**.
 
@@ -97,7 +97,7 @@ POST https://contoso.powerappsportals.com/_api/cloudflow/v1.0/trigger/4d22a1a2-8
 {
     "Location":"Seattle"
 }
-``` 
+```
 
 Response
 
@@ -132,12 +132,12 @@ In a cloud flow, you can define input parameters of type **Text**, **Boolean**, 
 
 > [!IMPORTANT]
 > - You must pass the request parameters name as defined in the cloud flow.
-> - Support for passing a parameter to a flow configured with secure inputs is not available.
+> - Support for passing a parameter to a flow configured with secure inputs isn't available.
 
 ### Sample JavaScript to call a flow
 
 This sample demonstrates how to call a flow using Asynchronous JavaScript and XML (AJAX).
- 
+
 ```
     shell.ajaxSafePost({
         type: "POST",
@@ -151,6 +151,25 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
     
     });
 ```
-> [!NOTE] 
+
+> [!NOTE]
 > - If no input parameter is defined in the trigger, pass an empty payload in the request.
 > - For information on cloud flow limitations, see [Limits of automated, scheduled, and instant flows](/power-automate/limits-and-config).
+
+## Application Lifecycle Management (ALM) for Cloud flows
+
+When you move Power Pages site components that include cloud flows from one environment to another, the cloud flows must be registered in the target environment. If you don't register the cloud flows, invoking them from the website results in a forbidden error.
+
+To register the flow with the target environment, follow these steps:
+
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/) and select the target environment.
+
+1. Locate the site and select **Edit**.
+
+1. Go to the **Set up** workspace, then select **Cloud flows** under **Integrations**.
+
+1. Within the **Cloud flows in this site** list, look for the register button.
+
+    :::image type="content" source="media/cloud-flow/register-button.png" alt-text="Screenshot of the register button in the Cloud flows in this site list.":::
+
+1. To register the flow, select the icon.
