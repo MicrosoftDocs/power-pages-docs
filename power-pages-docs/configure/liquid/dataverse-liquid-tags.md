@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/09/2023
+ms.date: 01/15/2025
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -42,7 +42,7 @@ ID of the table when opened in view editor.
 Adds the Power BI dashboards and reports within pages. The tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power BI report or dashboard to a webpage in Power Pages, see [Add a Power BI report or dashboard to a webpage in Power Pages](../../getting-started/add-power-bi.md).
 
 > [!NOTE]
-> For the tag to work, you must [enable Power BI integration](../../admin/set-up-power-bi-integration.md) from Power Pages hub in the Power Platform admin center. If the Power BI integration is not enabled, dashboard or report will not be displayed.
+> For the tag to work, you must [enable Power BI integration](../../admin/set-up-power-bi-integration.md) from Power Pages hub in the Power Platform admin center. If the Power BI integration isn't turned on, dashboard or report aren't displayed.
 
 ### Parameters
 
@@ -64,9 +64,9 @@ Type of authentication required for the Power BI report or dashboard. Valid valu
 
 - **AAD**: Allows you to share secure Power BI reports or dashboards to Power BI Microsoft Entra ID authenticated users.
 
-- **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who don't have Power BI license or Microsoft Entra authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](../../admin/set-up-power-bi-integration.md#enable-power-bi-embedded-service). 
+- **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who don't have Power BI license or Microsoft Entra authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](../../admin/set-up-power-bi-integration.md#enable-power-bi-embedded-service).
 
-While adding the secure Power BI report or dashboard, ensure that it's shared with the Power Pages Microsoft Entra or Power BI Embedded services. 
+When you add a secure Power BI report or dashboard, make sure it's shared with the Power Pages Microsoft Entra or Power BI Embedded services.
 
 > [!NOTE]
 > The values for the `authentication_type` parameter are case insensitive.
@@ -81,7 +81,7 @@ URL?filter=**Table**/**Field** eq '**value**'
 
 For example, say you want to filter the report to see data for a contact named Bert Hair. You must append the URL with the following data:
 
-?filter=Executives/Executive eq 'Bert Hair'
+`?filter=Executives/Executive eq 'Bert Hair'`
 
 The complete code is:
 
@@ -115,20 +115,20 @@ Displays the specified tile of the dashboard. You must provide the ID of the til
 
 Roles assigned to the Power BI report. This parameter works only when the **authentication_type** parameter is set to **powerbiembedded**.
 
-If you have defined roles in Power BI and assigned them to reports, you must specify the appropriate roles in the **powerbi** Liquid tag. Roles allow you to filter the data to be displayed in a report. You can specify multiple roles separated by a comma. For more information on defining roles in Power BI, see [Row-level security (RLS) with Power BI](/power-bi/service-admin-rls).
+If you defined roles in Power BI and assigned them to reports, you must specify the appropriate roles in the **powerbi** Liquid tag. Roles allow you to filter the data to be displayed in a report. You can specify multiple roles separated by a comma. For more information on defining roles in Power BI, see [Row-level security (RLS) with Power BI](/power-bi/service-admin-rls).
 
 ```
 {% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection2" roles:"Region_East,Region_West" %}
 ```
 
-If you've assigned a role to a Power BI report, and didn't specify the **roles** parameter in the Liquid tag or didn't specify a role in the parameter, an error is displayed.
+If you assigned a role to a Power BI report, and didn't specify the **roles** parameter in the Liquid tag or didn't specify a role in the parameter, an error is displayed.
 
 > [!TIP]
 > If you want to use the web roles defined in your site as the Power BI roles, you can define a variable and assign web roles to it. You can then use the defined variable in the Liquid tag.
 >
-> Let's say you have defined two web roles as Region_East and Region_West in your site. You can join them by using the code: `{% assign webroles = user.roles | join: ", " %}`
+> Let's say you defined two web roles as Region_East and Region_West in your site. You can join them by using the code: `{% assign webroles = user.roles | join: ", " %}`
 >
-> In the above code snippet, `webroles` is a variable and the Region_East and Region_West web roles will be stored in it.
+> In the code snippet, `webroles` is a variable that stores the Region_East and Region_West web roles.
 >
 > Use the `webroles` variable as follows in the Liquid tag:
 >
@@ -195,6 +195,8 @@ A Boolean value indicating whether any Liquid template code found within the tex
 **tag**
 
 The name of the container HTML tags rendered by this tag. This tag renders div elements by default. It's recommended that you choose between div or span as a value for this parameter.
+
+The name of the container HTML tags rendered by this tag. This tag renders `div` elements by default. It's recommended to choose between `div` or `span` for this parameter.
 
 **title**
 
@@ -626,7 +628,7 @@ This parameter supports [the Lucene Query Parser syntax](https://lucene.apache.o
 
 **logical\_names**
 
-The Dataverse entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities are returned.
+The Dataverse entity logical names to which matching results are restricted, as a comma-delimited string. If not provided, all matching entities are returned.
 
 ```
 {% searchindex query: request.params.query, logical_names: 'kbarticle,incident' %}
@@ -688,7 +690,7 @@ The name of the Basic Form you wish to load.
 
 ## webform
 
-Fully renders a [multistep form](../../getting-started/multistep-forms.md), by name or ID. The webform tag is only available for use in content rendered inside a [web template](../web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template won't render anything. You can only render a single entityform or webform tag per page. entityform or webform tags after the first won't be rendered.
+Fully renders a [multistep form](../../getting-started/multistep-forms.md), by name or ID. The webform tag is only available for use in content rendered inside a [web template](../web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template doesn't render anything. You can only render a single entityform or webform tag per page. Entityform or webform tags after the first aren't rendered.
 
 `{% webform name: 'My Multistep Form' %}`
 
@@ -712,7 +714,7 @@ The ID or name of the code component.
 
 **property**
 
-The values of the properties that the code component expects needs to be passed in as a key/value pair separated by “:” (colon sign), where key is the property name and the value is the JSON string value.
+The values of the properties that the code component expects needs to be passed in as a key/value pair separated by colon (:), where key is the property name and the value is the JSON string value.
 
 `{% codecomponent name:abc\_SampleNamespace.MapControl controlValue:'Space Needle' controlApiKey:<API Key Value> %}`
 

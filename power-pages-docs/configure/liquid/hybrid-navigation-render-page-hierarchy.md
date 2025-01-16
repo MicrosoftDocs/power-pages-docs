@@ -5,7 +5,7 @@ author: gitanjalisingh33msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/30/2023
+ms.date: 01/15/2025
 ms.subservice: 
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -17,7 +17,7 @@ contributors:
 
 This example renders a type of hybrid navigation, based on the site map, that renders up to three levels of page hierarchy. The rules for this component are:
 
-* The ancestor pages of the current page are shown back to the Home page (or to the maximum depth specified by the optional depth\_offset parameter). 
+* The ancestor pages of the current page are shown back to the Home page (or to the maximum depth specified by the optional depth\_offset parameter).
 * If the current page has children, those child pages are shown.
 * If the current page has no children, the siblings of the current page are shown.
 
@@ -248,11 +248,10 @@ This example renders a type of hybrid navigation, based on the site map, that re
   }
 </style>
 ```
-### See also
 
-- [Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
-- [Create a custom page template to render an RSS feed](render-rss-custom-web-template.md)  
-- [Render the list associated with the current page](render-list-current-page.md)  
-- [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
+## Related information
 
-
+* [Create a custom page template by using Liquid and a web template page template](../../getting-started/tutorial-add-custom-page-layout.md)  
+* [Create a custom page template to render an RSS feed](render-rss-custom-web-template.md)  
+* [Render the list associated with the current page](render-list-current-page.md)  
+* [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  

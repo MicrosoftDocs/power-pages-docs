@@ -99,7 +99,7 @@
       "source_path": "power-pages-docs/security/configure-portal-authentication.md",
       "redirect_url": "/power-pages/security/authentication/configure-site",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "power-pages-docs/guidance/integrate-pva.md",
       "redirect_url": "/power-pages/getting-started/enable-chatbot",
@@ -114,6 +114,11 @@
       "source_path": "power-pages-docs/getting-started/default-template-workspace.md",
       "redirect_url": "/power-pages/templates/index",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/configure/liquid-overview.md",
+      "redirect_url": "/power-pages/configure/liquid/liquid-overview",
+      "redirect_document_id": false
     }
   ]
 }

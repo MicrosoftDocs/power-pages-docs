@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: overview
 ms.custom: 
-ms.date: 9/15/2023
+ms.date: 01/15/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -18,15 +18,15 @@ contributors:
 The portals Web API enables a richer user experience inside Power Pages sites. You can use the Web API to perform create, read, update, and delete operations across all Microsoft Dataverse tables from your webpages. For example, you can create a new account, update a contact, without using a [form](../getting-started/add-form.md) or [multistep form](../getting-started/multistep-forms.md) by using the portals Web API.
 
 > [!IMPORTANT]
-> - **Your Power Pages site version must be 9.3.3.x or later for this feature to work**.
+> - Your Power Pages site version must be 9.3.3.x or later for this feature to work.
 > - The portals Web API is built for creating a rich user experience inside portal pages. It isn't optimized for third-party services or application integration. Using the portals Web API to integrate with other Power Pages sites is also not supported.
-> - Portals Web API operations are limited to tables related to data&mdash;for example, accounts, contacts, or your custom tables. Configuring table metadata or portal configuration table data&mdash;for example, configuring portals tables such as adx_contentsnippet, adx_entityform, or adx_entitylist&mdash;isn't supported with the portals Web API. For a complete list, go to [unsupported configuration tables](#unsupported-configuration-tables) later in this topic.
-> - The portals Web API benefits from [server-side caching](/power-apps/maker/portals/admin/clear-server-side-cache), so subsequent calls to the Web API are faster than the initial calls. Note that clearing the portal server-side cache causes temporary performance degradation.
-> - Portals Web API operations require a Power Pages license. For example, Web API calls made by anonymous users are counted towards the anonymous user capacity. Web API calls made by authenticated users (internal or external) are not counted towards page views, but require applicable authenticated user capacity licenses. More information: [Power Pages licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
+> - Portals Web API operations are limited to tables related to data&mdash;for example, accounts, contacts, or your custom tables. Configuring table metadata or portal configuration table data&mdash;for example, configuring portals tables such as adx_contentsnippet, adx_entityform, or adx_entitylist&mdash;isn't supported with the portals Web API. For a complete list, go to [unsupported configuration tables](#unsupported-configuration-tables) later in this article.
+> - The portals Web API benefits from [server-side caching](/power-apps/maker/portals/admin/clear-server-side-cache), so subsequent calls to the Web API are faster than the initial calls. Clearing the portal server-side cache causes temporary performance degradation.
+> - Portals Web API operations require a Power Pages license. For example, Web API calls made by anonymous users are counted towards the anonymous user capacity. Web API calls made by authenticated users (internal or external) aren't counted towards page views, but require applicable authenticated user capacity licenses. More information: [Power Pages licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)
 
 ## Web API operations
 
-The portals Web API offers a subset of capabilities for Dataverse operations that you can do by using the Dataverse API. We've kept the API format as similar as possible to reduce the learning curve.
+The portals Web API offers a subset of capabilities for Dataverse operations that you can do by using the Dataverse API. We kept the API format as similar as possible to reduce the learning curve.
 
 > [!NOTE]
 > Web API operations are case-sensitive.
@@ -39,7 +39,7 @@ The portals Web API offers a subset of capabilities for Dataverse operations tha
 - [Associate and disassociate tables](write-update-delete-operations.md#associate-and-disassociate-tables-by-using-the-web-api)
 
 > [!NOTE]
-> Calling [actions](/power-apps/developer/data-platform/webapi/use-web-api-actions) and [functions](/power-apps/developer/data-platform/webapi/use-web-api-functions) using the portals Web API is not supported.
+> Calling [actions](/power-apps/developer/data-platform/webapi/use-web-api-actions) and [functions](/power-apps/developer/data-platform/webapi/use-web-api-functions) using the portals Web API isn't supported.
 
 ## Site settings for the Web API
 
@@ -51,7 +51,7 @@ You must enable the site setting to enable the portals Web API for your portal. 
 | Site setting name | Description|
 | - |- |
 | *Webapi/\<table name\>/enabled* | Enables or disables the Web API for \<table name\>. <br> **Default:** `False` <br> **Valid values:** `True`, `False` |
-| *Webapi/\<table name\>/fields*  | Defines the comma-separated list of attributes that can be modified with the Web API. <br>  **Possible values:**  <br> - *All attributes:* `*` <br> - *Specific attributes:* `attr1,attr2,attr3` <br> **Note**:  The value must be either an asterisk (**\***) or a comma-separated list of field names. <br> **Important**: This is a mandatory site setting. When this setting is missing, you'll see the error "No fields defined for this entity." |
+| *Webapi/\<table name\>/fields*  | Defines the comma-separated list of attributes that can be modified with the Web API. <br>  **Possible values:**  <br> - *All attributes:* `*` <br> - *Specific attributes:* `attr1,attr2,attr3` <br> **Note**:  The value must be either an asterisk (**\***) or a comma-separated list of field names. <br> **Important**: This setting is a mandatory site setting. When this setting is missing, you see the error "No fields defined for this entity." |
 | *Webapi/error/innererror* | Enables or disables InnerError. <br> **Default:** `False` <br> **Valid values:** `True`, `False` |
 | *Webapi/\<table name\>/disableodatafilter* | Enables or disables the OData filter. <br> **Default:** `False` <br> **Valid values:** `True`, `False` See [known issues](#known-issues) for more information. The site setting is available in portal version [9.4.10.74](/power-platform/released-versions/portals) or later. |
 
@@ -75,11 +75,11 @@ You can configure [column permissions](/power-apps/maker/portals/configure/colum
 
 ## Authenticating portals Web API requests
 
-You don't need to include an authentication code, because authentication and authorization are managed by the application session. All Web API calls must include a Cross-Site Request Forgery (CSRF) token.
+You don't need to include an authentication code because the application session manages authentication and authorization. All Web API calls must include a Cross-Site Request Forgery (CSRF) token.
 
 ## Using EntitySetName
 
-When referring to Dataverse tables using the portals Web API in your code, you need to use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the **account** table, the code syntax will use the EntitySetName of **accounts**; `/_api/accounts()`.
+When referring to Dataverse tables using the portals Web API in your code, you need to use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the **account** table, the code syntax uses the EntitySetName of **accounts**; `/_api/accounts()`.
 
 > [!NOTE]
 > Use the table logical name for [site settings](#site-settings-for-the-web-api) (for example, **account**).
@@ -96,11 +96,11 @@ You can determine the **EntitySetName** of specific tables by following these st
 
 ## Privacy laws and regulations
 
-All request headers will have a contact ID passed for auditing purposes. For an anonymous user, this will be passed as `null`.
+All request headers use a contact ID passed for auditing purposes. For an anonymous user, this value is passed as `null`.
 
 If audit logging is enabled, a user can see all the audit events in the [Office 365 audit log](https://protection.office.com/unifiedauditlog).
 
-:::image type="content" source="media/web-api/office365-security-compliance-audit-log.png" alt-text="Office 365 audit log..":::
+:::image type="content" source="media/web-api/office365-security-compliance-audit-log.png" alt-text="Screenshot of the Office 365 audit log.":::
 
 More information:<br />[Enable and use activity logging](/power-platform/admin/enable-use-comprehensive-auditing)<br />[Export, configure, and view audit log records](/microsoft-365/compliance/export-view-audit-log-records)
 
@@ -272,14 +272,14 @@ Portals Web API can't be used for the following configuration tables:
 
 ## Known issues
 
-Users will get a CDS error if they invoke a `GET` Web API request for tables that have multiple levels of *1 to many* or *many to many* [table permissions](../security/table-permissions.md)  when **Parental**, **Contact** or **Account** scopes add additional conditions to the query.
+Users get a CDS error if they invoke a `GET` Web API request for tables that have multiple levels of *1 to many* or *many to many* [table permissions](../security/table-permissions.md)  when **Parental**, **Contact, or **Account** scopes add more conditions to the query.
 
 To resolve this issue, the recommended solution is to use [FetchXML](/power-apps/developer/data-platform/use-fetchxml-construct-query) in the OData query.
 
 Alternatively, set the site setting *Webapi/\<table name\>/disableodatafilter* to `True`. 
 
 > [!IMPORTANT]
-> Changing the site setting *Webapi/\<table name\>/disableodatafilter* to `True` may result in slower performance for Web API `GET` calls.
+> Changing the site setting *Webapi/\<table name\>/disableodatafilter* to `True` might result in slower performance for Web API `GET` calls.
 
 The site setting is available in portal version [9.4.10.74](/power-platform/released-versions/portals) or later.
 
@@ -287,9 +287,8 @@ The site setting is available in portal version [9.4.10.74](/power-platform/rele
 
 [Query data using portals Web API](read-operations.md)
 
-### See also
+### Related information
 
 - [Compose HTTP requests and handle errors](web-api-http-requests-handle-errors.md)
-- [Write, update and delete operations using the Web API](write-update-delete-operations.md)
+- [Write, update, and delete operations using the Web API](write-update-delete-operations.md)
 - [How to: Use portal Web API](webapi-how-to.md)
-
