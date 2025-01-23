@@ -96,7 +96,7 @@ Return to the Power Pages **Configure identity provider** page you left earlier 
 
 - **Authentication type**: Paste the `entityID` value [you copied](#create-an-app-registration-in-azure).
 
-- **Service provider realm**: Paste the App ID URI value that [you copied](#create-an-app-registration-in-azure) earlier. 
+- **Service provider realm**: Paste the App ID URI value [you copied](#create-an-app-registration-in-azure). 
 
 - **Assertion service consumer URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value, which should be your site's reply URL. Be sure the value is exactly the same as the redirect URI of the application [you created](#create-an-app-registration-in-azure).
 
