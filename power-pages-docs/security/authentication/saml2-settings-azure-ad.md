@@ -80,7 +80,7 @@ Set Microsoft Entra as an identity provider for your site.
 
 1. To the right of **Application ID URI**, select **Add**.
 
-1. Enter your site URL as the **App ID URI**.
+1. Enter your site URL as the App ID URI. If the site url is not accepted as a valid value for App ID URI, retain the default app ID URI. Copy the value of App ID URI and save it for a later step.
 
 1. Select **Save**.
 
@@ -96,7 +96,7 @@ Return to the Power Pages **Configure identity provider** page you left earlier 
 
 - **Authentication type**: Paste the `entityID` value [you copied](#create-an-app-registration-in-azure).
 
-- **Service provider realm**: Enter your site's URL.
+- **Service provider realm**: Paste the App ID URI value that [you copied](#create-an-app-registration-in-azure) earlier. 
 
 - **Assertion service consumer URL**: If your site uses a custom domain name, enter the custom URL; otherwise, leave the default value, which should be your site's reply URL. Be sure the value is exactly the same as the redirect URI of the application [you created](#create-an-app-registration-in-azure).
 
