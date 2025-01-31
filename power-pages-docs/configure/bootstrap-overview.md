@@ -53,5 +53,5 @@ Depending on the customizer application you used, the directory structure might 
 
 ### See also
 
-- [Migrate an existing site to Bootstrap version 5 (preview)](../configure/migrate-bootstrap.md)
+- [Migrate an existing site to Bootstrap version 5](../configure/migrate-bootstrap.md)
 - [Manage CSS files](manage-css.md)

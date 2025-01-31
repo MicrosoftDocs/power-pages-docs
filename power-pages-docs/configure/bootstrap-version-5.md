@@ -54,7 +54,7 @@ You can view and edit Power Pages sites that you create with Bootstrap version 5
 
 ### See also
 
-- [Migrate existing sites to Bootstrap version 5 (preview)](migrate-bootstrap.md)
+- [Migrate existing sites to Bootstrap version 5](migrate-bootstrap.md)
 - [Bootstrap overview](bootstrap-overview.md)
 - [Manage CSS files](manage-css.md)
 - [Set up Bootstrap version 5 with Power Pages (video)](https://youtu.be/rQe34jyVROQ?feature=shared)
