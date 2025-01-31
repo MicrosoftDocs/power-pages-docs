@@ -184,7 +184,7 @@ The following are some potential errors you might encounter:
   - Within the Azure portal, obtain the name of your app in **App registrations** which corresponds to your Power Pages website.
   - The app name is the same as your website name with a prefix of "Portals-". If your site name is *Woodgrove Bank Applications*, then the app name on the Azure portal is *Portals-Woodgrove Bank Applications*. Note this app registration name for use in the following steps.
   - Sign in to the [Azure portal](https://portal.azure.com/) and navigate to **Key Vaults**.
-  - Create a new key vault or use an existing one. While creating a new key vault, you have to choose a permission model. You can choose either [Azure role-based access control](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview) or a [Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the following tab based on your choice of permission model.
+  - Create a new key vault or use an existing one. While creating a new key vault, you have to choose a permission model. You can choose either [Azure role-based access control](/azure/role-based-access-control/overview) or a [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the following tab based on your choice of permission model.
 
 ### Azure role-based access control
 
@@ -208,7 +208,7 @@ The following are some potential errors you might encounter:
 
 Your site now has permissions to read secrets from this key vault.
 
-- Add your key as a secret to the key vault. To learn how to create a secret in Azure Key Vault, go to [Set and retrieve a secret from Azure Key Vault using the Azure portal](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal).
+- Add your key as a secret to the key vault. To learn how to create a secret in Azure Key Vault, go to [Set and retrieve a secret from Azure Key Vault using the Azure portal](/azure/key-vault/secrets/quick-create-portal).
 - To configure an Azure Key Vault and secret for studio
 
 ## FAQ
