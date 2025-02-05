@@ -1,7 +1,7 @@
 ---
 title: FAQ for AI-generated code using Copilot
 description: This FAQ provides information about the AI technology used in Power Pages development.
-ms.date: 08/30/2024
+ms.date: 02/05/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
