@@ -43,7 +43,7 @@ To add a form:
 
 1. Choose either to create a new form or use an existing form (if a maker created one previously).
 
-If you choose to create a new form, enter the following criteria.
+    If you choose to create a new form, enter the following criteria.
   
     :::image type="content" source="media/first-page/add-form.png" alt-text="Add a form to a page.":::
 
