@@ -39,13 +39,11 @@ To add a form:
 
 1. Hover over any editable canvas area, then select the **Form** icon from the component panel.
 
-    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="Screenshot of the add component menu options.":::
 
 1. Choose either to create a new form or use an existing form (if a maker created one previously).
 
     If you choose to create a new form, enter the following criteria.
-  
-    :::image type="content" source="media/first-page/add-form.png" alt-text="Add a form to a page.":::
 
     | Option | Description |
     | ----------- | ----------- |
