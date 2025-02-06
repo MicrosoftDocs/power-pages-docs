@@ -55,13 +55,28 @@ More information:
 - [Field Service integration](integrate-field-service.md)
 - [Project Service Automation integration](integrate-project-service-automation.md)
 
-## Employee self-service 
+## Employee self-service
 
 An employee self-service site creates an efficient and well-informed workforce by streamlining common tasks and empowering employees with a definitive source of knowledge.
 
 :::image type="content" source="media/dynamics365-templates/employee-self-service.png" alt-text="Employee self-service template landing page.":::
 
-## Community 
+## Event portal with Customer Insights Journeys
+
+Customers with a Customer Insights Journeys can create a customizable event portal where clients access event details, session specifics, and speaker schedules, and register using the event registration form.
+
+A centralized location is essential for clients to discover and learn about your events. The event portal allows swift creation of a comprehensive hub where customers access event details and register for multiple events at the same time.
+
+This template includes:
+
+- Customizable event template
+- List of events
+- Event detail page with information about the location, agenda, speakers, and sponsors
+- Event registration page
+
+Learn more about setting up and using this template in [Build an event registration website using Power Pages](/dynamics365/customer-insights/journeys/event-portal-template).
+
+## Community
 
 The community site template uses peer-to-peer interactions between customers and experts.  Use this template to organically grow the catalog of available knowledge via knowledge base articles, forums, and blogs, and the feedback provided through comments and ratings.
 
@@ -88,7 +103,7 @@ More information:
 - [Customer site for Dynamics 365 Supply Chain Management application](/dynamics365/supply-chain/sales-marketing/customer-portal-overview).
 - [Site limits for site template type](/power-apps/maker/portals/create-additional-portals)
 
-## Modern community 
+## Modern community
 
 The modern community site template invites customers to provide suggestions, creating crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to shape the future of the products they use. 
 
@@ -96,16 +111,16 @@ The modern community site template invites customers to provide suggestions, cre
 
 More information: [Customer Service Community](/dynamics365/customer-service/community-get-started)
 
-## Field service customer 
+## Field service customer
 
-The field service customer site template allows your customers to book new appointments, manage existing appointments, track their technician, and provide feedback. 
+The field service customer site template allows your customers to book new appointments, manage existing appointments, track their technician, and provide feedback.
 
 :::image type="content" source="media/dynamics365-templates/field-service.png" alt-text="Field Service template landing page.":::
 
 This template provides your customers with automated service reminders and notifications that include estimated technician arrival times, so that customers can better plan for their time around service visits.  
 
 >[!IMPORTANT]
-> There's a limit of only one site for this type of template that can be created per Dynamics 365 environment. 
+> There's a limit of only one site for this type of template that can be created per Dynamics 365 environment.
 
 More information: [Field Service customer site](/dynamics365/field-service/field-service-portal-homepage)
 
@@ -126,4 +141,3 @@ While using [Power Pages design studio](../../configure/design-build-overview.md
 
 - Existing Dynamics 365 templates are not completely editable inside [Pages workspace](../../getting-started/first-page.md). Use [Portal Management app](../../configure/portal-management-app.md) or [Visual Studio Code](../../configure/power-platform-cli-tutorial.md) instead.
 - [Styling workspace](../../getting-started/style-site.md) is not available for Dynamics 365 templates. Instead, use out of the box CSS files or custom CSS files as webfiles for styling. More information: [Create and manage web files](../../configure/web-files.md)
-
