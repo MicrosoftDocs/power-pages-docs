@@ -63,7 +63,7 @@ An employee self-service site creates an efficient and well-informed workforce b
 
 ## Event portal with Customer Insights Journeys
 
-Customers with a Customer Insights Journeys can create a customizable event portal where clients access event details, session specifics, and speaker schedules, and register using the event registration form.
+Customers with Customer Insights - Journeys can create a customizable event portal where clients access event details, session specifics, and speaker schedules, and register using the event registration form.
 
 A centralized location is essential for clients to discover and learn about your events. The event portal allows swift creation of a comprehensive hub where customers access event details and register for multiple events at the same time.
 
