@@ -1,7 +1,7 @@
 ---
 title: FAQ for site search with generative AI
 description: This FAQ discusses generative AI search and key considerations for making use of this technology responsibly.
-ms.date: 08/30/2024
+ms.date: 02/05/2025
 ms.custom: responsible-ai-faqs
 ms.topic: article
 author: nageshbhat-msft

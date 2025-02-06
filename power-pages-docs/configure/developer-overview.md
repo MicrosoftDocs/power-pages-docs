@@ -4,7 +4,7 @@ description: Learn how to customize and extend Power Pages using pro-developer t
 author: neerajnandwana-msft
 ms.topic: overview
 ms.custom: 
-ms.date: 08/29/2024
+ms.date: 02/05/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -26,8 +26,8 @@ The Power Pages platform provides tools and technologies that empower a develope
 
 Tools are available to Power Pages developers to create assets, and to edit HTML, JavaScript, Liquid, and CSS code.
 
-| Tool | Description | 
-| - | - | 
+| Tool | Description |
+| - | - |
 | [Visual Studio Code for the Web](visual-studio-code-editor.md) | View and edit the HTML, JavaScript, Liquid, and CSS code. Edit code on multistep forms, basic forms, content snippets, lists, web files, web pages, and web templates. |
 | [Visual Studio Code desktop](vs-code-extension.md) | View and edit the HTML, JavaScript, Liquid, and CSS code. Create web pages, web templates, page templates, content snippets, and web files. Edit code and website metadata with intellisense and generate code using Copilot. | 
 | [Power Pages management app](portal-management-app.md) | Create Power Pages metadata records. View and edit the HTML, JavaScript, Liquid, and CSS code within the context of a model-driven app. |
@@ -43,11 +43,11 @@ Websites created using Power Pages can utilize client side JavaScript to address
 - Build interactive functionality
 - JavaScript be added to webpages, basic forms, multistep form steps, lists, and web templates.
 
-More information: 
+More information:
+
 - [Add custom JavaScript](add-custom-javascript.md)
 - [About basic forms](basic-forms.md#additional-settings)
 - [Add custom JavaScript to a list](add-custom-javascript-list.md)
-
 
 ## Liquid
 
@@ -58,6 +58,7 @@ Liquid is an open-source template language integrated into Power Pages. It can s
 - Build configurable headers and navigation interfaces.
 
 More information:
+
 - [Liquid overview](liquid/liquid-overview.md)
 - [Web templates overview](web-templates.md)
 - [Web templates as components](./web-templates-as-components.md)
@@ -70,6 +71,7 @@ The Web API enables a richer user experience inside Power Pages sites. You can u
 - Retrieve information interactively from Microsoft Dataverse.
 
 More information:
+
 - [Web API overview](web-api-overview.md)
 
 ## Custom Components
@@ -80,13 +82,13 @@ Power Pages supports controls built for Power Apps created using the [Power Apps
 - Create a custom visual experience bound to datasets.
 
 More information:
+
 - [Code components overview](component-framework.md)
 
-## AI-generated code 
+## AI-generated code
 
 Add AI-generated code using Copilot in Visual Studio Code helps you create code using natural language chat interaction.
 
 More information:
+
 - [Add AI-generated code using Copilot](add-code-copilot.md)
-
-
