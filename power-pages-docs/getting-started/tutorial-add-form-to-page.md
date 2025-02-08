@@ -4,7 +4,7 @@ description: Learn how to add forms with code components to your Power Pages.
 author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 04/20/2023
+ms.date: 02/05/2025
 ms.subservice:
 ms.author: prpadalw 
 ms.reviewer: 
@@ -52,10 +52,10 @@ This video provides an overview of the steps to create a form.
     :::image type="content" source="media/tutorial/new-form.png" alt-text="The + New form menu tile inside the forms menu item.":::
 
 1. Fill in the details.
- 
-    - Give the form a name. You can also add a description if you'd like one.
-    - Select **Create**.
-    
+
+    * Give the form a name. You can also add a description if you'd like one.
+    * Select **Create**.
+
         :::image type="content" source="media/tutorial/new-form-details.png" alt-text="Create a new form field.":::
 
 1. Modify the form using the **Add field** menu option, or by dragging and dropping existing fields to reorder them.
@@ -71,8 +71,9 @@ This video provides an overview of the steps to create a form.
 The form will appear in the list of forms for that table.
 
 ### See also
-- [Add Form](add-form.md)
-- [How to create and modify Dataverse forms using data workspace](../configure/data-workspace-forms.md)
+
+* [Add Form](add-form.md)
+* [How to create and modify Dataverse forms using data workspace](../configure/data-workspace-forms.md)
 
 ## Add code components
 
@@ -105,12 +106,12 @@ This video provides an overview of the steps to add a form to a page.
 1. Choose the **+ icon** next to **Main Navigation** to add a new page.
 
 1. Fill in the details.
-    - Give the page a name.
-    - Choose the **Start from Blank template**.
-    - Select **Add**.
-    
+    1. Give the page a name.
+    1. Choose the **Start from Blank template**.
+    1. Select **Add**.
+
     :::image type="content" source="media/tutorial/add-page.png" alt-text="Details for your new page.":::
-    
+
 1. Select **Form** from the component bar.
 
     :::image type="content" source="media/tutorial/form-icon.png" alt-text="THe form icon from the component bar.":::
@@ -120,10 +121,10 @@ This video provides an overview of the steps to add a form to a page.
     :::image type="content" source="media/tutorial/add-a-form.png" alt-text="Add a form window.":::
 
 1. Fill in the details.
-    - Select the **Feedback table**.
-    - Select the form you created previously.
-    - Select **Ok**.
-    
+    1. Select the **Feedback table**.
+    1. Select the form you created previously.
+    1. Select **Ok**.
+
     :::image type="content" source="media/tutorial/add-form-details.png" alt-text="Details for Add a Form":::
 
 1. Select the **Permissions** button.
@@ -133,9 +134,9 @@ This video provides an overview of the steps to add a form to a page.
 1. Select **Feedback permissions**.
 
     - Ensure the **Create privilege** is checked and that **Anonymous** and **Authenticated** web roles are linked.
-    
+
     :::image type="content" source="media/tutorial/web-roles-feedback.png" alt-text="Options for setting feedback permissions."::: 
- 
+
 1. Select **Preview page**.
 
     :::image type="content" source="media/tutorial/preview-icon.png" alt-text="Preview icon.":::
@@ -146,9 +147,9 @@ This video provides an overview of the steps to configure the rich text editor c
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=3975f527-e192-45af-9df1-ac8c7d3a5bb3]
 
-If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage. 
+If a Dataverse form field has been configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used when a form is used on a webpage.
 
-To enable a code component: 
+To enable a code component:
 
 1. Select the **Edit code component** button from the menu.
 
@@ -182,7 +183,7 @@ To enable attachments on a form:
         - Turn on/off the **Allow multiple files** toggle.
         - Max file size allowed
 
-> [!NOTE] 
+> [!NOTE]
 > The following file types are allowed:
 >   - All
 >   - Audio
@@ -190,7 +191,7 @@ To enable attachments on a form:
 >   - Image
 >   - Video
 >    - Specific (comma separated values)
-    
+
 :::image type="content" source="media/add-form/attach-file.png" alt-text="Menu options for enabling attachments on a form.":::
 
 Once configured, the file upload placeholder will show in the canvas. 
