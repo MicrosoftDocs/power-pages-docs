@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider with Microsoft Entra ID
 description: Learn how to set up an OpenID Connect identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
-ms.date: 09/10/2024
+ms.date: 02/07/2025
 ms.topic: how-to
 author: sandhangitmsft
 ms.author: sandhan
@@ -49,7 +49,7 @@ Set Microsoft Entra as an identity provider for your site.
 
 1. Under **Reply URL**, select **Copy**.
 
-    Don't close your Power Pages browser tab. You'll return to it soon.
+    Don't close your Power Pages browser tab. You return to it soon.
 
 ## Create an app registration in Azure
 
@@ -84,7 +84,7 @@ Set Microsoft Entra as an identity provider for your site.
 
 1. Under **Secret ID**, select the **Copy to clipboard** icon.
 
-1. Select **Endpoints** at the top of the page.
+1. Select **Overview** and then select **Endpoints** at the top of the page.
 
 1. Find the **OpenID Connect metadata document** URL and select the copy icon.
 
@@ -135,7 +135,7 @@ The additional settings give you finer control over how users authenticate with 
 
 - **Valid issuers**: Enter a comma-separated list of issuer URLs.
 
-- **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information that's included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
+- **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
 
 - **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.
 
@@ -166,7 +166,7 @@ In these examples, the first name, last name, and email addresses supplied with 
 
 ## Allow multitenant Microsoft Entra authentication
 
-To allow Microsoft Entra users to authenticate from any tenant in Azure, not just from a specific tenant, [change the Microsoft Entra application registration](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant) to multi-tenant.
+To allow Microsoft Entra users to authenticate from any tenant in Azure, not just from a specific tenant, [change the Microsoft Entra application registration](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant) to multitenant.
 
 You also need to set **Issuer filter** in your provider's [additional settings](#additional-settings-in-power-pages).
 
