@@ -78,11 +78,11 @@ Use the steps below to create a custom view for the table you created.
 
 1. Select the table you created in the steps above.
 
-    - Select **Views** and choose **New view**.
+1. Select **Views** and choose **New view**.
 
     :::image type="content" source="media/tutorial/new-view.png" alt-text="The new view.":::
 
-    - Enter a name for the view.
+1. Enter a name for the view.
 
     :::image type="content" source="media/tutorial/name-view.png" alt-text="Enter a name for the view.":::
 
