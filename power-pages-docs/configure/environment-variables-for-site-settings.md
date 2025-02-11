@@ -53,7 +53,7 @@ This article describes how environment variables work with site settings. The fo
 
 To use environment variables with site settings, you must meet the following prerequisites:
 
-- You must have a site within an environment where the [enhanced data model](../admin/enhanced-data-model.md) is enabled.
+- You need a site within an environment where the [enhanced data model](../admin/enhanced-data-model.md) is enabled.
 - The following versions are required for environment variables to work in Power Pages:
   - Dataverse server version 9.2.25013.x
   - Power Pages package version 1.0.2501.x
@@ -195,7 +195,8 @@ To configure environment variables as secrets and use them in Power Pages:
     1. The app name is the same as your website name with a prefix of "Portals-". If your site name is *Woodgrove Bank Applications*, then the app name on the Azure portal is *Portals-Woodgrove Bank Applications*. Remember the app registration name for later use.
     1. Sign in to the [Azure portal](https://portal.azure.com/) and navigate to **Key Vaults**.
 1. Create a new key vault or use an existing one.
-    1. When creating a new key vault, choose a permission model. Select either [Azure role-based access control](/azure/role-based-access-control/overview) or [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the following tab based on your choice of permission model.
+
+    When creating a new key vault, choose a permission model. Select either [Azure role-based access control](/azure/role-based-access-control/overview) or [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the following tab based on your choice of permission model.
 
     # [Azure role-based access control](#tab/azure)
 
@@ -219,10 +220,9 @@ To configure environment variables as secrets and use them in Power Pages:
 
     ---
 
-Your site now has permissions to read secrets from this key vault.
+    Your site now has permissions to read secrets from this key vault.
 
-- Add your key as a secret to the key vault. To learn how to create a secret in Azure Key Vault, go to [Set and retrieve a secret from Azure Key Vault using the Azure portal](/azure/key-vault/secrets/quick-create-portal).
-- To configure an Azure Key Vault and secret for studio
+1. Add your key as a secret to the key vault. Learn how to create a secret in Azure Key Vault in [Set and retrieve a secret from Azure Key Vault using the Azure portal](/azure/key-vault/secrets/quick-create-portal).
 
 ## FAQ
 
