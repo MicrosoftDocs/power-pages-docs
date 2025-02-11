@@ -5,7 +5,7 @@ author: sandhangitmsft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/24/2023
+ms.date: 02/11/2025
 ms.subservice: 
 ms.author: sandhan
 ms.reviewer: dmartens
@@ -37,9 +37,9 @@ The following are attributes when configuring a **list** component using the [Po
 |    Search Placeholder Text     |                                                                                                                                                      An optional string used as the label displayed in the text box on initial load.                                                                                                                                                       |
 |      Search Tooltip Text       |                                                                                                                                             An optional string used as the tooltip displayed when the user points to the **Search** text box.                                                                                                                                              |
 
-> [!Important]
-> When search is enabled for a list that includes large text columns, it can negatively impact performance when searching for records. For best practices and potential query anti-patterns, refer to [this guide](../../power-apps/developer/data-platform/query-antipatterns?tabs=fetchxml#PerformanceLargeColumnSearch).
-> To optimize performance, it is recommended to exclude large text columns from the list.
+> [!IMPORTANT]
+> When search is enabled for a list that includes large text columns, it negatively impacts performance when searching for records. Learn about best practices and potential query anti-patterns in [Query anti-patterns](../../power-apps/developer/data-platform/query-antipatterns?tabs=fetchxml#PerformanceLargeColumnSearch).
+> To optimize performance, exclude large text columns from the list.
 
 ### See also
 
