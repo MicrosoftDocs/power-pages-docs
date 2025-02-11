@@ -38,8 +38,8 @@ The following are attributes when configuring a **list** component using the [Po
 |      Search Tooltip Text       |                                                                                                                                             An optional string used as the tooltip displayed when the user points to the **Search** text box.                                                                                                                                              |
 
 > [!Important]
-> When search is enabled for a list, including large text columns can negatively impact performance when searching for records. For best practices and potential query anti-patterns, refer to [this guide](../power-apps/developer/data-platform/query-antipatterns?tabs=fetchxml#PerformanceLargeColumnSearch).
-> To optimize performance, it is recommended to exclude large text columns from the list when enabling search.
+> When search is enabled for a list that includes large text columns, it can negatively impact performance when searching for records. For best practices and potential query anti-patterns, refer to [this guide](../../power-apps/developer/data-platform/query-antipatterns?tabs=fetchxml#PerformanceLargeColumnSearch).
+> To optimize performance, it is recommended to exclude large text columns from the list.
 
 ### See also
 
