@@ -219,27 +219,27 @@ To configure environment variables as secrets and use them in Power Pages, follo
 
 When creating a new key vault, choose a permission model. Select either [Azure role-based access control](/azure/role-based-access-control/overview) or [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the following tab based on your choice of permission model:
 
-    # [Azure role-based access control](#tab/azure)
+# [Azure role-based access control](#tab/azure)
 
-    1. Go to your key vault in the [Azure portal](https://portal.azure.com/).
-    1. Select **Access control (IAM)** from the left menu.
-    1. Select **+ Add** at the top of the page, then select **Add role assignment**.
-    1. Under the **Job function roles** tab, search for **Key Vault Secrets User**, select it, then select **Next**.
-    1. For **Assign access to**, select **User, group, or service principal**.
-    1. Select **+ Select members** and search for your site's app registration name as described earlier.
-    1. Select the app for your site, then select **Next**.
-    1. Select **Review + assign**.
+1. Go to your key vault in the [Azure portal](https://portal.azure.com/).
+1. Select **Access control (IAM)** from the left menu.
+1. Select **+ Add** at the top of the page, then select **Add role assignment**.
+1. Under the **Job function roles** tab, search for **Key Vault Secrets User**, select it, then select **Next**.
+1. For **Assign access to**, select **User, group, or service principal**.
+1. Select **+ Select members** and search for your site's app registration name as described earlier.
+1. Select the app for your site, then select **Next**.
+1. Select **Review + assign**.
 
-    # [Key Vault access policy](#tab/keyvault)
+# [Key Vault access policy](#tab/keyvault)
 
-    1. Select **Access policies** on the left side menu.
-    1. Select **+ Create** at the top of the page.
-    1. Under **Secret permissions**, select **Get** > **Next**.
-    1. Search for your site's app registration name as described earlier.
-    1. Select the app for the site and then select **Next**.
-    1. Select **Create**.
+1. Select **Access policies** on the left side menu.
+1. Select **+ Create** at the top of the page.
+1. Under **Secret permissions**, select **Get** > **Next**.
+1. Search for your site's app registration name as described earlier.
+1. Select the app for the site and then select **Next**.
+1. Select **Create**.
 
-    ---
+---
 
     Your site now has permissions to read secrets from this key vault.
 
