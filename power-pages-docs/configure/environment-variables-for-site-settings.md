@@ -217,7 +217,7 @@ To configure environment variables as secrets and use them in Power Pages, follo
     1. Sign in to the [Azure portal](https://portal.azure.com/) and navigate to **Key Vaults**.
 1. Create a new key vault or use an existing one.
 
-When creating a new key vault, choose a permission model. Select either [Azure role-based access control](/azure/role-based-access-control/overview) or [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the following tab based on your choice of permission model:
+    When creating a new key vault, choose a permission model. Select either [Azure role-based access control](/azure/role-based-access-control/overview) or [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the following tab based on your choice of permission model:
 
 # [Azure role-based access control](#tab/azure)
 
@@ -241,7 +241,7 @@ When creating a new key vault, choose a permission model. Select either [Azure r
 
 ---
 
-    Your site now has permissions to read secrets from this key vault.
+Your site now has permissions to read secrets from this key vault.
 
 1. Add your key as a secret to the key vault. Learn how to create a secret in Azure Key Vault in [Set and retrieve a secret from Azure Key Vault using the Azure portal](/azure/key-vault/secrets/quick-create-portal).
 
