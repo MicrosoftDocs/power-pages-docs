@@ -63,9 +63,11 @@ An employee self-service site creates an efficient and well-informed workforce b
 
 ## Event portal with Customer Insights Journeys
 
-Customers with Customer Insights - Journeys can create a customizable event portal where clients access event details, session specifics, and speaker schedules, and register using the event registration form.
+Customers with Customer Insights - Journeys can create a customizable event portal where clients access event details, session specifics, speaker schedules, and register using the event registration form.
 
-A centralized location is essential for clients to discover and learn about your events. The event portal allows swift creation of a comprehensive hub where customers access event details and register for multiple events at the same time.
+:::image type="content" source="../media/event-portal.png" alt-text="Screenshot of the event portal landing page.":::
+
+A centralized location is essential for clients to discover and learn about your events. The event portal lets you swiftly create a comprehensive hub where customers access event details and register for multiple events at the same time.
 
 This template includes:
 
@@ -91,7 +93,7 @@ More information:
 
 ## Supply chain management customer site
 
-The supply chain management customer site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. You can modify this template to represent the company's brand, add more functionality, and change the user experience. 
+The supply chain management customer site template lets you build externally facing business-to-business (B2B) websites for sales order processing. Your customers can create and view orders to the associated Dynamics 365 for Supply Chain Management environment. You can modify this template to represent the company's brand, add more functionality, and change the user experience.
 
 :::image type="content" source="media/dynamics365-templates/scm.png" alt-text="Supply chain management template landing page.":::  
 
@@ -105,7 +107,7 @@ More information:
 
 ## Modern community
 
-The modern community site template invites customers to provide suggestions, creating crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to shape the future of the products they use. 
+The modern community site template invites customers to provide suggestions, creating crowd sourced portfolios of outside-in ideas. Customers can collaborate on a social scale, rallying behind suggestions from others to shape the future of the products they use.
 
 :::image type="content" source="media/dynamics365-templates/modern-community.png" alt-text="Modern community template landing page.":::
 
