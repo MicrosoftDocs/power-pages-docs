@@ -211,11 +211,11 @@ To configure environment variables as secrets and use them in Power Pages, follo
 
 1. Configure an environment variable as a secret. Learn more in [Use environment variables for Azure Key Vault secrets](/power-apps/maker/data-platform/environmentvariables-azure-key-vault-secrets).
   
-1. Add permissions to access the secret from the portal.
+2. Add permissions to access the secret from the portal.
     1. Within the Azure portal, get the name of your app in **App registrations** that corresponds to your Power Pages website.
     1. The app name is the same as your website name with a prefix of "Portals-". If your site name is *Woodgrove Bank Applications*, then the app name on the Azure portal is *Portals-Woodgrove Bank Applications*. Remember the app registration name for later use.
     1. Sign in to the [Azure portal](https://portal.azure.com/) and navigate to **Key Vaults**.
-1. Create a new key vault or use an existing one.
+3. Create a new key vault or use an existing one.
 
     When creating a new key vault, choose a permission model. Select either [Azure role-based access control](/azure/role-based-access-control/overview) or [Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal). To see the appropriate steps, select the following tab based on your choice of permission model:
 
@@ -230,6 +230,8 @@ To configure environment variables as secrets and use them in Power Pages, follo
 1. Select the app for your site, then select **Next**.
 1. Select **Review + assign**.
 
+Your site now has permissions to read secrets from this key vault.
+
 # [Key Vault access policy](#tab/keyvault)
 
 1. Select **Access policies** on the left side menu.
@@ -239,11 +241,11 @@ To configure environment variables as secrets and use them in Power Pages, follo
 1. Select the app for the site and then select **Next**.
 1. Select **Create**.
 
----
-
 Your site now has permissions to read secrets from this key vault.
 
-1. Add your key as a secret to the key vault. Learn how to create a secret in Azure Key Vault in [Set and retrieve a secret from Azure Key Vault using the Azure portal](/azure/key-vault/secrets/quick-create-portal).
+---
+
+4. Add your key as a secret to the key vault. Learn how to create a secret in Azure Key Vault in [Set and retrieve a secret from Azure Key Vault using the Azure portal](/azure/key-vault/secrets/quick-create-portal).
 
 ## FAQ
 
