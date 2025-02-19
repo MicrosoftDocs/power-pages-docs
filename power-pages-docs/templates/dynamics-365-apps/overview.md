@@ -69,13 +69,6 @@ Customers with Customer Insights - Journeys can create a customizable event port
 
 A centralized location is essential for clients to discover and learn about your events. The event portal lets you swiftly create a comprehensive hub where customers access event details and register for multiple events at the same time.
 
-This template includes:
-
-- Customizable event template
-- List of events
-- Event detail page with information about the location, agenda, speakers, and sponsors
-- Event registration page
-
 Learn more about setting up and using this template in [Build an event registration website using Power Pages](/dynamics365/customer-insights/journeys/event-portal-template).
 
 ## Community
