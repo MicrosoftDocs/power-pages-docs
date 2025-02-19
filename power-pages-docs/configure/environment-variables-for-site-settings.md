@@ -94,7 +94,7 @@ To ensure that your site settings are correctly configured for each environment,
 # [Power Pages Management app](#tab/azure)
 
 1. For each environment (for example, dev, QA, and production), go to the [Power Pages Management app](portal-management-app.md).
-1. Locate the environment variable created earlier by opening the associated site setting.
+1. Locate the environment variable by opening the associated site setting.
 1. Select the **Environment Variable**.
 1. Within the **Values** section, select **New Environment Variable Value**.
 1. Enter a **Value** and select **Save & Close**.
