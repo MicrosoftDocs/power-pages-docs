@@ -4,7 +4,7 @@ description: Discover the benefits of using environment variables for site setti
 author: DanaMartens
 contributors: null
 ms.topic: conceptual
-ms.date: 02/13/2025
+ms.date: 02/14/2025
 ms.author: pudupa
 ms.reviewer: dmartens
 ms.custom:
@@ -19,11 +19,11 @@ Environment variables for site settings let makers and admins manage configurati
 
 ## Solution for enhanced data model
 
-Power Pages addresses the challenge of defining site settings values across different environments with the enhanced data model. While the standard data model uses deployment profiles, the enhanced model lets you dynamically configure environment-specific settings using environment variables.
+Using environment variables, you can define site settings values across various environments with the enhanced data model. While the standard data model relies on deployment profiles, the enhanced model allows for dynamic configuration of environment-specific settings using environment variables.
 
 ## Key definitions
 
-Understand the following key definitions to comprehend how environment variables can be used with site settings:
+To understand how environment variables can be used with site settings, familiarize yourself with the following key definitions:
 
 - **Environment variable:** A variable that holds configuration values specific to an environment that the application or features can reference.
   
@@ -53,7 +53,7 @@ This article describes how environment variables work with site settings. The fo
 
 To use environment variables with site settings, you must meet the following prerequisites:
 
-- You need a site within an environment where the [enhanced data model](../admin/enhanced-data-model.md) is enabled.
+- The site must be within an environment where the [enhanced data model](../admin/enhanced-data-model.md) is enabled.
 - The following versions are required for environment variables to work in Power Pages:
   - Dataverse server version 9.2.25013.x
   - Power Pages package version 1.0.2501.x
@@ -69,52 +69,69 @@ To use environment variables in site settings:
 
     :::image type="content" source="media/environment-variables-for-site-settings/site-setting-source.png" alt-text="Screenshot showing a site setting with the source as environment variable.":::
 
-1. Select the **Environment variable** lookup and select **New environment variable**.
-1. If an environment variable definition is already created, select the environment variable option. A drop-down menu appears for selection.
+1. If an environment variable definition is already created, select the **Environment Variable** lookup. A drop-down menu appears for selection.
 
     :::image type="content" source="media/environment-variables-for-site-settings/environment-variable-selection.png" alt-text="Screenshot of the environment variable selection dropdown.":::
 
-1. If an environment variable definition doesn't exist, select **Create new environment variable definition** and fill in the required fields such as **Owner**, **Schema Name**, **Display Name**, and **Type**.
+1. If an environment variable definition doesn't exist, select **New Environment Variable Definition** and fill in the required fields such as **Owner**, **Schema Name**, **Display Name**, and **Type**. Note the schema name value as that is what you need to use when you associate an environment variable with a site setting.
 
     :::image type="content" source="media/environment-variables-for-site-settings/environment-variable-creation.png" alt-text="Screenshot of creating a new environment variable definition.":::
 
-1. After you create the environment variable definition, the schema name appears in the environment variable field’s drop-down menu. Select the schema name to relate it with the site settings via EnvironmentVariableSchemaName.
+1. After you create the environment variable definition, it is available to select in the **Environment Variable** lookup control. Search for and select the schema name to relate it with the site setting.
 
 > [!NOTE]
 > - The data type set to "data source" isn't supported.
 > - Environment variables with the data type set as "secret" can't be configured without providing key vault details.
-> - For PWAFeature site setting, use the value `{"status":"disable"}` for false and `{"status":"enable"}` for true.
+> - For the `PWAFeature` site setting, use the value `{"status":"disable"}` for false and `{"status":"enable"}` for true.
 
 ## Update environment-specific values
 
-To ensure that your site settings are correctly configured for each environment, follow these steps to update the environment-specific values:
+To ensure that your site settings are correctly configured for each environment, follow these steps to update the environment-specific values in the Power Pages Management app or design studio.
 
-1. For each environment (for example, dev, QA, production), go to the [Power Pages Management app](portal-management-app.md) or [design studio](../getting-started/use-design-studio.md).
-1. Locate the environment variable created earlier.
-1. Update the environment-specific value in the **EnvironmentVariableValue** field.
+> [!NOTE]
+> Not all site settings have a corresponding configuration option in design studio.
+
+# [Power Pages Management app](#tab/azure)
+
+1. For each environment (for example, dev, QA, and production), go to the [Power Pages Management app](portal-management-app.md).
+1. Locate the environment variable created earlier by opening the associated site setting.
+1. Select the **Environment Variable**.
+1. Within the Values section, select **New Environment Variable Value**.
+1. Enter a **Value** and select **Save & Close**.
+
+# [Design studio](#tab/keyvault)
+
+1. For each environment (for example, dev, QA, and production), go to [design studio](../getting-started/use-design-studio.md).
+1. Locate the configuration option that corresponds to the site setting.
+1. Update the value.
 1. Save the configuration.
 
-    :::image type="content" source="media/environment-variables-for-site-settings/environment-variable-PPMA.png" alt-text="Screenshot of updating the environment variable value in Power Pages Management app.":::
+    :::image type="content" source="media/environment-variables-for-site-settings/environment-variable-PPMA.png" alt-text="Screenshot of updating the environment variable value in design studio.":::
+
+> [!IMPORTANT]
+> - When you're in design studio and view a site setting, a notification appears if it uses an environment variable. If you edit the value, it updates all referenced site settings across the environment.
+> - If a site setting's data type is marked as secret, the field is disabled in the design studio, preventing makers from editing its values. Additionally, reading or writing Key Vault secrets within the design studio settings isn't supported.
+
+---
 
 1. After setting the environment variable, follow these steps:
-    1. Navigate to a solution and incorporate the previously created site, verifying that the relevant environment variables are included.
+    1. Navigate to a solution and add your existing site, verifying that the relevant environment variables are also included.
     1. Export the solution and then import it into the desired target environment.
 
 During the import process into the target environment, assign a value to the environment variable. Changing the value updates the corresponding site settings in the target environment.
 
-> [!IMPORTANT]
-> - Makers are notified when a site setting value is configured through an environment variable in **design studio**. If they edit the value, it updates all referenced site settings across the environment.
-> - If a site setting's data type is marked as secret, the field is disabled in the **design studio**, preventing makers from editing its values. Additionally, reading or writing Key Vault secrets within the **design studio** settings isn't supported.
+## Manage environment variables
 
-## Typical flows for using environment variables
+You can manage site settings with environment variables whether you deploy [solutions](power-pages-solutions.md) manually or through [pipelines](power-pages-pipelines.md).
 
-### Solution flow
+### Solutions
 
 To set up your environment variables and sites across different environments, follow these steps:
   
 1. **Set up environment variables in the source environment:**
-    1. Go to **Solution** in the source environment.
-    1. Add a new environment variable by entering the required details and saving it.
+    1. Open the [Power Apps portal](https://make.powerapps.com/).
+    1. Go to **Solutions** in the source environment.
+    1. Within a solution, add a new environment variable by entering the required details and saving it.
 
         :::image type="content" source="media/environment-variables-for-site-settings/environment-variable-solution-import.png" alt-text="Screenshot of the environment variable assignment during solution import.":::
 
@@ -133,9 +150,9 @@ To set up your environment variables and sites across different environments, fo
 - During the import process into the target environment, you're prompted to assign a value to the environment variable.
 - Any modifications made to the environment variable update the corresponding site settings with the new value in the target environment.
 
-### Pipeline
+### Pipelines
 
-During deployment, specify the value of the environment variable for the target environment. If you update it, refresh the corresponding site settings to reflect the new value.
+If you use [pipelines](power-pages-pipelines.md) to deploy solutions, you specify the value of the environment variable for the target environment. If you update it, refresh the corresponding site settings to reflect the new value.
   
 :::image type="content" source="media/environment-variables-for-site-settings/pipeline-deployment-setting.png" alt-text="Screenshot of the pipeline deployment settings for environment variables.":::
 
