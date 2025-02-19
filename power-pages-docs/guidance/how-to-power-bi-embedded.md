@@ -1,14 +1,13 @@
 ---
 title: "How to: Embed Power BI in Power Pages"
 description: Learn how to embed a Power BI report in Power Pages.
-author: skyshon
+author: neerajnandwana-msft
 ms.topic: article
 ms.custom: 
 ms.date: 04/30/2024
-ms.author: skyshon
+ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
-    - skyshon
     - nageshbhat-msft
 ---
 
@@ -82,7 +81,7 @@ To get row level security to work for Power Pages users (Contacts), there needs 
 
     `[User Name] = username()`
 
-    > [!NOTE] 
+    > [!NOTE]
     > The `[Username]` field resides on the contact table and is not an actual username. This references the **adx\_externalidentity** table used by Power Pages. This has the GUID that is sent to Power BI in the username() function.
 
     :::image type="content" source="media/powerbiembedded/manage-roles.png" alt-text="Manage roles in Power BI.":::
@@ -117,10 +116,10 @@ Refer to [Set up Power BI integration](/power-apps/maker/portals/admin/set-up-po
 
     1. Embed for your organization: This uses Microsoft Entra authentication to share the report from Power BI so internal users can see this.
 
-    1. Publish to web: This allows anyone on the internet to access the report and data. 
-    
+    1. Publish to web: This allows anyone on the internet to access the report and data.
+
     > [!CAUTION]
-    > Make sure that this is not confidential information! 
+    > Make sure that this is not confidential information!
 
     Additional information: [Publish to web](/power-bi/collaborate-share/service-publish-to-web)
 

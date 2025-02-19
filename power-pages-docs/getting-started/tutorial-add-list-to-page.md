@@ -4,7 +4,7 @@ description: Learn how to add lists to your Power Pages.
 author: pranita225
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 3/10/2023
+ms.date: 02/05/2025
 ms.subservice:
 ms.author: prpadalw 
 ms.reviewer:
@@ -43,15 +43,15 @@ Use the steps below to create a table.
 
 1. Select the **Data** icon on the left navigation.
 
-    - Select the **New table** button.
-    
+    - Select the **+ Table** button and choose **New table**.
+
     :::image type="content" source="media/tutorial/new-table.png" alt-text="Create a new table button.":::
 
-1. Give the table a name and select **Create**.
+1. Give the table a name and select **Save**.
 
     :::image type="content" source="media/tutorial/create-new-table.png" alt-text="Create a new table window.":::
 
-1. Select **New column**. 
+1. Select **New column**.
 
     :::image type="content" source="media/tutorial/new-column.png" alt-text="Add a new column button.":::
 
@@ -74,21 +74,21 @@ This video provides an overview of the steps to create a view.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=db19432b-f0dc-4d86-8a71-8b11db44c030]
 
-Use the steps below to create a custom view for the table you created. 
+Use the steps below to create a custom view for the table you created.
 
 1. Select the table you created in the steps above.
 
-    - Select **Views** and choose **New view**.
-    
+1. Select **Views** and choose **New view**.
+
     :::image type="content" source="media/tutorial/new-view.png" alt-text="The new view.":::
 
-    - Enter a name for the view.
+1. Enter a name for the view.
 
     :::image type="content" source="media/tutorial/name-view.png" alt-text="Enter a name for the view.":::
 
 1. Add the application data and status reason columns to the view.
 
-1. Select **Save** and choose **Publish**.
+1. Select **Save and publish**.
 
 1. Select **Views** to show the available views for the table.
 
@@ -102,19 +102,39 @@ This video provides an overview of the steps to add a list to a page.
 
 Use the steps below to add a list to a web page so you can view information stored in Dataverse.
 
-1. Inside the design studio, choose the option to **Create a new page**.
+1. Inside the **Pages** workspace, select **+ Page**.
 
-1. Add a name for the page.
+1. Use Copilot to create the page or choose from various layouts:
 
-1. Choose the **Start from blank** layout.
+    # [Use Copilot](#tab/copilot)
 
-    - Select **Add**.
-    - Select **List**.
+    1. Use Copilot to describe a page you want to create using natural language.
+    1. To send Copilot your request, press <kbd>Enter</kbd> or select the paper airplane icon in the lower-right corner of the text box.
+
+        :::image type="content" source="media/first-page/add-page-copilot.png" alt-text="Screenshot showing the option to create a page using Copilot.":::
+
+    1. After Copilot creates your page, select **Keep it** if you like the result or **Delete page** if you don't.
+
+    1. Select **+ Add a Section** to add a section that will contain the list.
+
+    # [Select layout](#tab/other)
+
+    1. Select **Other ways to add a page** to choose a page from standard layouts, or choose a custom layout.
+
+    1. By default, the new page appears in the **Main navigation** section and a link appears on the default navigation of the site. If you unselect the **add page to main navigation** option, the page appears the **Other pages** section. The page is accessible from a URL, but a link isn't added to the default navigation.
+
+        :::image type="content" source="media/first-page/add-page.png" alt-text="Adding a page menu within the design studio.":::
+
+    For detailed information on how to create custom page templates, go to [Create and manage page templates](/power-apps/maker/portals/configure/page-templates) and [Store source content by using web templates](/power-apps/maker/portals/liquid/store-content-web-templates) in the Power Apps documentation.
+
+    ---
+
+1. Select **List**.
 
 1. Fill in the details.
 
     - Choose the table and view you'd like from the dropdown menus.
-    
+
         :::image type="content" source="media/first-page/add-list.png" alt-text="Add list options.":::
 
 1. Select **Preview**.
