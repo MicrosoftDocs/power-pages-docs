@@ -19,7 +19,7 @@ Environment variables for site settings let makers and admins manage configurati
 
 ## Solution for enhanced data model
 
-Using environment variables, you can define site settings values across various environments with the enhanced data model. While the standard data model relies on deployment profiles, the enhanced model allows for dynamic configuration of environment-specific settings using environment variables.
+Use environment variables to define site settings values across various environments with the enhanced data model. While the standard data model relies on deployment profiles, the enhanced model allows for dynamic configuration of environment-specific settings using environment variables.
 
 ## Key definitions
 
@@ -77,7 +77,7 @@ To use environment variables in site settings:
 
     :::image type="content" source="media/environment-variables-for-site-settings/environment-variable-creation.png" alt-text="Screenshot of creating a new environment variable definition.":::
 
-1. After you create the environment variable definition, it is available to select in the **Environment Variable** lookup control. Search for and select the schema name to relate it with the site setting.
+1. After you create the environment variable definition, it's available to select in the **Environment Variable** lookup control. Search for and select the schema name to relate it with the site setting.
 
 > [!NOTE]
 > - The data type set to "data source" isn't supported.
@@ -96,7 +96,7 @@ To ensure that your site settings are correctly configured for each environment,
 1. For each environment (for example, dev, QA, and production), go to the [Power Pages Management app](portal-management-app.md).
 1. Locate the environment variable created earlier by opening the associated site setting.
 1. Select the **Environment Variable**.
-1. Within the Values section, select **New Environment Variable Value**.
+1. Within the **Values** section, select **New Environment Variable Value**.
 1. Enter a **Value** and select **Save & Close**.
 
 # [Design studio](#tab/keyvault)
@@ -114,9 +114,10 @@ To ensure that your site settings are correctly configured for each environment,
 
 ---
 
-1. After setting the environment variable, follow these steps:
-    1. Navigate to a solution and add your existing site, verifying that the relevant environment variables are also included.
-    1. Export the solution and then import it into the desired target environment.
+After setting the environment variable, follow these additional steps:
+
+1. Navigate to a solution and add your existing site, verifying that the relevant environment variables are also included.
+1. Export the solution and then import it into the desired target environment.
 
 During the import process into the target environment, assign a value to the environment variable. Changing the value updates the corresponding site settings in the target environment.
 
@@ -126,9 +127,9 @@ You can manage site settings with environment variables whether you deploy [solu
 
 ### Solutions
 
-To set up your environment variables and sites across different environments, follow these steps:
+Set up your environment variables and sites across different environments by following these steps:
   
-1. **Set up environment variables in the source environment:**
+1. **Set up environment variables in the source environment**:
     1. Open the [Power Apps portal](https://make.powerapps.com/).
     1. Go to **Solutions** in the source environment.
     1. Within a solution, add a new environment variable by entering the required details and saving it.
@@ -137,7 +138,7 @@ To set up your environment variables and sites across different environments, fo
 
     1. Incorporate the existing site into the solution.
   
-1. **Configure site settings:**
+1. **Configure site settings**:
     1. Open the **Power Pages Management app** and access **Site Settings**.
     1. Select the site setting to define for the environment.
     1. Use the dropdown menu to select or create an environment variable. Users can view and choose environment variables created through the solutions flow in this dropdown.
@@ -188,15 +189,15 @@ The following are some different reasons you might encounter errors when using e
 
 - **Mismatch in environment variable value and expected type**
 
-For example, if a site setting like `Search/Enabled` expects a boolean value (true/false), but the environment variable contains an invalid value (such as 'abc') or is missing, it causes issues.
+    For example, if a site setting like `Search/Enabled` expects a boolean value (true/false), but the environment variable contains an invalid value (such as 'abc') or is missing, it causes issues.
 
 - **Unsupported environment variable source type**
 
-    An example of this issue is when the environment variable source type is set to "data storage", which isn't supported by this feature.
+    This issue occurs when the environment variable is configured in an unsupported way, such as setting the source type to "data storage".
 
 - **Key Vault access issues**
 
-This type of issue can occur if the environment variable source is Key Vault, but the runtime is missing permissions or the secret is missing.
+    This type of issue can occur if the environment variable source is Key Vault, but the runtime is missing permissions or the secret is missing.
 
 ## Best practices
 
@@ -208,7 +209,7 @@ When working with environment variables for site settings, it's important to fol
 
 - **Name variables consistently**
 
-Use consistent names for environment variables to make them easier to identify.
+    Use consistent names for environment variables to make them easier to identify.
 
 - **Document variables**
 
@@ -216,11 +217,11 @@ Use consistent names for environment variables to make them easier to identify.
 
 - **Test thoroughly**
 
-Validate changes in a nonproduction environment before applying them to production.
+    Validate changes in a nonproduction environment before applying them to production.
 
 - **Use descriptions**
 
-Use the description field to explain the variable's purpose.
+    Use the description field to explain the variable's purpose.
 
 ## Configure environment variables as secrets
 
