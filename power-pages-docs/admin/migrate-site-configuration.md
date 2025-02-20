@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/09/2023
+ms.date: 02/20/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
@@ -24,25 +24,25 @@ Migration involves exporting the existing configuration from the source Microsof
 
 ## Prepare the target environment
 
-You will need to prepare the target environment if you are using the standard data model. An environment using the [enhanced data model](../admin/enhanced-data-model.md) will not require these steps and you can proceed to [transferring the website configuration](#transfer-the-website-configuration-to-target-environment).
+You need to prepare the target environment if you're using the standard data model. An environment using the [enhanced data model](../admin/enhanced-data-model.md) won't require these steps and you can proceed to [transferring the website configuration](#transfer-the-website-configuration-to-target-environment).
 
 > [!NOTE]
-> - Preparing the target environment is a one-time process. You will need to provision a new website in order to install the managed Power Pages solutions on Dataverse as well as configure the Power Pages web application. The process also installs default website metadata which will be replaced with the website metadata from your source environment.
+> - Preparing the target environment is a one-time process. You need to provision a new website in order to install the managed Power Pages solutions on Dataverse and configure the Power Pages web application. The process also installs default website metadata which is replaced with the website metadata from your source environment.
 > - Ensure that the target environment's maximum attachment size is set to the same or greater size as your source environment.
 > - The maximum size of files is determined by the **Maximum file size** setting in the [system settings email tab](/power-platform/admin/system-settings-dialog-box-email-tab) in the environment system settings dialog box.
 > - Note the difference between developer, trial, and production **websites** and developer, trial, sandbox, and production **environments**.
-> - You can [migrate](migrate-site-configuration.md) a trial, developer, production website to another trial, developer, or production website on the same or another environment. Note that a production **website** will need to be provisioned on a sandbox or production **environment**.
+> - You can [migrate](migrate-site-configuration.md) a trial, developer, production website to another trial, developer, or production website on the same or another environment. A production **website** needs to be provisioned on a sandbox or production **environment**.
 
 1. [Provision a new website](../getting-started/create-manage.md) in your target environment. Use the same [website template](../templates/index.md) as you provisioned on your source environment. For example, if you provisioned a site using the **Dynamics 365 Customer Self-Service** template on your source environment, provision the site using the **Dynamics 365 Customer Self-Service** template on your target environment.
 
-1. On the *target* environment, using the [Portal Management app](../configure/portal-management-app.md), delete the newly created website record. This will remove the default website configuration data from the target environment.
+1. On the *target* environment, using the [Portal Management app](../configure/portal-management-app.md), delete the newly created website record. This removes the default website configuration data from the target environment.
 
     :::image type="content" source="media/migrate-portal-config/delete-website.png" alt-text="Delete website record.":::
 
-1. On the *target* environment, in Power Apps, delete the portal app. This will remove the website currently configured to render the default site.
+1. On the *target* environment, in Power Apps, delete the portal app. This removes the website currently configured to render the default site.
 
     > [!NOTE]
-    > Do not delete the Portal Management app!
+    > Don't delete the Portal Management app!
 
     :::image type="content" source="media/migrate-portal-config/delete-portal.png" alt-text="Delete portal app.":::
 
@@ -52,7 +52,7 @@ You will need to prepare the target environment if you are using the standard da
 
 ## Reactivating site on target environment
 
-Once the website has been transferred to the target environment, you will need to reactivate the website.
+Once the website has been transferred to the target environment, you need to reactivate the website.
 
 1. On the target environment, on the Power Pages home screen, select **Inactive sites**, you should see the website you migrated to the environment.
 
@@ -67,16 +67,16 @@ Once the website has been transferred to the target environment, you will need t
 1. The website updates from the source environment should be reflected in this new target environment. Going forward, you should be able to transfer configuration from your source to target environments by transferring the website configuration data.
 
 > [!NOTE]
-> A website appearing in the **Inactive sites** list on the Power Pages home page will appear in the list of **Active Websites** in the [Portal Management app](../configure/portal-management-app.md).
+> A website appearing in the **Inactive sites** list on the Power Pages home page appears in the list of **Active Websites** in the [Portal Management app](../configure/portal-management-app.md).
 
 ## Transfer website metadata
 
 # [Solutions](#tab/sol)
 
-If your website is configured using the [enhanced data model](../admin/enhanced-data-model.md) you can transfer the website configuration using Power Platform solutions. For more information, go to [Using solutions with Power Pages](../configure/power-pages-solutions.md).
+If your website is configured using the [enhanced data model](../admin/enhanced-data-model.md), you can transfer the website configuration using Power Platform solutions. For more information, go to [Using solutions with Power Pages](../configure/power-pages-solutions.md).
 
 > [!NOTE]
-> Make sure the target environment is also has the [enhanced data model](../admin/enhanced-data-model.md) enabled.
+> Make sure the target environment also has the [enhanced data model](../admin/enhanced-data-model.md) enabled.
 
 # [Power Platform CLI](#tab/CLI)
 
@@ -96,7 +96,7 @@ The Microsoft Power Platform CLI provides many features specifically for [Power 
     pac auth create --name PORTALDEV --url https://contoso-org.crm.dynamics.com
     ```
 
-1. When the authentication profiles are created, they'll have an associated index that can be determined using the list command.
+1. When the authentication profiles are created, they have an associated index that can be determined using the list command.
 
     ```powershell
     pac auth list
@@ -161,8 +161,8 @@ The Microsoft Power Platform CLI provides many features specifically for [Power 
     ```
 
 > [!NOTE]
-> - The Power Platform CLI tool does not migrate Dataverse tables or table schema. Migration may fail with missing elements such as tables and fields when configuration data is mismatched with selected schema.
-> - During import, ensure the destination environment contains the same website template type already installed with any additional customizations such as tables, fields, forms or views imported separately as solutions.
+> - The Power Platform CLI tool doesn't migrate Dataverse tables or table schema. Migration might fail with missing elements such as tables and fields when configuration data is mismatched with selected schema.
+> - During import, ensure the destination environment contains the same website template type already installed with any other customizations such as tables, fields, forms, or views imported separately as solutions.
 
 # [Configuration Migration Tool](#tab/CMT)
 
@@ -199,9 +199,9 @@ The default schema files contain information about website tables, relationships
 After exporting the configuration data, you must import it into the target environment. More information: [Import website configuration data](#import-website-configuration-data)
 
 > [!NOTE]
-> - The Configuration Migration tool uses schema to export and import configuration data. The tool does not migrate Dataverse tables or table schema. Migration may fail with missing elements such as tables and fields when configuration data has mismatch with selected schema.
-> - During export, ensure the source environment contains website tables as specified in Configuration Migration tool schema file. You can still alter the schema files to add, remove, and modify tables, attributes, and so on to migrate subset of configuration data.
-> - During import, ensure the destination environment contains the same website type already installed with any additional customizations such as tables, fields, forms or views imported separately as solutions.
+> - The Configuration Migration tool uses schema to export and import configuration data. The tool doesn't migrate Dataverse tables or table schema. Migration might fail with missing elements such as tables and fields when configuration data has mismatch with selected schema.
+> - During export, ensure the source environment contains website tables as specified in Configuration Migration tool schema file. You can still alter the schema files to add, remove, and modify tables and attributes to migrate a subset of configuration data.
+> - During import, ensure the destination environment contains the same website type already installed with any other customizations such as tables, fields, forms, or views imported separately as solutions.
 
 ## Export website configuration data
 
@@ -209,7 +209,7 @@ You can export website configuration data from a source system by using website-
 
 1. Download the Configuration Migration tool and extract to the desired folder.
 
-1. Download website configuration schema file using links provided above for your website template type.
+1. Download website configuration schema file using links provided earlier for your website template type.
 
 1. Double-click the **DataMigrationUtility.exe** file in the 
 `<your_folder>\Tools\ConfigurationMigration` folder to run the Configuration Migration tool, choose **Export data** in the main screen, and then select **Continue**.
@@ -219,10 +219,10 @@ You can export website configuration data from a source system by using website-
 
 1. On the **Login** screen, provide authentication details to connect to your Dataverse environment from where you want to export data. If you have multiple organizations on the Dataverse environment from where to export the data, select the **Display list of available organizations** check box, and then select **Login**.
 
-1. If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dataverse environment to connect to.
+1. If you have multiple organizations, and you selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dataverse environment to connect to.
 
     > [!NOTE]
-    > If you do not have multiple organizations, this screen is not displayed.
+    > If you don't have multiple organizations, this screen isn't displayed.
 
 1. In **Schema file**, browse and select the website-specific configuration schema file to be used for the data export.
 
@@ -247,10 +247,10 @@ You can export website configuration data from a source system by using website-
 
 1. On the **Login** screen, provide authentication details to connect to your Dataverse environment from where you want to export data. If you have multiple organizations on the Dataverse environment from where to export the data, select the **Display list of available organizations** check box, and then select **Login**.
 
-1. If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dataverse environment to connect to.
+1. If you have multiple organizations, and you selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dataverse environment to connect to.
 
     > [!NOTE]
-    > - If you do not have multiple organizations, this screen is not displayed.
+    > - If you don't have multiple organizations, this screen isn't displayed.
     > - Ensure that the portal solution is already installed for the organization where you plan to import the configurations.
 
 1. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**.
@@ -268,7 +268,7 @@ You can export website configuration data from a source system by using website-
 
 If the migration process is updating an existing website, the updates should now be visible in the target environment. 
 
-If the migration is for a new website, the migrated website will be listed in the **Inactive sites** tab on the Power Pages home page.
+If the migration is for a new website, the migrated website is listed in the **Inactive sites** tab on the Power Pages home page.
 
 1. On the target environment, on the Power Pages home screen, select **Inactive sites**, you should see the website you migrated to the environment.
 

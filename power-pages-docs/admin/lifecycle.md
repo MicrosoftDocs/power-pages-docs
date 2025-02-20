@@ -1,21 +1,24 @@
 ---
 title: Power Pages lifecycle
-description: Information about Power Pages lifecycle and converting it from trial to production.
+description: Learn about the Power Pages lifecycle and how to convert a trial website to production.
 author: neerajnandwana-msft
-
 ms.topic: conceptual
-ms.custom: 
-ms.date: 12/14/2023
-ms.subservice: 
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:02/20/2025
+ms.date: 02/20/2025
+ms.subservice: null
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
-    - neerajnandwana-msft
+  - neerajnandwana-msft
 ---
 
 # Power Pages lifecycle
 
-A Power Pages website is always created as a trial, in a production, sandbox, or trial environment. A trial website is useful for trying out its capabilities at no cost. If the trial site is created in a trial environment, the trial site expires after 30 days or when your trial environment expires, whichever is earlier. If the trial site is created in a nonexpiring environment (for example, production or sandbox), your trial site expires after 90 days. 
+A Power Pages website is always created as a trial, in a production, sandbox, or trial environment. A trial website is useful for trying out its capabilities at no cost. If the trial site is created in a trial environment, the trial site expires after 30 days or when your trial environment expires, whichever is earlier. If the trial site is created in a nonexpiring environment (for example, production or sandbox), your trial site expires after 90 days.
+
 After it expires, the website is suspended and shut down. Seven days after suspension, the trial website host is deleted. You're notified at every stage of the website lifecycle (nearing suspension, suspended, deleted, and converted from trial to production) through email and toast notifications.
 
 > [!NOTE]
@@ -39,13 +42,13 @@ Let's understand each website lifecycle stage.
 Every website begins as a trial website that eventually expires based on the type of environment it was created in. You can convert it to a production website from the Power Platform admin center if you have the required licenses. More information: [Convert a website from trial to production](convert-site.md#convert-a-website-from-trial-to-production)
 
 > [!NOTE]
-> - When you create a trial site is created in a trial environment, it expires after 30 days or when trial environment expires, whichever is earlier. If your environment expires before the trial site expires, you'll lose access to your trial site.
-> - When you create a trial site is created in a non-expiring environment like production or sandbox, then your trial site will expire after 90 days, giving more time to build your website in a non-expiring environment. 
+> - When you create a trial site is created in a trial environment, it expires after 30 days or when trial environment expires, whichever is earlier. If your environment expires before the trial site expires, you lose access to your trial site.
+> - When you create a trial site is created in a non-expiring environment like production or sandbox, then your trial site will expire after 90 days, giving more time to build your website in a non-expiring environment.
 
 To convert a trial website to a production website, the environment needs the required licensing for external users or a license for internal users. More information: [Power Apps and Power Automate licensing FAQs](/power-platform/admin/powerapps-flow-licensing-faq) and [Power Pages licensing](/power-platform/admin/powerapps-flow-licensing-faq#power-pages).
 
 > [!IMPORTANT]
-> Once the website has been converted to production, you should ensure that the website is appropriately licensed with authenticated or anonymous user capacity corresponding to the expected user volume or enabled for pay-as-you-go. Scaling of the website resources is done automatically based on the Power Pages licensing capacity assigned to the environment. Not having appropriate licenses assigned can result in degraded performance. For information on how to allocate authenticated or anonymous user capacity, see [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
+> Once the website is converted to production, you should ensure that the website is appropriately licensed with authenticated or anonymous user capacity corresponding to the expected user volume or enabled for pay-as-you-go. Scaling of the website resources is done automatically based on the Power Pages licensing capacity assigned to the environment. Not having appropriate licenses assigned can result in degraded performance. For information on how to allocate authenticated or anonymous user capacity, see [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
 ## Suspended website
 
