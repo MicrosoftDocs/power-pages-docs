@@ -1,7 +1,7 @@
 ---
 title: Local authentication, registration, and other settings
 description: Learn about the settings you can use to control user authentication on sites you create with Microsoft Power Pages.
-ms.date: 07/19/2023
+ms.date: 02/05/2025
 ms.topic: conceptual
 author: sandhangitmsft
 ms.author: sandhan
@@ -89,7 +89,7 @@ Customize the invitation email to include the URL to the redeem invitation page 
 
 ### Disabled registration
 
-If registration is disabled for a user after the user has redeemed an invitation, use the following content snippet to display a message: `Account/Register/RegistrationDisabledMessage`
+If registration is disabled for a user after the user redeemed an invitation, use the following content snippet to display a message: `Account/Register/RegistrationDisabledMessage`
 
 ## Manage user accounts through profile pages
 
@@ -132,7 +132,7 @@ Make sure that the primary email address is specified for the contact. The confi
 Two-factor authentication increases user account security by requiring proof of ownership of a confirmed email address in addition to the standard local or external account authentication. When a user tries to sign in to an account that has two-factor authentication enabled, a security code is sent to the confirmed email address associated with the account. The user must enter the security code to complete the sign-in process. A user can choose to have the site remember the browser that successfully passed the verification so that a security code isn't required the next time the user signs in using the same browser. Each user account enables this feature individually and requires a confirmed email address.
 
 > [!WARNING]
-> If you create and enable the `Authentication/Registration/MobilePhoneEnabled` site setting to enable the legacy functionality, an error will occur. This site setting isn't provided out of the box and isn't supported by Power Pages.
+> If you create and enable the `Authentication/Registration/MobilePhoneEnabled` site setting to enable the legacy functionality, an error occurs. This site setting isn't provided out of the box and isn't supported by Power Pages.
 
 Related site settings:
 

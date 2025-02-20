@@ -3,7 +3,7 @@ title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: pranita225
 ms.topic: conceptual
-ms.date: 09/13/2024
+ms.date: 02/05/2025
 ms.author: prpadalw
 ms.reviewer: danamartens
 ms.collection:
@@ -20,12 +20,12 @@ ms.custom:
 
 # Add a form
 
-A form is a data-driven configuration that collects data in Power Pages sites. Forms on pages are created from Dataverse table forms. Dataverse table forms can be created by using the [Data workspace](use-data-workspace.md) or from [model-driven apps created in Power Apps](/power-apps/maker/model-driven-apps/form-designer-overview/). You can use them on pages or with [lists](add-list.md) to build a complete web application.
+A form is a data-driven configuration that collects data in Power Pages sites. Forms on pages are created from Dataverse table forms. Create Dataverse table forms by using the [Data workspace](use-data-workspace.md) or from [model-driven apps created in Power Apps](/power-apps/maker/model-driven-apps/form-designer-overview/). Use them on pages or with [lists](add-list.md) to build a complete web application.
 
 > [!TIP]
 >
 > - You can [use Copilot to add forms to your Power Pages site](add-form-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages ](../configure/ai-copilot-overview.md).
-> - We've created a series of tutorials and videos for you to learn to use Power Pages and how to create and add a form to a page. For more information, go to [Tutorial: Add a form to a page](tutorial-add-form-to-page.md).
+> - We created a series of tutorials and videos for you to learn to use Power Pages and how to create and add a form to a page. For more information, go to [Tutorial: Add a form to a page](tutorial-add-form-to-page.md).
 
 To add a form:
 
@@ -33,19 +33,17 @@ To add a form:
 
 1. Go to the **Pages** workspace.
 
-1. Select the page you want to edit.
+1. Select the page to edit.
 
-1. Select the section you want to add the form component to.
+1. Select the section to add the form component.
 
 1. Hover over any editable canvas area, then select the **Form** icon from the component panel.
 
-    :::image type="content" source="media/common/component-options.png" alt-text="The add component menu options.":::
+    :::image type="content" source="media/common/component-options.png" alt-text="Screenshot of the add component menu options.":::
 
-1. You can choose either to create a new form or use an existing form (if a maker created one previously).
+1. Choose either to create a new form or use an existing form (if a maker created one previously).
 
-   If you choose to create a new form, you need to enter the following criteria.
-  
-    :::image type="content" source="media/first-page/add-form.png" alt-text="Add a form to a page.":::
+    If you choose to create a new form, enter the following criteria.
 
     | Option | Description |
     | ----------- | ----------- |
@@ -58,9 +56,9 @@ To add a form:
     | Attachments | Allows you to [enable and configure attachments](#enable-attachments-on-a-form) for the form. |
 
     > [!NOTE]
-    > You'll need to enable [table permissions](../security/table-permissions.md) to ensure that users will be able to interact with the data on the forms.
+    > You need to enable [table permissions](../security/table-permissions.md) to ensure that users are able to interact with the data on the forms.
 
-1. You can select the ellipsis (**...**) to duplicate the form, move it up or down within the section, or delete it.
+1. Select the ellipsis (**...**) to duplicate the form, move it up or down within the section, or delete it.
 
 ## Edit a text field on the form
 
@@ -96,11 +94,11 @@ To edit a form field:
 To delete a form field:
 
 1. Hover over and select the field from the canvas.
-1. Choose the ellipse **...** in the tool bar.
+1. Choose the ellipse **...** in the toolbar.
 1. Select **Delete**.
 
 > [!WARNING]
-> This will also delete the field from the corresponding Dataverse form.
+> This also deletes the field from the corresponding Dataverse form.
 
 ## Enable attachments on a form
 
@@ -118,7 +116,7 @@ To enable attachments on a form:
 
     > [!NOTE]
     > Before you can successfully use Azure Blob Storage for attachments, some prerequisites are required:
-    > - The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If the requirement is not met, you’ll see a message "To access more controls for file upload, update the Dataverse Base portal package."
+    > - The version of the Dataverse Base portal package needs to be at least 9.3.2405.xx. If the requirement isn't met, you see a message "To access more controls for file upload, update the Dataverse Base portal package."
     > - The runtime version of your Power Pages website needs to be at least 9.6.5.1.
 
 1. If you use Azure Blob Storage, enter values for the **Azure storage account name** and the **Azure container name**. Learn more at [Enable Azure Storage](../configure/enable-azure-storage.md).
@@ -147,9 +145,9 @@ Once configured, the file upload placeholder shows in the canvas.
 
 ## New file upload experience
 
-With the new file upload experience, users can see the file name, file type, file size, upload progress bar, and the delete option. If the upload fails (for example, if the file type isn’t supported or the upload exceeds the maximum number of files), an error message appears.
+With the new file upload experience, users see the file name, file type, file size, upload progress bar, and the delete option. If the upload fails (for example, if the file type isn’t supported or the upload exceeds the maximum number of files), an error message appears.
 
-New sites automatically enable the new file upload experience, including sites that are changed from developer to production. 
+New sites automatically enable the new file upload experience, including sites changed from developer to production.
 Existing sites must opt into the new file upload experience.
 
 Opt into the new experience by creating a [site setting](../configure/configure-site-settings.md) named **EnhancedFileUpload** with a value of **true**. New sites are automatically enabled.
@@ -158,7 +156,7 @@ To disable the new experience, set the value of the **EnhancedFileUpload** [site
 
 ## Enabling table permissions
 
-When you add a new form, you see a prompt to set permissions to allow site users to interact with the form. The settings for table permissions are prepopulated (**create** and **append to**), but you still need to assign web roles and save the settings. The process automatically creates the child table permissions for the **note (annotations)** table, which contain the attachments.
+When you add a new form, you see a prompt to set permissions to let site users interact with the form. The settings for table permissions are prepopulated (**create** and **append to**), but you still need to assign web roles and save the settings. The process automatically creates the child table permissions for the **note (annotations)** table, which contain the attachments.
 
 :::image type="content" source="media/add-form/configure-table-permissions.png" alt-text="Configure table permissions.":::
 
@@ -170,31 +168,31 @@ For more information, go to [Configuring table permissions](../security/table-pe
 
 ## Enable code components on form fields
 
-If a Dataverse form field is configured to use a code component using the Data workspace or a model-driven app, you can enable the code component to be used on a webpage form.
+If a Dataverse form field is set up to use a code component with the Data workspace or a model-driven app, you can enable the code component on a webpage form.
 
 To enable a code component:
 
-1. Select the **Edit code component** button from the menu.
+1. Select **Edit code component** from the menu.
 
-1. Switch the **Enable custom component field** toggle switch to the on position.
+1. Switch the **Enable custom component field** toggle to the on position.
 
 Custom components are now enabled for that field.
 
 ### Edit code component properties on form fields (preview)
 
-You can also edit the properties of a component from inside the Pages workspace.
+Edit the properties of a component from inside the Pages workspace.
 
 > [!IMPORTANT]
 >
 > - This is a preview feature.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
-After you [enable a code component](#enable-code-components-on-form-fields), properties for that component will appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
+After you [enable a code component](#enable-code-components-on-form-fields), properties for that component appear below the **Enable custom component field** toggle switch. Set the values for these properties and select **Done**.
 
 ### Enable AI form fill assistance on a form (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
+Enabling AI form fill gives your users AI assistance to fill the form faster and with higher accuracy. Enable AI form fill by switching on the toggle.
 Enabling AI form fill gives your form users AI assistance that helps them fill the form faster and with higher accuracy. You can enable AI form fill by switching on the toggle.
   
 :::image type="content" source="media/add-form/ai-form-fill.png" alt-text="Screenshot of the AI form fill setting in the Form settings section of Power Pages.":::
@@ -202,26 +200,26 @@ Enabling AI form fill gives your form users AI assistance that helps them fill t
 > [!IMPORTANT]
 >
 > - This is a preview feature.
-> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - This feature is not available in Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
+> - Preview features aren't meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - This feature isn't available in Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
 > - Power Pages site version must be 9.6.9.XX or higher.
 
-On enabling form filling assistance, users are able to:
+When you enable form filling assistance, users can:
 
-- Auto fill forms from attachments: Your users can attach a file and the AI assistance auto fills the fields by extracting relevant information from the attachments. Users can attach documents (PDFs) and images (JPEG, PNG). Users can always edit the auto filled fields if needed.
+- Auto fill forms from attachments: Users can attach a file, and the AI assistance auto fills the fields by extracting relevant information from the attachments. Users can attach documents (PDFs) and images (JPEG, PNG). Users can always edit the auto filled fields if needed.
 
   :::image type="content" source="media/add-form/ai-form-fill-example.png" alt-text="Screenshot showing an example of the AI form fill feature.":::
 
-- Use Draft assistance for multi-line text fields: If your form has a multi-line text field, users are able to use 'Draft assistance' to rewrite their inputs and improve their drafts.  
+- Use Draft assistance for multi-line text fields: If your form has a multi-line text field, users can use 'Draft assistance' to rewrite their inputs and improve their drafts.
 
   :::image type="content" source="media/add-form/ai-form-fill-example2.png" alt-text="Screenshot showing an example of the AI form fill feature and how AI responds.":::
 
 ## Conditions that prevent AI form fill activation
 
-AI form fill cannot be enabled, and users will be unable to use it under the following conditions:
+AI form fill can't be enabled, and users can't use it under the following conditions:
 
-- Your organization's administrators have disabled AI features for end users using governance controls. Learn more about governance controls at [Disable Generative AI features for users (preview)](../admin/copilot-governance.md).
-- The site is part of an environment where admins have disabled data across regions. Learn more about allowing data to cross regions at [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+- Your organization's admins disabled AI features for end users using governance controls. Learn more about governance controls at [Disable Generative AI features for users (preview)](../admin/copilot-governance.md).
+- The site is part of an environment where admins disabled data across regions. Learn more about allowing data to cross regions at [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
 ## Known Limitations
 
@@ -231,7 +229,7 @@ AI form fill cannot be enabled, and users will be unable to use it under the fol
 
     Forms used to edit Dataverse records don't have the AI form fill capability.
 
-1. For new forms created, ensure that you add the right table permissions before enabling AI form fill.
+1. For new forms created, ensure you add the right table permissions before enabling AI form fill.
 
 ## See also
 

@@ -1,8 +1,8 @@
 ﻿---
-title: Migrate existing sites to Bootstrap version 5 (preview)
+title: Migrate existing sites to Bootstrap version 5
 description: Learn how to migrate your existing Power Pages sites to Bootstrap version 5 with the help of the Microsoft Power Platform CLI.
 ms.topic: how-to
-ms.date: 06/25/2024
+ms.date: 01/31/2025
 ms.subservice:
 author: ankitavish
 ms.author: avishwakarma
@@ -16,16 +16,12 @@ ms.custom:
   - bap-template
 ---
 
-# Migrate existing sites to Bootstrap version 5 (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Migrate existing sites to Bootstrap version 5
 
 [Bootstrap version 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) offers new features and updates that make your Power Pages sites more responsive and easier to customize.
 
 > [!IMPORTANT]
 >
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - You can migrate any of your Bootstrap version 3 sites to version 5 regardless of the template that was used to create them.
 > - When you migrate existing Bootstrap version 3 sites to version 5, you can use either the standard data model or the [enhanced data model](../admin/enhanced-data-model.md).
 > - Consider testing the migration with a [developer site](../getting-started/developer-sites.md).

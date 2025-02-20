@@ -200,7 +200,7 @@
               href: configure/bootstrap-overview.md
             - name: Create new sites with Bootstrap version 5
               href: configure/bootstrap-version-5.md
-            - name: Migrate existing sites to Bootstrap version 5 (preview)
+            - name: Migrate existing sites to Bootstrap version 5
               href: configure/migrate-bootstrap.md
         - name: Manage CSS files
           href: configure/manage-css.md

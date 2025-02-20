@@ -1,7 +1,7 @@
 ---
 title: FAQ for Copilot for site creation
 description: This FAQ provides information about Copilot for site creation in Power Pages, along with key considerations for making use of this technology responsibly.
-ms.date: 08/30/2024
+ms.date: 02/05/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
