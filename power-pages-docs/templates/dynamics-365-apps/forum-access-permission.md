@@ -45,7 +45,7 @@ The table below explains the forum access permission attributes used by Power Pa
 |Right    |The permission settings are:<br /><ul><li>**Restrict Read**: Prevents viewing of the forum for users unless in a web role associated with the rule.</li><li>**Grant Change**: Allows a user in a web role associated with the rule to moderate the forum. Grant Change takes precedence over Restrict Read.</li></ul>                                                                 |
 
 > [!NOTE]
-> Starting from Power Pages site version 10.7.1.33, default forum access permission is disabled. Makers need to configure 'Restrict Read' to provide forum access.
+> Starting from Power Pages site version 10.7.1.33, default Forum Access Permission is disabled. Makers need to configure 'Restrict Read' to provide Forum Access Permission.
 
 ### See also
 
