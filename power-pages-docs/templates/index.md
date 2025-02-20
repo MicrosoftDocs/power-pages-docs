@@ -4,7 +4,7 @@ description: Learn the features of Power Pages templates.
 author: meeramahabala
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/21/2023
+ms.date: 02/20/2025
 ms.author: meeram
 ms.reviewer: danamartens
 contributors:
