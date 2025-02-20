@@ -130,20 +130,20 @@ You can manage site settings with environment variables whether you deploy [solu
 Set up your environment variables and sites across different environments by following these steps:
   
 1. **Set up environment variables in the source environment**:
-    1. Open the [Power Apps portal](https://make.powerapps.com/).
+    1. Open the [Power Pages portal](https://make.powerpages.microsoft.com/) or [Power Apps portal](https://make.powerapps.com/).
     1. Go to **Solutions** in the source environment.
     1. Within a solution, add a new environment variable by entering the required details and saving it.
 
         :::image type="content" source="media/environment-variables-for-site-settings/environment-variable-solution-import.png" alt-text="Screenshot of the environment variable assignment during solution import.":::
 
-    1. Incorporate the existing site into the solution.
+        :::image type="content" source="media/environment-variables-for-site-settings/new-environment-variable.png" alt-text="Screenshot of the pipeline configuration for environment variables.":::
+
+    1. Add the existing site to the solution.
   
 1. **Configure site settings**:
     1. Open the **Power Pages Management app** and access **Site Settings**.
     1. Select the site setting to define for the environment.
     1. Use the dropdown menu to select or create an environment variable. Users can view and choose environment variables created through the solutions flow in this dropdown.
-
-        :::image type="content" source="media/environment-variables-for-site-settings/new-environment-variable.png" alt-text="Screenshot of the pipeline configuration for environment variables.":::
 
 > [!NOTE]
 > In the site settings, the dropdown menu displays the names of environment variables created using the solutions flow, allowing users to easily select and associate them.
@@ -175,11 +175,11 @@ You can use environment variables for site settings in the following surfaces:
     :::image type="content" source="media/environment-variables-for-site-settings/sync-button.png" alt-text="Screenshot of the Sync button in the studio interface.":::
 
 1. Clear the cache from the portal:
-   - Sign in to the portal as an administrator and go to the website with '/_services/about' appended to the URL. For example: [https://contoso.powerappsportals.com/_services/about](https://contoso.powerappsportals.com/_services/about).
+    1. Sign in to the portal as an administrator and go to the website with `/_services/about` appended to the URL. For example: [https://contoso.powerappsportals.com/_services/about](https://contoso.powerappsportals.com/_services/about).
 
-     :::image type="content" source="media/environment-variables-for-site-settings/clear-cache.png" alt-text="Screenshot of the portal details page showing the Clear cache button.":::
+         :::image type="content" source="media/environment-variables-for-site-settings/clear-cache.png" alt-text="Screenshot of the portal details page showing the Clear cache button.":::
 
-   - On the portal details page, select **Clear cache**.
+    1. On the portal details page, select **Clear cache**.
   
 1. Restart the portal from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
