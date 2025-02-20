@@ -4,11 +4,11 @@ description: Learn about managing forum access permissions in Power Pages.
 author: meeramahabala
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/10/2023
+ms.date: 2/20/2025
 ms.subservice: 
 ms.author: meeram
 ms.reviewer: danamartens
-contributors:
+contributors: nageshbhat-msft
 ---
 
 # Manage forum access permissions
@@ -43,6 +43,9 @@ The table below explains the forum access permission attributes used by Power Pa
 |Name     |A name used for reference within Microsoft Dataverse.                              |
 |Forum    |The [forum threads](manage-forum-threads.md) associated with the permission.       |
 |Right    |The permission settings are:<br /><ul><li>**Restrict Read**: Prevents viewing of the forum for users unless in a web role associated with the rule.</li><li>**Grant Change**: Allows a user in a web role associated with the rule to moderate the forum. Grant Change takes precedence over Restrict Read.</li></ul>                                                                 |
+
+> [!NOTE]
+> Starting with Power Pages site version 9.7.1.34, default read access on the forum is turned off. Makers need to configure Forum Access Permission with 'Restrict Read' to provide access.
 
 ### See also
 
