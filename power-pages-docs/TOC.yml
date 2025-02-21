@@ -352,6 +352,8 @@
         href: configure/portal-management-app.md
       - name: Configure site settings
         href: configure/configure-site-settings.md
+      - name: Use environment variables with site settings
+        href: configure/environment-variables-for-site-settings.md
       - name: Configure form and list metadata
         items:
         - name: Configure lists

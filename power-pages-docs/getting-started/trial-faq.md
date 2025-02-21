@@ -35,7 +35,7 @@ The following limitations apply to the trial:
 
 ## What email address can I use?
 
-You need to use a work or school email account connected to a Microsoft 365 service to use Power Pages. You can set up a new work or school account by signing up for a new [Microsoft 365 E3](/microsoft-365/commerce/try-or-buy-microsoft-365) or Dynamics 365 Sales or Customer Service [Trial](https://dynamics.microsoft.com/dynamics-365-free-trial/) with your personal email.
+You need to use a work or school email account connected to a Microsoft 365 service to use Power Pages. You can set up a new work or school account by signing up for a new [Microsoft 365 E3](/microsoft-365/commerce/try-or-buy-microsoft-365) or Dynamics 365 Sales or Customer Service [Trial](https://www.microsoft.com/dynamics-365/free-trial) with your personal email.
 
 ## Is Power Pages available in my location?
 
