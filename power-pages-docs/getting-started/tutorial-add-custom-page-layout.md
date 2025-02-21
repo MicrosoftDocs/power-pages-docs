@@ -93,35 +93,35 @@ We're creating a web template that reads the navigation record from the associat
 
 :::image type="content" source="media/tutorial-custom-layouts/web-links-left-navigation.png" alt-text="Screenshot of a custom web template with navigation and content.":::
 
-    ### Weblinks Left Navigation (Web Template)
+### Weblinks Left Navigation (Web Template)
 
-    Note how the code uses the Liquid `extends` keyword to incorporate the base layout template.
+Note how the code uses the Liquid `extends` keyword to incorporate the base layout template.
 
-    ```html
-    {% extends 'Two Column Layout' %}
-    
-    {% block sidebar %}
-      {% assign weblinkset_id = page.adx_navigation.id %}
-      {% if weblinkset_id %}
-        {% assign nav = weblinks[page.adx_navigation.id] %}
-        {% if nav %}
-          <div class=list-group>
-            {% for link in nav.weblinks %}
-              <a class=list-group-item href={{ link.url }}>
-                {{ link.name }}
-              </a>
-            {% endfor %}
-          </div>
-        {% endif %}
-      {% endif %}
-    {% endblock %}
-    
-    {% block content %}
-      <div id="mainContent" class = "wrapper-body" role="main">
-        {% include 'Page Copy' %}
+```html
+{% extends 'Two Column Layout' %}
+
+{% block sidebar %}
+  {% assign weblinkset_id = page.adx_navigation.id %}
+  {% if weblinkset_id %}
+    {% assign nav = weblinks[page.adx_navigation.id] %}
+    {% if nav %}
+      <div class=list-group>
+        {% for link in nav.weblinks %}
+          <a class=list-group-item href={{ link.url }}>
+            {{ link.name }}
+          </a>
+        {% endfor %}
       </div>
-    {% endblock %}
-    ```
+    {% endif %}
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  <div id="mainContent" class = "wrapper-body" role="main">
+    {% include 'Page Copy' %}
+  </div>
+{% endblock %}
+```
 
 ## Step 3: Create a new page template based on the web template
 
