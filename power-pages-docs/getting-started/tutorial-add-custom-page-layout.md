@@ -4,7 +4,7 @@ description: Learn how to add a custom page layout to your Power Pages sites.
 author: gitanjalisingh33msft
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 02/10/2025
+ms.date: 02/20/2025
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: danamartens 
