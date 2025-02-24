@@ -4,13 +4,14 @@ description: Learn how to make your Power Pages sites accessible.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/07/2023
+ms.date: 2/24/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
     - carltoncolter
+    -nageshbhat-msft
 ---
  
 # Accessibility in Power Pages
@@ -23,11 +24,11 @@ Power Pages conforms to global accessibility standards. The following accessibil
 
 For more details about each of the follow accessibility standards, go to [Microsoft Accessibility Conformance Reports](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/).
 
-### WCAG 2.1
+### WCAG 2.2
 
-The [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) cover a wide range of recommendations to create accessible web content. Following the guidelines makes your content accessible to a wide range of users and includes accommodations for people with visual impairments, hearing loss, limited mobility, inability to speak, blindness and low vision, deafness and hearing loss, limited movement, photo sensitivity, and cognitive or developmental disabilities. These guidelines also address the accessibility of web content on desktops, laptops, tablets, and mobile devices. 
+The [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) cover a wide range of recommendations to create accessible web content. Following the guidelines makes your content accessible to a wide range of users and includes accommodations for people with visual impairments, hearing loss, limited mobility, inability to speak, blindness and low vision, deafness and hearing loss, limited movement, photo sensitivity, and cognitive or developmental disabilities. These guidelines also address the accessibility of web content on desktops, laptops, tablets, and mobile devices. 
 
-Power Pages conforms to the WCAG 2.1 accessibility standard.
+Power Pages conforms to the WCAG 2.2 accessibility standard.
 
 ### US Section 508
 
