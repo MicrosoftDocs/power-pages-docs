@@ -237,6 +237,17 @@ The following table describes settings for modifying default authentication cook
 | Authentication/TwoFactorCookie/AuthenticationType | Sets the type of two-factor authentication cookie. Default: TwoFactorCookie |
 | Authentication/TwoFactorCookie/ExpireTimeSpan | Controls how much time a two-factor cookie remains valid from the moment it was created. the value shouldn't exceed six minutes. Default: 5 minutes |
 
+## Login throttling settings
+
+Below settings helps to regulate user requests to the website by limiting the number of failed login attempts within a configurable time frame. Once the specified limit is reached, system enforces a waiting period before they can attempt to log in again.
+
+Related site settings:
+
+- `Authentication/LoginThrottling/IpAddressTimeoutTimeSpan`
+- `Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan`
+- `Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress`
+
+
 ## Next steps
 
 [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
