@@ -42,7 +42,7 @@ On the left pane of the **Data** workspace, the **Tables in this site** section 
 
     > [!NOTE]
     > The table will be created as part of the *default* solution.
-    > Power Pages does not currently support [Dataverse Elastic Tables](/power-apps/maker/data-platform/create-edit-elastic-tables).
+    > Power Pages doesn't support [Dataverse Elastic Tables](/power-apps/maker/data-platform/create-edit-elastic-tables).
 
 1. Select **Create**.
 
