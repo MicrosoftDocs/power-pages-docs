@@ -4,13 +4,14 @@ description: Learn how to use the Data workspace to create Dataverse tables.
 author: pranita225
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/21/2024
+ms.date: 03/06/2025
 ms.subservice:
 ms.author: prpadalw
 ms.reviewer: dmartens
 contributors:
     - pranita225
     - DanaMartens
+    - nageshbhat-msft
 ---
 
 # How to create and modify Dataverse tables by using the Data workspace
@@ -41,6 +42,7 @@ On the left pane of the **Data** workspace, the **Tables in this site** section 
 
     > [!NOTE]
     > The table will be created as part of the *default* solution.
+    > Power Pages doesn't support [Dataverse Elastic Tables](/power-apps/maker/data-platform/create-edit-elastic-tables).
 
 1. Select **Create**.
 
