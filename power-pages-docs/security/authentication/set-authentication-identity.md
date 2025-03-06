@@ -1,7 +1,7 @@
 ---
 title: Local authentication, registration, and other settings
 description: Learn about the settings you can use to control user authentication on sites you create with Microsoft Power Pages.
-ms.date: 02/05/2025
+ms.date: 03/06/2025
 ms.topic: conceptual
 author: sandhangitmsft
 ms.author: sandhan
@@ -239,14 +239,13 @@ The following table describes settings for modifying default authentication cook
 
 ## Login throttling settings
 
-Below settings helps to regulate user requests to the website by limiting the number of failed login attempts within a configurable time frame. Once the specified limit is reached, system enforces a waiting period before they can attempt to log in again.
+These settings help regulate user requests to the website by limiting the number of failed sign-in attempts within a configurable time frame. Once the specified limit is reached, the system enforces a waiting period before the user can attempt to sign in again.
 
-Related site settings:
+The following related [site settings](../../configure/configure-site-settings.md) are available:
 
 - `Authentication/LoginThrottling/IpAddressTimeoutTimeSpan`
 - `Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan`
 - `Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress`
-
 
 ## Next steps
 
