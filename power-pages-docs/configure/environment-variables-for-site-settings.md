@@ -15,7 +15,7 @@ ms.custom:
 
 # Use environment variables with site settings
 
-Environment variables for site settings let makers and admins manage configuration values flexibly across environments. They enable smoother application lifecycle management (ALM) and deployment processes.
+Environment variables for site settings let makers and admins manage configuration values flexibly across environments. They enable smoother application lifecycle management (ALM) and deployment processes. Learn more in [Environment variables for Power Platform](/power-apps/maker/data-platform/environmentvariables).
 
 ## Solution for enhanced data model
 
