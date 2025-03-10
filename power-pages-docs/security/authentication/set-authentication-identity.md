@@ -1,7 +1,7 @@
 ---
 title: Local authentication, registration, and other settings
 description: Learn about the settings you can use to control user authentication on sites you create with Microsoft Power Pages.
-ms.date: 02/05/2025
+ms.date: 03/06/2025
 ms.topic: conceptual
 author: sandhangitmsft
 ms.author: sandhan
@@ -236,6 +236,16 @@ The following table describes settings for modifying default authentication cook
 | Authentication/ApplicationCookie/SecurityStampValidator/ValidateInterval | Sets the period of time between security stamp validations. Default: 30 minutes |
 | Authentication/TwoFactorCookie/AuthenticationType | Sets the type of two-factor authentication cookie. Default: TwoFactorCookie |
 | Authentication/TwoFactorCookie/ExpireTimeSpan | Controls how much time a two-factor cookie remains valid from the moment it was created. the value shouldn't exceed six minutes. Default: 5 minutes |
+
+## Login throttling settings
+
+These settings help regulate user requests to the website by limiting the number of failed sign-in attempts within a configurable time frame. Once the specified limit is reached, the system enforces a waiting period before the user can attempt to sign in again.
+
+The following related [site settings](../../configure/configure-site-settings.md) are available:
+
+- `Authentication/LoginThrottling/IpAddressTimeoutTimeSpan`
+- `Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan`
+- `Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress`
 
 ## Next steps
 
