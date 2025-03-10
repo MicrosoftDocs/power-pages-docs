@@ -3,7 +3,7 @@ title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: pranita225
 ms.topic: conceptual
-ms.date: 02/05/2025
+ms.date: 03/05/2025
 ms.author: prpadalw
 ms.reviewer: danamartens
 ms.collection:
@@ -220,6 +220,7 @@ AI form fill can't be enabled, and users can't use it under the following condit
 
 - Your organization's admins disabled AI features for end users using governance controls. Learn more about governance controls at [Disable Generative AI features for users (preview)](../admin/copilot-governance.md).
 - The site is part of an environment where admins disabled data across regions. Learn more about allowing data to cross regions at [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+- The form is highly customized with custom JavaScript or styles. In such cases, add a [site setting](../configure/configure-site-settings.md) for the site with the site setting name `Forms/{FormId}/EnableGenAIFormsAssistant` and set the value to `true`. Replace `{FormId}` with the ID for your form. You can find the ID of a form at the end of the URL when you open a form in the Data workspace.
 
 ## Known Limitations
 
