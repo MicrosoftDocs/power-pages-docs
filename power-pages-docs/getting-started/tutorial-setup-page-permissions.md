@@ -6,7 +6,7 @@ ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 02/14/2023
 ms.subservice:
-ms.author: avishwakarma
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - ankitavish
