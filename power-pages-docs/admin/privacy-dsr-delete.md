@@ -1,6 +1,7 @@
 ---
 title: Responding to Data Subject Rights (DSR) requests to delete Power Pages customer data
 description: Walkthrough of how to respond to Data Subject Rights (DSR) requests to delete Power Pages customer data.
+author: PramithaU
 ms.reviewer: dmartens
 ms.topic: overview
 ms.date: 10/08/2024

@@ -1,6 +1,7 @@
 ---
 title: Set up DocuSign integration (preview)
 description: Learn how to set up DocuSign integration with your website. Include document generation and e-signature functionality in multistep forms using DocuSign in Power Pages.
+author: PramithaU
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/13/2024

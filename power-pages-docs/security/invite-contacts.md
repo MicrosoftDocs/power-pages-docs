@@ -4,7 +4,7 @@ description: Learn how to create and send invitations to users to register on si
 ms.date: 07/20/2023
 ms.topic: how-to
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

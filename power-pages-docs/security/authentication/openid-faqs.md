@@ -4,7 +4,7 @@ description: Get answers to frequently asked questions about using OpenID Connec
 ms.date: 07/19/2023
 ms.topic: conceptual
 author: dileepsinghmicrosoft
-ms.author: dileeps
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

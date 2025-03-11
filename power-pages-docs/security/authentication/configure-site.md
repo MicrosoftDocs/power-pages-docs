@@ -5,7 +5,7 @@ ms.date: 09/20/2024
 ms.topic: how-to
 ms.collection: get-started
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

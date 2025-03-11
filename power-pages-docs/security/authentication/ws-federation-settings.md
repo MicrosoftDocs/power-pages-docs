@@ -4,7 +4,7 @@ description: Learn how to set up a WS-Federation identity provider with Active D
 ms.date: 09/10/2024
 ms.topic: how-to
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

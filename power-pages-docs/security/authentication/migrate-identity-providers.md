@@ -4,7 +4,7 @@ description: Learn how to migrate your Power Pages site's identity providers to 
 ms.date: 07/19/2023
 ms.topic: how-to
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

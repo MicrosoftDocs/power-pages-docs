@@ -4,7 +4,7 @@ description: Learn how to set up a SAML 2.0 identity provider with Microsoft Ent
 ms.date: 09/10/2024
 ms.topic: how-to
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

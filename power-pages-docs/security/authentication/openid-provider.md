@@ -4,7 +4,7 @@ description: Learn how to set up an OpenID Connect provider for use with sites y
 ms.date: 09/10/2024
 ms.topic: how-to
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

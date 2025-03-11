@@ -4,7 +4,7 @@ description: Learn how to set up an OpenID Connect identity provider with Micros
 ms.date: 02/07/2025
 ms.topic: how-to
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

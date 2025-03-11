@@ -4,7 +4,7 @@ description: Learn how to set up OAuth 2.0 identity providers such as Microsoft,
 ms.date: 07/19/2023
 ms.topic: overview
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

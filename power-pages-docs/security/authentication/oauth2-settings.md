@@ -4,7 +4,7 @@ description: Learn about other settings you can change when you add an OAuth 2.0
 ms.date: 11/15/2024
 ms.topic: how-to
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

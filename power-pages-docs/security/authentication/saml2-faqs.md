@@ -4,7 +4,7 @@ description: Get answers to frequently asked questions about using SAML 2.0 prov
 ms.date: 07/19/2023
 ms.topic: how-to
 author: dileepsinghmicrosoft
-ms.author: dileeps
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

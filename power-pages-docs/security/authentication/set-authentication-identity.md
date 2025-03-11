@@ -4,7 +4,7 @@ description: Learn about the settings you can use to control user authentication
 ms.date: 03/06/2025
 ms.topic: conceptual
 author: sandhangitmsft
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft
