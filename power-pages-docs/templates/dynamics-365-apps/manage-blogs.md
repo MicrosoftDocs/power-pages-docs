@@ -1,12 +1,12 @@
 ---
 title: Manage blogs
 description: Learn how to manage blogs on a Power Pages site."
-author: dileepsinghmicrosoft
+author: murugesh1985
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: dileeps
+ms.author: murugeshs
 ms.reviewer: danamartens
 contributors:
     - dileepsinghmicrosoft

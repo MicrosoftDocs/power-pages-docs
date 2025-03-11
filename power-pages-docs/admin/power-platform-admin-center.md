@@ -1,13 +1,11 @@
 ---
 title: Manage websites from the Power Platform admin center
 description: Learn about Power Pages admin settings in the Power Platform admin center.
-author: vamseedillimsft
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/19/2024
 ms.subservice: 
-ms.author: vamseedilli
+ms.author: pudupa
 ms.reviewer: danamartens
 contributors:
     - vamseedillimsft

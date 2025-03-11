@@ -1,12 +1,12 @@
 ---
 title: Integrate Project Service Automation
 description: Learn how to integrate Project Service Automation with a Power Pages site.
-author: dileepsinghmicrosoft
+author: murugesh1985
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: dileeps
+ms.author: murugeshs
 ms.reviewer: danamartens
 contributors:
     - dileepsinghmicrosoft

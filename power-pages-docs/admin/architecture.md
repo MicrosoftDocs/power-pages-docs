@@ -1,13 +1,11 @@
 ---
 title: Power Pages architecture 
 description: Learn about how Power Pages architecture
-author: dileepsinghmicrosoft
-
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/03/2023
 ms.subservice: 
-ms.author: dileeps
+ms.author: pudupa
 ms.reviewer: danamartens
 contributors:
     - dileepsinghmicrosoft

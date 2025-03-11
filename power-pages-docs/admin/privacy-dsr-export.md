@@ -1,11 +1,10 @@
 ---
 title: Responding to Data Subject Rights (DSR) requests to export Power Pages customer data
 description: Walkthrough of how to respond to Data Subject Rights (DSR) requests to export Power Pages customer data.
-author: dileepsinghmicrosoft
 ms.reviewer: dmartens
 ms.topic: overview
 ms.date: 10/08/2024
-ms.author: dileeps
+ms.author: pudupa
 search.audienceType: 
   - admin
 contributors:

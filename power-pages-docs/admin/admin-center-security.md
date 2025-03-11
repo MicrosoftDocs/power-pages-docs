@@ -1,12 +1,11 @@
 ---
 title: Manage website security from the Power Platform admin center (preview)
 description: Learn how to manage website security in the Power Platform admin center.
-author: vamseedillimsft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/19/2024
 ms.subservice: 
-ms.author: vamseedilli
+ms.author: pudupa
 ms.reviewer: danamartens
 contributors:
     - vamseedillimsft
