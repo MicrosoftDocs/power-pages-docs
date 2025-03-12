@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/24/2024
 ms.subservice:
-ms.author: avishwakarma
+ms.author: bipuldeora
 ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
