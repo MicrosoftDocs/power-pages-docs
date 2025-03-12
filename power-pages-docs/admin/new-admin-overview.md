@@ -47,7 +47,7 @@ Find the Power Pages licenses view on the **Licensing** page to manage license-r
 
 ### Security dashboard
 
-For security insights and actions, go to the **Security** page and select **Power Pages** under the **Products** section. The security dashboard offers the same features as the classic admin center. Learn more in [Manage website security from the Power Platform admin center (preview)](./admin-center-security.md).
+For security insights and actions, go to the **Security** page and select **Power Pages** under the **Products** section. The security dashboard offers the same features as the classic admin center. Learn more in [Manage website security from the Power Platform admin center](./admin-center-security.md).
 
 :::image type="content" source="./Media/new-admin-center/security-dashboard.png" alt-text="Screenshot of the security dashboard in the Security page in the new Power Platform admin center.":::
 
