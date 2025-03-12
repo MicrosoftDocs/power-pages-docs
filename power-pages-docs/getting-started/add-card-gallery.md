@@ -1,9 +1,9 @@
 ---
-title: Create and customize a card gallery in Power Pages (preview)
+title: Create and customize a card gallery in Power Pages
 description: Learn how to use design studio or Liquid code to add, style, and configure a card gallery in Power Pages sites.
 author: pranita225
 ms.topic: conceptual
-ms.date: 06/18/2024
+ms.date: 03/12/2025
 ms.author: prpadalw
 ms.reviewer: danamartens
 contributors:
@@ -12,16 +12,9 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:05/23/2024
 ---
-# Create and customize a card gallery in Power Pages (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Create and customize a card gallery in Power Pages
 
 A card gallery is a data control that displays data from a table and view in cards. You can use design studio or Liquid code to add, style, and configure a card gallery in Power Pages sites.
-
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 ## Add a card gallery
 
@@ -75,13 +68,18 @@ You can rearrange each element's position by selecting the icon to the left of t
 
 Each element supports specific data types.
 
+### Supported column types
+
+Each element supports specific data types.
+
 |**Element**  |**Data type(s)** |
 |---------|---------|
 |Title     |Text (single line of text)<br />Phone<br />Whole Number<br />Decimal<br />Look up<br />Date only<br />Date and time         |
 |Description     |Rich Text<br />Text Area (multiple lines of text)<br />Phone<br />Whole Number<br />Decimal<br />Date only<br />Date and time         |
 |Image    |File - Image        |
-|Button    |Button label - Text (single line of text)<br />Button URL - URL         |
-|Text Hyperlink   |Text Hyperlink label: Text (single line of text)<br />Text Hyperlink URL: URL         |
+|Button    |Button label: <ul><li>Text (single line of text)</li><li>Content snippet</li></ul><br />Button URL:<ul><li>URL</li><li>webpage</li></ul>         |
+|Text Hyperlink   |Text hyperlink label: <ul><li>Text (single line of text)</li><li>Content snippet</li></ul><br />Text hyperlink URL: <ul><li>URL</li><li>webpage</li></ul>            |
+|Custom text  |Text (single line of text)|
 
 ## Style and configure your card gallery
 
@@ -93,7 +91,7 @@ Turn on/off the **Enable search** toggle to add or remove search filtering.
 
 ### Preview your card gallery
 
-After you configure your card gallery, you can see the preview on canvas with sample data. 
+After you configure your card gallery, you can see the preview on canvas with sample data.
 
 >[!NOTE]
 > You must [set table permissions](../security/table-permissions.md) to allow site visitors to view and interact with your card gallery.
