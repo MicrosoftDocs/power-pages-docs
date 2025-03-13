@@ -88,8 +88,8 @@ To customize an AI-generated summary:
 
 When adding extra instructions, avoid the following:
 
-- Grouping data within the instructions. Example, *Show top 5 products by order quantity.*
-- Applying filters, as this may lead to inaccurate summaries. Example, *Show insights specific to the "Electronic" product category.*
+- Grouping data within the instructions. Example, *show top 5 products by order quantity.*
+- Applying filters, as this may lead to inaccurate summaries. Example, *show insights specific to the "Electronic" product category.*
 
 ## Limitations
 
