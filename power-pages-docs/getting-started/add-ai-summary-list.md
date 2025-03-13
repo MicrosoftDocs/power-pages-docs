@@ -67,6 +67,22 @@ To enable AI summary on an existing list:
 
 The data list now includes automatically generated summaries and chart visualizations.
 
+## Customizing AI Summaries
+
+To tailor an AI-generated summary:
+
+1. **Select the AI Card** within the list.
+1. **Navigate to Insights** to access customization options.
+1. **Toggle the "Keep insights expanded" option** ON or OFF to control whether the AI card remains expanded or collapsed by default when page load.
+1. **Modify the AI Card Title** to replace the default title with a custom one.
+1. **Provide Additional Instructions** to refine the AI's insights or influence data visualization.
+1. **Define Chart Type Preferences**, allowing AI to select the most suitable visualization for displaying the data.
+
+### Guidelines for Additional Instructions
+When adding extra instructions, **avoid the following**:
+- **Grouping data** within the instructions. Example ``Show top 5 products by order quantity.``
+- **Applying filters**, as this may lead to inaccurate summaries. Example ``Show insights specific to the "Electronic" product category.``
+
 ## Limitations
 
 - Virtual tables are not supported.
