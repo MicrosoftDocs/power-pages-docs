@@ -3,7 +3,7 @@ title: Add AI summary to list (preview)
 description: Learn more about how the AI summary list feature works to simplify and summarize data in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: conceptual
-ms.date: 02/05/2025
+ms.date: 03/13/2025
 ms.author: nenandw
 ms.reviewer: dmartens
 ms.collection:
@@ -67,10 +67,34 @@ To enable AI summary on an existing list:
 
 The data list now includes automatically generated summaries and chart visualizations.
 
+## Customizing AI summaries
+
+To customize an AI-generated summary:
+
+1. Select the AI card within the list.
+   
+1. Navigate to **Insights** to access customization options.
+   :::image type="content" source="media/add-ai-summary-list/list-ai-insights-settings.png" alt-text="Screenshot that shows the AI insights settings from the **Insights** tab.":::
+   
+1. Toggle the **Keep insights expanded** option ON or OFF to control whether the AI card remains expanded or collapsed by default when the page loads.
+   
+1. Modify the AI card **Title** to replace the default title with a custom one.
+   
+1. Provide **Additional Instructions** to refine the AI's insights or influence data visualization.
+   
+1. Define **Chart Type** preferences, to allow AI to select the most suitable visualization for displaying the data.
+
+### Guidelines for additional instructions
+
+When adding extra instructions, avoid the following:
+
+- Grouping data within the instructions. Example, *show top 5 products by order quantity.*
+- Applying filters, as this may lead to inaccurate summaries. Example, *show insights specific to the "Electronic" product category.*
+
 ## Limitations
 
-- Virtual tables are not supported.
-- A table should have at least 5 rows to generate any meaningful summary.
+- Virtual tables aren't supported.
+- A table should have at least five rows to generate any meaningful summary.
 - Limitations of the Tabular Data Stream (TDS) endpoint also apply to this feature. Learn more about unsupported column types at [Supported operations and data types](/power-apps/developer/data-platform/dataverse-sql-query#supported-operations-and-data-types).
 
 ### Related information
