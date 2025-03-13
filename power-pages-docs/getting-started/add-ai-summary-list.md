@@ -69,13 +69,19 @@ The data list now includes automatically generated summaries and chart visualiza
 
 ## Customizing AI Summaries
 
-To tailor an AI-generated summary:
+To customize an AI-generated summary:
 
 1. **Select the AI Card** within the list.
+   
 1. **Navigate to Insights** to access customization options.
+   :::image type="content" source="media/add-ai-summary-list/list-ai-insights-settings.png" alt-text="Screenshot that shows the AI insights settings from the **Insights** tab.":::
+   
 1. **Toggle the "Keep insights expanded" option** ON or OFF to control whether the AI card remains expanded or collapsed by default when page load.
+   
 1. **Modify the AI Card Title** to replace the default title with a custom one.
+   
 1. **Provide Additional Instructions** to refine the AI's insights or influence data visualization.
+   
 1. **Define Chart Type Preferences**, allowing AI to select the most suitable visualization for displaying the data.
 
 ### Guidelines for Additional Instructions
