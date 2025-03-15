@@ -87,6 +87,8 @@ To revert to version 3 from Bootstrap version 5, use the [upload command](#uploa
 
 More information: [`pac powerpages bootstrap-migrate`](/power-platform/developer/cli/reference/powerpages#pac-powerpages-bootstrap-migrate)
 
+Note: Make sure the folder and file names in the path aren't so long that they exceed the 256 character limit for Windows. Otherwise, the migration will terminate prematurely
+
 ## Review your changes
 
 If you created a copy of your site before you migrated it, compare it with the version 5 site.
