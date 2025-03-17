@@ -1,7 +1,7 @@
 ﻿---
 title: Create an AI-generated color theme using Copilot
 description: Learn how to create an AI-generated color theme for your Power Pages site using Copilot.
-author: ankitavish 
+author: DanaMartens 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/24/2024

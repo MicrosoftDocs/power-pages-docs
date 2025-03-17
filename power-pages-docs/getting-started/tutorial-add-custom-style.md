@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Add custom CSS to your site"
 description: Learn how to add custom CSS to your Power Pages sites.
-author: ankitavish
+author: DanaMartens
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 02/21/2023

@@ -3,7 +3,7 @@ title: Set up Microsoft Entra External ID with Power Pages (preview)
 description: Learn how to set up Microsoft Entra External ID authentication for sites created with Power Pages.
 ms.date: 11/15/2024
 ms.topic: how-to
-author: ankitavish
+author: DanaMartens
 ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:

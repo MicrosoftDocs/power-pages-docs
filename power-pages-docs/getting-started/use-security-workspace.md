@@ -1,12 +1,12 @@
 ---
 title: Overview of the Security workspace
 description: Enhance site resilience with security scans, control access to data, and protect against exploits using Power Pages security workspace.
-author: dmartens
+author: DanaMartens
 ms.topic: conceptual
 ms.date: 05/31/2024
 ms.subservice:
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: dmartens
 contributors:
 ms.custom:
   - ai-gen-docs-bap
