@@ -1,9 +1,9 @@
 ---
-title: Manage website security from the Power Platform admin center (preview)
+title: Manage website security from the Power Platform admin center
 description: Learn how to manage website security in the Power Platform admin center.
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/19/2024
+ms.date: 03/12/2025
 ms.subservice: 
 author: PramithaU
 ms.author: pudupa
@@ -13,16 +13,9 @@ contributors:
     - DanaMartens
 ---
 
-# Manage website security from the Power Platform admin center (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Manage website security from the Power Platform admin center
 
 Use the Power Platform admin center to monitor the security status of the websites in your tenant. You can also see key information such as how many sites have Web Application Firewall (WAF) disabled or how many sites have external authentication enabled.
-
-> [!IMPORTANT]
->
-> - This feature is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 To monitor website security for all websites in your tenant, access the Power Platform admin center. The steps differ slightly depending on whether you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
 
@@ -30,7 +23,7 @@ To monitor website security for all websites in your tenant, access the Power Pl
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 1. On the left pane, select **Resources**, and then select **Power Pages sites**.
-1. Select **Security (preview)** tab.
+1. Select **Security** tab.
 
 :::image type="content" source="media/admin-center-security/security-admin-center.png" alt-text="A screenshot of Power Platform admin center security tab.":::
 
@@ -103,7 +96,7 @@ The quick scan tab gives you a summary of the websites in your organization rela
 
 The security health is calculated by looking at various configuration parameters and identifying common issues. These checks aren't exhaustive and we recommend you continue following website security best practices.
 
-The criteria for classifying security health into Standard, Enhanced, and Advanced is outlined in the table provided. This criterion might change during the feature preview and before the feature is generally available.
+The criteria for classifying security health into Standard, Enhanced, and Advanced is outlined in the table provided.
 
 | Health status | Description |
 | - | - |

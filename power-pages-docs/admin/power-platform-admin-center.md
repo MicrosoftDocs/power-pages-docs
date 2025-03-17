@@ -94,7 +94,7 @@ A website can have the following status: *Configured*, *Suspended*, or *Not conf
 
 ### See also
 
-- [Manage website security from the admin center (preview)](admin-center-security.md)
+- [Manage website security from the admin center](admin-center-security.md)
 - [Administer Microsoft Power Platform](/power-platform/admin/admin-documentation)
 - [Manage Dynamics 365 apps](/power-platform/admin/manage-apps)  
 - [Upgrade a website](upgrade-site.md)
