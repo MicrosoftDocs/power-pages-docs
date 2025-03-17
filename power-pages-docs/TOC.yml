@@ -294,7 +294,7 @@
       href: admin/manage-custom-certificates.md
     - name: Content Delivery Network
       href: configure/configure-cdn.md
-    - name: Manage and monitor capacity (preview)
+    - name: Manage and monitor capacity
       href: admin/capacity-management.md
     - name: Capacity consumption reports
       href: admin/website-consumption-reports.md
