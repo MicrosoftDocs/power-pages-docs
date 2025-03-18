@@ -1,9 +1,9 @@
 ---
-title: Manage and monitor capacity (preview)
+title: Manage and monitor capacity
 description: Learn about capacity management in Power Pages.
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/10/2024
+ms.date: 03/17/2025
 ms.subservice: 
 author: PramithaU
 ms.author: pudupa
@@ -13,15 +13,9 @@ contributors:
 ms.contributors: psimolin
 ---
 
-# Manage and monitor capacity (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Manage and monitor capacity
 
 The Power Pages capacity management experience in the Power Platform admin center allows administrators to manage Power Pages capacity and monitor capacity consumption. This experience also provides an overview of the different licensing models in use.
-
-> [!IMPORTANT]
-> - This feature is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 The capacity management features allow administrators to assign prepurchased capacity between the environments in the tenant based on the expected usage of the websites in that environment. The capacity management panel provides daily consumption data at the environment level for up to three full months, which helps determine the required capacity for the environments.
 
@@ -37,7 +31,7 @@ These views and features can be used in addition to the [website capacity consum
 
 ## Licensing summary view
 
-The licensing summary view is located under **Billing (preview)** > **Licenses (preview)**. Once Power Pages is selected from the product selector, the tenant-level licensing summary view displays.
+The licensing summary view is located under **Billing** > **Licenses**. Once Power Pages is selected from the product selector, the tenant-level licensing summary view displays.
 
 :::image type="content" source="media/capacity-management/licensing-summary.png" alt-text="A screenshot of the Licensing Summary tenant-level view inside of Power Platform admin center.":::
 
