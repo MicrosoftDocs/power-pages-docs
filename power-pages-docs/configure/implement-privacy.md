@@ -1,12 +1,12 @@
 ---
 title: Implement privacy protections
 description: Learn how to implement privacy protections in Power Pages. Identify minor users, get parental consent, and have site users agree to terms and conditions.
-author: sandhangitmsft
+author: DanaMartens
 ms.topic: conceptual
 ms.custom: 
 ms.date: 5/11/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

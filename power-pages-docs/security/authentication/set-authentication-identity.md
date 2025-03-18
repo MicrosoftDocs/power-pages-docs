@@ -3,7 +3,7 @@ title: Local authentication, registration, and other settings
 description: Learn about the settings you can use to control user authentication on sites you create with Microsoft Power Pages.
 ms.date: 03/06/2025
 ms.topic: conceptual
-author: sandhangitmsft
+author: DanaMartens
 ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:

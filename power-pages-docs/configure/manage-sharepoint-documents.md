@@ -1,13 +1,13 @@
 ---
 title: Manage SharePoint documents
 description: Learn how to manage SharePoint documents in Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/20/2024
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

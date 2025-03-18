@@ -3,7 +3,7 @@ title: Set up the Facebook provider
 description: Learn how to set up Facebook as the OAuth 2.0 identity provider for use with sites you create with Microsoft Power Pages.
 ms.date: 09/10/2024
 ms.topic: how-to
-author: sandhangitmsft
+author: DanaMartens
 ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:

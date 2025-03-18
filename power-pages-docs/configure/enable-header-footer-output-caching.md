@@ -1,13 +1,13 @@
 ---
 title: Enable header and footer output caching on Power Pages
 description: Learn how to enable header and footer output caching on Power Pages for existing websites.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 07/06/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

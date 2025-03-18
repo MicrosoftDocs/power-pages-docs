@@ -3,7 +3,7 @@ title: Set website access permissions
 description: Learn how to create and associate website access permissions to elements in sites you create with Microsoft Power Pages.
 ms.date: 07/21/2023
 ms.topic: how-to
-author: sandhangitmsft
+author: DanaMartens
 ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:

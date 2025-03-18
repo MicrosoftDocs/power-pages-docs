@@ -3,7 +3,7 @@ title: Set up a WS-Federation provider with AD FS
 description: Learn how to set up a WS-Federation identity provider with Active Directory Federation Services (AD FS) for use with sites you create with Microsoft Power Pages.
 ms.date: 09/10/2024
 ms.topic: how-to
-author: sandhangitmsft
+author: DanaMartens
 ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:

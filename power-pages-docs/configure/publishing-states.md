@@ -1,13 +1,13 @@
 ---
 title: Create and manage publishing states
 description: Learn how to create and manage publishing states in Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom:
 ms.date: 04/12/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

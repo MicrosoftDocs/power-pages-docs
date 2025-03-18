@@ -3,7 +3,7 @@ title: Set up an OAuth 2.0 provider
 description: Learn how to set up OAuth 2.0 identity providers such as Microsoft, LinkedIn, Facebook, Google, and Twitter for use with sites you create with Microsoft Power Pages.
 ms.date: 07/19/2023
 ms.topic: overview
-author: sandhangitmsft
+author: DanaMartens
 ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
