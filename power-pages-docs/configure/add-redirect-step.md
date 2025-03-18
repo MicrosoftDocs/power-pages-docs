@@ -1,13 +1,13 @@
 ---
 title: Add a redirect step type
 description: Learn how add and configure a redirect step for multistep forms in Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/06/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 ---
 

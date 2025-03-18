@@ -3,8 +3,8 @@ title: Set up an OpenID Connect provider with Azure AD B2C
 description: Learn how to set up an OpenID Connect identity provider with Azure Active Directory B2C for use with sites you create with Microsoft Power Pages.
 ms.date: 11/15/2024
 ms.topic: how-to
-author: sandhangitmsft
-ms.author: sandhan
+author: DanaMartens
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

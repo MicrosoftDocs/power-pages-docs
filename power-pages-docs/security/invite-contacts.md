@@ -3,8 +3,8 @@ title: Invite contacts to your Power Pages site
 description: Learn how to create and send invitations to users to register on sites you create with Microsoft Power Pages.
 ms.date: 07/20/2023
 ms.topic: how-to
-author: sandhangitmsft
-ms.author: sandhan
+author: DanaMartens
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

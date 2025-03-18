@@ -1,13 +1,13 @@
 ---
 title: Important upcoming changes and deprecations in Power Pages
 description: Learn about the important changes, including deprecations, coming soon to Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/24/2024
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

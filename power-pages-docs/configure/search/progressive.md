@@ -1,13 +1,13 @@
 ---
 title: Configure progressive search in Power Pages
 description: Accurate results can be tricky when a site has several tables enabled for search. Learn how to configure progressive search to ensure accurate record counts.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 1/23/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

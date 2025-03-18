@@ -1,13 +1,13 @@
 ---
 title: Lists overview
 description: Learn how to add and configure lists to render a list of records on a website.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 2/24/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

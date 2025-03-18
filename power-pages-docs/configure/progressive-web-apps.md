@@ -1,12 +1,12 @@
 ---
 title: Power Pages sites as progressive web apps (PWAs) overview
 description: Overview of building a site as a progressive web app.
-author: ankitavish
+author: DanaMartens
 ms.topic: overview
 ms.custom: 
 ms.date: 05/02/2024
 ms.subservice: 
-ms.author: avishwakarma
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - ankitavish

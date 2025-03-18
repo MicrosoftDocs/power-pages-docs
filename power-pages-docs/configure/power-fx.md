@@ -1,11 +1,11 @@
 ---
 title: Use Power Fx in Power Pages (preview)
 description: Explore Power Fx, Microsoft's low-code language for expressing logic across the Power Platform, now available in Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 ms.topic: conceptual
 ms.date: 10/04/2024
 ms.subservice:
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
   - DanaMartens

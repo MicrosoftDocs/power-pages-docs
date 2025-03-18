@@ -1,13 +1,13 @@
 ---
 title: Gather feedback by using polls on Power Pages
 description: Learn how to create polls on Power Pages and gather feedback by using them.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/12/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft
