@@ -3,8 +3,8 @@ title: FAQs about using OpenID Connect in Power Pages
 description: Get answers to frequently asked questions about using OpenID Connect providers for authentication on sites you create with Microsoft Power Pages.
 ms.date: 07/19/2023
 ms.topic: conceptual
-author: dileepsinghmicrosoft
-ms.author: dileeps
+author: DanaMartens
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

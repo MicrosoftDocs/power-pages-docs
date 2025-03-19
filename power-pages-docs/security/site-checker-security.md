@@ -1,11 +1,11 @@
 ---
 title: Security issues (preview)
 description: Learn about Site Checker diagnostics results for security issues.
-author: vamseedillimsft
+author: DanaMartens
 ms.topic: conceptual
 ms.custom: 
 ms.date: 02/12/2024
-ms.author: vamseedilli
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
 ---

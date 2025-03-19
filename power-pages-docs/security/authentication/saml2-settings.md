@@ -3,8 +3,8 @@ title: Set up a SAML 2.0 provider with AD FS
 description: Learn how to set up a SAML 2.0 identity provider with Active Directory Federation Services (AD FS) for use with sites you create with Microsoft Power Pages.
 ms.date: 09/10/2024
 ms.topic: how-to
-author: sandhangitmsft
-ms.author: sandhan
+author: DanaMartens
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

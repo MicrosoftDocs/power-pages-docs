@@ -1,13 +1,12 @@
 ---
 title: Website capacity consumption reports
 description: Learn how to view, download, and review the Power Pages capacity consumption reports from the Power Platform admin center.
-author: sandhangitmsft
-
+author: PramithaU
 ms.topic: conceptual
 ms.custom: 
 ms.date: 3/22/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: pudupa
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft

@@ -3,8 +3,8 @@ title: FAQs about using SAML 2.0 in Power Pages
 description: Get answers to frequently asked questions about using SAML 2.0 providers for authentication on sites you create with Microsoft Power Pages.
 ms.date: 07/19/2023
 ms.topic: how-to
-author: dileepsinghmicrosoft
-ms.author: dileeps
+author: DanaMartens
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft
