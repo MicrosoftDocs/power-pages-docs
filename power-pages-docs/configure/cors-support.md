@@ -1,13 +1,13 @@
 ---
 title: Set up HTTP headers in Power Pages
 description: Learn how to set up HTTP headers in Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 4/10/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

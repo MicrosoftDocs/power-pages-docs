@@ -1,12 +1,12 @@
 ---
 title: Manage cases in Power Pages
 description: Learn how to manage cases in a Power Pages site.
-author: dileepsinghmicrosoft
+author: murugesh1985
 ms.topic: conceptual
 ms.custom: 
 ms.date: 4/10/2023
 ms.subservice: 
-ms.author: dileeps
+ms.author: murugeshs
 ms.reviewer: danamartens
 contributors:
 ---

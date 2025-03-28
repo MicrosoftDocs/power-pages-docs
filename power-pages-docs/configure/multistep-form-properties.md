@@ -1,13 +1,13 @@
 ---
 title: Define multistep form properties for Power Pages
 description: Learn how to configure multistep form properties for a portal.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/06/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

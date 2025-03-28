@@ -1,10 +1,10 @@
 ﻿---
 title: Control use of Generative AI features for users (preview)
 description: Learn how to control use of generative AI features for your users of your Microsoft Power Pages websites.
-author: vamseedillimsft
+author: PramithaU
 ms.topic: conceptual
 ms.date: 10/29/2024
-ms.author: vamseedilli
+ms.author: pudupa
 ms.reviewer: dmartens
 ms.collection:
  - bap-ai-copilot

@@ -1,13 +1,13 @@
 ---
 title: Place child nodes by using shortcuts for Power Pages
 description: Learn how to place child nodes by using shortcuts for Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/12/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

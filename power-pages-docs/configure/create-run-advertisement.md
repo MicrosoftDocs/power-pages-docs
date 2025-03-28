@@ -1,13 +1,13 @@
 ---
 title: Create and run advertisements on Power Pages
 description: Learn how to create text or image-based advertisements and have them run in multiple placements throughout your site.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

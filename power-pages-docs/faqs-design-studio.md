@@ -4,8 +4,8 @@ description: This FAQ discusses natural language to page and the key considerati
 ms.date: 02/05/2025
 ms.custom: responsible-ai-faqs
 ms.topic: article
-author: sandhangitmsft
-ms.author: sandhan
+author: DanaMartens
+ms.author: bipuldeora
 ms.reviewer: dmartens
 ms.collection: 
     - bap-ai-copilot
