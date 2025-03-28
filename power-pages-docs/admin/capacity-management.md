@@ -1,12 +1,12 @@
 ---
 title: Manage and monitor capacity
 description: Learn about capacity management in Power Pages.
-author: dileepsinghmicrosoft
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/17/2025
 ms.subservice: 
-ms.author: dileeps
+author: PramithaU
+ms.author: pudupa
 ms.reviewer: danamartens
 contributors: 
  - dileepsinghmicrosoft

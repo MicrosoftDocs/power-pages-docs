@@ -1,11 +1,11 @@
 ---
 title: Respond to Data Subject Rights (DSR) requests for Power Pages customer data
 description: Review personal data request information for Microsoft Power Pages.
-author: dileepsinghmicrosoft
+author: PramithaU
 ms.reviewer: dmartens
 ms.topic: overview
 ms.date: 10/08/2024
-ms.author: dileeps
+ms.author: pudupa
 search.audienceType: 
   - admin
 contributors:

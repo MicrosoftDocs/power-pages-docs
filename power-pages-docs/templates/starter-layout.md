@@ -1,12 +1,12 @@
 ---
 title: Starter layout templates
 description: The starter layout templates provide basic building blocks for you to create custom sites.
-author: deepa88 
+author: murugesh1985 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 2/06/2023
 ms.subservice:
-ms.author: deepabansal 
+ms.author: murugeshs 
 ms.reviewer: danamartens
 contributors:
 ---

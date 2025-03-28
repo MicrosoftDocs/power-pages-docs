@@ -1,12 +1,12 @@
 ---
 title: How to use the Web API to upload files to Azure Blob Storage
 description: This page walks you through example steps for using portal Web API requests to upload files to Azure Blog Storage.
-author: ankitavish
+author: DanaMartens
 ms.topic: how-to
 ms.custom: 
 ms.date: 09/23/2024
 ms.subservice: 
-ms.author: avishwakarma
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
   - ankitavish

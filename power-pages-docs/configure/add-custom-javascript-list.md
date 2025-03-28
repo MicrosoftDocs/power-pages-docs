@@ -1,13 +1,13 @@
 ---
 title: Add custom JavaScript to a list
 description: Learn how to add custom JavaScript to a website.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/06/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

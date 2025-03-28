@@ -3,8 +3,8 @@ title: Bootstrap overview
 description: Learn how to use Bootstrap, a popular front-end framework, to create stunning Power Pages sites that adapt to any device.
 ms.topic: overview
 ms.date: 03/19/2024
-author: ankitavish
-ms.author: avishwakarma
+author: GitanjaliSingh33msft
+ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
   - DanaMartens

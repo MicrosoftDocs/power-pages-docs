@@ -1,13 +1,13 @@
 ---
 title: Enable multiple-language website support
 description: Learn how to enable multiple languages for a Power Pages website and create content in multiple languages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

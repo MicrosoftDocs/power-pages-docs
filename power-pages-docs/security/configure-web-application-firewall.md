@@ -1,11 +1,11 @@
 ﻿---
 title: Configure Web Application Firewall for Power Pages 
 description: Learn how to configure Web Application Firewall on Power Pages.
-author: dileepsinghmicrosoft
+author: DanaMartens
 ms.topic: conceptual
 ms.custom: 
 ms.date: 8/23/2023
-ms.author: dileeps
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - dileepsinghmicrosoft

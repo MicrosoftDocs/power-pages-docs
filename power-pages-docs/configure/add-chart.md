@@ -1,13 +1,13 @@
 ---
 title: Add a chart created in a model-driven Power App to a webpage in Power Pages
 description: Learn how to add a chart created in a model-driven app to a webpage in Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

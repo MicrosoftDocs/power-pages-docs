@@ -1,13 +1,13 @@
 ---
 title: Create and manage website bindings
 description: Learn how to create and manage website bindings in Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/13/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

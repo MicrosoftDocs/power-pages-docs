@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: How to use code components in Power Pages"
 description: Walk through example steps for creating a sample code component and adding it to a Dataverse form used to create a form component inside Power Pages.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 

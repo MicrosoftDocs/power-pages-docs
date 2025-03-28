@@ -4,8 +4,8 @@ description: Learn how to migrate your existing Power Pages sites to Bootstrap v
 ms.topic: how-to
 ms.date: 01/31/2025
 ms.subservice:
-author: ankitavish
-ms.author: avishwakarma
+author: GitanjaliSingh33msft
+ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
   - DanaMartens

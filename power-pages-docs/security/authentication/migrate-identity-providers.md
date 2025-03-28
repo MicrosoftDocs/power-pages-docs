@@ -3,8 +3,8 @@ title: Migrate identity providers to Azure AD B2C
 description: Learn how to migrate your Power Pages site's identity providers to Azure AD B2C.
 ms.date: 07/19/2023
 ms.topic: how-to
-author: sandhangitmsft
-ms.author: sandhan
+author: DanaMartens
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft

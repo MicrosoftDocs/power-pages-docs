@@ -1,13 +1,13 @@
 ---
 title: Enhanced view filter for lists
 description: Learn how to configure an enhanced view filter for lists on a website.
-author: sandhangitmsft
+author: DanaMartens
 
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: sandhan
+ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft

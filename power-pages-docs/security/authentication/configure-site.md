@@ -4,8 +4,8 @@ description: Learn how to set up user authentication for your Microsoft Power Pa
 ms.date: 09/20/2024
 ms.topic: how-to
 ms.collection: get-started
-author: sandhangitmsft
-ms.author: sandhan
+author: DanaMartens
+ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - sandhangitmsft
