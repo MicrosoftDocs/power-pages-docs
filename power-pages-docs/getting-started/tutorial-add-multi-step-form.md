@@ -1,15 +1,19 @@
 ---
 title: "Tutorial: Add a multistep form to your page"
-description: Learn how to add multistep forms to your Power Pages.
+description: Discover how to create and configure multistep forms in Power Pages, including Dataverse integration, permissions, and conditional logic.
 author: pranita225
 ms.topic: tutorial
-ms.custom: template-tutorial
-ms.date: 12/06/2022
-ms.subservice:
-ms.author: prpadalw 
+ms.custom:
+  - template-tutorial
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:03/28/2025
+ms.date: 03/28/2025
+ms.subservice: null
+ms.author: prpadalw
 ms.reviewer: danamartens
 contributors:
-    - pranita225
+  - pranita225
 ---
 
 # Tutorial: Add a multistep form to your page
@@ -82,6 +86,7 @@ In our example, we'll create a Dataverse table called *Applications* for our pro
     | Column name | Column data type |
     | - | - |
     | Applicant name | Text (rename *name* column) |
+    | Application contact | Lookup (to Contact table) |
     | Scholarship | Choice (example choices: *American Architect Scholarship*, *Foreign Language Scholarship*,*Women in STEM Scholarship*, *Future Design Leaders Scholarship*) |
     | Class Level | Choice (choices: *Junior*, *Senior*) |
     | Consent | Yes/No |
@@ -192,9 +197,20 @@ If you have already configured permissions for the table used in your multistep 
 
 1. Select **+ New permission**.
 
-1. The table permission provides a name, the table selected and the **Access type** set to **Global access** by default. The **Write** and **Create** permissions will be selected so site visitors can use the form.
+1. For the **Name**, enter **Application**.
 
-1. Select **+ Add roles** and select **Authenticated Users** as the default role. 
+1. For the **Table**, select the table you created earlier named **Application**.
+
+    > [!IMPORTANT]
+    > Your environment might have a default table named application which is used for another purpose. If you created a custom table named application, there is a prefix that appears before the name such as `<prefix>_application`.
+
+1. Set the **Access type** to **Contact access** to limit website visitors to only being able to access their own applications.
+
+1. For **Relationship**, select the relationship from the application table to the contact table. When you added the "Application contact" lookup column, a relationship was automatically created.
+
+1. In the **Permission to** section, select the **Write** and **Create** permissions so site visitors can use the form.
+
+1. Select **+ Add roles** and select **Authenticated Users** as the default role.
 
     :::image type="content" source="media/tutorial-multistep-forms/add-table-permissions.png" alt-text="Adding table permissions to the application table.":::
 
