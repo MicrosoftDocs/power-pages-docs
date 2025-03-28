@@ -202,7 +202,7 @@ If you have already configured permissions for the table used in your multistep 
 1. For the **Table**, select the table you created earlier named **Application**.
 
     > [!IMPORTANT]
-    > Your environment might have a default table named application which is used for another purpose. If you created a custom table named application, there is a prefix that appears before the name such as `<prefix>_application`.
+    > Your environment might have a default table named application which is used for another purpose. If you created a custom table named application, a prefix is included such as `Application (<prefix>_application)`.
 
 1. Set the **Access type** to **Contact access** to limit website visitors to only being able to access their own applications.
 
