@@ -4,7 +4,7 @@ description: Learn how to set up table permissions and link to web roles.
 author: gitanjalisingh33msft
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 02/20/2025
+ms.date: 03/28/2025
 ms.subservice:
 ms.author: gisingh 
 ms.reviewer: danamartens
@@ -49,6 +49,9 @@ To learn how to configure table permissions to view data:
 1. Select a Dataverse table.
 
 1. Set the access type to **Global**.
+
+    > [!WARNING]
+    > In this example, the goal is to make the list of all scholarship records accessible to anyone visiting your site, so using the global option is appropriate. However, in other situations, be cautious about the permissions you grant to tables. For example, if a site visitor is signed into your site and needs to view and update their contact information, use a different access type. Self access restricts users to only viewing and updating their own contact information.
 
 1. Set the permissions to **Read**.
 
