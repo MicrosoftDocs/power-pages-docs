@@ -62,7 +62,10 @@ To install the Visual Studio Code extension:
 
 1. Verify the extension is installed successfully from the status messages.
 
-## Using Power Pages Actions 
+> [!TIP]
+> The Power Platform Tools Extension automatically enables using Microsoft Power Platform CLI commands from within Visual Studio Code through [Visual Studio Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
+
+## Power Pages Actions 
 
 Power Pages Actions streamline site management and reduce reliance on [Microsoft Power Platform CLI commands](power-platform-cli-tutorial.md#step-3-download-website-content). Power Pages actions is avaiable in pane titled **Power Pages Actions** in the Explorer sidebar of Visual Studio Code.
 
@@ -110,14 +113,6 @@ Sites stored locally but not yet in your environment offer:
 - **Upload Site**: Uploads the local site to your connected environment. After uploading, the site will appear in the inactive sites list, from where you can activate it via Power Pages Home.
 - **Reveal in Explorer**: Navigates to the local directory containing the site's code.
 
-
-## Download website content
-
-To authenticate against a Microsoft Dataverse environment, and to download
-website content, refer to the tutorial.
-
-> [!TIP]
-> The Power Platform Tools Extension automatically enables using Microsoft Power Platform CLI commands from within Visual Studio Code through [Visual Studio Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
 ## File icons
 
