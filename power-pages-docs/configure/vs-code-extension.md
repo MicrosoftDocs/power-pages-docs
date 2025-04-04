@@ -67,52 +67,51 @@ To install the Visual Studio Code extension:
 
 ## Power Pages Actions 
 
-Power Pages Actions streamline site management and reduce reliance on [Microsoft Power Platform CLI commands](power-platform-cli-tutorial.md#step-3-download-website-content). Power Pages actions is avaiable in pane titled **Power Pages Actions** in the Explorer sidebar of Visual Studio Code.
+Power Pages Actions streamline site management and reduce reliance on [Microsoft Power Platform CLI commands](power-platform-cli-tutorial.md#step-3-download-website-content). Power Pages Actions is available in the pane titled **Power Pages Actions** in the Explorer sidebar of Visual Studio Code.
 
 Within this pane, sites are categorized as follows:
 
-- **Active Sites**: Sites currently available and active in the selected environment.
-- **Inactive Sites**: Sites present in the environment but not currently active.
+- **Active Sites**: Sites that are currently available and active in the selected environment.
+- **Inactive Sites**: Sites that are present in the environment but not currently active.
 - **Other Sites**: Sites downloaded locally but not yet associated with the selected environment.
 
-### Changing Environments
+### Changing environments
 
 To switch environments:
 
-1. Click on the **Change Environment** button within the Power Pages Actions pane.
+1. Select on the **Change Environment** button within the Power Pages Actions pane.
 2. Select your desired environment from the displayed list.
 
-After selecting an environment, the list of sites updates automatically.
+When you select an environment, the list of sites updates automatically.
 
-### Actions for Sites
+### Actions for sites
 
-Different types of sites provide context-specific actions, accessible via a right-click:
+Different types of sites provide context-specific actions that you can access by right-clicking.
 
-#### Active Sites Actions
+#### Active Sites actions
 
-Right-clicking an active site presents the following actions:
+Right-click on Active Sites to access the following actions:
 
 - **Preview**: Clears the cache and opens the site within VS Code for immediate preview.
 - **Upload**: Uploads local changes back to your environment.
 - **Download**: Downloads the site content to a local folder for offline editing.
 - **Site Details**: Displays detailed information about the site.
 - **Reveal in Explorer**: Navigates to the local directory containing the site's code.
-- **Open in Power Pages Studio**: Open site in Power Pages Studio. 
+- **Open in Power Pages Studio**: Open site in Power Pages studio. 
 
-#### Inactive Sites Actions
+#### Inactive Sites actions
 
-Inactive sites provide these actions:
+Inactive Sites provide these actions:
 
-- **Open Site Management**: Opens the site within the power pages management application.
-- **Site Details**: Provides detailed information about the selected site like website id, website url, data model version and more.
+- **Open Site Management**: Opens the site within the Power Pages management application.
+- **Site Details**: Provides detailed information about the selected site like website ID, website URL, data model version and more.
 
-#### Other Sites Actions
+#### Other Sites actions
 
-Sites stored locally but not yet in your environment offer:
+Sites stored locally but not yet in your environment offer the following actions:
 
-- **Upload Site**: Uploads the local site to your connected environment. After uploading, the site will appear in the inactive sites list, from where you can activate it via Power Pages Home.
+- **Upload Site**: Uploads the local site to your connected environment. After uploading, the site appears in the Inactive Sites list, where you can activate it from Power Pages home.
 - **Reveal in Explorer**: Navigates to the local directory containing the site's code.
-
 
 ## File icons
 
