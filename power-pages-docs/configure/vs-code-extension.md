@@ -81,7 +81,7 @@ To switch environments:
 
 1. Select on the **Change Environment** button within the Power Pages Actions pane.
 
-:::image type="content" source="media/vs-code-extension/changeEnv.png" alt-text="Change environment for sites":::
+    :::image type="content" source="media/vs-code-extension/changeEnv.png" alt-text="Change environment for sites":::
 
 1. Select your desired environment from the displayed list.
 
