@@ -62,13 +62,59 @@ To install the Visual Studio Code extension:
 
 1. Verify the extension is installed successfully from the status messages.
 
-## Download website content
-
-To authenticate against a Microsoft Dataverse environment, and to download
-website content, refer to the tutorial [Use Microsoft Power Platform CLI with Power Pages - download website content](power-platform-cli-tutorial.md#step-3-download-website-content).
-
 > [!TIP]
 > The Power Platform Tools Extension automatically enables using Microsoft Power Platform CLI commands from within Visual Studio Code through [Visual Studio Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
+
+## Power Pages Actions 
+
+Power Pages Actions streamline site management and reduce reliance on [Microsoft Power Platform CLI commands](power-platform-cli-tutorial.md#step-3-download-website-content). Power Pages Actions is available in the pane titled **Power Pages Actions** in the Explorer sidebar of Visual Studio Code.
+
+Within this pane, sites are categorized as follows:
+
+- **Active Sites**: Sites that are currently available and active in the selected environment.
+- **Inactive Sites**: Sites that are present in the environment but not currently active.
+- **Other Sites**: Sites downloaded locally but not yet associated with the selected environment.
+
+### Changing environments
+
+To switch environments:
+
+1. Select on the **Change Environment** button within the Power Pages Actions pane.
+
+    :::image type="content" source="media/vs-code-extension/changeEnv.png" alt-text="Change environment for sites":::
+
+1. Select your desired environment from the displayed list.
+
+When you select an environment, the list of sites updates automatically.
+
+### Actions for sites
+
+Different types of sites provide context-specific actions that you can access by right-clicking.
+
+#### Active Sites actions
+
+Right-click on Active Sites to access the following actions:
+
+- **Preview**: Clears the cache and opens the site within VS Code for immediate preview.
+- **Upload**: Uploads local changes back to your environment.
+- **Download**: Downloads the site content to a local folder for offline editing.
+- **Site Details**: Displays detailed information about the site.
+- **Reveal in Explorer**: Navigates to the local directory containing the site's code.
+- **Open in Power Pages Studio**: Open site in Power Pages studio. 
+
+#### Inactive Sites actions
+
+Inactive Sites provide these actions:
+
+- **Open Site Management**: Opens the site within the Power Pages management application.
+- **Site Details**: Provides detailed information about the selected site like website ID, website URL, data model version and more.
+
+#### Other Sites actions
+
+Sites stored locally but not yet in your environment offer the following actions:
+
+- **Upload Site**: Uploads the local site to your connected environment. After uploading, the site appears in the Inactive Sites list, where you can activate it from Power Pages home.
+- **Reveal in Explorer**: Navigates to the local directory containing the site's code.
 
 ## File icons
 
