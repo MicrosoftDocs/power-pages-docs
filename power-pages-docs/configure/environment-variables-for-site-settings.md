@@ -270,11 +270,11 @@ Your site now has permissions to read secrets from this key vault.
 1. **Can I use environment variables for any site settings?**  
     Yes, any site setting that supports dynamic values can use an environment variable.
 
-1. **What happens if an environment-specific value is not defined?**  
+1. **What happens if an environment-specific value isn't defined?**  
     The default value is used as a fallback.
 
 1. **Can I edit environment variable values directly in production?**  
-Yes, but make sure changes are tested and documented to avoid unintended consequences.
+    Yes, but make sure changes are tested and documented to avoid unintended consequences.
 
 ## Conclusion
 
