@@ -48,6 +48,7 @@ To convert your website from trial to production:
 > [!IMPORTANT]
 > Once the website has been converted to production, you should ensure that the website is appropriately licensed with the appropriate subscription plans corresponding to the expected user volume. Not having appropriate licenses assigned can result in degraded performance. For information on how to allocate licenses, see [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
+
 ## Convert an existing website to capacity-based model
 
 You can convert your existing Power Pages license to [capacity-based licensing model](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-power-apps-portals-licensing). To change your portal license to capacity-based model:
@@ -55,11 +56,16 @@ You can convert your existing Power Pages license to [capacity-based licensing m
 > [!TIP]
 > To learn about the roles required to perform this task, read [Admin roles required for portal administrative tasks](admin-roles.md).
 
-1. Go to the classic [Portal admin center](admin-overview.md#switch-to-classic).
+## [New admin center](#tab/new)
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Select **Manage**, select **Power Pages**, and then select the site including *Add-on* as it's **Type**.
+1. Select **Change License**
 
-1. Select **Change License**.
-
-    :::image type="content" source="media/convert-site/convert-to-capacity-based-licensing.gif" alt-text="Convert license to capacity based.":::
+## [Classic admin center](#tab/classic)
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Select **Resources**, select **Power Pages sites** and then select the site including *Add-on* as it's **Type**.
+1. Select **Change License**
+ :::image type="content" source="media/convert-site/convert-to-capacity-based-licensing.gif" alt-text="Convert license to capacity based.":::
 
 Consider the following before changing your Power Pages license:
 
