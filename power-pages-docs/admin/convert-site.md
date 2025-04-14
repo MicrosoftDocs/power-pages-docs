@@ -58,14 +58,14 @@ You can convert your existing Power Pages license to [capacity-based licensing m
 
 ## [New admin center](#tab/new)
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-1. Select **Manage**, select **Power Pages**, and then select the site including *Add-on* as it's **Type**.
+1. Select **Manage**, then **Power Pages**, and select the site with *Add-on* as its **Type**.
 1. Select **Change License**
 
 ## [Classic admin center](#tab/classic)
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-1. Select **Resources**, select **Power Pages sites** and then select the site including *Add-on* as it's **Type**.
+1. Select **Resources**, then **Power Pages sites**, and select the site with *Add-on* as its **Type**.
 1. Select **Change License**
- :::image type="content" source="media/convert-site/convert-to-capacity-based-licensing.gif" alt-text="Convert license to capacity based."::: 
+:::image type="content" source="media/convert-site/old_admin_capacity_license.png" alt-text="Convert license to capacity based in old admin center" lightbox="media/convert-site/old_admin_capacity_license.png":::
 ---
 
 Consider the following before changing your Power Pages license:
