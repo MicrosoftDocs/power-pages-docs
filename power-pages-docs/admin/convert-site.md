@@ -66,6 +66,7 @@ You can convert your existing Power Pages license to [capacity-based licensing m
 1. Select **Resources**, select **Power Pages sites** and then select the site including *Add-on* as it's **Type**.
 1. Select **Change License**
  :::image type="content" source="media/convert-site/convert-to-capacity-based-licensing.gif" alt-text="Convert license to capacity based."::: 
+---
 
 Consider the following before changing your Power Pages license:
 
