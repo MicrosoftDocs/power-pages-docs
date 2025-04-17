@@ -30,7 +30,7 @@ To configure Microsoft Entra as an identity provider:
 1. Locate the site where you want to enable Microsoft Entra External ID.
 1. Select **Edit**.
 1. Select **Security > Identity providers**.
-1. Locate **Microsoft Entra External ID (preview)** as the login provider and select **Configure**.
+1. Locate **Microsoft Entra External ID** as the login provider and select **Configure**.
 1. Enter a name for the provider, such as *Microsoft Entra External ID*. This name appears on the button users see when they select their identity provider on the sign-in page.
 1. Select **Next**.
 
