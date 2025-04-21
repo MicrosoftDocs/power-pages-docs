@@ -111,6 +111,8 @@ When you don't want all system administrators to be able to change site visibili
 1. In the **Security** section, select **Manage site visibility permissions**.
 1. Add the security group that includes the specific system administrators you want to delegate site visibility control to.
 
+    :::image type="content" source="media/site-visibility/add-security-group.png" alt-text="Screenshot of the Manage permissions for site visibility option page, with Choose a security group highlighted.":::
+
 After you add the security group, all system administrators in the group can manage site visibility. System administrators who aren't in the group see the site visibility section disabled.
 
 # [Classic admin center](#tab/classic)
