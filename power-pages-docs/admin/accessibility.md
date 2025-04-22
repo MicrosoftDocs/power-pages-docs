@@ -4,7 +4,7 @@ description: Learn how to make your Power Pages sites accessible.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/24/2024
+ms.date: 04/22/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
