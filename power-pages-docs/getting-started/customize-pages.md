@@ -113,6 +113,7 @@ When a page fails to render because of a Liquid syntax, **Power Pages** shows a 
 ### Fix a Liquid error
 
 1. In the **Liquid error** dialog, select **Edit code**. VS Code for the Web opens and you can scroll to the line that contains the error—for example, a missing `{% endif %}` tag.
+   :::image type="content" source="media/common/liquid-error-dialog.png" alt-text="Liquid error dialog.":::
 
 1. Correct the Liquid markup.
 
