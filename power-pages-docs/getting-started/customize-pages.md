@@ -106,6 +106,20 @@ To edit a code component:
 
 For more information on adding code components to forms and pages, see [Use code components in Power Pages](../configure/component-framework.md#add-a-code-component-to-a-field-in-a-model-driven-app).
 
+## Resolve Liquid errors
+
+When a page fails to render because of a Liquid syntax, **Power Pages** shows a **Liquid error** dialog. The dialog describes the problem and includes an **Edit code** link that opens the file in **Visual Studio Code for the Web**. If you dismiss the dialog by selecting **Continue editing** option, you can still see the error in notification with **Edit code** option to fix the issue. 
+
+### Fix a Liquid error
+
+1. In the **Liquid error** dialog, select **Edit code**. VS Code for the Web opens and you can scroll to the line that contains the error—for example, a missing `{% endif %}` tag.
+
+1. Correct the Liquid markup.
+
+1. Press **Ctrl + S** to save the file.
+
+1. Return to **Power Pages Studio** and select **Sync** to reload the page. The page should now render without errors.
+
 ## See also
 
 - [Add text](add-text.md)
