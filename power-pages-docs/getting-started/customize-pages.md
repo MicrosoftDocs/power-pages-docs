@@ -108,7 +108,7 @@ For more information on adding code components to forms and pages, see [Use code
 
 ## Liquid errors
 
-If a page doesn't render because of a [Liquid](../configure/liquid/liquid-overview.md) syntax issue, an error dialog appears. The dialog describes the problem and includes an **Edit code** link that opens the file in Visual Studio Code for the Web. If you dismiss the dialog by selecting the **Continue editing** option, you still see the error in notifications with an **Edit code** option to fix it.
+If a page doesn't render because of a [Liquid](../configure/liquid/liquid-overview.md) syntax issue, an error dialog appears. The dialog describes the problem and includes an **Edit code** button that opens the file in Visual Studio Code for the Web. If you dismiss the dialog by selecting the **Continue editing** option, you still see the error in notifications with an **Edit code** option to fix it.
 
 ### Fix a Liquid error
 
