@@ -4,14 +4,14 @@ description: Learn how to make your Power Pages sites accessible.
 author: neerajnandwana-msft
 ms.topic: conceptual
 ms.custom: 
-ms.date: 2/24/2024
+ms.date: 04/22/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
     - carltoncolter
-    -nageshbhat-msft
+    - nageshbhat-msft
 ---
  
 # Accessibility in Power Pages
@@ -58,7 +58,7 @@ More information: [How to create and modify Dataverse forms using the Data works
 
 ### Basic form options
 
-The controls included in basic forms are built to follow WCAG 2.1. The following options help make forms more accessible.
+The controls included in basic forms are built to follow WCAG 2.2. The following options help make forms more accessible.
 
 | **Name**                        | **Description**    |
 |---------------------------------|----------|
@@ -71,7 +71,7 @@ More information: [Add a form](../getting-started/add-form.md)
 
 When custom HTML and [Use Liquid](../configure/liquid-overview.md) content are added to your Power Pages site, accessibility must be taken into consideration. The person making the changes to the Liquid templates and [Content snippets](../configure/content-snippets.md) is responsible for ensuring that the content they add is accessible. It's important to make sure that customizations adhere to the required policies, such as WCAG 2.1, US Section 508, or ETSI EN 301 549.
 
-The [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) provides a list of the WCAG requirements with links to the full descriptions.
+The [WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/) provides a list of the WCAG requirements with links to the full descriptions.
 
 ### Power BI
 
@@ -81,19 +81,19 @@ Power Pages allows you to bring your Power BI reports/dashboard as a [first part
 
 - Make sure a non-sighted or visually impaired person can do everything a sighted user can do.
 
-- Test your Power Pages site by zooming in to 400 percent. Make sure the text is readable, and pages and controls function as expected. For more information, go to [WCAG 1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow).
+- Test your Power Pages site by zooming in to 400 percent. Make sure the text is readable, and pages and controls function as expected. For more information, go to [WCAG 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow).
 
-- Color contrast matters. Use a color contrast tool to help you see the contrast ratio. For more information, go to [WCAG 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
+- Color contrast matters. Use a color contrast tool to help you see the contrast ratio. For more information, go to [WCAG 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html).
 
-- Color shouldn't be the only visual way of conveying an action or information. If changing the color to highlight text, ensure the color, or descriptive information, is also available in the text. For more information, go to [WCAG 1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html).
+- Color shouldn't be the only visual way of conveying an action or information. If changing the color to highlight text, ensure the color, or descriptive information, is also available in the text. For more information, go to [WCAG 1.4.1](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html).
 
-- Use the alt attribute for every image (IMG tag). Use an empty alt attribute to hide the image from screen readers. Ideally, you can use CSS to define decorative images hidden from screen readers. For more information, go to [WCAG C9](https://www.w3.org/WAI/WCAG21/Techniques/css/C9.html).
+- Use the alt attribute for every image (IMG tag). Use an empty alt attribute to hide the image from screen readers. Ideally, you can use CSS to define decorative images hidden from screen readers. For more information, go to [WCAG C9](https://www.w3.org/WAI/WCAG22/Techniques/css/C9.html).
 
 - Use the Microsoft [Accessibility Insights](https://accessibilityinsights.io/) tool to perform two types of scans:
 
     - [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/): automatically checks for compliance with dozens of accessibility requirements.
 
-    - [Assessment](https://accessibilityinsights.io/docs/web/getstarted/assessment/): measures compliance with WCAG 2.1 Level AA success criteria.
+    - [Assessment](https://accessibilityinsights.io/docs/web/getstarted/assessment/): measures compliance with WCAG 2.2 Level AA success criteria.
 
 - Follow [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/) while creating page layout and adding widgets.
 
