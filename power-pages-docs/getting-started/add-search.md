@@ -9,12 +9,16 @@ ms.author: nabha
 ms.reviewer: dmartens  
 ---
 
-# Add a search component
+# Add a search component (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The search component lets users input queries and find information on a website. It's especially useful for content-heavy sites where users need to quickly locate relevant information.
 
-> [!NOTE]  
-> The AI-powered search component is available only on websites that have [Generative AI Search](/power-pages/configure/search/generative-ai#enable-site-search-with-generative-ai) enabled.  
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - The AI-powered search component is available only on websites that have [Generative AI Search](/power-pages/configure/search/generative-ai#enable-site-search-with-generative-ai) enabled.
 
 ## How to add a search component
 
@@ -29,7 +33,7 @@ To insert the search component into a page:
 
 ### Search bar
 
-The search bar enables users to enter their queries.
+The search bar lets users enter their queries.
 
 | Show search result inline | Determines whether the results summary is displayed on the same page or redirects to a dedicated search results page. |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------|
