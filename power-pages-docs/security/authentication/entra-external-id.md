@@ -1,7 +1,7 @@
 ---
-title: Set up Microsoft Entra External ID with Power Pages (preview)
+title: Set up Microsoft Entra External ID with Power Pages
 description: Learn how to set up Microsoft Entra External ID authentication for sites created with Power Pages.
-ms.date: 11/15/2024
+ms.date: 04/29/2025
 ms.topic: how-to
 author: DanaMartens
 ms.author: bipuldeora
@@ -11,13 +11,9 @@ contributors:
 ms.custom: bap-template
 ---
 
-# Set up Microsoft Entra External ID with Power Pages (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up Microsoft Entra External ID with Power Pages
 
 Microsoft Entra External ID is a Customer Identity Access Management (CIAM) solution that personalizes and secures customers' and partners' access to websites and applications. It shares foundational technology with Azure B2C but operates as a distinct service, using the Microsoft Entra Admin Center instead of the Azure portal. Integrating External ID with Power Pages simplifies customer sign-ins and reduces development efforts. Learn more about Microsoft Entra External ID at [Introduction to Microsoft Entra External ID](/entra/external-id/external-identities-overview).
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 > [!NOTE]
 > Authentication setting changes may take a few minutes to reflect on your site. For immediate effect, restart the site in the [admin center](../../admin/admin-overview.md). Learn more about clearing the cache at [How server-side caching works in Power Pages](../../admin/clear-server-side-cache.md).
@@ -34,7 +30,7 @@ To configure Microsoft Entra as an identity provider:
 1. Locate the site where you want to enable Microsoft Entra External ID.
 1. Select **Edit**.
 1. Select **Security > Identity providers**.
-1. Locate **Microsoft Entra External ID (preview)** as the login provider and select **Configure**.
+1. Locate **Microsoft Entra External ID** as the login provider and select **Configure**.
 1. Enter a name for the provider, such as *Microsoft Entra External ID*. This name appears on the button users see when they select their identity provider on the sign-in page.
 1. Select **Next**.
 
