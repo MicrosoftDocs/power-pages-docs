@@ -146,7 +146,7 @@ To see the preview, select active site from the [Power Pages Actions](#power-pag
 
 The preview pane opens on the right side of the page being edited.
 
-:::image type="content" source="media/vs-code-extension/preview-site.png" alt-text="Screenshot showing the file list, open file in Visual Studio Code editor, and a preview on the right-side.":::
+:::image type="content" source="media/vs-code-extension/site-preview.png" alt-text="Screenshot showing the file list, open file in Visual Studio Code editor, and a preview on the right-side.":::
 
 ## Autocomplete
 
