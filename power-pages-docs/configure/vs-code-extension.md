@@ -95,7 +95,7 @@ Different types of sites provide context-specific actions that you can access by
 
 Right-click on Active Sites to access the following actions:
 
-- **Preview**: Clears the cache and opens the site within VS Code for immediate preview.
+- **Preview**: Clears the cache and opens the site within VS Code for immediate [preview](#site-preview).
 - **Upload**: Uploads local changes back to your environment.
 - **Download**: Downloads the site content to a local folder for offline editing.
 - **Site Details**: Displays detailed information about the site.
@@ -134,23 +134,19 @@ To enable a portals-specific file-icon theme:
 
     :::image type="content" source="media/vs-code-extension/select-theme-icons.png" alt-text="Screenshot shows selecting the theme for Power Apps Portals Icons.":::
 
-## Live preview
+## Site preview
 
-The Visual Studio Code extension enables a live preview option to view the Power Pages content page inside the Visual Studio Code interface during the development experience.
+We leverages [Microsoft Edge DevTools extension for Visual Studio Code](https://learn.microsoft.com/en-us/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension) to display a live site preview powered by Edge DevTools and an embedded Edge browser with Device Emulation directly inside VS Code. It brings most of the same debugging and inspection features you get in the standalone Microsoft Edge DevTools into your editor.
 
-To see the preview, select :::image type="content" source="media/vs-code-extension/preview-symbol.png" alt-text="Screenshot of the preview button."::: from the top-right when having an HTML file open in edit mode.
+The preview reflects whatever changes you’ve uploaded to the site, so be sure to push your local edits before opening the preview. Each time you launch the preview, the site cache is automatically cleared to guarantee you’re seeing the latest site updates.
+
+To see the preview, select active site from the [Power Pages Actions](#power-pages-actions) and right click and select **Preview** action this will open the embedded Edge browser with selected site.
 
 :::image type="content" source="media/vs-code-extension/page-preview.png" alt-text="Screenshot of the page preview.":::
 
 The preview pane opens on the right side of the page being edited.
 
 :::image type="content" source="media/vs-code-extension/preview-studio.png" alt-text="Screenshot showing the file list, open file in Visual Studio Code editor, and a preview on the right-side.":::
-
-The preview feature requires that the other files are also open in the same Visual Studio Code session that makes up the HTML markup for the preview to show. For example, if only the HTML file is opened without the folder structure opened using Visual Studio Code, the following message appears.
-
-:::image type="content" source="media/vs-code-extension/preview-failed.png" alt-text="Screenshot shows running the contributed command: 'microsoft-powerapps-portals.preview-show' failed.":::
-
-When this problem occurs, open the folder using **File > Open folder** and select the downloaded website content folder to open before you try to preview again.
 
 ## Autocomplete
 
@@ -218,7 +214,6 @@ From the file navigation, you can use the context menu to rename or delete Power
 The following limitations currently apply to the Power Platform Tools for portals:
 
 - [Autocomplete](#autocomplete) features only support limited functionality.
-- [Live preview](#live-preview) doesn't support custom themes or Liquid objects.
 
 ### Related information
 
