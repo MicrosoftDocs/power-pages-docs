@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/15/2025
+ms.date: 04/30/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -65,7 +65,7 @@ To install the Visual Studio Code extension:
 > [!TIP]
 > The Power Platform Tools Extension automatically enables using Microsoft Power Platform CLI commands from within Visual Studio Code through [Visual Studio Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
-## Power Pages Actions 
+## Power Pages Actions
 
 Power Pages Actions streamline site management and reduce reliance on [Microsoft Power Platform CLI commands](power-platform-cli-tutorial.md#step-3-download-website-content). Power Pages Actions is available in the pane titled **Power Pages Actions** in the Explorer sidebar of Visual Studio Code.
 
@@ -100,7 +100,7 @@ Right-click on Active Sites to access the following actions:
 - **Download**: Downloads the site content to a local folder for offline editing.
 - **Site Details**: Displays detailed information about the site.
 - **Reveal in Explorer**: Navigates to the local directory containing the site's code.
-- **Open in Power Pages Studio**: Open site in Power Pages studio. 
+- **Open in Power Pages Studio**: Opens the site in Power Pages studio.
 
 #### Inactive Sites actions
 
@@ -136,17 +136,17 @@ To enable a portals-specific file-icon theme:
 
 ## Site preview
 
-We use the [Microsoft Edge DevTools extension for Visual Studio Code](https://learn.microsoft.com/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension) to provide an in-editor site preview. This feature runs Edge DevTools and an embedded Edge browser with Device Emulation right inside VS Code, giving you nearly all of the same debugging and inspection capabilities found in the full Microsoft Edge DevTools.  
+The preview action uses the [Microsoft Edge DevTools extension for Visual Studio Code](https://learn.microsoft.com/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension) to provide an in-editor site preview. This feature runs Microsoft Edge DevTools and an embedded Microsoft Edge browser with device emulation right inside VS Code, giving you nearly all of the same debugging and inspection capabilities found in the full Microsoft Edge DevTools.  
 
-The preview always shows the changes you’ve uploaded to your site—so make sure to push any local edits before opening it. Each time you launch the preview, the site cache is cleared automatically to ensure you’re viewing the most recent updates.  
+The preview always shows the changes you uploaded to your site, so ensure you push any local edits before opening it. Each time you launch the preview, the site cache clears automatically to ensure you view the most recent updates.  
 
-To open the preview, choose your active site under [Power Pages Actions](#power-pages-actions), right-click, and select **Preview**. This will launch the embedded Edge browser pointed at your chosen site.
+To open the preview, right-click your active site under [Power Pages Actions](#power-pages-actions), and select **Preview**. This action opens the embedded Microsoft Edge browser pointing to your chosen site.
 
 :::image type="content" source="media/vs-code-extension/site-preview-action.png" alt-text="Screenshot of the Power Pages site preview action.":::
 
 The preview pane opens on the right side.
 
-:::image type="content" source="media/vs-code-extension/site-preview.png" alt-text="Screenshot showing the file list, open file in Visual Studio Code editor, and a preview on the right-side.":::
+:::image type="content" source="media/vs-code-extension/site-preview.png" alt-text="Screenshot showing the file list, open file in Visual Studio Code editor, and a preview on the right side.":::
 
 ## Autocomplete
 
