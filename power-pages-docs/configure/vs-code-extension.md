@@ -136,17 +136,17 @@ To enable a portals-specific file-icon theme:
 
 ## Site preview
 
-We leverages [Microsoft Edge DevTools extension for Visual Studio Code](https://learn.microsoft.com/en-us/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension) to display a live site preview powered by Edge DevTools and an embedded Edge browser with Device Emulation directly inside VS Code. It brings most of the same debugging and inspection features you get in the standalone Microsoft Edge DevTools into your editor.
+We leverages [Microsoft Edge DevTools extension for Visual Studio Code](https://learn.microsoft.com/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension) to display a live site preview powered by Edge DevTools and an embedded Edge browser with Device Emulation directly inside VS Code. It brings most of the same debugging and inspection features you get in the standalone Microsoft Edge DevTools into your editor.
 
 The preview reflects whatever changes you’ve uploaded to the site, so be sure to push your local edits before opening the preview. Each time you launch the preview, the site cache is automatically cleared to guarantee you’re seeing the latest site updates.
 
-To see the preview, select active site from the [Power Pages Actions](#power-pages-actions) and right click and select **Preview** action this will open the embedded Edge browser with selected site.
+To see the preview, select active site from the [Power Pages Actions](#power-pages-actions) and right click to select **Preview** action this will open the embedded Edge browser with selected site.
 
-:::image type="content" source="media/vs-code-extension/page-preview.png" alt-text="Screenshot of the page preview.":::
+:::image type="content" source="media/vs-code-extension/site-preview-action.png" alt-text="Screenshot of the Power Pages site preview action.":::
 
 The preview pane opens on the right side of the page being edited.
 
-:::image type="content" source="media/vs-code-extension/preview-studio.png" alt-text="Screenshot showing the file list, open file in Visual Studio Code editor, and a preview on the right-side.":::
+:::image type="content" source="media/vs-code-extension/preview-site.png" alt-text="Screenshot showing the file list, open file in Visual Studio Code editor, and a preview on the right-side.":::
 
 ## Autocomplete
 
