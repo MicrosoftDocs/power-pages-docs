@@ -136,7 +136,7 @@ To enable a portals-specific file-icon theme:
 
 ## Site preview
 
-The preview action uses the [Microsoft Edge DevTools extension for Visual Studio Code](https://learn.microsoft.com/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension) to provide an in-editor site preview. This feature runs Microsoft Edge DevTools and an embedded Microsoft Edge browser with device emulation right inside VS Code, giving you nearly all of the same debugging and inspection capabilities found in the full Microsoft Edge DevTools.  
+The preview action uses the [Microsoft Edge DevTools extension for Visual Studio Code](/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension) to provide an in-editor site preview. This feature runs Microsoft Edge DevTools and an embedded Microsoft Edge browser with device emulation right inside VS Code, giving you nearly all of the same debugging and inspection capabilities found in the full Microsoft Edge DevTools.  
 
 The preview always shows the changes you uploaded to your site, so ensure you push any local edits before opening it. Each time you launch the preview, the site cache clears automatically to ensure you view the most recent updates.  
 
