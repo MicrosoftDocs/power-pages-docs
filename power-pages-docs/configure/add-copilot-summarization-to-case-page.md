@@ -3,7 +3,7 @@ title: How to - Add Copilot summarization to case page (preview)
 description: Learn how to add Copilot summarization to the case page in Power Pages.
 author: nageshbhat-msft
 ms.topic: conceptual
-ms.date: 11/21/2024
+ms.date: 04/29/2025
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
@@ -17,17 +17,17 @@ contributors:
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This guide explains how to set up the Copilot summarization section for the support case page. In this way, users can quickly review a case and its timeline summary.
+This guide explains how to set up the Copilot summarization section for the support case page so users can quickly review a case and its timeline summary.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## Prerequisites
 
-Be sure to use the site that was created by using the [Community](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#community) or [Customer self-service](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#customer-self-service) portal template. Those portals contain the support case page.
+Use the site created with the [Community](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#community) or [Customer self-service](/power-pages/templates/dynamics-365-apps/overview?WT.mc_id=powerportals_inproduct_portalstudio2#customer-self-service) portal template. These portals include the support case page.
 
 ## Step 1 - Create site settings
 
-Before you can use the data summarization API, you must use the Portal Management app to enable the required site settings.
+Before using the data summarization API, use the Portal Management app to enable the required site settings.
 
 1. Open the [Portal Management app](/power-pages/configure/portal-management-app).
 1. On the selected website record, select **Site Settings**.
@@ -284,10 +284,10 @@ In this step, you add a summary section at the top of the case page.
 ## Step 3 - Test the summarization
 
 1. Select the **My support** tab.
-1. Create a new case, and add a case description.
-1. Add a couple of comments.
+1. Create a new case and add a case description.
+1. Add comments.
 1. To view the case summary, select the down arrow in the Copilot summary section.
-1. Try these steps for other case records.
+1. Repeat these steps for other case records.
 
     :::image type="content" source="media/add-copilot-summarization-to-case-page/ai-summarization.png" alt-text="Screenshot of AI summarization on the case page.":::
 
