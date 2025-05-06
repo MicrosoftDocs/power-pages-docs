@@ -3,7 +3,7 @@ title: Provisioning issues
 description: Learn about Site Checker diagnostics results for provisioning issues.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: concept-concept-article
 ms.custom: 
 ms.date: 03/03/2023
 ms.subservice: 

@@ -3,7 +3,7 @@ title: Download public key of a website
 description: Learn how to download public key of a website.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/16/2023
 ms.subservice: 

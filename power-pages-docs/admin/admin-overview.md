@@ -2,7 +2,7 @@
 title: Use the admin center
 description: Learn how to use the Power Pages admin center.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 07/10/2024
 ms.author: nenandw

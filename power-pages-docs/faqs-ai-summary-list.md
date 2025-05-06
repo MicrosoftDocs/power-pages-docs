@@ -1,8 +1,8 @@
-﻿---
+---
 title: FAQ for the AI summary list
 description: Look up frequently asked questions (FAQ) for the AI summary list feature in Microsoft Power Pages.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: faq
 ms.date: 02/05/2025
 ms.author: nenandw
 ms.reviewer: dmartens

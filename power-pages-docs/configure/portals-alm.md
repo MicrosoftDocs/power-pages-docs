@@ -2,7 +2,7 @@
 title: Overview of Power Pages ALM
 description: Learn how to use ALM in Power Pages.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: concept-concept-article
 ms.custom: 
 ms.date: 03/02/2023
 ms.author: nenandw

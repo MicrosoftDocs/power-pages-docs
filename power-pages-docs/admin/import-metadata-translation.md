@@ -3,7 +3,7 @@ title: Import metadata translation
 description: Instructions to import metadata translation.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/19/2023
 ms.subservice: 

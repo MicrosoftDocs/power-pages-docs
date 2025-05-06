@@ -1,8 +1,8 @@
-﻿---
+---
 title: Migrate standard data model sites to enhanced data model (preview)
 description: Learn how to migrate your standard data model site to the enhanced data model in Power Pages.
 author:  neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-concept-article
 ms.custom: 
 ms.date: 07/09/2024
 ms.subservice:
