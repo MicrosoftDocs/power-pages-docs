@@ -2,7 +2,7 @@
 title: Configure an image column on Power Pages
 description: Learn how to configure an image column on Power Pages.
 author: nageshbhat-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/12/2023
 ms.subservice: 

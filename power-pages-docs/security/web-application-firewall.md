@@ -3,7 +3,7 @@ title: Web Application Firewall overview
 description: Learn about Web Application Firewall for Power Pages.
 author: nageshbhat-msft
 ms.author: nabha
-ms.topic: conceptual
+ms.topic: concept-concept-article
 ms.custom: nabha
 ms.date: 05/16/2024
 ms.reviewer: danamartens
