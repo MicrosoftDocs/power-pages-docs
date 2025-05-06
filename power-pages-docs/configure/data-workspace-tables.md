@@ -2,7 +2,7 @@
 title: Create and modify tables by using the Data workspace
 description: Learn how to use the Data workspace to create Dataverse tables.
 author: pranita225
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/06/2025
 ms.subservice:

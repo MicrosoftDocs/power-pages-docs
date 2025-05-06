@@ -2,7 +2,7 @@
 title: Overview of the Data workspace
 description: Learn how to use the Data workspace.
 author: pranita225
-ms.topic: conceptual
+ms.topic: concept-concept-article
 ms.custom: 
 ms.date: 02/05/2025
 ms.subservice:
