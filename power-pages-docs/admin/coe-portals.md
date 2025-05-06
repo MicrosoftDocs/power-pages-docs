@@ -1,7 +1,7 @@
 ---
 title: Power Pages governance
 description: Manage and administer your Power Pages sites.
-ms.topic: conceptual
+ms.topic: concept-concept-article
 ms.custom: 
 ms.date: 07/10/2024
 author: PramithaU

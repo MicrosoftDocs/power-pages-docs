@@ -1,7 +1,7 @@
 ---
 title: Power Pages connectivity to a Microsoft Dataverse
 description: Learn how Power Pages connects to a Power Platform environment with Dataverse, connectivity architecture, and the authentication key used for connectivity.
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/11/2023
 ms.subservice: 
