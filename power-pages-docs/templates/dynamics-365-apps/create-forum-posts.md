@@ -2,7 +2,7 @@
 title: Create forum posts
 description: Learn how to create forum posts on your Power Pages site.
 author: murugesh1985
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 4/10/2023
 ms.subservice: 

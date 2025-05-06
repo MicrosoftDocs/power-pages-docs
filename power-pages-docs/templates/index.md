@@ -2,7 +2,7 @@
 title: Power Pages Templates
 description: Learn the features of Power Pages templates.
 author: murugesh1985
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/20/2025
 ms.author: murugeshs
