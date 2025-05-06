@@ -2,7 +2,7 @@
 title: Provide access to external audiences
 description: Learn how to allow external audiences to use a local account to access sites you create with Microsoft Power Pages.
 ms.date: 07/20/2023
-ms.topic: conceptual
+ms.topic: how-to
 author: dmartens
 ms.author: dmartens
 contributors:
