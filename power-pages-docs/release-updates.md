@@ -3,7 +3,7 @@ title: Power Pages release updates and new features
 description: Learn about the new features that have been recently released for Power Pages, and features that will be releasing over the next few months.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 03/21/2023
 ms.subservice: 

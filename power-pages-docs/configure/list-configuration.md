@@ -3,7 +3,7 @@ title: List configuration
 description: Learn how to configure lists on a website.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 08/27/2024
 ms.subservice: 

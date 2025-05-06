@@ -2,7 +2,7 @@
 title: Build and distribute progressive web apps
 description: Configure a site as a progressive web app.
 author: DanaMartens
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 11/13/2024
 ms.subservice: 

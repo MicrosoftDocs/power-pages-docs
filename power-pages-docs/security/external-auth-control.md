@@ -3,7 +3,7 @@ title: Use governance controls for external authentication in your websites
 description: Learn how to use governance controls to enable or disable external authentication providers in your Power Pages websites.
 author: DanaMartens
 contributors:
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/21/2025
 ms.author: bipuldeora
 ms.reviewer: dmartens

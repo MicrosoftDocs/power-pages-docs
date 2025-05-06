@@ -3,7 +3,7 @@ title: List filter configuration
 description: Learn how to configure list filters on a website.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/24/2023
 ms.subservice: 
