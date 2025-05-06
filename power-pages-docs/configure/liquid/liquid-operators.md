@@ -3,7 +3,7 @@ title: Understand Liquid operators
 description: Learn about the available liquid operators in Power Pages.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:

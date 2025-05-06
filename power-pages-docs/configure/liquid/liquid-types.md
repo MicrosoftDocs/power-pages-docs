@@ -3,7 +3,7 @@ title: Available Liquid types
 description: Learn about the available liquid types in a Power Pages.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:

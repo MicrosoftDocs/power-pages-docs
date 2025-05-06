@@ -3,7 +3,7 @@ title: Use Liquid template tag for code components
 description: Learn how to use the Liquid template tag for code components, and walk through a tutorial to configure Power Pages to add the component to a webpage.
 author: GitanjaliSingh33msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice: 

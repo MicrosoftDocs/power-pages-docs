@@ -3,7 +3,7 @@ title: Render the list associated with the current page
 description: Sample code to render the list associated with the current page in Power Pages.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:
