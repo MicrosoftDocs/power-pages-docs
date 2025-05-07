@@ -35,16 +35,18 @@ To insert the search component into a page:
 
 The search bar lets users enter their queries.
 
-| Show search result inline | Determines whether the results summary is displayed on the same page or redirects to a dedicated search results page. |
+| Property | Description |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Show search result inline          | Determines whether the results summary is displayed on the same page or redirects to a dedicated search results page.             |
 | Placeholder text          | Text shown inside the search bar before the user enters a prompt (for example, "What would you like to search?").             |
 
 ### Search summary
 
 The search summary section displays an AI-generated summary of relevant content retrieved from the website.
 
-| Heading text | The header displayed above the AI-generated search summary. |
-|--------------|-------------------------------------------------------------|  
+| Property | Description |
+|--------------|-------------------------------------------------------------|
+| Heading text         | The header displayed above the AI-generated search summary.             |
 
 ## Add a search result page
 
@@ -71,5 +73,6 @@ To restore or reassign the previous search result page:
 
 This section is only available when the Search component is used on the designated Search Results Page.
 
-| Heading text | The heading displayed above the full list of matched search results. |
+| Property | Description |
 |--------------|---------------------------------------------------------------------|
+| Heading text         | The heading displayed above the full list of matched search results.             |
