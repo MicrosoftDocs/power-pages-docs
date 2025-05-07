@@ -274,6 +274,8 @@
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
+    - name: Use Power Pages Action Center
+      href: admin/action-center.md
     - name: Configure website actions
       items:
         - name: Download public key
