@@ -2,7 +2,7 @@
 title: Generate answers from public data using Bing search
 description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a copilot.
 ms.topic: how-to
-ms.date: 10/22/2024
+ms.date: 04/29/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -18,27 +18,27 @@ ms.custom: bap-template
 
 You can generate answers from publicly available data by utilizing Bing search. Configuring Bing search enables the generation of answers from external sources beyond the Power Pages site built on the Dataverse instance.
 
-To use the Bing search:
+To use Bing search:
 
-1. Open [Power Pages](https://make.powerpages.microsoft.com/)
-1. Select site **+ Edit**.
-1. Navigate to the **Set up** workspace, then select **Add copilot** under **Copilot**.
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+1. Select the site, then select **+ Edit**.
+1. Go to the **Set up** workspace and select **Add copilot** under **Copilot**.
 1. Select **View copilot analytics**.
 1. Select **Topics**.
 1. Select the **System** tab.
 1. Select the **Conversational boosting** topic.
-1. Update the **Create generative answers** node to search public websites you want to index. For more details, go to [Search public data or use a Bing Custom Search for generative answers](/microsoft-copilot-studio/nlu-generative-answers-bing).
+1. Update the **Create generative answers** node to include the public websites you want to index. For more details, go to [Search public data or use a Bing Custom Search for generative answers](/microsoft-copilot-studio/nlu-generative-answers-bing).
 1. Select **Save** and then select **Publish**.
 
-    Verify whether your public site is indexed by conducting a search for any content using Bing search. If you don't receive any results from your site, it might not be indexed. You can either wait for indexing or prompt Bing Webmaster to index your site immediately.
+    Check if your public site is indexed by searching for its content using Bing search. If no results from your site appear, it might not be indexed. You can either wait for indexing or prompt Bing Webmaster to index your site immediately.
 
 > [!IMPORTANT]
 >
-> If you configure copilot for generative answers from public data using Bing search, use of Bing Search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+> If you configure copilot for generative answers from public data using Bing search, the use of Bing search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-## Force Bing webmaster to index your site (Optional)
+## Force Bing Webmaster Tools to index your site (optional)
 
-When you add a site to Copilot, Bing might not start indexing your site immediately. It might take from several hours to a day. If you prefer not to wait for Bing to index your site, you can use Bing Webmaster Tools to expedite the indexing process and have your site's content indexed immediately.
+When you add a site to Copilot, Bing might not index your site immediately. Indexing can take several hours to a day. To expedite indexing, use Bing Webmaster Tools to index your site's content immediately.
 
 ### Add your site to your Bing Webmaster Tools account
 
@@ -51,7 +51,7 @@ When you add a site to Copilot, Bing might not start indexing your site immediat
 
 ### Verify your ownership
 
-Next, verify that you're the owner of the site. Use either of the following methods, which are also described in [the Bing Webmaster Tools help](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b).
+Verify that you're the site owner using one of the following methods, also described in [Bing Webmaster Tools help](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b).
 
 ### XML file authentication
 
@@ -97,7 +97,7 @@ With this method, you add a metadata tag to your site's header HTML. In Power Pa
 
 ### Add a Robots.txt file
 
-Add a file to your site to tell Bing, Google, and other search engines, or *robots*, how much of its content to index. The Robots.txt file in this example allows search engines to index the entire site, but you can control what pages they're allowed to index. Use Bing Webmaster Tools to easily [edit and test your Robots.txt file](https://blogs.bing.com/webmaster/september-2020/Bing-Webmaster-Tools-makes-it-easy-to-edit-and-verify-your-robots-txt).
+Add a file to your site to tell Bing, Google, and other search engines (or *robots*) how much of its content to index. This Robots.txt file lets search engines index the entire site, but you can control which pages they index. Use Bing Webmaster Tools to easily [edit and test your Robots.txt file](https://blogs.bing.com/webmaster/september-2020/Bing-Webmaster-Tools-makes-it-easy-to-edit-and-verify-your-robots-txt).
 
 1. On your local drive, create a text file and name it **Robots.txt**.
 1. Enter the following content in the file:
@@ -123,7 +123,7 @@ Add a file to your site to tell Bing, Google, and other search engines, or *robo
 
 ### Add a meta description to pages to index
 
-The *meta description* tells search engines what text to display along with the page title. It's an important part of making your site easy to find, so you should put some thought into the description of each page you plan to index. To find guidance for creating effective meta descriptions, enter the key phrase "meta description" in your favorite search engine.
+A *meta description* tells search engines what text to display with the page title. It's an important part of making your site easy to find, so put thought into the description of each page you plan to index. To find guidance for creating effective meta descriptions, enter the key phrase "meta description" in your favorite search engine.
 
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Web Pages**.
@@ -137,7 +137,7 @@ The *meta description* tells search engines what text to display along with the 
 
 ### Run an SEO scan and fix issues
 
-It's a good idea to scan for common issues with search engine optimization (SEO) that make your site harder to find.
+Scan for common search engine optimization (SEO) issues that make your site harder to find.
 
 1. Open [Webmaster Tools Site Scan](https://www.bing.com/webmasters/sitescan).
 1. Select **Start new scan**.
@@ -155,7 +155,7 @@ As the final step, index individual page URLs directly. It's a good idea to subm
 
 To verify the indexing status, select **URL Inspection** in the left side panel. Enter a URL, and then select **Inspect**.
 
-Indexing should complete within a few minutes, but it might take up to an hour to see the results.
+Indexing usually completes within a few minutes, but it can take up to an hour to see results.
 
 ### See also
 
