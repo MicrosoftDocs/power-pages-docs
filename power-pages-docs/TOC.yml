@@ -113,7 +113,7 @@
     - name: Control site creation in a tenant
       href: admin/control-site-creation.md
     - name: Reactivate sites
-      href: admin/reactivate-website.md      
+      href: admin/reactivate-website.md
     - name: Learning hub
       href: getting-started/use-learnhub.md
     - name: Power Pages community
@@ -175,8 +175,10 @@
                 - name: Add a multistep form manually
                   href: getting-started/multistep-forms.md
                 - name: Add IFrame
-                  href: getting-started/add-iframe.md 
-                - name: Add a flex container 
+                  href: getting-started/add-iframe.md
+                - name: Add search (preview)
+                  href: getting-started/add-search.md
+                - name: Add a flex container
                   href: getting-started/add-flex-container.md
                 - name: Add a card gallery
                   href: getting-started/add-card-gallery.md
@@ -187,8 +189,8 @@
             - name: Structure your site map
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
-              href: configure/visual-studio-code-editor.md          
-    - name:  Style your site
+              href: configure/visual-studio-code-editor.md
+    - name: Style your site
       items:
         - name: Styling workspace overview
           href: getting-started/style-site.md
@@ -210,7 +212,7 @@
           href: getting-started/use-data-workspace.md
         - name: Create and modify tables
           href: configure/data-workspace-tables.md
-        - name: Create and modify virtual tables 
+        - name: Create and modify virtual tables
           href: configure/data-workspace-virtual-tables.md
         - name: Create and modify views
           href: configure/data-workspace-views.md
@@ -222,18 +224,18 @@
           href: configure/setup-workspace.md
         - name: Add a copilot
           items:
-          - name: Add a copilot
-            href: getting-started/enable-chatbot.md
-          - name: Customize your copilot
-            href: getting-started/customize-your-copilot.md
-          - name: Generate answers from public data using Bing search
-            href: getting-started/force-bing-index.md
-          - name: Replace copilot with a Microsoft Copilot Studio copilot
-            href: getting-started/pva-bot-how-to.md
-          - name: Configure Omnichannel with site copilot
-            href: configure/omnichannel.md
-          - name: Manage copilot provisioning
-            href: getting-started/manage-copilot-provisioning.md
+            - name: Add a copilot
+              href: getting-started/enable-chatbot.md
+            - name: Customize your copilot
+              href: getting-started/customize-your-copilot.md
+            - name: Generate answers from public data using Bing search
+              href: getting-started/force-bing-index.md
+            - name: Replace copilot with a Microsoft Copilot Studio copilot
+              href: getting-started/pva-bot-how-to.md
+            - name: Configure Omnichannel with site copilot
+              href: configure/omnichannel.md
+            - name: Manage copilot provisioning
+              href: getting-started/manage-copilot-provisioning.md
         - name: Progressive web applications
           items:
             - name: Overview
@@ -250,11 +252,11 @@
           href: security/advanced-settings.md
     - name: Collaborate in design studio
       items:
-      - name: Copresence in design studio
-        href: getting-started/copresence.md
-      - name: Add comments to pages (preview)
-        href: getting-started/add-comments-to-pages.md
-    - name: Enhanced data model 
+        - name: Copresence in design studio
+          href: getting-started/copresence.md
+        - name: Add comments to pages (preview)
+          href: getting-started/add-comments-to-pages.md
+    - name: Enhanced data model
       items:
         - name: Use enhanced data model
           href: admin/enhanced-data-model.md
@@ -350,114 +352,114 @@
   items:
     - name: Portal Management app
       items:
-      - name: Portal Management app overview
-        href: configure/portal-management-app.md
-      - name: Configure site settings
-        href: configure/configure-site-settings.md
-      - name: Use environment variables with site settings
-        href: configure/environment-variables-for-site-settings.md
-      - name: Configure form and list metadata
-        items:
-        - name: Configure lists
+        - name: Portal Management app overview
+          href: configure/portal-management-app.md
+        - name: Configure site settings
+          href: configure/configure-site-settings.md
+        - name: Use environment variables with site settings
+          href: configure/environment-variables-for-site-settings.md
+        - name: Configure form and list metadata
           items:
-          - name: Lists overview
-            href: configure/lists.md
-          - name: List attributes and relationships
-            href: configure/list-attributes-relationships.md
-          - name: Sort list
-            href: configure/sort-lists.md
-          - name: Add custom JavaScript to a list
-            href: configure/add-custom-javascript-list.md
-          - name: List configuration
-            href: configure/list-configuration.md
-          - name: Securing lists
-            href: configure/securing-lists.md
-          - name: Add a view details page
-            href: configure/list-view-details.md
-          - name: List filter configuration
-            href: configure/list-filter-configuration.md
-          - name: List map view
-            href: configure/list-map-view.md
-          - name: List calendar view
-            href: configure/list-calendar-view.md
-          - name: Enhanced view filter for lists
-            href: configure/list-enhanced-view-filter.md
-        - name: Configure basic forms
+            - name: Configure lists
+              items:
+                - name: Lists overview
+                  href: configure/lists.md
+                - name: List attributes and relationships
+                  href: configure/list-attributes-relationships.md
+                - name: Sort list
+                  href: configure/sort-lists.md
+                - name: Add custom JavaScript to a list
+                  href: configure/add-custom-javascript-list.md
+                - name: List configuration
+                  href: configure/list-configuration.md
+                - name: Securing lists
+                  href: configure/securing-lists.md
+                - name: Add a view details page
+                  href: configure/list-view-details.md
+                - name: List filter configuration
+                  href: configure/list-filter-configuration.md
+                - name: List map view
+                  href: configure/list-map-view.md
+                - name: List calendar view
+                  href: configure/list-calendar-view.md
+                - name: Enhanced view filter for lists
+                  href: configure/list-enhanced-view-filter.md
+            - name: Configure basic forms
+              items:
+                - name: Basic forms overview
+                  href: configure/basic-forms.md
+                - name: Configure basic form metadata
+                  href: configure/configure-basic-form-metadata.md
+                - name: Configure basic form subgrids
+                  href: configure/configure-basic-form-subgrid.md
+            - name: Configure multistep forms
+              items:
+                - name: Define multistep form properties
+                  href: configure/multistep-form-properties.md
+                - name: Multistep form steps
+                  items:
+                    - name: Define multistep form steps
+                      href: configure/multistep-form-steps.md
+                    - name: Define a load form and load tab step type
+                      href: configure/load-form-step.md
+                    - name: Add a redirect step type
+                      href: configure/add-redirect-step.md
+                    - name: Add a conditional step type
+                      href: configure/add-conditional-step.md
+                    - name: Add custom JavaScript
+                      href: configure/add-custom-javascript.md
+                    - name: Configure multistep form metadata
+                      href: configure/configure-multistep-form-metadata.md
+                    - name: Configure a multistep form subgrid
+                      href: configure/configure-multistep-form-subgrid.md
+                    - name: Add geolocation
+                      href: configure/add-geolocation.md
+        - name: Add chart on a web page in portal
+          href: configure/add-chart.md
+        - name: Enable multiple languages
           items:
-          - name: Basic forms overview
-            href: configure/basic-forms.md
-          - name: Configure basic form metadata
-            href: configure/configure-basic-form-metadata.md
-          - name: Configure basic form subgrids
-            href: configure/configure-basic-form-subgrid.md
-        - name: Configure multistep forms
-          items:
-          - name: Define multistep form properties
-            href: configure/multistep-form-properties.md
-          - name: Multistep form steps
-            items:
-            - name: Define multistep form steps
-              href: configure/multistep-form-steps.md
-            - name: Define a load form and load tab step type
-              href: configure/load-form-step.md
-            - name: Add a redirect step type
-              href: configure/add-redirect-step.md
-            - name: Add a conditional step type
-              href: configure/add-conditional-step.md
-            - name: Add custom JavaScript
-              href: configure/add-custom-javascript.md
-            - name: Configure multistep form metadata
-              href: configure/configure-multistep-form-metadata.md
-            - name: Configure a multistep form subgrid
-              href: configure/configure-multistep-form-subgrid.md
-            - name: Add geolocation
-              href: configure/add-geolocation.md
-      - name: Add chart on a web page in portal
-        href: configure/add-chart.md
-      - name: Enable multiple languages
-        items:
-        - name: Enable multiple-language support
-          href: configure/enable-multiple-language-support.md
-        - name: Behavior and format of the Duration, Date and Time fields
-          href: configure/behavior-format-date-time-field.md
-      - name: Configure advertisements
-        href: configure/create-run-advertisement.md
-      - name: Configure choices column
-        href: configure/choices-column.md
-      - name: Configure content snippets
-        href: configure/customize-content-snippets.md
-      - name: Configure file column
-        href: configure/file-column.md
-      - name: Configure header and footer output caching
-        href: configure/enable-header-footer-output-caching.md
-      - name: Configure image column
-        href: configure/image-column.md
-      - name: Configure page templates
-        href: configure/page-templates.md
-      - name: Configure polls
-        href: configure/gather-feedback-poll.md
-      - name: Configure publishing states
-        href: configure/publishing-states.md
-      - name: Configure shortcuts
-        href: configure/place-child-nodes.md
-      - name: Configure website redirects
-        href: configure/add-redirect-url.md
-      - name: Configure site markers
-        href: configure/configure-site-markers.md
-      - name: Configure webpage ratings
-        href: configure/rate-webpage.md
-      - name: Configure web files
-        href: configure/web-files.md
-      - name: Configure web links
-        href: configure/manage-web-links.md
-      - name: Configure webpages
-        href: configure/web-page.md
-      - name: Configure websites
-        href: configure/websites.md
-      - name: Configure website bindings
-        href: configure/website-bindings.md
-      - name: View activities in a form timeline
-        href: configure/view-all-activities-in-portal-timeline.md
+            - name: Enable multiple-language support
+              href: configure/enable-multiple-language-support.md
+            - name: Behavior and format of the Duration, Date and Time fields
+              href: configure/behavior-format-date-time-field.md
+        - name: Configure advertisements
+          href: configure/create-run-advertisement.md
+        - name: Configure choices column
+          href: configure/choices-column.md
+        - name: Configure content snippets
+          href: configure/customize-content-snippets.md
+        - name: Configure file column
+          href: configure/file-column.md
+        - name: Configure header and footer output caching
+          href: configure/enable-header-footer-output-caching.md
+        - name: Configure image column
+          href: configure/image-column.md
+        - name: Configure page templates
+          href: configure/page-templates.md
+        - name: Configure polls
+          href: configure/gather-feedback-poll.md
+        - name: Configure publishing states
+          href: configure/publishing-states.md
+        - name: Configure shortcuts
+          href: configure/place-child-nodes.md
+        - name: Configure website redirects
+          href: configure/add-redirect-url.md
+        - name: Configure site markers
+          href: configure/configure-site-markers.md
+        - name: Configure webpage ratings
+          href: configure/rate-webpage.md
+        - name: Configure web files
+          href: configure/web-files.md
+        - name: Configure web links
+          href: configure/manage-web-links.md
+        - name: Configure webpages
+          href: configure/web-page.md
+        - name: Configure websites
+          href: configure/websites.md
+        - name: Configure website bindings
+          href: configure/website-bindings.md
+        - name: View activities in a form timeline
+          href: configure/view-all-activities-in-portal-timeline.md
     - name: Search Configuration
       items:
         - name: Search overview
@@ -617,27 +619,27 @@
         - name: "Tutorial: Use Microsoft Power Platform CLI with Power Pages"
           href: configure/power-platform-cli-tutorial.md
         - name: Power Platform CLI solution management (preview)
-          href: configure/power-platform-cli-solution-management.md         
+          href: configure/power-platform-cli-solution-management.md
     - name: Use Visual Studio Code
       items:
         - name: Use Visual Studio Code desktop for Power Pages
           href: configure/vs-code-extension.md
-        - name: Add AI-generated code using Copilot (preview)  
+        - name: Add AI-generated code using Copilot (preview)
           href: configure/add-code-copilot.md
         - name: Use Visual Studio Code for the Web editor (preview)
-          href: configure/visual-studio-code-editor.md 
+          href: configure/visual-studio-code-editor.md
         - name: Use @powerpages within GitHub Copilot Chat (preview)
-          href: configure/github-copilot-chat.md    
+          href: configure/github-copilot-chat.md
     - name: Use Power Fx in Power Pages (preview)
       href: configure/power-fx.md
     - name: Use admin APIs
       href: admin/admin-api.md
     - name: Power Pages ALM
       href: configure/portals-alm.md
-    - name: Use solutions with Power Pages 
+    - name: Use solutions with Power Pages
       href: configure/power-pages-solutions.md
     - name: Use Power Platform pipelines with Power Pages
-      href: configure/power-pages-pipelines.md  
+      href: configure/power-pages-pipelines.md
 - name: Secure Power Pages
   items:
     - name: Overview
@@ -740,7 +742,7 @@
           href: security/configure-web-application-firewall.md
         - name: Web Application Firewall rule groups
           href: security/web-application-firewall-rule-groups.md
-        - name: Web Application Firewall custom rule sets 
+        - name: Web Application Firewall custom rule sets
           href: security/web-application-firewall-custom-rule-sets.md
         - name: Web Application Firewall logs
           href: security/web-application-firewall-logs.md
@@ -753,7 +755,7 @@
     - name: Go live checklist
       href: go-live/checklist.md
     - name: Set up telemetry monitoring
-      href: go-live/telemetry-monitoring.md      
+      href: go-live/telemetry-monitoring.md
     - name: Licensing
       href: go-live/assign-licensing.md
 - name: Tutorials
@@ -791,7 +793,7 @@
     - name: Overview
       href: responsible-ai-overview.md
     - name: FAQ for site creation
-      href: faqs-generate-site.md      
+      href: faqs-generate-site.md
     - name: FAQ for site copilot
       href: faqs-chatbot.md
     - name: FAQ for generating text
@@ -801,13 +803,13 @@
     - name: FAQ for design studio
       href: faqs-design-studio.md
     - name: FAQ for generating code
-      href: faqs-pro-developer.md     
+      href: faqs-pro-developer.md
     - name: FAQ for generative AI search
       href: faqs-generative-ai-search.md
     - name: FAQ for the AI summary list
-      href: faqs-ai-summary-list.md             
+      href: faqs-ai-summary-list.md
     - name: FAQ for data summarization API
-      href: faqs-data-summarization.md   
+      href: faqs-data-summarization.md
 - name: Compliance and accessibility
   items:
     - name: Accessibility
@@ -842,11 +844,11 @@
       href: /power-platform/released-versions/pagessolutions
 - name: Resources
   items:
-  - name: Microsoft Credentials for Power Platform
-    href: /credentials/browse/?products=power-platform&wt.mc_id=appliedskills_AppliedSkillsPowerPlatformProductDoc_webpage_wwl
-  - name: Blog
-    href: https://www.microsoft.com/power-platform/blog/power-pages/
-  - name: Forums
-    href: https://aka.ms/PowerPagesCommunity
-  - name: Support
-    href: https://www.microsoft.com/power-platform/products/power-pages/support
+    - name: Microsoft Credentials for Power Platform
+      href: /credentials/browse/?products=power-platform&wt.mc_id=appliedskills_AppliedSkillsPowerPlatformProductDoc_webpage_wwl
+    - name: Blog
+      href: https://www.microsoft.com/power-platform/blog/power-pages/
+    - name: Forums
+      href: https://aka.ms/PowerPagesCommunity
+    - name: Support
+      href: https://www.microsoft.com/power-platform/products/power-pages/support
