@@ -28,10 +28,6 @@ The Action Center in Power Pages home provides a centralized and environment-lev
 
 The Action Center provides a centralized list of insights and recommended actions, enabling admins to manage their Power Pages environments efficiently. Key recommendations include: 
 
-### Power Pages - Review & assign capacity to avoid degraded performance
-
-This recommendation identifies environments where capacity consumption is nearing or exceeding the assigned limits. To prevent performance degradation, review the affected environments and allocate more capacity as needed. Select an environment to [manage and adjust capacity assignments](/power-pages/admin/capacity-management) accordingly.
-
 ### Websites are expiring in the next seven days
 
 This recommendation lists trial websites that are expiring in the next seven days. Review and [convert the websites to production](/power-pages/admin/convert-site) as needed.
@@ -41,26 +37,13 @@ This recommendation lists trial websites that are expiring in the next seven day
 
 ### Websites didn't receive any traffic in the last 30 days
 
-This recommendation lists websites that received no traffic in the last 30 days. This means some websites
-in your tenant had no visitors in the past month. These websites might be outdated, irrelevant, or redundant.
+This recommendation lists websites that received no traffic in the last 30 days. This means some websites in your environment had no visitors in the past month. These websites might be outdated, irrelevant, or redundant.
 
 To review these websites, select the recommendation to see a list of the websites, their URLs, environment names, and environment types. You can also visit the Power Pages admin center to get more insights into the traffic.
 
 1. Select **Resources** > **Power Pages sites** > **Analytics**.
 
 If a website isn't currently needed, you can shut it down. When a website is shut down, it's unavailable to users. You can always restart the websites later if you need them.
-
-#### Supported actions for websites without traffic in the last 30 days
-
-##### Shut down
-
-To shut down a site:
-
-1. Select one or more sites from the list and select **Shut down**.
-1. After you confirm the shutdown operation, the selected sites are shut down.
-
-> [!NOTE]
-> Once an action is taken, it takes up to one day for the sites to be removed from the list.
 
 ### Websites don't have Content Delivery Network (CDN) enabled
 
@@ -75,15 +58,6 @@ This recommendation lists production websites that have Web Application Firewall
 
 > [!NOTE]
 > Once an action is taken, it takes up to one day for the sites to be removed from the list.
-
-#### Supported actions for websites without Web Application Firewall (WAF)
-
-##### Enable
-
-To enable WAF:
-
-1. Select one or more sites from the list and select **Enable WAF**.
-1. Confirm the operation to enable WAF for the selected sites.
 
 ### Websites have SSL certificates that have expired or are about to expire within 90 days
 
@@ -114,9 +88,9 @@ Where applicable, makers act on these recommendations directly via the Power Pla
 
 All recommendations in Action center can be shared in Microsoft Teams with other users for team collaboration.
 
-An admin can share the entire recommendation or share specific rows within the recommendation with another user by entering their name in the **Share to** textbox located in the **Share this recommendation** pane.
+Maker can share the entire recommendation or share specific rows within the recommendation with another user by entering their name in the **Share to** textbox located in the **Share this recommendation** pane.
 
-When an entire recommendation or multiple rows in the recommendation are shared, the sharing card provides a link to that recommendation for the admin.
+When an entire recommendation or multiple rows in the recommendation are shared, the sharing card provides a link to that recommendation for the maker.
 
 > [!NOTE]
 >
@@ -124,12 +98,9 @@ When an entire recommendation or multiple rows in the recommendation are shared,
 > - When recommendations are shared, the sharing card provides a link to that recommendation for the admin.
 > - When an app or resource is shared, the sharing card provides a link to both the recommendation and the app in the maker portal.
 
-## Inline actions 
+## Access 
 
-You can take action for each recommendation in the recommendation pane. An admin can take action on a specific resource or perform a bulk action by selecting up to 10 resources from the recommendation list. 
- 
-
-The Action Center is available to users with environment-level permissions in Power Pages. These users typically include: 
+The Action Center is accessible to users with environment-level permissions in Power Pages. These users typically include: 
 
 - Makers with access to manage and build sites in a specific environment. 
 

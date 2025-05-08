@@ -34,6 +34,8 @@
       href: getting-started/developer-sites.md
     - name: Get started with design studio
       href: getting-started/use-design-studio.md
+    - name: Use action center
+      href: getting-started/action-center.md
     - name: Templates
       items:
         - name: Create sites using templates
@@ -274,8 +276,6 @@
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
-    - name: Use Power Pages Action Center
-      href: admin/action-center.md
     - name: Configure website actions
       items:
         - name: Download public key
