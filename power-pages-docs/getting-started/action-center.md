@@ -104,7 +104,7 @@ The action center is accessible to users with environment-level permissions in P
 
 - Makers with access to manage and build sites in a specific environment. 
 
-- System Admins or Environment Admins who manage security, compliance, and operations across environments.
+- System admins or environment admins who manage security, compliance, and operations across environments.
 
 Access to certain actions and insights can vary based on role and privileges. While makers can view and act on many recommendations, some actions might require coordination with tenant-level admins. 
 
