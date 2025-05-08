@@ -52,8 +52,8 @@ If your site is private, use the site visibility page to grant access to up to 5
 1. Select **Share**.
 
 > [!NOTE]
-> Users configured to access the private site are stored in an environment variable. Any Dataverse security role with permission to modify the environment variable can add or remove user access to the private site.
-> Users granted access to a private site aren't automatically authenticated. [Learn how to provide access to external audiences](external-access.md).
+> - Users configured to access the private site are stored in an environment variable. Any Dataverse security role with permission to modify the environment variable can add or remove user access to the private site.
+> - Users granted access to a private site aren't automatically authenticated. [Learn how to provide access to external audiences](external-access.md).
 
 ## Permissions required to change site visibility
 
