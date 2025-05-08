@@ -1,5 +1,5 @@
 ﻿---
-title: Use Power Pages Action Center
+title: Use Power Pages action center
 description: Learn how to use the Power Pages action center to streamlines oversight and enhances responsiveness across your Power Pages experience.
 ms.topic: conceptual
 ms.custom: 
@@ -14,19 +14,19 @@ contributors:
 
 ---
 
-# Use Power Pages Action Center
+# Use Power Pages action center
 
-The Action Center in Power Pages home provides a centralized and environment-level view to help admins and makers manage critical insights, security recommendations, and key administrative actions. It improves oversight and responsiveness by surfacing actionable insights directly within Power Pages home.
+The action center in Power Pages home provides a centralized and environment-level view to help admins and makers manage critical insights, security recommendations, and key administrative actions. It improves oversight and responsiveness by surfacing actionable insights directly within Power Pages home.
 
-## Access Power Pages Action Center
+## Access Power Pages action center
 
 - Select your environment from [Power Pages home](https://make.powerpages.microsoft.com/).
-- Select **Action Center** from the menu options to view Action Center dashboard.
+- Select **Action Center** from the menu options to view action center dashboard.
 
 
 ## Review recommendations
 
-The Action Center provides a centralized list of insights and recommended actions, enabling admins to manage their Power Pages environments efficiently. Key recommendations include: 
+The action center provides a centralized list of insights and recommended actions, enabling admins to manage their Power Pages environments efficiently. Key recommendations include: 
 
 ### Websites are expiring in the next seven days
 
@@ -86,7 +86,7 @@ Where applicable, makers act on these recommendations directly via the Power Pla
 
 ## Share recommendations
 
-All recommendations in Action center can be shared in Microsoft Teams with other users for team collaboration.
+All recommendations in action center can be shared in Microsoft Teams with other users for team collaboration.
 
 Maker can share the entire recommendation or share specific rows within the recommendation with another user by entering their name in the **Share to** textbox located in the **Share this recommendation** pane.
 
@@ -100,7 +100,7 @@ When an entire recommendation or multiple rows in the recommendation are shared,
 
 ## Access 
 
-The Action Center is accessible to users with environment-level permissions in Power Pages. These users typically include: 
+The action center is accessible to users with environment-level permissions in Power Pages. These users typically include: 
 
 - Makers with access to manage and build sites in a specific environment. 
 
