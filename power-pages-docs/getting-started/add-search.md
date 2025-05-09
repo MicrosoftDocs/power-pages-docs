@@ -60,7 +60,7 @@ A default search results page is automatically provisioned when a site is create
 1. Select **Add**.
 
 > [!NOTE]  
-> A website can only have one search results page at a time. Adding a new search layout page replaces the existing one.
+> A website can only have one search result page at a time. Adding a new search layout page replaces the existing one.
 
 To restore or reassign the previous search result page:
 
@@ -76,3 +76,23 @@ This section is only available when the Search component is used on the designat
 | Property | Description |
 |--------------|---------------------------------------------------------------------|
 | Heading text         | The heading displayed above the full list of matched search results.             |
+
+## Known issues
+When a new search results page is created using the **Search** standard page layout, the old search control briefly appears for a few seconds until the page fully loads.To resolve this issue, remove the code snippet shown below from the Header [web template](/power-pages/configure/web-templates).
+
+```
+<section class="page_section {{ section_class | h }} color-inverse">
+    <div class="row sectionBlockLayout sectionFixedStyle" style="display: flex; flex-wrap: wrap; text-align: center;">
+        <div class="container" style="display: flex; flex-wrap: wrap;">
+            <div class="col-lg-12 columnBlockLayout" style="display: flex; flex-direction: column; justify-content: center;">
+                {% if current_page == sr_page %}
+                <h1 id="mainContent">{% editable snippets 'Search/Title' default: resx["Discover_Contoso"] %}</h1>
+                {% include 'Search' search_id:'search_control' %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+```
+
+
