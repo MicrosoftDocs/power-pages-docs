@@ -3,7 +3,7 @@ title: Configure Web Application Firewall custom rules
 description: Enhance web application security with custom rules in Web Application Firewall, which allows blocking or allowing specific requests based on set criteria.
 author: nageshbhat-msft
 ms.topic: how-to
-ms.date: 5/8/2025
+ms.date: 5/9/2025
 ms.author: nabha
 ms.reviewer: danamartens
 contributors:
@@ -21,9 +21,9 @@ Configure the custom rules by navigating to Security workspace.
 
 ## Prerequisites 
 
-- You must be an administrator to configure custom rules. 
+- You must be an admin to configure custom rules.
 - [Web Application Firewall](web-application-firewall.md) must be enabled for the site.
-- Configuring Web Application Firewall custom rules are available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), China, and UAE region.
+- Configuring Web Application Firewall custom rules is available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), China, and the UAE region.
 
 ## Create custom rules
  
