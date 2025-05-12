@@ -2,7 +2,7 @@
 title: Create and modify virtual tables by using the Data workspace 
 description: Learn how to use the Data workspace to create virtual tables in Microsoft Dataverse.
 author: pranita225
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 07/22/2024
 ms.subservice:

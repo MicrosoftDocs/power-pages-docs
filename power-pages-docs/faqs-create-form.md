@@ -3,7 +3,7 @@ title: FAQ for creating AI-generated form or multistep form
 description: This FAQ discusses natural language to forms and the key considerations for making use of this technology responsibly.
 ms.date: 02/05/2025
 ms.custom: responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: pranita225
 ms.author: prpadalw
 ms.reviewer: dmartens
