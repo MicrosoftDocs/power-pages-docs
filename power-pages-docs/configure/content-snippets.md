@@ -2,7 +2,7 @@
 title: Content snippets in Power Pages
 description: Learn how to customize your content using content snippets.
 author: gitanjalisingh33msft
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 05/24/2022
 ms.subservice:
