@@ -18,6 +18,8 @@ contributors:
 
 The action center in Power Pages home provides a centralized and environment-level view to help admins and makers manage critical insights, security recommendations, and key administrative actions. It improves oversight and responsiveness by surfacing actionable insights directly within Power Pages home.
 
+ :::image type="content" source="media/action-center/action_center_home.png" alt-text="Screenshot that shows action center home page":::
+
 ## Access Power Pages action center
 
 - Select your environment from [Power Pages home](https://make.powerpages.microsoft.com/).
