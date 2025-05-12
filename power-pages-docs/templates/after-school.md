@@ -2,7 +2,7 @@
 title: Program registration template
 description: Learn about the program registration template.
 author: murugesh1985
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 4/14/2023
 ms.subservice:

@@ -2,7 +2,7 @@
 title: Set up and manage forums
 description: Learn how to create and manage forums on Power Pages.
 author: murugesh1985
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 4/10/2023
 ms.subservice: 
