@@ -2,8 +2,7 @@
 title: Using the Set up workspace
 description: Learn how to use the Set up workspace.
 author: neerajnandwana-msft
-
-ms.topic: concept-concept-article
+ms.topic: concept-article
 ms.custom: 
 ms.date: 06/20/2024
 ms.subservice:
