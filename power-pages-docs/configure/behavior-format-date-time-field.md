@@ -3,7 +3,7 @@ title: Customize the behavior and format of the date and time fields
 description: Learn how to customize the behavior and format of the Microsoft Dataverse date and time fields in Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 

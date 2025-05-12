@@ -2,7 +2,7 @@
 title: Go-live checklist for Power Pages
 description: Learn how to go live.
 author: NikitaPolyakovMSFT
-ms.topic: conceptual
+ms.topic: checklist
 ms.custom: 
 ms.date: 10/03/2022
 ms.author: nikpol

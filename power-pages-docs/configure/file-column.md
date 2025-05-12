@@ -2,7 +2,7 @@
 title: Configure a file column on Power Pages
 description: Learn how to configure a file column to store binary data on on Power Pages.
 author: nageshbhat-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/11/2023
 ms.subservice: 

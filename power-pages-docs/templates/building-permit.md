@@ -2,7 +2,7 @@
 title: Application processing template
 description: Learn about the application processing template.
 author: murugesh1985 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/14/2023
 ms.subservice:

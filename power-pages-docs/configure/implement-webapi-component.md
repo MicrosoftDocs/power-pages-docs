@@ -3,7 +3,7 @@ title: Implement portals Web API code components sample
 description: This page walks you through a sample code component that uses the portal Web API.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 03/02/2023
 ms.subservice: 

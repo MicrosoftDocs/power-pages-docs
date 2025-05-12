@@ -2,7 +2,7 @@
 title: Integrate virtual tables with Power Pages
 description: Learn how to integrate virtual tables with Power Pages.
 author: nageshbhat-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 05/21/2024
 ms.author: nabha

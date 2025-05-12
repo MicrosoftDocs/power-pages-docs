@@ -3,7 +3,7 @@ title: Delete a website
 description: Learn how to delete a website.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/17/2023
 ms.subservice: 

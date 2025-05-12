@@ -2,7 +2,7 @@
 title: Manage forum threads
 description: Learn how to manage forum threads in Power Pages
 author: murugesh1985
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 3/28/2023
 ms.subservice: 

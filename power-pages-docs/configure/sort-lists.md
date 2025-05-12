@@ -3,7 +3,7 @@ title: Sort lists
 description: Learn how to sort lists on a portal.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/24/2023
 ms.subservice: 

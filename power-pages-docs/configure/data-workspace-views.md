@@ -2,7 +2,7 @@
 title: Create and modify views by using the Data workspace
 description: Learn how to use the Data workspace to create and modify Dataverse views.
 author: pranita225
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/02/2023
 ms.subservice:

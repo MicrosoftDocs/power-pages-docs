@@ -3,7 +3,7 @@ title: About basic forms
 description: Learn how to create basic forms on a website.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 05/03/2024
 ms.subservice: 

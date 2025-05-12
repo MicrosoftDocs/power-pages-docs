@@ -2,7 +2,7 @@
 title: Edit code with Visual Studio Code for the Web (preview)
 description: Learn how to customize pages by using the Visual Studio Code for the Web editor.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 08/02/2023
 ms.subservice:

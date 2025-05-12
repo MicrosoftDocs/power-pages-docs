@@ -1,8 +1,8 @@
-﻿---
+---
 title:  Use governance controls to disable anonymous access
 description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 11/13/2024
 ms.author: bipuldeora

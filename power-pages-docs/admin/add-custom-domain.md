@@ -3,7 +3,7 @@ title: Add a custom domain name
 description: Learn how to add a custom domain name to your Power Pages website.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 08/28/2024
 ms.subservice: 

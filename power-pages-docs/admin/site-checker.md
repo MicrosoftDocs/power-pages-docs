@@ -3,7 +3,7 @@ title: How to run site checker
 description: Learn how to run the Power Pages Site Checker to help you identify common problems within your website and get suggestions on how to fix them.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/03/2023
 ms.subservice: 

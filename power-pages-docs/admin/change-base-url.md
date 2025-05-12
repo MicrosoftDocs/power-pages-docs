@@ -3,7 +3,7 @@ title: Change the base URL of a Power Pages site
 description: Learn how to change the base URL of a website.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/16/2023
 ms.subservice: 

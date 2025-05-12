@@ -2,7 +2,7 @@
 title: Plan your Power Pages project
 description: Learn how to plan for a Power Pages project.
 author: NikitaPolyakovMSFT
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 5/17/2024
 ms.author: nikpol

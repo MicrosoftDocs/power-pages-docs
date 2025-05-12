@@ -2,7 +2,7 @@
 title: Crowdsource ideas
 description: Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a Power Pages site.
 author: murugesh1985
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 

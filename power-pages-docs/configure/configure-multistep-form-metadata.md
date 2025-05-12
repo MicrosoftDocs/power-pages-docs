@@ -3,7 +3,7 @@ title: Configure multistep form metadata for Power Pages
 description: Learn how to add and configure multistep form metadata for Power Pages.
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/09/2025
 ms.subservice: 
