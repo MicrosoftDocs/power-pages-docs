@@ -2,7 +2,7 @@
 title: Power Pages system requirements and limits
 description: Learn about device platform and web browser requirements, limits, and configuration values for Power Pages.
 author: nageshbhat-msft
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.reviewer: dmartens
 ms.date: 08/14/2024

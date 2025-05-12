@@ -3,7 +3,7 @@ title: Cookies in Power Pages
 description: Learn about cookies used by Power Pages.
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 07/11/2024
 ms.subservice: 
