@@ -2,8 +2,7 @@
 title: Migrate Power Pages website configuration
 description: Learn how to migrate Power Pages website configuration.
 author: neerajnandwana-msft
-
-ms.topic: upgrade-and-migration-concept-article
+ms.topic: upgrade-and-migration-article
 ms.custom: 
 ms.date: 02/20/2025
 ms.subservice: 
