@@ -2,7 +2,7 @@
 title: Add an image
 description: Learn how to add images to your Power Pages site.
 author: ckwan-ms
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 06/11/2024
 ms.subservice:

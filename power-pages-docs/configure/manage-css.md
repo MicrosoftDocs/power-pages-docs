@@ -2,7 +2,7 @@
 title: Manage CSS files in Power Pages
 description: Learn how to upload CSS files in the design studio
 author: ckwan-ms
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 09/27/2022
 ms.subservice:
