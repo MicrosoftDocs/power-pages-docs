@@ -3,7 +3,7 @@ title: Maintenance mode for a website
 description: Learn how to enable maintenance mode with your Power Pages website.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 03/16/2023
 ms.subservice: 

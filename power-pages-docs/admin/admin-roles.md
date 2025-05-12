@@ -3,7 +3,7 @@ title: Roles required for Power Pages administration
 description: Learn about the roles and permissions required to do different administrative tasks for Power Pages.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 12/12/2024
 ms.subservice: 

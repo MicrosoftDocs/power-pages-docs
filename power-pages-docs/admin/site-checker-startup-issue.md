@@ -3,7 +3,7 @@ title: Site Checker startup issues
 description: Learn about Site Checker diagnostics results for startup issues.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/05/2023
 ms.subservice: 

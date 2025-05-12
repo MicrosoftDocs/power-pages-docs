@@ -3,7 +3,7 @@ title: Site Checker performance
 description: Learn about Site Checker diagnostics results related to performance.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/03/2023
 ms.subservice: 

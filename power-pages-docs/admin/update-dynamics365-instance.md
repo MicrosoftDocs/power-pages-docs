@@ -3,7 +3,7 @@ title: Update the Dynamics 365 instance for your Power Pages site
 description: Learn how to update the Dynamics 365 instance for your Power Pages site.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 08/27/2024
 ms.subservice: 

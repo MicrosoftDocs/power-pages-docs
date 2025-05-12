@@ -2,7 +2,7 @@
 title: Power Pages lifecycle
 description: Learn about the Power Pages lifecycle and how to convert a trial website to production.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description

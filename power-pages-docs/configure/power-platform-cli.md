@@ -3,7 +3,7 @@ title: Power Platform CLI support for Power Pages
 description: Learn how to work with Power Platform CLI for CI/CD (Continuous Integration/Continuous Deployment) improvements of a Power Pages site.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 05/31/2024
 ms.subservice: 
