@@ -3,7 +3,7 @@ title: View activities in a web page timeline
 description: Learn how to view all activities in a timeline on Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/13/2023
 ms.subservice: 

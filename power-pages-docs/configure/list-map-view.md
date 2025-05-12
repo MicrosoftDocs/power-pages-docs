@@ -3,7 +3,7 @@ title: List map view
 description: Learn how to enable a list to  render as a map on a portal.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/24/2023
 ms.subservice: 

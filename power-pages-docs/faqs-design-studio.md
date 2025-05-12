@@ -3,7 +3,7 @@ title: FAQ for Copilot for design studio
 description: This FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
 ms.date: 02/05/2025
 ms.custom: responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: DanaMartens
 ms.author: bipuldeora
 ms.reviewer: dmartens

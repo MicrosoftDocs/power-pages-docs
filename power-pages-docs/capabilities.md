@@ -2,7 +2,7 @@
 title: Power Pages capabilities
 description: Learn about Power Pages capabilities.
 author: DanaMartens
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/05/2025
 ms.subservice:

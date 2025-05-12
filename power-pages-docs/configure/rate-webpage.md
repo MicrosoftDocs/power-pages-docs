@@ -3,7 +3,7 @@ title: Rate or vote on a webpage on a Power Pages website
 description: Learn how to enable and manage ratings on a web page on a Power Pages website.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/12/2023
 ms.subservice: 

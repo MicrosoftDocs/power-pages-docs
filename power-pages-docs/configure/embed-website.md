@@ -3,7 +3,7 @@ title: Embed a Power Pages site in another website by using an iframe
 description: Learn about how to embed a Power Pages site in another website.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: get-started
 ms.date: 03/28/2023
 
