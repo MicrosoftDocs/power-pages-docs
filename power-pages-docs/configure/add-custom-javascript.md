@@ -3,7 +3,7 @@ title: Add custom JavaScript to a form
 description: Learn how to add custom JavaScript to a form in Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/06/2023
 ms.subservice: 

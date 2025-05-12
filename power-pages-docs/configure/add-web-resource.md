@@ -3,7 +3,7 @@ title: Add Azure storage web resource to a form
 description: Steps to add Azure storage web resource to a form to enable uploading attachments to Azure Storage.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 9/23/2024
 ms.subservice: 

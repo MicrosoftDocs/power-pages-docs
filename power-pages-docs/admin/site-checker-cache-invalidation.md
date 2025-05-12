@@ -3,7 +3,7 @@ title: Cache invalidation
 description: Learn about Site Checker diagnostics results for cache invalidation issues.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/06/2023
 ms.subservice: 

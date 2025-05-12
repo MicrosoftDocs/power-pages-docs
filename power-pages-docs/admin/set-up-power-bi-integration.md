@@ -3,7 +3,7 @@ title: Set up Power BI integration
 description: Learn how to set up Power BI integration with your website. View and embed dashboards and reports by enabling Power BI visualization and Power BI Embedded.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 4/30/2024
 ms.subservice:

@@ -3,7 +3,7 @@ title: Faceted Search
 description: Learn how to enable or disable faceted search.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 1/24/2023
 ms.subservice: 

@@ -3,7 +3,7 @@ title: View error logs
 description: Learn how to view Power Pages website error logs and store them in your Azure Blob storage account.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 10/07/2024
 ms.subservice: 

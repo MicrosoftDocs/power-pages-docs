@@ -2,7 +2,7 @@
 title: Use solutions with Power Pages
 description: Learn how to use solutions with Power Pages.
 author: gitanjalisingh33msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 09/09/2024
 ms.author: gisingh

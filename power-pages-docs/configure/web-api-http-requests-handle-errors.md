@@ -3,7 +3,7 @@ title: Compose HTTP requests and handle errors for portals Web API
 description: Learn how to construct HTTP requests, headers, and handle errors for the portals Web API.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 03/02/2023
 ms.subservice: 

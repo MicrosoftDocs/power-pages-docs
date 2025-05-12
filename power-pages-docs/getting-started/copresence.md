@@ -2,7 +2,7 @@
 title: Copresence in Power Pages  
 description: Learn about Copresence in Power Pages.  
 author: DanaMartens  
-ms.topic: conceptual  
+ms.topic: concept-article
 ms.custom:  
 ms.date: 5/22/2024 
 ms.subservice:  

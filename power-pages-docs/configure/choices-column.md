@@ -3,7 +3,7 @@ title: Configure a choices column for Power Pages
 description: Learn how to add and configure a Dataverse choices column on Power Pages lists, forms, and templates.
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/09/2025
 ms.subservice: 

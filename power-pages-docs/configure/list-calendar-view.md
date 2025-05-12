@@ -3,7 +3,7 @@ title: List calendar view
 description: Learn how to enable a list to render as a calendar view on a website.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/07/2025
 ms.subservice: 

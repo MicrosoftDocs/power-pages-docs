@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions template (preview)
 description: Learn about the Frequently Asked Questions template in Power Pages.
-ms.topic: conceptual
+ms.topic: faq
 ms.custom: bap-template
 ms.date: 4/14/2023
 ms.subservice:

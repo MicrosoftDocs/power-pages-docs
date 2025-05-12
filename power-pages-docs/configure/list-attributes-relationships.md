@@ -3,7 +3,7 @@ title: List attributes and relationships
 description: Learn about attributions and relationships for a list of records on a website.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/11/2025
 ms.subservice: 

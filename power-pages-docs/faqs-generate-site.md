@@ -4,7 +4,7 @@ description: This FAQ provides information about Copilot for site creation in Po
 ms.date: 02/05/2025
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: sampatn
 ms.author: sampatn
 ms.reviewer: dmartens

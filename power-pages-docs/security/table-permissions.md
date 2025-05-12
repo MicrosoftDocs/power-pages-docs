@@ -2,7 +2,7 @@
 title: Set table permissions in Power Pages
 description: Learn how to set and manage table permissions.
 author: gitanjalisingh33msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 7/25/2024
 ms.author: gisingh

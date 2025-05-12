@@ -3,7 +3,7 @@ title: Define a load form and load tab step type
 description: Learn how to define a load form and load tab step type in a Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/20/2025
 ms.subservice: 

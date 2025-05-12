@@ -3,7 +3,7 @@ title: Add a conditional step type
 description: Learn how to add and configure a conditional step type for multistep form in Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/06/2023
 ms.subservice: 

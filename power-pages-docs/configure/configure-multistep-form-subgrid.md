@@ -3,7 +3,7 @@ title: Configure multistep form subgrids for Power Pages
 description: Learn how to add and configure multistep form subgrids for Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 

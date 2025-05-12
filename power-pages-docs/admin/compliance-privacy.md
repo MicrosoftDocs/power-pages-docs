@@ -2,7 +2,7 @@
 title: Compliance and privacy
 description: Learn about compliance and privacy features of Power Pages.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/21/2023
 ms.subservice:
