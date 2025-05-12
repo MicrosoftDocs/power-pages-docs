@@ -2,7 +2,7 @@
 title: What is Power Pages?
 description: Power Pages is a secure, enterprise-grade, low-code SaaS platform for creating, hosting, and administering rich external business websites.
 author: prvaidy
-ms.topic: conceptual
+ms.topic: concept-concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:
