@@ -3,7 +3,7 @@ title: Adding a view details page
 description: Learn how to add a view details page on a website.
 author: DanaMartens
 
-ms.topic: concept-concept-article
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/06/2023
 ms.subservice: 

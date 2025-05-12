@@ -3,7 +3,7 @@ title: Overview of design and building sites
 description: Learn how design and build Power Pages sites.
 author: pranita225
 
-ms.topic: concept-concept-article
+ms.topic: concept-article
 ms.custom: 
 ms.date: 08/06/2024
 ms.subservice:
