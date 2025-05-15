@@ -2,7 +2,7 @@
 title: Use @powerpages within GitHub Copilot Chat for Visual Studio Code (preview)
 description: Boost productivity without leaving your coding environment using GitHub Copilot Chat for seamless Power Pages coding assistance in Visual Studio Code.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/04/2024
 ms.subservice:
 ms.author: nenandw

@@ -3,7 +3,7 @@ title: Important upcoming changes and deprecations in Power Pages
 description: Learn about the important changes, including deprecations, coming soon to Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 06/24/2024
 ms.subservice: 

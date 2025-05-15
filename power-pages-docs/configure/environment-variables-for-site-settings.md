@@ -3,7 +3,7 @@ title: Use environment variables with site settings
 description: Discover the benefits of using environment variables for site settings in Power Pages for dynamic configuration management.
 author: DanaMartens
 contributors: null
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2025
 ms.author: pudupa
 ms.reviewer: dmartens

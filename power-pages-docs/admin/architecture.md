@@ -1,7 +1,7 @@
 ---
 title: Power Pages architecture 
 description: Learn about how Power Pages architecture
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/03/2023
 ms.subservice: 

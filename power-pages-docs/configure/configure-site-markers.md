@@ -3,7 +3,7 @@ title: Configure site markers for Power Pages sites.
 description: Learn how to add and configure site markers for Power Pages sites.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/25/2023
 ms.subservice: 

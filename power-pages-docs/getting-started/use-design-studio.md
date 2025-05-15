@@ -2,7 +2,7 @@
 title: Use design studio
 description: Learn about Power Pages design studio.
 author: ckwan-ms
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 08/06/2024
 ms.author: ckwan

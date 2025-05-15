@@ -3,7 +3,7 @@ title: Use the new Power Platform admin center (preview)
 description: Learn how to navigate the new Power Platform admin center for Power Pages to manage sites, view analytics, handle licenses, and ensure security effortlessly.
 author: DanaMartens
 contributors:
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 11/19/2024
 ms.author: pudupa
 ms.reviewer: dmartens

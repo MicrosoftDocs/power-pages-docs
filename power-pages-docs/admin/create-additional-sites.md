@@ -2,7 +2,7 @@
 title: Create additional sites in an environment
 description: Instructions to create additional sites in an environment.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 05/01/2024
 ms.author: nenandw

@@ -3,7 +3,7 @@ title: Template tags
 description: Learn about Liquid template tags available in Power Pages.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:

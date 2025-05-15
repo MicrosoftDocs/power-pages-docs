@@ -2,7 +2,7 @@
 title: Power Pages licensing
 description: Learn about Power Pages licensing.
 author: DanaMartens
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/07/2025
 ms.author: bipuldeora

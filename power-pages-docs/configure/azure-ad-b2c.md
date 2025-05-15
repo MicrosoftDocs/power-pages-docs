@@ -3,7 +3,7 @@ title: Customize the Azure AD B2C user interface for Power Pages
 description: Learn how to customize the Azure AD B2C user interface for Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 06/03/2024
 ms.subservice:

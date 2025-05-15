@@ -2,7 +2,7 @@
 title: Control site creation in a tenant
 description: Instructions to control site creation in a tenant.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 07/09/2024
 ms.author: nenandw

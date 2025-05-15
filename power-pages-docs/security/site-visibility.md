@@ -1,7 +1,7 @@
 ---
 title: Site visibility in Power Pages
 description: Learn how to use the site visibility setting to control who has access to sites you create with Microsoft Power Pages.
-ms.date: 04/21/2025
+ms.date: 05/08/2025
 ms.topic: how-to
 author: nageshbhat-msft
 ms.author: nabha
@@ -18,7 +18,6 @@ The Power Pages site visibility setting lets you control who can access your web
 > [!IMPORTANT]
 >
 > - All sites you create in Power Pages are private by default.
-> - Site visibility is available only for websites created with version [9.4.9.x](/power-platform/released-versions/portals/portalupdate949x) or later.
 > - Be cautious when editing a public site. Changes are visible to external users immediately.
 > - Websites in developer environments can't be made public.
 
@@ -53,7 +52,8 @@ If your site is private, use the site visibility page to grant access to up to 5
 1. Select **Share**.
 
 > [!NOTE]
-> Users granted access to a private site aren't automatically authenticated. [Learn how to provide access to external audiences](external-access.md).
+> - Users configured to access the private site are stored in an environment variable. Any Dataverse security role with permission to modify the environment variable can add or remove user access to the private site.
+> - Users granted access to a private site aren't automatically authenticated. Learn more in [Provide access to external audiences](external-access.md).
 
 ## Permissions required to change site visibility
 

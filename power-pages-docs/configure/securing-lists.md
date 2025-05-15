@@ -3,7 +3,7 @@ title: Securing lists
 description: Learn how to secure lists on Power Pages.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 02/23/2023
 ms.subservice: 

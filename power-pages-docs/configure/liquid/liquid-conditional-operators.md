@@ -3,7 +3,7 @@ title: Available Liquid conditional operators
 description: Learn about the available Liquid conditional operators in a Power Pages.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:

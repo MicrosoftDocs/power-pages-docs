@@ -3,7 +3,7 @@ title: Create a custom page template to render an RSS feed
 description: Learn how to create a custom page template and use it to render an RSS feed.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:

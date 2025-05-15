@@ -3,7 +3,7 @@ title: Customize content by using content snippets
 description: Learn how to customize content by using content snippets.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/13/2023
 ms.subservice: 

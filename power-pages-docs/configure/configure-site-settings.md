@@ -3,7 +3,7 @@ title: Configure site settings for Power Pages sites.
 description: Learn how to add and configure site settings for a Power Pages site and global settings for all sites in your organization.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 07/09/2024
 ms.subservice: 

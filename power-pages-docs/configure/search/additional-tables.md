@@ -3,7 +3,7 @@ title: Configuring additional tables for global search
 description: Learn how global search works for additional tables in a Power Pages site.
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 1/24/2023
 ms.subservice: 

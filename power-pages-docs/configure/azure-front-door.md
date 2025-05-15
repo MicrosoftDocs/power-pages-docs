@@ -3,7 +3,7 @@ title: Set up Azure Front Door with Power Pages sites
 description: Learn about how to set up Azure Front Door, or any other content delivery network or WAF, with sites to benefit from features such as edge caching.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/04/2023
 ms.author: bipuldeora

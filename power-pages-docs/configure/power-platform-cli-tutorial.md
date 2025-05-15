@@ -2,7 +2,7 @@
 title: Tutorial on how to use Power Platform CLI with Power Pages
 description: This page provides a walk-through with examples for how to use Power Platform CLI with Power Pages for CI/CD (Continuous Integration/Continuous Deployment).
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: tutorial
 ms.custom: 
 ms.date: 10/03/2024
 ms.subservice: 

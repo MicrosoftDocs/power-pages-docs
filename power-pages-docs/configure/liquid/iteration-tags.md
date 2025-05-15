@@ -3,7 +3,7 @@ title: Iteration tags
 description: Learn about iteration tags available in liquid.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice: 

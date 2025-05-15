@@ -2,7 +2,7 @@
 title: Create site structure
 description: Learn how to structure a site.
 author: ckwan-ms
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 05/24/2022
 ms.subservice:

@@ -3,7 +3,7 @@ title: Define multistep form steps for Power Pages
 description: Learn how to create a multistep form steps for a multistep form on a website.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/06/2023
 ms.subservice: 

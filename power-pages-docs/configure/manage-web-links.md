@@ -3,7 +3,7 @@ title: Manage web links
 description: Learn how to manage web links.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/13/2023
 ms.subservice: 

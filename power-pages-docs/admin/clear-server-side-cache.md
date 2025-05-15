@@ -1,7 +1,7 @@
 ---
 title: How server-side caching works in Power Pages
 description: Learn how server-side caching in works Power Pages
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/11/2023
 ms.subservice: 

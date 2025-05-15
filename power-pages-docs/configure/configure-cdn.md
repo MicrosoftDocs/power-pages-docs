@@ -3,9 +3,9 @@ title: Configure a site with Content Delivery Network
 description: Learn how to configure a site with Content Delivery Network.
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
-ms.date: 09/30/2024
+ms.date: 05/09/2025
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -24,7 +24,7 @@ When you enable Content Delivery Network on your portal, static content&mdash;li
 > [!NOTE]
 > - You need to be a [website administrator](/power-apps/maker/portals/admin/portal-admin-roles#required-roles-and-permissions) to enable Content Delivery Network. This feature is available for Power Pages. If you're using the legacy Add-on license, you can't enable Content Delivery Network. Trial websites aren't supported by Content Delivery Network. 
 > - [Restricting website access by IP address](../admin/ip-address-restrict.md) on a site is currently not supported using Content Delivery Network.
-> - This service is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), and UAE region.
+> - This service isn't available in China and the UAE region.
 
 ## Enable Content Delivery Network for a production website
 
