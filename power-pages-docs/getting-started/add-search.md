@@ -4,7 +4,7 @@ description: Learn how to add and configure the Search component, including AI-p
 author: nageshbhat-msft  
 contributors:  
 ms.topic: how-to  
-ms.date: 04/23/2025  
+ms.date: 05/15/2025
 ms.author: nabha  
 ms.reviewer: dmartens  
 ---
@@ -78,9 +78,10 @@ This section is only available when the Search component is used on the designat
 | Heading text         | The heading displayed above the full list of matched search results.             |
 
 ## Known issues
-When a new search results page is created using the **Search** standard page layout, the old search control briefly appears for a few seconds until the page fully loads.To resolve this issue, remove the code snippet shown below from the Header [web template](/power-pages/configure/web-templates).
 
-```
+When you create a new search results page using the search standard page layout, the old search control briefly appears until the page fully loads. To fix this issue, remove the following code snippet from the Header [web template](/power-pages/configure/web-templates).
+
+```html
 <section class="page_section {{ section_class | h }} color-inverse">
     <div class="row sectionBlockLayout sectionFixedStyle" style="display: flex; flex-wrap: wrap; text-align: center;">
         <div class="container" style="display: flex; flex-wrap: wrap;">
@@ -94,5 +95,3 @@ When a new search results page is created using the **Search** standard page lay
     </div>
 </section>
 ```
-
-
