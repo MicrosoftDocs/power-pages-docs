@@ -4,7 +4,7 @@ description: Learn how to add and configure the Search component, including AI-p
 author: nageshbhat-msft  
 contributors:  
 ms.topic: how-to  
-ms.date: 04/23/2025  
+ms.date: 05/15/2025
 ms.author: nabha  
 ms.reviewer: dmartens  
 ---
@@ -60,7 +60,7 @@ A default search results page is automatically provisioned when a site is create
 1. Select **Add**.
 
 > [!NOTE]  
-> A website can only have one search results page at a time. Adding a new search layout page replaces the existing one.
+> A website can only have one search result page at a time. Adding a new search layout page replaces the existing one.
 
 To restore or reassign the previous search result page:
 
@@ -76,3 +76,22 @@ This section is only available when the Search component is used on the designat
 | Property | Description |
 |--------------|---------------------------------------------------------------------|
 | Heading text         | The heading displayed above the full list of matched search results.             |
+
+## Known issues
+
+When you create a new search results page using the search standard page layout, the old search control briefly appears until the page fully loads. To fix this issue, remove the following code snippet from the Header [web template](/power-pages/configure/web-templates).
+
+```html
+<section class="page_section {{ section_class | h }} color-inverse">
+    <div class="row sectionBlockLayout sectionFixedStyle" style="display: flex; flex-wrap: wrap; text-align: center;">
+        <div class="container" style="display: flex; flex-wrap: wrap;">
+            <div class="col-lg-12 columnBlockLayout" style="display: flex; flex-direction: column; justify-content: center;">
+                {% if current_page == sr_page %}
+                <h1 id="mainContent">{% editable snippets 'Search/Title' default: resx["Discover_Contoso"] %}</h1>
+                {% include 'Search' search_id:'search_control' %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+```
