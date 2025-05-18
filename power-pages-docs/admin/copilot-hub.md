@@ -16,7 +16,7 @@ contributors:
 The Copilot hub in the Power Platform admin center provides a centralized dashboard for admins to monitor and manage usage of AI capabilities across Power Platform products. Power Pages integrates into this hub to offer detailed visibility into the usage of AI-powered features and give admins the tools they need to govern them effectively.
 
 > [!NOTE]  
-> The site must be running on runtime version 9.7.4.xx or later.
+> Before you begin, ensure the site runs on runtime version 9.7.4.xx or later.
 
 ## How to access Copilot insights and settings for Power Pages
 
@@ -34,10 +34,10 @@ To access Copilot insights and settings for Power Pages, follow these steps:
 
 ## Capabilities
 
-Copilot hub enable makers and end users to monitor, analyze, and manage AI-powered functionalities in Power Pages. These capabilities provide insights into AI usage, helping organizations optimize their adoption of AI technologies.
+Copilot hub enable makers and end users to monitor, analyze, and manage AI-powered functionalities in Power Pages. The following capabilities provide insights into AI usage, helping organizations optimize their adoption of AI technologies:
 
-1. Analytics & insights 
-1. Governance controls for AI features
+1. [Analytics & insights](#analytics-and-insights) 
+1. [Governance controls for AI features](#governance-controls-for-ai-features)
 
 ## Analytics and insights
 
@@ -75,11 +75,11 @@ The **End-user Copilot** view provides insights into how end users interact with
 
 | **Feature**                     | **Metric Description**                                                                 |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| Site agent       | <ul><li> **Total Sites with Chat agent Enabled**: Total number of sites where the chat agent feature is enabled. </li><li> **Usage Table & Trend View**: Displays usage patterns over time and includes a detailed table with information such as site name, monthly active users (MAU), site type, and environment. </li><li> **Monthly Active Users (MAU)**: Number of end users who received at least one successful AI-generated response from the Site Copilot chatbot during the selected time period. </li></ul> |
-| Search summary               | <ul><li> **Monthly Active Users (MAU)**: Number of users who received successful AI-generated summaries of their search results.  </li> <li> **Total sites with Search Summary enabled**: Total number of sites where the Search Summary feature is enabled.  </li><li> **Usage Table**: Includes details such as site name, usage metrics, site type, and environment for each site using the feature.  </li><li>   **Search Query Volume**: Indicates the number of search queries executed per website, helping assess user engagement and feature adoption. </li></ul>  |
-| Summarization API            | <ul><li> **API Usage Volume**: Total number of successful summaries generated using API calls. </li> <li>   **Total Sites with Summarization API Enabled**: Total number of sites where the Summarization API feature is enabled. </li> <li>   **Usage Table**: Displays site-level usage insights, including site name, usage metrics, site type, and environment. </li></ul>  |
-| AI Form fill assistance      | <ul><li> **Monthly Active Users (MAU)**: Number of users who successfully used the form fill feature by uploading attachments, resulting in at least one form field being auto-filled. </li> <li>   **Total Sites with Intelligent Forms Enabled**: Number of sites where this AI-powered feature is in use. </li> <li>  **Usage Table**: Displays site-level usage details including site name, usage volume, site type, and environment. </li> <li>  **Fields Auto-Filled**: Total number of form fields auto-filled through AI assistance across all sites. </li> <li>   **Form Submission Rate**: Comparison of submission rates between users who used form fill assistance vs. those who didn't. </li></ul>  |
-| AI summary list             | <ul><li> **Monthly Active Users (MAU)**: Number of users who successfully received a generative AI summary of the data. </li> <li>   **Total Sites with List Summary Enabled**: Number of sites where this feature is enabled. </li> <li>   **Usage Table**: Site-level breakdown showing usage details such as site name, volume of usage, site type, and environment. </li></ul> |
+| [Chat agent or add a Copilot](../getting-started/enable-chatbot.md)        | <ul><li> **Total Sites with Chat agent Enabled**: Total number of sites where the chat agent feature is enabled. </li><li> **Usage Table & Trend View**: Displays usage patterns over time and includes a detailed table with information such as site name, monthly active users (MAU), site type, and environment. </li><li> **Monthly Active Users (MAU)**: Number of end users who received at least one successful AI-generated response from the Site Copilot chatbot during the selected time period. </li></ul> |
+| [Search summary](../configure/search/generative-AI.md)               | <ul><li> **Monthly Active Users (MAU)**: Number of users who received successful AI-generated summaries of their search results.  </li> <li> **Total sites with Search Summary enabled**: Total number of sites where the Search Summary feature is enabled.  </li><li> **Usage Table**: Includes details such as site name, usage metrics, site type, and environment for each site using the feature.  </li><li>   **Search Query Volume**: Indicates the number of search queries executed per website, helping assess user engagement and feature adoption. </li></ul>  |
+| [Summarization API](../configure/data-summarization-api.md)            | <ul><li> **API Usage Volume**: Total number of successful summaries generated using API calls. </li> <li>   **Total Sites with Summarization API Enabled**: Total number of sites where the Summarization API feature is enabled. </li> <li>   **Usage Table**: Displays site-level usage insights, including site name, usage metrics, site type, and environment. </li></ul>  |
+| [AI Form fill assistance](../getting-started/add-form.md)      | <ul><li> **Monthly Active Users (MAU)**: Number of users who successfully used the form fill feature by uploading attachments, resulting in at least one form field being auto-filled. </li> <li>   **Total Sites with Intelligent Forms Enabled**: Number of sites where this AI-powered feature is in use. </li> <li>  **Usage Table**: Displays site-level usage details including site name, usage volume, site type, and environment. </li> <li>  **Fields Auto-Filled**: Total number of form fields auto-filled through AI assistance across all sites. </li> <li>   **Form Submission Rate**: Comparison of submission rates between users who used form fill assistance vs. those who didn't. </li></ul>  |
+| [AI summary list](../getting-started/add-ai-summary-list.md)             | <ul><li> **Monthly Active Users (MAU)**: Number of users who successfully received a generative AI summary of the data. </li> <li>   **Total Sites with List Summary Enabled**: Number of sites where this feature is enabled. </li> <li>   **Usage Table**: Site-level breakdown showing usage details such as site name, volume of usage, site type, and environment. </li></ul> |
 
 :::image type="content" source="media/copilot-hub/end_user_copilot.png" alt-text="Screenshot of End-User Copilot feature analytics showing usage metrics and trends." lightbox="media/copilot-hub/end_user_copilot.png":::
 
@@ -137,17 +137,17 @@ Admins manage AI-powered experiences for makers and site users through the Copil
 1. Admins can select a specific environment and select **Set up/Edit** to update the feature’s configuration.
 1. Once the **Set up** page is displayed, admins can enable AI features in:
 
-| **Option**                  | **Description**                                                                                     |
-|-----------------------------|-----------------------------------------------------------------------------------------------------|
-| **All sites**               | Selecting the **On - All sites** option enables AI-powered experiences for all websites in the environment. |
-| **All sites except specific sites** | Enables AI-powered experiences in all websites except the sites that you choose. Overrides maker configurations. |
-| **Specific sites**          | Enables AI-powered experiences only in the websites that you choose. Prevents access in other sites. |
-| **None of the sites**       | Disables all AI-powered experiences across the environment. Overrides maker configurations.         |
+    | **Option**                  | **Description**                                                                                     |
+    |-----------------------------|-----------------------------------------------------------------------------------------------------|
+    | **All sites**               | Selecting the **On - All sites** option enables AI-powered experiences for all websites in the environment. |
+    | **All sites except specific sites** | Enables AI-powered experiences in all websites except the sites that you choose. Overrides maker configurations. |
+    | **Specific sites**          | Enables AI-powered experiences only in the websites that you choose. Prevents access in other sites. |
+    | **None of the sites**       | Disables all AI-powered experiences across the environment. Overrides maker configurations.         |
 
 1. Select **Save**.
 
 > [!IMPORTANT]  
-> Tenant-level [governance configuration feature](/power-pages/admin/copilot-governance) is deprecated. While existing configurations are maintained, ensure you validate your governance settings that meet your requirements. Going forward, manage all governance settings for Copilot features using Copilot hub. To view or update these configurations, go to C**opilot hub > Power Pages > Settings** in the Power Platform admin center.
+> Tenant-level [governance configuration feature](/power-pages/admin/copilot-governance) is deprecated. While existing configurations are maintained, ensure you validate your governance settings that meet your requirements. Going forward, manage all governance settings for Copilot features using Copilot hub. To view or update these configurations, go to **Copilot hub > Power Pages > Settings** in the Power Platform admin center.
 > During the deprecation phase, ensure your governance settings are reviewed and aligned in the Copilot hub. While existing configurations will be carried forward, we recommend validating your settings to maintain consistency with your intended setup.
 
 
