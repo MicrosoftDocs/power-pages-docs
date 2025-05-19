@@ -32,8 +32,8 @@ To access Copilot insights and settings for Power Pages, follow these steps:
 
 Copilot hub enable makers and end users to monitor, analyze, and manage AI-powered functionalities in Power Pages. The following capabilities provide insights into AI usage, helping organizations optimize their adoption of AI technologies:
 
-1. [Analytics & insights](#analytics-and-insights) 
-1. [Governance controls for AI features](#governance-controls-for-ai-features)
+- [Analytics & insights](#analytics-and-insights) 
+- [Governance controls for AI features](#governance-controls-for-ai-features)
 
 ## Analytics and insights
 
