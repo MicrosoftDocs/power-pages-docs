@@ -125,7 +125,7 @@ When you manage AI-powered features in the Copilot hub, it's important to unders
 
 Admins manage AI-powered experiences for makers and site users through the Copilot hub in the Power Platform admin center. To configure settings:
 
-1. Go to the [**Settings** page](#how-to-access-copilot-insights-and-settings-for-power-pages)
+1. Go to the [**Settings** page](#access-copilot-insights-and-settings-for-power-pages).
 1. Use the product filter to select **Power Pages**.
 1. From the list of AI features, select any feature to view and configure its settings.
 1. On the selected feature’s settings page, a list of environments within the tenant is displayed, showing environment name, type, region, status (on/off), and more.
@@ -167,7 +167,7 @@ When generative AI experiences are blocked in a site for users, they fall back t
 ### Related information
 
 - [Overview of AI-powered and Copilot features in Power Pages](/power-pages/configure/ai-copilot-overview)    
-- [Manage Copilot - Power Platform](/power-platform/admin/copilot/copilot-hub?wt.mc_id=ppac_inproduct_copilothub)   
-- [Security FAQs - Microsoft Copilot Studio](/microsoft-copilot-studio/security-faq?wt.mc_id=ppac_inproduct_copilothub)   
-- [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform - Power Platform](/power-platform/faqs-copilot-data-security-privacy?wt.mc_id=ppac_inproduct_copilothub)   
+- [Manage Copilot in Power Platform](/power-platform/admin/copilot/copilot-hub?wt.mc_id=ppac_inproduct_copilothub)   
+- [Security FAQs in Copilot Studio](/microsoft-copilot-studio/security-faq?wt.mc_id=ppac_inproduct_copilothub)   
+- [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-security-privacy?wt.mc_id=ppac_inproduct_copilothub)   
 - [Empowering responsible AI practices](https://www.microsoft.com/en-in/ai/responsible-ai)  
