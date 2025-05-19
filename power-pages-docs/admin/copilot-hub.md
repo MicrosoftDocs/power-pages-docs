@@ -87,7 +87,7 @@ Governance settings empower admins to manage AI feature exposure across the tena
   Control whether makers in specific environments can use AI features.
 
 - **Enable or disable AI features for end-user**  
-  Manage exposure of AI-powered components (for example, chat, summaries) to external users.
+  Manage exposure of AI-powered components (for example, chat or summaries) to external users.
 
  In the governance settings, for end user AI features, admins can apply controls at a feature-granular level, allowing them to enable or disable individual features based on their organization’s needs. Settings are applied at:
 
