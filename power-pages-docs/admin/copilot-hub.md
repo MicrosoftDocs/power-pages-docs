@@ -18,19 +18,15 @@ The Copilot hub in the Power Platform admin center provides a centralized dashbo
 > [!NOTE]  
 > Before you begin, ensure the site runs on runtime version 9.7.4.xx or later.
 
-## How to access Copilot insights and settings for Power Pages
+## Access Copilot insights and settings for Power Pages
 
 To access Copilot insights and settings for Power Pages, follow these steps:
 
-- Visit the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-
-- In the left navigation, select **Copilot Hub**.
-
-- Select the **Power Pages** tab to:
-
-  - Explore product-specific insights for Copilot usage.  
-
-  - Navigate to the **Settings** page to view or configure AI feature settings for your environments.
+1. Visit the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. In the left navigation, select **Copilot Hub**.
+1. Select the **Power Pages** tab to:
+    - Explore product-specific insights for Copilot usage.  
+    - Navigate to the **Settings** page to view or configure AI feature settings for your environments.
 
 ## Capabilities
 
@@ -41,7 +37,7 @@ Copilot hub enable makers and end users to monitor, analyze, and manage AI-power
 
 ## Analytics and insights
 
-The Copilot hub includes Power Pages-specific usage metrics, enabling tenant admins to understand adoption and monitor how Copilot features are being used across their environments. For more information about Copilot features, see [Overview of AI-powered and Copilot features in Power Pages](/power-pages/configure/ai-copilot-overview).
+The Copilot hub includes Power Pages-specific usage metrics, enabling tenant admins to understand adoption and monitor how Copilot features are being used across their environments. Learn more about Copilot features in [Overview of AI-powered and Copilot features in Power Pages](/power-pages/configure/ai-copilot-overview).
 
 Track how AI features are being used in Power Pages:
 
@@ -109,7 +105,6 @@ When you manage AI-powered features in the Copilot hub, it's important to unders
    - If AI features are disabled at the tenant level, they can't be configured at the environment level in the Copilot hub.  
    - In such cases, admins will see an error message in the Copilot hub indicating the need to enable settings at the tenant level.
    - [Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) who are members of any of the following Azure Active Directory (AAD) roles can change the governance setting:
-     - [Global administrator](/power-apps/maker/portals/admin/portal-admin-roles#global-administrator)
      - [Power Platform administrator](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator)
      - [Dynamics 365 administrator](/power-platform/admin/use-service-admin-role-manage-tenant#dynamics-365-administrator)
 
@@ -124,16 +119,16 @@ When you manage AI-powered features in the Copilot hub, it's important to unders
    If disabled at the environment level, no Copilot functionality that relies on Bing search will be available. Admins must enable this feature at the environment level to allow any Copilot features that depend on bing search to function.
 
 5. **Move data across regions:**  
-   This setting can be allowed or disallowed at the environment level. If disallowed, Copilot doesn't operate when there's insufficient Azure OpenAI (AOAI) capacity within the environment’s region to process queries. Admins aren't able to configure the settings in the Copilot hub.
+   This setting can be allowed or disallowed at the environment level. If disallowed, Copilot doesn't operate when there's insufficient Azure OpenAI (AOAI) capacity within the environment’s region to process queries. Admins aren't able to configure the settings in the Copilot hub. More information: [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot)
 
 ## Admin experience
 
-Admins manage AI-powered experiences for makers and site users through the Copilot hub in the Power Platform admin center. Follow these steps:
+Admins manage AI-powered experiences for makers and site users through the Copilot hub in the Power Platform admin center. To configure settings:
 
-1. Go to the **Settings** page by following the steps mentioned in [How to access Copilot insights and settings for Power Pages](#how-to-access-copilot-insights-and-settings-for-power-pages)
+1. Go to the [**Settings** page](#how-to-access-copilot-insights-and-settings-for-power-pages)
 1. Use the product filter to select **Power Pages**.
 1. From the list of AI features, select any feature to view and configure its settings.
-1. On the selected feature’s settings page, a list of environments within the tenant will be displayed, showing environment name, type, region, status (on/off), and more.
+1. On the selected feature’s settings page, a list of environments within the tenant is displayed, showing environment name, type, region, status (on/off), and more.
 1. Admins can select a specific environment and select **Set up/Edit** to update the feature’s configuration.
 1. Once the **Set up** page is displayed, admins can enable AI features in:
 
@@ -147,8 +142,8 @@ Admins manage AI-powered experiences for makers and site users through the Copil
 1. Select **Save**.
 
 > [!IMPORTANT]  
-> Tenant-level [governance configuration feature](/power-pages/admin/copilot-governance) is deprecated. While existing configurations are maintained, ensure you validate your governance settings that meet your requirements. Going forward, manage all governance settings for Copilot features using Copilot hub. To view or update these configurations, go to **Copilot hub > Power Pages > Settings** in the Power Platform admin center.
-> During the deprecation phase, ensure your governance settings are reviewed and aligned in the Copilot hub. While existing configurations will be carried forward, we recommend validating your settings to maintain consistency with your intended setup.
+> The tenant-level [governance configuration feature](/power-pages/admin/copilot-governance) is now deprecated. While your existing settings will remain in place, we strongly recommend reviewing and validating them to ensure they still meet your requirements. Going forward,  all governance settings for Copilot features must be managed through the Copilot hub. To view or update these settings, navigate to **Copilot hub > Power Pages > Settings** in the Power Platform admin center.
+> During the deprecation phase, ensure your configurations are aligned within the Copilot hub to maintain consistency with your intended governance setup.
 
 
 ## Maker Experience
@@ -157,14 +152,11 @@ Makers building sites in Power Pages can benefit from integrated AI-powered capa
 
 When AI features are disabled by tenant admins, the maker experience will reflect this status clearly:
 
-- If a maker Copilot feature (for example, Studio Copilot or Pro Dev Copilot) is disabled, makers will see an in-product message informing them that the feature has been turned off by an admin. The message prompts them to reach out to their administrator to request access.
-
-
-:::image type="content" source="media/copilot-hub/maker-setting.png" alt-text="Screenshot of maker scenario when AI is enabled." lightbox="media/copilot-hub/maker-setting.png":::
+- If a maker Copilot feature (for example, Studio Copilot or Pro Dev Copilot) is disabled, makers see an in-product message informing them that the feature has been turned off by an admin. The message prompts them to reach out to their administrator to request access.
+    :::image type="content" source="media/copilot-hub/maker-setting.png" alt-text="Screenshot of maker scenario when AI is enabled." lightbox="media/copilot-hub/maker-setting.png":::
 
 - If end user AI features (for example, chatbot, search summary, and AI form fill assistance) are disabled by admins, makers can’t configure these features for their sites. The configuration options in the studio appear greyed out, and a message indicates that the feature settings are managed by the admin. Makers are advised to contact their admin to enable or manage the settings.
-
-:::image type="content" source="media/copilot-hub/ai_feature_disable.png" alt-text="Screenshot showing grayed-out configuration options for disabled end user AI features." lightbox="media/copilot-hub/ai_feature_disable.png":::
+    :::image type="content" source="media/copilot-hub/ai_feature_disable.png" alt-text="Screenshot showing grayed-out configuration options for disabled end user AI features." lightbox="media/copilot-hub/ai_feature_disable.png":::
 
 This ensures alignment between governance policies and maker actions, preventing unauthorized use of AI features while maintaining transparency for site builders.
 
@@ -174,13 +166,8 @@ When generative AI experiences are blocked in a site for users, they fall back t
 
 ### Related information
 
-- [Overview of AI-powered and Copilot features in Power Pages \| Microsoft Learn](/power-pages/configure/ai-copilot-overview)    
-- [Manage Copilot - Power Platform \| Microsoft Learn](/power-platform/admin/copilot/copilot-hub?wt.mc_id=ppac_inproduct_copilothub)   
-- [Security FAQs - Microsoft Copilot Studio \| Microsoft Learn](/microsoft-copilot-studio/security-faq?wt.mc_id=ppac_inproduct_copilothub)   
-- [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform - Power Platform \| Microsoft Learn](/power-platform/faqs-copilot-data-security-privacy?wt.mc_id=ppac_inproduct_copilothub)   
-- [Empowering responsible AI practices \| Microsoft AI](https://www.microsoft.com/en-in/ai/responsible-ai)  
-
-
-
-
-
+- [Overview of AI-powered and Copilot features in Power Pages](/power-pages/configure/ai-copilot-overview)    
+- [Manage Copilot - Power Platform](/power-platform/admin/copilot/copilot-hub?wt.mc_id=ppac_inproduct_copilothub)   
+- [Security FAQs - Microsoft Copilot Studio](/microsoft-copilot-studio/security-faq?wt.mc_id=ppac_inproduct_copilothub)   
+- [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform - Power Platform](/power-platform/faqs-copilot-data-security-privacy?wt.mc_id=ppac_inproduct_copilothub)   
+- [Empowering responsible AI practices](https://www.microsoft.com/en-in/ai/responsible-ai)  
