@@ -1,40 +1,41 @@
 ---
 title: Create and Deploy a Power Pages Code Site
-description: Learn how to create, configure, and deploy Power Pages Code Sites using the Power Platform CLI.
+description: Discover how to upload, download, and activate Power Pages code sites with step-by-step guidance and examples.
 author: neerajnandwana-msft
-
 ms.topic: concept-article
-ms.custom: 
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:05/20/2025
 ms.date: 05/20/2025
-ms.subservice: 
+ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
-    - neerajnandwana-msft
-    - DanaMartens
+  - neerajnandwana-msft
+  - DanaMartens
 ---
 
-# Create and Deploy a Power Pages Code Site
+# Create and deploy a Power Pages code site
 
-This article describes how to create, configure, and deploy a Power Pages Code Site using the Power Platform CLI (PAC CLI). You’ll learn how to upload and download code, configure your project structure, secure your site, and understand key differences from traditional Power Pages sites.
+This article explains how to create, configure, and deploy a Power Pages code site using the [Power Platform CLI](/power-platform/developer/cli/introduction) (PAC CLI). You learn how to upload and download code, set up your project structure, secure your site, and understand key differences from traditional Power Pages sites.
 
-> **Note:** A Code Site is a fully client-rendered Power Pages site that you manage entirely through source code and CLI commands.
-
+> [!NOTE]
+> A code site is a Power Pages site that renders entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, code sites are managed exclusively through source code and command-line interface (CLI) tools.
 
 ## Prerequisites
 
-Before you begin, ensure that you have:
+Before you begin, make sure you have:
 
-* A Power Pages environment with **Administrator** privileges
-* The [Power Platform CLI (PAC CLI)](https://learn.microsoft.com/power-platform/developer/cli/introduction) installed and authenticated
-* A local Git repository containing your custom frontend project (for example, React, Angular, or Vue)
+* A Power Pages environment with admin privileges.
+* The [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) installed and authenticated.
+* A local Git repository with your custom frontend project (like React, Angular, or Vue).
 
+## Create and deploy a code site
 
-## Create and Deploy a Code Site
+Power Pages code sites are managed via the PAC CLI commands `upload-code-site` and `download-code-site`. After you upload a site, a site appears in the **Inactive sites** list in the Power Pages admin workspace. You must then activate it to make it available to end users.
 
-Power Pages Code Sites are managed via the PAC CLI commands `upload-code-site` and `download-code-site`. After uploading, a site appears in the **Inactive sites** list in the Power Pages admin workspace. You must then activate it to make it available to end users.
-
-### 1. Upload a Code Site
+### Upload a code site
 
 Upload your local source and compiled assets to the Power Pages environment.
 
@@ -66,9 +67,9 @@ pac pages upload-code-site \
 
 ---
 
-### 2. Download a Code Site
+### Download a code site
 
-Retrieve an existing site’s code to a local directory for modification or backup.
+Download an existing site’s code to a local directory for modification or backup.
 
 #### Syntax
 
@@ -86,8 +87,8 @@ pac pages download-code-site \
 | --------------- | ------ | ------------------------------------------------------------------------------ |
 | `--environment` | `-env` | Dataverse environment (GUID or full URL); defaults to your active auth profile |
 | `--path`        | `-p`   | **(Required)** Local directory to download the site code                       |
-| `--webSiteId`   | `-id`  | **(Required)** GUID of the Power Pages Code Site                               |
-| `--overwrite`   | `-o`   | Overwrites existing files in the target directory if they already exist        |
+| `--webSiteId`   | `-id`  | **(Required)** GUID of the Power Pages code site                               |
+| `--overwrite`   | `-o`   | Overwrite existing files in the target directory if they already exist        |
 
 #### Example
 
@@ -99,60 +100,59 @@ pac pages download-code-site \
   --overwrite
 ```
 
-
-### 3. Activate and Test Your Site
+### Activate and test your site
 
 1. Sign in to the [Power Pages admin center](https://make.powerpages.microsoft.com/) and navigate to **Sites**.
-2. Locate your Code Site under **Inactive sites**, then select **Activate**.
-3. Once active, browse to your site’s URL to verify deployment.
+1. Locate your code site under **Inactive sites**, then select **Activate**.
+1. Once active, browse to your site’s URL to verify deployment.
 
-> **Tip:** Any subsequent `upload-code-site` commands will automatically update the active site.
+> [!TIP]
+> Any subsequent `upload-code-site` commands automatically update the active site.
 
-
-## Project Structure and Configuration
+## Project structure and configuration
 
 A consistent project layout ensures correct upload behavior:
 
 ```
 /your-project
 │
-├─ src/               ← Your source code (e.g. React components)
-├─ build/             ← Compiled assets (output of `npm run build`)
+├─ src/               ← Your source code (for example, React components)
+├─ build/             ← Compiled assets (output of the `npm run build` command)
 ├─ powerpages.config.json  ← Optional CLI configuration file
 └─ README.md
 ```
 
-* **powerpages.config.json**
-  Customize CLI behavior (for example, exclude files or map routes).
+* Use the optional `powerpages.config.json` file to customize CLI behavior, such as excluding files or mapping routes.
+
 * To specify a custom config location, add `--configPath <file-path>` to the upload command.
 
+## Authentication and authorization
 
-## Authentication and Authorization
+Power Pages code sites use the same security model as traditional web pages.
 
-Power Pages Code Sites leverage the same security model as traditional pages.
+### Configure identity providers
 
-### Configure Identity Providers
+1. In the Power Pages admin center, go to **Security > Identity providers**.
+1. Add or configure identity providers, like Microsoft Entra ID.
+1. A default Microsoft Entra ID provider is created automatically for each new site.
 
-1. In the Power Pages admin center, select **Security > Identity providers**.
-2. Add or configure providers (for example, Microsoft Entra ID).
-3. A default Entra ID provider is created automatically for each new site.
+### Access user context in code
 
-### Access User Context in Code
-
-Authentication metadata is exposed on the client:
+Authentication metadata is available on the client:
 
 * **Authority URL:**
 
   ```js
   window["Microsoft"].Dynamic365.Portal.Authentication.authority
   ```
+
 * **User details:**
 
   ```js
   window["Microsoft"].Dynamic365.Portal.User
   ```
 
-### Sample React Flow
+### Sample React flow
 
 ```tsx
 import React from 'react';
@@ -194,26 +194,19 @@ export function App() {
 }
 ```
 
-## Differences from existing Power Pages Sites
+## Differences from existing Power Pages sites
 
-| Feature                 | Code Site Behavior                                                            |
+| Feature                 | Code site behavior                                                            |
 | ----------------------- | ----------------------------------------------------------------------------- |
-| **Server-side refresh** | Always returns the site’s root page; client-side router renders sub-routes    |
-| **Route conflicts**     | Client-side routes take precedence; hard refresh falls back to root           |
-| **Page workspace**      | Page workspace feature is **not** supported—use client routing and client site pages. For page-level security, use the global user object to read assigned web roles and conditionally render UI. |
-| **Style workspace**     | Styling via the style workspace is **not** supported—use your framework’s styling (CSS, CSS-in-JS, or utility classes) |
-| **Localization**        | Single-language support; must implement client-side resource loading          |
-| **Liquid Templating**   | Liquid code and Liquid templates are **not** supported—use your framework’s templating engine |
+| **Server-side refresh** | Always returns the site’s root page. The client-side router renders sub-routes.    |
+| **Route conflicts**     | Client-side routes take precedence. A hard refresh falls back to the root.           |
+| **Page workspace**      | The [pages workspace](../getting-started/first-page.md) isn't supported. Use client routing and client site pages. For page-level security, use the global user object to read assigned web roles and conditionally render the UI. |
+| **Style workspace**     | Styling via the [style workspace](../getting-started/style-site.md) isn't supported. Use your framework’s styling (CSS, CSS-in-JS, or utility classes). |
+| **Localization**        | Single-language support. You must implement client-side resource loading.          |
+| **Liquid templating**   | [Liquid](liquid/liquid-overview.md) code and Liquid templates aren't supported. Use your framework’s templating engine. |
 
-
-## Next steps
-
-[Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
-
-
-### See also
+### Related information
 
 - [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
 - [Tutorial: Use Microsoft Power Platform CLI with portals](power-platform-cli-tutorial.md)
 - [Use the Visual Studio Code extension (preview)](vs-code-extension.md)
-
