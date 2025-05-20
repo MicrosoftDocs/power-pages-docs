@@ -37,7 +37,7 @@ Copilot hub enable makers and end users to monitor, analyze, and manage AI-power
 
 ## Analytics and insights
 
-The Copilot hub includes Power Pages-specific usage metrics, enabling tenant admins to understand adoption and monitor how Copilot features are being used across their environments. Learn more about Copilot features in [Overview of AI-powered and Copilot features in Power Pages](/power-pages/configure/ai-copilot-overview).
+The Copilot hub includes Power Pages specific usage metrics, enabling tenant admins to understand adoption and monitor how Copilot features are being used across their environments. Learn more about Copilot features in [Overview of AI-powered and Copilot features in Power Pages](/power-pages/configure/ai-copilot-overview).
 
 Track how AI features are being used in Power Pages:
 
@@ -53,12 +53,12 @@ Admins can seamlessly toggle between maker and end-user Copilot analytics views 
 
 ### Maker Copilot analytics
 
-The **Maker Copilot** analytics view includes insights for both studio Copilot (used by makers in the design studio) and Pro Dev Copilot (used by developers via the VS Code extension). Admins can view:
+The **Maker Copilot** analytics view includes insights for both **Studio Copilot** (used by makers in the design studio) and **Prodev Copilot** (used by developers via the VS Code extension). Admins can view:
 
 | **Metric**                     | **Description**                                                                 |
 |---------------------------------|---------------------------------------------------------------------------------| 
 | **Studio Copilot MAU**          | Monthly active makers using AI features in the design studio.                   |
-| **Pro Dev Copilot MAU**         | Monthly active pro developers receiving AI responses.                           |
+| **Prodev Copilot MAU**         | Monthly active pro developers receiving AI responses.                           |
 | **Sites with Copilot Enabled**  | Number of sites where Copilot features are turned on.                           |
 | **Copilot Usage Trend**         | Time-based trend showing Copilot usage.                                         |
 | **Most Used Copilot Features**  | Insights into which AI-powered capabilities are most frequently used by makers. |
@@ -74,7 +74,7 @@ The **End-user Copilot** view provides insights into how end users interact with
 | [Chat agent or add a Copilot](../getting-started/enable-chatbot.md)        | <ul><li> **Total Sites with Chat agent Enabled**: Total number of sites where the chat agent feature is enabled. </li><li> **Usage Table & Trend View**: Displays usage patterns over time and includes a detailed table with information such as site name, monthly active users (MAU), site type, and environment. </li><li> **Monthly Active Users (MAU)**: Number of end users who received at least one successful AI-generated response from the Site Copilot chatbot during the selected time period. </li></ul> |
 | [Search summary](../configure/search/generative-AI.md)               | <ul><li> **Monthly Active Users (MAU)**: Number of users who received successful AI-generated summaries of their search results.  </li> <li> **Total sites with Search Summary enabled**: Total number of sites where the Search Summary feature is enabled.  </li><li> **Usage Table**: Includes details such as site name, usage metrics, site type, and environment for each site using the feature.  </li><li>   **Search Query Volume**: Indicates the number of search queries executed per website, helping assess user engagement and feature adoption. </li></ul>  |
 | [Summarization API](../configure/data-summarization-api.md)            | <ul><li> **API Usage Volume**: Total number of successful summaries generated using API calls. </li> <li>   **Total Sites with Summarization API Enabled**: Total number of sites where the Summarization API feature is enabled. </li> <li>   **Usage Table**: Displays site-level usage insights, including site name, usage metrics, site type, and environment. </li></ul>  |
-| [AI Form fill assistance](../getting-started/add-form.md)      | <ul><li> **Monthly Active Users (MAU)**: Number of users who successfully used the form fill feature by uploading attachments, resulting in at least one form field being auto-filled. </li> <li>   **Total Sites with Intelligent Forms Enabled**: Number of sites where this AI-powered feature is in use. </li> <li>  **Usage Table**: Displays site-level usage details including site name, usage volume, site type, and environment. </li> <li>  **Fields Auto-Filled**: Total number of form fields auto-filled through AI assistance across all sites. </li> <li>   **Form Submission Rate**: Comparison of submission rates between users who used form fill assistance vs. those who didn't. </li></ul>  |
+| [AI form fill assistance](../getting-started/add-form.md)      | <ul><li> **Monthly Active Users (MAU)**: Number of users who successfully used the form fill feature by uploading attachments, resulting in at least one form field being auto-filled. </li> <li>   **Total Sites with Intelligent Forms Enabled**: Number of sites where this AI-powered feature is in use. </li> <li>  **Usage Table**: Displays site-level usage details including site name, usage volume, site type, and environment. </li> <li>  **Fields Auto-Filled**: Total number of form fields auto-filled through AI assistance across all sites. </li> <li>   **Form Submission Rate**: Comparison of submission rates between users who used form fill assistance vs. those who didn't. </li></ul>  |
 | [AI summary list](../getting-started/add-ai-summary-list.md)             | <ul><li> **Monthly Active Users (MAU)**: Number of users who successfully received a generative AI summary of the data. </li> <li>   **Total Sites with List Summary Enabled**: Number of sites where this feature is enabled. </li> <li>   **Usage Table**: Site-level breakdown showing usage details such as site name, volume of usage, site type, and environment. </li></ul> |
 
 :::image type="content" source="media/copilot-hub/end_user_copilot.png" alt-text="Screenshot of End-User Copilot feature analytics showing usage metrics and trends." lightbox="media/copilot-hub/end_user_copilot.png":::
