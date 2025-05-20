@@ -2,7 +2,7 @@
 title: Add a video
 description: Learn how to add videos to your Power Pages site.
 author: ckwan-ms
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 10/08/2022
 ms.subservice:

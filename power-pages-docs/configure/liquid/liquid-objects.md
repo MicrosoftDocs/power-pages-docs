@@ -3,7 +3,7 @@ title: Available Liquid objects
 description: Learn about the available liquid objects in Power Pages.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:

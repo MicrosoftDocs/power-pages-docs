@@ -2,7 +2,7 @@
 title: Customize webpages with design studio page editor
 description: Learn how to customize Power Pages sites with the design studio page editor.
 author: ckwan-ms
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 05/08/2024
 ms.subservice:

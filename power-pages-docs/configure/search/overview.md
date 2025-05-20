@@ -3,7 +3,7 @@ title: Search
 description: Learn how search works in Power Pages
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 1/24/2023
 ms.subservice: 

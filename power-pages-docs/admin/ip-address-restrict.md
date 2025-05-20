@@ -3,7 +3,7 @@ title: Restrict website access by IP address
 description: Learn how to restrict website access by IP address.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 08/27/2024
 ms.subservice: 

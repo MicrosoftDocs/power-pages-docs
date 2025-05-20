@@ -3,7 +3,7 @@ title: Search within knowledge article attachment content
 description: Learn how to configure your Power Pages site to search within file attachment content.
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 1/23/2023
 ms.subservice:

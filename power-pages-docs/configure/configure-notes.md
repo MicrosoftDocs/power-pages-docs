@@ -3,7 +3,7 @@ title: Set up notes as attachments for basic and multistep forms
 description: Learn how to add and configure notes as attachments on basic and multistep forms in Power Pages.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 3/10/2023
 ms.subservice: 

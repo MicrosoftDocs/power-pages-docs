@@ -3,7 +3,7 @@ title: Redirect a user to a default page on sign-in
 description: Learn how to redirect a user to a default page after signing in.
 author: nageshbhat-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:

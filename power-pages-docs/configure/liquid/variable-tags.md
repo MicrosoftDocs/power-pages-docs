@@ -3,7 +3,7 @@ title: Variable tags
 description: Learn about variable tags available in Power Pages.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice: 

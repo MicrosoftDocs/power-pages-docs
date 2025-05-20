@@ -2,7 +2,7 @@
 title: Manage website authentication key
 description: Learn how to manage the authentication key used by Power Pages.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 08/23/2024
 ms.subservice: 

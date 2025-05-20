@@ -3,7 +3,7 @@ title: Add a redirect URL to a new URL on a website
 description: Learn how to create a redirect URL to redirect a user to another webpage in a site.
 author: DanaMartens
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/06/2023
 ms.subservice: 

@@ -3,7 +3,7 @@ title: Use the Visual Studio Code extension
 description: Learn about how to use the Visual Studio Code extension for Power Pages and integrate with Microsoft Power Platform CLI for CI/CD.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 04/30/2025
 ms.subservice: 

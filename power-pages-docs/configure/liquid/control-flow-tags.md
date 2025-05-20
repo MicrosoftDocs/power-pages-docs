@@ -3,7 +3,7 @@ title: Control flow tags
 description: Learn about control flow tags available in liquid.
 author: gitanjalisingh33msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice: 

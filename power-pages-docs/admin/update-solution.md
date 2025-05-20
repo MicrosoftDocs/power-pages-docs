@@ -3,7 +3,7 @@ title: Update the Power Pages solution
 description: Learn how to update the Power Pages solution.
 author: neerajnandwana-msft
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 02/03/2023
 ms.subservice: 

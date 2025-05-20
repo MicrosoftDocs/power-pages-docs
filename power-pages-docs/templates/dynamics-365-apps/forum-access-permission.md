@@ -2,7 +2,7 @@
 title: Manage forum access permissions
 description: Learn about managing forum access permissions in Power Pages.
 author: murugesh1985
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 2/20/2025
 ms.subservice: 

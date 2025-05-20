@@ -2,7 +2,7 @@
 title: Provision a site using the older add-on
 description: Instructions to provision a site using the older site add-on.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: get-started
 ms.date: 05/01/2024
 ms.subservice: 

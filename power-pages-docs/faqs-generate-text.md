@@ -3,7 +3,7 @@ title: FAQ for natural language to text
 description: This FAQ discusses natural language to text and the key considerations for making use of this technology responsibly.
 ms.date: 02/05/2025
 ms.custom: responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: vashr
 ms.author: vashr
 ms.reviewer: dmartens
