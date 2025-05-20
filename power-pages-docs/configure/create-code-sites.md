@@ -1,3 +1,19 @@
+---
+title: Create and Deploy a Power Pages Code Site
+description: Learn how to create, configure, and deploy Power Pages Code Sites using the Power Platform CLI.
+author: neerajnandwana-msft
+
+ms.topic: concept-article
+ms.custom: 
+ms.date: 05/20/2025
+ms.subservice: 
+ms.author: nenandw
+ms.reviewer: dmartens
+contributors:
+    - neerajnandwana-msft
+    - DanaMartens
+---
+
 # Create and Deploy a Power Pages Code Site
 
 This article describes how to create, configure, and deploy a Power Pages Code Site using the Power Platform CLI (PAC CLI). You’ll learn how to upload and download code, configure your project structure, secure your site, and understand key differences from traditional Power Pages sites.
@@ -189,4 +205,15 @@ export function App() {
 | **Localization**        | Single-language support; must implement client-side resource loading          |
 | **Liquid Templating**   | Liquid code and Liquid templates are **not** supported—use your framework’s templating engine |
 
+
+## Next steps
+
+[Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
+
+
+### See also
+
+- [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
+- [Tutorial: Use Microsoft Power Platform CLI with portals](power-platform-cli-tutorial.md)
+- [Use the Visual Studio Code extension (preview)](vs-code-extension.md)
 
