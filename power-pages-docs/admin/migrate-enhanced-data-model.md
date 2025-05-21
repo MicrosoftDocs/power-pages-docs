@@ -28,7 +28,7 @@ In this article, learn how to migrate your existing standard data model site to 
 - You must install [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction#install-using-power-platform-tools-for-visual-studio-code) with version 1.31.6 or higher to migrate your sites to enhanced data model. More information: [Install latest Power Platform CLI](/power-platform/developer/cli/introduction#update-power-platform-cli-for-windowsmacoslinux)
 - Dataverse base portal package [9.3.2307.x](/power-apps/maker/portals/versions/package-version-9.3.2209) or higher. 
 - Power Pages Core package 1.0.2309.63 or higher. More information: [Update the Power Pages solution](update-solution.md)
-- You'll need to understand how to use [Power Platform CLI in Power Pages](../configure/power-platform-cli.md) to complete the migration steps. If you aren't familiar with Power Platform CLI in Power Pages, you may want to review this [Power Platform CLI tutorial](../configure/power-platform-cli-tutorial.md) and reference the [PAC CLI commands for working with Power Pages](/power-platform/developer/cli/reference/powerpages).
+- You'll need to understand how to use [Power Platform CLI in Power Pages](../configure/power-platform-cli.md) to complete the migration steps. If you aren't familiar with Power Platform CLI in Power Pages, you may want to review this [Power Platform CLI tutorial](../configure/power-platform-cli-tutorial.md) and reference the [PAC CLI commands for working with Power Pages](/power-platform/developer/cli/reference/pages).
 
 ## Step 1. Download and check customization for existing standard site metadata
 
@@ -48,7 +48,7 @@ In this article, learn how to migrate your existing standard data model site to 
 
     `pac pages list`
 
-    More information: [pac pages list](/power-platform/developer/cli/reference/powerpages#pac-powerpages-list)
+    More information: [pac pages list](/power-platform/developer/cli/reference/pages#pac-pages-list)
 
 1. Use the following command to download the customization report.
 
