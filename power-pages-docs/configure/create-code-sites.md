@@ -31,13 +31,13 @@ This article explains how to create, configure, and deploy a Power Pages code si
 
 Before you begin, make sure you have:
 
-* A Power Pages environment with admin privileges.
+* A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions).
 * The [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) installed and authenticated.
 * A local Git repository with your custom frontend project (like React, Angular, or Vue).
 
 ## Create and deploy a code site
 
-Power Pages code sites are managed via the PAC CLI commands `upload-code-site` and `download-code-site`. After you upload a site, a site appears in the **Inactive sites** list in the Power Pages admin workspace. You must then activate it to make it available to end users.
+Power Pages code sites are managed using the PAC CLI commands `upload-code-site` and `download-code-site`. After you upload a site, a site appears in [Power Pages](https://make.powerpages.microsoft.com/) within the **Inactive sites** list. You must activate the site to make it available to users.
 
 ### Upload a code site
 
@@ -106,8 +106,8 @@ pac pages download-code-site \
 
 ### Activate and test your site
 
-1. Go to [Power Pages](https://make.powerpages.microsoft.com/) and navigate to **Sites**.
-1. Locate your code site under **Inactive sites**, then select **Activate**.
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+1. Locate your code site under **Inactive sites**, then select **Reactivate**.
 1. Once active, browse to your site’s URL to verify deployment.
 
 > [!TIP]
@@ -214,5 +214,5 @@ export function App() {
 ### Related information
 
 - [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
-- [Tutorial: Use Microsoft Power Platform CLI with portals](power-platform-cli-tutorial.md)
+- [Tutorial: Use Microsoft Power Platform CLI with Power Pages](power-platform-cli-tutorial.md)
 - [Use the Visual Studio Code extension (preview)](vs-code-extension.md)

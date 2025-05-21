@@ -36,27 +36,27 @@ In this article, learn how to migrate your existing standard data model site to 
 
 1. Use the following command to authenticate to the Dataverse organization for your Power Platform environment to download the website record for migration.
 
-    ```pac auth create -u [Dataverse URL]```
+    `pac auth create -u [Dataverse URL]`
 
     **Example**
 
-    ```pac auth create -u https://contoso-org.crm.dynamics.com```
+    `pac auth create -u https://contoso-org.crm.dynamics.com`
 
     More information: [pac auth create](/power-platform/developer/cli/reference/auth)
 
 1. Use the following command to generate a list of websites in the current organization.
 
-    ```pac pages list```
+    `pac pages list`
 
     More information: [pac pages list](/power-platform/developer/cli/reference/powerpages#pac-powerpages-list)
 
 1. Use the following command to download the customization report.
 
-    ```pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] --siteCustomizationReportPath [PATH]```
+    `pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] --siteCustomizationReportPath [PATH]`
 
     **Example**
 
-   ```pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --siteCustomizationReportPath "c:\\pac-powerpages\\downloads"```
+   `pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --siteCustomizationReportPath "c:\\pac-powerpages\\downloads"`
 
 If you find any customization in the downloaded report, follow the guidance in the report to fix it post-migration to enhanced data model. More information: [Considerations for site customization when migrating sites from standard to enhanced data model](#considerations-for-site-customization-when-migrating-sites-from-standard-to-enhanced-data-model)
 
@@ -64,7 +64,7 @@ If you find any customization in the downloaded report, follow the guidance in t
 
 Use the following command to migrate your site data to the enhanced data model.
 
-```pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] –-mode [type-of-data] ```
+`pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] –-mode [type-of-data] `
 
 The **Mode** can have 3 values:
 
@@ -78,7 +78,7 @@ The **Mode** can have 3 values:
 
 **Example**
 
-```pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e –-mode all```
+`pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e –-mode all`
 
 The migration tool verifies the solutions. If there’s a standard data model solution present without a respective enhanced data model solution for the mentioned template, a warning is displayed: ```Found template <template-name>. One of the prerequisite for migrate needs Enchanged data model template```
 
@@ -98,11 +98,11 @@ Sites with following templates are supported for migration:
 
 Use the following command to verify your site's migration status:
 
-```pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] --checkMigrationStatus```
+`pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] --checkMigrationStatus`
 
 **Example**
 
-```pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --checkMigrationStatus```
+`pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --checkMigrationStatus`
 
 > [!NOTE] 
 > If your site migration is taking longer than anticipated, it may be due to the volume of data. If your command prompt closes, open a new command prompt and use the command in this step to verify your site's status.
@@ -111,7 +111,7 @@ Use the following command to verify your site's migration status:
 
 Use the following command update site data model version:
 
-```pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] --updateDatamodelVersion --portalId [Portal-GUID]```
+`pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] --updateDatamodelVersion --portalId [Portal-GUID]`
 
 > [!NOTE]
 > - You can find the Portal id by navigating to the website with '/\_services/about' appended to the URL of the website. In order to view these options, user should have a web role with all [website access permissions](../security/website-access-permission.md) assigned.
@@ -120,22 +120,20 @@ Use the following command update site data model version:
 
 **Example**
 
-```pac pages migrate-datamodel --webSiteId  076bf556-9ae6-ee11-a203-6045bdf0328e --updateDatamodelVersion --portalId 04435d71-c45a-4a05-9702-8f127559e48e```
-
-
+`pac pages migrate-datamodel --webSiteId  076bf556-9ae6-ee11-a203-6045bdf0328e --updateDatamodelVersion --portalId 04435d71-c45a-4a05-9702-8f127559e48e`
 
 ## Revert migrated site from enhanced to standard data model
 
 Use the following command to revert a standard data model site to enhanced data model after migration:
 
-```pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] --revertToStandardDataModel --portalId [Portal-GUID]```
+`pac pages migrate-datamodel --webSiteId [WebSiteId-GUID] --revertToStandardDataModel --portalId [Portal-GUID]`
 
 > [!NOTE]
 > When you switch a migrated site from the enhanced data model back to the standard data model, the website record associated with the enhanced data model will be deactivated, and the website record for the standard data model will be reactivated. 
 
 **Example**
 
-```pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --revertToStandardDataModel --portalId 07f35d71-c45a-4a05-9702-8f127559e48e```
+`pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --revertToStandardDataModel --portalId 07f35d71-c45a-4a05-9702-8f127559e48e`
 
 ## Migrate a production site from standard to enhanced data model
 

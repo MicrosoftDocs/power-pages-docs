@@ -200,4 +200,3 @@ portals content for other [supported tables](power-platform-cli.md#supported-tab
 
 - [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
 - [Use the Visual Studio Code extension](vs-code-extension.md)
-
