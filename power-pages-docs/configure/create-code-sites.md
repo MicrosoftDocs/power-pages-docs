@@ -41,7 +41,7 @@ Power Pages code sites are managed using the PAC CLI commands `upload-code-site`
 
 ### Upload a code site
 
-Upload your local source and compiled assets to the Power Pages environment.
+Use the [pac pages upload](/power-platform/developer/cli/reference/pages#pac-pages-upload-code-site) command to upload your local source and compiled assets to the Power Pages environment.
 
 #### Syntax
 
@@ -73,7 +73,7 @@ pac pages upload-code-site \
 
 ### Download a code site
 
-Download an existing site’s code to a local directory for modification or backup.
+Use the [pac pages download](/power-platform/developer/cli/reference/pages#pac-pages-download-code-site) command to download an existing site’s code to a local directory for modification or backup.
 
 #### Syntax
 
