@@ -16,12 +16,16 @@ contributors:
   - DanaMartens
 ---
 
-# Create and deploy a Power Pages code site
+# Create and deploy a Power Pages code site (preview)
+
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This article explains how to create, configure, and deploy a Power Pages code site using the [Power Platform CLI](/power-platform/developer/cli/introduction) (PAC CLI). You learn how to upload and download code, set up your project structure, secure your site, and understand key differences from traditional Power Pages sites.
 
 > [!NOTE]
 > A code site is a Power Pages site that renders entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, code sites are managed exclusively through source code and command-line interface (CLI) tools.
+
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## Prerequisites
 
@@ -96,13 +100,13 @@ pac pages download-code-site \
 pac pages download-code-site \
   --environment "https://contoso.crm.dynamics.com" \
   --path "./downloaded-site" \
-  --webSiteId "5a4f1363-8d97-40db-9407-dca5afbf5db8" \
+  --webSiteId "11112222-bbbb-3333-cccc-4444dddd5555" \
   --overwrite
 ```
 
 ### Activate and test your site
 
-1. Sign in to the [Power Pages admin center](https://make.powerpages.microsoft.com/) and navigate to **Sites**.
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/) and navigate to **Sites**.
 1. Locate your code site under **Inactive sites**, then select **Activate**.
 1. Once active, browse to your site’s URL to verify deployment.
 
@@ -128,12 +132,14 @@ A consistent project layout ensures correct upload behavior:
 
 ## Authentication and authorization
 
-Power Pages code sites use the same security model as traditional web pages.
+Power Pages code sites use the same [security model](../security/power-pages-security.md) as traditional Power Pages sites.
 
 ### Configure identity providers
 
-1. In the Power Pages admin center, go to **Security > Identity providers**.
-1. Add or configure identity providers, like Microsoft Entra ID.
+1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+1. Locate your site and select **Edit**.
+1. Select **Security > Identity providers**.
+1. Add or configure [identity providers](../security/authentication/index.md), like Microsoft Entra ID.
 1. A default Microsoft Entra ID provider is created automatically for each new site.
 
 ### Access user context in code
