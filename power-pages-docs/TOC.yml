@@ -276,7 +276,7 @@
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
-    - name: Copilot hub
+    - name: Copilot hub (preview)
       href: admin/copilot-hub.md
     - name: Configure website actions
       items:
