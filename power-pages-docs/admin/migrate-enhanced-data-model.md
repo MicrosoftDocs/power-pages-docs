@@ -56,7 +56,11 @@ In this article, learn how to migrate your existing standard data model site to 
 
     **Example**
 
-   `pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --siteCustomizationReportPath "c:\\pac-powerpages\\downloads"`
+    ```powershell
+    pac pages migrate-datamodel
+        --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e
+        --siteCustomizationReportPath 'c:\\pac-powerpages\\downloads'
+    ```
 
 If you find any customization in the downloaded report, follow the guidance in the report to fix it post-migration to enhanced data model. More information: [Considerations for site customization when migrating sites from standard to enhanced data model](#considerations-for-site-customization-when-migrating-sites-from-standard-to-enhanced-data-model)
 
@@ -78,7 +82,11 @@ The **Mode** can have 3 values:
 
 **Example**
 
-`pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e –-mode all`
+```powershell
+pac pages migrate-datamodel
+    --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e
+    –-mode all
+```
 
 The migration tool verifies the solutions. If there’s a standard data model solution present without a respective enhanced data model solution for the mentioned template, a warning is displayed: ```Found template <template-name>. One of the prerequisite for migrate needs Enchanged data model template```
 
@@ -102,9 +110,12 @@ Use the following command to verify your site's migration status:
 
 **Example**
 
-`pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --checkMigrationStatus`
+```powershell
+pac pages migrate-datamodel
+    --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --checkMigrationStatus
+```
 
-> [!NOTE] 
+> [!NOTE]
 > If your site migration is taking longer than anticipated, it may be due to the volume of data. If your command prompt closes, open a new command prompt and use the command in this step to verify your site's status.
 
 ## Step 4. Update site data model version after successful data migration
@@ -120,7 +131,12 @@ Use the following command update site data model version:
 
 **Example**
 
-`pac pages migrate-datamodel --webSiteId  076bf556-9ae6-ee11-a203-6045bdf0328e --updateDatamodelVersion --portalId 04435d71-c45a-4a05-9702-8f127559e48e`
+```powershell
+pac pages migrate-datamodel
+    --webSiteId  076bf556-9ae6-ee11-a203-6045bdf0328e
+    --updateDatamodelVersion
+    --portalId 04435d71-c45a-4a05-9702-8f127559e48e
+```
 
 ## Revert migrated site from enhanced to standard data model
 
@@ -133,7 +149,12 @@ Use the following command to revert a standard data model site to enhanced data
 
 **Example**
 
-`pac pages migrate-datamodel --webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e --revertToStandardDataModel --portalId 07f35d71-c45a-4a05-9702-8f127559e48e`
+```powershell
+pac pages migrate-datamodel
+--webSiteId 076bf556-9ae6-ee11-a203-6045bdf0328e
+--revertToStandardDataModel
+--portalId 07f35d71-c45a-4a05-9702-8f127559e48e
+```
 
 ## Migrate a production site from standard to enhanced data model
 
