@@ -65,7 +65,7 @@ Starting with Microsoft Power Platform CLI version 1.27, the `pac paportal` comm
 
     Note the **WebSiteId** of the site you plan to migrate.
 
-    More information: [`pac pages list`](/power-platform/developer/cli/reference/pages#pac-powerpages-list)
+    More information: [`pac pages list`](/power-platform/developer/cli/reference/pages#pac-pages-list)
 
 1. Enter the following command to download the website folder: `pac pages download --path [PATH] -id [WebSiteId-GUID]`
 
@@ -73,7 +73,7 @@ Starting with Microsoft Power Platform CLI version 1.27, the `pac paportal` comm
 
     For the **id** parameter, use the **WebSiteId** that you noted in the previous step.
 
-    More information: [`pac pages download`](/power-platform/developer/cli/reference/pages#pac-powerpages-download)
+    More information: [`pac pages download`](/power-platform/developer/cli/reference/pages#pac-pages-download)
 
 ## Run the migration tool on the folder
 
@@ -85,7 +85,7 @@ The command creates a folder with "V5" appended to the folder name.
 
 To revert to version 3 from Bootstrap version 5, use the [upload command](#upload-the-migrated-website-record) to replace the version 5 folder with a Bootstrap version 3 folder.
 
-More information: [`pac pages bootstrap-migrate`](/power-platform/developer/cli/reference/pages#pac-powerpages-bootstrap-migrate)
+More information: [`pac pages bootstrap-migrate`](/power-platform/developer/cli/reference/pages#pac-pages-bootstrap-migrate)
 
 ## Review your changes
 
@@ -105,7 +105,7 @@ Enter the following command to upload the migrated website record to the organiz
 
 **Example**: `pac pages upload --path C:\pac-portals\downloads\custom-portal\`
 
-More information: [`pac pages upload`](/power-platform/developer/cli/reference/pages#pac-powerpages-upload)
+More information: [`pac pages upload`](/power-platform/developer/cli/reference/pages#pac-pages-upload)
 
 After you upload the record, the migrated site is a Bootstrap version 5 website. We recommend that you [compare the site with your version 3 site](#review-your-changes) one more time, and modify the Bootstrap version 5 site as needed.
 

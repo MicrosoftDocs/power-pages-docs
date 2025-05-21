@@ -48,7 +48,7 @@ In this article, learn how to migrate your existing standard data model site to 
 
     ```pac pages list```
 
-    More information: [pac pages list](/power-platform/developer/cli/reference/pages#pac-powerpages-list)
+    More information: [pac pages list](/power-platform/developer/cli/reference/pages#pac-pages-list)
 
 1. Use the following command to download the customization report.
 
