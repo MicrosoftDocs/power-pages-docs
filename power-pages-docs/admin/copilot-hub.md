@@ -1,5 +1,5 @@
 ---  
-title: Copilot hub for Power Pages  
+title: Copilot hub for Power Pages (preview)
 description: Learn about the Copilot hub in Power Platform admin center, offering analytics and governance controls for AI features in Power Pages.  
 author: PramithaU  
 ms.topic: concept-article  
@@ -11,9 +11,16 @@ contributors:
   - PramithaU  
 ---  
 
-# Copilot hub for Power Pages
+# Copilot hub for Power Pages (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Copilot hub in the Power Platform admin center provides a centralized dashboard for admins to monitor and manage usage of AI capabilities across Power Platform products. Power Pages integrates into this hub to offer detailed visibility into the usage of AI-powered features and give admins the tools they need to govern them effectively.
+
+> [!IMPORTANT]
+> - This feature is a preview feature.
+> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
+> - This feature is gradually being rolled out across regions and might not be available yet in your region.
 
 > [!NOTE]  
 > Before you begin, ensure the site runs on runtime version 9.7.4.xx or later.
