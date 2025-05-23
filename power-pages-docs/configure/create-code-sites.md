@@ -72,9 +72,9 @@ pac pages upload-code-site \
 If you don't have an existing project, you can start with the [sample React Single Page Site](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/bring-your-own-code-samples/react-sample).
 
 #### Defining Upload Parameters with `powerpages.config.json`
-Here's a refined and cohesive version of your paragraph:
 
-Makers can customize the behavior of the `upload-code-site` command by including a configuration file named `powerpages.config.json` in their site. By default, this file should be placed at the root of the repository. The file allows you to specify parameters such as the source folder, compiled assets path, and site display name. 
+Makers can customize the behavior of the `upload-code-site` command by including a `powerpages.config.json` file in their site. This configuration file is expected to reside at the site root folder. When using config-based site uploads, the `upload-code-site` command can be executed with just the `rootPath` parameter—other values such as the compiled assets path and site display name will be automatically read from the `powerpages.config.json` file located in the `rootPath` folder. **If both command-line arguments and config values are provided, the command-line arguments will take precedence.**
+
 
 **Sample `powerpages.config.json`:**
 
