@@ -166,6 +166,8 @@ Authority URL / Login URL for Microsoft Entra Id is
   https://login.windows.net/<tenantId>
   ```
 
+* You can find **Authority URL** for other configured identity providers by navigating to Power Pages **Security** > **Identity providers** configuration settings.
+
 * **User details:**
 
   ```js
@@ -240,6 +242,42 @@ export const AuthButton = () => {
 | **Style workspace**     | Styling via the [style workspace](../getting-started/style-site.md) isn't supported. Use your framework’s styling, like CSS, CSS-in-JS, or utility classes. |
 | **Localization**        | Single-language support. You need to implement client-side resource loading.          |
 | **Liquid templating**   | [Liquid](liquid/liquid-overview.md) code and Liquid templates aren't supported. Use your framework’s template engine and Web APIs to access data |
+
+## FAQs
+
+### What is the plan for unit and integration testing?
+At this time, we are not offering built-in support for testing. Makers are encouraged to write and execute unit and integration tests locally or within their CI/CD pipelines. This limitation is primarily due to the unavailability of source code at the moment. We plan to revisit and evaluate testing support in the next release cycle.
+
+### Is there a plan to support Power Fx integration using WebAssembly, for example, to enable business users to extend pro-code components?
+This capability is not currently supported. 
+
+### Will source code be available in Power Pages?
+Currently, makers can build websites using TypeScript or GitHub Copilot Agent. The compiled JavaScript and CSS files are accessible and can be edited in Visual Studio Code. However, direct and extensive editing of HTML files is not supported at this time.
+
+We are actively working on adding full source code support in upcoming releases. This will include integration with Power Platform Git, enabling makers to edit and manage source code directly within Visual Studio Code.
+
+### Can maker just create a component externally using this feature and bring it to Pages website?
+No, you can not bring externally generated component to existing Power Pages site using this feature. 
+
+### Can the maker add OOB components like List and Form?
+This is not supported right now.  However, developers can build custom form and list using React framework with Web APIs and achive this use case.
+
+### How does source control work?
+Developer can use Power Platform Git integration for source code; however, this will only add compiled web file in source code. We will be source code support in the upcoming release, after that users can even see the actual source code in the Git. 
+
+### Does these sites support SEO?
+It's a React framework based application, so SEO support is limited. 
+
+### What Power Pages security and governance support does Single Pages Sites offer?
+Power Pages enforces table permissions and security Web Roles on Web API calls, ensuring that data access aligns with user roles. Developers can use `window["Microsoft"].Dynamic365.Portal.User` object to acess basic user properties and build persona-specific user experiences.
+
+Additionally, we support:
+
+- Public and private site configurations  
+- Governance settings, including control over anonymous data access  
+- Authentication provider configurations  
+
+These features help ensure secure and compliant integration of custom components within Power Pages.
 
 ### Related information
 
