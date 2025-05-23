@@ -33,13 +33,13 @@ Before you begin, make sure you have:
 
 * A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions)
 * [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.43.x or later installed and authenticated
-* A local Git repository with your custom frontend project (like React, Angular, or Vue)
+* A local Git repository with your custom frontend project (like React)
 
-## Create and deploy a code site
+## Create and deploy a Single Page Site
 
 Power Pages code sites are managed using the PAC CLI commands `upload-code-site` and `download-code-site`. After you upload a site, it appears in [Power Pages](https://make.powerpages.microsoft.com/) in the **Inactive sites** list. Activate the site to make it available to users.
 
-### Upload a code site
+### Upload a Single Page Site
 
 Use the [pac pages upload-code-site](/power-platform/developer/cli/reference/pages#pac-pages-upload-code-site) command to upload your local source and compiled assets to your Power Pages environment. 
 
@@ -57,7 +57,7 @@ pac pages upload-code-site \
 | Parameter        | Alias | Required  | Description                                                            |
 | ---------------- | ----- | --------- | ---------------------------------------------------------------------- |
 | `--rootPath`     | `-rp` | Yes       | Local folder that has your site’s source files                         |
-| `--compiledPath` | `-cp` | No        | Path to compiled assets, like React `build` or Angular `dist`          |
+| `--compiledPath` | `-cp` | No        | Path to compiled assets, like React `build`          |
 | `--siteName`     | `-sn` | No        | Display name for your Power Pages site                                 |
 
 #### Example
@@ -130,8 +130,6 @@ A consistent project layout helps ensure correct upload behavior:
 
 * Use the optional `powerpages.config.json` file to customize CLI behavior, like excluding files or mapping routes.
 
-* To specify a custom config location, add `--configPath <file-path>` to the upload command. Replace `<file-path>` with your own file path.
-
 ## Authentication and authorization
 
 Power Pages code sites use the same [security model](../security/power-pages-security.md) as traditional Power Pages sites.
@@ -149,9 +147,9 @@ Power Pages code sites use the same [security model](../security/power-pages-sec
 You can get authentication metadata on the client:
 
 * **Authority URL:**
-
+Authority URL / Login URL for Microsoft Entra Id is 
   ```js
-  window["Microsoft"].Dynamic365.Portal.Authentication.authority
+  https://login.windows.net/<tenantId>
   ```
 
 * **User details:**
@@ -163,55 +161,71 @@ You can get authentication metadata on the client:
 ### Sample React flow
 
 ```tsx
+import { IconButton, Tooltip } from '@mui/material';
+import {
+    Login,
+    Logout
+} from '@mui/icons-material';
 import React from 'react';
-import { shell } from '@microsoft/powerpages';
 
-export function App() {
-  const [token, setToken] = React.useState<string | null>(null);
+export const AuthButton = () => {
+    const username = (window as any)["Microsoft"]?.Dynamic365?.Portal?.User?.userName ?? "";
+    const firstName = (window as any)["Microsoft"]?.Dynamic365?.Portal?.User?.firstName ?? "";
+    const lastName = (window as any)["Microsoft"]?.Dynamic365?.Portal?.User?.lastName ?? "";
+    const isAuthenticated = username !== "";
+    const [token, setToken] = React.useState<string>("");
+    
+    // @ts-ignore
+    const tenantId = import.meta.env.VITE_TENANT_ID;
 
-  React.useEffect(() => {
-    (async () => {
-      try {
-        const csrfToken = await shell.getTokenDeferred();
-        setToken(csrfToken);
-      } catch (err) {
-        console.error('Failed to fetch CSRF token', err);
-      }
-    })();
-  }, []);
+    React.useEffect(() => {
+        const getToken = async () => {
+            try {
+                const token = await (window as any).shell.getTokenDeferred();
+                setToken(token);
+            } catch (error) {
+                console.error('Error fetching token:', error);
+            }
+        };
+        getToken();
+    }, []);
 
-  return (
-    <form
-      action="/Account/Login/ExternalLogin"
-      method="post"
-    >
-      <input
-        name="__RequestVerificationToken"
-        type="hidden"
-        value={token ?? ''}
-      />
-      <button
-        name="provider"
-        type="submit"
-        value={window["Microsoft"].Dynamic365.Portal.Authentication.authority}
-      >
-        Sign In
-      </button>
-    </form>
-  );
-}
+    return (
+        <div className="flex items-center gap-4">
+            {isAuthenticated ? (
+                <>
+                    <span className="text-sm">Welcome {firstName + " " + lastName}</span>
+                    <Tooltip title="Logout">
+                        <IconButton color="primary" onClick={() => window.location.href = "/Account/Login/LogOff?returnUrl=%2F"}>
+                            <Logout />
+                        </IconButton>
+                    </Tooltip>
+                </>
+            ) : (
+                <form action="/Account/Login/ExternalLogin" method="post">
+                    <input name="__RequestVerificationToken" type="hidden" value={token} />
+                    <Tooltip title="Login">
+                        <IconButton name="provider" type="submit" color="primary" value={`https://login.windows.net/${tenantId}/`}>
+                            <Login />
+                        </IconButton>
+                    </Tooltip>
+                </form>
+            )}
+        </div>
+    );
+};
 ```
 
 ## Differences from existing Power Pages sites
 
-| Feature                 | Code site behavior                                                            |
+| Feature                 | Single Page Site behavior                                                            |
 | ----------------------- | ----------------------------------------------------------------------------- |
 | **Server-side refresh** | Always returns the site’s root page. The client-side router renders sub-routes.    |
 | **Route conflicts**     | Client-side routes take precedence. A hard refresh falls back to the root.           |
 | **Page workspace**      | The [pages workspace](../getting-started/first-page.md) isn't supported. Use client routing and client site pages. For page-level security, use the global user object to check assigned web roles and conditionally render the UI. |
 | **Style workspace**     | Styling via the [style workspace](../getting-started/style-site.md) isn't supported. Use your framework’s styling, like CSS, CSS-in-JS, or utility classes. |
 | **Localization**        | Single-language support. You need to implement client-side resource loading.          |
-| **Liquid templating**   | [Liquid](liquid/liquid-overview.md) code and Liquid templates aren't supported. Use your framework’s template engine. |
+| **Liquid templating**   | [Liquid](liquid/liquid-overview.md) code and Liquid templates aren't supported. Use your framework’s template engine and Web APIs to access data |
 
 ### Related information
 
