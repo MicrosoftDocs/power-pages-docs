@@ -620,7 +620,7 @@
           href: configure/power-platform-cli-tutorial.md
         - name: Power Platform CLI solution management (preview)
           href: configure/power-platform-cli-solution-management.md
-        - name: Create a Single Page Application (SPA) (preview)
+        - name: Create a single-page application (preview)
           href: configure/create-code-sites.md
     - name: Use Visual Studio Code
       items:
