@@ -1,5 +1,5 @@
 ---
-title: Create and Deploy a Power Pages Code Site
+title: Create and Deploy a Single Page Application in Power Pages
 description: Discover how to upload, download, and activate Power Pages code sites with step-by-step guidance and examples.
 author: neerajnandwana-msft
 ms.topic: concept-article
@@ -16,11 +16,11 @@ contributors:
   - DanaMartens
 ---
 
-# Create and deploy a Power Pages code site (preview)
+# Create and deploy a Single Page Application in Power Pages (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how to create, configure, and deploy a Power Pages code site using the [Power Platform CLI](/power-platform/developer/cli/introduction) (PAC CLI). You learn how to upload and download code, set up your project structure, secure your site, and understand key differences from traditional Power Pages sites.
+This article explains how to create, configure, and deploy a Single Page Application in Power Pages using the [Power Platform CLI](/power-platform/developer/cli/introduction) (PAC CLI). You learn how to upload and download code, set up your project structure, secure your site, and understand key differences from traditional Power Pages sites.
 
 > [!NOTE]
 > A code site is a Power Pages site that runs entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, code sites are managed only through source code and command-line interface (CLI) tools.
@@ -32,7 +32,7 @@ This article explains how to create, configure, and deploy a Power Pages code si
 Before you begin, make sure you have:
 
 * A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions)
-* The [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) installed and authenticated
+* [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.43.x or later installed and authenticated
 * A local Git repository with your custom frontend project (like React, Angular, or Vue)
 
 ## Create and deploy a code site
@@ -41,7 +41,7 @@ Power Pages code sites are managed using the PAC CLI commands `upload-code-site`
 
 ### Upload a code site
 
-Use the [pac pages upload](/power-platform/developer/cli/reference/pages#pac-pages-upload-code-site) command to upload your local source and compiled assets to your Power Pages environment.
+Use the [pac pages upload-code-site](/power-platform/developer/cli/reference/pages#pac-pages-upload-code-site) command to upload your local source and compiled assets to your Power Pages environment. 
 
 #### Syntax
 
@@ -69,11 +69,13 @@ pac pages upload-code-site \
   --siteName "Contoso Code Site"
 ```
 
+If you don't have an existing project, you can start with the [sample React code site](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/bring-your-own-code-samples/react-sample).
+
 ---
 
 ### Download a code site
 
-Use the [pac pages download](/power-platform/developer/cli/reference/pages#pac-pages-download-code-site) command to download an existing site’s code to a local directory so you can modify or back it up.
+Use the [pac pages download-code-site](/power-platform/developer/cli/reference/pages#pac-pages-download-code-site) command to download an existing site’s code to a local directory so you can modify or back it up.
 
 #### Syntax
 
