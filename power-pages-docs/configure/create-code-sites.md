@@ -142,7 +142,7 @@ A consistent project layout helps ensure correct upload behavior:
 └─ README.md
 ```
 
-* Use the optional `powerpages.config.json` file to customize CLI behavior, like excluding files or mapping routes.
+* Use the optional `powerpages.config.json` customize the behavior of the `upload-code-site` command.
 
 ## Authentication and authorization
 
