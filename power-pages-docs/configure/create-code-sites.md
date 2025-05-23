@@ -93,7 +93,7 @@ pac pages download-code-site \
 | --------------- | ------ | --------- | ------------------------------------------------------------------------------ |
 | `--environment` | `-env` | No        | Dataverse environment (GUID or full URL). Defaults to your active auth profile |
 | `--path`        | `-p`   | Yes       | Local directory to download the site code                                      |
-| `--webSiteId`   | `-id`  | Yes       | GUID of the Power Pages code site                                              |
+| `--webSiteId`   | `-id`  | Yes       | Website record GUID of the Power Pages Single Page Site.                                              |
 | `--overwrite`   | `-o`   | No        | Overwrite existing files in the target directory if they exist                 |
 
 #### Example
