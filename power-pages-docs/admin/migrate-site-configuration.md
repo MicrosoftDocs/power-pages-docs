@@ -117,47 +117,33 @@ The Microsoft Power Platform CLI provides many features specifically for [Power 
 
 1. Determine the website ID for the source site.
 
-    ```powershell
-    pac paportal list
-    ```
+    `pac pages list`
 
     :::image type="content" source="media/migrate-portal-config/portal-list.png" alt-text="List of websites.":::
 
 1. Download the website configuration data to your local workstation. Use the *--overwrite* option set to *true* if you have previous downloaded website configuration to the same path.
 
-    ```powershell
-    pac paportal download --path [path] --webSiteId [website id]
-    ```
+    `pac pages download --path [path] --webSiteId [website id]`
 
     **Example**
 
-    ```powershell
-    pac paportal download --path c:\paportals\ --webSiteId db9db518-ea5c-ec11-8f8f-00224804e6cd
-    ```
+    `pac pages download --path c:\paportals\ --webSiteId db9db518-ea5c-ec11-8f8f-00224804e6cd`
 
 1. Select the Power Platform CLI authentication profile connected to the target environment.
 
-    ```powershell
-    pac auth select --index [target environment index]
-    ```
+    `pac auth select --index [target environment index]`
 
     **Example**
 
-    ```powershell
-    pac auth select --index 2
-    ```
+    `pac auth select --index 2`
 
 1. Upload the website configuration data to the target environment.
 
-    ```powershell
-    pac paportal upload --path [path]
-    ```
+    `pac pages upload --path [path]`
 
     **Example**
 
-    ```powershell
-    pac paportal upload --path "C:\paportals\portaldev"
-    ```
+    `pac pages upload --path "C:\paportals\portaldev"`
 
 > [!NOTE]
 > - The Power Platform CLI tool doesn't migrate Dataverse tables or table schema. Migration might fail with missing elements such as tables and fields when configuration data is mismatched with selected schema.
