@@ -17,7 +17,7 @@ Contact records that you create don't have a username and password. You must [en
 You can also send a user an [invitation to register locally](invite-contacts.md). [Learn more about local authentication, registration, and other settings](authentication/set-authentication-identity.md).
 
 > [!IMPORTANT]
-> We recommend you use the [Azure AD B2C identity provider](authentication/azure-ad-b2c-provider.md) for authentication and [deprecate the local identity provider](authentication/migrate-identity-providers.md).
+> We recommend you use the [Microsoft Entra External ID identity provider](authentication/entra-external-id.md) for authentication and [deprecate the local identity provider](authentication/migrate-identity-providers.md).
 
 ## Add a username to a contact record
 
