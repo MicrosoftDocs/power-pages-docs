@@ -20,7 +20,7 @@ contributors:
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Power Pages supports integrating single-page application (SPA) code created with next-generation AI-assisted tools, like GitHub Copilot Agent. This capability lets developers bring modern, component-based front-end experiences into Power Pages by using natural language as a coding interface.
+Power Pages supports integrating single-page application (SPA) code created with next-generation AI-assisted tools, like GitHub Copilot. This capability lets developers bring modern, component-based front-end experiences into Power Pages by using natural language as a coding interface.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
