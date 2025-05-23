@@ -232,6 +232,43 @@ export const AuthButton = () => {
 };
 ```
 
+## Use Power Pages Web APIs 
+
+Developers can leverage [Power Pages Web APIs](web-api-overview.md) to load content into the UI or to create, update, and delete records. Before using these APIs, ensure that the required Web APIs are enabled and  appropriate table permissions and web roles are properly configured.
+
+
+```tsx
+
+// Create query to get all cards from Dataverse
+const fetchCards = async () => {
+    const response = await fetch("/_api/cr7ae_creditcardses");
+    const data = await response.json();
+    const cards = data.value;
+    const returnData = [];
+
+    // Loop through the cards and get the name and id of each card
+    for (let i = 0; i < cards.length; i++) {
+        const card = cards[i];
+        const cardName = card.cr7ae_name;
+        const cardId = card.cr7ae_creditcardsid;
+        const features = card.cr7ae_features
+            ?.split(',')
+            .map((feature: string) => feature.trim());
+        const type = card.cr7ae_type;
+        const image = card.cr7ae_image;
+        const category = card.cr7ae_category
+            ?.split(',')
+            .map((cat: string) => cat.trim());
+        
+        // ...additional processing/pushing to returnData...
+    }
+
+    return returnData;
+};
+
+```
+
+
 ## Differences from existing Power Pages sites
 
 | Feature                 | Single Page Site behavior                                                            |
