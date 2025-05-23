@@ -166,6 +166,8 @@ Authority URL / Login URL for Microsoft Entra Id is
   https://login.windows.net/<tenantId>
   ```
 
+* You can find **Authority URL** for other configured identity providers by navigating to Power Pages **Security** > **Identity providers** configuration settings.
+
 * **User details:**
 
   ```js
