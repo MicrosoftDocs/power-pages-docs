@@ -33,6 +33,7 @@ Before you begin, make sure you have:
 
 * A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions)
 * [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.43.x or later installed and authenticated
+* Your Power Pages site version must be 9.7.4.x or later for this feature to work.
 * A local Git repository with your custom frontend project (like React)
 
 ## Create and deploy a Single Page Site
