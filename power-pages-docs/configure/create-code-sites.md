@@ -1,6 +1,6 @@
 ---
 title: Create and Deploy a Single Page Application in Power Pages
-description: Discover how to upload, download, and activate Power Pages code sites with step-by-step guidance and examples.
+description: Discover how to upload, download, and activate Power Pages Single Page Site with step-by-step guidance and examples.
 author: neerajnandwana-msft
 ms.topic: concept-article
 ms.custom:
@@ -23,7 +23,7 @@ contributors:
 This article explains how to create, configure, and deploy a Single Page Application in Power Pages using the [Power Platform CLI](/power-platform/developer/cli/introduction) (PAC CLI). You learn how to upload and download code, set up your project structure, secure your site, and understand key differences from traditional Power Pages sites.
 
 > [!NOTE]
-> A code site is a Power Pages site that runs entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, code sites are managed only through source code and command-line interface (CLI) tools.
+> A Single Page Site is a Power Pages site that runs entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, Single Page Site are managed only through source code and command-line interface (CLI) tools.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
@@ -37,7 +37,7 @@ Before you begin, make sure you have:
 
 ## Create and deploy a Single Page Site
 
-Power Pages code sites are managed using the PAC CLI commands `upload-code-site` and `download-code-site`. After you upload a site, it appears in [Power Pages](https://make.powerpages.microsoft.com/) in the **Inactive sites** list. Activate the site to make it available to users.
+Power Pages Single Page Sites are managed using the PAC CLI commands `upload-code-site` and `download-code-site`. After you upload a site, it appears in [Power Pages](https://make.powerpages.microsoft.com/) in the **Inactive sites** list. Activate the site to make it available to users.
 
 ### Upload a Single Page Site
 
@@ -69,11 +69,11 @@ pac pages upload-code-site \
   --siteName "Contoso Code Site"
 ```
 
-If you don't have an existing project, you can start with the [sample React code site](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/bring-your-own-code-samples/react-sample).
+If you don't have an existing project, you can start with the [sample React Single Page Site](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/bring-your-own-code-samples/react-sample).
 
 ---
 
-### Download a code site
+### Download a Single Page Site
 
 Use the [pac pages download-code-site](/power-platform/developer/cli/reference/pages#pac-pages-download-code-site) command to download an existing site’s code to a local directory so you can modify or back it up.
 
@@ -132,7 +132,7 @@ A consistent project layout helps ensure correct upload behavior:
 
 ## Authentication and authorization
 
-Power Pages code sites use the same [security model](../security/power-pages-security.md) as traditional Power Pages sites.
+Power Pages Single Page Sites use the same [security model](../security/power-pages-security.md) as traditional Power Pages sites.
 
 ### Configure identity providers
 
