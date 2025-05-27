@@ -47,7 +47,7 @@ There are several ways to determine which data model your site is using:
 
 - If you're using the [Power Platform CLI](../configure/power-platform-cli.md), run the following command to view which data model is being used.
 
-    `pac powerpages list -v`
+    `pac pages list -v`
 
     > [!NOTE]
     > This parameter is supported in Power Platform CLI version 1.22.4 and later.
@@ -187,11 +187,11 @@ When you use the Power Platform CLI to upload or download configuration data for
 
 **Download**
 
-`pac powerpages download --path <path> --webSiteId <siteId> --modelVersion 2`
+`pac pages download --path <path> --webSiteId <siteId> --modelVersion 2`
 
 **Upload**
 
-`pac powerpages upload --path <path> --modelVersion 2`
+`pac pages upload --path <path> --modelVersion 2`
 
 > [!NOTE]
 > This parameter is supported in Power Platform CLI version 1.22.4 and later.
