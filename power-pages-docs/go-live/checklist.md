@@ -4,7 +4,7 @@ description: Learn how to go live.
 author: NikitaPolyakovMSFT
 ms.topic: checklist
 ms.custom: 
-ms.date: 10/03/2022
+ms.date: 05/28/2025
 ms.author: nikpol
 ms.reviewer: dmartens
 contributors:
