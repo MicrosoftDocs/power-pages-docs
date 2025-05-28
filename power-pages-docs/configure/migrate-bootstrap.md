@@ -83,9 +83,7 @@ Enter the following command to run the migration tool on the website folder that
 
 The command creates a folder with "V5" appended to the folder name.
 
-To revert to version 3 from Bootstrap version 5, use the [upload command](#upload-the-migrated-website-record) to replace the version 5 folder with a Bootstrap version 3 folder.
-
-More information: [`pac pages bootstrap-migrate`](/power-platform/developer/cli/reference/pages#pac-pages-bootstrap-migrate)
+If you run into issues while upgrading to Bootstrap version 5 or want to revert to Bootstrap version 3, see [Revert from Bootstrap version 5 to version 3](#revert-from-bootstrap-version-5-to-version-3).
 
 ## Review your changes
 
@@ -98,8 +96,6 @@ If you created a copy of your site before you migrated it, compare it with the v
 1. In Visual Studio Code, press Ctrl+Shift+P to open a command prompt. Enter `bootstrap diff`.
 
 1. The version 3 file and the version 5 file open. Hover over each highlighted change to review it.
-
-If you run into issues while upgrading to Bootstrap version 5 or want to revert to Bootstrap version 3, see [Revert from Bootstrap version 5 to version 3](#revert-from-bootstrap-version-5-to-version-3).
 
 ## Upload the migrated website record
 
