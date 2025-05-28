@@ -4,7 +4,7 @@ description: Learn how to plan for a Power Pages project.
 author: NikitaPolyakovMSFT
 ms.topic: concept-article
 ms.custom: 
-ms.date: 5/17/2024
+ms.date: 05/28/2025
 ms.author: nikpol
 ms.reviewer: dmartens
 contributors:
@@ -60,8 +60,6 @@ Users within your organization should use **Microsoft Entra**. Using Microsoft E
 External users should be using an external identity provider. Having a single external identity provider can help onboard users consistently across multiple sites or apps. Your users can access these sites and applications using a single set of credentials for their convenience. Power Pages offers several options.
 
 [Microsoft Entra External ID](/entra/external-id/external-identities-overview) is one option you might consider for an identity provider. Integrate your custom or corporate identity systems. You can enable the use of existing social accounts like Microsoft Account, LinkedIn, Google, including an option you set to allow a sign-in profile based on an email address.
-
-You can also customize the look and feel to match your needs, see more in: [Set up Microsoft Entra External ID with Power Pages](/power-pages/security/authentication/entra-external-id).
 
 > [!NOTE] 
 > We recommend that you disable local sign-in providers.  For more information, see [Get started with configuring your authentication](/power-apps/maker/portals/configure/use-simplified-authentication-configuration#add-configure-or-delete-an-identity-provider).
