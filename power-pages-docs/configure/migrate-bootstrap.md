@@ -117,7 +117,7 @@ To revert to Bootstrap version 3:
 
 1. Run the [upload command](migrate-bootstrap.md) to replace the version 5 folder with a Bootstrap version 3 folder. Learn more in [pac pages bootstrap-migrate](/power-platform/developer/cli/reference/pages#pac-pages-bootstrap-migrate).
 1. Open the [Portal Management app](portal-management-app.md) and delete the **Site/BootstrapV5Enabled** site setting. Learn more in [Configure site settings for websites](configure-site-settings.md).
-1. Clear the server-side cache. Learn more in [Clear the server-side cache for the metadata/configuration and data tables](../admin/clear-server-side-cache.md).
+1. Clear the server-side cache. Learn more in [How server-side caching works in Power Pages](../admin/clear-server-side-cache.md).
 
 ### See also
 
