@@ -25,7 +25,7 @@ Deployment) of a Power Pages site configuration. You can now check in the websit
 
 > [!NOTE]
 > - This feature is generally available starting with Power Platform CLI version 1.9.8. To learn about installing the latest version, go to [Install Microsoft Power Platform CLI](/power-platform/developer/cli/introduction).
-> - Starting with the Power Platform CLI version 1.27, the `pac paportal` command is changed to `pac powerpages`. `paportal` continues to work, but we recommend using `powerpages` going forward. This article will soon be updated to use `powerpages` instead of `paportal`. 
+> - With Power Platform CLI version 1.32, the pac powerpages command was changed to pac pages. With pac cli version 1.27, the pac paportal command was changed to pac powerpages. Both powerpages and paportal will continue to work, but we recommend using pages going forward.
 
 ### Why use Microsoft Power Platform CLI for website development?
 
@@ -236,9 +236,9 @@ The following sections provide more details about different properties of the "*
 
 |Property Name|Description|Example|
 |-------------|-----------|-------|
-|[list](/power-platform/developer/cli/reference/paportal#pac-paportal-list)|Lists all portal websites from the current Dataverse environment.<br/><br/> You can add the *-v* parameter to indicate if the site is using the standard or [enhanced data model](../admin/enhanced-data-model.md) |`pac paportal list`|
-|[download](/power-platform/developer/cli/reference/paportal#pac-paportal-download)|Download portal website content from the current Dataverse environment. It has the following parameters: <br/> - *path*: Path where the website content is downloaded (alias: -p)<br/> - *webSiteId*: Portal website ID to download (alias: -id)<br/> - *overwrite*: (Optional) true - to overwrite existing content; false - to fail if the folder already has website content (alias: -o)<br/> - *modelVersion*: `1` or `2` to indicate if the site data to be downloaded uses the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac paportal download --path "C:\portals" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902 --modelVersion 2`|
-|[upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload)|Upload portal website content to the current Dataverse environment. It has the following parameter: <br/> - *path*: Path where the website content is stored (alias: -p) <br/> -*deploymentProfile*: Upload portal data with environment details defined through [profile variables](#use-deployment-profile) in *deployment-profiles/[profile-name].deployment.yaml* file<br/> - *modelVersion*: `1` or `2` to indicate if the site data to be uploaded uses the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac paportal upload --path "C:\portals\starter-portal" --deploymentProfile "profile-name" --modelVersion 2`|
+|[list](/power-platform/developer/cli/reference/paportal#pac-paportal-list)|Lists all portal websites from the current Dataverse environment.<br/><br/> You can add the *-v* parameter to indicate if the site is using the standard or [enhanced data model](../admin/enhanced-data-model.md) |`pac pages list`|
+|[download](/power-platform/developer/cli/reference/paportal#pac-paportal-download)|Download portal website content from the current Dataverse environment. It has the following parameters: <br/> - *path*: Path where the website content is downloaded (alias: -p)<br/> - *webSiteId*: Portal website ID to download (alias: -id)<br/> - *overwrite*: (Optional) true - to overwrite existing content; false - to fail if the folder already has website content (alias: -o)<br/> - *modelVersion*: `1` or `2` to indicate if the site data to be downloaded uses the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac pages download --path "C:\portals" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902 --modelVersion 2`|
+|[upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload)|Upload portal website content to the current Dataverse environment. It has the following parameter: <br/> - *path*: Path where the website content is stored (alias: -p) <br/> -*deploymentProfile*: Upload portal data with environment details defined through [profile variables](#use-deployment-profile) in *deployment-profiles/[profile-name].deployment.yaml* file<br/> - *modelVersion*: `1` or `2` to indicate if the site data to be uploaded uses the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2). |`pac pages upload --path "C:\portals\starter-portal" --deploymentProfile "profile-name" --modelVersion 2`|
 
 #### Use deployment profile
 
@@ -246,7 +246,7 @@ The **deploymentProfile** switch allows you to define a set of variables for the
 
 If you're creating test profile, you can create file under **deployment-profiles** with the name "test.deployment.yml" (that is, \<profileTag\>.deployment.yml). And you can run command with tag (\<profileTag\>) to use this profile:
 
-`pac paportal upload --path "C:\portals\starter-portal" --deploymentProfile test --modelVersion 2`
+`pac pages upload --path "C:\portals\starter-portal" --deploymentProfile test --modelVersion 2`
 
 In this file, you can have the table (entity) name with table ID, list of attributes, and the values that you want to override while uploading the portal configuration using the `deploymentProfile` parameter.
 
@@ -273,17 +273,17 @@ adx_contentsnippet:
 
 ## Manifest files
 
-When you download the website content using [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) CLI command, along with downloading the site content it also generates two manifest files;
+When you download the website content using [pac pages download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) CLI command, along with downloading the site content it also generates two manifest files;
 - Environment manifest file (org-url-manifest.yml)
 - Delete tracking manifest file (manifest.yml)
 
 ### Environment manifest file (org-url-manifest.yml)
 
-The environment manifest file is generated every time when the [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command is run.
+The environment manifest file is generated every time when the [pac pages download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command is run.
 
 After every download, the PAC CLI tool reads the existing environment manifest file and updates the entries deleted in the environment, or creates the environment manifest file if it doesn't exist.
 
-When you run the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command to upload the portal website content. It reads the environment manifest file and identifies the changes made since last download and only uploads the updated content. This helps in optimizing the upload process as only updated website content get uploaded, instead of uploading the all the content on every upload command.
+When you run the [pac pages upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command to upload the portal website content. It reads the environment manifest file and identifies the changes made since last download and only uploads the updated content. This helps in optimizing the upload process as only updated website content get uploaded, instead of uploading the all the content on every upload command.
 
 The environment manifest file is readonly when it connects to the same environment (environment URL matches with file name), to avoid accidental changes. 
 
@@ -295,12 +295,12 @@ The environment manifest file is readonly when it connects to the same environme
 
 This file is used for tracking the deleted records from the environment.
 
-When website content is downloaded with [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command, this adds the deleted records from [environment manifest file (org-url-manifest.yml)](#environment-manifest-file-org-url-manifestyml) to manifest.yml file. So, when you upload the website content using the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command it deletes the files from the environment (even to a different environment).
+When website content is downloaded with [pac pages download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command, this adds the deleted records from [environment manifest file (org-url-manifest.yml)](#environment-manifest-file-org-url-manifestyml) to manifest.yml file. So, when you upload the website content using the [pac pages upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command it deletes the files from the environment (even to a different environment).
 This file isn't deleted, and it gets used regardless which environment you're connected.
 This file needs to be considered when pushing changes to the source control in order to consider deleting items in the target environment.
 
 > [!NOTE]
-> In order to delete the site content records in one environment and also delete the same content records in another environment using the PAC CLI, you will need to run the [pac paportal download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command *before* and *after* the deleting the website record content. The manifest.yml will track these changes and remove the corresponding records in the target environment when the [pac paportal upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command is run.
+> In order to delete the site content records in one environment and also delete the same content records in another environment using the PAC CLI, you will need to run the [pac pages download](/power-platform/developer/cli/reference/paportal#pac-paportal-download) command *before* and *after* the deleting the website record content. The manifest.yml will track these changes and remove the corresponding records in the target environment when the [pac pages upload](/power-platform/developer/cli/reference/paportal#pac-paportal-upload) command is run.
 
 ## Use the Visual Studio Code extension
 
