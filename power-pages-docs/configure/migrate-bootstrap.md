@@ -83,7 +83,7 @@ Enter the following command to run the migration tool on the website folder that
 
 The command creates a folder with "V5" appended to the folder name.
 
-If you run into issues while upgrading to Bootstrap version 5 or want to revert to Bootstrap version 3, see [Revert from Bootstrap version 5 to version 3](#revert-from-bootstrap-version-5-to-version-3).
+If you run into issues while upgrading to Bootstrap version 5 or want to revert to Bootstrap version 3, see [How to revert from Bootstrap version 5 to version 3](#how-to-revert-from-bootstrap-version-5-to-version-3).
 
 ## Review your changes
 
@@ -111,7 +111,7 @@ After you upload the record, the migrated site is a Bootstrap version 5 website.
 
 [Clear the server-side cache for the metadata/configuration and data tables](../admin/clear-server-side-cache.md).
 
-## Revert from Bootstrap version 5 to version 3
+## How to revert from Bootstrap version 5 to version 3
 
 To revert to Bootstrap version 3:
 
