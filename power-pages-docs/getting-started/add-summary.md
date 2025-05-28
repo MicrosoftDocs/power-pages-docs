@@ -48,10 +48,14 @@ Update below settings to format and display the data summarization:
 
 1. To summarize title and comments columns of all feedback records:
 
-`feedback?$select=title,comments`
+    ```text
+    feedback?$select=title,comments
+    ```
 
 2. To summarize selected idea name, description, and all related active comments with column name description:
 
-`adx_ideas({{id}})?$select=name,description&$expand=adx_ideacomment($select=adx_comments,description;filter=statecode eq 0)`
+    ```text
+    adx_ideas({{id}})?$select=name,description&$expand=adx_ideacomment($select=adx_comments,description;filter=statecode eq 0)
+    ```
 
-whereas `{{id}}` is the query string parameter passed to the webpage.
+    whereas `{{id}}` is the query string parameter passed to the webpage.
