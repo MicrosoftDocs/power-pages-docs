@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider
 description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
-ms.date: 09/10/2024
+ms.date: 05/28/2025
 ms.topic: how-to
 author: DanaMartens
 ms.author: bipuldeora
@@ -98,7 +98,7 @@ Return to the Power Pages **Configure identity provider** page you left earlier 
 ### Additional settings in Power Pages
 
 The additional settings give you finer control over how users authenticate with your OpenID Connect identity provider. You don't need to set any of these values. They're entirely optional.
- 
+
 - **Issuer filter**: Enter a wildcard-based filter that matches on all issuers across all tenants; for example, `https://sts.windows.net/*/`. If you are using a Microsoft Entra ID auth provider, the issuer URL filter would be `https://login.microsoftonline.com/*/v2.0/`.
 
 - **Validate audience**: Turn on this setting to validate the audience during token validation.
@@ -110,6 +110,80 @@ The additional settings give you finer control over how users authenticate with 
 - **Valid issuers**: Enter a comma-separated list of issuer URLs.
 
 - **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information that's included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
+
+    User information can be provided in two ways:
+
+    - **ID Token Claims** – Basic user attributes like first name or email are in the token.
+  - **UserInfo Endpoint** – A secure API that returns detailed user information after authentication.
+
+  To use the UserInfo endpoint, create a [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) named **Authentication/OpenIdConnect/{ProviderName}/UseUserInfoEndpointforClaims** and set the value to **true**.
+
+  Optionally, create a site setting named **Authentication/OpenIdConnect/{ProviderName}/UserInfoEndpoint** and set the value to the UserInfo endpoint URL. If you don't provide this setting, Power Pages tries to find the endpoint from OIDC metadata.
+
+  **Error handling**:
+  
+  - If the endpoint URL isn't set and Power Pages can't find it in metadata, sign in continues and logs a warning.
+  - If the URL is set but isn't accessible, sign in continues with a warning.
+  - If the endpoint returns an authentication error (like 401 or 403), sign in continues with a warning that includes the error message.
+
+  **Mapping syntax:**
+
+  To use UserInfo claims in login or registration claim mappings, use this format:
+
+  fieldName = userinfo.claimName
+
+  If UseUserInfoEndpointforClaims isn't enabled, mappings that use the `userinfo.` prefix are ignored.
+
+- **acr_values**: The acr_values parameter lets identity providers enforce security assurance levels like multifactor authentication (MFA). It lets the app indicate the required authentication level.
+
+  To use the acr_values parameter, create a [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value as needed. When you set this, Power Pages includes the acr_values parameter in the authorization request.
+
+- **Dynamic authorization parameters**: Dynamic parameters let you tailor the authorization request for different usage contexts, like embedded apps or multiple tenant scenarios.
+
+  - **Prompt parameter**:
+
+    Controls whether the sign-in page or consent screen appears. To use this parameter, add a customization to send it as a query string parameter to the ExternalLogin endpoint.
+
+    **Supported values**:
+
+    - none
+    - login
+    - consent
+    - select_account
+
+    **URL format**:
+
+    `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&prompt={value}`
+
+    Power Pages sends this value to the identity provider in the prompt parameter. Power Pages doesn't validate the value to allow future extensibility.
+
+  - **Login hint parameter**:
+  
+    Lets you pass a known user identifier (like an email) to prefill or bypass sign-in screens. To use this parameter, add a customization to send it as a query string parameter to the ExternalLogin endpoint.
+
+    **URL format**:
+
+    `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&login_hint={value}`
+
+    This helps when users are already signed in through another identity, like Microsoft Entra ID or Microsoft account (MSA), in the same session.
+
+- **Custom authorization parameters**: Some identity providers support proprietary parameters for specific authorization behavior. Power Pages lets makers set up and pass these parameters securely.
+
+  To use custom authorization parameters, create a [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) named **Authorization/OpenIdConnect/{Provider}/AllowedDynamicAuthorizationParameters** and set the value to a comma-separated list of parameter names, like param1,param2,param3.
+
+  This setting defines a list of custom parameters that can be sent in the authorization request.
+
+  **Behavior**
+
+  - Pass parameters in the query string of the ExternalLogin endpoint.
+  - Power Pages includes only parameters in the list in the authorization request.
+  - Default parameters like prompt, login_hint, and ReturnUrl are always allowed and don't need to be listed.
+
+  **Example URL format**:
+
+  `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&custom_param=value`
+
+  If custom_param isn't in the list of allowed parameters, Power Pages ignores it.
 
 - **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.
 
