@@ -146,13 +146,13 @@ The additional settings give you finer control over how users authenticate with 
 > [!Note]
 > The *UI_Locales* request parameter is sent automatically in the authentication request and is set to the language selected on the portal.
 
-## Settings enabled by site settings
+## Control authorization parameters with site settings
 
-You can set the following options using [site settings](../../configure/configure-site-settings.md):
+Use [site settings](../../configure/configure-site-settings.md) to control the following authorization parameters:
 
 - **acr_values**: The acr_values parameter lets identity providers enforce security assurance levels like multifactor authentication (MFA). It lets the app indicate the required authentication level.
 
-  To use the acr_values parameter, create a [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value as needed. When you set this, Power Pages includes the acr_values parameter in the authorization request.
+  To use the acr_values parameter, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value as needed. When you set this, Power Pages includes the acr_values parameter in the authorization request.
 
 - **Dynamic authorization parameters**: Dynamic parameters let you tailor the authorization request for different usage contexts, like embedded apps or multiple tenant scenarios.
 
@@ -185,7 +185,7 @@ You can set the following options using [site settings](../../configure/configur
 
 - **Custom authorization parameters**: Some identity providers support proprietary parameters for specific authorization behavior. Power Pages lets makers set up and pass these parameters securely.
 
-  To use custom authorization parameters, create a [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) named **Authorization/OpenIdConnect/{Provider}/AllowedDynamicAuthorizationParameters** and set the value to a comma-separated list of parameter names, like param1,param2,param3.
+  To use custom authorization parameters, create a [site setting](../../configure/configure-site-settings.md) named **Authorization/OpenIdConnect/{Provider}/AllowedDynamicAuthorizationParameters** and set the value to a comma-separated list of parameter names, like param1,param2,param3.
 
   This setting defines a list of custom parameters that can be sent in the authorization request.
 
