@@ -116,6 +116,8 @@ To enable natural language filter on an existing list:
 1. Save your changes.
 
 The data list now enabled for natural language search on the list.
+> [!IMPORTANT]
+> - Your Power Pages site version must be 9.7.4.x or later for this feature to work.
 
 ### Key features
 - **Natural Language Queries:** Understands user intent from more then two-word queries.
