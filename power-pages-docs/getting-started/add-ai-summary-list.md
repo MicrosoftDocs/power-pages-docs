@@ -13,11 +13,15 @@ contributors:
     - tapanm
 ---
 
-# Add AI summary to list (preview)
+# Enable AI features for list (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The AI summary feature for list simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. The feature enhances user efficiency and makes it easier for users to analyze data. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights. The AI summary list provides easy-to-understand chart formats and concise data summaries.
+Power Pages offers AI-powered capabilities that enhance data list components with features such as AI-generated summaries, visual chart representations, and natural language (NL) filtering. These enhancements help users interpret data more effectively and uncover key insights with ease.
+
+The **AI summary** feature presents data in concise, easy-to-read summaries and charts, improving comprehension of complex datasets.
+
+The **AI-enhanced search** functionality supports natural language queries, traditional text-based searches, and dynamic in-line suggestions—enabling users to filter and explore data in a more intuitive and efficient manner.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
@@ -32,6 +36,8 @@ AI summary for list provides the following benefits:
 - **Data Summarization:** Automatically generated summaries offer high-level insights into your data, reducing the time spent on manual analysis.
 
 You can add AI summary on either a new or existing list.
+
+- **Natural Language Search:** Users can find data by typing queries in everyday language. Or use search suggestions to filter data by single click.
 
 ## Enable AI summary on a new list
 
@@ -90,6 +96,18 @@ When adding extra instructions, avoid the following:
 
 - Grouping data within the instructions. Example, *show top 5 products by order quantity.*
 - Applying filters, as this may lead to inaccurate summaries. Example, *show insights specific to the "Electronic" product category.*
+
+## Enable natural language filter for list
+
+Natural language (NL) filtering enhances list usability by allowing users to search and refine data using intuitive, conversational queries or specific text formats.
+
+### Key features
+- **Natural Language Queries:** Understands user intent from more then two-word queries.
+_Example:_ `Orders from last week over 500 dollars`
+
+- **Text-Based Search:** Search strings with two words or fewer will do a text search (previous functionality). To do a Copilot search, use more than two words. To perform a text search for more than two words, enclose the search term in single or double quotes.
+
+Dynamic Suggestions: Displays filter suggestions as users type and allows applying them with a single click.
 
 ## Limitations
 
