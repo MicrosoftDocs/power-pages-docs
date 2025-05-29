@@ -35,9 +35,9 @@ AI summary for list provides the following benefits:
 
 - **Data Summarization:** Automatically generated summaries offer high-level insights into your data, reducing the time spent on manual analysis.
 
-You can add AI summary on either a new or existing list.
-
 - **Natural Language Search:** Users can find data by typing queries in everyday language. Or use search suggestions to filter data by single click.
+
+You can enable AI summary and Natural Language Search on either a new or existing list.
 
 ## Enable AI summary on a new list
 
@@ -97,17 +97,29 @@ When adding extra instructions, avoid the following:
 - Grouping data within the instructions. Example, *show top 5 products by order quantity.*
 - Applying filters, as this may lead to inaccurate summaries. Example, *show insights specific to the "Electronic" product category.*
 
-## Enable natural language filter for list
+## Enable natural language search for list
 
-Natural language (NL) filtering enhances list usability by allowing users to search and refine data using intuitive, conversational queries or specific text formats.
+Natural language (NL) search enhances list usability by allowing users to search and refine data using intuitive, conversational queries or specific text formats. 
+
+To enable natural language filter on an existing list:
+
+1. Select the existing list on the page.
+
+1. Select **Edit List** and navigate to **More options**.
+
+1. In the **More options**, locate the **Enable search in this list** option.
+
+1. Toggle the option to **On** and make sure **Search with natural language** is **On**.
+
+1. Save your changes.
+
+The data list now enabled for natural language search on the list.
 
 ### Key features
 - **Natural Language Queries:** Understands user intent from more then two-word queries.
 _Example:_ `Orders from last week over 500 dollars`
 
 - **Text-Based Search:** Search strings with two words or fewer will do a text search (previous functionality). To do a Copilot search, use more than two words. To perform a text search for more than two words, enclose the search term in single or double quotes.
-
-Dynamic Suggestions: Displays filter suggestions as users type and allows applying them with a single click.
 
 ## Limitations
 
