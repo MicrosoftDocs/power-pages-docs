@@ -113,7 +113,7 @@ The additional settings give you finer control over how users authenticate with 
 
     User information can be provided in two ways:
 
-    - **ID Token Claims** – Basic user attributes like first name or email are in the token.
+  - **ID Token Claims** – Basic user attributes like first name or email are in the token.
   - **UserInfo Endpoint** – A secure API that returns detailed user information after authentication.
 
   To use the UserInfo endpoint, create a [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) named **Authentication/OpenIdConnect/{ProviderName}/UseUserInfoEndpointforClaims** and set the value to **true**.
@@ -133,6 +133,22 @@ The additional settings give you finer control over how users authenticate with 
   fieldName = userinfo.claimName
 
   If UseUserInfoEndpointforClaims isn't enabled, mappings that use the `userinfo.` prefix are ignored.
+
+- **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.
+
+- **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting.
+
+- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
+
+  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
+  - **Off**
+
+> [!Note]
+> The *UI_Locales* request parameter is sent automatically in the authentication request and is set to the language selected on the portal.
+
+## Settings enabled by site settings
+
+The following additional settings can be configured using [site settings](../../configure/configure-site-settings.md):
 
 - **acr_values**: The acr_values parameter lets identity providers enforce security assurance levels like multifactor authentication (MFA). It lets the app indicate the required authentication level.
 
@@ -184,18 +200,6 @@ The additional settings give you finer control over how users authenticate with 
   `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&custom_param=value`
 
   If custom_param isn't in the list of allowed parameters, Power Pages ignores it.
-
-- **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.
-
-- **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting.
-
-- **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
-
-  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
-  - **Off**
-
-> [!Note]
-> The *UI_Locales* request parameter is sent automatically in the authentication request and is set to the language selected on the portal.
 
 ### See also
 
