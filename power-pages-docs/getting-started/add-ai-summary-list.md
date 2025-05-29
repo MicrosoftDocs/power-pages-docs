@@ -107,6 +107,8 @@ To enable natural language filter on an existing list:
 
 1. Select **Edit List** and navigate to **More options**.
 
+   :::image type="content" source="media/add-ai-summary-list/enable-nl-search-in-list.png" alt-text="Screenshot that shows the list settings from the **More options** tab.":::
+
 1. In the **More options**, locate the **Enable search in this list** option.
 
 1. Toggle the option to **On** and make sure **Search with natural language** is **On**.
