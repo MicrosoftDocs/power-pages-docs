@@ -148,7 +148,7 @@ The additional settings give you finer control over how users authenticate with 
 
 ## Settings enabled by site settings
 
-The following additional settings can be configured using [site settings](../../configure/configure-site-settings.md):
+You can set the following options using [site settings](../../configure/configure-site-settings.md):
 
 - **acr_values**: The acr_values parameter lets identity providers enforce security assurance levels like multifactor authentication (MFA). It lets the app indicate the required authentication level.
 
