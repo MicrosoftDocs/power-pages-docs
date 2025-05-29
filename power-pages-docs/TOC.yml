@@ -278,6 +278,8 @@
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
+    - name: Copilot hub (preview)
+      href: admin/copilot-hub.md
     - name: Configure website actions
       items:
         - name: Download public key
@@ -620,6 +622,8 @@
           href: configure/power-platform-cli-tutorial.md
         - name: Power Platform CLI solution management (preview)
           href: configure/power-platform-cli-solution-management.md
+        - name: Create a single-page application (preview)
+          href: configure/create-code-sites.md
     - name: Use Visual Studio Code
       items:
         - name: Use Visual Studio Code desktop for Power Pages

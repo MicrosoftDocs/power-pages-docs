@@ -2,7 +2,7 @@
 title: Migrate existing sites to Bootstrap version 5
 description: Learn how to migrate your existing Power Pages sites to Bootstrap version 5 with the help of the Microsoft Power Platform CLI.
 ms.topic: how-to
-ms.date: 01/31/2025
+ms.date: 05/28/2025
 ms.subservice:
 author: GitanjaliSingh33msft
 ms.author: gisingh
@@ -39,7 +39,7 @@ Since the migration steps require the use of the Microsoft Power Platform CLI, b
 
 - [Microsoft Power Platform CLI support for Power Pages](power-platform-cli.md)
 - [Tutorial: Use Microsoft Power Platform CLI with Power Pages](power-platform-cli-tutorial.md)
-- [`pac powerpages`](/power-platform/developer/cli/reference/powerpages)
+- [`pac pages`](/power-platform/developer/cli/reference/pages)
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ Since the migration steps require the use of the Microsoft Power Platform CLI, b
 
 ## Download the website folder
 
-Starting with Microsoft Power Platform CLI version 1.27, the `pac paportal` command changed to `pac powerpages`. `paportal` still works, but we recommend that you use `powerpages` going forward. That's the form we use in the following instructions. If you're using Microsoft Power Platform CLI version 1.26.6, make sure that you use `pac paportal` instead of `pac powerpages`.
+Starting with Microsoft Power Platform CLI version 1.27, the `pac paportal` command changed to `pac pages`. `paportal` still works, but we recommend that you use `powerpages` going forward. That's the form we use in the following instructions. If you're using Microsoft Power Platform CLI version 1.26.6, make sure that you use `pac paportal` instead of `pac pages`.
 
 1. Open a command prompt.
 
@@ -61,31 +61,29 @@ Starting with Microsoft Power Platform CLI version 1.27, the `pac paportal` comm
 
     More information: [`pac auth create`](/power-platform/developer/cli/reference/auth)
 
-1. Enter the following command to generate a list of websites in the organization: `pac powerpages list`
+1. Enter the following command to generate a list of websites in the organization: `pac pages list`
 
     Note the **WebSiteId** of the site you plan to migrate.
 
-    More information: [`pac powerpages list`](/power-platform/developer/cli/reference/powerpages#pac-powerpages-list)
+    More information: [`pac pages list`](/power-platform/developer/cli/reference/pages#pac-pages-list)
 
-1. Enter the following command to download the website folder: `pac powerpages download --path [PATH] -id [WebSiteId-GUID]`
+1. Enter the following command to download the website folder: `pac pages download --path [PATH] -id [WebSiteId-GUID]`
 
-    **Example**: `pac powerpages download --path "c:\pac-powerpages\downloads" -id d44574f9-acc3-4ccc-8d8d-85cf5b7ad141`
+    **Example**: `pac pages download --path "c:\pac-powerpages\downloads" -id d44574f9-acc3-4ccc-8d8d-85cf5b7ad141`
 
     For the **id** parameter, use the **WebSiteId** that you noted in the previous step.
 
-    More information: [`pac powerpages download`](/power-platform/developer/cli/reference/powerpages#pac-powerpages-download)
+    More information: [`pac pages download`](/power-platform/developer/cli/reference/pages#pac-pages-download)
 
 ## Run the migration tool on the folder
 
-Enter the following command to run the migration tool on the website folder that you downloaded: `pac powerpages bootstrap-migrate -p "WebsiteFolderPath"`
+Enter the following command to run the migration tool on the website folder that you downloaded: `pac pages bootstrap-migrate -p "WebsiteFolderPath"`
 
-**Example**: `pac powerpages bootstrap-migrate -p "c:\pac-powerpages\downloads\bootstrap-dev-site"`
+**Example**: `pac pages bootstrap-migrate -p "c:\pac-powerpages\downloads\bootstrap-dev-site"`
 
 The command creates a folder with "V5" appended to the folder name.
 
-To revert to version 3 from Bootstrap version 5, use the [upload command](#upload-the-migrated-website-record) to replace the version 5 folder with a Bootstrap version 3 folder.
-
-More information: [`pac powerpages bootstrap-migrate`](/power-platform/developer/cli/reference/powerpages#pac-powerpages-bootstrap-migrate)
+If you run into issues while upgrading to Bootstrap version 5 or want to revert to Bootstrap version 3, see [How to revert from Bootstrap version 5 to version 3](#how-to-revert-from-bootstrap-version-5-to-version-3).
 
 ## Review your changes
 
@@ -101,17 +99,25 @@ If you created a copy of your site before you migrated it, compare it with the v
 
 ## Upload the migrated website record
 
-Enter the following command to upload the migrated website record to the organization: `pac powerpages upload --path [Folder-location]`
+Enter the following command to upload the migrated website record to the organization: `pac pages upload --path [Folder-location]`
 
-**Example**: `pac powerpages upload --path C:\pac-portals\downloads\custom-portal\`
+**Example**: `pac pages upload --path C:\pac-portals\downloads\custom-portal\`
 
-More information: [`pac powerpages upload`](/power-platform/developer/cli/reference/powerpages#pac-powerpages-upload)
+More information: [`pac pages upload`](/power-platform/developer/cli/reference/pages#pac-pages-upload)
 
 After you upload the record, the migrated site is a Bootstrap version 5 website. We recommend that you [compare the site with your version 3 site](#review-your-changes) one more time, and modify the Bootstrap version 5 site as needed.
 
 ## Clear the server-side cache
 
 [Clear the server-side cache for the metadata/configuration and data tables](../admin/clear-server-side-cache.md).
+
+## How to revert from Bootstrap version 5 to version 3
+
+To revert to Bootstrap version 3:
+
+1. Run the [upload command](migrate-bootstrap.md) to replace the version 5 folder with a Bootstrap version 3 folder. Learn more in [pac pages bootstrap-migrate](/power-platform/developer/cli/reference/pages#pac-pages-bootstrap-migrate).
+1. Open the [Portal Management app](portal-management-app.md) and delete the **Site/BootstrapV5Enabled** site setting. Learn more in [Configure site settings for websites](configure-site-settings.md).
+1. Clear the server-side cache. Learn more in [How server-side caching works in Power Pages](../admin/clear-server-side-cache.md).
 
 ### See also
 
