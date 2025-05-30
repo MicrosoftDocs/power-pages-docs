@@ -146,19 +146,19 @@ The additional settings give you finer control over how users authenticate with 
 > [!Note]
 > The *UI_Locales* request parameter is sent automatically in the authentication request and is set to the language selected on the portal.
 
-## Control authorization parameters with site settings
+## Other authorization parameters
 
-Use [site settings](../../configure/configure-site-settings.md) to control the following authorization parameters:
+You can use the following authorization parameters, but you don't set them within the OpenID Connect provider in Power Pages:
 
 - **acr_values**: The acr_values parameter lets identity providers enforce security assurance levels like multifactor authentication (MFA). It lets the app indicate the required authentication level.
 
-  To use the acr_values parameter, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value as needed. When you set this, Power Pages includes the acr_values parameter in the authorization request.
+  To use the acr_values parameter, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value you need. When you set this, Power Pages includes the acr_values parameter in the authorization request.
 
 - **Dynamic authorization parameters**: Dynamic parameters let you tailor the authorization request for different usage contexts, like embedded apps or multiple tenant scenarios.
 
   - **Prompt parameter**:
 
-    Controls whether the sign-in page or consent screen appears. To use this parameter, add a customization to send it as a query string parameter to the ExternalLogin endpoint.
+    This parameter controls whether the sign-in page or consent screen appears. To use it, add a customization to send it as a query string parameter to the ExternalLogin endpoint.
 
     **Supported values**:
 
@@ -171,11 +171,11 @@ Use [site settings](../../configure/configure-site-settings.md) to control the f
 
     `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&prompt={value}`
 
-    Power Pages sends this value to the identity provider in the prompt parameter. Power Pages doesn't validate the value to allow future extensibility.
+    Power Pages sends this value to the identity provider in the prompt parameter. 
 
   - **Login hint parameter**:
   
-    Lets you pass a known user identifier (like an email) to prefill or bypass sign-in screens. To use this parameter, add a customization to send it as a query string parameter to the ExternalLogin endpoint.
+    This parameter lets you pass a known user identifier, like an email, to prefill or bypass sign-in screens. To use it, add a customization to send it as a query string parameter to the ExternalLogin endpoint.
 
     **URL format**:
 
@@ -183,9 +183,9 @@ Use [site settings](../../configure/configure-site-settings.md) to control the f
 
     This helps when users are already signed in through another identity, like Microsoft Entra ID or Microsoft account (MSA), in the same session.
 
-- **Custom authorization parameters**: Some identity providers support proprietary parameters for specific authorization behavior. Power Pages lets makers set up and pass these parameters securely.
+- **Custom authorization parameters**: Some identity providers support proprietary parameters for specific authorization behavior. Power Pages lets makers set up and pass these parameters securely. To use these parameters, add a customization to send them as query string parameters to the ExternalLogin endpoint.
 
-  To use custom authorization parameters, create a [site setting](../../configure/configure-site-settings.md) named **Authorization/OpenIdConnect/{Provider}/AllowedDynamicAuthorizationParameters** and set the value to a comma-separated list of parameter names, like param1,param2,param3.
+  Create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{Provider}/AllowedDynamicAuthorizationParameters** and set the value to a comma-separated list of parameter names, like param1,param2,param3.
 
   This setting defines a list of custom parameters that can be sent in the authorization request.
 
