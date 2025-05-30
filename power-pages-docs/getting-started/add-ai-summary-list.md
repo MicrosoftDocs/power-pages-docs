@@ -3,7 +3,7 @@ title: Add AI summary to list (preview)
 description: Learn more about how the AI summary list feature works to simplify and summarize data in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 03/13/2025
+ms.date: 05/29/2025
 ms.author: nenandw
 ms.reviewer: dmartens
 ms.collection:
@@ -13,11 +13,15 @@ contributors:
     - tapanm
 ---
 
-# Add AI summary to list (preview)
+# Enable AI features for list (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The AI summary feature for list simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. The feature enhances user efficiency and makes it easier for users to analyze data. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights. The AI summary list provides easy-to-understand chart formats and concise data summaries.
+Power Pages offers AI-powered capabilities that enhance data list components with features like AI-generated summaries, visual chart representations, and natural language (NL) filtering. These enhancements help you interpret data more effectively and uncover key insights easily.
+
+The **AI summary** feature shows data in concise, easy-to-read summaries and charts, so you can better understand complex datasets.
+
+The **AI-enhanced search** functionality supports natural language queries, traditional text-based searches, and dynamic inline suggestions. You can filter and explore data in a more intuitive and efficient way.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
@@ -27,11 +31,13 @@ This guide walks you through enabling and configuring the AI-powered insights fo
 
 AI summary for list provides the following benefits:
 
-- **Chart Visualizations:** The feature converts complex data lists into graphical charts, making trends and key data points more accessible and easier to understand.
+- **Chart visualizations:** The feature converts complex data lists into graphical charts, making trends and key data points more accessible and easier to understand.
 
-- **Data Summarization:** Automatically generated summaries offer high-level insights into your data, reducing the time spent on manual analysis.
+- **Data summarization:** Automatically generated summaries offer high-level insights into your data, reducing the time spent on manual analysis.
 
-You can add AI summary on either a new or existing list.
+- **Natural language Search:** Find data by typing queries in everyday language, or use search suggestions to filter data with a single click.
+
+You can enable AI summary and Natural Language Search on either a new or existing list.
 
 ## Enable AI summary on a new list
 
@@ -45,9 +51,9 @@ To enable AI summary on a new list:
 
    :::image type="content" source="media/add-ai-summary-list/list-settings.png" alt-text="Screenshot that shows the list settings from the **Set up** tab.":::
 
-   1. Complete the configuration and select **Done**.
+1. Complete the configuration and select **Done**.
 
-   Once AI summary list is turned on, the data lists automatically provide AI-driven summaries and visual representations of the data, allowing for a more intuitive and insightful user experience.
+Once AI summary list is turned on, the data lists automatically provide AI-driven summaries and visual representations of the data, allowing for a more intuitive and insightful user experience.
 
 ## Enable AI summary for an existing list
 
@@ -72,16 +78,17 @@ The data list now includes automatically generated summaries and chart visualiza
 To customize an AI-generated summary:
 
 1. Select the AI card within the list.
-   
+
 1. Navigate to **Insights** to access customization options.
+
    :::image type="content" source="media/add-ai-summary-list/list-ai-insights-settings.png" alt-text="Screenshot that shows the AI insights settings from the **Insights** tab.":::
-   
+
 1. Toggle the **Keep insights expanded** option ON or OFF to control whether the AI card remains expanded or collapsed by default when the page loads.
-   
+
 1. Modify the AI card **Title** to replace the default title with a custom one.
-   
+
 1. Provide **Additional Instructions** to refine the AI's insights or influence data visualization.
-   
+
 1. Define **Chart Type** preferences, to allow AI to select the most suitable visualization for displaying the data.
 
 ### Guidelines for additional instructions
@@ -90,6 +97,36 @@ When adding extra instructions, avoid the following:
 
 - Grouping data within the instructions. Example, *show top 5 products by order quantity.*
 - Applying filters, as this may lead to inaccurate summaries. Example, *show insights specific to the "Electronic" product category.*
+
+## Enable natural language search for list
+
+Natural language (NL) search enhances list usability by allowing users to search and refine data using intuitive, conversational queries, or specific text formats.
+
+To enable natural language filter on an existing list:
+
+1. Select the existing list on the page.
+
+1. Select **Edit List** > **More options**.
+
+1. In **More options**, find the **Enable search in this list** option.
+
+1. Turn on the option and make sure **Search with natural language** is also **On**.
+
+   :::image type="content" source="media/add-ai-summary-list/enable-nl-search-in-list.png" alt-text="Screenshot of the list settings in the **More options** tab.":::
+
+1. Save your changes.
+
+The list now lets you use natural language search.
+
+> [!IMPORTANT]
+> - Your Power Pages site version must be 9.7.4.x or later for this feature to work.
+
+### Key features
+
+- **Natural language queries:** Understands what you mean from queries with more than two words.
+  For example, `Orders from last week over 500 dollars`.
+
+- **Text-based search:** If you enter two words or fewer, the list does a text search. To use Copilot search, enter more than two words. To do a text search with more than two words, put the search term in single or double quotes.
 
 ## Limitations
 
