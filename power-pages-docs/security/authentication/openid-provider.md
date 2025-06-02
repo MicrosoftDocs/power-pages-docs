@@ -187,6 +187,12 @@ You can use the following authorization parameters, but you don't set them withi
 
   Create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{Provider}/AllowedDynamicAuthorizationParameters** and set the value to a comma-separated list of parameter names, like param1,param2,param3.
 
+  **Example URL format**:
+
+  `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&param1=value&param2=value&param3=value`
+
+  If any of the params (param1 or param2 or param3) isn't in the list of allowed parameters, Power Pages ignores it.
+
   This setting defines a list of custom parameters that can be sent in the authorization request.
 
   **Behavior**
