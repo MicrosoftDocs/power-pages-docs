@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider
 description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
-ms.date: 05/28/2025
+ms.date: 06/02/2025
 ms.topic: how-to
 author: DanaMartens
 ms.author: bipuldeora
@@ -33,13 +33,13 @@ OpenID Connect providers [Azure AD B2C](azure-ad-b2c-provider.md), [Microsoft En
   - PKCE&ndash;based techniques to authenticate users aren't supported.
 
 > [!NOTE]
-> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
+> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes right away, restart the site in the [admin center](../../admin/admin-overview.md).
 
 ## Set up the OpenID Connect provider in Power Pages
 
 1. In your Power Pages site, select **Security** > **Identity providers**.
 
-    If no identity providers appear, make sure **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
+    If no identity providers appear, check that **External login** is set to **On** in your site's [general authentication settings](configure-site.md#select-general-authentication-settings).
 
 1. Select **+ New provider**.
 
@@ -49,13 +49,13 @@ OpenID Connect providers [Azure AD B2C](azure-ad-b2c-provider.md), [Microsoft En
 
 1. Enter a name for the provider.
 
-    The provider name is the text on the button that users see when they select their identity provider on the sign-in page.
+    The provider name is the text on the button users see when they select their identity provider on the sign-in page.
 
 1. Select **Next**.
 
 1. Under **Reply URL**, select **Copy**.
 
-    Don't close your Power Pages browser tab. You'll return to it soon.
+    Don't close your Power Pages browser tab. You return to it soon.
 
 ## Create an app registration in the identity provider
 
@@ -148,11 +148,11 @@ The additional settings give you finer control over how users authenticate with 
 
 ## Other authorization parameters
 
-You can use the following authorization parameters, but you don't set them within the OpenID Connect provider in Power Pages:
+Use the following authorization parameters, but don't set them within the OpenID Connect provider in Power Pages:
 
 - **acr_values**: The acr_values parameter lets identity providers enforce security assurance levels like multifactor authentication (MFA). It lets the app indicate the required authentication level.
 
-  To use the acr_values parameter, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value you need. When you set this, Power Pages includes the acr_values parameter in the authorization request.
+  To use the acr_values parameter, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value you need. When you set this value, Power Pages includes the acr_values parameter in the authorization request.
 
 - **Dynamic authorization parameters**: Dynamic parameters let you tailor the authorization request for different usage contexts, like embedded apps or multiple tenant scenarios.
 
@@ -181,7 +181,7 @@ You can use the following authorization parameters, but you don't set them withi
 
     `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&login_hint={value}`
 
-    This helps when users are already signed in through another identity, like Microsoft Entra ID or Microsoft account (MSA), in the same session.
+    This helps when users are already signed in through another identity, like Microsoft Entra ID or a Microsoft account (MSA), in the same session.
 
 - **Custom authorization parameters**: Some identity providers support proprietary parameters for specific authorization behavior. Power Pages lets makers set up and pass these parameters securely. To use these parameters, add a customization to send them as query string parameters to the ExternalLogin endpoint.
 
@@ -191,7 +191,7 @@ You can use the following authorization parameters, but you don't set them withi
 
   `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&param1=value&param2=value&param3=value`
 
-  If any of the params (param1 or param2 or param3) isn't in the list of allowed parameters, Power Pages ignores it.
+  If any of the parameters (param1, param2, or param3) isn't in the list of allowed parameters, Power Pages ignores it.
 
   This setting defines a list of custom parameters that can be sent in the authorization request.
 
