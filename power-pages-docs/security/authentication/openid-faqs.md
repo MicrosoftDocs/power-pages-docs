@@ -1,7 +1,7 @@
 ---
 title: FAQs about using OpenID Connect in Power Pages
 description: Get answers to frequently asked questions about using OpenID Connect providers for authentication on sites you create with Microsoft Power Pages.
-ms.date: 07/19/2023
+ms.date: 05/28/2025
 ms.topic: faq
 author: DanaMartens
 ms.author: bipuldeora
@@ -24,14 +24,6 @@ If your identity provider doesn't provide an autodiscovery document, you can cre
 
 > [!NOTE]
 > Similar to the discovery document, Power Pages also requires the identity provider to provide a public *JWKS URI* endpoint where the public keys are available to verify the signature of the ID token. This endpoint needs to be specified in the discovery document as the *jwks_uri* key.
-
-## Does Power Pages support *acr_values* request parameters in the authentication requests?
-
-Power Pages doesn't support *acr_values* request parameters in authorization requests. However, Power Pages authentication does support all the required and recommended request parameters defined in the [OpenID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html#AuthRequest). The following optional parameters are also supported:
-
-- Response_mode
-- Nonce
-- UI_Locales
 
 ## Does Power Pages support custom scope parameters in authentication requests?
 
