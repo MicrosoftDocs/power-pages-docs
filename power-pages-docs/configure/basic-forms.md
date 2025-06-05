@@ -5,7 +5,7 @@ author: DanaMartens
 
 ms.topic: concept-article
 ms.custom: 
-ms.date: 05/03/2024
+ms.date: 06/05/2025
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: dmartens
@@ -236,6 +236,7 @@ To disable request validation, follow these steps:
 - If you create a basic form in the **Insert** mode, you can't change a button's alignment or place an action button above the basic form.
 - If you render a lookup control as a dropdown list on the form, the related records filter doesn't work.
 - Rollup columns on forms might sometimes show up as editable although they're intended to be read-only. To ensure that these columns remain read-only, mark the column as **Read-only** on the Dataverse form.
+- Power Pages doesn't support hidden choice values. For more information, see [Create a global choice within a solution](/power-apps/maker/data-platform/custom-picklists#create-a-global-choice-within-a-solution).
 
 ### See also
 
