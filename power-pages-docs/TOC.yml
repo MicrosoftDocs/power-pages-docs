@@ -252,6 +252,8 @@
           href: security/security-scan.md
         - name: Advanced settings (preview)
           href: security/advanced-settings.md
+        - name: Power pages security agent
+          href: security/security-agent.md
     - name: Collaborate in design studio
       items:
         - name: Copresence in design studio
