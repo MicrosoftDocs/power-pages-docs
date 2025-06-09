@@ -180,6 +180,8 @@
                   href: getting-started/add-iframe.md
                 - name: Add search (preview)
                   href: getting-started/add-search.md
+                - name: Add summary
+                  href: getting-started/add-summary.md
                 - name: Add a flex container
                   href: getting-started/add-flex-container.md
                 - name: Add a card gallery

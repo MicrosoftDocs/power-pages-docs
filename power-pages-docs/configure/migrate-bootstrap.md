@@ -2,7 +2,7 @@
 title: Migrate existing sites to Bootstrap version 5
 description: Learn how to migrate your existing Power Pages sites to Bootstrap version 5 with the help of the Microsoft Power Platform CLI.
 ms.topic: how-to
-ms.date: 01/31/2025
+ms.date: 05/28/2025
 ms.subservice:
 author: GitanjaliSingh33msft
 ms.author: gisingh
@@ -83,9 +83,7 @@ Enter the following command to run the migration tool on the website folder that
 
 The command creates a folder with "V5" appended to the folder name.
 
-To revert to version 3 from Bootstrap version 5, use the [upload command](#upload-the-migrated-website-record) to replace the version 5 folder with a Bootstrap version 3 folder.
-
-More information: [`pac pages bootstrap-migrate`](/power-platform/developer/cli/reference/pages#pac-pages-bootstrap-migrate)
+If you run into issues while upgrading to Bootstrap version 5 or want to revert to Bootstrap version 3, see [How to revert from Bootstrap version 5 to version 3](#how-to-revert-from-bootstrap-version-5-to-version-3).
 
 ## Review your changes
 
@@ -112,6 +110,14 @@ After you upload the record, the migrated site is a Bootstrap version 5 website.
 ## Clear the server-side cache
 
 [Clear the server-side cache for the metadata/configuration and data tables](../admin/clear-server-side-cache.md).
+
+## How to revert from Bootstrap version 5 to version 3
+
+To revert to Bootstrap version 3:
+
+1. Run the [upload command](migrate-bootstrap.md) to replace the version 5 folder with a Bootstrap version 3 folder. Learn more in [pac pages bootstrap-migrate](/power-platform/developer/cli/reference/pages#pac-pages-bootstrap-migrate).
+1. Open the [Portal Management app](portal-management-app.md) and delete the **Site/BootstrapV5Enabled** site setting. Learn more in [Configure site settings for websites](configure-site-settings.md).
+1. Clear the server-side cache. Learn more in [How server-side caching works in Power Pages](../admin/clear-server-side-cache.md).
 
 ### See also
 
