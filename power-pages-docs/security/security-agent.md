@@ -9,9 +9,13 @@ ms.author: smurkute
 ms.reviewer: smurkute
 ---
 
-## Power Pages security agent
+# Power Pages security agent
 
-Power Pages security agent (preview) is an AI-powered feature built into the Power Pages design studio. It helps makers proactively secure their websites with minimal manual effort. The Security Agent works in the background to scan your website for common vulnerabilities, monitor live traffic patterns for anomalies, and guide you through resolving issues as they arise.
+Power Pages security agent (preview) is an AI-powered feature built into the Power Pages design studio. 
+
+## Overview
+
+The security agent helps makers proactively secure their websites with minimal manual effort. The Security Agent works in the background to scan your website for common vulnerabilities, monitor live traffic patterns for anomalies, and guide you through resolving issues as they arise.
 
 Whether you are new to web security or a seasoned admin, the security agent simplifies how you protect your external-facing sites with built-in intelligence, guided fixes, and real-time alerts, all without leaving the studio.
 
