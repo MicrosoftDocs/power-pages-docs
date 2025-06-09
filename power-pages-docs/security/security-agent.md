@@ -1,7 +1,8 @@
 ---
-title: Power Pages security agent
-description: Power Pages security agent helps secure websites with automated vulnerability scans, real-time traffic monitoring, and guided mitigation workflows.
+title: Security agent (preview)
+description: Security agent in Power Pages helps secure websites with automated vulnerability scans, real-time traffic monitoring, and guided mitigation workflows.
 author: shwetamurkute
+ms.author: bipuldeora
 contributors:
 ms.topic: concept-article
 ms.date: 06/09/2025
@@ -9,18 +10,15 @@ ms.author: smurkute
 ms.reviewer: smurkute
 ---
 
-# Power Pages security agent
+# Security agent (preview)
 
-Power Pages security agent (preview) is an AI-powered feature built into the Power Pages design studio. 
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-## Overview
-
-The security agent helps makers proactively secure their websites with minimal manual effort. The Security Agent works in the background to scan your website for common vulnerabilities, monitor live traffic patterns for anomalies, and guide you through resolving issues as they arise.
+Security agent in Power Pages is an AI-powered feature built into the Power Pages design studio. The security agent helps makers proactively secure their websites with minimal manual effort. The Security Agent works in the background to scan your website for common vulnerabilities, monitor live traffic patterns for anomalies, and guide you through resolving issues as they arise.
 
 Whether you are new to web security or a seasoned admin, the security agent simplifies how you protect your external-facing sites with built-in intelligence, guided fixes, and real-time alerts, all without leaving the studio.
 
-> [!NOTE]
-> This feature is in **public preview** and will continue to evolve based on feedback.
+[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## Capabilities
 
@@ -40,21 +38,19 @@ The Power Pages website with security agent is designed to work behind the scene
 
 ### 1. Configure the security agent
 
-From the **Security Agent** tab in the Design Studio’s Security workspace, makers can:
+From the Power Pages design studio, go to the security workspace and choose **Security Agent** tab:
 
 - Choose which capabilities to enable, such as automated scanning or traffic monitoring.
+  :::image type="content" source="media/security-agent/security-agent-option.png" alt-text="Screenshot of the security agent configuration tab in Power Pages design studio.":::
 
 - Select how to receive alerts, via in-product notifications, email, or Microsoft Teams.
+  :::image type="content" source="media/security-agent/monitor-site-traffic.png" alt-text="Screenshot of security agent configuration options in Power Pages showing details of site traffic.":::
 
 This setup ensures the agent runs only what’s needed and notifies makers through their preferred channel.
 
-:::image type="content" source="media/security-agent/security-agent-option.png" alt-text="Screenshot of the security agent configuration tab in Power Pages design studio.":::
-
-:::image type="content" source="media/security-agent/monitor-site-traffic.png" alt-text="Screenshot of security agent configuration options in Power Pages showing details of site traffic.":::
-
 ### 2. Detect vulnerabilities or anomalies
 
-Once enabled:
+Once enabled, the security agent runs the following actions:
 
 - **Automated scans** run every two weeks using the ZAP engine and check against 37 OWASP-based rules.
 
@@ -70,11 +66,11 @@ All alerts appear in the **Overview** screen. For each alert:
 
 - Makers are shown **one or more recommended actions** based on the issue type
 
-:::image type="content" source="media/security-agent/alerts-overview-screen.png" alt-text="Screenshot of Security Agent alert overview and guided fix flow in Power Pages.":::
+  :::image type="content" source="media/security-agent/alerts-overview-screen.png" alt-text="Screenshot of Security Agent alert overview and guided fix flow in Power Pages.":::
 
 ### 4. Apply fixes directly in the studio
 
-Makers can:
+You can perform the following actions based on the findings through the security agent and fix them:
 
 - Review plain-language explanations for each recommendation.
 
@@ -84,6 +80,10 @@ Makers can:
 
 Each fix applied updates the alert status and helps keep the site secure.
 
+### Related content
 
+- [Security workspace](use-security-workspace.md)
+- [Run security scan (preview)](security-scan.md)
+- [Advanced security settings (preview)](advanced-settings.md)
 
 
