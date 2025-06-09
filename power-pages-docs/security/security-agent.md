@@ -6,7 +6,6 @@ ms.author: bipuldeora
 contributors:
 ms.topic: concept-article
 ms.date: 06/09/2025
-ms.author: smurkute
 ms.reviewer: smurkute
 ---
 
@@ -43,7 +42,7 @@ From the Power Pages design studio, go to the security workspace and choose **Se
 - Choose which capabilities to enable, such as automated scanning or traffic monitoring.
   :::image type="content" source="media/security-agent/security-agent-option.png" alt-text="Screenshot of the security agent configuration tab in Power Pages design studio.":::
 
-- Select how to receive alerts, via in-product notifications, email, or Microsoft Teams.
+- Select how to receive alerts, using in-product notifications, email, or Microsoft Teams.
   :::image type="content" source="media/security-agent/monitor-site-traffic.png" alt-text="Screenshot of security agent configuration options in Power Pages showing details of site traffic.":::
 
 This setup ensures the agent runs only what’s needed and notifies makers through their preferred channel.
@@ -84,6 +83,4 @@ Each fix applied updates the alert status and helps keep the site secure.
 
 - [Security workspace](use-security-workspace.md)
 - [Run security scan (preview)](security-scan.md)
-- [Advanced security settings (preview)](advanced-settings.md)
-
-
+- [Advanced security settings (preview)](/power-pages/getting-started/use-security-workspace)
