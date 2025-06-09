@@ -34,6 +34,8 @@
       href: getting-started/developer-sites.md
     - name: Get started with design studio
       href: getting-started/use-design-studio.md
+    - name: Use action center
+      href: getting-started/action-center.md
     - name: Templates
       items:
         - name: Create sites using templates
