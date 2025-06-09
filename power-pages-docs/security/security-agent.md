@@ -1,6 +1,6 @@
 ---
-title: Power Pages Security Agent Overview and Capabilities
-description: Power Pages Security Agent helps secure websites with automated vulnerability scans, real-time traffic monitoring, and guided mitigation workflows.
+title: Power Pages security agent
+description: Power Pages security agent helps secure websites with automated vulnerability scans, real-time traffic monitoring, and guided mitigation workflows.
 author: shwetamurkute
 contributors:
 ms.topic: concept-article
@@ -24,25 +24,25 @@ Whether you are new to web security or a seasoned admin, the security agent simp
 
 ## Capabilities
 
-As part of the public preview, the Security Agent offers two primary capabilities to help makers secure their Power Pages sites:
+As part of the public preview, the security agent offers two primary capabilities to help makers secure their Power Pages sites:
 
-- **Automated Security Scan**  
+- **Automated security scan**  
   Every two weeks, the agent runs a scheduled scan using the OWASP ZAP engine to detect common vulnerabilities across 37 predefined security rules. These include misconfigured headers, XSS risks, and exposed server information. When issues are found, the agent generates alerts and presents guided mitigation workflows to help makers resolve them.
 
 - **Site traffic monitoring**  
-  The agent monitors live traffic using Microsoft Sentinel signals and historical traffic data. When it detects suspicious spikes or clustered activity, it generates alerts and presents mitigation workflows.
+  The agent monitors live traffic using Microsoft sentinel signals and historical traffic data. When it detects suspicious spikes or clustered activity, it generates alerts and presents mitigation workflows.
 
 Some recommendations are AI-generated, especially for complex issues like correcting CSP configurations or suggesting custom WAF rules. Others follow standard rule-based logic for known security best practices.
 
 ## How does it work?
 
-The Power Pages Website Security Agent is designed to work behind the scenes while keeping makers fully in control. Here’s how the end-to-end flow works:
+The Power Pages website with security agent is designed to work behind the scenes while keeping makers fully in control. Here’s how the end-to-end flow works:
 
-### 1. Configure the Security Agent
+### 1. Configure the security agent
 
 From the **Security Agent** tab in the Design Studio’s Security workspace, makers can:
 
-- Choose which capabilities to enable (e.g., Automated Scanning, Traffic Monitoring).
+- Choose which capabilities to enable, such as automated scanning or traffic monitoring.
 
 - Select how to receive alerts, via in-product notifications, email, or Microsoft Teams.
 
@@ -56,9 +56,9 @@ This setup ensures the agent runs only what’s needed and notifies makers throu
 
 Once enabled:
 
-- **Automated Scans** run every two weeks using the ZAP engine and check against 37 OWASP-based rules.
+- **Automated scans** run every two weeks using the ZAP engine and check against 37 OWASP-based rules.
 
-- **Traffic Monitoring** runs continuously using Microsoft Sentinel signals and historical traffic patterns.
+- **Traffic monitoring** runs continuously using Microsoft sentinel signals and historical traffic patterns.
 
 When issues are found, alerts are triggered automatically.
 
@@ -72,13 +72,13 @@ All alerts appear in the **Overview** screen. For each alert:
 
 :::image type="content" source="media/security-agent/alerts-overview-screen.png" alt-text="Screenshot of Security Agent alert overview and guided fix flow in Power Pages.":::
 
-### 4. Apply fixes directly in the Studio
+### 4. Apply fixes directly in the studio
 
 Makers can:
 
 - Review plain-language explanations for each recommendation.
 
-- Accept or edit Suggested values.
+- Accept or edit suggested values.
 
 - Take actions directly, through one-click settings, embedded VS Code, or external documentation links.
 
