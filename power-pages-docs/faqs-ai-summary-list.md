@@ -1,6 +1,6 @@
 ---
-title: FAQ for the AI summary list
-description: Look up frequently asked questions (FAQ) for the AI summary list feature in Microsoft Power Pages.
+title: FAQ for AI Features in List
+description: Look up frequently asked questions (FAQ) for the list AI features in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: faq
 ms.date: 02/05/2025
@@ -13,13 +13,15 @@ contributors:
     - tapanm
 ---
 
-# AI summary list FAQ
+# AI features in list FAQ
 
-These frequently asked questions (FAQ) describe the AI impact of the AI summary list feature in Power Pages.
+This FAQ outlines the impact of AI-powered features in Power Pages lists, including AI-generated summaries and natural language search capabilities.
 
-## What is an AI summary list?
+## What are AI features in list?
 
 The Power Pages AI summary list feature simplifies the consumption of data by transforming complex data tables into insightful, visual summaries and chart representations. This list enhances user efficiency and makes analyzing data easier. Data presented in traditional table formats can often be difficult to interpret, leading to challenges in extracting meaningful insights.  
+
+The AI-enhanced search functionality supports natural language queries, traditional text-based searches, and dynamic inline suggestions. You can filter and explore data in a more intuitive and efficient way.
 
 ## What are capabilities of the AI summary list?
 
