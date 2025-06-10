@@ -33,7 +33,7 @@ Some recommendations are AI-generated, especially for complex issues like correc
 
 ## How does it work?
 
-The Power Pages website with security agent is designed to work behind the scenes while keeping makers fully in control. Here’s how the end-to-end flow works:
+The security agent is designed to work behind the scenes while keeping makers fully in control. Here’s how the end-to-end flow works:
 
 ### 1. Configure the security agent
 
@@ -69,7 +69,7 @@ All alerts appear in the **Overview** screen. For each alert:
 
 ### 4. Apply fixes directly in the studio
 
-You can perform the following actions based on the findings through the security agent and fix them:
+You can perform the following actions based on the findings:
 
 - Review plain-language explanations for each recommendation.
 
