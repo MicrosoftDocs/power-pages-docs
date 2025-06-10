@@ -81,6 +81,5 @@ Each fix applied updates the alert status and helps keep the site secure.
 
 ### Related content
 
-- [Security workspace](use-security-workspace.md)
 - [Run security scan (preview)](security-scan.md)
 - [Advanced security settings (preview)](/power-pages/getting-started/use-security-workspace)
