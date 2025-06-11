@@ -3,7 +3,7 @@ title: FAQ for AI Features in List
 description: Look up frequently asked questions (FAQ) for the list AI features in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: faq
-ms.date: 02/05/2025
+ms.date: 06/11/2025
 ms.author: nenandw
 ms.reviewer: dmartens
 ms.collection:
