@@ -1,5 +1,5 @@
 ---
-title: Add AI features to a list (preview)
+title: Add AI features in a list (preview)
 description: Learn more about how the AI features in a list works to simplify and summarize data in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: how-to
@@ -13,7 +13,7 @@ contributors:
     - tapanm
 ---
 
-# Add AI features to a list (preview)
+# Add AI features in a list (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
