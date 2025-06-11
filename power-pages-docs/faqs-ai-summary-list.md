@@ -1,5 +1,5 @@
 ---
-title: FAQ for AI Features in List
+title: FAQ for AI features in a list
 description: Look up frequently asked questions (FAQ) for the list AI features in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: faq
@@ -13,7 +13,7 @@ contributors:
     - tapanm
 ---
 
-# AI features in list FAQ
+# FAQ for AI features in a list
 
 This FAQ outlines the impact of AI-powered features in Power Pages lists, including AI-generated summaries and natural language search capabilities.
 
