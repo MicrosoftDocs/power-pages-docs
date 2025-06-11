@@ -168,7 +168,7 @@
                   href: getting-started/add-list.md
                 - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
-                - name: Add AI summary list (preview)
+                - name: Add AI features in a list (preview)
                   href: getting-started/add-ai-summary-list.md
                 - name: Add a form manually
                   href: getting-started/add-form.md
@@ -812,7 +812,7 @@
       href: faqs-pro-developer.md
     - name: FAQ for generative AI search
       href: faqs-generative-ai-search.md
-    - name: FAQ for the AI summary list
+    - name: FAQ for AI features in a list
       href: faqs-ai-summary-list.md
     - name: FAQ for data summarization API
       href: faqs-data-summarization.md
