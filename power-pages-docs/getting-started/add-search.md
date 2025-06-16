@@ -1,6 +1,6 @@
 ---
 title: Add a search component  
-description: Learn how to add and configure the Search component, including AI-powered search features, search bar settings, and creating a custom search results page.  
+description: Learn how to add and configure the search component, including AI-powered search features, search bar settings, and creating a custom search results page.  
 author: nageshbhat-msft  
 contributors:  
 ms.topic: how-to  
