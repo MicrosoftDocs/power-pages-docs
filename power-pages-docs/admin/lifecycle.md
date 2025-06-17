@@ -7,7 +7,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:02/20/2025
-ms.date: 02/20/2025
+ms.date: 06/17/2025
 ms.subservice: null
 ms.author: nenandw
 ms.reviewer: danamartens
@@ -52,13 +52,13 @@ To convert a trial website to a production website, the environment needs the re
 
 ## Suspended website
 
-You continue to see notifications in the Power Platform admin center about the expiration of your trial website. Trial websites expire after 30 days. If you don't convert your website to production within the trial period, the website is shut down and placed in suspended status.
+You see notifications in the Power Platform admin center about your trial website's expiration. Trial websites expire after 30 days. If you don't convert your website to production during the trial period, the website is shut down and suspended. Similarly, if you don't edit your developer site or it's inactive for 90 days, it's suspended.
 
 You can't access your website after it expires. However, you can still convert the suspended website to production within seven days of suspension.
 
 ## Deleted website
 
-If you don't convert your website to production within the seven-day suspension period, the website host is deleted. The website data isn't deleted from the environment; however, the space used by the website in the environment is released, and you can create a new website.
+If you don't convert your website to production within the seven-day suspension period, the website host is deleted. Similarly, if you don't reactivate your developer site within the seven-day suspension period, the website host is deleted. The website data isn't deleted from the environment; however, the space used by the website in the environment is released, and you can create a new website.
 
 ## Next steps
 
@@ -73,3 +73,4 @@ If you don't convert your website to production within the seven-day suspension 
 - [Convert an existing website to capacity-based model](convert-site.md#convert-an-existing-website-to-capacity-based-model)
 - [Power Pages connectivity to a Microsoft Dataverse](connectivity.md)
 - [Power Pages architecture](architecture.md)
+- [Reactivate sites](reactivate-website.md)
