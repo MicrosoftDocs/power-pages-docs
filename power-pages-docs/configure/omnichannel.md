@@ -1,8 +1,8 @@
 ---
-title: Configure Omnichannel with Power Pages site copilot
-description: Learn how to configure Omnichannel with Power Pages site copilot for seamless live agent escalation.
+title: Configure Omnichannel with Power Pages site agent
+description: Learn how to configure Omnichannel with Power Pages site agent for seamless live agent escalation.
 ms.topic: how-to
-ms.date: 04/28/2025
+ms.date: 06/17/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -16,28 +16,28 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:04/19/2024
 ---
-# Configure Omnichannel with Power Pages site copilot
+# Configure Omnichannel with Power Pages site agent
 
-[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) lets enterprises instantly connect and engage with their customers via live chat. If the copilot can't resolve their queries or they need a response beyond the site's programmed capabilities, the site copilot enables a seamless transition to a live agent for help.
+[Omnichannel](/dynamics365/customer-service/implement/introduction-omnichannel) lets enterprises instantly connect and engage with their customers via live chat. If the agent can't resolve their queries or they need a response beyond the site's programmed capabilities, the site agent enables a seamless transition to a live agent for help.
 
 ## Prerequisites
 
-- [Add a copilot to your site](../getting-started/enable-chatbot.md#add-a-copilot) in the Power Pages design studio.
+- [Add an agent to your site](../getting-started/enable-chatbot.md#add-a-copilot) in the Power Pages design studio.
 - Install the Dynamics 365 Customer Service app in the environment where the site is created.
 
 ## Configure agent hand-off in Copilot Studio
 
-The copilot added with Power Pages Studio doesn't include instructions for transferring calls to Omnichannel.
+The agent added with Power Pages Studio doesn't include instructions for transferring calls to Omnichannel.
 
-To enable this functionality, configure the copilot manually in Copilot Studio. You can access Copilot Studio directly from the Power Pages design studio.
+To enable this functionality, configure the agent manually in Copilot Studio. You can access Copilot Studio directly from the Power Pages design studio.
 
 1. Go to [Set up workspace](setup-workspace.md).
-1. Under **Copilot,** select **Add copilot**.
-1. From the **Copilot analytics** section, choose **View copilot analytics**.
+1. Under **Copilot,** select **Add agent**.
+1. From the **Agent analytics** section, choose **View agent analytics**.
 
     :::image type="content" source="media/omnichannel/view-copilot-analytics.svg" alt-text="A screenshot of Add copilot to a site in the Set up workspace with the View copilot analytics link emphasized.":::
 
-### Configure a copilot manually in Copilot Studio
+### Configure an agent manually in Copilot Studio
 
 1. In Copilot Studio, select **Topics** from the left-hand menu.
 1. Select the **System** tab, and then choose **Escalate**.
@@ -86,4 +86,4 @@ To enable this functionality, configure the copilot manually in Copilot Studio. 
 
 ## Related information
 
-[Responsible AI: FAQ for site copilot](../faqs-chatbot.md)
+[Responsible AI: FAQ for site agent](../faqs-chatbot.md)

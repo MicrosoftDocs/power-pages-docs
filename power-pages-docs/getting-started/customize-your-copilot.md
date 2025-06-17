@@ -1,8 +1,8 @@
 ---
-title: Customize your copilot
-description: Learn how to customize the copilot experience in Microsoft Power Pages in this step-by-step guide.
+title: Customize your agent
+description: Learn how to customize an agent experience in Microsoft Power Pages in this step-by-step guide.
 ms.topic: how-to
-ms.date: 04/29/2025
+ms.date: 06/17/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -18,14 +18,14 @@ ms.custom:
   - bap-template
 ---
 
-# Customize your copilot
+# Customize your agent
 
-When you create a copilot for a website, it uses the content from the hosting site to generate responses. Microsoft Dataverse indexes site content and configured tables. Copilot Studio summarizes the indexed content and tables to generate responses.
+When you create an agent for a website, it uses the content from the hosting site to generate responses. Microsoft Dataverse indexes site content and configured tables. Copilot Studio summarizes the indexed content and tables to generate responses.
 
 Authenticated site users get tailored, summarized answers aligned with their web roles. Improve the content model for authenticated site users by refining the data with these steps:
 
 1. In Power Pages, go to the [Set up workspace](../configure/setup-workspace.md).
-1. Under **Copilot**, select **Add copilot**.
+1. Under **Copilot**, select **Add agent**.
 1. Under **Refine your data**, select **Make changes**.
 1. Select **Choose tables lookup control** to choose or clear tables.
 
@@ -47,9 +47,9 @@ Authenticated site users get tailored, summarized answers aligned with their web
 1. Select **Next**, and review your selection.
 1. Select **Save** to submit the changes.
 
-## Customize the copilot appearance
+## Customize the agent appearance
 
-You can customize the copilot's style by overriding the default Cascading Style Sheet (CSS) classes. To do this, add a `style` element to the header template and override the values by following these steps:
+You can customize the agent's style by overriding the default Cascading Style Sheet (CSS) classes. To do this, add a `style` element to the header template and override the values by following these steps:
 
 1. Open the site's [code editor](../configure/visual-studio-code-editor.md).
 1. In the **Explorer** navigation, expand the **web-templates** folder.
@@ -131,7 +131,7 @@ The CSS samples in this section provide examples that show how to customize each
 }
 ```
 
-#### 4. Bubble from the copilot
+#### 4. Bubble from an agent
 
 Background color:
 

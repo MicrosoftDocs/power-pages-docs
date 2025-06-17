@@ -1,8 +1,8 @@
 ---
-title: Manage copilot provisioning
-description: Learn how to manage default copilot provisioning in Microsoft Power Pages by using PowerShell scripts.
+title: Manage agent provisioning
+description: Learn how to manage default agent provisioning in Microsoft Power Pages by using PowerShell scripts.
 ms.topic: how-to
-ms.date: 04/29/2025
+ms.date: 06/17/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -18,9 +18,9 @@ ms.custom:
   - bap-template
 ---
 
-# Manage copilot provisioning
+# Manage agent provisioning
 
-This article explains how to manage copilot provisioning in Microsoft Power Pages. It shows how service admins use PowerShell scripts to disable default copilot provisioning. By following these steps, admins ensure copilots are created only when needed.
+This article explains how to manage agent provisioning in Microsoft Power Pages. It shows how service admins use PowerShell scripts to disable default agent provisioning. By following these steps, admins ensure agents are created only when needed.
 
 [Service admins](/power-platform/admin/use-service-admin-role-manage-tenant) in the following Microsoft Entra roles can use a PowerShell script to change the tenant-level `enableChatbotOnWebsiteCreation` setting:
 
@@ -59,5 +59,5 @@ Set-TenantSettings -RequestBody $requestBody
 ## Related information
 
 - [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
-- [Add a copilot to your Power Pages site](../getting-started/enable-chatbot.md)
-- [Responsible AI: FAQ for site copilot](../faqs-chatbot.md)
+- [Add an agent to your Power Pages site](../getting-started/enable-chatbot.md)
+- [Responsible AI: FAQ for site agent](../faqs-chatbot.md)
