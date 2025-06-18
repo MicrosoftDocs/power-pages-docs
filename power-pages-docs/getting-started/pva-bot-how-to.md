@@ -24,7 +24,7 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 - You need an agent created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
 
-- [Agent](enable-chatbot.md#add-a-copilot) needs to be created and published in the site where you're updating another agent available in Microsoft Copilot Studio.
+- [Agent](enable-chatbot.md#add-an-agent) needs to be created and published in the site where you're updating another agent available in Microsoft Copilot Studio.
 
 - You can only replace an agent with [No authentication](/microsoft-copilot-studio/configuration-end-user-authentication#no-authentication).
 

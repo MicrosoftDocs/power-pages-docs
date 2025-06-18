@@ -22,7 +22,7 @@ ms.custom:
 
 ## Prerequisites
 
-- [Add an agent to your site](../getting-started/enable-chatbot.md#add-a-copilot) in the Power Pages design studio.
+- [Add an agent to your site](../getting-started/enable-chatbot.md#add-an-agent) in the Power Pages design studio.
 - Install the Dynamics 365 Customer Service app in the environment where the site is created.
 
 ## Configure agent hand-off in Copilot Studio
@@ -35,7 +35,7 @@ To enable this functionality, configure the agent manually in Copilot Studio. Yo
 1. Under **Copilot,** select **Add agent**.
 1. From the **Agent analytics** section, choose **View agent analytics**.
 
-    :::image type="content" source="media/omnichannel/view-copilot-analytics.svg" alt-text="A screenshot of Add copilot to a site in the Set up workspace with the View copilot analytics link emphasized.":::
+    :::image type="content" source="media/omnichannel/view-agent-analytics.png" alt-text="A screenshot of Add copilot to a site in the Set up workspace with the View copilot analytics link emphasized." lightbox="media/omnichannel/view-agent-analytics.png":::
 
 ### Configure an agent manually in Copilot Studio
 

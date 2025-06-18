@@ -44,7 +44,7 @@ Follow these steps to add an agent manually:
 1. In Power Pages, go to the [Set up workspace](../configure/setup-workspace.md).
 1. Under **Copilot**, select **Add agent**.
 
-    :::image type="content" source="media/enable-chatbot/select-copilot.png" alt-text="Screenshot of the Add an agent to site page in Power Pages.":::
+    :::image type="content" source="media/enable-chatbot/select-agent.png" alt-text="Screenshot of the Add an agent to site page in Power Pages.":::
 
 1. Turn on the **Create agent** option.
 
