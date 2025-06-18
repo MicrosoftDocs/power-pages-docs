@@ -24,7 +24,7 @@ An agent enhances your Microsoft Power Pages site by providing instantaneous sup
 
 By default, [an agent that you add to your Power Pages site](#add-an-agent) can answer questions based on the site's information. However, you can extend the default agent capabilities in the following ways:
 
-- Use an agent created in [Microsoft Copilot Studio](pva-bot-how-to.md).
+- Use an agent created in [Microsoft Copilot Studio](agent-how-to.md).
 - [Configure an agent to use Bing search to generate answers from public data](force-bing-index.md).
 - Use [Omnichannel in Dynamics 365 Customer Service with your agent](../configure/omnichannel.md), and transition customers to a live agent as required.
 
@@ -61,12 +61,12 @@ Follow these steps to add an agent manually:
 
 ## Next steps
 
-[Customize your agent](../getting-started/customize-your-copilot.md)
+[Customize your agent](../getting-started/customize-your-agent.md)
 
 ## Related information
 
 - [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
 - [Generate answers from public data using Bing search](../getting-started/force-bing-index.md)
-- [Manage agent provisioning](../getting-started/manage-copilot-provisioning.md)
-- [Responsible AI: FAQ for site agent](../faqs-chatbot.md)
+- [Manage agent provisioning](../getting-started/manage-agent-provisioning.md)
+- [Responsible AI: FAQ for site agent](../faqs-agent.md)
 - [Add an AI-powered chatbot with Power Pages (video)](https://youtu.be/ohANXe1bfos?feature=shared)

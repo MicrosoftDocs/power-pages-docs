@@ -125,7 +125,7 @@ conceptualContent:
           url: getting-started/add-text-copilot.md
           itemType: concept
         - text: Enable chatbot in your site
-          url: getting-started/enable-chatbot.md
+          url: getting-started/faqs-agent.md
           itemType: concept
         - text: Force Bing webmaster to index your site
           url: getting-started/force-bing-index.md

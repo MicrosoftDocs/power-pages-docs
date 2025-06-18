@@ -20,7 +20,7 @@ contributors:
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
 - [FAQ for site creation](faqs-generate-site.md)
-- [FAQ for chatbot (preview)](faqs-chatbot.md)
+- [FAQ for agent (preview)](faqs-agent.md)
 - [FAQ for generating text](faqs-generate-text.md)
 - [FAQ for creating form](faqs-create-form.md)
 - [FAQ for Copilot for design studio](faqs-design-studio.md)

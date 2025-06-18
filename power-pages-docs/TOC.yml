@@ -226,20 +226,20 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add a copilot
+        - name: Add an agent
           items:
-            - name: Add a copilot
-              href: getting-started/enable-chatbot.md
-            - name: Customize your copilot
-              href: getting-started/customize-your-copilot.md
+            - name: Add an agent
+              href: getting-started/enable-agent.md
+            - name: Customize your agent
+              href: getting-started/customize-your-agent.md
             - name: Generate answers from public data using Bing search
               href: getting-started/force-bing-index.md
-            - name: Replace copilot with a Microsoft Copilot Studio copilot
-              href: getting-started/pva-bot-how-to.md
-            - name: Configure Omnichannel with site copilot
+            - name: Replace agent with a Microsoft Copilot Studio agent
+              href: getting-started/agent-how-to.md
+            - name: Configure Omnichannel with site agent
               href: configure/omnichannel.md
-            - name: Manage copilot provisioning
-              href: getting-started/manage-copilot-provisioning.md
+            - name: Manage agent provisioning
+              href: getting-started/manage-agent-provisioning.md
         - name: Progressive web applications
           items:
             - name: Overview
@@ -800,8 +800,8 @@
       href: responsible-ai-overview.md
     - name: FAQ for site creation
       href: faqs-generate-site.md
-    - name: FAQ for site copilot
-      href: faqs-chatbot.md
+    - name: FAQ for site agent
+      href: faqs-agent.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
     - name: FAQ for creating form

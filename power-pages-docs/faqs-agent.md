@@ -52,6 +52,6 @@ When a feature is enabled, the agent is created with a content moderation set to
 
 ## See also
 
-- [Add an agent to your Power Pages site](getting-started/enable-chatbot.md)
+- [Add an agent to your Power Pages site](getting-started/enable-agent.md)
 - [Generate answers from public data using Bing search](getting-started/force-bing-index.md)
 - [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy/)
