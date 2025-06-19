@@ -801,7 +801,7 @@
     - name: FAQ for site creation
       href: faqs-generate-site.md
     - name: FAQ for site agent
-      href: faqs-agent.md
+      href: faqs-site-agent.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
     - name: FAQ for creating form

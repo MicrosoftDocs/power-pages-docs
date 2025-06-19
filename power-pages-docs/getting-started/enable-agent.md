@@ -68,5 +68,5 @@ Follow these steps to add an agent manually:
 - [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
 - [Generate answers from public data using Bing search](../getting-started/force-bing-index.md)
 - [Manage agent provisioning](../getting-started/manage-agent-provisioning.md)
-- [Responsible AI: FAQ for site agent](../faqs-agent.md)
+- [Responsible AI: FAQ for site agent](../faqs-site-agent.md)
 - [Add an AI-powered chatbot with Power Pages (video)](https://youtu.be/ohANXe1bfos?feature=shared)
