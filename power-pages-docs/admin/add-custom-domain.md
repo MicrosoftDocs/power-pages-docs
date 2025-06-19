@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 08/28/2024
+ms.date: 06/18/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
@@ -58,6 +58,7 @@ To learn about the roles required to perform this task, read [Admin roles requir
    > - You can only have one custom domain name for a website.
    > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your website.
    > - If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: "Please add a CNAME record to this domain name. Retry after some time passes."
+   > - To successfully bind your custom domain, ensure there's no TXT record in your DNS named `asuid.{customDomain}`. If such a record exists, delete it and try binding the domain again. For example, if your domain is `www.contoso.com`, check for a TXT record named `asuid.www.contoso.com`. If found, remove it before retrying the domain configuration.
 
 1. Select **Next**
 
