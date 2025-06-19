@@ -209,4 +209,4 @@ Text color:
 
 - [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
 - [Generate answers from public data using Bing search](../getting-started/force-bing-index.md)
-- [Responsible AI: FAQ for site agent](../faqs-site-agent.md)
+- [Responsible AI: FAQ for site agent](../faq-site-agent.md)
