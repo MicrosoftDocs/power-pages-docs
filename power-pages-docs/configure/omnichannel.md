@@ -86,4 +86,4 @@ To enable this functionality, configure the agent manually in Copilot Studio. Yo
 
 ## Related information
 
-[Responsible AI: FAQ for site agent](../faqs-site-agent.md)
+[Responsible AI: FAQ for site agent](../faq-site-agent.md)
