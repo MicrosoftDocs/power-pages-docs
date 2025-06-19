@@ -35,7 +35,7 @@ By default, [an agent that you add to your Power Pages site](#add-an-agent) can 
 To use AI-powered agent features in Power Pages, make sure the following conditions are met:
 
 - The tenant admin needs to turn on the [Publish Copilots with AI features](/microsoft-copilot-studio/security-and-governance) setting in the Power Platform admin center.
-- Copilot uses Copilot Studio generative answers. Learn more about quotas and limits in [Quotas, limits, app registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
+- Agent uses Copilot Studio generative answers. Learn more about quotas and limits in [Quotas, limits, app registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
 
 ## Add an agent
 

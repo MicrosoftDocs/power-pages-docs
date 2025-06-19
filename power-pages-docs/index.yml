@@ -124,8 +124,8 @@ conceptualContent:
         - text: Add AI-generated text using Copilot
           url: getting-started/add-text-copilot.md
           itemType: concept
-        - text: Enable chatbot in your site
-          url: getting-started/faqs-site-agent.md
+        - text: Enable agent in your site
+          url: getting-started/enable-agent.md
           itemType: concept
         - text: Force Bing webmaster to index your site
           url: getting-started/force-bing-index.md

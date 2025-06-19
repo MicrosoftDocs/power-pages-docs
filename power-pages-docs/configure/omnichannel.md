@@ -22,7 +22,7 @@ ms.custom:
 
 ## Prerequisites
 
-- [Add an agent to your site](../getting-started/faqs-site-agent.md#add-an-agent) in the Power Pages design studio.
+- [Add an agent to your site](../getting-started/enable-agent.md#add-an-agent) in the Power Pages design studio.
 - Install the Dynamics 365 Customer Service app in the environment where the site is created.
 
 ## Configure agent hand-off in Copilot Studio
