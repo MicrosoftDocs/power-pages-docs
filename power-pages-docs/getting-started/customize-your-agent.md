@@ -2,7 +2,7 @@
 title: Customize your agent
 description: Learn how to customize an agent experience in Microsoft Power Pages in this step-by-step guide.
 ms.topic: how-to
-ms.date: 06/17/2025
+ms.date: 06/20/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -60,11 +60,11 @@ You can customize the agent's style by overriding the default Cascading Style Sh
 
 1. Override the appropriate styles.
 
-### Copilot widget
+### Agent widget
 
 :::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="Screenshot of the chatbot widget.":::
 
-Copilot collapsed icon:
+Agent collapsed icon:
 
 ```css
 .pva-embedded-web-chat-widget {
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
   > [!NOTE]
  > Replace `<image URL>` with the actual image source URL. Use an external path or upload an image to the [Web File](../configure/web-files.md) table and use its URL.
 
-### Copilot elements
+### Agent elements
 
 The CSS samples in this section provide examples that show how to customize each of the numbered chatbot elements in the following screenshot.
 
@@ -123,7 +123,7 @@ The CSS samples in this section provide examples that show how to customize each
 }
 ```
 
-#### 3. Copilot window
+#### 3. Agent window
 
 ```css
 .pva-embedded-web-chat-window {
