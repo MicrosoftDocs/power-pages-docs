@@ -28,7 +28,7 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 - You can only replace an agent with [No authentication](/microsoft-copilot-studio/configuration-end-user-authentication#no-authentication).
 
-## Copy the Copilot schema name
+## Copy the agent schema name
 
 1. Sign in to [Microsoft Copilot Studio](https://web.powerva.microsoft.com/).
 
@@ -42,7 +42,7 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 ## Verify data model version
 
-Copilot can be enabled for both standard and enhanced site data models. The steps to replace it vary based on the data model. Make sure you follow the correct steps for your data model.
+Agent can be enabled for both standard and enhanced site data models. The steps to replace it vary based on the data model. Make sure you follow the correct steps for your data model.
 
 1. Go to [Set up workspace](../configure/setup-workspace.md).
 
