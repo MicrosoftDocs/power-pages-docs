@@ -52,7 +52,7 @@ The following features streamline the administration experience with Copilot:
 
 The following features make it easier for your website users to locate the information they seek:
 
-- [Add an AI-powered copilot](../getting-started/enable-chatbot.md)
+- [Add an AI-powered agent](../getting-started/enable-agent.md)
 - [Search with generative AI (preview)](search/generative-AI.md)
 - [AI form fill assistance](../getting-started/add-form.md#enable-ai-form-fill-assistance-on-a-form-preview)
 
