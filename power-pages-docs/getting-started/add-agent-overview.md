@@ -20,14 +20,14 @@ ms.custom:
 
 # Add an agent - overview
 
-An agent enhances your Microsoft Power Pages site by providing instantaneous support to your users. Within minutes, you can integrate an agent to provide natural-language responses to visitor questions, improve the user experience, and boost satisfaction.
+An agent makes your Microsoft Power Pages site more helpful by giving instant support to users. In minutes, you add an agent that gives natural language responses to visitor questions, improves the user experience, and boosts satisfaction.
 
-There are two main ways to add an agent to your site. The method you choose determines the agent’s default capabilities:
+You can add an agent to your site in two main ways. The method you choose sets the agent’s default capabilities:
 
-- **Set up workspace**: Agents added from the set up workspace can answer questions based on your site’s information. Learn more in [Add an agent from the set up workspace](#add-an-agent).
-- **Start from a form**: Agents created from a form help users complete tasks related to that form, such as creating a record. Learn more in [Build an agent from a form](https://<LinkPlaceholder>).
+- **Set up workspace**: Agents you add from the set up workspace answer questions based on your site’s information. Learn more in [Add an agent from the set up workspace](enable-agent.md).
+- **Start from a form**: Agents you create from a form help users with tasks related to that form, like creating a record. Learn more in [Build an agent from a form](build-agent-from-form.md).
 
-If you want one agent to both answer questions and help users create records, start with the set up workspace option. Later, you can add form-based capabilities to the same agent instead of creating a new one. Alternatively, you can create separate agents for different tasks. If your site has multiple agents, visitors will see all the agents they have access to in the chat window and can switch between them as needed.
+To let one agent both answer questions and help users create records, start with the set up workspace option. Later, add form-based capabilities to the same agent instead of creating a new one. Or, create separate agents for different tasks. If your site has multiple agents, visitors see all the agents they can use in the chat window and can switch between them as needed.
 
 <Add screenshot showing multiple agents>
 
@@ -35,11 +35,11 @@ If you want one agent to both answer questions and help users create records, st
 
 ## Extend or customize an agent
 
-After you add an agent, you can enhance its capabilities in the following ways:
+After you add an agent, enhance its capabilities in these ways:
 
 - Use an agent created in [Microsoft Copilot Studio](agent-how-to.md).
 - [Configure an agent to use Bing search to generate answers from public data](force-bing-index.md).
-- Use [Omnichannel in Dynamics 365 Customer Service with your agent](../configure/omnichannel.md), and transition customers to a live agent as required.
+- Use [Omnichannel in Dynamics 365 Customer Service with your agent](../configure/omnichannel.md), and transition customers to a live agent as needed.
 
 :::image type="content" source="media/enable-chatbot/site-copilot.png" alt-text="Screenshot of an agent in a Power Pages site.":::
 

@@ -15,20 +15,20 @@ ms.custom:
 # Configure user authentication for an agent
 
 When an agent is associated with Power Pages, the site enables **single
-sign-on (SSO)**, meaning users do not need to log in separately to
+sign-on (SSO)**, meaning users don't need to sign in separately to
 access the agent. Power Pages supports the following authentication
 types:
 
 1. **No Authentication**
 
-    The agent can be accessed without requiring user authentication. This is the default setting when an agent is created from a form.
+    The agent can be accessed without requiring user authentication. This option is the default setting when an agent is created from a form.
 
 1. **Token passthrough Authentication**
 
     The agent relies on Power Pages’ authentication service. When configured with the implicit flow, the agent supports all identity providers set up in the Power Pages site.
 
-> [!NOTE]
-> Agents configured with token passthrough authentication cannot be tested directly within of Microsoft Copilot Studio, as they require sign-in through the Power Pages site.
+    > [!NOTE]
+    > Agents configured with token passthrough authentication can't be tested directly within of Microsoft Copilot Studio, as they require sign-in through the Power Pages site.
 
     To configure token [passthrough authentication](/microsoft-copilot-studio/configure-sso-3p), Select service provider as **Generic OAuth 2** and update all other values as **placeholder**
 
@@ -37,9 +37,9 @@ types:
 
 1. **Token based authentication**
 
-    In this method, Power Pages passes the authenticated user’s token to the copilot studio. Authentication is then handled by Microsoft Copilot Studio. This setup allows the agent to be tested directly within Copilot Studio.
+    In this method, Power Pages passes the authenticated user’s token to the Copilot Studio. Microsoft Copilot Studio handles authentication. This setup allows the agent to be tested directly within Copilot Studio.
 
-    Select **Generic OAuth 2** as the service provider. Other service providers are not currently supported by Power Pages.
+    Select **Generic OAuth 2** as the service provider. Power Pages doesn't currently support other service providers.
 
     For detailed configuration steps, refer to the [*Security Configuration*](/microsoft-copilot-studio/configuration-end-user-authentication#authenticate-manually) documentation in Copilot Studio.
 

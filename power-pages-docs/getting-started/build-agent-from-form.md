@@ -12,95 +12,95 @@ ms.reviewer: dmartens
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Power Pages agent builder lets organizations create AI agents directly from forms in Power Pages. These agents integrate with [Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio), using knowledge, actions, and business logic from the form.
+Power Pages agent builder lets you create AI agents directly from forms in Power Pages. These agents integrate with [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) and use knowledge, actions, and business logic from the form.
 
-With minimal steps, makers build agents using existing form fields and logic, and automatically use Power Pages' built-in authorization and security roles. Makers can also enhance and fine-tune these agents in Copilot Studio to unlock advanced capabilities.
+With minimal steps, you build agents using existing form fields and logic, and automatically use Power Pages' built-in authorization and security roles. You can also enhance and fine-tune these agents in Copilot Studio to unlock advanced capabilities.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## Prerequisite
 
-- The tenant admin must turn on the [agent](https://learn.microsoft.com/en-us/power-pages/admin/copilot-hub#governance-controls-for-ai-features) feature for Power Pages.
+- The tenant admin needs to turn on the [agent](../admin/copilot-hub.md) feature for Power Pages.
 
-- Agents in Power Pages use the Microsoft Copilot Studio agent. Make sure the tenant has enough message quotas for agents. Learn more about quotas and limits in the [Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-quotas) documentation.
+- Agents in Power Pages use the Microsoft Copilot Studio agent. Check that the tenant has enough message quotas for agents. Learn more about quotas in [Quotas and limits for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
 
 ## Create an agent
 
-You can create an agent directly from forms to streamline the manual process.
+Create an agent directly from forms to streamline the manual process.
 
 1. Sign in to [Power Pages](https://make.powerpages.microsoft.com).
 
-1. Find your site and select **Edit**.
+1. Find your site, and select **Edit**.
 
-1. In the **Pages** workspace, select a web page that has a [basic form](../configure/basic-forms.md).
+1. In the **Pages** workspace, select a web page with a [basic form](../configure/basic-forms.md).
 
 1. Select the form.
 
 1. Select **Agent**.
 
-:::image type="content" source="media/build-agent-from-form/image1.gif" alt-text="Screenshot of clicking the Agent button in a Power Pages form to build an agent.":::
+:::image type="content" source="media/build-agent-from-form/agent-button.png" alt-text="Screenshot of clicking the Agent button in a Power Pages form to build an agent.":::
 
-The *Add Agent* dialog opens. You can create a new agent or extend an existing one for the selected form. The dialog has these configuration options:
+The *Add Agent* dialog opens. Create a new agent or extend an existing one for the selected form. The dialog has these configuration options:
 
-1. Describe the purpose of the form and give instructions to the agent. These instructions help the agent know when to trigger based on user input.
+1. Describe the purpose of the form, and give instructions to the agent. These instructions help the agent know when to trigger based on user input.
 
-1. You can select an optional checkbox to let the agent autofill the form using information from an uploaded image or PDF file.
+1. Select the optional checkbox to let the agent autofill the form using information from an uploaded image or PDF file.
 
 1. Enter a name for the new agent, or select an existing agent from Microsoft Copilot Studio.
 
 > [!NOTE]
-> You can only select agents created from Power Pages.
+> Only agents created from Power Pages are available for selection.
 
-1. Select **Continue**. If you create a new agent, it's created in Microsoft Copilot Studio. If you select an existing agent, it's updated.
+1. Select **Continue**. If you choose to create a new agent, Microsoft Copilot Studio creates it. If you select an existing agent, Microsoft Copilot Studio updates it.
 
-By default, when you create an agent in Microsoft Copilot Studio, authentication isn't set up. Set up authentication manually in the Copilot Studio editor.
+By default, authentication isn't set up when you create an agent in Microsoft Copilot Studio. Set up [authentication](configure-user-authentication-for-agent.md) manually in the Copilot Studio editor.
 
-1. Under **Choose Roles for this Agent**, select **Add Roles** to assign web roles and control which users can use the agent based on their assigned roles.
+1. Under **Choose Roles for this Agent**, select **Add Roles** to assign web roles, and control which users can use the agent based on their assigned roles.
 
-1. Under **Tables and columns for Web API**, select the checkbox to let the agent use table permissions for the table related to the form. The agent uses the [Power Pages Web API](../configure/web-api-overview.md), which needs extra site settings. Selecting this checkbox automatically creates the needed site setting.
+1. Under **Tables and columns for Web API**, select the checkbox to let the agent use table permissions for the table related to the form. The agent uses the [Power Pages Web API](../configure/web-api-overview.md), which needs extra site settings. Selecting this checkbox automatically creates the required site setting.
 
 > [!NOTE]
-> This lets the agent use all fields in the selected table. To limit access to specific fields, update the [site settings](../configure/web-api-overview.md#site-settings-for-the-web-api) in the [Management App](/power-pages/configure/portal-management-app).
+> This configuration lets the agent use all fields in the selected table. To limit access to specific fields, update the [site settings](../configure/web-api-overview.md#site-settings-for-the-web-api) in the [Management App](/power-pages/configure/portal-management-app).
 
 1. Select **Continue**.
 1. Select **Publish** to make the agent available from the Power Pages site.
 
 //Possibly add to separate topic
 
-## Configure User authentication
+## Configure user authentication
 
 \<New page\>
 
-When an agent is associated with Power Pages, the site enables **single
-sign-on (SSO)**, meaning users do not need to log in separately to
-access the agent. Power Pages supports the following authentication
+When you associate an agent with Power Pages, the site enables **single
+sign-on (SSO)**, so users don't need to sign in separately to
+use the agent. Power Pages supports these authentication
 types:
 
 1. **No Authentication**
 
-    The agent can be accessed without requiring user authentication. This is the default setting when an agent is created from a form.
+    The agent can be accessed without requiring user authentication. This option is the default setting when an agent is created from a form.
 
 1. **Token passthrough Authentication**
 
-    The agent relies on Power Pages’ authentication service. When configured with the implicit flow, the agent supports all identity providers set up in the Power Pages site.
+    The agent uses Power Pages’ authentication service. When you set up the implicit flow, the agent supports all identity providers set up in the Power Pages site.
 
-> [!NOTE]
-> Agents configured with token passthrough authentication cannot be tested directly within of Microsoft Copilot Studio, as they require sign-in through the Power Pages site.
+    > [!NOTE]
+    > Agents configured with token passthrough authentication can't be tested directly within of Microsoft Copilot Studio, as they require sign-in through the Power Pages site.
 
-    To configure token [passthrough authentication](/microsoft-copilot-studio/configure-sso-3p), Select service provider as **Generic OAuth 2** and update all other values as **placeholder**
+    To set up token [passthrough authentication](/microsoft-copilot-studio/configure-sso-3p), select the service provider as **Generic OAuth 2** and update all other values as **placeholder**.
 
     | Authentication/BearerAuthentication/Enabled | True |
     | :------------------------------------------ | :--- |
 
 1. **Token based authentication**
 
-    In this method, Power Pages passes the authenticated user’s token to the copilot studio. Authentication is then handled by Microsoft Copilot Studio. This setup allows the agent to be tested directly within Copilot Studio.
+    In this method, Power Pages passes the authenticated user’s token to Copilot Studio. Microsoft Copilot Studio then handles authentication. This setup lets you test the agent directly in Copilot Studio.
 
-    Select **Generic OAuth 2** as the service provider. Other service providers are not currently supported by Power Pages.
+    Select **Generic OAuth 2** as the service provider. Power Pages doesn't currently support other service providers.
 
-    For detailed configuration steps, refer to the [*Security Configuration*](/microsoft-copilot-studio/configuration-end-user-authentication#authenticate-manually) documentation in Copilot Studio.
+    For detailed setup steps, see [Security Configuration](/microsoft-copilot-studio/configuration-end-user-authentication#authenticate-manually) in Copilot Studio.
 
-    To enable this setup, add the following site settings:
+    To enable this setup, add these site settings:
 
     | Setting                                             | Value      |
     | :-------------------------------------------------- | :--------- |
@@ -112,11 +112,11 @@ types:
 
 
 
-## Customize appearance of agent widget
+## Customize appearance of the agent widget
 
 //Needs to be completed
 
-### Old widget Vs New widget
+### Old widget vs new widget
 
 #### Copilot collapsed icon
 
@@ -139,7 +139,7 @@ types:
 
 ### Agent elements
 
-The CSS samples in this section provide examples that show how to customize each of the numbered chatbot elements in the following screenshot.
+The CSS samples in this section show how to customize each numbered chatbot element in the following screenshot.
 
 #### 1. Header
 
@@ -247,11 +247,9 @@ Text color:
 
 //THE FOLLOWING CONTENT WILL MOVE TO A SEPARATE TOPIC:
 
-## Develop intelligent components in Pages using Agent sdk
+## Develop intelligent components in Pages using Agent SDK
 
-The Agent SDK enables the creation of intelligent web pages by extending
-AI capabilities beyond the standard chat widget, while fully honoring
-Power Pages’ end-user authentication and authorization.
+The Agent SDK lets you create intelligent web pages by extending AI capabilities beyond the standard chat widget, while fully honoring Power Pages' end-user authentication and authorization.
 
 The ‘SendActivity’ function facilitates communication between developers
 and agents using the Direct Line API. It manages the creation of a
@@ -280,25 +278,19 @@ and can be called as follows:
 
 ### Parameters
 
-- agentSchemaName: string - Schema name of the agent to which the
-  activity is to be sent.
+- agentSchemaName: string - The schema name of the agent to send the activity to.
 
-- inputActivity: [InputActivity](bookmark://_InputActivity_Object) -
-  Object containing the text or event to be sent to the agent.
+- inputActivity: [InputActivity](bookmark://_InputActivity_Object) - The object with the text or event to send to the agent.
 
-- responseSubscriber:
-  [ResponseSubscriber](bookmark://_ResponseSubscriber) - Callback
-  function that is invoked with the response from the agent whenever a
-  response is received.
+- responseSubscriber: [ResponseSubscriber](bookmark://_ResponseSubscriber) - The callback function that's called with the agent's response whenever a response is received.
 
-- errorSubscriber: [ErrorSubscriber](bookmark://_ErrorSubscriber) –
-  Callback function to handle errors.
+- errorSubscriber: [ErrorSubscriber](bookmark://_ErrorSubscriber) - The callback function to handle errors.
 
-Return Type: void - The function does not return anything.
+Return type: void - The function doesn't return anything.
 
 ### Example
 
-Define responseSubscriber and errorSubscriber as callback functions to handle agent responses and errors, respectively.
+To handle agent responses and errors, define responseSubscriber and errorSubscriber as callback functions.
 
 ```javascript
 const responseSubscriber = (response) => {
@@ -311,10 +303,10 @@ const errorSubscriber = (error) => {
   console.error('Error:', error);
 };
 
-const agentSchemaName = 'yourAgentSchemaName'; // replace with your agent schema name
+const agentSchemaName = '<AgentSchemaName>'; // Replace <AgentSchemaName> with your agent schema name
 ```
 
-### Send a message to agent
+### Send a message to the agent
 
 ```javascript
 const inputActivity = {

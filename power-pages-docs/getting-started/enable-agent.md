@@ -1,12 +1,12 @@
 ---
-title: Add an agent to your Power Pages site
-description: Learn how to add an agent to a Microsoft Power Pages site for quicker customer support and an improved user experience.
+title: Add an agent from the set up workspace
+description: Add an agent to Power Pages for instant, AI-powered help. Improve user experience and resolve questions faster with easy setup instructions.
 ms.topic: how-to
-ms.date: 06/20/2025
+ms.date: 06/23/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
-ms.collection: 
+ms.collection:
   - bap-ai-copilot
 contributors:
   - nageshbhat-msft
@@ -16,9 +16,10 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:09/07/2023
   - bap-template
+  - ai-gen-description
 ---
 
-# Add an agent to your Power Pages site
+# Add an agent from the set up workspace
 
 An agent enhances your Microsoft Power Pages site by providing instantaneous support to your users. Within minutes, you can integrate an agent to provide natural-language responses to visitor questions, improve the user experience, and boost satisfaction.
 
