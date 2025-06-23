@@ -208,11 +208,11 @@
               href: getting-started/force-bing-index.md
             - name: Manage agent provisioning
               href: getting-started/manage-agent-provisioning.md
-        - name: Add agent from form
+        - name: Build an agent from a form (preview)
           items:
             - name: Build an agent from a form
               href: getting-started/build-agent-from-form.md
-            - name: Configure user authentication for an agent
+            - name: Configure user authentication
               href: getting-started/configure-user-authentication-for-agent.md
         - name: Extend or customize agent experience
           items:

@@ -14,10 +14,11 @@ ms.custom:
 ---
 # Configure user authentication for an agent
 
-When an agent is associated with Power Pages, the site enables **single
-sign-on (SSO)**, meaning users don't need to sign in separately to
-access the agent. Power Pages supports the following authentication
-types:
+Power Pages supports multiple authentication methods to help you control how users access agents on your site. This article explains how to configure user authentication for agents, including single sign-on (SSO), token passthrough, and token-based authentication. Use these options to provide a seamless and secure sign-in experience for your users.
+
+## Authentication options
+
+When you associate an agent with Power Pages, the site lets users use single sign-on (SSO), so they don't need to sign in separately to use the agent. Power Pages supports these authentication types:
 
 1. **No Authentication**
 

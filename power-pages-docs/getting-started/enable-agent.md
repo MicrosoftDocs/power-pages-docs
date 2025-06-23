@@ -21,7 +21,7 @@ ms.custom:
 
 # Add an agent from the set up workspace
 
-An agent enhances your Microsoft Power Pages site by providing instantaneous support to your users. Within minutes, you can integrate an agent to provide natural-language responses to visitor questions, improve the user experience, and boost satisfaction.
+Empower your Microsoft Power Pages site with an AI-powered agent to deliver instant, conversational support to your users. This article shows you how to quickly add an agent from the set up workspace, helping you answer questions, improve user satisfaction, and streamline support. Follow the steps below to get started and learn about prerequisites, configuration options, and next steps.
 
 By default, [an agent that you add to your Power Pages site](#add-an-agent) can answer questions based on the site's information. However, you can extend the default agent capabilities in the following ways:
 
