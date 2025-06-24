@@ -226,10 +226,6 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 
 ## Considerations and limitations
 
-- Power Pages site with version [9.3.4.x](/power-apps/maker/portals/versions/version-9.3.4.x) or later supports the following capabilities:
-    - Dashboards and report from Azure Analysis Services using [live connections](/azure/analysis-services/analysis-services-connect-pbi). Azure Analysis Services on-premises configurations aren't supported.
-    - Dashboards with [role-based security](/power-bi/admin/service-admin-rls).
-    - Single tile with role-based security.
 - Power Pages currently doesn't support the integration of Power BI tiles, reports, and dashboards connecting to datasets located in different workspaces. Ensure that both the dataset and the visualizations are located within the same workspace.
 - Power BI visualization functionality isn't available in the China region for Microsoft Entra authentication.
 - For more information about Power BI Embedded service limitations, see [Considerations and limitations](/power-bi/developer/embed-service-principal#considerations-and-limitations).
@@ -243,6 +239,10 @@ This problem can happen because of multiple reasons such as:
 - Your [Power BI Embedded configuration](#enable-power-bi-embedded-service) is incorrect.
 - [Row-level security](/power-bi/admin/service-admin-rls) in Power BI is enabled but you didn't pass roles in [Power BI component configuration](../getting-started/add-power-bi.md) (Advanced settings), or *roles* parameter in the [powerbi liquid tag](../configure/liquid/dataverse-liquid-tags.md#powerbi).
 - **Embed content in apps** in Power BI [Developer Settings](/power-bi/admin/service-admin-portal#developer-settings) isn't enabled.
+  
+*Couldn't load the model schema associated with this report. Make sureyou have a connection to the server, and try again*
+
+Power Pages uses V1 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token). If any of the embedding items requires V2 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token) embedded report will result in error.
 
 ## Privacy notice  
 
