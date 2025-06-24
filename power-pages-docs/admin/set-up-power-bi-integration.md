@@ -240,7 +240,7 @@ This problem can happen because of multiple reasons such as:
 - [Row-level security](/power-bi/admin/service-admin-rls) in Power BI is enabled but you didn't pass roles in [Power BI component configuration](../getting-started/add-power-bi.md) (Advanced settings), or *roles* parameter in the [powerbi liquid tag](../configure/liquid/dataverse-liquid-tags.md#powerbi).
 - **Embed content in apps** in Power BI [Developer Settings](/power-bi/admin/service-admin-portal#developer-settings) isn't enabled.
   
-*Couldn't load the model schema associated with this report. Make sureyou have a connection to the server, and try again*
+*Couldn't load the model schema associated with this report. Make sure you have a connection to the server, and try again*
 
 Power Pages uses V1 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token). If any of the embedding items requires V2 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token) embedded report will result in error.
 
