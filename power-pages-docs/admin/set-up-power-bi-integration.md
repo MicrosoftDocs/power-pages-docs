@@ -236,7 +236,7 @@ When you render a Power BI report on a webpage, you might see one of the followi
 
 - *A configuration error occurred while rendering your report.*
 
-    This problem can happen for several reasons, such as:
+    This problem can happen for multiple reasons, such as:
 
   - The [Power BI Embedded configuration](#enable-power-bi-embedded-service) is incorrect.
   - [Row-level security](/power-bi/admin/service-admin-rls) in Power BI is enabled, but roles aren't passed in the [Power BI component configuration](../getting-started/add-power-bi.md) (Advanced settings), or in the *roles* parameter in the [powerbi liquid tag](../configure/liquid/dataverse-liquid-tags.md#powerbi).
