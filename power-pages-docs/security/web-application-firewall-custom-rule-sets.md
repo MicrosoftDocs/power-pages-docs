@@ -23,7 +23,7 @@ Configure the custom rules by navigating to Security workspace.
 
 - You must be an admin to configure custom rules.
 - [Web Application Firewall](web-application-firewall.md) must be enabled for the site.
-- Configuring Web Application Firewall custom rules are not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), China, and the UAE region.
+- Configuring Web Application Firewall custom rules aren't available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), China, and the UAE region.
 
 ## Create custom rules
  
