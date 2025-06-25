@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 4/30/2024
+ms.date: 06/25/2025
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -230,19 +230,21 @@ Customizers can now use the [powerbi Liquid tag](../configure/liquid/dataverse-l
 - Power BI visualization functionality isn't available in the China region for Microsoft Entra authentication.
 - For more information about Power BI Embedded service limitations, see [Considerations and limitations](/power-bi/developer/embed-service-principal#considerations-and-limitations).
 
-### Rendering a Power BI report on a webpage fails with the following error:
+### Rendering a Power BI report on a webpage fails with an error
 
-*A configuration error occurred while rendering your report.*
+When you render a Power BI report on a webpage, you might see one of the following errors:
 
-This problem can happen because of multiple reasons such as:
+- *A configuration error occurred while rendering your report.*
 
-- Your [Power BI Embedded configuration](#enable-power-bi-embedded-service) is incorrect.
-- [Row-level security](/power-bi/admin/service-admin-rls) in Power BI is enabled but you didn't pass roles in [Power BI component configuration](../getting-started/add-power-bi.md) (Advanced settings), or *roles* parameter in the [powerbi liquid tag](../configure/liquid/dataverse-liquid-tags.md#powerbi).
-- **Embed content in apps** in Power BI [Developer Settings](/power-bi/admin/service-admin-portal#developer-settings) isn't enabled.
+    This problem can happen for several reasons, such as:
+
+  - The [Power BI Embedded configuration](#enable-power-bi-embedded-service) is incorrect.
+  - [Row-level security](/power-bi/admin/service-admin-rls) in Power BI is enabled, but roles aren't passed in the [Power BI component configuration](../getting-started/add-power-bi.md) (Advanced settings), or in the *roles* parameter in the [powerbi liquid tag](../configure/liquid/dataverse-liquid-tags.md#powerbi).
+  - **Embed content in apps** in Power BI [Developer Settings](/power-bi/admin/service-admin-portal#developer-settings) isn't enabled.
   
-*Couldn't load the model schema associated with this report. Make sure you have a connection to the server, and try again*
+- *Couldn't load the model schema associated with this report. Make sure you have a connection to the server, and try again.*
 
-Power Pages uses V1 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token). If any of the embedding items requires V2 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token) embedded report will result in error.
+  Power Pages uses version 1 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token). If any embedded item requires version 2 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token), you see this error.
 
 ## Privacy notice  
 
