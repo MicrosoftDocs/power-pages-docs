@@ -23,7 +23,7 @@ Web Application Firewall is powered by Azure Front Door, and the policy is confi
 
 ## WAF managed rule sets for Power Pages
 
-[The WAF managed rule sets](web-application-firewall-rule-groups.md) for Power Pages are a subset of Azure-managed rule sets and are updated as needed to protect against new attack signatures.
+[The WAF managed rule sets](configure-managed-rules.md) for Power Pages are a subset of Azure-managed rule sets and are updated as needed to protect against new attack signatures.
 
 The rule sets protect against the following threat categories:
 
@@ -53,5 +53,5 @@ The rule sets protect against the following threat categories:
 
 ### See also
 
-- [Web Application Firewall DRS rule groups and rules for Power Pages](web-application-firewall-rule-groups.md)
+- [Configure managed rules in Web Application Firewall for Power Pages](configure-managed-rules.md)
 - [Configure Web Application Firewall custom rules](web-application-firewall-custom-rule-sets.md)
