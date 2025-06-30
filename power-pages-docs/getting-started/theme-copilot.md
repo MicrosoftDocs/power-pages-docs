@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated color theme for your Power Page
 author: DanaMartens 
 ms.topic: how-to
 ms.custom: 
-ms.date: 10/24/2024
+ms.date: 06/27/2025
 ms.subservice:
 ms.author: bipuldeora
 ms.reviewer: dmartens
@@ -19,7 +19,7 @@ contributors:
 Copilot for theme allows you to create a color theme for your brand from the design studio. After generating the theme using Copilot, you can customize the theme further in the [Styling workspace](style-site.md).
 
 > [!NOTE]
-> This feature is now generally available (GA) for all regions with the exception of DOD.
+> This feature is now generally available (GA) for all regions except for DOD.
 
 To use Copilot for theme:
 
@@ -34,7 +34,7 @@ To use Copilot for theme:
 
     If you select a starter prompt, it appears in the text input field. You can modify these prompts before submitting them.
 
-1. Press the Enter key or select the paper airplane icon in the lower-right corner of the text box to send Copilot your request.
+1. To send Copilot your request, press the Enter key or select the paper airplane icon in the lower-right corner of the text box.
 
     :::image type="content" source="media/theme-copilot/copilot-theme-prompt.svg" alt-text="Screenshot of Power Pages Copilot sidecar with color theme prompts displayed and the paper airplane icon emphasized.":::
 

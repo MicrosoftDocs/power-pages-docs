@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated webpage using Copilot in Power 
 author: ckwan-ms
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/19/2024
+ms.date: 06/27/2025
 ms.subservice:
 ms.author: ckwan
 ms.reviewer: dmartens
@@ -19,7 +19,7 @@ contributors:
 You can create a new page for your site by describing the purpose of the page. Copilot generates the HTML for the page with relevant text copy and images from the description. Copilot adds the page to the main navigation of the site. You can refine and edit it using Copilot and the WYSIWYG editor.
 
 > [!NOTE]
-> This feature is now generally available (GA) for all regions with the exception of DOD.
+> This feature is now generally available (GA) for all regions except for DOD.
 
 ## Generate a webpage
 
@@ -65,7 +65,7 @@ If you don't want to keep the page that Copilot generated, you can:
 - Undo the changes. This action reverts the Copilot changes and deletes the page.
 
 > [!NOTE]
-> Copilot-generated pages will reference images that are saved as [web files](../configure/web-files.md).
+> Copilot-generated pages reference images that are saved as [web files](../configure/web-files.md).
 
 ## Edit a page with Copilot
 
