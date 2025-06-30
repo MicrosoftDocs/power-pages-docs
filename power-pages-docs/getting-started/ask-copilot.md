@@ -1,17 +1,20 @@
 ---
 title: Ask Copilot questions in Power Pages
-description: Get answers to questions using Copilot in Power Pages.
+description: Power Pages Copilot lets you ask questions as you build your site. Get quick help, step-by-step instructions, and boost your productivity.
 author: dmartens
 ms.topic: how-to
-ms.custom: 
-ms.date: 10/24/2024
-ms.subservice:
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:06/27/2025
+ms.date: 06/27/2025
+ms.subservice: null
 ms.author: dmartens
 ms.reviewer: dmartens
-ms.collection: 
-    - bap-ai-copilot
+ms.collection:
+  - bap-ai-copilot
 contributors:
-    - DanaMartens
+  - DanaMartens
 ---
 
 # Ask Copilot questions
@@ -25,7 +28,7 @@ An easy way to get support while building your Power Pages website is to ask Cop
 Remember that you can only ask questions about building your website in Power Pages. If you're unable to get a response, try to ask again by rephrasing your question using smaller sentences. If you're still unsuccessful, you can always find help in the [Microsoft Power Pages documentation](../index.yml) .
 
 > [!NOTE]
-> This feature is now generally available (GA) for all regions with the exception of DOD.
+> This feature is now generally available (GA) for all regions except for DOD.
 
 ## Prerequisites
 
