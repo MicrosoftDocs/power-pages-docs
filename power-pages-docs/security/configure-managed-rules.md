@@ -13,7 +13,15 @@ ms.reviewer: smurkute
 
 When you enable the Web Application Firewall (WAF) for your Power Pages site, a subset of Azure managed rules relevant to Power Pages are turned on by default. For more information on rules and rule groups, see [Web Application Firewall DRS rule groups and rules](/azure/web-application-firewall/afds/waf-front-door-drs?tabs=bot#bot).
 
-If your site has advanced customizations, certain rules can inadvertently block valid requests. In this case, review the WAF logs and selectively disable specific rules.
+## Prerequisites 
+
+- You must be an admin to configure custom rules.
+- [Web Application Firewall](web-application-firewall.md) must be enabled for the site.
+- Configuring Web Application Firewall custom rules aren't available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), China, and the UAE region.
+
+## Enable or disable managed rules in WAF for Power Pages sites
+
+If your site has advanced customizations, certain rules can inadvertently block valid requests. In this case, review the [WAF logs](/power-pages/security/web-application-firewall-logs) and selectively disable specific rules.
 
 To enable or disable managed rules:
 
