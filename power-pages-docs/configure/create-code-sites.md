@@ -79,7 +79,7 @@ pac pages upload-code-site `
   --siteName "Contoso Code Site"
 ```
 
-If you don't have an existing project, try the [sample React SPA site](https://aka.ms/powerpages-samples).
+If you don't have an existing project, try the [sample React SPA site](https://go.microsoft.com/fwlink/?linkid=2326698).
 
 #### Defining Upload Parameters with `powerpages.config.json`
 
