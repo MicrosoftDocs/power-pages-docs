@@ -41,7 +41,7 @@ You'll need the following before configuring WAF for your Power Pages website.
 
 ### Next steps
 
-[Web Application Firewall DRS rule groups and rules for Power Pages](web-application-firewall-rule-groups.md)
+[Configure managed rules in Web Application Firewall for Power Pages](configure-managed-rules.md)
 
 ### See also
 

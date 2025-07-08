@@ -144,6 +144,11 @@
       "source_path": "power-pages-docs/faqs-chatbot.md",
       "redirect_url": "/power-pages/faqs-agent",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/security/web-application-firewall-rule-groups.md",
+      "redirect_url": "/power-pages/security/authentication/configure-managed-rules",
+      "redirect_document_id": "false"
     }
   ]
 }
