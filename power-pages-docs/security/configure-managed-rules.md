@@ -17,7 +17,7 @@ When you enable the [Web Application Firewall (WAF)](web-application-firewall.md
 
 - You must be an admin to configure custom rules.
 - [Web Application Firewall](web-application-firewall.md) must be enabled for the site.
-- Configuring Web Application Firewall custom rules aren't available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), China, and the UAE region.
+- Configuring Web Application Firewall managed rules aren't available in Government Community Cloud (GCC), Government Community Cloud (GCC High), Department of Defense (DoD), China, and the UAE region.
 
 ## Enable or disable managed rules in WAF for Power Pages sites
 
