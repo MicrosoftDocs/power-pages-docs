@@ -2,7 +2,7 @@
 title: Customize your agent
 description: Learn how to customize an agent experience in Microsoft Power Pages in this step-by-step guide.
 ms.topic: how-to
-ms.date: 06/20/2025
+ms.date: 07/09/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -62,6 +62,10 @@ You can customize the agent's style by overriding the default Cascading Style Sh
 
 ### Agent widget
 
+If you have an existing agent created prior to July 2025, you may have a different agent experience than the latest.
+
+# [Classic](#tab/classic)
+
 :::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="Screenshot of the chatbot widget.":::
 
 Agent collapsed icon:
@@ -93,16 +97,56 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 ```
 
-  > [!NOTE]
+ > [!NOTE]
  > Replace `<image URL>` with the actual image source URL. Use an external path or upload an image to the [Web File](../configure/web-files.md) table and use its URL.
+
+# [New](#tab/new)
+
+:::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="Screenshot of the chatbot widget.":::
+
+Agent collapsed icon:
+
+```css
+.pva-embedded-web-chat-widget {
+  background-color: #484644;
+  border: 1px solid #FFFFFF;
+}
+```
+
+Tooltip:
+
+```css
+.pva-embedded-web-chat-widget-tooltip-text {
+  background: white;
+  color: #323130;
+}
+```
+
+Icon image:
+
+```script
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+   var buttons = document.getElementsByClassName("pva-embedded-web-chat-widget");
+    buttons[0].innerHTML = '<img src="<image URL>" height= "70px" width = "70px" />';
+}, false);
+</script>
+```
+
+ > [!NOTE]
+ > Replace `<image URL>` with the actual image source URL. Use an external path or upload an image to the [Web File](../configure/web-files.md) table and use its URL.
+
+---
 
 ### Agent elements
 
-The CSS samples in this section provide examples that show how to customize each of the numbered chatbot elements in the following screenshot.
+The CSS samples in this section provide examples that show how to customize each of the numbered chatbot elements in the following screenshot. Select the tab that matches the experience for your agent.
+
+# [Classic](#tab/classic)
 
 :::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="Screenshot of a chatbot with individual elements called out and numbered.":::
 
-#### 1. Header
+1. Header
 
 ```css
 .pages-chatbot-header
@@ -112,7 +156,7 @@ The CSS samples in this section provide examples that show how to customize each
 }
 ```
 
-#### 2. Height and width settings
+1. Height and width settings
 
 ```css
 .pva-embedded-web-chat[data-minimized='false'] {
@@ -123,7 +167,7 @@ The CSS samples in this section provide examples that show how to customize each
 }
 ```
 
-#### 3. Agent window
+1. Agent window
 
 ```css
 .pva-embedded-web-chat-window {
@@ -131,7 +175,7 @@ The CSS samples in this section provide examples that show how to customize each
 }
 ```
 
-#### 4. Bubble from an agent
+1. Bubble from an agent
 
 Background color:
 
@@ -150,7 +194,7 @@ Text color:
 }
 ```
 
-#### 5. Bubble from the user
+1. Bubble from the user
 
 Background color:
 
@@ -169,7 +213,7 @@ Text color:
 }
 ```
 
-#### 6. Reference links
+1. Reference links
 
 ```css
 .webchat__link-definitions__badge {
@@ -185,7 +229,7 @@ Text color:
 }
 ```
 
-#### 7. Privacy message settings
+1. Privacy message settings
 
 Background color:
 
@@ -204,6 +248,114 @@ Text color:
     font-weight: 400;
 }
 ```
+
+# [New](#tab/new)
+
+1. Header
+
+```css
+.pages-chatbot-header {
+  background: #77a145;
+  color: #ffffff;
+}
+```
+
+1. Height and width settings
+
+```css
+.pva-embedded-web-chat-window-container {
+  height: 80%;
+  width: 25%;
+  max-width: 400px;
+  max-height: 740px;
+}
+```
+
+1. Copilot window
+
+```css
+.pva-embedded-web-chat-window {
+  background: white;
+}
+```
+
+1. Bubble from the copilot
+
+Background color:
+
+```css
+.webchat__bubble:not(.webchat__bubble--from-user)
+.webchat__bubble__content {
+  background-color: #77a145 !important;
+  border-radius: 5px !important;
+}
+```
+
+Text color:
+
+```css
+.webchat__bubble:not(.webchat__bubble--from-user) p {
+  color: #ffffff;
+}
+```
+
+1. Bubble from the user
+
+Background color:
+
+```css
+.webchat__bubble.webchat__bubble--from-user
+.webchat__bubble__content {
+  background-color: #797d81 !important;
+  border-radius: 5px !important;
+}
+```
+
+Text color:
+
+```css
+.webchat__bubble.webchat__bubble--from-user p {
+  color: #ffffff;
+}
+```
+
+1. Reference links
+
+```css
+.webchat__link-definitions__badge {
+  color: blue !important;
+}
+
+.webchat__link-definitions__list-item-text {
+  color: blue !important;
+}
+
+.webchat__render-markdown__pure-identifier {
+  color: blue !important;
+}
+```
+
+1. Privacy message settings
+
+Background color:
+
+```css
+.pva-privacy-message {
+  background: #797d81;
+}
+```
+
+Text color:
+
+```css
+.pva-privacy-message p {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+```
+
+---
 
 ## Related information
 
