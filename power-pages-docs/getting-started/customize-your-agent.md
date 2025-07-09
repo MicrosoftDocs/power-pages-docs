@@ -146,7 +146,7 @@ The CSS samples in this section provide examples that show how to customize each
 
 :::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="Screenshot of a chatbot with individual elements called out and numbered.":::
 
-1. Header
+## 1 - Header
 
 ```css
 .pages-chatbot-header
@@ -156,7 +156,7 @@ The CSS samples in this section provide examples that show how to customize each
 }
 ```
 
-1. Height and width settings
+## 2- Height and width settings
 
 ```css
 .pva-embedded-web-chat[data-minimized='false'] {
@@ -167,7 +167,7 @@ The CSS samples in this section provide examples that show how to customize each
 }
 ```
 
-1. Agent window
+## 3 - Agent window
 
 ```css
 .pva-embedded-web-chat-window {
@@ -175,7 +175,7 @@ The CSS samples in this section provide examples that show how to customize each
 }
 ```
 
-1. Bubble from an agent
+## 4- Bubble from an agent
 
 Background color:
 
@@ -194,7 +194,7 @@ Text color:
 }
 ```
 
-1. Bubble from the user
+## 5 - Bubble from the user
 
 Background color:
 
@@ -213,7 +213,7 @@ Text color:
 }
 ```
 
-1. Reference links
+## 6 - Reference links
 
 ```css
 .webchat__link-definitions__badge {
@@ -229,7 +229,7 @@ Text color:
 }
 ```
 
-1. Privacy message settings
+## 7 - Privacy message settings
 
 Background color:
 
@@ -251,7 +251,9 @@ Text color:
 
 # [New](#tab/new)
 
-1. Header
+:::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="Screenshot of a chatbot with individual elements called out and numbered.":::
+
+## 1 - Header
 
 ```css
 .pages-chatbot-header {
@@ -260,7 +262,7 @@ Text color:
 }
 ```
 
-1. Height and width settings
+## 2 - Height and width settings
 
 ```css
 .pva-embedded-web-chat-window-container {
@@ -271,7 +273,7 @@ Text color:
 }
 ```
 
-1. Copilot window
+## 3 - Copilot window
 
 ```css
 .pva-embedded-web-chat-window {
@@ -279,7 +281,7 @@ Text color:
 }
 ```
 
-1. Bubble from the copilot
+## 4 - Bubble from the copilot
 
 Background color:
 
@@ -299,7 +301,7 @@ Text color:
 }
 ```
 
-1. Bubble from the user
+## 5 - Bubble from the user
 
 Background color:
 
@@ -319,7 +321,7 @@ Text color:
 }
 ```
 
-1. Reference links
+## 6 - Reference links
 
 ```css
 .webchat__link-definitions__badge {
@@ -335,7 +337,7 @@ Text color:
 }
 ```
 
-1. Privacy message settings
+## 7 - Privacy message settings
 
 Background color:
 
