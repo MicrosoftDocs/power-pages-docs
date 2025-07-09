@@ -18,7 +18,7 @@ ms.custom:
   - bap-template
 ---
 
-# Add an agent - overview
+# What is an agent?
 
 An agent makes your Microsoft Power Pages site more helpful by giving instant support to users. In minutes, you add an agent that gives natural language responses to visitor questions, improves the user experience, and boosts satisfaction.
 
@@ -29,9 +29,11 @@ You can add an agent to your site in two main ways. The method you choose sets t
 
 To let one agent both answer questions and help users create records, start with the set up workspace option. Later, add form-based capabilities to the same agent instead of creating a new one. Or, create separate agents for different tasks. If your site has multiple agents, visitors see all the agents they can use in the chat window and can switch between them as needed.
 
-<Add screenshot showing multiple agents>
+:::image type="content" source="media/add-agent-overview/multiple-agents.png" alt-text="Screenshot of the agent experience when multiple agents are available.":::
 
-<Add screenshot showing an agent open>
+After you select a specific agent, the experience for that agent appears. To get back to the list of agents, select the button in the upper-right corner.
+
+:::image type="content" source="media/add-agent-overview/agent.png" alt-text="Screenshot of an agent in a Power Pages site.":::
 
 ## Extend or customize an agent
 
