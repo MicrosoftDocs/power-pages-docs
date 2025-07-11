@@ -243,8 +243,8 @@ The following sections provide more details about different properties of the "*
 > [!NOTE]
 > - When you download a portal from *Environment A* and later upload it into *Environment B*, PAC CLI always performs a *full* upload. This is because change tracking relies on local [Manifest Files](#manifest-files), which do not carry state information across environments. Only when you *download* and *upload* within the *same* environment can PAC CLI local file changes and only upload updated files. To learn more about how change tracking works, see [Manifest Files](#manifest-files).
 > - Recommended when to use *--forceUploadAll*. (This parameter is currently CLI-only. The Azure DevOps asks do *not* surface it yet.)
->  - *Pipeline state drift* (you rebased or cherry-picked commits so the last server state no longer matches your branch).  
->  - *Suspected delta failure* (e.g., only partial changes appeared after a normal `upload`).
+>   - *Pipeline state drift* (you rebased or cherry-picked commits so the last server state no longer matches your branch).  
+>   - *Suspected delta failure* (e.g., only partial changes appeared after a normal `upload`).
 
 #### Use deployment profile
 
