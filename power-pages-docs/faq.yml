@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.custom: 
   ms.subservice: 
-  ms.date: 02/27/2023
+  ms.date: 07/11/2025
   ms.author: bipuldeora
   ms.reviewer: dmartens
   contributors:
@@ -22,6 +22,11 @@ summary: |
 sections:
   - name: General
     questions:
+      - question: |
+          Are provider names in site settings case sensitive, and what happens if I add duplicates with different casing?
+        answer: |
+          Provider names in site settings are case insensitive. If you add duplicate providers that differ only by case (for example, `Authentication/OpenIdConnect/OpenId_3/Authority` and `Authentication/OpenIdConnect/OPENID_3/Authority`), they are considered the same and will create a conflict. Any duplicate providers will not be enabled on the portal.
+      
       - question: |
           How do I track changes to Power Pages configuration?
         answer: |
