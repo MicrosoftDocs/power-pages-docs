@@ -3,7 +3,7 @@ title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: DanaMartens
 ms.topic: how-to
-ms.date: 03/05/2025
+ms.date: 07/07/2025
 ms.author: bipuldeora
 ms.reviewer: danamartens
 ms.collection:
@@ -222,6 +222,29 @@ AI form fill can't be enabled, and users can't use it under the following condit
 - The site is part of an environment where admins disabled data across regions. Learn more about allowing data to cross regions at [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 - The form is highly customized with custom JavaScript or styles. In such cases, add a [site setting](../configure/configure-site-settings.md) for the site with the site setting name `Forms/{FormId}/EnableGenAIFormsAssistant` and set the value to `true`. Replace `{FormId}` with the ID for your form. You can find the ID of a form at the end of the URL when you open a form in the Data workspace.
 
+## Dataverse data type support for GenAI forms
+
+| Dataverse data type | Description | Power Pages form component| Notes | Supported on GenAI forms |
+|----------------------|-------------|-------------------------|----------|--------------|
+| **Text**    | Single line of text.    | Text box   | Use for short text inputs.    | Yes  |
+| **Text area**  | Multiple lines of text.| Text area  | Use for longer text entries.| Yes   |
+| **Email**  | Email addresses. | Text box with email format  | Checks for proper email formatting.| Yes |
+| **URL** | Web addresses.  | Text box with URL format  | Checks for valid URL structure. | Yes |
+| **Phone** | Phone numbers.| Text box with phone format  | Formats phone numbers appropriately. | Yes |
+| **Rich text**  | Formatted text with HTML support.     | Rich text editor | Lets you format rich text. | Yes |
+| **Choice**| Single selection from predefined options. | Dropdown list | The user selects one option from a list.| Yes |
+| **Whole number**| Integer values. | Number input | For whole number entries. | Yes  |
+| **Decimal number** | Decimal values.  | Number input | For precise decimal entries.  | Yes   |
+| **Currency**   | Monetary values.  | Currency input  | Displays currency symbols and formats.| Yes   |
+| **Date only**  | Date without time. | Date picker | Lets you select dates.  | Yes    |
+| **Date and time** | Date with time.  | Date and time picker  | Lets you select date and time.  | Yes  |
+| **Choices**  | Multiple selections from predefined options. | Multi-select list | The user can select multiple options.  | Yes  |
+| **Yes/No (two options)** | Boolean values. | Toggle switch or checkbox  | Represents true or false, or yes or no values.| Yes    |
+| **File**   | Binary file data.  | File upload | Let you upload files.  | No  |
+| **Image** | Image files.  | Image upload  | Lets you upload image files.  | No  |
+| **Ticker symbol**  | Stock ticker symbols. | Text box  | Can be linked to financial data sources.  | No  |
+| **Lookup**   | Reference to another table.  | Lookup field  | Lets you select related records from a dropdown.| No   |
+
 ## Known Limitations
 
 1. The AI form fill is only available on:
@@ -231,6 +254,8 @@ AI form fill can't be enabled, and users can't use it under the following condit
     Forms used to edit Dataverse records don't have the AI form fill capability.
 
 1. For new forms created, ensure you add the right table permissions before enabling AI form fill.
+
+1. To see unsupported data types refer to the [Dataverse data type table](#dataverse-data-type-support-for-genai-forms).
 
 ## See also
 

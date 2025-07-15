@@ -168,7 +168,7 @@
                   href: getting-started/add-list.md
                 - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
-                - name: Add AI summary list (preview)
+                - name: Add AI features in a list (preview)
                   href: getting-started/add-ai-summary-list.md
                 - name: Add a form manually
                   href: getting-started/add-form.md
@@ -226,20 +226,20 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add a copilot
+        - name: Add an agent
           items:
-            - name: Add a copilot
-              href: getting-started/enable-chatbot.md
-            - name: Customize your copilot
-              href: getting-started/customize-your-copilot.md
+            - name: Add an agent
+              href: getting-started/enable-agent.md
+            - name: Customize your agent
+              href: getting-started/customize-your-agent.md
             - name: Generate answers from public data using Bing search
               href: getting-started/force-bing-index.md
-            - name: Replace copilot with a Microsoft Copilot Studio copilot
-              href: getting-started/pva-bot-how-to.md
-            - name: Configure Omnichannel with site copilot
+            - name: Replace agent with a Microsoft Copilot Studio agent
+              href: getting-started/agent-how-to.md
+            - name: Configure Omnichannel with site agent
               href: configure/omnichannel.md
-            - name: Manage copilot provisioning
-              href: getting-started/manage-copilot-provisioning.md
+            - name: Manage agent provisioning
+              href: getting-started/manage-agent-provisioning.md
         - name: Progressive web applications
           items:
             - name: Overview
@@ -748,8 +748,8 @@
           href: security/web-application-firewall.md
         - name: Configure Web Application Firewall
           href: security/configure-web-application-firewall.md
-        - name: Web Application Firewall rule groups
-          href: security/web-application-firewall-rule-groups.md
+        - name: Configure managed rules in Web Application Firewall
+          href: security/configure-managed-rules.md
         - name: Web Application Firewall custom rule sets
           href: security/web-application-firewall-custom-rule-sets.md
         - name: Web Application Firewall logs
@@ -802,8 +802,8 @@
       href: responsible-ai-overview.md
     - name: FAQ for site creation
       href: faqs-generate-site.md
-    - name: FAQ for site copilot
-      href: faqs-chatbot.md
+    - name: FAQ for site agent
+      href: faq-site-agent.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
     - name: FAQ for creating form
@@ -814,7 +814,7 @@
       href: faqs-pro-developer.md
     - name: FAQ for generative AI search
       href: faqs-generative-ai-search.md
-    - name: FAQ for the AI summary list
+    - name: FAQ for AI features in a list
       href: faqs-ai-summary-list.md
     - name: FAQ for data summarization API
       href: faqs-data-summarization.md

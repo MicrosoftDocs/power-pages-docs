@@ -1,9 +1,9 @@
 ---
-title: How to - Add Copilot summarization to case page (preview)
+title: Add Copilot summarization to case page (Preview)
 description: Learn how to add Copilot summarization to the case page in Power Pages.
 author: nageshbhat-msft
 ms.topic: how-to
-ms.date: 04/29/2025
+ms.date: 06/27/2025
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
