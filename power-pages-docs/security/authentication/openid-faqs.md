@@ -1,7 +1,7 @@
 ---
 title: FAQs about using OpenID Connect in Power Pages
 description: Get answers to frequently asked questions about using OpenID Connect providers for authentication on sites you create with Microsoft Power Pages.
-ms.date: 05/28/2025
+ms.date: 07/11/2025
 ms.topic: faq
 author: DanaMartens
 ms.author: bipuldeora
@@ -15,6 +15,10 @@ ms.custom: bap-template
 # FAQs about using OpenID Connect in Power Pages
 
 This article provides information about common Power Pages scenarios and answers to frequently asked questions about using an authentication provider that conforms to the [OpenID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
+
+## Can you set up the built-in Entra ID provider as a separate OpenID provider?
+
+No, you can't set up the default Entra ID provider as a separate OpenID provider.
 
 ## Do I need an OpenID Connect autodiscovery document to integrate with Power Pages?
 
