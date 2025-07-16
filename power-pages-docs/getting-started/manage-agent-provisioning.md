@@ -3,6 +3,7 @@ title: Manage agent provisioning
 description: Learn how to manage default agent provisioning in Microsoft Power Pages by using PowerShell scripts.
 ms.topic: how-to
 ms.date: 06/17/2025
+ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
