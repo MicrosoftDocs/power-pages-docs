@@ -3,6 +3,7 @@ title: Add an agent to your Power Pages site
 description: Learn how to add an agent to a Microsoft Power Pages site for quicker customer support and an improved user experience.
 ms.topic: how-to
 ms.date: 06/17/2025
+ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens

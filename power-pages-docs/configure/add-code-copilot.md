@@ -5,6 +5,7 @@ author: neerajnandwana-msft
 ms.topic: how-to
 ms.custom: 
 ms.date: 06/27/2025
+ms.update-cycle: 180-days
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: dmartens

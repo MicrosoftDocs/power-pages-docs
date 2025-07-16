@@ -4,6 +4,7 @@ description: Discover how to add and customize forms in Power Pages, including e
 author: DanaMartens
 ms.topic: how-to
 ms.date: 07/07/2025
+ms.update-cycle: 180-days
 ms.author: bipuldeora
 ms.reviewer: danamartens
 ms.collection:
