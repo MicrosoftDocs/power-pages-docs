@@ -4,6 +4,7 @@ description: Learn more about how the AI features in a list works to simplify an
 author: neerajnandwana-msft
 ms.topic: how-to
 ms.date: 06/11/2025
+ms.update-cycle: 180-days
 ms.author: nenandw
 ms.reviewer: dmartens
 ms.collection:

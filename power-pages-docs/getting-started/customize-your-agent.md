@@ -3,6 +3,7 @@ title: Customize your agent
 description: Learn how to customize an agent experience in Microsoft Power Pages in this step-by-step guide.
 ms.topic: how-to
 ms.date: 06/20/2025
+ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens

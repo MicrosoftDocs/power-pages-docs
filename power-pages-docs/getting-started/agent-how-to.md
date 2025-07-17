@@ -3,6 +3,7 @@ title: Replace default agent with an agent customized using Microsoft Copilot St
 description: Learn how to replace the default Power Pages agent with another agent available in Microsoft Copilot Studio.
 ms.topic: how-to
 ms.date: 06/17/2025
+ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
