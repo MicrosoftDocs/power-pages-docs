@@ -10,6 +10,7 @@ contributors:
     - GitanjaliSingh33msft
     - dileepsinghmicrosoft
     - nabha-msft
+ms.custom: sfi-ropc-nochange
 ---
 
 # Use OAuth 2.0 implicit grant flow in your Power Pages site

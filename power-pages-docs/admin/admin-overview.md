@@ -3,12 +3,14 @@ title: Use the admin center
 description: Learn how to use the Power Pages admin center.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.custom: 
 ms.date: 07/10/2024
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - DanaMartens
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ga-nochange
 ---
 
 # Use the admin center

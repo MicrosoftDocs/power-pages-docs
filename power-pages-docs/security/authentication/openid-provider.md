@@ -10,7 +10,9 @@ contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
     - nageshbhat-msft
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - sfi-ropc-nochange
 ---
 
 # Set up an OpenID Connect provider

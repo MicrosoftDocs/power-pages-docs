@@ -8,6 +8,7 @@ ms.date: 11/19/2024
 ms.author: pudupa
 ms.reviewer: dmartens
 ms.custom:
+  - sfi-image-nochange
 - ai-gen-docs-bap
 - ai-gen-description
 - ai-seo-date:11/19/2024
