@@ -5,7 +5,7 @@ author: DanaMartens
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 04/10/2023
+ms.date: 07/22/2025
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: dmartens
@@ -97,6 +97,8 @@ The table below shows all the languages currently available out of the box. This
 
 ## Create content in multiple languages
 
+### Add an existing and supported language
+
 1. Open the [Portal Management app](portal-management-app.md).
 2. Go to **Website** > **Content** > **Web Pages** to see a list of content. For each webpage, there will be a parent version of the page and a child version of the page for each language activated for the website.
 3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
@@ -112,6 +114,65 @@ Knowledge articles will only be displayed if they've been translated into the la
 Web link sets are the navigation links at the top of the portal. In the Portal Management app, go to **Content** > **Web Link Sets** to update the translated text of the menu items. When a language is active for the website, a new set of links is created for the newly activated language.
 
 :::image type="content" source="media/multi-language/active-weblink-new-language.png" alt-text="Active web link for new language":::
+
+### Add custom language
+
+1. Open Power Pages home and select environment where site present.
+1. Select the site and click Edit to open the studio 
+1. Click on More Items (…) to open the Portal Management App  
+1. In the Supported Languages sub grid, click on ‘New Website Language’ 
+1. Click search icon in Portal Language lookup 
+    :::image type="content" source="media/multi-language/new-custom-language.png" alt-text="New Website Language page showing Portal language option"::: 
+1. Click on New
+1. Click on Discard changes button 
+1. Enter the new language details
+    :::image type="content" source="media/multi-language/new-portal-language.png" alt-text="New Portal Language page showing field to enter new language details":::
+    > [!NOTE]
+    > Dynamics 365 language should be any of the 43 language supported by Pages for example 1033 for English
+1. Click Save & Close
+1. Select recently created Language in Portal Language field
+1. Update Publishing State to Published
+1. Click Save & Close 
+
+> [!NOTE]
+> As we created our own custom language, Dataverse would not be a default translation. You will be required to create your own content snippets.
+
+#### Create content snippet
+
+To create content snippet first you need to add site setting. To add site setting follow these steps:
+
+1. Click on Site Settings tab
+1. Add ‘Site/EnableContentSnippetTranslationForForms’ and set value ‘true’
+    :::image type="content" source="media/multi-language/new-portal-language.png" alt-text="New Portal Language page showing field to enter new language details":::
+1. Click on Save and Close
+
+Now, to add content snippet, set the translation, for example Update the Title, Regarding, Source & Comments label translation to Welsh language.
+     :::image type="content" source="media/multi-language/enter-translation-details.png" alt-text="Screen showing field to enter language translation details":::
+1. Select Content Snippet from Related
+    :::image type="content" source="media/multi-language/content-snippet-option.png" alt-text="Screen showing Related drop down with Content snippets option highlighted":::
+1. Click New Content Snippet
+1. Provide the Name. Ex : “Feedback Form”, this will be used later
+1. Enter value in json format for each label. Ex:
+ {
+      "Title":"Teitl",
+      "Regarding":"ynghylch",
+      "Source":"ffynhonnell",
+      "Comments":"sylw"
+}
+    :::image type="content" source="media/multi-language/details-filled-content-snippet.png" alt-text="Screen showing filled details in content snippet":::
+1. Click Save & Close
+1. Click on Basic Forms tab. Same steps can be followed for multi-step form and list
+1. Click on the form which labels you want to translate
+1. After selected form is opened, click on Basic Form Metadata tab
+1. Click New Basic Form Metadata
+1. Select the Type as Attribute
+1. Select the field for which label needs to be translated
+1. Enter the value in Label for English (United States) in this format.  [[ContentSnippet.{<content-snippet-name>}.<fieldName>]]
+    Ex: [[ContentSnippet.{Feedback Form}.Title]]
+1. Click Save and Close
+1. Repeat same for other fields
+1. Clear the cache and launch the site
+
 
 ## View website in a different language
 
