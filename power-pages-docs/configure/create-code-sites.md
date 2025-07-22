@@ -7,7 +7,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:05/20/2025
-ms.date: 07/03/2025
+ms.date: 07/22/2025
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -43,7 +43,7 @@ Before you begin, make sure you have:
 - A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions).
 - [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.44.x or later installed and authenticated.
 - A Power Pages site on version 9.7.4.x or later.
-- A local Git repository with your custom frontend project, like React, Angular, Vue.
+- A local Git repository with your custom frontend project, such as React, Angular or Vue.
 
 ## Create and deploy an SPA site
 
