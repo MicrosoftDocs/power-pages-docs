@@ -4,6 +4,7 @@ description: Learn how to add Copilot summarization to the case page in Power Pa
 author: nageshbhat-msft
 ms.topic: how-to
 ms.date: 06/27/2025
+ms.update-cycle: 180-days
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:

@@ -5,6 +5,7 @@ author: DanaMartens
 ms.topic: faq
 ms.custom: responsible-ai-faqs
 ms.date: 02/05/2025
+ms.update-cycle: 180-days
 ms.author: bipuldeora
 ms.reviewer: dmartens
 ms.collection: 
