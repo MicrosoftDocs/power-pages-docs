@@ -95,27 +95,15 @@ The following table shows all the languages currently available out of the box. 
 | Ukrainian - Ukraine                | uk-UA             | 1058     | українська              |
 | Vietnamese - Vietnam               | vi-VN             | 1066     | Tiếng Việt              |
 
-## Create content in multiple languages
+## Add custom language
 
-### Add an existing and supported language
+This section explains how to enable support for additional languages beyond those provided by Dataverse, allowing you to customize your website's language options.
 
-1. Open the [Portal Management app](portal-management-app.md).
-2. Go to **Website** > **Content** > **Web Pages** to see a list of content. For each webpage, there will be a parent version of the page and a child version of the page for each language activated for the website.
-3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
-4. Select **+ New Web Page** on to create a lookup for the localized version.
+> [!NOTE]
+> - System messages, like platform dialogs and error messages, aren't translated into custom languages. System messages use the base language selected when creating a new language.  
+> - This is supported only for the standard data model (SDM).
 
-    :::image type="content" source="media/multi-language/add-new-localized-content.png" alt-text="Add new localized content":::
-
-> [!Note]
-> The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
-
-Knowledge articles will only be displayed if they've been translated into the language the user sets the website to be displayed in. However, forums and blogs allow for more control over how they're presented in other languages. Specifying a language for a forum or blog is optional. If a language isn't specified, the forum or blog will be displayed in the primary language of the organization. If you want the forum or blog specific to a language, you must create it and assign the language to it.
-
-Web link sets are the navigation links at the top of the portal. In the Portal Management app, go to **Content** > **Web Link Sets** to update the translated text of the menu items. When a language is active for the website, a new set of links is created for the newly activated language.
-
-:::image type="content" source="media/multi-language/active-weblink-new-language.png" alt-text="Active web link for new language":::
-
-### Add custom language
+If you want to add custom languages, follow these steps:
 
 1. Go to [Power Pages home](https://make.powerpages.microsoft.com) and select the environment where the site is located. 
 1. Select the site and select **Edit** to open the studio.  
@@ -137,9 +125,29 @@ Web link sets are the navigation links at the top of the portal. In the Portal M
 1. Select **Save & Close**.  
 
 > [!NOTE]
-> As we create our own custom language, Dataverse isn't a default translation. You need to create your own content snippets.
+> As we create our own custom language, Dataverse isn't a default translation. You need to create your own [content snippets](#create-content-snippet-for-custom-language).
 
-#### Create content snippet
+## Create content in multiple languages
+
+### Add an existing and supported language
+
+1. Open the [Portal Management app](portal-management-app.md).
+2. Go to **Website** > **Content** > **Web Pages** to see a list of content. For each webpage, there will be a parent version of the page and a child version of the page for each language activated for the website.
+3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
+4. Select **+ New Web Page** on to create a lookup for the localized version.
+
+    :::image type="content" source="media/multi-language/add-new-localized-content.png" alt-text="Add new localized content":::
+
+> [!Note]
+> The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
+
+Knowledge articles will only be displayed if they've been translated into the language the user sets the website to be displayed in. However, forums and blogs allow for more control over how they're presented in other languages. Specifying a language for a forum or blog is optional. If a language isn't specified, the forum or blog will be displayed in the primary language of the organization. If you want the forum or blog specific to a language, you must create it and assign the language to it.
+
+Web link sets are the navigation links at the top of the portal. In the Portal Management app, go to **Content** > **Web Link Sets** to update the translated text of the menu items. When a language is active for the website, a new set of links is created for the newly activated language.
+
+:::image type="content" source="media/multi-language/active-weblink-new-language.png" alt-text="Active web link for new language":::
+
+### Create content snippet for custom language
 
 To create a content snippet, you first add a site setting. Follow these steps to add the site setting:
 
@@ -174,11 +182,6 @@ To add a content snippet, set the translation. For example, update the Title, Re
 1. Select **Save & Close**.  
 1. Repeat the same steps for other fields.
 1. Clear the cache, and launch the site.
-
-#### Considerations
-
-1. System messages, like platform dialogs and error messages, aren't translated into custom languages. System messages use the base language selected when creating a new language.  
-1. This is supported only for the standard data model (SDM).
 
 ## View website in a different language
 
