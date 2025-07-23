@@ -125,8 +125,10 @@ Web link sets are the navigation links at the top of the portal. In the Portal M
     :::image type="content" source="media/multi-language/new-custom-language.png" alt-text="New Website Language page showing Portal language option"::: 
 1. Select **New**.  
 1. Select the **Discard changes** button.  
-1. Enter the details for the new language.  
-    :::image type="content" source="media/multi-language/new-portal-language.png" alt-text="New Portal Language page showing field to enter new language details":::
+1. Enter the details for the new language. 
+    > [!NOTE]
+    > Enter the Dataverse LCID in the Dynamics 365 language field, and the Power Pages LCID in the LCID field.
+    :::image type="content" source="media/multi-language/new-portal-language.png" alt-text="Screenshot of the New Portal Language page showing field to enter new language details":::
     > [!NOTE]
     > Dynamics 365 language must be one of the 43 languages supported by Pages, such as 1033 for English.  
 1. Select **Save & Close**.  
@@ -143,7 +145,7 @@ To create a content snippet, you first add a site setting. Follow these steps to
 
 1. Select the **Site Settings** tab.
 1. Add `Site/EnableContentSnippetTranslationForForms` and set its value to `true`.
-     :::image type="content" source="media/multi-language/new-portal-language.png" alt-text="Screenshot of the New Portal Language page showing a field to enter new language details.":::
+     :::image type="content" source="media/multi-language/site-setting-content-snippet.png" alt-text="Screenshot of the site setting page.":::
 1. Select **Save and Close**.
 
 To add a content snippet, set the translation. For example, update the Title, Regarding, Source, and Comments label translations to Welsh.
