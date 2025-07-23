@@ -66,7 +66,7 @@ If you have an existing agent created prior to July 2025, you may have a differe
 
 # [Classic](#tab/classic)
 
-:::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="Screenshot of the chatbot widget.":::
+:::image type="content" source="media/enable-chatbot/open-chat-window-css.svg" alt-text="Screenshot of the classic chatbot widget.":::
 
 Agent collapsed icon:
 
@@ -144,7 +144,7 @@ The CSS samples in this section provide examples that show how to customize each
 
 # [Classic](#tab/classic)
 
-:::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="Screenshot of a chatbot with individual elements called out and numbered.":::
+:::image type="content" source="media/enable-chatbot/chatbot-css-legacy.svg" alt-text="Screenshot of a classic chatbot with individual elements called out and numbered.":::
 
 ### 1 - Header
 
@@ -251,7 +251,7 @@ Text color:
 
 # [New](#tab/new)
 
-:::image type="content" source="media/enable-chatbot/chatbot-css.svg" alt-text="Screenshot of a chatbot with individual elements called out and numbered.":::
+:::image type="content" source="media/enable-chatbot/chatbot-css.png" alt-text="Screenshot of a chatbot with individual elements called out and numbered.":::
 
 ### 1 - Header
 

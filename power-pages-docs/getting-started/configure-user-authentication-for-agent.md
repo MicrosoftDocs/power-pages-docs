@@ -4,7 +4,7 @@ description: 'User authentication for agents: Learn how to set up single sign-on
 author: DanaMartens
 contributors: null
 ms.topic: how-to
-ms.date: 06/20/2025
+ms.date: 07/23/2025
 ms.author: dmartens
 ms.reviewer: dmartens
 ms.custom:

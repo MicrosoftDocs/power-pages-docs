@@ -4,7 +4,7 @@ description: Learn how to create, configure, and customize AI agents directly fr
 author: DanaMartens
 contributors:
 ms.topic: how-to
-ms.date: 06/20/2025
+ms.date: 07/23/2025
 ms.author: dmartens
 ms.reviewer: dmartens
 ---
@@ -38,9 +38,9 @@ Create an agent directly from forms to streamline the manual process.
 
 1. Select **Agent**.
 
-:::image type="content" source="media/build-agent-from-form/agent-button.png" alt-text="Screenshot of clicking the Agent button in a Power Pages form to build an agent.":::
+    :::image type="content" source="media/build-agent-from-form/agent-button.png" alt-text="Screenshot of clicking the Agent button in a Power Pages form to build an agent.":::
 
-The *Add Agent* dialog opens. Create a new agent or extend an existing one for the selected form. The dialog has these configuration options:
+    The *Add Agent* dialog opens. Create a new agent or extend an existing one for the selected form. The dialog has these configuration options:
 
 1. Describe the purpose of the form, and give instructions to the agent. These instructions help the agent know when to trigger based on user input.
 
@@ -48,19 +48,19 @@ The *Add Agent* dialog opens. Create a new agent or extend an existing one for t
 
 1. Enter a name for the new agent, or select an existing agent from Microsoft Copilot Studio.
 
-> [!NOTE]
-> Only agents created from Power Pages are available for selection.
+    > [!NOTE]
+    > Only agents created from Power Pages are available for selection.
 
 1. Select **Continue**. If you choose to create a new agent, Microsoft Copilot Studio creates it. If you select an existing agent, Microsoft Copilot Studio updates it.
 
-By default, authentication isn't set up when you create an agent in Microsoft Copilot Studio. Set up [authentication](configure-user-authentication-for-agent.md) manually in the Copilot Studio editor.
+    By default, authentication isn't set up when you create an agent in Microsoft Copilot Studio. Set up [authentication](configure-user-authentication-for-agent.md) manually in the Copilot Studio editor.
 
 1. Under **Choose Roles for this Agent**, select **Add Roles** to assign web roles, and control which users can use the agent based on their assigned roles.
 
 1. Under **Tables and columns for Web API**, select the checkbox to let the agent use table permissions for the table related to the form. The agent uses the [Power Pages Web API](../configure/web-api-overview.md), which needs extra site settings. Selecting this checkbox automatically creates the required site setting.
 
-> [!NOTE]
-> This configuration lets the agent use all fields in the selected table. To limit access to specific fields, update the [site settings](../configure/web-api-overview.md#site-settings-for-the-web-api) in the [Management App](/power-pages/configure/portal-management-app).
+    > [!NOTE]
+    > This configuration lets the agent use all fields in the selected table. To limit access to specific fields, update the [site settings](../configure/web-api-overview.md#site-settings-for-the-web-api) in the [Management App](/power-pages/configure/portal-management-app).
 
 1. Select **Continue**.
 1. Select **Publish** to make the agent available from the Power Pages site.

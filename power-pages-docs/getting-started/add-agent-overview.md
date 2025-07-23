@@ -2,7 +2,7 @@
 title: Add an agent - overview
 description: Learn how to add an agent to a Microsoft Power Pages site for quicker customer support and an improved user experience.
 ms.topic: overview
-ms.date: 06/20/2025
+ms.date: 07/23/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -33,7 +33,7 @@ To let one agent both answer questions and help users create records, start with
 
 After you select a specific agent, the experience for that agent appears. To get back to the list of agents, select the button in the upper-right corner.
 
-:::image type="content" source="media/add-agent-overview/agent.png" alt-text="Screenshot of an agent in a Power Pages site.":::
+:::image type="content" source="media/add-agent-overview/agent.png" alt-text="Screenshot of a selected agent in a Power Pages site.":::
 
 ## Extend or customize an agent
 
