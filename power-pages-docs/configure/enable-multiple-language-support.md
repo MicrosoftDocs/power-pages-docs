@@ -173,6 +173,10 @@ To add a content snippet, set the translation. For example, update the Title, Re
 1. Repeat the same steps for other fields.
 1. Clear the cache, and launch the site.
 
+#### Considerations
+
+1. System messages, like platform dialogs and error messages, aren't translated into custom languages. System messages use the base language selected when creating a new language.  
+1. This is supported only for the standard data model (SDM).
 
 ## View website in a different language
 
