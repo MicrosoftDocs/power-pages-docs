@@ -4,7 +4,8 @@ description: Learn how to create an AI-generated site using Copilot in Power Pag
 author: sampatn
 ms.topic: how-to
 ms.custom: 
-ms.date: 10/24/2024
+ms.date: 06/27/2025
+ms.update-cycle: 180-days
 ms.subservice:
 ms.author: sampatn
 ms.reviewer: dmartens
@@ -24,7 +25,7 @@ Copilot generates the contextual site name, site address, home page layout, and 
 :::image type="content" source="media/create-site-copilot/copilot-create-site.png" alt-text="The Copilot on Power Pages home with an input field for users to enter a description of the site emphasized.":::
 
 > [!NOTE]
-> This feature is now generally available (GA) for all regions with the exception of DOD.
+> This feature is now generally available (GA) for all regions except for DOD.
 
 ## Prerequisites
 
@@ -53,7 +54,7 @@ Site creation can take a few minutes. When finished, you're redirected to the si
 
 >[!NOTE]
 >
-> - Copilot-generated pages will reference images that are saved as [web files](../configure/web-files.md).
+> - Copilot-generated pages reference images that are saved as [web files](../configure/web-files.md).
 
 ## Next steps
 

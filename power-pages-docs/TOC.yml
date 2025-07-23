@@ -758,8 +758,8 @@
           href: security/web-application-firewall.md
         - name: Configure Web Application Firewall
           href: security/configure-web-application-firewall.md
-        - name: Web Application Firewall rule groups
-          href: security/web-application-firewall-rule-groups.md
+        - name: Configure managed rules in Web Application Firewall
+          href: security/configure-managed-rules.md
         - name: Web Application Firewall custom rule sets
           href: security/web-application-firewall-custom-rule-sets.md
         - name: Web Application Firewall logs

@@ -7,7 +7,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:05/20/2025
-ms.date: 05/20/2025
+ms.date: 07/22/2025
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -41,9 +41,9 @@ This article shows you how to:
 Before you begin, make sure you have:
 
 - A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions).
-- [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.43.x or later installed and authenticated.
+- [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.44.x or later installed and authenticated.
 - A Power Pages site on version 9.7.4.x or later.
-- A local Git repository with your custom frontend project, like React.
+- A local Git repository with your custom frontend project, such as React, Angular or Vue.
 
 ## Create and deploy an SPA site
 
@@ -79,7 +79,7 @@ pac pages upload-code-site `
   --siteName "Contoso Code Site"
 ```
 
-If you don't have an existing project, try the [sample React SPA site](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/bring-your-own-code-samples/react-sample).
+If you don't have an existing project, try the [sample implementations of a SPA sites using React, Angular, and Vue](https://go.microsoft.com/fwlink/?linkid=2326698).
 
 #### Defining Upload Parameters with `powerpages.config.json`
 

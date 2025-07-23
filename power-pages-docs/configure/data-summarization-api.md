@@ -4,6 +4,7 @@ description: Learn about the data summarization API in Microsoft Power Pages.
 author: nageshbhat-msft
 ms.topic: concept-article
 ms.date: 04/29/2025
+ms.update-cycle: 180-days
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
