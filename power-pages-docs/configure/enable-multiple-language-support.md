@@ -115,8 +115,8 @@ If you want to add custom languages, follow these steps:
 1. Select the **Discard changes** button.  
 1. Enter the details for the new language. 
     > [!NOTE]
-    > Enter the Dataverse LCID in the Dynamics 365 language field, and the Power Pages LCID in the LCID field.
-    > Dynamics 365 language must be one of the 43 languages supported by Pages, such as 1033 for English. 
+    > - Enter the Dataverse LCID in the Dynamics 365 language field, and the Power Pages LCID in the LCID field.
+    > - Dynamics 365 language must be one of the 43 languages supported by Pages, such as 1033 for English. 
 
     :::image type="content" source="media/multi-language/new-portal-language.png" alt-text="Screenshot of the New Portal Language page showing field to enter new language details":::
 1. Select **Save & Close**.  
