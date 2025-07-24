@@ -116,7 +116,9 @@ If you want to add custom languages, follow these steps:
 1. Enter the details for the new language. 
     > [!NOTE]
     > Enter the Dataverse LCID in the Dynamics 365 language field, and the Power Pages LCID in the LCID field.
-    :::image type="content" source="media/multi-language/new-portal-language.png" alt-text="Screenshot of the New Portal Language page showing field to enter new language details":::
+
+:::image type="content" source="media/multi-language/new-portal-language.png" alt-text="Screenshot of the New Portal Language page showing field to enter new language details":::
+
     > [!NOTE]
     > Dynamics 365 language must be one of the 43 languages supported by Pages, such as 1033 for English.  
 1. Select **Save & Close**.  
@@ -128,6 +130,8 @@ If you want to add custom languages, follow these steps:
 > As we create our own custom language, Dataverse isn't a default translation. You need to create your own [content snippets](#create-content-snippet-for-custom-language).
 
 ## Create content in multiple languages
+
+This section explains how to add localized content to your website, enabling it to display information in multiple languages for a global audience.
 
 ### Add an existing and supported language
 
