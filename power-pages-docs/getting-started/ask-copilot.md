@@ -8,6 +8,7 @@ ms.custom:
   - ai-gen-description
   - ai-seo-date:06/27/2025
 ms.date: 06/27/2025
+ms.update-cycle: 180-days
 ms.subservice: null
 ms.author: dmartens
 ms.reviewer: dmartens

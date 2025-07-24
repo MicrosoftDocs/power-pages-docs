@@ -4,6 +4,7 @@ description: Learn how to control use of generative AI features for your users o
 author: PramithaU
 ms.topic: how-to
 ms.date: 06/27/2025
+ms.update-cycle: 180-days
 ms.author: pudupa
 ms.reviewer: dmartens
 ms.collection:
