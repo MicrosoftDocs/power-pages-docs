@@ -10,6 +10,7 @@ ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom: sfi-ga-nochange
 ---
 
 # Provision a site using the older add-on
