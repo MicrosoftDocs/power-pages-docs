@@ -3,16 +3,17 @@ title: Create a site with Power Pages
 description: Learn how to create a site with Power Pages using the design studio and customize it to meet your business needs.
 author: dmartens
 ms.topic: how-to
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:04/21/2025
 ms.date: 04/21/2025
 ms.subservice: null
 ms.author: tbhagwat
 ms.reviewer: danamartens
 contributors:
   - DanaMartens
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:04/21/2025
+  - sfi-image-nochange
 ---
 
 # Create a site with Power Pages

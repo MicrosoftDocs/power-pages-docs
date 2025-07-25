@@ -3,13 +3,14 @@ title: Upgrade a Power Pages site
 description: Learn how to upgrade a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: upgrade-and-migration-article
-ms.custom: 
 ms.date: 10/16/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
 ---
  
 # Upgrade a Power Pages site

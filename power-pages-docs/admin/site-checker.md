@@ -4,13 +4,14 @@ description: Learn how to run the Power Pages Site Checker to help you identify 
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 03/03/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Run Site Checker

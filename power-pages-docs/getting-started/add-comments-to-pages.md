@@ -3,13 +3,14 @@ title: Add comments to pages in design studio (preview)
 description: Learn how to add comments to your Power Pages site.
 author: GitanjaliSingh33msft
 ms.topic: how-to
-ms.custom: 
 ms.date: 10/23/2023
 ms.subservice:
 ms.author: gisingh
 ms.reviewer: danamartens
 contributors:
     - GitanjaliSingh33msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Add comments to pages in design studio (preview)

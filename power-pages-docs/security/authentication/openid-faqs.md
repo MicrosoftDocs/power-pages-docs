@@ -9,7 +9,9 @@ ms.reviewer: danamartens
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - sfi-ropc-nochange
 ---
 
 # FAQs about using OpenID Connect in Power Pages

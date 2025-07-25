@@ -8,7 +8,9 @@ ms.author: nabha
 ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 ---
 
 # Site visibility in Power Pages

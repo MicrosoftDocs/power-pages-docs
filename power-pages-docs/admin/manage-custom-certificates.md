@@ -4,13 +4,15 @@ description: When extending portals functionality using a client-side API call w
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 08/28/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 
 # Manage custom certificates

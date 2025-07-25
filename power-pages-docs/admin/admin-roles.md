@@ -4,7 +4,6 @@ description: Learn about the roles and permissions required to do different admi
 author: neerajnandwana-msft
 
 ms.topic: concept-article
-ms.custom: 
 ms.date: 12/12/2024
 ms.subservice: 
 ms.author: nenandw
@@ -12,6 +11,8 @@ ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
     - vamseedillimsft
+ms.custom:
+  - sfi-ga-nochange
 ---
 
 # Roles required for website administration
