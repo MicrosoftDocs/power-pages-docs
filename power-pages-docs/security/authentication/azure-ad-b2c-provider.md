@@ -9,7 +9,9 @@ ms.reviewer: danamartens
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - sfi-ropc-nochange
 ---
 
 # Set up an OpenID Connect provider with Azure AD B2C

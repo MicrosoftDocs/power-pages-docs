@@ -4,13 +4,14 @@ description: Learn how to enable maintenance mode with your Power Pages website.
 author: neerajnandwana-msft
 
 ms.topic: concept-article
-ms.custom: 
 ms.date: 03/16/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Maintenance mode for a website

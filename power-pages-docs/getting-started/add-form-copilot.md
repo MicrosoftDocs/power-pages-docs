@@ -11,7 +11,9 @@ ms.collection:
     - bap-ai-copilot
 contributors:
     - DanaMartens
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 ---
 
 # Add an AI-generated form using Copilot

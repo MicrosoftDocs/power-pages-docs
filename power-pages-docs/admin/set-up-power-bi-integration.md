@@ -4,7 +4,6 @@ description: Learn how to set up Power BI integration with your website. View an
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 06/25/2025
 ms.subservice:
 ms.author: nenandw
@@ -12,6 +11,9 @@ ms.reviewer: dmartens
 contributors:
     - neerajnandwana-msft
     - nageshbhat-msft
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ga-nochange
 ---
 
 # Set up Power BI integration

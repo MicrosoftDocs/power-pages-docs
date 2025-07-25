@@ -4,13 +4,14 @@ description: Learn how to update the Power Pages solution.
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 02/03/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Update the Power Pages solution
