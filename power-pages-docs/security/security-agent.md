@@ -13,7 +13,7 @@ ms.reviewer: smurkute
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Security agent in Power Pages is an AI-powered feature built into the Power Pages design studio. The security agent helps makers proactively secure their websites with minimal manual effort. The Security Agent works in the background to scan your website for common vulnerabilities, monitor live traffic patterns for anomalies, and guide you through resolving issues as they arise.
+Security agent in Power Pages is an AI-powered feature built into the Power Pages design studio. The security agent helps makers proactively secure their websites with minimal manual effort. The Security agent works in the background to scan your website for common vulnerabilities, monitor live traffic patterns for anomalies, and guide you through resolving issues as they arise.
 
 Whether you are new to web security or a seasoned admin, the security agent simplifies how you protect your external-facing sites with built-in intelligence, guided fixes, and real-time alerts, all without leaving the studio.
 
@@ -27,7 +27,7 @@ As part of the public preview, the security agent offers two primary capabilitie
   Every two weeks, the agent runs a scheduled scan using the OWASP ZAP engine to detect common vulnerabilities across 37 predefined security rules. These include misconfigured headers, XSS risks, and exposed server information. When issues are found, the agent generates alerts and presents guided mitigation workflows to help makers resolve them.
 
 - **Site traffic monitoring**  
-  The agent monitors live traffic using Microsoft sentinel signals and historical traffic data. When it detects suspicious spikes or clustered activity, it generates alerts and presents mitigation workflows.
+  The agent monitors live traffic using Microsoft Sentinel signals and historical traffic data. When it detects suspicious spikes or clustered activity, it generates alerts and presents mitigation workflows.
 
 Some recommendations are AI-generated, especially for complex issues like correcting CSP configurations or suggesting custom WAF rules. Others follow standard rule-based logic for known security best practices.
 
@@ -37,7 +37,7 @@ The security agent is designed to work behind the scenes while keeping makers fu
 
 ### 1. Configure the security agent
 
-From the Power Pages design studio, go to the security workspace and choose **Security Agent** tab:
+From the [Power Pages design studio](https://make.powerpages.microsoft.com), go to the security workspace and choose the **Security Agent** tab:
 
 - Choose which capabilities to enable, such as automated scanning or traffic monitoring.
   :::image type="content" source="media/security-agent/security-agent-option.png" alt-text="Screenshot of the security agent configuration tab in Power Pages design studio.":::
@@ -53,7 +53,7 @@ Once enabled, the security agent runs the following actions:
 
 - **Automated scans** run every two weeks using the ZAP engine and check against 37 OWASP-based rules.
 
-- **Traffic monitoring** runs continuously using Microsoft sentinel signals and historical traffic patterns.
+- **Traffic monitoring** runs continuously using Microsoft Sentinel signals and historical traffic patterns.
 
 When issues are found, alerts are triggered automatically.
 
@@ -63,9 +63,9 @@ All alerts appear in the **Overview** screen. For each alert:
 
 - A **guided fix flow** is provided.
 
-- Makers are shown **one or more recommended actions** based on the issue type
+- Makers are shown **one or more recommended actions** based on the issue type.
 
-  :::image type="content" source="media/security-agent/alerts-overview-screen.png" alt-text="Screenshot of Security Agent alert overview and guided fix flow in Power Pages.":::
+  :::image type="content" source="media/security-agent/alerts-overview-screen.png" alt-text="Screenshot of Security agent alert overview and guided fix flow in Power Pages.":::
 
 ### 4. Apply fixes directly in the studio
 
