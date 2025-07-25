@@ -4,7 +4,6 @@ description: Learn how to view Power Pages website error logs and store them in 
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 10/07/2024
 ms.subservice: 
 ms.author: nenandw
@@ -12,6 +11,8 @@ ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
     - nabha-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # View website error logs

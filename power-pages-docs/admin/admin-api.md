@@ -3,11 +3,12 @@ title: Use admin APIs
 description: Learn how to use the Power Pages admin APIs
 author: neerajnandwana-msft
 ms.topic: concept-article
-ms.custom: 
 ms.date: 02/23/2023
 ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
+ms.custom:
+  - sfi-ropc-nochange
 
 ---
 

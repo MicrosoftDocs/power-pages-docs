@@ -4,13 +4,14 @@ description: Learn how to convert a website to different lifecycle stages.
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 09/06/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Convert a website

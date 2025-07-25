@@ -4,7 +4,6 @@ description: This page walks you through example steps for performing read, writ
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 09/20/2024
 ms.subservice: 
 ms.author: nenandw
@@ -12,6 +11,8 @@ ms.reviewer: dmartens
 contributors:
   - neerajnandwana-msft
   - mduelae
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # How to: Use portal Web API
