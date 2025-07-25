@@ -2,7 +2,6 @@
 title: "Tutorial: How to add a rich text component to a form"
 description: Walk-through example steps for adding a rich text component to a form in Power Pages.
 author: GitanjaliSingh33msft
-ms.service: powerapps
 ms.topic: tutorial
 ms.custom: 
 ms.date: 03/02/2023
