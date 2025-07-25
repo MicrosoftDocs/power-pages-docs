@@ -4,13 +4,14 @@ description: Learn how to restrict website access by IP address.
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 08/27/2024
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Restrict website access by IP address

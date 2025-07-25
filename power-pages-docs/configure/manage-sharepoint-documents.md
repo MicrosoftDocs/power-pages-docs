@@ -4,13 +4,15 @@ description: Learn how to manage SharePoint documents in Power Pages.
 author: DanaMartens
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 09/20/2024
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ga-nochange
 ---
 
 # Manage SharePoint documents
