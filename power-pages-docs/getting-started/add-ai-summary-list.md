@@ -3,8 +3,7 @@ title: Add AI features in a list (preview)
 description: Learn more about how the AI features in a list works to simplify and summarize data in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 06/11/2025
-ms.update-cycle: 180-days
+ms.date: 07/22/2025
 ms.author: nenandw
 ms.reviewer: dmartens
 ms.collection:
@@ -133,6 +132,7 @@ The list now lets you use natural language search.
 
 - Virtual tables aren't supported.
 - A table should have at least five rows to generate any meaningful summary.
+- If a data list has more than 5,000 records, summarization considers only the first 5,000 records because of the Dataverse maximum page size limit.
 - Limitations of the Tabular Data Stream (TDS) endpoint also apply to this feature. Learn more about unsupported column types at [Supported operations and data types](/power-apps/developer/data-platform/dataverse-sql-query#supported-operations-and-data-types).
 
 ### Related information
