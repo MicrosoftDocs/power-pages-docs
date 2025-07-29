@@ -161,7 +161,7 @@ To create a content snippet, you first add a site setting. Follow these steps to
 To add a content snippet, set the translation. For example, update the Title, Regarding, Source, and Comments label translations to Welsh.
      :::image type="content" source="media/multi-language/enter-translation-details.png" alt-text="Screenshot of page showing field to enter language translation details":::
 
-1. Select **Content Snippet** from **Related** drop down.
+1. Select **Content Snippet** from the **Related** drop down.
     :::image type="content" source="media/multi-language/content-snippet-option.png" alt-text="Screen of option Related drop down with Content snippets option highlighted":::
 1. Select **New Content Snippet**.
 1. Provide the name, such as *Feedback Form*. This name is used later.
