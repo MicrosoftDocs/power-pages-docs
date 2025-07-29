@@ -110,7 +110,7 @@ If you want to add custom languages, follow these steps:
 1. Select **More Items (…)** to open the Portal Management App.
 1. In the Supported Languages sub grid, select **New Website Language**.  
 1. Select the search icon in the **Portal Language** lookup.  
-    :::image type="content" source="media/multi-language/new-custom-language.png" alt-text="New Website Language page showing Portal language option"::: 
+    :::image type="content" source="media/multi-language/new-custom-language.png" alt-text="Screenshot of new Website Language page showing Portal language option"::: 
 1. Select **New**.  
 1. Select the **Discard changes** button.  
 1. Enter the details for the new language. 
@@ -138,7 +138,7 @@ This section explains how to add localized content to your website, enabling it 
 3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
 4. Select **+ New Web Page** on to create a lookup for the localized version.
 
-    :::image type="content" source="media/multi-language/add-new-localized-content.png" alt-text="Add new localized content":::
+    :::image type="content" source="media/multi-language/add-new-localized-content.png" alt-text="Screenshot of page with add new web page option":::
 
 > [!Note]
 > The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
@@ -147,7 +147,7 @@ Knowledge articles will only be displayed if they've been translated into the la
 
 Web link sets are the navigation links at the top of the portal. In the Portal Management app, go to **Content** > **Web Link Sets** to update the translated text of the menu items. When a language is active for the website, a new set of links is created for the newly activated language.
 
-:::image type="content" source="media/multi-language/active-weblink-new-language.png" alt-text="Active web link for new language":::
+:::image type="content" source="media/multi-language/active-weblink-new-language.png" alt-text="Screenshot of page showing active web link sets for new language":::
 
 ### Create content snippet for custom language
 
@@ -159,10 +159,10 @@ To create a content snippet, you first add a site setting. Follow these steps to
 1. Select **Save and Close**.
 
 To add a content snippet, set the translation. For example, update the Title, Regarding, Source, and Comments label translations to Welsh.
-     :::image type="content" source="media/multi-language/enter-translation-details.png" alt-text="Screen showing field to enter language translation details":::
+     :::image type="content" source="media/multi-language/enter-translation-details.png" alt-text="Screenshot of page showing field to enter language translation details":::
 
 1. Select **Content Snippet** from **Related** drop down.
-    :::image type="content" source="media/multi-language/content-snippet-option.png" alt-text="Screen showing Related drop down with Content snippets option highlighted":::
+    :::image type="content" source="media/multi-language/content-snippet-option.png" alt-text="Screen of option Related drop down with Content snippets option highlighted":::
 1. Select **New Content Snippet**.
 1. Provide the name, such as *Feedback Form*. This name is used later.
 1. Enter the value in JSON format for each label. For example:
@@ -172,7 +172,7 @@ To add a content snippet, set the translation. For example, update the Title, Re
       "Source":"ffynhonnell",
       "Comments":"sylw"
 }
-    :::image type="content" source="media/multi-language/details-filled-content-snippet.png" alt-text="Screen showing filled details in content snippet":::
+    :::image type="content" source="media/multi-language/details-filled-content-snippet.png" alt-text="Screenshot of page showing filled details in content snippet":::
 1. Select **Save & Close**.  
 1. Select the **Basic Forms** tab. You can follow the same steps for multi-step forms and lists.
 1. Select the form with the labels you want to translate.  
