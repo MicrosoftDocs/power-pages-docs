@@ -3,7 +3,6 @@ title: Set up payments integration
 description: Learn how to set up payments integration with your website. 
 author: PramithaU
 ms.topic: how-to
-ms.custom: 
 ms.date: 11/01/2024
 ms.subservice:
 ms.author: pudupa
@@ -11,6 +10,8 @@ ms.reviewer: dmartens
 contributors:
     - sandhangitms
     - DanaMartens
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Set up payments integration
