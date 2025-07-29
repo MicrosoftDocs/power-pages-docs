@@ -12,6 +12,8 @@ ms.reviewer: dmartens
 contributors:
     - sandhangitmsft
     - nageshbhat-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Enable multiple-language website support
