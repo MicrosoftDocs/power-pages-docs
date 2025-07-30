@@ -2,7 +2,7 @@
 title: Add an agent - overview
 description: Learn how to add an agent to a Microsoft Power Pages site for quicker customer support and an improved user experience.
 ms.topic: overview
-ms.date: 07/23/2025
+ms.date: 07/30/2025
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -42,8 +42,6 @@ After you add an agent, enhance its capabilities in these ways:
 - Use an agent created in [Microsoft Copilot Studio](agent-how-to.md).
 - [Configure an agent to use Bing search to generate answers from public data](force-bing-index.md).
 - Use [Omnichannel in Dynamics 365 Customer Service with your agent](../configure/omnichannel.md), and transition customers to a live agent as needed.
-
-:::image type="content" source="media/enable-chatbot/site-copilot.png" alt-text="Screenshot of an agent in a Power Pages site.":::
 
 ## Next steps
 
