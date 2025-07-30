@@ -33,7 +33,7 @@ You'll need the following before configuring WAF for your Power Pages website.
     :::image type="content" source="media/configure-web-application-firewall/waf-enabled.gif" alt-text="The Performance and Protection card inside design studio with the Enable Web Application Firewall toggle enabled.":::
 
 > [!NOTE]
-> To enable Web Application Firewall (WAF) for Power Pages sites using the REST API, see [Websites - Enable WAF](/rest/api/power-platform/powerpages/websites/enable-waf)
+> To enable Web Application Firewall (WAF) for Power Pages sites using the REST API, see [Websites - Enable WAF](/rest/api/power-platform/powerpages/websites/enable-waf).
 
 ## Disable Web Application Firewall for Power Pages sites
 
@@ -44,7 +44,7 @@ You'll need the following before configuring WAF for your Power Pages website.
     :::image type="content" source="media/configure-web-application-firewall/waf-disabled.gif" alt-text="The Enable Web Application Firewall toggle disabled inside design studio.":::
 
 > [!NOTE]
-> To disable Web Application Firewall (WAF) for Power Pages sites using the REST API, see [Websites - Disable Waf](/rest/api/power-platform/powerpages/websites/disable-waf)
+> To disable Web Application Firewall (WAF) for Power Pages sites using the REST API, see [Websites - Disable Waf](/rest/api/power-platform/powerpages/websites/disable-waf).
 
 ### Next steps
 
