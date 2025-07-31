@@ -76,3 +76,7 @@ When a user makes requests to the Power Pages site, these requests can originate
 
 >[!IMPORTANT]
 > After the rule is created and saved, it may take up to an hour for the changes to propagate to all edge locations globally. 
+
+### See also
+
+[Websites - Create Waf rules using REST API](/rest/api/power-platform/powerpages/websites/create-waf-rules)
