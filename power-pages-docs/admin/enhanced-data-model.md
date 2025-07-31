@@ -3,7 +3,6 @@ title: Enhanced data model
 description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: concept-article
-ms.custom: 
 ms.date: 04/22/2024
 ms.subservice:
 ms.author: nenandw 
@@ -12,6 +11,8 @@ contributors:
     - neerajnandwana-msft
     - gitanjalisingh33msft
     - DanaMartens
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Enhanced data model 
