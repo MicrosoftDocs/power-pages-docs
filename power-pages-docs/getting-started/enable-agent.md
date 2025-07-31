@@ -1,13 +1,13 @@
 ---
-title: Add an agent to your Power Pages site
-description: Learn how to add an agent to a Microsoft Power Pages site for quicker customer support and an improved user experience.
+title: Add an agent from the set up workspace
+description: Add an agent to Power Pages for instant, AI-powered help. Improve user experience and resolve questions faster with easy setup instructions.
 ms.topic: how-to
-ms.date: 06/17/2025
+ms.date: 07/31/2025
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
-ms.collection: 
+ms.collection:
   - bap-ai-copilot
 contributors:
   - nageshbhat-msft
@@ -17,11 +17,12 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:09/07/2023
   - bap-template
+  - ai-gen-description
 ---
 
-# Add an agent to your Power Pages site
+# Add an agent from the set up workspace
 
-An agent enhances your Microsoft Power Pages site by providing instantaneous support to your users. Within minutes, you can integrate an agent to provide natural-language responses to visitor questions, improve the user experience, and boost satisfaction.
+Empower your Microsoft Power Pages site with an AI-powered agent to deliver instant, conversational support to your users. This article shows you how to quickly add an agent from the set up workspace, helping you answer questions, improve user satisfaction, and streamline support. Follow the steps to get started and learn about prerequisites, configuration options, and next steps.
 
 By default, [an agent that you add to your Power Pages site](#add-an-agent) can answer questions based on the site's information. However, you can extend the default agent capabilities in the following ways:
 
@@ -35,8 +36,8 @@ By default, [an agent that you add to your Power Pages site](#add-an-agent) can 
 
 To use AI-powered agent features in Power Pages, make sure the following conditions are met:
 
-- The tenant admin needs to turn on the [Publish Copilots with AI features](/microsoft-copilot-studio/security-and-governance) setting in the Power Platform admin center.
-- Agent uses Copilot Studio generative answers. Learn more about quotas and limits in [Quotas, limits, app registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
+- The tenant admin turns on the [Publish Copilots with AI features](/microsoft-copilot-studio/security-and-governance) setting in the Power Platform admin center.
+- The agent uses Copilot Studio generative answers. Learn more about quotas and limits in [Quotas, limits, app registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
 
 ## Add an agent
 
@@ -56,7 +57,7 @@ Follow these steps to add an agent manually:
     The **Enable agent on site** option is available only if the tenant admin turns on the **Publish Copilots with AI features** setting.
 
 > [!NOTE]
-> - If a site meets the conditions outlined in the [Prerequisites](#prerequisites) section, an agent is added to the site during site provisioning. If you don't want an agent to be created by default, [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can turn off this capability at the tenant level. Learn more in [Manage agent provisioning](/power-pages/getting-started/manage-copilot-provisioning).
+> - If a site meets the conditions outlined in the [Prerequisites](#prerequisites) section, an agent is added to the site during site provisioning. If you don't want to create an agent by default, [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can turn off this capability at the tenant level. Learn more in [Manage agent provisioning](/power-pages/getting-started/manage-copilot-provisioning).
 > - To change your site's custom domain after you add an agent, turn off the agent, update the custom domain, and then turn the agent back on.
 > - If you turn off the agent feature, wait a few minutes for background operations to finish before turning it back on.
 
