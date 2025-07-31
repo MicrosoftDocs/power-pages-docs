@@ -194,6 +194,32 @@
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
               href: configure/visual-studio-code-editor.md
+    - name: Add an agent
+      items:
+        - name: Overview
+          href: getting-started/add-agent-overview.md
+        - name: Add agent using set up workspace
+          items:
+            - name: Add an agent
+              href: getting-started/enable-agent.md
+            - name: Configure Omnichannel with site agent
+              href: configure/omnichannel.md
+            - name: Generate answers from public data using Bing search
+              href: getting-started/force-bing-index.md
+            - name: Manage agent provisioning
+              href: getting-started/manage-agent-provisioning.md
+        - name: Build an agent from a form (preview)
+          items:
+            - name: Build an agent from a form
+              href: getting-started/build-agent-from-form.md
+            - name: Configure user authentication
+              href: getting-started/configure-user-authentication-for-agent.md
+        - name: Extend or customize agent experience
+          items:
+            - name: Customize your agent
+              href: getting-started/customize-your-agent.md
+            - name: Replace agent with a Microsoft Copilot Studio agent
+              href: getting-started/agent-how-to.md
     - name: Style your site
       items:
         - name: Styling workspace overview
@@ -226,20 +252,6 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add an agent
-          items:
-            - name: Add an agent
-              href: getting-started/enable-agent.md
-            - name: Customize your agent
-              href: getting-started/customize-your-agent.md
-            - name: Generate answers from public data using Bing search
-              href: getting-started/force-bing-index.md
-            - name: Replace agent with a Microsoft Copilot Studio agent
-              href: getting-started/agent-how-to.md
-            - name: Configure Omnichannel with site agent
-              href: configure/omnichannel.md
-            - name: Manage agent provisioning
-              href: getting-started/manage-agent-provisioning.md
         - name: Progressive web applications
           items:
             - name: Overview
