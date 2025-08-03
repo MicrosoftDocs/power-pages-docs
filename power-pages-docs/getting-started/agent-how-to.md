@@ -1,6 +1,6 @@
 ---
-title: Replace default agent with an agent customized using Microsoft Copilot Studio
-description: Learn how to replace the default Power Pages agent with another agent available in Microsoft Copilot Studio.
+title: Add an agent available in Microsoft Copilot Studio
+description: Learn how to an agent available in Microsoft Copilot Studio.
 ms.topic: how-to
 ms.date: 06/17/2025
 ms.update-cycle: 180-days
@@ -15,7 +15,7 @@ ms.collection:
     - bap-ai-copilot
 ---
 
-# Replace default agent with an agent customized using Microsoft Copilot Studio
+# Add an agent available in Microsoft Copilot Studio
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -26,8 +26,6 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 - You need an agent created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
 
 - [Agent](enable-agent.md#add-an-agent) needs to be created and published in the site where you're updating another agent available in Microsoft Copilot Studio.
-
-- You can only replace an agent with [No authentication](/microsoft-copilot-studio/configuration-end-user-authentication#no-authentication).
 
 ## Copy the agent schema name
 
