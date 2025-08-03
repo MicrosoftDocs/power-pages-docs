@@ -65,6 +65,10 @@ Create an agent directly from forms to streamline the manual process.
 1. Select **Continue**.
 1. Select **Publish** to make the agent available from the Power Pages site.
 
+## Known issues
+
+If proper authentication is not configured for an agent hosted on a private site, the agent may incorrectly respond that a record was created successfully, even though no record was actually created. To avoid this issue, always configure Microsoft Entra as the identity provider for agents hosted on private sites.
+
 ### Related information
 
 - [Add an agent - overview](add-agent-overview.md)
