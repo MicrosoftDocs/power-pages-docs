@@ -1,8 +1,8 @@
 ---
 title: Add an agent available in Microsoft Copilot Studio
-description: Learn how to an agent available in Microsoft Copilot Studio.
+description: Learn how to add an agent available in Microsoft Copilot Studio.
 ms.topic: how-to
-ms.date: 06/17/2025
+ms.date: 08/04/2025
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha

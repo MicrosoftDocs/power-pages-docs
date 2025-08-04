@@ -218,7 +218,7 @@
           items:
             - name: Customize your agent
               href: getting-started/customize-your-agent.md
-            - name: Replace agent with a Microsoft Copilot Studio agent
+            - name: Add an agent available in Microsoft Copilot Studio
               href: getting-started/agent-how-to.md
     - name: Style your site
       items:
