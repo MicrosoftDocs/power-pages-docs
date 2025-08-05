@@ -4,7 +4,7 @@ description: Learn how to create, configure, and customize AI agents directly fr
 author: DanaMartens
 contributors:
 ms.topic: how-to
-ms.date: 07/31/2025
+ms.date: 08/04/2025
 ms.author: dmartens
 ms.reviewer: dmartens
 ---
@@ -64,6 +64,10 @@ Create an agent directly from forms to streamline the manual process.
 
 1. Select **Continue**.
 1. Select **Publish** to make the agent available from the Power Pages site.
+
+## Known issues
+
+If proper authentication isn't configured for an agent hosted on a private site, the agent might incorrectly respond that a record was created successfully, even though no record was created. To avoid this issue, always configure Microsoft Entra as the identity provider for agents hosted on private sites.
 
 ### Related information
 
