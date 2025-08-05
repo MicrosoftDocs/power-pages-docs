@@ -3,7 +3,7 @@ title: Use admin APIs
 description: Learn how to use the Power Pages admin APIs
 author: neerajnandwana-msft
 ms.topic: concept-article
-ms.date: 07/31/2025
+ms.date: 08/05/2025
 ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
@@ -57,3 +57,8 @@ Learn more about the request format and request components at [Call a REST API m
 | [Stop Website](/rest/api/power-platform/powerpages/websites/stop-website)  | Stop a Power Pages website.  |
 | [Update Portal Security Group](/rest/api/power-platform/powerpages/websites/update-portal-security-group)    | Update security group for site visibility for a website.  |
 | [Update Site Visibility](/rest/api/power-platform/powerpages/websites/update-site-visibility)    | Update site visibility for a website.   |
+
+
+### See also
+
+[Websites operation using Power Platform API](/rest/api/power-platform/powerpages/websites)  
