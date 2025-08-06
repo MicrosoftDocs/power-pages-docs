@@ -4,7 +4,6 @@ description: Learn how to enable multiple languages for a Power Pages website an
 author: DanaMartens
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 07/22/2025
 ms.subservice: 
 ms.author: bipuldeora
