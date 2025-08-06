@@ -59,3 +59,7 @@ To configure bot protection rules:
    bots, or Unknown bots).
 
 1. Select **Save**.
+
+### See also
+
+[Websites - Create Waf Rules using REST API](/rest/api/power-platform/powerpages/websites/create-waf-rules)
