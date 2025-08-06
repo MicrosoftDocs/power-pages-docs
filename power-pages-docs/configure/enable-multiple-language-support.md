@@ -164,7 +164,7 @@ To add a content snippet, set the translation. For example, update the Title, Re
      :::image type="content" source="media/multi-language/enter-translation-details.png" alt-text="Screenshot of page showing field to enter language translation details":::
 
 1. Select **Content Snippet** from the **Related** drop down.
-    :::image type="content" source="media/multi-language/content-snippet-option.png" alt-text="Screen of option Related drop down with Content snippets option highlighted":::
+    :::image type="content" source="media/multi-language/content-snippet-option.png" alt-text="Screenshot of option Related drop down with Content snippets option highlighted":::
 1. Select **New Content Snippet**.
 1. Provide the name, such as *Feedback Form*. This name is used later.
 1. Enter the value in JSON format for each label. For example:
