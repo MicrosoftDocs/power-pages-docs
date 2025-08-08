@@ -74,8 +74,8 @@ To view the traffic for a specific site, select it in the **Site ID** list. To v
     - **All Users** shows the unique users who accessed the websites (either by authentication or anonymously).
 - All the traffic numbers (DAU, WAU, and MAU) shown are with the intent of understanding the visits to the websites. 
 - The authenticated user counts may vary slightly from license consumption reports. For instance, in cases where the authenticated user already has a Power Apps license, the visit isn't counted in license consumption. However, it is counted in the total authenticated users visiting the website.
-- The usage numbers can be under-reported for the first few days after enabling the feature. For instance, the monthly active users will be accurate after the feature has been live for 30 days and the WAU will be accurate after the feature has been live for 7 days.
-- The dashboards for daily, weekly, and monthly active users (DAU, WAU, MAU) only show data for the past 30 days.
+- The usage numbers can be under-reported for the first few days after enabling the feature. For example, the monthly active users is accurate after the feature has been live for 30 days and the WAU is accurate after the feature has been live for 7 days.
+- The dashboards for daily, weekly, and monthly active users (DAU, WAU, MAU) only show data for the last 30 days.
 
 ### See also
 
