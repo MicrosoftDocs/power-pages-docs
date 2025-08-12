@@ -2,7 +2,6 @@
 title: Build Single-Page Applications With GitHub Spark and Codespaces for Power Pages
 description: Learn how to create, customize, and deploy single-page applications for Microsoft Power Pages using GitHub Spark and Codespaces.
 author: neerajnandwana-msft
-contributors:
 ms.topic: concept-article
 ms.custom:
   - ai-gen-docs-bap
