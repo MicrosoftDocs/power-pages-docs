@@ -137,6 +137,6 @@ pac pages upload-code-site --rootPath "./spark-template" --compiledPath "./dist"
 
 Now that your site is deployed:
 
-- Configure Authentication and Authorization to secure access.
-- Use Power Pages Web APIs to dynamically load content, and perform create, update, and delete operations from your custom code.
-- Explore the sample React site code and documentation to build single-page applications (SPA) with deeper customizations.
+- Configure [Authentication and Authorization](create-code-sites.md#authentication-and-authorization) to secure access.
+- Use [Power Pages Web APIs](web-api-overview.md) to dynamically load content, and perform create, update, and delete operations from your custom code.
+- Explore the [sample React site code](https://aka.ms/powerpages-samples) and [documentation](create-code-sites.md) to build single-page applications (SPA) with deeper customizations.
