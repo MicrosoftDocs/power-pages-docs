@@ -1,8 +1,8 @@
 ---
-title: Build Single-Page Applications With GitHub Spark and Codespaces for Power Pages
-description: Learn how to create, customize, and deploy single-page applications for Microsoft Power Pages using GitHub Spark and Codespaces.
+title: Tutorial on how to build single-page application with GitHub Spark and Codespaces
+description: This page provides a walk-through on how to create, customize, and deploy single-page applications for Microsoft Power Pages using GitHub Spark and Codespaces.
 author: neerajnandwana-msft
-ms.topic: concept-article
+ms.topic: tutorial
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
@@ -15,7 +15,7 @@ contributors:
 - shwetamurkute
 ---
 
-# Create and deploy a single-page application using GitHub Spark and Codespaces (preview)
+# Tutorial: Create and deploy a single-page application using GitHub Spark and Codespaces
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -45,7 +45,11 @@ Before you begin, make sure you have:
 - A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions).
 - [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.44.x or later installed and authenticated.
 - A Power Pages site on version 9.7.4.x or later.
-- GitHub Spark with Codespaces for your custom frontend project.
+- GitHub Spark license with Codespaces for your custom frontend project.
+
+> [!NOTE]  
+> - To use GitHub Spark, ensure you have the appropriate GitHub licenses.  
+> - Support for GitHub Spark or Codespaces is available through the [Spark support team](https://support.github.com/). 
 
 ## Step 1: Start with the GitHub Spark template
 
