@@ -17,11 +17,7 @@ contributors:
 
 # Tutorial: Create and deploy a single-page application using GitHub Spark and Codespaces
 
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 The new [single-page application](create-code-sites.md) support gives developers greater flexibility: you can create, customize, and manage Power Pages sites entirely in source code. With the recent release of the [GitHub Spark](https://github.com/features/spark), developers can now author a site, edit it directly in a GitHub Codespace, and deploy it to a Power Pages environment all without leaving their browser. This tutorial walks you through the complete workflow.
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 [GitHub Spark](https://github.com/features/spark) is a new AI-powered natural‑language platform from GitHub Copilot. It is designed to help developers bootstrap modern web applications quickly. When combined with GitHub Codespaces for code editing, Spark provides:
 
