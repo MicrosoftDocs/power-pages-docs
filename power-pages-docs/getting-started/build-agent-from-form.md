@@ -4,7 +4,7 @@ description: Learn how to create, configure, and customize AI agents directly fr
 author: DanaMartens
 contributors:
 ms.topic: how-to
-ms.date: 08/04/2025
+ms.date: 08/21/2025
 ms.author: dmartens
 ms.reviewer: dmartens
 ---
@@ -67,7 +67,8 @@ Create an agent directly from forms to streamline the manual process.
 
 ## Known issues
 
-If proper authentication isn't configured for an agent hosted on a private site, the agent might incorrectly respond that a record was created successfully, even though no record was created. To avoid this issue, always configure Microsoft Entra as the identity provider for agents hosted on private sites.
+- If you don’t see the newly created agent on your site and still see the classic widget experience, add the [site setting](../configure/configure-site-settings.md) 'SiteCopilot/EnableNativeControlPVABots' and set its value to true.
+- If proper authentication isn't configured for an agent hosted on a private site, the agent can incorrectly respond that a record was created successfully, even though no record was created. To avoid this issue, always configure Microsoft Entra as the identity provider for agents hosted on private sites.
 
 ### Related information
 
