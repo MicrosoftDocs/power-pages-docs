@@ -68,7 +68,7 @@ Create an agent directly from forms to streamline the manual process.
 ## Known issues
 
 - If you don’t see the newly created agent on your site and still see the classic widget experience, add the [site setting](power-pages/configure/configure-site-settings) 'SiteCopilot/EnableNativeControlPVABots' and set its value to true.
-- If proper authentication isn't configured for an agent hosted on a private site, the agent might incorrectly respond that a record was created successfully, even though no record was created. To avoid this issue, always configure Microsoft Entra as the identity provider for agents hosted on private sites.
+- If proper authentication isn't configured for an agent hosted on a private site, the agent can incorrectly respond that a record was created successfully, even though no record was created. To avoid this issue, always configure Microsoft Entra as the identity provider for agents hosted on private sites.
 
 ### Related information
 
