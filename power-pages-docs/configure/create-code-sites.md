@@ -338,4 +338,4 @@ These features help ensure secure and compliant integration of custom components
 
 - [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
 - [Tutorial: Use Microsoft Power Platform CLI with Power Pages](power-platform-cli-tutorial.md)
-- [Use the Visual Studio Code extension (preview)](vs-code-extension.md)
+- [Use the Visual Studio Code extension](vs-code-extension.md)
