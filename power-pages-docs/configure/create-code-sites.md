@@ -281,11 +281,6 @@ const fetchCards = async () => {
 
 ## Differences from existing Power Pages sites
 
-
-
-
-
-
 The following table summarizes key differences between SPA sites created with this feature and traditional Power Pages sites:
 
 | Feature                 | SPA site behavior                                                            |
