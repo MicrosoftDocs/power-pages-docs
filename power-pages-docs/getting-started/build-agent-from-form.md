@@ -4,7 +4,7 @@ description: Learn how to create, configure, and customize AI agents directly fr
 author: DanaMartens
 contributors:
 ms.topic: how-to
-ms.date: 08/21/2025
+ms.date: 08/25/2025
 ms.author: dmartens
 ms.reviewer: dmartens
 ---
@@ -49,8 +49,8 @@ Create an agent directly from forms to streamline the manual process.
 1. Enter a name for the new agent, or select an existing agent from Microsoft Copilot Studio.
 
     > [!NOTE]
-    > -  Only agents created from Power Pages are available for selection.
-    > -  Agent creation from form support only columns of **Text**, **Number**, **Date and time**, **Choice** and **Currency** data type. 
+    > - Only agents you create from Power Pages are available for selection.
+    > - Agent creation from forms supports only columns of **Text**, **Number**, **Date and time**, **Choice**, and **Currency** data types.
 
 1. Select **Continue**. If you choose to create a new agent, Microsoft Copilot Studio creates it. If you select an existing agent, Microsoft Copilot Studio updates it.
 
