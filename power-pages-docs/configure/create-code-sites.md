@@ -278,6 +278,58 @@ const fetchCards = async () => {
 
 ```
 
+## Enable Local Development by Enabling Localhost Web API Calls Using Entra Authentication
+
+Developers often seek faster iteration cycles, local debugging, and hot reload capabilities when building applications. SPA supports local development workflows by allowing secure Web API calls from localhost using Entra ID (Azure AD) v1 authentication.
+
+This configuration enables you to:
+- Run your app locally with full authentication support.
+- Use modern dev tools like Vite for hot reload and rapid feedback.
+- Avoid CORS issues while interacting with Power Pages Web APIs.
+- Accelerate development without deploying site for every change.
+
+*This setup empowers developers to build and test Power Pages integrations locally, dramatically improving productivity and development speed.*
+
+### **Quick Setup**
+
+1. **Enable SPA Authentication**
+   - In https://portal.azure.com, enable SPA authentication for your portal’s Entra app.
+
+1. **Add Site Settings**
+   ```plaintext
+   Authentication/BearerAuthentication/Enabled = true
+   Authentication/BearerAuthentication/Protocol = OpenIdConnect
+   Authentication/BearerAuthentication/Provider = AzureAD
+   ```
+
+1. **Use ADAL.js for Login**
+   - Implement client side login using ADAL.js
+
+> [!NOTE]
+> MSAL.js is incompatible because Power Pages uses Entra v1 endpoints, while MSAL uses v2. The issuer format differs between v1 and v2.
+
+1. **Add Authorization Header**
+   ```http
+   Authorization: Bearer <id_token>
+   ```
+
+1. **Set Site Visibility to Public**
+
+1. **Configure Dev Proxy (Vite Example)**
+   ```js
+   export default defineConfig({
+     plugins: [react()],
+     server: {
+       proxy: {
+         '/_api': {
+           target: 'https://site-foo.powerappsportals.com',
+           changeOrigin: true,
+           secure: true
+         }
+       }
+     }
+   });
+   ```
 
 ## Differences from existing Power Pages sites
 
