@@ -1,6 +1,6 @@
 ---
-title: Create and Deploy a Single Page Application in Power Pages
-description: Discover how to upload, download, and activate Power Pages Single Page Application (SPA) sites with step-by-step guidance and examples.
+title: Create and deploy a single-page application in Power Pages
+description: Discover how to upload, download, and activate Power Pages single-page application (SPA) sites with step-by-step guidance and examples.
 author: neerajnandwana-msft
 ms.topic: concept-article
 ms.custom:
@@ -43,7 +43,7 @@ Before you begin, make sure you have:
 - A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions).
 - [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.44.x or later installed and authenticated.
 - A Power Pages site on version 9.7.4.x or later.
-- A local Git repository with your custom frontend project, such as React, Angular or Vue.
+- A local Git repository with your custom front-end project, such as React, Angular or Vue.
 
 ## Create and deploy an SPA site
 
@@ -79,9 +79,9 @@ pac pages upload-code-site `
   --siteName "Contoso Code Site"
 ```
 
-If you don't have an existing project, try the [sample implementations of a SPA sites using React, Angular, and Vue](https://go.microsoft.com/fwlink/?linkid=2326698).
+If you don't have an existing project, try the [sample implementations of SPA sites using React, Angular, and Vue](https://go.microsoft.com/fwlink/?linkid=2326698).
 
-#### Defining Upload Parameters with `powerpages.config.json`
+#### Defining upload parameters with `powerpages.config.json`
 
 Customize the behavior of the `upload-code-site` command by including a `powerpages.config.json` file in your site. Place this configuration file in the site root folder. When you use config-based site uploads, run the `upload-code-site` command with just the `rootPath` parameter. The command automatically reads other values, like the compiled assets path and site display name, from the `powerpages.config.json` file. If you provide both command-line arguments and config values, the command-line arguments take precedence.
 
@@ -115,7 +115,7 @@ pac pages download-code-site `
 | --------------- | ------ | --------- | ------------------------------------------------------------------------------ |
 | `--environment` | `-env` | No        | Dataverse environment (GUID or full URL). Defaults to your active auth profile |
 | `--path`        | `-p`   | Yes       | Local directory to download the site code                                      |
-| `--webSiteId`   | `-id`  | Yes       | Website record GUID of the Power Pages SPA site.                                              |
+| `--webSiteId`   | `-id`  | Yes       | Website record GUID of the Power Pages SPA site                                |
 | `--overwrite`   | `-o`   | No        | Overwrite existing files in the target directory if they exist                 |
 
 #### Example
@@ -160,7 +160,7 @@ Power Pages SPA sites use the same [security model](../security/power-pages-secu
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. Find your site and select **Edit**.
-1. Select **Security > Identity providers**.
+1. Select **Security** > **Identity providers**.
 1. Add or set up [identity providers](../security/authentication/index.md), like Microsoft Entra ID.
 1. Each new site automatically has a default Microsoft Entra ID provider.
 
@@ -244,7 +244,7 @@ export const AuthButton = () => {
 
 ## Use Power Pages Web APIs 
 
-Developers can leverage [Power Pages Web APIs](web-api-overview.md) to load content into the UI or to create, update, and delete records. Before using these APIs, ensure that the required Web APIs are enabled and  appropriate table permissions and web roles are properly configured.
+Developers can leverage [Power Pages Web APIs](web-api-overview.md) to load content into the UI or to create, update, and delete records. Before using these APIs, ensure that the required Web APIs are enabled and appropriate table permissions and web roles are properly configured.
 
 
 ```tsx
@@ -338,4 +338,4 @@ These features help ensure secure and compliant integration of custom components
 
 - [Microsoft Power Platform CLI](/power-platform/developer/cli/introduction)
 - [Tutorial: Use Microsoft Power Platform CLI with Power Pages](power-platform-cli-tutorial.md)
-- [Use the Visual Studio Code extension (preview)](vs-code-extension.md)
+- [Use the Visual Studio Code extension](vs-code-extension.md)
