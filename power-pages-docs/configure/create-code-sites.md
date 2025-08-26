@@ -288,7 +288,12 @@ This configuration enables you to:
 - Avoid CORS issues while interacting with Power Pages Web APIs.
 - Accelerate development without deploying site for every change.
 
-*This setup empowers developers to build and test Power Pages integrations locally, dramatically improving productivity and development speed.*
+**This setup empowers developers to build and test Power Pages integrations locally, dramatically improving productivity and development speed.**
+
+> [!IMPORTANT]
+> - Use **only Entra v1 endpoints** for authentication.
+> - Bearer authentication is supported only in **portal versions >= 9.7.6.6**.
+> - These settings should be applied **only in development environments** to enable local testing.
 
 ### **Quick Setup**
 
@@ -305,8 +310,8 @@ This configuration enables you to:
 1. **Use ADAL.js for Login**
    - Implement client side login using ADAL.js
 
-> [!NOTE]
-> MSAL.js is incompatible because Power Pages uses Entra v1 endpoints, while MSAL uses v2. The issuer format differs between v1 and v2.
+   > [!NOTE]
+   > MSAL.js is incompatible because Power Pages uses Entra v1 endpoints, while MSAL uses v2. The issuer format differs between v1 and v2.
 
 1. **Add Authorization Header**
    ```http
