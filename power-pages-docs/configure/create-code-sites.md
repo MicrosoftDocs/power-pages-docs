@@ -301,6 +301,8 @@ This configuration enables a productive local development experience for SPA, al
 1. **Enable SPA authentication**
    - In https://portal.azure.com, open the Entra app registered for your portal.
    - Enable **Single Page Application (SPA)** authentication.
+   - Add the following redirect URIs using the **Single-page application** platform configuration. Refer to [How to add a redirect URI in your application](/entra/identity-platform/how-to-add-redirect-uri) for more details.
+      - **Redirect URI**: `http://localhost:3000/`
 
 2. **Add site settings**
    Add the following site settings in Power Pages:
