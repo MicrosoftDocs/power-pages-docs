@@ -1,8 +1,9 @@
 ---
-title: Replace default copilot with a copilot customized using Microsoft Copilot Studio
-description: Learn how to replace the default Power Pages copilot with another copilot available in Microsoft Copilot Studio.
+title: Add an agent available in Microsoft Copilot Studio
+description: Learn how to add an agent available in Microsoft Copilot Studio.
 ms.topic: how-to
-ms.date: 04/29/2025
+ms.date: 08/04/2025
+ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -14,27 +15,25 @@ ms.collection:
     - bap-ai-copilot
 ---
 
-# Replace default copilot with a copilot customized using Microsoft Copilot Studio
+# Add an agent available in Microsoft Copilot Studio
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This article offers a comprehensive, step-by-step guide for updating default Power Pages copilot with another copilot available in Microsoft Copilot Studio.
+This article offers a comprehensive, step-by-step guide for updating default Power Pages agent with another agent available in Microsoft Copilot Studio.
 
 ## Prerequisites
 
-- You need a copilot created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
+- You need an agent created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
 
-- [Copilot](enable-chatbot.md#add-a-copilot) needs to be created and published in the site where you're updating another copilot available in Microsoft Copilot Studio.
+- [Agent](enable-agent.md#add-an-agent) needs to be created and published in the site where you're updating another agent available in Microsoft Copilot Studio.
 
-- You can only replace a copilot with [No authentication](/microsoft-copilot-studio/configuration-end-user-authentication#no-authentication).
-
-## Copy the Copilot schema name
+## Copy the agent schema name
 
 1. Sign in to [Microsoft Copilot Studio](https://web.powerva.microsoft.com/).
 
-1. Select the copilot you want to use in Power Pages.
+1. Select the agent you want to use in Power Pages.
 
-1. Go to **Copilot details** under **Settings**.
+1. Go to **Agent details** under **Settings**.
 
 1. Select the **Advanced** tab.
 
@@ -42,7 +41,7 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 ## Verify data model version
 
-Copilot can be enabled for both standard and enhanced site data models. The steps to replace it vary based on the data model. Make sure you follow the correct steps for your data model.
+Agent can be enabled for both standard and enhanced site data models. The steps to replace it vary based on the data model. Make sure you follow the correct steps for your data model.
 
 1. Go to [Set up workspace](../configure/setup-workspace.md).
 
@@ -50,7 +49,7 @@ Copilot can be enabled for both standard and enhanced site data models. The step
 
 1. Verify the **Data Model** version. Choose either **Standard** or **Enhanced**.
 
-## Update the copilot based on your data model version
+## Update the agent based on your data model version
 
 To see the appropriate steps, select the tab that corresponds to your data model.
 

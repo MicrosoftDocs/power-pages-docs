@@ -2,7 +2,8 @@
 title: Add AI-generated text using Copilot
 description: Learn how to create AI-generated text using Copilot and add it to a page in your Power Pages site.
 ms.topic: how-to
-ms.date: 10/24/2024
+ms.date: 06/27/2025
+ms.update-cycle: 180-days
 author: ckwan-ms
 ms.author: ckwan
 ms.reviewer: dmartens
@@ -21,7 +22,7 @@ An easy way to add text to your Power Pages website is to ask Copilot to create 
 :::image type="content" source="media/add-text-copilot/copilot-text.svg" alt-text="Screenshot of the text creation page in the Copilot for Power Pages preview.":::
 
 > [!NOTE]
-> This feature is now generally available (GA) for all regions with the exception of DOD.
+> This feature is now generally available (GA) for all regions except for DOD.
 
 ## Generate text with Copilot
 
@@ -61,7 +62,7 @@ Here are examples of the same generated text, before and after applying refineme
 
 - Original text:
 
-  Contoso University offers a range of student loan options to help students pay for their education. With competitive interest rates, flexible repayment plans, and no hidden fees. Contoso University's student loan program is an excellent choice for students looking for financial assistance. Plus, Contoso University's experienced loan advisors are available to help students understand their loan options and find the best solution for their individual needs. With Contoso University, students can be confident that they are getting the best loan option for their educational goals.
+  Contoso University offers a range of student loan options to help students pay for their education. With competitive interest rates, flexible repayment plans, and no hidden fees. Contoso University's student loan program is an excellent choice for students looking for financial assistance. Plus, Contoso University's experienced loan advisors are available to help students understand their loan options and find the best solution for their individual needs. With Contoso University, students can be confident that they're getting the best loan option for their educational goals.
 
 - After **changing the tone** to **Friendlier**:
 
@@ -71,7 +72,7 @@ Here are examples of the same generated text, before and after applying refineme
 
   At Contoso University, we understand financing your education can be a challenge. That's why we offer a range of student loan options with competitive interest rates, flexible repayment plans and no hidden fees. Our experienced loan advisors are here to guide you through the process and help you find the best loan option for your individual needs. With Contoso University, you can be confident you're getting the best loan option for your educational goals - and doing so with a friendly and supportive team by your side.
 
-- After **giving Copilot more details to work with**; in this case, that Contoso University is rated a Best Value for the Money by University Ranking Magazine:
+- After **giving Copilot more details to work with**; in this case, that Contoso University is rated as a Best Value for the Money by University Ranking Magazine:
 
   At Contoso University, we understand financing your education can be a challenge. That's why we offer a range of student loan options with competitive interest rates, flexible repayment plans and no hidden fees. Our experienced loan advisors are here to guide you through the process and help you find the best loan option for your individual needs. With Contoso University, you can be confident you're getting the best loan option for your educational goals - and doing so with a friendly and supportive team by your side. Additionally, Contoso University is rated a Best Value for the Money by University Ranking Magazine, making it an even more attractive choice for students looking to finance their education.
 
@@ -81,4 +82,3 @@ Here are examples of the same generated text, before and after applying refineme
 - [FAQ for generating text](../faqs-generate-text.md)
 - [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
 - [Create a form in a webpage using a Copilot](../getting-started/add-form-copilot.md)
-

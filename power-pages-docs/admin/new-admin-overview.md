@@ -8,10 +8,11 @@ ms.date: 11/19/2024
 ms.author: pudupa
 ms.reviewer: dmartens
 ms.custom:
-- ai-gen-docs-bap
-- ai-gen-description
-- ai-seo-date:11/19/2024
-- ignite-2024
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:11/19/2024
+  - ignite-2024
+  - sfi-image-nochange
 ---
 
 # Use the new Power Platform admin center (preview)

@@ -34,6 +34,8 @@
       href: getting-started/developer-sites.md
     - name: Get started with design studio
       href: getting-started/use-design-studio.md
+    - name: Use action center
+      href: getting-started/action-center.md
     - name: Templates
       items:
         - name: Create sites using templates
@@ -166,7 +168,7 @@
                   href: getting-started/add-list.md
                 - name: Add an AI-generated form using Copilot
                   href: getting-started/add-form-copilot.md
-                - name: Add AI summary list (preview)
+                - name: Add AI features in a list (preview)
                   href: getting-started/add-ai-summary-list.md
                 - name: Add a form manually
                   href: getting-started/add-form.md
@@ -192,6 +194,32 @@
               href: getting-started/structure-site.md
             - name: Use Visual Studio Code editor (preview)
               href: configure/visual-studio-code-editor.md
+    - name: Add an agent
+      items:
+        - name: Overview
+          href: getting-started/add-agent-overview.md
+        - name: Add agent using set up workspace
+          items:
+            - name: Add an agent
+              href: getting-started/enable-agent.md
+            - name: Configure Omnichannel with site agent
+              href: configure/omnichannel.md
+            - name: Generate answers from public data using Bing search
+              href: getting-started/force-bing-index.md
+            - name: Manage agent provisioning
+              href: getting-started/manage-agent-provisioning.md
+        - name: Build an agent from a form (preview)
+          items:
+            - name: Build an agent from a form
+              href: getting-started/build-agent-from-form.md
+            - name: Configure user authentication
+              href: getting-started/configure-user-authentication-for-agent.md
+        - name: Extend or customize agent experience
+          items:
+            - name: Customize your agent
+              href: getting-started/customize-your-agent.md
+            - name: Add an agent available in Microsoft Copilot Studio
+              href: getting-started/agent-how-to.md
     - name: Style your site
       items:
         - name: Styling workspace overview
@@ -224,20 +252,6 @@
       items:
         - name: Set up workspace overview
           href: configure/setup-workspace.md
-        - name: Add a copilot
-          items:
-            - name: Add a copilot
-              href: getting-started/enable-chatbot.md
-            - name: Customize your copilot
-              href: getting-started/customize-your-copilot.md
-            - name: Generate answers from public data using Bing search
-              href: getting-started/force-bing-index.md
-            - name: Replace copilot with a Microsoft Copilot Studio copilot
-              href: getting-started/pva-bot-how-to.md
-            - name: Configure Omnichannel with site copilot
-              href: configure/omnichannel.md
-            - name: Manage copilot provisioning
-              href: getting-started/manage-copilot-provisioning.md
         - name: Progressive web applications
           items:
             - name: Overview
@@ -248,6 +262,8 @@
       items:
         - name: Security workspace overview
           href: getting-started/use-security-workspace.md
+        - name: Security agent (preview)
+          href: security/security-agent.md
         - name: Run security scan (preview)
           href: security/security-scan.md
         - name: Advanced settings (preview)
@@ -624,6 +640,8 @@
           href: configure/power-platform-cli-solution-management.md
         - name: Create a single-page application (preview)
           href: configure/create-code-sites.md
+        - name: "Tutorial: Create a single-page application using Spark and Codespace"
+          href: configure/create-code-site-using-codespace.md
     - name: Use Visual Studio Code
       items:
         - name: Use Visual Studio Code desktop for Power Pages
@@ -744,8 +762,8 @@
           href: security/web-application-firewall.md
         - name: Configure Web Application Firewall
           href: security/configure-web-application-firewall.md
-        - name: Web Application Firewall rule groups
-          href: security/web-application-firewall-rule-groups.md
+        - name: Configure managed rules in Web Application Firewall
+          href: security/configure-managed-rules.md
         - name: Web Application Firewall custom rule sets
           href: security/web-application-firewall-custom-rule-sets.md
         - name: Web Application Firewall logs
@@ -798,8 +816,10 @@
       href: responsible-ai-overview.md
     - name: FAQ for site creation
       href: faqs-generate-site.md
-    - name: FAQ for site copilot
-      href: faqs-chatbot.md
+    - name: FAQ for site agent
+      href: faq-site-agent.md
+    - name: FAQ for security agent
+      href: faq-security-agent.md
     - name: FAQ for generating text
       href: faqs-generate-text.md
     - name: FAQ for creating form
@@ -810,7 +830,7 @@
       href: faqs-pro-developer.md
     - name: FAQ for generative AI search
       href: faqs-generative-ai-search.md
-    - name: FAQ for the AI summary list
+    - name: FAQ for AI features in a list
       href: faqs-ai-summary-list.md
     - name: FAQ for data summarization API
       href: faqs-data-summarization.md
