@@ -1,8 +1,9 @@
 ---
 title: Generate answers from public data using Bing search
-description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add a copilot.
+description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add an agent.
 ms.topic: how-to
-ms.date: 04/29/2025
+ms.date: 06/17/2025
+ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: dmartens
@@ -22,8 +23,8 @@ To use Bing search:
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. Select the site, then select **+ Edit**.
-1. Go to the **Set up** workspace and select **Add copilot** under **Copilot**.
-1. Select **View copilot analytics**.
+1. Go to the **Set up** workspace and select **Add agent** under **Copilot**.
+1. Select **View agent analytics**.
 1. Select **Topics**.
 1. Select the **System** tab.
 1. Select the **Conversational boosting** topic.
@@ -34,7 +35,7 @@ To use Bing search:
 
 > [!IMPORTANT]
 >
-> If you configure copilot for generative answers from public data using Bing search, the use of Bing search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+> If you configure agent for generative answers from public data using Bing search, the use of Bing search is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## Force Bing Webmaster Tools to index your site (optional)
 
@@ -162,5 +163,5 @@ Indexing usually completes within a few minutes, but it can take up to an hour t
 - [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
 - [Create a form in a webpage using a Copilot](../getting-started/add-form-copilot.md)
 - [Use Copilot to generate text and it to a webpage](../getting-started/add-text-copilot.md)
-- [Add a copilot to your Power Pages site](../getting-started/enable-chatbot.md)
+- [Add an agent to your Power Pages site](../getting-started/enable-agent.md)
 - [Add AI-generated code using Copilot (preview)](../configure/add-code-copilot.md)

@@ -119,6 +119,36 @@
       "source_path": "power-pages-docs/configure/liquid-overview.md",
       "redirect_url": "/power-pages/configure/liquid/liquid-overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/enable-chatbot.md",
+      "redirect_url": "/power-pages/getting-started/enable-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/customize-your-copilot.md",
+      "redirect_url": "/power-pages/getting-started/customize-your-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/pva-bot-how-to.md",
+      "redirect_url": "/power-pages/getting-started/agent-how-to",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/getting-started/manage-copilot-provisioning.md",
+      "redirect_url": "/power-pages/getting-started/manage-agent-provisioning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/faqs-chatbot.md",
+      "redirect_url": "/power-pages/faqs-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/security/web-application-firewall-rule-groups.md",
+      "redirect_url": "/power-pages/security/authentication/configure-managed-rules",
+      "redirect_document_id": "false"
     }
   ]
 }

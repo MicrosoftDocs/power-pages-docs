@@ -2,7 +2,8 @@
 title: Overview of AI-powered and Copilot features in Power Pages
 description: Learn how AI-powered and Copilot features in Power Pages simplify website creation and provide an enhanced user experience.
 ms.topic: overview
-ms.date: 11/13/2024
+ms.date: 06/27/2025
+ms.update-cycle: 180-days
 author: DanaMartens
 ms.author: bipuldeora
 ms.reviewer: dmartens
@@ -31,16 +32,15 @@ The following features streamline the website creation process with Copilot:
 - [Add an AI-generated form using Copilot](../getting-started/add-form-copilot.md)
 - [Add an AI-generated multistep form using Copilot (preview)](../getting-started/multistep-forms-copilot.md)
 - [Add AI-generated text using Copilot](../getting-started/add-text-copilot.md)
-- [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
 - [Ask Copilot questions](../getting-started/ask-copilot.md)
 - [Create an AI-generated color theme using Copilot](../getting-started/theme-copilot.md)
-- [Add AI summary list](../getting-started/add-ai-summary-list.md)
 
 ## AI-powered features for developers
 
 The following features streamline the customization experience with Copilot:
 
-[Data summarization API overview (preview)](../configure/data-summarization-api.md)
+- [Add AI-generated code using Copilot (preview)](add-code-copilot.md)
+- [Data summarization API overview (preview)](../configure/data-summarization-api.md)
 
 ## AI-powered features for admins
 
@@ -52,9 +52,11 @@ The following features streamline the administration experience with Copilot:
 
 The following features make it easier for your website users to locate the information they seek:
 
-- [Add an AI-powered copilot](../getting-started/enable-chatbot.md)
+- [Add an AI-powered agent](../getting-started/enable-agent.md)
+- [Add a search component (preview)](../getting-started/add-search.md)
 - [Search with generative AI (preview)](search/generative-AI.md)
-- [AI form fill assistance](../getting-started/add-form.md#enable-ai-form-fill-assistance-on-a-form-preview)
+- [Add AI features in a list (preview)](../getting-started/add-ai-summary-list.md)
+- [Enable AI form fill assistance](../getting-started/add-form.md#enable-ai-form-fill-assistance-on-a-form-preview)
 
 ## Availability
 

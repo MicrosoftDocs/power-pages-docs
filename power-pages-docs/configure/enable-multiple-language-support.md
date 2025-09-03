@@ -4,14 +4,15 @@ description: Learn how to enable multiple languages for a Power Pages website an
 author: DanaMartens
 
 ms.topic: how-to
-ms.custom: 
-ms.date: 04/10/2023
+ms.date: 08/06/2025
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft
     - nageshbhat-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Enable multiple-language website support
@@ -47,7 +48,7 @@ You can set the default language of your website by changing the *Default Langua
 
 ## Supported languages
 
-The table below shows all the languages currently available out of the box. This list can be found by going to the Portals Management app, in the **Content** section and then select **Portal Languages**. The display name of a language can be changed after selecting the language to change from this page.
+The following table shows all the languages currently available out of the box. This list can be found by going to the Portals Management app, in the **Content** section and then select **Portal Languages**. The display name of a language can be changed after selecting the language to change from this page.
 
 | **Name**                           | **Language Code** | **LCID** | **Portal Display Name** |
 |------------------------------------|-------------------|----------|-------------------------|
@@ -95,14 +96,50 @@ The table below shows all the languages currently available out of the box. This
 | Ukrainian - Ukraine                | uk-UA             | 1058     | українська              |
 | Vietnamese - Vietnam               | vi-VN             | 1066     | Tiếng Việt              |
 
+## Add custom language
+
+This section explains how to enable support for additional languages beyond those provided by Dataverse, allowing you to customize your website's language options.
+
+> [!NOTE]
+> - System messages, like platform dialogs and error messages, aren't translated into custom languages. System messages use the base language selected when creating a new language.  
+> - This is supported only for the standard data model (SDM).
+
+If you want to add custom languages, follow these steps:
+
+1. Go to [Power Pages home](https://make.powerpages.microsoft.com) and select the environment where the site is located. 
+1. Select the site and select **Edit** to open the studio.  
+1. Select **More Items (…)** to open the Portal Management App.
+1. In the Supported Languages sub grid, select **New Website Language**.  
+1. Select the search icon in the **Portal Language** lookup.  
+    :::image type="content" source="media/multi-language/new-custom-language.png" alt-text="Screenshot of new Website Language page showing Portal language option"::: 
+1. Select **New**.  
+1. Select the **Discard changes** button.  
+1. Enter the details for the new language. 
+    > [!NOTE]
+    > - Enter the Dataverse LCID in the Dynamics 365 language field, and the Power Pages LCID in the LCID field.
+    > - Dynamics 365 language must be one of the 43 languages supported by Pages, such as 1033 for English. 
+
+    :::image type="content" source="media/multi-language/new-portal-language.png" alt-text="Screenshot of the New Portal Language page showing field to enter new language details":::
+1. Select **Save & Close**.  
+1. Select the recently created language in the **Portal Language** field.  
+1. Set the **Publishing State** to **Published**.  
+1. Select **Save & Close**.  
+
+> [!NOTE]
+> As we create our own custom language, Dataverse isn't a default translation. You need to create your own [content snippets](#create-content-snippet-for-custom-language).
+
 ## Create content in multiple languages
+
+This section explains how to add localized content to your website, enabling it to display information in multiple languages for a global audience.
+
+### Add an existing and supported language
 
 1. Open the [Portal Management app](portal-management-app.md).
 2. Go to **Website** > **Content** > **Web Pages** to see a list of content. For each webpage, there will be a parent version of the page and a child version of the page for each language activated for the website.
 3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
 4. Select **+ New Web Page** on to create a lookup for the localized version.
 
-    :::image type="content" source="media/multi-language/add-new-localized-content.png" alt-text="Add new localized content":::
+    :::image type="content" source="media/multi-language/add-new-localized-content.png" alt-text="Screenshot of page with add new web page option":::
 
 > [!Note]
 > The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
@@ -111,7 +148,43 @@ Knowledge articles will only be displayed if they've been translated into the la
 
 Web link sets are the navigation links at the top of the portal. In the Portal Management app, go to **Content** > **Web Link Sets** to update the translated text of the menu items. When a language is active for the website, a new set of links is created for the newly activated language.
 
-:::image type="content" source="media/multi-language/active-weblink-new-language.png" alt-text="Active web link for new language":::
+:::image type="content" source="media/multi-language/active-weblink-new-language.png" alt-text="Screenshot of page showing active web link sets for new language":::
+
+### Create content snippet for custom language
+
+To create a content snippet, you first add a site setting. Follow these steps to add the site setting:
+
+1. Select the **Site Settings** tab.
+1. Add `Site/EnableContentSnippetTranslationForForms` and set its value to `true`.
+     :::image type="content" source="media/multi-language/site-setting-content-snippet.png" alt-text="Screenshot of the site setting page.":::
+1. Select **Save and Close**.
+
+To add a content snippet, set the translation. For example, update the Title, Regarding, Source, and Comments label translations to Welsh.
+     :::image type="content" source="media/multi-language/enter-translation-details.png" alt-text="Screenshot of page showing field to enter language translation details":::
+
+1. Select **Content Snippet** from the **Related** drop down.
+    :::image type="content" source="media/multi-language/content-snippet-option.png" alt-text="Screenshot of option Related drop down with Content snippets option highlighted":::
+1. Select **New Content Snippet**.
+1. Provide the name, such as *Feedback Form*. This name is used later.
+1. Enter the value in JSON format for each label. For example:
+ {
+      "Title":"Teitl",
+      "Regarding":"ynghylch",
+      "Source":"ffynhonnell",
+      "Comments":"sylw"
+}
+    :::image type="content" source="media/multi-language/details-filled-content-snippet.png" alt-text="Screenshot of page showing filled details in content snippet":::
+1. Select **Save & Close**.  
+1. Select the **Basic Forms** tab. You can follow the same steps for multi-step forms and lists.
+1. Select the form with the labels you want to translate.  
+1. After the selected form opens, select the **Basic Form Metadata** tab.
+1. Select **New Basic Form Metadata**.  
+1. Select **Type** as **Attribute**.  
+1. Select the field where the label needs to be translated.  
+1. Enter the value in the label for **English (United States)** in this format: `[[ContentSnippet.{<content-snippet-name>}.<fieldName>]]`. For example,[[ContentSnippet.{Feedback Form}.Title]]
+1. Select **Save & Close**.  
+1. Repeat the same steps for other fields.
+1. Clear the cache, and launch the site.
 
 ## View website in a different language
 
