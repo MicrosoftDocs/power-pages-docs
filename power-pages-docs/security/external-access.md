@@ -6,7 +6,9 @@ ms.topic: how-to
 author: dmartens
 ms.author: dmartens
 contributors:
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 ---
 # Provide access to external audiences
 

@@ -14,7 +14,7 @@ metadata:
   ms.collection: collection
   author: iammaddala
   ms.author: ammaddala
-  ms.date: 07/25/2024
+  ms.date: 06/27/2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -124,8 +124,8 @@ conceptualContent:
         - text: Add AI-generated text using Copilot
           url: getting-started/add-text-copilot.md
           itemType: concept
-        - text: Enable chatbot in your site
-          url: getting-started/enable-chatbot.md
+        - text: Enable agent in your site
+          url: getting-started/enable-agent.md
           itemType: concept
         - text: Force Bing webmaster to index your site
           url: getting-started/force-bing-index.md
