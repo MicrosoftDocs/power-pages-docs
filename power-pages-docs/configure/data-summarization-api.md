@@ -3,7 +3,8 @@ title: Data summarization API overview (preview)
 description: Learn about the data summarization API in Microsoft Power Pages.
 author: nageshbhat-msft
 ms.topic: concept-article
-ms.date: 04/29/2025
+ms.date: 08/28/2025
+ms.update-cycle: 180-days
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:
@@ -63,6 +64,8 @@ Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
 OData-Version: 4.0
 Accept: application/json
+
+Body:
 {
 "InstructionIdentifier": "Summarization/prompt/case_summary"
 }

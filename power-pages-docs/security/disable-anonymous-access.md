@@ -4,22 +4,16 @@ description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/13/2024
+ms.date: 07/03/2025
 ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - nageshbhat-msft
 ---
 
-# Use governance controls to disable anonymous access (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Use governance controls to disable anonymous access
 
 As an administrator, you can disable anonymous access. This setting prohibits unauthenticated users from accessing Dataverse data displayed on websites in your tenant, preventing accidental exposure of sensitive data.
-
->[!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 ## Admin experience
 

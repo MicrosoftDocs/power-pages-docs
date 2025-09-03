@@ -4,13 +4,14 @@ description: Learn how to change the base URL of a website.
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 03/16/2023
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Change the base URL of a website
