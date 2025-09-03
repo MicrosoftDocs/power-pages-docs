@@ -4,6 +4,7 @@ description: Look up frequently asked questions (FAQ) for the data summarization
 author: nageshbhat-msft
 ms.topic: faq
 ms.date: 02/05/2025
+ms.update-cycle: 180-days
 ms.author: nabha
 ms.reviewer: dmartens
 ms.collection:

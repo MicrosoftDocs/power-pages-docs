@@ -3,7 +3,6 @@ title: Debug your Power Pages site with the DevTools extension
 description: Learn how to use the Power Pages DevTools browser extension to debug a Power Pages site.
 author: nageshbhat-msft
 ms.topic: how-to
-ms.custom: 
 ms.date: 06/28/2024
 ms.subservice:
 ms.author: nabha
@@ -11,6 +10,8 @@ ms.reviewer: dmartens
 contributors:
     - DanaMartens
     - nageshbhat-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Power Pages DevTools extension

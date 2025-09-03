@@ -4,12 +4,13 @@ description: Learn about how to set up Azure Front Door, or any other content de
 author: DanaMartens
 
 ms.topic: how-to
-ms.custom: 
 ms.date: 01/04/2023
 ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - dileepsinghmicrosoft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Set up Azure Front Door with Power Pages sites

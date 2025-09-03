@@ -4,7 +4,6 @@ description: Learn about the important changes, including deprecations, coming s
 author: DanaMartens
 
 ms.topic: concept-article
-ms.custom: 
 ms.date: 06/24/2024
 ms.subservice: 
 ms.author: bipuldeora
@@ -14,6 +13,8 @@ contributors:
     - dileepsinghmicrosoft
     - nageshbhat-msft
     - sampatn
+ms.custom:
+  - sfi-ropc-nochange
 ---
 
 # Important upcoming changes and deprecations in Power Pages

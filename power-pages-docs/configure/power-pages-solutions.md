@@ -3,13 +3,14 @@ title: Use solutions with Power Pages
 description: Learn how to use solutions with Power Pages.
 author: gitanjalisingh33msft
 ms.topic: how-to
-ms.custom: 
 ms.date: 09/09/2024
 ms.author: gisingh
 ms.reviewer: dmartens
 contributors:
     - gitanjalisingh33msft
     - neerajnandwana-msft
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Use solutions with Power Pages

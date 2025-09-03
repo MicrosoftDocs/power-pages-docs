@@ -3,7 +3,8 @@ title: Control use of Generative AI features for users (preview)
 description: Learn how to control use of generative AI features for your users of your Microsoft Power Pages websites.
 author: PramithaU
 ms.topic: how-to
-ms.date: 10/29/2024
+ms.date: 06/27/2025
+ms.update-cycle: 180-days
 ms.author: pudupa
 ms.reviewer: dmartens
 ms.collection:
@@ -23,7 +24,7 @@ As an administrator, you can choose to disable Generative AI features for your w
 >
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
-> - This feature is being gradually rolled out across regions and may not be available yet in your region.
+> - This feature is being gradually rolled out across regions and might not be available yet in your region.
 > - The following AI-powered experiences are governed separately and are not covered by this control:
 >   - [Site copilot](/microsoft-copilot-studio/security-and-governance)
 >   - [Maker experiences](../configure/ai-copilot-overview.md)
