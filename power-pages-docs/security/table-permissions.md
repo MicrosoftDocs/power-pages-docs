@@ -194,7 +194,7 @@ The following message is displayed when you try to save a table permission witho
 
 ### Next Steps
 
-[Web Application Firewall DRS rule groups and rules for Power Pages (preview)](web-application-firewall-rule-groups.md)
+[Configure managed rules in Web Application Firewall for Power Pages](configure-managed-rules.md)
 
 ### See also
 
