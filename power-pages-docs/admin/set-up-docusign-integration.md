@@ -4,12 +4,13 @@ description: Learn how to set up DocuSign integration with your website. Include
 author: PramithaU
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/13/2024
+ms.date: 08/14/2025
 ms.subservice:
 ms.author: pudupa 
 ms.reviewer: dmartens
 contributors:
     - meeramahabala
+    - nageshbhat-msft
 ---
 # Set up DocuSign integration (preview)
 
@@ -22,7 +23,6 @@ Power Pages and DocuSign integration offers an efficient workflow for incorporat
 
 > [!IMPORTANT]
 > - This is a preview feature.
-> - This feature currently only works with the **standard data model**. More information: [Enhanced data model](../admin/enhanced-data-model.md)
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 Integrating DocuSign into your application requires three steps:
