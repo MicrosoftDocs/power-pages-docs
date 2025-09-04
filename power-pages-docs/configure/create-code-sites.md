@@ -291,21 +291,21 @@ This setup lets you:
 This configuration enables a productive local development experience for SPA, allowing developers to build, test, and iterate quickly with full API access and authentication support.
 
 > [!IMPORTANT]
-> - Use **only Entra v1 endpoints** for authentication.
-> - Bearer authentication is supported only in **portal versions >= 9.7.6.6**.
-> - Apply these settings **only in development environments**.
+> - Use only Entra v1 endpoints for authentication.
+> - Bearer authentication is supported only in portal versions 9.7.6.6 or later.
+> - Apply these settings only in development environments.
 
 
 ### Configuration steps
 
 1. **Enable SPA authentication**
-   - In https://portal.azure.com, open the Entra app registered for your portal.
-   - Enable **Single Page Application (SPA)** authentication.
-   - Add `localhost` as a redirect URI using the **Single-page application** platform configuration. Refer to [How to add a redirect URI in your application](/entra/identity-platform/how-to-add-redirect-uri) for more details.
+   1. In https://portal.azure.com, open the Entra app registered for your portal.
+   2. Enable **Single Page Application (SPA)** authentication.
+   3. Add `localhost` as a redirect URI using the **Single-page application** platform configuration. Refer to [How to add a redirect URI in your application](/entra/identity-platform/how-to-add-redirect-uri) for more details.
       - **Redirect URI**: `http://localhost:<port>/`.
 
 2. **Add site settings**
-   Add these site settings in Power Pages:
+   - Add these site settings in Power Pages:
 
    ```plaintext
    Authentication/BearerAuthentication/Enabled = true
@@ -320,7 +320,7 @@ This configuration enables a productive local development experience for SPA, al
    > MSAL.js isn't compatible because Power Pages uses Entra v1 endpoints, while MSAL uses v2. The issuer format differs between versions.
 
 4. **Add authorization header**
-   Include this header to all Web API requests:
+   - Include this header to all Web API requests:
 
    ```http
    Authorization: Bearer <id_token>
@@ -330,7 +330,7 @@ This configuration enables a productive local development experience for SPA, al
    - This setting lets `localhost` access to site for development and testing purposes.
 
 6. **Configure development proxy**
-   If you use **Vite**, add this to `vite.config.js` to avoid CORS issues:
+   - If you use **Vite**, add this to `vite.config.js` to avoid CORS issues:
 
    ```js
    export default defineConfig({
