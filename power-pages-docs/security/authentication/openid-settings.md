@@ -17,7 +17,7 @@ ms.custom:
 
 # Set up an OpenID Connect provider with Microsoft Entra ID
 
-Microsoft Entra is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. Along with Microsoft Entra ID, multitenant Microsoft Entra ID, and Azure AD B2C, you can use any other provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
+Microsoft Entra is one of the OpenID Connect identity providers you can use to [authenticate visitors](configure-site.md) to your Power Pages site. Along with Microsoft Entra ID, multitenant Microsoft Entra ID, and Microsoft Entra External ID, you can use any other provider that conforms to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html).
 
 This article describes the following steps:
 
