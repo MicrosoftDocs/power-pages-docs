@@ -278,9 +278,9 @@ const fetchCards = async () => {
 
 ```
 
-## Set up local development by enabling Web API calls from localhost using Entra ID authentication
+## Set up local development by enabling Web API calls from localhost using Microsoft Entra ID authentication
 
-Developers need faster iteration cycles, local debugging, and hot reload capabilities when building applications. SPA supports these workflows by enabling secure Web API calls from `localhost` using Entra ID (Azure AD) v1 authentication.
+Developers need faster iteration cycles, local debugging, and hot reload capabilities when building applications. SPA supports these workflows by enabling secure Web API calls from `localhost` using Microsoft Entra ID (Azure AD) v1 authentication.
 
 This setup lets you:
 - Run your app locally with full authentication support.
@@ -291,7 +291,7 @@ This setup lets you:
 This configuration enables a productive local development experience for SPA, allowing developers to build, test, and iterate quickly with full API access and authentication support.
 
 > [!IMPORTANT]
-> - Use only Entra v1 endpoints for authentication.
+> - Use only Microsoft Entra v1 endpoints for authentication.
 > - Bearer authentication is supported only in portal versions 9.7.6.6 or later.
 > - Apply these settings only in development environments.
 
@@ -299,13 +299,13 @@ This configuration enables a productive local development experience for SPA, al
 ### Configuration steps
 
 1. **Enable SPA authentication**
-   1. In https://portal.azure.com, open the Entra app registered for your portal.
+   1. In https://portal.azure.com, open the Microsoft Entra app registered for your portal.
    2. Enable **Single Page Application (SPA)** authentication.
    3. Add `localhost` as a redirect URI using the **Single-page application** platform configuration. Refer to [How to add a redirect URI in your application](/entra/identity-platform/how-to-add-redirect-uri) for more details.
       - **Redirect URI**: `http://localhost:<port>/`.
 
 2. **Add site settings**
-   - Add these site settings in Power Pages:
+   - Add these [site settings](configure-site-settings.md) in Power Pages:
 
    ```plaintext
    Authentication/BearerAuthentication/Enabled = true
@@ -317,17 +317,17 @@ This configuration enables a productive local development experience for SPA, al
    - Implement client-side login using **ADAL.js**.
 
    > [!NOTE]
-   > MSAL.js isn't compatible because Power Pages uses Entra v1 endpoints, while MSAL uses v2. The issuer format differs between versions.
+   > MSAL.js isn't compatible because Power Pages uses Microsoft Entra v1 endpoints, while MSAL uses v2. The issuer format differs between versions.
 
 4. **Add authorization header**
-   - Include this header to all Web API requests:
+   - Include this header in all Web API requests:
 
    ```http
    Authorization: Bearer <id_token>
    ```
 
 5. **Set site visibility to Public**
-   - This setting lets `localhost` access to site for development and testing purposes.
+   - This setting lets `localhost` access the site for development and testing purposes.
 
 6. **Configure development proxy**
    - If you use **Vite**, add this to `vite.config.js` to avoid CORS issues:
