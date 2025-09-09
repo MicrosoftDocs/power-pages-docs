@@ -1,10 +1,10 @@
 ---
-title: Power Pages search with generative AI (preview)
+title: Power Pages search with generative AI
 description: Learn how to enhance search results with generative AI.
 author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/08/2025
+ms.date: 09/08/2025
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -13,18 +13,12 @@ contributors:
     - DanaMartens
 ---
 
-# Power Pages search with generative AI (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+# Power Pages search with generative AI
 
 Using Generative AI for Power Pages Search is about incorporating generative artificial intelligence (AI) models into web search features. Generative AI can comprehend context, meaning, and user goals to summarize search results. This method uses natural language processing (NLP) and machine learning techniques to improve user experience by offering more precise and varied search results.
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../../includes/cc-preview-features-definition.md)]
-> - Generative AI search is available for sites created with English language.
 > - This feature is not available in Government Community Cloud (GCC), Government Community Cloud - High (GCC High), or Department of Defense (DoD) regions.
-> - Power Pages site version must be 9.6.3.41 or higher.
 > - Faceted search isn't available when you enable generative AI search.
 
 :::image type="content" source="../media/generative-ai/generative-ai.png" alt-text="Screenshot of an AI generated summary of search results in Power Pages search.":::
