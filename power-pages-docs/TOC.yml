@@ -488,7 +488,7 @@
           href: configure/search/faceted.md
         - name: Search knowledge article attachments
           href: configure/search/file-attachment.md
-        - name: Use generative AI (preview)
+        - name: Use generative AI
           href: configure/search/generative-ai.md
         - name: Progressive search
           href: configure/search/progressive.md
