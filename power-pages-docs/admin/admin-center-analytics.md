@@ -1,27 +1,21 @@
 ---
-title: Monitor website traffic from the Power Platform admin center (preview)
+title: Monitor website traffic from the Power Platform admin center
 description: Learn how to use the Power Platform admin center to monitor the traffic to the websites in your tenant.
 ms.topic: how-to
 ms.custom: 
-ms.date: 08/08/2025
+ms.date: 09/10/2025
 ms.subservice:
 author: PramithaU
 ms.author: pudupa
 ms.reviewer: danamartens
 contributors:
     - vamseedillimsft
+    - shwetamurkute
 ---
 
-# Monitor traffic to your websites (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Monitor traffic to your websites
 
 Learn how to use the Power Platform admin center to monitor the traffic to the websites in your tenant. 
-
-> [!IMPORTANT]
-> - This feature is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
-> - This feature is gradually being rolled out across regions and might not be available yet in your region.
 
 ### Access the analytics dashboard
 
