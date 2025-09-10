@@ -290,7 +290,7 @@
       href: admin/power-platform-admin-center.md
     - name: Manage website security from the admin center
       href: admin/admin-center-security.md
-    - name: Monitor traffic to your websites (preview)
+    - name: Monitor traffic to your websites
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
