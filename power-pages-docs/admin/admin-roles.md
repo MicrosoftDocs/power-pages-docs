@@ -4,7 +4,7 @@ description: Learn about the roles and permissions required to do different admi
 author: neerajnandwana-msft
 
 ms.topic: concept-article
-ms.date: 12/12/2024
+ms.date: 09/10/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
@@ -24,11 +24,11 @@ For example, some tasks might require the user to be a member of admin roles in 
 In this article, you learn about the roles and permissions required to do different administrative tasks for Power Pages.
 
 > [!IMPORTANT]
-> To perform a task which requires an admin role, a user must be directly assigned to the required role. These roles are not inherited from security group membership or through privileged identity management (PIM).
+> To perform a task, which requires an admin role, a user must be directly assigned to the required role. These roles aren't inherited from security group membership or through privileged identity management (PIM).
 
 ## Required roles and permissions
 
-The following table lists different administrative tasks for Power Pages, and the roles required to do that task. Users who are members of those roles can perform the corresponding task.
+The following table lists different administrative tasks for Power Pages, and the roles required to do that task. Users who are members of those roles can do the corresponding task.
 
 | Task | Required roles |
 | - | - |
@@ -59,6 +59,9 @@ The following table lists different administrative tasks for Power Pages, and th
 | [Run site checker](site-checker.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Set up IP address restriction](ip-address-restrict.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Configure content delivery network](../configure/configure-cdn.md) |Any one of the following roles: <ul><li>[System administrator](#system-administrator)</li><li>[Dynamics 365 administrator](#dynamics-365-administrator)</li><li>[Power Platform administrator](#power-platform-administrator)</li> </ul> |
+
+> [!NOTE]
+> Environment makers can't perform environment-level operations for Power Pages, such as enabling or disabling Web Application Firewall (WAF), starting or stopping scans, or performing similar environment-wide actions.  
 
 ## Manage membership of the required roles
 
