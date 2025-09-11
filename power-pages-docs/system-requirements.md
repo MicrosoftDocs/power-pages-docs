@@ -66,7 +66,7 @@ This list identifies all services to which Power Pages communicates and their us
 | \*.flow.microsoft.com | https | create.powerapps.com, content.powerapps.com, and make.powerapps.com |
 | \*.dynamics.com | https | Microsoft Dataverse |
 | ecs.office.com | https | Retrieve feature flags for Power Apps |
-| oness.microsoft.com | https | Access to net promoter score (NPS) and surveys. |
+| \*.ces.microsoftcloud.com<br/>config.centro.core.microsoft<br/>admin.microsoft.com<br/>petrol.office.microsoft.com<br/>oness.microsoft.com  | https | Access to net promoter score (NPS) and surveys. |
 | \*.api.powerplatform.com<br> *.api.powerplatformusercontent.com | https | Required for Power Platform API connectivity used internally by Microsoft products, and Power Platform [programmability and extensibility](/power-platform/admin/programmability-extensibility-overview). |
 | \*.powerapps.us	| https |	Required for Power Pages for Government Community Cloud (GCC). <sup>1</sup> |
 | \*.powerapps.us	| https |	Required for Power Pages for Government Community Cloud (GCC High). <sup>2</sup> |
