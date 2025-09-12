@@ -3,7 +3,7 @@ title: Add Copilot summarization to case page (Preview)
 description: Learn how to add Copilot summarization to the case page in Power Pages.
 author: nageshbhat-msft
 ms.topic: how-to
-ms.date: 08/28/2025
+ms.date: 09/12/2025
 ms.update-cycle: 180-days
 ms.author: nabha
 ms.reviewer: dmartens
@@ -261,7 +261,8 @@ In this step, you add a summary section at the top of the case page.
                 url: "/_api/summarization/data/v1.0/incidents(" + id + ")?$select=description,title&$expand=incident_adx_portalcomments($select=description)",
                 data: JSON.stringify({
                                       "InstructionIdentifier": "Summarization/prompt/case_summary"
-                                     })
+                                     }),
+                contentType: "application/json; charset=utf-8"
               }).done(function(response) {
                 console.log("pass", response);
                 document.getElementById('summary_final').innerText = response.Summary;
