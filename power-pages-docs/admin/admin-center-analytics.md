@@ -71,6 +71,13 @@ To view the traffic for a specific site, select it in the **Site ID** list. To v
 - The usage numbers can be under-reported for the first few days after enabling the feature. For example, the monthly active users is accurate after the feature has been live for 30 days and the WAU is accurate after the feature has been live for 7 days.
 - The dashboards for daily, weekly, and monthly active users (DAU, WAU, MAU) only show data for the last 30 days.
 
+| Metric    | Definition              | How it’s Calculated / Displayed          | How to Read in the Chart                |
+|-----------|-------------------------|------------------------------------------|-----------------------------------------|
+| **MAU (Monthly Active Users)**  | The number of distinct users active in the past 30 days (rolling window). | For each date on the x-axis, MAU shows the number of unique users who access the site in the preceding 30 days.   | Example: On July 7, MAU = 204. This means 204 unique users logged in at least once between June 8 and July 7.      |
+| **WAU (Weekly Active Users)**   | The number of distinct users active in the past 7 days (rolling window).  | For each date, WAU counts unique users who accessed the site in the preceding 7 days.            | Example: On July 7, WAU = 111. This means 111 users accessed the site between July 1 and July 7.    |
+| **DAU (Daily Active Users)**    | The number of distinct users active on that date.   | For each date, DAU counts unique users on that single day.  | Example: On July 7, DAU = 41. This means 41 users accessed the site on July 7.    |
+| **MoM (Month-over-Month Authenticated Users)** | The number of distinct authenticated users in a given calendar month. | This is an aggregated calendar month view (for example, July 1–31), not a rolling window.          | Example: For July, MoM = 629. This means 629 unique authenticated users accessed the site at least once in July. This might be higher than the July 31 MAU (204) because MAU covers only the last 30 days (July 2–31), not the full month. |
+
 ### See also
 
 - [Administer Microsoft Power Platform](/power-platform/admin/admin-documentation)
