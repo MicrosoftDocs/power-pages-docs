@@ -3,7 +3,7 @@ title: Monitor website traffic from the Power Platform admin center
 description: Learn how to use the Power Platform admin center to monitor the traffic to the websites in your tenant.
 ms.topic: how-to
 ms.custom: 
-ms.date: 09/10/2025
+ms.date: 09/12/2025
 ms.subservice:
 author: PramithaU
 ms.author: pudupa
@@ -27,7 +27,7 @@ To access the analytics dashboard, you should have one of the following roles:
 
 ## View traffic analytics for all websites in a tenant
 
-The steps to access traffic analytics differ slightly depending on whether you are using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
+The steps to access traffic analytics differ slightly depending on whether you're using the [new admin center](new-admin-overview.md) or the [classic admin center](admin-overview.md):
 
 # [Classic admin center](#tab/classic)
 
@@ -58,7 +58,7 @@ To view the traffic for a specific site, select it in the **Site ID** list. To v
 
 >[!NOTE]
 > Currently, only Site ID is supported for filtering. The Site ID can be found under the **Your Sites** tab.
-> Traffic reports are available only for public sites. Private sites are not included in these reports. More information: [Difference between a private site and a public site](../security/site-visibility.md#difference-between-a-private-site-and-a-public-site)
+> Traffic reports are available only for public sites. Private sites aren't included in these reports. More information: [Difference between a private site and a public site](../security/site-visibility.md#difference-between-a-private-site-and-a-public-site)
 
 ### Considerations
 
@@ -67,8 +67,8 @@ To view the traffic for a specific site, select it in the **Site ID** list. To v
     - **Anonymous Users** shows the unique anonymous users who accessed the websites.
     - **All Users** shows the unique users who accessed the websites (either by authentication or anonymously).
 - All the traffic numbers (DAU, WAU, and MAU) shown are with the intent of understanding the visits to the websites. 
-- The authenticated user counts may vary slightly from license consumption reports. For instance, in cases where the authenticated user already has a Power Apps license, the visit isn't counted in license consumption. However, it is counted in the total authenticated users visiting the website.
-- The usage numbers can be under-reported for the first few days after enabling the feature. For example, the monthly active users is accurate after the feature has been live for 30 days and the WAU is accurate after the feature has been live for 7 days.
+- The authenticated user counts may vary slightly from license consumption reports. For instance, in cases where the authenticated user already has a Power Apps license, the visit isn't counted in license consumption. However, it's counted in the total authenticated users visiting the website.
+- The usage numbers can be under-reported for the first few days after enabling the feature. For example, the monthly active users are accurate after the feature has been live for 30 days and the WAU is accurate after the feature has been live for 7 days.
 - The dashboards for daily, weekly, and monthly active users (DAU, WAU, MAU) only show data for the last 30 days.
 
 | Metric    | Definition              | How it’s Calculated / Displayed          | How to Read in the Chart                |
