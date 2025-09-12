@@ -36,7 +36,7 @@ Enable pages in your web API and set the following site settings for the summari
 |-------------------|-------------|
 | Summarization/Data/Enable | Enable or disable the summarization feature.<br>**Default**: *false*<br>**Valid values**: *true*, *false* |
 | Summarization/prompt/{any_identifier} | <p>Use these settings to provide instructions for summarization.<br>**Type**: *string*</p><p>Example:<br>**Name**: *Summarization/prompt/case_summary*<br>**Value**: *Summarize key details and critical information*</p> |
-| Summarization/Data/ContentSizeLimit | Modify the input size limit for summarization content.<br>**Type**: *integer*<br>**Default**: *100,000* |
+| Summarization/Data/ContentSizeLimit | Modify the input size limit for summarization content.<br>**Type**: *integer*<br>**Default**: *100,000* charecters |
 
 ## API schema
 
