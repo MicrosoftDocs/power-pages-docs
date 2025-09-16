@@ -24,9 +24,9 @@ Phishing detection for Power Pages helps protect your organization from phishing
 
 ## Admin experience
 
-- Notifications appear in the Power Platform admin center > **Manage** > **Power Pages** > **Your sites**. They also appear on the portal hub page, which opens after you select a specific site from **Your sites**.  
+- Notifications appear in the [Power Platform admin center](https://admin.powerplatform.microsoft.com) > **Manage** > **Power Pages** > [Your sites](https://admin.powerplatform.microsoft.com/manage/portals). They also appear on the portal hub page, which opens after you select a specific site from **Your sites**.  
 - Emails and Teams notifications are sent to tenant admins when a suspension occurs.  
-- A direct link to contact Microsoft Support is included in the email, Teams, and PPAC notification messages for disputes.  
+- A direct link to contact Microsoft support is included in the email, Teams, and Power Platform admin center notification messages for disputes.  
 
 
 ## Next steps for admins
