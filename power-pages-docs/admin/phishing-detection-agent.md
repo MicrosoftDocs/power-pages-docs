@@ -15,21 +15,21 @@ author: shwetamurkute
 
 Phishing detection for Power Pages helps protect your organization from phishing threats by proactively detecting suspicious activities, suspending compromised sites, and notifying administrators with actionable insights.
 
-## Key Features
+## Key features
 
 - **Detection**: The system continuously monitors site activities for suspicious patterns.
 - **Suspension**: If a site is flagged as compromised and the phishing activity is verified by Microsoft, the affected site is automatically suspended to prevent further damage.
 - **Notification**: Tenant admins are notified through email, Teams, and the Power Platform admin center (PPAC) when a phishing site is suspended.
 - **Dispute support**: If a site is incorrectly flagged, tenant admins can raise a support ticket with Microsoft to request a review and reinstate the site.
 
-## Admin Experience
+## Admin experience
 
 - Notifications appear in the Power Platform admin center > **Manage** > **Power Pages** > **Your sites**. They also appear on the portal hub page, which opens after you select a specific site from **Your sites**.  
 - Emails and Teams notifications are sent to tenant admins when a suspension occurs.  
 - A direct link to contact Microsoft Support is included in the email, Teams, and PPAC notification messages for disputes.  
 
 
-## Next Steps for Admins
+## Next steps for admins
 
 - Monitor notifications in PPAC, email, and Teams for security-related actions.  
 - Promptly review suspended sites and raise a support ticket to dispute if needed.  
