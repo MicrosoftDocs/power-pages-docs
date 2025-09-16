@@ -38,5 +38,5 @@ Phishing detection for Power Pages helps protect your organization from phishing
 
 ## See also
 
-[Power Pages security](/power-platform/admin/power-pages-security)
+[Power Pages security](/power-platform/security/power-pages-security)
 
