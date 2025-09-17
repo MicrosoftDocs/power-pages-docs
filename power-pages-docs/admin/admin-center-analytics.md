@@ -73,7 +73,7 @@ To view the traffic for a specific site, select it in the **Site ID** list. To v
 
 | Metric    | Definition              | How it’s Calculated / Displayed          | 
 |-----------|-------------------------|------------------------------------------|
-| **MAU (Monthly Active Users)**  | The number of distinct users active in the past 30 days (rolling window). | For each date on the x-axis, MAU shows the number of unique users who access the site in the preceding 30 days.   | 
+| **MAU (Monthly Active Users)**  | The number of distinct users active in the past 30 days (rolling window). | For each date on the X-axis, MAU shows the number of unique users who access the site in the preceding 30 days.   | 
 | **WAU (Weekly Active Users)**   | The number of distinct users active in the past seven days (rolling window).  | For each date, WAU counts unique users who accessed the site in the preceding seven days.            | 
 | **DAU (Daily Active Users)**    | The number of distinct users active on that date.   | For each date, DAU counts unique users on that single day.  | 
 | **MoM (Month-over-Month Authenticated Users)** | The number of distinct authenticated users in a given calendar month. | This is an aggregated calendar month view (for example, July 1–31), not a rolling window.          |
