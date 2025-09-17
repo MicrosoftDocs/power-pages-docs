@@ -6,7 +6,7 @@ ms.date: 09/16/2025
 ms.reviewer: smurkute
 ms.author: pudupa
 author: shwetamurkute
-#customer intent: As a tenant admin, I want to understand how phishing detection works for Power Pages so that I can protect my organization from phishing threats.
+#customer intent: As a admin, I want to understand how phishing detection works for Power Pages so that I can protect my organization from phishing threats.
 
 ---
 
@@ -19,19 +19,19 @@ Phishing detection for Power Pages helps protect your organization from phishing
 
 - **Detection**: The system continuously monitors site activities for suspicious patterns.
 - **Suspension**: If a site is flagged as compromised and the phishing activity is verified by Microsoft, the affected site is automatically suspended to prevent further damage.
-- **Notification**: Tenant admins are notified through email, Teams, and the Power Platform admin center (PPAC) when a phishing site is suspended.
-- **Dispute support**: If a site is incorrectly flagged, tenant admins can raise a support ticket with Microsoft to request a review and reinstate the site.
+- **Notification**: Admins are notified through email, Teams, and the Power Platform admin center when a phishing site is suspended.
+- **Dispute support**: If a site is incorrectly flagged, admins can raise a support ticket with Microsoft to request a review and reinstate the site.
 
 ## Admin experience
 
 - Notifications appear in the [Power Platform admin center](https://admin.powerplatform.microsoft.com) > **Manage** > **Power Pages** > [Your sites](https://admin.powerplatform.microsoft.com/manage/portals). They also appear on the portal hub page, which opens after you select a specific site from **Your sites**.  
-- Emails and Teams notifications are sent to tenant admins when a suspension occurs.  
+- Emails and Teams notifications are sent to admins when a suspension occurs.  
 - A direct link to contact Microsoft support is included in the email, Teams, and Power Platform admin center notification messages for disputes.  
 
 
 ## Next steps for admins
 
-- Monitor notifications in PPAC, email, and Teams for security-related actions.  
+- Monitor notifications in Power Platform admin center, email, and Teams for security-related actions.  
 - Promptly review suspended sites and raise a support ticket to dispute if needed.  
 - Educate makers in your organization about secure site creation best practices.  
 
