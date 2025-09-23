@@ -99,6 +99,8 @@ The **Power Pages Actions** view in VS Code offers a simplified and efficient wa
 - **Open in VS Code Desktop**  
   If VS Code Desktop is installed, this action opens the site in the desktop version. It also triggers a site download, ensuring the code is available locally and ready for editing.
 
+:::image type="content" source="media/visual-studio-code-editor/power-pages-actions-view.png" alt-text="Power Pages Actions view in VS Code.":::
+
 ## Merge conflict notification
 
 If you are collaborating with other developers, there may be situations where you'll be working on the same source code. In the event you attempt to save changes to an outdated file you'll get a notification to **Compare** or **Overwrite** changes.
