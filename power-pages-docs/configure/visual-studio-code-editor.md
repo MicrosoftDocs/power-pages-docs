@@ -84,6 +84,21 @@ Go to **Styling workspace** and select available custom CSS **Edit code** menu t
 
 :::image type="content" source="media/visual-studio-code-editor/edit-code-custom-css.png" alt-text="Edit code from Custom CSS.":::
 
+## Power Pages Actions view
+
+The **Power Pages Actions** view in VS Code offers a simplified and efficient way to manage Power Pages sites directly within the editor. It minimizes the need to switch to Power Pages Studio by enabling developers to perform common tasks quickly and seamlessly from within the editor itself.
+
+### Available Actions
+
+- **Preview site**  
+  This action clears the [configuration cache](.admin/clear-server-side-cache#metadataconfiguration-tables) and opens the site inline within VS Code. It enables developers to preview and test changes to the site code without needing to switch context to Power Pages Studio. 
+
+- **Open in Power Pages Studio**  
+  After making code changes, users can use this action to navigate to the Power Pages Studio. This is useful for configuring authentication providers, web roles, and other site settings that are not editable in the code editor.
+
+- **Open in VS Code Desktop**  
+  If VS Code Desktop is installed, this action opens the site in the desktop version. It also triggers a site download, ensuring the code is available locally and ready for editing.
+
 ## Merge conflict notification
 
 If you are collaborating with other developers, there may be situations where you'll be working on the same source code. In the event you attempt to save changes to an outdated file you'll get a notification to **Compare** or **Overwrite** changes.
