@@ -86,7 +86,7 @@ Go to **Styling workspace** and select available custom CSS **Edit code** menu t
 
 ## Power Pages Actions view
 
-The **Power Pages Actions** view in VS Code offers a simplified and efficient way to manage Power Pages sites directly within the editor. It minimizes the need to switch to Power Pages Studio by enabling developers to perform common tasks quickly and seamlessly from within the editor itself.
+The **Power Pages Actions** view, accessible at the bottom of the File Explore, offers a simplified and efficient way to manage Power Pages sites directly within the editor. It minimizes the need to switch to Power Pages Studio by enabling developers to perform common tasks quickly and seamlessly from within the editor itself.
 
 ### Available Actions
 
