@@ -91,7 +91,7 @@ The **Power Pages Actions** view, accessible at the bottom of the File Explore, 
 ### Available Actions
 
 - **Preview site**  
-  This action clears the [configuration cache](/admin/clear-server-side-cache#metadataconfiguration-tables) and opens the site inline within VS Code. It enables developers to preview and test changes to the site code without needing to switch context to Power Pages Studio. 
+  This action clears the [configuration cache](../admin/clear-server-side-cache.md#metadataconfiguration-tables) and opens the site inline within VS Code. It enables developers to preview and test changes to the site code without needing to switch context to Power Pages Studio. 
 
 - **Open in Power Pages Studio**  
   After making code changes, users can use this action to navigate to the Power Pages Studio. This is useful for configuring authentication providers, web roles, and other site settings that are not editable in the code editor.
