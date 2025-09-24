@@ -27,6 +27,7 @@ Migration involves exporting the existing configuration from the source Microsof
 You need to prepare the target environment if you're using the standard data model. An environment using the [enhanced data model](../admin/enhanced-data-model.md) won't require these steps and you can proceed to [transferring the website configuration](#transfer-the-website-configuration-to-target-environment).
 
 > [!NOTE]
+> - THe following steps are only required if using the **standard data model**. 
 > - Preparing the target environment is a one-time process. You need to provision a new website in order to install the managed Power Pages solutions on Dataverse and configure the Power Pages web application. The process also installs default website metadata which is replaced with the website metadata from your source environment.
 > - Ensure that the target environment's maximum attachment size is set to the same or greater size as your source environment.
 > - The maximum size of files is determined by the **Maximum file size** setting in the [system settings email tab](/power-platform/admin/system-settings-dialog-box-email-tab) in the environment system settings dialog box.
