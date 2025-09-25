@@ -4,7 +4,7 @@ description: Learn how to customize pages by using the Visual Studio Code for th
 author: neerajnandwana-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 08/02/2023
+ms.date: 09/25/2025
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: dmartens
@@ -29,7 +29,7 @@ From the design studio, you can edit site code using **Visual Studio Code for th
 | [Web templates](web-templates.md) | All supported content |
 
 > [!NOTE]
-> You will not be able to create metadata records, only add and edit content, code, and view/download file attachments.
+> You won't be able to create metadata records, only add and edit content, code, and view/download file attachments.
 
 Visual Studio Code for the Web provides a free, zero-install Microsoft Visual Studio Code experience running entirely in your browser, allowing you to browse site code and make lightweight code changes quickly and safely. More information: [Visual Studio Code for the Web experience.](https://code.visualstudio.com/docs/editor/vscode-web)
 
@@ -41,11 +41,11 @@ Visual Studio Code for the Web provides a free, zero-install Microsoft Visual St
 
 > [!NOTE]
 > - First time **Visual Studio Code for the Web** load may take some time as it will be installing required extensions for this feature. 
-> - File Create, Delete and Rename operations are not supported. 
-> - This feature utilizes **Power Platform Tools** web extension. Web extensions are restricted by the browser sandbox and therefore have limitations compared to normal extensions.
->   - Power Platform CLI is not supported.
+> - File Create, Delete and Rename operations aren't supported. 
+> - This feature uses **Power Platform Tools** web extension. Web extensions are restricted by the browser sandbox and so have limitations compared to normal extensions.
+>   - Power Platform CLI isn't supported.
 >   - Power Platform Tools web extension features are limited to Power Pages code editing experience.
->   - This feature is not available in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD).  Users in these regions will use the [Portals Management app](portal-management-app.md) for editing code. See [Editing code in the Portals Management app](#editing-code-in-the-portals-management-app) for more information.
+>   - This feature isn't available in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD).  Users in these regions will use the [Portals Management app](portal-management-app.md) for editing code. See [Editing code in the Portals Management app](#editing-code-in-the-portals-management-app) for more information.
 
 ## Edit code available in design studio
 
@@ -62,7 +62,7 @@ You can also edit code in the design studio from the following areas:
 - Edit content snippets
 - Edit web templates
 - View and download media web files (images)
-- Edit text based web files (CSS, JavaScript, other)
+- Edit text-based web files (CSS, JavaScript, other)
 
 Let's take a look how to edit code using these areas.
 
@@ -84,9 +84,26 @@ Go to **Styling workspace** and select available custom CSS **Edit code** menu t
 
 :::image type="content" source="media/visual-studio-code-editor/edit-code-custom-css.png" alt-text="Edit code from Custom CSS.":::
 
+## Power Pages Actions view
+
+The **Power Pages Actions** view, accessible at the bottom of File Explorer, lets you manage Power Pages sites directly within the editor. It reduces the need to switch to Power Pages Studio by letting developers perform common tasks quickly from within the editor. 
+
+### Available Actions
+
+- **Preview site**  
+  This action clears the [configuration cache](../admin/clear-server-side-cache.md#metadataconfiguration-tables) and opens the site in VS Code. It enables developers to preview and test changes to the site code without needing to switch context to Power Pages Studio. 
+
+- **Open in Power Pages Studio**  
+  After making code changes, use this action to go to Power Pages Studio. This is useful for configuring authentication providers, web roles, and other site settings that aren't editable in the code editor.
+
+- **Open in VS Code Desktop**  
+  If VS Code Desktop is installed, this action opens the site in the desktop app. It also triggers a site download, ensuring the code is available locally and ready for editing.
+
+:::image type="content" source="media/visual-studio-code-editor/power-pages-actions-view.png" alt-text="Power Pages Actions view in VS Code.":::
+
 ## Merge conflict notification
 
-If you are collaborating with other developers, there may be situations where you'll be working on the same source code. In the event you attempt to save changes to an outdated file you'll get a notification to **Compare** or **Overwrite** changes.
+If you're collaborating with other developers, there may be situations where you'll be working on the same source code. In the event you attempt to save changes to an outdated file you'll get a notification to **Compare** or **Overwrite** changes.
 
 Comparing the code will show current code alongside your code and allow you to revert to the existing changes, accept each change individually or use your changes and overwrite the existing contents.
 
@@ -102,7 +119,7 @@ In this tutorial, you walk through editing the site code using Visual Studio Cod
 
 1. Open your site in [Power Pages design studio](../getting-started/use-design-studio.md)
 
-1. On the top right corner, select **Edit code**
+1. On the top-right corner, select **Edit code**
 
     :::image type="content" source="media/visual-studio-code-editor/launch-code-editor.png" alt-text="Opening in Visual Studio Code from the design studio.":::
 
@@ -137,13 +154,13 @@ Users can edit, debug, and preview changes to page edits using Visual Studio Cod
 | Site metadata editing | Limited to editing web pages, content snippets, basic forms, multi-step forms, lists, and web templates. | All Power Pages metadata configuration |
 | Site preview | Planned | Planned |
 | [Power Platform CLI](/power-platform/developer/cli/introduction) support | No | Yes |
-| Advanced CPU and storage bound workflow - ReactJS or other framework build tool support | No | Yes |
+| Advanced CPU and storage-bound workflow - ReactJS or other framework build tool support | No | Yes |
 | GitHub integration with capabilities such as code check-in, check-out, managing conflicts, and merge. | No | Yes |
 
 ## Editing code in the Portals Management app
 
 > [!NOTE]
-> - Using Visual Studio Code for the Web to edit websites is not supported in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD). Users in these regions can use the [Portals Management app](portal-management-app.md) to make their changes.
+> - Using Visual Studio Code for the Web to edit websites isn't supported in Government Community Cloud (GCC), Government Community Cloud (GCC High), and Department of Defense (DoD). Users in these regions can use the [Portals Management app](portal-management-app.md) to make their changes.
 
 If the region doesn't support the **Visual Studio Code for the Web**, selecting the code editor icon &lt;/&gt; in the command bar will open the **Portals Management app**.
 
@@ -151,11 +168,11 @@ Navigate to the corresponding **Web Pages**, **Basic Forms**, **Multistep Forms*
 
 | Type | Code location |
 | - | - |
-| Web page | Select web page record. </br> Select web page content record from the **Localized Content** section. </br>Page copy can be edited in the **Copy (HTML)** field on the **General** tab.</br>**Custom JavaScript** and **Custom CSS** code can be edited from the **Advanced** tab. |
-| Basic form | Select the basic form record.</br>Edit **Custom JavaScript** on the **Additional Settings** tab. |
-| Multistep form | Select the multistep form record.</br>Select the multistep form step from the **Form Steps** tab.</br>Edit **Custom JavaScript** on the **Form Options** tab. |
-| List | Select the list record.</br>Edit **Custom JavaScript** on the **Options** tab. |
-| Web template | Select the web template record.</br>Edit **Source** on the **General** tab. |
+| Web page | Select web page record. </br> Select web page content record from the **Localized Content** section. </br>Page copy can be edited in the **Copy (HTML)** field on the **General** tab.</br> **Custom JavaScript** and **Custom CSS** code can be edited from the **Advanced** tab. |
+| Basic form | Select the basic form record. Edit **Custom JavaScript** on the **Additional Settings** tab. |
+| Multistep form | Select the multistep form record.</br>Select the multistep form step from the **Form Steps** tab. Edit **Custom JavaScript** on the **Form Options** tab. |
+| List | Select the list record. Edit **Custom JavaScript** on the **Options** tab. |
+| Web template | Select the web template record. Edit **Source** on the **General** tab. |
 
 Save the record, and preview your website to test your code.
 
