@@ -590,6 +590,12 @@
               href: configure/liquid/render-rss-custom-web-template.md
             - name: Render a site header and primary navigation bar
               href: configure/liquid/render-site-header-primary-navigation.md
+    - name: Use server logic (preview)
+      items:
+        - name: Server logic overview
+          href: configure/server-logic-overview.md
+        - name: Author server logic
+          href: configure/author-server-logic.md
     - name: Use Web API
       items:
         - name: Portals Web API overview
