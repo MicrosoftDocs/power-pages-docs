@@ -596,6 +596,8 @@
           href: configure/server-logic-overview.md
         - name: Author server logic
           href: configure/author-server-logic.md
+        - name: Server objects
+          href: configure/server-objects.md
     - name: Use Web API
       items:
         - name: Portals Web API overview

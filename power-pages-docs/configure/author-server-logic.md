@@ -8,7 +8,8 @@ ms.reviewer: smurkute
 ms.date: 09/30/2025
 ms.topic: concept-article
 ---
-## Author Server logic
+
+# Author server logic
 
 Server logic is created using the Set up workspace in Power Pages Studio. Each server logic record represents a distinct server API that can be invoked from the client with supported HTTP verbs.
 

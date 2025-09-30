@@ -9,7 +9,7 @@ ms.date: 09/30/2025
 ms.topic: concept-article
 ---
 
-# Power Pages server logic overview (preview)
+# Server logic overview (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -45,8 +45,6 @@ Server logic integrates with Dataverse and external services to perform complex 
 ## Site settings
 
 The following optional site settings help configure server logic: 
-
- 
 
 | Name                                | Description                              | Default                |
 |-------------------------------------|------------------------------------------|------------------------|
