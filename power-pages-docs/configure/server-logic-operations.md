@@ -1,0 +1,337 @@
+---
+title: Interact With Dataverse tables using server logic
+description: Learn how to interact with Dataverse tables using server logic to read, write, update, and delete records. Follow this step-by-step guide to get started.
+#customer intent: As a developer, I want to configure a webpage in Power Pages so that I can interact with Dataverse tables using server logic.
+author: shwetamurkute
+ms.author: nabha
+ms.reviewer: smurkute
+ms.date: 09/30/2025
+ms.topic: concept-article
+---
+
+# How to interact with Dataverse tables using Server logic 
+
+In this guide, you'll set up a webpage and custom web template that will use the server logic to read, write, update, and delete records from the contact table.
+
+## Step 1: Create a server logic
+
+1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
+
+2. Select site **+ Edit**.
+
+3. Navigate to the **Set up** workspace, then select **Server logics (preview)**.
+
+4. Click **+New server logic**.
+
+5. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.
+
+   > Example: dataverse-crud-operations
+
+6. Click **+Add roles** to assign appropriate web role.
+
+7. Select 3 dots (**…**) next to name and select **Edit code.**
+
+8. Select **Open Visual Studio Code** to author the custom logic.
+
+You will find pre-defined methods and scripts in the file.
+
+9. Define server logic method to read, edit, create, delete the contact records.
+
+   ### Read: Add below script inside get method
+
+   ```javascript
+   const entitySetName = Server.Context.QueryParameters["entitySetName"];
+   if (!Server.Context.QueryParameters["id"]) {
+       return Server.Connector.Dataverse.RetrieveMultipleRecords(entitySetName);
+   } else {
+       const id = Server.Context.QueryParameters["id"]; // Context reference
+       return Server.Connector.Dataverse.RetrieveRecord(entitySetName, id);
+   }
+   ```
+
+   ### Create: Add below script in post method
+
+   ```javascript
+   const data = Server.Context.Body;
+   const entitySetName = Server.Context.QueryParameters["entitySetName"];
+   // 🔹 Quick Dataverse Create example
+   return Server.Connector.Dataverse.CreateRecord(entitySetName, data);
+   ```
+
+   ### Update: Add below script in put method
+
+   ```javascript
+   const id = Server.Context.QueryParameters["id"];
+   const data = Server.Context.Body;
+   // 🔹 Quick Dataverse Update example
+   return Server.Connector.Dataverse.UpdateRecord("accounts", id, data);
+   ```
+
+   ### Delete: Add inside del method
+
+   ```javascript
+   const id = Server.Context.QueryParameters["id"];
+   const entitySetName = Server.Context.QueryParameters["entitySetName"];
+   Server.Logger.Log("Entity Set name:" + entitySetName);
+   // 🔹 Quick Dataverse Del example
+   return Server.Connector.Dataverse.DeleteRecord(entitySetName, id);
+   ```
+
+10. Save the file.
+
+## Step 2: Create Webpage
+
+1. Launch the [Power Pages design studio](/power-pages/getting-started/use-design-studio).
+
+2. In the **Pages** workspace, select **+ Page**.
+
+3. In the **Add a page** dialog, enter **Server logic** in the **Name** box and select **Start from blank** layout.
+
+4. Select **Add**.
+
+5. Select the **Edit Code** option in the upper right-hand corner.
+
+6. Select **Open Visual Studio Code**.
+
+7. Copy the following sample code snippet and paste it in between the `<div></div>` tags of the page section.
+
+   ```html
+   <style>
+   #processingMsg {
+       padding: 6px 12px; background: #eee; border-radius: 4px;
+       position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
+       display: none; z-index: 9999; text-align: center; font-weight: bold;
+   }
+   table { border-collapse: collapse; width: 100%; margin-top: 10px; font-family: Arial, sans-serif; }
+   th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+   button { cursor: pointer; border: 1px solid #aaa; padding: 4px 8px; border-radius: 4px; background: #fff; font-size: 14px; margin-right: 2px; }
+   button.add { color: green; }
+   button.save { color: green; }
+   button.cancel { color: orange; }
+   button.delete { color: red; }
+   input { width: 95%; box-sizing: border-box; }
+   td.actions { white-space: nowrap; }
+   </style>
+
+   <div id="processingMsg">Processing...</div>
+   <div id="dataTable"></div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+   $(function() {
+       // --- safeAjax wrapper ---
+       (function(webapi, $) {
+           function safeAjax(ajaxOptions) {
+               var dfd = $.Deferred();
+               shell.getTokenDeferred().done(function(token) {
+                   ajaxOptions.headers = ajaxOptions.headers || {};
+                   ajaxOptions.headers["__RequestVerificationToken"] = token;
+                   $.ajax(ajaxOptions)
+                       .done((data, ts, jq) => validateLoginSession(data, ts, jq, dfd.resolve))
+                       .fail(dfd.reject);
+               }).fail(() => dfd.rejectWith(this, arguments));
+               return dfd.promise();
+           }
+           webapi.safeAjax = safeAjax;
+       })(window.webapi = window.webapi || {}, jQuery);
+
+       // --- notification banner ---
+       const notify = (function() {
+           const $m = $('#processingMsg'); let s = 0, t;
+           return {
+               show: (msg = 'Processing...') => { $m.text(msg); if (!s) clearTimeout(t), $m.show(); s++; },
+               hide: () => { s = Math.max(0, s - 1); if (!s) clearTimeout(t), t = setTimeout(() => $m.hide(), 300); }
+           };
+       })();
+
+       function ajaxCall(msg, opts) {
+           notify.show(msg);
+           return webapi.safeAjax(opts)
+               .fail(r => alert(r.responseJSON?.error?.message || 'Server logic not available'))
+               .always(notify.hide);
+       }
+
+       // --- Table config ---
+       const cols = [
+           { name: 'firstname', label: 'First Name' },
+           { name: 'lastname', label: 'Last Name' },
+           { name: 'emailaddress1', label: 'Email' },
+           { name: 'telephone1', label: 'Telephone' }
+       ];
+       let data = [];
+
+       function render() {
+           const html = `<table>
+               <thead>
+                   <tr>
+                       ${cols.map(c => `<th>${c.label}</th>`).join('')}
+                       <th>Actions <button class="add">➕</button></th>
+                   </tr>
+               </thead>
+               <tbody>
+                   ${data.map(r => `<tr data-id="${r.id}" data-name="${r.fullname}">
+                       ${cols.map(c => `<td data-attribute="${c.name}" data-value="${r[c.name] || ''}">${r[c.name] || ''}</td>`).join('')}
+                       <td class="actions">
+                           <button class="delete">🗑️</button>
+                       </td>
+                   </tr>`).join('')}
+               </tbody>
+           </table>`;
+           $('#dataTable').html(html);
+       }
+
+       function addRecord(r) { data.unshift(r); render(); }
+       function removeRecord(id) { data = data.filter(r => r.id !== id); render(); }
+       function updateRecord(id, attr, val) { const r = data.find(r => r.id === id); if (r) { r[attr] = val; render(); } }
+
+       // --- Events ---
+       $('#dataTable').on('dblclick', 'tr', function() {
+           const $tr = $(this);
+           if ($tr.hasClass('editing')) return; // prevent double edit
+           $tr.addClass('editing');
+           $tr.data('original', $tr.find('td[data-attribute]').map(function() { return $(this).text(); }).get());
+           $tr.find('td[data-attribute]').each(function() {
+               const $td = $(this);
+               const oldVal = $td.text();
+               $td.html(`<input type="text" value="${oldVal}" data-attr="${$td.data('attribute')}" />`);
+           });
+           const $actions = $tr.find('td.actions');
+           $actions.append('<button class="save">✅</button><button class="cancel">❌</button>');
+       });
+
+       $('#dataTable').on('click', '.save', function() {
+           const $tr = $(this).closest('tr');
+           const id = $tr.data('id');
+           const updates = {};
+           $tr.find('input').each(function() {
+               updates[$(this).data('attr')] = $(this).val();
+           });
+           ajaxCall('Updating...', {
+               type: 'PUT',
+               url: `/_api/serverlogics/dataverse-crud-operations?entitySetName=contacts&id=${id}`,
+               contentType: 'application/json',
+               data: JSON.stringify(updates),
+               success: () => { Object.assign(data.find(r => r.id === id), updates); render(); }
+           });
+       });
+
+       $('#dataTable').on('click', '.cancel', function() {
+           const $tr = $(this).closest('tr');
+           const original = $tr.data('original');
+           $tr.find('td[data-attribute]').each(function(i) {
+               $(this).text(original[i]);
+           });
+           $tr.removeClass('editing');
+           $tr.find('button.save, button.cancel').remove();
+       });
+
+       $('#dataTable').on('click', '.delete', function() {
+           const $tr = $(this).closest('tr');
+           if (confirm('Delete "' + $tr.data('name') + '"?')) {
+               ajaxCall('Deleting...', {
+                   type: 'DELETE',
+                   url: `/_api/serverlogics/dataverse-crud-operations?entitySetName=contacts&id=${$tr.data('id')}`,
+                   contentType: 'application/json',
+                   success: () => removeRecord($tr.data('id'))
+               });
+           }
+       });
+
+       $('#dataTable').on('click', '.add', function() {
+           const r = { firstname: 'Willie', lastname: 'Huff' + Math.floor(Math.random() * 900 + 100), emailaddress1: 'Willie.Huff@contoso.com', telephone1: '555-123-4567' };
+           ajaxCall('Adding...', {
+               type: 'POST',
+               url: '/_api/serverlogics/dataverse-crud-operations?entitySetName=contacts',
+               contentType: 'application/json',
+               data: JSON.stringify(r),
+               success: (res, s, xhr) => { r.id = xhr.getResponseHeader('entityid'); r.fullname = r.firstname + ' ' + r.lastname; addRecord(r); }
+           });
+       });
+
+       ajaxCall('Loading...', {
+           type: 'GET',
+           url: '/_api/serverlogics/dataverse-crud-operations?entitySetName=contacts&additionalParameters=$select=fullname,firstname,lastname,emailaddress1,telephone1',
+           contentType: 'application/json'
+       }).done(res => {
+           try {
+               const p = JSON.parse(res.data); const b = JSON.parse(p.Body);
+               data = (b.value || []).map(r => ({ ...r, id: r.contactid, fullname: r.fullname }));
+               render();
+           } catch (e) { console.error(e); }
+       });
+   });
+   </script>
+   ```
+
+## Step 3: Configure permissions
+
+### Create a web role
+
+If you currently do not have a web role with permissions to the table you are accessing through the Server logic or require different context of accessing the data, the following steps show you how to create a new web role and assign table permissions.
+
+1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
+
+2. On the left pane, in the **Security** section, select **Web Roles**.
+
+3. Select **New**.
+
+4. In the **Name** box, enter **Server logic User** (or any name that best reflects the role of the user accessing this functionality).
+
+5. In the **Website** list, select your website record.
+
+6. Select **Save**.
+
+### Create table permissions
+
+1. Launch the [Power Pages design studio](/power-pages/getting-started/use-design-studio).
+
+2. Select the **Security** workspace.
+
+3. Under the **Protect** section, select **Table permissions**.
+
+4. Select **New permission**.
+
+5. In the **Name** box, enter **Contact Table Permission**.
+
+6. In the **Table Name** list, select **Contact (contact)**.
+
+7. In the **Access Type** list, select **Global**.
+
+8. Select **Read**, **Write**, **Create**, and **Delete** privileges.
+
+9. Select **+ Add roles** and select the **web role** you selected or created earlier.
+
+10. Select **Save & Close**.
+
+### Add contacts to the web role
+
+1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
+
+2. On the left pane, in the **Security** section, select **Contacts**.
+
+3. Select a contact that you want to use in this example for the Server logic.
+
+   > [!NOTE]
+   > This contact is the user account used in this example for testing the Web API. Be sure to select the correct contact in your portal.
+
+4. Select **Related** > **Web Roles**.
+
+5. Select **Add Existing Web Role**.
+
+6. Select the **Web API User** role, created earlier.
+
+7. Select **Add**.
+
+8. Select **Save & Close**.
+
+## Step 4: Use the Server logic to read, view, edit, create, and delete
+
+To test the Web API functionality:
+
+1. Select **Preview**, and then choose **Desktop**.
+
+2. Sign in to your site with the user account that has been assigned the **Server logic User** role you created earlier.
+
+3. Go to the **Server logic** webpage created earlier.
+
+
