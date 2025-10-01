@@ -66,9 +66,9 @@ For AI-powered Copilot features availability in Power Pages, see:
 - Turn copilot features on or off: [Copilot in Dynamics 365 apps and Power Platform](/power-platform/faqs-copilot-data-security-privacy#copilot-in-dynamics-365-apps-and-power-platform)
 - Copilot cross-region data movement: [Data movement across regions for copilots](/power-platform/admin/geographical-availability-copilot)
 
-## Turn off Copilot in Power Pages
+## Enable or disable Copilot in Power Pages
 
-To turn off Copilot and AI enhancements in Power Pages, admins can start a support request with Microsoft.
+Admins can use [governance settings](/power-pages/admin/copilot-hub) to control Copilot features in Power Pages. 
 
 ## See also
 
