@@ -68,7 +68,7 @@ For AI-powered Copilot features availability in Power Pages, see:
 
 ## Enable or disable Copilot in Power Pages
 
-Admins can use [governance settings](/power-pages/admin/copilot-hub) to control Copilot features in Power Pages. 
+Admins can use [governance settings](/power-pages/admin/copilot-hub#governance-controls-for-ai-features) to control Copilot features in Power Pages. 
 
 ## See also
 
