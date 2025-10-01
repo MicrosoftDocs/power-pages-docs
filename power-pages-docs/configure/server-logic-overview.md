@@ -47,7 +47,7 @@ Server logic integrates with Dataverse and external services to perform complex 
 The following optional site settings help configure server logic: 
 
 | Name                | Description             | Default                |
-|------------- -------|-------------------------|------------------------|
+|--------------------|-------------------------|------------------------|
 | ServerLogic/Enabled              | Enable / Disable feature                 | true  |
 | ServerLogic/AllowedDomains    | Restrict which external domains can be called | All domains allowed |
 | ServerLogic/TimeoutInSeconds        | Maximum execution time (in seconds)      | 120    |
