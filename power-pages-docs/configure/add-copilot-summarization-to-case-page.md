@@ -57,10 +57,6 @@ In this step, you add a summary section at the top of the case page.
 1. Copy the following code, and add it to the beginning of the code block.
 
     ```html
-    <!DOCTYPE html>
-    <html lang="en">
-      <head></head>
-      <body>
         <style>
           .collapsible {
             color: #444;
@@ -279,8 +275,7 @@ In this step, you add a summary section at the top of the case page.
           }
         </script>
         </div>
-      </body>
-    </html>
+
     ```
 
 1. Save the file.
