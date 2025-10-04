@@ -47,6 +47,9 @@ Use the Power Pages design studio to customize and design your site.
 
 1. After you find the best template for your business needs, select **Choose this template**.
 
+    > [!TIP]
+    > If you encounter an error message that reads "Sorry, there's been a disconnect", navigate to Power Pages in your environment via `https://make.powerpages.microsoft.com/environments/{environment_id}/portals/home`, replacing `{environment_id}` with your environment ID. From there, you can choose "Start with a template" or "Start from blank" to create your site.
+  
 1. Check the default site name and web address, and then select **Done**.
 
     :::image type="content" source="media/default-template/provision-site.png" alt-text="The design studio with site provisioning options displayed.":::
