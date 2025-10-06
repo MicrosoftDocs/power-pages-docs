@@ -4,7 +4,7 @@ description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 07/03/2025
+ms.date: 10/06/2025
 ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
@@ -37,6 +37,9 @@ You can disable and enable anonymous access to your websites using the Power Pla
     | Specific sites | Selecting **Specific sites** allows you to block anonymous access in specific sites that you choose in the tenant. Select the option overrides any maker configurations and prevents end users from accessing Dataverse data anonymously even if corresponding table permissions are configured for anonymous users. |
     | All sites except specific sites | Selecting **All sites except specific sites** blocks anonymous access in all the websites in the tenant EXCEPT the sites that you choose. This selection also overrides any maker configurations and prevents end users from accessing Dataverse data anonymously even if corresponding table permissions are configured for anonymous users. |
     | All sites | Selecting **All sites** blocks anonymous access in all the websites in the tenant, overriding any maker configurations that provide access to anonymous users. |
+
+    > [!NOTE]
+    > If admins block external authentication providers, anonymous access will also be disabled automatically. 
     
 1. Select the sites and choose **OK**.
 
