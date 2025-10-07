@@ -4,7 +4,7 @@ description: Learn how to use governance controls to enable or disable external 
 author: DanaMartens
 contributors:
 ms.topic: how-to
-ms.date: 02/21/2025
+ms.date: 10/06/2025
 ms.author: bipuldeora
 ms.reviewer: dmartens
 ---
@@ -32,6 +32,9 @@ Control external authentication providers in your websites using the Power Platf
    | **All sites except specific sites** | Allows external authentication providers to be enabled in all websites in the tenant ***except*** the sites that you choose. Among the websites you choose, this selection overrides any maker configurations and prevents any user who is external to your organization from accessing your websites. |
    | **Specific sites** | Allows you to enable external authentication providers ***only*** in specific sites that you choose in the tenant. For all other sites in the tenant, this setting overrides any maker configurations and prevents any user who is external to your organization from accessing your websites. |
    | **None of the sites** | Enables external authentication providers in none of the sites, meaning users outside of your organization can't access any of your websites. This setting makes all websites in your tenant internal to your organization. |
+
+    > [!NOTE]
+    > If admins block external authentication providers, anonymous access will also be disabled automatically. 
 
 1. Select the sites and choose **OK**.
 1. Select **Save**. A success message appears in green below the Governance Controls ribbon menu.
