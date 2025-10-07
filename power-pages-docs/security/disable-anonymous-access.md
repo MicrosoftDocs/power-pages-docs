@@ -39,7 +39,7 @@ You can disable and enable anonymous access to your websites using the Power Pla
     | All sites | Selecting **All sites** blocks anonymous access in all the websites in the tenant, overriding any maker configurations that provide access to anonymous users. |
 
     > [!NOTE]
-    > If admins block external authentication providers, anonymous access will also be disabled automatically. 
+    > If admins block external authentication providers, anonymous access is automatically disabled.
     
 1. Select the sites and choose **OK**.
 
