@@ -4,7 +4,7 @@ description: Learn how to create, configure, and customize AI agents directly fr
 author: DanaMartens
 contributors:
 ms.topic: how-to
-ms.date: 08/25/2025
+ms.date: 10/06/2025
 ms.author: dmartens
 ms.reviewer: dmartens
 ---
@@ -12,7 +12,7 @@ ms.reviewer: dmartens
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Power Pages agent builder lets you create AI agents directly from forms in Power Pages. These agents integrate with [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) and use knowledge, actions, and business logic from the form.
+Power Pages provides ability to create an agent directly from the form. These agents integrate with [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) and use knowledge, actions, and business logic from the form.
 
 With minimal steps, you build agents using existing form fields and logic, and automatically use Power Pages' built-in authorization and security roles. You can also enhance and fine-tune these agents in Copilot Studio to unlock advanced capabilities.
 
