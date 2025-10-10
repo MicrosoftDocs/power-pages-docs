@@ -16,7 +16,7 @@ Server logic provides built-in objects under the Server namespace. These objects
 
 ## Logger
 
-Use the logger to write diagnostic messages that can be viewed in the debugging tool.
+Use the logger to write diagnostic messages that can be viewed in the [DevTools extension](../configure/devtools-addon).
 
 Example:
 
@@ -31,14 +31,14 @@ Server.Logger.Error("Error message");
 Use the HTTP client to integrate with external services by sending HTTP requests.
 
 > [!NOTE]
-> Currently server logic supports only `application/json` and `application/x-www-form-urlencoded` content types.
+> Currently server logic supports only `application/json` and `application/x-www-form-urlencoded` content types in request body.
 
 ### Examples
 
 #### HTTP GET
 
 ```javascript
-Server.Connector.HttpClient.GetAsync("https://contoso.com/objects", {"client_id": "30d49153-11da-4994-a58f-7be8e91c6"});
+Server.Connector.HttpClient.GetAsync("https://contoso.com/objects", {"client_id": "00000000-0000-0000-0000-000000000000"});
 ```
 
 #### HTTP POST
@@ -50,13 +50,13 @@ Server.Connector.HttpClient.PostAsync("https://contoso.com/objects", "{\"name\":
 #### HTTP PUT
 
 ```javascript
-Server.Connector.HttpClient.PutAsync("https://contoso.com/objects/6", "{\"name\": \"Updated MacBook\"}", {"client_id": "30d49153-11da-4994-a58f-7be8e91c6"}, "application/json");
+Server.Connector.HttpClient.PutAsync("https://contoso.com/objects/6", "{\"name\": \"Updated MacBook\"}", {"client_id": "00000000-0000-0000-0000-000000000000"}, "application/json");
 ```
 
 #### HTTP PATCH
 
 ```javascript
-Server.Connector.HttpClient.PatchAsync("https://contoso.com/objects/6", "{\"capacity\": \"2 TB\"}", {"client_id": "30d49153-11da-4994-a58f-7be8e91c6"}, "application/json");
+Server.Connector.HttpClient.PatchAsync("https://contoso.com/objects/6", "{\"capacity\": \"2 TB\"}", {"client_id": "00000000-0000-0000-0000-000000000000"}, "application/json");
 ```
 
 #### HTTP DELETE
@@ -65,12 +65,33 @@ Server.Connector.HttpClient.PatchAsync("https://contoso.com/objects/6", "{\"capa
 Server.Connector.HttpClient.DeleteAsync("https://contoso.com/objects/6", {"content-type": "application/json"});
 ```
 
+###Example: Response
+
+```javascript
+{
+    "StatusCode": 200,
+    "Body": "JsonString",
+    "IsSuccessStatusCode": true,
+    "ReasonPhrase": "OK",
+    "ServerError": false,
+    "ServerErrorMessage": null,
+    "Headers": {
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Server": "",
+        "Content-Type": "application/json"
+    }
+}
+
+```
+
 ## Dataverse
 
 The `Server.Connector.Dataverse` object lets you perform CRUD operations on Dataverse tables, as well as invoke custom APIs.
 
 > [!NOTE]
-> Only Dataverse-bound actions and functions are supported.
+>- Only Dataverse-bound actions and functions are supported.
+>- When referring to Dataverse tables using the portals Web API in your code, you need to use the [EntitySetName](../power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the `account` table, the code syntax uses the EntitySetName of `accounts`.
 
 
 
@@ -161,6 +182,24 @@ Invoke a bound action:
 ```javascript
 Server.Connector.Dataverse.InvokeCustomApi("post", "accounts(00000000-0000-0000-0000-000000000001)/Microsoft.Dynamics.CRM.new_CustomBoundAction", "{ \"parameter1\": \"value1\" }");
 ```
+
+
+###Example: Response
+
+```javascript
+{
+    "StatusCode": 204,
+    "Body": "",
+    "IsSuccessStatusCode": true,
+    "ReasonPhrase": "No Content",
+    "ServerError": false,
+    "ServerErrorMessage": null,
+    "Headers": {
+        "x-ms-cds-service-request-id": "00000000-0000-0000-0000-000000000000"
+    }
+}
+```
+
 
 ## User
 
