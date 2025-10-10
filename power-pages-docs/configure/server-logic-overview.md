@@ -22,25 +22,26 @@ Dataverse stores code and configuration, so server logic benefits from the same 
 > [!IMPORTANT]
 >
 > - This feature is a preview feature.
-> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback. 
+> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
+> - This feature is available only for site running on [Enhanced Data Model](../admin/enhanced-data-model).
 
-## Features
+## Language support
 
-Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard. This environment doesn't provide access to browser-specific APIs or libraries, like `fetch`, `XMLHttpRequest`, or other DOM-related features typically available in client-side JavaScript.  
+Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard. Server logic hosting environment doesn't provide access to browser-specific APIs or libraries, like `fetch`, `XMLHttpRequest`, or other DOM-related features typically available in client-side JavaScript.  
 
-This feature is available only for Enhanced Data Model.
+
 
 ## Securing the Server logic 
 
-To run code in server logic, users need the right permissions set by the maker. Web roles and table permissions control access.
+To execute code in server logic, users must have the appropriate permissions configured by the maker. Access is governed by web roles and table permissions, which also determine whether server logic can access specific tables.
 
 ### Authenticating server logic API 
 
-You don't need to include custom authentication code. Authentication and authorization are managed by the application session. All web API calls must include a Cross-Site Request Forgery (CSRF) token.  
+You don't need to include custom authentication code. Authentication and authorization are managed by the application session. All server logic API calls must include a Cross-Site Request Forgery (CSRF) token.  
 
 ## Governance setting for anonymous access 
 
-Server logic integrates with Dataverse and external services to perform complex computations that might use data from external systems. When administrators enforce the governance control, any integration initiated by anonymous users, especially those involving external systems, is blocked.  
+Server logic integrates with Dataverse and external services to perform complex computations that might use data from external systems. When administrators enforce the [governance control](../security/disable-anonymous-access), any integration initiated by anonymous users, especially those involving external systems, is blocked.  
 
 ## Site settings
 
@@ -60,7 +61,7 @@ Construct the API URL using this format: 
 https://\<site-url\>/\_api/serverlogics/\<server-logic-name\>   
    
 Example:   
-https://contoso.powerappsportals.com/\_api/serverlogics/exchangerate 
+https://contoso.powerappsportals.com/_api/serverlogics/exchangerate 
 
  
 
