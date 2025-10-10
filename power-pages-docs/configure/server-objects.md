@@ -65,7 +65,7 @@ Server.Connector.HttpClient.PatchAsync("https://contoso.com/objects/6", "{\"capa
 Server.Connector.HttpClient.DeleteAsync("https://contoso.com/objects/6", {"content-type": "application/json"});
 ```
 
-###Example: Response
+### Example: Response
 
 ```javascript
 {
