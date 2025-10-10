@@ -598,7 +598,7 @@
           href: configure/author-server-logic.md
         - name: Server objects
           href: configure/server-objects.md
-        - name: Interact With Dataverse tables using server logic
+        - name: How to: Interact with Dataverse tables using server logic
           href: configure/server-logic-operations.md
         - name: Create an event registration page
           href: configure/server-logic-event-register.md  
