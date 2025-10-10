@@ -19,7 +19,7 @@ Server logic is created using the Set up workspace in Power Pages Studio. Each s
 
 2. Select site **+ Edit**.
 
-3. Navigate to the **Set up** workspace, then select **Server logics (preview)**.
+3. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
 
 4. Click **+New server logic**.
 
