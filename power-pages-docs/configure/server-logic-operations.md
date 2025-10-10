@@ -1,5 +1,5 @@
 ---
-title: Interact With Dataverse tables using server logic
+title: How to: Interact with Dataverse tables using server logic
 description: Learn how to interact with Dataverse tables using server logic to read, write, update, and delete records. Follow this step-by-step guide to get started.
 #customer intent: As a developer, I want to configure a webpage in Power Pages so that I can interact with Dataverse tables using server logic.
 author: shwetamurkute
