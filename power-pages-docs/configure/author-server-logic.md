@@ -34,7 +34,7 @@ Server logic is created using the Set up workspace in Power Pages Studio. Each s
 ## Calling server logic from client script
 
 > [!NOTE]
-> Each request to server logic request should include Cross-Site Request Forgery (CSRF) token. In general, *webapi.safeAjax* method wraps the CSRF token. You refer here for construction of [CSRF wrapper ajax function](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
+> Each request to server logic request should include Cross-Site Request Forgery (CSRF) token. In general, *shell.safeAjax* method wraps the CSRF token. You refer here for construction of [CSRF wrapper ajax function](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
 
 ### Example: calling HTTP GET
 
@@ -57,7 +57,7 @@ shell.safeAjax({
   url: "/_api/serverlogics/serverlogicname",
   contentType: "application/json",
   data: JSON.stringify({
-    "name": "Sample Account"
+    "name": "Sample name"
   }),
   success: function (res) {
     console.log("res");
@@ -73,7 +73,7 @@ shell.safeAjax({
   url: "/_api/serverlogics/serverlogicname",
   contentType: "application/json",
   data: JSON.stringify({
-    "name": "Sample Account"
+    "name": "Sample name"
   }),
   success: function (res) {
     console.log("res");
@@ -89,7 +89,7 @@ shell.safeAjax({
   url: "/_api/serverlogics/serverlogicname",
   contentType: "application/json",
   data: JSON.stringify({
-    "name": "Sample Account"
+    "name": "Sample name"
   }),
   success: function (res) {
     console.log("res");
@@ -103,10 +103,7 @@ shell.safeAjax({
 shell.safeAjax({
   type: "DELETE",
   url: "/_api/serverlogics/serverlogicname?id=1",
-  contentType: "application/json",
-  data: JSON.stringify({
-    "name": "Sample Account"
-  }),
+  contentType: "application/json"
   success: function (res) {
     console.log("res");
   }
@@ -119,7 +116,7 @@ shell.safeAjax({
 {
   "RequestId": "811b363e-36d2-4213-9f44-a73bf7550ce8",
   "Success": true,
-  "Data": "Success",
+  "Data": "Sample data",
   "ExecutionTime": 9256.331,
   "ServerLogicName": "serverlogicname",
   "Error": null
