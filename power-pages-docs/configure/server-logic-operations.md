@@ -19,7 +19,7 @@ In this guide, you'll set up a webpage and custom web template that will use the
 
 2. Select site **+ Edit**.
 
-3. Navigate to the **Set up** workspace, then select **Server logics (preview)**.
+3. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
 
 4. Click **+New server logic**.
 
@@ -54,7 +54,6 @@ You will find pre-defined methods and scripts in the file.
    ```javascript
    const data = Server.Context.Body;
    const entitySetName = Server.Context.QueryParameters["entitySetName"];
-   // 🔹 Quick Dataverse Create example
    return Server.Connector.Dataverse.CreateRecord(entitySetName, data);
    ```
 
@@ -63,7 +62,6 @@ You will find pre-defined methods and scripts in the file.
    ```javascript
    const id = Server.Context.QueryParameters["id"];
    const data = Server.Context.Body;
-   // 🔹 Quick Dataverse Update example
    return Server.Connector.Dataverse.UpdateRecord("accounts", id, data);
    ```
 
@@ -73,11 +71,69 @@ You will find pre-defined methods and scripts in the file.
    const id = Server.Context.QueryParameters["id"];
    const entitySetName = Server.Context.QueryParameters["entitySetName"];
    Server.Logger.Log("Entity Set name:" + entitySetName);
-   // 🔹 Quick Dataverse Del example
    return Server.Connector.Dataverse.DeleteRecord(entitySetName, id);
    ```
 
 10. Save the file.
+11. Here is the complete server logic code that can be pasted
+
+   ```javascript
+   function get() {
+    try {
+        Server.Logger.Log("GET called"); // Logger reference
+        const entitySetName = Server.Context.QueryParameters["entitySetName"];
+        const additionParameters = Server.Context.QueryParameters['additionalParameters'];
+        if (!Server.Context.QueryParameters["id"]) {
+            const response = Server.Connector.Dataverse.RetrieveMultipleRecords(entitySetName,additionParameters);
+            return response;
+        }
+        else{            
+            const id = Server.Context.QueryParameters["id"]; // Context reference
+            const response = Server.Connector.Dataverse.RetrieveRecord(entitySetName, id,additionParameters);
+            return response;
+        }        
+    } catch (err) {
+        Server.Logger.Error("GET failed: " + err.message);
+        return JSON.stringify({ status: "error", method: "GET", message: err.message });
+    }
+}
+function post() {
+    try {
+        Server.Logger.Log("POST called");
+        const data = Server.Context.Body;
+        const entitySetName = Server.Context.QueryParameters["entitySetName"];
+         return Server.Connector.Dataverse.CreateRecord(entitySetName, data);
+     } catch (err) {
+        Server.Logger.Error("POST failed: " + err.message);
+        return JSON.stringify({ status: "error", method: "POST", message: err.message });
+    }
+} 
+function put() {
+    try {
+        Server.Logger.Log("PUT called");
+        const id = Server.Context.QueryParameters["id"];
+        const data = Server.Context.Body;
+        const entitySetName = Server.Context.QueryParameters["entitySetName"];
+        return Server.Connector.Dataverse.UpdateRecord(entitySetName, id, data);
+     } catch (err) {
+        Server.Logger.Error("PUT failed: " + err.message);
+        return JSON.stringify({ status: "error", method: "PUT", message: err.message });
+    }
+}   
+function del() {
+    try {
+        // "delete" keyword should not be used in script file.
+        Server.Logger.Log("DEL called");
+        const id = Server.Context.QueryParameters["id"];
+          const entitySetName = Server.Context.QueryParameters["entitySetName"];
+        return Server.Connector.Dataverse.DeleteRecord(entitySetName, id);
+     } catch (err) {
+        Server.Logger.Error("Deletion failed: " + err.message);
+        return JSON.stringify({ status: "error", method: "DEL", message: err.message });
+    }
+}
+   ```
+    
 
 ## Step 2: Create Webpage
 
@@ -312,13 +368,13 @@ If you currently do not have a web role with permissions to the table you are ac
 3. Select a contact that you want to use in this example for the Server logic.
 
    > [!NOTE]
-   > This contact is the user account used in this example for testing the Web API. Be sure to select the correct contact in your portal.
+   > This contact is the user account used in this example for testing the Server logic. Be sure to select the correct contact in your portal.
 
 4. Select **Related** > **Web Roles**.
 
 5. Select **Add Existing Web Role**.
 
-6. Select the **Web API User** role, created earlier.
+6. Select the **Server logic User** role, created earlier.
 
 7. Select **Add**.
 
