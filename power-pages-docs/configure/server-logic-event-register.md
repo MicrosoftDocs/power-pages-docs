@@ -8,6 +8,7 @@ ms.reviewer: smurkute
 ms.date: 09/30/2025
 ms.topic: concept-article
 ---
+
 # How to create an event registration page
 
 ## Step 1: Visitor fills event registration form

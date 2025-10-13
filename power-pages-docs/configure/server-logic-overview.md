@@ -23,7 +23,7 @@ Dataverse stores code and configuration, so server logic benefits from the same 
 >
 > - This feature is a preview feature.
 > - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
-> - This feature is available only for site running on [Enhanced Data Model](../admin/enhanced-data-model).
+> - This feature is available only for site running on [Enhanced Data Model](../admin/enhanced-data-model.md).
 
 ## Language support
 
@@ -62,7 +62,7 @@ You don't need to include custom authentication code. Authentication and authori
 
 ## Governance setting for anonymous access 
 
-Server logic integrates with Dataverse and external services to perform complex computations that might use data from external systems. When administrators enforce the [governance control](../security/disable-anonymous-access), any integration initiated by anonymous users, especially those involving external systems, is blocked.  
+Server logic integrates with Dataverse and external services to perform complex computations that might use data from external systems. When administrators enforce the [governance control](../security/disable-anonymous-access.md), any integration initiated by anonymous users, especially those involving external systems, is blocked.  
 
 ## Site settings
 
