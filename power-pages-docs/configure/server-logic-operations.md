@@ -21,19 +21,19 @@ In this guide, you'll set up a webpage and custom web template that will use the
 
 3. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
 
-4. Click **+New server logic**.
+4. Select **+New server logic**.
 
 5. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.
 
    > Example: dataverse-crud-operations
 
-6. Click **+Add roles** to assign appropriate web role.
+6. Select **+Add roles** to assign appropriate web role.
 
 7. Select 3 dots (**…**) next to name and select **Edit code.**
 
 8. Select **Open Visual Studio Code** to author the custom logic.
 
-You will find pre-defined methods and scripts in the file.
+You'll find pre-defined methods and scripts in the file.
 
 9. Define server logic method to read, edit, create, delete the contact records.
 
@@ -75,7 +75,7 @@ You will find pre-defined methods and scripts in the file.
    ```
 
 10. Save the file.
-11. Here is the complete server logic code that can be pasted
+11. Here's the complete server logic code that can be pasted
 
    ```javascript
    function get() {
@@ -323,7 +323,7 @@ function del() {
 
 ### Create a web role
 
-If you currently do not have a web role with permissions to the table you are accessing through the Server logic or require different context of accessing the data, the following steps show you how to create a new web role and assign table permissions.
+If you currently don't have a web role with permissions to the table you're accessing through the Server logic or require different context of accessing the data, the following steps show you how to create a new web role and assign table permissions.
 
 1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
 
