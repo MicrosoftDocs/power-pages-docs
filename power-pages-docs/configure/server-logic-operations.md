@@ -6,10 +6,10 @@ author: shwetamurkute
 ms.author: nabha
 ms.reviewer: smurkute
 ms.date: 09/30/2025
-ms.topic: concept-article
+ms.topic: how-to
 ---
 
-# How to interact with Dataverse tables using Server logic 
+# How to: Interact with Dataverse tables using Server logic
 
 In this guide, you'll set up a webpage and custom web template that will use the server logic to read, write, update, and delete records from the contact table.
 
@@ -64,8 +64,8 @@ In this guide, you'll set up a webpage and custom web template that will use the
    return Server.Connector.Dataverse.DeleteRecord(entitySetName, id);
    ```
 
-10. Save the file.
-11. Here's the complete server logic code that can be pasted
+1. Save the file.
+1. Here's the complete server logic code that can be pasted
 
    ```javascript
    function get() {
