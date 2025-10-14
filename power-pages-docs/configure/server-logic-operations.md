@@ -16,26 +16,16 @@ In this guide, you'll set up a webpage and custom web template that will use the
 ## Step 1: Create a server logic
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
-
-2. Select site **+ Edit**.
-
-3. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
-
-4. Select **+New server logic**.
-
-5. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.
-
+1. Select site **+ Edit**.
+1. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
+1. Select **+New server logic**.
+1. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.
    > Example: dataverse-crud-operations
-
-6. Select **+Add roles** to assign appropriate web role.
-
-7. Select 3 dots (**…**) next to name and select **Edit code.**
-
-8. Select **Open Visual Studio Code** to author the custom logic.
-
-You'll find pre-defined methods and scripts in the file.
-
-9. Define server logic method to read, edit, create, delete the contact records.
+1. Select **+Add roles** to assign appropriate web role.
+1. Select 3 dots (**…**) next to name and select **Edit code.**
+1. Select **Open Visual Studio Code** to author the custom logic.
+    You'll find pre-defined methods and scripts in the file.
+1. Define server logic method to read, edit, create, delete the contact records.
 
    ### Read: Add below script inside get method
 
@@ -96,8 +86,8 @@ You'll find pre-defined methods and scripts in the file.
         Server.Logger.Error("GET failed: " + err.message);
         return JSON.stringify({ status: "error", method: "GET", message: err.message });
     }
-}
-function post() {
+    }
+    function post() {
     try {
         Server.Logger.Log("POST called");
         const data = Server.Context.Body;
@@ -107,8 +97,8 @@ function post() {
         Server.Logger.Error("POST failed: " + err.message);
         return JSON.stringify({ status: "error", method: "POST", message: err.message });
     }
-} 
-function put() {
+    } 
+    function put() {
     try {
         Server.Logger.Log("PUT called");
         const id = Server.Context.QueryParameters["id"];
@@ -119,8 +109,8 @@ function put() {
         Server.Logger.Error("PUT failed: " + err.message);
         return JSON.stringify({ status: "error", method: "PUT", message: err.message });
     }
-}   
-function del() {
+    }   
+    function del() {
     try {
         // "delete" keyword should not be used in script file.
         Server.Logger.Log("DEL called");
@@ -131,25 +121,19 @@ function del() {
         Server.Logger.Error("Deletion failed: " + err.message);
         return JSON.stringify({ status: "error", method: "DEL", message: err.message });
     }
-}
+    }
    ```
     
 
 ## Step 2: Create Webpage
 
 1. Launch the [Power Pages design studio](/power-pages/getting-started/use-design-studio).
-
-2. In the **Pages** workspace, select **+ Page**.
-
-3. In the **Add a page** dialog, enter **Server logic** in the **Name** box and select **Start from blank** layout.
-
-4. Select **Add**.
-
-5. Select the **Edit Code** option in the upper right-hand corner.
-
-6. Select **Open Visual Studio Code**.
-
-7. Copy the following sample code snippet and paste it in between the `<div></div>` tags of the page section.
+1. In the **Pages** workspace, select **+ Page**.
+1. In the **Add a page** dialog, enter **Server logic** in the **Name** box and select **Start from blank** layout.
+1. Select **Add**.
+1. Select the **Edit Code** option in the upper right-hand corner.
+1. Select **Open Visual Studio Code**.
+1. Copy the following sample code snippet and paste it in between the `<div></div>` tags of the page section.
 
    ```html
    <style>
@@ -326,68 +310,51 @@ function del() {
 If you currently don't have a web role with permissions to the table you're accessing through the Server logic or require different context of accessing the data, the following steps show you how to create a new web role and assign table permissions.
 
 1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
-
-2. On the left pane, in the **Security** section, select **Web Roles**.
-
-3. Select **New**.
-
-4. In the **Name** box, enter **Server logic User** (or any name that best reflects the role of the user accessing this functionality).
-
-5. In the **Website** list, select your website record.
-
-6. Select **Save**.
+1. On the left pane, in the **Security** section, select **Web Roles**.
+1. Select **New**.
+1. In the **Name** box, enter **Server logic User** (or any name that best reflects the role of the user accessing this functionality).
+1. In the **Website** list, select your website record.
+1. Select **Save**.
 
 ### Create table permissions
 
 1. Launch the [Power Pages design studio](/power-pages/getting-started/use-design-studio).
-
-2. Select the **Security** workspace.
-
-3. Under the **Protect** section, select **Table permissions**.
-
-4. Select **New permission**.
-
-5. In the **Name** box, enter **Contact Table Permission**.
-
-6. In the **Table Name** list, select **Contact (contact)**.
-
-7. In the **Access Type** list, select **Global**.
-
-8. Select **Read**, **Write**, **Create**, and **Delete** privileges.
-
-9. Select **+ Add roles** and select the **web role** you selected or created earlier.
-
-10. Select **Save & Close**.
+1. Select the **Security** workspace.
+1. Under the **Protect** section, select **Table permissions**.
+1. Select **New permission**.
+1. In the **Name** box, enter **Contact Table Permission**.
+1. In the **Table Name** list, select **Contact (contact)**.
+1. In the **Access Type** list, select **Global**.
+1. Select **Read**, **Write**, **Create**, and **Delete** privileges.
+1. Select **+ Add roles** and select the **web role** you selected or created earlier.
+1. Select **Save & Close**.
 
 ### Add contacts to the web role
 
 1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
-
-2. On the left pane, in the **Security** section, select **Contacts**.
-
-3. Select a contact that you want to use in this example for the Server logic.
-
+1. On the left pane, in the **Security** section, select **Contacts**.
+1. Select a contact that you want to use in this example for the Server logic.
    > [!NOTE]
    > This contact is the user account used in this example for testing the Server logic. Be sure to select the correct contact in your portal.
-
-4. Select **Related** > **Web Roles**.
-
-5. Select **Add Existing Web Role**.
-
-6. Select the **Server logic User** role, created earlier.
-
-7. Select **Add**.
-
-8. Select **Save & Close**.
+1. Select **Related** > **Web Roles**.
+1. Select **Add Existing Web Role**.
+1. Select the **Server logic User** role, created earlier.
+1. Select **Add**.
+1. Select **Save & Close**.
 
 ## Step 4: Use the Server logic to read, view, edit, create, and delete
 
 To test the Web API functionality:
 
 1. Select **Preview**, and then choose **Desktop**.
+1. Sign in to your site with the user account that has been assigned the **Server logic User** role you created earlier.
+1. Go to the **Server logic** webpage created earlier.
 
-2. Sign in to your site with the user account that has been assigned the **Server logic User** role you created earlier.
 
-3. Go to the **Server logic** webpage created earlier.
+### Related information
+
+[Server logic overview](server-logic-overview.md)  
+[Author server logic](author-server-logic.md)  
+[Server objects](server-objects.md)   
 
 

@@ -11,25 +11,19 @@ ms.topic: concept-article
 
 # Author server logic
 
-Server logic is created using the Set up workspace in Power Pages Studio. Each server logic record represents a distinct server API that can be invoked from the client with supported HTTP verbs.
+Create server logic in the **Set up** workspace in Power Pages Studio. Each server logic record represents a distinct server API that you can invoke from the client with supported HTTP verbs.
 
 ## Steps to create server logic
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
-
-2. Select site **+ Edit**.
-
-3. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
-
-4. Click **+New server logic**.
-
-5. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.
-
-6. Click **+Add roles** to assign appropriate web role.
-
-7. Select 3 dots (**…**) next to name and select **Edit code.**
-
-8. Select **Open Visual Studio Code** to author the custom logic.
+1. Select site **+ Edit**.
+1. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
+    :::image type="content" source="media/server-logic-overview/server-logic-preview-screen.png" alt-text="Server logic preview screen showing different operations":::
+1. Click **+New server logic**.
+1. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.
+1. Click **+Add roles** to assign appropriate web role.
+1. Select 3 dots (**…**) next to name and select **Edit code.**
+1. Select **Open Visual Studio Code** to author the custom logic.
 
 ## Calling server logic from client script
 
@@ -123,4 +117,13 @@ shell.safeAjax({
 }
 ```
 
+## Next step
+
+[Server objects](server-objects.md)
+
+### Related information
+
+[Server logic overview](server-logic-overview.md)  
+[How to interact with Dataverse tables using Server logic](server-logic-operations.md)  
+ 
 

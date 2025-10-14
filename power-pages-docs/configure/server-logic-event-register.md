@@ -30,3 +30,10 @@ ms.topic: concept-article
 
 - Page shows “Registration Confirmed” with Teams meeting link and calendar invite download.
 - Good to have: Email confirmation sent via server logic SMTP.
+
+### Related information
+
+[Server logic overview](server-logic-overview.md)  
+[Author server logic](author-server-logic.md)  
+[Server objects](server-objects.md)   
+[How to interact with Dataverse tables using Server logic](server-logic-operations.md)  

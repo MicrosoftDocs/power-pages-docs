@@ -19,6 +19,8 @@ Because server logic runs on the server, it's hidden from the browser and protec
 
 Dataverse stores code and configuration, so server logic benefits from the same lifecycle management and deployment pipelines as other Power Pages components.  
 
+:::image type="content" source="media/server-logic-overview/server-logic-flow.png" alt-text="Server logic flow":::
+
 > [!IMPORTANT]
 >
 > - This feature is a preview feature.
@@ -98,6 +100,12 @@ Each method maps to a function you define in server logic: 
 | PUT     | function put() { }    | Replace or update records.         |
 | DELETE  | function del() { }    | Delete records or fields.          |
 
-Next steps
+## Next step
 
-Author server logic
+[Author server logic](author-server-logic.md)
+
+### Related information
+
+[Server objects](server-objects.md)  
+[How to interact with Dataverse tables using Server logic](server-logic-operations.md)   
+

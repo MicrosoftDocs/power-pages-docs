@@ -6,7 +6,7 @@ author: shwetamurkute
 ms.author: nabha
 ms.reviewer: smurkute
 ms.date: 09/30/2025
-ms.topic: concept-article
+ms.topic: reference
 ---
 
 # Server objects 
@@ -255,3 +255,13 @@ Read query parameter `id` from the URL:
 ```javascript
 Server.QueryParameters['id'];
 ```
+
+## Next step
+
+[How to interact with Dataverse tables using Server logic](server-logic-operations.md)
+
+### Related information
+
+[Server logic overview](server-logic-overview.md)  
+[Author server logic](author-server-logic.md)  
+
