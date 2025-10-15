@@ -278,7 +278,7 @@ In this guide, you'll set up a webpage and custom web template that will use the
        });
 
        $('#dataTable').on('click', '.add', function() {
-           const r = { firstname: 'Willie', lastname: 'Huff' + Math.floor(Math.random() * 900 + 100), emailaddress1: 'Willie.Huff@contoso.com', telephone1: '555-123-4567' };
+           const r = { firstname: 'Alton', lastname: 'Stott' + Math.floor(Math.random() * 900 + 100), emailaddress1: 'Alton.Stott@contoso.com', telephone1: '555-123-4567' };
            ajaxCall('Adding...', {
                type: 'POST',
                url: '/_api/serverlogics/dataverse-crud-operations?entitySetName=contacts',

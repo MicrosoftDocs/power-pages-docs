@@ -35,8 +35,8 @@ let response = await Server.Connector.HttpClient.GetAsync(url, JSON.stringify(id
 
 ```javascript
 let url = "https://contoso.com/objects";
-let dataObj = JSON.stringify({ name: "Apple MacBook Pro 16" });
-let idObj = JSON.stringify({ client_id: "30d49153-11da-4994-a58f-7be8e91c6" });
+let dataObj = JSON.stringify({ name: "Sample Account" });
+let idObj = JSON.stringify({ client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" });
 let contentType = "application/json";
 
 // Make the POST request
@@ -47,7 +47,7 @@ let response = await Server.Connector.HttpClient.PostAsync(url, dataObj, idObj, 
 
 ```javascript
 let url = "https://contoso.com/objects/6";
-let dataObj = JSON.stringify({ name: "Updated MacBook" });
+let dataObj = JSON.stringify({ name: "Updated Sample Account" });
 let idObj = JSON.stringify({ client_id: "00000000-0000-0000-0000-000000000000" });
 let contentType = "application/json";
 
@@ -147,7 +147,7 @@ Server.Connector.Dataverse.CreateRecord(string entitySetName, string payload)
 #### Example
 
 ```javascript
-Server.Connector.Dataverse.CreateRecord("accounts", "{\"name\": \"Contoso Ltd.\", \"telephone1\": \"123-456-7890\", \"websiteurl\": \"https://contoso.com\"}");
+Server.Connector.Dataverse.CreateRecord("accounts", "{\"name\": \"Contoso Ltd.\", \"telephone1\": \"555-555-0100\", \"websiteurl\": \"https://contoso.com\"}");
 ```
 
 ### RetrieveRecord
@@ -189,7 +189,7 @@ Server.Connector.Dataverse. Server.Connector.Dataverse.UpdateRecord(string entit
 **Example**
 
 ```javascript
-Server.Connector.Dataverse.UpdateRecord("accounts", "00000000-0000-0000-0000-000000000001", "{ \"telephone1\": \"987-654-3210\" }");
+Server.Connector.Dataverse.UpdateRecord("accounts", "00000000-0000-0000-0000-000000000001", "{ \"telephone1\": \"555-555-0100\" }");
 ```
 
 #### DeleteRecord
