@@ -1,7 +1,7 @@
 ---
-title: Create and Manage Server Logic in Power Pages
-description: Learn how to create and manage server logic in Power Pages Studio, including setup steps, role assignments, and API integration examples.
-#customer intent: As a developer, I want to create server logic in Power Pages Studio so that I can define custom server APIs for my application.
+title: Create and manage server logic in Power Pages
+description: Learn how to create and manage server logic in Power Pages, including setup steps, role assignments, and API integration examples.
+#customer intent: As a developer, I want to create server logic in Power Pages so that I can define custom server APIs for my application.
 author: shwetamurkute
 ms.author: nabha
 ms.reviewer: smurkute
@@ -11,7 +11,7 @@ ms.topic: concept-article
 
 # Author server logic
 
-Create server logic in the **Set up** workspace in Power Pages Studio. Each server logic record represents a distinct server API that you can invoke from the client with supported HTTP verbs.
+Create server logic in the [Set up workspace](setup-workspace.md) in design studio. Each server logic record represents a distinct server API that you can invoke from the client with supported HTTP verbs.
 
 ## Steps to create server logic
 
@@ -19,16 +19,16 @@ Create server logic in the **Set up** workspace in Power Pages Studio. Each serv
 1. Select site **+ Edit**.
 1. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
     :::image type="content" source="media/server-logic-overview/server-logic-preview-screen.png" alt-text="Server logic preview screen showing different operations":::
-1. Click **+New server logic**.
+1. Select **+New server logic**.
 1. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.
-1. Click **+Add roles** to assign appropriate web role.
+1. Select **+Add roles** to assign appropriate web role.
 1. Select 3 dots (**…**) next to name and select **Edit code.**
 1. Select **Open Visual Studio Code** to author the custom logic.
 
-## Calling server logic from client script
+## Call server logic from client script
 
 > [!NOTE]
-> Each request to server logic request should include Cross-Site Request Forgery (CSRF) token. In general, *shell.safeAjax* method wraps the CSRF token. You refer here for construction of [CSRF wrapper ajax function](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
+> Each request to server logic request should include Cross-Site Request Forgery (CSRF) token. In general, *shell.safeAjax* method wraps the CSRF token. Learn more about how to construct requests in [CSRF wrapper ajax function](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
 
 ### Example: calling HTTP GET
 
@@ -124,6 +124,6 @@ shell.safeAjax({
 ### Related information
 
 [Server logic overview](server-logic-overview.md)  
-[How to interact with Dataverse tables using Server logic](server-logic-operations.md)  
+[How to interact with Dataverse tables using server logic](server-logic-operations.md)  
  
 

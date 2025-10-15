@@ -11,20 +11,7 @@ ms.topic: reference
 
 # Server objects 
 
-Server logic provides built-in objects under the Server namespace. These objects simplify development by letting you log messages, call external services, work with Dataverse, or access request details.
-
-
-## Logger
-
-Use the logger to write diagnostic messages that can be viewed in the [DevTools extension](../configure/devtools-addon.md).
-
-Example:
-
-```javascript
-Server.Logger.Log("Information message");
-Server.Logger.Warn("Warning message");
-Server.Logger.Error("Error message");
-```
+Server logic provides built-in objects under the server namespace. These objects simplify development by letting you log messages, call external services, work with Dataverse, or access request details.
 
 ## HttpClient
 
@@ -38,31 +25,55 @@ Use the HTTP client to integrate with external services by sending HTTP requests
 #### HTTP GET
 
 ```javascript
-Server.Connector.HttpClient.GetAsync("https://contoso.com/objects", {"client_id": "00000000-0000-0000-0000-000000000000"});
+let url = "https://contoso.com/objects";
+let idObj = { client_id: "00000000-0000-0000-0000-000000000000" };
+
+let response = await Server.Connector.HttpClient.GetAsync(url, JSON.stringify(idObj));
 ```
 
 #### HTTP POST
 
 ```javascript
-Server.Connector.HttpClient.PostAsync("https://contoso.com/objects", "{\"name\": \"Apple MacBook Pro 16\"}", {"client_id": "30d49153-11da-4994-a58f-7be8e91c6"}, "application/json");
+let url = "https://contoso.com/objects";
+let dataObj = JSON.stringify({ name: "Apple MacBook Pro 16" });
+let idObj = JSON.stringify({ client_id: "30d49153-11da-4994-a58f-7be8e91c6" });
+let contentType = "application/json";
+
+// Make the POST request
+let response = await Server.Connector.HttpClient.PostAsync(url, dataObj, idObj, contentType);
 ```
 
 #### HTTP PUT
 
 ```javascript
-Server.Connector.HttpClient.PutAsync("https://contoso.com/objects/6", "{\"name\": \"Updated MacBook\"}", {"client_id": "00000000-0000-0000-0000-000000000000"}, "application/json");
+let url = "https://contoso.com/objects/6";
+let dataObj = JSON.stringify({ name: "Updated MacBook" });
+let idObj = JSON.stringify({ client_id: "00000000-0000-0000-0000-000000000000" });
+let contentType = "application/json";
+
+// Make the PUT request
+let response = await Server.Connector.HttpClient.PutAsync(url, dataObj, idObj, contentType);
 ```
 
 #### HTTP PATCH
 
 ```javascript
-Server.Connector.HttpClient.PatchAsync("https://contoso.com/objects/6", "{\"capacity\": \"2 TB\"}", {"client_id": "00000000-0000-0000-0000-000000000000"}, "application/json");
+let url = "https://contoso.com/objects/6";
+let dataObj = JSON.stringify({ name: "{\"capacity\": \"2 TB\"}" });
+let idObj = JSON.stringify({ client_id: "00000000-0000-0000-0000-000000000000" });
+let contentType = "application/json";
+
+// Make the PATCH request
+let response = await Server.Connector.HttpClient.PatchAsync(url, dataObj, idObj, contentType);
 ```
 
 #### HTTP DELETE
 
 ```javascript
-Server.Connector.HttpClient.DeleteAsync("https://contoso.com/objects/6", {"content-type": "application/json"});
+let url = "https://contoso.com/objects/6";
+let contentType = "application/json";
+
+let response = await Server.Connector.HttpClient.GetAsync(url, contentType);
 ```
 
 ### Example: Response
@@ -85,13 +96,43 @@ Server.Connector.HttpClient.DeleteAsync("https://contoso.com/objects/6", {"conte
 
 ```
 
+## SiteSetting
+
+Allows you to read site setting values for the current website.
+
+**Example**
+
+```javascript
+Server.SiteSetting.Get("Authentication/Registration/Enabled");
+```
+
+## Website
+
+Provides details of the current website record in Dataverse.
+
+**Example**
+
+```javascript
+Server.Website.adx_primarydomain;
+```
+
+## User
+
+Provides details of the signed-in user. Returns null if anonymous.
+
+**Example**
+
+```javascript
+Server.User.fullname;
+```
+
 ## Dataverse
 
-The `Server.Connector.Dataverse` object lets you perform CRUD operations on Dataverse tables, as well as invoke custom APIs.
+The `Server.Connector.Dataverse` object lets you perform CRUD operations on Dataverse tables, and invoke custom APIs.
 
 > [!NOTE]
 >- Only Dataverse-bound actions and functions are supported.
->- When referring to Dataverse tables using the portals Web API in your code, you need to use the [EntitySetName](../power-apps/developer/data-platform/entity-metadata.md#table-names), for example, to access the `account` table, the code syntax uses the EntitySetName of `accounts`.
+>- When referring to Dataverse tables using the portals Web API in your code, you need to use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the `account` table, the code syntax uses the EntitySetName of `accounts`.
 
 
 
@@ -200,35 +241,16 @@ Server.Connector.Dataverse.InvokeCustomApi("post", "accounts(00000000-0000-0000-
 }
 ```
 
+## Logger
 
-## User
+Use the logger to write diagnostic messages that can be viewed in the [DevTools extension](../configure/devtools-addon.md).
 
-Provides details of the signed-in user. Returns null if anonymous.
-
-**Example**
-
-```javascript
-Server.User.fullname;
-```
-
-## Website
-
-Provides details of the current website record in Dataverse.
-
-**Example**
+Example:
 
 ```javascript
-Server.Website.adx_primarydomain;
-```
-
-## SiteSetting
-
-Allows you to read site setting values for the current website.
-
-**Example**
-
-```javascript
-Server.SiteSetting.Get("Authentication/Registration/Enabled");
+Server.Logger.Log("Information message");
+Server.Logger.Warn("Warning message");
+Server.Logger.Error("Error message");
 ```
 
 ## Context
@@ -258,7 +280,7 @@ Server.QueryParameters['id'];
 
 ## Next step
 
-[How to interact with Dataverse tables using Server logic](server-logic-operations.md)
+[How to interact with Dataverse tables using server logic](server-logic-operations.md)
 
 ### Related information
 

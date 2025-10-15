@@ -31,7 +31,7 @@ Dataverse stores code and configuration, so server logic benefits from the same 
 
 Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard. Hosting environment doesn't provide access to browser-specific APIs or libraries, like `fetch`, `XMLHttpRequest`, or other DOM-related features typically available in client-side JavaScript.  
 
-## What you can do with Server logic
+## What you can do with server logic
 
 Server logic in Power Pages allows makers and developers to move critical operations from the browser to the server for improved control, scalability, and security. It enables your site to perform complex tasks and integrations without exposing sensitive logic or data on the client side.
 
@@ -42,7 +42,7 @@ With Server logic, you can:
 - Return processed responses to pages : Send only the required and filtered data to client pages, ensuring faster rendering and reduced payloads.
 - Simplify secure authentication : Manage service credentials and API keys on the server rather than in client code, maintaining secure and compliant integration practices.
 
-## Benefits of using Server logic
+## Benefits of using server logic
 
 Server logic brings enterprise-grade extensibility to Power Pages, helping organizations build more secure, scalable, and maintainable web experiences.
 
@@ -54,11 +54,11 @@ Key benefits include:
 -	Centralized maintenance : Update or refine logic in one place without redeploying or editing multiple client scripts or pages.
 
 
-## Securing the Server logic 
+## Secure the server logic 
 
 To execute code in server logic, users must have the appropriate permissions configured by the maker. Access is governed by web roles and table permissions, which also determine whether server logic can access specific tables.
 
-### Authenticating server logic API 
+### Authenticate server logic API 
 
 You don't need to include custom authentication code. Authentication and authorization are managed by the application session. All server logic API calls must include a Cross-Site Request Forgery (CSRF) token.  
 
@@ -80,25 +80,26 @@ The following optional site settings help configure server logic: 
 
 ## Server logic API URL 
 
-Construct the API URL using this format:   
+Construct the API URL using this format:  
+  
 https://\<site-url\>/\_api/serverlogics/\<server-logic-name\>   
    
 Example:   
 https://contoso.powerappsportals.com/_api/serverlogics/exchangerate 
 
  
-
 ## Supported HTTP methods 
 
-Each method maps to a function you define in server logic: 
+Server logic supports standard HTTP methods to perform operations on data or interact with external services.
+Each method maps to a function you define in your server logic code.
 
-| Method  | Function signature    | Usage                              |
-|---------|-----------------------|------------------------------------|
-| GET     | function get() { }    | Retrieve data.                     |
-| POST    | function post() { }   | Create records or send new data.   |
-| PATCH   | function patch() { }  | Update part of a record (upsert).  |
-| PUT     | function put() { }    | Replace or update records.         |
-| DELETE  | function del() { }    | Delete records or fields.          |
+| Method  | Function signature    | Usage                              | Description   |
+|---------|-----------------------|------------------------------------|---------------|
+| GET     | function get() { }    | Retrieve data.                     | Used to fetch data from Dataverse, external APIs, or custom business logic. Ideal for read-only operations where no data changes are made. |
+| POST    | function post() { }   | Create records or send new data.   | Commonly used to insert new records into Dataverse or send data to external systems. Suitable for form submissions or workflows that need to create or trigger actions. |
+| PATCH   | function patch() { }  | Update part of a record (upsert).  | Performs a partial update of existing data without replacing the entire record. Useful when only specific fields need modification. |
+| PUT     | function put() { }    | Replace or update records.         | Updates or replaces an entire record or dataset. Typically used for full updates or synchronization scenarios. |
+| DELETE  | function del() { }    | Delete records or fields.          | Removes records or data from Dataverse or an external system. Should be used cautiously to prevent unintended data loss. |
 
 ## Next step
 
@@ -107,5 +108,5 @@ Each method maps to a function you define in server logic: 
 ### Related information
 
 [Server objects](server-objects.md)  
-[How to interact with Dataverse tables using Server logic](server-logic-operations.md)   
+[How to interact with Dataverse tables using server logic](server-logic-operations.md)   
 

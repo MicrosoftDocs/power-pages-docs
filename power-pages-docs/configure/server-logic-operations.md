@@ -9,7 +9,7 @@ ms.date: 09/30/2025
 ms.topic: how-to
 ---
 
-# How to: Interact with Dataverse tables using Server logic
+# How to: Interact with Dataverse tables using server logic
 
 In this guide, you'll set up a webpage and custom web template that will use the server logic to read, write, update, and delete records from the contact table.
 
@@ -307,7 +307,7 @@ In this guide, you'll set up a webpage and custom web template that will use the
 
 ### Create a web role
 
-If you currently don't have a web role with permissions to the table you're accessing through the Server logic or require different context of accessing the data, the following steps show you how to create a new web role and assign table permissions.
+If you currently don't have a web role with permissions to the table you're accessing through the server logic or require different context of accessing the data, the following steps show you how to create a new web role and assign table permissions.
 
 1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
 1. On the left pane, in the **Security** section, select **Web Roles**.
@@ -333,21 +333,21 @@ If you currently don't have a web role with permissions to the table you're acce
 
 1. Start the [Portal Management app](/power-pages/configure/portal-management-app).
 1. On the left pane, in the **Security** section, select **Contacts**.
-1. Select a contact that you want to use in this example for the Server logic.
+1. Select a contact that you want to use in this example for the server logic.
    > [!NOTE]
-   > This contact is the user account used in this example for testing the Server logic. Be sure to select the correct contact in your portal.
+   > This contact is the user account used in this example for testing the server logic. Be sure to select the correct contact in your portal.
 1. Select **Related** > **Web Roles**.
 1. Select **Add Existing Web Role**.
-1. Select the **Server logic User** role, created earlier.
+1. Select the **Server logic user** role, created earlier.
 1. Select **Add**.
 1. Select **Save & Close**.
 
-## Step 4: Use the Server logic to read, view, edit, create, and delete
+## Step 4: Use the server logic to read, view, edit, create, and delete
 
 To test the Web API functionality:
 
 1. Select **Preview**, and then choose **Desktop**.
-1. Sign in to your site with the user account that has been assigned the **Server logic User** role you created earlier.
+1. Sign in to your site with the user account that has been assigned the **Server logic user** role you created earlier.
 1. Go to the **Server logic** webpage created earlier.
 
 
