@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 04/30/2025
+ms.date: 10/15/2025
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -101,6 +101,7 @@ Right-click on Active Sites to access the following actions:
 - **Site Details**: Displays detailed information about the site.
 - **Reveal in Explorer**: Navigates to the local directory containing the site's code.
 - **Open in Power Pages Studio**: Opens the site in Power Pages studio.
+- **Run CodeQL screening**: Perform static code analysis on HTML and JavaScript files to identify vulnerabilities in your codebase using [**CodeQL**](https://codeql.github.com/). This option is available only for sites that are downloaded locally, indicated by the **Current** tag in the active sites list.
 
 #### Inactive Sites actions
 
