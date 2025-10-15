@@ -28,7 +28,7 @@ Create server logic in the [Set up workspace](setup-workspace.md) in design stud
 ## Call server logic from client script
 
 > [!NOTE]
-> Each request to server logic request should include Cross-Site Request Forgery (CSRF) token. In general, *shell.safeAjax* method wraps the CSRF token. Learn more about how to construct requests in [CSRF wrapper ajax function](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
+> Each request to server logic request should include Cross-Site Request Forgery (CSRF) token. In general, *shell.safeAjax* method wraps the CSRF token. Learn more about how to construct requests in [CSRF wrapper AJAX function](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
 
 ### Example: calling HTTP GET
 
