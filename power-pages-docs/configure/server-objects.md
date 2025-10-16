@@ -132,7 +132,7 @@ The `Server.Connector.Dataverse` object lets you perform CRUD operations on Data
 
 > [!NOTE]
 >- Only Dataverse-bound actions and functions are supported.
->- When referring to Dataverse tables using the portals Web API in your code, you need to use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the `account` table, the code syntax uses the EntitySetName of `accounts`.
+>- When referring to Dataverse tables in your code, you need to use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the `account` table, the code syntax uses the EntitySetName of `accounts`.
 
 
 
