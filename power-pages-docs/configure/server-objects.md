@@ -103,7 +103,7 @@ Allows you to read site setting values for the current website.
 **Example**
 
 ```javascript
-Server.SiteSetting.Get("Authentication/Registration/Enabled");
+Server.SiteSetting.Get("Search/Enabled");
 ```
 
 ## Website
