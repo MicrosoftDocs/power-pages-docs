@@ -26,7 +26,7 @@ Use the HTTP client to integrate with external services by sending HTTP requests
 
 ```javascript
 let url = "https://contoso.com/objects";
-let idObj = { client_id: "00000000-0000-0000-0000-000000000000" };
+let idObj = { client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" };
 
 let response = await Server.Connector.HttpClient.GetAsync(url, JSON.stringify(idObj));
 ```
@@ -48,7 +48,7 @@ let response = await Server.Connector.HttpClient.PostAsync(url, dataObj, idObj, 
 ```javascript
 let url = "https://contoso.com/objects/6";
 let dataObj = JSON.stringify({ name: "Updated Sample Account" });
-let idObj = JSON.stringify({ client_id: "00000000-0000-0000-0000-000000000000" });
+let idObj = JSON.stringify({ client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" });
 let contentType = "application/json";
 
 // Make the PUT request
@@ -60,7 +60,7 @@ let response = await Server.Connector.HttpClient.PutAsync(url, dataObj, idObj, c
 ```javascript
 let url = "https://contoso.com/objects/6";
 let dataObj = JSON.stringify({ name: "{\"capacity\": \"2 TB\"}" });
-let idObj = JSON.stringify({ client_id: "00000000-0000-0000-0000-000000000000" });
+let idObj = JSON.stringify({ client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" });
 let contentType = "application/json";
 
 // Make the PATCH request
@@ -236,7 +236,7 @@ Server.Connector.Dataverse.InvokeCustomApi("post", "accounts(00000000-0000-0000-
     "ServerError": false,
     "ServerErrorMessage": null,
     "Headers": {
-        "x-ms-cds-service-request-id": "00000000-0000-0000-0000-000000000000"
+        "x-ms-cds-service-request-id": "00001111-aaaa-2222-bbbb-3333cccc4444"
     }
 }
 ```

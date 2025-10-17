@@ -80,12 +80,13 @@ The following optional site settings help configure server logic: 
 
 ## Server logic API URL 
 
-Construct the API URL using this format:  
+Construct the API URL using this format:
   
-https://\<site-url\>/\_api/serverlogics/\<server-logic-name\>   
+`https://<site-url>/_api/serverlogics/<server-logic-name>`
    
 Example:   
-https://contoso.powerappsportals.com/_api/serverlogics/exchangerate 
+
+`https://contoso.powerappsportals.com/_api/serverlogics/exchangerate`
 
  
 ## Supported HTTP methods 
