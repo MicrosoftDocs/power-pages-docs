@@ -590,6 +590,8 @@
               href: configure/liquid/render-rss-custom-web-template.md
             - name: Render a site header and primary navigation bar
               href: configure/liquid/render-site-header-primary-navigation.md
+    - name: Client API
+      href: configure/client-api.md
     - name: Use server logic (preview)
       items:
         - name: Server logic overview
@@ -599,7 +601,7 @@
         - name: Server objects
           href: configure/server-objects.md
         - name: "How to: interact with Dataverse tables using server logic"
-          href: configure/server-logic-operations.md 
+          href: configure/server-logic-operations.md
     - name: Use Web API
       items:
         - name: Portals Web API overview
