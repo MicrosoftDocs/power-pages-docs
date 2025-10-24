@@ -57,9 +57,6 @@ As you create new components and add them to your website, you can add them to t
 1. On the **Add existing** menu, select **More** \> **Other** \> **Site Component**.
 1. In the **Add existing Site component** panel, select the site components, and then select **Add** to add them to the solution.
 
-> [!NOTE]
-> When you use the Add Website Components feature, all site components are added to the solution, not just the ones you select. This happens because our configuration is set to automatically include all related and dependent components in a solution. There isn't a workaround available at the moment, but we plan to address this limitation. A fix is expected to be released soon.
-
 ## Export the solution from the source environment
 
 Select the solution, and then select **Export solution** on the main menu. For more information about how to import and export solutions, go to [Solution Concepts](/power-platform/alm/solution-concepts-alm).
