@@ -57,12 +57,6 @@ As you create new components and add them to your website, you can add them to t
 1. On the **Add existing** menu, select **More** \> **Other** \> **Site Component**.
 1. In the **Add existing Site component** panel, select the site components, and then select **Add** to add them to the solution.
 
-Alternatively, you can add the required components to your site.
-
-1. In the solution, select the site.
-1. On the main menu, select **Advanced**, and then select **Add required objects**.
-1. In the panel that appears, select **OK** to continue. After a few moments, you'll receive a message that the required objects have been successfully added to the solution.
-
 > [!NOTE]
 > When you use the Add Website Components feature, all site components are added to the solution, not just the ones you select. This happens because our configuration is set to automatically include all related and dependent components in a solution. There isn't a workaround available at the moment, but we plan to address this limitation. A fix is expected to be released soon.
 
