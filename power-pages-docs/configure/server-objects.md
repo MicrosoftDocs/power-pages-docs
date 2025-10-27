@@ -18,7 +18,7 @@ Server logic provides built-in objects under the server namespace. These objects
 Use the HTTP client to integrate with external services by sending HTTP requests.
 
 > [!NOTE]
-> Currently server logic supports only `application/json` and `application/x-www-form-urlencoded` content types in request body.
+> Currently server logic supports only `application/json`, `text/html` and `application/x-www-form-urlencoded` content types in request body.
 
 ### Examples
 
