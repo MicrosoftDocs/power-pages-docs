@@ -2,10 +2,10 @@
 title: Access user and website details with server objects
 description: Learn how to use built-in server objects like Logger, HttpClient, and Dataverse to simplify development and integrate with external services effectively.
 #customer intent: As a developer, I want to send HTTP requests using the **HttpClient** object so that I can integrate with external services.
-author: shwetamurkute
+author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 09/30/2025
+ms.date: 10/27/2025
 ms.topic: reference
 ---
 
@@ -18,7 +18,7 @@ Server logic provides built-in objects under the server namespace. These objects
 Use the HTTP client to integrate with external services by sending HTTP requests.
 
 > [!NOTE]
-> Currently server logic supports only `application/json` and `application/x-www-form-urlencoded` content types in request body.
+> Currently server logic supports only `application/json`, `text/html` and `application/x-www-form-urlencoded` content types in request body.
 
 ### Examples
 
@@ -183,7 +183,7 @@ Server.Connector.Dataverse.RetrieveMultipleRecords("accounts", "$select=name,ema
 Updates an existing record by ID.
 
 ```javascript
-Server.Connector.Dataverse. Server.Connector.Dataverse.UpdateRecord(string entitySetName, string id, string payload)   
+Server.Connector.Dataverse.UpdateRecord(string entitySetName, string id, string payload)   
 ```
 
 **Example**
