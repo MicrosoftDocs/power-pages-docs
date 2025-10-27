@@ -2,10 +2,10 @@
 title: Access user and website details with server objects
 description: Learn how to use built-in server objects like Logger, HttpClient, and Dataverse to simplify development and integrate with external services effectively.
 #customer intent: As a developer, I want to send HTTP requests using the **HttpClient** object so that I can integrate with external services.
-author: shwetamurkute
-ms.author: nageshbhat-msft
+author: nageshbhat-msft
+ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 09/30/2025
+ms.date: 10/27/2025
 ms.topic: reference
 ---
 
