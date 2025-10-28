@@ -652,7 +652,7 @@
           href: configure/power-platform-cli-solution-management.md
     - name: Single-page application
       items:
-        - name: Create a single-page application (preview)
+        - name: Create a single-page application
           href: configure/create-code-sites.md
         - name: "Tutorial: Create a single-page application using Spark and Codespace"
           href: configure/create-code-site-using-codespace.md
