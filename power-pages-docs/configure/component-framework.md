@@ -5,9 +5,9 @@ author: GitanjaliSingh33msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 03/28/2023
+ms.date: 10/29/2025
 ms.subservice: 
-ms.author: gisingh
+ms.author: nabha
 ms.reviewer: dmartens
 contributors:
   - GitanjaliSingh33msft
@@ -120,7 +120,7 @@ More information: [Attributes list and descriptions](/power-apps/developer/compo
 
 -   [Value elements not supported](/power-apps/developer/component-framework/manifest-schema-reference/property#value-elements-that-are-not-supported)
     by Power Apps component framework.
--   Power Apps Component Framework (PCF) control bound to multiple fields in a form is not supported.
+-   Power Apps Component Framework (PCF) controls bound to multiple fields in a form isn't supported.
 
 ## Add a code component to a field in a model-driven app
 
