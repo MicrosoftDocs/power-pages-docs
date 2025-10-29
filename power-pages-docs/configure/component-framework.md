@@ -107,7 +107,7 @@ For more information, see [Attributes list and descriptions](/power-apps/develop
     - [Device.getBarcodeValue](/power-apps/developer/component-framework/reference/device/getbarcodevalue)
     - [Device.getCurrentPosition](/power-apps/developer/component-framework/reference/device/getcurrentposition)
     - [Device.pickFile](/power-apps/developer/component-framework/reference/device/pickfile)
-- [Utility](/power-apps/developer/component-framework/reference/utility)
+    - [Utility](/power-apps/developer/component-framework/reference/utility)
 - The [uses-feature](/power-apps/developer/component-framework/manifest-schema-reference/uses-feature) element must not be set to **true**.
 - [Value elements not supported](/power-apps/developer/component-framework/manifest-schema-reference/property#value-elements-that-are-not-supported) by Power Apps component framework.
 - Power Apps Component Framework (PCF) controls bound to multiple fields in a form isn't supported.
