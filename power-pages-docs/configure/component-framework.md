@@ -12,6 +12,7 @@ ms.reviewer: dmartens
 contributors:
   - GitanjaliSingh33msft
   - HemantGaur
+  - nabha
 ---
 
 # Use code components in Power Pages
@@ -119,6 +120,7 @@ More information: [Attributes list and descriptions](/power-apps/developer/compo
 
 -   [Value elements not supported](/power-apps/developer/component-framework/manifest-schema-reference/property#value-elements-that-are-not-supported)
     by Power Apps component framework.
+-   Power Apps Component Framework (PCF) control bound to multiple fields in a form is not supported.
 
 ## Add a code component to a field in a model-driven app
 
