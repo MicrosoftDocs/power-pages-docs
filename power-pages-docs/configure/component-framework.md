@@ -37,31 +37,64 @@ To learn about creating and packaging code components in Power Apps component fr
 
 ### Supported field types and formats
 
-Power Pages supports restricted field types and formats for using code components. The following field data types and formats are supported:
+Power Pages supports restricted field types and formats for using code components. The following table lists all supported field data types and formats:
 
-**Numeric**
-    - Currency
-    - Decimal
-    - Floating Point Number
-    - Whole
-
-**Date and Time**
-    - DateAndTime.DateAndTime
-    - DateAndTime.DateOnly
-
-**Text**
-    - SingleLine.Email
-    - SingleLine.Phone
-    - SingleLine.Text
-    - SingleLine.TextArea
-    - SingleLine.Ticker
-    - SingleLine.URL
-
-**Choice**
-    - Enum
-    - Multiple
-    - OptionSet
-    - TwoOptions
+:::row:::
+   :::column span="":::
+      Currency
+   :::column-end:::
+   :::column span="":::
+      DateAndTime.DateAndTime
+   :::column-end:::
+   :::column span="":::
+      DateAndTime.DateOnly
+   :::column-end:::
+   :::column span="":::
+      Decimal
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Enum
+   :::column-end:::
+   :::column span="":::
+      Floating Point Number
+   :::column-end:::
+   :::column span="":::
+      Multiple
+   :::column-end:::
+   :::column span="":::
+      OptionSet
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      SingleLine.Email
+   :::column-end:::
+   :::column span="":::
+      SingleLine.Phone
+   :::column-end:::
+   :::column span="":::
+      SingleLine.Text
+   :::column-end:::
+   :::column span="":::
+      SingleLine.TextArea
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      SingleLine.Ticker
+   :::column-end:::
+   :::column span="":::
+      SingleLine.URL
+   :::column-end:::
+   :::column span="":::
+      TwoOptions
+   :::column-end:::
+   :::column span="":::
+      Whole
+   :::column-end:::
+:::row-end:::
 
 For more information, see [Attributes list and descriptions](/power-apps/developer/component-framework/manifest-schema-reference/property#remarks).
 
