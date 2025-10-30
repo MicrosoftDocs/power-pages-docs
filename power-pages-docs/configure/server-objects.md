@@ -26,54 +26,54 @@ Use the HTTP client to integrate with external services by sending HTTP requests
 
 ```javascript
 let url = "https://contoso.com/objects";
-let idObj = { client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" };
+let header = { client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" };
 
-let response = await Server.Connector.HttpClient.GetAsync(url, JSON.stringify(idObj));
+let response = await Server.Connector.HttpClient.GetAsync(url, header);
 ```
 
 #### HTTP POST
 
 ```javascript
 let url = "https://contoso.com/objects";
-let dataObj = JSON.stringify({ name: "Sample Account" });
-let idObj = JSON.stringify({ client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" });
+let body = JSON.stringify({ name: "Sample Account" });
+let header = { client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" };
 let contentType = "application/json";
 
 // Make the POST request
-let response = await Server.Connector.HttpClient.PostAsync(url, dataObj, idObj, contentType);
+let response = await Server.Connector.HttpClient.PostAsync(url, body, header, contentType);
 ```
 
 #### HTTP PUT
 
 ```javascript
 let url = "https://contoso.com/objects/6";
-let dataObj = JSON.stringify({ name: "Updated Sample Account" });
-let idObj = JSON.stringify({ client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" });
+let body = JSON.stringify({ name: "Updated Sample Account" });
+let header = { client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" };
 let contentType = "application/json";
 
 // Make the PUT request
-let response = await Server.Connector.HttpClient.PutAsync(url, dataObj, idObj, contentType);
+let response = await Server.Connector.HttpClient.PutAsync(url, body, header, contentType);
 ```
 
 #### HTTP PATCH
 
 ```javascript
 let url = "https://contoso.com/objects/6";
-let dataObj = JSON.stringify({ name: "{\"capacity\": \"2 TB\"}" });
-let idObj = JSON.stringify({ client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" });
+let body = JSON.stringify({ name: "{\"capacity\": \"2 TB\"}" });
+let header = { client_id: "00001111-aaaa-2222-bbbb-3333cccc4444" };
 let contentType = "application/json";
 
 // Make the PATCH request
-let response = await Server.Connector.HttpClient.PatchAsync(url, dataObj, idObj, contentType);
+let response = await Server.Connector.HttpClient.PatchAsync(url, body, header, contentType);
 ```
 
 #### HTTP DELETE
 
 ```javascript
 let url = "https://contoso.com/objects/6";
-let contentType = "application/json";
+let header = { contentType: "application/json" };
 
-let response = await Server.Connector.HttpClient.GetAsync(url, contentType);
+let response = await Server.Connector.HttpClient.GetAsync(url, header);
 ```
 
 ### Example: Response
