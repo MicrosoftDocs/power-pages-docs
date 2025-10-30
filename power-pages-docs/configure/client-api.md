@@ -202,7 +202,7 @@ The WebAPI methods allow you to create and retrieve records from a data source.
    - **Example**:
 
         ```javascript
-        window.\$pages.webAPI.createRecord('account', {  
+        window.$pages.webAPI.createRecord('account', {  
         firstName: 'User',
         lastName: 'Test'  
         });
