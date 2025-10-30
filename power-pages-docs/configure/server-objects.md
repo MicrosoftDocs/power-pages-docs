@@ -73,7 +73,7 @@ let response = await Server.Connector.HttpClient.PatchAsync(url, body, header, c
 let url = "https://contoso.com/objects/6";
 let header = { contentType: "application/json" };
 
-let response = await Server.Connector.HttpClient.GetAsync(url, header);
+let response = await Server.Connector.HttpClient.DeleteAsync(url, header);
 ```
 
 ### Example: Response
