@@ -45,7 +45,7 @@ No. If necessary, consider adding a consent dialog for website users through ext
 
 ### Why can't I use my Power Pages site without cookies?
 
-Cookies are required to maintain a website functional, with the purpose as described in the table.
+Essential cookies are required for your Power Pages site to function properly. These cookies enable core features and maintain the website’s basic operations, as described in the table. Without them, the site cannot work as intended.
 
 ### What does the session lifetime mean?
 
