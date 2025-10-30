@@ -23,17 +23,17 @@ The form API includes methods and types to work with form elements on the page.
 
 `getAll(): IForm[]`
 
-   1. **Description**: Returns a collection of all forms added to the current page.
-   1. **Parameters**: None
-   1. **Returns**: `IForm[]`
-   1. **Example**: `let forms = window.$pages.currentPage.forms.getAll();`
+   - **Description**: Returns a collection of all forms added to the current page.
+   - **Parameters**: None
+   - **Returns**: `IForm[]`
+   - **Example**: `let forms = window.$pages.currentPage.forms.getAll();`
 
 `getFormById(id: string): Form`
 
-   1. **Description**: Retrieves a form instance by its HTML element ID.
-   1. **Parameters**: `id` (string): The ID of the form HTML element.
-   1. **Returns**: A form object.
-   1. **Example**: `let form = window.$pages.currentPage.forms.getFormById('form_#1');`
+   - **Description**: Retrieves a form instance by its HTML element ID.
+   - **Parameters**: `id` (string): The ID of the form HTML element.
+   - **Returns**: A form object.
+   - **Example**: `let form = window.$pages.currentPage.forms.getFormById('form_#1');`
 
 ### Types
 
@@ -41,14 +41,14 @@ The form API includes methods and types to work with form elements on the page.
 
 A form represents a container for controls and tabs.
 
-1. **Properties**:
+- **Properties**:
    - `id`: The ID of the form.
    - controls: `Control[]` - An array containing all controls on the form.
    - tabs: `Tab[]` - An array containing all tabs on the form.
-1. **Methods**:
+- **Methods**:
    - `getVisible(): boolean` - Returns true if the form is visible; otherwise, false.
    - `setVisible(isVisible: boolean): void` - Sets the form's visibility.
-1. **Example**:
+- **Example**:
 
     ```javascript
     let form = window.$pages.currentPage.forms.getFormById('form_#1');  
@@ -64,13 +64,13 @@ A form represents a container for controls and tabs.
 
 A tab contains one or more sections within a form.
 
-1. **Properties**:
+- **Properties**:
    - *Sections*: `Section[]` - An array of sections within the tab.
-1. **Methods**:
+- **Methods**:
    - `getVisible(): boolean` - Returns true if the tab is visible; otherwise, false.
    - `getName(): string` - Returns the name of the tab.
    - `setVisible(isVisible: boolean): void` - Sets the tab's visibility.
-1. **Example**:
+- **Example**:
 
     ```javascript
     let form = window.$pages.currentPage.forms.getFormById('form_#1');  
@@ -83,13 +83,13 @@ A tab contains one or more sections within a form.
 
 Sections group controls within a tab.
 
-1. **Properties**:
+- **Properties**:
    - *Controls*: `Control[]` - An array of controls within the section.  
-1. **Methods**:
+- **Methods**:
    - `getVisible(): boolean` - Returns true if the section is visible; otherwise, false.
    - `getName(): string` - Returns the section name.
    - `setVisible(isVisible: boolean): void` - Sets the section's visibility.
-1. **Example**:
+- **Example**:
 
     ```javascript
     let form = window.$pages.currentPage.forms.getFormById('form_#1');  
@@ -102,7 +102,7 @@ Sections group controls within a tab.
 
 Controls represent individual form elements.
 
-1. **Methods**:
+- **Methods**:
    - `getDisabled(): boolean` - Returns true if the control is disabled.
    - `getVisible(): boolean` - Returns true if the control is visible.
    - `getName(): string` - Returns the control's name.
@@ -110,7 +110,7 @@ Controls represent individual form elements.
    - `setDisabled(isDisabled: boolean): void` - Sets the disabled state.
    - `setVisible(isVisible: boolean): void` - Sets the visibility.
    - `setValue(value: string): void` - Sets a new value for the control.
-1. **Example**:
+- **Example**:
 
     ```javascript
     let form = window.$pages.currentPage.forms.getFormById('form_#1');  
@@ -131,17 +131,17 @@ The list API offers methods to handle traditional and modern list elements on th
 
 `getAll(): IList[]`
 
-   1. **Description**: Returns a collection of all lists on the current page.
-   1. **Parameters**: None
-   1. **Returns**: `IList[]`
-   1. **Example**: `let lists = window.$pages.currentPage.lists.getAll();`
+   - **Description**: Returns a collection of all lists on the current page.
+   - **Parameters**: None
+   - **Returns**: `IList[]`
+   - **Example**: `let lists = window.$pages.currentPage.lists.getAll();`
 
 `getListById(id: string): List`
 
-   1. **Description**: Retrieves a list instance by its HTML element ID.
-   1. **Parameters**: `id (string)`: The ID of the list HTML element.
-   1. **Returns**: A list object.
-   1. **Example**: `let list = window.$pages.currentPage.lists.getListById('list_#1');`
+   - **Description**: Retrieves a list instance by its HTML element ID.
+   - **Parameters**: `id (string)`: The ID of the list HTML element.
+   - **Returns**: A list object.
+   - **Example**: `let list = window.$pages.currentPage.lists.getListById('list_#1');`
 
 ### Type
 
@@ -149,14 +149,14 @@ The list API offers methods to handle traditional and modern list elements on th
 
 A list represents a tabular or grid-like data component.
 
-1. **Properties**:
+- **Properties**:
    - `id`: The list's unique identifier.
    - `isModern`: A Boolean value that is true for modern lists and false otherwise.
-1. **Methods**:
+- **Methods**:
    - `getVisible(): boolean` - Returns true if the list is visible.
    - `setVisible(isVisible: boolean): void` - Sets the list's visibility.
    - `getHtmlElement(): HTMLElement` - Returns the underlying HTML element for the list.
-1. **Example**:
+- **Example**:
 
     ```javascript
     let list = window.$pages.currentPage.lists.getListById('list_#1');  
@@ -174,17 +174,17 @@ The User API facilitates user authentication actions such as signing in and sign
 
 `signIn(): void`
 
-   1. **Description**: Redirects the user to the sign-in page.
-   1. **Parameters**: None
-   1. **Returns**: void
-   1. **Example**: `window.$pages.user.signIn();`
+   - **Description**: Redirects the user to the sign-in page.
+   - **Parameters**: None
+   - **Returns**: void
+   - **Example**: `window.$pages.user.signIn();`
 
 `signOut(): void`
 
-   1. **Description**: Logs out the currently signed-in user.
-   1. **Parameters**: None
-   1. **Returns**: void
-   1. **Example**: `window.$pages.user.signOut();`
+   - **Description**: Logs out the currently signed-in user.
+   - **Parameters**: None
+   - **Returns**: void
+   - **Example**: `window.$pages.user.signOut();`
 
 ## Web API
 
@@ -194,12 +194,12 @@ The WebAPI methods allow you to create and retrieve records from a data source.
 
 `createRecord(entitySetName: string, data: object): Promise<object>`
 
-   1. **Description**: Creates a new record in the specified table.
-   1. **Parameters**:
+   - **Description**: Creates a new record in the specified table.
+   - **Parameters**:
        - `entitySetName` (string): The name of the entity set.
        - `data` (object): The record data to be created.
-   1. **Returns**: A Promise that resolves to the created record or operation result.
-   1. **Example**:
+   - **Returns**: A Promise that resolves to the created record or operation result.
+   - **Example**:
 
         ```javascript
         window.\$pages.webAPI.createRecord('account', {  
@@ -210,21 +210,21 @@ The WebAPI methods allow you to create and retrieve records from a data source.
 
 `retrieveRecord(entitySetName: string, id: string, options?: string): Promise<object>`
 
-1. **Description**: Retrieves a record by its unique identifier.
-1. **Parameters**:
+- **Description**: Retrieves a record by its unique identifier.
+- **Parameters**:
    - `entitySetName` (string): The name of the entity set.
    - `id` (string): The record's unique identifier.
    - `options` (string, optional): An optional OData query string to customize the returned data.
-1. **Returns**: A Promise that resolves to the record object.
-1. **Example**:
+- **Returns**: A Promise that resolves to the record object.
+- **Example**:
     `let record = await window.$pages.webAPI.retrieveRecord('accounts', '123',  '$select=name');`
 
 `retrieveMultipleRecords(entitySetName: string, options?: string): Promise<object>`
 
-1. **Description**: Retrieves multiple records based on the provided query options.
-1. **Parameters**:
+- **Description**: Retrieves multiple records based on the provided query options.
+- **Parameters**:
    - `entitySetName` (string): The name of the entity set.
    - `options` (string, optional): An OData query string to filter or select specific fields.
-1. **Returns**: A Promise that resolves to an array of record objects.
-1. **Example**:  
+- **Returns**: A Promise that resolves to an array of record objects.
+- **Example**:  
     `let records = await window.$pages.webAPI.retrieveMultipleRecords('accounts','$select=name&$top=3');`
