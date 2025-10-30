@@ -18,7 +18,7 @@ contributors:
 
 A cookie is a small file sent from the web site to visitor's device by the browser. A single web session can use multiple cookies.
 
-Power Pages also use cookies to store information for various purposes. The following table describes the cookies that Power Pages uses, and their lifetime.
+Power Pages use cookies that are required for the website to function properly. These essential cookies store information necessary to support core site operations and ensure a seamless user experience. The following table describes the cookies that Power Pages uses, and their lifetime.
 
 | Cookie name | Description | Lifetime |
 | - | - | - |
