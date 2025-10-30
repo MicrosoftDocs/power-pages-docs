@@ -31,69 +31,69 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
 1. Select **Open Visual Studio Code** to author the custom logic. 
     You'll find pre-defined methods and scripts in the file 
 1. Define server logic method to read, edit, create, delete operations using external service.  
-Add below constant before the get() method 
-`const baseUrl  = "https://services.odata.org/TripPinRESTierService";`
-
-### Read: Add below script inside get method 
-
-```javascript
-
-
-if (!Server.Context.QueryParameters["username"]) {
-    const response = await Server.Connector.HttpClient.GetAsync(
-        `${baseUrl}/People?$select=UserName,FirstName,LastName,MiddleName,Age`, 
-        {'content-type':'application/json'});
+    Add below constant before the get() method 
+    `const baseUrl  = "https://services.odata.org/TripPinRESTierService";`
+    
+    ### Read: Add below script inside get method 
+    
+    ```javascript
+    
+    
+    if (!Server.Context.QueryParameters["username"]) {
+        const response = await Server.Connector.HttpClient.GetAsync(
+            `${baseUrl}/People?$select=UserName,FirstName,LastName,MiddleName,Age`, 
+            {'content-type':'application/json'});
+        return response;
+    }
+    else {            
+        const id = Server.Context.QueryParameters["username"]; // Context reference
+        const response = await Server.Connector.HttpClient.GetAsync(
+            `${baseUrl}(${id})/People?$select=UserName,FirstName,LastName,MiddleName,Age`, 
+            {'content-type':'application/json'});
+        return response;
+    }
+     ```
+    
+    ### Create: Add below script in post method
+    
+    ```javascript
+    const data = JSON.parse(Server.Context.Body);           
+    const url = `${baseUrl}/${data.serviceSession}/People`;
+    const { serviceSession, ...body } = data; 
+    const response = await Server.Connector.HttpClient.PostAsync(
+           url, 
+           JSON.stringify(body),
+          {'content-type':'application/json'});
     return response;
-}
-else {            
-    const id = Server.Context.QueryParameters["username"]; // Context reference
-    const response = await Server.Connector.HttpClient.GetAsync(
-        `${baseUrl}(${id})/People?$select=UserName,FirstName,LastName,MiddleName,Age`, 
-        {'content-type':'application/json'});
-    return response;
-}
- ```
-
-### Create: Add below script in post method
-
-```javascript
-const data = JSON.parse(Server.Context.Body);           
-const url = `${baseUrl}/${data.serviceSession}/People`;
-const { serviceSession, ...body } = data; 
-const response = await Server.Connector.HttpClient.PostAsync(
+    ```
+    
+    ### Update: Add below script in put 
+    
+    ```javascript
+    const data = JSON.parse(Server.Context.Body);        
+    const url = `${baseUrl}/${data.serviceSession}/People('${data.UserName}')`;
+    const { UserName, ...body1 } = data;
+    const { serviceSession, ...body } = body1;
+    const response = await Server.Connector.HttpClient.PatchAsync(
        url, 
        JSON.stringify(body),
       {'content-type':'application/json'});
-return response;
-```
+    return response;
+    ```
+    
+    ### Delete: Add inside del method 
+    
+    ```javascript
+    const username = Server.Context.QueryParameters["username"];
+    const serviceSession = Server.Context.QueryParameters["serviceSession"];
+    const url = `${baseUrl}/${serviceSession}/People('${username}')`;
+    const response = await Server.Connector.HttpClient.DeleteAsync(
+            url, 
+        {'content-type':'application/json'});
+    return response;
+    ```
 
-### Update: Add below script in put 
-
-```javascript
-const data = JSON.parse(Server.Context.Body);        
-const url = `${baseUrl}/${data.serviceSession}/People('${data.UserName}')`;
-const { UserName, ...body1 } = data;
-const { serviceSession, ...body } = body1;
-const response = await Server.Connector.HttpClient.PatchAsync(
-   url, 
-   JSON.stringify(body),
-  {'content-type':'application/json'});
-return response;
-```
-
-### Delete: Add inside del method 
-
-```javascript
-const username = Server.Context.QueryParameters["username"];
-const serviceSession = Server.Context.QueryParameters["serviceSession"];
-const url = `${baseUrl}/${serviceSession}/People('${username}')`;
-const response = await Server.Connector.HttpClient.DeleteAsync(
-        url, 
-    {'content-type':'application/json'});
-return response;
-```
-
-1. Save the file 
+1. Save the file.
 
 Here's the complete code:
 
