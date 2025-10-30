@@ -26,10 +26,10 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
     Example:  
     Name - services.odata.org 
     Display Name – Performing CRUD operations using OData service 
-1. Click **+Add roles** to assign appropriate web role. 
+1. Select **+Add roles** to assign appropriate web role. 
 1. Select 3 dots (**…**) next to name and select **Edit code.** 
 1. Select **Open Visual Studio Code** to author the custom logic. 
-    You will find pre-defined methods and scripts in the file 
+    You'll find pre-defined methods and scripts in the file 
 1. Define server logic method to read, edit, create, delete operations using external service.  
 Add below constant before the get() method 
 `const baseUrl  = "https://services.odata.org/TripPinRESTierService";`
@@ -67,7 +67,7 @@ const response = await Server.Connector.HttpClient.PostAsync(
 return response;
 ```
 
-### Update : Add below script in put 
+### Update: Add below script in put 
 
 ```javascript
 const data = JSON.parse(Server.Context.Body);        
@@ -95,7 +95,7 @@ return response;
 
 1. Save the file 
 
-Here is the complete code:
+Here's the complete code:
 
 ```javascript
 const baseUrl = "https://services.odata.org/TripPinRESTierService"; 
@@ -182,7 +182,7 @@ async function del() {
 1. In the **Add a page** dialog, enter details.
 1. In the **Name** box, enter **Server logic** and select **Start from blank** layout. 
 1. Select **Add**. 
-1. Select the **Edit Code** option in the upper right hand corner. 
+1. Select the **Edit Code** option in the upper right-hand corner. 
 1. Select **Open Visual Studio Code**. 
 1. Copy the following sample code snippet and paste it in between the \<div\>\</div\> tags of the page section. 
 

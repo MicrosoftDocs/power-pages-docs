@@ -16,7 +16,7 @@ This guide walks you through setting up and testing the **Server Logic** sample 
 ## Step 1: Download the sample package 
 
 1. Go to the GitHub repository [https://github.com/microsoft/power-pages-samples](https://github.com/microsoft/power-pages-samples). 
-1. Click **Code \> Download ZIP** (or use git clone if you prefer). 
+1. Select **Code \> Download ZIP** (or use git clone if you prefer). 
 
 ```bash
 git clone https://github.com/<your-org>/<your-repo>.git
@@ -27,7 +27,7 @@ git clone https://github.com/<your-org>/<your-repo>.git
 Before you start, make sure you have: 
 
 - Access to **Microsoft Entra ID (Azure AD)** with permission to register apps. 
-- Access to a **SharePoint Online site** (e.g., [https://contoso.sharepoint.com/sites/EventSite](https://contoso.sharepoint.com/sites/EventSite)). 
+- Access to a **SharePoint Online site** (for example, [https://contoso.sharepoint.com/sites/EventSite](https://contoso.sharepoint.com/sites/EventSite)). 
 
 ## Step 3: Create and configure the Azure AD application 
 
@@ -36,11 +36,11 @@ You need an **App Registration** to allow your Server Logic code to authenticate
 ### Create the app registration 
 
 1. Go to the [**Azure Portal**](https://portal.azure.com/) → **App registrations**. 
-1. Click **+ New registration**. 
-1. Provide a name (e.g., PowerPages-Graph-Integration). 
+1. Select **+ New registration**. 
+1. Provide a name (for example, PowerPages-Graph-Integration). 
 1. Choose **Accounts in this organizational directory only**. 
 1. Redirect URI is **not required** for this sample. 
-1. Click **Register**. 
+1. Select **Register**. 
 
 ### Configure API permissions 
 
@@ -51,14 +51,14 @@ You need an **App Registration** to allow your Server Logic code to authenticate
 - Sites.ReadWrite.All (for SharePoint file operations) 
 - Mail.Send *(optional – only needed if you plan to enable the email section)* 
 
-1. Click **Grant admin consent** for your tenant. 
+1. Select **Grant admin consent** for your tenant. 
 
 ### Create a client secret 
 
 1. Go to **Certificates & secrets** → **Client secrets**. 
-1. Click **+ New client secret**. 
-1. Add a description and choose an expiry period (e.g., 6 months). 
-1. Click **Add**, and **copy the generated value** immediately — this is your **CLIENT_SECRET**. 
+1. Select **+ New client secret**. 
+1. Add a description and choose an expiry period (for example, six months). 
+1. Select **Add**, and **copy the generated value** immediately—this is your **CLIENT_SECRET**. 
 
 ### Collect required values 
 
@@ -84,12 +84,12 @@ The script uploads generated event tickets to a SharePoint site.
 
 ## Step 5: Deploy the package 
 
-1. Create a new site by importing recently downloaded site from github. Refer this document to import the site, [power-pages-solutions](/power-pages/configure/power-pages-solutions)  
-1. During the site upgrade you will be asked to update the values for environment variables. Update below values captured in previous steps 
+1. Create a new site by importing recently downloaded site from GitHub. Refer this document to import the site, [power-pages-solutions](/power-pages/configure/power-pages-solutions)  
+1. During the site upgrade you'll be asked to update the values for environment variables. Update below values captured in previous steps 
 
 1. **Client ID**  
 1. **Tenant ID** 
-1. **Client Secret** (It prefer to keep it in a key vault and use in environments variable. For testing you can keep directly in environment variable) 
+1. **Client Secret** (It prefers to keep it in a key vault and use in environments variable. For testing you can keep directly in environment variable) 
 1. HOSTNAME  
 1. SITE_PATH  
 
@@ -108,5 +108,5 @@ After a successful run:
 If you'd like to send a confirmation email to the attendee: 
 
 1. Uncomment the **"Send confirmation email"** section in the script. 
-1. Replace {senderUserId} with a valid **mailbox-enabled user ID** (e.g., a service account). 
+1. Replace {senderUserId} with a valid **mailbox-enabled user ID** (for example, a service account). 
 1. Ensure Mail.Send permission is added and admin-consented.
