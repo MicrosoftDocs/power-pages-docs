@@ -21,7 +21,7 @@ Use this API to interact with forms and lists, and perform operations such as re
 
 `$pages.currentPage.forms.getAll(): IForm[]`
 
-- **Description**: Returns a collection of all forms added to the current page. See [IForm](#iform)
+- **Description**: Returns a collection of all forms added to the current page. See [IForm](#iform-interface)
 - **Parameters**: None
 - **Returns**: `IForm[]`
 - **Example**: `let forms = window.$pages.currentPage.forms.getAll();`
