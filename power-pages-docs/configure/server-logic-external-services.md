@@ -20,7 +20,7 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/). 
 1. Select site **+ Edit**. 
-1. Navigate to the **Set up** workspace, then select **Server logics (preview)** 
+1. Navigate to the **Set up** workspace, then select **Server logic (preview)** 
 1. Select **+New server logic** 
 1. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.  
     Example:  
@@ -31,9 +31,13 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
 1. Select **Open Visual Studio Code** to author the custom logic. 
     You'll find pre-defined methods and scripts in the file 
 1. Define server logic method to read, edit, create, delete operations using external service.  
-    Add below constant before the get() method 
+    Add below constant before the get() method
+
+   ```javascript
+   
     `const baseUrl  = "https://services.odata.org/TripPinRESTierService";`
-    
+
+    ```
     ### Read: Add below script inside get method 
     
     ```javascript
