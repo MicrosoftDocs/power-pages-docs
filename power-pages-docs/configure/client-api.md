@@ -13,15 +13,15 @@ ms.topic: concept-article
 The client API provides a set of methods to manipulate UI components on a Power Pages site. After the Pages libraries initialize, the API becomes accessible via the global variable: `window.$pages.currentPage`.
 Use this API to interact with forms and lists, and perform operations such as record creation, retrieval, and user authentication.
 
-## $pages.currentPage.forms
+## $pages.currentPage.forms collection
 
-`$pages.currentPage.form`s includes methods to work with form elements on the page.
+`$pages.currentPage.forms` collection includes methods to work with form elements on the page.
 
 ### forms getAll method
 
 `$pages.currentPage.forms.getAll(): IForm[]`
 
-- **Description**: Returns a collection of all forms added to the current page. See [IForm](#iform-interface)
+- **Description**: Returns a collection of all forms added to the current page. See [IForm](#iform-interface).
 - **Parameters**: None
 - **Returns**: `IForm[]`
 - **Example**: `let forms = window.$pages.currentPage.forms.getAll();`
@@ -152,7 +152,7 @@ The lists collection offers methods to handle traditional and modern list elemen
 
 `$pages.currentPage.lists.getListById(id: string): IList`
 
-- **Description**: Retrieves an `IList` instance by its HTML element ID.
+- **Description**: Retrieves an `IList` instance by its HTML element ID. See [IList interface](#ilist-interface).
 - **Parameters**: `id (string)`: The ID of the list HTML element.
 - **Returns**: A list object.
 - **Example**: `let list = window.$pages.currentPage.lists.getListById('list_#1');`
@@ -164,7 +164,7 @@ A list represents a tabular or grid-like data component.
 - **Properties**:
 
   - `id`: The list's unique identifier.
-  - `isModern`: A Boolean value that is true for modern lists and false otherwise.
+  - `isModern`: A Boolean value that's true for modern lists and false otherwise.
 
 - **Methods**:
 
@@ -204,9 +204,9 @@ The `$pages.user` object provides methods to sign the user in or out.
 - **Returns**: void
 - **Example**: `window.$pages.user.signOut();`
 
-## $pages.webAPI
+## $pages.webAPI object
 
-The `$pages.webAPI` methods allow you to create and retrieve records from a data source.
+The `$pages.webAPI` object provides methods to create and retrieve records from a data source.
 
 ### createRecord method
 
