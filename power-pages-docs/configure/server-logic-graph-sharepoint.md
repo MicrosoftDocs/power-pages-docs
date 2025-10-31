@@ -93,9 +93,67 @@ The script uploads generated event tickets to a SharePoint site.
 1. HOSTNAME  
 1. SITE_PATH  
 
+### Script Highlight: Configuration Section
+
+```javascript
+const CLIENT_ID = Server.SiteSetting.Get("CLIENT_ID");
+const CLIENT_SECRET = Server.SiteSetting.Get("CLIENT_SECRET");;
+const TENANT_ID = Server.SiteSetting.Get("TENANT_ID");
+
+const HOSTNAME = Server.SiteSetting.Get("HOSTNAME"); 
+const SITE_PATH = Server.SiteSetting.Get("SITE_PATH"); 
+```
+These are securely loaded from Power Pages Site Settings (environment variables).
+
 ## Step 6: Test the SharePoint integration 
 
-The script is designed to process **event registration form submissions**, generate an **HTML ticket**, upload it to SharePoint, and create a record in Dataverse. 
+The script is designed to process **event registration form submissions**, acquire a Microsoft Graph access token, generate an **HTML ticket**, upload it to SharePoint, and create a record in Dataverse. 
+
+### Script Highlight: Calling Microsoft Graph for Access Token
+
+```javascript
+async function getAccessToken() {
+   const body = {
+      "client_id": CLIENT_ID,
+      "client_secret": CLIENT_SECRET,
+      "scope": "https://graph.microsoft.com/.default",
+      "grant_type": "client_credentials"
+   };
+   const tokenResp = await Server.Connector.HttpClient.PostAsync(
+      `https://login.microsoftonline.com/${TENANT_ID}/oauth2/v2.0/token`,
+      JSON.stringify(body),
+      { "Content-Type": "application/x-www-form-urlencoded" },
+      "application/x-www-form-urlencoded"
+   );
+   const tokenJson = JSON.parse(JSON.parse(tokenResp).Body);
+   return tokenJson.access_token;
+}
+```
+
+### Script Highlight: Uploading Ticket to SharePoint
+
+```javascript
+const siteResp = await Server.Connector.HttpClient.GetAsync(
+  `https://graph.microsoft.com/v1.0/sites/${HOSTNAME}:${SITE_PATH}`,
+  { Authorization: `Bearer ${accessToken}` }
+);
+const siteId = JSON.parse(JSON.parse(siteResp).Body).id;
+
+const driveResp = await Server.Connector.HttpClient.GetAsync(
+  `https://graph.microsoft.com/v1.0/sites/${siteId}/drive`,
+  { Authorization: `Bearer ${accessToken}` }
+);
+const driveId = JSON.parse(JSON.parse(driveResp).Body).id;
+
+const uploadUrl = `https://graph.microsoft.com/v1.0/drives/${driveId}/root:/Tickets/${fileName}:/content`;
+
+await Server.Connector.HttpClient.PutAsync(
+  uploadUrl,
+  htmlTicket,
+  { Authorization: `Bearer ${accessToken}`, "Content-Type": "text/html" },
+  "text/html"
+);
+```
 
 After a successful run: 
 
