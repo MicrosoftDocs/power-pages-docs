@@ -514,7 +514,7 @@
       href: configure/embed-website.md
     - name: Set up Azure Front Door with Power Pages
       href: configure/azure-front-door.md
-    - name: Set up DocuSign integration (preview)
+    - name: Set up DocuSign integration
       href: admin/set-up-docusign-integration.md
     - name: Set up payments integration
       href: admin/set-up-payments-integration.md
@@ -652,7 +652,7 @@
           href: configure/power-platform-cli-solution-management.md
     - name: Single-page application
       items:
-        - name: Create a single-page application (preview)
+        - name: Create a single-page application
           href: configure/create-code-sites.md
         - name: "Tutorial: Create a single-page application using Spark and Codespace"
           href: configure/create-code-site-using-codespace.md
