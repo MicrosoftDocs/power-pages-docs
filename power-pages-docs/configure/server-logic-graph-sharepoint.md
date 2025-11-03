@@ -23,7 +23,7 @@ This guide walks you through setting up and testing the **Server Logic** sample 
    `samples/server-logic/sharepoint-integration`
 This folder contains the `event-registration.zip` solution package, which includes the Power Pages site resources you will import in later steps.
 
-Alternatively us git clone if you prefer
+Alternatively use git clone if you prefer
 
 ```bash
 git clone https://github.com/microsoft/power-pages-samples.git
