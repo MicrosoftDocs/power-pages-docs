@@ -21,7 +21,7 @@ This guide walks you through setting up and testing the **Server Logic** sample 
     `C:\PowerPages\ServerLogic`
 1. Navigate to the extracted path:
    `samples/server-logic/sharepoint-integration`
-This folder contains the event-registration.zip solution package, which includes the Power Pages site resources you will import in later steps.
+This folder contains the `event-registration.zip` solution package, which includes the Power Pages site resources you will import in later steps.
 
 Alternatively us git clone if you prefer
 
