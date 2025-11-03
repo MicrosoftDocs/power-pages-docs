@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
-ms.date: 07/11/2024
+ms.date: 11/03/2025
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: danamartens
@@ -23,8 +23,8 @@ Power Pages use cookies that are required for the website to function properly. 
 | Cookie name | Description | Lifetime |
 | - | - | - |
 | __RequestVerificationToken | Security cookie used by the [ASP.NET anti-forgery](/dotnet/api/system.web.helpers.antiforgeryconfig.cookiename) system to validate that requests are genuine and not forged. Protects against Cross-Site Request Forgery (CSRF) attacks. | Session |
-| .AspNet.ApplicationCookie | Authentication cookie that maintains the user’s login session across pages. Ensures users remain signed in during navigation. [Configure authentication](../security/authentication/configure-site.md) can be used to change session expiry time span. | Session |
-| adx-notification | Temporarily stores short success or alert messages (e.g., “Form submitted successfully”) after user actions such as form submission. Ensures feedback messages are displayed correctly after redirects. | Session |
+| .AspNet.ApplicationCookie | Authentication cookie that maintains the user’s sign-in session across pages. Ensures users remain signed in during navigation. [Configure authentication](../security/authentication/configure-site.md) can be used to change session expiry time span. | Session |
+| adx-notification | Temporarily stores short success or alert messages (for example, “Form submitted successfully”) after user actions such as form submission. Ensures feedback messages are displayed correctly after redirects. | Session |
 | ARRAffinity<br />ARRAffinitySameSite | Azure Infrastructure cookie to route a user’s session consistently to the same server. Prevents session interruptions and ensures reliability. You see either the  ARRAffinity or ARRAffinitySameSite cookie depending on your browser. | Session |
 | ContextLanguageCode | Stores the user’s default language preference for browsing the site. Ensures consistent display of pages in the selected language. | Session |
 | Dynamics365PortalAnalytics | Used to uniquely distinguish one site visitor from another without storing any personal data or user identity. This cookie is essential for delivering reliable, secure, and maintainable service functionality across multiple Power Pages features. | 90 days |
@@ -45,7 +45,7 @@ No. If necessary, consider adding a consent dialog for website users through ext
 
 ### Why can't I use my Power Pages site without cookies?
 
-Essential cookies are required for your Power Pages site to function properly. These cookies enable core features and maintain the website’s basic operations, as described in the table. Without them, the site cannot work as intended.
+Essential cookies are required for your Power Pages site to function properly. These cookies enable core features and maintain the website’s basic operations, as described in the table. Without them, the site can't work as intended.
 
 ### What does the session lifetime mean?
 
