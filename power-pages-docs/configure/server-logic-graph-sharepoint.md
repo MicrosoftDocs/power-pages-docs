@@ -47,7 +47,7 @@ You need an app registration to allow your server logic code to authenticate aga
 1. Select **+ New registration**. 
 1. Provide a name (for example, PowerPages-Graph-Integration). 
 1. Choose **Accounts in this organizational directory only**. 
-    > [NOTE!]
+    > [!NOTE]
     > You don't need to provide a redirect URI for this sample. 
 1. Select **Register**. 
 
