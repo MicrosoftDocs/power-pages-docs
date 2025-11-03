@@ -35,7 +35,7 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
 
    ```javascript
    
-    `const baseUrl  = "https://services.odata.org/TripPinRESTierService";`
+    const baseUrl  = "https://services.odata.org/TripPinRESTierService";
 
     ```
     ### Read: Add below script inside get method 
