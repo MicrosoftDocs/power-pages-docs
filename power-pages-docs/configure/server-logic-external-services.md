@@ -386,3 +386,11 @@ To test the server logic functionality:
 1. Sign in to your site with the user account that's been assigned the **Server logic User** role you created earlier.
 1. Go to the **Server logic** webpage created earlier.
 1. Verify the operations.
+
+### Related information
+
+[Server logic overview](server-logic-overview.md)  
+[Author server logic](author-server-logic.md)  
+[Server objects](server-objects.md)   
+[How to interact with Dataverse tables using Server logic](server-logic-operations.md)  
+

@@ -11,19 +11,19 @@ ms.topic: concept-article
 
 # How to: interact with Microsoft Graph and SharePoint using server logic 
 
-This guide walks you through setting up and testing the **Server Logic** sample that integrates Power Pages with **Microsoft Graph** and **SharePoint Online**. 
+This guide walks you through setting up and testing the server logic sample that integrates Power Pages with Microsoft Graph and SharePoint online. 
 
 ## Step 1: Download the sample package 
 
 1. Go to the GitHub repository [https://github.com/microsoft/power-pages-samples](https://github.com/microsoft/power-pages-samples). 
-1. Select **Code \> Download ZIP**.
+1. Select **Code > Download ZIP**.
 1. After downloading, extract the ZIP file to a local folder, for example:
     `C:\PowerPages\ServerLogic`
 1. Navigate to the extracted path:
    `samples/server-logic/sharepoint-integration`
 This folder contains the `event-registration.zip` solution package, which includes the Power Pages site resources you will import in later steps.
 
-Alternatively use git clone if you prefer
+Alternatively, use git clone if you prefer.
 
 ```bash
 git clone https://github.com/microsoft/power-pages-samples.git
@@ -37,40 +37,39 @@ Before you start, make sure you have:
 - Access to **Microsoft Entra ID (Azure AD)** with permission to register apps. 
 - Access to a **SharePoint Online site** (for example, [https://contoso.sharepoint.com/sites/EventSite](https://contoso.sharepoint.com/sites/EventSite)). 
 
-## Step 3: Create and configure the Azure AD application 
+## Step 3: Create and configure the Entra ID application 
 
-You need an **App Registration** to allow your Server Logic code to authenticate against Microsoft Graph. 
+You need an app registration to allow your server logic code to authenticate against Microsoft Graph. 
 
 ### Create the app registration 
 
-1. Go to the [**Azure Portal**](https://portal.azure.com/) → **App registrations**. 
+1. Go to the [**Azure Portal**](https://portal.azure.com/), and select **App registrations**. 
 1. Select **+ New registration**. 
 1. Provide a name (for example, PowerPages-Graph-Integration). 
 1. Choose **Accounts in this organizational directory only**. 
-1. Redirect URI is **not required** for this sample. 
+    > [NOTE!]
+    > You don't need to provide a redirect URI for this sample. 
 1. Select **Register**. 
 
 ### Configure API permissions 
 
-1. In the newly created app, go to **API Permissions** → **Add a permission**. 
-1. Select **Microsoft Graph** → **Application permissions**. 
+1. In the new app, go to **API Permissions** > **Add a permission**. 
+1. Select **Microsoft Graph** > **Application permissions**. 
 1. Add the following permissions: 
-
-- Sites.ReadWrite.All (for SharePoint file operations) 
-- Mail.Send *(optional – only needed if you plan to enable the email section)* 
-
+    - Sites.ReadWrite.All (for SharePoint file operations) 
+    - Mail.Send *(optional – only needed if you plan to enable the email section)* 
 1. Select **Grant admin consent** for your tenant. 
 
 ### Create a client secret 
 
-1. Go to **Certificates & secrets** → **Client secrets**. 
+1. Go to **Certificates & secrets** > **Client secrets**. 
 1. Select **+ New client secret**. 
-1. Add a description and choose an expiry period (for example, six months). 
+1. Enter a description and choose an expiry period (for example, six months). 
 1. Select **Add**, and **copy the generated value** immediately—this is your **CLIENT_SECRET**. 
 
 ### Collect required values 
 
-From your Azure App: 
+From your Azure app: 
 
 - **Client ID** → CLIENT_ID 
 - **Tenant ID** → TENANT_ID 
@@ -81,27 +80,22 @@ From your Azure App:
 The script uploads generated event tickets to a SharePoint site. 
 
 1. Identify your **SharePoint hostname** and **site path**: 
-
-> Example: 
->
-> HOSTNAME = contoso.sharepoint.com 
->
-> SITE_PATH = /sites/EventSite 
-
+    For example: HOSTNAME = `contoso.sharepoint.com` 
+    SITE_PATH = `/sites/EventSite` 
 1. Ensure a document library called **Documents** exists (default). 
 
 ## Step 5: Deploy the package 
 
-1. Create a new site by importing recently downloaded site from GitHub. Refer this document to import the site, [power-pages-solutions](/power-pages/configure/power-pages-solutions)  
-1. During the site upgrade you'll be asked to update the values for environment variables. Update below values captured in previous steps 
+1. Create a new site by importing the recently downloaded site from GitHub. To learn how to import the site, see [power-pages-solutions](/power-pages/configure/power-pages-solutions)  
+1. During the site upgrade, update the values for environment variables. Update the following values that you captured in previous steps: 
 
-1. **Client ID**  
-1. **Tenant ID** 
-1. **Client Secret** (It prefers to keep it in a key vault and use in environments variable. For testing you can keep directly in environment variable) 
-1. HOSTNAME  
-1. SITE_PATH  
+    - **Client ID**  
+    - **Tenant ID** 
+    - **Client Secret** (Keep this value in a key vault and use it in the environment variable. For testing, you can keep it directly in the environment variable.) 
+    - **HOSTNAME**  
+    - **SITE_PATH**  
 
-### Script Highlight: Configuration Section
+### Script highlight: Configuration section
 
 ```javascript
 const CLIENT_ID = Server.SiteSetting.Get("CLIENT_ID");
@@ -111,13 +105,13 @@ const TENANT_ID = Server.SiteSetting.Get("TENANT_ID");
 const HOSTNAME = Server.SiteSetting.Get("HOSTNAME"); 
 const SITE_PATH = Server.SiteSetting.Get("SITE_PATH"); 
 ```
-These are securely loaded from Power Pages Site Settings (environment variables).
+These are securely loaded from Power Pages site settings (environment variables).
 
 ## Step 6: Test the SharePoint integration 
 
-The script is designed to process **event registration form submissions**, acquire a Microsoft Graph access token, generate an **HTML ticket**, upload it to SharePoint, and create a record in Dataverse. 
+The script processes **event registration form submissions**, acquires a Microsoft Graph access token, generates an **HTML ticket**, uploads it to SharePoint, and creates a record in Dataverse. 
 
-### Script Highlight: Calling Microsoft Graph for Access Token
+### Script highlight: Calling Microsoft Graph for access token
 
 ```javascript
 async function getAccessToken() {
@@ -138,7 +132,7 @@ async function getAccessToken() {
 }
 ```
 
-### Script Highlight: Uploading Ticket to SharePoint
+### Script highlight: Uploading ticket to SharePoint
 
 ```javascript
 const siteResp = await Server.Connector.HttpClient.GetAsync(
@@ -165,14 +159,21 @@ await Server.Connector.HttpClient.PutAsync(
 
 After a successful run: 
 
-1. A new record should appear in **Dataverse** under crd69_eventregistrations. 
-1. An HTML ticket file should be uploaded to your **SharePoint Documents → Tickets** folder. 
-1. The crd69_ticketurl field will contain the link to the uploaded ticket file. 
+1. A new record appears in **Dataverse** under **crd69_eventregistrations**. 
+1. An HTML ticket file is uploaded to your **SharePoint Documents > Tickets** folder. 
+1. The *crd69_ticketurl* field contains the link to the uploaded ticket file. 
 
 ## (Optional) Step 7: Enable email notification 
 
-If you'd like to send a confirmation email to the attendee: 
+To send a confirmation email to the attendee: 
 
 1. Uncomment the **"Send confirmation email"** section in the script. 
 1. Replace {senderUserId} with a valid **mailbox-enabled user ID** (for example, a service account). 
 1. Ensure Mail.Send permission is added and admin-consented.
+
+### Related information
+
+[Server logic overview](server-logic-overview.md)  
+[Author server logic](author-server-logic.md)  
+[Server objects](server-objects.md)   
+[How to interact with Dataverse tables using Server logic](server-logic-operations.md)  
