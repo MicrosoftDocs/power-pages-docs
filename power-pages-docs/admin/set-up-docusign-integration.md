@@ -1,5 +1,5 @@
 ---
-title: Set up DocuSign integration (preview)
+title: Set up DocuSign integration
 description: Learn how to set up DocuSign integration with your website. Include document generation and e-signature functionality in multistep forms using DocuSign in Power Pages.
 author: PramithaU
 ms.topic: how-to
@@ -12,18 +12,12 @@ contributors:
     - meeramahabala
     - nageshbhat-msft
 ---
-# Set up DocuSign integration (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Set up DocuSign integration
 
 Power Pages and DocuSign integration offers an efficient workflow for incorporating e-signatures into multistep forms through a low-code Studio experience. This integration uses the DocuSign connector-based Microsoft Power Automate Flow to enable an end user to view and sign documents. The configuration of these components is through a newly introduced **Integrations** > **External Apps** tab in the Set up workspace and allows you to map your specific Dataverse tables to DocuSign. With this integration, you can add an e-signature step to your multistep forms, enabling a streamlined process for capturing digital signatures.
 
 :::image type="content" source="media/docusign/multistep-form.png" alt-text="A signed document in a multistep form.":::
 
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 
 Integrating DocuSign into your application requires three steps:
 
@@ -38,7 +32,7 @@ Integrating DocuSign into your application requires three steps:
 ## Prerequisites
 
 - Set up a template in DocuSign. The template can contain one or more documents for viewing and signing. The template is assigned a recipient role but doesn't need any name or email association—these fields are assigned from the Power Pages website. The document can include tabs or fields including the signature tab. See [DocuSign Template documentation](https://support.docusign.com/s/document-item?language=en_US&bundleId=xry1643227563338&topicId=uab1578456394214.html&_LANG=enus) for details or watch [this video](https://support.docusign.com/s/articles/Create-a-DocuSign-Template?language=en_US).
-- You might wish to review how to [Configure Power Automate cloud flows in Power Pages (preview)](../configure/cloud-flow-integration.md) prior to integrating DocuSign with your Power Pages site.
+- You might wish to review how to [Configure Power Automate cloud flows in Power Pages](../configure/cloud-flow-integration.md) prior to integrating DocuSign with your Power Pages site.
 - Create or identify a Microsoft Dataverse table to use in a multistep form. The table needs to be configured such that **Creating a new activity** needs to be selected in the **Make this table an option when** section. More information: [How to create and modify Dataverse tables by using the Data workspace](../configure/data-workspace-tables.md).
 - Configure a [multistep form](../getting-started/multistep-forms.md) using the Dataverse table that has a step to allow users to sign documents. This step displays a subgrid displaying the documents requiring signature. This is configured in a later step. 
 - The e-signature integration only works with authenticated users who must have their first name, last name, and email configured in their profile.
