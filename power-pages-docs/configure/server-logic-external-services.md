@@ -24,8 +24,8 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
 1. Select **+New server logic** 
 1. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.  
     Example:  
-    Name - services.odata.org 
-    Display Name – Performing CRUD operations using OData service 
+    Name - `services.odata.org`   
+    Display Name – `Performing CRUD operations using OData service `
 1. Select **+Add roles** to assign appropriate web role. 
 1. Select 3 dots (**…**) next to name and select **Edit code.** 
 1. Select **Open Visual Studio Code** to author the custom logic. 
