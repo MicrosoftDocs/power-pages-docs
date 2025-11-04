@@ -5,7 +5,7 @@ description: Learn how to interact with external services using server logic. Fo
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 10/30/2025
+ms.date: 11/04/2025
 ms.topic: concept-article
 ---
 
@@ -38,7 +38,7 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
     const baseUrl  = "https://services.odata.org/TripPinRESTierService";
 
     ```
-    ### Read: Add below script inside get method 
+    ### Read: Add below script inside GET method 
     
     ```javascript
     
@@ -58,7 +58,7 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
     }
      ```
     
-    ### Create: Add below script in post method
+    ### Create: Add below script inside POST method
     
     ```javascript
     const data = JSON.parse(Server.Context.Body);           
@@ -71,7 +71,7 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
     return response;
     ```
     
-    ### Update: Add below script in put 
+    ### Update: Add below script inside PUT method 
     
     ```javascript
     const data = JSON.parse(Server.Context.Body);        
@@ -85,7 +85,7 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
     return response;
     ```
     
-    ### Delete: Add inside del method 
+    ### Delete: Add inside script inside DEL method 
     
     ```javascript
     const username = Server.Context.QueryParameters["username"];
