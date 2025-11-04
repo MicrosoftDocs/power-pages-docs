@@ -264,7 +264,7 @@
           href: getting-started/use-security-workspace.md
         - name: Security agent (preview)
           href: security/security-agent.md
-        - name: Run security scan (preview)
+        - name: Run security scan
           href: security/security-scan.md
         - name: Advanced settings (preview)
           href: security/advanced-settings.md
