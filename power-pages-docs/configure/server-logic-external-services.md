@@ -27,6 +27,8 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
     Name - `services.odata.org`   
     Display Name – `Performing CRUD operations using OData service `
 1. Select **+Add roles** to assign appropriate web role. 
+     :::image type="content" source="media/server-logic-overview/server-logic-add-role.png" alt-text="Added Administrator role in server logic":::
+     In this example, select **Administrators** and later sign in as admin to proceed.
 1. Select 3 dots (**…**) next to name and select **Edit code.** 
 1. Select **Open Visual Studio Code** to author the custom logic. 
     You'll find pre-defined methods and scripts in the file 
@@ -383,7 +385,7 @@ $(function() {
 To test the server logic functionality:
 
 1. Select **Preview**, and then choose **Desktop**.
-1. Sign in to your site with the user account that's been assigned the **Server logic User** role you created earlier.
+1. Sign in to your site with the user account that's been assigned the **Server logic User** role you created earlier. As we selected the **Administrators** role in the previous step, in this example, sign in as administrator.
 1. Go to the **Server logic** webpage created earlier.
 1. Verify the operations.
 
