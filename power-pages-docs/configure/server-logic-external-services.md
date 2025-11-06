@@ -414,7 +414,7 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
 To test the server logic functionality:
 
 1. Select **Preview**, and then choose **Desktop**.
-1. Sign in to your site with the user account that's been assigned the **Server logic User** role you created earlier.
+1. Sign in to your site with the user account that's been assigned the **Server logic User** role you created earlier. As we selected the **Administrators** role in the previous step, in this example, sign in as administrator.
 1. Go to the **Server logic** webpage created earlier.
 1. Verify the operations.
 
