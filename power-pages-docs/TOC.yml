@@ -600,6 +600,10 @@
           href: configure/server-objects.md
         - name: "How to: interact with Dataverse tables using server logic"
           href: configure/server-logic-operations.md 
+        - name: "How to: interact with external services using server logic"
+          href: configure/server-logic-external-services.md
+        - name: "How to: interact with Microsoft Graph and SharePoint using Server logic"
+          href: configure/server-logic-graph-sharepoint.md
     - name: Use Web API
       items:
         - name: Portals Web API overview
