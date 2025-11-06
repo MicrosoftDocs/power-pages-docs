@@ -33,6 +33,8 @@ In this guide, you'll set up a webpage that will use the server logic to read, w
    |Display Name |`Performing CRUD operations using OData service`|
 
 1. Select **+Add roles** to assign appropriate web role.
+    :::image type="content" source="media/server-logic-overview/server-logic-add-role.png" alt-text="Added Administrator role in server logic":::
+     In this example, select **Administrators** and later sign in as administrator to proceed.
 1. Select **Add**.
 1. Select the server logic and select **Edit code.**
 
