@@ -71,9 +71,9 @@ You need an app registration to allow your server logic code to authenticate aga
 
 From your Azure app: 
 
-- **Client ID** → CLIENT_ID 
-- **Tenant ID** → TENANT_ID 
-- **Client Secret** → CLIENT_SECRET 
+- **Client ID** > CLIENT_ID 
+- **Tenant ID** > TENANT_ID 
+- **Client Secret** > CLIENT_SECRET 
 
 ## Step 4: Identify your SharePoint site and folder 
 
