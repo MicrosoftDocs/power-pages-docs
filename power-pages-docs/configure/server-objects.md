@@ -275,7 +275,7 @@ Provides metadata about the current request, including query parameters, headers
 Read query parameter `id` from the URL:
 
 ```javascript
-Server.QueryParameters['id'];
+Server.Context.QueryParameters['id'];
 ```
 
 ## Next step
