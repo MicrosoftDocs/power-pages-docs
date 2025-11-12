@@ -264,7 +264,7 @@
           href: getting-started/use-security-workspace.md
         - name: Security agent (preview)
           href: security/security-agent.md
-        - name: Run security scan (preview)
+        - name: Run security scan
           href: security/security-scan.md
         - name: Advanced settings (preview)
           href: security/advanced-settings.md
@@ -514,7 +514,7 @@
       href: configure/embed-website.md
     - name: Set up Azure Front Door with Power Pages
       href: configure/azure-front-door.md
-    - name: Set up DocuSign integration (preview)
+    - name: Set up DocuSign integration
       href: admin/set-up-docusign-integration.md
     - name: Set up payments integration
       href: admin/set-up-payments-integration.md
@@ -601,7 +601,11 @@
         - name: Server objects
           href: configure/server-objects.md
         - name: "How to: interact with Dataverse tables using server logic"
-          href: configure/server-logic-operations.md
+          href: configure/server-logic-operations.md 
+        - name: "How to: interact with external services using server logic"
+          href: configure/server-logic-external-services.md
+        - name: "How to: interact with Microsoft Graph and SharePoint using Server logic"
+          href: configure/server-logic-graph-sharepoint.md
     - name: Use Web API
       items:
         - name: Portals Web API overview
@@ -654,7 +658,7 @@
           href: configure/power-platform-cli-solution-management.md
     - name: Single-page application
       items:
-        - name: Create a single-page application (preview)
+        - name: Create a single-page application
           href: configure/create-code-sites.md
         - name: "Tutorial: Create a single-page application using Spark and Codespace"
           href: configure/create-code-site-using-codespace.md

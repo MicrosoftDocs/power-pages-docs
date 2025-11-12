@@ -1,10 +1,10 @@
 ---
 title: Use solutions with Power Pages
 description: Learn how to use solutions with Power Pages.
-author: gitanjalisingh33msft
+author: neerajnandwana
 ms.topic: how-to
-ms.date: 10/15/2025
-ms.author: gisingh
+ms.date: 10/24/2025
+ms.author: nenandw
 ms.reviewer: dmartens
 contributors:
     - gitanjalisingh33msft

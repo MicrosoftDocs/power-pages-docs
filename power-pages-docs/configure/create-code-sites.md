@@ -7,7 +7,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:05/20/2025
-ms.date: 09/04/2025
+ms.date: 11/03/2025
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -16,13 +16,9 @@ contributors:
   - DanaMartens
 ---
 
-# Create and deploy a single-page application in Power Pages (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Create and deploy a single-page application in Power Pages
 
 Power Pages supports integrating single-page application (SPA) code created with next-generation AI-assisted tools, like GitHub Copilot. This capability lets developers bring modern, component-based front-end experiences into Power Pages by using natural language as a coding interface.
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 By guiding, testing, and refining AI-generated code, makers can shift their focus from repetitive implementation tasks to higher-level orchestration. This empowers more intuitive, creative development while maintaining enterprise-grade quality and standards.
 
@@ -34,7 +30,8 @@ This article shows you how to:
 - Learn key differences between SPA-based and traditional Power Pages implementations.
 
 > [!NOTE]
-> An SPA site is a Power Pages site that runs entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, SPA sites are managed only through source code and command-line interface (CLI) tools.
+> - An SPA site is a Power Pages site that runs entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, SPA sites are managed only through source code and command-line interface (CLI) tools.
+> - [Power Platform Git integration](/power-platform/alm/git-integration/overview) isn't supported for Single-Page Application (SPA) websites in Power Pages.
 
 ## Prerequisites
 
