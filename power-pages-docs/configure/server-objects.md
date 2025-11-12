@@ -5,7 +5,7 @@ description: Learn how to use built-in server objects like Logger, HttpClient, a
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 10/27/2025
+ms.date: 11/12/2025
 ms.topic: reference
 ---
 
@@ -275,7 +275,7 @@ Provides metadata about the current request, including query parameters, headers
 Read query parameter `id` from the URL:
 
 ```javascript
-Server.QueryParameters['id'];
+Server.Context.QueryParameters['id'];
 ```
 
 ## Next step
