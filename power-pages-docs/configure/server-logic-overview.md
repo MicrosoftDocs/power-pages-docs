@@ -5,7 +5,7 @@ description: Learn how to configure and secure Power Pages server logic, includi
 author: shwetamurkute
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 09/30/2025
+ms.date: 11/12/2025
 ms.topic: concept-article
 ---
 
@@ -75,7 +75,6 @@ The following optional site settings help configure server logic: 
 | ServerLogic/Enabled | Enable / Disable feature                 | true  |
 | ServerLogic/AllowedDomains    | Restrict which external domains can be called | All domains allowed |
 | ServerLogic/TimeoutInSeconds        | Maximum execution time (in seconds). Time out can be increased up to 240 seconds     | 120    |
-| ServerLogic/MaxMemoryUsageInBytes   | Maximum memory per function              | 10 MB  |
 | ServerLogic/AllowNetworkingToAllDomains | Allow networking across domains         | True   |
 
 ## Server logic API URL 
