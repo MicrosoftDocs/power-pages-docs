@@ -13,6 +13,26 @@ ms.topic: concept-article
 The client API provides a set of methods to manipulate UI components on a Power Pages site. After the Pages libraries initialize, the API becomes accessible via the global variable: `window.$pages.currentPage`.
 Use this API to interact with forms and lists, and perform operations such as record creation, retrieval, and user authentication.
 
+## Library Usage
+
+The `onPagesClientApiReady` utility on the `window` object lets you easily use the client API. Pass a callback to `onPagesClientApiReady`. It receives the `$pages` SDK object for your business logic. The method also returns a promise that resolves to the `$pages` object, enabling asynchronous usage.
+
+**Example1**:
+
+```javascript
+window.Microsoft.Dynamic365.Portal.onPagesClientApiReady(($pages) => {
+    const forms = $pages.currentPage.forms.getAll();
+    console.log(`Found ${forms.length} forms on the page.`);
+});
+```
+**Example2**:
+
+```javascript
+let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
+const forms = sdk.currentPage.forms.getAll();
+console.log(`Found ${forms.length} forms on the page.`);
+```
+
 ## $pages.currentPage.forms collection
 
 `$pages.currentPage.forms` collection includes methods to work with form elements on the page.
@@ -35,6 +55,20 @@ Use this API to interact with forms and lists, and perform operations such as re
 - **Returns**: A form object.
 - **Example**: `let form = window.$pages.currentPage.forms.getFormById('form_#1');`
 
+### forms getFormByName method
+
+`$pages.currentPage.forms.getFormByName(name: string): IForm`
+
+- **Description**: Retrieves a form instance by its name.
+- **Parameters**: `name` (string): TgetFormByName(name).
+- **Returns**: A form object.
+- **Example**: 
+
+  ```javascript
+   let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
+  let form = sdk.currentPage.forms.getFormByName('form_name');
+   ```
+
 ### IForm interface
 
 The `IForm` interface represents a container for controls and tabs.
@@ -42,8 +76,10 @@ The `IForm` interface represents a container for controls and tabs.
 - **Properties**:
 
   - `id`: The ID of the form.
+  - `name`: The name of the form.
   - controls: `Control[]` - An array containing all controls on the form. See [Control](#control).
   - tabs: `Tab[]` - An array containing all tabs on the form. See [Tab](#tab).
+  - `isMultiStep` - True if the form is multi-step; otherwise, false.
 
 - **Methods**:
 
@@ -61,6 +97,48 @@ The `IForm` interface represents a container for controls and tabs.
     let tabs = form.tabs;  
     console.log(`Form has ${tabs.length} tabs.`);
     ```
+
+### Multi-Step Form
+
+A multi-step form represents a container of multiple basic forms.
+
+- **Properties**:
+
+  - `id`: The ID(GUID) of the multi-step form.
+  - controls: `Control[]` - An array containing all controls in the current step. See [Control](#control).
+  - tabs: `Tab[]` - An array containing all tabs in the current step. See [Tab](#tab).
+  - `isMultiStep` - True if the form is multi-step; otherwise, false.
+  - `nextButton (JQuery Element)` - jQuery object representing the next button; will be empty object if the button is not present.
+  - `previousButton (JQuery Element)` - jQuery object representing the previous button; will be empty object if the button is not present.
+
+
+- **Methods**:
+
+  - `getVisible(): boolean` - Returns true if the form is visible; otherwise, false.
+  - `setVisible(isVisible): void` - Sets the tab's visibility.
+  - `isVisible (boolean)`: Specifies whether the form should be shown (true) or hidden (false) on the page.
+  - `hasNextStep()`- Returns true if a next step exists; otherwise false.
+  - `hasPreviousStep()`- Returns true if a previous step exists; otherwise false.
+  - `goToNextStep()`- Redirects the page to the next step. If no next step is present, the form will be submitted.
+  - `goToPreviousStep()`- Redirects the page to the previous step. If no previous step is present, an exception will be thrown.
+
+- **Example**:
+    
+  ```javascript
+    let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
+    let form = sdk.currentPage.forms.getFormById('multiform_#1');
+    console.log(`Form id: ${form.id} has ${form.controls.length} controls.`);
+    
+    if (form.getVisible()) {
+      console.log('Form is currently visible.');
+    }
+    
+    let tabs = form.tabs;
+    console.log(`Form has ${tabs.length} tabs.`);
+    
+    form.goToNextStep();  
+   ```
+
 
 ### Tab
 
@@ -134,6 +212,7 @@ Controls represent individual form elements.
     controls[0].setVisible(false); // Hide the first control.  
     }
     ```
+
 
 ## $pages.currentPage.lists collection
 
