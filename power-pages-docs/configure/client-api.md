@@ -5,7 +5,7 @@ description: Learn how to use Power Pages client APIs to manipulate UI component
 author: shwetamurkute
 ms.author: nenandw
 ms.reviewer: smurkute
-ms.date: 10/28/2025
+ms.date: 12/01/2025
 ms.topic: concept-article
 ---
 # Power Pages Client APIs (preview)
@@ -589,3 +589,41 @@ The `$pages.webAPI` object provides methods to create and retrieve records from 
 - **Example**:
 
    `let records = await window.$pages.webAPI.retrieveMultipleRecords('accounts','$select=name&$top=3');`
+
+
+## $pages.languageAPI object
+
+The `$pages.languageAPI` object provides methods to retrieve the list of available languages for the website, get the currently active language, and set a new active language.
+
+### getAll method
+
+- **Description**: Retrieves the list of languages enabled for the website.
+- **Parameters**: None
+- **Returns**: string[]
+- **Example**: `window.$pages.languages.getAll();`
+
+### getActive method
+
+- **Description**: Retrieves the currently active language.
+- **Parameters**: None
+- **Returns**: string[]
+- **Example**: `window.$pages.languages.getActive();`
+
+### getActive method
+
+- **Description**: Retrieves the currently active language.
+- **Parameters**: None
+- **Returns**: `string[]`
+- **Example**: `window.$pages.languages.getActive();`
+
+### setActive method
+
+- **Description**: Sets the given language as the active language.
+- **Parameters**:
+
+  - `language` (string): The new language to be set as active.
+- **Returns**: void
+- **Example**: `window.$pages.languages.setActive('hi-IN');`
+
+> [!NOTE]
+> setActive method will cause a page reload.
