@@ -1,7 +1,7 @@
 ﻿---
 title: Use Power Pages action center
 description: Learn how to use the Power Pages action center to streamlines oversight and enhances responsiveness across your Power Pages experience.
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 05/27/2025
 ms.subservice:

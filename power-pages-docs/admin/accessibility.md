@@ -2,7 +2,7 @@
 title: Accessibility in Power Pages
 description: Learn how to make your Power Pages sites accessible.
 author: neerajnandwana-msft
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 04/22/2025
 ms.subservice: 
