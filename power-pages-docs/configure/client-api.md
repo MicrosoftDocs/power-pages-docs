@@ -79,6 +79,8 @@ The `$pages.currentPage.forms` collection includes methods to work with form ele
 
 ### $pages.currentPage.forms methods
 
+Use these methods to enumerate forms and retrieve specific form instances.
+
 | Method | Returns | Description |
 |--------|---------|-------------|
 | `getAll` | [`IForm`](#iform-interface)`[]` | Returns all forms added to the current page. |
@@ -86,6 +88,8 @@ The `$pages.currentPage.forms` collection includes methods to work with form ele
 | `getFormByName(name: string)` | [`IForm`](#iform-interface) | Retrieves a form by its name. |
 
 ### $pages.currentPage.forms method examples
+
+These examples show how to get all forms and retrieve specific forms by ID or name.
 
 ```javascript
 let forms = $pages.currentPage.forms.getAll();
@@ -225,6 +229,8 @@ An array of [controls](#control) within the section.
 
 #### Section methods
 
+Use these methods to read a section's name and control its visibility.
+
 | Method | Returns | Description |
 |--------|---------|-------------|
 | `getVisible` | `boolean` | Returns true if the section is visible; otherwise, false. |
@@ -232,6 +238,8 @@ An array of [controls](#control) within the section.
 | `setVisible(isVisible: boolean)` | `void` | Sets the section's visibility. |
 
 #### Section example
+
+This example retrieves sections from the first tab of a form and logs basic details.
 
 ```javascript
 let form = $pages.currentPage.forms.getFormById('form_#1');  
@@ -341,7 +349,7 @@ The `$pages.user` object provides methods to sign the user in or out.
 
 ### $pages.user methods
 
-These methods don't return any value
+These methods don't return any value.
 
 |Method|Description|
 |--------|-------------|
@@ -375,7 +383,7 @@ Provide the target table and the data object representing the record to be creat
 This example demonstrates calling `createRecord` with an entity set name and a minimal data object.
 
 ```javascript
-$pages.webAPI.createRecord('account', {  
+$pages.webAPI.createRecord('contacts', {  
 firstName: 'User',
 lastName: 'Test'  
 });
@@ -408,7 +416,7 @@ Specify the table, record ID, and optional OData `$select` query options to shap
 This example retrieves a single record by ID and limits the returned columns using an OData `$select` query option.
 
 ```javascript
-let record = await $pages.webAPI.retrieveRecord('accounts', '123',  '$select=name');
+let record = await $pages.webAPI.retrieveRecord('accounts', 'aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb',  '$select=name');
 ```
 
 ### retrieveMultipleRecords method
