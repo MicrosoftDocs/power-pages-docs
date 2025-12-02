@@ -12,30 +12,71 @@ ms.topic: concept-article
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The client API provides a set of methods to manipulate UI components on a Power Pages site. After the Pages libraries initialize, you can access the API through the global variable: `window.$pages.currentPage`.
-Use this API to interact with forms and lists, and perform operations such as record creation, retrieval, and user authentication.
+The client API provides objects and methods to manipulate UI components on a Power Pages site. After the client API is initialized, you can access it using a global variable with a name you decide.
+
+> [!NOTE]
+> This article uses the variable name `$pages` and we recommend you also follow this naming convention.
+
+Use the `$pages` API to interact with forms and lists, and perform operations such as record creation, retrieval, and user authentication.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
-## Library usage
+## API initialization
+
+The `$pages` API isn't initialized immediately when the page loads. Use the `onPagesClientApiReady` function to assign the `$pages` API object. There are two approaches to achieve this:
+
+
 
 The `onPagesClientApiReady` utility on the `window` object lets you easily use the client API. Pass a callback to `onPagesClientApiReady`. It receives the `$pages` SDK object for your business logic. The method also returns a promise that resolves to the `$pages` object, enabling asynchronous usage.
 
-**Example1**:
+### Callback-based API readiness
+
+Use a callback function that accepts the api object when it is ready. Two examples show how to do this.
+
+With an anonymous function:
 
 ```javascript
-window.Microsoft.Dynamic365.Portal.onPagesClientApiReady(($pages) => {
+Microsoft.Dynamic365.Portal.onPagesClientApiReady(($pages) => {
     const forms = $pages.currentPage.forms.getAll();
     console.log(`Found ${forms.length} forms on the page.`);
 });
 ```
-**Example2**:
+
+With a named function:
 
 ```javascript
-let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
-const forms = sdk.currentPage.forms.getAll();
+function start($pages){
+    const forms = $pages.currentPage.forms.getAll();
+    console.log(`Found ${forms.length} forms on the page.`);
+}
+
+Microsoft.Dynamic365.Portal.onPagesClientApiReady(start)
+```
+
+
+### Promise/await-based API readiness
+
+Uses await to handle the promise returned by the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function for a cleaner async flow.
+
+```javascript
+let $pages = await Microsoft.Dynamic365.Portal.onPagesClientApiReady();
+const forms = $pages.currentPage.forms.getAll();
 console.log(`Found ${forms.length} forms on the page.`);
 ```
+
+### When to use each approach
+
+The following table describes when you should use each approach.
+
+| Approach | When to use |
+|----------|-------------|
+| **[Callback-based API readiness](#callback-based-api-readiness)** | Use when you need to support older browsers or legacy scripts that don't support `async/await`, or when you want to register multiple handlers that run when the API is ready. Ideal for event-driven patterns. |
+| **[Promise/await-based API readiness](#promiseawait-based-api-readiness)** | Use in modern JavaScript environments that support `async/await` for cleaner, sequential code. Best when your logic depends on the API being ready before continuing execution. |
+
+> [!TIP]
+> If your codebase already uses `async/await`, prefer the Promise-based approach for consistency.
+
+
 
 ## $pages.currentPage.forms collection
 
@@ -43,178 +84,208 @@ The `$pages.currentPage.forms` collection includes methods to work with form ele
 
 ### forms getAll method
 
-`$pages.currentPage.forms.getAll(): IForm[]`
+Returns a collection of all forms added to the current page. See [IForm](#iform-interface).
 
-- **Description**: Returns a collection of all forms added to the current page. See [IForm](#iform-interface).
-- **Parameters**: None
-- **Returns**: `IForm[]`
-- **Example**: `let forms = window.$pages.currentPage.forms.getAll();`
+**Syntax**: `$pages.currentPage.forms.getAll(): IForm[]`<br />
+**Returns**: `[IForm](#iform-interface)[]`<br />
+**Example**: `let forms = window.$pages.currentPage.forms.getAll();`
 
 ### forms getFormById method
 
-`$pages.currentPage.forms.getFormById(id: string): IForm`
+Retrieves a form instance by its HTML element ID.
 
-- **Description**: Retrieves a form instance by its HTML element ID.
-- **Parameters**: `id` (string): The ID of the form HTML element.
-- **Returns**: A form object.
-- **Example**: `let form = window.$pages.currentPage.forms.getFormById('form_#1');`
+**Syntax**: `$pages.currentPage.forms.getFormById(id: string): IForm`<br />
+**Parameter**: `id` (string): The ID of the form HTML element.<br />
+**Returns**: A [form](#iform-interface) object.<br />
+**Example**: `let form = window.$pages.currentPage.forms.getFormById('form_#1');`
 
 ### forms getFormByName method
 
-`$pages.currentPage.forms.getFormByName(name: string): IForm`
+Retrieves a form instance by its name.
 
-- **Description**: Retrieves a form instance by its name.
-- **Parameters**: `name` (string): The name of the form.
-- **Returns**: A form object.
-- **Example**: 
-
-  ```javascript
-   let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
-  let form = sdk.currentPage.forms.getFormByName('form_name');
-   ```
+**Syntax**: `$pages.currentPage.forms.getFormByName(name: string): IForm`<br />
+**Parameter**: `name` (string): The name of the form.<br />
+**Returns**: A [form](#iform-interface) object.<br />
+**Example**: `let form = $pages.currentPage.forms.getFormByName('form_name');`
 
 ### IForm interface
 
 The `IForm` interface represents a container for controls and tabs.
 
-- **Properties**:
+### IForm properties
 
-  - `id`: The ID of the form.
-  - `name`: The name of the form.
-  - controls: `Control[]` - An array containing all controls on the form. See [Control](#control).
-  - tabs: `Tab[]` - An array containing all tabs on the form. See [Tab](#tab).
-  - `isMultiStep` - True if the form is multistep; otherwise, false.
+| Property | Type | Description |
+|----------|------|-------------|
+| `id` | string | The ID of the form. |
+| `name` | string | The name of the form. |
+| `controls` | `Control[]` | All controls on the form. See [Control](#control). |
+| `tabs` | `Tab[]` | All tabs on the form. See [Tab](#tab). |
+| `isMultiStep` | boolean | True if the form is multistep; otherwise, false. |
 
-- **Methods**:
+### IForm methods
 
-  - `getVisible(): boolean` - Returns true if the form is visible; otherwise, false.
-  - `setVisible(isVisible: boolean): void` - Sets the form's visibility.
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the form is visible; otherwise, false. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the form's visibility. |
 
-- **Example**:
 
-    ```javascript
-    let form = window.$pages.currentPage.forms.getFormById('form_#1');  
-    console.log(`Form id: ${form.id} has ${form.controls.length} controls.`);  
-    if (form.getVisible()) {  
-    console.log('Form is currently visible.');  
-    }  
-    let tabs = form.tabs;  
-    console.log(`Form has ${tabs.length} tabs.`);
-    ```
+### IForm example
+
+The following example retrieves a form by ID and logs its visibility, number of controls, and tabs.
+
+```javascript
+let form = $pages.currentPage.forms.getFormById('form_#1');
+
+console.log(`Form id: ${form.id} has ${form.controls.length} controls.`); 
+
+if (form.getVisible()) {  
+console.log('Form is currently visible.');  
+}  
+let tabs = form.tabs;  
+console.log(`Form has ${tabs.length} tabs.`);
+```
 
 ### Multistep form
 
 A multistep form is a container that holds multiple basic forms.
 
-- **Properties**:
-
-  - `id`: The ID(GUID) of the multistep form.
-  - `controls`: `Control[]` - An array that contains all controls in the current step. See [Control](#control).
-  - `tabs`: `Tab[]` - An array that contains all tabs in the current step. See [Tab](#tab).
-  - `isMultiStep` - True if the form is multistep; otherwise, false.
-  - `nextButton (JQuery Element)` - jQuery object that represents the next button. It's an empty object if the button isn't present.
-  - `previousButton (JQuery Element)` - jQuery object that represents the previous button. It's an empty object if the button isn't present.
+#### Multistep form properties
 
 
-- **Methods**:
+The following properties apply to the multistep form container and describe what is available in the currently active step.
 
-  - `getVisible(): boolean` - Returns true if the form is visible; otherwise, false.
-  - `setVisible(isVisible): void` - Sets the tab's visibility.
-  - `isVisible (boolean)`: Specifies whether the form should be shown (true) or hidden (false) on the page.
-  - `hasNextStep()`- Returns true if a next step exists; otherwise false.
-  - `hasPreviousStep()`- Returns true if a previous step exists; otherwise false.
-  - `goToNextStep()`- Redirects the page to the next step. If no next step is present, the form is submitted.
-  - `goToPreviousStep()`- Redirects the page to the previous step. If no previous step is present, an exception is thrown.
+| Property | Type | Description |
+|----------|------|-------------|
+| `id` | string | The ID of the multistep form. |
+| `controls` | [Control](#control)`[]` | All controls in the current step. |
+| `tabs` | [Tab](#tab)`[]` | All tabs in the current step.|
+| `isMultiStep` | boolean | True if the form is multistep; otherwise, false. |
+| `nextButton` | [JQuery Element](https://api.jquery.com/Types/#Element) | Represents the next button (empty object if absent). |
+| `previousButton` | [JQuery Element](https://api.jquery.com/Types/#Element) | Represents the previous button (empty object if absent). |
 
-- **Example**:
-    
-  ```javascript
-    let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
-    let form = sdk.currentPage.forms.getFormById('multiform_#1');
-    console.log(`Form id: ${form.id} has ${form.controls.length} controls.`);
-    
-    if (form.getVisible()) {
-      console.log('Form is currently visible.');
-    }
-    
-    let tabs = form.tabs;
-    console.log(`Form has ${tabs.length} tabs.`);
-    
-    form.goToNextStep();  
-   ```
+
+#### Multistep form methods
+
+Use these methods to check visibility and move between steps in a multistep form.
+
+
+
+| Name | Returns | Description |
+|------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the form is visible; otherwise, false. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the form's visibility. |
+| `isVisible` | `boolean` | Property indicating whether the form should be shown (true) or hidden (false). |
+| `hasNextStep` | `boolean` | Returns true if a next step exists; otherwise, false. |
+| `hasPreviousStep` | `boolean` | Returns true if a previous step exists; otherwise, false. |
+| `goToNextStep` | `void` | Navigates to the next step; submits the form if no next step exists. |
+| `goToPreviousStep` | `void` | Navigates to the previous step; throws an exception if none exists. |
+
+#### Multistep form example
+
+This example shows how to retrieve a multistep form, inspect it, and advance to the next step.
+
+```javascript
+let $pages = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
+let form = $pages.currentPage.forms.getFormById('multiform_#1');
+console.log(`Form id: ${form.id} has ${form.controls.length} controls.`);
+
+if (form.getVisible()) {
+console.log('Form is currently visible.');
+}
+
+let tabs = form.tabs;
+console.log(`Form has ${tabs.length} tabs.`);
+
+form.goToNextStep();  
+```
 
 ### Tab
 
 A `Tab` contains one or more sections within a form.
 
-- **Properties**:
+#### `Sections` property
 
-  - *Sections*: `Section[]` - An array of sections within the tab. See [Section](#section).
+An array of [sections](#section) within the tab.
 
-- **Methods**:
+#### Tab methods
 
-  - `getVisible(): boolean` - Returns true if the tab is visible; otherwise, false.
-  - `getName(): string` - Returns the name of the tab.
-  - `setVisible(isVisible: boolean): void` - Sets the tab's visibility.
+Use these methods to check a tab's visibility, retrieve its name, and toggle whether it is shown.
 
-- **Example**:
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the tab is visible; otherwise, false. |
+| `getName` | `string` | Returns the name of the tab. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the tab's visibility. |
 
-    ```javascript
-    let form = window.$pages.currentPage.forms.getFormById('form_#1');  
-    let tabs = form.tabs;  
-    console.log(`Form has ${tabs.length} tabs.`);  
-    console.log(`First tab is named: ${tabs[0].getName()}`);  
-    ```
+#### Tab example
+
+This example retrieves a form, enumerates its tabs, and logs the first tab's name.
+
+```javascript
+let form = $pages.currentPage.forms.getFormById('form_#1');  
+let tabs = form.tabs;  
+console.log(`Form has ${tabs.length} tabs.`);  
+console.log(`First tab is named: ${tabs[0].getName()}`);  
+```
 
 ### Section
 
 Sections group controls within a tab.
 
-- **Properties**:
+### Section `Controls` property
 
-  - *Controls*: `Control[]` - An array of controls within the section. See [Control](#control).
+An array of [controls](#control) within the section. See [Control](#control).
 
-- **Methods**:
+#### Section methods
 
-  - `getVisible(): boolean` - Returns true if the section is visible; otherwise, false.
-  - `getName(): string` - Returns the section name.
-  - `setVisible(isVisible: boolean): void` - Sets the section's visibility.
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the section is visible; otherwise, false. |
+| `getName` | `string` | Returns the section name. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the section's visibility. |
 
-- **Example**:
+#### Section example
 
-    ```javascript
-    let form = window.$pages.currentPage.forms.getFormById('form_#1');  
-    let sections = form.tabs[0].sections;  
-    console.log(`Tab has ${sections.length} section(s).`);  
-    console.log(`First section is named: ${sections[0].getName()}`);
-    ```
+```javascript
+let form = window.$pages.currentPage.forms.getFormById('form_#1');  
+let sections = form.tabs[0].sections;  
+console.log(`Tab has ${sections.length} section(s).`);  
+console.log(`First section is named: ${sections[0].getName()}`);
+```
 
 ### Control
 
 Controls represent individual form elements.
 
-- **Methods**:
+#### Control methods
 
-  - `getDisabled(): boolean` - Returns true if the control is disabled.
-  - `getVisible(): boolean` - Returns true if the control is visible.
-  - `getName(): string` - Returns the control's name.
-  - `getValue(): string | undefined` - Retrieves the current value.
-  - `setDisabled(isDisabled: boolean): void` - Sets the disabled state.
-  - `setVisible(isVisible: boolean): void` - Sets the visibility.
-  - `setValue(value: string): void` - Sets a new value for the control.
+Use these methods to retrieve or update a control's value, visibility, and disabled state.
 
-- **Example**:
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getDisabled` | `boolean` | Returns true if the control is disabled. |
+| `getVisible` | `boolean` | Returns true if the control is visible. |
+| `getName` | `string` | Returns the control's name. |
+| `getValue` | `string` \| `undefined` | Retrieves the current value. |
+| `setDisabled(isDisabled: boolean)` | `void` | Sets the disabled state. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the visibility. |
+| `setValue(value: string)` | `void` | Sets a new value for the control. |
 
-    ```javascript
-    let form = window.$pages.currentPage.forms.getFormById('form_#1');  
-    let controls = form.controls;  
-    if (controls.length > 0) {  
-    if (controls[0].getVisible()) {  
-    console.log(`Control ${controls[0].getName()} is visible.`);  
-    }  
-    controls[0].setVisible(false); // Hide the first control.  
-    }
-    ```
+#### Control example
+
+This example fetches a form, inspects the first control's visibility, and then hides it.
+
+```javascript
+let form = $pages.currentPage.forms.getFormById('form_#1');  
+let controls = form.controls;  
+if (controls.length > 0) {  
+if (controls[0].getVisible()) {  
+console.log(`Control ${controls[0].getName()} is visible.`);  
+}  
+controls[0].setVisible(false); // Hide the first control.  
+}
+```
 
 ### Supported controls
 
