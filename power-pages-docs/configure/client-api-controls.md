@@ -90,7 +90,7 @@ Use these members to handle floating-point number values.
 
 ## Dropdown lookup
 
-<!-- TODO: Need a clear description about what a dropdown lookup control is. Seems it isn't a picklist, and is actually some kind of lookup? -->
+Lookup controls that aren't modal use the dropdown lookup control.
 
 ### Dropdown properties and methods
 
@@ -115,7 +115,7 @@ Use these members to validate and retrieve email address values.
 
 ## File
 
-<!-- TODO: Need a clear description about what a file control is. I expect it provides capabilities to upload and download a file -->
+The file control provides capabilities to upload and download a file.
 
 ### File properties and methods
 
@@ -161,7 +161,7 @@ Use these methods to set and get full name components.
 
 ## Image
 
-<!-- TODO: Need a clear description about what a Image control is. I expect it provides capabilities to view, upload, and download a Image -->
+The image control provides capabilities to view, upload, and download an image.
 
 ### Image properties and methods
 
