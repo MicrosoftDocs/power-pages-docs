@@ -23,12 +23,12 @@ Use the `$pages` client API to interact with forms and lists, and perform operat
 
 ## Client API initialization
 
-The `$pages` client API isn't initialized immediately when the page loads. Use the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function to assign the API object to the `$pages` variable. There are two approaches to achieve this:
+The `$pages` client API isn't initialized immediately when the page loads. Use the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function to assign the API object to the `$pages` variable. There are two approaches to initialize the client API:
 
 
 ### Callback-based API readiness
 
-Use a callback function that assigns the api object to a variable you define when it is ready. Two examples show how to do this.
+Use a callback function that assigns the API object to a variable you define when it's ready. Two examples show how:
 
 With an anonymous function:
 
@@ -115,7 +115,7 @@ The following properties describe the form and its contained controls and tabs.
 
 #### IForm methods
 
-Use these methods to query a form's visibility and toggle whether it is shown.
+Use these methods to query a form's visibility and toggle whether it's visible.
 
 | Method | Returns | Description |
 |--------|---------|-------------|
@@ -200,7 +200,7 @@ An array of [sections](#section) within the tab.
 
 #### Tab methods
 
-Use these methods to check a tab's visibility, retrieve its name, and toggle whether it is shown.
+Use these methods to check a tab's visibility, retrieve its name, and toggle whether it's visible.
 
 | Method | Returns | Description |
 |--------|---------|-------------|
@@ -283,7 +283,7 @@ controls[0].setVisible(false); // Hide the first control.
 
 #### Supported controls
 
-All controls implement the standard [control methods](#control-methods). Some controls provide additional methods and have different implementation details from the standard control methods. [Learn about additional methods and implementation differences for different types of controls](client-api-controls.md)
+All controls implement the standard [control methods](#control-methods). Some controls provide more methods and have different implementation details from the standard control methods. [Learn about other methods and implementation differences for different types of controls](client-api-controls.md)
 
 
 ## $pages.currentPage.lists collection
@@ -323,7 +323,7 @@ These properties identify the list and indicate whether it uses the modern rende
 
 #### IList methods
 
-Use these methods to check list visibility, toggle whether it is shown, and access the underlying HTML element.
+Use these methods to check list visibility, toggle whether it's visible, and access the underlying HTML element.
 
 | Method | Returns | Description |
 |--------|---------|-------------|
@@ -463,7 +463,7 @@ Use these methods to read the available languages, check the current language, a
 | `setActive(language: string)` | Sets the given language as the active language. | `void` |
 
 > [!NOTE]
-> `setActive` method will cause a page reload.
+> `setActive` method causes a page reload.
 
 ### $pages.languages method examples
 

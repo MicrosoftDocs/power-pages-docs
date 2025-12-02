@@ -10,7 +10,7 @@ ms.topic: reference
 ---
 # Power Pages Client API supported controls (preview)
 
-The following control types are currently supported. All these controls have all the common core [control methods](client-api.md#control-methods), however some method details may be implemented differently and some will have their own properties and methods.
+The following control types are currently supported. All these controls have all the common core [control methods](client-api.md#control-methods), however some method details might be implemented differently, and some have their own properties and methods.
 
 
 ## Address composite
@@ -32,7 +32,7 @@ Use these members to configure and read address composite values.
    "city": "address city value",
    "state": "address state value",
    "postalCode": "address postalCode value",
-   "country": "address country value",
+   "country": "address country value"
    }
    ```
 
