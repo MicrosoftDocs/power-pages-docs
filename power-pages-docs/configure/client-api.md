@@ -77,33 +77,23 @@ The following table describes when you should use each approach.
 
 The `$pages.currentPage.forms` collection includes methods to work with form elements on the page.
 
-### forms getAll method
+### $pages.currentPage.forms methods
 
-Returns a collection of all forms added to the current page.
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getAll` | [`IForm`](#iform-interface)`[]` | Returns all forms added to the current page. |
+| `getFormById(id: string)` | [`IForm`](#iform-interface) | Retrieves a form by its HTML element ID. |
+| `getFormByName(name: string)` | [`IForm`](#iform-interface) | Retrieves a form by its name. |
 
-**Syntax**: `$pages.currentPage.forms.getAll(): IForm[]`<br />
-**Returns**: [IForm](#iform-interface)`[]`<br />
-**Example**: `let forms = window.$pages.currentPage.forms.getAll();`
+### $pages.currentPage.forms method examples
 
-### forms getFormById method
+```javascript
+let forms = $pages.currentPage.forms.getAll();
+let form1 = $pages.currentPage.forms.getFormById('form_#1');
+let form2 = $pages.currentPage.forms.getFormByName('form_name')
+```
 
-Retrieves a form instance by its HTML element ID.
-
-**Syntax**: `$pages.currentPage.forms.getFormById(id: string): IForm`<br />
-**Parameter**: `id` (string): The ID of the form HTML element.<br />
-**Returns**: A [form](#iform-interface) object.<br />
-**Example**: `let form = window.$pages.currentPage.forms.getFormById('form_#1');`
-
-### forms getFormByName method
-
-Retrieves a form instance by its name.
-
-**Syntax**: `$pages.currentPage.forms.getFormByName(name: string): IForm`<br />
-**Parameter**: `name` (string): The name of the form.<br />
-**Returns**: A [form](#iform-interface) object.<br />
-**Example**: `let form = $pages.currentPage.forms.getFormByName('form_name');`
-
-### IForm interface
+## IForm interface
 
 The `IForm` interface represents a container for controls and tabs.
 
@@ -145,11 +135,11 @@ let tabs = form.tabs;
 console.log(`Form has ${tabs.length} tabs.`);
 ```
 
-### Multistep form
+## Multistep form
 
 A multistep form is a container that holds multiple basic forms.
 
-#### Multistep form properties
+### Multistep form properties
 
 
 The following properties apply to the multistep form container and describe what is available in the currently active step.
@@ -164,11 +154,9 @@ The following properties apply to the multistep form container and describe what
 | `previousButton` | [JQuery Element](https://api.jquery.com/Types/#Element) | Represents the previous button (empty object if absent). |
 
 
-#### Multistep form methods
+### Multistep form methods
 
 Use these methods to check visibility and move between steps in a multistep form.
-
-
 
 | Name | Returns | Description |
 |------|---------|-------------|
@@ -180,12 +168,12 @@ Use these methods to check visibility and move between steps in a multistep form
 | `goToNextStep` | `void` | Navigates to the next step; submits the form if no next step exists. |
 | `goToPreviousStep` | `void` | Navigates to the previous step; throws an exception if none exists. |
 
-#### Multistep form example
+### Multistep form example
 
 This example shows how to retrieve a multistep form, inspect it, and advance to the next step.
 
 ```javascript
-let $pages = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
+let $pages = await Microsoft.Dynamic365.Portal.onPagesClientApiReady();
 let form = $pages.currentPage.forms.getFormById('multiform_#1');
 console.log(`Form id: ${form.id} has ${form.controls.length} controls.`);
 
@@ -199,15 +187,15 @@ console.log(`Form has ${tabs.length} tabs.`);
 form.goToNextStep();  
 ```
 
-### Tab
+## Tab
 
 A `Tab` contains one or more sections within a form.
 
-#### Tab `Sections` property
+### Tab `Sections` property
 
 An array of [sections](#section) within the tab.
 
-#### Tab methods
+### Tab methods
 
 Use these methods to check a tab's visibility, retrieve its name, and toggle whether it is shown.
 
@@ -217,7 +205,7 @@ Use these methods to check a tab's visibility, retrieve its name, and toggle whe
 | `getName` | `string` | Returns the name of the tab. |
 | `setVisible(isVisible: boolean)` | `void` | Sets the tab's visibility. |
 
-#### Tab example
+### Tab example
 
 This example retrieves a form, enumerates its tabs, and logs the first tab's name.
 
@@ -228,7 +216,7 @@ console.log(`Form has ${tabs.length} tabs.`);
 console.log(`First tab is named: ${tabs[0].getName()}`);  
 ```
 
-### Section
+## Section
 
 Sections group controls within a tab.
 
@@ -247,17 +235,17 @@ An array of [controls](#control) within the section.
 #### Section example
 
 ```javascript
-let form = window.$pages.currentPage.forms.getFormById('form_#1');  
+let form = $pages.currentPage.forms.getFormById('form_#1');  
 let sections = form.tabs[0].sections;  
 console.log(`Tab has ${sections.length} section(s).`);  
 console.log(`First section is named: ${sections[0].getName()}`);
 ```
 
-### Control
+## Control
 
 Controls represent individual form elements.
 
-#### Control methods
+### Control methods
 
 Use these methods to retrieve or update a control's value, visibility, and disabled state.
 
@@ -271,7 +259,7 @@ Use these methods to retrieve or update a control's value, visibility, and disab
 | `setVisible(isVisible: boolean)` | `void` | Sets the visibility. |
 | `setValue(value: string)` | `void` | Sets a new value for the control. |
 
-#### Control example
+### Control example
 
 This example fetches a form, inspects the first control's visibility, and then hides it.
 
@@ -286,79 +274,81 @@ controls[0].setVisible(false); // Hide the first control.
 }
 ```
 
-#### Supported controls
+### Supported controls
 
-[Learn about additional methods and implementation differences for different types of controls](client-api-controls.md)
+All controls implement the standard [control methods](#control-methods). Some controls provide additional methods and have different implementation details from the standard control methods. [Learn about additional methods and implementation differences for different types of controls](client-api-controls.md)
 
 
 ## $pages.currentPage.lists collection
 
 The lists collection offers methods to handle traditional and modern list elements on the page.
 
-### lists getAll method
+### $pages.currentPage.lists methods
 
-`$pages.currentPage.lists.getAll(): IList[]`
+Use these methods to enumerate all lists on the page and retrieve a specific list by its HTML element ID.
 
-- **Description**: Returns a collection of all lists on the current page. See [IList interface](#ilist-interface).
-- **Parameters**: None
-- **Returns**: `IList[]`
-- **Example**: `let lists = window.$pages.currentPage.lists.getAll();`
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getAll` | [IList](#ilist-interface)`[]` | Returns a collection of all lists on the current page. |
+| `getListById(id: string)` | [IList](#ilist-interface) | Retrieves a list instance by its HTML element ID. |
 
-### getListById method
+### $pages.currentPage.lists examples
 
-`$pages.currentPage.lists.getListById(id: string): IList`
+These examples show how to enumerate all lists on the page and retrieve a specific list by its HTML element ID.
 
-- **Description**: Retrieves an `IList` instance by its HTML element ID. See [IList interface](#ilist-interface).
-- **Parameters**: `id (string)`: The ID of the list HTML element.
-- **Returns**: A list object.
-- **Example**: `let list = window.$pages.currentPage.lists.getListById('list_#1');`
+```javascript
+let lists = $pages.currentPage.lists.getAll();
+let list = $pages.currentPage.lists.getListById('list_#1');
+```
 
-### IList interface
+## IList interface
 
 A list represents a tabular or grid-like data component.
 
-- **Properties**:
+### IList properties
 
-  - `id`: The list's unique identifier.
-  - `isModern`: A Boolean value that's true for modern lists and false otherwise.
+These properties identify the list and indicate whether it uses the modern rendering model.
 
-- **Methods**:
+| Property | Type | Description |
+|----------|------|-------------|
+| `id` | string | The list's unique identifier. |
+| `isModern` | boolean | A Boolean value that's true for modern lists and false otherwise. |
 
-  - `getVisible(): boolean` - Returns true if the list is visible.
-  - `setVisible(isVisible: boolean): void` - Sets the list's visibility.
-  - `getHtmlElement(): HTMLElement` - Returns the underlying HTML element for the list.
+### IList methods
 
-- **Example**:
+Use these methods to check list visibility, toggle whether it is shown, and access the underlying HTML element.
 
-    ```javascript
-    let list = window.$pages.currentPage.lists.getListById('list_#1');  
-    console.log(`List id: ${list.id}`);  
-    if (list.getVisible()) {  
-    console.log('List is currently visible.');  
-    }
-    ```
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the list is visible. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the list's visibility. |
+| `getHtmlElement` | [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement) | Returns the underlying HTML element for the list. |
+
+### IList example
+
+The following example retrieves a list by ID and logs its visibility status.
+
+```javascript
+let list = $pages.currentPage.lists.getListById('list_#1');  
+console.log(`List id: ${list.id}`);  
+if (list.getVisible()) {  
+console.log('List is currently visible.');  
+}
+```
 
 ## $pages.user object
 
 The `$pages.user` object provides methods to sign the user in or out.
 
-### signIn method
+### $pages.user methods
 
-`$pages.user.signIn(): void`
+These methods don't return any value
 
-- **Description**: Redirects the user to the sign-in page.
-- **Parameters**: None
-- **Returns**: void
-- **Example**: `window.$pages.user.signIn();`
+|Method|Description|
+|--------|-------------|
+|`signIn`|Redirects the user to the sign-in page.|
+|`signOut`|Signs out the currently signed-in user.|
 
-### signOut method
-
-`$pages.user.signOut(): void`
-
-- **Description**: Signs out the currently signed-in user.
-- **Parameters**: None
-- **Returns**: void
-- **Example**: `window.$pages.user.signOut();`
 
 ## $pages.webAPI object
 
@@ -366,89 +356,114 @@ The `$pages.webAPI` object provides methods to create and retrieve records from 
 
 ### createRecord method
 
-`$pages.webAPI.createRecord(entitySetName: string, data: object): Promise<object>`
+Creates a new record in the specified table.
 
-- **Description**: Creates a new record in the specified table.
-- **Parameters**:
+**Syntax**: `$pages.webAPI.createRecord(entitySetName: string, data: object): Promise<object>`<br />
+**Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to the created record or operation result.
 
-  - `entitySetName` (string): The name of the entity set.
-  - `data` (object): The record data to create.
+#### createRecord method parameters
 
-- **Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to the created record or operation result.
-- **Example**:
+Provide the target table and the data object representing the record to be created.
 
-   ```javascript
-   window.$pages.webAPI.createRecord('account', {  
-   firstName: 'User',
-   lastName: 'Test'  
-   });
-   ```
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `entitySetName` | string | The name of the entity set. [Learn about entity set name in Dataverse Web API](/power-apps/developer/data-platform/webapi/web-api-service-documents#entity-set-name) |
+| `data` | object | The record data to create. |
+
+
+#### createRecord method example
+
+This example demonstrates calling `createRecord` with an entity set name and a minimal data object.
+
+```javascript
+$pages.webAPI.createRecord('account', {  
+firstName: 'User',
+lastName: 'Test'  
+});
+```
 
 ### retrieveRecord method
 
-`$pages.webAPI.retrieveRecord(entitySetName: string, id: string, options?: string): Promise<object>`
+Retrieves a record by its unique identifier.
 
-- **Description**: Retrieves a record by its unique identifier.
-- **Parameters**:
-
-  - `entitySetName` (string): The name of the entity set.
-  - `id` (string): The record's unique identifier.
-  - `options` (string, optional): An optional OData query string to customize the returned data.
-
-- **Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to the record object.
-- **Example**:
-
-   `let record = await window.$pages.webAPI.retrieveRecord('accounts', '123',  '$select=name');`
-
-### retrieveMultipleRecords
-
-`$pages.webAPI.retrieveMultipleRecords(entitySetName: string, options?: string): Promise<object>`
-
-- **Description**: Retrieves multiple records based on the provided query options.
-- **Parameters**:
-
-  - `entitySetName` (string): The name of the entity set.
-  - `options` (string, optional): An OData query string to filter or select specific fields.
-
-- **Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to an array of record objects.
-- **Example**:
-
-   `let records = await window.$pages.webAPI.retrieveMultipleRecords('accounts','$select=name&$top=3');`
+**Syntax**: `$pages.webAPI.retrieveRecord(entitySetName: string, id: string, options?: string): Promise<object>`<br />
+**Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to the record object.
 
 
-## $pages.languageAPI object
+#### retrieveRecord method parameters
 
-The `$pages.languageAPI` object provides methods to retrieve the list of available languages for the website, get the currently active language, and set a new active language.
+Specify the table, record ID, and optional OData `$select` query options to shape the response.
 
-### getAll method
-
-- **Description**: Retrieves the list of languages enabled for the website.
-- **Parameters**: None
-- **Returns**: string[]
-- **Example**: `window.$pages.languages.getAll();`
-
-### getActive method
-
-- **Description**: Retrieves the currently active language.
-- **Parameters**: None
-- **Returns**: string[]
-- **Example**: `window.$pages.languages.getActive();`
-
-### getActive method
-
-- **Description**: Retrieves the currently active language.
-- **Parameters**: None
-- **Returns**: `string[]`
-- **Example**: `window.$pages.languages.getActive();`
-
-### setActive method
-
-- **Description**: Sets the given language as the active language.
-- **Parameters**:
-
-  - `language` (string): The new language to be set as active.
-- **Returns**: void
-- **Example**: `window.$pages.languages.setActive('hi-IN');`
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `entitySetName` | string | The name of the entity set. [Learn about entity set name in Dataverse Web API](/power-apps/developer/data-platform/webapi/web-api-service-documents#entity-set-name)|
+| `id` | string | The record's unique identifier. |
+| `options` | string (optional) | An optional OData `$select` query string to limit the data returned. |
 
 > [!NOTE]
-> setActive method will cause a page reload.
+> While the `options` parameter is optional, for best performance you should always limit the number of column values returned using the [`$select` option](/power-apps/developer/data-platform/webapi/query/select-columns).
+
+
+#### retrieveRecord method example
+
+This example retrieves a single record by ID and limits the returned columns using an OData `$select` query option.
+
+```javascript
+let record = await $pages.webAPI.retrieveRecord('accounts', '123',  '$select=name');
+```
+
+### retrieveMultipleRecords method
+
+Retrieves multiple records based on the provided query options.
+
+**Syntax**: `$pages.webAPI.retrieveMultipleRecords(entitySetName: string, options?: string): Promise<object>`<br />
+**Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to an array of record objects.
+
+
+#### retrieveMultipleRecords method parameters
+
+Specify the table and optional OData query to filter results and limit returned columns.
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `entitySetName` | string | The name of the entity set. |
+| `options` | string (optional) | An OData query options string to control the data returned. [Learn more about OData query options supported by Dataverse Web API](/power-apps/developer/data-platform/webapi/query/overview#odata-query-options) |
+
+> [!NOTE]
+> While the `options` parameter is optional, for best performance you should always limit the number of column values returned using the [`$select` option](/power-apps/developer/data-platform/webapi/query/select-columns).
+
+
+#### retrieveMultipleRecords method example
+
+This example retrieves multiple records and uses OData `$select` and `$top` to limit returned columns and row count.
+
+```javascript
+let records = await $pages.webAPI.retrieveMultipleRecords('accounts','$select=name&$top=3');
+```
+
+## $pages.languages
+
+The `$pages.languages` object provides methods to retrieve the list of available languages for the website, get the currently active language, and set a new active language.
+
+### $pages.languages methods
+
+Use these methods to read the available languages, check the current language, and change it for the site.
+
+| Method | Description | Returns |
+|--------|-------------|---------|
+| `getAll` | Retrieves the list of languages enabled for the website. | `string[]` |
+| `getActive` | Retrieves the currently active language. | `string` |
+| `setActive(language: string)` | Sets the given language as the active language. | `void` |
+
+> [!NOTE]
+> `setActive` method will cause a page reload.
+
+### $pages.languages method examples
+
+These examples show how to list all languages, read the active language, and set a new active language.
+
+```javascript
+let allLanguages = $pages.languages.getAll();
+let activeLanguage = $pages.languages.getActive();
+$pages.languages.setActive('hi-IN');
+```
