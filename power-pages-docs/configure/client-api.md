@@ -107,7 +107,7 @@ The following properties describe the form and its contained controls and tabs.
 | `name` | string | The name of the form. |
 | `controls` | [Control](#control)`[]` | All controls on the form.|
 | `tabs` | [Tab](#tab)`[]` | All tabs on the form.|
-| `isMultiStep` | boolean | True if the form is multistep; otherwise, false. |
+| `isMultiStep` | boolean | True if the form is multistep; otherwise, false. See [Multistep form](#multistep-form). |
 
 ### IForm methods
 
@@ -140,7 +140,6 @@ console.log(`Form has ${tabs.length} tabs.`);
 A multistep form is a container that holds multiple basic forms.
 
 ### Multistep form properties
-
 
 The following properties apply to the multistep form container and describe what is available in the currently active step.
 
