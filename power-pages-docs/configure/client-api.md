@@ -21,9 +21,9 @@ Use the `$pages` client API to interact with forms and lists, and perform operat
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
-## API initialization
+## Client API initialization
 
-The `$pages` client API isn't initialized immediately when the page loads. Use the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function to assign the `$pages` API object. There are two approaches to achieve this:
+The `$pages` client API isn't initialized immediately when the page loads. Use the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function to assign the API object to the `$pages` variable. There are two approaches to achieve this:
 
 
 ### Callback-based API readiness
@@ -93,11 +93,11 @@ let form1 = $pages.currentPage.forms.getFormById('form_#1');
 let form2 = $pages.currentPage.forms.getFormByName('form_name')
 ```
 
-## IForm interface
+### IForm interface
 
 The `IForm` interface represents a container for controls and tabs.
 
-### IForm properties
+#### IForm properties
 
 The following properties describe the form and its contained controls and tabs.
 
@@ -109,7 +109,7 @@ The following properties describe the form and its contained controls and tabs.
 | `tabs` | [Tab](#tab)`[]` | All tabs on the form.|
 | `isMultiStep` | boolean | True if the form is multistep; otherwise, false. See [Multistep form](#multistep-form). |
 
-### IForm methods
+#### IForm methods
 
 Use these methods to query a form's visibility and toggle whether it is shown.
 
@@ -119,7 +119,7 @@ Use these methods to query a form's visibility and toggle whether it is shown.
 | `setVisible(isVisible: boolean)` | `void` | Sets the form's visibility. |
 
 
-### IForm example
+#### IForm example
 
 The following example retrieves a form by ID and logs its visibility, number of controls, and tabs.
 
@@ -135,11 +135,11 @@ let tabs = form.tabs;
 console.log(`Form has ${tabs.length} tabs.`);
 ```
 
-## Multistep form
+### Multistep form
 
 A multistep form is a container that holds multiple basic forms.
 
-### Multistep form properties
+#### Multistep form properties
 
 The following properties apply to the multistep form container and describe what is available in the currently active step.
 
@@ -153,7 +153,7 @@ The following properties apply to the multistep form container and describe what
 | `previousButton` | [JQuery Element](https://api.jquery.com/Types/#Element) | Represents the previous button (empty object if absent). |
 
 
-### Multistep form methods
+#### Multistep form methods
 
 Use these methods to check visibility and move between steps in a multistep form.
 
@@ -167,7 +167,7 @@ Use these methods to check visibility and move between steps in a multistep form
 | `goToNextStep` | `void` | Navigates to the next step; submits the form if no next step exists. |
 | `goToPreviousStep` | `void` | Navigates to the previous step; throws an exception if none exists. |
 
-### Multistep form example
+#### Multistep form example
 
 This example shows how to retrieve a multistep form, inspect it, and advance to the next step.
 
@@ -186,15 +186,15 @@ console.log(`Form has ${tabs.length} tabs.`);
 form.goToNextStep();  
 ```
 
-## Tab
+### Tab
 
 A `Tab` contains one or more sections within a form.
 
-### Tab `Sections` property
+#### Tab `Sections` property
 
 An array of [sections](#section) within the tab.
 
-### Tab methods
+#### Tab methods
 
 Use these methods to check a tab's visibility, retrieve its name, and toggle whether it is shown.
 
@@ -204,7 +204,7 @@ Use these methods to check a tab's visibility, retrieve its name, and toggle whe
 | `getName` | `string` | Returns the name of the tab. |
 | `setVisible(isVisible: boolean)` | `void` | Sets the tab's visibility. |
 
-### Tab example
+#### Tab example
 
 This example retrieves a form, enumerates its tabs, and logs the first tab's name.
 
@@ -215,11 +215,11 @@ console.log(`Form has ${tabs.length} tabs.`);
 console.log(`First tab is named: ${tabs[0].getName()}`);  
 ```
 
-## Section
+### Section
 
 Sections group controls within a tab.
 
-### Section `Controls` property
+#### Section `Controls` property
 
 An array of [controls](#control) within the section.
 
@@ -240,11 +240,11 @@ console.log(`Tab has ${sections.length} section(s).`);
 console.log(`First section is named: ${sections[0].getName()}`);
 ```
 
-## Control
+### Control
 
 Controls represent individual form elements.
 
-### Control methods
+#### Control methods
 
 Use these methods to retrieve or update a control's value, visibility, and disabled state.
 
@@ -258,7 +258,7 @@ Use these methods to retrieve or update a control's value, visibility, and disab
 | `setVisible(isVisible: boolean)` | `void` | Sets the visibility. |
 | `setValue(value: string)` | `void` | Sets a new value for the control. |
 
-### Control example
+#### Control example
 
 This example fetches a form, inspects the first control's visibility, and then hides it.
 
@@ -273,7 +273,7 @@ controls[0].setVisible(false); // Hide the first control.
 }
 ```
 
-### Supported controls
+#### Supported controls
 
 All controls implement the standard [control methods](#control-methods). Some controls provide additional methods and have different implementation details from the standard control methods. [Learn about additional methods and implementation differences for different types of controls](client-api-controls.md)
 
@@ -300,11 +300,11 @@ let lists = $pages.currentPage.lists.getAll();
 let list = $pages.currentPage.lists.getListById('list_#1');
 ```
 
-## IList interface
+### IList interface
 
 A list represents a tabular or grid-like data component.
 
-### IList properties
+#### IList properties
 
 These properties identify the list and indicate whether it uses the modern rendering model.
 
@@ -313,7 +313,7 @@ These properties identify the list and indicate whether it uses the modern rende
 | `id` | string | The list's unique identifier. |
 | `isModern` | boolean | A Boolean value that's true for modern lists and false otherwise. |
 
-### IList methods
+#### IList methods
 
 Use these methods to check list visibility, toggle whether it is shown, and access the underlying HTML element.
 
@@ -323,7 +323,7 @@ Use these methods to check list visibility, toggle whether it is shown, and acce
 | `setVisible(isVisible: boolean)` | `void` | Sets the list's visibility. |
 | `getHtmlElement` | [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement) | Returns the underlying HTML element for the list. |
 
-### IList example
+#### IList example
 
 The following example retrieves a list by ID and logs its visibility status.
 

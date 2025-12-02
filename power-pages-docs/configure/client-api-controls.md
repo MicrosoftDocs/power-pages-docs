@@ -19,6 +19,8 @@ Address input fields that contain multiple subcomponents (street, city, state, a
 
 ### Address composite properties and methods
 
+Use these members to configure and read address composite values.
+
 - `IsReadonly` property - True if the field is a read-only field, otherwise false
 - `setValue` method expects an object with the following properties:
 
@@ -42,6 +44,8 @@ Radio button fields with **true/false** options use the boolean control.
 
 ### Boolean properties and methods
 
+Use these members to set and retrieve boolean field values.
+
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `setValue` method expects a string value corresponding to localized **true or false** values
 - `getValue` method returns the selected option value as a string
@@ -51,6 +55,8 @@ Radio button fields with **true/false** options use the boolean control.
 Date and time input fields use the dateTime control.
 
 ### DateTime properties and methods
+
+Use these members to manage and access date and time values.
 
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `isDisabled` property - True if the field is disabled, otherwise false
@@ -64,6 +70,8 @@ Decimal number input fields use the decimal control.
 
 ### Decimal properties and methods
 
+Use these members to work with decimal number inputs.
+
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `setValue` method expects a string representing a valid decimal number
 - `getValue` returns the decimal value as a string
@@ -74,6 +82,8 @@ Floating-point number input fields use the double control.
 
 ### Double properties and methods
 
+Use these members to handle floating-point number values.
+
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `setValue` method expects a string representing a valid floating-point number.
 - `getValue` method returns the number value as a string.
@@ -83,6 +93,8 @@ Floating-point number input fields use the double control.
 <!-- TODO: Need a clear description about what a dropdown lookup control is. Seems it isn't a picklist, and is actually some kind of lookup? -->
 
 ### Dropdown properties and methods
+
+Use these members to interact with dropdown lookup selections.
 
 - `isDropdown` property - Is always **true**. Use this property to distinguish between a [modal lookup](#modal-lookup) and dropdown lookup
 - `IsReadonly` property - True if the field is a read-only field, otherwise false
@@ -95,6 +107,8 @@ Email input fields use the email control.
 
 ### Email properties and methods
 
+Use these members to validate and retrieve email address values.
+
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `setValue` expects a string representing a valid email address
 - `getValue` returns the email value as a string
@@ -104,6 +118,8 @@ Email input fields use the email control.
 <!-- TODO: Need a clear description about what a file control is. I expect it provides capabilities to upload and download a file -->
 
 ### File properties and methods
+
+Use these members to upload, access, and remove files.
 
 - `IsReadonly` property - True if the field is a read-only field, otherwise false
 - `maxFileSizeInByte` property - The max size of the file in bytes that can be uploaded
@@ -117,6 +133,8 @@ Integer fields with specific formatting requirements like duration, language, an
 
 ### Formatted integer properties and methods
 
+Use these members to manage integers with specialized formatting.
+
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `setValue` method expects a string representing a valid formatted integer
 - `getValue` method returns the formatted integer value as a string
@@ -126,6 +144,8 @@ Integer fields with specific formatting requirements like duration, language, an
 Name input fields that might contain multiple components (first name, last name, and so on) use the full name control
 
 ### Full name methods
+
+Use these methods to set and get full name components.
 
 - `setValue` method expects an object with the following properties:
 
@@ -145,6 +165,8 @@ Name input fields that might contain multiple components (first name, last name,
 
 ### Image properties and methods
 
+Use these members to upload, access, and remove images.
+
 - `IsReadonly` property - True if the field is a read-only field, otherwise false
 - `maxFileSizeInByte` property - The maximum size of the image in bytes that you can upload
 - `setValue` method expects an object of type [File](https://developer.mozilla.org/en-US/docs/Web/API/File)
@@ -155,7 +177,9 @@ Name input fields that might contain multiple components (first name, last name,
 
 Numeric input fields use the integer control
 
-###  Integer properties and methods
+### Integer properties and methods
+
+Use these members to set and retrieve integer field values.
 
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `setValue` method expects a string representing a valid integer
@@ -167,6 +191,8 @@ Multiline text input fields use the memo control
 
 ### Memo properties and methods
 
+Use these members to manage multiline text input content.
+
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `maxLength` property - The maximum length of text that you can enter
 - `setValue` method expects a string value
@@ -177,6 +203,8 @@ Multiline text input fields use the memo control
 Modal lookup fields use the modal lookup control
 
 ### Modal lookup properties and methods
+
+Use these members to set, get, and clear modal lookup values.
 
 - `IsModal` property - Always true. Use this property to distinguish between a modal lookup and dropdown lookup.
 - `IsReadonly` property - True if the field is a read-only field, otherwise false
@@ -195,75 +223,99 @@ Modal lookup fields use the modal lookup control
 
 ## Money
 
-Currency input fields use the money control
+Currency input fields use the money control.
 
 ### Money properties and methods
+
+Use these members to set and retrieve currency amounts.
 
 - `isReadOnly` property - True if the field is a read-only field, otherwise false
 - `setValue` method expects a string representing a valid monetary amount
 - `getValue` method returns the money value as a string
 
-## MultipleChoice
+## Multiple choice
 
-MultipleChoice control is an extension of control type for checkbox fields. 
+Checkbox fields use the multiple choice control
 
-`setValue` expects a boolean value. `getValue` returns the checkbox state as a boolean.
+### Multiple choice methods
+
+Use these methods to set and read checkbox states.
+
+- `setValue` method expects a boolean value
+- `getValue` method returns the checkbox state as a boolean
 
 ## MultiSelect picklist
 
-MultiSelect picklist control is an extension of control type for multiselect option fields. 
+Multiselect option fields use the multiSelect picklist control.
 
-`setValue` and `getValue` aren't yet supported for this control.
+> [!NOTE]
+> `setValue` and `getValue` methods aren't yet supported for this control.
+
 
 ## Picklist
 
-Picklist control is an extension of control type for option set fields (dropdown, radio buttons, etc.). 
+Option set fields (dropdown, radio buttons, and so on) use the picklist control.
 
 ### Picklist properties and methods
 
-- `subType` - The subtype of the picklist control (VerticalRadioButton, HorizontalRadioButton, MultipleChoiceMatrix, or Dropdown)
+Use these members to configure and read option set selections.
 
-`setValue` expects a string representing the value of the option to select. `getValue` returns the selected option value as a string.
+- `subType` property - The subtype of the picklist control. Possible values are:
+
+  - `VerticalRadioButton`
+  - `HorizontalRadioButton`
+  - `MultipleChoiceMatrix`
+  - `Dropdown`
+
+- `setValue` method expects a string representing the value of the option to select.
+- `getValue` method returns the selected option value as a string.
 
 ## Status
 
-Status control represents the current state of an entity record.
+The current state of an entity record uses the status control.
 
-Setting the value for this field isn't supported by design; it's a readonly field.
+> [!NOTE]
+> This control doesn't allow setting the value. The value is read-only.
 
-## StatusReason
+## Status reason
 
-StatusReason control represents the current status reason of an entity record.
+The current status reason of an entity record uses the status reason control.
 
-Setting the value for this field isn't supported by design; it's a readonly field.
+> [!NOTE]
+> This control doesn't allow setting the value. The value is read-only.
 
 ## String
 
-String control is an extension of control type for text input fields. 
+Text input fields use the string control.
 
 ### String properties and methods
 
-- `isReadOnly` - True if the field is a read-only field, otherwise false
-- `maxLength` - The maximum length of text that you can enter
+Use these members to manage single-line text input values.
 
-`setValue` expects a string value. If the string exceeds the maximum length, an error is thrown.
+- `isReadOnly` property - True if the field is a read-only field, otherwise false
+- `maxLength` property - The maximum length of text that you can enter
+- `setValue` An error occurs if the string length exceeds the `maxLength` value
 
 ## Ticker symbol
 
-Ticker symbol control is an extension of control type for stock ticker symbol input fields. 
+Stock ticker symbol input fields use the ticker symbol control
 
 ### Ticker symbol properties and methods
 
-- `isReadOnly` - True if the field is a read-only field, otherwise false
+Use these members to set and retrieve stock ticker symbols.
 
-`setValue` expects a string representing a valid ticker symbol. `getValue` returns the ticker symbol as a string.
+- `isReadOnly` property - True if the field is a read-only field, otherwise false
+- `setValue` method expects a string representing a valid ticker symbol
+- `getValue` method returns the ticker symbol as a string
 
 ## URL
 
-URL control is an extension of control type for URL input fields. The control includes the following other members:
+URL input fields use the url control.
 
 ### URL properties and methods
 
-- `isReadOnly` - True if the field is a read-only field, otherwise false
+Use these members to validate and retrieve URL values.
 
-`setValue` expects a string representing a valid URL. `getValue` returns the URL value as a string.
+- `isReadOnly` property - True if the field is a read-only field, otherwise false
+- `setValue` method expects a string representing a valid URL
+- `getValue` method returns the URL value as a string
