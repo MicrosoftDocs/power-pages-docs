@@ -30,7 +30,7 @@ Use the [Power Platform admin center](/power-apps/maker/portals/admin/manage-cus
 1. Specify values:
     - **Name:** CustomCertificates/ImplicitGrantflow 
     - **Website:** The associated website 
-    - **Value:** Copy the thumbprint of the uploaded custom certificate from the Manage custom certificate screen and paste it here. The value will indicate which certificate will be used for implicit grant flow. 
+    - **Value:** Copy the thumbprint of the Website authentication key from the security section on the  power platform admin screen and paste it here. The value will indicate which certificate will be used for implicit grant flow. 
 1. Select **Save & Close**.
 
 ## Token endpoint details
