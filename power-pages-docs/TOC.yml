@@ -592,6 +592,9 @@
               href: configure/liquid/render-site-header-primary-navigation.md
     - name: Client API
       href: configure/client-api.md
+      items: 
+      - name: Supported controls
+        href: configure/client-api-controls.md
     - name: Use server logic (preview)
       items:
         - name: Server logic overview

@@ -6,534 +6,356 @@ author: shwetamurkute
 ms.author: nenandw
 ms.reviewer: smurkute
 ms.date: 12/01/2025
-ms.topic: concept-article
+ms.topic: reference
 ---
 # Power Pages Client APIs (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The client API provides a set of methods to manipulate UI components on a Power Pages site. After the Pages libraries initialize, you can access the API through the global variable: `window.$pages.currentPage`.
-Use this API to interact with forms and lists, and perform operations such as record creation, retrieval, and user authentication.
+The client API provides objects and methods to manipulate UI components on a Power Pages site. After the client API is initialized, you can access it using a global variable with a name you decide.
+
+> [!NOTE]
+> This article uses the variable name `$pages` and we recommend you also follow this naming convention.
+
+Use the `$pages` client API to interact with forms and lists, and perform operations such as record creation, retrieval, and user authentication.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
-## Library usage
+## Client API initialization
 
-The `onPagesClientApiReady` utility on the `window` object lets you easily use the client API. Pass a callback to `onPagesClientApiReady`. It receives the `$pages` SDK object for your business logic. The method also returns a promise that resolves to the `$pages` object, enabling asynchronous usage.
+The `$pages` client API isn't initialized immediately when the page loads. Use the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function to assign the API object to the `$pages` variable. There are two approaches to initialize the client API:
 
-**Example1**:
+
+### Callback-based API readiness
+
+Use a callback function that assigns the API object to a variable you define when it's ready. Two examples show how:
+
+With an anonymous function:
 
 ```javascript
-window.Microsoft.Dynamic365.Portal.onPagesClientApiReady(($pages) => {
+Microsoft.Dynamic365.Portal.onPagesClientApiReady(($pages) => {
     const forms = $pages.currentPage.forms.getAll();
     console.log(`Found ${forms.length} forms on the page.`);
 });
 ```
-**Example2**:
+
+With a named function:
 
 ```javascript
-let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
-const forms = sdk.currentPage.forms.getAll();
+function start($pages){
+    const forms = $pages.currentPage.forms.getAll();
+    console.log(`Found ${forms.length} forms on the page.`);
+}
+
+Microsoft.Dynamic365.Portal.onPagesClientApiReady(start)
+```
+
+
+### Promise/await-based API readiness
+
+Uses [await](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/await) to handle the promise returned by the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function for a cleaner async flow.
+
+```javascript
+let $pages = await Microsoft.Dynamic365.Portal.onPagesClientApiReady();
+const forms = $pages.currentPage.forms.getAll();
 console.log(`Found ${forms.length} forms on the page.`);
 ```
+
+### When to use each approach
+
+The following table describes when you should use each approach.
+
+| Approach | When to use |
+|----------|-------------|
+| **[Callback-based API readiness](#callback-based-api-readiness)** | Use when you need to support older browsers or legacy scripts that don't support `async/await`, or when you want to register multiple handlers that run when the API is ready. Ideal for event-driven patterns. |
+| **[Promise/await-based API readiness](#promiseawait-based-api-readiness)** | Use in modern JavaScript environments that support `async/await` for cleaner, sequential code. Best when your logic depends on the API being ready before continuing execution. |
+
+> [!TIP]
+> If your codebase already uses `async/await`, prefer the Promise-based approach for consistency.
 
 ## $pages.currentPage.forms collection
 
 The `$pages.currentPage.forms` collection includes methods to work with form elements on the page.
 
-### forms getAll method
+### $pages.currentPage.forms methods
 
-`$pages.currentPage.forms.getAll(): IForm[]`
+Use these methods to enumerate forms and retrieve specific form instances.
 
-- **Description**: Returns a collection of all forms added to the current page. See [IForm](#iform-interface).
-- **Parameters**: None
-- **Returns**: `IForm[]`
-- **Example**: `let forms = window.$pages.currentPage.forms.getAll();`
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getAll` | [`IForm`](#iform-interface)`[]` | Returns all forms added to the current page. |
+| `getFormById(id: string)` | [`IForm`](#iform-interface) | Retrieves a form by its HTML element ID. |
+| `getFormByName(name: string)` | [`IForm`](#iform-interface) | Retrieves a form by its name. |
 
-### forms getFormById method
+### $pages.currentPage.forms method examples
 
-`$pages.currentPage.forms.getFormById(id: string): IForm`
+These examples show how to get all forms and retrieve specific forms by ID or name.
 
-- **Description**: Retrieves a form instance by its HTML element ID.
-- **Parameters**: `id` (string): The ID of the form HTML element.
-- **Returns**: A form object.
-- **Example**: `let form = window.$pages.currentPage.forms.getFormById('form_#1');`
-
-### forms getFormByName method
-
-`$pages.currentPage.forms.getFormByName(name: string): IForm`
-
-- **Description**: Retrieves a form instance by its name.
-- **Parameters**: `name` (string): The name of the form.
-- **Returns**: A form object.
-- **Example**: 
-
-  ```javascript
-   let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
-  let form = sdk.currentPage.forms.getFormByName('form_name');
-   ```
+```javascript
+let forms = $pages.currentPage.forms.getAll();
+let form1 = $pages.currentPage.forms.getFormById('form_#1');
+let form2 = $pages.currentPage.forms.getFormByName('form_name')
+```
 
 ### IForm interface
 
 The `IForm` interface represents a container for controls and tabs.
 
-- **Properties**:
+#### IForm properties
 
-  - `id`: The ID of the form.
-  - `name`: The name of the form.
-  - controls: `Control[]` - An array containing all controls on the form. See [Control](#control).
-  - tabs: `Tab[]` - An array containing all tabs on the form. See [Tab](#tab).
-  - `isMultiStep` - True if the form is multistep; otherwise, false.
+The following properties describe the form and its contained controls and tabs.
 
-- **Methods**:
+| Property | Type | Description |
+|----------|------|-------------|
+| `id` | string | The ID of the form. |
+| `name` | string | The name of the form. |
+| `controls` | [Control](#control)`[]` | All controls on the form.|
+| `tabs` | [Tab](#tab)`[]` | All tabs on the form.|
+| `isMultiStep` | boolean | True if the form is multistep; otherwise, false. See [Multistep form](#multistep-form). |
 
-  - `getVisible(): boolean` - Returns true if the form is visible; otherwise, false.
-  - `setVisible(isVisible: boolean): void` - Sets the form's visibility.
+#### IForm methods
 
-- **Example**:
+Use these methods to query a form's visibility and toggle whether it's visible.
 
-    ```javascript
-    let form = window.$pages.currentPage.forms.getFormById('form_#1');  
-    console.log(`Form id: ${form.id} has ${form.controls.length} controls.`);  
-    if (form.getVisible()) {  
-    console.log('Form is currently visible.');  
-    }  
-    let tabs = form.tabs;  
-    console.log(`Form has ${tabs.length} tabs.`);
-    ```
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the form is visible; otherwise, false. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the form's visibility. |
+
+
+#### IForm example
+
+The following example retrieves a form by ID and logs its visibility, number of controls, and tabs.
+
+```javascript
+let form = $pages.currentPage.forms.getFormById('form_#1');
+
+console.log(`Form id: ${form.id} has ${form.controls.length} controls.`); 
+
+if (form.getVisible()) {  
+console.log('Form is currently visible.');  
+}  
+let tabs = form.tabs;  
+console.log(`Form has ${tabs.length} tabs.`);
+```
 
 ### Multistep form
 
 A multistep form is a container that holds multiple basic forms.
 
-- **Properties**:
+#### Multistep form properties
 
-  - `id`: The ID(GUID) of the multistep form.
-  - `controls`: `Control[]` - An array that contains all controls in the current step. See [Control](#control).
-  - `tabs`: `Tab[]` - An array that contains all tabs in the current step. See [Tab](#tab).
-  - `isMultiStep` - True if the form is multistep; otherwise, false.
-  - `nextButton (JQuery Element)` - jQuery object that represents the next button. It's an empty object if the button isn't present.
-  - `previousButton (JQuery Element)` - jQuery object that represents the previous button. It's an empty object if the button isn't present.
+The following properties apply to the multistep form container and describe what is available in the currently active step.
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `id` | string | The ID of the multistep form. |
+| `controls` | [Control](#control)`[]` | All controls in the current step. |
+| `tabs` | [Tab](#tab)`[]` | All tabs in the current step.|
+| `isMultiStep` | boolean | True if the form is multistep; otherwise, false. |
+| `nextButton` | [JQuery Element](https://api.jquery.com/Types/#Element) | Represents the next button (empty object if absent). |
+| `previousButton` | [JQuery Element](https://api.jquery.com/Types/#Element) | Represents the previous button (empty object if absent). |
 
 
-- **Methods**:
+#### Multistep form methods
 
-  - `getVisible(): boolean` - Returns true if the form is visible; otherwise, false.
-  - `setVisible(isVisible): void` - Sets the tab's visibility.
-  - `isVisible (boolean)`: Specifies whether the form should be shown (true) or hidden (false) on the page.
-  - `hasNextStep()`- Returns true if a next step exists; otherwise false.
-  - `hasPreviousStep()`- Returns true if a previous step exists; otherwise false.
-  - `goToNextStep()`- Redirects the page to the next step. If no next step is present, the form is submitted.
-  - `goToPreviousStep()`- Redirects the page to the previous step. If no previous step is present, an exception is thrown.
+Use these methods to check visibility and move between steps in a multistep form.
 
-- **Example**:
-    
-  ```javascript
-    let sdk = await window.Microsoft.Dynamic365.Portal.onPagesClientApiReady();
-    let form = sdk.currentPage.forms.getFormById('multiform_#1');
-    console.log(`Form id: ${form.id} has ${form.controls.length} controls.`);
-    
-    if (form.getVisible()) {
-      console.log('Form is currently visible.');
-    }
-    
-    let tabs = form.tabs;
-    console.log(`Form has ${tabs.length} tabs.`);
-    
-    form.goToNextStep();  
-   ```
+| Name | Returns | Description |
+|------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the form is visible; otherwise, false. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the form's visibility. |
+| `isVisible` | `boolean` | Property indicating whether the form should be shown (true) or hidden (false). |
+| `hasNextStep` | `boolean` | Returns true if a next step exists; otherwise, false. |
+| `hasPreviousStep` | `boolean` | Returns true if a previous step exists; otherwise, false. |
+| `goToNextStep` | `void` | Navigates to the next step; submits the form if no next step exists. |
+| `goToPreviousStep` | `void` | Navigates to the previous step; throws an exception if none exists. |
+
+#### Multistep form example
+
+This example shows how to retrieve a multistep form, inspect it, and advance to the next step.
+
+```javascript
+let $pages = await Microsoft.Dynamic365.Portal.onPagesClientApiReady();
+let form = $pages.currentPage.forms.getFormById('multiform_#1');
+console.log(`Form id: ${form.id} has ${form.controls.length} controls.`);
+
+if (form.getVisible()) {
+console.log('Form is currently visible.');
+}
+
+let tabs = form.tabs;
+console.log(`Form has ${tabs.length} tabs.`);
+
+form.goToNextStep();  
+```
 
 ### Tab
 
 A `Tab` contains one or more sections within a form.
 
-- **Properties**:
+#### Tab `Sections` property
 
-  - *Sections*: `Section[]` - An array of sections within the tab. See [Section](#section).
+An array of [sections](#section) within the tab.
 
-- **Methods**:
+#### Tab methods
 
-  - `getVisible(): boolean` - Returns true if the tab is visible; otherwise, false.
-  - `getName(): string` - Returns the name of the tab.
-  - `setVisible(isVisible: boolean): void` - Sets the tab's visibility.
+Use these methods to check a tab's visibility, retrieve its name, and toggle whether it's visible.
 
-- **Example**:
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the tab is visible; otherwise, false. |
+| `getName` | `string` | Returns the name of the tab. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the tab's visibility. |
 
-    ```javascript
-    let form = window.$pages.currentPage.forms.getFormById('form_#1');  
-    let tabs = form.tabs;  
-    console.log(`Form has ${tabs.length} tabs.`);  
-    console.log(`First tab is named: ${tabs[0].getName()}`);  
-    ```
+#### Tab example
+
+This example retrieves a form, enumerates its tabs, and logs the first tab's name.
+
+```javascript
+let form = $pages.currentPage.forms.getFormById('form_#1');  
+let tabs = form.tabs;  
+console.log(`Form has ${tabs.length} tabs.`);  
+console.log(`First tab is named: ${tabs[0].getName()}`);  
+```
 
 ### Section
 
 Sections group controls within a tab.
 
-- **Properties**:
+#### Section `Controls` property
 
-  - *Controls*: `Control[]` - An array of controls within the section. See [Control](#control).
+An array of [controls](#control) within the section.
 
-- **Methods**:
+#### Section methods
 
-  - `getVisible(): boolean` - Returns true if the section is visible; otherwise, false.
-  - `getName(): string` - Returns the section name.
-  - `setVisible(isVisible: boolean): void` - Sets the section's visibility.
+Use these methods to read a section's name and control its visibility.
 
-- **Example**:
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the section is visible; otherwise, false. |
+| `getName` | `string` | Returns the section name. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the section's visibility. |
 
-    ```javascript
-    let form = window.$pages.currentPage.forms.getFormById('form_#1');  
-    let sections = form.tabs[0].sections;  
-    console.log(`Tab has ${sections.length} section(s).`);  
-    console.log(`First section is named: ${sections[0].getName()}`);
-    ```
+#### Section example
+
+This example retrieves sections from the first tab of a form and logs basic details.
+
+```javascript
+let form = $pages.currentPage.forms.getFormById('form_#1');  
+let sections = form.tabs[0].sections;  
+console.log(`Tab has ${sections.length} section(s).`);  
+console.log(`First section is named: ${sections[0].getName()}`);
+```
 
 ### Control
 
 Controls represent individual form elements.
 
-- **Methods**:
+#### Control methods
+
+Use these methods to retrieve or update a control's value, visibility, and disabled state.
+
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getDisabled` | `boolean` | Returns true if the control is disabled. |
+| `getVisible` | `boolean` | Returns true if the control is visible. |
+| `getName` | `string` | Returns the control's name. |
+| `getValue` | `string` \| `undefined` | Retrieves the current value. |
+| `setDisabled(isDisabled: boolean)` | `void` | Sets the disabled state. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the visibility. |
+| `setValue(value: string)` | `void` | Sets a new value for the control. |
+
+#### Control example
+
+This example fetches a form, inspects the first control's visibility, and then hides it.
+
+```javascript
+let form = $pages.currentPage.forms.getFormById('form_#1');  
+let controls = form.controls;  
+if (controls.length > 0) {  
+if (controls[0].getVisible()) {  
+console.log(`Control ${controls[0].getName()} is visible.`);  
+}  
+controls[0].setVisible(false); // Hide the first control.  
+}
+```
+
+#### Supported controls
+
+All controls implement the standard [control methods](#control-methods). Some controls provide more methods and have different implementation details from the standard control methods. [Learn about other methods and implementation differences for different types of controls](client-api-controls.md)
 
-  - `getDisabled(): boolean` - Returns true if the control is disabled.
-  - `getVisible(): boolean` - Returns true if the control is visible.
-  - `getName(): string` - Returns the control's name.
-  - `getValue(): string | undefined` - Retrieves the current value.
-  - `setDisabled(isDisabled: boolean): void` - Sets the disabled state.
-  - `setVisible(isVisible: boolean): void` - Sets the visibility.
-  - `setValue(value: string): void` - Sets a new value for the control.
-
-- **Example**:
-
-    ```javascript
-    let form = window.$pages.currentPage.forms.getFormById('form_#1');  
-    let controls = form.controls;  
-    if (controls.length > 0) {  
-    if (controls[0].getVisible()) {  
-    console.log(`Control ${controls[0].getName()} is visible.`);  
-    }  
-    controls[0].setVisible(false); // Hide the first control.  
-    }
-    ```
-
-### Supported controls
-
-The following control types are currently supported.
-
-All these controls extend the control type. Therefore, these objects provide all the interfaces available on the control object, along with a few more.
-
-#### Address composite control
-
-The address composite control extends the control type for address input fields that contain multiple subcomponents (street, city, state, and so on). The following members are part of this control type:
-
-##### Properties
-
-- `IsReadonly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects an object with the following fields. `getValue()` returns the same object: `{
-  line1: string;
-  line2: string;
-  line3: string;
-  city: string;
-  state: string;
-  postalCode: string;
-  country: string;
-}`
-
-#### Boolean control
-
-The boolean control extends the control type for radio button fields with **true/false** options. The following members are part of this control type:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-setValue() expects a string value corresponding to localized **true or false**. getValue() returns the selected option value as a string.
-
-#### DateTime control
-
-The DateTime control extends the control type for date and time input fields. The following members are part of this control type:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-- `isDisabled` - **true** if the field is disabled, else **false**
-- `dataType` - The data type of the datetime field
-
-`setValue()` expects a datetime string in the appropriate format. `getValue()` returns the datetime value as a string.
-
-#### Decimal control
-
-The decimal control extends the control type for decimal number input fields. The following members are part of this control type:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string representing a valid decimal number. `getValue()` returns the decimal value as a string.
-
-#### Double control
-
-The double control extends the control type for floating-point number input fields. The following members are part of this control type:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string representing a valid floating-point number. `getValue()` returns the number value as a string.
-
-#### Dropdown control
-
-Dropdown control is an extension of control type. The following members are part of this control:
-
-##### Properties
-
-- `isDropdown` - is always **true**. Use this property to distinguish between a modal lookup and dropdown lookup.
-- `IsReadonly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string parameter representing the ID of the option to select. `getValue()` returns the currently set option's ID as a string.
-
-#### Email control
-
-Email control is an extension of control type for email input fields. The following members are part of this control:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string representing a valid email address. `getValue()` returns the email value as a string.
-
-#### File control
-
-File control is an extension of control type. The following members are part of this control:
-
-##### Properties
-
-- `IsReadonly` - **true** if the field is a read-only field, otherwise **false**
-- `maxFileSizeInByte` - The max size of the file in bytes that can be uploaded.
-
-##### Methods
-
-`setValue()` expects an object of type [File](https://developer.mozilla.org/en-US/docs/Web/API/File) and `getValue()` returns the same
-- `removeFile()`: Removes the set file.
-
-#### Formatted integer control
-
-Formatted integer control is an extension of control type for integer fields with specific formatting requirements like duration, language, and timezone. The following members are part of this control:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string representing a valid formatted integer. `getValue()` returns the formatted integer value as a string.
-
-#### Full name control
-
-Full name control is an extension of control type for name input fields that might contain multiple components (first name, last name, and so on). The following members are part of this control:
-
-`setValue()` expects an object of the following structure; `getValue()` returns the same: `{
-  firstName: string;
-  middleName: string;
-  lastName: string;
-}`
-
-#### Image control
-
-Image control extends the control type. It includes the following other members:
-
-##### Properties
-
-- `IsReadonly` - **true** if the field is a read-only field, otherwise **false**
-- `maxFileSizeInByte` - The maximum size of the image in bytes that you can upload.
-
-##### Methods
-
-`setValue()` expects an object of type [File](https://developer.mozilla.org/en-US/docs/Web/API/File) and `getValue()` returns the same.
-- `removeFile()`: Removes the set file.
-
-#### Integer control
-
-Integer control extends the control type for numeric input fields. It includes the following other members:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string representing a valid integer. `getValue()` returns the integer value as a string.
-
-#### Memo control
-
-Memo control extends the control type for multiline text input fields. It includes the following other members:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-- `maxLength` - The maximum length of text that you can enter
-
-`setValue()` expects a string value. `getValue()` returns the memo text as a string.
-
-#### Modal lookup control
-
-Modal lookup control extends the control type. It represents a modal lookup field. It includes the following other members:
-
-##### Properties
-
-- `IsModal` - Always **true**, use this property to distinguish between a modal lookup and dropdown.
-- `IsReadonly` - **true** if the field is a read-only field, otherwise **false**
-
-##### Methods
-
-`setValue()` expects an object with the following interface and `getValue()` returns the same:
-`{
-  id: string;
-  name: string;
-  entityType: string;
-}`
-- `clearValue()`: Clears the set value from the field.
-
-#### Money control
-
-Money control extends the control type for currency input fields. It includes the following other members:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string representing a valid monetary amount. `getValue()` returns the money value as a string.
-
-#### MultipleChoice control
-
-MultipleChoice control is an extension of control type for checkbox fields. The following members are part of this control:
-
-`setValue()` expects a boolean value. `getValue()` returns the checkbox state as a boolean.
-
-#### MultiSelect picklist control
-
-MultiSelect picklist control is an extension of control type for multiselect option fields. The following members are part of this control:
-
-`setValue()` and `getValue()` aren't yet supported for this control.
-
-#### Picklist control
-
-Picklist control is an extension of control type for option set fields (dropdown, radio buttons, etc.). The following members are part of this control:
-
-##### Properties
-
-- `subType` - The subtype of the picklist control (VerticalRadioButton, HorizontalRadioButton, MultipleChoiceMatrix, or Dropdown)
-
-`setValue()` expects a string representing the value of the option to select. `getValue()` returns the selected option value as a string.
-
-#### Status control
-
-Status control represents the current state of an entity record.
-
-Setting the value for this field isn't supported by design; it's a readonly field.
-
-#### StatusReason control
-
-StatusReason control represents the current status reason of an entity record.
-
-Setting the value for this field isn't supported by design; it's a readonly field.
-
-#### String control
-
-String control is an extension of control type for text input fields. The following members are part of this control:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-- `maxLength` - The maximum length of text that you can enter
-
-`setValue()` expects a string value. If the string exceeds the maximum length, an error is thrown.
-
-#### Ticker symbol control
-
-Ticker symbol control is an extension of control type for stock ticker symbol input fields. The following members are part of this control:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string representing a valid ticker symbol. `getValue()` returns the ticker symbol as a string.
-
-#### URL control
-
-URL control is an extension of control type for URL input fields. The control includes the following other members:
-
-##### Properties
-
-- `isReadOnly` - **true** if the field is a read-only field, otherwise **false**
-
-`setValue()` expects a string representing a valid URL. `getValue()` returns the URL value as a string.
 
 ## $pages.currentPage.lists collection
 
 The lists collection offers methods to handle traditional and modern list elements on the page.
 
-### lists getAll method
+### $pages.currentPage.lists methods
 
-`$pages.currentPage.lists.getAll(): IList[]`
+Use these methods to enumerate all lists on the page and retrieve a specific list by its HTML element ID.
 
-- **Description**: Returns a collection of all lists on the current page. See [IList interface](#ilist-interface).
-- **Parameters**: None
-- **Returns**: `IList[]`
-- **Example**: `let lists = window.$pages.currentPage.lists.getAll();`
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getAll` | [IList](#ilist-interface)`[]` | Returns a collection of all lists on the current page. |
+| `getListById(id: string)` | [IList](#ilist-interface) | Retrieves a list instance by its HTML element ID. |
 
-### getListById method
+### $pages.currentPage.lists examples
 
-`$pages.currentPage.lists.getListById(id: string): IList`
+These examples show how to enumerate all lists on the page and retrieve a specific list by its HTML element ID.
 
-- **Description**: Retrieves an `IList` instance by its HTML element ID. See [IList interface](#ilist-interface).
-- **Parameters**: `id (string)`: The ID of the list HTML element.
-- **Returns**: A list object.
-- **Example**: `let list = window.$pages.currentPage.lists.getListById('list_#1');`
+```javascript
+let lists = $pages.currentPage.lists.getAll();
+let list = $pages.currentPage.lists.getListById('list_#1');
+```
 
 ### IList interface
 
 A list represents a tabular or grid-like data component.
 
-- **Properties**:
+#### IList properties
 
-  - `id`: The list's unique identifier.
-  - `isModern`: A Boolean value that's true for modern lists and false otherwise.
+These properties identify the list and indicate whether it uses the modern rendering model.
 
-- **Methods**:
+| Property | Type | Description |
+|----------|------|-------------|
+| `id` | string | The list's unique identifier. |
+| `isModern` | boolean | A Boolean value that's true for modern lists and false otherwise. |
 
-  - `getVisible(): boolean` - Returns true if the list is visible.
-  - `setVisible(isVisible: boolean): void` - Sets the list's visibility.
-  - `getHtmlElement(): HTMLElement` - Returns the underlying HTML element for the list.
+#### IList methods
 
-- **Example**:
+Use these methods to check list visibility, toggle whether it's visible, and access the underlying HTML element.
 
-    ```javascript
-    let list = window.$pages.currentPage.lists.getListById('list_#1');  
-    console.log(`List id: ${list.id}`);  
-    if (list.getVisible()) {  
-    console.log('List is currently visible.');  
-    }
-    ```
+| Method | Returns | Description |
+|--------|---------|-------------|
+| `getVisible` | `boolean` | Returns true if the list is visible. |
+| `setVisible(isVisible: boolean)` | `void` | Sets the list's visibility. |
+| `getHtmlElement` | [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement) | Returns the underlying HTML element for the list. |
+
+#### IList example
+
+The following example retrieves a list by ID and logs its visibility status.
+
+```javascript
+let list = $pages.currentPage.lists.getListById('list_#1');  
+console.log(`List id: ${list.id}`);  
+if (list.getVisible()) {  
+console.log('List is currently visible.');  
+}
+```
 
 ## $pages.user object
 
 The `$pages.user` object provides methods to sign the user in or out.
 
-### signIn method
+### $pages.user methods
 
-`$pages.user.signIn(): void`
+These methods don't return any value.
 
-- **Description**: Redirects the user to the sign-in page.
-- **Parameters**: None
-- **Returns**: void
-- **Example**: `window.$pages.user.signIn();`
+|Method|Description|
+|--------|-------------|
+|`signIn`|Redirects the user to the sign-in page.|
+|`signOut`|Signs out the currently signed-in user.|
 
-### signOut method
-
-`$pages.user.signOut(): void`
-
-- **Description**: Signs out the currently signed-in user.
-- **Parameters**: None
-- **Returns**: void
-- **Example**: `window.$pages.user.signOut();`
 
 ## $pages.webAPI object
 
@@ -541,89 +363,114 @@ The `$pages.webAPI` object provides methods to create and retrieve records from 
 
 ### createRecord method
 
-`$pages.webAPI.createRecord(entitySetName: string, data: object): Promise<object>`
+Creates a new record in the specified table.
 
-- **Description**: Creates a new record in the specified table.
-- **Parameters**:
+**Syntax**: `$pages.webAPI.createRecord(entitySetName: string, data: object): Promise<object>`<br />
+**Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to the created record or operation result.
 
-  - `entitySetName` (string): The name of the entity set.
-  - `data` (object): The record data to create.
+#### createRecord method parameters
 
-- **Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to the created record or operation result.
-- **Example**:
+Provide the target table and the data object representing the record to be created.
 
-   ```javascript
-   window.$pages.webAPI.createRecord('account', {  
-   firstName: 'User',
-   lastName: 'Test'  
-   });
-   ```
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `entitySetName` | string | The name of the entity set. [Learn about entity set name in Dataverse Web API](/power-apps/developer/data-platform/webapi/web-api-service-documents#entity-set-name) |
+| `data` | object | The record data to create. |
+
+
+#### createRecord method example
+
+This example demonstrates calling `createRecord` with an entity set name and a minimal data object.
+
+```javascript
+$pages.webAPI.createRecord('contacts', {  
+firstName: 'User',
+lastName: 'Test'  
+});
+```
 
 ### retrieveRecord method
 
-`$pages.webAPI.retrieveRecord(entitySetName: string, id: string, options?: string): Promise<object>`
+Retrieves a record by its unique identifier.
 
-- **Description**: Retrieves a record by its unique identifier.
-- **Parameters**:
-
-  - `entitySetName` (string): The name of the entity set.
-  - `id` (string): The record's unique identifier.
-  - `options` (string, optional): An optional OData query string to customize the returned data.
-
-- **Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to the record object.
-- **Example**:
-
-   `let record = await window.$pages.webAPI.retrieveRecord('accounts', '123',  '$select=name');`
-
-### retrieveMultipleRecords
-
-`$pages.webAPI.retrieveMultipleRecords(entitySetName: string, options?: string): Promise<object>`
-
-- **Description**: Retrieves multiple records based on the provided query options.
-- **Parameters**:
-
-  - `entitySetName` (string): The name of the entity set.
-  - `options` (string, optional): An OData query string to filter or select specific fields.
-
-- **Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to an array of record objects.
-- **Example**:
-
-   `let records = await window.$pages.webAPI.retrieveMultipleRecords('accounts','$select=name&$top=3');`
+**Syntax**: `$pages.webAPI.retrieveRecord(entitySetName: string, id: string, options?: string): Promise<object>`<br />
+**Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to the record object.
 
 
-## $pages.languageAPI object
+#### retrieveRecord method parameters
 
-The `$pages.languageAPI` object provides methods to retrieve the list of available languages for the website, get the currently active language, and set a new active language.
+Specify the table, record ID, and optional OData `$select` query options to shape the response.
 
-### getAll method
-
-- **Description**: Retrieves the list of languages enabled for the website.
-- **Parameters**: None
-- **Returns**: string[]
-- **Example**: `window.$pages.languages.getAll();`
-
-### getActive method
-
-- **Description**: Retrieves the currently active language.
-- **Parameters**: None
-- **Returns**: string[]
-- **Example**: `window.$pages.languages.getActive();`
-
-### getActive method
-
-- **Description**: Retrieves the currently active language.
-- **Parameters**: None
-- **Returns**: `string[]`
-- **Example**: `window.$pages.languages.getActive();`
-
-### setActive method
-
-- **Description**: Sets the given language as the active language.
-- **Parameters**:
-
-  - `language` (string): The new language to be set as active.
-- **Returns**: void
-- **Example**: `window.$pages.languages.setActive('hi-IN');`
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `entitySetName` | string | The name of the entity set. [Learn about entity set name in Dataverse Web API](/power-apps/developer/data-platform/webapi/web-api-service-documents#entity-set-name)|
+| `id` | string | The record's unique identifier. |
+| `options` | string (optional) | An optional OData `$select` query string to limit the data returned. |
 
 > [!NOTE]
-> setActive method will cause a page reload.
+> While the `options` parameter is optional, for best performance you should always limit the number of column values returned using the [`$select` option](/power-apps/developer/data-platform/webapi/query/select-columns).
+
+
+#### retrieveRecord method example
+
+This example retrieves a single record by ID and limits the returned columns using an OData `$select` query option.
+
+```javascript
+let record = await $pages.webAPI.retrieveRecord('accounts', 'aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb',  '$select=name');
+```
+
+### retrieveMultipleRecords method
+
+Retrieves multiple records based on the provided query options.
+
+**Syntax**: `$pages.webAPI.retrieveMultipleRecords(entitySetName: string, options?: string): Promise<object>`<br />
+**Returns**: A [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to an array of record objects.
+
+
+#### retrieveMultipleRecords method parameters
+
+Specify the table and optional OData query to filter results and limit returned columns.
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `entitySetName` | string | The name of the entity set. |
+| `options` | string (optional) | An OData query options string to control the data returned. [Learn more about OData query options supported by Dataverse Web API](/power-apps/developer/data-platform/webapi/query/overview#odata-query-options) |
+
+> [!NOTE]
+> While the `options` parameter is optional, for best performance you should always limit the number of column values returned using the [`$select` option](/power-apps/developer/data-platform/webapi/query/select-columns).
+
+
+#### retrieveMultipleRecords method example
+
+This example retrieves multiple records and uses OData `$select` and `$top` to limit returned columns and row count.
+
+```javascript
+let records = await $pages.webAPI.retrieveMultipleRecords('accounts','$select=name&$top=3');
+```
+
+## $pages.languages
+
+The `$pages.languages` object provides methods to retrieve the list of available languages for the website, get the currently active language, and set a new active language.
+
+### $pages.languages methods
+
+Use these methods to read the available languages, check the current language, and change it for the site.
+
+| Method | Description | Returns |
+|--------|-------------|---------|
+| `getAll` | Retrieves the list of languages enabled for the website. | `string[]` |
+| `getActive` | Retrieves the currently active language. | `string` |
+| `setActive(language: string)` | Sets the given language as the active language. | `void` |
+
+> [!NOTE]
+> `setActive` method causes a page reload.
+
+### $pages.languages method examples
+
+These examples show how to list all languages, read the active language, and set a new active language.
+
+```javascript
+let allLanguages = $pages.languages.getAll();
+let activeLanguage = $pages.languages.getActive();
+$pages.languages.setActive('hi-IN');
+```
