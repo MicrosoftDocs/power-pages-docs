@@ -2,11 +2,13 @@
 title: Power Pages Client API supported controls (preview)
 description: Learn about the different types of supported controls used with the Power Pages Client API
 #customer intent: As a developer, I want to programmatically interact with controls in a form.
-author: shwetamurkute
+author: neerajnandwana-msft
 ms.author: nenandw
-ms.reviewer: smurkute
-ms.date: 12/01/2025
+ms.reviewer: jdaly
+ms.date: 12/10/2025
 ms.topic: reference
+contributors:
+- JimDaly
 ---
 # Power Pages Client API supported controls (preview)
 

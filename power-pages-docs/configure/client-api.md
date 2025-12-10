@@ -2,11 +2,13 @@
 title: Power Pages Client APIs Overview (preview)
 description: Learn how to use Power Pages client APIs to manipulate UI components, manage forms, lists, and user authentication effectively.
 #customer intent: As a developer, I want to retrieve all forms on a Power Pages site so that I can programmatically interact with them.
-author: shwetamurkute
+author: neerajnandwana-msft
 ms.author: nenandw
-ms.reviewer: smurkute
-ms.date: 12/01/2025
+ms.reviewer: jdaly
+ms.date: 12/10/2025
 ms.topic: reference
+contributors:
+- JimDaly
 ---
 # Power Pages Client APIs (preview)
 
