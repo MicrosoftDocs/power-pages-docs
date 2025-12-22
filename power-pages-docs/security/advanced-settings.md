@@ -38,7 +38,7 @@ The following directives are supported.
 | Default source | Specifies the default source for content not explicitly defined by other directives. It acts as a fallback for other directives. |
 | Image source | Specifies valid sources for images. Controls the domains from which images can be loaded. |
 | Font source | Specifies valid sources for fonts. Used to control the domains from which web fonts can be loaded. |
-| Script source | Specifies valid sources for JavaScript code. The script source can include specific domains and 'self' for the same origin. |
+| Script source | Specifies valid sources for JavaScript code. The script source can include specific domains and 'self' for the same origin. Choose whether to enable nonce or inject unsafe eval. |
 | Style source | Specifies valid sources for stylesheets. Similar to script-src, it can include domains and 'self'. 'nonce-xyz' is injected in runtime, so it's not taken in as user input. |
 | Connect source | Specifies valid sources for XMLHttpRequest, WebSocket, or EventSource. Controls the domains to which the page can make network requests. |
 | Media source | Specifies valid sources for audio and video. Used to control the domains from which media resources can be loaded. |
