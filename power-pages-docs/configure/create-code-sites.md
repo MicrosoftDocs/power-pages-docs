@@ -40,10 +40,10 @@ Before you begin, make sure you have:
 - A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions).
 - [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.44.x or later installed and authenticated.
 - A Power Pages site on version 9.7.4.x or later.
-- [Allow JavaScript file uploads](#)
+- [Allow JavaScript file uploads in Dataverse environments](#allow-javascript-file-uploads)
 - A local Git repository with your custom front-end project, such as React, Angular or Vue.
 
-### Allow JavaScript file uploads**
+### Allow JavaScript file uploads
 
 By default, some Dataverse environments block the upload of JavaScript (`.js`) files. If you encounter the error **"Import failed: The attachment is either not a valid type or is too large. It cannot be uploaded or downloaded."** you must update your environment settings to allow this file type.
 
