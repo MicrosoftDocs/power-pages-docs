@@ -47,11 +47,16 @@ Before you begin, make sure you have:
 
 By default, some Dataverse environments block the upload of JavaScript (`.js`) files. If you encounter the error **"Import failed: The attachment is either not a valid type or is too large. It cannot be uploaded or downloaded."** you must update your environment settings to allow this file type.
 
-1. Sign in to the **[Power Platform admin center](https://admin.powerplatform.microsoft.com/)**.
-2. Select your environment.
-3. Select **Settings** > **Product** > **Privacy + Security**.
-4. In the **Blocked attachments** section, remove `js` from the list of file extensions.
-5. Select **Save**.
+To adjust the settings in the Power Platform admin center for an environment, follow these steps:
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. In the navigation pane, select **Manage**.
+1. In the **Manage** pane, select **Environments**.
+1. On the **Environments** page, select an environment.
+1. In the command bar, select **Settings**.
+1. Expand **Product**, and then select **Privacy + Security**.
+1. In the **Blocked Attachments** section, remove `js` from the list of file extensions.
+1. Select **Save**.
 
 ## Create and deploy an SPA site
 
