@@ -148,7 +148,7 @@ The setting corresponding to the HTTP Strict-Transport-Security header informs t
 
 ### Include referrer information in HTTP headers
 
-The Referrer-Policy HTTP header is used to control how much information about the origin of the request (referrer information) is disclosed in the HTTP headers when a user navigates from one page to another. This header helps control privacy and security aspects related to referrer information.
+The Referrer-Policy HTTP header controls how much information about the origin of the request (referrer information) is disclosed in the HTTP headers when a user navigates from one page to another. This header helps control privacy and security aspects related to referrer information.
 
 | **Value**                     | **Description**                                                                                                                                                  |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
