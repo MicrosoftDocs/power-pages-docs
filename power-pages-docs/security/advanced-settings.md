@@ -3,7 +3,7 @@ title: Advanced Settings (preview)
 description: Explore advanced security settings in Power Pages design studio to protect your site content and data from potential threats.
 author: dmartens
 ms.topic: concept-article
-ms.date: 05/17/2024
+ms.date: 12/24/2025
 ms.subservice:
 ms.author: bipuldeora
 ms.reviewer: danamartens
@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Security workspace allows you to further protect your site content and data from security threats, directly from Power Pages design studio. Use Advanced settings to configure HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross Origin Resource Sharing (CORS), cookies, permissions, and more.
+The Security workspace lets you further protect your site content and data from security threats, directly from Power Pages design studio. Use Advanced settings to configure HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross Origin Resource Sharing (CORS), cookies, permissions, and more.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
@@ -27,7 +27,7 @@ The Security workspace allows you to further protect your site content and data 
 
 ## Configure Content Security Policy (CSP)
 
-Content Security Policy (CSP) is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attack.
+Content Security Policy (CSP) is used by web servers to enforce a set of security rules for a web page. It helps protect sites from various types of security attacks like cross-site scripting (XSS), data injection, and other code injection attacks.
 
 ### Directives
 
@@ -35,11 +35,11 @@ The following directives are supported.
 
 | **Directive** | **Description** |
 |-------------------------|-------------------------|
-| Default source | Specifies the default source for content not explicitly defined by other directives. It acts as a fallback for other directives. |
-| Image source | Specifies valid sources for images. Controls the domains from which images can be loaded. |
+| Default source | Specifies the default source for content that's not explicitly defined by other directives. It acts as a fallback for other directives. |
+| Image source | Specifies valid sources for images and controls the domains from which images can be loaded. |
 | Font source | Specifies valid sources for fonts. Used to control the domains from which web fonts can be loaded. |
-| Script source | Specifies valid sources for JavaScript code. The script source can include specific domains, 'self' for the same origin, 'unsafe-inline' for inline scripts, and 'nonce-xyz' for scripts with a specific nonce. Choose to enable nonce or inject unsafe eval.<br />Learn more at [Manage your site's Content Security Policy: Turn on nonce](manage-content-security-policy.md#turn-on-nonce) |
-| Style source | Specifies valid sources for stylesheets. Similar to script-src, it can include domains, 'self', 'unsafe-inline', and 'nonce-xyz'. |
+| Script source | Specifies valid sources for JavaScript code. The script source can include specific domains and 'self' for the same origin. Choose whether to enable nonce or inject unsafe eval. |
+| Style source | Specifies valid sources for stylesheets. Similar to script-src, it can include domains and 'self'.|
 | Connect source | Specifies valid sources for XMLHttpRequest, WebSocket, or EventSource. Controls the domains to which the page can make network requests. |
 | Media source | Specifies valid sources for audio and video. Used to control the domains from which media resources can be loaded. |
 | Frame source | Specifies valid sources for frames. Controls the domains from which the page can embed frames. |
@@ -148,7 +148,7 @@ The setting corresponding to the HTTP Strict-Transport-Security header informs t
 
 ### Include referrer information in HTTP headers
 
-The Referrer-Policy HTTP header is used to control how much information about the origin of the request (referrer information) is disclosed in the HTTP headers when a user navigates from one page to another. This header helps control privacy and security aspects related to referrer information.
+The Referrer-Policy HTTP header controls how much information about the origin of the request (referrer information) is disclosed in the HTTP headers when a user navigates from one page to another. This header helps control privacy and security aspects related to referrer information.
 
 | **Value**                     | **Description**                                                                                                                                                  |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
