@@ -40,7 +40,23 @@ Before you begin, make sure you have:
 - A Power Pages environment with [admin privileges](../getting-started/create-manage.md#roles-and-permissions).
 - [Power Platform CLI (PAC CLI)](/power-platform/developer/cli/introduction) version 1.44.x or later installed and authenticated.
 - A Power Pages site on version 9.7.4.x or later.
-- A local Git repository with your custom front-end project, such as React, Angular or Vue.
+- [Allow JavaScript file uploads in Dataverse environments](#allow-javascript-file-uploads).
+- A local Git repository with your custom front-end project, such as React, Angular, or Vue.
+
+## Allow JavaScript file uploads
+
+By default, some Dataverse environments block the upload of JavaScript (`.js`) files. If you encounter the error **"Import failed: The attachment is either not a valid type or is too large. It cannot be uploaded or downloaded."**, update your environment settings to allow this file type.
+
+To adjust the settings in the Power Platform admin center for an environment, follow these steps:
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. In the navigation pane, select **Manage**.
+1. In the **Manage** pane, select **Environments**.
+1. Select an environment.
+1. In the command bar, select **Settings**.
+1. Expand **Product**, and then select **Privacy + Security**.
+1. In the **Blocked Attachments** section, remove `js` from the list of file extensions.
+1. Select **Save**.
 
 ## Create and deploy an SPA site
 
