@@ -1,7 +1,7 @@
 ---
 title: Site visibility in Power Pages
 description: Learn how to use the site visibility setting to control who has access to sites you create with Microsoft Power Pages.
-ms.date: 05/08/2025
+ms.date: 01/05/2026
 ms.topic: how-to
 author: nageshbhat-msft
 ms.author: nabha

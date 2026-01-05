@@ -5,7 +5,7 @@ description: Learn how to configure and secure Power Pages server logic, includi
 author: shwetamurkute
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 11/12/2025
+ms.date: 01/05/2026
 ms.topic: concept-article
 ---
 
