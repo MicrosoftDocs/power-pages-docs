@@ -1,13 +1,13 @@
 ---
 title: Liquid overview
 description: Learn how to use Liquid, an open-source template language, in Power Pages.
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 
 ms.topic: overview
 ms.custom: 
-ms.date: 01/15/2025
+ms.date: 01/05/2026
 ms.subservice:
-ms.author: gisingh
+ms.author: nabha
 ms.reviewer: dmartens
 contributors:
     - GitanjaliSingh33msft

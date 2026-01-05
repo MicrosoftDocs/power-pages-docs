@@ -1,13 +1,12 @@
 ---
 title: Enable Azure storage
 description: Learn how to enable Azure storage for Power Pages to take advantage of the greater file storage capability of Azure.
-author: gitanjalisingh33msft
-
+author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 09/18/2024
+ms.date: 01/05/2026
 ms.subservice: 
-ms.author: gisingh
+ms.author: nabha
 ms.reviewer: dmartens
 contributors:
     - GitanjaliSingh33msft

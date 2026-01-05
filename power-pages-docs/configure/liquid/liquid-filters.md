@@ -1,13 +1,13 @@
 ---
 title: Available Liquid filters
 description: Learn about the available liquid filters in Power Pages.
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
-ms.date: 01/15/2025
+ms.date: 01/05/2026
 ms.subservice:
-ms.author: gisingh
+ms.author: nabha
 ms.reviewer: dmartens
 contributors:
     - GitanjaliSingh33msft
