@@ -1316,7 +1316,7 @@ Type filters allow you to convert values of one type into other types.
 
 ### **boolean**
 
-Attempts to convert a string value into a Boolean. If the value is already a Boolean, it is returned unchanged. If the value can't be converted into a Boolean, null will be returned.
+Attempts to convert a string value into a Boolean. If the value is already a Boolean, it's returned unchanged. If the value can't be converted into a Boolean, null will be returned.
 
 This filter will also accept on, enabled, or yes as true, and off, disabled, and no as false.
 
@@ -1346,7 +1346,7 @@ false
 
 ### **decimal**
 
-Attempts to convert a string value into a decimal number. If the value is already a decimal number, it is returned unchanged. If the value can't be converted into a decimal number, null will be returned.
+Attempts to convert a string value into a decimal number. If the value is already a decimal number, it's returned unchanged. If the value can't be converted into a decimal number, null will be returned.
 
 **Code**
 
@@ -1370,7 +1370,7 @@ Attempts to convert a string value into a decimal number. If the value is alread
 
 ### **integer**
 
-Attempts to convert a string value into an integer. If the value is already an integer, it is returned unchanged. If the value can't be converted into an integer, null will be returned.
+Attempts to convert a string value into an integer. If the value is already an integer, it's returned unchanged. If the value can't be converted into an integer, null will be returned.
 
 **Code**
 
@@ -1396,7 +1396,7 @@ Attempts to convert a string value into an integer. If the value is already an i
 
 ### **string**
 
-Attempts to convert a value into its string representation. If the value is already a string, it is returned unchanged. If the value is null, null will be returned.
+Attempts to convert a value into its string representation. If the value is already a string, it's returned unchanged. If the value is null, null will be returned.
 
 ## URL filters
 
