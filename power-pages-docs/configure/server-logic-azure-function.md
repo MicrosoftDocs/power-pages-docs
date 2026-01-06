@@ -55,21 +55,22 @@ Expected response:
 ## Step 2: Create Power Pages server logic 
 
 1. Sign in to [Power Pages](https://make.powerpages.microsoft.com/).
-1.Select the required site, and then select **+Edit**.
+1. Select the required site, and then select **+Edit**.
 1. Go to the **Set up** workspace, and then select **Server logic (preview)**.
 1. Select **+New server logic**.
 1. Enter a name for the server logic. This name is used in the API as a resource identifier while you construct the server logic API. For example:
 
-    | **Property**  | **Example Value**                      |
-    |---------------|----------------------------------------|
-    | Name          | Call-azure-function                    |
-    | Display Name  | Call azure function from server logic  |
+   |Property|Example Value|
+   |---|---|
+   |Name|`Call-azure-function`|
+   |Display Name|Call Azure function from server logic|
 
 1. Select **+Add roles** to assign the appropriate web role. In this example, select **Authenticated User**, and then sign in to proceed.
-1. Select **Add**. 
+1. Select **Add**.
 1. Select the server logic, and then select **Edit code**.
 1. In the **Edit in Microsoft Visual Studio Code for the Web** dialog, select **Open Visual Studio Code** to author the custom logic. You'll find predefined methods and scripts in the file. Clear all existing code.
 1. Replace the code with the following code to invoke the Azure function URL.
+
     ```javascript
     // Azure Function URL including function key
     const functionUrl = '<replace function url copied in previous step>'
@@ -83,22 +84,23 @@ Expected response:
       
       return JSON.parse(response).Body;
     }
-    ``` 
+    ```
+
 1. Save the server logic.
 
-Server logic endpoint URL format: 
+Server logic endpoint URL format:
 
 `https://<your-power-page>/_api/serverlogics/cal-lazure-function` 
 
 ## Step 3: Call server logic from web page 
 
-1. Launch the [Power Pages design studio](/power-pages/getting-started/use-design-studio). 
+1. Launch the [Power Pages design studio](../getting-started/use-design-studio.md).
 1. In the **Pages** workspace, select **+ Page**. 
 1. In the **Add a page** dialog, enter **Server logic** in the **Name** box, and then select the **Start from blank** layout.
 1. Select **Add**. 
 1. In the upper-right corner, select **Edit Code**.
 1. Select **Open Visual Studio Code**. 
-1. Copy the following code snippet, and then paste it between the \<div\>\</div\> tags of the page section.
+1. Copy the following code snippet, and then paste it between the `<div></div>` tags of the page section.
 
 ```html
 <style>
