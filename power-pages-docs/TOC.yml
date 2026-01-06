@@ -609,6 +609,8 @@
           href: configure/server-logic-external-services.md
         - name: "How to: interact with Microsoft Graph and SharePoint using Server logic"
           href: configure/server-logic-graph-sharepoint.md
+        - name: "How to: interact with Azure function HTTP trigger using Server logic"
+          href: configure/server-logic-azure-function.md
     - name: Use Web API
       items:
         - name: Portals Web API overview
