@@ -59,10 +59,12 @@ Expected response:
 1. Go to the **Set up** workspace, and then select **Server logic (preview)**.
 1. Select **+New server logic**.
 1. Enter a name for the server logic. This name is used in the API as a resource identifier while you construct the server logic API. For example:
+
     | **Property**  | **Example Value**                      |
     |---------------|----------------------------------------|
     | Name          | Call-azure-function                    |
     | Display Name  | Call azure function from server logic  |
+
 1. Select **+Add roles** to assign the appropriate web role. In this example, select **Authenticated User**, and then sign in to proceed.
 1. Select **Add**. 
 1. Select the server logic, and then select **Edit code**.
