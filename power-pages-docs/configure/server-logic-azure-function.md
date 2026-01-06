@@ -1,8 +1,8 @@
 ---
-title: Connect Power Pages Server Logic to Azure Function
-description: Learn how to integrate Azure Function HTTP triggers with Power Pages Server Logic in this step-by-step guide. Build seamless server-side interactions effortlessly.
+title: Connect Power Pages server logic to Azure Function
+description: Learn how to integrate Azure Function HTTP triggers with Power Pages server sogic in this step-by-step guide. Build seamless server-side interactions effortlessly.
 #customer intent: As a developer, I want to integrate Azure Function HTTP triggers with Power Pages Server Logic so that I can create dynamic web applications.
-author: shwetamurkute
+author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
 ms.date: 01/06/2026
@@ -11,13 +11,13 @@ ms.topic: how-to
 
 # How to: interact with Azure Function HTTP trigger using server logic 
 
-This tutorial demonstrates how to integrate Azure Function HTTP trigger with Power Pages Server Logic. You use the official Azure Functions QuickStart Sample as the backend API and learn how to call it from Server Logic. 
+This tutorial demonstrates how to integrate Azure Function HTTP trigger with Power Pages server logic. You use the official Azure Functions QuickStart Sample as the backend API and learn how to call it from server logic. 
 
 For detailed Azure Function creation and HTTP trigger setup, see the official Azure Functions QuickStart: [Azure Functions JavaScript QuickStart Sample](/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=python-v2%2Cisolated-process%2Cnodejs-v4%2Cfunctionsv2&pivots=programming-language-javascript#example). 
 
 ## Step 1: Create Azure Function 
 
-For this tutorial, use the **official Azure Functions QuickStart sample**. 
+For this tutorial, use the official Azure Functions QuickStart sample. 
 
 1. Go to the Azure portal and create a **Function App** with the Node.js runtime. 
 1. Add a new **HTTP trigger function** named server-logic-api. 
@@ -49,12 +49,13 @@ Test the function directly with a browser or Postman:
 Expected response: 
 
 `https://yourfuncapp.azurewebsites.net/api/ServerLogicApi?name=Alice&code=XXXX`
+
 `{"message": "Hello Alice! " }`
 
 ## Step 2: Create Power Pages server logic 
 
 1. Sign in to [Power Pages](https://make.powerpages.microsoft.com/).
-1. Select site **+ Edit**. 
+1.Select the required site, and then select **+Edit**.
 1. Go to the **Set up** workspace, and then select **Server logic (preview)**.
 1. Select **+New server logic**.
 1. Enter a name for the server logic. This name is used in the API as a resource identifier while you construct the server logic API. For example:
