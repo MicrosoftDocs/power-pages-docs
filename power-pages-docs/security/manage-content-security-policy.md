@@ -1,7 +1,7 @@
 ---
 title: Manage your site's Content Security Policy
 description: Learn how to manage the Content Security Policy (CSP) for sites you create with Microsoft Power Pages.
-ms.date: 07/21/2023
+ms.date: 01/05/2026
 ms.topic: how-to
 author: nabha
 ms.author: nabha

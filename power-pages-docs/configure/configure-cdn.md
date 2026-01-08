@@ -4,7 +4,7 @@ description: Learn how to configure a site with Content Delivery Network.
 author: nageshbhat-msft
 
 ms.topic: how-to
-ms.date: 11/28/2025
+ms.date: 01/05/2026
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens

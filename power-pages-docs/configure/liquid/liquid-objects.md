@@ -1,13 +1,13 @@
 ---
 title: Available Liquid objects
 description: Learn about the available liquid objects in Power Pages.
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
-ms.date: 01/15/2025
+ms.date: 01/05/2026
 ms.subservice:
-ms.author: gisingh
+ms.author: nabha
 ms.reviewer: dmartens
 contributors:
     - GitanjaliSingh33msft
@@ -78,14 +78,14 @@ The ads object allows you to select a specific ad or ad placement:
 
 |Attribute   |Description   |
 |---|---|
-| placements        | Returns the adplacements object.    |
-| \[ad name or id\] | You can access any ad by its Name or Id properties. <br> `{% assign ad = ads[Ad Name] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
+| placements        | Returns the placements object.    |
+| \[ad name or id\] | You can access any ad by its Name or ID properties. <br> `{% assign ad = ads[Ad Name] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
 
 ### Ad Placements attributes
 
 |Attribute   |Description   |
 |---|---|
-| \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.<br>`{% assign placement = ads.placements[Placement Name or Id] %}`<br>`{% assign placement = ads.placements[2423d713-abb3-44c3-8a7d-c445e16fccad] %}`  |
+| \[ad placement name or id\] | You can access any placement by its Name or ID properties.<br>`{% assign placement = ads.placements[Placement Name or Id] %}`<br>`{% assign placement = ads.placements[2423d713-abb3-44c3-8a7d-c445e16fccad] %}`  |
 
 ### Ad Placement attributes
 
@@ -203,8 +203,8 @@ The following table explains the attributes associated with the blogs object.
 
 |Attribute   |Description   |
 |---|---|
-| posts               | Returns a blogposts object containing all blog posts in the portal.     |
-| \[blog name or id\] | You can access any blog by its Name or Id properties.                   
+| posts               | Returns a blog posts object containing all blog posts in the portal.     |
+| \[blog name or id\] | You can access any blog by its Name or ID properties.                   
 
 ```
 {% assign blog = blogs["Blog Name"] %}                             
@@ -220,7 +220,7 @@ The following table explains various attributes associated with blog Object.
 
 |Attribute   |Description   |
 |---|---|
-| posts | Returns a blogposts object containing all blog posts for the blog. |
+| posts | Returns a blog posts object containing all blog posts for the blog. |
 | Name  | The name of the blog.                                              |
 | title | The title of the blog.                                             |
 | url   | The URL of the blog.                                               |
@@ -265,7 +265,7 @@ The following table explains various attributes associated with blogpost Object.
 > To avoid potential cross-site scripting (XSS) issues, always use [escape filter](liquid-filters.md#escape) to HTML encode string data whenever using **entities** Liquid object to read data provided by the user that can't be trusted.
 
 > [!NOTE]
-> Some of the naming conventions of Dataverse have changed, for example, Dataverse entities are now called [tables](/power-apps/maker/data-platform/data-platform-intro#terminology-updates). The name changes do not apply to Liquid objects. The Liquid entities object will continue to be referred to as **entities**.
+> Some of the naming conventions of Dataverse have changed, for example, Dataverse entities are now called [tables](/power-apps/maker/data-platform/data-platform-intro#terminology-updates). The name changes don't apply to Liquid objects. The Liquid entities object continues to be referred to as **entities**.
 
 Allows you to load any Dataverse table by ID. If the table exists, a table object is returned. If a table with the given ID isn't found, [null](liquid-types.md#null) is returned.  
 
@@ -295,7 +295,7 @@ An entity object provides access to the attributes of a Dataverse table record.
 
 |             Attribute              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                 Id                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The GUID ID of the table, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|                 ID                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The GUID ID of the table, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |           logical\_name            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   The Dataverse logical name of the table.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |               Notes                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Loads any notes (annotation) associated with the table, ordered from oldest to newest (`createdon`). Notes are returned as note objects.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |            permissions             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Loads Table Permission assertion results for the table. Results are returned as a permissions object.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -309,7 +309,7 @@ Lookup attribute values are returned as associated table reference objects, with
 
 |   Attribute   |                                                Description                                                |
 |---------------|-----------------------------------------------------------------------------------------------------------|
-|      Id       | The GUID ID of the referenced table, as a string. <br> For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8 |
+|      ID       | The GUID ID of the referenced table, as a string. <br> For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8 |
 | logical\_name |  The Dataverse logical name of the referenced table.   |
 |     Name      |                           The primary name attribute of the referenced table.                            |
 
@@ -357,7 +357,7 @@ Attempts to load reflexive (that is, self-referential) relationships on entities
 |---------------|---------------------------------------------------------------------------------------------------------------|
 | is\_reflexive | Returns true. Can be used to test whether an object returned by a relationship is a reflexive relationship object. |
 | referenced    | Returns an array of referenced entities for the given relationship.                                           |
-| referencing   | Returns a referencing table for the given relationship. Returns null if no referencing table exists. If the relationship is many-to-many (N:N), returns an array of referencing entities.                          
+| referencing   | Returns a referencing table for the given relationship. Returns null if no referencing table exists. If the relationship is many-to-many (N:N), return an array of referencing entities.                          
 
 ## entitylist
 
@@ -376,7 +376,7 @@ The entitylist object is used within the [Dataverse table tags](dataverse-liquid
 |            create\_enabled            |                                                                                Returns true if creation of new records is configured for the list. Returns false otherwise.                                                                                |
 |              create\_url              |                                                                                          Returns the configured URL path for a creation link/button for the list.                                                                                          |
 |            detail\_enabled            |                                                                         Returns true if a detail view for individual records is configured for the list. Returns false otherwise.                                                                          |
-|         detail\_id\_parameter         |               Returns the query string parameter name to use for the record ID when constructing a record detail view URL. See [URL filters](liquid-filters.md#url-filters) for details on using Liquid filters to construct URLs. For example, id                |
+|         detail\_id\_parameter         |               Returns the query string parameter name to use for the record ID when constructing a record detail view URL. See [URL filters](liquid-filters.md#url-filters) for details on using Liquid filters to construct URLs. For example, ID                |
 |             detail\_label             |                                                                                     Returns the configured localized label for detail view links/buttons for the list.                                                                                     |
 |              detail\_url              |                                                                                       Returns the configured URL path for a detail view links/buttons for the list.                                                                                        |
 |           empty\_list\_text           |                                                                                Returns the configured localized text to be displayed when the list view returns no results.                                                                                |
@@ -388,7 +388,7 @@ The entitylist object is used within the [Dataverse table tags](dataverse-liquid
 |            filter\_enabled            |                                                                               Returns true if advanced attribute filtering is enabled for the list. Returns false otherwise.                                                                               |
 | filter\_portal\_user\_attribute\_name |                                                 Returns the attribute logical name for the lookup to contact that is used to filter result records by current portal user's contact. For example, contactid                                                  |
 |   filter\_website\_attribute\_name    |                                              Returns the attribute logical name for the lookup to adx\_website that is used to filter result records by the current portal website. For example, adx\_websiteid                                              |
-|            language\_code             |                                               Returns the Dataverse integer language code that will be used to select all localized labels for this list.                                                |
+|            language\_code             |                                               Returns the Dataverse integer language code that is used to select all localized labels for this list.                                                |
 |              page\_size               |                                                                                                   Returns the configured result page size for the list.                                                                                                    |
 |          primary\_key\_name           |                                                                                  Returns the primary key attribute logical name for records to be displayed by this list.                                                                                  |
 |            search\_enabled            |                                                                                         Returns true if search is enabled for this list. Returns false otherwise.                                                                                          |
@@ -403,7 +403,7 @@ The entitylist object is used within the [Dataverse table tags](dataverse-liquid
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |           columns           |                                                         Returns the columns of the view as list view column objects.                                                         |
 |    entity\_logical\_name    |               Returns the Dataverse table logical name for the records included in the view. For example, contact                |
-|             Id              |                                                                          Returns the GUID ID of the view.                                                                           |
+|             ID              |                                                                          Returns the GUID ID of the view.                                                                           |
 |       language\_code        | Returns the Dataverse integer language code that is used to select all localized labels (column headers, etc.) for the view. |
 |            Name             |                                          Returns the Dataverse display name of the view.                                          |
 | primary\_key\_logical\_name |        Returns the Dataverse table primary key logical name for the records included in the view. For example, contactid         |
@@ -434,7 +434,7 @@ The entityview object is used within the entityview tag, and provides access to 
 | entity\_permission\_denied  | Returns true if access to view results was denied due to insufficient Table Permissions for the current user. Returns false if read access to view results was granted. |
 |    entity\_logical\_name    |                   The Dataverse table logical name of the view result records. For example, contact                   |
 |         first\_page         |                 The page number of the first page of view results. This is 1 unless there were no results returned, in which case it's null.                  |
-|             Id              |                            The GUID ID of the Dataverse view that defines this entityview.                             |
+|             ID              |                            The GUID ID of the Dataverse view that defines this entityview.                             |
 |       language\_code        |             The Dataverse integer language code being used to load localized labels for the current view.              |
 |         last\_page          |                                 The page number of the last page of view results. If there were no results returned, this value is null.                                  |
 |            name             |              The name of the Dataverse view that defines this entityview., for example, Active Contacts.               |
@@ -462,7 +462,7 @@ The events object has following attributes:
 |Attribute   |Description   |
 |---|---|
 |occurrences |Returns an eventoccurancessobject containing all event occurrences in the portal |
-|[event name or id] |You can access any event by its Name or Id properties.<br>{% assign event = events[&quot;Event Name&quot;] %}<br>{% assign event = events[&quot;da8b8a92-2ee6-476f-8a21-782b047ff460&quot;] %} |
+|[event name or ID] |You can access any event by its Name or ID properties.<br>{% assign event = events[&quot;Event Name&quot;] %}<br>{% assign event = events[&quot;da8b8a92-2ee6-476f-8a21-782b047ff460&quot;] %} |
 
 ### event Object
 
@@ -632,7 +632,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 | All                  | Returns all forum objects in the portal. Note that website.forums Is also an equivalent.    |
 | thread\_count        | Returns the integer value of the count of how many threads there are in the entire website. |
 | post\_count          | Returns the integer value of the total number of posts in the portal.                       |
-| \[forum name or id\] | You can access any forum by its Name or Id properties. <br>`{% assign forum = forums[Forum Name] %}<br>{% assign forum = forums[da8b8a92-2ee6-476f-8a21-782b047ff460] %} 
+| \[forum name or id\] | You can access any forum by its Name or ID properties. <br>`{% assign forum = forums[Forum Name] %}<br>{% assign forum = forums[da8b8a92-2ee6-476f-8a21-782b047ff460] %} 
 
 ### forum Object
 
@@ -985,13 +985,13 @@ The polls object allows you to select a specific poll or poll placement:
 |Attribute   |Description   |
 |---|---|
 | placements          | Returns the pollplacements object.                                      |
-| \[poll name or id\] | You can access any poll by its Name or Id properties. `{% assign poll = polls[Poll Name] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
+| \[poll name or id\] | You can access any poll by its Name or ID properties. `{% assign poll = polls[Poll Name] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
 
 ### Poll Placements Attributes
 
 |Attribute   |Description   |
 |---|---|
-| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.`{% assign placement = polls.placements[Placement Name or Id] %}`<br>`{% assign placement = polls.placements[7677c5d4-406e-4b6c-907c-916ac17dba0f] %} `|
+| \[poll placement name or id\] | You can access any poll placement by its Name or ID properties.`{% assign placement = polls.placements[Placement Name or Id] %}`<br>`{% assign placement = polls.placements[7677c5d4-406e-4b6c-907c-916ac17dba0f] %} `|
 
 ### Poll Placement Attributes
 
@@ -1112,7 +1112,7 @@ The searchindex object is used within the [Dataverse table tags](dataverse-liqui
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    entity     |                                                                                                                            The underlying [entities](#entities) for the result.                                                                                                                            |
 |   fragment    | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag. Certain types of queries don't support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property is null in those cases. |
-|      Id       |                                                             The Dataverse table ID of the underlying record for the result, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                              |
+|      ID       |                                                             The Dataverse table ID of the underlying record for the result, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                              |
 | logical\_name |                                                                           The Dataverse table logical name of the underlying record for the result. For example, adx\_webpage                                                                           |
 |    number     |                                                            The number of the result, across all result pages, starting from 1. For example, for the first result of the second page of results, with a page size of 10, this value is 11.                                                             |
 |     score     |                                                                                                 The Lucene score of the result, as a floating-point value. Results are returned ordered by this value.                                                                                                 |
@@ -1317,7 +1317,7 @@ In addition to having all of the attributes of an [entity](#entity) object, user
 |    Attribute     |                                                                                                                                                                                     Description                                                                                                                                                                                     |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      roles       |                                                      Returns the roles to which the user belongs, as an [array](liquid-types.md#array).<br>`{% if user.roles contains 'Administrators' %} User is an administrator. {% endif %}`<br>**Note**: You can also use the `has_role` filter to test for individual role memberships.                                                       |
-| basic_badges_url | Returns the service url to retrieve a user's badges.<br>To render badges for a user, you must include a tag with the attributes "data-badge" and "data-uri". To render the current user's badges:<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>To render out a user's badges by id (variable userid):<br>\`<div data-badge data-uri='{{user.basic_badges_url |
+| basic_badges_url | Returns the service url to retrieve a user's badges.<br>To render badges for a user, you must include a tag with the attributes "data-badge" and "data-uri". To render the current user's badges:<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>To render out a user's badges by ID (variable userid):<br>\`<div data-badge data-uri='{{user.basic_badges_url |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                     |
 
 ## weblinks

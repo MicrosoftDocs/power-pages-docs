@@ -2,10 +2,10 @@
 title: How server-side caching works in Power Pages
 description: Learn how server-side caching in works Power Pages
 ms.topic: concept-article
-ms.date: 04/11/2023
+ms.date: 01/05/2026
 ms.subservice: 
-author: PramithaU
-ms.author: pudupa
+author: nageshbhat-msft
+ms.author: nabha
 ms.reviewer: danamartens
 contributors:
     - dileepsinghmicrosoft
