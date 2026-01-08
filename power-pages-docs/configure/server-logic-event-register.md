@@ -2,7 +2,7 @@
 title: Create an event registration page
 description: Create an event registration page that automates attendee validation, calendar bookings, and confirmation emails with this comprehensive guide.
 #customer intent: As a developer, I want to use the Microsoft Graph API to book events in a shared Outlook calendar so that scheduling is automated.
-author: shwetamurkute
+author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
 ms.date: 09/30/2025
@@ -17,7 +17,7 @@ ms.topic: concept-article
 - Event (dropdown from Dataverse: “Product Launch”, “Training Session”, “Webinar”)
 - Preferred Date
 
-## Step 2: On Submit (Server Logic runs)
+## Step 2: On Submit (server logic runs)
 
 - Validates attendee info (Dataverse Read)
 - Creates an “Event Registration” record in **Dataverse**
