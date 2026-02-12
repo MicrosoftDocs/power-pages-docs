@@ -28,12 +28,12 @@ Create server logic in the [Set up workspace](setup-workspace.md) in design stud
 ## Call server logic from client script
 
 > [!NOTE]
-> Each request to server logic request should include Cross-Site Request Forgery (CSRF) token. In general, *shell.safeAjax* method wraps the CSRF token. Learn more about how to construct requests in [CSRF wrapper AJAX function](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
+> Each request to server logic request should include Cross-Site Request Forgery (CSRF) token. In general, *webapi.safeAjax* method wraps the CSRF token. Learn more about how to construct requests in [CSRF wrapper AJAX function](/power-pages/configure/web-api-http-requests-handle-errors#example-wrapper-ajax-function-for-the-csrf-token).
 
 ### Example: calling HTTP GET
 
 ```javascript
-shell.safeAjax({
+webapi.safeAjax({
   type: "GET",
   url: "/_api/serverlogics/serverlogicname?id=1",
   contentType: "application/json",
@@ -46,7 +46,7 @@ shell.safeAjax({
 ### Example: calling HTTP POST
 
 ```javascript
-shell.safeAjax({
+webapi.safeAjax({
   type: "POST",
   url: "/_api/serverlogics/serverlogicname",
   contentType: "application/json",
@@ -62,7 +62,7 @@ shell.safeAjax({
 ### Example: calling HTTP PUT
 
 ```javascript
-shell.safeAjax({
+webapi.safeAjax({
   type: "PUT",
   url: "/_api/serverlogics/serverlogicname",
   contentType: "application/json",
@@ -78,7 +78,7 @@ shell.safeAjax({
 ### Example: calling HTTP PATCH
 
 ```javascript
-shell.safeAjax({
+webapi.safeAjax({
   type: "PATCH",
   url: "/_api/serverlogics/serverlogicname",
   contentType: "application/json",
@@ -94,7 +94,7 @@ shell.safeAjax({
 ### Example: calling HTTP DELETE
 
 ```javascript
-shell.safeAjax({
+webapi.safeAjax({
   type: "DELETE",
   url: "/_api/serverlogics/serverlogicname?id=1",
   contentType: "application/json"
