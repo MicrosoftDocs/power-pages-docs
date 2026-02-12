@@ -55,11 +55,11 @@ Set Microsoft Entra as an identity provider for your site.
 
 ## Create an app registration in Azure
 
-[Create an app registration in the Azure portal](/azure/active-directory/develop/quickstart-register-app) with your site's reply URL as the redirect URI.
+[Create an app registration in the Azure portal](/entra/identity-platform/quickstart-register-app) with your site's reply URL as the redirect URI.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-1. Search for and select **Azure Active Directory**.
+1. Search for and select **Microsoft Entra ID**.
 
 1. Under **Manage**, select **App registrations**.
 
@@ -67,7 +67,7 @@ Set Microsoft Entra as an identity provider for your site.
 
 1. Enter a name.
 
-1. Select one of the [**Supported account types**](/azure/active-directory/develop/quickstart-register-app) that best reflects your organization requirements.
+1. Select one of the [**Supported account types**](/entra/identity-platform/quickstart-register-app) that best reflects your organization requirements.
 
 1. Under **Redirect URI**, select **Web** as the platform, and then enter the reply URL of your site.
 
@@ -137,7 +137,7 @@ The additional settings give you finer control over how users authenticate with 
 
 - **Valid issuers**: Enter a comma-separated list of issuer URLs.
 
-- **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
+- **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/entra/identity-platform/reference-claims-customization).
 
 - **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.
 
@@ -153,7 +153,7 @@ The additional settings give you finer control over how users authenticate with 
 
 ## Set up additional claims
 
-1. Enable [optional claims in Microsoft Entra ID](/azure/active-directory/develop/active-directory-optional-claims#configuring-directory-extension-optional-claims).
+1. Enable [optional claims in Microsoft Entra ID](/entra/identity-platform/optional-claims).
 
 1. Set **Scope** to include the additional claims; for example, `openid email profile`.
 
@@ -168,7 +168,7 @@ In these examples, the first name, last name, and email addresses supplied with 
 
 ## Allow multitenant Microsoft Entra authentication
 
-To allow Microsoft Entra users to authenticate from any tenant in Azure, not just from a specific tenant, [change the Microsoft Entra application registration](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant) to multitenant.
+To allow Microsoft Entra users to authenticate from any tenant in Azure, not just from a specific tenant, [change the Microsoft Entra application registration](/entra/identity-platform/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multitenant) to multitenant.
 
 You also need to set **Issuer filter** in your provider's [additional settings](#additional-settings-in-power-pages).
 
