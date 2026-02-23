@@ -4,7 +4,7 @@ description: 'User authentication for agents: Learn how to set up single sign-on
 author: DanaMartens
 contributors: null
 ms.topic: how-to
-ms.date: 07/31/2025
+ms.date: 02/23/2026
 ms.author: dmartens
 ms.reviewer: dmartens
 ms.custom:
@@ -20,9 +20,15 @@ Power Pages supports multiple authentication methods to help you control how use
 
 When you associate an agent with Power Pages, the site lets users use single sign-on (SSO), so they don't need to sign in separately to use the agent. Power Pages supports these authentication types:
 
-1. **No Authentication**
+### No Authentication
 
     The agent can be accessed without requiring user authentication. This option is the default setting when an agent is created from a form.
+
+    > [!NOTE]
+    > Power Pages doesn't support [Authenticate with Microsoft](/microsoft-copilot-studio/configuration-end-user-authentication#authenticate-with-microsoft) user authentication.
+
+
+### Authenticate manually
 
 1. **Token passthrough Authentication**
 
