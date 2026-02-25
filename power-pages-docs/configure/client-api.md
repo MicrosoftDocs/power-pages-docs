@@ -479,7 +479,7 @@ $pages.languages.setActive('hi-IN');
 
 ## $pages.agent
 
-The `$pages.agent` object provides methods to establish a communication between site and Microsoft Copilot Studio agent available for the user accessing the site. 
+The `$pages.agent` object provides method to establish communication between the site and the Microsoft Copilot Studio agent available to the current user. 
 
 ```javascript
 $pages.agent.SendActivity(
