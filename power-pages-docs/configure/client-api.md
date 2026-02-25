@@ -476,3 +476,98 @@ let allLanguages = $pages.languages.getAll();
 let activeLanguage = $pages.languages.getActive();
 $pages.languages.setActive('hi-IN');
 ```
+
+## $pages.agent
+
+The `$pages.agent` object provides methods to establish a communication between site and Microsoft Copilot Studio agent available for the user accessing the site. 
+
+```javascript
+$pages.agent.SendActivity(
+    agentSchemaName: string,
+    inputActivity: object,
+    responseSubscriber: function,
+    errorSubscriber: function
+);
+```
+
+| Parameter Name | Type |Description |
+|----------------|----- |--------------------|
+| `agentSchemaName` | String | Schema name of the bot to which the activity is to be sent. |
+| `inputActivity`   | Object | Object containing the text or event to be sent to the bot. |
+| `responseSubscriber` | function | Callback function that runs when the agent sends a response. |
+| `errorSubscriber` | function | Callback function that handles errors. |
+
+Return type: void - The function doesn't return anything.
+
+Response from an agent recieved in below object
+
+| Name | Type | Description |
+|----------------|----- |--------------------|
+| `Type` | String | Type of the activity (e.g., message) |
+| `Text` | String | Optional, message from agent. |
+| `TextFormat` | String | Optional, format of the message's text (e.g., markdown, plain, XML). |
+| `Id` | String | ID that uniquely identifies the activity. |
+| `From` | Object | Specifies the sender of the activity (includes id, name (optional), and role information).|
+| `Conversation` | Object | Contains the ID of the conversation to which the activity belongs. |
+| `InputHint` | String | Optional, indicates whether the bot is accepting, expecting, or ignoring user input. |
+| `replyToId` | String | ID of the reply message.|
+
+
+### Example
+
+#### Callback method
+Define the `responseSubscriber` and `errorSubscriber` callback functions to handle agent responses and errors.
+
+```javascript
+const responseSubscriber = (response) => {  
+// Replace with your response handling.
+console.log('Agent response:', response);
+};
+
+const errorSubscriber = (error) => {
+// Replace with your error handling.
+console.error('Error:', error);
+};  
+
+// Replace with your agent schema name.
+const agentSchemaName = 'agent SchemaName';  
+```
+
+#### Send message to agent
+
+```javascript
+const inputActivity = {
+    text: 'Hello!', // Message to the agent.
+    };
+$pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber, 
+  ErrorSubscriber);
+
+```
+
+#### Invoke client event
+
+```javascript
+const inputActivity = {
+    name: 'AgentEvent', // The name of the event to be invoked
+    text: 'Hello!', // Message to the agent. 
+    value: {'value1, 'value2'} // Open-ended value used to carry additional data or payloads necessary for specific bot operations or responses
+    };
+$pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber, 
+  ErrorSubscriber);
+
+```
+### Error messages
+
+Here are possible error messages a user can encounter and their potential causes.
+
+| **Error type** | **Cause** | **Error message for user** |
+|----|----|----|
+| Agent schema validation | Invalid bot schema name provided or user doesn't have access permissions to the agent | `Invalid bot schema name or access denied. Please check the bot schema name and try again` |
+| Fetch token error | An error occurred while fetching the direct line token | `Something went wrong while fetching the token. Please try again` |
+| Posting activity error (retry) | An error occurred while posting the activity and a retry is needed. | `Something went wrong while posting the activity: retry` |
+| Posting activity error (timeout) | Timed out while waiting for outgoing message or postActivity | `Timed out while posting activity: Please retry` |
+| Posting activity error (invalid activity) | The input activity doesn't have text or a name to invoke the event. | `Invalid activity: At least one of text, name, or attachments must be provided` |
+| Posting activity error (user ID not found or token not found) | Token isn't found in session storage or user ID isn't found in token | `Error retrieving user ID: {error message}` |
+| Posting activity error (general) | An unspecified error occurred while posting the activity | `Something went wrong while posting the activity: Please try again` |
+| Direct line connection error | An error occurred while creating direct line connection with the bot. | `Something went wrong while creating direct line connection: Please try again`|
+| General error | An unexpected error that doesn't fall into the above categories | `An unexpected error occurred while sending activity: Please try again` |
