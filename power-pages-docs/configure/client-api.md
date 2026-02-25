@@ -549,8 +549,7 @@ $pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber,
 ```javascript
 const inputActivity = {
     name: 'AgentEvent', // The name of the event to be invoked
-    text: 'Hello!', // Message to the agent. 
-    value: {'value1', 'value2'} // Open-ended value used to carry additional data or payloads necessary for specific agent operations or responses
+    value: {key1:'value1', key2:'value2'} // Open-ended value used to carry additional data or payloads necessary for specific agent operations or responses
     };
 
 $pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber, 
