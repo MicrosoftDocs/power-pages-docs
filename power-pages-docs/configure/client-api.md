@@ -499,8 +499,7 @@ $pages.agent.SendActivity(
 
 Return type: void - The function doesn't return anything.
 
-Response from an agent recieved in below object
-
+Response object from agent recieved in below format
 | Name | Type | Description |
 |----------------|----- |--------------------|
 | `Type` | String | Type of the activity (e.g., message) |
@@ -539,6 +538,7 @@ const agentSchemaName = 'agent SchemaName';
 const inputActivity = {
     text: 'Hello!', // Message to the agent.
     };
+
 $pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber, 
   ErrorSubscriber);
 
@@ -550,8 +550,9 @@ $pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber,
 const inputActivity = {
     name: 'AgentEvent', // The name of the event to be invoked
     text: 'Hello!', // Message to the agent. 
-    value: {'value1, 'value2'} // Open-ended value used to carry additional data or payloads necessary for specific bot operations or responses
+    value: {'value1', 'value2'} // Open-ended value used to carry additional data or payloads necessary for specific agent operations or responses
     };
+
 $pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber, 
   ErrorSubscriber);
 
