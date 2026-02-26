@@ -490,8 +490,8 @@ $pages.agent.SendActivity(
 );
 ```
 
-| Parameter Name | Type |Description |
-|----------------|----- |--------------------|
+| Parameter Name | Type | Description |
+|----------------|----- |-------------|
 | `agentSchemaName` | String | Schema name of the bot to which the activity is to be sent. |
 | `inputActivity`   | Object | Object containing the text or event to be sent to the bot. |
 | `responseSubscriber` | function | Callback function that runs when the agent sends a response. |
@@ -501,10 +501,10 @@ Return type: void - The function doesn't return anything.
 
 Response object from agent recieved in below format
 | Name | Type | Description |
-|----------------|----- |--------------------|
-| `Type` | String | Type of the activity (e.g., message) |
-| `Text` | String | Optional, message from agent. |
-| `TextFormat` | String | Optional, format of the message's text (e.g., markdown, plain, XML). |
+|------|----- |-------------|
+| `type` | String | Type of the activity (e.g., message) |
+| `text` | String | Optional, message from agent. |
+| `textFormat` | String | Optional, format of the message's text (e.g., markdown, plain, XML). |
 | `Id` | String | ID that uniquely identifies the activity. |
 | `From` | Object | Specifies the sender of the activity (includes id, name (optional), and role information).|
 | `Conversation` | Object | Contains the ID of the conversation to which the activity belongs. |
