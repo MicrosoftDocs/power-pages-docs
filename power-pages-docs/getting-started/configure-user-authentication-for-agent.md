@@ -16,15 +16,14 @@ ms.custom:
 
 Power Pages supports multiple authentication methods to help you control how users access agents on your site. This article explains how to configure user authentication for agents, including single sign-on (SSO), token passthrough, and token-based authentication. Use these options to provide a seamless and secure sign-in experience for your users.
 
-When you associate an agent with Power Pages, the site lets users use single sign-on (SSO), so they don't need to sign in separately to use the agent. 
+When you associate an agent with Power Pages, the site lets users use single sign-on (SSO), so they don't need to sign in separately to use the agent.
 
 ## No Authentication
 
-   The agent can be accessed without requiring user authentication. This option is the default setting when an agent is created from a form.
+The agent can be accessed without requiring user authentication. This option is the default setting when an agent is created from a form.
 
-    > [!NOTE]
-    > Power Pages doesn't support [Authenticate with Microsoft](/microsoft-copilot-studio/configuration-end-user-authentication#authenticate-with-microsoft) user authentication.
-
+> [!NOTE]
+> Power Pages doesn't support [Authenticate with Microsoft](/microsoft-copilot-studio/configuration-end-user-authentication#authenticate-with-microsoft) user authentication.
 
 ## Authenticate manually
 
@@ -32,7 +31,7 @@ Power Pages supports single sign-on for all authentication providers available i
 
 ### Authenticate with Microsoft Entra ID
 
-Select this service provider if the agent is intended to be accessible only to site users authenticated through Microsoft Entra ID. For detailed configuration refer [Configure Microsoft ENtra ID with Power Pages](). 
+Select this service provider if the agent is intended to be accessible only to site users authenticated through Microsoft Entra ID. For detailed configuration refer [Configure Microsoft Entra ID with Power Pages](configure-entra-id-authentication-for-agent.md).
 
 ### Authenticate with Generic OAuth 2
 
@@ -40,17 +39,17 @@ Use this service provider when the Power Pages site is configured with an identi
 
 1. **Token passthrough Authentication**
 
-    The agent relies on Power Pages’ authentication service. When configured with the implicit flow, the agent supports all identity providers set up in the Power Pages site including un-authenticated users. 
+The agent relies on Power Pages’ authentication service. When configured with the implicit flow, the agent supports all identity providers set up in the Power Pages site including un-authenticated users. 
 
-    > [!NOTE]
-    > Agents configured with token passthrough authentication can't be tested directly within of Microsoft Copilot Studio, as they require sign-in through the Power Pages site.
+> [!NOTE]
+> Agents configured with token passthrough authentication can't be tested directly within of Microsoft Copilot Studio, as they require sign-in through the Power Pages site.
 
-    To configure token [passthrough authentication](/microsoft-copilot-studio/configure-sso-3p), update all values as **placeholder**
+To configure token [passthrough authentication](/microsoft-copilot-studio/configure-sso-3p), update all values as **placeholder**
 
-     To enable this setup, add the following site settings:
-   
-    | Authentication/BearerAuthentication/Enabled | True |
-    | :------------------------------------------ | :--- |
+To enable this setup, add the following site settings:
+
+| Authentication/BearerAuthentication/Enabled | True |
+| :------------------------------------------ | :--- |
 
 1. **Token based authentication**
 
