@@ -23,11 +23,11 @@ TBD
 1. Navigate to the **Set up** workspace and then select **Agents**.
 1. Enable **Site agent** using the toggle switch to create the agent. 
 
-   :::image type="content" source="media/create-custom-chat-interface/enable-site-agent.png" alt-text="Screenshot that shows how to enable Site agent in Power Pages.":::
+   :::image type="content" source="media/create-custom-chat-interface/site-agent-enable.png" alt-text="Screenshot that shows how to enable Site agent in Power Pages.":::
 
 1. After successful provisioning, a new agent with the site name appended with "bot" is added and appears in the **Agents** in the site list. Select the three vertical dots next to the newly provisioned agent and click **Edit**.
 
-   :::image type="content" source="media/create-custom-chat-interface/enable-site-agent.png" alt-text="Screenshot that shows the agent menu and the Edit option.":::
+   :::image type="content" source="media/create-custom-chat-interface/agent-menu.png" alt-text="Screenshot that shows the agent menu and the Edit option.":::
 
 1. Keep the **Show in Chat Widget** toggle set to **On**.
 
