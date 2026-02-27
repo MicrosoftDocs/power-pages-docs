@@ -1,11 +1,11 @@
 ---
 title: Configure Microsoft Entra ID Authentication for Power Pages Agent
 description: 'Learn how to configure Microsoft Entra ID authentication in Copilot Studio and enable secure access through a Power Pages site'
-author: JoshuaPartlow
+author: nageshbhat-msft
+ms.author: nabha
 contributors: null
 ms.topic: how-to
 ms.date: 02/23/2026
-ms.author: joshuapa
 ms.reviewer: joshuapa
 ---
 

@@ -222,6 +222,8 @@
           items:
             - name: Customize your agent
               href: getting-started/customize-your-agent.md
+            - name: Create a custom chat interface
+              href: getting-started/create-custom-chat-interface.md
             - name: Add an agent available in Microsoft Copilot Studio
               href: getting-started/agent-how-to.md
     - name: Style your site
