@@ -60,6 +60,7 @@ Add the following delegated permissions:
 9. Expand **CopilotStudio** and select **CopilotStudio.Copilots.Invoke**
 10. Select **Add permissions**
 11. Click **Grant admin consent**.
+<Image>
 
 ## Step 2: Configure Microsoft Entra ID for agent
 
@@ -112,7 +113,7 @@ This step is an optional one required to call Power Pages API from the agent. If
 
 1. Copy the scope.
 
-## Step 4: Update the scopes in Agent security configuration
+## Step 4: Update scopes in Agent security configuration
 You have copied two scopes, one from each app registration. These scopes enable single sign-on (SSO) for the Power Pages site and grant the agent permission to access the Power Pages Web API.
 1. Open **Agent** added to site
 2. Under **Settings**, select **Security > Authentication**.
@@ -121,11 +122,11 @@ You have copied two scopes, one from each app registration. These scopes enable 
 5. Paste the Site App scope next to the existing scope.
    <Image>
 7. Select **Save**.
-8. Close *Settings** page
+8. Close **Settings** page
 9. **Publish** agent
    
    
-## Step 4: Configure Power Pages site settings
+## Step 5: Configure Power Pages site settings
 
 In power pages, add or update the following site settings:
 
@@ -137,7 +138,7 @@ In power pages, add or update the following site settings:
 | Authentication/BearerAuthentication/ValidIssuer | `https://login.microsoftonline.com/<tenant-id>/v2.0` |
 | SiteCopilot/PVA/AuthenticationMethod | OpenIdConnect |
 
-## Step 5: Add the Copilot authentication client ID to the bot consumer
+## Step 6: Add the Copilot authentication client ID to the bot consumer
 
 1. Open the Power Pages site in edit mode.
 1. Go to the **Data** workspace.
