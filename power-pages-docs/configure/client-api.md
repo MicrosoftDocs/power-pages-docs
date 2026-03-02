@@ -499,7 +499,8 @@ $pages.agent.SendActivity(
 
 Return type: void - The function doesn't return anything.
 
-Response object from agent recieved in below format
+Response object from agent received in below format
+
 | Name | Type | Description |
 |------|----- |-------------|
 | `type` | String | Type of the activity (e.g., message) |
