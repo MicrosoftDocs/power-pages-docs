@@ -79,6 +79,9 @@ Install the Power Pages plugin from the marketplace. If you use GitHub Copilot C
 
 After installation, the plugin's skills are available as slash commands in your agent session.
 
+> [!TIP]
+> Turn on auto-update to automatically receive updates to the marketplace and skills. Use the `/plugin` command, navigate to **Marketplaces**, choose the marketplace, and turn on auto-update.
+
 ## Skills overview
 
 The plugin provides skills that cover the full lifecycle of a Power Pages site. Invoke each skill conversationally, either as a slash command or by describing what you want to do.
