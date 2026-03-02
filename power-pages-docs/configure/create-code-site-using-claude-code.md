@@ -61,6 +61,31 @@ pac auth create --environment <Instance url>        # Authenticate to Power Plat
 
 Install the Power Pages plugin from the marketplace. If you use GitHub Copilot CLI, see the [Copilot CLI extensions documentation](https://docs.github.com/copilot/concepts/agents/copilot-cli/about-copilot-cli) for equivalent install steps. The commands below use Claude Code syntax.
 
+### Quick Install (Recommended)
+
+Run the installer to set up all plugins with auto-update enabled:
+
+**Windows (PowerShell)**:
+
+```powershell
+iwr https://raw.githubusercontent.com/microsoft/power-platform-skills/main/scripts/install.js -OutFile install.js; node install.js; del install.js
+```
+
+**Mac OS/Linux/Windows (cmd)**:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/microsoft/power-platform-skills/main/scripts/install.js | node
+```
+
+The installer automatically:
+
+- Installs `pac` CLI if not already installed
+- Detects available tools (Claude Code, GitHub Copilot CLI)
+- Registers the plugin marketplace and installs all listed plugins
+- Enables auto-update so plugins stay current
+
+Once installed, restart Claude Code or GitHub Copilot CLI to access the plugin’s skills as slash commands in your agent session.
+
 ### Install from marketplace
 
 1. Open Claude Code in your terminal.
@@ -77,7 +102,7 @@ Install the Power Pages plugin from the marketplace. If you use GitHub Copilot C
    /plugin install power-pages@power-platform-skills
    ```
 
-After installation, the plugin's skills are available as slash commands in your agent session.
+Once installed, restart Claude Code or GitHub Copilot CLI to access the plugin’s skills as slash commands in your agent session.
 
 > [!TIP]
 > Turn on auto-update to automatically receive updates to the marketplace and skills. Use the `/plugin` command, navigate to **Marketplaces**, choose the marketplace, and turn on auto-update.
@@ -103,16 +128,16 @@ The plugin provides skills that cover the full lifecycle of a Power Pages site. 
 A common end-to-end workflow follows this sequence:
 
 
-1. /create-site       :  Scaffold, design, and build pages
-2. /deploy-site       :  Upload to your Power Pages environment
-3. /activate-site     :  Provision a public URL
-4. /setup-datamodel   :  Create Dataverse tables
-5. /add-sample-data   :  Populate tables with test records
-6. /integrate-webapi  :  Generate API client code and configure permissions
-7. /create-webroles   :  Define access roles
-8. /setup-auth        :  Add sign-in/sign-out and role-based UI
-9. /add-seo           :  Search engine optimization
-10. /deploy-site      :  Push final changes live
+1. **/create-site**       :  Scaffold, design, and build pages
+1. **/deploy-site**       :  Upload to your Power Pages environment
+1. **/activate-site**     :  Provision a public URL
+1. **/setup-datamodel**   :  Create Dataverse tables
+1. **/add-sample-data**   :  Populate tables with test records
+1. **/integrate-webapi**  :  Generate API client code and configure permissions
+1. **/create-webroles**   :  Define access roles
+1. **/setup-auth**        :  Add sign-in/sign-out and role-based UI
+1. **/add-seo**           :  Search engine optimization
+1. **/deploy-site**       :  Push final changes live
 
 
 > [!TIP]
