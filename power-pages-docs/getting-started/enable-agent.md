@@ -59,7 +59,7 @@ Follow these steps to create an agent manually:
 
 1. Turn on the **Site agent** option.
 
-    Power Pages creates an [agent with generative answers conversation](/microsoft-copilot-studio/nlu-boost-conversations) in Copilot Studio.
+    Power Pages creates an [agent with generative answers conversation](/microsoft-copilot-studio/nlu-boost-conversations) in Copilot Studio. The agent is initially created as a trial. After the trial expires, it uses the available Copilot Studio capacity in your environment.
 
 1. To make an agent available to visitors and users, assign the required roles.
    <Image>
