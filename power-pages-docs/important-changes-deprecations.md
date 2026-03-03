@@ -4,7 +4,7 @@ description: Learn about the important changes, including deprecations, coming s
 author: DanaMartens
 
 ms.topic: concept-article
-ms.date: 06/24/2024
+ms.date: 03/03/2026
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: dmartens
@@ -98,7 +98,7 @@ Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list
 
 > [!NOTE] 
 > - Starting October 2022, newly provisioned websites won't able to use list OData features. 
-> - The OData feeds list feature will be removed June, 2026.
+> - The OData feeds list feature will be removed by June, 2026.
 
 ## Portal content editor
 
@@ -126,7 +126,7 @@ Starting January 2022, Power Apps portals for US Government will begin using [Az
 
 ## Table permission changes for forms and lists on new websites
 
-Starting June 2026, websites will have table permissions enforced for all [forms](/power-apps/maker/portals/configure/entity-forms#secure-your-forms) and [lists](/power-apps/maker/portals/configure/securing-lists), irrespective of the **Enable Table Permissions** setting. 
+Starting June 2026, websites will have table permissions enforced for all [forms](/power-apps/maker/portals/configure/entity-forms#secure-your-forms) and [lists](/power-apps/maker/portals/configure/securing-lists), regardless of the **Enable Table Permissions** setting. 
 
 Starting with release [9.3.7.x](/power-platform/released-versions/portals/portalupdate1), newly created websites will have table permissions enforced for all [forms](/power-apps/maker/portals/configure/entity-forms#secure-your-forms) and [lists](/power-apps/maker/portals/configure/securing-lists), irrespective of the **Enable Table Permissions** setting.
 
