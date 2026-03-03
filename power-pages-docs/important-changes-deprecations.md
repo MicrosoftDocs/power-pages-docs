@@ -94,7 +94,7 @@ The [authorize endpoint](/power-apps/maker/portals/oauth-implicit-grant-flow#aut
 
 ## List OData feed 
 
-Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the Power Pages [Web API](configure/web-api-overview.md). 
+Starting June 2026, using [OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the Power Pages [Web API](configure/web-api-overview.md). 
 
 > [!NOTE] 
 > - Starting October 2022, newly provisioned websites won't able to use list OData features. 
@@ -102,7 +102,7 @@ Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list
 
 ## Portal content editor
 
-Starting June 2022, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
+Starting June 2026, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
 
 > [!NOTE]
 > This feature will be removed by October 1, 2023.
@@ -125,6 +125,8 @@ Starting January 2022, Power Apps portals for US Government will begin using [Az
 | Power Apps Department of Defense | `https://content.appsplatform.us` |
 
 ## Table permission changes for forms and lists on new websites
+
+Starting June 2026, websites will have table permissions enforced for all [forms](/power-apps/maker/portals/configure/entity-forms#secure-your-forms) and [lists](/power-apps/maker/portals/configure/securing-lists), irrespective of the **Enable Table Permissions** setting. 
 
 Starting with release [9.3.7.x](/power-platform/released-versions/portals/portalupdate1), newly created websites will have table permissions enforced for all [forms](/power-apps/maker/portals/configure/entity-forms#secure-your-forms) and [lists](/power-apps/maker/portals/configure/securing-lists), irrespective of the **Enable Table Permissions** setting.
 
