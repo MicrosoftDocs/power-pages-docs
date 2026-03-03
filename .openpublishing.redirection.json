@@ -149,6 +149,11 @@
       "source_path": "power-pages-docs/security/web-application-firewall-rule-groups.md",
       "redirect_url": "/power-pages/security/authentication/configure-managed-rules",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/configure/server-logic-event-register.md",
+      "redirect_url": "/power-pages/configure/server-logic-graph-sharepoint",
+      "redirect_document_id": "false"
     }
   ]
 }
