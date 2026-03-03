@@ -94,18 +94,18 @@ The [authorize endpoint](/power-apps/maker/portals/oauth-implicit-grant-flow#aut
 
 ## List OData feed 
 
-Starting June 2026, using [OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the Power Pages [Web API](configure/web-api-overview.md). 
+Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the Power Pages [Web API](configure/web-api-overview.md). 
 
 > [!NOTE] 
 > - Starting October 2022, newly provisioned websites won't able to use list OData features. 
-> - The OData feeds list feature will be removed April 1, 2024.
+> - The OData feeds list feature will be removed June, 2026.
 
 ## Portal content editor
 
-Starting June 2026, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
+Starting June 2022, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
 
 > [!NOTE]
-> This feature will be removed by October 1, 2023.
+> This feature will be removed by June, 2026.
 
 ## Portals search using Lucene.NET search 
 
