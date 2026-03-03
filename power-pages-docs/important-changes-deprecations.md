@@ -22,11 +22,11 @@ ms.custom:
 The announcements for changes and deprecations described in this article apply to Power Pages. Makers, developers, and IT pros can use this information to prepare for future releases.
 
 > [!IMPORTANT]
-> *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+> *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Enhanced link creation in design studio
 
-In July 2024, we're introducing improvements to the way text, image, and button links are created in Power Pages design studio. The **Link to a URL** field will accept any type of link, including mailto and tel links. Additionally, there will be a new option to choose whether the link opens in a new window or the current one.
+In July 2024, we're introducing improvements to the way text, image, and button links are created in Power Pages design studio. The **Link to a URL** field accepts any type of link, including mailto and tel links. Additionally, there will be a new option to choose whether the link opens in a new window or the current one.
 
 We'll also change the way button components are created. Previously, buttons were represented using the `<button>` HTML tag with URLs handled by the `onclick` attribute:  
 
@@ -81,7 +81,7 @@ Starting October 2022 with website version 9.4.9.xx, any new site created in Pow
 At launch, users with the system administrator role along with [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) will by default have privilege to change site visibility status (private to public or vice versa). 
 
 > [!NOTE]
-> After October 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE. More information: [Change tenant-level setting](security/site-visibility.md#change-the-tenant-level-setting)
+> After October 1, 2023 system administrators won't be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE. More information: [Change tenant-level setting](security/site-visibility.md#change-the-tenant-level-setting)
 
 ## OAuth 2.0 implicit grant flow within your portal 
 
@@ -98,14 +98,14 @@ Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list
 
 > [!NOTE] 
 > - Starting October 2022, newly provisioned websites won't able to use list OData features. 
-> - The OData feeds list feature will be removed by June, 2026.
+> - The OData feeds list feature will be removed by June  2026.
 
 ## Portal content editor
 
 Starting June 2022, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
 
 > [!NOTE]
-> This feature will be removed by June, 2026.
+> This feature will be removed by June  2026.
 
 ## Portals search using Lucene.NET search 
 
@@ -116,7 +116,7 @@ Starting with website version 9.4.4.xx, portal search uses Dataverse search as a
 
 ## Content Delivery Network for US Government
 
-Starting January 2022, Power Apps portals for US Government will begin using [Azure Content Delivery Network](/azure/cdn/cdn-overview) for default JavaScript and CSS files. Depending on the US Government deployment, configure the allowlist for the following Content Delivery Network URLs as follows.
+Starting January 2022, Power Apps portals for US Government begins using [Azure Content Delivery Network](/azure/cdn/cdn-overview) for default JavaScript and CSS files. Depending on the US Government deployment, configure the allow list for the following Content Delivery Network URLs as follows.
 
 | Power Pages version | Content Delivery Network URL |
 | - | - |
