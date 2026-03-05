@@ -4,7 +4,7 @@ description: Learn how to create an AI-generated site using Copilot in Power Pag
 author: sampatn
 ms.topic: how-to
 ms.custom: 
-ms.date: 06/27/2025
+ms.date: 02/28/2026
 ms.update-cycle: 180-days
 ms.subservice:
 ms.author: sampatn

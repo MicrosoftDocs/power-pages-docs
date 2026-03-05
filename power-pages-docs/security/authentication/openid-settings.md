@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider with Microsoft Entra ID
 description: Learn how to set up an OpenID Connect identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
-ms.date: 02/07/2025
+ms.date: 02/28/2026
 ms.topic: how-to
 author: DanaMartens
 ms.author: bipuldeora

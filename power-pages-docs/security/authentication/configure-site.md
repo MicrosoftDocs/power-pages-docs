@@ -1,7 +1,7 @@
 ---
 title: Set up site authentication
 description: Learn how to set up user authentication for your Microsoft Power Pages site and add, set up, and remove identity providers.
-ms.date: 04/21/2025
+ms.date: 02/28/2026
 ms.topic: how-to
 ms.collection: get-started
 author: DanaMartens

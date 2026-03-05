@@ -4,7 +4,7 @@ description: Learn about Power Pages licensing.
 author: DanaMartens
 ms.topic: concept-article
 ms.custom: 
-ms.date: 02/07/2025
+ms.date: 02/28/2026
 ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:

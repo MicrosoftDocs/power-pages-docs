@@ -4,7 +4,7 @@ description: Power Pages is a secure, enterprise-grade, low-code SaaS platform f
 author: prvaidy
 ms.topic: concept-article
 ms.custom: 
-ms.date: 01/15/2025
+ms.date: 02/28/2026
 ms.subservice:
 ms.author: prvaidy
 ms.reviewer: danamartens

@@ -3,7 +3,7 @@ title: Get started with the Power Pages plugin for GitHub Copilot CLI and Claude
 description: This page provides a walk-through on how to create, customize, and deploy single-page applications for Microsoft Power Pages using agentic AI coding tool.
 author: neerajnandwana-msft
 ms.topic: tutorial
-ms.date: 02/20/2026
+ms.date: 03/03/2026
 ms.author: nenandw
 ms.reviewer: smurkute
 contributors:
@@ -18,7 +18,7 @@ The Power Pages plugin for [GitHub Copilot CLI](https://github.com/features/copi
 The plugin supports the full site development lifecycle through conversational skills, from scaffolding a new site to deploying it, setting up Dataverse data models, and configuring authentication.
 
 > [!IMPORTANT]
-> - This feature is a preview feature.
+> - This feature is in preview.
 > - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - [Review agent proposals before approving](#review-agent-proposals-before-approving)
 
@@ -39,10 +39,12 @@ Before you begin, verify that you have the required software and permissions.
 You also need:
 
 - A Power Platform environment with Power Pages enabled.
-- An authenticated PAC CLI session connected to your target environment. Run `pac auth create` if you didn't connect yet.
-- An Azure CLI session signed in to the same tenant. Run `az login` to authenticate.
+- An authenticated PAC CLI session connected to your target environment. Run [`pac auth create`](/power-platform/developer/cli/reference/auth#pac-auth-create) if you didn't connect yet.
+- An Azure CLI session signed in to the same tenant. Run [`az login`](/cli/azure/reference-index#az-login) to authenticate.
 
 **Verify authentication:**
+
+Verify you are authenticated by using the [`pac auth list`](/power-platform/developer/cli/reference/auth#pac-auth-list) command.
 
 ```powershell
 pac auth list           # Should show authenticated profile
@@ -61,6 +63,31 @@ pac auth create --environment <Instance url>        # Authenticate to Power Plat
 
 Install the Power Pages plugin from the marketplace. If you use GitHub Copilot CLI, see the [Copilot CLI extensions documentation](https://docs.github.com/copilot/concepts/agents/copilot-cli/about-copilot-cli) for equivalent install steps. The commands below use Claude Code syntax.
 
+### Quick install (recommended)
+
+Run the installer to set up all plugins with autoupdate enabled:
+
+**Windows (PowerShell)**:
+
+```powershell
+iwr https://raw.githubusercontent.com/microsoft/power-platform-skills/main/scripts/install.js -OutFile install.js; node install.js; del install.js
+```
+
+**macOS/Linux/Windows (cmd):**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/microsoft/power-platform-skills/main/scripts/install.js | node
+```
+
+The installer automatically:
+
+- Installs the `pac` CLI if it isn't already installed.
+- Detects available tools, such as Claude Code and GitHub Copilot CLI.
+- Registers the plugin marketplace and installs all listed plugins.
+- Enables autoupdate so plugins stay current.
+
+After installation, restart Claude Code or GitHub Copilot CLI to access the plugin's skills as slash commands in your agent session.
+
 ### Install from marketplace
 
 1. Open Claude Code in your terminal.
@@ -77,7 +104,10 @@ Install the Power Pages plugin from the marketplace. If you use GitHub Copilot C
    /plugin install power-pages@power-platform-skills
    ```
 
-After installation, the plugin's skills are available as slash commands in your agent session.
+After you install the plugin, restart Claude Code or GitHub Copilot CLI to access the plugin's skills as slash commands in your agent session.
+
+> [!TIP]
+> To automatically receive updates to the marketplace and skills, turn on auto-update. Use the `/plugin` command, go to **Marketplaces**, choose the marketplace, and turn on auto-update.
 
 ## Skills overview
 
@@ -85,13 +115,13 @@ The plugin provides skills that cover the full lifecycle of a Power Pages site. 
 
 | Skill | Command | What it does |
 |---|---|---|
-| Create site | `/create-site` | Scaffolds a site, applies your design direction, builds pages and components |
-| Deploy site | `/deploy-site` | Builds the project and uploads it to Power Pages using PAC CLI |
+| Create site | `/create-site` | Scaffolds a site, applies your design direction, and builds pages and components |
+| Deploy site | `/deploy-site` | Builds the project and uploads it to Power Pages by using PAC CLI |
 | Activate site | `/activate-site` | Provisions a website record and assigns a public URL |
 | Set up data model | `/setup-datamodel` | Creates Dataverse tables, columns, and relationships |
-| Add sample data (Optional) | `/add-sample-data` | Populates Dataverse tables with realistic test records |
+| Add sample data (optional) | `/add-sample-data` | Populates Dataverse tables with realistic test records |
 | Integrate Web API | `/integrate-webapi` | Generates typed API client code, services, and table permissions |
-| Set up authentication | `/setup-auth` | Adds sign-in/sign-out functionality and role-based access control |
+| Set up authentication | `/setup-auth` | Adds sign-in and sign-out functionality and role-based access control |
 | Create web roles | `/create-webroles` | Generates web role YAML files for user access management |
 | Add SEO | `/add-seo` | Generates robots.txt, sitemap.xml, and meta tags |
 
@@ -99,18 +129,16 @@ The plugin provides skills that cover the full lifecycle of a Power Pages site. 
 
 A common end-to-end workflow follows this sequence:
 
-
-1. /create-site       :  Scaffold, design, and build pages
-2. /deploy-site       :  Upload to your Power Pages environment
-3. /activate-site     :  Provision a public URL
-4. /setup-datamodel   :  Create Dataverse tables
-5. /add-sample-data   :  Populate tables with test records
-6. /integrate-webapi  :  Generate API client code and configure permissions
-7. /create-webroles   :  Define access roles
-8. /setup-auth        :  Add sign-in/sign-out and role-based UI
-9. /add-seo           :  Search engine optimization
-10. /deploy-site      :  Push final changes live
-
+1. **/create-site**       :  Scaffold, design, and build pages
+1. **/deploy-site**       :  Upload to your Power Pages environment
+1. **/activate-site**     :  Set up a public URL
+1. **/setup-datamodel**   :  Create Dataverse tables
+1. **/add-sample-data**   :  Populate tables with test records
+1. **/integrate-webapi**  :  Generate API client code and configure permissions
+1. **/create-webroles**   :  Define access roles
+1. **/setup-auth**        :  Add sign-in, sign-out, and role-based UI
+1. **/add-seo**           :  Search engine optimization
+1. **/deploy-site**       :  Push final changes live
 
 > [!TIP]
 > You don't need to follow this exact order. Each skill checks its own prerequisites and tells you if something is missing. For example, you can run `/setup-auth` before `/integrate-webapi` if your site needs authentication first.
@@ -123,7 +151,7 @@ This walkthrough covers the full lifecycle of building a Power Pages site with t
 
 Describe the site you want in natural language: what it's for, what pages it needs, and any design preferences like color scheme, layout style, or fonts. Run `/create-site` or just describe your site and the plugin recognizes the intent.
 
-The plugin asks you to pick a framework (React, Vue, Angular, or Astro) if you didn't specify one, then:
+The plugin asks you to pick a framework (React, Vue, Angular, or Astro) if you don't specify one, then:
 
 1. Scaffolds the project from a template and applies your site name, colors, and design tokens.
 1. Installs dependencies, starts a development server, and opens a live browser preview.
@@ -150,7 +178,7 @@ Run `/activate-site` to make the site publicly accessible. The plugin:
 1. Provisions a website record through the Power Platform API.
 1. Polls until the site is live and returns the public URL.
 
-At this point you have a working site at a public URL. The remaining steps add data, authentication, and SEO. Skip any that don't apply to your site.
+At this point, you have a working site at a public URL. The remaining steps add data, authentication, and SEO. Skip any steps that don't apply to your site.
 
 ### Step 4: Set up your data model
 
@@ -171,7 +199,7 @@ Run `/add-sample-data` to populate your tables with test records. This step requ
 The plugin performs the following actions:
 
 1. Reads the manifest to understand your tables, columns, and relationships.
-1. Generates contextually appropriate values for each column type: realistic emails, plausible dates, and formatted currency amounts.
+1. Generates contextually appropriate values for each column type, such as realistic emails, plausible dates, and formatted currency amounts.
 1. Inserts records in dependency order (parent tables before child tables) and refreshes authentication tokens automatically during bulk inserts.
 
 ### Step 6: Integrate with the Dataverse Web API
@@ -185,7 +213,7 @@ The plugin performs the following actions:
    - A shared API client with anti-forgery token management and retry logic.
    - TypeScript entity types and domain mappers.
    - A CRUD service layer.
-   - Framework-specific patterns (React hooks, Vue composables, or Angular services).
+   - Framework-specific patterns, such as React hooks, Vue composables, or Angular services.
 1. Spawns a **Permissions Architect** agent that proposes table permissions and site settings.
 
 **You review and approve the permissions proposal.** The plugin doesn't create any configuration files until you confirm.
@@ -202,7 +230,7 @@ Run `/create-webroles` to define user access roles. The plugin:
 
 Run `/setup-auth` to add sign-in and sign-out functionality. The plugin:
 
-1. Generates an authentication service for the Entra ID flow with anti-forgery token management.
+1. Generates an authentication service for the Microsoft Entra ID flow with anti-forgery token management.
 1. Creates a sign-in/sign-out UI component integrated with your site layout.
 1. Adds role-based access control utilities that show or hide UI elements based on the user's web roles.
 1. Uses your framework's patterns throughout (React hooks, Vue composables, or Angular services).
@@ -217,7 +245,7 @@ Run `/add-seo` to optimize your site for search engines. The plugin:
 
 ### Step 10: Deploy the final site
 
-If you performed any optional steps, run `/deploy-site` again to push the changes live. The plugin runs a production build and uploads the site along with all deployment artifacts (table permissions, site settings, web roles) to your Power Pages environment.
+If you perform any optional steps, run `/deploy-site` again to push the changes live. The plugin runs a production build and uploads the site along with all deployment artifacts (table permissions, site settings, web roles) to your Power Pages environment.
 
 ### Verify your site
 
@@ -234,7 +262,7 @@ The following tips help you get the most out of the plugin and the AI coding age
 
 ### Watch terminal output for missing tools on first run
 
-The plugin provides the skills and workflows, but the AI coding agent-GitHub Copilot CLI or Claude Code—executes the actual commands on your machine. When you use these tools for the first time, watch the terminal output closely. The AI coding agent runs commands and scripts behind the scenes, and some of these depend on tools that might not be installed on your machine. If a step fails, the terminal output usually shows which tool or command couldn't be found.
+The plugin provides the skills and workflows, but the AI coding agent - GitHub Copilot CLI or Claude Code - executes the actual commands on your machine. When you use these tools for the first time, watch the terminal output closely. The AI coding agent runs commands and scripts behind the scenes, and some of these depend on tools that might not be installed on your machine. If a step fails, the terminal output usually shows which tool or command couldn't be found.
 
 If you see an error like `command not found` or `is not recognized`, install the missing tool and re-trigger the workflow. The AI coding agent picks up where it left off after the tool is available.
 
@@ -293,7 +321,7 @@ Response:
 This error (`AttributePermissionIsMissing`) means the lookup column `_crd50_propertyid_value` exists in the Dataverse table but isn't listed in the table permission configuration for the Web API. The plugin resolves this error by adding the missing column to the table permission YAML in `.powerpages-site/table-permissions/` and redeploying.
 
 > [!NOTE]
-> Power Pages Web API requires every column returned by an API call to be explicitly listed in the table permission. Lookup columns (prefixed with `_` and suffixed with `_value`) are easy to miss because their API name differs from the column's logical name in Dataverse. When you see `AttributePermissionIsMissing`, always add that column to the table permission. Don't change the API query.
+> Power Pages Web API requires every column returned by an API call to be explicitly listed in the table permission. [Lookup properties](/power-apps/developer/data-platform/webapi/web-api-properties#lookup-properties) (prefixed with `_` and suffixed with `_value`) are easy to miss because their API name differs from the column's logical name in Dataverse. When you see `AttributePermissionIsMissing`, always add that column to the table permission. Don't change the API query.
 
 ### Be specific about what you want
 
@@ -302,8 +330,8 @@ Vague requests produce vague results. Tell the plugin exactly what you need, inc
 | Instead of | Try |
 |---|---|
 | "Make a page for jobs" | "Create a job listings page with a search bar at the top, filter chips for location and department, and a card grid showing title, company, salary range, and a posted date for each job" |
-| "Fix the styling" | "The job cards are stacking vertically on desktop. Make them display in a 3-column grid with 16px gap on screens wider than 768px" |
-| "Add some data" | "Add 20 sample job postings across 4 departments (Engineering, Marketing, Sales, HR) with realistic titles, salary ranges between $60k-$180k, and posted dates in the last 30 days" |
+| "Fix the styling" | "The job cards stack vertically on desktop. Make them display in a three-column grid with 16px gap on screens wider than 768px" |
+| "Add some data" | "Add 20 sample job postings across four departments (Engineering, Marketing, Sales, HR) with realistic titles, salary ranges between $60k-$180k, and posted dates in the last 30 days" |
 | "Set up the API" | "Connect the JobListings component to the cr_jobposting Dataverse table. Replace the hardcoded array with a real API call that fetches title, department, salary, and posted date" |
 
 ### Use screenshots for visual problems
@@ -345,7 +373,7 @@ Before you create the table permissions, explain what access each role will have
 
 ### Run skills independently to recover from problems
 
-If a skill fails partway through, you don't need to start over. Each skill is designed to run independently and can pick up where things left off. For example, if `/integrate-webapi` fails on the third table, you can re-run it and it detects the work already completed.
+If a skill fails partway through, you don't need to start over. Each skill runs independently and can pick up where it left off. For example, if `/integrate-webapi` fails on the third table, you can rerun it and it detects the work already completed.
 
 ```
 /integrate-webapi failed while processing the cr_applications table. Here's the error: [paste error]. Resume the integration from where it stopped.

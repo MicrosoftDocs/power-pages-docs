@@ -3,7 +3,7 @@ title: Overview of the Security workspace
 description: Enhance site resilience with security scans, control access to data, and protect against exploits using Power Pages security workspace.
 author: DanaMartens
 ms.topic: concept-article
-ms.date: 05/31/2024
+ms.date: 02/27/2026
 ms.subservice:
 ms.author: bipuldeora
 ms.reviewer: dmartens
@@ -17,6 +17,13 @@ ms.custom:
 # Overview of the Security workspace
 
 Security workspace provides a single interface to monitor, protect, and manage [security features for Power Pages](../security/power-pages-security.md). You can quickly check how secure your sites are with scan, make them more secure by setting up web roles, page and table permissions, web application firewall, authentication, site visibility, and HTTP headers through advanced settings.
+
+To open the Security workspace:
+
+1. Open the [design studio](use-design-studio.md).
+1. On the left pane, select **Security**.
+
+  :::image type="content" source="media/use-security-workspace/security-agent-overview.png" alt-text="A screenshot of the security workspace option selected and showing different option within it":::
 
 ## Monitor
 
@@ -70,5 +77,4 @@ Control access to your site with [site visibility](../security/site-visibility.m
 
 Use [advanced settings (preview)](../security/advanced-settings.md) to configure HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross-Origin Resource Sharing (CORS), cookies, permissions, and more.
 
-:::image type="content" source="media/use-security-workspace/advanced-settings.svg" alt-text="A screenshot of the Advanced settings interface inside of Power Pages design studio's Security workspace.":::
-
+:::image type="content" source="media/use-security-workspace/advanced-settings.svg" alt-text="A screenshot of the Advanced settings interface inside of Power Pages design studio's Security workspace."::: 

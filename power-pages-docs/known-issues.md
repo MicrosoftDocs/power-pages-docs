@@ -3,7 +3,7 @@ title: Known issues for Power Pages
 description: List of known issues in Power Pages
 author: DanaMartens
 ms.topic: troubleshooting-known-issue
-ms.date: 02/05/2025
+ms.date: 02/28/2026
 ms.subservice:
 ms.author: bipuldeora 
 ms.reviewer: dmartens

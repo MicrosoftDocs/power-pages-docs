@@ -4,7 +4,7 @@ description: Follow step-by-step tutorials to learn how to build powerful sites 
 author: iammaddala
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 07/12/2022
+ms.date: 02/28/2026
 ms.subservice:
 ms.author: ammaddala 
 ms.reviewer: 
@@ -18,12 +18,12 @@ The tutorials in this section help you learn how to build a Microsoft Power Page
 
 ## Prerequisites
 
-- You'll need to have either a Power Pages subscription or a free trial. [Get a Power Pages trial here](trial-signup.md).
+- You need a Power Pages subscription or a free trial. [Get a Power Pages trial here](trial-signup.md).
 - [Create a Power Pages site](create-manage.md).
 
 ## Tutorials
 
-Many of the tutorials build on knowledge and skills developed in preceding tutorials. Review the pre-requisites before starting a tutorial. We recommend that you complete them in the order given.
+Many of the tutorials build on knowledge and skills developed in preceding tutorials. Review the prerequisites before starting a tutorial. Complete them in the order given.
 
 - [Add a page](tutorial-add-webpage.md)
 - [Style your site](tutorial-style-site.md)

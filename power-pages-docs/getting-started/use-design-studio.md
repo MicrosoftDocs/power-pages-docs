@@ -4,7 +4,7 @@ description: Learn about Power Pages design studio.
 author: ckwan-ms
 ms.topic: how-to
 ms.custom: 
-ms.date: 08/06/2024
+ms.date: 02/28/2026
 ms.author: ckwan
 ms.reviewer: danamartens
 contributors:
