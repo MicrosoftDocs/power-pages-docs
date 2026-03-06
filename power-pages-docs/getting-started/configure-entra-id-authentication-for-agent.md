@@ -9,7 +9,7 @@ ms.date: 03/05/2026
 ms.reviewer: joshuapa
 ---
 
-# Configure Microsoft Entra ID authentication for Power Pages agent
+# Configure Microsoft Entra ID authentication
 
 Microsoft Copilot Studio agents created from Power Pages use Generic OAuth 2 authentication with implicit flow by default. This configuration limits access to the Power Pages site and supports all configured identity providers.
 
