@@ -2,15 +2,16 @@
 title: Create a Custom Chat Interface
 description: Learn how to create a custom chat interface using agent client API in Microsoft Power Pages in this step-by-step guide.
 ms.topic: how-to
-ms.date: 02/26/2026
+ms.date: 03/05/2026
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: joshuapa
 ---
 
-# Create a custom chat interface using agent client API
+# Create a custom chat interface by using agent client API
 
-This article provides guidance about how to use the agent client API to set up a webpage with a custom chat interface and interact with a Copilot Studio agent. 
+This article walks you through building a fully customized chat interface for your Power Pages site using the agent client API. Unlike the standard chat widget, this approach gives you complete control over the user interface design, styling, and user experience.
+
 
 ## Prerequisites
 
@@ -18,38 +19,38 @@ TBD
 
 ## Step 1: Create a site agent
 
-1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
-1. Select the **+ Edit**.
-1. Navigate to the **Set up** workspace and then select **Agents**.
-1. Enable **Site agent** using the toggle switch to create the agent. 
+1. Sign in to [Power Pages](https://make.powerpages.microsoft.com/).
+1. Select **+ Edit**.
+1. Go to the **Set up** workspace, and then select **Agents**.
+1. Enable **Site agent** by using the toggle switch to create the agent. 
 
    :::image type="content" source="media/create-custom-chat-interface/site-agent-enable.png" alt-text="Screenshot that shows how to enable Site agent in Power Pages.":::
 
-1. After successful provisioning, a new agent with the site name appended with "bot" is added and appears in the **Agents** in the site list. Select the three vertical dots next to the newly provisioned agent and click **Edit**.
+1. After successful provisioning, Power Pages adds a new agent with the site name appended with "bot." The agent appears in the **Agents** section of the site list. Select the three vertical dots next to the newly provisioned agent, and then select **Edit**.
 
    :::image type="content" source="media/create-custom-chat-interface/agent-menu.png" alt-text="Screenshot that shows the agent menu and the Edit option.":::
 
 1. Keep the **Show in Chat Widget** toggle set to **On**.
 
    > [!NOTE]
-   > When set to **Off**, the agent is not available for any user.
+   > When set to **Off**, the agent isn't available for any user.
 
-1. Select **Administrator** role who can interact with agent.
-1. Copy the schema name that you will be using later.
-1. Click **Save**.
+1. Select the **Administrator** role for users who can interact with the agent.
+1. Copy the schema name to use later.
+1. Select **Save**.
 
 ## Step 2. Create webpage
 
 1. Launch Power Pages design studio. For more information, see [Use design studio](use-design-studio.md).
 1. In the **Pages** workspace, select **+ Page**.
-1. In the **Describe a page to create it** dialog, select **Other ways to add a page**.
-1. In the **Add a page** dialog, enter details for the page as follow:
+1. In **Describe a page to create it** dialog box, select **Other ways to add a page**.
+1. In **Add a page** dialog box, enter details for the page as follows:
 
    - In the **Name** field, enter **Virtual Assistant** and select **Start from blank** layout.
    - Select **Add**.
 
 1. Select the **Edit Code** option in the upper right-hand corner.
-1. In the **Edit in Visual Studio Code for the Web** dialog, select **Open Viusal Studio Code**.
+1. In **Edit in Visual Studio Code for the Web** dialog box, select **Open Visual Studio Code**.
 1. Replace the code found in the HTML page with the following:
 
   ```html
@@ -608,11 +609,11 @@ TBD
 1. Update the **AGENT_SCHEMA** variable with the value copied previously.
 1. Save the file.
 1. Return to the Power Pages designer.
-1. In the **You're editing code in Visual Studio Code for the Web** dialog, follow the instructions and click the **Sync** button.
+1. In **You're editing code in Visual Studio Code for the Web** dialog box, follow the instructions and select the **Sync** button.
 
 ## Step 3: Hide the default chat widget
 
-Override the style, as shown below, in the [header template](customize-your-agent.md?tabs=modern#customize-the-agent-appearance) to hide the defalt widget so that the page does not have two chat interfaces.
+Override the style, as shown in the following code, in the [header template](customize-your-agent.md?tabs=modern#customize-the-agent-appearance) to hide the default widget so that the page doesn't have two chat interfaces.
 
 ```css
   /* Hide the default floating bot widget */
@@ -625,7 +626,7 @@ To test the agent functionality:
 
 1. Select **Preview**, and then choose **Desktop**.
 1. Sign in to your site with the user account that's been assigned. As we selected the **Administrators** role in the previous step, in this example, sign in as administrator.
-1. Go to the **Virtual Assistant** webpage created earlier.
+1. Go to the **Virtual Assistant** webpage you created earlier.
 1. Verify the operations.
 
 ## Related information
