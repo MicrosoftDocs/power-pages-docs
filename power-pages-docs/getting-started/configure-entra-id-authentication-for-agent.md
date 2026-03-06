@@ -25,7 +25,7 @@ This article walks you through the configuration process, which involves creatin
 
 Before you begin, ensure that:
 
-- You created or added a site agent to Power Pages. For more information, see [Add an agent](/getting-started/enable-agent?#add-an-agent) from the setup workspace.
+- You created or added a site agent to Power Pages. For more information, see [Add an agent](enable-agent.md#add-an-agent) from the setup workspace.
 - You have a Microsoft 365 administrator account with permission to create and manage app registrations in Microsoft Entra ID.
 
 ## Overview of configuration process
