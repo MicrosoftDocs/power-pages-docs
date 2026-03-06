@@ -14,9 +14,7 @@ ms.custom:
 ---
 # Configure user authentication for an agent
 
-Power Pages supports multiple authentication options so you can control how users access agents on your site. This article describes how to set up agent authentication, including single sign-on (SSO), token passthrough, and token-based authentication, to provide a seamless and secure sign-in experience.
-
-When you associate an agent with Power Pages, your site can use SSO so users can access the agent without signing in again.
+Power Pages supports multiple authentication options so you can control how users access agents on your site. When you associate an agent with Power Pages, your site can use single sign-on (SSO) so users can access the agent without signing in again. This article describes how to set up agent authentication, including SSO, token passthrough, and token-based authentication.
 
 
 ## No authentication
@@ -45,7 +43,7 @@ The agent relies on Power Pages’ authentication service. When you configure th
 > [!NOTE]
 > You can't test agents that you configure with token passthrough authentication directly within Microsoft Copilot Studio, as they require sign-in through the Power Pages site.
 
-To configure token [passthrough authentication](/microsoft-copilot-studio/configure-sso-3p), update all values as **placeholder**.
+To configure token [passthrough authentication](/microsoft-copilot-studio/configure-sso-3p), set the service provider to **Generic OAuth 2** and set all other field values to **placeholder**.
 
 To enable this setup, add the following site settings:
 
@@ -64,7 +62,7 @@ To enable this setup, add the following site settings:
    | :-------------------------------------------------- | :--------- |
    | Authentication/ApplicationCookie/SlidingExpiration  | True       |
    | Authentication/BearerAuthentication/Enabled         | True       |
-   | Authentication/BearerAuthentication/Provider        | Provider name  <br>Provider name extracted from existing settings for the provider  <br>Authentication/OpenIdConnect/{ProviderName}/Issuer  <br>For example, if the setting for Azure AD had **Authentication/OpenIdConnect/AzureAD/Issuer, then AzureAD is the provider** |
+   | Authentication/BearerAuthentication/Provider        | The provider name from your existing site settings. For example, if the setting is **Authentication/OpenIdConnect/AzureAD/Issuer**, the provider name is **AzureAD**. |
 
 ## Related information
 
