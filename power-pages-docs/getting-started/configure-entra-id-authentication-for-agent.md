@@ -46,7 +46,7 @@ The configuration consists of the following steps:
 1. Select **+ Edit**.
 1. Go to the **Set up** workspace.
 1. Copy the Application ID associated with the site.
-   <Image>
+   :::image type="content" source="media/create-entra-id-for-agent/site-detail-app-id.png" alt-text="Screenshot showing Application ID in site detail":::
 1. In the Azure portal, find the app registration with the same Application ID.
 
 ### Add required API permissions
@@ -63,7 +63,7 @@ Add the following delegated permissions:
 9. Expand **CopilotStudio** and select **CopilotStudio.Copilots.Invoke**.
 10. Select **Add permissions**.
 11. Select **Grant admin consent**.
-<Image>
+   :::image type="content" source="media/create-entra-id-for-agent/azure-grant-consent.png" alt-text="Screenshot showing grant admin consent option in Azure portal":::
 
 ## Step 2: Configure Microsoft Entra ID for agent
 
@@ -121,9 +121,9 @@ You copied two scopes, one from each app registration. These scopes enable singl
 1. Open **Agent** added to site.
 2. Under **Settings**, select **Security** > **Authentication**.
 3. Paste the Agent App scope under **Token exchange URL (required for SSO)**.
-   <Image>
+   :::image type="content" source="media/create-entra-id-for-agent/copilot-studio-token-exchange-url.png" alt-text="Screenshot showing token exchange url option in Copilot studio":::
 5. Paste the Site App scope next to the existing scope.
-   <Image>
+   :::image type="content" source="media/create-entra-id-for-agent/copilot-studio-scopes.png" alt-text="Screenshot showing Scopes option in Copilot studio":::
 7. Select **Save**.
 8. Close the **Settings** page.
 9. **Publish** agent.
