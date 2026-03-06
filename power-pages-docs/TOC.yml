@@ -216,7 +216,7 @@
           items:
             - name: Configure user authentication
               href: getting-started/configure-user-authentication-for-agent.md
-            - name: Configure Microsoft Entra ID autentication for Power Pages agent
+            - name: Configure Microsoft Entra ID authentication
               href: getting-started/configure-entra-id-authentication-for-agent.md
         - name: Extend or customize agent experience
           items:
