@@ -172,13 +172,6 @@ In Power Pages, add or update the following site settings:
      {"botschemaname":"cr720_agentSchema","configjson":"{\"clientId\":\"00000000-0000-0000-0000-000000000000\",\"version\":\"v2\" }" ,"adx_botconsumer_adx_webrole":["00000000-0000-0000-0000-000000000000"] } 
    ```
 1. Choose **Save & Close**.
-1. Add the following value to the `configjson` node: `"clientId": "<AgentAppClientID>"` as shown in the following example.
-
-   ```json
-     {"botschemaname":"cr720_agentSchema","configjson":"{\"clientId\":\"00000000-0000-0000-0000-000000000000\",\"version\":\"v2\" }" ,"adx_botconsumer_adx_webrole":["00000000-0000-0000-0000-000000000000"] } 
-   ```
-
-1. Save the record.
   
 ## Related information
 
