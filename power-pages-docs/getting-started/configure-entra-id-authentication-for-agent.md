@@ -144,9 +144,34 @@ In Power Pages, add or update the following site settings:
 ## Step 6: Add the Copilot authentication client ID to the bot consumer
 
 1. Open the Power Pages site in edit mode.
-1. Go to the **Data** workspace.
-1. Locate the **Site Component** or **Bot Consumer** table (based on your site data model).
-1. Open the corresponding bot consumer record.
+1. Determine [site datamodel](/admin/enhanced-data-model#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model)
+1. Go to the [Data workspace](use-data-workspace.md)
+1. Update Agent App ClientId to corresponding agent record
+
+# [Standard data model](#tab/standard)
+
+1. Search for and select the **Bot consumer** table.
+1. Locate the row with the selected website name and agent schema name.
+1. Add the following value `"clientId": "<AgentAppClientID>"` as shown in the following example.
+
+   ```json
+     {"botSchemaName":"cr720_agentSchema","clientId":"00000000-0000-0000-0000-000000000000"}
+   ```
+1. Save the record.
+   
+# [Enhanced data model](#tab/enhanced)
+
+1. Search for and select the **Site Component** table.
+1. Find the **Component Type** column and select the filter icon next to it.
+1. Filter the records by selecting the **Bot Consumer** option.
+1. Locate the row with the selected website name in the **Power Pages Site id** column and agent schema name.
+1. Choose **Edit row using form**.
+1. In **Content**, add the following value to the `configjson` node: `"clientId": "<AgentAppClientID>"` as shown in the following example.
+
+   ```json
+     {"botschemaname":"cr720_agentSchema","configjson":"{\"clientId\":\"00000000-0000-0000-0000-000000000000\",\"version\":\"v2\" }" ,"adx_botconsumer_adx_webrole":["00000000-0000-0000-0000-000000000000"] } 
+   ```
+1. Choose **Save & Close**.
 1. Add the following value to the `configjson` node: `"clientId": "<AgentAppClientID>"` as shown in the following example.
 
    ```json
