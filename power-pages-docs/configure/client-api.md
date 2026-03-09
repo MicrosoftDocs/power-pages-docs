@@ -1,38 +1,46 @@
 ---
 title: Power Pages Client APIs Overview (preview)
 description: Learn how to use Power Pages client APIs to manipulate UI components, manage forms, lists, and user authentication effectively.
-#customer intent: As a developer, I want to retrieve all forms on a Power Pages site so that I can programmatically interact with them.
+customer intent: As a developer, I want to retrieve all forms on a Power Pages site so that I can programmatically interact with them.
 author: neerajnandwana-msft
 ms.author: nenandw
 ms.reviewer: jdaly
-ms.date: 12/10/2025
+ms.date: 03/05/2026
 ms.topic: reference
 contributors:
 - JimDaly
+- mkaur
 ---
 # Power Pages Client APIs (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The client API provides objects and methods to manipulate UI components on a Power Pages site. After the client API is initialized, you can access it using a global variable with a name you decide.
+Power Pages client APIs help developers manipulate UI components, manage forms and lists, handle user authentication, and interact with Dataverse records programmatically. The client API becomes available when your page loads and can be accessed through a global variable with a name you choose.
 
-> [!NOTE]
-> This article uses the variable name `$pages` and we recommend you also follow this naming convention.
+This article uses the variable name `$pages` throughout examples and recommends you follow this naming convention for consistency.
 
-Use the `$pages` client API to interact with forms and lists, and perform operations such as record creation, retrieval, and user authentication.
+With the client APIs, you can: 
+
+With the `$pages` client API, you can:  
+
+- Retrieve and modify forms and form controls
+- Show or hide UI elements  
+- Create and retrieve records using the Web API
+- Manage user authentication
+- Work with multilingual content
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## Client API initialization
 
-The `$pages` client API isn't initialized immediately when the page loads. Use the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function to assign the API object to the `$pages` variable. There are two approaches to initialize the client API:
+The `$pages` client API doesn't initialize immediately when the page loads. Use the `Microsoft.Dynamic365.Portal.onPagesClientApiReady` function to assign the API object to the `$pages` variable. There is two ways exist to initialize the client API:
 
 
 ### Callback-based API readiness
 
 Use a callback function that assigns the API object to a variable you define when it's ready. Two examples show how:
 
-With an anonymous function:
+By using an anonymous function:
 
 ```javascript
 Microsoft.Dynamic365.Portal.onPagesClientApiReady(($pages) => {
@@ -41,7 +49,7 @@ Microsoft.Dynamic365.Portal.onPagesClientApiReady(($pages) => {
 });
 ```
 
-With a named function:
+By using a named function:
 
 ```javascript
 function start($pages){
@@ -65,7 +73,7 @@ console.log(`Found ${forms.length} forms on the page.`);
 
 ### When to use each approach
 
-The following table describes when you should use each approach.
+The following table describes when to use each approach.
 
 | Approach | When to use |
 |----------|-------------|
@@ -81,7 +89,7 @@ The `$pages.currentPage.forms` collection includes methods to work with form ele
 
 ### $pages.currentPage.forms methods
 
-Use these methods to enumerate forms and retrieve specific form instances.
+Use these methods to list forms and get specific form instances.
 
 | Method | Returns | Description |
 |--------|---------|-------------|
@@ -270,7 +278,7 @@ Use these methods to retrieve or update a control's value, visibility, and disab
 
 #### Control example
 
-This example fetches a form, inspects the first control's visibility, and then hides it.
+This example fetches a form, checks the first control's visibility, and then hides it.
 
 ```javascript
 let form = $pages.currentPage.forms.getFormById('form_#1');  
@@ -285,25 +293,25 @@ controls[0].setVisible(false); // Hide the first control.
 
 #### Supported controls
 
-All controls implement the standard [control methods](#control-methods). Some controls provide more methods and have different implementation details from the standard control methods. [Learn about other methods and implementation differences for different types of controls](client-api-controls.md)
+All controls implement the standard [control methods](#control-methods). Some controls provide more methods and have different implementation details from the standard control methods. [Learn about other methods and implementation differences for different types of controls](client-api-controls.md).
 
 
 ## $pages.currentPage.lists collection
 
-The lists collection offers methods to handle traditional and modern list elements on the page.
+The lists collection provides methods to work with traditional and modern list elements on the page.
 
 ### $pages.currentPage.lists methods
 
-Use these methods to enumerate all lists on the page and retrieve a specific list by its HTML element ID.
+Use these methods to enumerate all lists on the page and get a specific list by its HTML element ID.
 
 | Method | Returns | Description |
 |--------|---------|-------------|
-| `getAll` | [IList](#ilist-interface)`[]` | Returns a collection of all lists on the current page. |
-| `getListById(id: string)` | [IList](#ilist-interface) | Retrieves a list instance by its HTML element ID. |
+| `getAll` | [IList](#ilist-interface)`[]` | Returns all lists on the current page. |
+| `getListById(id: string)` | [IList](#ilist-interface) | Gets a list by its HTML element ID. |
 
 ### $pages.currentPage.lists examples
 
-These examples show how to enumerate all lists on the page and retrieve a specific list by its HTML element ID.
+These examples show how to enumerate all lists on the page and get a specific list by its HTML element ID.
 
 ```javascript
 let lists = $pages.currentPage.lists.getAll();
@@ -353,10 +361,10 @@ The `$pages.user` object provides methods to sign the user in or out.
 
 These methods don't return any value.
 
-|Method|Description|
+| Method | Description |
 |--------|-------------|
-|`signIn`|Redirects the user to the sign-in page.|
-|`signOut`|Signs out the currently signed-in user.|
+| `signIn` | Redirects the user to the sign-in page. |
+| `signOut` | Signs out the currently signed-in user. |
 
 
 ## $pages.webAPI object
@@ -372,7 +380,7 @@ Creates a new record in the specified table.
 
 #### createRecord method parameters
 
-Provide the target table and the data object representing the record to be created.
+Provide the target table and the data object representing the record to create.
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
@@ -405,17 +413,17 @@ Specify the table, record ID, and optional OData `$select` query options to shap
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| `entitySetName` | string | The name of the entity set. [Learn about entity set name in Dataverse Web API](/power-apps/developer/data-platform/webapi/web-api-service-documents#entity-set-name)|
+| `entitySetName` | string | The name of the entity set. [Learn about entity set name in Dataverse Web API](/power-apps/developer/data-platform/webapi/web-api-service-documents#entity-set-name).|
 | `id` | string | The record's unique identifier. |
 | `options` | string (optional) | An optional OData `$select` query string to limit the data returned. |
 
 > [!NOTE]
-> While the `options` parameter is optional, for best performance you should always limit the number of column values returned using the [`$select` option](/power-apps/developer/data-platform/webapi/query/select-columns).
+> While the `options` parameter is optional, for best performance always limit the number of column values returned by using the [`$select` option](/power-apps/developer/data-platform/webapi/query/select-columns).
 
 
 #### retrieveRecord method example
 
-This example retrieves a single record by ID and limits the returned columns using an OData `$select` query option.
+This example retrieves a single record by ID and limits the returned columns by using an OData `$select` query option.
 
 ```javascript
 let record = await $pages.webAPI.retrieveRecord('accounts', 'aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb',  '$select=name');
@@ -439,7 +447,7 @@ Specify the table and optional OData query to filter results and limit returned 
 | `options` | string (optional) | An OData query options string to control the data returned. [Learn more about OData query options supported by Dataverse Web API](/power-apps/developer/data-platform/webapi/query/overview#odata-query-options) |
 
 > [!NOTE]
-> While the `options` parameter is optional, for best performance you should always limit the number of column values returned using the [`$select` option](/power-apps/developer/data-platform/webapi/query/select-columns).
+> While the `options` parameter is optional, for best performance always limit the number of column values returned by using the [`$select` option](/power-apps/developer/data-platform/webapi/query/select-columns).
 
 
 #### retrieveMultipleRecords method example
@@ -476,3 +484,99 @@ let allLanguages = $pages.languages.getAll();
 let activeLanguage = $pages.languages.getActive();
 $pages.languages.setActive('hi-IN');
 ```
+
+## $pages.agent
+
+The `$pages.agent` object provides methods to establish communication between the site and the Microsoft Copilot Studio agent available to the current user. 
+
+```javascript
+$pages.agent.SendActivity(
+    agentSchemaName: string,
+    inputActivity: object,
+    responseSubscriber: function,
+    errorSubscriber: function
+);
+```
+
+| Parameter Name | Type | Description |
+|----------------|----- |-------------|
+| `agentSchemaName` | String | Schema name of the bot to which the activity is sent. |
+| `inputActivity`   | Object | Object containing the text or event to send to the bot. |
+| `responseSubscriber` | function | Callback function that runs when the agent sends a response. |
+| `errorSubscriber` | function | Callback function that handles errors. |
+
+Return type: void - The function doesn't return anything.
+
+Response object from agent received in the following format:
+
+| Name | Type | Description |
+|------|----- |-------------|
+| `type` | String | Type of the activity such as message. |
+| `text` | String | Optional, message from agent. |
+| `textFormat` | String | Optional, format of the message's text such as markdown, plain, or XML. |
+| `Id` | String | ID that uniquely identifies the activity. |
+| `From` | Object | Specifies the sender of the activity (includes id, name (optional), and role information).|
+| `Conversation` | Object | Contains the ID of the conversation to which the activity belongs. |
+| `InputHint` | String | Optional, indicates whether the bot is accepting, expecting, or ignoring user input. |
+| `replyToId` | String | ID of the reply message.|
+
+
+### Example
+
+#### Callback method
+Define the `responseSubscriber` and `errorSubscriber` callback functions to handle agent responses and errors.
+
+```javascript
+const responseSubscriber = (response) => {  
+// Replace with your response handling.
+console.log('Agent response:', response);
+};
+
+const errorSubscriber = (error) => {
+// Replace with your error handling.
+console.error('Error:', error);
+};  
+
+// Replace with your agent schema name.
+const agentSchemaName = 'agent SchemaName';  
+```
+
+#### Send message to agent
+
+```javascript
+const inputActivity = {
+    text: 'Hello!', // Message to the agent.
+    };
+
+$pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber, 
+  ErrorSubscriber);
+
+```
+
+#### Invoke client event
+
+```javascript
+const inputActivity = {
+    name: 'AgentEvent', // The name of the event to be invoked
+    value: {key1:'value1', key2:'value2'} // Open-ended value used to carry additional data or payloads necessary for specific agent operations or responses
+    };
+
+$pages.agent.SendActivity(agentSchemaName, inputActivity, responseSubscriber, 
+  ErrorSubscriber);
+
+```
+### Error messages
+
+Here are possible error messages that users can encounter and their potential causes.
+
+| **Error type** | **Cause** | **Error message for user** |
+|----|----|----|
+| Agent schema validation | Invalid bot schema name provided or user doesn't have access permissions to the agent | `Invalid bot schema name or access denied. Please check the bot schema name and try again.` |
+| Fetch token error | An error occurred while fetching the direct line token | `Something went wrong while fetching the token. Please try again.` |
+| Posting activity error (retry) | An error occurred while posting the activity and a retry is needed. | `Something went wrong while posting the activity: retry.` |
+| Posting activity error (timeout) | Timed out while waiting for outgoing message or postActivity | `Timed out while posting activity: Please retry.` |
+| Posting activity error (invalid activity) | The input activity doesn't have text or a name to invoke the event. | `Invalid activity: At least one of text, name, or attachments must be provided.` |
+| Posting activity error (user ID not found or token not found) | Token isn't found in session storage or user ID isn't found in token | `Error retrieving user ID: {error message}` |
+| Posting activity error (general) | An unspecified error occurred while posting the activity | `Something went wrong while posting the activity: Please try again.` |
+| Direct line connection error | An error occurred while creating direct line connection with the bot. | `Something went wrong while creating direct line connection: Please try again.`|
+| General error | An unexpected error that doesn't fall into the above categories | `An unexpected error occurred while sending activity: Please try again.` |
