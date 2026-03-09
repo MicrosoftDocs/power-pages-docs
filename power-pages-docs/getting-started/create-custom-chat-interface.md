@@ -10,7 +10,7 @@ ms.reviewer: joshuapa
 
 # Create a custom chat interface by using agent client API
 
-This article walks you through building a fully customized chat interface for your Power Pages site using the agent client API. Unlike the standard chat widget, this approach gives you complete control over the user interface design, styling, and user experience.
+This article walks you through building a fully customized chat interface for your Power Pages site using the [agent client API](configure/client-api?#pagesagent). Unlike the standard chat widget, this approach gives you complete control over the user interface design, styling, and user experience.
 
 ## Step 1: Create a site agent
 
