@@ -57,7 +57,7 @@ This restriction applies to **non-production private** sites. It doesn't change 
 > [!NOTE]
 > If a non-production site was already **Public** before the restriction was applied, the site remains public. If you change it back to **Private**, you might not be able to switch it to **Public** again while the restriction is in effect.
 
-If you need a non-production site to be public, contact your tenant admin and ask them to update the governance control for your environment. Learn more in [Control site visibility for non-production sites](/power-pages/admin/site-visibility-governance.md).
+If you need a non-production site to be public, contact your tenant admin and ask them to update the governance control for your environment. Learn more in [Control site visibility for non-production sites](../admin/site-visibility-governance.md).
 
 ## Grant access to a private site
 
