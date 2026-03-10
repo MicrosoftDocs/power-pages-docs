@@ -342,6 +342,8 @@
       href: admin/compliance-privacy.md
     - name: Governance
       href: admin/coe-portals.md
+    - name: Control public access for non-production Power Pages sites
+      href: admin/site-visibility-governance.md
     - name: Use site checker
       items:
         - name: Run site checker

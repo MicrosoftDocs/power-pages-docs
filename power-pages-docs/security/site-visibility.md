@@ -1,7 +1,7 @@
 ---
 title: Site visibility in Power Pages
 description: Learn how to use the site visibility setting to control who has access to sites you create with Microsoft Power Pages.
-ms.date: 02/28/2026
+ms.date: 03/10/2026
 ms.topic: how-to
 author: nageshbhat-msft
 ms.author: nabha
@@ -42,6 +42,22 @@ When you change the site visibility, the website restarts. It can take a few min
 1. In the left panel, select **Security**.
 1. Under **Manage**, select **Site visibility**.
 1. On the **This site is** card, select **Public** or **Private**.
+
+## Site visibility for a non-production site
+
+Your tenant admin can control whether makers are allowed to make **non-production** sites public. When this governance control blocks public access:
+
+- The option to change a non-production site from **Private** to **Public** is unavailable.
+- You see an **Access restricted** message in the **Site visibility** pane.
+
+:::image type="content" source="media/site-visibility/non-production-site-restricted-access.png" alt-text="Screenshot site visibility screen with access restricted message showing at the top.":::
+
+This restriction applies to **non-production private** sites. It doesn't change site visibility behavior for production sites.
+
+> [!NOTE]
+> If a non-production site was already **Public** before the restriction was applied, the site remains public. If you change it back to **Private**, you might not be able to switch it to **Public** again while the restriction is in effect.
+
+If you need a non-production site to be public, contact your tenant admin and ask them to update the governance control for your environment. Learn more in [Control site visibility for non-production sites](site-visibility-governance.md).
 
 ## Grant access to a private site
 
@@ -103,35 +119,17 @@ Set-TenantSettings -RequestBody $requestBody
 When you don't want all system administrators to be able to change site visibility, set `enableSystemAdminsToChangeSiteVisibility` to `false`. Then delegate site visibility management to a select set of users.
 
 1. Add system administrators to a [security group in Microsoft Entra ID](/azure/active-directory/fundamentals/how-to-manage-groups), and give the group site visibility permissions.
-1. Manage site visibility permissions in the Power Platform admin center. Select the following tab based on which version of the admin center you're using:
+1. Manage site visibility permissions in the Power Platform admin center:
 
-# [New admin center](#tab/new)
+    1. In the [Power Platform admin center](https://admin.powerplatform.com), select **Manage**.
+    1. Select **Power Pages**.
+    1. Select your website, and then select **Manage**.
+    1. In the **Security** section, select **Manage site visibility permissions**.
+    1. Add the security group that includes the specific system administrators you want to delegate site visibility control to.
 
-1. In the [Power Platform admin center](https://admin.powerplatform.com), select **Manage**.
-1. Select **Power Pages**.
-1. Select your website, and then select **Manage**.
-1. In the **Security** section, select **Manage site visibility permissions**.
-1. Add the security group that includes the specific system administrators you want to delegate site visibility control to.
-
-    :::image type="content" source="media/site-visibility/add-security-group.png" alt-text="Screenshot of the Manage permissions for site visibility option page, with Choose a security group highlighted.":::
+        :::image type="content" source="media/site-visibility/add-security-group.png" alt-text="Screenshot of the Manage permissions for site visibility option page, with Choose a security group highlighted.":::
 
 After you add the security group, all system administrators in the group can manage site visibility. System administrators who aren't in the group see the site visibility section disabled.
-
-# [Classic admin center](#tab/classic)
-
-1. In the [Power Platform admin center](https://admin.powerplatform.com), select **Power Pages sites**.
-1. Select your website, and then select **Manage**.
-1. In the **Security** section, select **Manage site visibility permissions**.
-
-    :::image type="content" source="media/site-visibility/manage-site-visibility.png" alt-text="Screenshot of a website settings page, with the Manage site visibility permissions option highlighted.":::
-
-1. Add the security group that includes the specific system administrators you want to delegate site visibility control to.
-
-    :::image type="content" source="media/site-visibility/add-security-group.png" alt-text="Screenshot of the Manage permissions for site visibility option page, with Choose a security group highlighted.":::
-
-After you add the security group, all system administrators who are in the group can manage site visibility. System administrators who aren't members of the group see the site visibility section disabled.
-
----
 
 ## Known issues
 
