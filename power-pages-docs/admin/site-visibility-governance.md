@@ -4,7 +4,7 @@ description: Control public access for non-production Power Pages sites with gov
 author: RitGan
 ms.author: ritwikganni
 ms.reviewer: smurkute
-ms.date: 03/10/2026
+ms.date: 03/11/2026
 ms.topic: how-to
 ---
 
@@ -21,20 +21,20 @@ Depending on the policy you configure, makers might be able to switch a non-prod
 
 When makers are blocked, they see an **Access restricted** message in the **Site visibility** pane.
 
-> [!IMPORTANT]
-> When this capability becomes available in your tenant, the default policy is **None** until you change it.
-
 ## Configure the governance control
 
 1. Sign in [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-2. Go to **Manage** > **Power Pages** > **Governance controls**.
+1. Go to **Manage** > **Power Pages** > **Governance controls**.
 1. From the dropdown list, select **Set site visibility to public access for non-production sites**.
-4. Select the environment you want to manage.
-5. Choose a policy value:
+1. Select the environment you want to manage.
+1. Choose a policy value:
  - **None** – Makers can't make non-production sites public.
  - **All** – Makers can make any non-production site public or private.
  - **All sites except specific sites** – Makers can make non-production sites public except the sites you exclude.
  - **Specific sites** – Makers can make only the selected non-production sites public.
-6. Save your changes.
+1. Save your changes.
+
+> [!IMPORTANT]
+> When this capability becomes available in your tenant, the default policy is **None** until you change it.
 
 The changes take effect in the maker experience.
