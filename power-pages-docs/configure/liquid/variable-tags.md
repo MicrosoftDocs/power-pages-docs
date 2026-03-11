@@ -32,7 +32,7 @@ It is valid.
 
 {% endif %}
 
-{% assign name = dave bowman' | upcase %}
+{% assign name = 'dave bowman' | upcase %}
 
 {{ name }}
 ```
