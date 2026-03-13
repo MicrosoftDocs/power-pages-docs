@@ -120,11 +120,11 @@ The default CSP policy includes 'nonce' in the script-src directive, providing 
 
 Power Pages handles nonce injection automatically in most scenarios: 
 
-- **Liquid templates: **Inline scripts rendered through Liquid templates get the nonce attribute injected automatically after rendering. No action required from makers. 
+- **Liquid templates**: Inline scripts rendered through Liquid templates get the nonce attribute injected automatically after rendering. No action required from makers. 
 
-- **Inline event handlers: **Event handlers are automatically secured through hash generation. No manual action is needed. 
+- **Inline event handlers**: Event handlers are automatically secured through hash generation. No manual action is needed. 
 
-- **Dynamically created scripts: **Scripts created at runtime via JavaScript (for example, using document.createElement) cannot receive the server-side nonce. Where possible, move such scripts to external files and add their source domains to the script-src directive. 
+- **Dynamically created scripts**: Scripts created at runtime via JavaScript (for example, using document.createElement) cannot receive the server-side nonce. Where possible, move such scripts to external files and add their source domains to the script-src directive. 
 
 ## Test with report-only mode
 
@@ -146,7 +146,7 @@ For sites created before CSP was enabled by default, follow these steps to enabl
 
 ### Step 1: Check current CSP status
 
-1. Open Portal Management \> Site Settings. 
+1. Open Portal Management > Site Settings. 
 1. Search for HTTP/Content-Security-Policy. 
 1. If the setting does not exist, CSP is not enabled on your site. 
 
@@ -182,9 +182,9 @@ For sites created before CSP was enabled by default, follow these steps to enabl
 
 ### Scripts from external sources are blocked
 
-**Symptom: **Browser console shows a CSP violation for a script source. 
+**Symptom**: Browser console shows a CSP violation for a script source. 
 
-**Solution: **First, verify that the external source is trusted and required for your site. Only add domains from sources you trust. Once validated, add the script's domain to your script-src directive: 
+**Solution**: First, verify that the external source is trusted and required for your site. Only add domains from sources you trust. Once validated, add the script's domain to your script-src directive: 
 
 ```
 script-src 'self' content.powerapps.com content.powerapps.us
@@ -195,15 +195,15 @@ style-src 'unsafe-inline' https:;
 
 ### Inline scripts are not executing
 
-**Symptom: **Custom inline scripts don’t run; CSP nonce violation in console. 
+**Symptom**: Custom inline scripts don’t run; CSP nonce violation in console. 
 
-**Solution: **For Liquid-rendered content, Power Pages automatically injects the nonce attribute. If your scripts are still blocked, ensure the script is within a Liquid template or server-rendered page where automatic nonce injection applies. For dynamically created scripts, consider moving them to external .js files and adding the source domain to your CSP policy. 
+**Solution**: For Liquid-rendered content, Power Pages automatically injects the nonce attribute. If your scripts are still blocked, ensure the script is within a Liquid template or server-rendered page where automatic nonce injection applies. For dynamically created scripts, consider moving them to external .js files and adding the source domain to your CSP policy. 
 
 ### Images or fonts not loading
 
-**Symptom: **Images appear broken, or custom fonts don't render. Browser console shows CSP violations for img-src or font-src. 
+**Symptom**: Images appear broken, or custom fonts don't render. Browser console shows CSP violations for img-src or font-src. 
 
-**Solution: **Add the appropriate source directive to your CSP policy: 
+**Solution**: Add the appropriate source directive to your CSP policy: 
 
 ```
 img-src 'self' https: data:;
@@ -213,9 +213,9 @@ font-src 'self' https://fonts.gstatic.com
 
 ### Iframes not displaying
 
-**Symptom: **Embedded content (YouTube, Maps, Power BI) doesn't load. Browser console shows CSP violations for frame-src. 
+**Symptom**: Embedded content (YouTube, Maps, Power BI) doesn't load. Browser console shows CSP violations for frame-src. 
 
-**Solution: **Add frame-src with the required domains: 
+**Solution**: Add frame-src with the required domains: 
 
 ```
 frame-src 'self' https://www.youtube.com
@@ -224,9 +224,9 @@ frame-src 'self' https://www.youtube.com
 
 ### Third-party widgets not working
 
-**Symptom: **Chat widgets, analytics scripts, or other third-party integrations don't load or function correctly. 
+**Symptom**: Chat widgets, analytics scripts, or other third-party integrations don't load or function correctly. 
 
-**Solution: **Third-party widgets often require multiple directives. Check the browser console for all violation types and add the required sources. Example for a chat widget: 
+**Solution**: Third-party widgets often require multiple directives. Check the browser console for all violation types and add the required sources. Example for a chat widget: 
 
 ```
 script-src 'self' content.powerapps.com 'nonce'
@@ -248,13 +248,13 @@ img-src 'self' https: data:;
 
 ## Best practices
 
-1. **Start with the default policy – **The default CSP provides strong protection while allowing Power Pages features to work correctly. 
-1. **Test with report-only mode first – **Use HTTP/Content-Security-Policy-Report-Only to identify what would be blocked before enforcing. 
-1. **Add sources incrementally – **When integrating external services, add only the specific domains required. Avoid broad wildcards like https: for script-src. 
-1. **Avoid 'unsafe-inline' for scripts – **The nonce-based approach is more secure than allowing all inline scripts. The default policy uses nonce instead of 'unsafe-inline' for script-src. 
-1. **Monitor browser console – **CSP violations are logged to the browser console, helping identify blocked resources. 
-1. **Regularly review and tighten policies – **As you identify and remove dependencies on external resources, tighten your CSP policy accordingly. 
-1. **Use specific domains, not wildcards – **Instead of https:, specify exact domains (for example, https://cdn.example.com) for better security. 
+1. **Start with the default policy**: The default CSP provides strong protection while allowing Power Pages features to work correctly. 
+1. **Test with report-only mode first**: Use HTTP/Content-Security-Policy-Report-Only to identify what would be blocked before enforcing. 
+1. **Add sources incrementally**: When integrating external services, add only the specific domains required. Avoid broad wildcards like https: for script-src. 
+1. **Avoid 'unsafe-inline' for scripts**: The nonce-based approach is more secure than allowing all inline scripts. The default policy uses nonce instead of 'unsafe-inline' for script-src. 
+1. **Monitor browser console**: CSP violations are logged to the browser console, helping identify blocked resources. 
+1. **Regularly review and tighten policies**: As you identify and remove dependencies on external resources, tighten your CSP policy accordingly. 
+1. **Use specific domains, not wildcards**: Instead of https:, specify exact domains (for example, https://cdn.example.com) for better security. 
 
 ## Common scenarios
 
@@ -291,6 +291,6 @@ font-src 'self' https://fonts.gstatic.com;
 
 ## Related resources
 
-- [<u>Content Security Policy Level 3 (W3C Specification)</u>](https://www.w3.org/TR/CSP3/) 
-- [<u>MDN Web Docs: Content Security Policy</u>](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
-- [<u>Configure site settings for Power Pages</u>](/power-pages/configure/configure-site-settings)
+- [Content Security Policy Level 3 (W3C Specification)](https://www.w3.org/TR/CSP3/) 
+- [MDN Web Docs: Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
+- [Configure site settings for Power Pages](/power-pages/configure/configure-site-settings)
