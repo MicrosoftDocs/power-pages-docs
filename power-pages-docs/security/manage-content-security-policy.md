@@ -13,36 +13,284 @@ ms.custom: bap-template
 
 # Manage your site's Content Security Policy
 
-[Content Security Policy (CSP)](https://content-security-policy.com/) is an extra layer of security that helps detect and mitigate some types of web attacks such as data theft, site defacement, or the distribution of malware. CSP provides an extensive set of policy directives that help control the resources that a site page is allowed to load. Each directive defines the restrictions for a specific type of resource.
+[Content Security Policy (CSP)](https://content-security-policy.com/) is an extra layer of security that helps detect and mitigate some types of web attacks such as cross-site scripting, data injection attacks, site defacement, or the distribution of malware. CSP provides an extensive set of policy directives that help control the resources that a site page is allowed to load. Each directive defines the restrictions for a specific type of resource.
 
-When CSP is turned on for a Power Pages site, it helps to make the site more secure by blocking connections, scripts, fonts, and other types of resources that originate from unknown or malicious sources.
+## Before you begin
 
-CSP is turned off by default. However, websites might require CSP to enhance other security.
+> [!IMPORTANT]
+> Test CSP changes in a development environment first. Enabling or modifying CSP on existing sites may break functionality if third-party scripts, custom code, or external resources are not accounted for in the policy. 
 
-Use the [Portal Management app](../configure/portal-management-app.md) to manage CSP.
+We recommend the following approach when making CSP changes: 
 
-## Set your site's CSP
+1. Start with report-only mode to identify violations without blocking resources. 
+1. Review browser console for CSP violation messages. 
+1. Add required sources incrementally based on violations found. 
+1. Switch to enforcement mode once no critical violations are reported. 
 
-1. Sign in to [Power Pages](https://make.powerpages.microsoft.com) and open your site for editing.
+## Default CSP policy
 
-1. In the left side panel, select **More items** (**&hellip;**) > **Portal Management**.
+> [!IMPORTANT]
+> For sites created after 10<sup>th</sup> November 2025, CSP is enabled by default with the following policy: 
 
-1. In the left side panel of the Portal Management app, select **Site Settings**.
+```
+script-src 'self' content.powerapps.com content.powerapps.us content.appsplatform.us content.powerapps.cn 'nonce';
+style-src 'unsafe-inline' https:;
 
-1. Create or edit the **HTTP/Content-Security-Policy** site setting.
+```
 
-1. Set the values you need from the [CSP reference](https://content-security-policy.com/), separated by semicolons; for example, `script-src 'self' https://js.example.com;style-src 'self' https://css.example.com`
+This default policy: 
 
-## Turn on nonce
+- Allows scripts from your site’s origin ('self') 
+- Allows scripts from Power Pages content delivery domains 
+- Uses nonce-based script validation for inline scripts 
+- Allows inline styles and styles from HTTPS sources 
 
-A *nonce* represents a code, usually numeric, that's meant to be used only once ("number once"). When you use a nonce with your site's CSP, a unique cryptographic code is generated and added to each script that's specified in the CSP header. Only inline scripts that have a nonce attribute that matches the one in the CSP are allowed to run. Scripts that an attacker may have injected into the page are blocked because they don't include the nonce attribute. [Learn more about using a nonce with CSP](https://content-security-policy.com/nonce/).
+**For sites created before this change**: CSP may not be enabled. We recommend enabling it by configuring the HTTP/Content-Security-Policy site setting. See [<u>Migration guide for existing sites</u>](bookmark://bk_migration_guide_for_existing_sites) for step-by-step instructions. 
 
-In Power Pages sites, nonce supports inline scripts and inline event handlers only.
+## Understanding the default policy directives
 
-To turn on nonce for your site, add the **script-src 'nonce';** value to the **HTTP/Content-Security-Policy** site setting. A few examples follow.
+| **Directive**  | **Value**  | **Purpose**  |
+|----|----|----|
+| script-src  | 'self'  | Allows scripts from your site’s origin  |
+| script-src  | content.powerapps.com, content.powerapps.us, content.appsplatform.us, content.powerapps.cn  | Allows Power Pages platform scripts  |
+| script-src  | 'nonce'  | Enables nonce-based validation for inline scripts  |
+| style-src  | 'unsafe-inline'  | Allows inline styles (required for many site features)  |
+| style-src  | https:  | Allows styles from any HTTPS source  |
 
-- If you want a strict policy that doesn't allow scripts to load from sources outside of a Power Pages site, add the following value to the **HTTP/Content-Security-Policy** site setting: `script-src 'self' content.powerapps.com 'nonce'`
+ 
+## Customizing CSP
 
-- If you want to load scripts from any secure source, add the following value: `script-src https: 'nonce'`
+### Modify or disable CSP
 
-When nonce is turned on, **unsafe-eval** is injected to support the automatic evaluation of unsafe code. To turn off the automatic injection of **unsafe-eval**, change the site setting **HTTP/Content-Security-Policy/Inject-unsafe-eval** to **False**. Keep in mind that if **unsafe-eval** injection is turned off, the validation of automatically generated fields on [basic](../getting-started/add-form.md)  or [multistep](../getting-started/multistep-forms.md) forms might no longer work correctly.
+1. Sign in to Power Pages. 
+1. Open your site for editing. 
+1. Select More items (…) > Portal Management in the left panel. 
+1. Select Site Settings in the Portal Management app. 
+1. Find or create the HTTP/Content-Security-Policy site setting. 
+1. Modify the value as needed. To disable CSP, clear the site setting value (leave it empty) rather than deleting the setting.
+
+### Adding external script sources
+
+If your site uses external JavaScript libraries (for example, analytics, chat widgets), add their domains to the script-src directive: 
+
+```
+script-src 'self' content.powerapps.com content.powerapps.us
+  content.appsplatform.us content.powerapps.cn 'nonce'
+  https://cdn.example.com https://analytics.example.com;
+style-src 'unsafe-inline' https:;
+```
+
+### Adding additional directives
+
+You can add more CSP directives as needed. Common additions include: 
+
+| **Directive**  | **Example**  | **Purpose**  |
+|----|----|----|
+| img-src  | img-src 'self' https: data:;  | Control image sources  |
+| font-src  | font-src 'self' https://fonts.gstatic.com;  | Control font sources  |
+| connect-src  | connect-src 'self' https://api.example.com;  | Control AJAX/fetch destinations  |
+| frame-src  | frame-src 'self' https://www.youtube.com;  | Control iframe sources  |
+| frame-ancestors  | frame-ancestors 'self';  | Control who can embed your site  |
+| media-src  | media-src 'self' https:;  | Control audio/video sources  |
+| object-src  | object-src 'none';  | Block plugins (Flash, Java applets)  |
+
+ 
+
+## Nonce support
+
+### What is a nonce?
+
+A nonce (number used once) is a cryptographic random value generated for each page request. When nonce is enabled, only inline scripts that include a matching nonce attribute will execute. 
+
+### How nonce works in Power Pages
+
+When 'nonce' is included in your CSP policy: 
+
+1. A unique nonce value is generated for each page request. 
+1. The nonce is automatically added to inline script tags from trusted sources. 
+1. Inline scripts without the matching nonce are blocked. 
+1. This prevents injected malicious scripts from executing. 
+1. Inline event handlers are secured separately through automatic hash generation. 
+
+### Nonce is enabled by default
+
+The default CSP policy includes 'nonce' in the script-src directive, providing automatic protection for inline scripts from trusted sources. 
+
+### How nonce works with custom scripts
+
+Power Pages handles nonce injection automatically in most scenarios: 
+
+- **Liquid templates: **Inline scripts rendered through Liquid templates get the nonce attribute injected automatically after rendering. No action required from makers. 
+
+- **Inline event handlers: **Event handlers are automatically secured through hash generation. No manual action is needed. 
+
+- **Dynamically created scripts: **Scripts created at runtime via JavaScript (for example, using document.createElement) cannot receive the server-side nonce. Where possible, move such scripts to external files and add their source domains to the script-src directive. 
+
+## Test with report-only mode
+
+Before enforcing a CSP policy, use report-only mode to identify what would be blocked without blocking it: 
+
+1. In Portal Management, create a site setting named HTTP/Content-Security-Policy-Report-Only. 
+1. Set its value to the CSP policy you want to test. 
+1. Open your site in a browser and check the console for violation reports. 
+1. Address all violations by adjusting the policy. 
+1. Once satisfied, move the policy value to HTTP/Content-Security-Policy (enforcement mode). 
+1. Delete the HTTP/Content-Security-Policy-Report-Only site setting. 
+
+> [!NOTE]
+> You can use both HTTP/Content-Security-Policy and HTTP/Content-Security-Policy-Report-Only simultaneously. Use report-only to test stricter policies while enforcing a baseline policy. 
+
+## Migration guide for existing sites
+
+For sites created before CSP was enabled by default, follow these steps to enable CSP: 
+
+### Step 1: Check current CSP status
+
+1. Open Portal Management \> Site Settings. 
+1. Search for HTTP/Content-Security-Policy. 
+1. If the setting does not exist, CSP is not enabled on your site. 
+
+> [!NOTE]
+> When CSP is not configured, the site's health checker shows a warning: "HTTP/Content-Security-Policy site setting is missing or misconfigured." You can check this in your site's health diagnostics. 
+
+### Step 2: Start with report-only mode
+
+1. Create a site setting HTTP/Content-Security-Policy-Report-Only with the default policy: 
+
+   ```
+   script-src 'self' content.powerapps.com content.powerapps.us content.appsplatform.us content.powerapps.cn 'nonce'; style-src 'unsafe-inline' https:;
+   ```
+
+1. Browse your site and check the browser console for violations. 
+1. Add any required external domains to the policy. 
+
+### Step 3: Enable enforcement
+
+1. Create the HTTP/Content-Security-Policy site setting with your tested policy. 
+1. Optionally remove the report-only setting. 
+1. Monitor issues and adjust as needed. 
+
+### Important notes for migration
+
+- Existing sites are not automatically migrated to CSP for enforcement. 
+
+- Custom JavaScript added through the code editor is handled by the automatic nonce injection for Liquid-rendered content. 
+
+- Third-party scripts (analytics, chat widgets, etc.) must have their domains explicitly added to script-src. 
+
+## Troubleshooting
+
+### Scripts from external sources are blocked
+
+**Symptom: **Browser console shows a CSP violation for a script source. 
+
+**Solution: **First, verify that the external source is trusted and required for your site. Only add domains from sources you trust. Once validated, add the script's domain to your script-src directive: 
+
+```
+script-src 'self' content.powerapps.com content.powerapps.us
+  content.appsplatform.us content.powerapps.cn 'nonce'
+  https://blocked-domain.com;
+style-src 'unsafe-inline' https:;
+```
+
+### Inline scripts are not executing
+
+**Symptom: **Custom inline scripts don’t run; CSP nonce violation in console. 
+
+**Solution: **For Liquid-rendered content, Power Pages automatically injects the nonce attribute. If your scripts are still blocked, ensure the script is within a Liquid template or server-rendered page where automatic nonce injection applies. For dynamically created scripts, consider moving them to external .js files and adding the source domain to your CSP policy. 
+
+### Images or fonts not loading
+
+**Symptom: **Images appear broken, or custom fonts don't render. Browser console shows CSP violations for img-src or font-src. 
+
+**Solution: **Add the appropriate source directive to your CSP policy: 
+
+```
+img-src 'self' https: data:;
+font-src 'self' https://fonts.gstatic.com
+  https://fonts.googleapis.com;
+```
+
+### Iframes not displaying
+
+**Symptom: **Embedded content (YouTube, Maps, Power BI) doesn't load. Browser console shows CSP violations for frame-src. 
+
+**Solution: **Add frame-src with the required domains: 
+
+```
+frame-src 'self' https://www.youtube.com
+  https://app.powerbi.com;
+```
+
+### Third-party widgets not working
+
+**Symptom: **Chat widgets, analytics scripts, or other third-party integrations don't load or function correctly. 
+
+**Solution: **Third-party widgets often require multiple directives. Check the browser console for all violation types and add the required sources. Example for a chat widget: 
+
+```
+script-src 'self' content.powerapps.com 'nonce'
+  https://widget.chatprovider.com;
+style-src 'unsafe-inline' https:;
+connect-src 'self' https://api.chatprovider.com;
+frame-src 'self' https://widget.chatprovider.com;
+img-src 'self' https: data:;
+```
+
+## Site settings reference
+
+| **Site setting**  | **Purpose**  | **Default**  |
+|----|----|----|
+| HTTP/Content-Security-Policy  | The complete CSP policy (enforcement mode)  | See default policy above (new sites only)  |
+| HTTP/Content-Security-Policy-Report-Only  | CSP policy in report-only mode (violations logged, not blocked)  | Not set  |
+
+ 
+
+## Best practices
+
+1. **Start with the default policy – **The default CSP provides strong protection while allowing Power Pages features to work correctly. 
+1. **Test with report-only mode first – **Use HTTP/Content-Security-Policy-Report-Only to identify what would be blocked before enforcing. 
+1. **Add sources incrementally – **When integrating external services, add only the specific domains required. Avoid broad wildcards like https: for script-src. 
+1. **Avoid 'unsafe-inline' for scripts – **The nonce-based approach is more secure than allowing all inline scripts. The default policy uses nonce instead of 'unsafe-inline' for script-src. 
+1. **Monitor browser console – **CSP violations are logged to the browser console, helping identify blocked resources. 
+1. **Regularly review and tighten policies – **As you identify and remove dependencies on external resources, tighten your CSP policy accordingly. 
+1. **Use specific domains, not wildcards – **Instead of https:, specify exact domains (for example, https://cdn.example.com) for better security. 
+
+## Common scenarios
+
+### Scenario: Add Google Analytics
+
+```
+script-src 'self' content.powerapps.com 'nonce'
+  https://www.googletagmanager.com
+  https://www.google-analytics.com;
+style-src 'unsafe-inline' https:;
+img-src 'self' https: data:;
+connect-src 'self'
+  https://www.google-analytics.com
+  https://analytics.google.com;
+```
+
+### Scenario: Add a YouTube embed
+
+```
+script-src 'self' content.powerapps.com 'nonce';
+style-src 'unsafe-inline' https:;
+frame-src 'self' https://www.youtube.com
+  https://www.youtube-nocookie.com;
+```
+
+### Scenario: Use Google Fonts
+
+```
+script-src 'self' content.powerapps.com 'nonce';
+style-src 'unsafe-inline'
+  https://fonts.googleapis.com;
+font-src 'self' https://fonts.gstatic.com;
+```
+
+## Related resources
+
+- [<u>Content Security Policy Level 3 (W3C Specification)</u>](https://www.w3.org/TR/CSP3/) 
+- [<u>MDN Web Docs: Content Security Policy</u>](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
+- [<u>Configure site settings for Power Pages</u>](/power-pages/configure/configure-site-settings)
