@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [Content Security Policy (CSP)](https://content-security-policy.com/) is an extra layer of security that helps detect and mitigate some types of web attacks such as cross-site scripting, data injection attacks, site defacement, or the distribution of malware. CSP provides an extensive set of policy directives that help control the resources that a site page can load. Each directive defines the restrictions for a specific type of resource.
 
-## Prerequisite
+## Prerequisites
 
 > [!IMPORTANT]
 > Test CSP changes in a development environment first. Enabling or modifying CSP on existing sites might break functionality if the policy doesn't account for third-party scripts, custom code, or external resources. 
@@ -57,7 +57,6 @@ This default policy: 
 | `style-src`  | `'unsafe-inline'`  | Allows inline styles (required for many site features)  |
 | `style-src`  | `https:`  | Allows styles from any HTTPS source  |
 
- 
 ## Customizing CSP
 
 You can modify, extend, or disable the default CSP policy to meet your site's specific requirements.
@@ -95,15 +94,13 @@ You can add more CSP directives as needed. Common additions include: 
 | `media-src`  | `media-src 'self' https:;`  | Control audio/video sources  |
 | `object-src`  | `object-src 'none';`  | Block plugins (Flash, Java applets)  |
 
- 
-
 ## Nonce support
 
 ### What is a nonce?
 
 A nonce (number used once) is a cryptographic random value generated for each page request. When you enable nonce, only inline scripts that include a matching nonce attribute run. 
 
-### How nonce works in Power Pages
+### How nonce works in Power Pages?
 
 When you include 'nonce' in your CSP policy: 
 
@@ -115,9 +112,9 @@ When you include 'nonce' in your CSP policy: 
 
 ### Nonce is enabled by default
 
-The default CSP policy includes 'nonce' in the script-src directive, providing automatic protection for inline scripts from trusted sources. 
+The default CSP policy includes 'nonce' in the `script-src` directive, providing automatic protection for inline scripts from trusted sources. 
 
-### How nonce works with custom scripts
+### How nonce works with custom scripts?
 
 Power Pages handles nonce injection automatically in most scenarios: 
 
@@ -125,13 +122,13 @@ Power Pages handles nonce injection automatically in most scenarios: 
 
 - **Inline event handlers**: Power Pages automatically secures event handlers through hash generation. No manual action is needed. 
 
-- **Dynamically created scripts**: Scripts created at runtime via JavaScript (for example, using document.createElement) can't receive the server-side nonce. Where possible, move such scripts to external files and add their source domains to the script-src directive. 
+- **Dynamically created scripts**: Scripts created at runtime via JavaScript (for example, using `document.createElement`) can't receive the server-side nonce. Where possible, move such scripts to external files and add their source domains to the `script-src` directive. 
 
 ## Test with report-only mode
 
 Before enforcing a CSP policy, use report-only mode to identify what the policy blocks without blocking it: 
 
-1. In Portal Management, create a site setting named `HTTP/Content-Security-Policy-Report-Only`. 
+1. In **Portal Management**, create a site setting named `HTTP/Content-Security-Policy-Report-Only`. 
 1. Set its value to the CSP policy you want to test. 
 1. Open your site in a browser and check the console for violation reports. 
 1. Address all violations by adjusting the policy. 
@@ -147,7 +144,7 @@ For sites created before CSP was enabled by default, follow these steps to enabl
 
 ### Step 1: Check current CSP status
 
-1. Open **Portal Management** APP > **Site Settings**. 
+1. Open **Portal Management** > **Site Settings**. 
 1. Search for `HTTP/Content-Security-Policy`. 
 1. If the setting doesn't exist, CSP isn't enabled on your site. 
 
@@ -169,7 +166,7 @@ For sites created before CSP was enabled by default, follow these steps to enabl
 
 1. Create the `HTTP/Content-Security-Policy` site setting with your tested policy. 
 1. Optionally remove the report-only setting. 
-1. Monitor problems and adjust as needed. 
+1. Monitor problems and adjust as needed. 
 
 ### Considerations
 
