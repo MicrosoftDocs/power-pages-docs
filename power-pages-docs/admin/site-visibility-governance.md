@@ -23,7 +23,7 @@ When makers are blocked, they see an **Access restricted** message in the **Site
 
 ## Configure the governance control
 
-1. Sign in [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 1. Go to **Manage** > **Power Pages** > **Governance controls**.
 1. From the dropdown list, select **Set site visibility to public access for non-production sites**.
 1. Select the environment you want to manage.
