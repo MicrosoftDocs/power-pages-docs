@@ -52,7 +52,7 @@ The following directives are supported.
 
 For each directive, you can either choose specific URL, all domains, or none.
 
-For advanced configuration, go to [Manage your site's Content Security Policy: Set your site's CSP](manage-content-security-policy.md#set-your-sites-csp).
+For advanced configuration, go to [Manage your site's Content Security Policy](manage-content-security-policy.md).
 
 ## Configure Cross-Origin Resource Sharing (CORS)
 
