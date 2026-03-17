@@ -4,7 +4,7 @@ description: Control public access for non-production Power Pages sites with gov
 author: RitGan
 ms.author: ritwikganni
 ms.reviewer: smurkute
-ms.date: 03/11/2026
+ms.date: 03/17/2026
 ms.topic: how-to
 ---
 
