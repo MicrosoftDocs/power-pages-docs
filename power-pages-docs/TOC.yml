@@ -615,7 +615,7 @@
       items: 
       - name: Supported controls
         href: configure/client-api-controls.md
-    - name: Use server logic (preview)
+    - name: Use server logic
       items:
         - name: Server logic overview
           href: configure/server-logic-overview.md
