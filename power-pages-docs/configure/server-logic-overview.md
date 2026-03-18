@@ -5,13 +5,11 @@ description: Learn how to configure and secure Power Pages server logic, includi
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 02/04/2026
+ms.date: 03/18/2026
 ms.topic: concept-article
 ---
 
-# Server logic overview (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Server logic overview
 
 Power Pages server logic lets makers run JavaScript securely on the server, adding extensibility directly to the site runtime.  
    
@@ -20,11 +18,6 @@ Because server logic runs on the server, it's hidden from the browser and protec
 Dataverse stores code and configuration, so server logic benefits from the same lifecycle management and deployment pipelines as other Power Pages components.  
 
 :::image type="content" source="media/server-logic-overview/server-logic-flow.png" alt-text="Server logic flow":::
-
-> [!IMPORTANT]
->
-> - This feature is a preview feature.
-> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
 
 ## Language support
 
@@ -61,9 +54,9 @@ To execute code in server logic, users must have the appropriate permissions con
 
 You don't need to include custom authentication code. Authentication and authorization are managed by the application session. All server logic API calls must include a Cross-Site Request Forgery (CSRF) token.  
 
-## Governance setting for anonymous access 
+## Governance setting for external service calls 
 
-Server logic integrates with Dataverse and external services to perform complex computations that might use data from external systems. When administrators enforce the [governance control](../security/disable-anonymous-access.md), any integration initiated by anonymous users, especially those involving external systems, is blocked.  
+Server logic can connect to external REST APIs, Azure Functions, and other business systems to perform server-side integrations. To prevent data exfiltration, tenant administrators can block outbound HTTP calls made by Server Logic on a site-by-site basis. When this governance control is enforced, any outbound HTTP call attempted by Server Logic will fail. Learn more in Disable external service calls from Server Logic 
 
 ## Site settings
 
