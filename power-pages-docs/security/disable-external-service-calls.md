@@ -1,5 +1,5 @@
 ---
-title: Use governance controls to disable external service calls in Power Pages server logic
+title: Use governance controls to disable external service calls
 description: Learn how to disable external service calls from Power Pages server logic to enhance security, prevent data exfiltration, and enforce network-boundary policies.
 author: nageshbhat-msft
 ms.author: nabha
