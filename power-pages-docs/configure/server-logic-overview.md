@@ -56,7 +56,7 @@ You don't need to include custom authentication code. Authentication and authori
 
 ## Governance setting for external service calls 
 
-Server logic can connect to external REST APIs, Azure Functions, and other business systems to perform server-side integrations. To prevent data exfiltration, tenant administrators can block outbound HTTP calls that server logic makes on a site-by-site basis. When this governance control is enforced, any outbound HTTP call that server logic attempts fails. To learn more, see disable external service calls from server logic.
+Server logic can connect to external REST APIs, Azure Functions, and other business systems to perform server-side integrations. To prevent data exfiltration, tenant administrators can [block outbound HTTP calls](../security/disable-external-service-calls) that server logic makes on a site-by-site basis. When this governance control is enforced, any outbound HTTP call that server logic attempts fails. To learn more, see disable external service calls from server logic.
 
 ## Site settings
 
