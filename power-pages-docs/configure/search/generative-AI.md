@@ -4,7 +4,7 @@ description: Learn how to enhance search results with generative AI.
 author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 03/24/2025
+ms.date: 03/24/2026
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
