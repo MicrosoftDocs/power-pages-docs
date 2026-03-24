@@ -2,7 +2,7 @@
 title: Create new sites with Bootstrap version 5
 description: Learn how to enable Bootstrap version 5 in your environment to take advantage of new features and updates that make creating responsive, customized Power Pages sites even easier.
 ms.topic: how-to
-ms.date: 11/13/2024
+ms.date: 02/23/2026
 author: GitanjaliSingh33msft
 ms.author: gisingh
 ms.reviewer: dmartens
@@ -34,7 +34,7 @@ You can [migrate](migrate-bootstrap.md) any of your existing Bootstrap version 3
 - [Application processing template](../templates/building-permit.md)
 - [Program registration template](../templates/after-school.md)
 - [Schedule and manage meetings template](../templates/book-a-meeting.md)
-- [Frequently Asked Questions template (preview)](../templates/frequently-asked-questions.md)
+- [Frequently Asked Questions template](../templates/frequently-asked-questions.md)
 
 ## Set up Bootstrap version 5
 
@@ -44,7 +44,7 @@ You can [migrate](migrate-bootstrap.md) any of your existing Bootstrap version 3
 
 1. On the **Resources** tile, select **Power Pages sites**.
 
-1. If not already, turn on **Switch to enhanced data model (preview)** and confirm when prompted.
+1. If not already, turn on **Switch to enhanced data model** and confirm when prompted.
 
 You can view and edit Power Pages sites that you create with Bootstrap version 5 just as you did with version 3.
 
