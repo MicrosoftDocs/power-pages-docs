@@ -3,7 +3,7 @@ title: Enhanced data model
 description: Learn how to use the enhanced data model in a Power Pages site.
 author: neerajnandwana-msft
 ms.topic: concept-article
-ms.date: 04/22/2024
+ms.date: 02/20/2026
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: danamartens
@@ -120,25 +120,28 @@ Any new website that you provision using one of the following templates uses the
 - Blank page
 - Program registration
 - Schedule meetings
+- FAQ
+- Community (Dynamics 365)
+- Customer Self Service Portal (Dynamics 365)
+- Employee Self Service Portal (Dynamics 365)
+- Partner Portal (Dynamics 365)
+
+> [!NOTE]
+> Enhanced data model supports new site creation for the above templates. Some sites previously created with standard data model can't be migrated yet. Specifically, sites created with the Community (Dynamics 365), Customer Self Service Portal (Dynamics 365), Employee Self Service Portal (Dynamics 365), and Partner Portal (Dynamics 365) templates. For guidance and tooling support to help you update from the standard data model to the enhanced data model, go to [Migrate standard data model sites to enhanced data mode](./migrate-enhanced-data-model.md).
 
 The following templates use the standard data model even if the enhanced data model is enabled in the environment:
 
-- FAQ
-- Community (Dynamics 365)
 - Customer Portal (Dynamics 365)
-- Customer Self Service Portal (Dynamics 365)
-- Employee Self Service Portal (Dynamics 365)
 - Field Service (Dynamics 365)
 - Modern Community (Dynamics 365)
 - Order Returns (Dynamics 365)
-- Partner Portal (Dynamics 365)
 
 ## Create a website by using the enhanced data model
 
 After the enhanced data model is enabled in an environment, you can create a new site from the Power Pages home page.
 
 > [!NOTE]
-> The enhanced data model is used to create the new site only if the selected template supports the enhanced data model.
+> The enhanced data model is used to create the new site only if the selected template supports the enhanced data model. For the Community (Dynamics 365), Customer Self Service Portal (Dynamics 365), Employee Self Service Portal (Dynamics 365), and Partner Portal (Dynamics 365) templates, the Power Pages Core Package version must be v1.1.2602.230 or later. For details about upgrading package version, see [Update the Power Pages solution](update-solution.md).
 
 Follow these steps to create a site by using a template that uses the enhanced data model:
 
@@ -208,19 +211,6 @@ For guidance and tooling support to help you update from the standard data model
 ### Can I edit new sites that are based on enhanced data model configurations in the Portal Management app?
 
 You can use the new Power Pages Management app to edit new websites that are created by using the enhanced data model.
-
-## Known issues
-
-### Limitation of deployment profiles in enhanced data model sites deployed using a solution
-
-Currently, Power Pages application lifecycle management (ALM) doesn’t provide a way to assign different site setting values for different environments when you deploy site data using solutions. The standard data model supports ALM using the deployment profiles. The ability to use environment variables for site settings is under consideration for a future update. To work around this limitation in the meantime, you can deploy enhanced data model sites with one of the following options:
-
-> [!NOTE]
-> The following methods deploy site objects in an unmanaged state.
-
-- [Microsoft Power Platform CLI](../configure/power-platform-cli.md)
-- [GitHub Actions for Power Platform](/power-platform/alm/devops-github-actions)
-- [Power Platform Build Tools for Azure DevOps](/power-platform/alm/devops-build-tools)
 
 ## See also
 
