@@ -61,7 +61,7 @@ To learn about the roles required to perform this task, read [Admin roles requir
    > - If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: "Please add a CNAME record to this domain name. Retry after some time passes."
    > - To successfully bind your custom domain, ensure there's no TXT record in your DNS named `asuid.{customDomain}`. If such a record exists, delete it and try binding the domain again. For example, if your domain is `www.contoso.com`, check for a TXT record named `asuid.www.contoso.com`. If found, remove it before retrying the domain configuration.
    > - The CNAME record used for custom domain configuration must be publicly resolvable. Power Pages can't validate DNS records that exist only in private or internal DNS zones, and will cause custom domain setup to fail.
-     > - Before adding the custom domain, check that the CNAME resolves using a public DNS tool (for example, `nslookup` or `dig`). If the record can’t be resolved publicly, Power Pages can't validate it.
+      > - Before adding the custom domain, check that the CNAME resolves using a public DNS tool (for example, `nslookup` or `dig`). If the record can’t be resolved publicly, Power Pages can't validate it.
 
 1. Select **Next**
 
