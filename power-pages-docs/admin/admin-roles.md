@@ -4,7 +4,7 @@ description: Learn about the roles and permissions required to do different admi
 author: neerajnandwana-msft
 
 ms.topic: concept-article
-ms.date: 12/08/2025
+ms.date: 03/31/2026
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
@@ -52,7 +52,6 @@ The following table lists different administrative tasks for Power Pages, and th
 | [Disable custom errors](view-portal-error-log.md#disable-custom-error) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Enable diagnostic logging](view-portal-error-log.md#enable-diagnostic-logging) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Change base URL](change-base-url.md) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> </ul> |
-| [Update to Power Pages domain](/power-apps/maker/portals/admin/update-portal-domain) | [Website app owner](#website-app-owner) and any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Enable maintenance mode](enable-maintenance-mode.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Set up SSL](manage-custom-certificates.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
 | [Manage SSL certificates](add-custom-domain.md) | Any one of the following roles: <ul> <li> [Website owner](#website-owner) </li> <li> [System customizer](#system-customizer) </li> <li> [System administrator](#system-administrator) </li> <li> [Dynamics 365 administrator](#dynamics-365-administrator) </li> <li> [Power Platform administrator](#power-platform-administrator) </li> </ul> |
