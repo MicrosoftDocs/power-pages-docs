@@ -18,7 +18,7 @@ Control outbound HTTP calls from server logic on a site-by-site basis by using t
 
 1. Go to the [Power Platform admin center](https://aka.ms/ppac).
 
-1. In the left-side menu, select Resources > Power Pages Sites.
+1. In the left-side menu, select **Resources** > **Power Pages Sites.**
 
 1. Select **Governance Controls** from the top ribbon menu.
 
