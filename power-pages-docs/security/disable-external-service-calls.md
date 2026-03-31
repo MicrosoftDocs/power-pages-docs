@@ -4,7 +4,7 @@ description: Learn how to disable external service calls from Power Pages server
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 03/19/2026
+ms.date: 03/31/2026
 ms.topic: feature-guide
 ---
 

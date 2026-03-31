@@ -5,7 +5,7 @@ description: Learn how to configure and secure Power Pages server logic, includi
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 03/19/2026
+ms.date: 03/31/2026
 ms.topic: concept-article
 ---
 
@@ -56,7 +56,7 @@ You don't need to include custom authentication code. Authentication and authori
 
 ## Governance setting for external service calls 
 
-Server logic can connect to external REST APIs, Azure Functions, and other business systems to perform server-side integrations. To prevent data exfiltration, tenant administrators can [block outbound HTTP calls](../security/disable-external-service-calls) that server logic makes on a site-by-site basis. When this governance control is enforced, any outbound HTTP call that server logic attempts fails. To learn more, see disable external service calls from server logic.
+Server logic can connect to external REST APIs, Azure Functions, and other business systems to perform server-side integrations. To prevent data exfiltration, tenant administrators can [block outbound HTTP calls](../security/disable-external-service-calls.md) that server logic makes on a site-by-site basis. When this governance control is enforced, any outbound HTTP call that server logic attempts fails. To learn more, see disable external service calls from server logic.
 
 ## Site settings
 
