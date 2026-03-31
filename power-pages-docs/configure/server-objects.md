@@ -5,7 +5,7 @@ description: Learn how to use built-in server objects like Logger, HttpClient, a
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 02/04/2026
+ms.date: 03/31/2026
 ms.topic: reference
 ---
 
@@ -142,7 +142,6 @@ Server.User.fullname;
 The `Server.Connector.Dataverse` object lets you perform CRUD operations on Dataverse tables, and invoke custom APIs.
 
 > [!NOTE]
->- Only Dataverse-bound actions and functions are supported.
 >- When referring to Dataverse tables in your code, you need to use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the `account` table, the code syntax uses the EntitySetName of `accounts`.
 
 
@@ -237,6 +236,12 @@ Invoke a bound action:
 
 ```javascript
 Server.Connector.Dataverse.InvokeCustomApi("post", "accounts(00000000-0000-0000-0000-000000000001)/Microsoft.Dynamics.CRM.new_CustomBoundAction", "{ \"parameter1\": \"value1\" }");
+```
+
+Invoke a un-bound action:
+
+```javascript
+Server.Connector.Dataverse.InvokeCustomApi("post", "Microsoft.Dynamics.CRM.new_Action", "{ \"parameter1\": \"value1\" }");
 ```
 
 
