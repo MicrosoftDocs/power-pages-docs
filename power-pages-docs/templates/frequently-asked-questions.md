@@ -1,9 +1,9 @@
 ---
-title: Frequently Asked Questions template (preview)
+title: Frequently Asked Questions template
 description: Learn about the Frequently Asked Questions template in Power Pages.
 ms.topic: faq
 ms.custom: bap-template
-ms.date: 4/14/2023
+ms.date: 02/23/2026
 ms.subservice:
 author: murugesh1985 
 ms.author: murugeshs 
@@ -11,16 +11,13 @@ ms.reviewer: danamartens
 contributors:
 ---
 
-# Frequently Asked Questions template (preview)
+# Frequently Asked Questions template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Frequently Asked Questions (FAQ) template gives you an easy way to add an FAQ page to your Power Pages site. The FAQ template organizes information around a topic, subtopic, and article framework. A no-code administrator experience makes it easy to update and organize content.
 
 :::image type="content" source="media/faq.png" alt-text="Screenshot of the FAQ template user interface.":::
-
-> [!IMPORTANT]
-> This is a preview feature. [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 ## Users
 

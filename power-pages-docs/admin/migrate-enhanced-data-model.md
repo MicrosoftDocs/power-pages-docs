@@ -94,6 +94,10 @@ Sites with following templates are supported for migration:
 - Blank page
 - Program registration
 - Schedule and manage meetings
+- FAQ
+
+> [!IMPORTANT]
+> Enhanced data model supports **new** site creation for the Community (Dynamics 365), Customer Self Service Portal (Dynamics 365), Employee Self Service Portal (Dynamics 365), and Partner Portal (Dynamics 365) templates, but sites previously created with these templates using the standard data model can't be migrated yet.
 
 ## Step 3. Verify the migration status  
 
