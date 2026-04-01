@@ -894,6 +894,9 @@ Refers to the current portal request page. This object combines the attributes o
 
 The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Dataverse record.
 
+> [!Note]  
+> When accessing a page as part of a `page.children` collection. The `entity` keyword must be used to access the underlying Dataverse record.
+
 ```
 <ul class=breadcrumb>
 
@@ -925,7 +928,7 @@ The page object provides access to things like the breadcrumbs for the current p
 
 <a class=list-group-item href={{ child.url | escape }}>
 
-{{ child.title | escape }}
+{{ child.title | escape }} (Last Modified: {{child.entity.modifiedon | escape }})
 
 </a>
 
