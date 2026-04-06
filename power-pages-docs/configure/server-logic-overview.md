@@ -1,30 +1,23 @@
 ---
-title: Power Pages server logic overview (preview)
+title: Power Pages server logic overview
 description: Learn how to configure and secure Power Pages server logic, including governance settings, API authentication, and site-specific configurations.
 #customer intent: As a developer, I want to securely run JavaScript on the server so that I can extend site functionality without exposing code in the browser.
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 02/04/2026
+ms.date: 03/31/2026
 ms.topic: concept-article
 ---
 
-# Server logic overview (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Server logic overview
 
 Power Pages server logic lets makers run JavaScript securely on the server, adding extensibility directly to the site runtime.  
    
-Because server logic runs on the server, it's hidden from the browser and protected by web roles and table permissions. You add logic in Power Pages design studio and author it using Visual Studio Code, which provides IntelliSense and compile-time validation.  
+Because server logic runs on the server, it's hidden from the browser and protected by web roles and table permissions. You add logic in Power Pages design studio and author it by using Visual Studio Code, which provides IntelliSense and compile-time validation.  
 
 Dataverse stores code and configuration, so server logic benefits from the same lifecycle management and deployment pipelines as other Power Pages components.  
 
 :::image type="content" source="media/server-logic-overview/server-logic-flow.png" alt-text="Server logic flow":::
-
-> [!IMPORTANT]
->
-> - This feature is a preview feature.
-> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
 
 ## Language support
 
@@ -34,10 +27,10 @@ Server logic lets developers write native JavaScript code compliant with the [EC
 
 Server logic in Power Pages allows makers and developers to move critical operations from the browser to the server for improved control, scalability, and security. It enables your site to perform complex tasks and integrations without exposing sensitive logic or data on the client side.
 
-With Server logic, you can:
+By using server logic, you can:
 - Connect to external services and APIs: Integrate securely with REST APIs, Azure Functions, or other business systems to exchange data, trigger actions, or retrieve dynamic information.
 - Perform secure data operations : Execute Dataverse operations—such as querying, updating, or deleting records—on the server, applying business logic and validation consistently.
-- Run custom logic and transformations: Process or manipulate data before returning it to the client. For example, calculate totals, validate business rules, or enrich data using external lookups.
+- Run custom logic and transformations: Process or manipulate data before returning it to the client. For example, calculate totals, validate business rules, or enrich data by using external lookups.
 - Return processed responses to pages: Send only the required and filtered data to client pages, ensuring faster rendering and reduced payloads.
 - Simplify secure authentication: Manage service credentials and API keys on the server rather than in client code, maintaining secure and compliant integration practices.
 
@@ -46,7 +39,7 @@ With Server logic, you can:
 Server logic brings enterprise-grade extensibility to Power Pages, helping organizations build more secure, scalable, and maintainable web experiences.
 
 Key benefits include:
--	Enhanced security: Business logic, secrets, and API keys are executed and stored on the server—never exposed in the browser or to end users.
+-	Enhanced security: Execute and store business logic, secrets, and API keys on the server—never expose them in the browser or to end users.
 -	Integration flexibility: Connect Power Pages seamlessly with external systems, including Azure Functions, REST APIs, Dataverse actions, and business services.
 -	Improved performance and efficiency: Offload heavy computations, validations, and data processing to the server, reducing client-side workload and improving page responsiveness.
 -	Consistency across channels: Apply the same logic across web pages, forms, and integrations, ensuring uniform data validation and behavior throughout the application.
@@ -61,13 +54,13 @@ To execute code in server logic, users must have the appropriate permissions con
 
 You don't need to include custom authentication code. Authentication and authorization are managed by the application session. All server logic API calls must include a Cross-Site Request Forgery (CSRF) token.  
 
-## Governance setting for anonymous access 
+## Governance setting for external service calls 
 
-Server logic integrates with Dataverse and external services to perform complex computations that might use data from external systems. When administrators enforce the [governance control](../security/disable-anonymous-access.md), any integration initiated by anonymous users, especially those involving external systems, is blocked.  
+Server logic can connect to external REST APIs, Azure Functions, and other business systems to perform server-side integrations. To prevent data exfiltration, tenant administrators can [block outbound HTTP calls](../security/disable-external-service-calls.md) that server logic makes on a site-by-site basis. When this governance control is enforced, any outbound HTTP call that server logic attempts fails. To learn more, see disable external service calls from server logic.
 
 ## Site settings
 
-The following optional site settings help configure server logic: 
+Use the following optional site settings to help configure server logic: 
 
 | Name                | Description             | Default                |
 |---------------------|-------------------------|------------------------|
@@ -78,7 +71,7 @@ The following optional site settings help configure server logic: 
 
 ## Server logic API URL 
 
-Construct the API URL using this format:
+Construct the API URL by using this format:
   
 `https://<site-url>/_api/serverlogics/<server-logic-name>`
    
