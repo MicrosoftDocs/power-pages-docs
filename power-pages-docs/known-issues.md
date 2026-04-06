@@ -3,7 +3,7 @@ title: Known issues for Power Pages
 description: List of known issues in Power Pages
 author: DanaMartens
 ms.topic: troubleshooting-known-issue
-ms.date: 03/31/2026
+ms.date: 04/06/2026
 ms.subservice:
 ms.author: bipuldeora 
 ms.reviewer: dmartens
@@ -27,7 +27,7 @@ ms.custom:
 
 ### Site creation in older environments
 
-Creating a Power Pages site doesn't require Microsoft Entra app registration permissions in environments with Power Pages Core package version 1.0.2409.xx or later. These environments use a platform-managed identity that Power Pages automatically provisions and manages to securely access Dataverse and related services. This identity is tied to the site's lifecycle, so makers and administrators don't need to create, configure, or maintain app registrations or credentials.
+Creating a Power Pages site no longer require Microsoft Entra app registration permissions in environments with Power Pages Core package version 1.0.2409.xx or later. These environments use a platform-managed identity that Power Pages automatically provisions and manages to securely access Dataverse and related services. This identity is tied to the site's lifecycle, so makers and administrators don't need to create, configure, or maintain app registrations or credentials.
 
 In earlier versions, site creation falls back to the legacy provisioning flow. In that flow, makers might see the error "You don't have permission to create Azure Active Directory" because app registration permissions are still required.
 
@@ -39,8 +39,8 @@ To resolve this issue, use one of the following supported options:
     - Review the installed packages. Admin can update Power Pages Core to version 1.0.2409.xx or later. 
     - After the update, site creation automatically uses the platform-managed identity model. Learn more in [Update the Power Pages solution](admin/update-solution.md)
 - **Grant Microsoft Entra app registration permissions (workaround)** 
-    - Grant the maker permission to register applications in Microsoft Entra. Because these are elevated privileges, they might not align with your organization's policies. 
-    - This enables site creation by using the legacy app registration-based flow, but it isn't recommended as a long-term approach because of the added permissions and operational overhead.
+    - Grant maker the permission to register applications in Microsoft Entra. Note that these are elevated privileges, they might not align with your organization's policies. 
+    - This enables site creation by using the legacy user-based app registration flow, and is not recommended as a long-term approach because of the elevated permissions and operational overhead.
 
 ## Pages workspace
 
