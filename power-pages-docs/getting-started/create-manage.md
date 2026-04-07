@@ -3,7 +3,7 @@ title: Create a site with Power Pages
 description: Learn how to create a site with Power Pages using the design studio and customize it to meet your business needs.
 author: dmartens
 ms.topic: how-to
-ms.date: 02/28/2026
+ms.date: 04/06/2026
 ms.subservice: null
 ms.author: tbhagwat
 ms.reviewer: danamartens
@@ -62,7 +62,11 @@ There are some required roles and permissions in Microsoft Power Platform. You n
 
  - A user account with [Read-Write Access Mode](/power-pages/admin/admin-roles#read-write-access-mode)
  - [System administrator](/power-pages/admin/admin-roles#system-administrator) role
- - [Permissions to register an app](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app) in Microsoft Entra
+
+Creating a Power Pages site no longer requires user-based permissions to register an app in Microsoft Entra. Power Pages now uses a platform-managed identity to securely access Dataverse and related services.
+
+> [!NOTE]
+> In environments with Power Pages Core package version below 1.0.2409.xx, site creation will fallback to the legacy provisioning flow and makers might see the error "You don't have permission to create Azure Active Directory", this requires a package upgrade to resolve. For details and resolution options, see [Site creation in older environments](../known-issues.md#site-creation-in-older-environments).
 
 If [website creation is disabled in the tenant](/power-apps/maker/portals/control-portal-creation), users need at least one of the following roles to create a website:
 
