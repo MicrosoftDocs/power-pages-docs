@@ -440,7 +440,7 @@ If a skill fails partway through, you don't need to start over. Each skill runs 
 ### Related content
 
 - [Create and deploy a single-page application in Power Pages](create-code-sites.md)
-- [Server logic overview](/server-logic-overview)
+- [Server logic overview](server-logic-overview)
 - [Power Pages Web API reference](web-api-overview.md)
 - [PAC CLI pages command reference](power-platform-cli.md)
 - [GitHub Copilot CLI](https://github.com/features/copilot/cli/)
