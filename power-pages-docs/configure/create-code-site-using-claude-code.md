@@ -243,7 +243,7 @@ Run `/setup-auth` to add sign-in and sign-out functionality. The plugin:
 
 ### Step 9: Add server logic
 
-Run `/add-server-logic` to add secure server-side endpoints to your site. Use [Server Logic](server-logic-overview) when your site needs logic that can't run in the browser, such as external API calls, server-side validation, secret management, or cross-entity data operations.
+Run `/add-server-logic` to add secure server-side endpoints to your site. Use [Server Logic](server-logic-overview.md) when your site needs logic that can't run in the browser, such as external API calls, server-side validation, secret management, or cross-entity data operations.
 
 > [!IMPORTANT]
 > Server logic support requires PAC CLI version 2.6.3 or later. Use the [quick install script](#quick-install-recommended) to update to the latest version.
@@ -261,10 +261,10 @@ Describe what you need in plain language, and the plugin:
 
 Common use cases:
 
-- **Connect to external services.** Call REST APIs, Azure Functions, or third-party services without exposing credentials. ([Tutorial: interact with external services](server-logic-external-services))
-- **Perform secure data operations.** Query, update, or delete Dataverse records with consistent server-side validation. ([Tutorial: interact with Dataverse tables](server-logic-operations))
+- **Connect to external services.** Call REST APIs, Azure Functions, or third-party services without exposing credentials. ([Tutorial: interact with external services](server-logic-external-services.md))
+- **Perform secure data operations.** Query, update, or delete Dataverse records with consistent server-side validation. ([Tutorial: interact with Dataverse tables](server-logic-operations.md))
 - **Run custom logic.** Aggregate data across tables, enforce business rules, or compute derived values before returning results to the client.
-- **Manage secrets server-side.** Store credentials and API keys on the server, never in client code. ([Tutorial: interact with Microsoft Graph and SharePoint](server-logic-graph-sharepoint))
+- **Manage secrets server-side.** Store credentials and API keys on the server, never in client code. ([Tutorial: interact with Microsoft Graph and SharePoint](server-logic-graph-sharepoint.md))
 
 > [!NOTE]
 > Run `/add-server-logic` once per use case. For example, if your site needs both an inventory validation endpoint and a global search endpoint, run the skill twice.
@@ -440,7 +440,7 @@ If a skill fails partway through, you don't need to start over. Each skill runs 
 ### Related content
 
 - [Create and deploy a single-page application in Power Pages](create-code-sites.md)
-- [Server logic overview](server-logic-overview)
+- [Server logic overview](server-logic-overview.md)
 - [Power Pages Web API reference](web-api-overview.md)
 - [PAC CLI pages command reference](power-platform-cli.md)
 - [GitHub Copilot CLI](https://github.com/features/copilot/cli/)
