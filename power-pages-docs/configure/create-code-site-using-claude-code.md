@@ -146,10 +146,8 @@ A common end-to-end workflow follows this sequence:
 12. **/deploy-site**         :  Push final changes live
 
 > [!TIP]
-> You don't need to follow this exact order. Each skill checks its own prerequisites and tells you if something is missing. For example, you can run `/setup-auth` before `/integrate-webapi` if your site needs authentication first.
-
-> [!TIP]
-> If you're not sure which approach to use for each feature, run `/integrate-backend` instead of steps 4 through 10 individually. It analyzes your prototype, determines whether each feature needs Web API, Server Logic, or a cloud flow, and orchestrates the skills in the correct order.
+> - You don't need to follow this exact order. Each skill checks its own prerequisites and tells you if something is missing. For example, you can run `/setup-auth` before `/integrate-webapi` if your site needs authentication first.
+> - If you're not sure which approach to use for each feature, run `/integrate-backend` instead of steps 4 through 10 individually. It analyzes your prototype, determines whether each feature needs Web API, Server Logic, or a cloud flow, and orchestrates the skills in the correct order.
 
 ## Build your Power Pages site
 
@@ -245,7 +243,7 @@ Run `/setup-auth` to add sign-in and sign-out functionality. The plugin:
 
 ### Step 9: Add server logic
 
-Run `/add-server-logic` to add secure server-side endpoints to your site. [Server Logic](/power-pages/configure/server-logic-overview) recently reached general availability and is fully supported for production workloads. Use it when your site needs logic that can't run in the browser, such as external API calls, server-side validation, secret management, or cross-entity data operations.
+Run `/add-server-logic` to add secure server-side endpoints to your site. Use [Server Logic](server-logic-overview) when your site needs logic that can't run in the browser, such as external API calls, server-side validation, secret management, or cross-entity data operations.
 
 > [!IMPORTANT]
 > Server logic support requires PAC CLI version 2.6.3 or later. Use the [quick install script](#quick-install-recommended) to update to the latest version.
@@ -263,10 +261,10 @@ Describe what you need in plain language, and the plugin:
 
 Common use cases:
 
-- **Connect to external services.** Call REST APIs, Azure Functions, or third-party services without exposing credentials. ([Tutorial: interact with external services](/power-pages/configure/server-logic-external-services))
-- **Perform secure data operations.** Query, update, or delete Dataverse records with consistent server-side validation. ([Tutorial: interact with Dataverse tables](/power-pages/configure/server-logic-operations))
+- **Connect to external services.** Call REST APIs, Azure Functions, or third-party services without exposing credentials. ([Tutorial: interact with external services](server-logic-external-services))
+- **Perform secure data operations.** Query, update, or delete Dataverse records with consistent server-side validation. ([Tutorial: interact with Dataverse tables](server-logic-operations))
 - **Run custom logic.** Aggregate data across tables, enforce business rules, or compute derived values before returning results to the client.
-- **Manage secrets server-side.** Store credentials and API keys on the server, never in client code. ([Tutorial: interact with Microsoft Graph and SharePoint](/power-pages/configure/server-logic-graph-sharepoint))
+- **Manage secrets server-side.** Store credentials and API keys on the server, never in client code. ([Tutorial: interact with Microsoft Graph and SharePoint](server-logic-graph-sharepoint))
 
 > [!NOTE]
 > Run `/add-server-logic` once per use case. For example, if your site needs both an inventory validation endpoint and a global search endpoint, run the skill twice.
@@ -442,7 +440,7 @@ If a skill fails partway through, you don't need to start over. Each skill runs 
 ### Related content
 
 - [Create and deploy a single-page application in Power Pages](create-code-sites.md)
-- [Server logic overview](/power-pages/configure/server-logic-overview)
+- [Server logic overview](/server-logic-overview)
 - [Power Pages Web API reference](web-api-overview.md)
 - [PAC CLI pages command reference](power-platform-cli.md)
 - [GitHub Copilot CLI](https://github.com/features/copilot/cli/)
