@@ -3,7 +3,7 @@ title: Get started with the Power Pages plugin for GitHub Copilot CLI and Claude
 description: This page provides a walk-through on how to create, customize, and deploy single-page applications for Microsoft Power Pages using agentic AI coding tool.
 author: neerajnandwana-msft
 ms.topic: tutorial
-ms.date: 03/03/2026
+ms.date: 04/14/2026
 ms.author: nenandw
 ms.reviewer: smurkute
 contributors:
@@ -13,7 +13,7 @@ contributors:
 
 #  Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code (preview)
 
-The Power Pages plugin for [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and [Claude Code](https://claude.ai/code) provides an AI-assisted workflow for creating, deploying, and managing modern [*single-page application (SPA)*](/power-pages/configure/create-code-sites) sites on Power Pages. Instead of manually scaffolding projects, writing boilerplate API code, and configuring permissions, you describe what you want in natural language, and the plugin handles the implementation.
+The Power Pages plugin for [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and [Claude Code](https://claude.ai/code) provides an AI-assisted workflow for creating, deploying, and managing modern [*single-page application (SPA)*](/power-pages/configure/create-code-sites) sites on Power Pages. Instead of manually scaffolding projects, writing boilerplate API code, and configuring permissions, describe what you want in natural language, and the plugin handles the implementation.
 
 The plugin supports the full site development lifecycle through conversational skills, from scaffolding a new site to deploying it, setting up Dataverse data models, and configuring authentication.
 
@@ -31,7 +31,7 @@ Before you begin, verify that you have the required software and permissions.
 | Component | Minimum version | More information |
 |-----------|-----------------|------------------|
 | Node.js | 18.0 or later | [Download Node.js](https://nodejs.org/) |
-| Power Platform CLI (PAC CLI) | Latest | [Install PAC CLI](/power-platform/developer/cli/introduction) |
+| Power Platform CLI (PAC CLI) | 2.6.3 or later (required for server logic) | [Install PAC CLI](/power-platform/developer/cli/introduction) |
 | Azure CLI | Latest | [Install Azure CLI](/cli/azure/install-azure-cli) |
 | GitHub Copilot CLI or Claude Code | Latest | [GitHub Copilot CLI](https://github.com/features/copilot/cli/) or [Claude Code](https://claude.ai/code) |
 | Visual Studio Code and Power Platform Tools extension (Optional) | Latest | [Download VS Code](https://code.visualstudio.com/) and [Install Power Platform Tools](vs-code-extension.md#visual-studio-code-extension-for-power-pages) |
@@ -39,12 +39,12 @@ Before you begin, verify that you have the required software and permissions.
 You also need:
 
 - A Power Platform environment with Power Pages enabled.
-- An authenticated PAC CLI session connected to your target environment. Run [`pac auth create`](/power-platform/developer/cli/reference/auth#pac-auth-create) if you didn't connect yet.
+- An authenticated PAC CLI session connected to your target environment. Run [`pac auth create`](/power-platform/developer/cli/reference/auth#pac-auth-create) if you haven't connected yet.
 - An Azure CLI session signed in to the same tenant. Run [`az login`](/cli/azure/reference-index#az-login) to authenticate.
 
 **Verify authentication:**
 
-Verify you are authenticated by using the [`pac auth list`](/power-platform/developer/cli/reference/auth#pac-auth-list) command.
+Verify you're authenticated by using the [`pac auth list`](/power-platform/developer/cli/reference/auth#pac-auth-list) command.
 
 ```powershell
 pac auth list           # Should show authenticated profile
@@ -61,7 +61,7 @@ pac auth create --environment <Instance url>        # Authenticate to Power Plat
 
 ## Install the plugin
 
-Install the Power Pages plugin from the marketplace. If you use GitHub Copilot CLI, see the [Copilot CLI extensions documentation](https://docs.github.com/copilot/concepts/agents/copilot-cli/about-copilot-cli) for equivalent install steps. The commands below use Claude Code syntax.
+Install the Power Pages plugin from the marketplace. If you use GitHub Copilot CLI, see the [Copilot CLI extensions documentation](https://docs.github.com/copilot/concepts/agents/copilot-cli/about-copilot-cli) for equivalent install steps. The following commands use Claude Code syntax.
 
 ### Quick install (recommended)
 
@@ -123,25 +123,31 @@ The plugin provides skills that cover the full lifecycle of a Power Pages site. 
 | Integrate Web API | `/integrate-webapi` | Generates typed API client code, services, and table permissions |
 | Set up authentication | `/setup-auth` | Adds sign-in and sign-out functionality and role-based access control |
 | Create web roles | `/create-webroles` | Generates web role YAML files for user access management |
+| Add server logic | `/add-server-logic` | Generates secure server-side JavaScript endpoints for validation, external API calls, secret management, and data operations |
+| Add cloud flow | `/add-cloud-flow` | Integrates existing Power Automate cloud flows into your site for approval workflows, notifications, and scheduled automation |
+| Integrate backend | `/integrate-backend` | Analyzes your prototype, determines the right approach (Web API, Server Logic, or cloud flow) for each feature, and orchestrates the complete build sequence |
 | Add SEO | `/add-seo` | Generates robots.txt, sitemap.xml, and meta tags |
 
 ## Typical workflow
 
 A common end-to-end workflow follows this sequence:
 
-1. **/create-site**       :  Scaffold, design, and build pages
-1. **/deploy-site**       :  Upload to your Power Pages environment
-1. **/activate-site**     :  Set up a public URL
-1. **/setup-datamodel**   :  Create Dataverse tables
-1. **/add-sample-data**   :  Populate tables with test records
-1. **/integrate-webapi**  :  Generate API client code and configure permissions
-1. **/create-webroles**   :  Define access roles
-1. **/setup-auth**        :  Add sign-in, sign-out, and role-based UI
-1. **/add-seo**           :  Search engine optimization
-1. **/deploy-site**       :  Push final changes live
+1. **/create-site**         :  Scaffold, design, and build pages
+1. **/deploy-site**         :  Upload to your Power Pages environment
+1. **/activate-site**       :  Set up a public URL
+1. **/setup-datamodel**     :  Create Dataverse tables
+1. **/add-sample-data**     :  Populate tables with test records
+1. **/integrate-webapi**    :  Generate API client code and configure permissions
+1. **/create-webroles**     :  Define access roles
+1. **/setup-auth**          :  Add sign-in, sign-out, and role-based UI
+1. **/add-server-logic**    :  Add secure server-side endpoints
+1. **/add-cloud-flow**      :  Integrate existing Power Automate flows
+1. **/add-seo**             :  Search engine optimization
+1. **/deploy-site**         :  Push final changes live
 
 > [!TIP]
-> You don't need to follow this exact order. Each skill checks its own prerequisites and tells you if something is missing. For example, you can run `/setup-auth` before `/integrate-webapi` if your site needs authentication first.
+> - You don't need to follow this exact order. Each skill checks its own prerequisites and tells you if something is missing. For example, you can run `/setup-auth` before `/integrate-webapi` if your site needs authentication first.
+> - If you're not sure which approach to use for each feature, run `/integrate-backend` instead of steps 4 through 10 individually. It analyzes your prototype, determines whether each feature needs Web API, Server Logic, or a cloud flow, and orchestrates the skills in the correct order.
 
 ## Build your Power Pages site
 
@@ -151,7 +157,7 @@ This walkthrough covers the full lifecycle of building a Power Pages site with t
 
 Describe the site you want in natural language: what it's for, what pages it needs, and any design preferences like color scheme, layout style, or fonts. Run `/create-site` or just describe your site and the plugin recognizes the intent.
 
-The plugin asks you to pick a framework (React, Vue, Angular, or Astro) if you don't specify one, then:
+If you don't specify a framework, the plugin asks you to pick one (React, Vue, Angular, or Astro), then:
 
 1. Scaffolds the project from a template and applies your site name, colors, and design tokens.
 1. Installs dependencies, starts a development server, and opens a live browser preview.
@@ -190,7 +196,7 @@ The plugin spawns a **Data Model Architect** agent that:
 1. Queries your Dataverse environment for existing tables to avoid duplicates.
 1. Proposes a data model with tables, columns, data types, and relationships, visualized as an ER diagram.
 
-**You review and approve the proposal.** Nothing is created until you confirm. After approval, the plugin creates the tables and columns through API calls and saves a manifest file that Steps 5 and 6 use.
+**You review and approve the proposal.** The plugin doesn't create anything until you confirm. After approval, the plugin creates the tables and columns through API calls and saves a manifest file that Steps 5 and 6 use.
 
 ### Step 5: Add sample data (Optional)
 
@@ -235,7 +241,59 @@ Run `/setup-auth` to add sign-in and sign-out functionality. The plugin:
 1. Adds role-based access control utilities that show or hide UI elements based on the user's web roles.
 1. Uses your framework's patterns throughout (React hooks, Vue composables, or Angular services).
 
-### Step 9: Add SEO
+### Step 9: Add server logic
+
+Run `/add-server-logic` to add secure server-side endpoints to your site. Use [Server Logic](server-logic-overview.md) when your site needs logic that can't run in the browser, such as external API calls, server-side validation, secret management, or cross-entity data operations.
+
+> [!IMPORTANT]
+> Server logic support requires PAC CLI version 2.6.3 or later. Use the [quick install script](#quick-install-recommended) to update to the latest version.
+
+Describe what you need in plain language, and the plugin:
+
+1. Spawns a **Server Logic Architect** agent that analyzes your use case and classifies its complexity.
+1. Proposes an endpoint design, security configuration, and any required table permissions for your review.
+1. After you approve, generates the server-side JavaScript endpoint at `/_api/serverlogics/<name>`.
+1. Creates a typed client-side service to invoke the endpoint from your components.
+1. Updates your components to call the new service.
+1. Configures web role assignments and table permissions for the endpoint.
+
+**You review and approve the proposal.** No code is generated until you confirm.
+
+Common use cases:
+
+- **Connect to external services.** Call REST APIs, Azure Functions, or third-party services without exposing credentials. ([Tutorial: interact with external services](server-logic-external-services.md))
+- **Perform secure data operations.** Query, update, or delete Dataverse records with consistent server-side validation. ([Tutorial: interact with Dataverse tables](server-logic-operations.md))
+- **Run custom logic.** Aggregate data across tables, enforce business rules, or compute derived values before returning results to the client.
+- **Manage secrets server-side.** Store credentials and API keys on the server, never in client code. ([Tutorial: interact with Microsoft Graph and SharePoint](server-logic-graph-sharepoint.md))
+
+> [!NOTE]
+> Run `/add-server-logic` once per use case. For example, if your site needs both an inventory validation endpoint and a global search endpoint, run the skill twice.
+
+### Step 10: Integrate cloud flows
+
+Run `/add-cloud-flow` to integrate existing Power Automate cloud flows into your site. This skill connects your Power Pages site to flows that you already created in Power Automate. It doesn't create new cloud flows.
+
+The plugin:
+
+1. Registers the existing cloud flow with your site.
+1. Generates client-side code to trigger the flow from your pages.
+1. Handles asynchronous workflow state and callback patterns.
+1. Wires up data exchange between the page and the flow.
+
+Use `/add-cloud-flow` for approval workflows, email notifications, scheduled jobs, and event-driven automation that are better handled by Power Automate than by server-side endpoints.
+
+### Alternative: Use /integrate-backend to plan the full service layer
+
+If you're not sure which features need Web API, Server Logic, or a cloud flow, run `/integrate-backend` instead of manually running steps 4 through 10. This skill acts as an orchestrator that:
+
+1. Analyzes your prototype to identify all features that need a service layer.
+1. Classifies each feature into the right approach: Web API for standard CRUD, Server Logic for server-side validation and external APIs, or cloud flow for approval workflows and automation.
+1. Proposes a sequenced execution plan with all skills, dependencies, and configurations.
+1. After you approve, orchestrates the skills in the correct order.
+
+The plan is persistent, resumable, and editable. Stop after any step to review generated code or test the site, and pick up where you left off by running `/integrate-backend` again.
+
+### Step 11: Add SEO
 
 Run `/add-seo` to optimize your site for search engines. The plugin:
 
@@ -243,9 +301,9 @@ Run `/add-seo` to optimize your site for search engines. The plugin:
 1. Generates search engine directives and a sitemap for all discovered routes.
 1. Adds meta tags: viewport, charset, description, Open Graph, Twitter Card, and favicon references.
 
-### Step 10: Deploy the final site
+### Step 12: Deploy the final site
 
-If you perform any optional steps, run `/deploy-site` again to push the changes live. The plugin runs a production build and uploads the site along with all deployment artifacts (table permissions, site settings, web roles) to your Power Pages environment.
+If you perform any optional steps, run `/deploy-site` again to push the changes live. The plugin runs a production build and uploads the site along with all deployment artifacts (table permissions, site settings, web roles, server logic files) to your Power Pages environment.
 
 ### Verify your site
 
@@ -262,7 +320,7 @@ The following tips help you get the most out of the plugin and the AI coding age
 
 ### Watch terminal output for missing tools on first run
 
-The plugin provides the skills and workflows, but the AI coding agent - GitHub Copilot CLI or Claude Code - executes the actual commands on your machine. When you use these tools for the first time, watch the terminal output closely. The AI coding agent runs commands and scripts behind the scenes, and some of these depend on tools that might not be installed on your machine. If a step fails, the terminal output usually shows which tool or command couldn't be found.
+The plugin provides the skills and workflows, but the AI coding agent - GitHub Copilot CLI or Claude Code - executes the actual commands on your machine. When you use these tools for the first time, watch the terminal output closely. The AI coding agent runs commands and scripts behind the scenes, and some of these commands depend on tools that might not be installed on your machine. If a step fails, the terminal output usually shows which tool or command it couldn't find.
 
 If you see an error like `command not found` or `is not recognized`, install the missing tool and re-trigger the workflow. The AI coding agent picks up where it left off after the tool is available.
 
@@ -348,7 +406,7 @@ Fix the header so it doesn't overlap. It should be a fixed header with the conte
 
 ### Iterate in small steps
 
-Rather than describing an entire site in one prompt, build incrementally. Start with the structure and layout, then add features one at a time. This approach gives you a chance to review and course-correct at each step.
+Instead of describing an entire site in one prompt, build incrementally. Start with the structure and layout, then add features one at a time. This approach gives you a chance to review and course-correct at each step.
 
 ```
 Step 1: /create-site → Get the basic scaffold and layout right
@@ -382,6 +440,7 @@ If a skill fails partway through, you don't need to start over. Each skill runs 
 ### Related content
 
 - [Create and deploy a single-page application in Power Pages](create-code-sites.md)
+- [Server logic overview](server-logic-overview.md)
 - [Power Pages Web API reference](web-api-overview.md)
 - [PAC CLI pages command reference](power-platform-cli.md)
 - [GitHub Copilot CLI](https://github.com/features/copilot/cli/)
