@@ -31,7 +31,7 @@ Before configuring a custom CAPTCHA provider, ensure you have the following item
   - Provides a server-side HTTPS verification endpoint that accepts a `POST` request with `secret`, `response`, and optionally `remoteip` parameters, and returns a JSON response with a `"success"` boolean field.
 - **A site key and a secret key** from your chosen CAPTCHA provider.
 - **CAPTCHA enabled on at least one form.** The custom provider setting takes effect only on forms where CAPTCHA is configured as required (EntityForms, WebForms, or the registration page).
-- **Content Security Policy (CSP) review.** If your portal has CSP headers configured, you must whitelist the CAPTCHA provider's domain in the relevant directives before completing setup. See [Content Security Policy considerations](#content-security-policy-csp-considerations).
+- **Content Security Policy (CSP) review.** If your portal has CSP headers configured, you must whitelist the CAPTCHA provider's domain in the relevant directives before completing setup.
 
 ## How custom CAPTCHA works
 
@@ -263,7 +263,4 @@ The following log messages can help diagnose configuration problems:
 
 ## Related articles
 
-- [Add a CAPTCHA to a basic form](https://learn.microsoft.com/en-us/power-pages/configure/add-captcha)
-- [Site settings for Power Pages](https://learn.microsoft.com/en-us/power-pages/configure/configure-site-settings)
-- [Content security policy in Power Pages](https://learn.microsoft.com/en-us/power-pages/security/content-security-policy)
-- [Multistep form properties](https://learn.microsoft.com/en-us/power-pages/configure/multistep-form-properties)
+- [Manage your site's Content Security Policy](/power-pages/security/manage-content-security-policy)
