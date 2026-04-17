@@ -30,9 +30,16 @@ Before configuring a custom CAPTCHA provider, ensure you have the following item
 
 ### Step 1: Obtain keys from your CAPTCHA provider
 
-Register with your chosen CAPTCHA provider and get a **site key** (used in the widget HTML) and a **secret key** (used for server-side verification). Most providers have a developer console where you can register your portal domain and download these keys.
+Register with your chosen CAPTCHA provider and collect the following values:
+| Value | Description |
+|---|---|
+|Site key|Public key embedded in the widget HTML. Safe to expose in page source.|
+|Secret key|Private key for server-side verification. Never expose client-side.|
+|Client script URL|The HTTPS URL of the provider's JavaScript SDK.|
+|Verification endpoint URL|The HTTPS URL the portal POSTs the response token to.|
+|Response field name|Name of the hidden form field the widget injects with the token.|
 
-For testing during setup, check whether your provider offers test keys that always pass or always fail, so you can verify the configuration without needing real user interaction.
+Most providers have a developer console where you can register your portal domain and download these keys. For testing during setup, check whether your provider offers test keys that always pass or always fail, so you can verify the configuration without needing real user interaction.
 
 ### Step 2: Configure site settings
 
@@ -55,8 +62,8 @@ The portal reads these settings only when you set `Captcha/Provider` to `custom`
 
 | Site Setting | Type | Required | Description |
 |---|---|---|---|
-| `Captcha/Custom/WidgetHtml` | HTML | **Yes** | The HTML snippet that renders the CAPTCHA widget on the form. Must include the provider's required attributes such as `data-sitekey`. If this setting is empty or missing, no CAPTCHA widget is rendered and a warning is logged. |
-| `Captcha/Custom/ClientScriptUrl` | URL | Recommended | The HTTPS URL of the third-party CAPTCHA SDK script to load on the page. **Must use HTTPS.** HTTP and malformed URLs are rejected and a warning is logged. If omitted, no external script is registered. |
+| `Captcha/Custom/WidgetHtml` | HTML | **Yes** | The HTML snippet that renders the CAPTCHA widget on the form. Must include the provider's required attributes such as `data-sitekey`.  Example :  `<div class="captcha" data-sitekey="YOUR_SITE_KEY"></div>`|
+| `Captcha/Custom/ClientScriptUrl` | URL | Recommended | The HTTPS URL of the third-party CAPTCHA SDK script to load on the page. **Must use HTTPS.** HTTP and malformed URLs are rejected. If omitted, no external script is registered. |
 | `Captcha/Custom/ValidationEndpoint` | URL | **Yes** | The HTTPS verification endpoint URL. The portal POSTs the response token to this URL for server-side validation. **Must use HTTPS.** |
 | `Captcha/Custom/ValidationSecretKey` | String | **Yes** | Your secret key from the CAPTCHA provider, used for server-to-server verification. This value is never sent to the browser. |
 | `Captcha/Custom/ResponseFieldName` | String | **Yes** | The name of the hidden form field that the CAPTCHA widget automatically injects with the response token after a visitor completes the challenge. |
@@ -67,37 +74,13 @@ The portal reads these settings only when you set `Captcha/Provider` to `custom`
 
 ### Step 3: Update Content Security Policy (if applicable)
 
-If your portal has a Content Security Policy configured, add the CAPTCHA provider's domain to the relevant directives:
+If your site enforces Content Security Policy, add the CAPTCHA provider's domain to the relevant directives:
 
 - Add the provider's script domain to `script-src`.
 - Add the provider's domain to `frame-src` if the widget loads in an iframe.
 - Add image and style domains to `img-src` and `style-src` as needed.
 
 Without these entries, the browser blocks the CAPTCHA script and widget from loading.
-
-## Troubleshooting
-
-### CAPTCHA widget doesn't appear
-
-- Confirm `Captcha/Provider` is set to `custom` (exact spelling, case-insensitive).
-- Confirm `Captcha/Custom/WidgetHtml` is set and contains valid HTML with a `data-sitekey` attribute.
-- Confirm the form or form step has **Captcha Required** enabled.
-- Check the portal diagnostic logs for the warning: *"Custom captcha is enabled but Captcha/Custom/WidgetHtml site setting is not configured."*
-- If you're using CSP, confirm the provider's domain is allowlisted in `script-src`.
-
-### CAPTCHA script doesn't load
-
-- Confirm `Captcha/Custom/ClientScriptUrl` is set and uses **HTTPS**. HTTP URLs are rejected.
-- Check the portal diagnostic logs for: *"Custom captcha client script URL is invalid or not HTTPS."*
-- Check the browser console for CSP violations blocking the script URL.
-
-### Form always fails validation even after completing CAPTCHA
-
-- Confirm `Captcha/Custom/ValidationEndpoint` is set and uses HTTPS.
-- Confirm `Captcha/Custom/ValidationSecretKey` is set and matches the secret key from your provider.
-- Confirm `Captcha/Custom/ResponseFieldName` exactly matches the hidden field name the widget injects (for example, `g-recaptcha-response` for Google reCAPTCHA v2).
-- Check the portal diagnostic logs for verification failure details, including any error codes returned by the provider endpoint.
-- Verify the portal server can reach the verification endpoint. Network or firewall restrictions might block outbound HTTPS requests. Verification requests time out after 10 seconds.
 
 ## Related articles
 
