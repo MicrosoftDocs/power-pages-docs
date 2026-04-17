@@ -4,17 +4,17 @@ description: Custom CAPTCHA in Power Pages lets you replace the built-in CAPTCHA
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 04/16/2026
+ms.date: 04/17/2026
 ms.topic: concept-article
 ---
 
 # Configure a custom CAPTCHA provider in Power Pages
 
-CAPTCHA is a security challenge that protects web forms from automated bots, spam submissions, and credential stuffing attacks. Power Pages includes a built-in CAPTCHA control by default and supports replacing it with any third-party CAPTCHA service. 
+CAPTCHA is a security challenge that protects web forms from automated bots, spam submissions, and credential stuffing attacks. 
+
+Power Pages includes a built-in CAPTCHA control by default and supports replacing it with any third-party CAPTCHA service. Custom CAPTCHA providers let you replace Power Pages' default image-based challenge with modern, accessible solutions from leading vendors. This enables consistent branding, compliance with regional requirements, invisible user experiences, and alignment with your organization's security standards.
 
 The custom CAPTCHA applies to all Power Pages form surfaces that support CAPTCHA. 
-
-Custom CAPTCHA providers let you replace Power Pages' default image-based challenge with modern, accessible solutions from leading vendors. This enables consistent branding, compliance with regional requirements, invisible user experiences, and alignment with your organization's security standards.
 
 ## Prerequisites
 
@@ -24,12 +24,21 @@ Before configuring a custom CAPTCHA provider, ensure you have the following item
   - Provides a client-side JavaScript widget that injects a hidden form field with a response token.
   - Provides a server-side HTTPS verification endpoint that accepts a `POST` request with `secret`, `response`, and optionally `remoteip` parameters, and returns a JSON response with a `"success"` boolean field.
 - **A site key and a secret key** from your chosen CAPTCHA provider.
-- **Content Security Policy (CSP) review.** If your portal has CSP headers configured, you must whitelist the CAPTCHA provider's domain in the relevant directives before completing setup.
 - The Power Pages server must be able to reach the provider's HTTPS verification endpoint. 
 
-## Site settings reference
+## Configure a custom CAPTCHA provider
 
-Configure all settings through Dataverse site settings. To open site settings, go to **Portal Management** > **Site Settings** in your Power Platform environment.
+### Step 1: Obtain keys from your CAPTCHA provider
+
+Register with your chosen CAPTCHA provider and get a **site key** (used in the widget HTML) and a **secret key** (used for server-side verification). Most providers have a developer console where you can register your portal domain and download these keys.
+
+For testing during setup, check whether your provider offers test keys that always pass or always fail, so you can verify the configuration without needing real user interaction.
+
+### Step 2: Configure site settings
+
+1. In your Power Platform environment, open **Portal Management**.
+1. Under **Website**, select **Site Settings**.
+1. Create or update the following site settings. Use the exact setting names shown.
 
 ### Provider selection
 
@@ -55,34 +64,6 @@ The portal reads these settings only when you set `Captcha/Provider` to `custom`
 
 > [!IMPORTANT]
 > The portal renders the `Captcha/Custom/WidgetHtml` and `Captcha/Custom/ClientScriptUrl` values directly on the page. Only portal administrators with Dataverse write access can modify site settings. Don't enter user-supplied or untrusted values in these fields.
-
-## Configure a custom CAPTCHA provider
-
-### Step 1: Obtain keys from your CAPTCHA provider
-
-Register with your chosen CAPTCHA provider and get a **site key** (used in the widget HTML) and a **secret key** (used for server-side verification). Most providers have a developer console where you can register your portal domain and download these keys.
-
-For testing during setup, check whether your provider offers test keys that always pass or always fail, so you can verify the configuration without needing real user interaction.
-
-### Step 2: Configure site settings
-
-1. In your Power Platform environment, open **Portal Management**.
-1. Under **Website**, select **Site Settings**.
-1. Create or update the following site settings. Use the exact setting names shown.
-
-Set `Captcha/Provider` to `custom`.
-
-Then configure the following settings by using the values from your provider:
-
-| Site Setting | What to enter |
-|---|---|
-| `Captcha/Custom/ClientScriptUrl` | The HTTPS URL of the provider's JavaScript SDK |
-| `Captcha/Custom/WidgetHtml` | The HTML div element for the widget, including the `data-sitekey` attribute with your site key |
-| `Captcha/Custom/ValidationEndpoint` | The provider's HTTPS server-side verification URL |
-| `Captcha/Custom/ValidationSecretKey` | Your secret key from the provider |
-| `Captcha/Custom/ResponseFieldName` | The hidden form field name that the widget uses to inject the response token |
-
-Optionally, set `Captcha/Custom/ErrorMessage` to a custom validation failure message.
 
 ### Step 3: Update Content Security Policy (if applicable)
 
@@ -117,20 +98,6 @@ Without these entries, the browser blocks the CAPTCHA script and widget from loa
 - Confirm `Captcha/Custom/ResponseFieldName` exactly matches the hidden field name the widget injects (for example, `g-recaptcha-response` for Google reCAPTCHA v2).
 - Check the portal diagnostic logs for verification failure details, including any error codes returned by the provider endpoint.
 - Verify the portal server can reach the verification endpoint. Network or firewall restrictions might block outbound HTTPS requests. Verification requests time out after 10 seconds.
-
-### Diagnostic log messages
-
-The following log messages can help diagnose configuration problems:
-
-| Message | Cause |
-|---|---|
-| "Custom captcha is enabled but Captcha/Custom/WidgetHtml site setting is not configured." | `WidgetHtml` is empty or missing |
-| "Custom captcha client script URL is invalid or not HTTPS: {url}" | `ClientScriptUrl` uses HTTP or is malformed |
-| "Custom captcha validation endpoint or response field name is not configured." | `ValidationEndpoint` or `ResponseFieldName` is empty or missing |
-| "Custom captcha response token is empty or missing from form data." | Visitor submitted the form without completing the CAPTCHA |
-| "Custom captcha verification failed. Response: {json}" | The provider's endpoint returned `"success": false` |
-| "Custom captcha verification response is missing a boolean 'success' field." | The provider's endpoint returned a response without a `"success"` boolean field |
-| "Custom captcha verification request failed (possible timeout or network issue)." | The portal couldn't reach the verification endpoint within 10 seconds |
 
 ## Related articles
 
