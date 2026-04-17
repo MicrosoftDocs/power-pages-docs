@@ -31,13 +31,14 @@ Before configuring a custom CAPTCHA provider, ensure you have the following item
 ### Step 1: Obtain keys from your CAPTCHA provider
 
 Register with your chosen CAPTCHA provider and collect the following values:
+
 | Value | Description |
 |---|---|
-|Site key|Public key embedded in the widget HTML. Safe to expose in page source.|
-|Secret key|Private key for server-side verification. Never expose client-side.|
-|Client script URL|The HTTPS URL of the provider's JavaScript SDK.|
-|Verification endpoint URL|The HTTPS URL the portal POSTs the response token to.|
-|Response field name|Name of the hidden form field the widget injects with the token.|
+| Site key | Public key embedded in the widget HTML. Safe to expose in page source.|
+| Secret key | Private key for server-side verification. Never expose client-side.|
+| Client script URL | The HTTPS URL of the provider's JavaScript SDK.|
+| Verification endpoint URL | The HTTPS URL the portal POSTs the response token to.|
+| Response field name | Name of the hidden form field the widget injects with the token.|
 
 Most providers have a developer console where you can register your portal domain and download these keys. For testing during setup, check whether your provider offers test keys that always pass or always fail, so you can verify the configuration without needing real user interaction.
 
