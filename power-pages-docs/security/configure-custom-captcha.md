@@ -83,7 +83,7 @@ Without these entries, the browser blocks the CAPTCHA script and widget from loa
 - Confirm `Captcha/Custom/WidgetHtml` is set and contains valid HTML with a `data-sitekey` attribute.
 - Confirm the form or form step has **Captcha Required** enabled.
 - Check the portal diagnostic logs for the warning: *"Custom captcha is enabled but Captcha/Custom/WidgetHtml site setting is not configured."*
-- If you're using CSP, confirm the provider's domain is whitelisted in `script-src`.
+- If you're using CSP, confirm the provider's domain is allowlisted in `script-src`.
 
 ### CAPTCHA script doesn't load
 
