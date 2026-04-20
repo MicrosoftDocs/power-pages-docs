@@ -12,7 +12,7 @@ ms.topic: concept-article
 
 CAPTCHA is a security challenge that protects web forms from automated bots, spam submissions, and credential stuffing attacks. 
 
-Power Pages includes a built-in CAPTCHA control by default and supports replacing it with any third-party CAPTCHA service. Custom CAPTCHA providers let you replace Power Pages' default image-based challenge with modern, accessible solutions from leading vendors. This enables consistent branding, compliance with regional requirements, invisible user experiences, and alignment with your organization's security standards.
+Power Pages includes a built-in CAPTCHA control by default powered by Telerik and supports replacing it with any third-party CAPTCHA service. Custom CAPTCHA providers let you replace Power Pages' default image-based challenge with modern, accessible solutions from leading vendors. This enables consistent branding, compliance with regional requirements, invisible user experiences, and alignment with your organization's security standards.
 
 The custom CAPTCHA applies to all Power Pages form surfaces that support CAPTCHA. 
 
