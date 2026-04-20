@@ -727,6 +727,8 @@
       href: admin/site-visibility-governance.md
     - name: Disable external service calls from server logic
       href: security/disable-external-service-calls.md
+    - name: Configure a custom CAPTCHA provider in Power Pages
+      href: security/configure-custom-captcha.md
     - name: Authentication
       items:
         - name: Overview
