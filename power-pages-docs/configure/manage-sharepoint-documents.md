@@ -1,10 +1,10 @@
 ---
 title: Manage SharePoint documents
-description: Learn how to manage SharePoint documents in Power Pages.
+description: Learn how to manage SharePoint documents in Power Pages, including file upload limits, integration setup, and table permissions.
 author: DanaMartens
 
 ms.topic: how-to
-ms.date: 09/20/2024
+ms.date: 04/23/2026
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: dmartens
@@ -13,6 +13,8 @@ contributors:
 ms.custom:
   - sfi-image-nochange
   - sfi-ga-nochange
+ms.collection:
+  - ai-assisted
 ---
 
 # Manage SharePoint documents
@@ -53,15 +55,7 @@ To use the document management capabilities of SharePoint, you must enable Share
 
 1. Open the [Power Platform admin center](../admin/admin-overview.md).
 
-    1. Under **Resources** choose **Power Pages sites**.
-
-    1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
-
-    **Or**
-
-    1. In the **Environments** section, select the environment that contains the site you want to enable SharePoint integration.
-
-    1. In the **Resources** area, choose **Power Pages sites**.
+    1. Select **Manage**, and then select **Power Pages**.
 
     1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
 
@@ -78,17 +72,9 @@ To use the document management capabilities of SharePoint, you must enable Share
 
 1. Open the [Power Platform admin center](../admin/admin-overview.md).
 
-    1. Under **Resources** choose **Power Pages sites**.
+    1. Select **Manage**, and then select **Power Pages**.
 
     1. Select the site where you want to disable SharePoint integration. Select **Manage** from the main menu.
-
-    **Or**
-
-    1. In the **Environments** section, select the environment that contains the site you want to disable SharePoint integration.
-
-    1. In the **Resources** area, choose **Power Pages sites**.
-
-    1. Select the site where you want to enable SharePoint integration. Select **Manage** from the main menu.
 
 1. On the site information page, in the **Services** section, select the **SharePoint Integration** control to the **No** position.
 
@@ -172,7 +158,10 @@ The form on the webpage will show a listing of files and folders. Depending on t
 
 ## Configure file upload size
 
-By default, the file size is set to 10 MB. However, you can configure the file size to a maximum of 50 MB by using the site setting `SharePoint/MaxUploadSize`.
+By default, the maximum file size for individual uploads is set to 10 MB, with a maximum total upload size of 50 MB per request. You can configure the individual file size limit to a maximum of 50 MB by using the site setting `SharePoint/MaxUploadSize`.
+
+> [!TIP]
+> You can also configure the maximum total upload size by using the site setting `SharePoint/MaxTotalUploadSize`. These settings accept values in megabytes.
 
 ## Maximum file download size
 
