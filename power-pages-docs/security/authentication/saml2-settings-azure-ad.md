@@ -3,9 +3,9 @@ title: Set up a SAML 2.0 provider with Microsoft Entra ID
 description: Learn how to set up a SAML 2.0 identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
 ms.date: 04/28/2026
 ms.topic: how-to
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
@@ -113,32 +113,8 @@ The additional settings let you control how users authenticate with your SAML 2.
   - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
   - **Off**
 
-> [!IMPORTANT]
-> Enabling **Contact mapping with email** is not permitted for multi-tenant identity providers. If you enable it for a multi-tenant provider, users might receive a sign-in error.
 
-## Troubleshoot common SAML 2.0 authentication issues
 
-If users experience sign-in failures after configuring SAML 2.0 with Microsoft Entra ID, review the following common issues and solutions.
-
-| Symptom | Possible cause | Solution |
-| --- | --- | --- |
-| Sign-in redirects to `ExternalAuthenticationFailed` page | The authentication handshake between Power Pages and the identity provider didn't complete successfully | Verify the **Metadata address**, **Authentication type** (entityID), and **Service provider realm** values are correct. Ensure the **Reply URL** matches the redirect URI in the app registration. |
-| "Signature validation failed" error | The SAML assertion signature can't be validated by Power Pages | Ensure the federation metadata document is accessible from the metadata address URL. Verify the signing certificate in Microsoft Entra hasn't expired. |
-| "Signature algorithms do not match" error | The SAML response uses a different signature algorithm than expected | Check that the signing algorithm configured in Microsoft Entra matches what Power Pages expects. Default is `SHA-256`. |
-| Contact not created after Azure AD sign-in | The identity provider returns a token but Power Pages can't map it to a contact record | Enable **Contact mapping with email** in the additional settings. Verify the claims configuration in Azure includes the user's email address. |
-| "404 - Not Found" on sign-in | The assertion consumer URL or reply URL is misconfigured | Ensure the **Assertion service consumer URL** in Power Pages matches the **Redirect URI** in your Azure app registration. If using a custom domain, update both values. |
-| User gets redirected to the registration page | A pre-existing contact wasn't found, or the contact's login is disabled | Verify a contact record exists for the user and that the **Login Enabled** flag is set to `Yes` on the contact record. |
-
-### Important metadata URL formats
-
-When configuring the **Metadata address**, use the federation metadata endpoint for your Microsoft Entra app registration. The URL format is:
-
-`https://login.microsoftonline.com/<TENANT_ID>/federationmetadata/2007-06/federationmetadata.xml`
-
-You can find this URL by selecting **Endpoints** at the top of the app registration page in the Azure portal and copying the **Federation metadata document** value.
-
-> [!NOTE]
-> Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart your site in the [admin center](../../admin/admin-overview.md).
 
 ### See also
 
@@ -146,4 +122,4 @@ You can find this URL by selecting **Endpoints** at the top of the app registrat
 [Set up a SAML 2.0 provider with AD FS](saml2-settings.md)  
 [SAML 2.0 FAQs](saml2-faqs.md)  
 [Configure site authentication](configure-site.md)  
-[Troubleshoot authentication issues in Power Pages](/troubleshoot/power-platform/power-pages/security/authentication-issues)
+

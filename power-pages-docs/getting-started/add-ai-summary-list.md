@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 ms.topic: how-to
 ms.date: 04/28/2026
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection:
  - bap-ai-copilot
 contributors:
@@ -134,19 +134,6 @@ The list now lets you use natural language search.
 - A table should have at least five rows to generate any meaningful summary.
 - If a data list has more than 5,000 records, summarization considers only the first 5,000 records because of the Dataverse maximum page size limit. The summary includes a note when this limit is reached.
 - Limitations of the Tabular Data Stream (TDS) endpoint also apply to this feature. Learn more about unsupported column types at [Supported operations and data types](/power-apps/developer/data-platform/dataverse-sql-query#supported-operations-and-data-types).
-- The AI summary generation uses a polling mechanism and may take several seconds to complete depending on the volume of data.
-- Natural language filtering converts user queries into Dataverse FetchXML queries. Complex or ambiguous queries might not return the expected results.
-
-## Troubleshoot AI summary and filter issues
-
-If the AI summary or natural language filter isn't working as expected, review the following common issues.
-
-| Symptom | Possible cause | Solution |
-| --- | --- | --- |
-| "AI summary isn't available" message | The feature isn't enabled for your environment, or your region doesn't support it. | Verify the feature is enabled in the design studio under the list properties. Check that your environment is in a [supported region](/power-pages/configure/ai-copilot-overview#prerequisites). |
-| Summary takes too long or times out | The table has a large number of records or complex column types. | Reduce the number of visible columns in the list view. If the table has more than 5,000 records, the summary only includes the first 5,000. |
-| Natural language filter returns no results | The query was too ambiguous or referenced columns not in the list view. | Try rephrasing the query using exact column names. The filter works best with specific, straightforward questions about visible columns. |
-| Summary shows "not enough data" | The table has fewer than five records. | Add more records to the table. A minimum of five rows is required for a meaningful summary. |
 
 ### Related information
 

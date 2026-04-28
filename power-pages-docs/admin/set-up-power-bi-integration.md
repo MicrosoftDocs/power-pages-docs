@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.date: 04/28/2026
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - neerajnandwana-msft
     - nageshbhat-msft
@@ -24,22 +24,6 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 > - You must have an appropriate Power BI license.
 > - To use Power BI Embedded service, you must have an appropriate Power BI Embedded license. Ensure you review [capacity planning](/power-bi/developer/embedded/embedded-capacity-planning), and [pricing](https://azure.microsoft.com/pricing/details/power-bi-embedded/) for Power BI Embedded. More information: [Power BI Embedded Licensing FAQs](/power-bi/developer/embedded-faq#licensing).
 > - Ensure that **Embed content in apps** is *Enabled* in your Power BI tenant [Developer settings](/fabric/admin/service-admin-portal-developer). When disabled, a portal can't render embedded Power BI dashboards or reports.
-
-## Understand Power BI visualization vs. Power BI Embedded service
-
-Power Pages supports two modes for integrating Power BI content, and it's important to understand the differences:
-
-| Feature | Power BI visualization | Power BI Embedded service |
-| --- | --- | --- |
-| **Purpose** | Displays Power BI dashboards and reports using the standard Power BI service | Embeds Power BI content from new workspaces using the Power BI Embedded capacity |
-| **Authentication** | Uses `anonymous` or `aad` authentication types | Uses `powerbiembedded` authentication type |
-| **Liquid tag syntax** | `{% powerbi authentication_type:"aad" path:"https://app.powerbi.com/..." %}` | `{% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/GROUP_ID/reports/REPORT_ID" %}` |
-| **License required** | Power BI Pro or Premium Per User | Power BI Embedded capacity (A SKU or EM SKU) |
-| **Additional attributes** | `tileid`, `dashboardId`, `filter` | `roles`, `customdata`, `filter`, `tileId` |
-| **Use case** | Users authenticate with their own Power BI credentials | App owns the data; users don't need individual Power BI licenses |
-
-> [!TIP]
-> Use **Power BI visualization** when your site users have their own Power BI licenses and need to view their own dashboards. Use **Power BI Embedded service** when you want to embed reports for external users who don't have Power BI licenses. For more information, see [What is Power BI embedded analytics?](/power-bi/developer/embedded/embedded-analytics-power-bi).
 
 ## Enable Power BI visualization
 
@@ -266,21 +250,6 @@ When you render a Power BI report on a webpage, you might see one of the followi
 - *Couldn't load the model schema associated with this report. Make sure you have a connection to the server, and try again.*
 
   Power Pages uses version 1 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token). If any embedded item requires version 2 of the [Generate token API](/rest/api/power-bi/embed-token/generate-token), you see this error.
-
-### Troubleshoot Liquid tag errors
-
-When using the `powerbi` Liquid tag, you might encounter errors. Common causes and solutions include:
-
-| Error | Cause | Solution |
-| --- | --- | --- |
-| Missing required group ID in path | The `path` parameter doesn't include a group ID when using `powerbiembedded` authentication | Ensure the path includes the group ID: `https://app.powerbi.com/groups/<GROUP_ID>/reports/<REPORT_ID>` |
-| Missing required dashboard or report ID | The `path` parameter is incomplete | Include either a `dashboardId` or `reportId` in the path |
-| Invalid GUID format | An ID in the path isn't a valid GUID | Verify all IDs in the path are valid GUIDs |
-| PowerBI Embedded feature is disabled | The Power BI Embedded service isn't enabled for the site | [Enable Power BI Embedded service](#enable-power-bi-embedded-service) from the admin center |
-| Unable to acquire token using certificate | Token acquisition failed during the embedding process | Verify the security group membership and Power BI tenant settings are correctly configured |
-
-> [!TIP]
-> If you see a Liquid syntax error when embedding Power BI reports using the "Embed for customers" approach, verify that both **Power BI visualization** and **Power BI Embedded service** are enabled, and that the `authentication_type` parameter in your Liquid tag is set to `powerbiembedded`. For more information, see [powerbi Liquid tag](../configure/liquid/dataverse-liquid-tags.md#powerbi).
 
 ## Privacy notice  
 
