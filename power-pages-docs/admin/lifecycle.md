@@ -7,10 +7,10 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:02/20/2025
-ms.date: 04/23/2026
+ms.date: 04/28/2026
 ms.subservice: null
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
   - neerajnandwana-msft
 ms.collection:

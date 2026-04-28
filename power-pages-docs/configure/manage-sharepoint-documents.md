@@ -4,10 +4,10 @@ description: Learn how to manage SharePoint documents in Power Pages, including 
 author: DanaMartens
 
 ms.topic: how-to
-ms.date: 04/23/2026
+ms.date: 04/28/2026
 ms.subservice: 
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
 ms.custom:
@@ -158,7 +158,7 @@ The form on the webpage will show a listing of files and folders. Depending on t
 
 ## Configure file upload size
 
-By default, the maximum file size for individual uploads is set to 10 MB, with a maximum total upload size of 50 MB per request. You can configure the individual file size limit to a maximum of 50 MB by using the site setting `SharePoint/MaxUploadSize`.
+By default, the file size is set to 10 MB. However, you can configure the file size to a maximum of 50 MB by using the site setting `SharePoint/MaxUploadSize`.
 
 > [!TIP]
 > You can also configure the maximum total upload size by using the site setting `SharePoint/MaxTotalUploadSize`. These settings accept values in megabytes.
