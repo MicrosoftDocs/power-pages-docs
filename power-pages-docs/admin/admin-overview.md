@@ -3,7 +3,7 @@ title: Use the admin center
 description: Learn how to use the Power Pages admin center.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 07/10/2024
+ms.date: 04/28/2026
 ms.author: nenandw
 ms.reviewer: danamartens
 contributors:
@@ -19,6 +19,19 @@ Power Pages uses the Power Platform admin center to provide administrators with 
 
 > [!NOTE]
 > You will need to be assigned certain roles to perform administrative tasks. For more information, see [Roles required for website administration](admin-roles.md).
+
+## Prerequisites
+
+Before you can use the admin center to manage your Power Pages site, ensure the following:
+
+- You have a **System Administrator** or **System Customizer** security role in the Dataverse environment where your site is provisioned.
+- Your organization has the appropriate [Power Pages licensing](/power-platform/admin/powerapps-flow-licensing-faq#power-pages). Sites can be in **Trial** (30 days) or **Production** mode.
+- For certain admin actions (custom domains, certificates, IP restrictions), you might need **Global Administrator** or **Power Platform Administrator** access.
+
+> [!TIP]
+> If you can't see your site in the admin center, verify that you're signed in to the correct tenant and environment. Use the environment picker in the Power Platform admin center header to switch environments.
+
+## Access the admin center
 
 1. To access the admin center, from the design studio, select the **Set up** workspace.
 
@@ -145,4 +158,8 @@ To add yourself as an owner of the Microsoft Entra application:
 
 ## See also
 
-[Use Power Pages admin APIs](admin-api.md)
+[Use Power Pages admin APIs](admin-api.md)  
+[Roles required for website administration](admin-roles.md)  
+[Set up Power BI integration](set-up-power-bi-integration.md)  
+[Manage custom certificates](manage-custom-certificates.md)  
+[Power Pages licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)

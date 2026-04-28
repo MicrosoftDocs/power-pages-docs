@@ -3,7 +3,7 @@ title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: DanaMartens
 ms.topic: how-to
-ms.date: 07/07/2025
+ms.date: 04/28/2026
 ms.update-cycle: 180-days
 ms.author: bipuldeora
 ms.reviewer: danamartens
@@ -258,9 +258,26 @@ AI form fill can't be enabled, and users can't use it under the following condit
 
 1. To see unsupported data types refer to the [Dataverse data type table](#dataverse-data-type-support-for-genai-forms).
 
+## Troubleshoot form issues
+
+If you encounter problems with forms on your Power Pages site, review the following common issues and solutions.
+
+| Symptom | Possible cause | Solution |
+| --- | --- | --- |
+| Form submission fails silently | The user doesn't have the correct table permissions to create or update records. | Go to **Set up** > **Table permissions** and verify the user's web role has **Create** and **Write** privileges on the target table. See [Table permissions](../security/table-permissions.md). |
+| "The file type isn't allowed" error on attachment | The file extension isn't included in the allowed file types list. | In the form's **File upload** settings, add the required file extension. Supported types are configured in the **Allowed file types** property. |
+| "The file is too large" error on attachment | The uploaded file exceeds the maximum file size limit. | Increase the **Maximum file size** value in the form's **File upload** settings. The default maximum is 10 MB. |
+| Form doesn't appear on the page | The form component was added but not configured, or the table isn't selected. | In the design studio, select the form component and choose a valid table and form from the properties pane. |
+| Required fields aren't enforced | The form validation on the Dataverse side doesn't match the form configuration in Power Pages. | Ensure the columns are marked as **Business Required** in the table definition, or add client-side validation through the form's properties. |
+| "You don't have permissions" error | The anonymous or authenticated user web role lacks the necessary table permissions. | Review and update [table permissions](../security/table-permissions.md) for the relevant web roles. |
+
+> [!TIP]
+> For multistep forms, verify that table permissions are configured for **each step's table**, not just the first step. Each step might target a different table or require different permission levels.
+
 ## See also
 
 - [Create and modify forms](../configure/data-workspace-forms.md)
 - [About basic forms](../configure/basic-forms.md)
 - [Tutorial: Add a form to a page](tutorial-add-form-to-page.md)
+- [Table permissions in Power Pages](../security/table-permissions.md)
 - [Disable Generative AI features for users (preview)](../admin/copilot-governance.md)
