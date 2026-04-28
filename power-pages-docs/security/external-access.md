@@ -1,10 +1,10 @@
 ---
 title: Provide access to external audiences
 description: Learn how to allow external audiences to use a local account to access sites you create with Microsoft Power Pages.
-ms.date: 05/28/2025
+ms.date: 04/28/2026
 ms.topic: how-to
-author: dmartens
-ms.author: dmartens
+author: smurkute
+ms.author: smurkute
 contributors:
 ms.custom:
   - bap-template
@@ -67,6 +67,10 @@ To change a contact's password, you need to have the System Administrator [secur
 
 Earlier versions of the change password process used a task flow that's been deprecated. In Dataverse security roles, the **Change Password for Portals Contact** privilege under the **Business Process Flows** tab no longer requires any options to be selected.
 
+
 ### See also
 
-[Invite contacts to your Power Pages site](invite-contacts.md)
+[Invite contacts to your Power Pages site](invite-contacts.md)  
+[Configure site authentication](authentication/configure-site.md)  
+[Set up Microsoft Entra External ID](authentication/entra-external-id.md)  
+

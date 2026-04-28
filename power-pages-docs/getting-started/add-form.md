@@ -3,10 +3,10 @@ title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: DanaMartens
 ms.topic: how-to
-ms.date: 07/07/2025
+ms.date: 04/28/2026
 ms.update-cycle: 180-days
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 ms.collection:
  - bap-ai-copilot
 contributors:
@@ -258,9 +258,11 @@ AI form fill can't be enabled, and users can't use it under the following condit
 
 1. To see unsupported data types refer to the [Dataverse data type table](#dataverse-data-type-support-for-genai-forms).
 
+
 ## See also
 
 - [Create and modify forms](../configure/data-workspace-forms.md)
 - [About basic forms](../configure/basic-forms.md)
 - [Tutorial: Add a form to a page](tutorial-add-form-to-page.md)
+- [Table permissions in Power Pages](../security/table-permissions.md)
 - [Disable Generative AI features for users (preview)](../admin/copilot-governance.md)

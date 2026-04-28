@@ -3,9 +3,9 @@ title: Add AI features in a list (preview)
 description: Learn more about how the AI features in a list works to simplify and summarize data in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 07/22/2025
+ms.date: 04/28/2026
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection:
  - bap-ai-copilot
 contributors:
@@ -132,10 +132,11 @@ The list now lets you use natural language search.
 
 - Virtual tables aren't supported.
 - A table should have at least five rows to generate any meaningful summary.
-- If a data list has more than 5,000 records, summarization considers only the first 5,000 records because of the Dataverse maximum page size limit.
+- If a data list has more than 5,000 records, summarization considers only the first 5,000 records because of the Dataverse maximum page size limit. The summary includes a note when this limit is reached.
 - Limitations of the Tabular Data Stream (TDS) endpoint also apply to this feature. Learn more about unsupported column types at [Supported operations and data types](/power-apps/developer/data-platform/dataverse-sql-query#supported-operations-and-data-types).
 
 ### Related information
 
 - [Responsible AI FAQ for AI features in a list](../faqs-ai-summary-list.md)
 - [Disable Generative AI features for users (preview)](../admin/copilot-governance.md)
+- [AI Copilot overview for Power Pages](../configure/ai-copilot-overview.md)
