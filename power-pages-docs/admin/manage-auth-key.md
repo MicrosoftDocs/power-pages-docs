@@ -3,10 +3,10 @@ title: Manage website authentication key
 description: Learn how to manage the authentication key used by Power Pages, including checking expiration, renewing keys, and troubleshooting renewal failures.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 04/23/2026
+ms.date: 04/28/2026
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - neerajnandwana-msft
     - vamseedillimsft
@@ -27,7 +27,7 @@ Before you manage the authentication key, ensure you have:
 - **System Administrator** or **System Customizer** security role, or equivalent permissions, in the Dataverse environment connected to your Power Pages site.
 - Access to the [Power Platform admin center](https://aka.ms/ppac).
 
-To learn more about the roles required for this task, see [Admin roles required for website administrative tasks](/power-apps/maker/portals/admin/portal-admin-roles).
+To learn more about the roles required for this task, see [Admin roles required for website administrative tasks](admin-roles.md).
 
 ## Check authentication key details
 
@@ -100,8 +100,8 @@ When you navigate to the URL `<website_path>/_services/about`, a notification ab
 
 Use the following steps when the authentication key for your site is near expiration.
 
-> [!IMPORTANT]
-> To renew the key, you must have the **System Administrator** or **System Customizer** security role, or equivalent permissions, for the Dataverse environment connected to your Power Pages site.
+> [!NOTE]
+> To renew the key, you must have permissions to manage your website.
 
 1. Open the [Power Platform admin center](https://aka.ms/ppac).
 
@@ -135,5 +135,5 @@ If the key update fails, an error message is displayed along with the following 
 ### See also
 
 - [Website connectivity to a Microsoft Dataverse environment](/power-apps/maker/portals/admin/connectivity)
-- [Admin roles required for website administrative tasks](/power-apps/maker/portals/admin/portal-admin-roles)
+- [Roles required for website administration](admin-roles.md)
 - [Power Pages lifecycle](lifecycle.md)

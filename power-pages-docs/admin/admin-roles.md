@@ -4,10 +4,10 @@ description: Learn about the roles and permissions required to do different admi
 author: neerajnandwana-msft
 
 ms.topic: concept-article
-ms.date: 03/31/2026
+ms.date: 04/28/2026
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - neerajnandwana-msft
     - vamseedillimsft
