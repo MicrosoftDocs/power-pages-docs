@@ -68,4 +68,7 @@ These sites continue to function without change. Site behavior and end-user acce
 ### See also
 
 [Power Pages security](power-pages-security.md)  
-[Manage your site's authentication key](../admin/manage-auth-key.md)
+[Manage your site's authentication key](../admin/manage-auth-key.md)  
+[Admin roles required for Power Pages site administration](../admin/admin-roles.md)  
+[Create and manage Power Pages sites](../getting-started/create-manage.md)  
+[Known issues](../known-issues.md)  

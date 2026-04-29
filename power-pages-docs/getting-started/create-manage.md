@@ -3,7 +3,7 @@ title: Create a site with Power Pages
 description: Learn how to create a site with Power Pages using the design studio and customize it to meet your business needs.
 author: dmartens
 ms.topic: how-to
-ms.date: 04/06/2026
+ms.date: 04/29/2026
 ms.subservice: null
 ms.author: tbhagwat
 ms.reviewer: danamartens
@@ -88,3 +88,7 @@ This video provides an overview of how to use Power Pages to create websites.<br
 ## Next steps
 
 [Use design studio](use-design-studio.md)
+
+### Related information
+
+[Identity provisioning](../security/identity-provisioning.md)
