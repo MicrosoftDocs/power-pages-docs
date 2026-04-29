@@ -1,11 +1,11 @@
 ---
 title: Invite contacts to your Power Pages site
 description: Learn how to create and send invitations to users to register on sites you create with Microsoft Power Pages.
-ms.date: 04/28/2026
+ms.date: 04/29/2026
 ms.topic: how-to
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
 ms.custom: bap-template
@@ -102,13 +102,6 @@ The following table describes the invitation attributes you can change.
 | Maximum Redemptions Allowed | For group invitations only, enter the number of times the invitation can be redeemed. |
 | Number of Successful Redemptions | For group invitations only, displays the number of times the invitation has been redeemed. |
 
-## Troubleshooting
-
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Invitation email not received | The send invitation workflow failed or the contact's primary email (emailaddress1) is empty. | Check the workflow run history in Power Automate. Verify the contact has a primary email address. |
-| Invitation code not working | The invitation has expired or has already been redeemed (single-type invitation). | Check the **Expiry Date** and **Redeemed Contact(s)** fields on the invitation record. Create a new invitation if needed. |
-| "Assign to Web Roles" attribute not visible | The invitation form may not include this column, especially on sites using the enhanced data model. | Customize the invitation form in the Portal Management app to include the **Assign to Web Roles** column. |
 
 ### See also
 

@@ -1,11 +1,11 @@
 ---
 title: Create and assign web roles
 description: Learn how to use web roles to manage permissions on sites you create with Microsoft Power Pages.
-ms.date: 04/28/2026
+ms.date: 04/29/2026
 ms.topic: how-to
 author: gitanjalisingh33msft
 ms.author: gisingh
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
 ms.custom: bap-template
 ---
@@ -16,8 +16,6 @@ A web role is basically a collection of permissions to the content of your site.
 
 Use the [Portal Management app](../configure/portal-management-app.md) to create and assign web roles.
 
-> [!IMPORTANT]
-> If your site uses the [enhanced data model](../admin/enhanced-data-model.md), web roles are stored in the `mspp_webrole` virtual table. The steps for creating web roles remain the same, but you must assign web roles to contacts using the [enhanced data model contact form](#from-the-contact-enhanced-data-model). The relationship between contacts and web roles works differently under the enhanced data model—see [Enhanced data model](../admin/enhanced-data-model.md) for details.
 
 ## Create a web role
 
@@ -102,11 +100,3 @@ You can assign site users to web roles from either the contact record or the web
 [Table permissions](table-permissions.md)  
 [Page permissions](page-security.md)
 
-## Troubleshooting
-
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| Web roles not visible in the Portal Management app | The site may be using the enhanced data model, where web roles are stored differently. | If your site uses the [enhanced data model](../admin/enhanced-data-model.md), open the **Power Pages Management** app instead of the Portal Management app. Web roles are stored in the `mspp_webrole` virtual table. |
-| Unable to assign web roles to a contact | Under the enhanced data model, the contact-to-web-role relationship is managed through the enhanced contact form. | Use the [Portal Contact (Enhanced Form)](#from-the-contact-enhanced-data-model) to assign web roles. |
-| Table permissions not working after assigning a web role | The web role may not be linked to the correct table permissions, or the cache hasn't been refreshed. | Verify the table permission is associated with the correct web role. [Clear the server-side cache](../admin/clear-server-side-cache.md) or select **Preview** in the design studio to refresh configuration. |
-| Changes to web roles not reflected on the site | Configuration data is cached and has an SLA of up to 15 minutes. | Wait up to 15 minutes for changes to propagate, or manually [clear the cache](../admin/clear-server-side-cache.md). |

@@ -3,10 +3,10 @@ title: Use @powerpages within GitHub Copilot Chat for Visual Studio Code (previe
 description: Boost productivity without leaving your coding environment using GitHub Copilot Chat for seamless Power Pages coding assistance in Visual Studio Code.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 04/28/2026
+ms.date: 04/29/2026
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
   - DanaMartens
   - neerajnandwana-msft
@@ -67,13 +67,6 @@ To add the @powerpages participant to a chat:
 
     :::image type="content" source="media/github-copilot-chat/power-pages-participant.png" alt-text="Screenshot of adding the powerpages participant to the GitHub Copilot chat in Visual Studio Code.":::
 
-## Troubleshooting
-
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| @powerpages participant doesn't appear in Copilot Chat | The Power Platform Tools VS Code extension isn't installed or is outdated. | Install or update the [Power Platform Tools extension](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode) and restart VS Code. |
-| Copilot responses are generic and not Power Pages–specific | The `@powerpages` prefix wasn't included in the prompt. | Always prefix your prompt with `@powerpages` to route the query to the Power Pages chat participant. |
-| VS Code shows "Extension host terminated unexpectedly" | Extension conflict or resource issue in VS Code. | Disable other extensions temporarily, reload the VS Code window (`Ctrl+Shift+P` > **Developer: Reload Window**), and try again. |
 
 ## Related information
 

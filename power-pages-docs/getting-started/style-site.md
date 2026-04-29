@@ -88,21 +88,6 @@ By design, some general design studio actions aren't supported, such as:
 
 - **Custom CSS** panel actions such as **upload**, **enable/disable**, move file **up/down** in the priority order. 
 
-## Apply custom CSS
-
-In addition to the preset themes, you can upload custom CSS files to further control the look and feel of your site. Custom CSS is useful when you need to match specific brand guidelines or implement advanced styling beyond what the theme editor provides.
-
-1. In the **Styling** workspace, select **Custom CSS**.
-
-1. Select **Upload CSS file** to upload your `.css` file.
-
-1. Use the toggle to **enable** or **disable** each CSS file.
-
-1. If you upload multiple CSS files, use the **up/down** arrows to control the priority order. Files listed higher take precedence.
-
-> [!TIP]
-> Use browser developer tools (F12) to inspect page elements and identify the CSS selectors you need to override. Power Pages sites use Bootstrap-based CSS classes, so familiarity with Bootstrap helps when writing custom styles.
-
 ## See also
 
 - [Use design studio](use-design-studio.md)

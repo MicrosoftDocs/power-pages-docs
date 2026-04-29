@@ -2,11 +2,11 @@
 title: How server-side caching works in Power Pages
 description: Learn how server-side caching in works Power Pages
 ms.topic: concept-article
-ms.date: 01/05/2026
+ms.date: 04/29/2026
 ms.subservice: 
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - dileepsinghmicrosoft
 ms.custom:
@@ -89,13 +89,6 @@ This cache is updated through several mechanisms described below:
 
     Immediately, as long as the update changes a primary record and isn't based on indirect changes to data using post operation plugins or workflows.
 
-1. Why can't I bypass caching completely?
-
-    Server-side caching is a fundamental design choice in Power Pages that ensures scalability and performance. Without caching, every page request would require a direct Dataverse query, which would significantly impact both performance and Dataverse API limits. Instead of bypassing the cache, use the cache-clearing techniques described earlier for time-sensitive updates, and design your solution to work within the 15-minute SLA.
-
-1. Does clearing the cache affect all users?
-
-    Yes. The **clear cache** option on `/_services/about` clears the cache for all users. This can cause temporary slowness as data is re-fetched from Dataverse for subsequent requests. Use this option sparingly during non-peak hours.
 
 ## See also
 

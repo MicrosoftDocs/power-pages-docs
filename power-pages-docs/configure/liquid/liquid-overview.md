@@ -5,10 +5,10 @@ author: nageshbhat-msft
 
 ms.topic: overview
 ms.custom: 
-ms.date: 01/05/2026
+ms.date: 04/29/2026
 ms.subservice:
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - GitanjaliSingh33msft
 ---
@@ -25,41 +25,6 @@ Using Liquid, you can:
 
 - [Render a website header and primary navigation bar](render-site-header-primary-navigation.md), entirely through configuration within Power Apps.  
 
-## Common use cases
-
-Liquid is used extensively in Power Pages for scenarios like:
-
-- **Displaying Dataverse data**: Use the `entityview` and `entitylist` tags or the `entities` object to query and display business data.
-- **Conditional content**: Show or hide content based on user roles, site settings, or request parameters using `{% if %}` and `{% unless %}` tags.
-- **Page layouts**: Create reusable web templates that define the layout structure and include dynamic sections with `{% include %}` and `{% block %}` tags.
-- **Localization**: Use content snippets with Liquid to provide multi-language support across your site.
-
-## Example: Display a list of records
-
-The following example shows how to display data from a Dataverse table using a Liquid entity view:
-
-```html
-{% entityview logical_name:'contact', name:'Active Contacts' %}
-  <ul>
-    {% for item in entityview.records %}
-      <li>{{ item.fullname }}</li>
-    {% endfor %}
-  </ul>
-{% endentityview %}
-```
-
-## Example: Conditional content based on web role
-
-```html
-{% if user.roles contains 'Administrators' %}
-  <p>Welcome, administrator!</p>
-{% else %}
-  <p>Welcome to our site.</p>
-{% endif %}
-```
-
-> [!TIP]
-> Use the [Power Pages Liquid reference documentation](liquid-objects.md) to explore all available Liquid objects, tags, and filters. When debugging Liquid templates, check for precompile errors in the [Portal Checker](../admin/portal-checker-analysis.md) and verify syntax against the [Liquid types](liquid-types.md) reference.
 
 ## Related information
 
