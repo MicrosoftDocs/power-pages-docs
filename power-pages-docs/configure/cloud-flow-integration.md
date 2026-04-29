@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/05/2026
+ms.date: 04/28/2026
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -141,8 +141,9 @@ This sample demonstrates how to call a flow using Asynchronous JavaScript and XM
 ```
     shell.ajaxSafePost({
         type: "POST",
+        contentType: "application/json",
         url: "/_api/cloudflow/v1.0/trigger/44a4b2f2-0d1a-4820-bf93-9376278d49c4",
-        data: {"eventData":JSON.stringify({"Email": "abc@contoso.com", "File":{"name":"Report.pdf", "contentBytes":"base 64 encoded string"} })}
+        data: JSON.stringify({"eventData": JSON.stringify({"Email": "abc@contoso.com", "File":{"name":"Report.pdf", "contentBytes":"base 64 encoded string"} })})
     })
     .done(function (response) {
     
@@ -173,3 +174,26 @@ To register the flow with the target environment, follow these steps:
     :::image type="content" source="media/cloud-flow/register-button.png" alt-text="Screenshot of the register button in the Cloud flows in this site list.":::
 
 1. To register the flow, select the icon.
+
+## Troubleshooting
+
+The following table describes common issues when working with cloud flows in Power Pages and their solutions.
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **Add existing flow** button is disabled | The cloud flow isn't solution-aware, or you don't have the required permissions. | Ensure the flow is [solution-aware](/power-automate/overview-solution-flows). Verify you have System Administrator or System Customizer security role. Wait 30 minutes to 1 hour after creating a new site before adding a flow. |
+| **Unauthorized** error when invoking a flow | The request is missing a valid session cookie or CSRF token, or the web role doesn't have access to the flow. | Confirm the user is authenticated and that the appropriate web role is assigned to the flow under **Cloud flows** > **Roles**. Include a valid CSRF token in the request header. |
+| **Incorrect Payload** or **501** error | The request body doesn't match the flow trigger parameters, or `contentType` isn't set to `application/json`. | Ensure the `contentType: "application/json"` header is included in your AJAX call, and that the parameter names in the request body match the names defined in the cloud flow trigger. Use `JSON.stringify()` for the request data. |
+| **Forbidden** error after moving site to a new environment | Cloud flows must be re-registered in the target environment after ALM migration. | Follow the steps in [Application Lifecycle Management (ALM) for Cloud flows](#application-lifecycle-management-alm-for-cloud-flows) to register the flows in the target environment. |
+| Flow stops working after a few months | The connection used by the flow may have expired, or the flow may have been suspended due to repeated failures. | Check the flow's run history in [Power Automate](https://make.powerautomate.com). Re-authenticate any expired connections. If the flow is suspended, fix the underlying issue and turn it back on. For production scenarios, use a [service principal connection](/power-automate/connection-authentication#service-principal) to avoid expiration issues. |
+| Input parameters not passed to the flow | Parameter names in the request body don't match the trigger definition, or the payload is incorrectly formatted. | Double-check that parameter names are case-sensitive and match exactly. Use browser developer tools (F12 > Network tab) to inspect the outgoing request body. |
+
+> [!TIP]
+> For solution-aware flow issues, verify the flow appears in the **Default Solution** in your environment. Only solution-aware flows can be attached to Power Pages sites. Learn more at [Overview of cloud flows in solutions](/power-automate/overview-solution-flows).
+
+## See also
+
+- [Limits of automated, scheduled, and instant flows](/power-automate/limits-and-config)
+- [Troubleshoot cloud flow errors](/power-automate/troubleshoot-flow-errors)
+- [Cloud flow error code reference](/power-automate/error-reference)
+- [Power Pages known issues](../known-issues.md)

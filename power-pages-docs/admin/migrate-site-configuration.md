@@ -3,7 +3,7 @@ title: Migrate Power Pages website configuration
 description: Learn how to migrate Power Pages website configuration.
 author: neerajnandwana-msft
 ms.topic: upgrade-and-migration-article
-ms.date: 02/20/2025
+ms.date: 04/28/2026
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: danamartens
@@ -146,8 +146,11 @@ The Microsoft Power Platform CLI provides many features specifically for [Power 
 
     `pac pages upload --path "C:\paportals\portaldev"`
 
+> [!TIP]
+> If the target environment contains multiple websites, use the `--webSiteId` parameter with the `pac pages upload` command to target a specific website during import. Run `pac pages list` on the target environment to determine the correct website ID.
+
 > [!NOTE]
-> - The Power Platform CLI tool doesn't migrate Dataverse tables or table schema. Migration might fail with missing elements such as tables and fields when configuration data is mismatched with selected schema.
+> - The Power Platform CLI tool doesn't migrate Dataverse tables or table schema.Migration might fail with missing elements such as tables and fields when configuration data is mismatched with selected schema.
 > - During import, ensure the destination environment contains the same website template type already installed with any other customizations such as tables, fields, forms, or views imported separately as solutions.
 
 # [Configuration Migration Tool](#tab/CMT)
@@ -276,8 +279,19 @@ PowerPages doesn't support tenant-to-tenant migration. To migrate a website from
 
 1. Migrate website configurations and customizations using the [steps](#transfer-website-metadata) explained in this article earlier.
 
+## Troubleshooting
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| Import fails with missing table or field errors | Configuration data references tables or columns not present in the target environment. | Ensure all customizations (tables, fields, forms, views) are imported as solutions before migrating website configuration. |
+| `pac pages upload` imports to the wrong website | The target environment contains multiple websites and the command targets the default one. | Use `pac pages upload --path [path] --webSiteId [id]` to target a specific website. Run `pac pages list` to find the correct ID. |
+| Migration from standard data model to enhanced data model fails | Standard and enhanced data model sites use different underlying tables (`adx_` vs. `mspp_`). | Use [Power Platform solutions](../configure/power-pages-solutions.md) for enhanced data model sites. Direct PAC CLI migration between data model types isn't supported. |
+| Website appears blank after migration | Configuration data imported but the website wasn't reactivated. | Navigate to **Inactive sites** on the Power Pages home page and select **Reactivate**. |
+
 ### See also
 
-- [Power Pages support for Microsoft Power Platform CLI](/power-apps/maker/portals/power-apps-cli).
-- Tenant-to-tenant migration of a [Power Platform environment](/power-platform/admin/move-environment-tenant).
-- Tenant-to-tenant migration of [model-driven apps](/dynamics365/admin/move-instance-tenant) in Dynamics 365 such as Sales, Customer Service, Marketing, Field Service, and Project Service Automation.
+- [Power Pages support for Microsoft Power Platform CLI](/power-apps/maker/portals/power-apps-cli)
+- [Using solutions with Power Pages](../configure/power-pages-solutions.md)
+- [Enhanced data model](../admin/enhanced-data-model.md)
+- Tenant-to-tenant migration of a [Power Platform environment](/power-platform/admin/move-environment-tenant)
+- Tenant-to-tenant migration of [model-driven apps](/dynamics365/admin/move-instance-tenant) in Dynamics 365 such as Sales, Customer Service, Marketing, Field Service, and Project Service Automation
