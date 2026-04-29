@@ -1,11 +1,11 @@
 ---
 title: Set up an OpenID Connect provider
 description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
-ms.date: 06/02/2025
+ms.date: 04/29/2026
 ms.topic: how-to
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
@@ -81,7 +81,7 @@ Return to the Power Pages **Configure identity provider** page you left earlier 
 
 - **Metadata address**: Paste the OpenID Connect metadata document URL [you copied](#create-an-app-registration-in-the-identity-provider).
 
-- **Scope**: Enter a space-separated list of scopes to request using the OpenID Connect `scope` parameter. The default value is `openid`.
+- **Scope**: Enter a space-separated or comma-separated list of scopes to request using the OpenID Connect `scope` parameter. The default value is `openid`.
 
     The `openid` value is mandatory. [Learn about other claims you can add](openid-settings.md#set-up-additional-claims).
 
@@ -160,7 +160,11 @@ Use the following authorization parameters, but don't set them within the OpenID
 
   - **Prompt parameter**:
 
-    This parameter controls whether the sign-in page or consent screen appears. To use it, add a customization to send it as a query string parameter to the ExternalLogin endpoint.
+    This parameter controls whether the sign-in page or consent screen appears. You can configure it is two ways:
+
+    1. **Site setting (static)**: Create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/Prompt** and set the value to one of the supported values listed below. This value applies to all authentication requests for the provider and takes priority over the dynamic parameter.
+    1.  **Dynamic (per-request)**: Add a customization to send it as a query string parameter to the External Login endpoint.
+  
 
     **Supported values**:
 
