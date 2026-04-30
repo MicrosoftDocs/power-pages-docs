@@ -94,5 +94,4 @@ This cache is updated through several mechanisms described below:
 
 - [Power Pages architecture](architecture.md)
 - [Configure a CDN for a Power Pages site](../configure/configure-cdn.md)
-- [Power Pages site checker](portal-checker-analysis.md)
 - [Enhanced data model](enhanced-data-model.md)

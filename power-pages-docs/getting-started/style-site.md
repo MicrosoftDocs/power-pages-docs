@@ -93,5 +93,4 @@ By design, some general design studio actions aren't supported, such as:
 - [Use design studio](use-design-studio.md)
 - [Create and design pages](first-page.md)  
 - [Customize pages](customize-pages.md)
-- [Add custom CSS](tutorial-add-custom-css.md)
 - [Manage CSS files](../configure/manage-css.md)

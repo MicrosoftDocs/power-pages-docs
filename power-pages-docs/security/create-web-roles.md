@@ -3,8 +3,8 @@ title: Create and assign web roles
 description: Learn how to use web roles to manage permissions on sites you create with Microsoft Power Pages.
 ms.date: 04/29/2026
 ms.topic: how-to
-author: gitanjalisingh33msft
-ms.author: gisingh
+author: shwetamurkute
+ms.author: bipuldeora
 ms.reviewer: smurkute
 contributors:
 ms.custom: bap-template

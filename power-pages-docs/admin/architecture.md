@@ -5,9 +5,9 @@ ms.topic: concept-article
 ms.custom: 
 ms.date: 04/28/2026
 ms.subservice: 
-author: PramithaU
-ms.author: pudupa
-ms.reviewer: danamartens
+author: neerajnandwana-msft
+ms.author: nenandw
+ms.reviewer: smurkute
 contributors:
     - dileepsinghmicrosoft
 ---
@@ -61,4 +61,4 @@ More details about the Power Pages website architecture can be found in the [Arc
 - [Configure a CDN for a Power Pages site](../configure/configure-cdn.md)
 - [Web Application Firewall for Power Pages](../security/web-application-firewall.md)
 - [Configure Azure Front Door with Power Pages](../configure/azure-front-door.md)
-- [Performance and optimization](../admin/portal-checker-analysis.md)
+
