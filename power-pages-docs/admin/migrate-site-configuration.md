@@ -3,10 +3,10 @@ title: Migrate Power Pages website configuration
 description: Learn how to migrate Power Pages website configuration.
 author: neerajnandwana-msft
 ms.topic: upgrade-and-migration-article
-ms.date: 02/20/2025
+ms.date: 04/28/2026
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - neerajnandwana-msft
     - vashr
@@ -146,6 +146,7 @@ The Microsoft Power Platform CLI provides many features specifically for [Power 
 
     `pac pages upload --path "C:\paportals\portaldev"`
 
+
 > [!NOTE]
 > - The Power Platform CLI tool doesn't migrate Dataverse tables or table schema. Migration might fail with missing elements such as tables and fields when configuration data is mismatched with selected schema.
 > - During import, ensure the destination environment contains the same website template type already installed with any other customizations such as tables, fields, forms, or views imported separately as solutions.
@@ -276,8 +277,11 @@ PowerPages doesn't support tenant-to-tenant migration. To migrate a website from
 
 1. Migrate website configurations and customizations using the [steps](#transfer-website-metadata) explained in this article earlier.
 
+
 ### See also
 
-- [Power Pages support for Microsoft Power Platform CLI](/power-apps/maker/portals/power-apps-cli).
-- Tenant-to-tenant migration of a [Power Platform environment](/power-platform/admin/move-environment-tenant).
-- Tenant-to-tenant migration of [model-driven apps](/dynamics365/admin/move-instance-tenant) in Dynamics 365 such as Sales, Customer Service, Marketing, Field Service, and Project Service Automation.
+- [Power Pages support for Microsoft Power Platform CLI](/power-apps/maker/portals/power-apps-cli)
+- [Using solutions with Power Pages](../configure/power-pages-solutions.md)
+- [Enhanced data model](../admin/enhanced-data-model.md)
+- Tenant-to-tenant migration of a [Power Platform environment](/power-platform/admin/move-environment-tenant)
+- Tenant-to-tenant migration of [model-driven apps](/dynamics365/admin/move-instance-tenant) in Dynamics 365 such as Sales, Customer Service, Marketing, Field Service, and Project Service Automation
