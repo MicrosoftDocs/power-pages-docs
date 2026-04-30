@@ -1,11 +1,11 @@
 ---
 title: Create and assign web roles
 description: Learn how to use web roles to manage permissions on sites you create with Microsoft Power Pages.
-ms.date: 11/06/2023
+ms.date: 04/29/2026
 ms.topic: how-to
-author: gitanjalisingh33msft
-ms.author: gisingh
-ms.reviewer: danamartens
+author: shwetamurkute
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
 ms.custom: bap-template
 ---
@@ -15,6 +15,7 @@ ms.custom: bap-template
 A web role is basically a collection of permissions to the content of your site. Before you can grant authenticated users access to [restricted tables](table-permissions.md) or [restricted pages](page-security.md), you need to assign them to a web role.
 
 Use the [Portal Management app](../configure/portal-management-app.md) to create and assign web roles.
+
 
 ## Create a web role
 
@@ -93,4 +94,9 @@ You can assign site users to web roles from either the contact record or the web
 
 [Set table permissions](table-permissions.md)  
 [Assign table permissions](assign-table-permissions.md)  
-[Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)
+[Tutorial: Display data securely on your site](../getting-started/tutorial-display-data-securely.md)  
+[Enhanced data model](../admin/enhanced-data-model.md)  
+[Power Pages security overview](power-pages-security.md)  
+[Table permissions](table-permissions.md)  
+[Page permissions](page-security.md)
+
