@@ -4,10 +4,10 @@ description: Learn how to style your Power Pages site.
 author: ckwan-ms
 ms.topic: how-to
 ms.custom: 
-ms.date: 04/28/2026
+ms.date: 04/30/2026
 ms.subservice:
 ms.author: ckwan
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - ankitavish
     - rob-moyer
