@@ -216,4 +216,4 @@ Only .png, .jpg, and .gif file formats are supported for drag and drop.
 
 ### Related information
 
-[Identity provisioning](/power-pages-docs/security/identity-provisioning.md)
+[Identity provisioning](/power-pages/security/identity-provisioning)
