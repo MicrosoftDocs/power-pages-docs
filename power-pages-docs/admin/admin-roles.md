@@ -4,7 +4,7 @@ description: Learn about the roles and permissions required to do different admi
 author: neerajnandwana-msft
 
 ms.topic: concept-article
-ms.date: 04/28/2026
+ms.date: 04/29/2026
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: smurkute
@@ -139,5 +139,6 @@ The platform uses the Microsoft Graph service to retrieve role information. Curr
 ### Related information
 
 [Use the admin center](admin-overview.md)  
+[Identity provisioning](../security/identity-provisioning.md)
 [Portal Management app](../configure/portal-management-app.md)  
 [Site settings](/power-apps/maker/portals/configure/configure-site-settings)
