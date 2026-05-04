@@ -1,11 +1,11 @@
 ---
 title: Invite contacts to your Power Pages site
 description: Learn how to create and send invitations to users to register on sites you create with Microsoft Power Pages.
-ms.date: 07/20/2023
+ms.date: 04/29/2026
 ms.topic: how-to
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
 ms.custom: bap-template
@@ -97,12 +97,15 @@ The following table describes the invitation attributes you can change.
 | Invited Contact(s) | Select a contact, if the invitation type is **Single**, or contacts if it's a **Group** invitation, to invite. If you create the invitation from a contact record, the contact's name is listed automatically. |
 | Assign to Account | (Optional) Select an account record to associate with the contact when the invitation is redeemed. |
 | Execute Workflow on Redeeming Contact | (Optional) Select a workflow process to execute with the contact as the primary entity when the invitation is redeemed. |
-| Assign to Web Roles | Select the web roles to associate with the contact when the invitation is redeemed. |
+| Assign to Web Roles | Select the web roles to associate with the contact when the invitation is redeemed. If your site uses the [enhanced data model](../admin/enhanced-data-model.md), the field name and behavior may differ. Verify the column is visible on the invitation form. |
 | Redeemed Contact(s) | Lists the contacts who have redeemed the invitation. |
 | Maximum Redemptions Allowed | For group invitations only, enter the number of times the invitation can be redeemed. |
 | Number of Successful Redemptions | For group invitations only, displays the number of times the invitation has been redeemed. |
 
+
 ### See also
 
 [Add a username to a contact record](external-access.md#add-a-username-to-a-contact-record)  
-[Local authentication, registration, and other settings](authentication/set-authentication-identity.md)
+[Local authentication, registration, and other settings](authentication/set-authentication-identity.md)  
+[Create and assign web roles](create-web-roles.md)  
+[Enhanced data model](../admin/enhanced-data-model.md)

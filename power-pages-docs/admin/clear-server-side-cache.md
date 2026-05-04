@@ -2,11 +2,11 @@
 title: How server-side caching works in Power Pages
 description: Learn how server-side caching in works Power Pages
 ms.topic: concept-article
-ms.date: 01/05/2026
+ms.date: 04/29/2026
 ms.subservice: 
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - dileepsinghmicrosoft
 ms.custom:
@@ -89,3 +89,9 @@ This cache is updated through several mechanisms described below:
 
     Immediately, as long as the update changes a primary record and isn't based on indirect changes to data using post operation plugins or workflows.
 
+
+## See also
+
+- [Power Pages architecture](architecture.md)
+- [Configure a CDN for a Power Pages site](../configure/configure-cdn.md)
+- [Enhanced data model](enhanced-data-model.md)
