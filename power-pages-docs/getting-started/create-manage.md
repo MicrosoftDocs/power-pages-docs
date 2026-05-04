@@ -63,7 +63,7 @@ There are some required roles and permissions in Microsoft Power Platform. You n
  - A user account with [Read-Write Access Mode](/power-pages/admin/admin-roles#read-write-access-mode)
  - [System administrator](/power-pages/admin/admin-roles#system-administrator) role
 
-Creating a Power Pages site no longer requires user-based permissions to register an app in Microsoft Entra. Power Pages now uses a platform-managed identity to securely access Dataverse and related services.
+Creating a Power Pages site no longer requires user-based permissions to register an app in Microsoft Entra. Power Pages now uses a platform-managed identity to securely access Dataverse and related services. For more information about how Power Pages manages identity and authentication, see [Identity provisioning](../security/identity-provisioning.md).
 
 > [!NOTE]
 > In environments with Power Pages Core package version below 1.0.2409.xx, site creation will fallback to the legacy provisioning flow and makers might see the error "You don't have permission to create Azure Active Directory", this requires a package upgrade to resolve. For details and resolution options, see [Site creation in older environments](../known-issues.md#site-creation-in-older-environments).
@@ -88,7 +88,3 @@ This video provides an overview of how to use Power Pages to create websites.<br
 ## Next steps
 
 [Use design studio](use-design-studio.md)
-
-### Related information
-
-[Identity provisioning](../security/identity-provisioning.md)
