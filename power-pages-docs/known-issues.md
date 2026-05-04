@@ -3,7 +3,7 @@ title: Known issues for Power Pages
 description: List of known issues in Power Pages
 author: DanaMartens
 ms.topic: troubleshooting-known-issue
-ms.date: 04/06/2026
+ms.date: 05/04/2026
 ms.subservice:
 ms.author: bipuldeora 
 ms.reviewer: dmartens
@@ -213,3 +213,7 @@ Here's how to enable cookies if your browser is blocking them:
 ### Rich text editor (RTE) control on Power Pages
 
 Only .png, .jpg, and .gif file formats are supported for drag and drop.
+
+### Related information
+
+[Identity provisioning](../security/identity-provisioning.md)
