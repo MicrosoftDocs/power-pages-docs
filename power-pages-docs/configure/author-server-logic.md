@@ -5,7 +5,7 @@ description: Learn how to create and manage server logic in Power Pages, includi
 author: shwetamurkute
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 09/30/2025
+ms.date: 05/05/2026
 ms.topic: concept-article
 ---
 
