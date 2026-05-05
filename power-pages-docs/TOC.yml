@@ -302,6 +302,8 @@
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
+    - name: Identity provisioning
+      href: security/identity-provisioning.md
     - name: Copilot hub (preview)
       href: admin/copilot-hub.md
     - name: Configure website actions
@@ -717,8 +719,6 @@
   items:
     - name: Overview
       href: security/power-pages-security.md
-    - name: Identity provisioning
-      href: security/identity-provisioning.md
     - name: Disable anonymous access (preview)
       href: security/disable-anonymous-access.md
     - name: Control external authentication providers
