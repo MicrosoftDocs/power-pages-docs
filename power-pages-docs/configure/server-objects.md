@@ -241,7 +241,7 @@ Server.Connector.Dataverse.InvokeCustomApi("post", "accounts(00000000-0000-0000-
 Invoke a un-bound action:
 
 ```javascript
-Server.Connector.Dataverse.InvokeCustomApi("post", "Microsoft.Dynamics.CRM.new_Action", "{ \"parameter1\": \"value1\" }");
+Server.Connector.Dataverse.InvokeCustomApi("post", "new_Action", "{ \"parameter1\": \"value1\" }");
 ```
 
 
