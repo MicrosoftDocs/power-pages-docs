@@ -17,8 +17,7 @@ Create server logic in the [Set up workspace](setup-workspace.md) in design stud
 
 1. Sign into [Power Pages](https://make.powerpages.microsoft.com/).
 1. Select site **+ Edit**.
-1. Navigate to the **Set up** workspace, then select **Server logic (preview)**.
-    :::image type="content" source="media/server-logic-overview/server-logic-preview-screen.png" alt-text="Server logic preview screen showing different operations":::
+1. Navigate to the **Set up** workspace, then select **Server logic**.
 1. Select **+New server logic**.
 1. Enter name for the server logic. This name is used in API as resource identifier while constructing the server logic API.
 1. Select **+Add roles** to assign appropriate web role.
