@@ -302,6 +302,8 @@
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
+    - name: Identity provisioning
+      href: security/identity-provisioning.md
     - name: Copilot hub (preview)
       href: admin/copilot-hub.md
     - name: Configure website actions
@@ -727,6 +729,8 @@
       href: admin/site-visibility-governance.md
     - name: Disable external service calls from server logic
       href: security/disable-external-service-calls.md
+    - name: Configure a custom CAPTCHA provider in Power Pages
+      href: security/configure-custom-captcha.md
     - name: Authentication
       items:
         - name: Overview

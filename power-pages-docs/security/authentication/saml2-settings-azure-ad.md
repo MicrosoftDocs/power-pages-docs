@@ -1,11 +1,11 @@
 ---
 title: Set up a SAML 2.0 provider with Microsoft Entra ID
 description: Learn how to set up a SAML 2.0 identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
-ms.date: 04/21/2025
+ms.date: 04/28/2026
 ms.topic: how-to
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
@@ -113,8 +113,13 @@ The additional settings let you control how users authenticate with your SAML 2.
   - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
   - **Off**
 
+
+
+
 ### See also
 
 [Set up a SAML 2.0 provider](saml2-provider.md)  
 [Set up a SAML 2.0 provider with AD FS](saml2-settings.md)  
-[SAML 2.0 FAQs](saml2-faqs.md)
+[SAML 2.0 FAQs](saml2-faqs.md)  
+[Configure site authentication](configure-site.md)  
+

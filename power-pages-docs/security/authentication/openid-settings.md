@@ -1,11 +1,11 @@
 ---
 title: Set up an OpenID Connect provider with Microsoft Entra ID
 description: Learn how to set up an OpenID Connect identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
-ms.date: 02/28/2026
+ms.date: 04/29/2026
 ms.topic: how-to
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
@@ -139,7 +139,7 @@ The additional settings give you finer control over how users authenticate with 
 
 - **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
 
-- **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.
+- **Nonce lifetime**: Enter the lifetime of the nonce value as a timespan (for example, '00:15:00'). The default value is defined by the .NET framework's OpenID Connect protocol validator.
 
 - **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting.
 
