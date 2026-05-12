@@ -5,17 +5,17 @@ author: nageshbhat-msft
 
 ms.topic: overview
 ms.custom: 
-ms.date: 01/05/2026
+ms.date: 04/29/2026
 ms.subservice:
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - GitanjaliSingh33msft
 ---
 
 # Liquid overview
 
-Liquid is an open-source template language integrated into Power Pages. It can be used to add dynamic content to webpages, and to create a wide variety of custom web templates.
+Liquid is an open-source template language integrated into Power Pages. It can be used to add dynamic content to webpages, and to create a wide variety of custom web templates. Liquid is processed on the server side, so the output is rendered as plain HTML to the end user.
 
 Using Liquid, you can:
 
@@ -25,6 +25,7 @@ Using Liquid, you can:
 
 - [Render a website header and primary navigation bar](render-site-header-primary-navigation.md), entirely through configuration within Power Apps.  
 
+
 ## Related information
 
 - [Web templates](../web-templates.md)  
@@ -33,4 +34,5 @@ Using Liquid, you can:
 - [Liquid conditional operators](liquid-conditional-operators.md)  
 - [Liquid Objects](liquid-objects.md)  
 - [Liquid Tags](liquid-tags.md)  
-- [Liquid Filters](liquid-filters.md)  
+- [Liquid Filters](liquid-filters.md)
+- [Create advanced Power Pages sites with Liquid templates (training module)](/training/modules/extend-power-app-portals/)

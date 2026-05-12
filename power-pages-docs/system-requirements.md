@@ -4,8 +4,8 @@ description: Learn about device platform and web browser requirements, limits, a
 author: nageshbhat-msft
 ms.topic: concept-article
 ms.custom: 
-ms.reviewer: dmartens
-ms.date: 01/05/2026
+ms.reviewer: smurkute
+ms.date: 04/28/2026
 ms.subservice: 
 ms.author: nabha
 contributors:

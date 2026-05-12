@@ -3,10 +3,10 @@ title: Use @powerpages within GitHub Copilot Chat for Visual Studio Code (previe
 description: Boost productivity without leaving your coding environment using GitHub Copilot Chat for seamless Power Pages coding assistance in Visual Studio Code.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 10/04/2024
+ms.date: 04/29/2026
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
   - DanaMartens
   - neerajnandwana-msft
@@ -67,7 +67,10 @@ To add the @powerpages participant to a chat:
 
     :::image type="content" source="media/github-copilot-chat/power-pages-participant.png" alt-text="Screenshot of adding the powerpages participant to the GitHub Copilot chat in Visual Studio Code.":::
 
+
 ## Related information
 
 - [Power Platform Tools VS Code Extension](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode)
 - [GitHub Copilot](https://aka.ms/github-copilot)
+- [Add code with Copilot](add-code-copilot.md)
+- [Power Platform CLI tutorial for Power Pages](power-platform-cli-tutorial.md)

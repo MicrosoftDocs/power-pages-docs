@@ -3,9 +3,9 @@ title: Use the admin center
 description: Learn how to use the Power Pages admin center.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 07/10/2024
+ms.date: 04/28/2026
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - DanaMartens
 ms.custom:
@@ -19,6 +19,9 @@ Power Pages uses the Power Platform admin center to provide administrators with 
 
 > [!NOTE]
 > You will need to be assigned certain roles to perform administrative tasks. For more information, see [Roles required for website administration](admin-roles.md).
+
+
+## Access the admin center
 
 1. To access the admin center, from the design studio, select the **Set up** workspace.
 
@@ -145,4 +148,8 @@ To add yourself as an owner of the Microsoft Entra application:
 
 ## See also
 
-[Use Power Pages admin APIs](admin-api.md)
+[Use Power Pages admin APIs](admin-api.md)  
+[Roles required for website administration](admin-roles.md)  
+[Set up Power BI integration](set-up-power-bi-integration.md)  
+[Manage custom certificates](manage-custom-certificates.md)  
+[Power Pages licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#power-pages)

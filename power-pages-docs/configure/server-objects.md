@@ -5,7 +5,7 @@ description: Learn how to use built-in server objects like Logger, HttpClient, a
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 03/31/2026
+ms.date: 05/05/2026
 ms.topic: reference
 ---
 
@@ -241,7 +241,7 @@ Server.Connector.Dataverse.InvokeCustomApi("post", "accounts(00000000-0000-0000-
 Invoke a un-bound action:
 
 ```javascript
-Server.Connector.Dataverse.InvokeCustomApi("post", "Microsoft.Dynamics.CRM.new_Action", "{ \"parameter1\": \"value1\" }");
+Server.Connector.Dataverse.InvokeCustomApi("post", "new_Action", "{ \"parameter1\": \"value1\" }");
 ```
 
 

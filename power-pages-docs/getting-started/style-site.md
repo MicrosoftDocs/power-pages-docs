@@ -4,10 +4,10 @@ description: Learn how to style your Power Pages site.
 author: ckwan-ms
 ms.topic: how-to
 ms.custom: 
-ms.date: 07/04/2023
+ms.date: 04/30/2026
 ms.subservice:
 ms.author: ckwan
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - ankitavish
     - rob-moyer
@@ -93,3 +93,4 @@ By design, some general design studio actions aren't supported, such as:
 - [Use design studio](use-design-studio.md)
 - [Create and design pages](first-page.md)  
 - [Customize pages](customize-pages.md)
+- [Manage CSS files](../configure/manage-css.md)
