@@ -2,7 +2,7 @@
 title: Identity provisioning in Power Pages
 description: Learn how Power Pages uses a platform-managed identity model to provision and operate sites securely without requiring manual Microsoft Entra app registrations or certificate management.
 ms.date: 04/29/2026
-ms.topic: conceptual
+ms.topic: article
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
