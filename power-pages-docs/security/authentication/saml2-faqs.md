@@ -1,11 +1,11 @@
 ---
 title: FAQs about using SAML 2.0 in Power Pages
 description: Get answers to frequently asked questions about using SAML 2.0 providers for authentication on sites you create with Microsoft Power Pages.
-ms.date: 07/19/2023
+ms.date: 05/12/2026
 ms.topic: how-to
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
@@ -22,7 +22,7 @@ Power Pages supports SAML 2.0&ndash;based providers only.
 
 ## Does Power Pages support signed assertion?
 
-Power Pages doesn't support signed assertion requests. If you're using signed assertion, we suggest you use OpenID Connect. If your identity provider doesn't support OpenID Connect, use an intermediary identity provider (preferably Microsoft Entra External ID) that supports federation with SAML and can federate with Power Pages using OpenID Connect.
+Power Pages supports signed assertions from the identity provider. Both response-level and assertion-level signatures are validated against the identity provider's signing certificate obtained from its metadata. However, Power Pages doesn't support signing outgoing AuthnRequest messages sent to the identity provider.
 
 ## Does Power Pages support signed SAML responses?
 
