@@ -32,7 +32,7 @@ To set up user authentication for your site:
 > Changes to your site's authentication settings [can take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
 
 > [!TIP]
-> These steps apply to both standard and [GCC environments](/power-platform/admin/government-environment). The navigation and settings are the same in both environment types.
+> These steps apply to both standard and [GCC environments](/power-platform/admin/powerapps-us-government). The navigation and settings are the same in both environment types.
 
 ## Select general authentication settings
 
@@ -64,7 +64,7 @@ Select the following general authentication settings:
 - **Open registration**: Controls the sign-up form for creating a local user account.
 
   - **On**: The sign-up form allows any anonymous user to visit the website and create a user account. Users don't need an invitation code to register.
-  - **Off**: The sign-up form is disabled and hidden. To require invitation codes for registration, turn off open registration and [configure invitation settings](set-authentication-identity.md#registration-settings).
+  - **Off**: The sign-up form is disabled and hidden. To require invitation codes for registration, turn off open registration and [configure invitation settings](set-authentication-identity.md).
 
   > [!IMPORTANT]
   > If open registration is **On**, any user can create an account without an invitation code. If your site requires controlled access, turn off open registration and use the `Authentication/Registration/RequiresInvitation` [site setting](../../configure/configure-site-settings.md) to require invitation codes.
@@ -171,7 +171,7 @@ The following table lists common authentication issues and guidance on how to re
 
 | Issue | Resolution |
 |---|---|
-| **Users bypass invitation codes** | If open registration is turned on, users can register without an invitation code. Turn off open registration and set the `Authentication/Registration/RequiresInvitation` [site setting](../../configure/configure-site-settings.md) to `true`. Learn more: [Invitation settings](set-authentication-identity.md#registration-settings) |
+| **Users bypass invitation codes** | If open registration is turned on, users can register without an invitation code. Turn off open registration and set the `Authentication/Registration/RequiresInvitation` [site setting](../../configure/configure-site-settings.md) to `true`. Learn more: [Invitation settings](set-authentication-identity.md) |
 | **"Email already in use" error** | This error occurs when a contact record with the same email already exists, including deactivated records. Search for and resolve duplicate contact records in [Microsoft Dataverse](/power-apps/developer/data-platform/customer-entities-account-contact). |
 | **AADSTS700016: Application not found** | This error typically appears when the application registration in Microsoft Entra ID doesn't match your site's configuration, or when a site is deleted and recreated without updating the identity provider. Verify the **Client ID** and **Authority** URL match your app registration, and reconfigure the identity provider after recreating a site. |
 | **"Invalid sign-in attempt" error** | This error can occur when user credentials are incorrect, the account is locked due to too many failed attempts, or the contact record is deactivated. Verify the user's contact record status and account lockout settings. |
