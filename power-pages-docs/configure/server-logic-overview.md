@@ -21,7 +21,7 @@ Dataverse stores code and configuration, so server logic benefits from the same 
 
 ## Language support
 
-Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard without support for browser APIs (like DOM APIs, `fetch` or `XMLHttpRequest`). Certain unsafe or restricted patterns are also blocked to ensure secure execution. For more information, see [Limitations in authoring server logic](../configure/author-server-logic#limitations)
+Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard without support for browser APIs (like DOM APIs, `fetch` or `XMLHttpRequest`). Certain unsafe or restricted patterns are also blocked to ensure secure execution. For more information, see [Limitations in authoring server logic](author-server-logic.md#limitations).
 
 ## What you can do with server logic
 
