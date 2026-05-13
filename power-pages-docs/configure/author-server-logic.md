@@ -125,19 +125,19 @@ The following limitations apply when authoring server logic:
   The following patterns are not allowed:
   ```
   __dirname
-__filename
-import(), import from
-eval(), Function()
-setTimeout(), setInterval(), setImmediate()
-process.exit, process.kill, child_process
-fs., require()
-constructor.constructor, this.constructor, arguments.callee
-with(), delete
-Object.getPrototypeOf, Object.setPrototypeOf
-Proxy(), Reflect.
-Symbol.for
-__proto__, prototype
-debugger
+  __filename
+  import(, import from
+  eval(, Function(
+  setTimeout(, setInterval(, setImmediate(
+  process.exit, process.kill, child_process
+  fs., require(
+  constructor.constructor, this.constructor, arguments.callee
+  with(, delete
+  Object.getPrototypeOf, Object.setPrototypeOf
+  Proxy(, Reflect.
+  Symbol.for
+  __proto__, prototype
+  debugger
   ```
 
   
