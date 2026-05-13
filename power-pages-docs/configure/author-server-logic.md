@@ -115,7 +115,17 @@ shell.safeAjax({
   "Error": null
 }
 ```
+## Limitations
+The following limitations apply when authoring server logic:
+- Browser-specific APIs are not supported
+  Server logic runs in a server environment and does not support browser-based APIs or libraries.
+  Examples include `fetch`, `XMLHttpRequest`, and other DOM-related features.
+- Restricted keywords and patterns
+  To maintain a secure execution environment, server logic scripts are validated and rejected if they contain certain unsafe or restricted keywords, including those that enable dynamic code execution, process control, or prototype manipulation.
+  The following patterns are not allowed:
+  `__dirname`<br>`__filename`<br>`import(`, `import from`<br>`eval(`, `Function(`<br>`setTimeout(`, `setInterval(`, `setImmediate(`<br>`process.exit`, `process.kill`, `child_process`<br>`fs.`, `require(`<br>`constructor.constructor`, `this.constructor`, `arguments.callee`<br>`with(`, `delete`<br>`Object.getPrototypeOf`, `Object.setPrototypeOf`<br>`Proxy(`, `Reflect.`<br>`Symbol.for`<br>`__proto__`, `prototype`<br>`debugger`
 
+  
 ## Next step
 
 [Server objects](server-objects.md)
