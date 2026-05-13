@@ -5,7 +5,7 @@ description: Learn how to configure and secure Power Pages server logic, includi
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 03/31/2026
+ms.date: 05/13/2026
 ms.topic: concept-article
 ---
 
@@ -21,7 +21,7 @@ Dataverse stores code and configuration, so server logic benefits from the same 
 
 ## Language support
 
-Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard without support for browser APIs (such as DOM APIs or `fetch`, `XMLHttpRequest`). Certain unsafe or restricted patterns are also blocked to ensure secure execution. For more information, see [Limitations in authoring server logic](../configure/author-server-logic#limitations)
+Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard without support for browser APIs (like DOM APIs, `fetch` or `XMLHttpRequest`). Certain unsafe or restricted patterns are also blocked to ensure secure execution. For more information, see [Limitations in authoring server logic](../configure/author-server-logic#limitations)
 
 ## What you can do with server logic
 
