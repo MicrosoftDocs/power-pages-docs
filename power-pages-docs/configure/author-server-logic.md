@@ -116,14 +116,18 @@ shell.safeAjax({
 }
 ```
 ## Limitations
+
 The following limitations apply when authoring server logic:
-- Browser-specific APIs are not supported
-   Server logic runs in a server environment and does not support browser-based APIs or libraries.
+
+- **Browser-specific APIs are not supported**  
+  Server logic runs in a server environment and does not support browser-based APIs or libraries.  
   Examples include `fetch`, `XMLHttpRequest`, and other DOM-related features.
-- Restricted keywords and patterns
-    To maintain a secure execution environment, server logic scripts are validated and rejected if they contain certain unsafe or restricted keywords, including those that enable dynamic code execution, process control, or prototype manipulation.
+
+- **Restricted keywords and patterns**  
+  To maintain a secure execution environment, server logic scripts are validated and rejected if they contain certain unsafe or restricted keywords, including those that enable dynamic code execution, process control, or prototype manipulation.
 
   The following patterns are not allowed:
+  
   ```
   __dirname
   __filename
