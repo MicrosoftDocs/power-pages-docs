@@ -100,6 +100,9 @@ let response = await Server.Connector.HttpClient.DeleteAsync(url, header);
 
 Allows you to read site setting values for the current website.
 
+> [!NOTE]
+> Do not store secrets (such as API keys or credentials) directly in server logic. Instead, store them securely in Azure Key Vault, source them through environment variables, and reference them using site setting.
+
 **Example**
 
 ```javascript
