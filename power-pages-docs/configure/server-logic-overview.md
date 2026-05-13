@@ -5,7 +5,7 @@ description: Learn how to configure and secure Power Pages server logic, includi
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 03/31/2026
+ms.date: 05/13/2026
 ms.topic: concept-article
 ---
 
@@ -21,7 +21,7 @@ Dataverse stores code and configuration, so server logic benefits from the same 
 
 ## Language support
 
-Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard. Hosting environment doesn't provide access to browser-specific APIs or libraries, like `fetch`, `XMLHttpRequest`, or other DOM-related features typically available in client-side JavaScript.  
+Server logic lets developers write native JavaScript code compliant with the [ECMAScript 2023](https://tc39.es/ecma262/2023/) standard without support for browser APIs (like DOM APIs, `fetch` or `XMLHttpRequest`). Certain unsafe or restricted patterns are also blocked to ensure secure execution. For more information, see [Limitations in authoring server logic](author-server-logic.md#limitations).
 
 ## What you can do with server logic
 
@@ -92,7 +92,7 @@ Each method maps to a function you define in your server logic code.
 | PUT     | function put() { }    | Replace or update records.         | Updates or replaces an entire record or dataset. Typically used for full updates or synchronization scenarios. |
 | PATCH   | function patch() { }  | Updates part of a record (upsert).  | Performs a partial update of existing data without replacing the entire record. Use this method when only specific fields need modification. |
 | DELETE  | function del() { }    | Delete records or fields.          | Removes records or data from Dataverse or an external system. Should be used cautiously to prevent unintended data loss. |
-
+  
 ## Next step
 
 [Author server logic](author-server-logic.md)

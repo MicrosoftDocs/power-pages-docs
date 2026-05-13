@@ -5,7 +5,7 @@ description: Learn how to use built-in server objects like Logger, HttpClient, a
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 05/05/2026
+ms.date: 05/13/2026
 ms.topic: reference
 ---
 
@@ -99,6 +99,9 @@ let response = await Server.Connector.HttpClient.DeleteAsync(url, header);
 ## SiteSetting
 
 Allows you to read site setting values for the current website.
+
+> [!NOTE]
+> Don't store secrets (like API keys or credentials) directly in server logic. Instead, store them securely in Azure Key Vault, source them through environment variables, and reference them using site settings.
 
 **Example**
 
