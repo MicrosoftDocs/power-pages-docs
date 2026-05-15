@@ -22,7 +22,7 @@ Power Pages supports SAML 2.0&ndash;based providers only.
 
 ## Does Power Pages support signed assertion?
 
-Power Pages supports signed assertions from the identity provider. Both response-level and assertion-level signatures are validated against the identity provider's signing certificate obtained from its metadata. However, Power Pages doesn't support signing outgoing AuthnRequest messages sent to the identity provider.
+Power Pages support signed assertions from the identity provider. Both response-level and assertion-level signatures are validated against the identity provider's signing certificate obtained from its metadata. However, Power Pages don't support signing outgoing AuthnRequest messages sent to the identity provider.
 
 ## Does Power Pages support signed SAML responses?
 
