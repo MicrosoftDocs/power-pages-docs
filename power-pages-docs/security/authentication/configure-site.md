@@ -1,7 +1,7 @@
 ---
 title: Set up site authentication
 description: Learn how to set up user authentication for your Microsoft Power Pages site and add, set up, and remove identity providers.
-ms.date: 05/12/2026
+ms.date: 05/15/2026
 ms.topic: how-to
 ms.collection: get-started
 author: DanaMartens
@@ -176,8 +176,6 @@ The following table lists common authentication issues and guidance on how to re
 | **AADSTS700016: Application not found** | This error typically appears when the application registration in Microsoft Entra ID doesn't match your site's configuration, or when a site is deleted and recreated without updating the identity provider. Verify the **Client ID** and **Authority** URL match your app registration, and reconfigure the identity provider after recreating a site. |
 | **"Invalid sign-in attempt" error** | This error can occur when user credentials are incorrect, the account is locked due to too many failed attempts, or the contact record is deactivated. Verify the user's contact record status and account lockout settings. |
 | **Local sign-in shows Microsoft login screen** | If a default identity provider is set, users are redirected directly to that provider instead of the local sign-in page. To restore the local sign-in page, [remove the default identity provider](#set-a-default-identity-provider). Alternatively, check the `Authentication/Registration/LoginButtonAuthenticationType` [site setting](set-authentication-identity.md#enable-aspnet-identity-authentication). |
-| **Identity provider settings page error** | If you see "We can't get that information right now" when opening identity provider settings, try restarting the site from the [admin center](../../admin/admin-overview.md). If the error persists, verify your site's Portals Base, Microsoft Identity, and Microsoft Identity Workflows solution packages are up to date. |
-| **Custom identity provider not saving** | After adding a custom identity provider, ensure you select **Confirm** to save the configuration. If the provider doesn't appear after a page refresh, [restart the site](../../admin/admin-overview.md) to clear the server-side cache. |
 | **Pages render differently for anonymous vs authenticated users** | Authenticated pages are always served from the application server. Anonymous pages may be served from a CDN cache. Verify your [page permissions](../page-security.md) and [CDN settings](../../configure/configure-cdn.md) are configured correctly for the intended audience. |
 | **Password rotation for local authentication** | Local authentication doesn't natively support automatic password rotation policies. Consider [migrating to Microsoft Entra ID or Azure AD B2C](migrate-identity-providers.md) for advanced password policies. For local accounts, use the [password reset flow](set-authentication-identity.md) to manually trigger password changes. |
 
