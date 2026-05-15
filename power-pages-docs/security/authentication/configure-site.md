@@ -1,7 +1,7 @@
 ---
 title: Set up site authentication
 description: Learn how to set up user authentication for your Microsoft Power Pages site and add, set up, and remove identity providers.
-ms.date: 02/28/2026
+ms.date: 05/15/2026
 ms.topic: how-to
 ms.collection: get-started
 author: DanaMartens
@@ -30,6 +30,9 @@ To set up user authentication for your site:
 
 > [!NOTE]
 > Changes to your site's authentication settings [can take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes immediately, restart the site in the [admin center](../../admin/admin-overview.md).
+
+> [!TIP]
+> These steps apply to both standard and [GCC environments](/power-platform/admin/powerapps-us-government). The navigation and settings are the same in both environment types.
 
 ## Select general authentication settings
 
@@ -60,12 +63,15 @@ Select the following general authentication settings:
 
 - **Open registration**: Controls the sign-up form for creating a local user account.
 
-  - **On**: The sign-up form allows any anonymous user to visit the website and create a user account.
-  - **Off**: The sign-up form is disabled and hidden.
+  - **On**: The sign-up form allows any anonymous user to visit the website and create a user account. Users don't need an invitation code to register.
+  - **Off**: The sign-up form is disabled and hidden. To require invitation codes for registration, turn off open registration and [configure invitation settings](set-authentication-identity.md).
+
+  > [!IMPORTANT]
+  > If open registration is **On**, any user can create an account without an invitation code. If your site requires controlled access, turn off open registration and use the `Authentication/Registration/RequiresInvitation` [site setting](../../configure/configure-site-settings.md) to require invitation codes.
 
 - **Require unique email**: Specifies if users must provide a unique email address when signing up.
 
-  - **On**: A sign-up attempt might fail if a user provides an email address that already exists in a contact record.
+  - **On**: A sign-up attempt might fail if a user provides an email address that already exists in a contact record, including deactivated contacts. If users see an "email already in use" error, check for [deactivated contact records](/power-apps/developer/data-platform/customer-entities-account-contact) that share the same email address.
   - **Off**: A new user can sign up with a duplicated email address.
 
 ## Set up specific identity providers
@@ -158,11 +164,27 @@ You can only set a configured identity provider as the default.
 
 To remove the default and let users select a configured identity provider when they sign in, select **Remove as default**.
 
-## Prevent the "Trouble signing you in" error if you recreate your site
 
-If you delete and recreate your Power Pages site, users might receive the following error when they try to sign in:
+## Troubleshoot common authentication issues
 
-`Sorry, but we're having trouble signing you in.`
-`AADSTS700016: Application with identifier '<your site URL>' was not found in the directory 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.`
+The following table lists common authentication issues and guidance on how to resolve them.
 
-Make sure you configure the identity provider correctly after recreating your site.
+| Issue | Resolution |
+|---|---|
+| **Users bypass invitation codes** | If open registration is turned on, users can register without an invitation code. Turn off open registration and set the `Authentication/Registration/RequiresInvitation` [site setting](../../configure/configure-site-settings.md) to `true`. Learn more: [Invitation settings](set-authentication-identity.md) |
+| **"Email already in use" error** | This error occurs when a contact record with the same email already exists, including deactivated records. Search for and resolve duplicate contact records in [Microsoft Dataverse](/power-apps/developer/data-platform/customer-entities-account-contact). |
+| **AADSTS700016: Application not found** | This error typically appears when the application registration in Microsoft Entra ID doesn't match your site's configuration, or when a site is deleted and recreated without updating the identity provider. Verify the **Client ID** and **Authority** URL match your app registration, and reconfigure the identity provider after recreating a site. |
+| **"Invalid sign-in attempt" error** | This error can occur when user credentials are incorrect, the account is locked due to too many failed attempts, or the contact record is deactivated. Verify the user's contact record status and account lockout settings. |
+| **Local sign-in shows Microsoft login screen** | If a default identity provider is set, users are redirected directly to that provider instead of the local sign-in page. To restore the local sign-in page, [remove the default identity provider](#set-a-default-identity-provider). Alternatively, check the `Authentication/Registration/LoginButtonAuthenticationType` [site setting](set-authentication-identity.md#enable-aspnet-identity-authentication). |
+| **Pages render differently for anonymous vs authenticated users** | Authenticated pages are always served from the application server. Anonymous pages may be served from a CDN cache. Verify your [page permissions](../page-security.md) and [CDN settings](../../configure/configure-cdn.md) are configured correctly for the intended audience. |
+| **Password rotation for local authentication** | Local authentication doesn't natively support automatic password rotation policies. Consider [migrating to Microsoft Entra ID or Azure AD B2C](migrate-identity-providers.md) for advanced password policies. For local accounts, use the [password reset flow](set-authentication-identity.md) to manually trigger password changes. |
+
+## Related content
+
+- [Authentication overview for Power Pages](index.md)
+- [Configure an OpenID Connect provider](openid-provider.md)
+- [Configure a SAML 2.0 provider](saml2-provider.md)
+- [Configure a WS-Federation provider](ws-federation-provider.md)
+- [Migrate to a new identity provider](migrate-identity-providers.md)
+- [Configure an OpenID Connect provider with Microsoft Entra External ID](entra-external-id.md)
+- [Power Pages security overview](../power-pages-security.md)
