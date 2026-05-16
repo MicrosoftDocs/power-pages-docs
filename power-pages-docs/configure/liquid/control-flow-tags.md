@@ -63,7 +63,8 @@ Hello, stranger.
 
 ## case/when
 
-A switch statement to compare a variable to different values, and execute a different block of code for each value.
+A switch statement to compare a variable to different values, and execute a different block of code for each value.<br>
+A **when** tag can accept multiple values. When multiple values are provided, the expression is returned when the variable matches any of the values inside of the tag. Provide the values as a comma-separated list, or separate them using an or operator.
 
 ```
 {% case user.fullname %}
@@ -75,6 +76,10 @@ Hello, Dave.
 {% when 'John Smith' %}
 
 Hello, Mr. Smith.
+
+{% when 'Alice Johnson' or 'Bob Johnson' %}
+
+Hello, Johnson family member.
 
 {% else %}
 
