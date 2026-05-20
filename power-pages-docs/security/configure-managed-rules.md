@@ -4,7 +4,7 @@ description: Learn how to configure managed rules and bot protection in Power Pa
 author: shwetamurkute
 contributors:
 ms.topic: concept-article
-ms.date: 06/30/2025
+ms.date: 05/20/2026
 ms.author: nabha
 ms.reviewer: smurkute
 ---
@@ -17,7 +17,7 @@ When you enable the [Web Application Firewall (WAF)](web-application-firewall.md
 
 - You must be an admin to configure custom rules.
 - [Web Application Firewall](web-application-firewall.md) must be enabled for the site.
-- You can't configure Web Application Firewall managed rules in China, and the UAE region.
+- You can't configure Web Application Firewall managed rules in China and the UAE region.
 
 ## Enable or disable managed rules in WAF for Power Pages sites
 
