@@ -691,7 +691,7 @@
       items:
         - name: Create a single-page application
           href: configure/create-code-sites.md
-        - name: Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code (preview)
+        - name: Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code
           href: configure/create-code-site-using-claude-code.md
         - name: "Tutorial: Create a single-page application using Spark and Codespace"
           href: configure/create-code-site-using-codespace.md
