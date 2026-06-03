@@ -1,25 +1,24 @@
 ---
-title: Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code (preview)
+title: Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code
 description: This page provides a walk-through on how to create, customize, and deploy single-page applications for Microsoft Power Pages using agentic AI coding tool.
 author: neerajnandwana-msft
 ms.topic: tutorial
-ms.date: 04/14/2026
+ms.date: 05/28/2026
 ms.author: nenandw
 ms.reviewer: smurkute
 contributors:
 - neerajnandwana-msft
 - shwetamurkute
+- joshuapartlow
 ---
 
-#  Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code (preview)
+#  Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code
 
 The Power Pages plugin for [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and [Claude Code](https://claude.ai/code) provides an AI-assisted workflow for creating, deploying, and managing modern [*single-page application (SPA)*](/power-pages/configure/create-code-sites) sites on Power Pages. Instead of manually scaffolding projects, writing boilerplate API code, and configuring permissions, describe what you want in natural language, and the plugin handles the implementation.
 
 The plugin supports the full site development lifecycle through conversational skills, from scaffolding a new site to deploying it, setting up Dataverse data models, and configuring authentication.
 
 > [!IMPORTANT]
-> - This feature is in preview.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - [Review agent proposals before approving](#review-agent-proposals-before-approving)
 
 ## Prerequisites
@@ -39,8 +38,8 @@ Before you begin, verify that you have the required software and permissions.
 You also need:
 
 - A Power Platform environment with Power Pages enabled.
-- An authenticated PAC CLI session connected to your target environment. Run [`pac auth create`](/power-platform/developer/cli/reference/auth#pac-auth-create) if you haven't connected yet.
-- An Azure CLI session signed in to the same tenant. Run [`az login`](/cli/azure/reference-index#az-login) to authenticate.
+- An authenticated PAC CLI session connected to your target environment. Run [`pac auth create`](/power-platform/developer/cli/reference/auth#pac-auth-create) if you didn't connect yet.
+- An Azure CLI session signed in to the same tenant. Run [`az login --allow-no-subscriptions`](/cli/azure/reference-index#az-login) to authenticate.
 
 **Verify authentication:**
 
@@ -121,12 +120,28 @@ The plugin provides skills that cover the full lifecycle of a Power Pages site. 
 | Set up data model | `/setup-datamodel` | Creates Dataverse tables, columns, and relationships |
 | Add sample data (optional) | `/add-sample-data` | Populates Dataverse tables with realistic test records |
 | Integrate Web API | `/integrate-webapi` | Generates typed API client code, services, and table permissions |
-| Set up authentication | `/setup-auth` | Adds sign-in and sign-out functionality and role-based access control |
+| Set up authentication | `/setup-auth` | Adds sign-in, sign-out, and role-based access control. Supports Microsoft Entra ID, Microsoft Entra External ID, OpenID Connect, SAML 2.0, WS-Federation, Microsoft account, Facebook, Google, and local username and password authentication, including multi-provider configurations |
 | Create web roles | `/create-webroles` | Generates web role YAML files for user access management |
 | Add server logic | `/add-server-logic` | Generates secure server-side JavaScript endpoints for validation, external API calls, secret management, and data operations |
 | Add cloud flow | `/add-cloud-flow` | Integrates existing Power Automate cloud flows into your site for approval workflows, notifications, and scheduled automation |
 | Integrate backend | `/integrate-backend` | Analyzes your prototype, determines the right approach (Web API, Server Logic, or cloud flow) for each feature, and orchestrates the complete build sequence |
 | Add SEO | `/add-seo` | Generates robots.txt, sitemap.xml, and meta tags |
+| Run security review | `/security-review` | Orchestrates the focused security skills and consolidates every finding into a single HTML report. Covers code, dependencies, deployed-site scan, browser headers, web application firewall, table permissions, and authentication configuration |
+| Scan source code | `/scan-code` | Runs static analysis and dependency scanning on local source files; surfaces findings across code patterns, vulnerable packages, hardcoded secrets, and license issues |
+| Scan deployed site | `/scan-site` | Starts a server-side security scan against the live site, fetches the latest report, and groups findings by severity |
+| Manage browser security headers | `/manage-headers` | Inspects and configures the HTTP security headers a site sends to browsers — Content Security Policy, frame and clickjacking protection, cross-origin sharing, cookie behavior, and related site settings |
+| Manage web application firewall | `/manage-firewall` | Inspects and configures the web application firewall (WAF) on a production site: enables protection, adds or removes IP blocks, country blocks, path blocks, and rate limits |
+| Audit table permissions | `/audit-permissions` | Audits existing table permissions against site code and Dataverse metadata; produces an HTML report grouped by severity with suggested fixes |
+| Plan deployment | `/plan-alm` | Detects project state, gathers your promotion strategy, renders a visual plan, and orchestrates the other application lifecycle management (ALM) skills in the right order |
+| Author solution | `/setup-solution` | Creates a publisher and solution, adds Power Pages components, classifies site settings, and proposes environment variables and Azure Key Vault secrets |
+| Set up pipeline host | `/ensure-pipelines-host` | Provisions or detects a host environment for Power Platform Pipelines |
+| Set up pipeline | `/setup-pipeline` | Registers a pipeline definition in Dataverse and binds promotion stages to target environments |
+| Deploy through pipeline | `/deploy-pipeline` | Triggers a pipeline deployment for a target stage with per-stage environment variable overrides |
+| Force-link environment | `/force-link-environment` | Reassigns a target environment to a new Power Platform Pipelines host when a host conflict blocks deployment |
+| Export solution | `/export-solution` | Exports the solution as a managed or unmanaged zip, with a completeness check before export |
+| Import solution | `/import-solution` | Imports a solution zip on a target environment, staged or direct |
+| Test site | `/test-site` | Verifies a deployed site with a browser-based test: page crawl, role-based access checks, and Web API verification |
+| Diagnose deployment | `/diagnose-deployment` | Matches deployment failures against a catalog of known errors and proposes a fix |
 
 ## Typical workflow
 
@@ -144,6 +159,8 @@ A common end-to-end workflow follows this sequence:
 1. **/add-cloud-flow**      :  Integrate existing Power Automate flows
 1. **/add-seo**             :  Search engine optimization
 1. **/deploy-site**         :  Push final changes live
+1. **/security-review**     :  Run an end-to-end security review before going to production
+1. **/plan-alm**            :  Promote your site to test and production environments
 
 > [!TIP]
 > - You don't need to follow this exact order. Each skill checks its own prerequisites and tells you if something is missing. For example, you can run `/setup-auth` before `/integrate-webapi` if your site needs authentication first.
@@ -234,12 +251,37 @@ Run `/create-webroles` to define user access roles. The plugin:
 
 ### Step 8: Set up authentication
 
-Run `/setup-auth` to add sign-in and sign-out functionality. The plugin:
+Run `/setup-auth` to add sign-in, sign-out, and role-based access control to your site. The plugin supports the following identity providers, and you can configure one provider or several at the same time.
 
-1. Generates an authentication service for the Microsoft Entra ID flow with anti-forgery token management.
-1. Creates a sign-in/sign-out UI component integrated with your site layout.
-1. Adds role-based access control utilities that show or hide UI elements based on the user's web roles.
-1. Uses your framework's patterns throughout (React hooks, Vue composables, or Angular services).
+| Provider | Best for |
+|---|---|
+| Microsoft Entra External ID (recommended for customer-facing sites) | Public sites and customer portals with self-service sign-up. |
+| Microsoft Entra ID | Internal employee portals or business-to-business (B2B) partner sites. Power Pages automatically configures the site's parent tenant, so you don't need to enter tenant information. |
+| Microsoft, Facebook, Google | Social sign-in for consumer audiences. |
+| Local authentication | Username and password sign-in. Not recommended and is configured only when you explicitly request it. |
+
+For more information about supported providers, including protocols and configuration considerations, see [Overview of authentication in Power Pages](../security/authentication/index.md).
+
+The plugin:
+
+1. Analyzes your site (purpose, pages, audience) and proposes a sensible default. For example, the plugin proposes Microsoft Entra External ID with open registration for a customer-facing site, or Microsoft Entra ID with invitation-only registration for an internal portal. You accept the recommendation or pick your own providers.
+1. For each provider, walks you through every prerequisite step in the identity provider's admin center, such as creating tenants, registering apps, creating user flows, and capturing client IDs and redirect URIs. The plugin validates each value you paste back into the conversation, and computes the exact redirect URI for your site so that the value pasted into the app registration matches the value written into site settings.
+1. Asks how user profile data should flow from the identity provider into the Dataverse contact record (claims mapping), whether to sync on every sign-in or first sign-in only, and whether to auto-link external sign-ins to existing contacts by email.
+1. Generates the authentication service, type declarations, role-based authorization utilities (`hasRole`, `RequireAuth`, `RequireRole`), a session keepalive hook that prevents SPA sessions from silently expiring, and a sign-in/sign-out UI component integrated with your site layout. The plugin uses your framework's patterns throughout, such as React hooks, Vue composables, Angular services, or Astro components.
+1. When more than one provider is configured, generates a `/login` page rendered in your chosen layout: horizontal row, vertical stack, primary spotlight, or tabbed.
+1. Writes the matching site settings under `.powerpages-site/site-settings/` for each provider, registration mode, claims mapping, and optional feature.
+
+The plugin also configures the following optional features when you turn them on:
+
+- **Terms and conditions**: A `/terms` SPA page users must accept before completing sign-in, plus the matching site setting and content snippets.
+- **User profile page**: A `/user-profile` SPA page where signed-in users edit their contact information through the Power Pages Web API.
+- **Federated sign-out**: Also signs out the user at the identity provider when they sign out of the site, for shared-device or regulated scenarios.
+
+> [!TIP]
+> To add a second identity provider to an existing site, run `/setup-auth` again. The plugin detects what's already configured and offers to add a new provider without overwriting the existing ones. This approach is useful for incremental scenarios, such as starting with Microsoft Entra External ID and later adding Google for social sign-in.
+
+> [!NOTE]
+> Client-side authorization (`RequireAuth`, `RequireRole`, `hasRole`) is for user experience only. It controls what the user sees. Server-side table permissions configured by `/integrate-webapi` enforce actual security.
 
 ### Step 9: Add server logic
 
@@ -305,6 +347,40 @@ Run `/add-seo` to optimize your site for search engines. The plugin:
 
 If you perform any optional steps, run `/deploy-site` again to push the changes live. The plugin runs a production build and uploads the site along with all deployment artifacts (table permissions, site settings, web roles, server logic files) to your Power Pages environment.
 
+### Step 13: Run a security review
+
+Run `/security-review` to perform an end-to-end security review of your site before going to production. The skill orchestrates the focused security skills and consolidates every finding into a single HTML report at `docs/security-review-<timestamp>.html`.
+
+The plugin asks one plain-language question about your goal and picks the matching set of focused skills:
+
+| Goal | What it checks |
+|---|---|
+| **Code and config** | Source code, dependencies, table permissions, and authentication configuration. Works on local files only - no deployment required. |
+| **Release readiness** (recommended) | Full review before publishing. Runs every focused skill: code and dependencies, deployed-site scan, browser security headers, web application firewall, table permissions, and authentication. |
+| **Deployed site** | Live deployed-site scan only. Useful for ongoing monitoring of a published site. |
+
+After you confirm, the plugin runs the matching focused skills in parallel and writes their findings to a single report:
+
+- **`/scan-code`**: Runs static analysis (opengrep) and dependency scanning (trivy) on local source files. Surfaces code patterns, vulnerable packages, hardcoded secrets, and license issues. If either tool isn't installed, the skill offers a manual code review as a fallback.
+- **`/scan-site`**: Starts a server-side security scan against the live site and fetches the latest report. Scan duration depends on site size - small sites finish in minutes, large sites can take hours. Findings are grouped by severity. Requires a deployed site.
+- **`/manage-headers`**: Inspects the HTTP security headers configured under `.powerpages-site/site-settings/`: Content Security Policy, X-Frame-Options, CORS, cookie SameSite, and related settings. Identifies missing or weak values and proposes recommended defaults.
+- **`/manage-firewall`**: Inspects the web application firewall (WAF) for the production site, including managed-rule state and custom rules (IP blocks, country blocks, path blocks, rate limits). Available only on production sites in supported regions; the skill detects and reports eligibility issues.
+- **`/audit-permissions`**: Audits existing table permissions against site code and Dataverse metadata. Surfaces missing permissions, overly permissive roles, unused permissions, and YAML schema problems.
+
+The consolidated report groups findings by section, opens in your default browser, and includes plain-language remediation guidance. From the chat, the plugin then offers to walk through fixes - choose a finding and the plugin invokes the matching focused skill interactively to apply the change.
+
+> [!NOTE]
+> The security review never applies changes automatically. Each focused skill runs in read-only review mode during the consolidated run. To apply a fix, the plugin invokes the matching skill interactively after you pick the action.
+
+> [!TIP]
+> You can also run any focused skill on its own:
+>
+> - Run `/scan-code` during development to catch code-level issues early.
+> - Run `/manage-headers` to fix a specific Content Security Policy error or set up CORS.
+> - Run `/manage-firewall` to add a rate limit on the sign-in page or block traffic by country.
+> - Run `/audit-permissions` after changing table permissions to verify they still match site code.
+> - Re-run `/security-review` with the **Deployed site** goal to monitor a production site over time.
+
 ### Verify your site
 
 After you complete the skills, verify your Power Pages site works correctly.
@@ -313,6 +389,66 @@ After you complete the skills, verify your Power Pages site works correctly.
 1. Locate your site in the **Active sites** list.
 1. Preview your site on desktop by using the **Preview** option.
 1. Test the functionality.
+
+## Promote your site across environments
+
+After your site works in your development environment, use the application lifecycle management (ALM) skills to promote it to test and production environments. The plugin packages your site as a [Power Platform solution](/power-platform/alm/solution-concepts-alm), identifies values that vary across environments, and deploys the solution through [Power Platform Pipelines](/power-platform/alm/pipelines) or through manual export and import.
+
+To use the ALM skills, you also need at least one target Power Platform environment (test, production, or both). To use the optional Azure Key Vault flow for secrets, you also need permission to create a key vault in your Azure subscription.
+
+### Plan the deployment
+
+Run `/plan-alm` to start. `/plan-alm` is the entry point for ALM and orchestrates the other ALM skills, so you typically don't run them directly. The plugin:
+
+1. Detects the current state of your project, solution, and target environments.
+1. Asks about your promotion strategy (Power Platform Pipelines or manual export and import), the target stages, and any constraints to apply.
+1. Generates a visual plan at `docs/alm-plan.html` that shows every action it intends to take.
+1. Waits for your approval before running any downstream skill.
+
+The plan persists to disk, so each downstream skill reads from and writes to the same persisted plan. If a phase fails, run `/plan-alm` again and it resumes from where it stopped.
+
+### Author the solution
+
+Run `/setup-solution` to package your site as a Power Platform solution. The plugin:
+
+1. Creates a publisher and solution, then adds your Power Pages components: the site, web roles, server logic endpoints, cloud flow registrations, and OAuth provider settings.
+1. Classifies each site setting by sensitivity and proposes [environment variables](environment-variables-for-site-settings.md) for values that vary across environments.
+1. Offers to provision an [Azure Key Vault](/azure/key-vault/general/overview) and store credential-type values, such as connection strings and API keys, in it.
+1. Runs in sync mode when a solution already exists for your site, to reconcile components without creating a new solution.
+
+**You review and approve the proposal.** The plugin doesn't create any configuration until you confirm.
+
+> [!TIP]
+> If your solution is too large or entangled to deploy reliably, the plugin recommends a split and proposes where to split it. Confirm the split before changes apply.
+
+### Deploy with Power Platform Pipelines
+
+If you chose Power Platform Pipelines as your promotion strategy, the plugin runs these skills:
+
+1. `/ensure-pipelines-host` provisions or detects a host environment for Power Platform Pipelines. The skill picks the lowest-cost option available for your tenant: a free platform host, the Pipelines app on an existing environment, or a custom host.
+1. `/setup-pipeline` registers a pipeline definition in Dataverse, configures the stages you chose, and binds each stage to a target environment.
+1. `/deploy-pipeline` triggers a deployment for a stage, applies per-stage environment variable overrides through `deploymentSettings.json`, and tracks state in a deployment ledger.
+
+If a deployment fails because the target environment is already linked to a different Power Platform Pipelines host, the plugin can run `/force-link-environment` to reassign it. The action requires your explicit consent and is reversible.
+
+### Deploy with manual export and import
+
+If you chose the manual path, the plugin runs:
+
+1. `/export-solution` to export the solution as a managed or unmanaged ZIP, with a completeness check before export.
+1. `/import-solution` to import the ZIP on the target environment, either staged to verify dependencies first or direct.
+
+### Activate and validate the deployed site
+
+After a successful deployment on the target environment, the plugin:
+
+1. Runs `/activate-site` to provision the public URL on the target environment.
+1. Runs `/test-site` to verify the deployment. The plugin uses a browser to crawl representative pages, run role-based access checks, verify `/_api/` calls, and capture response shapes from `/_api/serverlogics/` endpoints. The skill reports the result as `PASS`, `WARNINGS`, or `FAIL`, with per-check details linked from the plan.
+
+If a step fails, the plugin runs `/diagnose-deployment`. The skill matches the failure against a catalog of known deployment errors, such as a stale manifest, missing dependencies, host conflicts, blocked JavaScript, or expired authentication, and proposes a concrete fix. The plugin never applies a fix without your consent.
+
+> [!NOTE]
+> Every ALM skill reads from and writes to artifacts on disk: the solution manifest, plan data, pipeline ledger, deployment ledger, and test results. The orchestration is resumable and auditable. To see what happened at any step, inspect the artifacts.
 
 ## Tips and best practices
 
@@ -328,7 +464,7 @@ If you see an error like `command not found` or `is not recognized`, install the
 
 The Data Model Architect and Web API Permissions Architect agents present proposals before making changes. Take the time to review these proposals carefully.
 
-- **Data model proposals**: Check that table names, column types, and relationships match your business requirements. It's much easier to adjust a proposal than to rename columns after data is already inserted.
+- **Data model proposals**: Check that table names, column types, and relationships match your business requirements. It's easier to adjust a proposal than to rename columns after data is already inserted.
 - **Permissions proposals**: Verify that each role has the correct access level (create, read, update, delete) for each table. Overly permissive table permissions are a common security risk.
 
 ### Paste errors directly with context
@@ -391,6 +527,7 @@ Vague requests produce vague results. Tell the plugin exactly what you need, inc
 | "Fix the styling" | "The job cards stack vertically on desktop. Make them display in a three-column grid with 16px gap on screens wider than 768px" |
 | "Add some data" | "Add 20 sample job postings across four departments (Engineering, Marketing, Sales, HR) with realistic titles, salary ranges between $60k-$180k, and posted dates in the last 30 days" |
 | "Set up the API" | "Connect the JobListings component to the cr_jobposting Dataverse table. Replace the hardcoded array with a real API call that fetches title, department, salary, and posted date" |
+| "Add login" | "Set up Microsoft Entra External ID sign-in with open registration, plus Google as a second provider. Show them as a horizontal row on the sign-in page." |
 
 ### Use screenshots for visual problems
 
@@ -440,6 +577,7 @@ If a skill fails partway through, you don't need to start over. Each skill runs 
 ### Related content
 
 - [Create and deploy a single-page application in Power Pages](create-code-sites.md)
+- [Configure authentication for a Power Pages site](../security/authentication/configure-site.md)
 - [Server logic overview](server-logic-overview.md)
 - [Power Pages Web API reference](web-api-overview.md)
 - [PAC CLI pages command reference](power-platform-cli.md)

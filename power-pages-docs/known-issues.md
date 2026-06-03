@@ -3,7 +3,7 @@ title: Known issues for Power Pages
 description: List of known issues in Power Pages
 author: DanaMartens
 ms.topic: troubleshooting-known-issue
-ms.date: 04/06/2026
+ms.date: 05/04/2026
 ms.subservice:
 ms.author: bipuldeora 
 ms.reviewer: dmartens
@@ -29,7 +29,7 @@ ms.custom:
 
 Creating a Power Pages site no longer require Microsoft Entra app registration permissions in environments with Power Pages Core package version 1.0.2409.xx or later. These environments use a platform-managed identity that Power Pages automatically provisions and manages to securely access Dataverse and related services. This identity is tied to the site's lifecycle, so makers and administrators don't need to create, configure, or maintain app registrations or credentials.
 
-In earlier versions, site creation falls back to the legacy provisioning flow. In that flow, makers might see the error "You don't have permission to create Azure Active Directory" because app registration permissions are still required.
+In earlier versions, site creation falls back to the legacy provisioning flow. In that flow, makers might see the error "You don't have permission to create Azure Active Directory" because app registration permissions are still required. For more information about how Power Pages manages identity and authentication, see [Identity provisioning](/power-pages/security/identity-provisioning).
 
 To resolve this issue, use one of the following supported options:
 
@@ -213,3 +213,4 @@ Here's how to enable cookies if your browser is blocking them:
 ### Rich text editor (RTE) control on Power Pages
 
 Only .png, .jpg, and .gif file formats are supported for drag and drop.
+

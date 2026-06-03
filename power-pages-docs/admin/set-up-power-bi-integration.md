@@ -4,10 +4,10 @@ description: Learn how to set up Power BI integration with your website. View an
 author: neerajnandwana-msft
 
 ms.topic: how-to
-ms.date: 06/25/2025
+ms.date: 04/28/2026
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - neerajnandwana-msft
     - nageshbhat-msft
@@ -23,7 +23,7 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 > [!NOTE]
 > - You must have an appropriate Power BI license.
 > - To use Power BI Embedded service, you must have an appropriate Power BI Embedded license. Ensure you review [capacity planning](/power-bi/developer/embedded/embedded-capacity-planning), and [pricing](https://azure.microsoft.com/pricing/details/power-bi-embedded/) for Power BI Embedded. More information: [Power BI Embedded Licensing FAQs](/power-bi/developer/embedded-faq#licensing).
-> - Ensure that **Embed content in apps** is *Enabled* in your Power BI tenant [Developer settings](/power-bi/guidance/admin-tenant-settings#developer-settings). When disabled, a portal can't render embedded Power BI dashboards or reports.
+> - Ensure that **Embed content in apps** is *Enabled* in your Power BI tenant [Developer settings](/fabric/admin/service-admin-portal-developer). When disabled, a portal can't render embedded Power BI dashboards or reports.
 
 ## Enable Power BI visualization
 
@@ -168,8 +168,11 @@ After enabling the Power BI Embedded service integration, you must create a secu
 
 1. Under the **Developer settings** section:
     - Enable **Embed content in apps**.
-    - Enable **Allow service principals to use Power BI APIs**.
+    - Enable **Service principals can call Fabric public APIs** (previously named *Allow service principals to use Power BI APIs*).
         - In the **Specific security groups** field, search for and select the **Portal Power BI Embedded service** group.
+
+    > [!IMPORTANT]
+    > The Power BI tenant setting names have changed. If you don't see **Service principals can call Fabric public APIs**, look for **Allow service principals to use Power BI APIs** in older tenants. For the latest developer settings documentation, see [Developer tenant settings](/fabric/admin/service-admin-portal-developer).
 
 1. Select **Apply**.
 
@@ -242,7 +245,7 @@ When you render a Power BI report on a webpage, you might see one of the followi
 
   - The [Power BI Embedded configuration](#enable-power-bi-embedded-service) is incorrect.
   - [Row-level security](/power-bi/admin/service-admin-rls) in Power BI is enabled, but roles aren't passed in the [Power BI component configuration](../getting-started/add-power-bi.md) (Advanced settings), or in the *roles* parameter in the [powerbi liquid tag](../configure/liquid/dataverse-liquid-tags.md#powerbi).
-  - **Embed content in apps** in Power BI [Developer Settings](/power-bi/admin/service-admin-portal#developer-settings) isn't enabled.
+  - **Embed content in apps** in Power BI [Developer Settings](/fabric/admin/service-admin-portal-developer) isn't enabled.
   
 - *Couldn't load the model schema associated with this report. Make sure you have a connection to the server, and try again.*
 

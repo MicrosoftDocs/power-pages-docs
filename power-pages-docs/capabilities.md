@@ -1,16 +1,18 @@
 ---
 title: Power Pages capabilities
-description: Learn about Power Pages capabilities.
+description: Learn about Power Pages capabilities including design studio, responsive rendering, security, governance, and integration with Microsoft Power Platform.
 author: DanaMartens
 ms.topic: concept-article
 ms.custom: 
-ms.date: 02/28/2026
+ms.date: 04/23/2026
 ms.subservice:
 ms.author: bipuldeora
 ms.reviewer: danamartens
 contributors:
     - KumarVivek
     - dileepsinghmicrosoft
+ms.collection:
+  - ai-assisted
 ---
 
 # Power Pages capabilities
@@ -84,3 +86,9 @@ Power Pages provides deep integration with other [Microsoft Power Platform](/pow
 - **Power BI** allows anyone to access visually immersive and interactive insights from business data. With Power Pages, integrate with Power BI to access components like reports, dashboards, and tiles. Use the embed capability to surface data that sits outside of Dataverse.
 
 - **Microsoft Copilot Studio** enables teams to easily create and publish AI-driven chatbot experiences. With Power Pages, add chatbots to your external-facing websites for a myriad of business purposes.
+
+## See also
+
+- [What is Power Pages?](introduction.md)
+- [Create a site with Power Pages](getting-started/create-manage.md)
+- [Power Pages lifecycle](admin/lifecycle.md)
