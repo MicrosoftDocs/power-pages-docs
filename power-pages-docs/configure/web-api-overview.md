@@ -4,7 +4,7 @@ description: Learn how to use the portals Web API to create, read, update, and d
 author: neerajnandwana-msft
 
 ms.topic: overview
-ms.date: 02/28/2026
+ms.date: 04/23/2026
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -12,11 +12,15 @@ contributors:
     - neerajnandwana-msft
 ms.custom:
   - sfi-image-nochange
+ms.collection:
+  - ai-assisted
 ---
 
 # Portals Web API overview
 
 The portals Web API enables a richer user experience inside Power Pages sites. You can use the Web API to perform create, read, update, and delete operations across all Microsoft Dataverse tables from your webpages. For example, you can create a new account, update a contact, without using a [form](../getting-started/add-form.md) or [multistep form](../getting-started/multistep-forms.md) by using the portals Web API.
+
+The Web API uses the `/_api` route (for example, `https://yoursite.powerappsportals.com/_api/accounts`) and follows a RESTful pattern similar to the Dataverse Web API.
 
 > [!IMPORTANT]
 > - Your Power Pages site version must be 9.3.3.x or later for this feature to work.
