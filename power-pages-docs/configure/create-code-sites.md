@@ -7,13 +7,15 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:05/20/2025
-ms.date: 01/14/2026
+ms.date: 06/12/2026
 ms.subservice:
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
   - neerajnandwana-msft
   - DanaMartens
+  - shwetamurkute
+  - JimDaly
 ---
 
 # Create and deploy a single-page application in Power Pages
@@ -30,7 +32,7 @@ This article shows you how to:
 - Learn key differences between SPA-based and traditional Power Pages implementations.
 
 > [!NOTE]
-> - An SPA site is a Power Pages site that runs entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, SPA sites are managed only through source code and command-line interface (CLI) tools.
+> - An SPA site is a Power Pages site that runs entirely in the user's browser (client-side rendering). Unlike traditional Power Pages sites, you manage SPA sites only through source code and command-line interface (CLI) tools.
 > - [Power Platform Git integration](/power-platform/alm/git-integration/overview) isn't supported for Single-Page Application (SPA) websites in Power Pages.
 
 ## Prerequisites
@@ -79,7 +81,7 @@ pac pages upload-code-site `
 
 | Parameter        | Alias | Required  | Description                                                            |
 | ---------------- | ----- | --------- | ---------------------------------------------------------------------- |
-| `--rootPath`     | `-rp` | Yes       | Local folder that has your site’s source files                         |
+| `--rootPath`     | `-rp` | Yes       | Local folder that has your site's source files                         |
 | `--compiledPath` | `-cp` | No        | Path to compiled assets, like React `build`          |
 | `--siteName`     | `-sn` | No        | Display name for your Power Pages site                                 |
 
@@ -96,15 +98,33 @@ If you don't have an existing project, try the [sample implementations of SPA si
 
 #### Defining upload parameters with `powerpages.config.json`
 
-Customize the behavior of the `upload-code-site` command by including a `powerpages.config.json` file in your site. Place this configuration file in the site root folder. When you use config-based site uploads, run the `upload-code-site` command with just the `rootPath` parameter. The command automatically reads other values, like the compiled assets path and site display name, from the `powerpages.config.json` file. If you provide both command-line arguments and config values, the command-line arguments take precedence.
+Customize the behavior of the `upload-code-site` command by including a `powerpages.config.json` file in your site's root folder. When this file is present, run `upload-code-site` with only the `--rootPath` parameter. The command reads the remaining values from the configuration file. If you supply both command-line arguments and configuration values, the command-line arguments take precedence.
 
-**Sample `powerpages.config.json`:**
+##### Configuration fields
+
+| Field | Type | Required | Description |
+| --- | --- | --- | --- |
+| `siteName` | string | Yes | Display name for the Power Pages site. |
+| `compiledPath` | string | Yes | Path to the compiled output directory (for example, the Vite `dist` or React `build` folder), relative to `powerpages.config.json`. |
+| `defaultLandingPage` | string | Yes | The HTML page served when the site root is opened, relative to `compiledPath` (typically `index.html`). |
+| `bundleFilePatterns` | string[] | No | A list of wildcard patterns identifying files in the site's `web-files` that the CLI removes before uploading the new build. Use this field to clean up stale, content-hashed bundles so old assets don't accumulate on the site. See [Code splitting and bundle cleanup](#code-splitting-and-bundle-cleanup). |
+| `includeSource` | boolean | No | When `true`, the command uploads your source code in addition to the compiled assets. Defaults to `false`. |
+| `sourceExcludePatterns` | string[] | No | Wildcard patterns for source files to exclude from upload. Applies only when `includeSource` is `true` (for example, to skip `node_modules` or local environment files). |
+
+For the most accurate and up-to-date field reference, see the [`powerpages.config.json` schema](https://www.schemastore.org/powerpages.config.json). Add the matching `$schema` property to your configuration file to enable validation and autocomplete in editors that support JSON Schema.
+
+##### Sample `powerpages.config.json`
 
 ```json
 {
+  "$schema": "https://www.schemastore.org/powerpages.config.json",
   "siteName": "Contoso Bank",
+  "compiledPath": "dist",
   "defaultLandingPage": "index.html",
-  "compiledPath": "C:\\PowerPages\\your-project\\dist"
+  "bundleFilePatterns": [
+    "index-*.js",
+    "index-*.css"
+  ]
 }
 ```
 
@@ -165,6 +185,168 @@ A consistent project layout helps ensure correct upload behavior.
 
 Use the optional `powerpages.config.json` file to customize how the `upload-code-site` command works.
 
+## Code splitting and bundle cleanup
+
+As a single-page application grows, a single JavaScript bundle becomes large and slow to load. Modern build tools solve this with **code splitting**, which breaks the app into smaller **chunks** that the browser downloads on demand (for example, only when the user navigates to a specific route). Each chunk is emitted with a **content hash** in its file name, such as `Dashboard-BSbmIXoe.js`, so browsers can cache it for long periods and re-download it only when its contents change.
+
+Code splitting introduces a deployment consideration unique to Power Pages SPA sites: because every build produces new hashed file names, repeated `upload-code-site` runs would leave the old hashed files behind on the site. Over many deployments, these orphaned chunks accumulate in the site's `web-files`. The `bundleFilePatterns` field in `powerpages.config.json` exists to clean them up.
+
+### Enable code splitting
+
+Code splitting is handled by your front-end build tool, not by Power Pages, so the approach depends on the framework and bundler you use. The most common technique is to load parts of the app with dynamic imports, often applied at the route or view level so that each section downloads only when a user navigates to it (lazy loading).
+
+Bundlers such as Vite, webpack, and esbuild can also group modules into named chunks explicitly. For the exact configuration, see the documentation for your framework and bundler.
+
+```
+dist/assets/
+├─ index-BJltBIP-.js        ← app entry
+├─ index-DMwMk7hv.css       ← styles
+├─ Dashboard-BSbmIXoe.js    ← lazy route chunk
+├─ InvoiceList-DwjrGrAI.js  ← lazy route chunk
+└─ InvoiceDetail-D3DVGkeM.js← lazy route chunk
+```
+
+Whichever approach you choose, the outcome is the same, and it's the part that matters for deployment: the build emits multiple output files, each with a content hash in its name. Because those hashes change whenever a file's contents change, every build produces a different set of file names. The next sections explain how to keep your Dataverse environments clean as those names change.
+
+### How `upload-code-site` cleans up stale bundles
+
+Before uploading your compiled assets, `upload-code-site` deletes every file in the site's `web-files` that matches a wildcard pattern in `bundleFilePatterns`, then uploads the current build. This delete-then-upload behavior keeps the deployed file set identical to your latest compiled output instead of layering each build on top of the previous one.
+
+For the cleanup to work, the wildcard patterns in `bundleFilePatterns` must match the file names your build emits. There are two ways to keep them accurate, depending on how your build tool names files.
+
+### Option 1: List wildcard patterns directly
+
+Many build tools keep a stable name prefix and change only the content hash, such as `index-[hash].js`. When your output file names follow a predictable pattern like this, list a wildcard pattern for each one in `bundleFilePatterns`. No extra tooling is needed:
+
+```json
+{
+  "$schema": "https://www.schemastore.org/powerpages.config.json",
+  "siteName": "Contoso Bank",
+  "compiledPath": "dist",
+  "defaultLandingPage": "index.html",
+  "bundleFilePatterns": [
+    "index-*.js",
+    "index-*.css"
+  ]
+}
+```
+
+A wildcard pattern such as `index-*.js` matches that file on every build, regardless of the hash. Add one entry per output file, and add a new pattern whenever your build starts producing a new output file.
+
+### Option 2: Generate wildcard patterns with a post-build script
+
+Use this approach when your output file names don't follow a predictable pattern, or when your app produces many files whose names change as you add and remove routes, which makes a hand-maintained list error-prone. A short script that runs after the build scans the compiled output and rewrites `bundleFilePatterns` with a wildcard pattern for each emitted file. For example, when a build tool names files as `[name]-[hash].[ext]`, the script reduces `Dashboard-BSbmIXoe.js` to the pattern `Dashboard-*.js`.
+
+`scripts/postbuild.js`:
+
+```javascript
+#!/usr/bin/env node
+
+/**
+ * Post-build script: scans dist/assets/ and updates powerpages.config.json
+ * with bundleFilePatterns that match all Vite-generated chunks.
+ *
+ * This ensures `pac pages upload-code-site` cleans up old hashed bundles
+ * on each deploy instead of accumulating stale files.
+ *
+ * Usage: node scripts/postbuild.js
+ * Or via npm: "postbuild": "node scripts/postbuild.js" in package.json
+ */
+
+import { readdirSync, readFileSync, writeFileSync } from 'fs'
+import { join } from 'path'
+
+const ROOT = join(import.meta.dirname, '..')
+const DIST_ASSETS = join(ROOT, 'dist', 'assets')
+const CONFIG_PATH = join(ROOT, 'powerpages.config.json')
+
+// Vite output format: [name]-[hash].[ext]
+// We want to extract "name" and "ext" to produce "name-*.ext" patterns
+const HASH_PATTERN = /^(.+)-[A-Za-z0-9_-]{6,12}\.(js|css)$/
+
+try {
+  const files = readdirSync(DIST_ASSETS)
+  const patternSet = new Set()
+
+  for (const file of files) {
+    const match = file.match(HASH_PATTERN)
+    if (match) {
+      const [, baseName, ext] = match
+      patternSet.add(`${baseName}-*.${ext}`)
+    }
+  }
+
+  const patterns = [...patternSet].sort()
+
+  if (patterns.length === 0) {
+    console.log('No hashed bundles found in dist/assets/ — skipping config update.')
+    process.exit(0)
+  }
+
+  // Read current config
+  const config = JSON.parse(readFileSync(CONFIG_PATH, 'utf-8'))
+  const oldPatterns = config.bundleFilePatterns || []
+
+  // Check if update is needed
+  const oldSet = new Set(oldPatterns)
+  const newSet = new Set(patterns)
+  const changed = oldSet.size !== newSet.size || [...newSet].some(p => !oldSet.has(p))
+
+  if (!changed) {
+    console.log(`bundleFilePatterns already up-to-date (${patterns.length} patterns).`)
+    process.exit(0)
+  }
+
+  // Update config
+  config.bundleFilePatterns = patterns
+  writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2) + '\n', 'utf-8')
+
+  console.log(`Updated powerpages.config.json with ${patterns.length} bundle patterns:`)
+  for (const p of patterns) {
+    console.log(`  ${p}`)
+  }
+} catch (err) {
+  console.error('postbuild error:', err.message)
+  process.exit(1)
+}
+
+```
+
+Wire the script into your build so it always runs after the bundler:
+
+```json
+{
+  "scripts": {
+    "build": "tsc -b && vite build && node scripts/postbuild.js"
+  }
+}
+```
+
+Now a deployment is two commands, and the site never accumulates orphaned chunks:
+
+```powershell
+npm run build
+pac pages upload-code-site --rootPath .
+```
+
+After the build, `powerpages.config.json` reflects the exact current bundles, for example:
+
+```json
+{
+  "$schema": "https://www.schemastore.org/powerpages.config.json",
+  "siteName": "Contoso Bank",
+  "compiledPath": "dist",
+  "defaultLandingPage": "index.html",
+  "bundleFilePatterns": [
+    "Dashboard-*.js",
+    "InvoiceDetail-*.js",
+    "InvoiceList-*.js",
+    "index-*.css",
+    "index-*.js"
+  ]
+}
+```
+
 ## Authentication and authorization
 
 Power Pages SPA sites use the same [security model](../security/power-pages-security.md) as traditional Power Pages sites.
@@ -183,9 +365,9 @@ Get authentication metadata on the client:
 
 - **Authority URL:**
 
-    The authority or login URL for Microsoft Entra ID is:
+    The authority or sign-in URL for Microsoft Entra ID is:
 
-    ```js
+    ```javascript
     https://login.windows.net/<tenantId>
     ```
 
@@ -193,13 +375,13 @@ Get authentication metadata on the client:
 
 - **User details:**
 
-  ```js
+  ```javascript
   window["Microsoft"].Dynamic365.Portal.User
   ```
 
 ### Sample React flow
 
-```tsx
+```javascript
 import { IconButton, Tooltip } from '@mui/material';
 import {
     Login,
@@ -285,10 +467,10 @@ export const AuthButton = () => {
 
 ## Use Power Pages Web APIs 
 
-Developers can leverage [Power Pages Web APIs](web-api-overview.md) to load content into the UI or to create, update, and delete records. Before using these APIs, ensure that the required Web APIs are enabled and appropriate table permissions and web roles are properly configured.
+Developers can use [Power Pages Web APIs](web-api-overview.md) to load content into the UI or to create, update, and delete records. Before using these APIs, make sure that the required Web APIs are enabled and that appropriate table permissions and web roles are properly configured.
 
 
-```tsx
+```typescript
 
 // Create query to get all cards from Dataverse
 const fetchCards = async () => {
@@ -329,7 +511,7 @@ This setup lets you:
 - Avoid CORS issues when calling Power Pages Web APIs.
 - Accelerate development without deploying changes to the portal.
 
-This configuration enables a productive local development experience for SPA, allowing developers to build, test, and iterate quickly with full API access and authentication support.
+This configuration enables a productive local development experience for SPA, so developers can build, test, and iterate quickly with full API access and authentication support.
 
 > [!IMPORTANT]
 > - Use only Microsoft Entra v1 endpoints for authentication.
@@ -340,12 +522,12 @@ This configuration enables a productive local development experience for SPA, al
 ### Configuration steps
 
 1. **Enable SPA authentication**
-   1. In https://portal.azure.com, open the Microsoft Entra app registered for your portal.
-   2. Enable **Single Page Application (SPA)** authentication.
-   3. Add `localhost` as a redirect URI using the **Single-page application** platform configuration. Refer to [How to add a redirect URI in your application](/entra/identity-platform/how-to-add-redirect-uri) for more details.
+   1. In [Azure portal](https://portal.azure.com), open the Microsoft Entra app registered for your portal.
+   1. Enable **Single Page Application (SPA)** authentication.
+   1. Add `localhost` as a redirect URI by using the **Single-page application** platform configuration. For more information, see [How to add a redirect URI in your application](/entra/identity-platform/how-to-add-redirect-uri).
       - **Redirect URI**: `http://localhost:<port>/`.
 
-2. **Add site settings**
+1. **Add site settings**
    - Add these [site settings](configure-site-settings.md) in Power Pages:
 
    ```plaintext
@@ -354,26 +536,26 @@ This configuration enables a productive local development experience for SPA, al
    Authentication/BearerAuthentication/Provider = AzureAD
    ```
 
-3. **Use ADAL.js for login**
-   - Implement client-side login using **ADAL.js**.
+1. **Use ADAL.js for authentication**
+   - Implement client-side authentication by using **ADAL.js**.
 
    > [!NOTE]
    > MSAL.js isn't compatible because Power Pages uses Microsoft Entra v1 endpoints, while MSAL uses v2. The issuer format differs between versions.
 
-4. **Add authorization header**
+1. **Add authorization header**
    - Include this header in all Web API requests:
 
    ```http
    Authorization: Bearer <id_token>
    ```
 
-5. **Set site visibility to Public**
+1. **Set site visibility to Public**
    - This setting lets `localhost` access the site for development and testing purposes.
 
-6. **Configure development proxy**
-   - If you use **Vite**, add this to `vite.config.js` to avoid CORS issues:
+1. **Configure development proxy**
+      - If you use **Vite**, add this code to `vite.config.js` to avoid CORS issues:
 
-   ```js
+   ```javascript
    export default defineConfig({
      plugins: [react()],
      server: {
@@ -394,12 +576,12 @@ The following table summarizes key differences between SPA sites created with th
 
 | Feature                 | SPA site behavior                                                            |
 | ----------------------- | ----------------------------------------------------------------------------- |
-| **Server-side refresh** | Always returns the site’s root page, and the client-side router renders sub-routes.    |
+| **Server-side refresh** | Always returns the site's root page, and the client-side router renders sub-routes.    |
 | **Route conflicts**     | Client-side routes take precedence, and a hard refresh falls back to the root.           |
 | **Page workspace**      | The [pages workspace](../getting-started/first-page.md) isn't supported. Use client routing and client site pages. For page-level security, check assigned web roles with the global user object, and conditionally render the UI. |
-| **Style workspace**     | Styling with the [style workspace](../getting-started/style-site.md) isn't supported. Use your framework’s styling, such as CSS, CSS-in-JS, or utility classes. |
+| **Style workspace**     | Styling with the [style workspace](../getting-started/style-site.md) isn't supported. Use your framework's styling, such as CSS, CSS-in-JS, or utility classes. |
 | **Localization**        | Single-language support. Implement client-side resource loading.          |
-| **Liquid templating**   | [Liquid](liquid/liquid-overview.md) code and Liquid templates aren't supported. Access data by using your framework’s template engine and Web APIs. |
+| **Liquid templating**   | [Liquid](liquid/liquid-overview.md) code and Liquid templates aren't supported. Access data by using your framework's template engine and Web APIs. |
 
 ## FAQ
 
@@ -415,13 +597,13 @@ This capability isn't currently supported.
 
 Currently, makers can build websites using TypeScript or GitHub Copilot Agent. The compiled JavaScript and CSS files are accessible and can be edited in Visual Studio Code. However, direct and extensive editing of HTML files isn't currently supported.
 
-### Can I create a component externally using this feature and bring it to a Power Pages site?
+### Can I create a component externally by using this feature and bring it to a Power Pages site?
 
-No, you can't bring an externally generated component to an existing Power Pages site using this feature.
+No, you can't bring an externally generated component to an existing Power Pages site by using this feature.
 
 ### Can I add out-of-the-box components like lists and forms?
 
-Adding out-of-the-box components like lists and forms isn't currently supported. However, you can build custom forms and lists using the React framework and Web APIs.
+Adding out-of-the-box components like lists and forms isn't currently supported. However, you can build custom forms and lists by using the React framework and Web APIs.
 
 ### How does source control work?
 
