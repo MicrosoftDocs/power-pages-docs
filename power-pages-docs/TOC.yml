@@ -304,7 +304,7 @@
       href: admin/admin-roles.md
     - name: Identity provisioning
       href: security/identity-provisioning.md
-    - name: Copilot hub (preview)
+    - name: Copilot hub
       href: admin/copilot-hub.md
     - name: Configure website actions
       items:
