@@ -3,9 +3,9 @@ title: Configure Microsoft Entra ID Authentication for Power Pages Agent
 description: 'Learn how to configure Microsoft Entra ID authentication in Copilot Studio and enable secure access through a Power Pages site'
 author: nageshbhat-msft
 ms.author: nabha
-contributors: null
+contributors: shwetamurkute
 ms.topic: how-to
-ms.date: 03/05/2026
+ms.date: 06/16/2026
 ms.reviewer: joshuapa
 ---
 
@@ -30,8 +30,8 @@ Before you begin, ensure that:
 
 ## Overview of configuration process
 
-This configuration uses two app registrations. One that is preconfigured during Power Pages site provisioning (site App), and another that you create during setup (agent App) and use to configure the agent.
-The configuration consists of the following steps:
+This configuration uses two app registrations. One app registration is preconfigured during Power Pages site provisioning (site app), and you create the other app registration during setup (agent app) to use for configuring the agent.
+The configuration process consists of the following steps:
 
 1. Create a new app registration for Copilot Studio authentication.
 1. Update the Power Pages site–associated app registration to pass the SSO token.
@@ -53,16 +53,16 @@ The configuration consists of the following steps:
 
 Add the following delegated permissions:
 1. Under **Manage**, select **API Permissions**.
-2. Select **Add permission** and then select **Microsoft Graph**.
-3. Select **Delegated permissions**.
-4. Expand **OpenId permissions** and turn on **openid** and **profile**.
-5. Select **Add permissions**.
-6. Select **Add permission** and select **APIs my organization uses**.
-7. Search **Power Platform API** and select it.
-8. Select **Delegated permissions**.
-9. Expand **CopilotStudio** and select **CopilotStudio.Copilots.Invoke**.
-10. Select **Add permissions**.
-11. Select **Grant admin consent**.
+1. Select **Add permission** and then select **Microsoft Graph**.
+1. Select **Delegated permissions**.
+1. Expand **OpenId permissions** and turn on **openid** and **profile**.
+1. Select **Add permissions**.
+1. Select **Add permission** and select **APIs my organization uses**.
+1. Search **Power Platform API** and select it.
+1. Select **Delegated permissions**.
+1. Expand **CopilotStudio** and select **CopilotStudio.Copilots.Invoke**.
+1. Select **Add permissions**.
+1. Select **Grant admin consent**.
    :::image type="content" source="media/create-entra-id-for-agent/azure-grant-consent.png" alt-text="Screenshot showing grant admin consent option in Azure portal":::
 
 ## Step 2: Configure Microsoft Entra ID for agent
@@ -75,18 +75,23 @@ The app registration you use to configure the agent should allow token exchange 
 
 Add the Power Pages site URL as the redirect URL to the app you configured for the agent.
 1. Under **Manage**, select **Authentication**.
-2. Under **Redirect URI Configuration**, select **Add Redirect URI** , and then select **Single-page Application**.
-3. Enter the Power Pages site URL (for example, `https://contoso.powerappsportals.com`).
+1. Under **Redirect URI Configuration**, select **Add Redirect URI** , and then select **Single-page Application**.
+1. Enter the Power Pages site URL (for example, `https://contoso.powerappsportals.com`).
 
 ### Add API permissions
 
 1. Under **Manage**, select **API Permissions**.
-2. Select **Add permission** and select **APIs my organization uses**.
-3. Search for **Power Platform API** and select it.
-4. Select **Delegated permissions**.
-5. Expand **CopilotStudio** and select **CopilotStudio.Copilots.Invoke**.
-6. Select **Add permissions**.
-7. Select **Grant admin consent**.
+1. Select **Add permission** and select **APIs my organization uses**.
+1. Search for **Power Platform API** and select it.
+1. Select **Delegated permissions**.
+1. Expand **CopilotStudio** and select **CopilotStudio.Copilots.Invoke**.
+1. Select **Add permissions**.
+1. Select **Add a permission** and select **APIs my organization uses**.
+1. Search for Power Pages site Application (client) ID and select it.
+1. Select **Delegated permissions**.
+1. Expand **Permissions** and select scope name defined in Agent App (for example, `user_impersonation`).
+1. Select **Add permission**.
+1. Select **Grant admin consent**.
 
 ### Enable single sign-on
 
@@ -97,7 +102,7 @@ Add the Power Pages site URL as the redirect URL to the app you configured for t
 1. Select **Add permission**.
 1. Copy the scope.
 
-## Step 3: Update custom scopes of Power Pages site App registration
+## Step 3: Update custom scopes of Power Pages site app registration
 
 This step is optional and required to call Power Pages API from the agent. If you created an agent from a Power Pages site, you must:
 
@@ -105,7 +110,7 @@ This step is optional and required to call Power Pages API from the agent. If yo
 1. Under **Manage**, select **API permissions**.
 1. Select **Add a permission** and select **APIs my organization uses**.
 1. Search for Agent App Application (client) ID and select it.
-4. Select **Delegated permissions**.
+1. Select **Delegated permissions**.
 1. Expand **Test** and select scope name defined in Agent App (for example, `Test.Read`).
 1. Select **Add permission**.
 1. Select **Grant admin consent**.
@@ -119,14 +124,14 @@ This step is optional and required to call Power Pages API from the agent. If yo
 ## Step 4: Update scopes in Agent security configuration
 You copied two scopes, one from each app registration. These scopes enable single sign-on (SSO) for the Power Pages site and grant the agent permission to access the Power Pages Web API.
 1. Open **Agent** added to site.
-2. Under **Settings**, select **Security** > **Authentication**.
-3. Paste the Agent App scope under **Token exchange URL (required for SSO)**.
+1. Under **Settings**, select **Security** > **Authentication**.
+1. Paste the Agent App scope under **Token exchange URL (required for SSO)**.
    :::image type="content" source="media/create-entra-id-for-agent/copilot-studio-token-exchange-url.png" alt-text="Screenshot showing token exchange url option in Copilot studio":::
-5. Paste the Site App scope next to the existing scope.
+1. Paste the Site App scope next to the existing scope.
    :::image type="content" source="media/create-entra-id-for-agent/copilot-studio-scopes.png" alt-text="Screenshot showing Scopes option in Copilot studio":::
-7. Select **Save**.
-8. Close the **Settings** page.
-9. **Publish** agent.
+1. Select **Save**.
+1. Close the **Settings** page.
+1. **Publish** agent.
    
    
 ## Step 5: Configure Power Pages site settings
@@ -144,9 +149,9 @@ In Power Pages, add or update the following site settings:
 ## Step 6: Add the Copilot authentication client ID to the bot consumer
 
 1. Open the Power Pages site in edit mode.
-1. Determine [site datamodel](/admin/enhanced-data-model#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model)
-1. Go to the [Data workspace](use-data-workspace.md)
-1. Update Agent App ClientId to corresponding agent record
+1. Determine [site datamodel](/admin/enhanced-data-model#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model).
+1. Go to the [Data workspace](use-data-workspace.md).
+1. Update Agent App ClientId to corresponding agent record.
 
 # [Standard data model](#tab/standard)
 
