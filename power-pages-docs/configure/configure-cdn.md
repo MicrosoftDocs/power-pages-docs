@@ -4,7 +4,7 @@ description: Learn how to configure a site with Content Delivery Network.
 author: nageshbhat-msft
 
 ms.topic: how-to
-ms.date: 01/05/2026
+ms.date: 06/18/2026
 ms.subservice: 
 ms.author: nabha
 ms.reviewer: dmartens
@@ -23,9 +23,14 @@ A *content delivery network* is a distributed network of servers that can effici
 When you enable Content Delivery Network on your portal, static content&mdash;like images, scripts, and style sheet files used to design your portal website&mdash;are stored and served from the Content Delivery Network server closest to your location.  
 
 > [!NOTE]
-> - You need to be a [website administrator](/power-apps/maker/portals/admin/portal-admin-roles#required-roles-and-permissions) to enable Content Delivery Network. This feature is available for Power Pages. If you're using the legacy Add-on license, you can't enable Content Delivery Network. Trial websites aren't supported by Content Delivery Network. 
+> - You need to be a [website administrator](/power-apps/maker/portals/admin/portal-admin-roles#required-roles-and-permissions) to enable Content Delivery Network. This feature is available for Power Pages. Trial websites aren't supported by Content Delivery Network. 
 > - [Restricting website access by IP address](../admin/ip-address-restrict.md) on a site is currently not supported using Content Delivery Network.
 > - This service isn't available in Singapore Local, China and the UAE region.
+
+## Content Delivery Network (CDN) and Web Application Firewall (WAF)
+
+[!INCLUDE [waf-cdn-relationship](../includes/waf-cdn-relationship.md)]
+
 
 ## Enable Content Delivery Network for a production website
 
@@ -45,6 +50,7 @@ Content Delivery Network is available for production Power Pages. Follow these s
 
 > [!NOTE]
 > When you add a custom domain name for a Content Delivery Network-enabled site, Power Pages uses Azure Front Door–managed TLS certificates to enforce HTTPS for custom domains. These certificates are created with a lifetime validity of 6 months and are auto-renewed 45 days before the expiration date.
+
 
 ## Enable Content Delivery Network while converting trial to production
 
@@ -190,3 +196,8 @@ Content Delivery Network is powered by [Azure Front Door](/azure/frontdoor/stand
 
 > [!NOTE]
 > For more information about other Azure service offerings, go to the  [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
+
+## Related information
+
+- [Web Application Firewall for Power Pages](../security/web-application-firewall.md)
+- [Add a custom domain](../admin/add-custom-domain.md)
