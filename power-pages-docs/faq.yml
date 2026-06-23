@@ -1,14 +1,14 @@
 ### YamlMime:FAQ
 metadata:
-  title: Frequently asked questions | Microsoft Docs
+  title: Frequently asked questions
   description: Frequently asked questions in Power Pages.
-  author: DanaMartens  
+  author: shwetamurkute  
   ms.topic: faq
   ms.custom: 
   ms.subservice: 
-  ms.date: 07/11/2025
+  ms.date: 06/23/2026
   ms.author: bipuldeora
-  ms.reviewer: dmartens
+  ms.reviewer: smurkute
   contributors:
     - neerajnandwana-msft
     - GitanjaliSingh33msft
@@ -64,6 +64,15 @@ sections:
           You can configure a website to redirect a user to a default page after signing in. For detailed steps, go to [Redirect a user to a default page on sign-in](/power-apps/maker/portals/liquid/redirect-a-user-homepage).
           
           For more information on working with Liquid templates, see [Work with Liquid templates](/power-apps/maker/portals/liquid/liquid-overview).
+
+      - question: |
+          How do I find the environment for my Power Pages site?
+        answer: |
+          You can find the environment associated with your Power Pages site in two ways:
+          
+          - **In Power Pages**: Go to [Power Pages](https://make.powerpages.microsoft.com). The environment picker in the top-right corner shows the current environment. Switch environments to see sites associated with each one. The URL also includes the environment ID in the format `make.powerpages.microsoft.com/e/{EnvironmentId}/sites/...`.
+          
+          - **In Power Platform admin center**: Go to [Power Platform admin center](https://admin.powerplatform.microsoft.com). Select **Manage** > **Power Pages** in the left navigation. Under **Your sites** tab, you can view all sites along with the environment.
           
   - name: Licensing and provisioning
     questions:
@@ -189,4 +198,20 @@ sections:
       - question: |
           How do I use a custom domain name for my website?
         answer: |
-          You can enable your website to use a custom domain name in place of the standard `powerappsportals.com` domain name. More information: [Link your portal to a custom domain](/power-apps/maker/portals/admin/add-custom-domain)
+          You can enable your website to use a custom domain name in place of the standard `powerappsportals.com` domain name. Learn more in [Link your portal to a custom domain](/power-apps/maker/portals/admin/add-custom-domain).
+
+      - question: |
+          How do I find the system administrator for my Power Pages site?
+        answer: |
+          To find the system administrator for your Power Pages site:
+          
+          1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+          2. In the navigation pane, select **Manage**.
+          3. In the **Manage** pane, select **Environments**. 
+          4. Select the environment associated with your Power Pages site. If you don't know which environment is associated with your site, see [How do I find the environment for my Power Pages site?](#how-do-i-find-the-environment-for-my-power-pages-site-)
+          5. Select **Settings** on the command bar. The **Settings** page for that environment appears.
+          6. Select **Users + permissions** > **Security roles**.
+          7. Search for **System Administrator** security role and select the three dots (...) to view **Members**.
+          
+          Users with the System Administrator security role have full access to set up and manage the Power Pages site within that environment. If you don't have access to the admin center, contact your Microsoft 365 global admin or the person who provisioned the environment.
+          
