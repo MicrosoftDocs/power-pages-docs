@@ -3,108 +3,74 @@ title: Security agent (preview)
 description: Security agent in Power Pages helps secure websites with automated vulnerability scans, real-time traffic monitoring, and guided mitigation workflows.
 author: shwetamurkute
 ms.author: bipuldeora
-contributors:
-ms.topic: concept-article
-ms.date: 01/22/2026
 ms.reviewer: smurkute
+ms.date: 07/01/2026
+ms.topic: concept-article
 ---
 
-# Security agent (preview)
+# Security agent overview (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Security agent in Power Pages is an AI-powered feature built into the Power Pages design studio. The security agent helps makers proactively secure their websites by identifying common vulnerabilities, monitoring site traffic for anomalies, and providing guided remediation workflows. 
+Security agent is an AI-powered assistant built into the Power Pages Security workspace that helps makers review, configure, and strengthen the security of their Power Pages sites using natural language. The agent analyzes your site's authentication, authorization, security settings, and scan results to provide site-specific recommendations and guided remediation.
 
-Security agent includes a context-aware, multistep chat experience that lets makers interact by using natural language. Through the chat interface, makers can review security findings, ask questions, and take guided actions based on the site's configuration and security posture. 
-
-The chat experience is available directly within the security workspace and remains accessible as makers design, configure, and maintain their sites. 
+All configuration changes require explicit user approval before execution, giving makers control over what is applied to their site while benefiting from AI-driven guidance grounded in their specific environment.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
-## Capabilities
+## Security scenarios
 
-As part of the public preview, the security agent offers these primary capabilities to help makers secure their Power Pages sites:
+Security agent supports four primary security scenarios that cover the core areas of Power Pages site protection.
 
-- **Context-aware security chat**  
-  The security agent includes a multistep, conversational chat panel built directly into the security workspace. Through chat, makers can:
-  - Ask natural language questions about their site's security posture.
-  - Understand why a security issue matters in plain language.
-  - Review scan findings and configuration risks.
-  - Request security guidance and actions for application-level protections such as security headers, Content Security Policy, cookie configurations, and site-level protection settings.
+### Site security posture review
 
-  The chat experience is grounded in the site's configuration, scan results, and security metadata, ensuring responses are specific to the maker's site and not generic guidance.
+The agent assesses your site's overall security by reviewing authentication settings, table permissions, web roles, page permissions, site visibility, security headers, and recent scan results. It identifies issues such as overly broad access, anonymous data exposure, authentication misconfigurations, and missing security protections. Findings are prioritized and explained in plain language, along with recommended remediation steps.
 
-- **Automated security scan**  
-  Every two weeks, the agent runs a scheduled scan by using the OWASP ZAP engine to detect common vulnerabilities across 37 predefined security rules. These rules include misconfigured headers, XSS risks, and exposed server information. When the agent finds problems, it generates alerts and presents guided mitigation workflows to help makers resolve them.
+### Authorization configuration
 
-- **Site traffic monitoring**  
-  The agent monitors live traffic by using Microsoft Sentinel signals and historical traffic data. When it detects suspicious spikes or clustered activity, it generates alerts and presents mitigation workflows.
+The agent configures how users access your site's pages and data. It can create and update table permissions, web roles, and page permissions, explain existing authorization settings, and recommend least-privilege access based on your site's configuration.
 
-## How does it work?
+### Authentication configuration and troubleshooting
 
-The security agent is designed to work behind the scenes while keeping makers fully in control. Here’s how the end-to-end flow works:
+The agent helps configure identity providers such as Microsoft Entra ID, OpenID Connect, and SAML 2.0. It validates authentication settings against your site configuration, diagnoses common sign-in issues, and recommends configuration updates to resolve them.
 
-### 1. Configure the security agent
+### Application security settings
 
-From the [Power Pages design studio](https://make.powerpages.microsoft.com), go to the security workspace and choose the **Security Agent** tab:
+The agent can configure application-level security settings including Content Security Policy (CSP), HTTP security headers, CORS, cookie settings, and other site-level security configurations. It also provides guidance for WAF-related configurations where applicable.
 
-- Choose which capabilities to enable, such as automated scanning or traffic monitoring.
-  :::image type="content" source="media/security-agent/security-agent-option.png" alt-text="Screenshot of the security agent configuration tab in Power Pages design studio.":::
+## How the agent works
 
-- Select how to receive alerts, using in-product notifications, email, or Microsoft Teams.
-  :::image type="content" source="media/security-agent/monitor-site-traffic.png" alt-text="Screenshot of security agent configuration options in Power Pages showing details of site traffic.":::
+Security agent is available in the **Security** workspace of Power Pages Design Studio. After launching the agent chat, makers describe what they want to accomplish using natural language. Example prompts include:
 
-This setup ensures the agent runs only what's needed and notifies makers through their preferred channel.
+- Review my site's security.
+- Configure Microsoft Entra ID authentication.
+- Create permissions for the Sales role.
+- Why can't users sign in?
+- Configure a Content Security Policy.
 
-### 2. Detect vulnerabilities or anomalies
+The agent analyzes your site's configuration, explains its findings, and proposes configuration changes where appropriate. Before applying any change, it requests your approval and, once complete, confirms exactly what was updated.
 
-Once enabled, the security agent runs the following actions:
+:::image type="content" source="media/security-agent/security-agent.png" alt-text="Screenshot of the security agent configuration tab in Power Pages design studio.":::
 
-- **Automated scans** run every two weeks by using the ZAP engine and check against 37 OWASP-based rules.
+:::image type="content" source="media/security-agent/monitor-traffic.png" alt-text="Screenshot of security agent configuration options in Power Pages showing details of site traffic.":::
 
-- **Traffic monitoring** runs continuously by using Microsoft Sentinel signals and historical traffic patterns.
+## Recommended usage practices
 
-When the agent finds problems, it automatically triggers alerts.
+Security agent is best used in development or test environments before promoting changes to production. Every proposed configuration should be reviewed before approving write actions. The conversational experience supports not only making changes but also understanding security concepts.
 
-### 3. View and respond to alerts
+Because recommendations are grounded in your site's configuration, the guidance is specific to your environment rather than generic best practices.
 
-You can view all alerts in the **Overview** screen. For each alert:
+## Related security capabilities
 
-- A **guided fix flow** is provided.
+In addition to the Security agent, the Security workspace includes automated security capabilities that help continuously monitor your site.
 
-- Makers are shown **one or more recommended actions** based on the issue type.
+**Security scan (preview)** lets you schedule recurring vulnerability scans that evaluate your site against OWASP-based security rules.
 
-  :::image type="content" source="media/security-agent/alerts-overview-screen.png" alt-text="Screenshot of Security agent alert overview and guided fix flow in Power Pages.":::
+**Site traffic monitoring (preview)** continuously analyzes traffic patterns to detect suspicious activity and potential attacks.
 
-### 4. Apply fixes directly in the studio
+Findings from both capabilities appear as alerts in the **Overview** page of the Security workspace. From there, you can review the alert details, take recommended actions directly, or open the Security agent to understand the issue and receive guided remediation.
 
-Based on the findings, you can perform the following actions:
+### See also
 
-- Review plain-language explanations for each recommendation.
-
-- Accept or edit suggested values.
-
-- Take actions directly, through one-click settings, embedded VS Code, or external documentation links.
-
-Each fix you apply updates the alert status and helps keep the site secure.
-
-### 5. Use chat to understand and fix problems
-
-For any alert or security-related question, makers can open the security agent chat panel.
-
-:::image type="content" source="media/security-agent/security-agent-chat.png" alt-text="Screenshot of the security agent chat in Power Pages design studio.":::
-
-Through chat, the agent:
-
-- Explains what the problem is and why it matters.
-
-- Describes recommended actions in simple, nontechnical terms.
-
-- Shows what configuration changes and its expected impact.
-
-Before taking any action, the agent always requests explicit user approval. After an action is completed, the agent confirms the update and provides clear visibility into what was changed.
-
-### Related content
-
-- [Run security scan (preview)](security-scan.md)
-- [Advanced security settings (preview)](/power-pages/getting-started/use-security-workspace)
+[Run security scan](security-scan.md)
+[Advanced settings (preview)](advanced-settings.md)
