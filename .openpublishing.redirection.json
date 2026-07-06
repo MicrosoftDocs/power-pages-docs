@@ -154,6 +154,11 @@
       "source_path": "power-pages-docs/configure/server-logic-event-register.md",
       "redirect_url": "/power-pages/configure/server-logic-graph-sharepoint",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "power-pages-docs/admin/update-dynamics365-instance.md",
+      "redirect_url": "/power-pages/",
+      "redirect_document_id": false
     }
   ]
 }
