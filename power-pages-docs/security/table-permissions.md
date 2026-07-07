@@ -1,14 +1,14 @@
 ---
 title: Set table permissions in Power Pages
 description: Learn how to set and manage table permissions.
-author: shwetamurkute
+ms.date: 02/28/2026
+author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 02/28/2026
-ms.author: smurkute
+ms.author: nabha
 ms.reviewer: smurkute
 contributors:
-    - gitanjalisingh33msft
+    - nageshbhat-msft
 ---
 
 # Configuring table permissions
@@ -59,9 +59,35 @@ The design studio shows four different **Access types**. Depending on the access
 - **Contact access** - Applies the selected table permission and privileges to the users from the selected role *associated to the signed-in user*.
 - **Account access** - Applies the selected table permission and privileges to the users from the selected role *associated to the signed-in user's account*.
 - **Self access** - Applies the selected table permission and privileges to the users from the selected role *for only their own Contact record*.
+- **Custom Access** – Applies the selected table permission and privileges to the users from the selected role associated to filters configured in fetchXml.
 
 > [!NOTE]
-> The Parent access type is only available in the Portal Management app. Instead of creating a table permission with the access type of **Parent** when using the design studio, directly add child permission to existing table permissions.
+> - The Parent access type is only available in the Portal Management app. Instead of creating a table permission with the access type of **Parent** when using the design studio, directly add child permission to existing table permissions.
+> - Custom Access is available only for the sites enabled for enhanced authorization.
+
+### Custom access type (Preview)
+
+ Custom access type provides more granular, record-level security control by allowing makers to define access based on conditions specified using FetchXML filters. With custom access, the selected table permissions and privileges are applied only to records that satisfy the configured filter criteria and are associated with the assigned web roles.
+
+For example, the following filter grants access to all active, high-priority cases where the case type is Problem: 
+
+```XML
+<fetch>
+  <entity name="incident">    
+    <attribute name="title" />
+    <filter type="and">
+      <condition attribute="statecode" operator="eq" value="0" />
+      <condition attribute="prioritycode" operator="eq" value="1" />
+      <condition attribute="casetypecode" operator="eq" value="2" />
+    </filter>
+  </entity>
+</fetch>
+   ```
+
+> [!NOTE]
+> Only the `filter` element of the FetchXML is evaluated, while other elements, such as `attribute`, are ignored.
+
+This approach enables precise control over which records are accessible to users, beyond traditional relationship based access models.
 
 ## Configure table permissions
 

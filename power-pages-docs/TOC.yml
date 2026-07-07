@@ -719,12 +719,12 @@
   items:
     - name: Overview
       href: security/power-pages-security.md
+    - name: Site visibility
+      href: security/site-visibility.md
     - name: Disable anonymous access (preview)
       href: security/disable-anonymous-access.md
     - name: Control external authentication providers
       href: security/external-auth-control.md
-    - name: Site visibility
-      href: security/site-visibility.md
     - name: Control public access for non-production Power Pages sites
       href: admin/site-visibility-governance.md
     - name: Disable external service calls from server logic
@@ -801,6 +801,10 @@
       items:
         - name: Create and assign web roles
           href: security/create-web-roles.md
+        - name: Enable enhanced authorization (preview)
+          href: security/unify-pages-security-with-dataverse.md
+        - name: Column security profile (preview)
+          href: security/column-security-profile.md
         - name: Set page permissions
           href: security/page-security.md
         - name: Set table permissions
