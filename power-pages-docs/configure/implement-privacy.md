@@ -4,12 +4,13 @@ description: Learn how to implement privacy protections in Power Pages. Identify
 author: DanaMartens
 ms.topic: concept-article
 ms.custom: 
-ms.date: 5/11/2023
+ms.date: 5/20/2026
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: dmartens
 contributors:
     - sandhangitmsft
+    - nageshbhatmsft
 ---
 
 # Implement privacy protections
@@ -20,7 +21,9 @@ The settings described in the documentation are general capabilities to support 
 
 ## Audit logging
 
-The **Last Successful Sign-in** field in the contact record shows when a user has last signed in. The date is picked up by an audit of the contact record and makes that information available in the standard audit stream, allowing the administrator to see inactive community members and delete their records.
+When Enhanced Authorization is enabled for a site, any activity performed on Dataverse tables from the Power Pages site is audited on behalf of the site user, provided auditing is enabled for those tables.
+
+For more details refer [configure auditing for an environment](/power-platform/admin/manage-dataverse-auditing?tabs=new#configure-auditing-for-an-environment) documentation
 
 > [!NOTE]
 > The login tracking feature has been deprecated. It's recommended to use an analytics technology like Azure Application Insights to capture this kind of information. To see the list of deprecated features, click [here](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/).
