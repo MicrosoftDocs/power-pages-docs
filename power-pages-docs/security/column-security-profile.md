@@ -4,7 +4,7 @@ description: Column security profile in Power Pages controls access to sensitive
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 07/06/2026
+ms.date: 07/09/2026
 ms.topic: concept-article
 ---
 
@@ -16,8 +16,13 @@ After you configure the web role to set up the tables and record level permissio
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
+## Prerequisites
+
+Before you can use column security profiles, your site must be enabled for the enhanced authorization model. For more information, see [Enable enhanced authorization](unify-pages-security-with-dataverse.md#enable-enhanced-authorization).
+
+
 > [!IMPORTANT]
-> - Use the column security profile to control access to columns. This feature is available only for sites enabled for the enhanced authorization model.
+> - Column security profiles are supported only on sites that use the enhanced authorization model.
 > - When you enable enhanced authorization for a site, manage the profile at [Power Platform Admin Center](/power-platform/admin/field-level-security).
 > - Column security applies to all components and APIs used in Power Pages, including but not limited to Web API, forms, and list components.
 

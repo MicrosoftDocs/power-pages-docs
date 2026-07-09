@@ -4,7 +4,7 @@ description: Learn how to enable enhanced authorization in Power Pages to align 
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 07/06/2026
+ms.date: 07/09/2026
 ms.topic: concept-article
 ---
 
@@ -61,14 +61,13 @@ This process is handled automatically and doesn't require additional configurati
 
 ## Enable enhanced authorization 
 
-### Prerequisites
+### Before you begin
 
-To enable enhanced authorization, ensure that your environment is running the latest supported versions of the required platform solutions:
+To enable enhanced authorization, your environment must run supported versions of the Power Pages platform solutions:
 - Power Pages Core: version 1.1.2605.258 or later
 - Dataverse Base Portal: version 9.3.2605.265 or later
 
-To verify the installed versions and upgrade the solutions if needed, see [Update the Power Pages solution](../admin/update-solution.md).
-
+If your environment runs an earlier version, update the Power Pages solutions before proceeding. For instructions, see [Update the Power Pages solution](../admin/update-solution.md).
 
 Follow these steps to enable the enhanced authorization model: 
 

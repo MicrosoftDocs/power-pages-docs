@@ -1,11 +1,11 @@
 ---
 title: Set column permissions
 description: Learn how to use permissions to restrict access to specific table columns when you use the Microsoft Power Pages portals Web API.
-ms.date: 07/20/2023
+ms.date: 07/09/2026
 ms.topic: how-to
 author: neerajnandwana-msft
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - neerajnandwana-msft
 ms.custom: bap-template
@@ -20,7 +20,7 @@ In Power Pages, [table permissions](table-permissions.md) apply security to indi
 Table permissions are evaluated before column permissions. If a user has access to a table, then the table's column permissions are applied. If the user doesn't have access to the table, any column permissions the user has are ignored. When no column permissions are defined, the table permissions apply to all columns.
 
 > [!Important]
-> The column permissions feature requires portal host version 9.4.1.*x* or later and starter portal package version 9.3.2201.*x* or later.
+> Column permissions aren't applied on sites that use the [enhanced authorization model](unify-pages-security-with-dataverse.md). If enhanced authorization is enabled, use [Column security profiles](column-security-profile.md) to control access to individual Dataverse columns. Column security profiles are the supported mechanism for column-level access control in the enhanced authorization model.
 
 Use the [Portal Management app](../configure/portal-management-app.md) to manage column permissions.
 
