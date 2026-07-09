@@ -4,20 +4,16 @@ description: Learn how to add and configure the search component, including AI-p
 author: nageshbhat-msft  
 contributors:  
 ms.topic: how-to  
-ms.date: 05/15/2025
+ms.date: 07/09/2026
 ms.author: nabha  
-ms.reviewer: dmartens  
+ms.reviewer: smurkute  
 ---
 
-# Add a search component (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Add a search component
 
 The search component lets users input queries and find information on a website. It's especially useful for content-heavy sites where users need to quickly locate relevant information.
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE [preview-tags](../includes/cc-preview-features-definition.md)]
 > - The AI-powered search component is available only on websites that have [Generative AI Search](/power-pages/configure/search/generative-ai#enable-site-search-with-generative-ai) enabled.
 
 ## How to add a search component
