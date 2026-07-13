@@ -4,23 +4,24 @@ description: Add AI-generated code using Copilot.
 author: neerajnandwana-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 06/27/2025
+ms.date: 07/13/2026
 ms.update-cycle: 180-days
 ms.subservice:
 ms.author: nenandw 
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - neerajnandwana-msft
     - DanaMartens
+    - shwetamurkute
 ---
 
 # Add AI-generated code using Copilot (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Add AI-generated code using Copilot in Visual Studio Code to help you create code using natural language chat interaction. You can also delve deeper into existing code and learn what it means by using the [Explain](#use-explain-to-understand-code) feature. In Power Pages, you make site customizations with HTML, JS, or CSS code that aren't currently supported in the Power Pages low-code design studio. This Copilot chat experience assists Power Pages developers like you to write code by describing your expected code behavior using natural language. You can then refine the generated code and use it when customizing your site.
+Add AI-generated code by using Copilot in Visual Studio Code to help you create code through natural language chat interaction. You can also delve deeper into existing code and learn what it means by using the [Explain](#use-explain-to-understand-code) feature. In Power Pages, you make site customizations by using HTML, JS, or CSS code that the Power Pages low-code design studio doesn't currently support. This Copilot chat experience assists Power Pages developers like you to write code by describing your expected code behavior through natural language. You can then refine the generated code and use it when customizing your site.
 
 :::image type="content" source="media/add-ai-generated-code/power-pages-code-copilot.png" alt-text="Visual Studio Code with Copilot in Power Pages.":::
 
@@ -31,7 +32,7 @@ Add AI-generated code using Copilot in Visual Studio Code to help you create cod
 
 ## Prerequisites
 
-To understand usage and limitations of Copilot, review the [terms](https://go.microsoft.com/fwlink/?linkid=2189520) and [Responsible AI FAQ](../responsible-ai-overview.md) documents. Check the following requirements to start using Copilot in Power Pages.
+To understand the usage and limitations of Copilot, review the [terms](https://go.microsoft.com/fwlink/?linkid=2189520) and [Responsible AI FAQ](../responsible-ai-overview.md) documents. Check the following requirements to start using Copilot in Power Pages.
 
 ### Visual Studio Code
 
@@ -40,22 +41,22 @@ To understand usage and limitations of Copilot, review the [terms](https://go.mi
 
   :::image type="content" source="media/add-ai-generated-code/explorer.png" alt-text="Visual Studio Code explorer.":::
 
-- Sign in to Power Pages Copilot with your Dataverse Environment credentials.
+- Sign in to Power Pages Copilot by using your Dataverse Environment credentials.
 
 ### Visual Studio Code for the Web
 
-You can also use Copilot in Power Pages while editing code using [Visual Studio Code for the Web](visual-studio-code-editor.md).
+You can also use Copilot in Power Pages while editing code by using [Visual Studio Code for the Web](visual-studio-code-editor.md).
 
 :::image type="content" source="media/add-ai-generated-code/vs-code-for-web-copilot.png" alt-text="A screenshot of Visual Studio Code for the Web.":::
 
 ## Use Copilot to generate code
 
 > [!IMPORTANT]
-> Copilot in Visual Studio Code is tuned to generate code for Power Pages sites, so its **functionalities are limited to Power Pages site-supported languages like HTML, JavaScript, and CSS**. The generated code from Copilot makes use of supported frameworks like bootstrap and jQuery. 
+> Copilot in Visual Studio Code is tuned to generate code for Power Pages sites, so its **functionalities are limited to Power Pages site-supported languages like HTML, JavaScript, and CSS**. The generated code from Copilot makes use of supported frameworks like Bootstrap and jQuery. 
 
-1. In the Copilot chat, describe the code behavior you want using natural language. For example, code for form validation or Ajax calls using the Power Pages Web API. 
+1. In the Copilot chat, describe the code behavior you want by using natural language. For example, code for form validation or Ajax calls by using the Power Pages Web API. 
 1. Continue to rephrase your questions in the Copilot chat iteratively until you get what you need.  
-1. Once you're happy with the generated code, you can easily copy and paste the code snippet or insert the code to the Power Pages site and modify the code further.
+1. When you're happy with the generated code, you can easily copy and paste the code snippet or insert the code to the Power Pages site and modify the code further.
 1. Use the **up/down** arrow key to navigate between recently entered prompts.  
 
 Examples:
@@ -63,7 +64,7 @@ Examples:
 - `Write code in JavaScript to make sure that submitted value for phone number field is in valid format`
 
 > [!NOTE]
-> - Copilot-generated code might not have the correct names for tables or columns, so it’s recommended to verify these details before using the code. 
+> - Copilot-generated code might not have the correct names for tables or columns, so verify these details before using the code. 
 > - To generate more **accurate** code, make sure you open the file where you want to use the code. For example, open a **web template** where you want to add Web API code or open a custom JavaScript file for forms where you want to add field validation.
 
 :::image type="content" source="media/add-ai-generated-code/ai-generated-code.png" alt-text="Add AI-generated code.":::
@@ -84,7 +85,7 @@ In some instances, a prompt is classified incorrectly as malicious code.
 
 ## Help us improve this feature
 
-In every response of the Copilot chat, select the feedback options, a thumb up (👍) if you like the response or thumb down (👎) if you didn’t like it. Your feedback greatly helps improve the capabilities of this feature.
+In every response of the Copilot chat, select the feedback options, a thumb up (👍) if you like the response or thumb down (👎) if you didn't like it. Your feedback greatly helps improve the capabilities of this feature.
 
 :::image type="content" source="media/add-ai-generated-code/evaluate-ai.png" alt-text="Text used by screen readers.":::
 

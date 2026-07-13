@@ -4,7 +4,7 @@ description: Learn how to configure Microsoft Entra ID or Microsoft Entra Extern
 author: shwetamurkute
 ms.author: vipingulati
 ms.reviewer: smurkute
-ms.date: 02/10/2026
+ms.date: 07/13/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 ---

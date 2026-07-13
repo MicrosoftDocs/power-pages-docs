@@ -1,19 +1,20 @@
 ---
 title: Copilot for site creation
 description: Learn how to create an AI-generated site using Copilot in Power Pages.
-author: sampatn
+author: shwetamurkute
 ms.topic: how-to
 ms.custom: 
-ms.date: 02/28/2026
+ms.date: 07/13/2026
 ms.update-cycle: 180-days
 ms.subservice:
 ms.author: sampatn
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - tapanm-msft
     - DanaMartens
+    - shwetamurkute
 ---
 
 # Create an AI-generated site using Copilot

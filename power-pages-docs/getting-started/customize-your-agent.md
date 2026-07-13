@@ -2,16 +2,17 @@
 title: Customize your agent
 description: Learn how to customize an agent experience in Microsoft Power Pages in this step-by-step guide.
 ms.topic: how-to
-ms.date: 07/30/2025
+ms.date: 07/13/2026
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
   - bap-ai-copilot
 contributors:
   - nageshbhat-msft
   - DanaMartens
+  - shwetamurkute
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -63,7 +64,7 @@ You can customize the agent's style by overriding the default Cascading Style Sh
 
 ### Agent widget
 
-If you have an existing agent created prior to July 2025, you may have a different agent experience than the latest.
+If you created your agent before July 2025, your agent experience might differ from the latest version.
 
 # [Modern](#tab/modern)
 
@@ -265,7 +266,7 @@ Text color:
 }
 ```
 
-### 2- Height and width settings
+### 2 - Height and width settings
 
 ```css
 .pva-embedded-web-chat[data-minimized='false'] {

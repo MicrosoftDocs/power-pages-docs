@@ -2,15 +2,16 @@
 title: Add an AI-generated form using Copilot
 description: Learn how to create an AI-generated form using Copilot and add it to a page in your Power Pages site.
 ms.topic: how-to
-ms.date: 06/27/2025
+ms.date: 07/13/2026
 ms.update-cycle: 180-days
-author: pranita225
-ms.author: prpadalw
-ms.reviewer: dmartens
+author: shwetamurkute
+ms.author: smurkute
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - DanaMartens
+    - shwetamurkute
 ms.custom:
   - bap-template
   - sfi-image-nochange
@@ -41,7 +42,7 @@ An easy way to add a form to your Power Pages website is to ask Copilot to creat
 
     :::image type="content" source="media/add-form-copilot/generated-form.svg" alt-text="Screenshot of an AI-generated form in Power Pages, with the description, quick actions, and history highlighted.":::
 
-    Legend:
+    **Legend:**
 
     1. Refine description
     1. Quick actions
@@ -58,7 +59,7 @@ After the form is added to the page, you can edit it the same way you [edit any 
 
 ## Start with a prebuilt form
 
-You can start with a prebuilt form rather than enter your own description. Prebuilt forms that are appropriate for your website are listed on the form creation page.
+You can start with a prebuilt form rather than enter your own description. The form creation page lists prebuilt forms that are appropriate for your website.
 
 :::image type="content" source="media/add-form-copilot/prebuilt-forms.svg" alt-text="Screenshot of the form generation page, with prebuilt forms highlighted.":::
 
@@ -72,11 +73,11 @@ Here's a preview of the prebuilt product customer support form:
 
 ## Delete an AI-generated form
 
-If you remove an AI-generated form from the page it's on, it's still available for you to add to other pages. To delete an AI-generated form entirely, and the associated Dataverse table, you need to go into your site's advanced settings.
+If you remove an AI-generated form from the page, you remove it from that page only. You can still add the form to other pages. To delete an AI-generated form entirely, and the associated Dataverse table, you need to go into your site's advanced settings.
 
 1. In the Power Pages design studio, select **More items** (**&vellip;**) > **Portal Management**.
 1. In the sitemap under **Content**, select **Basic Forms**.
-1. Find the form in the list. Remember, its name starts with "Copilot."
+1. Find the form in the list. Its name starts with "Copilot."
 1. Select the space to the left of the form, and then select **Delete**.
 
 ### See also

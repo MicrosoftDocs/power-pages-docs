@@ -2,16 +2,17 @@
 title: Add an agent from the setup workspace
 description: Add an agent to Power Pages for instant, AI-powered help. Improve user experience and resolve questions faster with easy setup instructions.
 ms.topic: how-to
-ms.date: 03/05/2026
+ms.date: 07/13/2026
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection:
   - bap-ai-copilot
 contributors:
   - nageshbhat-msft
   - DanaMartens
+  - shwetamurkute
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
