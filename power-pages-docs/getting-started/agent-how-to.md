@@ -2,14 +2,15 @@
 title: Add an agent available in Microsoft Copilot Studio
 description: Learn how to add an agent available in Microsoft Copilot Studio.
 ms.topic: how-to
-ms.date: 08/04/2025
+ms.date: 07/13/2026
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
   - nageshbhat-msft
   - DanaMartens
+  - shwetamurkute
 ms.custom: bap-template
 ms.collection: 
     - bap-ai-copilot
@@ -19,13 +20,13 @@ ms.collection:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This article offers a comprehensive, step-by-step guide for updating default Power Pages agent with another agent available in Microsoft Copilot Studio.
+This article provides a comprehensive, step-by-step guide for updating the default Power Pages agent with another agent available in Microsoft Copilot Studio.
 
 ## Prerequisites
 
 - You need an agent created in [Microsoft Copilot Studio](/microsoft-copilot-studio/nlu-gpt-quickstart#create-a-boosted-bot).
 
-- [Agent](enable-agent.md#add-an-agent) needs to be created and published in the site where you're updating another agent available in Microsoft Copilot Studio.
+- You need to create and publish an [agent](enable-agent.md#add-an-agent) in the site where you want to update another agent available in Microsoft Copilot Studio.
 
 ## Copy the agent schema name
 
@@ -41,7 +42,7 @@ This article offers a comprehensive, step-by-step guide for updating default Pow
 
 ## Verify data model version
 
-Agent can be enabled for both standard and enhanced site data models. The steps to replace it vary based on the data model. Make sure you follow the correct steps for your data model.
+You can enable the agent for both standard and enhanced site data models. The steps to replace the agent vary based on the data model. Make sure you follow the correct steps for your data model.
 
 1. Go to [Set up workspace](../configure/setup-workspace.md).
 
@@ -58,7 +59,7 @@ To see the appropriate steps, select the tab that corresponds to your data model
 1. Go to the [Data workspace](use-data-workspace.md).
 1. Search for and select the **Bot consumer** table.
 1. Locate the row with the selected website name.
-1. Replace the value in the Schema Name column with the new schema name you copied earlier.
+1. Replace the value in the **Schema Name** column with the new schema name you copied earlier.
 
 # [Enhanced data model](#tab/enhanced)
 

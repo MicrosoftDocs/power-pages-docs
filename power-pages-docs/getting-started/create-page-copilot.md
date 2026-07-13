@@ -4,16 +4,17 @@ description: Learn how to create an AI-generated webpage using Copilot in Power 
 author: ckwan-ms
 ms.topic: how-to
 ms.custom: 
-ms.date: 06/27/2025
+ms.date: 07/13/2026
 ms.update-cycle: 180-days
 ms.subservice:
 ms.author: ckwan
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - clromano
     - DanaMartens
+    - shwetamurkute
 ---
 # Create an AI-generated webpage using Copilot
 
@@ -70,7 +71,7 @@ If you don't want to keep the page that Copilot generated, you can:
 
 ## Edit a page with Copilot
 
-Additionally, you can edit a page with Copilot by typing the following commands in the Copilot input field box:
+You can also edit a page by using Copilot. Type the following commands in the Copilot input field box:
 
 |Command  |Description  |
 |---------|---------|

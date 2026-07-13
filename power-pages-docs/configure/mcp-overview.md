@@ -5,7 +5,7 @@ description: Connect securely to Power Pages Model Context Protocol (MCP) Server
 author: shwetamurkute
 ms.author: vipingulati
 ms.reviewer: smurkute
-ms.date: 01/28/2026
+ms.date: 07/13/2026
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ---
@@ -24,11 +24,11 @@ As organizations increasingly use AI agents to interact with business data, the 
 
 With MCP Server for Power Pages, makers can:
 
-- **Leverage Power Pages resources**: Makes data, APIs, and business logic available through an MCP-compliant interface.
-- **Enable secure CRUD operations**: Allows AI agents to interact with Power Pages Web APIs to create, read, update, and delete Dataverse records.
-- **Maintain security controls**: Keeps full control through web roles, table permissions, and authentication boundaries.
-- **Extend to AI experiences**: Enables Power Pages sites to be consumed from Microsoft 365 Copilot.
-- **Support internal workflows**: Empowers internal teams to perform portal operations without navigating the portal UI.
+- **Leverage Power Pages resources**: Make data, APIs, and business logic available through an MCP-compliant interface.
+- **Enable secure CRUD operations**: Allow AI agents to interact with Power Pages Web APIs to create, read, update, and delete Dataverse records.
+- **Maintain security controls**: Keep full control through web roles, table permissions, and authentication boundaries.
+- **Extend to AI experiences**: Enable Power Pages sites to be consumed from Microsoft 365 Copilot.
+- **Support internal workflows**: Empower internal teams to perform portal operations without navigating the portal UI.
 
 ## Related articles
 

@@ -2,16 +2,17 @@
 title: Configure Omnichannel with Power Pages site agent
 description: Learn how to configure Omnichannel with Power Pages site agent for seamless live agent escalation.
 ms.topic: how-to
-ms.date: 01/22/2026
+ms.date: 07/13/2026
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection:
   - bap-ai-copilot
 contributors:
   - nageshbhat-msft
   - DanaMartens
+  - shwetamurkute
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

@@ -3,7 +3,7 @@ title: Add AI features in a list (preview)
 description: Learn more about how the AI features in a list works to simplify and summarize data in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: how-to
-ms.date: 04/28/2026
+ms.date: 07/13/2026
 ms.author: nenandw
 ms.reviewer: smurkute
 ms.collection:
@@ -11,6 +11,7 @@ ms.collection:
 contributors:
     - dmartens
     - tapanm
+    - shwetamurkute
 ---
 
 # Add AI features in a list (preview)
@@ -47,9 +48,7 @@ To enable AI summary on a new list:
 
 1. [Add a list](/power-pages/getting-started/add-list) to the page.
 
-1. Select **AI summary for list** to enable or disable AI summary for the selected list. Default for this toggle is enabled.
-
-   :::image type="content" source="media/add-ai-summary-list/list-settings.png" alt-text="Screenshot that shows the list settings from the **Set up** tab.":::
+1. Select **AI Insights** to turn on or off AI summary for the selected list. The default for this toggle is enabled.
 
 1. Complete the configuration and select **Done**.
 
@@ -65,7 +64,7 @@ To enable AI summary on an existing list:
 
 1. Select **Edit List**.
 
-1. In the settings panel, locate the **AI Summary for List** option.
+1. In the settings panel, locate the **AI Insights** option.
 
 1. Toggle the option to **On**.
 
