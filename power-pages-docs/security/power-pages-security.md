@@ -1,11 +1,11 @@
 ---
 title: Power Pages security
 description: Learn how to secure the websites you create with Microsoft Power Pages.
-ms.date: 02/28/2026
+ms.date: 07/16/2026
 ms.topic: overview
-author: dmartens
-ms.author: dmartens
-ms.reviewer: danamartens
+author: shwetamurkute
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
     - avishwakarma
 ms.custom: bap-template
@@ -23,7 +23,7 @@ To make sure your business information is properly protected, Power Pages has a 
 - [Table permissions](#table-permissions)
 - [Page permissions](#page-permissions)
 - [HTTPS Headers](#https-headers)
-- [Security Scan (preview)](#security-scan-preview)
+- [Security Scan (preview)](#security-scan)
 
 ## Site visibility
 
@@ -55,7 +55,7 @@ The cross-origin resource sharing (CORS) protocol consists of a set of headers t
 
 For more information, go to [HTTP headers](site-checker-security.md#http-headers).
 
-## Security scan (preview)
+## Security scan
 
 [Security scan](security-scan.md) allows makers to perform thorough evaluations of their websites, detect common security threats, such as cross-site scripting (XSS) or the use of insecure libraries, and offers solutions for efficient resolution of these threats to improve security for your site.
 

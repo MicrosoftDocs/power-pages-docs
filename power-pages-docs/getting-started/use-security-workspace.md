@@ -1,12 +1,12 @@
 ---
 title: Overview of the Security workspace
 description: Enhance site resilience with security scans, control access to data, and protect against exploits using Power Pages security workspace.
-author: DanaMartens
+author: shwetamurkute
 ms.topic: concept-article
-ms.date: 02/27/2026
+ms.date: 07/16/2026
 ms.subservice:
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
 ms.custom:
   - ai-gen-docs-bap
@@ -27,7 +27,7 @@ To open the Security workspace:
 
 ## Monitor
 
-### Run scan (preview)
+### Run scan
 
 [Run a security scan](../security/security-scan.md) to enhance your site's resilience by identifying and addressing vulnerabilities, safeguarding it against potential threats and ensuring a secure online environment for users.
 
@@ -73,8 +73,8 @@ Control access to your site with [site visibility](../security/site-visibility.m
 
 :::image type="content" source="media/use-security-workspace/site-visibility.svg" alt-text="A screenshot of the Site visibility interface inside of Power Pages design studio's Security workspace.":::
 
-### Advanced settings (preview)
+### Advanced settings
 
-Use [advanced settings (preview)](../security/advanced-settings.md) to configure HTTP headers of your site quickly and efficiently, configure Content Security Policy (CSP), Cross-Origin Resource Sharing (CORS), cookies, permissions, and more.
+Use [advanced settings](../security/advanced-settings.md) to quickly and efficiently configure the HTTP headers of your site. You can also configure the Content Security Policy (CSP), Cross-Origin Resource Sharing (CORS), cookies, permissions, and more.
 
 :::image type="content" source="media/use-security-workspace/advanced-settings.svg" alt-text="A screenshot of the Advanced settings interface inside of Power Pages design studio's Security workspace."::: 
