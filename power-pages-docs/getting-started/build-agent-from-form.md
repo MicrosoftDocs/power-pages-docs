@@ -12,21 +12,21 @@ ms.reviewer: dmartens
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Power Pages provides ability to create an agent directly from the form. These agents integrate with [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) and use knowledge, actions, and business logic from the form.
+Power Pages enables you to create an agent directly from a form. These agents integrate with [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) and use knowledge, actions, and business logic from the form.
 
-With minimal steps, you build agents using existing form fields and logic, and automatically use Power Pages' built-in authorization and security roles. You can also enhance and fine-tune these agents in Copilot Studio to unlock advanced capabilities.
+By using minimal steps, you can build agents by using existing form fields and logic, and automatically use Power Pages' built-in authorization and security roles. You can also enhance and fine-tune these agents in Copilot Studio to unlock advanced capabilities.
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
-## Prerequisite
+## Prerequisites
 
 - The tenant admin needs to turn on the [agent](../admin/copilot-hub.md) feature for Power Pages.
 
-- Agents in Power Pages use the Microsoft Copilot Studio agent. Check that the tenant has enough message quotas for agents. Learn more about quotas in [Quotas and limits for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
+- Agents in Power Pages use Microsoft Copilot Studio agents. Make sure that the tenant has sufficient message quotas for agents. To learn more about quotas, see [Quotas and limits for Copilot Studio](/microsoft-copilot-studio/requirements-quotas).
 
 ## Create an agent
 
-Create an agent directly from forms to streamline the manual process.
+You can create an agent directly from a form to streamline the manual process.
 
 1. Sign in to [Power Pages](https://make.powerpages.microsoft.com).
 
@@ -44,17 +44,17 @@ Create an agent directly from forms to streamline the manual process.
 
 1. Describe the purpose of the form, and give instructions to the agent. These instructions help the agent know when to trigger based on user input.
 
-1. Select the optional checkbox to let the agent autofill the form using information from an uploaded image or PDF file.
+1. Select the optional checkbox to let the agent autofill the form by using information from an uploaded image or PDF file.
 
-1. Enter a name for the new agent, or select an existing agent from Microsoft Copilot Studio.
+1. Enter a name for the new agent or select an existing agent from Microsoft Copilot Studio.
 
     > [!NOTE]
     > - Only agents you create from Power Pages are available for selection.
     > - Agent creation from forms supports only columns of **Text**, **Number**, **Date and time**, **Choice**, and **Currency** data types.
 
-1. Select **Continue**. If you choose to create a new agent, Microsoft Copilot Studio creates it. If you select an existing agent, Microsoft Copilot Studio updates it.
+1. Select **Continue**. If you create a new agent, Microsoft Copilot Studio creates it. If you select an existing agent, Microsoft Copilot Studio updates it.
 
-    By default, authentication isn't set up when you create an agent in Microsoft Copilot Studio. Set up [authentication](configure-user-authentication-for-agent.md) manually in the Copilot Studio editor.
+    By default, authentication isn't set up when you create an agent in Microsoft Copilot Studio. You can set up [authentication](configure-user-authentication-for-agent.md) manually in the Copilot Studio editor.
 
 1. Under **Choose Roles for this Agent**, select **Add Roles** to assign web roles, and control which users can use the agent based on their assigned roles.
 
@@ -68,8 +68,8 @@ Create an agent directly from forms to streamline the manual process.
 
 ## Known issues
 
-- If you don’t see the newly created agent on your site and still see the classic widget experience, add the [site setting](../configure/configure-site-settings.md) 'SiteCopilot/EnableNativeControlPVABots' and set its value to true.
-- If proper authentication isn't configured for an agent hosted on a private site, the agent can incorrectly respond that a record was created successfully, even though no record was created. To avoid this issue, always configure Microsoft Entra as the identity provider for agents hosted on private sites.
+- If you don't see the newly created agent on your site and the classic widget experience still appears, add the [site setting](../configure/configure-site-settings.md) `SiteCopilot/EnableNativeControlPVABots` and set its value to true.
+- If you don't configure authentication for an agent hosted on a private site, the agent might say that a record was created successfully even when no record was created.
 
 ### Related information
 
