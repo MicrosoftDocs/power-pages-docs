@@ -1,13 +1,13 @@
 ---
 title: Set up telemetry monitoring
 description: Set up telemetry monitoring in Power Pages.
-author: gitanjalisingh33msft
+author: shwetamurkute
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/13/2024
+ms.date: 07/20/2026
 ms.subservice: 
-ms.author: gisingh
-ms.reviewer: dmartens
+ms.author: smurkute
+ms.reviewer: smurkute
 contributors:
     - gitanjalisingh33msft
 ---
@@ -16,7 +16,7 @@ contributors:
 
 You can use a telemetry tracking code in your Power Pages site to monitor specific traffic analytics and trends.
 
-There are two different experiences depending on whether your website uses the [standard or enhanced](../admin/enhanced-data-model.md#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model) data model.
+There are two different experiences depending on whether your website uses the [standard or enhanced](../admin/enhanced-data-model.md#determine-whether-your-site-uses-the-standard-or-enhanced-data-model) data model.
 
 ## Set up telemetry monitoring using standard data model
 

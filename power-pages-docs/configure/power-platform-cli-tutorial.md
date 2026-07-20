@@ -4,7 +4,7 @@ description: This page provides a walk-through with examples for how to use Powe
 author: neerajnandwana-msft
 ms.topic: tutorial
 ms.custom: 
-ms.date: 02/28/2026
+ms.date: 07/20/2026
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: dmartens
@@ -75,7 +75,7 @@ previous step.
 
 > [!NOTE]
 > - Use **modelVersion** `1` or `2` to indicate if the site data to be uploaded will use the the standard (1) or [enhanced data model](../admin/enhanced-data-model.md) (2).
-> - Run `pac pages list -v` command to view which data model is being used for your site. For more details, go to [enhanced data model](../admin/enhanced-data-model.md#determine-whether-your-site-is-using-the-standard-or-enhanced-data-model).
+> - Run `pac pages list -v` command to view which data model is used for your site. For more details, see [enhanced data model](../admin/enhanced-data-model.md#determine-whether-your-site-uses-the-standard-or-enhanced-data-model).
 
 ## Step 4. Change website content
 
