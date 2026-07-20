@@ -2,16 +2,16 @@
 title: Generate answers from public data using Bing search
 description: Learn how to trigger Microsoft Bing to index the content of your Power Pages site immediately after you add an agent.
 ms.topic: how-to
-ms.date: 06/17/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
   - bap-ai-copilot
 contributors:
   - nageshbhat-msft
-  - DanaMartens
+  - shwetamurkute
 ms.custom: bap-template
 ---
 

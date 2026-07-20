@@ -23,7 +23,7 @@ To make sure your business information is properly protected, Power Pages has a 
 - [Table permissions](#table-permissions)
 - [Page permissions](#page-permissions)
 - [HTTPS Headers](#https-headers)
-- [Security Scan (preview)](#security-scan)
+- [Security Scan](#security-scan)
 
 ## Site visibility
 

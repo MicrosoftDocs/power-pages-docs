@@ -1,19 +1,20 @@
 ---
 title: Add an AI-generated multistep form using Copilot
 description: Learn how to add multistep forms to your Power Pages site using Copilot.
-author: pranita225
+author: shwetamurkute
 ms.topic: how-to
 ms.custom: 
-ms.date: 02/05/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.subservice:
-ms.author: prpadalw
-ms.reviewer: dmartens
+ms.author: smurkute
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - pranita225
     - DanaMartens
+    - shwetamurkute
 ---
 
 # Add an AI-generated multistep form using Copilot (preview)
