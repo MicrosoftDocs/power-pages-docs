@@ -1,13 +1,13 @@
 ---
 title: Create an AI-generated web page using Copilot
 description: Learn how to create an AI-generated webpage using Copilot in Power Pages.
-author: ckwan-ms
+author: shwetamurkute
 ms.topic: how-to
 ms.custom: 
-ms.date: 07/13/2026
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.subservice:
-ms.author: ckwan
+ms.author: bipuldeora
 ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
@@ -76,7 +76,7 @@ You can also edit a page by using Copilot. Type the following commands in the Co
 |Command  |Description  |
 |---------|---------|
 |Add a section    | Copilot creates a new section with text copy and images, and appends the section to the end of the page.         |
-|Add a form     | To learn how to add a form using Copilot, see [Create AI-generated form using Copilot](add-form-copilot.md)         |
+|Add a form | To learn how to add a form by using Copilot, see [Create AI-generated form using Copilot](add-form-copilot.md). |
 
 ## See also
 

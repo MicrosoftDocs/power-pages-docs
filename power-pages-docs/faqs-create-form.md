@@ -1,17 +1,18 @@
 ---
 title: FAQ for creating AI-generated form or multistep form
 description: This FAQ discusses natural language to forms and the key considerations for making use of this technology responsibly.
-ms.date: 02/05/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.custom: responsible-ai-faqs
 ms.topic: faq
-author: pranita225
-ms.author: prpadalw
-ms.reviewer: dmartens
+author: shwetamurkute
+ms.author: bipuldeora
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - DanaMartens
+    - shwetamurkute
 ---
 
 # FAQ for creating AI-generated form or multistep form

@@ -1,14 +1,14 @@
 ---
 title: FAQ for AI-generated code using Copilot
 description: This FAQ provides information about the AI technology used in Power Pages development.
-ms.date: 02/05/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
 author: neerajnandwana-msft
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:

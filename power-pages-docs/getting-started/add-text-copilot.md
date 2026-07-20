@@ -2,16 +2,17 @@
 title: Add AI-generated text using Copilot
 description: Learn how to create AI-generated text using Copilot and add it to a page in your Power Pages site.
 ms.topic: how-to
-ms.date: 06/27/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
-author: ckwan-ms
-ms.author: ckwan
-ms.reviewer: dmartens
+author: shwetamurkute
+ms.author: smurkute
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - ckwan-ms
     - DanaMartens
+    - shwetamurkute
 ms.custom: bap-template
 ---
 

@@ -2,15 +2,16 @@
 title: Add an agent - overview
 description: Learn how to add an agent to a Microsoft Power Pages site for quicker customer support and an improved user experience.
 ms.topic: overview
-ms.date: 07/30/2025
+ms.date: 07/19/2026
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
   - bap-ai-copilot
 contributors:
   - nageshbhat-msft
   - DanaMartens
+  - shwetamurkute
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

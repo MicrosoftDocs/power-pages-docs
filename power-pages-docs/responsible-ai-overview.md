@@ -1,17 +1,18 @@
 ---
 title: Responsible AI FAQs for Power Pages
 description: Responsible AI FAQs discusses AI technology in Power Pages and the key considerations for making use of this technology responsibly.
-author: DanaMartens
+author: shwetamurkute
 ms.topic: faq
 ms.custom: responsible-ai-faqs
-ms.date: 02/05/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - DanaMartens
+    - shwetamurkute
 ---
 
 # Responsible AI FAQs for Power Pages

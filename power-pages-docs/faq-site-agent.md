@@ -1,18 +1,19 @@
 ---
 title: FAQ for site agent
 description: This FAQ to add agent and the key considerations for making use of this technology responsibly.
-ms.date: 06/17/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.custom: responsible-ai-faqs
 ms.topic: faq
-author: pranita225
-ms.author: prpadalw
-ms.reviewer: dmartens
+author: nageshbhat-msft
+ms.author: nabha
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - nageshbhat-msft
     - DanaMartens
+    - shwetamurkute
 ---
 
 # FAQ for site agent

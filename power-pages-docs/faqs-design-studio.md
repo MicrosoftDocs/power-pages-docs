@@ -1,18 +1,19 @@
 ---
 title: FAQ for Copilot for design studio
 description: This FAQ discusses natural language to page and the key considerations for making use of this technology responsibly.
-ms.date: 02/05/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.custom: responsible-ai-faqs
 ms.topic: faq
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:
     - sandhangitmsft
     - DanaMartens
+    - shwetamurkute
 ---
 
 # FAQ for Copilot for design studio

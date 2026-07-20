@@ -3,10 +3,10 @@ title: FAQ for AI features in a list
 description: Look up frequently asked questions (FAQ) for the list AI features in Microsoft Power Pages.
 author: neerajnandwana-msft
 ms.topic: faq
-ms.date: 06/11/2025
+ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection:
  - bap-ai-copilot
 contributors:
