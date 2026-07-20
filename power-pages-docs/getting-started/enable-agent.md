@@ -51,21 +51,19 @@ You can create a new agent directly from your Power Pages site or add an existin
 
 When you create a new agent from Power Pages, the agent automatically becomes aware of the site context. It can generate responses tailored to site visitors based on their assigned web roles.
 
-Agents created from Power Pages use Generic OAuth 2 authentication with the token pass-through method. This configuration enables the agent to work seamlessly with all identity providers configured for the site, including support for anonymous users.
+Agents created from Power Pages use Generic OAuth 2 authentication with the [token pass-through](configure-user-authentication-for-agent.md#token-passthrough-authentication) method. This configuration enables the agent to work seamlessly with all identity providers configured for the site, including support for anonymous users.
 
 Follow these steps to create an agent manually:
 
 1. In Power Pages, go to the [Set up workspace](../configure/setup-workspace.md).
-1. Under **AI assistance**, select **Agents**.
-
-    :::image type="content" source="media/enable-chatbot/select-agent.png" alt-text="Screenshot of the Add an agent to site page in Power Pages.":::
+1. Under **AI Assistance**, select **Agents**.   
 
 1. Turn on the **Site agent** option.
 
     Power Pages creates an [agent with generative answers conversation](/microsoft-copilot-studio/nlu-boost-conversations) in Copilot Studio. The agent is initially created as a trial. After the trial expires, it uses the available Copilot Studio capacity in your environment.
 
 1. To make an agent available to visitors and users, assign the required roles.
-   <Image>
+
 
 ### Add an existing agent to site
 You can add a custom agent created in Microsoft Copilot Studio to your Power Pages site by selecting **Add agent**. After adding the agent, assign the appropriate web roles to make it available to the intended site users.

@@ -34,14 +34,12 @@ The agent added with Power Pages design studio doesn't include instructions for 
 To enable this functionality, configure the agent manually in Copilot Studio. You can access Copilot Studio directly from the Power Pages design studio.
 
 1. Go to [Set up workspace](setup-workspace.md).
-1. Under **Copilot,** select **Add agent**.
-1. From the **Agent analytics** section, choose **View agent analytics**.
-
-    :::image type="content" source="media/omnichannel/view-agent-analytics.png" alt-text="A screenshot of Add copilot to a site in the Set up workspace with the View copilot analytics link emphasized." lightbox="media/omnichannel/view-agent-analytics.png":::
+1. Under **AI Assistance** select **Add agent**.
+1. From the **Agents in this site** section, click on agent name to configure Omnichannel.
 
 ### Configure an agent manually in Copilot Studio
 
-1. In Copilot Studio, select **Topics** from the left-hand menu.
+1. In Copilot Studio, select the **Topics** tab.
 1. Select the **System** tab, and then choose **Escalate**.
 1. Select  the **+** icon below the Message tile.
 1. Hover over **Topic management**, and then select **Transfer conversation**.
@@ -50,21 +48,16 @@ To enable this functionality, configure the agent manually in Copilot Studio. Yo
     :::image type="content" source="media/omnichannel/message-to-agent.svg" alt-text="A screenshot of a Transfer conversation in Copilot Studio with the Message to agent text entry field emphasized.":::
 
 1. Select **Save** to apply your changes.
-1. In the left-hand menu, select **Settings**, and then select **Customer engagement hub**.
-1. Select **Omnichannel**, then **Connect**.
+1. Select the **Channels** tab, and then select **Dynamics 365 Contact Center** under Customer engagement hub.
+1. Select **Connect**.
 1. When the Status shows as *Connected*, select the **Close** button.
-1. In the left-hand menu, choose **Publish**.
-1. Select **Publish**.
+1. Select **Publish** to publish agent.
 
 ## Complete chatbot setup in Customer Service Admin Center
 
-1. Open the [Customer Service admin center](/dynamics365/customer-service/implement/cs-admin-center).
+1. Open the [Customer Service admin center](/dynamics365/customer-service/implement/cs-admin-center) to finish configuring agent.
 
-1. Go to **Guided channel setup**, and then select **+ Start new**.
-
-1. To finish onboarding, follow the steps in the guided channel setup.
-
-    During setup, select chat and link the existing bot created in the Power Pages design studio.
+1. During setup, select chat and link the existing bot created in the Power Pages design studio.
 
 1. Copy the script shown in the **chat setup complete** step.
 
