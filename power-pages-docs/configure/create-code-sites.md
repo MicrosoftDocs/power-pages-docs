@@ -7,7 +7,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:05/20/2025
-ms.date: 06/12/2026
+ms.date: 07/21/2026
 ms.subservice:
 ms.author: nenandw
 ms.reviewer: smurkute
@@ -22,7 +22,7 @@ contributors:
 
 Power Pages supports integrating single-page application (SPA) code created with next-generation AI-assisted tools, like GitHub Copilot. This capability lets developers bring modern, component-based front-end experiences into Power Pages by using natural language as a coding interface.
 
-By guiding, testing, and refining AI-generated code, makers can shift their focus from repetitive implementation tasks to higher-level orchestration. This empowers more intuitive, creative development while maintaining enterprise-grade quality and standards.
+By guiding, testing, and refining AI-generated code, makers can shift their focus from repetitive implementation tasks to higher-level orchestration. This approach empowers more intuitive, creative development while maintaining enterprise-grade quality and standards.
 
 This article shows you how to:
 
@@ -187,7 +187,7 @@ Use the optional `powerpages.config.json` file to customize how the `upload-code
 
 ## Code splitting and bundle cleanup
 
-As a single-page application grows, a single JavaScript bundle becomes large and slow to load. Modern build tools solve this with **code splitting**, which breaks the app into smaller **chunks** that the browser downloads on demand (for example, only when the user navigates to a specific route). Each chunk is emitted with a **content hash** in its file name, such as `Dashboard-BSbmIXoe.js`, so browsers can cache it for long periods and re-download it only when its contents change.
+As a single-page application grows, a single JavaScript bundle becomes large and slow to load. Modern build tools solve this problem with **code splitting**. This technique breaks the app into smaller **chunks** that the browser downloads on demand (for example, only when the user navigates to a specific route). Each chunk is emitted with a **content hash** in its file name, such as `Dashboard-BSbmIXoe.js`, so browsers can cache it for long periods and re-download it only when its contents change.
 
 Code splitting introduces a deployment consideration unique to Power Pages SPA sites: because every build produces new hashed file names, repeated `upload-code-site` runs would leave the old hashed files behind on the site. Over many deployments, these orphaned chunks accumulate in the site's `web-files`. The `bundleFilePatterns` field in `powerpages.config.json` exists to clean them up.
 
@@ -604,6 +604,10 @@ No, you can't bring an externally generated component to an existing Power Pages
 ### Can I add out-of-the-box components like lists and forms?
 
 Adding out-of-the-box components like lists and forms isn't currently supported. However, you can build custom forms and lists by using the React framework and Web APIs.
+
+### Can I enable an SPA site as a PWA from the Set up workspace?
+
+No. SPA sites don't support the [progressive web app (PWA)](progressive-web-apps.md) setting in [set up workspace](setup-workspace.md). This limitation means you can't use the **Mobile** section to enable a site as a PWA. To add PWA capabilities, like installable app experiences and offline pages, implement them in your framework code. For example, add a web app manifest and service worker.
 
 ### How does source control work?
 
