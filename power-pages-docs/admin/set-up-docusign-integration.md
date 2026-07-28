@@ -1,13 +1,13 @@
 ---
 title: Set up DocuSign integration
 description: Learn how to set up DocuSign integration with your website. Include document generation and e-signature functionality in multistep forms using DocuSign in Power Pages.
-author: PramithaU
+author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/03/2025
+ms.date: 07/28/2026
 ms.subservice:
-ms.author: pudupa 
-ms.reviewer: dmartens
+ms.author: nabha 
+ms.reviewer: smurkute
 contributors:
     - meeramahabala
     - nageshbhat-msft
@@ -61,6 +61,7 @@ The Enable integration menu displays.
     > - There are two flows, one that accesses DocuSign and one that accesses Dataverse.
     > - Use the appropriate credentials to access DocuSign and Dataverse.
     > - For the **DocuSign Envelope completed trigger** flow, you'll need to select the appropriate DocuSign account ID for the **Account** setting on the **When an envelope status changes** trigger.
+    > - When you configure the **DocuSign Envelope Create and Sign flow**, make sure you configure a valid return URL in DocuSign. This URL redirects users back to the Power Pages site after they sign. For more information, see [DocuSign embedded signing URL](https://support.docusign.com/s/document-item?language=en_US&bundleId=gqy1619537336307&topicId=ecm1666552867348.html&_LANG=enus) guidance.
 
 1. Return to the **Enable integration** menu in design studio and select the **I have resolved the connection references** checkbox.
 1. Select **Next**, then **Close** to exit the Enable integration menu.
