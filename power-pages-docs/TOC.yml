@@ -831,6 +831,8 @@
           href: security/web-application-firewall-custom-rule-sets.md
         - name: Web Application Firewall logs
           href: security/web-application-firewall-logs.md
+        - name: Use WAF JavaScript challenge and CAPTCHA to reduce bot abuse
+          href: security/waf-js-challenge-captcha.md
         - name: Web Application Firewall FAQ
           href: security/waf-faq.md
     - name: Power Pages security FAQ
