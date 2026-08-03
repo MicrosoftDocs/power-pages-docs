@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider
 description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
-ms.date: 04/29/2026
+ms.date: 08/03/2026
 ms.topic: how-to
 author: shwetamurkute
 ms.author: bipuldeora
@@ -17,9 +17,9 @@ ms.custom:
 
 # Set up an OpenID Connect provider
 
-[OpenID Connect](https://openid.net/connect/) identity providers are services that conform to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html). OpenID Connect introduces the concept of an *ID token*. An ID token is a security token that allows a client to verify the identity of a user. It also gets basic profile information about users, known as *claims*.
+[OpenID Connect](https://openid.net/connect/) identity providers are services that conform to the [Open ID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html). OpenID Connect introduces the concept of an *ID token*. An ID token is a security token that allows a client to verify the identity of a user. It also provides basic profile information about users, known as *claims*.
 
-OpenID Connect providers [Microsoft Entra External ID](entra-external-id.md), [Microsoft Entra ID](openid-settings.md), and [Microsoft Entra ID with multiple tenants](openid-settings.md#allow-multitenant-microsoft-entra-authentication) are built into Power Pages. This article explains how to add other OpenID Connect identity providers to your Power Pages site.
+Power Pages has built-in support for OpenID Connect providers [Microsoft Entra External ID](entra-external-id.md), [Microsoft Entra ID](openid-settings.md), and [Microsoft Entra ID with multiple tenants](openid-settings.md#allow-multitenant-microsoft-entra-authentication). This article explains how to add other OpenID Connect identity providers to your Power Pages site.
 
 ## Supported and unsupported authentication flows in Power Pages
 
@@ -27,12 +27,10 @@ OpenID Connect providers [Microsoft Entra External ID](entra-external-id.md), [M
   - This flow is the default authentication method for Power Pages sites.
 - Authorization code
   - Power Pages uses the *client_secret_post* method to communicate with the identity server's token endpoint.
-  - The *private_key_jwt* method to authenticate with the token endpoint isn't supported.
+  - Power Pages also supports the *private_key_jwt* method to authenticate with the token endpoint. To enable this method, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/TokenEndPointAuthenticatedMethod** and set the value to `private_key_jwt`. Additional configuration is required for certificate and token settings.
 - Hybrid (restricted support)
   - Power Pages requires *id_token* to be present in the response, so *response_type* = *code token* isn't supported.
   - The hybrid flow in Power Pages follows the same flow as implicit grant, and uses *id_token* to directly sign in users.
-- Proof Key for Code Exchange (PKCE)
-  - PKCE&ndash;based techniques to authenticate users aren't supported.
 
 > [!NOTE]
 > Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes right away, restart the site in the [admin center](../../admin/admin-overview.md).
@@ -61,7 +59,7 @@ OpenID Connect providers [Microsoft Entra External ID](entra-external-id.md), [M
 
 ## Create an app registration in the identity provider
 
-1. Create and register an application with your identity provider using the reply URL [you copied](#set-up-the-openid-connect-provider-in-power-pages).
+1. Create and register an application with your identity provider by using the reply URL [you copied](#set-up-the-openid-connect-provider-in-power-pages).
 
 1. Copy the application or client ID and the client secret.
 
@@ -73,7 +71,7 @@ OpenID Connect providers [Microsoft Entra External ID](entra-external-id.md), [M
 
 Return to the Power Pages **Configure identity provider** page you left earlier and enter the following values. Optionally, change the [**additional settings**](#additional-settings-in-power-pages) as needed. Select **Confirm** when you're finished.
 
-- **Authority**: Enter the authority URL in the following format: `https://login.microsoftonline.com/<Directory (tenant) ID>/`, where *<Directory (tenant) ID>* is the directory (tenant) ID of the application [you created](#create-an-app-registration-in-the-identity-provider). For example, if the directory (tenant) ID in the Azure portal is `aaaabbbb-0000-cccc-1111-dddd2222eeee`, then the authority URL is `https://login.microsoftonline.com/aaaabbbb-0000-cccc-1111-dddd2222eeee/​`.
+- **Authority**: Enter the authority URL in the following format: `https://login.microsoftonline.com/<Directory (tenant) ID>/`, where *<Directory (tenant) ID>* is the directory (tenant) ID of the application [you created](#create-an-app-registration-in-the-identity-provider). For example, if the directory (tenant) ID in the Azure portal is `aaaabbbb-0000-cccc-1111-dddd2222eeee`, the authority URL is `https://login.microsoftonline.com/aaaabbbb-0000-cccc-1111-dddd2222eeee/​`.
 
 - **Client ID​**: Paste the application or client ID of the application [you created](#create-an-app-registration-in-the-identity-provider).
 
@@ -101,7 +99,7 @@ Return to the Power Pages **Configure identity provider** page you left earlier 
 
 The additional settings give you finer control over how users authenticate with your OpenID Connect identity provider. You don't need to set any of these values. They're entirely optional.
 
-- **Issuer filter**: Enter a wildcard-based filter that matches on all issuers across all tenants; for example, `https://sts.windows.net/*/`. If you are using a Microsoft Entra ID auth provider, the issuer URL filter would be `https://login.microsoftonline.com/*/v2.0/`.
+- **Issuer filter**: Enter a wildcard-based filter that matches on all issuers across all tenants. For example, use `https://sts.windows.net/*/`. If you're using a Microsoft Entra ID auth provider, the issuer URL filter is `https://login.microsoftonline.com/*/v2.0/`.
 
 - **Validate audience**: Turn on this setting to validate the audience during token validation.
 
@@ -113,7 +111,7 @@ The additional settings give you finer control over how users authenticate with 
 
 - **Registration claims mapping​** and **Login claims mapping**: In user authentication, a *claim* is information that describes a user's identity, like an email address or date of birth. When you sign in to an application or a website, it creates a *token*. A token contains information about your identity, including any claims that are associated with it. Tokens are used to authenticate your identity when you access other parts of the application or site or other applications and sites that are connected to the same identity provider. *Claims mapping* is a way to change the information that's included in a token. It can be used to customize the information that's available to the application or site and to control access to features or data. *Registration claims mapping* modifies the claims that are emitted when you register for an application or a site. *Login claims mapping* modifies the claims that are emitted when you sign in to an application or a site. [Learn more about claims mapping policies](/azure/active-directory/develop/reference-claims-mapping-policy-type).
 
-    User information can be provided in two ways:
+    You can provide user information in two ways:
 
   - **ID Token Claims** – Basic user attributes like first name or email are in the token.
   - **UserInfo Endpoint** – A secure API that returns detailed user information after authentication.
@@ -138,6 +136,8 @@ The additional settings give you finer control over how users authenticate with 
 
 - **Nonce lifetime**: Enter the lifetime of the nonce value, in minutes. The default value is 10 minutes.
 
+- **Nonce enabled**: This setting controls whether nonce validation is enabled for OpenID Connect protocol. The default value is **On**. Turn it off to disable nonce validation (not recommended for production).
+
 - **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting.
 
 - **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
@@ -145,22 +145,22 @@ The additional settings give you finer control over how users authenticate with 
   - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
   - **Off**
 
-> [!Note]
+> [!NOTE]
 > The *UI_Locales* request parameter is sent automatically in the authentication request and is set to the language selected on the portal.
 
 ## Other authorization parameters
 
 Use the following authorization parameters, but don't set them within the OpenID Connect provider in Power Pages:
 
-- **acr_values**: The acr_values parameter lets identity providers enforce security assurance levels like multifactor authentication (MFA). It lets the app indicate the required authentication level.
+- **acr_values**: The `acr_values` parameter lets identity providers enforce security assurance levels like multifactor authentication (MFA). It lets the app indicate the required authentication level.
 
-  To use the acr_values parameter, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value you need. When you set this value, Power Pages includes the acr_values parameter in the authorization request.
+  To use the `acr_values` parameter, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/AcrValues** and set the value you need. When you set this value, Power Pages includes the `acr_values` parameter in the authorization request.
 
 - **Dynamic authorization parameters**: Dynamic parameters let you tailor the authorization request for different usage contexts, like embedded apps or multiple tenant scenarios.
 
   - **Prompt parameter**:
 
-    This parameter controls whether the sign-in page or consent screen appears. You can configure it is two ways:
+    This parameter controls whether the sign-in page or consent screen appears. You can configure it in two ways:
 
     1. **Site setting (static)**: Create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/Prompt** and set the value to one of the supported values listed below. This value applies to all authentication requests for the provider and takes priority over the dynamic parameter.
     1.  **Dynamic (per-request)**: Add a customization to send it as a query string parameter to the External Login endpoint.
@@ -172,6 +172,10 @@ Use the following authorization parameters, but don't set them within the OpenID
     - login
     - consent
     - select_account
+    - create
+    
+    > [!NOTE]
+    > When you configure the prompt site setting, it takes priority over the dynamic prompt parameter passed via the query string.
 
     **URL format**:
 
@@ -187,7 +191,7 @@ Use the following authorization parameters, but don't set them within the OpenID
 
     `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&login_hint={value}`
 
-    This helps when users are already signed in through another identity, like Microsoft Entra ID or a Microsoft account (MSA), in the same session.
+    This parameter helps when users are already signed in through another identity, like Microsoft Entra ID or a Microsoft account (MSA), in the same session.
 
 - **Custom authorization parameters**: Some identity providers support proprietary parameters for specific authorization behavior. Power Pages lets makers set up and pass these parameters securely. To use these parameters, add a customization to send them as query string parameters to the ExternalLogin endpoint.
 
@@ -199,19 +203,19 @@ Use the following authorization parameters, but don't set them within the OpenID
 
   If any of the parameters (param1, param2, or param3) isn't in the list of allowed parameters, Power Pages ignores it.
 
-  This setting defines a list of custom parameters that can be sent in the authorization request.
+  This setting defines a list of custom parameters that you can send in the authorization request.
 
   **Behavior**
 
   - Pass parameters in the query string of the ExternalLogin endpoint.
   - Power Pages includes only parameters in the list in the authorization request.
-  - Default parameters like prompt, login_hint, and ReturnUrl are always allowed and don't need to be listed.
+  - Default parameters like `prompt`, `login_hint`, and `ReturnUrl` are always allowed and don't need to be listed.
 
   **Example URL format**:
 
   `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&custom_param=value`
 
-  If custom_param isn't in the list of allowed parameters, Power Pages ignores it.
+  If `custom_param` isn't in the list of allowed parameters, Power Pages ignores it.
 
 ### See also
 
