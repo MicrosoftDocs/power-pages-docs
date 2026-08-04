@@ -1,7 +1,7 @@
 ---
 title: Set column permissions
 description: Learn how to use permissions to restrict access to specific table columns when you use the Microsoft Power Pages portals Web API.
-ms.date: 07/09/2026
+ms.date: 08/04/2026
 ms.topic: how-to
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -69,11 +69,7 @@ Let's look at some examples to understand how table and column permissions work 
 |-|-|-|-|-|
 | The user has no permissions to the columns. | Contact (Create, Read, Update) | TRUE |  |  |
 | The user has no permissions to the columns. | Contact (Create, Read, Update) | FALSE |  |  |
-| The user has no permissions to the columns. | Contact (none) | TRUE | * | **All Column Permissions:** Create, Read, Update<br/>**Column Permissions:** (none) |
-| The user has all permissions to all columns. | Contact (Create, Read, Update) | TRUE | * |  |
 | The user has no permissions to the columns. | Contact (Create, Read, Update) | TRUE |  | **All Column Permissions:** Create, Read, Update<br/>**Column Permissions:** (none) |
-| The user can read JobTitle and create, read, and update all other columns. | Contact (Create, Read, Update) | TRUE | * | **All Column Permissions:** (none)<br/>**Column Permissions:**<br/>JobTitle: Read |
-| The user can create, read, and update JobTitle and read all other columns.| Contact (Create, Read, Update) | TRUE | * | **All Column Permissions:** Read<br/>**Column Permissions:**<br/>JobTitle: Create, Read, Update |
 | The user can create, read, and update JobTitle and Salary. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary |  |
 | The user can create, read, and update JobTitle and Salary and has no permission to other columns. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary | **All Column Permissions:** Create, Read, Update<br/>**Column Permissions:** (none) |
 | The user can create, read, and update JobTitle and Salary. | Contact (Create, Read, Update) | TRUE | JobTitle, Salary | **All Column Permissions:** (none)<br/>**Column Permissions:**<br/>JobTitle: Create, Read, Update<br/>Salary: Create, Read, Update |
