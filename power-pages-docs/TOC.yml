@@ -324,6 +324,8 @@
           href: admin/set-up-power-bi-integration.md
     - name: Manage custom certificate
       href: admin/manage-custom-certificates.md
+    - name: Rotate SSL certificates for Power Pages sites
+      href: admin/rotate-ssl-certificate.md
     - name: Content Delivery Network
       href: configure/configure-cdn.md
     - name: Manage and monitor capacity
