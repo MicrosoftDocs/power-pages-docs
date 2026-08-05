@@ -8,7 +8,7 @@ ms.date: 08/05/2026
 ms.topic: concept-article
 ---
 
-# Power Pages SSL certificate rotation concepts
+# Rotate SSL certificate for your sites
 
 SSL certificate rotation for Power Pages websites is a process that replaces an existing SSL certificate bound to a custom domain with a new one by chaining two Power Platform APIs. This concept explains the components, requirements, and API surface involved in an end-to-end certificate rotation flow for a Power Pages website.
 
