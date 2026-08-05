@@ -29,7 +29,7 @@ While you can use a [form](add-form.md) to collect data in Power Pages sites, a 
 
 1. Add a section on any page.
 
-    You can use [Copilot to add multistep forms to your Power Pages site (preview)](multistep-forms-copilot.md). For more information, go to [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md).
+    You can use [Copilot to add multistep forms to your Power Pages site (preview)](multistep-forms-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml).
 
 1. Choose **Multistep form** from component library.
 

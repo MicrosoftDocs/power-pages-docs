@@ -37,7 +37,7 @@ Copilot hub enables makers and end users to monitor, analyze, and manage AI-powe
 
 ## Analytics and insights
 
-The Copilot hub includes Power Pages specific usage metrics, enabling tenant admins to understand adoption and monitor how Copilot features are being used across their environments. Learn more about Copilot features in [Overview of AI-powered and Copilot features in Power Pages](/power-pages/configure/ai-copilot-overview).
+The Copilot hub includes Power Pages specific usage metrics, enabling tenant admins to understand adoption and monitor how Copilot features are used across their environments. For more information about Copilot features, see [Overview of AI-powered and Copilot features in Power Pages](/power-pages/copilot-ai).
 
 Track how AI features are being used in Power Pages:
 
@@ -166,7 +166,7 @@ When generative AI experiences are blocked in a site for users, they fall back t
 
 ### Related information
 
-- [Overview of AI-powered and Copilot features in Power Pages](/power-pages/configure/ai-copilot-overview)    
+- [Overview of AI-powered and Copilot features in Power Pages](/power-pages/copilot-ai)    
 - [Manage Copilot in Power Platform](/power-platform/admin/copilot/copilot-hub?wt.mc_id=ppac_inproduct_copilothub)   
 - [Security FAQs in Copilot Studio](/microsoft-copilot-studio/security-faq?wt.mc_id=ppac_inproduct_copilothub)   
 - [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-security-privacy?wt.mc_id=ppac_inproduct_copilothub)   

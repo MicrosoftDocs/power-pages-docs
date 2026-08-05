@@ -68,5 +68,5 @@ To enable this setup, add the following site settings:
 
 - [Add an agent - overview](add-agent-overview.md)
 - [Add an agent to your Power Pages site](enable-agent.md)
-- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml)
 - [Responsible AI: FAQ for site agent](../faq-site-agent.md)

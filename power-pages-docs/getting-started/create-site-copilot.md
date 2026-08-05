@@ -63,6 +63,6 @@ Site creation can take a few minutes. When finished, you're redirected to the si
 
 ### See also
 
-- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml)
 - [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 - [FAQ for Copilot for site creation](../faqs-generate-site.md)

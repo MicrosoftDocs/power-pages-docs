@@ -28,7 +28,7 @@ As an administrator, you can choose to disable Generative AI features for your w
 > - This feature is being gradually rolled out across regions and might not be available yet in your region.
 > - The following AI-powered experiences are governed separately and are not covered by this control:
 >   - [Site copilot](/microsoft-copilot-studio/security-and-governance)
->   - [Maker experiences](../configure/ai-copilot-overview.md)
+>   - [Maker experiences](../copilot-ai.yml)
 
 ## AI-enabled experiences supported in websites
 

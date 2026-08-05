@@ -52,6 +52,6 @@ After you add an agent, enhance its capabilities in these ways:
 
 - [Add an agent to your Power Pages site](enable-agent.md)
 - [Build an agent from a form (preview)](build-agent-from-form.md)
-- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml)
 - [Responsible AI: FAQ for site agent](../faq-site-agent.md)
 - [Add an AI-powered chatbot with Power Pages (video)](https://youtu.be/ohANXe1bfos?feature=shared)
