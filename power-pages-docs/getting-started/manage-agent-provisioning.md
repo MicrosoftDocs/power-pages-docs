@@ -59,6 +59,6 @@ Set-TenantSettings -RequestBody $requestBody
 
 ## Related information
 
-- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml)
 - [Add an agent to your Power Pages site](../getting-started/enable-agent.md)
 - [Responsible AI: FAQ for site agent](../faq-site-agent.md)

@@ -363,6 +363,6 @@ Text color:
 
 ## Related information
 
-- [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md)
+- [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml)
 - [Generate answers from public data using Bing search](../getting-started/force-bing-index.md)
 - [Responsible AI: FAQ for site agent](../faq-site-agent.md)

@@ -159,6 +159,11 @@
       "source_path": "power-pages-docs/admin/update-dynamics365-instance.md",
       "redirect_url": "/power-pages/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/configure/ai-copilot-overview.md",
+      "redirect_url": "/power-pages/copilot-ai",
+      "redirect_document_id": false
     }
   ]
 }

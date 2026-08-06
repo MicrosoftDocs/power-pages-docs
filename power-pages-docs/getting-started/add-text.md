@@ -18,7 +18,7 @@ contributors:
 Use a text box component to add text to your page.
 
 > [!TIP]
-> - You can [use Copilot to add text to your Power Pages site](add-text-copilot.md).  For more information, see [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md).
+> - You can [use Copilot to add text to your Power Pages site](add-text-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml).
 > - Power Fx is now available to use with different Power Pages components including text. Use Power Fx to dynamically set values based on the result of an expression. For more information, go to [Use Power Fx in Power Pages (preview)](../configure/power-fx.md).
 
 ## Add a text component

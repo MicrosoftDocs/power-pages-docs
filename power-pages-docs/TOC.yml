@@ -128,8 +128,8 @@
   items:
     - name: Design and build overview
       href: configure/design-build-overview.md
-    - name: Use AI-powered and Copilot features
-      href: configure/ai-copilot-overview.md
+    - name: Copilot and AI in Power Pages
+      href: copilot-ai.yml
     - name: Dataverse and Power Pages
       href: getting-started/what-is-dataverse.md
     - name: Use Pages workspace

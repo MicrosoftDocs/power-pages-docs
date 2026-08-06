@@ -22,7 +22,7 @@ Use the Power Pages design studio to customize and design your site.
 
 > [!TIP]
 >
-> - [Use Copilot to help you create your site in Power Pages](create-site-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages](../configure/ai-copilot-overview.md).
+> - [Use Copilot to help you create your site in Power Pages](create-site-copilot.md). For more information, see [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml).
 > - We created a series of tutorials and videos for you to learn to use Power Pages. You start with a simple site and progressively add components and features as your business requires. For more information, go to [Power Pages tutorials](tutorial-overview.md).
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).

@@ -1,0 +1,139 @@
+### YamlMime:Landing
+
+title: Copilot and AI features in Power Pages documentation
+summary: Learn about Copilot and generative AI features in Microsoft Power Pages.
+metadata:
+  title: Copilot and generative AI features in Power Pages documentation
+  description: Provides access to Copilot and AI feature documentation in Power Pages.
+  services: service
+  ms.service: power-pages
+  ms.topic: landing-page
+  ms.collection: collection
+  author: shwetamurkute
+  ms.author: bipuldeora
+  ms.reviewer: smurkute
+  ms.date: 07/01/2026
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Get started
+    linkLists:
+
+      - linkListType: how-to-guide
+        links:
+          - text: Copilot for site creation
+            url: getting-started/create-site-copilot.md
+          - text: Create an AI-generated web page using Copilot
+            url: getting-started/create-page-copilot.md
+          - text: Control use of generative AI features for users (preview)
+            url: admin/copilot-governance.md
+          - text: Enable or disable Copilot in Power Pages
+            url: admin/copilot-hub.md#governance-controls-for-ai-features
+      - linkListType: video
+        links:
+          - text: Copilot in Power Pages (video)
+            url: https://youtu.be/K6a5LVLaaOg?feature=shared
+
+  # Card
+  - title: Create themes, forms, and text with Copilot
+    linkLists:
+
+      - linkListType: how-to-guide
+        links:
+          - text: Create an AI-generated color theme using Copilot
+            url: getting-started/theme-copilot.md
+          - text: Add forms
+            url: getting-started/add-form.md
+          - text: Add an AI-generated form using Copilot
+            url: getting-started/add-form-copilot.md
+          - text: Add an AI-generated multistep form using Copilot
+            url: getting-started/multistep-forms-copilot.md
+          - text: Add AI-generated text using Copilot
+            url: getting-started/add-text-copilot.md
+
+  # Card
+  - title: Add and manage agents
+    linkLists:
+
+      - linkListType: overview
+        links:
+          - text: Add an agent - overview
+            url: getting-started/add-agent-overview.md
+      - linkListType: how-to-guide
+        links:
+          - text: Add an agent from the setup workspace
+            url: getting-started/enable-agent.md
+          - text: Add a search component (preview)
+            url: getting-started/add-search.md
+          - text: Add an agent available in Microsoft Copilot Studio
+            url: getting-started/agent-how-to.md
+          - text: Customize your agent
+            url: getting-started/customize-your-agent.md
+          - text: Manage agent provisioning
+            url: getting-started/manage-agent-provisioning.md
+          - text: Configure Omnichannel with Power Pages site agent
+            url: configure/omnichannel.md
+          - text: Build an agent from a form (preview)
+            url: getting-started/build-agent-from-form.md
+
+  # Card
+  - title: Build with AI as a developer
+    linkLists:
+
+      - linkListType: overview
+        links:
+          - text: Overview of developer capabilities
+            url: configure/developer-overview.md
+      - linkListType: concept
+        links:
+          - text: Data summarization API overview (preview)
+            url: configure/data-summarization-api.md
+      - linkListType: how-to-guide
+        links:
+          - text: Add AI-generated code using Copilot (preview)
+            url: configure/add-code-copilot.md
+          - text: Connect to Power Pages MCP server
+            url: configure/mcp-overview.md
+          - text: Set up identity provider for MCP in Power Pages
+            url: configure/mcp-configure-entra.md
+          - text: Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code
+            url: configure/create-code-site-using-claude-code.md
+          - text: Use @powerpages within GitHub Copilot Chat for Visual Studio Code (preview)
+            url: configure/github-copilot-chat.md
+          - text: Create and deploy a single-page application using GitHub Spark and Codespaces
+            url: configure/create-code-site-using-codespace.md
+          - text: Add Copilot summarization to case page (preview)
+            url: configure/add-copilot-summarization-to-case-page.md
+          - text: Search with generative AI (preview)
+            url: configure/search/generative-AI.md
+  
+  # Card
+  - title: Enhance and secure your sites with AI
+    linkLists:
+
+      - linkListType: how-to-guide
+        links:
+          - text: Add AI features in a list (preview)
+            url: getting-started/add-ai-summary-list.md
+          - text: Security agent overview (preview)
+            url: security/security-agent.md
+          - text: Ask Copilot questions in Power Pages
+            url: getting-started/ask-copilot.md
+          - text: Generate answers from public data using Bing search
+            url: getting-started/force-bing-index.md
+  
+  # Card
+  - title: AI-powered Copilot feature availability
+    linkLists:
+
+      - linkListType: concept
+        links:
+          - text: Copilot international availability
+            url: https://aka.ms/bapcopilot-intl-report-external
+          - text: Copilot in Dynamics 365 apps and Power Platform availability
+            url: /power-platform/faqs-copilot-data-security-privacy#copilot-in-dynamics-365-apps-and-power-platform
+          - text: Data movement across regions for copilots
+            url: /power-platform/admin/geographical-availability-copilot

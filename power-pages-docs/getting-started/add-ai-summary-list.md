@@ -138,4 +138,4 @@ The list now lets you use natural language search.
 
 - [Responsible AI FAQ for AI features in a list](../faqs-ai-summary-list.md)
 - [Disable Generative AI features for users (preview)](../admin/copilot-governance.md)
-- [AI Copilot overview for Power Pages](../configure/ai-copilot-overview.md)
+- [AI Copilot overview for Power Pages](../copilot-ai.yml)
