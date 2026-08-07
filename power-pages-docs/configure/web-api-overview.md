@@ -3,7 +3,7 @@ title: Overview of the Power Pages portals Web API
 description: Learn how to use the portals Web API to create, read, update, and delete Microsoft Dataverse tables from your Power Pages sites.
 author: neerajnandwana-msft
 ms.topic: overview
-ms.date: 08/04/2026
+ms.date: 08/07/2026
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: smurkute
@@ -63,7 +63,6 @@ To enable the portals Web API for your portal, turn on the site setting. You can
 | *Webapi/\<table name\>/enabled* | Enables or disables the Web API for \<table name\>. <br> **Default:** `False` <br> **Valid values:** `True`, `False` |
 | *Webapi/\<table name\>/fields*  | Defines the comma-separated list of attributes that users can modify by using the Web API. <br>  **Possible values:**  <br> - *Specific attributes:* `attr1,attr2,attr3` <br> **Important**: This setting is a mandatory site setting. When this setting is missing, you see the error "No fields defined for this entity." |
 | *Webapi/error/innererror* | Enables or disables InnerError. <br> **Default:** `False` <br> **Valid values:** `True`, `False` |
-| *Webapi/\<table name\>/disableodatafilter* | Enables or disables the OData filter. <br> **Default:** `False` <br> **Valid values:** `True`, `False` See [known issues](#known-issues) for more information. The site setting is available in portal version [9.4.10.74](/power-platform/released-versions/portals) or later. |
 
 For example, to expose the Web API for the Case table where authenticated
 users can create, update, and delete records for this entity, use the site settings shown in the following table.
@@ -281,13 +280,6 @@ Portals Web API can't be used for the following configuration tables:
 Users get a CDS error if they invoke a `GET` Web API request for tables that have multiple levels of *1 to many* or *many to many* [table permissions](../security/table-permissions.md) when **Parental**, **Contact, or **Account** scopes add more conditions to the query.
 
 To resolve this issue, use [FetchXML](/power-apps/developer/data-platform/use-fetchxml-construct-query) in the OData query.
-
-Alternatively, set the site setting *Webapi/\<table name\>/disableodatafilter* to `True`. 
-
-> [!IMPORTANT]
-> Changing the site setting *Webapi/\<table name\>/disableodatafilter* to `True` might result in slower performance for Web API `GET` calls.
-
-The site setting is available in portal version [9.4.10.74](/power-platform/released-versions/portals) or later.
 
 ## Next step
 
