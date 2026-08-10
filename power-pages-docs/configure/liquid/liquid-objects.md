@@ -5,7 +5,7 @@ author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
-ms.date: 04/28/2026
+ms.date: 08/03/2026
 ms.subservice:
 ms.author: nabha
 ms.reviewer: smurkute
@@ -15,12 +15,12 @@ contributors:
 
 # Available Liquid objects
 
-Liquid objects contain attributes to output dynamic content to the page. For example, the page object has an attribute called title that can be used to output the title of the current page.
+Liquid objects contain attributes to output dynamic content to the page. For example, the `page` object has an attribute called `title` that you can use to output the title of the current page.
 
-To access an object attribute by name, use a period (.). To render an object's attribute in a template, wrap it in {{ and }}.
+To access an object attribute by name, use a period (`.`). To render an object's attribute in a template, wrap it in `{{` and `}}`.
 
 > [!IMPORTANT]
-> To avoid potential cross-site scripting (XSS) issues, always use [escape filter](liquid-filters.md#escape) to HTML encode data whenever using Liquid objects to read untrusted data provided by the user.
+> To avoid potential cross-site scripting (XSS) problems, always use the [escape filter](liquid-filters.md#escape) to HTML encode data whenever you use Liquid objects to read untrusted data that a user provides.
 
 ```
 {{ page.title }}
@@ -35,14 +35,14 @@ Attributes of an object can also be accessed by using a string name and \[\]. Th
 {{ object[attribute_name] }}
 ```
 
-The following objects can be used and accessed anywhere, in any template.
+You can use and access the following objects anywhere, in any template.
 
 |   Object    |                                                                                                                                                                                          Description                                                                                                                                                                                           |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  entities   |                                                                                                 Allows you to load any Microsoft Dataverse table by ID. More information: [entities](#entities)                                                                                                 |
 |     now     |                                          A date/time object that refers to the current UTC time at the time the template is rendered.<br>**Note**: The portal web app caches this value and it isn't refreshed every time. More information: [Date filters](liquid-filters.md#date-filters)                                          |
-|    page     | Refers to the current portal request page. The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Dataverse record. More information: [page](#page) |
-|   params    |                                                                                                                             A convenient shortcut for request.params. More information: [request](#request)                                                                                                                              |
+|    page     | Refers to the current portal request page. The `page` object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Dataverse record. More information: [page](#page) |
+|   params    |                                                                                                                             A convenient shortcut for `request.params`. More information: [request](#request)                                                                                                                              |
 |   request   |                                                                                                                        Contains information about the current HTTP request. More information: [request](#request)                                                                                                                        |
 |  settings   |                                                                                                            Allows you to load any [Site Setting](/power-apps/maker/portals/configure/configure-site-settings) by name. More information: [settings](#settings)                                                                                                            |
 |   sitemap   |                                                                                                                               Allows access to the portal site map. More information: [sitemap](#sitemap)                                                                                                                                |
@@ -76,56 +76,56 @@ The ads object allows you to select a specific ad or ad placement:
 
 ### Ads attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | placements        | Returns the placements object.    |
 | \[ad name or id\] | You can access any ad by its Name or ID properties. <br> `{% assign ad = ads[Ad Name] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
 
 ### Ad Placements attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | \[ad placement name or id\] | You can access any placement by its Name or ID properties.<br>`{% assign placement = ads.placements[Placement Name or Id] %}`<br>`{% assign placement = ads.placements[2423d713-abb3-44c3-8a7d-c445e16fccad] %}`  |
 
-### Ad Placement attributes
+### Ad placement attributes
 
 An ad placement is a table object with the same general attributes, and the following attributes:
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
-| Ads            | Returns the collection of ad objects associated with the placement.  [Iteration tags](iteration-tags.md) and [Array filters](liquid-filters.md#array-filters) can be used with this collection.  |  
-| Name           | Returns the Name field for the ad placement.                                                                |
-| placement\_url | The URL that can be used to retrieve the ad placement fully rendered by a template.                         |
-| random\_url    | The URL that can be used to retrieve a random ad from the placement fully rendered by a template.           |
+| Ads | Returns the collection of ad objects associated with the placement. Use [Iteration tags](iteration-tags.md) and [Array filters](liquid-filters.md#array-filters) with this collection. |  
+| Name | Returns the Name field for the ad placement. |
+| placement\_url | The URL that you can use to retrieve the ad placement fully rendered by a template. |
+| random\_url | The URL that you can use to retrieve a random ad from the placement fully rendered by a template. |
 
 ### Ad attributes
 
 > [!Note]
-> An ad is a table object, with all of the same attributes in addition to the following:
+> An ad is a table object with all of the same attributes, in addition to the following attributes:
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
-| ad\_url |  The URL that can be used to retrieve the ad fully rendered by a template.   |
-| Copy| Returns the Copy field for the ad.|
-| image| Returns the image object (if any) for the ad.|
-| Name| Returns the Name field for the ad.|
+| ad\_url | The URL that you can use to retrieve the ad fully rendered by a template. |
+| Copy | Returns the Copy field for the ad.|
+| image | Returns the image object (if any) for the ad.|
+| Name | Returns the Name field for the ad.|
 | open\_in\_new\_window | Returns true if the URL specified by redirect\_url should open in a new window. |
-| redirect\_url| The URL that the user is directed to by selecting the ad.|
+| redirect\_url | The URL that the user is directed to by selecting the ad. |
 
-### Ad Image attributes
+### Ad image attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
-| alternate\_text | Return the text that is intended to appear in the tag's alt attribute. |
-| height          | Returns the height in pixels for the image                             |
-| url             | Returns the URL source for the image.                                  |
-| width           | Returns the width in pixels for the image                              |
+| alternate\_text | Returns the text that appears in the tag's alt attribute. |
+| height | Returns the height in pixels for the image. |
+| url | Returns the URL source for the image. |
+| width | Returns the width in pixels for the image. |
 
 ## blogs
 
-Enables the retrieval and display of Blogs and Blog Posts.
+Enables the retrieval and display of blogs and blog posts.
 
-The blogs object allows you to select a specific blog or blog posts.
+The blogs object enables you to select a specific blog or blog posts.
 
 ```
 {% assign posts = blogs.posts | paginate: 0,4 %}
@@ -195,16 +195,16 @@ The blogs object allows you to select a specific blog or blog posts.
 </div>
 ```
 
-### blogs Object
+### blogs object
 
-The blogs object allows you to access any specific blog in the portal, or to access all blog posts in the portal.
+The blogs object enables you to access any specific blog in the portal, or to access all blog posts in the portal.
 
 The following table explains the attributes associated with the blogs object.
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
-| posts               | Returns a blog posts object containing all blog posts in the portal.     |
-| \[blog name or id\] | You can access any blog by its Name or ID properties.                   
+| posts | Returns a blog posts object containing all blog posts in the portal. |
+| \[blog name or id\] | You can access any blog by its Name or ID properties. |                   
 
 ```
 {% assign blog = blogs["Blog Name"] %}                             
@@ -214,60 +214,60 @@ The following table explains the attributes associated with the blogs object.
 
 ### blog Object
 
-The blog object allows you to work with a single blog, allowing you to access the posts for that blog.
+The blog object works with a single blog, so you can access the posts for that blog.
 
-The following table explains various attributes associated with blog Object.
+The following table explains various attributes associated with the blog object.
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | posts | Returns a blog posts object containing all blog posts for the blog. |
-| Name  | The name of the blog.                                              |
-| title | The title of the blog.                                             |
-| url   | The URL of the blog.                                               |
+| Name | The name of the blog. |
+| title | The title of the blog. |
+| url | The URL of the blog. |
 
 ### blogposts Object
 
-The blogposts object allows you to access a collection of blog post objects. You can order the blog posts and achieve pagination in addition to using liquid filters:
+The blogposts object gives you access to a collection of blog post objects. You can order the blog posts and achieve pagination by using liquid filters.
 
 ```
 {% assign blogposts = blogs.posts | order\_by “adx\_name”, “desc” | paginate: 0,4 | all %}
 ```
 
-Other possible options:
+Other possible options include:
 
 - `blogs.posts.all` (to get all blog posts)
 - `blogs.posts | from\_index: 0 | take: 2`
 
-The following table explains various attributes associated with blogposts Object.
+The following table explains various attributes associated with the blogposts object.
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
-| All | Returns all blogpost objects in the collection |
+| All | Returns all blogpost objects in the collection. |
 
 ### blogpost Object
 
 Refers to a single blog post.
 
-The following table explains various attributes associated with blogpost Object.
+The following table explains various attributes associated with the blogpost object.
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | url            | The URL of the post.                                                                |
 | content        | Returns the Content field for the post.                                             |
-| author         | Returns the authors for the post (which is simply a contact table object.          |
+| author         | The authors for the post, which is a contact table object.          |
 | title          | The Title of the post.                                                              |
-| comment\_count | Returns the integer value of the count of how many comments there for a given post. |
+| comment\_count | The integer value of the count of how many comments there are for a given post. |
 | publish\_date  | The date at which the post was published.                                           |
 
 ## entities
 
 > [!CAUTION]
-> To avoid potential cross-site scripting (XSS) issues, always use [escape filter](liquid-filters.md#escape) to HTML encode string data whenever using **entities** Liquid object to read data provided by the user that can't be trusted.
+> To avoid potential cross-site scripting (XSS) issues, always use the [escape filter](liquid-filters.md#escape) to HTML encode string data whenever you use the **entities** Liquid object to read data provided by the user that you can't trust.
 
 > [!NOTE]
-> Some of the naming conventions of Dataverse have changed, for example, Dataverse entities are now called [tables](/power-apps/maker/data-platform/data-platform-intro#terminology-updates). The name changes don't apply to Liquid objects. The Liquid entities object continues to be referred to as **entities**.
+> Some of the naming conventions of Dataverse have changed. For example, Dataverse entities are now called [tables](/power-apps/maker/data-platform/data-platform-intro#terminology-updates). The name changes don't apply to Liquid objects. The Liquid entities object continues to be referred to as **entities**.
 
-Allows you to load any Dataverse table by ID. If the table exists, a table object is returned. If a table with the given ID isn't found, [null](liquid-types.md#null) is returned.  
+Use this object to load any Dataverse table by ID. If the table exists, it returns a table object. If a table with the given ID isn't found, it returns [null](liquid-types.md#null).  
 
 ```
 {% assign account = entities.account['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'] %}
@@ -335,7 +335,7 @@ Option Set/Picklist attribute values are returned as associated table reference 
 | Label     | The localized label of the option set/picklist attribute value. For example, Active|
 | Value     | The integer value of the option set/picklist attribute value. For example, 0                                                           |
 
-### Table Permissions
+### Table permissions
 
 The Table Permissions object provides access to aggregated permission assertion results for a table.
 
@@ -349,9 +349,9 @@ The Table Permissions object provides access to aggregated permission assertion 
 | can\_write      | Returns true if the current user has permission to update this record. Returns false otherwise.                                                                                                                          |
 | rules\_exist    | Returns true if the permission results represented by this object are the result of explicitly defined permission rules. Returns false if they're the default results in the absence of explicitly defined permissions. |
 
-### Reflexive Relationship
+### Reflexive relationship
 
-Attempts to load reflexive (that is, self-referential) relationships on entities are returned as objects with the following attributes.
+Attempts to load reflexive (that is, self-referential) relationships on entities return as objects with the following attributes.
 
 | Attribute     | Description                                                                                                   |
 |---------------|---------------------------------------------------------------------------------------------------------------|
@@ -361,7 +361,7 @@ Attempts to load reflexive (that is, self-referential) relationships on entities
 
 ## entitylist
 
-The entitylist object is used within the [Dataverse table tags](dataverse-liquid-tags.md). It provides access to all the attributes of a given list.  
+Use the `entitylist` object within the [Dataverse table tags](dataverse-liquid-tags.md) to access all the attributes of a given list.  
 
 > [!Note]                                                       
 > [Render the list associated with the current page](render-list-current-page.md)
@@ -374,16 +374,16 @@ The entitylist object is used within the [Dataverse table tags](dataverse-liquid
 |               Attribute               |                                                                                                                            Description                                                                                                                            |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |            create\_enabled            |                                                                                Returns true if creation of new records is configured for the list. Returns false otherwise.                                                                                |
-|              create\_url              |                                                                                          Returns the configured URL path for a creation link/button for the list.                                                                                          |
+|              create\_url              |                                                                                          Returns the configured URL path for a creation link or button for the list.                                                                                          |
 |            detail\_enabled            |                                                                         Returns true if a detail view for individual records is configured for the list. Returns false otherwise.                                                                          |
 |         detail\_id\_parameter         |               Returns the query string parameter name to use for the record ID when constructing a record detail view URL. See [URL filters](liquid-filters.md#url-filters) for details on using Liquid filters to construct URLs. For example, ID                |
-|             detail\_label             |                                                                                     Returns the configured localized label for detail view links/buttons for the list.                                                                                     |
-|              detail\_url              |                                                                                       Returns the configured URL path for a detail view links/buttons for the list.                                                                                        |
+|             detail\_label             |                                                                                     Returns the configured localized label for detail view links or buttons for the list.                                                                                     |
+|              detail\_url              |                                                                                       Returns the configured URL path for a detail view links or buttons for the list.                                                                                        |
 |           empty\_list\_text           |                                                                                Returns the configured localized text to be displayed when the list view returns no results.                                                                                |
 |      enable\_entity\_permissions      |                                                                               Returns true if Table Permission filtering is enabled for this list. Returns false otherwise.                                                                               |
 |         entity\_logical\_name         |                                                 Returns the Dataverse table logical name for records to be displayed by this list. For example, contact                                                 |
 |   filter\_account\_attribute\_name    |                                            Returns the attribute logical name for the lookup to account that is used to filter result records by the current portal user's parent account. For example, accountid                                            |
-|         filter\_apply\_label          |                                                            Returns the configured localized label to be used for the link/button that applies an advanced attribute filter to the list results.                                                            |
+|         filter\_apply\_label          |                                                            Returns the configured localized label to be used for the link or button that applies an advanced attribute filter to the list results.                                                            |
 |          filter\_definition           |                      Returns the JSON attribute filter definition for the list. See [List filters](liquid-filters.md#list-filters) for details on how to use the metafilters Liquid filter to process this definition.                       |
 |            filter\_enabled            |                                                                               Returns true if advanced attribute filtering is enabled for the list. Returns false otherwise.                                                                               |
 | filter\_portal\_user\_attribute\_name |                                                 Returns the attribute logical name for the lookup to contact that is used to filter result records by current portal user's contact. For example, contactid                                                  |
@@ -397,19 +397,19 @@ The entitylist object is used within the [Dataverse table tags](dataverse-liquid
 |                 views                 |                                                                                           Returns the available views for the list, as list view objects.                                                                                           |
 |      \[attribute logical name\]       | You can access any attribute of the list (adx\_entitylist) Dataverse record by logical name, in the same manner as a [table](liquid-objects.md#entity) object. For example, {{ entitylist.adx\_name }} |
 
-### List View Attributes
+### List view attributes
 
 |          Attribute          |                                                                                     Description                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |           columns           |                                                         Returns the columns of the view as list view column objects.                                                         |
 |    entity\_logical\_name    |               Returns the Dataverse table logical name for the records included in the view. For example, contact                |
 |             ID              |                                                                          Returns the GUID ID of the view.                                                                           |
-|       language\_code        | Returns the Dataverse integer language code that is used to select all localized labels (column headers, etc.) for the view. |
+|       language\_code        | Returns the Dataverse integer language code that is used to select all localized labels (column headers, and other labels) for the view. |
 |            Name             |                                          Returns the Dataverse display name of the view.                                          |
 | primary\_key\_logical\_name |        Returns the Dataverse table primary key logical name for the records included in the view. For example, contactid         |
 |      sort\_expression       |                                               Returns the default sort expression for the view. For example, name ASC, createdon DESC                                               |
 
-### List View Column Attributes
+### List view column attributes
 
 |    Attribute     |                                                                                    Description                                                                                    |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -424,7 +424,7 @@ The entitylist object is used within the [Dataverse table tags](dataverse-liquid
 
 ## entityview
 
-The entityview object is used within the entityview tag, and provides access to the metadata for the view, in addition to view result records.
+Use the entityview object within the entityview tag. It provides access to the metadata for the view, in addition to view result records.
 
 ### Attributes
 
@@ -453,24 +453,25 @@ The entityview object is used within the entityview tag, and provides access to 
 
 Enables the retrieval and display of events. The events object allows you to select a specific event or all events.
 
-### events Object
+### events object
 
-The events object allows you to access any specific event in the portal, or to access all events in the portal (regardless of the event).
+Use the `events` object to access a specific event in the portal or to access all events in the portal.
 
-The events object has following attributes:
 
-|Attribute   |Description   |
+The `events` object has the following attributes:
+
+| Attribute | Description |
 |---|---|
-|occurrences |Returns an eventoccurancessobject containing all event occurrences in the portal |
-|[event name or ID] |You can access any event by its Name or ID properties.<br>{% assign event = events[&quot;Event Name&quot;] %}<br>{% assign event = events[&quot;da8b8a92-2ee6-476f-8a21-782b047ff460&quot;] %} |
+| occurrences | Returns an `eventoccurrences` object containing all event occurrences in the portal. |
+| [event name or ID] | Access any event by its Name or ID properties.<br>{% assign event = events["Event Name"] %}<br>{% assign event = events["da8b8a92-2ee6-476f-8a21-782b047ff460"] %} |
 
-### event Object
+### event object
 
-The event object allows you to work with a single event, allowing you to access the schedules and occurrences for that event.
+Use the `event` object to work with a single event. You can access the schedules and occurrences for that event.
 
-The event object has following attributes:
+The `event` object has the following attributes:
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | occurrences | Returns an eventoccurrencesobject containing all occurrences for the event. |
 | name       | The name of the event.                                                     |
@@ -484,7 +485,6 @@ The eventoccurrences object allows you to access a collection of event occurrenc
 {% assign occurances = event.occurrences.from[today].to[advance_date] %}
 ```
 
-The following option is also possible:
 
 ```
 {% assign occurances = event.occurrences.min[today].max[advance_date] %}
@@ -492,7 +492,7 @@ The following option is also possible:
 
 Following attributes are associated with eventoccurrences object
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | All | Returns all eventoccurance objects in the collection. |
 
@@ -500,7 +500,7 @@ Following attributes are associated with eventoccurrences object
 
 Represents a single event occurrence. The following are the associated attributes:
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | url                 | The URL of the occurrence.    |
 | is\_all\_day\_event | Is this an all-day event?     |
@@ -545,7 +545,7 @@ This is child page number 3.
 
 ### Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | first   | Returns true if it's the first iteration of the loop. Returns false if it's not the first iteration.       |
 | index   | The current item's position in the collection, where the first item has a position of 1.                   |
@@ -608,25 +608,26 @@ The forums object allows you to select a Forum or Forum Threads:
 </div>
 ```
 
-### forums Object
+### forums object
 
 The forums object allows you to access any specific forum in the portal, or to access all forum threads in the portal (regardless of the forum).
 
-The forum object allows you to work with a single forum, allowing you to access the threads for that forum.
+The forum object allows you to work with a single forum, so you can access the threads for that forum.
 
-The forumthreads object allows you to access a collection of forumthread objects. You can order the forum threads and achieve pagination as well by using liquid filters.
+The forumthreads object allows you to access a collection of forumthread objects. You can order the forum threads and achieve pagination by using Liquid filters.
+
 
 ```
 {% assign threads = forum.threads | order_by adx_name, desc | paginate: 0,4 | all %}
 ```
 
-A Single Forum Thread
+A single forum thread
 
 The forumposts object allows you to access a collection of forumpost objects.
 
 ### Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | threads              | Returns a forumthreads object containing all forumthread objects in the portal.             |
 | All                  | Returns all forum objects in the portal. Note that website.forums Is also an equivalent.    |
@@ -641,7 +642,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 > [!Note]
 > [entities](#entities)
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | threads       | Returns a forumthreads object containing all forum threads for the forum.               |
 | Name          | The Name of the Forum.                                                                  |
@@ -652,7 +653,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 
 ### Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | All | Returns all forumthread objects in the collection. |
 
@@ -663,7 +664,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 > [!Note]
 > [entities](#entities)
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | posts        | Returns a forumposts object containing all forum posts for the thread.            |
 | author       | Returns the author for the thread (which is simply a contact table object).      |
@@ -677,7 +678,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 
 ### Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | All | Returns all forumthread objects in the collection. |
 
@@ -688,7 +689,7 @@ A Single Forum Post
 > [!Note] 
 > [entities](#entities)
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | author     | Returns the author for the post (which is simply a contact table object). |
 | content    | The content of the post.                                                   |
@@ -701,7 +702,7 @@ Provides access to Dataverse knowledgearticle and category table records to rend
 
 ### Attributes
 
-|Attribute|Description|
+| Attribute | Description |
 |---|---|
 |articles|Returns an articles object containing article objects for the knowledgearticle table records available in the portal.|
 |categories|Returns a categories object containing category objects for the category table records available in the portal.|
@@ -729,7 +730,7 @@ The articles object allows you to access a collection of article objects. You ca
 
 ### Attributes
 
-|Attribute|Description|
+| Attribute | Description |
 |---|---|
 |popular |Returns a collection of article objects containing the most views. `{% assign popular_articles = knowledge.articles.popular %}` |
 |recent |Returns a collection of article objects containing the latest modified date. `{% assign recent_articles = knowledge.articles.recent %}` |
@@ -746,14 +747,14 @@ The following filters can accept optional parameters for page size and language.
 {% assign recent_articles = knowledge.articles | recent: page_size, language_code %}
 ```
 
-|Attribute|Description|
+| Attribute | Description |
 |---|---|
 |popular |Returns a collection of article objects containing the most views. `{% assign popular_articles = knowledge.articles \| popular: 10, en-US %}` |
 |recent |Returns a collection of article objects containing the latest modified date. `{% assign recent_articles = knowledge.articles \| recent: 5 %}` |
 |top |Returns a collection of article objects containing the highest rating. `{% assign top_articles = knowledge.articles \| top: 3, en-US %}` |
 | | |
 
-### categories object
+### Categories object
 
 The categories object allows you to access a collection of category objects. You can order the categories and achieve pagination as well by using liquid filters.
 
@@ -774,7 +775,7 @@ The categories object allows you to access a collection of category objects. You
 
 ### Attributes
 
-|Attribute|Description|
+| Attribute | Description |
 |---|---|
 |recent |Returns a collection of category objects containing the latest modified date. |
 |top_level |Returns a collection of category objects that don't have a parent category. |
@@ -789,7 +790,7 @@ The following filters can accept an optional parameter indicating the page size.
 {% assign recent_categories = knowledge.categories | recent: page_size %}
 ```
 
-|Attribute|Description|
+| Attribute | Description |
 |---|---|
 |recent |Returns a collection of category objects containing the latest modified date. You can provide parameters `{% assign recent_categories = knowledge.categories \| recent: 10 %}` |
 |top_level |Returns a collection of category objects that don't have a parent category. `{% assign root_categories = knowledge.categories \| top_level %}` |
@@ -803,7 +804,7 @@ The article object allows you to work with a single knowledgearticle to display 
 
 Article is an [entity](#entity) object, with all of the same attributes, in addition to the following attributes:
 
-|Attribute|Description|
+| Attribute | Description |
 |---|---|
 |article_public_number| The Article Public Number of the article.|
 |comment_count| The integer value of the count of how many comments there is for a given article.|
@@ -825,7 +826,7 @@ The category object allows you to work with a single category to display its det
 
 category is an [entity](#entity) object, with all of the same attributes, in addition to the following attributes:
 
-|Attribute|Description|
+| Attribute | Description |
 |---|---|
 |categorynumber|The Category Number of the category.|
 |name|An alternate alias for the title of the category.|
@@ -982,14 +983,14 @@ The polls object allows you to select a specific poll or poll placement:
 
 ### Polls Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | placements          | Returns the pollplacements object.                                      |
 | \[poll name or id\] | You can access any poll by its Name or ID properties. `{% assign poll = polls[Poll Name] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
 
 ### Poll Placements Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | \[poll placement name or id\] | You can access any poll placement by its Name or ID properties.`{% assign placement = polls.placements[Placement Name or Id] %}`<br>`{% assign placement = polls.placements[7677c5d4-406e-4b6c-907c-916ac17dba0f] %} `|
 
@@ -998,7 +999,7 @@ The polls object allows you to select a specific poll or poll placement:
 > [!Note] 
 > [entities](#entities)                                       
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | Name           | Returns the Name field for the poll placement.                            
 | placement\_url | The URL that can be used to retrieve the poll placement fully rendered by a template.                       |
@@ -1011,7 +1012,7 @@ The polls object allows you to select a specific poll or poll placement:
 > [!Note] 
 > [entities](#entities)                                          
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | has\_user\_voted       | Returns true if the current user (signed in or anonymous) has already voted in this poll.         |
 | Name                   | Returns the Name field for the poll.                                                              |
@@ -1028,7 +1029,7 @@ The polls object allows you to select a specific poll or poll placement:
 >[!Note]
 > [entities](#entities)                                         
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | answer     | Returns the Answer field for the poll. |
 | percentage | Returns the percentage of votes in the poll for the option as a decimal number from 0 through 100. |
@@ -1052,7 +1053,7 @@ Contains information about the current HTTP request.
 
 ### Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | params           | Named parameter values for the current request. params is a combination of URL query string parameters, form post parameters, and cookies.  |
 | Path             | The path of the current request URL. <br> `/profile/`|
@@ -1099,7 +1100,7 @@ The searchindex object is used within the [Dataverse table tags](dataverse-liqui
 
 ### Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | approximate\_total\_hits | Returns an approximate count of total hits matching the index query. Due to the way the search index works in regard to security filtering and other design factors, this number is only an approximation, and might not exactly match the total number of results available to the current user in some situations.  |
 | Page                     | Returns the page number of the current query.                                                                                                                                                                                                           |
@@ -1117,14 +1118,75 @@ The searchindex object is used within the [Dataverse table tags](dataverse-liqui
 |    number     |                                                            The number of the result, across all result pages, starting from 1. For example, for the first result of the second page of results, with a page size of 10, this value is 11.                                                             |
 |     score     |                                                                                                 The Lucene score of the result, as a floating-point value. Results are returned ordered by this value.                                                                                                 |
 |     title     |                                                                                                                                          The title of the result.                                                                                                                                          |
-|      url      |                                                            The URL for the result. This will usually&mdash;but not necessarily&mdash;be an absolute path for the current application, rather than a full URL. For example: /articles/article1/                                                             |
+| url | The URL for the result. This URL usually&mdash;but not necessarily&mdash;is an absolute path for the current application, rather than a full URL. For example: /articles/article1/ |
+
+## serverlogic
+
+During Liquid template rendering, the `serverlogic` tag invokes a server logic operation. The `output` parameter of the `serverlogic` tag creates the object. The object isn't available as a global Liquid object.
+
+### Syntax
+
+```liquid
+{% serverlogic name: 'server-logic-name', operation: 'operation-name', input: inputData, output: result %}
+```
+
+### Parameters
+
+| Parameter | Required | Description |
+| --- | --- | --- |
+| `name` | Yes | Name of the server logic record to invoke. |
+| `operation` | Yes | Name of the JavaScript function to invoke in the server logic record. |
+| `input` | No | A string that the tag passes to the server logic operation. Use a JSON string to pass structured data. The operation can access the value through `Server.Context.Input`. |
+| `output` | Yes | Name of the Liquid variable that receives the server logic result object. |
+
+The following example passes JSON input to a server logic operation:
+
+```liquid
+{% assign inputData = '{"category":"active","maximumResults":5}' %}
+
+{% serverlogic name: 'customer-summary', operation: 'getSummary', input: inputData, output: result %}
+
+{% if result.success %}
+  <p>{{ result.data.message | escape }}</p>
+{% else %}
+  <p>The customer summary couldn't be retrieved.</p>
+{% endif %}
+```
+
+In the server logic operation, use `Server.Context.Input` to read the input:
+
+```javascript
+function getSummary() {
+    var input = JSON.parse(Server.Context.Input || "{}");
+
+    return JSON.stringify({
+        message: "Summary retrieved",
+        category: input.category,
+        maximumResults: input.maximumResults
+    });
+}
+```
+
+Learn more in [Call server logic from Liquid](../author-server-logic.md#call-server-logic-from-liquid).
+
+### Attributes
+
+| Attribute | Description |
+| --- | --- |
+| `success` | Returns `true` when the server logic operation completes successfully; otherwise, returns `false`. |
+| `status_code` | Returns the status code for the server logic operation. An execution error returns status code `500`. |
+| `data` | Returns the parsed JSON value that the server logic operation produces. You can access nested objects and arrays using standard Liquid syntax. |
+| `raw_result` | Returns the unparsed response produced by the server logic operation. Use this attribute when the response isn't valid JSON or when you need to inspect the original response. |
+
+> [!IMPORTANT]
+> Treat input and values returned by server logic as untrusted data. Validate input in the server logic operation and apply the [`escape`](liquid-filters.md#escape) filter before rendering returned strings in HTML.
 
 ## settings
 
-Allows you to load any [site setting](/power-apps/maker/portals/configure/configure-site-settings) by name. If a setting with the given name isn't found, [null](liquid-types.md#null) will be returned.  
+Use this object to load any [site setting](/power-apps/maker/portals/configure/configure-site-settings) by name. If the portal can't find a setting with the given name, it returns [null](liquid-types.md#null).  
 
 > [!Note]
-> Settings are returned as [strings](liquid-types.md#string), but you can use [Type filters](liquid-filters.md#type-filters) to convert them to other types.
+> The portal returns settings as [strings](liquid-types.md#string), but you can use [Type filters](liquid-filters.md#type-filters) to convert them to other types.
 
 ```
 {{ settings[My Setting] }}
@@ -1152,7 +1214,7 @@ Page size is greater than 10.
 
 ## sitemap
 
-Allows access to the portal site map.
+Use this object to access the portal site map.
 
 ```
 <h1>{{ sitemap.root.title }}</h1>
@@ -1192,14 +1254,14 @@ It's also possible to load a site map node by URL path:
 
 ### Site Map Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | Current | Returns the site map node object for the current page.                    |
 | Root    | Returns the site map node object for the root (home) page of the website. |
 
-### Site Map Node Attributes
+### Site map node attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |-------|-------|
 | Breadcrumbs           | Returns the breadcrumb site map node objects for the node, starting from the site map root node and ending at parent. |
 | Children              | Returns the child site map node objects of the node.                                                                  |
@@ -1235,7 +1297,7 @@ Site marker My Site Marker does not exist.
 > [!Note]
 > [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 
-### Sitemarker Attributes
+### Sitemarker attributes
 
 |         Attribute          |                                                                                    Description                                                                                    |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1272,7 +1334,7 @@ Contains properties useful within a [Iteration tags](iteration-tags.md) loop blo
 
 ### Attributes
 
-|Attribute   |Description   |
+| Attribute | Description |
 |---|---|
 | Col        | Returns the index of the current row, starting at 1.                                                       |
 | col0       | Returns the index of the current row, starting at 0.                                                       |
@@ -1307,7 +1369,7 @@ Hello, anonymous user!
 ```
 
 > [!NOTE]
-> Power Pages release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later will by default have [escape](liquid-filters.md#escape) Liquid filter enforced for [user](liquid-objects.md#user) and [request](liquid-objects.md#request) Liquid objects. To disable this default configuration and allow these Liquid objects without escape Liquid filter, see [portal site settings - Site/EnableDefaultHtmlEncoding](/power-apps/maker/portals/configure/configure-site-settings#portal-site-settings).
+> Power Pages release version [9.3.8.x](/power-platform/released-versions/portals/portalupdate938x) or later enforces the [escape](liquid-filters.md#escape) Liquid filter by default for [user](liquid-objects.md#user) and [request](liquid-objects.md#request) Liquid objects. To disable this default configuration and allow these Liquid objects without the escape Liquid filter, see [portal site settings - Site/EnableDefaultHtmlEncoding](/power-apps/maker/portals/configure/configure-site-settings#portal-site-settings).
 
 ### Attributes
 
@@ -1383,7 +1445,7 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) is
 |          Weblinks          |                                                       The array of web link objects associated with the web link set.                                                        |
 | \[attribute logical name\] | You can access any attribute of the web link set Dataverse record by logical name. For example, {{ weblinkset.createdon }} |
 
-### Web Link Attributes
+### Web link attributes
 
 > [!Note]
 > A web link is an [entity](#entity) object, with all of the same attributes, in addition to the following attributes:

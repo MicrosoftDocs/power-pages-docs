@@ -5,7 +5,7 @@ description: Learn how to use built-in server objects like Logger, HttpClient, a
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 05/13/2026
+ms.date: 08/10/2026
 ms.topic: reference
 ---
 
@@ -18,7 +18,7 @@ Server logic provides built-in objects under the server namespace. These objects
 Use the HTTP client to integrate with external services by sending HTTP requests.
 
 > [!NOTE]
-> Currently server logic supports only `application/json`, `text/html` and `application/x-www-form-urlencoded` content types in request body.
+> Currently, server logic supports only `application/json`, `text/html`, and `application/x-www-form-urlencoded` content types in the request body.
 
 ### Examples
 
@@ -101,7 +101,7 @@ let response = await Server.Connector.HttpClient.DeleteAsync(url, header);
 Allows you to read site setting values for the current website.
 
 > [!NOTE]
-> Don't store secrets (like API keys or credentials) directly in server logic. Instead, store them securely in Azure Key Vault, source them through environment variables, and reference them using site settings.
+> Don't store secrets, such as API keys or credentials, directly in server logic. Instead, store them securely in Azure Key Vault, source them through environment variables, and reference them by using site settings.
 
 **Example**
 
@@ -142,10 +142,10 @@ Server.User.fullname;
 
 ## Dataverse
 
-The `Server.Connector.Dataverse` object lets you perform CRUD operations on Dataverse tables, and invoke custom APIs.
+Use the `Server.Connector.Dataverse` object to perform CRUD operations on Dataverse tables and invoke custom APIs.
 
 > [!NOTE]
->- When referring to Dataverse tables in your code, you need to use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names), for example, to access the `account` table, the code syntax uses the EntitySetName of `accounts`.
+>- When you refer to Dataverse tables in your code, use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names). For example, to access the `account` table, use the EntitySetName `accounts`.
 
 
 
@@ -241,7 +241,7 @@ Invoke a bound action:
 Server.Connector.Dataverse.InvokeCustomApi("post", "accounts(00000000-0000-0000-0000-000000000001)/Microsoft.Dynamics.CRM.new_CustomBoundAction", "{ \"parameter1\": \"value1\" }");
 ```
 
-Invoke a un-bound action:
+Invoke an unbound action:
 
 ```javascript
 Server.Connector.Dataverse.InvokeCustomApi("post", "new_Action", "{ \"parameter1\": \"value1\" }");
@@ -266,7 +266,7 @@ Server.Connector.Dataverse.InvokeCustomApi("post", "new_Action", "{ \"parameter1
 
 ## Logger
 
-Use the logger to write diagnostic messages that can be viewed in the [DevTools extension](../configure/devtools-addon.md).
+Use the logger to write diagnostic messages that you can view in the [DevTools extension](../configure/devtools-addon.md).
 
 Example:
 
@@ -278,28 +278,72 @@ Server.Logger.Error("Error message");
 
 ## Context
 
-Provides metadata about the current request, including query parameters, headers, and body.
+The `Server.Context` object provides information about the current server logic invocation. The available properties depend on whether the server logic was invoked through an HTTP request or from a Liquid template.
 
 ### Properties
 
-| Name              | Description               |
-|-------------------|---------------------------|
-| ActivityId        | Unique request ID         |
-| Body              | Raw request body          |
-| FunctionName      | Invoked function name     |
-| Headers           | Request headers           |
-| HttpMethod        | HTTP method               |
-| QueryParameters   | Query string parameters   |
-| ServerLogicName   | Name of the server logic  |
-| Url               | Full request URL          |
+| Name | Available for | Description |
+| --- | --- | --- |
+| `ActivityId` | HTTP and Liquid | Unique identifier for the server logic invocation. Use this value to correlate logs and troubleshoot an operation. |
+| `Body` | HTTP | Raw HTTP request body. |
+| `FunctionName` | HTTP and Liquid | Name of the JavaScript function being invoked. For a Liquid invocation, this value corresponds to the `operation` parameter of the `serverlogic` tag. |
+| `Headers` | HTTP | HTTP request headers. |
+| `HttpMethod` | HTTP | HTTP request method, such as `GET`, `POST`, `PUT`, `PATCH`, or `DELETE`. |
+| `Input` | Liquid | Input string supplied through the `input` parameter of the `serverlogic` Liquid tag. When the input contains structured data, parse it as JSON before using it. |
+| `QueryParameters` | HTTP | Query-string parameters from the HTTP request. |
+| `ServerLogicName` | HTTP and Liquid | Name of the server logic record being invoked. |
+| `Url` | HTTP | Full URL of the HTTP request. |
 
-**Example**
+### Access HTTP request context
 
-Read query parameter `id` from the URL:
+The following example reads the `id` query parameter when server logic is invoked through an HTTP request:
 
 ```javascript
-Server.Context.QueryParameters['id'];
+var id = Server.Context.QueryParameters["id"];
 ```
+
+You can also access request metadata:
+
+```javascript
+function getRequestInformation() {
+    return JSON.stringify({
+        activityId: Server.Context.ActivityId,
+        functionName: Server.Context.FunctionName,
+        httpMethod: Server.Context.HttpMethod,
+        serverLogicName: Server.Context.ServerLogicName,
+        url: Server.Context.Url
+    });
+}
+```
+
+### Access Liquid invocation context
+
+When server logic is invoked from Liquid, use `Server.Context.Input` to read the value supplied through the tag's `input` parameter.
+
+For example, the following Liquid passes JSON input:
+
+```liquid
+{% assign inputData = '{"category":"active","maximumResults":5}' %}
+
+{% serverlogic output: result, name: 'customer-summary', operation: 'getSummary', input: inputData %}
+```
+
+The server logic operation can parse the input and access information about the Liquid invocation:
+
+```javascript
+function getSummary() {
+    var input = JSON.parse(Server.Context.Input || "{}");
+
+    return JSON.stringify({
+        category: input.category,
+        maximumResults: input.maximumResults,
+        activityId: Server.Context.ActivityId,
+        functionName: Server.Context.FunctionName,
+        serverLogicName: Server.Context.ServerLogicName
+    });
+}
+```
+
 
 ## Next step
 
