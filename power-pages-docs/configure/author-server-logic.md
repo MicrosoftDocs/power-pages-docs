@@ -5,19 +5,19 @@ description: Learn how to create and manage server logic in Power Pages, includi
 author: shwetamurkute
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 05/13/2026
+ms.date: 08/03/2026
 ms.topic: concept-article
 ---
 
 # Author server logic
 
-Create server logic in the [Set up workspace](setup-workspace.md) in design studio. Each server logic record represents a distinct server API that you can invoke from the client by using supported HTTP verbs.
+Create server logic in the [Set up workspace](setup-workspace.md) in design studio. Each server logic record represents distinct server-side logic that you can invoke from a client script by using supported HTTP verbs or from a Liquid template during server-side page rendering.
 
 ## Steps to create server logic
 
 1. Sign in to [Power Pages](https://make.powerpages.microsoft.com/).
 1. Select site **+ Edit**.
-1. Navigate to the **Set up** workspace, then select **Server logic**.
+1. Go to the **Set up** workspace, and then select **Server logic**.
 1. Select **+New server logic**.
 1. Enter a name for the server logic. The API uses this name as the resource identifier when constructing the server logic API.
 1. Select **+Add roles** to assign the appropriate web role.
@@ -115,6 +115,83 @@ shell.safeAjax({
   "Error": null
 }
 ```
+
+## Call server logic from Liquid
+
+Use the `serverlogic` Liquid tag to invoke server logic while a page or web template is rendered. This server-side invocation doesn't require a client-side HTTP request or Cross-Site Request Forgery (CSRF) token.
+
+Assign the server logic record to a web role that the current website user can access.
+
+For the complete syntax, input parameters, and returned attributes, see the [`serverlogic` Liquid object](../configure/liquid/liquid-objects.md#serverlogic).
+
+### Invoke server logic without input
+
+Create a function in the server logic record. 
+
+```javascript
+function getSummary() {
+    return JSON.stringify({
+        message: "Server logic invoked successfully",
+        count: 42
+    });
+}
+```
+
+Invoke the function from a page or web template:
+
+```liquid
+{% serverlogic name: 'customer-summary', operation: 'getSummary', output: result %}
+
+{% if result.success %}
+  <p>{{ result.data.message | escape }}</p>
+  <p>Count: {{ result.data.count }}</p>
+{% else %}
+  <p>The customer summary couldn't be retrieved.</p>
+{% endif %}
+```
+
+In this example:
+
+- `customer-summary` is the name of the server logic record.
+- `getSummary` is the JavaScript function to invoke.
+- `result` is the Liquid variable containing the operation result.
+- `result.data` contains the parsed JSON returned by `getSummary`.
+
+### Pass input to server logic
+
+Use the optional `input` parameter to pass a string to the server logic operation. Use JSON when you need to pass structured data.
+
+```liquid
+{% assign inputData = '{"category":"active","maximumResults":5}' %}
+
+{% serverlogic name: 'customer-summary', operation: 'getSummary', input: inputData, output: result %}
+
+{% if result.success %}
+  <p>Category: {{ result.data.category | escape }}</p>
+  <p>Maximum results: {{ result.data.maximumResults }}</p>
+{% endif %}
+```
+
+Read the input in the server logic function through `Server.Context.Input`:
+
+```javascript
+function getSummary() {
+    var input = JSON.parse(Server.Context.Input || "{}");
+
+    return JSON.stringify({
+        message: "Summary retrieved",
+        category: input.category,
+        maximumResults: input.maximumResults
+    });
+}
+```
+
+Validate input before using it in Dataverse operations or passing it to an external service.
+
+> [!NOTE]
+> Server logic invoked from Liquid runs while the page is rendered. Long-running Dataverse operations or external HTTP requests increase the page response time.
+
+
 ## Limitations
 
 The following limitations apply when authoring server logic:
