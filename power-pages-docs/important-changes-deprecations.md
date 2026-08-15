@@ -4,7 +4,7 @@ description: Learn about the important changes, including deprecations, coming s
 author: DanaMartens
 
 ms.topic: concept-article
-ms.date: 03/03/2026
+ms.date: 08/14/2026
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: dmartens
@@ -22,7 +22,25 @@ ms.custom:
 The announcements for changes and deprecations described in this article apply to Power Pages. Makers, developers, and IT pros can use this information to prepare for future releases.
 
 > [!IMPORTANT]
-> *Deprecated* means that we intend to remove the feature or capability from a future major release. The feature or capability continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+> *Deprecated* means that Microsoft intends to remove the feature or capability from a future major release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer works. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+## Wildcard value (*) in Web API field configuration
+
+Support for the wildcard value (`*`) in the `Webapi/<table-name>/fields` site setting is deprecated. The wildcard value exposes all columns in a Dataverse table through the Power Pages Web API.
+
+> [!NOTE]
+> - **August 2026**: Newly created websites can no longer use the wildcard value (`*`) in the `Webapi/<table-name>/fields` site setting.
+> - **September 14, 2026**: Support for the wildcard value (`*`) is removed for all websites. Existing websites must use an explicit list of allowed columns.
+
+### What this change means for you
+
+If your website uses the wildcard value (`*`) in the `Webapi/<table-name>/fields` site setting, update the setting to specify the columns that should be accessible through the Power Pages Web API before September 14, 2026. For more details, see [Overview of the Power Pages portals Web API](configure/web-api-overview.md).
+
+Don't wait until support is removed to make this change. Update your site settings as soon as possible to avoid potential disruptions and to ensure only intended columns are exposed through the Web API.
+
+### Why is this change necessary?
+
+Using the wildcard value can unintentionally expose additional columns through the Power Pages Web API. Requiring an explicit list of columns helps improve security and maintainability by ensuring that only intended data is accessible through the Web API.
 
 ## Enhanced link creation in design studio
 
@@ -64,7 +82,7 @@ You can create websites using the Dynamics 365 templates from [Power Pages](http
 
 ### Why don't I see Dynamics 365 portal templates in Power Pages? 
 
-If you're using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You'll see them in subsequent sites created, if the environment has any of the Dynamics 365 applications installed in it.   
+If you're using [Power Pages](https://make.powerpages.microsoft.com) for the first time, you won't see Dynamics 365 portals in your first site creation. You'll see them in subsequent sites created, if the environment has any of the Dynamics 365 applications installed in it.
 
 ### Why don't I see my Portals created in Power Apps under the **Apps** list in Portals Studio? 
 
@@ -72,7 +90,7 @@ Starting October 2023, portals created in Power Apps portals will show in [Power
 
 ## Power Apps portals admin center
 
-The Power Apps portals admin center is now deprecated and no longer available as of June 2023. Use the new [Power Pages admin hub](/power-pages/admin/admin-overview) in the Power Platform admin center. 
+The Power Apps portals admin center is deprecated and no longer available as of June 2023. Use the new [Power Pages admin hub](/power-pages/admin/admin-overview) in the Power Platform admin center. 
 
 ## Controlling site visibility changes in Power Pages
 
@@ -92,7 +110,7 @@ The [authorize endpoint](/power-apps/maker/portals/oauth-implicit-grant-flow#aut
 > - For more information on using a custom certificate, go to [Using a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates).
 > - For sample code on using POST calls on the Token endpoint, go to [Token endpoint sample](/power-apps/maker/portals/oauth-implicit-grant-flow#token-endpoint-sample).
 
-## List OData feed 
+## List OData feed
 
 Starting June 2022, using [OData feeds](/power-apps/maker/portals/configure/list-odata-feeds) to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the Power Pages [Web API](configure/web-api-overview.md). 
 
@@ -107,7 +125,7 @@ Starting June 2022, the portal content editor tool to design your website is dep
 > [!NOTE]
 > This feature will be removed by June  2026.
 
-## Portals search using Lucene.NET search 
+## Portals search using Lucene.NET search
 
 Starting with website version 9.4.4.xx, portal search uses Dataverse search as a default search provider for all new portals. Lucene.NET search is deprecated; however, existing portals that use Lucene.NET search won't be affected. We recommend that users migrate to Dataverse search. Enable Dataverse search for existing portal by setting the Search/EnableDataverseSearch site setting to true.
 
