@@ -4,10 +4,10 @@ description: Learn about the important changes, including deprecations, coming s
 author: DanaMartens
 
 ms.topic: concept-article
-ms.date: 08/14/2026
+ms.date: 08/19/2026
 ms.subservice: 
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
@@ -166,7 +166,7 @@ With this change, we're adding a new website setting to control the **SameSite**
 | HTTP/SameSite/Default | Global, for all cookies. | None <br /> Lax <br /> Strict |
 | HTTP/SameSite/{CookieName} | Specific cookie. | None <br /> Lax <br /> Strict |
 
-The default value for all existing and newly provisioned websites is **None**.
+The default value for all existing and newly provisioned websites is **Lax**.
 
 To learn how to configure site settings for websites, go to [Configure site settings for portals](/power-apps/maker/portals/configure/configure-site-settings).
 
