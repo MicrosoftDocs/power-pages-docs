@@ -1,17 +1,19 @@
 ---
-title: Identity provisioning in Power Pages
+title: Managed Identity and Site Provisioning in Power Pages
 description: Learn how Power Pages uses a platform-managed identity model to provision and operate sites securely without requiring manual Microsoft Entra app registrations or certificate management.
-ms.date: 04/29/2026
+ms.date: 08/21/2026
 ms.topic: article
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-contributors:
+ms.contributors:
+  - ritwikganni
+  - smurkute
 ms.custom:
   - bap-template
 ---
 
-# Identity provisioning in Power Pages
+# Managed identity and site provisioning in Power Pages
 
 Power Pages uses a platform-managed identity model to provision and operate sites securely. With this model, Power Pages creates and manages the identity required for a site to authenticate with Microsoft Dataverse and other Power Platform services.
 

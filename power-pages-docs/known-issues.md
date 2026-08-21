@@ -29,7 +29,7 @@ ms.custom:
 
 Creating a Power Pages site no longer require Microsoft Entra app registration permissions in environments with Power Pages Core package version 1.1.2605.xxx or later. These environments use a platform-managed identity that Power Pages automatically provisions and manages to securely access Dataverse and related services. This identity is tied to the site's lifecycle, so makers and administrators don't need to create, configure, or maintain app registrations or credentials.
 
-In earlier versions, site creation falls back to the legacy provisioning flow. In that flow, makers might see the error "You don't have permission to create Azure Active Directory" because app registration permissions are still required. For more information about how Power Pages manages identity and authentication, see [Identity provisioning](/power-pages/security/identity-provisioning).
+In earlier versions, site creation falls back to the legacy provisioning flow. In that flow, makers might see the error "You don't have permission to create Azure Active Directory" because app registration permissions are still required. For more information about how Power Pages manages identity and authentication, see [Managed identity and site provisioning in Power Pages](/power-pages/security/identity-provisioning).
 
 To resolve this issue, use one of the following supported options:
 
