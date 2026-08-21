@@ -139,6 +139,6 @@ The platform uses the Microsoft Graph service to retrieve role information. Curr
 ### Related information
 
 [Use the admin center](admin-overview.md)  
-[Identity provisioning](../security/identity-provisioning.md)
+[Managed identity and site provisioning in Power Pages](../security/identity-provisioning.md)
 [Portal Management app](../configure/portal-management-app.md)  
 [Site settings](/power-apps/maker/portals/configure/configure-site-settings)

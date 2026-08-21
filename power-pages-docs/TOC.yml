@@ -302,7 +302,7 @@
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
-    - name: Identity provisioning
+    - name: Managed identity and site provisioning
       href: security/identity-provisioning.md
     - name: Copilot hub
       href: admin/copilot-hub.md
