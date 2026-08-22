@@ -85,6 +85,8 @@ The command creates a folder with "V5" appended to the folder name.
 
 If you run into issues while upgrading to Bootstrap version 5 or want to revert to Bootstrap version 3, see [How to revert from Bootstrap version 5 to version 3](#how-to-revert-from-bootstrap-version-5-to-version-3).
 
+Note: Make sure the folder and file names in the path aren't so long that they exceed the 256 character limit for Windows. Otherwise, the migration will terminate prematurely
+
 ## Review your changes
 
 If you created a copy of your site before you migrated it, compare it with the version 5 site.
