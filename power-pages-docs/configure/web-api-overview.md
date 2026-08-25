@@ -111,169 +111,49 @@ More information:<br />[Enable and use activity logging](/power-platform/admin/e
 
 ## Unsupported configuration tables
 
-Portals Web API can't be used for the following configuration tables:
+Power Pages Web API can't be used for website configuration and metadata tables. This limitation applies to both the standard data model and the enhanced data model. 
 
+### Standard data model tables
 
-:::row:::
-:::column:::
-	adx_contentaccesslevel
-:::column-end:::
-:::column:::
-	adx_contentsnippet
-:::column-end:::
-:::column:::
-	adx_entityform
-:::row-end:::
-:::row:::
-:::column:::
-	adx_entityformmetadata
-:::column-end:::
-:::column:::
-	adx_entitylist
-:::column-end:::
-:::column:::
-	adx_entitypermission
-:::row-end:::
-:::row:::
-:::column:::
-	adx_entitypermission_webrole
-:::column-end:::
-:::column:::
-	adx_externalidentity
-:::column-end:::
-:::column:::
-	adx_pagealert
-:::row-end:::
-:::row:::
-:::column:::
-	adx_pagenotification
-:::column-end:::
-:::column:::
-	adx_pagetag
-:::column-end:::
-:::column:::
-	adx_pagetag_webpage
-:::row-end:::
-:::row:::
-:::column:::
-	adx_pagetemplate
-:::column-end:::
-:::column:::
-	adx_portallanguage
-:::column-end:::
-:::column:::
-	adx_publishingstate
-:::row-end:::
-:::row:::
-:::column:::
-	adx_publishingstatetransitionrule
-:::column-end:::
-:::column:::
-	adx_publishingstatetransitionrule_webrole
-:::column-end:::
-:::column:::
-	adx_redirect
-:::row-end:::
-:::row:::
-:::column:::
-	adx_setting
-:::column-end:::
-:::column:::
-	adx_shortcut
-:::column-end:::
-:::column:::
-	adx_sitemarker
-:::row-end:::
-:::row:::
-:::column:::
-	adx_sitesetting
-:::column-end:::
-:::column:::
-	adx_urlhistory
-:::column-end:::
-:::column:::
-	adx_webfile
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webfilelog
-:::column-end:::
-:::column:::
-	adx_webform
-:::column-end:::
-:::column:::
-	adx_webformmetadata
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webformsession
-:::column-end:::
-:::column:::
-	adx_webformstep
-:::column-end:::
-:::column:::
-	adx_weblink
-:::row-end:::
-:::row:::
-:::column:::
-	adx_weblinkset
-:::column-end:::
-:::column:::
-	adx_webnotificationentity
-:::column-end:::
-:::column:::
-	adx_webnotificationurl
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webpage
-:::column-end:::
-:::column:::
-	adx_webpage_tag
-:::column-end:::
-:::column:::
-	adx_webpageaccesscontrolrule
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webpageaccesscontrolrule_webrole
-:::column-end:::
-:::column:::
-	adx_webpagehistory
-:::column-end:::
-:::column:::
-	adx_webpagelog
-:::row-end:::
-:::row:::
-:::column:::
-	adx_webrole_systemuser
-:::column-end:::
-:::column:::
-	adx_website
-:::column-end:::
-:::column:::
-	adx_website_list
-:::row-end:::
-:::row:::
-:::column:::
-	adx_website_sponsor
-:::column-end:::
-:::column:::
-	adx_websiteaccess
-:::column-end:::
-:::column:::
-	adx_websiteaccess_webrole
-:::row-end:::
-:::row:::
-:::column:::
-	adx_websitebinding
-:::column-end:::
-:::column:::
-	adx_websitelanguage
-:::column-end:::
-:::column:::
-	adx_webtemplate
-:::row-end:::
+| | | |
+|---|---|---|
+| adx_contentaccesslevel | adx_contentsnippet | adx_entityform |
+| adx_entityformmetadata | adx_entitylist | adx_entitypermission |
+| adx_entitypermission_webrole | adx_externalidentity | adx_pagealert |
+| adx_pagenotification | adx_pagetag | adx_pagetag_webpage |
+| adx_pagetemplate | adx_portallanguage | adx_publishingstate |
+| adx_publishingstatetransitionrule | adx_publishingstatetransitionrule_webrole | adx_redirect |
+| adx_setting | adx_shortcut | adx_sitemarker |
+| adx_sitesetting | adx_urlhistory | adx_webfile |
+| adx_webfilelog | adx_webform | adx_webformmetadata |
+| adx_webformsession | adx_webformstep | adx_weblink |
+| adx_weblinkset | adx_webnotificationentity | adx_webnotificationurl |
+| adx_webpage | adx_webpage_tag | adx_webpageaccesscontrolrule |
+| adx_webpageaccesscontrolrule_webrole | adx_webpagehistory | adx_webpagelog |
+| adx_webrole_systemuser | adx_website | adx_website_list |
+| adx_website_sponsor | adx_websiteaccess | adx_websiteaccess_webrole |
+| adx_websitebinding | adx_websitelanguage | adx_webtemplate |
+
+### Enhanced data model tables
+
+| | | |
+|---|---|---|
+| powerpagesite | powerpagesitelanguage | powerpagecomponent |
+| mspp_columnpermission | mspp_columnpermissionprofile | mspp_contentsnippet |
+| mspp_entityform | mspp_entityformmetadata | mspp_entitylist |
+| mspp_entitypermission | mspp_pagetemplate | mspp_pollplacement |
+| mspp_publishingstate | mspp_publishingstatetransitionrule | mspp_redirect |
+| mspp_shortcut | mspp_sitemarker | mspp_sitesetting |
+| mspp_webfile | mspp_webform | mspp_webformmetadata |
+| mspp_webformstep | mspp_weblink | mspp_weblinkset |
+| mspp_webpage | mspp_webpageaccesscontrolrule | mspp_webrole |
+| mspp_websiteaccess | mspp_websitelanguage | mspp_webtemplate |
+
+### Dataverse metadata tables
+ 
+| | |
+|---|---|
+| systemform | savedquery |
 
 ## Known issues
 
