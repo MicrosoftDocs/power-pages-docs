@@ -3,7 +3,7 @@ title: Overview of the Power Pages portals Web API
 description: Learn how to use the portals Web API to create, read, update, and delete Microsoft Dataverse tables from your Power Pages sites.
 author: neerajnandwana-msft
 ms.topic: overview
-ms.date: 08/07/2026
+ms.date: 08/27/2026
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: smurkute
@@ -53,16 +53,17 @@ The portals Web API offers a subset of capabilities for Dataverse operations tha
 > site. Power Pages Web API requests for tables
 > configured with `*` fail until you configure explicit column names.
 
-To enable the portals Web API for your portal, turn on the site setting. You can also configure the field-level Web API that determines the table fields that users can or can't modify by using the portals Web API.
+To enable the portals Web API for your site, configure the site settings for each table that you want to expose. You can define the columns available to the Web API by listing them in a site setting, by using a Dataverse system view, or by combining both methods.
 
 > [!NOTE]
 > Use the table [logical name](/power-apps/developer/data-platform/entity-metadata) for these settings (for example, **account**).
 
 | Site setting name | Description|
 | - |- |
-| *Webapi/\<table name\>/enabled* | Enables or disables the Web API for \<table name\>. <br> **Default:** `False` <br> **Valid values:** `True`, `False` |
-| *Webapi/\<table name\>/fields*  | Defines the comma-separated list of attributes that users can modify by using the Web API. <br>  **Possible values:**  <br> - *Specific attributes:* `attr1,attr2,attr3` <br> **Important**: This setting is a mandatory site setting. When this setting is missing, you see the error "No fields defined for this entity." |
-| *Webapi/error/innererror* | Enables or disables InnerError. <br> **Default:** `False` <br> **Valid values:** `True`, `False` |
+| `Webapi/<table-name>/enabled` | Enables or disables the Web API for \<table name\>. <br> **Default:** `False` <br> **Valid values:** `True`, `False` |
+| `Webapi/<table-name>/fields`  | Defines a comma-separated list of column logical names available through the Web API. For example, `name,accountnumber,telephone1`. This setting is required unless `Webapi/<table-name>/UseFieldsFromView` is set to `True` and the configured system view contains at least one eligible column. The wildcard value (`*`) is deprecated. |
+| `Webapi/<table-name>/UseFieldsFromView` | When set to `True`, makes columns from a Dataverse system view named **Power Pages Web API Columns** available through the Web API. **Default:** `False`. **Valid values:** `True`, `False`. If `Webapi/<table-name>/fields` is also configured, columns from both sources are combined. |
+| `Webapi/error/innererror` | Enables or disables InnerError. <br> **Default:** `False` <br> **Valid values:** `True`, `False` |
 
 For example, to expose the Web API for the Case table where authenticated
 users can create, update, and delete records for this entity, use the site settings shown in the following table.
@@ -72,19 +73,44 @@ users can create, update, and delete records for this entity, use the site setti
 | *Webapi/incident/enabled* | true |
 | *Webapi/incident/fields* | attr1, attr2, attr3 |
 
-## Security with the portals Web API
+### Configure Web API columns by using a system view
 
-You can configure record-based security for individual records in portals by using [table permissions](../security/assign-table-permissions.md). The portals Web API accesses table (entity) records and follows the table permissions given to users through the associated [web role](../security/create-web-roles.md).
+By using a system view, makers can manage the columns available through the portal's Web API without maintaining a comma-separated list in a site setting.
 
-You can configure [column permissions](/power-apps/maker/portals/configure/column-permissions) to further define privileges to individual columns within a table while using the portals Web API. 
+1. In Power Pages design studio, open the [Data workspace](../getting-started/use-data-workspace.md).
+1. Select the table, select the **Views** tab, and then create or edit a public system view.
+1. Name the view **Power Pages Web API Columns**.
+1. Add the columns that your site needs to the view, and then save and publish the view.
+1. In the Portal Management app, create the `Webapi/<table-name>/UseFieldsFromView` site setting for the website and set its value to `True`.
+1. Confirm that `Webapi/<table-name>/enabled` is set to `True`.
 
-## Authenticating portals Web API requests
+
+> [!NOTE]
+> - Only columns from the primary table that are displayed in the view are included. Columns from related tables aren't included. Columns used only for filtering or sorting aren't included unless they're also displayed in the view.
+> - For lookup columns, use the corresponding OData lookup property in Web API requests. The property name uses the format `_<column-logical-name>_value`. For example, the `primarycontactid` lookup column is returned as `_primarycontactid_value`.
+> - Changes to the system view can take up to five minutes to become available to the Web API.
+
+If both `Webapi/<table-name>/fields` and `Webapi/<table-name>/UseFieldsFromView` are configured, the Web API combines the columns listed in `Webapi/<table-name>/fields` with eligible columns from the **Power Pages Web API Columns** system view for that table.
+
+
+> [!IMPORTANT]
+> - The `Webapi/<table-name>/UseFieldsFromView` site setting is available in Power Pages site version 9.8.8.x and later.
+> - Support for the wildcard value (`*`) in `Webapi/<table-name>/fields` is deprecated. Use explicit column names, the **Power Pages Web API Columns** system view, or both.
+
+
+## Security with the portal Web API
+
+You can configure record-based security for individual records in portals by using [table permissions](../security/assign-table-permissions.md). The portal Web API accesses table (entity) records and follows the table permissions given to users through the associated [web role](../security/create-web-roles.md).
+
+You can configure [column permissions](/power-apps/maker/portals/configure/column-permissions) to further define privileges to individual columns within a table while using the portal Web API. 
+
+## Authenticating portal Web API requests
 
 You don't need to include an authentication code because the application session manages authentication and authorization. All Web API calls must include a Cross-Site Request Forgery (CSRF) token.
 
 ## Using EntitySetName
 
-When referring to Dataverse tables by using the portals Web API in your code, use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names). To access the **account** table, for example, the code syntax uses the EntitySetName of **accounts**; `/_api/accounts()`.
+When referring to Dataverse tables by using the portal Web API in your code, use the [EntitySetName](/power-apps/developer/data-platform/entity-metadata#table-names). To access the **account** table, for example, the code syntax uses the EntitySetName of **accounts**; `/_api/accounts()`.
 
 > [!NOTE]
 > Use the table logical name for [site settings](#site-settings-for-the-web-api) (for example, **account**).
@@ -111,7 +137,7 @@ More information:<br />[Enable and use activity logging](/power-platform/admin/e
 
 ## Unsupported configuration tables
 
-Portals Web API can't be used for the following configuration tables:
+You can't use Portal Web API for the following configuration tables:
 
 
 :::row:::
@@ -277,7 +303,7 @@ Portals Web API can't be used for the following configuration tables:
 
 ## Known issues
 
-Users get a CDS error if they invoke a `GET` Web API request for tables that have multiple levels of *1 to many* or *many to many* [table permissions](../security/table-permissions.md) when **Parental**, **Contact, or **Account** scopes add more conditions to the query.
+Users get a CDS error if they invoke a `GET` Web API request for tables that have multiple levels of *one-to-many* or *many-to-many* [table permissions](../security/table-permissions.md) when **Parental**, **Contact**, or **Account** scopes add more conditions to the query.
 
 To resolve this issue, use [FetchXML](/power-apps/developer/data-platform/use-fetchxml-construct-query) in the OData query.
 
