@@ -7,7 +7,7 @@ ms.custom: responsible-ai-faqs
 contributors:
 ms.topic: faq
 ms.date: 07/23/2025
-ms.author: smurkute
+ms.author: bipuldeora
 ms.reviewer: smurkute
 ---
 

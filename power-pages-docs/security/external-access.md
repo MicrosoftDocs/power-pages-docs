@@ -4,7 +4,7 @@ description: Learn how to allow external audiences to use a local account to acc
 ms.date: 04/28/2026
 ms.topic: how-to
 author: smurkute
-ms.author: smurkute
+ms.author: bipuldeora
 contributors:
 ms.custom:
   - bap-template

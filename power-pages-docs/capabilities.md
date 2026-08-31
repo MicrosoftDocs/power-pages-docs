@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 04/23/2026
 ms.subservice:
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - KumarVivek
     - dileepsinghmicrosoft

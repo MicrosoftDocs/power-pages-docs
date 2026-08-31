@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 03/03/2023
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - neerajnandwana-msft
     - dileepsinghmicrosoft

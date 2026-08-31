@@ -1,13 +1,13 @@
 ---
 title: Create site structure
 description: Learn how to structure a site.
-author: ckwan-ms
+author: shwetamurkute
 ms.topic: how-to
 ms.custom: 
 ms.date: 05/24/2022
 ms.subservice:
-ms.author: ckwan
-ms.reviewer: danamartens
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
 ---
 

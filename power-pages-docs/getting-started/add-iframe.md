@@ -1,13 +1,13 @@
 ---
 title: Add an Iframe
 description: Learn how to add Iframes to your Power Pages site.
-author: ckwan-ms
+author: shwetamurkute
 ms.topic: how-to
 ms.custom: 
 ms.date: 06/11/2024
 ms.subservice:
-ms.author: ckwan 
-ms.reviewer: danamartens
+ms.author: bipuldeora 
+ms.reviewer: smurkute
 contributors:
     - DanaMartens
 ---

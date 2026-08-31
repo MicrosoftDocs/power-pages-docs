@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 06/10/2022
 ms.subservice:
 ms.author: ammaddala
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - iammaddala
 ---

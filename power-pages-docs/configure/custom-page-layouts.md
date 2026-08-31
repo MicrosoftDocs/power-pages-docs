@@ -1,13 +1,13 @@
 ---
 title: Custom page layouts in Power Pages
 description: Learn how to create custom page layouts in Power Pages.
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 ms.topic: concept-article
 ms.custom: 
 ms.date: 10/26/2022
 ms.subservice:
-ms.author: gisingh
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - gitanjalisingh33msft
 ---

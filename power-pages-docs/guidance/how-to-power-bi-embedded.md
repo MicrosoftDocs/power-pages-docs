@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 ms.topic: how-to
 ms.date: 04/30/2024
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - nageshbhat-msft
 ms.custom:

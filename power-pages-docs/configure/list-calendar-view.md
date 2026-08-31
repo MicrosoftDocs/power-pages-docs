@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 02/07/2025
 ms.subservice: 
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
 ---

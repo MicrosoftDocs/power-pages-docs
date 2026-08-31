@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: Add a form to your page"
 description: Learn how to add forms with code components to your Power Pages.
-author: pranita225
+author: shwetamurkute
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 02/05/2025
 ms.subservice:
-ms.author: prpadalw 
+ms.author: bipuldeora 
 ms.reviewer: 
 contributors:
     - pranita225

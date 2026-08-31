@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.collection: get-started
 author: DanaMartens
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft

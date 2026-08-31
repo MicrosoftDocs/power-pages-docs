@@ -5,7 +5,7 @@ ms.date: 07/21/2023
 ms.topic: how-to
 author: DanaMartens
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
 ms.custom: bap-template

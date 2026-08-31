@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.custom: 
 ms.date: 07/20/2026
 ms.subservice: 
-ms.author: smurkute
+ms.author: bipuldeora
 ms.reviewer: smurkute
 contributors:
     - gitanjalisingh33msft

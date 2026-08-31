@@ -5,9 +5,9 @@ ms.date: 02/05/2025
 ms.update-cycle: 180-days
 ms.custom: responsible-ai-faqs
 ms.topic: faq
-author: vashr
-ms.author: vashr
-ms.reviewer: dmartens
+author: shwetamurkute
+ms.author: bipuldeora
+ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot
 contributors:

@@ -1,14 +1,14 @@
 ---
 title: Render up to three levels of page hierarchy by using hybrid navigation
 description: Learn how to use hybrid navigation to render page hierarchy for a site.
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice: 
-ms.author: gisingh
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - GitanjaliSingh33msft
 ---

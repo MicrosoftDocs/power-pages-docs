@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 5/22/2024 
 ms.subservice:  
 ms.author: bipuldeora  
-ms.reviewer: danamartens  
+ms.reviewer: smurkute  
 contributors:  
     - sandhangitmsft
     - DanaMartens

@@ -1,12 +1,12 @@
 ---
 title: Configure user authentication for an agent
 description: 'User authentication for agents: Learn how to set up single sign-on, token passthrough, and token-based authentication for Power Pages agents.'
-author: DanaMartens
+author: shwetamurkute
 contributors: null
 ms.topic: how-to
 ms.date: 03/05/2026
-ms.author: dmartens
-ms.reviewer: dmartens
+ms.author: bipuldeora
+ms.reviewer: smurkute
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description

@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 08/05/2025
 ms.subservice:
 ms.author: nenandw 
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - gitanjalisingh33msft
     - neerajnandwana-msft

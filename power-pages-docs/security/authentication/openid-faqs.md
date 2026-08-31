@@ -5,7 +5,7 @@ ms.date: 07/11/2025
 ms.topic: faq
 author: DanaMartens
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft

@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.date: 06/28/2024
 ms.subservice:
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - DanaMartens
     - nageshbhat-msft

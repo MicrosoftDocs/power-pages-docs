@@ -5,8 +5,8 @@ author: DanaMartens
 contributors: null
 ms.topic: how-to
 ms.date: 02/14/2025
-ms.author: pudupa
-ms.reviewer: dmartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description

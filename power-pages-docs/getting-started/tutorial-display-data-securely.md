@@ -1,13 +1,13 @@
 ---
 title: "Tutorial: Display data securely on your site"
 description: Learn how to set up table permissions and link to web roles.
-author: gitanjalisingh33msft
+author: shwetamurkute
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 03/28/2025
 ms.subservice:
-ms.author: gisingh 
-ms.reviewer: danamartens
+ms.author: bipuldeora 
+ms.reviewer: smurkute
 contributors:
     - gitanjalisingh33msft
 ---

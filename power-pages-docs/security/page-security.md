@@ -3,9 +3,9 @@ title: Set page permissions
 description: Learn how to use page permissions to secure the content of sites you create with Microsoft Power Pages.
 ms.date: 01/27/2026
 ms.topic: how-to
-author: dmartens
-ms.author: dmartens
-ms.reviewer: danamartens
+author: shwetamurkute
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
 ms.custom: bap-template
 ---

@@ -1,13 +1,13 @@
 ---
 title: Add sections
 description: Learn how to add sections to your Power Pages sites.
-author: ckwan-ms
+author: shwetamurkute
 ms.topic: how-to
 ms.custom: 
 ms.date: 04/13/2023
 ms.subservice:
-ms.author: ckwan 
-ms.reviewer: danamartens
+ms.author: bipuldeora 
+ms.reviewer: smurkute
 contributors:
     - ckwan-ms
 ---

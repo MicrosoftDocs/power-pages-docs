@@ -5,7 +5,7 @@ author: shwetamurkute
 ms.topic: overview
 ms.custom: 
 ms.date: 02/10/2026
-ms.author: smurkute
+ms.author: bipuldeora
 ms.reviewer: smurkute
 contributors:
 ---

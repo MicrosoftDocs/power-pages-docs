@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.date: 09/12/2025
 ms.update-cycle: 180-days
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection:
  - bap-ai-copilot
 contributors:

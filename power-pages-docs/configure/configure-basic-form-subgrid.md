@@ -1,14 +1,14 @@
 ---
 title: Configure basic form subgrids for Power Pages
 description: Learn how to add and configure basic form subgrids for a Power Pages.
-author: GitanjaliSingh33msft
+author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
 ms.date: 02/28/2023
 ms.subservice: 
-ms.author: gisingh
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - GitanjaliSingh33msft
     - sandhangitmsft

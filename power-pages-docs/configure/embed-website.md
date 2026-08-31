@@ -8,7 +8,7 @@ ms.collection: get-started
 ms.date: 03/28/2023
 
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - dileepsinghmicrosoft
     - sandhangitmsft

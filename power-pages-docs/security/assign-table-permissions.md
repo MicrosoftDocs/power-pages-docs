@@ -3,9 +3,9 @@ title: Assign table permissions
 description: Assign table permissions to web roles.
 ms.date: 07/25/2024
 ms.topic: how-to
-author: gitanjalisingh33msft
-ms.author: gisingh
-ms.reviewer: danamartens
+author: shwetamurkute
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
 ms.custom: bap-template
 ---

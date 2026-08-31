@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.date: 11/13/2024
 ms.subservice: 
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - ankitavish
     - tapanm-msft

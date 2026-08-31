@@ -3,9 +3,9 @@ title: Overview of authentication in Power Pages
 description: Learn about site user authentication in Microsoft Power Pages and review common identity providers.
 ms.date: 02/28/2026
 ms.topic: concept-article
-author: dmartens
-ms.author: dmartens
-ms.reviewer: danamartens
+author: shwetamurkute
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
 ms.custom: bap-template
 ---

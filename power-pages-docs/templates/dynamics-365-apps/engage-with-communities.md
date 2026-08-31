@@ -1,13 +1,13 @@
 ---
 title: Engage with communities by using the community site
 description: Learn how to engage with communities by using the community site.
-author: murugesh1985
+author: RitGan
 ms.topic: concept-article
 ms.custom: 
 ms.date: 04/21/2020
 ms.subservice: 
-ms.author: murugeshs
-ms.reviewer: danamartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
 ---
 

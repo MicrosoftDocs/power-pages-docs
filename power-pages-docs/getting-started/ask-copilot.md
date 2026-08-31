@@ -7,11 +7,11 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:06/27/2025
-ms.date: 06/27/2025
+ms.date: 08/31/2026
 ms.update-cycle: 180-days
 ms.subservice: null
 ms.author: dmartens
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection:
   - bap-ai-copilot
 contributors:
@@ -20,31 +20,31 @@ contributors:
 
 # Ask Copilot questions
 
-An easy way to get support while building your Power Pages website is to ask Copilot for help. You can get started by asking Copilot for help questions that you usually search for in the documentation. Example questions you could ask would include:
+An easy way to get support while building your Power Pages website is to ask Copilot for help. You can get started by asking Copilot for help with questions that you usually search for in the documentation. Example questions you could ask include:
 
 * How do I add more colors to my style themes?
 * How do I bring my own data to my site?
 * What are custom solutions?
 
-Remember that you can only ask questions about building your website in Power Pages. If you're unable to get a response, try to ask again by rephrasing your question using smaller sentences. If you're still unsuccessful, you can always find help in the [Microsoft Power Pages documentation](../index.yml) .
+Remember that you can only ask questions about building your website in Power Pages. If you don't get a response, try rephrasing your question using smaller sentences. If you're still unsuccessful, you can always find help in the [Microsoft Power Pages documentation](../index.yml) .
 
 > [!NOTE]
 > This feature is now generally available (GA) for all regions except for DOD.
 
 ## Prerequisites
 
-To use this feature in Power Pages
+To use this feature in Power Pages:
 
-* You must [enable Bing search](#enable-bing-search) to get answers to your questions using Copilot.
+* [Enable Bing search](#enable-bing-search) to get answers to your questions using Copilot.
 
 ## Prompt Copilot
 
-Ask Copilot questions and get responses while working inside the Pages workspace in Power Pages design studio.
+Ask Copilot questions and get responses while working inside the **Pages** workspace in Power Pages design studio.
 
 1. Go to the [Pages workspace](first-page.md).
 1. Within the Copilot sidecar, select **Ask**.
 
-    If the Copilot pane isn't displayed, select the Copilot button shown in the following screenshot. If the Ask option doesn't appear, your administrator might need to [allow Bing search](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+    If the Copilot pane isn't displayed, select the Copilot button shown in the following screenshot. If the **Ask** option doesn't appear, your administrator might need to [allow Bing search](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
     :::image type="content" source="media/ask-copilot/ask-copilot-askmode.svg" alt-text="Screenshot of Power Pages Copilot sidecar with Ask option emphasized.":::
 
@@ -62,7 +62,7 @@ Copilot generates an answer to your question. Depending on the question, the res
 
 ## Enable Bing search
 
-When you enter a question in the Copilot sidecar, you're prompted to enable Bing search if it isn't enabled already. You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. Once enabled, `Bing search is enabled` appears next to the icon.
+When you enter a question in the Copilot sidecar, you're prompted to enable Bing search if it isn't enabled already. You can also select the gear icon next to Bing search in the Copilot sidecar and switch the toggle for Bing search to the on position. When enabled, `Bing search is enabled` appears next to the icon.
 
 ## See also
 

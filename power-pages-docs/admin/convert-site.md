@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.date: 09/06/2024
 ms.subservice: 
 ms.author: nenandw
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - neerajnandwana-msft
 ms.custom:

@@ -1,13 +1,13 @@
 ﻿---
 title: "Tutorial: Use dataset code components"
 description: Learn how to add dataset-based code components to your Power Pages site.
-author: GitanjaliSingh33msft
+author: nageshbhat-msft
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 03/02/2023
 ms.subservice:
-ms.author: gisingh 
-ms.reviewer: dmartens
+ms.author: nabha 
+ms.reviewer: smurkute
 contributors:
     - GitanjaliSingh33msft
 ---

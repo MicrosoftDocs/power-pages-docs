@@ -1,13 +1,13 @@
 ---
 title: Display file attachments with knowledge articles
 description: Learn how to display file attachments with knowledge articles on Power Pages.
-author: murugesh1985
+author: RitGan
 ms.topic: concept-article
 ms.custom: 
 ms.date: 4/10/2023
 ms.subservice: 
-ms.author: murugeshs
-ms.reviewer: danamartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
 ---
 

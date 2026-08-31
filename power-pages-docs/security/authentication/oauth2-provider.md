@@ -5,7 +5,7 @@ ms.date: 07/19/2023
 ms.topic: overview
 author: DanaMartens
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft

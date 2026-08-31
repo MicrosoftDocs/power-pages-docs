@@ -1,13 +1,13 @@
 ---
 title: Integrate Field Service
 description: Learn how to integrate Field Service with a Power Pages site.
-author: murugesh1985
+author: RitGan
 ms.topic: how-to
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: murugeshs
-ms.reviewer: danamartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
     - dileepsinghmicrosoft
 ---

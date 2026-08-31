@@ -1,11 +1,11 @@
 ---
 title: Use flex containers to group and align components
 description: Explore the versatility of Flex Container, a layout component for grouping elements like buttons and images, with customizable properties.
-author: ckwan-ms
+author: shwetamurkute
 ms.topic: how-to
 ms.date: 05/23/2024
-ms.author: ckwan
-ms.reviewer: danamartens
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
 ms.custom:
   - ai-gen-docs-bap

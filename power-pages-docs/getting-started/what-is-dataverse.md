@@ -1,13 +1,13 @@
 ---
 title: Dataverse and Power Pages
 description: Learn about Dataverse in context of Power Pages.
-author: pranita225
+author: shwetamurkute
 ms.topic: concept-article
 ms.custom: 
 ms.date: 10/05/2022
 ms.subservice:
-ms.author: prpadalw
-ms.reviewer: danamartens
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
     - pranita225
 ---

@@ -6,7 +6,7 @@ ms.author: tbhagwat
 ms.date: 04/23/2026
 ms.topic: get-started
 ms.custom: template-trial-setup 
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sampatn
 ms.collection:

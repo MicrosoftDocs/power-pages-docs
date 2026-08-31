@@ -1,13 +1,13 @@
 ---
 title: "Tutorial: Add a page"
 description: Learn how to add a page to your Power Pages site.
-author: ckwan-ms
+author: shwetamurkute
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 11/19/2024
 ms.subservice:
-ms.author: ckwan 
-ms.reviewer: danamartens
+ms.author: bipuldeora 
+ms.reviewer: smurkute
 contributors:
     - ckwan-ms
 ---

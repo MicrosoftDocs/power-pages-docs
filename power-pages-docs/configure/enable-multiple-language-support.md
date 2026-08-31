@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.date: 08/06/2025
 ms.subservice: 
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - nageshbhat-msft

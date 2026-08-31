@@ -4,7 +4,7 @@ description: Protect your organization from phishing threats on Power Pages with
 ms.topic: concept-article
 ms.date: 09/16/2025
 ms.reviewer: smurkute
-ms.author: pudupa
+ms.author: ritwikganni
 author: shwetamurkute
 #customer intent: As a admin, I want to understand how phishing detection works for Power Pages so that I can protect my organization from phishing threats.
 

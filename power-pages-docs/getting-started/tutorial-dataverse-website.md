@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: Create, update, and read Dataverse information on pages"
 description: Learn how to create a set of pages to create, read, and update Dataverse data in Power Pages.
-author: pranita225
+author: shwetamurkute
 ms.topic: tutorial
 ms.custom: template-tutorial
 ms.date: 09/20/2024
 ms.subservice:
-ms.author: prpadalw 
+ms.author: bipuldeora 
 ms.reviewer: 
 contributors:
     - pranita225

@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.date: 10/04/2024
 ms.subservice:
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
   - DanaMartens
 ms.custom:

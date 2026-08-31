@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 05/02/2024
 ms.subservice: 
 ms.author: bipuldeora
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - ankitavish
     - tapanm-msft
