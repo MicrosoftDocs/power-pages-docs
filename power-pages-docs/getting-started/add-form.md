@@ -1,7 +1,7 @@
 ---
 title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
-author: DanaMartens
+author: shwetamurkute
 ms.topic: how-to
 ms.date: 07/13/2026
 ms.update-cycle: 180-days

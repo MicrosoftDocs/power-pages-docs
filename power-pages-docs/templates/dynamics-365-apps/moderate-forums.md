@@ -1,13 +1,13 @@
 ---
 title: Moderate forums
 description: Learn how to moderate forums in Power Pages.
-author: murugesh1985
+author: RitGan
 ms.topic: how-to
 ms.custom: 
 ms.date: 4/10/2023
 ms.subservice: 
-ms.author: murugeshs
-ms.reviewer: danamartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
 ---
 

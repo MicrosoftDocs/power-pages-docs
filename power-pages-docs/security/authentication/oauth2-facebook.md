@@ -5,7 +5,7 @@ ms.date: 09/10/2024
 ms.topic: how-to
 author: DanaMartens
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft

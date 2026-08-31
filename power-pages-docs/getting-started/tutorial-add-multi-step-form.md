@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: Add a multistep form to your page"
 description: Discover how to create and configure multistep forms in Power Pages, including Dataverse integration, permissions, and conditional logic.
-author: pranita225
+author: shwetamurkute
 ms.topic: tutorial
 ms.date: 03/28/2025
 ms.subservice: null
-ms.author: prpadalw
-ms.reviewer: danamartens
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
   - pranita225
 ms.custom:

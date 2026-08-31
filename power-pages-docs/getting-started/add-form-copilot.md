@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 07/13/2026
 ms.update-cycle: 180-days
 author: shwetamurkute
-ms.author: smurkute
+ms.author: bipuldeora
 ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot

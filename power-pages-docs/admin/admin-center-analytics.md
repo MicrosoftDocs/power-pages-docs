@@ -5,9 +5,9 @@ ms.topic: how-to
 ms.custom: 
 ms.date: 09/12/2025
 ms.subservice:
-author: PramithaU
-ms.author: pudupa
-ms.reviewer: danamartens
+author: RitGan
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
     - vamseedillimsft
     - shwetamurkute

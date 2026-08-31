@@ -5,7 +5,7 @@ author: neerajnandwana-msft
 ms.topic: concept-article
 ms.date: 08/05/2025
 ms.author: nenandw
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
 ms.custom:
   - sfi-ropc-nochange

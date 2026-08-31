@@ -6,7 +6,7 @@ contributors:
 ms.topic: how-to
 ms.date: 10/06/2025
 ms.author: dmartens
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ---
 # Build an agent from a form (preview)
 

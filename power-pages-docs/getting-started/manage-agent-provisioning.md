@@ -6,7 +6,7 @@ ms.date: 06/17/2025
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection: 
   - bap-ai-copilot
 contributors:

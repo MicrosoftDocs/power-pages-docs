@@ -6,7 +6,7 @@ ms.topic: troubleshooting-known-issue
 ms.date: 05/04/2026
 ms.subservice:
 ms.author: bipuldeora 
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
 ms.custom:
   - sfi-image-nochange

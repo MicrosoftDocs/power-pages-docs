@@ -1,14 +1,13 @@
 ---
 title: Display locations as cards
 description: Learn how to create a web templates components to display locations in Power Pages.
-author: ckwan-ms
-
+author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
 ms.date: 07/25/2023
 ms.subservice:
-ms.author: ckwan
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - clromano
 

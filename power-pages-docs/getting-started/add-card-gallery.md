@@ -1,11 +1,11 @@
 ---
 title: Create and customize a card gallery in Power Pages
 description: Learn how to use design studio or Liquid code to add, style, and configure a card gallery in Power Pages sites.
-author: pranita225
+author: shwetamurkute
 ms.topic: how-to
 ms.date: 03/12/2025
-ms.author: prpadalw
-ms.reviewer: danamartens
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
 ms.custom:
   - ai-gen-docs-bap

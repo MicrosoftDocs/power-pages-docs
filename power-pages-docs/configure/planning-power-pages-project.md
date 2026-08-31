@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
 ms.date: 05/28/2025
 ms.author: nikpol
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
     - NikitaPolyakovMSFT
 ---

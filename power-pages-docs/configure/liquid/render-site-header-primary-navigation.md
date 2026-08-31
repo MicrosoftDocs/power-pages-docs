@@ -1,14 +1,14 @@
 ---
 title: Render a website header and primary navigation bar
 description: Learn about and sample code to render a website header and primary navigation bar on a Power Pages site.
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
 ms.date: 01/15/2025
 ms.subservice:
-ms.author: gisingh
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - GitanjaliSingh33msft
 ---

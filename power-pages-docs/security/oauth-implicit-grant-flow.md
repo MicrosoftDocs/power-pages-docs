@@ -3,9 +3,9 @@ title: Use OAuth 2.0 implicit grant flow in your Power Pages site
 description: Learn how to make client-side calls to external APIs and secure them using OAuth 2.0 implicit grant flow in your Power Pages site.
 ms.date: 08/27/2024
 ms.topic: how-to
-author: gitanjalisingh33msft
-ms.author: gisingh
-ms.reviewer: danamartens
+author: nageshbhat-msft
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - GitanjaliSingh33msft
     - dileepsinghmicrosoft

@@ -1,14 +1,14 @@
 ---
 title: Use code components in Power Pages
 description: Learn about creating code components for model-driven and canvas apps using Power Apps component framework inside Power Pages.
-author: GitanjaliSingh33msft
+author: nageshbhat-msft
 
 ms.topic: how-to
 ms.custom: 
 ms.date: 01/05/2026
 ms.subservice: 
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 contributors:
   - GitanjaliSingh33msft
   - HemantGaur

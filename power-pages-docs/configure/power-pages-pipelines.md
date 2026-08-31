@@ -1,13 +1,13 @@
 ---
 title: Use Power Platform pipelines with Power Pages
 description: Learn how to use Power Platform pipelines with Power Pages
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 
 ms.topic: how-to
 ms.custom: 
 ms.date: 09/26/2023
-ms.author: gisingh
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - gitanjalisingh33msft
 ---

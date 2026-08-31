@@ -1,13 +1,13 @@
 ---
 title: Reactivate sites
 description: Learn how to reactivate Power Pages websites.
-author: PramithaU
+author: RitGan
 ms.topic: how-to
 ms.custom: 
 ms.date: 09/06/2023
 ms.subservice: 
-ms.author: pudupa
-ms.reviewer: danamartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
     - dileepsinghmicrosoft
     - vashr

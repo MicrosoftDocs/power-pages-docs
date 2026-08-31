@@ -1,13 +1,13 @@
 ---
 title: SAP Supplier Self Service template
 description: Learn how to use SAP Supplier Self Service template for Power Pages to empower suppliers to manage vendors, orders, and invoices efficiently.
-author: murugesh1985 
+author: RitGan 
 ms.topic: concept-article
 ms.custom: 
 ms.date: 08/21/2024
 ms.subservice:
-ms.author: murugeshs 
-ms.reviewer: dmartens
+ms.author: ritwikganni 
+ms.reviewer: smurkute
 contributors:
     - DanaMartens
 ---

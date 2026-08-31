@@ -1,13 +1,13 @@
 ---
 title: Configure and manage category for knowledge articles
 description: Learn how to create and manage a category for knowledge articles.
-author: murugesh1985
+author: RitGan
 ms.topic: concept-article
 ms.custom: 
 ms.date: 04/10/2023
 ms.subservice: 
-ms.author: murugeshs
-ms.reviewer: danamartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
     - dileepsinghmicrosoft
 ---

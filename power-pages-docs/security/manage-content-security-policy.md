@@ -5,7 +5,7 @@ ms.date: 03/17/2026
 ms.topic: how-to
 author: nabha
 ms.author: nabha
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - nageshbhat-msft
 ms.custom: bap-template

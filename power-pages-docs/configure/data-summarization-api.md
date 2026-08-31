@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.date: 03/24/2026
 ms.update-cycle: 180-days
 ms.author: nabha
-ms.reviewer: dmartens
+ms.reviewer: smurkute
 ms.collection:
  - bap-ai-copilot
 contributors:

@@ -5,8 +5,8 @@ ms.topic: concept-article
 ms.custom: 
 ms.date: 05/27/2025
 ms.subservice:
-author: PramithaU
-ms.author: pudupa
+author: RitGan
+ms.author: ritwikganni
 ms.reviewer: smurkute
 contributors:
     - PramithaU

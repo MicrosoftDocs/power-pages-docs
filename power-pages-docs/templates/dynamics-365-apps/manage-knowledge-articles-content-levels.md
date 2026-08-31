@@ -1,13 +1,13 @@
 ---
 title: Manage knowledge articles by using content access levels
 description: Learn how to manage knowledge articles by using content access levels in a Power Pages site.
-author: murugesh1985
+author: RitGan
 ms.topic: concept-article
 ms.custom: 
 ms.date: 4/10/2023
 ms.subservice: 
-ms.author: murugeshs
-ms.reviewer: danamartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
 ---
 

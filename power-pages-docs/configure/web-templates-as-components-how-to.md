@@ -1,14 +1,14 @@
 ---
 title: "How to: Create a web template component"
 description: Learn how to create a web templates component in Power Pages.
-author: ckwan-ms
+author: nageshbhat-msft
 
 ms.topic: how-to
 ms.custom: 
 ms.date: 09/20/2024
 ms.subservice:
-ms.author: ckwan
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - clromano
 ---

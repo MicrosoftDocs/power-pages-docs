@@ -1,13 +1,13 @@
 ---
 title: Dynamics 365 templates
 description: Learn how to use Dynamics 365 templates to create or enhance your Power Pages sites.
-author: murugesh1985
+author: RitGan
 ms.topic: concept-article
 ms.custom: 
 ms.date: 02/28/2026
 ms.subservice:
-ms.author: murugeshs
-ms.reviewer: danamartens
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors:
     - sampatn
 ---

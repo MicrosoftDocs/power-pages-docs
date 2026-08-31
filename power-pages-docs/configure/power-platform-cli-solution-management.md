@@ -1,14 +1,14 @@
 ---
 title: Power Platform CLI solution support for Power Pages
 description: Learn how to work with Power Platform CLI solution commands for a Power Pages site.
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
 ms.date: 10/03/2024
 ms.subservice: 
-ms.author: gisingh
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - gitanjalisingh33msft
     - neerajnandwana-msft

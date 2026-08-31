@@ -3,9 +3,9 @@ title: Create new sites with Bootstrap version 5
 description: Learn how to enable Bootstrap version 5 in your environment to take advantage of new features and updates that make creating responsive, customized Power Pages sites even easier.
 ms.topic: how-to
 ms.date: 02/23/2026
-author: GitanjaliSingh33msft
-ms.author: gisingh
-ms.reviewer: dmartens
+author: nageshbhat-msft
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
   - DanaMartens
 ms.custom:

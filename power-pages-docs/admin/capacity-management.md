@@ -5,9 +5,9 @@ ms.topic: concept-article
 ms.custom: 
 ms.date: 03/17/2025
 ms.subservice: 
-author: PramithaU
-ms.author: pudupa
-ms.reviewer: danamartens
+author: RitGan
+ms.author: ritwikganni
+ms.reviewer: smurkute
 contributors: 
  - dileepsinghmicrosoft
 ms.contributors: psimolin

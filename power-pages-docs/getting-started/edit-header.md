@@ -1,13 +1,13 @@
 ---
 title: Edit site header
 description: Learn how to make changes to the header of your Power Pages site.
-author: ckwan-ms
+author: shwetamurkute
 ms.topic: how-to
 ms.custom: bap-template
 ms.date: 02/27/2024
 ms.subservice:
-ms.author: ckwan 
-ms.reviewer: danamartens
+ms.author: bipuldeora 
+ms.reviewer: smurkute
 contributors:
     - clromano
 ---

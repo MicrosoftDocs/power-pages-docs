@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 07/19/2026
 ms.update-cycle: 180-days
 ms.subservice:
-ms.author: smurkute
+ms.author: bipuldeora
 ms.reviewer: smurkute
 ms.collection: 
     - bap-ai-copilot

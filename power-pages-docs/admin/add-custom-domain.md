@@ -133,7 +133,7 @@ General steps for any DNS provider:
 Learn more in [Create DNS records and zones using the Azure portal](/azure/dns/dns-getstarted-portal#create-a-dns-record) if you use Azure DNS.
     
 ### Verify your TXT record
-After adding the record, verify it's publicly visible:
+After adding the record, verify it's publicly visible.
     
 *Option 1: Command line*
 

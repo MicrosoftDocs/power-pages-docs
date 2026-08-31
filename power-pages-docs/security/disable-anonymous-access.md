@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.custom: 
 ms.date: 10/06/2025
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - nageshbhat-msft
 ---

@@ -1,12 +1,12 @@
 ﻿---
 title: Power Pages white papers
 description: Power Pages white papers
-author: dmartens
+author: shwetamurkute
 ms.topic: overview
 ms.custom: 
 ms.date: 02/04/2026
-ms.author: dmartens
-ms.reviewer: danamartens
+ms.author: bipuldeora
+ms.reviewer: smurkute
 contributors:
 ---
 

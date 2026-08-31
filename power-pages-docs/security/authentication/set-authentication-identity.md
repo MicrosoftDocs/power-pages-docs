@@ -5,7 +5,7 @@ ms.date: 02/28/2026
 ms.topic: concept-article
 author: DanaMartens
 ms.author: bipuldeora
-ms.reviewer: danamartens
+ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft

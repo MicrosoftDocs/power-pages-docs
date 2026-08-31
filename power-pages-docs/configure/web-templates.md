@@ -1,14 +1,14 @@
 ---
 title: Web templates
 description: Learn how to create and manage web templates in Power Pages.
-author: gitanjalisingh33msft
+author: nageshbhat-msft
 
 ms.topic: concept-article
 ms.custom: 
 ms.date: 05/23/2023
 ms.subservice:
-ms.author: gisingh
-ms.reviewer: dmartens
+ms.author: nabha
+ms.reviewer: smurkute
 contributors:
     - GitanjaliSingh33msft
 ---

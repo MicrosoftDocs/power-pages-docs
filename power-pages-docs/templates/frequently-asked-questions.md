@@ -5,9 +5,9 @@ ms.topic: faq
 ms.custom: bap-template
 ms.date: 02/23/2026
 ms.subservice:
-author: murugesh1985 
-ms.author: murugeshs 
-ms.reviewer: danamartens
+author: RitGan 
+ms.author: ritwikganni 
+ms.reviewer: smurkute
 contributors:
 ---
 
