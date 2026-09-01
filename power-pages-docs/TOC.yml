@@ -284,7 +284,7 @@
       items:
         - name: Use enhanced data model
           href: admin/enhanced-data-model.md
-        - name: Migrate sites to enhanced data model (preview)
+        - name: Migrate sites to enhanced data model
           href: admin/migrate-enhanced-data-model.md
 - name: Administer Power Pages
   items:
