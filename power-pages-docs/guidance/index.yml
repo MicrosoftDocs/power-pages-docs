@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Power Pages guidance documentation
-summary: Power Pages guidance documentation provides best practice information from the team that works with our enterprise customers. We'll regularly add and update the guidance content.
+summary: Explore Power Pages guidance documentation and best practices from the team that works with enterprise customers.
 
 metadata:
   title: Power Pages guidance documentation
@@ -10,9 +10,9 @@ metadata:
   ms.subservice: guidance
   ms.topic: landing-page
   ms.collection: collection
-  author: KumarVivek
-  ms.author: kvivek
-  ms.date: 07/26/2022
+  author: erikadoyle
+  ms.author: edoyle
+  ms.date: 08/28/2026
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -32,8 +32,6 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: "How to: Embed a chatbot on a webpage"
-            url: integrate-pva.md
           - text: "How to: Enable row level security in Power BI on Power Pages"
             url: how-to-power-bi-embedded.md
 
