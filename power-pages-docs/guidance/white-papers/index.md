@@ -3,7 +3,6 @@ title: Power Pages white papers
 description: Power Pages white papers
 author: shwetamurkute
 ms.topic: overview
-ms.custom: 
 ms.date: 02/04/2026
 ms.author: bipuldeora
 ms.reviewer: smurkute

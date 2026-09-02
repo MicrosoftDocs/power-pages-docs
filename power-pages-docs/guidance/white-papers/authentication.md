@@ -3,7 +3,6 @@ title: Power Pages authentication white paper
 description: Discover how Power Pages authentication ensures high reliability, availability, and compliance while protecting business data with robust security controls.
 author: shwetamurkute
 ms.topic: overview
-ms.custom: 
 ms.date: 02/10/2026
 ms.author: bipuldeora
 ms.reviewer: smurkute
