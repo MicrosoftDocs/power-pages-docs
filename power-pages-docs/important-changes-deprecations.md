@@ -1,10 +1,10 @@
 ---
 title: Important upcoming changes and deprecations in Power Pages
 description: Learn about the important changes, including deprecations, coming soon to Power Pages.
-author: DanaMartens
+author: shwetamurkute
 
 ms.topic: concept-article
-ms.date: 08/19/2026
+ms.date: 09/01/2026
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: smurkute
@@ -13,6 +13,7 @@ contributors:
     - dileepsinghmicrosoft
     - nageshbhat-msft
     - sampatn
+    - shwetamurkute
 ms.custom:
   - sfi-ropc-nochange
 ---
@@ -41,6 +42,8 @@ Don't wait until support is removed to make this change. Update your site settin
 ### Why is this change necessary?
 
 Using the wildcard value can unintentionally expose additional columns through the Power Pages Web API. Requiring an explicit list of columns helps improve security and maintainability by ensuring that only intended data is accessible through the Web API.
+
+For information about issues related to wildcard values in web API field configuration, go to [Web API requests fail after wildcard column configuration is deprecated](/troubleshoot/power-platform/power-pages/migrate-web-api-wildcard).
 
 ## Enhanced link creation in design studio
 

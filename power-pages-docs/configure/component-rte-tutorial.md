@@ -10,6 +10,7 @@ ms.author: bipuldeora
 ms.reviewer: smurkute
 contributors:
   - GitanjaliSingh33msft
+  - nageshbhat-msft
 
 ---
 
@@ -21,7 +22,6 @@ This tutorial will use the **Feedback** table and the **Contact us** webpage tha
 
 ## Prerequisites
 
-- Your portal version must be [9.4.3.x](/power-platform/released-versions/portals) or later.
 - A site using one of the **Starter layout** [templates](../templates/site-design.md).
 
 ## Step 1. Add the code component to a field in a form
@@ -100,7 +100,7 @@ In order to save images in the rich text editor control, you will need to add a 
     | Site setting name | Value |
     | - | - | 
     | Webapi/msdyn_richtextfile/enabled | true |
-    | Webapi/msdyn_richtextfile/fields | * |
+    | Webapi/msdyn_richtextfile/fields | msdyn_parententity_fieldname,msdyn_parententityname,msdyn_imageblob |
 
 
 ## Step 4. Preview the site.
