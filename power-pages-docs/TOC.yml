@@ -839,6 +839,8 @@
           href: security/waf-js-challenge-captcha.md
         - name: Web Application Firewall FAQ
           href: security/waf-faq.md
+    - name: Security best practices
+      href: security/security-best-practices.md
     - name: Power Pages security FAQ
       href: security/faq.yml
 - name: Go live
