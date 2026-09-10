@@ -13,7 +13,7 @@ ms.topic: how-to
 Some Power Pages updates, such as a feature retirement, a required migration, or a configuration change, have a fixed enforcement date. If you can't update your sites before that date, an admin can use the **Manage exemptions** page in the Power Platform admin center to request a time-bound extension for the impacted sites. This self-service mechanism doesn't require contacting Microsoft Support.
 
 > [!IMPORTANT]
-> This feature is being gradually rolled out across regions and might not be available yet in your region.
+> You need the Power Platform admin or Dynamics 365 admin role to request an exemption.
 
 The process is the same for all updates that support exemptions. Review the update details, identify affected sites, select the sites that need extra time, and confirm the extension request.
 
