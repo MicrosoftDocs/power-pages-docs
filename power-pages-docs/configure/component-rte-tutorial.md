@@ -4,7 +4,7 @@ description: Walk-through example steps for adding a rich text component to a fo
 author: shwetamurkute
 ms.topic: tutorial
 ms.custom: 
-ms.date: 03/02/2023
+ms.date: 09/11/2026
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: smurkute
@@ -89,19 +89,21 @@ For using and storing images in the rich text editor on the portal, you'll need 
 
 ## Step 3.2. Add web API site setting
 
-In order to save images in the rich text editor control, you will need to add a couple of site settings.
+To save and access image and file attachments in the rich text editor control, add the following site settings.
 
 1. Open the [Portals Management app](portal-management-app.md). 
 
 1. Go to **Site Settings**.
 
-1. Create the following site settings: enter the name, your website, and the value of **true**, and then select **Save & Close**.
+1. Create the following site settings. If either site setting already exists for your website, update the existing record instead of creating a duplicate. Enter the name, select your website, enter the specified value, and then select **Save & Close**.
 
     | Site setting name | Value |
     | - | - | 
     | Webapi/msdyn_richtextfile/enabled | true |
-    | Webapi/msdyn_richtextfile/fields | msdyn_parententity_fieldname,msdyn_parententityname,msdyn_imageblob |
+    | Webapi/msdyn_richtextfile/fields | msdyn_richtextfileid,msdyn_name,msdyn_imageblob,msdyn_fileblob,msdyn_parententityname,msdyn_parententity_fieldname,msdyn_parentid,statecode,statuscode |
 
+> [!IMPORTANT]
+> Use the complete explicit column list shown for `Webapi/msdyn_richtextfile/fields`. The `msdyn_fileblob` column is required to access file attachments even though it's a read-only column. An incomplete list might allow image attachments to work while file attachments fail.
 
 ## Step 4. Preview the site.
 
@@ -138,4 +140,3 @@ To update the image element, replace **/api/data/v9.0** with **/_api** as shown 
 - [Power Apps component framework overview](/power-apps/developer/component-framework/overview) 
 - [Create your first component](/power-apps/developer/component-framework/implementing-controls-using-typescript) 
 - [Add code components to a field or table in model-driven apps](/power-apps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
-
