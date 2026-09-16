@@ -5,7 +5,7 @@ description: Learn how to use built-in server objects like Logger, HttpClient, a
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 08/10/2026
+ms.date: 09/15/2026
 ms.topic: reference
 ---
 
@@ -98,7 +98,7 @@ let response = await Server.Connector.HttpClient.DeleteAsync(url, header);
 
 ## SiteSetting
 
-Allows you to read site setting values for the current website.
+Use this connector to read site setting values for the current website.
 
 > [!NOTE]
 > Don't store secrets, such as API keys or credentials, directly in server logic. Instead, store them securely in Azure Key Vault, source them through environment variables, and reference them by using site settings.
@@ -111,7 +111,7 @@ Server.SiteSetting.Get("Search/Enabled");
 
 ## EnvironmentVariable
 
-Reads the value of an environment variable.
+Use this connector to read the value of an environment variable.
 
 **Example**
 
@@ -122,7 +122,7 @@ Server.EnvironmentVariable.get("SITEPATH");
 
 ## Website
 
-Provides details of the current website record in Dataverse.
+Use this connector to get details of the current website record in Dataverse.
 
 **Example**
 
@@ -263,6 +263,61 @@ Server.Connector.Dataverse.InvokeCustomApi("post", "new_Action", "{ \"parameter1
     }
 }
 ```
+
+## CloudFlow
+
+Use the `Server.Connector.CloudFlow` object to trigger a Power Automate cloud flow from server logic. The flow must already be [added to your site](/en-us/power-pages/configure/cloud-flow-integration#add-a-flow-to-your-site). It's the server-side equivalent of invoking a flow by using the [cloud flow API](/en-us/power-pages/configure/cloud-flow-integration#invoke-a-flow-from-web-page) from a webpage. It uses the same underlying pipeline as the `/_api/cloudflow/v1.0/trigger/<guid>` endpoint. Setup, authorization, and payload behavior are the same. Only the calling context differs.
+
+> [!NOTE]
+> - `Server.Connector.CloudFlow.TriggerAsync` is asynchronous. Use `await` and mark the calling function `async`.
+> -  Before you can trigger a flow from server logic, [create the flow](/en-us/power-pages/configure/cloud-flow-integration#create-a-flow) and [add it to your site with an authorized web role](/en-us/power-pages/configure/cloud-flow-integration#add-a-flow-to-your-site). The signed-in user must hold one of those roles.
+> -  If you move a site to another environment, [register the cloud flow in the target environment](/en-us/power-pages/configure/cloud-flow-integration#application-lifecycle-management-alm-for-cloud-flows) before you invoke it.
+
+### TriggerAsync
+
+Triggers a cloud flow and returns the response envelope.
+
+```javascript
+Server.Connector.CloudFlow.TriggerAsync(string flowId, string payload = null)
+```
+
+- `flowId`: The flow identifier. The same GUID that appears in the [cloud flow API URI](/en-us/power-pages/configure/cloud-flow-integration#invoke-a-flow-from-web-page) (`/_api/cloudflow/v1.0/trigger/<guid>`). You can find this value on the site's **Cloud flows** page under **Set up** > **Integrations**.
+- `payload`: Optional JSON string that contains [trigger input parameters](/en-us/power-pages/configure/cloud-flow-integration#passing-parameter-to-cloud-flow), keyed by the parameter names defined on the flow's trigger. Pass `null` or an empty string if the flow takes no inputs. The `siteId`, `siteUrl`, and `userId` are added to the payload automatically.
+
+
+#### Example
+
+```javascript
+async function post() {
+    let flowId = "00000000-0000-0000-0000-000000000001";
+    let payload = JSON.stringify({ Location: "Seattle" });
+
+    let response = await Server.Connector.CloudFlow.TriggerAsync(flowId, payload);
+    let result = JSON.parse(response);
+
+    if (!result.IsSuccessStatusCode) {
+        Server.Logger.Error("Cloud flow trigger failed: " + result.ReasonPhrase);
+        return JSON.stringify({ success: false, error: result.ReasonPhrase });
+    }
+
+    return JSON.stringify({ success: true, flowResponse: result.Body });
+}
+```
+
+### Example: Response
+
+```javascript
+{
+    "StatusCode": 200,
+    "Body": "JsonString",
+    "IsSuccessStatusCode": true,
+    "ReasonPhrase": "OK",
+    "ServerError": false,
+    "ServerErrorMessage": null
+}
+```
+
+If the cloud flow doesn't include a response action, it returns `202 Accepted` and an empty `Body`. In server logic, this response is reported as `IsSuccessStatusCode: true`.
 
 ## Logger
 
