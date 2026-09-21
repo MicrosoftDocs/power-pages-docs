@@ -164,6 +164,21 @@
       "source_path": "power-pages-docs/configure/ai-copilot-overview.md",
       "redirect_url": "/power-pages/copilot-ai",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/configure/client-api.md",
+      "redirect_url": "/power-pages/configure/client-api/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/configure/client-api-examples.md",
+      "redirect_url": "/power-pages/configure/client-api/examples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/configure/client-api-controls.md",
+      "redirect_url": "/power-pages/configure/client-api/controls",
+      "redirect_document_id": false
     }
   ]
 }
