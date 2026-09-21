@@ -57,8 +57,7 @@ Geolocation with map functionality on forms requires configuration settings to c
 |Name|Value|
 |---|---|
 |Bingmaps/credentials|Unique key to authenticate requests to the Bing Maps API. Visit [www.bingmapsportal.com](https://www.bingmapsportal.com) to create a Bing Maps account and get a key. Required.|
-|Bingmaps/restURL|URL to the Bing Maps REST API. Optional. If a value is not specified, the default https://dev.virtualearth.net/REST/v1/Locations is used.|
-| |
+|Bingmaps/restURL|URL to the Bing Maps REST API. Optional. |
 
 ### Field configurations
 The map control requires additional configuration to tell it what the IDs of the various location fields are, so it can assign values to them or retrieve values from them. The configuration depends on the type of managed form.
