@@ -4,7 +4,7 @@ description: Walk-through example steps for adding a rich text component to a fo
 author: shwetamurkute
 ms.topic: tutorial
 ms.custom: 
-ms.date: 09/11/2026
+ms.date: 09/21/2026
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: smurkute
@@ -67,7 +67,7 @@ In the following steps we will configure the existing feedback page, you can als
 
 For using and storing images in the rich text editor on the portal, you'll need to add [table permissions](../security/table-permissions.md) to the rich text attachment table (msdyn_richtextfile).
 
-1. Open the design studio and select **Set up** workspace.
+1. Open the design studio and select the **Security** workspace.
 
 1. Select **Table permissions**.
 
@@ -81,8 +81,6 @@ For using and storing images in the rich text editor on the portal, you'll need 
 1. Under **Permission to**, select the **Read**, **Write**, **Create**, and **Delete** checkboxes.
  
 1. Assign an appropriate [web role](../security/create-web-roles.md) to the table permission.
-
-    :::image type="content" source="media/component-rte-tutorial/rich-text-table-permission.png" alt-text="Configuration of the rich text table permissions.":::
 
 > [!IMPORTANT]
 > If you want to store images as base 64 strings directly in the column that you've configured to use the rich text editor control, you need to configure the control by using a [JSON configuration file](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control). Set **disableImages** and **disableDefaultImageProcessing** to **true** to allow images to be rendered consistently across all clients. Using this method doesn't require the global table permission on the rich text attachment (msdyn_richtextfile) table.
