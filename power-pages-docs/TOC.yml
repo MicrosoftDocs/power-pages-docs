@@ -619,10 +619,33 @@
             - name: Render a site header and primary navigation bar
               href: configure/liquid/render-site-header-primary-navigation.md
     - name: Client API
-      href: configure/client-api.md
-      items: 
-      - name: Supported controls
-        href: configure/client-api-controls.md
+      items:
+      - name: Overview
+        href: configure/client-api/index.md
+      - name: Initialization
+        href: configure/client-api/initialization.md
+      - name: Forms, tabs, and sections
+        href: configure/client-api/forms-tabs-sections.md
+      - name: Controls
+        items:
+        - name: Control methods
+          href: configure/client-api/control-methods.md
+        - name: Control types
+          href: configure/client-api/controls.md
+      - name: Lists
+        href: configure/client-api/lists.md
+      - name: User authentication
+        href: configure/client-api/user-authentication.md
+      - name: Dataverse records, files, and images
+        href: configure/client-api/dataverse.md
+      - name: Languages
+        href: configure/client-api/languages.md
+      - name: Server endpoints and cloud flows
+        href: configure/client-api/ajax.md
+      - name: Copilot Studio agents
+        href: configure/client-api/agents.md
+      - name: Examples
+        href: configure/client-api/examples.md
     - name: Use server logic
       items:
         - name: Server logic overview
