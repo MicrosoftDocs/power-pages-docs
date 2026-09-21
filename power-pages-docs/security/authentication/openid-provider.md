@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider
 description: Learn how to set up an OpenID Connect provider for use with sites you create with Microsoft Power Pages.
-ms.date: 08/03/2026
+ms.date: 09/20/2026
 ms.topic: how-to
 author: shwetamurkute
 ms.author: bipuldeora
@@ -27,13 +27,14 @@ Power Pages has built-in support for OpenID Connect providers [Microsoft Entra E
   - This flow is the default authentication method for Power Pages sites.
 - Authorization code
   - Power Pages uses the *client_secret_post* method to communicate with the identity server's token endpoint.
-  - Power Pages also supports the *private_key_jwt* method to authenticate with the token endpoint. To enable this method, create a [site setting](../../configure/configure-site-settings.md) named **Authentication/OpenIdConnect/{ProviderName}/TokenEndPointAuthenticatedMethod** and set the value to `private_key_jwt`. Additional configuration is required for certificate and token settings.
+  - Power Pages also supports the *private_key_jwt* method to authenticate with the token endpoint. Learn more in [Configure *private_key_jwt*](#configure-private_key_jwt).
 - Hybrid (restricted support)
   - Power Pages requires *id_token* to be present in the response, so *response_type* = *code token* isn't supported.
   - The hybrid flow in Power Pages follows the same flow as implicit grant, and uses *id_token* to directly sign in users.
 
 > [!NOTE]
 > Changes to your site's authentication settings [might take a few minutes](/power-apps/maker/portals/admin/clear-server-side-cache#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the site. To see the changes right away, restart the site in the [admin center](../../admin/admin-overview.md).
+
 
 ## Set up the OpenID Connect provider in Power Pages
 
@@ -216,6 +217,30 @@ Use the following authorization parameters, but don't set them within the OpenID
   `{PortalUrl}/Account/Login/ExternalLogin?ReturnUrl=%2F&provider={ProviderName}&custom_param=value`
 
   If `custom_param` isn't in the list of allowed parameters, Power Pages ignores it.
+
+## Configure *private_key_jwt*
+
+The `private_key_jwt` method uses a certificate's private key to sign a client assertion. The identity provider validates the assertion by using the corresponding public key.
+
+Before you configure Power Pages, verify that the identity provider supports `private_key_jwt`. The provider's OpenID Connect metadata document should include `private_key_jwt` in the `token_endpoint_auth_methods_supported` array. You must also register the certificate's public key with the identity provider.
+
+1. [Upload a custom certificate](../../admin/manage-custom-certificates.md) that you want to use to sign a client assertion. Copy the certificate thumbprint after the upload is complete.
+
+1. Determine the provider name used in site settings. In the [Portal Management app](../../configure/portal-management-app.md), open **Site Settings** and find an existing setting for the OpenID Connect provider, such as **Authentication/OpenIdConnect/OpenId_1/Issuer**. The value between `OpenIdConnect/` and the setting name is the provider name. In this example, the provider name is `OpenId_1`.
+
+    The provider name in the site-setting path is an internal identifier and might differ from the display name shown on the sign-in page. Use the same capitalization in all settings for the provider.
+
+1. Create the following [site settings](../../configure/configure-site-settings.md). Replace `{ProviderName}` with the provider name you identified in the previous step.
+
+    | Site setting | Value |
+    | --- | --- |
+    | **Authentication/OpenIdConnect/{ProviderName}/TokenEndPointAuthenticatedMethod** | `private_key_jwt` |
+    | **Authentication/OpenIdConnect/{ProviderName}/PrivateKeyJwt/CertificateObject** | `{"kid":"{thumbprint}"}`, where `{thumbprint}` is the thumbprint of the custom certificate uploaded to the site. |
+
+1. Restart the site in the [Power Platform admin center](../../admin/admin-overview.md) so that Power Pages loads the certificate.
+
+If telemetry reports that the certificate wasn't found or loaded at startup, verify that the `kid` value matches the thumbprint of the uploaded custom certificate, the certificate includes its private key, and all site settings use the same provider name.
+
 
 ### See also
 

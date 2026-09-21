@@ -1,14 +1,15 @@
 ---
 title: FAQs about using OpenID Connect in Power Pages
 description: Get answers to frequently asked questions about using OpenID Connect providers for authentication on sites you create with Microsoft Power Pages.
-ms.date: 07/11/2025
+ms.date: 09/21/2026
 ms.topic: faq
-author: DanaMartens
+author: shwetamurkute
 ms.author: bipuldeora
 ms.reviewer: smurkute
 contributors:
     - sandhangitmsft
     - dileepsinghmicrosoft
+    - shwetamurkute
 ms.custom:
   - bap-template
   - sfi-ropc-nochange
@@ -37,7 +38,15 @@ Custom scope parameters can be specified using the **Scope** setting in your pro
 
 ## Why is the username in a contact or external identity record in Dataverse different from what the user entered on the sign-in page?
 
-The username field in a contact record and an external identity record shows the value that's sent in either the subclaim or object ID (OID) claim for Microsoft Entra&ndash;based providers. This is because the subclaim represents the user identifier and is guaranteed by the identity provider to be unique. An OID claim, where the object ID is a unique identifier for all users in a tenant, is supported when used with single-tenant Microsoft Entra&ndash;based providers.
+The username field in a contact record and an external identity record shows the value that's sent in either the sub claim or object ID (OID) claim for Microsoft Entra&ndash;based providers. This is because the sub claim represents the user identifier and is guaranteed by the identity provider to be unique.
+
+## Why isn't a user signed in as the expected existing contact?
+
+How the site matches an existing contact depends on the **Contact mapping with email** (`AllowContactMappingWithEmail`) setting:
+
+- If `AllowContactMappingWithEmail` is on, the site matches the contact by **Primary Email Address** using the `email`, `emails`, or `upn` claim.
+- If `AllowContactMappingWithEmail` is off, the site matches the contact by **Username** using the user identifier claim (`sub` or `oid`).
+
 
 ## Does Power Pages support signing out from OpenID Connect&ndash;based providers?
 

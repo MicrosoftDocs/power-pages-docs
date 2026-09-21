@@ -1,7 +1,7 @@
 ---
 title: Set up an OpenID Connect provider with Microsoft Entra ID
 description: Learn how to set up an OpenID Connect identity provider with Microsoft Entra ID use with sites you create with Microsoft Power Pages.
-ms.date: 04/29/2026
+ms.date: 09/21/2026
 ms.topic: how-to
 author: shwetamurkute
 ms.author: bipuldeora
@@ -144,9 +144,8 @@ The additional settings give you finer control over how users authenticate with 
 - **Use token lifetime**: This setting controls whether the authentication session lifetime, such as cookies, should match that of the authentication token. If you turn it on, this value overrides the **Application Cookie Expire Timespan** value in the **Authentication/ApplicationCookie/ExpireTimeSpan** site setting.
 
 - **Contact mapping with email**: This setting determines whether contacts are mapped to a corresponding email address when they sign in.
-
-  - **On**: Associates a unique contact record with a matching email address and automatically assigns the external identity provider to the contact after the user successfully signs in.
-  - **Off**
+     - If `AllowContactMappingWithEmail` is on, the site matches the contact by **Primary Email Address** using the `email`, `emails`, or `upn` claim.
+     - If `AllowContactMappingWithEmail` is off, the site matches the contact by **Username** using the user identifier claim (`sub` or `oid`).
 
 > [!Note]
 > The *UI_Locales* request parameter is sent automatically in the authentication request and is set to the language selected on the portal.
@@ -164,7 +163,8 @@ The additional settings give you finer control over how users authenticate with 
 In these examples, the first name, last name, and email addresses supplied with the additional claims become the default values in the profile page in the website.
 
 > [!NOTE]
-> Claims mapping is supported for text and boolean data types.
+> Claims mapping supports only text (string) and boolean contact attributes. The claim's data type must match the target contact attribute's data type. For example, map a boolean claim only to a boolean attribute.
+
 
 ## Allow multitenant Microsoft Entra authentication
 
