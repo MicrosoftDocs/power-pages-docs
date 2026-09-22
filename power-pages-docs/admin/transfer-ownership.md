@@ -21,7 +21,10 @@ Depending on the site's permissions and configuration, the previous owner might 
 
 Before you transfer site ownership, ensure that:
 
-- You have the **System Administrator** or **System Customizer** security role, or equivalent permissions, in the Dataverse environment connected to your Power Pages site.
+- You have any one of the following roles:
+    - Website owner who is a System administrator as well
+    - Dynamics 365 administrator
+    - Power Platform administrator
 - You have access to the [Power Platform admin center](https://aka.ms/ppac). 
 - The new owner is an enabled Microsoft Entra user with a **Member** user type. 
 
@@ -41,9 +44,6 @@ To learn more about the roles required, see [Admin roles required for website ad
 
 When the transfer finishes, the selected user becomes the primary owner of the site. Verify that the new owner can access and manage the site.
 
-## Known issues
-
-Users with the **Website App Owner**, **System Customizer**, or **System Administrator** security roles can currently change site ownership even if they aren't site owners. This issue will be fixed in a future release.
 
 ### See also
 
