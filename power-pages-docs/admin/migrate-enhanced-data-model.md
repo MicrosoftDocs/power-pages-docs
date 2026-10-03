@@ -4,7 +4,7 @@ description: Learn how to migrate your standard data model site to the enhanced 
 author:  neerajnandwana-msft
 ms.topic: upgrade-and-migration-article
 ms.custom: 
-ms.date: 08/28/2026
+ms.date: 10/02/2026
 ms.subservice:
 ms.author: nenandw 
 ms.reviewer: smurkute
@@ -127,7 +127,7 @@ The **Downstream Track** (mode `configurationDataReferences`) is used for 
 1. Confirm that the active authentication profile points to the environment that contains the site. To select another profile or create a profile, use `pac auth select` or `pac auth create -u "https://contoso.crm.dynamics.com"`.
 1. Install Enhanced Data model solutions for your template using one of the following methods:
    1. Provision a site of your template with enhanced data model (EDM) flag enabled in the admin center.
-   1. Use the CLI to install with the command `pac application install --application-name "PowerPages_PartnerPortal_V2"`
+   1. Use the CLI to install with the command `pac application install --application-name "<template package name>"`
 1. Find the site and record its identifiers with `pac pages list -v`.
 1. Record the values shown in the following table.
 
