@@ -378,8 +378,6 @@
           href: admin/upgrade-site.md
         - name: Update Power Pages solution
           href: admin/update-solution.md
-        - name: Update Dynamics 365 instance
-          href: admin/update-dynamics365-instance.md
         - name: Migrate website configuration
           href: admin/migrate-site-configuration.md
 - name: Configure Power Pages

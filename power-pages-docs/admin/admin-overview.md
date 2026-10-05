@@ -66,7 +66,6 @@ Select **...** to the left of **Site Actions** for more site actions.
 
 | Action | More Information |
 | - | - |
-| Manage Dynamics 365 Instance | See [Update the Dynamics 365 instance for your portal](update-dynamics365-instance.md) |
 | Update Dynamics 365 URL | If you updated your [environment URL](/power-platform/admin/edit-properties-environment#edit-an-environment), the **Update Dynamics 365 URL** action updates your site to point to the updated environment URL. |
 | Metadata translations | See [Import metadata translation](import-metadata-translation.md)
 | Install Field Service Extension | See [Integrate Field Service](../templates/dynamics-365-apps/integrate-field-service.md) |
