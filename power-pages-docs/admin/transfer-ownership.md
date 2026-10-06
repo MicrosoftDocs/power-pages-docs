@@ -4,7 +4,7 @@ description: Learn how Power Pages site ownership transfer moves a site's primar
 author: shwetamurkute
 ms.author: apsinhar
 ms.reviewer: smurkute
-ms.date: 09/21/2026
+ms.date: 10/05/2026
 ms.topic: how-to
 ---
 
@@ -44,6 +44,7 @@ To learn more about the roles required, see [Admin roles required for website ad
 
 When the transfer finishes, the selected user becomes the primary owner of the site. Verify that the new owner can access and manage the site.
 
+To view ownership transfer activity in Microsoft Purview, see [View Power Pages activity logs in Microsoft Purview](/power-platform/admin/activity-logging-auditing/activity-logs-power-pages#explore-power-pages-activities).
 
 ### See also
 
