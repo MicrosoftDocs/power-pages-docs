@@ -3,7 +3,7 @@ title: Overview of the Power Pages portals Web API
 description: Learn how to use the portals Web API to create, read, update, and delete Microsoft Dataverse tables from your Power Pages sites.
 author: neerajnandwana-msft
 ms.topic: overview
-ms.date: 08/27/2026
+ms.date: 10/09/2026
 ms.subservice: 
 ms.author: nenandw
 ms.reviewer: smurkute
@@ -300,6 +300,14 @@ You can't use Portal Web API for the following configuration tables:
 :::column:::
 	adx_webtemplate
 :::row-end:::
+
+## Limitations
+
+Custom activity tables inherit base columns (such as `subject`, `description`, `activityid`, and `createdon`) from the `activitypointer` table. When you configure Web API columns for a custom activity table by using `Webapi/<table-name>/fields`, the **Power Pages Web API Columns** system view, or `$select`, include at least one column defined directly on that table, not just inherited columns.
+
+If you configure only inherited `activitypointer` columns, the Web API can't detect a table-specific column selection. As a result, it treats the request as a wildcard (*) and returns the following error, even when you explicitly configure fields: **Attribute All Columns is not enabled for Web Api**.
+
+**Recommendation:** Include at least one column defined directly on the custom activity table, such as **Portal Comments**/`adx_portalcomment`, along with any inherited columns.
 
 ## Known issues
 
