@@ -4,7 +4,7 @@ description: Learn how Power Pages site ownership transfer moves a site's primar
 author: shwetamurkute
 ms.author: apsinhar
 ms.reviewer: smurkute
-ms.date: 10/05/2026
+ms.date: 10/13/2026
 ms.topic: how-to
 ---
 
@@ -21,14 +21,17 @@ Depending on the site's permissions and configuration, the previous owner might 
 
 Before you transfer site ownership, ensure that:
 
-- You have any one of the following roles:
-    - Website owner who is a System administrator as well
+- You are the website app owner and have any one of the following roles:
+    - System administrator
     - Dynamics 365 administrator
     - Power Platform administrator
 - You have access to the [Power Platform admin center](https://aka.ms/ppac). 
 - The new owner is an enabled Microsoft Entra user with a **Member** user type. 
 
 To learn more about the roles required, see [Admin roles required for website administrative tasks](admin-roles.md).
+
+> [!IMPORTANT]
+> Websites on [Power Platform managed identity](../security/identity-provisioning.md) model don't need web app ownership as a prerequisite for initiating transfer. For other portals, if you don't see the ownership transfer option, check whether you're the web app owner. Learn more in [Add an Owner to an Application Using Microsoft Graph](/troubleshoot/entra/entra-id/users-groups-entra-apis/add-owner-for-application-microsoft-graph).
 
 ## Transfer site ownership
 
@@ -49,4 +52,4 @@ To view ownership transfer activity in Microsoft Purview, see [View Power Pages 
 ### See also
 
 - [Admin roles required for website administrative tasks](admin-roles.md).
-- [Manage website authentication key](manage-auth-key.md).
+- [Manage website authentication key](manage-auth-key.md).  
