@@ -1,5 +1,5 @@
 ---
-title: Client API Server Endpoints and Cloud Flows (Preview)
+title: Client API Server Endpoints and Cloud Flows
 description: Learn how to use the Power Pages Client API to call server endpoints, trigger cloud flows, handle errors, and cancel requests. Explore code examples.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,11 +10,7 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Client API server endpoints and cloud flows (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
+# Client API server endpoints and cloud flows
 
 ## $pages.ajax
 

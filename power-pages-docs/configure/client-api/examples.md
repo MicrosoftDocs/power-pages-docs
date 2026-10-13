@@ -1,5 +1,5 @@
 ---
-title: Power Pages Client API Examples (Preview)
+title: Power Pages Client API Examples
 description: Learn how to use the Power Pages client APIs to set lookup and choice values, control read-only fields, validate data, and show or hide list columns and rows.
 #customer intent: As a developer, I want complete client API examples so that I can implement common form and list scenarios on my site.
 author: neerajnandwana-msft
@@ -11,13 +11,9 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Power Pages client API examples (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Power Pages client API examples
 
 The examples in this article show how to combine the [Power Pages client APIs](index.md) to implement common scenarios on forms and lists. Each example is complete, so you can copy it into a JavaScript web file or into the **Custom JavaScript** section of a page, and then change the form names, column names, and table names to match your site.
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 All examples use the callback pattern described in [Client API initialization](initialization.md#microsoftpowerpagesonpagesclientapiready), which guarantees that the client API is ready before your code runs. The callback is declared with `async` so that it can use `await`. Omit the `async` keyword when your own code doesn't use `await`.
 

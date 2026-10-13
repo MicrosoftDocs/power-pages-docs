@@ -1,5 +1,5 @@
 ---
-title: Client API control types (preview)
+title: Client API control types
 description: Learn about the control types supported by the Power Pages Client API.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,13 +10,9 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Client API control types (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Client API control types
 
 This article lists the supported control types. All controls have the [common control methods](control-methods.md), but some methods use different value types and some controls have additional members.
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 | Control Type | Description |
 | --- | --- |

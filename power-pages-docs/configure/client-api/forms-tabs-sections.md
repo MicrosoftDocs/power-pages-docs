@@ -1,5 +1,5 @@
 ---
-title: Client API Forms, Tabs, and Sections (Preview)
+title: Client API Forms, Tabs, and Sections
 description: Learn how to use Power Pages Client API forms, tabs, sections, and controls to manage page elements, visibility, values, and navigation.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,13 +10,9 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Client API forms, tabs, and sections (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Client API forms, tabs, and sections
 
 Use Power Pages Client API forms, tabs, sections, and controls to inspect and manage page elements. This reference explains the available collections, properties, and methods for controlling visibility, values, and multistep navigation.
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## $pages.currentPage.forms
 

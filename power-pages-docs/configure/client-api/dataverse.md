@@ -1,5 +1,5 @@
 ---
-title: Dataverse Records, Files, and Images Client API (Preview)
+title: Dataverse Records, Files, and Images Client API
 description: Learn how to use the Power Pages Client API to create, retrieve, update, and delete Dataverse records and work with files and images.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,11 +10,7 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Client API Dataverse records, files, and images (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
+# Client API Dataverse records, files, and images
 
 ## $pages.webAPI object
 
