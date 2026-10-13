@@ -1,9 +1,10 @@
 ---
 title: Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code
-description: This page provides a walk-through on how to create, customize, and deploy single-page applications for Microsoft Power Pages using an agentic AI coding tool.
+description: Use the Power Pages plugin for GitHub Copilot CLI and Claude Code to build, secure, and deploy SPA sites with AI. Get started with templates today.
 author: neerajnandwana-msft
 ms.topic: tutorial
-ms.date: 06/12/2026
+ms.date: 10/13/2026
+ai-usage: ai-assisted
 ms.author: nenandw
 ms.reviewer: smurkute
 contributors:
@@ -13,11 +14,11 @@ contributors:
 - JimDaly
 ---
 
-#  Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code
+# Get started with the Power Pages plugin for GitHub Copilot CLI and Claude Code
 
 The Power Pages plugin for [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and [Claude Code](https://claude.ai/code) provides an AI-assisted workflow for creating, deploying, and managing modern [*single-page application (SPA)*](/power-pages/configure/create-code-sites) sites on Power Pages. Instead of manually scaffolding projects, writing boilerplate API code, and configuring permissions, describe what you want in natural language, and the plugin handles the implementation.
 
-The plugin supports the full site development lifecycle through conversational skills, from scaffolding a new site to deploying it, setting up Dataverse data models, and configuring authentication.
+The plugin supports the full site development lifecycle through conversational skills. Create a site from a curated SPA template or scaffold it from scratch, then customize it, set up Dataverse data models, and configure authentication. Template creation is available in both GitHub Copilot CLI and Claude Code through `/create-site`.
 
 > [!IMPORTANT]
 > - A generative AI coding agent, such as GitHub Copilot CLI or Claude Code, uses this plugin's skills and workflows to complete Power Pages-specific tasks.
@@ -35,7 +36,7 @@ Before you begin, verify that you have the required software and permissions.
 | Power Platform CLI (PAC CLI) | 2.6.3 or later (required for server logic) | [Install PAC CLI](/power-platform/developer/cli/introduction) |
 | Azure CLI | Latest | [Install Azure CLI](/cli/azure/install-azure-cli) |
 | GitHub Copilot CLI or Claude Code | Latest | [GitHub Copilot CLI](https://github.com/features/copilot/cli/) or [Claude Code](https://claude.ai/code) |
-| Visual Studio Code and Power Platform Tools extension (Optional) | Latest | [Download VS Code](https://code.visualstudio.com/) and [Install Power Platform Tools](vs-code-extension.md#visual-studio-code-extension-for-power-pages) |
+| Visual Studio Code and Power Platform Tools extension (optional) | Latest | [Download VS Code](https://code.visualstudio.com/) and [Install Power Platform Tools](vs-code-extension.md#visual-studio-code-extension-for-power-pages) |
 
 You also need:
 
@@ -116,7 +117,7 @@ The plugin provides skills that cover the full lifecycle of a Power Pages site. 
 
 | Skill | Command | What it does |
 |---|---|---|
-| Create site | `/create-site` | Scaffolds a site, applies your design direction, and builds pages and components |
+| Create site | `/create-site` | Creates and activates a site from a curated SPA template, or scaffolds a site from scratch, applies your design direction, and builds pages and components |
 | Deploy site | `/deploy-site` | Builds the project and uploads it to Power Pages by using PAC CLI |
 | Activate site | `/activate-site` | Provisions a website record and assigns a public URL |
 | Set up data model | `/setup-datamodel` | Creates Dataverse tables, columns, and relationships |
@@ -128,6 +129,7 @@ The plugin provides skills that cover the full lifecycle of a Power Pages site. 
 | Add server logic | `/add-server-logic` | Generates secure server-side JavaScript endpoints for validation, external API calls, secret management, and data operations |
 | Add cloud flow | `/add-cloud-flow` | Integrates existing Power Automate cloud flows into your site for approval workflows, notifications, and scheduled automation |
 | Integrate backend | `/integrate-backend` | Analyzes your prototype, determines the right approach (Web API, Server Logic, or cloud flow) for each feature, and orchestrates the complete build sequence |
+| Add localization | `/add-localization` | Adds or extends multilingual SPA UI localization for React, Vue, and Angular, with translation resources, a language selector, and left-to-right and right-to-left layout checks |
 | Add SEO | `/add-seo` | Generates robots.txt, sitemap.xml, and meta tags |
 | Run security review | `/security-review` | Orchestrates the focused security skills and consolidates every finding into a single HTML report. Covers code, dependencies, deployed-site scan, browser headers, web application firewall, table permissions, and authentication configuration |
 | Scan source code | `/scan-code` | Runs static analysis and dependency scanning on local source files; surfaces findings across code patterns, vulnerable packages, hardcoded secrets, and license issues |
@@ -150,25 +152,27 @@ The plugin provides skills that cover the full lifecycle of a Power Pages site. 
 
 A common end-to-end workflow follows this sequence:
 
-1. **/create-site**         :  Scaffold, design, and build pages
-1. **/deploy-site**         :  Upload to your Power Pages environment
-1. **/activate-site**       :  Set up a public URL
-1. **/setup-datamodel**     :  Create Dataverse tables
-1. **/add-sample-data**     :  Populate tables with test records
-1. **/integrate-webapi**    :  Generate API client code and configure permissions
-1. **/create-webroles**     :  Define access roles
-1. **/setup-auth**          :  Add sign-in, sign-out, and role-based UI
-1. **/add-server-logic**    :  Add secure server-side endpoints
-1. **/add-cloud-flow**      :  Integrate existing Power Automate flows
-1. **/add-seo**             :  Search engine optimization
-1. **/deploy-site**         :  Push final changes live
-1. **/security-review**     :  Run an end-to-end security review before going to production
-1. **/plan-alm**            :  Promote your site to test and production environments
+1. **/create-site**         :  Start from a curated SPA template or scaffold, design, and build pages.
+1. **/deploy-site**         :  Upload to your Power Pages environment.
+1. **/activate-site**       :  Set up a public URL.
+1. **/setup-datamodel**     :  Create Dataverse tables.
+1. **/add-sample-data**     :  Populate tables with test records.
+1. **/integrate-webapi**    :  Generate API client code and configure permissions.
+1. **/create-webroles**     :  Define access roles.
+1. **/setup-auth**          :  Add sign-in, sign-out, and role-based UI.
+1. **/add-server-logic**    :  Add secure server-side endpoints.
+1. **/add-cloud-flow**      :  Integrate existing Power Automate flows.
+1. **/add-seo**             :  Add search engine optimization.
+1. **/deploy-site**         :  Push final changes live.
+1. **/security-review**     :  Run an end-to-end security review before going to production.
+1. **/plan-alm**            :  Promote your site to test and production environments.
 
 > [!TIP]
+> - The template path in `/create-site` includes the initial upload and activation. After the template site is live, skip steps 2 and 3 and add only the capabilities you still need. Run `/deploy-site` when you're ready to publish local customizations.
 > - You don't need to follow this exact order. Each skill checks its own prerequisites and tells you if something is missing. For example, you can run `/setup-auth` before `/integrate-webapi` if your site needs authentication first.
 > - If you're not sure which approach to use for each feature, run `/integrate-backend` instead of steps 4 through 10 individually. It analyzes your prototype, determines whether each feature needs Web API, Server Logic, or a cloud flow, and orchestrates the skills in the correct order.
 > - To add AI-generated search and record summaries, run `/add-ai-webapi` after `/integrate-webapi`. It reuses the table permissions and site settings that `/integrate-webapi` configures, so run it once your Web API integration is in place.
+> - To add languages to your SPA UI, run `/add-localization` before final deployment. You can also add languages to an existing localized site or repair its localization configuration.
 
 ## Build your Power Pages site
 
@@ -178,12 +182,45 @@ This walkthrough covers the full lifecycle of building a Power Pages site with t
 
 Describe the site you want in natural language: what it's for, what pages it needs, and any design preferences like color scheme, layout style, or fonts. Run `/create-site` or just describe your site and the plugin recognizes the intent.
 
-If you don't specify a framework, the plugin asks you to pick one (React, Vue, Angular, or Astro), then:
+The plugin checks the latest released template catalog and suggests templates that match your requirements. You can preview matching templates, browse all available SPA templates, or choose **Start from scratch**.
 
-1. Scaffolds the project from a template and applies your site name, colors, and design tokens.
+#### Create a site from a template
+
+Use a template to start with a packaged site and its supporting Dataverse solutions rather than generating every page from scratch. For example, enter this request in GitHub Copilot CLI or Claude Code:
+
+```text
+/create-site Create a citizen services site from a Power Pages SPA template.
+I need service requests, request tracking, a city service map, and knowledge articles.
+```
+
+The plugin guides you through the following steps:
+
+1. Opens a read-only browser gallery with template descriptions, preview images, and available framework variants. Select the template and framework in the terminal, not in the gallery. If a template has multiple variants, choose from the frameworks available for that template.
+1. Asks where to create the local project. Choose a new directory or an empty existing directory.
+1. Asks you to confirm the target Power Platform environment. It verifies that PAC CLI and Azure CLI use the same tenant, checks required Dataverse languages, and checks whether the environment allows JavaScript attachments. If `.js` attachments are blocked, it asks for permission before removing only `js` from the blocked extensions list.
+1. Asks you to approve installation of the selected template. The installation imports required unmanaged supporting solutions, clones the packaged website code into your local directory, installs dependencies, builds the project, and uploads a new code site.
+1. Applies template seed data when available and reports the result. Seed-data errors don't block site creation or activation.
+1. Activates the new site through `/activate-site`, which asks you to choose a subdomain and confirm activation. A browser status page tracks installation progress and redirects to the live site when activation succeeds. The site might take a few minutes to load while DNS changes propagate.
+1. Shows the live URL and local project path, then asks whether you want to customize the project. Review the proposed customization plan before approving changes. Local customizations aren't automatically redeployed; run `/deploy-site` when you're ready to publish them.
+
+> [!NOTE]
+> The current [released template catalog](https://github.com/microsoft/power-pages-samples/releases/latest) includes **311 Portal**, a React SPA for citizen service requests, request tracking, city service maps, knowledge articles, and 311 contact flows. It requires English (Dataverse language ID `1033`) in the target environment. Template availability and framework variants can change with new releases. The template gallery currently shows only SPA templates, not traditional Power Pages templates.
+
+> [!IMPORTANT]
+> Template installation changes your environment. Review the target environment and unmanaged supporting solutions before approving installation. If a supporting solution is already installed at the same or a newer version, the plugin skips its import and reuses it for the new site. If the template contains a newer solution version, the plugin asks for confirmation before updating it.
+
+If the catalog is unavailable or has no supported SPA templates, the plugin tells you and continues with from-scratch creation. If required Dataverse languages are missing, template installation stops before importing solutions; you can start from scratch or cancel. If solution import or site creation fails, review the reported error before choosing to retry, start from scratch, or stop. Earlier imports, partial unmanaged imports, local files, or a partial site upload might remain; switching paths doesn't remove them automatically.
+
+#### Create a site from scratch
+
+Choose **Start from scratch** to use the existing scaffold workflow instead of installing a curated template. The plugin asks you to pick a framework (React, Vue, Angular, or Astro) and a project location, then:
+
+1. Scaffolds the project from the framework's starter files and applies your site name, colors, and design tokens.
 1. Installs dependencies, starts a development server, and opens a live browser preview.
 1. Builds out each page, component, and route you requested with relevant images.
 1. Creates git commits at significant milestones so you have built-in rollback history.
+
+Continue with steps 2 and 3 to deploy and activate a site created from scratch.
 
 ### Step 2: Deploy your site
 
@@ -219,7 +256,7 @@ The plugin spawns a **Data Model Architect** agent that:
 
 **You review and approve the proposal.** The plugin doesn't create anything until you confirm. After approval, the plugin creates the tables and columns through API calls and saves a manifest file that Steps 5 and 6 use.
 
-### Step 5: Add sample data (Optional)
+### Step 5: Add sample data (optional)
 
 Run `/add-sample-data` to populate your tables with test records. This step requires the data model from Step 4.
 
@@ -245,7 +282,7 @@ The plugin performs the following actions:
 
 **You review and approve the permissions proposal.** The plugin doesn't create any configuration files until you confirm.
 
-#### Add AI-generated summaries (Optional)
+#### Add AI-generated summaries (optional)
 
 Run `/add-ai-webapi` to layer generative AI summaries on top of your Web API integration. The skill connects two preview summarization APIs to your record-detail and list pages:
 
@@ -289,7 +326,7 @@ The plugin:
 
 1. Analyzes your site (purpose, pages, audience) and proposes a sensible default. For example, the plugin proposes Microsoft Entra External ID with open registration for a customer-facing site, or Microsoft Entra ID with invitation-only registration for an internal portal. You accept the recommendation or pick your own providers.
 1. For each provider, walks you through every prerequisite step in the identity provider's admin center, such as creating tenants, registering apps, creating user flows, and capturing client IDs and redirect URIs. The plugin validates each value you paste back into the conversation, and computes the exact redirect URI for your site so that the value pasted into the app registration matches the value written into site settings.
-1. Asks how user profile data should flow from the identity provider into the Dataverse contact record (claims mapping), whether to sync on every sign-in or first sign-in only, and whether to auto-link external sign-ins to existing contacts by email.
+1. Asks how user profile data should flow from the identity provider into the Dataverse contact record (claims mapping), whether to sync on every sign-in or first sign-in only, and whether to auto-link external signins to existing contacts by email.
 1. Generates the authentication service, type declarations, role-based authorization utilities (`hasRole`, `RequireAuth`, `RequireRole`), a session keepalive hook that prevents SPA sessions from silently expiring, and a sign-in/sign-out UI component integrated with your site layout. The plugin uses your framework's patterns throughout, such as React hooks, Vue composables, Angular services, or Astro components.
 1. When more than one provider is configured, generates a `/login` page rendered in your chosen layout: horizontal row, vertical stack, primary spotlight, or tabbed.
 1. Writes the matching site settings under `.powerpages-site/site-settings/` for each provider, registration mode, claims mapping, and optional feature.
@@ -366,9 +403,35 @@ Run `/add-seo` to optimize your site for search engines. The plugin:
 1. Generates search engine directives and a sitemap for all discovered routes.
 1. Adds meta tags: viewport, charset, description, Open Graph, Twitter Card, and favicon references.
 
+### Add localization (optional)
+
+Run `/add-localization` in GitHub Copilot CLI or Claude Code to add languages to your SPA UI. For example:
+
+```text
+/add-localization Add French (fr-FR) and Arabic (ar-SA) to my site.
+Preserve the existing default language and add a language selector.
+```
+
+Use an existing Power Pages code-site project with `powerpages.config.json`. The skill currently supports runtime language switching in React, Vue, and Angular. Astro localization and Angular static/build-time localization are temporarily unavailable.
+
+The plugin:
+
+1. Detects your framework and existing localization. You can add languages or repair or reconfigure the setup. When adding languages, it preserves the existing package, default locale, and non-empty translations.
+1. Validates language tags in BCP-47 format, such as `fr-FR` and `ar-SA`, and confirms the default locale when needed. For a new setup, it recommends framework-appropriate localization tooling and lets you choose agent-generated translations or blank translation values for manual completion.
+1. Opens an HTML implementation plan for review. Approve the plan in the terminal before the plugin installs packages or changes site implementation files.
+1. Extracts user-visible strings into translation resources, including navigation, validation messages, accessibility labels, and page metadata. It adds a language selector, default-language fallback, and document language and text-direction settings.
+1. Validates localization resources, builds the project, and checks language switching, text expansion, and left-to-right and right-to-left layouts in the browser. Locales with blocking issues remain unavailable until those issues are resolved.
+1. Presents the results for your review. After a standalone run, it offers **Deploy now** or **Skip for now**. Deployment occurs only if you choose it; otherwise, run `/deploy-site` later.
+
+> [!IMPORTANT]
+> AI-generated translations might contain errors. Review them before publishing. Translations are generated during authoring and stored in your project; the skill doesn't add a runtime translation service or credentials.
+
+> [!NOTE]
+> This skill localizes only the SPA UI. It doesn't enable languages in your Dataverse environment or translate Dataverse records. Client-side localization doesn't satisfy a template's required Dataverse language prerequisites.
+
 ### Step 12: Deploy the final site
 
-If you perform any optional steps, run `/deploy-site` again to push the changes live. The plugin runs a production build and uploads the site along with all deployment artifacts (table permissions, site settings, web roles, server logic files) to your Power Pages environment.
+If you complete any optional steps, run `/deploy-site` again to push the changes live. The plugin runs a production build and uploads the site along with all deployment artifacts (table permissions, site settings, web roles, server logic files) to your Power Pages environment.
 
 ### Step 13: Run a security review
 
