@@ -128,6 +128,8 @@ The **Downstream Track** (mode `configurationDataReferences`) is used for 
 1. Install Enhanced Data model solutions for your template using one of the following methods:
    1. Provision a site of your template with enhanced data model (EDM) flag enabled in the admin center.
    1. Use the CLI to install with the command `pac application install --application-name "<template package name>"`
+   > [!NOTE]
+   > If the `pac application install` fails to install the enhanced data model solution, create a temporary site using the same template in Power Pages design studio. Creating the site installs the required template solution. For instructions, see [Create a Power Pages site](../getting-started/create-manage.md).
 1. Find the site and record its identifiers with `pac pages list -v`.
 1. Record the values shown in the following table.
 
