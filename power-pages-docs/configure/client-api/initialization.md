@@ -1,5 +1,5 @@
 ---
-title: Client API Initialization (Preview)
+title: Client API Initialization
 description: Learn how Power Pages Client API initialization works with callback and Promise/await patterns, then choose the best approach for your scripts.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,11 +10,7 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Client API initialization (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
+# Client API initialization
 
 ## Microsoft.PowerPages.onPagesClientApiReady
 

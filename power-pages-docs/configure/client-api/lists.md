@@ -1,5 +1,5 @@
 ---
-title: Client API Lists for Rows, Columns, Cells, and Events (Preview)
+title: Client API Lists for Rows, Columns, Cells, and Events
 description: Explore Power Pages Client API lists to manage lists, rows, columns, cells, visibility, and events. Use the reference and examples to build list experiences.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,13 +10,9 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Client API lists (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Client API lists
 
 Use Power Pages Client API lists to access and customize traditional and modern lists. This reference explains how to work with rows, columns, cells, visibility, and list events.
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 ## $pages.currentPage.lists
 

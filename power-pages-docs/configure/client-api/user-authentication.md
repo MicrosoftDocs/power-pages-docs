@@ -1,5 +1,5 @@
 ---
-title: Client API User Authentication Methods (Preview)
+title: Client API User Authentication Methods
 description: Learn how Client API user authentication uses the $pages.user object to sign users in and out of Power Pages sites. Explore the available methods.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,11 +10,7 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Client API user authentication (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
+# Client API user authentication
 
 ## $pages.user object
 

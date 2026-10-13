@@ -1,5 +1,5 @@
 ---
-title: Client API Controls Reference (Preview)
+title: Client API Controls Reference
 description: Explore Power Pages Client API controls and methods for managing form values, states, visibility, requirements, and client-side validation.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,13 +10,9 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Client API controls (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Client API controls
 
 Power Pages Client API controls implement the `Control` interface, which provides common methods for managing form values, states, visibility, requirements, and validation. Use this reference to identify available methods and return types. For control-specific value types and additional members, see [Client API control types](controls.md).
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 | Method | Returns | Description |
 |--------|---------|-------------|

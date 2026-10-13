@@ -1,5 +1,5 @@
 ---
-title: Power Pages Client APIs Overview (Preview)
+title: Power Pages Client APIs Overview
 description: Learn how to use Power Pages client APIs to manipulate UI components, manage forms, lists, and user authentication effectively.
 customer intent: As a developer, I want to retrieve all forms on a Power Pages site so that I can programmatically interact with them.
 author: neerajnandwana-msft
@@ -12,13 +12,9 @@ contributors:
 - JimDaly
 - mkaur
 ---
-# Power Pages client APIs (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Power Pages client APIs
 
 Power Pages client APIs help developers manipulate UI components, manage forms and lists, handle user authentication, and interact with Dataverse records programmatically. The client API becomes available when your page loads and can be accessed through a global variable with a name you choose.
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
 
 This documentation uses the variable name `$pages` throughout examples and recommends you follow this naming convention for consistency.
 

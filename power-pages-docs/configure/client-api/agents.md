@@ -1,5 +1,5 @@
 ---
-title: Client API for Copilot Studio Agents (Preview)
+title: Client API for Copilot Studio Agents
 description: Learn how to use the Power Pages Client API to send messages and invoke events in Copilot Studio agents. Explore syntax, callbacks, responses, and errors.
 author: neerajnandwana-msft
 ms.author: nenandw
@@ -10,11 +10,7 @@ ai.usage: ai-assisted
 contributors:
 - JimDaly
 ---
-# Use the Client API with Copilot Studio agents (preview)
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-note-pp.md)]
+# Use the Client API with Copilot Studio agents
 
 ## $pages.agent object
 
