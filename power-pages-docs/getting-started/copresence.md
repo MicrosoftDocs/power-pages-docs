@@ -4,7 +4,8 @@ description: Learn about Copresence in Power Pages.
 author: DanaMartens  
 ms.topic: concept-article
 ms.custom:  
-ms.date: 5/22/2024 
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.subservice:  
 ms.author: bipuldeora  
 ms.reviewer: smurkute  
@@ -37,6 +38,9 @@ User icons appear in both the toolbar and the left navigation pane showing where
 If more than three makers are present, a number appears, such as +1 or +10. Select that number to expand the list of all users active on the site. From the command bar, select a name to display the user's card and to use the **Send email** and **Chat in Teams** options to contact the person.
 
 ## Copresence in Visual Studio Code for the Web
+
+> [!IMPORTANT]
+> Copresence in Visual Studio Code for the Web is deprecated and will be removed in a future release. The feature continues to work until it's removed. Copresence in Power Pages design studio isn't affected by this change. Learn more in [Important upcoming changes and deprecations in Power Pages](../important-changes-deprecations.md#copresence-in-visual-studio-code-for-the-web).
 
 Copresence seamlessly works along side Visual Studio Code for the Web. As users navigate through files, their current page location is dynamically updated in the user panel at the top. The active status of users is reflected in both Visual Studio Code for the Web and the Power Pages design studio.
 

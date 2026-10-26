@@ -4,7 +4,8 @@ description: Learn about the important changes, including deprecations, coming s
 author: shwetamurkute
 
 ms.topic: concept-article
-ms.date: 09/01/2026
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: smurkute
@@ -23,7 +24,23 @@ ms.custom:
 The announcements for changes and deprecations described in this article apply to Power Pages. Makers, developers, and IT pros can use this information to prepare for future releases.
 
 > [!IMPORTANT]
-> *Deprecated* means that Microsoft intends to remove the feature or capability from a future major release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer works. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+> *Deprecated* means that Microsoft plans to remove the feature or capability in a future major release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability no longer works. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+## Add AI-generated code using Copilot
+
+[Add AI-generated code using Copilot](configure/add-code-copilot.md) is deprecated and will be removed in a future release. This preview feature provides Power Pages-specific code generation and the **Explain** feature through Copilot chat in the Power Platform Tools extension for Visual Studio Code and Visual Studio Code for the Web.
+
+### What this change means for you
+
+The feature continues to work until it's removed. After removal, the Power Pages Copilot chat experience for generating and explaining site code is no longer available. To get AI coding assistance while you customize your site's HTML, JavaScript, CSS, and Liquid code, use the [Power Pages plugin for GitHub Copilot CLI](configure/create-code-site-using-claude-code.md).
+
+## Copresence in Visual Studio Code for the Web
+
+[Copresence in Visual Studio Code for the Web](getting-started/copresence.md#copresence-in-visual-studio-code-for-the-web) is deprecated and will be removed in a future release. When you edit code in Visual Studio Code for the Web, this feature shows who else is active on the same site and which files they're editing.
+
+### What this change means for you
+
+The feature continues to work until it's removed. After removal, Visual Studio Code for the Web no longer shows other active users or lets you contact them from the editor. [Copresence in Power Pages design studio](getting-started/copresence.md) isn't affected by this change.
 
 ## Wildcard value (*) in Web API field configuration
 
