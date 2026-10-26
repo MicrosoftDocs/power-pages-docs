@@ -18,6 +18,9 @@ contributors:
 
 These frequently asked questions (FAQ) describe the AI impact of Power Pages' AI-generated code using Copilot feature.
 
+> [!IMPORTANT]
+> The Add AI-generated code by using Copilot feature is deprecated and will be removed in a future release. For more information, see [Important upcoming changes and deprecations in Power Pages](important-changes-deprecations.md#add-ai-generated-code-using-copilot).
+
 ## What is AI-generated code using Copilot?
 
 AI-generated code using Copilot for Power Pages pro-developers is enabled in the Power Platform Tools Visual Studio Code desktop extension. You can use this feature while working on Power Pages site code in Visual Studio Code if you require coding assistance to help you in customizing the site. Pro-developers can describe intended code behavior using natural language like the code they want to generate for form validation or Ajax calls using the Power Pages Web API. Pro-developers are provided with code snippets that they can use within their Power Pages site code. You can continue to describe further updates in natural language and iterate over generated code until you achieve the desired outcome. Once you're satisfied with the generated code, you can copy-paste or insert the code to Power Pages site and modify the code further.
