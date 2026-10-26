@@ -11,6 +11,8 @@
           href: white-papers/security.md
         - name: Authentication white paper
           href: white-papers/authentication.md
+        - name: Application lifecycle management (ALM) white paper
+          href: white-papers/application-lifecycle-management.md
     - name: Power BI
       items: 
         - name: "How to: Enable row level security in Power BI on Power Pages"
