@@ -4,8 +4,9 @@ description: Learn how to disable external service calls from Power Pages server
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 03/31/2026
+ms.date: 10/15/2026
 ms.topic: feature-guide
+ai-usage: ai-assisted
 ---
 
 # Use governance controls to disable external service calls from server logic in Power Pages
@@ -18,15 +19,19 @@ Control outbound HTTP calls from server logic on a site-by-site basis by using t
 
 1. Go to the [Power Platform admin center](https://aka.ms/ppac).
 
-1. In the left-side menu, select **Resources** > **Power Pages Sites.**
+2. In the left navigation pane, select **Manage**.
 
-1. Select **Governance Controls** from the top ribbon menu.
+3. Under **Products**, select **Power Pages**.
 
-1. Select **Disable external service calls from Server Logic** from the list.
+4. Select the **Settings** tab.
 
-1. In the slide-out panel, choose the **Environment** > **Set up**.
+    <!-- SCREENSHOT PLACEHOLDER: Show the external-service-calls governance setting on the Power Pages Settings tab. Use generic environment and site names without sensitive information. -->
 
-1. Select **On** and choose the following options:
+5. Select **Disable external service calls from Server Logic**.
+
+6. In the slide-out panel, choose the **Environment** > **Set up**.
+
+7. Select **On** and choose the following options:
 
    | Option | Description |
    |---|---|
@@ -34,7 +39,7 @@ Control outbound HTTP calls from server logic on a site-by-site basis by using t
    | All sites except specific site | Disable outbound calls everywhere except the sites you choose. Those selected sites have all outbound HTTP calls blocked. |
    | Specific sites | Blocks outbound calls only in the sites you select. All other sites continue normally. |
 
-1. Save.
+8. Select **Save**.
 
 > [!IMPORTANT]
 > - The default behavior allows server logic to make outbound HTTP calls. No action is required unless your organization wants to restrict this capability.

@@ -4,9 +4,10 @@ description: Learn how you can disable site-level anonymous access.
 author: nageshbhat-msft
 ms.topic: how-to
 ms.custom: 
-ms.date: 10/06/2025
+ms.date: 10/15/2026
 ms.author: bipuldeora
 ms.reviewer: smurkute
+ai-usage: ai-assisted
 contributors:
     - nageshbhat-msft
 ---
@@ -21,15 +22,17 @@ You can disable and enable anonymous access to your websites using the Power Pla
 
 1. Go to the [Power Platform admin center](https://aka.ms/ppac).
 
-1. From the left-hand menu, navigate to **Resources** and choose **Power Pages Sites**.
+2. In the left navigation pane, select **Manage**.
 
-1. Select **Governance Controls** from the top ribbon menu.  
+3. Under **Products**, select **Power Pages**.
 
-    :::image type="content" source="media/disable-anonymous-access/governance-controls.png" alt-text="Governance controls.":::
+4. Select the **Settings** tab.
 
-1. Choose **Disable anonymous access** from the list.  
+    <!-- SCREENSHOT PLACEHOLDER: Show the anonymous-access governance setting under Security on the Power Pages Settings tab. Use generic environment and site names without sensitive information. -->
 
-1. A slide-out panel appears. You can configure anonymous access for the following options:
+5. Under **Security**, select **Anonymous access to Dataverse**.
+
+6. A slide-out panel appears. Configure anonymous access for the following options:
 
     | Option | Description |
     |---------|---------|
@@ -41,9 +44,9 @@ You can disable and enable anonymous access to your websites using the Power Pla
     > [!NOTE]
     > If admins block external authentication providers, anonymous access is automatically disabled.
     
-1. Select the sites and choose **OK**.
+7. Select the sites and choose **OK**.
 
-1. Select **Save**. A message confirming success appears in green below the Governance Controls ribbon menu.  
+8. Select **Save**. A message confirms that your changes are saved.
 
 > [!NOTE]
 > - While unauthenticated users will be prevented from viewing Dataverse data when this setting is enabled, these users can still write data to Dataverse. This is helpful in use cases where users wish to submit anonymous feedback.  
