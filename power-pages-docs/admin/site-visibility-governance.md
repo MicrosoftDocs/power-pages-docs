@@ -4,8 +4,9 @@ description: Control public access for non-production Power Pages sites with gov
 author: RitGan
 ms.author: ritwikganni
 ms.reviewer: smurkute
-ms.date: 03/17/2026
+ms.date: 10/15/2026
 ms.topic: how-to
+ai-usage: ai-assisted
 ---
 
 
@@ -24,15 +25,22 @@ When makers are blocked, they see an **Access restricted** message in the **Site
 ## Configure the governance control
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-1. Go to **Manage** > **Power Pages** > **Governance controls**.
-1. From the dropdown list, select **Set site visibility to public access for non-production sites**.
-1. Select the environment you want to manage.
-1. Choose a policy value:
- - **None** – Makers can't make non-production sites public.
- - **All** – Makers can make any non-production site public or private.
- - **All sites except specific sites** – Makers can make non-production sites public except the sites you exclude.
- - **Specific sites** – Makers can make only the selected non-production sites public.
-1. Save your changes.
+2. In the left navigation pane, select **Manage**.
+3. Under **Products**, select **Power Pages**.
+4. Select the **Settings** tab.
+
+    <!-- SCREENSHOT PLACEHOLDER: Show the non-production site visibility governance setting on the Power Pages Settings tab. Use generic environment and site names without sensitive information. -->
+
+5. Select **Set site visibility to public access for non-production sites**.
+6. Select the environment you want to manage.
+7. Choose a policy value:
+
+   - **None** – Makers can't make non-production sites public.
+   - **All** – Makers can make any non-production site public or private.
+   - **All sites except specific sites** – Makers can make non-production sites public except the sites you exclude.
+   - **Specific sites** – Makers can make only the selected non-production sites public.
+
+8. Save your changes.
 
 > [!IMPORTANT]
 > When this capability becomes available in your tenant, the default policy is **None** until you change it.
