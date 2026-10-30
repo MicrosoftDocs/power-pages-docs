@@ -1,7 +1,7 @@
 ---
 title: Site visibility in Power Pages
 description: Learn how to use the site visibility setting to control who has access to sites you create with Microsoft Power Pages.
-ms.date: 03/17/2026
+ms.date: 10/30/2026
 ms.topic: how-to
 author: nageshbhat-msft
 ms.author: nabha
@@ -45,14 +45,14 @@ When you change the site visibility, the website restarts. It can take a few min
 
 ## Site visibility for a non-production site
 
-Your tenant admin can control whether makers are allowed to make **non-production** sites public. When this governance control blocks public access:
+Your tenant admin can control whether makers can make a site public when either the site or its environment is non-production. When this governance control blocks public access:
 
 - The option to change a non-production site from **Private** to **Public** is unavailable.
 - You see an **Access restricted** message in the **Site visibility** pane.
 
 :::image type="content" source="media/site-visibility/non-production-site-restricted-access.png" alt-text="Screenshot site visibility screen with access restricted message showing at the top.":::
 
-This restriction applies to **non-production private** sites. It doesn't change site visibility behavior for production sites.
+This restriction applies when either the site or its environment is non-production.
 
 > [!NOTE]
 > If a non-production site was already **Public** before the restriction was applied, the site remains public. If you change it back to **Private**, you might not be able to switch it to **Public** again while the restriction is in effect.
