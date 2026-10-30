@@ -4,7 +4,7 @@ description: Control public access for non-production Power Pages sites with gov
 author: RitGan
 ms.author: ritwikganni
 ms.reviewer: smurkute
-ms.date: 10/15/2026
+ms.date: 10/30/2026
 ms.topic: how-to
 ai-usage: ai-assisted
 ---
@@ -12,9 +12,9 @@ ai-usage: ai-assisted
 
 # Control public access for non-production Power Pages sites
 
-Tenant admins can control whether makers can make **non-production** Power Pages sites public, such as trial or developer sites. This governance control helps prevent accidental exposure of sites that are still in development.
+Tenant admins can control whether makers can make a Power Pages site public when either the site or its environment is non-production. This governance control helps prevent accidental exposure of sites that are still in development.
 
-This governance control doesn't change site visibility behavior for **production** sites.
+This governance control applies when either the site or its environment is non-production.
 
 ## How the control affects makers
 
@@ -28,9 +28,6 @@ When makers are blocked, they see an **Access restricted** message in the **Site
 2. In the left navigation pane, select **Manage**.
 3. Under **Products**, select **Power Pages**.
 4. Select the **Settings** tab.
-
-    <!-- SCREENSHOT PLACEHOLDER: Show the non-production site visibility governance setting on the Power Pages Settings tab. Use generic environment and site names without sensitive information. -->
-
 5. Select **Set site visibility to public access for non-production sites**.
 6. Select the environment you want to manage.
 7. Choose a policy value:
@@ -39,7 +36,6 @@ When makers are blocked, they see an **Access restricted** message in the **Site
    - **All** – Makers can make any non-production site public or private.
    - **All sites except specific sites** – Makers can make non-production sites public except the sites you exclude.
    - **Specific sites** – Makers can make only the selected non-production sites public.
-
 8. Save your changes.
 
 > [!IMPORTANT]
