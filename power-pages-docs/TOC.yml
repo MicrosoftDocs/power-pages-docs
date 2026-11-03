@@ -306,6 +306,8 @@
       href: admin/admin-center-analytics.md
     - name: Roles required for administration
       href: admin/admin-roles.md
+    - name: Manage admin access with role-based access control (preview)
+      href: admin/manage-administrative-access-with-rbac.md
     - name: Managed identity and site provisioning
       href: security/identity-provisioning.md
     - name: Copilot hub
@@ -618,32 +620,32 @@
               href: configure/liquid/render-site-header-primary-navigation.md
     - name: Client API
       items:
-      - name: Overview
-        href: configure/client-api/index.md
-      - name: Initialization
-        href: configure/client-api/initialization.md
-      - name: Forms, tabs, and sections
-        href: configure/client-api/forms-tabs-sections.md
-      - name: Controls
-        items:
-        - name: Control methods
-          href: configure/client-api/control-methods.md
-        - name: Control types
-          href: configure/client-api/controls.md
-      - name: Lists
-        href: configure/client-api/lists.md
-      - name: User authentication
-        href: configure/client-api/user-authentication.md
-      - name: Dataverse records, files, and images
-        href: configure/client-api/dataverse.md
-      - name: Languages
-        href: configure/client-api/languages.md
-      - name: Server endpoints and cloud flows
-        href: configure/client-api/ajax.md
-      - name: Copilot Studio agents
-        href: configure/client-api/agents.md
-      - name: Examples
-        href: configure/client-api/examples.md
+        - name: Overview
+          href: configure/client-api/index.md
+        - name: Initialization
+          href: configure/client-api/initialization.md
+        - name: Forms, tabs, and sections
+          href: configure/client-api/forms-tabs-sections.md
+        - name: Controls
+          items:
+            - name: Control methods
+              href: configure/client-api/control-methods.md
+            - name: Control types
+              href: configure/client-api/controls.md
+        - name: Lists
+          href: configure/client-api/lists.md
+        - name: User authentication
+          href: configure/client-api/user-authentication.md
+        - name: Dataverse records, files, and images
+          href: configure/client-api/dataverse.md
+        - name: Languages
+          href: configure/client-api/languages.md
+        - name: Server endpoints and cloud flows
+          href: configure/client-api/ajax.md
+        - name: Copilot Studio agents
+          href: configure/client-api/agents.md
+        - name: Examples
+          href: configure/client-api/examples.md
     - name: Use server logic
       items:
         - name: Server logic overview
@@ -656,14 +658,14 @@
           href: configure/server-logic-debug.md
         - name: Tutorial
           items:
-           - name: "How to: interact with Dataverse tables using server logic"
-             href: configure/server-logic-operations.md 
-           - name: "How to: interact with external services using server logic"
-             href: configure/server-logic-external-services.md
-           - name: "How to: interact with Microsoft Graph and SharePoint using Server logic"
-             href: configure/server-logic-graph-sharepoint.md
-           - name: "How to: interact with Azure function HTTP trigger using Server logic"
-             href: configure/server-logic-azure-function.md
+            - name: "How to: interact with Dataverse tables using server logic"
+              href: configure/server-logic-operations.md
+            - name: "How to: interact with external services using server logic"
+              href: configure/server-logic-external-services.md
+            - name: "How to: interact with Microsoft Graph and SharePoint using Server logic"
+              href: configure/server-logic-graph-sharepoint.md
+            - name: "How to: interact with Azure function HTTP trigger using Server logic"
+              href: configure/server-logic-azure-function.md
     - name: Use Web API
       items:
         - name: Portals Web API overview
