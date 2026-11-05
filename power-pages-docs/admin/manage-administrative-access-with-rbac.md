@@ -1,7 +1,7 @@
 ---
 title: Manage administrative access to Power Pages with role-based access control (preview)
 description: Power Pages role-based access control (RBAC) grants precise admin access to sites. Learn how roles, scopes, and principals work during the preview.
-ms.date: 10/30/2026
+ms.date: 11/05/2026
 ms.topic: concept-article
 author: shwetamurkute
 ms.author: smurkute
@@ -28,11 +28,11 @@ Power Pages RBAC is built on [role-based access control for Power Platform](/pow
 - Familiarity with [Role-based access control for Power Platform](/power-platform/admin/security/role-based-access-control)
 - Familiarity with the [Power Platform API](/rest/api/power-platform/)
 
-## Expectations and limitations
+## Limitations
 
-During preview, Power Platform RBAC is primarily intended for administration through the Power Platform API and management SDKs, including automation that uses service principals and managed identities.
+Power Platform RBAC is primarily intended for administration through the Power Platform API and management SDKs, including automation that uses service principals and managed identities.
 
-The following limitations apply during preview:
+The following limitations apply:
 
 - Manage role assignments through the Power Platform API and management SDKs.
 - Can't customize built-in role definitions.
@@ -81,19 +81,19 @@ Choose the lowest level that supports the required work.
 
 ### Power Pages Management roles
 
-| **Role** | **Role ID** | **Permissions** | **What a principal can do (Not Exhaustive)** |
-|----|----|----|----|
-| **Power Pages Reader** |  |  | View sites and their configuration, including site details, WAF status and rules, custom domain and SSL configuration, IP rules, security scan status, and governance settings. The role can't make changes. |
-| **Power Pages Contributor** |  |  | Perform Reader operations and manage sites. This role includes starting, stopping, and restarting sites; configuring WAF and IP address rules; managing custom domains, SSL bindings, and certificates; starting security scans; and updating site settings such as data loss prevention, visibility, and security group settings. The role can't delete resources. |
-| **Power Pages Owner** |  |  | Perform Contributor operations and delete sites. |
+| **Role** | **Role ID** | **What a principal can do (Not Exhaustive)** |
+|----|-----|----|
+| **Power Pages Reader** | 7dd7c43f-39c0-4b96-8085-0b457211095f  | View sites and their configuration, including site details, WAF status and rules, custom domain and SSL configuration, IP rules, security scan status, and governance settings. The role can't make changes. |
+| **Power Pages Contributor** |  c8ea3441-7d32-4510-8333-1fd5b22a6008  | Perform Reader operations and manage sites. This role includes starting, stopping, and restarting sites; configuring WAF and IP address rules; managing custom domains, SSL bindings, and certificates; starting security scans; and updating site settings such as data loss prevention, visibility, and security group settings. The role can't delete resources. |
+| **Power Pages Owner** | 3358e1e5-d854-488d-a172-55fea786765f  | Perform Contributor operations and delete sites. |
 
 ### Power Pages data access roles
 
-| **Role** | **What a principal can do** |
+| **Role** | **Role ID** | **What a principal can do** |
 |----|----|
-| **Power Pages Data Reader** | Read allowed Power Pages data stored in Dataverse, such as retrieving a security scan report. |
-| **Power Pages Data Contributor** | Perform Data Reader operations and create or update allowed Power Pages data, such as creating the website record when provisioning a site. |
-| **Power Pages Data Owner** | Perform Data Contributor operations and delete allowed Power Pages data. |
+| **Power Pages Data Reader** | ccfee3ee-afa8-42ed-8d42-47aee3079297 | Read allowed Power Pages data stored in Dataverse, such as retrieving a security scan report. |
+| **Power Pages Data Contributor**  | 964b71b4-4bff-485e-ad3b-0c1d8b092bbb | Perform Data Reader operations and create or update allowed Power Pages data, such as creating the website record when provisioning a site. |
+| **Power Pages Data Owner** |  b83af6c7-2d45-49d5-9edf-6266cde45ea4 | Perform Data Contributor operations and delete allowed Power Pages data. |
 
 You can't change Power Pages roles. Listing the available role definitions before creating an assignment provides the current role names, permissions, and role definition IDs. Role definition IDs returned by the API are the authoritative source; don't copy or hard-code IDs from documentation.
 
