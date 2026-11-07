@@ -312,6 +312,8 @@
       href: security/identity-provisioning.md
     - name: Copilot hub
       href: admin/copilot-hub.md
+    - name: Power Pages Sites in Power Platform Inventory (Preview)
+      href: admin/power-pages-inventory.md
     - name: Configure website actions
       items:
         - name: Download public key
