@@ -5,26 +5,28 @@ author: DanaMartens
 
 ms.topic: concept-article
 ms.custom: 
-ms.date: 03/21/2023
+ms.date: 11/15/2026
 ms.subservice: 
 ms.author: bipuldeora
 ms.reviewer: smurkute
 contributors:
     - dileepsinghmicrosoft
+    - erikadoyle
 ---
 
 # Release updates
 
 This topic provides resources where you can learn about the new features that have been recently released and features that will be releasing over the next few months.
 
-## Power Pages release plans
+## Power Pages roadmap
 
-For information about the roadmap and new features releasing over the next few months, see:
-- [2023 release wave 2 plan](/power-platform/release-plan/2023wave2/power-pages/)
-- [2023 release wave 1 plan](/power-platform/release-plan/2023wave1/power-pages/)
-- [2022 release wave 2 plan](/power-platform-release-plan/2022wave2/power-pages/)
+Refer to the [Microsoft Copilot Roadmap](https://aka.ms/roadmap) to learn more about upcoming features and updates for Power Pages, Power Platform, and related Microsoft products.
 
-### Privacy notice
+## Power Pages availability
+
+To learn more about Power Pages availability by geography and cloud, see [Product and feature availability for Power Platform](/dynamics365/get-started/product-availability#power-platform).
+
+For a historical snapshot of product and feature availability, see [Historical product and feature availability for Power Pages](/dynamics365/get-started/historical-product-availability#power-apps).
 
 [!INCLUDE[cc-privacy-crm-portals-data-exposed](includes/cc-privacy-crm-portals-data-exposed.md)]
 

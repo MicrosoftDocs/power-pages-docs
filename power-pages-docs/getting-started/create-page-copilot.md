@@ -80,5 +80,4 @@ You can also edit a page by using Copilot. Type the following commands in the Co
 
 ## See also
 
-- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 - [FAQ for Copilot for design studio](../faqs-design-studio.md).

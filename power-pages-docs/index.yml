@@ -40,9 +40,9 @@ highlightedContent:
       url: /training/paths/power-pages-get-started
 
     # Card
-    - title: Release plans
+    - title: Roadmap
       itemType: whats-new
-      url: /dynamics365/release-plans
+      url: https://aka.ms/roadmap
 
     # Card
     - title: Troubleshoot

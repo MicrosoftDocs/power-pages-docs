@@ -166,8 +166,8 @@ When generative AI experiences are blocked in a site for users, they fall back t
 
 ### Related information
 
-- [Overview of AI-powered and Copilot features in Power Pages](/power-pages/copilot-ai)    
-- [Manage Copilot in Power Platform](/power-platform/admin/copilot/copilot-hub?wt.mc_id=ppac_inproduct_copilothub)   
-- [Security FAQs in Copilot Studio](/microsoft-copilot-studio/security-faq?wt.mc_id=ppac_inproduct_copilothub)   
-- [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-security-privacy?wt.mc_id=ppac_inproduct_copilothub)   
+- [Overview of AI-powered and Copilot features in Power Pages](/power-pages/copilot-ai)
+- [Manage Copilot in Power Platform](/power-platform/admin/copilot/copilot-hub?wt.mc_id=ppac_inproduct_copilothub)
+- [Security FAQs in Copilot Studio](/microsoft-copilot-studio/security-faq?wt.mc_id=ppac_inproduct_copilothub)
+- [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-security-privacy?wt.mc_id=ppac_inproduct_copilothub)
 - [Empowering responsible AI practices](https://www.microsoft.com/en-in/ai/responsible-ai)  

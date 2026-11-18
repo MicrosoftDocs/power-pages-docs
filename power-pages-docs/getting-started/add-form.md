@@ -221,7 +221,7 @@ When you enable form filling assistance, users can:
 AI form fill can't be enabled, and users can't use it under the following conditions:
 
 - Your organization's admins disabled AI features for end users using governance controls. Learn more about governance controls at [Disable Generative AI features for users (preview)](../admin/copilot-governance.md).
-- The site is part of an environment where admins disabled data across regions. Learn more about allowing data to cross regions at [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+- The site is part of an environment where admins disabled data across regions. To learn more, see [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).
 - The form is highly customized with custom JavaScript or styles. In such cases, add a [site setting](../configure/configure-site-settings.md) for the site with the site setting name `Forms/{FormId}/EnableGenAIFormsAssistant` and set the value to `true`. Replace `{FormId}` with the ID for your form. You can find the ID of a form at the end of the URL when you open a form in the Data workspace.
 
 ## Dataverse data type support for GenAI forms

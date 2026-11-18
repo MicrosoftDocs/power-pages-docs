@@ -52,7 +52,6 @@ To avoid unintentionally publishing changes to your site, review, edit, and veri
 
 ## See also
 
-- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 - [FAQ for Copilot for design studio](../faqs-design-studio.md)
 - [Overview of AI-powered and Copilot features in Power Pages](../copilot-ai.yml)
 - [Add AI-generated text using Copilot](add-text-copilot.md)
