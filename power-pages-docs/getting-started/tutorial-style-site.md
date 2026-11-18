@@ -4,7 +4,7 @@ description: Learn how to customize your Portal to match your corporate brand.
 author: shwetamurkute
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 09/20/2022
+ms.date: 11/17/2026
 ms.subservice:
 ms.author: bipuldeora 
 ms.reviewer: 
@@ -36,17 +36,13 @@ In this tutorial, you learn how to:
 
 This video provides an overview of the steps to add your corporate logo and brand colors to Power Pages.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=709b6ed1-af7d-41a5-992c-ddb2a1d327a8]
+> [!VIDEO f0cd77a5-bf08-442b-a21a-16ac0cc73ddb]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
+1. Inside the design studio, hover over the header component and select **Edit site header**. Editing options appear in a window in the Pages workspace.
+1. Add a logo in the **Title + logo** section of the header editing window by choosing an image from the media library or uploading a new image.
 
-1. Inside the design studio, mouse over the existing logo and select **Image** when the flyover appears.
-
-    :::image type="content" source="media/tutorial/image-button.png" alt-text="The image button.":::
-
-1. Choose an existing image from the media library, or upload a new image.
-
-    :::image type="content" source="media/tutorial/upload-image.png" alt-text="Upload image.":::
+    :::image type="content" source="media/edit-header/title-logo.png" alt-text="Upload image.":::
 
 1. Select the image you'd like to use (in this instance, use the corporate logo you uploaded).
 

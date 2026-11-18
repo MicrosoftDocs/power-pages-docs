@@ -4,7 +4,7 @@ description: Learn how to build Power Pages sites by following these video guide
 author: iammaddala
 ms.topic: concept-article
 ms.custom: 
-ms.date: 2/23/2023
+ms.date: 11/13/2026
 ms.author: ammaddala
 ms.reviewer: smurkute
 contributors:
@@ -28,7 +28,7 @@ The following videos show you how to create and design a page in your site and c
 
 ### Create page
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c91ca438-af3e-4cd8-8382-2469a1076682]
+> [!VIDEO 5a91b8c3-0a68-4695-b224-8c77adb00f42]
 
 ### Configure site navigation
 
@@ -45,7 +45,7 @@ Designing your site to match your company brand has never been easier. The new d
 
 Watch this quick video to learn how to set up your brand kit.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=709b6ed1-af7d-41a5-992c-ddb2a1d327a8]
+> [!VIDEO f0cd77a5-bf08-442b-a21a-16ac0cc73ddb]
 
 ## Add advanced styling to your site
 
@@ -102,7 +102,7 @@ This video provides an overview of the steps to add a list to a page.
 
 This video shows you how to restrict access to a specific webpage.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=51dd98d2-4faa-4a33-a5cc-1471bd5c165b]
+> [!VIDEO f27c2d93-6765-4e73-83a3-0257fcb27c8e]
 
 ### See also
 
@@ -136,7 +136,7 @@ This video provides an overview of the steps to set access types and privileges.
 
 This video provides an overview of using web roles.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=192007af-dcc6-40fa-b683-0eb36e27a584]
+> [!VIDEO caad5aed-66cf-488c-9e5a-7e17ad26d8cc]
 
 ### See also
 
@@ -162,7 +162,7 @@ In this video, we create a form by using the Data workspace.
 
 ### Add a form to page
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=2b0f0528-10f8-4f18-8548-a932c7ef369a]
+> [!VIDEO 314d2bf3-0b7e-4a1c-9536-eba3ad594bfd]
 
 <!-- may retire this one
 ### Configure form options
@@ -221,13 +221,13 @@ The following videos provide an overview of authentication and walk you through 
 
 ### Authentication overview
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=93986f06-7a78-4fcd-8a30-57d849557c04]
+> [!VIDEO c44653b7-e2f5-4daa-b8cc-8f2e5259a5fd]
 
 ### Configure identity provider
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=8f3f4cd7-ef83-41f2-b637-2029e60d61bf]
+> [!VIDEO 3907d73b-6323-4258-b7b7-b65e50e2b656]
 
 ### See also
 
-[Configure Power Pages site authentication](../security/authentication/configure-site.md)
-[Page permissions](../security/page-security.md)
+- [Configure Power Pages site authentication](../security/authentication/configure-site.md)  
+- [Page permissions](../security/page-security.md)

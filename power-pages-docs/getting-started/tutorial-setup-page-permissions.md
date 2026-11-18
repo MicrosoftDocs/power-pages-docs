@@ -33,7 +33,7 @@ When you create your site, you may want to protect one or more pages so that onl
 
 This video shows you how to restrict access to a specific webpage.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=51dd98d2-4faa-4a33-a5cc-1471bd5c165b]
+> [!VIDEO f27c2d93-6765-4e73-83a3-0257fcb27c8e]
 
 The following steps outline how to configure page permissions to restrict access to a specific page.
 

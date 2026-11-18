@@ -4,7 +4,7 @@ description: Learn how to set up table permissions and link to web roles.
 author: shwetamurkute
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 03/28/2025
+ms.date: 11/17/2026
 ms.subservice:
 ms.author: bipuldeora 
 ms.reviewer: smurkute
@@ -130,39 +130,52 @@ For more information, see:
 
 ## Add web roles
 
-In our examples so far, we assigned the table permissions to the default **Authenticated Users** and **Anonymous Users** web roles.
+Create custom web roles to control which site visitors can access data and restricted pages. In this example, you create a **Students** web role, assign it to a contact, and associate it with an existing table permission.
+
+Power Pages includes default web roles. **Anonymous Users** applies to visitors who aren't signed in, and **Authenticated Users** applies to everyone who signs in. The **Administrators** role provides access to manage site content.
 
 This video provides an overview of using web roles.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=192007af-dcc6-40fa-b683-0eb36e27a584]
+> [!VIDEO caad5aed-66cf-488c-9e5a-7e17ad26d8cc]
 
-We can also create our own custom web roles to further limit access to data and pages to certain site visitors.
+### Create a custom web role
 
-1. In the design studio, select the ellipses **...** from the side menu and select **Portal Management** to open the Portal Management app.
+Create the web role in the Power Pages Management app.
 
-1. In the Portals Management app, under the **Security** section, select **Web Roles**.
+1. In the Power Pages design studio, select the ellipsis (**...**) in the left navigation, and then select **Power Pages Management**. The app opens in a new tab.
+1. In the Power Pages Management app, under **Security**, select **Web Roles**.
+1. Select **New**.
+1. In **Name**, enter a descriptive name for the web role, such as **Students**.
+1. In **Website**, select your site.
+1. Leave **Authenticated Users Role** and **Anonymous Users Role** set to **No**.
+1. Select **Save**.
 
-1. Select **New** to create a new web role and give it a descriptive name. Leave the **Authenticated Users** and the **Anonymous Users** roles set to **No**.
+### Assign the web role to a contact
 
-    :::image type="content" source="media/tutorial/create-webrole.png" alt-text="Create web role.":::
+The site stores users as contact records. Assign the custom web role to each contact who needs the access it provides.
 
-1. Save the web role record.  
+1. In the Power Pages Management app, under **Security**, select **Contacts**.
+1. Open the contact record for the site user.
+1. On the **General** tab, scroll to the **Web Roles** section, and then select **Add Existing Web Role**.
+1. In the **Lookup Records** pane, search for and select **Students**, and then select **Add**.
+1. Confirm that **Students** appears in the contact's **Web Roles** section.
 
-1. Select **Related** and choose **Contacts**. Select **Add existing contacts** choose a few contacts.
+### Associate the web role with a table permission
 
-    :::image type="content" source="media/tutorial/add-contacts-webrole.png" alt-text="Add contacts to web role.":::
+Assign the custom web role to an existing table permission to give its members the access defined by that permission.
 
-    > [!NOTE]
-    > Site users are stored as Contacts records.
+1. Return to the Power Pages design studio.
+1. Select the **Security** workspace, and then select **Table permissions**.
+1. Open the table permission you want to associate with the web role. In the video example, the table permission is **Feedback**.
+1. On the **Basic** tab, under **Roles**, select **Add roles**.
+1. Select **Students**.
+1. Close the role selector, and then select **Save**.
 
-1. Within the design studio on a list or a form, choose the permissions button and select a table permission, then assign the custom web role.
+> [!IMPORTANT]
+> Adding a custom web role doesn't remove access granted to other web roles. To limit this table permission to members of **Students**, remove the other roles from this permission. Review other table permissions for the same table, because they might also grant access.
 
-    :::image type="content" source="media/tutorial/assign-student-webrole.png" alt-text="Screenshot that shows assigning the student web role.":::
-
-    > [!NOTE]
-    > You need to restart the design studio or clear the browser cache (ctrl + F5) to see the new web role.
-
-1. Preview the site and note that only users logged in are able to view the data on a form or list.
+> [!NOTE]
+> If the new web role doesn't appear, select **Sync** in the design studio, refresh the browser page, and then reopen the table permission.
 
 ## Next steps
 
