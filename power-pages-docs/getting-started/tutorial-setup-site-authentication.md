@@ -3,10 +3,10 @@ title: "Tutorial: Configure authorized access to your site"
 description: Learn how to configure Azure AD B2C authentication provider to your Power Pages site.
 author: dmartens
 ms.topic: tutorial
-ms.date: 06/02/2022
+ms.date: 11/17/2026
 ms.subservice:
-ms.author: dmartens 
-ms.reviewer: 
+ms.author: bipuldeora 
+ms.reviewer: smurkute
 contributors:
 ms.custom:
   - template-tutorial
@@ -34,11 +34,11 @@ Setting up an external authentication provider will allow you to provide access 
 
 This video provides an overview of authentication in Power Pages.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=93986f06-7a78-4fcd-8a30-57d849557c04]
+> [!VIDEO c44653b7-e2f5-4daa-b8cc-8f2e5259a5fd]
 
 This video provides an overview of the steps to configure authentication providers.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=8f3f4cd7-ef83-41f2-b637-2029e60d61bf]
+> [!VIDEO 3907d73b-6323-4258-b7b7-b65e50e2b656]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 
@@ -49,21 +49,17 @@ This video provides an overview of the steps to configure authentication provide
 1. Select **Configure**.
 
     - Ensure **Azure Active Directory B2C** is selected and then choose **Next**.
-    :::image type="content" source="media/tutorial/azure-b2c.png" alt-text="Select a login provider.":::
-
+    
 1. Fill in the details.
 
     - Choose an Azure subscription.
     - Create an Azure resource group.
     - Select a country.
     - Select **Next**.
-    :::image type="content" source="media/tutorial/resource-group.png" alt-text="Enter details to configure identity provider.":::
 
 1. Confirm the defaults and then select **Next**.
 
 1. Select defaults (new policy) and then select **Create**.
-
-    :::image type="content" source="media/tutorial/create-button.png" alt-text="The create button.":::
 
 1. Select **Close**.
 

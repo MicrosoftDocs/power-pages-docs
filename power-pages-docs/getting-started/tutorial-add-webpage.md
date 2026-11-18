@@ -4,7 +4,7 @@ description: Learn how to add a page to your Power Pages site.
 author: shwetamurkute
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 11/19/2024
+ms.date: 11/17/2026
 ms.subservice:
 ms.author: bipuldeora 
 ms.reviewer: smurkute
@@ -32,9 +32,9 @@ In this tutorial, you learn how to:
 
 In these steps, you'll create a page using a blank layout. As you learn more about Power Pages, you can use other layouts or even create your own [custom layouts](../configure/web-templates.md).
 
-This video provides an overview of the steps to create a page using a blank layout.
+This video provides an overview of the steps to create a page by using Copilot or a blank layout.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c91ca438-af3e-4cd8-8382-2469a1076682]
+> [!VIDEO 5a91b8c3-0a68-4695-b224-8c77adb00f42]
 
 1. Go to [Power Pages](https://make.powerpages.microsoft.com/).
 1. Select **Edit** on the site you want to add a page. If you don't have a site, [create a site](create-manage.md) before continuing.

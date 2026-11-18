@@ -4,7 +4,7 @@ description: Learn how to add forms with code components to your Power Pages.
 author: shwetamurkute
 ms.topic: tutorial
 ms.custom: template-tutorial
-ms.date: 02/05/2025
+ms.date: 11/17/2026
 ms.subservice:
 ms.author: bipuldeora 
 ms.reviewer: 
@@ -95,51 +95,87 @@ The form now has a code component linked to the field.
 
 ## Add a form to a page
 
-The following steps provide details on how to add your form to a page.
+Add a form to collect information from site visitors and save it in Microsoft Dataverse. You can describe the form you need to Copilot or select an existing Dataverse form.
+
+Open your site in the Power Pages design studio, and then use either of the following methods. After you add the form, review its table permissions and preview the page.
 
 This video provides an overview of the steps to add a form to a page.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=2b0f0528-10f8-4f18-8548-a932c7ef369a]
+> [!VIDEO 314d2bf3-0b7e-4a1c-9536-eba3ad594bfd]
 
-1. Open a Power Pages site in the design studio.
+### Create a form with Copilot
 
-1. Choose the **+ icon** next to **Main Navigation** to add a new page.
+Describe the information you want to collect, and then use Copilot to generate and refine the form. In this example, you create a volunteer sign-up form.
 
-1. Fill in the details.
-    1. Give the page a name.
-    1. Choose the **Start from Blank template**.
-    1. Select **Add**.
+1. In the **Pages** workspace, select the page where you want to add the form.
 
-    :::image type="content" source="media/tutorial/add-page.png" alt-text="Details for your new page.":::
+2. In the section where you want the form to appear, select **Form** from the component bar.
 
-1. Select **Form** from the component bar.
+3. Under **Describe a form to create it**, enter a description of the form. For example:
 
-    :::image type="content" source="media/tutorial/form-icon.png" alt-text="THe form icon from the component bar.":::
+   > A volunteer sign-up form for trail days, with name, email, preferred weekday, and a comments box.
 
-1. Select **+ New form**.
+4. Select the arrow in the prompt box to generate the form.
 
-    :::image type="content" source="media/tutorial/add-a-form.png" alt-text="Add a form window.":::
+5. Review the generated form in the preview.
 
-1. Fill in the details.
-    1. Select the **Feedback table**.
-    1. Select the form you created previously.
-    1. Select **Ok**.
+6. To change the form, enter a request under **Do you want to make any changes?**, and then select the arrow. For example:
 
-    :::image type="content" source="media/tutorial/add-form-details.png" alt-text="Details for Add a Form":::
+   > Add a phone number field.
 
-1. Select the **Permissions** button.
+7. Review the updated form, and then select **OK** to add it to the page.
 
-    :::image type="content" source="media/tutorial/permissions.png" alt-text="The permissions button.":::
+> [!NOTE]
+> Copilot results can vary. Review the generated fields and collect only the personal data you need for the form's purpose.
 
-1. Select **Feedback permissions**.
+### Add an existing Dataverse form
 
-    - Ensure the **Create privilege** is checked and that **Anonymous** and **Authenticated** web roles are linked.
+Select a form from a Dataverse table instead of generating one with Copilot. In this example, you use the **Feedback** form from the **Feedback** table.
 
-    :::image type="content" source="media/tutorial/web-roles-feedback.png" alt-text="Options for setting feedback permissions."::: 
+1. In the **Pages** workspace, select the page where you want to add the form.
 
-1. Select **Preview page**.
+2. In the section where you want the form to appear, select **Form** from the component bar.
 
-    :::image type="content" source="media/tutorial/preview-icon.png" alt-text="Preview icon.":::
+3. Under **Other ways to get started**, select **New form**.
+
+4. In the **Add a form** dialog, under **Choose a table**, select **Feedback**.
+
+5. Under **Select a form**, select **Feedback**, or select the form you created previously for that table.
+
+6. In **Name your copy of the selected form**, enter a descriptive name, such as **Visitor feedback**.
+
+7. Select **OK** to add the form to the page.
+
+### Configure table permissions
+
+Table permissions determine which site visitors can submit information. Review the permissions for the table used by your form. The following steps use the **Feedback** table permission shown in this example.
+
+1. Select the form on the page, and then select **Permissions** on the form toolbar.
+
+2. In the **Table permissions** pane, select **Feedback**.
+
+3. On the **Basic** tab, confirm that **Table** is set to **Feedback**.
+
+4. For this example, set **Access type** to **Global access**.
+
+5. Under **Permission to**, select **Create** so visitors can submit new records.
+
+6. Under **Roles**, select **Add roles**, and then select **Anonymous Users** and **Authenticated Users** to allow submissions from visitors who aren't signed in and visitors who are signed in.
+
+7. Close the role selector, and then select **Save**.
+
+> [!IMPORTANT]
+> Include **Anonymous Users** only if you want visitors who aren't signed in to submit the form. Grant only the permissions your form needs. For this example, visitors need **Create**, not **Read**, **Update**, or **Delete**.
+
+### Preview the form
+
+Preview the page to check how the form appears to site visitors.
+
+1. Close the permissions pane, and then select **Preview** in the design studio.
+
+2. Select **Desktop** to open the site in a new tab.
+
+3. Review the form on the page and confirm that the expected fields appear.
 
 ## Enable code components on form fields
 
