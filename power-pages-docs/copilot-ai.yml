@@ -131,8 +131,6 @@ landingContent:
 
       - linkListType: concept
         links:
-          - text: Copilot international availability
-            url: https://aka.ms/bapcopilot-intl-report-external
           - text: Copilot in Dynamics 365 apps and Power Platform availability
             url: /power-platform/faqs-copilot-data-security-privacy#copilot-in-dynamics-365-apps-and-power-platform
           - text: Data movement across regions for copilots

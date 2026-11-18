@@ -66,5 +66,4 @@ When you enter a question in the Copilot sidecar, you're prompted to enable Bing
 
 ## See also
 
-* [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 * [FAQ for Copilot for design studio](../faqs-design-studio.md)

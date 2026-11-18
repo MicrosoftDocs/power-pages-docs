@@ -79,7 +79,6 @@ Here are examples of the same generated text, before and after applying refineme
 
 ### See also
 
-- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 - [FAQ for generating text](../faqs-generate-text.md)
 - [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
 - [Create a form in a webpage using a Copilot](../getting-started/add-form-copilot.md)

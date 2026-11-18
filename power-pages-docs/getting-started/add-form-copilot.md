@@ -82,7 +82,6 @@ If you remove an AI-generated form from the page, you remove it from that page o
 
 ### See also
 
-- [Geographic and language availability for Copilot features](https://aka.ms/bapcopilot-intl-report-external)
 - [FAQ for creating AI-generated form](../faqs-create-form.md)
 - [Create an AI-generated webpage using Copilot](../getting-started/create-page-copilot.md)
 - [Add AI-generated text using Copilot](../getting-started/add-text-copilot.md)
