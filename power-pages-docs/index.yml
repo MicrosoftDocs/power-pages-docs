@@ -110,11 +110,11 @@ additionalContent:
     - title: Use solutions
       links:
         - text: Use solutions with Power Pages
-          url: /power-pages/configure/power-pages-solutions
+          url: /power-platform/alm/power-pages/power-pages-solutions?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
         - text: Understand Power Pages ALM
-          url: /power-pages/configure/portals-alm
+          url: /power-platform/alm/power-pages/portals-alm?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
         - text: Use Power Platform pipelines with Power Pages
-          url: /power-pages/configure/power-pages-pipelines
+          url: /power-platform/alm/power-pages/power-pages-pipelines?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
     - title: Integrate with other products
       links:
         - text: Set up Power BI integration

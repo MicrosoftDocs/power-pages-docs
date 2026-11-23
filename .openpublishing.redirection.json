@@ -179,6 +179,21 @@
       "source_path": "power-pages-docs/configure/client-api-controls.md",
       "redirect_url": "/power-pages/configure/client-api/controls",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/configure/portals-alm.md",
+      "redirect_url": "/power-platform/alm/power-pages/portals-alm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/configure/power-pages-pipelines.md",
+      "redirect_url": "/power-platform/alm/power-pages/power-pages-pipelines",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "power-pages-docs/configure/power-pages-solutions.md",
+      "redirect_url": "/power-platform/alm/power-pages/power-pages-solutions",
+      "redirect_document_id": false
     }
   ]
 }

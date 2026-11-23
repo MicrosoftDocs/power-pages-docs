@@ -740,12 +740,6 @@
       href: configure/power-fx.md
     - name: Use admin APIs
       href: admin/admin-api.md
-    - name: Power Pages ALM
-      href: configure/portals-alm.md
-    - name: Use solutions with Power Pages
-      href: configure/power-pages-solutions.md
-    - name: Use Power Platform pipelines with Power Pages
-      href: configure/power-pages-pipelines.md
 - name: Secure Power Pages
   items:
     - name: Overview
@@ -870,6 +864,46 @@
       href: security/security-best-practices.md
     - name: Power Pages security FAQ
       href: security/faq.yml
+- name: Application lifecycle management (ALM)
+  items:
+    - name: Overview
+      href: /power-platform/alm/power-pages/portals-alm?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+    - name: Plan ALM for Power Pages
+      href: /power-platform/alm/power-pages/plan-alm?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+    - name: Configure ALM with built-in tools
+      items:
+        - name: Add a site to a solution
+          href: /power-platform/alm/power-pages/power-pages-solutions?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+        - name: Source control integration (preview)
+          href: /power-platform/alm/power-pages/power-pages-source-control?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+        - name: Use environment variables with site settings
+          href: /power-platform/alm/power-pages/environment-variables-for-site-settings?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+        - name: Deploy with pipelines in Power Platform
+          href: /power-platform/alm/power-pages/power-pages-pipelines?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+        - name: ALM for single-page applications
+          href: /power-platform/alm/power-pages/power-pages-spa-alm?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+    - name: Configure ALM with developer tools
+      items:
+       - name: Overview of ALM with developer tools
+         href: /power-platform/alm/power-pages/developer-tools-overview?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+       - name: Set up source control and branching
+         href: /power-platform/alm/power-pages/source-control-developer-tools?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+       - name: Automate deployments with Power Platform Build Tools
+         href: /power-platform/alm/power-pages/build-tools?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+       - name: Automate deployments with GitHub Actions
+         href: /power-platform/alm/power-pages/github-actions?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+       - name: Manage environment-specific values
+         href: /power-platform/alm/power-pages/environment-specific-values?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+       - name: CI/CD for single-page applications
+         href: /power-platform/alm/power-pages/spa-developer-tools?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+    - name: Roll back and hotfix releases
+      href: /power-platform/alm/power-pages/rollback-hotfix?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+    - name: Migrate website configuration
+      href: admin/migrate-site-configuration.md
+    - name: Troubleshoot ALM
+      href: /power-platform/alm/power-pages/troubleshoot-alm?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
+    - name: ALM white paper
+      href: guidance/white-papers/application-lifecycle-management.md?toc=/power-pages/toc.json&bc=/power-pages/breadcrumb/toc.json
 - name: Go live
   items:
     - name: Go live checklist

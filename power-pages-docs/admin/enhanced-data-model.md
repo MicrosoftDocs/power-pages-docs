@@ -239,5 +239,5 @@ You can use the new Power Pages Management app to edit new websites that are cre
 
 ## See also
 
-- [Use solutions with Power Pages](../configure/power-pages-solutions.md)
+- [Use solutions with Power Pages](/power-platform/alm/power-pages/power-pages-solutions)
 - [Power Platform CLI solution support for Power Pages](../configure/power-platform-cli-solution-management.md)

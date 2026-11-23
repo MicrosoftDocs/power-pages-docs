@@ -123,7 +123,7 @@ During the import process into the target environment, assign a value to the env
 
 ## Manage environment variables
 
-You can manage site settings with environment variables whether you deploy [solutions](power-pages-solutions.md) manually or through [pipelines](power-pages-pipelines.md).
+You can manage site settings with environment variables whether you deploy [solutions](/power-platform/alm/power-pages/power-pages-solutions) manually or through [pipelines](/power-platform/alm/power-pages/power-pages-pipelines).
 
 ### Solutions
 
@@ -153,7 +153,7 @@ Set up your environment variables and sites across different environments by fol
 
 ### Pipelines
 
-If you use [pipelines](power-pages-pipelines.md) to deploy solutions, you specify the value of the environment variable for the target environment. If you update it, refresh the corresponding site settings to reflect the new value.
+If you use [pipelines](/power-platform/alm/power-pages/power-pages-pipelines) to deploy solutions, you specify the value of the environment variable for the target environment. If you update it, refresh the corresponding site settings to reflect the new value.
   
 :::image type="content" source="media/environment-variables-for-site-settings/pipeline-deployment-setting.png" alt-text="Screenshot of the pipeline deployment settings for environment variables.":::
 

@@ -48,7 +48,7 @@ Prepare the target environment if you're using the standard data model. An envir
 
 ## Transfer the website configuration to target environment
 
-[Transfer](#transfer-website-metadata) the site metadata from the source environment by using the Power Platform CLI, the Configuration Migration Tool, or [solutions](../configure/power-pages-solutions.md).
+[Transfer](#transfer-website-metadata) the site metadata from the source environment by using the Power Platform CLI, the Configuration Migration Tool, or [solutions](/power-platform/alm/power-pages/power-pages-solutions).
 
 ## Reactivate site on target environment
 
@@ -73,7 +73,7 @@ After you transfer the website to the target environment, reactivate the website
 
 # [Solutions](#tab/sol)
 
-If you configure your website by using the [enhanced data model](../admin/enhanced-data-model.md), you can transfer the website configuration by using Power Platform solutions. For more information, see [Using solutions with Power Pages](../configure/power-pages-solutions.md).
+If you configure your website by using the [enhanced data model](../admin/enhanced-data-model.md), you can transfer the website configuration by using Power Platform solutions. For more information, see [Using solutions with Power Pages](/power-platform/alm/power-pages/power-pages-solutions).
 
 > [!NOTE]
 > Make sure the target environment also has the [enhanced data model](../admin/enhanced-data-model.md) enabled.
@@ -156,7 +156,7 @@ Microsoft Power Platform CLI provides many features specifically for [Power Page
 ### Transfer website configuration by using the Configuration Migration tool
 
 >[!NOTE]
-> The preferred method to transfer website metadata is to use [solutions](../configure/power-pages-solutions.md) or the [Power Platform CLI](#transfer-website-configuration-by-using-power-platform-cli).
+> Use [solutions](/power-platform/alm/power-pages/power-pages-solutions) or the [Power Platform CLI](#transfer-website-configuration-by-using-power-platform-cli) to transfer website metadata.
 
 To export configuration data, use the Configuration Migration tool and a website-specific configuration schema file. For more information about this tool, see [Manage configuration data](/power-platform/admin/manage-configuration-data).
 
@@ -334,7 +334,7 @@ Some admin settings return to their default values after migration. Review and c
 ### See also
 
 - [Power Pages support for Microsoft Power Platform CLI](/power-apps/maker/portals/power-apps-cli)
-- [Using solutions with Power Pages](../configure/power-pages-solutions.md)
+- [Using solutions with Power Pages](/power-platform/alm/power-pages/power-pages-solutions)
 - [Enhanced data model](../admin/enhanced-data-model.md)
 - Tenant-to-tenant migration of a [Power Platform environment](/power-platform/admin/move-environment-tenant)
 - Tenant-to-tenant migration of [model-driven apps](/dynamics365/admin/move-instance-tenant) in Dynamics 365 such as Sales, Customer Service, Marketing, Field Service, and Project Service Automation
