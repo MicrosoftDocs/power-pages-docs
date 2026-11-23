@@ -5,7 +5,7 @@ description: Learn how to use built-in server objects like Logger, HttpClient, a
 author: nageshbhat-msft
 ms.author: nabha
 ms.reviewer: smurkute
-ms.date: 09/15/2026
+ms.date: 11/23/2026
 ms.topic: reference
 ---
 
@@ -18,7 +18,8 @@ Server logic provides built-in objects under the server namespace. These objects
 Use the HTTP client to integrate with external services by sending HTTP requests.
 
 > [!NOTE]
-> Currently, server logic supports only `application/json`, `text/html`, and `application/x-www-form-urlencoded` content types in the request body.
+> - Outbound HTTPS requests made through `Server.Connector.HttpClient` require TLS 1.3. Requests to external APIs that don't support TLS 1.3 fail because a secure connection can't be established.
+> - Currently, server logic supports only text, form URL-encoded, binary, and multipart form-data request bodies. For binary content types, pass the body as a base64-encoded string.
 
 ### Examples
 

@@ -18,7 +18,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Power Pages [enhanced data model](../admin/enhanced-data-model.md) supports the [solution awareness feature for Power Pages](power-pages-solutions.md). This feature helps you use Microsoft Power Platform solution capabilities to move a website configuration from one environment to another.
+The Power Pages [enhanced data model](../admin/enhanced-data-model.md) supports the [solution awareness feature for Power Pages](/power-platform/alm/power-pages/power-pages-solutions). This feature helps you use Microsoft Power Platform solution capabilities to move a website configuration from one environment to another.
 
 > [!IMPORTANT]
 > - This feature is a preview feature.
