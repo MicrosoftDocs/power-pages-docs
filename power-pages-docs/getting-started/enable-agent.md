@@ -2,7 +2,7 @@
 title: Add an agent from the setup workspace
 description: Add an agent to Power Pages for instant, AI-powered help. Improve user experience and resolve questions faster with easy setup instructions.
 ms.topic: how-to
-ms.date: 07/13/2026
+ms.date: 11/24/2026
 ms.update-cycle: 180-days
 author: nageshbhat-msft
 ms.author: nabha
@@ -69,8 +69,8 @@ Follow these steps to create an agent manually:
 You can add a custom agent created in Microsoft Copilot Studio to your Power Pages site by selecting **Add agent**. After adding the agent, assign the appropriate web roles to make it available to the intended site users.
 
 > [!NOTE]
+> - Agents powered by the [Microsoft Copilot harness](/microsoft-copilot-studio/harnesses-overview#microsoft-copilot-harness) in Microsoft Copilot Studio aren't currently supported by the Power Pages.
 > - If a site meets the conditions outlined in the [Prerequisites](#prerequisites) section, an agent is added to the site during site provisioning. If you don't want to create an agent by default, [service admins](/power-platform/admin/use-service-admin-role-manage-tenant) can turn off this capability at the tenant level. To learn more, see [Manage agent provisioning](/power-pages/getting-started/manage-copilot-provisioning).
-> - To change your site's custom domain after you add an agent, turn off the agent, update the custom domain, and then turn the agent back on.
 > - If you turn off the agent feature, wait a few minutes for background operations to finish before turning it back on.
 
 ## Next steps
