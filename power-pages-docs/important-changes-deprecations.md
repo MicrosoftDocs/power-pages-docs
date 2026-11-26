@@ -4,7 +4,7 @@ description: Learn about the important changes, including deprecations, coming s
 author: shwetamurkute
 
 ms.topic: concept-article
-ms.date: 10/26/2026
+ms.date: 11/26/2026
 ai-usage: ai-assisted
 ms.subservice: 
 ms.author: bipuldeora
@@ -25,6 +25,15 @@ The announcements for changes and deprecations described in this article apply t
 
 > [!IMPORTANT]
 > *Deprecated* means that Microsoft plans to remove the feature or capability in a future major release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability no longer works. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+## AI form fill assistance on forms
+
+Effective November 2026, [AI form fill assistance on forms (preview)](getting-started/add-form.md#enable-ai-form-fill-assistance-on-a-form-preview) is deprecated and will be removed in a future release. This preview feature helps site users fill form fields by extracting information from uploaded documents and images. It also provides Draft assistance to help users rewrite text in multiline text fields.
+
+### What this change means for you
+The feature continues to work until it's removed. After removal, users can no longer use AI form fill assistance to populate form fields from attachments or use Draft assistance to rewrite text.
+
+Users can continue to enter information manually and submit forms. Standard form functionality, including attachments configured independently of AI form fill assistance, isn't affected. If your site uses this feature, update any instructions or user guidance that refer to AI form fill assistance or Draft assistance before the feature is removed.
 
 ## Add AI-generated code using Copilot
 
