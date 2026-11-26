@@ -3,7 +3,7 @@ title: Add forms
 description: Discover how to add and customize forms in Power Pages, including enabling attachments, setting permissions, and utilizing code components.
 author: shwetamurkute
 ms.topic: how-to
-ms.date: 07/13/2026
+ms.date: 11/26/2026
 ms.update-cycle: 180-days
 ms.author: bipuldeora
 ms.reviewer: smurkute
@@ -194,6 +194,9 @@ After you [enable a code component](#enable-code-components-on-form-fields), pro
 ### Enable AI form fill assistance on a form (preview)
 
 [!INCLUDE [file-name](~/../shared-content/shared/preview-includes/preview-banner.md)]
+> [!IMPORTANT]
+> AI form fill assistance on forms (preview) is deprecated and will be removed in a future release. This deprecation includes autofilling form fields from uploaded documents and images, and draft assistance for multiline text fields. The feature continues to work until it's removed.
+
 Enabling AI form fill gives your users AI assistance to fill the form faster and with higher accuracy. Enable AI form fill by switching on the toggle.
 Enabling AI form fill gives your form users AI assistance that helps them fill the form faster and with higher accuracy. You can enable AI form fill by switching on the toggle.
   
